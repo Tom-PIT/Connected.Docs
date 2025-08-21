@@ -4,7 +4,7 @@ Prevzemni dokument je skladiščni dokument, s katerim prevzemamo blago s strani
 
 ## Glava
 
-V glavi dokumenti se nahajajo naslednja polja:
+V glavi dokumenta se nahajajo naslednja polja:
 
 |Polje|Opis
 |---|---
