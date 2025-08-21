@@ -1,6 +1,6 @@
 # Vsebina
 
-Connected ponuja širok spekter predpripravljenih vsebin, ki so organizirane v [domene](Domains.md), pri čemer vsaka domena pokriva svoje področje. Poleg domen se del vsebin nanaša na tako imenovano *splošno domeno*, ki ponuja vsebine, ki jih deli več ostalih domen.
+Connected ponuja širok spekter predpripravljenih vsebin, ki so organizirane v [domene](Domene.md), pri čemer vsaka domena pokriva svoje področje. Poleg domen se del vsebin nanaša na tako imenovano *splošno domeno*, ki ponuja vsebine, ki jih deli več ostalih domen.
 
 Vpeljevanje connected vključuje nekaj korakov:
 
@@ -10,7 +10,7 @@ Vpeljevanje connected vključuje nekaj korakov:
 
 ## Nastavitve
 
-V tej fazi [skrbnik](Common/Roles/Admin.md) nastavi ustrezne nastavitve, ki so potrebne za pravilno delovanje sistema. Mnogo nastavitev je že predpripravljenih in nastavljenih s samo namestitvijo, nekatere pa je vseeno potrebno vnesti ročno.
+V tej fazi [skrbnik](Splosno/AplikacijskeVloge/Skrbnik.md) nastavi ustrezne nastavitve, ki so potrebne za pravilno delovanje sistema. Mnogo nastavitev je že predpripravljenih in nastavljenih s samo namestitvijo, nekatere pa je vseeno potrebno vnesti ročno.
 
 ## Konfiguracija
 
