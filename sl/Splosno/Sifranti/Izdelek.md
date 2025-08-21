@@ -51,13 +51,7 @@ Klik na [akcijski gumb](../../Splosno/UporabniskiVmesnik/AkcijskiGumb.md) prika�
 
 ### Uvoz
 
-Uvoz izdelkov omogoča masovno vnašanje oziroma posodabljanje seznama izdelkov. Uporabnik pripravi datoteko v `CSV` obliki oziroma *Excel* datoteko, ki jo prenese v sistem, ki nato samodejno bodisi ustvari bodisi posodobi seznam izdelkov. Ključ je **Šifra** izdelka. Torej, za vsak posamezen zapis sistem ugotavlja, ali izdelek s podano **Šifro** obstaja. V kolikor obstaja, se obstoječ izelek posodobi z vrednostmi iz datoteke, v kolikor ne, se ustvari nov izdelek.
-
-Datoteka mora vsebovati naslednja polja:
-
-- Šifra
-- Naziv
-
+[Uvoz](UvozMaterialov.md) izdelkov omogoča masovno vnašanje oziroma posodabljanje seznama izdelkov. Uporabnik pripravi datoteko v `CSV` obliki, ki jo prenese v sistem, ki nato samodejno bodisi ustvari bodisi posodobi seznam izdelkov. 
 
 ### Kopiraj obstoječi
 
