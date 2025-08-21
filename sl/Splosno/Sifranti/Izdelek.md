@@ -16,12 +16,11 @@ Predstavlja šifrant končnih izdelkov, ki pripadajo [materialom](../Materiali.m
 |Generiranje serijske številke| Določa način, po katerem se pri [prevzemu](../../Skladisce/Dokumenti/Prevzem.md) blaga [generira](../../Skladisce/SerijskeStevilke/GeneriranjeSerijskeStevilke.md) serijska številka za izdelek.
 |EAN| [EAN](https://en.wikipedia.org/wiki/International_Article_Number) oznaka izdelka.
 |Število decimalnih mest| Določa privzeto število decimalnih mest za prikaz vrednosti oziroma količin izdelka.
-|Pakiranje|
-|Opis|
-|Oznake
-|Info povezava
-|URL do slike izdelka
-|Zunanji ključ
+|Opis| Kratek opis izdelka.
+|Oznake|Oznake izdelka, s katerimi je mogoče kategorizirati izdelek.
+|Info povezava|URL do zunanjega opisa izdelka, v kolikor so informacije izdelka dostopne tudi zunaj sistema.
+|URL do slike izdelka|V kolikor obstaja fotografija izdelka na zunanjem sistemu, ki je dostopen preko spleta, to polje določa to vrednost.
+|Zunanji ključ| V kolikor se izdelek povezuje z zunanjim sistemom, to polje praviloma vsebuje vrednost iz zunanjega sistema, ki identificira ta zapis.
 
 ## Upravljanje
 
@@ -92,3 +91,5 @@ V kolikor uporabnik ne potrdi sporočila, uporabniški vmesnik ostane v načinu 
 ## Pakiranje
 
 V načinu urejanja se uporabniku ponudi nova možnost in sicer lahko dodaja [pakiranja](../../Skladisce/Pakiranje/README.md). Vsak izdelek lahko ima več pakiranj. Na primer, izdelek se lahko dobavi v embalaži po 5 kosov ali pa v embalaži po 10 kosov, kar pomeni, da gre za dobavo enakega izdelka, le z različnim pakiranjem.
+
+S klikom na **Dodaj pakiranje** se odpre [vnosna maska](../UporabniskiVmesnik/VnosnaMaska.md) za dodajanje pakiranja. Ta maska je identična maski pri [upravljanju](../../Skladisce/Pakiranje/README.md) s pakiranji in deluje na enak način.
