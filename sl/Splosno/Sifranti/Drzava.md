@@ -1,29 +1,25 @@
 # Država
 
-Država je osnovna politična in geografska enota, ki se uporablja v poslovnih procesih za označevanje lokacij, naslovov strank in dobaviteljev ter za povezovanje z davčnimi in carinskimi pravili. 
-
-Šifrant držav omogoča enotno obravnavo držav v vseh digitalnih vsebinah sistema.
+Države predstavljajo osnovne politične in geografske enote, ki se uporabljajo v mnogih digitalnih vsebinah sistema. So temeljna referenca pri poslovanju, saj so povezane s partnerji, naslovih, dobavami, poštnimi številkami in številnimi drugimi entitetami. Vsaka država ima svojo enolično identifikacijo, ki omogoča enotno in nedvoumno uporabo.
 
 ## Shema
 
-Šifrant držav vsebuje naslednja polja:
-
-|Polje|Opis
-|---|---
-|**Ime**| Ime države, na primer Slovenija ali Nemčija.
-|**LCID**| Identifikator jezika in regije, uporabljen za lokalizacijo države.
-|**ISO šifra**| Mednarodna dvočrkovna oznaka države po standardu ISO.
-|**Aktiven**| Označuje, ali je država trenutno v uporabi. Neaktivnih držav ne moremo uporabiti v novih dokumentih, ostanejo pa vidne v zgodovini.
+| Polje | Opis |
+|-------|------|
+| **Ime** | Naziv države. Na primer **Slovenija** ali **Avstrija**. |
+| **LCID** | Lokalizacijski identifikator, ki se uporablja za nastavitev jezika in regijskih posebnosti države. |
+| **Iso šifra** | Mednarodna standardna oznaka države. Na primer **SI** za Slovenijo ali **AT** za Avstrijo. |
+| **Aktiven** | Označuje, ali je država aktivna. Neaktivnih držav ne moremo uporabljati pri novih vnosih, ostanejo pa vidne v zgodovini. |
 
 ## Upravljanje
 
-Do šifranta držav dostopate preko [navigacije](../../Common/UI/Sitemap.md) in sicer preko **Prodaja / Upravljanje / Države**.
+Upravljanje s šifrantom držav je dostopno preko [navigacije](../../Common/UI/Sitemap.md) in sicer **Prodaja/Upravljanje/Države**.
 
-## Seznam držav
+### Seznam
 
-Privzeto se prikaže uporabniški vmesnik s seznamom že vnešenih oziroma obstoječih držav. V kolikor seznam ne vsebuje nobene države, je seznam prazen.
+Uporabniški vmesnik vsebuje seznam držav. V primeru, da noben zapis še ne obstaja, je seznam prazen. V vsakem zapisu se levo od naziva nahaja status v obliki barve, kjer modra barva pomeni, da je zapis aktiven, siva pa, da je neaktiven.  
 
-Vsak zapis ima na levi strani barvno oznako, ki ponazarja status: modra pomeni, da je država aktivna, siva pa, da je neaktivna. Pod nazivom države je prikazana značka **Poštne številke**, ki omogoča [urejanje poštnih številk](#urejanje-poštnih-številk) za posamezno državo.
+Pod nazivom države je prikazana značka **Poštne številke**. S klikom na značko uporabniški vmesnik preide v pogled za upravljanje [poštnih številk](PostnaStevilka.md), vezanih na izbrano državo.
 
 ![Seznam držav](../Assets/DrzavaSeznam.png "Seznam držav")
 
@@ -31,42 +27,38 @@ Vsak zapis ima na levi strani barvno oznako, ki ponazarja status: modra pomeni, 
 
 Klik na [akcijski gumb](../../Splosno/UporabniskiVmesnik/AkcijskiGumb.md) prikaže naslednje akcije:
 
-- Nov  
-- Uvoz  
-
-### Nov
-
-S klikom na akcijo **Nov** uporabniški vmesnik preide v način urejanja in prikaže vnosno masko za dodajanje nove države.
-
-![Dodajanje](../Assets/DrzavaNov.png "Dodajanje")
-
-- Kliknite **Dodaj**, da ustvarite novo državo. Zapis se nato prikaže v seznamu.  
-- Kliknite **Prekliči**, da postopek prekinete brez shranjevanja.
-
 ### Uvoz
 
-[Uvoz](UvozDrzav.md) omogoča masovno vnašanje oziroma posodabljanje seznama držav. Uporabnik pripravi datoteko v CSV obliki in jo prenese v sistem. Ta samodejno ustvari nove ali posodobi obstoječe zapise.
+Z akcijo **Uvoz** vnesete ali posodobite seznam držav iz pripravljene datoteke v obliki CSV. Sistem na ta način omogoča masovno obdelavo podatkov.
+
+### Dodajanje
+
+S klikom na akcijo **Nov** uporabniški vmesnik preide v način dodajanja. Odpre se vnosna maska, kjer izpolnite ustrezna polja za novo državo.  
+
+![Dodajanje države](../Assets/DrzavaNov.png "Dodajanje države")
+
+S klikom na gumb **Dodaj** se ustvari nova država in uporabniški vmesnik preide v seznam držav. S klikom na gumb **Prekliči** uporabniški vmesnik zapre vnosno masko brez shranjevanja podatkov.
+
 
 ## Urejanje
 
-Za urejanje države v seznamu kliknite na njen **Naziv**. Uporabniški vmesnik preide v način urejanja, ki je enak načinu vnosa, le da so polja že izpolnjena.
+Za urejanje države v seznamu kliknete na njen naziv. Odpre se vnosna maska z že izpolnjenimi podatki. 
 
-![Urejanje](../Assets/DrzavaUrejanje.png "Urejanje")
+![Urejanje države](../Assets/DrzavaUrejanje.png "Urejanje države")
 
-- Spremenite želena polja in kliknite **Shrani**, da shranite spremembe.  
-- Kliknite **Prekliči**, da postopek prekinete brez shranjevanja.
-
-### Urejanje poštnih številk
-
-Pod nazivom države je prikazana značka **Poštne številke**. 
-
-![Po[tne [tevilke]]](../Assets/DrzavaPostneStevilke.png "Poštne številke")
-
-S klikom na značko uporabniški vmesnik preide v pogled za upravljanje [poštnih številk](PostnaStevilka.md), vezanih na izbrano državo.
+Po spremembi polj kliknete **Shrani**, da se podatki posodobijo in vrnete v seznam. S klikom na **Prekliči** uporabniški vmesnik zapre vnosno masko brez shranjevanja sprememb.
 
 ## Brisanje
 
-Državo lahko izbrišete le, če se ne pojavlja v nobenem odvisnem zapisu. Za brisanje države najprej preidite v način [urejanja](#urejanje). V načinu urejanja kliknite **Izbriši**. Odpre se potrditveno sporočilo:  **Ali ste prepričani, da želite izbrisati zapis?**
+Državo lahko izbrišete le, če se ne pojavlja v nobenem odvisnem zapisu. Za brisanje države najprej preidete v način [urejanja](#urejanje). V načinu urejanja kliknete **Izbriši**. Odpre se potrditveno okno: **Ali ste prepričani, da želite izbrisati zapis?**
 
-- Če potrdite, se država trajno izbriše in izgine s seznama.  
-- Če prekličete, uporabniški vmesnik ostane v načinu urejanja in država ostane nespremenjena.
+- V kolikor potrditveno okno potrdite, se država trajno izbriše in izgine s seznama.  
+- V kolikor potrditveno okno prekličete, uporabniški vmesnik ostane v načinu urejanja in država ostane v sistemu.
+
+## Urejanje poštnih številk
+
+Pod nazivom države je prikazana značka **Poštne številke**. 
+
+![Poštne številke](../Assets/DrzavaPostneStevilke.png "Poštne številke")
+
+S klikom na značko uporabniški vmesnik preide v pogled za upravljanje [poštnih številk](PostnaStevilka.md), vezanih na izbrano državo.
