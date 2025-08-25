@@ -1,55 +1,51 @@
 # Merska enota
 
-Šifrant merskih enot se uporablja v sistemu za izražanje količin materialov, izdelkov in drugih postavk. Vsaka merska enota omogoča enotno obravnavo količin v vseh procesih sistema, na primer pri naročilih, skladišču in proizvodnji. Na ta način zagotovimo, da se enota, na primer kilogram, vedno obravnava enako, ne glede na modul.
+Merske enote predstavljajo osnovo za kvantitativno izražanje [materialov](../Materiali.md) in blaga v različnih digitalnih vsebinah sistema. Z njimi določimo, kako merimo količine, bodisi v kosih, metrih, kilogramih, litrih ali drugih merskih enotah. So ključen element pri nabavi, skladiščenju, proizvodnji in prodaji, saj omogočajo enotno in standardizirano obravnavo količin.
+
+Šifrant merskih enot omogoča enotno definicijo merskih enot, ki se uporabljajo v različnih dokumentih in postopkih v sistemu. 
 
 ## Shema
 
-Šifrant merskih enot vsebuje naslednja polja:
+Šifrant merskih enot ima naslednjo shemo:
 
-|Polje|Opis
-|---|---
-|**Naziv**| Polno ime merske enote, na primer kilogram, liter ali kos.
-|**Kratica**| Kratka oznaka merske enote, na primer kg, l ali kos.
-|**Natančnost**| Število decimalnih mest, ki se uporablja pri količinah v tej merski enoti.
-|**Aktiven**| Označuje, ali je merska enota trenutno v uporabi. Neaktivnih merskih enot ne moremo uporabiti v novih dokumentih, ostanejo pa vidne v zgodovini.
+|Polje|Opis|
+|---|---|
+|**Naziv**|Ime merske enote, ki se uporablja v seznamih in dokumentih. Na primer **Kilogram** ali **Meter**.|
+|**Kratica**|Kratica za mersko enoto, ki se uporablja v prikazih. Na primer **kg** ali **m**.|
+|**Natančnost**|Privzeto število decimalnih mest, ki se uporablja pri vrednostih v tej merski enoti. Na primer **0** ali **3**.|
+|**Aktiven**|Določa, ali je merska enota na voljo za uporabo v novih dokumentih. Neaktivnih ne moremo dodajati v novih dokumentih, ostanejo pa vidni v zgodovini.|
 
 ## Upravljanje
 
-Do šifranta merskih enot dostopate preko [navigacije](../../Common/UI/Sitemap.md) in sicer preko **Sredstva / Upravljanje / Merske enote**.
+Upravljanje s šifrantom merskih enot je dostopno preko [navigacije](../../Common/UI/Sitemap.md) in sicer **Nabava/Upravljanje/Merske enote**.  
 
-## Seznam merskih enot
+Uporabniški vmesnik privzeto prikazuje seznam obstoječih merskih enot. Seznam prikazuje obstoječe zapise, ki so razporejeni po nazivih. Na desni zgoraj je na voljo iskalno polje.
 
-Privzeto se prikaže uporabniški vmesnik s seznamom že vnešenih oziroma obstoječih merskih enot. V kolikor seznam ne vsebuje nobene merske enote, je seznam prazen.
+![Seznam](../Assets/MerskaEnotaSeznam.png "Seznam")
 
-V vsakem zapisu se levo od naziva nahaja barvna oznaka, ki ponazarja status merske enote. Modra barva pomeni, da je merska enota aktivna, siva barva pa pomeni, da je neaktivna.
-
-![Seznam merskih enot](../Assets/MerskaEnotaSeznam.png "Seznam merskih enot")
+V vsakem zapisu se levo od naziva nahaja barvni indikator stanja, modra barva označuje aktiven zapis, siva pa neaktiven.
 
 ## Dodajanje
 
-S klikom na akcijski gumb se neposredno izvede akcija **Nov** in uporabniški vmesnik preide v način urejanja. Odpre se vnosna maska za dodajanje nove merske enote.
+S klikom na akcijski gumb [Nov](../../Splosno/UporabniskiVmesnik/AkcijskiGumb.md) uporabniški vmesnik preide v način urejanja in prikaže se vnosna maska za dodajanje nove merske enote.  
 
 ![Dodajanje](../Assets/MerskaEnotaNov.png "Dodajanje")
 
-- Kliknite **Dodaj**, da ustvarite novo mersko enoto. Uporabniški vmesnik nato preide v privzeti način, ki prikazuje seznam obstoječih merskih enot.  
-
-![Seznam](../Assets/MerskaEnotaSeznam2.png "Seznam")
-
-- Kliknite **Prekliči**, da postopek prekinete brez shranjevanja. Nova merska enota se v tem primeru ne ustvari.
+S klikom na gumb **Dodaj** se ustvari nova merska enota in uporabniški vmesnik preide v privzet način, ki prikazuje seznam obstoječih merskih enot. S klikom na gumb **Prekliči** pa uporabniški vmesnik preide v privzet način brez shranjevanja podatkov.
 
 ## Urejanje
 
-Za urejanje merske enote v seznamu kliknite na njen **Naziv**. Uporabniški vmesnik preide v način urejanja, ki je enak načinu vnosa, le da so polja že izpolnjena.
+Za urejanje posamezne merske enote v seznamu kliknete na njen **Naziv**. Uporabniški vmesnik preide v način urejanja, kjer so podatki že izpolnjeni.  
 
 ![Urejanje](../Assets/MerskaEnotaUrejanje.png "Urejanje")
 
-- Spremenite želena polja in kliknite **Shrani**, da shranite spremembe. Seznam se posodobi in prikaže posodobljeno vrednost.  
-- Kliknite **Prekliči**, da postopek prekinete brez shranjevanja. Spremembe se v tem primeru ne upoštevajo.
+Spremenite želena polja in kliknite na gumb **Shrani**, da se spremembe shranijo. S klikom na gumb **Prekliči** pa uporabniški vmesnik preide v privzet način brez shranjevanja.
 
 ## Brisanje
 
-Mersko enoto lahko izbrišete le, če ni povezana z nobenim izdelkom, materialom ali dokumentom. Za brisanje merske enote najprej preidite v način [urejanja](#urejanje). V načinu urejanja kliknite **Izbriši**. Odpre se potrditveno sporočilo:  
-*Ali ste prepričani, da želite izbrisati zapis?*
+Mersko enoto lahko izbrišete le, če se ne pojavlja v nobenem odvisnem zapisu. Za brisanje merske enote najprej preidete v način [urejanja](#urejanje). V načinu urejanja kliknete na gumb **Izbriši**.  
 
-- Če potrdite, se merska enota trajno izbriše in izgine s seznama.  
-- Če prekličete, uporabniški vmesnik ostane v načinu urejanja in merska enota ostane nespremenjena.
+Odpre se potrditveno okno: **Ali ste prepričani, da želite izbrisati zapis?**
+
+- V kolikor potrditveno okno potrdite, se merska enota trajno izbriše in izgine s seznama.  
+- V kolikor potrditveno okno prekličete, uporabniški vmesnik ostane v načinu urejanja in merska enota ostane v sistemu.
