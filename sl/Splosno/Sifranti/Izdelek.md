@@ -1,6 +1,16 @@
 # Izdelek
 
+Izdelki predstavljajo končne proizvode, ki jih podjetje bodisi proizvaja bodisi kupuje. Gre za materialno blago, ki ni namenjeno neposredni prodaji končnim kupcem, je pa lahko vključeno v proizvodnjo drugih izdelkov ali pa se uporablja znotraj notranjih procesov podjetja. Izdelki so ključni element poslovanja, saj določajo ponudbo podjetja kot del [sredstev](Sredstvo.md), so osnova za prihodke in imajo pomembno vlogo pri nabavi, skladiščenju in logistiki. Vsak izdelek je povezan z določenimi lastnostmi, kot so rok trajanja, davčna stopnja in merska enota, kar omogoča natančno in standardizirano upravljanje.
+
 Predstavlja šifrant končnih izdelkov, ki pripadajo [materialom](../Materiali.md).
+
+> [!TIP]  
+> Prerekviziti za upravljanje tega šifranta so:  
+>  
+> - [Merske enote](MerskaEnota.md)  
+> - [Davčne stopnje](DavcnaStopnja.md)  
+>  
+> Poskrbite za omenjene prerekvizite, preden začnete z upravljanjem tega šifranta.
 
 ## Shema
 
@@ -8,29 +18,30 @@ Predstavlja šifrant končnih izdelkov, ki pripadajo [materialom](../Materiali.m
 
 |Polje|Opis
 |---|---
-|Šifra| Šifra izdelka. Šifra mora biti unikatna znotraj celotnega seznama [materialov](../Materiali.md).
-|Naziv| Naziv izdelka.
-|Rok trajanja| V kolikor gre za pokvarljivo blago, to polje določa rok trajanja v dneh. Ta vrednost je posebej pomembna pri [proizvedenih](../../Proizvodnja/README.md) izdelkih, ki so pokvarljivi.
-|Osnovna merska enota| [Merska enota](MerskaEnota.md), v kateri so količine izdelka izražene.
-|Davek| [Davčna stopnja](DavcnaStopnja.md) izdelka, uporabljena kot privzeta pri [nabavnem nalogu](../../Nabava/Dokumenti/NabavniNalog.md).
-|Generiranje serijske številke| Določa način, po katerem se pri [prevzemu](../../Skladisce/Dokumenti/Prevzem.md) blaga [generira](../../Skladisce/SerijskeStevilke/GeneriranjeSerijskeStevilke.md) serijska številka za izdelek.
-|EAN| [EAN](https://en.wikipedia.org/wiki/International_Article_Number) oznaka izdelka.
-|Število decimalnih mest| Določa privzeto število decimalnih mest za prikaz vrednosti oziroma količin izdelka.
-|Opis| Kratek opis izdelka.
-|Oznake|Oznake izdelka, s katerimi je mogoče kategorizirati izdelek.
-|Info povezava|URL do zunanjega opisa izdelka, v kolikor so informacije izdelka dostopne tudi zunaj sistema.
-|URL do slike izdelka|V kolikor obstaja fotografija izdelka na zunanjem sistemu, ki je dostopen preko spleta, to polje določa to vrednost.
-|Zunanji ključ| V kolikor se izdelek povezuje z zunanjim sistemom, to polje praviloma vsebuje vrednost iz zunanjega sistema, ki identificira ta zapis.
+|**Šifra**| Enolična identifikacijska oznaka izdelka znotraj seznama materialov. Na primer **2625001** ali **MIZ-ČLS**. Šifra mora biti unikatna znotraj celotnega seznama [materialov](../Materiali.md).
+|**Naziv**|Naziv izdelka, ki se prikazuje v seznamih in dokumentih. Na primer **Miza – Hrast**.|
+|**Generiranje serijske številke**|Način [dodeljevanja](../../Skladisce/SerijskeStevilke/GeneriranjeSerijskeStevilke.md) serijske številke.|
+|**Rok trajanja**|Število dni trajanja, uporabno pri pokvarljivem blagu. Na primer **30** ali **365**.|
+|**EAN**|[EAN](https://en.wikipedia.org/wiki/International_Article_Number) koda za optično branje. Na primer **3831234567890**.|
+|**Osnovna merska enota**|[Merska enota](MerskaEnota.md), v kateri izražamo količine. Na primer **kos** ali **m**.|
+|**Davek**|Privzeta [davčna stopnja](DavcnaStopnja.md) pri poslovnih dokumentih. Na primer **22 %** ali **9,5 %**.|
+|**Število decimalnih mest**|Privzeto število decimalnih mest za prikaz vrednosti oziroma količin. Na primer **2** ali **3**.|
+|**Opis**|Kratek opis, namenjen pojasnilu rabe ali specifikacij. Na primer **Masivni hrast, oljen**.|
+|**Oznake**|Oznake za kategorizacijo in filtriranje. Na primer **pohištvo**, **premium**.|
+|**Info povezava**|URL do zunanjega opisa artikla ali storitve. Na primer **https://primer.domena/opis**.|
+|**URL do slike izdelka**|Javni URL do fotografije artikla. Na primer **https://primer.domena/slike/izdelek.jpg**.|
+|**Zunanji ključ**|Identifikator v zunanjem sistemu za povezovanje zapisov. Na primer **SAP-4711**.|
+|**Aktivno**|Določa, ali je izdelek na voljo za uporabo v novih dokumentih. Neaktivnih ne moremo dodajati v novih dokumentih, ostanejo pa vidni v zgodovini.|
 
 ## Upravljanje
 
-Upravljanje s šifrantom izdelkom je dostopno preko [navigacije](../../Common/UI/Sitemap.md) in sicer preko **Sredstva/Materiali/Izdelki**.
+Upravljanje s šifrantom izdelkov je dostopno preko [navigacije](../../Common/UI/Sitemap.md) in sicer **Sredstva/Materiali/Izdelki**. 
 
-## Seznam izdelkov
- 
-Privzeto se prikaže uporabniški vmesnik s seznamom že vnešenih oziroma obstoječih izdelkov. V kolikor je seznam prazen, je uporabniški vmesnik podoben spodnji sliki.
+Ob odprtju se prikaže uporabniški vmesnik s seznamom obstoječih zapisov. Vmesnik je razdeljen na levi del s filtri in desni del s seznamom. 
 
-![Prazen seznam](../Assets/IzdelekPrazenSeznam.png "Prazen seznam")
+![Seznam](../Assets/IzdelekSeznam.png "Seznam")
+
+V vsakem zapisu se levo od naziva nahaja barvni indikator stanja, modra barva označuje aktiven zapis, siva pa neaktiven. Na desni zgoraj je na voljo iskalno polje.
 
 ### Filtri
 
@@ -38,19 +49,19 @@ Levi del uporabniškega vmesnika omogoča filtriranje izdelkov. Na voljo so nasl
 
 |Filter|Opis
 |--|--
-|Oznake|Filtrira seznam izdelkov po oznakah. V polje je mogoče vnesti več oznak. V kolikor ta polje vsebuje vrednost, se v seznamu izpišejo izdelki, ki imajo vsaj eno oznako, ki se ujema z vnešenimi oziroma izbranimi oznakami tega polja. V kolikor to polje nima vrednosti, se pri filtriranju ignorira.
+|**Oznake**|Filtrira seznam izdelkov po oznakah. V polje lahko dodate več oznak, v seznamu se prikažejo izdelki, ki imajo vsaj eno ustrezno oznako.|
 
 ## Akcije
 
 Klik na [akcijski gumb](../../Splosno/UporabniskiVmesnik/AkcijskiGumb.md) prikaže naslednje akcije:
 
-- Uvoz
-- Kopiraj obstoječi
-- Nov
+- [Uvoz](#uvoz)
+- [Kopiraj obstoječi](#kopiraj-obstoječi)
+- [Nov](#nov)
 
 ### Uvoz
 
-[Uvoz](UvozMaterialov.md) izdelkov omogoča masovno vnašanje oziroma posodabljanje seznama izdelkov. Uporabnik pripravi datoteko v `CSV` obliki, ki jo prenese v sistem, ki nato samodejno bodisi ustvari bodisi posodobi seznam izdelkov. 
+[Uvoz](UvozMaterialov.md) izdelkov omogoča masovno vnašanje oziroma posodabljanje seznama izdelkov. Pripravite datoteko v `CSV` obliki, jo prenesete v sistem, ki nato samodejno bodisi ustvari bodisi posodobi seznam izdelkov. 
 
 ### Kopiraj obstoječi
 
@@ -66,11 +77,7 @@ S klikom na akcijo **Nov** uporabniški vmesnik preide v način urejanja in sice
 
 ![Dodajanje](../Assets/IzdelekNov.png "Dodajanje")
 
-S klikom na gumb **Dodaj** se ustvari nov izdelek in uporabniški vmesnik preide v privzet način, ki prikazuje seznam obstoječih izdelkov. 
-
-![Seznam](../Assets/IzdelekSeznam.png "Seznam")
-
-S klikom na gumb **Prekliči** pa uporabniški vmesnik preide v privzet način, brez da bi vnešene podatke shranil, torej ne ustvari novega izdelka, ampak postopek prekine brez shranjevanja.
+S klikom na gumb **Dodaj** se ustvari nov izdelek in uporabniški vmesnik preide v privzet način, ki prikazuje seznam obstoječih izdelkov. S klikom na gumb **Prekliči** pa uporabniški vmesnik preide v privzet način, brez da bi vnešene podatke shranil, torej ne ustvari novega izdelka, ampak postopek prekine brez shranjevanja.
 
 ## Urejanje
 
@@ -84,7 +91,7 @@ Uporabnik spremeni željena polja in s klikom na **Shrani** shrani spremembe, up
 
 Izdelek je mogoče tudi izbrisati, vendar samo pod pogojem, da nima odvisnih zapisov, na primer ne obstaja noben [prevzem](../../Skladisce/Dokumenti/Prevzem.md), ki ima postavko izdelka.
 
-Za brisanje skladišča moramo najprej v način [urejanja](#urejanje). V načinu urejanja je viden gumb **Izbriši**. Klik na gumb **Izbriši** prikaže potrditveno sporočilo **Ali ste prepričani, da želite izbrisati zapis?**. S potrditvijo okna se izdelek permanentno izbriše, uporabniški vmesnik preide v privzet način, pri čemer izbrisanega izdelka ni več na seznamu.
+Za brisanje izdelka moramo najprej v način [urejanja](#urejanje). V načinu urejanja je viden gumb **Izbriši**. Klik na gumb **Izbriši** prikaže potrditveno sporočilo **Ali ste prepričani, da želite izbrisati zapis?**. S potrditvijo okna se izdelek permanentno izbriše, uporabniški vmesnik preide v privzet način, pri čemer izbrisanega izdelka ni več na seznamu.
 
 V kolikor uporabnik ne potrdi sporočila, uporabniški vmesnik ostane v načinu urejanja.
 
