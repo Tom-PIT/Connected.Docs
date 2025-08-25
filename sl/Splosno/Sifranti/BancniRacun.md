@@ -1,70 +1,65 @@
-# Bančni račun  
+# Bančni račun
 
-Šifrant bančnih računov omogoča evidentiranje in upravljanje vseh bančnih računov, ki so vezani na poslovne partnerje v digitalnih vsebinah sistema. Na ta način zagotovimo, da so vsi podatki o bančnih računih zbrani na enem mestu in vedno dostopni v nadaljnjih procesih, kot so plačila, izdaje računov ali preverjanje podatkov pri poslovnih partnerjih.  
+Šifrant bančnih računov predstavlja račune, ki jih uporabljajo [poslovni partnerji](PoslovniImenik.md) v okviru poslovanja. Vključujejo se v vse digitalne vsebine sistema, kjer je potrebno evidentirati bančni račun, na primer pri evidentiranju plačil.  
 
-Šifrant omogoča tudi povezavo z evidenco bank, saj je vsak bančni račun vezan na šifrant [bank](Banka.md).  
+Šifrant je povezan s šifrantom [bank](Banka.md), kar zagotavlja enotno evidenco bančnih računov in pripadajočih bank.  
 
-> [!TIP]
+> [!TIP]  
 > Prerekviziti za upravljanje tega šifranta so:
->
-> - [Banke](Banka.md)
->
+>  
+> - [Banke](Banka.md)  
+>   
 > Poskrbite za omenjene prerekvizite, preden začnete z upravljanjem tega šifranta.
 
-## Shema  
+## Shema
 
-Šifrant bančnih računov ima naslednjo shemo:  
+|Polje|Opis
+|---|---
+|**Banka**| [Banka](Banka.md), pri kateri je račun odprt, na primer **NLB d.d.**.
+|**IBAN**| Mednarodna številka bančnega računa, na primer **SI56 0201 0001 2345 678**.
+|**Aktiven**| Označuje, ali je bančni račun aktiven.
+|**Uporabljaj IBAN masko**| Določa, ali se za vnos in prikaz IBAN uporablja maska, ki olajša branje in vnos številke.
 
-|Polje|Opis  
-|---|---  
-|**Banka**| Povezava na šifrant [bank](Banka.md), pri kateri je odprt račun. Na primer **NLB d.d.**.  
-|**IBAN**| Mednarodna številka bančnega računa. Na primer **SI56 0201 0001 2345 678**.  
-|**Aktiven**| Označuje, ali je bančni račun aktiven in se uporablja pri poslovanju. Neaktivnih bančnih računov ne moremo uporabiti v novih dokumentih, ostanejo pa vidni v zgodovini.
-|**Uporabljaj IBAN masko**| Določa, ali se pri vnosu in prikazu IBAN uporablja maska, ki razdeli številko v skupine za lažje branje.  
+## Upravljanje
 
-## Upravljanje  
+Upravljanje s šifrantom bančnih računov je dostopno preko **Stranke / Upravljanje / Poslovni imenik / Bančni računi**.  
 
-Upravljanje s šifrantom bančnih računov je dostopno preko [poslovnega imenika](PoslovniImenik.md).
+Uporabniški vmesnik je razdeljen na levi del, kjer so filtri, in desni del, kjer je seznam obstoječih bančnih računov.  
 
-Uporabniški vmesnik je razdeljen na levi del s filtri in desni del s seznamom.
+### Seznam bančnih računov
 
-## Filtri
+Seznam prikazuje obstoječe bančne račune. V vsakem zapisu se levo od naziva nahaja status v obliki barve. Modra barva pomeni, da je zapis aktiven, siva pa, da je neaktiven. V kolikor seznam ne vsebuje nobenega zapisa, je uporabniški vmesnik prazen.  
 
-Levi del uporabniškega vmesnika omogoča filtriranje bančnih računov.
+![Seznam](../Assets/BancniRacunSeznam.png "Seznam")
 
-| Filter      | Opis                                                                                      |
-| ----------- | ----------------------------------------------------------------------------------------- |
-| **Omogočeno** | Prikaže bančne račune, ki so aktivni. |
-| **Onemogočeno** | Prikaže bančne račune, ki so niso aktivni. |
+### Filtri
 
-## Seznam bančnih računov  
+Na levi strani uporabniškega vmesnika so filtri, s katerimi lahko omejite prikaz zapisov. Na voljo so naslednje možnosti:  
 
-Privzeto se prikaže uporabniški vmesnik s seznamom obstoječih bančnih računov. V kolikor seznam še ne vsebuje zapisov, je prikazan prazen seznam. 
+|Filter|Opis
+|--|--
+|**Omogočeno**| Prikaže samo aktivne bančne račune.
+|**Onemogočeno**| Prikaže samo neaktivne bančne račune.
 
-![Prazen seznam](../Assets/BancniRacunPrazenSeznam.png "Prazen seznam")  
+## Dodajanje
 
-V vsakem zapisu se levo od naziva nahaja status v obliki barve, pri čemer modra barva označuje, da je račun aktiven, siva pa, da je račun neaktiven.  
+S klikom na [akcijski gumb](../../Splosno/UporabniskiVmesnik/AkcijskiGumb.md) uporabniški vmesnik preide v način dodajanja, kjer se prikaže vnosna maska za vnos novega bančnega računa.  
 
-## Dodajanje  
+![Dodajanje](../Assets/BancniRacunNov.png "Dodajanje")
 
-S klikom na [akcijski gumb](../../Splosno/UporabniskiVmesnik/AkcijskiGumb.md) uporabniški vmesnik preide v način urejanja in prikaže vnosno masko za dodajanje novega bančnega računa.  
+Ko zaključite z vnosom, s klikom na gumb **Dodaj** ustvarite nov bančni račun. Nato uporabniški vmesnik preide v privzet način in prikaže seznam obstoječih računov. Če kliknete na gumb **Prekliči**, se postopek prekine brez shranjevanja.  
 
-![Dodajanje](../Assets/BancniRacunNov.png "Dodajanje")  
+## Urejanje
 
-S klikom na gumb **Dodaj** se ustvari nov bančni račun in uporabniški vmesnik preide nazaj v privzet način, ki prikazuje seznam obstoječih računov.  
+Za urejanje obstoječega bančnega računa kliknete na njegov **IBAN**. Uporabniški vmesnik preide v način urejanja, kjer so polja že izpolnjena.  
 
-S klikom na gumb **Prekliči** pa se vnos prekine brez shranjevanja podatkov.  
+![Urejanje](../Assets/BancniRacunUrejanje.png "Urejanje")
 
-![Seznam](../Assets/BancniRacunSeznam.png "Seznam")  
+Spremenite želena polja in s klikom na gumb **Shrani** shranite spremembe. Če kliknete na gumb **Prekliči**, se spremembe ne shranijo in uporabniški vmesnik se vrne na seznam.
 
-## Urejanje  
+## Brisanje
 
-Za urejanje posameznega bančnega računa klikneš na njegov **Naziv**. Uporabniški vmesnik preide v način urejanja, kjer so polja že izpolnjena z obstoječimi vrednostmi.  
+Bančni račun lahko izbrišete le, če se ne pojavlja v nobenem odvisnem zapisu. Za brisanje bančnega računa najprej preidete v način [urejanja](#urejanje). V načinu urejanja kliknete **Izbriši**. Odpre se potrditveno okno: **Ali ste prepričani, da želite izbrisati zapis?**  
 
-![Urejanje](../Assets/BancniRacunUrejanje.png "Urejanje")  
-
-Po spremembi polj klikneš na gumb **Shrani**, da se podatki posodobijo, ali na gumb **Prekliči**, da se spremembe zavržejo.  
-
-## Brisanje  
-
-Bančni račun je mogoče izbrisati, v kolikor se ne pojavlja v nobenem odvisnem zapisu. V načinu urejanja je na voljo gumb **Izbriši**. Klik na gumb prikaže potrditveno sporočilo **Ali ste prepričani, da želite izbrisati zapis?**. S potrditvijo se bančni račun izbriše, uporabniški vmesnik pa se vrne na seznam, ki ne vsebuje več izbrisanega zapisa.
+- V kolikor potrditveno okno potrdite, se bančni račun trajno izbriše in izgine s seznama.  
+- V kolikor potrditveno okno prekličete, uporabniški vmesnik ostane v načinu urejanja in bančni račun ostaja v sistemu.  
