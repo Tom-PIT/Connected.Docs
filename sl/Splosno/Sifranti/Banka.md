@@ -1,8 +1,8 @@
 # Banka
 
-Šifrant bank omogoča upravljanje seznama bank, na katere so vezani na [poslovni partnerji](PoslovniImenik.md) in njihovi [bančni računi](BancniRacun.md). Na ta način zagotovimo, da so vsi finančni tokovi v digitalnih vsebinah sistema povezani s pravilno banko in pripadajočimi identifikatorji.
+Banke so finančne ustanove, ki omogočajo hranjenje denarnih sredstev, izvajanje plačilnega prometa, odobravanje kreditov ter opravljanje drugih finančnih storitev, povezanih z gospodarstvom in prebivalstvom. V poslovnem svetu imajo banke ključno vlogo pri zagotavljanju likvidnosti in varnem izvajanju transakcij, tako znotraj posamezne države kot tudi na mednarodni ravni. Banke so tudi pomemben del regulatornega sistema, saj skrbijo za varno poslovanje in nadzor nad denarnimi tokovi.
 
-Šifrant omogoča shranjevanje osnovnih podatkov o bankah, kot so ime, BIC koda ter [država](Drzava.md), v kateri ima banka sedež.
+Šifrant bank vsebuje seznam bank, ki jih uporabljate v digitalnih vsebinah sistema. Banke se povezujejo z različnimi [poslovnimi partnerji](PoslovniImenik.md) in njihovimi transakcijami, zato predstavljajo osnovo za izvajanje plačilnega prometa in evidentiranje finančnih poslovnih dogodkov. Šifrant je povezan s šifrantom [držav](Drzava.md), saj mora imeti vsaka banka določeno državo, v kateri posluje.
 
 > [!TIP]
 > Prerekviziti za upravljanje tega šifranta so:
@@ -17,45 +17,44 @@
 
 | Polje | Opis |
 |-------|------|
-| **Ime** | Ime banke, na primer **NLB d. d.**|
-| **BIC** | Mednarodna identifikacijska koda banke (Business Identifier Code), na primer **LJUBSI2X**. |
-| **Država** | [Država](Drzava.md), v kateri ima banka sedež, na primer **Slovenija**. |
-| **Aktivna** | Označuje, ali je banka aktivna in se lahko uporablja v postopkih. Neaktivnih bank ne moremo uporabiti v novih dokumentih, ostanejo pa vidne v zgodovini.|
+| **Ime** | Naziv banke. Na primer **NLB d.d.** ali **SKB d.d.**. |
+| **BIC** | Enolična identifikacijska koda banke (Business Identifier Code). Na primer **LJBASI2X**. |
+| **Država** | [Država](Drzava.md), ki določa, v kateri državi posluje banka. Na primer **Slovenija**. |
+| **Aktivna** | Označuje, ali je banka aktivna. |
 
 ## Upravljanje
 
-Upravljanje s šifrantom banke je dostopno preko [navigacije](../../Common/UI/Sitemap.md) in sicer preko **Skupni tipi/Banke**.
+Upravljanje s šifrantom bank je dostopno preko [navigacije](../../Common/UI/Sitemap.md) in sicer preko **Prodaja/Upravljanje/Banke**.
 
-## Seznam bank
+### Seznam
 
-Privzeto se prikaže seznam obstoječih bank. V kolikor seznam ne vsebuje zapisov, je uporabniški vmesnik podoben spodnji sliki.
+Na seznamu so prikazane vse že obstoječe banke. V kolikor še niste dodali nobene banke, je seznam prazen. Na desni strani uporabniškega vmesnika se nahaja iskalnik, ki omogoča hitro iskanje po seznamu.
 
-![Prazen seznam](../Assets/BankaPrazenSeznam.png "Prazen seznam")
+V vsakem zapisu se levo od naziva nahaja status v obliki barve. Modra barva označuje, da je banka aktivna, siva pa, da je neaktivna.
 
-Vsak zapis v seznamu predstavlja eno banko z njenim imenom, BIC kodo in državo. Na levi strani zapisa je prikazana barvna oznaka statusa, pri čemer modra barva označuje, da je banka aktivna, siva pa, da ni aktivna.
+![Seznam bank](../Assets/BankaSeznam.png "Seznam bank")
 
 ## Dodajanje
 
-S klikom na [akcijski gumb](../../Splosno/UporabniskiVmesnik/AkcijskiGumb.md) uporabniški vmesnik preide v način dodajanja nove banke.
+S klikom na [akcijski gumb](../../Splosno/UporabniskiVmesnik/AkcijskiGumb.md) uporabniški vmesnik preide v način dodajanja nove banke. Odpre se vnosna maska, kjer izpolnite ustrezna polja.
 
-![Dodajanje](../Assets/BankaNov.png "Dodajanje")
+![Dodajanje banke](../Assets/BankaNov.png "Dodajanje banke")
 
-Vnosna maska vsebuje polja, opisana v shemi.
-
-S klikom na gumb **Dodaj** se ustvari nova banka in uporabniški vmesnik preide v privzet način, ki prikazuje seznam bank. 
-
-![Seznam](../Assets/BankaSeznam.png "Seznam")
-
+S klikom na gumb **Dodaj** se nova banka shrani in prikaže v seznamu obstoječih bank.  
 S klikom na gumb **Prekliči** se postopek prekine brez shranjevanja.
 
 ## Urejanje
 
-Za urejanje obstoječe banke klikneš na njen **Naziv**. Uporabniški vmesnik preide v način urejanja, kjer so polja že izpolnjena.
+Za urejanje posamezne banke kliknite na njen **Naziv**. Uporabniški vmesnik preide v način urejanja, kjer so polja že izpolnjena z obstoječimi podatki.
 
-![Urejanje](../Assets/BankaUrejanje.png "Urejanje")
+![Urejanje banke](../Assets/BankaUrejanje.png "Urejanje banke")
 
-Po spremembi polj klikneš na gumb **Shrani**, da se podatki posodobijo, ali na gumb **Prekliči**, da se spremembe zavržejo.  
+Spremenite želene vrednosti in s klikom na gumb **Shrani** potrdite spremembe.  
+S klikom na gumb **Prekliči** se postopek prekine brez shranjevanja.
 
 ## Brisanje
 
-Banko je mogoče izbrisati, v kolikor se ne pojavlja v nobenem odvisnem zapisu. V načinu urejanja je na voljo gumb **Izbriši**. Klik na gumb prikaže potrditveno sporočilo **Ali ste prepričani, da želite izbrisati zapis?**. S potrditvijo se banka izbriše, uporabniški vmesnik pa se vrne na seznam, ki ne vsebuje več izbrisanega zapisa.
+Banko lahko izbrišete le, če se ne pojavlja v nobenem odvisnem zapisu. Za brisanje banke najprej preidite v način [urejanja](#urejanje). V načinu urejanja kliknite **Izbriši**. Odpre se potrditveno okno: **Ali ste prepričani, da želite izbrisati zapis?**
+
+- V kolikor potrditveno okno potrdite, se banka trajno izbriše in izgine s seznama.  
+- V kolikor potrditveno okno prekličete, uporabniški vmesnik ostane v načinu urejanja in banka ostaja v sistemu.
