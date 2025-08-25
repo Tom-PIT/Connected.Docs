@@ -4,28 +4,46 @@
 
 Šifrant omogoča tudi povezavo z evidenco bank, saj je vsak bančni račun vezan na šifrant [bank](Banka.md).  
 
+> [!TIP]
+> Prerekviziti za upravljanje tega šifranta so:
+>
+> - [Banke](Banka.md)
+>
+> Poskrbite za omenjene prerekvizite, preden začnete z upravljanjem tega šifranta.
+
 ## Shema  
 
-Šifrant bančnega računa ima naslednjo shemo:  
+Šifrant bančnih računov ima naslednjo shemo:  
 
 |Polje|Opis  
 |---|---  
 |**Banka**| Povezava na šifrant [bank](Banka.md), pri kateri je odprt račun. Na primer **NLB d.d.**.  
 |**IBAN**| Mednarodna številka bančnega računa. Na primer **SI56 0201 0001 2345 678**.  
-|**Aktiven**| Označuje, ali je bančni račun aktiven in se uporablja pri poslovanju.  
-|**Uporabljaj IBAN masko**| Določa, ali se pri vnosu in prikazu številke uporablja maska, ki razdeli številko v skupine za lažje branje.  
+|**Aktiven**| Označuje, ali je bančni račun aktiven in se uporablja pri poslovanju. Neaktivnih bančnih računov ne moremo uporabiti v novih dokumentih, ostanejo pa vidni v zgodovini.
+|**Uporabljaj IBAN masko**| Določa, ali se pri vnosu in prikazu IBAN uporablja maska, ki razdeli številko v skupine za lažje branje.  
 
 ## Upravljanje  
 
-Upravljanje s šifrantom bančnih računov je dostopno preko [navigacije](../../Common/UI/Sitemap.md) in sicer preko [poslovnega imenika](PoslovniImenik.md).
+Upravljanje s šifrantom bančnih računov je dostopno preko [poslovnega imenika](PoslovniImenik.md).
+
+Uporabniški vmesnik je razdeljen na levi del s filtri in desni del s seznamom.
+
+## Filtri
+
+Levi del uporabniškega vmesnika omogoča filtriranje bančnih računov.
+
+| Filter      | Opis                                                                                      |
+| ----------- | ----------------------------------------------------------------------------------------- |
+| **Omogočeno** | Prikaže bančne račune, ki so aktivni. |
+| **Onemogočeno** | Prikaže bančne račune, ki so niso aktivni. |
 
 ## Seznam bančnih računov  
 
-Privzeto se prikaže uporabniški vmesnik s seznamom obstoječih bančnih računov. V kolikor seznam še ne vsebuje zapisov, je prikazan prazen pogled, ki omogoča dodajanje novih računov.  
-
-V vsakem zapisu se levo od naziva nahaja status v obliki barve, pri čemer modra barva označuje, da je račun aktiven, siva pa, da je račun neaktiven.  
+Privzeto se prikaže uporabniški vmesnik s seznamom obstoječih bančnih računov. V kolikor seznam še ne vsebuje zapisov, je prikazan prazen seznam. 
 
 ![Prazen seznam](../Assets/BancniRacunPrazenSeznam.png "Prazen seznam")  
+
+V vsakem zapisu se levo od naziva nahaja status v obliki barve, pri čemer modra barva označuje, da je račun aktiven, siva pa, da je račun neaktiven.  
 
 ## Dodajanje  
 
@@ -49,4 +67,4 @@ Po spremembi polj klikneš na gumb **Shrani**, da se podatki posodobijo, ali na 
 
 ## Brisanje  
 
-Bančni račun je mogoče izbrisati le v kolikor se ne pojavlja v nobenem odvisnem zapisu. Za brisanje je treba preiti v način [urejanja](#urejanje), kjer je na voljo gumb **Izbriši**. Klik nanj prikaže potrditveno sporočilo **Ali ste prepričani, da želite izbrisati zapis?**. S potrditvijo se račun izbriše, uporabniški vmesnik pa se vrne v seznam obstoječih računov.  
+Bančni račun je mogoče izbrisati, v kolikor se ne pojavlja v nobenem odvisnem zapisu. V načinu urejanja je na voljo gumb **Izbriši**. Klik na gumb prikaže potrditveno sporočilo **Ali ste prepričani, da želite izbrisati zapis?**. S potrditvijo se bančni račun izbriše, uporabniški vmesnik pa se vrne na seznam, ki ne vsebuje več izbrisanega zapisa.

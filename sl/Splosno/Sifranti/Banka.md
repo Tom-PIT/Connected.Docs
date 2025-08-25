@@ -10,7 +10,7 @@
 > - [Države](Drzava.md)
 >
 > Poskrbite za omenjene prerekvizite, preden začnete z upravljanjem tega šifranta.
- 
+
 ## Shema
 
 Šifrant bank ima naslednjo shemo:
@@ -54,7 +54,7 @@ Za urejanje obstoječe banke klikneš na njen **Naziv**. Uporabniški vmesnik pr
 
 ![Urejanje](../Assets/BankaUrejanje.png "Urejanje")
 
-S klikom na gumb **Shrani** se spremembe shranijo in seznam se osveži. S klikom na gumb **Prekliči** se postopek prekine brez shranjevanja.
+Po spremembi polj klikneš na gumb **Shrani**, da se podatki posodobijo, ali na gumb **Prekliči**, da se spremembe zavržejo.  
 
 ## Brisanje
 
