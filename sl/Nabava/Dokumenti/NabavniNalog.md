@@ -54,26 +54,10 @@ Gumb objavi je viden, v kolikor je dokument v statusu **Osnutek**. Klik na gumb 
 
 Sekcija omogoča [povezovanje](../../Koncepti/PovezaniDokumenti.md) različnih dokumentov z nabavnim nalogom, s ciljem zagotavljanja [materialne sledljivosti](../../Koncepti/MaterialnaSledljivost.md).
 
+- [Prazen prevzem](NabavniNalogPrazenPrevzem.md)
+
 ### Prazen prevzem
 
-Kreiranje praznega prevzema pomeni, da boste ustvarili [prevzemni](../../Skladisce/Dokumenti/Prevzem.md) dokument neposredno iz nabavnega naloga. Dokumenta bosta povezana in z nabavnim nalogom se vam ni potrebno več ukvarjati, saj za njegov življenjski cikel skrbi prevzem. Ko je prevzemni dokument zaključen, je samodejno zaključen tudi nabavni nalog. Ustvarjanje prevzema iz nabavnega naloga ima še eno prednost; na seznamu postavk vidite, katere [materiale](../../Splosno/Materiali.md) morate po nabavnem nalogu sprejeti.
-
-Klik na **Prazen prevzem** odpre [modalno okno](../../Splosno/UporabniskiVmesnik/ModalnoOkno.md).
-
-![Prazen prevzem](../Assets/NabavniNalogPrazenPrevzem1.png "Prazen prevzem")
-
-Na uporabniškem vmesniku so izpisana [skladišča](../../Skladisce/Sifranti/Skladisce.md). Kliknite na skladišče, v katero želite blago prevzeti. Po kliku na skladišče se osveži seznam [skladiščnih lokacij](../../Skladisce/Sifranti/SkladiscneLokacije.md). 
-
-![Prazen prevzem](../Assets/NabavniNalogPrazenPrevzem2.png "Prazen prevzem")
-
-Izberite privzeto lokacijo, v katero boste blago prejemali in kliknite **Shrani**. Sistem ustvari nov [prevzemni dokument](../../Skladisce/Dokumenti/Prevzem.md), izpolni ustrezna polja, naredi povezavo in v seznamu postavk virtualno napolni seznam. Na ta način lahko vidite, katero blago še morate prevzeti oziroma katere postavke prevzema še niso skladne z nabavnim nalogom.
-
-![Prazen prevzem](../Assets/NabavniNalogPrazenPrevzem3.png "Prazen prevzem")
-
-Za podrobnejšo razlago o prevzemu materiala si preberite poglavje o [prevzemnem dokumentu](../../Skladisce/Dokumenti/Prevzem.md).
-
-> [!TIP]
-> Ko je povezan prevzemni dokument zaključen, se nabavni nalog samodejno zaključi, v kolikor so vse postavke bile prevzete. V kolikor niso bile prevzete vse postavke, lahko ponovno ustvarite prevzemni dokument. V tem primeru bodo na seznamu postavk samo postavke, ki niso bile zaprte na prvem prevzemu.
 
 ### Polni prevzem
 
