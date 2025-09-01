@@ -44,3 +44,7 @@ Klik na nabavni nalog vas preusmeri neposredno na nabavni nalog. Na ta način la
 ![Povezani dokumenti](../Assets/NabavniNalogPovezaniDokumenti.png "Povezani dokumenti")
 
 Na zgornji sliki lahko vidite, da lahko ima vsak dokument več povezanih dokumentov.
+
+V kolikor obstajajo povezani dokumenti, ki še niso zaključeni, nabavnega naloga ne morete ročno zaključiti. V primeru, da vseeno kliknete gumb **Zaključi**, sistem izpiše napako.
+
+![Ročno zaključevanje](../Assets/NabavniNalogPrazenPrevzemZakljuciNapaka.png "Ročno zaključevanje")
