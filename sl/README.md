@@ -1,0 +1,10 @@
+# Uporabniška dokumentacija Connected
+
+Connected ponuja širok nabor predpripravljenih vsebin, ki obravnavajo ključne procese v podjetju. Vsebine so razdeljene po [domenah](Domene.md), pri čemer vsaka domena pokriva svoje področje.
+
+Connected raste skupaj z vami. Je namreč prilagodljiva platforma, kar pomeni, da je obstoječe vsebine mogoče poljubno prilagajati glede na vaše potrebe. Pri tem ni prav nobenih omejitev. Če ste manjše okolje, boste začeli z uporabo vsebin, kakršne so (AS IS) in jih nato skozi čas prilagajali svojim potrebam. Če pa ste večje okolje, boste morda vsebine želeli prilagoditi že pred prvo produkcijsko fazo, vse je odvisno od vas, vaše strategije na poti digitalne prebrazbe in razpoložljivosti.
+
+Connected je sodobna platforma, s sodobno in konsistentno uporabniško izkušnjo. Deluje na vseh napravah z nameščenim brskalnikom, brez namestitev in konfiguracije. Uporabniški vmesniki se samodejno prilagajajo ločljivostim zaslona in ponujajo minimalistično, a še vedno atraktivno uporabniško izkušnjo.
+
+Connected je namenjen poslovnim okoljem najrazličnejših industrijskih panog, okoljem za različnimi delovnimi procesi in različnimi poslovnimi modeli. Raznolikost pomeni različno rabo vsebin, zato je uporabniška dokumentacija sestavljena in [vsebinskega](Vsebina.md) dela, ki podrobno obravnava vse funkcije, lastnosti, atribute, povezave, atribute in pravila ter [uporabniškega](ScenarijiRabe.md) dela, ki obravnava najbolj pogoste scenarije rabe z vidika industrijskih panog oziroma dejavnosti. Serijska proizvodnja ima precej drugačna pravila kot projektna proizvodnja in naloga Connected je, da se temu ustrezno prilagodi. Connected sledi preprostemu pravilu in sicer da se mora programska oprema prilagajati delovnim procesom in ne obratno. Samo 100% prilagodljivost prinaša dodano vrednost v svetu digitalne preobrazbe, zato je tako zelo pomembno, da za vsebinami stoji močna tehnologija, ki omogoča brezkompromisno prilagajanje obstoječih vsebin, pa tudi dodajanje tistih, ki so za vaše okolje specifični in jih ni mogoče ponoviti nikjer drugje.
+
