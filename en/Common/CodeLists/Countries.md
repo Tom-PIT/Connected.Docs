@@ -5,7 +5,7 @@ digital content. They are a fundamental reference in business, as they are linke
 addresses, deliveries, postal codes and many other entities. Each country has its own unique 
 identification, which allows for uniform and unambiguous use.
 
-To access the **Countries** menu go to **Sales/Management/Countries**.
+To access **Countries** go to **Sales/Management/Countries**.
 
 ## Guide
 
@@ -21,12 +21,10 @@ To access the **Countries** menu go to **Sales/Management/Countries**.
 ### List of countries
  
 The user interface contains a list of countries. If no record exists yet, the list is empty. 
-
 Each country has a status in the form of a color to the left of the country name, blue means the country is active and gray means it is inactive.
 
 Countries can be searched using the search bar on top of the page.
-
-To access and a particular country, click on the country name.
+To access and edit a particular country, click on the country name.
 
 The **Postal codes** button is displayed under the country name. 
 By clicking oon the button, the user interface switches to the view for managing
