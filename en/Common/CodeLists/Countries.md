@@ -26,19 +26,19 @@ Each country has a status in the form of a color to the left of the country name
 Countries can be searched using the search bar on top of the page.
 To access and edit a particular country, click on the country name.
 
-The **Postal codes** button is displayed under the country name. 
-By clicking oon the button, the user interface switches to the view for managing
-[Postal codes](.\PostalCodes.md) linked to the relevant country.
+The **Postal codes** button is displayed under the country name. Click the button, to manage
+[Postal codes](\PostalCodes.md) linked to the relevant country.
 
 ![List of countries](../Assets/CountriesList.png)
 
 ## Actions
 
-Click on the [**Action Button**](..) to carry out one of this actions:
+Click on the [**Action Button**](..) to carry out one of these actions:
 
 ### Import
 
-Use the **Import** action to upload or update a list of countries from an existing CSV file. In this way, the system enables a mass data import.
+Use the **Import** action to upload or update a list of countries from an existing CSV file. 
+In this way, the system enables a mass data import.
 
 ### New
 
