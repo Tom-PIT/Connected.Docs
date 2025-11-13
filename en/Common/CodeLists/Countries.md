@@ -1,77 +1,73 @@
 # Countries
 
-Countries represent the basic political and geographical units used in many of the system's 
-digital content. They are a fundamental reference in business, as they are linked to partners, 
-addresses, deliveries, postal codes and many other entities. Each country has its own unique 
-identification, which allows for uniform and unambiguous use.
+This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
-To access **Countries** go to **Sales/Management/Countries**.
+---
 
-## Guide
+## Schema
 
-| Field | Description 
-|:-------|:------|
+The code list has the following schema:
+
+| Field | Description |
+|-------|--------------|
 | **Name** | Country name. For example, Slovenia or **Austria**. |
 | **LCID** | Localization identifier used to set the language and regional specifics of the country. |
 | **ISO Alpha-2 code** | International standard country code. For example, **SI** for Slovenia or **AT** for Austria. |
 | **Active** | Indicates whether the country is active. Inactive countries cannot be used for new entries, but they remain visible in the history. |
 
+---
+
 ## Management
 
-### List of countries
- 
-The user interface contains a list of countries. If no record exists yet, the list is empty. 
-Each country has a status in the form of a color to the left of the country name, blue means the country is active and gray means it is inactive.
+To access the **countries** code list, go to **Sales / Management / Countries** in the [navigation](../../Common/UI/Sitemap.md).
 
-Countries can be searched using the search bar on top of the page.
-To access and edit a particular country, click on the country name.
+### List of Countries
 
-The **Postal codes** button is displayed under the country name. Click the button, to manage
-[Postal codes](\PostalCodes.md) linked to the relevant country.
+The user interface contains a list of countries. If no record exists yet, the list is empty. Each country has a status in the form of a color to the left of the country name — **blue** means the country is active, and **gray** means it is inactive.
 
-![List of countries](../Assets/CountriesList.png)
+![Countries List](../Assets/CountriesList.png "Countries List")
+
+Each record displays multiple tags representing **associated data**:
+- [Postal codes](#editing-postal-codes)
+
+Clicking any of these tags opens the respective interface for managing the related data linked to the selected country.
+
+---
 
 ## Actions
 
-Click on the [**Action Button**](..) to carry out one of these actions:
+Click on the [action button](../../Common/UI/ActionButton.md) to display the following actions:
+
+- Import  
+- New  
 
 ### Import
 
-Use the **Import** action to upload or update a list of countries from an existing CSV file. 
-In this way, the system enables a mass data import.
+The **Import** action allows bulk creation or updating of country entries. Prepare a `CSV` file containing the required data and upload it. The system automatically creates new records or updates existing ones based on the file contents.
 
 ### New
 
-Click on **New** to manually add a new country. An input screen, where you can fill in the appropriate [fields](#guide) for the new country.
+Click **New** to open the input form for adding a new country. Fill in the required fields such as **Name**, **LCID**, and **ISO Alpha-2 code**. Click **Add** to create the record or **Cancel** to return to the list view without saving.
 
-![New country](../Assets/NewCountry.png)
+![New Country](../Assets/NewCountry.png "New Country")
 
-Once you have entered the information, click **ADD** to create the new country and
-return to the list of countries. Click **CANCEL** to return to the list without saving the data.
+---
 
-## Editing a country
+## Editing
 
-To edit a country, click on its name in the list. An input mask opens with the data already filled in.
+To edit an existing country, click the country’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
-![Edit country](../Assets/EditCountry.png)
+![Editing Country](../Assets/EditCountry.png "Editing Country")
 
-After changing the fields, click **SAVE** to update the data and return to the list. 
-Click **CANCEL** to return to the list without saving the data.
+### Postal Codes
 
-## Deleting a country
+The **Postal codes** tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing users to maintain correct geographical and mailing data.  
+See the dedicated [Postal codes](PostalCode.md) document for details.
 
-You can delete a country only if it does not appear in any dependent record. 
-To delete a country, you first enter edit mode. In edit mode, click **DELETE**. A confirmation window opens with the message *Are you sure you want to delete the record?*.
+![Editing Postal Codes](../Assets/PostalCodesButton.png "Editing Postal Codes")
 
-- Click **YES** to permanently delete the country and remove it from the list.
-- Click **NO** to return to edit mode. The country remains in the system.
+---
 
-## Edit Postal Codes
+## Deletion
 
-Below the country name, you'll see the **Postal codes** button.
-
-![Postal codes](../Assets/PostalCodesButton.png)
-
-Click on the button to manage the postal codes tied to the selected country.
-
-
+A country can be deleted only if it is not referenced by dependent records (for example, addresses or documents). Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?** If confirmed, the record is permanently removed. If not confirmed, the interface remains in edit mode without any changes.
