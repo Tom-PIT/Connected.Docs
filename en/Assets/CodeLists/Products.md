@@ -1,0 +1,105 @@
+﻿# Products
+
+Products represent finished goods that a company manufactures or purchases. They may be used in production processes, internal operations, or as components of other materials. Each product includes essential properties—such as expiration period, tax rate, and measure unit—which ensure accurate and standardized management within the system.
+
+This code list serves as the register of finished products within the materials structure.
+
+For a detailed explanation of how product materials work, watch the [Product materials](https://www.youtube.com/watch?v=FcrJ_IHQYeA) video.
+
+> [!NOTE]  
+> **Prerequisites**  
+> Before managing products, ensure that the following code lists are properly configured:  
+> - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
+> - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
+
+---
+
+## Schema
+
+The code list has the following schema:
+
+| Field | Description |
+|-------|-------------|
+| **Code** | Unique identifier of the product within the list of materials. For example **2625001** or **MIZ-ČLS**. The code must be unique across all materials. |
+| **Name** | Name of the product shown in lists and documents. For example **Table – Oak**. |
+| **Generate serial number** | Defines how the system assigns serial numbers. |
+| **Expiration (days)** | Number of days before expiration, used for perishable goods. For example **30** or **365**. |
+| **EAN** | Barcode value used for scanning. For example **3831234567890**. |
+| **Base measure unit** | Measure unit used to express quantities, such as **piece** or **meter**. |
+| **Tax rate** | Default tax rate used in business documents. For example **22** or **9.5**. |
+| **Precision** | Default number of decimal places for displaying values or quantities. For example **2** or **3**. |
+| **Description** | Short internal description explaining the use or specifications of the product. For example **Solid oak, oiled**. |
+| **Tags** | Tags used for categorization and filtering. For example **furniture**, **premium**. |
+| **Info link URL** | URL linking to external product information or documentation. For example *https://example.domain/info*. |
+| **Image URL** | Public URL pointing to the product image. For example *https://example.domain/images/product.jpg*. |
+| **External key** | Identifier in an external system used for cross-system record linking, for example **SAP-4711**. |
+| **Active** | Indicates whether the product is available for use in new documents. Inactive products cannot be added to new entries but remain visible in the history. |
+
+---
+
+## Management
+
+To access the **products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Sitemap.md).
+
+### List of Products
+
+The user interface contains a list of products. If no record exists yet, the list is empty.
+
+![Products](../Assets/Products.png "Products")
+
+The list displays each product’s name, code, and serial number generation method.
+
+A filter for **Tags** is available on the left side of the screen. A search field is available in the upper-right corner to quickly locate specific products.
+
+---
+
+## Actions
+
+Click on the [action button](../../Common/UI/ActionButton.md) to display the following actions:
+
+- **Import**
+- **Copy existing**
+- **New**
+
+### Import
+
+The **Import** action allows you to import multiple product materials at once by preparing and uploading a correctly structured spreadsheet.  
+See the [**Import materials**](../../Common/CodeLists/ImportMaterials.md) documentation for full details.
+
+### Copy existing
+
+Click **Copy existing product** to create a new product based on an existing one. A selection list appears with the available base products.
+
+![Copy Product](../Assets/CopyProduct.png "Copy Product")
+
+After selecting the base product, all fields are pre-filled and can be edited before saving.
+
+### New
+
+Click **New** to open the input form for adding a new product.  
+The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
+
+Additional collapsible sections are available:
+
+- **Packaging**
+- **Additional**
+
+![New Product](../Assets/NewProduct.png "New Product")
+
+After entering the required information, click **Add** to save the product or **Cancel** to return to the list view.
+
+---
+
+## Editing
+
+To edit an existing product, click the product’s **Name** in the list. The interface switches to edit mode, displaying all fields for modification. Click **Save** to apply changes or **Cancel** to discard them.
+
+![Edit Product](../Assets/EditProduct.png "Edit Product")
+
+---
+
+## Deletion
+
+A product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, or material structures.  
+Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?**  
+If confirmed, the product is permanently removed; otherwise, the system keeps the record unchanged.
