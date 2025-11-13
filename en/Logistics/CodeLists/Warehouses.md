@@ -1,6 +1,9 @@
 # Warehouses
 
-This code list represents the warehouses used across the digital contents of the system. Each warehouse defines a physical or logical storage location that supports material handling, inventory operations, and logistical processes.
+This code list represents the warehouses used across the digital contents of the system. Each warehouse defines a physical or logical storage location that supports material handling, inventory operations, and logistical processes. 
+
+For a detailed explanation, watch the [Warehouses and warehouse locations](https://www.youtube.com/watch?v=3sEE9Mrtx6M) video.
+
 
 ---
 
