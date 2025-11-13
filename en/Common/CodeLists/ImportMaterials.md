@@ -87,20 +87,9 @@ To complete the full import, the spreadsheet file must be **loaded again**, and 
 
 ## Test import
 
-The **Test import** action validates all rows and reports:
-
-- Missing required fields  
-- Duplicate material codes  
-- Invalid measure units  
-- Invalid tax rates  
-- Incorrect formatting  
-- Any other structural issues  
-
-Invalid rows appear in the status column as **red**, and valid rows appear in **green**.
+The **Test import** action simulates a data import without actually saving any data. Invalid rows appear in the status column as **red**, and valid rows appear in **green**.
 
 ![Import materials — error preview](../Assets/ImportMaterialsError.png "Import materials — error preview")
-
-Test import does **not** save any data.
 
 ---
 
