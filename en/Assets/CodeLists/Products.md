@@ -16,8 +16,6 @@ For a detailed explanation of how product materials work, watch the [Product mat
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|-------------|
 | **Code** | Unique identifier of the product within the list of materials. For example **2625001** or **MIZ-ČLS**. The code must be unique across all materials. |
@@ -39,7 +37,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Products
 

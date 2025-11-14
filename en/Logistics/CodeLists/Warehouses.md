@@ -9,8 +9,6 @@ For a detailed explanation, watch the [Warehouses and warehouse locations](https
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|-------------|
 | **Code** | Unique identifier of the warehouse. The code must be unique within the entire list. |

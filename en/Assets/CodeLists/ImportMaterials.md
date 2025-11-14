@@ -5,7 +5,7 @@ This document describes how to import multiple materials into the system at once
 The screen also provides a downloadable example file, which shows the required structure of the spreadsheet. Before importing, you can run a **Test import**, which validates the data and reports errors without applying changes.
 
 To access the **Import materials** code list, go to **Assets / Materials /
-Import materials**.
+Import materials**  in the [navigation](../../Common/UI/Sitemap.md).
 
 ---
 

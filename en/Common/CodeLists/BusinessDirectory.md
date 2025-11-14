@@ -6,8 +6,6 @@ This code list represents the collection of entries in the business directory us
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|--------------|
 | **Name** | Full name of the entity, for example **ACME d.o.o.** or **John Smith**. |
@@ -37,7 +35,14 @@ The code list has the following schema:
 
 ## Management
 
-To access the **Business directory** code list, go to **Customers / Management / Business directory** in the [navigation](../../Common/UI/Sitemap.md).
+You can access the **Business directory** code list from different domains. In all cases you are working with the same shared data.
+
+To open the list, go to the **Management** section of the following domains:
+
+- **Customers**
+- **Logistics**
+- **Sales**
+- **Supply**
 
 ### List of Business Directory Entries
 

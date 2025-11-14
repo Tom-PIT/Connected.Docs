@@ -23,52 +23,28 @@ the [Raw Materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 
 ## Schema
 
-The code list has the following schema:
+| Field                | Description |
+|----------------------|-------------|
+| **Code**             | Unique identifier of the raw material within the list of materials. The code must be unique across all materials. |
+| **Name**             | Name of the raw material displayed in lists and documents. |
+| **Generate serial number** | Defines how the system assigns serial numbers. |
+| **Expiration (days)** | Number of days before the material expires (useful for perishable goods). |
+| **EAN**              | Barcode value used for scanning. |
+| **Measure unit**     | Measure unit used to express quantities (e.g., piece, kg, meter). |
+| **Tax rate**         | Default tax rate used in business documents. |
+| **Precision**        | Default number of decimal places for values and quantities. |
+| **Description**      | Short internal description of the raw material. |
+| **Tags**             | Tags used for categorization and filtering. |
+| **Info link URL**    | URL linking to external information or documentation. |
+| **Image URL**        | Public URL pointing to the material image. |
+| **External key**     | Identifier used to connect the raw material with external systems. |
+| **Active**           | Indicates whether the raw material is available for use in new documents. |
 
-  -----------------------------------------------------------------------
-  Field                    Description
-  ------------------------ ----------------------------------------------
-  **Code**                 Unique identifier of the raw material within
-                           the list of materials.
-
-  **Name**                 Name of the raw material shown in lists and
-                           documents.
-
-  **Generate serial        Defines how the system assigns serial numbers.
-  number**                 
-
-  **Expiration (days)**    Number of days before expiration, used for
-                           perishable goods.
-
-  **EAN**                  Barcode value used for scanning.
-
-  **Base measure unit**    Measure unit used to express quantities.
-
-  **Tax rate**             Default tax rate used in business documents.
-
-  **Precision**            Default number of decimal places for
-                           displaying quantities.
-
-  **Description**          Short internal description.
-
-  **Tags**                 Tags used for categorization and filtering.
-
-  **Info link URL**        URL linking to external material information.
-
-  **Image URL**            URL of raw material image.
-
-  **External key**         Identifier in external system.
-
-  **Active**               Indicates whether the raw material is
-                           available for new documents.
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
 
 ## Management
 
-To access the **raw materials** code list, go to **Assets / Materials /
-Raw materials**.
+To access the **Raw materials** code list, go to **Assets / Materials /
+Raw materials** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Raw materials
 

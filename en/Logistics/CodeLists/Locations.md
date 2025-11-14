@@ -8,8 +8,6 @@ For a detailed explanation of how warehouse locations work, watch the [Warehouse
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|-------------|
 | **Code** | Unique code identifying the location, often structured to reflect the hierarchy of the warehouse. |

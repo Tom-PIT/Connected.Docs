@@ -6,8 +6,6 @@ This code list represents the countries used across the digital contents of the 
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|--------------|
 | **Name** | Country name. For example, Slovenia or **Austria**. |
@@ -19,7 +17,13 @@ The code list has the following schema:
 
 ## Management
 
-To access the **Countries** code list, go to **Sales / Management / Countries** in the [navigation](../../Common/UI/Sitemap.md).
+You can access the **Countries** code list from different domains. In all cases you are working with the same shared data.
+
+To open the list, go to the **Management** section of the following domains:
+
+- **Logistics**
+- **Sales**
+- **Supply**
 
 ### List of Countries
 
