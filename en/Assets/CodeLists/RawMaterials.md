@@ -11,7 +11,7 @@ This code list serves as the register of all raw materials within the
 materials structure.
 
 For a detailed explanation of how raw material management works, watch
-the <a href="https://www.youtube.com/watch?v=kb6I-eJ0tBU" target="_blank">Raw materials</a> video.
+the [Raw Materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 
 > [!NOTE]  
 > **Prerequisites**  
