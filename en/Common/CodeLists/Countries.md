@@ -31,7 +31,7 @@ Each record includes a status indicator to the left of its name:
 
 ![Countries List](../Assets/CountriesList.png "Countries List")
 
-Each record displays a tag representing **associated data** — [Postal codes](#editing-postal-codes).
+Each record displays a tag representing **associated data** — [Postal codes](PostalCodes.md).
 
 Clicking this tag opens the interface for managing the related data linked to the selected country.
 
@@ -46,7 +46,16 @@ Click on the [action button](../../Common/UI/ActionButton.md) to display the fol
 
 ### Import
 
-The **Import** action allows bulk creation or updating of country entries. Prepare a CSV file containing the required data and upload it. The system automatically creates new records or updates existing ones based on the file contents.
+The **Import** action enables bulk creation or updating of country records. This function is intended for administrators who need to add or modify multiple countries at once.
+
+When selecting **Import**, the system opens the upload interface:
+
+![Import countries](../Assets/ImportCountries.png "Import countries")
+
+The import accepts a **CSV file**. Drag and drop the file into the upload area or click to open the file dialog.
+The file must contain the required fields in a valid structure. You can download a file example using the menu located on the top-right corner. After the upload is complete, the system processes the file and creates or updates countries based on the CSV content.
+
+Click **Back** to return to the country list without importing.
 
 ### New
 
@@ -69,8 +78,7 @@ To edit an existing country, click the country’s **Name** in the list. The int
 
 ### Postal codes
 
-The **Postal codes** tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing users to maintain correct geographical and mailing data.  
-See the dedicated [Postal codes](PostalCode.md) document for details.
+The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing users to maintain correct geographical and mailing data.  
 
 ![Editing Postal Codes](../Assets/PostalCodesButton.png "Editing Postal Codes")
 
