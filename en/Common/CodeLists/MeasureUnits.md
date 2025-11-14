@@ -8,8 +8,6 @@ For a detailed explanation of how measure units work, watch the [Measure units](
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|-------------|
 | **Name** | Name of the measure unit used in lists and documents. For example **Kilogram** or **Meter**. |
@@ -21,7 +19,18 @@ The code list has the following schema:
 
 ## Management
 
-To access the **Measure units** code list, go to **Logistics / Management / Measure units** in the [navigation](../../Common/UI/Sitemap.md).
+## Management
+
+You can access the **Measure units** code list from different domains. In all cases you are working with the same shared data.
+
+To open the list, go to the **Management** section of the following domains:
+
+- **Assets**
+- **Logistics**
+- **Maintenance**
+- **Productions**
+- **Sales**
+- **Supply**
 
 ### List of Measure Units
 

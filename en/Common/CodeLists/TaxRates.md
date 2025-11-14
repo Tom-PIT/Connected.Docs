@@ -6,8 +6,6 @@ This code list represents the tax rates used throughout the digital contents of 
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|-------------|
 | **Name** | Descriptive name of the tax rate. For example, Standard tax rate 22 or Reduced tax rate 9.5. |
@@ -18,7 +16,13 @@ The code list has the following schema:
 
 ## Management
 
-To access the **Tax rates** code list, go to **Assets / Management / Tax rates** in the [navigation](../../Common/UI/Sitemap.md).
+You can access the **Tax rates** code list from different domains. In all cases you are working with the same shared data.
+
+To open the list, go to the **Management** section of the following domains:
+
+- **Assets**
+- **Sales**
+- **Supply**
 
 ### List of Tax Rates
 

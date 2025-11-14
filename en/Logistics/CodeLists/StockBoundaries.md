@@ -8,8 +8,6 @@ For a detailed explanation of how stock boundaries work, watch the [Stock bounda
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|--------------|
 | **Entity** | The material or product to which the stock boundaries apply. The entity is displayed with its code and name. |

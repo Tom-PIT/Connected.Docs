@@ -36,7 +36,7 @@ Packaging has the following fields:
 
 ## Management
 
-To access packaging configuration, go to: **Assets / Materials / Packaging**.
+To access packaging configuration, go to: **Assets / Materials / Packaging** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Packaging
 

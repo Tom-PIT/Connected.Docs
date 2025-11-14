@@ -16,8 +16,6 @@ For a detailed explanation of how semi product materials work, watch the [Semi p
 
 ## Schema
 
-The code list has the following schema:
-
 | Field | Description |
 |-------|-------------|
 | **Code** | Unique identifier of the semi product within the list of materials. The code must be unique across all materials. |
