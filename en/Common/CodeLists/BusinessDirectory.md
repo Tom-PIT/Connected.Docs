@@ -37,7 +37,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **business directory** code list, go to **Customers / Management / Business directory** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Business directory** code list, go to **Customers / Management / Business directory** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Business Directory Entries
 

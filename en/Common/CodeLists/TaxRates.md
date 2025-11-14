@@ -18,7 +18,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **tax rates** code list, go to **Assets / Management / Tax rates** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Tax rates** code list, go to **Assets / Management / Tax rates** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Tax Rates
 
