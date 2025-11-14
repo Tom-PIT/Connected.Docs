@@ -39,7 +39,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Semi Products
 

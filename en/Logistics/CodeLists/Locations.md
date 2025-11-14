@@ -21,7 +21,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **locations** code list, go to **Logistics / Management / Locations** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Locations** code list, go to **Logistics / Management / Locations** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Locations
 

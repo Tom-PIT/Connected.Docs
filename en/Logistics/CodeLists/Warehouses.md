@@ -22,7 +22,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **warehouses** code list, go to **Logistics / Management / Warehouses** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Warehouses** code list, go to **Logistics / Management / Warehouses** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Warehouses
 

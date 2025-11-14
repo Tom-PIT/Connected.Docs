@@ -19,7 +19,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **countries** code list, go to **Sales / Management / Countries** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Countries** code list, go to **Sales / Management / Countries** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Countries
 

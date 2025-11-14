@@ -21,7 +21,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **measure units** code list, go to **Logistics / Management / Measure units** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Measure units** code list, go to **Logistics / Management / Measure units** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Measure Units
 

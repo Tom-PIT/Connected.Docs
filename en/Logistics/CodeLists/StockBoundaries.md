@@ -20,7 +20,7 @@ The code list has the following schema:
 
 ## Management
 
-To access the **stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [navigation](../../Common/UI/Sitemap.md).
 
 ### List of Stock Boundaries
 
