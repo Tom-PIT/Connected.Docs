@@ -21,7 +21,7 @@ For a detailed explanation of how repro materials work, watch the
 |-------|-------------|
 | **Code** | Unique identifier of the repro material within the list of materials. For example **REP-VIJ-2**. The code must be unique across all materials. |
 | **Name** | Name shown in lists and documents. For example **Screw 6mm**. |
-| **Generate serial number** | Defines how the system assigns serial numbers. |
+| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before expiration, used for perishable items. For example **30** or **365**. |
 | **EAN** | Barcode value used for scanning. For example **57884441241**. |
 | **Measure unit** | Measure unit used to express quantities, such as **piece** or **meter**. |
