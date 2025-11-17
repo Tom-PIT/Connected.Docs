@@ -39,7 +39,7 @@ For a detailed explanation of how product materials work, watch the [Product mat
 
 To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Sitemap.md).
 
-### List of Products
+### List of products
 
 The user interface contains a list of products. If no record exists yet, the list is empty.
 

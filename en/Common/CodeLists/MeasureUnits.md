@@ -32,7 +32,7 @@ To open the list, go to the **Management** section of the following domains:
 - **Sales**
 - **Supply**
 
-### List of Measure Units
+### List of measure units
 
 The user interface contains a list of measure units. If no record exists yet, the list is empty.
 

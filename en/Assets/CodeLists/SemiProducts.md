@@ -39,7 +39,7 @@ For a detailed explanation of how semi product materials work, watch the [Semi p
 
 To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../Common/UI/Sitemap.md).
 
-### List of Semi Products
+### List of semi products
 
 The user interface contains a list of semi products. If no record exists yet, the list is empty.
 

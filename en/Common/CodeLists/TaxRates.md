@@ -24,7 +24,7 @@ To open the list, go to the **Management** section of the following domains:
 - **Sales**
 - **Supply**
 
-### List of Tax Rates
+### List of tax rates
 
 The user interface contains a list of tax rates. If no record exists yet, the list is empty.
 
