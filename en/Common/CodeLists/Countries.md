@@ -25,7 +25,7 @@ To open the list, go to the **Management** section of the following domains:
 - **Sales**
 - **Supply**
 
-### List of Countries
+### List of countries
 
 The user interface contains a list of countries. If no record exists yet, the list is empty.
 

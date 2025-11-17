@@ -46,7 +46,7 @@ the [Raw Materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 To access the **Raw materials** code list, go to **Assets / Materials /
 Raw materials** in the [navigation](../../Common/UI/Sitemap.md).
 
-### List of Raw materials
+### List of raw materials
 
 The user interface contains a list of raw materials.
 

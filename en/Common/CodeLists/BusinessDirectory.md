@@ -44,7 +44,7 @@ To open the list, go to the **Management** section of the following domains:
 - **Sales**
 - **Supply**
 
-### List of Business Directory Entries
+### List of business directory entries
 
 The user interface contains a list of entries in the business directory. If no record exists yet, the list is empty.
 
@@ -58,7 +58,7 @@ Each record displays multiple tags representing **associated data**:
 
 Clicking any of these tags opens the respective interface for managing the related data linked to the selected record.
 
-Filters on the left side allow users to narrow results by **View** (Active / Inactive), **Relation** (Vendor, Customer, Cooperator, Person), **Type**, and **Country**.
+Filters on the left side allow you to narrow results by **View** (Active / Inactive), **Relation** (Vendor, Customer, Cooperator, Person), **Type**, and **Country**.
 
 The **Type** field determines the tax status of the entity. The available values are:
 - **Liable for tax** — the entity is identified as a VAT payer and has a valid VAT ID number.  
@@ -105,10 +105,10 @@ To edit an existing record, click the entry’s **Name** in the list. The interf
 
 ### Contacts
 
-The **Contacts** tag opens the interface for managing contact persons related to the selected record. Users can add, edit, or delete contact details such as name, role, phone number, and email address.  
+The **Contacts** tag opens the interface for managing contact persons related to the selected record. You can add, edit, or delete contact details such as name, role, phone number, and email address.  
 See the dedicated [Contacts](Contacts.md) document for details.
 
-### Bank Accounts
+### Bank accounts
 
 The **Bank accounts** tag opens the interface for managing the record’s financial accounts. Each account includes fields such as bank name, IBAN, and currency. Multiple accounts per record are supported.  
 See the dedicated [Bank accounts](BankAccounts.md) document for details.
@@ -118,7 +118,7 @@ See the dedicated [Bank accounts](BankAccounts.md) document for details.
 The **Business units** tag provides access to managing the record’s internal organizational units. Each unit can have its own contact details and addresses, allowing a more granular structure for larger organizations.  
 See the dedicated [Business units](BusinessUnits.md) document for details.
 
-### Company Cards
+### Company cards
 
 The **Company cards** tag opens the view for managing company identification cards associated with the record. These cards may store general company data and links to documents or certifications.  
 See the dedicated [Company cards](CompanyCards.md) document for details.

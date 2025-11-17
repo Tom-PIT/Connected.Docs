@@ -41,7 +41,7 @@ For a detailed explanation of how repro materials work, watch the
 To access the **Repro materials** code list, go to:  
 **Assets / Materials / Repro materials** in the [navigation](../../Common/UI/Sitemap.md).
 
-### List of Repro Materials
+### List of repro materials
 
 The user interface contains a list of repro materials.
 

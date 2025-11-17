@@ -21,7 +21,7 @@ For a detailed explanation of how warehouse locations work, watch the [Warehouse
 
 To access the **Locations** code list, go to **Logistics / Management / Locations** in the [navigation](../../Common/UI/Sitemap.md).
 
-### List of Locations
+### List of locations
 
 The user interface displays a list of all locations for the selected warehouse.  
 Use the warehouse selector on the left to change the warehouse.  

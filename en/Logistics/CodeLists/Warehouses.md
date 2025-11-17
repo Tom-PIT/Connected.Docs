@@ -22,7 +22,7 @@ For a detailed explanation, watch the [Warehouses and warehouse locations](https
 
 To access the **Warehouses** code list, go to **Logistics / Management / Warehouses** in the [navigation](../../Common/UI/Sitemap.md).
 
-### List of Warehouses
+### List of warehouses
 
 The user interface contains a list of warehouses. If no record exists yet, the list is empty.
 

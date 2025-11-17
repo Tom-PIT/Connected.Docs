@@ -20,7 +20,7 @@ For a detailed explanation of how stock boundaries work, watch the [Stock bounda
 
 To access the **Stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [navigation](../../Common/UI/Sitemap.md).
 
-### List of Stock Boundaries
+### List of stock boundaries
 
 The user interface displays a list of all materials and their defined stock boundaries.  
 Use the **Material type** selector on the left to filter results by category, and the **Tags** filter to refine the displayed records.
