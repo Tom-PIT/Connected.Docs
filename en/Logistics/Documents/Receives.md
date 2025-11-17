@@ -41,8 +41,6 @@ To access Receives, go to **Logistics / Documents / Receives** in the navigation
 | **Received quantity (pc)** | Quantity actually received. |
 | **Number of packets** | Number of packages received. |
 
-![Receive document details](../Assets/ReceiveDocumentDetails.png "Receive document details")
-
 ---
 
 ## List of receive documents
@@ -72,28 +70,38 @@ You can click any document to open and review its details.
 
 Click the **action button** to create a new receive document.
 
----
-
-## Creating a receive document
+### Creating a receive document
 
 To create a new receive document:
 
-1. Click **Add new**.  
+1. Click the **action button**, then select the **Vendor**.
+![Receive document](../Assets/ReceiveDocument.png "Receive document")
 2. Scan or manually enter the **EAN code of the packaging**.  
 3. The system automatically retrieves the packaging information and fills all relevant fields in the **Details** section.  
+![Receive document details](../Assets/ReceiveDocumentDetails.png "Receive document details")
 4. Adjust quantities, storage locations, or other values if needed.  
-5. Click **Save** to save the details. Add more items starting from step 2 if necessary.  
+5. Click **Save** to save the details. Add more items starting from step 2 if needed.  
 6. Publish the document once all details are correct. 
 
 A newly created receive document appears in the **Drafts** view. Once published, it moves to **Committed**.
 
-![Receive document](../Assets/ReceiveDocument.png "Receive document")
+---
+
+## Attachments
+
+At the top of every document, an **Attachments** section is available. 
+
+![Attachments section](../Assets/ReceiveAttachments.png "Attachments section")
+
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
 ---
 
 ## Menu
 
 Inside a receive document, the **menu (hamburger icon)** in the top-right corner provides different options depending on the document status.
+
+![Menu options](../Assets/ReceiveMenu.png "Menu options")
 
 ### Draft receive document
 
@@ -113,10 +121,13 @@ Inside a receive document, the **menu (hamburger icon)** in the top-right corner
 
 When you click a document from the list:
 
-- You see its **Document** section (header information).  
-- You see all **Details** representing the received items.  
-- You can edit draft documents.  
-- Committed documents are read-only, except for reversal creation.
+- You see its **Document** section (header information)
+- You see all **Details** representing the received items
+- You can edit draft documents
+- You can also print or export the document
+- Committed documents are read-only, except for reversal creation
+
+![Receive reviewing](../Assets/ReceiveReviewing.png "Receive reviewing")
 
 ## Deletion
-Click on **Delete** to delete a receive document draft. Published receive documents cannot be deleted.
+Click on **Delete** to delete a receive document draft. Published receive documents cannot be deleted — only a reversal can be created.
