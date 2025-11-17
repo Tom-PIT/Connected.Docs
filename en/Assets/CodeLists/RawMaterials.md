@@ -27,7 +27,7 @@ the [Raw Materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 |----------------------|-------------|
 | **Code**             | Unique identifier of the raw material within the list of materials. The code must be unique across all materials. |
 | **Name**             | Name of the raw material displayed in lists and documents. |
-| **Generate serial number** | Defines how the system assigns serial numbers. |
+| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before the material expires (useful for perishable goods). |
 | **EAN**              | Barcode value used for scanning. |
 | **Measure unit**     | Measure unit used to express quantities (e.g., piece, kg, meter). |

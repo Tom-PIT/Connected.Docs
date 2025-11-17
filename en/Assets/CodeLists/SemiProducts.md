@@ -20,7 +20,7 @@ For a detailed explanation of how semi product materials work, watch the [Semi p
 |-------|-------------|
 | **Code** | Unique identifier of the semi product within the list of materials. The code must be unique across all materials. |
 | **Name** | Name of the semi product shown in lists and documents. |
-| **Generate serial number** | Defines how the system assigns serial numbers. |
+| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before expiration, used for perishable or time-sensitive materials. |
 | **EAN** | Barcode value used for scanning. |
 | **Base measure unit** | Measure unit used to express quantities, such as **piece** or **meter**. |
