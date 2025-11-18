@@ -20,7 +20,7 @@ To access Receives, go to **Logistics / Documents / Receives** in the navigation
 | **Document date** | Date when the goods were physically received. |
 | **Warehouse** | Warehouse where the materials are being received. |
 | **Vendor** | Supplier delivering the goods. |
-| **Supply order** | (Optional) Linked supply order. See [Supply order](../Supply/Documents/SupplyOrder.md) |
+| **Supply order** | (Optional) Linked supply order. See [Supply order](../../Supply/Documents/SupplyOrder.md). |
 | **Notes** | Additional remarks related to the document. |
 
 ---
@@ -76,12 +76,13 @@ To create a new receive document:
 
 1. Click the **action button**, then select the **Vendor**.
 ![Receive document](../Assets/ReceiveDocument.png "Receive document")
-2. Scan or manually enter the **EAN code of the packaging**.  
+2. Scan or manually enter the **EAN code of the packaging**.
+   - The system displays **all matching materials and serial numbers**.  
 3. The system automatically retrieves the packaging information and fills all relevant fields in the **Details** section.  
 ![Receive document details](../Assets/ReceiveDocumentDetails.png "Receive document details")
 4. Adjust quantities, storage locations, or other values if needed.  
 5. Click **Save** to save the details. Add more items starting from step 2 if needed.  
-6. Publish the document once all details are correct. 
+6. Click **Publish** to commit the document. 
 
 A newly created receive document appears in the **Drafts** view. Once published, it moves to **Committed**.
 
@@ -94,6 +95,12 @@ At the top of every document, an **Attachments** section is available.
 ![Attachments section](../Assets/ReceiveAttachments.png "Attachments section")
 
 You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+
+---
+
+## Notes
+
+Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
 ---
 
@@ -124,10 +131,21 @@ When you click a document from the list:
 - You see its **Document** section (header information)
 - You see all **Details** representing the received items
 - You can edit draft documents
-- You can also print or export the document
+- You can print or export draft or committed documents
 - Committed documents are read-only, except for reversal creation
 
 ![Receive reviewing](../Assets/ReceiveReviewing.png "Receive reviewing")
 
 ## Deletion
-Click on **Delete** to delete a receive document draft. Published receive documents cannot be deleted — only a reversal can be created.
+
+Draft documents can be deleted, but only if they contain **no material entries**.
+
+If the draft still includes materials in the **Details** section:
+
+1. Click the material serial number to open the **Edit detail** screen.  
+2. Click **Delete** inside the Edit detail window to remove the material.  
+3. Repeat this for all remaining materials.
+
+Once the document contains no materials, you can click **Delete** to remove the draft.
+
+Committed documents **cannot** be deleted — only reversed (if applicable).

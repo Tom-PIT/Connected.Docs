@@ -3,8 +3,7 @@
 The **Stock** page provides an overview of all material quantities across the system.  
 It allows you to quickly check available, blocked, and reserved stock and navigate to detailed views for any material.
 
-For a detailed explanation of how stock works, watch the  
-[Stock overview](https://www.youtube.com/watch?v=gjAKnavIWnY) video.
+For a detailed explanation of how stock works, watch the [Stock overview](https://www.youtube.com/watch?v=gjAKnavIWnY) video.
 
 To access this screen, go to **Logistics / Stock** in the navigation.
 
@@ -58,7 +57,7 @@ Click any material to open the detailed stock view.
 
 ## Stock View by Material
 
-Clicking a material opens a detailed breakdown of stock distribution across storage locations.
+Clicking a material opens a detailed breakdown of stock distribution across storage locations. For more information see the [Stock view by material](https://www.youtube.com/watch?v=GUdnV6bZwoI) video.
 
 ![Stock view by material](../Assets/StockByMaterial.png "Stock view by material")
 
@@ -72,14 +71,41 @@ This view includes:
   - Warehouse and location  
   - Serial numbers (if applicable)  
   - Quantities  
+- A **Histogram** section, showing how stock levels changed across selected dates.
 
 A search field is available for filtering within the selected material.
 
-### **Histogram**
+---
 
-At the bottom of the page, a **Histogram** section is available, showing how stock levels changed across selected dates.
+## Stock view by location
 
-![Stock histogram by material](../Assets/StockHistogram.png "Stock histogram by material")
+The **Stock view by location** screen shows all materials stored in a specific warehouse location, along with their total, reserved, and available quantities. It is useful when you want to see what is physically stored in a particular rack, shelf, or storage area.
+
+You can access this view in two ways:
+
+- Through **Logistics / Views / Stock view by location**
+- By clicking any **location name** inside other stock screens (such as Stock view by material)
+
+For full details, see [**Stock view by location**](../Views/StockViewByLocation.md).
 
 ---
+
+## Stock view by serial number
+
+A single material can have multiple **serial numbers** (for different batches, production dates, or storage locations). Whenever you click a **serial number** in any stock view (for example, in **Stock** or **Stock view by location**), the **Stock view by serial number** screen opens.
+For more information see the [Stock view by serial number](https://www.youtube.com/watch?v=_vzXNsGg5N4) video.
+
+![Stock view by serial number](../Assets/StockBySerialNumber.png "Stock view by  serial number")
+
+This view shows:
+
+- **Material and serial number** – the specific unit you are inspecting.  
+- **Stock (pc) graph** – visual overview of total and available quantity for this serial number.  
+- **Allocations** – a list of all storage locations where this serial number is present, including quantities.  
+- **Attachments** – files related to this serial number (such as quality reports or photos).  
+- **Backlog** – a timeline of all movements and transactions involving this serial number.
+
+The **Stock view by serial number** screen is read-only and is used for detailed tracking and traceability of a specific serial number.
+
+
 
