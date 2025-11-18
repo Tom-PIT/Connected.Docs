@@ -2,8 +2,7 @@
 
 An **Inventory** document is used to verify and correct stock quantities at a specific warehouse location. It helps you compare **theoretical stock** (what the system expects) with **actual stock** (what is physically present). Any discrepancy—missing or excess—is resolved by publishing the document.
 
-For a full walkthrough of how inventory checks work, watch the  
-[Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8) video.
+For a full walkthrough of how inventory checks work, watch the [Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8) video.
 
 To access Inventories, go to **Logistics / Documents / Inventories** in the navigation.
 
