@@ -64,17 +64,18 @@ Click the **action button** to create a new issue document.
 
 ### Creating an issue document
 
-1. Click the **action button**, then select the **Warehouse** and **Customer**.
+1. Click the **action button** to create a new document draft, then select the **Warehouse** and **Customer**.
 ![Issue Document](../Assets/IssueNew.png "Add new issue")
 2. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
    - The system displays **all matching materials and serial numbers**.  
 3. Select the correct material from the results list.  
-4. The system automatically fills in all known details (material, serial number, location, best-before).  
+4. The system automatically fills in all known details (material, serial number, location, best before).  
  ![Issue Detail](../Assets/IssueNewDetails.png "Issue Details")
 5. Enter the **quantity** you want to issue — this is the only editable field.  
-6. Click **Save** to add the line to the document.  
-7. Repeat as needed to add more items.  
-8. Click **Publish** to commit the document.
+6. Click **Save** to add the line to the document.  Add more items starting from step 2 if needed. 
+7. Click **Publish** to commit the document.
+
+A newly created issue document appears in the **Drafts** view. Once published, it moves to **Committed**.
 
 ---
 
@@ -85,6 +86,12 @@ At the top of every document, an **Attachments** section is available.
 ![Attachments section](../Assets/ReceiveAttachments.png "Attachments section")
 
 You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+
+---
+
+## Notes
+
+Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
 ---
 
@@ -113,7 +120,7 @@ When you click an issue document:
 - You see the **Document** section (header information)  
 - You see all **Details** representing the issued items  
 - You can edit documents in **Draft** status  
-- You can also print or export the document
+- You can print or export draft or committed documents
 - Published (Committed) documents are read-only except for reversal creation
 
 ![Issue reviewing](../Assets/IssueReviewing.png "Issue reviewing")
@@ -122,5 +129,14 @@ When you click an issue document:
 
 ## Deletion
 
-Click **Delete** to delete an issue document draft. Published issue documents cannot be deleted — only a reversal can be created.
+Draft documents can be deleted, but only if they contain **no material entries**.
 
+If the draft still includes materials in the **Details** section:
+
+1. Click the material serial number to open the **Edit detail** screen.  
+2. Click **Delete** inside the Edit detail window to remove the material.  
+3. Repeat this for all remaining materials.
+
+Once the document contains no materials, you can click **Delete** to remove the draft.
+
+Committed documents **cannot** be deleted — only reversed (if applicable).
