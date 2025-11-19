@@ -17,7 +17,7 @@ This code list represents the countries used across the digital contents of the 
 
 ## Management
 
-You can access the **Countries** code list from different domainsin the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Countries** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 
