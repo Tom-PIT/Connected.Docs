@@ -37,7 +37,7 @@ For a detailed explanation of how product materials work, watch the [Product mat
 
 ## Management
 
-To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of products
 

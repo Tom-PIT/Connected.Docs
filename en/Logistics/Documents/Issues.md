@@ -6,7 +6,7 @@ It tracks which items were issued, in what quantities, and to which customer.
 For a full walkthrough, watch the  
 [Issue](https://www.youtube.com/watch?v=SrVyblBiLmQ) video.
 
-To access Issues, go to **Logistics / Documents / Issues** in the navigation.
+To access Issues, go to **Logistics / Documents / Issues** in the [navigation](../../Common/UI/Navigation.md).
 
 ---
 

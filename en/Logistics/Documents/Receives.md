@@ -6,7 +6,7 @@ It captures details about received items, packaging, quantities, and storage loc
 For a full walkthrough of how Receives work, watch the  
 [Receive](https://www.youtube.com/watch?v=oTOYD-nlCqE) video.
 
-To access Receives, go to **Logistics / Documents / Receives** in the navigation.
+To access Receives, go to **Logistics / Documents / Receives** in the [navigation](../../Common/UI/Navigation.md).
 
 ---
 

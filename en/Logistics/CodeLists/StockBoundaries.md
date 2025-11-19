@@ -18,7 +18,7 @@ For a detailed explanation of how stock boundaries work, watch the [Stock bounda
 
 ## Management
 
-To access the **Stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of stock boundaries
 

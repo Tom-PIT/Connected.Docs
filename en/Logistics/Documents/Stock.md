@@ -5,7 +5,7 @@ It allows you to quickly check available, blocked, and reserved stock and naviga
 
 For a detailed explanation of how stock works, watch the [Stock overview](https://www.youtube.com/watch?v=gjAKnavIWnY) video.
 
-To access this screen, go to **Logistics / Stock** in the navigation.
+To access this screen, go to **Logistics / Stock** in the [navigation](../../Common/UI/Navigation.md).
 
 ---
 

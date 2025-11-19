@@ -4,7 +4,7 @@ An **Inventory** document is used to verify and correct stock quantities at a sp
 
 For a full walkthrough of how inventory checks work, watch the [Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8) video.
 
-To access Inventories, go to **Logistics / Documents / Inventories** in the navigation.
+To access Inventories, go to **Logistics / Documents / Inventories** in the [navigation](../../Common/UI/Navigation.md).
 
 ---
 

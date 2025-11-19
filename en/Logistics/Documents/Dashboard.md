@@ -5,7 +5,7 @@ The **Dashboard** provides a quick overview of stock-related conditions across a
 For a detailed explanation of how the dashboard works, watch the  
 [Dashboard overview](https://www.youtube.com/watch?v=mEU18GmypkY) video.
 
-To access the dashboard, go to **Logistics / Dashboard** in the navigation.
+To access the dashboard, go to **Logistics / Dashboard** in the [navigation](../../Common/UI/Navigation.md).
 
 ---
 

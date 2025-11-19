@@ -43,8 +43,7 @@ the [Raw Materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 
 ## Management
 
-To access the **Raw materials** code list, go to **Assets / Materials /
-Raw materials** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of raw materials
 
