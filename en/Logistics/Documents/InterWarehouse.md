@@ -6,7 +6,7 @@ It records source and destination warehouses, the moved items, and their quantit
 For a full walkthrough of how inter warehouse transfers work, watch the  
 [Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI) video.
 
-To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the navigation.
+To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [navigation](../../Common/UI/Navigation.md).
 
 ---
 

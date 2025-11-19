@@ -19,7 +19,7 @@ For a detailed explanation of how warehouse locations work, watch the [Warehouse
 
 ## Management
 
-To access the **Locations** code list, go to **Logistics / Management / Locations** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Locations** code list, go to **Logistics / Management / Locations** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of locations
 

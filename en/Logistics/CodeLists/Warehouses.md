@@ -20,7 +20,7 @@ For a detailed explanation, watch the [Warehouses and warehouse locations](https
 
 ## Management
 
-To access the **Warehouses** code list, go to **Logistics / Management / Warehouses** in the [navigation](../../Common/UI/Sitemap.md).
+To access the **Warehouses** code list, go to **Logistics / Management / Warehouses** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of warehouses
 

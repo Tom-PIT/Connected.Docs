@@ -4,7 +4,7 @@ The **Move serial** function allows you to quickly move a specific stock unit (i
 
 For a full demonstration, watch the [Move serial number](https://www.youtube.com/watch?v=dy1u6sKmdMg) video.
 
-To access Move serial, go to **Logistics / Documents / Move serial** in the navigation.
+To access Move serial, go to **Logistics / Documents / Move serial** in the [navigation](../../Common/UI/Navigation.md).
 
 ---
 
