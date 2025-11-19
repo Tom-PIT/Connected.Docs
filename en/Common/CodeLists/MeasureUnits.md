@@ -19,7 +19,7 @@ For a detailed explanation of how measure units work, watch the [Measure units](
 
 ## Management
 
-You can access the **Measure units** code list from different domainsin the [navigation](../Common/UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Measure units** code list from different domains in the [navigation](../Common/UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 
