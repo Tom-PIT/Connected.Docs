@@ -59,7 +59,7 @@ When selecting **Import**, the system opens the upload interface:
 The import accepts a **CSV file**. Drag and drop the file into the upload area or click to open the file dialog.
 The file must contain the required fields in a valid structure. You can download a file example using the menu located on the top-right corner. After the upload is complete, the system processes the file and creates or updates countries based on the CSV content.
 
-Click **Back** to return to the country list without importing.
+Click **Cancel** to return to the country list without importing.
 
 ### New
 
@@ -82,7 +82,7 @@ To edit an existing country, click the country’s **Name** in the list. The int
 
 ### Postal codes
 
-The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing users to maintain correct geographical and mailing data.  
+The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing you to maintain correct geographical and mailing data.  
 
 ![Editing Postal Codes](../Assets/PostalCodesButton.png "Editing Postal Codes")
 
@@ -90,5 +90,11 @@ The [**Postal codes**](PostalCodes.md) tag opens the interface for managing post
 
 ## Deletion
 
-A country can be deleted only if it is not referenced by dependent records (for example, addresses or documents). Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?**  
-If confirmed, the record is permanently removed. If not confirmed, the interface remains in edit mode without any changes.
+Click **Delete** on the edit screen to open a confirmation dialog: 
+
+**Are you sure you want to delete this record?**  
+
+If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A country can be deleted only if it is not referenced by dependent records (for example, addresses or documents).

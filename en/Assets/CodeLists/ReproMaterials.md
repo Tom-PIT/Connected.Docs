@@ -96,7 +96,7 @@ After entering the required information, click **Add** to save the material or *
 
 To edit an existing repro material, click its **Name** in the list. The interface switches to edit mode.
 
-![Edit Repro Material](../Assets/EditReproMaterial.png "Edit Repro Material")
+![Edit Repro Material](../Assets/EditReproMaterials.png "Edit Repro Material")
 
 Make the necessary changes and click **Save**.  
 Click **Cancel** to discard changes.
@@ -105,9 +105,12 @@ Click **Cancel** to discard changes.
 
 ## Deletion
 
-A repro material can be deleted only if no dependent records reference it (e.g., stock movements, production processes, documents).
+Click **Delete** on the edit screen to open a confirmation dialog: 
 
-Click **Delete** to open the confirmation dialog:  
-**Are you sure you want to delete this record?**
+**Are you sure you want to delete this record?**  
 
-If confirmed, the material is permanently removed. Otherwise, the record remains unchanged.
+If confirmed, the repro material is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A repro material can be deleted only if no dependent records reference it (e.g., stock movements, production processes, documents).
+

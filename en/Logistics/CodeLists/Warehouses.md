@@ -26,10 +26,6 @@ To access the **Warehouses** code list, go to **Logistics / Management / Warehou
 
 The user interface contains a list of warehouses. If no record exists yet, the list is empty.
 
-Each record includes a status indicator to the left of its name:
-- **Blue** indicates the warehouse is active
-- **Gray** indicates the warehouse is inactive
-
 ![Warehouses List](../Assets/Warehouses.png "Warehouses List")
 
 The list displays the basic warehouse details, including the warehouse code and name.
@@ -60,5 +56,11 @@ To edit an existing warehouse, click the warehouse’s **Name** in the list. The
 
 ## Deletion
 
-A warehouse can be deleted only if it is not used in any dependent records, such as inventory transactions or material movements. Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?**  
-If confirmed, the warehouse is permanently removed; otherwise, no changes are applied.
+Click **Delete** on the edit screen to open a confirmation dialog: 
+
+**Are you sure you want to delete this record?**  
+
+If confirmed, the warehouse is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A warehouse can be deleted only if it is not used in any dependent records, such as inventory transactions or material movements.

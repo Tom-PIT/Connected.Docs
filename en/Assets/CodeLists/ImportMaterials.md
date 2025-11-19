@@ -11,8 +11,6 @@ Import materials** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
-The table below describes the fields displayed in the results list after each file upload:
-
 | Field | Description |
 |--------|-------------|
 | **Created** | The date and time when the spreadsheet file was uploaded. |
@@ -39,7 +37,7 @@ The import file must include the columns listed below. Each row represents a sin
 | **Type** | Type of material: Product, Semi product, Repro material, or Raw material. |
 | **Code** | Unique identifier of the material. If a material with the same code already exists, the import updates it. |
 | **Name** | Full name of the material. |
-| **Measure unit** | Measure unit used for quantities. Must match an existing [measure unit](../CodeLists/Measure_units.md). |
+| **Measure unit** | Measure unit used for quantities. Must match an existing [measure unit](../../Common/CodeLists/MeasureUnits.md). |
 | **Tags** | Optional tags used for categorization. Multiple tags can be separated with commas. |
 | **Description** | Optional text describing the material. |
 | **EAN** | Barcode value of the material. |
@@ -47,7 +45,7 @@ The import file must include the columns listed below. Each row represents a sin
 | **Image link URL** | URL pointing to an image for the material. |
 | **Info link URL** | URL pointing to an external information page about the material. |
 | **Precision** | Number of decimal places used when displaying values. |
-| **Tax rate name** | Name of the tax rate. Must match an existing [tax rate](../CodeLists/Tax_rates.md). |
+| **Tax rate name** | Name of the tax rate. Must match an existing [tax rate](../../Common/CodeLists/TaxRates.md). |
 | **Tax rate** | Percentage of tax applied to the material. |
 | **External key** | External system identifier. |
 
@@ -56,14 +54,14 @@ The import file must include the columns listed below. Each row represents a sin
 ## Example row
 
 ```
-Product;C0000001;Acme product 1;Kg;ACME;Acme product 1;C000EAN1;0;https://google.com;https://google.com;0;DDV;22;EXT01
+Product,C0000001,Acme product 1,Kg,ACME,Acme product 1,C000EAN1,0,https://google.com;https://google.com,0,DDV,22,EXT01
 ```
 
 ---
 
-## Editing the file in Excel
+## Editing the file
 
-You can prepare or modify the spreadsheet in Excel:
+You can prepare or modify the spreadsheet in a spreadsheet editor:
 
 ![Editing in Excel](../Assets/ImportMaterialsExcel.png "Editing in Excel")
 
@@ -71,18 +69,16 @@ You can prepare or modify the spreadsheet in Excel:
 
 ## Uploading the file
 
-To begin the import, drag a **CSV** or **XLSX** file into the upload area or click it to open the file dialog.
+1. To begin the import, drag a **CSV** or **XLSX** file into the upload area or click it to open the file dialog.
 
-Once the file is uploaded, the **Data preview** appears, showing all parsed records. The following actions are available:
+2. Once the file is uploaded, the **Data preview** appears, showing all parsed records. The following actions are available:
 
-- **Test import** – carries out a test import without actually saving the data, so any errors can be detected before importing  
-- **Import** – imports and saves the data, applying all valid changes to the system  
+    - **Test import** – carries out a test import without actually saving the data, so any errors can be detected before importing  
+    - **Import** – imports and saves the data, applying all valid changes to the system  
 
-It is recommended to perform a **Test import** first to ensure that the data structure is correct and to prevent issues before applying the import.
+    It is recommended to perform a **Test import** first to ensure that the data structure is correct and to prevent issues before applying the import. Rows containing errors are marked in **red**, while valid rows are marked in **green** in the **Status** column.
 
-After running **Test import**, rows containing errors are marked in **red**, while valid rows are marked in **green** in the **Status** column.
-
-To complete the full import, the spreadsheet file must be **loaded again**, and the **Import** option must be selected.
+3. To complete the full import, load the spreadsheet file again, and select the **Import** option.
 
 ![Import materials — data preview](../Assets/ImportMaterialsPreview.png "Import materials — data preview")
 
@@ -109,19 +105,20 @@ During import:
 
 After the import completes, the status updates in the table, indicating which rows were processed successfully.
 
+> [!NOTE]  
+> Materials are linked to two code lists, [Measure units](../CodeLists/Measure_units.md) and [Tax rates](../CodeLists/Tax_rates.md). If the required records do not exist in these code lists, the system automatically creates the missing dependent code list entries during import.
+
 ---
 
 ## Results list
 
-Below the upload area, you can review all previously uploaded files.  
-Click any row to reopen the preview and review the results again.
+Below the upload area, you can see a list with all previously uploaded files. Click any import on the **Created** column to review the results and any possible errors.
+
+![Import materials report](../Assets/ImportMaterialsReport.png "Import materials report")
 
 ---
 
 ## Notes
-
-> [!NOTE]  
-> Materials are linked to two code lists, [Measure units](../CodeLists/Measure_units.md) and [Tax rates](../CodeLists/Tax_rates.md). If the required records do not exist in these code lists, the system automatically creates the missing dependent code list entries during import.
 
 - Materials must have unique **Code** values to avoid conflicts.  
 - Measure units and tax rates must already exist in the system.  

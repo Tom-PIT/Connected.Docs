@@ -30,7 +30,7 @@ the [Raw Materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 | **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before the material expires (useful for perishable goods). |
 | **EAN**              | Barcode value used for scanning. |
-| **Measure unit**     | Measure unit used to express quantities (e.g., piece, kg, meter). |
+| **Base measure unit**     | Measure unit used to express quantities (e.g., piece, kg, meter). |
 | **Tax rate**         | Default tax rate used in business documents. |
 | **Precision**        | Default number of decimal places for values and quantities. |
 | **Description**      | Short internal description of the raw material. |
@@ -93,5 +93,12 @@ Click the raw material name to edit the entry.
 
 ## Deletion
 
-A raw material can be deleted only if it is not referenced by other
+ Click **Delete** on the edit screen to open a confirmation dialog: 
+ 
+ **Are you sure you want to delete this record?**  
+
+If confirmed, the raw material is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A raw material can be deleted only if it is not referenced by other
 records.

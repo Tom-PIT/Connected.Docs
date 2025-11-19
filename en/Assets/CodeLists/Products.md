@@ -98,6 +98,11 @@ To edit an existing product, click the product’s **Name** in the list. The int
 
 ## Deletion
 
-A product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, or material structures.  
-Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?**  
+Click **Delete** on the edit screen to open a confirmation dialog: 
+
+**Are you sure you want to delete this record?**  
+
 If confirmed, the product is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+> A product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, or material structures.  

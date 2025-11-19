@@ -81,7 +81,14 @@ The **Import by VIES** action allows automatic retrieval of data from the VIES d
 
 ### Import
 
-The **Import** action allows bulk creation or updating of records from an existing CSV file. Prepare the file with the required data and upload it to populate or update the code list.
+The **Import** action enables bulk creation or updating of company records. When selecting **Import**, the system opens the upload interface:
+
+![Import business directory](../Assets/CompaniesImport.png "Import business directory")
+
+The import accepts a **CSV file**. Drag and drop the file into the upload area or click to open the file dialog.
+The file must contain the required fields in a valid structure.
+
+Click **Cancel** to return to the list without importing.
 
 ### New
 
@@ -93,7 +100,7 @@ The **New** action opens the input form for creating a new entry. Fill in the re
 
 ## Menu
 
-The **Menu** in the top-right corner provides the following option: **Export to CSV file**, which exports all visible records into a CSV file, allowing further analysis or backup.
+The **Menu** in the top-right corner provides the **Exporting** option, which exports all visible records into a CSV file, allowing further analysis or backup.
 
 ---
 
@@ -106,25 +113,37 @@ To edit an existing record, click the entry’s **Name** in the list. The interf
 ### Contacts
 
 The **Contacts** tag opens the interface for managing contact persons related to the selected record. You can add, edit, or delete contact details such as name, role, phone number, and email address.  
+
 See the dedicated [Contacts](Contacts.md) document for details.
 
 ### Bank accounts
 
 The **Bank accounts** tag opens the interface for managing the record’s financial accounts. Each account includes fields such as bank name, IBAN, and currency. Multiple accounts per record are supported.  
+
 See the dedicated [Bank accounts](BankAccounts.md) document for details.
 
 ### Business Units
 
 The **Business units** tag provides access to managing the record’s internal organizational units. Each unit can have its own contact details and addresses, allowing a more granular structure for larger organizations.  
+
 See the dedicated [Business units](BusinessUnits.md) document for details.
 
 ### Company cards
 
 The **Company cards** tag opens the view for managing company identification cards associated with the record. These cards may store general company data and links to documents or certifications.  
+
 See the dedicated [Company cards](CompanyCards.md) document for details.
 
 ---
 
 ## Deletion
 
-An entry can be deleted only if it is not referenced in any dependent records (for example, invoices or orders). Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?** If confirmed, the record is permanently removed. If not confirmed, the interface remains in edit mode without changes.
+Click **Delete** on the edit screen to open a confirmation dialog: 
+
+**Are you sure you want to delete this record?**  
+
+If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>An entry can be deleted only if it is not referenced in any dependent records (for example, invoices or orders).
+

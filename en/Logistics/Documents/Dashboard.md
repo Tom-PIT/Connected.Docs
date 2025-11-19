@@ -11,14 +11,16 @@ To access the dashboard, go to **Logistics / Dashboard** in the [navigation](../
 
 ## Stock Indicators
 
-The dashboard displays four main indicators. Clicking any indicator updates the list below to show only the materials matching that condition. If no indicator is selected, the dashboard displays recently created documents.
+The dashboard displays four main indicators. Clicking any indicator updates the list below to show only the materials matching that condition. If no indicator is selected, the dashboard displays recently created logistics documents.
 
 ### Below Minimum  
 Materials with stock quantity lower than the defined **minimum stock level**.  
+
 Minimum values are configured in **[Stock boundaries](../../Logistics/Management/StockBoundaries.md)**.
 
 ### Over Maximum  
 Materials with stock quantity higher than the defined **maximum stock level**.  
+
 Maximum values are configured in **[Stock boundaries](../../Logistics/Management/StockBoundaries.md)**.
 
 ### Out of Stock  
@@ -50,17 +52,15 @@ A **Stock** button is available to start the search manually. If the search bar 
 
 ## Material List
 
-Below the indicators, the dashboard shows a list of materials relevant to the current selection:
-
-- If an indicator is selected → only matching materials are shown  
-- If no indicator is selected → related documents are shown
-
-The list includes:
+Below the indicators, the dashboard shows a list of materials relevant to the current indicator selection. The list includes:
 
 - Material type  
 - Material / Product name  
 - Current stock or min/max value  
 
 A search field on the right allows further filtering of visible items.
+
+>[!NOTE]
+>Click on a material to open its [Stock by material](Stock.md#stock-view-by-material) view.
 
 ---

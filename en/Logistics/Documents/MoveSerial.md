@@ -10,7 +10,7 @@ To access Move serial, go to **Logistics / Documents / Move serial** in the [nav
 
 ## Moving a serial number
 
-Move serial is a **guided three-step workflow**:
+Move serial follows a guided three-step workflow:
 
 1. Identify the serial number  
 2. Select the destination location  

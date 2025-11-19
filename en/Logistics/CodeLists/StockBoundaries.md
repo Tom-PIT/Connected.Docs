@@ -10,7 +10,7 @@ For a detailed explanation of how stock boundaries work, watch the [Stock bounda
 
 | Field | Description |
 |-------|--------------|
-| **Entity** | The material or product to which the stock boundaries apply. The entity is displayed with its code and name. |
+| **Entity** | The material or product to which the stock boundaries apply. It is displayed with its code and name. |
 | **Min** | The minimum allowed stock quantity for the selected material or product. When the quantity drops below this value, the system highlights the condition in the [Dashboard](../Documents/Dashboard.md). |
 | **Max** | The maximum allowed stock quantity for the selected material or product. When this value is exceeded, the system highlights the condition in the [Dashboard](../Documents/Dashboard.md). |
 
@@ -28,7 +28,7 @@ Use the **Material type** selector on the left to filter results by category, an
 Each record shows the **Entity**, **Min**, and **Max** stock quantities.  
 If no value is defined for **Min** or **Max**, the table displays **0** by default.
 
-Stock boundaries can be edited directly within the table by clicking the numeric value in the **Min** or **Max** column and entering a new number. The changes are saved automatically once the field is updated.
+You can edit stock boundaries directly in the list view by clicking the numeric values in the **Min** or **Max** column and entering a new number. The changes are saved automatically once the field is updated.
 
 ![Stock Boundaries](../Assets/StockBoundaries.png "Stock Boundaries")
 
@@ -36,13 +36,13 @@ Stock boundaries can be edited directly within the table by clicking the numeric
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to display the following action:
-
-- Import  
+Click on the [action button](../../Common/UI/ActionButton.md) to display the **Import** action.  
 
 ### Import
 
 The **Import** action allows bulk creation or update of stock boundary records using a CSV file. Prepare the file with the required fields (**Entity**, **Min**, **Max**) and upload it to automatically populate the list.
+
+![Stock boundaries import](../Assets/StockBoundariesImport.png "Stock boundaries import")
 
 ---
 

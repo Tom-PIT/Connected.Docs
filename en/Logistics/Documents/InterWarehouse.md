@@ -22,8 +22,6 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 | **Destination warehouse** | Warehouse where the materials will be received. |
 | **Notes** | Additional remarks related to the document. |
 
----
-
 ### Detail section
 
 | Field | Description |
@@ -32,15 +30,14 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 | **Serial number** | The serial number of the unit being transferred. |
 | **Best before** | Expiration date (for materials with shelf life). |
 | **Source location** | Storage location in the source warehouse. |
-| **Destination location** | Storage location where the material will be placed (editable). |
-| **Quantity (pc)** | Quantity to be transferred (editable). |
+| **Destination location** | Storage location where the material will be placed. |
+| **Quantity (pc)** | Quantity to be transferred. |
 
 ---
 
 ## List of inter warehouse documents
 
-The **Inter warehouse** page displays all transfer documents.  
-You can filter the list using the left sidebar, which includes:
+The **Inter warehouse** page displays all transfer documents. You can search for a specific document using the search bar, or filter the list using the left sidebar, which includes:
 
 - **Document dates**
 - **View**  
@@ -67,7 +64,8 @@ Click the **action button** to create a new inter warehouse document.
 
 ### Creating an inter warehouse document
 
-1. Click **Add new**. Then select the **Source warehouse** and **Destination warehouse**.  
+1. Click **Add new**. Then select the **Source warehouse** and **Destination warehouse**.
+
    ![InterWarehouseNew](../Assets/InterWarehouseNew.png)
 
 2. In the **Details** section, scan or type a **serial number**, **EAN**, or material **name**.  
@@ -78,6 +76,7 @@ Click the **action button** to create a new inter warehouse document.
 
 3. Select the correct item, and the system automatically fills all fields.
 4. Adjust **Destination location** or **Quantity** if needed.  
+
    ![InterWarehouseDetails](../Assets/InterWarehouseDetails.png)
 
 5. Click **Save** to save the detail. You can add more items by repeating step 3.
@@ -109,7 +108,7 @@ These options are available for both *draft* and *committed* documents.
 
 ## Deletion
 
-Draft documents can be deleted, but only if they contain **no material entries**.
+Draft documents can be deletedon the edit screen, but only if they contain **no material entries**.
 
 If the draft still includes materials in the **Details** section:
 

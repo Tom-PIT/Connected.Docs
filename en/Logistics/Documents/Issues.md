@@ -22,8 +22,6 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 | **Customer** | Customer receiving the goods. |
 | **Notes** | Additional remarks related to the document. |
 
----
-
 ### Detail section
 
 | Field | Description |
@@ -32,13 +30,13 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 | **Serial number** | Selected serial number of the material being issued. |
 | **Best before** | Expiration date (if the material has shelf life). |
 | **Warehouse location** | Current storage location of the selected item. |
-| **Quantity (pc)** | Quantity being issued. This is the only editable field. |
+| **Quantity (pc)** | Quantity being issued. |
 
 ---
 
 ## List of issue documents
 
-The Issues page displays all issue documents. You can filter the list using the left sidebar, which includes:
+The Issues page displays all issue documents. You can search for a specefic document using the search bar, or filter the list using the left sidebar, which includes:
 
 - **Document dates**
 - **View:**  
@@ -102,11 +100,12 @@ Inside an issue document, the **menu (hamburger icon)** in the top-right corner 
 ![Menu options](../Assets/ReceiveMenu.png "Menu options")
 
 ### Draft issue document
+
 - Print  
 - Export (PDF)  
-- Delete all fields  
 
 ### Published issue document
+
 - Print  
 - Export (PDF)  
 - Create a new reversal
@@ -129,7 +128,7 @@ When you click an issue document:
 
 ## Deletion
 
-Draft documents can be deleted, but only if they contain **no material entries**.
+Draft documents can be deleted on the edit screen, but only if they contain **no material entries**.
 
 If the draft still includes materials in the **Details** section:
 
@@ -139,4 +138,4 @@ If the draft still includes materials in the **Details** section:
 
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
-Committed documents **cannot** be deleted — only reversed (if applicable).
+Committed documents **cannot** be deleted — only reversed.

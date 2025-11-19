@@ -23,15 +23,13 @@ To access the **Locations** code list, go to **Logistics / Management / Location
 
 ### List of locations
 
-The user interface displays a list of all locations for the selected warehouse.  
-Use the warehouse selector on the left to change the warehouse.  
-If no records exist yet, the list is empty.
+The interface displays a list of all locations for the selected warehouse. Use the warehouse selector on the left to change the warehouse. If no records exist yet, the list is empty.
 
 ![Locations List](../Assets/LocationsList.png "Locations List")
 
-Each record displays a tag representing **associated data** — [Stock](#stock).
+Each record displays a **Stock** tag that opens the interface for managing the stock associated with the selected location. 
 
-Clicking this tag opens the interface for managing stock assigned to the selected location.
+See [Stock view by location](../Views/StockViewByLocation.md) for more details.
 
 ---
 
@@ -56,15 +54,13 @@ After entering the required information, click **Add** to save the location or *
 
 To edit an existing location, click the location’s **Name** in the list. The interface switches to edit mode, displaying the existing values. Click **Save** to confirm changes or **Cancel** to discard them.
 
-### Stock
-
-The **Stock** tag opens the interface for managing the stock associated with the selected location.  
-See the dedicated documentation for details.
-
----
-
 ## Deletion
 
-A location can be deleted only if it is not used in any dependent entries, such as stock records or warehouse operations.  
-Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?**  
-If confirmed, the location is permanently removed; otherwise, no changes are made.
+Click **Delete** on the edit screen to open a confirmation dialog: 
+
+**Are you sure you want to delete this record?**  
+
+If confirmed, the location is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A location can be deleted only if it is not used in any dependent entries, such as stock records or warehouse operations.  
