@@ -62,12 +62,12 @@ Click on the [action button](../../Common/UI/ActionButton.md) to display the fol
 ### Import
 
 The **Import** action allows you to import multiple semi products at once by preparing and uploading a correctly structured spreadsheet.  
+
 See the [**Import materials**](../../Common/CodeLists/ImportMaterials.md) documentation for full details.
 
 ### Copy existing
 
-Click **Copy existing semi product** to create a new semi product based on an existing one.  
-A selection list appears with the available base semi products.
+Click **Copy existing semi product** to create a new semi product based on an existing one. A selection list appears with the available base semi products.
 
 ![Copy semi product](../Assets/CopySemiproduct.png "Copy semi product")
 
@@ -102,6 +102,11 @@ Click **Save** to apply changes or **Cancel** to discard them.
 
 ## Deletion
 
-A semi product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, production structures, or other material relationships.  
-Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?**  
-If confirmed, the semi product is permanently removed; otherwise, the system keeps the record unchanged.
+Click **Delete** on the edit screen to open a confirmation dialog: 
+
+**Are you sure you want to delete this record?**  
+
+If confirmed, the semiproduct is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A semi product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, production structures, or other material relationships.  

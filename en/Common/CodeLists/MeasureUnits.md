@@ -68,5 +68,11 @@ To edit an existing measure unit, click the unit’s **Name** in the list. The i
 
 ## Deletion
 
-A measure unit can be deleted only if it is not used in any dependent records, such as materials or stock transactions. Click **Delete** to open a confirmation dialog: **Are you sure you want to delete this record?**  
-If confirmed, the measure unit is permanently removed; otherwise, the system keeps the record unchanged.
+Click **Delete** on the edit screen to open a confirmation dialog: 
+
+**Are you sure you want to delete this record?**  
+
+If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A measure unit can be deleted only if it is not used in any dependent records, such as materials or stock transactions.

@@ -1,25 +1,19 @@
 # Packaging
 
 Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. It applies to **Products**, **Semi products**, **Repro materials**, and **Raw materials**.  
-To assign packaging to a material, the user must first select the **Material type** (e.g., Products, Semi products) and then the specific **Entity** on the left side of the screen.
 
-![Material selection dropdown](../Assets/DropdownPackaging.png)
-
-For a detailed explanation of packaging configuration, watch the  
-**[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video.
+For a detailed explanation of packaging configuration, watch the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video.
 
 > [!NOTE]  
 > Packaging is available for the following material types:  
-> – [Products](Products.md)  
-> – [Semi products](SemiProducts.md)  
-> – [Repro materials](ReproMaterials.md)  
-> – [Raw materials](RawMaterials.md)
+> – [**Products**](Products.md)  
+> – [**Semi products**](SemiProducts.md)  
+> – [**Repro materials**](ReproMaterials.md)  
+> – [**Raw materials**](RawMaterials.md)
 
 ---
 
 ## Schema
-
-Packaging has the following fields:
 
 | Field | Description |
 |-------|-------------|
@@ -38,9 +32,13 @@ Packaging has the following fields:
 
 To access packaging configuration, go to: **Assets / Materials / Packaging** in the [navigation](../../Common/UI/Navigation.md).
 
+To assign packaging to a material, you must first select the **Material type** (e.g., Products, Semi products) and then the specific **Entity** on the left side of the screen.
+
+![Material selection dropdown](../Assets/DropdownPackaging.png)
+
 ### List of packaging
 
-The interface displays a list of packaging records for the selected **Material type** and **Entity**.
+The interface displays a list of packaging records for the selected **Material type** and **Entity**. 
 
 ![Packaging list](../Assets/Packaging.png)
 
@@ -57,7 +55,7 @@ A search field is available in the upper-right corner.
 
 ## Actions
 
-Click the **Action button** to add a new packaging item. 
+Click the **Action button** to add a new packaging item.
 
 The form includes fields such as:
 
@@ -106,8 +104,12 @@ Select the desired label types and click **Save**.
 ---
 
 ## Deletion
+  
+Click **Delete** on the edit screen to open a confirmation dialog: 
 
-A packaging record can be deleted only if it is not referenced by other system entities.  
-Click **Delete** on the edit screen to remove it. A confirmation message appears: **Are you sure you want to delete this record?**
+**Are you sure you want to delete this record?**  
 
-If confirmed, the record is permanently removed.
+If confirmed, the packaging is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A packaging record can be deleted only if it is not referenced by other system entities.

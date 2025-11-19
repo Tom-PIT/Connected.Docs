@@ -71,13 +71,20 @@ Click the **action button** to create a new inventory document.
    - **Missing** — number of materials with lower actual than theoretical  
    - **Excess** — number of materials with higher actual than theoretical
 
-4. In the **Details** section, the **Actual** column shows **0** by default. Edit the values in this column to reflect the real number found physically at the location.
+4. In the **Details** section, the **Actual** column shows **0** by default. Edit the values in this column to reflect the real number found physically at the location. When an actual value is lower or higher than the theoretical value, it will be reflected in the **Missing** and **Excess** sections of the **Summary**.
 
    ![InventoryEdit](../Assets/InventoryEdit.png)
 
-5. Once all adjustments are made, click **Publish** to confirm the inventory. This action updates the system stock levels to match the actual physical quantities.
+5. Once all materials have been checked and actual values are entered, the **Non allocated** section of the **Summary** will turn green and show **0**.
+5. Click **Publish** to confirm the inventory. This action updates the system stock levels to match the actual physical quantities.
 
 A newly created inventory document appears in **Drafts**. Once published, it moves to **Committed** and stock levels are corrected.
+
+---
+
+## Notes
+
+Use the **Notes** section to record any comments related to the inventory process.
 
 ---
 
@@ -94,13 +101,6 @@ These options are available for both *draft* and *committed* documents.
 
 ---
 
-
-## Notes
-
-Use the **Notes** section to record any comments related to the inventory process.
-
----
-
 ## Deletion
 
-Click **Delete** to remove a **draft** inventory document. Committed inventory documents **cannot** be deleted.
+Click **Delete** to remove a **draft** inventory document. Committed inventory documents **cannot** be deleted or reversed.

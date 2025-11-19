@@ -61,5 +61,11 @@ To edit an existing tax rate, click the tax rate’s **Name** in the list. The i
 
 ## Deletion
 
-A tax rate can be deleted only if it is not used in any dependent entries.  
-If the tax rate is referenced elsewhere in the system, deletion is not possible.
+Click **Delete** on the edit screen to open a confirmation dialog: 
+
+**Are you sure you want to delete this record?**  
+
+If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
+
+> [!NOTE]
+>A tax rate can be deleted only if it is not used in any dependent entries.  
