@@ -24,7 +24,7 @@ To access the **Warehouses** code list, go to **Logistics / Management / Warehou
 
 ### List of warehouses
 
-The user interface contains a list of warehouses. If no record exists yet, the list is empty.
+The interface contains a list of warehouses. If no record exists yet, the list is empty.
 
 ![Warehouses List](../Assets/Warehouses.png "Warehouses List")
 

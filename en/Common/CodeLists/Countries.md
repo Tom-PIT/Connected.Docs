@@ -61,6 +61,15 @@ The file must contain the required fields in a valid structure. You can download
 
 Click **Cancel** to return to the country list without importing.
 
+#### Example CSV structure
+
+```csv
+Name,LCID,ISOAlpha2Code,Active
+Slovenia,1060,SI,true
+Austria,3079,AT,true
+Italy,1040,IT,false
+```
+
 ### New
 
 Click **New** to open the input form for adding a new country.  

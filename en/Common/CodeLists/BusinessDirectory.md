@@ -51,10 +51,10 @@ The user interface contains a list of entries in the business directory. If no r
 ![Business Directory](../Assets/BusinessDirectory.png "Business Directory")
 
 Each record displays multiple tags representing **associated data**:
-- [Contacts](#contacts)
-- [Bank accounts](#bank-accounts)
-- [Business units](#business-units)
-- [Company cards](#company-cards)
+- [Contacts](Contacts.md)
+- [Bank accounts](BankAccounts.md)
+- [Business units](BusinessUnits.md)
+- [Company cards](CompanyCards.md)
 
 Clicking any of these tags opens the respective interface for managing the related data linked to the selected record.
 
@@ -90,6 +90,17 @@ The file must contain the required fields in a valid structure.
 
 Click **Cancel** to return to the list without importing.
 
+> [!NOTE]  
+> Depending on your setup, some columns may be optional. Any additional columns that are not recognized by the system are ignored during import.
+
+#### Example CSV structure
+
+```csv
+Code,Name,Active,Supplier,Customer,Subcontractor,NaturalPerson,Street,Country,PostalCode,Type,VATID,RegistrationNumber,Tags,PaymentCurrency,DiscountPercent,PrimaryContact,Phone,Email
+ACME01,ACME d.o.o.,true,true,true,false,false,Dunajska cesta 10,SI,1000,Liable for tax,SI12345678,1234567-0,wholesale,EUR,5,Janez Novak,+386 1 234 56 78,info@acme.si
+CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final customer,,,"retail,online",EUR,0,John Smith,+386 31 555 555,john.smith@example.com
+```
+
 ### New
 
 The **New** action opens the input form for creating a new entry. Fill in the required fields such as **Name**, **Code**, and **VAT ID**. Click **Add** to save the new record or **Cancel** to return to the list view without saving.
@@ -109,30 +120,6 @@ The **Menu** in the top-right corner provides the **Exporting** option, which ex
 To edit an existing record, click the entry’s **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Editing Business Directory Entry](../Assets/BusinessDirectoryEdit.png "Editing Business Directory Entry")
-
-### Contacts
-
-The **Contacts** tag opens the interface for managing contact persons related to the selected record. You can add, edit, or delete contact details such as name, role, phone number, and email address.  
-
-See the dedicated [Contacts](Contacts.md) document for details.
-
-### Bank accounts
-
-The **Bank accounts** tag opens the interface for managing the record’s financial accounts. Each account includes fields such as bank name, IBAN, and currency. Multiple accounts per record are supported.  
-
-See the dedicated [Bank accounts](BankAccounts.md) document for details.
-
-### Business Units
-
-The **Business units** tag provides access to managing the record’s internal organizational units. Each unit can have its own contact details and addresses, allowing a more granular structure for larger organizations.  
-
-See the dedicated [Business units](BusinessUnits.md) document for details.
-
-### Company cards
-
-The **Company cards** tag opens the view for managing company identification cards associated with the record. These cards may store general company data and links to documents or certifications.  
-
-See the dedicated [Company cards](CompanyCards.md) document for details.
 
 ---
 

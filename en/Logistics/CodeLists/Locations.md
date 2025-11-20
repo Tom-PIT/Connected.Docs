@@ -35,18 +35,50 @@ See [Stock view by location](../Views/StockViewByLocation.md) for more details.
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to add a new location.
+Click on the [action button](../../Common/UI/ActionButton.md) to display the following actions:
 
-The form includes the following fields:
+- Import  
+- New  
+
+### Import
+You can import locations from a **CSV** file. This is useful when you are setting up warehouse structures with many racks, shelves, and bins.
+
+
+![Import locations](../Assets/LocationsImport.png "Import locations")
+
+Drag and drop the file into the upload area or click to open the file dialog. The file must contain the required fields in a valid structure.
+
+After importing, you can review and adjust locations in the Locations management screen.
+
+Click **Cancel** to return to the list without importing.
+
+>[!NOTE]
+>Each location is tied to a **warehouse**, so make sure that all referenced [**warehouses**](Warehouses.md) already exist in the system.
+
+
+#### Example CSV structure
+
+```csv
+WarehouseCode,Code,Name,ParentLocationCode,Description
+MAIN,CR01,Central rack,,Main central rack in the warehouse
+MAIN,CR01-SH01,Shelf 1,CR01,First shelf in the central rack
+MAIN,CR01-SH02,Shelf 2,CR01,Second shelf in the central rack
+SEC,SEC-R1,Rack 1,,Rack in secondary warehouse
+```
+
+### New
+
+The **New** action opens the input form for creating a new entry. The form includes the following fields:
+
 - **Code**
 - **Name**
 - **Parent location**
 - **Description**
 - **Active**
 
-After entering the required information, click **Add** to save the location or **Cancel** to return to the list view.
-
 ![New Location](../Assets/NewLocation.png "New Location")
+
+After entering the required information, click **Add** to save the location or **Cancel** to return to the list view.
 
 ---
 

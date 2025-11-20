@@ -44,6 +44,18 @@ The **Import** action allows bulk creation or update of stock boundary records u
 
 ![Stock boundaries import](../Assets/StockBoundariesImport.png "Stock boundaries import")
 
+Click Cancel to return to the list without importing.
+
+#### Example CSV structure
+
+```csv
+MaterialCode,Min,Max
+M-0001,10,100
+M-0002,0,250
+M-0003,50,0
+M-0004,20,80
+```
+
 ---
 
 ## Menu
