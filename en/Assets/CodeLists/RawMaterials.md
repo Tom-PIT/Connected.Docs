@@ -11,7 +11,7 @@ This code list serves as the register of all raw materials within the
 materials structure.
 
 For a detailed explanation of how raw material management works, watch
-the [Raw Materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
+the [Raw materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -67,7 +67,8 @@ Click on the action button to display the following actions:
 ### Import
 
 Use the import functionality to upload multiple raw materials in bulk.\
-See **Import materials** for details.
+
+See the [**Import materials**](ImportMaterials.md) documentation for full details.
 
 ### Copy existing
 
@@ -77,9 +78,24 @@ Allows creating a new raw material based on an existing one.
 
 ### New
 
-Opens the form for adding a new raw material.
+Click **New** to open the input form for adding a new semi product.  
+The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
 ![New Raw Material](../Assets/NewRawMaterial.png "New Raw Material")
+
+Additional collapsible sections are available:
+
+#### Packaging
+This section allows you to review or add one or more packaging definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
+
+These packaging records can later be used in warehouse operations such as Receives, Issues, and Inter-warehouse transfers.
+
+#### Additional
+This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
+
+![Collapsible sections](../Assets/MaterialPackagingAdditional.png "Collapsible sections")
+
+After entering the required information, click Add to save the semi product or Cancel to return to the list view.
 
 ------------------------------------------------------------------------
 

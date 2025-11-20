@@ -4,8 +4,7 @@ Repro materials represent reusable or auxiliary components used within productio
 
 This code list serves as the register of repro materials within the materials structure.
 
-For a detailed explanation of how repro materials work, watch the  
-**[Repro materials](https://www.youtube.com/watch?v=ZRUwbQrAolU)** video.
+For a detailed explanation of how repro materials work, watch the **[Repro materials](https://www.youtube.com/watch?v=ZRUwbQrAolU)** video.
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -38,8 +37,7 @@ For a detailed explanation of how repro materials work, watch the
 
 ## Management
 
-To access the **Repro materials** code list, go to:  
-**Assets / Materials / Repro materials** in the [navigation](../../Common/UI/Navigation.md).
+To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of repro materials
 
@@ -65,7 +63,7 @@ Click on the [action button](../../Common/UI/ActionButton.md) to display the fol
 
 The **Import** action allows you to import multiple repro materials at once by uploading a correctly structured spreadsheet.
 
-See the [**Import materials**](../../Common/CodeLists/ImportMaterials.md) documentation for full details.
+See the [**Import materials**](ImportMaterials.md) documentation for full details.
 
 ### Copy existing
 
@@ -85,8 +83,15 @@ The form includes fields such as **Code**, **Name**, **Generate serial number**,
 
 Additional collapsible sections are available:
 
-- **Packaging**
-- **Additional**
+#### Packaging
+This section allows you to review or add one or more packaging definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
+
+These packaging records can later be used in warehouse operations such as Receives, Issues, and Inter-warehouse transfers.
+
+#### Additional
+This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
+
+![Collapsible sections](../Assets/MaterialPackagingAdditional.png "Collapsible sections")
 
 After entering the required information, click **Add** to save the material or **Cancel** to return to the list.
 
