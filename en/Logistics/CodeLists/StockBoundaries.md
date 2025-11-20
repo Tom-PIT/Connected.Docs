@@ -42,18 +42,18 @@ Click on the [action button](../../Common/UI/ActionButton.md) to display the **I
 
 The **Import** action allows bulk creation or update of stock boundary records using a CSV file. Prepare the file with the required fields (**Entity**, **Min**, **Max**) and upload it to automatically populate the list.
 
-![Stock boundaries import](../Assets/StockBoundariesImport.png "Stock boundaries import")
+![Stock boundaries import](../Assets/ImportStockBoundaries.png "Stock boundaries import")
 
 Click Cancel to return to the list without importing.
 
 #### Example CSV structure
 
 ```csv
-MaterialCode,Min,Max
-M-0001,10,100
-M-0002,0,250
-M-0003,50,0
-M-0004,20,80
+Material Code;Material type;Min;Max;
+M-0001;1;10;100;
+M-0002;2;0;250;
+M-0003;3;50;0;
+M-0004;4;20;80;
 ```
 
 ---
