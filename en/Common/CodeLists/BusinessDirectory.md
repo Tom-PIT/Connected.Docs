@@ -107,6 +107,16 @@ The **New** action opens the input form for creating a new entry. Fill in the re
 
 ![New Business Directory Entry](../Assets/NewBusinessDirectory.png "New Business Directory Entry")
 
+Additional collapsible sections are available:
+
+#### Edit contact
+This section allows entering the primary contact information for the business partner. You can specify details such as contact name, phone number, and email address. These fields are optional and serve as reference information used across documents.
+
+#### Currency
+This section allows you to define whether the business partner uses the **company currency** when appearing on documents. If enabled, all related transactions (such as sales or purchase documents) default to the company’s currency instead of the partner’s own currency settings.
+
+![New Business Directory Collapsible Sections](../Assets/BusinessDirectoryCollapsibleOptions.png "New business collapsible sections")
+
 ---
 
 ## Menu
