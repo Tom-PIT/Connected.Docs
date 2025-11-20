@@ -45,7 +45,7 @@ To access the **Repro materials** code list, go to:
 
 The user interface contains a list of repro materials.
 
-![Repro Materials](../Assets/ReproMaterials.png "Repro Materials")
+![Repro Materials](../Assets/ReproMaterialsList.png "Repro Materials")
 
 The list displays each repro material’s name, code, and serial number generation method.
 

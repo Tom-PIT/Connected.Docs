@@ -43,7 +43,7 @@ To access the **Semi products** code list, go to **Assets / Materials / Semi pro
 
 The user interface contains a list of semi products. If no record exists yet, the list is empty.
 
-![Semi products](../Assets/SemiProducts.png "Semi products")
+![Semi products](../Assets/SemiProductsList.png "Semi products")
 
 The list displays each semi product’s name, code, and serial number generation method.
 
