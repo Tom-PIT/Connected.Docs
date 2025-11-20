@@ -91,7 +91,7 @@ A newly created receive document appears in the **Drafts** view. Once published,
 
 At the top of every document, an **Attachments** section is available. 
 
-![Attachments section](../Assets/ReceiveAttachments.png "Attachments section")
+![Attachments section](../Assets/Attachments.png "Attachments section")
 
 You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
