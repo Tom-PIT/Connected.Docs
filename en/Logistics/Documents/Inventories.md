@@ -74,12 +74,15 @@ Click the **action button** to create a new inventory document.
 
 4. In the **Details** section, the **Actual** column shows **0** by default. Edit the values in this column to reflect the real number found physically at the location. When an actual value is lower or higher than the theoretical value, it will be reflected in the **Missing** and **Excess** sections of the **Summary**.
 
-   ![InventoryEdit](../Assets/InventoryEdit.png)
+   ![InventoryEdit](../Assets/InventoryEdits.png)
 
 5. Once all materials have been checked and actual values are entered, the **Non allocated** section of the **Summary** will turn green and show **0**.
 5. Click **Publish** to confirm the inventory. This action updates the system stock levels to match the actual physical quantities.
 
 A newly created inventory document appears in **Drafts**. Once published, it moves to **Committed** and stock levels are corrected.
+
+ > [!NOTE]
+ > The values shown under **Missing** and **Excess** indicate how many **different materials** have discrepancies. They do not represent the number of missing or extra pieces, only the number of materials affected.
 
 ---
 
