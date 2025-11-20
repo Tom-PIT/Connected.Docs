@@ -76,19 +76,14 @@ You can prepare or modify the spreadsheet in a spreadsheet editor:
     - **Test import** – carries out a test import without actually saving the data, so any errors can be detected before importing  
     - **Import** – imports and saves the data, applying all valid changes to the system  
 
-    It is recommended to perform a **Test import** first to ensure that the data structure is correct and to prevent issues before applying the import. Rows containing errors are marked in **red**, while valid rows are marked in **green** in the **Status** column.
+
+    ![Import materials — data preview](../Assets/ImportMaterialsPreview.png "Import materials — data preview")
+   
+   It is recommended to perform a **Test import** first to ensure that the data structure is correct and to prevent issues before applying the import. Rows containing errors are marked in **red**, while valid rows are marked in **green** in the **Status** column.
+
+   ![Import materials — error preview](../Assets/ImportMaterialsError.png "Import materials — error preview")
 
 3. To complete the full import, load the spreadsheet file again, and select the **Import** option.
-
-![Import materials — data preview](../Assets/ImportMaterialsPreview.png "Import materials — data preview")
-
----
-
-## Test import
-
-The **Test import** action simulates a data import without actually saving any data. Invalid rows appear in the status column as **red**, and valid rows appear in **green**.
-
-![Import materials — error preview](../Assets/ImportMaterialsError.png "Import materials — error preview")
 
 ---
 
