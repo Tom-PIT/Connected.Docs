@@ -97,6 +97,19 @@ You can upload any relevant file—such as delivery notes, transport documents, ph
 
 ---
 
+## Document connections
+
+Committed receive documents include an additional **Document connections** section. This section lists any documents that can be created based on the received materials.
+
+For receive documents, a **Disassemble** option may appear. This allows you to create a new disassembly document using the received items.
+
+![Document connections](../Assets/ReceivesDocumentConnections.png)
+
+For more details, see the [Disassemblies](Disassemblies.md) documentation.
+
+---
+
+
 ## Notes
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
