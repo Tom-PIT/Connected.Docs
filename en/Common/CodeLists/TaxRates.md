@@ -40,7 +40,7 @@ The list displays each tax rate’s name and the applicable percentage. A search
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to add a new tax rate.
+Click on the [action button](../UI/ActionButton.md) to add a new tax rate.
 
 The form includes the following fields:
 - **Name**
@@ -55,7 +55,9 @@ After entering the required information, click **Add** to save the tax rate or *
 
 ## Editing
 
-To edit an existing tax rate, click the tax rate’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
+To edit an existing tax rate, click the tax rate’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+
+Click **Save** to confirm changes or **Cancel** to discard them.
 
 ---
 

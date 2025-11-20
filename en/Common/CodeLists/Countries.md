@@ -43,7 +43,7 @@ Clicking this tag opens the interface for managing the related data linked to th
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to display the following actions:
+Click on the [action button](../UI/ActionButton.md) to display the following actions:
 
 - Import  
 - New  

@@ -19,7 +19,7 @@ For a detailed explanation of how measure units work, watch the [Measure units](
 
 ## Management
 
-You can access the **Measure units** code list from different domains in the [navigation](../Common/UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Measure units** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 
@@ -46,7 +46,7 @@ The list displays each measure unit’s name, abbreviation, and precision.
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to add a new measure unit.
+Click on the [action button](../UI/ActionButton.md) to add a new measure unit.
 
 The form includes the following fields:
 - **Name**
@@ -62,7 +62,11 @@ After entering the required information, click **Add** to save the measure unit 
 
 ## Editing
 
-To edit an existing measure unit, click the unit’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
+To edit an existing measure unit, click the unit’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
+
+![Edit measure unit](../Assets/MeasureUnitsEdit.png "Edit measure unit")
+
+Click **Save** to confirm changes or **Cancel** to discard them.
 
 ---
 
@@ -75,4 +79,4 @@ Click **Delete** on the edit screen to open a confirmation dialog:
 If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
 
 > [!NOTE]
->A measure unit can be deleted only if it is not used in any dependent records, such as materials or stock transactions.
+>A **measure unit** can be deleted only if it is not used in any dependent records, such as materials or stock transactions.
