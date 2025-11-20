@@ -11,7 +11,7 @@ A reversal adjusts stock levels according to the type of document being reversed
 
 For a full walkthrough, watch the [Reversal](https://www.youtube.com/watch?v=yfGNARBWm7Q) video.
 
-To access Reversals, go to **Logistics / Documents / Reversals** in the [navigation](../Navigation.md).
+To access Reversals, go to **Logistics / Documents / Reversals** in the [navigation](../../Common/UI/Navigation.md).
 
 ---
 
