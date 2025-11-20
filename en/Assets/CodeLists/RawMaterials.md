@@ -49,7 +49,7 @@ To access the **Raw materials** code list, go to **Assets / Materials / Raw mate
 
 The user interface contains a list of raw materials.
 
-![Raw Materials](../Assets/RawMaterials.png "Raw Materials")
+![Raw Materials](../Assets/RawMaterialsList.png "Raw Materials")
 
 A filter for **Tags** is available on the left side. A search field is
 available in the upper-right corner.

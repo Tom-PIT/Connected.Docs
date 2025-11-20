@@ -43,7 +43,7 @@ To access the **Products** code list, go to **Assets / Materials / Products** in
 
 The user interface contains a list of products. If no record exists yet, the list is empty.
 
-![Products](../Assets/Products.png "Products")
+![Products](../Assets/ProductsList.png "Products")
 
 The list displays each product’s name, code, and serial number generation method.
 
