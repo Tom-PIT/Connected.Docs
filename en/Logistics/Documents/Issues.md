@@ -1,10 +1,8 @@
 # Issues
 
-An **Issue** document is used to record materials being taken *out* of your warehouse.  
-It tracks which items were issued, in what quantities, and to which customer.
+An **Issue** document is used to record materials being taken *out* of your warehouse. It tracks which items were issued, in what quantities, and to which customer.
 
-For a full walkthrough, watch the  
-[Issue](https://www.youtube.com/watch?v=SrVyblBiLmQ) video.
+For a full walkthrough, watch the [Issue](https://www.youtube.com/watch?v=SrVyblBiLmQ) video.
 
 To access Issues, go to **Logistics / Documents / Issues** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -63,12 +61,16 @@ Click the **action button** to create a new issue document.
 ### Creating an issue document
 
 1. Click the **action button** to create a new document draft, then select the **Warehouse** and **Customer**.
-![Issue Document](../Assets/IssueNew.png "Add new issue")
+
+	![Issue Document](../Assets/IssueNew.png "Add new issue")
+
 2. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
    - The system displays **all matching materials and serial numbers**.  
 3. Select the correct material from the results list.  
 4. The system automatically fills in all known details (material, serial number, location, best before).  
- ![Issue Detail](../Assets/IssueNewDetails.png "Issue Details")
+
+	![Issue Detail](../Assets/IssueNewDetails.png "Issue Details")
+
 5. Enter the **quantity** you want to issue — this is the only editable field.  
 6. Click **Save** to add the line to the document.  Add more items starting from step 2 if needed. 
 7. Click **Publish** to commit the document.
@@ -108,7 +110,7 @@ Inside an issue document, the **menu (hamburger icon)** in the top-right corner 
 
 - Print  
 - Export (PDF)  
-- Create a new reversal
+- [Create a new reversal](Reversals.md).
 
 ---
 
