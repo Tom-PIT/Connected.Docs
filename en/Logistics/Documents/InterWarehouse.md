@@ -1,10 +1,8 @@
 ﻿# Inter warehouse
 
-An **Inter warehouse** document is used to transfer materials from one warehouse to another.  
-It records source and destination warehouses, the moved items, and their quantities.
+An **Inter warehouse** document is used to transfer materials from one warehouse to another. It records source and destination warehouses, the moved items, and their quantities.
 
-For a full walkthrough of how inter warehouse transfers work, watch the  
-[Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI) video.
+For a full walkthrough of how inter warehouse transfers work, watch the [Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI) video.
 
 To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [navigation](../../Common/UI/Navigation.md).
 

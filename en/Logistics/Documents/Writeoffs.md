@@ -62,6 +62,7 @@ Click the **action button** to create a new writeoff document.
 ### Creating a writeoff document
 
 1. Click **Add new** to create a draft.
+
    ![WriteoffsNew](../Assets/WriteoffsNew.png)
 
 2. Select the **Warehouse** and optionally enter a **Reason**.
@@ -88,7 +89,7 @@ Published writeoffs immediately update stock levels.
 
 ## Menu
 
-Inside a **committed** writeoff document, the menu (hamburger icon) has the option to **Create a new reversal**.
+Inside a **committed** writeoff document, the menu (hamburger icon) has the option to [**Create a new reversal**](Reversals.md).
 
 The menu is **not available** for draft writeoff documents.
 

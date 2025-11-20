@@ -61,7 +61,8 @@ Click the **action button** to create a new inventory document.
 
 ### Creating an inventory document
 
-1. Click **Add new** to create a new inventory session.  
+1. Click **Add new** to create a new inventory session. 
+
    ![InventoryNew](../Assets/InventoryNew.png)
 
 2. After selecting a warehouse and location, the system automatically loads all materials recorded at that location.

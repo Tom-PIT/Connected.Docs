@@ -23,10 +23,10 @@ Clicking the month name opens a fast month/year selection view:
 ### **Material type filter**
 You can filter the list by:
 
-- Products  
-- Semi products  
-- Raw materials  
-- Repro materials  
+- [Products](../CodeLists/Products.md)  
+- [Semi products](../CodeLists/SemiProducts.md)  
+- [Repro materials](../CodeLists/ReproMaterials.md)  
+- [Raw materials](../CodeLists/RawMaterials.md) 
 
 ### **Tags filter**
 You can refine the list by selecting material tags.
@@ -57,7 +57,7 @@ Click any material to open the detailed stock view.
 
 ## Stock View by Material
 
-Clicking a material opens a detailed breakdown of stock distribution across storage locations. For more information see the [Stock view by material](https://www.youtube.com/watch?v=GUdnV6bZwoI) video.
+Clicking a **material name** opens a detailed breakdown of stock distribution across storage locations. For more information see the [Stock view by material](https://www.youtube.com/watch?v=GUdnV6bZwoI) video.
 
 ![Stock view by material](../Assets/StockByMaterial.png "Stock view by material")
 

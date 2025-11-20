@@ -88,12 +88,14 @@ Tags displayed on the original document:
 
 ![ReversalsDocumentTag](../Assets/ReversalsDocumentTag.png)
 
-### Creating and publishing a reversal
+---
 
-#### Step 1 — Start the reversal  
+## Creating and publishing a reversal
+
+### Step 1 — Start the reversal  
 Open the committed document you want to reverse. Open the **menu** and select **Create a new reversal**.
 
-#### Step 2 — Edit reversal quantities  
+### Step 2 — Edit reversal quantities  
 A draft reversal document is generated automatically.
 
 Each material line displays:
@@ -108,7 +110,7 @@ Examples:
 
 ![ReversalsEdit](../Assets/ReversalsEdit.png)
 
-#### Step 3 — Publish  
+### Step 3 — Publish  
 Click **Publish** to confirm the reversal.
 
 If you don’t publish immediately:

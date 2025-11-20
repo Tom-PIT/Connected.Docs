@@ -1,6 +1,6 @@
 ﻿# Move serial
 
-The **Move serial** function allows you to quickly move a specific stock unit (identified by its serial number) from one storage location to another — without manually creating an Inter warehouse document. It is optimized for fast, repeated movements on the warehouse floor.
+The **Move serial** function allows you to quickly move a specific stock unit (identified by its serial number) from one storage location to another, without manually creating an Inter warehouse document. It is optimized for fast, repeated movements on the warehouse floor.
 
 For a full demonstration, watch the [Move serial number](https://www.youtube.com/watch?v=dy1u6sKmdMg) video.
 

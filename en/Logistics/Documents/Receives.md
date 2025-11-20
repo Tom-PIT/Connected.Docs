@@ -2,8 +2,7 @@
 
 A receive document is used to record the physical arrival of materials into your warehouse. It captures details about received items, packaging, quantities, and storage locations.
 
-For a full walkthrough of how Receives work, watch the  
-[Receive](https://www.youtube.com/watch?v=oTOYD-nlCqE) video.
+For a full walkthrough of how Receives work, watch the [Receive](https://www.youtube.com/watch?v=oTOYD-nlCqE) video.
 
 To access Receives, go to **Logistics / Documents / Receives** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -132,7 +131,7 @@ Inside a receive document, the **menu (hamburger icon)** in the top-right corner
 
 - Print  
 - Export (PDF)  
-- Create a new reversal
+- [**Create a new reversal**](Reversals.md).
 
 ---
 
