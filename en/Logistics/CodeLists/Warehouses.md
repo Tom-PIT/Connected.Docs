@@ -50,7 +50,9 @@ After entering the required information, click **Add** to save the warehouse or 
 
 ## Editing
 
-To edit an existing warehouse, click the warehouse’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
+To edit an existing warehouse, click the warehouse’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
+
+Click **Save** to confirm changes or **Cancel** to discard them.
 
 ---
 
