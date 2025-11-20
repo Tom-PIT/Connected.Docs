@@ -63,7 +63,7 @@ Click on the [action button](../../Common/UI/ActionButton.md) to display the fol
 
 The **Import** action allows you to import multiple semi products at once by preparing and uploading a correctly structured spreadsheet.  
 
-See the [**Import materials**](../../Common/CodeLists/ImportMaterials.md) documentation for full details.
+See the [**Import materials**](ImportMaterials.md) documentation for full details.
 
 ### Copy existing
 
@@ -78,12 +78,19 @@ After selecting the base semi product, all fields are pre-filled and can be edit
 Click **New** to open the input form for adding a new semi product.  
 The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
+![New semi product](../Assets/NewSemiproduct.png "New semi product")
+
 Additional collapsible sections are available:
 
-- **Packaging**
-- **Additional**
+#### Packaging
+This section allows you to review or add one or more packaging definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
 
-![New semi product](../Assets/NewSemiproduct.png "New semi product")
+These packaging records can later be used in warehouse operations such as Receives, Issues, and Inter-warehouse transfers.
+
+#### Additional
+This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
+
+![Collapsible sections](../Assets/MaterialPackagingAdditional.png "Collapsible sections")
 
 After entering the required information, click **Add** to save the semi product or **Cancel** to return to the list view.
 

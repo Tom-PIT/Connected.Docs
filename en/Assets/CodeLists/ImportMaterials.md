@@ -1,6 +1,14 @@
 # Import materials
 
-This document describes how to import multiple materials into the system at once using a spreadsheet file. The import supports **Products**, **Semi-products**, **Repro materials**, and **Raw materials**, allowing fast bulk creation or updating of material records.
+This document describes how to import multiple materials into the system at once using a spreadsheet file. This allows fast bulk creation or updating of material records. 
+
+The import supports the following material types:
+
+- [Products](../CodeLists/Products.md)  
+- [Semi products](../CodeLists/SemiProducts.md)  
+- [Repro materials](../CodeLists/ReproMaterials.md)  
+- [Raw materials](../CodeLists/RawMaterials.md)
+
 
 The screen also provides a downloadable example file, which shows the required structure of the spreadsheet. Before importing, you can run a **Test import**, which validates the data and reports errors without applying changes.
 
@@ -85,12 +93,6 @@ You can prepare or modify the spreadsheet in a spreadsheet editor:
 
 3. To complete the full import, load the spreadsheet file again, and select the **Import** option.
 
----
-
-## Import
-
-When the data is valid, click **Import** to apply all changes.
-
 During import:
 
 - New materials are created.  
@@ -101,7 +103,7 @@ During import:
 After the import completes, the status updates in the table, indicating which rows were processed successfully.
 
 > [!NOTE]  
-> Materials are linked to two code lists, [Measure units](../CodeLists/Measure_units.md) and [Tax rates](../CodeLists/Tax_rates.md). If the required records do not exist in these code lists, the system automatically creates the missing dependent code list entries during import.
+> Materials are linked to two code lists, [Measure units](../../Common/CodeLists/MeasureUnits.md) and [Tax rates](../../Common/CodeLists/TaxRates.md). If the required records do not exist in these code lists, the system automatically creates the missing dependent code list entries during import.
 
 ---
 
