@@ -87,11 +87,11 @@ You can prepare or modify the spreadsheet in a spreadsheet editor:
 
     ![Import materials — data preview](../Assets/ImportMaterialsPreview.png "Import materials — data preview")
    
-   It is recommended to perform a **Test import** first to ensure that the data structure is correct and to prevent issues before applying the import. Rows containing errors are marked in **red**, while valid rows are marked in **green** in the **Status** column.
+   It is recommended to perform a **Test import** first to ensure that the data structure is correct and to prevent issues before applying the import. Below the upload area, you can see the list with all previously uploaded files. Rows containing errors are marked in **red**, while valid rows are marked in **green** in the **Status** column.
 
    ![Import materials — error preview](../Assets/ImportMaterialsError.png "Import materials — error preview")
 
-3. To complete the full import, load the spreadsheet file again, and select the **Import** option.
+3. To complete the full import after valitating the data with a **Test import**, load the spreadsheet file again, and select the **Import** option.
 
 During import:
 
@@ -109,7 +109,7 @@ After the import completes, the status updates in the table, indicating which ro
 
 ## Results list
 
-Below the upload area, you can see a list with all previously uploaded files. Click any import on the **Created** column to review the results and any possible errors.
+Click any import on the **Created** column on the import list to review the results and any possible errors.
 
 ![Import materials report](../Assets/ImportMaterialsReport.png "Import materials report")
 
