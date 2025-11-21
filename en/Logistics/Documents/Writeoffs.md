@@ -49,8 +49,6 @@ A color indicator shows the document status:
 
 You can open any document to review its details.
 
-**List view example:**
-
 ![WriteoffsList](../Assets/WriteoffsList.png)
 
 ---

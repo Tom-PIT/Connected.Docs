@@ -3,8 +3,7 @@
 The **Stock view by location** screen shows all materials stored in a specific warehouse location.  
 It provides an immediate overview of total, reserved, and available quantities, helping you understand how stock is distributed.
 
-For a visual explanation, watch the  
-[Stock view by location](https://www.youtube.com/watch?v=_3bZBZ89hds) video.
+For a visual explanation, watch the [Stock view by location](https://www.youtube.com/watch?v=_3bZBZ89hds) video.
 
 To access this view, go to **Logistics / Views / Stock view by location** in the [navigation](../../Common/UI/Navigation.md), or click any **location name** from other stock-related screens (such as **Stock view by material**).
 
