@@ -84,9 +84,9 @@ The form includes fields such as **Code**, **Name**, **Generate serial number**,
 Additional collapsible sections are available:
 
 #### Packaging
-This section allows you to review or add one or more packaging definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
+This section allows you to review or add one or more [packaging](Packaging.md) definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
 
-These packaging records can later be used in warehouse operations such as Receives, Issues, and Inter-warehouse transfers.
+These packaging records can later be used in warehouse operations such as [Receives](../../Logistics/Documents/Receives.md), [Issues](../../Logistics/Documents/Issues.md), and [Inter warehouse](../../Logistics/Documents/InterWarehouse.md) transfers.
 
 #### Additional
 This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
