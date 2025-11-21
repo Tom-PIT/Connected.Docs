@@ -1,8 +1,7 @@
 # Business directory
 
-This code list represents the collection of entries in the business directory used across the system. Each entry may represent a vendor, customer, cooperator, or individual person, and contains all relevant identification and contact information. It serves as the central registry for managing entities within the organization, ensuring consistent referencing across all documents and modules.
+The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.
 
----
 
 ## Schema
 
@@ -18,7 +17,7 @@ This code list represents the collection of entries in the business directory us
 | **Street** | Entity’s street address, for example **Dunajska cesta 10**. |
 | **Country** | Country where the entity’s headquarters are located. |
 | **Postal code** | Postal code of the entity’s headquarters. |
-| **Type** | Defines the tax status of the entity (see the [list section below](#list-of-business-directory-entries)). |
+| **Type** | Defines the tax status of the entity (see the list section below). |
 | **VAT ID** | VAT identification number, for example **SI12345678**. |
 | **Company ID** | Company registration number. |
 | **Institutional sector** | Institutional sector to which the entity belongs. |
@@ -30,8 +29,6 @@ This code list represents the collection of entries in the business directory us
 | **Phone** | Phone number of the primary contact. |
 | **Email** | Email address of the primary contact. |
 | **Use partner currency on documents** | Checkbox defining whether the entity’s currency is used in documents. |
-
----
 
 ## Management
 
@@ -46,7 +43,7 @@ To open the list, go to the **Management** section of the following domains:
 
 ### List of business directory entries
 
-The user interface contains a list of entries in the business directory. If no record exists yet, the list is empty.
+The user interface contains a list of entries in the business directory.
 
 ![Business Directory](../Assets/BusinessDirectory.png "Business Directory")
 
@@ -56,20 +53,16 @@ Each record displays multiple tags representing **associated data**:
 - [Business units](BusinessUnits.md)
 - [Company cards](CompanyCards.md)
 
-Clicking any of these tags opens the respective interface for managing the related data linked to the selected record.
-
-Filters on the left side allow you to narrow results by **View** (Active / Inactive), **Relation** (Vendor, Customer, Cooperator, Person), **Type**, and **Country**.
+Filters on the left side allow you to narrow results by **View**, **Relation**, **Type**, and **Country**.
 
 The **Type** field determines the tax status of the entity. The available values are:
-- **Liable for tax** — the entity is identified as a VAT payer and has a valid VAT ID number.  
-- **Not liable for tax** — the entity is not registered as a VAT payer.  
-- **Final customer** — a natural or legal person acting as the final buyer of goods or services.
-
----
+- **Liable for tax**
+- **Not liable for tax**
+- **Final customer**
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to display the following actions:
+Click on the [action button](../../Common/UI/ActionButton.md) to display the available actions:
 
 - Import by VIES  
 - Import  
@@ -77,21 +70,13 @@ Click on the [action button](../../Common/UI/ActionButton.md) to display the fol
 
 ### Import by VIES
 
-The **Import by VIES** action allows automatic retrieval of data from the VIES database, based on the provided VAT ID. This feature simplifies the process of adding entities registered within the European Union.
+Allows automatic retrieval of data from the VIES database, based on the provided VAT ID.
 
 ### Import
 
-The **Import** action enables bulk creation or updating of company records. When selecting **Import**, the system opens the upload interface:
+The **Import** action enables bulk creation or updating of company records.
 
 ![Import business directory](../Assets/CompaniesImport.png "Import business directory")
-
-The import accepts a **CSV file**. Drag and drop the file into the upload area or click to open the file dialog.
-The file must contain the required fields in a valid structure.
-
-Click **Cancel** to return to the list without importing.
-
-> [!NOTE]  
-> Depending on your setup, some columns may be optional. Any additional columns that are not recognized by the system are ignored during import.
 
 #### Example CSV structure
 
@@ -100,7 +85,6 @@ Code,Name,Active,Supplier,Customer,Subcontractor,NaturalPerson,Street,Country,Po
 ACME01,ACME d.o.o.,true,true,true,false,false,Dunajska cesta 10,SI,1000,Liable for tax,SI12345678,1234567-0,wholesale,EUR,5,Janez Novak,+386 1 234 56 78,info@acme.si
 CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final customer,,,"retail,online",EUR,0,John Smith,+386 31 555 555,john.smith@example.com
 ```
-
 ### New
 
 The **New** action opens the input form for creating a new entry. Fill in the required fields such as **Name**, **Code**, and **VAT ID**. Click **Add** to save the new record or **Cancel** to return to the list view without saving.
@@ -117,21 +101,16 @@ This section allows you to define whether the business partner uses the **compan
 
 ![New Business Directory Collapsible Sections](../Assets/BusinessDirectoryCollapsibleOptions.png "New business collapsible sections")
 
----
-
 ## Menu
 
 The **Menu** in the top-right corner provides the **Exporting** option, which exports all visible records into a CSV file, allowing further analysis or backup.
 
----
 
 ## Editing
 
 To edit an existing record, click the entry’s **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Editing Business Directory Entry](../Assets/BusinessDirectoryEdit.png "Editing Business Directory Entry")
-
----
 
 ## Deletion
 
@@ -144,3 +123,4 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 > [!NOTE]
 >An entry can be deleted only if it is not referenced in any dependent records (for example, invoices or orders).
 
+---

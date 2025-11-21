@@ -2,8 +2,6 @@
 
 The platform is organized so you can easily find documents, views, and configuration areas based on your daily work. Navigation happens mainly through the **Sitemap**, breadcrumbs, and quick access buttons.
 
----
-
 ## Sitemap
 
 The **Sitemap** is the main entry point of the platform. It is divided into **domains**, each representing a functional area of the system.
@@ -36,7 +34,11 @@ Each domain contains the tools relevant to a specific business area. Examples in
 >
 >Available domains depend on each company’s configuration and business model. For example, a company that only sells finished goods may not have the **Production** domain.
 
----
+Inside the domains are different types of sections depending on the field of the domain, the main types are:
+- Documents
+- Views
+- Management
+
 
 ## Documents
 
@@ -62,8 +64,6 @@ Documents typically offer:
 - Filters to quickly find information  
 - Printing and exporting options  
 
----
-
 ## Views
 
 Views allow you to **analyze and monitor** business information. They do not create transactions — instead, they help you understand the big picture. 
@@ -88,8 +88,6 @@ Views are designed for:
 - Decision-making  
 - Reporting  
 
----
-
 ## Management
 
 The **Management** section contains all master data and code lists that support the platform. These settings ensure documents and processes use consistent, valid data.
@@ -110,3 +108,5 @@ Example — **Sales / Management**:
 ![SalesManagement](../Assets/NavigationSalesManagement.png)
 
 Management pages are typically maintained by administrators or users responsible for system configuration.
+
+---

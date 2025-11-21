@@ -1,12 +1,13 @@
 ﻿# Inter warehouse
 
-An **Inter warehouse** document is used to transfer materials from one warehouse to another. It records source and destination warehouses, the moved items, and their quantities.
+An **Inter warehouse** document is used to transfer materials from one warehouse to another. This is useful when stock needs to be moved between locations—for example, sending items from **Main warehouse** to **Central warehouse**, or transferring **components** to a remote storage area.
 
-For a full walkthrough of how inter warehouse transfers work, watch the [Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI) video.
+The transfer process lets you scan or search for materials, choose a destination [warehouse](../CodeLists/Warehouses.md) and [location](../CodeLists/Locations.md), and adjust the quantities being moved. Publishing the document updates stock levels in both warehouses, ensuring each location reflects the correct quantities.
+
+> [!TIP]
+> For a full demonstration, see the **[Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI)** video tutorial.
 
 To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [navigation](../../Common/UI/Navigation.md).
-
----
 
 ## Schema
 
@@ -31,8 +32,6 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 | **Destination location** | Storage location where the material will be placed. |
 | **Quantity (pc)** | Quantity to be transferred. |
 
----
-
 ## List of inter warehouse documents
 
 The **Inter warehouse** page displays all transfer documents. You can search for a specific document using the search bar, or filter the list using the left sidebar, which includes:
@@ -53,8 +52,6 @@ A color indicator next to each document shows its status:
 You can click any document to open and review its details.
 
 ![InterWarehouse](../Assets/InterWarehouse.png)
-
----
 
 ## Actions
 
@@ -81,15 +78,11 @@ Click the **action button** to create a new inter warehouse document.
 6. Click **Save** on the top-left corner to save the transfer document.
 7. When the physical transfer is completed at the destination warehouse, open the draft and click **Publish** to confirm the stock movement.
 
-A newly created inter warehouse document appears in **Drafts**. Once published, it moves to **Committed** and stock is transferred immediately.
-
----
+A newly created inter warehouse document appears in **Drafts**. Once published, it moves to **Committed** and stock is transferred immediately.---
 
 ## Notes
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
-
----
 
 ## Menu
 
@@ -101,8 +94,6 @@ Inside an inter warehouse document, the **menu (hamburger icon)** in the top-rig
 These options are available for both *draft* and *committed* documents.
 
 ![InterWarehouseMenuOptions](../Assets/InterWarehouseMenuOptions.png)
-
----
 
 ## Deletion
 
@@ -117,3 +108,5 @@ If the draft still includes materials in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 Committed documents **cannot** be deleted.
+
+---

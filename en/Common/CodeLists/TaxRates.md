@@ -1,8 +1,6 @@
 # Tax rates
 
-This code list represents the tax rates used throughout the digital contents of the system. Tax rates define the percentage of tax applied to products, materials, and services. Each tax rate consists of a descriptive name and a numeric percentage value.
-
----
+This code list defines all **tax rates** used across the system. Tax rates determine the percentage of tax applied to products, materials, and services in business documents. Each entry includes a descriptive name and a numeric percentage, ensuring tax is applied consistently throughout the digital contents.
 
 ## Schema
 
@@ -11,8 +9,6 @@ This code list represents the tax rates used throughout the digital contents of 
 | **Name** | Descriptive name of the tax rate. For example, Standard tax rate 22 or Reduced tax rate 9.5. |
 | **Tax rate (%)** | Numeric tax percentage applied, for example **22** or **9.5**. |
 | **Active** | Indicates whether the tax rate is currently in use. Inactive tax rates cannot be selected in new entries, but remain visible in history. |
-
----
 
 ## Management
 
@@ -36,8 +32,6 @@ Each record includes a status indicator to the left of its name:
 
 The list displays each tax rate’s name and the applicable percentage. A search field is available in the upper-right corner to help filter the list.
 
----
-
 ## Actions
 
 Click on the [action button](../UI/ActionButton.md) to add a new tax rate.
@@ -51,15 +45,11 @@ After entering the required information, click **Add** to save the tax rate or *
 
 ![Add new tax rate](../Assets/NewTaxRate.png "Add new tax rate")
 
----
-
 ## Editing
 
 To edit an existing tax rate, click the tax rate’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
 
 Click **Save** to confirm changes or **Cancel** to discard them.
-
----
 
 ## Deletion
 
@@ -71,3 +61,5 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >A tax rate can be deleted only if it is not used in any dependent entries.  
+
+---

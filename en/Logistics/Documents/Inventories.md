@@ -1,12 +1,13 @@
 # Inventories
 
-An **Inventory** document is used to verify and correct stock quantities at a specific warehouse location. It helps you compare **theoretical stock** (what the system expects) with **actual stock** (what is physically present). Any discrepancy—missing or excess—is resolved by publishing the document.
+An **Inventory** document is used to verify and correct stock quantities at a specific warehouse location. It compares the **theoretical stock** stored in the system with the **actual stock** physically present on the shelves. If differences are found, you can update the quantities and publish the document to adjust the stock levels accordingly.
 
-For a full walkthrough of how inventory checks work, watch the [Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8) video.
+Inventory checks are performed per location and show all materials stored there, along with indicators of missing or excess items. You can open the **Stock view by location** or the **Stock view by serial number** directly from related screens to understand how stock levels were formed. Minimum and maximum thresholds shown in summaries can be configured in the **[Stock boundaries](StockBoundaries.md)** code list.
+
+> [!TIP]
+> For a full demonstration, see the **[Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8)** video tutorial.
 
 To access Inventories, go to **Logistics / Documents / Inventories** in the [navigation](../../Common/UI/Navigation.md).
-
----
 
 ## Schema
 
@@ -27,8 +28,6 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 | **Location** | Storage location where the inventory is being performed. |
 | **Theoretical** | Quantity currently recorded in the system. |
 | **Actual** | Physically verified quantity (editable). |
-
----
 
 ## List of inventory documents
 
@@ -52,8 +51,6 @@ Click any document to open and review its contents.
 **List view example:**
 
 ![Inventories](../Assets/Inventories.png)
-
----
 
 ## Actions
 
@@ -84,13 +81,9 @@ A newly created inventory document appears in **Drafts**. Once published, it mov
  > [!NOTE]
  > The values shown under **Missing** and **Excess** indicate how many **different materials** have discrepancies. They do not represent the number of missing or extra pieces, only the number of materials affected.
 
----
-
 ## Notes
 
 Use the **Notes** section to record any comments related to the inventory process.
-
----
 
 ## Menu
 
@@ -103,8 +96,8 @@ These options are available for both *draft* and *committed* documents.
 
 ![InterWarehouseMenuOptions](../Assets/InterWarehouseMenuOptions.png)
 
----
-
 ## Deletion
 
 Click **Delete** to remove a **draft** inventory document. Committed inventory documents **cannot** be deleted or reversed.
+
+---

@@ -1,12 +1,13 @@
 ﻿# Writeoffs
 
-A **Writeoff** document is used to record damaged, lost, or otherwise unusable materials that need to be removed from stock. It allows you to specify the reason for the writeoff, select the affected items, and edit the quantities to be written off.
+A **Writeoff** document is used to record materials that must be removed from stock because they are damaged, lost, expired, or otherwise unusable. Typical examples include discarding **broken items**, **spoiled goods**, or **materials damaged during handling**. A writeoff lets you specify the reason, choose the affected materials, and enter the quantity to remove from stock.
 
-For a full walkthrough, watch the [Writeoffs](https://www.youtube.com/watch?v=_0jEGSTorsY) video.
+Writeoffs directly adjust stock levels. If incorrect quantities are written off, they can be corrected later by creating a **partial or full reversal** through the linked document menu. You can also use **[Stock view by material](../Stock.md#stock-view-by-material)** or **[Stock view by serial number](../Stock.md#stock-view-by-serial-number)** to understand how the material reached its current state before writing it off.
+
+> [!TIP]
+> For a full demonstration, see the **[Writeoffs](https://www.youtube.com/watch?v=_0jEGSTorsY)** video tutorial.
 
 To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigation](../../Common/UI/Navigation.md).
-
----
 
 ## Schema
 
@@ -16,7 +17,7 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 |-------|-------------|
 | **Code** | System-generated unique identifier for the writeoff document. |
 | **Document date** | Date when the writeoff is recorded. |
-| **Warehouse** | The warehouse from which items are being written off. |
+| [**Warehouse**](../CodeLists/Warehouses.md) | The warehouse from which items are being written off. |
 | **Reason** | Description of why the material is being removed (damage, loss, expiration, etc.). |
 
 ### Detail section
@@ -26,10 +27,8 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 | **Material** | The item being written off (product, semi product, raw material, or repro). |
 | **Serial number** | Serial number of the affected unit. |
 | **Best before** | Expiration date (if applicable). |
-| **Warehouse location** | Location where the material is stored. |
+| [**Warehouse location**](../CodeLists/Locations.md) | Location where the material is stored. |
 | **Quantity (pc)** | Number of pieces being written off. The default value is the total number of available pieces at that location, but you should adjust it to match the real number being removed. |
-
----
 
 ## List of writeoff documents
 
@@ -50,8 +49,6 @@ A color indicator shows the document status:
 You can open any document to review its details.
 
 ![WriteoffsList](../Assets/WriteoffsList.png)
-
----
 
 ## Actions
 
@@ -83,15 +80,11 @@ Click the **action button** to create a new writeoff document.
 
 Published writeoffs immediately update stock levels.
 
----
-
 ## Menu
 
 Inside a **committed** writeoff document, the menu (hamburger icon) has the option to [**Create a new reversal**](Reversals.md).
 
 The menu is **not available** for draft writeoff documents.
-
----
 
 ## Deletion
 

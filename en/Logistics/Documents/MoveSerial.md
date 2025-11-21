@@ -1,12 +1,14 @@
 ﻿# Move serial
 
-The **Move serial** function allows you to quickly move a specific stock unit (identified by its serial number) from one storage location to another, without manually creating an Inter warehouse document. It is optimized for fast, repeated movements on the warehouse floor.
+The **Move serial** function allows you to quickly move a specific stock unit (identified by its serial number) from one storage location to another. It is designed for fast, frequent movements on the warehouse floor—for example, reorganizing shelves, preparing goods for picking, or correcting misplaced items. Unlike a full **[Inter warehouse](InterWarehouse.md)** document, Move serial focuses only on relocating a single serial-numbered unit within the warehouse structure.
 
-For a full demonstration, watch the [Move serial number](https://www.youtube.com/watch?v=dy1u6sKmdMg) video.
+You can open the [**Stock view by material**](Stock.md#stock-view-by-material) or [**Stock view by serial number**](Stock.md#stock-view-by-material) from related screens to better understand where the item is currently stored and how it has been moved in the past.
+
+> [!TIP]
+> For a full demonstration, see the **[Move serial number](https://www.youtube.com/watch?v=dy1u6sKmdMg)** video tutorial.
 
 To access Move serial, go to **Logistics / Documents / Move serial** in the [navigation](../../Common/UI/Navigation.md).
 
----
 
 ## Moving a serial number
 
@@ -65,4 +67,6 @@ After finishing:
 **Example of the recorded transfer:**
 
 ![MoveSerialInterWarehouseRecord](../Assets/MoveSerialInterWarehouseRecord.png)
+
+---
 

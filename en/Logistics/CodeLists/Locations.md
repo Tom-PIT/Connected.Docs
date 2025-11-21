@@ -1,10 +1,9 @@
 # Locations
 
-This code list represents the storage locations within individual warehouses. Each location defines a specific area or subdivision, such as a rack, shelf, or compartment, and enables precise organization and tracking of materials within a warehouse.
+This code list represents the storage locations within individual [warehouses](Warehouses.md). Each location defines a specific area or subdivision, such as a rack, shelf, or compartment, and enables precise organization and tracking of materials within a warehouse.
 
-For a detailed explanation of how warehouse locations work, watch the [Warehouses and warehouse locations](https://www.youtube.com/watch?v=3sEE9Mrtx6M) video.
-
----
+> [!TIP]
+> For a full demonstration, see the **[Warehouses and warehouse locations](https://www.youtube.com/watch?v=3sEE9Mrtx6M)** video tutorial.
 
 ## Schema
 
@@ -14,8 +13,6 @@ For a detailed explanation of how warehouse locations work, watch the [Warehouse
 | **Name** | Name or label of the location, for example **Rack 1** or **Shelf 2**. |
 | **Parent location** | Defines another location within which this location is nested. For example, a shelf may belong to a specific rack. |
 | **Description** | Optional description providing additional details about the location. |
-
----
 
 ## Management
 
@@ -30,8 +27,6 @@ The interface displays a list of all locations for the selected warehouse. Use t
 Each record displays a **Stock** tag that opens the interface for managing the stock associated with the selected location. 
 
 See [Stock view by location](../Views/StockViewByLocation.md) for more details.
-
----
 
 ## Actions
 
@@ -80,8 +75,6 @@ The **New** action opens the input form for creating a new entry. The form inclu
 
 After entering the required information, click **Add** to save the location or **Cancel** to return to the list view.
 
----
-
 ## Editing
 
 To edit an existing location, click the location’s **Name** in the list. The interface switches to edit mode, displaying the existing values. 
@@ -98,3 +91,5 @@ If confirmed, the location is permanently removed; otherwise, the system keeps t
 
 > [!NOTE]
 >A location can be deleted only if it is not used in any dependent entries, such as stock records or warehouse operations.  
+
+---

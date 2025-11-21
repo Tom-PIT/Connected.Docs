@@ -1,12 +1,13 @@
 # Issues
 
-An **Issue** document is used to record materials being taken *out* of your warehouse. It tracks which items were issued, in what quantities, and to which customer.
+An **Issue** document is used to record goods that come out your warehouse, for example, to be delivered to a customer. When finished products, materials, or packaged items leave the warehouse as part of a customer delivery, the Issue document captures all relevant details. Examples include issuing **furniture to a customer**, **shipping spare parts**, or **delivering packaged goods** as part of a sales order.
 
-For a full walkthrough, watch the [Issue](https://www.youtube.com/watch?v=SrVyblBiLmQ) video.
+During the issuing process, you scan or search for the items being delivered, confirm the correct serial numbers or batches, and enter the quantity being dispatched. This ensures that stock levels are updated accurately and that each delivery is fully traceable.
+
+> [!TIP]
+> For a full demonstration, see the **[Issue](https://www.youtube.com/watch?v=SrVyblBiLmQ)** video tutorial.
 
 To access Issues, go to **Logistics / Documents / Issues** in the [navigation](../../Common/UI/Navigation.md).
-
----
 
 ## Schema
 
@@ -15,8 +16,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 | Field | Description |
 |-------|-------------|
 | **Code** | System-generated unique identifier for the issue document. |
-| **Document date** | Date when the goods were issued. |
-| **Warehouse** | Warehouse from which the materials are issued. |
+| **Document date** | Date when the issue document is created. |
+| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse from which the materials are issued. |
 | **Customer** | Customer receiving the goods. |
 | **Notes** | Additional remarks related to the document. |
 
@@ -27,10 +28,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 | **Material** | Material being issued (product, semi product, raw material, or repro). |
 | **Serial number** | Selected serial number of the material being issued. |
 | **Best before** | Expiration date (if the material has shelf life). |
-| **Warehouse location** | Current storage location of the selected item. |
+| [**Warehouse location**](../CodeLists/Locations.md) | Current storage location of the selected item. |
 | **Quantity (pc)** | Quantity being issued. |
-
----
 
 ## List of issue documents
 
@@ -51,8 +50,6 @@ A color indicator next to each document shows its status:
 You can click any document to open and review its details.
 
 ![Issues](../Assets/Issues.png "Issues list")
-
----
 
 ## Actions
 
@@ -77,8 +74,6 @@ Click the **action button** to create a new issue document.
 
 A newly created issue document appears in the **Drafts** view. Once published, it moves to **Committed**.
 
----
-
 ## Attachments
 
 At the top of every document, an **Attachments** section is available. 
@@ -87,13 +82,9 @@ At the top of every document, an **Attachments** section is available.
 
 You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
----
-
 ## Notes
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
-
----
 
 ## Menu
 
@@ -112,8 +103,6 @@ Inside an issue document, the **menu (hamburger icon)** in the top-right corner 
 - Export (PDF)  
 - [Create a new reversal](Reversals.md).
 
----
-
 ## Reviewing an issue document
 
 When you click an issue document:
@@ -125,8 +114,6 @@ When you click an issue document:
 - Published (Committed) documents are read-only except for reversal creation
 
 ![Issue reviewing](../Assets/IssueReviewing.png "Issue reviewing")
-
----
 
 ## Deletion
 
@@ -141,3 +128,5 @@ If the draft still includes materials in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 Committed documents **cannot** be deleted — only reversed.
+
+---
