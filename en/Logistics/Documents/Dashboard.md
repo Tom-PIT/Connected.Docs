@@ -38,7 +38,7 @@ You can search for a material by typing its **serial number**, **material code**
 
 The option **Include out of stock** allows you to expand the results to include materials with zero stock.
 
-Press enter or click the **Stock** button to display matching results. If the search bar is empty, the button directly access the [**Stock**](Stock.md) overview page.
+Press enter or click the **Stock** button to display matching results. If the search bar is empty, the button directly takes you to the [**Stock**](Stock.md) overview page.
 
 ![Dashboard Search Bar](../Assets/DashboardSearchBar.png)
 
