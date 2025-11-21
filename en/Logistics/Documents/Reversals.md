@@ -1,19 +1,18 @@
 ﻿# Reversals
 
-A **Reversal** document is used to undo (fully or partially) the effect of another logistics document — such as a **Receive**, **Issue**, **Writeoff**, or **Inter warehouse transfer**. You can reverse only committed documents, and only through their **Menu → Create a new reversal** option. Reversals cannot be created from the Reversals list.
+A **Reversal** document is used to undo the effect of another logistics document. It allows you to correct mistakes or adjust stock levels when a previously committed movement needs to be reversed. You can reverse only committed documents, and only through their **Menu → Create a new reversal** option. Reversals cannot be created directly from the Reversals list.
 
-A reversal adjusts stock levels according to the type of document being reversed. For example:
-- Reversing a **Writeoff** returns stock to its previous location.  
-- Reversing a **Receive** removes items (restoring them to the vendor conceptually).  
-- Reversing an **Issue** returns items to their original warehouse/location.  
-- Reversals can be **partial** or **full**.  
-- Reversals **cannot** themselves be reversed.
+Reversals adjust stock depending on the type of document being reversed:
+- Reversing a **[Writeoff](Writeoffs.md)** returns items to stock.
+- Reversing a **[Receive](Receives.md)** removes items again (as if they were returned to the vendor).
+- Reversing an **[Issue](Issues.md)** restores goods that were previously delivered to a customer.
 
-For a full walkthrough, watch the [Reversal](https://www.youtube.com/watch?v=yfGNARBWm7Q) video.
+Reversals can be **full** or **partial**, depending on the quantity you enter. Reversal documents themselves **cannot** be reversed.
+
+> [!TIP]
+> For a full demonstration, see the **[Reversal](https://www.youtube.com/watch?v=yfGNARBWm7Q)** video tutorial.
 
 To access Reversals, go to **Logistics / Documents / Reversals** in the [navigation](../../Common/UI/Navigation.md).
-
----
 
 ## Schema
 
@@ -42,8 +41,6 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [navigat
 | **Source quantity** | Quantity originally processed in the reversed document. |
 | **Quantity (pc)** | Quantity to reverse — **editable**, used for partial or full reversal. |
 
----
-
 ## List of reversal documents
 
 The **Reversals** page displays all reversal documents. You can filter the list using:
@@ -67,8 +64,6 @@ Color indicators:
 
 ![ReversalsList](../Assets/Reversals.png)
 
----
-
 ## Actions
 
 Reversal documents **cannot** be created manually from the Reversals page. They are created only from the source document through:
@@ -87,8 +82,6 @@ Tags displayed on the original document:
 - **Fully reversed** — the document has been completely reversed  
 
 ![ReversalsDocumentTag](../Assets/ReversalsDocumentTag.png)
-
----
 
 ## Creating and publishing a reversal
 
@@ -124,8 +117,6 @@ Once published:
 - The reversed document shows **Partially reversed** or **Fully reversed**  
 - The reversal moves to **Committed**
 
----
-
 ## Reviewing a reversal document
 
 A reversal document includes:
@@ -145,11 +136,11 @@ Lists affected materials, their locations, original quantities, and reversed qua
 
 ![Reversal Document Details](../Assets/ReversalsDetailsSection.png "Reversal details")
 
----
-
 ## Deletion
 
 Click **Delete** to remove a **draft** reversal document. Committed reversals **cannot** be deleted.
 
 A draft reversal can always be deleted because it does not contain dependent stock movements.
+
+---
 

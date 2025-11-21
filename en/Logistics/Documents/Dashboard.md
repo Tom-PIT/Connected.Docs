@@ -1,14 +1,16 @@
 ﻿# Dashboard
 
-The **Dashboard** provides a quick overview of stock-related conditions across all materials. It is designed to highlight potential stock issues—such as low quantities, overstock, and out-of-stock situations—allowing users to react quickly.
+The **Dashboard** gives you a quick overview of the current stock situation across all materials. It highlights important conditions such as materials that are **below minimum stock**, **above maximum stock**, **out of stock**, or **blocked**. This allows you to immediately spot potential issues and take action where needed.
 
-For a detailed explanation of how the dashboard works, watch the [Dashboard overview](https://www.youtube.com/watch?v=mEU18GmypkY) video.
+You can search for any material directly from the dashboard and open its **Stock view** to see stock levels, locations, movements, and serial number details.  
+Minimum and maximum thresholds can be defined in the **[Stock boundaries](StockBoundaries.md)** code list.
 
-To access the dashboard, go to **Logistics / Dashboard** in the [navigation](../../Common/UI/Navigation.md).
+> [!TIP]
+> For a full demonstration, see the **[Dashboard overview](https://www.youtube.com/watch?v=mEU18GmypkY)** video tutorial.
+
+To access the Dashboard, go to **Logistics / Dashboard** in the [navigation](../../Common/UI/Navigation.md).
 
 ![Dashboard](../Assets/Dashboard.png "Dashboard")
-
----
 
 ## Stock Indicators
 
@@ -30,8 +32,6 @@ Materials that currently have **zero available stock**.
 ### Below Blocked  
 Materials with a stock quantity **lower than the blocked quantity threshold**.
 
----
-
 ## Search and Scan
 
 You can search for a material by typing its **serial number**, **material code**, or **name** into the search bar. 
@@ -51,8 +51,6 @@ A results screen appears showing a list of materials with the following columns:
 
 ![Dashboard Search](../Assets/DashboardSearch.png "Dashboard Search")
 
----
-
 ## Material List
 
 Below the indicators, the dashboard shows a list of materials relevant to the current indicator selection. The list includes:
@@ -66,3 +64,4 @@ A search field on the right allows further filtering of visible items.
 >[!NOTE]
 >Click on a material to open its [Stock by material](Stock.md#stock-view-by-material) view.
 
+---

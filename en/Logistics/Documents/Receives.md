@@ -1,8 +1,17 @@
 # Receives
 
-A receive document is used to record the physical arrival of materials into your warehouse. It captures details about received items, packaging, quantities, and storage locations.
+# Receives
 
-For a full walkthrough of how Receives work, watch the [Receive](https://www.youtube.com/watch?v=oTOYD-nlCqE) video.
+A **Receive** document is used to record the arrival of materials into your warehouse. When goods physically arrive from a supplier or another location, you create a receive document to register them in the system. Examples include receiving:
+- [**Products**](Products.md)  
+- [**Semi products**](SemiProducts.md)  
+- [**Repro materials**](ReproMaterials.md)  
+- [**Raw materials**](RawMaterials.md)
+
+The receive process captures key information such as the material, [packaging](Packaging.md), quantity, serial numbers, best-before dates, and [storage location](../CodeLists/Locations.md). This ensures that stock levels are accurate and that all items are properly tracked from the moment they enter the warehouse.
+
+> [!TIP]
+> For a full demonstration, see the [**Receive**](https://www.youtube.com/watch?v=oTOYD-nlCqE) video tutorial.
 
 To access Receives, go to **Logistics / Documents / Receives** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -16,9 +25,9 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 |-------|-------------|
 | **Code** | System-generated unique identifier for the receive document. |
 | **Document date** | Date when the goods were physically received. |
-| **Warehouse** | Warehouse where the materials are being received. |
+| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the materials are being received. |
 | **Vendor** | Supplier delivering the goods. |
-| **Supply order** | (Optional) Linked supply order. See [Supply order](../../Supply/Documents/SupplyOrder.md). |
+| [**Supply order**](../../Supply/Documents/SupplyOrder.md) | (Optional) Linked supply order. |
 | **Notes** | Additional remarks related to the document. |
 
 ### Detail section
@@ -29,15 +38,13 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 | **EAN** | Packaging or unit barcode. |
 | **Net weight / Gross weight (kg)** | Weight information stored in the system or scanned. |
 | **Dimensions (whd, mm)** | Width, height, and depth of the package. |
-| **Warehouse location** | Storage location where the unit will be placed. |
+| [**Warehouse location**](../CodeLists/Locations.md) | Storage location where the unit will be placed. |
 | **Serial number** | Serial number scanned or generated. |
 | **Best before** | Expiration date (for materials with shelf life). |
 | **Packaging quantity (pc)** | Quantity represented by a single packaging unit. |
 | **Quantity in base unit (pc)** | Quantity expressed in the material’s base measurement unit. |
 | **Received quantity (pc)** | Quantity actually received. |
 | **Number of packets** | Number of packages received. |
-
----
 
 ## List of receive documents
 
@@ -58,8 +65,6 @@ A color indicator next to each document shows its status:
 You can click any document to open and review its details.
 
 ![Receive documents list](../Assets/Receives.png "Receive documents list")
-
----
 
 ## Actions
 
@@ -84,8 +89,6 @@ To create a new receive document:
 
 A newly created receive document appears in the **Drafts** view. Once published, it moves to **Committed**.
 
----
-
 ## Attachments
 
 At the top of every document, an **Attachments** section is available. 
@@ -93,8 +96,6 @@ At the top of every document, an **Attachments** section is available.
 ![Attachments section](../Assets/Attachments.png "Attachments section")
 
 You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
-
----
 
 ## Document connections
 
@@ -106,14 +107,10 @@ For receive documents, a **Disassemble** option may appear. This allows you to c
 
 For more details, see the [Disassemblies](Disassemblies.md) documentation.
 
----
-
 
 ## Notes
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
-
----
 
 ## Menu
 
@@ -132,8 +129,6 @@ Inside a receive document, the **menu (hamburger icon)** in the top-right corner
 - Print  
 - Export (PDF)  
 - [**Create a new reversal**](Reversals.md).
-
----
 
 ## Reviewing a receive document
 
@@ -160,3 +155,5 @@ To delete details individually:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 Committed documents **cannot** be deleted — only reversed.
+
+---

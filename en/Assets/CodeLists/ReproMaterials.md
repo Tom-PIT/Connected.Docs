@@ -1,10 +1,11 @@
 # Repro materials
 
-Repro materials represent reusable or auxiliary components used within production processes or internal workflows. These materials support the creation or maintenance of other items but are not themselves final products. Each repro material includes key properties such as expiration period, tax rate, and measure unit, ensuring accurate and standardized material management across the system.
+**Repro materials** are reusable or auxiliary components used to support production or internal activities. They are not final products but are essential for maintaining or assembling other materials. Examples include screws, tape, pallets, or styrofoam.
 
-This code list serves as the register of repro materials within the materials structure.
+Each repro material includes important attributes—such as [measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), serial number behavior, or [packaging](Packaging.md) options—to ensure consistent tracking and usage across all warehouse and production workflows. This code list contains all repro materials used by your organization.
 
-For a detailed explanation of how repro materials work, watch the **[Repro materials](https://www.youtube.com/watch?v=ZRUwbQrAolU)** video.
+> [!TIP]
+> For a full demonstration, see the **[Repro materials](https://www.youtube.com/watch?v=ZRUwbQrAolU)** video tutorial.
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -12,7 +13,7 @@ For a detailed explanation of how repro materials work, watch the **[Repro mater
 > - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
 > - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
 
----
+To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -33,11 +34,7 @@ For a detailed explanation of how repro materials work, watch the **[Repro mater
 | **External key** | Identifier in an external system used for cross-system connections. |
 | **Active** | Indicates whether the material is available for use in new documents. Inactive materials cannot be added to new entries but remain visible in the history. |
 
----
-
 ## Management
-
-To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of repro materials
 
@@ -48,8 +45,6 @@ The user interface contains a list of repro materials.
 The list displays each repro material’s name, code, and serial number generation method.
 
 A filter for **Tags** is available on the left side. A search field is available on the right for quickly finding specific materials.
-
----
 
 ## Actions
 
@@ -95,8 +90,6 @@ This section contains optional descriptive fields, such as a material descriptio
 
 After entering the required information, click **Add** to save the material or **Cancel** to return to the list.
 
----
-
 ## Editing
 
 To edit an existing repro material, click its **Name** in the list. The interface switches to edit mode.
@@ -105,8 +98,6 @@ To edit an existing repro material, click its **Name** in the list. The interfac
 
 Make the necessary changes and click **Save**.  
 Click **Cancel** to discard changes.
-
----
 
 ## Deletion
 
@@ -117,5 +108,6 @@ Click **Delete** on the edit screen to open a confirmation dialog:
 If confirmed, the repro material is permanently removed; otherwise, the system keeps the record unchanged.
 
 > [!NOTE]
->A repro material can be deleted only if no dependent records reference it (e.g., stock movements, production processes, documents).
+> A repro material can be deleted only if no dependent records reference it (e.g., stock movements, production processes, documents).
 
+---

@@ -1,9 +1,9 @@
 # Measure units
 
-This code list represents the measure units used across the digital contents of the system. Measure units ensure that quantities are displayed consistently in documents, inventories, and calculations. Each measure unit defines how values are rounded, displayed, and processed across the system.
+This code list defines all **measure units** used across the system. Measure units ensure that quantities are displayed consistently in documents, inventories, and calculations. Each unit also defines how values are rounded, formatted, and processed throughout the digital contents.
 
-For a detailed explanation of how measure units work, watch the [Measure units](https://www.youtube.com/watch?v=8swl8Vex6y4) video.
-
+> [!TIP]
+> For a full demonstration, see the **[Measure units](https://www.youtube.com/watch?v=8swl8Vex6y4)** video tutorial.
 ---
 
 ## Schema
@@ -14,8 +14,6 @@ For a detailed explanation of how measure units work, watch the [Measure units](
 | **Abbreviation** | Short form of the measure unit displayed throughout the system. For example **kg** or **m**. |
 | **Precision** | Default number of decimal places used for values in this measure unit. For example **0** or **3**. |
 | **Active** | Indicates whether the measure unit is available for use in new documents. Inactive units cannot be selected in new entries, but remain visible in history. |
-
----
 
 ## Management
 
@@ -42,8 +40,6 @@ Each record includes a status indicator to the left of its name:
 
 The list displays each measure unit’s name, abbreviation, and precision.
 
----
-
 ## Actions
 
 Click on the [action button](../UI/ActionButton.md) to add a new measure unit.
@@ -58,8 +54,6 @@ After entering the required information, click **Add** to save the measure unit 
 
 ![Add measure unit](../Assets/NewMeasureUnit.png "Add measure unit")
 
----
-
 ## Editing
 
 To edit an existing measure unit, click the unit’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
@@ -67,8 +61,6 @@ To edit an existing measure unit, click the unit’s **Name** in the list. The i
 ![Edit measure unit](../Assets/MeasureUnitsEdit.png "Edit measure unit")
 
 Click **Save** to confirm changes or **Cancel** to discard them.
-
----
 
 ## Deletion
 
@@ -80,3 +72,5 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >A **measure unit** can be deleted only if it is not used in any dependent records, such as materials or stock transactions.
+
+---

@@ -1,17 +1,11 @@
 # Raw materials
 
-Raw materials represent the base materials used in production processes.
-They may be purchased, stored, consumed in manufacturing, or used within
-internal operations. Each raw material includes essential
-properties---such as expiration period, tax rate, and measure
-unit---which ensure accurate and standardized management within the
-system.
+**Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key information—such as[measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), expiration period, or [packaging](Packaging.md)—to ensure that it can be managed consistently across the system.
 
-This code list serves as the register of all raw materials within the
-materials structure.
+This code list serves as the register of all raw materials within the materials structure.
 
-For a detailed explanation of how raw material management works, watch
-the [Raw materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
+> [!TIP]
+> For a full demonstration, see the **[Raw materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU)** video tutorial.
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -19,7 +13,7 @@ the [Raw materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 > - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
 > - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
 
-------------------------------------------------------------------------
+To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -40,10 +34,7 @@ the [Raw materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU) video.
 | **External key**     | Identifier used to connect the raw material with external systems. |
 | **Active**           | Indicates whether the raw material is available for use in new documents. |
 
-
 ## Management
-
-To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of raw materials
 
@@ -54,7 +45,6 @@ The user interface contains a list of raw materials.
 A filter for **Tags** is available on the left side. A search field is
 available in the upper-right corner.
 
-------------------------------------------------------------------------
 
 ## Actions
 
@@ -97,15 +87,12 @@ This section contains optional descriptive fields, such as a material descriptio
 
 After entering the required information, click Add to save the semi product or Cancel to return to the list view.
 
-------------------------------------------------------------------------
 
 ## Editing
 
 Click the raw material name to edit the entry.
 
 ![Edit Raw Material](../Assets/EditRawMaterial.png "Edit Raw Material")
-
-------------------------------------------------------------------------
 
 ## Deletion
 
@@ -116,5 +103,6 @@ Click the raw material name to edit the entry.
 If confirmed, the raw material is permanently removed; otherwise, the system keeps the record unchanged.
 
 > [!NOTE]
->A raw material can be deleted only if it is not referenced by other
-records.
+>A raw material can be deleted only if it is not referenced by other records.
+
+---

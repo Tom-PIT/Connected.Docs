@@ -1,10 +1,11 @@
 # Semi products
 
-Semi products represent intermediate materials used in production processes. They may be included in the manufacturing of finished products, serve as subcomponents in multi-level material structures, or be used internally within operational workflows. Each semi product includes essential properties—such as expiration period, tax rate, and measure unit—which ensure accurate and standardized management within the system.
+**Semi products** are intermediate materials used in the production of finished goods. They are created from raw materials and then used as components in other items. Examples include Tabletop panel, Metal frame, Wooden leg, or Circuit module.
 
-This code list serves as the register of semi-finished materials within the materials structure.
+Each semi product includes key information—like  [measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), serial number behavior, or expiration period—to support consistent handling across production, inventory, and warehouse operations. This code list contains all semi-finished items used in your production process.
 
-For a detailed explanation of how semi product materials work, watch the [Semi product materials](https://www.youtube.com/watch?v=Ox2OF8_IwOQ) video.
+> [!TIP]
+> For a full demonstration, see the **[Semi product materials](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)** video tutorial.
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -12,7 +13,7 @@ For a detailed explanation of how semi product materials work, watch the [Semi p
 > - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
 > - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
 
----
+To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -33,11 +34,7 @@ For a detailed explanation of how semi product materials work, watch the [Semi p
 | **External key** | Identifier in an external system used for cross-system record linking. |
 | **Active** | Indicates whether the semi product is available for use in new documents. Inactive items cannot be used in new entries but remain visible in the history. |
 
----
-
 ## Management
-
-To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of semi products
 
@@ -48,8 +45,6 @@ The user interface contains a list of semi products. If no record exists yet, th
 The list displays each semi product’s name, code, and serial number generation method.
 
 A filter for **Tags** is available on the left side of the screen. A search field in the upper-right corner helps filter the list.
-
----
 
 ## Actions
 
@@ -94,8 +89,6 @@ This section contains optional descriptive fields, such as a material descriptio
 
 After entering the required information, click **Add** to save the semi product or **Cancel** to return to the list view.
 
----
-
 ## Editing
 
 To edit an existing semi product, click the semi product’s **Name** in the list.  
@@ -104,8 +97,6 @@ The interface switches to edit mode, displaying all fields for modification.
 ![Edit semi product](../Assets/EditSemiproduct.png "Edit semi product")
 
 Click **Save** to apply changes or **Cancel** to discard them.
-
----
 
 ## Deletion
 
@@ -116,4 +107,6 @@ Click **Delete** on the edit screen to open a confirmation dialog:
 If confirmed, the semiproduct is permanently removed; otherwise, the system keeps the record unchanged.
 
 > [!NOTE]
->A semi product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, production structures, or other material relationships.  
+> A semi product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, production structures, or other material relationships.
+
+---

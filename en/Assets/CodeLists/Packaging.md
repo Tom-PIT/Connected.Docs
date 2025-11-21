@@ -1,17 +1,16 @@
 # Packaging
 
-Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. It applies to **Products**, **Semi products**, **Repro materials**, and **Raw materials**.  
+Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. It applies to:
 
-For a detailed explanation of packaging configuration, watch the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video.
+- [**Products**](Products.md)  
+- [**Semi products**](SemiProducts.md)  
+- [**Repro materials**](ReproMaterials.md)  
+- [**Raw materials**](RawMaterials.md)
 
-> [!NOTE]  
-> Packaging is available for the following material types:  
-> – [**Products**](Products.md)  
-> – [**Semi products**](SemiProducts.md)  
-> – [**Repro materials**](ReproMaterials.md)  
-> – [**Raw materials**](RawMaterials.md)
+> [!TIP]
+> For a full demonstration, see the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video tutorial.
 
----
+To access packaging configuration, go to: **Assets / Materials / Packaging** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -26,11 +25,7 @@ For a detailed explanation of packaging configuration, watch the **[Packaging](h
 | **Height (mm)** | Height dimension in millimeters. |
 | **Depth (mm)** | Depth dimension in millimeters. |
 
----
-
 ## Management
-
-To access packaging configuration, go to: **Assets / Materials / Packaging** in the [navigation](../../Common/UI/Navigation.md).
 
 To assign packaging to a material, you must first select the **Material type** (e.g., Products, Semi products) and then the specific **Entity** on the left side of the screen.
 
@@ -51,8 +46,6 @@ The list shows:
 
 A search field is available in the upper-right corner.
 
----
-
 ## Actions
 
 Click the **Action button** to add a new packaging item.
@@ -69,16 +62,13 @@ The form includes fields such as:
 
 After entering the required information, click **Add** to save or **Cancel** to return.
 
----
-
 ## Editing
 
 To edit an existing packaging entry, click the **EAN** value in the list.
 
 ![Edit packaging](../Assets/EditPackaging.png)
 
-The edit screen allows you to modify all fields.  
-After editing, click **Save** or **Cancel**.
+The edit screen allows you to modify all fields. After editing, click **Save** or **Cancel**.
 
 ### Labels
 
@@ -101,8 +91,6 @@ Available label types:
 
 Select the desired label types and click **Save**.
 
----
-
 ## Deletion
   
 Click **Delete** on the edit screen to open a confirmation dialog: 
@@ -113,3 +101,5 @@ If confirmed, the packaging is permanently removed; otherwise, the system keeps 
 
 > [!NOTE]
 >A packaging record can be deleted only if it is not referenced by other system entities.
+
+---

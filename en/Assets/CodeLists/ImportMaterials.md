@@ -15,8 +15,6 @@ The screen also provides a downloadable example file, which shows the required s
 To access the **Import materials** code list, go to **Assets / Materials /
 Import materials** in the [navigation](../../Common/UI/Navigation.md).
 
----
-
 ## Schema
 
 | Field | Description |
@@ -26,15 +24,11 @@ Import materials** in the [navigation](../../Common/UI/Navigation.md).
 | **File type** | The format of the uploaded file, either CSV or XLSX. |
 | **Applied changes** | Indicates whether the changes were actually imported (checked) or if this was only a test import (not checked). |
 
----
-
 ## File type
 
 The system accepts imports in the **CSV** or **XLSX** format. The dropdown menu is used to select the format of the **example file** that you can download. Click the **Download** button to obtain the example import file in the selected format. This sample file contains all required columns in the correct order.
 
 ![Import materials — initial screen](../Assets/ImportMaterials.png "Import materials — initial screen")
-
----
 
 ## Spreadsheet structure
 
@@ -42,7 +36,7 @@ The import file must include the columns listed below. Each row represents a sin
 
 | Column | Description |
 |--------|-------------|
-| **Type** | Type of material: Product, Semi product, Repro material, or Raw material. |
+| **Type** | Type of material: [**Products**](Products.md), [**Semi products**](SemiProducts.md), [**Repro materials**](ReproMaterials.md), [**Raw materials**](RawMaterials.md).|
 | **Code** | Unique identifier of the material. If a material with the same code already exists, the import updates it. |
 | **Name** | Full name of the material. |
 | **Measure unit** | Measure unit used for quantities. Must match an existing [measure unit](../../Common/CodeLists/MeasureUnits.md). |
@@ -57,23 +51,17 @@ The import file must include the columns listed below. Each row represents a sin
 | **Tax rate** | Percentage of tax applied to the material. |
 | **External key** | External system identifier. |
 
----
-
 ## Example row
 
 ```
 Product,C0000001,Acme product 1,Kg,ACME,Acme product 1,C000EAN1,0,https://google.com;https://google.com,0,DDV,22,EXT01
 ```
 
----
-
 ## Editing the file
 
 You can prepare or modify the spreadsheet in a spreadsheet editor:
 
 ![Editing in Excel](../Assets/ImportMaterialsExcel.png "Editing in Excel")
-
----
 
 ## Uploading the file
 
@@ -105,15 +93,11 @@ After the import completes, the status updates in the table, indicating which ro
 > [!NOTE]  
 > Materials are linked to two code lists, [Measure units](../../Common/CodeLists/MeasureUnits.md) and [Tax rates](../../Common/CodeLists/TaxRates.md). If the required records do not exist in these code lists, the system automatically creates the missing dependent code list entries during import.
 
----
-
 ## Results list
 
 Click any import on the **Created** column on the import list to review the results and any possible errors.
 
 ![Import materials report](../Assets/ImportMaterialsReport.png "Import materials report")
-
----
 
 ## Notes
 
@@ -122,3 +106,5 @@ Click any import on the **Created** column on the import list to review the resu
 - The column order in the spreadsheet must not be changed.  
 - Empty optional fields will be imported as blank values.  
 - URLs must be valid or left empty.
+
+---

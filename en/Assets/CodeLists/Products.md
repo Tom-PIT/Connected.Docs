@@ -1,10 +1,11 @@
 ﻿# Products
 
-Products represent finished goods that a company manufactures or purchases. They may be used in production processes, internal operations, or as components of other materials. Each product includes essential properties—such as expiration period, tax rate, and measure unit—which ensure accurate and standardized management within the system.
+**Products** are the final goods that your company manufactures or purchases. These items can be sold to customers, stored in the warehouse, or used in internal processes. Examples of products include Oak table, Office chair, LED lamp, or Garden bench.
 
-This code list serves as the register of finished products within the materials structure.
+Each product contains important information—such as [measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), expiration period, or [packaging](Packaging.md)—that ensures it is managed consistently across stock, sales, and production documents. This code list represents all finished products available in your catalog.
 
-For a detailed explanation of how product materials work, watch the [Product materials](https://www.youtube.com/watch?v=FcrJ_IHQYeA) video.
+> [!TIP]
+> For a full demonstration, see the **[Product materials](https://www.youtube.com/watch?v=FcrJ_IHQYeA)** video tutorial.
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -12,7 +13,7 @@ For a detailed explanation of how product materials work, watch the [Product mat
 > - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
 > - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
 
----
+To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -33,11 +34,7 @@ For a detailed explanation of how product materials work, watch the [Product mat
 | **External key** | Identifier in an external system used for cross-system record linking, for example **SAP-4711**. |
 | **Active** | Indicates whether the product is available for use in new documents. Inactive products cannot be added to new entries but remain visible in the history. |
 
----
-
 ## Management
-
-To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Navigation.md).
 
 ### List of products
 
@@ -48,8 +45,6 @@ The user interface contains a list of products. If no record exists yet, the lis
 The list displays each product’s name, code, and serial number generation method.
 
 A filter for **Tags** is available on the left side of the screen. A search field is available in the upper-right corner to quickly locate specific products.
-
----
 
 ## Actions
 
@@ -93,15 +88,11 @@ This section contains optional descriptive fields, such as a material descriptio
 
 After entering the required information, click **Add** to save the product or **Cancel** to return to the list view.
 
----
-
 ## Editing
 
 To edit an existing product, click the product’s **Name** in the list. The interface switches to edit mode, displaying all fields for modification. Click **Save** to apply changes or **Cancel** to discard them.
 
 ![Edit Product](../Assets/EditProduct.png "Edit Product")
-
----
 
 ## Deletion
 
@@ -113,3 +104,5 @@ If confirmed, the product is permanently removed; otherwise, the system keeps th
 
 > [!NOTE]
 > A product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, or material structures.  
+
+---

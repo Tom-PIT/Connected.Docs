@@ -2,8 +2,6 @@
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
----
-
 ## Schema
 
 | Field | Description |
@@ -12,8 +10,6 @@ This code list represents the countries used across the digital contents of the 
 | **LCID** | Localization identifier used to set the language and regional specifics of the country. |
 | **ISO Alpha-2 code** | International standard country code. For example, **SI** for Slovenia or **AT** for Austria. |
 | **Active** | Indicates whether the country is active. Inactive countries cannot be used for new entries, but they remain visible in the history. |
-
----
 
 ## Management
 
@@ -38,8 +34,6 @@ Each record includes a status indicator to the left of its name:
 Each record displays a tag representing **associated data** — [Postal codes](PostalCodes.md).
 
 Clicking this tag opens the interface for managing the related data linked to the selected country.
-
----
 
 ## Actions
 
@@ -83,8 +77,6 @@ Click **Add** to create the record or **Cancel** to return to the list view with
 
 ![New Country](../Assets/NewCountry.png "New Country")
 
----
-
 ## Editing
 
 To edit an existing country, click the country’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
@@ -94,8 +86,6 @@ To edit an existing country, click the country’s **Name** in the list. The int
 The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing you to maintain correct geographical and mailing data.  
 
 ![Editing Postal Codes](../Assets/PostalCodesButton.png "Editing Postal Codes")
-
----
 
 ## Deletion
 
@@ -107,3 +97,5 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >A country can be deleted only if it is not referenced by dependent records (for example, addresses or documents).
+
+---
