@@ -69,7 +69,10 @@ Each row shows:
 
 You can also open this view by clicking a **location name** in other stock-related screens. This automatically loads the warehouse and location, showing only stock stored there.
 
-
 Example from Stock view by material:
 
 ![StockByLocationLink](../Assets/StockByLocationLink.png)
+
+
+---
+
