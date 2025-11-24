@@ -8,8 +8,6 @@ To access Banks, go to **Sales / Management / Banks** in the [navigation](../../
 > **Prerequisites**  
 > Before managing bank records, ensure that the [Countries](../../Common/CodeLists/Countries.md) code list is properly configured.  
 
-
-
 ## Schema
 
 | Field | Description |
@@ -25,7 +23,16 @@ In this screen you can view, add, and edit banks that are used throughout the sy
 
 ### Bank list
 
+The list view displays all recorded banks, including their **name**, **BIC**, and [**country**](../../Common/CodeLists/Countries.md).  
+
 ![Banks](../Assets/Banks.png "Banks list")
+
+Each record includes a status indicator to the left of its name:
+- **Blue** indicates the bank is active
+- **Gray** indicates the bank is inactive
+
+You can use the **Search** bar to quickly filter payment methods by their code or name.
+
 
 ## Actions
 Click the [Action Button](../../Common/UI/ActionButton.md) to add a new bank.  
