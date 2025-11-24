@@ -8,16 +8,6 @@ To access this screen, go to **Sales / Management / Currencies** in the [navigat
 > **Prerequisites**  
 > A currency must be configured before it can be used in price lists, documents, or financial calculations.
 
-## List view
-
-![Currencies list](../Assets/Currencies.png)
-
-The list displays all configured currencies along with their **code**, **symbol**, **LCID**.
-
-Each record includes a status indicator to the left of its name:
-- **Blue** indicates the currency is active
-- **Gray** indicates the currency is inactive
-
 ## Schema
 
 | Field | Description |
@@ -29,7 +19,22 @@ Each record includes a status indicator to the left of its name:
 | **LCID** | Locale identifier used to standardize number and currency formatting. |
 | **Active** | Indicates whether the currency is currently available for use in the system. |
 
-## Creating a new currency
+## Management
+
+### List view
+
+The list displays all configured currencies along with their code, symbol, LCID.
+
+![Currencies list](../Assets/Currencies.png)
+
+Each record includes a status indicator to the left of its name:
+- **Blue** indicates the currency is active
+- **Gray** indicates the currency is inactive
+
+You can use the **Search** bar to quickly filter payment methods by their code or name.
+
+
+## Actions
 
 Click the **action button** to open the form for adding a new currency.
 
@@ -51,15 +56,6 @@ Click **Add** to save the new currency.
 Click a currency in the list to open its edit screen.
 
 ![Edit currency](../Assets/CurrenciesEdit.png)
-
-You may update:
-
-- Name  
-- Code  
-- Symbol  
-- Symbol position  
-- LCID  
-- Active status  
 
 Click **Save** to confirm changes.
 
