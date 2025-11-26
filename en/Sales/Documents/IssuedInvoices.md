@@ -17,8 +17,6 @@ Invoices can also be created manually as stand-alone documents when required.
 
 ## Schema
 
-### Header fields
-
 | Field | Description |
 |-------|-------------|
 | **Code** | Unique identifier of the invoice (system-generated after publishing). |
@@ -36,6 +34,8 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Payment method** | Payment option selected from [**Payment methods**](../../Assets/CodeLists/PaymentMethods.md). |
+
 
 ### Detail fields
 
@@ -46,13 +46,6 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Net price** | Net price per unit, usually taken from price lists or the related document. |
 | **Rebate (%)** | Optional line-level discount. |
 | **Value** | Calculated line totals (net, tax, and gross amounts). |
-
-### Payment method fields
-
-| Field | Description |
-|--------|-------------|
-| **Payment method** | Payment option selected from [**Payment methods**](../../Assets/CodeLists/PaymentMethods.md). |
-| **Amount** | Amount assigned to the selected payment method. Multiple methods can be combined to reach the total amount. |
 
 ## Management
 

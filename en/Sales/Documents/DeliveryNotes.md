@@ -19,8 +19,6 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 ## Schema
 
-### Header fields
-
 | Field | Description |
 |-------|-------------|
 | **Code** | System-generated identifier of the delivery note. |
