@@ -123,9 +123,7 @@ Once the offer in the **Available** status is ready, click on **Complete**.
 ![Offers Complete Button](../Assets/OffersCompleteButton.png)
 
 > [!NOTE]
-> An offer is also automatically completed when a linked document is created. 
->
->For example, when a new [**Sales order**](SalesOrder.md) is created from an offer, the offer moves to the **Complete** status.
+> An offer is also automatically moved to the **completed** status when a new [**Sales order**](SalesOrder.md) is created from directly from it using the **Linked documents** action.
 
 
 ## Menu
