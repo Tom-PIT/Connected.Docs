@@ -99,9 +99,12 @@ You can upload any relevant file—such as delivery notes, transport documents, 
 
 #### Linked documents
 
-The Linked documents section allows creation, linkage, and review of operational documents:
+The Linked documents section allows creation and linkage of operational documents. It also shows any previously linked documents.
 
 ![Sales order – Linked documents](../Assets/SalesOrdersLinkedDocuments.png)
+
+> [!NOTE]
+> The available **Linked document** actions depend on the document type and status.
 
 Available actions include:
 

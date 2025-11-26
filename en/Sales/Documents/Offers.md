@@ -105,6 +105,9 @@ You can upload any relevant file—such as delivery notes, transport documents, ph
 
 Offers support the creation of several related documents, allowing a complete business process flow.
 
+> [!NOTE]
+> The available **Linked document** actions depend on the document type and status.
+
 Common actions include:
 
 - **Project** – link the offer to a project  
