@@ -147,7 +147,7 @@ Payment method assignments appear at the bottom of the document.
 
 ### Publishing a Sales order
 
-When ready, click **Publish** on located on top of the page to finalize the order. A published sales order moves to the **Available** state and enables additional document actions.
+When the draft ready, click **Publish** on located on top of the page to commit the order. A commited sales order moves to the **Available** state and enables additional document actions.
 
 **Available (published):**
 
@@ -155,14 +155,10 @@ When ready, click **Publish** on located on top of the page to finalize the orde
 
 #### Completing a Sales order
 
-Once the published sales order is ready, click **Complete**:
+Once the published sales order is finalized, for example, when a [**delivery note**](DeliveryNotes.md) or [**issued invoice**](IssuedInvoices.md) has been generated from a sales order, click **Complete**:
 
 ![Complete button](../Assets/SalesOrdersCompleteButton.png)
 
-> [!NOTE]
-> A sales order is also automatically completed when a linked document is created.  
-> 
->For example, when a [**delivery note**](DeliveryNotes.md) or [**issued invoice**](IssuedInvoices.md) is generated from a sales order, the sales order moves to the **Completed** status.
 
 ## Menu
 
