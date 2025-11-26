@@ -101,9 +101,12 @@ You can upload any relevant file—such as delivery notes, transport documents, 
 
 #### Linked documents
 
-The linked documents section enables the creation of operational or follow-up documents:
+The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents.
 
 ![Delivery note – linked documents](../Assets/DeliveryNoteLinkedDocuments.png)
+
+> [!NOTE]
+> The available **Linked document** actions depend on the document type and status.
 
 Available actions of delivery notes in the **available** status include:
 
@@ -137,10 +140,6 @@ The top-right menu includes:
 
 > **Reversal note:**  
 > A reversed delivery note appears under *Reversal state → Reversed* in the sidebar.
-
-## Attachments
-
-A standard **Attachments** block allows files (PDFs, photos, certificates, etc.) to be uploaded and stored with the delivery note.
 
 ## Deletion
 

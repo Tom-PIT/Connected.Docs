@@ -123,11 +123,12 @@ You can upload any relevant file—such as delivery notes, transport documents, ph
 
 #### Linked documents
 
-The linked documents section enables the creation and/or review of operational or follow-up documents:
+The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents.
 
 ![Issued Invoice Partially Paid Linked Documents](../Assets/IssuedInvoicePartiallyPaidLinkedDocuments.png "Issued Invoice Partially Paid Linked Documents")
 
-The specific linked documents available depends on the current status of the issued invoice, and if it was created from a previously linked document. 
+> [!NOTE]
+> The available **Linked document** actions depend on the document type and status.
 
 Example for a new draft document:
 
