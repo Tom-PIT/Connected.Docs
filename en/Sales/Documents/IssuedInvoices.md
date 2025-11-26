@@ -23,19 +23,19 @@ Invoices can also be created manually as stand-alone documents when required.
 |-------|-------------|
 | **Code** | Unique identifier of the invoice (system-generated after publishing). |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer receiving the invoice, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
+| **Customer** | Customer receiving the invoice, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the invoice is issued. |
 | **Delivery date** | Date when the goods or services were delivered. |
-| **Due date** | Payment deadline shown to the customer. |
-| **Reference type** | Type of payment reference (e.g., structured reference, model). |
+| **Due date** | Payment deadline shown to the customer  (mandatory). |
+| **Reference type** | Type of payment reference (e.g., structured reference, model)  (mandatory). |
 | **Reference number** | Reference number used on payment documents, based on the chosen reference type. |
-| **Organization bank account** | Account where the payment should be received, selected from [Organization bank accounts](../../Common/CodeLists/OrganizationBankAccounts.md). |
+| **[Organization bank accounts](../../Common/CodeLists/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
 | **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional allocation of revenue to a cost center. |
 | **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
-| **Content top** | Introductory text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
-| **Content bottom** | Closing or legal text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
 
 ### Detail fields
 
@@ -51,7 +51,7 @@ Invoices can also be created manually as stand-alone documents when required.
 
 | Field | Description |
 |--------|-------------|
-| **Payment method** | Payment option selected from [Payment methods](../../Assets/CodeLists/PaymentMethods.md). |
+| **Payment method** | Payment option selected from [**Payment methods**](../../Assets/CodeLists/PaymentMethods.md). |
 | **Amount** | Amount assigned to the selected payment method. Multiple methods can be combined to reach the total amount. |
 
 ## Management
@@ -101,7 +101,9 @@ A draft invoice can also be created from other documents via **+ Issued invoice*
 
 In this case, the customer, delivery data, and line details are pre-filled from the source document.
 
-### Editing an invoice
+### Editing an issued invoice
+
+Click any issued invoice in the list to open it. Draft offers can be edited freely. The Documents is divided into multiple expandable sections. 
 
 While the invoice is in **Draft** status you can edit all sections:
 
@@ -112,6 +114,34 @@ While the invoice is in **Draft** status you can edit all sections:
 - **Content top** and **Content bottom** – choose predefined texts
 
 ![Details and payments](../Assets/IssuedInvoicesNewBottom.png "Invoice details and payment methods")
+
+#### Attachments
+
+At the top of every document, an **Attachments** section is available. 
+
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records.All attached files remain stored together with the document and can be reviewed at any time.
+
+#### Linked documents
+
+The linked documents section enables the creation and/or review of operational or follow-up documents:
+
+![Issued Invoice Partially Paid Linked Documents](../Assets/IssuedInvoicePartiallyPaidLinkedDocuments.png "Issued Invoice Partially Paid Linked Documents")
+
+The specific linked documents available depends on the current status of the issued invoice, and if it was created from a previously linked document. 
+
+Example for a new draft document:
+
+![Issued Invoice Draft Linked Documents](../Assets/IssuedInvoiceDraftLinkedDocuments.png "Issued Invoice Draft Linked Documents")
+
+Available actions may include:
+
+- **Issued invoice** - Copy curret document to a new issued invoice
+- [**+ Credit note**](CreditNotes.md) - Create a credit note
+- [**+ Debit note**](DebitNotes.md) - Create a debit note
+- [**Delivery note**](DeliveryNotes.md) - Link to an exiting delivery note.
+- [**Prepayments**](Prepayments.md) - Link to an exiting prepayment.
+
+### Publishing an invoice
 
 When you are ready, click **Publish** to commit the invoice.
 
@@ -136,7 +166,7 @@ You can register multiple payments over time. The system automatically updates t
 > [!NOTE]  
 > When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
 
-### Menu actions
+## Menu
 
 For published invoices, the menu in the top-right corner provides additional options:
 
@@ -152,9 +182,19 @@ Available actions include:
 
 ## Deletion
 
-Draft invoices can be deleted from the document screen using the **Delete** button.
+Draft documents can be deleted on the edit screen, but only if they contain **no details**.
 
-> [!IMPORTANT]  
+If the draft still includes items in the **Details** section:
+
+1. Click the material serial number to open the **Edit detail** screen.  
+2. Click **Delete** inside the Edit detail window to remove the material.  
+3. Repeat this for all remaining materials.
+
+Once the document contains no materials, you can click **Delete** to remove the draft.
+
+> [!NOTE]
 > - Only **draft** invoices can be deleted.  
 > - Once an invoice is published, you can no longer delete it; instead, use **Reverse document** or **Return to draft** if available.  
 > - If any payments have been recorded, the invoice cannot be deleted until those payments are removed and the document is returned to draft.
+
+___

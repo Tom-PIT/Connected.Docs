@@ -78,19 +78,41 @@ Filters include:
 
 ### Creating a new Sales order
 
-Click the **action button** to create a new sales order draft.  
 Sales orders can be created:
 
-- Directly from the **Sales orders** screen  
-- From a published **Offer**, via *Linked documents → + Sales order*
+- Directly from the **Sales orders** screen, using the [**action button**](../../Common/UI/ActionButton.md)
+- From a published **Offer**, via *Linked documents → + Sales order* 
 
 Example:
 
-![Create sales order from offer](../Assets/SalesOrdersOfferLink.png)
+![Create sales order from offer](../Assets/SalesOrdersOfferLink.png "Create sales order from offer")
 
 ### Editing a Sales order
 
 The sales order is divided into multiple expandable sections.
+
+#### Attachments
+
+At the top of every document, an **Attachments** section is available. 
+
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+
+#### Linked documents
+
+The Linked documents section allows creation, linkage, and review of operational documents:
+
+![Sales order – Linked documents](../Assets/SalesOrdersLinkedDocuments.png)
+
+Available actions include:
+
+- [**+ Delivery note**](DeliveryNotes.md)
+- **+ Empty [delivery note](DeliveryNotes.md)****
+- **Link existing [delivery note](DeliveryNotes.md)**
+- [**+ Production order**](../../Production/ProductionOrders.md)
+- [**+ Maintenance order**](../../Maintenance/MaintenanceOrders.md)
+- [**+ Issued invoice**](IssuedInvoices.md)
+- **Link to project**
+- **Copy sales order**
 
 #### Document
 
@@ -142,30 +164,6 @@ Once the published sales order is ready, click **Complete**:
 > 
 >For example, when a [**delivery note**](DeliveryNotes.md) or [**issued invoice**](IssuedInvoices.md) is generated from a sales order, the sales order moves to the **Completed** status.
 
-
-## Linked documents
-
-The Linked documents section allows creation, linkage, and review of operational documents:
-
-![Sales order – Linked documents](../Assets/SalesOrdersLinkedDocuments.png)
-
-Available actions include:
-
-- [**+ Delivery note**](DeliveryNotes.md)
-- **+ Empty [delivery note](DeliveryNotes.md)****
-- **Link existing [delivery note](DeliveryNotes.md)**
-- [**+ Production order**](../../Production/ProductionOrders.md)
-- [**+ Maintenance order**](../../Maintenance/MaintenanceOrders.md)
-- [**+ Issued invoice**](IssuedInvoices.md)
-- **Link to project**
-- **Copy sales order**
-
-## Attachments
-
-At the top of every document, an **Attachments** section is available. 
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
-
 ## Menu
 
 Click the context menu to:
@@ -180,11 +178,18 @@ Click the context menu to:
 
 ## Deletion
 
-- **Only draft sales orders can be deleted.**  
-- **Sales orders containing details cannot be deleted.**
+Draft documents can be deleted on the edit screen, but only if they contain **no details**.
 
-Deleting is done via **Delete** on the document header.
+If the draft still includes items in the **Details** section:
 
-If confirmed, the system removes the document permanently; otherwise, no changes are made.
+1. Click the material serial number to open the **Edit detail** screen.  
+2. Click **Delete** inside the Edit detail window to remove the material.  
+3. Repeat this for all remaining materials.
+
+Once the document contains no materials, you can click **Delete** to remove the draft. If confirmed, the system removes the document permanently; otherwise, no changes are made.
+
+> [!NOTE]
+> - Only **draft** sales ordfers can be deleted.  
+> - Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
 
 ---
