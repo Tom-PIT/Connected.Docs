@@ -154,6 +154,7 @@ To delete details individually:
 
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
-Committed documents **cannot** be deleted — only reversed.
+> [!NOTE]
+> Committed documents **cannot** be deleted — only reversed.
 
 ---

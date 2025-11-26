@@ -83,21 +83,23 @@ Example of an empty Delivery note draft:
 
 ### Editing a Delivery note
 
-A delivery note is divided into expandable sections:
+Click on an **unpublished delivery note** to edit its details. The document is divided into expandable sections that can be edited:
 
-- **Attachments**
-- **Linked documents**
-- **Document**
-- **Delivery**
-- **Content top**
-- **Details**
-- **Content bottom**
+- Attachments
+- Linked documents
+- Document
+- Delivery
+- Content top
+- Details
+- Content bottom
 
-### Completing a Delivery note
+#### Attachments
 
-When the delivery note is ready, click **Complete** at the top of the page.
+At the top of every document, an **Attachments** section is available. 
 
-## Linked documents
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+
+#### Linked documents
 
 The linked documents section enables the creation of operational or follow-up documents:
 
@@ -115,6 +117,11 @@ Available actions of delivery notes in the **available** status include:
 - **[+ Empty issue](../../Logistics/Documents/Issues.md)**
 - **[+ Full issue](../../Logistics/Documents/Issues.md)**
 - **[Issue](../../Logistics/Documents/Issues.md)** – Link an existing issue
+
+
+### Completing a Delivery note
+
+When the delivery note is ready, click **Complete** at the top of the page.
 
 ## Menu
 
@@ -137,18 +144,20 @@ A standard **Attachments** block allows files (PDFs, photos, certificates, etc.)
 
 ## Deletion
 
-- **Only draft delivery notes can be deleted.**  
-- **Delivery notes containing details cannot be deleted.**  
-- **Reversed delivery notes cannot be deleted.**
+Draft delivery notes can be deleted on the edit screen, but only if they contain **no details**.
 
-To delete a draft delivery note:
+If the draft still includes items in the **Details** section:
 
-1. Remove all **Details** lines.  
-2. Click **Delete** in the document header.
+1. Click the material serial number to open the **Edit detail** screen.  
+2. Click **Delete** inside the Edit detail window to remove the material.  
+3. Repeat this for all remaining materials.
+
+Once the document contains no materials, you can click **Delete** to remove the draft.
 
 If confirmed, the document is permanently removed.
 
 > [!NOTE]  
-> A delivery note cannot be deleted if it is referenced by dependent documents (Issues, Invoices, Production orders, etc.).
+> - A delivery note cannot be deleted if it is referenced by dependent documents (Issues, Invoices, Production orders, etc.).
+> - Completed documents **cannot** be deleted — only reversed or returned to draft.
 
 ---

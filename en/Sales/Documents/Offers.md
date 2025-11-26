@@ -14,8 +14,6 @@ A typical flow:
 3. From the sales order, continue the operational workflow—production, purchasing, delivery, etc.  
 4. Eventually, generate a [**Delivery note**](DeliveryNotes.md), and finally an [**Issued invoice**](IssuedInvoices.md).
 
-
-
 ## Schema
 
 | Field | Description |
@@ -60,52 +58,61 @@ Filters on the left help narrow down results by **document dates**, **status**, 
 
 ![Offers list](../Assets/OffersListDrafts.png)
 
-An example of **Completed** offers:
+An example of a list with **Completed** offers:
 
 ![Offers completed](../Assets/OffersListCompleted.png)
 
-
-These values change automatically depending on the filters selected in the left sidebar (Document dates, Status, Customer, etc.).
-
-The following indicators are shown:
-
-- **Late offers** – Offers whose expiration date has passed and have not been accepted or completed.
-- **Paid offers** – Offers for which full payment has been recorded.
-- **Total cost** – The combined total value of all offers included in the active filter.
-
-These indicators provide a quick overview of open business opportunities and financial exposure.
 
 ## Actions
 
 ### Creating a new Offer
 
-Use the **action button** to create a new draft offer. Once created, you can fill in customer data, items, delivery information, predefined texts, and payment methods.
+1. Use the **action button** to create a new draft offer.  
 
-Top section:
+2. Fill in the [**Customer**](../../Common/CodeLists/BusinessDirectory.md), **Expiration date**, and **Rabate** (optional) fields.
 
-![New offer top](../Assets/OfferNewTop.png)
+    ![New offer top](../Assets/OfferNewTop.png)
 
-Details section:
+3. Add items into the details section:
 
-![New offer details](../Assets/OfferNewDetails.png)
+    ![New offer details](../Assets/OfferNewDetails.png)
 
-Editing an added detail:
+4. Save the added details.
 
-![Edit detail](../Assets/OfferNewDetailsSaved.png)
+    ![Edit detail](../Assets/OfferNewDetailsSaved.png)
 
-Bottom section (payment methods):
+5. Select the [**Payment method**](../../Common/CodeLists/PaymentMethods.md).
 
-![Offer bottom](../Assets/OfferNewBottom.png)
+   ![Offer bottom](../Assets/OfferNewBottom.png)
 
-When ready, click **Publish** on located on top of the page to finalize the offer. A published offer moves to the **Available** state and enables additional document actions.
+6. When ready, click **Publish** on located on top of the page to finalize the offer. A published offer moves to the **Available** state and enables additional document actions.
 
-![Offers available](../Assets/OfferListAvailable.png)
+    ![Offers available](../Assets/OfferListAvailable.png)
 
-### Editing an Offer
+### Editing an offer
 
-Click any offer in the list to open it. Draft offers can be edited freely.  
+Click any offer in the list to open it. Draft offers can be edited freely. The Documents is divided into multiple expandable sections. 
 
 Published offers allow limited modifications depending on system configuration.
+
+#### Attachments
+
+At the top of every document, an **Attachments** section is available. 
+
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+
+#### Linked documents
+
+Offers support the creation of several related documents, allowing a complete business process flow.
+
+Common actions include:
+
+- **Project** – link the offer to a project  
+- **Copy offer** – duplicate this offer  
+- **+ Proforma invoice** – create a proforma invoice  
+- **+ Sales order** – create a [sales order](SalesOrders.md) directly from the offer (typical workflow when a customer accepts the offer)
+
+![Linked documents](../Assets/OfferPublishedLinkedDocuments.png)
 
 ### Completing an offer
 Once the offer in the **Available** status is ready, click on **Complete**.
@@ -127,24 +134,6 @@ Once published, the top menu provides options for:
 
 ![Offers menu](../Assets/OffersMenu.png)
 
-## Linked documents
-
-Offers support the creation of several related documents, allowing a complete business process flow.
-
-Common actions include:
-
-- **Project** – link the offer to a project  
-- **Copy offer** – duplicate this offer  
-- **+ Proforma invoice** – create a proforma invoice  
-- **+ Sales order** – create a [sales order](SalesOrders.md) directly from the offer (typical workflow when a customer accepts the offer)
-
-![Linked documents](../Assets/OfferPublishedLinkedDocuments.png)
-
-## Attachments
-
-At the top of every document, an **Attachments** section is available. 
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
 
 ## Deletion
