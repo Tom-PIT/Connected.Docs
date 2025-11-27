@@ -1,6 +1,6 @@
 # Sales order details
 
-The **Sales order details** view provides an aggregated list of all sales order items across all sales orders. Instead of showing documents, this view shows **individual order lines**, allowing you to monitor deliveries, quantities, and outstanding obligations.
+The Sales order details view provides an aggregated list of all order items from outgoing [**sales order**](../Documents/SalesOrders.md) documents. Instead of showing documents, this view shows **individual order lines**, allowing you to monitor deliveries, quantities, and outstanding obligations.
 
 This view is analytical only — it does **not** create or change sales orders.
 

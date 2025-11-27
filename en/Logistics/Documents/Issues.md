@@ -128,6 +128,6 @@ If the draft still includes materials in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 > [!NOTE]
-> Committed documents **cannot** be deleted — only reversed.
+> Committed documents **cannot** be deleted — only [reversed](Reversals.md).
 
 ---

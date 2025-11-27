@@ -188,7 +188,7 @@ If the draft still includes items in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft. If confirmed, the system removes the document permanently; otherwise, no changes are made.
 
 > [!NOTE]
-> - Only **draft** sales ordfers can be deleted.  
+> - Only **draft** sales orders can be deleted.  
 > - Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
 
 ---

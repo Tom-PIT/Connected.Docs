@@ -53,7 +53,7 @@ The Delivery notes list shows all documents separated by:
 
 **Indicators displayed at the top:**
 
-- **No invoice** – Delivery notes that have not yet resulted in an issued invoice.
+- **No invoice** (interactive) – Delivery notes that have not yet resulted in an issued invoice. Click it to display exclusively the delivery notes that still have no invoice recorded.
 
 These indicators update automatically based on selected filters (Document dates, Status, Reversal state, Customer).
 
