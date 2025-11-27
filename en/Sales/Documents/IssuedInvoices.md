@@ -57,9 +57,10 @@ The list view shows all invoices that match the selected filters and date ranges
 
 **Indicators**
 
-- **Unpaid overdue** – Number and value of invoices that are past their due date and still unpaid.  
+At the top of the list, the system displays key indicators that summarize the currently filtered data. The following indicators are shown:
+
+- **Unpaid overdue** (interactive) – Number and value of invoices that are past their due date and still unpaid. Click it to display exclusively these invoices on the list.  
 - **Total amount** – Total gross amount of invoices in the current view.  
-- **Net amount / Tax** – Breakdown of total net and tax amounts.
 
 These indicators update based on the filters on the left:
 
@@ -83,7 +84,7 @@ Use the **Search** bar to quickly find invoices by code, customer, or other visi
 
 ### Creating a new issued invoice
 
-Click the **action button** to create a new draft issued invoice.
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new draft issued invoice.
 
 ![New invoice](../Assets/IssuedInvoicesNewTop.png "New issued invoice")
 
@@ -171,7 +172,7 @@ Available actions include:
 - **Printing** – Print the invoice using configured printouts.  
 - **Exporting** – Export to PDF or other available formats.  
 - **Send as email** – Email the invoice directly to the customer.  
-- **Reverse document** – Create a reversal invoice for corrections.  
+- **[Reverse document](../../Logistics/Documents/Reversals.md)** – Create a reversal invoice for corrections.  
 - **Return to draft** – Move the invoice back to draft status for editing (if allowed by business rules).
 
 ## Deletion
@@ -188,7 +189,7 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]
 > - Only **draft** invoices can be deleted.  
-> - Once an invoice is published, you can no longer delete it; instead, use **Reverse document** or **Return to draft** if available.  
+> - Once an invoice is published, you can no longer delete it; instead, use **[Reverse document](../../Logistics/Documents/Reversals.md)** or **Return to draft** if available.  
 > - If any payments have been recorded, the invoice cannot be deleted until those payments are removed and the document is returned to draft.
 
 ___

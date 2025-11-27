@@ -47,10 +47,10 @@ A typical flow:
 
 The Offers list provides an overview of all quotations, separated into **Drafts**, **Available**, **In completion**, and **Completed**.  
 
-At the top of the Offers list, the system displays key indicators that summarize the currently filtered data.  The following indicators are shown:
+At the top of the Offers list, the system displays key indicators that summarize the currently filtered data. The following indicators are shown:
 
 - **Late offers** – Offers whose expiration date has passed and have not been accepted or completed.
-- **Paid offers** – Offers for which full payment has been recorded.
+- **Paid offers** (interactive) – Offers for which full payment has been recorded. Click it to display exclusively the offers that have been paid.
 - **Total cost** – The combined total value of all offers included in the active filter. 
 
 Filters on the left help narrow down results by **document dates**, **status**, and **customer**. 
@@ -67,7 +67,7 @@ An example of a list with **Completed** offers:
 
 ### Creating a new Offer
 
-1. Use the **action button** to create a new draft offer.  
+1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft offer.  
 
 2. Fill in the [**Customer**](../../Common/CodeLists/BusinessDirectory.md), **Expiration date**, and **Rabate** (optional) fields.
 
