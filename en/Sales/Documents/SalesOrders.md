@@ -81,7 +81,7 @@ Filters include:
 Sales orders can be created:
 
 - Directly from the **Sales orders** screen, using the [**action button**](../../Common/UI/ActionButton.md)
-- From a published **Offer**, via *Linked documents → + Sales order* 
+- From a published [**Offer**](Offers.md), via *Linked documents → + Sales order* 
 
 Example:
 
