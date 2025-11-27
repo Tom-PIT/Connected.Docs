@@ -73,7 +73,8 @@ An example of a list with **Completed** offers:
 
     ![New offer top](../Assets/OfferNewTop.png)
 
-3. Add items into the details section:
+3. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
+   - The system displays **all matching materials and serial numbers**. 
 
     ![New offer details](../Assets/OfferNewDetails.png)
 

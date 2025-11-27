@@ -77,12 +77,9 @@ These filters allow quick navigation through vendor requests across different st
 
     ![New inquiry](../Assets/InquiriesNew.png "New inquiry")
 
-3. Add items to the **Details** section:
-
-   - Materials  
-   - Validity date  
-   - Quantity  
-   - Supplier code  
+3. Add items to the **Details** section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
+   - The system displays **all matching materials and serial numbers**.  
+   - Adapt the quantity according to your requirement 
 
 4. Save the added details.
 
@@ -98,7 +95,14 @@ The document contains several expandable sections:
 - Document  
 - Details  
 
-### Linked documents
+#### Attachments
+
+At the top of every document, an **Attachments** section is available. 
+
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+
+
+#### Linked documents
 
 The **Linked documents** section allows creation and tracking of dependent supply documents.
 
