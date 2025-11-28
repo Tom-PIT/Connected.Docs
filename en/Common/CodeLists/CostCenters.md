@@ -2,7 +2,7 @@
 
 The **Cost centers** code list identifies departments or functions that create expenses but not revenue, such as HR or support teams. Even though these units don’t generate profit, they play a vital role in keeping the company running. By defining cost centers and assigning costs to them, the system provides transparency into how expenses are distributed across the company.
 
-To access this page, go to **Sales / Management / Cost centers** in the [navigation](../../Common/UI/Navigation.md).
+This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Cost centers** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
