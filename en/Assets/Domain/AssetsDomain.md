@@ -17,7 +17,7 @@ To access the Assets domain, navigate to **Assets** in the [navigation](../../Co
 
 The domain is structured into several functional areas:
 
-- **[Assets](../Codelists/Assets.md)** – Defines the goods and services offered to customers. Each asset includes prices, tax settings, descriptive fields, and optional component details.
+- **[Assets](../CodeLists/Assets.md)** – Defines the goods and services offered to customers. Each asset includes prices, tax settings, descriptive fields, and optional component details.
 
 - **[Asset price lists](../CodeLists/AssetPriceLists.md)** – Used to prepare customer-specific selling prices for selected assets. Price lists support validity periods, company-specific pricing, and quantity-based discount ranges.
 
