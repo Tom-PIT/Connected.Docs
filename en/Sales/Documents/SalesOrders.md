@@ -20,6 +20,10 @@ Sales orders are one of the core steps in the sales chain:
 
 Once the sales order is fulfilled and invoiced, it moves toward completion.
 
+> [!NOTE]
+>Your company may follow all steps or only some of them, depending on the type of business (for example, service companies may not use Delivery notes).
+
+
 ## Schema
 
 | Field | Description |
@@ -47,6 +51,16 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Value** | Final line value (quantity × price − discount). |
 
 ## Management
+
+### Document states
+
+Documents move through several possible states during their lifecycle:
+
+- **Draft** – The document is not yet published. All fields can be edited freely.
+- **Commited** – The document has been published. It cannot be deleted or freely modified.
+    - **Available** – The document is valid and ready for further processing.
+    - **In completion** – The document is partially processed (e.g., partially delivered or received).
+    - **Completed** – All actions related to the document have been fully executed.
 
 ### List view
 
@@ -76,18 +90,28 @@ Filters include:
 
 ## Actions
 
-### Creating a new Sales order
+### Creating a new sales order
 
-Sales orders can be created:
+Sales orders can be created in two ways:
 
-- Directly from the **Sales orders** screen, using the [**action button**](../../Common/UI/ActionButton.md)
-- From a published [**Offer**](Offers.md), via *Linked documents → + Sales order* 
-
-Example:
+- Directly from the **Sales orders** screen using the [**action button**](../../Common/UI/ActionButton.md)
+- From a published [**Offer**](Offers.md), via *Linked documents → + Sales order*. In this case, most fields — such as the customer, delivery information, and detail items — are automatically pre-filled based on the offer.
 
 ![Create sales order from offer](../Assets/SalesOrdersOfferLink.png "Create sales order from offer")
 
-### Editing a Sales order
+Once you start a new Sales order, follow these steps:
+
+1. Click the **+** button to create a new Sales order.  
+2. Enter the **Customer**, **Document date**, and **Delivery date** (or review them if pre-filled).  
+3. Add items in the **Details** section by scanning or selecting materials (or review the pre-filled lines if the order was created from an Offer).  
+4. Review or adjust delivery information in the **Delivery** section.  
+5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
+6. When ready, click **Publish** at the top of the page.
+
+Once published, the Sales order moves into the **Commited → Available** state, enabling all related actions such as creating Delivery notes, Production orders, Maintenance orders, or Issued invoices.
+
+
+### Editing a sales order
 
 The sales order is divided into multiple expandable sections.
 
@@ -130,6 +154,12 @@ Includes core fields:
 - Rebate  
 - Purchase order  
 
+#### Delivery section
+
+The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
+
+These values affect the printed document and follow-up logistics documents, but do not modify the master data.
+
 #### Details
 
 Details define the ordered items.
@@ -148,15 +178,16 @@ Payment method assignments appear at the bottom of the document.
 
 ![Sales order – Payment methods](../Assets/SalesOrdersNewBottom.png)
 
-### Publishing a Sales order
+### Publishing a sales order
 
-When the draft ready, click **Publish** on located on top of the page to commit the order. A commited sales order moves to the **Available** state and enables additional document actions.
+When the draft is ready, click **Publish** located at the top of the page to commit the order. A commited sales order moves to the **Available** state and enables additional document actions.
 
-**Available (published):**
+> [!NOTE]
+> When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Commited** group of states.
 
 ![Sales orders – Available](../Assets/SalesOrdersListAvailable.png)
 
-#### Completing a Sales order
+#### Completing a sales order
 
 Once the published sales order is finalized, for example, when a [**delivery note**](DeliveryNotes.md) or [**issued invoice**](IssuedInvoices.md) has been generated from a sales order, click **Complete**:
 

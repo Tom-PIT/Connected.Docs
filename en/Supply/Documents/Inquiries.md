@@ -15,7 +15,8 @@ A typical flow:
 
 
 > [!NOTE]  
-> Inquiries are not mandatory — Supply orders can also be created directly without a prior inquiry.
+> Inquiries are not mandatory — Supply orders can also be created directly without a prior inquiry. Your organization may follow all steps or only some of them, depending on the purchasing process.
+
 
 ## Schema
 
@@ -37,6 +38,16 @@ A typical flow:
 | **Supplier code** | Vendor’s internal material reference code (optional). |
 
 ## Management
+
+### Document states
+
+Documents move through several possible states during their lifecycle:
+
+- **Draft** – The inquiry is not yet published. All fields can be edited freely.
+- **Commited** – The inquiry has been published. It cannot be deleted or freely modified.
+    - **Available** – The inquiry is valid and ready for further processing.
+    - **In completion** – The inquiry is partially processed (e.g., partially converted or referenced).
+    - **Completed** – All actions related to the inquiry have been fully executed.
 
 ### List view
 
@@ -101,7 +112,6 @@ At the top of every document, an **Attachments** section is available.
 
 You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
-
 #### Linked documents
 
 The **Linked documents** section allows creation and tracking of dependent supply documents.
@@ -114,9 +124,13 @@ Available actions include:
 - **Add project** – Assign the inquiry to a project  
 - **+ Supply order** – Create a [Supply order](SupplyOrders.md) directly from the inquiry  
 
+> [!TIP]
+> When a Supply order is created from an Inquiry, most relevant fields are automatically pre-filled.
+
+
 ### Completing an inquiry
 
-Once the inquiry in the **Available** status is approved, click **Complete** in the edit  to finalize it. The document will now show on the **Complete** list.
+Once the inquiry in the **Available** state is approved, click **Complete** at the top of the page. The document will now show on the **Complete** list.
 
 ![Inquiries list – Complete](../Assets/InquiriesListCompleted.png "Inquiries list – Complete")
 

@@ -1,7 +1,6 @@
 ﻿# Supply orders
 
-A **Supply order** is the formal purchasing document used to confirm materials or services ordered from a vendor.  
-It defines *what* your organization will receive, *when*, and under *which conditions*, and is the basis for operational workflows such as material receiving and cost center allocation.
+A **Supply order** is the formal purchasing document used to confirm materials or services ordered from a vendor. It defines *what* your organization will receive, *when*, and under *which conditions*, and is the basis for operational workflows such as material receiving and cost center allocation.
 
 To access this page, navigate to **Supply / Documents / Supply orders** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -48,7 +47,23 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 | **Supplier code** | Vendor’s internal code/reference for the selected material. |
 | **Total cost** | Line total (quantity × net price − discount + tax). |
 
-## Indicators
+## Management
+
+### Document states
+
+Documents move through several possible states during their lifecycle:
+
+- **Draft** – The document is not yet published. All fields can be edited freely.
+- **Commited** – The document has been published. It cannot be deleted or freely modified.
+    - **Available** – The order is valid and ready for receiving.
+    - **In completion** – Some materials have been received (partial receiving).
+    - **Completed** – All materials have been received and the order is fully processed.
+
+### List view
+
+The list shows all supply orders with their current status and supply dates.
+
+![Supply orders list](../Assets/SupplyOrdersList.png)
 
 At the top of the Supply orders list, the system displays two key indicators summarizing the currently filtered data.
 
@@ -56,14 +71,6 @@ At the top of the Supply orders list, the system displays two key indicators sum
 
 - **Over the supply date** (interactive) – Supply orders whose planned supply date has passed and are not yet fully received. Clicking this indicator automatically filters the list to show only such orders.
 - **Total amount** – Displays the total value (net + tax) of all supply orders included in the active filter.
-
-## Management
-
-### List view
-
-The list shows all supply orders with their current status and supply dates.
-
-![Supply orders list](../Assets/SupplyOrdersList.png)
 
 Filters include:
 
@@ -81,14 +88,26 @@ Filters include:
 
 ## Actions
 
-### Creating a new Supply order
+### Creating a new supply order
 
 Supply orders can be created:
 
 - Directly from the **Supply orders** screen using the [**action button**](../../Common/UI/ActionButton.md)
-- From a published [**Inquiry**](Inquiries.md) via *Linked documents → + Supply order*
+- From a published [**Inquiry**](Inquiries.md) via *Linked documents → + Supply order*. In this case, most fields — such as the vendor, delivery information, and detail items — are automatically pre-filled based on the inquiry.
 
 ![New supply order](../Assets/SupplyOrderNew.png)
+
+Once you start a new Supply order, follow these steps:
+
+1. Click the **+** button to create a new Supply order.  
+2. Enter the **Vendor**, **Document date**, and **Supply date** (or review them if pre-filled).  
+3. Add items in the **Details** section by scanning or selecting materials (or review the pre-filled lines if the order was created from an Inquiry).  
+4. Review or adjust delivery information in the **Delivery** section.  
+5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
+6. When ready, click **Publish** at the top of the page.
+
+Once published, the Supply order moves into the **Commited → Available** state, enabling all related actions such as creating Receive documents.
+
 
 #### Document section
 
@@ -103,6 +122,12 @@ The document contains the following fields:
 - Offer code  
 - Delivery  
 - Top content  
+
+### Delivery section
+
+The Delivery section defines where the ordered materials will be delivered. It is filled automatically from your company's delivery information, but the address can be adjusted for each purchase if needed.
+
+These values affect the printed supply order and the follow-up logistics documents (such as [Receive](../../Logistics/Documents/Receives.md) documents), but they do not modify the master data stored in the Business directory.
 
 #### Details
 
@@ -133,7 +158,7 @@ The bottom summary displays:
 - Tax  
 - Total cost  
 
-### Editing a Supply order
+### Editing a supply order
 
 Click any supply order in the list to open it.  
 Draft supply orders can be edited freely.
@@ -154,7 +179,6 @@ At the top of every document, an **Attachments** section is available.
 
 You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
-
 #### Linked documents
 
 The **Linked documents** section allows creating and linking operational documents to a supply order.
@@ -164,7 +188,7 @@ The **Linked documents** section allows creating and linking operational documen
 Available actions include:
 
 - **Add project** – Add project to supply order  
-- [**+ Empty receive**](../../Logistics/Documents/Receives.md) – Create an pre-created draft receive document, ready to be updated when the actual delivery arrives 
+- [**+ Empty receive**](../../Logistics/Documents/Receives.md) – Create an empty receive document, ready to be updated when the actual delivery arrives
 - [**+ Full receive**](../../Logistics/Documents/Receives.md) – Create a full receive document (with **all** or **part** of the materials) and link it  
 - [**Receive**](../../Logistics/Documents/Receives.md) – Link an existing receive draft to the supply order  
 - **Add task** – Add task to supply order  
@@ -172,12 +196,10 @@ Available actions include:
 
 ### Completing a Supply order
 
-A supply order is automatically moved to **Completed** when:
+Once all materials have been fully received, the Supply order is automatically moved to the **Completed** state.  
 
-- All materials have been fully received  
-- A *full receive* operation covers the entire quantity  
+If only part of the materials are received, the document remains in the **Available** state.
 
-Partially received supply orders remain in **Available** state.
 
 ## Menu
 
