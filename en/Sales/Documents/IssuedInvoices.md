@@ -49,6 +49,21 @@ Invoices can also be created manually as stand-alone documents when required.
 
 ## Management
 
+### Document states
+
+Issued invoices use payment-based workflow states:
+
+- **Draft** – The invoice is not yet published. All fields can be edited freely.
+
+- **Commited** – The invoice has been published and is now an official financial document. Once commited, only limited fields can be changed, and the document cannot be deleted.
+
+    - **Unpaid invoices** – The invoice has been issued but no payments have been recorded.  
+    - **Partially paid invoices** – One or more payments have been recorded, but an outstanding amount remains.  
+    - **Fully paid invoices** – The invoice has been completely settled; no outstanding amount remains.
+    - **Reversed** – A reversal document has been created to correct or cancel the invoice.
+
+These states determine what actions are available (payment recording, reversal, exporting, etc.) and how the invoice appears in the list views.
+
 ### List view
 
 The list view shows all invoices that match the selected filters and date ranges.
@@ -97,7 +112,7 @@ In this case, the customer, delivery data, and line details are pre-filled from 
 
 ### Editing an issued invoice
 
-Click any issued invoice in the list to open it. Draft offers can be edited freely. The Documents is divided into multiple expandable sections. 
+Click any issued invoice in the list to open it. Draft invoices can be edited freely. The document is divided into multiple expandable sections. 
 
 While the invoice is in **Draft** status you can edit all sections:
 
@@ -113,7 +128,7 @@ While the invoice is in **Draft** status you can edit all sections:
 
 At the top of every document, an **Attachments** section is available. 
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records.All attached files remain stored together with the document and can be reviewed at any time.
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
 #### Linked documents
 
@@ -130,7 +145,7 @@ Example for a new draft document:
 
 Available actions may include:
 
-- **Issued invoice** - Copy curret document to a new issued invoice
+- **Issued invoice** - Copy current document to a new issued invoice
 - [**+ Credit note**](CreditNotes.md) - Create a credit note
 - [**+ Debit note**](DebitNotes.md) - Create a debit note
 - [**Delivery note**](DeliveryNotes.md) - Link to an exiting delivery note.
@@ -138,7 +153,7 @@ Available actions may include:
 
 ### Publishing an invoice
 
-When you are ready, click **Publish** to commit the invoice.
+When you are ready, click **Publish** to confirm the invoice and move it out of the **Draft** state. Once published, all related invoice actions become available.
 
 ### Recording payments
 

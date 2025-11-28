@@ -12,7 +12,7 @@ Delivery notes act as the bridge between the commercial and warehouse processes:
 
 1. A customer confirms an order → a [**Sales order**](SalesOrder.md) is created.  
 2. From the sales order, a user generates a **Delivery note** via *Linked documents → + Delivery note*.  
-3. Once the delivery note is prepared, an [**Issue**](../../Logistics/Documents/Issues.md) is created and linked (full or partial delivery).  
+3. Once the delivery note is ready, an [**Issue**](../../Logistics/Documents/Issues.md) is created and linked (full or partial delivery).  
 4. After delivery, the process continues toward [**Issued invoice**](IssuedInvoices.md) creation.
 
 Delivery notes can also be copied, linked to existing issues or projects, or used to trigger production or maintenance tasks.
@@ -25,7 +25,7 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 | **Customer** | Delivery recipient, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the delivery note is created. |
 | **Delivery date** | Date when the delivery is planned to occur (mandatory). |
-| **Delivery – Company / Address** | Customer delivery details taken from the Business directory. |
+| **Delivery – Company / Address** | Customer delivery details taken from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
 | **Content top** | Optional predefined introductory text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Delivery note*). |
 | **Details** | This section lists all items included in the delivery (mandatory). | 
 | **Content bottom** | Optional closing or legal text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Delivery note*). |
@@ -41,15 +41,26 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 ## Management
 
+### Document states
+
+Delivery notes use a simplified set of workflow states:
+
+- **Available** – The delivery note is created and ready for processing. This state functions similarly to a *draft* in other document types. The document has not yet generated an [**Issue**](../../Logistics/Documents/Issues.md), and all quantities can still be edited.
+
+- **In completion** – The delivery note has been partially processed. This usually occurs when an [**Issue**](../../Logistics/Documents/Issues.md) has been created for only part of the delivered goods, or if the delivery has not yet been completed.
+
+- **Completed** – All actions related to the delivery note have been fully executed. The delivery note cannot be modified further but can still be printed, exported, or used to generate an invoice.
+
+
 ### List view
 
 The Delivery notes list shows all documents separated by:
 
-- **Available**
+- **Available** 
 - **In completion**
-- **Completed**
+- **Completed** 
 - **All**
-- **Reversed** (Reversal state)
+- **[Reversed](../../Logistics/Documents/Reversals.md** (Reversal state)
 
 **Indicators displayed at the top:**
 
@@ -67,7 +78,7 @@ These indicators update automatically based on selected filters (Document dates,
 
 ## Actions
 
-### Creating a new Delivery note
+### Creating a new delivery note
 
 Delivery notes can be created in two ways:
 
@@ -79,9 +90,9 @@ Example of an empty Delivery note draft:
 
 ![Delivery note new](../Assets/DeliveryNoteNew.png)
 
-### Editing a Delivery note
+### Editing a delivery note
 
-Click on an **unpublished delivery note** to edit its details. The document is divided into expandable sections that can be edited:
+Click on an Delivery note to edit its details. The document is divided into expandable sections that can be edited:
 
 - Attachments
 - Linked documents
@@ -90,6 +101,9 @@ Click on an **unpublished delivery note** to edit its details. The document is d
 - Content top
 - Details
 - Content bottom
+
+> [!NOTE]
+> The amount of sections can be edited depends on the Delivery note status
 
 #### Attachments
 
@@ -122,7 +136,7 @@ Available actions of delivery notes in the **available** status include:
 
 ### Completing a Delivery note
 
-When the delivery note is ready, click **Complete** at the top of the page.
+Once the delivery note is ready, click **Complete** at the top of the page.
 
 ## Menu
 

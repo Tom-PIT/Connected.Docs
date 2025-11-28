@@ -43,6 +43,16 @@ A typical flow:
 
 ## Management
 
+### Document states
+
+Documents move through several possible states during their lifecycle:
+
+- **Draft** – The document is not yet published. All fields can be edited freely.
+- **Commited** – The document has been published. It cannot be deleted or freely modified.
+    - **Available** – The document is valid and ready for further processing.
+    - **In completion** – The document is partially processed (e.g., partially delivered or received).
+    - **Completed** – All actions related to the document have been fully executed.
+
 ### List view
 
 The Offers list provides an overview of all quotations, separated into **Drafts**, **Available**, **In completion**, and **Completed**.  
@@ -65,11 +75,11 @@ An example of a list with **Completed** offers:
 
 ## Actions
 
-### Creating a new Offer
+### Creating a new offer
 
 1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft offer.  
 
-2. Fill in the [**Customer**](../../Common/CodeLists/BusinessDirectory.md), **Expiration date**, and **Rabate** (optional) fields.
+2. Fill in the [**Customer**](../../Common/CodeLists/BusinessDirectory.md), **Expiration date**, and **Rebate** (optional) fields.
 
     ![New offer top](../Assets/OfferNewTop.png)
 
@@ -86,13 +96,17 @@ An example of a list with **Completed** offers:
 
    ![Offer bottom](../Assets/OfferNewBottom.png)
 
-6. When ready, click **Publish** on located on top of the page to finalize the offer. A published offer moves to the **Available** state and enables additional document actions.
+6. When ready, click **Publish** located at the top of the page to finalize the offer. This moves the document to the **Available** state and enables additional document actions.
 
     ![Offers available](../Assets/OfferListAvailable.png)
 
+> [!NOTE]
+> When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Commited** group of states.
+
+
 ### Editing an offer
 
-Click any offer in the list to open it. Draft offers can be edited freely. The Documents is divided into multiple expandable sections. 
+Click any offer in the list to open it. Draft offers can be edited freely. The Document is divided into multiple expandable sections. 
 
 Published offers allow limited modifications depending on system configuration.
 
@@ -118,25 +132,28 @@ Common actions include:
 
 ![Linked documents](../Assets/OfferPublishedLinkedDocuments.png)
 
+#### Delivery section
+
+The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
+
+These values affect the printed document and follow-up logistics documents, but do not modify the master data.
+
 ### Completing an offer
 Once the offer in the **Available** status is ready, click on **Complete**.
 
 ![Offers Complete Button](../Assets/OffersCompleteButton.png)
 
 > [!NOTE]
-> An offer is also automatically moved to the **completed** status when a new [**Sales order**](SalesOrder.md) is created from directly from it using the **Linked documents** action.
-
+> An offer is also automatically moved to the **completed** status when a new [**Sales order**](SalesOrder.md) is created directly from it using the **Linked documents** action.
 
 ## Menu
 
-Once published, the top menu provides options for: 
+The top menu provides options for: 
 - Printing
 - Exporting (to PDF)
 - Sending the document via email (only for commited documents)
 
 ![Offers menu](../Assets/OffersMenu.png)
-
-
 
 ## Deletion
 
