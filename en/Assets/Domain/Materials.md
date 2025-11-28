@@ -1,36 +1,30 @@
 # Materials
 
-The **Materials** section contains all records related to items used internally in logistics, production, and stock management.  
-Unlike *assets*, which represent **commercial items** offered or sold to customers, materials represent **operational items**—the components, packaging, and intermediate products needed to manufacture or handle assets.
+Materials represent the operational items your organization uses in logistics, production, stock management, or assembly processes. They include finished products, partially produced items, raw inputs, and reusable components. Additional code lists help define packaging, measurement units, and bulk import functions.
 
-This section groups the different material categories your organization works with, making it easier to classify, price, and manage all components used throughout operational workflows.
+To access Materials, go to **Assets / Materials** in the [navigation](../../Common/UI/Navigation.md).
 
-To access the Materials section, navigate to **Assets / Materials** in the [navigation](../../Common/UI/Navigation.md).
+![Materials Overview](../Assets/MaterialsSitemap.png "Materials overview")
 
-![Assets Overview](../Assets/MaterialsSitemap.png "Assets overview")
+## Material categories
 
-## What is included in the Materials section?
+The Materials section contains four primary code lists, which represent the main types of materials managed in operational workflows:
 
-The section is organized into multiple material categories:
+- **[Products](CodeLists/Products.md)** – Finished goods produced internally or purchased as ready-to-use items. Products participate in stock and logistics flows.
+- **[Semi products](CodeLists/SemiProducts.md)** – Items that represent partially completed goods used as intermediate components in production.
+- **[Raw materials](CodeLists/RawMaterials.md)** – Basic input materials used at the earliest stages of production, such as wood, metal sheets, or other fundamental components.
+- **[Repro materials](CodeLists/ReproMaterials.md)** – Returnable or auxiliary components used to support production or internal activities.
 
-- **[Products](CodeLists/Products.md)** — Finished materials that represent the end result of internal production processes. Products may be used inside assets or logistics workflows.
+![Materials Subdomain](../Assets/MaterialsSubdomain.png "Materials subdomain")
 
-- **[Semi products](CodeLists/SemiProducts.md)** — Items that are partially completed during production. Semi products serve as intermediate building blocks for finished products or assets.
+## Additional material-related code lists
 
-- **[Raw materials](CodeLists/RawMaterials.md)** — Basic input materials used at the early stages of production (e.g., wood planks, metal sheets, grains).
+These code lists support the management and definition of the four primary material types:
 
-- **[Repro materials](CodeLists/ReproMaterials.md)** — Returnable or reusable items such as crates, bottles, or pallets that circulate across production or logistics processes.
-
-- **[Import materials](CodeLists/ImportMaterials.md)** — Materials procured through import procedures, typically tied to customs or international sourcing.
-
-- **[Packaging](CodeLists/Packaging.md)** — Packaging units (boxes, pallets, containers, bags) used for storing, shipping, or bundling goods.
-
-- **[Alternative measure units](CodeLists/AlternativeMeasureUnits.md)** — Additional measurement units (e.g., pcs, kg, m²) assigned to a material that may require conversion from its base measure unit.
-
-- **[Material price lists](CodeLists/MaterialPriceLists.md)** — Price definitions for materials, used primarily in procurement and valuation processes.
-
-- **[Sets](CodeLists/Sets.md)** — Predefined bundles of materials grouped logically for faster selection and operational efficiency.
-
-![Materials Navigation](../Assets/MaterialsSubdomain.png "Materials subdomain")
+- **[Packaging](CodeLists/Packaging.md)** – Defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units.
+- **[Import materials](CodeLists/ImportMaterials.md)** – Allows bulk importing of materials using a spreadsheet, useful when creating or updating multiple records at once.
+- **[Alternative measure units](CodeLists/AlternativeMeasureUnits.md)** – Additional measurement units that extend a material’s base unit (e.g., pieces, kilograms, square meters), including conversion settings.
+- **[Material price lists](CodeLists/MaterialPriceLists.md)** – Defines procurement prices used for purchasing and internal valuation.
+- **[Sets](CodeLists/Sets.md)** – Predefined bundles of materials grouped together for easier selection in logistics or production tasks.
 
 ---
