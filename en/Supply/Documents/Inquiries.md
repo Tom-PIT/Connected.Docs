@@ -22,7 +22,7 @@ A typical flow:
 
 | Field | Description |
 |-------|-------------|
-| **Code** | System-generated identifier of the inquiry. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the inquiry. |
 | **Vendor** | Vendor receiving the inquiry, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the inquiry is created. |
 | **Validity date** | Deadline by which the inquiry is valid (similar to an expiration date). |

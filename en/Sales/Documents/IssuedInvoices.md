@@ -19,7 +19,7 @@ Invoices can also be created manually as stand-alone documents when required.
 
 | Field | Description |
 |-------|-------------|
-| **Code** | Unique identifier of the invoice (system-generated). |
+| [**Code**](../../Common/UI/DocumentCodes.md) | Unique identifier of the invoice (system-generated). |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
 | **Customer** | Customer receiving the invoice, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the invoice is issued. |

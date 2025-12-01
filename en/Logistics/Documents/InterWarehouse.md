@@ -15,7 +15,7 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 
 | Field | Description |
 |-------|-------------|
-| **Code** | System-generated unique identifier for the inter warehouse document. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the inter warehouse document. |
 | **Document date** | Date when the transfer is registered. |
 | [**Source warehouse**](../CodeLists/Warehouses.md) | Warehouse from which the materials will be removed. |
 | **[**Destination warehouse**](../CodeLists/Warehouses.md)** | Warehouse where the materials will be received. |

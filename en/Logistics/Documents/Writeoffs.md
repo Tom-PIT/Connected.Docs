@@ -15,7 +15,7 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 
 | Field | Description |
 |-------|-------------|
-| **Code** | System-generated unique identifier for the writeoff document. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the writeoff document. |
 | **Document date** | Date when the writeoff is recorded. |
 | [**Warehouse**](../CodeLists/Warehouses.md) | The warehouse from which items are being written off (mandatory). |
 | **Reason** | Description of why the material is being removed (damage, loss, expiration, etc.). |
