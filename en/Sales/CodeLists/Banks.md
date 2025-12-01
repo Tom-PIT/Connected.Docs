@@ -6,7 +6,7 @@ To access Banks, go to **Sales / Management / Banks** in the [navigation](../../
 
 > [!NOTE]  
 > **Prerequisites**  
-> Before managing bank records, ensure that the [Countries](../../Common/CodeLists/Countries.md) code list is properly configured.  
+> Before managing bank records, ensure that the [**Countries**](../../Common/CodeLists/Countries.md) code list is properly configured.  
 
 ## Schema
 
