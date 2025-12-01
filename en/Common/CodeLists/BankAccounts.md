@@ -14,7 +14,7 @@ Bank accounts appear as a tag inside each Business directory entry:
 
 | Field | Description |
 |-------|-------------|
-| **Bank** | The financial institution providing the account. Selected from the [**Banks**](Banks.md) code list (mandatory). |
+| [**Bank**](Banks.md) | The financial institution providing the account. Selected from the **Banks** code list (mandatory). |
 | **IBAN** | Full international bank account number (mandatory). |
 | **Active** | Indicates whether the account can be used on documents. |
 | **Use mask** | Formats the IBAN visually (spaces and grouping) without changing its value. |

@@ -47,7 +47,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Quantity** | Quantity of the selected asset. |
 | **Net price (per unit)** | Unit price applied (from asset settings or price lists). |
 | **Discount (%)** | Line-specific discount. |
-| **Tax rate** | Applied tax percentage from [Tax rates](../CodeLists/TaxRates.md). |
+| **[Tax rates](../CodeLists/TaxRates.md)** | Applied tax percentage. |
 | **Value** | Final line value (quantity × price − discount). |
 
 ## Management
