@@ -20,9 +20,9 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [navigat
 
 | Field | Description |
 |-------|-------------|
-| **Document type** | Type of document being reversed (Receive, Issue, Writeoff, Inter warehouse). |
+| **Document type** | Type of document being reversed ([receive](receives.md), [issue](Issues.md), [writeoff](Writeoffs.md), [inter warehouse](InterWarehouse.md)). |
 | **Code** | Identifier of the reversed document (clickable). |
-| **Warehouse** | Warehouse where the original document was executed. |
+| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the original document was executed. |
 | **Document date** | Date of the original document. |
 
 ### Document section

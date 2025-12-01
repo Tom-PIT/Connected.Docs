@@ -25,8 +25,8 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 |-------|-------------|
 | **Code** | System-generated unique identifier for the receive document. |
 | **Document date** | Date when the goods were physically received. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the materials are being received. |
-| **Vendor** | Supplier delivering the goods. |
+| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the materials are being received (mandatory). |
+| **Vendor** | Supplier delivering the goods, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | [**Supply order**](../../Supply/Documents/SupplyOrder.md) | (Optional) Linked supply order. |
 | **Notes** | Additional remarks related to the document. |
 
