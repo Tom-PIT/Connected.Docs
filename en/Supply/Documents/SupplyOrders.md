@@ -95,21 +95,48 @@ Supply orders can be created:
 - Directly from the **Supply orders** screen using the [**action button**](../../Common/UI/ActionButton.md)
 - From a published [**Inquiry**](Inquiries.md) via *Linked documents → + Supply order*. In this case, most fields — such as the vendor, delivery information, and detail items — are automatically pre-filled based on the inquiry.
 
-![New supply order](../Assets/SupplyOrderNew.png)
-
 Once you start a new Supply order, follow these steps:
 
 1. Click the **+** button to create a new Supply order.  
-2. Enter the **Vendor**, **Document date**, and **Supply date** (or review them if pre-filled).  
-3. Add items in the **Details** section by scanning or selecting materials (or review the pre-filled lines if the order was created from an Inquiry).  
+2. Enter the **Vendor**, **Document date**, and **Supply date** (or review them if pre-filled from a inquiry document).  
+
+   ![New supply order](../Assets/SupplyOrderNew.png)
+
+3.  Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar (or review them if pre-filled).  
+   - The system displays **all matching materials and serial numbers**.  
+   
+     ![Saved detail](../Assets/SupplyOrderNewDetailsSaved.png)
+
 4. Review or adjust delivery information in the **Delivery** section.  
 5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
 6. When ready, click **Publish** at the top of the page.
 
 Once published, the Supply order moves into the **Commited → Available** state, enabling all related actions such as creating Receive documents.
 
+#### Attachments
+
+At the top of every document, an **Attachments** section is available. 
+
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+
+#### Linked documents
+
+The **Linked documents** section allows creating and linking operational documents to a supply order.
+
+![Linked documents](../Assets/SupplyOrderLinkedDocuments.png)
+
+Available actions include:
+
+- **Add project** – Add project to supply order  
+- [**+ Empty receive**](../../Logistics/Documents/Receives.md) – Create an empty receive document, ready to be updated when the actual delivery arrives
+- [**+ Full receive**](../../Logistics/Documents/Receives.md) – Create a full receive document (with **all** or **part** of the materials) and link it  
+- [**Receive**](../../Logistics/Documents/Receives.md) – Link an existing receive draft to the supply order  
+- **Add task** – Add task to supply order  
+- **Copy supply order** – Duplicate the supply order with its contents
 
 #### Document section
+
+![New supply order](../Assets/SupplyOrderNew.png)
 
 The document contains the following fields:
 
@@ -123,7 +150,7 @@ The document contains the following fields:
 - Delivery  
 - Top content  
 
-### Delivery section
+#### Delivery section
 
 The Delivery section defines where the ordered materials will be delivered. It is filled automatically from your company's delivery information, but the address can be adjusted for each purchase if needed.
 
@@ -148,15 +175,13 @@ Fields include:
 - Supplier code  
 - Discount (%)  
 
-##### Saved detail
-
-![Saved detail](../Assets/SupplyOrderNewDetailsSaved.png)
-
 The bottom summary displays:
 
 - Net price  
 - Tax  
 - Total cost  
+
+![Saved detail](../Assets/SupplyOrderNewDetailsSaved.png)
 
 ### Editing a supply order
 
@@ -172,27 +197,6 @@ Expandable sections:
 - Top content  
 - Details  
 - Bottom content  
-
-#### Attachments
-
-At the top of every document, an **Attachments** section is available. 
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
-
-#### Linked documents
-
-The **Linked documents** section allows creating and linking operational documents to a supply order.
-
-![Linked documents](../Assets/SupplyOrderLinkedDocuments.png)
-
-Available actions include:
-
-- **Add project** – Add project to supply order  
-- [**+ Empty receive**](../../Logistics/Documents/Receives.md) – Create an empty receive document, ready to be updated when the actual delivery arrives
-- [**+ Full receive**](../../Logistics/Documents/Receives.md) – Create a full receive document (with **all** or **part** of the materials) and link it  
-- [**Receive**](../../Logistics/Documents/Receives.md) – Link an existing receive draft to the supply order  
-- **Add task** – Add task to supply order  
-- **Copy supply order** – Duplicate the supply order with its contents
 
 ### Completing a Supply order
 

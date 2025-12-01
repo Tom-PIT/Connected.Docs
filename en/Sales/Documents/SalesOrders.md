@@ -97,13 +97,20 @@ Sales orders can be created in two ways:
 - Directly from the **Sales orders** screen using the [**action button**](../../Common/UI/ActionButton.md)
 - From a published [**Offer**](Offers.md), via *Linked documents → + Sales order*. In this case, most fields — such as the customer, delivery information, and detail items — are automatically pre-filled based on the offer.
 
-![Create sales order from offer](../Assets/SalesOrdersOfferLink.png "Create sales order from offer")
+  ![Create sales order from offer](../Assets/SalesOrdersOfferLink.png "Create sales order from offer")
 
 Once you start a new Sales order, follow these steps:
 
 1. Click the **+** button to create a new Sales order.  
 2. Enter the **Customer**, **Document date**, and **Delivery date** (or review them if pre-filled).  
-3. Add items in the **Details** section by scanning or selecting materials (or review the pre-filled lines if the order was created from an Offer).  
+
+   ![Sales order – Document](../Assets/SalesOrdersNewTop.png)
+
+3. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar (or review them if pre-filled).  
+   - The system displays **all matching materials and serial numbers**.
+
+   ![Sales order – Add detail](../Assets/SalesOrdersNewDetails.png)
+
 4. Review or adjust delivery information in the **Delivery** section.  
 5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
 6. When ready, click **Publish** at the top of the page.
