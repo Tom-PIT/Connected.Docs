@@ -8,7 +8,7 @@ The **Business directory** contains all companies and individuals your organizat
 | Field | Description |
 |-------|--------------|
 | **Name** | Full name of the entity, for example **ACME d.o.o.** or **John Smith** (mandatory). |
-| **Code** | Internal code that ensures unique identification. |
+| **Code** | Internal code that ensures unique identification. For example, you might use **COK** for *Coca-Cola* or **ACM** for *ACME d.o.o.*. |
 | **Active** | Indicates whether the entry is active. Inactive entries cannot be used in new documents. |
 | **Vendor** | Checkbox indicating whether the entity acts as a vendor. |
 | **Customer** | Checkbox indicating whether the entity acts as a customer. |

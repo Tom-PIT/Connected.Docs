@@ -8,7 +8,7 @@ This page is available in the **Sales** and **Supply** domains, to access it go 
 
 | Field | Description |
 |-------|-------------|
-| **Code** | Short internal identifier for the cost center (mandatory). |
+| **Code** | Short internal identifier for the cost center (mandatory). For example, **HR** for Human Resources. |
 | **Name** | Full descriptive name of the cost center (mandatory). |
 
 ## Management
