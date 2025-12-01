@@ -21,7 +21,7 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 | Field | Description |
 |-------|-------------|
-| **Code** | System-generated identifier of the delivery note. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the delivery note. |
 | **Customer** | Delivery recipient, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the delivery note is created. |
 | **Delivery date** | Date when the delivery is planned to occur (mandatory). |

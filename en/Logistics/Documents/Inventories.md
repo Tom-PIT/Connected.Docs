@@ -15,7 +15,7 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 
 | Field | Description |
 |-------|-------------|
-| **Serial number** | System-generated unique identifier for the inventory document. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the inventory document. |
 | **Document date** | Date when the inventory count is performed or recorded. |
 | [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the inventory verification is taking place. |
 | [**Location**](../CodeLists/Locations.md) | Specific location within the selected warehouse that is being verified. |

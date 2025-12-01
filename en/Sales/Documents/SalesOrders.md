@@ -28,7 +28,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 | Field | Description |
 |-------|-------------|
-| **Code** | System-generated identifier of the sales order. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the sales order. |
 | **Customer** | Customer receiving the order, taken from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the sales order is created. |
 | **Delivery date** | Expected delivery date for the order (mandatory). |

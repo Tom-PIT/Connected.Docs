@@ -18,7 +18,7 @@ A typical flow:
 
 | Field | Description |
 |-------|-------------|
-| **Code** | System-generated identifier of the offer. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the offer. |
 | **Customer** | The customer receiving the quotation, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the offer is created. |
 | **Expiration date** | Validity date of the offer (mandatory). |

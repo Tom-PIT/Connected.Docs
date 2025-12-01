@@ -21,7 +21,7 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 
 | Field | Description |
 |-------|-------------|
-| **Code** | System-generated identifier of the supply order. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the supply order. |
 | **Vendor** | Vendor providing the materials or services, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
 | **Document date** | Date when the supply order is created. |
 | **Supply date** | Planned supply or delivery date for the requested materials (mandatory). |
