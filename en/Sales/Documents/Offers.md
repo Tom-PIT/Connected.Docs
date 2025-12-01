@@ -10,7 +10,7 @@ To access this page, go to **Sales / Documents / Offers** in the [navigation](..
 A typical flow:
 
 1. Create an **Offer** and send it to the customer.  
-2. When approved, convert it into a [**Sales order**](SalesOrder.md) using the [**Linked documents**](#linked-documents) section.  
+2. When approved, convert it into a [**Sales order**](SalesOrders.md) using the [**Linked documents**](#linked-documents) section.  
 3. From the sales order, continue the operational workflow—production, purchasing, delivery, etc.  
 4. Eventually, generate a [**Delivery note**](DeliveryNotes.md), and finally an [**Issued invoice**](IssuedInvoices.md).
 
