@@ -1,10 +1,13 @@
 # Assets
 
-The **Assets** domain contains all records related to the goods and services your company offers and prices—whether for sales, internal use, or catalog presentation.  
+The **Assets** domain contains all records related to the goods and services your company offers and prices—whether for sales, internal use, or catalog presentation.
 
-Assets differ from *materials* in that assets are **commercial items**: they represent what is sold to customers, while materials represent what is used internally in production or stock processes.
+Assets differ from *materials* in that assets are **commercial items**: they represent what is sold to customers, while materials represent what is used internally in production or stock processes.  
+
+For example, an **asset** might be a *Complete Laptop Set* sold as a packaged offering that includes a laptop, a carrying bag, and a mouse. The individual parts of that set—such as the **mouse**, the **laptop**, or even the internal **chips** inside the laptop—would be considered **materials**, because they are components used to build, assemble, or support the final commercial product. See the comparison [Assets vs. Materials](#assets-vs-materials) for more information.
 
 This domain groups together all elements needed to define, price, and organize your asset catalog.
+
 
 To access the Assets domain, navigate to **Assets** in the [navigation](../../Common/UI/Navigation.md).
 
