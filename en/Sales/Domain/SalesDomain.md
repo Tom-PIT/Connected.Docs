@@ -1,7 +1,6 @@
 # Sales
 
-The **Sales** domain contains all records and documents needed to manage commercial transactions with customers.  
-It includes offers, sales orders, delivery notes, invoices, and analytical views used to understand sales performance and document flows.
+The **Sales** domain contains all records and documents needed to manage commercial transactions with customers. It includes offers, sales orders, delivery notes, invoices, and analytical views used to understand sales performance and document flows.
 
 Where the **[Assets](../../Assets/Domain/AssetsDomain.md)** domain defines *what* is sold, the Sales domain defines *how* it is offered, confirmed, delivered, and billed.
 
@@ -69,9 +68,9 @@ Available configuration and code lists include:
 
 - **Configuration** – Global sales settings and behavior rules.  
 - **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Customer and partner records used throughout sales documents.  
-- **[Banks](../../Common/CodeLists/Banks.md)** – Bank definitions used on invoices and payment instructions.  
-- **[Payment methods](../../Common/CodeLists/PaymentMethods.md)** – Methods used for settling sales invoices.  
-- **[Organization bank accounts](../../Common/CodeLists/OrganizationBankAccounts.md)** – Internal bank accounts used for outgoing billing.  
+- **[Banks](../CodeLists/Banks.md)** – Bank definitions used on invoices and payment instructions.  
+- **[Payment methods](../CodeLists/PaymentMethods.md)** – Methods used for settling sales invoices.  
+- **[Organization bank accounts](../CodeLists/OrganizationBankAccounts.md)** – Internal bank accounts used for outgoing billing.  
 - **[Countries](../../Common/CodeLists/Countries.md)** – Geographic entries used on customer records and documents.  
 - **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Consistent measurement units used in commercial documents.  
 - **[Cost centers](../../Common/CodeLists/CostCenters.md)** – Classification of sales and revenue by cost center.  
@@ -79,8 +78,8 @@ Available configuration and code lists include:
 - **[Exchange rates](../../Common/CodeLists/ExchangeRates.md)** – Daily or periodic exchange rates used for currency conversion.  
 - **[Predefined texts](../../Common/CodeLists/PredefinedTexts.md)** – Standardized text blocks used throughout sales documents.  
 - **[Tax rates](../../Common/CodeLists/TaxRates.md)** – Definitions of VAT and tax rates used in invoicing.  
-- **[Clause templates for delivery notes](../Common/CodeLists/ClauseTemplatesDeliveryNotes.md)** – Predefined clauses for delivery documentation.  
-- **[Clause templates for issued invoices](../Common/CodeLists/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.
+- **[Clause templates for delivery notes](../CodeLists/ClauseTemplatesDeliveryNotes.md)** – Predefined clauses for delivery documentation.  
+- **[Clause templates for issued invoices](../CodeLists/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.
 
 hese elements define how sales operations behave and how commercial data is structured.
 
