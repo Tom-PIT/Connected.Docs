@@ -10,7 +10,7 @@ To access this page, go to **Sales / Documents / Delivery notes** in the [naviga
 
 Delivery notes act as the bridge between the commercial and warehouse processes:
 
-1. A customer confirms an order → a [**Sales order**](SalesOrder.md) is created.  
+1. A customer confirms an order → a [**Sales order**](SalesOrders.md) is created.  
 2. From the sales order, a user generates a **Delivery note** via *Linked documents → + Delivery note*.  
 3. Once the delivery note is ready, an [**Issue**](../../Logistics/Documents/Issues.md) is created and linked (full or partial delivery).  
 4. After delivery, the process continues toward [**Issued invoice**](IssuedInvoices.md) creation.
