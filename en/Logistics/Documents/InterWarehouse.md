@@ -17,8 +17,8 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 |-------|-------------|
 | **Code** | System-generated unique identifier for the inter warehouse document. |
 | **Document date** | Date when the transfer is registered. |
-| **Source warehouse** | Warehouse from which the materials will be removed. |
-| **Destination warehouse** | Warehouse where the materials will be received. |
+| [**Source warehouse**](../CodeLists/Warehouses.md) | Warehouse from which the materials will be removed. |
+| **[**Destination warehouse**](../CodeLists/Warehouses.md)** | Warehouse where the materials will be received. |
 | **Notes** | Additional remarks related to the document. |
 
 ### Detail section
@@ -28,8 +28,8 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 | [**Material**](../../Assets/Domain/Materials.md) | The material being transferred ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
 | **Serial number** | The serial number of the unit being transferred. |
 | **Best before** | Expiration date (for materials with shelf life). |
-| **Source location** | Storage location in the source warehouse. |
-| **Destination location** | Storage location where the material will be placed. |
+| [**Source location**](../CodeLists/Locations.md) | Storage location in the source warehouse. |
+| [**Destination location**](../CodeLists/Locations.md) | Storage location where the material will be placed. |
 | **Quantity (pc)** | Quantity to be transferred. |
 
 ## List of inter warehouse documents
