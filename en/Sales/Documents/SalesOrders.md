@@ -194,11 +194,25 @@ When the draft is ready, click **Publish** located at the top of the page to com
 
 ![Sales orders – Available](../Assets/SalesOrdersListAvailable.png)
 
+Completing a sales order performs the following actions:
+
+- The document moves from _Available_ to _Completed_ state.
+  
+- Editing is restricted.
+
+- Most **Linked document** actions are disabled.
+
+> [!NOTE]
+> Completing a sales order is an administrative action that finalizes its lifecycle. It does **not** perform additional stock movements or financial postings — those occur in the linked delivery or invoice documents.
+
+
 #### Completing a sales order
 
 Once the published sales order is finalized, for example, when a [**delivery note**](DeliveryNotes.md) or [**issued invoice**](IssuedInvoices.md) has been generated from a sales order, click **Complete**:
 
 ![Complete button](../Assets/SalesOrdersCompleteButton.png)
+
+
 
 
 ## Menu
