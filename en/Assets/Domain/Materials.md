@@ -4,7 +4,7 @@ Materials represent the operational items your organization uses in logistics, p
 
 To access Materials, go to **Assets / Materials** in the [navigation](../../Common/UI/Navigation.md).
 
-![Materials Overview](../Assets/MaterialsSitemap.png "Materials overview")
+![Assets domain overview](../Assets/MaterialsSitemap.png "Assets domain overview")
 
 ## Material categories
 
