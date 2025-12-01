@@ -200,9 +200,18 @@ Expandable sections:
 
 ### Completing a Supply order
 
-Once all materials have been fully received, the Supply order is automatically moved to the **Completed** state.  
+A Supply order is considered complete when all materials have been fully received.
 
-If only part of the materials are received, the document remains in the **Available** state.
+Completing a supply order performs the following actions:
+
+- The document moves from **Available** to **Completed** state.  
+- Editing becomes restricted.  
+- Most **Linked document** actions are disabled (including creating additional Receives).  
+- Any remaining open quantities are treated as fully processed.
+
+> [!NOTE]
+> Completing a Supply order is an administrative action that finalizes its lifecycle. It does **not** perform additional stock movements — those occur in the linked Receive documents.
+
 
 
 ## Menu
