@@ -36,8 +36,8 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [navigat
 
 | Field | Description |
 |-------|-------------|
-| **Material** | Material being reversed. |
-| **Location** | Storage location of the reversed stock. |
+| [**Material**](../../Assets/Domain/Materials.md) | Material being reversed ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
+| [**Location**](../CodeLists/Locations.md) | Storage location of the reversed stock. |
 | **Source quantity** | Quantity originally processed in the reversed document. |
 | **Quantity (pc)** | Quantity to reverse — **editable**, used for partial or full reversal. |
 

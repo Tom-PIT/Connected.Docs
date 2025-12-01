@@ -33,7 +33,7 @@ A typical flow:
 
 | Field | Description |
 |--------|-------------|
-| [**Assets**](../../Assets/Assets/Assets.md) | Item or service being offered.  |
+| [**Asset**](../../Assets/Assets/Assets.md) | Item or service being offered.  |
 | **Delivery date** | Planned delivery date for this item. |
 | **Quantity** | Quantity of the asset. |
 | **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/Assets/AssetPriceLists.md). |

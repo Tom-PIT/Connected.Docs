@@ -24,7 +24,7 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 
 | Field | Description |
 |-------|-------------|
-| **Material** | The item being written off (product, semi product, raw material, or repro). |
+| [**Material**](../../Assets/Domain/Materials.md) | The item being written off ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
 | **Serial number** | Serial number of the affected unit. |
 | **Best before** | Expiration date (if applicable). |
 | [**Warehouse location**](../CodeLists/Locations.md) | Location where the material is stored. |

@@ -25,7 +25,7 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 
 | Field | Description |
 |-------|-------------|
-| **Material** | Material being issued (product, semi product, raw material, or repro). |
+| [**Material**](../../Assets/Domain/Materials.md) | Material being issued ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
 | **Serial number** | Selected serial number of the material being issued. |
 | **Best before** | Expiration date (if the material has shelf life). |
 | [**Warehouse location**](../CodeLists/Locations.md) | Current storage location of the selected item. |
