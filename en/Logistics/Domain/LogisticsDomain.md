@@ -1,7 +1,6 @@
 # Logistics
 
-The **Logistics** domain covers all warehouse-related operations within your organization.  
-It includes stock handling processes, warehouse structures, material movements, and all documentation needed to track the physical flow of goods.
+The **Logistics** domain covers all warehouse-related operations within your organization. It includes stock handling processes, warehouse structures, material movements, and all documentation needed to track the physical flow of goods.
 
 Where the **[Materials](../../Assets/Domain/Materials.md)** domain defines *what* exists in stock, the Logistics domain defines *where it is stored*, *how it moves*, and *how it is controlled*.
 
@@ -48,22 +47,22 @@ The **Documents** section contains all logistics-related transactions that **cha
 
 Available logistics documents include:
 
-- **[Receives](Documents/Receives.md)** – Register goods entering the warehouse (procurement, production outputs, customer returns).
-- **[Simple receive](Documents/SimpleReceive.md)** – A lightweight alternative for quick inbound registrations.
-- **[Issues](Documents/Issues.md)** – Register goods leaving the warehouse (consumption, delivery, production input).
-- **[Inter warehouse](Documents/InterWarehouse.md)** – Transfers goods between distinct warehouses or sites.
-- **[Move serial](Documents/MoveSerial.md)** – Relocate or adjust serial-numbered materials.
-- **[Inventories](Documents/Inventories.md)** – Perform stock counts and reconcile discrepancies.
-- **[Writeoffs](Documents/Writeoffs.md)** – Adjust stock for damaged, lost, or expired materials.
-- **[Loans](Documents/Loans.md)** – Track materials temporarily issued to personnel or external partners.
-- **[Consumptions](Documents/Consumptions.md)** – Record material consumption events.
-- **[Productions](Documents/Productions.md)** – Receive finished or semi-finished goods from production.
-- **[Reversals](Documents/Reversals.md)** – Reverse previous logistics documents.
-- **[Containers](Documents/Containers.md)** – Manage logistics containers, pallets, or grouped items.
-- **[Disassemblies](Documents/Disassemblies.md)** – Break down products into components returned to stock.
-- **[Corrections](Documents/Corrections.md)** – Manual corrections of stock records.
-- **[Move container](Documents/MoveContainer.md)** – Relocate containerized goods as units.
-- **[Material analysis](Documents/MaterialAnalysis.md)** – Perform diagnostics or quality checks on materials.
+- **[Receives](../Documents/Receives.md)** – Register goods entering the warehouse (procurement, production outputs, customer returns).
+- **[Simple receive](../Documents/SimpleReceive.md)** – A lightweight alternative for quick inbound registrations.
+- **[Issues](../Documents/Issues.md)** – Register goods leaving the warehouse (consumption, delivery, production input).
+- **[Inter warehouse](../Documents/InterWarehouse.md)** – Transfers goods between distinct warehouses or sites.
+- **[Move serial](../Documents/MoveSerial.md)** – Relocate or adjust serial-numbered materials.
+- **[Inventories](../Documents/Inventories.md)** – Perform stock counts and reconcile discrepancies.
+- **[Writeoffs](../Documents/Writeoffs.md)** – Adjust stock for damaged, lost, or expired materials.
+- **[Loans](../Documents/Loans.md)** – Track materials temporarily issued to personnel or external partners.
+- **[Consumptions](../Documents/Consumptions.md)** – Record material consumption events.
+- **[Productions](../Documents/Productions.md)** – Receive finished or semi-finished goods from production.
+- **[Reversals](../Documents/Reversals.md)** – Reverse previous logistics documents.
+- **[Containers](../Documents/Containers.md)** – Manage logistics containers, pallets, or grouped items.
+- **[Disassemblies](../Documents/Disassemblies.md)** – Break down products into components returned to stock.
+- **[Corrections](../Documents/Corrections.md)** – Manual corrections of stock records.
+- **[Move container](../Documents/MoveContainer.md)** – Relocate containerized goods as units.
+- **[Material analysis](../Documents/MaterialAnalysis.md)** – Perform diagnostics or quality checks on materials.
 
 Each of these documents contributes to the traceability and accuracy of warehouse operations.
 
@@ -92,12 +91,12 @@ The **Management** section contains configuration and master data required by al
 Available code lists and configuration screens:
 
 - **Configuration** – Logistics-wide settings and process behavior.
-- **[Business directory](../Common/CodeLists/BusinessDirectory.md)** – Defines internal and external business entities related to logistics.
+- **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Defines internal and external business entities related to logistics.
 - **[Warehouses](../CodeLists/Warehouses.md)** – Definitions of physical warehouses or distribution sites.
-- **[Countries](../Common/CodeLists/Countries.md)** – Geographic data supporting warehouse and partner records.
+- **[Countries](../../Common/CodeLists/Countries.md)** – Geographic data supporting warehouse and partner records.
 - **[Locations](../CodeLists/Locations.md)** – Storage positions inside warehouses (aisles, racks, bins).
 - **[Stock boundaries](../CodeLists/StockBoundaries.md)** – Logical constraints and special handling rules for selected materials or locations.
-- **[Measure units](../Common/CodeLists/MeasureUnits.md)** – Unified measurement units used across logistics documents.
+- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Unified measurement units used across logistics documents.
 - **[Material analysis](../CodeLists/MaterialAnalysis.md)** – Configuration supporting material inspection or validation processes.
 
 These elements define how logistics operations behave and how data is structured.
