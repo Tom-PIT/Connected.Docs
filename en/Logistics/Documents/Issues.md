@@ -17,8 +17,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 |-------|-------------|
 | **Code** | System-generated unique identifier for the issue document. |
 | **Document date** | Date when the issue document is created. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse from which the materials are issued. |
-| **Customer** | Customer receiving the goods. |
+| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse from which the materials are issued (mandatory). |
+| **Customer** | Customer receiving the goods , selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Notes** | Additional remarks related to the document. |
 
 ### Detail section

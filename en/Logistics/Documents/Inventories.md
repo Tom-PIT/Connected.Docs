@@ -17,14 +17,14 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 |-------|-------------|
 | **Serial number** | System-generated unique identifier for the inventory document. |
 | **Document date** | Date when the inventory count is performed or recorded. |
-| **Warehouse** | Warehouse where the inventory verification is taking place. |
-| **Location** | Specific location within the selected warehouse that is being verified. |
+| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the inventory verification is taking place. |
+| [**Location**](../CodeLists/Locations.md) | Specific location within the selected warehouse that is being verified. |
 
 ### Detail section
 
 | Field | Description |
 |-------|-------------|
-| **Material** | The material stored at the selected location. |
+| [**Material**](../../Assets/Domain/Materials.md) | The material stored at the selected location ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
 | **Location** | Storage location where the inventory is being performed. |
 | **Theoretical** | Quantity currently recorded in the system. |
 | **Actual** | Physically verified quantity (editable). |
