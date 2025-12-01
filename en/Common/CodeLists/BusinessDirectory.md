@@ -7,7 +7,7 @@ The **Business directory** contains all companies and individuals your organizat
 
 | Field | Description |
 |-------|--------------|
-| **Name** | Full name of the entity, for example **ACME d.o.o.** or **John Smith**. |
+| **Name** | Full name of the entity, for example **ACME d.o.o.** or **John Smith** (mandatory). |
 | **Code** | Internal code that ensures unique identification. |
 | **Active** | Indicates whether the entry is active. Inactive entries cannot be used in new documents. |
 | **Vendor** | Checkbox indicating whether the entity acts as a vendor. |
@@ -15,20 +15,20 @@ The **Business directory** contains all companies and individuals your organizat
 | **Cooperator** | Checkbox indicating whether the entity acts as a cooperator. |
 | **Person** | Checkbox indicating whether the entity is a natural person. |
 | **Street** | Entity’s street address, for example **Dunajska cesta 10**. |
-| **Country** | Country where the entity’s headquarters are located. |
-| **Postal code** | Postal code of the entity’s headquarters. |
+| [**Country**](Countries.md) | Country where the entity’s headquarters are located. |
+| [**Postal code**](PostalCodes.md) | Postal code of the entity’s headquarters. |
 | **Type** | Defines the tax status of the entity (see the list section below). |
 | **VAT ID** | VAT identification number, for example **SI12345678**. |
 | **Company ID** | Company registration number. |
 | **Institutional sector** | Institutional sector to which the entity belongs. |
 | **Tags** | Tags that allow categorization of entities. |
 | **Payment currency** | Default payment currency used in documents. |
-| **Currency** | Currency associated with the entity. |
+| [**Currency**](Currencies.md) | Currency associated with the entity. |
 | **Discount** | Default discount percentage applied to the entity. |
-| **Primary contact** | Name and surname of the primary contact person. |
+| [**Primary contact**](Contacts.md) | Name and surname of the primary contact person. |
 | **Phone** | Phone number of the primary contact. |
 | **Email** | Email address of the primary contact. |
-| **Use partner currency on documents** | Checkbox defining whether the entity’s currency is used in documents. |
+| **Use partner currency on documents** | Checkbox defining whether the entity’s [currency](Currencies.md) is used in documents. |
 
 ## Management
 

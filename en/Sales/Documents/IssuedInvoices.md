@@ -19,7 +19,7 @@ Invoices can also be created manually as stand-alone documents when required.
 
 | Field | Description |
 |-------|-------------|
-| **Code** | Unique identifier of the invoice (system-generated after publishing). |
+| **Code** | Unique identifier of the invoice (system-generated). |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
 | **Customer** | Customer receiving the invoice, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the invoice is issued. |
@@ -44,7 +44,7 @@ Invoices can also be created manually as stand-alone documents when required.
 | [**Asset**](../../CodeLists/Assets.md) | Invoiced item or service from the **Assets** domain. |
 | **Quantity** | Quantity of the asset being invoiced. |
 | **Net price** | Net price per unit, usually taken from price lists or the related document. |
-| **Rebate (%)** | Optional line-level discount. |
+| **Discount (%)** | Optional line-level discount. |
 | **Value** | Calculated line totals (net, tax, and gross amounts). |
 
 ## Management
