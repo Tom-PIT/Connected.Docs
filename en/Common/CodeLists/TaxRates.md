@@ -34,7 +34,7 @@ The list displays each tax rate’s name and the applicable percentage. A search
 
 ## Actions
 
-Click on the [action button](../UI/ActionButton.md) to add a new tax rate.
+Click on the [**action button**](../UI/ActionButton.md) to add a new tax rate.
 
 The form includes the following fields:
 - **Name**
