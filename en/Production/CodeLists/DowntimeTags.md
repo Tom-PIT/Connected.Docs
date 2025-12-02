@@ -2,18 +2,13 @@
 
 Downtime tags are used to classify and record the reasons for interruptions in production processes. They help track issues such as equipment failures, planned maintenance, or cleaning, and are later used in production reports and efficiency analysis.
 
-## Accessing downtime tags
-
-To access this page, go to **Production → Management → Downtime tags** in the  
-[**navigation**](../../Common/UI/Navigation.md).
-
-![Downtime tags list](../Assets/DowntimeTagsList.png)
+To access this page, go to **Production / Management / Downtime tags** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
 | Field | Description |
 |-------|-------------|
-| **Name** | The name of the downtime reason (e.g., Machine failure, Cleaning) (mandatory). |
+| **Name** | The name of the downtime reason (e.g., Machine failure, Cleaning) (mandatory).|
 | **Planned** | Indicates whether the downtime is scheduled (planned). Unchecked items appear in red to highlight unplanned downtime. |
 | **Active** *(Edit only)* | Determines whether the tag is available for use in production reporting. |
 
@@ -21,7 +16,7 @@ To access this page, go to **Production → Management → Downtime tags** in th
 
 The list displays all downtime tags defined in the system. The **Search** bar filters tags by name.
 
-**Unplanned** downtime tags appear with a **red indicator** in the list.
+- **Unplanned** downtime tags appear with a **red indicator** in the list.
 
 ![Downtime tags list](../Assets/DowntimeTagsList.png)
 
