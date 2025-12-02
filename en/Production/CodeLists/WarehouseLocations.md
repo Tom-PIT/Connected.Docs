@@ -55,17 +55,17 @@ Fill in the fields shown on the form:
 - [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md)
 - [**Warehouse**](../../Logistics/CodeLists/Warehouses.md)
 - [**Warehouse location**](../../Logistics/CodeLists/Locations.md)
-- **Connection type** — choose `Input` or `Output`
+- **Connection type** — choose **Input** or **Output**
 
 ![Warehouse locations – New](../Assets/WarehouseLocationsNew.png "Warehouse locations – New")
 
 Click **Add** to save the record.
 
 > [!NOTE]
-> - A single [**Warehouse location**](../../Logistics/CodeLists/Locations.md) cannot be assigned as both `Input` and `Output` for the same
+> - A single [**Warehouse location**](../../Logistics/CodeLists/Locations.md) cannot be assigned as both **Input** and **Output** for the same
   [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md). The UI prevents selecting the same location for both roles.  
-> - Only one `Output` connection is permitted per [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md). Adding a second
-  `Output` for the same unit is blocked by validation.  
+> - Only one `**Output** connection is permitted per [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md). Adding a second
+  **Output** for the same unit is blocked by validation.  
 > - [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md), [**Warehouse**](../../Logistics/CodeLists/Warehouses.md), and [**Warehouse location**](../../Logistics/CodeLists/Locations.md) are sourced from their respective
   code lists; keep those lists in sync with Logistics and Common domains.
 
