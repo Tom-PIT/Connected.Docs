@@ -8,6 +8,9 @@ organization units and warehouse locations.
 To access Warehouse locations, go to **Production / Management / Warehouse locations** in the  
 [navigation](../../Common/UI/Navigation.md).
 
+> [!TIP]
+> For a full demonstration, see the **[Warehouse locations](https://www.youtube.com/watch?v=qR3o0CpIGpo)** video tutorial.
+
 ## Schema
 
 | Field | Description |
@@ -15,7 +18,7 @@ To access Warehouse locations, go to **Production / Management / Warehouse locat
 | [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md) | Reference to the Production organization unit (mandatory). |
 | [**Warehouse**](../../Logistics/CodeLists/Warehouses.md) | Warehouse where the physical location exists (mandatory). |
 | [**Warehouse location**](../../Logistics/CodeLists/Locations.md) | Physical location (aisle / rack / level / bin) (mandatory). |
-| **Connection type** | Type of connection: `Input` or `Output` (mandatory). Determines how Production uses the location. |
+| **Connection type** | Type of connection: **Input** or **Output** (mandatory). Determines how Production uses the location. |
 
 ## Management
 
@@ -24,20 +27,26 @@ organization units.
 
 ### Warehouse locations list
 
-The list displays the `Organization unit`, `Warehouse location` and `Connection type`. Use the
+The list displays the **Organization unit**, **Warehouse location** and **Connection type**. Use the
 search box in the header to find records.
 
 ![Warehouse locations list](../Assets/WarehouseLocationsList.png "Warehouse locations list")
 
-Click an `Organization unit` name to open the edit form for that record. The floating Action
-Button shows a small menu with **Import** and **New**.
-
+Click an **Organization unit** name to open the edit form for that record. 
 ## Actions
 
-Click the [**Action Button**](../../Common/UI/ActionButton.md) and choose **New** to add a location.
+Click the [**Action Button**](../../Common/UI/ActionButton.md) to show the following actions:
+- **Import** 
+- **New**.
 
 ![Action button menu](../Assets/WarehouseLocationsActions.png "Action button menu")
 
+### Import
+
+Use **Import** from the Action Button menu to bulk-create records. Follow the project import
+template for CSV structure.
+
+![Warehouse Loacations Import](../Assets/WarehouseLocationsImport.png "Warehouse Loacations Import Screen")
 
 ### Add new
 
@@ -60,19 +69,13 @@ Click **Add** to save the record.
 > - [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md), [**Warehouse**](../../Logistics/CodeLists/Warehouses.md), and [**Warehouse location**](../../Logistics/CodeLists/Locations.md) are sourced from their respective
   code lists; keep those lists in sync with Logistics and Common domains.
 
+
 ### Edit
 
 Click an **Organization unit** name in the list to open the edit form. Fields behave the same as on New.
 Validation prevents invalid combinations as described above.
 
 ![Warehouse locations – Edit](../Assets/WarehouseLocationsEdit.png "Warehouse locations – Edit")
-
-### Import
-
-Use **Import** from the Action Button menu to bulk-create records. Follow the project import
-template for CSV structure.
-
-![Warehouse Loacations Import](../Assets/WarehouseLocationsImport.png "Warehouse Loacations Import Screen")
 
 ## Deletion
 
