@@ -21,35 +21,35 @@ PREFIX-YEAR-SEQUENCE
 
 Where:
 
-- **PREFIX** – 2–3 letters identifying the type of document  
-- **YEAR** – The year in which the document is created  
-- **SEQUENCE** – A zero-padded incremental number  
+- `PREFIX` – 2–3 letters identifying the type of document  
+- `YEAR` – The year in which the document is created  
+- `SEQUENCE` – A zero-padded incremental number  
 
 ![Offer code example](../Assets/DocumentCodeOffer.png "Offer code example")  
 
 Example:
 
-- OFF-2025-00000012
-- SOR-2025-00002311
+- `OFF-2025-00000012`
+- `SOR-2025-00002311`
 
 ## Some examples of prefixes by document type
 
 ### Sales documents
-- **OFF** – Offers  
-- **SOR** – Sales orders  
-- **DNO** – Delivery notes  
-- **INV** – Issued invoices  
+- `OFF` – Offers  
+- `SOR` – Sales orders  
+- `DNO` – Delivery notes  
+- `INV` – Issued invoices  
 
 ### Supply documents
-- **INQ** – Inquiries  
-- **SOR** – Supply orders  
-- **REC** – Receive documents (partial or full)  
+- `INQ` – Inquiries  
+- `SOR` – Supply orders  
+- `REC` – Receive documents (partial or full)  
 
 ### Financial / Stock documents  
 (If applicable)
-- **PAY** – Payments  
-- **STK** – Stock movements  
-- **CMP** – Completed production / assembly batches  
+- `PAY` – Payments  
+- `STK` – Stock movements  
+- `CMP` – Completed production / assembly batches  
 
 ## How codes are generated
 
