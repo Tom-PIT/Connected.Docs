@@ -43,27 +43,26 @@ Click the [**Action Button**](../../Common/UI/ActionButton.md) and choose **New*
 
 Fill in the fields shown on the form:
 
-- [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md) — select from `OrganizationUnits`  
-- [**Warehouse**](../../Logistics/CodeLists/Warehouses.md) — select from `Warehouses`  
-- [**Warehouse location**](../../Logistics/CodeLists/Locations.md) — select from `Locations`  
+- [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md)
+- [**Warehouse**](../../Logistics/CodeLists/Warehouses.md)
+- [**Warehouse location**](../../Logistics/CodeLists/Locations.md)
 - **Connection type** — choose `Input` or `Output`
 
 ![Warehouse locations – New](../Assets/WarehouseLocationsNew.png "Warehouse locations – New")
 
 Click **Add** to save the record.
 
-#### Special behaviours / notes (validation and constraints)
-
-- A single [**Warehouse location**](../../Logistics/CodeLists/Locations.md) cannot be assigned as both `Input` and `Output` for the same
+> [!NOTE]
+> - A single [**Warehouse location**](../../Logistics/CodeLists/Locations.md) cannot be assigned as both `Input` and `Output` for the same
   [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md). The UI prevents selecting the same location for both roles.  
-- Only one `Output` connection is permitted per [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md). Adding a second
+> - Only one `Output` connection is permitted per [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md). Adding a second
   `Output` for the same unit is blocked by validation.  
-- `Organization unit`, `Warehouse` and `Warehouse location` are sourced from their respective
+> - [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md), [**Warehouse**](../../Logistics/CodeLists/Warehouses.md), and [**Warehouse location**](../../Logistics/CodeLists/Locations.md) are sourced from their respective
   code lists; keep those lists in sync with Logistics and Common domains.
 
 ### Edit
 
-Click an `Organization unit` name in the list to open the edit form. Fields behave the same as on New.
+Click an **Organization unit** name in the list to open the edit form. Fields behave the same as on New.
 Validation prevents invalid combinations as described above.
 
 ![Warehouse locations – Edit](../Assets/WarehouseLocationsEdit.png "Warehouse locations – Edit")
@@ -73,7 +72,7 @@ Validation prevents invalid combinations as described above.
 Use **Import** from the Action Button menu to bulk-create records. Follow the project import
 template for CSV structure.
 
-![Warehouse Loacations Import](../Assets/WarehouseLoacationsImport.png "Warehouse Loacations Import Screen")
+![Warehouse Loacations Import](../Assets/WarehouseLocationsImport.png "Warehouse Loacations Import Screen")
 
 ## Deletion
 
