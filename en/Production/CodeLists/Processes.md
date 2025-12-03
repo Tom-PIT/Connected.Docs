@@ -86,23 +86,27 @@ A version includes:
 
 ## Operations inside a version
 
-A version contains a sequence of **operations**, each representing a step of the process. Operations may include Cutting, Painting, Assembly, or Packaging depending on the workflow.
+A version contains a sequence of **[operations](Operations.md)**, each representing a step of the process. Operations may include, for example, cutting, painting, assembly, or packaging depending on the workflow.
 
-To access the operations of a version clcik on the **Versions** button:
+To access the list operations of a version click on the **[Operations](Operations.md)** button:
 
-![Operations button](../Assets/ProcessesVersionsOperationsButton.png)
+![Operations button](../Assets/ProcessesVersionsOperationsButton1.png)
 
 Each operation includes:
 
-- **Inputs** (materials consumed)  
-- **Human resources** (job positions used)  
-- **Non-human resources** (tools, machines)  
-- **Outputs** (materials produced)  
-- **Quality** (checklists applied to the step)
+- **[Inputs](Inputs.md)** – Materials or items consumed by the operation  
+- **[Human resources](HumanResources.md)** – Workers or job positions required  
+- **[Non-human resources](NonHumanResources.md)** – Machines or equipment  
+- **[Outputs](Outputs.md)** – Materials or items produced by the operation  
+- **[Quality](Quality.md)** – Assigned checklists and quality requirements
 
 ![Operations detail](../Assets/ProcessesOperationsListDetail.png)
 
-For detailed configuration of these steps, see **[Operations](Operations.md)**.
+## Quality
+
+The **[Quality](Quality.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](../../Production/Management/Checklists.md), which define the quality-control steps required during production.
+
+![Processes Versions Quality Button](../Assets/ProcessesVersionsQualityButton.png)
 
 ## Deletion
 
