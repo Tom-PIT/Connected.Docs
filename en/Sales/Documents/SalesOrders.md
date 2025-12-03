@@ -57,7 +57,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 Documents move through several possible states during their lifecycle:
 
 - **Draft** – The document is not yet published. All fields can be edited freely.
-- **Commited** – The document has been published. It cannot be deleted or freely modified.
+- **Committed** – The document has been published. It cannot be deleted or freely modified.
     - **Available** – The document is valid and ready for further processing.
     - **In completion** – The document is partially processed (e.g., partially delivered or received).
     - **Completed** – All actions related to the document have been fully executed.
@@ -115,7 +115,7 @@ Once you start a new Sales order, follow these steps:
 5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
 6. When ready, click **Publish** at the top of the page.
 
-Once published, the Sales order moves into the **Commited → Available** state, enabling all related actions such as creating Delivery notes, Production orders, Maintenance orders, or Issued invoices.
+Once published, the Sales order moves into the **Committed → Available** state, enabling all related actions such as creating Delivery notes, Production orders, Maintenance orders, or Issued invoices.
 
 
 ### Editing a sales order
@@ -187,10 +187,10 @@ Payment method assignments appear at the bottom of the document.
 
 ### Publishing a sales order
 
-When the draft is ready, click **Publish** located at the top of the page to commit the order. A commited sales order moves to the **Available** state and enables additional document actions.
+When the draft is ready, click **Publish** located at the top of the page to commit the order. A Committed sales order moves to the **Available** state and enables additional document actions.
 
 > [!NOTE]
-> When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Commited** group of states.
+> When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Committed** group of states.
 
 ![Sales orders – Available](../Assets/SalesOrdersListAvailable.png)
 

@@ -54,7 +54,7 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 Documents move through several possible states during their lifecycle:
 
 - **Draft** – The document is not yet published. All fields can be edited freely.
-- **Commited** – The document has been published. It cannot be deleted or freely modified.
+- **Committed** – The document has been published. It cannot be deleted or freely modified.
     - **Available** – The order is valid and ready for receiving.
     - **In completion** – Some materials have been received (partial receiving).
     - **Completed** – All materials have been received and the order is fully processed.
@@ -111,7 +111,7 @@ Once you start a new Supply order, follow these steps:
 5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
 6. When ready, click **Publish** at the top of the page.
 
-Once published, the Supply order moves into the **Commited → Available** state, enabling all related actions such as creating Receive documents.
+Once published, the Supply order moves into the **Committed → Available** state, enabling all related actions such as creating Receive documents.
 
 #### Attachments
 

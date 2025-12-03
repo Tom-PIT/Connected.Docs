@@ -48,7 +48,7 @@ A typical flow:
 Documents move through several possible states during their lifecycle:
 
 - **Draft** – The document is not yet published. All fields can be edited freely.
-- **Commited** – The document has been published. It cannot be deleted or freely modified.
+- **Committed** – The document has been published. It cannot be deleted or freely modified.
     - **Available** – The document is valid and ready for further processing.
     - **In completion** – The document is partially processed (e.g., partially delivered or received).
     - **Completed** – All actions related to the document have been fully executed.
@@ -101,7 +101,7 @@ An example of a list with **Completed** offers:
     ![Offers available](../Assets/OfferListAvailable.png)
 
 > [!NOTE]
-> When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Commited** group of states.
+> When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Committed** group of states.
 
 
 ### Editing an offer
@@ -151,7 +151,7 @@ Once the offer in the **Available** status is ready, click on **Complete**.
 The top menu provides options for: 
 - Printing
 - Exporting (to PDF)
-- Sending the document via email (only for commited documents)
+- Sending the document via email (only for Committed documents)
 
 ![Offers menu](../Assets/OffersMenu.png)
 

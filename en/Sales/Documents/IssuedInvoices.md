@@ -55,7 +55,7 @@ Issued invoices use payment-based workflow states:
 
 - **Draft** – The invoice is not yet published. All fields can be edited freely.
 
-- **Commited** – The invoice has been published and is now an official financial document. Once commited, only limited fields can be changed, and the document cannot be deleted.
+- **Committed** – The invoice has been published and is now an official financial document. Once Committed, only limited fields can be changed, and the document cannot be deleted.
 
     - **Unpaid invoices** – The invoice has been issued but no payments have been recorded.  
     - **Partially paid invoices** – One or more payments have been recorded, but an outstanding amount remains.  
