@@ -10,7 +10,7 @@ To access Organization units, go to **Production / Management / Organization uni
 
 | Field | Description |
 |-------|-------------|
-| **Code** | Unique code for the organization unit (system-generated). |
+| [**Code**](../../Common/UI/DocumentCodes.md) | Unique code for the organization unit (system-generated). |
 | **Name** (mandatory) | Display name of the organization unit. |
 | **Description** | Short description of the unit's responsibilities or scope. |
 | **Ordinal** | Integer to control ordering in lists. |

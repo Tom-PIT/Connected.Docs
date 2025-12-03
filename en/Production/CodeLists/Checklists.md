@@ -10,7 +10,7 @@ To access this page, go to **Production / Management / Checklists** in the [**na
 
 | Field | Description |
 |-------|-------------|
-| **Code** | Automatically generated checklist code (read-only). |
+| [**Code**](../../Common/UI/DocumentCodes.md) | Automatically generated checklist code (read-only). |
 | **Name** | The name of the checklist (mandatory). |
 | **Description** | A short explanation of the checklist’s purpose. |
 | **Tags** | Optional tags used to categorize or group checklists. |

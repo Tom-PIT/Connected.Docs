@@ -13,7 +13,7 @@ To access the check points for a checklist, open **Production / Management / Che
 
 | Field | Description |
 |-------|-------------|
-| **Code** | Auto-generated unique identifier for the check point. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | Auto-generated unique identifier for the check point. |
 | **Name** | Name of the check point (mandatory). |
 | **Description** | Additional details or context for the check point. |
 | **Ordinal** | Number defining the order in which the check point appears in the checklist. |
@@ -54,7 +54,6 @@ Use the search bar to filter check points by name or code.
 
 ## Deletion
 
-Check points can be deleted freely unless restricted by a workflow configuration.  
-To remove one, open the check point and click **Delete**.
+Check points can be deleted freely unless restricted by a workflow configuration. To remove one, open the check point and click **Delete**.
 
 ---
