@@ -2,7 +2,7 @@
 
 Processes define the structured steps used in **Production** to transform inputs into finished or intermediate outputs. They form the backbone of production workflows and are used in **Production orders** to calculate materials, resources, workloads, and execution steps. This page allows you to create and manage processes, their versions, and their operational structure.
 
-A process may contain one or more **versions**, and each version contains a sequence of **operations**, which define inputs, resources, outputs, and quality requirements.
+A process may contain one or more **versions**, for example, different versions for different table sizes. Each version contains a sequence of **operations**, which define inputs, resources, outputs, and quality requirements.
 
 To access this page, go to **Production / Management / Processes** in the [**navigation**](../../Common/UI/Navigation.md).
 
