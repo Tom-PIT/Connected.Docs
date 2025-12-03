@@ -1,0 +1,156 @@
+﻿# Production orders
+
+Production orders define the work required to manufacture products according to a selected process and version.  
+They move through the life cycle **Draft → Pending → Active → Closed**, and can include multiple operations, resources, inputs, outputs, and quality checks based on the assigned process.
+
+To access production orders, go to **Production / Production orders** in the [**navigation**](../../Common/UI/Navigation.md).
+
+## List of production orders
+
+The Production orders page displays all orders grouped by status. Use the filters on the left to refine the list.
+
+![Production Orders List](../Assets/ProductionOrdersList.png "Production Orders List")
+
+### Available filters
+
+- **Production order dates** – Filter orders by date range.  
+- **View** – Shows orders by life cycle stage:  
+  -  **Draft** — Editable order created through the wizard
+  -  **Pending** — Finalized order, ready to activate
+  -  **Active** — Being executed; visible in **[Execution](Execution.md)**
+  -  **Closed** — Finished; results recorded 
+- **Project** – Filter production orders linked to a specific project.
+
+The search bar at the top allows filtering by production order code or material name.
+
+## Creating a production order
+
+Click the [**action button**](../../Common/UI/ActionButton.md) and follow the guided three-step wizard:
+
+
+### **Step 1 — Select material**
+
+Choose the **Material type** (e.g., Products or Semi products), then select the specific [**material**](../../Assets/Domain/Materials.md) and quantity to be manufactured.
+
+![Step 1](../Assets/ProductionOrdersNewStep1.png "Step 1 - Select material")
+
+
+### **Step 2 — Select process**
+
+Choose the **[Process](../CodeLists/Processes.md)** and **Process version** that defines how the material will be produced.
+
+![Step 2](../Assets/ProductionOrdersNewStep2.png "Step 2 - Select process")
+
+
+### **Step 3 — Provide additional information**
+
+This step defines scheduling and order type.
+
+#### **Mode**
+Determines how the production order will behave:
+
+- **Standard** — Creates a single production order for the total quantity.
+- **Parent** — Creates a parent (master) order that acts only as a container for subordinate orders.  
+  The parent order has **no operations** and is not executed.
+- **Parent with partial productions** — Creates a parent order and automatically generates several subordinate production orders that each produce part of the total quantity.  
+  Two fields appear:
+  - **Number of partial productions** — how many subordinate orders should be created  
+  - **Partial production quantity** — automatically calculated based on the total quantity
+
+**Example:**  
+If total quantity = **3 pieces**  
+- 3 partial productions → each = **1 piece**  
+- 2 partial productions → each = **1.5 pieces**
+
+![Production Orders New Step3 Partial Productions](../Assets/ProductionOrdersNewStep3PartialProductions.png)
+
+#### **Dates**
+
+Specify scheduling details (optional):
+- **Deadline date**
+- **Planned start date**
+- **Planned end date**
+
+![Step 3](../Assets/ProductionOrdersNewStep3.png "Step 3 - Additional information")
+
+Click **Finish** to create the **Draft** production order.
+
+## Draft production orders
+
+A newly created order appears with status **Draft**.
+
+Drafts allow editing of:
+
+- Code
+- Quantity  
+- Batch 
+- Best before date
+- Notes  
+
+![Draft](../Assets/ProductionOrdersDraft.png "Draft production order")
+
+### Publishing a draft
+
+To move the draft to **Pending**, the **Organization unit** must be selected.
+
+![Organization Unit](../Assets/ProductionOrdersOrganizationUnits.png "Organization Unit Selection")
+
+Click **Publish** when ready.
+
+
+## Pending production orders
+
+A **Pending** order is fully prepared and waiting to be activated.  
+No production execution can begin yet.
+
+From the Pending state, you can:
+
+- Review operations  
+- Add attachments  
+- Add notes  
+- Manage linked documents
+
+## Linked documents
+
+You may attach other documents that relate to the production order, such as:
+
+- [Projects](../../Projects/Domain/Projects.md)  
+- [Supply orders](../../Supply/Documents/SupplyOrders.md)
+- Other production orders (linked or input-producing)  
+- [Inquiries](../../Supply/Documents/Inquiries.md)
+
+![Linked documents](../Assets/ProductionOrdersLinkedDocuments.png "Linked documents")
+
+When the order is ready, click **Activate**.
+
+## Active production orders
+
+When activated, the order becomes **Active** and is ready for execution on the shop floor.
+
+![Active](../Assets/ProductionOrdersPending.png "Active production order")
+
+Production workers can now execute operations through the **Execution module**. See **[Execution](Execution.md)** for more details.
+
+The **Process** section displays all planned operations, inputs, resources, outputs, and quality checks for the chosen version.
+
+![Process View](../Assets/ProductionOrdersProcess.png "Process overview")
+
+## Closed production orders
+
+Once production is completed and all operations have been executed, the order is set to **Closed**.
+
+Closed orders:
+
+- Cannot be modified  
+- Provide a complete production history  
+- Show actual vs. planned quantities, losses, and outputs  
+
+![Closed](../Assets/ProductionOrdersClosed.png "Closed production order")
+
+## Deletion
+
+A production order can be deleted only when in **Draft or Pending states** and if it is **not referenced by other documents**.  
+
+Use the **Delete** option in the header.
+
+---
