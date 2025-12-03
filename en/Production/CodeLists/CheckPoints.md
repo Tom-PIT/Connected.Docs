@@ -20,6 +20,7 @@ To access the check points for a checklist, open **Production / Management / Che
 | **Category** | Optional classification used to group or filter check points. |
 | **Optional** | Indicates whether the check point may be skipped during execution. |
 | **Type** | Defines the operator input required:<br>• **Check** – Simple checkbox confirmation<br>• **File upload** – Requires attaching a file (image, PDF…)<br>• **List** – Choose single or multiple values from a predefined list<br>• **Number** – Numerical input<br>• **Text** – Free-text field |
+| **Confirm text** | Text displayed next to the checkbox for **Check** type. |
 | **Instructions** | Additional guidelines shown to the operator performing the check. |
 
 ## List view
