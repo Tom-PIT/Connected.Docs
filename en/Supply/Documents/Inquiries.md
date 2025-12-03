@@ -44,7 +44,7 @@ A typical flow:
 Documents move through several possible states during their lifecycle:
 
 - **Draft** – The inquiry is not yet published. All fields can be edited freely.
-- **Commited** – The inquiry has been published. It cannot be deleted or freely modified.
+- **Committed** – The inquiry has been published. It cannot be deleted or freely modified.
     - **Available** – The inquiry is valid and ready for further processing.
     - **In completion** – The inquiry is partially processed (e.g., partially converted or referenced).
     - **Completed** – All actions related to the inquiry have been fully executed.
