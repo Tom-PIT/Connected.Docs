@@ -25,13 +25,13 @@ Pressing **Produce** will **automatically start the operation**, even if you don
 
 ## 3. Produce items
 
-![Execution Step1](../Assets/ExecutionStep1.png)
-
 1. Enter the number of items you produced (e.g., **1**).  
 2. Press **Produce**.  
 3. The system updates:  
    - Produced quantity  
    - Remaining quantity  
+
+![Execution Step1](../Assets/ExecutionStep1.png)
 
 Repeat whenever more items are completed.
 
@@ -41,12 +41,14 @@ Repeat whenever more items are completed.
 
 ## 4. Record losses (defective items)
 
+1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
+2. Enter the **Loss** section.  
+3. Enter the defective quantity.  
+4. Select the loss reason.  
+5. Confirm by clicking **Loss**.
+
 ![Loss recording](../Assets/ExecutionLossPage.png "Record loss")
 
-1. Tap **Loss**.  
-2. Enter the defective quantity.  
-3. Select the loss reason.  
-4. Confirm.
 
 ## 5. Record consumed materials
 
@@ -54,25 +56,26 @@ Repeat whenever more items are completed.
 
 Use this when materials are used during the operation:
 
-1. Tap **Consumed**.  
-2. Scan, type, or select the material.  
-3. Enter the quantity consumed.  
-4. Confirm.
+1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
+2. Enter the **Consumed** section.  
+3. Scan, type, or select the material.  
+4. Enter the quantity consumed.  
+5. Confirm.
 
 ## 6. Record downtime (interruptions)
 
-![Downtime](../Assets/ExecutionDowntimePage.png "Record downtime")
+1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
+2. Enter the **Downtime** section.
+3. Click start and stop to record the interruption period.  
+4. Choose the reason for the interruption.  
+5. Adjust the times if necessary.  
+6. Save.
 
-1. Tap **Downtime**.  
-2. Choose the reason for the interruption.  
-3. Adjust the times if necessary.  
-4. Save.
+![Downtime](../Assets/ExecutionDowntimePage.png "Record downtime")
 
 Use this for any interruption, such as waiting for materials or machine issues.
 
 ## 7. Complete quality checklists
-
-![Quality checklist](../Assets/ExecutionQualityScreen.png "Quality checklist")
 
 If a checklist appears:
 
@@ -80,13 +83,16 @@ If a checklist appears:
 2. Confirm each checkpoint.  
 3. Tap **Repeat** if the checklist needs to be performed again.
 
+![Quality checklist](../Assets/ExecutionQualityScreen.png "Quality checklist")
+
 You cannot stop the operation if required checklists are incomplete.
 
 ## 8. Record effort (working time)
 
-![Effort entry](../Assets/ExecutionEffortPage.png "Record effort")
+1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
+2. Enter the **Effort** section if required by your workflow.
 
-Only if required by your workflow.
+![Effort entry](../Assets/ExecutionEffortPage.png "Record effort")
 
 ### Automatic:
 Tap **Start** → work → tap **Stop**.

@@ -52,7 +52,7 @@ You can open any document to review its details.
 
 ## Actions
 
-Click the **action button** to create a new writeoff document.
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new writeoff document.
 
 ### Creating a writeoff document
 

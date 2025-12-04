@@ -48,7 +48,7 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 
 ## List of receive documents
 
-The Receives page displays all receive documents. You can search for a specefic document using the search bar, or filter the list using the left sidebar, which includes:
+The Receives page displays all receive documents. You can search for a specific document using the search bar, or filter the list using the left sidebar, which includes:
 
 - **Document dates**
 - **View:**  
@@ -68,7 +68,7 @@ You can click any document to open and review its details.
 
 ## Actions
 
-Click the **action button** to create a new receive document.
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new receive document.
 
 ### Creating a receive document
 
