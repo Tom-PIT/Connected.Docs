@@ -33,7 +33,7 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 
 ## List of issue documents
 
-The Issues page displays all issue documents. You can search for a specefic document using the search bar, or filter the list using the left sidebar, which includes:
+The Issues page displays all issue documents. You can search for a specific document using the search bar, or filter the list using the left sidebar, which includes:
 
 - **Document dates**
 - **View:**  
@@ -53,7 +53,7 @@ You can click any document to open and review its details.
 
 ## Actions
 
-Click the **action button** to create a new issue document.
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new issue document.
 
 ### Creating an issue document
 

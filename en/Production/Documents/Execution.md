@@ -80,7 +80,7 @@ Workers must confirm each step as defined in the checklist.
 
 ## Action menu and activities
 
-The floating **action button** in the bottom-right corner opens the activity selection menu.
+The floating [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner opens the activity selection menu.
 
 ![Activity menu](../Assets/ExecutionActionButton.png "Activity menu")
 

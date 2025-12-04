@@ -55,7 +55,7 @@ You can click any document to open and review its details.
 
 ## Actions
 
-Click the **action button** to create a new inter warehouse document.
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new inter warehouse document.
 
 ### Creating an inter warehouse document
 
