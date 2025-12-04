@@ -23,7 +23,8 @@ To access operations:
 | **Time impact** | Indicates whether the operation’s duration affects the total process duration:<br>• Undefined<br>• Include<br>• Exclude |
 | **Parent** | Allows nesting an operation under another one. |
 | **Default organization unit** | Assigns the organizational unit responsible for the operation. |
-| **Article** | Select an article associated with the operation (optional). |
+| **Article** | Adds an article from the Knowledge Base to the version and provide more detailed instructions, descriptions, or images. Enter the article title or select it from the dropdown menu. (optional). |
+| **Article** | Adds an article from the Knowledge Base to the version and provide more detailed instructions, descriptions, or images. Enter the article title or select it from the dropdown menu. (optional). |
 | **Tags** | Optional tags for grouping or categorizing operations. |
 | **[**Expense**](../../Supply/CodeLists/Expenses.md)** | Expense category linked to this operation. |
 
@@ -48,8 +49,8 @@ Use the **Search** field to filter operations by name or code.
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) and choose:  
    - **New**  
+   - **By template** - if templates are available in [Protocol operations instance templates](ProtocolOperationsInstanceTemplates.md).
    - **Copy existing**  
-   - **By template**
 
    ![Operation action button](../Assets/OperationsActionButton.png)
 
