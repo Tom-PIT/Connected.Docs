@@ -3,6 +3,22 @@
 Production orders define the work required to manufacture products according to a selected process and version.  
 They move through the life cycle **Draft → Pending → Active → Closed**, and can include multiple operations, resources, inputs, outputs, and quality checks based on the assigned process.
 
+> [!NOTE]
+> **Prerequisites**  
+> 
+>Before creating a new production order, ensure that the following are configured:
+>
+> **Mandatory**
+> - At least one **[Process](Processes.md)** with an active **version**
+> - Assigned **[Organization units](../CodeLists/OrganizationUnits.md)** for production  
+>
+> **Recommended**
+> - Optional supporting definitions such as **[resources](../CodeLists/Resources.md)**, **[tags](../CodeLists/Tags.md)**, and **[checklists](../Management/Checklists.md)** depending on your workflow
+
+
+> [!TIP]
+> For a full demonstration, see the **[Production order](https://www.youtube.com/watch?v=q4UjiYpWph8)** video tutorial.
+
 To access production orders, go to **Production / Production orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## List of production orders
@@ -139,13 +155,23 @@ The **Process** section displays all planned operations, inputs, resources, outp
 
 Once production is completed and all operations have been executed, the order is set to **Closed**.
 
+![Closed Production Orders List](../Assets/ProductionOrders.png "Closed Production Orders List")
+
 Closed orders:
 
 - Cannot be modified  
 - Provide a complete production history  
-- Show actual vs. planned quantities, losses, and outputs  
+- Show actual vs. planned quantities, losses, and outputs 
 
-![Closed](../Assets/ProductionOrdersClosed.png "Closed production order")
+![Production Order Closed Detail](../Assets/ProductionOrderClosedDetail.png)
+
+Closed production orders offer additional options in the action menu:
+
+- Printing
+- Exporting (PDF)
+- Revert to active - allows reopening the order for corrections if needed
+
+![Production Order Closed Menu](../Assets/ProductionOrderClosedMenu.png)
 
 ## Deletion
 
