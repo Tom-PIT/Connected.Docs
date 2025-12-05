@@ -9,7 +9,7 @@ To access Supply, navigate to **Supply** in the [navigation](../../Common/UI/Nav
 ![Supply Domain](../Assets/SupplyDomainSitemap.png "Supply Domain")
 
 > [!NOTE]  
-> The availability of supply features depends on the company’s procurement configuration and material planning settings.
+> The available domains depend on each company’s configuration and business model.
 
 ## What is included in the Supply domain?
 

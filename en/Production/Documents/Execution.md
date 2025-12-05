@@ -17,7 +17,7 @@ The main execution screen displays all relevant information for the current prod
 
 | No. | Description |
 |-----|-------------|
-| **1** | Logged-in user and **organizational unit**. <br>• Click user image → logout <br>• Click organizational unit → change it (see [Organization Units](../CodeLists/OrganizationUnits.md)) |
+| **1** | Logged-in user and **organization unit**. <br>• Click user image → logout <br>• Click organization unit → change it (see [Organization Units](../CodeLists/OrganizationUnits.md)) |
 | **2** | Operation control buttons: <br>• **Start** – begins the operation <br>• **Pause** – temporarily suspends work <br>• **Stop** – completes the operation |
 | **3** | Shortcuts: <br>• **Yellow bin** – record defective items <br>• **Orange triangle** – view open bottlenecks or issues |
 | **4** | Current production order |
@@ -187,7 +187,7 @@ Workers can record the time spent on an operation either **manually** or using *
 Click **Add effort** to save the record.
 
 > [!NOTE]
-> The **Stop** button inside the Effort page finishes the effort's **time tracking only** it does not finishe the **operation**.
+> The **Stop** button inside the Effort page finishes the effort's **time tracking only**; it does not finish the **operation**.
 
 
 Recorded efforts appear in a list below the form:

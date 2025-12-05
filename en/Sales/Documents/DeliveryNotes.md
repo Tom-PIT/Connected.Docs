@@ -60,7 +60,7 @@ The Delivery notes list shows all documents separated by:
 - **In completion**
 - **Completed** 
 - **All**
-- **[Reversed](../../Logistics/Documents/Reversals.md** (Reversal state)
+- **[Reversed](../../Logistics/Documents/Reversals.md)** (Reversal state)
 
 **Indicators displayed at the top:**
 
@@ -84,6 +84,7 @@ Delivery notes can be created in two ways:
 
 - From the **Delivery notes** list, by clicking [**action button**](../../Common/UI/ActionButton.md).
 - From a **Sales order** using *Linked documents → + Delivery note* to create a new delivery note draft.
+    
     ![Sales order → Delivery note](../Assets/DeliveryNoteLinkSalesOrder.png)
 
 Example of an empty Delivery note draft: 

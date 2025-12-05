@@ -9,7 +9,7 @@ To access Sales, navigate to **Sales** in the [navigation](../../Common/UI/Navig
 ![Sales Domain](../Assets/SalesDomainSitemap.png "Sales Domain")
 
 > [!NOTE]  
-> The available sales documents and features depend on each company’s commercial configuration and active modules.
+> The available domains depend on each company’s configuration and business model.
 
 ## What is included in the Sales domain?
 

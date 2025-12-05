@@ -85,7 +85,8 @@ If a checklist appears:
 
 ![Quality checklist](../Assets/ExecutionQualityScreen.png "Quality checklist")
 
-You cannot stop the operation if required checklists are incomplete.
+> [!NOTE]
+> You cannot stop the operation if required checklists are incomplete.
 
 ## 8. Record effort (working time)
 
