@@ -35,7 +35,7 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 | Field | Description |
 |--------|-------------|
-| **[Asset](../../Assets/Assets/Assets.md)** | Item or service being delivered. |
+| **[Asset](../../Assets/CodeLists/Assets.md)** | Item or service being delivered. |
 | **Delivery date** | Delivery date for this specific item. |
 | **Issued quantity** | Shows how many units have already been issued (e.g., *0/3* before issue, *3/3* after full issue). |
 
@@ -122,12 +122,12 @@ The linked documents section enables the creation of operational or follow-up do
 
 Available actions of delivery notes in the **available** status include:
 
-- [**Sales order**](SalesOrder.md)  - Link to an existing sales order
+- [**Sales order**](SalesOrders.md)  - Link to an existing sales order
 - **Copy delivery note** 
 - **Copy delivery note with contents**  
 - **Link project** - Link to an existing project
-- [**+ Production order**](../../Production/ProductionOrders.md)
-- [**+ Maintenance order**](../../Maintenance/MaintenanceOrders.md)
+- [**+ Production order**](../../Production/Documents/ProductionOrders.md)
+- [**+ Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md)
 - [**+ Issued invoice**](IssuedInvoices.md)
 - **[+ Empty issue](../../Logistics/Documents/Issues.md)**
 - **[+ Full issue](../../Logistics/Documents/Issues.md)**

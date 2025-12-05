@@ -10,7 +10,7 @@ To access this code list, go to **Supply / Management / Supplier materials** in 
 
 | Field | Description |
 |-------|-------------|
-| **Vendor** | Vendor providing the material. Must exist in the [Business directory](../BusinessDirectory.md) (mandatory). |
+| **Vendor** | Vendor providing the material. Must exist in the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | ****[Material type](../../Assets/Domain/Materials.md)**** | Type of material ([Raw material](../../Assets/CodeLists/RawMaterials.md), [Semi-product](../../Assets/CodeLists/SemiProducts.md), [Product](../../Assets/CodeLists/Products.md), [Repro material](../../Assets/CodeLists/ReproMaterials.md)). Must match an existing material type (mandatory). |
 | ****[Material](../../Assets/Domain/Materials.md)**** | Material supplied by the vendor. Must already exist in the **Materials** domain (mandatory). |
 | **Supplier code** | The vendor’s internal code for this material. |

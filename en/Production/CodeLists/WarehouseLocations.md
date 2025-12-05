@@ -5,8 +5,7 @@ production workflows can source materials and store produced items. Use this pag
 locations Production may use for input and output and to enforce connection rules between
 organization units and warehouse locations.
 
-To access Warehouse locations, go to **Production / Management / Warehouse locations** in the  
-[navigation](../../Common/UI/Navigation.md).
+To access Warehouse locations, go to **Production / Management / Warehouse locations** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Warehouse locations](https://www.youtube.com/watch?v=qR3o0CpIGpo)** video tutorial.
@@ -15,15 +14,14 @@ To access Warehouse locations, go to **Production / Management / Warehouse locat
 
 | Field | Description |
 |-------|-------------|
-| [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md) | Reference to the Production organization unit (mandatory). |
+| [**Organization unit**](OrganizationUnits.md) | Reference to the Production organization unit (mandatory). |
 | [**Warehouse**](../../Logistics/CodeLists/Warehouses.md) | Warehouse where the physical location exists (mandatory). |
 | [**Warehouse location**](../../Logistics/CodeLists/Locations.md) | Physical location (aisle / rack / level / bin) (mandatory). |
 | **Connection type** | Type of connection: **Input** or **Output** (mandatory). Determines how Production uses the location. |
 
 ## Management
 
-Open this screen to view, add, edit and delete Production-specific warehouse locations for
-organization units.
+Open this screen to view, add, edit and delete Production-specific warehouse locations for organization units.
 
 ### Warehouse locations list
 
@@ -52,7 +50,7 @@ template for CSV structure.
 
 Fill in the fields shown on the form:
 
-- [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md)
+- [**Organization unit**](OrganizationUnits.md)
 - [**Warehouse**](../../Logistics/CodeLists/Warehouses.md)
 - [**Warehouse location**](../../Logistics/CodeLists/Locations.md)
 - **Connection type** — choose **Input** or **Output**
@@ -63,10 +61,10 @@ Click **Add** to save the record.
 
 > [!NOTE]
 > - A single [**Warehouse location**](../../Logistics/CodeLists/Locations.md) cannot be assigned as both **Input** and **Output** for the same
-  [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md). The UI prevents selecting the same location for both roles.  
-> - Only one `**Output** connection is permitted per [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md). Adding a second
+  [**Organization unit**](OrganizationUnits.md). The UI prevents selecting the same location for both roles.  
+> - Only one `**Output** connection is permitted per [**Organization unit**](OrganizationUnits.md). Adding a second
   **Output** for the same unit is blocked by validation.  
-> - [**Organization unit**](../../Common/CodeLists/OrganizationUnits.md), [**Warehouse**](../../Logistics/CodeLists/Warehouses.md), and [**Warehouse location**](../../Logistics/CodeLists/Locations.md) are sourced from their respective
+> - [**Organization unit**](OrganizationUnits.md), [**Warehouse**](../../Logistics/CodeLists/Warehouses.md), and [**Warehouse location**](../../Logistics/CodeLists/Locations.md) are sourced from their respective
   code lists; keep those lists in sync with Logistics and Common domains.
 
 

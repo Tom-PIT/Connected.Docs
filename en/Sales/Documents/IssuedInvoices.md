@@ -27,21 +27,21 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Due date** | Payment deadline shown to the customer  (mandatory). |
 | **Reference type** | Type of payment reference (e.g., structured reference, model)  (mandatory). |
 | **Reference number** | Reference number used on payment documents, based on the chosen reference type. |
-| **[Organization bank accounts](../../Common/CodeLists/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
+| **[Organization bank accounts](../CodeLists/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
 | **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional allocation of revenue to a cost center. |
 | **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
-| **Payment method** | Payment option selected from [**Payment methods**](../../Assets/CodeLists/PaymentMethods.md). |
+| **Payment method** | Payment option selected from [**Payment methods**](../CodeLists/PaymentMethods.md). |
 
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../CodeLists/Assets.md) | Invoiced item or service from the **Assets** domain. |
+| [**Asset**](../../Assets/CodeLists/Assets.md) | Invoiced item or service from the **Assets** domain. |
 | **Quantity** | Quantity of the asset being invoiced. |
 | **Net price** | Net price per unit, usually taken from price lists or the related document. |
 | **Discount (%)** | Optional line-level discount. |

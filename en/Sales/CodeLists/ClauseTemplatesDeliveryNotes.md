@@ -8,7 +8,7 @@ To access this page, go to **Sales / Management / Clause templates for delivery 
 > **Prerequisites**  
 > Before creating clause templates, make sure the following are set up:  
 > • The partner company exists in the [Business directory](../../Common/CodeLists/BusinessDirectory.md).  
-> • The clause text exists in the [Predefined texts](PredefinedTexts.md) code list (entity: *Delivery note*).
+> • The clause text exists in the [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) code list (entity: *Delivery note*).
 
 ## Schema
 
@@ -22,7 +22,7 @@ To access this page, go to **Sales / Management / Clause templates for delivery 
 |--------|-------------|
 | **Location** | Where the clause appears on the delivery note (top or bottom). |
 | **Ordinal** | Numeric order of appearance (e.g., 1, 2, 3…). |
-| **Clause** | A predefined text selected from [Predefined texts](PredefinedTexts.md) (entity = *Delivery note*). |
+| **Clause** | A predefined text selected from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity = *Delivery note*). |
 
 ## Management
 

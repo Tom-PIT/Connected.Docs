@@ -13,8 +13,8 @@ Sales orders are one of the core steps in the sales chain:
 2. When the customer confirms the offer, a **Sales order** is created from the offer (via [*Linked documents*](Offers.md#linked-documents)).  
 3. The sales order triggers downstream operational processes:
    - [**Delivery notes**](DeliveryNotes.md)
-   - [**Production orders**](../../Production/ProductionOrders.md)
-   - [**Maintenance orders**](../../Maintenance/MaintenanceOrders.md)
+   - [**Production orders**](../../Production/Documents/ProductionOrders.md)
+   - [**Maintenance orders**](../../Maintenance/Documents/MaintenanceOrders.md)
    - [**Supply orders**](../../Supply/Documents/SupplyOrders.md)
    - [**Issued invoices**](IssuedInvoices.md)
 
@@ -47,7 +47,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Quantity** | Quantity of the selected asset. |
 | **Net price (per unit)** | Unit price applied (from asset settings or price lists). |
 | **Discount (%)** | Line-specific discount. |
-| **[Tax rates](../CodeLists/TaxRates.md)** | Applied tax percentage. |
+| **[Tax rates](../../Common/CodeLists/TaxRates.md)** | Applied tax percentage. |
 | **Value** | Final line value (quantity × price − discount). |
 
 ## Management
@@ -142,8 +142,8 @@ Available actions include:
 - [**+ Delivery note**](DeliveryNotes.md)
 - **+ Empty [delivery note](DeliveryNotes.md)****
 - **Link existing [delivery note](DeliveryNotes.md)**
-- [**+ Production order**](../../Production/ProductionOrders.md)
-- [**+ Maintenance order**](../../Maintenance/MaintenanceOrders.md)
+- [**+ Production order**](../../Production/Documents/ProductionOrders.md)
+- [**+ Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md)
 - [**+ Issued invoice**](IssuedInvoices.md)
 - **Link to project**
 - **Copy sales order**

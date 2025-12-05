@@ -21,7 +21,7 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive ti
 
 ## Creating a new job title
 
-To add a new job title, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner and select **New**.
+To add a new job title, click on the [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner and select **New**.
 
 ![Add new job title](../Assets/JobTitlesNew.png)
 

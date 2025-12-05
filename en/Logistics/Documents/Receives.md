@@ -3,12 +3,12 @@
 # Receives
 
 A **Receive** document is used to record the arrival of materials into your warehouse. When goods physically arrive from a supplier or another location, you create a receive document to register them in the system. Examples include receiving:
-- [**Products**](Products.md)  
-- [**Semi products**](SemiProducts.md)  
-- [**Repro materials**](ReproMaterials.md)  
-- [**Raw materials**](RawMaterials.md)
+- [**Products**](../../Assets/CodeLists/Products.md)  
+- [**Semi products**](../../Assets/CodeLists/SemiProducts.md)  
+- [**Repro materials**](../../Assets/CodeLists/ReproMaterials.md)  
+- [**Raw materials**](../../Assets/CodeLists/RawMaterials.md)
 
-The receive process captures key information such as the material, [packaging](Packaging.md), quantity, serial numbers, best-before dates, and [storage location](../CodeLists/Locations.md). This ensures that stock levels are accurate and that all items are properly tracked from the moment they enter the warehouse.
+The receive process captures key information such as the material, [packaging](../../Assets/CodeLists/Packaging.md), quantity, serial numbers, best-before dates, and [storage location](../CodeLists/Locations.md). This ensures that stock levels are accurate and that all items are properly tracked from the moment they enter the warehouse.
 
 > [!TIP]
 > For a full demonstration, see the [**Receive**](https://www.youtube.com/watch?v=oTOYD-nlCqE) video tutorial.
@@ -27,7 +27,7 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 | **Document date** | Date when the goods were physically received. |
 | [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the materials are being received (mandatory). |
 | **Vendor** | Supplier delivering the goods, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
-| [**Supply order**](../../Supply/Documents/SupplyOrder.md) | (Optional) Linked supply order. |
+| [**Supply order**](../../Supply/Documents/SupplyOrders.md) | (Optional) Linked supply order. |
 | **Notes** | Additional remarks related to the document. |
 
 ### Detail section

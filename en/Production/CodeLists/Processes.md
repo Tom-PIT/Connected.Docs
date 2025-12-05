@@ -104,7 +104,7 @@ Each operation includes:
 
 ## Quality
 
-The **[Quality](Quality.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](../../Production/Management/Checklists.md), which define the quality-control steps required during production.
+The **[Quality](Quality.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](Checklists.md), which define the quality-control steps required during production.
 
 ![Processes Versions Quality Button](../Assets/ProcessesVersionsQualityButton.png)
 

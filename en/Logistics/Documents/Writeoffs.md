@@ -2,7 +2,7 @@
 
 A **Writeoff** document is used to record materials that must be removed from stock because they are damaged, lost, expired, or otherwise unusable. Typical examples include discarding **broken items**, **spoiled goods**, or **materials damaged during handling**. A writeoff lets you specify the reason, choose the affected materials, and enter the quantity to remove from stock.
 
-Writeoffs directly adjust stock levels. If incorrect quantities are written off, they can be corrected later by creating a **partial or full reversal** through the linked document menu. You can also use **[Stock view by material](../Stock.md#stock-view-by-material)** or **[Stock view by serial number](../Stock.md#stock-view-by-serial-number)** to understand how the material reached its current state before writing it off.
+Writeoffs directly adjust stock levels. If incorrect quantities are written off, they can be corrected later by creating a **partial or full reversal** through the linked document menu. You can also use **[Stock view by material](Stock.md#stock-view-by-material)** or **[Stock view by serial number](Stock.md#stock-view-by-serial-number)** to understand how the material reached its current state before writing it off.
 
 > [!TIP]
 > For a full demonstration, see the **[Writeoffs](https://www.youtube.com/watch?v=_0jEGSTorsY)** video tutorial.

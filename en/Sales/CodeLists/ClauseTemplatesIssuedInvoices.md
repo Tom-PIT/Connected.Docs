@@ -8,7 +8,7 @@ To access this page, go to **Sales / Management / Clause templates for issued in
 > **Prerequisites**  
 > Before creating clause templates, make sure the following are set up:  
 > • The partner company exists in the [Business directory](../../Common/CodeLists/BusinessDirectory.md).  
-> • The clause text exists in the [Predefined texts](PredefinedTexts.md) code list (entity: *Issued invoice*).
+> • The clause text exists in the [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) code list (entity: *Issued invoice*).
 
 ## Schema
 
@@ -22,7 +22,7 @@ To access this page, go to **Sales / Management / Clause templates for issued in
 |--------|-------------|
 | **Location** | Where the clause appears on the invoice (top or bottom). |
 | **Ordinal** | Numeric order of appearance (e.g., 1, 2, 3…). |
-| **Clause** | A predefined text selected from [Predefined texts](PredefinedTexts.md) (entity = *Issued invoice*). |
+| **Clause** | A predefined text selected from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity = *Issued invoice*). |
 
 ## Management
 

@@ -9,11 +9,11 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 >Before creating a new production order, ensure that the following are configured:
 >
 > **Mandatory**
-> - At least one **[Process](Processes.md)** with an active **version**
+> - At least one **[Process](../CodeLists/Processes.md)** with an active **version**
 > - Assigned **[Organization units](../CodeLists/OrganizationUnits.md)** for production  
 >
 > **Recommended**
-> - Optional supporting definitions such as **[resources](../CodeLists/Resources.md)**, **[tags](../CodeLists/Tags.md)**, and **[checklists](../Management/Checklists.md)** depending on your workflow
+> - Optional supporting definitions such as **[resources](../CodeLists/Resources.md)**, **[downtime tags](../CodeLists/DowntimeTags.md)**, **[loss classification tags](../CodeLists/LossClassificationTags.md)** and **[checklists](../CodeLists/Checklists.md)** depending on your workflow
 
 
 > [!TIP]
@@ -130,7 +130,7 @@ From the Pending state, you can:
 
 You may attach other documents that relate to the production order, such as:
 
-- [Projects](../../Projects/Domain/Projects.md)  
+- [Projects](../../Projects/Domain/ProjectsDomain.md)  
 - [Supply orders](../../Supply/Documents/SupplyOrders.md)
 - Other production orders (linked or input-producing)  
 - [Inquiries](../../Supply/Documents/Inquiries.md)

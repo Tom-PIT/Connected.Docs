@@ -11,11 +11,11 @@ To access this page, go to **Production / Management / Protocol operation instan
 |-------|-------------|
 | **Code** | Unique identifier of the template. |
 | **Name** | Template name shown when selecting an operation template. |
-| **Organization unit** | The organizational unit for which the template is intended. See [Organization units](../CodeLists/OrganizationUnits.md). |
+| **Organization unit** | The organizational unit for which the template is intended. See [Organization units](OrganizationUnits.md). |
 | **Description** | Text describing what the operation involves and when it should be used. |
 | **Time calculation** | Defines whether the template’s time should be *included* or *excluded* in the total operation duration. |
 | **Article** | Optional article used to attach instructions to the template. |
-| **Tags** | Classification labels that help categorize templates. See [Tags](../CodeLists/Tags.md). |
+| **Tags** | Classification labels that help categorize templates. |
 
 ## Management
 

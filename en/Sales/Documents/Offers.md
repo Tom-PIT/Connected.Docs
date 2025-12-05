@@ -25,18 +25,18 @@ A typical flow:
 | **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
 | **Delivery – Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
 | **Content top** | Predefined introductory text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Offer*). |
-| **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/Assets/Assets.md) list (mandatory). |
+| **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/CodeLists/Assets.md) list (mandatory). |
 | **Content bottom** | Closing or legal statements from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Offer*). |
-| [**Payment methods**](../../Common/CodeLists/PaymentMethods.md) | Available payment methods shown to the customer. |
+| [**Payment methods**](../CodeLists/PaymentMethods.md) | Available payment methods shown to the customer. |
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Assets/Assets.md) | Item or service being offered.  |
+| [**Asset**](../../Assets/CodeLists/Assets.md) | Item or service being offered.  |
 | **Delivery date** | Planned delivery date for this item. |
 | **Quantity** | Quantity of the asset. |
-| **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/Assets/AssetPriceLists.md). |
+| **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/CodeLists/AssetPriceLists.md). |
 | **Discount (%)** | Optional discount applied to this specific line. |
 | [**Tax rates**](../../Common/CodeLists/TaxRates.md) | Applied tax rule. |
 | **Value** | Total line value (quantity × net price, after discounts). |
@@ -92,7 +92,7 @@ An example of a list with **Completed** offers:
 
     ![Edit detail](../Assets/OfferNewDetailsSaved.png)
 
-5. Select the [**Payment method**](../../Common/CodeLists/PaymentMethods.md).
+5. Select the [**Payment method**](../CodeLists/PaymentMethods.md).
 
    ![Offer bottom](../Assets/OfferNewBottom.png)
 
@@ -144,7 +144,7 @@ Once the offer in the **Available** status is ready, click on **Complete**.
 ![Offers Complete Button](../Assets/OffersCompleteButton.png)
 
 > [!NOTE]
-> An offer is also automatically moved to the **completed** status when a new [**Sales order**](SalesOrder.md) is created directly from it using the **Linked documents** action.
+> An offer is also automatically moved to the **completed** status when a new [**Sales order**](SalesOrders.md) is created directly from it using the **Linked documents** action.
 
 ## Menu
 
