@@ -34,7 +34,7 @@ Each record includes a status indicator to the left of its name:
 
 ### Actions
 
-Click the [**action button**](../UI/ActionButton.md) to open the form to create a new organization unit.
+Click the [**action button**](../../Common/UI/ActionButton.md) to open the form to create a new organization unit.
 
 ### Add new
 

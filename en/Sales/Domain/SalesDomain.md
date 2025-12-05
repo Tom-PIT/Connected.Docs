@@ -112,7 +112,6 @@ Sales integrates with other operational domains:
 | **[Materials](../../Assets/Domain/Materials.md)** | Provides availability and stock data for planning and fulfillment. |
 | **[Logistics](../../Logistics/Domain/LogisticsDomain.md)** | Manages the physical delivery of goods. |
 | **[Supply](../../Supply/Domain/SupplyDomain.md)** | Ensures procurement of items sold to customers. |
-| **[Finance](../../Finance/Domain/FinanceDomain.md)** | Handles payments, receivables, and financial postings from invoices. |
 
 ## Summary
 

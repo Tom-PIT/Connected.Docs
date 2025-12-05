@@ -34,7 +34,7 @@ The dashboard serves as the entry point for warehouse supervisors and operators 
 
 ## Stock
 
-The **[Stock](Documents/Stock.md)** section provides operational insight into warehouse materials and their current quantities. A detailed overview of all materials stored across warehouses and locations. It displays available quantities, batches, serials, and physical positions.
+The **[Stock](../Documents/Stock.md)** section provides operational insight into warehouse materials and their current quantities. A detailed overview of all materials stored across warehouses and locations. It displays available quantities, batches, serials, and physical positions.
 
 ![Stock Screen](../Assets/Stock.png "Stock Screen")
 
@@ -75,9 +75,9 @@ The **Views** section provides analytical tools for understanding stock movement
 
 Available views include:
 
-- **[Consumption details](Views/ConsumptionDetails.md)** – Detailed insight into material consumption trends and usage patterns.
-- **[Issue details](Views/IssueDetails.md)** – Breakdown of issue transactions by material, document, warehouse, or user.
-- **[Stock view by location](Views/StockViewByLocation.md)** – Hierarchical representation of stock quantities by warehouse, zone, and location.
+- **[Consumption details](../Views/ConsumptionDetails.md)** – Detailed insight into material consumption trends and usage patterns.
+- **[Issue details](../Views/IssueDetails.md)** – Breakdown of issue transactions by material, document, warehouse, or user.
+- **[Stock view by location](../Views/StockViewByLocation.md)** – Hierarchical representation of stock quantities by warehouse, zone, and location.
 
 These screens do **not** create transactions—they are analytical tools meant to support operational decisions.
 
@@ -97,7 +97,7 @@ Available code lists and configuration screens:
 - **[Locations](../CodeLists/Locations.md)** – Storage positions inside warehouses (aisles, racks, bins).
 - **[Stock boundaries](../CodeLists/StockBoundaries.md)** – Logical constraints and special handling rules for selected materials or locations.
 - **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Unified measurement units used across logistics documents.
-- **[Material analysis](../CodeLists/MaterialAnalysis.md)** – Configuration supporting material inspection or validation processes.
+- **[Material analysis](../Documents/MaterialAnalysis.md)** – Configuration supporting material inspection or validation processes.
 
 These elements define how logistics operations behave and how data is structured.
 
@@ -129,8 +129,8 @@ Logistics integrates tightly with other operational areas:
 |--------|------------|
 | **[Materials](../../Assets/Domain/Materials.md)** | Defines materials stored and moved in logistics. |
 | **[Assets](../../Assets/Domain/AssetsDomain.md)** | Sales visibility and availability calculations rely on logistics stock. |
-| **[Production](../../Production/Domain/Production.md)** | Issues and receives connect logistics with production orders. |
-| **[Maintenance](../../Maintenance/Domain/Maintenance.md)** | Spare parts and maintenance stock flow through logistics. |
+| **[Production](../../Production/Domain/ProductionDomain.md)** | Issues and receives connect logistics with production orders. |
+| **[Maintenance](../../Maintenance/Domain/MaintenanceDomain.md)** | Spare parts and maintenance stock flow through logistics. |
 | **[Sales](../../Sales/Domain/SalesDomain.md)** / **[Supply](../../Supply/Domain/SupplyDomain.md)** | Logistics ensures availability and correct warehouse fulfillment. |
 
 ## Summary

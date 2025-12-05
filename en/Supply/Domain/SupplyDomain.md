@@ -102,9 +102,8 @@ Supply integrates with other operational domains:
 |------|-------------|
 | **[Materials](../../Assets/Domain/Materials.md)** | Defines the items being procured. |
 | **[Logistics](../../Logistics/Domain/LogisticsDomain.md)** | Receives incoming goods and updates stock. |
-| **[Production](../../Production/Domain/Production.md)** | Requires purchased materials for manufacturing processes. |
+| **[Production](../../Production/Domain/ProductionDomain.md)** | Requires purchased materials for manufacturing processes. |
 | **[Sales](../../Sales/Domain/SalesDomain.md)** | Relies on procurement to ensure availability of sold items. |
-| **[Finance](../../Finance/Domain/FinanceDomain.md)** | Handles payments, expenses, and tax calculations for procurement. |
 
 ## Summary
 

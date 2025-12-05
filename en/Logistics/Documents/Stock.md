@@ -2,7 +2,7 @@
 
 The **Stock** page provides a complete overview of material quantities across the system. It shows how many items are available, blocked, or reserved, and lets you quickly find any material by searching or sorting the list. From here, you can open detailed stock views to understand where the material is stored, how it is used, and how it has moved over time.
 
-You can access the **[Stock view by material](#stock-view-by-material)**, **[Stock view by location](#stock-view-by-location)**, or **[Stock view by serial number](#stock-view-by-serial-number)** to explore quantities, locations, movements, and storage history in more depth. Minimum and maximum thresholds that appear in related summaries can be configured in the **[Stock boundaries](StockBoundaries.md)** code list. The **[Dashboard](Dashboard.md)** also provides shortcuts to stock issues such as missing, overstocked, or out-of-stock materials.
+You can access the **[Stock view by material](#stock-view-by-material)**, **[Stock view by location](#stock-view-by-location)**, or **[Stock view by serial number](#stock-view-by-serial-number)** to explore quantities, locations, movements, and storage history in more depth. Minimum and maximum thresholds that appear in related summaries can be configured in the **[Stock boundaries](../CodeLists/StockBoundaries.md)** code list. The **[Dashboard](Dashboard.md)** also provides shortcuts to stock issues such as missing, overstocked, or out-of-stock materials.
 
 > [!TIP]
 > For a full demonstration, see the **[Stock overview](https://www.youtube.com/watch?v=gjAKnavIWnY)** video tutorial.
@@ -25,10 +25,10 @@ Clicking the month name opens a fast month/year selection view:
 ### **Material type filter**
 You can filter the list by:
 
-- [Products](../CodeLists/Products.md)  
-- [Semi products](../CodeLists/SemiProducts.md)  
-- [Repro materials](../CodeLists/ReproMaterials.md)  
-- [Raw materials](../CodeLists/RawMaterials.md) 
+- [Products](../../Assets/CodeLists/Products.md)  
+- [Semi products](../../Assets/CodeLists/SemiProducts.md)  
+- [Repro materials](../../Assets/CodeLists/ReproMaterials.md)  
+- [Raw materials](../../Assets/CodeLists/RawMaterials.md) 
 
 ### **Tags filter**
 You can refine the list by selecting material tags.

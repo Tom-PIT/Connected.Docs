@@ -2,7 +2,7 @@
 
 An **Inventory** document is used to verify and correct stock quantities at a specific warehouse location. It compares the **theoretical stock** stored in the system with the **actual stock** physically present on the shelves. If differences are found, you can update the quantities and publish the document to adjust the stock levels accordingly.
 
-Inventory checks are performed per location and show all materials stored there, along with indicators of missing or excess items. You can open the **Stock view by location** or the **Stock view by serial number** directly from related screens to understand how stock levels were formed. Minimum and maximum thresholds shown in summaries can be configured in the **[Stock boundaries](StockBoundaries.md)** code list.
+Inventory checks are performed per location and show all materials stored there, along with indicators of missing or excess items. You can open the **Stock view by location** or the **Stock view by serial number** directly from related screens to understand how stock levels were formed. Minimum and maximum thresholds shown in summaries can be configured in the **[Stock boundaries](../CodeLists/StockBoundaries.md)** code list.
 
 > [!TIP]
 > For a full demonstration, see the **[Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8)** video tutorial.

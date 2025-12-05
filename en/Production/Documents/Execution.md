@@ -65,7 +65,7 @@ Normally, workers press **Stop** when all items are produced and all checklists,
 
 If stopped early (e.g., 1/3 produced), the operation completes with partial production.
 
-Once all operations in the production order are finished, the [**Production order**](ProductionOrder.md) moves to the **Closed** status.
+Once all operations in the production order are finished, the [**Production order**](ProductionOrders.md) moves to the **Closed** status.
 
 ### Checklists and quality controls
 
@@ -205,7 +205,7 @@ The **Instructions** option displays any articles from the **Knowledge base** at
 - Visual guidelines  
 - Additional notes or warnings  
 
-Instruction content is managed in **[Operations](Operations.md)** in the **Article** field.
+Instruction content is managed in **[Operations](../CodeLists/Operations.md)** in the **Article** field.
 
 
 ## Completion of execution
