@@ -9,7 +9,7 @@ To access Logistics, navigate to **Logistics** in the [navigation](../../Common/
 ![Logistics Domain](../Assets/LogisticsSitemap.png "Logistics Domain")
 
 > [!NOTE]  
-> The available logistics documents and features depend on each company’s configuration and warehouse processes.
+> The available domains depend on each company’s configuration and business model.
 
 ## What is included in the Logistics domain?
 
