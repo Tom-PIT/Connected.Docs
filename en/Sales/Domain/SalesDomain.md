@@ -15,9 +15,9 @@ To access Sales, navigate to **Sales** in the [navigation](../../Common/UI/Navig
 
 The domain is organized into several functional areas:
 
-- **Documents** – all customer-facing commercial documents  
-- **Views** – analytical screens for monitoring sales activity and performance  
-- **Management** – code lists and configuration for commercial processes
+- **[Documents](#documents)** – all customer-facing commercial documents  
+- **[Views](#views)** – analytical screens for monitoring sales activity and performance  
+- **[Management](#management)** – code lists and configuration for commercial processes
 
 ![Sales Domain Overview](../Assets/SalesDomainOverview.png "Sales Domain Overview")
 
