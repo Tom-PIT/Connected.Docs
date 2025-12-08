@@ -1,6 +1,6 @@
 # Check points
 
-Check points belong to a specific **Checklist** and define the individual steps, controls, or verifications that operators must perform during production or quality checks.  
+Check points belong to a specific [**Checklist**](QualityChecklists.md) and define the individual steps, controls, or verifications that operators must perform during production or quality checks.  
 They ensure consistent process execution and provide structured data for audit trails and reporting.
 
 To access the check points for a checklist, open **Production / Management / Checklists**, and click the **Check points** button of the desired checklist.

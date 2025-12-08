@@ -168,6 +168,16 @@ Closed production orders offer additional options in the action menu:
 
 ![Production Order Closed Menu](../Assets/ProductionOrderClosedMenu.png)
 
+### Reverting to active
+
+If modifications are necessary after closing, you can revert the order back to **Active**:
+
+1. Open the closed production order
+1. Select **Revert to active** from the action menu
+1. Click **Reactivate** on the desired process
+
+![Production Orders Reactivate](../Assets/ProductionOrdersReactivate.png)
+
 ## Deletion
 
 A production order can be deleted only when in **Draft or Pending states** and if it is **not referenced by other documents**.  
