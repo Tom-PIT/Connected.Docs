@@ -7,13 +7,9 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 > **Prerequisites**  
 > 
 >Before creating a new production order, ensure that the following are configured:
->
-> **Mandatory**
 > - At least one **[Process](../CodeLists/Processes.md)** with an active **version**
 > - Assigned **[Organization units](../CodeLists/OrganizationUnits.md)** for production  
->
-> **Recommended**
-> - Optional supporting definitions such as **[resources](../CodeLists/Resources.md)**, **[downtime tags](../CodeLists/DowntimeTags.md)**, **[loss classification tags](../CodeLists/LossClassificationTags.md)** and **[checklists](../CodeLists/Checklists.md)** depending on your workflow
+> - Optional supporting definitions such as **[resources](../CodeLists/Resources.md)**, **[downtime tags](../CodeLists/DowntimeTags.md)**, **[loss classification tags](../CodeLists/LossClassificationTags.md)** and **[checklists](../CodeLists/Checklists.md)** depending on your workflow (recommended)
 
 
 > [!TIP]
@@ -62,6 +58,8 @@ Choose the **[Process](../CodeLists/Processes.md)** and **Process version** that
 
 This step defines scheduling and order type.
 
+![Step 3](../Assets/ProductionOrdersNewStep3.png "Step 3 - Additional information")
+
 #### **Mode**
 Determines how the production order will behave:
 
@@ -86,8 +84,6 @@ Specify scheduling details (optional):
 - **Deadline date**
 - **Planned start date**
 - **Planned end date**
-
-![Step 3](../Assets/ProductionOrdersNewStep3.png "Step 3 - Additional information")
 
 Click **Finish** to create the **Draft** production order.
 
@@ -116,8 +112,7 @@ Click **Publish** when ready.
 
 ## Pending production orders
 
-A **Pending** order is fully prepared and waiting to be activated.  
-No production execution can begin yet.
+A **Pending** order is fully prepared and waiting to be activated. No production execution can begin yet.
 
 From the Pending state, you can:
 
@@ -178,5 +173,9 @@ Closed production orders offer additional options in the action menu:
 A production order can be deleted only when in **Draft or Pending states** and if it is **not referenced by other documents**.  
 
 Use the **Delete** option in the header.
+
+> [!NOTE]
+>
+> Closed orders cannot be deleted, but they can be reverted to Active for modifications if necessary.
 
 ---
