@@ -43,43 +43,7 @@ Repeat whenever more items are completed.
 > Review **Instructions** if they appear or whenever needed:  
 > - Tap **Instructions** to view assembly steps, visuals, or operation-specific notes.
 
-## 4. Record losses (defective items)
-
-1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
-2. Enter the **[Loss](Execution.md#loss)** section.  
-3. Enter the defective quantity.  
-4. Select the loss reason.  
-5. Confirm by clicking the yellow **Loss** button.
-
-![Loss recording](../Assets/ExecutionLossPage.png "Record loss")
-
-
-## 5. Record consumed materials
-
-![Consumed materials](../Assets/ExecutionConsumptionPage.png "Record consumed materials")
-
-Use this when materials are used during the operation:
-
-1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
-2. Enter the **[Consumed](Execution.md#consumed)** section.  
-3. Scan, type, or select the material.  
-4. Enter the quantity consumed.  
-5. Confirm.
-
-## 6. Record downtime (interruptions)
-
-1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
-2. Enter the **[Downtime](Execution.md#downtime)** section.
-3. Click start and stop to record the interruption period.  
-4. Choose the reason for the interruption.  
-5. Adjust the times if necessary.  
-6. Save.
-
-![Downtime](../Assets/ExecutionDowntimePage.png "Record downtime")
-
-Use this for any interruption, such as waiting for materials or machine issues.
-
-## 7. Complete quality checklists
+## 4. Complete quality checklists (if applicable)
 
 [Checklists and quality controls](Execution.md#checklists-and-quality-controls) are simple step-by-step checks that help keep work safe and products correct. A checklist can pop up at the start, during the job, or before you finish, based on how the operation is set up.
 
@@ -97,6 +61,42 @@ Use this for any interruption, such as waiting for materials or machine issues.
 
 > [!NOTE]
 > You can’t stop the operation if a required checklist isn’t finished.
+
+## 5. Record losses (if applicable)
+
+1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
+2. Enter the **[Loss](Execution.md#loss)** section.  
+3. Enter the defective quantity.  
+4. Select the loss reason.  
+5. Confirm by clicking the yellow **Loss** button.
+
+![Loss recording](../Assets/ExecutionLossPage.png "Record loss")
+
+
+## 6. Record consumed materials
+
+![Consumed materials](../Assets/ExecutionConsumptionPage.png "Record consumed materials")
+
+Use this when materials are used during the operation:
+
+1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
+2. Enter the **[Consumed](Execution.md#consumed)** section.  
+3. Scan, type, or select the material.  
+4. Enter the quantity consumed.  
+5. Confirm.
+
+## 7. Record downtime (if applicable)
+
+1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
+2. Enter the **[Downtime](Execution.md#downtime)** section.
+3. Click start and stop to record the interruption period.  
+4. Choose the reason for the interruption.  
+5. Adjust the times if necessary.  
+6. Save.
+
+![Downtime](../Assets/ExecutionDowntimePage.png "Record downtime")
+
+Use this for any interruption, such as waiting for materials or machine issues.
 
 ## 8. Record effort (working time)
 
