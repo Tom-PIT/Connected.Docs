@@ -38,7 +38,7 @@ The list displays all operations defined inside the selected process version. Ea
 - **[Human resources](HumanResources.md)** – Workers or job positions required  
 - **[Non-human resources](NonHumanResources.md)** – Machines or equipment  
 - **[Outputs](Outputs.md)** – Materials or items produced by the operation  
-- **[Quality](Quality.md)** – Assigned checklists and quality requirements
+- **[Quality](QualityChecklists.md)** – Assigned checklists and quality requirements
 
 ![Operations list](../Assets/OperationsList.png "Operations list")
 
@@ -85,7 +85,7 @@ Each operation contains several sub-pages, each with its own list and screens. T
 - **[Human resources](HumanResources.md)** 
 - **[Non-human resources](NonHumanResources.md)**
 - **[Outputs](Outputs.md)** 
-- **[Quality](Quality.md)**
+- **[Quality](QualityChecklists.md)**
 
 You can access these from the operation entry:
 
