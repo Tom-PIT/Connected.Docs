@@ -23,8 +23,7 @@ To access operations:
 | **Time impact** | Indicates whether the operation’s duration affects the total process duration:<br>• Undefined<br>• Include<br>• Exclude |
 | **Parent** | Allows nesting an operation under another one. |
 | **Default organization unit** | Assigns the organizational unit responsible for the operation. |
-| **Article** | Adds an article from the Knowledge Base to the version and provide more detailed instructions, descriptions, or images. Enter the article title or select it from the dropdown menu. (optional). |
-| **Article** | Adds an article from the Knowledge Base to the version and provide more detailed instructions, descriptions, or images. Enter the article title or select it from the dropdown menu. (optional). |
+| **Article** | Adds an article from the [Knowledge base](../../KnowledgeBase/Domain/KnowledgeBaseDomain.md) to the version and provide more detailed instructions, descriptions, or images. Enter the article title or select it from the dropdown menu. (optional). |
 | **Tags** | Optional tags for grouping or categorizing operations. |
 | **[**Expense**](../../Supply/CodeLists/Expenses.md)** | Expense category linked to this operation. |
 

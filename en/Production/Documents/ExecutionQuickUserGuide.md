@@ -81,16 +81,22 @@ Use this for any interruption, such as waiting for materials or machine issues.
 
 ## 7. Complete quality checklists
 
-If a checklist appears:
+[Checklists and quality controls](Execution.md#checklists-and-quality-controls) are simple step-by-step checks that help keep work safe and products correct. A checklist can pop up at the start, during the job, or before you finish, based on how the operation is set up.
 
-1. Follow the listed steps.  
-2. Confirm each checkpoint.  
-3. Tap **Repeat** if the checklist needs to be performed again.
+1. Follow the steps shown on screen.  
+   
+   ![Quality checklist](../Assets/ExecutionStep1Checklist.png "Quality checklist")
+
+2. Complete each step. When you’re done, tap **Finish**.  
+3. If you need to do a checklist again:
+    1. Open the action menu via the [**action button**](../../Common/UI/ActionButton.md).
+    2. Enter the **[Quality](Quality.md)** section.
+    3. Tap **Repeat** for the checklist you want to redo.
 
 ![Quality checklist](../Assets/ExecutionQualityScreen.png "Quality checklist")
 
 > [!NOTE]
-> You cannot stop the operation if required checklists are incomplete.
+> You can’t stop the operation if a required checklist isn’t finished.
 
 ## 8. Record effort (working time)
 
