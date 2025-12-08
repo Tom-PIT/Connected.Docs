@@ -13,7 +13,7 @@ To access this page manually, go to **Production / Execution** in the [**navigat
 
 The main execution screen displays all relevant information for the current production order and operation.
 
-![Execution overview](../Assets/ExecutionViewExplained.png "Execution overview")
+![Execution overview](../Assets/ExecutionViewExplanation.png "Execution overview")
 
 | No. | Description |
 |-----|-------------|
@@ -55,11 +55,15 @@ If the worker presses **Produce**, the system:
 
 ### Pausing production
 
-Press **Pause** to temporarily suspend the operation. This does **not** complete production — it only stops the timer until resumed.
+Press **Pause** to temporarily suspend temporarily the operation. This does **not** complete production — it only pauses it until resumed.
+
+![Execution Top Pause](../Assets/ExecutionTopPause.png "Execution Pause button")
 
 ### Stopping / finishing production
 
 Press **Stop** to finish the current operation.
+
+![Execution Top Stop](../Assets/ExecutionTopStop.png "Execution Stop button")
 
 Normally, workers press **Stop** when all items are produced and all checklists, losses, and records are completed.
 

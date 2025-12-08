@@ -2,6 +2,10 @@
 
 This guide shows the **essential steps** to perform production using the Execution screen.
 
+> [!NOTE]
+>
+>For more information and details refer to the full **[Execution](Execution.md)** documentation.
+
 ## 1. Select your production order
 
 When you open **Execution**, select the production order and operation you will work on.  
@@ -42,10 +46,10 @@ Repeat whenever more items are completed.
 ## 4. Record losses (defective items)
 
 1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
-2. Enter the **Loss** section.  
+2. Enter the **[Loss](Execution.md#loss)** section.  
 3. Enter the defective quantity.  
 4. Select the loss reason.  
-5. Confirm by clicking **Loss**.
+5. Confirm by clicking the yellow **Loss** button.
 
 ![Loss recording](../Assets/ExecutionLossPage.png "Record loss")
 
@@ -57,7 +61,7 @@ Repeat whenever more items are completed.
 Use this when materials are used during the operation:
 
 1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
-2. Enter the **Consumed** section.  
+2. Enter the **[Consumed](Execution.md#consumed)** section.  
 3. Scan, type, or select the material.  
 4. Enter the quantity consumed.  
 5. Confirm.
@@ -65,7 +69,7 @@ Use this when materials are used during the operation:
 ## 6. Record downtime (interruptions)
 
 1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
-2. Enter the **Downtime** section.
+2. Enter the **[Downtime](Execution.md#downtime)** section.
 3. Click start and stop to record the interruption period.  
 4. Choose the reason for the interruption.  
 5. Adjust the times if necessary.  
@@ -91,7 +95,7 @@ If a checklist appears:
 ## 8. Record effort (working time)
 
 1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
-2. Enter the **Effort** section if required by your workflow.
+2. Enter the **[Effort](Execution.md#effort)** section if required by your workflow.
 
 ![Effort entry](../Assets/ExecutionEffortPage.png "Record effort")
 
@@ -118,6 +122,6 @@ When all production work is completed:
 2. Record any losses, downtime, consumed materials, or checklists.  
 3. Tap **Stop** to finish the operation.
 
-![Execution controls](../Assets/ExecutionTop.png "Stop to finish the operation")
+![Execution controls](../Assets/ExecutionTopStop.png "Stop to finish the operation")
 
 ---
