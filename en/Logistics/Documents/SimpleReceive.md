@@ -1,6 +1,6 @@
 # Simple receive
 
-The **Simple receive** workflow provides a fast way to record incoming materials based on an existing [**Supply order**](../../Supply/Documents/SupplyOrder.md).  It guides the user through three clear steps: selecting the document header, confirming the materials to receive, and editing each detail before finishing.
+The **Simple receive** workflow provides a fast way to record incoming materials based on an existing [**Supply order**](../../Supply/Documents/SupplyOrders.md).  It guides the user through three clear steps: selecting the document header, confirming the materials to receive, and editing each detail before finishing.
 
 Simple receive is ideal for quick warehouse operations where materials arrive exactly as ordered, without the need for advanced receiving features.
 

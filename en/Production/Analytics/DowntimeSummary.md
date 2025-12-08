@@ -44,10 +44,16 @@ At the bottom, a detailed list shows:
 
 ## Example
 
+![Downtime summary](../Assets/DowntimeSummaryExample.png "Downtime summary")
+
 In the example above:
 - **Duration** mode is selected
-- Total downtime within the chosen interval is **13 min 37 s**
-- Only one downtime type (**Electrical failure**) occurred within the filter range
-- The graph and list reflect that single category
+- Total downtime within the chosen interval is **52 min 13 s**
+- Average downtime per event is **17 min 24 s**
+- Downtime is split across three types:
+  - **Cleaning** — **25 min 52 s**
+  - **Electrical failure** — **13 min 37 s**
+  - **Machine failure** — **12 min 42 s**
+- The chart and list reflect the same breakdown by downtime type (including the cumulative percentage line)
 
 ---

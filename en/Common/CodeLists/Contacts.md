@@ -2,7 +2,7 @@
 
 Contacts belong to a specific **customer** or **vendor** and are managed inside the [**Business directory**](BusinessDirectory.md). They store the people associated with the company — such as account managers, procurement contacts, technicians, or billing representatives.
 
-Each contact includes a **Job title**, selected from the predefined [**Job titles**](../../CustomerSupport/CodeLists/JobTitles.md) code list.
+Each contact includes a **Job title**, selected from the predefined [**Job titles**](JobTitles.md) code list.
 
 ### Accessing contacts
 
@@ -16,7 +16,7 @@ Contacts appear as a tag inside each Business directory entry:
 |-------|-------------|
 | **First name** | Contact’s given name (mandatory). |
 | **Last name** | Contact’s family name (mandatory). |
-| **Job title** | Role or position, selected from the [**Job titles**](../../CustomerSupport/CodeLists/JobTitles.md) code list. |
+| **Job title** | Role or position, selected from the [**Job titles**](JobTitles.md) code list. |
 | **E-mail** | Primary email address. |
 | **Phone** | Landline or office number. |
 | **Mobile phone** | Mobile or direct number. |
@@ -43,7 +43,7 @@ Fill in the following fields:
 
 - **First name**  
 - **Last name**  
-- **Job title** — selected from [**Job titles**](../../CustomerSupport/CodeLists/JobTitles.md)  
+- **Job title** — selected from [**Job titles**](JobTitles.md)  
 - **E-mail**  
 - **Phone** / **Mobile phone** / **Fax** (optional)  
 - **Tags** (optional)  

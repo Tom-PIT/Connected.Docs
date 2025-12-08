@@ -17,9 +17,9 @@ The domain is organized into several functional areas:
 
 - [**Dashboard**](../Documents/Dashboard.md) – high-level overview of logistics activity and warehouse performance  
 - [**Stock**](../Documents/Stock.md) – real-time warehouse visibility  
-- [**Documents**](../Documents) – all stock-affecting logistics transactions  
-- [**Views**](../Views) – analytical screens for consumption, issuing, and stock distribution  
-- [**Management**](../CodeLists) – code lists and configuration for warehouses and locations
+- [**Documents**](#documents) – all stock-affecting logistics transactions  
+- [**Views**](#views) – analytical screens for consumption, issuing, and stock distribution  
+- [**Management**](#management) – code lists and configuration for warehouses and locations
 
 ![Logistics Domain Overview](../Assets/LogisticsDomainOverview.png "Logistics Domain Overview")
 
