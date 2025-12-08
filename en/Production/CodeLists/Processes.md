@@ -98,13 +98,13 @@ Each operation includes:
 - **[Human resources](HumanResources.md)** – Workers or job positions required  
 - **[Non-human resources](NonHumanResources.md)** – Machines or equipment  
 - **[Outputs](Outputs.md)** – Materials or items produced by the operation  
-- **[Quality](Quality.md)** – Assigned checklists and quality requirements
+- **[Quality](QualityChecklists.md)** – Assigned checklists and quality requirements
 
 ![Operations detail](../Assets/ProcessesOperationsListDetail.png)
 
 ## Quality
 
-The **[Quality](Quality.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](Checklists.md), which define the quality-control steps required during production.
+The **[Quality](QualityChecklists.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](Checklists.md), which define the quality-control steps required during production.
 
 ![Processes Versions Quality Button](../Assets/ProcessesVersionsQualityButton.png)
 
