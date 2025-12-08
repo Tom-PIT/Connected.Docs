@@ -9,6 +9,13 @@ Most production workers are automatically redirected to the Execution view upon 
 
 To access this page manually, go to **Production / Execution** in the [**navigation**](../../Common/UI/Navigation.md).
 
+> [!NOTE]
+> - The screen usually shows any assigned production orders automatically when opened. If none appear, click **Select production orders** to choose one.
+>   
+>   ![Select production orders](../Assets/ExecutionPageEmpty.png "Select a production order")
+> - If the production order list is empty, there are no available orders for the selected unit (not created yet or no active operations). Create orders in [Production orders](ProductionOrders.md) and ensure an operation is assigned to the chosen unit.
+> - If the organization unit list is empty, the code list is not defined yet. Define units in [Organization Units](../CodeLists/OrganizationUnits.md).
+
 ## Execution interface overview
 
 The main execution screen shows key information for the current production order and operation.
@@ -29,6 +36,7 @@ The main execution screen shows key information for the current production order
 | **10** | Quantity remaining to complete the production task (editable) |
 | **11** | **Produce** button — records produced quantity |
 | **12** | Activity (action) button leading to the activity selection page |
+
 
 ### Operation controls
 
