@@ -18,8 +18,8 @@ The domain is organized into the following functional areas:
 - **[Production orders](../Documents/ProductionOrders.md)** – definition and execution of manufacturing work  
 - **[Execution](../Documents/Execution.md)** – real-time shop-floor activity reporting  
 - **[Requirements](../Documents/Requirements.md)** – aggregated material needs for planned production  
-- **Analytics** – insights into downtime, performance, loss, OEE, and KPIs  
-- **Management** – configuration, process design, and master data  
+- **[Analytics](#analytics)** – insights into downtime, performance, loss, OEE, and KPIs  
+- **[Management](#management)** – configuration, process design, and master data  
 
 ![Production Overview](../Assets/ProductionDomainOverview.png "Production Overview")
 
