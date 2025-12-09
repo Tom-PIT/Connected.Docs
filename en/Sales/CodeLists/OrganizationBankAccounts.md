@@ -7,13 +7,13 @@ To access Organization bank accounts, go to **Sales / Management / Organization 
 
 > [!NOTE]  
 > **Prerequisites**  
-> Before managing bank records, ensure that the [Banks](Banks.md) code list is properly configured.
+> Before managing bank records, ensure that the [Banks](../../Common/CodeLists/Banks.md) code list is properly configured.
 
 ## Schema
 
 | Field | Description |
 |-------|-------------|
-| [**Bank**](Banks.md) | Bank to which the account belongs (mandatory). |
+| [**Bank**](../../Common/CodeLists/Banks.md) | Bank to which the account belongs (mandatory). |
 | **IBAN** | International Bank Account Number (mandatory). |
 | **Active** | Indicates whether the account can be used in documents (selected by default). |
 | **Use mask** | Determines whether the IBAN is displayed and entered using an input mask for improved readability. |
