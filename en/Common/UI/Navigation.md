@@ -47,12 +47,15 @@ Example - Sections in the **Sales** domain:
 Documents are the core of daily operational work. They are used to create, process, and track business transactions such as:
 
 - **[Sales orders](../../Sales/Documents/SalesOrders.md)**  
-- **[Delivery notes](../../Logistics/Documents/DeliveryNotes.md)**  
+- **[Delivery notes](../../Sales/Documents/DeliveryNotes.md)**  
 - **[Receives](../../Logistics/Documents/Receives.md)**  
 - **[Issues](../../Logistics/Documents/Issues.md)**  
 - **[Inter-warehouse transfers](../../Logistics/Documents/InterWarehouse.md)**  
 - **[Inventories](../../Logistics/Documents/Inventories.md)**
 - **[Supply orders](../../Supply/Documents/SupplyOrders.md)**  
+- **[Execution](../../Production/Documents/Execution.md)**
+- **[Production orders](../../Production/Documents/ProductionOrders.md)**
+- **[Requirements](../../Production/Documents/Requirements.md)**
 - And many others
 
 Example — entering the **Sales** domain and opening **Documents**:
@@ -74,10 +77,12 @@ Views typically include:
 
 - **[Stock overviews](../../Logistics/Documents/Stock.md)**  
 - **[Sales order reports](../../Sales/Views/SalesOrderDetails.md)**  
-- **[Delivery note reports](DeliveryNotesReports.md)** 
+- **[Delivery note reports](../../Sales/Views/DeliveryNoteReports.md)** 
 - **[Company cards](../../Sales/Views/CompanyCards.md)**  
-- **[Issue Details](../../Logistics/Views/IssueDetails.md)** 
 - **[Location-based stock views](../../Logistics/Views/StockViewByLocation.md)**  
+- **[Production KPIs](../../Production/Analytics/ProductionKPIs.md)**
+- **[Loss summary](../../Production/Analytics/LossSummary.md)**
+- **[Downtime summary](../../Production/Analytics/DowntimeSummary.md)**
 
 Example — **Sales / Views**:
 
@@ -103,6 +108,9 @@ Management includes items such as:
 - **[Predefined texts](../CodeLists/PredefinedTexts.md)**  
 - **[Measure units](../CodeLists/MeasureUnits.md)**  
 - **[Organization bank accounts](../../Sales/CodeLists/OrganizationBankAccounts.md)**  
+- **[Processes](../../Production/CodeLists/Processes.md)**
+- **[Inputs](../../Production/CodeLists/Inputs.md)**, **[Outputs](../../Production/CodeLists/Outputs.md)**
+- **[Job positions](../../Production/CodeLists/JobPositions.md)**, **[Human resources](../../Production/CodeLists/HumanResources.md)**
 - Other critical code lists  
 
 Example — **Sales / Management**:
