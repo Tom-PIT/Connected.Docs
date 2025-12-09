@@ -24,11 +24,10 @@ Additionally, on many screens, a **back arrow button** appears in the lower-righ
 
 Each domain contains the tools relevant to a specific business area. Examples include:
 
-- **Sales**  
-- **Logistics**  
-- **Supply**  
-- **Production**  
-- **Finance**, etc.
+- **[Sales](../../Sales/Domain/SalesDomain.md)**  
+- **[Logistics](../../Logistics/Domain/LogisticsDomain.md)**  
+- **[Supply](../../Supply/Domain/SupplyDomain.md)**  
+- **[Production](../../Production/Domain/ProductionDomain.md)**  
 
 > [!NOTE]
 >
@@ -39,18 +38,21 @@ Inside the domains are different types of sections depending on the field of the
 - Views
 - Management
 
+Example - Sections in the **Sales** domain:
+
+![Sales Domain](../Assets/SalesDomain.png "Sales Domain sections")
 
 ## Documents
 
 Documents are the core of daily operational work. They are used to create, process, and track business transactions such as:
 
-- Sales orders  
-- Delivery notes  
-- Receives  
-- Issues  
-- Inter-warehouse transfers  
-- Inventories  
-- Supply orders  
+- **[Sales orders](../../Sales/Documents/SalesOrders.md)**  
+- **[Delivery notes](../../Logistics/Documents/DeliveryNotes.md)**  
+- **[Receives](../../Logistics/Documents/Receives.md)**  
+- **[Issues](../../Logistics/Documents/Issues.md)**  
+- **[Inter-warehouse transfers](../../Logistics/Documents/InterWarehouse.md)**  
+- **[Inventories](../../Logistics/Documents/Inventories.md)**
+- **[Supply orders](../../Supply/Documents/SupplyOrders.md)**  
 - And many others
 
 Example — entering the **Sales** domain and opening **Documents**:
@@ -70,12 +72,12 @@ Views allow you to **analyze and monitor** business information. They do not cre
 
 Views typically include:
 
-- Stock overviews  
-- Sales order reports  
-- Delivery note reports  
-- Company cards  
-- Material movement summaries  
-- Location-based stock views  
+- **[Stock overviews](../../Logistics/Documents/Stock.md)**  
+- **[Sales order reports](../../Sales/Views/SalesOrderDetails.md)**  
+- **[Delivery note reports](DeliveryNotesReports.md)** 
+- **[Company cards](../../Sales/Views/CompanyCards.md)**  
+- **[Issue Details](../../Logistics/Views/IssueDetails.md)** 
+- **[Location-based stock views](../../Logistics/Views/StockViewByLocation.md)**  
 
 Example — **Sales / Views**:
 
@@ -95,12 +97,12 @@ The **Management** section contains all master data and code lists that support 
 Management includes items such as:
 
 - Configuration  
-- Business directory  
-- Banks & payment methods  
-- Countries, currencies, tax rates  
-- Predefined texts  
-- Measure units  
-- Organization bank accounts  
+- **[Business directory](../CodeLists/BusinessDirectory.md)**  
+- **[Banks & payment methods](../../Sales/CodeLists/PaymentMethods.md)**  
+- **[Countries](../CodeLists/Countries.md)**, **[currencies](../CodeLists/Currencies.md)**, **[tax rates](../CodeLists/TaxRates.md)**  
+- **[Predefined texts](../CodeLists/PredefinedTexts.md)**  
+- **[Measure units](../CodeLists/MeasureUnits.md)**  
+- **[Organization bank accounts](../../Sales/CodeLists/OrganizationBankAccounts.md)**  
 - Other critical code lists  
 
 Example — **Sales / Management**:
