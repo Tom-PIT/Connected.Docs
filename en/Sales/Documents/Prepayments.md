@@ -4,8 +4,6 @@ A **Prepayment** is a sales document used when a customer pays an agreed amount 
 
 To access this page, go to **Sales / Documents / Prepayments**.
 
-![Prepayments list](../Assets/PrepaymentsList.png "Prepayments list")
-
 ## How prepayments fit into the sales workflow
 
 Prepayments are used when a customer pays part of the amount in advance. They integrate into the standard sales process as follows:
@@ -50,13 +48,13 @@ Prepayments track received funds and do not affect inventory.
 | **Discount (%)** | Optional discount on the line item. |
 | **Value** | Total values (net, tax, gross) calculated for the line. |
 
-![Prepayment details](../Assets/PrepaymentsNewBottom.png "Prepayment details")
-
 ## Management
 
 Prepayments can have **Draft** and **Committed** states.
 
 ### List view
+
+![Prepayments list](../Assets/PrepaymentsList.png "Prepayments list")
 
 The prepayments list can be filtered by:
 - **Document dates**
@@ -75,17 +73,29 @@ Drafts can be edited; committed prepayments are final unless reversed.
 
 ### Creating a new prepayment
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to create a new draft prepayment.
+1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft prepayment.
 
-![New prepayment](../Assets/PrepaymentsNewTop.png "New prepayment")
+   ![New prepayment](../Assets/PrepaymentsNewTop.png)
 
-A draft prepayment can also be created from other documents via **+ Prepayment**, for example:
+2. Fill in mandatory header fields: **Customer** (from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md)), **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)**.
 
-- From a committed [**Proforma invoice**](ProformaInvoices.md)
+3. Add items in the Details section. Type or scan a **serial number**, **EAN**, or **asset/material name** into the Details bar.
+   - The system displays matching assets and materials.
 
-![Create prepayment from Proforma invoice](../Assets/PrepaymentsProformaLink.png "Create prepayment from Proforma invoice")
+4. Save the added details.
 
-In this case, the customer and related header data are pre-filled from the source document.
+5. Select the **[Payment method](../CodeLists/PaymentMethods.md)**.
+
+    ![Prepayments New Bottom](../Assets/PrepaymentsNewBottom.png)
+
+6. When ready, click **Publish** at the top of the page to finalize the prepayment. This moves the document to the **Committed** state and enables additional actions.
+
+> [!NOTE]
+> When you click **Publish**, the document is confirmed and moves from **Draft** into the **Committed** group of states.
+>
+> A draft prepayment can also be created from a committed [**Proforma invoice**](ProformaInvoices.md) via **+ Prepayment**.
+>
+>![Prepayments Proforma Link](../Assets/PrepaymentsProformaLink.png)
 
 ### Editing a prepayment
 
