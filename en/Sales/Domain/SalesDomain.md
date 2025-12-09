@@ -68,7 +68,7 @@ Available configuration and code lists include:
 
 - **Configuration** – Global sales settings and behavior rules.  
 - **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Customer and partner records used throughout sales documents.  
-- **[Banks](../CodeLists/Banks.md)** – Bank definitions used on invoices and payment instructions.  
+- **[Banks](../../Common/CodeLists/Banks.md)** – Bank definitions used on invoices and payment instructions.  
 - **[Payment methods](../CodeLists/PaymentMethods.md)** – Methods used for settling sales invoices.  
 - **[Organization bank accounts](../CodeLists/OrganizationBankAccounts.md)** – Internal bank accounts used for outgoing billing.  
 - **[Countries](../../Common/CodeLists/Countries.md)** – Geographic entries used on customer records and documents.  

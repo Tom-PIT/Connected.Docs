@@ -2,7 +2,7 @@
 
 Bank accounts belong to a specific **customer** or **vendor** and are managed inside the [**Business directory**](BusinessDirectory.md). They define the financial account information used later in documents such as issued invoices or payments. 
 
-Each account is linked to a **Bank**, selected from the predefined [**Banks**](../../Sales/CodeLists/Banks.md) code list.
+Each account is linked to a **Bank**, selected from the predefined [**Banks**](Banks.md) code list.
 
 ### Accessing bank accounts
 
@@ -14,7 +14,7 @@ Bank accounts appear as a tag inside each Business directory entry:
 
 | Field | Description |
 |-------|-------------|
-| [**Bank**](../../Sales/CodeLists/Banks.md) | The financial institution providing the account. Selected from the **Banks** code list (mandatory). |
+| [**Bank**](Banks.md) | The financial institution providing the account. Selected from the **Banks** code list (mandatory). |
 | **IBAN** | Full international bank account number (mandatory). |
 | **Active** | Indicates whether the account can be used on documents. |
 | **Use mask** | Formats the IBAN visually (spaces and grouping) without changing its value. |
@@ -35,7 +35,7 @@ To add a new bank account, click on the [**action button**](../UI/ActionButton.m
 
 Fill in the following fields:
 
-- **Bank** – Selected from the [**Banks**](../../Sales/CodeLists/Banks.md) code list  
+- **Bank** – Selected from the [**Banks**](Banks.md) code list  
 - **IBAN** – The international bank account number  
 - **Active** – Determines whether the account is available for use  
 - **Use mask** – Formats the IBAN for easier readability (optional)
