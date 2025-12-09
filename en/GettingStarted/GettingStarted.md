@@ -22,8 +22,7 @@ More information on the structure and navigation inside the platform can be foun
 Explore step-by-step scenarios to understand usual end-to-end flows:
 
 1. [Prerequisites](01.Prerequisites.md)
-2. [Traceability without prepayment](02.Traceability.WithoutPrepayment.md)
-3. [Traceability with prepayment](03.Traceability.WithPrepayment.md)
+2. [Sales process (with and without prepayment)](02.SalesProcess.md)
 4. [Efficiency](04.Efficiency.md)
 5. [Product cost](05.ProductCost.md)
 
