@@ -3,7 +3,7 @@
 Connected is a global digital transformation platform. Documentation is organized by locale because regulations and processes can vary. Use this guide to quickly orient yourself and navigate the materials.
 
 > [!TIP]
-> Start with the **[Navigation](../Common/UI/Navigation.md)** to explore domains, documents, and views.
+> Start with the **[Navigation](../Common/UI/Navigation.md)** topic to explore domains, documents, and views.
 
 ## Structure
 
@@ -19,18 +19,12 @@ More information on the structure and navigation inside the platform can be foun
 
 ## Scenarios
 
-Explore step-by-step scenarios to understand end-to-end flows:
+Explore step-by-step scenarios to understand usual end-to-end flows:
 
 1. [Prerequisites](01.Prerequisites.md)
-2. Scenario 1 — [Traceability without prepayment](02.Traceability.WithoutPrepayment.md)
-3. Scenario 2 — [Traceability with prepayment](03.Traceability.WithPrepayment.md)
-4. Efficiency — [Efficiency](04.Efficiency.md)
-5. Product cost — [Product cost](05.ProductCost.md)
-
-## Tips
-
-- Use the search field (top of list pages) and filters to find documents quickly.
-- Follow links within each page to related concepts, actions, and code lists.
-- Attachments and notes are available on most documents and remain with drafts and committed versions.
+2. [Traceability without prepayment](02.Traceability.WithoutPrepayment.md)
+3. [Traceability with prepayment](03.Traceability.WithPrepayment.md)
+4. [Efficiency](04.Efficiency.md)
+5. [Product cost](05.ProductCost.md)
 
 ---
