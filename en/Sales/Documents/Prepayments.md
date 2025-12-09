@@ -13,7 +13,7 @@ Prepayments are used when a customer pays part of the amount in advance. They in
 3. Create a **Prepayment** – either manually or through *Linked documents → + Prepayment* on the Proforma invoice.  
 4. Record the received amount and publish the prepayment (it becomes Committed).  
 5. Apply the prepayment when issuing the **[final invoice](IssuedInvoices.md)**, fully or partially reducing the amount due.  
-6. Reverse the prepayment if the advance payment must be canceled or refunded (see **[Reversals](Reversals.md)**).
+6. Reverse the prepayment if the advance payment must be canceled or refunded (see **[Reversals](../../Logistics/Documents/Reversals.md)**).
 
 Prepayments track received funds and do not affect inventory.
 
@@ -143,7 +143,7 @@ The document menu provides additional actions:
 
 ![Prepayment menu](../Assets/PrepaymentsMenu.png "Prepayment menu")
 
-A reversal negates the financial effect of a committed prepayment. See **[Reversals](Reversals.md)** for more details.
+A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
 
 ## Deletion
 
@@ -157,6 +157,6 @@ If the draft still includes items in the **Details** section:
 
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
-Committed documents **cannot** be deleted, but they can be [reversed](Reversals.md).  
+Committed documents **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).  
 
 ---
