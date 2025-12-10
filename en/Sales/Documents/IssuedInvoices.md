@@ -1,4 +1,4 @@
-# Issued invoices
+ï»¿# Issued invoices
 
 **Issued invoices** are financial documents sent to customers so they can pay for confirmed sales. They summarize delivered goods or services, taxes, due dates, and chosen payment methods. From the **Issued invoices** page you can also record partial or full payments directly against each invoice.
 
@@ -20,7 +20,7 @@ Invoices can also be created manually as stand-alone documents when required.
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Unique identifier of the invoice (system-generated). |
-| **Purchase order code** | Optional reference to the customer’s purchase order. |
+| **Purchase order code** | Optional reference to the customerâ€™s purchase order. |
 | **Customer** | Customer receiving the invoice, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the invoice is issued. |
 | **Delivery date** | Date when the goods or services were delivered. |
@@ -53,14 +53,14 @@ Invoices can also be created manually as stand-alone documents when required.
 
 Issued invoices use payment-based workflow states:
 
-- **Draft** – The invoice is not yet published. All fields can be edited freely.
+- **Draft** â€“ The invoice is not yet published. All fields can be edited freely.
 
-- **Committed** – The invoice has been published and is now an official financial document. Once Committed, only limited fields can be changed, and the document cannot be deleted.
+- **Committed** â€“ The invoice has been published and is now an official financial document. Once Committed, only limited fields can be changed, and the document cannot be deleted.
 
-    - **Unpaid invoices** – The invoice has been issued but no payments have been recorded.  
-    - **Partially paid invoices** – One or more payments have been recorded, but an outstanding amount remains.  
-    - **Fully paid invoices** – The invoice has been completely settled; no outstanding amount remains.
-    - **Reversed** – A reversal document has been created to correct or cancel the invoice.
+    - **Unpaid invoices** â€“ The invoice has been issued but no payments have been recorded.  
+    - **Partially paid invoices** â€“ One or more payments have been recorded, but an outstanding amount remains.  
+    - **Fully paid invoices** â€“ The invoice has been completely settled; no outstanding amount remains.
+    - **Reversed** â€“ A reversal document has been created to correct or cancel the invoice.
 
 These states determine what actions are available (payment recording, reversal, exporting, etc.) and how the invoice appears in the list views.
 
@@ -74,8 +74,8 @@ The list view shows all invoices that match the selected filters and date ranges
 
 At the top of the list, the system displays key indicators that summarize the currently filtered data. The following indicators are shown:
 
-- **Unpaid overdue** (interactive) – Number and value of invoices that are past their due date and still unpaid. Click it to display exclusively these invoices on the list.  
-- **Total amount** – Total gross amount of invoices in the current view.  
+- **Unpaid overdue** (interactive) â€“ Number and value of invoices that are past their due date and still unpaid. Click it to display exclusively these invoices on the list.  
+- **Total amount** â€“ Total gross amount of invoices in the current view.  
 
 These indicators update based on the filters on the left:
 
@@ -99,16 +99,54 @@ Use the **Search** bar to quickly find invoices by code, customer, or other visi
 
 ### Creating a new issued invoice
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to create a new draft issued invoice.
+Issued invoices can be created in two ways:
 
-![New invoice](../Assets/IssuedInvoicesNewTop.png "New issued invoice")
+- Directly from the **Issued invoices** screen using the [**action button**](../../Common/UI/ActionButton.md).  
+- From other sales documents via **Linked documents â†’ + Issued invoice**, such as:
+  - A committed [**Sales order**](SalesOrders.md)  
+  - A [**Delivery note**](DeliveryNotes.md)  
 
-A draft invoice can also be created from other documents via **+ Issued invoice**, for example:
+  In these cases, most fields â€” including the customer, delivery data, and detail items â€” are automatically pre-filled.
 
-- From a [**Sales order**](SalesOrders.md)
-- From a **[Delivery note](DeliveryNotes.md)**
+  ![Sales Order Committed Linked Documents](../Assets/SalesOrderCommittedLinkedDocuments.png "Committed Sales Order Linked Documents")
 
-In this case, the customer, delivery data, and line details are pre-filled from the source document.
+Once you start a new Issued invoice, follow these steps:
+
+1. Use the [**action button**](../../Common/UI/ActionButton.md) or the *Linked documents* panel to create a new draft invoice.
+
+2. Fill in the key header fields:
+   - [**Customer**](../../Common/CodeLists/BusinessDirectory.md)  
+   - **Issue date**  
+   - **Delivery date**  
+   - **Due date** (mandatory)  
+   - **Reference type / Reference number**  
+   - [**Organization bank account**](../CodeLists/OrganizationBankAccounts.md)  
+   - [**Payment method**](../CodeLists/PaymentMethods.md)
+
+   ![New invoice top](../Assets/IssuedInvoicesNewTop.png "New invoice top section")
+
+3. Add items in the **Details** section.  
+   Type or scan a **serial number**, **EAN**, or **asset name** in the Details bar.  
+   The system displays all matching items.
+
+4. Open the selected item to adjust **quantity**, **price**, **discount**, or **tax rate**, then click **Save**.
+
+5. Continue adding as many detail lines as needed.  
+   After saving, the detail appears in the list:
+
+   ![Invoice detail saved](../Assets/IssuedInvoicesNewBottom.png "Saved invoice detail")
+
+6. (Optional) Add:
+   - **Content top / Content bottom** text  
+   - **Delivery information**  
+   - **Attachments**  
+
+7. When the invoice is ready, click **Publish** at the top of the page.  
+   Publishing moves the document from **Draft** to **Committed**, finalizes totals, and enables accounting export and further processing.
+
+> [!NOTE]  
+> Once published, an issued invoice cannot be edited or deleted.  
+> If a correction is needed, use **Reverse document** to create a credit note via the *Reversals* workflow.
 
 ### Editing an issued invoice
 
@@ -118,9 +156,9 @@ While the invoice is in **Draft** status you can edit all sections:
 
 - Header fields (dates, references, customer, bank account, etc.)
 - Delivery information
-- **Details** – add, remove, or change invoice lines
-- **Payment methods** – define how the customer is expected to pay
-- **Content top** and **Content bottom** – choose predefined texts
+- **Details** â€“ add, remove, or change invoice lines
+- **Payment methods** â€“ define how the customer is expected to pay
+- **Content top** and **Content bottom** â€“ choose predefined texts
 
 ![Details and payments](../Assets/IssuedInvoicesNewBottom.png "Invoice details and payment methods")
 
@@ -128,7 +166,7 @@ While the invoice is in **Draft** status you can edit all sections:
 
 At the top of every document, an **Attachments** section is available. 
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+You can upload any relevant fileâ€”such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
 #### Linked documents
 
@@ -163,15 +201,15 @@ After an invoice is published, use the **Payment** button to record incoming pay
 
 In the payment dialog you can see:
 
-- **Total cost** – Invoice gross amount and due date.  
-- **Payment** – Amount being paid now and date of payment.  
-- **Remaining amount** – Outstanding balance after the payment.
+- **Total cost** â€“ Invoice gross amount and due date.  
+- **Payment** â€“ Amount being paid now and date of payment.  
+- **Remaining amount** â€“ Outstanding balance after the payment.
 
 You can register multiple payments over time. The system automatically updates the invoice status:
 
-- **Unpaid** – No payments recorded.  
-- **Partially paid** – Some payments recorded, but an outstanding amount remains.  
-- **Fully paid** – Remaining amount is zero.
+- **Unpaid** â€“ No payments recorded.  
+- **Partially paid** â€“ Some payments recorded, but an outstanding amount remains.  
+- **Fully paid** â€“ Remaining amount is zero.
 
 > [!NOTE]  
 > When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
@@ -184,11 +222,11 @@ For published invoices, the menu in the top-right corner provides additional opt
 
 Available actions include:
 
-- **Printing** – Print the invoice using configured printouts.  
-- **Exporting** – Export to PDF or other available formats.  
-- **Send as email** – Email the invoice directly to the customer.  
-- **[Reverse document](../../Logistics/Documents/Reversals.md)** – Create a reversal invoice for corrections.  
-- **Return to draft** – Move the invoice back to draft status for editing (if allowed by business rules).
+- **Printing** â€“ Print the invoice using configured printouts.  
+- **Exporting** â€“ Export to PDF or other available formats.  
+- **Send as email** â€“ Email the invoice directly to the customer.  
+- **[Reverse document](../../Logistics/Documents/Reversals.md)** â€“ Create a reversal invoice for corrections.  
+- **Return to draft** â€“ Move the invoice back to draft status for editing (if allowed by business rules).
 
 ## Deletion
 
