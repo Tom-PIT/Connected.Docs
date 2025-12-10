@@ -1,18 +1,18 @@
-# Connected Documentation
+﻿# Connected Documentation
 
-Tom PIT.Connected is a global digital transformation platform. Documentation is organized by locale (language/country) because regulations and processes can vary.
+Tom PIT.Connected is a global digital transformation platform that covers the full spectrum of business operations across domains such as Sales, Supply, Logistics, Production, Assets, Projects, and more. 
 
-Available languages:
+Documentation is organized by language/country because regulations and processes can vary:
 
-- [English](en/)
-- [Slovenian](sl/)
+- [**English**](en/)
+- [**Slovenian**](sl/)
 
 Start here:
 
 - English:
-  - [Getting started](en/GettingStarted/GettingStarted.md)
-  - [Navigation](en/Common/UI/Navigation.md)
+  - [**Getting started**](en/GettingStarted/00.GettingStarted.md) — Overview of the structure, first steps to configure the system, and typical workflow overviews.
+  - [**Navigation**](en/Common/UI/Navigation.md) — How to find domains, documents, and settings using the Sitemap and breadcrumbs.
 - Slovenian:
-  - [Read me](sl/Splosno/UporabniskiVmesnik/README.md)
+  - [**Read me**](sl/Splosno/UporabniskiVmesnik/README.md)
 
 ---
