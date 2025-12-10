@@ -112,7 +112,7 @@ Issued invoices can be created in two ways:
 
 Once you start a new Issued invoice, follow these steps:
 
-1. Use the [**action button**](../../Common/UI/ActionButton.md) or the *Linked documents* panel to create a new draft invoice.
+1. Use the [**action button**](../../Common/UI/ActionButton.md) or the **Linked documents** panel in another document to create a new draft invoice.
 
 2. Fill in the key header fields:
    - [**Customer**](../../Common/CodeLists/BusinessDirectory.md)  
@@ -125,14 +125,14 @@ Once you start a new Issued invoice, follow these steps:
 
    ![New invoice top](../Assets/IssuedInvoicesNewTop.png "New invoice top section")
 
-3. Add items in the **Details** section.  
-   Type or scan a **serial number**, **EAN**, or **asset name** in the Details bar.  
+3. Add items in the **Details** section. Type or scan a **serial number**, **EAN**, or **asset name** in the Details bar.  
    The system displays all matching items.
 
-4. Open the selected item to adjust **quantity**, **price**, **discount**, or **tax rate**, then click **Save**.
+4. Adjust **quantity**, **price**, **discount**, or **tax rate**, then click **Save**.
 
-5. Continue adding as many detail lines as needed.  
-   After saving, the detail appears in the list:
+    ![Issued Invoices New Details Edit](../Assets/IssuedInvoicesNewDetailsEdit.png)
+
+5. Continue adding as many detail lines as needed. After saving, the detail appears in the list:
 
    ![Invoice detail saved](../Assets/IssuedInvoicesNewBottom.png "Saved invoice detail")
 
@@ -145,8 +145,7 @@ Once you start a new Issued invoice, follow these steps:
    Publishing moves the document from **Draft** to **Committed**, finalizes totals, and enables accounting export and further processing.
 
 > [!NOTE]  
-> Once published, an issued invoice cannot be edited or deleted.  
-> If a correction is needed, use **Reverse document** to create a credit note via the *Reversals* workflow.
+> Once published, an issued invoice cannot be edited or deleted. If a correction is needed, use **[Reverse document](../../Logistics/Documents/Reversals.md)** action in the menu.
 
 ### Editing an issued invoice
 
