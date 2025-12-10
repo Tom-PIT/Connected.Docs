@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="1120"
+   width="1080"
    height="110"
-   viewBox="0 0 1120 110"
+   viewBox="0 0 1080 110"
    role="img"
    aria-label="Sales flow with prepayment"
    version="1.1"
@@ -22,12 +22,12 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.0826049"
-     inkscape:cx="582.39162"
-     inkscape:cy="187.04885"
+     inkscape:zoom="8.6608392"
+     inkscape:cx="1066.7557"
+     inkscape:cy="72.221639"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg19" />
@@ -48,7 +48,7 @@
        refY="3.5"
        orient="auto">
       <polygon
-         points="0,7 0,0 10,3.5 "
+         points="10,3.5 0,7 0,0 "
          fill="#2d3748"
          id="polygon1" />
     </marker>
@@ -64,7 +64,7 @@
      id="text19" />
   <g
      id="g20"
-     transform="translate(0.78054047,-24.999998)">
+     transform="translate(-19.21946,-24.999998)">
     <rect
        class="box"
        x="20"
