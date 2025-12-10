@@ -1,44 +1,39 @@
 # Quality
 
-The **Quality** activity shows and records quality checklists linked to the current operation. Checklists help keep work safe and products correct by guiding step-by-step controls.
+Quality checklists ensure **safety and product standards** are met at key points in an operation.
 
-During execution, required checklists appear automatically at the right moment (at start, during the job, or before completion). The **Quality** page lets you review any checklist and repeat it if needed. See an example in [Execution — Checklists and quality controls](Execution.md#checklists-and-quality-controls).
+To access this page, open a process version from **Production / Management / [Processes](../CodeLists/Processes.md)**, click **[Operations](../CodeLists/Operations.md)**, then select **Quality**.
 
-Open **Quality** from the [**Execution**](Execution.md) screen via the activity selection menu (tap the [action button](../../Common/UI/ActionButton.md), then choose **Quality**).
+> [!TIP]
+> For a full demonstration, see the **[Quality](https://www.youtube.com/watch?v=B2KX_UvDiCw)** video tutorial.
 
-## Quality checklists
+## Schema
 
-![Quality checklist](../Assets/ExecutionQualityScreen.png "Quality execution overview")
+| Field | Description |
+|-------|-------------|
+| **Checklist** | Select the checklist to apply to the operation. |
+| **Trigger** | When the checklist should appear: **On Start**, **During Execution**, **Before Stop**. |
+| **Ordinal** | Display order. |
+| **Tags** | Optional tags for grouping or filtering. |
 
-A status color is shown for each checklist:
+## List view
 
-- Green — all steps are completed and confirmed
-- Red — something is missing or not confirmed
+Shows all quality checks linked to the selected operation.
 
-> [!NOTE]
-> If a checklist point cannot be completed (e.g., missing material), complete the available steps, then use **Repeat** to run the checklist again when the condition is met.
+## Creating a new quality entry
 
+1. Click the **action button** and choose **New**.
+2. Select checklist and trigger.
+3. Click **Add**.
 
-## Repeating a checklist
+## Editing
 
-1. Open the **Quality** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).
-2. Review the checklist shown for your operation (if multiple are available).
-3. Click **Repeat** to run the checklist again.
-4. Follow the steps on screen and confirm each checkpoint.
-5. When all steps are done, click **Finish**.
+1. Click the entry in the list.
+2. Adjust fields.
+3. Click **Save**.
 
-Saved results are linked to the production order and operation and appear in the execution overview.
+## Deletion
 
-
-## Editing and corrections
-
-- Re-open a checklist to adjust entries where allowed by your process.
-- Use **Repeat** to perform the checklist again when required.
-
-## See also
-
-- [Quality checklists](../CodeLists/QualityChecklists.md) — attach checklists to process versions or operations.
-- [Checklists](../CodeLists/Checklists.md) — create and manage checklist templates.
-- [Check points](../CodeLists/Checkpoints.md) — define individual checklist steps.
+Click **Delete** on the Edit page.
 
 ---

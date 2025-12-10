@@ -7,6 +7,9 @@ To access this page, open a process version from **Production / Management / [Pr
 
 ![Inputs Button](../Assets/InputsButton.png "Inputs Button")
 
+> [!TIP]
+> For a full demonstration, see the **[Inputs & Outputs](https://www.youtube.com/watch?v=647sT70tNZc)** video tutorial.
+
 ## Schema
 
 | Field | Description |
