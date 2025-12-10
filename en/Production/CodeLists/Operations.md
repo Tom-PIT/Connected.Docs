@@ -9,6 +9,9 @@ To access operations:
 
 ![Open operations](../Assets/ProcessesVersionsOperationsButton1.png "Open operations")
 
+> [!TIP]
+> For a full demonstration, see the **[Operations](https://www.youtube.com/watch?v=rPyLL6pSZA0)** video tutorial.
+
 ## Schema
 
 | Field | Description |

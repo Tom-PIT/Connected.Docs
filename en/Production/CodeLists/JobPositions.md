@@ -2,8 +2,7 @@
 
 The **Job positions** code list defines the roles that employees can perform in the production process. These positions are assigned to registered workers in the system, so they can be selected in production workflows (e.g., work reports, scheduling, resource assignment).
 
-To access Job positions, go to **Production / Management / Job positions** in the  
-[navigation](../../Common/UI/Navigation.md).
+To access Job positions, go to **Production / Management / Job positions** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
