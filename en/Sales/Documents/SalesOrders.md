@@ -99,9 +99,9 @@ Sales orders can be created in two ways:
 
   ![Create sales order from offer](../Assets/SalesOrdersOfferLink.png "Create sales order from offer")
 
-Once you start a new Sales order, follow these steps:
+To create a completely new Sales order, follow these steps:
 
-1. Click the **+** button to create a new Sales order.  
+1. Click the **action button** button to create a new Sales order.  
 2. Enter the **Customer**, **Document date**, and **Delivery date** (or review them if pre-filled).  
 
    ![Sales order – Document](../Assets/SalesOrdersNewTop.png)

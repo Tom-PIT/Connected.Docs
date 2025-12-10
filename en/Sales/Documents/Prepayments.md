@@ -1,6 +1,6 @@
 ﻿# Prepayments
 
-A **Prepayment** is a sales document used when a customer pays an agreed amount in advance before goods or services are delivered. It records received funds that can later be fully or partially applied to issued invoices. Prepayments can be created manually or directly from a committed **Proforma invoice**, linking them to the sales process.
+A **Prepayment** is a sales document used when a customer pays an agreed amount in advance before goods or services are delivered. It records received funds that can later be fully or partially applied to [issued invoices](IssuedInvoices.md). Prepayments can be created manually or directly from a committed [**Proforma invoice**](ProformaInvoices.md), linking them to the sales process.
 
 To access this page, go to **Sales / Documents / Prepayments**.
 
@@ -124,7 +124,7 @@ The linked documents section enables the creation of operational or follow-up do
 
 Available actions may include:
 - **[+ Issued invoice](IssuedInvoices.md)** – Create a final invoice applying the prepayment.
-- **Prepayment** – Duplicate the current prepayment to a new proforma invoice.
+- **Prepayment** – Duplicate the details from the current prepayment to a new document.
 
 #### Delivery section
 
