@@ -1,38 +1,43 @@
 # Loss classification tags
 
-Loss classification tags standardize reasons for scrap and rework, enabling clear analytics.
-
-To access this page, go to **Production / Management / Loss classification tags**.
-
 > [!TIP]
 > For a full demonstration, see the **[Loss classification tags](https://www.youtube.com/watch?v=pC8TELowUgA)** video tutorial.
+
+Loss classification tags are used in production to categorize and record different types of production losses — such as defective materials, handling issues, or cosmetic defects. These tags help identify the causes of waste and support loss-analysis reporting.
+
+To access this page, go to **Production / Management / Loss classification tags** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
 | Field | Description |
 |-------|-------------|
-| **Name** | Tag name. |
-| **Group** | Optional grouping for categories (e.g., Quality, Material). |
-| **Active** | Whether the tag is available for use. |
+| **Name** | The name of the loss category (e.g., Cosmetic defect, Damage handling) *(mandatory)*. |
 
 ## List view
 
-Shows all loss tags and their groups.
+The list displays all loss classification tags defined in the system. Use the **Search** bar to quickly filter by name.
 
-## Creating a new tag
+![Loss classification tags list](../Assets/LossClassificationTags.png)
 
-1. Click the **action button** and choose **New**.
-2. Enter name and group.
-3. Click **Add**.
+## Creating a new loss classification tag
 
-## Editing
+1. Click on the [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner.
+2. Enter the **Name** of the loss category.
 
-1. Click the entry in the list.
-2. Adjust fields.
+    ![Add loss classification tag](../Assets/LossClassificationTagsNew.png "Add loss classification tag")
+
+3. Click **Add** to save the new tag.
+
+## Editing an existing tag
+
+1. Click the tag in the list to open the Edit page.
+2. Update the **Name**.
 3. Click **Save**.
 
 ## Deletion
 
-Click **Delete** on the Edit page.
+A loss classification tag can be deleted from its Edit page by clicking **Delete**.  
+
+If confirmed, the tag is permanently removed from the system.
 
 ---
