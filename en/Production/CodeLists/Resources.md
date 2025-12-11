@@ -1,14 +1,15 @@
 ﻿# Resources
 
-Resources are used to define and manage all **human** and **non-human** assets available in Production. These include workers, machines, workstations, equipment, and teams. Resources created here can later be assigned to **operations**, **processes**, and **production orders**.
+Resources are used to define and manage all **human** and **non-human** assets available in Production. These include workers, machines, workstations, equipment, and teams. Resources created here can later be assigned to **[operations](Operations.md)**, **[processes](Processes.md)**, and **[production orders](../Documents/ProductionOrders.md)**.
 
 To access this page, go to **Production / Management / Resources** in the [**navigation**](../../Common/UI/Navigation.md).
 
-## Schema
+> [!TIP]
+> For a full demonstration, see the **[Resources](https://www.youtube.com/watch?v=Kr5WkGMQj48)** video tutorial.
 
 ## Schema
 
-The following table lists all fields used across Human, Non-human, and Team resources.
+The following table lists all fields used across **Human**, **Non-human**, and **Team** resources.
 
 | Field | Description | H | NH | T |
 |-------|-------------|:-:|:--:|:-:|
