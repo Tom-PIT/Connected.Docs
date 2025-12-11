@@ -51,7 +51,7 @@ Choose the **Material type** (e.g., Products or Semi products), then select the 
 
 Choose the **[Process](../CodeLists/Processes.md)** and **Process version** that defines how the material will be produced.
 
-![Step 2](../Assets/ProductionOrdersNewStep2.png "Step 2 - Select process")
+![Step 2](../Assets/ProductionOrdersNewStep2.1.png "Step 2 - Select process")
 
 
 ### **Step 3 — Provide additional information**
@@ -121,6 +121,9 @@ From the Pending state, you can:
 - Add notes  
 - Manage linked documents
 
+When the order is ready for production, click **Activate**.
+
+
 ## Linked documents
 
 You may attach other documents that relate to the production order, such as:
@@ -132,7 +135,9 @@ You may attach other documents that relate to the production order, such as:
 
 ![Linked documents](../Assets/ProductionOrdersLinkedDocuments.png "Linked documents")
 
-When the order is ready, click **Activate**.
+Production orders also display any linked documents created during the order's life-cycle, such as cost and consumption reports.
+
+![Production Orders Linked Documents Docs](../Assets/ProductionOrdersLinkedDocumentsDocs.png)
 
 ## Active production orders
 
@@ -148,17 +153,23 @@ The **Process** section displays all planned operations, inputs, resources, outp
 
 ## Closed production orders
 
-Once production is completed and all operations have been executed, the order is set to **Closed**.
+Once production is completed and all operations have been executed, the order is set to **Closed**, appears in the list under the **Closed** status.
 
-![Closed Production Orders List](../Assets/ProductionOrders.png "Closed Production Orders List")
+![Closed Production Orders List](../Assets/ProductionOrdersClosedList.png "Closed Production Orders List")
+
+The list also displays the cost per unit produced and an arrow indicating whether the cost has increased or decreased compared to the previous closed order for the same material.
 
 Closed orders:
 
 - Cannot be modified  
 - Provide a complete production history  
-- Show actual vs. planned quantities, losses, and outputs 
+- Show produced vs. planned quantities, losses, and outputs 
 
 ![Production Order Closed Detail](../Assets/ProductionOrderClosedDetail.png)
+
+The Process section displays the full execution history. Click on the different tabs to see the details, for example, inputs used during production:
+
+![Production Orders Closed Inputs](../Assets/ProductionOrdersClosedInputs.png)
 
 Closed production orders offer additional options in the action menu:
 
