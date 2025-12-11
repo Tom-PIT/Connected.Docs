@@ -6,6 +6,10 @@ The individual steps inside a checklist — called **[Check points](Checkpoints.
 
 To access this page, go to **Production / Management / Checklists** in the [**navigation**](../../Common/UI/Navigation.md).
 
+> [!TIP]
+> For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
+
+
 ## Schema
 
 | Field | Description |
