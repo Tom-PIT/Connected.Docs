@@ -5,6 +5,11 @@ They help standardize naming, descriptions, time-calculation behavior, tags, and
 
 To access this page, go to **Production / Management / Protocol operation instance templates** in the [**navigation**](../../Common/UI/Navigation.md).
 
+> [!TIP]
+> For a full demonstration, see the **[Operation templates](https://www.youtube.com/watch?v=Cm8RYdO0f6E)** video tutorial.
+
+
+
 ## Schema
 
 | Field | Description |
