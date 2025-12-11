@@ -1,7 +1,6 @@
 ﻿# Asset price lists
 
-**Asset price lists** define how much a specific customer (or other business entity) pays for your [assets](Assets.md).  
-They allow you to set **customer-specific pricing**, valid for a defined date range, and optionally include **volume-based discounts** (price ranges).
+**Asset price lists** define how much a specific customer (or other business entity) pays for your [assets](Assets.md).  They allow you to set **customer-specific pricing**, valid for a defined date range, and optionally include **volume-based discounts** (price ranges).
 
 To access this screen, go to **Assets / Asset price lists** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -96,7 +95,6 @@ Follow these steps to create a functional price list:
 
 ## Menu
 
-### Export (Details page only)
 Exports the asset detail table—including ranges—to a **CSV** file.
 
 ## Deletion
