@@ -128,10 +128,11 @@ When the order is ready for production, click **Activate**.
 
 You may attach other documents that relate to the production order, such as:
 
-- [Projects](../../Projects/Domain/ProjectsDomain.md)  
-- [Supply orders](../../Supply/Documents/SupplyOrders.md)
+- [**Projects**](../../Projects/Domain/ProjectsDomain.md)  
+- [**Supply orders**](../../Supply/Documents/SupplyOrders.md)
+- [**Inquiries**](../../Supply/Documents/Inquiries.md)
 - Other production orders (linked or input-producing)  
-- [Inquiries](../../Supply/Documents/Inquiries.md)
+
 
 ![Linked documents](../Assets/ProductionOrdersLinkedDocuments.png "Linked documents")
 
@@ -145,7 +146,7 @@ When activated, the order becomes **Active** and is ready for execution on the s
 
 ![Active](../Assets/ProductionOrdersPending.png "Active production order")
 
-Production workers can now execute operations through the **Execution module**. See **[Execution](Execution.md)** for more details.
+Production workers can now execute operations through the **Execution** module. See **[Execution](Execution.md)** for more details.
 
 The **Process** section displays all planned operations, inputs, resources, outputs, and quality checks for the chosen version.
 
@@ -167,7 +168,7 @@ Closed orders:
 
 ![Production Order Closed Detail](../Assets/ProductionOrderClosedDetail.png)
 
-The Process section displays the full execution history. Click on the different tabs to see the details, for example, inputs used during production:
+The **Process** section displays the full execution history. Click on the different tabs to see the details, for example, inputs used during production:
 
 ![Production Orders Closed Inputs](../Assets/ProductionOrdersClosedInputs.png)
 
@@ -191,12 +192,12 @@ If modifications are necessary after closing, you can revert the order back to *
 
 ## Deletion
 
-A production order can be deleted only when in **Draft or Pending states** and if it is **not referenced by other documents**.  
+A production order can be deleted only when in **Draft or Pending states** and if it is not referenced by other documents.  
 
 Use the **Delete** option in the header.
 
 > [!NOTE]
 >
-> Closed orders cannot be deleted, but they can be reverted to Active for modifications if necessary.
+> Closed orders cannot be deleted, but they can be reverted to active for modifications if necessary.
 
 ---
