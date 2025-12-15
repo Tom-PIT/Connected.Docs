@@ -16,7 +16,7 @@ To access Supply, navigate to **Supply** in the [navigation](../../Common/UI/Nav
 The domain is organized into several functional areas:
 
 - **[Documents](#documents)** – procurement documents used to request or order materials  
-- **[Supply stock boundaries planning](#supply-stock-boundaries-planning** – planning tools based on stock boundary rules  
+- **[Supply stock boundaries planning](#supply-stock-boundaries-planning)** – planning tools based on stock boundary rules  
 - **[Views](#views)** – analytical tools for understanding procurement trends  
 - **[Management](#management)** – code lists and configuration for supplier-related processes
 
