@@ -49,7 +49,7 @@ These filters control whether the list shows active or inactive expense entries.
 
 ## Actions
 
-Click the action button to create a new expense. The input form includes fields such as:
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new expense. The input form includes fields such as:
 
 - Code  
 - Name  
