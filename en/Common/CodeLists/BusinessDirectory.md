@@ -47,11 +47,11 @@ The user interface contains a list of entries in the business directory.
 
 ![Business Directory](../Assets/BusinessDirectory.png "Business Directory")
 
-Each record displays multiple tags representing **associated data**:
-- [Contacts](Contacts.md)
-- [Bank accounts](BankAccounts.md)
-- [Business units](BusinessUnits.md)
-- [Company cards](../../Sales/Views/CompanyCards.md)
+Each record displays multiple tags representing **associated data**. Use these pages to add related data to each customer:
+- [**Contacts**](Contacts.md)
+- [**Bank accounts**](BankAccounts.md)
+- [**Business units**](BusinessUnits.md)
+- [**Company cards**](../../Sales/Views/CompanyCards.md)
 
 Filters on the left side allow you to narrow results by **View**, **Relation**, **Type**, and **Country**.
 
