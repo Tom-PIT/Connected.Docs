@@ -88,7 +88,7 @@ An example of a list with **Completed** offers:
 
     ![New offer details](../Assets/OfferNewDetails.png)
 
-4. Save the added details.
+4. Click **Save** the confirm added details. Repeat step 3 to add more items.
 
     ![Edit detail](../Assets/OfferNewDetailsSaved.png)
 
