@@ -76,6 +76,13 @@ Create a Disassembly to split sets into their parts.
 > [!IMPORTANT]
 > On publish, stock is updated: the set disappears (decreases by the disassembled quantity) and parts become available (increase according to the set structure). Locations are respected if provided.
 
+### Alternative creation path (from Receives)
+
+If you already published a **[Receive](Receives.md)**, you can create a disassembly directly from it:
+- Open the committed Receive.
+- Use **Document connections ? + Disassemble**.
+
+This creates a Disassembly draft prefilled from the received packages, useful to record disassemblies directly at receipt.
 
 ## Editing
 
