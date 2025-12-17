@@ -107,13 +107,15 @@ To create a completely new Sales order, follow these steps:
    ![Sales order – Document](../Assets/SalesOrdersNewTop.png)
 
 3. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar (or review them if pre-filled).  
-   - The system displays **all matching materials and serial numbers**.
+   - The system displays **all matching materials and serial numbers**. If multiple matches exist, select the correct one from the list.
 
    ![Sales order – Add detail](../Assets/SalesOrdersNewDetails.png)
 
-4. Review or adjust delivery information in the **Delivery** section.  
-5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
-6. When ready, click **Publish** at the top of the page.
+4. Adjust the **Quantity**, **Delivery date**, or other fields as needed.  
+5. Click **Save** the confirm added details. Repeat step 3 to add more items.
+6. Review or adjust delivery information in the **Delivery** section.  
+7. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
+8. When ready, click **Publish** at the top of the page.
 
 Once published, the Sales order moves into the **Committed → Available** state, enabling all related actions such as creating Delivery notes, Production orders, Maintenance orders, or Issued invoices.
 
