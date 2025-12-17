@@ -1,9 +1,8 @@
-
 # Processes
 
-Processes define the structured steps used in **Production** to transform inputs into finished or intermediate outputs. They form the backbone of production workflows and are used in **Production orders** to calculate materials, resources, workloads, and execution steps. This page allows you to create and manage processes, their versions, and their operational structure.
+Processes define the structured steps used in **Production** to transform inputs into finished or intermediate outputs. They form the backbone of production workflows and are used in [**Production orders**](../Documents/ProductionOrders.md) to calculate materials, resources, workloads, and execution steps. This page allows you to create and manage processes, their versions, and their operational structure.
 
-A process may contain one or more **versions**, for example, different versions for different table sizes. Each version contains a sequence of [**operations**](Operations.md), which define inputs, resources, outputs, and quality requirements.
+A process may contain one or more **versions**, for example, different versions for different table sizes. Each version contains a sequence of [**operations**](Operations.md), which define inputs, resources (human and non human), outputs, and quality requirements.
 
 To access this page, go to **Production / Management / Processes** in the [**navigation**](../../Common/UI/Navigation.md).
 
@@ -19,7 +18,8 @@ To access this page, go to **Production / Management / Processes** in the [**nav
 | [**Code**](../../Common/UI/DocumentCodes.md) | Automatically generated process code (read-only). |
 | **Name** | The name of the process (mandatory). |
 | **Description** | A short explanation of what the process accomplishes. |
-| **Tags** | Optional tags used to group or categorize the process. |
+| **Tags** | Tags used to group or categorize the process. |
+| **Tags** | Tags used to group or categorize the process, e.g., **Production** or **Maintenance**. |
 
 ### Version fields
 
@@ -50,11 +50,14 @@ The left-side panel provides filters for:
 2. Fill in the following fields:  
    - **Name** – Required  
    - **Description** – Optional  
-   - **Tags** – Optional  
+   - **Tags** – Optional, but **required** to link the process to specific areas. For example, add the **Production** tag to make the process available when creating a new [**Production order**](../Documents/ProductionOrders.md).
 
     ![New process](../Assets/ProcessesNew.png)
 
 3. Click **Add** to create the new process.
+
+> [!IMPORTANT]
+> Tags control where the process can be used. If you do not add a relevant tag (e.g., **Production**), the process will not be available when creating documents in that area (e.g., a [**Production order**](../Documents/ProductionOrders.md)).
 
 ## Editing a process
 
