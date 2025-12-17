@@ -1,1 +1,95 @@
-TODO
+# Disassemblies
+
+Disassemblies are logistics documents used to break down a set (combined material) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.
+
+Use a Disassembly when you receive or store sets (bundled materials) but need to consume or sell their components separately. Publishing a Disassembly reduces the set’s stock and increases the stock of its parts according to the structure defined on the set.
+
+In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/CodeLists/Sets.md)** code list.
+
+> [!TIP]
+> For a full demonstration, see the **[Disassemblies](https://www.youtube.com/watch?v=0BWXVj_RUlY)** video tutorial.
+
+> [!NOTE]
+> Disassembly affects inventory on publish: parts become available and the set quantity decreases accordingly.
+
+### Example scenario
+
+You receive furniture sets, for example a dining set (one table and four chairs) packaged as a single set. To use or sell the items individually, create a Disassembly for the dining set and publish it. The set quantity decreases, and the component parts (table and chairs) appear in stock, ready for picking.
+
+
+## Schema
+
+| Field | Description |
+|-------|-------------|
+| [**Code**](../../Common/UI/DocumentCodes.md) | Auto-generated document code. |
+| **Document date** | Date of the disassembly document. |
+| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where disassembly occurs (mandatory). |
+| **Details** | List of sets to be disassembled (mandatory). |
+
+### Details
+
+| Field | Description |
+|-------|-------------|
+| **Set (material)** | The combined material (e.g., a furniture set) you are disassembling (required). See [Sets](../../Assets/CodeLists/Sets.md). |
+| **Quantity** | How many sets to disassemble (required). |
+| **Serial number** | Item serial number, if applicable. |
+| **Best before** | Best before date for perishable sets/components, if applicable. |
+| **Warehouse location** | Bin/shelf used during disassembly or where parts are placed. See [Locations](../CodeLists/Locations.md). |
+
+## Management
+
+## List view and filters
+
+The Disassemblies list shows existing documents with status indicators (Draft/Published). A search bar and filters help locate records by warehouse, date, or code.
+
+![Disassemblies List](../Assets/DisassembliesList.png "Disassemblies list")
+
+## Creating a disassembly document
+
+Create a Disassembly to split sets into their parts.
+
+1. Go to **Logistics / Documents / Disassemblies**.
+2. Use the **action button** to create a draft Disassembly.
+
+    ![Disassemblies New](../Assets/DisassembliesNew.png)
+
+3. Fill the **Document** section.
+
+4. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
+   - The system displays **all matching materials and serial numbers**. If multiple matches exist, select the correct one from the list.
+   
+   ![Disassemblies New Details Multiple](../Assets/DisassembliesNewDetailsMultiple.png)
+
+   - Enter the **Quantity** of sets to disassemble.
+
+    ![Disassemblies New Details Edit](../Assets/DisassembliesNewDetailsEdit.png)
+
+ 
+5. Click **Save** the confirm added details. Repeat step 4 to add more items.
+   - After saving a detail, click the arrow to expand and see the list of parts that will be disassembled, with their calculated quantities. 
+
+   ![Disassemblies New Details Saved](../Assets/DisassembliesNewDetailsSaved.png)
+
+6. Click **Publish** to commit the disassembly.
+
+> [!IMPORTANT]
+> On publish, stock is updated: the set disappears (decreases by the disassembled quantity) and parts become available (increase according to the set structure). Locations are respected if provided.
+
+
+## Editing
+
+- Click a document **Code** to open it.
+- In **Draft** status, you can modify header fields and details.
+- Use **Save** to confirm changes.
+
+## Menu
+
+Click on the hamburguer menu (three vertical dots) in the top-right corner to print **received serial number labels** using a configured printer.
+
+## Deletion
+
+- Click **Delete** in the edit screen to remove a draft.
+- Published disassemblies typically cannot be deleted if they impact stock or have dependent records.
+
+---
+
