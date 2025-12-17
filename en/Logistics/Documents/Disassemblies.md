@@ -4,13 +4,14 @@ Disassemblies are logistics documents used to break down a set (combined materia
 
 Use a Disassembly when you receive or store sets (bundled materials) but need to consume or sell their components separately. Publishing a Disassembly reduces the set’s stock and increases the stock of its parts according to the structure defined on the set.
 
-In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/CodeLists/Sets.md)** code list.
-
 > [!TIP]
 > For a full demonstration, see the **[Disassemblies](https://www.youtube.com/watch?v=0BWXVj_RUlY)** video tutorial.
 
 > [!NOTE]
-> Disassembly affects inventory on publish: parts become available and the set quantity decreases accordingly.
+> - Disassembly affects inventory on publish: parts become available and the set quantity decreases accordingly.
+> - In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/CodeLists/Sets.md)** code list.
+
+To access **Disassemblies**, go to **Logistics / Documents / Disassemblies** in the [navigation](../../Common/UI/Navigation.md).
 
 ### Example scenario
 
@@ -78,9 +79,9 @@ Create a Disassembly to split sets into their parts.
 
 ## Editing
 
-- Click a document **Code** to open it.
-- In **Draft** status, you can modify header fields and details.
-- Use **Save** to confirm changes.
+1. Click a document **Code** to open it.
+2. In **Draft** status, you can modify header fields and details.
+3. Use **Save** to confirm changes.
 
 ## Menu
 
