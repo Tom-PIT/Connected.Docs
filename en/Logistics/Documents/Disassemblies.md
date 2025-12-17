@@ -1,8 +1,8 @@
-# Disassemblies
+﻿# Disassemblies
 
 Disassemblies are logistics documents used to break down a set (combined material) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.
 
-Use a Disassembly when you receive or store sets (bundled materials) but need to consume or sell their components separately. Publishing a Disassembly reduces the set�s stock and increases the stock of its parts according to the structure defined on the set.
+Use a Disassembly when you receive or store sets (bundled materials) but need to consume or sell their components separately. Publishing a Disassembly reduces the set’s stock and increases the stock of its parts according to the structure defined on the set.
 
 > [!TIP]
 > For a full demonstration, see the **[Disassemblies](https://www.youtube.com/watch?v=0BWXVj_RUlY)** video tutorial.
@@ -80,7 +80,7 @@ Create a Disassembly to split sets into their parts.
 
 If you already published a **[Receive](Receives.md)**, you can create a disassembly directly from it:
 - Open the committed Receive.
-- Use **Document connections ? + Disassemble**.
+- Use **Document connections → + Disassemble**.
 
 This creates a Disassembly draft prefilled from the received packages, useful to record disassemblies directly at receipt.
 
@@ -92,7 +92,7 @@ This creates a Disassembly draft prefilled from the received packages, useful to
 
 ## Menu
 
-Click on the hamburguer menu (three vertical dots) in the top-right corner to print **received serial number labels** using a configured printer.
+Click on the hamburger menu (three vertical dots) in the top-right corner to print **received serial number labels** using a configured printer.
 
 ## Deletion
 
