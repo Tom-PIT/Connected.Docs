@@ -26,7 +26,7 @@ To access the **Raw materials** code list, go to **Assets / Materials / Raw mate
 | **EAN**              | Barcode value used for scanning. |
 | **Base measure unit**     | Measure unit used to express quantities (e.g., piece, kg, meter). |
 | **Tax rate**         | Default tax rate used in business documents. |
-| **Precision**        | Default number of decimal places for values and quantities. |
+| **Precision**        | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
 | **Description**      | Short internal description of the raw material. |
 | **Tags**             | Tags used for categorization and filtering. |
 | **Info link URL**    | URL linking to external information or documentation. |
