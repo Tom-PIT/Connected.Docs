@@ -26,7 +26,7 @@ To access the **Repro materials** code list, go to: **Assets / Materials / Repro
 | **EAN** | Barcode value used for scanning. For example **57884441241**. |
 | **Measure unit** | Measure unit used to express quantities, such as **piece** or **meter**. |
 | **Tax rate** | Default tax rate used in business documents. For example **22** or **9.5**. |
-| **Precision** | Default number of decimal places for displaying values or quantities. For example **2** or **3**. |
+| **Precision** | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
 | **Description** | Short internal description specifying the material’s purpose or characteristics. |
 | **Tags** | Tags used for categorization and filtering. |
 | **Info link URL** | URL linking to external material information or documentation. |

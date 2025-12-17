@@ -26,7 +26,7 @@ To access the **Semi products** code list, go to **Assets / Materials / Semi pro
 | **EAN** | Barcode value used for scanning. |
 | **Base measure unit** | Measure unit used to express quantities, such as **piece** or **meter**. |
 | **Tax rate** | Default tax rate used in business documents. |
-| **Precision** | Default number of decimal places for displaying values or quantities. |
+| **Precision** | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
 | **Description** | Short internal description explaining the use or specifications of the semi product. |
 | **Tags** | Tags used for categorization and filtering. |
 | **Info link URL** | URL linking to external material information or documentation. |

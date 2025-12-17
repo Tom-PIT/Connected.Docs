@@ -26,7 +26,7 @@ To access the **Products** code list, go to **Assets / Materials / Products** in
 | **EAN** | Barcode value used for scanning. For example **3831234567890**. |
 | **Base measure unit** | Measure unit used to express quantities, such as **piece** or **meter**. |
 | **Tax rate** | Default tax rate used in business documents. For example **22** or **9.5**. |
-| **Precision** | Default number of decimal places for displaying values or quantities. For example **2** or **3**. |
+| **Precision** | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
 | **Description** | Short internal description explaining the use or specifications of the product. For example **Solid oak, oiled**. |
 | **Tags** | Tags used for categorization and filtering. For example **furniture**, **premium**. |
 | **Info link URL** | URL linking to external product information or documentation. For example *https://example.domain/info*. |
