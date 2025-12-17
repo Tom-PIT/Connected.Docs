@@ -1,6 +1,6 @@
 # Warehouse locations
 
-The **Warehouse locations** list maps Production organization units to physical warehouse locations so
+The **Warehouse locations** list maps [organization units](OrganizationUnits.md) to physical warehouse locations so
 production workflows can source materials and store produced items. Use this page to manage which
 locations Production may use for input and output and to enforce connection rules between
 organization units and warehouse locations.
