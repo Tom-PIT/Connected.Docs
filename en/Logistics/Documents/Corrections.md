@@ -65,9 +65,9 @@ Publishing the correction updates inventory to reflect the new quantities and at
 
 ## Editing
 
-- Click the document **Code** to open it.
-- In **Draft** status, modify header and details as needed.
-- Use **Save** to confirm changes.
+1. Click the document **Code** to open it.
+2. In **Draft** status, modify header and details as needed.
+3. Use **Save** to confirm changes.
 
 ## Deletion
 
