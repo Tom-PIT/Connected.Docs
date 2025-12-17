@@ -4,17 +4,19 @@ Corrections are logistics documents used to adjust inventory when physical stock
 
 Use Corrections to:
 - Increase or decrease on-hand quantity for specific serials or items
-- Update attributes like best‑before dates when mislabeled
+- Update attributes like best-before dates when mislabeled
 - Fix location discrepancies after physical counts
 
 > [!NOTE]
 > Corrections affect inventory on publish: the system updates stock levels and attributes based on the entered differences.
 
+To access **Corrections**, go to **Logistics / Documents / Corrections** in the [navigation](../../Common/UI/Navigation.md).
+
 ## Schema
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | Auto‑generated document identifier (read‑only). |
+| [**Code**](../../Common/UI/DocumentCodes.md) | Auto-generated document identifier. |
 | **[Warehouse](../CodeLists/Warehouses.md)** | Warehouse where the correction applies (mandatory). |
 | **Document date** | Date of the correction document. |
 
@@ -27,7 +29,7 @@ Each detail describes the material and the correction to apply.
 | **Material type** | Item category, e.g., [Products](../../Assets/CodeLists/Products.md), [Semi products](../../Assets/CodeLists/SemiProducts.md), [Raw materials](../../Assets/CodeLists/RawMaterials.md), [Repro materials](../../Assets/CodeLists/ReproMaterials.md). |
 | **Material** | Selected item (e.g., Pine table) from the [Assets](../../Assets/CodeLists/Assets.md) catalog. |
 | **Serial number** | Serial number to which the correction applies, if the material is serialized. |
-| **Best before** | Best‑before date, if applicable for perishable materials. |
+| **Best before** | Best-before date, if applicable for perishable materials. |
 | **Warehouse location** | Bin/shelf in the warehouse for precise placement. See [Locations](../CodeLists/Locations.md). |
 | **Quantity** | Quantity to correct (enter the final quantity or a delta, depending on configuration). |
 
