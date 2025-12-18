@@ -1,6 +1,6 @@
 ﻿# Company cards
 
-The **Company cards** view provides a detailed overview of all **debit and credit records** related to each company. Instead of showing a single consolidated balance, this screen lists **individual financial documents** (such as issued invoices, credit notes, and debit notes) and indicates whether each record is **unpaid**, **partially paid**, or **fully paid**.
+The **Company cards** view provides a detailed overview of all **debit and credit records** related to each company. Instead of showing a single consolidated balance, this screen lists **individual financial documents** (such as [issued invoices](../Documents/IssuedInvoices.md), [credit notes](../Documents/CreditNotes.md), and [debit notes](../Documents/DebitNotes.md)) and indicates whether each record is **unpaid**, **partially paid**, or **fully paid**.
 
 This view is intended for **financial monitoring and reconciliation** and does not allow creating or editing documents.
 
