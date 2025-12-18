@@ -151,8 +151,8 @@ If you need to delete some individual detail lines:
 2. Remove it using **Delete**.
 3. Repeat until all desired lines are removed.
 
-Once empty, the **Delete** can be perfomed.
+Once empty, the **Delete** action can be performed.
 
-Committed debit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+Committed debit notes **cannot** be deleted, but they can be [**reversed**](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
 ---
