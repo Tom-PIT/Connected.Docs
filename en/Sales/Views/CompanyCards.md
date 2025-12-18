@@ -7,7 +7,7 @@ This screen does **not** create or modify documents. It is an analytical view th
 
 To access this view, go to **Sales / Views / Company cards** in the [navigation](../../Common/UI/Navigation.md).
 
-![Company cards overview](../Assets/CompanyCardsView.png)
+![Company cards overview](../Assets/CompanyCardsList.png)
 
 ## Company cards list
 
