@@ -71,7 +71,7 @@ Create a Disassembly to split sets into their parts.
 
    ![Disassemblies New Details Saved](../Assets/DisassembliesNewDetailsSaved.png)
 
-6. Click **Publish** to commit the disassembly.
+6. Click **Publish** to commit the disassembly. The document is available for review in the committed list.
 
 > [!IMPORTANT]
 > On publish, stock is updated: the set disappears (decreases by the disassembled quantity) and parts become available (increase according to the set structure). Locations are respected if provided.
@@ -97,7 +97,7 @@ Click on the hamburger menu (three vertical dots) in the top-right corner to pri
 ## Deletion
 
 - Click **Delete** in the edit screen to remove a draft.
-- Published disassemblies typically cannot be deleted if they impact stock or have dependent records.
+- Published disassemblies typically cannot be deleted.
 
 ---
 
