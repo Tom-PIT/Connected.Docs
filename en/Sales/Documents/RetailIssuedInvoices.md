@@ -100,7 +100,7 @@ Retail issued invoices can only be created manually.
 
 5. Save the detail lines and review totals.
 
-6. Add **Payment methods** at the bottom of the document.
+6. Add **Payment methods** at the bottom of the document (optional).
 
    ![Retail invoice payment methods](../Assets/RetailInvoiceNewBottom.png "Retail invoice payment methods")
 
@@ -113,11 +113,21 @@ Payments are recorded using the **Payment** button at the top of the document.
 
 ![Retail Issue Invoice Payment Screen](../Assets/RetailIssueInvoicePaymentScreen.png "Payment screen")
 
-The button opens a payment dialog where you can enter the payment amount and see the total, due and payment dates, and remaining amount.
+In the payment dialog you can see:
 
-- Multiple payments can be recorded.
-- Partial payments move the document to **Partially paid invoices**.
-- Once the full amount is paid, the document moves to **Fully paid invoices**.
+- **Total cost** – Invoice gross amount and due date.  
+- **Payment** – Amount being paid now and date of payment.  
+- **Remaining amount** – Outstanding balance after the payment.
+
+You can register multiple payments over time. The system automatically updates the invoice status:
+
+- **Unpaid** – No payments recorded.  
+- **Partially paid** – Some payments recorded, but an outstanding amount remains.  
+- **Fully paid** – Remaining amount is zero.
+
+> [!NOTE]  
+> When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
+
 
 ## Stock handling
 
