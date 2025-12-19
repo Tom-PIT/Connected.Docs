@@ -51,12 +51,12 @@ The **Analytics** section provides insight into production performance, downtime
 
 Available analytical views include:
 
-- **[Downtime summary](../Analytics/DowntimeSummary.md)**  
-- **[Equipment summary](../Analytics/EquipmentSummary.md)**  
-- **[Production KPIs](../Analytics/ProductionKPIs.md)**  
-- **[Loss summary](../Analytics/LossSummary.md)**  
-- **[Organization unit downtime](../Analytics/OrganizationUnitDowntime.md)**  
-- **[Organization unit loss](../Analytics/OrganizationUnitLoss.md)**  
+- **[Downtime summary](../Analytics/DowntimeSummary.md)** – Overview of downtime causes, durations, and impact.
+- **[Equipment summary](../Analytics/EquipmentSummary.md)** – Machine availability, uptime, and utilization metrics.
+- **[Production KPIs](../Analytics/ProductionKPIs.md)** – Throughput, yield, cycle time, and efficiency indicators.
+- **[Loss summary](../Analytics/LossSummary.md)** – Distribution of losses (scrap, rework, inefficiency) by category.
+- **[Organization unit downtime](../Analytics/OrganizationUnitDowntime.md)** – Downtime analysis by organization unit.
+- **[Organization unit loss](../Analytics/OrganizationUnitLoss.md)** – Loss analysis by organization unit.
 
 These insights support production planning, continuous improvement, and operational decision-making.
 
@@ -68,17 +68,17 @@ The **Management** section contains configuration, process definitions, and prod
 
 Available configuration and code lists include:
 
-- **Configuration** – global production settings  
-- **[Checklists](../CodeLists/CheckLists.md)**  
-- **[Downtime tags](../CodeLists/DowntimeTags.md)**  
-- **[Loss classification tags](../CodeLists/LossClassificationTags.md)**  
-- **[Job positions](../CodeLists/JobPositions.md)**  
-- **[Measure units](../../Common/CodeLists/MeasureUnits.md)**  
-- **[Organization units](../CodeLists/OrganizationUnits.md)**  
-- **[Processes](../CodeLists/Processes.md)**  
-- **[Protocol operation instance templates](../CodeLists/ProtocolOperationsInstanceTemplates.md)**  
-- **[Resources](../CodeLists/Resources.md)**  
-- **[Warehouse locations](../CodeLists/WarehouseLocations.md)**  
+- **[Configuration](../CodeLists/ProductionConfiguration.md)** – Global production settings for numbering and behavior.
+- **[Checklists](../CodeLists/CheckLists.md)** – Quality and process checklists used during execution.
+- **[Downtime tags](../CodeLists/DowntimeTags.md)** – Classification of downtime reasons for analysis.
+- **[Loss classification tags](../CodeLists/LossClassificationTags.md)** – Standard categories for loss recording and reporting.
+- **[Job positions](../CodeLists/JobPositions.md)** – Roles and positions for shop-floor personnel.
+- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Unified measurement units across production.
+- **[Organization units](../CodeLists/OrganizationUnits.md)** – Hierarchical production units used for planning and analytics.
+- **[Processes](../CodeLists/Processes.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
+- **[Protocol operation instance templates](../CodeLists/ProtocolOperationsInstanceTemplates.md)** – Templates for step-by-step operation protocols.
+- **[Resources](../CodeLists/Resources.md)** – Human and non-human resources used in production.
+- **[Warehouse locations](../CodeLists/WarehouseLocations.md)** – Logistics-backed staging and storage locations for production.
 
 These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.
 
