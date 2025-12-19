@@ -1,12 +1,13 @@
-# Assets
+ï»¿# Assets
 
-The **Assets** domain contains all records related to the goods and services your company offers and prices—whether for sales, internal use, or catalog presentation.
+The **Assets** domain contains all records related to the goods and services your company offers and prices, as well as the operational items used to build, deliver, or support them. It includes both **Assets** (commercial items you sell) and **Materials** (operational items used internally in production and logistics).
 
-Assets differ from *materials* in that assets are **commercial items**: they represent what is sold to customers, while materials represent what is used internally in production or stock processes.  
+- **Assets** are commercial items visible to customers (e.g., finished goods, service items, catalog entries). They define how offerings are priced, taxed, and presented in sales documents.
+- **Materials** are operational items used internally (e.g., raw materials, components, semiâ€‘finished goods, packaging, repro materials). They define what exists in stock and how goods move through logistics and production.
 
-For example, an **asset** might be a *Complete Laptop Set* sold as a packaged offering that includes a laptop, a carrying bag, and a mouse. The individual parts of that set—such as the **mouse**, the **laptop**, or even the internal **chips** inside the laptop—would be considered **materials**, because they are components used to build, assemble, or support the final commercial product. See the comparison [Assets vs. Materials](#assets-vs-materials) for more information.
+For example, an **asset** might be a *Complete Laptop Set* sold as a packaged offering that includes a laptop, a carrying bag, and a mouse. The individual parts of that setâ€”such as the **mouse**, the **laptop**, or even the internal **chips** inside the laptopâ€”would be considered **materials**, because they are components used to build, assemble, or support the final commercial product. See the comparison [Assets vs. Materials](#assets-vs-materials) for more information.
 
-This domain groups together all elements needed to define, price, and organize your asset catalog.
+This domain groups together all elements needed to define, price, organize, and operate your catalog across sales and logistics.
 
 
 To access the Assets domain, navigate to **Assets** in the [navigation](../../Common/UI/Navigation.md).
@@ -14,24 +15,28 @@ To access the Assets domain, navigate to **Assets** in the [navigation](../../Co
 ![Assets Domain](../Assets/AssetsSitemap.png)
 
 > [!NOTE]  
-> The available domains depend on each company’s configuration and business model.
+> The available domains depend on each companyâ€™s configuration and business model.
 
 ## What is included in the Assets domain?
 
+![Assets Domain](../Assets/AssetsDomain.png "Assets Domain overview")
+
 The domain is structured into several functional areas:
 
-- **[Assets](../CodeLists/Assets.md)** – Defines the goods and services offered to customers. Each asset includes prices, tax settings, descriptive fields, and optional component details.
+- **[Assets](../CodeLists/Assets.md)** â€“ Defines the goods and services offered to customers. Each asset includes prices, tax settings, descriptive fields, and optional component details.
 
-- **[Asset price lists](../CodeLists/AssetPriceLists.md)** – Used to prepare customer-specific selling prices for selected assets. Price lists support validity periods, company-specific pricing, and quantity-based discount ranges.
+- **[Asset price lists](../CodeLists/AssetPriceLists.md)** â€“ Used to prepare customer-specific selling prices for selected assets. Price lists support validity periods, company-specific pricing, and quantity-based discount ranges.
 
-- **[Materials](Materials.md)** – Materials are used to *build* assets or represent items handled in logistics workflows (stock, receives, issues, etc.). Unlike assets, materials are operational internal units.
+- **[Materials](Materials.md)** â€“ Materials are used to *build* assets or represent items handled in logistics workflows (stock, receives, issues, etc.). Unlike assets, materials are operational internal units.
 
     - **[Products](../CodeLists/Products.md)**
     - **[Raw materials](../CodeLists/RawMaterials.md)**
     - **[Repro materials](../CodeLists/ReproMaterials.md)**
     - **[Semi products](../CodeLists/SemiProducts.md)**
 
-- **[Management](../CodeLists)** – Contains additional configurable elements such as [**Tax rates**](../../Common/CodeLists/TaxRates.md) and [**Measure units**](../../Common/CodeLists/MeasureUnits.md). These define the structure and behavior of assets and pricing.
+- **[Management](../CodeLists)** â€“ Contains additional configurable elements such as [**Tax rates**](../../Common/CodeLists/TaxRates.md) and [**Measure units**](../../Common/CodeLists/MeasureUnits.md). These define the structure and behavior of assets and pricing.
+
+![Assets Domain Management](../Assets/AssetsDomainManagement.png)
 
 ## Assets vs. Materials
 
