@@ -13,7 +13,7 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 3. The invoice is published and appears as **Unpaid** by default.  
 4. Payments are recorded directly on the invoice (full or partial).  
 5. The invoice moves automatically to **Partially paid** or **Fully paid** based on recorded payments.  
-6. Stock is adjusted separately using an **Issue** document (or Delivery note + Issue if goods are delivered).
+6. Stock is adjusted separately using an [**Issue**](../../Logistics/Documents/Issues.md) document (or [**Delivery note**](DeliveryNotes.md) + [**Issue**](../../Logistics/Documents/Issues.md) if goods are delivered).
 
 ## Schema
 
@@ -100,7 +100,7 @@ Retail issued invoices can only be created manually.
 
 5. Save the detail lines and review totals.
 
-6. Optionally add **Payment methods** at the bottom of the document.
+6. Add **Payment methods** at the bottom of the document.
 
    ![Retail invoice payment methods](../Assets/RetailInvoiceNewBottom.png "Retail invoice payment methods")
 
@@ -111,31 +111,40 @@ Retail issued invoices can only be created manually.
 
 Payments are recorded using the **Payment** button at the top of the document.
 
+![Retail Issue Invoice Payment Screen](../Assets/RetailIssueInvoicePaymentScreen.png "Payment screen")
 
+The button opens a payment dialog where you can enter the payment amount and see the total, due and payment dates, and remaining amount.
 
+- Multiple payments can be recorded.
+- Partial payments move the document to **Partially paid invoices**.
+- Once the full amount is paid, the document moves to **Fully paid invoices**.
 
 ## Stock handling
 
-Retail issued invoices **do not decrease stock**.
+Retail proforma invoices **do not decrease stock**, regardless of payment status.
 
 To adjust inventory:
-- Create an **Issue** document (**Logistics / Documents / Issue**), or  
-- If goods are delivered, create a **Delivery note** followed by an **Issue**.
+- Create an [issue](../../Logistics/Documents/Issues.md) document, or  
+- Create a [delivery note](DeliveryNotes.md) followed by an [issue](../../Logistics/Documents/Issues.md).
 
 ## Menu
 
-The document menu provides:
+The document menu for published invoices provides:
 - **Printing**
 - **Exporting**
 - **Send as email**
-- **Reverse document**
+- **Reverse document** - See [**Reversals**](../../Logistics/Documents/Reversals.md) for details.
 - **Return to draft**
 
    ![Retail invoice menu](../Assets/RetailInvoiceMenu.png "Retail invoice menu")
 
+> [!NOTE]
+>
+> Draft invoices do not have **Reverse document**, but they have a **Delete all details** option.
+
 ## Deletion
 
-**Draft** retail issued invoices can be deleted if they contain **no details**.
+**Draft** retail issued invoices can be deleted if they contain **no details**. You can use the **Delete all details** option in the document menu.
 
 If the draft still includes items in the **Details** section:
 
