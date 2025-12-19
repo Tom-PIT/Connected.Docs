@@ -89,10 +89,10 @@ An [inquiry](../Documents/Inquiries.md) is requested from the supplier, providin
 A [supply order](../Documents/SupplyOrders.md) is created and issued based on material needs or supplier agreements.
 
 ### **3. Delivery & Receipt**  
-Goods are delivered by suppliers and processed through **Logistics** [Receives](../../Logistics/Documents/Receives.md).
+Goods are delivered by suppliers and processed through **Logistics** [**Receives**](../../Logistics/Documents/Receives.md).
 
 ### **4. Planning & Replenishment**  
-[Stock boundaries](../../Logistics/CodeLists/StockBoundaries.md) and planning views (see [Supply stock boundaries planning](../Documents/SupplyStockBoundariesPlanning.md)) help determine when new procurement cycles should begin.
+[**Stock boundaries**](../../Logistics/CodeLists/StockBoundaries.md) and planning views (see [**Supply stock boundaries planning**](../Documents/SupplyStockBoundariesPlanning.md)) help determine when new procurement cycles should begin.
 
 ### **5. Analysis**  
 Views provide insights into supplier performance, order timelines, and overall procurement efficiency.
