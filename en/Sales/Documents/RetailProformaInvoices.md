@@ -93,19 +93,23 @@ Retail proforma invoices can only be created manually.
 
    ![New retail proforma invoice](../Assets/RetailProformaInvoiceNew.png)
 
-2. Select a **Customer** and fill in mandatory document fields.
+2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) are available.
 
-3. Add items in the **Details** section by typing or scanning a serial number, EAN, or asset name.
+   ![Customer classification](../../Common/Assets/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
+
+3. Fill in mandatory header fields: **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)**.
+
+4. Add items in the **Details** section by typing or scanning a serial number, EAN, or asset name.
 
    ![Retail proforma details](../Assets/RetailProformaInvoiceNewDetailsEdit.png)
 
-4. Save the details.
+5. Save the details.
 
-5. Select a **Payment method** at the bottom of the document.
+6. Select a **Payment method** at the bottom of the document (optional).
    
    ![Retail proforma new bottom](../Assets/RetailInvoiceNewBottom.png)
 
-5. When ready, click **Publish** to confirm the document.  
+7. When ready, click **Publish** to confirm the document.  
    The document moves from **Draft** to **Unpaid invoices**.
 
 ### Payments
@@ -114,15 +118,20 @@ Payments are recorded using the **Payment** button at the top of the document.
 
 ![Retail Proforma Invoice Payment Screen](../Assets/RetailProformaInvoicePaymentScreen.png "Payment screen")
 
-The button opens a payment dialog where you can enter the payment amount and see the total, due and payment dates, and remaining amount.
+In the payment dialog you can see:
 
-- Multiple payments can be recorded.
-- Partial payments move the document to **Partially paid invoices**.
-- Once the full amount is paid, the document moves to **Fully paid invoices**.
+- **Total cost** – Invoice gross amount and due date.  
+- **Payment** – Amount being paid now and date of payment.  
+- **Remaining amount** – Outstanding balance after the payment.
 
-Payment methods used are listed in the **Payment methods** section at the bottom of the document.
+You can register multiple payments over time. The system automatically updates the invoice status:
 
-![Retail payment methods](../Assets/RetailInvoiceNewBottom.png)
+- **Unpaid** – No payments recorded.  
+- **Partially paid** – Some payments recorded, but an outstanding amount remains.  
+- **Fully paid** – Remaining amount is zero.
+
+> [!NOTE]  
+> When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
 
 ### Editing a retail proforma invoice
 
