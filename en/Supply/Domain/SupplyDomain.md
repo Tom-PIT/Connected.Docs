@@ -30,20 +30,23 @@ The **Documents** section contains procurement-related documents used to request
 
 Available documents include:
 
-- **[Inquiries](../Documents/Inquiries.md)** – Requests sent to suppliers asking for quotations or availability.  
-- **[Supply orders](../Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services.
+- **[Inquiries](../Documents/Inquiries.md)** – Requests sent to suppliers asking for quotations or availability. These do not affect stock and can typically be converted to supply orders via linked documents.
+- **[Supply orders](../Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Numbering is configured in the [Supply configuration](../CodeLists/SupplyConfiguration.md). Receipts are registered in **Logistics** using [Receives](../../Logistics/Documents/Receives.md).
 
 These documents initiate the procurement workflow and provide full traceability of supplier activity.
 
+> [!NOTE]
+> Supply documents follow standard states such as Draft and Committed. Availability of actions depends on the current state.
+
 ## Supply stock boundaries planning
 
-The **Supply stock boundaries planning** section provides planning tools based on stock boundary rules and material replenishment thresholds.
+The **[Supply stock boundaries planning](../Documents/SupplyStockBoundariesPlanning.md)** section provides planning tools based on stock boundary rules and material replenishment thresholds. Stock boundary rules are defined in **Logistics** under [Stock boundaries](../../Logistics/CodeLists/StockBoundaries.md).
 
 It supports proactive planning and prevents stockouts or overstocking.
 
 ## Views
 
-The **Views** section provides analytical insight into supply orders and procurement patterns.
+The **Views** section provides analytical insight into supply orders and procurement patterns. These views are read-only.
 
 ![Supply Views](../Assets/SupplyDomainsViews.png "Supply Views")
 
@@ -62,9 +65,9 @@ The **Management** section contains configuration and master data required by pr
 
 Available configuration and code lists include:
 
-- **Configuration** – Supply settings and procurement rules.  
-- **[Supplier materials](../CodeLists/SupplierMaterials.md)** – Mapping of which suppliers can provide which materials.  
-- **[Expenses](../CodeLists/Expenses.md)** – Expense categories and procurement cost definitions.  
+- **[Configuration](../CodeLists/SupplyConfiguration.md)** – Supply settings and procurement rules, including document numbering for supply orders.  
+- **[Supplier materials](../CodeLists/SupplierMaterials.md)** – Mapping of which suppliers can provide which materials; may include lead times, MOQs, and price sources.  
+- **[Expenses](../CodeLists/Expenses.md)** – Expense categories (e.g., freight, customs) used on supply orders; affect the total procurement cost.  
 - **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Supplier and partner records.  
 - **[Cost centers](../../Common/CodeLists/CostCenters.md)** – Financial allocation of procurement expenses.  
 - **[Currencies](../../Common/CodeLists/Currencies.md)** – Currency definitions used in quotations and supply orders.  
@@ -80,16 +83,16 @@ These elements determine how the procurement processes behave and how supply-rel
 Procurement operations typically follow a structured lifecycle:
 
 ### **1. Inquiry**  
-A quotation is requested from the supplier, providing pricing, availability, and expected delivery dates.
+An [inquiry](../Documents/Inquiries.md) is requested from the supplier, providing pricing, availability, and expected delivery dates.
 
 ### **2. Ordering**  
-A supply order is created and issued based on material needs or supplier agreements.
+A [supply order](../Documents/SupplyOrders.md) is created and issued based on material needs or supplier agreements.
 
 ### **3. Delivery & Receipt**  
-Goods are delivered by suppliers and processed through **[Logistics](../../Logistics/Domain/LogisticsDomain.md)** receives.
+Goods are delivered by suppliers and processed through **Logistics** [Receives](../../Logistics/Documents/Receives.md).
 
 ### **4. Planning & Replenishment**  
-Stock boundaries and planning views help determine when new procurement cycles should begin.
+[Stock boundaries](../../Logistics/CodeLists/StockBoundaries.md) and planning views (see [Supply stock boundaries planning](../Documents/SupplyStockBoundariesPlanning.md)) help determine when new procurement cycles should begin.
 
 ### **5. Analysis**  
 Views provide insights into supplier performance, order timelines, and overall procurement efficiency.
