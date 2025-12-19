@@ -30,21 +30,13 @@ A typical flow:
 
 ### List view
 
-The Overdue reminders list provides an overview of all reminders, separated into **Drafts**, **Available**, **In completion**, and **Completed**.
+The Overdue reminders list provides an overview of all reminders, separated into: **Drafts**, and **Committed**.
+- **Draft** — The document is not yet published. All fields can be edited freely.
+- **Committed** — The document has been published. It cannot be deleted or freely modified.
 
 ![Overdue Reminders List](../Assets/OverdueRemindersList.png)
 
 Filters on the left help narrow down results by **document dates**, **status**, and **customer**.
-
-### Document states
-
-Documents move through several possible states during their lifecycle:
-
-- **Draft** — The document is not yet published. All fields can be edited freely.
-- **Committed** — The document has been published. It cannot be deleted or freely modified.
-  - **Available** — The document is valid and ready for further processing.
-  - **In completion** — The document is partially processed.
-  - **Completed** — All actions related to the document have been fully executed.
 
 ## Actions
 

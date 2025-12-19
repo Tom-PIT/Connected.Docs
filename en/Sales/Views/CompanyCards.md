@@ -14,7 +14,7 @@ To access this view, go to **Sales / Views / Company cards**.
 Each entry represents a **single financial record** for a company, not a summarized balance.
 
 - **Debit** → The customer owes money to your company  
-- **Credit** → Your company owes money to the customer (e.g., overpayments, corrections)  
+- **Credit** → Your company owes money to the customer (e.g., over-payments, corrections)  
 
 Clicking a row opens the related document (e.g., an **issued invoice**), allowing you to inspect or record payments.
 
