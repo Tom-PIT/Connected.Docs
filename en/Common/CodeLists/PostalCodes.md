@@ -1,4 +1,4 @@
-# Postal codes
+ï»¿# Postal codes
 
 Postal codes belong to a specific **country** and are managed inside the [**Countries**](Countries.md) code list. They define the available postal areas used when entering addresses in the Business directory or logistics documents.
 
@@ -6,7 +6,7 @@ Postal codes belong to a specific **country** and are managed inside the [**Coun
 
 Postal codes appear as a tag inside each Country entry:
 
-![Postal codes button](../Assets/PostalCodesButton.png "Postal codes button")
+![Postal codes button](../Images/PostalCodesButton.png "Postal codes button")
 
 ## Schema
 
@@ -20,7 +20,7 @@ Postal codes appear as a tag inside each Country entry:
 
 The Postal codes list displays all codes defined for the selected country.
 
-![Postal codes list](../Assets/PostalCodesList.png)
+![Postal codes list](../Images/PostalCodesList.png)
 
 Use the **Enabled / Disabled** filters on the left to show active or inactive postal codes.
 
@@ -28,13 +28,13 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive po
 
 To add a new postal code, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner and choose **New**.
 
-![Add postal code](../Assets/PostalCodesNew.png)
+![Add postal code](../Images/PostalCodesNew.png)
 
 Fill in the following fields:
 
-- **Number** – The postal code  
-- **Name** – The corresponding city or area  
-- **Active** – Determines whether the code can be used  
+- **Number** â€“ The postal code  
+- **Name** â€“ The corresponding city or area  
+- **Active** â€“ Determines whether the code can be used  
 
 Click **Add** to save the new postal code.
 
@@ -56,3 +56,4 @@ Postal codes can be deleted from the Edit page, but only if they are not referen
 
 > [!NOTE]  
 > Deleting a postal code does **not** delete the associated Country entry.
+

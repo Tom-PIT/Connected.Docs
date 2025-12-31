@@ -1,4 +1,4 @@
-# Bank accounts
+ï»¿# Bank accounts
 
 Bank accounts belong to a specific **customer** or **vendor** and are managed inside the [**Business directory**](BusinessDirectory.md). They define the financial account information used later in documents such as issued invoices or payments. 
 
@@ -8,7 +8,7 @@ Each account is linked to a **Bank**, selected from the predefined [**Banks**](B
 
 Bank accounts appear as a tag inside each Business directory entry:
 
-![Bank accounts tag](../Assets/BankAccountsButton.png)
+![Bank accounts tag](../Images/BankAccountsButton.png)
 
 ## Schema
 
@@ -23,7 +23,7 @@ Bank accounts appear as a tag inside each Business directory entry:
 
 The Bank accounts list displays all accounts linked to the selected Business directory entry.
 
-![Bank accounts list](../Assets/BankAccountsList.png)
+![Bank accounts list](../Images/BankAccountsList.png)
 
 Use the filters on the left (Enabled / Disabled) to show only active or inactive accounts.
 
@@ -31,14 +31,14 @@ Use the filters on the left (Enabled / Disabled) to show only active or inactive
 
 To add a new bank account, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner.
 
-![Add bank account](../Assets/BankAccountsNew.png)
+![Add bank account](../Images/BankAccountsNew.png)
 
 Fill in the following fields:
 
-- **Bank** – Selected from the [**Banks**](Banks.md) code list  
-- **IBAN** – The international bank account number  
-- **Active** – Determines whether the account is available for use  
-- **Use mask** – Formats the IBAN for easier readability (optional)
+- **Bank** â€“ Selected from the [**Banks**](Banks.md) code list  
+- **IBAN** â€“ The international bank account number  
+- **Active** â€“ Determines whether the account is available for use  
+- **Use mask** â€“ Formats the IBAN for easier readability (optional)
 
 Click **Add** to save the new account.
 
@@ -56,3 +56,4 @@ A bank account can be deleted in the Edit page, but only if it is not referenced
 
 > [!NOTE]
 > Deleting a bank account does **not** delete the Business directory entry it belongs to.
+

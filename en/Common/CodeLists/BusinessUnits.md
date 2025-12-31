@@ -1,4 +1,4 @@
-# Business units
+ï»¿# Business units
 
 Business units belong to a specific **customer** or **vendor** and are managed inside the **Business directory**.  
 They represent physical locations, branches, or organizational units of the company, each with its own address details.
@@ -7,7 +7,7 @@ They represent physical locations, branches, or organizational units of the comp
 
 Business units appear as a tag inside each Business directory entry:
 
-![Business units button](../Assets/BusinessUnitsButton.png "Business units button")
+![Business units button](../Images/BusinessUnitsButton.png "Business units button")
 
 ## Schema
 
@@ -16,14 +16,14 @@ Business units appear as a tag inside each Business directory entry:
 | **Name** | Name of the business unit (e.g., *Head Office*, *Slovenian Branch*). |
 | **Street** | Street and house number of the location. |
 | **Country** | Selected from the [**Countries**](../../Common/CodeLists/Countries.md) code list. |
-| **Postal code** | Selected from the country’s [**Postal codes**](PostalCodes.md) list. |
+| **Postal code** | Selected from the countryâ€™s [**Postal codes**](PostalCodes.md) list. |
 | **Active** | Indicates whether the business unit is available for selection in documents. |
 
 ## List view
 
 The Business units list displays all units linked to the selected Business directory entry.
 
-![Business units list](../Assets/BusinessUnitsList.png)
+![Business units list](../Images/BusinessUnitsList.png)
 
 Use the **Enabled / Disabled** filters on the left to show active or inactive units.
 
@@ -31,15 +31,15 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive un
 
 To add a new business unit, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner.
 
-![Add business unit](../Assets/BusinessUnitsNew.png)
+![Add business unit](../Images/BusinessUnitsNew.png)
 
 Fill in the following fields:
 
-- **Name** – Business unit name  
-- **Street** – Street address  
-- **Country** – Selected from the [**Countries**](../../Common/CodeLists/Countries.md) list  
-- **Postal code** – Selected from the country’s [**Postal codes**](PostalCodes.md) list  
-- **Active** – Determines whether the unit can be used  
+- **Name** â€“ Business unit name  
+- **Street** â€“ Street address  
+- **Country** â€“ Selected from the [**Countries**](../../Common/CodeLists/Countries.md) list  
+- **Postal code** â€“ Selected from the countryâ€™s [**Postal codes**](PostalCodes.md) list  
+- **Active** â€“ Determines whether the unit can be used  
 
 Click **Add** to save the new business unit.
 

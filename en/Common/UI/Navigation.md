@@ -1,4 +1,4 @@
-# Navigation
+ï»¿# Navigation
 
 The platform is organized so you can easily find documents, views, and configuration areas based on your daily work. Navigation happens mainly through the **Sitemap**, breadcrumbs, and quick access buttons.
 
@@ -6,7 +6,7 @@ The platform is organized so you can easily find documents, views, and configura
 
 The **Sitemap** is the main entry point of the platform. It is divided into **domains**, each representing a functional area of the system.
 
-![Sitemap](../Assets/NavigationSitemap.png)
+![Sitemap](../Images/NavigationSitemap.png)
 
 You can always return to the Sitemap by clicking the **house icon** in the breadcrumbs.
 
@@ -14,11 +14,11 @@ You can always return to the Sitemap by clicking the **house icon** in the bread
 
 Breadcrumbs show your current path and allow you to move back by selecting any previous element:
 
-![Breadcrumbs](../Assets/NavigationBreadcrumbsDetail.png)
+![Breadcrumbs](../Images/NavigationBreadcrumbsDetail.png)
 
 Additionally, on many screens, a **back arrow button** appears in the lower-right corner to return to the previous screen:
 
-![BackArrow](../Assets/NavigationArrowButton.png)
+![BackArrow](../Images/NavigationArrowButton.png)
 
 ### Domains
 
@@ -31,7 +31,7 @@ Each domain contains the tools relevant to a specific business area. Examples in
 
 > [!NOTE]
 >
->Available domains depend on each company’s configuration and business model. For example, a company that only sells finished goods may not have the **Production** domain.
+>Available domains depend on each companyâ€™s configuration and business model. For example, a company that only sells finished goods may not have the **Production** domain.
 
 Inside the domains are different types of sections depending on the field of the domain, the main types are:
 - Documents
@@ -40,7 +40,7 @@ Inside the domains are different types of sections depending on the field of the
 
 Example - Sections in the **Sales** domain:
 
-![Sales Domain](../Assets/SalesDomain.png "Sales Domain sections")
+![Sales Domain](../Images/SalesDomain.png "Sales Domain sections")
 
 ## Documents
 
@@ -58,9 +58,9 @@ Documents are the core of daily operational work. They are used to create, proce
 - **[Requirements](../../Production/Documents/Requirements.md)**
 - And many others
 
-Example — entering the **Sales** domain and opening **Documents**:
+Example â€” entering the **Sales** domain and opening **Documents**:
 
-![SalesDocuments](../Assets/NavigationSalesDocuments.png)
+![SalesDocuments](../Images/NavigationSalesDocuments.png)
 
 Documents typically offer:
 
@@ -71,7 +71,7 @@ Documents typically offer:
 
 ## Views
 
-Views allow you to **analyze and monitor** business information. They do not create transactions — instead, they help you understand the big picture. 
+Views allow you to **analyze and monitor** business information. They do not create transactions â€” instead, they help you understand the big picture. 
 
 Views typically include:
 
@@ -84,9 +84,9 @@ Views typically include:
 - **[Loss summary](../../Production/Analytics/LossSummary.md)**
 - **[Downtime summary](../../Production/Analytics/DowntimeSummary.md)**
 
-Example — **Sales / Views**:
+Example â€” **Sales / Views**:
 
-![SalesViews](../Assets/NavigationSalesViews.png)
+![SalesViews](../Images/NavigationSalesViews.png)
 
 Views are designed for:
 
@@ -113,10 +113,11 @@ Management includes items such as:
 - **[Job positions](../../Production/CodeLists/JobPositions.md)**, **[Human resources](../../Production/CodeLists/HumanResources.md)**
 - Other critical code lists  
 
-Example — **Sales / Management**:
+Example â€” **Sales / Management**:
 
-![SalesManagement](../Assets/NavigationSalesManagement.png)
+![SalesManagement](../Images/NavigationSalesManagement.png)
 
 Management pages are typically maintained by administrators or users responsible for system configuration.
 
 ---
+

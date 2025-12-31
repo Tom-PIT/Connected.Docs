@@ -1,4 +1,4 @@
-# Banks
+﻿# Banks
 
 The **Banks** code list contains financial institutions that can be used across documents such as issued invoices, payments, and organizational bank accounts. Each bank entry stores its name, BIC code, and country, allowing the system to Banks connect with various [business partners](../../Common/CodeLists/BusinessDirectory.md) and their transactions, and correctly reference banking information wherever needed.
 
@@ -25,7 +25,7 @@ In this screen you can view, add, and edit banks that are used throughout the sy
 
 The list view displays all recorded banks, including their **name**, **BIC**, and [**country**](../../Common/CodeLists/Countries.md).  
 
-![Banks](../Assets/Banks.png "Banks list")
+![Banks](../Images/Banks.png "Banks list")
 
 Each record includes a status indicator to the left of its name:
 - **Blue** indicates the bank is active
@@ -44,7 +44,7 @@ Fill the required fields:
 - **BIC**
 - **Country**
 
-![Banks � New](../Assets/BanksNew.png "Add new bank")
+![Banks – New](../Images/BanksNew.png "Add new bank")
 
 
 ## Deletion
@@ -59,4 +59,5 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 >A bank record can be deleted only if it is not referenced by other system entities.
 
 ---
+
 

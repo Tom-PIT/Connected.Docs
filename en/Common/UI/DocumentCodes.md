@@ -25,7 +25,7 @@ Where:
 - `YEAR` – The year in which the document is created  
 - `SEQUENCE` – A zero-padded incremental number  
 
-![Offer code example](../Assets/DocumentCodeOffer.png "Offer code example")  
+![Offer code example](../Images/DocumentCodeOffer.png "Offer code example")  
 
 Example:
 
@@ -60,7 +60,7 @@ Example:
 
 ## Where the code appears
 
-![Sales order code example](../Assets/DocumentCodeSalesOrders.png "Sales order code example")
+![Sales order code example](../Images/DocumentCodeSalesOrders.png "Sales order code example")
 
 Codes also appear in:
 
@@ -80,5 +80,6 @@ The unified structure ensures:
 - Human-readable form (year + sequence)
 
 ---
+
 
 

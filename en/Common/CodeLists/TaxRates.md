@@ -1,4 +1,4 @@
-# Tax rates
+﻿# Tax rates
 
 This code list defines all **tax rates** used across the system. Tax rates determine the percentage of tax applied to products, materials, and services in business documents. Each entry includes a descriptive name and a numeric percentage, ensuring tax is applied consistently throughout the digital contents.
 
@@ -28,9 +28,9 @@ Each record includes a status indicator to the left of its name:
 - **Blue** indicates the tax rate is active
 - **Gray** indicates the tax rate is inactive
 
-![Tax rates list](../Assets/TaxRates.png "Tax rates list")
+![Tax rates list](../Images/TaxRates.png "Tax rates list")
 
-The list displays each tax rate’s name and the applicable percentage. A search field is available in the upper-right corner to help filter the list.
+The list displays each tax rateâ€™s name and the applicable percentage. A search field is available in the upper-right corner to help filter the list.
 
 ## Actions
 
@@ -43,11 +43,11 @@ The form includes the following fields:
 
 After entering the required information, click **Add** to save the tax rate or **Cancel** to return to the list view.
 
-![Add new tax rate](../Assets/NewTaxRate.png "Add new tax rate")
+![Add new tax rate](../Images/NewTaxRate.png "Add new tax rate")
 
 ## Editing
 
-To edit an existing tax rate, click the tax rate’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+To edit an existing tax rate, click the tax rateâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 
@@ -63,3 +63,4 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 >A tax rate can be deleted only if it is not used in any dependent entries.  
 
 ---
+
