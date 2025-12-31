@@ -1,4 +1,4 @@
-# Retail proforma invoices
+ï»¿# Retail proforma invoices
 
 A **Retail proforma invoice** is a sales document used in retail scenarios to record a sale in an invoice-like format while allowing flexible payment handling.  
 It is typically used when a customer purchases goods in person and payment may be recorded immediately or later.
@@ -91,23 +91,23 @@ Retail proforma invoices can only be created manually.
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new draft retail proforma invoice.
 
-   ![New retail proforma invoice](../Assets/RetailProformaInvoiceNew.png)
+   ![New retail proforma invoice](../Images/RetailProformaInvoiceNew.png)
 
 2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) are available.
 
-   ![Customer classification](../../Common/Assets/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
+   ![Customer classification](../../Common/Images/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
 
 3. Fill in mandatory header fields: **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)**.
 
 4. Add items in the **Details** section by typing or scanning a serial number, EAN, or asset name.
 
-   ![Retail proforma details](../Assets/RetailProformaInvoiceNewDetailsEdit.png)
+   ![Retail proforma details](../Images/RetailProformaInvoiceNewDetailsEdit.png)
 
 5. Save the details.
 
 6. Select a **Payment method** at the bottom of the document (optional).
    
-   ![Retail proforma new bottom](../Assets/RetailInvoiceNewBottom.png)
+   ![Retail proforma new bottom](../Images/RetailInvoiceNewBottom.png)
 
 7. When ready, click **Publish** to confirm the document.  
    The document moves from **Draft** to **Unpaid invoices**.
@@ -116,19 +116,19 @@ Retail proforma invoices can only be created manually.
 
 Payments are recorded using the **Payment** button at the top of the document.
 
-![Retail Proforma Invoice Payment Screen](../Assets/RetailProformaInvoicePaymentScreen.png "Payment screen")
+![Retail Proforma Invoice Payment Screen](../Images/RetailProformaInvoicePaymentScreen.png "Payment screen")
 
 In the payment dialog you can see:
 
-- **Total cost** – Invoice gross amount and due date.  
-- **Payment** – Amount being paid now and date of payment.  
-- **Remaining amount** – Outstanding balance after the payment.
+- **Total cost** â€“ Invoice gross amount and due date.  
+- **Payment** â€“ Amount being paid now and date of payment.  
+- **Remaining amount** â€“ Outstanding balance after the payment.
 
 You can register multiple payments over time. The system automatically updates the invoice status:
 
-- **Unpaid** – No payments recorded.  
-- **Partially paid** – Some payments recorded, but an outstanding amount remains.  
-- **Fully paid** – Remaining amount is zero.
+- **Unpaid** â€“ No payments recorded.  
+- **Partially paid** â€“ Some payments recorded, but an outstanding amount remains.  
+- **Fully paid** â€“ Remaining amount is zero.
 
 > [!NOTE]  
 > When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
@@ -155,7 +155,7 @@ The document menu provides additional actions:
 - **Reverse document**
 - **Return to draft**
 
-![Retail invoice menu](../Assets/RetailInvoiceMenu.png)
+![Retail invoice menu](../Images/RetailInvoiceMenu.png)
 
 > [!NOTE]
 >
@@ -174,4 +174,5 @@ To adjust inventory:
 - Draft documents can be deleted **only if they contain no details**.
 - Published documents cannot be deleted.
 - Published documents can be **reversed** or **returned to draft** (if allowed by system settings).
+
 

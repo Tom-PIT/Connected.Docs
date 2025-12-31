@@ -73,11 +73,11 @@ At the top of the list, the system displays real-time summary indicators based o
 
 **Drafts:**
 
-![Sales orders – Drafts](../Assets/SalesOrdersListDrafts.png)
+![Sales orders – Drafts](../Images/SalesOrdersListDrafts.png)
 
 **Available (published):**
 
-![Sales orders – Available](../Assets/SalesOrdersListAvailable.png)
+![Sales orders – Available](../Images/SalesOrdersListAvailable.png)
 
 Filters include:
 
@@ -97,19 +97,19 @@ Sales orders can be created in two ways:
 - Directly from the **Sales orders** screen using the [**action button**](../../Common/UI/ActionButton.md)
 - From a published [**Offer**](Offers.md), via *Linked documents → + Sales order*. In this case, most fields — such as the customer, delivery information, and detail items — are automatically pre-filled based on the offer.
 
-  ![Create sales order from offer](../Assets/SalesOrdersOfferLink.png "Create sales order from offer")
+  ![Create sales order from offer](../Images/SalesOrdersOfferLink.png "Create sales order from offer")
 
 To create a completely new Sales order, follow these steps:
 
 1. Click the **action button** button to create a new Sales order.  
 2. Enter the **Customer**, **Document date**, and **Delivery date** (or review them if pre-filled).  
 
-   ![Sales order – Document](../Assets/SalesOrdersNewTop.png)
+   ![Sales order – Document](../Images/SalesOrdersNewTop.png)
 
 3. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar (or review them if pre-filled).  
    - The system displays **all matching materials and serial numbers**. If multiple matches exist, select the correct one from the list.
 
-   ![Sales order – Add detail](../Assets/SalesOrdersNewDetails.png)
+   ![Sales order – Add detail](../Images/SalesOrdersNewDetails.png)
 
 4. Adjust the **Quantity**, **Delivery date**, or other fields as needed.  
 5. Click **Save** the confirm added details. Repeat step 3 to add more items.
@@ -134,7 +134,7 @@ You can upload any relevant file—such as delivery notes, transport documents, 
 
 The Linked documents section allows creation and linkage of operational documents. It also shows any previously linked documents.
 
-![Sales order – Linked documents](../Assets/SalesOrdersLinkedDocuments.png)
+![Sales order – Linked documents](../Images/SalesOrdersLinkedDocuments.png)
 
 > [!NOTE]
 > The available **Linked document** actions depend on the document type and status.
@@ -152,7 +152,7 @@ Available actions include:
 
 #### Document
 
-![Sales order – Document](../Assets/SalesOrdersNewTop.png)
+![Sales order – Document](../Images/SalesOrdersNewTop.png)
 
 Includes core fields:
 
@@ -175,17 +175,17 @@ Details define the ordered items.
 
 Add a new detail:
 
-![Sales order – Add detail](../Assets/SalesOrdersNewDetails.png)
+![Sales order – Add detail](../Images/SalesOrdersNewDetails.png)
 
 Saved detail:
 
-![Sales order – Edit detail](../Assets/SalesOrdersNewDetailsSaved.png)
+![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png)
 
 #### Payment methods
 
 Payment method assignments appear at the bottom of the document.
 
-![Sales order – Payment methods](../Assets/SalesOrdersNewBottom.png)
+![Sales order – Payment methods](../Images/SalesOrdersNewBottom.png)
 
 ### Publishing a sales order
 
@@ -194,7 +194,7 @@ When the draft is ready, click **Publish** located at the top of the page to com
 > [!NOTE]
 > When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Committed** group of states.
 
-![Sales orders – Available](../Assets/SalesOrdersListAvailable.png)
+![Sales orders – Available](../Images/SalesOrdersListAvailable.png)
 
 Completing a sales order performs the following actions:
 
@@ -212,7 +212,7 @@ Completing a sales order performs the following actions:
 
 Once the published sales order is finalized, for example, when a [**delivery note**](DeliveryNotes.md) or [**issued invoice**](IssuedInvoices.md) has been generated from a sales order, click **Complete**:
 
-![Complete button](../Assets/SalesOrdersCompleteButton.png)
+![Complete button](../Images/SalesOrdersCompleteButton.png)
 
 
 
@@ -221,7 +221,7 @@ Once the published sales order is finalized, for example, when a [**delivery not
 
 Click the context menu to:
 
-![Sales orders – menu](../Assets/SalesOrderMenu.png)
+![Sales orders – menu](../Images/SalesOrderMenu.png)
 
 - Print  
 - Export (PDF)  
@@ -246,3 +246,4 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > - Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
 
 ---
+

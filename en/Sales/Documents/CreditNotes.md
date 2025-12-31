@@ -72,7 +72,7 @@ Each row displays:
 
 Drafts can be edited; committed credit notes are final unless reversed.
 
-![Credit notes list](../Assets/CreditNotesList.png)
+![Credit notes list](../Images/CreditNotesList.png)
 
 ## Actions
 
@@ -87,14 +87,14 @@ Once you start a new credit note, follow these steps:
 
 1. Create a new draft credit note using one of the methods above.
 
-   ![New credit note](../Assets/CreditNoteNew.png)
+   ![New credit note](../Images/CreditNoteNew.png)
 
 2. Fill in the required header fields such as **Customer**, **Dates**, **Reference type**, and **Organization bank account**.
 
 3. Add items in the **Details** section by typing or scanning an **asset name**, **EAN**, or **serial number**.  
    - Matching items are displayed for selection.
 
-   ![Credit note details](../Assets/CreditNoteNewDetails.png)
+   ![Credit note details](../Images/CreditNoteNewDetails.png)
 
 4. Edit quantities and values as needed, then click **Save** to confirm the detail.
 
@@ -126,7 +126,7 @@ Files can be added in the **Attachments** section to store supporting documents 
 
 The **Linked documents** section allows you to link a previously created **Issued invoice**.
 
-![Link issued invoice](../Assets/CreditDebitNoteLinkedDocuments.png)
+![Link issued invoice](../Images/CreditDebitNoteLinkedDocuments.png)
 
 Published credit notes do **not** display the Linked documents section.
 
@@ -140,7 +140,7 @@ The document menu provides additional actions:
 - **Reverse document**
 - **Return to draft** (only if allowed)
 
-![Credit note menu](../Assets/CreditDebitNoteMenu.png)
+![Credit note menu](../Images/CreditDebitNoteMenu.png)
 
 Reversing a credit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.
 

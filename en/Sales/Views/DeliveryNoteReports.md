@@ -1,4 +1,4 @@
-# Delivery note reports
+ï»¿# Delivery note reports
 
 The **Delivery note reports** view provides a consolidated overview of delivered items, grouped by customer. It is designed for analysis and reporting purposes and does **not** create or modify documents.
 
@@ -28,15 +28,15 @@ For each asset, the report shows:
 - **Average price**
 - **Total cost**, including net value and tax
 
-![Delivery note reports list](../Assets/DeliveryNotesReportsList.png "Delivery note reports")
+![Delivery note reports list](../Images/DeliveryNotesReportsList.png "Delivery note reports")
 
 ## Filters
 
 The filters on the left allow you to narrow down the report:
 
-- **Delivery date** — Filter deliveries within a specific date range.
-- **Customer** — Show delivery data for one or more selected customers.
-- **Asset** — Show delivery data for one or more selected customers.
+- **Delivery date** â€” Filter deliveries within a specific date range.
+- **Customer** â€” Show delivery data for one or more selected customers.
+- **Asset** â€” Show delivery data for one or more selected customers.
 
 Filters can be combined to focus on very specific delivery scenarios.
 

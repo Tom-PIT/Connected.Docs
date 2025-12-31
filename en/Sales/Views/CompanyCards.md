@@ -9,7 +9,7 @@ To access this view, go to **Sales / Views / Company cards**.
 
 ## Company cards list
 
-![Company cards overview](../Assets/CompanyCardsList.png)
+![Company cards overview](../Images/CompanyCardsList.png)
 
 Each entry represents a **single financial record** for a company, not a summarized balance.
 
@@ -38,7 +38,7 @@ The Company cards view visually indicates the payment status of each debit or cr
 
 When a document has been **fully paid**, only the final settled amount is shown, indicating that no outstanding balance remains.
 
-![Fully paid record](../Assets/CompanyCardsFullyPaid.png "Fully paid record")
+![Fully paid record](../Images/CompanyCardsFullyPaid.png "Fully paid record")
 
 In this case:
 - The document is completely settled
@@ -50,7 +50,7 @@ In this case:
 
 When a document has been **partially paid**, the outstanding amount is shown separately from the original total. This makes it easy to see how much is still open.
 
-![Partially paid record](../Assets/CompanyCardsPartiallyPaid.png "Partially paid record")
+![Partially paid record](../Images/CompanyCardsPartiallyPaid.png "Partially paid record")
 
 In this example:
 - The **top amount** represents the **amount paid**
@@ -60,7 +60,7 @@ In this example:
 
 When a document has **not been paid at all**, the outstanding amount is shown as **0.00**, while the full document value is displayed below.
 
-![Unpaid record](../Assets/CompanyCardsUnpaid.png "Unpaid record")
+![Unpaid record](../Images/CompanyCardsUnpaid.png "Unpaid record")
 
 This indicates that:
 - No payments have been applied yet
@@ -76,3 +76,4 @@ These visual cues allow you to quickly distinguish between unpaid, partially pai
 For applying payments or correcting balances, use the relevant document screens such as [**Issued invoices**](../Documents/IssuedInvoices.md), [**Credit notes**](../Documents/CreditNotes.md), or [**Debit notes**](../Documents/DebitNotes.md).
 
 ---
+

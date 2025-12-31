@@ -1,14 +1,14 @@
-# Clause templates for issued invoices
+ï»¿# Clause templates for issued invoices
 
-The **Clause templates for issued invoices** code list allows you to define clause sets (templates) that will appear on issued invoices for specific companies. A template contains one or more clauses—such as legal notes, payment terms, disclaimers, or billing conditions—which will be printed at the top or bottom of the invoice in a defined order.
+The **Clause templates for issued invoices** code list allows you to define clause sets (templates) that will appear on issued invoices for specific companies. A template contains one or more clausesâ€”such as legal notes, payment terms, disclaimers, or billing conditionsâ€”which will be printed at the top or bottom of the invoice in a defined order.
 
 To access this page, go to **Sales / Management / Clause templates for issued invoices** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
 > Before creating clause templates, make sure the following are set up:  
-> • The partner company exists in the [Business directory](../../Common/CodeLists/BusinessDirectory.md).  
-> • The clause text exists in the [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) code list (entity: *Issued invoice*).
+> â€¢ The partner company exists in the [Business directory](../../Common/CodeLists/BusinessDirectory.md).  
+> â€¢ The clause text exists in the [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) code list (entity: *Issued invoice*).
 
 ## Schema
 
@@ -21,7 +21,7 @@ To access this page, go to **Sales / Management / Clause templates for issued in
 | Field | Description |
 |--------|-------------|
 | **Location** | Where the clause appears on the invoice (top or bottom). |
-| **Ordinal** | Numeric order of appearance (e.g., 1, 2, 3…). |
+| **Ordinal** | Numeric order of appearance (e.g., 1, 2, 3â€¦). |
 | **Clause** | A predefined text selected from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity = *Issued invoice*). |
 
 ## Management
@@ -30,7 +30,7 @@ To access this page, go to **Sales / Management / Clause templates for issued in
 
 The list displays all existing clause templates, grouped by company:
 
-![Clause templates list](../Assets/ClauseTemplatesIssuedInvoices.png "Clause templates list")
+![Clause templates list](../Images/ClauseTemplatesIssuedInvoices.png "Clause templates list")
 
 Click **Clauses** to open the clause list for that template. You may use the **Search** bar to filter templates by company name.
 
@@ -38,26 +38,26 @@ Click **Clauses** to open the clause list for that template. You may use the **S
 
 Click the **action button** to create a new template. Only one field is required:
 
-![Add template](../Assets/ClauseTemplatesIssuedInvoicesNew.png "Add template")
+![Add template](../Images/ClauseTemplatesIssuedInvoicesNew.png "Add template")
 
 After adding the template, you must click **Clauses** to open the clause editor.
 
-![Clauses button](../Assets/ClauseTemplatesDeliveryNotesClausesButton.png "Clauses button")
+![Clauses button](../Images/ClauseTemplatesDeliveryNotesClausesButton.png "Clauses button")
 
 ### Adding clauses to a template
 
 Inside the clause editor, use the action button to add clauses. Select:  
-- **Location** – The place in the issued invoice where the clause should appear  
-- **Ordinal** – The numeric order in which the clause will appear  
-- **Clause** – Predefined text to use  
+- **Location** â€“ The place in the issued invoice where the clause should appear  
+- **Ordinal** â€“ The numeric order in which the clause will appear  
+- **Clause** â€“ Predefined text to use  
 
-![Add clause](../Assets/ClauseTemplatesIssuedInvoicesClausesNew.png "Add clause")
+![Add clause](../Images/ClauseTemplatesIssuedInvoicesClausesNew.png "Add clause")
 
 ### Clause list
 
 All clauses assigned to the template are shown in order:
 
-![Clause list](../Assets/ClauseTemplatesIssuedInvoicesClausesList.png "Clause list")
+![Clause list](../Images/ClauseTemplatesIssuedInvoicesClausesList.png "Clause list")
 
 You may reorder clauses by editing the **Ordinal** value.
 
@@ -80,3 +80,4 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 
 
 ---
+

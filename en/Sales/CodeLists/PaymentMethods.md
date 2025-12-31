@@ -1,6 +1,6 @@
-# Payment methods
+﻿# Payment methods
 
-The **Payment methods** code list defines the ways customers can pay for goods or services�such as credit cards, online payment services, or other supported methods. Each method includes a **code**, a **name**, optional **tags**, and an uploaded **icon** representing the payment provider. These records are used throughout the system wherever a payment option must be selected.
+The **Payment methods** code list defines the ways customers can pay for goods or services—such as credit cards, online payment services, or other supported methods. Each method includes a **code**, a **name**, optional **tags**, and an uploaded **icon** representing the payment provider. These records are used throughout the system wherever a payment option must be selected.
 
 To access this page, go to **Sales / Management / Payment methods** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -19,7 +19,7 @@ To access this page, go to **Sales / Management / Payment methods** in the [navi
 
 The list view displays all existing payment methods, including their **code**, **name**, and any associated **tags** or **icons**.  
 
-![Payment methods](../Assets/PaymentMethods.png "Payment methods list")
+![Payment methods](../Images/PaymentMethods.png "Payment methods list")
 
 You can use the **Search** bar to quickly filter payment methods by their code or name.
 
@@ -29,7 +29,7 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 Click the **action button** to open the creation form. You can enter basic information and upload a logo or icon representing the payment provider.
 
-![Add payment method](../Assets/PaymentMethodsNew.png "Add payment method")
+![Add payment method](../Images/PaymentMethodsNew.png "Add payment method")
 
 ### Editing a payment method
 
@@ -49,4 +49,5 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 > A payment method can be deleted only if it is not used in dependent documents or settings.
 
 ---
+
 

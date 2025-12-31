@@ -1,4 +1,4 @@
-# Offers
+ï»¿# Offers
 
 An **Offer** is a sales document used to present a proposed price, quantity, and delivery terms to a customer before a sale is confirmed.  
 Offers help formalize quotations, compare pricing options, and smoothly transition into follow-up documents such as **Sales orders**, **Delivery notes**, and **Issued invoices**.
@@ -11,7 +11,7 @@ A typical flow:
 
 1. Create an **Offer** and send it to the customer.  
 2. When approved, convert it into a [**Sales order**](SalesOrders.md) using the [**Linked documents**](#linked-documents) section.  
-3. From the sales order, continue the operational workflow—production, purchasing, delivery, etc.  
+3. From the sales order, continue the operational workflowâ€”production, purchasing, delivery, etc.  
 4. Eventually, generate a [**Delivery note**](DeliveryNotes.md), and finally an [**Issued invoice**](IssuedInvoices.md).
 
 ## Schema
@@ -23,7 +23,7 @@ A typical flow:
 | **Document date** | Date when the offer is created. |
 | **Expiration date** | Validity date of the offer (mandatory). |
 | **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
-| **Delivery – Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
+| **Delivery â€“ Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
 | **Content top** | Predefined introductory text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Offer*). |
 | **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/CodeLists/Assets.md) list (mandatory). |
 | **Content bottom** | Closing or legal statements from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Offer*). |
@@ -36,10 +36,10 @@ A typical flow:
 | [**Asset**](../../Assets/CodeLists/Assets.md) | Item or service being offered.  |
 | **Delivery date** | Planned delivery date for this item. |
 | **Quantity** | Quantity of the asset. |
-| **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/CodeLists/AssetPriceLists.md). |
+| **Net price (per unit)** | Unit price taken from the assetâ€™s configuration or applicable [asset price list](../../Assets/CodeLists/AssetPriceLists.md). |
 | **Discount (%)** | Optional discount applied to this specific line. |
 | [**Tax rates**](../../Common/CodeLists/TaxRates.md) | Applied tax rule. |
-| **Value** | Total line value (quantity × net price, after discounts). |
+| **Value** | Total line value (quantity Ã— net price, after discounts). |
 
 ## Management
 
@@ -47,11 +47,11 @@ A typical flow:
 
 Documents move through several possible states during their lifecycle:
 
-- **Draft** – The document is not yet published. All fields can be edited freely.
-- **Committed** – The document has been published. It cannot be deleted or freely modified.
-    - **Available** – The document is valid and ready for further processing.
-    - **In completion** – The document is partially processed (e.g., partially delivered or received).
-    - **Completed** – All actions related to the document have been fully executed.
+- **Draft** â€“ The document is not yet published. All fields can be edited freely.
+- **Committed** â€“ The document has been published. It cannot be deleted or freely modified.
+    - **Available** â€“ The document is valid and ready for further processing.
+    - **In completion** â€“ The document is partially processed (e.g., partially delivered or received).
+    - **Completed** â€“ All actions related to the document have been fully executed.
 
 ### List view
 
@@ -59,18 +59,18 @@ The Offers list provides an overview of all quotations, separated into **Drafts*
 
 At the top of the Offers list, the system displays key indicators that summarize the currently filtered data. The following indicators are shown:
 
-- **Late offers** – Offers whose expiration date has passed and have not been accepted or completed.
-- **Paid offers** (interactive) – Offers for which full payment has been recorded. Click it to display exclusively the offers that have been paid.
-- **Total cost** – The combined total value of all offers included in the active filter. 
+- **Late offers** â€“ Offers whose expiration date has passed and have not been accepted or completed.
+- **Paid offers** (interactive) â€“ Offers for which full payment has been recorded. Click it to display exclusively the offers that have been paid.
+- **Total cost** â€“ The combined total value of all offers included in the active filter. 
 
 Filters on the left help narrow down results by **document dates**, **status**, and **customer**. 
 
 
-![Offers list](../Assets/OffersListDrafts.png)
+![Offers list](../Images/OffersListDrafts.png)
 
 An example of a list with **Completed** offers:
 
-![Offers completed](../Assets/OffersListCompleted.png)
+![Offers completed](../Images/OffersListCompleted.png)
 
 
 ## Actions
@@ -81,24 +81,24 @@ An example of a list with **Completed** offers:
 
 2. Fill in the [**Customer**](../../Common/CodeLists/BusinessDirectory.md), **Expiration date**, and **Rebate** (optional) fields.
 
-    ![New offer top](../Assets/OfferNewTop.png)
+    ![New offer top](../Images/OfferNewTop.png)
 
 3. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
    - The system displays **all matching materials and serial numbers**. If multiple matches exist, select the correct one from the list.
 
-    ![New offer details](../Assets/OfferNewDetails.png)
+    ![New offer details](../Images/OfferNewDetails.png)
 
 4. Click **Save** the confirm added details. Repeat step 3 to add more items.
 
-    ![Edit detail](../Assets/OfferNewDetailsSaved.png)
+    ![Edit detail](../Images/OfferNewDetailsSaved.png)
 
 5. Select the [**Payment method**](../CodeLists/PaymentMethods.md).
 
-   ![Offer bottom](../Assets/OfferNewBottom.png)
+   ![Offer bottom](../Images/OfferNewBottom.png)
 
 6. When ready, click **Publish** located at the top of the page to finalize the offer. This moves the document to the **Available** state and enables additional document actions.
 
-    ![Offers available](../Assets/OfferListAvailable.png)
+    ![Offers available](../Images/OfferListAvailable.png)
 
 > [!NOTE]
 > When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Committed** group of states.
@@ -114,7 +114,7 @@ Published offers allow limited modifications depending on system configuration.
 
 At the top of every document, an **Attachments** section is available. 
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+You can upload any relevant fileâ€”such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
 #### Linked documents
 
@@ -125,12 +125,12 @@ Offers support the creation of several related documents, allowing a complete bu
 
 Common actions include:
 
-- **Project** – link the offer to a project  
-- **Copy offer** – duplicate this offer  
-- **+ Proforma invoice** – create a proforma invoice  
-- **+ Sales order** – create a [sales order](SalesOrders.md) directly from the offer (typical workflow when a customer accepts the offer)
+- **Project** â€“ link the offer to a project  
+- **Copy offer** â€“ duplicate this offer  
+- **+ Proforma invoice** â€“ create a proforma invoice  
+- **+ Sales order** â€“ create a [sales order](SalesOrders.md) directly from the offer (typical workflow when a customer accepts the offer)
 
-![Linked documents](../Assets/OfferPublishedLinkedDocuments.png)
+![Linked documents](../Images/OfferPublishedLinkedDocuments.png)
 
 #### Delivery section
 
@@ -141,7 +141,7 @@ These values affect the printed document and follow-up logistics documents, but 
 ### Completing an offer
 Once the offer in the **Available** status is ready, click on **Complete**.
 
-![Offers Complete Button](../Assets/OffersCompleteButton.png)
+![Offers Complete Button](../Images/OffersCompleteButton.png)
 
 > [!NOTE]
 > An offer is also automatically moved to the **completed** status when a new [**Sales order**](SalesOrders.md) is created directly from it using the **Linked documents** action.
@@ -153,7 +153,7 @@ The top menu provides options for:
 - Exporting (to PDF)
 - Sending the document via email (only for Committed documents)
 
-![Offers menu](../Assets/OffersMenu.png)
+![Offers menu](../Images/OffersMenu.png)
 
 ## Deletion
 
@@ -173,4 +173,5 @@ Committed documents **cannot** be deleted
 > An offer can be deleted only if it is not linked to another dependent document (e.g., Sales orders).
 
 ---
+
 

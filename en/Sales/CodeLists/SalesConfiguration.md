@@ -4,7 +4,7 @@ Configure **Sales** settings affecting document numbering. Any changes are saved
 
 To access this page, go to **Sales / Management / Configuration** in the [**navigation**](../../Common/UI/Navigation.md).
 
-![Sales Configuration](../Assets/SalesConfiguration.png)
+![Sales Configuration](../Images/SalesConfiguration.png)
 
 ## Document numbering settings
 
