@@ -1,6 +1,6 @@
-# Raw materials
+ï»¿# Raw materials
 
-**Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key information—such as[measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), expiration period, or [packaging](Packaging.md)—to ensure that it can be managed consistently across the system.
+**Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key informationâ€”such as[measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), expiration period, or [packaging](Packaging.md)â€”to ensure that it can be managed consistently across the system.
 
 This code list serves as the register of all raw materials within the materials structure.
 
@@ -21,7 +21,7 @@ To access the **Raw materials** code list, go to **Assets / Materials / Raw mate
 |----------------------|-------------|
 | **Code**             | Unique identifier of the raw material within the list of materials. The code must be unique across all materials. |
 | **Name**             | Name of the raw material displayed in lists and documents. |
-| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
+| **Generate serial number** | Determines how serial numbers and material records are handled:<br>â€¢ **Auto** â€“ each item receives a unique ascending serial number.<br>â€¢ **Same** â€“ all items share the same serial number but remain separate records.<br>â€¢ **Identical** â€“ all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before the material expires (useful for perishable goods). |
 | **EAN**              | Barcode value used for scanning. |
 | **Base measure unit**     | Measure unit used to express quantities (e.g., piece, kg, meter). |
@@ -40,7 +40,7 @@ To access the **Raw materials** code list, go to **Assets / Materials / Raw mate
 
 The user interface contains a list of raw materials.
 
-![Raw Materials](../Assets/RawMaterialsList.png "Raw Materials")
+![Raw Materials](../Images/RawMaterialsList.png "Raw Materials")
 
 A filter for **Tags** is available on the left side. A search field is
 available in the upper-right corner.
@@ -64,14 +64,14 @@ See the [**Import materials**](ImportMaterials.md) documentation for full detail
 
 Allows creating a new raw material based on an existing one.
 
-![Copy Raw Material](../Assets/CopyRawMaterial.png "Copy Raw Material")
+![Copy Raw Material](../Images/CopyRawMaterial.png "Copy Raw Material")
 
 ### New
 
 Click **New** to open the input form for adding a new semi product.  
 The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
-![New Raw Material](../Assets/NewRawMaterial.png "New Raw Material")
+![New Raw Material](../Images/NewRawMaterial.png "New Raw Material")
 
 Additional collapsible sections are available:
 
@@ -83,7 +83,7 @@ These packaging records can later be used in warehouse operations such as [Recei
 #### Additional
 This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
 
-![Collapsible sections](../Assets/MaterialPackagingAdditional.png "Collapsible sections")
+![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
 
 After entering the required information, click Add to save the semi product or Cancel to return to the list view.
 
@@ -92,7 +92,7 @@ After entering the required information, click Add to save the semi product or C
 
 Click the raw material name to edit the entry.
 
-![Edit Raw Material](../Assets/EditRawMaterial.png "Edit Raw Material")
+![Edit Raw Material](../Images/EditRawMaterial.png "Edit Raw Material")
 
 ## Deletion
 
@@ -106,3 +106,4 @@ If confirmed, the raw material is permanently removed; otherwise, the system kee
 >A raw material can be deleted only if it is not referenced by other records.
 
 ---
+

@@ -1,4 +1,4 @@
-# Packaging
+ï»¿# Packaging
 
 Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. It applies to:
 
@@ -29,18 +29,18 @@ To access packaging configuration, go to: **Assets / Materials / Packaging** in 
 
 To assign packaging to a material, you must first select the **Material type** (e.g., Products, Semi products) and then the specific **Entity** on the left side of the screen.
 
-![Material selection dropdown](../Assets/DropdownPackaging.png)
+![Material selection dropdown](../Images/DropdownPackaging.png)
 
 ### List of packaging
 
 The interface displays a list of packaging records for the selected **Material type** and **Entity**. 
 
-![Packaging list](../Assets/Packaging.png)
+![Packaging list](../Images/Packaging.png)
 
 The list shows:
 
 - **EAN**
-- **Dimensions** (width × height × depth)
+- **Dimensions** (width Ã— height Ã— depth)
 - **Weight** (net and gross)
 - A **Labels** tag
 
@@ -58,7 +58,7 @@ The form includes fields such as:
 - **Weight** (net and gross)
 - **Dimensions** (width, height, depth)
 
-![Add packaging](../Assets/NewPackaging.png)
+![Add packaging](../Images/NewPackaging.png)
 
 After entering the required information, click **Add** to save or **Cancel** to return.
 
@@ -66,7 +66,7 @@ After entering the required information, click **Add** to save or **Cancel** to 
 
 To edit an existing packaging entry, click the **EAN** value in the list.
 
-![Edit packaging](../Assets/EditPackaging.png)
+![Edit packaging](../Images/EditPackaging.png)
 
 The edit screen allows you to modify all fields. After editing, click **Save** or **Cancel**.
 
@@ -76,11 +76,11 @@ Each packaging entry includes a **Labels** tag, used to define which label types
 
 In the list view, click the **Labels** button under a packaging item:
 
-![Labels tag](../Assets//LabelPackaging.png)
+![Labels tag](../Images//LabelPackaging.png)
 
 This opens the label selection dialog:
 
-![Label selection dialog](../Assets/LabelSelectPackaging.png)
+![Label selection dialog](../Images/LabelSelectPackaging.png)
 
 Available label types:
 

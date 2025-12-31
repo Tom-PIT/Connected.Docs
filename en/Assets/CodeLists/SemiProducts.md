@@ -1,8 +1,8 @@
-# Semi products
+ï»¿# Semi products
 
 **Semi products** are intermediate materials used in the production of finished goods. They are created from raw materials and then used as components in other items. Examples include Tabletop panel, Metal frame, Wooden leg, or Circuit module.
 
-Each semi product includes key information—like  [measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), serial number behavior, or expiration period—to support consistent handling across production, inventory, and warehouse operations. This code list contains all semi-finished items used in your production process.
+Each semi product includes key informationâ€”like  [measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), serial number behavior, or expiration periodâ€”to support consistent handling across production, inventory, and warehouse operations. This code list contains all semi-finished items used in your production process.
 
 > [!TIP]
 > For a full demonstration, see the **[Semi product materials](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)** video tutorial.
@@ -21,7 +21,7 @@ To access the **Semi products** code list, go to **Assets / Materials / Semi pro
 |-------|-------------|
 | **Code** | Unique identifier of the semi product within the list of materials. The code must be unique across all materials. |
 | **Name** | Name of the semi product shown in lists and documents. |
-| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
+| **Generate serial number** | Determines how serial numbers and material records are handled:<br>â€¢ **Auto** â€“ each item receives a unique ascending serial number.<br>â€¢ **Same** â€“ all items share the same serial number but remain separate records.<br>â€¢ **Identical** â€“ all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before expiration, used for perishable or time-sensitive materials. |
 | **EAN** | Barcode value used for scanning. |
 | **Base measure unit** | Measure unit used to express quantities, such as **piece** or **meter**. |
@@ -40,9 +40,9 @@ To access the **Semi products** code list, go to **Assets / Materials / Semi pro
 
 The user interface contains a list of semi products. If no record exists yet, the list is empty.
 
-![Semi products](../Assets/SemiProductsList.png "Semi products")
+![Semi products](../Images/SemiProductsList.png "Semi products")
 
-The list displays each semi product’s name, code, and serial number generation method.
+The list displays each semi productâ€™s name, code, and serial number generation method.
 
 A filter for **Tags** is available on the left side of the screen. A search field in the upper-right corner helps filter the list.
 
@@ -64,7 +64,7 @@ See the [**Import materials**](ImportMaterials.md) documentation for full detail
 
 Click **Copy existing semi product** to create a new semi product based on an existing one. A selection list appears with the available base semi products.
 
-![Copy semi product](../Assets/CopySemiproduct.png "Copy semi product")
+![Copy semi product](../Images/CopySemiproduct.png "Copy semi product")
 
 After selecting the base semi product, all fields are pre-filled and can be edited before saving.
 
@@ -73,7 +73,7 @@ After selecting the base semi product, all fields are pre-filled and can be edit
 Click **New** to open the input form for adding a new semi product.  
 The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
-![New semi product](../Assets/NewSemiproduct.png "New semi product")
+![New semi product](../Images/NewSemiproduct.png "New semi product")
 
 Additional collapsible sections are available:
 
@@ -85,16 +85,16 @@ These packaging records can later be used in warehouse operations such as [Recei
 #### Additional
 This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
 
-![Collapsible sections](../Assets/MaterialPackagingAdditional.png "Collapsible sections")
+![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
 
 After entering the required information, click **Add** to save the semi product or **Cancel** to return to the list view.
 
 ## Editing
 
-To edit an existing semi product, click the semi product’s **Name** in the list.  
+To edit an existing semi product, click the semi productâ€™s **Name** in the list.  
 The interface switches to edit mode, displaying all fields for modification.
 
-![Edit semi product](../Assets/EditSemiproduct.png "Edit semi product")
+![Edit semi product](../Images/EditSemiproduct.png "Edit semi product")
 
 Click **Save** to apply changes or **Cancel** to discard them.
 

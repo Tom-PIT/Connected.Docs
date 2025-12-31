@@ -30,15 +30,15 @@ The list can be filtered by:
 - **Type** (e.g., Company)
 - **Entity** (e.g., Customer)
 
-![Asset price lists](../Assets/AssetPriceLists.png "Asset price lists list")
+![Asset price lists](../Images/AssetPriceLists.png "Asset price lists list")
 
 Clicking the **price list name** opens the *Edit* screen.  
 
-![Edit price list](../Assets/AssetPriceListsEdit.png "Edit asset price list")
+![Edit price list](../Images/AssetPriceListsEdit.png "Edit asset price list")
 
 Clicking the **Details** button opens the page where assets and discount ranges are maintained.
 
-![Detail ranges](../Assets/AssetPriceListsDetailsEdit.png "Ranges and asset details")
+![Detail ranges](../Images/AssetPriceListsDetailsEdit.png "Ranges and asset details")
 
 ## Actions
 
@@ -81,15 +81,15 @@ Follow these steps to create a functional price list:
 3. Click **Add** to save the price list header.
 4. Click the **Details** button to open the pricing page.
    
-   ![Details button](../Assets/AssetPriceListsDetailsButton.png "Open price list details")
+   ![Details button](../Images/AssetPriceListsDetailsButton.png "Open price list details")
 
 5. Add one or more **Assets** to the list using the action button.
   
-   ![Details list](../Assets/AssetPriceListsDetailsList.png "Details list screen")
+   ![Details list](../Images/AssetPriceListsDetailsList.png "Details list screen")
 
 6. (Optional) Add **Ranges** to define quantity-based discounts. In the example below, if the customer buys between 5 and 100 assets, the percentage of the price will be 90% (10% discount).
 
-   ![Add range example](../Assets/AssetPriceListsDetailsRange.png "Example of range discount")
+   ![Add range example](../Images/AssetPriceListsDetailsRange.png "Example of range discount")
 
 7. Save the details. The price list is now active for the selected customer during the specified period.
 
@@ -111,6 +111,7 @@ If the draft still includes assets in the **Details** section:
 Once the document contains no assets, you can click **Delete** to remove the price list.
 
 ----
+
 
 
 
