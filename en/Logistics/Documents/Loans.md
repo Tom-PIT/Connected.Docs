@@ -1,6 +1,6 @@
-# Loans
+ï»¿# Loans
 
-A **Loan** document is used to record items that are temporarily lent out—for example, equipment lent to a customer, tools used off-site, or products provided for evaluation.  
+A **Loan** document is used to record items that are temporarily lent outâ€”for example, equipment lent to a customer, tools used off-site, or products provided for evaluation.  
 When items are loaned, they become **reserved** and unavailable for other operations until the loan is reversed (returned).
 
 > [!TIP]  
@@ -36,18 +36,18 @@ The Loans page displays all loan documents. You can search for a specific docume
 
 - **Document dates**
 - **View:**  
-  - *Drafts* — documents not yet published  
-  - *Committed* — published and finalized documents  
+  - *Drafts* â€” documents not yet published  
+  - *Committed* â€” published and finalized documents  
 - **Author**
 - **Warehouse**
 
 A color indicator shows status:  
-- **Green** — committed  
-- **Gray** — draft
+- **Green** â€” committed  
+- **Gray** â€” draft
 
 Click any loan to open and review its details.
 
-![Loans list](../Assets/LoansList.png "Loans list")
+![Loans list](../Images/LoansList.png "Loans list")
 
 ## Actions
 
@@ -58,7 +58,7 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new l
 1. Click the **action button** and start a new loan draft.  
    Select the **Warehouse** and **Contact**.
 
-   ![New loan](../Assets/LoansNew.png "Add new loan")
+   ![New loan](../Images/LoansNew.png "Add new loan")
 
 2. In the **Details** section, type or scan a **serial number**, **EAN**, or **material name**.
 
@@ -67,7 +67,7 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new l
    - **All items matching your input**
    - If multiple matches exist, a **selection list** appears:
 
-   ![Multiple matches](../Assets/LoansNewDetailsSearch.png "Multiple matches")
+   ![Multiple matches](../Images/LoansNewDetailsSearch.png "Multiple matches")
 
 3. Choose the correct item.  
    The system fills in known information (material, serial number, location).
@@ -75,7 +75,7 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new l
 4. Enter the **quantity** you want to loan.  
    Quantity must be edited in the detail form:
 
-   ![Loan detail](../Assets/LoansNewDetails.png "Loan detail")
+   ![Loan detail](../Images/LoansNewDetails.png "Loan detail")
 
 5. Click **Save** to add the detail.  
    Repeat the process to add additional loaned items.
@@ -91,7 +91,7 @@ When the customer returns the loaned items, create a **reversal** from the docum
 
 At the top-right, open the **menu (hamburger icon)** and select:
 
-![Loan menu](../Assets/LoansMenu.png "Loan menu")
+![Loan menu](../Images/LoansMenu.png "Loan menu")
 
 - **Create a new reversal**
 
@@ -119,6 +119,7 @@ To delete:
 3. Once all details are removed, use **Delete** on the document header
 
 > [!NOTE]  
-> Committed loans **cannot** be deleted — only **reversed**.
+> Committed loans **cannot** be deleted â€” only **reversed**.
 
 ---
+

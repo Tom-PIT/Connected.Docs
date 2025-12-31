@@ -1,4 +1,4 @@
-# Receives
+ï»¿# Receives
 
 # Receives
 
@@ -42,7 +42,7 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 | **Serial number** | Serial number scanned or generated. |
 | **Best before** | Expiration date (for materials with shelf life). |
 | **Packaging quantity (pc)** | Quantity represented by a single packaging unit. |
-| **Quantity in base unit (pc)** | Quantity expressed in the material’s base measurement unit. |
+| **Quantity in base unit (pc)** | Quantity expressed in the materialâ€™s base measurement unit. |
 | **Received quantity (pc)** | Quantity actually received. |
 | **Number of packets** | Number of packages received. |
 
@@ -52,19 +52,19 @@ The Receives page displays all receive documents. You can search for a specific 
 
 - **Document dates**
 - **View:**  
-  - *Drafts* — documents you created but have not yet published  
-  - *Committed* — documents that are published and fixed
+  - *Drafts* â€” documents you created but have not yet published  
+  - *Committed* â€” documents that are published and fixed
 - **Author**
 - **Warehouse**
 
 A color indicator next to each document shows its status:
 
-- **Green** — committed  
-- **Gray** — draft
+- **Green** â€” committed  
+- **Gray** â€” draft
 
 You can click any document to open and review its details.
 
-![Receive documents list](../Assets/Receives.png "Receive documents list")
+![Receive documents list](../Images/Receives.png "Receive documents list")
 
 ## Actions
 
@@ -77,12 +77,12 @@ To create a new receive document:
 1. Click the **action button**, then select the **Vendor**.
 
 
-	![Receive document](../Assets/ReceiveDocument.png "Receive document")
+	![Receive document](../Images/ReceiveDocument.png "Receive document")
 2. Scan or manually enter the **EAN code of the packaging**.
    - The system displays **all matching materials and serial numbers**.  
 3. The system automatically retrieves the packaging information and fills all relevant fields in the **Details** section.
 
-	![Receive document details](../Assets/ReceiveDocumentDetails.png "Receive document details")
+	![Receive document details](../Images/ReceiveDocumentDetails.png "Receive document details")
 4. Adjust quantities, storage locations, or other values if needed.  
 5. Click **Save** to save the details. Add more items starting from step 2 if needed.  
 6. Click **Publish** to commit the document. 
@@ -93,9 +93,9 @@ A newly created receive document appears in the **Drafts** view. Once published,
 
 At the top of every document, an **Attachments** section is available. 
 
-![Attachments section](../Assets/Attachments.png "Attachments section")
+![Attachments section](../Images/Attachments.png "Attachments section")
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+You can upload any relevant fileâ€”such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
 ## Document connections
 
@@ -103,7 +103,7 @@ Committed receive documents include an additional **Document connections** secti
 
 For receive documents, a **Disassemble** option may appear. This allows you to create a new disassembly document using the received items.
 
-![Document connections](../Assets/ReceivesDocumentConnections.png)
+![Document connections](../Images/ReceivesDocumentConnections.png)
 
 For more details, see the [Disassemblies](Disassemblies.md) documentation.
 
@@ -116,7 +116,7 @@ Each document includes a **Notes** section where you can enter any comments or a
 
 Inside a receive document, the **menu (hamburger icon)** in the top-right corner provides different options depending on the document status.
 
-![Menu options](../Assets/ReceiveMenu.png "Menu options")
+![Menu options](../Images/ReceiveMenu.png "Menu options")
 
 ### Draft receive document
 
@@ -140,7 +140,7 @@ When you click a document from the list:
 - You can print or export draft or committed documents
 - Committed documents are read-only, except for reversal creation
 
-![Receive reviewing](../Assets/ReceiveReviewing.png "Receive reviewing")
+![Receive reviewing](../Images/ReceiveReviewing.png "Receive reviewing")
 
 ## Deletion
 
@@ -155,6 +155,6 @@ To delete details individually:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 > [!NOTE]
-> Committed documents **cannot** be deleted — only [reversed](Reversals.md).
+> Committed documents **cannot** be deleted â€” only [reversed](Reversals.md).
 
 ---

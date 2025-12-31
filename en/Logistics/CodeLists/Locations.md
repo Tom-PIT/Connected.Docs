@@ -1,4 +1,4 @@
-# Locations
+﻿# Locations
 
 This code list represents the storage locations within individual [warehouses](Warehouses.md). Each location defines a specific area or subdivision, such as a rack, shelf, or compartment, and enables precise organization and tracking of materials within a warehouse.
 
@@ -22,7 +22,7 @@ To access this code list, go to **Logistics / Management / Locations** in the [n
 
 The interface displays a list of all locations for the selected warehouse. Use the warehouse selector on the left to change the warehouse. If no records exist yet, the list is empty.
 
-![Locations List](../Assets/LocationsList.png "Locations List")
+![Locations List](../Images/LocationsList.png "Locations List")
 
 Each record displays a **Stock** tag that opens the interface for managing the stock associated with the selected location. 
 
@@ -39,7 +39,7 @@ Click on the [action button](../../Common/UI/ActionButton.md) to display the fol
 You can import locations from a **CSV** file. This is useful when you are setting up warehouse structures with many racks, shelves, and bins.
 
 
-![Import locations](../Assets/LocationsImport.png "Import locations")
+![Import locations](../Images/LocationsImport.png "Import locations")
 
 Drag and drop the file into the upload area or click to open the file dialog. The file must contain the required fields in a valid structure.
 
@@ -71,13 +71,13 @@ The **New** action opens the input form for creating a new entry. The form inclu
 - **Description**
 - **Active**
 
-![New Location](../Assets/NewLocation.png "New Location")
+![New Location](../Images/NewLocation.png "New Location")
 
 After entering the required information, click **Add** to save the location or **Cancel** to return to the list view.
 
 ## Editing
 
-To edit an existing location, click the location’s **Name** in the list. The interface switches to edit mode, displaying the existing values. 
+To edit an existing location, click the locationâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing values. 
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 

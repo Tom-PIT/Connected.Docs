@@ -43,7 +43,7 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 
 The Disassemblies list shows existing documents with status indicators (Draft/Published). A search bar and filters help locate records by warehouse, date, or code.
 
-![Disassemblies List](../Assets/DisassembliesList.png "Disassemblies list")
+![Disassemblies List](../Images/DisassembliesList.png "Disassemblies list")
 
 ## Creating a disassembly document
 
@@ -52,24 +52,24 @@ Create a Disassembly to split sets into their parts.
 1. Go to **Logistics / Documents / Disassemblies**.
 2. Use the **action button** to create a draft Disassembly.
 
-    ![Disassemblies New](../Assets/DisassembliesNew.png)
+    ![Disassemblies New](../Images/DisassembliesNew.png)
 
 3. Fill the **Document** section.
 
 4. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
    - The system displays **all matching materials and serial numbers**. If multiple matches exist, select the correct one from the list.
    
-   ![Disassemblies New Details Multiple](../Assets/DisassembliesNewDetailsMultiple.png)
+   ![Disassemblies New Details Multiple](../Images/DisassembliesNewDetailsMultiple.png)
 
    - Enter the **Quantity** of sets to disassemble.
 
-    ![Disassemblies New Details Edit](../Assets/DisassembliesNewDetailsEdit.png)
+    ![Disassemblies New Details Edit](../Images/DisassembliesNewDetailsEdit.png)
 
  
 5. Click **Save** the confirm added details. Repeat step 4 to add more items.
    - After saving a detail, click the arrow to expand and see the list of parts that will be disassembled, with their calculated quantities. 
 
-   ![Disassemblies New Details Saved](../Assets/DisassembliesNewDetailsSaved.png)
+   ![Disassemblies New Details Saved](../Images/DisassembliesNewDetailsSaved.png)
 
 6. Click **Publish** to commit the disassembly. The document is available for review in the committed list.
 
@@ -100,4 +100,5 @@ Click on the hamburger menu (three vertical dots) in the top-right corner to pri
 - Published disassemblies typically cannot be deleted.
 
 ---
+
 

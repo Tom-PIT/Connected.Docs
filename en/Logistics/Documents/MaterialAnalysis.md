@@ -24,25 +24,25 @@ To access **Material analysis**, go to **Logistics / Documents / Material analys
 
 The list shows all material analysis documents created during receiving for materials with configured analyses. Use search or filters to locate entries by status.
 
-![Material Analysis List](../Assets/MaterialAnalysisList.png)
+![Material Analysis List](../Images/MaterialAnalysisList.png)
 
 ## Reviewing and passing an analysis
 
 1. Click a document in the draft list to open it.
    
-   ![Material Analysis Edit](../Assets/MaterialAnalysisEdit.png)
+   ![Material Analysis Edit](../Images/MaterialAnalysisEdit.png)
 
 2. Click the **Material** field to select the material to test (if multiple are listed).
    
-   ![Material Analysis Edit Material](../Assets/MaterialAnalysisEditMaterial.png)
+   ![Material Analysis Edit Material](../Images/MaterialAnalysisEditMaterial.png)
 
 3. Click the **Check** button to pass the test for the selected material and click **Save**. The **Status** changes to **Passed** and the material shows green color on the list.
    
-   ![Material Analysis Edit Material Check](../Assets/MaterialAnalysisEditMaterialCheck.png)
+   ![Material Analysis Edit Material Check](../Images/MaterialAnalysisEditMaterialCheck.png)
 
    - If the test is not passed, leave the check unmarked and click **Save**. The status changes to **Failed** and the material shows red color on the list. 
     
-     ![Material Analysis Edit Failed](../Assets/MaterialAnalysisEditFailed.png "Failed material analysis")
+     ![Material Analysis Edit Failed](../Images/MaterialAnalysisEditFailed.png "Failed material analysis")
 
 4. Once all required checks are complete, click **Publish** to finalize the material analysis document. The document moves to the Committed list.
  

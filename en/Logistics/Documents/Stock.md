@@ -1,4 +1,4 @@
-# Stock
+ï»¿# Stock
 
 The **Stock** page provides a complete overview of material quantities across the system. It shows how many items are available, blocked, or reserved, and lets you quickly find any material by searching or sorting the list. From here, you can open detailed stock views to understand where the material is stored, how it is used, and how it has moved over time.
 
@@ -20,7 +20,7 @@ You can select a specific date to view stock levels as they were on that day.
 
 Clicking the month name opens a fast month/year selection view:
 
-![Month selector](../Assets/StockCalendar.png "Month selector")
+![Month selector](../Images/StockCalendar.png "Month selector")
 
 ### **Material type filter**
 You can filter the list by:
@@ -38,12 +38,12 @@ You can refine the list by selecting material tags.
 The main list displays all materials in alphabetical order.  
 You can adjust the sorting:
 
-- By **Material name** (A–Z or Z–A)  
+- By **Material name** (Aâ€“Z or Zâ€“A)  
 - By **Quantity**  
 
 A search field is available at the top to quickly find specific items.
 
-![Stock list](../Assets/Stock.png "Stock list")
+![Stock list](../Images/Stock.png "Stock list")
 
 Each row shows:
 
@@ -62,7 +62,7 @@ Clicking a **material name** opens a detailed breakdown of where the material is
 > [!TIP]
 > For a full demonstration, see the **[Stock view by material](https://www.youtube.com/watch?v=GUdnV6bZwoI)** video tutorial.
 
-![Stock view by material](../Assets/StockByMaterial.png "Stock view by material")
+![Stock view by material](../Images/StockByMaterial.png "Stock view by material")
 
 
 This view includes:
@@ -97,17 +97,18 @@ A material can have multiple **serial numbers** representing different batches, 
 > [!TIP]
 > For a full demonstration, see the **[Stock view by serial number](https://www.youtube.com/watch?v=_vzXNsGg5N4)** video tutorial.
 
-![Stock view by serial number](../Assets/StockBySerialNumber.png "Stock view by  serial number")
+![Stock view by serial number](../Images/StockBySerialNumber.png "Stock view by  serial number")
 
 This view shows:
 
-- **Material and serial number** – the specific unit you are inspecting.  
-- **Stock (pc) graph** – visual overview of total and available quantity for this serial number.  
-- **Allocations** – a list of all storage locations where this serial number is present, including quantities.  
-- **Attachments** – files related to this serial number (such as quality reports or photos).  
-- **Backlog** – a timeline of all movements and transactions involving this serial number.
+- **Material and serial number** â€“ the specific unit you are inspecting.  
+- **Stock (pc) graph** â€“ visual overview of total and available quantity for this serial number.  
+- **Allocations** â€“ a list of all storage locations where this serial number is present, including quantities.  
+- **Attachments** â€“ files related to this serial number (such as quality reports or photos).  
+- **Backlog** â€“ a timeline of all movements and transactions involving this serial number.
 
 The **Stock view by serial number** screen is read-only and is used for detailed tracking and traceability of a specific serial number.
 
 ---
+
 

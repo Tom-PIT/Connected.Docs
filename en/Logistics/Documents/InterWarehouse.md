@@ -51,7 +51,7 @@ A color indicator next to each document shows its status:
 
 You can click any document to open and review its details.
 
-![InterWarehouse](../Assets/InterWarehouse.png)
+![InterWarehouse](../Images/InterWarehouse.png)
 
 ## Actions
 
@@ -61,18 +61,18 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new i
 
 1. Click **Add new**. Then select the **Source warehouse** and **Destination warehouse**.
 
-   ![InterWarehouseNew](../Assets/InterWarehouseNew.png)
+   ![InterWarehouseNew](../Images/InterWarehouseNew.png)
 
 2. In the **Details** section, scan or type a **serial number**, **EAN**, or material **name**.  
    - If only one match exists → details autofill immediately.  
    - If multiple matches exist → a selection list appears:
 
-   ![InterWarehouseSearchResults](../Assets/InterWarehouseSearchResults.png)
+   ![InterWarehouseSearchResults](../Images/InterWarehouseSearchResults.png)
 
 3. Select the correct item, and the system automatically fills all fields.
 4. Adjust **Destination location** or **Quantity** if needed.  
 
-   ![InterWarehouseDetails](../Assets/InterWarehouseDetails.png)
+   ![InterWarehouseDetails](../Images/InterWarehouseDetails.png)
 
 5. Click **Save** to save the detail. You can add more items by repeating step 3.
 6. Click **Save** on the top-left corner to save the transfer document.
@@ -93,7 +93,7 @@ Inside an inter warehouse document, the **menu (hamburger icon)** in the top-rig
 
 These options are available for both *draft* and *committed* documents.
 
-![InterWarehouseMenuOptions](../Assets/InterWarehouseMenuOptions.png)
+![InterWarehouseMenuOptions](../Images/InterWarehouseMenuOptions.png)
 
 ## Deletion
 

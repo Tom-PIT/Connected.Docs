@@ -1,4 +1,4 @@
-# Stock boundaries
+﻿# Stock boundaries
 
 This code list represents the stock boundaries for individual materials or products in the system. Each record defines the minimum and maximum stock quantity allowed for a particular material type, ensuring optimal inventory levels and preventing shortages or overstocking.  
 
@@ -25,7 +25,7 @@ Each record shows the **Entity**, **Min**, and **Max** stock quantities. If no v
 
 You can edit stock boundaries directly in the list view by clicking the numeric values in the **Min** or **Max** column and entering a new number. The changes are saved automatically once the field is updated.
 
-![Stock Boundaries](../Assets/StockBoundaries.png "Stock Boundaries")
+![Stock Boundaries](../Images/StockBoundaries.png "Stock Boundaries")
 
 Any stock quantity below the defined minimum or above the defined maximum is visually indicated in the [Dashboard](../Documents/Dashboard.md).
 
@@ -37,7 +37,7 @@ Click on the [action button](../../Common/UI/ActionButton.md) to display the **I
 
 The **Import** action allows bulk creation or update of stock boundary records using a CSV file. Prepare the file with the required fields (**Entity**, **Min**, **Max**) and upload it to automatically populate the list.
 
-![Stock boundaries import](../Assets/StockBoundariesImport.png "Stock boundaries import")
+![Stock boundaries import](../Images/StockBoundariesImport.png "Stock boundaries import")
 
 Click Cancel to return to the list without importing.
 

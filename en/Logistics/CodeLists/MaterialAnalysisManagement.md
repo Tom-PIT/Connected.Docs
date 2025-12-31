@@ -23,7 +23,7 @@ To access **Material analysis management**, go to **Logistics / Management / Mat
 
 The list shows all defined analyses with their Type, Material, and Enabled status. Use the search to filter by type or material.
 
-![Material Analysis Management List](../Assets/MaterialAnalysisManagementList.png "Material Analysis Management List")
+![Material Analysis Management List](../Images/MaterialAnalysisManagementList.png "Material Analysis Management List")
 
 Each record includes a status indicator to the left of its name:
 - **Blue** indicates the analysis is active
@@ -33,7 +33,7 @@ Each record includes a status indicator to the left of its name:
 
 1. Click the [action button](../../Common/UI/ActionButton.md) to add a new analysis.
 
-   ![Material Analysis Management New](../Assets/MaterialAnalysisManagementNew.png "New Material Analysis")
+   ![Material Analysis Management New](../Images/MaterialAnalysisManagementNew.png "New Material Analysis")
 
 2. Fill in the form:
    - **Type** – choose the analysis category.

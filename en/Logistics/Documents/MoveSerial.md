@@ -29,7 +29,7 @@ Enter or scan a **serial number**, **EAN**, or type a **material name**.
 
 **Example (multiple matches):**
 
-![MoveSerialStep1](../Assets/MoveSerialStep1.png)
+![MoveSerialStep1](../Images/MoveSerialStep1.png)
 
 Click **Next** to continue.
 
@@ -39,7 +39,7 @@ Enter the destination location by typing its **name**, **code**, or partial text
 
 If several locations match, you must select the correct one:
 
-![MoveSerialStep2](../Assets/MoveSerialStep2.png)
+![MoveSerialStep2](../Images/MoveSerialStep2.png)
 
 Click **Next** to continue.
 
@@ -54,7 +54,7 @@ The final screen displays:
 - **Available pc** — pieces currently available for movement (editable)  
 - **Best before**
 
-![MoveSerialStep3](../Assets/MoveSerialStep3.png)
+![MoveSerialStep3](../Images/MoveSerialStep3.png)
 
 Adjust **Available pc** to define how many pieces you want to move, then click **Finish**.
 
@@ -66,7 +66,8 @@ After finishing:
 
 **Example of the recorded transfer:**
 
-![MoveSerialInterWarehouseRecord](../Assets/MoveSerialInterWarehouseRecord.png)
+![MoveSerialInterWarehouseRecord](../Images/MoveSerialInterWarehouseRecord.png)
 
 ---
+
 

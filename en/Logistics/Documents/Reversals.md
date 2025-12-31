@@ -62,7 +62,7 @@ Color indicators:
 - **Green** — committed  
 - **Gray** — draft
 
-![ReversalsList](../Assets/Reversals.png)
+![ReversalsList](../Images/Reversals.png)
 
 ## Actions
 
@@ -81,7 +81,7 @@ Tags displayed on the original document:
 - **Partially reversed** — only part of the quantity was reversed  
 - **Fully reversed** — the document has been completely reversed  
 
-![ReversalsDocumentTag](../Assets/ReversalsDocumentTag.png)
+![ReversalsDocumentTag](../Images/ReversalsDocumentTag.png)
 
 ## Creating and publishing a reversal
 
@@ -101,7 +101,7 @@ Examples:
 - Original writeoff: **4 pc** → enter **4** for full reversal  
 - Enter **2** → partial reversal  
 
-![ReversalsEdit](../Assets/ReversalsEdit.png)
+![ReversalsEdit](../Images/ReversalsEdit.png)
 
 ### Step 3 — Publish  
 Click **Publish** to confirm the reversal.
@@ -124,17 +124,17 @@ A reversal document includes:
 ### Reversed document section  
 Displays information about the document being reversed and a link to open it.
 
-![ReversalsReversedDocument](../Assets/ReversalsReversedDocument.png "Link to reversed document")
+![ReversalsReversedDocument](../Images/ReversalsReversedDocument.png "Link to reversed document")
 
 ### Document section  
 Shows reversal code and date.
 
-![Reversal Document](../Assets/ReversalsDocumentSection.png "Reversal document")
+![Reversal Document](../Images/ReversalsDocumentSection.png "Reversal document")
 
 ### Detail section  
 Lists affected materials, their locations, original quantities, and reversed quantities.
 
-![Reversal Document Details](../Assets/ReversalsDetailsSection.png "Reversal details")
+![Reversal Document Details](../Images/ReversalsDetailsSection.png "Reversal details")
 
 ## Deletion
 
@@ -143,4 +143,5 @@ Click **Delete** to remove a **draft** reversal document. Committed reversals **
 A draft reversal can always be deleted because it does not contain dependent stock movements.
 
 ---
+
 

@@ -37,7 +37,7 @@ Each detail describes the material and the correction to apply.
 
 The list shows existing Correction documents, with filters for date, warehouse, and status (Draft/Published). Use search to find by code or material.
 
-![Corrections List](../Assets/CorrectionsList.png)
+![Corrections List](../Images/CorrectionsList.png)
 
 ## Creating a correction document
 
@@ -46,7 +46,7 @@ Create a Correction when the counted stock differs from system stock.
 1. Go to **Logistics / Documents / Corrections**.
 2. Use the [**action button**](../../Common/UI/ActionButton.md) to create a draft Correction.
 
-    ![Corrections New](../Assets/CorrectionsNew.png)
+    ![Corrections New](../Images/CorrectionsNew.png)
 
 3. Fill the **Document** section.
 
@@ -54,7 +54,7 @@ Create a Correction when the counted stock differs from system stock.
    - The system displays **all matching materials and serial numbers**. If multiple matches exist, select the correct one from the list.
    - Edit the details section, change the **Material**. **Serial number** or **Quantity** as required.
 
-   ![Corrections New Details Edit](../Assets/CorrectionsNewDetailsEdit.png)
+   ![Corrections New Details Edit](../Images/CorrectionsNewDetailsEdit.png)
  
 5. Click **Save** the confirm added details. Repeat step 4 to add more items.
 
@@ -76,3 +76,4 @@ Publishing the correction updates inventory to reflect the new quantities and at
 - Draft corrections can be deleted from the edit screen.
 - Published corrections cannot be deleted.
 ---
+

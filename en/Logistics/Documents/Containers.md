@@ -31,7 +31,7 @@ To access this page, go to **Logistics / Documents / Containers** in the [naviga
 
 ## List of container documents
 
-![Containers list](../Assets/ContainersList.png "Containers list")
+![Containers list](../Images/ContainersList.png "Containers list")
 
 The Containers page shows all container documents. Use filters such as:
 - **Document dates**
@@ -46,19 +46,19 @@ Containers are created manually from this page.
 1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new container document.
 2. Specify the Warehouse and Location.
 
-    ![Create container](../Assets/ContainersNewCreate.png "Create container")
+    ![Create container](../Images/ContainersNewCreate.png "Create container")
 
 3. The draft container is created. Edit the **Document date** if needed.
 
-    ![New container](../Assets/ContainersNew.png "New container")
+    ![New container](../Images/ContainersNew.png "New container")
 
 4. Type or scan a serial number, EAN, or material name into the Details bar. The system displays all matching materials and serial numbers. If multiple items are found, make sure to select the correct one.
 
-    ![Container details](../Assets/ContainersNewDetails.png "Container details")
+    ![Container details](../Images/ContainersNewDetails.png "Container details")
 
 5. **Select the right quantity** and click **Save** to save the detail. Repeat with other details if needed.
  
-    ![Container details saved](../Assets/ContainersNewDetailsSaved.png "Container details saved")
+    ![Container details saved](../Images/ContainersNewDetailsSaved.png "Container details saved")
 
 6. When ready, click **Package** to reserve the content and make it ready for logistics operations.
 
@@ -80,7 +80,7 @@ The packaged container is now ready, and the status changes to **Packaged**. You
 - Details list packed items, serials, storage location, and quantities
 - Document Connections (if applicable) show related logistics transactions
 
-![Containers Document](../Assets/ContainersDocument.png "Packaged container document")
+![Containers Document](../Images/ContainersDocument.png "Packaged container document")
 
 > [!TIP]
 > - Click on the **Location** link to open the [**Stock view by location**](../Views/StockViewByLocation.md) filtered to show only items in that location. 
@@ -93,7 +93,7 @@ Use the document menu for actions:
 - **Printing** (if configured) — prints the container (SSCC) label
 - **Exporting** — exports the container (SSCC) label as a PDF file
 
-![Containers menu](../Assets/ContainersMenu.png "Containers menu")
+![Containers menu](../Images/ContainersMenu.png "Containers menu")
 
 ## Deletion
 - Draft containers can be deleted freely
