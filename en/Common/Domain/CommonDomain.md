@@ -55,7 +55,6 @@ These settings influence all monetary and financial behavior across domains.
 Used across assets, materials, sales documents, supply orders, logistics, and production workflows.
 
 - **[Measure units](../CodeLists/MeasureUnits.md)** – Base measurement units used (pieces, kg, m, etc.).  
-- **[Alternative measure units](../CodeLists/AlternativeMeasureUnits.md)** – Additional units and conversion rules.
 
 Correct configuration ensures consistency in quantities, pricing, and stock calculations.
 

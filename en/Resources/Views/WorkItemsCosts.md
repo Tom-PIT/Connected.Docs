@@ -16,4 +16,4 @@ A compact view of unit cost per production order. Compare trends and open a quic
 - Charts: Cost trend, Distribution, Performance (best/worst)
 
 > [!TIP]
-> See how unit cost is calculated in **[Product cost](../../GettingStarted/05.ProductCost.md)**. Cross-check closed orders in **[Production orders](../../Production/Documents/ProductionOrders.md)**.
+> See how unit cost is calculated in **[Product cost](../../GettingStarted/06.ProductCost.md)**. Cross-check closed orders in **[Production orders](../../Production/Documents/ProductionOrders.md)**.
