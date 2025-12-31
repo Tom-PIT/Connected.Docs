@@ -1,4 +1,4 @@
-# Supply
+ï»¿# Supply
 
 The **Supply** domain manages all processes related to procurement, supplier interactions, and inbound material planning. It includes supplier inquiries, supply orders, planning tools, and analytical views that help maintain optimal stock levels and ensure timely replenishment.
 
@@ -6,32 +6,32 @@ Where the **[Sales](../../Sales/Domain/SalesDomain.md)** domain manages customer
 
 To access Supply, navigate to **Supply** in the [navigation](../../Common/UI/Navigation.md).
 
-![Supply Domain](../Assets/SupplyDomainSitemap.png "Supply Domain")
+![Supply Domain](../Images/SupplyDomainSitemap.png "Supply Domain")
 
 > [!NOTE]  
-> The available domains depend on each company’s configuration and business model.
+> The available domains depend on each companyâ€™s configuration and business model.
 
 ## What is included in the Supply domain?
 
 The domain is organized into several functional areas:
 
-- **[Documents](#documents)** – procurement documents used to request or order materials  
-- **[Supply stock boundaries planning](#supply-stock-boundaries-planning)** – planning tools based on stock boundary rules  
-- **[Views](#views)** – analytical tools for understanding procurement trends  
-- **[Management](#management)** – code lists and configuration for supplier-related processes
+- **[Documents](#documents)** â€“ procurement documents used to request or order materials  
+- **[Supply stock boundaries planning](#supply-stock-boundaries-planning)** â€“ planning tools based on stock boundary rules  
+- **[Views](#views)** â€“ analytical tools for understanding procurement trends  
+- **[Management](#management)** â€“ code lists and configuration for supplier-related processes
 
-![Supply Domain Overview](../Assets/SupplyDomainOverview.png "Supply Domain Overview")
+![Supply Domain Overview](../Images/SupplyDomainOverview.png "Supply Domain Overview")
 
 ## Documents
 
 The **Documents** section contains procurement-related documents used to request quotations or issue supply orders to vendors.
 
-![Supply Documents](../Assets/SupplyDomainDocuments.png "Supply Documents")
+![Supply Documents](../Images/SupplyDomainDocuments.png "Supply Documents")
 
 Available documents include:
 
-- **[Inquiries](../Documents/Inquiries.md)** – Requests sent to suppliers asking for quotations or availability. These do not affect stock and can typically be converted to supply orders via linked documents.
-- **[Supply orders](../Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Numbering is configured in the [Supply configuration](../CodeLists/SupplyConfiguration.md). Receipts are registered in **Logistics** using [Receives](../../Logistics/Documents/Receives.md).
+- **[Inquiries](../Documents/Inquiries.md)** â€“ Requests sent to suppliers asking for quotations or availability. These do not affect stock and can typically be converted to supply orders via linked documents.
+- **[Supply orders](../Documents/SupplyOrders.md)** â€“ Confirmed orders issued to suppliers for goods or services. Numbering is configured in the [Supply configuration](../CodeLists/SupplyConfiguration.md). Receipts are registered in **Logistics** using [Receives](../../Logistics/Documents/Receives.md).
 
 These documents initiate the procurement workflow and provide full traceability of supplier activity.
 
@@ -48,12 +48,12 @@ It supports proactive planning and prevents stockouts or overstocking.
 
 The **Views** section provides analytical insight into supply orders and procurement patterns. These views are read-only.
 
-![Supply Views](../Assets/SupplyDomainsViews.png "Supply Views")
+![Supply Views](../Images/SupplyDomainsViews.png "Supply Views")
 
 Available views include:
 
-- **[Supply order details](../Views/SupplyOrderDetails.md)** – Detailed information on supply orders, including items, deadlines, and supplier metrics.  
-- **[Supply orders report](../Views/SupplyOrdersReport.md)** – Aggregated overview of supply order volume, trends, and statuses.
+- **[Supply order details](../Views/SupplyOrderDetails.md)** â€“ Detailed information on supply orders, including items, deadlines, and supplier metrics.  
+- **[Supply orders report](../Views/SupplyOrdersReport.md)** â€“ Aggregated overview of supply order volume, trends, and statuses.
 
 These screens support analysis and decision-making but do **not** create transactions.
 
@@ -61,20 +61,20 @@ These screens support analysis and decision-making but do **not** create transac
 
 The **Management** section contains configuration and master data required by procurement processes.
 
-![Supply Management](../Assets/SupplyDomainManagement.png "Supply Management")
+![Supply Management](../Images/SupplyDomainManagement.png "Supply Management")
 
 Available configuration and code lists include:
 
-- **[Configuration](../CodeLists/SupplyConfiguration.md)** – Supply settings and procurement rules, including document numbering for supply orders.  
-- **[Supplier materials](../CodeLists/SupplierMaterials.md)** – Mapping of which suppliers can provide which materials; may include lead times, MOQs, and price sources.  
-- **[Expenses](../CodeLists/Expenses.md)** – Expense categories (e.g., freight, customs) used on supply orders; affect the total procurement cost.  
-- **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Supplier and partner records.  
-- **[Cost centers](../../Common/CodeLists/CostCenters.md)** – Financial allocation of procurement expenses.  
-- **[Currencies](../../Common/CodeLists/Currencies.md)** – Currency definitions used in quotations and supply orders.  
-- **[Predefined texts](../../Common/CodeLists/PredefinedTexts.md)** – Standard text blocks used in procurement documents.  
-- **[Countries](../../Common/CodeLists/Countries.md)** – Geographic information used in supplier profiles.  
-- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Measurement units used across supply documents.  
-- **[Tax rates](../../Common/CodeLists/TaxRates.md)** – Tax definitions applied during procurement.
+- **[Configuration](../CodeLists/SupplyConfiguration.md)** â€“ Supply settings and procurement rules, including document numbering for supply orders.  
+- **[Supplier materials](../CodeLists/SupplierMaterials.md)** â€“ Mapping of which suppliers can provide which materials; may include lead times, MOQs, and price sources.  
+- **[Expenses](../CodeLists/Expenses.md)** â€“ Expense categories (e.g., freight, customs) used on supply orders; affect the total procurement cost.  
+- **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** â€“ Supplier and partner records.  
+- **[Cost centers](../../Common/CodeLists/CostCenters.md)** â€“ Financial allocation of procurement expenses.  
+- **[Currencies](../../Common/CodeLists/Currencies.md)** â€“ Currency definitions used in quotations and supply orders.  
+- **[Predefined texts](../../Common/CodeLists/PredefinedTexts.md)** â€“ Standard text blocks used in procurement documents.  
+- **[Countries](../../Common/CodeLists/Countries.md)** â€“ Geographic information used in supplier profiles.  
+- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** â€“ Measurement units used across supply documents.  
+- **[Tax rates](../../Common/CodeLists/TaxRates.md)** â€“ Tax definitions applied during procurement.
 
 These elements determine how the procurement processes behave and how supply-related data is structured.
 
@@ -115,3 +115,4 @@ The Supply domain manages all procurement activities, ensuring timely replenishm
 It supports inquiries, ordering, planning, and analysis, while integrating tightly with logistics, finance, production, and materials management.
 
 ---
+

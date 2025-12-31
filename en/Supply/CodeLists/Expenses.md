@@ -1,4 +1,4 @@
-# Expenses
+ï»¿# Expenses
 
 The **Expenses** code list contains all costs that your organization wants to register as predefined expenses. These can include recurring services, equipment-related costs, subcontractor fees, or any non-material cost that needs to be referenced in supply or production processes.
 
@@ -15,7 +15,7 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 | **[Tax rate](../../Common/CodeLists/TaxRates.md)** | Tax rate applied to the expense. |
 | **Enabled** | Indicates whether the expense is available for use in documents. |
 | **Subcontractor** | Business partner providing the subcontracted service, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
-| **Cost per unit (€)** | Cost of this subcontracted operation per unit. |
+| **Cost per unit (â‚¬)** | Cost of this subcontracted operation per unit. |
 | **Operations** | List of operations associated with this subcontractor cost. |
 
 ### Operation fields (Add operation dialog)
@@ -32,7 +32,7 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 
 The list displays all defined expenses along with their tax rate.
 
-![Expenses list](../Assets/ExpensesList.png "Expenses list")
+![Expenses list](../Images/ExpensesList.png "Expenses list")
 
 Each record includes a status indicator to the left of its name:  
 - **Blue** indicates the expense is **enabled**  
@@ -56,7 +56,7 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new e
 - Tax rate  
 - Enabled  
 
-![New expense](../Assets/ExpensesNew.png "New expense")
+![New expense](../Images/ExpensesNew.png "New expense")
 
 #### Subcontractor cost
 
@@ -64,12 +64,12 @@ This optional section allows adding subcontractor-related costs.
 You can specify:
 
 - Subcontractor  
-- Cost per unit (€)  
+- Cost per unit (â‚¬)  
 - Operations  
 
 Click **Add operation** to open the operation selection dialog.
 
-![Add operation](../Assets/ExpensesAddOperation.png "Add operation")
+![Add operation](../Images/ExpensesAddOperation.png "Add operation")
 
 After entering the information, click **Add** to save the record or **Cancel** to return to the list.
 
@@ -77,7 +77,7 @@ After entering the information, click **Add** to save the record or **Cancel** t
 
 To edit an expense, click the entry in the list and the system opens the edit mode.
 
-All fields—including subcontractor cost and operations—can be modified. You can enable or disable an expense using the **Enabled** checkbox.
+All fieldsâ€”including subcontractor cost and operationsâ€”can be modified. You can enable or disable an expense using the **Enabled** checkbox.
 
 When you are done editing, click **Save**. If you do not want to save the changes, click **Cancel**.
 
@@ -94,3 +94,4 @@ Deletion is allowed only if the expense is not referenced in dependent records.
 > Disabled expenses remain in the system but cannot be selected in new documents.
 
 ---
+

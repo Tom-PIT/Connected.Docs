@@ -1,10 +1,10 @@
-# Supply stock boundaries planning
+ï»¿# Supply stock boundaries planning
 
 The **Supply stock boundaries planning** view helps you proactively plan purchases by identifying materials that have fallen below their defined minimum stock levels. From this screen, you can directly create [**Supply orders**](../../Supply/Documents/SupplyOrders.md) or [**Inquiries**](../../Supply/Documents/Inquiries.md) for the affected materials, with most details pre-filled.
 
 This page works closely with:
-- **[Stock boundaries](../../Logistics/CodeLists/StockBoundaries.md)** – where minimum and maximum quantities are defined
-- **[Supplier materials](../../Supply/CodeLists/SupplierMaterials.md)** – where materials are assigned to vendors
+- **[Stock boundaries](../../Logistics/CodeLists/StockBoundaries.md)** â€“ where minimum and maximum quantities are defined
+- **[Supplier materials](../../Supply/CodeLists/SupplierMaterials.md)** â€“ where materials are assigned to vendors
 
 To access this page, go to **Supply / Supply stock boundaries planning**.
 
@@ -27,7 +27,7 @@ The main list displays materials that require attention, with the following colu
 - **Minimum quantity / Maximum quantity**
 - **Order quantity**
 
-![Supply stock boundaries planning list](../Assets/SupplyStockBoundariesPlanningList.png)
+![Supply stock boundaries planning list](../Images/SupplyStockBoundariesPlanningList.png)
 
 ### Filters
 
@@ -46,7 +46,7 @@ Each row can be expanded to show additional planning information, such as:
 - **Delivery date**
 - **Price**
 
-![Supply stock boundaries planning details](../Assets/SupplyStockBoundariesPlanningListDetails.png)
+![Supply stock boundaries planning details](../Images/SupplyStockBoundariesPlanningListDetails.png)
 
 This helps you understand whether replenishment is already in progress before creating new documents.
 
@@ -56,23 +56,23 @@ Supply orders and inquiries are created directly from this screen.
 
 1. Select one or more materials using the checkbox in the list.
 
-   ![Select material](../Assets/SupplyStockBoundariesPlanningSelect.png)
+   ![Select material](../Images/SupplyStockBoundariesPlanningSelect.png)
 
 2. Click the [**action button**](../../Common/UI/ActionButton.md) and choose:
    - **Create new supply order**, or
    - **Inquiry**
 
-   ![Action button](../Assets/SupplyStockBoundariesPlanningActionButton.png)
+   ![Action button](../Images/SupplyStockBoundariesPlanningActionButton.png)
 
 3. A dialog opens where you confirm:
    - **Vendor**
    - **Supply date**
 
-   ![Choose vendor and supply date](../Assets/SupplyStockBoundariesPlanningDialog.png)
+   ![Choose vendor and supply date](../Images/SupplyStockBoundariesPlanningDialog.png)
 
 4. Click **Create** to proceed.
 
-You are then redirected to a new **Supply order** or **Inquiry** with all relevant details—material, quantities, and vendor—already filled in.
+You are then redirected to a new **Supply order** or **Inquiry** with all relevant detailsâ€”material, quantities, and vendorâ€”already filled in.
 
 ## Purpose and benefits
 
@@ -85,3 +85,4 @@ Supply stock boundaries planning enables you to:
 This view is especially useful for planners and purchasing teams managing multiple suppliers and materials.
 
 ---
+

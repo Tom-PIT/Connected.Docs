@@ -1,4 +1,4 @@
-# Supply orders report
+ï»¿# Supply orders report
 
 The **Supply orders report** view provides a consolidated overview of ordered materials and services, grouped by supplier. It is designed for analysis and reporting purposes and does **not** create or modify documents.
 
@@ -28,15 +28,15 @@ For each material, the report shows:
 - **Average price**
 - **Total cost**, including net value and tax
 
-![Supply Orders Report List](../Assets/SupplyOrdersReportList.png)
+![Supply Orders Report List](../Images/SupplyOrdersReportList.png)
 
 ## Filters
 
 The filters on the left allow you to narrow down the report:
 
-- **Supply date** — Filter orders within a specific date range.
-- **Vendor** — Show order data for one or more selected suppliers.
-- **Product** — Show order data for materials destined for specific products (e.g., **Pine wood board** for **Pine wood table**).
+- **Supply date** â€” Filter orders within a specific date range.
+- **Vendor** â€” Show order data for one or more selected suppliers.
+- **Product** â€” Show order data for materials destined for specific products (e.g., **Pine wood board** for **Pine wood table**).
 
 Filters can be combined to focus on very specific procurement scenarios.
 

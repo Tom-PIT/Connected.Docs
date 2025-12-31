@@ -1,6 +1,6 @@
-# Supplier materials
+ï»¿# Supplier materials
 
-Supplier materials represent the list of materials that vendors provide to your organization. Each entry links an existing material from the [**Materials**](../../Assets/Domain/Materials.md) domain with a specific vendor and includes additional information such as the supplier’s material code, price, and delivery time.
+Supplier materials represent the list of materials that vendors provide to your organization. Each entry links an existing material from the [**Materials**](../../Assets/Domain/Materials.md) domain with a specific vendor and includes additional information such as the supplierâ€™s material code, price, and delivery time.
 
 This code list ensures that procurement processes can correctly identify which materials are available from each vendor and at what cost.
 
@@ -13,7 +13,7 @@ To access this code list, go to **Supply / Management / Supplier materials** in 
 | **Vendor** | Vendor providing the material. Must exist in the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
 | **[Material type](../../Assets/Domain/Materials.md)** | Type of material ([**Raw material**](../../Assets/CodeLists/RawMaterials.md), [**Semi-product**](../../Assets/CodeLists/SemiProducts.md), [**Product**](../../Assets/CodeLists/Products.md), [**Repro material**](../../Assets/CodeLists/ReproMaterials.md)). Must match an existing material type (mandatory). |
 | **[Material](../../Assets/Domain/Materials.md)** | Material supplied by the vendor. Must already exist in the **Materials** domain (mandatory). |
-| **Supplier code** | The vendor’s internal code for this material. |
+| **Supplier code** | The vendorâ€™s internal code for this material. |
 | **Price** | Net price at which the vendor supplies the material. |
 | **Delivery date** | Delivery time expressed in days. |
 
@@ -29,7 +29,7 @@ The user interface contains a list of all supplier materials, showing:
 
 A search field is available in the upper-right corner.
 
-![Supplier materials list](../Assets/SupplierMaterialsList.png "Supplier materials list")
+![Supplier materials list](../Images/SupplierMaterialsList.png "Supplier materials list")
 
 ### Filters
 
@@ -65,7 +65,7 @@ The input form includes fields:
 - Price  
 - Delivery date  
 
-![New supplier material](../Assets/SupplierMaterialsNew.png "New supplier material")
+![New supplier material](../Images/SupplierMaterialsNew.png "New supplier material")
 
 After entering the required information, click **Add** to save the record or **Cancel** to return to the list view.
 
@@ -80,7 +80,7 @@ This screen behaves similarly to the **[Import materials](../../Assets/CodeLists
 - Drag-and-drop upload area  
 - Preview of past imports  
 
-![Supplier materials import](../Assets/SupplierMaterialsImport.png "Supplier materials import")
+![Supplier materials import](../Images/SupplierMaterialsImport.png "Supplier materials import")
 
 #### Spreadsheet structure
 
@@ -106,7 +106,7 @@ When you are done editing, click **Save**. If you do not want to save the change
 
 The **Menu** in the top-right corner provides a single action:
 
-- **Export** – Exports the visible list of supplier materials into a CSV file for analysis or backup purposes.
+- **Export** â€“ Exports the visible list of supplier materials into a CSV file for analysis or backup purposes.
 
 
 ## Deletion
@@ -121,4 +121,5 @@ If confirmed, the supplier material is permanently removed.
 > A supplier material can be deleted only if it is not referenced by other records.
 
 ---
+
 
