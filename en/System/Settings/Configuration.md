@@ -20,11 +20,11 @@ These two configuration groups must be set up during the initial system setup, a
 
 The **Common Types Settings** section defines the **default country** and **default currency** used throughout the platform. Many modules rely on these values for correct formatting, taxation, legal structure, and document output.
 
-![Common Types Settings](../Assets/ConfigurationCommonTypes.png "Common Types Settings")
+![Common Types Settings](../Images/ConfigurationCommonTypes.png "Common Types Settings")
 
 To access these settings go to **CommonTypes / CommonTypes Settings** in the left sidebar and click on **Organization**.
 
-![Configuration Common Types Detail](../Assets/ConfigurationCommonTypesDetail.png)
+![Configuration Common Types Detail](../Images/ConfigurationCommonTypesDetail.png)
 
 ### Country
 
@@ -46,7 +46,7 @@ These two settings form the foundation for all financial and commercial operatio
 
 The **Organization** section defines your company’s identity and legally required business information. These values appear on printed documents such as invoices, delivery notes, sales orders, and supply orders.
 
-![Organization Details](../Assets/ConfigurationSystemOrganization1.png "Organization Details")
+![Organization Details](../Images/ConfigurationSystemOrganization1.png "Organization Details")
 
 ### Schema
 
@@ -65,6 +65,7 @@ The **Organization** section defines your company’s identity and legally requi
 | **Signature of the responsible person** | Upload the signature image used on selected official documents. Accepted formats: PNG, JPG. Displayed on invoices, confirmations, and similar outputs. |
 
 
-![Organization Footer and Legal Data](../Assets/ConfigurationSystemOrganization2.png "Organization Footer and Legal Data")
+![Organization Footer and Legal Data](../Images/ConfigurationSystemOrganization2.png "Organization Footer and Legal Data")
 
 ---
+
