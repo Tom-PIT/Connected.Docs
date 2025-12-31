@@ -28,7 +28,7 @@ Import materials** in the [navigation](../../Common/UI/Navigation.md).
 
 The system accepts imports in the **CSV** or **XLSX** format. The dropdown menu is used to select the format of the **example file** that you can download. Click the **Download** button to obtain the example import file in the selected format. This sample file contains all required columns in the correct order.
 
-![Import materials â€” initial screen](../Images/ImportMaterials.png "Import materials â€” initial screen")
+![Import materials — initial screen](../Images/ImportMaterials.png "Import materials — initial screen")
 
 ## Spreadsheet structure
 
@@ -73,11 +73,11 @@ You can prepare or modify the spreadsheet in a spreadsheet editor:
     - **Import** — imports and saves the data, applying all valid changes to the system  
 
 
-    ![Import materials — data preview](../Images/ImportMaterialsPreview.png "Import materials â€” data preview")
+    ![Import materials — data preview](../Images/ImportMaterialsPreview.png "Import materials — data preview")
    
    It is recommended to perform a **Test import** first to ensure that the data structure is correct and to prevent issues before applying the import. Below the upload area, you can see the list with all previously uploaded files. Rows containing errors are marked in **red**, while valid rows are marked in **green** in the **Status** column.
 
-   ![Import materials — error preview](../Images/ImportMaterialsError.png "Import materials â€” error preview")
+   ![Import materials — error preview](../Images/ImportMaterialsError.png "Import materials — error preview")
 
 3. To complete the full import after valitating the data with a **Test import**, load the spreadsheet file again, and select the **Import** option.
 
