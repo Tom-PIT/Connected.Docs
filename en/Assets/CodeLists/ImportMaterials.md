@@ -91,7 +91,7 @@ During import:
 After the import completes, the status updates in the table, indicating which rows were processed successfully.
 
 > [!NOTE]  
-> Materials are linked to two code lists, [Measure units](../../Common/CodeLists/MeasureUnits.md) and [Tax rates](../../Common/CodeLists/TaxRates.md). If the required records do not exist in these code lists, the system automatically creates the missing dependent code list entries during import.
+> Materials are linked to two code lists, [**Measure units**](../../Common/CodeLists/MeasureUnits.md) and [**Tax rates**](../../Common/CodeLists/TaxRates.md). If the required records do not exist in these code lists, the system automatically creates the missing dependent code list entries during import.
 
 ## Results list
 
