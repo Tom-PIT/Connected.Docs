@@ -58,8 +58,8 @@ Use the **Search** field to filter operations by name or code.
 
 2. Fill in the fields:
 
-   ![Operation – new (top)](../Assets/OperationsNewTop.png "Operation – new (top)")  
-   ![Operation – new (bottom)](../Assets/OperationsNewBottom.png "Operation – new (bottom)")
+   ![Operation – new (top)](../Images/OperationsNewTop.png "Operation – new (top)")  
+   ![Operation – new (bottom)](../Images/OperationsNewBottom.png "Operation – new (bottom)")
 
 3. Click **Add** to create the operation.
 
