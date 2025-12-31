@@ -1,4 +1,4 @@
-# Sales order report
+ï»¿# Sales order report
 
 The **Sales order reports** view provides a consolidated overview of ordered items, grouped by customer. It is designed for analysis and reporting purposes and does **not** create or modify documents.
 
@@ -28,15 +28,15 @@ For each asset, the report shows:
 - **Average price**
 - **Total cost**, including net value and tax
 
-![Sales Order Report List](../Assets/SalesOrderReportList.png)
+![Sales Order Report List](../Images/SalesOrderReportList.png)
 
 ## Filters
 
 The filters on the left allow you to narrow down the report:
 
-- **Order date** — Filter orders within a specific date range.
-- **Customer** — Show order data for one or more selected customers.
-- **Asset** — Show order data for one or more selected assets.
+- **Order date** â€” Filter orders within a specific date range.
+- **Customer** â€” Show order data for one or more selected customers.
+- **Asset** â€” Show order data for one or more selected assets.
 
 Filters can be combined to focus on very specific ordering scenarios.
 

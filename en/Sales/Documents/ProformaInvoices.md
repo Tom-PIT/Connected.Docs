@@ -65,7 +65,7 @@ Each row shows:
 - Document date  
 - Document amount  
 
-![Proforma invoice list](../Assets/ProformaInvoiceList.png "Proforma invoice list")
+![Proforma invoice list](../Images/ProformaInvoiceList.png "Proforma invoice list")
 
 Drafts can be edited; committed proforma invoices are final unless reversed.
 
@@ -79,7 +79,7 @@ Proforma invoices can be created in two ways:
 - From a committed [**Offer**](Offers.md), via **Linked documents → + Proforma invoice**.  
   In this case, fields such as the customer, validity date, and detail items are automatically pre-filled.
 
-![Offer Published Linked Documents](../Assets/OfferPublishedLinkedDocuments.png)
+![Offer Published Linked Documents](../Images/OfferPublishedLinkedDocuments.png)
 
 Once you start a new Proforma invoice, follow these steps:
 
@@ -93,15 +93,15 @@ Once you start a new Proforma invoice, follow these steps:
    - **Reference type** / **Reference number**  
    - [**Organization bank account**](../CodeLists/OrganizationBankAccounts.md)
 
-   ![Proforma invoice top](../Assets/ProformaInvoiceNewTop.png)
+   ![Proforma invoice top](../Images/ProformaInvoiceNewTop.png)
 
 3. Add items in the **Details** section by typing or scanning a **serial number**, **EAN**, or **asset name**. The system displays all matching results.
 
-   ![Proforma invoice details edit](../Assets/ProformaInvoiceNewDetailsEdit.png)
+   ![Proforma invoice details edit](../Images/ProformaInvoiceNewDetailsEdit.png)
 
 4. Save the added detail line.
 
-   ![Proforma invoice detail saved](../Assets/ProformaInvoiceNewDetailsSaved.png)
+   ![Proforma invoice detail saved](../Images/ProformaInvoiceNewDetailsSaved.png)
 
 5. When the document is ready, click **Publish** to finalize it.  
    
@@ -139,7 +139,7 @@ Typical actions and pre-fills:
 > [!NOTE]
 > Available actions depend on document status (Draft vs Committed). Pre-fills vary by source document.
 
-![Linked documents](../Assets/ProformaInvoiceLinkedDocuments.png)
+![Linked documents](../Images/ProformaInvoiceLinkedDocuments.png)
 
 #### Delivery section
 
@@ -158,7 +158,7 @@ The document menu provides the following actions:
 - **Reverse document**  
 - **Return to draft** (only when permitted by system rules)
 
-![Proforma invoice menu](../Assets/PrepaymentsMenu.png)
+![Proforma invoice menu](../Images/PrepaymentsMenu.png)
 
 Reversing a proforma invoice removes its committed effect and creates a reversal document. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more information.
 
@@ -177,3 +177,4 @@ Once the document contains no materials, you can click **Delete** to remove the 
 Committed documents **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).  
 
 ---
+

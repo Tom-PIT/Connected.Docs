@@ -31,7 +31,7 @@ Exchange rates are maintained manually and can be created for different dates an
 
 The list displays all defined exchange rates for the selected filters.
 
-![Exchange rates list](../Assets/ExchangeRatesList.png "Exchange rates list")
+![Exchange rates list](../Images/ExchangeRatesList.png "Exchange rates list")
 
 Available filters on the left:
 - **Date** — Filter exchange rates by a specific date  
@@ -48,7 +48,7 @@ Each row shows:
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) button in the bottom-right corner of the screen to create a new record.
 
-   ![New exchange rate](../Assets/ExchangeRatesNew.png "Create a new exchange rate")
+   ![New exchange rate](../Images/ExchangeRatesNew.png "Create a new exchange rate")
  
 2. Select the **From currency** (base currency).
 3. Select the **To currency** (target currency).

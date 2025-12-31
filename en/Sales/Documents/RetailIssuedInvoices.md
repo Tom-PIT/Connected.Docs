@@ -1,4 +1,4 @@
-# Retail issued invoices
+ï»¿# Retail issued invoices
 
 A **Retail issued invoice** is a sales document used for direct, in-store sales to end customers. It is typically created when a customer purchases goods on the spot, without a preceding offer or sales order. Retail issued invoices support immediate or later payment tracking, but **do not affect stock levels**. Inventory changes must be handled separately through Logistics documents.
 
@@ -56,7 +56,7 @@ Retail issued invoices move through the following states:
 
 ### List view
 
-![Retail Issued Invoice List](../Assets/RetailIssuedInvoiceList.png)
+![Retail Issued Invoice List](../Images/RetailIssuedInvoiceList.png)
 
 The list can be filtered by:
 - **Document dates**
@@ -72,11 +72,11 @@ Each row displays:
 
 If a partial amount is recorded, the invoice moves to **Partially paid invoices**. The list shows the whole amount and the already paid amount. On the left side the record shows **blue** color.
 
-![Partially paid retail invoice](../Assets/RetailInvoicePartiallyPaid.png "Partially paid retail invoice")
+![Partially paid retail invoice](../Images/RetailInvoicePartiallyPaid.png "Partially paid retail invoice")
 
 When the full amount is paid, the invoice moves to **Fully paid invoices**. The list shows the amount paid. On the left side the record shows **green** color.
    
-![Fully paid retail invoice](../Assets/RetailInvoiceFullyPaid.png "Fully paid retail invoice")
+![Fully paid retail invoice](../Images/RetailInvoiceFullyPaid.png "Fully paid retail invoice")
 
 ## Actions
 
@@ -86,23 +86,23 @@ Retail issued invoices can only be created manually.
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new draft retail issued invoice.
 
-   ![New retail issued invoice](../Assets/RetailIssuedInvoiceNew.png "New retail issued invoice")
+   ![New retail issued invoice](../Images/RetailIssuedInvoiceNew.png "New retail issued invoice")
 
 2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) are available.
    
-   ![Customer classification](../../Common/Assets/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
+   ![Customer classification](../../Common/Images/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
 
 3. Fill in required header fields such as **Due date**, **Reference type**, and **Organization bank account**.
 
 4. Add items in the **Details** section by typing or scanning an asset name or code.  
 
-   ![Edit retail invoice detail](../Assets/RetailIssuedInvoiceNewDetailsEdit.png "Edit retail invoice detail")
+   ![Edit retail invoice detail](../Images/RetailIssuedInvoiceNewDetailsEdit.png "Edit retail invoice detail")
 
 5. Save the detail lines and review totals.
 
 6. Add **Payment methods** at the bottom of the document (optional).
 
-   ![Retail invoice payment methods](../Assets/RetailInvoiceNewBottom.png "Retail invoice payment methods")
+   ![Retail invoice payment methods](../Images/RetailInvoiceNewBottom.png "Retail invoice payment methods")
 
 7. Click **Publish** to confirm the invoice.  
    The document moves to **Unpaid invoices**.
@@ -111,19 +111,19 @@ Retail issued invoices can only be created manually.
 
 Payments are recorded using the **Payment** button at the top of the document.
 
-![Retail Issue Invoice Payment Screen](../Assets/RetailIssueInvoicePaymentScreen.png "Payment screen")
+![Retail Issue Invoice Payment Screen](../Images/RetailIssueInvoicePaymentScreen.png "Payment screen")
 
 In the payment dialog you can see:
 
-- **Total cost** – Invoice gross amount and due date.  
-- **Payment** – Amount being paid now and date of payment.  
-- **Remaining amount** – Outstanding balance after the payment.
+- **Total cost** â€“ Invoice gross amount and due date.  
+- **Payment** â€“ Amount being paid now and date of payment.  
+- **Remaining amount** â€“ Outstanding balance after the payment.
 
 You can register multiple payments over time. The system automatically updates the invoice status:
 
-- **Unpaid** – No payments recorded.  
-- **Partially paid** – Some payments recorded, but an outstanding amount remains.  
-- **Fully paid** – Remaining amount is zero.
+- **Unpaid** â€“ No payments recorded.  
+- **Partially paid** â€“ Some payments recorded, but an outstanding amount remains.  
+- **Fully paid** â€“ Remaining amount is zero.
 
 > [!NOTE]  
 > When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
@@ -146,7 +146,7 @@ The document menu for published invoices provides:
 - **Reverse document** - See [**Reversals**](../../Logistics/Documents/Reversals.md) for details.
 - **Return to draft**
 
-   ![Retail invoice menu](../Assets/RetailInvoiceMenu.png "Retail invoice menu")
+   ![Retail invoice menu](../Images/RetailInvoiceMenu.png "Retail invoice menu")
 
 > [!NOTE]
 >
@@ -165,3 +165,4 @@ If the draft still includes items in the **Details** section:
 **Published** invoices (any payment status) cannot be deleted, but they can be **reversed** or **returned to draft**, depending on system settings.
 
 ---
+

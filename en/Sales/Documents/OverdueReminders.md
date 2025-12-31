@@ -1,4 +1,4 @@
-# Overdue reminders
+ï»¿# Overdue reminders
 
 An **Overdue reminder** is a sales document used to notify customers about unpaid invoices and request payment, optionally including reminder costs and interest.
 
@@ -31,10 +31,10 @@ A typical flow:
 ### List view
 
 The Overdue reminders list provides an overview of all reminders, separated into: **Drafts**, and **Committed**.
-- **Draft** — The document is not yet published. All fields can be edited freely.
-- **Committed** — The document has been published. It cannot be deleted or freely modified.
+- **Draft** â€” The document is not yet published. All fields can be edited freely.
+- **Committed** â€” The document has been published. It cannot be deleted or freely modified.
 
-![Overdue Reminders List](../Assets/OverdueRemindersList.png)
+![Overdue Reminders List](../Images/OverdueRemindersList.png)
 
 Filters on the left help narrow down results by **document dates**, **status**, and **customer**.
 
@@ -44,7 +44,7 @@ Filters on the left help narrow down results by **document dates**, **status**, 
 
 1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft overdue reminder.
 
-   ![Overdue Reminders New](../Assets/OverdueRemindersNew.png)
+   ![Overdue Reminders New](../Images/OverdueRemindersNew.png)
 
 2. Fill in the **Customer**, **Document date**, and **Reminder cost** (optional) fields.
 
@@ -54,11 +54,11 @@ Filters on the left help narrow down results by **document dates**, **status**, 
    - The system automatically adds the **outstanding amount** and applies any **reminder cost**.
    - Enter the **Interest** manually if applicable.
 
-   ![Overdue Reminders Add Detail](../Assets/OverdueRemindersAddDetail.png)
+   ![Overdue Reminders Add Detail](../Images/OverdueRemindersAddDetail.png)
 
 4. Click **Save** to confirm added details. Repeat step 3 to add more items.
 
-   ![Overdue Reminders New Details Saved](../Assets/OverdueRemindersNewDetailsSaved.png)
+   ![Overdue Reminders New Details Saved](../Images/OverdueRemindersNewDetailsSaved.png)
 
 5. When ready, click **Publish** at the top of the page to finalize the reminder.
 

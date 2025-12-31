@@ -68,7 +68,7 @@ These states determine what actions are available (payment recording, reversal, 
 
 The list view shows all invoices that match the selected filters and date ranges.
 
-![Issued invoices list](../Assets/IssuedInvoicesListPartiallyPaid.png "Issued invoices list")
+![Issued invoices list](../Images/IssuedInvoicesListPartiallyPaid.png "Issued invoices list")
 
 **Indicators**
 
@@ -108,7 +108,7 @@ Issued invoices can be created in two ways:
 
   In these cases, most fields — including the customer, delivery data, and detail items — are automatically pre-filled.
 
-  ![Sales Order Committed Linked Documents](../Assets/SalesOrderCommittedLinkedDocuments.png "Committed Sales Order Linked Documents")
+  ![Sales Order Committed Linked Documents](../Images/SalesOrderCommittedLinkedDocuments.png "Committed Sales Order Linked Documents")
 
 Once you start a new Issued invoice, follow these steps:
 
@@ -123,18 +123,18 @@ Once you start a new Issued invoice, follow these steps:
    - [**Organization bank account**](../CodeLists/OrganizationBankAccounts.md)  
    - [**Payment method**](../CodeLists/PaymentMethods.md)
 
-   ![New invoice top](../Assets/IssuedInvoicesNewTop.png "New invoice top section")
+   ![New invoice top](../Images/IssuedInvoicesNewTop.png "New invoice top section")
 
 3. Add items in the **Details** section. Type or scan a **serial number**, **EAN**, or **asset name** in the Details bar.  
    The system displays all matching items.
 
 4. Adjust **quantity**, **price**, **discount**, or **tax rate**, then click **Save**.
 
-    ![Issued Invoices New Details Edit](../Assets/IssuedInvoicesNewDetailsEdit.png)
+    ![Issued Invoices New Details Edit](../Images/IssuedInvoicesNewDetailsEdit.png)
 
 5. Continue adding as many detail lines as needed. After saving, the detail appears in the list:
 
-   ![Invoice detail saved](../Assets/IssuedInvoicesNewBottom.png "Saved invoice detail")
+   ![Invoice detail saved](../Images/IssuedInvoicesNewBottom.png "Saved invoice detail")
 
 6. (Optional) Add:
    - **Content top / Content bottom** text  
@@ -159,7 +159,7 @@ While the invoice is in **Draft** status you can edit all sections:
 - **Payment methods** – define how the customer is expected to pay
 - **Content top** and **Content bottom** – choose predefined texts
 
-![Details and payments](../Assets/IssuedInvoicesNewBottom.png "Invoice details and payment methods")
+![Details and payments](../Images/IssuedInvoicesNewBottom.png "Invoice details and payment methods")
 
 #### Attachments
 
@@ -171,14 +171,14 @@ You can upload any relevant file—such as delivery notes, transport documents, 
 
 The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents.
 
-![Issued Invoice Partially Paid Linked Documents](../Assets/IssuedInvoicePartiallyPaidLinkedDocuments.png "Issued Invoice Partially Paid Linked Documents")
+![Issued Invoice Partially Paid Linked Documents](../Images/IssuedInvoicePartiallyPaidLinkedDocuments.png "Issued Invoice Partially Paid Linked Documents")
 
 > [!NOTE]
 > The available **Linked document** actions depend on the document type and status.
 
 Example for a new draft document:
 
-![Issued Invoice Draft Linked Documents](../Assets/IssuedInvoiceDraftLinkedDocuments.png "Issued Invoice Draft Linked Documents")
+![Issued Invoice Draft Linked Documents](../Images/IssuedInvoiceDraftLinkedDocuments.png "Issued Invoice Draft Linked Documents")
 
 Available actions may include:
 
@@ -196,7 +196,7 @@ When you are ready, click **Publish** to confirm the invoice and move it out of 
 
 After an invoice is published, use the **Payment** button to record incoming payments.
 
-![Payment dialog](../Assets/IssuedInvoicesPayment.png "Payment dialog")
+![Payment dialog](../Images/IssuedInvoicesPayment.png "Payment dialog")
 
 In the payment dialog you can see:
 
@@ -217,7 +217,7 @@ You can register multiple payments over time. The system automatically updates t
 
 For published invoices, the menu in the top-right corner provides additional options:
 
-![Invoice menu](../Assets/IssuedInvoicesMenu.png "Issued invoice menu")
+![Invoice menu](../Images/IssuedInvoicesMenu.png "Issued invoice menu")
 
 Available actions include:
 
@@ -245,3 +245,4 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > - If any payments have been recorded, the invoice cannot be deleted until those payments are removed and the document is returned to draft.
 
 ___
+

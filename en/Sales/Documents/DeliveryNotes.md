@@ -70,11 +70,11 @@ These indicators update automatically based on selected filters (Document dates,
 
 **Available example:**
 
-![Delivery notes available](../Assets/DeliveryNotesListAvailable.png)
+![Delivery notes available](../Images/DeliveryNotesListAvailable.png)
 
 **Completed example:**
 
-![Delivery notes completed](../Assets/DeliveryNotesListCompleted.png)
+![Delivery notes completed](../Images/DeliveryNotesListCompleted.png)
 
 ## Actions
 
@@ -85,11 +85,11 @@ Delivery notes can be created in two ways:
 - From the **Delivery notes** list, by clicking [**action button**](../../Common/UI/ActionButton.md).
 - From a **Sales order** using *Linked documents → + Delivery note* to create a new delivery note draft.
     
-    ![Sales order → Delivery note](../Assets/DeliveryNoteLinkSalesOrder.png)
+    ![Sales order → Delivery note](../Images/DeliveryNoteLinkSalesOrder.png)
 
 Example of an empty Delivery note draft: 
 
-![Delivery note new](../Assets/DeliveryNoteNew.png)
+![Delivery note new](../Images/DeliveryNoteNew.png)
 
 ### Editing a delivery note
 
@@ -116,7 +116,7 @@ You can upload any relevant file—such as delivery notes, transport documents, 
 
 The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents.
 
-![Delivery note – linked documents](../Assets/DeliveryNoteLinkedDocuments.png)
+![Delivery note – linked documents](../Images/DeliveryNoteLinkedDocuments.png)
 
 > [!NOTE]
 > The available **Linked document** actions depend on the document type and status.
@@ -143,7 +143,7 @@ Once the delivery note is ready, click **Complete** at the top of the page.
 
 The top-right menu includes:
 
-![Delivery notes menu](../Assets/DeliveryNotesMenu.png)
+![Delivery notes menu](../Images/DeliveryNotesMenu.png)
 
 - **Printing**
 - **Exporting (PDF)**
@@ -173,3 +173,4 @@ If confirmed, the document is permanently removed.
 > - Completed documents **cannot** be deleted — only reversed or returned to draft.
 
 ---
+

@@ -1,4 +1,4 @@
-# Sales
+ï»¿# Sales
 
 The **Sales** domain contains all records and documents needed to manage commercial transactions with customers. It includes [**Offers**](../Documents/Offers.md), [**Sales orders**](../Documents/SalesOrders.md), [**Delivery notes**](../Documents/DeliveryNotes.md), [**Issued invoices**](../Documents/IssuedInvoices.md), and analytical views used to understand sales performance and document flows.
 
@@ -6,40 +6,40 @@ Where the **[Assets](../../Assets/Domain/AssetsDomain.md)** domain defines *what
 
 To access this domain, navigate to **Sales** in the [navigation](../../Common/UI/Navigation.md).
 
-![Sales Domain](../Assets/SalesDomainSitemap.png "Sales Domain")
+![Sales Domain](../Images/SalesDomainSitemap.png "Sales Domain")
 
 > [!NOTE]  
-> The available domains depend on each company’s configuration and business model.
+> The available domains depend on each companyâ€™s configuration and business model.
 
 ## What is included in the Sales domain?
 
 The domain is organized into several functional areas:
 
-- **[Documents](#documents)** – all sales documents for commercial transactions  
-- **[Views](#views)** – analytical screens for monitoring sales activity and performance  
-- **[Management](#management)** – code lists and configuration for commercial processes
+- **[Documents](#documents)** â€“ all sales documents for commercial transactions  
+- **[Views](#views)** â€“ analytical screens for monitoring sales activity and performance  
+- **[Management](#management)** â€“ code lists and configuration for commercial processes
 
-![Sales Domain Overview](../Assets/SalesDomainOverview.png "Sales Domain Overview")
+![Sales Domain Overview](../Images/SalesDomainOverview.png "Sales Domain Overview")
 
 ## Documents
 
 The **Documents** section contains sales documents that support the lifecycle, from offers to final invoices.
 
-![Sales Documents](../Assets/SalesDomainDocuments.png "Sales Documents")
+![Sales Documents](../Images/SalesDomainDocuments.png "Sales Documents")
 
 Available sales documents include:
 
-- **[Offers](../Documents/Offers.md)** – Commercial proposals created before the sales order is confirmed.  
-- **[Sales orders](../Documents/SalesOrders.md)** – Confirmed commercial commitments that drive delivery and invoicing.  
-- **[Delivery notes](../Documents/DeliveryNotes.md)** – Track goods delivered to customers.  
-- **[Issued invoices](../Documents/IssuedInvoices.md)** – Billing documents for delivered products or services.  
-- **[Credit notes](../Documents/CreditNotes.md)** – Negative invoices correcting or refunding previous billing.  
-- **[Debit notes](../Documents/DebitNotes.md)** – Additional charges applied to previous invoices.  
-- **[Proforma invoices](../Documents/ProformaInvoices.md)** – Preliminary invoices issued prior to delivery or payment; do not confirm delivery.  
-- **[Prepayments](../Documents/Prepayments.md)** – Manage customer advance payments.  
-- **[Overdue reminders](../Documents/OverdueReminders.md)** – Notifications for unpaid or overdue invoices.  
-- **[Retail issued invoices](../Documents/RetailIssuedInvoices.md)** – Sales invoices created through retail workflows; stock adjustments are handled via Logistics.  
-- **[Retail proforma invoices](../Documents/RetailProformaInvoices.md)** – Retail-mode proforma documents.
+- **[Offers](../Documents/Offers.md)** â€“ Commercial proposals created before the sales order is confirmed.  
+- **[Sales orders](../Documents/SalesOrders.md)** â€“ Confirmed commercial commitments that drive delivery and invoicing.  
+- **[Delivery notes](../Documents/DeliveryNotes.md)** â€“ Track goods delivered to customers.  
+- **[Issued invoices](../Documents/IssuedInvoices.md)** â€“ Billing documents for delivered products or services.  
+- **[Credit notes](../Documents/CreditNotes.md)** â€“ Negative invoices correcting or refunding previous billing.  
+- **[Debit notes](../Documents/DebitNotes.md)** â€“ Additional charges applied to previous invoices.  
+- **[Proforma invoices](../Documents/ProformaInvoices.md)** â€“ Preliminary invoices issued prior to delivery or payment; do not confirm delivery.  
+- **[Prepayments](../Documents/Prepayments.md)** â€“ Manage customer advance payments.  
+- **[Overdue reminders](../Documents/OverdueReminders.md)** â€“ Notifications for unpaid or overdue invoices.  
+- **[Retail issued invoices](../Documents/RetailIssuedInvoices.md)** â€“ Sales invoices created through retail workflows; stock adjustments are handled via Logistics.  
+- **[Retail proforma invoices](../Documents/RetailProformaInvoices.md)** â€“ Retail-mode proforma documents.
 
 Each document type contributes to the sales workflow, ensuring full traceability from initial offer to final invoice.
 
@@ -47,39 +47,39 @@ Each document type contributes to the sales workflow, ensuring full traceability
 
 The **Views** section provides analytical tools used to understand the performance and behavior of sales documents.
 
-![Sales Views](../Assets/SalesDomainViews.png "Sales Views")
+![Sales Views](../Images/SalesDomainViews.png "Sales Views")
 
 Available views include:
 
-- **[Company cards](../Views/CompanyCards.md)** – High-level customer profiles summarizing commercial activity.  
-- **[Delivery note reports](../Views/DeliveryNoteReports.md)** – Consolidated analysis of delivered assets grouped by customer; read-only; based on committed [delivery notes](../Documents/DeliveryNotes.md).  
-- **[Sales order reports](../Views/SalesOrderReport.md)** – Consolidated analysis of ordered assets grouped by customer; read-only; based on committed [sales orders](../Documents/SalesOrders.md).  
-- **[Sales order details](../Views/SalesOrderDetails.md)** – Detailed breakdown of individual sales orders.
+- **[Company cards](../Views/CompanyCards.md)** â€“ High-level customer profiles summarizing commercial activity.  
+- **[Delivery note reports](../Views/DeliveryNoteReports.md)** â€“ Consolidated analysis of delivered assets grouped by customer; read-only; based on committed [delivery notes](../Documents/DeliveryNotes.md).  
+- **[Sales order reports](../Views/SalesOrderReport.md)** â€“ Consolidated analysis of ordered assets grouped by customer; read-only; based on committed [sales orders](../Documents/SalesOrders.md).  
+- **[Sales order details](../Views/SalesOrderDetails.md)** â€“ Detailed breakdown of individual sales orders.
 
-These screens do **not** create transactions—they support analysis and decision-making.
+These screens do **not** create transactionsâ€”they support analysis and decision-making.
 
 ## Management
 
 The **Management** section contains configuration and master data required by commercial processes and financial interactions.
 
-![Sales Management](../Assets/SalesDomainManagement.png "Sales Management")
+![Sales Management](../Images/SalesDomainManagement.png "Sales Management")
 
 Available configuration and code lists include:
 
-- **[Configuration](../CodeLists/SalesConfiguration.md)** – Global sales settings and behavior settings.  
-- **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Customer and partner records used throughout sales documents.  
-- **[Banks](../../Common/CodeLists/Banks.md)** – Bank definitions used on invoices and payment instructions.  
-- **[Payment methods](../CodeLists/PaymentMethods.md)** – Methods used for settling sales invoices.  
-- **[Organization bank accounts](../CodeLists/OrganizationBankAccounts.md)** – Internal bank accounts used for outgoing billing.  
-- **[Countries](../../Common/CodeLists/Countries.md)** – Geographic entries used on customer records and documents.  
-- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Consistent measurement units used in commercial documents.  
-- **[Cost centers](../../Common/CodeLists/CostCenters.md)** – Classification of sales and revenue by cost center.  
-- **[Currencies](../../Common/CodeLists/Currencies.md)** – Currency definitions used in price lists and invoices.  
-- **[Exchange rates](../../Common/CodeLists/ExchangeRates.md)** – Daily or periodic exchange rates used for currency conversion.  
-- **[Predefined texts](../../Common/CodeLists/PredefinedTexts.md)** – Standardized text blocks used throughout sales documents.  
-- **[Tax rates](../../Common/CodeLists/TaxRates.md)** – Definitions of VAT and tax rates used in invoicing.  
-- **[Clause templates for delivery notes](../CodeLists/ClauseTemplatesDeliveryNotes.md)** – Predefined clauses for delivery documentation.  
-- **[Clause templates for issued invoices](../CodeLists/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.
+- **[Configuration](../CodeLists/SalesConfiguration.md)** â€“ Global sales settings and behavior settings.  
+- **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** â€“ Customer and partner records used throughout sales documents.  
+- **[Banks](../../Common/CodeLists/Banks.md)** â€“ Bank definitions used on invoices and payment instructions.  
+- **[Payment methods](../CodeLists/PaymentMethods.md)** â€“ Methods used for settling sales invoices.  
+- **[Organization bank accounts](../CodeLists/OrganizationBankAccounts.md)** â€“ Internal bank accounts used for outgoing billing.  
+- **[Countries](../../Common/CodeLists/Countries.md)** â€“ Geographic entries used on customer records and documents.  
+- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** â€“ Consistent measurement units used in commercial documents.  
+- **[Cost centers](../../Common/CodeLists/CostCenters.md)** â€“ Classification of sales and revenue by cost center.  
+- **[Currencies](../../Common/CodeLists/Currencies.md)** â€“ Currency definitions used in price lists and invoices.  
+- **[Exchange rates](../../Common/CodeLists/ExchangeRates.md)** â€“ Daily or periodic exchange rates used for currency conversion.  
+- **[Predefined texts](../../Common/CodeLists/PredefinedTexts.md)** â€“ Standardized text blocks used throughout sales documents.  
+- **[Tax rates](../../Common/CodeLists/TaxRates.md)** â€“ Definitions of VAT and tax rates used in invoicing.  
+- **[Clause templates for delivery notes](../CodeLists/ClauseTemplatesDeliveryNotes.md)** â€“ Predefined clauses for delivery documentation.  
+- **[Clause templates for issued invoices](../CodeLists/ClauseTemplatesIssuedInvoices.md)** â€“ Predefined clauses used in invoice footers.
 
 These elements define how sales operations behave and how commercial data is structured.
 

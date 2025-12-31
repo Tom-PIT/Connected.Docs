@@ -54,7 +54,7 @@ Prepayments can have **Draft** and **Committed** states.
 
 ### List view
 
-![Prepayments list](../Assets/PrepaymentsList.png "Prepayments list")
+![Prepayments list](../Images/PrepaymentsList.png "Prepayments list")
 
 The prepayments list can be filtered by:
 - **Document dates**
@@ -75,7 +75,7 @@ Drafts can be edited; committed prepayments are final unless reversed.
 
 1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft prepayment.
 
-   ![New prepayment](../Assets/PrepaymentsNewTop.png)
+   ![New prepayment](../Images/PrepaymentsNewTop.png)
 
 2. Fill in mandatory header fields: **Customer** (from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md)), **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)**.
 
@@ -86,7 +86,7 @@ Drafts can be edited; committed prepayments are final unless reversed.
 
 5. Select the **[Payment method](../CodeLists/PaymentMethods.md)**.
 
-    ![Prepayments New Bottom](../Assets/PrepaymentsNewBottom.png)
+    ![Prepayments New Bottom](../Images/PrepaymentsNewBottom.png)
 
 6. When ready, click **Publish** at the top of the page to finalize the prepayment. This moves the document to the **Committed** state and enables additional actions.
 
@@ -95,7 +95,7 @@ Drafts can be edited; committed prepayments are final unless reversed.
 >
 > A draft prepayment can also be created from a committed [**Proforma invoice**](ProformaInvoices.md) via **+ Prepayment**.
 >
->![Prepayments Proforma Link](../Assets/PrepaymentsProformaLink.png)
+>![Prepayments Proforma Link](../Images/PrepaymentsProformaLink.png)
 
 ### Editing a prepayment
 
@@ -115,7 +115,7 @@ Files can be uploaded in the **Attachments** section to provide additional docum
 
 The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents. 
 
-![Prepayments Linked Documents](../Assets/PrepaymentsLinkedDocuments.png)
+![Prepayments Linked Documents](../Images/PrepaymentsLinkedDocuments.png)
 
 > [!NOTE]
 > - The available **Linked document** actions depend on the document type and status.
@@ -141,7 +141,7 @@ The document menu provides additional actions:
 - **Reverse document** (creates a financial reversal)
 - **Return to draft** (only if allowed by system settings)
 
-![Prepayment menu](../Assets/PrepaymentsMenu.png "Prepayment menu")
+![Prepayment menu](../Images/PrepaymentsMenu.png "Prepayment menu")
 
 A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
 
@@ -160,3 +160,4 @@ Once the document contains no materials, you can click **Delete** to remove the 
 Committed documents **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).  
 
 ---
+

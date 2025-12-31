@@ -73,7 +73,7 @@ Each row displays:
 
 Drafts can be edited; committed debit notes are final unless reversed.
 
-![Debit notes list](../Assets/DebitNotesList.png)
+![Debit notes list](../Images/DebitNotesList.png)
 
 ## Actions
 
@@ -88,14 +88,14 @@ Once you start a new debit note, follow these steps:
 
 1. Create a new draft debit note using one of the methods above.
 
-   ![New debit note](../Assets/DebitNoteNew.png)
+   ![New debit note](../Images/DebitNoteNew.png)
 
 2. Fill in the required header fields such as **Customer**, **Dates**, **Reference type**, and **Organization bank account**.
 
 3. Add items in the **Details** section by typing or scanning an **asset name**, **EAN**, or **serial number**.  
    - Matching items are displayed for selection.
 
-   ![Debit note details](../Assets/DebitNoteNewDetails.png)
+   ![Debit note details](../Images/DebitNoteNewDetails.png)
 
 4. Edit quantities and values as needed, then click **Save** to confirm the detail.
 
@@ -124,7 +124,7 @@ Files can be added in the **Attachments** section to store supporting documents 
 
 The **Linked documents** section allows you to link a previously created **Issued invoice**.
 
-![Link issued invoice](../Assets/CreditDebitNoteLinkedDocuments.png)
+![Link issued invoice](../Images/CreditDebitNoteLinkedDocuments.png)
 
 Published debit notes do **not** display the Linked documents section.
 
@@ -138,7 +138,7 @@ The document menu provides additional actions:
 - **Reverse document**
 - **Return to draft** (only if allowed)
 
-![Debit note menu](../Assets/CreditDebitNoteMenu.png)
+![Debit note menu](../Images/CreditDebitNoteMenu.png)
 
 Reversing a debit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.
 
@@ -156,3 +156,4 @@ Once empty, the **Delete** action can be performed.
 Committed debit notes **cannot** be deleted, but they can be [**reversed**](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
 ---
+
