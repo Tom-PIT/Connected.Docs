@@ -4,7 +4,7 @@ Configure **Supply** settings affecting document numbering. Any changes are save
 
 To access this page, go to **Supply / Management / Configuration** in the [**navigation**](../../Common/UI/Navigation.md).
 
-![Supply Configuration](../Assets/SupplyConfiguration.png)
+![Supply Configuration](../Images/SupplyConfiguration.png)
 
 ## Document numbering settings
 

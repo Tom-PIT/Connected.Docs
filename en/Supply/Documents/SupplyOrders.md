@@ -63,11 +63,11 @@ Documents move through several possible states during their lifecycle:
 
 The list shows all supply orders with their current status and supply dates.
 
-![Supply orders list](../Assets/SupplyOrdersList.png)
+![Supply orders list](../Images/SupplyOrdersList.png)
 
 At the top of the Supply orders list, the system displays two key indicators summarizing the currently filtered data.
 
-![Supply order indicators](../Assets/SupplyOrdersIndicators.png)
+![Supply order indicators](../Images/SupplyOrdersIndicators.png)
 
 - **Over the supply date** (interactive) – Supply orders whose planned supply date has passed and are not yet fully received. Clicking this indicator automatically filters the list to show only such orders.
 - **Total amount** – Displays the total value (net + tax) of all supply orders included in the active filter.
@@ -100,12 +100,12 @@ Once you start a new Supply order, follow these steps:
 1. Click the **+** button to create a new Supply order.  
 2. Enter the **Vendor**, **Document date**, and **Supply date** (or review them if pre-filled from a inquiry document).  
 
-   ![New supply order](../Assets/SupplyOrderNew.png)
+   ![New supply order](../Images/SupplyOrderNew.png)
 
 3.  Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar (or review them if pre-filled).  
    - The system displays **all matching materials and serial numbers**.  
    
-     ![Saved detail](../Assets/SupplyOrderNewDetailsSaved.png)
+     ![Saved detail](../Images/SupplyOrderNewDetailsSaved.png)
 
 4. Review or adjust delivery information in the **Delivery** section.  
 5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
@@ -123,7 +123,7 @@ You can upload any relevant file—such as delivery notes, transport documents, 
 
 The **Linked documents** section allows creating and linking operational documents to a supply order.
 
-![Linked documents](../Assets/SupplyOrderLinkedDocuments.png)
+![Linked documents](../Images/SupplyOrderLinkedDocuments.png)
 
 Available actions include:
 
@@ -136,7 +136,7 @@ Available actions include:
 
 #### Document section
 
-![New supply order](../Assets/SupplyOrderNew.png)
+![New supply order](../Images/SupplyOrderNew.png)
 
 The document contains the following fields:
 
@@ -162,7 +162,7 @@ The Details section allows adding requested materials or expenses.
 
 ##### Edit detail
 
-![Edit detail](../Assets/SupplyOrderNewDetailsEdit.png)
+![Edit detail](../Images/SupplyOrderNewDetailsEdit.png)
 
 Fields include:
 
@@ -181,7 +181,7 @@ The bottom summary displays:
 - Tax  
 - Total cost  
 
-![Saved detail](../Assets/SupplyOrderNewDetailsSaved.png)
+![Saved detail](../Images/SupplyOrderNewDetailsSaved.png)
 
 ### Editing a supply order
 
@@ -218,7 +218,7 @@ Completing a supply order performs the following actions:
 
 The **Menu** in the top-right corner provides:
 
-![Supply order menu](../Assets/SupplyOrderMenu.png)
+![Supply order menu](../Images/SupplyOrderMenu.png)
 
 - **Printing** – Print the supply order  
 - **Exporting** – Export to PDF  
@@ -244,3 +244,4 @@ If confirmed, the system removes the document permanently; otherwise, no changes
 > - Published documents cannot be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).
 
 ---
+
