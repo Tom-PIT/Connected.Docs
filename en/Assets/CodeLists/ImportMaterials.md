@@ -1,4 +1,4 @@
-# Import materials
+﻿# Import materials
 
 This document describes how to import multiple materials into the system at once using a spreadsheet file. This allows fast bulk creation or updating of material records. 
 
@@ -28,7 +28,7 @@ Import materials** in the [navigation](../../Common/UI/Navigation.md).
 
 The system accepts imports in the **CSV** or **XLSX** format. The dropdown menu is used to select the format of the **example file** that you can download. Click the **Download** button to obtain the example import file in the selected format. This sample file contains all required columns in the correct order.
 
-![Import materials — initial screen](../Assets/ImportMaterials.png "Import materials — initial screen")
+![Import materials â€” initial screen](../Images/ImportMaterials.png "Import materials â€” initial screen")
 
 ## Spreadsheet structure
 
@@ -61,7 +61,7 @@ Product,C0000001,Acme product 1,Kg,ACME,Acme product 1,C000EAN1,0,https://google
 
 You can prepare or modify the spreadsheet in a spreadsheet editor:
 
-![Editing in Excel](../Assets/ImportMaterialsExcel.png "Editing in Excel")
+![Editing in Excel](../Images/ImportMaterialsExcel.png "Editing in Excel")
 
 ## Uploading the file
 
@@ -69,15 +69,15 @@ You can prepare or modify the spreadsheet in a spreadsheet editor:
 
 2. Once the file is uploaded, the **Data preview** appears, showing all parsed records. The following actions are available:
 
-    - **Test import** – carries out a test import without actually saving the data, so any errors can be detected before importing  
-    - **Import** – imports and saves the data, applying all valid changes to the system  
+    - **Test import** — carries out a test import without actually saving the data, so any errors can be detected before importing  
+    - **Import** — imports and saves the data, applying all valid changes to the system  
 
 
-    ![Import materials — data preview](../Assets/ImportMaterialsPreview.png "Import materials — data preview")
+    ![Import materials — data preview](../Images/ImportMaterialsPreview.png "Import materials â€” data preview")
    
    It is recommended to perform a **Test import** first to ensure that the data structure is correct and to prevent issues before applying the import. Below the upload area, you can see the list with all previously uploaded files. Rows containing errors are marked in **red**, while valid rows are marked in **green** in the **Status** column.
 
-   ![Import materials — error preview](../Assets/ImportMaterialsError.png "Import materials — error preview")
+   ![Import materials — error preview](../Images/ImportMaterialsError.png "Import materials â€” error preview")
 
 3. To complete the full import after valitating the data with a **Test import**, load the spreadsheet file again, and select the **Import** option.
 
@@ -97,7 +97,7 @@ After the import completes, the status updates in the table, indicating which ro
 
 Click any import on the **Created** column on the import list to review the results and any possible errors.
 
-![Import materials report](../Assets/ImportMaterialsReport.png "Import materials report")
+![Import materials report](../Images/ImportMaterialsReport.png "Import materials report")
 
 ## Notes
 
@@ -108,3 +108,4 @@ Click any import on the **Created** column on the import list to review the resu
 - URLs must be valid or left empty.
 
 ---
+

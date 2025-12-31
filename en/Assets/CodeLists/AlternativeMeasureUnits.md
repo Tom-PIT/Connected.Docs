@@ -1,4 +1,4 @@
-# Alternative measure units
+﻿# Alternative measure units
 
 **Alternative measure units** allow a material to be handled using a unit different from its base unit.  
 This is useful when materials are stored, packaged, or received in practical units (for example, pieces) while stock is tracked in a physical unit (for example, meters).
@@ -10,7 +10,7 @@ To access this page, go to **Assets / Materials / Alternative measure units**.
 
 ### How alternative measure units work
 
-Each alternative measure unit defines a fixed conversion to the material�s base unit.
+Each alternative measure unit defines a fixed conversion to the material’s base unit.
 The conversion is defined using two mandatory values:
 
 Numerator alternative units = Denominator base units
@@ -49,7 +49,7 @@ The list shows:
 - **Denominator**
 - **Numerator**
 
-![Alternative measure units list](../Assets/AlternativeMeasureUnitsList.png)
+![Alternative measure units list](../Images/AlternativeMeasureUnitsList.png)
 
 ### Creating a new alternative measure unit
 
@@ -59,7 +59,7 @@ The list shows:
 4. Enter the **Denominator** and **Numerator**.
 5. Click **Save**.
 
-![New alternative measure unit](../Assets/AlternativeMeasureUnitsNew.png)
+![New alternative measure unit](../Images/AlternativeMeasureUnitsNew.png)
 
 ### Editing and deletion
 
@@ -73,13 +73,13 @@ The list shows:
 
 Alternative measure units are used in **Packaging** to define package quantities in an alternative unit, while the system automatically calculates the corresponding base unit quantity.
 
-![Alternative measure unit in packaging](../Assets/AlternativeMeasureUnitsPackaging.png)
+![Alternative measure unit in packaging](../Images/AlternativeMeasureUnitsPackaging.png)
 
 ### Receive documents
 
 In **Receive** documents, quantities entered in an alternative measure unit are automatically converted to the base unit when updating stock.
 
-![Alternative measure unit in receive details](../Assets/AlternativeMeasureUnitsDetails.png)
+![Alternative measure unit in receive details](../Images/AlternativeMeasureUnitsDetails.png)
 
 
 > [!IMPORTANT]

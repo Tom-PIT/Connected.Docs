@@ -17,7 +17,7 @@ To access this page, go to **Assets / Materials / Sets** in the [navigation](../
 ## List of sets
 The left sidebar lists parent materials grouped by [**Material type**](../Domain/Materials.md) (e.g., [**Products**](Products.md), [**Semi products**](SemiProducts.md)). Select a parent to view its components in the main list. The main list shows the components of the selected set with their quantities.
 
-![Sets list](../Assets/SetsList.png "Sets list")
+![Sets list](../Images/SetsList.png "Sets list")
 
 ## Management
 
@@ -32,11 +32,11 @@ The left sidebar lists parent materials grouped by [**Material type**](../Domain
 3. Click the [**action button**](../../Common/UI/ActionButton.md) to add components to the set (each component must exist already):
    - Example components: **Pine Wood Table** (1), **Pine Wood Chair** (4)
 
-   ![New set](../Assets/SetsNew.png "New set")
+   ![New set](../Images/SetsNew.png "New set")
 
 4. Save. The **Pine Wood Furniture Set** now references all components with their quantities.
 
-   ![Sets list](../Assets/SetsList.png "Sets list")
+   ![Sets list](../Images/SetsList.png "Sets list")
 
 
 ### Editing a set

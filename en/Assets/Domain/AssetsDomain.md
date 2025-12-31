@@ -12,14 +12,14 @@ This domain groups together all elements needed to define, price, organize, and 
 
 To access the Assets domain, navigate to **Assets** in the [navigation](../../Common/UI/Navigation.md).
 
-![Assets Domain](../Assets/AssetsSitemap.png)
+![Assets Domain](../Images/AssetsSitemap.png)
 
 > [!NOTE]  
 > The available domains depend on each company’s configuration and business model.
 
 ## What is included in the Assets domain?
 
-![Assets Domain](../Assets/AssetsDomain.png "Assets Domain overview")
+![Assets Domain](../Images/AssetsDomain.png "Assets Domain overview")
 
 The domain is structured into several functional areas:
 
@@ -36,7 +36,7 @@ The domain is structured into several functional areas:
 
 - **[Management](../CodeLists)** – Contains additional configurable elements such as [**Tax rates**](../../Common/CodeLists/TaxRates.md) and [**Measure units**](../../Common/CodeLists/MeasureUnits.md). These define the structure and behavior of assets and pricing.
 
-![Assets Domain Management](../Assets/AssetsDomainManagement.png)
+![Assets Domain Management](../Images/AssetsDomainManagement.png)
 
 ## Assets vs. Materials
 

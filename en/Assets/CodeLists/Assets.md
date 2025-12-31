@@ -1,6 +1,6 @@
-# Assets
+ï»¿# Assets
 
-An **Asset** represents an item or service that can be *sold* or *invoiced* within the system. Unlike **materials**—which are used for stock tracking, logistics, or production—**assets are commercial items** intended for pricing, offering, and billing.
+An **Asset** represents an item or service that can be *sold* or *invoiced* within the system. Unlike **materials**â€”which are used for stock tracking, logistics, or productionâ€”**assets are commercial items** intended for pricing, offering, and billing.
 
 Assets may represent:
 
@@ -50,8 +50,8 @@ Each detail includes:
 - **Entity** (selected material or item)  
 - **Quantity**
 
-![Add asset detail](../Assets/AssetsAddAssetDetail1.png "Add asset detail")  
-![Asset details list](../Assets/AssetsAddAssetDetail2.png "Asset details list")
+![Add asset detail](../Images/AssetsAddAssetDetail1.png "Add asset detail")  
+![Asset details list](../Images/AssetsAddAssetDetail2.png "Asset details list")
 
 ### Import
 
@@ -64,7 +64,7 @@ Users can select:
 - **Item price net**  
 - **Quantity**
 
-![Import assets](../Assets/AssetsImport.png "Import assets")
+![Import assets](../Images/AssetsImport.png "Import assets")
 
 Click **Import** to create asset entries or **Cancel** to exit without changes.
 

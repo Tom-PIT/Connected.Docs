@@ -40,7 +40,7 @@ To access the **Products** code list, go to **Assets / Materials / Products** in
 
 The user interface contains a list of products. If no record exists yet, the list is empty.
 
-![Products](../Assets/ProductsList.png "Products")
+![Products](../Images/ProductsList.png "Products")
 
 The list displays each product’s name, code, and serial number generation method.
 
@@ -64,7 +64,7 @@ See the [**Import materials**](ImportMaterials.md) documentation for full detail
 
 Click **Copy existing product** to create a new product based on an existing one. A selection list appears with the available base products.
 
-![Copy Product](../Assets/CopyProduct.png "Copy Product")
+![Copy Product](../Images/CopyProduct.png "Copy Product")
 
 After selecting the base product, all fields are pre-filled and can be edited before saving.
 
@@ -72,7 +72,7 @@ After selecting the base product, all fields are pre-filled and can be edited be
 
 Click **New** to open the input form for adding a new product. The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
-![New Product](../Assets/NewProduct.png "New Product")
+![New Product](../Images/NewProduct.png "New Product")
 
 Additional collapsible sections are available:
 
@@ -84,7 +84,7 @@ These packaging records can later be used in warehouse operations such as [Recei
 #### Additional
 This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
 
-![Collapsible sections](../Assets/MaterialPackagingAdditional.png "Collapsible sections")
+![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
 
 After entering the required information, click **Add** to save the product or **Cancel** to return to the list view.
 
@@ -92,7 +92,7 @@ After entering the required information, click **Add** to save the product or **
 
 To edit an existing product, click the product’s **Name** in the list. The interface switches to edit mode, displaying all fields for modification. Click **Save** to apply changes or **Cancel** to discard them.
 
-![Edit Product](../Assets/EditProduct.png "Edit Product")
+![Edit Product](../Images/EditProduct.png "Edit Product")
 
 ## Deletion
 
