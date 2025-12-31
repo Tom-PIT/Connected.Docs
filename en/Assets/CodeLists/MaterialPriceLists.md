@@ -1,8 +1,13 @@
 # Material price lists
 
-**Material price lists** define the net prices of [materials](Materials.md) for a specific validity period. They allow you to centrally manage **material pricing over time** and optionally apply **quantity-based price ranges**.
+**Material price lists** are the central source of truth for net prices of [materials](Materials.md) within a defined validity period. They enable:
+- Consistent pricing across processes (procurement, production, and inventory)
+- Time-based price changes using **Valid from** / **Valid to**
+- Optional **quantity-based ranges** to apply percentage adjustments to the base price
 
-To access this screen, navigate to **Assets / Materials / Material price lists** in the [**navigation**](../../Common/UI/Navigation.md).
+Use this screen to create and maintain price lists per material type, set the base net price (100 %), and configure ranges that automatically calculate the effective net price for specific order quantities.
+
+To access this screen, navigate to **Assets / Materials / Material price lists** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
