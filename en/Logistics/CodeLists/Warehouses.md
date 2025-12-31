@@ -1,4 +1,4 @@
-# Warehouses
+﻿# Warehouses
 
 This code list represents the warehouses used across the digital contents of the system. Each warehouse defines a physical or logical storage location that supports material handling, inventory operations, and logistical processes. 
 
@@ -22,7 +22,7 @@ To access this code list, go to **Logistics / Management / Warehouses** in the [
 
 The interface contains a list of warehouses. If no record exists yet, the list is empty.
 
-![Warehouses List](../Assets/Warehouses.png "Warehouses List")
+![Warehouses List](../Images/Warehouses.png "Warehouses List")
 
 The list displays the basic warehouse details, including the warehouse code and name.
 
@@ -38,11 +38,11 @@ The form includes the following fields:
 
 After entering the required information, click **Add** to save the warehouse or **Cancel** to return to the list view.
 
-![New Warehouse](../Assets/NewWarehouse.png "New Warehouse")
+![New Warehouse](../Images/NewWarehouse.png "New Warehouse")
 
 ## Editing
 
-To edit an existing warehouse, click the warehouse’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
+To edit an existing warehouse, click the warehouseâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 

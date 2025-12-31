@@ -1,4 +1,4 @@
-# Inventories
+ï»¿# Inventories
 
 An **Inventory** document is used to verify and correct stock quantities at a specific warehouse location. It compares the **theoretical stock** stored in the system with the **actual stock** physically present on the shelves. If differences are found, you can update the quantities and publish the document to adjust the stock levels accordingly.
 
@@ -36,21 +36,21 @@ You can filter the list using the left sidebar, which includes:
 
 - **Document dates**
 - **View**  
-  - *Drafts* — documents created but not yet published  
-  - *Committed* — published inventory adjustments
+  - *Drafts* â€” documents created but not yet published  
+  - *Committed* â€” published inventory adjustments
 - **Author**
 - **Warehouse**
 
 A color indicator next to each document shows its status:
 
-- **Green** — committed  
-- **Gray** — draft
+- **Green** â€” committed  
+- **Gray** â€” draft
 
 Click any document to open and review its contents.
 
 **List view example:**
 
-![Inventories](../Assets/Inventories.png)
+![Inventories](../Images/Inventories.png)
 
 ## Actions
 
@@ -60,18 +60,18 @@ Click the **action button** to create a new inventory document.
 
 1. Click **Add new** to create a new inventory session. 
 
-   ![InventoryNew](../Assets/InventoryNew.png)
+   ![InventoryNew](../Images/InventoryNew.png)
 
 2. After selecting a warehouse and location, the system automatically loads all materials recorded at that location.
 
 3. In the **Summary** section, you will see:  
-   - **Non allocated** — number of materials that still need to be verified  
-   - **Missing** — number of materials with lower actual than theoretical  
-   - **Excess** — number of materials with higher actual than theoretical
+   - **Non allocated** â€” number of materials that still need to be verified  
+   - **Missing** â€” number of materials with lower actual than theoretical  
+   - **Excess** â€” number of materials with higher actual than theoretical
 
 4. In the **Details** section, the **Actual** column shows **0** by default. Edit the values in this column to reflect the real number found physically at the location. When an actual value is lower or higher than the theoretical value, it will be reflected in the **Missing** and **Excess** sections of the **Summary**.
 
-   ![InventoryEdit](../Assets/InventoryEdits.png)
+   ![InventoryEdit](../Images/InventoryEdits.png)
 
 5. Once all materials have been checked and actual values are entered, the **Non allocated** section of the **Summary** will turn green and show **0**.
 5. Click **Publish** to confirm the inventory. This action updates the system stock levels to match the actual physical quantities.
@@ -94,7 +94,7 @@ Inside an inventory document, the **menu (hamburger icon)** provides the followi
 
 These options are available for both *draft* and *committed* documents.
 
-![InterWarehouseMenuOptions](../Assets/InterWarehouseMenuOptions.png)
+![InterWarehouseMenuOptions](../Images/InterWarehouseMenuOptions.png)
 
 ## Deletion
 

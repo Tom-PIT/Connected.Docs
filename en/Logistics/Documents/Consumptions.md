@@ -1,8 +1,8 @@
-# Consumptions
+ï»¿# Consumptions
 
 A **Consumption** document records materials that were consumed during the execution of a **Production order**. Consumption documents are created automatically from the [**Execution**](../../Production/Documents/Execution.md) module when a production worker records material consumption. They reduce stock for the consumed materials and provide traceability of what was used. 
 
-For the production-side entry of consumed materials, see **[Consumed](../../Production/Documents/Consumed.md)** — the two are closely linked: recording consumed material in production creates the corresponding consumption document in logistics.
+For the production-side entry of consumed materials, see **[Consumed](../../Production/Documents/Consumed.md)** â€” the two are closely linked: recording consumed material in production creates the corresponding consumption document in logistics.
 
 To access this page, go to **Logistics / Documents / Consumptions** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -30,12 +30,12 @@ The **Consumptions** page displays all consumption documents created through pro
 
 - **Document dates**
 - **View**
-  - *Draft* — consumption in progress (still being recorded in execution)
-  - *Committed* — finalized consumption document
+  - *Draft* â€” consumption in progress (still being recorded in execution)
+  - *Committed* â€” finalized consumption document
 - **Author**
 - **Warehouse**
 
-![Consumptions list](../Assets/ConsumptionsList.png "Consumptions list")
+![Consumptions list](../Images/ConsumptionsList.png "Consumptions list")
 
 ## Actions
 
@@ -52,12 +52,12 @@ A consumption document contains:
 ### Linked documents
 If the consumption was recorded for a production order, the **Linked documents** section shows a link to the related [**Production order**](../../Production/Documents/ProductionOrders.md) (if available).
 
-![Linked production order](../Assets/ConsumptionsLinkedDocuments.png "Linked production order")
+![Linked production order](../Images/ConsumptionsLinkedDocuments.png "Linked production order")
 
 ### Document and Details
 The **Details** section lists all consumed materials with their source and recorded quantities.
 
-![Committed consumption document](../Assets/ConsumptionsCommittedDocument.png "Committed consumption document")
+![Committed consumption document](../Images/ConsumptionsCommittedDocument.png "Committed consumption document")
 
 ## Menu
 
@@ -67,7 +67,7 @@ Committed consumption documents can be corrected through reversals. Open the doc
 
 This creates a reversal document that negates the stock and financial effect of the consumption (depending on system configuration). See **[Reversals](Reversals.md)** for more details.
 
-![Consumptions menu](../Assets/ConsumptionsMenu.png "Consumptions menu")
+![Consumptions menu](../Images/ConsumptionsMenu.png "Consumptions menu")
 
 
 ## Deletion

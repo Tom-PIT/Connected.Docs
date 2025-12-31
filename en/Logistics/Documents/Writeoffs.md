@@ -48,7 +48,7 @@ A color indicator shows the document status:
 
 You can open any document to review its details.
 
-![WriteoffsList](../Assets/WriteoffsList.png)
+![WriteoffsList](../Images/WriteoffsList.png)
 
 ## Actions
 
@@ -58,7 +58,7 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new w
 
 1. Click **Add new** to create a draft.
 
-   ![WriteoffsNew](../Assets/WriteoffsNew.png)
+   ![WriteoffsNew](../Images/WriteoffsNew.png)
 
 2. Select the **Warehouse** and optionally enter a **Reason**.
 
@@ -66,13 +66,13 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new w
    - If only one match exists → the system autofills the details.
    - If multiple matches exist → a selection list appears:
    
-     ![WriteoffsDetailsSearch](../Assets/WriteoffsDetailsSearch.png)
+     ![WriteoffsDetailsSearch](../Images/WriteoffsDetailsSearch.png)
 
 4. Select the correct item to open the **Edit detail** window.
 
 5. Adjust the **Quantity (pc)** to specify the number of damaged/missing pieces. The default value in the field is the total number available.
 
-   ![WriteoffsDetails](../Assets/WriteoffsDetails.png)
+   ![WriteoffsDetails](../Images/WriteoffsDetails.png)
 
 6. Click **Save** to save the detail. Add more items starting from step 3 if needed.
 
@@ -102,4 +102,5 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > Committed documents **cannot** be deleted — only [reversed](Reversals.md).
 
 ---
+
 

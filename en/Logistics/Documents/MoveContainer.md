@@ -24,7 +24,7 @@ To access **Move container**, go to **Logistics / Documents / Move container** i
 
 Scan the container barcode or type the **Container** code. The UI shows container info and its current location.
 
-![Move Container Step1](../Assets/MoveContainerStep1.png)
+![Move Container Step1](../Images/MoveContainerStep1.png)
 
 - If multiple matches are found, select the correct container.
 - If the current location is unknown, you can set it manually.
@@ -35,7 +35,7 @@ Choose the **To location**. You can:
 - Scan the destination location label, or
 - Enter the location manually.
 
-![Move Container Step2](../Assets/MoveContainerStep2.png)
+![Move Container Step2](../Images/MoveContainerStep2.png)
 
 > [!TIP]
 > - Use standardized location labels to speed up scanning.
@@ -45,7 +45,7 @@ Choose the **To location**. You can:
 
 Review the summary (container, from/to locations) and click **Confirm / Move**. The system records the transfer of the container and all contained items.
 
-![Move Container Step3](../Assets/MoveContainerStep3.png)
+![Move Container Step3](../Images/MoveContainerStep3.png)
 
 
 After confirmation:
@@ -54,5 +54,6 @@ After confirmation:
 - All details can be reviewed in the **[Inter warehouse](InterWarehouse.md)** page.
 
 ---
+
 
 

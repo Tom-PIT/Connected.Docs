@@ -1,4 +1,4 @@
-# Issues
+ï»¿# Issues
 
 An **Issue** document is used to record goods that come out your warehouse, for example, to be delivered to a customer. When finished products, materials, or packaged items leave the warehouse as part of a customer delivery, the Issue document captures all relevant details. Examples include issuing **furniture to a customer**, **shipping spare parts**, or **delivering packaged goods** as part of a sales order.
 
@@ -37,19 +37,19 @@ The Issues page displays all issue documents. You can search for a specific docu
 
 - **Document dates**
 - **View:**  
-  - *Drafts* — documents not yet published  
-  - *Committed* — published and finalized documents
+  - *Drafts* â€” documents not yet published  
+  - *Committed* â€” published and finalized documents
 - **Author**
 - **Warehouse**
 
 A color indicator next to each document shows its status:
 
-- **Green** — committed  
-- **Gray** — draft
+- **Green** â€” committed  
+- **Gray** â€” draft
 
 You can click any document to open and review its details.
 
-![Issues](../Assets/Issues.png "Issues list")
+![Issues](../Images/Issues.png "Issues list")
 
 ## Actions
 
@@ -59,16 +59,16 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new i
 
 1. Click the **action button** to create a new document draft, then select the **Warehouse** and **Customer**.
 
-	![Issue Document](../Assets/IssueNew.png "Add new issue")
+	![Issue Document](../Images/IssueNew.png "Add new issue")
 
 2. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
    - The system displays **all matching materials and serial numbers**.  
 3. Select the correct material from the results list.  
 4. The system automatically fills in all known details (material, serial number, location, best before).  
 
-	![Issue Detail](../Assets/IssueNewDetails.png "Issue Details")
+	![Issue Detail](../Images/IssueNewDetails.png "Issue Details")
 
-5. Enter the **quantity** you want to issue — this is the only editable field.  
+5. Enter the **quantity** you want to issue â€” this is the only editable field.  
 6. Click **Save** to add the line to the document.  Add more items starting from step 2 if needed. 
 7. Click **Publish** to commit the document.
 
@@ -78,9 +78,9 @@ A newly created issue document appears in the **Drafts** view. Once published, i
 
 At the top of every document, an **Attachments** section is available. 
 
-![Attachments section](../Assets/Attachments.png "Attachments section")
+![Attachments section](../Images/Attachments.png "Attachments section")
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+You can upload any relevant fileâ€”such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
 ## Notes
 
@@ -90,7 +90,7 @@ Each document includes a **Notes** section where you can enter any comments or a
 
 Inside an issue document, the **menu (hamburger icon)** in the top-right corner shows different options depending on the document status.
 
-![Menu options](../Assets/ReceiveMenu.png "Menu options")
+![Menu options](../Images/ReceiveMenu.png "Menu options")
 
 ### Draft issue document
 
@@ -113,7 +113,7 @@ When you click an issue document:
 - You can print or export draft or committed documents
 - Published (Committed) documents are read-only except for reversal creation
 
-![Issue reviewing](../Assets/IssueReviewing.png "Issue reviewing")
+![Issue reviewing](../Images/IssueReviewing.png "Issue reviewing")
 
 ## Deletion
 
@@ -128,6 +128,6 @@ If the draft still includes materials in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 > [!NOTE]
-> Committed documents **cannot** be deleted — only [reversed](Reversals.md).
+> Committed documents **cannot** be deleted â€” only [reversed](Reversals.md).
 
 ---

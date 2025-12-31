@@ -34,7 +34,7 @@ The **Productions** page displays all production documents created through execu
 - **Author**
 - **Warehouse**
 
-![Productions list](../Assets/ProductionsList.png "Productions list")
+![Productions list](../Images/ProductionsList.png "Productions list")
 
 ## Actions
 
@@ -51,12 +51,12 @@ A production document contains:
 ### Linked documents
 If the output was recorded for a production order, the **Linked documents** section shows a link to the related [**Production order**](../../Production/Documents/ProductionOrders.md).
 
-![Productions linked documents](../Assets/ProductionsLinkedDocuments.png "Productions linked documents")
+![Productions linked documents](../Images/ProductionsLinkedDocuments.png "Productions linked documents")
 
 ### Document and Details
 The **Details** section lists all produced items with their recorded quantities.
 
-![Committed production document](../Assets/ProductionsCommittedDocument.png "Committed production document")
+![Committed production document](../Images/ProductionsCommittedDocument.png "Committed production document")
 
 ## Menu
 
@@ -66,7 +66,7 @@ Committed production documents can be corrected through reversals. Open the docu
 
 This creates a reversal document that negates the stock and financial effect of the production posting (depending on system configuration). See **[Reversals](Reversals.md)** for more details.
 
-![Productions menu](../Assets/ConsumptionsMenu.png "Productions menu")
+![Productions menu](../Images/ConsumptionsMenu.png "Productions menu")
 
 ## Deletion
 

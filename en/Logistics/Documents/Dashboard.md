@@ -10,7 +10,7 @@ Minimum and maximum thresholds can be defined in the **[Stock boundaries](../Cod
 
 To access the Dashboard, go to **Logistics / Dashboard** in the [navigation](../../Common/UI/Navigation.md).
 
-![Dashboard](../Assets/Dashboard.png "Dashboard")
+![Dashboard](../Images/Dashboard.png "Dashboard")
 
 ## Stock Indicators
 
@@ -40,7 +40,7 @@ The option **Include out of stock** allows you to expand the results to include 
 
 Press enter or click the **Stock** button to display matching results. If the search bar is empty, the button directly takes you to the [**Stock**](Stock.md) overview page.
 
-![Dashboard Search Bar](../Assets/DashboardSearchBar.png)
+![Dashboard Search Bar](../Images/DashboardSearchBar.png)
 
 A results screen appears showing a list of materials with the following columns:
 
@@ -49,7 +49,7 @@ A results screen appears showing a list of materials with the following columns:
 - **Blocked**  
 - **Reserved**
 
-![Dashboard Search](../Assets/DashboardSearch.png "Dashboard Search")
+![Dashboard Search](../Images/DashboardSearch.png "Dashboard Search")
 
 ## Material List
 
