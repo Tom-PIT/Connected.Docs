@@ -31,7 +31,7 @@ Each record includes a status indicator to the left of its name:
 
 ![Countries List](../Images/CountriesList.png "Countries List")
 
-Each record displays a tag representing **associated data** â€” [Postal codes](PostalCodes.md).
+Each record displays a tag representing **associated data** — [Postal codes](PostalCodes.md).
 
 Clicking this tag opens the interface for managing the related data linked to the selected country.
 
@@ -79,7 +79,7 @@ Click **Add** to create the record or **Cancel** to return to the list view with
 
 ## Editing
 
-To edit an existing country, click the countryâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
+To edit an existing country, click the country's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ### Postal codes
 
