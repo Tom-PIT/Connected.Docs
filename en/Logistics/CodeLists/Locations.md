@@ -77,7 +77,7 @@ After entering the required information, click **Add** to save the location or *
 
 ## Editing
 
-To edit an existing location, click the locationâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing values. 
+To edit an existing location, click the location's **Name** in the list. The interface switches to edit mode, displaying the existing values. 
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 

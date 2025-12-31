@@ -8,7 +8,7 @@ Open **Quality** from the [**Execution**](Execution.md) screen via the activity 
 
 ## Quality checklists
 
-![Quality checklist](../Assets/ExecutionQualityScreen.png "Quality execution overview")
+![Quality checklist](../Images/ExecutionQualityScreen.png "Quality execution overview")
 
 A status color is shown for each checklist:
 
@@ -42,3 +42,4 @@ Saved results are linked to the production order and operation and appear in the
 - [Check points](../CodeLists/Checkpoints.md) — define individual checklist steps.
 
 ---
+

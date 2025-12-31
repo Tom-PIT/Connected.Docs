@@ -1,4 +1,4 @@
-# Effort
+﻿# Effort
 
 The **Effort** activity records working time spent on an operation. Use it to track operator time either automatically (Start/Stop) or manually (entering times or duration).
 
@@ -6,7 +6,7 @@ Open **Effort** from the [**Execution**](Execution.md) screen via the activity s
 
 ## Recording effort
 
-![Effort entry](../Assets/ExecutionEffortPage.png "Record effort")
+![Effort entry](../Images/ExecutionEffortPage.png "Record effort")
 
 1. Open the **Effort** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).  
 2. Choose one of the methods below and record time.  
@@ -36,12 +36,13 @@ Click **Add effort** to save the record.
 
 Recorded efforts appear in a list below the form.
 
-![Effort list](../Assets/ExecutionEffortList.png "Effort list")
+![Effort list](../Images/ExecutionEffortList.png "Effort list")
 
 - Select an entry to edit its times, duration, tags, or description.  
 - Delete an entry if added by mistake.  
 
 > [!NOTE]
-> The **Stop** button inside the Effort page finishes the effort�s time tracking only; it does not finish the [execution](Execution.md).
+> The **Stop** button inside the Effort page finishes the effort’s time tracking only; it does not finish the [execution](Execution.md).
 
 ---
+

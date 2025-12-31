@@ -1,10 +1,10 @@
-# Production KPIs
+ï»¿# Production KPIs
 
 The **Production KPIs** page provides analytical insights into key production performance indicators. It enables monitoring of efficiency, quality, downtime, and equipment or organizational unit performance over a selected time period. 
 
 To access this page, go to **Production / Analytics / Production KPIs** in the [**navigation**](../../Common/UI/Navigation.md).
 
-![Production KPIs overview](../Assets/ProductionKPIsView.png "Production KPIs overview")
+![Production KPIs overview](../Images/ProductionKPIsView.png "Production KPIs overview")
 
 > [!TIP]
 > For a full walkthrough of production analytics, see the **[Key Performance Indicators](https://www.youtube.com/watch?v=zzs6wJh-tQY)** video tutorial.
@@ -50,12 +50,12 @@ Defines the reporting granularity, for example:
 Select the date and time range for which KPI data should be displayed.
 
 ### Additional settings
-- **Include downtimes** – When enabled, downtime values are included in KPI calculations where applicable.
+- **Include downtimes** â€“ When enabled, downtime values are included in KPI calculations where applicable.
 
 ## KPI results
 
 The KPI results are displayed at the top of the page and include:
-- **AVG** – The average value of the selected KPI over the chosen period  
+- **AVG** â€“ The average value of the selected KPI over the chosen period  
 - A **bar or line chart** showing the KPI trend across the selected time frame  
 
 Depending on the selected KPI, additional details may appear below the graph:
@@ -64,3 +64,4 @@ Depending on the selected KPI, additional details may appear below the graph:
 - For **equipment KPIs**, daily or hourly performance indicators  
 
 ---
+

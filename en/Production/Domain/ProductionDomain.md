@@ -6,7 +6,7 @@ Where the **[Supply](../../Supply/Domain/SupplyDomain.md)** domain ensures mater
 
 To access Production, navigate to **Production** in the [navigation](../../Common/UI/Navigation.md).
 
-![Production Domain](../Assets/ProductionDomainSitemap.png "Production Domain")
+![Production Domain](../Images/ProductionDomainSitemap.png "Production Domain")
 
 > [!NOTE]  
 > The availability of production features depends on the company’s manufacturing configuration, processes, and resource setup.
@@ -21,7 +21,7 @@ The domain is organized into the following functional areas:
 - **[Analytics](#analytics)** – insights into downtime, performance, loss, OEE, and KPIs  
 - **[Management](#management)** – configuration, process design, and master data  
 
-![Production Overview](../Assets/ProductionDomainOverview.png "Production Overview")
+![Production Overview](../Images/ProductionDomainOverview.png "Production Overview")
 
 ## Production orders
 
@@ -47,7 +47,7 @@ The **[Requirements](../Documents/Requirements.md)** page aggregates all planned
 
 The **Analytics** section provides insight into production performance, downtime, quality, loss distribution, and OEE.
 
-![Analytics](../Assets/ProductionDomainAnalytics.png "Production Analytics")
+![Analytics](../Images/ProductionDomainAnalytics.png "Production Analytics")
 
 Available analytical views include:
 
@@ -64,7 +64,7 @@ These insights support production planning, continuous improvement, and operatio
 
 The **Management** section contains configuration, process definitions, and production-related code lists required for smooth operation.
 
-![Production management](../Assets/ProductionDomainManagement.png "Production Management")
+![Production management](../Images/ProductionDomainManagement.png "Production Management")
 
 Available configuration and code lists include:
 
@@ -116,3 +116,4 @@ Production integrates with several other operational domains:
 The Production domain manages all manufacturing activities—planning, executing, tracking, and analyzing production. It ensures structured workflows, accurate operational data, and complete traceability from process definition to finished goods.
 
 ---
+

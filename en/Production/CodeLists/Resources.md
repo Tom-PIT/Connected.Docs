@@ -28,7 +28,7 @@ The following table lists all fields used across **Human**, **Non-human**, and *
 
 ## Toolbar actions
 
-![Resources toolbar](../Assets/ResourcesListAddNewButtons.png "Resources toolbar")
+![Resources toolbar](../Images/ResourcesListAddNewButtons.png "Resources toolbar")
 
 - **Add folder** – Creates a folder to organize resources.
 - **Add human resource** – Creates an individual human resource.
@@ -48,7 +48,7 @@ Examples:
 - **Spray booth + spray guns** (non-human resource not in any folder)
 
 
-![Resources Detail](../Assets/ResourcesDetail.png "Resources list detail")
+![Resources Detail](../Images/ResourcesDetail.png "Resources list detail")
 
 > [!NOTE]
 > Folders are optional; standalone resources can exist without belonging to one.
@@ -57,7 +57,7 @@ Examples:
 
 Selecting an item shows its details and the Edit form.
 
-![Resources list](../Assets/ResourcesListEdit.png "Resources list")
+![Resources list](../Images/ResourcesListEdit.png "Resources list")
 
 ## Creating a new resource
 
@@ -82,3 +82,4 @@ A resource can be deleted only if it is **not referenced in any operations**, pr
 Deleting an item from the Edit page removes it permanently.
 
 ---
+

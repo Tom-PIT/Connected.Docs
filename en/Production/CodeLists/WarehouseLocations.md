@@ -1,4 +1,4 @@
-# Warehouse locations
+ï»¿# Warehouse locations
 
 The **Warehouse locations** list maps [organization units](OrganizationUnits.md) to physical warehouse locations so
 production workflows can source materials and store produced items. Use this page to manage which
@@ -28,7 +28,7 @@ Open this screen to view, add, edit and delete Production-specific warehouse loc
 The list displays the **Organization unit**, **Warehouse location** and **Connection type**. Use the
 search box in the header to find records.
 
-![Warehouse locations list](../Assets/WarehouseLocationsList.png "Warehouse locations list")
+![Warehouse locations list](../Images/WarehouseLocationsList.png "Warehouse locations list")
 
 Click an **Organization unit** name to open the edit form for that record. 
 ## Actions
@@ -37,14 +37,14 @@ Click the [**Action Button**](../../Common/UI/ActionButton.md) to show the follo
 - **Import** 
 - **New**.
 
-![Action button menu](../Assets/WarehouseLocationsActions.png "Action button menu")
+![Action button menu](../Images/WarehouseLocationsActions.png "Action button menu")
 
 ### Import
 
 Use **Import** from the Action Button menu to bulk-create records. Follow the project import
 template for CSV structure.
 
-![Warehouse Loacations Import](../Assets/WarehouseLocationsImport.png "Warehouse Loacations Import Screen")
+![Warehouse Loacations Import](../Images/WarehouseLocationsImport.png "Warehouse Loacations Import Screen")
 
 ### Add new
 
@@ -53,9 +53,9 @@ Fill in the fields shown on the form:
 - [**Organization unit**](OrganizationUnits.md)
 - [**Warehouse**](../../Logistics/CodeLists/Warehouses.md)
 - [**Warehouse location**](../../Logistics/CodeLists/Locations.md)
-- **Connection type** — choose **Input** or **Output**
+- **Connection type** â€” choose **Input** or **Output**
 
-![Warehouse locations – New](../Assets/WarehouseLocationsNew.png "Warehouse locations – New")
+![Warehouse locations â€“ New](../Images/WarehouseLocationsNew.png "Warehouse locations â€“ New")
 
 Click **Add** to save the record.
 
@@ -73,7 +73,7 @@ Click **Add** to save the record.
 Click an **Organization unit** name in the list to open the edit form. Fields behave the same as on New.
 Validation prevents invalid combinations as described above.
 
-![Warehouse locations – Edit](../Assets/WarehouseLocationsEdit.png "Warehouse locations – Edit")
+![Warehouse locations â€“ Edit](../Images/WarehouseLocationsEdit.png "Warehouse locations â€“ Edit")
 
 ## Deletion
 

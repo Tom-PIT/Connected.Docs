@@ -12,7 +12,7 @@ To access this page manually, go to **Production / Execution** in the [**navigat
 > [!NOTE]
 > - The screen usually shows any assigned production orders automatically when opened. If none appear, click **Select production orders** to choose one.
 >   
->   ![Select production orders](../Assets/ExecutionPageEmpty.png "Select a production order")
+>   ![Select production orders](../Images/ExecutionPageEmpty.png "Select a production order")
 > - If the production order list is empty, there are no available orders for the selected unit (not created yet or no active operations). Create orders in [Production orders](ProductionOrders.md) and ensure an operation is assigned to the chosen unit.
 > - If the organization unit list is empty, the code list is not defined yet. Define units in [Organization Units](../CodeLists/OrganizationUnits.md).
 
@@ -20,7 +20,7 @@ To access this page manually, go to **Production / Execution** in the [**navigat
 
 The main execution screen shows key information for the current production order and operation.
 
-![Execution overview](../Assets/ExecutionViewExplanation.png "Execution overview")
+![Execution overview](../Images/ExecutionViewExplanation.png "Execution overview")
 
 | No. | Description |
 |-----|-------------|
@@ -40,7 +40,7 @@ The main execution screen shows key information for the current production order
 
 ### Operation controls
 
-![Stop](../Assets/ExecutionTop.png "Execution controls")
+![Stop](../Images/ExecutionTop.png "Execution controls")
 
 ## Execution process 
 
@@ -59,19 +59,19 @@ If you press **Produce**, the system:
 - Updates the remaining quantity
 - If the default number equals the planned quantity and you do not change it, the system records **all remaining pieces as produced**.
   
-  ![Produce](../Assets/ExecutionProductionFinished.png "Execution progress")
+  ![Produce](../Images/ExecutionProductionFinished.png "Execution progress")
 
 ### Pausing production
 
 Press **Pause** to temporarily stop the operation. This does **not** finish production — it only pauses it until resumed.
 
-![Execution Top Pause](../Assets/ExecutionTopPause.png "Execution Pause button")
+![Execution Top Pause](../Images/ExecutionTopPause.png "Execution Pause button")
 
 ### Stopping / finishing production
 
 Press **Stop** to finish the current operation.
 
-![Execution Top Stop](../Assets/ExecutionTopStop.png "Execution Stop button")
+![Execution Top Stop](../Images/ExecutionTopStop.png "Execution Stop button")
 
 Usually, workers press **Stop** when all items are produced and all checklists, losses, and records are completed.
 
@@ -83,7 +83,7 @@ Once all operations in the production order are finished, the [**Production orde
 
 Quality [**checklists**](../CodeLists/Checklists.md) help ensure safety and product quality. If a checklist is required for the operation, it appears automatically at the right moment (at start, during execution, or before completion).
 
-![Quality checklist](../Assets/ExecutionStep1Checklist.png "Quality checklist")
+![Quality checklist](../Images/ExecutionStep1Checklist.png "Quality checklist")
 
 Workers confirm each step as defined in the checklist.
 
@@ -94,7 +94,7 @@ Workers confirm each step as defined in the checklist.
 
 The floating [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner opens the activity selection menu.
 
-![Activity menu](../Assets/ExecutionActionButton.png "Activity menu")
+![Activity menu](../Images/ExecutionActionButton.png "Activity menu")
 
 From here, you can choose:
 
@@ -106,7 +106,7 @@ From here, you can choose:
 - **[Effort](Effort.md)** – record working time  
 - **[Instructions](Instructions.md)** – view operation instructions  
 
-![Produce items](../Assets/ExecutionProductionScreen.png "Produce items")
+![Produce items](../Images/ExecutionProductionScreen.png "Produce items")
 
 Each option is described below.
 
@@ -150,3 +150,4 @@ Once all production is completed:
 The operation switches to **Finished**, and when all operations in the production order are finished, the **Production order** moves to the **Closed** status.
 
 ---
+

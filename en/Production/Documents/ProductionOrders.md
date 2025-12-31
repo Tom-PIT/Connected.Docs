@@ -21,7 +21,7 @@ To access production orders, go to **Production / Production orders** in the [**
 
 The Production orders page displays all orders grouped by status. Use the filters on the left to refine the list.
 
-![Production Orders List](../Assets/ProductionOrdersList.png "Production Orders List")
+![Production Orders List](../Images/ProductionOrdersList.png "Production Orders List")
 
 ### Available filters
 
@@ -44,21 +44,21 @@ Click the [**action button**](../../Common/UI/ActionButton.md) and follow the gu
 
 Choose the **Material type** (e.g., Products or Semi products), then select the specific [**material**](../../Assets/Domain/Materials.md) and quantity to be manufactured.
 
-![Step 1](../Assets/ProductionOrdersNewStep1.png "Step 1 - Select material")
+![Step 1](../Images/ProductionOrdersNewStep1.png "Step 1 - Select material")
 
 
 ### **Step 2 — Select process**
 
 Choose the **[Process](../CodeLists/Processes.md)** and **Process version** that defines how the material will be produced.
 
-![Step 2](../Assets/ProductionOrdersNewStep2.1.png "Step 2 - Select process")
+![Step 2](../Images/ProductionOrdersNewStep2.1.png "Step 2 - Select process")
 
 
 ### **Step 3 — Provide additional information**
 
 This step defines scheduling and order type.
 
-![Step 3](../Assets/ProductionOrdersNewStep3.png "Step 3 - Additional information")
+![Step 3](../Images/ProductionOrdersNewStep3.png "Step 3 - Additional information")
 
 #### **Mode**
 Determines how the production order will behave:
@@ -76,7 +76,7 @@ If total quantity = **3 pieces**
 - 3 partial productions → each = **1 piece**  
 - 2 partial productions → each = **1.5 pieces**
 
-![Production Orders New Step3 Partial Productions](../Assets/ProductionOrdersNewStep3PartialProductions.png)
+![Production Orders New Step3 Partial Productions](../Images/ProductionOrdersNewStep3PartialProductions.png)
 
 #### **Dates**
 
@@ -99,13 +99,13 @@ Drafts allow editing of:
 - Best before date
 - Notes  
 
-![Draft](../Assets/ProductionOrdersDraft.png "Draft production order")
+![Draft](../Images/ProductionOrdersDraft.png "Draft production order")
 
 ### Publishing a draft
 
 To move the draft to **Pending**, the **Organization unit** must be selected.
 
-![Organization Unit](../Assets/ProductionOrdersOrganizationUnits.png "Organization Unit Selection")
+![Organization Unit](../Images/ProductionOrdersOrganizationUnits.png "Organization Unit Selection")
 
 Click **Publish** when ready.
 
@@ -134,29 +134,29 @@ You may attach other documents that relate to the production order, such as:
 - Other production orders (linked or input-producing)  
 
 
-![Linked documents](../Assets/ProductionOrdersLinkedDocuments.png "Linked documents")
+![Linked documents](../Images/ProductionOrdersLinkedDocuments.png "Linked documents")
 
 Production orders also display any linked documents created during the order's life-cycle, such as cost and consumption reports.
 
-![Production Orders Linked Documents Docs](../Assets/ProductionOrdersLinkedDocumentsDocs.png)
+![Production Orders Linked Documents Docs](../Images/ProductionOrdersLinkedDocumentsDocs.png)
 
 ## Active production orders
 
 When activated, the order becomes **Active** and is ready for execution on the shop floor.
 
-![Active](../Assets/ProductionOrdersPending.png "Active production order")
+![Active](../Images/ProductionOrdersPending.png "Active production order")
 
 Production workers can now execute operations through the **Execution** module. See **[Execution](Execution.md)** for more details.
 
 The **Process** section displays all planned operations, inputs, resources, outputs, and quality checks for the chosen version.
 
-![Process View](../Assets/ProductionOrdersProcess.png "Process overview")
+![Process View](../Images/ProductionOrdersProcess.png "Process overview")
 
 ## Closed production orders
 
 Once production is completed and all operations have been executed, the order is set to **Closed**, appears in the list under the **Closed** status.
 
-![Closed Production Orders List](../Assets/ProductionOrdersClosedList.png "Closed Production Orders List")
+![Closed Production Orders List](../Images/ProductionOrdersClosedList.png "Closed Production Orders List")
 
 The list also displays the cost per unit produced and an arrow indicating whether the cost has increased or decreased compared to the previous closed order for the same material.
 
@@ -166,11 +166,11 @@ Closed orders:
 - Provide a complete production history  
 - Show produced vs. planned quantities, losses, and outputs 
 
-![Production Order Closed Detail](../Assets/ProductionOrderClosedDetail.png)
+![Production Order Closed Detail](../Images/ProductionOrderClosedDetail.png)
 
 The **Process** section displays the full execution history. Click on the different tabs to see the details, for example, inputs used during production:
 
-![Production Orders Closed Inputs](../Assets/ProductionOrdersClosedInputs.png)
+![Production Orders Closed Inputs](../Images/ProductionOrdersClosedInputs.png)
 
 Closed production orders offer additional options in the action menu:
 
@@ -178,7 +178,7 @@ Closed production orders offer additional options in the action menu:
 - Exporting (PDF)
 - Revert to active - allows reopening the order for corrections if needed
 
-![Production Order Closed Menu](../Assets/ProductionOrderClosedMenu.png)
+![Production Order Closed Menu](../Images/ProductionOrderClosedMenu.png)
 
 ### Reverting to active
 
@@ -188,7 +188,7 @@ If modifications are necessary after closing, you can revert the order back to *
 1. Select **Revert to active** from the action menu
 1. Click **Reactivate** on the desired process
 
-![Production Orders Reactivate](../Assets/ProductionOrdersReactivate.png)
+![Production Orders Reactivate](../Images/ProductionOrdersReactivate.png)
 
 ## Deletion
 

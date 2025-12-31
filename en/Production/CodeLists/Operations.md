@@ -7,7 +7,7 @@ To access operations:
 2. select a **Version**
 3. Click **Operations**.
 
-![Open operations](../Assets/ProcessesVersionsOperationsButton1.png "Open operations")
+![Open operations](../Images/ProcessesVersionsOperationsButton1.png "Open operations")
 
 > [!TIP]
 > For a full demonstration, see the **[Operations](https://www.youtube.com/watch?v=rPyLL6pSZA0)** video tutorial.
@@ -43,7 +43,7 @@ The list displays all operations defined inside the selected process version. Ea
 - **[Outputs](Outputs.md)** – Materials or items produced by the operation  
 - **[Quality](QualityChecklists.md)** – Assigned checklists and quality requirements
 
-![Operations list](../Assets/OperationsList.png "Operations list")
+![Operations list](../Images/OperationsList.png "Operations list")
 
 Use the **Search** field to filter operations by name or code.
 
@@ -54,7 +54,7 @@ Use the **Search** field to filter operations by name or code.
    - **By template** - if templates are available in [Protocol operations instance templates](ProtocolOperationsInstanceTemplates.md).
    - **Copy existing**  
 
-   ![Operation action button](../Assets/OperationsActionButton.png)
+   ![Operation action button](../Images/OperationsActionButton.png)
 
 2. Fill in the fields:
 
@@ -92,7 +92,7 @@ Each operation contains several sub-pages, each with its own list and screens. T
 
 You can access these from the operation entry:
 
-![Operation detail buttons](../Assets/ProcessesOperationsListDetail.png "Operation detail buttons")
+![Operation detail buttons](../Images/ProcessesOperationsListDetail.png "Operation detail buttons")
 
 ## Deletion
 
@@ -101,3 +101,4 @@ Operations **can be deleted** on the Edit page, but only if they are:
 - Not used in active production orders  
 
 ---
+

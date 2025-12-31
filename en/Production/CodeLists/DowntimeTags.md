@@ -21,7 +21,7 @@ The list displays all downtime tags defined in the system. The **Search** bar fi
 
 - **Unplanned** downtime tags appear with a **red indicator** in the list.
 
-![Downtime tags list](../Assets/DowntimeTagsList.png)
+![Downtime tags list](../Images/DowntimeTagsList.png)
 
 ## Creating a new downtime tag
 
@@ -31,7 +31,7 @@ The list displays all downtime tags defined in the system. The **Search** bar fi
 - **Name** – The downtime reason  
 - **Planned** – Enable this option if the downtime is scheduled (such as preventive maintenance)
 
-    ![Add downtime tag](../Assets/DowntimeTagsNew.png "Add downtime tag")
+    ![Add downtime tag](../Images/DowntimeTagsNew.png "Add downtime tag")
 
 3. Click **Add** to save the new tag.
 
@@ -42,7 +42,7 @@ To edit a tag:
 1. Click the tag in the list to open the Edit page.  
 2. Modify the **Name** or update the **Planned** checkbox.  
 
-    ![Edit downtime tag](../Assets/DowntimeTagsEdit.png "Edit downtime tag")
+    ![Edit downtime tag](../Images/DowntimeTagsEdit.png "Edit downtime tag")
 
 3. (Optional) Disable the tag by unchecking **Active**.  
 4. Click **Save**.
@@ -52,3 +52,4 @@ To edit a tag:
 A downtime tag can be deleted from its Edit page by clicking **Delete**. If confirmed, the tag is removed from the system.
 
 ---
+

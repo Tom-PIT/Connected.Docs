@@ -1,4 +1,4 @@
-# Job positions
+﻿# Job positions
 
 The **Job positions** code list defines the roles that employees can perform in the production process. These positions are assigned to registered workers in the system, so they can be selected in production workflows (e.g., work reports, scheduling, resource assignment).
 
@@ -21,7 +21,7 @@ From this screen, you can view, add, and edit job positions used across the Prod
 
 The list displays all recorded job positions, showing their **name** and **code**.
 
-![Job positions list](../Assets/JobPositionsList.png)
+![Job positions list](../Images/JobPositionsList.png)
 
 Each record includes a status indicator to the left of its name:
 - **Blue** indicates the position is active  
@@ -31,7 +31,7 @@ To view or assign workers to a position, first expand the record by clicking the
 
 Clicking **Add user resource** opens a dialog where you can select one or more existing system users to assign to the job position.
 
-![Add user resource](../Assets/JobPositionsListAddUserResource.png)
+![Add user resource](../Images/JobPositionsListAddUserResource.png)
 
 ## Actions
 
@@ -46,7 +46,7 @@ Fill in the required information:
 - **Description** (optional)  
 - **Active**  
 
-![Job positions � New](../Assets/JobPositionsNew.png)
+![Job positions – New](../Images/JobPositionsNew.png)
 
 Click **Add** to save the new position.
 
@@ -58,3 +58,4 @@ Click **Delete** on the edit screen to remove a job position. If confirmed, the 
 > Job positions can be deleted freely, even if users are assigned to them.
 
 ---
+
