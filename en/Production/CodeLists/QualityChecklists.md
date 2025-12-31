@@ -5,10 +5,10 @@ The **Quality** page allows you to link **[checklists](Checklists.md)** to eithe
 To access this page, click the **Quality** button from:
 
 - A **Process version**  
-  ![Quality button on version](../Assets/ProcessesVersionsQualityButton.png)
+  ![Quality button on version](../Images/ProcessesVersionsQualityButton.png)
 
 - An **Operation**  
-  ![Quality button on operation](../Assets/OperationsQualityButton.png)
+  ![Quality button on operation](../Images/OperationsQualityButton.png)
 
 > [!NOTE]
 > Prepare the checklist first in the **[Checklists](Checklists.md)** code list. Only defined checklists can be linked here.
@@ -28,7 +28,7 @@ To access this page, click the **Quality** button from:
 
 When opened, the Quality page displays all checklists already linked to the process version or operation.
 
-![Quality list](../Assets/QualityList.png)
+![Quality list](../Images/QualityList.png)
 
 You may reorder entries by adjusting their **Ordinal** value.
 
@@ -36,7 +36,7 @@ You may reorder entries by adjusting their **Ordinal** value.
 
 1. Click the **action button** and choose **New**.
 
-   ![Quality New](../Assets/QualityNew.png "New quality record")
+   ![Quality New](../Images/QualityNew.png "New quality record")
 
 2. Select **Checklist** and **Mode**:
    - **Manual**: Operators open and complete the checklist on demand (from the Quality activity). Use for ad‑hoc or non‑blocking checks.
@@ -45,7 +45,7 @@ You may reorder entries by adjusting their **Ordinal** value.
    - **On run**: The checklist shows while the operation is running (e.g., mid‑process sampling or periodic checks). It can be prompted by time/quantity rules or manually.
    - **On start**: The checklist appears immediately when the operation starts. Use for safety checks or setup confirmations required before work begins.
 
-    ![Quality New Modes](../Assets/QualityNewModes.png "Checklist mode")
+    ![Quality New Modes](../Images/QualityNewModes.png "Checklist mode")
  
 3. Click **Add**.
 

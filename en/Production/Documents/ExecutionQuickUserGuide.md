@@ -11,7 +11,7 @@ This guide shows the **essential steps** to perform production using the Executi
 When you open **Execution**, select the production order and operation you will work on.  
 If nothing is selected, the screen will prompt you to choose a **Production order**.
 
-![Empty execution page](../Assets/ExecutionPageEmpty.png "Select a production order")
+![Empty execution page](../Images/ExecutionPageEmpty.png "Select a production order")
 
 
 ## 2. Start the operation
@@ -21,7 +21,7 @@ You can start work in two ways:
 ### Option A — Press Start
 Tap **Start** to begin timing and working on the operation.
 
-![Execution top controls](../Assets/ExecutionTop.png "Start / Pause / Stop buttons")
+![Execution top controls](../Images/ExecutionTop.png "Start / Pause / Stop buttons")
 
 ### Option B — Press Produce
 Pressing **Produce** will **automatically start the operation**, even if you don’t change the quantity.
@@ -35,7 +35,7 @@ Pressing **Produce** will **automatically start the operation**, even if you don
    - Produced quantity  
    - Remaining quantity  
 
-![Execution Step1](../Assets/ExecutionStep1.png)
+![Execution Step1](../Images/ExecutionStep1.png)
 
 Repeat whenever more items are completed.
 
@@ -49,7 +49,7 @@ Repeat whenever more items are completed.
 
 1. Follow the steps shown on screen.  
    
-   ![Quality checklist](../Assets/ExecutionStep1Checklist.png "Quality checklist")
+   ![Quality checklist](../Images/ExecutionStep1Checklist.png "Quality checklist")
 
 2. Complete each step. When you’re done, tap **Finish**.  
 3. If you need to do a checklist again:
@@ -57,7 +57,7 @@ Repeat whenever more items are completed.
     2. Enter the **[Quality](Quality.md)** section.
     3. Tap **Repeat** for the checklist you want to redo.
 
-![Quality checklist](../Assets/ExecutionQualityScreen.png "Quality checklist")
+![Quality checklist](../Images/ExecutionQualityScreen.png "Quality checklist")
 
 > [!NOTE]
 > You can’t stop the operation if a required checklist isn’t finished.
@@ -70,12 +70,12 @@ Repeat whenever more items are completed.
 4. Select the loss reason.  
 5. Confirm by clicking the yellow **Loss** button.
 
-![Loss recording](../Assets/ExecutionLossPage.png "Record loss")
+![Loss recording](../Images/ExecutionLossPage.png "Record loss")
 
 
 ## 6. Record consumed materials
 
-![Consumed materials](../Assets/ExecutionConsumptionPage.png "Record consumed materials")
+![Consumed materials](../Images/ExecutionConsumptionPage.png "Record consumed materials")
 
 Use this when materials are used during the operation:
 
@@ -94,7 +94,7 @@ Use this when materials are used during the operation:
 5. Adjust the times if necessary.  
 6. Save.
 
-![Downtime](../Assets/ExecutionDowntimePage.png "Record downtime")
+![Downtime](../Images/ExecutionDowntimePage.png "Record downtime")
 
 Use this for any interruption, such as waiting for materials or machine issues.
 
@@ -103,7 +103,7 @@ Use this for any interruption, such as waiting for materials or machine issues.
 1. Go to the action menu by clicking the [**action button**](../../Common/UI/ActionButton.md).
 2. Enter the **[Effort](Execution.md#effort)** section if required by your workflow.
 
-![Effort entry](../Assets/ExecutionEffortPage.png "Record effort")
+![Effort entry](../Images/ExecutionEffortPage.png "Record effort")
 
 ### Automatic:
 Tap **Start** → work → tap **Stop**.
@@ -118,7 +118,7 @@ Save the entry.
 
 Recorded efforts appear below:
 
-![Effort list](../Assets/ExecutionEffortList.png "Effort list")
+![Effort list](../Images/ExecutionEffortList.png "Effort list")
 
 ## 9. Finish the operation
 
@@ -128,6 +128,7 @@ When all production work is completed:
 2. Record any losses, downtime, consumed materials, or checklists.  
 3. Tap **Stop** to finish the operation.
 
-![Execution controls](../Assets/ExecutionTopStop.png "Stop to finish the operation")
+![Execution controls](../Images/ExecutionTopStop.png "Stop to finish the operation")
 
 ---
+

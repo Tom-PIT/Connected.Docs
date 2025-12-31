@@ -32,7 +32,7 @@ The page lists all protocol operation instance templates, displaying:
 
 Templates help ensure consistency when defining operations in process versions.
 
-![Protocol operation instance templates list](../Assets/ProtocolOperationInstanceTemplateList.png "Protocol operation instance templates list")
+![Protocol operation instance templates list](../Images/ProtocolOperationInstanceTemplateList.png "Protocol operation instance templates list")
 
 Clicking a row opens the template for editing.
 
@@ -50,7 +50,7 @@ Fill in the following fields:
 - **Article** (optional)  
 - **Tags**  
 
-![Add protocol operation template](../Assets/ProtocolOperationInstanceTemplateNew.png "Add protocol operation template")
+![Add protocol operation template](../Images/ProtocolOperationInstanceTemplateNew.png "Add protocol operation template")
 
 Click **Add** to save the template.
 
@@ -82,7 +82,7 @@ To use a template:
 
 The system automatically fills in the predefined fields from the template.
 
-![Select operation template](../Assets/ProtocolOperationInstanceTemplateNewOperation.png "Select operation template")
+![Select operation template](../Images/ProtocolOperationInstanceTemplateNewOperation.png "Select operation template")
 
 You can still modify any field before saving the operation.
 
@@ -91,3 +91,4 @@ You can still modify any field before saving the operation.
 Use the **Delete** option inside the template edit page.
 
 ---
+

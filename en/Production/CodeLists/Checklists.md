@@ -24,7 +24,7 @@ To access this page, go to **Production / Management / Checklists** in the [**na
 
 The list displays all checklists defined in the system. Each row shows the checklist code, name, and description. Use the **Search** bar to filter by name or code.
 
-![Checklists list](../Assets/ChecklistsList.png "Checklists list")
+![Checklists list](../Images/ChecklistsList.png "Checklists list")
 
 Each checklist entry includes a **Check points** button used to manage the steps within that checklist.
 
@@ -37,7 +37,7 @@ The list includes a **Tags** filter on the left, allowing you to show only check
 1. Click the [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner.
 2. Fill in the following fields:
 
-    ![Add checklist](../Assets/ChecklistsNew.png "Add checklist")
+    ![Add checklist](../Images/ChecklistsNew.png "Add checklist")
 
     - **Name** – The name of the checklist  
     - **Description** – Optional description  
@@ -55,7 +55,7 @@ To manage check points:
 1. Open the **Checklists** page.
 2. Locate the checklist and click the **Check points** button.
 
-    ![Check points navigation](../Assets/CheckpointButton.png)
+    ![Check points navigation](../Images/CheckpointButton.png)
 
 This opens the **Check points** page, where you can add, edit, delete, and reorder check points.
 
@@ -74,3 +74,4 @@ To edit an existing checklist:
 A checklist can be deleted freely from its Edit page by clicking **Delete**. If confirmed, the checklist is permanently removed from the system.
 
 ---
+

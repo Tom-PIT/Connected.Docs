@@ -1,6 +1,6 @@
-# Loss classification tags
+﻿# Loss classification tags
 
-Loss classification tags are used in production to categorize and record different types of production losses � such as defective materials, handling issues, or cosmetic defects. These tags help identify the causes of waste and support loss-analysis reporting.
+Loss classification tags are used in production to categorize and record different types of production losses — such as defective materials, handling issues, or cosmetic defects. These tags help identify the causes of waste and support loss-analysis reporting.
 
 To access this page, go to **Production / Management / Loss classification tags** in the [**navigation**](../../Common/UI/Navigation.md).
 
@@ -17,14 +17,14 @@ To access this page, go to **Production / Management / Loss classification tags*
 
 The list displays all loss classification tags defined in the system. Use the **Search** bar to quickly filter by name.
 
-![Loss classification tags list](../Assets/LossClassificationTags.png)
+![Loss classification tags list](../Images/LossClassificationTags.png)
 
 ## Creating a new loss classification tag
 
 1. Click on the [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner.
 2. Enter the **Name** of the loss category.
 
-    ![Add loss classification tag](../Assets/LossClassificationTagsNew.png "Add loss classification tag")
+    ![Add loss classification tag](../Images/LossClassificationTagsNew.png "Add loss classification tag")
 
 3. Click **Add** to save the new tag.
 
@@ -41,3 +41,4 @@ A loss classification tag can be deleted from its Edit page by clicking **Delete
 If confirmed, the tag is permanently removed from the system.
 
 ---
+

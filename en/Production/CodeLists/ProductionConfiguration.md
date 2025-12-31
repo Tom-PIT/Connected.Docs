@@ -1,10 +1,10 @@
-# Production configuration
+ï»¿# Production configuration
 
 Configure **Production** settings affecting document numbering. Any changes are saved automatically.
 
 To access this page, go to **Production / Management / Configuration** in the [**navigation**](../../Common/UI/Navigation.md).
 
-![Production Configuration](../Assets/ProductionConfiguration.png)
+![Production Configuration](../Images/ProductionConfiguration.png)
 
 ## Document numbering settings
 
@@ -12,8 +12,9 @@ Choose the numbering model and format for Production documents (Production order
 
 | Field | Description |
 |-------|-------------|
-| **Document numbering model** | • **Incremental for each year:** sequence resets annually. <br> • **Incremental:** a global sequence that never resets.  |
+| **Document numbering model** | â€¢ **Incremental for each year:** sequence resets annually. <br> â€¢ **Incremental:** a global sequence that never resets.  |
 | **Document code format** | Pattern defining structure (e.g., PREFIX?YEAR-NUMBER). |
 
 ---
+
 

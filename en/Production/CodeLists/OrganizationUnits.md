@@ -1,6 +1,6 @@
-# Organization units
+ï»¿# Organization units
 
-The **Organization units** code list defines the Production organizational entities used across Production workflows — for example manufacturing cells, assembly lines, or regional sites. Use this page to view, add, edit and delete organization units and to manage their basic properties (name, tags, parent hierarchy and availability) that other Production features reference.
+The **Organization units** code list defines the Production organizational entities used across Production workflows â€” for example manufacturing cells, assembly lines, or regional sites. Use this page to view, add, edit and delete organization units and to manage their basic properties (name, tags, parent hierarchy and availability) that other Production features reference.
 
 Organization units are used by planners and supervisors to scope operations, filter lists, and control workflow routing (for example, selecting the correct input/output warehouse location or assigning duties). Example: the Organization unit with Code **ORN-25-0002** corresponds to **Finishing**, a production unit responsible for finishing the product before packaging.
 
@@ -29,13 +29,13 @@ Open this screen to view, add and edit organization units used by Production.
 
 The list shows the organization unit **Code** and **Name** and displays tags and the **Ordinal** value. Use the search box in the header to find records. Click an organization unit to open the edit form.
 
-![Organization units list](../Assets/OrganizationUnitsList1.png "Organization units list")
+![Organization units list](../Images/OrganizationUnitsList1.png "Organization units list")
 
 Each record includes a status indicator to the left of its name:
 - **Blue** indicates the organization unit is active
 - **Gray** indicates the organization unit is inactive
 
-![Organization Units Resources Buttons](../Assets/OrganizationUnitsResourcesButtons.png "Organization Units Resources Buttons")
+![Organization Units Resources Buttons](../Images/OrganizationUnitsResourcesButtons.png "Organization Units Resources Buttons")
 
 Click these buttons to attach human and non-human resources to the selected organization unit. See **[Resources](Resources.md)** for details on defining people, machines, and teams.
 
@@ -47,15 +47,15 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to open the form 
 
 Fill in the fields on the Add form:
 
-- **Code** — shown and assigned by the system.
-- **Name** (mandatory) — enter the unit name.
-- **Description** — optional description.
-- **Ordinal** — numeric order (default 0).
-- **Tags** — select zero or more tags.
-- **Parent** — optionally select a parent unit to build a hierarchy.
-- **Enabled** — check to enable the unit.
+- **Code** â€” shown and assigned by the system.
+- **Name** (mandatory) â€” enter the unit name.
+- **Description** â€” optional description.
+- **Ordinal** â€” numeric order (default 0).
+- **Tags** â€” select zero or more tags.
+- **Parent** â€” optionally select a parent unit to build a hierarchy.
+- **Enabled** â€” check to enable the unit.
 
-![Organization units – New](../Assets/OrganizationUnitsNew.png "Organization units – New")
+![Organization units â€“ New](../Images/OrganizationUnitsNew.png "Organization units â€“ New")
 
 Click **Add** to save the new organization unit, or **Cancel** to discard.
 
@@ -71,7 +71,7 @@ Open an existing organization unit to change:
  
 Click **Save** to persist changes or **Cancel** to discard. Use **Delete** to remove the record if no longer required.
 
-![Organization units – Edit](../Assets/OrganizationUnitsEdit1.png "Organization units – Edit")
+![Organization units â€“ Edit](../Images/OrganizationUnitsEdit1.png "Organization units â€“ Edit")
 
 ## Deletion
 

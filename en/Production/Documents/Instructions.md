@@ -8,7 +8,7 @@ Open **Instructions** from the [**Execution**](Execution.md) screen via the acti
 
 1. Open the **Instructions** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).  
 
-   ![Instructions](../Assets/ExecutionInstructions.png "Operation instructions")
+   ![Instructions](../Images/ExecutionInstructions.png "Operation instructions")
 
 4. Read, zoom images, and follow the guidance.  
 5. Return to the [**Execution**](Execution.md) screen via Action button → Produced when done. 
@@ -30,4 +30,5 @@ Instruction articles may include:
 Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../CodeLists/Operations.md) and use the **Article** field to link existing [Knowledge base](../../KnowledgeBase/Domain/KnowledgeBaseDomain.md) content.
 
 ---
+
 

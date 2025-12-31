@@ -1,4 +1,4 @@
-# Loss
+﻿# Loss
 
 The **Loss** activity records defective or unusable items produced during an operation. It helps keep quality visible and ensures accurate reporting and traceability.
 
@@ -9,9 +9,9 @@ Open **Loss** from the [**Execution**](Execution.md) screen via the activity sel
 1. Open the **Loss** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).  
 2. Enter the defective quantity.  
 
-    ![Loss](../Assets/ExecutionLossPage.png "Loss recording")
+    ![Loss](../Images/ExecutionLossPage.png "Loss recording")
 
-3. Select a **Loss classification** (reason) tag � see [Loss classification tags](../CodeLists/LossClassificationTags.md).   
+3. Select a **Loss classification** (reason) tag — see [Loss classification tags](../CodeLists/LossClassificationTags.md).   
 4. Click **Loss** (yellow button) to save.  
 5. Repeat for additional losses as needed.
 
@@ -32,3 +32,4 @@ Loss entries feed several analytics pages:
 Use consistent tagging to get meaningful KPIs.
 
 ---
+
