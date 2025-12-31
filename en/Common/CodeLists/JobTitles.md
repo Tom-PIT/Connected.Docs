@@ -15,7 +15,7 @@ To access this page, go to **Customer Support / Management / Job titles** in the
 
 The list displays all job titles defined in the system.
 
-![Job titles list](../Assets/JobTitlesList.png)
+![Job titles list](../Images/JobTitlesList.png)
 
 Use the **Enabled / Disabled** filters on the left to show active or inactive titles.
 
@@ -23,7 +23,7 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive ti
 
 To add a new job title, click on the [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner and select **New**.
 
-![Add new job title](../Assets/JobTitlesNew.png)
+![Add new job title](../Images/JobTitlesNew.png)
 
 Fill in the following fields:
 
@@ -45,3 +45,4 @@ A job title can be deleted from the Edit page, but only if it is not referenced 
 
 > [!NOTE]  
 > Deleting a job title does **not** remove any Business directory entries.
+

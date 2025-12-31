@@ -6,7 +6,7 @@ Because of this, the Common module must be configured **before** using any other
 
 Example of Common code lists in the **Sales** domain:
 
-![Common Code Lists Examples](../Assets/CommonCodeListsExamples.png "Common Code Lists Examples")
+![Common Code Lists Examples](../Images/CommonCodeListsExamples.png "Common Code Lists Examples")
 
 > [!IMPORTANT]  
 > The Common Code Lists should be the **first configuration step** when setting up the platform.  
@@ -98,3 +98,4 @@ If the Common module is not configured first, users will encounter:
 > **Do not proceed with [Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), or [System Configuration](../../System/Settings/Configuration.md) until all required Common Code Lists have been created.**  
 
 ---
+

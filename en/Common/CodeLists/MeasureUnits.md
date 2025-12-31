@@ -1,4 +1,4 @@
-# Measure units
+﻿# Measure units
 
 Measure units are how you count or measure items (for example: piece, kilogram, meter, liter). They make quantities consistent across documents, stock, and calculations and control rounding/formatting (e.g., 2 pcs, 1.75 kg, 3.000 m).
 
@@ -40,9 +40,9 @@ Each record includes a status indicator to the left of its name:
 - **Blue** indicates the measure unit is active
 - **Gray** indicates the measure unit is inactive
 
-![Measure units](../Assets/MeasureUnits.png "Measure units")
+![Measure units](../Images/MeasureUnits.png "Measure units")
 
-The list displays each measure unit’s name, abbreviation, and precision.
+The list displays each measure unitâ€™s name, abbreviation, and precision.
 
 ## Actions
 
@@ -56,13 +56,13 @@ The form includes the following fields:
 
 After entering the required information, click **Add** to save the measure unit or **Cancel** to return to the list view.
 
-![Add measure unit](../Assets/NewMeasureUnit.png "Add measure unit")
+![Add measure unit](../Images/NewMeasureUnit.png "Add measure unit")
 
 ## Editing
 
-To edit an existing measure unit, click the unit’s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
+To edit an existing measure unit, click the unitâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
 
-![Edit measure unit](../Assets/MeasureUnitsEdit.png "Edit measure unit")
+![Edit measure unit](../Images/MeasureUnitsEdit.png "Edit measure unit")
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 
