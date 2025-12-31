@@ -30,7 +30,7 @@ Each record includes a status indicator to the left of its name:
 
 ![Tax rates list](../Images/TaxRates.png "Tax rates list")
 
-The list displays each tax rateâ€™s name and the applicable percentage. A search field is available in the upper-right corner to help filter the list.
+The list displays each tax rate's name and the applicable percentage. A search field is available in the upper-right corner to help filter the list.
 
 ## Actions
 
@@ -47,7 +47,7 @@ After entering the required information, click **Add** to save the tax rate or *
 
 ## Editing
 
-To edit an existing tax rate, click the tax rateâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+To edit an existing tax rate, click the tax rate's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 

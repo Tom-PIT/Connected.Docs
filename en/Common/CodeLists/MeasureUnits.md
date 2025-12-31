@@ -42,7 +42,7 @@ Each record includes a status indicator to the left of its name:
 
 ![Measure units](../Images/MeasureUnits.png "Measure units")
 
-The list displays each measure unitâ€™s name, abbreviation, and precision.
+The list displays each measure unit's name, abbreviation, and precision.
 
 ## Actions
 
@@ -60,7 +60,7 @@ After entering the required information, click **Add** to save the measure unit 
 
 ## Editing
 
-To edit an existing measure unit, click the unitâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
+To edit an existing measure unit, click the unit's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
 
 ![Edit measure unit](../Images/MeasureUnitsEdit.png "Edit measure unit")
 

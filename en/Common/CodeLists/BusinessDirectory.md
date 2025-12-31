@@ -14,9 +14,9 @@ The **Business directory** contains all companies and individuals your organizat
 | **Customer** | Checkbox indicating whether the entity acts as a customer. |
 | **Cooperator** | Checkbox indicating whether the entity acts as a cooperator. |
 | **Person** | Checkbox indicating whether the entity is a natural person. |
-| **Street** | Entityâ€™s street address, for example **Dunajska cesta 10**. |
-| [**Country**](Countries.md) | Country where the entityâ€™s headquarters are located. |
-| [**Postal code**](PostalCodes.md) | Postal code of the entityâ€™s headquarters. |
+| **Street** | Entity's street address, for example **Dunajska cesta 10**. |
+| [**Country**](Countries.md) | Country where the entity's headquarters are located. |
+| [**Postal code**](PostalCodes.md) | Postal code of the entity's headquarters. |
 | **Type** | Defines the tax status of the entity (see the list section below). |
 | **VAT ID** | VAT identification number, for example **SI12345678**. |
 | **Company ID** | Company registration number. |
@@ -28,7 +28,7 @@ The **Business directory** contains all companies and individuals your organizat
 | [**Primary contact**](Contacts.md) | Name and surname of the primary contact person. |
 | **Phone** | Phone number of the primary contact. |
 | **Email** | Email address of the primary contact. |
-| **Use partner currency on documents** | Checkbox defining whether the entityâ€™s [currency](Currencies.md) is used in documents. |
+| **Use partner currency on documents** | Checkbox defining whether the entity's [currency](Currencies.md) is used in documents. |
 
 ## Management
 
@@ -97,7 +97,7 @@ Additional collapsible sections are available:
 This section allows entering the primary contact information for the business partner. You can specify details such as contact name, phone number, and email address. These fields are optional and serve as reference information used across documents.
 
 #### Currency
-This section allows you to define whether the business partner uses the **company currency** when appearing on documents. If enabled, all related transactions (such as sales or purchase documents) default to the companyâ€™s currency instead of the partnerâ€™s own currency settings.
+This section allows you to define whether the business partner uses the **company currency** when appearing on documents. If enabled, all related transactions (such as sales or purchase documents) default to the company's currency instead of the partner's own currency settings.
 
 ![New Business Directory Collapsible Sections](../Images/BusinessDirectoryCollapsibleOptions.png "New business collapsible sections")
 
@@ -108,7 +108,7 @@ The **Menu** in the top-right corner provides the **Exporting** option, which ex
 
 ## Editing
 
-To edit an existing record, click the entryâ€™s **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
+To edit an existing record, click the entry's **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Editing Business Directory Entry](../Images/BusinessDirectoryEdit.png "Editing Business Directory Entry")
 
