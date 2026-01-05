@@ -58,3 +58,5 @@ All amounts are calculated based on the [**Supply orders**](../Documents/SupplyO
 - The view is intended for **analysis only** and does not support actions such as editing, reversing, or creating documents.
 
 For detailed document-level information, open the related [**Supply orders**](../Documents/SupplyOrders.md) directly from the **Supply / Documents / Supply orders** section.
+
+---
