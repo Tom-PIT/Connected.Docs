@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿# Measure units
+# Measure units
 
 Measure units are how you count or measure items (for example: piece, kilogram, meter, liter). They make quantities consistent across documents, stock, and calculations and control rounding/formatting (e.g., 2 pcs, 1.75 kg, 3.000 m).
 
