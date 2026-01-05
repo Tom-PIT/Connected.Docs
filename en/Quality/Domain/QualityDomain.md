@@ -21,11 +21,11 @@ To access the Quality domain, navigate to **Quality** in the [navigation](../../
 The domain is structured into two functional areas:
 
 - **Management** – Configure and maintain checklist definitions used by production and maintenance.
-  - [**Checklists**](../../Production/CodeLists/Checklists.md) — Manage checklist templates (structure, steps, criteria, and thresholds). This is the same code list available under the Production domain and is maintained centrally there.
+  - [**Checklists**](../../Production/CodeLists/Checklists.md) — Manage checklist templates (structure, steps, criteria, and thresholds). This is the same code list available under the [Production domain](../../Production/Domain/ProductionDomain.md) and is maintained centrally there.
 
 - **Views** – Operate and analyze real-time and historical checklist executions.
-  - **Active Checklists** — View all checklists currently in progress or awaiting completion. Typical columns include checklist name, process/asset, assignee, start time, due date, and status. Common actions: open the record, continue execution, or mark as completed (subject to permissions).
-  - **Completed Checklists** — Review finished checklists with outcomes, timestamps, responsible users, and any recorded nonconformities. Supports filtering (date ranges, processes, business units, results) and exporting for audits.
+  - [**Active Checklists**](../Views/ActiveChecklists.md) — View all checklists currently in progress or awaiting completion. Typical columns include checklist name, process/asset, assignee, start time, due date, and status. Common actions: open the record, continue execution, or mark as completed (subject to permissions).
+  - [**Completed Checklists**](../Views/CompletedChecklists.md) — Review finished checklists with outcomes, timestamps, responsible users, and any recorded nonconformities. Supports filtering (date ranges, processes, business units, results) and exporting for audits.
 
 ![Quality Domain Views](../Images/QualityDomainViews.png "Quality Domain views")
 
