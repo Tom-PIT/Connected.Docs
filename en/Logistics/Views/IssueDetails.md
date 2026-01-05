@@ -1,6 +1,6 @@
 # Issue details
 
-The **Issue details** view provides an analytical overview of all **materials and finished products issued from stock** within a selected time period. Instead of focusing on issue documents themselves, this view aggregates **issued items** and shows exactly **which issue documents** were used and **from which warehouse locations** the items were issued.
+The **Issue details** view provides an analytical overview of all **materials and finished products issued from stock** within a selected time period. Instead of focusing on issue documents themselves, this view aggregates **issued items** and shows exactly **which [issue documents](../Documents/Issues.md)** were used and **from which warehouse locations** the items were issued.
 
 To access this view, go to **Logistics / Views / Issue details** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -23,7 +23,7 @@ The list is structured as follows:
 
 When expanded, each issue document shows:
 
-- **Document number** – clickable, opens the issue document  
+- **Document number** – clickable, opens the [Issue document](../Documents/Issues.md)  
 - **Document date and time**  
 - **Source** – warehouse and location (clickable)  
 - **Issued quantity**
@@ -81,4 +81,5 @@ This view is **analytical only**. It does not allow creating, editing, or deleti
 
 - **[Consumption details](ConsumptionDetails.md)** – review materials consumed during production  
 - **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
-- **[Stock view by material](Stock.md#stock-view-by-material)** – review stock movements and balances by material
+- **[Stock view by material](Stock.md#stock-view-by-material)** – review stock movements and balances by material  
+- **[Issue documents](../Documents/Issues.md)** – create and review stock issue documents
