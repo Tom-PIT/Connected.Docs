@@ -1,6 +1,6 @@
 # Consumption details
 
-The **Consumption details** view provides an analytical overview of all **materials consumed during production** within a selected time period. Instead of focusing on production documents, this view aggregates **consumed materials** and shows exactly **which consumption documents** were used and **from which warehouse locations** the materials were sourced.
+The **Consumption details** view provides an analytical overview of all **materials consumed during production** within a selected time period. Instead of focusing on production documents, this view aggregates **consumed materials** and shows exactly **which [consumption documents](../../Production/Documents/Consumed.md)** were used and **from which warehouse locations** the materials were sourced.
 
 To access this view, go to **Logistics / Views / Consumption details** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -23,7 +23,7 @@ The list is structured as follows:
 
 When expanded, each consumption document shows:
 
-- **Document number** – clickable, opens the consumption document used in production  
+- **Document number** – clickable, opens the [consumption document](../../Production/Documents/Consumed.md). The same document is also accessible from the related [production order](../../Production/Documents/ProductionOrders.md) under Linked documents.  
 - **Document date and time**  
 - **Source** – warehouse and location (clickable)  
 - **Consumed quantity**
@@ -79,6 +79,7 @@ This view is **analytical only**. It does not allow creating, editing, or deleti
 ## Related views
 
 - **[Production orders](../../Production/Documents/ProductionOrders.md)** – review production processes that generate material consumption  
+- **[Consumed](../../Production/Documents/Consumed.md)** – enter and review production consumption documents  
 - **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
 - **[Stock view by material](Stock.md#stock-view-by-material)** – review stock movements and balances by material
 
