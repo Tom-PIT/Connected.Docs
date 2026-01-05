@@ -12,6 +12,13 @@ The import supports the following material types:
 
 The screen also provides a downloadable example file, which shows the required structure of the spreadsheet. Before importing, you can run a **Test import**, which validates the data and reports errors without applying changes.
 
+> [!NOTE]  
+> **Prerequisites**  
+> Before importing materials, review the following code lists:  
+> - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
+> - [**Tax rates**](../../Common/CodeLists/TaxRates.md)  
+> If a referenced measure unit or tax rate is missing, it will be created automatically during import. Reviewing these lists in advance helps ensure correct naming and mappings.
+
 To access the **Import materials** code list, go to **Assets / Materials /
 Import materials** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -33,6 +40,12 @@ The system accepts imports in the **CSV** or **XLSX** format. The dropdown menu 
 ## Spreadsheet structure
 
 The import file must include the columns listed below. Each row represents a single material that will be imported.
+
+> [!IMPORTANT]
+> - Do not change the column order. Use the example file as a reference for the exact sequence of columns.
+> - Materials must have unique values in the Code column to avoid conflicts.
+> - Empty optional fields will be imported as blank values.
+> - URLs (Image link URL, Info link URL) must be valid or left empty.
 
 | Column | Description |
 |--------|-------------|
@@ -90,22 +103,11 @@ During import:
 
 After the import completes, the status updates in the table, indicating which rows were processed successfully.
 
-> [!NOTE]  
-> Materials are linked to two code lists, [**Measure units**](../../Common/CodeLists/MeasureUnits.md) and [**Tax rates**](../../Common/CodeLists/TaxRates.md). If the required records do not exist in these code lists, the system automatically creates the missing dependent code list entries during import.
-
 ## Results list
 
 Click any import on the **Created** column on the import list to review the results and any possible errors.
 
 ![Import materials report](../Images/ImportMaterialsReport.png "Import materials report")
-
-## Notes
-
-- Materials must have unique **Code** values to avoid conflicts.  
-- Measure units and tax rates must already exist in the system.  
-- The column order in the spreadsheet must not be changed.  
-- Empty optional fields will be imported as blank values.  
-- URLs must be valid or left empty.
 
 ---
 
