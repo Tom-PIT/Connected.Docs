@@ -48,7 +48,7 @@ The list can be filtered by:
 
 ![Material price lists](../Images/MaterialsPriceListsList.png "Material price lists")
 
-Clicking the **price list name** opens the *Edit* screen.
+Clicking the **price list name** opens the **Edit** screen.
 
 ![Edit material price list](../Images/MaterialsPriceListsNew.png "Edit material price list")
 
