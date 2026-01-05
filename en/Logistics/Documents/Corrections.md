@@ -10,7 +10,7 @@ Use Corrections to:
 > [!NOTE]
 > Corrections affect inventory on publish: the system updates stock levels and attributes based on the entered differences.
 
-To access **Corrections**, go to **Logistics / Documents / Corrections** in the [**navigation**](../../Common/UI/Navigation.md).
+To access **Corrections**, go to **Logistics / Documents / Corrections** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 

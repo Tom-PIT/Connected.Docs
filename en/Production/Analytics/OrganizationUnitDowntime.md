@@ -2,7 +2,7 @@
 
 The **Organization unit downtime** page provides a detailed list of all downtime events recorded within selected organizational units. It allows supervisors and planners to review when downtime started and ended, which resource was affected, the downtime classification tag, and the total duration.
 
-To access this page, go to **Production / Analytics / Organization unit downtime** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Organization unit downtime** in the [navigation](../../Common/UI/Navigation.md).
 
 ![Organization unit downtime](../Images/OrganizationUnitDowntimeView.png "Organization unit downtime")
 

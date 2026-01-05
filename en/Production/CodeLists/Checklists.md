@@ -4,7 +4,7 @@ Checklists are used in **Production** to define structured lists that support va
 
 The individual steps inside a checklist — called **[Check points](Checkpoints.md)** — are managed separately.
 
-To access this page, go to **Production / Management / Checklists** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Management / Checklists** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.

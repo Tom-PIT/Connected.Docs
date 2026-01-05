@@ -4,7 +4,7 @@ Processes define the structured steps used in **Production** to transform inputs
 
 A process may contain one or more **versions**, for example, different versions for different table sizes. Each version contains a sequence of [**operations**](Operations.md), which define inputs, resources (human and non human), outputs, and quality requirements.
 
-To access this page, go to **Production / Management / Processes** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Management / Processes** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Processes and versions](https://www.youtube.com/watch?v=4svpFCm7rkk)** video tutorial.
