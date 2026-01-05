@@ -8,7 +8,7 @@ Define the analyses or tests that can be performed on materials (e.g., chemical,
 > [!TIP]
 > For a full demonstration, see the **[Material analysis management](https://www.youtube.com/watch?v=AgCVA8labrw)** video tutorial.
 
-To access **Material analysis management**, go to **Logistics / Management / Material analysis** in the [**navigation**](../../Common/UI/Navigation.md).
+To access **Material analysis management**, go to **Logistics / Management / Material analysis** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 

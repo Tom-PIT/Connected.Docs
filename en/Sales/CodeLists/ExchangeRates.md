@@ -12,7 +12,7 @@ Each exchange rate is defined **from one currency to another** (Base → Target)
 > [!IMPORTANT]
 > [**Currencies**](../../Common/CodeLists/Currencies.md) must be defined before creating exchange rates.
 
-To access this page, go to **Sales / Management / Exchange rates** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Exchange rates** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 

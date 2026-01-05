@@ -2,7 +2,7 @@
 
 The **Organization unit loss** page provides an overview of all recorded production losses grouped by organizational unit. It allows supervisors and planners to quickly see how many defective or unusable items were produced in each organizational unit and from which production orders the losses originated.
 
-To access this page, go to **Production / Analytics / Organization unit loss** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Organization unit loss** in the [navigation](../../Common/UI/Navigation.md).
 
 ![Organization unit loss](../Images/OrganizationUnitLossView.png "Organization unit loss")
 
