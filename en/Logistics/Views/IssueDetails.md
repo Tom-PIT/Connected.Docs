@@ -73,9 +73,8 @@ This view is **analytical only**. It does not allow creating, editing, or deleti
 
 > [!NOTE]
 > - Quantities are displayed in the item’s base unit of measure (e.g. pcs, meters).  
-> - Both **materials** and **finished products** can appear in this view.  
 > - This view focuses on **stock issues** (e.g. sales deliveries, internal issues).  
-> - Production-related material usage is shown in **Consumption details**, not here.
+> - Production-related material usage is shown in **[Consumption details](ConsumptionDetails.md)**, not here.
 
 ## Related views
 
