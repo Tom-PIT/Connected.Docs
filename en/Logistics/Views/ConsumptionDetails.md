@@ -81,6 +81,6 @@ This view is **analytical only**. It does not allow creating, editing, or deleti
 - **[Production orders](../../Production/Documents/ProductionOrders.md)** – review production processes that generate material consumption  
 - **[Consumed](../../Production/Documents/Consumed.md)** – enter and review production consumption documents  
 - **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
-- **[Stock view by material](Stock.md#stock-view-by-material)** – review stock movements and balances by material
+- **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** – review stock movements and balances by material
 
 ---
