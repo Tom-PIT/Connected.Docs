@@ -52,7 +52,7 @@ The left-side panel provides filters for:
    - **Description** – Optional  
    - **Tags** – Optional, but **required** to link the process to specific areas. For example, add the **Production** tag to make the process available when creating a new [**Production order**](../Documents/ProductionOrders.md).
 
-    ![New process](../Images/ProcessesNew.png)
+    ![New process](../Images/ProcessesNew1.png)
 
 3. Click **Add** to create the new process.
 
