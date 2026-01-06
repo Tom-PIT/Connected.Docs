@@ -1,1 +1,0 @@
-# Skladiščne lokacije
