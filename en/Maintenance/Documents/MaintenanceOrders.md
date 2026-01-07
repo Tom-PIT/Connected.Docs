@@ -30,6 +30,19 @@ At the top of the page, summary cards show the number of orders:
 
 Clicking a card updates the list accordingly.
 
+### Priority indicators
+
+In the maintenance orders list, **visual indicators** are used to quickly identify the priority of each order:
+
+- **Red arrow pointing up** — **High** priority
+- **No arrow** — **Normal** priority
+- **Blue arrow pointing down** — **Low** priority
+
+These indicators appear next to the maintenance order entry and help users quickly assess urgency without opening the order.
+
+![Maintenance Order Priority Indicators](../Images/MaintenanceOrdersListItem.png)
+
+
 ### Available filters
 
 - **Planned start** – Filter orders by planned start date range
