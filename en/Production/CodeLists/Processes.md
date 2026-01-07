@@ -33,7 +33,7 @@ To access this page, go to **Production / Management / Processes** in the [navig
 
 The Processes list displays all production processes. Each row includes the process code, name, description, and tags. Use the **Search** bar to find processes by name or code.
 
-![Processes list](../Images/ProcessesList.png)
+![Processes list](../Images/ProcessesList1.png "Processes list")
 
 The left-side panel provides filters for:
 
@@ -52,7 +52,7 @@ The left-side panel provides filters for:
    - **Description** – Optional  
    - **Tags** – Optional, but **required** to link the process to specific areas. For example, add the **Production** tag to make the process available when creating a new [**Production order**](../Documents/ProductionOrders.md).
 
-    ![New process](../Images/ProcessesNew1.png)
+    ![New process](../Images/ProcessesNew1.png "New process")
 
 3. Click **Add** to create the new process.
 
@@ -71,7 +71,7 @@ To edit an existing process:
 
 Each process may include multiple **versions**, allowing you to update or improve a workflow over time while keeping older versions intact.
 
-![Versions button](../Images/ProcessesVersionsButton.png)
+![Versions button](../Images/ProcessesVersionsButton.png "Versions button")
 
 
 From the Versions screen, you can:
@@ -81,7 +81,7 @@ From the Versions screen, you can:
 - Lock a version  
 - Open a version to work with its operations and configuration screens  
 
-![Versions list](../Images/ProcessesVersionsList.png)
+![Versions list](../Images/ProcessesVersionsList.png "Versions list")
 
 A version includes:
 
@@ -97,7 +97,7 @@ A version contains a sequence of **[operations](Operations.md)**, each represent
 
 To access the list operations of a version click on the **[Operations](Operations.md)** button:
 
-![Operations button](../Images/ProcessesVersionsOperationsButton1.png)
+![Operations button](../Images/ProcessesVersionsOperationsButton1.png "Operations button")
 
 Each operation includes:
 
@@ -113,7 +113,7 @@ Each operation includes:
 
 The **[Quality](QualityChecklists.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](Checklists.md), which define the quality-control steps required during production.
 
-![Processes Versions Quality Button](../Images/ProcessesVersionsQualityButton.png)
+![Processes Versions Quality Button](../Images/ProcessesVersionsQualityButton.png "Processes Versions Quality Button")
 
 ## Deletion
 
