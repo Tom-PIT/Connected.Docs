@@ -10,7 +10,7 @@ They move through the life cycle **Pending → Active → Closed**, and include 
 > - At least one [**maintenance process**](../../Production/CodeLists/Processes.md) with an active version
 > - Equipment definitions
 > - Assigned [**organization units**](../../Production/CodeLists/OrganizationUnits.md)
-> - Optional supporting definitions such as [**resources**](../../Production/CodeLists/Resources.md), [**checklists**](../../Production/CodeLists/Checklists.md), and [**measure units**](../../Production/CodeLists/MeasureUnits.md), depending on your maintenance workflow
+> - Optional supporting definitions such as [**resources**](../../Production/CodeLists/Resources.md), [**checklists**](../../Production/CodeLists/Checklists.md), and [**measure units**](../../Common/CodeLists/MeasureUnits.md), depending on your maintenance workflow
 
 To access maintenance orders, go to **Maintenance / Maintenance Orders** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -85,7 +85,7 @@ Then choose the specific equipment from the list.
 
 ### Step 2 — Select process
 
-Select the **maintenance [process](../CodeLists/Processes.md)** and **process version** that defines the maintenance operations.
+Select the **maintenance [process](../../Production/CodeLists/Processes.md)** and **process version** that defines the maintenance operations.
 
 ![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2.png "Create maintenance order – step 2")
 
