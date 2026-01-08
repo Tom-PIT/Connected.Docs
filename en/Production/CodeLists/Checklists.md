@@ -1,14 +1,13 @@
 ﻿# Checklists
 
-Checklists are used in **Production** to define structured lists that support various operational or quality-control procedures. This page allows users to create and categorize checklists.
+Checklists are used across **Production** and **Maintenance** to define structured lists that support operational procedures and quality-control activities. This page allows users to create and categorize checklists used on the shop floor and in maintenance workflows.
 
 The individual steps inside a checklist — called **[Check points](Checkpoints.md)** — are managed separately.
 
-To access this page, go to **Production / Management / Checklists** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Checklists** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
-
 
 ## Schema
 
@@ -17,8 +16,8 @@ To access this page, go to **Production / Management / Checklists** in the [navi
 | [**Code**](../../Common/UI/DocumentCodes.md) | Automatically generated checklist code (read-only). |
 | **Name** | The name of the checklist (mandatory). |
 | **Description** | A short explanation of the checklist’s purpose. |
-| **Tags** | Optional tags used to categorize or group checklists. |
-| **Execution roles** | Optional roles defining which job positions may execute the checklist. |
+| **Tags** | Optional tags used to categorize or group checklists (e.g., Production, Maintenance). |
+| **Execution roles** | Optional roles defining which job positions may execute the checklist (e.g., operators, maintenance technicians). |
 
 ## List view
 
@@ -41,8 +40,8 @@ The list includes a **Tags** filter on the left, allowing you to show only check
 
     - **Name** – The name of the checklist  
     - **Description** – Optional description  
-    - **Tags** – Select one or more tags to categorize the checklist  
-    - **Execution roles** – Select which job positions can execute this checklist
+    - **Tags** – Select one or more tags to categorize the checklist (e.g., Production, Maintenance)  
+    - **Execution roles** – Select which job positions can execute this checklist (e.g., operators, maintenance technicians)
 
 3. Click **Add** to create the checklist.
 
