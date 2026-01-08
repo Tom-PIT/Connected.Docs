@@ -111,6 +111,9 @@ Two scheduling modes are available:
 
   ![Maintenance Orders Step 3 Count](../Images/MaintenanceOrdersNewStep3Count.png "Create maintenance order – counter schedule")
 
+> [!NOTE]
+> Usage-based schedules rely on resource and equipment counters (e.g., pieces, meters, grams, hours). For configuring counters, see **[Resource work hours & counters](ResourceWorkHours&Counters.md)**.
+
 If a **recurring execution pattern** is selected (for example *Monthly*, *Every X days*, or *Yearly*), a **maintenance schedule** is created automatically.  
 This schedule will generate maintenance orders according to the defined pattern.
 

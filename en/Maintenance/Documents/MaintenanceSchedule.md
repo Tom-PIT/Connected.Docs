@@ -1,6 +1,6 @@
 # Maintenance schedule
 
-The **Maintenance schedule** defines how **planned maintenance orders** are generated automatically over time based on a defined execution pattern.
+The **Maintenance schedule** defines how **planned maintenance orders** are generated automatically over time or usage based on a defined execution pattern.
 
 Maintenance schedules are created as part of planned maintenance and ensure that preventive maintenance is executed regularly without manual intervention.
 
@@ -13,7 +13,7 @@ The Maintenance Schedule page displays all existing schedules created from plann
 Each entry represents a **recurring maintenance definition** linked to:
 - A specific piece of equipment
 - A maintenance process and version
-- A recurring execution pattern
+- A recurring execution pattern (time-based or count/usage-based)
 
 ![Maintenance Schedule List](../Images/MaintenanceScheduleList.png)
 
@@ -27,7 +27,7 @@ From there, you can define the order details and choose whether the maintenance 
 For each schedule, the list displays:
 - **Equipment**
 - **Schedule** (link to edit the schedule)
-- **Next execution date**
+- **Next execution date** (for time-based schedules) or **Next execution count threshold** (for count-based schedules)
 - **Execution pattern**
 - **Process and version**
 
@@ -46,7 +46,14 @@ The search bar allows filtering by equipment name or process.
 
 Maintenance schedules are created **automatically** when a planned maintenance order is configured with a **recurring execution pattern**.
 
-Once created, the schedule is responsible for generating future maintenance orders according to the defined interval, so preventive maintenance can continue without manually creating new orders.
+Supported recurring execution patterns include:
+- **Time-based** patterns (e.g., monthly, yearly, every X days)
+- **Count/usage-based** patterns (e.g., every X pieces, meters, grams, hours), using the relevant equipment counters and measure units
+
+> [!NOTE]
+> For configuring usage counters on resources and equipment, see **[Resource work hours & counters](ResourceWorkHours&Counters.md)**.
+
+Once created, the schedule is responsible for generating future maintenance orders according to the defined interval or usage threshold, so preventive maintenance can continue without manually creating new orders.
 
 ## Editing a maintenance schedule
 
@@ -62,7 +69,7 @@ The **Schedule interval** section defines the recurrence logic for the maintenan
 
 Here you can configure:
 - The **start date** of the schedule
-- The **execution pattern** (for example monthly, yearly, or interval-based)
+- The **execution pattern** (for example monthly, yearly, interval-based, or count/usage-based)
 - Whether the schedule is **active**
 
 The available fields and options change dynamically depending on the selected execution pattern.
@@ -104,6 +111,6 @@ Maintenance schedules work in close relation with maintenance orders:
   - [**Maintenance calendar**](MaintenanceCalendar.md)
 - After a maintenance order is completed, the schedule continues generating the next execution according to its configuration
 
-This ensures that preventive maintenance is continuous and does not rely on manual task creation.
+This ensures that preventive maintenance is continuous and does not rely on manual task creation—whether based on time or usage counts.
 
 ---
