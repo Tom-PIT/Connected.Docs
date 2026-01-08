@@ -45,7 +45,7 @@ Use these code lists to drive maintenance workflows and execution across orders 
 
 Monitor performance and reliability using built-in analytics.
 
-![Maintenance Domain Analytics](../Images/maintenanceDomainAnalytics.png "Maintenance Domain analytics")
+![Maintenance Domain Analytics](../Images/MaintenanceDomainAnalytics.png "Maintenance Domain analytics")
 
 - **[Maintenance indicators](../Analytics/MaintenanceIndicators.md)** — KPI cards and detailed lists for MTBF, detection time, repair time, effort, and workload breakdown.
 
