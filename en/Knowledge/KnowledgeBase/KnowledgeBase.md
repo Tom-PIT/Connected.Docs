@@ -50,13 +50,19 @@ Clicking a directory tile opens the **directory view**, where users can navigate
 
 Clicking a directory from **Browse all topics** opens the **directory view**, which displays the articles available inside that directory.
 
+![KnowledgeBaseDirectory](../Images/KnowledgeBaseDirectory.png "Knowledge Base Directory")
+
 The directory view includes:
 
 - **Search bar** – searches within the **Knowledge base**
 - **Tag chips** – filter content by tags
 - **Popular topics** – quick access to articles grouped by tag
 
-![KnowledgeBaseDirectory](../Images/KnowledgeBaseDirectory.png "Knowledge Base Directory")
+In the directory view, the menu provides options to: 
+- Edit tags and 
+- Edit the directory.
+
+![Directories Menu](../Images/DirectoriesMenu.png "Directory Menu")
 
 ### Table of contents
 

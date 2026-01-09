@@ -30,6 +30,10 @@ Each row shows:
   - **[Table of contents](TableOfContents.md)**
   - **[Articles](Articles.md)**
 
+A status indicator appears to the left of each directory name:
+- **Blue** – enabled/active directory
+- **Gray** – disabled/inactive directory
+
 Directories can be searched using the **Search** field in the top-right corner.
 
 Clicking a directory name opens it for editing.
