@@ -4,15 +4,17 @@ Tom PIT.Connected is a global digital transformation platform that covers the fu
 
 Documentation is organized by language/country because regulations and processes can vary:
 
-- [**English**](en/)
-- [**Slovenian**](sl/)
+- [**English**](en/README-ENGLISH.md)
+
+[comment]: <> ([**Slovenian**](sl/README-SLOVENIAN.md)
 
 Start here:
 
 - English:
   - [**Getting started**](en/GettingStarted/00.GettingStarted.md) — Overview of the structure, first steps to configure the system, and typical workflow overviews.
   - [**Navigation**](en/Common/UI/Navigation.md) — How to find domains, documents, and settings using the Sitemap and breadcrumbs.
-- Slovenian:
-  - [**Read me**](sl/Splosno/UporabniskiVmesnik/README.md)
+
+[comment]: <> (- Slovenian:
+[comment]: <> (- [**Read me**](sl/Splosno/UporabniskiVmesnik/README.md)
 
 ---
