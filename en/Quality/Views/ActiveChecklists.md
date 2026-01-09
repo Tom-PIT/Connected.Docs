@@ -16,7 +16,7 @@ This view provides a real-time list of all checklists that are currently active 
 | **Document** | Source document type and code: [Production order](../../Production/Documents/ProductionOrders.md) or [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md). |
 | **Operation** | Operation code and name attached to the checklist execution. |
 | **Product** | Product name and code related to the operation (production contexts). |
-| [**Organization unit**](../../Production/CodeLists/OrganizationUnits.com) | Unit responsible for execution (e.g., Assembly, Electrical maintenance). |
+| [**Organization unit**](../../Production/CodeLists/OrganizationUnits.md) | Unit responsible for execution (e.g., Assembly, Electrical maintenance). |
 | **Equipment** | Appears for maintenance-linked checklists; equipment being maintained/checked. |
 
 
