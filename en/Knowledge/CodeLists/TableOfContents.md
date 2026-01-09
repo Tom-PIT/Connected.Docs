@@ -18,14 +18,16 @@ The table of contents is displayed as a **tree structure** and can contain:
 
 Entries are ordered using an **ordinal value** and can be enabled or disabled.
 
+> [!TIP]
+> Reordering entries is done via the **Ordinal** field. Drag-and-drop is not supported.
+
 ## Schema
 
 | Field | Description |
 |------|-------------|
 | **Type** | Defines the entry type: Folder, Article, or URL. |
 | **Title** | Display title of the table of contents entry. |
-| **Article** | Article linked to the entry (available when Type = Article). |
-| **URL** | External URL linked to the entry (available when Type = URL). |
+| [**Article**](Articles.md) | Article linked to the entry (available when Type = Article). |
 | **Hyperlink** | Displayed hyperlink text for URL entries. |
 | **Ordinal** | Position of the entry within its level of the table of contents. |
 | **Enabled** | Controls whether the entry is visible in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). |
