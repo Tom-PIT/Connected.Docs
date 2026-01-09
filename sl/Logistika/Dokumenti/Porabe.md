@@ -1,0 +1,86 @@
+# Porabe
+
+Dokument **Poraba** beleži materiale, ki so bili porabljeni med izvajanjem **proizvodnega naloga**. Dokumenti porabe se ustvarijo **samodejno** v modulu  
+[**Izvajanje**](../../Proizvodnja/Dokumenti/Izvajanje.md), ko proizvodni delavec zabeleži porabo materiala. Porabe zmanjšujejo zalogo porabljenih materialov in zagotavljajo sledljivost uporabljenih postavk.
+
+Za vnos porabljenih materialov na proizvodni strani glejte  
+**[Porabljeno](../../Proizvodnja/Dokumenti/Porabljeno.md)** — modula sta tesno povezana: beleženje porabe v proizvodnji ustvari ustrezen dokument porabe v logistiki.
+
+Za dostop do **Porab** pojdite na  
+**Logistika / Dokumenti / Porabe** v [navigaciji](../../Skupno/UI/Navigacija.md).
+
+## Shema
+
+### Razdelek dokumenta
+
+| Polje | Opis |
+|-------|------|
+| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Enolični identifikator dokumenta porabe (samodejno generiran). |
+| **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
+| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, iz katerega so bili materiali porabljeni. |
+
+### Razdelek postavk
+
+| Polje | Opis |
+|-------|------|
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Porabljen material ([izdelek](../../Sredstva/Šifranti/Izdelki.md), [polizdelek](../../Sredstva/Šifranti/Polizdelki.md), [surovina](../../Sredstva/Šifranti/Surovine.md) ali [repro material](../../Sredstva/Šifranti/ReproMateriali.md)). |
+| **Vir** | Identifikator vira porabljene enote (npr. serijska številka ali koda pakiranja, odvisno od načina sledenja materiala). |
+| **Količina** | Zabeležena porabljena količina za posamezno postavko. |
+
+## Seznam dokumentov porabe
+
+Stran **Porabe** prikazuje vse dokumente porabe, ustvarjene med izvajanjem proizvodnje. Seznam lahko filtrirate po:
+
+- **Datumih dokumentov**
+- **Pogledu**
+  - *Osnutki* — poraba je še v teku (beleženje še ni zaključeno)
+  - *Objavljeni* — zaključen dokument porabe
+- **Avtorju**
+- **Skladišču**
+
+![Seznam porab](../Images/ConsumptionsList.png "Seznam porab")
+
+## Dejanja
+
+Dokumentov porabe **ni mogoče ustvariti ročno** na tej strani (ni  
+[**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se iz modula  
+[**Izvajanje**](../../Proizvodnja/Dokumenti/Izvajanje.md) med beleženjem porabe za proizvodni nalog.
+
+Delovni tok:
+- Ko proizvodni delavec začne beležiti porabo, se samodejno ustvari **osnutek** dokumenta porabe.
+- Ko je postopek **Izvajanja** zaključen, se dokument premakne v stanje **Objavljeno** in je na voljo za pregled.
+
+## Pregled dokumenta porabe
+
+Dokument porabe vsebuje:
+
+### Povezani dokumenti
+
+Če je bila poraba zabeležena za proizvodni nalog, razdelek **Povezani dokumenti** prikaže povezavo do povezanega  
+[**Proizvodnega naloga**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) (če obstaja).
+
+![Povezani proizvodni nalog](../Images/ConsumptionsLinkedDocuments.png "Povezani proizvodni nalog")
+
+### Dokument in postavke
+
+Razdelek **Postavke** prikazuje vse porabljene materiale skupaj z njihovim virom in zabeleženimi količinami.
+
+![Objavljen dokument porabe](../Images/ConsumptionsCommittedDocument.png "Objavljen dokument porabe")
+
+## Meni
+
+Objavljene dokumente porabe je mogoče popraviti s pomočjo storna.  
+Odprite **meni dokumenta** in izberite:
+
+- **Ustvari novo storno**
+
+S tem se ustvari dokument storna, ki izniči zalogovni in (odvisno od konfiguracije sistema) tudi finančni učinek porabe. Za več informacij glejte  
+[**Storno**](Storno.md).
+
+![Meni porab](../Images/ConsumptionsMenu.png "Meni porab")
+
+## Brisanje
+
+Dokumentov porabe **ni mogoče izbrisati** iz sistema, saj je potrebno ohraniti sledljivost uporabe materialov v proizvodnji. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.
+
+---
