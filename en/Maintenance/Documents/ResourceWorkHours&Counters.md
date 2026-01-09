@@ -2,7 +2,7 @@
 
 The **Resource work hours & counters** screen is used to track **usage values** for equipment, such as produced pieces, operating hours, distance, volume, or any other measurable unit.
 
-These values are used by **count-based [maintenance schedules](MaintenanceSchedules.md)** to automatically generate maintenance orders when defined thresholds are reached.
+These values are used by **count-based [maintenance schedules](MaintenanceSchedule.md)** to automatically generate maintenance orders when defined thresholds are reached.
 
 To access this screen, go to **Maintenance / Resource work hours & counters** in the [navigation](../../Common/UI/Navigation.md).
 
