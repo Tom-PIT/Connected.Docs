@@ -104,7 +104,7 @@ V izdajnem dokumentu **meni (ikona hamburger)** v zgornjem desnem kotu ponuja ra
 
 - Tiskanje  
 - Izvoz (PDF)  
-- [**Ustvari storno**](Reversals.md)
+- [**Ustvari storno**](Storno.md)
 
 ## Pregled izdajnice
 

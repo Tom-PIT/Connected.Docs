@@ -13,8 +13,6 @@ Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../.
 
 Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
----
-
 ## Shema
 
 ### Razdelek dokumenta
@@ -104,8 +102,7 @@ Pri prevzemih se lahko pojavi možnost **Razstavljanje**, ki omogoča ustvarjanj
 
 ![Povezave dokumentov](../Images/ReceivesDocumentConnections.png)
 
-Za več podrobnosti glejte dokumentacijo  
-[**Razstavljanje**](Razstavljanje.md).
+Za več podrobnosti glejte dokumentacijo [**Demontaže**](Demontaze.md).
 
 ## Opombe
 
@@ -127,7 +124,7 @@ V prevzemnem dokumentu **meni (ikona hamburger)** v zgornjem desnem kotu ponuja 
 
 - Tiskanje  
 - Izvoz (PDF)  
-- [**Ustvari storno**](Reversals.md)
+- [**Ustvari storno**](Storno.md)
 
 ## Pregled prevzemnega dokumenta
 
