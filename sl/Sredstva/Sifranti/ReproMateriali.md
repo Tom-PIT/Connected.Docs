@@ -2,7 +2,7 @@
 
 **Repro materiali** so ponovno uporabni ali pomožni materiali, ki se uporabljajo za podporo proizvodnji ali drugim internim dejavnostim. Ne predstavljajo končnih izdelkov, so pa ključni za vzdrževanje, montažo ali uporabo drugih materialov. Primeri repro materialov so vijaki, trakovi, palete ali stiropor.
 
-Vsak repro material vsebuje pomembne lastnosti – kot so [merske enote](../../Skupno/Šifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Šifranti/DavčneStopnje.md), način generiranja serijskih številk ali možnosti [pakiranja](Pakiranje.md) – kar zagotavlja dosledno sledenje in uporabo v vseh skladiščnih in proizvodnih procesih. Ta šifrant vsebuje vse repro materiale, ki jih uporablja organizacija.
+Vsak repro material vsebuje pomembne lastnosti – kot so [merske enote](../../Skupno/Sifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Sifranti/DavcneStopnje.md), način generiranja serijskih številk ali možnosti [pakiranja](Pakiranje.md) – kar zagotavlja dosledno sledenje in uporabo v vseh skladiščnih in proizvodnih procesih. Ta šifrant vsebuje vse repro materiale, ki jih uporablja organizacija.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič  
@@ -11,8 +11,8 @@ Vsak repro material vsebuje pomembne lastnosti – kot so [merske enote](../../S
 > [!NOTE]  
 > **Predpogoji**  
 > Pred upravljanjem repro materialov zagotovite, da so naslednji šifranti pravilno nastavljeni:  
-> - [**Merske enote**](../../Skupno/Šifranti/MerskeEnote.md)  
-> - [**Davčne stopnje**](../../Skupno/Šifranti/DavčneStopnje.md)
+> - [**Merske enote**](../../Skupno/Sifranti/MerskeEnote.md)  
+> - [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md)
 
 Za dostop do šifranta **Repro materiali** pojdite na  
 **Sredstva / Materiali / Repro materiali** v [navigaciji](../../Skupno/UI/Navigacija.md).
@@ -86,9 +86,9 @@ Na voljo so dodatni zložljivi razdelki:
 Ta razdelek omogoča pregled ali dodajanje enega ali več zapisov [pakiranja](Pakiranje.md), specifičnih za material. Vsak zapis predstavlja eno pakirno enoto z lastno količino in identifikacijo.
 
 Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
-- [Prevzemi](../../Logistika/Dokumenti/Prevzemi.md)
-- [Izdaje](../../Logistika/Dokumenti/Izdaje.md)
-- [Medskladiščni prenosi](../../Logistika/Dokumenti/MedskladiščniPrenosi.md)
+- [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md)
+- [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
+- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
 
 #### Dodatno
 

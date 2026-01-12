@@ -3,7 +3,7 @@
 **Nadzorna plošča** omogoča hiter pregled trenutnega stanja zaloge za vse materiale. Poudari pomembna stanja, kot so materiali, ki so **pod minimalno zalogo**, **nad maksimalno zalogo**, **brez zaloge** ali **blokirani**. Tako lahko hitro zaznate morebitne težave in pravočasno ukrepate.
 
 Z nadzorne plošče lahko neposredno poiščete kateri koli material in odprete njegov **pogled zaloge**, kjer si ogledate količine, lokacije, premike in podrobnosti serijskih številk.  
-Minimalne in maksimalne pragove nastavite v šifrantu **[Meje zaloge](../Šifranti/MejeZaloge.md)**.
+Minimalne in maksimalne pragove nastavite v šifrantu **[Meje zaloge](../Sifranti/MejeZaloge.md)**.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pregled nadzorne plošče](https://www.youtube.com/watch?v=mEU18GmypkY)**.
@@ -19,12 +19,12 @@ Nadzorna plošča prikazuje štiri glavne indikatorje. S klikom na posamezen ind
 ### Pod minimumom  
 Materiali, katerih količina zaloge je nižja od določene **minimalne zaloge**.
 
-Minimalne vrednosti se nastavijo v **[Mejah zaloge](../Šifranti/MejeZaloge.md)**.
+Minimalne vrednosti se nastavijo v **[Mejah zaloge](../Sifranti/MejeZaloge.md)**.
 
 ### Nad maksimumom  
 Materiali, katerih količina zaloge presega določeno **maksimalno zalogo**.
 
-Maksimalne vrednosti se nastavijo v **[Mejah zaloge](../Šifranti/MejeZaloge.md)**.
+Maksimalne vrednosti se nastavijo v **[Mejah zaloge](../Sifranti/MejeZaloge.md)**.
 
 ### Brez zaloge  
 Materiali, ki trenutno nimajo **nobene razpoložljive zaloge**.

@@ -31,7 +31,7 @@ Vsak zapis vključuje indikator stanja levo od imena:
 
 ![Seznam držav](../Images/CountriesList.png "Seznam držav")
 
-Vsak zapis prikazuje oznako s **povezanimi podatki** — [Poštne številke](PoštneŠtevilke.md).
+Vsak zapis prikazuje oznako s **povezanimi podatki** — [Poštne številke](PostneStevilke.md).
 
 Klik na to oznako odpre vmesnik za upravljanje povezanih podatkov za izbrano državo.
 
@@ -82,7 +82,7 @@ Za urejanje obstoječega zapisa kliknite **Ime** države na seznamu. Vmesnik se 
 
 ### Poštne številke
 
-Oznaka [**Poštne številke**](PoštneŠtevilke.md) odpre vmesnik za upravljanje poštnih številk, povezanih z izbrano državo. Vsak zapis poštne številke vključuje polja, kot sta **Številka** in **Mesto**, kar omogoča vzdrževanje pravilnih geografskih in poštnih podatkov.
+Oznaka [**Poštne številke**](PostneStevilke.md) odpre vmesnik za upravljanje poštnih številk, povezanih z izbrano državo. Vsak zapis poštne številke vključuje polja, kot sta **Številka** in **Mesto**, kar omogoča vzdrževanje pravilnih geografskih in poštnih podatkov.
 
 ![Urejanje poštnih številk](../Images/PostalCodesButton.png "Urejanje poštnih številk")
 

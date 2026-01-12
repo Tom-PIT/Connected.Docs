@@ -2,7 +2,7 @@
 
 Dokument **Med-skladiščni promet** se uporablja za prenos materialov iz enega skladišča v drugo. Uporaben je, kadar je potrebno zalogo premakniti med lokacijami — na primer prenos artiklov iz **glavnega skladišča** v **centralno skladišče** ali prenos **komponent** v oddaljeno skladišče.
 
-Postopek prenosa omogoča skeniranje ali iskanje materialov, izbiro ciljnega [skladišča](../Šifranti/Skladisca.md) in [lokacije](../Šifranti/Lokacije.md) ter prilagajanje količin, ki se prenašajo. Ob objavi dokumenta se stanje zaloge samodejno posodobi v obeh skladiščih, kar zagotavlja pravilne količine na vsaki lokaciji.
+Postopek prenosa omogoča skeniranje ali iskanje materialov, izbiro ciljnega [skladišča](../Sifranti/Skladisca.md) in [lokacije](../Sifranti/Lokacije.md) ter prilagajanje količin, ki se prenašajo. Ob objavi dokumenta se stanje zaloge samodejno posodobi v obeh skladiščih, kar zagotavlja pravilne količine na vsaki lokaciji.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Med-skladiščni promet](https://www.youtube.com/watch?v=xtyKDh7_qgI)**.
@@ -17,19 +17,19 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta med-skladiščnega prometa. |
 | **Datum dokumenta** | Datum, ko je prenos zabeležen. |
-| [**Izvorno skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega bodo materiali odstranjeni. |
-| [**Ciljno skladišče**](../Šifranti/Skladisca.md) | Skladišče, v katerem bodo materiali prevzeti. |
+| [**Izvorno skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega bodo materiali odstranjeni. |
+| [**Ciljno skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem bodo materiali prevzeti. |
 | **Opombe** | Dodatne opombe, povezane z dokumentom. |
 
 ### Razdelek postavk
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se prenaša ([izdelek](../../Sredstva/Šifranti/Izdelki.md), [polizdelek](../../Sredstva/Šifranti/Polizdelki.md), [surovina](../../Sredstva/Šifranti/Surovine.md) ali [repro material](../../Sredstva/Šifranti/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se prenaša ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
 | **Serijska številka** | Serijska številka enote, ki se prenaša. |
 | **Rok uporabe** | Datum poteka (za materiale z rokom uporabe). |
-| [**Izvorna lokacija**](../Šifranti/Lokacije.md) | Skladiščna lokacija v izvor­nem skladišču. |
-| [**Ciljna lokacija**](../Šifranti/Lokacije.md) | Skladiščna lokacija, kamor bo material shranjen. |
+| [**Izvorna lokacija**](../Sifranti/Lokacije.md) | Skladiščna lokacija v izvor­nem skladišču. |
+| [**Ciljna lokacija**](../Sifranti/Lokacije.md) | Skladiščna lokacija, kamor bo material shranjen. |
 | **Količina (kos)** | Količina, ki se prenaša. |
 
 ## Seznam dokumentov med-skladiščnega prometa

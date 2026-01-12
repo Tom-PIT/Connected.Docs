@@ -1,8 +1,8 @@
 # Pogled zaloge po lokacijah
 
-Pogled **Pogled zaloge po lokacijah** prikazuje vse materiale, shranjene na določeni [skladiščni lokaciji](../Šifranti/Lokacije.md). Zagotavlja jasen pregled **skupnih**, **rezerviranih**, **blokiranih** in **razpoložljivih** količin na izbrani lokaciji. To pomaga razumeti porazdelitev zaloge ter ugotoviti, ali je potrebno prilagoditi kapaciteto ali organizacijo skladiščenja.
+Pogled **Pogled zaloge po lokacijah** prikazuje vse materiale, shranjene na določeni [skladiščni lokaciji](../Sifranti/Lokacije.md). Zagotavlja jasen pregled **skupnih**, **rezerviranih**, **blokiranih** in **razpoložljivih** količin na izbrani lokaciji. To pomaga razumeti porazdelitev zaloge ter ugotoviti, ali je potrebno prilagoditi kapaciteto ali organizacijo skladiščenja.
 
-Do povezanih pogledov — kot sta **[Pogled zaloge po materialu](../Dokumenti/Zaloga.md#pogled-zaloge-po-materialu)** ali **[Pogled zaloge po serijski številki](../Dokumenti/Zaloga.md#pogled-zaloge-po-serijski-stevilki)** — lahko dostopate za vpogled v to, kako so postavke prispele na to lokacijo ali kje drugje so še shranjene. Pravila minimalne in maksimalne zaloge je mogoče določiti v šifrantu **[Meje zaloge](../Šifranti/MejeZaloge.md)**, širše stanje zaloge pa si lahko ogledate na **[Nadzorni plošči](../Dokumenti/NadzornaPlosca.md)**.
+Do povezanih pogledov — kot sta **[Pogled zaloge po materialu](../Dokumenti/Zaloga.md#pogled-zaloge-po-materialu)** ali **[Pogled zaloge po serijski številki](../Dokumenti/Zaloga.md#pogled-zaloge-po-serijski-stevilki)** — lahko dostopate za vpogled v to, kako so postavke prispele na to lokacijo ali kje drugje so še shranjene. Pravila minimalne in maksimalne zaloge je mogoče določiti v šifrantu **[Meje zaloge](../Sifranti/MejeZaloge.md)**, širše stanje zaloge pa si lahko ogledate na **[Nadzorni plošči](../Dokumenti/NadzornaPlosca.md)**.
 
 > [!TIP]
 > Za celoten prikaz si oglejte video vodič  

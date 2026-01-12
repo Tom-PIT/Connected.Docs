@@ -1,4 +1,4 @@
-﻿# Oznake imenika
+# Oznake imenika
 
 Šifrant **Oznake imenika** določa oznake, ki jih je mogoče dodeliti **člankom baze znanja**.  
 Oznake pomagajo pri kategorizaciji vsebine ter izboljšajo iskanje in filtriranje v [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
@@ -22,7 +22,7 @@ Za dostop pojdite na **Znanje / Upravljanje / Oznake imenika** v [navigaciji](..
 Seznam prikazuje vse definirane oznake.
 
 Vsaka vrstica prikazuje:
-- **Oznaka** – ime oznake, uporabljene za razvrščanje [člankov](Članki.md)
+- **Oznaka** – ime oznake, uporabljene za razvrščanje [člankov](Clanki.md)
 
 Na voljo je **iskalno polje** za hitro filtriranje oznak po imenu.
 
@@ -40,7 +40,7 @@ Vnesite zahtevano **ime oznake**.
 
 Kliknite **Dodaj**, da shranite oznako.
 
-Oznaka je takoj na voljo za uporabo v [člankih](Članki.md).
+Oznaka je takoj na voljo za uporabo v [člankih](Clanki.md).
 
 ## Urejanje obstoječe oznake
 
@@ -68,6 +68,6 @@ Kliknite **Izbriši**, da odprete potrditveno pogovorno okno:
 
 - **[Baza znanja](../BazaZnanja/BazaZnanja.md)**  
 - **[Imeniki](Imeniki.md)**  
-- **[Članki](Članki.md)**
+- **[Članki](Clanki.md)**
 
 ---

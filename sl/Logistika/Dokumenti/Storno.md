@@ -23,7 +23,7 @@ Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [naviga
 |-------|------|
 | **Vrsta dokumenta** | Vrsta dokumenta, ki se razveljavlja ([prevzem](Prevzemi.md), [izdajnica](Izdajnice.md), [odpis](Odpisi.md), [med-skladiščni promet](MedSkladiscniPromet.md)). |
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Koda razveljavljenega dokumenta (klikljiva). |
-| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, v katerem je bil izvirni dokument izveden. |
+| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem je bil izvirni dokument izveden. |
 | **Datum dokumenta** | Datum izvirnega dokumenta. |
 
 ### Razdelek dokumenta
@@ -37,8 +37,8 @@ Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [naviga
 
 | Polje | Opis |
 |-------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se razveljavlja ([izdelek](../../Sredstva/Šifranti/Izdelki.md), [polizdelek](../../Sredstva/Šifranti/Polizdelki.md), [surovina](../../Sredstva/Šifranti/Surovine.md) ali [repro material](../../Sredstva/Šifranti/ReproMateriali.md)). |
-| [**Lokacija**](../Šifranti/Lokacije.md) | Skladiščna lokacija razveljavljene zaloge. |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se razveljavlja ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
+| [**Lokacija**](../Sifranti/Lokacije.md) | Skladiščna lokacija razveljavljene zaloge. |
 | **Izvorna količina** | Količina, obdelana v razveljavljenem dokumentu. |
 | **Količina (kos)** | Količina za razveljavitev — **urejanje dovoljeno**, za delno ali polno razveljavitev. |
 

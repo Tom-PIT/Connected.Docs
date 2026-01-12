@@ -58,8 +58,8 @@ Upravljanje vključuje naslednja konfiguracijska področja:
 
 **Imeniki** določajo glavno strukturo **Baze znanja**. Vsak imenik predstavlja **temo ali kategorijo** in lahko vsebuje:
 
-- [Članke](../Šifranti/Članki.md)  
-- [Kazalo](../Šifranti/Kazalo.md) (strukturirano navigacijo)  
+- [Članke](../Sifranti/Clanki.md)  
+- [Kazalo](../Sifranti/Kazalo.md) (strukturirano navigacijo)  
 - priloge  
 
 Imeniki omogočajo logično združevanje vsebine (npr. kadrovske smernice, proizvodna navodila, IT dokumentacija).
@@ -80,7 +80,7 @@ Oznake se običajno uporabljajo za:
 - filtriranje v **Bazi znanja**  
 - povezovanje sorodne vsebine med imeniki  
 
-Oznake so skupne celotni domeni Znanje in jih uporabljajo različni imeniki in članki. Glejte [Oznake imenika](../Šifranti/OznakeImenika.md).
+Oznake so skupne celotni domeni Znanje in jih uporabljajo različni imeniki in članki. Glejte [Oznake imenika](../Sifranti/OznakeImenika.md).
 
 ## Potek dela v domeni Znanje
 
@@ -90,7 +90,7 @@ Domena Znanje običajno sledi naslednjemu življenjskemu ciklu:
 Imeniki in oznake imenika se definirajo v razdelku **Upravljanje**.
 
 ### **2. Ustvarjanje vsebine**
-[Članki](../Šifranti/Članki.md) se ustvarijo, dodelijo imenikom ter po potrebi označijo in obogatijo s prilogami.
+[Članki](../Sifranti/Clanki.md) se ustvarijo, dodelijo imenikom ter po potrebi označijo in obogatijo s prilogami.
 
 ### **3. Objavljanje**
 Članki se objavijo in postanejo vidni v **Bazi znanja** glede na svoje stanje in časovno veljavnost.
@@ -116,9 +116,9 @@ Domena Znanje dopolnjuje operativne domene z **jasno in dostopno dokumentacijo**
 ## Povezano
 
 - **[Baza znanja](../BazaZnanja/BazaZnanja.md)** – brskanje po objavljeni dokumentaciji  
-- **[Imeniki](../Šifranti/Imeniki.md)** – upravljanje vsebinskih vsebnikov  
-- **[Članki](../Šifranti/Članki.md)** – ustvarjanje in vzdrževanje vsebine  
-- **[Oznake imenika](../Šifranti/OznakeImenika.md)** – definicija oznak za filtriranje  
-- **[Kazalo](../Šifranti/Kazalo.md)** – nastavitev navigacije znotraj imenikov  
+- **[Imeniki](../Sifranti/Imeniki.md)** – upravljanje vsebinskih vsebnikov  
+- **[Članki](../Sifranti/Clanki.md)** – ustvarjanje in vzdrževanje vsebine  
+- **[Oznake imenika](../Sifranti/OznakeImenika.md)** – definicija oznak za filtriranje  
+- **[Kazalo](../Sifranti/Kazalo.md)** – nastavitev navigacije znotraj imenikov  
 
 ---

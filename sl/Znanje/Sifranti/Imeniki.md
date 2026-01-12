@@ -29,7 +29,7 @@ Vsaka vrstica prikazuje:
 - **Imenik** – ime imenika
 - **Povezave** za upravljanje:
   - **[Kazalo](Kazalo.md)**
-  - **[Članki](Članki.md)**
+  - **[Članki](Clanki.md)**
 
 Levo od imena imenika je prikazan indikator stanja:
 - **Modra** – omogočen / aktiven imenik
@@ -63,7 +63,7 @@ Po ustvarjanju postane imenik na voljo v [**bazi znanja**](../BazaZnanja/BazaZna
 
 Po ustvarjanju imenika so na voljo dodatne možnosti neposredno iz seznama:
 
-- **[Članki](Članki.md)** – upravljanje člankov v imeniku  
+- **[Članki](Clanki.md)** – upravljanje člankov v imeniku  
 - **[Kazalo](Kazalo.md)** – določanje navigacijske strukture znotraj imenika  
 
 ![Povezave imenika](../Images/DirectoriesLinks.png "Povezave imenika")
@@ -97,7 +97,7 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 ## Povezano
 
 - **[Baza znanja](../BazaZnanja/BazaZnanja.md)**  
-- **[Članki](Članki.md)**  
+- **[Članki](Clanki.md)**  
 - **[Kazalo](Kazalo.md)**  
 - **[Oznake imenika](OznakeImenika.md)**
 

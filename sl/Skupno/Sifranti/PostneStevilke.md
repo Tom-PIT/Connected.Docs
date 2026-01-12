@@ -1,6 +1,6 @@
 # Poštne številke
 
-**Poštne številke** pripadajo določeni **državi** in se upravljajo znotraj šifranta [**Države**](Države.md). Določajo razpoložljiva poštna območja, ki se uporabljajo pri vnosu naslovov v Poslovnem imeniku ali logističnih dokumentih.
+**Poštne številke** pripadajo določeni **državi** in se upravljajo znotraj šifranta [**Države**](Drzave.md). Določajo razpoložljiva poštna območja, ki se uporabljajo pri vnosu naslovov v Poslovnem imeniku ali logističnih dokumentih.
 
 ## Dostop do poštnih številk
 

@@ -49,7 +49,7 @@ Kliknite komponento v seznamu garniture, da spremenite njeno količino ali jo za
 
 ## Povezane operacije
 
-Garniture so povezane z **[Razstavljanjem](../../Logistika/Dokumenti/Razstavljanje.md)**.  
+Garniture so povezane z **[Demontaže](../../Logistika/Dokumenti/Demontaze.md)**.  
 Garnituro lahko razstavite, na primer ob prevzemu, če želite posamezne komponente uporabiti ali prodati ločeno. Razstavljanje ustvari logistične dokumente, ki odstranijo garnituro iz zaloge in hkrati vnesejo njene komponente v zalogo glede na definirane količine.
 
 ## Brisanje

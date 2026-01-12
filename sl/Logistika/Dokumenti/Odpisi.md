@@ -17,17 +17,17 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta odpisa. |
 | **Datum dokumenta** | Datum, ko je odpis zabeležen. |
-| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega se materiali odpisujejo (obvezno). |
+| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega se materiali odpisujejo (obvezno). |
 | **Razlog** | Opis razloga za odstranitev materiala (poškodba, izguba, pretečen rok itd.). |
 
 ### Razdelek postavk
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se odpisuje ([izdelek](../../Sredstva/Šifranti/Izdelki.md), [polizdelek](../../Sredstva/Šifranti/Polizdelki.md), [surovina](../../Sredstva/Šifranti/Surovine.md) ali [repro material](../../Sredstva/Šifranti/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se odpisuje ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
 | **Serijska številka** | Serijska številka prizadete enote. |
 | **Rok uporabe** | Datum roka uporabe (če je relevanten). |
-| [**Skladiščna lokacija**](../Šifranti/Lokacije.md) | Lokacija, kjer je material shranjen. |
+| [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Lokacija, kjer je material shranjen. |
 | **Količina (kos)** | Število kosov za odpis. Privzeta vrednost je celotna razpoložljiva količina na lokaciji, vendar jo je potrebno prilagoditi dejanskemu stanju. |
 
 ## Seznam dokumentov odpisa

@@ -21,10 +21,10 @@ Za dostop do domene **Kvaliteta** se pomaknite na **Kvaliteta** v [navigaciji](.
 Domena je strukturirana v dve funkcionalni področji:
 
 - **Upravljanje** – konfiguracija in vzdrževanje definicij kontrolnih seznamov, ki se uporabljajo v proizvodnji in vzdrževanju.
-  - [**Kontrolni seznami**](../../Proizvodnja/Šifranti/KontrolniSeznami.md) — upravljanje predlog kontrolnih seznamov (struktura, koraki, kriteriji in mejne vrednosti). Gre za isti šifrant, ki je na voljo v domeni [Proizvodnja](../../Proizvodnja/Domena/DomenaProizvodnja.md) in se tam tudi centralno vzdržuje.
+  - [**Kontrolni seznami**](../../Proizvodnja/Sifranti/KontrolniSeznami.md) — upravljanje predlog kontrolnih seznamov (struktura, koraki, kriteriji in mejne vrednosti). Gre za isti šifrant, ki je na voljo v domeni [Proizvodnja](../../Proizvodnja/Domena/DomenaProizvodnja.md) in se tam tudi centralno vzdržuje.
 
 > [!NOTE]
-> Urejanje predlog kontrolnih seznamov se izvaja v proizvodnem šifrantu: [Kontrolni seznami](../../Proizvodnja/Šifranti/KontrolniSeznami.md). Domena **Kvaliteta** se osredotoča na spremljanje aktivnih in zaključenih izvajanj.
+> Urejanje predlog kontrolnih seznamov se izvaja v proizvodnem šifrantu: [Kontrolni seznami](../../Proizvodnja/Sifranti/KontrolniSeznami.md). Domena **Kvaliteta** se osredotoča na spremljanje aktivnih in zaključenih izvajanj.
 
 - **Pogledi** – upravljanje in analiza izvajanj kontrolnih seznamov v realnem času ter zgodovinskih podatkov.
   - [**Aktivne kontrolne liste**](../Pregledi/AktivneKontrolneListe.md) — pregled vseh kontrolnih seznamov, ki so trenutno v teku ali čakajo na zaključek. Tipični stolpci vključujejo ime kontrolnega seznama, proces/sredstvo, odgovorno osebo, čas začetka, rok in status. Pogosta dejanja: odpiranje zapisa, nadaljevanje izvajanja ali označitev kot zaključenega (glede na dovoljenja).
