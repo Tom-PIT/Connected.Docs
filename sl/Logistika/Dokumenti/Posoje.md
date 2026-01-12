@@ -16,7 +16,7 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta posoje. |
 | **Datum dokumenta** | Datum, ko je dokument posoje ustvarjen. |
-| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, iz katerega se material posodi (obvezno). |
+| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega se material posodi (obvezno). |
 | **Kontakt** | Stranka ali partner, ki prejme material, izbran iz [Poslovnega imenika](../../Skupno/Šifranti/PoslovniImenik.md) (obvezno). |
 | **Opombe** | Neobvezne opombe, povezane s posojo. |
 

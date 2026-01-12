@@ -20,7 +20,7 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [na
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator izdajnice. |
 | **Datum dokumenta** | Datum ustvarjanja izdajnice. |
-| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, iz katerega se blago izdaja (obvezno). |
+| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega se blago izdaja (obvezno). |
 | **Kupec** | Kupec, ki prejme blago, izbran iz [Poslovnega imenika](../../Skupno/Šifranti/PoslovniImenik.md) (obvezno). |
 | **Opombe** | Dodatne opombe, povezane z dokumentom. |
 

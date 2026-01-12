@@ -17,7 +17,7 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta odpisa. |
 | **Datum dokumenta** | Datum, ko je odpis zabeležen. |
-| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, iz katerega se materiali odpisujejo (obvezno). |
+| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega se materiali odpisujejo (obvezno). |
 | **Razlog** | Opis razloga za odstranitev materiala (poškodba, izguba, pretečen rok itd.). |
 
 ### Razdelek postavk

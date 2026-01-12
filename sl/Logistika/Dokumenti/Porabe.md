@@ -16,7 +16,7 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaci
 |-------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Enolični identifikator dokumenta porabe (samodejno generiran). |
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
-| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, iz katerega so bili materiali porabljeni. |
+| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega so bili materiali porabljeni. |
 
 ### Razdelek postavk
 

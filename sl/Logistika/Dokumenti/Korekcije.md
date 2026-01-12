@@ -17,7 +17,7 @@ Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [na
 | Polje | Opis |
 |-------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta korekcije. |
-| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, na katero se korekcija nanaša (obvezno). |
+| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, na katero se korekcija nanaša (obvezno). |
 | **Datum dokumenta** | Datum dokumenta korekcije. |
 
 ### Podrobnosti
