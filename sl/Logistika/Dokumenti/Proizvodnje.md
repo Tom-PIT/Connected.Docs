@@ -14,7 +14,7 @@ Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** 
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta proizvodnje. |
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
-| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, v katerem so bile knjižene proizvedene postavke. |
+| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, v katerem so bile knjižene proizvedene postavke. |
 
 ### Razdelek postavk
 

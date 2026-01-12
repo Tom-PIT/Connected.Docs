@@ -28,7 +28,7 @@ Domena je strukturirana v dve funkcionalni področji:
 
 - **Pogledi** – upravljanje in analiza izvajanj kontrolnih seznamov v realnem času ter zgodovinskih podatkov.
   - [**Aktivne kontrolne liste**](../Pregledi/AktivneKontrolneListe.md) — pregled vseh kontrolnih seznamov, ki so trenutno v teku ali čakajo na zaključek. Tipični stolpci vključujejo ime kontrolnega seznama, proces/sredstvo, odgovorno osebo, čas začetka, rok in status. Pogosta dejanja: odpiranje zapisa, nadaljevanje izvajanja ali označitev kot zaključenega (glede na dovoljenja).
-  - [**Zaključene kontrolne liste**](../Pregledi/ZaključeneKontrolneListe.md) — pregled zaključenih kontrolnih seznamov z rezultati, časovnimi žigi, odgovornimi uporabniki in morebitnimi zabeleženimi neskladnostmi. Podpira filtriranje (časovna obdobja, procesi, organizacijske enote, rezultati) in izvoz za potrebe revizij.
+  - [**Zaključene kontrolne liste**](../Pregledi/ZakljuceneKontrolneListe.md) — pregled zaključenih kontrolnih seznamov z rezultati, časovnimi žigi, odgovornimi uporabniki in morebitnimi zabeleženimi neskladnostmi. Podpira filtriranje (časovna obdobja, procesi, organizacijske enote, rezultati) in izvoz za potrebe revizij.
 
 ![Pogledi domene Kvaliteta](../Images/QualityDomainViews.png "Pogledi domene Kvaliteta")
 

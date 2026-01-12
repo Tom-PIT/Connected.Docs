@@ -2,7 +2,7 @@
 
 Dokument **Med-skladiščni promet** se uporablja za prenos materialov iz enega skladišča v drugo. Uporaben je, kadar je potrebno zalogo premakniti med lokacijami — na primer prenos artiklov iz **glavnega skladišča** v **centralno skladišče** ali prenos **komponent** v oddaljeno skladišče.
 
-Postopek prenosa omogoča skeniranje ali iskanje materialov, izbiro ciljnega [skladišča](../Šifranti/Skladišča.md) in [lokacije](../Šifranti/Lokacije.md) ter prilagajanje količin, ki se prenašajo. Ob objavi dokumenta se stanje zaloge samodejno posodobi v obeh skladiščih, kar zagotavlja pravilne količine na vsaki lokaciji.
+Postopek prenosa omogoča skeniranje ali iskanje materialov, izbiro ciljnega [skladišča](../Šifranti/Skladisca.md) in [lokacije](../Šifranti/Lokacije.md) ter prilagajanje količin, ki se prenašajo. Ob objavi dokumenta se stanje zaloge samodejno posodobi v obeh skladiščih, kar zagotavlja pravilne količine na vsaki lokaciji.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Med-skladiščni promet](https://www.youtube.com/watch?v=xtyKDh7_qgI)**.
@@ -17,8 +17,8 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta med-skladiščnega prometa. |
 | **Datum dokumenta** | Datum, ko je prenos zabeležen. |
-| [**Izvorno skladišče**](../Šifranti/Skladišča.md) | Skladišče, iz katerega bodo materiali odstranjeni. |
-| [**Ciljno skladišče**](../Šifranti/Skladišča.md) | Skladišče, v katerem bodo materiali prevzeti. |
+| [**Izvorno skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega bodo materiali odstranjeni. |
+| [**Ciljno skladišče**](../Šifranti/Skladisca.md) | Skladišče, v katerem bodo materiali prevzeti. |
 | **Opombe** | Dodatne opombe, povezane z dokumentom. |
 
 ### Razdelek postavk

@@ -20,7 +20,7 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator inventurnega dokumenta. |
 | **Datum dokumenta** | Datum, ko je inventura izvedena ali zabeležena. |
-| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, v katerem se izvaja inventura. |
+| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, v katerem se izvaja inventura. |
 | [**Lokacija**](../Šifranti/Lokacije.md) | Konkretna lokacija znotraj skladišča, ki se preverja. |
 
 ### Razdelek postavk

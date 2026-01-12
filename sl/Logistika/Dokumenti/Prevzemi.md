@@ -21,7 +21,7 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator prevzemnega dokumenta. |
 | **Datum dokumenta** | Datum, ko je bilo blago fizično prevzeto. |
-| [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, v katerega se materiali prevzemajo (obvezno). |
+| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, v katerega se materiali prevzemajo (obvezno). |
 | **Dobavitelj** | Dobavitelj blaga, izbran iz [Poslovnega imenika](../../Skupno/Šifranti/PoslovniImenik.md) (obvezno). |
 | **Dobavni nalog** | (Neobvezno) Povezan dobavni nalog. |
 | **Opombe** | Dodatne opombe, povezane z dokumentom. |

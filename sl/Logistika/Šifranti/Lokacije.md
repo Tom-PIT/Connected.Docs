@@ -1,6 +1,6 @@
 # Lokacije
 
-Ta šifrant predstavlja **skladiščne lokacije** znotraj posameznih [skladišč](Skladišča.md). Vsaka lokacija določa specifično območje ali podrazdelek, kot so regal, polica ali predal, ter omogoča natančno organizacijo in sledenje materialov znotraj skladišča.
+Ta šifrant predstavlja **skladiščne lokacije** znotraj posameznih [skladišč](Skladisca.md). Vsaka lokacija določa specifično območje ali podrazdelek, kot so regal, polica ali predal, ter omogoča natančno organizacijo in sledenje materialov znotraj skladišča.
 
 Za dostop do tega šifranta pojdite na  
 **Logistika / Upravljanje / Lokacije** v [navigaciji](../../Skupno/UI/Navigacija.md).
@@ -52,7 +52,7 @@ Kliknite **Prekliči**, da se vrnete na seznam brez uvoza.
 
 > [!NOTE]
 > Vsaka lokacija je vezana na **skladišče**, zato se prepričajte, da vsa referencirana  
-> [**skladišča**](Skladišča.md) že obstajajo v sistemu.
+> [**skladišča**](Skladisca.md) že obstajajo v sistemu.
 
 #### Primer strukture CSV
 
