@@ -11,8 +11,7 @@ Med postopkom izdaje poiščete ali skenirate postavke, ki jih želite izdati, p
 > Za celovit prikaz si oglejte video vodič  
 > **[Izdajnice](https://www.youtube.com/watch?v=SrVyblBiLmQ)**.
 
-Za dostop do **Izdajnic** pojdite na  
-**Logistika / Dokumenti / Izdajnice** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -20,7 +19,7 @@ Za dostop do **Izdajnic** pojdite na
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemom generiran enolični identifikator izdajnice. |
+| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator izdajnice. |
 | **Datum dokumenta** | Datum ustvarjanja izdajnice. |
 | [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, iz katerega se blago izdaja (obvezno). |
 | **Kupec** | Kupec, ki prejme blago, izbran iz [Poslovnega imenika](../../Skupno/Šifranti/PoslovniImenik.md) (obvezno). |

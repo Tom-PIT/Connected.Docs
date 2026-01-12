@@ -12,8 +12,7 @@ Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../.
 > Za celovit prikaz si oglejte video vodič  
 > **[Prevzemi](https://www.youtube.com/watch?v=oTOYD-nlCqE)**.
 
-Za dostop do **Prevzemov** pojdite na  
-**Logistika / Dokumenti / Prevzemi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ---
 
@@ -23,7 +22,7 @@ Za dostop do **Prevzemov** pojdite na
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemom generiran enolični identifikator prevzemnega dokumenta. |
+| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator prevzemnega dokumenta. |
 | **Datum dokumenta** | Datum, ko je bilo blago fizično prevzeto. |
 | [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, v katerega se materiali prevzemajo (obvezno). |
 | **Dobavitelj** | Dobavitelj blaga, izbran iz [Poslovnega imenika](../../Skupno/Šifranti/PoslovniImenik.md) (obvezno). |

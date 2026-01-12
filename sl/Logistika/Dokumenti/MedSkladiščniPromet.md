@@ -8,8 +8,7 @@ Postopek prenosa omogoča skeniranje ali iskanje materialov, izbiro ciljnega [sk
 > Za celovit prikaz si oglejte video vodič  
 > **[Med-skladiščni promet](https://www.youtube.com/watch?v=xtyKDh7_qgI)**.
 
-Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na  
-**Logistika / Dokumenti / Med-skladiščni promet** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / Dokumenti / Med-skladiščni promet** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -17,7 +16,7 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemom generiran enolični identifikator dokumenta med-skladiščnega prometa. |
+| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta med-skladiščnega prometa. |
 | **Datum dokumenta** | Datum, ko je prenos zabeležen. |
 | [**Izvorno skladišče**](../Šifranti/Skladišča.md) | Skladišče, iz katerega bodo materiali odstranjeni. |
 | [**Ciljno skladišče**](../Šifranti/Skladišča.md) | Skladišče, v katerem bodo materiali prevzeti. |

@@ -2,19 +2,15 @@
 
 Dokument **Inventura** se uporablja za preverjanje in popravljanje zalog na določeni skladiščni lokaciji. Sistem primerja **teoretično zalogo**, zabeleženo v sistemu, z **dejansko zalogo**, ki je fizično prisotna na lokaciji. Če se ugotovijo razlike, lahko količine posodobite in dokument objavite, s čimer se zaloga ustrezno prilagodi.
 
-Inventura se izvaja **po lokacijah** in prikaže vse materiale, shranjene na izbrani lokaciji, skupaj z indikatorji manjkajočih ali presežnih količin. Za razumevanje nastanka zaloge lahko neposredno odprete:
-- **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)**
-- **[Pogled zaloge po serijski številki](../Pregledi/PogledZalogePoSerijskiStevilki.md)**
+Inventura se izvaja **po lokacijah** in prikaže vse materiale, shranjene na izbrani lokaciji, skupaj z indikatorji manjkajočih ali presežnih količin. Za razumevanje nastanka zaloge lahko neposredno odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** ali **Pogled zaloge po serijski številki**.
 
 Minimalni in maksimalni pragovi, prikazani v povzetkih, se nastavijo v šifrantu  
 **[Meje zaloge](../Šifranti/MejeZaloge.md)**.
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič  
-> **[Inventura](https://www.youtube.com/watch?v=Rc4qqTdxKn8)**.
+> Za celovit prikaz si oglejte video vodič **[Inventura](https://www.youtube.com/watch?v=Rc4qqTdxKn8)**.
 
-Za dostop do **Inventur** pojdite na  
-**Logistika / Dokumenti / Inventure** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -22,7 +18,7 @@ Za dostop do **Inventur** pojdite na
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemom generiran enolični identifikator inventurnega dokumenta. |
+| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator inventurnega dokumenta. |
 | **Datum dokumenta** | Datum, ko je inventura izvedena ali zabeležena. |
 | [**Skladišče**](../Šifranti/Skladišča.md) | Skladišče, v katerem se izvaja inventura. |
 | [**Lokacija**](../Šifranti/Lokacije.md) | Konkretna lokacija znotraj skladišča, ki se preverja. |
