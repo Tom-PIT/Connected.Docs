@@ -9,8 +9,7 @@ Dokument **Prevzem** se uporablja za evidentiranje prihoda materialov v skladiš
 Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../../Sredstva/Šifranti/Pakiranje.md), količina, serijske številke, rok uporabe in [skladiščna lokacija](../Šifranti/Lokacije.md). To zagotavlja natančno stanje zaloge in popolno sledljivost materialov od trenutka vstopa v skladišče.
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič  
-> **[Prevzemi](https://www.youtube.com/watch?v=oTOYD-nlCqE)**.
+> Za celovit prikaz si oglejte video vodič [Prevzemi](https://www.youtube.com/watch?v=oTOYD-nlCqE)**.
 
 Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [navigaciji](../../Skupno/UI/Navigacija.md).
 

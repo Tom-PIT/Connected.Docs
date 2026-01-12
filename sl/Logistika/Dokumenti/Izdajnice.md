@@ -8,8 +8,7 @@ Dokument **Izdajnica** se uporablja za evidentiranje blaga, ki zapušča skladi�
 Med postopkom izdaje poiščete ali skenirate postavke, ki jih želite izdati, potrdite pravilne serijske številke ali serije ter vnesete količine. To zagotavlja natančno posodobitev zaloge in popolno sledljivost vsake izdaje.
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič  
-> **[Izdajnice](https://www.youtube.com/watch?v=SrVyblBiLmQ)**.
+> Za celovit prikaz si oglejte video vodič **[Izdajnice](https://www.youtube.com/watch?v=SrVyblBiLmQ)**.
 
 Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
