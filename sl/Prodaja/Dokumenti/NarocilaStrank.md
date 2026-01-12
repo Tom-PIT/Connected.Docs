@@ -55,11 +55,11 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 
 Dokumenti v svojem življenjskem ciklu prehajajo skozi naslednje statuse:
 
-- **Osnutek** – Dokument še ni objavljen; vsa polja so prosto uredljiva.
-- **Potrjeno** – Dokument je objavljen; ni ga mogoče izbrisati ali prosto spreminjati.
+- **Osnutki** – Dokument še ni objavljen; vsa polja so prosto uredljiva.
+- **Obdelan** – Dokument je objavljen; ni ga mogoče izbrisati ali prosto spreminjati.
   - **Na voljo** – Dokument je veljaven in pripravljen za nadaljnjo obdelavo.
   - **V zaključevanju** – Dokument je delno obdelan (npr. delno dobavljen).
-  - **Zaključeno** – Vsa dejanja, povezana z dokumentom, so zaključena.
+  - **Zaključen** – Vsa dejanja, povezana z dokumentom, so zaključena.
 
 ### Seznam
 
@@ -81,7 +81,7 @@ Na vrhu seznama sistem prikazuje povzetne kazalnike glede na trenutno uporabljen
 Filtri vključujejo:
 - **Datumi dokumentov**
 - **Osnutki**
-- **Potrjeno:** Na voljo, V zaključevanju, Zaključeno
+- **Obdelan:** Na voljo, V zaključevanju, Zaključen
 - **Stranka**
 - **Poslovni vnos**
 - **Iskalno polje**
