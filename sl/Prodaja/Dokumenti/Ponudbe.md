@@ -47,11 +47,11 @@ Tipičen potek:
 
 Dokumenti v svojem življenjskem ciklu prehajajo med naslednjimi statusi:
 
-- **Osnutek** – Dokument še ni objavljen; vsa polja so prosto uredljiva.
-- **Potrjeno** – Dokument je objavljen; ni ga mogoče izbrisati ali prosto spreminjati.
+- **Osnutki** – Dokument še ni objavljen; vsa polja so prosto uredljiva.
+- **Obdelan** – Dokument je objavljen; ni ga mogoče izbrisati ali prosto spreminjati.
   - **Na voljo** – Dokument je veljaven in pripravljen za nadaljnjo obdelavo.
   - **V zaključevanju** – Dokument je delno obdelan (npr. delno dobavljen).
-  - **Zaključeno** – Vsa dejanja, povezana z dokumentom, so izvedena.
+  - **Zaključen** – Vsa dejanja, povezana z dokumentom, so izvedena.
 
 ### Seznam
 
@@ -99,7 +99,7 @@ Primer seznama **Zaključenih** ponudb:
    ![Ponudbe na voljo](../Images/OfferListAvailable.png "Ponudbe na voljo")
 
 > [!NOTE]
-> S klikom na **Objavi** se dokument potrdi in preide iz statusa **Osnutek** v skupino statusov **Potrjeno**.
+> S klikom na **Objavi** se dokument potrdi in preide iz statusa **Osnutek** v skupino statusov **Obdelan**.
 
 ### Urejanje ponudbe
 

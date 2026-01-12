@@ -52,9 +52,9 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 Izdani računi uporabljajo plačilno osnovane statuse:
 
-- **Osnutek** – Račun še ni objavljen; vsa polja so prosto uredljiva.
+- **Osnutki** – Račun še ni objavljen; vsa polja so prosto uredljiva.
 
-- **Potrjeno** – Račun je objavljen in postane uradni finančni dokument. Po potrditvi je mogoče spreminjati le omejena polja, dokumenta pa ni mogoče izbrisati.
+- **Obdelan** – Račun je objavljen in postane uradni finančni dokument. Po potrditvi je mogoče spreminjati le omejena polja, dokumenta pa ni mogoče izbrisati.
 
   - **Neplačani računi** – Račun je izdan, vendar plačila še niso evidentirana.  
   - **Delno plačani računi** – Evidentirano je eno ali več plačil, vendar ostaja odprt znesek.  
@@ -82,7 +82,7 @@ Kazalniki se posodabljajo glede na izbrane filtre:
 - **Datum zapadlosti**
 - **Pogled**  
   - **Osnutki**  
-  - **Potrjeno**  
+  - **Obdelan**  
   - **Neplačani računi**  
   - **Delno plačani računi**  
   - **V celoti plačani računi**  

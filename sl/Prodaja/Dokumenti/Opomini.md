@@ -35,7 +35,7 @@ Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestil
 Seznam opominov omogoča pregled vseh dokumentov, razdeljenih v skupini:
 
 - **Osnutki** – Dokument še ni objavljen; vsa polja so prosto uredljiva.
-- **Potrjeno** – Dokument je objavljen; ni ga mogoče izbrisati ali urejati.
+- **Obdelan** – Dokument je objavljen; ni ga mogoče izbrisati ali urejati.
 
 ![Seznam opominov](../Images/OverdueRemindersList.png "Seznam opominov")
 
@@ -69,7 +69,7 @@ Filtri na levi strani omogočajo omejevanje seznama po:
 5. Ko je opomin pripravljen, kliknite **Objavi** na vrhu strani.
 
 > [!NOTE]
-> S klikom na **Objavi** se dokument potrdi in premakne iz stanja **Osnutek** v skupino **Potrjeno**.
+> S klikom na **Objavi** se dokument potrdi in premakne iz stanja **Osnutek** v skupino **Obdelan**.
 
 ## Urejanje opomina
 
