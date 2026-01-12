@@ -62,7 +62,7 @@ Zapisi o partnerjih so skupni vsem komercialnim procesom.
 
 - **[Poslovni imenik](../Sifranti/PoslovniImenik.md)** – skupni imenik kupcev, dobaviteljev in poslovnih subjektov.  
 - **[Banke](../Sifranti/Banke.md)** – definicije bank, uporabljene pri plačilnih navodilih.  
-- **[Bančni računi organizacije](../../Prodaja/Sifranti/BančniRačuniOrganizacije.md)** – interni bančni računi podjetja za izdajanje računov.
+- **[Bančni računi organizacije](../../Prodaja/Sifranti/BancniRacuniOrganizacije.md)** – interni bančni računi podjetja za izdajanje računov.
 
 Ti zapisi zagotavljajo enotno identifikacijo poslovnih partnerjev v vseh domenah.
 
@@ -70,7 +70,7 @@ Ti zapisi zagotavljajo enotno identifikacijo poslovnih partnerjev v vseh domenah
 
 Te nastavitve omogočajo enotno oblikovanje in vedenje dokumentov.
 
-- **[Vnaprej določena besedila](../Sifranti/VnaprejDoločenaBesedila.md)** – ponovno uporabljiva besedila za ponudbe, račune, dobavnice in nabavne dokumente.
+- **[Vnaprej določena besedila](../Sifranti/VnaprejDolocenaBesedila.md)** – ponovno uporabljiva besedila za ponudbe, račune, dobavnice in nabavne dokumente.
 
 ## Zakaj morajo biti šifranti Skupno konfigurirani najprej
 
