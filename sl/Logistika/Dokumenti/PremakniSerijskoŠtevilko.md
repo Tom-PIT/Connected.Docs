@@ -6,8 +6,8 @@ Za razliko od celotnega dokumenta
 [**Med-skladiščni promet**](MedSkladiscniPromet.md) se **Premakni serijsko številko** osredotoča izključno na premik **ene serijsko vodene enote** znotraj skladiščne strukture.
 
 Za boljši pregled trenutnega stanja in zgodovine premikov lahko odprete:
-- [**Pogled zaloge po materialu**](Pregledi/Zaloga.md#pogled-zaloge-po-materialu)
-- [**Pogled zaloge po serijski številki**](Pregledi/Zaloga.md#pogled-zaloge-po-serijski-stevilki)
+- [**Pogled zaloge po materialu**](Zaloga.md#pogled-zaloge-po-materialu)
+- [**Pogled zaloge po serijski številki**](Zaloga.md#pogled-zaloge-po-serijski-stevilki)
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Premakni serijsko številko](https://www.youtube.com/watch?v=dy1u6sKmdMg)**.
