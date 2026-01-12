@@ -1,6 +1,6 @@
 # Surovine
 
-**Surovine** so osnovni materiali, ki se uporabljajo v proizvodnih procesih ali se kupujejo za interno uporabo. Mednje sodijo les, kovinske plošče, tkanine, kemikalije ali kateri koli drug vhodni material, potreben za izdelavo končnih izdelkov. Vsaka surovina vsebuje ključne podatke – kot so [merske enote](../../Skupno/Šifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Šifranti/DavčneStopnje.md), rok uporabe ali [pakiranje](Pakiranje.md) – kar omogoča dosledno upravljanje v celotnem sistemu.
+**Surovine** so osnovni materiali, ki se uporabljajo v proizvodnih procesih ali se kupujejo za interno uporabo. Mednje sodijo les, kovinske plošče, tkanine, kemikalije ali kateri koli drug vhodni material, potreben za izdelavo končnih izdelkov. Vsaka surovina vsebuje ključne podatke – kot so [merske enote](../../Skupno/Sifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Sifranti/DavcneStopnje.md), rok uporabe ali [pakiranje](Pakiranje.md) – kar omogoča dosledno upravljanje v celotnem sistemu.
 
 Ta šifrant predstavlja register vseh surovin znotraj strukture materialov.
 
@@ -11,8 +11,8 @@ Ta šifrant predstavlja register vseh surovin znotraj strukture materialov.
 > [!NOTE]  
 > **Predpogoji**  
 > Pred upravljanjem surovin zagotovite, da so naslednji šifranti pravilno nastavljeni:  
-> - [**Merske enote**](../../Skupno/Šifranti/MerskeEnote.md)  
-> - [**Davčne stopnje**](../../Skupno/Šifranti/DavčneStopnje.md)
+> - [**Merske enote**](../../Skupno/Sifranti/MerskeEnote.md)  
+> - [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md)
 
 Za dostop do šifranta **Surovine** pojdite na  
 **Sredstva / Materiali / Surovine** v [navigaciji](../../Skupno/UI/Navigacija.md).
@@ -81,9 +81,9 @@ Na voljo so dodatni zložljivi razdelki:
 Ta razdelek omogoča pregled ali dodajanje enega ali več zapisov [pakiranja](Pakiranje.md), specifičnih za material. Vsak zapis predstavlja eno pakirno enoto z lastno količino in identifikacijo.
 
 Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
-- [Prevzemi](../../Logistika/Dokumenti/Prevzemi.md)
-- [Izdaje](../../Logistika/Dokumenti/Izdaje.md)
-- [Medskladiščni prenosi](../../Logistika/Dokumenti/MedskladiščniPrenosi.md)
+- [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md)
+- [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
+- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
 
 #### Dodatno
 

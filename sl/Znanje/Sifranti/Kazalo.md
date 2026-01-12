@@ -29,7 +29,7 @@ Vnosi so razvrščeni po **ordinalni vrednosti** in jih je mogoče omogočiti al
 |------|------|
 | **Tip** | Vrsta vnosa: mapa, članek ali URL. |
 | **Naslov** | Prikazni naslov vnosa kazala. |
-| [**Članek**](Članki.md) | Povezan članek (na voljo, če je tip *članek*). |
+| [**Članek**](Clanki.md) | Povezan članek (na voljo, če je tip *članek*). |
 | **Povezava** | Prikazano besedilo URL povezave. |
 | **Ordinal** | Položaj vnosa znotraj iste ravni. |
 | **Omogočeno** | Določa vidnost vnosa v [**bazi znanja**](../BazaZnanja/BazaZnanja.md). |

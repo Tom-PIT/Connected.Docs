@@ -16,8 +16,8 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta posoje. |
 | **Datum dokumenta** | Datum, ko je dokument posoje ustvarjen. |
-| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega se material posodi (obvezno). |
-| **Kontakt** | Stranka ali partner, ki prejme material, izbran iz [Poslovnega imenika](../../Skupno/Šifranti/PoslovniImenik.md) (obvezno). |
+| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega se material posodi (obvezno). |
+| **Kontakt** | Stranka ali partner, ki prejme material, izbran iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
 | **Opombe** | Neobvezne opombe, povezane s posojo. |
 
 ### Razdelek postavk
@@ -27,7 +27,7 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Posojen material (izdelek, surovina, polizdelek, repro material itd.). |
 | **Serijska številka** | Izbrana serijska številka za serijsko vodene materiale. |
 | **Rok uporabe** | Datum poteka, če je določen. |
-| [**Skladiščna lokacija**](../Šifranti/Lokacije.md) | Lokacija, iz katere se material vzame. |
+| [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Lokacija, iz katere se material vzame. |
 | **Količina (kos)** | Količina, ki se posodi. Pred shranjevanjem jo je potrebno urediti. |
 
 ## Seznam dokumentov posoje

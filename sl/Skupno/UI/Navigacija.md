@@ -49,8 +49,8 @@ Dokumenti predstavljajo jedro vsakodnevnega operativnega dela. Uporabljajo se za
 - **[Prodajni nalogi](../../Prodaja/Dokumenti/ProdajniNalogi.md)**  
 - **[Dobavnice](../../Prodaja/Dokumenti/Dobavnice.md)**  
 - **[Prevzemi](../../Logistika/Dokumenti/Prevzemi.md)**  
-- **[Izdaje](../../Logistika/Dokumenti/Izdaje.md)**  
-- **[Medskladiščni prenosi](../../Logistika/Dokumenti/MedskladiščniPrenosi.md)**  
+- **[**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)**  
+- **[**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)**  
 - **[Inventure](../../Logistika/Dokumenti/Inventure.md)**
 - **[Nabavni nalogi](../../Nabava/Dokumenti/NabavniNalogi.md)**  
 - **[Izvajanje](../../Proizvodnja/Dokumenti/Izvajanje.md)**
@@ -102,15 +102,15 @@ Razdelek **Upravljanje** vsebuje vse šifrante in osnovne nastavitve, ki podpira
 Upravljanje vključuje na primer:
 
 - konfiguracijo sistema  
-- **[Poslovni imenik](../Šifranti/PoslovniImenik.md)**  
-- **[Banke in načini plačila](../../Prodaja/Šifranti/NačiniPlačila.md)**  
-- **[Države](../Šifranti/Države.md)**, **[valute](../Šifranti/Valute.md)**, **[davčne stopnje](../Šifranti/DavčneStopnje.md)**  
-- **[Vnaprej določena besedila](../Šifranti/VnaprejDoločenaBesedila.md)**  
-- **[Merske enote](../Šifranti/MerskeEnote.md)**  
-- **[Bančni računi organizacije](../../Prodaja/Šifranti/BančniRačuniOrganizacije.md)**  
-- **[Procesi](../../Proizvodnja/Šifranti/Procesi.md)**
-- **[Vhodi](../../Proizvodnja/Šifranti/Vhodi.md)**, **[Izhodi](../../Proizvodnja/Šifranti/Izhodi.md)**
-- **[Nazivi delovnih mest](../Šifranti/NaziviDelovnihMest.md)**, **[Človeški viri](../../Proizvodnja/Šifranti/ČloveškiViri.md)**
+- **[Poslovni imenik](../Sifranti/PoslovniImenik.md)**  
+- **[Banke in načini plačila](../../Prodaja/Sifranti/NačiniPlačila.md)**  
+- **[Države](../Sifranti/Drzave.md)**, **[valute](../Sifranti/Valute.md)**, **[davčne stopnje](../Sifranti/DavcneStopnje.md)**  
+- **[Vnaprej določena besedila](../Sifranti/VnaprejDoločenaBesedila.md)**  
+- **[Merske enote](../Sifranti/MerskeEnote.md)**  
+- **[Bančni računi organizacije](../../Prodaja/Sifranti/BančniRačuniOrganizacije.md)**  
+- **[Procesi](../../Proizvodnja/Sifranti/Procesi.md)**
+- **[Vhodi](../../Proizvodnja/Sifranti/Vhodi.md)**, **[Izhodi](../../Proizvodnja/Sifranti/Izhodi.md)**
+- **[Nazivi delovnih mest](../Sifranti/NaziviDelovnihMest.md)**, **[Človeški viri](../../Proizvodnja/Sifranti/ČloveškiViri.md)**
 - drugi ključni šifranti  
 
 Primer – **Prodaja / Upravljanje**:

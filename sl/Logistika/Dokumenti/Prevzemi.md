@@ -1,12 +1,12 @@
 # Prevzemi
 
 Dokument **Prevzem** se uporablja za evidentiranje prihoda materialov v skladišče. Ko blago fizično prispe od dobavitelja ali iz druge lokacije, ustvarite prevzemni dokument, s katerim ga zabeležite v sistemu. Primeri prevzemov vključujejo:
-- [**Izdelke**](../../Sredstva/Šifranti/Izdelki.md)  
-- [**Polizdelke**](../../Sredstva/Šifranti/Polizdelki.md)  
-- [**Repro materiale**](../../Sredstva/Šifranti/ReproMateriali.md)  
-- [**Surovine**](../../Sredstva/Šifranti/Surovine.md)
+- [**Izdelke**](../../Sredstva/Sifranti/Izdelki.md)  
+- [**Polizdelke**](../../Sredstva/Sifranti/Polizdelki.md)  
+- [**Repro materiale**](../../Sredstva/Sifranti/ReproMateriali.md)  
+- [**Surovine**](../../Sredstva/Sifranti/Surovine.md)
 
-Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../../Sredstva/Šifranti/Pakiranje.md), količina, serijske številke, rok uporabe in [skladiščna lokacija](../Šifranti/Lokacije.md). To zagotavlja natančno stanje zaloge in popolno sledljivost materialov od trenutka vstopa v skladišče.
+Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../../Sredstva/Sifranti/Pakiranje.md), količina, serijske številke, rok uporabe in [skladiščna lokacija](../Sifranti/Lokacije.md). To zagotavlja natančno stanje zaloge in popolno sledljivost materialov od trenutka vstopa v skladišče.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Prevzemi](https://www.youtube.com/watch?v=oTOYD-nlCqE)**.
@@ -21,8 +21,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator prevzemnega dokumenta. |
 | **Datum dokumenta** | Datum, ko je bilo blago fizično prevzeto. |
-| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, v katerega se materiali prevzemajo (obvezno). |
-| **Dobavitelj** | Dobavitelj blaga, izbran iz [Poslovnega imenika](../../Skupno/Šifranti/PoslovniImenik.md) (obvezno). |
+| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerega se materiali prevzemajo (obvezno). |
+| **Dobavitelj** | Dobavitelj blaga, izbran iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
 | **Dobavni nalog** | (Neobvezno) Povezan dobavni nalog. |
 | **Opombe** | Dodatne opombe, povezane z dokumentom. |
 
@@ -34,7 +34,7 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 | **EAN** | Črtna koda pakiranja ali enote. |
 | **Neto teža / Bruto teža (kg)** | Podatek o teži, shranjen v sistemu ali pridobljen s skeniranjem. |
 | **Dimenzije (švd, mm)** | Širina, višina in globina pakiranja. |
-| [**Skladiščna lokacija**](../Šifranti/Lokacije.md) | Lokacija, kamor bo enota shranjena. |
+| [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Lokacija, kamor bo enota shranjena. |
 | **Serijska številka** | Skenirana ali generirana serijska številka. |
 | **Rok uporabe** | Datum poteka (za materiale z rokom uporabe). |
 | **Količina pakiranja (kos)** | Količina, ki jo predstavlja ena pakirna enota. |

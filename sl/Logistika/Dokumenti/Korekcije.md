@@ -17,7 +17,7 @@ Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [na
 | Polje | Opis |
 |-------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta korekcije. |
-| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, na katero se korekcija nanaša (obvezno). |
+| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, na katero se korekcija nanaša (obvezno). |
 | **Datum dokumenta** | Datum dokumenta korekcije. |
 
 ### Podrobnosti
@@ -26,11 +26,11 @@ Vsaka podrobnost opisuje material in korekcijo, ki se izvede.
 
 | Polje | Opis |
 |-------|------|
-| **Vrsta materiala** | Kategorija materiala, npr. [Izdelki](../../Sredstva/Šifranti/Izdelki.md), [Polizdelki](../../Sredstva/Šifranti/Polizdelki.md), [Surovine](../../Sredstva/Šifranti/Surovine.md), [Repro materiali](../../Sredstva/Šifranti/ReproMateriali.md). |
-| **Material** | Izbran artikel (npr. Borova miza) iz kataloga [Sredstev](../../Sredstva/Šifranti/Sredstva.md). |
+| **Vrsta materiala** | Kategorija materiala, npr. [Izdelki](../../Sredstva/Sifranti/Izdelki.md), [Polizdelki](../../Sredstva/Sifranti/Polizdelki.md), [Surovine](../../Sredstva/Sifranti/Surovine.md), [Repro materiali](../../Sredstva/Sifranti/ReproMateriali.md). |
+| **Material** | Izbran artikel (npr. Borova miza) iz kataloga [Sredstev](../../Sredstva/Sifranti/Sredstva.md). |
 | **Serijska številka** | Serijska številka, na katero se korekcija nanaša, če je material serijsko voden. |
 | **Rok uporabe** | Datum roka uporabe, če je relevanten za pokvarljive materiale. |
-| **Skladiščna lokacija** | Regal / polica v skladišču za natančno umestitev. Glejte [Lokacije](../Šifranti/Lokacije.md). |
+| **Skladiščna lokacija** | Regal / polica v skladišču za natančno umestitev. Glejte [Lokacije](../Sifranti/Lokacije.md). |
 | **Količina** | Količina za korekcijo (vnesite končno količino ali razliko, odvisno od konfiguracije). |
 
 ## Seznam korekcij

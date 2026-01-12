@@ -10,7 +10,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [navigacij
 | Polje | Opis |
 |------|------|
 | **Tip** | Razvrstitev cenika (npr. *Podjetje*). |
-| [**Entiteta**](../../Skupno/Šifranti/PoslovniImenik.md) | Kupec ali drug poslovni partner, za katerega velja cenik. |
+| [**Entiteta**](../../Skupno/Sifranti/PoslovniImenik.md) | Kupec ali drug poslovni partner, za katerega velja cenik. |
 | **Ime** | Prikazno ime cenika (obvezno). |
 | **Veljavno od** | Datum začetka veljavnosti cenika. |
 | **Veljavno do** | Datum konca veljavnosti cenika. |

@@ -2,7 +2,7 @@
 
 Stran **Zaloga** nudi celovit pregled količin materialov v celotnem sistemu. Prikazuje, koliko materiala je na voljo, blokiranega ali rezerviranega, ter omogoča hitro iskanje posameznih materialov s pomočjo iskanja ali razvrščanja seznama. Od tu lahko odprete podrobne poglede zaloge, da razumete, kje je material shranjen, kako se uporablja in kako se je skozi čas premikal.
 
-Na voljo so **[Pogled zaloge po materialu](#pogled-zaloge-po-materialu)**, **[Pogled zaloge po lokacijah](#pogled-zaloge-po-lokacijah)** in **[Pogled zaloge po serijski številki](#pogled-zaloge-po-serijski-stevilki)**, ki omogočajo podrobnejši vpogled v količine, lokacije, premike in zgodovino skladiščenja. Minimalne in maksimalne pragove, prikazane v povezanih povzetkih, lahko nastavite v šifrantu **[Meje zaloge](../Šifranti/MejeZaloge.md)**. **[Nadzorna plošča](NadzornaPlosca.md)** prav tako ponuja bližnjice do težav z zalogo, kot so pomanjkanje, presežki ali materiali brez zaloge.
+Na voljo so **[Pogled zaloge po materialu](#pogled-zaloge-po-materialu)**, **[Pogled zaloge po lokacijah](#pogled-zaloge-po-lokacijah)** in **[Pogled zaloge po serijski številki](#pogled-zaloge-po-serijski-stevilki)**, ki omogočajo podrobnejši vpogled v količine, lokacije, premike in zgodovino skladiščenja. Minimalne in maksimalne pragove, prikazane v povezanih povzetkih, lahko nastavite v šifrantu **[Meje zaloge](../Sifranti/MejeZaloge.md)**. **[Nadzorna plošča](NadzornaPlosca.md)** prav tako ponuja bližnjice do težav z zalogo, kot so pomanjkanje, presežki ali materiali brez zaloge.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pregled zaloge](https://www.youtube.com/watch?v=gjAKnavIWnY)**.
@@ -23,10 +23,10 @@ S klikom na ime meseca se odpre hiter pogled za izbiro meseca in leta:
 ### **Filter vrste materiala**
 Seznam lahko filtrirate po:
 
-- [Izdelki](../../Sredstva/Šifranti/Izdelki.md)  
-- [Polizdelki](../../Sredstva/Šifranti/Polizdelki.md)  
-- [Repro materiali](../../Sredstva/Šifranti/ReproMateriali.md)  
-- [Surovine](../../Sredstva/Šifranti/Surovine.md)
+- [Izdelki](../../Sredstva/Sifranti/Izdelki.md)  
+- [Polizdelki](../../Sredstva/Sifranti/Polizdelki.md)  
+- [Repro materiali](../../Sredstva/Sifranti/ReproMateriali.md)  
+- [Surovine](../../Sredstva/Sifranti/Surovine.md)
 
 ### **Filter oznak**
 Seznam lahko dodatno zožite z izbiro oznak materialov.
@@ -52,7 +52,7 @@ S klikom na material se odpre podrobni pogled zaloge.
 
 ## Pogled zaloge po materialu
 
-S klikom na **ime materiala** se odpre podroben razčlenjen prikaz, kje je material shranjen, vključno z razpoložljivimi, rezerviranimi in blokiranimi količinami na vseh **[lokacijah](../Šifranti/Lokacije.md)**. Od tu lahko odprete tudi **[Pogled zaloge po serijski številki](#pogled-zaloge-po-serijski-stevilki)** za pregled posameznih serij ali enot.
+S klikom na **ime materiala** se odpre podroben razčlenjen prikaz, kje je material shranjen, vključno z razpoložljivimi, rezerviranimi in blokiranimi količinami na vseh **[lokacijah](../Sifranti/Lokacije.md)**. Od tu lahko odprete tudi **[Pogled zaloge po serijski številki](#pogled-zaloge-po-serijski-stevilki)** za pregled posameznih serij ali enot.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pogled zaloge po materialu](https://www.youtube.com/watch?v=GUdnV6bZwoI)**.
@@ -74,7 +74,7 @@ Na voljo je tudi iskalno polje za filtriranje znotraj izbranega materiala.
 
 ## Pogled zaloge po lokacijah
 
-Zaslon **Pogled zaloge po lokacijah** prikazuje vse materiale, shranjene na določeni **[skladiščni lokaciji](../Šifranti/Lokacije.md)**, skupaj z njihovimi skupnimi, rezerviranimi in razpoložljivimi količinami. Uporaben je, kadar želite preveriti, kaj je fizično shranjeno na določenem regalu, polici ali skladiščnem območju.
+Zaslon **Pogled zaloge po lokacijah** prikazuje vse materiale, shranjene na določeni **[skladiščni lokaciji](../Sifranti/Lokacije.md)**, skupaj z njihovimi skupnimi, rezerviranimi in razpoložljivimi količinami. Uporaben je, kadar želite preveriti, kaj je fizično shranjeno na določenem regalu, polici ali skladiščnem območju.
 
 Do tega pogleda lahko dostopate na dva načina:
 - prek **Logistika / Pregledi / Pogled zaloge po lokacijah**
@@ -84,7 +84,7 @@ Za več podrobnosti glejte **[Pogled zaloge po lokacijah](../Pregledi/PogledZalo
 
 ## Pogled zaloge po serijski številki
 
-Material ima lahko več **serijskih številk**, ki predstavljajo različne serije, datume proizvodnje ali **[skladiščne lokacije](../Šifranti/Lokacije.md)**. S klikom na posamezno serijsko številko se odpre njen namenski pogled, kjer lahko preverite premike, zgodovino skladiščenja in priloge.
+Material ima lahko več **serijskih številk**, ki predstavljajo različne serije, datume proizvodnje ali **[skladiščne lokacije](../Sifranti/Lokacije.md)**. S klikom na posamezno serijsko številko se odpre njen namenski pogled, kjer lahko preverite premike, zgodovino skladiščenja in priloge.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pogled zaloge po serijski številki](https://www.youtube.com/watch?v=_vzXNsGg5N4)**.

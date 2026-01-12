@@ -1,6 +1,6 @@
 # Postavke izdaj
 
-Pogled **Postavke izdaj** nudi analitični pregled vseh **materialov in končnih izdelkov, izdanih iz zaloge** v izbranem časovnem obdobju. Namesto osredotočanja na posamezne dokumente izdaj ta pogled združuje **izdane postavke** ter jasno prikazuje, **kateri [dokumenti izdaj](../Dokumenti/Izdaje.md)** so bili uporabljeni in **iz katerih skladiščnih lokacij** so bile postavke izdane.
+Pogled **Postavke izdaj** nudi analitični pregled vseh **materialov in končnih izdelkov, izdanih iz zaloge** v izbranem časovnem obdobju. Namesto osredotočanja na posamezne dokumente izdaj ta pogled združuje **izdane postavke** ter jasno prikazuje, **kateri [dokumenti izdaj](../Dokumenti/Izdajnice.md)** so bili uporabljeni in **iz katerih skladiščnih lokacij** so bile postavke izdane.
 
 Za dostop do tega pogleda pojdite na **Logistika / Pregledi / Postavke izdaj** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -23,7 +23,7 @@ Seznam je strukturiran na naslednji način:
 
 Ko je dokument izdaje razširjen, so prikazani naslednji podatki:
 
-- **Številka dokumenta** – klikljiva, odpre [dokument izdaje](../Dokumenti/Izdaje.md)  
+- **Številka dokumenta** – klikljiva, odpre [dokument izdaje](../Dokumenti/Izdajnice.md)  
 - **Datum in čas dokumenta**  
 - **Vir** – skladišče in lokacija (klikljivo)  
 - **Izdana količina**
@@ -74,13 +74,13 @@ Ta pogled je **zgolj analitičen**. Ne omogoča ustvarjanja, urejanja ali brisan
 > [!NOTE]
 > - Količine so prikazane v osnovni merski enoti postavke (npr. kos, meter).  
 > - Ta pogled se osredotoča na **izdaje zaloge** (npr. prodajne dobave, interne izdaje).  
-> - Poraba materialov, povezana s proizvodnjo, je prikazana v **[Postavkah porabe](ConsumptionDetails.md)**, ne tukaj.
+> - Poraba materialov, povezana s proizvodnjo, je prikazana v **[Postavkah porabe](PostavkePorabe.md)**, ne tukaj.
 
 ## Povezani pogledi
 
-- **[Postavke porabe](ConsumptionDetails.md)** – pregled materialov, porabljenih v proizvodnji  
+- **[Postavke porabe](PostavkePorabe.md)** – pregled materialov, porabljenih v proizvodnji  
 - **[Pogled zaloge po lokacijah](PogledZalogePoLokacijah.md)** – pregled zaloge na posamezni skladiščni lokaciji  
 - **[Pogled zaloge po materialu](../Dokumenti/Zaloga.md#pogled-zaloge-po-materialu)** – pregled stanja in premikov zaloge po materialih  
-- **[Dokumenti izdaj](../Dokumenti/Izdaje.md)** – ustvarjanje in pregled dokumentov izdaj
+- **[Dokumenti izdaj](../Dokumenti/Izdajnice.md)** – ustvarjanje in pregled dokumentov izdaj
 
 ---

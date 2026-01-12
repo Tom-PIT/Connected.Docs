@@ -14,8 +14,8 @@
 | **Kooperant** | Potrditveno polje, ki označuje, ali entiteta nastopa kot kooperant. |
 | **Oseba** | Potrditveno polje, ki označuje, ali gre za fizično osebo. |
 | **Ulica** | Naslov ulice entitete, na primer **Dunajska cesta 10**. |
-| [**Država**](Države.md) | Država, v kateri ima entiteta sedež. |
-| [**Poštna številka**](PoštneŠtevilke.md) | Poštna številka sedeža entitete. |
+| [**Država**](Drzave.md) | Država, v kateri ima entiteta sedež. |
+| [**Poštna številka**](PostneStevilke.md) | Poštna številka sedeža entitete. |
 | **Tip** | Določa davčni status entitete (glejte razdelek spodaj). |
 | **ID za DDV** | Identifikacijska številka za DDV, na primer **SI12345678**. |
 | **Matična številka** | Matična številka podjetja. |
@@ -48,7 +48,7 @@ Uporabniški vmesnik vsebuje seznam vnosov v Poslovnem imeniku.
 
 Vsak zapis prikazuje več oznak, ki predstavljajo **povezane podatke**. Na teh straneh lahko dodajate povezane podatke za vsakega poslovnega partnerja:
 - [**Kontakti**](Kontakti.md)
-- [**Bančni računi**](BančniRačuni.md)
+- [**Bančni računi**](BancniRacuni.md)
 - [**Poslovne enote**](PoslovneEnote.md)
 - [**Kartice podjetij**](../../Prodaja/Pregledi/KarticePodjetij.md)
 

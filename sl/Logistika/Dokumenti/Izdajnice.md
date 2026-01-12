@@ -20,18 +20,18 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [na
 |------|------|
 | [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator izdajnice. |
 | **Datum dokumenta** | Datum ustvarjanja izdajnice. |
-| [**Skladišče**](../Šifranti/Skladisca.md) | Skladišče, iz katerega se blago izdaja (obvezno). |
-| **Kupec** | Kupec, ki prejme blago, izbran iz [Poslovnega imenika](../../Skupno/Šifranti/PoslovniImenik.md) (obvezno). |
+| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega se blago izdaja (obvezno). |
+| **Kupec** | Kupec, ki prejme blago, izbran iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
 | **Opombe** | Dodatne opombe, povezane z dokumentom. |
 
 ### Razdelek postavk
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Izdani material ([izdelek](../../Sredstva/Šifranti/Izdelki.md), [polizdelek](../../Sredstva/Šifranti/Polizdelki.md), [surovina](../../Sredstva/Šifranti/Surovine.md) ali [repro material](../../Sredstva/Šifranti/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Izdani material ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
 | **Serijska številka** | Izbrana serijska številka izdanega materiala. |
 | **Rok uporabe** | Datum poteka (če ima material določen rok uporabe). |
-| [**Skladiščna lokacija**](../Šifranti/Lokacije.md) | Trenutna skladiščna lokacija izbrane postavke. |
+| [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Trenutna skladiščna lokacija izbrane postavke. |
 | **Količina (kos)** | Količina, ki se izdaja. |
 
 ## Seznam izdajnic

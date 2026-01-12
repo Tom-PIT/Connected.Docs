@@ -1,4 +1,4 @@
-﻿# Aktivne kontrolne liste
+# Aktivne kontrolne liste
 
 Pogled **Aktivne kontrolne liste** prikazuje vsa izvajanja kontrolnih seznamov, ki so trenutno v teku. Operaterji ga uporabljajo za spremljanje in dokončanje tekočih nalog kakovosti ali vzdrževanja. Ko je kontrolni seznam zaključen, se v tem pogledu ne prikazuje več in se premakne v pogled Zaključene kontrolne liste.
 
@@ -16,7 +16,7 @@ Ta pogled ponuja seznam vseh trenutno aktivnih (nedokončanih) kontrolnih seznam
 | **Dokument** | Vrsta in koda izvornega dokumenta: [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) ali [Vzdrževalni nalog](../../Vzdrževanje/Dokumenti/VzdrževalniNalogi.md). |
 | **Operacija** | Koda in ime operacije, povezane z izvajanjem kontrolnega seznama. |
 | **Izdelek** | Ime in koda izdelka, povezana z operacijo (v proizvodnih kontekstih). |
-| [**Organizacijska enota**](../../Proizvodnja/Šifranti/OrganizacijskeEnote.md) | Enota, odgovorna za izvajanje (npr. Montaža, Elektro vzdrževanje). |
+| [**Organizacijska enota**](../../Proizvodnja/Sifranti/OrganizacijskeEnote.md) | Enota, odgovorna za izvajanje (npr. Montaža, Elektro vzdrževanje). |
 | **Oprema** | Prikazano za kontrolne sezname, povezane z vzdrževanjem; oprema, ki se vzdržuje ali preverja. |
 
 ## Seznam aktivnih kontrolnih seznamov

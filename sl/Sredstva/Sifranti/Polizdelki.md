@@ -2,7 +2,7 @@
 
 **Polizdelki** so vmesni materiali, ki se uporabljajo v proizvodnji končnih izdelkov. Nastanejo iz surovin in se nato uporabljajo kot komponente v drugih izdelkih. Primeri polizdelkov so mizna plošča, kovinski okvir, lesena noga ali elektronski modul.
 
-Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../Skupno/Šifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Šifranti/DavčneStopnje.md), način generiranja serijskih številk ali rok uporabe – kar omogoča dosledno obravnavo v proizvodnji, zalogi in skladiščnih procesih. Ta šifrant vsebuje vse polizdelke, uporabljene v vašem proizvodnem procesu.
+Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../Skupno/Sifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Sifranti/DavcneStopnje.md), način generiranja serijskih številk ali rok uporabe – kar omogoča dosledno obravnavo v proizvodnji, zalogi in skladiščnih procesih. Ta šifrant vsebuje vse polizdelke, uporabljene v vašem proizvodnem procesu.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič  
@@ -11,8 +11,8 @@ Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../Skupno/
 > [!NOTE]  
 > **Predpogoji**  
 > Pred upravljanjem polizdelkov zagotovite, da so naslednji šifranti pravilno nastavljeni:  
-> - [**Merske enote**](../../Skupno/Šifranti/MerskeEnote.md)  
-> - [**Davčne stopnje**](../../Skupno/Šifranti/DavčneStopnje.md)
+> - [**Merske enote**](../../Skupno/Sifranti/MerskeEnote.md)  
+> - [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md)
 
 Za dostop do šifranta **Polizdelki** pojdite na  
 **Sredstva / Materiali / Polizdelki** v [navigaciji](../../Skupno/UI/Navigacija.md).
@@ -86,9 +86,9 @@ Na voljo so dodatni zložljivi razdelki:
 Ta razdelek omogoča pregled ali dodajanje enega ali več zapisov [pakiranja](Pakiranje.md), specifičnih za material. Vsak zapis predstavlja eno pakirno enoto z lastno količino in identifikacijo.
 
 Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
-- [Prevzemi](../../Logistika/Dokumenti/Prevzemi.md)
-- [Izdaje](../../Logistika/Dokumenti/Izdaje.md)
-- [Medskladiščni prenosi](../../Logistika/Dokumenti/MedskladiščniPrenosi.md)
+- [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md)
+- [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
+- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
 
 #### Dodatno
 
