@@ -20,10 +20,10 @@ Tipičen potek:
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator povpraševanja. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator povpraševanja. |
 | **Dobavitelj** | Dobavitelj, ki prejme povpraševanje, izbran iz **[Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md)** (obvezno). |
 | **Datum dokumenta** | Datum nastanka povpraševanja. |
-| **Datum veljavnosti** | Rok, do katerega je povpraševanje veljavno (podobno datumu poteka). |
+| **Datum dobave** | Rok, do katerega je povpraševanje veljavno (podobno datumu poteka). |
 | **Postavke** | Seznam zahtevanih materialov ali storitev (obvezno). |
 
 ### Polja postavk
@@ -31,7 +31,7 @@ Tipičen potek:
 | Polje | Opis |
 |------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Material, za katerega se zahteva informacija. |
-| **Datum veljavnosti** | Predviden ali ponujen dobavni datum. |
+| **Datum dobave** | Predviden ali ponujen dobavni datum. |
 | **Količina** | Zahtevana količina izbranega materiala. |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju (neobvezno). |
 
@@ -41,11 +41,11 @@ Tipičen potek:
 
 Dokumenti se v svojem življenjskem ciklu pomikajo skozi več stanj:
 
-- **Osnutek** – povpraševanje še ni objavljeno. Vsa polja je mogoče prosto urejati.
-- **Objavljeno** – povpraševanje je objavljeno in ga ni več mogoče izbrisati ali prosto spreminjati.
+- **Osnutki** – povpraševanje še ni objavljeno. Vsa polja je mogoče prosto urejati.
+- **Potrjeno** – povpraševanje je objavljeno in ga ni več mogoče izbrisati ali prosto spreminjati.
   - **Na voljo** – povpraševanje je veljavno in pripravljeno za nadaljnjo obdelavo.
-  - **V obdelavi** – povpraševanje je delno obdelano (npr. delno pretvorjeno ali uporabljeno).
-  - **Zaključeno** – vsa dejanja, povezana s povpraševanjem, so bila v celoti izvedena.
+  - **V zaključevanju** – povpraševanje je delno obdelano (npr. delno pretvorjeno ali uporabljeno).
+  - **Zaključen** – vsa dejanja, povezana s povpraševanjem, so bila v celoti izvedena.
 
 ### Seznam dokumentov
 
@@ -69,8 +69,8 @@ Filtri na levi strani omogočajo zoženje rezultatov po:
   - Osnutki
 - **Objavljeno**
   - Na voljo
-  - V obdelavi
-  - Zaključeno
+  - V zaključevanju
+  - Zaključen
 - **Dobavitelju**
 - Iskalnem polju
 
@@ -100,13 +100,13 @@ Kliknite katerokoli povpraševanje v seznamu, da ga odprete. Povpraševanja v st
 
 Dokument vsebuje več razširljivih razdelkov:
 - Povezani dokumenti  
-- Priloge  
+- Priponke  
 - Dokument  
 - Postavke  
 
-#### Priloge
+#### Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priloge**.
+Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
 
 Naložite lahko katerokoli ustrezno datoteko — npr. ponudbe, tehnične liste, fotografije ali drugo spremljevalno dokumentacijo. Vse priloge ostanejo shranjene skupaj z dokumentom.
 

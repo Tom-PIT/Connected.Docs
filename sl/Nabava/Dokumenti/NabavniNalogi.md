@@ -21,7 +21,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator nabavnega naloga. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator nabavnega naloga. |
 | **Dobavitelj** | Dobavitelj materialov ali storitev, izbran iz **[Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md)**. |
 | **Datum dokumenta** | Datum nastanka nabavnega naloga. |
 | **Datum dobave** | Načrtovani datum dobave zahtevanih materialov (obvezno). |
@@ -29,8 +29,8 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Interno stroškovno mesto, povezano z nabavo. |
 | **Šifra ponudbe** | Neobvezna referenca na ponudbo dobavitelja ali zunanji dokument. |
 | **Dostava – podjetje / naslov** | Podatki o lokaciji dostave, povzeti iz Poslovnega imenika ali ročno prilagojeni. |
-| **Zgornje besedilo** | Vnaprej določeno uvodno besedilo iz **[Vnaprej določenih besedil](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md)** (entiteta: *Nabavni nalog*). |
-| **Spodnje besedilo** | Zaključna ali pravna besedila iz vnaprej določenih besedil. |
+| **Vsebina na vrhu** | Vnaprej določeno uvodno besedilo iz **[Vnaprej določenih besedil](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md)** (entiteta: *Nabavni nalog*). |
+| **Vsebina na dnu** | Zaključna ali pravna besedila iz vnaprej določenih besedil. |
 | **Postavke** | Seznam naročenih materialov ali stroškov, vključno s količinami, cenami, davki in podatki o dobavi. |
 
 ### Polja postavk
@@ -45,7 +45,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | **Popust (%)** | Neobvezni popust za posamezno postavko. |
 | [**Davčna stopnja**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju. |
-| **Skupni znesek** | Znesek postavke (količina × neto cena − popust + davek). |
+| **Skupna cena** | Znesek postavke (količina × neto cena − popust + davek). |
 
 ## Upravljanje
 
@@ -53,11 +53,11 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 
 Nabavni nalogi se v svojem življenjskem ciklu pomikajo skozi naslednja stanja:
 
-- **Osnutek** – dokument še ni objavljen; vsa polja je mogoče prosto urejati.  
-- **Objavljeno** – dokument je objavljen in ga ni več mogoče izbrisati ali prosto spreminjati.
+- **Osnutki** – dokument še ni objavljen; vsa polja je mogoče prosto urejati.  
+- **Potrjeno** – dokument je objavljen in ga ni več mogoče izbrisati ali prosto spreminjati.
   - **Na voljo** – nalog je veljaven in pripravljen za prevzeme.
-  - **V obdelavi** – del materialov je že bil prevzet (delni prevzemi).
-  - **Zaključeno** – vsi materiali so prevzeti in dokument je v celoti obdelan.
+  - **V zaključevanju** – del materialov je že bil prevzet (delni prevzemi).
+  - **Zaključen** – vsi materiali so prevzeti in dokument je v celoti obdelan.
 
 ### Seznam dokumentov
 
@@ -69,7 +69,7 @@ Na vrhu seznama sistem prikaže dva ključna indikatorja:
 
 ![Indikatorji nabavnih nalogov](../Images/SupplyOrdersIndicators.png "Indikatorji nabavnih nalogov")
 
-- **Po datumu dobave** (interaktivno) – nabavni nalogi, katerih načrtovani datum dobave je potekel in še niso v celoti prevzeti. S klikom se seznam samodejno filtrira.
+- **Čez rok dobave** (interaktivno) – nabavni nalogi, katerih načrtovani datum dobave je potekel in še niso v celoti prevzeti. S klikom se seznam samodejno filtrira.
 - **Skupni znesek** – prikazuje skupno vrednost (neto + davek) vseh nabavnih nalogov v aktivnem filtru.
 
 ### Filtri
@@ -112,14 +112,14 @@ Postopek:
    ![Shranjena postavka](../Images/SupplyOrderNewDetailsSaved.png "Shranjena postavka")
 
 4. Preglejte ali prilagodite podatke o dostavi v razdelku **Dostava**.  
-5. (Neobvezno) dodajte **Priloge** ali povežite dokument s projektom prek **Povezani dokumenti**.  
+5. (Neobvezno) dodajte **Priponke** ali povežite dokument s projektom prek **Povezani dokumenti**.  
 6. Ko ste pripravljeni, kliknite **Objavi**.
 
 Po objavi se dokument premakne v stanje **Objavljeno → Na voljo**, kar omogoči vse nadaljnje aktivnosti, kot so prevzemi.
 
-#### Priloge
+#### Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priloge**.
+Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
 
 Naložite lahko katerokoli ustrezno datoteko (dobavnice, transportne dokumente, fotografije, spremno dokumentacijo). Vse priloge ostanejo shranjene skupaj z dokumentom.
 
@@ -133,7 +133,7 @@ Razpoložljiva dejanja vključujejo:
 
 - **Dodaj projekt**  
 - [**+ Prazen prevzem**](../../Logistika/Dokumenti/Prevzemi.md)  
-- [**+ Celoten prevzem**](../../Logistika/Dokumenti/Prevzemi.md)  
+- [**+ Polni prevzem**](../../Logistika/Dokumenti/Prevzemi.md)  
 - [**Prevzem**](../../Logistika/Dokumenti/Prevzemi.md) – povezava obstoječega osnutka prevzema  
 - **Dodaj opravilo**  
 - **Kopiraj nabavni nalog**
@@ -150,7 +150,7 @@ Razdelek **Dokument** vsebuje:
 - Stroškovno mesto  
 - Šifro ponudbe  
 - Dostavo  
-- Zgornje besedilo  
+- Vsebina na vrhu  
 
 #### Razdelek Dostava
 
@@ -192,12 +192,12 @@ Kliknite nabavni nalog v seznamu, da ga odprete. Nabavne naloge v stanju **Osnut
 Razširljivi razdelki vključujejo:
 
 - Povezani dokumenti  
-- Priloge  
+- Priponke  
 - Dokument  
 - Dostava  
-- Zgornje besedilo  
+- Vsebina na vrhu  
 - Postavke  
-- Spodnje besedilo  
+- Vsebina na dnu  
 
 ### Zaključevanje nabavnega naloga
 

@@ -17,9 +17,9 @@ S klikom na posamezen kazalnik se seznam samodejno filtrira tako, da prikaže sa
 
 Prikazani so naslednji kazalniki:
 
-- **Vse** – Skupno število postavk nabavnih nalogov, ki ustrezajo trenutnim filtrom.
-- **Zaključene** – Postavke, ki so bile v celoti dobavljene, ali postavke, katerih dobavni rok je potekel in se zato štejejo kot zaključene.
-- **Odprte** – Postavke, ki še čakajo na dobavo, bodisi niso bile dobavljene ali pa so bile dobavljene le delno.
+- **Število vseh postavk** – Skupno število postavk nabavnih nalogov, ki ustrezajo trenutnim filtrom.
+- **Število zaprtih postavk** – Postavke, ki so bile v celoti dobavljene, ali postavke, katerih dobavni rok je potekel in se zato štejejo kot zaključene.
+- **Število odprtih postavk** – Postavke, ki še čakajo na dobavo, bodisi niso bile dobavljene ali pa so bile dobavljene le delno.
 
 ## Seznam postavk nabavnih nalogov
 
@@ -28,7 +28,7 @@ Vsaka vrstica v seznamu predstavlja **eno posamezno postavko nabavnega naloga**,
 - **Material** – Material, ki se nabavlja (naziv, šifra in povezava do dokumenta nabavnega naloga)
 - **Podatki o dobavi** – Dobavitelj in predviden datum dobave
 - **Količina** – Naročena količina
-- **Dobavljena količina** – Prikaz potrjene in nepotrjene dobave  
+- **Dostavljena količina** – Prikaz potrjene in nepotrjene dobave  
   - Primer: *50 m (Potrjeno: 50 m / Nepotrjeno: 0 m)*
 
 ![Vrstica postavke nabavnega naloga](../Images/SupplyOrderDetailsViewRow.png "Vrstica postavke nabavnega naloga")
@@ -41,14 +41,14 @@ Leva stranska vrstica vsebuje filtre, ki omogočajo analizo in lažje iskanje po
 
 - **Datum dobave** – Filtriranje po predvidenem datumu dobave
 - **Datumi dokumentov** – Filtriranje po časovnem obdobju datumov nabavnih nalogov
-- **Status postavke**  
-  - *Vse*  
+- **Stanje postavke**  
+  - *Vsi*  
   - *Na voljo*  
   - *V zaključevanju*  
-  - *Zaključeno*
-- **Status dokumenta**  
+  - *Zaključen*
+- **Stanje dokumenta**  
   - *Na voljo*  
-  - *Zaključeno*
+  - *Zaključen*
 - **Dobavitelj** – Filtriranje postavk po dobavitelju
 
 Ti filtri omogočajo zoženje rezultatov na materiale, dobavne roke in statuse, ki so relevantni za vaše planiranje.

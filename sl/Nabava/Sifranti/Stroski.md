@@ -10,20 +10,20 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [navig
 
 | Polje | Opis |
 |------|------|
-| **Koda** | Enolični identifikator stroška. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator stroška. |
 | **Naziv** | Opisni naziv stroška. |
-| [**Davčna stopnja**](../../Skupno/Sifranti/DavcneStopnje.md) | Davčna stopnja, ki se uporablja za strošek. |
+| [**Davek**](../../Skupno/Sifranti/DavcneStopnje.md) | Davčna stopnja, ki se uporablja za strošek. |
 | **Omogočeno** | Označuje, ali je strošek na voljo za uporabo v dokumentih. |
-| **Podizvajalec** | Poslovni partner, ki izvaja podizvajalsko storitev, izbran iz **[Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md)**. |
-| **Cena na enoto (€)** | Cena te podizvajalske storitve na enoto. |
-| **Operacije** | Seznam operacij, povezanih s tem stroškom podizvajalca. |
+| **Kooperant** | Poslovni partner, ki izvaja podizvajalsko storitev, izbran iz **[Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md)**. |
+| **Znesek na enoto v (€)** | Cena te podizvajalske storitve na enoto. |
+| **Operacija** | Seznam operacij, povezanih s tem stroškom podizvajalca. |
 
 ### Polja operacije (pogovorno okno *Dodaj operacijo*)
 
 | Polje | Opis |
 |------|------|
 | [**Procesi**](../../Proizvodnja/Sifranti/Procesi.md) | Proces, v katerem se operacija uporablja. |
-| **Različica** | Različica izbranega procesa. |
+| **Verzija** | Različica izbranega procesa. |
 | **Operacija** | Posamezna operacija, ki pripada izbranemu procesu in različici. |
 
 ## Upravljanje
