@@ -6,8 +6,7 @@ To je uporabno v primerih, ko se materiali skladiščijo, pakirajo ali prevzemaj
 Za dostop do tega zaslona pojdite na **Sredstva / Materiali / Alternativne merske enote** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
-> Za podrobno predstavitev si oglejte video vodič  
-> **[Alternativne merske enote](https://www.youtube.com/watch?v=wPmLquFm8fY)**.
+> Za podrobno predstavitev si oglejte video vodič **[Alternativne merske enote](https://www.youtube.com/watch?v=wPmLquFm8fY)**.
 
 ## Kako delujejo alternativne merske enote
 
@@ -26,19 +25,19 @@ Pretvorba je definirana z dvema obveznima vrednostma:
 
 | Polje | Opis |
 |------|------|
-| **Vrsta materiala** | Vrsta materiala (na primer surovina ali izdelek). |
+| **Tip materiala** | Tip materiala (na primer surovina ali izdelek). |
 | **Entiteta** | Konkreten material, za katerega je definirana alternativna merska enota. |
 | **Osnovna merska enota** | Privzeta merska enota materiala (samo za branje). |
 | **Merska enota** | Alternativna merska enota (na primer kos). |
-| **Imenovalec** | Količina, izražena v **osnovni merski enoti**. |
-| **Števec** | Količina, izražena v **alternativni merski enoti**. |
+| **Delilnik** | Količina, izražena v **osnovni merski enoti**. |
+| **Množilnik** | Količina, izražena v **alternativni merski enoti**. |
 
 ## Upravljanje
 
 Alternativne merske enote se definirajo **na nivoju posameznega materiala**.
 
 V levi stranski vrstici izberite:
-- **Vrsto materiala**
+- **Tip materiala**
 - **Entiteto**
 
 Prikazane so samo alternativne merske enote za izbrani material.
@@ -47,8 +46,8 @@ Prikazane so samo alternativne merske enote za izbrani material.
 
 Seznam prikazuje:
 - **Ime** (alternativna merska enota)
-- **Imenovalec**
-- **Števec**
+- **Delilnik**
+- **Množilnik**
 
 ![Seznam alternativnih merskih enot](../Images/AlternativeMeasureUnitsList.png)
 
@@ -57,7 +56,7 @@ Seznam prikazuje:
 1. Izberite **Vrsto materiala** in **Entiteto**.
 2. Kliknite **[akcijski gumb](../../Skupno/UI/AkcijskiGumb.md)**.
 3. Izberite alternativno **Mersko enoto**.
-4. Vnesite **Imenovalec** in **Števec**.
+4. Vnesite **Delilnik** in **Množilnik**.
 5. Kliknite **Shrani**.
 
 ![Nova alternativna merska enota](../Images/AlternativeMeasureUnitsNew.png)

@@ -21,20 +21,19 @@ Za dostop do šifranta **Izdelki** pojdite na
 
 | Polje | Opis |
 |------|------|
-| **Koda** | Enolični identifikator izdelka znotraj seznama materialov. Na primer **2625001** ali **MIZ-ČLS**. Koda mora biti enolična med vsemi materiali. |
-| **Ime** | Ime izdelka, prikazano v seznamih in dokumentih. Na primer **Miza – hrast**. |
-| **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Samodejno** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Enako** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identično** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
-| **Rok uporabe (dni)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
-| **EAN** | Vrednost črtne kode, uporabljena za skeniranje. Na primer **3831234567890**. |
-| **Osnovna merska enota** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
-| **Davčna stopnja** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
-| **Natančnost** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
+| **Šifra** | Enolični identifikator izdelka znotraj seznama materialov. Na primer **2625001** ali **MIZ-ČLS**. Šifra mora biti enolična med vsemi materiali. |
+| **Naziv** | Ime izdelka, prikazano v seznamih in dokumentih. Na primer **Miza – hrast**. |
+| **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
+| **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
+| **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
+| **Osnovna [merska enota](../../Skupno/Sifranti/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
+| **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
+| **Davek** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
 | **Opis** | Kratek interni opis, ki pojasnjuje uporabo ali specifikacije izdelka. Na primer **Masiven hrast, oljen**. |
 | **Oznake** | Oznake za kategorizacijo in filtriranje. Na primer **pohištvo**, **premium**. |
-| **URL informacij** | Povezava do zunanjih informacij ali dokumentacije o izdelku. |
-| **URL slike** | Javna povezava do slike izdelka. |
+| **Info povezava** | Povezava do zunanjih informacij ali dokumentacije o izdelku. |
+| **URL do slike izdelka** | Javna povezava do slike izdelka. |
 | **Zunanji ključ** | Identifikator zapisa v zunanjem sistemu, na primer **SAP-4711**. |
-| **Aktiven** | Določa, ali je izdelek na voljo za uporabo v novih dokumentih. Neaktivni izdelki niso več na voljo za nove vnose, ostanejo pa vidni v zgodovini. |
 
 ## Upravljanje
 
@@ -44,7 +43,7 @@ Uporabniški vmesnik vsebuje seznam izdelkov. Če zapisi še ne obstajajo, je se
 
 ![Izdelki](../Images/ProductsList.png "Izdelki")
 
-Seznam prikazuje ime izdelka, kodo in način generiranja serijske številke.
+Seznam prikazuje ime izdelka, šifro in način generiranja serijske številke.
 
 Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih izdelkov.
 
@@ -54,7 +53,7 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da se prikažejo 
 
 - **Uvoz**
 - **Kopiraj obstoječe**
-- **Novo**
+- **Nov**
 
 ### Uvoz
 
@@ -63,7 +62,7 @@ Dejanje **Uvoz** omogoča hkratni uvoz več materialov izdelkov z uporabo ustrez
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
-### Kopiraj obstoječe
+### Kopiraj obstoječi
 
 Kliknite **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
 
@@ -71,9 +70,9 @@ Kliknite **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že
 
 Po izbiri osnovnega izdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
-### Novo
+### Nov
 
-Kliknite **Novo**, da odprete obrazec za dodajanje novega izdelka. Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
+Kliknite **Nov**, da odprete obrazec za dodajanje novega izdelka. Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
 ![Nov izdelek](../Images/NewProduct.png "Nov izdelek")
 

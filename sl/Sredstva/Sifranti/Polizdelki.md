@@ -21,20 +21,19 @@ Za dostop do šifranta **Polizdelki** pojdite na
 
 | Polje | Opis |
 |-------|------|
-| **Koda** | Enolični identifikator polizdelka znotraj seznama materialov. Koda mora biti enolična med vsemi materiali. |
-| **Ime** | Ime polizdelka, prikazano v seznamih in dokumentih. |
-| **Generiranje serijske številke** | Določa način obravnave serijskih številk in zapisov materiala:<br>• **Samodejno** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Enako** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identično** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
-| **Rok uporabe (dni)** | Število dni do poteka materiala, uporabljeno za pokvarljive ali časovno občutljive materiale. |
-| **EAN** | Vrednost črtne kode, uporabljena za skeniranje. |
-| **Osnovna merska enota** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
-| **Davčna stopnja** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. |
-| **Natančnost** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
-| **Opis** | Kratek interni opis, ki pojasnjuje uporabo ali lastnosti polizdelka. |
-| **Oznake** | Oznake za kategorizacijo in filtriranje. |
-| **URL informacij** | URL povezava do zunanjih informacij ali dokumentacije o materialu. |
-| **URL slike** | Javna povezava do slike materiala. |
-| **Zunanji ključ** | Identifikator zapisa v zunanjem sistemu za povezovanje med sistemi. |
-| **Aktiven** | Označuje, ali je polizdelek na voljo za uporabo v novih dokumentih. Neaktivni polizdelki niso več na voljo za nove vnose, ostanejo pa vidni v zgodovini. |
+| **Šifra** | Enolični identifikator izdelka znotraj seznama materialov. Na primer **2625001** ali **MIZ-ČLS**. Šifra mora biti enolična med vsemi materiali. |
+| **Naziv** | Ime izdelka, prikazano v seznamih in dokumentih. Na primer **Miza – hrast**. |
+| **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
+| **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
+| **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
+| **Osnovna [merska enota](../../Skupno/Sifranti/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
+| **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
+| **Davek** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
+| **Opis** | Kratek interni opis, ki pojasnjuje uporabo ali specifikacije izdelka. Na primer **Masiven hrast, oljen**. |
+| **Oznake** | Oznake za kategorizacijo in filtriranje. Na primer **pohištvo**, **premium**. |
+| **Info povezava** | Povezava do zunanjih informacij ali dokumentacije o izdelku. |
+| **URL do slike izdelka** | Javna povezava do slike izdelka. |
+| **Zunanji ključ** | Identifikator zapisa v zunanjem sistemu, na primer **SAP-4711**. |
 
 ## Upravljanje
 
@@ -44,7 +43,7 @@ Uporabniški vmesnik vsebuje seznam polizdelkov. Če zapisi še ne obstajajo, je
 
 ![Polizdelki](../Images/SemiProductsList.png "Polizdelki")
 
-Seznam prikazuje ime, kodo in način generiranja serijske številke za vsak polizdelek.
+Seznam prikazuje ime, šifro in način generiranja serijske številke za vsak polizdelek.
 
 Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih polizdelkov.
 
@@ -53,8 +52,8 @@ Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu
 Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - **Uvoz**
-- **Kopiraj obstoječe**
-- **Novo**
+- **Kopiraj obstoječi**
+- **Nov**
 
 ### Uvoz
 
@@ -63,7 +62,7 @@ Dejanje **Uvoz** omogoča hkratni uvoz več polizdelkov z uporabo pravilno struk
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
-### Kopiraj obstoječe
+### Kopiraj obstoječi
 
 Kliknite **Kopiraj obstoječi polizdelek**, da ustvarite nov zapis na podlagi že obstoječega.
 
@@ -71,7 +70,7 @@ Kliknite **Kopiraj obstoječi polizdelek**, da ustvarite nov zapis na podlagi ž
 
 Po izbiri osnovnega polizdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
-### Novo
+### Nov
 
 Kliknite **Novo**, da odprete obrazec za dodajanje novega polizdelka.
 

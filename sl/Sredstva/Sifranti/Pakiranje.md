@@ -8,24 +8,20 @@
 - **[Surovine](Surovine.md)**  
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič  
-> **[Pakiranje](https://www.youtube.com/watch?v=-0T_l14bg5s)**.
+> Za celovit prikaz si oglejte video vodič **[Pakiranje](https://www.youtube.com/watch?v=-0T_l14bg5s)**.
 
-Za dostop do nastavitev pakiranja pojdite na  
-**Sredstva / Materiali / Pakiranje** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do nastavitev pakiranja pojdite na **Sredstva / Materiali / Pakiranje** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
 | Polje | Opis |
 |-------|------|
 | **EAN** | Enolični identifikator pakiranja. Uporablja se tudi za označevanje. |
-| **Količina (kos)** | Število kosov, vključenih v eno pakiranje. |
+| **Količina** | Število kosov, vključenih v eno pakiranje. |
 | **Alternativna merska enota** | (Neobvezno) Alternativna merska enota za vsebino pakiranja. |
-| **Neto teža (kg)** | Teža brez embalaže. |
-| **Bruto teža (kg)** | Teža skupaj z embalažo. |
-| **Širina (mm)** | Širina v milimetrih. |
-| **Višina (mm)** | Višina v milimetrih. |
-| **Globina (mm)** | Globina v milimetrih. |
+| **Neto teža** | Teža brez embalaže. |
+| **Bruto teža** | Teža skupaj z embalažo. |
+| **Dimenzije** | Širina, višina in globina. |
 
 ## Upravljanje
 
@@ -79,11 +75,11 @@ Vsak zapis pakiranja vsebuje oznako **Nalepke**, ki določa, katere vrste nalepk
 
 V seznamskem pogledu kliknite gumb **Nalepke** pod izbranim pakiranjem:
 
-![Oznaka Nalepke](../Images/LabelPackaging.png)
+![Oznaka Nalepke](../Images/LabelPackaging.png "Oznaka Nalepke")
 
 Odpre se pogovorno okno za izbor nalepk:
 
-![Izbor nalepk](../Images/LabelSelectPackaging.png)
+![Izbor nalepk](../Images/LabelSelectPackaging.png "Izbor nalepk")
 
 Razpoložljive vrste nalepk:
 

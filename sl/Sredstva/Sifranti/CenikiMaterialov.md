@@ -17,8 +17,8 @@ Za dostop do tega zaslona pojdite na
 | Polje | Opis |
 |------|------|
 | **Ime** | Prikazno ime cenika materialov (obvezno). |
-| **Velja od** | Datum začetka veljavnosti cenika. |
-| **Velja do** | Datum konca veljavnosti cenika. |
+| **Veljavno od** | Datum začetka veljavnosti cenika. |
+| **Veljavno do** | Datum konca veljavnosti cenika. |
 
 ### Podrobnosti cenika
 
@@ -26,11 +26,11 @@ Za dostop do tega zaslona pojdite na
 |------|------|
 | **Tip** | Razvrstitev materiala (npr. *Surovine*, *Polizdelki*, *Repro materiali*). |
 | [**Material**](../Domena/Materiali.md) | Konkreten material, za katerega velja cena. |
-| **Neto cena postavke 100 %** | Osnovna neto cena materiala brez popustov. |
+| **Neto cena (na enoto) 100 %** | Osnovna neto cena materiala brez popustov. |
 | **Razponi** | Neobvezna pravila količinske cenitve, ki določajo popuste ali prilagoditve. |
 | **Razpon od / Razpon do** | Količinski interval, za katerega velja pravilo. |
 | **Odstotek (%)** | Odstotek osnovne cene, ki se uporabi za razpon. |
-| **Neto cena postavke** | Izračunana neto cena za določen razpon. |
+| **Neto cena (na enoto)** | Izračunana neto cena za določen razpon. |
 
 ## Upravljanje
 
@@ -53,7 +53,7 @@ Klik na **ime cenika** odpre zaslon za **urejanje**.
 
 ![Urejanje cenika materialov](../Images/MaterialsPriceListsNew.png "Urejanje cenika materialov")
 
-Klik na gumb **Podrobnosti** odpre stran s podrobnostmi cenitve.
+Klik na gumb **Postavke** odpre stran s podrobnostmi cenitve.
 
 ![Podrobnosti cenika materialov](../Images/MaterialsPriceListsDetailsList.png "Podrobnosti cenika materialov")
 
@@ -62,27 +62,27 @@ Klik na gumb **Podrobnosti** odpre stran s podrobnostmi cenitve.
 Glede na trenutni zaslon [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) ponuja različne možnosti.
 
 ### Na strani Ceniki materialov
-- **Novo**
+- **Nov**
 - **Kopiraj**
 
 ### Na strani Podrobnosti
-- **Novo**
+- **Nov**
 - **Uvoz**
 
 ## Ustvarjanje novega cenika materialov
 
-1. Kliknite **Novo** na zaslonu *Ceniki materialov*.
+1. Kliknite **Nov** na zaslonu *Ceniki materialov*.
 2. Vnesite:
    - **Ime**
-   - **Velja od**
-   - **Velja do**
+   - **Veljavno od**
+   - **Veljavno do**
 3. Kliknite **Dodaj**, da shranite glavo cenika.
 
-   ![Nov cenik materialov](../Images/MaterialsPriceListsNew.png)
+   ![Nov cenik materialov](../Images/MaterialsPriceListsNew.png "Nov cenik materialov")
 
-4. Kliknite gumb **Podrobnosti**, da upravljate cene materialov.
+4. Kliknite gumb **Postavke**, da upravljate cene materialov.
 
-   ![Gumb Podrobnosti](../Images/MaterialsPriceListsDetailsButton.png)
+   ![Gumb Postavke](../Images/MaterialsPriceListsDetailsButton.png "Gumb Postavke")
 
 5. Z uporabo akcijskega gumba dodajte enega ali več **materialov**.
 
