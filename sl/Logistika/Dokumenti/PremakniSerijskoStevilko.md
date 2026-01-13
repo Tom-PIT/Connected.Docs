@@ -38,9 +38,9 @@ Vnesite ali skenirajte **serijsko številko**, **EAN** ali vpišite **ime materi
 
 ![Korak 1 – več ujemanj](../Images/MoveSerialStep1.png)
 
-Kliknite **Naprej** za nadaljevanje.
+Kliknite **Naslednji** za nadaljevanje.
 
-### Korak 2 — Izberi ciljno lokacijo
+### Korak 2 — Izberi končno lokacijo
 
 Vnesite ciljno lokacijo z vnosom njenega **imena**, **kode** ali dela besedila.
 
@@ -48,7 +48,7 @@ Vnesite ciljno lokacijo z vnosom njenega **imena**, **kode** ali dela besedila.
 
 ![Korak 2 – izbira lokacije](../Images/MoveSerialStep2.png)
 
-Kliknite **Naprej** za nadaljevanje.
+Kliknite **Naslednji** za nadaljevanje.
 
 ### Korak 3 — Potrdi premik
 
@@ -56,20 +56,20 @@ Na zadnjem zaslonu so prikazani naslednji podatki:
 
 - **Material**, ki se premika  
 - **Izvorna lokacija**  
-- **Ciljna lokacija**  
-- **Količina (kos)** — skupno število kosov na izvorni lokaciji  
-- **Razpoložljivo (kos)** — količina, ki je trenutno na voljo za premik (urejanje dovoljeno)  
-- **Rok uporabe**
+- **Končna lokacija**  
+- **Količina** — skupno število kosov na izvorni lokaciji  
+- **Razpoložljiv** — količina, ki je trenutno na voljo za premik (urejanje dovoljeno)  
+- **Datum do**
 
 ![Korak 3 – potrditev premika](../Images/MoveSerialStep3.png)
 
-Po potrebi prilagodite vrednost **Razpoložljivo (kos)** in kliknite **Zaključi**.
+Po potrebi prilagodite vrednost **Razpoložljiv** in kliknite **Konec**.
 
 Po zaključku:
 
 - premik se takoj zabeleži,  
 - vrnete se na **Korak 1**, kjer lahko nadaljujete s skeniranjem novih postavk,  
-- zaključen premik je viden v **Med-skladiščni promet → Objavljeni**.
+- zaključen premik je viden v **Med-skladiščni promet → Potrjeni**.
 
 **Primer zabeleženega premika:**
 

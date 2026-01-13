@@ -18,11 +18,11 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [na
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator izdajnice. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator izdajnice. |
 | **Datum dokumenta** | Datum ustvarjanja izdajnice. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega se blago izdaja (obvezno). |
-| **Kupec** | Kupec, ki prejme blago, izbran iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
-| **Opombe** | Dodatne opombe, povezane z dokumentom. |
+| **Stranka** | Kupec, ki prejme blago, izbran iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Postavke** | Dodatne postavke, povezane z dokumentom. |
 
 ### Razdelek postavk
 
@@ -30,7 +30,7 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [na
 |------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Izdani material ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
 | **Serijska številka** | Izbrana serijska številka izdanega materiala. |
-| **Rok uporabe** | Datum poteka (če ima material določen rok uporabe). |
+| **Datum do** | Datum poteka (če ima material določen rok uporabe). |
 | [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Trenutna skladiščna lokacija izbrane postavke. |
 | **Količina (kos)** | Količina, ki se izdaja. |
 
@@ -41,7 +41,7 @@ Stran **Izdajnice** prikazuje vse izdajnike dokumente. Dokument lahko poiščete
 - **Datumi dokumentov**
 - **Pogled:**  
   - *Osnutki* — dokumenti, ki še niso objavljeni  
-  - *Objavljeni* — dokončni in zaklenjeni dokumenti
+  - *Potrjeni* — dokončni in zaklenjeni dokumenti
 - **Avtor**
 - **Skladišče**
 
@@ -64,7 +64,7 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo
 
    ![Nova izdajna](../Images/IssueNew.png "Nova izdajna")
 
-2. V razdelek postavk vnesite ali skenirajte **serijsko številko**, **EAN kodo** ali **ime materiala**.  
+2. V razdelek postavk vnesite ali skenirajte **serijsko številko**, **EAN šifro** ali **ime materiala**.  
    - Sistem prikaže **vse ujemajoče materiale in serijske številke**.
 3. Iz seznama rezultatov izberite ustrezno postavko.
 4. Sistem samodejno izpolni vse znane podatke (material, serijska številka, lokacija, rok uporabe).
@@ -77,17 +77,17 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo
 
 Novo ustvarjena izdajna se prikaže v pogledu **Osnutki**. Po objavi se premakne med **Objavljene** dokumente.
 
-## Priloge
+## Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priloge**.
+Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
 
-![Priloge](../Images/Attachments.png "Priloge")
+![Priponke](../Images/Attachments.png "Priponke")
 
-Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga spremljajoča dokumentacija. Priloge so trajno shranjene skupaj z dokumentom.
+Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga spremljajoča dokumentacija. Priponke so trajno shranjene skupaj z dokumentom.
 
-## Opombe
+## Postavke
 
-Vsak dokument vsebuje razdelek **Opombe**, kamor lahko vnesete dodatne komentarje ali informacije, povezane s transakcijo. Opombe se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
+Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komentarje ali informacije, povezane s transakcijo. Postavke se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
 ## Meni
 

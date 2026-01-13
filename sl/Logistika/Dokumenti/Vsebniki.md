@@ -1,6 +1,6 @@
 # Vsebniki
 
-**Vsebnik** združuje eno ali več postavk pod eno serijsko kodo (pogosto **SSCC – Serial Shipping Container Code**). To omogoča pakiranje, premikanje in skeniranje celotnega sklopa hkrati, brez potrebe po odpiranju vsebnika. Postavke, ki so dodane v vsebnik, so **rezervirane za ta vsebnik** in jih ni mogoče uporabiti v drugih transakcijah, dokler vsebnik ni razpuščen ali dokler posamezne postavke niso odstranjene.
+**Vsebnik** združuje eno ali več postavk pod eno serijsko šifro (pogosto **SSCC – Serial Shipping Container Code**). To omogoča pakiranje, premikanje in skeniranje celotnega sklopa hkrati, brez potrebe po odpiranju vsebnika. Postavke, ki so dodane v vsebnik, so **rezervirane za ta vsebnik** in jih ni mogoče uporabiti v drugih transakcijah, dokler vsebnik ni razpuščen ali dokler posamezne postavke niso odstranjene.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Vsebniki](https://www.youtube.com/watch?v=2V9K1jTsyQI)**.
@@ -13,7 +13,7 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator vsebnika SSCC (v obliki: CTR-LLLL-NNNNNNNN). |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator vsebnika SSCC (v obliki: CTR-LLLL-NNNNNNNN). |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem se vsebnik nahaja. |
 | **Datum dokumenta** | Datum, ko je bil dokument vsebnika ustvarjen. |
 | [**Lokacija**](../Sifranti/Lokacije.md) | Skladiščna lokacija (npr. regal / polica). |
@@ -24,9 +24,9 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 |------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Zapakirana postavka (izdelek, polizdelek, surovina ali repro material). |
 | **Serijska številka** | Serijska ali lot številka zapakirane postavke. |
-| **Rok uporabe** | Datum poteka, če se sledi roku uporabe. |
+| **Datum do** | Datum poteka, če se sledi roku uporabe. |
 | **Skladiščna lokacija** | Lokacija postavke po vrstici (če je relevantno). |
-| **Količina (kos)** | Količina zapakirane postavke. |
+| **Količina** | Količina zapakirane postavke. |
 
 ## Seznam dokumentov vsebnikov
 
@@ -61,21 +61,21 @@ Vsebniki se ustvarjajo ročno na tej strani.
 
 6. Ko ste pripravljeni, kliknite **Zapakiraj**, da rezervirate vsebino in omogočite nadaljnje logistične operacije.
 
-Zapakiran vsebnik je pripravljen za uporabo, stanje pa se spremeni v **Zapakirano**. V meniju lahko natisnete ali izvozite nalepke z **SSCC kodo vsebnika**.
+Zapakiran vsebnik je pripravljen za uporabo, stanje pa se spremeni v **Zapakirano**. V meniju lahko natisnete ali izvozite nalepke z **SSCC šifro vsebnika**.
 
 > [!NOTE]
 > Postavke v **zapakiranem** vsebniku so rezervirane in jih ni mogoče posamezno obdelovati (izdaja / prevzem / premik). Za sprostitev vsebine je potrebno vsebnik **razpustiti** ali odstraniti posamezno postavko.
 
 ### Uporaba vsebnikov
 
-- **Komisioniranje / izdaja:** skenirajte kodo vsebnika v **[Izdajnicah](Izdajnice.md)**, da dodate celotno vsebino naenkrat
+- **Komisioniranje / izdaja:** skenirajte šifro vsebnika v **[Izdajnicah](Izdajnice.md)**, da dodate celotno vsebino naenkrat
 - **Prevzem / uskladiščenje:** skenirajte v **[Prevzemih](Prevzemi.md)** za vnos celotnega sklopa v zalogo
 - **Premiki:** uporabite **[Med-skladiščni promet](MedSkladiscniPromet.md)** ali **[Premakni serijsko številko](PremakniSerijskoStevilko.md)** in skenirajte vsebnik za skupni premik
 - **Pregled zaloge:** uporabite **[Zaloga](Zaloga.md)** ali **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** za preverjanje prisotnosti in lokacije vsebnika
 
 ## Pregled vsebnika
 
-- Glava prikazuje kodo vsebnika, skladišče, datum in lokacijo
+- Glava prikazuje šifro vsebnika, skladišče, datum in lokacijo
 - Postavke prikazujejo zapakirane materiale, serijske številke, lokacije in količine
 - **Povezave dokumentov** (če obstajajo) prikazujejo povezane logistične transakcije
 

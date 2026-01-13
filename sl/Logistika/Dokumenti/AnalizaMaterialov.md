@@ -14,11 +14,11 @@ Za dostop do **Analize materialov** pojdite na **Logistika / Dokumenti / Analiza
 
 | Polje | Opis |
 |-------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta analize materialov. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta analize materialov. |
 | **Datum dokumenta** | Datum, ko je bil dokument analize ustvarjen. |
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Material v analizi (kot je določen s prevzemom in konfiguracijo analize). |
-| **Vir** | Serijska številka prevzetega materiala. |
-| **Status** | Stanje analize: **Ni nastavljeno**, **Uspešno**, ali **Neuspešno**. |
+| **Izvor** | Serijska številka prevzetega materiala. |
+| **Status analize** | Stanje analize: **Ni nastavljeno**, **Uspešno**, ali **Neuspešno**. |
 
 ## Seznam dokumentov
 
@@ -46,7 +46,7 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
 
      ![Neuspešna analiza](../Images/MaterialAnalysisEditFailed.png "Neuspešna analiza materiala")
 
-4. Ko so vsa zahtevana preverjanja zaključena, kliknite **Objavi**, da dokončate dokument analize materialov. Dokument se premakne v pogled **Objavljeni**.
+4. Ko so vsa zahtevana preverjanja zaključena, kliknite **Objavi**, da dokončate dokument analize materialov. Dokument se premakne v pogled **Potrjeni**.
 
 ## Brisanje
 

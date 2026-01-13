@@ -2,8 +2,7 @@
 
 Ta šifrant predstavlja **skladiščne lokacije** znotraj posameznih [skladišč](Skladisca.md). Vsaka lokacija določa specifično območje ali podrazdelek, kot so regal, polica ali predal, ter omogoča natančno organizacijo in sledenje materialov znotraj skladišča.
 
-Za dostop do tega šifranta pojdite na  
-**Logistika / Upravljanje / Lokacije** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega šifranta pojdite na **Logistika / Upravljanje / Lokacije** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič  
@@ -13,8 +12,8 @@ Za dostop do tega šifranta pojdite na
 
 | Polje | Opis |
 |-------|------|
-| **Koda** | Enolična koda, ki identificira lokacijo. Pogosto je strukturirana tako, da odraža hierarhijo skladišča. |
-| **Ime** | Ime ali oznaka lokacije, na primer **Regal 1** ali **Polica 2**. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolična koda, ki identificira lokacijo. Pogosto je strukturirana tako, da odraža hierarhijo skladišča. |
+| **Naziv** | Ime ali oznaka lokacije, na primer **Regal 1** ali **Polica 2**. |
 | **Nadrejena lokacija** | Določa drugo lokacijo, znotraj katere je ta lokacija umeščena. Na primer: polica lahko pripada določenemu regalu. |
 | **Opis** | Neobvezen opis z dodatnimi informacijami o lokaciji. |
 
@@ -28,8 +27,7 @@ Uporabniški vmesnik prikazuje seznam vseh lokacij za izbrano skladišče. Upora
 
 Vsak zapis vsebuje oznako **Zaloga**, ki odpre vmesnik za upravljanje zaloge, povezane z izbrano lokacijo.
 
-Za več podrobnosti glejte  
-**[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)**.
+Za več podrobnosti glejte **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)**.
 
 ## Dejanja
 
@@ -51,8 +49,7 @@ Po uvozu lahko lokacije pregledate in po potrebi prilagodite na zaslonu za uprav
 Kliknite **Prekliči**, da se vrnete na seznam brez uvoza.
 
 > [!NOTE]
-> Vsaka lokacija je vezana na **skladišče**, zato se prepričajte, da vsa referencirana  
-> [**skladišča**](Skladisca.md) že obstajajo v sistemu.
+> Vsaka lokacija je vezana na **skladišče**, zato se prepričajte, da vsa referencirana [**skladišča**](Skladisca.md) že obstajajo v sistemu.
 
 #### Primer strukture CSV
 
@@ -69,8 +66,8 @@ Dejanje **Novo** odpre obrazec za ustvarjanje nove skladiščne lokacije.
 
 V obrazcu je potrebno vnesti naslednja polja:
 
-- **Koda** – enolična identifikacijska koda lokacije  
-- **Ime** – prikazno ime lokacije  
+- **Šifra** – enolična identifikacijska koda lokacije  
+- **Naziv** – prikazno ime lokacije  
 - **Nadrejena lokacija** – lokacija, znotraj katere se ta lokacija nahaja (neobvezno)  
 - **Opis** – dodatne informacije o lokaciji (neobvezno)  
 - **Aktiven** – določa, ali je lokacija na voljo za uporabo v novih dokumentih  

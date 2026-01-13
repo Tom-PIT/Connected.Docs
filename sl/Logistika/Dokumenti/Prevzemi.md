@@ -19,12 +19,12 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator prevzemnega dokumenta. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator prevzemnega dokumenta. |
 | **Datum dokumenta** | Datum, ko je bilo blago fizično prevzeto. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerega se materiali prevzemajo (obvezno). |
 | **Dobavitelj** | Dobavitelj blaga, izbran iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
-| **Dobavni nalog** | (Neobvezno) Povezan dobavni nalog. |
-| **Opombe** | Dodatne opombe, povezane z dokumentom. |
+| **Nabavni nalog** | (Neobvezno) Povezan dobavni nalog. |
+| **Postavke** | Dodatne opombe, povezane z dokumentom. |
 
 ### Razdelek postavk
 
@@ -36,11 +36,11 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 | **Dimenzije (švd, mm)** | Širina, višina in globina pakiranja. |
 | [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Lokacija, kamor bo enota shranjena. |
 | **Serijska številka** | Skenirana ali generirana serijska številka. |
-| **Rok uporabe** | Datum poteka (za materiale z rokom uporabe). |
+| **Datum do** | Datum poteka (za materiale z rokom uporabe). |
 | **Količina pakiranja (kos)** | Količina, ki jo predstavlja ena pakirna enota. |
 | **Količina v osnovni enoti (kos)** | Količina, izražena v osnovni merski enoti materiala. |
 | **Prevzeta količina (kos)** | Dejanska prevzeta količina. |
-| **Število paketov** | Število prevzetih paketov. |
+| **Količina v paketu** | Število prevzetih paketov. |
 
 ## Seznam prevzemnih dokumentov
 
@@ -49,7 +49,7 @@ Stran **Prevzemi** prikazuje vse prevzemne dokumente. Dokument lahko poiščete 
 - **Datumi dokumentov**
 - **Pogled:**  
   - *Osnutki* — dokumenti, ki še niso objavljeni  
-  - *Objavljeni* — dokončni in zaklenjeni dokumenti
+  - *Potrjeni* — dokončni in zaklenjeni dokumenti
 - **Avtor**
 - **Skladišče**
 
@@ -74,7 +74,7 @@ Postopek ustvarjanja novega prevzema:
 
    ![Prevzemni dokument](../Images/ReceiveDocument.png "Prevzemni dokument")
 
-2. Skenirajte ali ročno vnesite **EAN kodo pakiranja**.
+2. Skenirajte ali ročno vnesite **EAN šifro pakiranja**.
    - Sistem prikaže **vse ujemajoče materiale in serijske številke**.
 3. Sistem samodejno pridobi podatke o pakiranju in izpolni ustrezna polja v razdelku **Postavke**.
 
@@ -86,17 +86,17 @@ Postopek ustvarjanja novega prevzema:
 
 Novo ustvarjen prevzem se prikaže med **Osnutki**. Po objavi se premakne med **Objavljene** dokumente.
 
-## Priloge
+## Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priloge**.
+Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
 
-![Priloge](../Images/Attachments.png "Priloge")
+![Priponke](../Images/Attachments.png "Priponke")
 
-Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga spremljajoča dokumentacija. Priloge so trajno shranjene skupaj z dokumentom.
+Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga spremljajoča dokumentacija. Priponke so trajno shranjene skupaj z dokumentom.
 
-## Povezave dokumentov
+## Povezavi dokumenti
 
-Objavljeni prevzemni dokumenti vsebujejo dodatni razdelek **Povezave dokumentov**, ki prikazuje dokumente, ki jih je mogoče ustvariti na podlagi prevzetih materialov.
+Objavljeni prevzemni dokumenti vsebujejo dodatni razdelek **Povezavi dokumenti**, ki prikazuje dokumente, ki jih je mogoče ustvariti na podlagi prevzetih materialov.
 
 Pri prevzemih se lahko pojavi možnost **Razstavljanje**, ki omogoča ustvarjanje novega dokumenta razstavljanja na podlagi prevzetih postavk.
 
@@ -104,9 +104,9 @@ Pri prevzemih se lahko pojavi možnost **Razstavljanje**, ki omogoča ustvarjanj
 
 Za več podrobnosti glejte dokumentacijo [**Demontaže**](Demontaze.md).
 
-## Opombe
+## Postavke
 
-Vsak dokument vsebuje razdelek **Opombe**, kamor lahko vnesete dodatne komentarje ali informacije. Opombe se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
+Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komentarje ali informacije. Postavke se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
 ## Meni
 

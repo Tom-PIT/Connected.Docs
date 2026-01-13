@@ -16,27 +16,27 @@ Za dostop do **Nadzorne plošče** pojdite na **Logistika / Nadzorna plošča** 
 
 Nadzorna plošča prikazuje štiri glavne indikatorje. S klikom na posamezen indikator se spodnji seznam filtrira in prikaže samo materiale, ki ustrezajo izbranemu stanju. Če noben indikator ni izbran, nadzorna plošča prikaže nedavno ustvarjene logistične dokumente.
 
-### Pod minimumom  
+### Pod minimalno vrednostjo 
 Materiali, katerih količina zaloge je nižja od določene **minimalne zaloge**.
 
 Minimalne vrednosti se nastavijo v **[Mejah zaloge](../Sifranti/MejeZaloge.md)**.
 
-### Nad maksimumom  
+### Nad zgornjo mejo  
 Materiali, katerih količina zaloge presega določeno **maksimalno zalogo**.
 
 Maksimalne vrednosti se nastavijo v **[Mejah zaloge](../Sifranti/MejeZaloge.md)**.
 
-### Brez zaloge  
+### Ni zaloge  
 Materiali, ki trenutno nimajo **nobene razpoložljive zaloge**.
 
-### Pod blokirano mejo  
+### Pod blokirano količino
 Materiali, katerih količina zaloge je **nižja od blokiranega praga**.
 
 ## Iskanje in skeniranje
 
 Material lahko poiščete z vnosom:
 - **serijske številke**
-- **kode materiala**
+- **šifre materiala**
 - **imena materiala**
 
 Možnost **Vključi materiale brez zaloge** razširi rezultate tudi na materiale s količino 0.
