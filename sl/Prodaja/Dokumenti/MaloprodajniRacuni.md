@@ -21,14 +21,14 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator maloprodajnega računa. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator maloprodajnega računa. |
 | **Številka naročila kupca** | Neobvezna referenca kupca. |
 | **Stranka** | Kupec, izbran iz [**Poslovnega imenika**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). Na voljo so le zapisi z oznakama **Stranka** in **Oseba**. |
-| **Datum izdaje** | Datum izdaje računa. |
+| **Datum dokumenta** | Datum izdaje računa. |
 | **Datum dobave** | Datum izročitve ali dostave blaga. |
 | **Datum zapadlosti** | Rok plačila (obvezno). |
-| **Vrsta sklica** | Vrsta plačilnega sklica (obvezno). |
-| **Sklicna številka** | Sklicna številka glede na izbrano vrsto sklica. |
+| **Tip reference** | Vrsta plačilnega sklica (obvezno). |
+| **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
 | [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Račun za prejem plačila (obvezno). |
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev prihodka. |
 | **Koda namena** | Neobvezna koda namena transakcije. |
@@ -62,13 +62,13 @@ Maloprodajni računi prehajajo skozi naslednja stanja:
 
 Seznam je mogoče filtrirati po:
 - **Datumih dokumentov**
-- **Pogledu** (Osnutki, Potrjeno, Neplačani, Delno plačani, V celoti plačani)
+- **Pogledu** (Osnutki, Obdelan, Neplačani, Delno plačani, Plačani)
 - **Stranki**
 - **Načinu plačila**
 
 Vsaka vrstica prikazuje:
 - Ime stranke  
-- Kodo dokumenta  
+- Šifro dokumenta  
 - Datum dokumenta  
 - Plačan znesek in skupni znesek  
 
@@ -94,9 +94,9 @@ Maloprodajne račune je mogoče ustvariti **samo ročno**.
 
    ![Klasifikacija stranke](../../Skupno/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija stranke")
 
-3. Izpolnite obvezna polja, kot so **Datum zapadlosti**, **Vrsta sklica** in **Bančni račun organizacije**.
+3. Izpolnite obvezna polja, kot so **Datum zapadlosti**, **Tip reference** in **Bančni račun organizacije**.
 
-4. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem naziva ali kode sredstva.
+4. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem naziva ali šifre sredstva.
 
    ![Urejanje postavke](../Images/RetailIssuedInvoiceNewDetailsEdit.png "Urejanje postavke")
 

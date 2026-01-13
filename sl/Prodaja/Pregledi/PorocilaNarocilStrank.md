@@ -26,7 +26,7 @@ Poročilo je hierarhično organizirano:
 Za vsako sredstvo so prikazani:
 - Naročena **količina**  
 - **Povprečna cena**  
-- **Skupna vrednost**, vključno z neto vrednostjo in davkom  
+- **Skupna cena**, vključno z neto vrednostjo in davkom  
 
 ![Seznam poročil naročil strank](../Images/SalesOrderReportList.png "Seznam poročil naročil strank")
 
@@ -51,7 +51,7 @@ Filtre je mogoče kombinirati za natančno analizo specifičnih naročilnih scen
 
 Vsi zneski temeljijo na podatkih iz [**Naročil strank**](../Dokumenti/NarocilaStrank.md), vključenih glede na izbrane filtre.
 
-## Opombe
+## Postavke
 
 - V poročilo so vključena samo **potrjena naročila strank**  
 - Osnutki ali stornirana naročila niso prikazana  

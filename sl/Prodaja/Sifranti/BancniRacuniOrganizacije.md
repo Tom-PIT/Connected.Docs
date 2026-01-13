@@ -16,15 +16,15 @@ Za dostop do tega zaslona pojdite na **Prodaja / Šifranti / Bančni računi org
 | [**Banka**](../../Skupno/Sifranti/BancniRacuni.md) | Banka, pri kateri je odprt račun (obvezno). |
 | **IBAN** | Mednarodna številka bančnega računa (obvezno). |
 | **Aktiven** | Določa, ali je račun na voljo za uporabo v dokumentih (privzeto označeno). |
-| **Uporabi masko** | Določa, ali se IBAN prikazuje in vnaša z vnosno masko za boljšo berljivost. |
+| **Uporabljaj IBAN masko** | Določa, ali se IBAN prikazuje in vnaša z vnosno masko za boljšo berljivost. |
 
 ## Upravljanje
 
 ### Seznam bančnih računov
 
 Zaslon prikazuje seznam bančnih računov. Na levi strani lahko račune filtrirate glede na stanje:
-- **Omogočeni**
-- **Onemogočeni**
+- **Omogočeno**
+- **Onemogočeno**
 
 ![Bančni računi organizacije](../Images/OrganizationBankAccounts.png "Seznam bančnih računov organizacije")
 
@@ -39,8 +39,8 @@ Za dodajanje novega bančnega računa kliknite [Akcijski gumb](../../Skupno/UI/A
 Vnesite zahtevane podatke:
 - **Banka**
 - **IBAN**
-- **Aktiven** (neobvezno)
-- **Uporabi masko** (neobvezno)
+- **Aktiven**
+- **Uporabljaj IBAN masko** (neobvezno)
 
 ![Nov bančni račun organizacije](../Images/OrganizationBankAccountsNew.png "Dodajanje novega bančnega računa")
 

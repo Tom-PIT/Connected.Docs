@@ -1,4 +1,4 @@
-﻿# Retail proforma invoices
+# Retail proforma invoices
 
 A **Retail proforma invoice** is a sales document used in retail scenarios to record a sale in an invoice-like format while allowing flexible payment handling.  
 It is typically used when a customer purchases goods in person and payment may be recorded immediately or later.
@@ -74,7 +74,6 @@ The list view can be filtered by:
   - Partially paid invoices
   - Fully paid invoices
 - **Customer**
-- **Payment method**
 
 Each row displays:
 - Customer
@@ -175,4 +174,5 @@ To adjust inventory:
 - Published documents cannot be deleted.
 - Published documents can be **reversed** or **returned to draft** (if allowed by system settings).
 
+---
 

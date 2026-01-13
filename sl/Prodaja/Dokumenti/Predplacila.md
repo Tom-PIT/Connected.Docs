@@ -22,20 +22,20 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator predplačila. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator predplačila. |
 | **Številka naročila kupca** | Neobvezna referenca na naročilo stranke. |
 | **Stranka** | Stranka, ki izvede predplačilo, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
-| **Datum izdaje** | Datum izdaje dokumenta predplačila. |
-| **Datum dobave** | Predviden datum dobave, povezan s prodajo. |
+| **Datum dokumenta** | Datum izdaje dokumenta predplačila. |
+| **Datum opravljene storitve** | Predviden datum dobave, povezan s prodajo. |
 | **Datum zapadlosti** | Rok za prejem predplačila (obvezno). |
-| **Vrsta sklica** | Vrsta plačilnega sklica (obvezno). |
-| **Sklicna številka** | Sklicna številka glede na izbrano vrsto sklica. |
+| **Tip reference** | Vrsta plačilnega sklica (obvezno). |
+| **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
 | [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Bančni račun za prejem predplačila (obvezno). |
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezen opis namena plačila. |
 | **Rabat** | Skupni rabat, uporabljen na znesek predplačila. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
-| **Dobava** | Podatki o podjetju in naslovu dobave. |
+| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
 | **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Sifranti/NacinPlacila.md). |
 
@@ -45,7 +45,7 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 |------|------|
 | [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Izdelek ali storitev, na katero se predplačilo nanaša. |
 | **Količina** | Količina sredstva. |
-| **Neto cena** | Neto cena na enoto. |
+| **Cena brez DDV** | Cena na enoto brez DDV. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |
 | **Vrednost** | Izračunane vrednosti (neto, davek, bruto) postavke. |
 
@@ -59,12 +59,12 @@ Predplačila imajo lahko status **Osnutek** ali **Potrjeno**.
 
 Seznam predplačil je mogoče filtrirati po:
 - **Datumih dokumentov**
-- **Pogledu** (Osnutki / Potrjeno)
+- **Pogledu** (Osnutek / Potrjeno)
 - **Stranki**
 
 Vsaka vrstica prikazuje:
 - Stranko  
-- Kodo dokumenta  
+- Šifro dokumenta  
 - Datum dokumenta  
 - Znesek predplačila  
 
@@ -78,7 +78,7 @@ Osnutke je mogoče urejati, potrjena predplačila pa so dokončna, razen če so 
 
    ![Novo predplačilo](../Images/PrepaymentsNewTop.png "Novo predplačilo")
 
-2. Izpolnite obvezna polja: **Stranka**, **Datum zapadlosti**, **Vrsta sklica**, **Sklicna številka** in **Bančni račun organizacije**.
+2. Izpolnite obvezna polja: **Stranka**, **Datum zapadlosti**, **Tip reference**, **Sklic** in **Bančni račun organizacije**.
 
 3. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **serijske številke**, **EAN** ali **naziva sredstva/materiala**.
 
@@ -107,9 +107,9 @@ Urejate lahko:
 - Načine plačila
 - Besedila (zgoraj/spodaj)
 
-#### Priloge
+#### Priponke
 
-V razdelku **Priloge** lahko naložite dodatno dokumentacijo.
+V razdelku **Priponke** lahko naložite dodatno dokumentacijo.
 
 #### Povezani dokumenti
 

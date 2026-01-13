@@ -21,10 +21,10 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator dobavnice. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dobavnice. |
 | **Stranka** | Prejemnik dobave, izbran iz šifranta [Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka dobavnice. |
-| **Datum dobave** | Datum, ko je dobava predvidena (obvezno). |
+| **Datum opravljene storitve** | Datum, ko je dobava predvidena (obvezno). |
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Neobvezno uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
 | **Postavke** | Seznam vseh dobavljenih postavk (obvezno). |
@@ -35,7 +35,7 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 | Polje | Opis |
 |------|------|
 | [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Izdelek ali storitev, ki se dobavlja. |
-| **Datum dobave** | Datum dobave za posamezno postavko. |
+| **Datum opravljene storitve** | Datum dobave za posamezno postavko. |
 | **Izdana količina** | Prikazuje, koliko enot je že izdanih (npr. *0/3* pred izdajo, *3/3* po celotni izdaji). |
 
 ## Upravljanje
@@ -48,7 +48,7 @@ Dobavnice uporabljajo poenostavljen nabor statusov:
 
 - **V zaključevanju** – Dobavnica je delno obdelana. To se običajno zgodi, ko je bila ustvarjena [**Izdaja**](../../Logistika/Dokumenti/Izdaje.md) samo za del dobavljenega blaga ali ko dobava še ni zaključena.
 
-- **Zaključeno** – Vsa dejanja, povezana z dobavnico, so bila izvedena. Dokumenta ni več mogoče spreminjati, še vedno pa ga je mogoče natisniti, izvoziti ali uporabiti za ustvarjanje računa.
+- **Zaključen** – Vsa dejanja, povezana z dobavnico, so bila izvedena. Dokumenta ni več mogoče spreminjati, še vedno pa ga je mogoče natisniti, izvoziti ali uporabiti za ustvarjanje računa.
 
 ### Seznam
 
@@ -56,8 +56,8 @@ Seznam dobavnic prikazuje vse dokumente, razvrščene po statusih:
 
 - **Na voljo**
 - **V zaključevanju**
-- **Zaključeno**
-- **Vse**
+- **Zaključen**
+- **Vsi**
 - **[Stornirano](../../Logistika/Dokumenti/Storno.md)** (stanje storniranja)
 
 **Kazalniki na vrhu seznama:**
@@ -93,7 +93,7 @@ Primer praznega osnutka dobavnice:
 
 S klikom na dobavnico odprete urejanje. Dokument je razdeljen v razširljive razdelke:
 
-- Priloge
+- Priponke
 - Povezani dokumenti
 - Dokument
 - Dobava
@@ -104,9 +104,9 @@ S klikom na dobavnico odprete urejanje. Dokument je razdeljen v razširljive raz
 > [!NOTE]
 > Količina razdelkov, ki jih je mogoče urejati, je odvisna od statusa dobavnice.
 
-#### Priloge
+#### Priponke
 
-Na vrhu vsakega dokumenta je razdelek **Priloge**.
+Na vrhu vsakega dokumenta je razdelek **Priponke**.
 
 Naložite lahko datoteke, kot so transportni dokumenti, fotografije ali druga dokazila. Vse priloge se shranijo skupaj z dokumentom.
 
@@ -144,9 +144,9 @@ Meni v zgornjem desnem kotu omogoča:
 
 - **Tiskanje**
 - **Izvoz (PDF)**
-- **Tisk sredstva** (zaključeni dokumenti)
+- **Tiskaj sredstvo** (zaključeni dokumenti)
 - **Storniraj dokument** (zaključeni dokumenti)
-- **Vrni v osnutek** (zaključeni dokumenti)
+- **Povrni v osnutek** (zaključeni dokumenti)
 
 > **Opomba o storniranju:**  
 > Stornirana dobavnica je prikazana pod *Stanje storniranja → Stornirano* v stranskem meniju.

@@ -28,19 +28,19 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator dokumenta. |
-| **Številka naročila kupca** | Neobvezna referenca kupca. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dokumenta. |
+| **Številka naročilnice** | Neobvezna referenca kupca. |
 | **Stranka** | Obvezno. Izbrana iz [**Poslovnega imenika**](../../Skupno/Sifranti/PoslovniImenik.md). Na voljo so le zapisi z oznakama **Stranka** in **Oseba**. |
-| **Datum izdaje** | Datum nastanka dokumenta. |
-| **Datum dobave** | Datum izročitve ali prevzema blaga. |
+| **Datum dokumenta** | Datum nastanka dokumenta. |
+| **Datum opravljene storitve** | Datum izročitve ali prevzema blaga. |
 | **Datum zapadlosti** | Rok plačila (obvezno). |
-| **Vrsta sklica** | Vrsta plačilnega sklica (obvezno). |
-| **Sklicna številka** | Sklicna številka za plačilo. |
+| **Tip reference** | Vrsta plačilnega sklica (obvezno). |
+| **Sklic** | Sklicna številka za plačilo. |
 | [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Račun za prejem plačila (obvezno). |
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev prihodka. |
 | **Koda namena** | Neobvezna koda namena transakcije. |
 | **Rabat** | Skupni rabat na dokumentu. |
-| **Dobava** | Podatki o podjetju in naslovu dobave. |
+| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
 
@@ -50,7 +50,7 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 |------|------|
 | [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Prodan izdelek ali storitev. |
 | **Količina** | Količina sredstva (privzeto **1**). |
-| **Neto cena** | Neto cena na enoto. |
+| **Cena brez DDV** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na postavki. |
 | **Vrednost** | Izračunane vrednosti (neto, davek, bruto). |
 
@@ -58,10 +58,10 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 
 Maloprodajna predplačila podpirajo naslednja stanja:
 
-- **Osnutek**
+- **Osnutki**
 - **Neplačani**
 - **Delno plačani**
-- **V celoti plačani**
+- **Plačani**
 
 Po objavi dokumenta postane na voljo gumb **Plačilo**.
 
@@ -69,9 +69,8 @@ Po objavi dokumenta postane na voljo gumb **Plačilo**.
 
 Seznam je mogoče filtrirati po:
 - **Datumih dokumentov**
-- **Pogledu** (Osnutki, Neplačani, Delno plačani, V celoti plačani)
+- **Pogledu** (Osnutki, Neplačani, Delno plačani, Plačani)
 - **Stranki**
-- **Načinu plačila**
 
 Vsaka vrstica prikazuje:
 - Stranko  
@@ -94,7 +93,7 @@ Maloprodajna predplačila je mogoče ustvariti **samo ročno**.
 
    ![Klasifikacija stranke](../../Skupno/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija stranke")
 
-3. Izpolnite obvezna polja: **Datum zapadlosti**, **Vrsta sklica**, **Sklicna številka** in **Bančni račun organizacije**.
+3. Izpolnite obvezna polja: **Datum zapadlosti**, **Tip reference**, **Sklic** in **Bančni račun organizacije**.
 
 4. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **serijske številke**, **EAN** ali **naziva sredstva**.
 
