@@ -46,7 +46,7 @@ Klik na ploščico imenika odpre **pogled imenika**, kjer lahko uporabniki navig
 
 ## Pogled imenika
 
-Klik na imenik v razdelku **Brskanje po vseh temah** odpre **pogled imenika**, ki prikazuje članke znotraj izbranega imenika.
+Klik na imenik v razdelku **Prebrskaj vse teme** odpre **pogled imenika**, ki prikazuje članke znotraj izbranega imenika.
 
 ![Pogled imenika baze znanja](../Images/KnowledgeBaseDirectory.png "Pogled imenika baze znanja")
 

@@ -11,11 +11,11 @@ Za dostop do tega zaslona pojdite na **Znanje / Upravljanje / Imeniki** v [navig
 
 | Polje | Opis |
 |------|------|
-| **Ime** | Prikazno ime imenika (obvezno). |
+| **Naziv** | Prikazno ime imenika (obvezno). |
 | **Ključ** | Kratek enolični identifikator imenika (obvezno). |
 | **Opis** | Neobvezen opis namena imenika. |
 | **Slika** | Neobvezna slika za vizualno predstavitev imenika (priporočeno razmerje 1 : 1). |
-| **Omogočeno** | Določa, ali je imenik viden in na voljo v [**bazi znanja**](../BazaZnanja/BazaZnanja.md). |
+| **Omogočen** | Določa, ali je imenik viden in na voljo v [**bazi znanja**](../BazaZnanja/BazaZnanja.md). |
 
 ## Upravljanje
 
@@ -51,7 +51,7 @@ Izpolnite naslednja polja:
 - **Ključ**
 - **Opis** (neobvezno)
 - **Slika** (neobvezno)
-- **Omogočeno** – določa, ali je imenik viden v [**bazi znanja**](../BazaZnanja/BazaZnanja.md)
+- **Omogočen** – določa, ali je imenik viden v [**bazi znanja**](../BazaZnanja/BazaZnanja.md)
 
 ![Nov imenik](../Images/DirectoriesNew.png "Nov imenik")
 

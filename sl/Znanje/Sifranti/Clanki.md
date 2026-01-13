@@ -13,10 +13,10 @@ Za upravljanje člankov pojdite na **Znanje / Upravljanje / Imeniki** v [navigac
 | **Naslov** | Prikazni naslov članka (obvezno). |
 | **Ključ** | Kratek enolični identifikator članka (obvezno). |
 | **Vsebina** | Glavno besedilo članka, urejeno z urejevalnikom besedila. |
-| **Priloge** | Neobvezne datoteke, priložene članku. |
+| **Priponke** | Neobvezne datoteke, priložene članku. |
 | **Oznake** | Oznake za kategorizacijo in filtriranje članka. |
 | **Datum objave** | Datum, od katerega je članek viden. |
-| **Datum poteka** | Datum, po katerem članek ni več viden. |
+| **Datum veljavnosti** | Datum, po katerem članek ni več viden. |
 | **Sodelovanje** | Omogoča ali onemogoča komentarje na članku. |
 | **Samodejno shranjevanje** | Samodejno shranjuje spremembe med urejanjem. |
 
@@ -47,10 +47,10 @@ Pri ustvarjanju ali urejanju članka so na voljo naslednja polja:
 - **Naslov**
 - **Ključ**
 - **Vsebina**
-- **Priloge**
+- **Priponke**
 - **Oznake**
 - **Datum objave**
-- **Datum poteka**
+- **Datum veljavnosti**
 - **Sodelovanje**
 - **Samodejno shranjevanje**
 
@@ -75,11 +75,11 @@ Urejevalnik ponuja običajne možnosti oblikovanja, ki jih najdemo v večini ure
 
 Urejevalnik je zasnovan tako, da omogoča jasno in strukturirano dokumentacijo brez potrebe po tehničnem znanju.
 
-## Priloge
+## Priponke
 
 Članki lahko vključujejo **datotečne priloge**, kot so dokumenti ali slike.
 
-Priloge se naložijo prek **območja za nalaganje** na zaslonu za urejanje članka in so prikazane skupaj z vsebino v [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
+Priponke se naložijo prek **območja za nalaganje** na zaslonu za urejanje članka in so prikazane skupaj z vsebino v [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
 
 ## Oznake
 
@@ -92,7 +92,7 @@ Oznake se izberejo iz **[Oznake imenika](OznakeImenika.md)** in jih je mogoče p
 Članke je mogoče časovno načrtovati z uporabo:
 
 - **Datum objave** – določa, kdaj postane članek viden
-- **Datum poteka** – določa, kdaj članek ni več viden
+- **Datum veljavnosti** – določa, kdaj članek ni več viden
 
 Če datumi niso nastavljeni, je članek viden takoj in brez časovne omejitve.
 
