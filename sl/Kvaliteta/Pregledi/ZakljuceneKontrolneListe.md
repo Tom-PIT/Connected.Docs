@@ -8,13 +8,13 @@ Za dostop do tega pogleda se pomaknite na **Kvaliteta / Pogledi / Zaključene ko
 
 Na vrhu zaslona več kazalnikov povzema trenutno stanje zaključenih kontrolnih seznamov:
 
-- **Vsi kontrolni seznami**  
+- **Vse kontrolne liste**  
   Prikazuje skupno število zaključenih izvajanj kontrolnih seznamov in **stopnjo uspešnosti kontrolnih seznamov** (odstotek v celoti potrjenih kontrolnih seznamov).
 
-- **Veljavni**  
+- **Veljavne**  
   Število zaključenih kontrolnih seznamov, pri katerih so bile **vse kontrolne točke potrjene**.
 
-- **Neveljavni**  
+- **Neveljavne**  
   Število zaključenih kontrolnih seznamov, pri katerih **vsaj ena kontrolna točka ni bila potrjena**.
 
 Klik na posamezni kazalnik ustrezno filtrira seznam.
@@ -27,10 +27,10 @@ Seznam prikazuje zaključena izvajanja kontrolnih seznamov z njihovimi glavnimi 
 
 Prikazane informacije običajno vključujejo:
 
-- **Kontrolni seznam** — koda in ime kontrolnega seznama (npr. `CHL-25-00000003` · Potrebni materiali)
-- **Dokument** — izvorni dokument in koda (npr. Proizvodni nalog `PRO-25-000026`)
-- **Operacija** — koda in ime operacije (npr. `OPR-25-000017, Montaža`)
-- **Izdelek** — ime in koda izdelka
+- **Kontrolni list** — šifra in ime kontrolnega seznama (npr. `CHL-25-00000003` · Potrebni materiali)
+- **Dokument** — izvorni dokument in šifra (npr. Proizvodni nalog `PRO-25-000026`)
+- **Operacija** — šifra in ime operacije (npr. `OPR-25-000017, Montaža`)
+- **Izdelek** — ime in šifra izdelka
 - **Organizacijska enota** — odgovorna enota
 - **Preveril** — uporabnik, ki je zaključil kontrolni seznam
 - **Datum in čas zaključka**
@@ -39,8 +39,8 @@ Vrstice **niso razširljive**. Za ogled podrobnosti kontrolnega seznama odprite 
 
 ### Interakcije vrstic
 
-- Kliknite **kodo kontrolnega seznama**, da odprete **poročilo kontrolnega seznama**.
-- Kliknite **kodo proizvodnega naloga**, da odprete povezani dokument [proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md).
+- Kliknite **šifro kontrolnega seznama**, da odprete **poročilo kontrolnega seznama**.
+- Kliknite **šifro proizvodnega naloga**, da odprete povezani dokument [proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md).
 
 ## Meni
 
@@ -53,26 +53,26 @@ Vrstice **niso razširljive**. Za ogled podrobnosti kontrolnega seznama odprite 
 
 Uporabite filtre v levi stranski vrstici za zoženje seznama:
 
-- **Datumi kontrolnih seznamov** — filtriranje po časovnem obdobju zaključka kontrolnega seznama
-- **Vrsta dokumenta** — omejitev rezultatov na:
+- **Datumi kontrolnih list** — filtriranje po časovnem obdobju zaključka kontrolnega seznama
+- **Tip dokumenta** — omejitev rezultatov na:
   - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)
   - [Vzdrževalni nalog](../../Vzdrževanje/Dokumenti/VzdrževalniNalogi.md)
 - **Dokument** — filtriranje po določenem dokumentu
 - **Človeški viri** — filtriranje po uporabniku, ki je zaključil kontrolni seznam
-- **Kontrolni seznam** — filtriranje po definiciji kontrolnega seznama
+- **Kontrolna lista** — filtriranje po definiciji kontrolnega seznama
 
 Vsi filtri so neobvezni in jih je mogoče kombinirati.
 
 ## Poročilo kontrolnega seznama
 
-Klik na kodo kontrolnega seznama odpre zaslon **Poročilo kontrolnega seznama**, ki prikazuje celoten rezultat zaključenega izvajanja kontrolnega seznama.
+Klik na šifro kontrolnega seznama odpre zaslon **Poročilo kontrolnega seznama**, ki prikazuje celoten rezultat zaključenega izvajanja kontrolnega seznama.
 
 ![Poročilo kontrolnega seznama](../Images/CompletedChecklistReport.png)
 
 Poročilo vključuje:
 
 - **Informacije o kontrolnem seznamu**
-  - Koda in ime
+  - šifra in ime
   - Datum in čas zaključka
   - Preveril (uporabnik, ki je zaključil kontrolni seznam)
 
