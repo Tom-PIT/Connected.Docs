@@ -18,12 +18,12 @@ Tipičen potek:
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator ponudbe. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator ponudbe. |
 | **Stranka** | Stranka, ki prejme ponudbo, izbrana iz šifranta [Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka ponudbe. |
 | **Datum veljavnosti** | Datum do katerega ponudba velja (obvezno). |
 | **Rabat** | Neobvezen skupni popust na celotno ponudbo (npr. vnesite *2* za 2 % popust). |
-| **Dobava – Podjetje / Naslov** | Podatki o dobavi za stranko; vrednosti se povzamejo iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md). |
+| **Dostava – Podjetje / Naslov** | Podatki o dobavi za stranko; vrednosti se povzamejo iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
 | **Postavke** | Seznam ponujenih postavk (sredstev) s cenami in dobavnimi podatki; postavke izvirajo iz šifranta [Sredstva](../../Sredstva/Sifranti/Izdelki.md) (obvezno). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
@@ -36,7 +36,7 @@ Tipičen potek:
 | [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Izdelek ali storitev, ki se ponuja. |
 | **Datum dobave** | Predviden datum dobave za to postavko. |
 | **Količina** | Količina sredstva. |
-| **Neto cena (na enoto)** | Cena na enoto, povzeta iz nastavitev sredstva ali ustreznega [cenika sredstev](../../Sredstva/Sifranti/CenikiMaterialov.md). |
+| **Cena brez DDV (na enoto)** | Cena na enoto, povzeta iz nastavitev sredstva ali ustreznega [cenika sredstev](../../Sredstva/Sifranti/CenikiMaterialov.md). |
 | **Popust (%)** | Neobvezen popust za posamezno postavko. |
 | [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Skupna vrednost postavke (količina × neto cena po popustih). |
@@ -59,9 +59,9 @@ Seznam ponudb omogoča pregled vseh ponudb, razdeljenih na **Osnutke**, **Na vol
 
 Na vrhu seznama sistem prikazuje ključne kazalnike za trenutno filtrirane podatke:
 
-- **Zapoznele ponudbe** – Ponudbe, katerih datum veljavnosti je potekel in niso bile potrjene ali zaključene.
+- **Pretečene ponudbe** – Ponudbe, katerih datum veljavnosti je potekel in niso bile potrjene ali zaključene.
 - **Plačane ponudbe** (interaktivno) – Ponudbe, za katere je bilo evidentirano celotno plačilo; klik prikaže samo plačane ponudbe.
-- **Skupni znesek** – Skupna vrednost vseh ponudb, vključenih v aktivni filter.
+- **Skupna cena** – Skupna vrednost vseh ponudb, vključenih v aktivni filter.
 
 Filtri na levi strani omogočajo zoženje rezultatov po **datumih dokumentov**, **statusu** in **stranki**.
 
@@ -107,9 +107,9 @@ Kliknite katero koli ponudbo v seznamu, da jo odprete. Osnutke je mogoče prosto
 
 Objavljene ponudbe omogočajo omejene spremembe, odvisno od sistemske konfiguracije.
 
-#### Priloge
+#### Priponke
 
-Na vrhu vsakega dokumenta je razdelek **Priloge**.
+Na vrhu vsakega dokumenta je razdelek **Priponke**.
 
 Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali podporna dokazila. Vse priloge se shranijo skupaj z dokumentom.
 
@@ -124,7 +124,7 @@ Pogosta dejanja vključujejo:
 
 - **Projekt** – povezava ponudbe s projektom  
 - **Kopiraj ponudbo** – podvojitev ponudbe  
-- **+ Predračun** – ustvarjanje predračuna  
+- [**+ Predračun**](Predracuni.md) – ustvarjanje predračuna  
 - **+ Prodajni nalog** – neposredno ustvarjanje [prodajnega naloga](ProdajniNalogi.md) iz ponudbe
 
 ![Povezani dokumenti](../Images/OfferPublishedLinkedDocuments.png "Povezani dokumenti")

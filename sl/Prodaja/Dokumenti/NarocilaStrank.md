@@ -27,12 +27,12 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator naročila stranke. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator naročila stranke. |
 | **Stranka** | Stranka, ki odda naročilo, izbrana iz šifranta [Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka naročila stranke. |
-| **Datum dobave** | Predviden datum dobave naročila (obvezno). |
+| **Datum prodaje** | Predviden datum dobave naročila (obvezno). |
 | **Rabat** | Neobvezen popust na celotno naročilo stranke. |
-| **Nabavni nalog** | Neobvezna povezava na povezani [nabavni nalog](../../Nabava/Dokumenti/NabavniNalogi.md). |
+| **Številka naročilnice** | Neobvezna povezava na povezani [nabavni nalog](../../Nabava/Dokumenti/NabavniNalogi.md). |
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md). |
 | **Postavke** | Seznam prodanih postavk (sredstev) z datumi dobave, cenami, količinami in davki (obvezno). |
 | [**Način plačila**](../Sifranti/NacinPlacila.md) | Načini plačila, povezani z naročilom stranke. |
@@ -44,7 +44,7 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | **Sredstvo** | Izdelek ali storitev, ki se prodaja. |
 | **Datum dobave** | Načrtovan datum dobave za posamezno postavko. |
 | **Količina** | Količina izbranega sredstva. |
-| **Neto cena (na enoto)** | Uporabljena cena na enoto (iz nastavitev sredstva ali cenikov). |
+| **Cena brez DDV (na enoto)** | Uporabljena cena na enoto (iz nastavitev sredstva ali cenikov). |
 | **Popust (%)** | Popust za posamezno postavko. |
 | [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Končna vrednost postavke (količina × cena − popust). |
@@ -67,8 +67,8 @@ Seznam prikazuje vsa naročila strank z njihovim trenutnim statusom in datumi do
 
 Na vrhu seznama sistem prikazuje povzetne kazalnike glede na trenutno uporabljene filtre:
 
-- **Zapoznela naročila** – Naročila strank, katerih predviden datum dobave je potekel in še niso zaključena.
-- **Skupni znesek** – Skupna vrednost vseh naročil strank v aktivnem filtru.
+- **Zamujena naročila** – Naročila strank, katerih predviden datum dobave je potekel in še niso zaključena.
+- **Skupna cena vseh naročil** – Skupna cena vseh naročil strank v aktivnem filtru.
 
 **Osnutki:**
 
@@ -121,9 +121,9 @@ Po objavi se naročilo stranke premakne v stanje **Potrjeno → Na voljo** in om
 
 Naročilo stranke je razdeljeno v več razširljivih razdelkov.
 
-#### Priloge
+#### Priponke
 
-Na vrhu dokumenta je razdelek **Priloge**, kjer lahko naložite spremljajoče datoteke.
+Na vrhu dokumenta je razdelek **Priponke**, kjer lahko naložite spremljajoče datoteke.
 
 #### Povezani dokumenti
 

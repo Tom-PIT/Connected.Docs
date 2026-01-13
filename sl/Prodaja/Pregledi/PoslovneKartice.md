@@ -26,7 +26,7 @@ Leva stranska vrstica omogoča natančno filtriranje prikazanih zapisov:
 - **Tip poslovne kartice**  
   - *Vse*  
   - *Debet*  
-  - *DKredit*  
+  - *Kredit*  
 - **Podjetje** – izbor posamezne stranke
 
 ## Prikaz statusa plačil
@@ -66,7 +66,7 @@ To pomeni:
 
 Ti vizualni indikatorji omogočajo hiter pregled stanja brez odpiranja posameznih dokumentov.
 
-## Opombe o uporabi
+## Postavke o uporabi
 
 - Pogled združuje **bremenitve in dobroimetja** v enem seznamu, kar omogoča hiter pregled finančnega stanja po dokumentih.  
 - Uporabite ga za spremljanje zapadlih terjatev, delnih plačil in kreditnih pozicij po strankah.

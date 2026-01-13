@@ -8,11 +8,11 @@ Za dostop do te strani pojdite na **Prodaja / Šifranti / Konfiguracija prodaje*
 
 ## Nastavitve številčenja dokumentov
 
-Izberite model številčenja in obliko kode za prodajne dokumente (Ponudbe, Prodajni nalogi, Dobavnice, Izdani računi, Dobropisi, Breme­pisi).
+Izberite model številčenja in obliko šifre za prodajne dokumente (Ponudbe, Prodajni nalogi, Dobavnice, Izdani računi, Dobropisi, Breme­pisi).
 
 | Polje | Opis |
 |------|------|
-| **Model številčenja dokumentov** | • **Zaporedno po letih:** zaporedje se vsako leto ponastavi. <br> • **Zaporedno:** globalno zaporedje, ki se nikoli ne ponastavi. |
-| **Oblika kode dokumenta** | Vzorec, ki določa strukturo kode (npr. PREDPONA-LETO-ŠTEVILKA). |
+| **Način številčenja dokumenta** | • **Povečevanje vsako leto:** zaporedje se vsako leto ponastavi. <br> • **Povečevanje:** globalno zaporedje, ki se nikoli ne ponastavi. |
+| **Oblika zapisa šifre dokumenta** | Vzorec, ki določa strukturo šifre (npr. PREDPONA-LETO-ŠTEVILKA). |
 
 ---

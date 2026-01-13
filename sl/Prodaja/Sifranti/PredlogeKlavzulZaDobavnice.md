@@ -21,7 +21,7 @@ Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za do
 | Polje | Opis |
 |------|------|
 | **Lokacija** | Mesto izpisa klavzule na dobavnici (zgoraj ali spodaj). |
-| **Zaporedna številka** | Zaporedje prikaza klavzule (npr. 1, 2, 3 …). |
+| **Vrstni red** | Zaporedje prikaza klavzule (npr. 1, 2, 3 …). |
 | **Klavzula** | Vnaprej določeno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md) (entiteta = *Dobavnica*). |
 
 ## Upravljanje

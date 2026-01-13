@@ -26,20 +26,20 @@ Bremepisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator bremepisa. |
-| **Številka naročila kupca** | Neobvezna referenca na naročilo stranke. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator bremepisa. |
+| **Številka naročilnice** | Neobvezna referenca na naročilo stranke. |
 | **Stranka** | Stranka, ki ji je zaračunan bremepis, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
-| **Datum izdaje** | Datum izdaje bremepisa. |
-| **Datum dobave** | Prvotni datum dobave zaračunanega blaga ali storitev. |
+| **Datum dokumenta** | Datum izdaje bremepisa. |
+| **Datum opravljene storitve** | Prvotni datum dobave zaračunanega blaga ali storitev. |
 | **Datum zapadlosti** | Datum, ko dodatni znesek zapade v plačilo (obvezno). |
-| **Vrsta sklica** | Vrsta uporabljenega plačilnega sklica (obvezno). |
-| **Sklicna številka** | Sklicna številka glede na izbrano vrsto sklica. |
+| **Tip reference** | Vrsta uporabljenega plačilnega sklica (obvezno). |
+| **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
 | [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Bančni račun, na katerega se prejme plačilo (obvezno). |
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezna oznaka ali razlog za bremepis. |
 | **Rabat** | Skupni rabat, uporabljen na bremepis (če je primerno). |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
-| **Dobava** | Podatki o podjetju in naslovu dobave. |
+| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
 
 ### Polja postavk
@@ -65,7 +65,7 @@ Seznam bremepisov je mogoče filtrirati po:
 
 Vsaka vrstica prikazuje:
 - Stranko  
-- Kodo dokumenta  
+- Šifro dokumenta  
 - Datum dokumenta  
 - Znesek bremepisa  
 
@@ -88,7 +88,7 @@ Po začetku novega bremepisa sledite korakom:
 
    ![Nov bremepis](../Images/DebitNoteNew.png "Nov bremepis")
 
-2. Izpolnite zahtevana polja, kot so **Stranka**, **Datumi**, **Vrsta sklica** in **Bančni račun organizacije**.
+2. Izpolnite zahtevana polja, kot so **Stranka**, **Datumi**, **Tip reference** in **Bančni račun organizacije**.
 
 3. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **naziva sredstva**, **EAN** ali **serijske številke**.
 
@@ -113,9 +113,9 @@ Uredite lahko:
 
 Potrjeni bremepisi so samo za branje.
 
-#### Priloge
+#### Priponke
 
-V razdelku **Priloge** lahko shranite podporne dokumente, kot so dogovori ali obrazložitve popravkov.
+V razdelku **Priponke** lahko shranite podporne dokumente, kot so dogovori ali obrazložitve popravkov.
 
 #### Povezani dokumenti
 

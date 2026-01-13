@@ -26,20 +26,20 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator dobropisa. |
-| **Številka naročila kupca** | Neobvezna referenca na naročilo stranke. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dobropisa. |
+| **Številka naročilnice** | Neobvezna referenca na naročilo stranke. |
 | **Stranka** | Stranka, ki prejme dobropis, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
-| **Datum izdaje** | Datum izdaje dobropisa. |
-| **Datum dobave** | Prvotni datum dobave zaračunanega blaga ali storitev. |
+| **Datum dokumenta** | Datum izdaje dobropisa. |
+| **Datum opravljene storitve** | Prvotni datum dobave zaračunanega blaga ali storitev. |
 | **Datum zapadlosti** | Datum, ko dobropis stopi v veljavo (obvezno). |
-| **Vrsta sklica** | Vrsta uporabljenega plačilnega sklica (obvezno). |
-| **Sklicna številka** | Sklicna številka glede na izbrano vrsto sklica. |
+| **Tip reference** | Vrsta uporabljenega plačilnega sklica (obvezno). |
+| **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
 | [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Bančni račun za vračila ali računovodsko obdelavo (obvezno). |
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezna oznaka ali razlog za dobropis. |
 | **Rabat** | Skupni rabat, uporabljen na dobropis. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
-| **Dobava** | Podatki o podjetju in naslovu dobave. |
+| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
 
 ### Polja postavk
@@ -48,7 +48,7 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 |------|------|
 | [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Dobropisano blago ali storitev. |
 | **Količina** | Dobropisana količina (običajno negativna). |
-| **Neto cena** | Neto cena na enoto. |
+| **Cena brez DDV** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |
 | **Vrednost** | Izračunane vrednosti (neto, davek, bruto) z negativnimi zneski. |
 
@@ -88,7 +88,7 @@ Po začetku novega dobropisa sledite korakom:
 
    ![Nov dobropis](../Images/CreditNoteNew.png "Nov dobropis")
 
-2. Izpolnite zahtevana polja, kot so **Stranka**, **Datumi**, **Vrsta sklica** in **Bančni račun organizacije**.
+2. Izpolnite zahtevana polja, kot so **Stranka**, **Datumi**, **Tip reference** in **Bančni račun organizacije**.
 
 3. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **naziva sredstva**, **EAN** ali **serijske številke**.
 
@@ -116,9 +116,9 @@ Uredite lahko:
 
 Potrjeni dobropisi so samo za branje.
 
-#### Priloge
+#### Priponke
 
-V razdelku **Priloge** lahko shranite podporne dokumente, kot so potrdila o vračilu ali dogovori.
+V razdelku **Priponke** lahko shranite podporne dokumente, kot so potrdila o vračilu ali dogovori.
 
 #### Povezani dokumenti
 

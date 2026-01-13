@@ -13,11 +13,11 @@ Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Postavke naročil s
 
 Vsaka vrstica v seznamu predstavlja **eno posamezno postavko naročila stranke**, vključno z naslednjimi podatki:
 
-- **Sredstvo** – Izdelek ali storitev, ki se prodaja  
-- **Podatki o dobavi** – Stranka in predviden datum dobave  
+- **Vrsta blaga oz. storitev** – Izdelek ali storitev, ki se prodaja  
+- **Podrobnosti o dobavi** – Stranka in predviden datum dobave  
 - **Količina** – Naročena količina  
 - **Zaloga** – Trenutna zaloga v skladišču  
-- **Dobavljena količina** – Prikaz potrjene in nepotrjene dobave  
+- **Dostavljena količina** – Prikaz potrjene in nepotrjene dobave  
   - Primer: *0 kos (Potrjeno: 0 / Nepotrjeno: 0)*  
   - To omogoča spremljanje napredka izpolnjevanja naročila
 

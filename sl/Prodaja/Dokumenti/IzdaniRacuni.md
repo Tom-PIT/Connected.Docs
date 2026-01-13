@@ -19,20 +19,20 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Enolični identifikator računa (sistemsko generiran). |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator računa (sistemsko generiran). |
 | **Številka naročila kupca** | Neobvezna referenca na naročilo stranke. |
 | **Stranka** | Prejemnik računa, izbran iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
-| **Datum izdaje** | Datum izdaje računa. |
-| **Datum dobave** | Datum, ko je bilo blago ali storitev dobavljena. |
+| **Datum dokumenta** | Datum izdaje računa. |
+| **Datum opravljene storitve** | Datum, ko je bilo blago ali storitev dobavljena. |
 | **Datum zapadlosti** | Rok plačila, prikazan stranki (obvezno). |
-| **Vrsta sklica** | Vrsta plačilnega sklica (npr. strukturiran sklic, model) (obvezno). |
-| **Sklicna številka** | Sklicna številka za plačilne dokumente, glede na izbrano vrsto sklica. |
+| **Tip reference** | Vrsta plačilnega sklica (npr. strukturiran sklic, model) (obvezno). |
+| **Sklic** | Sklicna številka za plačilne dokumente, glede na izbrano vrsto sklica. |
 | [**Bančni računi organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Račun za prejem plačila, izbran iz šifranta bančnih računov organizacije (obvezno). |
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev prihodka na stroškovno mesto. |
 | **Koda namena** | Neobvezna koda namena računa (če je konfigurirana). |
 | **Rabat** | Skupni rabat, uporabljen na celoten znesek računa. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
-| **Dobava** | Podatki o podjetju in naslovu dobave. |
+| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
 | **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Sifranti/NacinPlacila.md). |
 
@@ -42,7 +42,7 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 |------|------|
 | [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Zaračunan izdelek ali storitev iz področja Sredstva. |
 | **Količina** | Količina zaračunanega sredstva. |
-| **Neto cena** | Neto cena na enoto, običajno povzeta iz cenikov ali povezanega dokumenta. |
+| **Cena brez DDV** | Neto cena na enoto, običajno povzeta iz cenikov ali povezanega dokumenta. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |
 | **Vrednost** | Izračunane vrednosti postavke (neto, davek in bruto). |
 
@@ -56,9 +56,9 @@ Izdani računi uporabljajo plačilno osnovane statuse:
 
 - **Obdelan** – Račun je objavljen in postane uradni finančni dokument. Po potrditvi je mogoče spreminjati le omejena polja, dokumenta pa ni mogoče izbrisati.
 
-  - **Neplačani računi** – Račun je izdan, vendar plačila še niso evidentirana.  
-  - **Delno plačani računi** – Evidentirano je eno ali več plačil, vendar ostaja odprt znesek.  
-  - **V celoti plačani računi** – Račun je v celoti poravnan.  
+  - **Neplačani** – Račun je izdan, vendar plačila še niso evidentirana.  
+  - **Delno plačani** – Evidentirano je eno ali več plačil, vendar ostaja odprt znesek.  
+  - **Plačani** – Račun je v celoti poravnan.  
   - **Stornirano** – Ustvarjen je bil storno dokument za popravek ali preklic računa.
 
 Ti statusi določajo razpoložljiva dejanja (evidentiranje plačil, storniranje, izvoz ipd.) in način prikaza v seznamih.
@@ -78,15 +78,15 @@ Na vrhu seznama so prikazani ključni kazalniki:
 
 Kazalniki se posodabljajo glede na izbrane filtre:
 - **Datumi dokumentov**
-- **Datum dobave**
+- **Datum opravljene storitve**
 - **Datum zapadlosti**
 - **Pogled**  
   - **Osnutki**  
   - **Obdelan**  
-  - **Neplačani računi**  
-  - **Delno plačani računi**  
-  - **V celoti plačani računi**  
-  - **Vse**
+  - **Neplačani**  
+  - **Delno plačani**  
+  - **Plačani**  
+  - **Vsi**
 - **Stanje storniranja**
 - **Stranka**
 - **Način plačila**
@@ -113,10 +113,10 @@ Po začetku novega računa sledite korakom:
 1. Uporabite **akcijski gumb** ali razdelek **Povezani dokumenti**, da ustvarite osnutek.  
 2. Izpolnite ključna polja:
    - **Stranka**  
-   - **Datum izdaje**  
-   - **Datum dobave**  
+   - **Datum dokumenta**  
+   - **Datum opravljene storitve**  
    - **Datum zapadlosti**  
-   - **Vrsta sklica / Sklicna številka**  
+   - **Tip reference / Sklic**  
    - **Bančni račun organizacije**  
    - **Način plačila**
 

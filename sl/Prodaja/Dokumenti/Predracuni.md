@@ -24,13 +24,13 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran identifikator predračuna. |
-| **Številka naročila kupca** | Neobvezna referenca na naročilo stranke. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator predračuna. |
+| **Številka naročilnice** | Neobvezna referenca na naročilo stranke. |
 | **Stranka** | Prejemnik dokumenta, izbran iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka predračuna. |
 | **Datum veljavnosti** | Datum, do katerega so cene in pogoji veljavni (obvezno). |
-| **Vrsta sklica** | Vrsta plačilnega sklica (obvezno). |
-| **Sklicna številka** | Sklicna številka glede na izbrano vrsto sklica. |
+| **Tip reference** | Vrsta plačilnega sklica (obvezno). |
+| **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
 | [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Bančni račun, prikazan na dokumentu (obvezno). |
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezni opis namena dokumenta. |
@@ -57,7 +57,7 @@ Predračuni imajo lahko status **Osnutek** ali **Potrjeno**.
 
 Seznam predračunov je mogoče filtrirati po:
 - **Datumih dokumentov**
-- **Pogledu** (Osnutki / Potrjeno)
+- **Pogledu** (Osnutek / Potrjeno)
 - **Stranki**
 
 Vsaka vrstica prikazuje:
@@ -90,7 +90,7 @@ Koraki:
    - **Datum dokumenta**  
    - **Datum veljavnosti**  
    - **Rabat** (neobvezno)  
-   - **Vrsto sklica / Sklicno številko**  
+   - **Tip reference / Sklic**  
    - **Bančni račun organizacije**
 
    ![Nov predračun – zgornji del](../Images/ProformaInvoiceNewTop.png "Nov predračun – zgornji del")
@@ -119,16 +119,16 @@ Spremenite lahko:
 
 Po objavi dokument preide v stanje **Potrjeno** in urejanje ni več dovoljeno.
 
-### Priloge
+### Priponke
 
-V razdelku **Priloge** lahko dodate podporne dokumente, kot so pogodbe ali potrditve stranke.
+V razdelku **Priponke** lahko dodate podporne dokumente, kot so pogodbe ali potrditve stranke.
 
 ### Povezani dokumenti
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in prikazuje obstoječe povezave.
 
 Pogosta dejanja:
-- **[+ Avans](Avansi.md)** – ustvari avans iz potrjenega predračuna  
+- **[+ Predplačilo](Predplacila.md)** – ustvari predplačilo iz potrjenega predračuna  
 - **Predračun** – kopira vsebino v nov predračun  
 - **[Ponudba](Ponudbe.md)** – prikaže izvorno ponudbo (če obstaja)
 
@@ -137,9 +137,9 @@ Pogosta dejanja:
 > [!NOTE]
 > Razpoložljiva dejanja so odvisna od statusa dokumenta.
 
-### Dobava
+### Dostava
 
-Razdelek **Dobava** določa naslov dobave. Privzeto se izpolni iz podatkov stranke, vendar ga je mogoče prilagoditi.
+Razdelek **Dostava** določa naslov dostave. Privzeto se izpolni iz podatkov stranke, vendar ga je mogoče prilagoditi.
 
 Ti podatki vplivajo na izpis dokumenta in nadaljnje logistične dokumente, ne spreminjajo pa osnovnih podatkov.
 
