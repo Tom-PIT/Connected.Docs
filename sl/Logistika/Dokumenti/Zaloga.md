@@ -44,7 +44,7 @@ Na vrhu je na voljo iskalno polje za hitro iskanje določenih materialov.
 ![Seznam zaloge](../Images/Stock.png "Seznam zaloge")
 
 Vsaka vrstica prikazuje:
-- **kodo in ime materiala**
+- **šifro in ime materiala**
 - **količino**
 - **oznako vrste materiala**
 
@@ -62,7 +62,7 @@ S klikom na **ime materiala** se odpre podroben razčlenjen prikaz, kje je mater
 Ta pogled vključuje:
 - **skupno zalogo**
 - **rezervirano zalogo**
-- **razpoložljivo zalogo**
+- **Na voljo zalogo**
 - **vizualno lestvico**, ki prikazuje zalogo glede na min/max meje  
 - **razčlenitev po skladiščnih mestih**, vključno z:
   - skladiščem in lokacijo  
@@ -93,10 +93,10 @@ Material ima lahko več **serijskih številk**, ki predstavljajo različne serij
 
 Ta pogled prikazuje:
 - **material in serijsko številko** – konkretno enoto, ki jo pregledujete  
-- **graf zaloge (kos)** – vizualni prikaz skupne in razpoložljive količine  
-- **razporeditve** – seznam vseh lokacij, kjer je ta serijska številka prisotna, skupaj s količinami  
-- **priloge** – datoteke, povezane s to serijsko številko (npr. poročila o kakovosti ali fotografije)  
-- **zgodovino** – časovnico vseh premikov in transakcij, povezanih s to serijsko številko
+- **Graf zaloge** – vizualni prikaz skupne in razpoložljive količine  
+- **Dodelitve** – seznam vseh lokacij, kjer je ta serijska številka prisotna, skupaj s količinami  
+- **Priponke** – datoteke, povezane s to serijsko številko (npr. poročila o kakovosti ali fotografije)  
+- **Dnevnik** – časovnico vseh premikov in transakcij, povezanih s to serijsko številko
 
 Zaslon **Pogled zaloge po serijski številki** je samo za branje in je namenjen podrobnemu sledenju in sledljivosti posamezne serijske številke.
 

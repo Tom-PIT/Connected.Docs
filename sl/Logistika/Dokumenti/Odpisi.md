@@ -15,7 +15,7 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta odpisa. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta odpisa. |
 | **Datum dokumenta** | Datum, ko je odpis zabeležen. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega se materiali odpisujejo (obvezno). |
 | **Razlog** | Opis razloga za odstranitev materiala (poškodba, izguba, pretečen rok itd.). |
@@ -26,9 +26,9 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 |------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se odpisuje ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
 | **Serijska številka** | Serijska številka prizadete enote. |
-| **Rok uporabe** | Datum roka uporabe (če je relevanten). |
+| **Datum do** | Datum roka uporabe (če je relevanten). |
 | [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Lokacija, kjer je material shranjen. |
-| **Količina (kos)** | Število kosov za odpis. Privzeta vrednost je celotna razpoložljiva količina na lokaciji, vendar jo je potrebno prilagoditi dejanskemu stanju. |
+| **Količina** | Število kosov za odpis. Privzeta vrednost je celotna razpoložljiva količina na lokaciji, vendar jo je potrebno prilagoditi dejanskemu stanju. |
 
 ## Seznam dokumentov odpisa
 
@@ -37,7 +37,7 @@ Stran **Odpisi** prikazuje vse dokumente odpisa. Posamezen dokument lahko poiš�
 - **Datumi dokumentov**
 - **Pogled**
   - *Osnutki* — ustvarjeni, a še ne objavljeni dokumenti  
-  - *Objavljeni* — zaključeni odpisi
+  - *Potrjeni* — zaključeni odpisi
 - **Avtor**
 - **Skladišče**
 
@@ -69,7 +69,7 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nov
 
 4. Izberite pravilno postavko, da odprete okno **Uredi postavko**.
 
-5. Prilagodite **Količino (kos)** glede na dejansko število poškodovanih ali manjkajočih kosov.
+5. Prilagodite **Količino** glede na dejansko število poškodovanih ali manjkajočih kosov.
 
    ![Podrobnosti odpisa](../Images/WriteoffsDetails.png)
 

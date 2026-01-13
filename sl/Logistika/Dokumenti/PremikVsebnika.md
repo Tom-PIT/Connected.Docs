@@ -21,7 +21,7 @@ Za dostop do **Premika vsebnika** pojdite na **Logistika / Dokumenti / Premik vs
 
 ### Korak 1 — Identifikacija vsebnika
 
-Skenirajte črtno kodo vsebnika ali vnesite **kodo vsebnika**. Uporabniški vmesnik prikaže podatke o vsebniku in njegovo trenutno lokacijo.
+Skenirajte črtno šifro vsebnika ali vnesite **šifro vsebnika**. Uporabniški vmesnik prikaže podatke o vsebniku in njegovo trenutno lokacijo.
 
 ![Premik vsebnika – korak 1](../Images/MoveContainerStep1.png)
 
@@ -42,13 +42,13 @@ Izberite **ciljno lokacijo**. To lahko storite na dva načina:
 
 ### Korak 3 — Potrditev premika
 
-Preglejte povzetek (vsebnik, izvorna in ciljna lokacija) in kliknite **Potrdi / Premakni**. Sistem zabeleži premik vsebnika in vseh postavk, ki jih vsebuje.
+Preglejte povzetek (vsebnik, izvorna in ciljna lokacija) in kliknite **Konec**. Sistem zabeleži premik vsebnika in vseh postavk, ki jih vsebuje.
 
 ![Premik vsebnika – korak 3](../Images/MoveContainerStep3.png)
 
 Po potrditvi:
 - lokacija vsebnika se spremeni na ciljno,
-- vse postavke znotraj vsebnika so v pregledih zaloge prikazane na ciljni lokaciji,
+- vse postavke znotraj vsebnika so v pregledih zaloge prikazane na končni lokaciji,
 - vse podrobnosti premika si lahko ogledate na strani **[Med-skladiščni promet](MedSkladiscniPromet.md)**.
 
 ---

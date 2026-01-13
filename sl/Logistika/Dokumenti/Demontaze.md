@@ -23,7 +23,7 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta demontaže. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta demontaže. |
 | **Datum dokumenta** | Datum dokumenta demontaže. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem se izvede demontaža (obvezno). |
 | **Postavke** | Seznam garnitur, ki se demontirajo (obvezno). |
@@ -32,10 +32,10 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 | Polje | Opis |
 |------|------|
-| **Garnitura (material)** | Združen material (npr. garnitura pohištva), ki se demontira (obvezno). Glejte **[Garniture](../../Sredstva/Sifranti/Garniture.md)**. |
+| **Izdelki** | Združen material (npr. garnitura pohištva), ki se demontira (obvezno). Glejte **[Garniture](../../Sredstva/Sifranti/Garniture.md)**. |
 | **Količina** | Število garnitur za demontažo (obvezno). |
 | **Serijska številka** | Serijska številka artikla, če je uporabljena. |
-| **Rok uporabe** | Datum roka uporabe za pokvarljive garniture ali komponente, če je uporaben. |
+| **Datum do** | Datum roka uporabe za pokvarljive garniture ali komponente, če je uporaben. |
 | [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Lokacija (polica / regal), kjer se demontaža izvaja ali kamor se deli shranijo. |
 
 ## Upravljanje
@@ -72,7 +72,7 @@ Demontažo ustvarite za razstavljanje garnitur na posamezne dele.
 
    ![Shranjene postavke](../Images/DisassembliesNewDetailsSaved.png)
 
-7. Kliknite **Objavi**, da zaključite demontažo. Dokument se prikaže med **Objavljeni**.
+7. Kliknite **Objavi**, da zaključite demontažo. Dokument se prikaže med **Potrjeni**.
 
 > [!IMPORTANT]
 > Ob objavi se zaloga posodobi: garnitura se odstrani (zmanjša za demontirano količino), komponente pa postanejo razpoložljive (povečanje glede na strukturo garniture). Lokacije se upoštevajo, če so določene.
@@ -87,7 +87,7 @@ S tem se ustvari osnutek demontaže, predizpolnjen na podlagi prejetih paketov, 
 
 ## Urejanje
 
-1. Kliknite **Kodo** dokumenta, da ga odprete.
+1. Kliknite **Šifro** dokumenta, da ga odprete.
 2. V stanju *Osnutek* lahko urejate glavo dokumenta in postavke.
 3. Kliknite **Shrani**, da potrdite spremembe.
 

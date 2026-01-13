@@ -16,7 +16,7 @@ Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [na
 
 | Polje | Opis |
 |-------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta korekcije. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta korekcije. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, na katero se korekcija nanaša (obvezno). |
 | **Datum dokumenta** | Datum dokumenta korekcije. |
 
@@ -26,10 +26,10 @@ Vsaka podrobnost opisuje material in korekcijo, ki se izvede.
 
 | Polje | Opis |
 |-------|------|
-| **Vrsta materiala** | Kategorija materiala, npr. [Izdelki](../../Sredstva/Sifranti/Izdelki.md), [Polizdelki](../../Sredstva/Sifranti/Polizdelki.md), [Surovine](../../Sredstva/Sifranti/Surovine.md), [Repro materiali](../../Sredstva/Sifranti/ReproMateriali.md). |
+| **Tip materiala** | Kategorija materiala, npr. [Izdelki](../../Sredstva/Sifranti/Izdelki.md), [Polizdelki](../../Sredstva/Sifranti/Polizdelki.md), [Surovine](../../Sredstva/Sifranti/Surovine.md), [Repro materiali](../../Sredstva/Sifranti/ReproMateriali.md). |
 | **Material** | Izbran artikel (npr. Borova miza) iz kataloga [Sredstev](../../Sredstva/Sifranti/Sredstva.md). |
 | **Serijska številka** | Serijska številka, na katero se korekcija nanaša, če je material serijsko voden. |
-| **Rok uporabe** | Datum roka uporabe, če je relevanten za pokvarljive materiale. |
+| **Datum do** | Datum roka uporabe, če je relevanten za pokvarljive materiale. |
 | **Skladiščna lokacija** | Regal / polica v skladišču za natančno umestitev. Glejte [Lokacije](../Sifranti/Lokacije.md). |
 | **Količina** | Količina za korekcijo (vnesite končno količino ali razliko, odvisno od konfiguracije). |
 
@@ -58,7 +58,7 @@ Korekcijo ustvarite, kadar prešteto stanje odstopa od sistemskega.
 5. Kliknite **Shrani**, da potrdite dodano postavko. Po potrebi ponovite korak 4.
 6. Kliknite **Objavi**, da uveljavite korekcije.
 
-Ob objavi se zaloga posodobi, dokument pa se premakne v pogled **Objavljeni**.
+Ob objavi se zaloga posodobi, dokument pa se premakne v pogled **Potrjeni**.
 
 > [!IMPORTANT]
 > Ob objavi se zaloga prilagodi: količine se povečajo ali zmanjšajo glede na korekcijo, atributi serij in lokacij pa se posodobijo skladno z vnosom.

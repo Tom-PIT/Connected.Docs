@@ -18,26 +18,26 @@ Seznam je strukturiran na naslednji način:
 
 - **Postavka** – material ali končni izdelek in skupna izdana količina  
   - **Dokument izdaje** – posamezen zapis izdaje  
-    - **Vir** – skladišče in lokacija, iz katere je bila postavka izdana  
+    - **Izvor** – skladišče in lokacija, iz katere je bila postavka izdana  
     - **Količina** – količina, izdana v tem dokumentu  
 
 Ko je dokument izdaje razširjen, so prikazani naslednji podatki:
 
 - **Številka dokumenta** – klikljiva, odpre [dokument izdaje](../Dokumenti/Izdajnice.md)  
 - **Datum in čas dokumenta**  
-- **Vir** – skladišče in lokacija (klikljivo)  
+- **Izvor** – skladišče in lokacija (klikljivo)  
 - **Izdana količina**
 
 ![IssueDetailsListExpanded](../Images/IssueDetailsList.png)
 
-## Navigacija po viru
+## Navigacija po Izvoru
 
-Stolpec **Vir** prikazuje:
+Stolpec **Izvor** prikazuje:
 
 - **Skladišče**
 - **Točno skladiščno lokacijo**
 
-Klik na vir odpre zaslon **[Pogled zaloge po lokacijah](PogledZalogePoLokacijah.md)**, filtriran na lokacijo, iz katere je bila postavka izdana. To omogoča pregled razpoložljive zaloge in drugih materialov, shranjenih na tej lokaciji.
+Klik na Izvor odpre zaslon **[Pogled zaloge po lokacijah](PogledZalogePoLokacijah.md)**, filtriran na lokacijo, iz katere je bila postavka izdana. To omogoča pregled razpoložljive zaloge in drugih materialov, shranjenih na tej lokaciji.
 
 ## Filtri
 

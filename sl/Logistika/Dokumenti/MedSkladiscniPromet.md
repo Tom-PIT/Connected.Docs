@@ -15,11 +15,11 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta med-skladiščnega prometa. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta med-skladiščnega prometa. |
 | **Datum dokumenta** | Datum, ko je prenos zabeležen. |
 | [**Izvorno skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega bodo materiali odstranjeni. |
-| [**Ciljno skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem bodo materiali prevzeti. |
-| **Opombe** | Dodatne opombe, povezane z dokumentom. |
+| [**Končno skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem bodo materiali prevzeti. |
+| **Postavke** | Dodatne postavke, povezane z dokumentom. |
 
 ### Razdelek postavk
 
@@ -27,10 +27,10 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 |------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se prenaša ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
 | **Serijska številka** | Serijska številka enote, ki se prenaša. |
-| **Rok uporabe** | Datum poteka (za materiale z rokom uporabe). |
+| **Datum do** | Datum poteka (za materiale z rokom uporabe). |
 | [**Izvorna lokacija**](../Sifranti/Lokacije.md) | Skladiščna lokacija v izvor­nem skladišču. |
-| [**Ciljna lokacija**](../Sifranti/Lokacije.md) | Skladiščna lokacija, kamor bo material shranjen. |
-| **Količina (kos)** | Količina, ki se prenaša. |
+| [**Končna lokacija**](../Sifranti/Lokacije.md) | Skladiščna lokacija, kamor bo material shranjen. |
+| **Količina** | Količina, ki se prenaša. |
 
 ## Seznam dokumentov med-skladiščnega prometa
 
@@ -39,10 +39,10 @@ Stran **Med-skladiščni promet** prikazuje vse dokumente prenosa. Dokument lahk
 - **Datumi dokumentov**
 - **Pogled**  
   - *Osnutki* — dokumenti, ki še niso objavljeni  
-  - *Objavljeni* — potrjeni in zaključeni prenosi
+  - *Potrjeni* — potrjeni in zaključeni prenosi
 - **Avtor**
 - **Izvorno skladišče**
-- **Ciljno skladišče**
+- **Končno skladišče**
 
 Barvni indikator ob dokumentu prikazuje njegovo stanje:
 
@@ -70,7 +70,7 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov 
    ![Rezultati iskanja](../Images/InterWarehouseSearchResults.png)
 
 3. Izberite pravilno postavko, sistem pa samodejno izpolni vsa polja.
-4. Po potrebi prilagodite **Ciljno lokacijo** ali **Količino**.
+4. Po potrebi prilagodite **Končno lokacijo** ali **Količino**.
 
    ![Podrobnosti prenosa](../Images/InterWarehouseDetails.png)
 
@@ -80,9 +80,9 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov 
 
 Novo ustvarjen dokument se prikaže med **Osnutki**. Po objavi se premakne med **Objavljene** in zaloga se takoj posodobi.
 
-## Opombe
+## Postavke
 
-Vsak dokument vsebuje razdelek **Opombe**, kamor lahko vnesete dodatne komentarje ali informacije o transakciji. Opombe se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
+Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komentarje ali informacije o transakciji. Postavke se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
 ## Meni
 

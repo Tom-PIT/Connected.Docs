@@ -14,11 +14,11 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta posoje. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta posoje. |
 | **Datum dokumenta** | Datum, ko je dokument posoje ustvarjen. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega se material posodi (obvezno). |
-| **Kontakt** | Stranka ali partner, ki prejme material, izbran iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
-| **Opombe** | Neobvezne opombe, povezane s posojo. |
+| **Stik** | Stranka ali partner, ki prejme material, izbran iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Postavke** | Neobvezne postavke, povezane s posojo. |
 
 ### Razdelek postavk
 
@@ -26,9 +26,9 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 |------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Posojen material (izdelek, surovina, polizdelek, repro material itd.). |
 | **Serijska številka** | Izbrana serijska številka za serijsko vodene materiale. |
-| **Rok uporabe** | Datum poteka, če je določen. |
+| **Datum do** | Datum poteka, če je določen. |
 | [**Skladiščna lokacija**](../Sifranti/Lokacije.md) | Lokacija, iz katere se material vzame. |
-| **Količina (kos)** | Količina, ki se posodi. Pred shranjevanjem jo je potrebno urediti. |
+| **Količina** | Količina, ki se posodi. Pred shranjevanjem jo je potrebno urediti. |
 
 ## Seznam dokumentov posoje
 
@@ -37,7 +37,7 @@ Stran **Posoje** prikazuje vse dokumente posoje. Seznam lahko filtrirate z iskal
 - **Datumi dokumentov**
 - **Pogled**
   - *Osnutki* — dokumenti, ki še niso objavljeni  
-  - *Objavljeni* — potrjeni in zaključeni dokumenti
+  - *Potrjeni* — potrjeni in zaključeni dokumenti
 - **Avtor**
 - **Skladišče**
 
@@ -56,7 +56,7 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nov
 ### Ustvarjanje nove posoje
 
 1. Kliknite **akcijski gumb** in ustvarite nov osnutek posoje.  
-   Izberite **Skladišče** in **Kontakt**.
+   Izberite **Skladišče** in **Stik**.
 
    ![Nova posoja](../Images/LoansNew.png "Nova posoja")
 
@@ -81,7 +81,7 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nov
    Po potrebi postopek ponovite za dodatne postavke.
 
 6. Kliknite **Objavi**, da dokument potrdite.  
-   Objavljen dokument se prikaže v pogledu *Objavljeni*.
+   Objavljen dokument se prikaže v pogledu *Potrjeni*.
 
 Po objavi dokumenta postanejo vsi posojeni materiali **rezervirani** in niso več na voljo za druge procese.
 

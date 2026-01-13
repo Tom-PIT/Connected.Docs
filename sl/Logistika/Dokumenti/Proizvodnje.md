@@ -12,7 +12,7 @@ Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** 
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta proizvodnje. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta proizvodnje. |
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem so bile knjižene proizvedene postavke. |
 
@@ -30,8 +30,7 @@ Stran **Proizvodnje** prikazuje vse dokumente proizvodnje, ustvarjene prek izvaj
 - **Datumi dokumentov**
 - **Pogled**
   - *Osnutki* — proizvodnja v teku (še se beleži v izvajanju)
-  - *Objavljeni* — zaključen dokument proizvodnje
-- **Avtor**
+  - *Potrjeni* — zaključen dokument proizvodnje
 - **Skladišče**
 
 ![Seznam proizvodnje](../Images/ProductionsList.png "Seznam proizvodnje")

@@ -43,8 +43,8 @@ V tem koraku sistem prikaže vse **pričakovane materiale in količine** iz izbr
 
 ![Poenostavljen prevzem – korak 2](../Images/SimpleReceiveStep2.png)
 
-Uporabnik mora sedaj **skenirati ali ročno vnesti kodo pakiranja**  
-(EAN / črtno kodo) prejetega artikla.
+Uporabnik mora sedaj **skenirati ali ročno vnesti šifro pakiranja**  
+(EAN / črtno šifro) prejetega artikla.
 
 - Če skenirana koda ustreza **več postavkam dobavnega naloga**
   (npr. isti material v različnih serijah ali naročilih),
@@ -63,23 +63,20 @@ V zadnjem koraku uporabnik dopolni podatke za vsako materialno postavko.
 Za vsako prejeto postavko lahko pregledate ali prilagodite:
 
 - **Skladiščno lokacijo**  
-- **Število paketov**
+- **Količino v paketu**
 
 Postavko lahko tudi **izbrišete**, če je ne želite prevzeti.
 
-Ko so vse podrobnosti potrjene, kliknite **Zaključi** za dokončanje poenostavljenega prevzema.
+Ko so vse podrobnosti potrjene, kliknite **Konec** za dokončanje poenostavljenega prevzema.
 
 ## Zaključek prevzema
 
-Po kliku na **Zaključi**:
+Po kliku na **Konec**:
 
 - sistem ustvari standardni dokument [**Prevzem**](Prevzemi.md)  
 - vse potrjene količine se knjižijo na zalogo  
 - dobavni nalog se posodobi s prevzetimi količinami  
 
-Za naprednejše postopke prevzema  
-(serijske številke, rok uporabe, pakiranje, priloge, storna itd.)  
-glejte dokumentacijo  
-[**Prevzemi**](Prevzemi.md).
+Za naprednejše postopke prevzema (serijske številke, rok uporabe, pakiranje, priloge, storna itd.) glejte dokumentacijo [**Prevzemi**](Prevzemi.md).
 
 ---

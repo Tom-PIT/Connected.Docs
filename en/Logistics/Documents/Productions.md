@@ -1,4 +1,4 @@
-﻿# Productions
+# Productions
 
 A **Production** document records items that were produced during the execution of a **Production order**. Production documents are created automatically from the [**Execution**](../../Production/Documents/Execution.md) module when a production worker records produced outputs. They increase stock for the produced items and provide traceability of what was made.
 
@@ -31,7 +31,6 @@ The **Productions** page displays all production documents created through execu
 - **View**
   - *Draft* — production in progress (still being recorded in execution)
   - *Committed* — finalized production document
-- **Author**
 - **Warehouse**
 
 ![Productions list](../Images/ProductionsList.png "Productions list")

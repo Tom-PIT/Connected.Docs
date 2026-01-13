@@ -22,7 +22,7 @@ Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [naviga
 | Polje | Opis |
 |-------|------|
 | **Vrsta dokumenta** | Vrsta dokumenta, ki se razveljavlja ([prevzem](Prevzemi.md), [izdajnica](Izdajnice.md), [odpis](Odpisi.md), [med-skladiščni promet](MedSkladiscniPromet.md)). |
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Koda razveljavljenega dokumenta (klikljiva). |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Koda razveljavljenega dokumenta (klikljiva). |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem je bil izvirni dokument izveden. |
 | **Datum dokumenta** | Datum izvirnega dokumenta. |
 
@@ -30,7 +30,7 @@ Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [naviga
 
 | Polje | Opis |
 |-------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta storna. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta storna. |
 | **Datum dokumenta** | Datum storna (urejanje dovoljeno). |
 
 ### Razdelek postavk
@@ -49,7 +49,7 @@ Stran **Storno** prikazuje vse dokumente storna. Seznam lahko filtrirate z:
 - **Datumi dokumentov**
 - **Pogled**
   - *Osnutki* — ustvarjeni, vendar še ne objavljeni dokumenti storna
-  - *Objavljeni* — potrjeni dokumenti storna
+  - *Potrjeni* — potrjeni dokumenti storna
 - **Avtor**
 - **Skladišče**
 
@@ -71,7 +71,7 @@ Dokumentov storna **ni mogoče ustvariti ročno** na strani Storno. Ustvarijo se
 
 Po ustvarjanju:
 - če je shranjen, vendar ne objavljen → prikaže se med **Osnutki**
-- če je objavljen → prikaže se med **Objavljeni**
+- če je objavljen → prikaže se med **Potrjeni**
 
 Oznake na izvirnem dokumentu:
 - **Storno v teku** — obstaja osnutek storna
@@ -90,7 +90,7 @@ Sistem samodejno ustvari **osnutek** dokumenta storna.
 
 Vsaka postavka prikazuje:
 - **Izvorno količino**
-- **Urejljivo količino** za razveljavitev
+- **Količino** za razveljavitev
 
 Primeri:
 - Izvirni odpis: **4 kos** → vnesite **4** za polno razveljavitev
@@ -108,7 +108,7 @@ Kliknite **Objavi**, da potrdite storno.
 Po objavi:
 - zaloga se posodobi
 - izvirni dokument je označen kot **Delno stornirano** ali **V celoti stornirano**
-- storno se premakne med **Objavljeni**
+- storno se premakne med **Potrjeni**
 
 ## Pregled dokumenta storna
 
@@ -120,7 +120,7 @@ Prikazuje informacije o razveljavljenem dokumentu in povezavo za njegov ogled.
 ![Razveljavljen dokument](../Images/ReversalsReversedDocument.png)
 
 ### Razdelek dokumenta
-Prikazuje kodo in datum storna.
+Prikazuje šifro in datum storna.
 
 ![Dokument storna](../Images/ReversalsDocumentSection.png)
 

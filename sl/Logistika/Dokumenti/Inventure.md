@@ -18,7 +18,7 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 
 | Polje | Opis |
 |------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Sistemsko generiran enolični identifikator inventurnega dokumenta. |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator inventurnega dokumenta. |
 | **Datum dokumenta** | Datum, ko je inventura izvedena ali zabeležena. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem se izvaja inventura. |
 | [**Lokacija**](../Sifranti/Lokacije.md) | Konkretna lokacija znotraj skladišča, ki se preverja. |
@@ -30,7 +30,7 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Material, shranjen na izbrani lokaciji ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
 | **Lokacija** | Lokacija, na kateri se inventura izvaja. |
 | **Teoretično** | Količina, ki je trenutno zabeležena v sistemu. |
-| **Dejansko** | Fizično preverjena količina (urejanje dovoljeno). |
+| **Dejanski** | Fizično preverjena količina (urejanje dovoljeno). |
 
 ## Seznam inventurnih dokumentov
 
@@ -40,8 +40,8 @@ Seznam lahko filtrirate z levim stranskim menijem, ki vključuje:
 - **Datume dokumentov**
 - **Pogled**
   - *Osnutki* — dokumenti, ki še niso objavljeni  
-  - *Objavljeni* — potrjene inventurne prilagoditve
-- **Avtorja**
+  - *Potrjeni* — potrjene inventurne prilagoditve
+- **Avtor**
 - **Skladišče**
 
 Barvni indikator ob dokumentu prikazuje njegovo stanje:
@@ -66,7 +66,7 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nov
 2. Po izbiri **skladišča** in **lokacije** sistem samodejno naloži vse materiale, zabeležene na tej lokaciji.
 
 3. V razdelku **Povzetek** so prikazani:
-   - **Nerazporejeno** — število materialov, ki še niso preverjeni  
+   - **Nerazporejena** — število materialov, ki še niso preverjeni  
    - **Manjka** — število materialov, pri katerih je dejanska količina manjša od teoretične  
    - **Presežek** — število materialov, pri katerih je dejanska količina večja od teoretične  
 
@@ -83,9 +83,9 @@ Novo ustvarjen inventurni dokument se prikaže med **Osnutki**. Po objavi se pre
 > [!NOTE]
 > Vrednosti v razdelkih **Manjka** in **Presežek** prikazujejo število **različnih materialov** z odstopanji, ne pa števila manjkajočih ali presežnih kosov.
 
-## Opombe
+## Postavke
 
-V razdelku **Opombe** lahko zabeležite dodatne komentarje ali ugotovitve, povezane z inventurnim postopkom.
+V razdelku **Postavke** lahko zabeležite dodatne komentarje ali ugotovitve, povezane z inventurnim postopkom.
 
 ## Meni
 

@@ -14,7 +14,7 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaci
 
 | Polje | Opis |
 |-------|------|
-| [**Koda**](../../Skupno/UI/KodeDokumentov.md) | Enolični identifikator dokumenta porabe (samodejno generiran). |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator dokumenta porabe (samodejno generiran). |
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
 | [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega so bili materiali porabljeni. |
 
@@ -32,18 +32,16 @@ Stran **Porabe** prikazuje vse dokumente porabe, ustvarjene med izvajanjem proiz
 
 - **Datumih dokumentov**
 - **Pogledu**
-  - *Osnutki* — poraba je še v teku (beleženje še ni zaključeno)
-  - *Objavljeni* — zaključen dokument porabe
-- **Avtorju**
-- **Skladišču**
+  - *Osnutek* — poraba je še v teku (beleženje še ni zaključeno)
+  - *Potrjeno* — zaključen dokument porabe
+- **Avtor**
+- **Skladišče**
 
 ![Seznam porab](../Images/ConsumptionsList.png "Seznam porab")
 
 ## Dejanja
 
-Dokumentov porabe **ni mogoče ustvariti ročno** na tej strani (ni  
-[**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se iz modula  
-[**Izvajanje**](../../Proizvodnja/Dokumenti/Izvajanje.md) med beleženjem porabe za proizvodni nalog.
+Dokumentov porabe **ni mogoče ustvariti ročno** na tej strani (ni [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se iz modula [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvajanje.md) med beleženjem porabe za proizvodni nalog.
 
 Delovni tok:
 - Ko proizvodni delavec začne beležiti porabo, se samodejno ustvari **osnutek** dokumenta porabe.

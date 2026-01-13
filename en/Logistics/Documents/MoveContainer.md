@@ -1,4 +1,4 @@
-﻿# Move container
+# Move container
 
 The Move container screen is a streamlined workflow to relocate a single container from one warehouse location to another. It is designed for fast operations (scan and confirm) without using document lists or an action button.
 
@@ -43,7 +43,7 @@ Choose the **To location**. You can:
 
 ### Step 3 — Confirm the move
 
-Review the summary (container, from/to locations) and click **Confirm / Move**. The system records the transfer of the container and all contained items.
+Review the summary (container, from/to locations) and click **Finish**. The system records the transfer of the container and all contained items.
 
 ![Move Container Step3](../Images/MoveContainerStep3.png)
 

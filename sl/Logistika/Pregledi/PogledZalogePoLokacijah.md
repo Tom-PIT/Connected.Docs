@@ -21,7 +21,7 @@ Pogled zaloge po lokacijah sestavljajo:
 - **Trije kazalniki:**  
   - **Skupaj** — vse enote, shranjene na lokaciji  
   - **Rezervirano** — enote, dodeljene odprtim dokumentom  
-  - **Razpoložljivo** — enote, ki jih je mogoče izdati ali premakniti  
+  - **Na voljo** — enote, ki jih je mogoče izdati ali premakniti  
 - **Seznam materialov**, shranjenih na izbrani lokaciji
 
 ## Izbira skladišča in lokacije
@@ -38,13 +38,13 @@ Ko izberete lokacijo, sistem naloži pripadajoče stanje zaloge:
 ## Kazalniki
 
 Zgornji del zaslona prikazuje tri ključne kazalnike:
-- Skupaj
+- Skupupno
 - Rezervirano
-- Razpoložljivo
+- Na voljo
 
 Klik na katerikoli kazalnik filtrira seznam materialov in prikaže samo postavke, ki ustrezajo izbrani kategoriji.
 
-### Skupaj
+### Skupno
 Prikazuje **skupno količino** vseh materialov, shranjenih na izbrani lokaciji.
 
 ### Rezervirano
@@ -52,9 +52,8 @@ Prikazuje **količino, rezervirano** prek odprtih dokumentov **Izdaje** ali **Me
 
 ![StockByLocationReserve](../Images/StockByLocationReserve.png)
 
-### Razpoložljivo
-Prikazuje **količino, ki je na voljo** za uporabo  
-(**Skupaj – Rezervirano**).
+### Na voljo
+Prikazuje **količino, ki je na voljo** za uporabo (**Skupno – Rezervirano**).
 
 ![StockByLocationAvailable](../Images/StockByLocationAvailable.png)
 
@@ -64,7 +63,7 @@ Pod kazalniki je prikazan podroben seznam zaloge, shranjene na lokaciji.
 
 Vsaka vrstica vsebuje:
 
-- **Kodo in ime materiala**
+- **Šifro in ime materiala**
 - **Vrsto materiala**
 - **Serijsko številko**
 - **Količino na lokaciji**
