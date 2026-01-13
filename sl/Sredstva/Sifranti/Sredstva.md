@@ -15,12 +15,12 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 
 | Polje | Opis |
 |------|------|
-| **Koda** | Enolični identifikator sredstva (obvezno). |
+| **Šifra** | Enolični identifikator sredstva (obvezno). |
 | **Ime** | Prikazno ime sredstva (obvezno). |
 | **Tip** | Določa, ali je sredstvo **Blago** ali **Storitev** (obvezno). |
-| [**Davčna stopnja**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja (neobvezno). |
+| [**Davek**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja (neobvezno). |
 | [**Merska enota**](../../Skupno/Sifranti/MerskeEnote.md) | Enota za prikaz in cenitev sredstva (obvezno). |
-| **Neto cena postavke** | Neto cena na enoto sredstva. |
+| **Neto cena (na enoto)** | Neto cena na enoto sredstva. |
 | **Neto teža (kg)** | Teža sredstva, če je relevantna (privzeto = 0). |
 | **EAN** | Črtna koda (neobvezno). |
 | **Oznake** | Neobvezne oznake za razvrščanje. |
@@ -31,15 +31,14 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 
 ### Dodajanje novega sredstva
 
-Kliknite **[akcijski gumb](../../Skupno/UI/AkcijskiGumb.md)** za ustvarjanje novega sredstva.  
-Pred shranjevanjem morate vnesti naslednja polja:
+Kliknite **[akcijski gumb](../../Skupno/UI/AkcijskiGumb.md)** in izberite **Nov** za ustvarjanje novega sredstva. Pred shranjevanjem morate vnesti naslednja polja:
 
-- **Koda**
+- **Šifra**
 - **Ime**
 - **Tip**
 - **Merska enota**
 
-Neobvezna polja, kot so **Davčna stopnja**, **Neto cena postavke**, **EAN**, **Oznake** in **Dodatni podatki**, lahko izpolnite po potrebi.
+Neobvezna polja, kot so **Davek**, **Neto cena (na enoto)**, **EAN**, **Oznake** in **Dodatni podatki**, lahko izpolnite po potrebi.
 
 ### Razdelek Podrobnosti
 

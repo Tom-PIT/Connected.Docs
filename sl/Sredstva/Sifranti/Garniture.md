@@ -11,7 +11,7 @@ Za dostop do tega zaslona pojdite na
 
 | Polje | Opis |
 |---|---|
-| **Vrsta materiala** | Kategorija nadrejene garniture (npr. Izdelek, Polizdelek). |
+| **Tip [materiala](../Domena/Materiali.md)** | Kategorija nadrejene garniture (npr. Izdelek, Polizdelek). |
 | **Entiteta** | Nadrejeni material, ki predstavlja garnituro (npr. Pohištvena garnitura). |
 | **Količina** | Količina posamezne komponente v garnituri. |
 

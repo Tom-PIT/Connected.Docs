@@ -15,7 +15,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [navigacij
 | **Veljavno od** | Datum začetka veljavnosti cenika. |
 | **Veljavno do** | Datum konca veljavnosti cenika. |
 | [**Sredstvo**](Sredstva.md) | Izbrano sredstvo, za katerega je v ceniku določena cena. |
-| **Neto cena postavke 100 %** | Osnovna neto cena sredstva pred popusti. |
+| **Neto cena (na enoto) 100 %** | Osnovna neto cena sredstva pred popusti. |
 | **Razponi** | Neobvezna pravila za količinske popuste, ki prilagodijo neto ceno glede na kupljeno količino. Vključujejo **Od**, **Do**, **Odstotek (%)** in **Neto cena postavke**. |
 
 ## Upravljanje
@@ -46,14 +46,14 @@ Klik na gumb **Podrobnosti** odpre stran, kjer se upravljajo sredstva in količi
 Glede na to, na katerem zaslonu se nahajate, [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) ponuja različna dejanja:
 
 Na strani **Ceniki sredstev**:
-- **Novo**
+- **Nov**
 - **Kopiraj**
 
 Na strani **Podrobnosti**:
 - **Uvoz**
-- **Novo**
+- **Nov**
 
-### Novo
+### Nov
 
 Na strani **Ceniki sredstev** ustvari nov cenik. Določiti morate:
 - **Tip**
@@ -79,10 +79,10 @@ Zaslon **Uvoz** omogoča uvoz CSV datoteke s seznamom postavk cenika.
 
 Za ustvarjanje delujočega cenika sledite tem korakom:
 
-1. Kliknite **Novo**.
+1. Kliknite **Nov**.
 2. Izpolnite zahtevana polja: **Tip**, **Entiteta**, **Ime**, **Veljavno od**, **Veljavno do**.
 3. Kliknite **Dodaj**, da shranite glavo cenika.
-4. Kliknite gumb **Podrobnosti**, da odprete stran s cenami.
+4. Kliknite gumb **Postavke**, da odprete stran s cenami.
    
    ![Gumb Podrobnosti](../Images/AssetPriceListsDetailsButton.png "Odpri podrobnosti cenika")
 

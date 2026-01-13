@@ -28,10 +28,10 @@ Za dostop do šifranta **Uvoz materialov** pojdite na
 
 | Polje | Opis |
 |------|------|
-| **Ustvarjeno** | Datum in čas nalaganja preglednice. |
+| **Ustvarjen** | Datum in čas nalaganja preglednice. |
 | **Status** | Rezultat preverjanja ali uvoza, ki prikazuje število veljavnih vrstic in vrstic z napakami. |
-| **Vrsta datoteke** | Oblika naložene datoteke: CSV ali XLSX. |
-| **Uveljavljene spremembe** | Označuje, ali so bile spremembe dejansko uvožene (označeno) ali je šlo le za testni uvoz (ni označeno). |
+| **Tip datoteke** | Oblika naložene datoteke: CSV ali XLSX. |
+| **Dodane spremembe** | Označuje, ali so bile spremembe dejansko uvožene (označeno) ali je šlo le za testni uvoz (ni označeno). |
 
 ## Vrsta datoteke
 
@@ -55,14 +55,14 @@ Uvozna datoteka mora vsebovati spodaj navedene stolpce. Vsaka vrstica predstavlj
 
 | Stolpec | Opis |
 |--------|------|
-| **Tip** | Vrsta materiala: **Izdelki**, **Polizdelki**, **Repro materiali**, **Surovine**. |
-| **Koda** | Enolični identifikator materiala. Če material z isto kodo že obstaja, se zapis posodobi. |
-| **Ime** | Polno ime materiala. |
+| **Tip** | Tip materiala: **Izdelki**, **Polizdelki**, **Repro materiali**, **Surovine**. |
+| **Šifra** | Enolični identifikator materiala. Če material z isto šifro že obstaja, se zapis posodobi. |
+| **Naziv** | Polno ime materiala. |
 | **Merska enota** | Merska enota za količine. Mora ustrezati obstoječi **merski enoti**. |
 | **Oznake** | Neobvezne oznake za razvrščanje. Več oznak ločite z vejicami. |
 | **Opis** | Neobvezno besedilo z opisom materiala. |
-| **EAN** | Vrednost črtne kode materiala. |
-| **Rok uporabe (dni)** | Število dni do poteka materiala. |
+| **EAN** | Vrednost črtne šifre materiala. |
+| **Datum do (dni)** | Število dni do poteka materiala. |
 | **URL slike** | URL do slike materiala. |
 | **URL informacij** | URL do zunanje informacijske strani o materialu. |
 | **Natančnost** | Število decimalnih mest za prikaz vrednosti. |

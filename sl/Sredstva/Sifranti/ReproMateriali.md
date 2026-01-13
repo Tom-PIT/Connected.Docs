@@ -5,8 +5,7 @@
 Vsak repro material vsebuje pomembne lastnosti – kot so [merske enote](../../Skupno/Sifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Sifranti/DavcneStopnje.md), način generiranja serijskih številk ali možnosti [pakiranja](Pakiranje.md) – kar zagotavlja dosledno sledenje in uporabo v vseh skladiščnih in proizvodnih procesih. Ta šifrant vsebuje vse repro materiale, ki jih uporablja organizacija.
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič  
-> **[Repro materiali](https://www.youtube.com/watch?v=ZRUwbQrAolU)**.
+> Za celovit prikaz si oglejte video vodič **[Repro materiali](https://www.youtube.com/watch?v=ZRUwbQrAolU)**.
 
 > [!NOTE]  
 > **Predpogoji**  
@@ -21,20 +20,19 @@ Za dostop do šifranta **Repro materiali** pojdite na
 
 | Polje | Opis |
 |------|------|
-| **Koda** | Enolični identifikator repro materiala znotraj seznama materialov. Na primer **REP-VIJ-2**. Koda mora biti enolična med vsemi materiali. |
+| **Šifra** | Enolični identifikator repro materiala znotraj seznama materialov. Na primer **REP-VIJ-2**. Šifra mora biti enolična med vsemi materiali. |
 | **Ime** | Ime, prikazano v seznamih in dokumentih. Na primer **Vijak 6 mm**. |
-| **Generiranje serijske številke** | Določa način obravnave serijskih številk in zapisov materiala:<br>• **Samodejno** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Enako** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identično** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
-| **Rok uporabe (dni)** | Število dni do poteka materiala, uporabljeno za pokvarljive materiale. Na primer **30** ali **365**. |
-| **EAN** | Vrednost črtne kode, uporabljena za skeniranje. Na primer **57884441241**. |
-| **Osnovna merska enota** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
-| **Davčna stopnja** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
-| **Natančnost** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
-| **Opis** | Kratek interni opis, ki določa namen ali lastnosti materiala. |
-| **Oznake** | Oznake za kategorizacijo in filtriranje. |
-| **URL informacij** | URL povezava do zunanjih informacij ali dokumentacije o materialu. |
-| **URL slike** | Javna povezava do slike materiala. |
-| **Zunanji ključ** | Identifikator zapisa v zunanjem sistemu za povezovanje med sistemi. |
-| **Aktiven** | Označuje, ali je material na voljo za uporabo v novih dokumentih. Neaktivni materiali niso več na voljo za nove vnose, ostanejo pa vidni v zgodovini. |
+| **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
+| **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
+| **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
+| **Osnovna [merska enota](../../Skupno/Sifranti/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
+| **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
+| **Davek** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
+| **Opis** | Kratek interni opis, ki pojasnjuje uporabo ali specifikacije izdelka. Na primer **Masiven hrast, oljen**. |
+| **Oznake** | Oznake za kategorizacijo in filtriranje. Na primer **pohištvo**, **premium**. |
+| **Info povezava** | Povezava do zunanjih informacij ali dokumentacije o izdelku. |
+| **URL do slike izdelka** | Javna povezava do slike izdelka. |
+| **Zunanji ključ** | Identifikator zapisa v zunanjem sistemu, na primer **SAP-4711**. |
 
 ## Upravljanje
 
@@ -44,7 +42,7 @@ Uporabniški vmesnik vsebuje seznam repro materialov.
 
 ![Repro materiali](../Images/ReproMaterialsList.png "Repro materiali")
 
-Seznam prikazuje ime, kodo in način generiranja serijske številke za vsak repro material.
+Seznam prikazuje ime, šifro in način generiranja serijske številke za vsak repro material.
 
 Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih materialov.
 
@@ -53,8 +51,8 @@ Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu
 Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - **Uvoz**
-- **Kopiraj obstoječe**
-- **Novo**
+- **Kopiraj obstoječi**
+- **Nov**
 
 ### Uvoz
 
@@ -63,7 +61,7 @@ Dejanje **Uvoz** omogoča hkratni uvoz več repro materialov z uporabo pravilno 
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
-### Kopiraj obstoječe
+### Kopiraj obstoječi
 
 Kliknite **Kopiraj obstoječi repro material**, da ustvarite nov zapis na podlagi že obstoječega.
 
@@ -71,7 +69,7 @@ Kliknite **Kopiraj obstoječi repro material**, da ustvarite nov zapis na podlag
 
 Po izbiri osnovnega materiala so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
-### Novo
+### Nov
 
 Kliknite **Novo**, da odprete obrazec za ustvarjanje novega repro materiala.
 
