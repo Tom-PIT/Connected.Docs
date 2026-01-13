@@ -8,7 +8,7 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 
 | Polje | Opis |
 |------|------|
-| **Entiteta** | Vrsta dokumenta, na katero se prednastavljeno besedilo nanaša (obvezno): <br>• [**Dobavnica**](../../Prodaja/Dokumenti/Dobavnice.md) <br>• [**Izdani račun**](../../Prodaja/Dokumenti/IzdaniRačuni.md) <br>• [**Ponudba**](../../Prodaja/Dokumenti/Ponudbe.md) <br>• [**Dobavni nalog**](../../Nabava/Dokumenti/DobavniNalogi.md) |
+| **Entiteta** | Vrsta dokumenta, na katero se prednastavljeno besedilo nanaša (obvezno): <br>• [**Dobavnica**](../../Prodaja/Dokumenti/Dobavnice.md) <br>• [**Izdani račun**](../../Prodaja/Dokumenti/IzdaniRačuni.md) <br>• [**Ponudba**](../../Prodaja/Dokumenti/Ponudbe.md) <br>• [**Nabavni nalog**](../../Nabava/Dokumenti/NabavniNalogi.md) |
 | **Koda** | Kratek identifikator za sklicevanje na prednastavljeno besedilo (obvezno). |
 | **Besedilo** | Celotna vsebina besedila, ki se vstavi v izbrano vrsto dokumenta (obvezno). |
 | **Omogočeno** | Označuje, ali je prednastavljeno besedilo aktivno in na voljo za uporabo. |
@@ -17,7 +17,7 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 
 ### Seznamski pogled
 
-Seznam prikazuje vsa prednastavljena besedila skupaj z **entiteto**, **kodo** in **besedilom**. Seznam lahko filtrirate po stanju **Omogočeno / Onemogočeno** ali po **entiteti**.
+Seznam prikazuje vsa prednastavljena besedila skupaj z **entiteto**, **šifro** in **besedilom**. Seznam lahko filtrirate po stanju **Omogočeno / Onemogočeno** ali po **entiteti**.
 
 ![Prednastavljena besedila](../Images/PredefinedTexts.png "Seznam prednastavljenih besedil")
 
@@ -33,7 +33,7 @@ Kliknite **akcijski gumb**, da ustvarite novo prednastavljeno besedilo.
 
 ![Dodaj prednastavljeno besedilo](../Images/PredefinedTextsNew.png "Dodaj prednastavljeno besedilo")
 
-Izberite **entiteto**, vnesite **kodo** in napišite celotno **besedilo**. Po potrebi lahko zapis omogočite ali onemogočite.
+Izberite **entiteto**, vnesite **šifro** in napišite celotno **besedilo**. Po potrebi lahko zapis omogočite ali onemogočite.
 
 Možnosti entitet:
 
@@ -42,7 +42,7 @@ Možnosti entitet:
 ### Urejanje
 
 Kliknite katerikoli zapis na seznamu, da odprete zaslon za urejanje.  
-Tam lahko spremenite entiteto, kodo ali besedilo.
+Tam lahko spremenite entiteto, šifro ali besedilo.
 
 ### Brisanje
 

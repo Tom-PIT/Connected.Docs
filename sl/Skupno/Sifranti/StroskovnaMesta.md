@@ -15,7 +15,7 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 
 ### Seznamski pogled
 
-Seznamski pogled prikazuje vsa evidentirana stroškovna mesta skupaj z njihovim **imenom** in **kodo**.
+Seznamski pogled prikazuje vsa evidentirana stroškovna mesta skupaj z njihovim **imenom** in **šifro**.
 
 ![Stroškovna mesta](../Images/CostCenters.png "Seznam stroškovnih mest")
 
@@ -31,7 +31,7 @@ Kliknite **akcijski gumb**, da odprete obrazec za ustvarjanje in dodate novo str
 
 ### Urejanje stroškovnega mesta
 
-Kliknite katerikoli vnos na seznamu, da odprete zaslon za urejanje, kjer lahko prilagodite **kodo** ali **ime**.
+Kliknite katerikoli vnos na seznamu, da odprete zaslon za urejanje, kjer lahko prilagodite **šifro** ali **ime**.
 
 ### Brisanje
 

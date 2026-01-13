@@ -8,8 +8,8 @@ Ta šifrant predstavlja države, ki se uporabljajo v digitalnih vsebinah sistema
 |------|------|
 | **Ime** | Ime države, na primer Slovenija ali **Avstrija**. |
 | **LCID** | Lokalizacijski identifikator, ki se uporablja za nastavitev jezika in regionalnih posebnosti države. |
-| **ISO alfa-2 koda** | Mednarodna standardna koda države (npr. **SI** za Slovenijo ali **AT** za Avstrijo). |
-| **Aktivna** | Označuje, ali je država aktivna. Neaktivnih držav ni mogoče uporabiti za nove vnose, vendar ostanejo vidne v zgodovini. |
+| **ISO šifra (2 znaka)** | Mednarodna standardna koda države (npr. **SI** za Slovenijo ali **AT** za Avstrijo). |
+| **Aktiven** | Označuje, ali je država aktivna. Neaktivnih držav ni mogoče uporabiti za nove vnose, vendar ostanejo vidne v zgodovini. |
 
 ## Upravljanje
 
@@ -40,7 +40,7 @@ Klik na to oznako odpre vmesnik za upravljanje povezanih podatkov za izbrano dr�
 Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 
 - Uvoz  
-- Novo  
+- Nov
 
 ### Uvoz
 
@@ -69,8 +69,8 @@ Kliknite **Novo**, da odprete vnosni obrazec za dodajanje nove države.
 Obrazec vključuje naslednja polja:
 - **Ime**
 - **LCID**
-- **ISO alfa-2 koda**
-- **Aktivna**
+- **ISO šifra**
+- **Aktiven**
 
 Kliknite **Dodaj** za ustvarjanje zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
 

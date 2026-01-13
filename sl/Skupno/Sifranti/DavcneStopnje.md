@@ -6,7 +6,7 @@
 
 | Polje | Opis |
 |------|------|
-| **Ime** | Opisno ime davčne stopnje (npr. *Standardna davčna stopnja 22* ali *Znižana davčna stopnja 9,5*). |
+| **Naziv** | Opisno ime davčne stopnje (npr. *Standardna davčna stopnja 22* ali *Znižana davčna stopnja 9,5*). |
 | **Davčna stopnja (%)** | Številčni odstotek davka (npr. **22** ali **9,5**). |
 | **Aktivna** | Označuje, ali je davčna stopnja trenutno v uporabi. Neaktivnih stopenj ni mogoče izbrati v novih vnosih, ostanejo pa vidne v zgodovini. |
 
@@ -37,7 +37,7 @@ Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
 
 Obrazec vključuje naslednja polja:
-- **Ime**
+- **Naziv**
 - **Davčna stopnja (%)**
 - **Aktivna**
 

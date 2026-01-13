@@ -17,7 +17,7 @@ Bančni računi so prikazani kot oznaka znotraj posameznega vnosa v Poslovnem im
 | [**Banka**](Banke.md) | Finančna institucija, ki zagotavlja račun. Izbrana iz šifranta **Banke** (obvezno). |
 | **IBAN** | Celotna mednarodna številka bančnega računa (obvezno). |
 | **Aktiven** | Označuje, ali se lahko račun uporablja v dokumentih. |
-| **Uporabi masko** | Vizualno oblikuje IBAN (presledki in skupine) brez spreminjanja vrednosti. |
+| **Uporabljaj IBAN masko** | Vizualno oblikuje IBAN (presledki in skupine) brez spreminjanja vrednosti. |
 
 ## Seznamski pogled
 
@@ -38,7 +38,7 @@ Izpolnite naslednja polja:
 - **Banka** – izbrana iz šifranta [**Banke**](Banke.md)  
 - **IBAN** – mednarodna številka bančnega računa  
 - **Aktiven** – določa, ali je račun na voljo za uporabo  
-- **Uporabi masko** – oblikuje IBAN za lažjo berljivost (neobvezno)
+- **Uporabljaj IBAN masko** – oblikuje IBAN za lažjo berljivost (neobvezno)
 
 Kliknite **Dodaj**, da shranite nov račun.
 

@@ -14,10 +14,10 @@ Primeri:
 
 | Polje | Opis |
 |------|------|
-| **Ime** | Ime merske enote, uporabljeno v seznamih in dokumentih (npr. **kilogram** ali **meter**) (obvezno). |
-| **Okrajšava** | Kratka oznaka merske enote, prikazana po celotnem sistemu (npr. **kg** ali **m**) (obvezno). |
+| **Naziv** | Ime merske enote, uporabljeno v seznamih in dokumentih (npr. **kilogram** ali **meter**) (obvezno). |
+| **Kratica** | Kratka oznaka merske enote, prikazana po celotnem sistemu (npr. **kg** ali **m**) (obvezno). |
 | **Natančnost** | Privzeto število decimalnih mest za vrednosti v tej merski enoti (npr. **3** za **1,255** ali **1** za **2,5**). |
-| **Aktivna** | Označuje, ali je merska enota na voljo za uporabo v novih dokumentih. Neaktivne enote ni mogoče izbrati v novih vnosih, vendar ostanejo vidne v zgodovini. |
+| **Aktiven** | Označuje, ali je merska enota na voljo za uporabo v novih dokumentih. Neaktivne enote ni mogoče izbrati v novih vnosih, vendar ostanejo vidne v zgodovini. |
 
 ## Upravljanje
 
@@ -50,9 +50,9 @@ Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo mersko enoto
 
 Obrazec vključuje naslednja polja:
 - **Ime**
-- **Okrajšava**
+- **Kratica**
 - **Natančnost**
-- **Aktivna**
+- **Aktiven**
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje merske enote ali **Prekliči** za vrnitev na seznam.
 

@@ -19,7 +19,7 @@ Kontakti so prikazani kot oznaka znotraj posameznega vnosa v Poslovnem imeniku:
 | **Naziv delovnega mesta** | Vloga ali delovno mesto, izbrano iz šifranta [**Nazivi delovnih mest**](NaziviDelovnihMest.md). |
 | **E-pošta** | Primarni e-poštni naslov. |
 | **Telefon** | Stacionarna ali službena telefonska številka. |
-| **Mobilni telefon** | Mobilna ali neposredna telefonska številka. |
+| **Mobitel** | Mobilna ali neposredna telefonska številka. |
 | **Faks** | Neobvezna številka faksa. |
 | **Oznake** | Klasifikacijske oznake za združevanje ali filtriranje kontaktov. |
 | **Aktiven** | Označuje, ali je kontakt na voljo za izbiro v dokumentih. |
@@ -64,3 +64,5 @@ Kontakt je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen
 
 > [!NOTE]  
 > Brisanje kontakta **ne izbriše** pripadajočega vnosa v Poslovnem imeniku.
+
+---
