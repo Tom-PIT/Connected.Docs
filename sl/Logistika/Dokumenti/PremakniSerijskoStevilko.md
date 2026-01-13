@@ -42,7 +42,7 @@ Kliknite **Naslednji** za nadaljevanje.
 
 ### Korak 2 — Izberi končno lokacijo
 
-Vnesite ciljno lokacijo z vnosom njenega **imena**, **kode** ali dela besedila.
+Vnesite ciljno lokacijo z vnosom njenega **imena**, **šifre** ali dela besedila.
 
 Če obstaja več ujemajočih se lokacij, morate izbrati pravilno:
 

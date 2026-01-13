@@ -21,7 +21,7 @@ Za dostop do šifranta **Meje zaloge** pojdite na  **Logistika / Upravljanje / M
 
 ### Seznam mej zaloge
 
-Uporabniški vmesnik prikazuje seznam vseh materialov in njihovih določenih mej zaloge. Na levi strani uporabite izbirnik **Vrsta materiala** za filtriranje po kategorijah, filter **Oznake** pa omogoča dodatno zoženje prikazanih zapisov.
+Uporabniški vmesnik prikazuje seznam vseh materialov in njihovih določenih mej zaloge. Na levi strani uporabite izbirnik **Tip materiala** za filtriranje po kategorijah, filter **Oznake** pa omogoča dodatno zoženje prikazanih zapisov.
 
 Vsak zapis prikazuje **Entiteto**, **Najmanj** in **Največ** količino zaloge.  
 Če vrednost za **Najmanj** ali **Največ** ni določena, sistem privzeto prikaže **0**.

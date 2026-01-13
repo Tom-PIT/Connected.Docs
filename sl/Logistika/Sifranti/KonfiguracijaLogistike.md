@@ -25,6 +25,6 @@ Izberite model številčenja in format za logistične dokumente (Prevzemi, Izdaj
 | Polje | Opis |
 |------|------|
 | **Način številčenja dokumenta** | • **Povečevanje vsako leto:** zaporedje se vsako leto ponastavi <br> • **Povečevanje:** globalno zaporedje, ki se nikoli ne ponastavi |
-| **Oblika zapisa šifre dokumenta** | Vzorec, ki določa strukturo kode dokumenta (npr. PREDPONA-LETO-ŠTEVILKA). |
+| **Oblika zapisa šifre dokumenta** | Vzorec, ki določa strukturo šifre dokumenta (npr. PREDPONA-LETO-ŠTEVILKA). |
 
 ---
