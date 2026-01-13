@@ -24,7 +24,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator nabavnega naloga. |
 | **Dobavitelj** | Dobavitelj materialov ali storitev, izbran iz **[Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md)**. |
 | **Datum dokumenta** | Datum nastanka nabavnega naloga. |
-| **Datum dobave** | Načrtovani datum dobave zahtevanih materialov (obvezno). |
+| **Datum opravljene storitve** | Načrtovani datum dobave zahtevanih materialov (obvezno). |
 | **Rabat** | Neobvezni popust, uporabljen za celoten nabavni nalog. |
 | [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Interno stroškovno mesto, povezano z nabavo. |
 | **Šifra ponudbe** | Neobvezna referenca na ponudbo dobavitelja ali zunanji dokument. |
@@ -40,7 +40,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se nabavlja. |
 | **EAN** | Črtna koda materiala (neobvezno). |
 | **Količina** | Naročena količina. |
-| **Datum dobave** | Specifični datum dobave za to postavko. |
+| **Datum opravljene storitve** | Specifični datum dobave za to postavko. |
 | **Neto cena (na enoto)** | Cena na enoto, povzeta iz **[Materialov dobaviteljev](../Sifranti/MaterialiDobaviteljev.md)** ali vnesena ročno. |
 | **Popust (%)** | Neobvezni popust za posamezno postavko. |
 | [**Davčna stopnja**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja. |
@@ -102,7 +102,7 @@ V drugem primeru se večina polj (dobavitelj, podatki o dostavi, postavke) samod
 Postopek:
 
 1. Kliknite **+** za ustvarjanje novega nabavnega naloga.  
-2. Vnesite ali preverite **Dobavitelja**, **Datum dokumenta** in **Datum dobave**.
+2. Vnesite ali preverite **Dobavitelja**, **Datum dokumenta** in **Datum opravljene storitve**.
 
    ![Nov nabavni nalog](../Images/SupplyOrderNew.png "Nov nabavni nalog")
 
@@ -172,7 +172,7 @@ Polja vključujejo:
 - EAN  
 - Količina  
 - Datum dobave  
-- Neto cena (na enoto)  
+- Cena brez DDV (na enoto)  
 - Davčna stopnja  
 - Dobaviteljeva šifra  
 - Popust (%)  

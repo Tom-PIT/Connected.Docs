@@ -46,7 +46,7 @@ Vsako vrstico je mogoče razširiti in prikazati dodatne informacije za planiran
 - **Naročeno / planirano**  
 - Obstoječi **nabavni nalogi** ali **povpraševanja**  
 - **Dobavitelj**  
-- **Datum dobave**  
+- **Datum opravljene storitve**  
 - **Cena**
 
 ![Podrobnosti planiranja nabave](../Images/SupplyStockBoundariesPlanningListDetails.png)
@@ -69,7 +69,7 @@ Nabavne dokumente ustvarite neposredno iz tega pogleda.
 
 3. Odpre se pogovorno okno, kjer potrdite:
    - **Dobavitelja**
-   - **Datum dobave**
+   - **Datum opravljene storitve**
 
    ![Izbira dobavitelja in datuma dobave](../Images/SupplyStockBoundariesPlanningDialog.png)
 
