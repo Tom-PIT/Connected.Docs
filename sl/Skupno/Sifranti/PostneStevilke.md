@@ -14,11 +14,11 @@ Poštne številke so prikazane kot oznaka znotraj posameznega vnosa države:
 |------|------|
 | **Številka** | Vrednost poštne številke (npr. **1000**). |
 | **Ime** | Pripadajoče mesto, kraj ali poštno območje. |
-| **Aktivna** | Označuje, ali je poštna številka na voljo za izbiro pri vnosu naslovov. |
+| **Aktiven** | Označuje, ali je poštna številka na voljo za izbiro pri vnosu naslovov. |
 
 ## Seznamski pogled
 
-Seznam poštnih številk prikazuje vse kode, definirane za izbrano državo.
+Seznam poštnih številk prikazuje vse šifre, definirane za izbrano državo.
 
 ![Seznam poštnih številk](../Images/PostalCodesList.png)
 
@@ -26,7 +26,7 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 
 ## Ustvarjanje nove poštne številke
 
-Za dodajanje nove poštne številke kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Novo**.
+Za dodajanje nove poštne številke kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov**.
 
 ![Dodaj poštno številko](../Images/PostalCodesNew.png)
 

@@ -2,7 +2,7 @@
 
 **Nazivi delovnih mest** so del modula **Podpora strankam** in določajo vloge, ki jih je mogoče dodeliti [kontaktom](Kontakti.md) v [**Poslovnem imeniku**](PoslovniImenik.md). Omogočajo razvrščanje oseb, kot so *skrbnik kupcev*, *nabavni referent* ali *direktor*.
 
-Za dostop do te strani pojdite na **Podpora strankam / Upravljanje / Nazivi delovnih mest** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -34,7 +34,7 @@ Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
 
 ## Urejanje obstoječega naziva delovnega mesta
 
-1. Odprite **Podpora strankam → Upravljanje → Nazivi delovnih mest**.  
+1. Odprite **Stranke → Upravljanje → Nazivi delovnih mest**.  
 2. Izberite naziv delovnega mesta s seznama.  
 3. Posodobite ime ali stanje aktivnosti.  
 4. Kliknite **Shrani**.
@@ -45,3 +45,5 @@ Naziv delovnega mesta je mogoče izbrisati na strani za urejanje, vendar le, če
 
 > [!NOTE]  
 > Brisanje naziva delovnega mesta **ne odstrani** vnosov v Poslovnem imeniku.
+
+---

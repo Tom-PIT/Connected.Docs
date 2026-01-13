@@ -1,6 +1,6 @@
 # Valute
 
-Šifrant **Valute** določa vse denarne enote, ki se lahko uporabljajo v sistemu. Vsaka valuta vključuje svojo mednarodno kodo, simbol in pravila oblikovanja, kar zagotavlja dosleden in pravilen prikaz cen, zneskov in finančnih dokumentov. Ta seznam predstavlja osnovo za prikaz zneskov v prodajnih, nabavnih in poročevalskih procesih.
+Šifrant **Valute** določa vse denarne enote, ki se lahko uporabljajo v sistemu. Vsaka valuta vključuje svojo mednarodno šifro, simbol in pravila oblikovanja, kar zagotavlja dosleden in pravilen prikaz cen, zneskov in finančnih dokumentov. Ta seznam predstavlja osnovo za prikaz zneskov v prodajnih, nabavnih in poročevalskih procesih.
 
 Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Stroškovna mesta** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -13,17 +13,17 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 | Polje | Opis |
 |------|------|
 | **Ime** | Polno ime valute, npr. *Evro*, *Ameriški dolar* (obvezno). |
-| **Koda** | Mednarodna trimestna koda valute, npr. *EUR*, *USD* (obvezno). |
+| **Šifra** | Mednarodna trimestna koda valute, npr. *EUR*, *USD* (obvezno). |
 | **Simbol** | Simbol valute, uporabljen pri prikazu zneskov in cen, npr. *€*, *$* (obvezno). |
-| **Položaj simbola** | Določa, ali se simbol prikaže **pred** ali **za** zneskom (obvezno). |
+| **Pozicija simbola** | Določa, ali se simbol prikaže **pred** ali **za** zneskom (obvezno). |
 | **LCID** | Lokalizacijski identifikator za standardizacijo prikaza števil in valut. |
-| **Aktivna** | Označuje, ali je valuta trenutno na voljo za uporabo v sistemu. |
+| **Aktiven** | Označuje, ali je valuta trenutno na voljo za uporabo v sistemu. |
 
 ## Upravljanje
 
 ### Seznamski pogled
 
-Seznam prikazuje vse konfigurirane valute skupaj z njihovo kodo, simbolom in LCID.
+Seznam prikazuje vse konfigurirane valute skupaj z njihovo šifro, simbolom in LCID.
 
 ![Seznam valut](../Images/Currencies.png)
 
@@ -42,11 +42,11 @@ Kliknite **akcijski gumb**, da odprete obrazec za dodajanje nove valute.
 Izpolnite obvezna polja:
 
 - **Ime**
-- **Koda**
+- **Šifra**
 - **Simbol**
-- **Položaj simbola**
+- **Pozicija simbola**
 - **LCID**
-- **Aktivna**
+- **Aktiven**
 
 Kliknite **Dodaj**, da shranite novo valuto.
 
