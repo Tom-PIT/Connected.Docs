@@ -14,18 +14,18 @@ The Reported malfunctions page displays all reported issues, grouped by assignme
 
 At the top of the page, summary cards show the number of malfunctions:
 
-- **My** – Malfunctions assigned to the current user
-- **Unassigned** – Malfunctions without an assigned agent
-- **All** – Total number of reported malfunctions
+- **My** â€“ Malfunctions assigned to the current user
+- **Unassigned** â€“ Malfunctions without an assigned agent
+- **All** â€“ Total number of reported malfunctions
 
 Clicking a card filters the list accordingly.
 
 ### Available filters
 
 - **View**
-  - **New** — Newly reported malfunctions
-  - **Pending** — Malfunctions under review or awaiting action
-- **Priority** — Filter malfunctions by priority
+  - **New** â€” Newly reported malfunctions
+  - **Pending** â€” Malfunctions under review or awaiting action
+- **Priority** â€” Filter malfunctions by priority
 
 The search bar allows filtering by malfunction code or equipment name.
 
@@ -37,13 +37,13 @@ Clicking a malfunction in the list opens the **malfunction detail** screen.
 
 The detail view includes:
 
-- **Equipment** – The affected equipment
-- **Author** – User who reported the malfunction
-- **Description** – Description of the issue
-- **Attachments** – Optional supporting files or images
-- **Tags** – Classification of the malfunction (for example *Machine failure*)
-- **Agent** – Assigned maintenance agent
-- **Priority** – Severity of the malfunction
+- **Equipment** â€“ The affected equipment
+- **Author** â€“ User who reported the malfunction
+- **Description** â€“ Description of the issue
+- **Attachments** â€“ Optional supporting files or images
+- **Tags** â€“ Classification of the malfunction (for example *Machine failure*)
+- **Agent** â€“ Assigned maintenance agent
+- **Priority** â€“ Severity of the malfunction
 
 From this screen, maintenance teams can review the issue and decide on the appropriate corrective action.
 
@@ -70,6 +70,6 @@ This action creates a new **curative maintenance order** with the following beha
 
 ![Create Maintenance Order from Malfunction](../Images/ReportedMalfunctionsMaintenanceOrder.png)
 
-Once created, the maintenance order follows the standard maintenance order life cycle and can be activated and executed from the [**Maintenance orders** screen.
+Once created, the maintenance order follows the standard maintenance order life cycle and can be activated and executed from the [**Maintenance orders**](MaintenanceOrders.md) screen.
 
 ---

@@ -1,4 +1,4 @@
-# Maintenance Order – Quick User Guide
+# Maintenance Order â€“ Quick User Guide
 
 This guide shows the **essential steps** for technicians and maintenance workers to **carry out maintenance work** using an **active maintenance order** in TomPIT.
 
@@ -72,9 +72,10 @@ This ensures correct material tracking and traceability.
 Effort represents the time spent working on the operation.
 
 ### Automatic effort tracking
-- Click **Start**
-- Perform the maintenance work
-- Click **Stop** when finished
+1. Open the **Effort** section
+2. Click **Start**
+3. Perform the maintenance work
+4. Click **Stop** when finished
 
 ### Manual effort entry
 1. Open the **Effort** section
