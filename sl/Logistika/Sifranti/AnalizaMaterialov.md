@@ -16,7 +16,7 @@ Za dostop do **Analize materialov** pojdite na
 
 | Polje | Opis |
 |-------|------|
-| **Tip** | Vrsta materiala (izdelek, polizdelek, surovina ali repro material) (obvezno). |
+| **Tip** | Tip materiala (izdelek, polizdelek, surovina ali repro material) (obvezno). |
 | **[Material](../../Sredstva/Domena/Materiali.md)** | Konkreten material, za katerega velja analiza (obvezno). |
 | **Navodila** | Postopek in kriteriji sprejemljivosti za izvedbo analize (obvezno). |
 | **Omogočeno** | Določa, ali je analiza na voljo za izbor. Privzeto označeno. |
