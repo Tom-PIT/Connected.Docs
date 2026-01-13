@@ -1,18 +1,18 @@
-﻿# Kode dokumentov
+# Šifre dokumentov
 
-Vsak dokument v sistemu prejme samodejno ustvarjeno **kodo dokumenta**.  
-Ta koda enolično identificira dokument in sledi enotni strukturi v vseh modulih.
+Vsak dokument v sistemu prejme samodejno ustvarjeno **šifro dokumenta**.  
+Ta šifra enolično identificira dokument in sledi enotni strukturi v vseh modulih.
 
-Kode dokumentov se uporabljajo za:
+Šifre dokumentov se uporabljajo za:
 
 - sledenje in referenciranje dokumentov  
 - navigacijo znotraj sistema  
 - povezovanje dokumentov (Ponudbe → Prodajni nalogi → Dobavnice → Izdani računi)  
 - zunanjo komunikacijo (PDF-ji, e-pošta, izvozi)
 
-## Struktura kode dokumenta
+## Struktura šifre dokumenta
 
-Vse kode dokumentov sledijo enaki obliki:
+Vse šifre dokumentov sledijo enaki obliki:
 
 **PREDPONA-LETO-ZAPOREDJE**
 
@@ -22,7 +22,7 @@ Kjer:
 - `LETO` – leto nastanka dokumenta  
 - `ZAPOREDJE` – zaporedna številka z vodilnimi ničlami  
 
-![Primer kode ponudbe](../Images/DocumentCodeOffer.png "Primer kode ponudbe")
+![Primer šifre ponudbe](../Images/DocumentCodeOffer.png "Primer šifre ponudbe")
 
 Primeri:
 
@@ -48,18 +48,26 @@ Primeri:
 - `STK` – Premiki zalog  
 - `CMP` – Zaključene proizvodne ali montažne serije  
 
-## Kako se kode ustvarijo
+## Kako se šifre ustvarijo
 
-- Kode so **samodejno dodeljene** ob ustvarjanju dokumenta.  
+- Šifre so **samodejno dodeljene** ob ustvarjanju dokumenta.  
 - Zaporedje se povečuje neodvisno za vsako vrsto dokumenta.  
-- Kode **ni mogoče urejati** po ustvarjanju.  
-- Dokumenti, ustvarjeni iz drugih dokumentov (npr. Ponudba → Prodajni nalog), vedno prejmejo **novo kodo**.
+- Šifre **ni mogoče urejati** po ustvarjanju.  
+- Dokumenti, ustvarjeni iz drugih dokumentov (npr. Ponudba → Prodajni nalog), vedno prejmejo **novo šifro**.
 
-## Kje je koda prikazana
+## Konfiguracija
 
-![Primer kode prodajnega naloga](../Images/DocumentCodeSalesOrders.png "Primer kode prodajnega naloga")
+Način generiranja šifer (predpone, vzorec, dolžina zaporedja, ločeno številčenje ipd.) je v večini domen nastavljen na zaslonu **Konfiguracija** v razdelku **Upravljanje**. Tipični primeri:
 
-Kode so prikazane tudi v:
+- Logistika: [Konfiguracija logistike](../../Logistika/Sifranti/KonfiguracijaLogistike.md)
+- Prodaja: [Konfiguracija prodaje](../../Prodaja/Sifranti/KonfiguracijaProdaje.md)
+- Nabava: [Konfiguracija nabave](../../Nabava/Sifranti/KonfiguracijaNabave.md)
+
+## Kje je šifra prikazana
+
+![Primer šifre prodajnega naloga](../Images/DocumentCodeSalesOrders.png "Primer šifre prodajnega naloga")
+
+Šifre so prikazane tudi v:
 
 - seznamskih pogledih  
 - povezanih dokumentih  
@@ -67,7 +75,7 @@ Kode so prikazane tudi v:
 - e-poštnih izvozih  
 - integracijah  
 
-## Zakaj je struktura kode pomembna
+## Zakaj je struktura šifre pomembna
 
 Enotna struktura zagotavlja:
 
