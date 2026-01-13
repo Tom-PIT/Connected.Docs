@@ -8,7 +8,7 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 
 | Polje | Opis |
 |------|------|
-| **Koda** | Kratek interni identifikator stroškovnega mesta (obvezno). Na primer **HR** za kadrovsko službo. |
+| **Šifra** | Kratek interni identifikator stroškovnega mesta (obvezno). Na primer **HR** za kadrovsko službo. |
 | **Ime** | Polno opisno ime stroškovnega mesta (obvezno). |
 
 ## Upravljanje
