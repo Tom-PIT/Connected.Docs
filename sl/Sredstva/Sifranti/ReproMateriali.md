@@ -21,7 +21,7 @@ Za dostop do šifranta **Repro materiali** pojdite na
 | Polje | Opis |
 |------|------|
 | **Šifra** | Enolični identifikator repro materiala znotraj seznama materialov. Na primer **REP-VIJ-2**. Šifra mora biti enolična med vsemi materiali. |
-| **Ime** | Ime, prikazano v seznamih in dokumentih. Na primer **Vijak 6 mm**. |
+| **Naziv** | Ime, prikazano v seznamih in dokumentih. Na primer **Vijak 6 mm**. |
 | **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
 | **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
 | **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
