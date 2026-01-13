@@ -26,7 +26,7 @@ Poročilo je hierarhično organizirano:
 Za vsak material poročilo prikazuje:
 - Naročeno **količino**
 - **Povprečno ceno**
-- **Skupni strošek**, vključno z neto vrednostjo in davkom
+- **Skupno ceno s stroški**, vključno z neto vrednostjo in davkom
 
 ![Seznam poročila nabavnih nalogov](../Images/SupplyOrdersReportList.png "Seznam poročila nabavnih nalogov")
 
@@ -44,14 +44,14 @@ Filtre je mogoče kombinirati za natančno analizo specifičnih scenarijev nabav
 
 - **Količina** predstavlja skupno naročeno količino materiala
 - **Povprečna cena** je izračunana na podlagi vseh ustreznih dokumentov [**Nabavni nalogi**](../Dokumenti/NabavniNalogi.md)
-- **Skupni strošek** vključuje:
+- **Skupna cena s stroški** vključuje:
   - Neto ceno
   - Znesek davka
   - Končno skupno vrednost
 
 Vsi zneski so izračunani na podlagi dokumentov [**Nabavni nalogi**](../Dokumenti/NabavniNalogi.md), vključenih glede na izbrane filtre.
 
-## Opombe
+## Postavke
 
 - V poročilo so vključeni samo **potrjeni nabavni nalogi**
 - Osnutki ali stornirani nabavni nalogi niso prikazani
