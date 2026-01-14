@@ -11,7 +11,7 @@ Primer šifrantov modula Skupno v domeni **Prodaja**:
 > [!IMPORTANT]  
 > Šifranti modula Skupno morajo biti **prvi korak konfiguracije** pri vzpostavitvi platforme.  
 >
-> Brez teh vrednosti domene [Prodaja](../../Prodaja/Domena/Prodaja.md), [Nabava](../../Nabava/Domena/Nabava.md), [Logistika](../../Logistika/Domena/Logistika.md) in [Sistemske nastavitve](../../Sistem/Nastavitve/Konfiguracija.md) ne morejo pravilno delovati.
+> Brez teh vrednosti domene [Prodaja](../../Prodaja/Domena/Prodaja.md), [Nabava](../../Nabava/Domena/Nabava.md), [Logistika](../../Logistika/Domena/Logistika.md) in [Sistemske nastavitve](../../Sistem/Nastavitve/KonfiguracijaSistema.md) ne morejo pravilno delovati.
 
 ## Kaj vključuje modul Skupno?
 
@@ -41,11 +41,11 @@ Te nastavitve vplivajo na vse denarne in finančne procese v domenah.
 
 - **[Valute](../Sifranti/Valute.md)** – definirajo valute, ki so na voljo organizaciji.  
 - **[Davčne stopnje](../Sifranti/DavcneStopnje.md)** – definicije DDV ali drugih davkov, uporabljenih v prodaji in nabavi.  
-- **[Načini plačila](../../Prodaja/Sifranti/NačiniPlačila.md)** – plačilne metode, uporabljene v prodaji in financah.
+- **[Načini plačila](../../Prodaja/Sifranti/NacinPlacila.md)** – plačilne metode, uporabljene v prodaji in financah.
 
 > [!IMPORTANT]  
 > Valute morajo biti ustvarjene tukaj **pred** izbiro v:  
-> - Sistem → [Konfiguracija](../../Sistem/Nastavitve/Konfiguracija.md) → Nastavitve skupnih tipov  
+> - Sistem → [Konfiguracija](../../Sistem/Nastavitve/KonfiguracijaSistema.md) → Nastavitve skupnih tipov  
 > - dokumentih v domenah [Prodaja](../../Prodaja/Domena/Prodaja.md) in [Nabava](../../Nabava/Domena/Nabava.md)
 
 ### Merjenje in merske enote
@@ -79,7 +79,7 @@ Skoraj vsi procesi v platformi so odvisni od nastavitev Skupno:
 | Področje | Odvisnost |
 |--------|----------|
 | **Sistem → Konfiguracija** | Zahteva [Države](../Sifranti/Drzave.md) in [Valute](../Sifranti/Valute.md) pred nastavitvijo organizacije |
-| **Prodaja** | Zahteva [Valute](../Sifranti/Valute.md), [Davčne stopnje](../Sifranti/DavcneStopnje.md), [Merske enote](../Sifranti/MerskeEnote.md), [Načini plačila](../../Prodaja/Sifranti/NačiniPlačila.md) |
+| **Prodaja** | Zahteva [Valute](../Sifranti/Valute.md), [Davčne stopnje](../Sifranti/DavcneStopnje.md), [Merske enote](../Sifranti/MerskeEnote.md), [Načini plačila](../../Prodaja/Sifranti/NacinPlacila.md) |
 | **Nabava** | Zahteva [Poslovni imenik](../Sifranti/PoslovniImenik.md), [Države](../Sifranti/Drzave.md), [Valute](../Sifranti/Valute.md) |
 | **Logistika** | Zahteva [Merske enote](../Sifranti/MerskeEnote.md), [Države](../Sifranti/Drzave.md), [Poslovni imenik](../Sifranti/PoslovniImenik.md) |
 | **Proizvodnja** | Uporablja [Merske enote](../Sifranti/MerskeEnote.md) in [Poslovni imenik](../Sifranti/PoslovniImenik.md) |
@@ -93,6 +93,6 @@ Skoraj vsi procesi v platformi so odvisni od nastavitev Skupno:
 - napake v sistemski konfiguraciji  
 
 > [!POZOR]  
-> **Ne nadaljujte z uporabo domen [Prodaja](../../Prodaja/Domena/Prodaja.md), [Nabava](../../Nabava/Domena/Nabava.md), [Logistika](../../Logistika/Domena/Logistika.md) ali [Sistemske nastavitve](../../Sistem/Nastavitve/Konfiguracija.md), dokler niso ustvarjeni vsi zahtevani šifranti modula Skupno.**
+> **Ne nadaljujte z uporabo domen [Prodaja](../../Prodaja/Domena/Prodaja.md), [Nabava](../../Nabava/Domena/Nabava.md), [Logistika](../../Logistika/Domena/Logistika.md) ali [Sistemske nastavitve](../../Sistem/Nastavitve/KonfiguracijaSistema.md), dokler niso ustvarjeni vsi zahtevani šifranti modula Skupno.**
 
 ---

@@ -82,8 +82,6 @@ Zgornji meni omogoča:
 - tiskanje
 - izvoz (PDF)
 
-![Meni opominov](../Images/OverdueRemindersMenu.png "Meni opominov")
-
 ## Brisanje
 
 Opomine je mogoče izbrisati **samo v stanju Osnutek**.

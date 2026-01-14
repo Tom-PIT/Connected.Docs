@@ -18,7 +18,7 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
    - Delna plačila premaknejo dokument v stanje **Delno plačani**.
    - Celotno plačilo premakne dokument v stanje **V celoti plačani**.
 5. Dokument je mogoče natisniti ali poslati stranki.  
-6. Zaloga se prilagodi **ločeno** z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdaje.md)  
+6. Zaloga se prilagodi **ločeno** z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md)  
    (ali z uporabo [**Dobavnice**](Dobavnice.md) in nato **Izdaje**).
 
 > [!IMPORTANT]  
@@ -155,8 +155,8 @@ Meni dokumenta omogoča:
 Maloprodajna predplačila **ne zmanjšujejo zaloge**, ne glede na stanje plačila.
 
 Za prilagoditev zaloge:
-- ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdaje.md), ali  
-- ustvarite [**Dobavnico**](Dobavnice.md) in nato [**Izdajo**](../../Logistika/Dokumenti/Izdaje.md).
+- ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md), ali  
+- ustvarite [**Dobavnico**](Dobavnice.md) in nato [**Izdajo**](../../Logistika/Dokumenti/Izdajnice.md).
 
 ## Brisanje
 

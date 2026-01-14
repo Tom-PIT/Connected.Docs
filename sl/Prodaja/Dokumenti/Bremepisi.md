@@ -5,7 +5,7 @@
 Bremepisi povečujejo odprto obveznost stranke. Za zmanjšanja ali vračila glejte **[Dobropise](Dobropisi.md)**.
 
 > [!TIP]
-> Za hiter pregled trenutnih **bremenitev in dobropisov** po posameznih strankah uporabite pregled **[Kartice podjetij](../Pregledi/KarticePodjetij.md)**.
+> Za hiter pregled trenutnih **bremenitev in dobropisov** po posameznih strankah uporabite pregled **[Poslovne kartice](../Pregledi/PoslovneKartice.md)**.
 
 Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Bremepisi** v [navigaciji](../../Skupno/UI/Navigacija.md).
 

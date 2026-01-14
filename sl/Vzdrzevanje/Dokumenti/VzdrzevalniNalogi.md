@@ -7,15 +7,15 @@ Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vklj
 > **Predpogoji**
 >
 > Pred ustvarjanjem vzdrževalnega naloga se prepričajte, da so nastavljeni:
-> - Vsaj en [**vzdrževalni proces**](../../Production/CodeLists/Processes.md) z aktivno verzijo
+> - Vsaj en [**vzdrževalni proces**](../../Proizvodnja/Sifranti/Procesi.md) z aktivno verzijo
 > - Definicije opreme
-> - Dodeljene [**organizacijske enote**](../../Production/CodeLists/OrganizationUnits.md)
-> - Po potrebi dodatne nastavitve, kot so [**viri**](../../Production/CodeLists/Resources.md),
->   [**kontrolni seznami**](../../Production/CodeLists/Checklists.md) in
->   [**merske enote**](../../Common/CodeLists/MeasureUnits.md), odvisno od poteka vzdrževanja
+> - Dodeljene [**organizacijske enote**](../../Proizvodnja/Sifranti//OrganizacijskeEnote.md)
+> - Po potrebi dodatne nastavitve, kot so [**viri**](../../Proizvodnja/Sifranti//Viri.md),
+>   [**kontrolni seznami**](../..//Proizvodnja/Sifranti/KontrolniListi.md) in
+>   [**merske enote**](../../Skupno/Sifranti/MerskeEnote.md), odvisno od poteka vzdrževanja
 
 Za dostop do vzdrževalnih nalogov pojdite na **Vzdrževanje / Vzdrževalni nalogi** v
-[navigaciji](../../Common/UI/Navigation.md).
+[navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Seznam vzdrževalnih nalogov
 
@@ -65,7 +65,7 @@ Iskalno polje omogoča filtriranje po kodi vzdrževalnega naloga ali nazivu opre
 
 ## Ustvarjanje vzdrževalnega naloga
 
-Kliknite [**akcijski gumb**](../../Common/UI/ActionButton.md), da ustvarite nov vzdrževalni nalog.
+Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vzdrževalni nalog.
 
 Čarovnik za ustvarjanje je sestavljen iz **treh korakov**, podobno kot pri proizvodnih nalogih.
 
@@ -86,7 +86,7 @@ Nato iz seznama izberite konkretno opremo.
 
 ### Korak 2 — Izberi proces
 
-Izberite **vzdrževalni [proces](../../Production/CodeLists/Processes.md)** in
+Izberite **vzdrževalni [proces](../../Proizvodnja/Sifranti/Procesi.md)** in
 **verzijo procesa**, ki določa vzdrževalne operacije.
 
 ![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2.png "Ustvari vzdrževalni nalog – korak 2")
