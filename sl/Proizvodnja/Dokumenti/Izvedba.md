@@ -101,7 +101,7 @@ Na voljo so naslednje možnosti:
 - **[Poraba](Poraba.md)** – beleženje porabe vhodov
 - **[Slabi kosi](SlabiKosi.md)** – beleženje slabih ali neuporabnih kosov  
 - **[Zastoj](Zastoj.md)** – beleženje prekinitev proizvodnje  
-- **[Kakovost](Kakovost.md)** – pregled in izpolnjevanje kontrol kakovosti  
+- **[Kvaliteta](Kvaliteta.md)** – pregled in izpolnjevanje kontrol kakovosti  
 - **[Delo](Delo.md)** – beleženje delovnega časa  
 - **[Navodila](Navodila.md)** – ogled navodil za operacijo  
 
@@ -125,9 +125,9 @@ Beleženje slabih ali neuporabnih kosov. Glejte **[Slabi kosi](SlabiKosi.md)**.
 
 Beleženje prekinitev proizvodnje. Glejte **[Zastoj](Zastoj.md)**.
 
-### Kakovost
+### Kvaliteta
 
-Pregled in ponavljanje kontrol kakovosti. Glejte **[Kakovost](Kakovost.md)**.
+Pregled in ponavljanje kontrol kakovosti. Glejte **[Kvaliteta](Kvaliteta.md)**.
 
 ### Delo
 

@@ -41,7 +41,7 @@ Uporabite filtre za zoženje seznama:
 - Kliknite **šifro dokumenta**, da odprete povezani dokument:
   - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md), kadar je vrsta dokumenta Proizvodni nalog
   - [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md), kadar je vrsta dokumenta Vzdrževalni nalog
-- Kliknite **šifro operacije**, da odprete stran [Izvajanje proizvodnje](../../Proizvodnja/Dokumenti/Izvajanje.md), osredotočeno na trenutno izvajanje.
+- Kliknite **šifro operacije**, da odprete stran [Izvedba](../../Proizvodnja/Dokumenti/Izvedba.md), osredotočeno na trenutno izvajanje.
 
 ## Meni
 

@@ -11,7 +11,7 @@ Aktivnost **Slabi kosi** se uporablja za beleženje okvarjenih ali neuporabnih k
 
     ![Vnos slabih kosov](../Images/ExecutionLossPage.png)
 
-3. Izberite **klasifikacijo slabih kosov** (razlog) – glejte [Oznake klasifikacije slabega kosa](../../Skupno/Sifranti/OznakeKlasifikacijeSlabegaKosa.md).  
+3. Izberite **klasifikacijo slabih kosov** (razlog) – glejte [Oznake klasifikacije slabega kosa](../Sifranti/OznakeKlasifikacijeSlabegaKosa.md).  
 4. Kliknite **Izmet** (rumeni gumb), da shranite vnos.  
 5. Postopek ponovite za dodatne slabe kose po potrebi.
 
@@ -20,7 +20,7 @@ Shranjeni slabi kosi so povezani s proizvodnim nalogom in operacijo ter so vidni
 ## Klasifikacije in oznake
 
 Razlogi za slabe kose se upravljajo z oznakami (npr. kozmetična napaka, napačna dimenzija, napaka stroja). Izberite najustreznejšo oznako za podporo nadaljnji analizi.  
-Glejte [Oznake klasifikacije slabega kosa](../../Skupno/Sifranti/OznakeKlasifikacijeSlabegaKosa.md).
+Glejte [Oznake klasifikacije slabega kosa](../Sifranti/OznakeKlasifikacijeSlabegaKosa.md).
 
 ## Analitika in poročanje
 

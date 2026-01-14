@@ -84,7 +84,7 @@ in proizvodne šifrante, potrebne za nemoteno delovanje.
 
 Na voljo so naslednje nastavitve in šifranti:
 
-- **[Konfiguracija](../Sifranti/Konfiguracija.md)** – splošne nastavitve proizvodnje
+- **[Konfiguracija](../Sifranti/KonfiguracijaProizvodnje.md)** – splošne nastavitve proizvodnje
 - **[Kontrolne liste](../Sifranti/KontrolneListe.md)** – kontrolni seznami za kakovost in procese
 - **[Oznake zastojev](../Sifranti/OznakeZastojev.md)** – klasifikacija razlogov za zastoje
 - **[Oznake klasifikacije slabega kosa](../Sifranti/OznakeKlasifikacijeSlabegaKosa.md)** – standardne kategorije izgub

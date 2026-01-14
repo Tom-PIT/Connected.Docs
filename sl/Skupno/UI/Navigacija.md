@@ -46,14 +46,14 @@ Primer – razdelki v domeni **Prodaja**:
 
 Dokumenti predstavljajo jedro vsakodnevnega operativnega dela. Uporabljajo se za ustvarjanje, obdelavo in sledenje poslovnim transakcijam, kot so:
 
-- **[Narocila strank](../../Prodaja/Dokumenti/NarocilaStrank.md)**  
+- **[Naročila strank](../../Prodaja/Dokumenti/NarocilaStrank.md)**  
 - **[Dobavnice](../../Prodaja/Dokumenti/Dobavnice.md)**  
 - **[Prevzemi](../../Logistika/Dokumenti/Prevzemi.md)**  
-- **[**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)**  
-- **[**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)**  
+- **[Izdajnice](../../Logistika/Dokumenti/Izdajnice.md)**  
+- **[Med-skladiščni promet](../../Logistika/Dokumenti/MedSkladiscniPromet.md)**  
 - **[Inventure](../../Logistika/Dokumenti/Inventure.md)**
 - **[Nabavni nalogi](../../Nabava/Dokumenti/NabavniNalogi.md)**  
-- **[Izvajanje](../../Proizvodnja/Dokumenti/Izvajanje.md)**
+- **[Izvedba](../../Proizvodnja/Dokumenti/Izvedba.md)**
 - **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)**
 - **[Zahteve](../../Proizvodnja/Dokumenti/Zahteve.md)**
 - in številni drugi
@@ -76,13 +76,13 @@ Pogledi omogočajo **analizo in spremljanje** poslovnih informacij. Ne ustvarjaj
 Primeri pogledov vključujejo:
 
 - **[Pregledi zalog](../../Logistika/Dokumenti/Zaloga.md)**  
-- **[Postavke narocil trank](../../Prodaja/Pregledi/PostavkeNarocilStrank.md)**  
-- **[Porocila dobavnic](../../Prodaja/Pregledi/PorocilaDobavnic.md)**  
+- **[Postavke naročil strank](../../Prodaja/Pregledi/PostavkeNarocilStrank.md)**  
+- **[Poročila dobavnic](../../Prodaja/Pregledi/PorocilaDobavnic.md)**  
 - **[Kartice podjetij](../../Prodaja/Pregledi/PoslovneKartice.md)**  
 - **[Pregledi zalog po lokaciji](../../Logistika/Pregledi/PogledZalogePoLokacijah.md)**  
-- **[KPI proizvodnje](../../Proizvodnja/Analitika/KPIProizvodnje.md)**
-- **[Povzetek izgub](../../Proizvodnja/Analitika/PovzetekIzgub.md)**
-- **[Povzetek zastojev](../../Proizvodnja/Analitika/PovzetekZastojev.md)**
+- **[KPI proizvodnje](../../Proizvodnja/Analiza/KazalnikiProizvodnje.md)**
+- **[Povzetek slabih kosov](../../Proizvodnja/Analiza/PovzetekSlabihKosov.md)**
+- **[Povzetek zastojev](../../Proizvodnja/Analiza/PovzetekZastojev.md)**
 
 Primer – **Prodaja / Pogledi**:
 

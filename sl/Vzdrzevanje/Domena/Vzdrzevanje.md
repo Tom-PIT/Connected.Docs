@@ -44,7 +44,7 @@ Domena Vzdrževanje uporablja skupne šifrante, ki so deljeni s
 - **[Procesi](../../Proizvodnja/Sifranti/Procesi.md)** — definicija korakov procesov in verzij, ki se uporabljajo za izvajanje vzdrževalnih operacij.
 - **[Organizacijske enote](../../Proizvodnja/Sifranti/OrganizacijskeEnote.md)** — definicija operativnih enot (npr. vzdrževalni oddelki, servisne ekipe).
 - **[Viri](../../Proizvodnja/Sifranti/Viri.md)** — upravljanje človeških in nečloveških virov (tehniki, orodja, oprema).
-- **[Kontrolni seznami](../../Proizvodnja/Sifranti/KontrolniSeznami.md)** — ustvarjanje in kategorizacija kontrolnih seznamov, ki se uporabljajo med vzdrževalnimi operacijami.
+- **[Kontrolni seznami](../../Proizvodnja/Sifranti/KontrolneListe.md)** — ustvarjanje in kategorizacija kontrolnih seznamov, ki se uporabljajo med vzdrževalnimi operacijami.
 
 Ti šifranti omogočajo vodenje vzdrževalnih tokov dela in izvajanja
 prek nalogov in urnikov.
