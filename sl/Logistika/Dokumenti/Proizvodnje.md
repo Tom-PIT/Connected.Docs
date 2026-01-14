@@ -1,8 +1,8 @@
 # Proizvodnje
 
-Dokument **Proizvodnja** beleži postavke, ki so bile proizvedene med izvajanjem **proizvodnega naloga**. Dokumenti proizvodnje se ustvarijo **samodejno** v modulu [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvajanje.md), ko proizvodni delavec zabeleži proizvedene količine. Proizvodnje povečujejo zalogo proizvedenih izdelkov in zagotavljajo sledljivost tega, kar je bilo izdelano.
+Dokument **Proizvodnja** beleži postavke, ki so bile proizvedene med izvajanjem **proizvodnega naloga**. Dokumenti proizvodnje se ustvarijo **samodejno** v modulu [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md), ko proizvodni delavec zabeleži proizvedene količine. Proizvodnje povečujejo zalogo proizvedenih izdelkov in zagotavljajo sledljivost tega, kar je bilo izdelano.
 
-Za vnos proizvedenih količin na proizvodni strani glejte **[Izvajanje](../../Proizvodnja/Dokumenti/Izvajanje.md)** (Izhodi). Izhodi so tesno povezani s to stranjo: beleženje proizvedenih postavk v proizvodnji ustvari ustrezen dokument proizvodnje v logistiki. Za določanje izhodov v procesih glejte **[Izhodi](../../Proizvodnja/Sifranti/Izhodi.md)**.
+Za vnos proizvedenih količin na proizvodni strani glejte **[Izvajanje](../../Proizvodnja/Dokumenti/Izvedba.md)** (Izhodi). Izhodi so tesno povezani s to stranjo: beleženje proizvedenih postavk v proizvodnji ustvari ustrezen dokument proizvodnje v logistiki. Za določanje izhodov v procesih glejte **[Izhodi](../../Proizvodnja/Sifranti/Izhodi.md)**.
 
 Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -37,7 +37,7 @@ Stran **Proizvodnje** prikazuje vse dokumente proizvodnje, ustvarjene prek izvaj
 
 ## Dejanja
 
-Dokumentov proizvodnje **ni mogoče ustvariti ročno** na tej strani (ni [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se v modulu [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvajanje.md) med beleženjem izhodov za proizvodni nalog.
+Dokumentov proizvodnje **ni mogoče ustvariti ročno** na tej strani (ni [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se v modulu [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md) med beleženjem izhodov za proizvodni nalog.
 
 Delovni tok:
 - Ko proizvodni delavec začne beležiti izhode, se samodejno ustvari **osnutek** dokumenta proizvodnje.

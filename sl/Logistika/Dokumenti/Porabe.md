@@ -1,10 +1,10 @@
 # Porabe
 
 Dokument **Poraba** beleži materiale, ki so bili porabljeni med izvajanjem **proizvodnega naloga**. Dokumenti porabe se ustvarijo **samodejno** v modulu  
-[**Izvajanje**](../../Proizvodnja/Dokumenti/Izvajanje.md), ko proizvodni delavec zabeleži porabo materiala. Porabe zmanjšujejo zalogo porabljenih materialov in zagotavljajo sledljivost uporabljenih postavk.
+[**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md), ko proizvodni delavec zabeleži porabo materiala. Porabe zmanjšujejo zalogo porabljenih materialov in zagotavljajo sledljivost uporabljenih postavk.
 
 Za vnos porabljenih materialov na proizvodni strani glejte  
-**[Porabljeno](../../Proizvodnja/Dokumenti/Porabljeno.md)** — modula sta tesno povezana: beleženje porabe v proizvodnji ustvari ustrezen dokument porabe v logistiki.
+**[Porabljeno](../../Proizvodnja/Dokumenti/Poraba.md)** — modula sta tesno povezana: beleženje porabe v proizvodnji ustvari ustrezen dokument porabe v logistiki.
 
 Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -41,7 +41,7 @@ Stran **Porabe** prikazuje vse dokumente porabe, ustvarjene med izvajanjem proiz
 
 ## Dejanja
 
-Dokumentov porabe **ni mogoče ustvariti ročno** na tej strani (ni [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se iz modula [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvajanje.md) med beleženjem porabe za proizvodni nalog.
+Dokumentov porabe **ni mogoče ustvariti ročno** na tej strani (ni [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se iz modula [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md) med beleženjem porabe za proizvodni nalog.
 
 Delovni tok:
 - Ko proizvodni delavec začne beležiti porabo, se samodejno ustvari **osnutek** dokumenta porabe.

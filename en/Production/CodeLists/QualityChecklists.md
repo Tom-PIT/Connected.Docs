@@ -1,4 +1,4 @@
-﻿# Quality — Execution checklists
+# Quality — Execution checklists
 
 The **Quality** page allows you to link **[checklists](Checklists.md)** to either a **process version** or an **operation**. These checklists are used to enforce quality-control steps during production.
 
@@ -19,10 +19,12 @@ To access this page, click the **Quality** button from:
 ## Schema
 
 | Field | Description |
-|-------|-------------|
-| **Checklist** | The checklist to attach. Selected from [**Checklists**](Checklists.md). *(mandatory)* |
-| **Mode** | When the checklist should be executed: <br>• **Manual**<br>• **On complete**<br>• **On pause**<br>• **On run**<br>• **On start** |
-| **Ordinal** | Defines the order in which checklists appear and execute inside the version or operation.|
+|------|-------------|
+| **Checklist** | The quality checklist that will be executed during the operation. |
+| **Mode** | Defines when the checklist is executed: <br>• **Manual**<br>• **On complete**<br>• **On every N units**<br>• **On first produced unit**<br>• **On last produced unit**<br>• **On pause**<br>• **On run**<br>• **On start** |
+| **Order** | Determines the execution order of the checklist relative to other checklists in the same operation. |
+| **Material** | Optional material to which the checklist applies. Used when quality checks are material-specific. See **[Materials](../../Assets/Domain/Materials.md)**. |
+| **Period** | Defines the number of produced units after which the checklist is triggered. This field is available only when **Mode = On every N units**. |
 
 ## List view
 
@@ -39,11 +41,14 @@ You may reorder entries by adjusting their **Ordinal** value.
    ![Quality New](../Images/QualityNew.png "New quality record")
 
 2. Select **Checklist** and **Mode**:
-   - **Manual**: Operators open and complete the checklist on demand (from the Quality activity). Use for ad‑hoc or non‑blocking checks.
-   - **On complete**: The checklist must be finished before the operation can end. Use for final inspections, packaging verification, or sign‑off.
-   - **On pause**: The checklist appears when the operation is paused. Use to capture reasons, interim inspections, or handover checks.
-   - **On run**: The checklist shows while the operation is running (e.g., mid‑process sampling or periodic checks). It can be prompted by time/quantity rules or manually.
-   - **On start**: The checklist appears immediately when the operation starts. Use for safety checks or setup confirmations required before work begins.
+   - **Manual**: Operators open and complete the checklist manually from the Quality activity.
+   - **On complete**: The checklist must be completed before the operation can be finished.
+   - **On every N units**: The checklist is triggered periodically based on the number of produced units (requires defining **Period**).
+   - **On first produced unit**: The checklist is triggered when the first unit is produced.
+   - **On last produced unit**: The checklist is triggered when the last unit is produced.
+   - **On pause**: The checklist is triggered when the operation is paused.
+   - **On run**: The checklist is available while the operation is running.
+   - **On start**: The checklist is triggered when the operation starts.
 
     ![Quality New Modes](../Images/QualityNewModes.png "Checklist mode")
  

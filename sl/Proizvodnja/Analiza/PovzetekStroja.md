@@ -40,7 +40,7 @@ Pod kazalnikom OEE je prikazana zadnja ali trenutno aktivna proizvodna operacija
 Prikaz vključuje:
 
 ### Proizvodni nalog in operacija  
-- Klikljiv [proizvodni nalog](../Documents/ProizvodniNalogi.md) (npr. `PRO-24-000015`)  
+- Klikljiv [proizvodni nalog](../Dokumenti/ProizvodniNalogi.md) (npr. `PRO-24-000015`)  
 - Opis [operacije](../Sifranti/Operacije.md)  
 - [Material](../../Sredstva/Domena/Materiali.md), ki se proizvaja (izdelek ali polizdelek)
 

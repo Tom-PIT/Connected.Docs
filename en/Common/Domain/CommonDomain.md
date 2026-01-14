@@ -1,4 +1,4 @@
-﻿# Common
+# Common
 
 The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain—[Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), [Production](../../Production/Domain/ProductionDomain.md)—relies on the Common module to operate correctly.
 
@@ -40,7 +40,6 @@ These settings define the geographic and organizational context of the company a
 These settings influence all monetary and financial behavior across domains.
 
 - **[Currencies](../CodeLists/Currencies.md)** – Defines currencies available for the organization.  
-- **[Exchange rates](../CodeLists/ExchangeRates.md)** – Defines exchange rates between currencies.  
 - **[Tax rates](../CodeLists/TaxRates.md)** – VAT or other tax definitions used in sales and procurement.  
 - **[Payment methods](../../Sales/CodeLists/PaymentMethods.md)** – Payment definitions used in Sales and Finance.  
 

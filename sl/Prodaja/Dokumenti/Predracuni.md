@@ -14,7 +14,7 @@ Predračuni se uporabljajo kot vmesni korak pri potrjevanju komercialnih pogojev
 1. Ustvarite **[Ponudbo](Ponudbe.md)** in jo po potrditvi objavite.  
 2. Pretvorite potrjeno ponudbo v **Predračun** prek *Povezani dokumenti → + Predračun* ali ustvarite predračun ročno.  
 3. Predračun pošljete stranki kot formalno ponudbo.  
-4. (Neobvezno) Iz potrjenega predračuna ustvarite enega ali več **[Avansov](Avansi.md)**.  
+4. (Neobvezno) Iz potrjenega predračuna ustvarite enega ali več **[Predplacila](Predplacila.md)**.  
 5. Po dobavi blaga ali storitev predračun pretvorite v končni **[Izdani račun](IzdaniRacuni.md)**.  
 6. Po potrebi predračun stornirate z dejanjem **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 

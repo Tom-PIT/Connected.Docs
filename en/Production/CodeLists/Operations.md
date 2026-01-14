@@ -1,4 +1,4 @@
-﻿# Operations
+# Operations
 
 Operations represent the **individual steps inside a process version**. Each process version contains one or more operations, executed in sequence or according to defined conditions. Operations define **what resources are used**, **what inputs and outputs are handled**, **how long the step takes**, and **which organizational units or expenses apply**.
 
@@ -51,7 +51,7 @@ Use the **Search** field to filter operations by name or code.
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) and choose:  
    - **New**  
-   - **By template** - if templates are available in [Protocol operations instance templates](ProtocolOperationsInstanceTemplates.md).
+   - **By template** - if templates are available in [**Protocol operations instance templates**](ProtocolOperationsInstanceTemplates.md).
    - **Copy existing**  
 
    ![Operation action button](../Images/OperationsActionButton.png)

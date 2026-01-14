@@ -11,7 +11,7 @@ Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vklj
 > - Definicije opreme
 > - Dodeljene [**organizacijske enote**](../../Proizvodnja/Sifranti//OrganizacijskeEnote.md)
 > - Po potrebi dodatne nastavitve, kot so [**viri**](../../Proizvodnja/Sifranti//Viri.md),
->   [**kontrolni seznami**](../..//Proizvodnja/Sifranti/KontrolniListi.md) in
+>   [**kontrolni listi**](../..//Proizvodnja/Sifranti/KontrolneListe.md) in
 >   [**merske enote**](../../Skupno/Sifranti/MerskeEnote.md), odvisno od poteka vzdrževanja
 
 Za dostop do vzdrževalnih nalogov pojdite na **Vzdrževanje / Vzdrževalni nalogi** v
@@ -116,7 +116,7 @@ Na voljo sta dva načina razporejanja:
 > [!NOTE]
 > Urniki na podlagi uporabe temeljijo na števcih virov in opreme
 > (npr. kosi, metri, grami, ure).
-> Za nastavitev glejte **[Delovne ure virov in števci](ResourceWor)**
+> Za nastavitev glejte **[Stanja števcev](StanjaStevcev.md)**
 
 Če je izbran **vzorec ponavljajoče izvedbe** (npr. *Mesečno*, *Vsakih X dni* ali *Letno*),
 se samodejno ustvari **vzdrževalni urnik**, ki bo generiral vzdrževalne naloge
