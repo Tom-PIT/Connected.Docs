@@ -46,7 +46,7 @@ Primer – razdelki v domeni **Prodaja**:
 
 Dokumenti predstavljajo jedro vsakodnevnega operativnega dela. Uporabljajo se za ustvarjanje, obdelavo in sledenje poslovnim transakcijam, kot so:
 
-- **[Prodajni nalogi](../../Prodaja/Dokumenti/ProdajniNalogi.md)**  
+- **[Narocila strank](../../Prodaja/Dokumenti/NarocilaStrank.md)**  
 - **[Dobavnice](../../Prodaja/Dokumenti/Dobavnice.md)**  
 - **[Prevzemi](../../Logistika/Dokumenti/Prevzemi.md)**  
 - **[**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)**  
@@ -76,9 +76,9 @@ Pogledi omogočajo **analizo in spremljanje** poslovnih informacij. Ne ustvarjaj
 Primeri pogledov vključujejo:
 
 - **[Pregledi zalog](../../Logistika/Dokumenti/Zaloga.md)**  
-- **[Poročila prodajnih nalogov](../../Prodaja/Pregledi/PoročilaProdajnihNalogov.md)**  
-- **[Poročila dobavnic](../../Prodaja/Pregledi/PoročilaDobavnic.md)**  
-- **[Kartice podjetij](../../Prodaja/Pregledi/KarticePodjetij.md)**  
+- **[Postavke narocil trank](../../Prodaja/Pregledi/PostavkeNarocilStrank.md)**  
+- **[Porocila dobavnic](../../Prodaja/Pregledi/PorocilaDobavnic.md)**  
+- **[Kartice podjetij](../../Prodaja/Pregledi/PoslovneKartice.md)**  
 - **[Pregledi zalog po lokaciji](../../Logistika/Pregledi/PogledZalogePoLokacijah.md)**  
 - **[KPI proizvodnje](../../Proizvodnja/Analitika/KPIProizvodnje.md)**
 - **[Povzetek izgub](../../Proizvodnja/Analitika/PovzetekIzgub.md)**
@@ -103,14 +103,14 @@ Upravljanje vključuje na primer:
 
 - konfiguracijo sistema  
 - **[Poslovni imenik](../Sifranti/PoslovniImenik.md)**  
-- **[Banke in načini plačila](../../Prodaja/Sifranti/NačiniPlačila.md)**  
+- **[Banke in načini plačila](../../Prodaja/Sifranti/NacinPlacila.md)**  
 - **[Države](../Sifranti/Drzave.md)**, **[valute](../Sifranti/Valute.md)**, **[davčne stopnje](../Sifranti/DavcneStopnje.md)**  
-- **[Vnaprej določena besedila](../Sifranti/VnaprejDoločenaBesedila.md)**  
+- **[Vnaprej določena besedila](../Sifranti/VnaprejDolocenaBesedila.md)**  
 - **[Merske enote](../Sifranti/MerskeEnote.md)**  
-- **[Bančni računi organizacije](../../Prodaja/Sifranti/BančniRačuniOrganizacije.md)**  
+- **[Bančni računi organizacije](../../Prodaja/Sifranti/BancniRacuniOrganizacije.md)**  
 - **[Procesi](../../Proizvodnja/Sifranti/Procesi.md)**
 - **[Vhodi](../../Proizvodnja/Sifranti/Vhodi.md)**, **[Izhodi](../../Proizvodnja/Sifranti/Izhodi.md)**
-- **[Nazivi delovnih mest](../Sifranti/NaziviDelovnihMest.md)**, **[Človeški viri](../../Proizvodnja/Sifranti/ČloveškiViri.md)**
+- **[Nazivi delovnih mest](../Sifranti/NaziviDelovnihMest.md)**, **[Človeški viri](../../Proizvodnja/Sifranti/CloveskiViri.md)**
 - drugi ključni šifranti  
 
 Primer – **Prodaja / Upravljanje**:

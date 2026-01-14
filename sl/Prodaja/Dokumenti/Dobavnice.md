@@ -12,7 +12,7 @@ Dobavnice predstavljajo povezavo med prodajnimi in skladiščnimi procesi:
 
 1. Stranka potrdi naročilo → ustvari se [**Naročilo stranke**](NarocilaStrank.md).  
 2. Iz naročila stranke uporabnik ustvari **Dobavnico** prek *Povezani dokumenti → + Dobavnica*.  
-3. Ko je dobavnica pripravljena, se ustvari in poveže dokument [**Izdaja**](../../Logistika/Dokumenti/Izdaje.md) (delna ali celotna dobava).  
+3. Ko je dobavnica pripravljena, se ustvari in poveže dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md) (delna ali celotna dobava).  
 4. Po dobavi se proces nadaljuje z ustvarjanjem [**Izdani račun**](IzdaniRacuni.md).
 
 Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekti ter jih uporabiti za sprožanje proizvodnih ali vzdrževalnih nalogov.
@@ -44,9 +44,9 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 
 Dobavnice uporabljajo poenostavljen nabor statusov:
 
-- **Na voljo** – Dobavnica je ustvarjena in pripravljena za obdelavo. Ta status deluje podobno kot *osnutek* pri drugih dokumentih. Dokument še ni ustvaril dokumenta [**Izdaja**](../../Logistika/Dokumenti/Izdaje.md) in vse količine so še vedno uredljive.
+- **Na voljo** – Dobavnica je ustvarjena in pripravljena za obdelavo. Ta status deluje podobno kot *osnutek* pri drugih dokumentih. Dokument še ni ustvaril dokumenta [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md) in vse količine so še vedno uredljive.
 
-- **V zaključevanju** – Dobavnica je delno obdelana. To se običajno zgodi, ko je bila ustvarjena [**Izdaja**](../../Logistika/Dokumenti/Izdaje.md) samo za del dobavljenega blaga ali ko dobava še ni zaključena.
+- **V zaključevanju** – Dobavnica je delno obdelana. To se običajno zgodi, ko je bila ustvarjena [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md) samo za del dobavljenega blaga ali ko dobava še ni zaključena.
 
 - **Zaključen** – Vsa dejanja, povezana z dobavnico, so bila izvedena. Dokumenta ni več mogoče spreminjati, še vedno pa ga je mogoče natisniti, izvoziti ali uporabiti za ustvarjanje računa.
 
@@ -128,9 +128,9 @@ Razpoložljiva dejanja za dobavnice v statusu **Na voljo** vključujejo:
 - [**+ Proizvodni nalog**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)
 - [**+ Vzdrževalni nalog**](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)
 - [**+ Izdani račun**](IzdaniRacuni.md)
-- **[+ Prazna izdaja](../../Logistika/Dokumenti/Izdaje.md)**
-- **[+ Polna izdaja](../../Logistika/Dokumenti/Izdaje.md)**
-- **[Izdaja](../../Logistika/Dokumenti/Izdaje.md)** – povezava z obstoječo izdajo
+- **[+ Prazna izdaja](../../Logistika/Dokumenti/Izdajnice.md)**
+- **[+ Polna izdaja](../../Logistika/Dokumenti/Izdajnice.md)**
+- **[Izdaja](../../Logistika/Dokumenti/Izdajnice.md)** – povezava z obstoječo izdajo
 
 ### Zaključevanje dobavnice
 

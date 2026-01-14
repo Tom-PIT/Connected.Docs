@@ -1,7 +1,6 @@
 # Poenostavljen prevzem
 
-Postopek **Poenostavljen prevzem** omogoča hiter način evidentiranja prihajajočih materialov na podlagi obstoječega  
-[**dobavnega naloga**](../../Nabava/Dokumenti/DobavniNalogi.md).
+Postopek **Poenostavljen prevzem** omogoča hiter način evidentiranja prihajajočih materialov na podlagi obstoječega [nabavnega naloga](../../Nabava/Dokumenti/NabavniNalogi.md).
 
 Uporabnika vodi skozi tri jasne korake: izbiro glave dokumenta, potrditev materialov za prevzem ter urejanje posamezne postavke pred zaključkom.
 

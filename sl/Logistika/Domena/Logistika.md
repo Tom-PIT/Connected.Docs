@@ -15,8 +15,8 @@ Za dostop do tega področja pojdite na **Logistika** v [navigaciji](../../Skupno
 
 Področje je razdeljeno na več funkcionalnih sklopov:
 
-- **[Nadzorna plošča](../NadzornaPlosca/NadzornaPlosca.md)** – hiter pregled logističnih aktivnosti in delovanja skladišč (kazalniki samo za branje)  
-- **[Zaloga](../Zaloga/Zaloga.md)** – pregled zaloge v realnem času (samo za branje; filtriranje po skladišču, lokaciji, materialu, seriji/serijski številki)  
+- **[Nadzorna plošča](../Dokumenti/NadzornaPlosca.md)** – hiter pregled logističnih aktivnosti in delovanja skladišč (kazalniki samo za branje)  
+- **[Zaloga](../Dokumenti/Zaloga.md)** – pregled zaloge v realnem času (samo za branje; filtriranje po skladišču, lokaciji, materialu, seriji/serijski številki)  
 - **[Dokumenti](#dokumenti)** – vsi logistični dokumenti, ki vplivajo na zalogo  
 - **[Pregledi](#pregledi)** – analitični pregledi porabe, izdaj in razporeditve zaloge  
 - **[Šifranti](#sifranti)** – konfiguracija skladišč, lokacij in logističnih pravil  
@@ -25,7 +25,7 @@ Področje je razdeljeno na več funkcionalnih sklopov:
 
 ## Nadzorna plošča
 
-**[Nadzorna plošča](../NadzornaPlosca/NadzornaPlosca.md)** omogoča hiter pregled logistične učinkovitosti in aktivnosti v skladiščih. Prikazuje operativne kazalnike (npr. število prevzemov in izdaj, odprte inventure, neskladja), ki uporabnikom pomagajo razumeti trenutno obremenitev, premike zaloge in aktivne skladiščne procese.
+**[Nadzorna plošča](../Dokumenti/NadzornaPlosca.md)** omogoča hiter pregled logistične učinkovitosti in aktivnosti v skladiščih. Prikazuje operativne kazalnike (npr. število prevzemov in izdaj, odprte inventure, neskladja), ki uporabnikom pomagajo razumeti trenutno obremenitev, premike zaloge in aktivne skladiščne procese.
 
 ![Nadzorna plošča logistike](../Images/Dashboard.png "Nadzorna plošča logistike")
 
@@ -33,7 +33,7 @@ Nadzorna plošča služi kot vstopna točka za skladiščne vodje in operaterje,
 
 ## Zaloga
 
-Razdelek **[Zaloga](../Zaloga/Zaloga.md)** omogoča operativni vpogled v materiale in njihove trenutne količine v skladiščih. Prikazuje vse materiale po skladiščih in lokacijah, vključno z razpoložljivimi količinami, serijami, serijskimi številkami in fizičnimi pozicijami. Ta pogled je samo za branje.
+Razdelek **[Zaloga](../Dokumenti/Zaloga.md)** omogoča operativni vpogled v materiale in njihove trenutne količine v skladiščih. Prikazuje vse materiale po skladiščih in lokacijah, vključno z razpoložljivimi količinami, serijami, serijskimi številkami in fizičnimi pozicijami. Ta pogled je samo za branje.
 
 ![Zaslon zaloge](../Images/Stock.png "Zaslon zaloge")
 
@@ -86,14 +86,14 @@ Razdelek **Šifranti** vsebuje konfiguracijo in osnovne podatke, ki jih uporablj
 
 Razpoložljivi šifranti vključujejo:
 
-- **[Konfiguracija](../Sifranti/Konfiguracija.md)** – splošne nastavitve logističnih procesov.
+- **[Konfiguracija](../Sifranti/KonfiguracijaLogistike.md)** – splošne nastavitve logističnih procesov.
 - **[Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md)** – notranji in zunanji poslovni subjekti.
 - **[Skladišča](../Sifranti/Skladisca.md)** – definicija fizičnih skladišč.
 - **[Države](../../Skupno/Sifranti/Drzave.md)** – geografski podatki.
 - **[Lokacije](../Sifranti/Lokacije.md)** – skladiščne lokacije (regali, police).
 - **[Meje zaloge](../Sifranti/MejeZaloge.md)** – omejitve in posebna pravila obravnave zaloge.
 - **[Merske enote](../../Skupno/Sifranti/MerskeEnote.md)** – enotne merske enote v sistemu.
-- **[Upravljanje analize materialov](../Sifranti/UpravljanjeAnalizeMaterialov.md)** – nastavitve za analize materialov.
+- **[Analiza materialov](../Sifranti/AnalizaMaterialov.md)** – nastavitve za analize materialov.
 
 ## Logistični procesi
 

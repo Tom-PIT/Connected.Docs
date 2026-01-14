@@ -1,7 +1,7 @@
 # Kazalniki vzdrževanja
 
 Zaslon **Kazalniki vzdrževanja** omogoča analitični pregled uspešnosti vzdrževanja.
-Združuje podatke iz **zaključenih [vzdrževalnih nalogov](VzdrzevalniNalogi.md)**
+Združuje podatke iz **zaključenih [vzdrževalnih nalogov](../Dokumenti/VzdrzevalniNalogi.md)**
 in pomaga oceniti učinkovitost, odzivnost ter zanesljivost vzdrževalnih aktivnosti.
 
 Do tega zaslona dostopate prek **Vzdrževanje / Analiza / Kazalniki vzdrževanja**

@@ -14,8 +14,8 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 3. Račun se objavi in je privzeto v stanju **Neplačano**.  
 4. Plačila se evidentirajo neposredno na računu (delna ali celotna).  
 5. Račun se samodejno premakne v stanje **Delno plačano** ali **V celoti plačano**, glede na prejeta plačila.  
-6. Zaloga se prilagodi ločeno z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdaje.md)  
-   (ali z uporabo [**Dobavnice**](Dobavnice.md) + [**Izdaje**](../../Logistika/Dokumenti/Izdaje.md), če gre za dostavo).
+6. Zaloga se prilagodi ločeno z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md)  
+   (ali z uporabo [**Dobavnice**](Dobavnice.md) + [**Izdaje**](../../Logistika/Dokumenti/Izdajnice.md), če gre za dostavo).
 
 ## Shema
 
@@ -130,8 +130,8 @@ Možno je evidentirati več plačil. Sistem samodejno posodablja stanje dokument
 Maloprodajni računi **ne zmanjšujejo zaloge**, ne glede na stanje plačila.
 
 Za prilagoditev zaloge:
-- ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdaje.md), ali  
-- ustvarite [**Dobavnico**](Dobavnice.md) in nato [**Izdajo**](../../Logistika/Dokumenti/Izdaje.md).
+- ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md), ali  
+- ustvarite [**Dobavnico**](Dobavnice.md) in nato [**Izdajo**](../../Logistika/Dokumenti/Izdajnice.md).
 
 ## Meni
 

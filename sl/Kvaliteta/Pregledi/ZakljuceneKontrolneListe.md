@@ -56,7 +56,7 @@ Uporabite filtre v levi stranski vrstici za zoženje seznama:
 - **Datumi kontrolnih list** — filtriranje po časovnem obdobju zaključka kontrolnega seznama
 - **Tip dokumenta** — omejitev rezultatov na:
   - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)
-  - [Vzdrževalni nalog](../../Vzdrževanje/Dokumenti/VzdrževalniNalogi.md)
+  - [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)
 - **Dokument** — filtriranje po določenem dokumentu
 - **Človeški viri** — filtriranje po uporabniku, ki je zaključil kontrolni seznam
 - **Kontrolna lista** — filtriranje po definiciji kontrolnega seznama
@@ -93,6 +93,6 @@ Poročilo kontrolnega seznama je **samo za branje** in ga po zaključku ni mogo�
 
 - **[Aktivne kontrolne liste](AktivneKontrolneListe.md)** — spremljanje kontrolnih seznamov, ki so trenutno v teku
 - **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)** — pregled proizvodnih dokumentov, povezanih s kontrolnimi seznami
-- **[Vzdrževalni nalogi](../../Vzdrževanje/Dokumenti/VzdrževalniNalogi.md)** — pregled vzdrževalnih dokumentov, povezanih s kontrolnimi seznami
+- **[Vzdrževalni nalogi](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)** — pregled vzdrževalnih dokumentov, povezanih s kontrolnimi seznami
 
 ---

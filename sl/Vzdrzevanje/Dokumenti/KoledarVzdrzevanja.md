@@ -72,7 +72,7 @@ v koledarju.
 ## Povezano
 
 - **[Vzdrževalni nalogi](VzdrzevalniNalogi.md)** – ustvarjanje in upravljanje vzdrževalnih del
-- **[Vzdrževalni urnik](VzdrzevalniUrnik.md)** – nastavitev ponavljajočih se časovnih ali
+- **[Vzdrževalni urniki](UrnikiVzdrzevanja.md)** – nastavitev ponavljajočih se časovnih ali
   uporabniških urnikov, ki generirajo vzdrževalne naloge
 
 ---

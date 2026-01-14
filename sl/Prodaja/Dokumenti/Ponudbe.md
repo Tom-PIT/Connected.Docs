@@ -10,7 +10,7 @@ Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Ponudbe** v [navi
 Tipičen potek:
 
 1. Ustvarite **Ponudbo** in jo pošljete stranki.  
-2. Ko je ponudba potrjena, jo preko razdelka **Povezani dokumenti** pretvorite v [**Prodajni nalog**](ProdajniNalogi.md).  
+2. Ko je ponudba potrjena, jo preko razdelka **Povezani dokumenti** pretvorite v [**Prodajni nalog**](NarocilaStrank.md).  
 3. Iz prodajnega naloga se proces nadaljuje v operativne faze – proizvodnja, nabava, dostava ipd.  
 4. Na koncu se ustvari [**Dobavnica**](Dobavnice.md) in nato še [**Izdani račun**](IzdaniRacuni.md).
 
@@ -125,7 +125,7 @@ Pogosta dejanja vključujejo:
 - **Projekt** – povezava ponudbe s projektom  
 - **Kopiraj ponudbo** – podvojitev ponudbe  
 - [**+ Predračun**](Predracuni.md) – ustvarjanje predračuna  
-- **+ Prodajni nalog** – neposredno ustvarjanje [prodajnega naloga](ProdajniNalogi.md) iz ponudbe
+- **+ Prodajni nalog** – neposredno ustvarjanje [prodajnega naloga](NarocilaStrank.md) iz ponudbe
 
 ![Povezani dokumenti](../Images/OfferPublishedLinkedDocuments.png "Povezani dokumenti")
 
@@ -142,7 +142,7 @@ Ko je ponudba v statusu **Na voljo**, kliknite **Zaključi**.
 ![Gumb Zaključi ponudbo](../Images/OffersCompleteButton.png "Gumb Zaključi ponudbo")
 
 > [!NOTE]
-> Ponudba se samodejno premakne v status **Zaključeno**, ko se iz nje neposredno ustvari nov [**Prodajni nalog**](ProdajniNalogi.md) preko dejanja **Povezani dokumenti**.
+> Ponudba se samodejno premakne v status **Zaključeno**, ko se iz nje neposredno ustvari nov [**Prodajni nalog**](NarocilaStrank.md) preko dejanja **Povezani dokumenti**.
 
 ## Meni
 

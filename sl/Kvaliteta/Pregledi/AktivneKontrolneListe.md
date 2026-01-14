@@ -13,7 +13,7 @@ Ta pogled ponuja seznam vseh trenutno aktivnih (nedokončanih) kontrolnih seznam
 | Polje | Opis |
 |------|------|
 | **Kontrolni list** | Šifra in ime kontrolnega seznama, ki se izvaja; prikazuje trenutno fazo prek statusne oznake (npr. Na začetku). |
-| **Dokument** | Vrsta in koda izvornega dokumenta: [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) ali [Vzdrževalni nalog](../../Vzdrževanje/Dokumenti/VzdrževalniNalogi.md). |
+| **Dokument** | Vrsta in koda izvornega dokumenta: [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) ali [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md). |
 | **Operacija** | Šifra in ime operacije, povezane z izvajanjem kontrolnega seznama. |
 | **Izdelek** | Ime in koda izdelka, povezana z operacijo (v proizvodnih kontekstih). |
 | [**Organizacijska enota**](../../Proizvodnja/Sifranti/OrganizacijskeEnote.md) | Enota, odgovorna za izvajanje (npr. Montaža, Elektro vzdrževanje). |
@@ -32,7 +32,7 @@ Na vrhu strani dva kazalnika povzemata trenutno stanje:
 Uporabite filtre za zoženje seznama:
 - **Datumi kontrolnih list** — filtriranje po datumu začetka, roku ali časovnem obdobju aktivnosti.
 - **Tip dokumenta** — omejitev rezultatov na določen izvorni dokument:
-  - [Vzdrževalni nalog](../../Vzdrževanje/Dokumenti/VzdrževalniNalogi.md)
+  - [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)
   - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)
 
 ## Interakcije vrstic
@@ -40,7 +40,7 @@ Uporabite filtre za zoženje seznama:
 - Kliknite **šifro kontrolnega seznama**, da odprete izvajanje kontrolnega seznama na strani [Urejanje kontrolnega seznama](#urejanje-kontrolnega-seznama).
 - Kliknite **šifro dokumenta**, da odprete povezani dokument:
   - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md), kadar je vrsta dokumenta Proizvodni nalog
-  - [Vzdrževalni nalog](../../Vzdrževanje/Dokumenti/VzdrževalniNalogi.md), kadar je vrsta dokumenta Vzdrževalni nalog
+  - [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md), kadar je vrsta dokumenta Vzdrževalni nalog
 - Kliknite **šifro operacije**, da odprete stran [Izvajanje proizvodnje](../../Proizvodnja/Dokumenti/Izvajanje.md), osredotočeno na trenutno izvajanje.
 
 ## Meni

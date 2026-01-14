@@ -50,7 +50,7 @@ Vsak zapis prikazuje več oznak, ki predstavljajo **povezane podatke**. Na teh s
 - [**Kontakti**](Kontakti.md)
 - [**Bančni računi**](BancniRacuni.md)
 - [**Poslovne enote**](PoslovneEnote.md)
-- [**Kartice podjetij**](../../Prodaja/Pregledi/KarticePodjetij.md)
+- [**Kartice podjetij**](../../Prodaja/Pregledi/PoslovneKartice.md)
 
 Filtri na levi strani omogočajo zoženje rezultatov po **pogledu**, **razmerju**, **tipu** in **državi**.
 
