@@ -2,7 +2,7 @@
 
 **Articles** are the main content units of the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). They contain written documentation such as instructions, guidelines, procedures, and reference information.
 
-Articles belong to a **directory** and can be organized and navigated using the directory’s [table of contents](TableOfContents.md).
+Articles belong to a **directory** and can be organized and navigated using the directoryâ€™s [table of contents](TableOfContents.md).
 
 To manage articles, go to **Knowledge / Management / Directories** in the [navigation](../../Common/UI/Navigation.md) and click **Articles** under the desired directory. See [Directories](Directories.md).
 
@@ -42,17 +42,7 @@ Click the **action button** to create a new article.
 
 ### Add new article
 
-When creating or editing an article, the following fields are available:
-
-- **Title**
-- **Key**
-- **Content**
-- **Attachments**
-- **Tags**
-- **Publish date**
-- **Expiration date**
-- **Collaboration**
-- **Auto save**
+When creating or editing an article, the fields described in the Schema section above are available.
 
 ![ArticlesEdit](../Images/ArticlesEdit.png "Edit article")
 
@@ -91,8 +81,8 @@ Tags are selected from **[Directory tags](DirectoryTags.md)** and can be reused 
 
 Articles can be scheduled using:
 
-- **Publish date** – defines when the article becomes visible
-- **Expiration date** – defines when the article is no longer visible
+- **Publish date** â€“ defines when the article becomes visible
+- **Expiration date** â€“ defines when the article is no longer visible
 
 If no dates are set, the article is visible immediately and indefinitely.
 
@@ -111,13 +101,13 @@ Click **Delete** on the article edit screen to open a confirmation dialog:
 If confirmed, the article is permanently removed.
 
 > [!NOTE]
-> Deleting an article also removes it from the directory’s table of contents.
+> Deleting an article also removes it from the directoryâ€™s table of contents.
 
 ## Related
 
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse and read published articles
-- **[Directories](Directories.md)** – manage directories that group articles
-- **[Table of contents](TableOfContents.md)** – define navigation for a directory
-- **[Directory tags](DirectoryTags.md)** – categorize and filter articles
+- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** â€“ browse and read published articles
+- **[Directories](Directories.md)** â€“ manage directories that group articles
+- **[Table of contents](TableOfContents.md)** â€“ define navigation for a directory
+- **[Directory tags](DirectoryTags.md)** â€“ categorize and filter articles
 
 ---
