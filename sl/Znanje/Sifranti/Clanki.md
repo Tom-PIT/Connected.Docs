@@ -2,7 +2,7 @@
 
 **Članki** so glavne vsebinske enote [**baze znanja**](../BazaZnanja/BazaZnanja.md). Vsebujejo pisno dokumentacijo, kot so navodila, smernice, postopki in referenčne informacije.
 
-Članki pripadajo **imeniku** in jih je mogoče organizirati ter po njih navigirati z uporabo imenikovega [**kazala**](Kazalo.md).
+Članki spadajo v imenik in jih je mogoče organizirati ter po njih krmariti z uporabo [**kazala**](Kazalo.md) imenika.
 
 Za upravljanje člankov pojdite na **Znanje / Upravljanje / Imeniki** v [navigaciji](../../Skupno/UI/Navigacija.md) in kliknite **Članki** pod želenim imenikom. Glejte tudi [Imeniki](Imeniki.md).
 
@@ -42,17 +42,7 @@ Kliknite **akcijski gumb**, da ustvarite nov članek.
 
 ### Dodaj nov članek
 
-Pri ustvarjanju ali urejanju članka so na voljo naslednja polja:
-
-- **Naslov**
-- **Ključ**
-- **Vsebina**
-- **Priponke**
-- **Oznake**
-- **Datum objave**
-- **Datum veljavnosti**
-- **Sodelovanje**
-- **Samodejno shranjevanje**
+Pri ustvarjanju ali urejanju članka so na voljo polja, ki so opisana v razdelku Shema zgoraj.
 
 ![Urejanje članka](../Images/ArticlesEdit.png "Urejanje članka")
 
