@@ -42,7 +42,7 @@ Kliknite **akcijski gumb**, da ustvarite nov članek.
 
 ### Dodaj nov članek
 
-Pri ustvarjanju ali urejanju članka so na voljo polja, ki so opisana v razdelku Shema zgoraj.
+Pri ustvarjanju ali urejanju članka so na voljo polja, ki so opisana v razdelku [**Shema**](#shema) zgoraj.
 
 ![Urejanje članka](../Images/ArticlesEdit.png "Urejanje članka")
 
