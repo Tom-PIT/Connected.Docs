@@ -7,7 +7,7 @@ Documentation is organized by language/country because regulations and processes
 - [**English**](en/README-ENGLISH.md)
 - [**Slovenian**](sl/README-SLOVENIAN.md)
 
-Start here:
+You can also start here:
 
 - English:
   - [**Getting started**](en/GettingStarted/00.GettingStarted.md) — Overview of the structure, first steps to configure the system, and typical workflow overviews.
