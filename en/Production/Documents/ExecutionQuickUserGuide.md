@@ -57,8 +57,6 @@ Repeat whenever more items are completed.
     2. Enter the **[Quality](Quality.md)** section.
     3. Tap **Repeat** for the checklist you want to redo.
 
-![Quality checklist](../Images/ExecutionQualityScreen.png "Quality checklist")
-
 > [!NOTE]
 > You can’t stop the operation if a required checklist isn’t finished.
 
@@ -70,12 +68,7 @@ Repeat whenever more items are completed.
 4. Select the loss reason.  
 5. Confirm by clicking the yellow **Loss** button.
 
-![Loss recording](../Images/ExecutionLossPage.png "Record loss")
-
-
 ## 6. Record consumed materials
-
-![Consumed materials](../Images/ExecutionConsumptionPage.png "Record consumed materials")
 
 Use this when materials are used during the operation:
 
@@ -93,8 +86,6 @@ Use this when materials are used during the operation:
 4. Choose the reason for the interruption.  
 5. Adjust the times if necessary.  
 6. Save.
-
-![Downtime](../Images/ExecutionDowntimePage.png "Record downtime")
 
 Use this for any interruption, such as waiting for materials or machine issues.
 
@@ -114,11 +105,7 @@ Open **Effort**, then enter:
 - Start/end time or duration  
 - Notes (optional)  
 
-Save the entry.
-
-Recorded efforts appear below:
-
-![Effort list](../Images/ExecutionEffortList.png "Effort list")
+Save the entry. The list of recorded efforts can be found below.
 
 ## 9. Finish the operation
 

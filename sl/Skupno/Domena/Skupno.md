@@ -1,0 +1,98 @@
+# Skupno
+
+Modul **Skupno** ni domena, temveč nabor **skupnih šifrantov in osnov uporabniškega vmesnika**, ki se uporabljajo v celotni platformi. Ti elementi definirajo globalne strukture, kot so države, valute, davčne stopnje, merske enote in poslovni partnerji. Vsaka funkcionalna domena — [Prodaja](../../Prodaja/Domena/Prodaja.md), [Nabava](../../Nabava/Domena/Nabava.md), [Logistika](../../Logistika/Domena/Logistika.md), [Proizvodnja](../../Proizvodnja/Domena/Proizvodnja.md) — se za pravilno delovanje zanaša na modul Skupno.
+
+Zaradi tega mora biti modul **Skupno** konfiguriran **pred** uporabo katerekoli druge domene v platformi.
+
+Primer šifrantov modula Skupno v domeni **Prodaja**:
+
+![Primeri šifrantov Skupno](../Images/CommonCodeListsExamples.png "Primeri šifrantov Skupno")
+
+> [!IMPORTANT]  
+> Šifranti modula Skupno morajo biti **prvi korak konfiguracije** pri vzpostavitvi platforme.  
+>
+> Brez teh vrednosti domene [Prodaja](../../Prodaja/Domena/Prodaja.md), [Nabava](../../Nabava/Domena/Nabava.md), [Logistika](../../Logistika/Domena/Logistika.md) in [Sistemske nastavitve](../../Sistem/Nastavitve/KonfiguracijaSistema.md) ne morejo pravilno delovati.
+
+## Kaj vključuje modul Skupno?
+
+Modul Skupno vsebuje več kategorij skupnih šifrantov, ki se uporabljajo v celotnem sistemu:
+
+- **Geografija in organizacijska struktura**  
+- **Finančne in davčne nastavitve**  
+- **Meritve in merske enote**  
+- **Partnerji in poslovni zapisi**  
+- **Besedilne predloge in vedenje uporabniškega vmesnika**
+
+Ti šifranti predstavljajo osnovne gradnike, na katerih temeljijo druge domene.
+
+### Geografija in organizacija
+
+Te nastavitve določajo geografski in organizacijski kontekst podjetja in njegovih dokumentov.
+
+- **[Države](../Sifranti/Drzave.md)** – določajo dovoljene države za naslove, dokumente, pravno oblikovanje in lokalizacijo.  
+- **[Poslovni imenik](../Sifranti/PoslovniImenik.md)** – osrednja baza podjetij, dobaviteljev in drugih pravnih subjektov.
+
+> [!IMPORTANT]  
+> Države morajo biti konfigurirane pred nastavitvijo države organizacije v **Sistem → Konfiguracija → Organizacija** ali v **Nastavitvah skupnih tipov**.
+
+### Finančne in valutne nastavitve
+
+Te nastavitve vplivajo na vse denarne in finančne procese v domenah.
+
+- **[Valute](../Sifranti/Valute.md)** – definirajo valute, ki so na voljo organizaciji.  
+- **[Davčne stopnje](../Sifranti/DavcneStopnje.md)** – definicije DDV ali drugih davkov, uporabljenih v prodaji in nabavi.  
+- **[Načini plačila](../../Prodaja/Sifranti/NacinPlacila.md)** – plačilne metode, uporabljene v prodaji in financah.
+
+> [!IMPORTANT]  
+> Valute morajo biti ustvarjene tukaj **pred** izbiro v:  
+> - Sistem → [Konfiguracija](../../Sistem/Nastavitve/KonfiguracijaSistema.md) → Nastavitve skupnih tipov  
+> - dokumentih v domenah [Prodaja](../../Prodaja/Domena/Prodaja.md) in [Nabava](../../Nabava/Domena/Nabava.md)
+
+### Merjenje in merske enote
+
+Uporabljajo se v sredstvih, materialih, prodajnih dokumentih, nabavnih naročilih, logistiki in proizvodnji.
+
+- **[Merske enote](../Sifranti/MerskeEnote.md)** – osnovne merske enote (kos, kg, m, …).
+
+Pravilna konfiguracija zagotavlja doslednost količin, cen in zalog.
+
+## Partnerji in poslovni zapisi
+
+Zapisi o partnerjih so skupni vsem komercialnim procesom.
+
+- **[Poslovni imenik](../Sifranti/PoslovniImenik.md)** – skupni imenik kupcev, dobaviteljev in poslovnih subjektov.  
+- **[Banke](../Sifranti/Banke.md)** – definicije bank, uporabljene pri plačilnih navodilih.  
+- **[Bančni računi organizacije](../../Prodaja/Sifranti/BancniRacuniOrganizacije.md)** – interni bančni računi podjetja za izdajanje računov.
+
+Ti zapisi zagotavljajo enotno identifikacijo poslovnih partnerjev v vseh domenah.
+
+## Besedila in predloge
+
+Te nastavitve omogočajo enotno oblikovanje in vedenje dokumentov.
+
+- **[Vnaprej določena besedila](../Sifranti/VnaprejDolocenaBesedila.md)** – ponovno uporabljiva besedila za ponudbe, račune, dobavnice in nabavne dokumente.
+
+## Zakaj morajo biti šifranti Skupno konfigurirani najprej
+
+Skoraj vsi procesi v platformi so odvisni od nastavitev Skupno:
+
+| Področje | Odvisnost |
+|--------|----------|
+| **Sistem → Konfiguracija** | Zahteva [Države](../Sifranti/Drzave.md) in [Valute](../Sifranti/Valute.md) pred nastavitvijo organizacije |
+| **Prodaja** | Zahteva [Valute](../Sifranti/Valute.md), [Davčne stopnje](../Sifranti/DavcneStopnje.md), [Merske enote](../Sifranti/MerskeEnote.md), [Načini plačila](../../Prodaja/Sifranti/NacinPlacila.md) |
+| **Nabava** | Zahteva [Poslovni imenik](../Sifranti/PoslovniImenik.md), [Države](../Sifranti/Drzave.md), [Valute](../Sifranti/Valute.md) |
+| **Logistika** | Zahteva [Merske enote](../Sifranti/MerskeEnote.md), [Države](../Sifranti/Drzave.md), [Poslovni imenik](../Sifranti/PoslovniImenik.md) |
+| **Proizvodnja** | Uporablja [Merske enote](../Sifranti/MerskeEnote.md) in [Poslovni imenik](../Sifranti/PoslovniImenik.md) |
+
+Če modul Skupno ni pravilno konfiguriran, se lahko pojavijo:
+
+- manjkajoče vrednosti v spustnih seznamih  
+- nezmožnost ustvarjanja prodajnih ali nabavnih dokumentov  
+- napačni davčni izračuni  
+- nepravilno oblikovanje računov in dobavnic  
+- napake v sistemski konfiguraciji  
+
+> [!POZOR]  
+> **Ne nadaljujte z uporabo domen [Prodaja](../../Prodaja/Domena/Prodaja.md), [Nabava](../../Nabava/Domena/Nabava.md), [Logistika](../../Logistika/Domena/Logistika.md) ali [Sistemske nastavitve](../../Sistem/Nastavitve/KonfiguracijaSistema.md), dokler niso ustvarjeni vsi zahtevani šifranti modula Skupno.**
+
+---

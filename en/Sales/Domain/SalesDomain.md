@@ -1,4 +1,4 @@
-﻿# Sales
+# Sales
 
 The **Sales** domain contains all records and documents needed to manage commercial transactions with customers. It includes [**Offers**](../Documents/Offers.md), [**Sales orders**](../Documents/SalesOrders.md), [**Delivery notes**](../Documents/DeliveryNotes.md), [**Issued invoices**](../Documents/IssuedInvoices.md), and analytical views used to understand sales performance and document flows.
 
@@ -75,7 +75,7 @@ Available configuration and code lists include:
 - **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Consistent measurement units used in commercial documents.  
 - **[Cost centers](../../Common/CodeLists/CostCenters.md)** – Classification of sales and revenue by cost center.  
 - **[Currencies](../../Common/CodeLists/Currencies.md)** – Currency definitions used in price lists and invoices.  
-- **[Exchange rates](../../Common/CodeLists/ExchangeRates.md)** – Daily or periodic exchange rates used for currency conversion.  
+- **[Exchange rates](../CodeLists/ExchangeRates.md)** – Daily or periodic exchange rates used for currency conversion.  
 - **[Predefined texts](../../Common/CodeLists/PredefinedTexts.md)** – Standardized text blocks used throughout sales documents.  
 - **[Tax rates](../../Common/CodeLists/TaxRates.md)** – Definitions of VAT and tax rates used in invoicing.  
 - **[Clause templates for delivery notes](../CodeLists/ClauseTemplatesDeliveryNotes.md)** – Predefined clauses for delivery documentation.  

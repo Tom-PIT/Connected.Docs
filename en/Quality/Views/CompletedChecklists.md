@@ -4,9 +4,8 @@ The **Completed checklists** view provides an analytical overview of all **check
 
 To access this view, navigate to **Quality / Views / Completed checklists** in the [navigation](../../Common/UI/Navigation.md).
 
-![CompletedChecklistsList](../Images/CompletedChecklistsList.png)
 
-## Overview
+### Overview
 
 At the top of the screen, several indicators summarize the current state of completed checklists:
 
@@ -25,6 +24,9 @@ Clicking any indicator filters the list accordingly.
 
 The list shows completed checklist executions with their main contextual information. Each row represents a **single completed checklist execution**. Use the search bar in the top-right corner to quickly filter results.
 
+![CompletedChecklistsList](../Images/CompletedChecklistsList.png)
+
+
 Displayed information typically includes:
 
 - **Checklist** — checklist code and name (e.g. `CHL-25-00000003` · Necessary materials)
@@ -41,6 +43,13 @@ Rows are **not expandable**. To see checklist details, open the checklist report
 
 - Click the **Checklist code** to open the **Checklist report**.
 - Click the **Production order code** to open the related [production order](../../Production/Documents/ProductionOrders.md) document.
+
+## Menu
+
+The **Menu** in the top-right corner provides:
+
+- **Printing**
+- **Export CSV**
 
 ## Filters
 

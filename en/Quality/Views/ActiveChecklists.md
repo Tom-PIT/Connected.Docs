@@ -4,26 +4,32 @@ The **Active checklists** view lists all checklist executions that are currently
 
 To access this view, navigate to **Quality / Views / Active checklists** in the [navigation](../../Common/UI/Navigation.md).
 
-## Overview
+### Overview
 
 This view provides a real-time list of all checklists that are currently active (not completed). It is intended for shop-floor personnel, maintenance staff, and supervisors to quickly identify which checklists require attention.
 
-At the top of the page, two indicators summarize the current state:
-- **Active checklists** — total number of active checklist executions.
-- **My checklists** — number of active checklist executions assigned to the currently logged-in user.
+## Schema
+
+| Field | Description |
+|-------|-------------|
+| **Checklist** | Code and name of the checklist being executed; shows current phase via status chip (e.g., On start). |
+| **Document** | Source document type and code: [Production order](../../Production/Documents/ProductionOrders.md) or [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md). |
+| **Operation** | Operation code and name attached to the checklist execution. |
+| **Product** | Product name and code related to the operation (production contexts). |
+| [**Organization unit**](../../Production/CodeLists/OrganizationUnits.md) | Unit responsible for execution (e.g., Assembly, Electrical maintenance). |
+| **Equipment** | Appears for maintenance-linked checklists; equipment being maintained/checked. |
+
 
 ## Active Checklists list
 
 ![Active Checklists List](../Images/ActiveChecklistsList.png "Active Checklists List")
 
-The list shows key context for each active execution. Typical fields displayed:
-- **Checklist** — code and name of the checklist being executed (e.g., `CHL-25-00000003` · Necessary materials). A status chip indicates the current phase (e.g., On start).
-- **Document** — the source document type and code (e.g., Production order `PRO-26-000001`).
-- **Operation** — operation code and name (e.g., `OPR-25-000017, Assembly`).
-- **Product** — product name and code (e.g., Pine Table, MIZ-BOR).
-- **Organization unit** — the unit responsible for execution (e.g., Assembly).
+At the top of the page, two indicators summarize the current state:
+- **Active checklists** — total number of active checklist executions.
+- **My checklists** — number of active checklist executions assigned to the currently logged-in user.
 
-### Filters
+
+## Filters
 
 Use filters to narrow down the list:
 - **Checklist dates** — filter by start date, due date, or activity date range.
@@ -31,11 +37,21 @@ Use filters to narrow down the list:
   - [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md)
   - [Production order](../../Production/Documents/ProductionOrders.md)
 
-### Row interactions
+## Row interactions
 
 - Click the **Checklist code** to open the checklist execution in the [Checklist edit](#checklist-edit) page.
-- Click the **Production order code** to open the related [Production order](../../Production/Documents/ProductionOrders.md) document.
+- Click the **Document code** to open the related document:
+  - [Production order](../../Production/Documents/ProductionOrders.md) when the document type is Production order
+  - [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md) when the document type is Maintenance order
 - Click the **Operation code** to open the [Production Execution](../../Production/Documents/Execution.md) page focused on the current execution.
+
+## Menu
+
+The **Menu** in the top-right corner provides:
+
+- **Printing**
+- **Export CSV**
+- **Export PDF**
 
 ## Checklist edit
 

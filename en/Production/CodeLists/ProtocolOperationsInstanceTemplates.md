@@ -1,13 +1,11 @@
 ﻿# Protocol operation instance templates
 
-Protocol operation instance templates define reusable operation blueprints that can be quickly inserted into manufacturing processes.  They help standardize naming, descriptions, time-calculation behavior, tags, and other operation attributes across the system.
+Protocol operation instance templates define reusable operation blueprints that can be quickly inserted into processes. They help standardize naming, descriptions, time-calculation behavior, tags, and other operation attributes across the system for both **Production** and **Maintenance** workflows (e.g., assembly step, inspection, calibration).
 
-To access this page, go to **Production / Management / Protocol operation instance templates** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Management / Protocol operation instance templates** in the [navigation](../../Common/UI/Navigation.md). Templates are shared and can be used when building operations in process versions.
 
 > [!TIP]
 > For a full demonstration, see the **[Operation templates](https://www.youtube.com/watch?v=Cm8RYdO0f6E)** video tutorial.
-
-
 
 ## Schema
 
@@ -15,11 +13,11 @@ To access this page, go to **Production / Management / Protocol operation instan
 |-------|-------------|
 | **Code** | Unique identifier of the template. |
 | **Name** | Template name shown when selecting an operation template. |
-| **Organization unit** | The organizational unit for which the template is intended. See [Organization units](OrganizationUnits.md). |
+| **Organization unit** | The organizational unit for which the template is intended (e.g., production line or maintenance team). See [**Organization units**](OrganizationUnits.md). |
 | **Description** | Text describing what the operation involves and when it should be used. |
 | **Time calculation** | Defines whether the template’s time should be *included* or *excluded* in the total operation duration. |
-| **Article** | Optional article used to attach instructions to the template. |
-| **Tags** | Classification labels that help categorize templates. |
+| **Article** | Optional article used to attach instructions to the template. See the **[Knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md)** for authoring instructions. |
+| **Tags** | Classification labels that help categorize templates (e.g., Production, Maintenance). |
 
 ## Management
 

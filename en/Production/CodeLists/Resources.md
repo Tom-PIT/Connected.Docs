@@ -1,8 +1,8 @@
 ﻿# Resources
 
-Resources are used to define and manage all **human** and **non-human** assets available in Production. These include workers, machines, workstations, equipment, and teams. Resources created here can later be assigned to **[operations](Operations.md)**, **[processes](Processes.md)**, and **[production orders](../Documents/ProductionOrders.md)**.
+Resources are used to define and manage all **human** and **non-human** assets available across **Production** and **Maintenance**. These include workers, technicians, machines, workstations, tools, test equipment, and teams. Resources created here can later be assigned to **[operations](Operations.md)**, **[processes](Processes.md)**, and documents such as **[production orders](../Documents/ProductionOrders.md)** and **[maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md)**.
 
-To access this page, go to **Production / Management / Resources** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Resources** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Resources](https://www.youtube.com/watch?v=Kr5WkGMQj48)** video tutorial.
@@ -13,16 +13,15 @@ The following table lists all fields used across **Human**, **Non-human**, and *
 
 | Field | Description | H | NH | T |
 |-------|-------------|:-:|:--:|:-:|
-| **User** | Links the resource to a system user (mandatory). | ✔️ |  |  |
+| **User** | Links the resource to a system user (mandatory for human resources). | ✔️ |  |  |
 | **Name** | Name of the resource or team (mandatory). | ✔️ | ✔️ | ✔️ |
 | **Folder** | Folder where the resource or team resides. | ✔️ | ✔️ | ✔️ |
-| **Tags** | Labels for classification or filtering. | ✔️ | ✔️ | ✔️ |
+| **Tags** | Labels for classification or filtering (e.g., Production, Maintenance). | ✔️ | ✔️ | ✔️ |
 | **Teams** | Teams to which a human resource belongs. | ✔️ |  |  |
 | **Resource parent** | Parent resource for hierarchical grouping. |  | ✔️ |  |
 | **External Key** | External identifier for integration. |  | ✔️ |  |
 | **Members** | Human resources included in the team. |  |  | ✔️ |
 | **Enabled** | Indicates whether the resource/team is active. | ✔️ | ✔️ | ✔️ |
-
 
 ---
 
@@ -31,8 +30,8 @@ The following table lists all fields used across **Human**, **Non-human**, and *
 ![Resources toolbar](../Images/ResourcesListAddNewButtons.png "Resources toolbar")
 
 - **Add folder** – Creates a folder to organize resources.
-- **Add human resource** – Creates an individual human resource.
-- **Add non-human resource** – Creates a machine, workstation, or equipment resource.
+- **Add human resource** – Creates an individual human resource (e.g., operator, maintenance technician).
+- **Add non-human resource** – Creates a machine, workstation, equipment, or tool.
 - **Add team** – Creates a human resource group.
 
 ## Structure
@@ -46,7 +45,8 @@ Examples:
 - **John Doe 1** (human resource)
 - **John Doe 2** (human resource)
 - **Spray booth + spray guns** (non-human resource not in any folder)
-
+- **Calibration tools** (non-human)  
+- **Maintenance team A** (team)
 
 ![Resources Detail](../Images/ResourcesDetail.png "Resources list detail")
 
@@ -77,7 +77,7 @@ Selecting an item shows its details and the Edit form.
 
 ## Deletion
 
-A resource can be deleted only if it is **not referenced in any operations**, processes, or production orders.
+A resource can be deleted only if it is **not referenced** in operations, processes, or documents (e.g., production or maintenance orders).
 
 Deleting an item from the Edit page removes it permanently.
 

@@ -80,5 +80,5 @@ This view is **analytical only**. It does not allow creating, editing, or deleti
 
 - **[Consumption details](ConsumptionDetails.md)** – review materials consumed during production  
 - **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
-- **[Stock view by material](Stock.md#stock-view-by-material)** – review stock movements and balances by material  
+- **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** – review stock movements and balances by material  
 - **[Issue documents](../Documents/Issues.md)** – create and review stock issue documents

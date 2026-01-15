@@ -1,6 +1,6 @@
-﻿# Disassemblies
+# Disassemblies
 
-Disassemblies are logistics documents used to break down a set (combined material) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.
+Disassemblies are logistics documents used to break down a [set (combined material)](../../Assets/CodeLists/Sets.md) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.
 
 Use a Disassembly when you receive or store sets (bundled materials) but need to consume or sell their components separately. Publishing a Disassembly reduces the set’s stock and increases the stock of its parts according to the structure defined on the set.
 

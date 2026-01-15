@@ -23,11 +23,11 @@ Instruction articles may include:
 - Notes specific to the operation or product  
 
 > [!NOTE]
-> Articles themselves can be updated by authorized staff in the [Knowledge base domain](../../KnowledgeBase/Domain/KnowledgeBaseDomain.md).
+> Articles themselves can be updated by authorized staff in the [Knowledge base domain](../../Knowledge/KnowledgeBase/KnowledgeBase.md).
 
 ## Editing and updates
 
-Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../CodeLists/Operations.md) and use the **Article** field to link existing [Knowledge base](../../KnowledgeBase/Domain/KnowledgeBaseDomain.md) content.
+Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../CodeLists/Operations.md) and use the **Article** field to link existing [Knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) content.
 
 ---
 
