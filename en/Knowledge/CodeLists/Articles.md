@@ -42,7 +42,7 @@ Click the **action button** to create a new article.
 
 ### Add new article
 
-When creating or editing an article, the fields described in the Schema section above are available.
+When creating or editing an article, the fields described in the [Schema](#schema) section above are available.
 
 ![ArticlesEdit](../Images/ArticlesEdit.png "Edit article")
 
