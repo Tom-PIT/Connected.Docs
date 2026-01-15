@@ -1,4 +1,4 @@
-﻿# Operations
+# Operations
 
 Operations represent the **individual steps inside a process version**. Each process version contains one or more operations, executed in sequence or according to defined conditions. Operations define **what resources are used**, **what inputs and outputs are handled**, **how long the step takes**, and **which organizational units or expenses apply**.
 
@@ -26,7 +26,7 @@ To access operations:
 | **Time impact** | Indicates whether the operation’s duration affects the total process duration:<br>• Undefined<br>• Include<br>• Exclude |
 | **Parent** | Allows nesting an operation under another one. |
 | **Default organization unit** | Assigns the organizational unit responsible for the operation. |
-| **Article** | Adds an article from the [Knowledge base](../../KnowledgeBase/Domain/KnowledgeBaseDomain.md) to the version and provide more detailed instructions, descriptions, or images. Enter the article title or select it from the dropdown menu. (optional). |
+| **Article** | Adds an article from the [Knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) to the version and provide more detailed instructions, descriptions, or images. Enter the article title or select it from the dropdown menu. (optional). |
 | **Tags** | Optional tags for grouping or categorizing operations. |
 | **[**Expense**](../../Supply/CodeLists/Expenses.md)** | Expense category linked to this operation. |
 
@@ -51,7 +51,7 @@ Use the **Search** field to filter operations by name or code.
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) and choose:  
    - **New**  
-   - **By template** - if templates are available in [Protocol operations instance templates](ProtocolOperationsInstanceTemplates.md).
+   - **By template** - if templates are available in [**Protocol operations instance templates**](ProtocolOperationsInstanceTemplates.md).
    - **Copy existing**  
 
    ![Operation action button](../Images/OperationsActionButton.png)

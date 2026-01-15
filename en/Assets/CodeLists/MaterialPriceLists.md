@@ -1,6 +1,6 @@
 # Material price lists
 
-**Material price lists** are the central source of truth for net prices of [materials](Materials.md) within a defined validity period. They enable:
+**Material price lists** are the central source of truth for net prices of [materials](../Domain/Materials.md) within a defined validity period. They enable:
 - Consistent pricing across processes (procurement, production, and inventory)
 - Time-based price changes using **Valid from** / **Valid to**
 - Optional **quantity-based ranges** to apply percentage adjustments to the base price
@@ -24,7 +24,7 @@ To access this screen, navigate to **Assets / Materials / Material price lists**
 | Field | Description |
 |------|-------------|
 | **Type** | Material classification (e.g. *Raw material*, *Semi products*, *Repro*). |
-| [**Material**](Materials.md) | Specific material to which the price applies. |
+| [**Material**](../Domain/Materials.md) | Specific material to which the price applies. |
 | **Item price net 100 %** | Base net price of the material without discounts. |
 | **Ranges** | Optional quantity-based pricing rules defining discounts or adjustments. |
 | **Range from / Range to** | Quantity interval where the rule applies. |

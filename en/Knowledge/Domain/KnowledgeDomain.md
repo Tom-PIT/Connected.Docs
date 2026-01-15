@@ -15,7 +15,7 @@ To access this domain, navigate to **Knowledge** in the [navigation](../../Commo
 
 The domain is organized into two main functional areas:
 
-- **[Knowledge base](#knowledge-base)** – end-user access to published articles and documentation  
+- **[Knowledge base](../KnowledgeBase/KnowledgeBase.md)** – end-user access to published articles and documentation  
 - **[Management](#management)** – configuration and content structure setup  
 
 ![Knowledge Domain Overview](../Images/KnowledgeDomainOverview.png "Knowledge Domain Overview")
@@ -38,13 +38,13 @@ Typical usage includes:
 - Searching for documentation by keyword or tag  
 - Reviewing announcements or reference materials  
 
-Articles in the Knowledge base may include:
+Articles in the **Knowledge base** may include:
 
 - Text content
 - Attachments (documents, images, files)
 - Comments (if enabled)
 
-The Knowledge base is **read-only for most users**, except for commenting where permitted.
+The **Knowledge base** is **read-only for most users**, except for commenting where permitted.
 
 ## Management
 
@@ -56,10 +56,10 @@ Management includes the following configuration areas:
 
 ### Directories
 
-**Directories** define the main structure of the Knowledge base. Each directory represents a **topic or category** and can contain:
+**Directories** define the main structure of the **Knowledge base**. Each directory represents a **topic or category** and can contain:
 
-- Articles
-- Indexes (structured groupings)
+- [Articles](../CodeLists/Articles.md)
+- [Table of contents](../CodeLists/TableOfContents.md) (structured groupings)
 - Attachments
 
 Directories allow organizations to group related content logically (e.g. HR guidelines, Production instructions, IT documentation).
@@ -77,10 +77,10 @@ Typical configuration includes:
 Tags are commonly used to:
 
 - Categorize articles by topic
-- Enable filtering in the Knowledge base
+- Enable filtering in the **Knowledge base**
 - Highlight related content across different directories
 
-Directory tags are shared across the Knowledge domain and reused by multiple directories and articles.
+Directory tags are shared across the Knowledge domain and reused by multiple directories and articles. See [Directory tags](../CodeLists/DirectoryTags.md).
 
 ## Knowledge workflow
 
@@ -90,20 +90,20 @@ The Knowledge domain typically follows this lifecycle:
 Directories and directory tags are defined in **Management**.
 
 ### **2. Content creation**
-Articles are created and assigned to directories, optionally tagged and enriched with attachments.
+[Articles](../CodeLists/Articles.md) are created and assigned to directories, optionally tagged and enriched with attachments.
 
 ### **3. Publishing**
-Articles are published and become visible in the Knowledge base according to their status and validity settings.
+Articles are published and become visible in the **Knowledge base** according to their status and validity settings.
 
 ### **4. Usage**
-Users browse, search, read, and comment on articles in the Knowledge base.
+Users browse, search, read, and comment on articles in the **Knowledge base**.
 
 ### **5. Maintenance**
 Content is updated, disabled, or archived as processes and documentation evolve.
 
 ## Summary
 
-The Knowledge domain serves as the **central documentation hub** of the system.  
+The **Knowledge base** serves as the **central documentation hub** of the system.  
 It ensures that:
 
 - Internal knowledge is structured and accessible  
@@ -112,5 +112,13 @@ It ensures that:
 - Employees have a single source of truth for internal instructions  
 
 It complements operational domains by supporting them with **clear, accessible documentation**.
+
+## Related
+
+- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse published documentation
+- **[Directories](../CodeLists/Directories.md)** – manage containers and navigation
+- **[Articles](../CodeLists/Articles.md)** – author and maintain content
+- **[Directory tags](../CodeLists/DirectoryTags.md)** – define tags for filtering
+- **[Table of contents](../CodeLists/TableOfContents.md)** – configure directory navigation
 
 ---
