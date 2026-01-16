@@ -1,4 +1,4 @@
-﻿# Clause templates for delivery notes
+# Clause templates for delivery notes
 
 The **Clause templates for delivery notes** code list allows you to define clause sets (templates) that will appear on delivery notes for specific companies. A template contains one or more clauses—such as legal notes, disclaimers, or delivery confirmations—which will be printed at the top or bottom of the delivery note in a defined order. 
 
@@ -7,22 +7,22 @@ To access this page, go to **Sales / Management / Clause templates for delivery 
 > [!NOTE]  
 > **Prerequisites**  
 > Before creating clause templates, make sure the following are set up:  
-> • The partner company exists in the [Business directory](../../Common/CodeLists/BusinessDirectory.md).  
-> • The clause text exists in the [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) code list (entity: *Delivery note*).
+> • The partner company exists in the [Business directory](../../Common/Management/BusinessDirectory.md).  
+> • The clause text exists in the [Predefined texts](../../Common/Management/PredefinedTexts.md) code list (entity: *Delivery note*).
 
 ## Schema
 
 ### Template fields  
 | Field | Description |
 |--------|-------------|
-| **Company** | The company for which the clause template applies. Selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). (mandatory) |
+| **Company** | The company for which the clause template applies. Selected from the [Business directory](../../Common/Management/BusinessDirectory.md). (mandatory) |
 
 ### Clause fields (inside a template)  
 | Field | Description |
 |--------|-------------|
 | **Location** | Where the clause appears on the delivery note (top or bottom). |
 | **Ordinal** | Numeric order of appearance (e.g., 1, 2, 3…). |
-| **Clause** | A predefined text selected from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity = *Delivery note*). |
+| **Clause** | A predefined text selected from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity = *Delivery note*). |
 
 ## Management
 

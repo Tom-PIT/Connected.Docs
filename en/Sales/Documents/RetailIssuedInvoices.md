@@ -1,4 +1,4 @@
-﻿# Retail issued invoices
+# Retail issued invoices
 
 A **Retail issued invoice** is a sales document used for direct, in-store sales to end customers. It is typically created when a customer purchases goods on the spot, without a preceding offer or sales order. Retail issued invoices support immediate or later payment tracking, but **do not affect stock levels**. Inventory changes must be handled separately through Logistics documents.
 
@@ -21,25 +21,25 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the retail invoice. |
 | **Purchase order code** | Optional reference provided by the customer. |
-| **Customer** | Customer selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). Only contacts classified as **Customer** and **Person** are available. |
+| **Customer** | Customer selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). Only contacts classified as **Customer** and **Person** are available. |
 | **Issue date** | Date when the invoice is issued. |
 | **Delivery date** | Date when goods are handed over or delivered. |
 | **Due date** | Payment deadline (mandatory). |
 | **Reference type** | Type of payment reference (mandatory). |
 | **Reference number** | Reference number based on the selected reference type. |
-| **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)** | Bank account receiving the payment (mandatory). |
-| **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional cost center assignment. |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account receiving the payment (mandatory). |
+| **[Cost center](../../Common/Management/CostCenters.md)** | Optional cost center assignment. |
 | **Purpose code** | Optional code describing the purpose of the transaction. |
 | **Rebate** | Overall rebate applied to the invoice. |
 | **Delivery** | Delivery company and address information. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/CodeLists/Assets.md) | Sold item or service. |
+| [**Asset**](../../Assets/Management/Assets.md) | Sold item or service. |
 | **Quantity** | Quantity sold (default: **1**). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |
@@ -88,7 +88,7 @@ Retail issued invoices can only be created manually.
 
    ![New retail issued invoice](../Images/RetailIssuedInvoiceNew.png "New retail issued invoice")
 
-2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) are available.
+2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/Management/BusinessDirectory.md) are available.
    
    ![Customer classification](../../Common/Images/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
 

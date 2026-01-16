@@ -1,4 +1,4 @@
-﻿# Business units
+# Business units
 
 Business units belong to a specific **customer** or **vendor** and are managed inside the **Business directory**.  
 They represent physical locations, branches, or organizational units of the company, each with its own address details.
@@ -15,7 +15,7 @@ Business units appear as a tag inside each Business directory entry:
 |-------|-------------|
 | **Name** | Name of the business unit (e.g., *Head Office*, *Slovenian Branch*). |
 | **Street** | Street and house number of the location. |
-| **Country** | Selected from the [**Countries**](../../Common/CodeLists/Countries.md) code list. |
+| **Country** | Selected from the [**Countries**](../../Common/Management/Countries.md) code list. |
 | **Postal code** | Selected from the country’s [**Postal codes**](PostalCodes.md) list. |
 | **Active** | Indicates whether the business unit is available for selection in documents. |
 
@@ -37,7 +37,7 @@ Fill in the following fields:
 
 - **Name** – Business unit name  
 - **Street** – Street address  
-- **Country** – Selected from the [**Countries**](../../Common/CodeLists/Countries.md) list  
+- **Country** – Selected from the [**Countries**](../../Common/Management/Countries.md) list  
 - **Postal code** – Selected from the country’s [**Postal codes**](PostalCodes.md) list  
 - **Active** – Determines whether the unit can be used  
 

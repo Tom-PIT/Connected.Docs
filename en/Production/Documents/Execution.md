@@ -1,4 +1,4 @@
-﻿# Execution
+# Execution
 
 The **Execution** module is used by production workers to perform and record work on assigned production orders. It provides real-time tracking of progress, produced quantities, downtime, losses, checklists, and other activities.
 
@@ -14,7 +14,7 @@ To access this page manually, go to **Production / Execution** in the [navigatio
 >   
 >   ![Select production orders](../Images/ExecutionPageEmpty.png "Select a production order")
 > - If the production order list is empty, there are no available orders for the selected unit (not created yet or no active operations). Create orders in [Production orders](ProductionOrders.md) and ensure an operation is assigned to the chosen unit.
-> - If the organization unit list is empty, the code list is not defined yet. Define units in [Organization Units](../CodeLists/OrganizationUnits.md).
+> - If the organization unit list is empty, the code list is not defined yet. Define units in [Organization Units](../Management/OrganizationUnits.md).
 
 ## Execution interface overview
 
@@ -24,7 +24,7 @@ The main execution screen shows key information for the current production order
 
 | No. | Description |
 |-----|-------------|
-| **1** | Logged-in user and **organization unit**. <br>• Click user image → logout <br>• Click organization unit → change it (see [Organization Units](../CodeLists/OrganizationUnits.md)) |
+| **1** | Logged-in user and **organization unit**. <br>• Click user image → logout <br>• Click organization unit → change it (see [Organization Units](../Management/OrganizationUnits.md)) |
 | **2** | Operation control buttons: <br>• **Start** – begins the operation <br>• **Pause** – temporarily suspends work <br>• **Stop** – completes the operation |
 | **3** | Shortcuts: <br>• **Yellow bin** – record defective items <br>• **Orange triangle** – view open bottlenecks or issues |
 | **4** | Current production order |
@@ -81,7 +81,7 @@ Once all operations in the production order are finished, the [**Production orde
 
 ### Checklists and quality controls
 
-Quality [**checklists**](../CodeLists/Checklists.md) help ensure safety and product quality. If a checklist is required for the operation, it appears automatically at the right moment (at start, during execution, or before completion).
+Quality [**checklists**](../Management/Checklists.md) help ensure safety and product quality. If a checklist is required for the operation, it appears automatically at the right moment (at start, during execution, or before completion).
 
 ![Quality checklist](../Images/ExecutionStep1Checklist.png "Quality checklist")
 

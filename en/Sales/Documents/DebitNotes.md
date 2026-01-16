@@ -1,4 +1,4 @@
-﻿# Debit notes
+# Debit notes
 
 A **Debit note** is a sales document used to **increase** the amount owed by a customer after an invoice has already been issued. It is typically created when additional charges are required, such as price corrections, extra services, or costs that were not included in the original invoice.
 
@@ -30,25 +30,25 @@ Debit notes affect accounting only and do not impact inventory.
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the debit note. |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer being charged, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer being charged, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the debit note is issued. |
 | **Delivery date** | Original delivery date of the invoiced goods or services. |
 | **Due date** | Date when the additional amount becomes payable (mandatory). |
 | **Reference type** | Type of payment reference used (mandatory). |
 | **Reference number** | Reference number based on the chosen reference type. |
-| **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)** | Bank account where payment should be received (mandatory). |
-| **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional allocation to a cost center. |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account where payment should be received (mandatory). |
+| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional reason or classification for the debit. |
 | **Rebate** | Overall rebate applied to the debit note, if applicable. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/CodeLists/Assets.md) | Charged item or service. |
+| [**Asset**](../../Assets/Management/Assets.md) | Charged item or service. |
 | **Quantity** | Quantity being charged (positive value). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |

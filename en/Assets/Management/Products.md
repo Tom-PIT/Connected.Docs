@@ -1,8 +1,8 @@
-﻿# Products
+# Products
 
 **Products** are the final goods that your company manufactures or purchases. These items can be sold to customers, stored in the warehouse, or used in internal processes. Examples of products include Oak table, Office chair, LED lamp, or Garden bench.
 
-Each product contains important information—such as [measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), expiration period, or [packaging](Packaging.md)—that ensures it is managed consistently across stock, sales, and production documents. This code list represents all finished products available in your catalog.
+Each product contains important information—such as [measure units](../../Common/Management/MeasureUnits.md), [tax rate](../../Common/Management/TaxRates.md), expiration period, or [packaging](Packaging.md)—that ensures it is managed consistently across stock, sales, and production documents. This code list represents all finished products available in your catalog.
 
 > [!TIP]
 > For a full demonstration, see the **[Product materials](https://www.youtube.com/watch?v=FcrJ_IHQYeA)** video tutorial.
@@ -10,8 +10,8 @@ Each product contains important information—such as [measure units](../../Comm
 > [!NOTE]  
 > **Prerequisites**  
 > Before managing products, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
-> - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
+> - [**Measure units**](../../Common/Management/MeasureUnits.md)  
+> - [**Tax rates**](../../Common/Management/TaxRates.md)
 
 To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../Common/UI/Navigation.md).
 

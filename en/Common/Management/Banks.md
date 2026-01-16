@@ -1,12 +1,12 @@
-﻿# Banks
+# Banks
 
-The **Banks** code list contains financial institutions that can be used across documents such as issued invoices, payments, and organizational bank accounts. Each bank entry stores its name, BIC code, and country, allowing the system to Banks connect with various [business partners](../../Common/CodeLists/BusinessDirectory.md) and their transactions, and correctly reference banking information wherever needed.
+The **Banks** code list contains financial institutions that can be used across documents such as issued invoices, payments, and organizational bank accounts. Each bank entry stores its name, BIC code, and country, allowing the system to Banks connect with various [business partners](../../Common/Management/BusinessDirectory.md) and their transactions, and correctly reference banking information wherever needed.
 
 To access Banks, go to **Sales / Management / Banks** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
-> Before managing bank records, ensure that the [**Countries**](../../Common/CodeLists/Countries.md) code list is properly configured.  
+> Before managing bank records, ensure that the [**Countries**](../../Common/Management/Countries.md) code list is properly configured.  
 
 ## Schema
 
@@ -14,7 +14,7 @@ To access Banks, go to **Sales / Management / Banks** in the [navigation](../../
 |-------|-------------|
 | **Name** | Full name of the bank (mandatory). |
 | **BIC** | Bank Identifier Code used for international transactions (mandatory). |
-| [**Country**](../../Common/CodeLists/Countries.md) | Country where the bank is registered (mandatory). |
+| [**Country**](../../Common/Management/Countries.md) | Country where the bank is registered (mandatory). |
 | **Active** | Indicates whether the bank is available for use in documents (selected by default). |
 
 ## Management
@@ -23,7 +23,7 @@ In this screen you can view, add, and edit banks that are used throughout the sy
 
 ### Bank list
 
-The list view displays all recorded banks, including their **name**, **BIC**, and [**country**](../../Common/CodeLists/Countries.md).  
+The list view displays all recorded banks, including their **name**, **BIC**, and [**country**](../../Common/Management/Countries.md).  
 
 ![Banks](../Images/Banks.png "Banks list")
 

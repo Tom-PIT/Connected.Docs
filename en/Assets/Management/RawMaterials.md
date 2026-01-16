@@ -1,6 +1,6 @@
-﻿# Raw materials
+# Raw materials
 
-**Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key information—such as[measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), expiration period, or [packaging](Packaging.md)—to ensure that it can be managed consistently across the system.
+**Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key information—such as[measure units](../../Common/Management/MeasureUnits.md), [tax rate](../../Common/Management/TaxRates.md), expiration period, or [packaging](Packaging.md)—to ensure that it can be managed consistently across the system.
 
 This code list serves as the register of all raw materials within the materials structure.
 
@@ -10,8 +10,8 @@ This code list serves as the register of all raw materials within the materials 
 > [!NOTE]  
 > **Prerequisites**  
 > Before managing semi products, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
-> - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
+> - [**Measure units**](../../Common/Management/MeasureUnits.md)  
+> - [**Tax rates**](../../Common/Management/TaxRates.md)
 
 To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [navigation](../../Common/UI/Navigation.md).
 

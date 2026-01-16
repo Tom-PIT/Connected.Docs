@@ -1,4 +1,4 @@
-﻿# Downtime
+# Downtime
 
 The **Downtime** activity records interruptions during an operation (e.g., waiting for materials, machine issues, changeovers). It helps track time losses and improves visibility for analysis.
 
@@ -12,7 +12,7 @@ Open **Downtime** from the [**Execution**](Execution.md) screen via the activity
 2. Click **Start** to begin tracking the interruption.  
 3. Click **Stop** when the interruption ends. 
 4. Click on a downtime record to: 
-    1. Choose a reason using **Downtime tags** — see [Downtime tags](../CodeLists/DowntimeTags.md).  
+    1. Choose a reason using **Downtime tags** — see [Downtime tags](../Management/DowntimeTags.md).  
     2. Adjust start/end times if needed.  
     3. Add any relevant equipment affected by the downtime (optional).
 5. Save.

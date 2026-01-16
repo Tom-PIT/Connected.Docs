@@ -1,8 +1,8 @@
-﻿# Semi products
+# Semi products
 
 **Semi products** are intermediate materials used in the production of finished goods. They are created from raw materials and then used as components in other items. Examples include Tabletop panel, Metal frame, Wooden leg, or Circuit module.
 
-Each semi product includes key information—like  [measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), serial number behavior, or expiration period—to support consistent handling across production, inventory, and warehouse operations. This code list contains all semi-finished items used in your production process.
+Each semi product includes key information—like  [measure units](../../Common/Management/MeasureUnits.md), [tax rate](../../Common/Management/TaxRates.md), serial number behavior, or expiration period—to support consistent handling across production, inventory, and warehouse operations. This code list contains all semi-finished items used in your production process.
 
 > [!TIP]
 > For a full demonstration, see the **[Semi product materials](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)** video tutorial.
@@ -10,8 +10,8 @@ Each semi product includes key information—like  [measure units](../../Common/
 > [!NOTE]  
 > **Prerequisites**  
 > Before managing semi products, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
-> - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
+> - [**Measure units**](../../Common/Management/MeasureUnits.md)  
+> - [**Tax rates**](../../Common/Management/TaxRates.md)
 
 To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../Common/UI/Navigation.md).
 

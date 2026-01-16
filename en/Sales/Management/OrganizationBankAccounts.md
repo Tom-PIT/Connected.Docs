@@ -1,4 +1,4 @@
-﻿# Organization bank accounts
+# Organization bank accounts
 
 The **Organization bank accounts** code list stores the IBAN accounts used by your company for issuing invoices, receiving payments, and other financial processes. This screen allows you to view, add, enable, or disable the IBAN accounts used by your organization.
  Each entry defines a bank, its IBAN number, and whether it is active or formatted using the IBAN mask.
@@ -7,13 +7,13 @@ To access Organization bank accounts, go to **Sales / Management / Organization 
 
 > [!NOTE]  
 > **Prerequisites**  
-> Before managing bank records, ensure that the [Banks](../../Common/CodeLists/Banks.md) code list is properly configured.
+> Before managing bank records, ensure that the [Banks](../../Common/Management/Banks.md) code list is properly configured.
 
 ## Schema
 
 | Field | Description |
 |-------|-------------|
-| [**Bank**](../../Common/CodeLists/Banks.md) | Bank to which the account belongs (mandatory). |
+| [**Bank**](../../Common/Management/Banks.md) | Bank to which the account belongs (mandatory). |
 | **IBAN** | International Bank Account Number (mandatory). |
 | **Active** | Indicates whether the account can be used in documents (selected by default). |
 | **Use mask** | Determines whether the IBAN is displayed and entered using an input mask for improved readability. |

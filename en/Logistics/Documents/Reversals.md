@@ -1,4 +1,4 @@
-﻿# Reversals
+# Reversals
 
 A **Reversal** document is used to undo the effect of another logistics document. It allows you to correct mistakes or adjust stock levels when a previously committed movement needs to be reversed. You can reverse only committed documents, and only through their **Menu → Create a new reversal** option. Reversals cannot be created directly from the Reversals list.
 
@@ -22,7 +22,7 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [navigat
 |-------|-------------|
 | **Document type** | Type of document being reversed ([receive](receives.md), [issue](Issues.md), [writeoff](Writeoffs.md), [inter warehouse](InterWarehouse.md)). |
 | [**Code**](../../Common/UI/DocumentCodes.md) | Identifier of the reversed document (clickable). |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the original document was executed. |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse where the original document was executed. |
 | **Document date** | Date of the original document. |
 
 ### Document section
@@ -36,8 +36,8 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [navigat
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | Material being reversed ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
-| [**Location**](../CodeLists/Locations.md) | Storage location of the reversed stock. |
+| [**Material**](../../Assets/Domain/Materials.md) | Material being reversed ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
+| [**Location**](../Management/Locations.md) | Storage location of the reversed stock. |
 | **Source quantity** | Quantity originally processed in the reversed document. |
 | **Quantity (pc)** | Quantity to reverse — **editable**, used for partial or full reversal. |
 

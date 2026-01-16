@@ -1,4 +1,4 @@
-﻿# Assets
+# Assets
 
 An **Asset** represents an item or service that can be *sold* or *invoiced* within the system. Unlike **materials**—which are used for stock tracking, logistics, or production—**assets are commercial items** intended for pricing, offering, and billing.
 
@@ -18,8 +18,8 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../Commo
 | **Code** | Unique identifier for the asset (mandatory). |
 | **Name** | Display name of the asset (mandatory). |
 | **Type** | Whether the asset is a *Good* or a *Service* (mandatory). |
-| [**Tax rate**](../../Common/CodeLists/TaxRates.md) | Applicable tax rate (optional). |
-| [**Measure unit**](../../Common/CodeLists/MeasureUnits.md) | Unit used to display and price the asset (mandatory). |
+| [**Tax rate**](../../Common/Management/TaxRates.md) | Applicable tax rate (optional). |
+| [**Measure unit**](../../Common/Management/MeasureUnits.md) | Unit used to display and price the asset (mandatory). |
 | **Item price net** | Net unit price of the asset. |
 | **Net weight (kg)** | Weight of the item, if applicable (default = 0). |
 | **EAN** | Barcode number (optional). |

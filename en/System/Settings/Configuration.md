@@ -1,4 +1,4 @@
-﻿# Configuration
+# Configuration
 
 The **Configuration** section, found under **System / Configuration**, contains global system settings that define core organizational and localization behavior. 
 
@@ -31,14 +31,14 @@ To access these settings go to **CommonTypes / CommonTypes Settings** in the lef
 Select the country where the organization operates. This setting controls localization and regulatory defaults across documents and modules.
 
 > [!IMPORTANT]  
-> The selected country **must already exist** in the **[Countries](../../Common/CodeLists/Countries.md)** code list. If not configured there first, it will not appear in the dropdown menu.
+> The selected country **must already exist** in the **[Countries](../../Common/Management/Countries.md)** code list. If not configured there first, it will not appear in the dropdown menu.
 
 ### Currency
 
 Select the default currency for the organization. This setting controls monetary formatting and default document currency across modules and reports.
 
 > [!IMPORTANT]  
-> The selected currency **must already exist** in the **[Currencies](../../Common/CodeLists/Currencies.md)** code list.
+> The selected currency **must already exist** in the **[Currencies](../../Common/Management/Currencies.md)** code list.
 
 These two settings form the foundation for all financial and commercial operations across the platform.
 

@@ -1,4 +1,4 @@
-﻿# Assets
+# Assets
 
 The **Assets** domain contains all records related to the goods and services your company offers and prices, as well as the operational items used to build, deliver, or support them. It includes both **Assets** (commercial items you sell) and **Materials** (operational items used internally in production and logistics).
 
@@ -23,18 +23,18 @@ To access the Assets domain, navigate to **Assets** in the [navigation](../../Co
 
 The domain is structured into several functional areas:
 
-- **[Assets](../CodeLists/Assets.md)** – Defines the goods and services offered to customers. Each asset includes prices, tax settings, descriptive fields, and optional component details.
+- **[Assets](../Management/Assets.md)** – Defines the goods and services offered to customers. Each asset includes prices, tax settings, descriptive fields, and optional component details.
 
-- **[Asset price lists](../CodeLists/AssetPriceLists.md)** – Used to prepare customer-specific selling prices for selected assets. Price lists support validity periods, company-specific pricing, and quantity-based discount ranges.
+- **[Asset price lists](../Management/AssetPriceLists.md)** – Used to prepare customer-specific selling prices for selected assets. Price lists support validity periods, company-specific pricing, and quantity-based discount ranges.
 
 - **[Materials](Materials.md)** – Materials are used to *build* assets or represent items handled in logistics workflows (stock, receives, issues, etc.). Unlike assets, materials are operational internal units.
 
-    - **[Products](../CodeLists/Products.md)**
-    - **[Raw materials](../CodeLists/RawMaterials.md)**
-    - **[Repro materials](../CodeLists/ReproMaterials.md)**
-    - **[Semi products](../CodeLists/SemiProducts.md)**
+    - **[Products](../Management/Products.md)**
+    - **[Raw materials](../Management/RawMaterials.md)**
+    - **[Repro materials](../Management/ReproMaterials.md)**
+    - **[Semi products](../Management/SemiProducts.md)**
 
-- **[Management](../CodeLists)** – Contains additional configurable elements such as [**Tax rates**](../../Common/CodeLists/TaxRates.md) and [**Measure units**](../../Common/CodeLists/MeasureUnits.md). These define the structure and behavior of assets and pricing.
+- **[Management](../Management)** – Contains additional configurable elements such as [**Tax rates**](../../Common/Management/TaxRates.md) and [**Measure units**](../../Common/Management/MeasureUnits.md). These define the structure and behavior of assets and pricing.
 
 ![Assets Domain Management](../Images/AssetsDomainManagement.png)
 
@@ -42,12 +42,12 @@ The domain is structured into several functional areas:
 
 Understanding the distinction between these two concepts is essential. Although both represent items managed within your organization, they serve very different purposes.
 
-- **[Assets](../CodeLists/Assets.md)** define what you *sell* to customers.
+- **[Assets](../Management/Assets.md)** define what you *sell* to customers.
 - **[Materials](Materials.md)** define what you *use* internally in production and logistics.
 
 The table below summarizes the key differences and helps determine where each type of item belongs.
 
-| Aspect | [**Assets**](../CodeLists/Assets.md) | [**Materials**](Materials.md) |
+| Aspect | [**Assets**](../Management/Assets.md) | [**Materials**](Materials.md) |
 |--------|--------------------------------------|-------------------------------------------|
 | **Purpose** | Commercial items offered or sold to customers. | Operational items used internally in production or logistics. |
 | **Role in the system** | Appear in price lists, catalogs, offers, invoices, etc. | Appear in stock, receives, issues, production, and warehouse operations. |

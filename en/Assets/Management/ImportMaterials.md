@@ -1,13 +1,13 @@
-﻿# Import materials
+# Import materials
 
 This document describes how to import multiple materials into the system at once using a spreadsheet file. This allows fast bulk creation or updating of material records. 
 
 The import supports the following material types:
 
-- [Products](../CodeLists/Products.md)  
-- [Semi products](../CodeLists/SemiProducts.md)  
-- [Repro materials](../CodeLists/ReproMaterials.md)  
-- [Raw materials](../CodeLists/RawMaterials.md)
+- [Products](../Management/Products.md)  
+- [Semi products](../Management/SemiProducts.md)  
+- [Repro materials](../Management/ReproMaterials.md)  
+- [Raw materials](../Management/RawMaterials.md)
 
 
 The screen also provides a downloadable example file, which shows the required structure of the spreadsheet. Before importing, you can run a **Test import**, which validates the data and reports errors without applying changes.
@@ -15,8 +15,8 @@ The screen also provides a downloadable example file, which shows the required s
 > [!NOTE]  
 > **Prerequisites**  
 > Before importing materials, review the following code lists:  
-> - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
-> - [**Tax rates**](../../Common/CodeLists/TaxRates.md)  
+> - [**Measure units**](../../Common/Management/MeasureUnits.md)  
+> - [**Tax rates**](../../Common/Management/TaxRates.md)  
 > If a referenced measure unit or tax rate is missing, it will be created automatically during import. Reviewing these lists in advance helps ensure correct naming and mappings.
 
 To access the **Import materials** code list, go to **Assets / Materials /
@@ -52,7 +52,7 @@ The import file must include the columns listed below. Each row represents a sin
 | **Type** | Type of material: [**Products**](Products.md), [**Semi products**](SemiProducts.md), [**Repro materials**](ReproMaterials.md), [**Raw materials**](RawMaterials.md).|
 | **Code** | Unique identifier of the material. If a material with the same code already exists, the import updates it. |
 | **Name** | Full name of the material. |
-| **Measure unit** | Measure unit used for quantities. Must match an existing [measure unit](../../Common/CodeLists/MeasureUnits.md). |
+| **Measure unit** | Measure unit used for quantities. Must match an existing [measure unit](../../Common/Management/MeasureUnits.md). |
 | **Tags** | Optional tags used for categorization. Multiple tags can be separated with commas. |
 | **Description** | Optional text describing the material. |
 | **EAN** | Barcode value of the material. |
@@ -60,7 +60,7 @@ The import file must include the columns listed below. Each row represents a sin
 | **Image link URL** | URL pointing to an image for the material. |
 | **Info link URL** | URL pointing to an external information page about the material. |
 | **Precision** | Number of decimal places used when displaying values. |
-| **Tax rate name** | Name of the tax rate. Must match an existing [tax rate](../../Common/CodeLists/TaxRates.md). |
+| **Tax rate name** | Name of the tax rate. Must match an existing [tax rate](../../Common/Management/TaxRates.md). |
 | **Tax rate** | Percentage of tax applied to the material. |
 | **External key** | External system identifier. |
 

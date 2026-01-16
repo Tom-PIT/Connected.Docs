@@ -1,4 +1,4 @@
-﻿# Equipment summary
+# Equipment summary
 
 The Equipment summary page provides an overview of machine performance, including downtime, production output, quality, and OEE (Overall Equipment Effectiveness). It helps supervisors and managers understand how each machine is performing over time.
 
@@ -41,7 +41,7 @@ This includes:
 
 ### Production order and operation  
 - Clickable [production order](../Documents/ProductionOrders.md) code (e.g., `PRO-24-000015`)  
-- [Operation](../CodeLists/Operations.md) description  
+- [Operation](../Management/Operations.md) description  
 - [Material](../../Assets/Domain/Materials.md) being produced (e.g., product or semi product)
 
 ### Incompliant  

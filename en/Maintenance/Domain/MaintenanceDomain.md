@@ -1,4 +1,4 @@
-﻿# Maintenance
+# Maintenance
 
 The **Maintenance** domain provides a dedicated workspace to plan, execute, and analyze equipment maintenance. It centralizes how maintenance processes are defined, how orders are created and carried out, and how performance is measured for continuous improvement.
 
@@ -34,10 +34,10 @@ Configure shared structures used by maintenance. The Maintenance domain leverage
 
 ![Maintenance Domain Management](../Images/MaintenanceDomainManagement.png "Maintenance Domain management")
 
-- **[Processes](../../Production/CodeLists/Processes.md)** — Define process steps and versions used to execute maintenance operations.
-- **[Organization units](../../Production/CodeLists/OrganizationUnits.md)** — Define operational units (e.g., maintenance departments, service teams).
-- **[Resources](../../Production/CodeLists/Resources.md)** — Manage human and non-human resources (technicians, tools, equipment).
-- **[Checklists](../../Production/CodeLists/Checklists.md)** — Create and categorize checklists used during maintenance operations.
+- **[Processes](../../Production/Management/Processes.md)** — Define process steps and versions used to execute maintenance operations.
+- **[Organization units](../../Production/Management/OrganizationUnits.md)** — Define operational units (e.g., maintenance departments, service teams).
+- **[Resources](../../Production/Management/Resources.md)** — Manage human and non-human resources (technicians, tools, equipment).
+- **[Checklists](../../Production/Management/Checklists.md)** — Create and categorize checklists used during maintenance operations.
 
 Use these code lists to drive maintenance workflows and execution across orders and schedules.
 
