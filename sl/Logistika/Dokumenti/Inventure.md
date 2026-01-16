@@ -5,7 +5,7 @@ Dokument **Inventura** se uporablja za preverjanje in popravljanje zalog na dolo
 Inventura se izvaja **po lokacijah** in prikaže vse materiale, shranjene na izbrani lokaciji, skupaj z indikatorji manjkajočih ali presežnih količin. Za razumevanje nastanka zaloge lahko neposredno odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** ali [**Pogled zaloge po serijski številki**](../Dokumenti/Zaloga.md#pogled-zaloge-po-serijski-stevilki).
 
 Minimalni in maksimalni pragovi, prikazani v povzetkih, se nastavijo v šifrantu  
-**[Meje zaloge](../Sifranti/MejeZaloge.md)**.
+**[Meje zaloge](../Upravljanje/MejeZaloge.md)**.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Inventura](https://www.youtube.com/watch?v=Rc4qqTdxKn8)**.
@@ -20,14 +20,14 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator inventurnega dokumenta. |
 | **Datum dokumenta** | Datum, ko je inventura izvedena ali zabeležena. |
-| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem se izvaja inventura. |
-| [**Lokacija**](../Sifranti/Lokacije.md) | Konkretna lokacija znotraj skladišča, ki se preverja. |
+| [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem se izvaja inventura. |
+| [**Lokacija**](../Upravljanje/Lokacije.md) | Konkretna lokacija znotraj skladišča, ki se preverja. |
 
 ### Razdelek postavk
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, shranjen na izbrani lokaciji ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, shranjen na izbrani lokaciji ([izdelek](../../Sredstva/Upravljanje/Izdelki.md), [polizdelek](../../Sredstva/Upravljanje/Polizdelki.md), [surovina](../../Sredstva/Upravljanje/Surovine.md) ali [repro material](../../Sredstva/Upravljanje/ReproMateriali.md)). |
 | **Lokacija** | Lokacija, na kateri se inventura izvaja. |
 | **Teoretično** | Količina, ki je trenutno zabeležena v sistemu. |
 | **Dejanski** | Fizično preverjena količina (urejanje dovoljeno). |

@@ -23,25 +23,25 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator maloprodajnega računa. |
 | **Številka naročila kupca** | Neobvezna referenca kupca. |
-| **Stranka** | Kupec, izbran iz [**Poslovnega imenika**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). Na voljo so le zapisi z oznakama **Stranka** in **Oseba**. |
+| **Stranka** | Kupec, izbran iz [**Poslovnega imenika**](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). Na voljo so le zapisi z oznakama **Stranka** in **Oseba**. |
 | **Datum dokumenta** | Datum izdaje računa. |
 | **Datum dobave** | Datum izročitve ali dostave blaga. |
 | **Datum zapadlosti** | Rok plačila (obvezno). |
 | **Tip reference** | Vrsta plačilnega sklica (obvezno). |
 | **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
-| [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Račun za prejem plačila (obvezno). |
-| [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev prihodka. |
+| [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Račun za prejem plačila (obvezno). |
+| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka. |
 | **Koda namena** | Neobvezna koda namena transakcije. |
 | **Rabat** | Skupni rabat na računu. |
 | **Dobava** | Podatki o podjetju in naslovu dobave. |
-| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
-| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
+| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
+| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
 ### Polja postavk
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Prodan izdelek ali storitev. |
+| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Prodan izdelek ali storitev. |
 | **Količina** | Prodana količina (privzeto **1**). |
 | **Neto cena** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na postavki. |

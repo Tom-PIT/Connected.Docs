@@ -10,8 +10,8 @@ Za dostop do **Materialov dobaviteljev** pojdite na **Nabava / Šifranti / Mater
 
 | Polje | Opis |
 |------|------|
-| **Dobavitelj** | Dobavitelj, ki ponuja material. Mora obstajati v **[Poslovnem imeniku](../../Skupno/Sifranti/PoslovniImenik.md)** (obvezno). |
-| [**Tip materiala**](../../Sredstva/Domena/Materiali.md) | Tip materiala ([**Surovina**](../../Sredstva/Sifranti/Surovine.md), [**Polizdelek**](../../Sredstva/Sifranti/Polizdelki.md), [**Izdelek**](../../Sredstva/Sifranti/Izdelki.md), [**Repro material**](../../Sredstva/Sifranti/ReproMateriali.md)). Mora ustrezati obstoječi vrsti materiala (obvezno). |
+| **Dobavitelj** | Dobavitelj, ki ponuja material. Mora obstajati v **[Poslovnem imeniku](../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
+| [**Tip materiala**](../../Sredstva/Domena/Materiali.md) | Tip materiala ([**Surovina**](../../Sredstva/Upravljanje/Surovine.md), [**Polizdelek**](../../Sredstva/Upravljanje/Polizdelki.md), [**Izdelek**](../../Sredstva/Upravljanje/Izdelki.md), [**Repro material**](../../Sredstva/Upravljanje/ReproMateriali.md)). Mora ustrezati obstoječi vrsti materiala (obvezno). |
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki ga dobavitelj ponuja. Mora že obstajati v področju **Materiali** (obvezno). |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju. |
 | **Cena** | Neto cena, po kateri dobavitelj dobavlja material. |
@@ -74,7 +74,7 @@ Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite zapis, ali **Prekli
 
 Funkcionalnost **Uvoz** omogoča množično ustvarjanje ali posodabljanje materialov dobaviteljev z uporabo preglednice.
 
-Ta zaslon deluje podobno kot stran **[Uvoz materialov](../../Sredstva/Sifranti/UvozMaterialov.md)** in vključuje:
+Ta zaslon deluje podobno kot stran **[Uvoz materialov](../../Sredstva/Upravljanje/UvozMaterialov.md)** in vključuje:
 
 - izbiro vrste datoteke (CSV ali XLSX),  
 - prenos vzorčne datoteke,  

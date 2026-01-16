@@ -66,20 +66,20 @@ Razdelek **Šifranti** vsebuje konfiguracijo in osnovne podatke, potrebne za del
 
 Razpoložljive nastavitve in šifranti vključujejo:
 
-- **[Konfiguracija prodaje](../Sifranti/KonfiguracijaProdaje.md)** – Globalne nastavitve prodajnih procesov.  
-- **[Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md)** – Zapisi strank in partnerjev.  
-- **[Banke](../../Skupno/Sifranti/BancniRacuni.md)** – Definicije bank za plačila in račune.  
-- **[Način plačila](../Sifranti/NacinPlacila.md)** – Načini poravnave prodajnih obveznosti.  
-- **[Bančni računi organizacije](../Sifranti/BancniRacuniOrganizacije.md)** – Interni bančni računi za izdajanje računov.  
-- **[Države](../../Skupno/Sifranti/Drzave.md)** – Geografski podatki za dokumente in stranke.  
-- **[Merske enote](../../Skupno/Sifranti/MerskeEnote.md)** – Enote mere v prodajnih dokumentih.  
-- **[Stroškovna mesta](../../Skupno/Sifranti/StroskovnaMesta.md)** – Razporeditev prihodkov po stroškovnih mestih.  
-- **[Valute](../../Skupno/Sifranti/Valute.md)** – Valute, uporabljene v cenikih in računih.  
-- **[Menjalni tečaji](../Sifranti/MenjalniTecaji.md)** – Tečaji za preračun valut.  
-- **[Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md)** – Standardna besedila v prodajnih dokumentih.  
-- **[Davčne stopnje](../../Skupno/Sifranti/DavcneStopnje.md)** – Davčne definicije za obračun DDV.  
-- **[Predloge klavzul za dobavnice](../Sifranti/PredlogeKlavzulZaDobavnice.md)** – Predloge besedil za dobavnice.  
-- **[Predloge klavzul za izdane račune](../Sifranti/PredlogeKlavzulZaIzdaneRacune.md)** – Predloge besedil za izdane račune.
+- **[Konfiguracija prodaje](../Upravljanje/KonfiguracijaProdaje.md)** – Globalne nastavitve prodajnih procesov.  
+- **[Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md)** – Zapisi strank in partnerjev.  
+- **[Banke](../../Skupno/Upravljanje/BancniRacuni.md)** – Definicije bank za plačila in račune.  
+- **[Način plačila](../Upravljanje/NacinPlacila.md)** – Načini poravnave prodajnih obveznosti.  
+- **[Bančni računi organizacije](../Upravljanje/BancniRacuniOrganizacije.md)** – Interni bančni računi za izdajanje računov.  
+- **[Države](../../Skupno/Upravljanje/Drzave.md)** – Geografski podatki za dokumente in stranke.  
+- **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – Enote mere v prodajnih dokumentih.  
+- **[Stroškovna mesta](../../Skupno/Upravljanje/StroskovnaMesta.md)** – Razporeditev prihodkov po stroškovnih mestih.  
+- **[Valute](../../Skupno/Upravljanje/Valute.md)** – Valute, uporabljene v cenikih in računih.  
+- **[Menjalni tečaji](../Upravljanje/MenjalniTecaji.md)** – Tečaji za preračun valut.  
+- **[Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** – Standardna besedila v prodajnih dokumentih.  
+- **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)** – Davčne definicije za obračun DDV.  
+- **[Predloge klavzul za dobavnice](../Upravljanje/PredlogeKlavzulZaDobavnice.md)** – Predloge besedil za dobavnice.  
+- **[Predloge klavzul za izdane račune](../Upravljanje/PredlogeKlavzulZaIzdaneRacune.md)** – Predloge besedil za izdane račune.
 
 Ti elementi določajo, kako se prodajni procesi izvajajo in kako so strukturirani prodajni podatki.
 

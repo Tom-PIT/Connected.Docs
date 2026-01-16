@@ -2,7 +2,7 @@
 
 **Izdelki** so končni proizvodi, ki jih podjetje izdeluje ali kupuje. Te postavke se lahko prodajajo kupcem, skladiščijo v skladišču ali uporabljajo v internih procesih. Primeri izdelkov so hrastova miza, pisarniški stol, LED svetilka ali vrtna klop.
 
-Vsak izdelek vsebuje pomembne podatke – kot so [merske enote](../../Skupno/Sifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Sifranti/DavcneStopnje.md), rok uporabe ali [pakiranje](Pakiranje.md) – ki zagotavljajo dosledno upravljanje v zalogi, prodaji in proizvodnih dokumentih. Ta šifrant predstavlja vse končne izdelke, ki so na voljo v vašem katalogu.
+Vsak izdelek vsebuje pomembne podatke – kot so [merske enote](../../Skupno/Upravljanje/MerskeEnote.md), [davčna stopnja](../../Skupno/Upravljanje/DavcneStopnje.md), rok uporabe ali [pakiranje](Pakiranje.md) – ki zagotavljajo dosledno upravljanje v zalogi, prodaji in proizvodnih dokumentih. Ta šifrant predstavlja vse končne izdelke, ki so na voljo v vašem katalogu.
 
 > [!TIP]
 > Za celoten prikaz si oglejte video vodič  
@@ -11,8 +11,8 @@ Vsak izdelek vsebuje pomembne podatke – kot so [merske enote](../../Skupno/Sif
 > [!NOTE]  
 > **Predpogoji**  
 > Pred upravljanjem izdelkov preverite, ali so pravilno nastavljeni naslednji šifranti:  
-> - [**Merske enote**](../../Skupno/Sifranti/MerskeEnote.md)  
-> - [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md)
+> - [**Merske enote**](../../Skupno/Upravljanje/MerskeEnote.md)  
+> - [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Izdelki** pojdite na  
 **Sredstva / Materiali / Izdelki** v [navigaciji](../../Skupno/UI/Navigacija.md).
@@ -26,7 +26,7 @@ Za dostop do šifranta **Izdelki** pojdite na
 | **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
 | **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
 | **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
-| **Osnovna [merska enota](../../Skupno/Sifranti/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
+| **Osnovna [merska enota](../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
 | **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
 | **Davek** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
 | **Opis** | Kratek interni opis, ki pojasnjuje uporabo ali specifikacije izdelka. Na primer **Masiven hrast, oljen**. |

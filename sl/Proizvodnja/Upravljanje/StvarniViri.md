@@ -13,8 +13,8 @@ Za dostop do tega pogleda odprite verzijo procesa v **Proizvodnja / Upravljanje 
 
 | Polje | Opis |
 |------|------|
-| **Tip** | Določa vrsto stvarnega vira: <br>• [**Vir**](../Sifranti/Viri.md)<br>• **Kategorija virov** |
-| [**Vir**](../Sifranti/Viri.md) | Konkreten vir ali kategorija virov, izbrana glede na izbrani **Tip**. |
+| **Tip** | Določa vrsto stvarnega vira: <br>• [**Vir**](../Upravljanje/Viri.md)<br>• **Kategorija virov** |
+| [**Vir**](../Upravljanje/Viri.md) | Konkreten vir ali kategorija virov, izbrana glede na izbrani **Tip**. |
 | **Tip kalkulacije** | Določa, kako se izračuna planirani čas. <br>• **Dinamično** – čas se izračuna glede na količino proizvodnje ali druge parametre procesa.<br>• **Dinamično po seriji** – čas se izračuna glede na posamezno serijo.<br>• **Statično** – količina je fiksna. |
 | **Količina** | Planirani čas uporabe vira, vnesen kot trajanje (dnevi, ure, minute, sekunde, milisekunde). |
 | **Oznake** | Neobvezne oznake za kategorizacijo ali filtriranje dodeljenih stvarnih virov. |

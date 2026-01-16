@@ -24,7 +24,7 @@ Na vrhu strani je **iskalna vrstica**, ki omogoča iskanje po **Bazi znanja** gl
 
 Pod iskalno vrstico so prikazane **oznake**, ki jih je mogoče uporabiti kot hitre filtre. Klik na oznako filtrira vidno vsebino na članke, povezane z izbrano oznako.
 
-Oznake so definirane v **[Oznake imenika](../Sifranti/OznakeImenika.md)**.
+Oznake so definirane v **[Oznake imenika](../Upravljanje/OznakeImenika.md)**.
 
 ## Priljubljene teme
 
@@ -72,7 +72,7 @@ Kazalo prikazuje strukturo imenika in razpoložljive članke. Klik na članek ga
 
 ![Kazalo imenika](../Images/KnowledgeBaseDirectoryTOC.png "Kazalo imenika")
 
-Struktura imenikov in kazala je nastavljena v **[Imeniki](../Sifranti/Imeniki.md)** in **[Kazalo](../Sifranti/Kazalo.md)**.
+Struktura imenikov in kazala je nastavljena v **[Imeniki](../Upravljanje/Imeniki.md)** in **[Kazalo](../Upravljanje/Kazalo.md)**.
 
 ## Pogled članka
 
@@ -117,9 +117,9 @@ To omogoča sodelovanje, povratne informacije in pojasnila neposredno znotraj do
 
 ## Povezano
 
-- **[Imeniki](../Sifranti/Imeniki.md)** – upravljanje vsebinskih vsebnikov in navigacije  
-- **[Članki](../Sifranti/Clanki.md)** – ustvarjanje in urejanje vsebine  
-- **[Oznake imenika](../Sifranti/OznakeImenika.md)** – definicija oznak za filtriranje  
-- **[Kazalo](../Sifranti/Kazalo.md)** – nastavitev navigacije znotraj imenikov  
+- **[Imeniki](../Upravljanje/Imeniki.md)** – upravljanje vsebinskih vsebnikov in navigacije  
+- **[Članki](../Upravljanje/Clanki.md)** – ustvarjanje in urejanje vsebine  
+- **[Oznake imenika](../Upravljanje/OznakeImenika.md)** – definicija oznak za filtriranje  
+- **[Kazalo](../Upravljanje/Kazalo.md)** – nastavitev navigacije znotraj imenikov  
 
 ---

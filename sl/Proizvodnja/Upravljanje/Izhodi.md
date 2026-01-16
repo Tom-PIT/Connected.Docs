@@ -14,7 +14,7 @@ Za dostop do te strani odprite verzijo procesa v **Proizvodnja / Upravljanje / [
 | Polje | Opis |
 |------|------|
 | **Entiteta** | Izberite, ali se izhod nanaša na **[Material](../../Sredstva/Domena/Materiali.md)** ali na oznako materiala. |
-| **Tip** | Kategorija materiala, ki nastane: <br>• **[Izdelki](../../Sredstva/Sifranti/Izdelki.md)**<br>• **[Surovine](../../Sredstva/Sifranti/Surovine.md)**<br>• **[Repro materiali](../../Sredstva/Sifranti/ReproMateriali.md)**<br>• **[Polizdelki](../../Sredstva/Sifranti/Polizdelki.md)** |
+| **Tip** | Kategorija materiala, ki nastane: <br>• **[Izdelki](../../Sredstva/Upravljanje/Izdelki.md)**<br>• **[Surovine](../../Sredstva/Upravljanje/Surovine.md)**<br>• **[Repro materiali](../../Sredstva/Upravljanje/ReproMateriali.md)**<br>• **[Polizdelki](../../Sredstva/Upravljanje/Polizdelki.md)** |
 | **Material** | Konkreten material ali izdelek, ki nastane v operaciji. |
 | **Tip kalkulacije** | Določa način izračuna količine: **Dinamično** ali **Statično**. |
 | **Količina** | Nastala količina. Merska enota je odvisna od izbranega materiala (kos, kg, m itd.). |
