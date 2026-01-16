@@ -11,7 +11,7 @@ Do strani dostopate prek **Proizvodnja / Analiza / Zastoji organizacijskih enot*
 Na levi strani so na voljo filtri za omejevanje prikazanih podatkov:
 
 - **Datum** — Izberite datum ali časovno obdobje, za katero želite prikaz zastojev.  
-- **Oznaka** — Filtriranje po oznaki zastoja (glej [Oznake zastojev](../Sifranti/OznakeZastojev.md)).
+- **Oznaka** — Filtriranje po oznaki zastoja (glej [Oznake zastojev](../Upravljanje/OznakeZastojev.md)).
 
 ## Pregled zastojev
 

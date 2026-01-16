@@ -15,10 +15,10 @@ Za dostop do te strani odprite verzijo procesa prek **Proizvodnja / Upravljanje 
 | Polje | Opis |
 |------|------|
 | **Entiteta** | Določa vrsto vhoda. Trenutno je podprt **[Material](../../Sredstva/Domena/Materiali.md)**. |
-| **Tip materiala** | Kategorija materiala: <br>• **[Izdelki](../../Sredstva/Sifranti/Izdelki.md)**<br>• **[Surovine](../../Sredstva/Sifranti/Surovine.md)**<br>• **[Repro materiali](../../Sredstva/Sifranti/ReproMateriali.md)**<br>• **[Polizdelki](../../Sredstva/Sifranti/Polizdelki.md)** |
+| **Tip materiala** | Kategorija materiala: <br>• **[Izdelki](../../Sredstva/Upravljanje/Izdelki.md)**<br>• **[Surovine](../../Sredstva/Upravljanje/Surovine.md)**<br>• **[Repro materiali](../../Sredstva/Upravljanje/ReproMateriali.md)**<br>• **[Polizdelki](../../Sredstva/Upravljanje/Polizdelki.md)** |
 | **Material** | Konkreten material, ki se porabi v operaciji. Nabor je odvisen od izbranega **tipa materiala**. |
 | **Tip kalkulacije** | Določa način izračuna količine: <br>• **Dinamično** – količina se izračuna glede na količine v proizvodnem nalogu. <br>• **Statično** – količina je fiksna in neodvisna od naloga. |
-| **Količina** | Zahtevana količina vhoda. **[Merska enota](../../Skupno/Sifranti/MerskeEnote.md)** je določena z izbranim materialom. |
+| **Količina** | Zahtevana količina vhoda. **[Merska enota](../../Skupno/Upravljanje/MerskeEnote.md)** je določena z izbranim materialom. |
 | **Vrstni red** | Zaporedje vhoda znotraj operacije. Uporablja se za urejanje prikaza. |
 | **Oznake** | Neobvezne oznake za dodatno razvrščanje, filtriranje ali analitiko. |
 

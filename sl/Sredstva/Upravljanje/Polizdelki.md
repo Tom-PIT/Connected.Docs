@@ -2,7 +2,7 @@
 
 **Polizdelki** so vmesni materiali, ki se uporabljajo v proizvodnji končnih izdelkov. Nastanejo iz surovin in se nato uporabljajo kot komponente v drugih izdelkih. Primeri polizdelkov so mizna plošča, kovinski okvir, lesena noga ali elektronski modul.
 
-Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../Skupno/Sifranti/MerskeEnote.md), [davčna stopnja](../../Skupno/Sifranti/DavcneStopnje.md), način generiranja serijskih številk ali rok uporabe – kar omogoča dosledno obravnavo v proizvodnji, zalogi in skladiščnih procesih. Ta šifrant vsebuje vse polizdelke, uporabljene v vašem proizvodnem procesu.
+Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../Skupno/Upravljanje/MerskeEnote.md), [davčna stopnja](../../Skupno/Upravljanje/DavcneStopnje.md), način generiranja serijskih številk ali rok uporabe – kar omogoča dosledno obravnavo v proizvodnji, zalogi in skladiščnih procesih. Ta šifrant vsebuje vse polizdelke, uporabljene v vašem proizvodnem procesu.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič  
@@ -11,8 +11,8 @@ Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../Skupno/
 > [!NOTE]  
 > **Predpogoji**  
 > Pred upravljanjem polizdelkov zagotovite, da so naslednji šifranti pravilno nastavljeni:  
-> - [**Merske enote**](../../Skupno/Sifranti/MerskeEnote.md)  
-> - [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md)
+> - [**Merske enote**](../../Skupno/Upravljanje/MerskeEnote.md)  
+> - [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Polizdelki** pojdite na  
 **Sredstva / Materiali / Polizdelki** v [navigaciji](../../Skupno/UI/Navigacija.md).
@@ -26,7 +26,7 @@ Za dostop do šifranta **Polizdelki** pojdite na
 | **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
 | **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
 | **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
-| **Osnovna [merska enota](../../Skupno/Sifranti/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
+| **Osnovna [merska enota](../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
 | **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
 | **Davek** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
 | **Opis** | Kratek interni opis, ki pojasnjuje uporabo ali specifikacije izdelka. Na primer **Masiven hrast, oljen**. |

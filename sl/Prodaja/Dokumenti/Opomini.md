@@ -21,7 +21,7 @@ Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestil
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator opomina. |
 | **Title** | Naziv dokumenta. Privzeto je nastavljen na *Opomin*. |
-| **Stranka** | Stranka, ki prejme opomin, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Stranka** | Stranka, ki prejme opomin, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka opomina. |
 | **Strošek opomina** | Fiksni strošek pošiljanja opomina (npr. administrativni strošek). Lahko se uporabi na ravni dokumenta ali posamezne postavke. |
 | **Postavke** | Seznam zapadlih postavk, povezanih z [**izdanimi računi**](IzdaniRacuni.md), z zneski in morebitnimi obrestmi. |

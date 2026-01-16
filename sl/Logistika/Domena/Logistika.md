@@ -86,14 +86,14 @@ Razdelek **Šifranti** vsebuje konfiguracijo in osnovne podatke, ki jih uporablj
 
 Razpoložljivi šifranti vključujejo:
 
-- **[Konfiguracija](../Sifranti/KonfiguracijaLogistike.md)** – splošne nastavitve logističnih procesov.
-- **[Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md)** – notranji in zunanji poslovni subjekti.
-- **[Skladišča](../Sifranti/Skladisca.md)** – definicija fizičnih skladišč.
-- **[Države](../../Skupno/Sifranti/Drzave.md)** – geografski podatki.
-- **[Lokacije](../Sifranti/Lokacije.md)** – skladiščne lokacije (regali, police).
-- **[Meje zaloge](../Sifranti/MejeZaloge.md)** – omejitve in posebna pravila obravnave zaloge.
-- **[Merske enote](../../Skupno/Sifranti/MerskeEnote.md)** – enotne merske enote v sistemu.
-- **[Analiza materialov](../Sifranti/AnalizaMaterialov.md)** – nastavitve za analize materialov.
+- **[Konfiguracija](../Upravljanje/KonfiguracijaLogistike.md)** – splošne nastavitve logističnih procesov.
+- **[Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md)** – notranji in zunanji poslovni subjekti.
+- **[Skladišča](../Upravljanje/Skladisca.md)** – definicija fizičnih skladišč.
+- **[Države](../../Skupno/Upravljanje/Drzave.md)** – geografski podatki.
+- **[Lokacije](../Upravljanje/Lokacije.md)** – skladiščne lokacije (regali, police).
+- **[Meje zaloge](../Upravljanje/MejeZaloge.md)** – omejitve in posebna pravila obravnave zaloge.
+- **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – enotne merske enote v sistemu.
+- **[Analiza materialov](../Upravljanje/AnalizaMaterialov.md)** – nastavitve za analize materialov.
 
 ## Logistični procesi
 

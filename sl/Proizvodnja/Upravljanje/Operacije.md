@@ -28,7 +28,7 @@ Za dostop do operacij:
 | **Privzeta organizacijska enota** | Določi organizacijsko enoto, odgovorno za operacijo. |
 | **Članek** | Doda članek iz [Baze znanja](../../Znanje/BazaZnanja/BazaZnanja.md) k verziji za podrobnejša navodila, opise ali slike. Vnesite naslov članka ali ga izberite s spustnega seznama (neobvezno). |
 | **Oznake** | Neobvezne oznake za združevanje ali kategorizacijo operacij. |
-| [**Strošek**](../../Nabava/Sifranti/Stroski.md) | Stroškovna kategorija, povezana z operacijo. |
+| [**Strošek**](../../Nabava/Upravljanje/Stroski.md) | Stroškovna kategorija, povezana z operacijo. |
 
 ## Seznam operacij
 

@@ -7,13 +7,13 @@ Za dostop do tega zaslona pojdite na **Prodaja / Šifranti / Bančni računi org
 
 > [!NOTE]  
 > **Predpogoji**  
-> Pred upravljanjem bančnih računov zagotovite, da je šifrant [**Banke**](../../Skupno/Sifranti/BancniRacuni.md) pravilno nastavljen.
+> Pred upravljanjem bančnih računov zagotovite, da je šifrant [**Banke**](../../Skupno/Upravljanje/BancniRacuni.md) pravilno nastavljen.
 
 ## Shema
 
 | Polje | Opis |
 |------|------|
-| [**Banka**](../../Skupno/Sifranti/BancniRacuni.md) | Banka, pri kateri je odprt račun (obvezno). |
+| [**Banka**](../../Skupno/Upravljanje/BancniRacuni.md) | Banka, pri kateri je odprt račun (obvezno). |
 | **IBAN** | Mednarodna številka bančnega računa (obvezno). |
 | **Aktiven** | Določa, ali je račun na voljo za uporabo v dokumentih (privzeto označeno). |
 | **Uporabljaj IBAN masko** | Določa, ali se IBAN prikazuje in vnaša z vnosno masko za boljšo berljivost. |

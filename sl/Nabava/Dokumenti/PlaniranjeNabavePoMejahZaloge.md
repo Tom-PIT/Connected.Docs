@@ -4,8 +4,8 @@ Pogled **Planiranje nabave po mejah zaloge** omogoča proaktivno načrtovanje na
 
 Ta stran tesno sodeluje z naslednjimi šifranti:
 
-- **[Meje zaloge](../../Logistika/Sifranti/MejeZaloge.md)** – določanje minimalnih in maksimalnih količin  
-- **[Materiali dobaviteljev](../Sifranti/MaterialiDobaviteljev.md)** – povezava materialov z dobavitelji  
+- **[Meje zaloge](../../Logistika/Upravljanje/MejeZaloge.md)** – določanje minimalnih in maksimalnih količin  
+- **[Materiali dobaviteljev](../Upravljanje/MaterialiDobaviteljev.md)** – povezava materialov z dobavitelji  
 
 Za dostop do **Planiranja nabave po mejah zaloge** pojdite na **Nabava / Dokumenti / Planiranje nabave po mejah zaloge** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -13,8 +13,8 @@ Za dostop do **Planiranja nabave po mejah zaloge** pojdite na **Nabava / Dokumen
 
 Material se prikaže v tem pogledu samo, če so izpolnjeni **vsi** naslednji pogoji:
 
-1. Za material so v **[Mejah zaloge](../../Logistika/Sifranti/MejeZaloge.md)** določene **minimalne in maksimalne količine**  
-2. Material je dodeljen vsaj enemu dobavitelju v **[Materialih dobaviteljev](../Sifranti/MaterialiDobaviteljev.md)**  
+1. Za material so v **[Mejah zaloge](../../Logistika/Upravljanje/MejeZaloge.md)** določene **minimalne in maksimalne količine**  
+2. Material je dodeljen vsaj enemu dobavitelju v **[Materialih dobaviteljev](../Upravljanje/MaterialiDobaviteljev.md)**  
 3. **Razpoložljiva zaloga** je **nižja od minimalne količine**
 
 Ko so pogoji izpolnjeni, material postane viden in ga je mogoče obravnavati v seznamu planiranja.

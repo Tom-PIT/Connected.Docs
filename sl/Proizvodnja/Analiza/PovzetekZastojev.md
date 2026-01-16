@@ -23,7 +23,7 @@ Določa način združevanja podatkov o zastojih:
 Izberite časovno obdobje, za katerega želite prikaz zastojev.
 
 ### Organizacijske enote
-Filtriranje rezultatov po eni ali več [organizacijskih enotah](../Sifranti/OrganizacijskeEnote.md).
+Filtriranje rezultatov po eni ali več [organizacijskih enotah](../Upravljanje/OrganizacijskeEnote.md).
 
 ### Stvarni viri
 Filtriranje zastojev glede na izbrano opremo ali delovna mesta.

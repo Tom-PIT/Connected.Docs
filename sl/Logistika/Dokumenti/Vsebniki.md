@@ -14,9 +14,9 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator vsebnika SSCC (v obliki: CTR-LLLL-NNNNNNNN). |
-| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem se vsebnik nahaja. |
+| [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem se vsebnik nahaja. |
 | **Datum dokumenta** | Datum, ko je bil dokument vsebnika ustvarjen. |
-| [**Lokacija**](../Sifranti/Lokacije.md) | Skladiščna lokacija (npr. regal / polica). |
+| [**Lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija (npr. regal / polica). |
 
 ### Razdelek postavk
 

@@ -16,13 +16,13 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaci
 |-------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator dokumenta porabe (samodejno generiran). |
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
-| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, iz katerega so bili materiali porabljeni. |
+| [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, iz katerega so bili materiali porabljeni. |
 
 ### Razdelek postavk
 
 | Polje | Opis |
 |-------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Porabljen material ([izdelek](../../Sredstva/Sifranti/Izdelki.md), [polizdelek](../../Sredstva/Sifranti/Polizdelki.md), [surovina](../../Sredstva/Sifranti/Surovine.md) ali [repro material](../../Sredstva/Sifranti/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Porabljen material ([izdelek](../../Sredstva/Upravljanje/Izdelki.md), [polizdelek](../../Sredstva/Upravljanje/Polizdelki.md), [surovina](../../Sredstva/Upravljanje/Surovine.md) ali [repro material](../../Sredstva/Upravljanje/ReproMateriali.md)). |
 | **Vir** | Identifikator vira porabljene enote (npr. serijska številka ali koda pakiranja, odvisno od načina sledenja materiala). |
 | **Količina** | Zabeležena porabljena količina za posamezno postavko. |
 

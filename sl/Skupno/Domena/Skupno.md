@@ -29,8 +29,8 @@ Ti šifranti predstavljajo osnovne gradnike, na katerih temeljijo druge domene.
 
 Te nastavitve določajo geografski in organizacijski kontekst podjetja in njegovih dokumentov.
 
-- **[Države](../Sifranti/Drzave.md)** – določajo dovoljene države za naslove, dokumente, pravno oblikovanje in lokalizacijo.  
-- **[Poslovni imenik](../Sifranti/PoslovniImenik.md)** – osrednja baza podjetij, dobaviteljev in drugih pravnih subjektov.
+- **[Države](../Upravljanje/Drzave.md)** – določajo dovoljene države za naslove, dokumente, pravno oblikovanje in lokalizacijo.  
+- **[Poslovni imenik](../Upravljanje/PoslovniImenik.md)** – osrednja baza podjetij, dobaviteljev in drugih pravnih subjektov.
 
 > [!IMPORTANT]  
 > Države morajo biti konfigurirane pred nastavitvijo države organizacije v **Sistem → Konfiguracija → Organizacija** ali v **Nastavitvah skupnih tipov**.
@@ -39,9 +39,9 @@ Te nastavitve določajo geografski in organizacijski kontekst podjetja in njegov
 
 Te nastavitve vplivajo na vse denarne in finančne procese v domenah.
 
-- **[Valute](../Sifranti/Valute.md)** – definirajo valute, ki so na voljo organizaciji.  
-- **[Davčne stopnje](../Sifranti/DavcneStopnje.md)** – definicije DDV ali drugih davkov, uporabljenih v prodaji in nabavi.  
-- **[Načini plačila](../../Prodaja/Sifranti/NacinPlacila.md)** – plačilne metode, uporabljene v prodaji in financah.
+- **[Valute](../Upravljanje/Valute.md)** – definirajo valute, ki so na voljo organizaciji.  
+- **[Davčne stopnje](../Upravljanje/DavcneStopnje.md)** – definicije DDV ali drugih davkov, uporabljenih v prodaji in nabavi.  
+- **[Načini plačila](../../Prodaja/Upravljanje/NacinPlacila.md)** – plačilne metode, uporabljene v prodaji in financah.
 
 > [!IMPORTANT]  
 > Valute morajo biti ustvarjene tukaj **pred** izbiro v:  
@@ -52,7 +52,7 @@ Te nastavitve vplivajo na vse denarne in finančne procese v domenah.
 
 Uporabljajo se v sredstvih, materialih, prodajnih dokumentih, nabavnih naročilih, logistiki in proizvodnji.
 
-- **[Merske enote](../Sifranti/MerskeEnote.md)** – osnovne merske enote (kos, kg, m, …).
+- **[Merske enote](../Upravljanje/MerskeEnote.md)** – osnovne merske enote (kos, kg, m, …).
 
 Pravilna konfiguracija zagotavlja doslednost količin, cen in zalog.
 
@@ -60,9 +60,9 @@ Pravilna konfiguracija zagotavlja doslednost količin, cen in zalog.
 
 Zapisi o partnerjih so skupni vsem komercialnim procesom.
 
-- **[Poslovni imenik](../Sifranti/PoslovniImenik.md)** – skupni imenik kupcev, dobaviteljev in poslovnih subjektov.  
-- **[Banke](../Sifranti/Banke.md)** – definicije bank, uporabljene pri plačilnih navodilih.  
-- **[Bančni računi organizacije](../../Prodaja/Sifranti/BancniRacuniOrganizacije.md)** – interni bančni računi podjetja za izdajanje računov.
+- **[Poslovni imenik](../Upravljanje/PoslovniImenik.md)** – skupni imenik kupcev, dobaviteljev in poslovnih subjektov.  
+- **[Banke](../Upravljanje/Banke.md)** – definicije bank, uporabljene pri plačilnih navodilih.  
+- **[Bančni računi organizacije](../../Prodaja/Upravljanje/BancniRacuniOrganizacije.md)** – interni bančni računi podjetja za izdajanje računov.
 
 Ti zapisi zagotavljajo enotno identifikacijo poslovnih partnerjev v vseh domenah.
 
@@ -70,7 +70,7 @@ Ti zapisi zagotavljajo enotno identifikacijo poslovnih partnerjev v vseh domenah
 
 Te nastavitve omogočajo enotno oblikovanje in vedenje dokumentov.
 
-- **[Vnaprej določena besedila](../Sifranti/VnaprejDolocenaBesedila.md)** – ponovno uporabljiva besedila za ponudbe, račune, dobavnice in nabavne dokumente.
+- **[Vnaprej določena besedila](../Upravljanje/VnaprejDolocenaBesedila.md)** – ponovno uporabljiva besedila za ponudbe, račune, dobavnice in nabavne dokumente.
 
 ## Zakaj morajo biti šifranti Skupno konfigurirani najprej
 
@@ -78,11 +78,11 @@ Skoraj vsi procesi v platformi so odvisni od nastavitev Skupno:
 
 | Področje | Odvisnost |
 |--------|----------|
-| **Sistem → Konfiguracija** | Zahteva [Države](../Sifranti/Drzave.md) in [Valute](../Sifranti/Valute.md) pred nastavitvijo organizacije |
-| **Prodaja** | Zahteva [Valute](../Sifranti/Valute.md), [Davčne stopnje](../Sifranti/DavcneStopnje.md), [Merske enote](../Sifranti/MerskeEnote.md), [Načini plačila](../../Prodaja/Sifranti/NacinPlacila.md) |
-| **Nabava** | Zahteva [Poslovni imenik](../Sifranti/PoslovniImenik.md), [Države](../Sifranti/Drzave.md), [Valute](../Sifranti/Valute.md) |
-| **Logistika** | Zahteva [Merske enote](../Sifranti/MerskeEnote.md), [Države](../Sifranti/Drzave.md), [Poslovni imenik](../Sifranti/PoslovniImenik.md) |
-| **Proizvodnja** | Uporablja [Merske enote](../Sifranti/MerskeEnote.md) in [Poslovni imenik](../Sifranti/PoslovniImenik.md) |
+| **Sistem → Konfiguracija** | Zahteva [Države](../Upravljanje/Drzave.md) in [Valute](../Upravljanje/Valute.md) pred nastavitvijo organizacije |
+| **Prodaja** | Zahteva [Valute](../Upravljanje/Valute.md), [Davčne stopnje](../Upravljanje/DavcneStopnje.md), [Merske enote](../Upravljanje/MerskeEnote.md), [Načini plačila](../../Prodaja/Upravljanje/NacinPlacila.md) |
+| **Nabava** | Zahteva [Poslovni imenik](../Upravljanje/PoslovniImenik.md), [Države](../Upravljanje/Drzave.md), [Valute](../Upravljanje/Valute.md) |
+| **Logistika** | Zahteva [Merske enote](../Upravljanje/MerskeEnote.md), [Države](../Upravljanje/Drzave.md), [Poslovni imenik](../Upravljanje/PoslovniImenik.md) |
+| **Proizvodnja** | Uporablja [Merske enote](../Upravljanje/MerskeEnote.md) in [Poslovni imenik](../Upravljanje/PoslovniImenik.md) |
 
 Če modul Skupno ni pravilno konfiguriran, se lahko pojavijo:
 

@@ -2,7 +2,7 @@
 
 Dokument **Proizvodnja** beleži postavke, ki so bile proizvedene med izvajanjem **proizvodnega naloga**. Dokumenti proizvodnje se ustvarijo **samodejno** v modulu [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md), ko proizvodni delavec zabeleži proizvedene količine. Proizvodnje povečujejo zalogo proizvedenih izdelkov in zagotavljajo sledljivost tega, kar je bilo izdelano.
 
-Za vnos proizvedenih količin na proizvodni strani glejte **[Izvajanje](../../Proizvodnja/Dokumenti/Izvedba.md)** (Izhodi). Izhodi so tesno povezani s to stranjo: beleženje proizvedenih postavk v proizvodnji ustvari ustrezen dokument proizvodnje v logistiki. Za določanje izhodov v procesih glejte **[Izhodi](../../Proizvodnja/Sifranti/Izhodi.md)**.
+Za vnos proizvedenih količin na proizvodni strani glejte **[Izvajanje](../../Proizvodnja/Dokumenti/Izvedba.md)** (Izhodi). Izhodi so tesno povezani s to stranjo: beleženje proizvedenih postavk v proizvodnji ustvari ustrezen dokument proizvodnje v logistiki. Za določanje izhodov v procesih glejte **[Izhodi](../../Proizvodnja/Upravljanje/Izhodi.md)**.
 
 Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -14,13 +14,13 @@ Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** 
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta proizvodnje. |
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
-| [**Skladišče**](../Sifranti/Skladisca.md) | Skladišče, v katerem so bile knjižene proizvedene postavke. |
+| [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem so bile knjižene proizvedene postavke. |
 
 ### Razdelek postavk
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Proizvedena postavka (najpogosteje [izdelek](../../Sredstva/Sifranti/Izdelki.md) ali [polizdelek](../../Sredstva/Sifranti/Polizdelki.md)). |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Proizvedena postavka (najpogosteje [izdelek](../../Sredstva/Upravljanje/Izdelki.md) ali [polizdelek](../../Sredstva/Upravljanje/Polizdelki.md)). |
 | **Količina** | Zabeležena proizvedena količina za posamezno postavko. |
 
 ## Seznam dokumentov proizvodnje

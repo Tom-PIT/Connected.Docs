@@ -14,7 +14,7 @@ Za ročni dostop pojdite na **Proizvodnja / Izvedba** v [navigaciji](../../Skupn
 >   
 >   ![Izbira proizvodnih nalogov](../Images/ExecutionPageEmpty.png "Izberi proizvodni nalog")
 > - Če je seznam proizvodnih nalogov prazen, za izbrano enoto ni razpoložljivih nalogov (še niso ustvarjeni ali nimajo aktivnih operacij). Naloge ustvarite v **[Proizvodni nalogi](ProizvodniNalogi.md)** in preverite, da je operacija dodeljena izbrani enoti.
-> - Če je seznam organizacijskih enot prazen, šifrant še ni definiran. Enote definirajte v **[Organizacijske enote](../../Skupno/Sifranti/PoslovneEnote.md)**.
+> - Če je seznam organizacijskih enot prazen, šifrant še ni definiran. Enote definirajte v **[Organizacijske enote](../../Skupno/Upravljanje/PoslovneEnote.md)**.
 
 ## Pregled uporabniškega vmesnika izvedbe
 
@@ -24,7 +24,7 @@ Glavni zaslon izvedbe prikazuje ključne informacije za trenutni proizvodni nalo
 
 | Št. | Opis |
 |----|------|
-| **1** | Prijavljeni uporabnik in **organizacijska enota**. <br>• Klik na sliko uporabnika → odjava <br>• Klik na organizacijsko enoto → sprememba (glej [Organizacijske enote](../../Skupno/Sifranti/PoslovneEnote.md)) |
+| **1** | Prijavljeni uporabnik in **organizacijska enota**. <br>• Klik na sliko uporabnika → odjava <br>• Klik na organizacijsko enoto → sprememba (glej [Organizacijske enote](../../Skupno/Upravljanje/PoslovneEnote.md)) |
 | **2** | Gumbi za upravljanje operacije: <br>• **Začni** – začne operacijo <br>• **Premor** – začasno ustavi delo <br>• **Ustavi** – zaključi operacijo |
 | **3** | Bližnjice: <br>• **Rumeni koš** – beleženje slabih kosov <br>• **Oranžni trikotnik** – odprti zastoji ali težave |
 | **4** | Trenutni proizvodni nalog |
@@ -80,7 +80,7 @@ Ko so zaključene vse operacije proizvodnega naloga, se **[Proizvodni nalog](Pro
 
 ### Kontrolni seznami in kakovost
 
-Kontrolni seznami **[kontrolnih list](../Sifranti/KontrolneListe.md)** zagotavljajo varnost in kakovost izdelkov. Če je za operacijo zahtevan kontrolni seznam, se samodejno prikaže ob pravem času (na začetku, med izvajanjem ali pred zaključkom).
+Kontrolni seznami **[kontrolnih list](../Upravljanje/KontrolneListe.md)** zagotavljajo varnost in kakovost izdelkov. Če je za operacijo zahtevan kontrolni seznam, se samodejno prikaže ob pravem času (na začetku, med izvajanjem ali pred zaključkom).
 
 ![Kontrolni seznam kakovosti](../Images/ExecutionStep1Checklist.png "Kontrolni seznam kakovosti")
 

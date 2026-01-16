@@ -18,8 +18,8 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 | **Šifra** | Enolični identifikator sredstva (obvezno). |
 | **Ime** | Prikazno ime sredstva (obvezno). |
 | **Tip** | Določa, ali je sredstvo **Blago** ali **Storitev** (obvezno). |
-| [**Davek**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja (neobvezno). |
-| [**Merska enota**](../../Skupno/Sifranti/MerskeEnote.md) | Enota za prikaz in cenitev sredstva (obvezno). |
+| [**Davek**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja (neobvezno). |
+| [**Merska enota**](../../Skupno/Upravljanje/MerskeEnote.md) | Enota za prikaz in cenitev sredstva (obvezno). |
 | **Neto cena (na enoto)** | Neto cena na enoto sredstva. |
 | **Neto teža (kg)** | Teža sredstva, če je relevantna (privzeto = 0). |
 | **EAN** | Črtna koda (neobvezno). |

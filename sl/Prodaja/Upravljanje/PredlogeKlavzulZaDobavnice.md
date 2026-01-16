@@ -7,22 +7,22 @@ Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za do
 > [!NOTE]  
 > **Predpogoji**  
 > Pred ustvarjanjem predlog klavzul zagotovite, da je izpolnjeno naslednje:  
-> • Partnersko podjetje obstaja v šifrantu [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md).  
-> • Besedilo klavzule obstaja v šifrantu [**Vnaprej določena besedila**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*).
+> • Partnersko podjetje obstaja v šifrantu [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md).  
+> • Besedilo klavzule obstaja v šifrantu [**Vnaprej določena besedila**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*).
 
 ## Shema
 
 ### Polja predloge  
 | Polje | Opis |
 |------|------|
-| **Podjetje** | Podjetje, za katerega velja predloga klavzul. Izbira iz šifranta [Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md). (obvezno) |
+| **Podjetje** | Podjetje, za katerega velja predloga klavzul. Izbira iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md). (obvezno) |
 
 ### Polja klavzul (znotraj predloge)  
 | Polje | Opis |
 |------|------|
 | **Lokacija** | Mesto izpisa klavzule na dobavnici (zgoraj ali spodaj). |
 | **Vrstni red** | Zaporedje prikaza klavzule (npr. 1, 2, 3 …). |
-| **Klavzula** | Vnaprej določeno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md) (entiteta = *Dobavnica*). |
+| **Klavzula** | Vnaprej določeno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta = *Dobavnica*). |
 
 ## Upravljanje
 

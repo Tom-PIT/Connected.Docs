@@ -21,7 +21,7 @@ Tipičen potek:
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator povpraševanja. |
-| **Dobavitelj** | Dobavitelj, ki prejme povpraševanje, izbran iz **[Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md)** (obvezno). |
+| **Dobavitelj** | Dobavitelj, ki prejme povpraševanje, izbran iz **[Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
 | **Datum dokumenta** | Datum nastanka povpraševanja. |
 | **Datum opravljene storitve** | Rok, do katerega je povpraševanje veljavno (podobno datumu poteka). |
 | **Postavke** | Seznam zahtevanih materialov ali storitev (obvezno). |

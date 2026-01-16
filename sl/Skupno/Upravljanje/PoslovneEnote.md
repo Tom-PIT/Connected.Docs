@@ -15,7 +15,7 @@ Poslovne enote so prikazane kot oznaka znotraj posameznega vnosa v Poslovnem ime
 |------|------|
 | **Ime** | Ime poslovne enote (npr. *Glavni sedež*, *Slovenska podružnica*). |
 | **Ulica** | Ulica in hišna številka lokacije. |
-| **Država** | Izbrana iz šifranta [**Države**](../../Skupno/Sifranti/Drzave.md). |
+| **Država** | Izbrana iz šifranta [**Države**](../../Skupno/Upravljanje/Drzave.md). |
 | **Pošta** | Izbrana iz seznama [**Poštne številke**](PostneStevilke.md) glede na državo. |
 | **Aktivna** | Označuje, ali je poslovna enota na voljo za izbiro v dokumentih. |
 
@@ -37,7 +37,7 @@ Izpolnite naslednja polja:
 
 - **Ime** – ime poslovne enote  
 - **Ulica** – naslov ulice  
-- **Država** – izbrana iz seznama [**Države**](../../Skupno/Sifranti/Drzave.md)  
+- **Država** – izbrana iz seznama [**Države**](../../Skupno/Upravljanje/Drzave.md)  
 - **Pošta** – izbrana iz seznama [**Poštne številke**](PostneStevilke.md)  
 - **Aktivna** – določa, ali se enota lahko uporablja  
 
