@@ -32,4 +32,20 @@ To create a new reminder category:
 
 ![New reminder category](../Images/ReminderCategoriesNew.png "Create reminder category")
 
+## Editing a reminder category
+
+To edit an existing reminder category:
+
+1. Click on the category you want to edit.
+2. Modify the **Name** or **Status** as needed.
+3. Click **Save** to apply changes.
+
+## Deletion
+
+To delete a reminder category:
+
+1. Click on the category you want to delete.
+2. Click **Delete**.
+3. Confirm the deletion.
+
 ---
