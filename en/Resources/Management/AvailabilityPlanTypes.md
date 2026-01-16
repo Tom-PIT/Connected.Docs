@@ -16,7 +16,7 @@ To access **Availability plan types**, go to **Resources / Management / Availabi
 
 The list view shows all configured availability plan types.
 
-![Availability plan types list](../Images/AvailabilityPlanTypes.png "Availability plan types list")
+![Availability plan types list](../Images/AvailabilityPlanTypes1.png "Availability plan types list")
 
 For each entry, the following information is visible:
 
