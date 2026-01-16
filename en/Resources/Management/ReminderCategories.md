@@ -32,11 +32,4 @@ To create a new reminder category:
 
 ![New reminder category](../Images/ReminderCategoriesNew.png "Create reminder category")
 
-## Usage
-
-Reminder categories are used when creating or editing reminders in **Reminders**.  
-They allow users to group and filter reminders by their purpose, improving clarity and organization.
-
-For more information on using categories in reminders, see **Reminders.md**.
-
 ---
