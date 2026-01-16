@@ -5,7 +5,7 @@ Uporabljajo ga tako vodje kot izvajalci za spremljanje napredka, odpiranje posam
 
 Opravila vedno pripadajo **projektu** in ne morejo obstajati samostojno.
 
-Za dostop do zaslona pojdite na **Projekti / Opravila** v [navigaciji](../../Common/UI/Navigacija.md).
+Za dostop do zaslona pojdite na **Projekti / Opravila** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

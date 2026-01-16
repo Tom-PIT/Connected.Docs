@@ -2,10 +2,10 @@
 
 Področje **Projekti** omogoča pregled vseh aktivnih in zaključenih projektov ter predstavlja glavni delovni prostor za **spremljanje napredka in izvajanje opravil** znotraj projekta.
 
-Projekti se ustvarjajo in konfigurirajo v dokumentu **[Upravljanje projektov](../Management/UpravljanjeProjektov.md)**.  
+Projekti se ustvarjajo in konfigurirajo v dokumentu **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)**.  
 Ta razdelek je namenjen **delu z obstoječimi projekti**: spremljanju statusa, pregledu opravil in sodelovanju med izvajanjem.
 
-Za dostop do projektov pojdite na **Projekti / Projekti** v [navigaciji](../../Common/UI/Navigacija.md).
+Za dostop do projektov pojdite na **Projekti / Projekti** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Pregled projektov
 
@@ -76,7 +76,7 @@ V tem pogledu lahko uporabniki:
 - spremljajo izvedene in ocenjene ure (če so definirane)
 
 Ta zaslon ponuja **projektni pregled opravil**.  
-Podrobnosti o izvajanju opravil, beleženju časa in upravljanju statusov so opisane v dokumentu **[Opravila](Tasks.md)**.
+Podrobnosti o izvajanju opravil, beleženju časa in upravljanju statusov so opisane v dokumentu **[Opravila](Opravila.md)**.
 
 ## Ustvarjanje novega opravila
 
@@ -99,7 +99,7 @@ Obrazec za ustvarjanje opravila vsebuje:
 
 > [!NOTE]
 >
-> Podrobnejši opis polj in upravljanja opravil je na voljo v dokumentu [**Opravila**](Tasks.md).
+> Podrobnejši opis polj in upravljanja opravil je na voljo v dokumentu [**Opravila**](Opravila.md).
 
 Ko je opravilo pripravljeno, kliknite **Ustvari**.
 
@@ -128,11 +128,11 @@ Projekt je lahko v enem izmed naslednjih stanj:
 - **Aktiven** — projekt se izvaja
 - **Zaprt** — projekt je zaključen
 
-Status projekta odraža splošni napredek in se upravlja v dokumentu **[Upravljanje projektov](../Management/UpravljanjeProjektov.md)**.
+Status projekta odraža splošni napredek in se upravlja v dokumentu **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)**.
 
 ## Povezana dokumentacija
 
-- **[Opravila](Tasks.md)** — upravljanje opravil znotraj projektov  
-- **[Upravljanje projektov](../Management/UpravljanjeProjektov.md)** — ustvarjanje in konfiguracija projektov
+- **[Opravila](Opravila.md)** — upravljanje opravil znotraj projektov  
+- **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)** — ustvarjanje in konfiguracija projektov
 
 ---

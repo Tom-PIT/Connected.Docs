@@ -1,10 +1,10 @@
 # Moja opravila
 
-Zaslon **Moja opravila** ponuja personaliziran pregled vseh [opravil](../Documents/Opravila.md), ki so **dodeljena vam**. Namenjen je delavcem in vodjem, da se lahko hitro osredotočijo na svoje naloge, brez potrebe po pregledovanju vseh projektov.
+Zaslon **Moja opravila** ponuja personaliziran pregled vseh [opravil](../Dokumenti/Opravila.md), ki so **dodeljena vam**. Namenjen je delavcem in vodjem, da se lahko hitro osredotočijo na svoje naloge, brez potrebe po pregledovanju vseh projektov.
 
-Opravila, prikazana na tem zaslonu, vedno pripadajo nekemu [projektu](../Documents/Projekti.md), vendar je seznam filtriran tako, da vključuje samo opravila, relevantna za trenutno prijavljenega uporabnika.
+Opravila, prikazana na tem zaslonu, vedno pripadajo nekemu [projektu](../Dokumenti/Projekti.md), vendar je seznam filtriran tako, da vključuje samo opravila, relevantna za trenutno prijavljenega uporabnika.
 
-Za dostop do zaslona pojdite na **Projekti / Pregledi / Moja opravila** v [navigaciji](../../Common/UI/Navigacija.md).
+Za dostop do zaslona pojdite na **Projekti / Pregledi / Moja opravila** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Seznam mojih opravil
 
@@ -51,7 +51,7 @@ Na zaslonu **Moja opravila** lahko:
 Izvajanje opravil in delo z njimi poteka popolnoma enako kot v splošnem pogledu **Opravila**.
 
 Za podrobnejše informacije o strukturi opravil, njihovem življenjskem ciklu in beleženju časa glejte:
-- **[Opravila](Opravila.md)** — podrobno izvajanje in sledenje opravil
-- **[Upravljanje projektov](../Management/UpravljanjeProjektov.md)** — nastavitev in upravljanje projektov
+- **[Opravila](../Dokumenti/Opravila.md)** — podrobno izvajanje in sledenje opravil
+- **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)** — nastavitev in upravljanje projektov
 
 ---

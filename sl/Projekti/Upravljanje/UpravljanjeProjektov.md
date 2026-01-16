@@ -100,7 +100,7 @@ Po potrditvi je projekt trajno odstranjen iz sistema.
 
 ## Povezana dokumentacija
 
-- **[Projekti](../Documents/Projekti.md)** – pregled projektov in spremljanje napredka  
-- **[Opravila](../Documents/Opravila.md)** – upravljanje opravil znotraj projektov  
+- **[Projekti](../Dokumenti/Projekti.md)** – pregled projektov in spremljanje napredka  
+- **[Opravila](../Dokumenti/Opravila.md)** – upravljanje opravil znotraj projektov  
 
 ---
