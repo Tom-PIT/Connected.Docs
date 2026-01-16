@@ -58,9 +58,9 @@ Razpoložljivi pregledi vključujejo:
 
 Ti pregledi **ne ustvarjajo** transakcij – namenjeni so analizi in podpori odločanju.
 
-## Šifranti
+## Upravljanje
 
-Razdelek **Šifranti** vsebuje konfiguracijo in osnovne podatke, potrebne za delovanje prodajnih in finančnih procesov.
+Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, potrebne za delovanje prodajnih in finančnih procesov.
 
 ![Šifranti prodaje](../Images/SalesDomainManagement.png "Šifranti prodaje")
 
