@@ -78,9 +78,9 @@ Razpoložljivi pregledi vključujejo:
 
 Ti zasloni **ne ustvarjajo transakcij** – namenjeni so podpori odločanja.
 
-## Šifranti
+## Upravljanje
 
-Razdelek **Šifranti** vsebuje konfiguracijo in osnovne podatke, ki jih uporabljajo vsi logistični procesi.
+Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, ki jih uporabljajo vsi logistični procesi.
 
 ![Šifranti logistike](../Images/LogisticsDomainManagement.png "Šifranti logistike")
 

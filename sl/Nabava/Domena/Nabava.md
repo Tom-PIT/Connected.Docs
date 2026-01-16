@@ -57,9 +57,9 @@ Razpoložljivi pregledi vključujejo:
 
 Ti pregledi podpirajo analizo in odločanje, vendar **ne ustvarjajo** transakcij.
 
-## Šifranti
+## Upravljanje
 
-Razdelek **Šifranti** vsebuje konfiguracijo in osnovne podatke, potrebne za delovanje nabavnih procesov.
+Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, potrebne za delovanje nabavnih procesov.
 
 ![Šifranti nabave](../Images/SupplyDomainManagement.png "Šifranti nabave")
 
