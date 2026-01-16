@@ -1,4 +1,4 @@
-﻿# Exchange rates
+# Exchange rates
 
 The **Exchange rates** code list defines currency conversion rates used across the system when working with documents in different currencies. These rates are primarily used in the **Sales** domain to convert amounts between a **base currency** and a **target currency** on a given date.
 
@@ -10,7 +10,7 @@ Exchange rates allow the system to:
 Each exchange rate is defined **from one currency to another** (Base → Target) for a specific date.
 
 > [!IMPORTANT]
-> [**Currencies**](../../Common/CodeLists/Currencies.md) must be defined before creating exchange rates.
+> [**Currencies**](../../Common/Management/Currencies.md) must be defined before creating exchange rates.
 
 To access this page, go to **Sales / Management / Exchange rates** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -18,8 +18,8 @@ To access this page, go to **Sales / Management / Exchange rates** in the [navig
 
 | Field | Description |
 |-------|-------------|
-| **From currency** | Base currency used for conversion, selected from [**Currencies**](../../Common/CodeLists/Currencies.md). |
-| **To currency** | Target currency to which the amount is converted, selected from [**Currencies**](../../Common/CodeLists/Currencies.md). |
+| **From currency** | Base currency used for conversion, selected from [**Currencies**](../../Common/Management/Currencies.md). |
+| **To currency** | Target currency to which the amount is converted, selected from [**Currencies**](../../Common/Management/Currencies.md). |
 | **Date** | Date on which the exchange rate is valid. |
 | **Rate** | Conversion factor used to convert from the base currency to the target currency. |
 

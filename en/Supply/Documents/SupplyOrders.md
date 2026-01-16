@@ -1,4 +1,4 @@
-﻿# Supply orders
+# Supply orders
 
 A **Supply order** is the formal purchasing document used to confirm materials or services ordered from a vendor. It defines *what* your organization will receive, *when*, and under *which conditions*, and is the basis for operational workflows such as material receiving and cost center allocation.
 
@@ -22,14 +22,14 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the supply order. |
-| **Vendor** | Vendor providing the materials or services, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
+| **Vendor** | Vendor providing the materials or services, selected from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Document date** | Date when the supply order is created. |
 | **Supply date** | Planned supply or delivery date for the requested materials (mandatory). |
 | **Rebate** | Optional discount applied to the entire supply order. |
-| **[Cost center](../../Common/CodeLists/CostCenters.md)** | Internal cost center associated with this purchase. |
+| **[Cost center](../../Common/Management/CostCenters.md)** | Internal cost center associated with this purchase. |
 | **Offer code** | Optional reference to the vendor’s offer or external document. |
 | **Delivery – Company / Address** | Delivery location details, taken from the Business directory or manually adjusted if needed. |
-| **Top content** | Predefined introductory text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Supply order*). |
+| **Top content** | Predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Supply order*). |
 | **Bottom content** | Closing or legal statements from predefined texts. |
 | **Details** | List of ordered materials or expenses, including quantities, prices, taxes, and delivery information. |
 
@@ -43,7 +43,7 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 | **Supply date** | Specific supply date for this material line. |
 | **Net price (per unit)** | Unit price taken from supplier material records or entered manually. |
 | **Discount (%)** | Optional discount applied to this specific detail line. |
-| **[Tax rate](../../Common/CodeLists/TaxRates.md)** | Applied tax rule. |
+| **[Tax rate](../../Common/Management/TaxRates.md)** | Applied tax rule. |
 | **Supplier code** | Vendor’s internal code/reference for the selected material. |
 | **Total cost** | Line total (quantity × net price − discount + tax). |
 

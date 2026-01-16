@@ -1,8 +1,8 @@
-﻿# Inventories
+# Inventories
 
 An **Inventory** document is used to verify and correct stock quantities at a specific warehouse location. It compares the **theoretical stock** stored in the system with the **actual stock** physically present on the shelves. If differences are found, you can update the quantities and publish the document to adjust the stock levels accordingly.
 
-Inventory checks are performed per location and show all materials stored there, along with indicators of missing or excess items. You can open the **Stock view by location** or the **Stock view by serial number** directly from related screens to understand how stock levels were formed. Minimum and maximum thresholds shown in summaries can be configured in the **[Stock boundaries](../CodeLists/StockBoundaries.md)** code list.
+Inventory checks are performed per location and show all materials stored there, along with indicators of missing or excess items. You can open the **Stock view by location** or the **Stock view by serial number** directly from related screens to understand how stock levels were formed. Minimum and maximum thresholds shown in summaries can be configured in the **[Stock boundaries](../Management/StockBoundaries.md)** code list.
 
 > [!TIP]
 > For a full demonstration, see the **[Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8)** video tutorial.
@@ -17,14 +17,14 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the inventory document. |
 | **Document date** | Date when the inventory count is performed or recorded. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the inventory verification is taking place. |
-| [**Location**](../CodeLists/Locations.md) | Specific location within the selected warehouse that is being verified. |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse where the inventory verification is taking place. |
+| [**Location**](../Management/Locations.md) | Specific location within the selected warehouse that is being verified. |
 
 ### Detail section
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | The material stored at the selected location ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | The material stored at the selected location ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
 | **Location** | Storage location where the inventory is being performed. |
 | **Theoretical** | Quantity currently recorded in the system. |
 | **Actual** | Physically verified quantity (editable). |

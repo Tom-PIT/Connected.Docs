@@ -1,4 +1,4 @@
-﻿# Asset price lists
+# Asset price lists
 
 **Asset price lists** define how much a specific customer (or other business entity) pays for your [assets](Assets.md).  They allow you to set **customer-specific pricing**, valid for a defined date range, and optionally include **volume-based discounts** (price ranges).
 
@@ -9,7 +9,7 @@ To access this screen, go to **Assets / Asset price lists** in the [navigation](
 | Field | Description |
 |-------|-------------|
 | **Type** | Classification of the price list (e.g., *Company*). |
-| [**Entity**](../../Common/CodeLists/BusinessDirectory.md) | Customer or other partner to whom the price list applies. |
+| [**Entity**](../../Common/Management/BusinessDirectory.md) | Customer or other partner to whom the price list applies. |
 | **Name** | Display name of the price list (mandatory). |
 | **Valid from** | Start date when the price list becomes active. |
 | **Valid to** | End date of the price list's validity period. |

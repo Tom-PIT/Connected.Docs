@@ -15,7 +15,7 @@ To access **Move container**, go to **Logistics / Documents / Move container** i
 
 ### Prerequisites
 
-- Define warehouse **[Locations](../CodeLists/Locations.md)**.
+- Define warehouse **[Locations](../Management/Locations.md)**.
 - Ensure the [**container**](Containers.md) is registered and has a scannable identifier (barcode/EAN/code).
 
 ## Steps
@@ -39,7 +39,7 @@ Choose the **To location**. You can:
 
 > [!TIP]
 > - Use standardized location labels to speed up scanning.
-> - Verify the location’s availability if your process enforces capacity rules. See **[Stock boundaries](../CodeLists/StockBoundaries.md)** for details.
+> - Verify the location’s availability if your process enforces capacity rules. See **[Stock boundaries](../Management/StockBoundaries.md)** for details.
 
 ### Step 3 — Confirm the move
 

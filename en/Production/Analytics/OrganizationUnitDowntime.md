@@ -1,4 +1,4 @@
-﻿# Organization unit downtime
+# Organization unit downtime
 
 The **Organization unit downtime** page provides a detailed list of all downtime events recorded within selected organizational units. It allows supervisors and planners to review when downtime started and ended, which resource was affected, the downtime classification tag, and the total duration.
 
@@ -11,7 +11,7 @@ To access this page, go to **Production / Analytics / Organization unit downtime
 Use the filters on the left to refine the results:
 
 - **Date** — Select a date or date range for which downtime events should be displayed.  
-- **Tag** — Filter events by downtime classification tag (see [Downtime tags](../CodeLists/DowntimeTags.md)).
+- **Tag** — Filter events by downtime classification tag (see [Downtime tags](../Management/DowntimeTags.md)).
 
 ## Downtime overview
 

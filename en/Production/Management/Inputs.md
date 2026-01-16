@@ -1,4 +1,4 @@
-﻿# Inputs
+# Inputs
 
 Inputs define the **materials required** to perform an operation within a process version. Each input specifies what material is needed, in what unit and quantity, and how it should be calculated.
 Inputs are managed inside an **Operation**. 
@@ -15,10 +15,10 @@ To access this page, open a process version from **Production / Management / [Pr
 | Field | Description |
 |-------|-------------|
 | **Entity** | Select whether the input refers to a [**Material**](../../Assets/Domain/Materials.md) or a **Material tag**. |
-| **Material type** | The category of the material: <br>• **[Products](../../Assets/CodeLists/Products.md)**<br>• **[Raw material](../../Assets/CodeLists/RawMaterials.md)**<br>• **[Repro materials](../../Assets/CodeLists/ReproMaterials.md)**<br>• **[Semi products](../../Assets/CodeLists/SemiProducts.md)** |
+| **Material type** | The category of the material: <br>• **[Products](../../Assets/Management/Products.md)**<br>• **[Raw material](../../Assets/Management/RawMaterials.md)**<br>• **[Repro materials](../../Assets/Management/ReproMaterials.md)**<br>• **[Semi products](../../Assets/Management/SemiProducts.md)** |
 | **Material** | The specific item being consumed (depends on the selected **Material type**). For example, for a raw material, it could be an **Oak Wood Board**. |
 | **Calculation type** | Determines how the quantity is calculated: <br>• **Dynamic** – Quantity depends on production order quantities. <br>• **Static** – Quantity is fixed. |
-| **Quantity** | Input amount required. The [**measure unit**](../../Common/CodeLists/MeasureUnits.md) depends on the selected material (e.g., pieces, kg, meters). |
+| **Quantity** | Input amount required. The [**measure unit**](../../Common/Management/MeasureUnits.md) depends on the selected material (e.g., pieces, kg, meters). |
 | **Ordinal** | Defines the order in which inputs are listed (0-based). |
 | **Tags** | Optional tags for grouping or filtering inputs. |
 

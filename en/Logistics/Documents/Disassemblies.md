@@ -1,6 +1,6 @@
 # Disassemblies
 
-Disassemblies are logistics documents used to break down a [set (combined material)](../../Assets/CodeLists/Sets.md) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.
+Disassemblies are logistics documents used to break down a [set (combined material)](../../Assets/Management/Sets.md) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.
 
 Use a Disassembly when you receive or store sets (bundled materials) but need to consume or sell their components separately. Publishing a Disassembly reduces the set’s stock and increases the stock of its parts according to the structure defined on the set.
 
@@ -9,7 +9,7 @@ Use a Disassembly when you receive or store sets (bundled materials) but need to
 
 > [!NOTE]
 > - Disassembly affects inventory on publish: parts become available and the set quantity decreases accordingly.
-> - In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/CodeLists/Sets.md)** code list.
+> - In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/Management/Sets.md)** code list.
 
 To access **Disassemblies**, go to **Logistics / Documents / Disassemblies** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -24,18 +24,18 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Auto-generated document code. |
 | **Document date** | Date of the disassembly document. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where disassembly occurs (mandatory). |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse where disassembly occurs (mandatory). |
 | **Details** | List of sets to be disassembled (mandatory). |
 
 ### Details
 
 | Field | Description |
 |-------|-------------|
-| **Set (material)** | The combined material (e.g., a furniture set) you are disassembling (required). See [Sets](../../Assets/CodeLists/Sets.md). |
+| **Set (material)** | The combined material (e.g., a furniture set) you are disassembling (required). See [Sets](../../Assets/Management/Sets.md). |
 | **Quantity** | How many sets to disassemble (required). |
 | **Serial number** | Item serial number, if applicable. |
 | **Best before** | Best before date for perishable sets/components, if applicable. |
-| **Warehouse location** | Bin/shelf used during disassembly or where parts are placed. See [Locations](../CodeLists/Locations.md). |
+| **Warehouse location** | Bin/shelf used during disassembly or where parts are placed. See [Locations](../Management/Locations.md). |
 
 ## Management
 

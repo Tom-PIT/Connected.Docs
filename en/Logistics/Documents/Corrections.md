@@ -1,4 +1,4 @@
-﻿# Corrections
+# Corrections
 
 Corrections are logistics documents used to adjust inventory when physical stock does not match system records (e.g., counting differences, wrong material, or labeling errors). Publishing a correction updates warehouse balances to reflect the actual quantities and properties of materials.
 
@@ -17,7 +17,7 @@ To access **Corrections**, go to **Logistics / Documents / Corrections** in the 
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Auto-generated document identifier. |
-| **[Warehouse](../CodeLists/Warehouses.md)** | Warehouse where the correction applies (mandatory). |
+| **[Warehouse](../Management/Warehouses.md)** | Warehouse where the correction applies (mandatory). |
 | **Document date** | Date of the correction document. |
 
 ### Details
@@ -26,11 +26,11 @@ Each detail describes the material and the correction to apply.
 
 | Field | Description |
 |-------|-------------|
-| **Material type** | Item category, e.g., [Products](../../Assets/CodeLists/Products.md), [Semi products](../../Assets/CodeLists/SemiProducts.md), [Raw materials](../../Assets/CodeLists/RawMaterials.md), [Repro materials](../../Assets/CodeLists/ReproMaterials.md). |
-| **Material** | Selected item (e.g., Pine table) from the [Assets](../../Assets/CodeLists/Assets.md) catalog. |
+| **Material type** | Item category, e.g., [Products](../../Assets/Management/Products.md), [Semi products](../../Assets/Management/SemiProducts.md), [Raw materials](../../Assets/Management/RawMaterials.md), [Repro materials](../../Assets/Management/ReproMaterials.md). |
+| **Material** | Selected item (e.g., Pine table) from the [Assets](../../Assets/Management/Assets.md) catalog. |
 | **Serial number** | Serial number to which the correction applies, if the material is serialized. |
 | **Best before** | Best-before date, if applicable for perishable materials. |
-| **Warehouse location** | Bin/shelf in the warehouse for precise placement. See [Locations](../CodeLists/Locations.md). |
+| **Warehouse location** | Bin/shelf in the warehouse for precise placement. See [Locations](../Management/Locations.md). |
 | **Quantity** | Quantity to correct (enter the final quantity or a delta, depending on configuration). |
 
 ## List view

@@ -1,4 +1,4 @@
-﻿# Maintenance orders
+# Maintenance orders
 
 Maintenance orders define the work required to perform **planned or curative maintenance** on equipment, based on a selected **maintenance process** and version.  
 They move through the life cycle **Pending → Active → Closed**, and include operations, resources, inputs, and quality checks defined by the selected process.
@@ -7,10 +7,10 @@ They move through the life cycle **Pending → Active → Closed**, and include 
 > **Prerequisites**
 >
 > Before creating a maintenance order, ensure that the following are configured:
-> - At least one [**maintenance process**](../../Production/CodeLists/Processes.md) with an active version
+> - At least one [**maintenance process**](../../Production/Management/Processes.md) with an active version
 > - Equipment definitions
-> - Assigned [**organization units**](../../Production/CodeLists/OrganizationUnits.md)
-> - Optional supporting definitions such as [**resources**](../../Production/CodeLists/Resources.md), [**checklists**](../../Production/CodeLists/Checklists.md), and [**measure units**](../../Common/CodeLists/MeasureUnits.md), depending on your maintenance workflow
+> - Assigned [**organization units**](../../Production/Management/OrganizationUnits.md)
+> - Optional supporting definitions such as [**resources**](../../Production/Management/Resources.md), [**checklists**](../../Production/Management/Checklists.md), and [**measure units**](../../Common/Management/MeasureUnits.md), depending on your maintenance workflow
 
 To access maintenance orders, go to **Maintenance / Maintenance Orders** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -85,7 +85,7 @@ Then choose the specific equipment from the list.
 
 ### Step 2 — Select process
 
-Select the **maintenance [process](../../Production/CodeLists/Processes.md)** and **process version** that defines the maintenance operations.
+Select the **maintenance [process](../../Production/Management/Processes.md)** and **process version** that defines the maintenance operations.
 
 ![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2.png "Create maintenance order – step 2")
 

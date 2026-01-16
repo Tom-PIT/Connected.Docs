@@ -1,4 +1,4 @@
-﻿# Prepayments
+# Prepayments
 
 A **Prepayment** is a sales document used when a customer pays an agreed amount in advance before goods or services are delivered. It records received funds that can later be fully or partially applied to [issued invoices](IssuedInvoices.md). Prepayments can be created manually or directly from a committed [**Proforma invoice**](ProformaInvoices.md), linking them to the sales process.
 
@@ -23,26 +23,26 @@ Prepayments track received funds and do not affect inventory.
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the prepayment. |
 | **Purchase order code** | Optional reference to the customer's purchase order. |
-| **Customer** | Customer making the payment, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer making the payment, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the prepayment document is issued. |
 | **Delivery date** | Estimated delivery date related to the sale. |
 | **Due date** | Deadline for receiving the prepayment (mandatory). |
 | **Reference type** | Type of payment reference used on payment documents (mandatory). |
 | **Reference number** | Payment reference based on the chosen reference type. |
-| **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)** | Bank account receiving the prepayment (mandatory). |
-| **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional allocation to a cost center. |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account receiving the prepayment (mandatory). |
+| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional description of payment purpose. |
 | **Rebate** | Overall rebate applied to the prepayment amount. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
-| **Payment method** | Payment method selected from [**Payment methods**](../CodeLists/PaymentMethods.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Payment method** | Payment method selected from [**Payment methods**](../Management/PaymentMethods.md). |
 
 ### **Detail fields**
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/CodeLists/Assets.md) | Item or service that the prepayment relates to. |
+| [**Asset**](../../Assets/Management/Assets.md) | Item or service that the prepayment relates to. |
 | **Quantity** | Quantity of the asset. |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional discount on the line item. |
@@ -77,14 +77,14 @@ Drafts can be edited; committed prepayments are final unless reversed.
 
    ![New prepayment](../Images/PrepaymentsNewTop.png)
 
-2. Fill in mandatory header fields: **Customer** (from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md)), **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)**.
+2. Fill in mandatory header fields: **Customer** (from the [**Business directory**](../../Common/Management/BusinessDirectory.md)), **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../Management/OrganizationBankAccounts.md)**.
 
 3. Add items in the Details section. Type or scan a **serial number**, **EAN**, or **asset/material name** into the Details bar.
    - The system displays matching assets and materials.
 
 4. Save the added details.
 
-5. Select the **[Payment method](../CodeLists/PaymentMethods.md)**.
+5. Select the **[Payment method](../Management/PaymentMethods.md)**.
 
     ![Prepayments New Bottom](../Images/PrepaymentsNewBottom.png)
 

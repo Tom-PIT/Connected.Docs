@@ -1,4 +1,4 @@
-﻿# Supplier materials
+# Supplier materials
 
 Supplier materials represent the list of materials that vendors provide to your organization. Each entry links an existing material from the [**Materials**](../../Assets/Domain/Materials.md) domain with a specific vendor and includes additional information such as the supplier’s material code, price, and delivery time.
 
@@ -10,8 +10,8 @@ To access this code list, go to **Supply / Management / Supplier materials** in 
 
 | Field | Description |
 |-------|-------------|
-| **Vendor** | Vendor providing the material. Must exist in the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
-| **[Material type](../../Assets/Domain/Materials.md)** | Type of material ([**Raw material**](../../Assets/CodeLists/RawMaterials.md), [**Semi-product**](../../Assets/CodeLists/SemiProducts.md), [**Product**](../../Assets/CodeLists/Products.md), [**Repro material**](../../Assets/CodeLists/ReproMaterials.md)). Must match an existing material type (mandatory). |
+| **Vendor** | Vendor providing the material. Must exist in the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **[Material type](../../Assets/Domain/Materials.md)** | Type of material ([**Raw material**](../../Assets/Management/RawMaterials.md), [**Semi-product**](../../Assets/Management/SemiProducts.md), [**Product**](../../Assets/Management/Products.md), [**Repro material**](../../Assets/Management/ReproMaterials.md)). Must match an existing material type (mandatory). |
 | **[Material](../../Assets/Domain/Materials.md)** | Material supplied by the vendor. Must already exist in the **Materials** domain (mandatory). |
 | **Supplier code** | The vendor’s internal code for this material. |
 | **Price** | Net price at which the vendor supplies the material. |
@@ -73,7 +73,7 @@ After entering the required information, click **Add** to save the record or **C
 
 The **Import** functionality allows bulk creation or updating of supplier materials using a spreadsheet file.
 
-This screen behaves similarly to the **[Import materials](../../Assets/CodeLists/ImportMaterials.md)** page. It provides:
+This screen behaves similarly to the **[Import materials](../../Assets/Management/ImportMaterials.md)** page. It provides:
 
 - File type selection (CSV or XLSX)  
 - Downloadable example file  

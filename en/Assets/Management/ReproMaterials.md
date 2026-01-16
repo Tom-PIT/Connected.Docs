@@ -1,8 +1,8 @@
-﻿# Repro materials
+# Repro materials
 
 **Repro materials** are reusable or auxiliary components used to support production or internal activities. They are not final products but are essential for maintaining or assembling other materials. Examples include screws, tape, pallets, or styrofoam.
 
-Each repro material includes important attributes—such as [measure units](../../Common/CodeLists/MeasureUnits.md), [tax rate](../../Common/CodeLists/TaxRates.md), serial number behavior, or [packaging](Packaging.md) options—to ensure consistent tracking and usage across all warehouse and production workflows. This code list contains all repro materials used by your organization.
+Each repro material includes important attributes—such as [measure units](../../Common/Management/MeasureUnits.md), [tax rate](../../Common/Management/TaxRates.md), serial number behavior, or [packaging](Packaging.md) options—to ensure consistent tracking and usage across all warehouse and production workflows. This code list contains all repro materials used by your organization.
 
 > [!TIP]
 > For a full demonstration, see the **[Repro materials](https://www.youtube.com/watch?v=ZRUwbQrAolU)** video tutorial.
@@ -10,8 +10,8 @@ Each repro material includes important attributes—such as [measure units](../.
 > [!NOTE]  
 > **Prerequisites**  
 > Before managing repro materials, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../Common/CodeLists/MeasureUnits.md)  
-> - [**Tax rates**](../../Common/CodeLists/TaxRates.md)
+> - [**Measure units**](../../Common/Management/MeasureUnits.md)  
+> - [**Tax rates**](../../Common/Management/TaxRates.md)
 
 To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [navigation](../../Common/UI/Navigation.md).
 

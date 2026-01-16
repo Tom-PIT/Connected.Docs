@@ -10,12 +10,12 @@ To access this screen, go to **Maintenance / Resource work hours & counters** in
 
 ## Overview
 
-Each row represents a **counter** associated with a specific piece of equipment and a specific [measure unit](../../Common/CodeLists/MeasureUnits.md).
+Each row represents a **counter** associated with a specific piece of equipment and a specific [measure unit](../../Common/Management/MeasureUnits.md).
 
 The list shows:
-- **Equipment** – The resource being tracked
-- **Last updated** – Date and time of the last value change
-- **Value** – Current counter value
+- **Equipment** â€“ The resource being tracked
+- **Last updated** â€“ Date and time of the last value change
+- **Value** â€“ Current counter value
 
 Filters on the left allow narrowing the list by:
 - **Measure unit**
@@ -30,9 +30,9 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new c
 ![Add resource counter](../Images/ResourceWorkHoursCountersNew.png "Add resource counter")
 
 Provide:
-- **Measure unit** – Unit used for the counter (for example *Piece*, *Hour*, *Liter*)
-- **Equipment** – Equipment for which the counter is tracked
-- **Value** – Initial counter value
+- **Measure unit** â€“ Unit used for the counter (for example *Piece*, *Hour*, *Liter*)
+- **Equipment** â€“ Equipment for which the counter is tracked
+- **Value** â€“ Initial counter value
 
 Click **Add** to create the counter.
 
@@ -63,7 +63,7 @@ When a maintenance order is configured with:
 
 The system compares the **current counter value** with the defined schedule interval to determine when a new maintenance order should be generated.
 
-### Example – Count-based maintenance
+### Example â€“ Count-based maintenance
 
 The following example illustrates how resource counters are used to trigger maintenance orders.
 

@@ -1,4 +1,4 @@
-﻿# Expenses
+# Expenses
 
 The **Expenses** code list contains all costs that your organization wants to register as predefined expenses. These can include recurring services, equipment-related costs, subcontractor fees, or any non-material cost that needs to be referenced in supply or production processes.
 
@@ -12,9 +12,9 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 |-------|-------------|
 | **Code** | Unique identifier of the expense. |
 | **Name** | Descriptive name of the expense. |
-| **[Tax rate](../../Common/CodeLists/TaxRates.md)** | Tax rate applied to the expense. |
+| **[Tax rate](../../Common/Management/TaxRates.md)** | Tax rate applied to the expense. |
 | **Enabled** | Indicates whether the expense is available for use in documents. |
-| **Subcontractor** | Business partner providing the subcontracted service, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
+| **Subcontractor** | Business partner providing the subcontracted service, selected from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Cost per unit (€)** | Cost of this subcontracted operation per unit. |
 | **Operations** | List of operations associated with this subcontractor cost. |
 
@@ -22,7 +22,7 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 
 | Field | Description |
 |-------|-------------|
-| [**Processes**](../../Production/CodeLists/Processes.md) | Process in which the operation is used. |
+| [**Processes**](../../Production/Management/Processes.md) | Process in which the operation is used. |
 | **Version** | Version of the selected process. |
 | **Operation** | Specific operation belonging to the selected process and version. |
 

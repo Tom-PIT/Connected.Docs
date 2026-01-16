@@ -1,4 +1,4 @@
-﻿# Supply
+# Supply
 
 The **Supply** domain manages all processes related to procurement, supplier interactions, and inbound material planning. It includes supplier inquiries, supply orders, planning tools, and analytical views that help maintain optimal stock levels and ensure timely replenishment.
 
@@ -31,7 +31,7 @@ The **Documents** section contains procurement-related documents used to request
 Available documents include:
 
 - **[Inquiries](../Documents/Inquiries.md)** – Requests sent to suppliers asking for quotations or availability. These do not affect stock and can typically be converted to supply orders via linked documents.
-- **[Supply orders](../Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Numbering is configured in the [Supply configuration](../CodeLists/SupplyConfiguration.md). Receipts are registered in **Logistics** using [Receives](../../Logistics/Documents/Receives.md).
+- **[Supply orders](../Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Numbering is configured in the [Supply configuration](../Management/SupplyConfiguration.md). Receipts are registered in **Logistics** using [Receives](../../Logistics/Documents/Receives.md).
 
 These documents initiate the procurement workflow and provide full traceability of supplier activity.
 
@@ -40,7 +40,7 @@ These documents initiate the procurement workflow and provide full traceability 
 
 ## Supply stock boundaries planning
 
-The **[Supply stock boundaries planning](../Documents/SupplyStockBoundariesPlanning.md)** section provides planning tools based on stock boundary rules and material replenishment thresholds. Stock boundary rules are defined in **Logistics** under [Stock boundaries](../../Logistics/CodeLists/StockBoundaries.md).
+The **[Supply stock boundaries planning](../Documents/SupplyStockBoundariesPlanning.md)** section provides planning tools based on stock boundary rules and material replenishment thresholds. Stock boundary rules are defined in **Logistics** under [Stock boundaries](../../Logistics/Management/StockBoundaries.md).
 
 It supports proactive planning and prevents stockouts or overstocking.
 
@@ -65,16 +65,16 @@ The **Management** section contains configuration and master data required by pr
 
 Available configuration and code lists include:
 
-- **[Configuration](../CodeLists/SupplyConfiguration.md)** – Supply settings and procurement rules, including document numbering for supply orders.  
-- **[Supplier materials](../CodeLists/SupplierMaterials.md)** – Mapping of which suppliers can provide which materials; may include lead times, MOQs, and price sources.  
-- **[Expenses](../CodeLists/Expenses.md)** – Expense categories (e.g., freight, customs) used on supply orders; affect the total procurement cost.  
-- **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Supplier and partner records.  
-- **[Cost centers](../../Common/CodeLists/CostCenters.md)** – Financial allocation of procurement expenses.  
-- **[Currencies](../../Common/CodeLists/Currencies.md)** – Currency definitions used in quotations and supply orders.  
-- **[Predefined texts](../../Common/CodeLists/PredefinedTexts.md)** – Standard text blocks used in procurement documents.  
-- **[Countries](../../Common/CodeLists/Countries.md)** – Geographic information used in supplier profiles.  
-- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Measurement units used across supply documents.  
-- **[Tax rates](../../Common/CodeLists/TaxRates.md)** – Tax definitions applied during procurement.
+- **[Configuration](../Management/SupplyConfiguration.md)** – Supply settings and procurement rules, including document numbering for supply orders.  
+- **[Supplier materials](../Management/SupplierMaterials.md)** – Mapping of which suppliers can provide which materials; may include lead times, MOQs, and price sources.  
+- **[Expenses](../Management/Expenses.md)** – Expense categories (e.g., freight, customs) used on supply orders; affect the total procurement cost.  
+- **[Business directory](../../Common/Management/BusinessDirectory.md)** – Supplier and partner records.  
+- **[Cost centers](../../Common/Management/CostCenters.md)** – Financial allocation of procurement expenses.  
+- **[Currencies](../../Common/Management/Currencies.md)** – Currency definitions used in quotations and supply orders.  
+- **[Predefined texts](../../Common/Management/PredefinedTexts.md)** – Standard text blocks used in procurement documents.  
+- **[Countries](../../Common/Management/Countries.md)** – Geographic information used in supplier profiles.  
+- **[Measure units](../../Common/Management/MeasureUnits.md)** – Measurement units used across supply documents.  
+- **[Tax rates](../../Common/Management/TaxRates.md)** – Tax definitions applied during procurement.
 
 These elements determine how the procurement processes behave and how supply-related data is structured.
 
@@ -92,7 +92,7 @@ A [supply order](../Documents/SupplyOrders.md) is created and issued based on ma
 Goods are delivered by suppliers and processed through **Logistics** [**Receives**](../../Logistics/Documents/Receives.md).
 
 ### **4. Planning & Replenishment**  
-[**Stock boundaries**](../../Logistics/CodeLists/StockBoundaries.md) and planning views (see [**Supply stock boundaries planning**](../Documents/SupplyStockBoundariesPlanning.md)) help determine when new procurement cycles should begin.
+[**Stock boundaries**](../../Logistics/Management/StockBoundaries.md) and planning views (see [**Supply stock boundaries planning**](../Documents/SupplyStockBoundariesPlanning.md)) help determine when new procurement cycles should begin.
 
 ### **5. Analysis**  
 Views provide insights into supplier performance, order timelines, and overall procurement efficiency.

@@ -1,4 +1,4 @@
-﻿# Navigation
+# Navigation
 
 The platform is organized so you can easily find documents, views, and configuration areas based on your daily work. Navigation happens mainly through the **Sitemap**, breadcrumbs, and quick access buttons.
 
@@ -102,15 +102,15 @@ The **Management** section contains all master data and code lists that support 
 Management includes items such as:
 
 - Configuration  
-- **[Business directory](../CodeLists/BusinessDirectory.md)**  
-- **[Banks & payment methods](../../Sales/CodeLists/PaymentMethods.md)**  
-- **[Countries](../CodeLists/Countries.md)**, **[currencies](../CodeLists/Currencies.md)**, **[tax rates](../CodeLists/TaxRates.md)**  
-- **[Predefined texts](../CodeLists/PredefinedTexts.md)**  
-- **[Measure units](../CodeLists/MeasureUnits.md)**  
-- **[Organization bank accounts](../../Sales/CodeLists/OrganizationBankAccounts.md)**  
-- **[Processes](../../Production/CodeLists/Processes.md)**
-- **[Inputs](../../Production/CodeLists/Inputs.md)**, **[Outputs](../../Production/CodeLists/Outputs.md)**
-- **[Job positions](../../Production/CodeLists/JobPositions.md)**, **[Human resources](../../Production/CodeLists/HumanResources.md)**
+- **[Business directory](../Management/BusinessDirectory.md)**  
+- **[Banks & payment methods](../../Sales/Management/PaymentMethods.md)**  
+- **[Countries](../Management/Countries.md)**, **[currencies](../Management/Currencies.md)**, **[tax rates](../Management/TaxRates.md)**  
+- **[Predefined texts](../Management/PredefinedTexts.md)**  
+- **[Measure units](../Management/MeasureUnits.md)**  
+- **[Organization bank accounts](../../Sales/Management/OrganizationBankAccounts.md)**  
+- **[Processes](../../Production/Management/Processes.md)**
+- **[Inputs](../../Production/Management/Inputs.md)**, **[Outputs](../../Production/Management/Outputs.md)**
+- **[Job positions](../../Production/Management/JobPositions.md)**, **[Human resources](../../Production/Management/HumanResources.md)**
 - Other critical code lists  
 
 Example — **Sales / Management**:

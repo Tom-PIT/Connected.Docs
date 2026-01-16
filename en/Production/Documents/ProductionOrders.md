@@ -1,4 +1,4 @@
-﻿# Production orders
+# Production orders
 
 Production orders define the work required to manufacture products according to a selected process and version.  
 They move through the life cycle **Draft → Pending → Active → Closed**, and can include multiple operations, resources, inputs, outputs, and quality checks based on the assigned process.
@@ -7,9 +7,9 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 > **Prerequisites**  
 > 
 >Before creating a new production order, ensure that the following are configured:
-> - At least one **[Process](../CodeLists/Processes.md)** with an active **version**
-> - Assigned **[Organization units](../CodeLists/OrganizationUnits.md)** for production  
-> - Optional supporting definitions such as **[resources](../CodeLists/Resources.md)**, **[downtime tags](../CodeLists/DowntimeTags.md)**, **[loss classification tags](../CodeLists/LossClassificationTags.md)** and **[checklists](../CodeLists/Checklists.md)** depending on your workflow (recommended)
+> - At least one **[Process](../Management/Processes.md)** with an active **version**
+> - Assigned **[Organization units](../Management/OrganizationUnits.md)** for production  
+> - Optional supporting definitions such as **[resources](../Management/Resources.md)**, **[downtime tags](../Management/DowntimeTags.md)**, **[loss classification tags](../Management/LossClassificationTags.md)** and **[checklists](../Management/Checklists.md)** depending on your workflow (recommended)
 
 
 > [!TIP]
@@ -49,12 +49,12 @@ Choose the **Material type** (e.g., Products or Semi products), then select the 
 
 ### **Step 2 — Select process**
 
-Choose the **[Process](../CodeLists/Processes.md)** and **Process version** that defines how the material will be produced.
+Choose the **[Process](../Management/Processes.md)** and **Process version** that defines how the material will be produced.
 
 ![Step 2](../Images/ProductionOrdersNewStep2.1.png "Step 2 - Select process")
 
 > [!NOTE]
-> If no processes are listed in this step, verify configuration in the **[Processes](../CodeLists/Processes.md)** code list. Ensure the process includes the “Production” tag and has an active version. Missing the tag is a common reason the process does not appear here.
+> If no processes are listed in this step, verify configuration in the **[Processes](../Management/Processes.md)** code list. Ensure the process includes the “Production” tag and has an active version. Missing the tag is a common reason the process does not appear here.
 
 ### **Step 3 — Provide additional information**
 

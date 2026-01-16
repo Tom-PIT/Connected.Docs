@@ -1,4 +1,4 @@
-﻿# Issues
+# Issues
 
 An **Issue** document is used to record goods that come out your warehouse, for example, to be delivered to a customer. When finished products, materials, or packaged items leave the warehouse as part of a customer delivery, the Issue document captures all relevant details. Examples include issuing **furniture to a customer**, **shipping spare parts**, or **delivering packaged goods** as part of a sales order.
 
@@ -17,18 +17,18 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the issue document. |
 | **Document date** | Date when the issue document is created. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse from which the materials are issued (mandatory). |
-| **Customer** | Customer receiving the goods , selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse from which the materials are issued (mandatory). |
+| **Customer** | Customer receiving the goods , selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Notes** | Additional remarks related to the document. |
 
 ### Detail section
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | Material being issued ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | Material being issued ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
 | **Serial number** | Selected serial number of the material being issued. |
 | **Best before** | Expiration date (if the material has shelf life). |
-| [**Warehouse location**](../CodeLists/Locations.md) | Current storage location of the selected item. |
+| [**Warehouse location**](../Management/Locations.md) | Current storage location of the selected item. |
 | **Quantity (pc)** | Quantity being issued. |
 
 ## List of issue documents

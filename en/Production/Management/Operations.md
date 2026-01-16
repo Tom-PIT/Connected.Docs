@@ -28,7 +28,7 @@ To access operations:
 | **Default organization unit** | Assigns the organizational unit responsible for the operation. |
 | **Article** | Adds an article from the [Knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) to the version and provide more detailed instructions, descriptions, or images. Enter the article title or select it from the dropdown menu. (optional). |
 | **Tags** | Optional tags for grouping or categorizing operations. |
-| **[**Expense**](../../Supply/CodeLists/Expenses.md)** | Expense category linked to this operation. |
+| **[**Expense**](../../Supply/Management/Expenses.md)** | Expense category linked to this operation. |
 
 ## List view
 

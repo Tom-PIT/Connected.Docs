@@ -3,12 +3,12 @@
 # Receives
 
 A **Receive** document is used to record the arrival of materials into your warehouse. When goods physically arrive from a supplier or another location, you create a receive document to register them in the system. Examples include receiving:
-- [**Products**](../../Assets/CodeLists/Products.md)  
-- [**Semi products**](../../Assets/CodeLists/SemiProducts.md)  
-- [**Repro materials**](../../Assets/CodeLists/ReproMaterials.md)  
-- [**Raw materials**](../../Assets/CodeLists/RawMaterials.md)
+- [**Products**](../../Assets/Management/Products.md)  
+- [**Semi products**](../../Assets/Management/SemiProducts.md)  
+- [**Repro materials**](../../Assets/Management/ReproMaterials.md)  
+- [**Raw materials**](../../Assets/Management/RawMaterials.md)
 
-The receive process captures key information such as the material, [packaging](../../Assets/CodeLists/Packaging.md), quantity, serial numbers, best-before dates, and [storage location](../CodeLists/Locations.md). This ensures that stock levels are accurate and that all items are properly tracked from the moment they enter the warehouse.
+The receive process captures key information such as the material, [packaging](../../Assets/Management/Packaging.md), quantity, serial numbers, best-before dates, and [storage location](../Management/Locations.md). This ensures that stock levels are accurate and that all items are properly tracked from the moment they enter the warehouse.
 
 > [!TIP]
 > For a full demonstration, see the [**Receive**](https://www.youtube.com/watch?v=oTOYD-nlCqE) video tutorial.
@@ -23,8 +23,8 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the receive document. |
 | **Document date** | Date when the goods were physically received. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the materials are being received (mandatory). |
-| **Vendor** | Supplier delivering the goods, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse where the materials are being received (mandatory). |
+| **Vendor** | Supplier delivering the goods, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | [**Supply order**](../../Supply/Documents/SupplyOrders.md) | (Optional) Linked supply order. |
 | **Notes** | Additional remarks related to the document. |
 
@@ -32,11 +32,11 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | Material being received ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | Material being received ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
 | **EAN** | Packaging or unit barcode. |
 | **Net weight / Gross weight (kg)** | Weight information stored in the system or scanned. |
 | **Dimensions (whd, mm)** | Width, height, and depth of the package. |
-| [**Warehouse location**](../CodeLists/Locations.md) | Storage location where the unit will be placed. |
+| [**Warehouse location**](../Management/Locations.md) | Storage location where the unit will be placed. |
 | **Serial number** | Serial number scanned or generated. |
 | **Best before** | Expiration date (for materials with shelf life). |
 | **Packaging quantity (pc)** | Quantity represented by a single packaging unit. |

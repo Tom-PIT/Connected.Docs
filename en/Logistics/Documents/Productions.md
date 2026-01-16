@@ -2,7 +2,7 @@
 
 A **Production** document records items that were produced during the execution of a **Production order**. Production documents are created automatically from the [**Execution**](../../Production/Documents/Execution.md) module when a production worker records produced outputs. They increase stock for the produced items and provide traceability of what was made.
 
-For the production‑side entry of outputs, see **[Execution](../../Production/Documents/Execution.md)** (Outputs). Outputs are closely linked with this page: recording produced items in production creates the corresponding production document in logistics. For defining outputs on processes, see **[Outputs](../../Production/CodeLists/Outputs.md)**.
+For the production‑side entry of outputs, see **[Execution](../../Production/Documents/Execution.md)** (Outputs). Outputs are closely linked with this page: recording produced items in production creates the corresponding production document in logistics. For defining outputs on processes, see **[Outputs](../../Production/Management/Outputs.md)**.
 
 To access this page, go to **Logistics / Documents / Productions** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -14,13 +14,13 @@ To access this page, go to **Logistics / Documents / Productions** in the [navig
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Unique identifier of the production document (system‑generated). |
 | **Created** | Timestamp when the document was created. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the produced items were posted. |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse where the produced items were posted. |
 
 ### Detail section
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | Produced item (typically a [product](../../Assets/CodeLists/Products.md) or [semi product](../../Assets/CodeLists/SemiProducts.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | Produced item (typically a [product](../../Assets/Management/Products.md) or [semi product](../../Assets/Management/SemiProducts.md)). |
 | **Quantity** | Produced quantity recorded for the material line. |
 
 ## List of production documents

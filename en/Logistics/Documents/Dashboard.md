@@ -1,9 +1,9 @@
-﻿# Dashboard
+# Dashboard
 
 The **Dashboard** gives you a quick overview of the current stock situation across all materials. It highlights important conditions such as materials that are **below minimum stock**, **above maximum stock**, **out of stock**, or **blocked**. This allows you to immediately spot potential issues and take action where needed.
 
 You can search for any material directly from the dashboard and open its **Stock view** to see stock levels, locations, movements, and serial number details.  
-Minimum and maximum thresholds can be defined in the **[Stock boundaries](../CodeLists/StockBoundaries.md)** code list.
+Minimum and maximum thresholds can be defined in the **[Stock boundaries](../Management/StockBoundaries.md)** code list.
 
 > [!TIP]
 > For a full demonstration, see the **[Dashboard overview](https://www.youtube.com/watch?v=mEU18GmypkY)** video tutorial.
@@ -19,12 +19,12 @@ The dashboard displays four main indicators. Clicking any indicator updates the 
 ### Below Minimum  
 Materials with stock quantity lower than the defined **minimum stock level**.  
 
-Minimum values are configured in **[Stock boundaries](../CodeLists/StockBoundaries.md)**.
+Minimum values are configured in **[Stock boundaries](../Management/StockBoundaries.md)**.
 
 ### Over Maximum  
 Materials with stock quantity higher than the defined **maximum stock level**.  
 
-Maximum values are configured in **[Stock boundaries](../CodeLists/StockBoundaries.md)**.
+Maximum values are configured in **[Stock boundaries](../Management/StockBoundaries.md)**.
 
 ### Out of Stock  
 Materials that currently have **zero available stock**.

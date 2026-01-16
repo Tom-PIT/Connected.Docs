@@ -28,25 +28,25 @@ Retail proforma invoices **do not affect inventory**.
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the document. |
 | **Purchase order code** | Optional reference provided by the customer. |
-| **Customer** | Mandatory. Selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md). Only entities classified as **Customer** and **Person** are available. |
+| **Customer** | Mandatory. Selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md). Only entities classified as **Customer** and **Person** are available. |
 | **Issue date** | Date when the document is created. |
 | **Delivery date** | Delivery or pickup date. |
 | **Due date** | Payment deadline (mandatory). |
 | **Reference type** | Type of payment reference (mandatory). |
 | **Reference number** | Reference number used on payment documents. |
-| **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)** | Account where payments are received (mandatory). |
-| **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional cost allocation. |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Account where payments are received (mandatory). |
+| **[Cost center](../../Common/Management/CostCenters.md)** | Optional cost allocation. |
 | **Purpose code** | Optional purpose classification. |
 | **Rebate** | Overall rebate applied to the document. |
 | **Delivery** | Delivery company and address information. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/CodeLists/Assets.md) | Item or service being sold. |
+| [**Asset**](../../Assets/Management/Assets.md) | Item or service being sold. |
 | **Quantity** | Quantity of the asset (default: **1**). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |
@@ -92,11 +92,11 @@ Retail proforma invoices can only be created manually.
 
    ![New retail proforma invoice](../Images/RetailProformaInvoiceNew.png)
 
-2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) are available.
+2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/Management/BusinessDirectory.md) are available.
 
    ![Customer classification](../../Common/Images/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
 
-3. Fill in mandatory header fields: **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)**.
+3. Fill in mandatory header fields: **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../Management/OrganizationBankAccounts.md)**.
 
 4. Add items in the **Details** section by typing or scanning a serial number, EAN, or asset name.
 
