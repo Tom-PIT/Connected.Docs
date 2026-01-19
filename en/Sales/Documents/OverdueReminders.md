@@ -1,4 +1,4 @@
-﻿# Overdue reminders
+# Overdue reminders
 
 An **Overdue reminder** is a sales document used to notify customers about unpaid invoices and request payment, optionally including reminder costs and interest.
 
@@ -19,7 +19,7 @@ A typical flow:
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the overdue reminder. |
 | **Title** | The document title. Defaults to "Overdue reminder". |
-| **Customer** | The customer to whom the reminder is sent, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | The customer to whom the reminder is sent, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the reminder is created. |
 | **Reminder cost** | Fixed cost for sending the reminder (e.g., administrative fee). Can be applied per document or per detail. |
 | **Details** | List of overdue items linked to [**Issued invoices**](IssuedInvoices.md) with amounts and optional interest. |

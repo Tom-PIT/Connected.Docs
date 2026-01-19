@@ -12,7 +12,7 @@ Aktivnost **Zastoj** beleži prekinitve med izvajanjem operacije (npr. čakanje 
 2. Kliknite **Zaženi zastoj**, da začnete beleženje prekinitve.  
 3. Kliknite **Ustavi zastoj**, ko se prekinitev konča.  
 4. Kliknite zapis zastoja za:
-    1. izbiro razloga z uporabo **oznak zastojev** – glejte [Oznake zastojev](../Sifranti/OznakeZastojev.md),  
+    1. izbiro razloga z uporabo **oznak zastojev** – glejte [Oznake zastojev](../Upravljanje/OznakeZastojev.md),  
     2. prilagoditev začetnega in končnega časa po potrebi,  
     3. dodajanje opreme, na katero je zastoj vplival (neobvezno).
 5. Shranite.

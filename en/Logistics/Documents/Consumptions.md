@@ -1,4 +1,4 @@
-﻿# Consumptions
+# Consumptions
 
 A **Consumption** document records materials that were consumed during the execution of a **Production order**. Consumption documents are created automatically from the [**Execution**](../../Production/Documents/Execution.md) module when a production worker records material consumption. They reduce stock for the consumed materials and provide traceability of what was used. 
 
@@ -14,13 +14,13 @@ To access this page, go to **Logistics / Documents / Consumptions** in the [navi
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Unique identifier of the consumption document (system-generated). |
 | **Created** | Timestamp when the document was created. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the consumed materials were taken from. |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse where the consumed materials were taken from. |
 
 ### Detail section
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | Consumed material ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | Consumed material ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
 | **Source** | Source identifier of the consumed item (for example, a serial number or packaging code, depending on the material tracking method). |
 | **Quantity** | Consumed quantity recorded for the material line. |
 

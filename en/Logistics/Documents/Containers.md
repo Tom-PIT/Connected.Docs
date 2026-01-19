@@ -1,4 +1,4 @@
-﻿# Containers
+# Containers
 
 A container groups one or more items under a single serial code (often an SSCC – Serial Shipping Container Code). This lets you pack, move, and scan a whole set at once without opening it. Items placed in a container are reserved to that container and cannot be used in other transactions until the container is dissolved or items are removed.
 
@@ -14,9 +14,9 @@ To access this page, go to **Logistics / Documents / Containers** in the [naviga
 | Field | Description |
 |---|---|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Unique SSCC container identifier (a system‑generated code with this structure: CTR‑YYYY‑NNNNNNNN). |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse where the container resides. |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse where the container resides. |
 | **Document date** | Date the container document was created. |
-| [**Location**](../CodeLists/Locations.md) | Warehouse location (e.g., Rack/Shelf). |
+| [**Location**](../Management/Locations.md) | Warehouse location (e.g., Rack/Shelf). |
 
 ### Detail section
 

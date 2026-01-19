@@ -1,4 +1,4 @@
-﻿# Loss summary
+# Loss summary
 
 The Loss summary page provides an overview of defective or unusable items recorded during production within a selected time period. It helps identify the most common loss types and evaluate their impact on production quality.
 
@@ -43,7 +43,7 @@ This chart helps identify major sources of quality issues and supports Pareto-st
 
 Under the chart, a detailed breakdown lists each loss classification along with the number of defective units recorded for that category.
 
-Example categories may include any custom classifications defined in [**Loss classification tags**](../CodeLists/LossClassificationTags.md)
+Example categories may include any custom classifications defined in [**Loss classification tags**](../Management/LossClassificationTags.md)
 
 Selecting a row may provide more context depending on system configuration.
 

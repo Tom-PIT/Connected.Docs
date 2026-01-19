@@ -28,25 +28,25 @@ Bremepisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator bremepisa. |
 | **Številka naročilnice** | Neobvezna referenca na naročilo stranke. |
-| **Stranka** | Stranka, ki ji je zaračunan bremepis, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Stranka** | Stranka, ki ji je zaračunan bremepis, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum izdaje bremepisa. |
 | **Datum opravljene storitve** | Prvotni datum dobave zaračunanega blaga ali storitev. |
 | **Datum zapadlosti** | Datum, ko dodatni znesek zapade v plačilo (obvezno). |
 | **Tip reference** | Vrsta uporabljenega plačilnega sklica (obvezno). |
 | **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
-| [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Bančni račun, na katerega se prejme plačilo (obvezno). |
-| [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
+| [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Bančni račun, na katerega se prejme plačilo (obvezno). |
+| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezna oznaka ali razlog za bremepis. |
 | **Rabat** | Skupni rabat, uporabljen na bremepis (če je primerno). |
-| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
+| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Dostava** | Podatki o podjetju in naslovu dobave. |
-| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
+| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
 ### Polja postavk
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Zaračunano blago ali storitev. |
+| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Zaračunano blago ali storitev. |
 | **Količina** | Zaračunana količina (pozitivna vrednost). |
 | **Neto cena** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

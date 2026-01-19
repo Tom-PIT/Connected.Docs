@@ -7,9 +7,9 @@ Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Z
 > **Predpogoji**  
 >
 > Pred ustvarjanjem novega proizvodnega naloga zagotovite, da je naslednje že nastavljeno:
-> - Vsaj en **[Proces](../Sifranti/Procesi.md)** z aktivno **verzijo**
-> - Dodeljene **[Organizacijske enote](../../Skupno/Sifranti/PoslovneEnote.md)** za proizvodnjo  
-> - Po potrebi dodatne definicije, kot so **[viri](../Sifranti/Viri.md)**, **[oznake zastojev](../Sifranti/OznakeZastojev.md)**, **[oznake klasifikacije slabega kosa](../Sifranti/OznakeKlasifikacijeSlabegaKosa.md)** in **[kontrolne liste](../Sifranti/KontrolneListe.md)** glede na potek dela (priporočeno)
+> - Vsaj en **[Proces](../Upravljanje/Procesi.md)** z aktivno **verzijo**
+> - Dodeljene **[Organizacijske enote](../../Skupno/Upravljanje/PoslovneEnote.md)** za proizvodnjo  
+> - Po potrebi dodatne definicije, kot so **[viri](../Upravljanje/Viri.md)**, **[oznake zastojev](../Upravljanje/OznakeZastojev.md)**, **[oznake klasifikacije slabega kosa](../Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)** in **[kontrolne liste](../Upravljanje/KontrolneListe.md)** glede na potek dela (priporočeno)
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Proizvodni nalog](https://www.youtube.com/watch?v=q4UjiYpWph8)**.
@@ -46,12 +46,12 @@ Izberite **Tip materiala** (npr. Izdelki ali Polizdelki), nato izberite konkrete
 
 ### **2. korak — Izberi proces**
 
-Izberite **[Proces](../Sifranti/Procesi.md)** in **verzijo procesa**, ki določa način izdelave materiala.
+Izberite **[Proces](../Upravljanje/Procesi.md)** in **verzijo procesa**, ki določa način izdelave materiala.
 
 ![2. korak](../Images/ProductionOrdersNewStep2.1.png "2. korak – Izbira procesa")
 
 > [!NOTE]
-> Če v tem koraku ni prikazan noben proces, preverite nastavitve v šifrantu **[Procesi](../Sifranti/Procesi.md)**.  
+> Če v tem koraku ni prikazan noben proces, preverite nastavitve v šifrantu **[Procesi](../Upravljanje/Procesi.md)**.  
 > Prepričajte se, da ima proces oznako »Proizvodnja« in aktivno verzijo. Manjkajoča oznaka je pogost razlog, da se proces tukaj ne prikaže.
 
 ### **3. korak — Podaj dodatne informacije**
@@ -126,7 +126,7 @@ Ko je nalog pripravljen za proizvodnjo, kliknite **Aktiviraj**.
 
 Na proizvodni nalog lahko pripnete druge povezane dokumente, kot so:
 
-- [**Projekti**](../../Projekti/Domena/Projekti.md)  
+- [**Projekti**](../../Projekti/Domena/DomenaProjekti.md)  
 - [**Nabavni nalogi**](../../Nabava/Dokumenti/NabavniNalogi.md)
 - [**Povpraševanja**](../../Nabava/Dokumenti/Povprasevanja.md)
 - Drugi proizvodni nalogi (povezani ali kot vhodni)

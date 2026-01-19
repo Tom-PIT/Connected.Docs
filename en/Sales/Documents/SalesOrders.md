@@ -29,14 +29,14 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the sales order. |
-| **Customer** | Customer receiving the order, taken from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer receiving the order, taken from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the sales order is created. |
 | **Delivery date** | Expected delivery date for the order (mandatory). |
 | **Rebate** | Optional discount applied to the entire sales order. |
 | **Purchase order** | Optional reference to a related [supply order](../../Supply/Documents/SupplyOrders.md). |
-| **Delivery – Company / Address** | Customer delivery details, taken from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
+| **Delivery – Company / Address** | Customer delivery details, taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Details** | List of items (assets) being sold, with delivery dates, pricing, quantities, and taxes (mandatory). |
-| [**Payment methods**](../CodeLists/PaymentMethods.md) | Payment options connected to the sales order. |
+| [**Payment methods**](../Management/PaymentMethods.md) | Payment options connected to the sales order. |
 
 ### Detail fields
 
@@ -47,7 +47,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Quantity** | Quantity of the selected asset. |
 | **Net price (per unit)** | Unit price applied (from asset settings or price lists). |
 | **Discount (%)** | Line-specific discount. |
-| **[Tax rates](../../Common/CodeLists/TaxRates.md)** | Applied tax percentage. |
+| **[Tax rates](../../Common/Management/TaxRates.md)** | Applied tax percentage. |
 | **Value** | Final line value (quantity × price − discount). |
 
 ## Management

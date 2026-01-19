@@ -31,7 +31,7 @@ Razdelek **Dokumenti** vsebuje nabavne dokumente, ki se uporabljajo za povpraše
 Razpoložljivi dokumenti vključujejo:
 
 - **[Povpraševanja](../Dokumenti/Povprasevanja.md)** – Povpraševanja, poslana dobaviteljem za pridobitev cen, razpoložljivosti ali dobavnih rokov. Ne vplivajo na zalogo in jih je mogoče pretvoriti v nabavne naloge preko povezanih dokumentov.
-- **[Nabavni nalogi](../Dokumenti/NabavniNalogi.md)** – Potrjeni nalogi, izdani dobaviteljem za blago ali storitve. Številčenje se nastavlja v [Konfiguraciji nabave](../Sifranti/KonfiguracijaNabave.md). Prevzemi se evidentirajo v **Logistiki** preko dokumentov [Prevzemi](../../Logistika/Dokumenti/Prevzemi.md).
+- **[Nabavni nalogi](../Dokumenti/NabavniNalogi.md)** – Potrjeni nalogi, izdani dobaviteljem za blago ali storitve. Številčenje se nastavlja v [Konfiguraciji nabave](../Upravljanje/KonfiguracijaNabave.md). Prevzemi se evidentirajo v **Logistiki** preko dokumentov [Prevzemi](../../Logistika/Dokumenti/Prevzemi.md).
 
 Ti dokumenti predstavljajo osnovo nabavnega procesa in omogočajo popolno sledljivost aktivnosti z dobavitelji.
 
@@ -40,7 +40,7 @@ Ti dokumenti predstavljajo osnovo nabavnega procesa in omogočajo popolno sledlj
 
 ## Planiranje nabave po mejah zaloge
 
-Razdelek **[Planiranje nabave po mejah zaloge](../Dokumenti/PlaniranjeNabavePoMejahZaloge.md)** nudi orodja za planiranje na podlagi pravil mej zaloge in pragov za obnovo materialov. Pravila mej zaloge so določena v **Logistiki** v razdelku [Meje zaloge](../../Logistika/Sifranti/MejeZaloge.md).
+Razdelek **[Planiranje nabave po mejah zaloge](../Dokumenti/PlaniranjeNabavePoMejahZaloge.md)** nudi orodja za planiranje na podlagi pravil mej zaloge in pragov za obnovo materialov. Pravila mej zaloge so določena v **Logistiki** v razdelku [Meje zaloge](../../Logistika/Upravljanje/MejeZaloge.md).
 
 Omogoča proaktivno planiranje ter preprečuje pomanjkanje ali presežke zalog.
 
@@ -57,24 +57,24 @@ Razpoložljivi pregledi vključujejo:
 
 Ti pregledi podpirajo analizo in odločanje, vendar **ne ustvarjajo** transakcij.
 
-## Šifranti
+## Upravljanje
 
-Razdelek **Šifranti** vsebuje konfiguracijo in osnovne podatke, potrebne za delovanje nabavnih procesov.
+Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, potrebne za delovanje nabavnih procesov.
 
 ![Šifranti nabave](../Images/SupplyDomainManagement.png "Šifranti nabave")
 
 Razpoložljive nastavitve in šifranti vključujejo:
 
-- **[Konfiguracija nabave](../Sifranti/KonfiguracijaNabave.md)** – Nastavitve nabave, vključno s pravili in številčenjem nabavnih nalogov.  
-- **[Materiali dobaviteljev](../Sifranti/MaterialiDobaviteljev.md)** – Povezava med dobavitelji in materiali; lahko vključuje dobavne roke, minimalne količine in cenike.  
-- **[Stroški](../Sifranti/Stroski.md)** – Kategorije stroškov (npr. prevoz, carina), ki vplivajo na skupni strošek nabave.  
-- **[Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md)** – Podatki o dobaviteljih in partnerjih.  
-- **[Stroškovna mesta](../../Skupno/Sifranti/StroskovnaMesta.md)** – Finančna razporeditev nabavnih stroškov.  
-- **[Valute](../../Skupno/Sifranti/Valute.md)** – Definicije valut, uporabljene v nabavnih dokumentih.  
-- **[Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md)** – Standardna besedila v nabavnih dokumentih.  
-- **[Države](../../Skupno/Sifranti/Drzave.md)** – Geografski podatki za profile dobaviteljev.  
-- **[Merske enote](../../Skupno/Sifranti/MerskeEnote.md)** – Enote mere, uporabljene v nabavnih dokumentih.  
-- **[Davčne stopnje](../../Skupno/Sifranti/DavcneStopnje.md)** – Davčne definicije, uporabljene pri nabavi.
+- **[Konfiguracija nabave](../Upravljanje/KonfiguracijaNabave.md)** – Nastavitve nabave, vključno s pravili in številčenjem nabavnih nalogov.  
+- **[Materiali dobaviteljev](../Upravljanje/MaterialiDobaviteljev.md)** – Povezava med dobavitelji in materiali; lahko vključuje dobavne roke, minimalne količine in cenike.  
+- **[Stroški](../Upravljanje/Stroski.md)** – Kategorije stroškov (npr. prevoz, carina), ki vplivajo na skupni strošek nabave.  
+- **[Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md)** – Podatki o dobaviteljih in partnerjih.  
+- **[Stroškovna mesta](../../Skupno/Upravljanje/StroskovnaMesta.md)** – Finančna razporeditev nabavnih stroškov.  
+- **[Valute](../../Skupno/Upravljanje/Valute.md)** – Definicije valut, uporabljene v nabavnih dokumentih.  
+- **[Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** – Standardna besedila v nabavnih dokumentih.  
+- **[Države](../../Skupno/Upravljanje/Drzave.md)** – Geografski podatki za profile dobaviteljev.  
+- **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – Enote mere, uporabljene v nabavnih dokumentih.  
+- **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)** – Davčne definicije, uporabljene pri nabavi.
 
 Ti elementi določajo, kako se nabavni procesi izvajajo in kako so strukturirani nabavni podatki.
 
@@ -92,7 +92,7 @@ Nabavni procesi običajno sledijo strukturiranemu življenjskemu ciklu:
 Dobavljeno blago se obdeluje v **Logistiki** preko dokumentov [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md).
 
 ### **4. Planiranje in obnova zalog**  
-[**Meje zaloge**](../../Logistika/Sifranti/MejeZaloge.md) in planirni pregledi (glej [**Planiranje nabave po mejah zaloge**](../Dokumenti/PlaniranjeNabavePoMejahZaloge.md)) pomagajo določiti, kdaj se začne nov nabavni cikel.
+[**Meje zaloge**](../../Logistika/Upravljanje/MejeZaloge.md) in planirni pregledi (glej [**Planiranje nabave po mejah zaloge**](../Dokumenti/PlaniranjeNabavePoMejahZaloge.md)) pomagajo določiti, kdaj se začne nov nabavni cikel.
 
 ### **5. Analiza**  
 Pregledi omogočajo vpogled v uspešnost dobaviteljev, roke dobave in splošno učinkovitost nabave.

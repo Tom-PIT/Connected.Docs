@@ -29,8 +29,8 @@ These code lists act as foundational building blocks that other domains depend o
 
 These settings define the geographic and organizational context of the company and its documents.
 
-- **[Countries](../CodeLists/Countries.md)** – Defines allowed countries used for addresses, documents, legal formatting, and localization.  
-- **[Business directory](../CodeLists/BusinessDirectory.md)** – Central database of companies, suppliers, and other legal entities.
+- **[Countries](../Management/Countries.md)** – Defines allowed countries used for addresses, documents, legal formatting, and localization.  
+- **[Business directory](../Management/BusinessDirectory.md)** – Central database of companies, suppliers, and other legal entities.
 
 > [!IMPORTANT]  
 > Countries must be configured before setting the organization’s country in **System → Configuration → Organization** or in **Common Types Settings**.
@@ -39,9 +39,9 @@ These settings define the geographic and organizational context of the company a
 
 These settings influence all monetary and financial behavior across domains.
 
-- **[Currencies](../CodeLists/Currencies.md)** – Defines currencies available for the organization.  
-- **[Tax rates](../CodeLists/TaxRates.md)** – VAT or other tax definitions used in sales and procurement.  
-- **[Payment methods](../../Sales/CodeLists/PaymentMethods.md)** – Payment definitions used in Sales and Finance.  
+- **[Currencies](../Management/Currencies.md)** – Defines currencies available for the organization.  
+- **[Tax rates](../Management/TaxRates.md)** – VAT or other tax definitions used in sales and procurement.  
+- **[Payment methods](../../Sales/Management/PaymentMethods.md)** – Payment definitions used in Sales and Finance.  
 
 > [!IMPORTANT]  
 > Currencies must be created here **before** selecting them in:  
@@ -53,7 +53,7 @@ These settings influence all monetary and financial behavior across domains.
 
 Used across assets, materials, sales documents, supply orders, logistics, and production workflows.
 
-- **[Measure units](../CodeLists/MeasureUnits.md)** – Base measurement units used (pieces, kg, m, etc.).  
+- **[Measure units](../Management/MeasureUnits.md)** – Base measurement units used (pieces, kg, m, etc.).  
 
 Correct configuration ensures consistency in quantities, pricing, and stock calculations.
 
@@ -61,9 +61,9 @@ Correct configuration ensures consistency in quantities, pricing, and stock calc
 
 Partner-related records are shared across all commercial workflows.
 
-- **[Business directory](../CodeLists/BusinessDirectory.md)** – Shared directory of customers, suppliers, and business entities.  
-- **[Banks](../CodeLists/BankAccounts.md)** – Bank definitions used in payment instructions.  
-- **[Organization bank accounts](../../Sales/CodeLists/OrganizationBankAccounts.md)** – Internal company bank accounts used for invoicing.
+- **[Business directory](../Management/BusinessDirectory.md)** – Shared directory of customers, suppliers, and business entities.  
+- **[Banks](../Management/BankAccounts.md)** – Bank definitions used in payment instructions.  
+- **[Organization bank accounts](../../Sales/Management/OrganizationBankAccounts.md)** – Internal company bank accounts used for invoicing.
 
 These records ensure consistent identification of business partners across domains.
 
@@ -71,7 +71,7 @@ These records ensure consistent identification of business partners across domai
 
 These values allow consistent formatting and behavior of documents.
 
-- **[Predefined texts](../CodeLists/PredefinedTexts.md)** – Reusable text blocks used in offers, invoices, delivery notes, and supply documents.  
+- **[Predefined texts](../Management/PredefinedTexts.md)** – Reusable text blocks used in offers, invoices, delivery notes, and supply documents.  
 
 ## Why Common code lists must be configured first
 
@@ -79,11 +79,11 @@ Almost all platform workflows depend on Common settings:
 
 | Area | Dependency |
 |------|------------|
-| **System → Configuration** | Needs [Countries](../CodeLists/Countries.md) + [Currencies](../CodeLists/Currencies.md) before setting organization details |
-| **Sales** | Requires [Currencies](../CodeLists/Currencies.md), [Tax rates](../CodeLists/TaxRates.md), [Measure units](../CodeLists/MeasureUnits.md), [Payment methods](../../Sales/CodeLists/PaymentMethods.md) |
-| **Supply** | Requires [Business directory](../CodeLists/BusinessDirectory.md), [Countries](../CodeLists/Countries.md), [Currencies](../CodeLists/Currencies.md) |
-| **Logistics** | Requires [Measure units](../CodeLists/MeasureUnits.md), [Countries](../CodeLists/Countries.md), [Business directory](../CodeLists/BusinessDirectory.md) |
-| **Production** | Uses [Measure units](../CodeLists/MeasureUnits.md) and [Business directory](../CodeLists/BusinessDirectory.md) |
+| **System → Configuration** | Needs [Countries](../Management/Countries.md) + [Currencies](../Management/Currencies.md) before setting organization details |
+| **Sales** | Requires [Currencies](../Management/Currencies.md), [Tax rates](../Management/TaxRates.md), [Measure units](../Management/MeasureUnits.md), [Payment methods](../../Sales/Management/PaymentMethods.md) |
+| **Supply** | Requires [Business directory](../Management/BusinessDirectory.md), [Countries](../Management/Countries.md), [Currencies](../Management/Currencies.md) |
+| **Logistics** | Requires [Measure units](../Management/MeasureUnits.md), [Countries](../Management/Countries.md), [Business directory](../Management/BusinessDirectory.md) |
+| **Production** | Uses [Measure units](../Management/MeasureUnits.md) and [Business directory](../Management/BusinessDirectory.md) |
 
 If the Common module is not configured first, users will encounter:
 

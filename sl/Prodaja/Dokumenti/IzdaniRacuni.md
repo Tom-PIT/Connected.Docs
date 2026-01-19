@@ -21,26 +21,26 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator računa (sistemsko generiran). |
 | **Številka naročila kupca** | Neobvezna referenca na naročilo stranke. |
-| **Stranka** | Prejemnik računa, izbran iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Stranka** | Prejemnik računa, izbran iz šifranta [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum izdaje računa. |
 | **Datum opravljene storitve** | Datum, ko je bilo blago ali storitev dobavljena. |
 | **Datum zapadlosti** | Rok plačila, prikazan stranki (obvezno). |
 | **Tip reference** | Vrsta plačilnega sklica (npr. strukturiran sklic, model) (obvezno). |
 | **Sklic** | Sklicna številka za plačilne dokumente, glede na izbrano vrsto sklica. |
-| [**Bančni računi organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Račun za prejem plačila, izbran iz šifranta bančnih računov organizacije (obvezno). |
-| [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev prihodka na stroškovno mesto. |
+| [**Bančni računi organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Račun za prejem plačila, izbran iz šifranta bančnih računov organizacije (obvezno). |
+| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka na stroškovno mesto. |
 | **Koda namena** | Neobvezna koda namena računa (če je konfigurirana). |
 | **Rabat** | Skupni rabat, uporabljen na celoten znesek računa. |
-| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
+| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Dostava** | Podatki o podjetju in naslovu dobave. |
-| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
-| **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Sifranti/NacinPlacila.md). |
+| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
+| **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Upravljanje/NacinPlacila.md). |
 
 ### Polja postavk
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Zaračunan izdelek ali storitev iz področja Sredstva. |
+| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Zaračunan izdelek ali storitev iz področja Sredstva. |
 | **Količina** | Količina zaračunanega sredstva. |
 | **Cena brez DDV** | Neto cena na enoto, običajno povzeta iz cenikov ali povezanega dokumenta. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

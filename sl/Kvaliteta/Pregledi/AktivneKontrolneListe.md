@@ -16,7 +16,7 @@ Ta pogled ponuja seznam vseh trenutno aktivnih (nedokončanih) kontrolnih seznam
 | **Dokument** | Vrsta in koda izvornega dokumenta: [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) ali [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md). |
 | **Operacija** | Šifra in ime operacije, povezane z izvajanjem kontrolnega seznama. |
 | **Izdelek** | Ime in koda izdelka, povezana z operacijo (v proizvodnih kontekstih). |
-| [**Organizacijska enota**](../../Proizvodnja/Sifranti/OrganizacijskeEnote.md) | Enota, odgovorna za izvajanje (npr. Montaža, Elektro vzdrževanje). |
+| [**Organizacijska enota**](../../Proizvodnja/Upravljanje/OrganizacijskeEnote.md) | Enota, odgovorna za izvajanje (npr. Montaža, Elektro vzdrževanje). |
 | **Oprema** | Prikazano za kontrolne sezname, povezane z vzdrževanjem; oprema, ki se vzdržuje ali preverja. |
 
 ## Seznam aktivnih kontrolnih seznamov

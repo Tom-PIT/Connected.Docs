@@ -1,4 +1,4 @@
-﻿# Writeoffs
+# Writeoffs
 
 A **Writeoff** document is used to record materials that must be removed from stock because they are damaged, lost, expired, or otherwise unusable. Typical examples include discarding **broken items**, **spoiled goods**, or **materials damaged during handling**. A writeoff lets you specify the reason, choose the affected materials, and enter the quantity to remove from stock.
 
@@ -17,17 +17,17 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the writeoff document. |
 | **Document date** | Date when the writeoff is recorded. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | The warehouse from which items are being written off (mandatory). |
+| [**Warehouse**](../Management/Warehouses.md) | The warehouse from which items are being written off (mandatory). |
 | **Reason** | Description of why the material is being removed (damage, loss, expiration, etc.). |
 
 ### Detail section
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | The item being written off ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | The item being written off ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
 | **Serial number** | Serial number of the affected unit. |
 | **Best before** | Expiration date (if applicable). |
-| [**Warehouse location**](../CodeLists/Locations.md) | Location where the material is stored. |
+| [**Warehouse location**](../Management/Locations.md) | Location where the material is stored. |
 | **Quantity (pc)** | Number of pieces being written off. The default value is the total number of available pieces at that location, but you should adjust it to match the real number being removed. |
 
 ## List of writeoff documents

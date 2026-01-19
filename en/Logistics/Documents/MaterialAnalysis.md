@@ -1,6 +1,6 @@
-﻿# Material analysis
+# Material analysis
 
-Material analysis documents list the materials that were received and require analysis or testing based on rules configured in **[Material analysis management](../CodeLists/MaterialAnalysisManagement.md)**. Use this screen to review the required checks, mark materials as passed, and publish the results.
+Material analysis documents list the materials that were received and require analysis or testing based on rules configured in **[Material analysis management](../Management/MaterialAnalysisManagement.md)**. Use this screen to review the required checks, mark materials as passed, and publish the results.
 
 > [!NOTE]
 > Material analysis documents are created automatically when receiving materials that have an analysis configured in **Material analysis management**.

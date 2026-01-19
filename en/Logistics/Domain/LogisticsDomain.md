@@ -1,4 +1,4 @@
-﻿# Logistics
+# Logistics
 
 The **Logistics** domain covers all warehouse-related operations within your organization. It includes stock handling processes, warehouse structures, material movements, and all documentation needed to track the physical flow of goods.
 
@@ -86,14 +86,14 @@ The **Management** section contains configuration and master data required by al
 
 Available code lists and configuration screens:
 
-- **[Configuration](../CodeLists/LogisticsConfiguration.md)** – Logistics-wide settings and process behavior.
-- **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Defines internal and external business entities related to logistics.
-- **[Warehouses](../CodeLists/Warehouses.md)** – Definitions of physical warehouses or distribution sites.
-- **[Countries](../../Common/CodeLists/Countries.md)** – Geographic data supporting warehouse and partner records.
-- **[Locations](../CodeLists/Locations.md)** – Storage positions inside warehouses (aisles, racks, bins).
-- **[Stock boundaries](../CodeLists/StockBoundaries.md)** – Logical constraints and special handling rules (e.g., quarantine, temperature) for selected materials or locations.
-- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Unified measurement units used across logistics documents.
-- **[Material analysis setup](../CodeLists/MaterialAnalysisManagement.md)** – Configuration supporting material inspection or validation processes.
+- **[Configuration](../Management/LogisticsConfiguration.md)** – Logistics-wide settings and process behavior.
+- **[Business directory](../../Common/Management/BusinessDirectory.md)** – Defines internal and external business entities related to logistics.
+- **[Warehouses](../Management/Warehouses.md)** – Definitions of physical warehouses or distribution sites.
+- **[Countries](../../Common/Management/Countries.md)** – Geographic data supporting warehouse and partner records.
+- **[Locations](../Management/Locations.md)** – Storage positions inside warehouses (aisles, racks, bins).
+- **[Stock boundaries](../Management/StockBoundaries.md)** – Logical constraints and special handling rules (e.g., quarantine, temperature) for selected materials or locations.
+- **[Measure units](../../Common/Management/MeasureUnits.md)** – Unified measurement units used across logistics documents.
+- **[Material analysis setup](../Management/MaterialAnalysisManagement.md)** – Configuration supporting material inspection or validation processes.
 
 These elements define how logistics operations behave and how data is structured.
 
@@ -105,7 +105,7 @@ Logistics operations follow a consistent lifecycle:
 - Goods enter the warehouse through [receives](../Documents/Receives.md) or [production outputs](../Documents/Productions.md).
 
 ### **2. Moving and organizing**
-- Goods are stored, relocated, or distributed across warehouses using [inter warehouse](../Documents/InterWarehouse.md), [move serial](../Documents/MoveSerial.md), [move container](../Documents/MoveContainer.md), and [locations](../CodeLists/Locations.md).
+- Goods are stored, relocated, or distributed across warehouses using [inter warehouse](../Documents/InterWarehouse.md), [move serial](../Documents/MoveSerial.md), [move container](../Documents/MoveContainer.md), and [locations](../Management/Locations.md).
 
 ### **3. Issuing and consuming**
 - Stock leaves the warehouse for production, sales, or internal use via [issues](../Documents/Issues.md) and [consumptions](../Documents/Consumptions.md).

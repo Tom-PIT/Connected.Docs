@@ -59,9 +59,9 @@ Primeri:
 
 Način generiranja šifer (predpone, vzorec, dolžina zaporedja, ločeno številčenje ipd.) je v večini domen nastavljen na zaslonu **Konfiguracija** v razdelku **Upravljanje**. Tipični primeri:
 
-- Logistika: [Konfiguracija logistike](../../Logistika/Sifranti/KonfiguracijaLogistike.md)
-- Prodaja: [Konfiguracija prodaje](../../Prodaja/Sifranti/KonfiguracijaProdaje.md)
-- Nabava: [Konfiguracija nabave](../../Nabava/Sifranti/KonfiguracijaNabave.md)
+- Logistika: [Konfiguracija logistike](../../Logistika/Upravljanje/KonfiguracijaLogistike.md)
+- Prodaja: [Konfiguracija prodaje](../../Prodaja/Upravljanje/KonfiguracijaProdaje.md)
+- Nabava: [Konfiguracija nabave](../../Nabava/Upravljanje/KonfiguracijaNabave.md)
 
 ## Kje je šifra prikazana
 

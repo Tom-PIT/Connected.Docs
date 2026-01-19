@@ -16,7 +16,7 @@ This view provides a real-time list of all checklists that are currently active 
 | **Document** | Source document type and code: [Production order](../../Production/Documents/ProductionOrders.md) or [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md). |
 | **Operation** | Operation code and name attached to the checklist execution. |
 | **Product** | Product name and code related to the operation (production contexts). |
-| [**Organization unit**](../../Production/CodeLists/OrganizationUnits.md) | Unit responsible for execution (e.g., Assembly, Electrical maintenance). |
+| [**Organization unit**](../../Production/Management/OrganizationUnits.md) | Unit responsible for execution (e.g., Assembly, Electrical maintenance). |
 | **Equipment** | Appears for maintenance-linked checklists; equipment being maintained/checked. |
 
 
@@ -25,15 +25,15 @@ This view provides a real-time list of all checklists that are currently active 
 ![Active Checklists List](../Images/ActiveChecklistsList.png "Active Checklists List")
 
 At the top of the page, two indicators summarize the current state:
-- **Active checklists** — total number of active checklist executions.
-- **My checklists** — number of active checklist executions assigned to the currently logged-in user.
+- **Active checklists** â€” total number of active checklist executions.
+- **My checklists** â€” number of active checklist executions assigned to the currently logged-in user.
 
 
 ## Filters
 
 Use filters to narrow down the list:
-- **Checklist dates** — filter by start date, due date, or activity date range.
-- **Document type** — limit results to a specific source document:
+- **Checklist dates** â€” filter by start date, due date, or activity date range.
+- **Document type** â€” limit results to a specific source document:
   - [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md)
   - [Production order](../../Production/Documents/ProductionOrders.md)
 

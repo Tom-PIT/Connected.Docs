@@ -1,8 +1,8 @@
-﻿# Stock
+# Stock
 
 The **Stock** page provides a complete overview of material quantities across the system. It shows how many items are available, blocked, or reserved, and lets you quickly find any material by searching or sorting the list. From here, you can open detailed stock views to understand where the material is stored, how it is used, and how it has moved over time.
 
-You can access the **[Stock view by material](#stock-view-by-material)**, **[Stock view by location](#stock-view-by-location)**, or **[Stock view by serial number](#stock-view-by-serial-number)** to explore quantities, locations, movements, and storage history in more depth. Minimum and maximum thresholds that appear in related summaries can be configured in the **[Stock boundaries](../CodeLists/StockBoundaries.md)** code list. The **[Dashboard](Dashboard.md)** also provides shortcuts to stock issues such as missing, overstocked, or out-of-stock materials.
+You can access the **[Stock view by material](#stock-view-by-material)**, **[Stock view by location](#stock-view-by-location)**, or **[Stock view by serial number](#stock-view-by-serial-number)** to explore quantities, locations, movements, and storage history in more depth. Minimum and maximum thresholds that appear in related summaries can be configured in the **[Stock boundaries](../Management/StockBoundaries.md)** code list. The **[Dashboard](Dashboard.md)** also provides shortcuts to stock issues such as missing, overstocked, or out-of-stock materials.
 
 > [!TIP]
 > For a full demonstration, see the **[Stock overview](https://www.youtube.com/watch?v=gjAKnavIWnY)** video tutorial.
@@ -25,10 +25,10 @@ Clicking the month name opens a fast month/year selection view:
 ### **Material type filter**
 You can filter the list by:
 
-- [Products](../../Assets/CodeLists/Products.md)  
-- [Semi products](../../Assets/CodeLists/SemiProducts.md)  
-- [Repro materials](../../Assets/CodeLists/ReproMaterials.md)  
-- [Raw materials](../../Assets/CodeLists/RawMaterials.md) 
+- [Products](../../Assets/Management/Products.md)  
+- [Semi products](../../Assets/Management/SemiProducts.md)  
+- [Repro materials](../../Assets/Management/ReproMaterials.md)  
+- [Raw materials](../../Assets/Management/RawMaterials.md) 
 
 ### **Tags filter**
 You can refine the list by selecting material tags.
@@ -57,7 +57,7 @@ Click any material to open the detailed stock view.
 
 ## Stock view by material
 
-Clicking a **material name** opens a detailed breakdown of where the material is stored, including available, reserved, and blocked quantities across all [locations](../CodeLists/Locations.md). You can also open the **[Stock view by serial number](#stock-view-by-serial-number)** to explore individual batches or units.
+Clicking a **material name** opens a detailed breakdown of where the material is stored, including available, reserved, and blocked quantities across all [locations](../Management/Locations.md). You can also open the **[Stock view by serial number](#stock-view-by-serial-number)** to explore individual batches or units.
 
 > [!TIP]
 > For a full demonstration, see the **[Stock view by material](https://www.youtube.com/watch?v=GUdnV6bZwoI)** video tutorial.
@@ -81,7 +81,7 @@ A search field is available for filtering within the selected material.
 
 ## Stock view by location
 
-The **Stock view by location** screen shows all materials stored in a specific [warehouse location](../CodeLists/Locations.md), along with their total, reserved, and available quantities. It is useful when you want to see what is physically stored in a particular rack, shelf, or storage area.
+The **Stock view by location** screen shows all materials stored in a specific [warehouse location](../Management/Locations.md), along with their total, reserved, and available quantities. It is useful when you want to see what is physically stored in a particular rack, shelf, or storage area.
 
 You can access this view in two ways:
 
@@ -92,7 +92,7 @@ For full details, see [**Stock view by location**](../Views/StockViewByLocation.
 
 ## Stock view by serial number
 
-A material can have multiple **serial numbers** representing different batches, production dates, or [storage locations](../CodeLists/Locations.md). Clicking any serial number opens its dedicated view, where you can check movements, storage history, and attachments.
+A material can have multiple **serial numbers** representing different batches, production dates, or [storage locations](../Management/Locations.md). Clicking any serial number opens its dedicated view, where you can check movements, storage history, and attachments.
 
 > [!TIP]
 > For a full demonstration, see the **[Stock view by serial number](https://www.youtube.com/watch?v=_vzXNsGg5N4)** video tutorial.

@@ -78,22 +78,22 @@ Razpoložljivi pregledi vključujejo:
 
 Ti zasloni **ne ustvarjajo transakcij** – namenjeni so podpori odločanja.
 
-## Šifranti
+## Upravljanje
 
-Razdelek **Šifranti** vsebuje konfiguracijo in osnovne podatke, ki jih uporabljajo vsi logistični procesi.
+Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, ki jih uporabljajo vsi logistični procesi.
 
 ![Šifranti logistike](../Images/LogisticsDomainManagement.png "Šifranti logistike")
 
 Razpoložljivi šifranti vključujejo:
 
-- **[Konfiguracija](../Sifranti/KonfiguracijaLogistike.md)** – splošne nastavitve logističnih procesov.
-- **[Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md)** – notranji in zunanji poslovni subjekti.
-- **[Skladišča](../Sifranti/Skladisca.md)** – definicija fizičnih skladišč.
-- **[Države](../../Skupno/Sifranti/Drzave.md)** – geografski podatki.
-- **[Lokacije](../Sifranti/Lokacije.md)** – skladiščne lokacije (regali, police).
-- **[Meje zaloge](../Sifranti/MejeZaloge.md)** – omejitve in posebna pravila obravnave zaloge.
-- **[Merske enote](../../Skupno/Sifranti/MerskeEnote.md)** – enotne merske enote v sistemu.
-- **[Analiza materialov](../Sifranti/AnalizaMaterialov.md)** – nastavitve za analize materialov.
+- **[Konfiguracija](../Upravljanje/KonfiguracijaLogistike.md)** – splošne nastavitve logističnih procesov.
+- **[Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md)** – notranji in zunanji poslovni subjekti.
+- **[Skladišča](../Upravljanje/Skladisca.md)** – definicija fizičnih skladišč.
+- **[Države](../../Skupno/Upravljanje/Drzave.md)** – geografski podatki.
+- **[Lokacije](../Upravljanje/Lokacije.md)** – skladiščne lokacije (regali, police).
+- **[Meje zaloge](../Upravljanje/MejeZaloge.md)** – omejitve in posebna pravila obravnave zaloge.
+- **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – enotne merske enote v sistemu.
+- **[Analiza materialov](../Upravljanje/AnalizaMaterialov.md)** – nastavitve za analize materialov.
 
 ## Logistični procesi
 

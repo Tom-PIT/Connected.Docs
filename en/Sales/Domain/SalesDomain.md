@@ -66,20 +66,20 @@ The **Management** section contains configuration and master data required by co
 
 Available configuration and code lists include:
 
-- **[Configuration](../CodeLists/SalesConfiguration.md)** – Global sales settings and behavior settings.  
-- **[Business directory](../../Common/CodeLists/BusinessDirectory.md)** – Customer and partner records used throughout sales documents.  
-- **[Banks](../../Common/CodeLists/Banks.md)** – Bank definitions used on invoices and payment instructions.  
-- **[Payment methods](../CodeLists/PaymentMethods.md)** – Methods used for settling sales invoices.  
-- **[Organization bank accounts](../CodeLists/OrganizationBankAccounts.md)** – Internal bank accounts used for outgoing billing.  
-- **[Countries](../../Common/CodeLists/Countries.md)** – Geographic entries used on customer records and documents.  
-- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Consistent measurement units used in commercial documents.  
-- **[Cost centers](../../Common/CodeLists/CostCenters.md)** – Classification of sales and revenue by cost center.  
-- **[Currencies](../../Common/CodeLists/Currencies.md)** – Currency definitions used in price lists and invoices.  
-- **[Exchange rates](../CodeLists/ExchangeRates.md)** – Daily or periodic exchange rates used for currency conversion.  
-- **[Predefined texts](../../Common/CodeLists/PredefinedTexts.md)** – Standardized text blocks used throughout sales documents.  
-- **[Tax rates](../../Common/CodeLists/TaxRates.md)** – Definitions of VAT and tax rates used in invoicing.  
-- **[Clause templates for delivery notes](../CodeLists/ClauseTemplatesDeliveryNotes.md)** – Predefined clauses for delivery documentation.  
-- **[Clause templates for issued invoices](../CodeLists/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.
+- **[Configuration](../Management/SalesConfiguration.md)** – Global sales settings and behavior settings.  
+- **[Business directory](../../Common/Management/BusinessDirectory.md)** – Customer and partner records used throughout sales documents.  
+- **[Banks](../../Common/Management/Banks.md)** – Bank definitions used on invoices and payment instructions.  
+- **[Payment methods](../Management/PaymentMethods.md)** – Methods used for settling sales invoices.  
+- **[Organization bank accounts](../Management/OrganizationBankAccounts.md)** – Internal bank accounts used for outgoing billing.  
+- **[Countries](../../Common/Management/Countries.md)** – Geographic entries used on customer records and documents.  
+- **[Measure units](../../Common/Management/MeasureUnits.md)** – Consistent measurement units used in commercial documents.  
+- **[Cost centers](../../Common/Management/CostCenters.md)** – Classification of sales and revenue by cost center.  
+- **[Currencies](../../Common/Management/Currencies.md)** – Currency definitions used in price lists and invoices.  
+- **[Exchange rates](../Management/ExchangeRates.md)** – Daily or periodic exchange rates used for currency conversion.  
+- **[Predefined texts](../../Common/Management/PredefinedTexts.md)** – Standardized text blocks used throughout sales documents.  
+- **[Tax rates](../../Common/Management/TaxRates.md)** – Definitions of VAT and tax rates used in invoicing.  
+- **[Clause templates for delivery notes](../Management/ClauseTemplatesDeliveryNotes.md)** – Predefined clauses for delivery documentation.  
+- **[Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.
 
 These elements define how sales operations behave and how commercial data is structured.
 

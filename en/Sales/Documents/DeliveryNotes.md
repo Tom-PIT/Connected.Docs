@@ -1,4 +1,4 @@
-﻿# Delivery notes
+# Delivery notes
 
 A **Delivery note** is a logistics document that accompanies goods during delivery. It confirms what items are being dispatched, in what quantities, and on which date. Delivery notes are usually created from a **Sales order**, but can also be created independently when needed.
 
@@ -22,20 +22,20 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the delivery note. |
-| **Customer** | Delivery recipient, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | Delivery recipient, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the delivery note is created. |
 | **Delivery date** | Date when the delivery is planned to occur (mandatory). |
-| **Delivery – Company / Address** | Customer delivery details taken from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
-| **Content top** | Optional predefined introductory text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Delivery note*). |
+| **Delivery – Company / Address** | Customer delivery details taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
+| **Content top** | Optional predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
 | **Details** | This section lists all items included in the delivery (mandatory). | 
-| **Content bottom** | Optional closing or legal text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Delivery note*). |
+| **Content bottom** | Optional closing or legal text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
 
 
 ### Details
 
 | Field | Description |
 |--------|-------------|
-| **[Asset](../../Assets/CodeLists/Assets.md)** | Item or service being delivered. |
+| **[Asset](../../Assets/Management/Assets.md)** | Item or service being delivered. |
 | **Delivery date** | Delivery date for this specific item. |
 | **Issued quantity** | Shows how many units have already been issued (e.g., *0/3* before issue, *3/3* after full issue). |
 

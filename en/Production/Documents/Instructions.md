@@ -1,4 +1,4 @@
-﻿# Instructions
+# Instructions
 
 The **Instructions** activity displays articles from the knowledge base attached to the current operation (e.g., assembly steps, safety notes, visuals). Use it to quickly review guidance while working.
 
@@ -27,7 +27,7 @@ Instruction articles may include:
 
 ## Editing and updates
 
-Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../CodeLists/Operations.md) and use the **Article** field to link existing [Knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) content.
+Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../Management/Operations.md) and use the **Article** field to link existing [Knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) content.
 
 ---
 

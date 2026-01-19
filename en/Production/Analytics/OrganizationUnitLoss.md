@@ -1,4 +1,4 @@
-﻿# Organization unit loss
+# Organization unit loss
 
 The **Organization unit loss** page provides an overview of all recorded production losses grouped by organizational unit. It allows supervisors and planners to quickly see how many defective or unusable items were produced in each organizational unit and from which production orders the losses originated.
 
@@ -11,7 +11,7 @@ To access this page, go to **Production / Analytics / Organization unit loss** i
 Use the filters on the left to refine the results:
 
 - **Date** — Select a date or date range for which loss entries should be displayed.  
-- **Tag** — Filter losses by loss classification tag (see [Loss classification tags](../CodeLists/LossClassificationTags.md)).
+- **Tag** — Filter losses by loss classification tag (see [Loss classification tags](../Management/LossClassificationTags.md)).
 
 ## Loss overview
 
