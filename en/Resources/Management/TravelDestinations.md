@@ -32,7 +32,7 @@ Clicking a destination opens it for editing.
 
 ### Add travel destination
 
-1. Click the [**Action Button**](../../Common/UI/ActionButton.md) to create a new travel destination.
+1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new travel destination.
 2. Fill in the fields described in the [**Schema**](#schema).
 3. Click **Add** to save.
 

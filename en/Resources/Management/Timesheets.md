@@ -32,7 +32,7 @@ By defining timesheets centrally, organizations ensure consistent naming and cla
 
 To create a new timesheet:
 
-1. Click **Add timesheet**.
+1. Click [**action button**](../../Common/UI/ActionButton.md).
 2. Enter a **Name** that clearly describes the work activity.
 3. Click **Add** to save.
 

@@ -25,8 +25,8 @@ Active categories are indicated by a blue status icon, while inactive ones show 
 
 To create a new reminder category:
 
-1. Click **Add new reminder category**.
-2. Enter a **Name**.
+1. Click the [**action button**](../../Common/UI/ActionButton.md).
+2. Enter a suitable name for the reminder.
 3. Ensure **Status** is enabled if the category should be available.
 4. Click **Add** to save.
 

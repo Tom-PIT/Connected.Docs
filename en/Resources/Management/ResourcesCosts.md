@@ -32,7 +32,7 @@ Use filters on the left to narrow down resources:
 
 ### Add new cost entry
 
-Use the [**Action Button**](../../Common/UI/ActionButton.md) to add a new cost entry for a resource. Fill in the fields and click **Add**.
+Use the [**action button**](../../Common/UI/ActionButton.md) to add a new cost entry for a resource. Fill in the fields and click **Add**.
 
 ![Edit resource cost](../Images/ResourcesCostsNew.png "Edit resource cost")
 
