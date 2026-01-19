@@ -6,7 +6,7 @@ Tasks shown here always belong to a [project](../Documents/Projects.md), but the
 
 To access the **My Tasks** screen, navigate to **Projects / Views / My tasks** in the [navigation](../../Common/UI/Navigation.md).
 
-## My Tasks list
+## My tasks list
 
 The list displays tasks that are assigned to you and match the selected filters.
 
