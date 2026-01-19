@@ -13,7 +13,7 @@ To access **Travel destinations**, go to **Resources / Management / Travel desti
 | **Start** | Starting address of the trip, usually the company’s main location. |
 | **Destination** | Target address of the trip. |
 | **Distance** | Distance between start and destination. |
-| [**Measure unit**](../../Common/CodeLists/MeasureUnits.md) | Unit used for the distance (for example kilometers). |
+| [**Measure unit**](../../Common/Management/MeasureUnits.md) | Unit used for the distance (for example kilometers). |
 
 ## List view
 
