@@ -1,4 +1,4 @@
-﻿# Credit notes
+# Credit notes
 
 A **Credit note** is a sales document used to reduce or cancel all or part of an already issued invoice. It is typically created when goods are returned, an overcharge occurred, or a correction is required after invoicing.  
 
@@ -29,25 +29,25 @@ Credit notes affect accounting only and do not impact inventory.
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the credit note. |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer receiving the credit, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer receiving the credit, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the credit note is issued. |
 | **Delivery date** | Original delivery date of the invoiced goods or services. |
 | **Due date** | Date when the credit becomes effective (mandatory). |
 | **Reference type** | Type of payment reference used (mandatory). |
 | **Reference number** | Reference number based on the chosen reference type. |
-| **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)** | Bank account used for refunds or accounting (mandatory). |
-| **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional allocation to a cost center. |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account used for refunds or accounting (mandatory). |
+| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional reason or classification for the credit. |
 | **Rebate** | Overall rebate applied to the credit note. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/CodeLists/Assets.md) | Credited item or service. |
+| [**Asset**](../../Assets/Management/Assets.md) | Credited item or service. |
 | **Quantity** | Quantity being credited (usually negative). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |

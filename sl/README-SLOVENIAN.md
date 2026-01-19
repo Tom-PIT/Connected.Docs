@@ -13,7 +13,7 @@ Dobrodošli v dokumentaciji Connected. Ta repozitorij vsebuje uporabniške vodi�
 
 - Domene (npr. Proizvodnja, Logistika, Prodaja, Vzdrževanje, Kakovost)
 - Dokumenti in pregledi (dnevni operativni zasloni)
-- Šifranti (skupni osnovni podatki in nastavitve)
+- Upravljanje (šifranti, skupni osnovni podatki in nastavitve)
 
 Za raziskovanje povezanih tem uporabite navigacijo in povezave znotraj posameznih strani.
 

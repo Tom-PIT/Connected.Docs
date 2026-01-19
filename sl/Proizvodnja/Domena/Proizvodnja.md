@@ -84,17 +84,17 @@ in proizvodne šifrante, potrebne za nemoteno delovanje.
 
 Na voljo so naslednje nastavitve in šifranti:
 
-- **[Konfiguracija](../Sifranti/KonfiguracijaProizvodnje.md)** – splošne nastavitve proizvodnje
-- **[Kontrolne liste](../Sifranti/KontrolneListe.md)** – kontrolni seznami za kakovost in procese
-- **[Oznake zastojev](../Sifranti/OznakeZastojev.md)** – klasifikacija razlogov za zastoje
-- **[Oznake klasifikacije slabega kosa](../Sifranti/OznakeKlasifikacijeSlabegaKosa.md)** – standardne kategorije izgub
-- **[Sistematizacija delovnih mest](../../Skupno/Sifranti/NaziviDelovnihMest.md)** – delovna mesta v proizvodnji
-- **[Merske enote](../../Skupno/Sifranti/MerskeEnote.md)** – poenotene merske enote
-- **[Organizacijske enote](../../Skupno/Sifranti/PoslovneEnote.md)** – hierarhija organizacijskih enot
-- **[Procesi](../Sifranti/Procesi.md)** – definicije procesov, verzij, operacij, vhodov in izhodov
-- **[Predloge za operacije](../Sifranti/PredlogeZaOperacije.md)** – predloge protokolov operacij
-- **[Viri](../Sifranti/Viri.md)** – človeški in nečloveški viri v proizvodnji
-- **[Skladiščne lokacije](../Sifranti/SkladiscneLokacije.md)** – lokacije za proizvodnjo in logistiko
+- **[Konfiguracija](../Upravljanje/KonfiguracijaProizvodnje.md)** – splošne nastavitve proizvodnje
+- **[Kontrolne liste](../Upravljanje/KontrolneListe.md)** – kontrolni seznami za kakovost in procese
+- **[Oznake zastojev](../Upravljanje/OznakeZastojev.md)** – klasifikacija razlogov za zastoje
+- **[Oznake klasifikacije slabega kosa](../Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)** – standardne kategorije izgub
+- **[Sistematizacija delovnih mest](../../Skupno/Upravljanje/NaziviDelovnihMest.md)** – delovna mesta v proizvodnji
+- **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – poenotene merske enote
+- **[Organizacijske enote](../../Skupno/Upravljanje/PoslovneEnote.md)** – hierarhija organizacijskih enot
+- **[Procesi](../Upravljanje/Procesi.md)** – definicije procesov, verzij, operacij, vhodov in izhodov
+- **[Predloge za operacije](../Upravljanje/PredlogeZaOperacije.md)** – predloge protokolov operacij
+- **[Viri](../Upravljanje/Viri.md)** – človeški in nečloveški viri v proizvodnji
+- **[Skladiščne lokacije](../Upravljanje/SkladiscneLokacije.md)** – lokacije za proizvodnjo in logistiko
 
 Ti elementi določajo delovanje proizvodnje: razpoložljivost virov,
 strukturo procesov, nastavitev operacij, preverjanje kakovosti

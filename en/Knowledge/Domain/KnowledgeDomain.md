@@ -9,14 +9,14 @@ To access this domain, navigate to **Knowledge** in the [navigation](../../Commo
 ![Knowledge Domain](../Images/KnowledgeDomainSitemap.png "Knowledge Domain")
 
 > [!NOTE]  
-> The available domains depend on each company’s configuration and business model.
+> The available domains depend on each companyâ€™s configuration and business model.
 
 ## What is included in the Knowledge domain?
 
 The domain is organized into two main functional areas:
 
-- **[Knowledge base](../KnowledgeBase/KnowledgeBase.md)** – end-user access to published articles and documentation  
-- **[Management](#management)** – configuration and content structure setup  
+- **[Knowledge base](../KnowledgeBase/KnowledgeBase.md)** â€“ end-user access to published articles and documentation  
+- **[Management](#management)** â€“ configuration and content structure setup  
 
 ![Knowledge Domain Overview](../Images/KnowledgeDomainOverview.png "Knowledge Domain Overview")
 
@@ -58,8 +58,8 @@ Management includes the following configuration areas:
 
 **Directories** define the main structure of the **Knowledge base**. Each directory represents a **topic or category** and can contain:
 
-- [Articles](../CodeLists/Articles.md)
-- [Table of contents](../CodeLists/TableOfContents.md) (structured groupings)
+- [Articles](../Management/Articles.md)
+- [Table of contents](../Management/TableOfContents.md) (structured groupings)
 - Attachments
 
 Directories allow organizations to group related content logically (e.g. HR guidelines, Production instructions, IT documentation).
@@ -80,7 +80,7 @@ Tags are commonly used to:
 - Enable filtering in the **Knowledge base**
 - Highlight related content across different directories
 
-Directory tags are shared across the Knowledge domain and reused by multiple directories and articles. See [Directory tags](../CodeLists/DirectoryTags.md).
+Directory tags are shared across the Knowledge domain and reused by multiple directories and articles. See [Directory tags](../Management/DirectoryTags.md).
 
 ## Knowledge workflow
 
@@ -90,7 +90,7 @@ The Knowledge domain typically follows this lifecycle:
 Directories and directory tags are defined in **Management**.
 
 ### **2. Content creation**
-[Articles](../CodeLists/Articles.md) are created and assigned to directories, optionally tagged and enriched with attachments.
+[Articles](../Management/Articles.md) are created and assigned to directories, optionally tagged and enriched with attachments.
 
 ### **3. Publishing**
 Articles are published and become visible in the **Knowledge base** according to their status and validity settings.
@@ -115,10 +115,10 @@ It complements operational domains by supporting them with **clear, accessible d
 
 ## Related
 
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse published documentation
-- **[Directories](../CodeLists/Directories.md)** – manage containers and navigation
-- **[Articles](../CodeLists/Articles.md)** – author and maintain content
-- **[Directory tags](../CodeLists/DirectoryTags.md)** – define tags for filtering
-- **[Table of contents](../CodeLists/TableOfContents.md)** – configure directory navigation
+- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** â€“ browse published documentation
+- **[Directories](../Management/Directories.md)** â€“ manage containers and navigation
+- **[Articles](../Management/Articles.md)** â€“ author and maintain content
+- **[Directory tags](../Management/DirectoryTags.md)** â€“ define tags for filtering
+- **[Table of contents](../Management/TableOfContents.md)** â€“ configure directory navigation
 
 ---

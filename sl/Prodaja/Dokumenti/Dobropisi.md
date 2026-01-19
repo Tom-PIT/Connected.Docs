@@ -28,25 +28,25 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dobropisa. |
 | **Številka naročilnice** | Neobvezna referenca na naročilo stranke. |
-| **Stranka** | Stranka, ki prejme dobropis, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Stranka** | Stranka, ki prejme dobropis, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum izdaje dobropisa. |
 | **Datum opravljene storitve** | Prvotni datum dobave zaračunanega blaga ali storitev. |
 | **Datum zapadlosti** | Datum, ko dobropis stopi v veljavo (obvezno). |
 | **Tip reference** | Vrsta uporabljenega plačilnega sklica (obvezno). |
 | **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
-| [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Bančni račun za vračila ali računovodsko obdelavo (obvezno). |
-| [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
+| [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Bančni račun za vračila ali računovodsko obdelavo (obvezno). |
+| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezna oznaka ali razlog za dobropis. |
 | **Rabat** | Skupni rabat, uporabljen na dobropis. |
-| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
+| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Dostava** | Podatki o podjetju in naslovu dobave. |
-| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
+| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
 ### Polja postavk
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Dobropisano blago ali storitev. |
+| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Dobropisano blago ali storitev. |
 | **Količina** | Dobropisana količina (običajno negativna). |
 | **Cena brez DDV** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

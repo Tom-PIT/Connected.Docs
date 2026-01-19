@@ -1,4 +1,4 @@
-﻿# Downtime summary
+# Downtime summary
 The **Downtime summary** page provides an overview of recorded production downtimes within a selected period. It helps identify the most common downtime reasons, evaluate their impact, and monitor performance across organization units and equipment.
 
 To access this page, go to **Production / Analytics / Downtime summary** in the [navigation](../../Common/UI/Navigation.md).
@@ -22,7 +22,7 @@ Determines how downtime data is aggregated:
 Select the date range for which downtime records should be included.
 
 ### Organization units
-Filter results by one or more [organization units](../CodeLists/OrganizationUnits.md).
+Filter results by one or more [organization units](../Management/OrganizationUnits.md).
 
 ### Non human resources
 Filter downtimes associated with specific equipment or workstations.

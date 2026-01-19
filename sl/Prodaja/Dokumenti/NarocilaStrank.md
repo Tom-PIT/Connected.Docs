@@ -28,14 +28,14 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator naročila stranke. |
-| **Stranka** | Stranka, ki odda naročilo, izbrana iz šifranta [Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Stranka** | Stranka, ki odda naročilo, izbrana iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka naročila stranke. |
 | **Datum prodaje** | Predviden datum dobave naročila (obvezno). |
 | **Rabat** | Neobvezen popust na celotno naročilo stranke. |
 | **Številka naročilnice** | Neobvezna povezava na povezani [nabavni nalog](../../Nabava/Dokumenti/NabavniNalogi.md). |
-| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md). |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Postavke** | Seznam prodanih postavk (sredstev) z datumi dobave, cenami, količinami in davki (obvezno). |
-| [**Način plačila**](../Sifranti/NacinPlacila.md) | Načini plačila, povezani z naročilom stranke. |
+| [**Način plačila**](../Upravljanje/NacinPlacila.md) | Načini plačila, povezani z naročilom stranke. |
 
 ### Polja postavk
 
@@ -46,7 +46,7 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | **Količina** | Količina izbranega sredstva. |
 | **Cena brez DDV (na enoto)** | Uporabljena cena na enoto (iz nastavitev sredstva ali cenikov). |
 | **Popust (%)** | Popust za posamezno postavko. |
-| [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja. |
+| [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Končna vrednost postavke (količina × cena − popust). |
 
 ## Upravljanje

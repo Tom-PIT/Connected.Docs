@@ -19,26 +19,26 @@ Tipičen potek:
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator ponudbe. |
-| **Stranka** | Stranka, ki prejme ponudbo, izbrana iz šifranta [Poslovni imenik](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Stranka** | Stranka, ki prejme ponudbo, izbrana iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka ponudbe. |
 | **Datum veljavnosti** | Datum do katerega ponudba velja (obvezno). |
 | **Rabat** | Neobvezen skupni popust na celotno ponudbo (npr. vnesite *2* za 2 % popust). |
-| **Dostava – Podjetje / Naslov** | Podatki o dobavi za stranko; vrednosti se povzamejo iz [Poslovnega imenika](../../Skupno/Sifranti/PoslovniImenik.md). |
-| **Vsebina zgoraj** | Uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
-| **Postavke** | Seznam ponujenih postavk (sredstev) s cenami in dobavnimi podatki; postavke izvirajo iz šifranta [Sredstva](../../Sredstva/Sifranti/Izdelki.md) (obvezno). |
-| **Vsebina spodaj** | Zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
-| [**Način plačila**](../Sifranti/NacinPlacila.md) | Načini plačila, prikazani stranki. |
+| **Dostava – Podjetje / Naslov** | Podatki o dobavi za stranko; vrednosti se povzamejo iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+| **Vsebina zgoraj** | Uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
+| **Postavke** | Seznam ponujenih postavk (sredstev) s cenami in dobavnimi podatki; postavke izvirajo iz šifranta [Sredstva](../../Sredstva/Upravljanje/Izdelki.md) (obvezno). |
+| **Vsebina spodaj** | Zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
+| [**Način plačila**](../Upravljanje/NacinPlacila.md) | Načini plačila, prikazani stranki. |
 
 ### Polja postavk
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Izdelek ali storitev, ki se ponuja. |
+| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Izdelek ali storitev, ki se ponuja. |
 | **Datum dobave** | Predviden datum dobave za to postavko. |
 | **Količina** | Količina sredstva. |
-| **Cena brez DDV (na enoto)** | Cena na enoto, povzeta iz nastavitev sredstva ali ustreznega [cenika sredstev](../../Sredstva/Sifranti/CenikiMaterialov.md). |
+| **Cena brez DDV (na enoto)** | Cena na enoto, povzeta iz nastavitev sredstva ali ustreznega [cenika sredstev](../../Sredstva/Upravljanje/CenikiMaterialov.md). |
 | **Popust (%)** | Neobvezen popust za posamezno postavko. |
-| [**Davčne stopnje**](../../Skupno/Sifranti/DavcneStopnje.md) | Uporabljena davčna stopnja. |
+| [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Skupna vrednost postavke (količina × neto cena po popustih). |
 
 ## Upravljanje

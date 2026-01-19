@@ -24,26 +24,26 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator predplačila. |
 | **Številka naročila kupca** | Neobvezna referenca na naročilo stranke. |
-| **Stranka** | Stranka, ki izvede predplačilo, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Sifranti/PoslovniImenik.md) (obvezno). |
+| **Stranka** | Stranka, ki izvede predplačilo, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum izdaje dokumenta predplačila. |
 | **Datum opravljene storitve** | Predviden datum dobave, povezan s prodajo. |
 | **Datum zapadlosti** | Rok za prejem predplačila (obvezno). |
 | **Tip reference** | Vrsta plačilnega sklica (obvezno). |
 | **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
-| [**Bančni račun organizacije**](../Sifranti/BancniRacuniOrganizacije.md) | Bančni račun za prejem predplačila (obvezno). |
-| [**Stroškovno mesto**](../../Skupno/Sifranti/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
+| [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Bančni račun za prejem predplačila (obvezno). |
+| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezen opis namena plačila. |
 | **Rabat** | Skupni rabat, uporabljen na znesek predplačila. |
-| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
+| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Dostava** | Podatki o podjetju in naslovu dobave. |
-| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Sifranti/VnaprejDolocenaBesedila.md). |
-| **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Sifranti/NacinPlacila.md). |
+| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
+| **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Upravljanje/NacinPlacila.md). |
 
 ### Polja postavk
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Sifranti/Izdelki.md) | Izdelek ali storitev, na katero se predplačilo nanaša. |
+| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Izdelek ali storitev, na katero se predplačilo nanaša. |
 | **Količina** | Količina sredstva. |
 | **Cena brez DDV** | Cena na enoto brez DDV. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

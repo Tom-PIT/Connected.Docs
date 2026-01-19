@@ -22,20 +22,20 @@ Za dostop do domene Sredstva pojdite na **Sredstva** v [navigaciji](../../Skupno
 
 Domena je razdeljena na več funkcionalnih področij:
 
-- **[Sredstva](../Sifranti/Sredstva.md)** – definirajo izdelke in storitve, ponujene kupcem. Vsako sredstvo vključuje cene, davčne nastavitve, opisna polja in po potrebi strukturo komponent.
+- **[Sredstva](../Upravljanje/Sredstva.md)** – definirajo izdelke in storitve, ponujene kupcem. Vsako sredstvo vključuje cene, davčne nastavitve, opisna polja in po potrebi strukturo komponent.
 
-- **[Ceniki sredstev](../Sifranti/CenikiSredstev.md)** – uporabljajo se za pripravo prodajnih cen za izbrana sredstva. Ceniki podpirajo časovno veljavnost, cenitev po podjetjih in količinske popuste.
+- **[Ceniki sredstev](../Upravljanje/CenikiSredstev.md)** – uporabljajo se za pripravo prodajnih cen za izbrana sredstva. Ceniki podpirajo časovno veljavnost, cenitev po podjetjih in količinske popuste.
 
 - **[Materiali](Materiali.md)** – materiali se uporabljajo za *izdelavo* sredstev ali kot postavke v logističnih procesih (zaloga, prevzemi, izdaje ipd.). Za razliko od sredstev so materiali izključno interni.
 
-    - **[Izdelki](../Sifranti/Izdelki.md)**
-    - **[Surovine](../Sifranti/Surovine.md)**
-    - **[Repro materiali](../Sifranti/ReproMateriali.md)**
-    - **[Polizdelki](../Sifranti/Polizdelki.md)**
+    - **[Izdelki](../Upravljanje/Izdelki.md)**
+    - **[Surovine](../Upravljanje/Surovine.md)**
+    - **[Repro materiali](../Upravljanje/ReproMateriali.md)**
+    - **[Polizdelki](../Upravljanje/Polizdelki.md)**
 
-- **[Upravljanje](../Sifranti)** – vsebuje dodatne konfiguracijske elemente, kot so:
-  - **[Davčne stopnje](../../Skupno/Sifranti/DavcneStopnje.md)**
-  - **[Merske enote](../../Skupno/Sifranti/MerskeEnote.md)**
+- **[Upravljanje](../Upravljanje)** – vsebuje dodatne konfiguracijske elemente, kot so:
+  - **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)**
+  - **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)**
 
 Te nastavitve določajo strukturo in vedenje sredstev ter način njihove cenitve.
 
@@ -45,7 +45,7 @@ Te nastavitve določajo strukturo in vedenje sredstev ter način njihove cenitve
 
 Razumevanje razlike med tema dvema pojmoma je ključno. Čeprav oba predstavljata postavke, ki jih sistem upravlja, imata povsem različen namen.
 
-- **[Sredstva](../Sifranti/Sredstva.md)** določajo, kaj podjetje *prodaja* kupcem.
+- **[Sredstva](../Upravljanje/Sredstva.md)** določajo, kaj podjetje *prodaja* kupcem.
 - **[Materiali](Materiali.md)** določajo, kaj podjetje *uporablja interno* v proizvodnji in logistiki.
 
 Spodnja tabela povzema ključne razlike:

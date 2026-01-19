@@ -102,15 +102,15 @@ Razdelek **Upravljanje** vsebuje vse šifrante in osnovne nastavitve, ki podpira
 Upravljanje vključuje na primer:
 
 - konfiguracijo sistema  
-- **[Poslovni imenik](../Sifranti/PoslovniImenik.md)**  
-- **[Banke in načini plačila](../../Prodaja/Sifranti/NacinPlacila.md)**  
-- **[Države](../Sifranti/Drzave.md)**, **[valute](../Sifranti/Valute.md)**, **[davčne stopnje](../Sifranti/DavcneStopnje.md)**  
-- **[Vnaprej določena besedila](../Sifranti/VnaprejDolocenaBesedila.md)**  
-- **[Merske enote](../Sifranti/MerskeEnote.md)**  
-- **[Bančni računi organizacije](../../Prodaja/Sifranti/BancniRacuniOrganizacije.md)**  
-- **[Procesi](../../Proizvodnja/Sifranti/Procesi.md)**
-- **[Vhodi](../../Proizvodnja/Sifranti/Vhodi.md)**, **[Izhodi](../../Proizvodnja/Sifranti/Izhodi.md)**
-- **[Nazivi delovnih mest](../Sifranti/NaziviDelovnihMest.md)**, **[Človeški viri](../../Proizvodnja/Sifranti/CloveskiViri.md)**
+- **[Poslovni imenik](../Upravljanje/PoslovniImenik.md)**  
+- **[Banke in načini plačila](../../Prodaja/Upravljanje/NacinPlacila.md)**  
+- **[Države](../Upravljanje/Drzave.md)**, **[valute](../Upravljanje/Valute.md)**, **[davčne stopnje](../Upravljanje/DavcneStopnje.md)**  
+- **[Vnaprej določena besedila](../Upravljanje/VnaprejDolocenaBesedila.md)**  
+- **[Merske enote](../Upravljanje/MerskeEnote.md)**  
+- **[Bančni računi organizacije](../../Prodaja/Upravljanje/BancniRacuniOrganizacije.md)**  
+- **[Procesi](../../Proizvodnja/Upravljanje/Procesi.md)**
+- **[Vhodi](../../Proizvodnja/Upravljanje/Vhodi.md)**, **[Izhodi](../../Proizvodnja/Upravljanje/Izhodi.md)**
+- **[Nazivi delovnih mest](../Upravljanje/NaziviDelovnihMest.md)**, **[Človeški viri](../../Proizvodnja/Upravljanje/CloveskiViri.md)**
 - drugi ključni šifranti  
 
 Primer – **Prodaja / Upravljanje**:

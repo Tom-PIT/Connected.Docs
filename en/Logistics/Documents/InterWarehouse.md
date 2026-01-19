@@ -1,8 +1,8 @@
-﻿# Inter warehouse
+# Inter warehouse
 
 An **Inter warehouse** document is used to transfer materials from one warehouse to another. This is useful when stock needs to be moved between locations—for example, sending items from **Main warehouse** to **Central warehouse**, or transferring **components** to a remote storage area.
 
-The transfer process lets you scan or search for materials, choose a destination [warehouse](../CodeLists/Warehouses.md) and [location](../CodeLists/Locations.md), and adjust the quantities being moved. Publishing the document updates stock levels in both warehouses, ensuring each location reflects the correct quantities.
+The transfer process lets you scan or search for materials, choose a destination [warehouse](../Management/Warehouses.md) and [location](../Management/Locations.md), and adjust the quantities being moved. Publishing the document updates stock levels in both warehouses, ensuring each location reflects the correct quantities.
 
 > [!TIP]
 > For a full demonstration, see the **[Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI)** video tutorial.
@@ -17,19 +17,19 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the inter warehouse document. |
 | **Document date** | Date when the transfer is registered. |
-| [**Source warehouse**](../CodeLists/Warehouses.md) | Warehouse from which the materials will be removed. |
-| **[**Destination warehouse**](../CodeLists/Warehouses.md)** | Warehouse where the materials will be received. |
+| [**Source warehouse**](../Management/Warehouses.md) | Warehouse from which the materials will be removed. |
+| **[**Destination warehouse**](../Management/Warehouses.md)** | Warehouse where the materials will be received. |
 | **Notes** | Additional remarks related to the document. |
 
 ### Detail section
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | The material being transferred ([product](../../Assets/CodeLists/Products.md), [semi product](../../Assets/CodeLists/SemiProducts.md), [raw material](../../Assets/CodeLists/RawMaterials.md), or [repro material](../../Assets/CodeLists/ReproMaterials.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | The material being transferred ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
 | **Serial number** | The serial number of the unit being transferred. |
 | **Best before** | Expiration date (for materials with shelf life). |
-| [**Source location**](../CodeLists/Locations.md) | Storage location in the source warehouse. |
-| [**Destination location**](../CodeLists/Locations.md) | Storage location where the material will be placed. |
+| [**Source location**](../Management/Locations.md) | Storage location in the source warehouse. |
+| [**Destination location**](../Management/Locations.md) | Storage location where the material will be placed. |
 | **Quantity (pc)** | Quantity to be transferred. |
 
 ## List of inter warehouse documents

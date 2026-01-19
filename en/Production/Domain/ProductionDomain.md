@@ -1,4 +1,4 @@
-﻿# Production
+# Production
 
 The **Production** domain manages all processes related to manufacturing, shop-floor execution, and production analysis. It includes tools for planning and issuing production orders, executing operations, tracking consumption and production, and reviewing performance analytics.
 
@@ -68,17 +68,17 @@ The **Management** section contains configuration, process definitions, and prod
 
 Available configuration and code lists include:
 
-- **[Configuration](../CodeLists/ProductionConfiguration.md)** – Global production settings for numbering and behavior.
-- **[Checklists](../CodeLists/CheckLists.md)** – Quality and process checklists used during execution.
-- **[Downtime tags](../CodeLists/DowntimeTags.md)** – Classification of downtime reasons for analysis.
-- **[Loss classification tags](../CodeLists/LossClassificationTags.md)** – Standard categories for loss recording and reporting.
-- **[Job positions](../CodeLists/JobPositions.md)** – Roles and positions for shop-floor personnel.
-- **[Measure units](../../Common/CodeLists/MeasureUnits.md)** – Unified measurement units across production.
-- **[Organization units](../CodeLists/OrganizationUnits.md)** – Hierarchical production units used for planning and analytics.
-- **[Processes](../CodeLists/Processes.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
-- **[Protocol operation instance templates](../CodeLists/ProtocolOperationsInstanceTemplates.md)** – Templates for step-by-step operation protocols.
-- **[Resources](../CodeLists/Resources.md)** – Human and non-human resources used in production.
-- **[Warehouse locations](../CodeLists/WarehouseLocations.md)** – Logistics-backed staging and storage locations for production.
+- **[Configuration](../Management/ProductionConfiguration.md)** – Global production settings for numbering and behavior.
+- **[Checklists](../Management/CheckLists.md)** – Quality and process checklists used during execution.
+- **[Downtime tags](../Management/DowntimeTags.md)** – Classification of downtime reasons for analysis.
+- **[Loss classification tags](../Management/LossClassificationTags.md)** – Standard categories for loss recording and reporting.
+- **[Job positions](../Management/JobPositions.md)** – Roles and positions for shop-floor personnel.
+- **[Measure units](../../Common/Management/MeasureUnits.md)** – Unified measurement units across production.
+- **[Organization units](../Management/OrganizationUnits.md)** – Hierarchical production units used for planning and analytics.
+- **[Processes](../Management/Processes.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
+- **[Protocol operation instance templates](../Management/ProtocolOperationsInstanceTemplates.md)** – Templates for step-by-step operation protocols.
+- **[Resources](../Management/Resources.md)** – Human and non-human resources used in production.
+- **[Warehouse locations](../Management/WarehouseLocations.md)** – Logistics-backed staging and storage locations for production.
 
 These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.
 

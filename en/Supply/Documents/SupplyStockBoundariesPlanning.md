@@ -1,10 +1,10 @@
-﻿# Supply stock boundaries planning
+# Supply stock boundaries planning
 
 The **Supply stock boundaries planning** view helps you proactively plan purchases by identifying materials that have fallen below their defined minimum stock levels. From this screen, you can directly create [**Supply orders**](../../Supply/Documents/SupplyOrders.md) or [**Inquiries**](../../Supply/Documents/Inquiries.md) for the affected materials, with most details pre-filled.
 
 This page works closely with:
-- **[Stock boundaries](../../Logistics/CodeLists/StockBoundaries.md)** – where minimum and maximum quantities are defined
-- **[Supplier materials](../../Supply/CodeLists/SupplierMaterials.md)** – where materials are assigned to vendors
+- **[Stock boundaries](../../Logistics/Management/StockBoundaries.md)** – where minimum and maximum quantities are defined
+- **[Supplier materials](../../Supply/Management/SupplierMaterials.md)** – where materials are assigned to vendors
 
 To access this page, go to **Supply / Supply stock boundaries planning**.
 
@@ -12,8 +12,8 @@ To access this page, go to **Supply / Supply stock boundaries planning**.
 
 A material appears in this view only when **all** of the following conditions are met:
 
-1. A **minimum and maximum quantity** is defined in [**Stock boundaries**](../../Logistics/CodeLists/StockBoundaries.md) 
-2. The material is assigned to at least one vendor in [**Supplier materials**](../../Supply/CodeLists/SupplierMaterials.md)  
+1. A **minimum and maximum quantity** is defined in [**Stock boundaries**](../../Logistics/Management/StockBoundaries.md) 
+2. The material is assigned to at least one vendor in [**Supplier materials**](../../Supply/Management/SupplierMaterials.md)  
 3. The **available stock** is **below the minimum quantity**
 
 When these conditions are fulfilled, the material becomes visible and actionable in the planning list.

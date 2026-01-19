@@ -1,4 +1,4 @@
-﻿# Issued invoices
+# Issued invoices
 
 **Issued invoices** are financial documents sent to customers so they can pay for confirmed sales. They summarize delivered goods or services, taxes, due dates, and chosen payment methods. From the **Issued invoices** page you can also record partial or full payments directly against each invoice.
 
@@ -21,27 +21,27 @@ Invoices can also be created manually as stand-alone documents when required.
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Unique identifier of the invoice (system-generated). |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer receiving the invoice, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer receiving the invoice, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the invoice is issued. |
 | **Delivery date** | Date when the goods or services were delivered. |
 | **Due date** | Payment deadline shown to the customer  (mandatory). |
 | **Reference type** | Type of payment reference (e.g., structured reference, model)  (mandatory). |
 | **Reference number** | Reference number used on payment documents, based on the chosen reference type. |
-| **[Organization bank accounts](../CodeLists/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
-| **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional allocation of revenue to a cost center. |
+| **[Organization bank accounts](../Management/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
+| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation of revenue to a cost center. |
 | **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
-| **Payment method** | Payment option selected from [**Payment methods**](../CodeLists/PaymentMethods.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Payment method** | Payment option selected from [**Payment methods**](../Management/PaymentMethods.md). |
 
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/CodeLists/Assets.md) | Invoiced item or service from the **Assets** domain. |
+| [**Asset**](../../Assets/Management/Assets.md) | Invoiced item or service from the **Assets** domain. |
 | **Quantity** | Quantity of the asset being invoiced. |
 | **Net price** | Net price per unit, usually taken from price lists or the related document. |
 | **Discount (%)** | Optional line-level discount. |
@@ -115,13 +115,13 @@ Once you start a new Issued invoice, follow these steps:
 1. Use the [**action button**](../../Common/UI/ActionButton.md) or the **Linked documents** panel in another document to create a new draft invoice.
 
 2. Fill in the key header fields:
-   - [**Customer**](../../Common/CodeLists/BusinessDirectory.md)  
+   - [**Customer**](../../Common/Management/BusinessDirectory.md)  
    - **Issue date**  
    - **Delivery date**  
    - **Due date** (mandatory)  
    - **Reference type / Reference number**  
-   - [**Organization bank account**](../CodeLists/OrganizationBankAccounts.md)  
-   - [**Payment method**](../CodeLists/PaymentMethods.md)
+   - [**Organization bank account**](../Management/OrganizationBankAccounts.md)  
+   - [**Payment method**](../Management/PaymentMethods.md)
 
    ![New invoice top](../Images/IssuedInvoicesNewTop.png "New invoice top section")
 

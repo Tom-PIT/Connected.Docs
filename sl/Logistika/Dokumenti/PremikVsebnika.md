@@ -14,7 +14,7 @@ Za dostop do **Premika vsebnika** pojdite na **Logistika / Dokumenti / Premik vs
 
 ## Predpogoji
 
-- Definirane morajo biti skladiščne **[Lokacije](../Sifranti/Lokacije.md)**.
+- Definirane morajo biti skladiščne **[Lokacije](../Upravljanje/Lokacije.md)**.
 - **[Vsebnik](Vsebniki.md)** mora biti registriran in imeti skenirljiv identifikator (črtna koda / EAN / koda).
 
 ## Koraki
@@ -38,7 +38,7 @@ Izberite **ciljno lokacijo**. To lahko storite na dva načina:
 
 > [!TIP]
 > - Uporabljajte standardizirane oznake lokacij za hitrejše skeniranje.
-> - Preverite razpoložljivost lokacije, če vaš proces upošteva kapacitetna pravila. Za več informacij glejte **[Meje zaloge](../Sifranti/MejeZaloge.md)**.
+> - Preverite razpoložljivost lokacije, če vaš proces upošteva kapacitetna pravila. Za več informacij glejte **[Meje zaloge](../Upravljanje/MejeZaloge.md)**.
 
 ### Korak 3 — Potrditev premika
 

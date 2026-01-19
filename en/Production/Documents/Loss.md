@@ -1,4 +1,4 @@
-﻿# Loss
+# Loss
 
 The **Loss** activity records defective or unusable items produced during an operation. It helps keep quality visible and ensures accurate reporting and traceability.
 
@@ -11,7 +11,7 @@ Open **Loss** from the [**Execution**](Execution.md) screen via the activity sel
 
     ![Loss](../Images/ExecutionLossPage.png "Loss recording")
 
-3. Select a **Loss classification** (reason) tag — see [Loss classification tags](../CodeLists/LossClassificationTags.md).   
+3. Select a **Loss classification** (reason) tag — see [Loss classification tags](../Management/LossClassificationTags.md).   
 4. Click **Loss** (yellow button) to save.  
 5. Repeat for additional losses as needed.
 
@@ -19,7 +19,7 @@ Saved losses are linked to the production order and operation and appear in the 
 
 ## Classifications and tags
 
-Loss reasons are managed as tags (e.g., cosmetic defect, wrong dimension, machine fault). Choose the best matching tag to support downstream analysis. See [Loss classification tags](../CodeLists/LossClassificationTags.md).
+Loss reasons are managed as tags (e.g., cosmetic defect, wrong dimension, machine fault). Choose the best matching tag to support downstream analysis. See [Loss classification tags](../Management/LossClassificationTags.md).
 
 ## Analytics and reporting
 

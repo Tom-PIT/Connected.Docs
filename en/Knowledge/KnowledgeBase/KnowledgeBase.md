@@ -26,7 +26,7 @@ At the top of the page, a **search bar** allows users to search the **Knowledge 
 
 Below the search bar, **tags** are displayed and can be used as quick filters. Clicking a tag filters the visible content to articles associated with that tag.
 
-Tags are defined in **[Directory tags](../CodeLists/DirectoryTags.md)**.
+Tags are defined in **[Directory tags](../Management/DirectoryTags.md)**.
 
 ## Popular topics
 
@@ -54,9 +54,9 @@ Clicking a directory from **Browse all topics** opens the **directory view**, wh
 
 The directory view includes:
 
-- **Search bar** – searches within the **Knowledge base**
-- **Tag chips** – filter content by tags
-- **Popular topics** – quick access to articles grouped by tag
+- **Search bar** â€“ searches within the **Knowledge base**
+- **Tag chips** â€“ filter content by tags
+- **Popular topics** â€“ quick access to articles grouped by tag
 
 In the directory view, the menu provides options to: 
 - Edit tags and 
@@ -74,7 +74,7 @@ The table of contents shows the directory structure and available articles. Clic
 
 ![KnowledgeBaseDirectoryTOC](../Images/KnowledgeBaseDirectoryTOC.png "Knowledge Base Directory TOC")
 
-The directory structure and table of contents are configured in **[Directories](../CodeLists/Directories.md)** and **[Table of contents](../CodeLists/TableOfContents.md)**.
+The directory structure and table of contents are configured in **[Directories](../Management/Directories.md)** and **[Table of contents](../Management/TableOfContents.md)**.
 
 
 ## Article view
@@ -120,9 +120,9 @@ The **Knowledge base** is typically used for:
 
 ## Related
 
-- **[Directories](../CodeLists/Directories.md)** – manage containers and navigation
-- **[Articles](../CodeLists/Articles.md)** – author content
-- **[Directory tags](../CodeLists/DirectoryTags.md)** – define tags used for filtering
-- **[Table of contents](../CodeLists/TableOfContents.md)** – define directory navigation
+- **[Directories](../Management/Directories.md)** â€“ manage containers and navigation
+- **[Articles](../Management/Articles.md)** â€“ author content
+- **[Directory tags](../Management/DirectoryTags.md)** â€“ define tags used for filtering
+- **[Table of contents](../Management/TableOfContents.md)** â€“ define directory navigation
 
 ---

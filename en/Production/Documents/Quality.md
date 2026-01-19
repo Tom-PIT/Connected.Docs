@@ -1,4 +1,4 @@
-﻿# Quality
+# Quality
 
 The **Quality** activity shows and records quality checklists linked to the current operation. Checklists help keep work safe and products correct by guiding step-by-step controls.
 
@@ -37,9 +37,9 @@ Saved results are linked to the production order and operation and appear in the
 
 ## See also
 
-- [Quality checklists](../CodeLists/QualityChecklists.md) — attach checklists to process versions or operations.
-- [Checklists](../CodeLists/Checklists.md) — create and manage checklist templates.
-- [Check points](../CodeLists/Checkpoints.md) — define individual checklist steps.
+- [Quality checklists](../Management/QualityChecklists.md) — attach checklists to process versions or operations.
+- [Checklists](../Management/Checklists.md) — create and manage checklist templates.
+- [Check points](../Management/Checkpoints.md) — define individual checklist steps.
 
 ---
 

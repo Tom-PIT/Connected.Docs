@@ -1,4 +1,4 @@
-﻿# Loans
+# Loans
 
 A **Loan** document is used to record items that are temporarily lent out—for example, equipment lent to a customer, tools used off-site, or products provided for evaluation.  
 When items are loaned, they become **reserved** and unavailable for other operations until the loan is reversed (returned).
@@ -16,8 +16,8 @@ To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the loan document. |
 | **Document date** | Date when the loan is created. |
-| [**Warehouse**](../CodeLists/Warehouses.md) | Warehouse from which the item is loaned (mandatory). |
-| **Contact** | Customer or partner receiving the item, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse from which the item is loaned (mandatory). |
+| **Contact** | Customer or partner receiving the item, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Notes** | Optional remarks related to the loan. |
 
 ### Detail section
@@ -27,7 +27,7 @@ To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../
 | [**Material**](../../Assets/Domain/Materials.md) | Item being loaned (product, raw material, semi product, etc.). |
 | **Serial number** | Selected serial number for serialized items. |
 | **Best before** | Expiration date if applicable. |
-| [**Warehouse location**](../CodeLists/Locations.md) | Storage location from which the item is taken. |
+| [**Warehouse location**](../Management/Locations.md) | Storage location from which the item is taken. |
 | **Quantity (pc)** | Quantity being loaned. Must be edited before saving. |
 
 ## List of loan documents

@@ -7,12 +7,12 @@ Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vklj
 > **Predpogoji**
 >
 > Pred ustvarjanjem vzdrževalnega naloga se prepričajte, da so nastavljeni:
-> - Vsaj en [**vzdrževalni proces**](../../Proizvodnja/Sifranti/Procesi.md) z aktivno verzijo
+> - Vsaj en [**vzdrževalni proces**](../../Proizvodnja/Upravljanje/Procesi.md) z aktivno verzijo
 > - Definicije opreme
-> - Dodeljene [**organizacijske enote**](../../Proizvodnja/Sifranti//OrganizacijskeEnote.md)
-> - Po potrebi dodatne nastavitve, kot so [**viri**](../../Proizvodnja/Sifranti//Viri.md),
->   [**kontrolni listi**](../..//Proizvodnja/Sifranti/KontrolneListe.md) in
->   [**merske enote**](../../Skupno/Sifranti/MerskeEnote.md), odvisno od poteka vzdrževanja
+> - Dodeljene [**organizacijske enote**](../../Proizvodnja/Upravljanje//OrganizacijskeEnote.md)
+> - Po potrebi dodatne nastavitve, kot so [**viri**](../../Proizvodnja/Upravljanje//Viri.md),
+>   [**kontrolni listi**](../..//Proizvodnja/Upravljanje/KontrolneListe.md) in
+>   [**merske enote**](../../Skupno/Upravljanje/MerskeEnote.md), odvisno od poteka vzdrževanja
 
 Za dostop do vzdrževalnih nalogov pojdite na **Vzdrževanje / Vzdrževalni nalogi** v
 [navigaciji](../../Skupno/UI/Navigacija.md).
@@ -86,7 +86,7 @@ Nato iz seznama izberite konkretno opremo.
 
 ### Korak 2 — Izberi proces
 
-Izberite **vzdrževalni [proces](../../Proizvodnja/Sifranti/Procesi.md)** in
+Izberite **vzdrževalni [proces](../../Proizvodnja/Upravljanje/Procesi.md)** in
 **verzijo procesa**, ki določa vzdrževalne operacije.
 
 ![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2.png "Ustvari vzdrževalni nalog – korak 2")

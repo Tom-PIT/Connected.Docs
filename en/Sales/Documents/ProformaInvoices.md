@@ -1,4 +1,4 @@
-﻿# Proforma invoices
+# Proforma invoices
 
 A **Proforma invoice** is a preliminary billing document used to provide customers with a detailed price quotation before goods or services are delivered. It does **not** trigger accounting or inventory changes, but it serves as a confirmed commercial offer.  
 
@@ -25,24 +25,24 @@ A committed proforma invoice is informational and does not affect financial or s
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the proforma invoice. |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer receiving the document, selected from the [**Business directory**](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer receiving the document, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the proforma invoice is created. |
 | **Validity date** | Date until which the prices and terms are valid (mandatory). |
 | **Reference type** | Type of reference used on payment documents (mandatory). |
 | **Reference number** | Reference number based on the selected reference type. |
-| **[Organization bank account](../CodeLists/OrganizationBankAccounts.md)** | Bank account displayed on the document (mandatory). |
-| **[Cost center](../../Common/CodeLists/CostCenters.md)** | Optional allocation to a cost center. |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account displayed on the document (mandatory). |
+| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional description of the document's purpose. |
 | **Rebate** | Overall rebate applied to the total amount. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/CodeLists/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/CodeLists/Assets.md) | Item or service listed on the proforma invoice. |
+| [**Asset**](../../Assets/Management/Assets.md) | Item or service listed on the proforma invoice. |
 | **Quantity** | Quantity of the asset. |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional discount applied to the detail line. |
@@ -86,12 +86,12 @@ Once you start a new Proforma invoice, follow these steps:
 1. Use the [**action button**](../../Common/UI/ActionButton.md) or the offer’s **Linked documents** panel to create a new draft proforma invoice.
 
 2. Fill in (or edit) the required header fields:  
-   - [**Customer**](../../Common/CodeLists/BusinessDirectory.md)  
+   - [**Customer**](../../Common/Management/BusinessDirectory.md)  
    - **Document date**  
    - **Validity date**  
    - **Rebate** (optional)  
    - **Reference type** / **Reference number**  
-   - [**Organization bank account**](../CodeLists/OrganizationBankAccounts.md)
+   - [**Organization bank account**](../Management/OrganizationBankAccounts.md)
 
    ![Proforma invoice top](../Images/ProformaInvoiceNewTop.png)
 

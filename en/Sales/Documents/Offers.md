@@ -1,4 +1,4 @@
-﻿# Offers
+# Offers
 
 An **Offer** is a sales document used to present a proposed price, quantity, and delivery terms to a customer before a sale is confirmed.  
 Offers help formalize quotations, compare pricing options, and smoothly transition into follow-up documents such as **Sales orders**, **Delivery notes**, and **Issued invoices**.
@@ -19,26 +19,26 @@ A typical flow:
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the offer. |
-| **Customer** | The customer receiving the quotation, selected from the [Business directory](../../Common/CodeLists/BusinessDirectory.md) (mandatory). |
+| **Customer** | The customer receiving the quotation, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the offer is created. |
 | **Expiration date** | Validity date of the offer (mandatory). |
 | **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
-| **Delivery – Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/CodeLists/BusinessDirectory.md). |
-| **Content top** | Predefined introductory text from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Offer*). |
-| **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/CodeLists/Assets.md) list (mandatory). |
-| **Content bottom** | Closing or legal statements from [Predefined texts](../../Common/CodeLists/PredefinedTexts.md) (entity: *Offer*). |
-| [**Payment methods**](../CodeLists/PaymentMethods.md) | Available payment methods shown to the customer. |
+| **Delivery – Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/Management/BusinessDirectory.md). |
+| **Content top** | Predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
+| **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/Management/Assets.md) list (mandatory). |
+| **Content bottom** | Closing or legal statements from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
+| [**Payment methods**](../Management/PaymentMethods.md) | Available payment methods shown to the customer. |
 
 ### Detail fields
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/CodeLists/Assets.md) | Item or service being offered.  |
+| [**Asset**](../../Assets/Management/Assets.md) | Item or service being offered.  |
 | **Delivery date** | Planned delivery date for this item. |
 | **Quantity** | Quantity of the asset. |
-| **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/CodeLists/AssetPriceLists.md). |
+| **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/Management/AssetPriceLists.md). |
 | **Discount (%)** | Optional discount applied to this specific line. |
-| [**Tax rates**](../../Common/CodeLists/TaxRates.md) | Applied tax rule. |
+| [**Tax rates**](../../Common/Management/TaxRates.md) | Applied tax rule. |
 | **Value** | Total line value (quantity × net price, after discounts). |
 
 ## Management
@@ -79,7 +79,7 @@ An example of a list with **Completed** offers:
 
 1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft offer.  
 
-2. Fill in the [**Customer**](../../Common/CodeLists/BusinessDirectory.md), **Expiration date**, and **Rebate** (optional) fields.
+2. Fill in the [**Customer**](../../Common/Management/BusinessDirectory.md), **Expiration date**, and **Rebate** (optional) fields.
 
     ![New offer top](../Images/OfferNewTop.png)
 
@@ -92,7 +92,7 @@ An example of a list with **Completed** offers:
 
     ![Edit detail](../Images/OfferNewDetailsSaved.png)
 
-5. Select the [**Payment method**](../CodeLists/PaymentMethods.md).
+5. Select the [**Payment method**](../Management/PaymentMethods.md).
 
    ![Offer bottom](../Images/OfferNewBottom.png)
 
