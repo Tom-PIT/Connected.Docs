@@ -30,7 +30,7 @@ Clicking on an entry opens it for editing.
 
 To create a new subsistence allowance:
 
-1. Click **Add subsistence allowance**.
+1. Click [**action button**](../../Common/UI/ActionButton.md).
 2. Select the **Country**.
 3. Optionally define a **Postal code** or city.
 4. Enter the **Amount**, **Half amount**, and **Reduced amount**.

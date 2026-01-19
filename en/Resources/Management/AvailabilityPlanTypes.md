@@ -30,7 +30,7 @@ The **action button** allows creating a new availability plan type.
 
 ## Creating and editing availability plan types
 
-Use the **Add availability plan type** form to create or edit an entry.
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new entry or click on an item on the list to edit an existing one.
 
 ![Create availability plan type](../Images/AvailabilityPlanTypesNew.png "Create availability plan type")
 

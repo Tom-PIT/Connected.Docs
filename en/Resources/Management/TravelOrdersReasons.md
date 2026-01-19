@@ -25,7 +25,7 @@ The list displays all configured travel order reasons.
 
 To create a new travel order reason:
 
-1. Click **Add new reason**.
+1. Click [**action button**](../../Common/UI/ActionButton.md) to create a new entry.
 2. Enter the **Name** of the reason.
 3. Click **Add** to save.
 

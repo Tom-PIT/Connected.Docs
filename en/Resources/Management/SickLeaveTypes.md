@@ -25,11 +25,10 @@ This list is typically maintained by administrators or HR managers.
 
 ## Creating and editing sick leave types
 
-From the **Add reason of leave** action:
 
-1. Enter a **Name** for the sick leave type  
-2. Set the **Status** (enabled or disabled)  
-3. Save to make the type available system-wide  
+1. 1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new entry.
+1. Enter a **Name** and set the **Status** (enabled or disabled) for the sick leave type.2. Set   
+3. Click **Save** to make the type available system-wide. 
 
 Changes take effect immediately and apply wherever sick leave is recorded.
 

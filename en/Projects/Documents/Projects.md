@@ -82,7 +82,7 @@ Detailed task execution, effort logging, and status handling are also covered in
 
 Tasks are created **from inside a project**.
 
-Click the **action button** in the project view to open the **Add task** form.
+Click the [**action button**](../../Common/UI/ActionButton.md) in the project view to open the **Add task** form.
 
 ![Add Project Task](../Images/ProjectsNewTask.png "Add project task")
 
