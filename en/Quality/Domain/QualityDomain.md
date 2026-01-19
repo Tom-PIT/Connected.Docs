@@ -19,16 +19,21 @@ To access the Quality domain, navigate to **Quality** in the [navigation](../../
 ![Quality Domain Overview](../Images/QualityDomainOverview.png "Quality Domain overview")
 
 The domain is structured into two functional areas:
+- **Management** - Configure and maintain checklist definitions used by production and maintenance.
+- **Views** - Operate and analyze real-time and historical checklist executions.
 
-- **Management** – Configure and maintain checklist definitions used by production and maintenance.
-  - [**Checklists**](../../Production/Management/Checklists.md) — Manage checklist templates (structure, steps, criteria, and thresholds). This is the same code list available under the [Production domain](../../Production/Domain/ProductionDomain.md) and is maintained centrally there.
+### Management
 
-> [!NOTE]
-> Editing checklist templates is performed in the Production code list: [Checklists](../../Production/Management/Checklists.md). The Quality domain focuses on monitoring Active and Completed executions.
+The [**Checklists**](../../Production/Management/Checklists.md) code list lets you manage checklist templates (structure, steps, criteria, and thresholds).
 
-- **Views** – Operate and analyze real-time and historical checklist executions.
-  - [**Active Checklists**](../Views/ActiveChecklists.md) — View all checklists currently in progress or awaiting completion. Typical columns include checklist name, process/asset, assignee, start time, due date, and status. Common actions: open the record, continue execution, or mark as completed (subject to permissions).
-  - [**Completed Checklists**](../Views/CompletedChecklists.md) — Review finished checklists with outcomes, timestamps, responsible users, and any recorded nonconformities. Supports filtering (date ranges, processes, business units, results) and exporting for audits.
+![Projects Domain Management](../Images/QualityDomainManagement.png)
+
+### Views
+
+The views section focuses on monitoring active and completed quality executions
+
+  - [**Active checklists**](../Views/ActiveChecklists.md) — View all checklists currently in progress or awaiting completion. Typical columns include checklist name, process/asset, assignee, start time, due date, and status. Common actions: open the record, continue execution, or mark as completed (subject to permissions).
+  - [**Completed checklists**](../Views/CompletedChecklists.md) — Review finished checklists with outcomes, timestamps, responsible users, and any recorded nonconformities. Supports filtering (date ranges, processes, business units, results) and exporting for audits.
 
 ![Quality Domain Views](../Images/QualityDomainViews.png "Quality Domain views")
 
