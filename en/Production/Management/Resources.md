@@ -1,4 +1,4 @@
-﻿# Resources
+# Resources
 
 Resources are used to define and manage all **human** and **non-human** assets available across **Production** and **Maintenance**. These include workers, technicians, machines, workstations, tools, test equipment, and teams. Resources created here can later be assigned to **[operations](Operations.md)**, **[processes](Processes.md)**, and documents such as **[production orders](../Documents/ProductionOrders.md)** and **[maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md)**.
 
@@ -23,8 +23,6 @@ The following table lists all fields used across **Human**, **Non-human**, and *
 | **Members** | Human resources included in the team. |  |  | ✔️ |
 | **Enabled** | Indicates whether the resource/team is active. | ✔️ | ✔️ | ✔️ |
 
----
-
 ## Toolbar actions
 
 ![Resources toolbar](../Images/ResourcesListAddNewButtons.png "Resources toolbar")
@@ -42,13 +40,15 @@ Examples:
 - **Assembly stations** (folder)  
   • Assembly station 1 (non-human)  
   • Assembly station 2 (non-human)
-- **John Doe 1** (human resource)
-- **John Doe 2** (human resource)
+- **Vehicles** (folder)  
+  • Personal vehicle - Janez Novak (non-human)  
+- **Janez Novak** (human resource)
+- **Peter Mlakar** (human resource)
 - **Spray booth + spray guns** (non-human resource not in any folder)
 - **Calibration tools** (non-human)  
 - **Maintenance team A** (team)
 
-![Resources Detail](../Images/ResourcesDetail.png "Resources list detail")
+![Resources Detail](../Images/ResourcesDetailV2.png "Resources list detail")
 
 > [!NOTE]
 > Folders are optional; standalone resources can exist without belonging to one.
@@ -57,7 +57,7 @@ Examples:
 
 Selecting an item shows its details and the Edit form.
 
-![Resources list](../Images/ResourcesListEdit.png "Resources list")
+![Resources list](../Images/ResourcesListEditV2.png "Resources list")
 
 ## Creating a new resource
 
@@ -68,6 +68,12 @@ Selecting an item shows its details and the Edit form.
    - **Add team**
 2. Complete the fields described in the appropriate schema section.
 3. Click **Add** or **Save** to confirm.
+
+> [!IMPORTANT]
+> To use vehicles in related documents (for example, [travel orders](../../Resources/Documents/TravelOrders.md)), add them as **non-human resources** and tag them with **`vehicle`**. Only non-human resources with this tag are recognized as vehicles by the system.
+>
+> ![Travel Orders Vehicles](../Images/ResourcesVehicles.png)
+
 
 ## Editing a resource
 
