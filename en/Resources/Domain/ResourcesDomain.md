@@ -30,8 +30,7 @@ The **Documents** section contains formal resource-related documents used for ad
 
 Available documents include:
 
-- **[Travel orders](../Documents/TravelOrders.md)**  
-  Register, approve, and track employee travel related to work activities, including destinations, dates, and allowances.
+- **[Travel orders](../Documents/TravelOrders.md)** – Register, approve, and track employee travel related to work activities, including destinations, dates, and allowances.
 
 Documents typically represent *records* rather than execution workflows.
 
@@ -43,23 +42,17 @@ These screens focus on **execution, visibility, and daily tracking**, not config
 
 Available views include:
 
-- **[Work items costs](../Views/WorkItemsCosts.md)**  
-  Overview of cost-related data linked to work items and assigned resources.
+- **[Work items costs](../Views/WorkItemsCosts.md)** – Overview of cost-related data linked to work items and assigned resources.
 
-- **[Reminders](../Views/Reminders.md)**  
-  Personal and operational reminders related to tasks, deadlines, or administrative actions.
+- **[Reminders](../Views/Reminders.md)** – Personal and operational reminders related to tasks, deadlines, or administrative actions.
 
-- **[Resource view](../Views/ResourceView.md)**  
-  Overview of resources, their assignments, and availability across time.
+- **[Resource view](../Views/ResourceView.md)** – Overview of resources, their assignments, and availability across time.
 
-- **[Time logs](../Views/TimeLogs.md)**  
-  Review and manage time entries recorded by resources.
+- **[Time logs](../Views/TimeLogs.md)** – Review and manage time entries recorded by resources.
 
-- **[Worksheets](../Views/Worksheets.md)**  
-  Structured time and activity reporting, often used for approvals or payroll processes.
+- **[Worksheets](../Views/Worksheets.md)** – Structured time and activity reporting, often used for approvals or payroll processes.
 
-- **[Availability plans](../Views/AvailabilityPlans.md)**  
-  Visual representation of planned availability, absences, and working schedules.
+- **[Availability plans](../Views/AvailabilityPlans.md)** – Visual representation of planned availability, absences, and working schedules.
 
 ![Resources Views Overview](../Images/ResourcesDomainOverview.png "Resources Views Overview")
 
@@ -98,8 +91,7 @@ The **Analytics** section provides insight into workforce utilization and operat
 
 Available analytical views include:
 
-- **[Work time analysis](../Analytics/WorkTimeAnalysis.md)**  
-  Analyze worked hours, absences, availability patterns, and utilization trends.
+- **[Work time analysis](../Analytics/WorkTimeAnalysis.md)** – Analyze worked hours, absences, availability patterns, and utilization trends.
 
 Analytics screens are **read-only** and support planning, optimization, and decision-making.
 

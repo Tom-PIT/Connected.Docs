@@ -20,9 +20,9 @@ The list view shows all configured availability plan types.
 
 For each entry, the following information is visible:
 
-- **Name** – The user-facing name of the availability type
-- **Type** – The general category (for example *Work* or *Sick leave*)
-- **Status indicator** – Shows whether the type is enabled
+- **Name**
+- **Type**
+- **Status indicator**
 
 Clicking an item in the list opens its **edit screen**.
 
