@@ -60,3 +60,5 @@ A search field in the top-right corner allows quick lookup of specific requests.
 Approved paid leave requests are reflected in the employee’s time records and are visible in **Time logs – View**.
 
 This screen focuses on **decision-making and approval workflows**, while detailed attendance and hour summaries are handled elsewhere.
+
+---
