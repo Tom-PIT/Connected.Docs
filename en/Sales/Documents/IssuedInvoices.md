@@ -41,7 +41,7 @@ Invoices can also be created manually as stand-alone documents when required.
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Management/Assets.md) | Invoiced item or service from the **Assets** domain. |
+| [**Asset**](../../Assets/Assets/Assets.md) | Invoiced item or service from the **Assets** domain. |
 | **Quantity** | Quantity of the asset being invoiced. |
 | **Net price** | Net price per unit, usually taken from price lists or the related document. |
 | **Discount (%)** | Optional line-level discount. |

@@ -82,6 +82,9 @@ Available configuration and code lists include:
 
 These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.
 
+> [!TIP]
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+
 ## Production process lifecycle
 
 Production activities typically follow this sequence:

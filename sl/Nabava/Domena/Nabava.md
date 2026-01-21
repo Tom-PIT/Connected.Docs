@@ -78,6 +78,9 @@ Razpoložljive nastavitve in šifranti vključujejo:
 
 Ti elementi določajo, kako se nabavni procesi izvajajo in kako so strukturirani nabavni podatki.
 
+> [!TIP]
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+
 ## Nabavni procesi
 
 Nabavni procesi običajno sledijo strukturiranemu življenjskemu ciklu:

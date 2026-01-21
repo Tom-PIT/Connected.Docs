@@ -25,10 +25,10 @@ Clicking the month name opens a fast month/year selection view:
 ### **Material type filter**
 You can filter the list by:
 
-- [Products](../../Assets/Management/Products.md)  
-- [Semi products](../../Assets/Management/SemiProducts.md)  
-- [Repro materials](../../Assets/Management/ReproMaterials.md)  
-- [Raw materials](../../Assets/Management/RawMaterials.md) 
+- [Products](../../Assets/Materials/Products.md)  
+- [Semi products](../../Assets/Materials/SemiProducts.md)  
+- [Repro materials](../../Assets/Materials/ReproMaterials.md)  
+- [Raw materials](../../Assets/Materials/RawMaterials.md) 
 
 ### **Tags filter**
 You can refine the list by selecting material tags.

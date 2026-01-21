@@ -1,6 +1,6 @@
 # Disassemblies
 
-Disassemblies are logistics documents used to break down a [set (combined material)](../../Assets/Management/Sets.md) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.
+Disassemblies are logistics documents used to break down a [set (combined material)](../../Assets/Materials/Sets.md) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.
 
 Use a Disassembly when you receive or store sets (bundled materials) but need to consume or sell their components separately. Publishing a Disassembly reduces the set’s stock and increases the stock of its parts according to the structure defined on the set.
 
@@ -9,7 +9,7 @@ Use a Disassembly when you receive or store sets (bundled materials) but need to
 
 > [!NOTE]
 > - Disassembly affects inventory on publish: parts become available and the set quantity decreases accordingly.
-> - In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/Management/Sets.md)** code list.
+> - In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/Materials/Sets.md)** code list.
 
 To access **Disassemblies**, go to **Logistics / Documents / Disassemblies** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -31,7 +31,7 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 
 | Field | Description |
 |-------|-------------|
-| **Set (material)** | The combined material (e.g., a furniture set) you are disassembling (required). See [Sets](../../Assets/Management/Sets.md). |
+| **Set (material)** | The combined material (e.g., a furniture set) you are disassembling (required). See [Sets](../../Assets/Materials/Sets.md). |
 | **Quantity** | How many sets to disassemble (required). |
 | **Serial number** | Item serial number, if applicable. |
 | **Best before** | Best before date for perishable sets/components, if applicable. |

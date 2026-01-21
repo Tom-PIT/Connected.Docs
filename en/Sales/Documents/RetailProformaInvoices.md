@@ -46,7 +46,7 @@ Retail proforma invoices **do not affect inventory**.
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Management/Assets.md) | Item or service being sold. |
+| [**Asset**](../../Assets/Assets/Assets.md) | Item or service being sold. |
 | **Quantity** | Quantity of the asset (default: **1**). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |

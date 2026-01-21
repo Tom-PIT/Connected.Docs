@@ -40,7 +40,7 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Zaračunan izdelek ali storitev iz področja Sredstva. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Zaračunan izdelek ali storitev iz področja Sredstva. |
 | **Količina** | Količina zaračunanega sredstva. |
 | **Cena brez DDV** | Neto cena na enoto, običajno povzeta iz cenikov ali povezanega dokumenta. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

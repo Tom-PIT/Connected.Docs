@@ -8,7 +8,7 @@ osnovne konfiguracije, ki določajo delovanje celotnega sistema na ravni organiz
 > (npr. [Prodaja](../../Prodaja/Domena/Prodaja.md),
 > [Nabava](../../Nabava/Domena/Nabava.md),
 > [Logistika](../../Logistika/Domena/Logistika.md),
-> [Sredstva](../../Sredstva/Domena/Sredstva.md))
+> [Sredstva](../../Sredstva/Domena/DomenaSredstve.md))
 > in jih je treba pravilno nastaviti **pred začetkom operativnega dela**.
 
 Ta dokument opisuje dve ključni konfiguracijski področji:

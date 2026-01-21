@@ -23,10 +23,10 @@ S klikom na ime meseca se odpre hiter pogled za izbiro meseca in leta:
 ### **Filter vrste materiala**
 Seznam lahko filtrirate po:
 
-- [Izdelki](../../Sredstva/Upravljanje/Izdelki.md)  
-- [Polizdelki](../../Sredstva/Upravljanje/Polizdelki.md)  
-- [Repro materiali](../../Sredstva/Upravljanje/ReproMateriali.md)  
-- [Surovine](../../Sredstva/Upravljanje/Surovine.md)
+- [Izdelki](../../Sredstva/Materiali/Izdelki.md)  
+- [Polizdelki](../../Sredstva/Materiali/Polizdelki.md)  
+- [Repro materiali](../../Sredstva/Materiali/ReproMateriali.md)  
+- [Surovine](../../Sredstva/Materiali/Surovine.md)
 
 ### **Filter oznak**
 Seznam lahko dodatno zožite z izbiro oznak materialov.

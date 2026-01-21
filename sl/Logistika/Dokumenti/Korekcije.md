@@ -26,8 +26,8 @@ Vsaka podrobnost opisuje material in korekcijo, ki se izvede.
 
 | Polje | Opis |
 |-------|------|
-| **Tip materiala** | Kategorija materiala, npr. [Izdelki](../../Sredstva/Upravljanje/Izdelki.md), [Polizdelki](../../Sredstva/Upravljanje/Polizdelki.md), [Surovine](../../Sredstva/Upravljanje/Surovine.md), [Repro materiali](../../Sredstva/Upravljanje/ReproMateriali.md). |
-| **Material** | Izbran artikel (npr. Borova miza) iz kataloga [Sredstev](../../Sredstva/Upravljanje/Sredstva.md). |
+| **Tip materiala** | Kategorija materiala, npr. [Izdelki](../../Sredstva/Materiali/Izdelki.md), [Polizdelki](../../Sredstva/Materiali/Polizdelki.md), [Surovine](../../Sredstva/Materiali/Surovine.md), [Repro materiali](../../Sredstva/Materiali/ReproMateriali.md). |
+| **Material** | Izbran artikel (npr. Borova miza) iz kataloga [Sredstev](../../Sredstva/Sredstva/Sredstva.md). |
 | **Serijska številka** | Serijska številka, na katero se korekcija nanaša, če je material serijsko voden. |
 | **Datum do** | Datum roka uporabe, če je relevanten za pokvarljive materiale. |
 | **Skladiščna lokacija** | Regal / polica v skladišču za natančno umestitev. Glejte [Lokacije](../Upravljanje/Lokacije.md). |

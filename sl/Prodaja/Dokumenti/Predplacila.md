@@ -43,7 +43,7 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Izdelek ali storitev, na katero se predplačilo nanaša. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Izdelek ali storitev, na katero se predplačilo nanaša. |
 | **Količina** | Količina sredstva. |
 | **Cena brez DDV** | Cena na enoto brez DDV. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

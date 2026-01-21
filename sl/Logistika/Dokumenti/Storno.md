@@ -37,7 +37,7 @@ Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [naviga
 
 | Polje | Opis |
 |-------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se razveljavlja ([izdelek](../../Sredstva/Upravljanje/Izdelki.md), [polizdelek](../../Sredstva/Upravljanje/Polizdelki.md), [surovina](../../Sredstva/Upravljanje/Surovine.md) ali [repro material](../../Sredstva/Upravljanje/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki se razveljavlja ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
 | [**Lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija razveljavljene zaloge. |
 | **Izvorna količina** | Količina, obdelana v razveljavljenem dokumentu. |
 | **Količina (kos)** | Količina za razveljavitev — **urejanje dovoljeno**, za delno ali polno razveljavitev. |

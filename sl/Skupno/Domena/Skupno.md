@@ -25,6 +25,10 @@ Modul Skupno vsebuje več kategorij skupnih šifrantov, ki se uporabljajo v celo
 
 Ti šifranti predstavljajo osnovne gradnike, na katerih temeljijo druge domene.
 
+> [!NOTE]
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+
+
 ### Geografija in organizacija
 
 Te nastavitve določajo geografski in organizacijski kontekst podjetja in njegovih dokumentov.

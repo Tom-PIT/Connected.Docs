@@ -1,12 +1,12 @@
 # Prevzemi
 
 Dokument **Prevzem** se uporablja za evidentiranje prihoda materialov v skladišče. Ko blago fizično prispe od dobavitelja ali iz druge lokacije, ustvarite prevzemni dokument, s katerim ga zabeležite v sistemu. Primeri prevzemov vključujejo:
-- [**Izdelke**](../../Sredstva/Upravljanje/Izdelki.md)  
-- [**Polizdelke**](../../Sredstva/Upravljanje/Polizdelki.md)  
-- [**Repro materiale**](../../Sredstva/Upravljanje/ReproMateriali.md)  
-- [**Surovine**](../../Sredstva/Upravljanje/Surovine.md)
+- [**Izdelke**](../../Sredstva/Materiali/Izdelki.md)  
+- [**Polizdelke**](../../Sredstva/Materiali/Polizdelki.md)  
+- [**Repro materiale**](../../Sredstva/Materiali/ReproMateriali.md)  
+- [**Surovine**](../../Sredstva/Materiali/Surovine.md)
 
-Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../../Sredstva/Upravljanje/Pakiranje.md), količina, serijske številke, rok uporabe in [skladiščna lokacija](../Upravljanje/Lokacije.md). To zagotavlja natančno stanje zaloge in popolno sledljivost materialov od trenutka vstopa v skladišče.
+Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../../Sredstva/Materiali/Pakiranje.md), količina, serijske številke, rok uporabe in [skladiščna lokacija](../Upravljanje/Lokacije.md). To zagotavlja natančno stanje zaloge in popolno sledljivost materialov od trenutka vstopa v skladišče.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Prevzemi](https://www.youtube.com/watch?v=oTOYD-nlCqE)**.
