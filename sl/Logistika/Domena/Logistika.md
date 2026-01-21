@@ -95,6 +95,9 @@ Razpoložljivi šifranti vključujejo:
 - **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – enotne merske enote v sistemu.
 - **[Analiza materialov](../Upravljanje/AnalizaMaterialov.md)** – nastavitve za analize materialov.
 
+> [!TIP]
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+
 ## Logistični procesi
 
 Logistične operacije sledijo doslednemu življenjskemu ciklu:

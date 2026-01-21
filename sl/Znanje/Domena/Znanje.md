@@ -53,6 +53,12 @@ Razdelek **Upravljanje** se uporablja za nastavitev in vzdrževanje strukture do
 ![Upravljanje Znanja](../Images/KnowledgeDomainManagement.png "Upravljanje Znanja")
 
 Upravljanje vključuje naslednja konfiguracijska področja:
+- **[Imeniki](../Upravljanje/Imeniki.md)** – organizacijski vsebniki za članke
+- **[Oznake](../Upravljanje/OznakeImenika.md)** – klasifikacija in filtriranje člankov
+
+> [!TIP]
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+
 
 ### Imeniki
 

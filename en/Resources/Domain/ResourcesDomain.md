@@ -62,6 +62,8 @@ The **Management** section contains configuration screens and master data requir
 
 ![Resources Management](../Images/ResourcesDomainManagement.png "Resources Management")
 
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+
 Available configuration and master data include:
 
 - **[Availability plan types](../Management/AvailabilityPlanTypes.md)**  

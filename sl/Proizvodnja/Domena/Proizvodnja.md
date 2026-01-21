@@ -96,9 +96,10 @@ Na voljo so naslednje nastavitve in šifranti:
 - **[Viri](../Upravljanje/Viri.md)** – človeški in nečloveški viri v proizvodnji
 - **[Skladiščne lokacije](../Upravljanje/SkladiscneLokacije.md)** – lokacije za proizvodnjo in logistiko
 
-Ti elementi določajo delovanje proizvodnje: razpoložljivost virov,
-strukturo procesov, nastavitev operacij, preverjanje kakovosti
-in analitično klasifikacijo.
+Ti elementi določajo delovanje proizvodnje: razpoložljivost virov, strukturo procesov, nastavitev operacij, preverjanje kakovosti in analitično klasifikacijo.
+
+> [!TIP]
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 ## Življenjski cikel proizvodnega procesa
 

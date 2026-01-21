@@ -83,6 +83,9 @@ Available configuration and code lists include:
 
 These elements define how sales operations behave and how commercial data is structured.
 
+> [!TIP]
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+
 ## Sales Processes
 
 Sales operations typically follow a structured lifecycle:

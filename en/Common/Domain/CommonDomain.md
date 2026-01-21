@@ -25,6 +25,10 @@ The Common module contains several categories of shared code lists used througho
 
 These code lists act as foundational building blocks that other domains depend on.
 
+> [!TIP]
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+
+
 ### Geography & Organization
 
 These settings define the geographic and organizational context of the company and its documents.

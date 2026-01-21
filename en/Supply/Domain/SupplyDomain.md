@@ -78,6 +78,9 @@ Available configuration and code lists include:
 
 These elements determine how the procurement processes behave and how supply-related data is structured.
 
+> [!TIP]
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+
 ## Supply Processes
 
 Procurement operations typically follow a structured lifecycle:

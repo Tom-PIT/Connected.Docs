@@ -81,6 +81,9 @@ This area is typically used by administrators or power users to:
 
 Changes made here affect how projects and tasks are structured and displayed throughout the domain.
 
+> [!TIP]
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+
 ## Projects Workflow Overview
 
 A typical workflow within the Projects domain follows these steps:
