@@ -30,9 +30,27 @@ This index lists all management and configuration documentation across domains. 
 - [Travel destinations](Resources/Management/TravelDestinations.md)
 - [Travel order reasons](Resources/Management/TravelOrderReasons.md)
 
+## Assets
+
+### Assets
+- [Assets](Assets/Assets/Assets.md)
+- [Asset price lists](Assets/Assets/AssetPriceLists.md)
+
+
+### Materials
+- [Alternative measure units](Assets/Materials/AlternativeMeasureUnits.md)
+- [Import materials](Assets/Materials/ImportMaterials.md)
+- [Material price lists](Assets/Materials/MaterialPriceLists.md)
+- [Packaging](Assets/Materials/Packaging.md)
+- [Products](Assets/Materials/Products.md)
+- [Raw materials](Assets/Materials/RawMaterials.md)
+- [Repro materials](Assets/Materials/ReproMaterials.md)
+- [Semi-products](Assets/Materials/SemiProducts.md)
+- [Sets](Assets/Materials/Sets.md)
+
 ## Production and Maintenance
-- [Checklists](Production/Management/Checklists.md)
 - [Check points](Production/Management/CheckPoints.md)
+- [Checklists](Production/Management/Checklists.md)
 - [Downtime tags](Production/Management/DowntimeTags.md)
 - [Human resources](Production/Management/HumanResources.md)
 - [Inputs](Production/Management/Inputs.md)
@@ -50,8 +68,8 @@ This index lists all management and configuration documentation across domains. 
 - [Warehouse locations](Production/Management/WarehouseLocations.md)
 
 ## Logistics
-- [Logistics configuration](Logistics/Management/LogisticsConfiguration.md)
 - [Locations](Logistics/Management/Locations.md)
+- [Logistics configuration](Logistics/Management/LogisticsConfiguration.md)
 - [Material analysis management](Logistics/Management/MaterialAnalysisManagement.md)
 - [Stock boundaries](Logistics/Management/StockBoundaries.md)
 - [Warehouses](Logistics/Management/Warehouses.md)
@@ -61,3 +79,5 @@ This index lists all management and configuration documentation across domains. 
 
 ## System
 - [Configuration](System/Settings/Configuration.md)
+
+---
