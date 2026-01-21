@@ -46,7 +46,7 @@ Bremepisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Zaračunano blago ali storitev. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Zaračunano blago ali storitev. |
 | **Količina** | Zaračunana količina (pozitivna vrednost). |
 | **Neto cena** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

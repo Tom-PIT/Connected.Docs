@@ -25,7 +25,7 @@ Tipičen potek:
 | **Rabat** | Neobvezen skupni popust na celotno ponudbo (npr. vnesite *2* za 2 % popust). |
 | **Dostava – Podjetje / Naslov** | Podatki o dobavi za stranko; vrednosti se povzamejo iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
-| **Postavke** | Seznam ponujenih postavk (sredstev) s cenami in dobavnimi podatki; postavke izvirajo iz šifranta [Sredstva](../../Sredstva/Upravljanje/Izdelki.md) (obvezno). |
+| **Postavke** | Seznam ponujenih postavk (sredstev) s cenami in dobavnimi podatki; postavke izvirajo iz šifranta [Sredstva](../../Sredstva/Materiali/Izdelki.md) (obvezno). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
 | [**Način plačila**](../Upravljanje/NacinPlacila.md) | Načini plačila, prikazani stranki. |
 
@@ -33,10 +33,10 @@ Tipičen potek:
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Izdelek ali storitev, ki se ponuja. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Izdelek ali storitev, ki se ponuja. |
 | **Datum dobave** | Predviden datum dobave za to postavko. |
 | **Količina** | Količina sredstva. |
-| **Cena brez DDV (na enoto)** | Cena na enoto, povzeta iz nastavitev sredstva ali ustreznega [cenika sredstev](../../Sredstva/Upravljanje/CenikiMaterialov.md). |
+| **Cena brez DDV (na enoto)** | Cena na enoto, povzeta iz nastavitev sredstva ali ustreznega [cenika sredstev](../../Sredstva/Materiali/CenikiMaterialov.md). |
 | **Popust (%)** | Neobvezen popust za posamezno postavko. |
 | [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Skupna vrednost postavke (količina × neto cena po popustih). |

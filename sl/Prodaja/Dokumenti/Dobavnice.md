@@ -34,7 +34,7 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Izdelek ali storitev, ki se dobavlja. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Izdelek ali storitev, ki se dobavlja. |
 | **Datum opravljene storitve** | Datum dobave za posamezno postavko. |
 | **Izdana količina** | Prikazuje, koliko enot je že izdanih (npr. *0/3* pred izdajo, *3/3* po celotni izdaji). |
 
