@@ -41,6 +41,10 @@ Configure shared structures used by maintenance. The Maintenance domain leverage
 
 Use these code lists to drive maintenance workflows and execution across orders and schedules.
 
+> [!TIP]
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+
+
 ## Analytics
 
 Monitor performance and reliability using built-in analytics.

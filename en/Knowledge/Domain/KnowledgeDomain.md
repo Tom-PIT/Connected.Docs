@@ -53,6 +53,11 @@ The **Management** section is used to configure and maintain the structure of th
 ![Knowledge Management](../Images/KnowledgeDomainManagement.png "Knowledge Management")
 
 Management includes the following configuration areas:
+- [**Directories**](../Management/Directories.md)
+- [**Directory tags**](../Management/DirectoryTags.md)
+
+> [!TIP]
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ### Directories
 

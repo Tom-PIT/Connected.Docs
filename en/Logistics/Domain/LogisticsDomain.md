@@ -97,6 +97,9 @@ Available code lists and configuration screens:
 
 These elements define how logistics operations behave and how data is structured.
 
+> [!TIP]
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+
 ## Logistics Processes
 
 Logistics operations follow a consistent lifecycle:
