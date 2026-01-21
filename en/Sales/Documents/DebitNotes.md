@@ -48,7 +48,7 @@ Debit notes affect accounting only and do not impact inventory.
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Management/Assets.md) | Charged item or service. |
+| [**Asset**](../../Assets/Assets/Assets.md) | Charged item or service. |
 | **Quantity** | Quantity being charged (positive value). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |

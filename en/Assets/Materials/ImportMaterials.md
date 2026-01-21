@@ -4,10 +4,10 @@ This document describes how to import multiple materials into the system at once
 
 The import supports the following material types:
 
-- [Products](../Management/Products.md)  
-- [Semi products](../Management/SemiProducts.md)  
-- [Repro materials](../Management/ReproMaterials.md)  
-- [Raw materials](../Management/RawMaterials.md)
+- [Products](../Materials/Products.md)  
+- [Semi products](../Materials/SemiProducts.md)  
+- [Repro materials](../Materials/ReproMaterials.md)  
+- [Raw materials](../Materials/RawMaterials.md)
 
 
 The screen also provides a downloadable example file, which shows the required structure of the spreadsheet. Before importing, you can run a **Test import**, which validates the data and reports errors without applying changes.

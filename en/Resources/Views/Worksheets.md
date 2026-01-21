@@ -11,7 +11,7 @@ To access **Worksheets**, go to **Resources / Worksheets** in the [navigation](.
 
 | Field | Description |
 |------|-------------|
-| **[Timesheet](Timesheets.md)** | Defines the type of work being planned. |
+| **[Timesheet](../Management/Timesheets.md)** | Defines the type of work being planned. |
 | **Execution pattern** | Determines whether the worksheet is executed **Once** or **Multiple** times. |
 | **Start** | Start time of the planned work. |
 | **End** | End time of the planned work. |

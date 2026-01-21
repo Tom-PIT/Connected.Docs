@@ -42,7 +42,7 @@ Prepayments track received funds and do not affect inventory.
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Management/Assets.md) | Item or service that the prepayment relates to. |
+| [**Asset**](../../Assets/Assets/Assets.md) | Item or service that the prepayment relates to. |
 | **Quantity** | Quantity of the asset. |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional discount on the line item. |

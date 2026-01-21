@@ -14,7 +14,7 @@ To access this page, open a process version from **Production / Management / [Pr
 | Field | Description |
 |-------|-------------|
 | **Entity** | Select whether the output refers to a [**Material**](../../Assets/Domain/Materials.md) or a **Material tag**. |
-| **Type** | The material category to output: <br>• **[Products](../../Assets/Management/Products.md)**<br>• **[Raw materials](../../Assets/Management/RawMaterials.md)**<br>• **[Repro materials](../../Assets/Management/ReproMaterials.md)**<br>• **[Semi products](../../Assets/Management/SemiProducts.md)** |
+| **Type** | The material category to output: <br>• **[Products](../../Assets/Materials/Products.md)**<br>• **[Raw materials](../../Assets/Materials/RawMaterials.md)**<br>• **[Repro materials](../../Assets/Materials/ReproMaterials.md)**<br>• **[Semi products](../../Assets/Materials/SemiProducts.md)** |
 | **Material** | The specific material or product produced by this operation. |
 | **Calculation type** | Defines how the quantity is calculated: **Dynamic** or **Static**. |
 | **Quantity** | The produced quantity. The measure unit depends on the selected material (pcs, kg, m, etc.). |
