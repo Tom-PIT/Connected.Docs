@@ -8,6 +8,7 @@ Dobrodošli v dokumentaciji Connected. Ta repozitorij vsebuje uporabniške vodi�
 
 - Pregled platforme in prvi koraki: **[Uvod](Uvod/00.Uvod.md)**
 - Spoznajte navigacijo po sistemu: **[Navigacija](Skupno/UI/Navigacija.md)**
+- Najdite vse upravljalske in konfiguracijske dokumente: **[Kazalo upravljanja](KazaloUpravljanja.md)**
 
 ## Kako je dokumentacija organizirana
 
