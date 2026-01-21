@@ -26,8 +26,8 @@ Each detail describes the material and the correction to apply.
 
 | Field | Description |
 |-------|-------------|
-| **Material type** | Item category, e.g., [Products](../../Assets/Management/Products.md), [Semi products](../../Assets/Management/SemiProducts.md), [Raw materials](../../Assets/Management/RawMaterials.md), [Repro materials](../../Assets/Management/ReproMaterials.md). |
-| **Material** | Selected item (e.g., Pine table) from the [Assets](../../Assets/Management/Assets.md) catalog. |
+| **Material type** | Item category, e.g., [Products](../../Assets/Materials/Products.md), [Semi products](../../Assets/Materials/SemiProducts.md), [Raw materials](../../Assets/Materials/RawMaterials.md), [Repro materials](../../Assets/Materials/ReproMaterials.md). |
+| **Material** | Selected item (e.g., Pine table) from the [Assets](../../Assets/Assets/Assets.md) catalog. |
 | **Serial number** | Serial number to which the correction applies, if the material is serialized. |
 | **Best before** | Best-before date, if applicable for perishable materials. |
 | **Warehouse location** | Bin/shelf in the warehouse for precise placement. See [Locations](../Management/Locations.md). |

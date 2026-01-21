@@ -25,7 +25,7 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | The material being transferred ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | The material being transferred ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **Serial number** | The serial number of the unit being transferred. |
 | **Best before** | Expiration date (for materials with shelf life). |
 | [**Source location**](../Management/Locations.md) | Storage location in the source warehouse. |

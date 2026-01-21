@@ -81,6 +81,9 @@ Ta del običajno uporabljajo skrbniki ali napredni uporabniki za:
 
 Spremembe, narejene tukaj, vplivajo na strukturo in prikaz projektov ter opravil v celotni domeni.
 
+> [!TIP]
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+
 ## Pregled poteka dela v domeni Projekti
 
 Tipičen potek dela v domeni Projekti vključuje naslednje korake:

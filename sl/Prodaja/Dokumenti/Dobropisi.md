@@ -46,7 +46,7 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Dobropisano blago ali storitev. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Dobropisano blago ali storitev. |
 | **Količina** | Dobropisana količina (običajno negativna). |
 | **Cena brez DDV** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

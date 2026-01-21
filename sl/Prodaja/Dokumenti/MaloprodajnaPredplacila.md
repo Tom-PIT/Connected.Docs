@@ -48,7 +48,7 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Prodan izdelek ali storitev. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Prodan izdelek ali storitev. |
 | **Količina** | Količina sredstva (privzeto **1**). |
 | **Cena brez DDV** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na postavki. |

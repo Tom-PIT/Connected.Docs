@@ -42,7 +42,7 @@ A committed proforma invoice is informational and does not affect financial or s
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Management/Assets.md) | Item or service listed on the proforma invoice. |
+| [**Asset**](../../Assets/Assets/Assets.md) | Item or service listed on the proforma invoice. |
 | **Quantity** | Quantity of the asset. |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional discount applied to the detail line. |

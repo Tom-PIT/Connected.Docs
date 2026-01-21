@@ -41,7 +41,7 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Prodan izdelek ali storitev. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Prodan izdelek ali storitev. |
 | **Količina** | Prodana količina (privzeto **1**). |
 | **Neto cena** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na postavki. |

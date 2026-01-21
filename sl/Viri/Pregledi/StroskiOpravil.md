@@ -1,28 +1,91 @@
 # Stroški opravil
 
-Ta stran je pripravljena kot začasna vsebina. Končni opis bo predstavil pregled stroškov po opravilih in omogočil analizo porabe (čas, stroški, kategorije) po obdobju, virih in organizacijskih enotah.
+Pogled **Stroški opravil** omogoča vpogled v **dejanske stroške izdelave posameznega opravila**, na podlagi porabljenih materialov, vloženega dela in dodatnih stroškov. Namenjen je predvsem analizi [proizvodnih nalogov](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) in [vzdrževalnih nalogov](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md) ter razumevanju porazdelitve stroškov in uspešnosti.
 
-> [!NOTE]
-> Vsebina je začasna. Ko bodo na voljo potrjene specifikacije in posnetki zaslona, bo dokument posodobljen.
+Za dostop do **Stroškov opravil** pojdite na **Viri / Stroški opravil** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-## Namen
+![Stroški opravil – seznam](../Images/WorkItemsCostsSL.png)
 
-- Prikaz stroškov po opravilih v izbranem obdobju (osnovni pregled)
-- Primerjava stroškov med viri, nalogami in organizacijskimi enotami
-- Hiter prehod do povezanih zapisov (opravil, virov)
+## Seznam stroškov opravil
 
-## Filtri (primeri)
+Seznam prikazuje vsa opravila znotraj izbranega časovnega obdobja.
 
-- Datumi (obdobje)
-- Organizacijska enota
-- Vir
-- Vrsta opravila / kategorija
-- Iskanje po nazivu/kodi
+Vsaka vrstica predstavlja **eno opravilo**, običajno povezano s proizvodnim ali vzdrževalnim nalogom, in prikazuje:
 
-## Seznamski pogled
+- referenco opravila,
+- datum nastanka,
+- **strošek na enoto**,
+- vizualne indikatorje spremembe stroška glede na prejšnje obdobje.
 
-- Vsaka vrstica predstavlja strošek opravila za izbran filter.
-- Klik na vrstico odpre podrobnosti opravila (placeholder).
-- Povzetki nad seznamom (skupni strošek, delo) – placeholder.
+Filtri omogočajo omejevanje rezultatov glede na:
+
+- **datum**,
+- **pogled** (proizvodni nalogi / vzdrževalni nalogi).
+
+Klik na opravilo odpre podroben pregled stroškov.
+
+## Podrobnosti stroškov opravila
+
+Izbira opravila odpre podroben pogled z natančno analizo stroškov.
+
+![Podrobnosti stroškov opravila](../Images/WorkItemsCostsDetailsSL.png)
+
+### Pregled stroškov
+
+Na vrhu zaslona so prikazani ključni kazalniki:
+
+- **Strošek na enoto**,
+- **trend stroška** v primerjavi s preteklimi vrednostmi,
+- **distribucija stroškov** (material / delo),
+- **kazalniki uspešnosti**, kot sta:
+  - **Najboljše**,
+  - **Najslabši** prispevek.
+
+### Materiali
+
+Razdelek **Materiali** prikazuje vse materiale, uporabljene pri izdelavi opravila:
+
+- naziv materiala in tip,
+- porabljena količina,
+- strošek,
+- **delež stroškov** v odstotkih.
+
+Razširitev vrstice materiala prikaže dodatne podrobnosti, kjer so na voljo.
+
+### Delo
+
+Razdelek **Delo** prikazuje vložen čas zaposlenih v opravilo:
+
+- zaposleni,
+- trajanje dela,
+- izračunan strošek dela,
+- **delež stroškov**.
+
+Stroški dela se izračunajo na podlagi nastavitev **Postavk virov**.
+
+### Stroški
+
+V tem razdelku so prikazani vsi dodatni stroški, povezani z opravilom (na primer namestitev, prevoz, storitve).  
+Če stroški niso zabeleženi, je razdelek prikazan kot prazen z obvestilom *Ni stroškov*.
+
+### Skupaj
+
+Na dnu pogleda je prikazan **skupni strošek opravila**, ki vključuje:
+
+- materiale,
+- delo,
+- dodatne stroške.
+
+Ta vrednost predstavlja končni strošek izdelave ene enote.
+
+## Opombe o uporabi
+
+- Stroški opravil so **samo za branje** in jih sistem izračuna samodejno.
+- Natančnost podatkov je odvisna od pravilne konfiguracije:
+  - postavk virov,
+  - cen materialov,
+  - beleženja dela.
+- Ta pogled najpogosteje uporabljajo vodje proizvodnje in analitiki.
 
 ---
+

@@ -93,7 +93,7 @@ This is typically used when:
 
 The same dialog is used as for editing existing entries, ensuring a consistent workflow.
 
-## Totals and differences
+## Totals and expected working hours
 
 At the bottom of the screen, totals for the selected period are displayed:
 

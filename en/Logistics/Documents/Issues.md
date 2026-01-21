@@ -25,7 +25,7 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | Material being issued ([product](../../Assets/Management/Products.md), [semi product](../../Assets/Management/SemiProducts.md), [raw material](../../Assets/Management/RawMaterials.md), or [repro material](../../Assets/Management/ReproMaterials.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | Material being issued ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **Serial number** | Selected serial number of the material being issued. |
 | **Best before** | Expiration date (if the material has shelf life). |
 | [**Warehouse location**](../Management/Locations.md) | Current storage location of the selected item. |

@@ -95,6 +95,9 @@ Razpoložljivi šifranti vključujejo:
 - **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – enotne merske enote v sistemu.
 - **[Analiza materialov](../Upravljanje/AnalizaMaterialov.md)** – nastavitve za analize materialov.
 
+> [!TIP]
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+
 ## Logistični procesi
 
 Logistične operacije sledijo doslednemu življenjskemu ciklu:
@@ -121,7 +124,7 @@ Logistika je tesno povezana z drugimi področji sistema:
 | Področje | Povezava |
 |--------|----------|
 | **[Materiali](../../Sredstva/Domena/Materiali.md)** | Določa materiale, ki se skladiščijo in premikajo. |
-| **[Sredstva](../../Sredstva/Domena/Sredstva.md)** | Razpoložljivost temelji na stanju zaloge. |
+| **[Sredstva](../../Sredstva/Domena/DomenaSredstve.md)** | Razpoložljivost temelji na stanju zaloge. |
 | **[Proizvodnja](../../Proizvodnja/Domena/Proizvodnja.md)** | Izdaje in prevzemi povezujejo logistiko s proizvodnjo. |
 | **[Vzdrževanje](../../Vzdrzevanje/Domena/Vzdrzevanje.md)** | Rezervni deli in materiali tečejo skozi logistiko. |
 | **[Prodaja](../../Prodaja/Domena/Prodaja.md)** / **[Nabava](../../Nabava/Domena/Nabava.md)** | Logistika zagotavlja pravilno izpolnjevanje naročil. |
