@@ -2,7 +2,7 @@
 
 Področje **Prodaja** vsebuje vse zapise in dokumente, potrebne za upravljanje komercialnih transakcij s strankami. Vključuje dokumente, kot so [**Ponudbe**](../Dokumenti/Ponudbe.md), [**Naročila strank**](../Dokumenti/NarocilaStrank.md), [**Dobavnice**](../Dokumenti/Dobavnice.md), [**Izdani računi**](../Dokumenti/IzdaniRacuni.md), ter analitične preglede, namenjene razumevanju prodajne uspešnosti in tokov dokumentov.
 
-Medtem ko področje **[Sredstva](../../Sredstva/Domena/Sredstva.md)** določa, *kaj* se prodaja, področje Prodaja določa, *kako* se izdelki ali storitve ponudijo, potrdijo, dobavijo in zaračunajo.
+Medtem ko področje **[Sredstva](../../Sredstva/Domena/DomenaSredstve.md)** določa, *kaj* se prodaja, področje Prodaja določa, *kako* se izdelki ali storitve ponudijo, potrdijo, dobavijo in zaračunajo.
 
 Za dostop do tega področja pojdite na **Prodaja** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -108,7 +108,7 @@ Področje Prodaja je tesno povezano z drugimi operativnimi področji:
 
 | Področje | Povezava |
 |--------|----------|
-| **[Sredstva](../../Sredstva/Domena/Sredstva.md)** | Določa izdelke, cene in konfiguracije, uporabljene v prodajnih dokumentih. |
+| **[Sredstva](../../Sredstva/Domena/DomenaSredstve.md)** | Določa izdelke, cene in konfiguracije, uporabljene v prodajnih dokumentih. |
 | **[Materiali](../../Sredstva/Domena/Materiali.md)** | Zagotavlja podatke o razpoložljivosti in zalogi. |
 | **[Logistika](../../Logistika/Domena/Logistika.md)** | Upravljanje fizične dobave blaga. |
 | **[Nabava](../../Nabava/Domena/Nabava.md)** | Zagotavlja nabavo izdelkov, prodanih strankam. |

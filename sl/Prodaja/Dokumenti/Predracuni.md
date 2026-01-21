@@ -43,7 +43,7 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Upravljanje/Izdelki.md) | Izdelek ali storitev na predračunu. |
+| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Izdelek ali storitev na predračunu. |
 | **Količina** | Količina sredstva. |
 | **Neto cena** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |

@@ -1,6 +1,6 @@
 # Demontaže
 
-Dokument **Demontaža** se uporablja za razstavljanje [**garnitur** (združenih materialov)](../../Sredstva/Upravljanje/Garniture.md) na njihove posamezne komponente. Omogoča sledljivost, pravilno posodabljanje zaloge ter razpoložljivost delov za nadaljnjo uporabo v proizvodnji, nabavi ali prodaji.
+Dokument **Demontaža** se uporablja za razstavljanje [**garnitur** (združenih materialov)](../../Sredstva/Materiali/Garniture.md) na njihove posamezne komponente. Omogoča sledljivost, pravilno posodabljanje zaloge ter razpoložljivost delov za nadaljnjo uporabo v proizvodnji, nabavi ali prodaji.
 
 Demontažo uporabite, kadar prejmete ali skladiščite **garniture**, vendar morate njihove sestavne dele porabiti ali prodajati ločeno. Ob objavi demontaže se zaloga garniture zmanjša, zaloga posameznih komponent pa se poveča glede na strukturo, definirano na garnituri.
 
@@ -9,7 +9,7 @@ Demontažo uporabite, kadar prejmete ali skladiščite **garniture**, vendar mor
 
 > [!NOTE]
 > - Demontaža ob objavi vpliva na zalogo: komponente postanejo razpoložljive, količina garniture pa se ustrezno zmanjša.
-> - Za ustvarjanje demontaže mora biti najprej definirana struktura garniture v šifrantu **[Garniture](../../Sredstva/Upravljanje/Garniture.md)**.
+> - Za ustvarjanje demontaže mora biti najprej definirana struktura garniture v šifrantu **[Garniture](../../Sredstva/Materiali/Garniture.md)**.
 
 Za dostop do **Demontaž** pojdite na **Logistika / Dokumenti / Demontaže** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -32,7 +32,7 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 | Polje | Opis |
 |------|------|
-| **Izdelki** | Združen material (npr. garnitura pohištva), ki se demontira (obvezno). Glejte **[Garniture](../../Sredstva/Upravljanje/Garniture.md)**. |
+| **Izdelki** | Združen material (npr. garnitura pohištva), ki se demontira (obvezno). Glejte **[Garniture](../../Sredstva/Materiali/Garniture.md)**. |
 | **Količina** | Število garnitur za demontažo (obvezno). |
 | **Serijska številka** | Serijska številka artikla, če je uporabljena. |
 | **Datum do** | Datum roka uporabe za pokvarljive garniture ali komponente, če je uporaben. |

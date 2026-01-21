@@ -28,7 +28,7 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [na
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Izdani material ([izdelek](../../Sredstva/Upravljanje/Izdelki.md), [polizdelek](../../Sredstva/Upravljanje/Polizdelki.md), [surovina](../../Sredstva/Upravljanje/Surovine.md) ali [repro material](../../Sredstva/Upravljanje/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Domena/Materiali.md) | Izdani material ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
 | **Serijska številka** | Izbrana serijska številka izdanega materiala. |
 | **Datum do** | Datum poteka (če ima material določen rok uporabe). |
 | [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Trenutna skladiščna lokacija izbrane postavke. |
