@@ -20,7 +20,7 @@ To access this page, go to **Logistics / Documents / Productions** in the [navig
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | Produced item (typically a [product](../../Assets/Management/Products.md) or [semi product](../../Assets/Management/SemiProducts.md)). |
+| [**Material**](../../Assets/Domain/Materials.md) | Produced item (typically a [product](../../Assets/Materials/Products.md) or [semi product](../../Assets/Materials/SemiProducts.md)). |
 | **Quantity** | Produced quantity recorded for the material line. |
 
 ## List of production documents

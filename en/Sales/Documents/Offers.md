@@ -25,7 +25,7 @@ A typical flow:
 | **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
 | **Delivery – Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Content top** | Predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
-| **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/Management/Assets.md) list (mandatory). |
+| **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/Assets/Assets.md) list (mandatory). |
 | **Content bottom** | Closing or legal statements from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Available payment methods shown to the customer. |
 
@@ -33,10 +33,10 @@ A typical flow:
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Management/Assets.md) | Item or service being offered.  |
+| [**Asset**](../../Assets/Assets/Assets.md) | Item or service being offered.  |
 | **Delivery date** | Planned delivery date for this item. |
 | **Quantity** | Quantity of the asset. |
-| **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/Management/AssetPriceLists.md). |
+| **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/Assets/AssetPriceLists.md). |
 | **Discount (%)** | Optional discount applied to this specific line. |
 | [**Tax rates**](../../Common/Management/TaxRates.md) | Applied tax rule. |
 | **Value** | Total line value (quantity × net price, after discounts). |

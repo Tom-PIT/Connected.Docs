@@ -39,7 +39,7 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Management/Assets.md) | Sold item or service. |
+| [**Asset**](../../Assets/Assets/Assets.md) | Sold item or service. |
 | **Quantity** | Quantity sold (default: **1**). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |

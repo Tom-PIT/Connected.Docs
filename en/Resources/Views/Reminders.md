@@ -2,7 +2,7 @@
 
 The **Reminders** view provides a calendar-based overview of scheduled reminders and allows users to create notifications for important events, deadlines, and follow-ups.
 
-To access **Reminders**, go to **Resources / Reminders** in the [navigation](../Common/UI/Navigation.md).
+To access **Reminders**, go to **Resources / Reminders** in the [navigation](../../Common/UI/Navigation.md).
 
 ![Reminders calendar](../Images/RemindersCalendar.png)
 

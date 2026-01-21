@@ -47,7 +47,7 @@ Credit notes affect accounting only and do not impact inventory.
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Management/Assets.md) | Credited item or service. |
+| [**Asset**](../../Assets/Assets/Assets.md) | Credited item or service. |
 | **Quantity** | Quantity being credited (usually negative). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |

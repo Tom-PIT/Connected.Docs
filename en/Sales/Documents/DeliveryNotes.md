@@ -35,7 +35,7 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 | Field | Description |
 |--------|-------------|
-| **[Asset](../../Assets/Management/Assets.md)** | Item or service being delivered. |
+| **[Asset](../../Assets/Assets/Assets.md)** | Item or service being delivered. |
 | **Delivery date** | Delivery date for this specific item. |
 | **Issued quantity** | Shows how many units have already been issued (e.g., *0/3* before issue, *3/3* after full issue). |
 
