@@ -1,4 +1,4 @@
-# Kazalo upravljanja (Slovenščina)
+# Kazalo upravljanja
 
 To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. Uporabite ga za hitrejši dostop do šifrantov, nastavitev in osnovnih podatkov.
 
