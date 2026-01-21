@@ -87,7 +87,7 @@ These elements define how resources are structured, categorized, costed, and rep
 
 The **Analytics** section provides insight into workforce utilization and operational efficiency.
 
-![Resources Analytics](../Images/ResourcesDomainAnalytics.png "Resources Analytics")
+![Resources Analytics](../Images/ResourcesDomainAnalyticsV2.png "Resources Analytics")
 
 Available analytical views include:
 
