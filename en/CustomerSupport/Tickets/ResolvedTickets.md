@@ -50,7 +50,7 @@ Opening a resolved ticket displays the same detailed view as active tickets, inc
 - Full comment history
 - Audit trail
 
-Most fields are read-only; you can still update selected options (such as **Priority** and **Channel**), add comments, and use actions via the [**action button**](../../Common/UI/ActionButton.md).
+Most fields are read-only; you can still update selected options (such as **Subject**, **Description**, **Priority**, etc.), add comments, and use actions via the [**action button**](../../Common/UI/ActionButton.md).
 
 ## Reopening a ticket
 

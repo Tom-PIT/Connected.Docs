@@ -65,7 +65,7 @@ Tickets move through the following main statuses:
 
 ## Creating a new ticket
 
-To create a new ticket, click the [**action button**](../Common/UI/ActionButton.md) in the bottom-right corner.
+To create a new ticket, click the [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner.
 
 ### Step 1: Select desk
 

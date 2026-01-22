@@ -26,7 +26,7 @@ The domain is organized into the following functional areas:
 
 The **Visitors** section focuses on customers and partners physical visits to company locations.
 
-The [**Visitors management**](../Management/VisitorsManagement.md) screen records physical visits to company locations with visitor details, date/time, status (Announced, On location, Completed, Cancelled), and target location.
+The [**Visitors management**](../Visitors/VisitorsManagement.md) screen records physical visits to company locations with visitor details, date/time, status (Announced, On location, Completed, Cancelled), and target location.
 
 ![Customer Support Domain Visitors](../Images/CustomerSupportDomainVisitors.png "Customer Support Domain Visitors")
 
@@ -36,9 +36,9 @@ The **Tickets** section contains all support-related records used to track custo
 
 It includes screens for:
 
-- **[Tickets](../Documents/Tickets.md)** – active and open support requests  
-- **[Resolved tickets](../Documents/ResolvedTickets.md)** – completed and closed support cases  
-- **[SLA tickets](../Documents/SLATickets.md)** – tickets monitored against defined service level agreements  
+- **[Tickets](../Tickets/Tickets.md)** – active and open support requests  
+- **[Resolved tickets](../Tickets/ResolvedTickets.md)** – completed and closed support cases  
+- **[SLA tickets](../Tickets/SLATickets.md)** – tickets monitored against defined service level agreements  
 
 These screens represent the core operational area of the Customer support domain, allowing support agents to follow tickets from creation through resolution while maintaining visibility of response and resolution times.
 
@@ -50,7 +50,7 @@ The **Views** section provides read-only screens that present customer-related i
 
 Available views include:
 
-- **[Company cards](../Views/CompanyCards.md)** – overview of customers and their related activity across the system, including support-related information
+- **[Company cards](../../Sales/Views/CompanyCards.md)** – overview of customers and their related activity across the system, including support-related information
 
 Views do **not** create or modify data. They are intended for analysis, navigation, and decision support.
 
