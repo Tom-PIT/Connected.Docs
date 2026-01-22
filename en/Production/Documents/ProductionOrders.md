@@ -138,7 +138,7 @@ You may attach other documents that relate to the production order, such as:
 
 ![Linked documents](../Images/ProductionOrdersLinkedDocuments.png "Linked documents")
 
-Production orders also display any linked documents created during the order's life-cycle, such as cost and consumption reports.
+Production orders also display any linked documents created during the order's lifecycle, such as cost and consumption reports.
 
 ![Production Orders Linked Documents Docs](../Images/ProductionOrdersLinkedDocumentsDocs.png)
 
