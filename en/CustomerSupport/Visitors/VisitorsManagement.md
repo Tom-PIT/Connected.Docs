@@ -2,7 +2,7 @@
 
 The **Visitors management** screen is used to create and track visit records, including visitor details, planned and actual arrival times, visit status, and the locations being visited.
 
-Each visit follows a clear life-cycle, from announcement to completion or cancellation.
+Each visit follows a clear lifecycle, from announcement to completion or cancellation.
 
 To access Visitors management, navigate to **Customer Support / Visitors / Visitors management** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -50,7 +50,7 @@ Available filters:
 
 Each row shows the visitor, company, visited locations, and visit date/time.
 
-## Visit life-cycle and statuses
+## Visit lifecycle and statuses
 
 A visit progresses through the following statuses:
 
