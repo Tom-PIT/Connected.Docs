@@ -66,5 +66,3 @@ When reopened:
 - The ticket is removed from the **Resolved tickets** list
 - It reappears in the **[Tickets](Tickets.md)** screen
 - Its status is updated accordingly
-
----
