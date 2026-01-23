@@ -1,4 +1,4 @@
-﻿# Business directory
+# Business directory
 
 The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.
 
@@ -20,7 +20,7 @@ The **Business directory** contains all companies and individuals your organizat
 | **Type** | Defines the tax status of the entity (see the list section below). |
 | **VAT ID** | VAT identification number, for example **SI12345678**. |
 | **Company ID** | Company registration number. |
-| **Institutional sector** | Institutional sector to which the entity belongs. |
+| [**Institutional sector**](../../CustomerSupport/Management/InstitutionalSectors.md) | Institutional sector to which the entity belongs. |
 | **Tags** | Tags that allow categorization of entities. |
 | **Payment currency** | Default payment currency used in documents. |
 | [**Currency**](Currencies.md) | Currency associated with the entity. |
