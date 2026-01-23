@@ -8,8 +8,6 @@ To access Visitors management, navigate to **Customer Support / Visitors / Visit
 
 ## Schema
 
-The following table describes the main fields used in **Visitors management** visit records.
-
 | Field | Description |
 |------|-------------|
 | Status | Current visit status: Announced, On location, Completed, or Cancelled |

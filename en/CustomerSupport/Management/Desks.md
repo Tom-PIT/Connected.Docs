@@ -25,8 +25,7 @@ To access this screen, go to **Customer support / Management / Desks** in the [n
 
 ## Management
 
-You can access the **Desks** code list from the **Management** section of the system.  
-All desks are managed centrally and can be used across ticketing and support-related workflows.
+You can access the **Desks** code list from the **Management** section of the system. All desks are managed centrally and can be used across ticketing and support-related workflows.
 
 ### List of desks
 
@@ -65,6 +64,7 @@ Allows a desk to be connected to an email inbox. When enabled, incoming emails a
 #### Leased Hours
 
 Used to manage prepaid or contractually agreed support hours for a desk. Click **Add leased hours** to add a date and the amount of leased hours.
+
 ![Desk leased hours](../Images/DesksLeasedHours.png "Desk leased hours")
 
 #### Invoices

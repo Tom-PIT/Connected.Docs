@@ -69,7 +69,7 @@ To create a new ticket, click the [**action button**](../../Common/UI/ActionButt
 
 ### Step 1: Select desk
 
-The first step is selecting the **Desk** the ticket belongs to.
+The first step is selecting the **Desk** the ticket belongs to. Select the desk, then click on the **action button** to proceed to the next step.
 
 ![Select desk](../Images/TicketsNewStep1.png)
 
