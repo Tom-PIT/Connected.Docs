@@ -55,13 +55,7 @@ Kliknite **Dodaj** za shranjevanje sprememb ali **Prekliči** za zavrnitev sprem
 
 ## Brisanje
 
-Za brisanje vrste transporta uporabite možnost **Izbriši** v pogledu urejanja.
-
-Prikaže se potrditveno sporočilo:
-
-**Ali ste prepričani, da želite izbrisati zapis?**
-
-Po potrditvi je zapis trajno izbrisan.
+Za brisanje vrste transporta uporabite možnost **Izbriši** v pogledu urejanja in potrdite brisanje v pogovornem oknu.
 
 > [!NOTE]
 > Vrsto transporta je mogoče izbrisati samo, če ni uporabljena v nobenem obstoječem dokumentu.
