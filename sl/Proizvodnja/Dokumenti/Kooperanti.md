@@ -106,7 +106,7 @@ Ko je material prevzet, operacija ni več v čakanju.
 
 Ko je vrnjeni material na voljo:
 
-- operater lahko odpre operacijo v pogledu **[Izvajanje](Execution.md)** in nadaljuje kot običajno (proizvodnja, beleženje izgub ali zastojev, potrjevanje kontrolnih seznamov),
+- operater lahko odpre operacijo v pogledu **[Izvedba](Izvedba.md)** in nadaljuje kot običajno (proizvodnja, beleženje izgub ali zastojev, potrjevanje kontrolnih seznamov),
 - ko je delo končano, lahko operacijo ustavi in zaključi.
 
 Po zaključku:
