@@ -6,7 +6,7 @@ Where the **[Assets](../../Assets/Domain/AssetsDomain.md)** domain defines *what
 
 To access this domain, navigate to **Sales** in the [navigation](../../Common/UI/Navigation.md).
 
-![Sales Domain](../Images/SalesDomainSitemap.png "Sales Domain")
+![Sales Domain](../Images/SalesDomainSitemapV2.png "Sales Domain")
 
 > [!NOTE]  
 > The available domains depend on each company’s configuration and business model.
@@ -62,7 +62,7 @@ These screens do **not** create transactions—they support analysis and decisio
 
 The **Management** section contains configuration and master data required by commercial processes and financial interactions.
 
-![Sales Management](../Images/SalesDomainManagement.png "Sales Management")
+![Sales Management](../Images/SalesDomainManagementV2.png "Sales Management")
 
 Available configuration and code lists include:
 
@@ -79,7 +79,10 @@ Available configuration and code lists include:
 - **[Predefined texts](../../Common/Management/PredefinedTexts.md)** – Standardized text blocks used throughout sales documents.  
 - **[Tax rates](../../Common/Management/TaxRates.md)** – Definitions of VAT and tax rates used in invoicing.  
 - **[Clause templates for delivery notes](../Management/ClauseTemplatesDeliveryNotes.md)** – Predefined clauses for delivery documentation.  
-- **[Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.
+- **[Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.  
+- **[External code sets](../Management/ExternalCodeSets.md)** – Mappings for external systems, partners, or classifications.  
+- **[Mode of transport](../../Common/Management/ModeOfTransport.md)** – Transport methods used across sales and logistics.  
+- **[Delivery terms](../Management/DeliveryTerms.md)** – Commercial delivery conditions used on sales documents.
 
 These elements define how sales operations behave and how commercial data is structured.
 

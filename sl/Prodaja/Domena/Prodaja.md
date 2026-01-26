@@ -6,7 +6,7 @@ Medtem ko področje **[Sredstva](../../Sredstva/Domena/DomenaSredstve.md)** dolo
 
 Za dostop do tega področja pojdite na **Prodaja** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-![Področje Prodaja](../Images/SalesDomainSitemap.png "Področje Prodaja")
+![Področje Prodaja](../Images/SalesDomainSitemapSL.png "Področje Prodaja")
 
 > [!NOTE]  
 > Razpoložljiva področja so odvisna od konfiguracije in poslovnega modela posameznega podjetja.
@@ -17,15 +17,15 @@ Področje je organizirano v več funkcionalnih sklopov:
 
 - **[Dokumenti](#dokumenti)** – vsi prodajni dokumenti za komercialne transakcije  
 - **[Pregledi](#pregledi)** – analitični pogledi za spremljanje prodajne aktivnosti in uspešnosti  
-- **[Šifranti](#sifranti)** – nastavitve in osnovni podatki za prodajne procese  
+- **[Šifranti](#upravljanje)** – nastavitve in osnovni podatki za prodajne procese  
 
-![Pregled področja Prodaja](../Images/SalesDomainOverview.png "Pregled področja Prodaja")
+![Pregled področja Prodaja](../Images/SalesDomainOverviewSL.png "Pregled področja Prodaja")
 
 ## Dokumenti
 
 Razdelek **Dokumenti** vsebuje prodajne dokumente, ki podpirajo celoten življenjski cikel – od prve ponudbe do končnega računa.
 
-![Dokumenti prodaje](../Images/SalesDomainDocuments.png "Dokumenti prodaje")
+![Dokumenti prodaje](../Images/SalesDomainDocumentsSL.png "Dokumenti prodaje")
 
 Razpoložljivi prodajni dokumenti vključujejo:
 
@@ -47,7 +47,7 @@ Vsaka vrsta dokumenta prispeva k prodajnemu toku in zagotavlja popolno sledljivo
 
 Razdelek **Pregledi** vsebuje analitična orodja za razumevanje uspešnosti in obnašanja prodajnih dokumentov.
 
-![Pregledi prodaje](../Images/SalesDomainViews.png "Pregledi prodaje")
+![Pregledi prodaje](../Images/SalesDomainViewsSL.png "Pregledi prodaje")
 
 Razpoložljivi pregledi vključujejo:
 
@@ -62,7 +62,7 @@ Ti pregledi **ne ustvarjajo** transakcij – namenjeni so analizi in podpori odl
 
 Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, potrebne za delovanje prodajnih in finančnih procesov.
 
-![Šifranti prodaje](../Images/SalesDomainManagement.png "Šifranti prodaje")
+![Šifranti prodaje](../Images/SalesDomainManagementSL.png "Šifranti prodaje")
 
 Razpoložljive nastavitve in šifranti vključujejo:
 
@@ -79,7 +79,10 @@ Razpoložljive nastavitve in šifranti vključujejo:
 - **[Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** – Standardna besedila v prodajnih dokumentih.  
 - **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)** – Davčne definicije za obračun DDV.  
 - **[Predloge klavzul za dobavnice](../Upravljanje/PredlogeKlavzulZaDobavnice.md)** – Predloge besedil za dobavnice.  
-- **[Predloge klavzul za izdane račune](../Upravljanje/PredlogeKlavzulZaIzdaneRacune.md)** – Predloge besedil za izdane račune.
+- **[Predloge klavzul za izdane račune](../Upravljanje/PredlogeKlavzulZaIzdaneRacune.md)** – Predloge besedil za izdane račune.  
+- **[Pogoji dobave](../Upravljanje/PogojiDobave.md)** – Komercialni dobavni pogoji, uporabljeni v prodajnih dokumentih.  
+- **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** – Načini transporta, uporabljeni v prodaji in logistiki.  
+- **[Zunanji šifranti](..//Upravljanje/KodeNamenovPlacil.md)** – Zunanje kode za integracije in klasifikacije.
 
 Ti elementi določajo, kako se prodajni procesi izvajajo in kako so strukturirani prodajni podatki.
 

@@ -7,7 +7,7 @@
 
 Ta zaslon zagotavlja namenski delovni tok za **izdajo materiala kooperantom** in **prevzem materiala nazaj**, ko je zunanja operacija zaključena.
 
-Za dostop do tega zaslona pojdite na **Proizvodnja → Kooperanti** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Proizvodnja / Kooperanti** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ![Pregled kooperantov](../Images/CooperatorsIssue.png)
 
@@ -15,7 +15,7 @@ Za dostop do tega zaslona pojdite na **Proizvodnja → Kooperanti** v [navigacij
 
 Da je operacija na voljo za kooperante, morajo biti izpolnjeni naslednji pogoji:
 
-- Operacija mora pripadati **[Proizvodnemu nalogu](ProductionOrders.md)** ali domeni **Vzdrževanje** (glej [domeno Vzdrževanje](../../Vzdrževanje/Domena/Vzdrzevanje.md)).
+- Operacija mora pripadati **[Proizvodnemu nalogu](ProizvodniNalogi.md)** ali domeni **Vzdrževanje** (glej [domeno Vzdrževanje](../../Vzdrzevanje/Domena/Vzdrzevanje.md)).
 - V obrazcu za ustvarjanje ali urejanje operacije mora biti dodeljena oznaka `cooperator`.
 - Zunanje podjetje mora obstajati v [**Poslovnem imeniku**](../../Skupno/Upravljanje/PoslovniImenik.md) in imeti omogočeno vlogo **Kooperant**.
 
@@ -27,7 +27,7 @@ Na zaslonu **Kooperanti** se prikažejo samo operacije, označene z `cooperator`
 > Če se pričakovana operacija ne prikaže, preverite:  
 > 1. ali ima operacija oznako `cooperator`,  
 > 2. ali je stanje naloga aktivno,  
-> 3. ali se operacija izvaja v pogledu **[Izvajanje](Execution.md)** (kliknite **Začni**).
+> 3. ali se operacija izvaja v pogledu **[Izvedba](Izvedba.md)** (kliknite **Začni**).
 
 ## Pregled zaslona
 
@@ -72,7 +72,7 @@ Tipičen potek dela:
 
 Po izbiri se nadaljuje standardni tok:
 
-**[Dobavnica](../../Prodaja/Dokumenti/Dobavnice.md) → [Izdaja](../../Logistika/Dokumenti/Izdaje.md)**
+**[Dobavnica](../../Prodaja/Dokumenti/Dobavnice.md) → [Izdaja](../../Logistika/Dokumenti/Izdajnice.md)**
 
 Ko je material izdan, se operacija odstrani s seznama **Za izdajo**.
 
@@ -117,8 +117,6 @@ Po zaključku:
 ## Praktični nasveti in sledljivost
 
 - **Povezave dokumentov:**  
-  Uporabite razdelke *Povezano / Povezave* na **[Dobavnicah](../../Prodaja/Dokumenti/Dobavnice.md)**, **[Izdajah](../../Logistika/Dokumenti/Izdaje.md)**, **[Nabavnih nalogih](../../Nabava/Dokumenti/NabavniNalogi.md)** in **[Prevzemih](../../Logistika/Dokumenti/Prevzemi.md)** za pregled celotne verige.
+  Uporabite razdelke *Povezano / Povezave* na **[Dobavnicah](../../Prodaja/Dokumenti/Dobavnice.md)**, **[Izdajah](../../Logistika/Dokumenti/Izdajnice.md)**, **[Nabavnih nalogih](../../Nabava/Dokumenti/NabavniNalogi.md)** in **[Prevzemih](../../Logistika/Dokumenti/Prevzemi.md)** za pregled celotne verige.
 - **Organizacijske enote:**  
-  Prepričajte se, da je na nalogu izbrana pravilna **[Organizacijska enota](../Upravljanje/OrganizacijskeEnote.md)**, da delavci po prevzemu vidijo operacijo v pogledu **[Izvajanje](Execution.md)**.
-
-  ---
+  Prepričajte se, da je na nalogu izbrana pravilna **[Organizacijska enota](../Upravljanje/OrganizacijskeEnote.md)**, da delavci po prevzemu vidijo operacijo v pogledu **[Izvedba](Izvedba.md)**.
