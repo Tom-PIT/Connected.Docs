@@ -10,10 +10,11 @@ Za dostop do tega zaslona pojdite na **Stranke / Prijave / Rešene prijave** v [
 |-----|------|
 | **Zadeva** | Kratek naslov, ki opisuje rešeno težavo |
 | **Številka** | Enolična identifikacija prijave |
+| **[Področje](../Upravljanje/Podrocja.md)** | Področje, kateremu prijava pripada |
 | **Kanal** | Izvor prijave (**Splet**, **Telefon**, **E-pošta**) |
 | **Avtor** | Uporabnik, ki je ustvaril prijavo |
 | **Dodeljeno** | Uporabnik, ki je obravnaval prijavo |
-| **Oznake** | Klasifikacijske oznake |
+| **[Oznake](Prijave.md#shema)** | Klasifikacijske oznake |
 | **Prioriteta** | Prioriteta prijave (**Nizka**, **Normalna**, **Visoka**) |
 | **Ustvarjeno** | Čas ustvarjanja prijave |
 | **Aktivirano** | Čas, ko je prijava postala aktivna |
