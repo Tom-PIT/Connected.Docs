@@ -98,6 +98,8 @@ Click on an Delivery note to edit its details. The document is divided into expa
 - Attachments
 - Linked documents
 - Document
+- Alternative currency
+- Transport
 - Delivery
 - Content top
 - Details
@@ -134,6 +136,22 @@ Available actions of delivery notes in the **available** status include:
 - **[+ Full issue](../../Logistics/Documents/Issues.md)**
 - **[Issue](../../Logistics/Documents/Issues.md)** – Link an existing issue
 
+
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../../Common/CodeLists/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+#### Transport
+
+The Transport section defines how goods are delivered to the customer and under which delivery conditions. 
+
+![Sales order – Transport section](../Images/SalesTransportSection.png)
+
+The information entered here is used for logistics coordination, customer communication, and printed sales documents.
 
 ### Completing a Delivery note
 

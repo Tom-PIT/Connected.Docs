@@ -31,6 +31,8 @@ Invoices can also be created manually as stand-alone documents when required.
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation of revenue to a cost center. |
 | **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
+| **[Delivery term](../Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
@@ -138,6 +140,7 @@ Once you start a new Issued invoice, follow these steps:
 
 6. (Optional) Add:
    - **Content top / Content bottom** text  
+   - **Alternative currency** (see below)
    - **Delivery information**  
    - **Attachments**  
 
@@ -154,6 +157,8 @@ Click any issued invoice in the list to open it. Draft invoices can be edited fr
 While the invoice is in **Draft** status you can edit all sections:
 
 - Header fields (dates, references, customer, bank account, etc.)
+- Alternative currency
+- Transport
 - Delivery information
 - **Details** – add, remove, or change invoice lines
 - **Payment methods** – define how the customer is expected to pay
@@ -187,6 +192,22 @@ Available actions may include:
 - [**+ Debit note**](DebitNotes.md) - Create a debit note
 - [**Delivery note**](DeliveryNotes.md) - Link to an exiting delivery note.
 - [**Prepayments**](Prepayments.md) - Link to an exiting prepayment.
+
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../../Common/CodeLists/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+#### Transport
+
+The Transport section defines how goods are delivered to the customer and under which delivery conditions. 
+
+![Sales order – Transport section](../Images/SalesTransportSection.png)
+
+The information entered here is used for logistics coordination, customer communication, and printed sales documents.
 
 ### Publishing an invoice
 

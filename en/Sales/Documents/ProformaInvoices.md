@@ -34,6 +34,8 @@ A committed proforma invoice is informational and does not affect financial or s
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional description of the document's purpose. |
 | **Rebate** | Overall rebate applied to the total amount. |
+| **[Delivery term](../Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
@@ -116,9 +118,11 @@ A draft proforma invoice can be freely edited.
 You may change:
 
 - Header fields  
+- Alternative currency
+- Delivery information  
+- Transport  
 - Detail lines (assets, quantities, pricing)  
 - Content top/bottom  
-- Delivery information  
 
 Once published, the document becomes **Committed** and no further editing is allowed.
 
@@ -141,12 +145,19 @@ Typical actions and pre-fills:
 
 ![Linked documents](../Images/ProformaInvoiceLinkedDocuments.png)
 
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../../Common/CodeLists/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
 #### Delivery section
 
 The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
 
 These values affect the printed document and follow-up logistics documents, but do not modify the master data.
-
 
 ## Menu
 
