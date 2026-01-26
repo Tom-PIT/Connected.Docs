@@ -33,6 +33,8 @@ Prepayments track received funds and do not affect inventory.
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional description of payment purpose. |
 | **Rebate** | Overall rebate applied to the prepayment amount. |
+| **[Delivery term](../Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
@@ -103,6 +105,9 @@ A draft prepayment can be modified until it is published.
 
 Changes can be made to:
 - Header fields (customer, dates, reference numbers, bank account)
+- Alternative currency
+- Transport
+- Delivery information
 - Detail lines (assets, quantities, prices)
 - Payment methods
 - Content text (top/bottom)
@@ -125,6 +130,22 @@ The linked documents section enables the creation of operational or follow-up do
 Available actions may include:
 - **[+ Issued invoice](IssuedInvoices.md)** – Create a final invoice applying the prepayment.
 - **Prepayment** – Duplicate the details from the current prepayment to a new document.
+
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../../Common/CodeLists/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+#### Transport
+
+The Transport section defines how goods are delivered to the customer and under which delivery conditions. 
+
+![Sales order – Transport section](../Images/SalesTransportSection.png)
+
+The information entered here is used for logistics coordination, customer communication, and printed sales documents.
 
 #### Delivery section
 

@@ -40,6 +40,8 @@ Debit notes affect accounting only and do not impact inventory.
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional reason or classification for the debit. |
 | **Rebate** | Overall rebate applied to the debit note, if applicable. |
+| **[Delivery term](../Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
@@ -111,6 +113,9 @@ Only **Draft** debit notes can be edited.
 
 You can modify:
 - Header fields  
+- Alternative currency
+- Transport
+- Delivery information
 - Detail lines  
 - Content texts (top and bottom)
 
@@ -127,6 +132,22 @@ The **Linked documents** section allows you to link a previously created **Issue
 ![Link issued invoice](../Images/CreditDebitNoteLinkedDocuments.png)
 
 Published debit notes do **not** display the Linked documents section.
+
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../../Common/CodeLists/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+#### Transport
+
+The Transport section defines how goods are delivered to the customer and under which delivery conditions. 
+
+![Sales order – Transport section](../Images/SalesTransportSection.png)
+
+The information entered here is used for logistics coordination, customer communication, and printed sales documents.
 
 ## Menu
 

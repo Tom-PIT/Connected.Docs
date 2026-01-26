@@ -23,6 +23,8 @@ A typical flow:
 | **Document date** | Date when the offer is created. |
 | **Expiration date** | Validity date of the offer (mandatory). |
 | **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
+| **[Delivery term](../Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method as agreed upon with the customer. |
 | **Delivery – Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Content top** | Predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/Assets/Assets.md) list (mandatory). |
@@ -63,7 +65,7 @@ At the top of the Offers list, the system displays key indicators that summarize
 - **Paid offers** (interactive) – Offers for which full payment has been recorded. Click it to display exclusively the offers that have been paid.
 - **Total cost** – The combined total value of all offers included in the active filter. 
 
-Filters on the left help narrow down results by **document dates**, **status**, and **customer**. 
+Filters on the left help narrow down results by **document dates**, **status**, and **customer**.
 
 
 ![Offers list](../Images/OffersListDrafts.png)
@@ -131,6 +133,22 @@ Common actions include:
 - **+ Sales order** – create a [sales order](SalesOrders.md) directly from the offer (typical workflow when a customer accepts the offer)
 
 ![Linked documents](../Images/OfferPublishedLinkedDocuments.png)
+
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../../Common/CodeLists/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+#### Transport
+
+The Transport section defines how goods are delivered to the customer and under which delivery conditions. 
+
+![Sales order – Transport section](../Images/SalesTransportSection.png)
+
+The information entered here is used for logistics coordination, customer communication, and printed sales documents.
 
 #### Delivery section
 
