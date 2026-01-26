@@ -33,6 +33,8 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | **Datum prodaje** | Predviden datum dobave naročila (obvezno). |
 | **Rabat** | Neobvezen popust na celotno naročilo stranke. |
 | **Številka naročilnice** | Neobvezna povezava na povezani [nabavni nalog](../../Nabava/Dokumenti/NabavniNalogi.md). |
+| **[Pogoj dobave](../Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Postavke** | Seznam prodanih postavk (sredstev) z datumi dobave, cenami, količinami in davki (obvezno). |
 | [**Način plačila**](../Upravljanje/NacinPlacila.md) | Načini plačila, povezani z naročilom stranke. |
@@ -97,7 +99,7 @@ Naročila strank je mogoče ustvariti na dva načina:
 
   ![Ustvari naročilo stranke iz ponudbe](../Images/SalesOrdersOfferLink.png "Ustvari naročilo stranke iz ponudbe")
 
-Za ustvarjanje novega naročila stranke sledite korakom:
+Za ustvarjanje novega naroila stranke sledite korakom:
 
 1. Kliknite **akcijski gumb** za novo naročilo stranke.  
 2. Vnesite ali preverite **Stranko**, **Datum dokumenta** in **Datum dobave**.
@@ -119,7 +121,7 @@ Po objavi se naročilo stranke premakne v stanje **Potrjeno → Na voljo** in om
 
 ### Urejanje naročila stranke
 
-Naročilo stranke je razdeljeno v več razširljivih razdelkov.
+Naroilo stranke je razdeljeno v več razširljivih razdelkov.
 
 #### Priponke
 
@@ -144,6 +146,35 @@ Razpoložljiva dejanja vključujejo:
 - [**+ Izdani račun**](IzdaniRacuni.md)
 - **Poveži s projektom**
 - **Kopiraj naročilo stranke**
+
+#### Dokument
+
+![Naročilo stranke – dokument](../Images/SalesOrdersNewTop.png)
+
+Vključuje osnovna polja:
+
+- Šifra  
+- Stranka  
+- Datum dokumenta  
+- Datum dobave  
+- Rabat  
+- Številka naročilnice  
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../../Skupno/Sifranti/DevizniTecaji.md).
+
+![Naročilo stranke – razdelek Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Transport
+
+Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+
+![Naročilo stranke – razdelek Transport](../Images/SalesTransportSection.png)
+
+Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
 
 #### Dobava
 

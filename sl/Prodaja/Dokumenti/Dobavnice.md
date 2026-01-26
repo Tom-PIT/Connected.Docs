@@ -25,6 +25,8 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 | **Stranka** | Prejemnik dobave, izbran iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka dobavnice. |
 | **Datum opravljene storitve** | Datum, ko je dobava predvidena (obvezno). |
+| **[Pogoj dobave](../Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Neobvezno uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
 | **Postavke** | Seznam vseh dobavljenih postavk (obvezno). |
@@ -96,6 +98,8 @@ S klikom na dobavnico odprete urejanje. Dokument je razdeljen v razširljive raz
 - Priponke
 - Povezani dokumenti
 - Dokument
+- Alternativna valuta
+- Transport
 - Dobava
 - Vsebina zgoraj
 - Postavke
@@ -131,6 +135,22 @@ Razpoložljiva dejanja za dobavnice v statusu **Na voljo** vključujejo:
 - **[+ Prazna izdaja](../../Logistika/Dokumenti/Izdajnice.md)**
 - **[+ Polna izdaja](../../Logistika/Dokumenti/Izdajnice.md)**
 - **[Izdaja](../../Logistika/Dokumenti/Izdajnice.md)** – povezava z obstoječo izdajo
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../../Skupno/Sifranti/DevizniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Transport
+
+Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+
+![Transport](../Images/SalesTransportSection.png "Transport")
+
+Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
 
 ### Zaključevanje dobavnice
 

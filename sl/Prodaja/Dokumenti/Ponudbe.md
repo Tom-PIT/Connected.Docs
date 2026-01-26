@@ -23,6 +23,8 @@ Tipičen potek:
 | **Datum dokumenta** | Datum nastanka ponudbe. |
 | **Datum veljavnosti** | Datum do katerega ponudba velja (obvezno). |
 | **Rabat** | Neobvezen skupni popust na celotno ponudbo (npr. vnesite *2* za 2 % popust). |
+| **[Pogoj dobave](../Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
 | **Dostava – Podjetje / Naslov** | Podatki o dobavi za stranko; vrednosti se povzamejo iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
 | **Postavke** | Seznam ponujenih postavk (sredstev) s cenami in dobavnimi podatki; postavke izvirajo iz šifranta [Sredstva](../../Sredstva/Materiali/Izdelki.md) (obvezno). |
@@ -128,6 +130,22 @@ Pogosta dejanja vključujejo:
 - **+ Prodajni nalog** – neposredno ustvarjanje [prodajnega naloga](NarocilaStrank.md) iz ponudbe
 
 ![Povezani dokumenti](../Images/OfferPublishedLinkedDocuments.png "Povezani dokumenti")
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../../Skupno/Sifranti/DevizniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Transport
+
+Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+
+![Transport](../Images/SalesTransportSection.png "Transport")
+
+Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
 
 #### Razdelek Dobava
 
