@@ -4,7 +4,7 @@
 
 **Institucionalni sektorji** so **šifrant**, ki se uporablja za razvrščanje strank glede na njihovo organizacijsko ali institucionalno naravo (na primer javna uprava, izobraževanje, zdravstvo ali zasebna podjetja).
 
-Ti sektorji se kasneje uporabljajo pri definiranju in upravljanju podatkov o strankah ter omogočajo boljšo segmentacijo, poročanje in filtriranje.
+Ti sektorji se kasneje uporabljajo pri definiranju in upravljanju podatkov o strankah ter omogočajo boljšo segmentacijo, poročanje in filtriranje v šifrantu [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md).
 
 Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Institucionalni sektorji** v [navigaciji](../../Skupno/UI/Navigacija.md).
 

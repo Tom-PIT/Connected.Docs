@@ -139,6 +139,9 @@ Razpoložljive možnosti vključujejo:
 - **Deli**
 - **Delo**
 
+> [!NOTE]
+Nastavitve obvestil na ravni področja upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
+
 ## Reševanje prijav
 
 Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da odprete meni in izberete možnost rešitve:
