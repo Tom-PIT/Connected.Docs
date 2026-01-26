@@ -1,7 +1,6 @@
 # Mode of transport
 
-This code list defines the **modes of transport** used across the system.  
-Modes of transport are referenced by logistics, sales, supply, and other documents to describe how goods are delivered or transferred.
+This code list defines the **modes of transport** used across the system. Modes of transport are referenced by logistics, sales, supply, and other documents to describe how goods are delivered or transferred.
 
 You can access the **Mode of transport** code list from different domains in the [navigation](../UI/Navigation.md). In all cases, you are working with the same shared data.
 
@@ -53,15 +52,6 @@ Click **Save** to apply the changes or **Cancel** to discard them.
 
 ## Deletion
 
-Click **Delete** on the edit screen to remove a transport mode.
-
-A confirmation dialog is shown:
-
-**Are you sure you want to delete this record?**
-
-If confirmed, the record is permanently deleted.
-
+Click **Delete** on the edit screen to remove a transport mode and confirm the deletion in the dialog.
 > [!NOTE]
 > A transport mode can be deleted only if it is not referenced by existing documents.
-
----
