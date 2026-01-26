@@ -131,6 +131,9 @@ Available options include:
 - **Share**
 - **Record effort**
 
+> [!NOTE]
+ Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+
 ## Resolving tickets
 
 Click on the [**action button**](../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 

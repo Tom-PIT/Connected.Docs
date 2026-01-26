@@ -11,10 +11,11 @@ To access this screen, go to **Customer support / Tickets / Resolved tickets** i
 |-----|------------|
 | **Subject** | Short title describing the resolved issue |
 | **Number** | Unique ticket identifier |
+| **[Desk](../Management/Desks.md)** | Desk the ticket belongs to |
 | **Channel** | Origin of the ticket (**Web**, **Phone**, **Email**) |
 | **Author** | User who created the ticket |
 | **Assigned** | User who handled the ticket |
-| **Tags** | Classification labels |
+| **[Tags](Tickets.md#schema)** | Classification labels |
 | **Priority** | Ticket priority level (**Low**, **Normal**, **High**) |
 | **Created** | Ticket creation timestamp |
 | **Activated** | Timestamp when ticket became active |

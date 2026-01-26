@@ -63,7 +63,7 @@ A new visit is created when a physical visit is planned.
 
 Typical flow:
 
-1. Click [**action button**](../../Common/UI/ActionButton.md) to create a new visit.
+1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new visit.
 2. The **Status** is set to **Announced** by default.
 3. Fill in the visit details (the **Visitor** field is mandatory).
 4. Click **Save**.

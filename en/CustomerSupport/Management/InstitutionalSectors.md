@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Institutional sectors are a **code list** used to classify customers according to their organizational or institutional nature (for example public administration, education, healthcare, or private companies). These sectors can later be referenced when defining or managing customer records, helping with segmentation, reporting, and filtering.
+Institutional sectors are a **code list** used to classify customers according to their organizational or institutional nature (for example public administration, education, healthcare, or private companies). These sectors can later be referenced when defining or managing customer records, helping with segmentation, reporting, and filtering in the [**Business directory**](../../Common/Management/BusinessDirectory.md) code list.
 
 To access this screen, go to **Customer support / Management / Institutional sectors** in the [navigation](../../Common/UI/Navigation.md).
 
