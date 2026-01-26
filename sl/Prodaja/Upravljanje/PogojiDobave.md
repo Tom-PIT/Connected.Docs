@@ -23,8 +23,8 @@ Seznam prikazuje vse razpoložljive pogoje dobave z njihovimi šiframi in opisi.
 ![Seznam pogojev dobave](../Images/DeliveryTermsListSL.png "Seznam pogojev dobave")
 
 Pogoji dobave so **deljeni med domenami** in se lahko uporabljajo v dokumentih, kot so:
-- [Prodajni nalogi](../Documents/SalesOrders.md)
-- [Dobavnice](../Documents/DeliveryNotes.md)
+- [Prodajni nalogi](../Dokumenti/NarocilaStrank.md)
+- [Dobavnice](../Dokumenti/Dobavnice.md)
 
 Seznam je mogoče preiskovati z iskalnim poljem v zgornjem desnem kotu.
 

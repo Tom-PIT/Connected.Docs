@@ -138,7 +138,7 @@ Razpoložljiva dejanja za dobavnice v statusu **Na voljo** vključujejo:
 
 #### Alternativna valuta
 
-Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../../Skupno/Sifranti/DevizniTecaji.md).
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
 
 ![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
 

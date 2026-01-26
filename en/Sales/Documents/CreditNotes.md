@@ -137,7 +137,7 @@ Published credit notes do **not** display the Linked documents section.
 
 #### Alternative currency
 
-The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../../Common/CodeLists/ExchangeRates.md) code list.
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
 
 ![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
 
