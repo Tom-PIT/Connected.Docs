@@ -31,6 +31,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 | [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka na stroškovno mesto. |
 | **Koda namena** | Neobvezna koda namena računa (če je konfigurirana). |
 | **Rabat** | Skupni rabat, uporabljen na celoten znesek računa. |
+| **[Pogoj dobave](../Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
@@ -131,13 +133,77 @@ Po začetku novega računa sledite korakom:
 
    ![Shranjena postavka računa](../Images/IssuedInvoicesNewBottom.png "Shranjena postavka računa")
 
-6. (Neobvezno) Dodajte besedila, podatke o dobavi ali priloge.  
+6. (Neobvezno) Dodajte:
+   - **Vsebina zgoraj / Vsebina spodaj**  
+   - **Alternativna valuta** (glej spodaj)
+   - **Podatke o dostavi**  
+   - **Priloge**  
+
 7. Kliknite **Objavi**, da potrdite račun.
 
 > [!NOTE]
 > Po objavi izdanega računa ni več mogoče urejati ali izbrisati. Za popravke uporabite dejanje **Storniraj dokument**.
 
-### Evidentiranje plačil
+### Urejanje izdanega računa
+
+Kliknite kateri koli izdan račun na seznamu, da ga odprete. Osnutke je mogoče prosto urejati. Dokument je razdeljen na več razširljivih razdelkov.
+
+Dokler je račun v statusu **Osnutek**, lahko urejate vse razdelke:
+
+- Glavna polja (datumi, sklici, stranka, bančni račun itd.)
+- Alternativna valuta
+- Transport
+- Podatki o dostavi
+- **Postavke** – dodajanje, odstranjevanje ali spreminjanje postavk
+- **Načini plačila** – določanje načina plačila
+- **Vsebina zgoraj** in **Vsebina spodaj** – izbor vnaprej določenih besedil
+
+![Postavke in plačila](../Images/IssuedInvoicesNewBottom.png "Postavke in plačila")
+
+#### Priloge
+
+Na vrhu vsakega dokumenta je razdelek **Priloge**.
+
+Naložite lahko datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga dokazila. Vse priloge se shranijo skupaj z dokumentom.
+
+#### Povezani dokumenti
+
+Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokumentov.
+
+![Povezani dokumenti delno plačanega računa](../Images/IssuedInvoicePartiallyPaidLinkedDocuments.png "Povezani dokumenti delno plačanega računa")
+
+> [!NOTE]
+> Razpoložljiva dejanja v razdelku **Povezani dokumenti** so odvisna od tipa in statusa dokumenta.
+
+Primer za osnutek:
+
+![Povezani dokumenti osnutka računa](../Images/IssuedInvoiceDraftLinkedDocuments.png "Povezani dokumenti osnutka računa")
+
+Razpoložljiva dejanja lahko vključujejo:
+
+- **Izdani račun** – kopira trenutni dokument v nov izdani račun
+- [**+ Dobropis**](Dobropisi.md) – ustvari dobropis
+- [**+ Bremepis**](Bremepisi.md) – ustvari bremepis
+- [**Dobavnica**](Dobavnice.md) – povezava z obstoječo dobavnico
+- [**Predplačila**](Predplacila.md) – povezava z obstoječimi predplačili
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../../Skupno/Sifranti/DevizniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Transport
+
+Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+
+![Transport](../Images/SalesTransportSection.png "Transport")
+
+Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
+
+## Evidentiranje plačil
 
 Po objavi računa kliknite **Plačilo**, da evidentirate prejeto plačilo.
 

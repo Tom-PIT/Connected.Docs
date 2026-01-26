@@ -34,6 +34,8 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 | [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezen opis namena plačila. |
 | **Rabat** | Skupni rabat, uporabljen na znesek predplačila. |
+| **[Pogoj dobave](../Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
@@ -103,6 +105,9 @@ Osnutek predplačila je mogoče urejati do objave.
 
 Urejate lahko:
 - Glavna polja (stranka, datumi, sklici, bančni račun)
+- Alternativna valuta
+- Transport
+- Podatki o dobavi
 - Postavke
 - Načine plačila
 - Besedila (zgoraj/spodaj)
@@ -113,7 +118,7 @@ V razdelku **Priponke** lahko naložite dodatno dokumentacijo.
 
 #### Povezani dokumenti
 
-Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in prikazuje obstoječe povezave.
+Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in prikazuje obstoječe povezave. 
 
 ![Povezani dokumenti predplačila](../Images/PrepaymentsLinkedDocuments.png "Povezani dokumenti predplačila")
 
@@ -124,6 +129,14 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in pr
 Razpoložljiva dejanja vključujejo:
 - **[+ Izdani račun](IzdaniRacuni.md)** – ustvari končni račun z upoštevanjem predplačila.  
 - **Predplačilo** – kopira vsebino v novo predplačilo.
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../../Skupno/Sifranti/DevizniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
 ### Dobava
 
