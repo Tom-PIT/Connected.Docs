@@ -22,7 +22,7 @@ Seznam prikazuje vse definirane tarife z naslednjimi stolpci:
 - **Merska enota**
 - **Oddelek**
 
-![Seznam tarif](../Images/TariffsListSL.png)
+![Seznam tarif](../../Images/TariffsListSL.png)
 
 Tarife je mogoče iskati z iskalnikom v zgornjem desnem kotu.
 
@@ -30,7 +30,7 @@ Tarife je mogoče iskati z iskalnikom v zgornjem desnem kotu.
 
 Za dodajanje nove tarife kliknite **Dodaj tarifo**.
 
-![Dodaj tarifo](../Images/TariffsNewSL.png)
+![Dodaj tarifo](../../Images/TariffsNewSL.png)
 
 Izpolnite naslednja polja:
 
