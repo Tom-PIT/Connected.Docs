@@ -1,4 +1,4 @@
-﻿# Document codes
+# Document codes
 
 Each document in the system receives an automatically generated **document code**.  
 This code uniquely identifies the document and follows a consistent structure across all modules.
@@ -78,8 +78,6 @@ The unified structure ensures:
 - Predictable searching and filtering  
 - Easy reference across accounting, logistics, and operations  
 - Human-readable form (year + sequence)
-
----
 
 
 

@@ -1,4 +1,4 @@
-﻿# Packaging
+# Packaging
 
 Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. It applies to:
 
@@ -101,5 +101,3 @@ If confirmed, the packaging is permanently removed; otherwise, the system keeps 
 
 > [!NOTE]
 >A packaging record can be deleted only if it is not referenced by other system entities.
-
----

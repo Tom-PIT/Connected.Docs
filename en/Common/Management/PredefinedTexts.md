@@ -1,4 +1,4 @@
-﻿# Predefined texts
+# Predefined texts
 
 The **Predefined texts** code list stores ready-to-use text snippets that can be inserted into various commercial documents—such as delivery notes, issued invoices, offers, or supply orders. These texts help users add frequently repeated instructions, remarks, or customer-specific notes quickly and consistently.
 
@@ -55,6 +55,4 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 
 > [!NOTE]  
 > A predefined text can be deleted only if it is not referenced by dependent documents.
-
----
 

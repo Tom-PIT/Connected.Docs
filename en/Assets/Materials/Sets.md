@@ -1,4 +1,4 @@
-﻿# Sets
+# Sets
 
 Sets let you define composite items made of existing materials (products, semi products, raw or repro materials). A set groups multiple components with quantities under a single parent material, so you can sell or manage it as one.
 
@@ -50,5 +50,3 @@ Sets are connected to **[Disassemblies](../../Logistics/Documents/Disassemblies.
 ## Deletion
 
 Individual components can be removed from a set by selecting them and clicking **Delete**. If confirmed, the component is removed from the parent set.
-
----

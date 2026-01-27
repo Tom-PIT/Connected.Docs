@@ -150,5 +150,3 @@ When a ticket is resolved:
 - Its status is set to **Resolved**
 - It is removed from the active list
 - It appears in the **[Resolved tickets](ResolvedTickets.md)** screen
-
----

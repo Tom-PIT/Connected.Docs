@@ -1,4 +1,4 @@
-﻿# Tax rates
+# Tax rates
 
 This code list defines all **tax rates** used across the system. Tax rates determine the percentage of tax applied to products, materials, and services in business documents. Each entry includes a descriptive name and a numeric percentage, ensuring tax is applied consistently throughout the digital contents.
 
@@ -61,6 +61,4 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >A tax rate can be deleted only if it is not used in any dependent entries.  
-
----
 

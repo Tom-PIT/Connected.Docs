@@ -123,5 +123,3 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 > [!NOTE]
 >An entry can be deleted only if it is not referenced in any dependent records (for example, invoices or orders).
 
----
-

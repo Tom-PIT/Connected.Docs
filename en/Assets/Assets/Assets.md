@@ -87,5 +87,3 @@ A confirmation dialog appears:
 **Are you sure you want to delete the record?**
 
 If confirmed, the asset is permanently removed. If the asset is referenced in other documents or records, deletion may be blocked until dependencies are resolved.
-
-___

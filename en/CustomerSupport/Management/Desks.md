@@ -74,5 +74,3 @@ Provides an overview of invoices related to the desk’s activity. Click **Add i
 ### Editing desks
 
 Click on a desk in the list to open it in edit mode. You can modify all fields and settings as needed. Changes are saved automatically.
-
----

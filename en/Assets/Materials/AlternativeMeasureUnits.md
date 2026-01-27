@@ -1,4 +1,4 @@
-﻿# Alternative measure units
+# Alternative measure units
 
 **Alternative measure units** allow a material to be handled using a unit different from its base unit.  
 This is useful when materials are stored, packaged, or received in practical units (for example, pieces) while stock is tracked in a physical unit (for example, meters).
@@ -88,5 +88,3 @@ In **Receive** documents, quantities entered in an alternative measure unit are 
 > - The base unit cannot be changed from this screen
 > - Conversion ratios are applied consistently across the system
 > - Changing or removing an alternative measure unit may affect packaging and receiving workflows
-
----

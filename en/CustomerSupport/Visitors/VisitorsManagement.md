@@ -123,5 +123,3 @@ Visits can be deleted if they were created in error or are no longer needed on t
 To delete a visit:
 1. Open the visit record.
 2. Click **Delete** and confirm the action.
-
----

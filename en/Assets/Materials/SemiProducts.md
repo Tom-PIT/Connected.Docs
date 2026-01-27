@@ -108,5 +108,3 @@ If confirmed, the semiproduct is permanently removed; otherwise, the system keep
 
 > [!NOTE]
 > A semi product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, production structures, or other material relationships.
-
----

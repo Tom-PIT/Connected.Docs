@@ -26,5 +26,3 @@ These code lists support the management and definition of the four primary mater
 - **[Alternative measure units](../Materials/AlternativeMeasureUnits.md)** – Additional measurement units that extend a material’s base unit (e.g., pieces, kilograms, square meters), including conversion settings.
 - **[Material price lists](../Materials/MaterialPriceLists.md)** – Defines procurement prices used for purchasing and internal valuation.
 - **[Sets](../Materials/Sets.md)** – Predefined bundles of materials grouped together for easier selection in logistics or production tasks.
-
----
