@@ -34,7 +34,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Delivery date** | Expected delivery date for the order (mandatory). |
 | **Rebate** | Optional discount applied to the entire sales order. |
 | **Purchase order** | Optional reference to a related [supply order](../../Supply/Documents/SupplyOrders.md). |
-| **[Delivery term](../Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
 | **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method agreed upon with the customer. |
 | **Delivery – Company / Address** | Customer delivery details, taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Details** | List of items (assets) being sold, with delivery dates, pricing, quantities, and taxes (mandatory). |

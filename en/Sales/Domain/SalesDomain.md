@@ -82,7 +82,7 @@ Available configuration and code lists include:
 - **[Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.  
 - **[External code sets](../Management/ExternalCodeSets.md)** – Mappings for external systems, partners, or classifications.  
 - **[Mode of transport](../../Common/Management/ModeOfTransport.md)** – Transport methods used across sales and logistics.  
-- **[Delivery terms](../Management/DeliveryTerms.md)** – Commercial delivery conditions used on sales documents.
+- **[Delivery terms](../../Common/Management/DeliveryTerms.md)** – Commercial delivery conditions used on sales documents.
 
 These elements define how sales operations behave and how commercial data is structured.
 

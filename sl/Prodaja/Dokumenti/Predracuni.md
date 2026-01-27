@@ -35,7 +35,7 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 | [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezni opis namena dokumenta. |
 | **Rabat** | Skupni rabat, uporabljen na celoten znesek. |
-| **[Pogoj dobave](../Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
 | **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Dobava** | Podatki o podjetju in naslovu dobave. |
