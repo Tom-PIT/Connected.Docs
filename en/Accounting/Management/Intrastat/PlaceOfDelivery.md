@@ -22,7 +22,7 @@ Each row shows:
 The list can be searched using the search field in the top-right corner.
 
 Example values include:
-- Delivery within the Republic of Slovenia
+- Delivery within your own country
 - Delivery to another EU Member State
 - Delivery outside the European Union
 

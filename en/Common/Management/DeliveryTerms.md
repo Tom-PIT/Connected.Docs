@@ -6,7 +6,7 @@ These terms are commonly used in **sales** documents to clearly specify delivery
 
 Most delivery terms are based on internationally recognized **Incoterms®** published by the International Chamber of Commerce (ICC), with the possibility to define custom terms if needed.
 
-To access this screen, go to **Common / Management / Delivery terms** in the [navigation](../../Common/UI/Navigation.md). It may also appear under domain-specific Management menus (e.g., Sales or Logistics), depending on configuration.
+To access this screen, go to **Accounting / Management / Intrastat / Delivery terms** in the [navigation](../../Common/UI/Navigation.md). It appears also under **Management** in the **Sales** domain..
 
 ## Schema
 
