@@ -80,7 +80,7 @@ Razpoložljive nastavitve in šifranti vključujejo:
 - **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)** – Davčne definicije za obračun DDV.  
 - **[Predloge klavzul za dobavnice](../Upravljanje/PredlogeKlavzulZaDobavnice.md)** – Predloge besedil za dobavnice.  
 - **[Predloge klavzul za izdane račune](../Upravljanje/PredlogeKlavzulZaIzdaneRacune.md)** – Predloge besedil za izdane račune.  
-- **[Pogoji dobave](../Upravljanje/PogojiDobave.md)** – Komercialni dobavni pogoji, uporabljeni v prodajnih dokumentih.  
+- **[Pogoji dobave](../../Skupno/Upravljanje/PogojiDobave.md)** – Komercialni dobavni pogoji, uporabljeni v prodajnih dokumentih.  
 - **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** – Načini transporta, uporabljeni v prodaji in logistiki.  
 - **[Zunanji šifranti](..//Upravljanje/KodeNamenovPlacil.md)** – Zunanje kode za integracije in klasifikacije.
 

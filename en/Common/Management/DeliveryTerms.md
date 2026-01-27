@@ -6,7 +6,7 @@ These terms are commonly used in **sales** documents to clearly specify delivery
 
 Most delivery terms are based on internationally recognized **Incoterms®** published by the International Chamber of Commerce (ICC), with the possibility to define custom terms if needed.
 
-To access this screen, go to **Sales / Management / Delivery terms** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Common / Management / Delivery terms** in the [navigation](../../Common/UI/Navigation.md). It may also appear under domain-specific Management menus (e.g., Sales or Logistics), depending on configuration.
 
 ## Schema
 
@@ -22,7 +22,7 @@ The list view displays all available delivery terms with their codes and descrip
 
 ![Delivery terms list](../Images/DeliveryTermsList.png "Delivery terms list")
 
-Delivery terms are shared across domains and can be referenced in documents such as [sales orders](../Documents/SalesOrders.md) or [delivery notes](../Documents/DeliveryNotes.md).
+Delivery terms are shared across domains and can be referenced in documents such as [sales orders](../../Sales/Documents/SalesOrders.md) or [delivery notes](../../Sales/Documents/DeliveryNotes.md).
 
 The list can be searched using the search field in the top-right corner.
 

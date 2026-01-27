@@ -23,7 +23,7 @@ A typical flow:
 | **Document date** | Date when the offer is created. |
 | **Expiration date** | Validity date of the offer (mandatory). |
 | **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
-| **[Delivery term](../Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
 | **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method as agreed upon with the customer. |
 | **Delivery – Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Content top** | Predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |

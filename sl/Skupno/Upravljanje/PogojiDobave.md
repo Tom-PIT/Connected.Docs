@@ -6,7 +6,7 @@ Ti pogoji se najpogosteje uporabljajo v dokumentih **prodaje** za jasno opredeli
 
 Večina pogojev dobave temelji na mednarodno priznanih **Incoterms®**, ki jih izdaja Mednarodna trgovinska zbornica (ICC), pri čemer je po potrebi mogoče definirati tudi lastne pogoje.
 
-Za dostop do tega zaslona pojdite na **Prodaja / Upravljanje / Pogoji dobave** v [navigaciji](../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
+Za dostop do tega zaslona pojdite na **Računovodstvo / Upravljanje / Intrastat / Pogoji dobave** v [navigaciji](../../Skupno/UI/Navigacija.md). Prikazano je tudi pod **Upravljanje** v področju **Prodaja**.
 
 ## Shema
 
@@ -23,8 +23,8 @@ Seznam prikazuje vse razpoložljive pogoje dobave z njihovimi šiframi in opisi.
 ![Seznam pogojev dobave](../Images/DeliveryTermsListSL.png "Seznam pogojev dobave")
 
 Pogoji dobave so **deljeni med domenami** in se lahko uporabljajo v dokumentih, kot so:
-- [Prodajni nalogi](../Dokumenti/NarocilaStrank.md)
-- [Dobavnice](../Dokumenti/Dobavnice.md)
+- [Prodajni nalogi](../../Prodaja/Dokumenti/NarocilaStrank.md)
+- [Dobavnice](../../Prodaja/Dokumenti/Dobavnice.md)
 
 Seznam je mogoče preiskovati z iskalnim poljem v zgornjem desnem kotu.
 
