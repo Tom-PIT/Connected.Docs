@@ -53,7 +53,5 @@ After confirmation:
 - All items inside the container are shown at the destination in stock views.
 - All details can be reviewed in the **[Inter warehouse](InterWarehouse.md)** page.
 
----
-
 
 

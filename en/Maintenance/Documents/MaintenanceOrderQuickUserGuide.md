@@ -102,5 +102,3 @@ Once completed:
 Return to the maintenance order and repeat the steps for the next operation.
 
 After all operations are completed, the maintenance work is finished and recorded for the equipment.
-
----

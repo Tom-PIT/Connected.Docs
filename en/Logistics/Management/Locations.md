@@ -91,5 +91,3 @@ If confirmed, the location is permanently removed; otherwise, the system keeps t
 
 > [!NOTE]
 >A location can be deleted only if it is not used in any dependent entries, such as stock records or warehouse operations.  
-
----

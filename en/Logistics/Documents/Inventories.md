@@ -99,5 +99,3 @@ These options are available for both *draft* and *committed* documents.
 ## Deletion
 
 Click **Delete** to remove a **draft** inventory document. Committed inventory documents **cannot** be deleted or reversed.
-
----

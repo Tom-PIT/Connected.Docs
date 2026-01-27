@@ -125,5 +125,3 @@ It complements operational domains by supporting them with **clear, accessible d
 - **[Articles](../Management/Articles.md)** – author and maintain content
 - **[Directory tags](../Management/DirectoryTags.md)** – define tags for filtering
 - **[Table of contents](../Management/TableOfContents.md)** – configure directory navigation
-
----

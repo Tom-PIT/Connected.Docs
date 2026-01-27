@@ -129,5 +129,3 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]
 > Committed documents **cannot** be deleted — only [reversed](Reversals.md).
-
----

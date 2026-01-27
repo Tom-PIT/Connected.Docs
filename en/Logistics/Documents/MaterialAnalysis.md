@@ -49,5 +49,3 @@ The list shows all material analysis documents created during receiving for mate
 ## Deletion
 
 Material analysis documents cannot be deleted.
-
----

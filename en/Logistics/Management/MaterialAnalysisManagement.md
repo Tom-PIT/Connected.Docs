@@ -1,4 +1,4 @@
-﻿# Material analysis management
+# Material analysis management
 
 Define the analyses or tests that can be performed on materials (e.g., chemical, visual, dimensional checks). These entries are reused wherever a material analysis must be selected.
 
@@ -50,5 +50,3 @@ Click an entry in the list to open it in edit mode. Update fields and click **Sa
 ## Deletion
 
 Click **Delete** on the edit screen to remove an analysis.
-
----

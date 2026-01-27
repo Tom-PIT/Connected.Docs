@@ -142,6 +142,4 @@ Click **Delete** to remove a **draft** reversal document. Committed reversals **
 
 A draft reversal can always be deleted because it does not contain dependent stock movements.
 
----
-
 

@@ -56,5 +56,3 @@ If confirmed, the warehouse is permanently removed; otherwise, the system keeps 
 
 > [!NOTE]
 >A warehouse can be deleted only if it is not used in any dependent records, such as inventory transactions or material movements.
-
----

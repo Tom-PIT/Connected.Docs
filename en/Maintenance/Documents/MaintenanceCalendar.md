@@ -30,9 +30,9 @@ When hovering over a calendar entry, a tooltip displays additional information s
 
 The calendar can be displayed in the following views, selectable from the top-right corner:
 
-- **Day** – detailed view of maintenance orders for a single day
-- **Week** – overview of maintenance orders across a week
-- **Month** – high-level overview of planned maintenance orders
+- **Day** â€“ detailed view of maintenance orders for a single day
+- **Week** â€“ overview of maintenance orders across a week
+- **Month** â€“ high-level overview of planned maintenance orders
 
 ![MaintenanceCalendarDayView](../Images/MaintenanceCalendarDayView.png)
 
@@ -50,7 +50,7 @@ The following filters are available on the left side of the screen:
 - **All**
 
 ### Order status
-- **Pending** (toggle) — include pending orders when enabled; otherwise only Active orders are shown
+- **Pending** (toggle) â€” include pending orders when enabled; otherwise only Active orders are shown
 
 ### Organization unit
 - Select one or more organization units
@@ -59,7 +59,5 @@ Filters can be combined to narrow down the calendar view to relevant maintenance
 
 ## Related
 
-- **[Maintenance orders](MaintenanceOrders.md)** – create and manage maintenance work
-- **[Maintenance schedule](MaintenanceSchedule.md)** – configure recurring time/usage-based schedules that generate orders
-
----
+- **[Maintenance orders](MaintenanceOrders.md)** â€“ create and manage maintenance work
+- **[Maintenance schedule](MaintenanceSchedule.md)** â€“ configure recurring time/usage-based schedules that generate orders

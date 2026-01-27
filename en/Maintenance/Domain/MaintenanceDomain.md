@@ -62,5 +62,3 @@ Monitor performance and reliability using built-in analytics.
 
 > [!NOTE]
 > Detailed chapters for each page (orders, schedule, malfunctions, calendar, indicators) are available and provide step-by-step guidance. This page serves as the domain overview.
-
----

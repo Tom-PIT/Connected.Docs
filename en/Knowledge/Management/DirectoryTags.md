@@ -21,7 +21,7 @@ The list view displays all configured directory tags.
 ![DirectoryTagsList](../Images/DirectoryTagsList.png)
 
 Each row shows:
-- **Tag** – tag name used to classify Knowledge [articles](Articles.md)
+- **Tag** â€“ tag name used to classify Knowledge [articles](Articles.md)
 
 You can use the **Search** bar to quickly filter tags by name.
 
@@ -66,9 +66,7 @@ If confirmed, the tag is permanently removed; otherwise, the system keeps it unc
 
 ## Related
 
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse articles and filter by tags
-- **[Directories](Directories.md)** – containers that hold articles and TOCs
-- **[Articles](Articles.md)** – content items that can use directory tags
-
----
+- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** â€“ browse articles and filter by tags
+- **[Directories](Directories.md)** â€“ containers that hold articles and TOCs
+- **[Articles](Articles.md)** â€“ content items that can use directory tags
 

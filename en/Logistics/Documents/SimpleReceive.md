@@ -1,4 +1,4 @@
-﻿# Simple receive
+# Simple receive
 
 The **Simple receive** workflow provides a fast way to record incoming materials based on an existing [**Supply order**](../../Supply/Documents/SupplyOrders.md).  It guides the user through three clear steps: selecting the document header, confirming the materials to receive, and editing each detail before finishing.
 
@@ -72,6 +72,4 @@ After clicking **Finish**:
 - The supply order is updated with the received quantities  
 
 For more advanced receiving workflows (serial numbers, best-before dates, packaging, attachments, reversals, etc.), see the full [Receives documentation](Receives.md).
-
----
 

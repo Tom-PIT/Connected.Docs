@@ -109,5 +109,3 @@ If confirmed, the article is permanently removed.
 - **[Directories](Directories.md)** – manage directories that group articles
 - **[Table of contents](TableOfContents.md)** – define navigation for a directory
 - **[Directory tags](DirectoryTags.md)** – categorize and filter articles
-
----

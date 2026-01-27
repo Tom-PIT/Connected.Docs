@@ -121,5 +121,3 @@ To delete:
 > [!NOTE]  
 > Committed loans **cannot** be deleted — only **reversed**.
 
----
-

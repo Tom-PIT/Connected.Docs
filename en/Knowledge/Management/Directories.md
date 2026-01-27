@@ -12,7 +12,7 @@ To access this screen, go to **Knowledge / Management / Directories** in the [na
 |------|-------------|
 | **Name** | Display name of the directory (mandatory). |
 | **Key** | Short unique identifier for the directory (mandatory). |
-| **Description** | Optional description explaining the directory’s purpose. |
+| **Description** | Optional description explaining the directoryâ€™s purpose. |
 | **Image** | Optional image used to visually represent the directory (recommended ratio 1:1). |
 | **Enabled** | Indicates whether the directory is visible and available in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). |
 
@@ -25,14 +25,14 @@ To access this screen, go to **Knowledge / Management / Directories** in the [na
 The list view displays all configured directories.
 
 Each row shows:
-- **Directory** – directory name
+- **Directory** â€“ directory name
 - **Links** to manage:
   - **[Table of contents](TableOfContents.md)**
   - **[Articles](Articles.md)**
 
 A status indicator appears to the left of each directory name:
-- **Blue** – enabled/active directory
-- **Gray** – disabled/inactive directory
+- **Blue** â€“ enabled/active directory
+- **Gray** â€“ disabled/inactive directory
 
 Directories can be searched using the **Search** field in the top-right corner.
 
@@ -50,7 +50,7 @@ Fill in the following fields:
 - **Key**
 - **Description** (optional)
 - **Image** (optional)
-- **Enabled** – controls whether the directory is visible in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)
+- **Enabled** â€“ controls whether the directory is visible in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)
 
 ![DirectoriesNew](../Images/DirectoriesNew.png "New directory")
 
@@ -62,8 +62,8 @@ Once created, the directory becomes available in the [**Knowledge base**](../Kno
 
 After a directory is created, additional configuration options become available directly from the list:
 
-- **[Articles](Articles.md)** – manage articles that belong to the directory  
-- **[Table of contents](TableOfContents.md)** – define the navigation structure inside the directory  
+- **[Articles](Articles.md)** â€“ manage articles that belong to the directory  
+- **[Table of contents](TableOfContents.md)** â€“ define the navigation structure inside the directory  
 
 These options are accessed via the links shown below each directory in the list.
 
@@ -96,9 +96,7 @@ If confirmed, the directory is permanently removed.
 
 ## Related
 
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse published content by directory
-- **[Articles](Articles.md)** – author and maintain content
-- **[Table of contents](TableOfContents.md)** – define directory navigation
-- **[Directory tags](DirectoryTags.md)** – categorize articles for filtering
-
----
+- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** â€“ browse published content by directory
+- **[Articles](Articles.md)** â€“ author and maintain content
+- **[Table of contents](TableOfContents.md)** â€“ define directory navigation
+- **[Directory tags](DirectoryTags.md)** â€“ categorize articles for filtering
