@@ -78,7 +78,7 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new i
 6. Click **Save** on the top-left corner to save the transfer document.
 7. When the physical transfer is completed at the destination warehouse, open the draft and click **Publish** to confirm the stock movement.
 
-A newly created inter warehouse document appears in **Drafts**. Once published, it moves to **Committed** and stock is transferred immediately.---
+A newly created inter warehouse document appears in **Drafts**. Once published, it moves to **Committed** and stock is transferred immediately.
 
 ## Notes
 
@@ -108,5 +108,3 @@ If the draft still includes materials in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 Committed documents **cannot** be deleted.
-
----

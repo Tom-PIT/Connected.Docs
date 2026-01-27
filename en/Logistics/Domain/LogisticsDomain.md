@@ -144,5 +144,3 @@ It ensures:
 
 It connects the physical handling of goods with the digital processes of sales, production, supply, and service.
 
----
-

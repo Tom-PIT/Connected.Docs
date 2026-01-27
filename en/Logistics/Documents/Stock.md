@@ -109,6 +109,4 @@ This view shows:
 
 The **Stock view by serial number** screen is read-only and is used for detailed tracking and traceability of a specific serial number.
 
----
-
 

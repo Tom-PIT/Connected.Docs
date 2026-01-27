@@ -196,5 +196,3 @@ Closed maintenance orders:
 - Serve as maintenance records for the equipment
 
 They remain visible in the list under the **Closed** view.
-
----

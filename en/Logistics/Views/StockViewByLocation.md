@@ -74,6 +74,3 @@ Example from Stock view by material:
 ![StockByLocationLink](../Images/StockByLocationLink.png)
 
 
----
-
-

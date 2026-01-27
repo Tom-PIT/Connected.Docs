@@ -31,7 +31,7 @@ The panel on the left allows refining the data shown on the screen.
 
 Available filters include:
 
-- **Completion date** – Time range used to calculate indicators
+- **Completion date** â€“ Time range used to calculate indicators
 - **Order type**
   - **Planned**
   - **Curative**
@@ -74,7 +74,7 @@ MTBF is commonly used to evaluate equipment reliability.
 
 ---
 
-![Maintenance Indicators – Time metrics](../Images/MaintenanceIndicatorsCardsExtra.png "Maintenance time-based indicators")
+![Maintenance Indicators â€“ Time metrics](../Images/MaintenanceIndicatorsCardsExtra.png "Maintenance time-based indicators")
 
 
 ### Mean time to detection
@@ -126,5 +126,3 @@ Visual indicators in the list help distinguish order types:
 - Planned orders appear without curative markers
 
 This makes it easy to analyze how corrective maintenance impacts overall performance metrics.
-
----
