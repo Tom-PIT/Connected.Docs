@@ -35,5 +35,3 @@ The **Subscribe to** option controls which tickets generate notifications for th
 - Settings are **user-specific**.
 - Changes are applied immediately.
 - No additional confirmation is required after updating settings.
-
----

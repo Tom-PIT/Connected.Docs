@@ -115,5 +115,3 @@ If materials exist in the **Details** section:
 4. Repeat until no details remain
 
 Once empty, the price list itself can be deleted from the edit screen.
-
----

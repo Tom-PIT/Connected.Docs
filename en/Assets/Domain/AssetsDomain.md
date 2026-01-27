@@ -57,5 +57,3 @@ The table below summarizes the key differences and helps determine where each ty
 | **Composition** | May contain material components via asset details. | May be included as parts of BOMs or asset structures. |
 | **External visibility** | Visible to customers. | Internal only; customers never see material records. |
 | **Lifecycle** | Market-oriented (driven by commercial strategy). | Production-oriented (driven by operational needs). |
-
----

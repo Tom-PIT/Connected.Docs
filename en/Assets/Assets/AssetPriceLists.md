@@ -110,8 +110,6 @@ If the draft still includes assets in the **Details** section:
 
 Once the document contains no assets, you can click **Delete** to remove the price list.
 
-----
-
 
 
 

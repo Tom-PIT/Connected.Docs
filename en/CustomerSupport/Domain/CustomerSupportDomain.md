@@ -97,5 +97,3 @@ It enables organizations to:
 - gain visibility into customer-related activity  
 
 By connecting operational support with customer, sales, and project data, the domain ensures consistent and efficient customer service workflows.
-
----

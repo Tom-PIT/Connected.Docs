@@ -1,4 +1,4 @@
-﻿# Countries
+# Countries
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
@@ -97,5 +97,3 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >A country can be deleted only if it is not referenced by dependent records (for example, addresses or documents).
-
----

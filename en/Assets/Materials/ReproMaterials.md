@@ -109,6 +109,3 @@ If confirmed, the repro material is permanently removed; otherwise, the system k
 
 > [!NOTE]
 > A repro material can be deleted only if no dependent records reference it (e.g., stock movements, production processes, documents).
-
----
-

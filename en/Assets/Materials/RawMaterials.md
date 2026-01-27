@@ -105,5 +105,3 @@ If confirmed, the raw material is permanently removed; otherwise, the system kee
 > [!NOTE]
 >A raw material can be deleted only if it is not referenced by other records.
 
----
-

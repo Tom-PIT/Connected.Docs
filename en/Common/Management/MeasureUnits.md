@@ -76,5 +76,3 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >A **measure unit** can be deleted only if it is not used in any dependent records, such as materials or stock transactions.
-
----

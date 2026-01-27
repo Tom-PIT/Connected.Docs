@@ -104,5 +104,3 @@ If confirmed, the product is permanently removed; otherwise, the system keeps th
 
 > [!NOTE]
 > A product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, or material structures.  
-
----

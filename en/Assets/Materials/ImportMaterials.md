@@ -109,5 +109,3 @@ Click any import on the **Created** column on the import list to review the resu
 
 ![Import materials report](../Images/ImportMaterialsReport.png "Import materials report")
 
----
-
