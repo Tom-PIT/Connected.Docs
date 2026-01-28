@@ -13,10 +13,10 @@ To access this screen, go to **Accounting / Ledger / Management / Account defaul
 
 | Field             | Description                                                                                                |
 | ----------------- | ---------------------------------------------------------------------------------------------------------- |
-| Code              | Technical identifier of the account default. Used internally by the system logic to reference the default. |
-| Name              | Human-readable name describing the purpose of the default.                                                 |
-| Posting direction | Defines whether the referenced account is posted on the debit or credit side.                            |
-| Account           | Account from the [**Chart of accounts**](ChartOfAccounts.md) used when this default is applied.                |
+| **Code**              | Technical identifier of the account default. Used internally by the system logic to reference the default. |
+| **Name**              | Human-readable name describing the purpose of the default.                                                 |
+| **Posting direction** | Defines whether the referenced account is posted on the debit or credit side.                            |
+| **Account**           | Account from the [**Chart of accounts**](ChartOfAccounts.md) used when this default is applied.                |
 
 ### Posting direction
 
