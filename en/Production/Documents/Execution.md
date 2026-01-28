@@ -7,7 +7,7 @@ Most production workers are automatically redirected to the Execution view upon 
 > [!TIP]
 > For a full demonstration, see the **[executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.
 
-To access this page manually, go to **Production / Execution** in the [navigation](../../Common/UI/Navigation.md).
+To access this page manually, go to **Production / Execution** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!NOTE]
 > - The screen usually shows any assigned production orders automatically when opened. If none appear, click **Select production orders** to choose one.

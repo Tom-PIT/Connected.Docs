@@ -15,7 +15,7 @@ This code list represents the stock boundaries for individual materials or produ
 
 ## Management
 
-To access the **Stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [navigation](../../Common/UI/Navigation.md).
+To access the **Stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ### List of stock boundaries
 

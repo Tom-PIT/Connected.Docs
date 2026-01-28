@@ -4,7 +4,7 @@ The **Depreciation groups** screen defines how fixed assets are depreciated in t
 
 Depreciation groups are referenced by assets and are used by the system when depreciation is calculated and posted.
 
-To access this screen, go to **Accounting / Ledger / Management / Depreciation groups** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Depreciation groups** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 > [!NOTE]
 > **Prerequisites**

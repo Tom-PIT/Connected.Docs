@@ -10,7 +10,7 @@ For example, an **asset** might be a *Complete Laptop Set* sold as a packaged of
 This domain groups together all elements needed to define, price, organize, and operate your catalog across sales and logistics.
 
 
-To access the Assets domain, navigate to **Assets** in the [navigation](../../Common/UI/Navigation.md).
+To access the Assets domain, navigate to **Assets** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Assets Domain](../Images/AssetsSitemap.png)
 

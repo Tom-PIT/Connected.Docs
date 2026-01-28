@@ -13,7 +13,7 @@ This code list serves as the register of all raw materials within the materials 
 > - [**Measure units**](../../Common/Management/MeasureUnits.md)  
 > - [**Tax rates**](../../Common/Management/TaxRates.md)
 
-To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [navigation](../../Common/UI/Navigation.md).
+To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

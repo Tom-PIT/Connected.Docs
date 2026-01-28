@@ -4,7 +4,7 @@ The **Organization units** code list defines operational organizational entities
 
 Organization units are used by planners and supervisors to scope operations, filter lists, and control workflow routing (for example, selecting the correct input/output warehouse location or assigning duties). Example: the Organization unit with Code **ORN-25-0002** corresponds to **Finishing**, a production unit responsible for finishing the product before packaging; similarly, a **Maintenance** unit might be **Electrical Maintenance** for equipment servicing.
 
-To access Organization units, navigate to the **Production** or **Maintenance** domains, then go to **Management / Organization units** in the [navigation](../../Common/UI/Navigation.md).
+To access Organization units, navigate to the **Production** or **Maintenance** domains, then go to **Management / Organization units** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Organization units](https://www.youtube.com/watch?v=qGkHEuOEWT4)** video tutorial.

@@ -4,7 +4,7 @@ The **Resource work hours & counters** screen is used to track **usage values** 
 
 These values are used by **count-based [maintenance schedules](MaintenanceSchedule.md)** to automatically generate maintenance orders when defined thresholds are reached.
 
-To access this screen, go to **Maintenance / Resource work hours & counters** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Maintenance / Resource work hours & counters** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Resource work hours & counters list](../Images/ResourceWorkHoursCountersList.png "Resource work hours & counters list")
 

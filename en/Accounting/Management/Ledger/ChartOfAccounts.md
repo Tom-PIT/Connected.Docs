@@ -4,7 +4,7 @@ The **Chart of accounts** code list defines the complete structure of financial 
 
 The Chart of accounts is a **core configuration element**. It is referenced by many other parts of the system, including journals, invoices, inventory valuation, cost centers, and financial reports. Accounts must therefore be defined before they can be used elsewhere.
 
-To access this screen, go to **Accounting / Ledger / Management / Chart of accounts** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Chart of accounts** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 

@@ -2,7 +2,7 @@
 
 The **Asset account connections** screen defines how individual assets are linked to ledger accounts for accounting postings created from invoices. This configuration determines which accounts are used when an asset is sold, stocked, or otherwise involved in invoice-related postings.
 
-To access this screen, go to **Accounting / Invoices / Management / Asset account connections** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Invoices / Management / Asset account connections** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Overview
 

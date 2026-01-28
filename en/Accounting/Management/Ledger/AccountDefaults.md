@@ -7,7 +7,7 @@ Account defaults are used whenever accounting entries are created **automaticall
 > [!NOTE]
 > Defaults are usually created during initial system configuration. Changes to account defaults affect future automated postings, not historical entries.
 
-To access this screen, go to **Accounting / Ledger / Management / Account defaults** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Account defaults** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 

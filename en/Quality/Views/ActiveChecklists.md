@@ -2,7 +2,7 @@
 
 The **Active checklists** view lists all checklist executions that are currently in progress. Operators use it to monitor and complete ongoing quality or maintenance tasks. When a checklist is completed, it no longer appears in this view and moves to the Completed checklists view.
 
-To access this view, navigate to **Quality / Views / Active checklists** in the [navigation](../../Common/UI/Navigation.md).
+To access this view, navigate to **Quality / Views / Active checklists** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ### Overview
 

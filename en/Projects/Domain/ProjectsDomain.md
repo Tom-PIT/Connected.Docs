@@ -5,7 +5,7 @@ It provides tools for organizing projects, managing tasks, monitoring progress, 
 
 The Projects domain is typically used for **internal initiatives**, **cross-department activities**, or **non-production work** that requires coordination, task tracking, and visibility over time.
 
-To access this domain, navigate to **Projects** in the [navigation](../../Common/UI/Navigation.md).
+To access this domain, navigate to **Projects** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Projects Domain](../Images/ProjectsDomainSitemap.png "Projects Domain")
 

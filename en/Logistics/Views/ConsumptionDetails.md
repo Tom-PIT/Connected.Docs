@@ -2,7 +2,7 @@
 
 The **Consumption details** view provides an analytical overview of all **materials consumed during production** within a selected time period. Instead of focusing on production documents, this view aggregates **consumed materials** and shows exactly **which [consumption documents](../../Production/Documents/Consumed.md)** were used and **from which warehouse locations** the materials were sourced.
 
-To access this view, go to **Logistics / Views / Consumption details** in the [navigation](../../Common/UI/Navigation.md).
+To access this view, go to **Logistics / Views / Consumption details** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![ConsumptionDetailsList](../Images/ConsumptionDetailsList.png)
 

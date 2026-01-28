@@ -2,7 +2,7 @@
 
 Timesheets define predefined work activity categories that can be used when recording time and effort across the system.
 
-To access **Timesheets**, go to **Resources / Management / Timesheets** in the [navigation](../../Common/UI/Navigation.md).
+To access **Timesheets**, go to **Resources / Management / Timesheets** in the [**navigation**](../../Common/UI/Navigation.md).
 
 These entries are typically used to standardize how work is categorized when logging time, enabling consistent reporting and analysis.
 

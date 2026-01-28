@@ -13,7 +13,7 @@ Each repro material includes important attributes—such as [measure units](../.
 > - [**Measure units**](../../Common/Management/MeasureUnits.md)  
 > - [**Tax rates**](../../Common/Management/TaxRates.md)
 
-To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [navigation](../../Common/UI/Navigation.md).
+To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

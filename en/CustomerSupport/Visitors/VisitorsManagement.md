@@ -4,7 +4,7 @@ The **Visitors management** screen is used to create and track visit records, in
 
 Each visit follows a clear lifecycle, from announcement to completion or cancellation.
 
-To access Visitors management, navigate to **Customer Support / Visitors / Visitors management** in the [navigation](../../Common/UI/Navigation.md).
+To access Visitors management, navigate to **Customer Support / Visitors / Visitors management** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

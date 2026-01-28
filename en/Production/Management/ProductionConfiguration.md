@@ -2,7 +2,7 @@
 
 Configure **Production** settings affecting document numbering. Any changes are saved automatically.
 
-To access this page, go to **Production / Management / Configuration** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Management / Configuration** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Production Configuration](../Images/ProductionConfiguration.png)
 

@@ -7,7 +7,7 @@ You can open the [**Stock view by material**](Stock.md#stock-view-by-material) o
 > [!TIP]
 > For a full demonstration, see the **[Move serial number](https://www.youtube.com/watch?v=dy1u6sKmdMg)** video tutorial.
 
-To access Move serial, go to **Logistics / Documents / Move serial** in the [navigation](../../Common/UI/Navigation.md).
+To access Move serial, go to **Logistics / Documents / Move serial** in the [**navigation**](../../Common/UI/Navigation.md).
 
 
 ## Moving a serial number

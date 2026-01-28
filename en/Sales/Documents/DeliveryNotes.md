@@ -4,7 +4,7 @@ A **Delivery note** is a logistics document that accompanies goods during delive
 
 A delivery note does **not** represent a financial document—it is primarily operational. Once items are delivered, a delivery note typically leads to the creation of an **Issue** (warehouse output), and later to an **Issued invoice**.
 
-To access this page, go to **Sales / Documents / Delivery notes** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Delivery notes** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How delivery notes fit into the sales workflow
 

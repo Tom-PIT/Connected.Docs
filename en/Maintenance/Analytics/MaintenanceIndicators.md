@@ -2,7 +2,7 @@
 
 The **Maintenance indicators** screen provides an analytical overview of maintenance performance. It aggregates data from **completed [maintenance orders](../Documents/MaintenanceOrders.md)** and helps evaluate efficiency, responsiveness, and reliability of maintenance activities.
 
-To access this screen, go to **Maintenance / Analytics / Maintenance indicators** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Maintenance / Analytics / Maintenance indicators** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Maintenance Indicators](../Images/MaintenanceIndicators.png "Maintenance indicators overview")
 

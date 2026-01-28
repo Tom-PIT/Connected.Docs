@@ -2,7 +2,7 @@
 
 The **Notification settings** screen allows users to personalize which ticket notifications they receive. Settings are configured **per desk**, meaning each desk can have different notification preferences.
 
-To access this screen, go to **Customer support / Management / Notification settings** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Customer support / Management / Notification settings** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Notification settings](../Images/NotificationSettings.png "Notification settings")
 

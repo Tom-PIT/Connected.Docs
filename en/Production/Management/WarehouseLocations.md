@@ -5,7 +5,7 @@ production workflows can source materials and store produced items. Use this pag
 locations Production may use for input and output and to enforce connection rules between
 organization units and warehouse locations.
 
-To access Warehouse locations, go to **Production / Management / Warehouse locations** in the [navigation](../../Common/UI/Navigation.md).
+To access Warehouse locations, go to **Production / Management / Warehouse locations** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Warehouse locations](https://www.youtube.com/watch?v=qR3o0CpIGpo)** video tutorial.

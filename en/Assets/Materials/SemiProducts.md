@@ -13,7 +13,7 @@ Each semi product includes key information—like  [measure units](../../Common/
 > - [**Measure units**](../../Common/Management/MeasureUnits.md)  
 > - [**Tax rates**](../../Common/Management/TaxRates.md)
 
-To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../Common/UI/Navigation.md).
+To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

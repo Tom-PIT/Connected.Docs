@@ -7,7 +7,7 @@ Writeoffs directly adjust stock levels. If incorrect quantities are written off,
 > [!TIP]
 > For a full demonstration, see the **[Writeoffs](https://www.youtube.com/watch?v=_0jEGSTorsY)** video tutorial.
 
-To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigation](../../Common/UI/Navigation.md).
+To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

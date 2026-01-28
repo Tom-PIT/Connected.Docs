@@ -4,7 +4,7 @@ The **Logistics** domain covers all warehouse-related operations within your org
 
 Where the **[Materials](../../Assets/Domain/Materials.md)** domain defines *what* exists in stock, the Logistics domain defines *where it is stored*, *how it moves*, and *how it is controlled*.
 
-To access this domain, navigate to **Logistics** in the [navigation](../../Common/UI/Navigation.md).
+To access this domain, navigate to **Logistics** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Logistics Domain](../Images/LogisticsSitemap.png "Logistics Domain")
 

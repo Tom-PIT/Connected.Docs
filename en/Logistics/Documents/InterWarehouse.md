@@ -7,7 +7,7 @@ The transfer process lets you scan or search for materials, choose a destination
 > [!TIP]
 > For a full demonstration, see the **[Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI)** video tutorial.
 
-To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [navigation](../../Common/UI/Navigation.md).
+To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
