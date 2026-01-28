@@ -2,7 +2,7 @@
 
 Konfigurirajte nastavitve domene **Viri**, ki vplivajo na številčenje dokumentov in vedenje dokumentov, povezanih z viri. Vse spremembe se shranjujejo samodejno.
 
-Za dostop do konfiguracije pojdite na **Viri / Upravljanje / Konfiguracija** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do konfiguracije pojdite na **Viri / Upravljanje / Konfiguracija** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Konfiguracija virov](../Images/ResourcesConfiguration.png)
 

@@ -4,7 +4,7 @@
 
 Dobavnica **ni** finančni dokument – namenjena je predvsem operativni uporabi. Po izvedeni dobavi dobavnica praviloma vodi v ustvarjanje dokumenta **Izdaja** (izhod iz skladišča), kasneje pa še v **Izdani račun**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobavnice** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobavnice** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga dobavnic v prodajnem procesu
 

@@ -13,7 +13,7 @@ Ta šifrant predstavlja države, ki se uporabljajo v digitalnih vsebinah sistema
 
 ## Upravljanje
 
-Do šifranta **Države** lahko dostopate iz različnih domen v [navigaciji](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+Do šifranta **Države** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
 
 Za odpiranje seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
 

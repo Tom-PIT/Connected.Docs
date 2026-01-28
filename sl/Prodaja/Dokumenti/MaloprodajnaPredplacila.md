@@ -5,7 +5,7 @@ Dokument je namenjen prodaji na blagajni ali v trgovini in podpira enak življen
 
 Maloprodajna predplačila je mogoče natisniti ali poslati stranki v katerikoli fazi.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna predplačila** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna predplačila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga maloprodajnih predplačil v prodajnem procesu
 

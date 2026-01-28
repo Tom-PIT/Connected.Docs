@@ -3,7 +3,7 @@
 **Ceniki sredstev** določajo, koliko določen kupec (ali druga poslovna entiteta) plača za vaša [sredstva](Sredstva.md).  
 Omogočajo nastavitev **cen po posameznem kupcu**, veljavnih za določeno časovno obdobje, ter po potrebi vključujejo **količinske popuste** (cenovne razrede).
 
-Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

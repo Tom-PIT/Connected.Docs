@@ -2,7 +2,7 @@
 
 Tipi bolniških odsotnosti določajo **razloge za bolniško odsotnost**, ki jih lahko zaposleni izberejo pri ustvarjanju vnosa bolniške odsotnosti. Omogočajo standardizirano poročanje o bolniških odsotnostih in zagotavljajo dosledno kategorizacijo v časovnih evidencah, spremljanju prisotnosti in upravljanju odsotnosti.
 
-Za dostop do **Tipov bolniških odsotnosti** pojdite na **Viri / Upravljanje / Tipi bolniških odsotnosti** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Tipov bolniških odsotnosti** pojdite na **Viri / Upravljanje / Tipi bolniških odsotnosti** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

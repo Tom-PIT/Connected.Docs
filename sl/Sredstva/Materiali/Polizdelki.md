@@ -15,7 +15,7 @@ Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../Skupno/
 > - [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Polizdelki** pojdite na  
-**Sredstva / Materiali / Polizdelki** v [navigaciji](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Polizdelki** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

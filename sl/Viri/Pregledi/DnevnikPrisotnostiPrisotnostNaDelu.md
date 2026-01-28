@@ -3,7 +3,7 @@
 Pogled **Dnevnik prisotnosti – Prisotnost na delu** omogoča pregled **trenutnega stanja prisotnosti zaposlenih v realnem času**.  
 Primarno je namenjen nadzornikom, vodjem ekip in vodstvu, ki morajo hitro preveriti, kdo je prisoten, odsoten ali v določenem stanju prisotnosti.
 
-Za dostop do pogleda **Prisotnost na delu** pojdite na **Viri / Dnevnik prisotnosti / Prisotnost na delu** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do pogleda **Prisotnost na delu** pojdite na **Viri / Dnevnik prisotnosti / Prisotnost na delu** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Prisotnost na delu – pregled](../Images/TimeLogsAttendanceSL.png "Prisotnost na delu")
 

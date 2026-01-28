@@ -2,7 +2,7 @@
 
 Šifrant **Predloge klavzul za dobavnice** omogoča definiranje naborov klavzul (predlog), ki se izpišejo na dobavnicah za posamezna podjetja. Predloga vsebuje eno ali več klavzul – kot so pravna obvestila, izjave o omejitvi odgovornosti ali potrditve dobave – ki se na dobavnici izpišejo na vrhu ali dnu dokumenta v določenem zaporedju.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za dobavnice** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za dobavnice** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > **Predpogoji**  

@@ -13,7 +13,7 @@ Dokumentov storna **ni mogoče stornirati**.
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Storno](https://www.youtube.com/watch?v=yfGNARBWm7Q)**.
 
-Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

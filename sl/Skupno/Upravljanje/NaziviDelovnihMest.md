@@ -2,7 +2,7 @@
 
 **Nazivi delovnih mest** so del modula **Podpora strankam** in določajo vloge, ki jih je mogoče dodeliti [kontaktom](Kontakti.md) v [**Poslovnem imeniku**](PoslovniImenik.md). Omogočajo razvrščanje oseb, kot so *skrbnik kupcev*, *nabavni referent* ali *direktor*.
 
-Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

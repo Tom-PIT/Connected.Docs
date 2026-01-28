@@ -5,7 +5,7 @@ Predračun **ne sproži** računovodskih ali skladiščnih knjiženj, vendar pre
 
 Predračuni se najpogosteje ustvarijo iz potrjene **[Ponudbe](Ponudbe.md)**, lahko pa se ustvarijo tudi samostojno z uporabo [**akcijskega gumbа**](../../Skupno/UI/AkcijskiGumb.md).
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predračuni** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predračuni** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga predračunov v prodajnem procesu
 

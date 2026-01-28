@@ -4,7 +4,7 @@ Domena **Viri** upravlja vse operativne podatke, povezane z ljudmi, znotraj orga
 
 Medtem ko druge domene (na primer **Proizvodnja**, **Vzdrževanje** ali **Projekti**) določajo, *katero delo je treba opraviti*, domena Viri določa, *kdo delo opravlja*, *kdaj* in *pod katerimi pogoji*.
 
-Za dostop do domene **Viri** pojdite na **Navigacija / Viri** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do domene **Viri** pojdite na **Navigacija / Viri** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Domena Viri – zemljevid](../Images/ResourcesDomainSitemapSL.png "Domena Viri")
 

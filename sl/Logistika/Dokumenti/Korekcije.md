@@ -10,7 +10,7 @@ Korekcije uporabite za:
 > [!NOTE]
 > Ob objavi korekcije se zaloga posodobi: sistem prilagodi količine in atribute glede na vnesene razlike.
 
-Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

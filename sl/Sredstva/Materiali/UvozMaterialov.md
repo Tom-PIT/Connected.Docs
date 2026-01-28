@@ -22,7 +22,7 @@ Pred dejanskim uvozom lahko izvedete **Testni uvoz**, ki preveri podatke in poro
 > Predhodni pregled teh šifrantov pomaga zagotoviti pravilna poimenovanja in preslikave.
 
 Za dostop do šifranta **Uvoz materialov** pojdite na  
-**Sredstva / Materiali / Uvoz materialov** v [navigaciji](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Uvoz materialov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

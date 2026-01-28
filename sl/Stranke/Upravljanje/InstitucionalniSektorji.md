@@ -6,7 +6,7 @@
 
 Ti sektorji se kasneje uporabljajo pri definiranju in upravljanju podatkov o strankah ter omogočajo boljšo segmentacijo, poročanje in filtriranje v šifrantu [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md).
 
-Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Institucionalni sektorji** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Institucionalni sektorji** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

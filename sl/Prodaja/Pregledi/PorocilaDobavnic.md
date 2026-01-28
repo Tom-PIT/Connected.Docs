@@ -2,7 +2,7 @@
 
 Pogled **Poročila dobavnic** nudi konsolidiran pregled **dobavljenih postavk**, združenih po **strankah**. Namenjen je analizi in poročanju ter **ne omogoča** ustvarjanja, urejanja ali spreminjanja dokumentov.
 
-Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Poročila dobavnic** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Poročila dobavnic** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Namen pregleda
 

@@ -3,7 +3,7 @@
 Šifrant **Bančni računi organizacije** hrani IBAN račune, ki jih vaše podjetje uporablja za izdajanje računov, prejemanje plačil in druge finančne procese. Ta zaslon omogoča pregled, dodajanje, omogočanje ali onemogočanje IBAN računov, ki jih uporablja organizacija.  
 Vsak zapis določa banko, IBAN številko ter ali je račun aktiven in ali se uporablja maska za vnos IBAN-a.
 
-Za dostop do tega zaslona pojdite na **Prodaja / Šifranti / Bančni računi organizacije** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Prodaja / Šifranti / Bančni računi organizacije** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > **Predpogoji**  

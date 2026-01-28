@@ -3,7 +3,7 @@
 Pogled **Dnevnik prisotnosti – Upravljaj** je namenjen **sprotnemu beleženju prisotnosti in dnevnemu evidentiranju časa**.  
 Zaposlenim omogoča beleženje začetka in konca dela, odmorov, službenih poti, zasebnega časa ter hiter dostop do odsotnosti in potnih nalogov.
 
-Za dostop do pogleda **Dnevnik prisotnosti – Upravljaj** pojdite na **Viri / Dnevnik prisotnosti / Upravljaj** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do pogleda **Dnevnik prisotnosti – Upravljaj** pojdite na **Viri / Dnevnik prisotnosti / Upravljaj** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Dnevnik prisotnosti – upravljaj](../Images/TimeLogsManageSL.png "Dnevnik prisotnosti – upravljaj")
 

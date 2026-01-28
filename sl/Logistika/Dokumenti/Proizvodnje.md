@@ -4,7 +4,7 @@ Dokument **Proizvodnja** beleži postavke, ki so bile proizvedene med izvajanjem
 
 Za vnos proizvedenih količin na proizvodni strani glejte **[Izvajanje](../../Proizvodnja/Dokumenti/Izvedba.md)** (Izhodi). Izhodi so tesno povezani s to stranjo: beleženje proizvedenih postavk v proizvodnji ustvari ustrezen dokument proizvodnje v logistiki. Za določanje izhodov v procesih glejte **[Izhodi](../../Proizvodnja/Upravljanje/Izhodi.md)**.
 
-Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

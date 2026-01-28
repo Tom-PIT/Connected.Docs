@@ -7,7 +7,7 @@
 
 Ta zaslon zagotavlja namenski delovni tok za **izdajo materiala kooperantom** in **prevzem materiala nazaj**, ko je zunanja operacija zaključena.
 
-Za dostop do tega zaslona pojdite na **Proizvodnja / Kooperanti** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Proizvodnja / Kooperanti** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Pregled kooperantov](../Images/CooperatorsIssue.png)
 

@@ -4,7 +4,7 @@
 
 Ta šifrant zagotavlja, da procesi nabave pravilno prepoznajo, **kateri materiali so na voljo pri posameznem dobavitelju** in **pod kakšnimi pogoji**.
 
-Za dostop do **Materialov dobaviteljev** pojdite na **Nabava / Šifranti / Materiali dobaviteljev** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Materialov dobaviteljev** pojdite na **Nabava / Šifranti / Materiali dobaviteljev** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

@@ -8,7 +8,7 @@ Te vrednosti se uporabljajo pri **urnikih vzdrževanja na podlagi števcev**
 za samodejno ustvarjanje vzdrževalnih nalogov, ko so doseženi določeni pragovi.
 
 Za dostop do tega zaslona pojdite na **Vzdrževanje / Stanja števcev** v
-[navigaciji](../../Skupno/UI/Navigacija.md).
+[**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Seznam stanj števcev](../Images/ResourceWorkHoursCountersList.png)
 

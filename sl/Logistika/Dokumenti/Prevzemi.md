@@ -11,7 +11,7 @@ Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../.
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Prevzemi](https://www.youtube.com/watch?v=oTOYD-nlCqE)**.
 
-Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

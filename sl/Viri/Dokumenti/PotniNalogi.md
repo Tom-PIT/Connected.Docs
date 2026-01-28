@@ -2,7 +2,7 @@
 
 Potni nalogi se uporabljajo za evidentiranje in upravljanje službenih poti zaposlenih. Združujejo kilometrino, dnevnice in druge stroške ter izračunajo skupni strošek poti.
 
-Za dostop do dokumentov **Potni nalogi** pojdite na **Viri / Dokumenti / Potni nalogi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Potni nalogi** pojdite na **Viri / Dokumenti / Potni nalogi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

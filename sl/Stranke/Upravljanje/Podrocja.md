@@ -4,7 +4,7 @@
 
 Področja zagotavljajo, da so prejete zahteve pravilno usmerjene in dosledno obdelane v celotni organizaciji.
 
-Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Področja** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Področja** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

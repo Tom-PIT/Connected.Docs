@@ -11,7 +11,7 @@ Demontažo uporabite, kadar prejmete ali skladiščite **garniture**, vendar mor
 > - Demontaža ob objavi vpliva na zalogo: komponente postanejo razpoložljive, količina garniture pa se ustrezno zmanjša.
 > - Za ustvarjanje demontaže mora biti najprej definirana struktura garniture v šifrantu **[Garniture](../../Sredstva/Materiali/Garniture.md)**.
 
-Za dostop do **Demontaž** pojdite na **Logistika / Dokumenti / Demontaže** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Demontaž** pojdite na **Logistika / Dokumenti / Demontaže** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ### Primer uporabe
 

@@ -2,7 +2,7 @@
 
 Konfiguracija nastavitev modula **Proizvodnja**, ki vplivajo na številčenje dokumentov. Spremembe se shranijo samodejno.
 
-Za dostop do te strani pojdite na **Proizvodnja / Upravljanje / Konfiguracija** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Proizvodnja / Upravljanje / Konfiguracija** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Konfiguracija proizvodnje](../Images/ProductionConfiguration.png)
 

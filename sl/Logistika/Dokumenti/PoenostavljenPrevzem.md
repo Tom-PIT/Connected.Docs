@@ -6,7 +6,7 @@ Uporabnika vodi skozi tri jasne korake: izbiro glave dokumenta, potrditev materi
 
 Poenostavljen prevzem je primeren za hitre skladiščne operacije, kjer materiali prispejo **točno tako, kot so bili naročeni**, brez potrebe po naprednih funkcijah prevzema.
 
-Za dostop do **Poenostavljenega prevzema** pojdite na **Logistika / Dokumenti / Poenostavljen prevzem** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Poenostavljenega prevzema** pojdite na **Logistika / Dokumenti / Poenostavljen prevzem** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Pregled
 

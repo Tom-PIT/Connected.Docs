@@ -2,7 +2,7 @@
 
 Določite **urne stroškovne postavke za vire** (človeške in nečloveške). Te postavke se uporabljajo za izračun proizvodnih in operativnih stroškov ter za ocenjevanje stroškov opravljenega dela.
 
-Za dostop do **Postavk virov** pojdite na **Viri / Upravljanje / Postavke virov** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Postavk virov** pojdite na **Viri / Upravljanje / Postavke virov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

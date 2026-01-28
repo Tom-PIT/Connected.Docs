@@ -2,7 +2,7 @@
 
 Šifrant **Valute** določa vse denarne enote, ki se lahko uporabljajo v sistemu. Vsaka valuta vključuje svojo mednarodno šifro, simbol in pravila oblikovanja, kar zagotavlja dosleden in pravilen prikaz cen, zneskov in finančnih dokumentov. Ta seznam predstavlja osnovo za prikaz zneskov v prodajnih, nabavnih in poročevalskih procesih.
 
-Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Stroškovna mesta** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Stroškovna mesta** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > **Predpogoji**  

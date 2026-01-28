@@ -9,7 +9,7 @@ zagotavljajo, da se preventivno vzdrževanje izvaja redno, brez ročnega
 ustvarjanja nalogov.
 
 Za dostop do urnikov vzdrževanja pojdite na **Vzdrževanje / Urniki vzdrževanja**
-v [navigaciji](../../Skupno/UI/Navigacija.md).
+v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Seznam urnikov vzdrževanja
 

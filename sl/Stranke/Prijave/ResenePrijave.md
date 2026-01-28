@@ -2,7 +2,7 @@
 
 Zaslon **Rešene prijave** omogoča pregled prijav, ki so zaključile svoj življenjski cikel. Uporablja se za pregled opravljenega dela, vpogled v zgodovino prijav in po potrebi ponovno odpiranje prijav.
 
-Za dostop do tega zaslona pojdite na **Stranke / Prijave / Rešene prijave** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Stranke / Prijave / Rešene prijave** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

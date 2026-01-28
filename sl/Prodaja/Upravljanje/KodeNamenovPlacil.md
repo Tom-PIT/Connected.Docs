@@ -3,7 +3,7 @@
 Zaslon **Kode namenov plačil** omogoča definiranje nastavljivih kod, ki se uporabljajo za preslikavo internih podatkov v **zunanje sisteme, partnerje ali klasifikacije**.  
 Te kode se najpogosteje uporabljajo pri integracijah s tretjimi sistemi, kot so ERP sistemi, bančni sistemi, poslovni partnerji ali industrijske klasifikacije.
 
-Za dostop do tega zaslona pojdite na **Prodaja / Upravljanje / Kode namenov plačil** v [navigaciji](../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
+Za dostop do tega zaslona pojdite na **Prodaja / Upravljanje / Kode namenov plačil** v [**navigaciji**](../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
 
 > [!NOTE]
 > Kode namenov plačil same po sebi nimajo vnaprej določenega pomena. Njihova interpretacija je odvisna od tega, kako in kje so uporabljene v drugih dokumentih ali integracijah.

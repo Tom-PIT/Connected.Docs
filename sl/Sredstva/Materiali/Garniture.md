@@ -3,7 +3,7 @@
 **Garniture** omogočajo definiranje sestavljenih postavk iz obstoječih materialov (izdelkov, polizdelkov, surovin ali repro materialov). Garnitura združuje več komponent z določenimi količinami pod enim nadrejenim materialom, tako da jo lahko upravljate ali obravnavate kot eno celoto.
 
 Za dostop do tega zaslona pojdite na  
-**Sredstva / Materiali / Garniture** v [navigaciji](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Garniture** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

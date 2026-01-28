@@ -2,7 +2,7 @@
 
 **Povpraševanje** je nabavni dokument, ki se uporablja za pridobivanje informacij o **cenah**, **razpoložljivosti** in **dobavnih rokih** pri dobaviteljih, še preden se odda formalno naročilo. Povpraševanja omogočajo primerjavo ponudb dobaviteljev, načrtovanje prihodnjih nabav ter nemoten prehod v nadaljnje dokumente, kot so **[nabavni nalogi](NabavniNalogi.md)**.
 
-Za dostop do **Povpraševanj** pojdite na **Nabava / Dokumenti / Povpraševanja** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Povpraševanj** pojdite na **Nabava / Dokumenti / Povpraševanja** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Kako se povpraševanja vključujejo v nabavni proces
 

@@ -15,7 +15,7 @@ Vsak izdelek vsebuje pomembne podatke – kot so [merske enote](../../Skupno/Upr
 > - [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Izdelki** pojdite na  
-**Sredstva / Materiali / Izdelki** v [navigaciji](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Izdelki** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
