@@ -124,5 +124,3 @@ The **Knowledge base** is typically used for:
 - **[Articles](../Management/Articles.md)** – author content
 - **[Directory tags](../Management/DirectoryTags.md)** – define tags used for filtering
 - **[Table of contents](../Management/TableOfContents.md)** – define directory navigation
-
----
