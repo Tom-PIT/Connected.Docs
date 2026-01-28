@@ -7,7 +7,7 @@ Postopek prenosa omogoča skeniranje ali iskanje materialov, izbiro ciljnega [sk
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Med-skladiščni promet](https://www.youtube.com/watch?v=xtyKDh7_qgI)**.
 
-Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / Dokumenti / Med-skladiščni promet** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / Dokumenti / Med-skladiščni promet** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

@@ -15,7 +15,7 @@ Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vklj
 >   [**merske enote**](../../Skupno/Upravljanje/MerskeEnote.md), odvisno od poteka vzdrževanja
 
 Za dostop do vzdrževalnih nalogov pojdite na **Vzdrževanje / Vzdrževalni nalogi** v
-[navigaciji](../../Skupno/UI/Navigacija.md).
+[**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Seznam vzdrževalnih nalogov
 

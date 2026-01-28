@@ -5,7 +5,7 @@ Uporabnikom omogoča planiranje, pregled in navigacijo po vzdrževalnih nalogih
 z uporabo koledarskega prikaza.
 
 Za dostop do tega zaslona pojdite na **Vzdrževanje / Koledar vzdrževanja** v
-[navigaciji](../../Skupno/UI/Navigacija.md).
+[**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Koledar vzdrževanja - mesečni pogled](../Images/MaintenanceCalendarMonthView.png)
 

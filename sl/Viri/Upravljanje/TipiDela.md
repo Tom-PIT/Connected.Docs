@@ -2,7 +2,7 @@
 
 Tipi dela določajo **kategorije dela**, ki jih je mogoče izbrati pri beleženju napora na opravilih, proizvodnih izvedbah ali vzdrževalnih aktivnostih. Pomagajo standardizirati poročanje časa in izboljšujejo kasnejšo analizo porabe časa.
 
-Za dostop do **Tipov dela** pojdite na **Viri / Upravljanje / Tipi dela** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Tipov dela** pojdite na **Viri / Upravljanje / Tipi dela** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Seznam tipov dela](../Images/EffortTypesList.png "Seznam tipov dela")
 

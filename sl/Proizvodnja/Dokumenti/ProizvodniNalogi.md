@@ -14,7 +14,7 @@ Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Z
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Proizvodni nalog](https://www.youtube.com/watch?v=q4UjiYpWph8)**.
 
-Do proizvodnih nalogov dostopate preko **Proizvodnja / Proizvodni nalogi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Do proizvodnih nalogov dostopate preko **Proizvodnja / Proizvodni nalogi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Seznam proizvodnih nalogov
 

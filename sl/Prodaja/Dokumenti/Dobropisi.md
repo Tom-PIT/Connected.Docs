@@ -7,7 +7,7 @@ Dobropisi zmanjšujejo odprto obveznost stranke. Za povečanja ali dodatne zara�
 > [!TIP]
 > Za hiter pregled trenutnih **bremenitev in dobropisov** po posameznih strankah uporabite pregled **[Kartice podjetij](../Pregledi/PoslovneKartice.md)**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobropisi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobropisi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga dobropisov v prodajnem procesu
 

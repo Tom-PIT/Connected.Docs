@@ -10,7 +10,7 @@ Minimalni in maksimalni pragovi, prikazani v povzetkih, se nastavijo v šifrantu
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Inventura](https://www.youtube.com/watch?v=Rc4qqTdxKn8)**.
 
-Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

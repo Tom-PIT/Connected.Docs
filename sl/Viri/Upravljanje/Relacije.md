@@ -3,7 +3,7 @@
 Relacije določajo **vnaprej definirane poti**, ki se uporabljajo pri ustvarjanju potnih nalogov.  
 Shranjujejo začetni in ciljni naslov skupaj s podatki o razdalji, kar omogoča dosledno in ponovljivo ustvarjanje potnih nalogov.
 
-Za dostop do **Relacij** pojdite na **Viri / Upravljanje / Relacije** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Relacij** pojdite na **Viri / Upravljanje / Relacije** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

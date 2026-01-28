@@ -2,7 +2,7 @@
 
 Zaslon **Nastavitve obvestil** uporabnikom omogoča prilagoditev, **katera obvestila o prijavah prejemajo**. Nastavitve se konfigurirajo **po področjih**, kar pomeni, da ima lahko vsako področje svoje nastavitve obveščanja.
 
-Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Nastavitve obvestil** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Nastavitve obvestil** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Nastavitve obvestil](../Images/NotificationSettings.png "Nastavitve obvestil")
 

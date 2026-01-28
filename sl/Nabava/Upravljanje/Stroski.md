@@ -4,7 +4,7 @@
 
 Ta seznam zagotavlja doslednost, saj so vsi stroški shranjeni na enem mestu in na voljo za uporabo v dokumentih ter operativnih delovnih tokovih.
 
-Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

@@ -5,7 +5,7 @@
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Vsebniki](https://www.youtube.com/watch?v=2V9K1jTsyQI)**.
 
-Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

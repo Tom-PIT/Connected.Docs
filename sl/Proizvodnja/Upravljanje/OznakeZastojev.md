@@ -2,7 +2,7 @@
 
 **Oznake zastojev** se uporabljajo za razvrščanje in beleženje razlogov za prekinitve proizvodnje. Omogočajo analizo vzrokov zastojev, kot so okvare strojev, planirana vzdrževalna dela ali čiščenje, ter se uporabljajo v poročilih in analizah učinkovitosti proizvodnje.
 
-Za dostop do strani **Oznake zastojev** pojdite na **Proizvodnja / Upravljanje / Oznake zastojev** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do strani **Oznake zastojev** pojdite na **Proizvodnja / Upravljanje / Oznake zastojev** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

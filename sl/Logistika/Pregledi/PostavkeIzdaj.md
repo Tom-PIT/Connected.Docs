@@ -2,7 +2,7 @@
 
 Pogled **Postavke izdaj** nudi analitični pregled vseh **materialov in končnih izdelkov, izdanih iz zaloge** v izbranem časovnem obdobju. Namesto osredotočanja na posamezne dokumente izdaj ta pogled združuje **izdane postavke** ter jasno prikazuje, **kateri [dokumenti izdaj](../Dokumenti/Izdajnice.md)** so bili uporabljeni in **iz katerih skladiščnih lokacij** so bile postavke izdane.
 
-Za dostop do tega pogleda pojdite na **Logistika / Pregledi / Postavke izdaj** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Logistika / Pregledi / Postavke izdaj** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![IssueDetailsList](../Images/IssueDetailsList.png)
 

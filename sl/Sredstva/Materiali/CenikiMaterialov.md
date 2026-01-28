@@ -8,7 +8,7 @@
 Ta zaslon se uporablja za ustvarjanje in vzdrževanje cenikov po vrsti materiala, nastavitev osnovne neto cene (100 %) ter konfiguracijo razponov, ki samodejno izračunajo dejansko neto ceno za določene količine naročila.
 
 Za dostop do tega zaslona pojdite na  
-**Sredstva / Materiali / Ceniki materialov** v [navigaciji](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Ceniki materialov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

@@ -2,7 +2,7 @@
 
 **Nabavni nalog** je uradni nabavni dokument, s katerim organizacija potrdi naročilo materialov ali storitev pri dobavitelju. Določa, *kaj* bo organizacija prejela, *kdaj* in *pod kakšnimi pogoji*, ter predstavlja osnovo za nadaljnje operativne procese, kot so **prevzemi materiala** in **razporejanje stroškov**.
 
-Za dostop do **Nabavnih nalogov** pojdite na **Nabava / Dokumenti / Nabavni nalogi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Nabavnih nalogov** pojdite na **Nabava / Dokumenti / Nabavni nalogi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Kako se nabavni nalogi vključujejo v nabavni proces
 

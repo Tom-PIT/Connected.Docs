@@ -5,7 +5,7 @@ Uporablja se za ustvarjanje, spremljanje, posodabljanje in reševanje podpornih 
 
 Prijave so organizirane po **Področjih** (na primer Vzdrževanje, Prodajna podpora, Tehnična podpora) in se skozi svoj življenjski cikel premikajo med različnimi stanji.
 
-Za dostop do tega zaslona pojdite na **Stranke / Prijave** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Stranke / Prijave** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

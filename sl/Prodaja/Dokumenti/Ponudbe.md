@@ -3,7 +3,7 @@
 **Ponudba** je prodajni dokument, namenjen predstavitvi predlagane cene, količine in dobavnih pogojev stranki, preden je prodaja potrjena.  
 Ponudbe pomagajo formalizirati ponudbe, primerjati cenovne možnosti ter omogočajo nemoten prehod v nadaljnje dokumente, kot so **Prodajni nalogi**, **Dobavnice** in **Izdani računi**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Ponudbe** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Ponudbe** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Kako se ponudbe vključujejo v prodajni proces
 

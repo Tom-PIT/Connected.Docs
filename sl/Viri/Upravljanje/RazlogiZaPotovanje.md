@@ -2,7 +2,7 @@
 
 Razlogi za potovanje določajo možne **namene službenih poti**. Uporabljajo se pri ustvarjanju [potnih nalogov](../Dokumenti/PotniNalogi.md) in omogočajo izbiro vnaprej definiranega razloga namesto prostega vnosa besedila.
 
-Za dostop do **Razlogov za potovanje** pojdite na **Viri / Upravljanje / Razlogi za potovanje** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Razlogov za potovanje** pojdite na **Viri / Upravljanje / Razlogi za potovanje** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

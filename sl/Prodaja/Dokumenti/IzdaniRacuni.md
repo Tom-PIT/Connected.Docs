@@ -2,7 +2,7 @@
 
 **Izdani računi** so finančni dokumenti, poslani strankam za plačilo potrjenih prodaj. Povzemajo dobavljeno blago ali storitve, davke, roke plačila in izbrane načine plačila. Na strani **Izdani računi** lahko evidentirate tudi delna ali celotna plačila neposredno na posameznem računu.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Izdani računi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Izdani računi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga izdanih računov v prodajnem procesu
 

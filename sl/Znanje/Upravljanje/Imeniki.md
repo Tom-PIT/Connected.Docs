@@ -5,7 +5,7 @@ Vsak imenik predstavlja temo ali kategorijo (na primer *Montaža miz*, *Varnostn
 
 Imeniki se uporabljajo za organizacijo vsebine in določajo, kako so članki združeni in kako se po njih navigira v [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
 
-Za dostop do tega zaslona pojdite na **Znanje / Upravljanje / Imeniki** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Znanje / Upravljanje / Imeniki** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

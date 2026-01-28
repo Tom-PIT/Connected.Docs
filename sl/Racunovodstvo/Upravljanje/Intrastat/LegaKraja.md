@@ -2,7 +2,7 @@
 
 Šifrant **Lega kraja** se uporablja za **Intrastat in računovodsko poročanje** ter določa, kje se nahaja kraj dobave blaga. Vsaka šifra predstavlja standardizirano kategorijo kraja dobave, ki je zahtevana za statistične in zakonske namene.
 
-Do tega zaslona dostopate prek **Računovodstvo / Upravljanje / Intrastat / Lega kraja** v [navigaciji](../../../Skupno/UI/Navigacija.md).
+Do tega zaslona dostopate prek **Računovodstvo / Upravljanje / Intrastat / Lega kraja** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

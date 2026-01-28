@@ -8,7 +8,7 @@ Minimalne in maksimalne pragove nastavite v šifrantu **[Meje zaloge](../Upravlj
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pregled nadzorne plošče](https://www.youtube.com/watch?v=mEU18GmypkY)**.
 
-Za dostop do **Nadzorne plošče** pojdite na **Logistika / Nadzorna plošča** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Nadzorne plošče** pojdite na **Logistika / Nadzorna plošča** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Nadzorna plošča](../Images/Dashboard.png "Nadzorna plošča")
 

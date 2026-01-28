@@ -12,7 +12,7 @@ To domeno uporabljate za:
 - pregled kazalnikov za oceno zanesljivosti in odzivnosti
 
 Do domene Vzdrževanje dostopate prek **Vzdrževanje** v
-[navigaciji](../../Skupno/UI/Navigacija.md).
+[**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Zemljevid domene vzdrževanja](../Images/MaintenanceDomainSitemap.png)
 

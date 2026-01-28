@@ -10,7 +10,7 @@ Med postopkom izdaje poiščete ali skenirate postavke, ki jih želite izdati, p
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Izdajnice](https://www.youtube.com/watch?v=SrVyblBiLmQ)**.
 
-Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

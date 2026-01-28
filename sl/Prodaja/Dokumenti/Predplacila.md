@@ -3,7 +3,7 @@
 **Predplačilo** je prodajni dokument, ki se uporablja, kadar stranka poravna dogovorjeni znesek **vnaprej**, še preden je blago ali storitev dobavljena. Evidentira prejeta sredstva, ki se lahko kasneje v celoti ali delno uporabijo pri izstavitvi [**izdanega računa**](IzdaniRacuni.md).  
 Predplačila je mogoče ustvariti ročno ali neposredno iz potrjenega [**Predračuna**](Predracuni.md), s čimer so povezana s prodajnim procesom.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predplačila** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predplačila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga predplačil v prodajnem procesu
 

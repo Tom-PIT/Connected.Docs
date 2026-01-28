@@ -14,7 +14,7 @@ Vsak repro material vsebuje pomembne lastnosti – kot so [merske enote](../../S
 > - [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Repro materiali** pojdite na  
-**Sredstva / Materiali / Repro materiali** v [navigaciji](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Repro materiali** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

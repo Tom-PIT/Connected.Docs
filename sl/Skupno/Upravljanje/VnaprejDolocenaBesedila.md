@@ -2,7 +2,7 @@
 
 Šifrant **Prednastavljena besedila** vsebuje vnaprej pripravljene besedilne predloge, ki jih je mogoče vstavljati v različne komercialne dokumente — kot so dobavnice, izdani računi, ponudbe ali dobavni nalogi. Ta besedila omogočajo hitro in dosledno dodajanje pogosto uporabljenih navodil, opomb ali besedil, specifičnih za kupca.
 
-Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Stroškovna mesta** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Stroškovna mesta** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

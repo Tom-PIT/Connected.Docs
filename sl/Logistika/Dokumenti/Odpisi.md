@@ -7,7 +7,7 @@ Odpisi neposredno prilagodijo stanje zaloge. Če je bila odpisana napačna koli�
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Odpisi](https://www.youtube.com/watch?v=_0jEGSTorsY)**.
 
-Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

@@ -2,7 +2,7 @@
 
 Oznake klasifikacije slabega kosa se uporabljajo v proizvodnji za razvrščanje in beleženje različnih vrst izgub v proizvodnji – kot so neustrezni materiali, težave pri rokovanju ali kozmetične napake. Te oznake pomagajo pri prepoznavanju vzrokov izgub in podpirajo analizo izgub.
 
-Za dostop do te strani pojdite na **Proizvodnja / Upravljanje / Oznake klasifikacije slabega kosa** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Proizvodnja / Upravljanje / Oznake klasifikacije slabega kosa** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Oznake klasifikacije slabega kosa](https://www.youtube.com/watch?v=pC8TELowUgA)**.

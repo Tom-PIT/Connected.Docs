@@ -2,7 +2,7 @@
 
 Šifrant **Sistematizacija delovnih mest** določa delovna mesta oziroma vloge, ki jih lahko zaposleni opravljajo v operativnih procesih (proizvodnja in vzdrževanje). Delovna mesta se dodeljujejo registriranim uporabnikom sistema in se uporabljajo pri poročilih o delu, razporejanju, dodeljevanju virov ter pri pravicah za izvajanje kontrolnih list.
 
-Za dostop do dokumenta **Sistematizacija delovnih mest** pojdite na **Proizvodnja / Upravljanje / Sistematizacija delovnih mest** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do dokumenta **Sistematizacija delovnih mest** pojdite na **Proizvodnja / Upravljanje / Sistematizacija delovnih mest** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

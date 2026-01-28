@@ -7,7 +7,7 @@ Večina proizvodnih delavcev je ob prijavi samodejno preusmerjena na pogled Izve
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[izvedba](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)**.
 
-Za ročni dostop pojdite na **Proizvodnja / Izvedba** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za ročni dostop pojdite na **Proizvodnja / Izvedba** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > - Ob odprtju zaslon običajno samodejno prikaže dodeljene proizvodne naloge. Če se ne prikaže nobena, kliknite **Izberi proizvodne naloge**.

@@ -2,7 +2,7 @@
 
 Pogled **Aktivne kontrolne liste** prikazuje vsa izvajanja kontrolnih seznamov, ki so trenutno v teku. Operaterji ga uporabljajo za spremljanje in dokončanje tekočih nalog kakovosti ali vzdrževanja. Ko je kontrolni seznam zaključen, se v tem pogledu ne prikazuje več in se premakne v pogled Zaključene kontrolne liste.
 
-Za dostop do tega pogleda se pomaknite na **Kvaliteta / Pogledi / Aktivne kontrolne liste** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda se pomaknite na **Kvaliteta / Pogledi / Aktivne kontrolne liste** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ### Pregled
 

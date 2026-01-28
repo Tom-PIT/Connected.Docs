@@ -5,7 +5,7 @@ Stran **Zahteve** ponuja pregled vseh materialov, potrebnih za planirane proizvo
 > [!TIP]  
 > Za celovit prikaz si oglejte video vodič **Zahteve**.
 
-Do strani dostopate prek **Proizvodnja / Zahteve** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Do strani dostopate prek **Proizvodnja / Zahteve** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
