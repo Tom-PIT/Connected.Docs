@@ -2,7 +2,7 @@
 
 Configure **Ledger** settings affecting document numbering. Any changes are saved automatically.
 
-To access this page, go to **Accounting / Ledger / Management / Configuration** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Accounting / Ledger / Management / Configuration** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Ledger configuration](../../Images/LedgerConfiguration.png)
 

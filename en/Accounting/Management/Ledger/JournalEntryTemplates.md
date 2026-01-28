@@ -16,9 +16,9 @@ To access this screen, go to **Accounting / Ledger / Management / Journal entry 
 
 | Field         | Description                                                                                                         |
 | ------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Document type | Document type assigned to the journal entry template. Determines how the journal entry is classified in the ledger. |
-| Code          | Technical identifier of the journal entry template.                                                                 |
-| Name          | Human-readable name describing the purpose of the template.                                                         |
+| **Document type** | Document type assigned to the journal entry template. Determines how the journal entry is classified in the ledger. |
+| **Code**          | Technical identifier of the journal entry template.                                                                 |
+| **Name**          | Human-readable name describing the purpose of the template.                                                         |
 
 ## List view
 

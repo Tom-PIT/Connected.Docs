@@ -10,9 +10,9 @@ To access this screen, go to **Accounting / Ledger / Management / Document types
 
 | Field  | Description                                                                                                 |
 | ------ | ----------------------------------------------------------------------------------------------------------- |
-| Code   | Technical identifier of the document type. Used internally by the system and referenced by journal entries. |
-| Name   | Human-readable name describing the purpose of the document type.                                            |
-| Active | Indicates whether the document type can be selected when creating new documents.                            |
+| **Code**   | Technical identifier of the document type. Used internally by the system and referenced by journal entries. |
+| **Name**   | Human-readable name describing the purpose of the document type.                                            |
+| **Active** | Indicates whether the document type can be selected when creating new documents.                            |
 
 ## List view
 
