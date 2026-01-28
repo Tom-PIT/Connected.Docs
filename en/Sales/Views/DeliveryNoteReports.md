@@ -1,4 +1,4 @@
-﻿# Delivery note reports
+# Delivery note reports
 
 The **Delivery note reports** view provides a consolidated overview of delivered items, grouped by customer. It is designed for analysis and reporting purposes and does **not** create or modify documents.
 
@@ -58,5 +58,3 @@ All amounts are calculated based on the [**Delivery notes**](../Documents/Delive
 - The view is intended for **analysis only** and does not support actions such as editing, reversing, or creating documents.
 
 For detailed document-level information, open the related [**Delivery notes**](../Documents/DeliveryNotes.md) directly from the **Sales / Documents / Delivery notes** section.
-
----

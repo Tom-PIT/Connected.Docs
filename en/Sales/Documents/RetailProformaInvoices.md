@@ -170,9 +170,7 @@ To adjust inventory:
 
 ## Deletion
 
-- Draft documents can be deleted **only if they contain no details**.
-- Published documents cannot be deleted.
-- Published documents can be **reversed** or **returned to draft** (if allowed by system settings).
+Draft documents can be deleted in the edit view, **only if they contain no details**.
 
----
+Published documents cannot be deleted but they can be **reversed** or **returned to draft** (if allowed by system settings).
 

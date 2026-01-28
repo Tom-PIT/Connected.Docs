@@ -83,5 +83,3 @@ This value represents the final manufacturing cost of a single unit.
   - Material prices
   - Effort tracking
 - This view is typically used by production managers and analysts.
-
----

@@ -56,5 +56,3 @@ Shows production progress for the current operation:
 
 This section helps monitor both productivity and product quality for the selected equipment.
 
----
-

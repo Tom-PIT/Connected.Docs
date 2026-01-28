@@ -51,9 +51,9 @@ The left-side panel provides filters for:
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) and select **New** or **Copy existing**.
 2. Fill in the following fields:  
-   - **Name** – Required  
-   - **Description** – Optional  
-   - **Tags** – Optional, but **required** to link the process to specific areas. For example:  
+   - **Name** â€“ Required  
+   - **Description** â€“ Optional  
+   - **Tags** â€“ Optional, but **required** to link the process to specific areas. For example:  
      - Add the **Production** tag to make the process available when creating a new [**Production order**](../Documents/ProductionOrders.md).  
      - Add the **Maintenance** tag to make the process available when creating a new [**Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md).
 
@@ -106,11 +106,11 @@ To access the list operations of a version click on the **[Operations](Operation
 
 Each operation includes:
 
-- **[Inputs](Inputs.md)** – Materials or items consumed by the operation  
-- **[Human resources](HumanResources.md)** – Workers or job positions required  
-- **[Non-human resources](NonHumanResources.md)** – Machines or equipment  
-- **[Outputs](Outputs.md)** – Materials or items produced by the operation  
-- **[Quality](QualityChecklists.md)** – Assigned checklists and quality requirements
+- **[Inputs](Inputs.md)** â€“ Materials or items consumed by the operation  
+- **[Human resources](HumanResources.md)** â€“ Workers or job positions required  
+- **[Non-human resources](NonHumanResources.md)** â€“ Machines or equipment  
+- **[Outputs](Outputs.md)** â€“ Materials or items produced by the operation  
+- **[Quality](QualityChecklists.md)** â€“ Assigned checklists and quality requirements
 
 ![Operations detail](../Images/ProcessesOperationsListDetail.png)
 
@@ -124,5 +124,3 @@ The **[Quality](QualityChecklists.md)** button opens the configuration page for 
 
 A process can be deleted only if it is **not used by documents** (e.g., production or maintenance orders) and **not referenced by other processes**.  
 If allowed, the **Delete** action is available in the Edit page.
-
----

@@ -104,5 +104,3 @@ Once deleted, the project is permanently removed.
 - **[Projects](../Documents/Projects.md)** — Project overview and progress tracking  
 - **[Tasks](../Documents/Tasks.md)** — Managing tasks within projects   
 
----
-

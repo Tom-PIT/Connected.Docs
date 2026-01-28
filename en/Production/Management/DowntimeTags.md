@@ -1,4 +1,4 @@
-﻿# Downtime tags
+# Downtime tags
 
 Downtime tags are used to classify and record the reasons for interruptions in production processes. They help track issues such as equipment failures, planned maintenance, or cleaning, and are later used in production reports and efficiency analysis.
 
@@ -50,6 +50,4 @@ To edit a tag:
 ## Deletion
 
 A downtime tag can be deleted from its Edit page by clicking **Delete**. If confirmed, the tag is removed from the system.
-
----
 

@@ -111,5 +111,3 @@ After completion:
 
 - Document links: Use the Linked/Connections sections on **[Delivery notes](../../Sales/Documents/DeliveryNotes.md)**, **[Issues](../../Logistics/Documents/Issues.md)**, **[Supply orders](../../Supply/Documents/SupplyOrders.md)**, and **[Receives](../../Logistics/Documents/Receives.md)** to navigate the full chain.
 - Organization units: Ensure the correct **[Organization unit](../Management/OrganizationUnits.md)** is selected on the order so workers see the operation in **[Execution](Execution.md)** after receiving.
-
----

@@ -262,5 +262,3 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > - Only **draft** sales orders can be deleted.  
 > - Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
 
----
-

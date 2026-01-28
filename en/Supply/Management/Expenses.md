@@ -93,5 +93,3 @@ Deletion is allowed only if the expense is not referenced in dependent records.
 > [!NOTE]  
 > Disabled expenses remain in the system but cannot be selected in new documents.
 
----
-

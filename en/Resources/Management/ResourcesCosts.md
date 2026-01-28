@@ -61,5 +61,3 @@ Use the [**action button**](../../Common/UI/ActionButton.md) to add a new cost e
 
 Costs can be removed by clicking **Delete** on the edit view.
 
----
-

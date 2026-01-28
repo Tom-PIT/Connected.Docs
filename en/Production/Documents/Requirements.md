@@ -1,4 +1,4 @@
-﻿# Requirements
+# Requirements
 
 The **Requirements** page provides an overview of all materials needed for planned production operations within a selected time window. It helps planners understand whether enough stock is available and quickly create purchase orders when shortages appear.
 
@@ -63,6 +63,4 @@ The Requirements page helps planners:
 - Compare **required vs. available** quantities  
 - Drill into **which operations** consume each material  
 - Quickly create **supply orders** when stock is insufficient  
-
----
 

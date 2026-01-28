@@ -1,4 +1,4 @@
-﻿# Sales order report
+# Sales order report
 
 The **Sales order reports** view provides a consolidated overview of ordered items, grouped by customer. It is designed for analysis and reporting purposes and does **not** create or modify documents.
 
@@ -58,5 +58,3 @@ All amounts are calculated based on the [**Sales orders**](../Documents/SalesOrd
 - The view is intended for **analysis only** and does not support actions such as editing, reversing, or creating documents.
 
 For detailed document-level information, open the related [**Sales orders**](../Documents/SalesOrders.md) directly from the **Sales / Documents / Sales orders** section.
-
----

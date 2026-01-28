@@ -114,5 +114,3 @@ It enables:
 - cross-team coordination  
 
 It supports teams in managing work that does not fit into transactional or production-driven processes, while remaining fully integrated into the broader system.
-
----

@@ -190,6 +190,4 @@ Committed documents **cannot** be deleted
 > [!NOTE]  
 > An offer can be deleted only if it is not linked to another dependent document (e.g., Sales orders).
 
----
-
 

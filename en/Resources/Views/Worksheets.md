@@ -73,5 +73,3 @@ After this step, a final confirmation dialog is displayed:
 
 Once confirmed, the worksheet is permanently removed.
 
----
-

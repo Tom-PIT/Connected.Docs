@@ -52,5 +52,3 @@ The list displays all outputs belonging to the selected operation. Each row show
 ## Deletion
 
 An output entry can be deleted from its Edit page by clicking **Delete**. If confirmed, it is removed from the operation.
-
----

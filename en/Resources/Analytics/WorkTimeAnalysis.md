@@ -65,5 +65,3 @@ Changing any filter immediately recalculates the indicators and the list.
 ## Refresh data
 
 The **Refresh** action reloads the analysis data using the currently selected filters.
-
----

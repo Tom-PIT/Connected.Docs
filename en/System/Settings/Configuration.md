@@ -67,5 +67,3 @@ The **Organization** section defines your company’s identity and legally requi
 
 ![Organization Footer and Legal Data](../Images/ConfigurationSystemOrganization2.png "Organization Footer and Legal Data")
 
----
-

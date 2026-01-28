@@ -1,4 +1,4 @@
-﻿# Checklists
+# Checklists
 
 Checklists are used across **Production** and **Maintenance** to define structured lists that support operational procedures and quality-control activities. This page allows users to create and categorize checklists used on the shop floor and in maintenance workflows.
 
@@ -71,6 +71,4 @@ To edit an existing checklist:
 ## Deletion
 
 A checklist can be deleted freely from its Edit page by clicking **Delete**. If confirmed, the checklist is permanently removed from the system.
-
----
 

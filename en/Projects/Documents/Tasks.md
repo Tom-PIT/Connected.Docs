@@ -169,5 +169,3 @@ Closed tasks:
 
 - **[Projects](Projects.md)** — Project overview and progress tracking  
 - **[Project management](../Management/ProjectsManagement.md)** — Creating and configuring projects  
-
----

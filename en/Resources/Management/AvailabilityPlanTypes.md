@@ -45,5 +45,3 @@ Before deletion, the system displays a confirmation dialog:
 > *Are you sure you want to delete this record?*
 
 If an availability plan type is already used in availability plans or time records, deletion may be restricted depending on system configuration.
-
----

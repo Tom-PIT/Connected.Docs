@@ -109,5 +109,3 @@ Clicking **View** opens the detailed time log overview for the selected period:
 - **[Time logs – View](TimeLogsView.md)**
 
 These actions allow users to manage attendance, absences, and travel directly from the time logging context.
-
----

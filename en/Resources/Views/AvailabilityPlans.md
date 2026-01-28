@@ -59,5 +59,3 @@ After this step, a final confirmation dialog is displayed:
 - **“Are you sure you want to delete availability plan detail?”**
 
 Once confirmed, the plan is permanently removed.
-
----

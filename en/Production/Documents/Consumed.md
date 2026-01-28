@@ -1,4 +1,4 @@
-﻿# Consumed
+# Consumed
 
 The **Consumed** activity records the usage of input materials during an operation. Use it when you take materials from stock to make products (for example: screws, glue, paint, wiring, or a specific serial/batch). This keeps stock accurate and ensures full traceability of inputs (materials, serials, batches).
 
@@ -29,6 +29,4 @@ The system validates:
 - Serial/batch ownership and status
 
 If any validation fails, an error is shown and the consumption is not recorded.
-
----
 

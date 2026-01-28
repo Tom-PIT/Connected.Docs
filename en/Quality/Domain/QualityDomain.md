@@ -39,5 +39,3 @@ The views section focuses on monitoring active and completed quality executions
   - [**Completed checklists**](../Views/CompletedChecklists.md) — Review finished checklists with outcomes, timestamps, responsible users, and any recorded nonconformities. Supports filtering (date ranges, processes, business units, results) and exporting for audits.
 
 ![Quality Domain Views](../Images/QualityDomainViews.png "Quality Domain views")
-
----

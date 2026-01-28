@@ -164,5 +164,3 @@ If the draft still includes items in the **Details** section:
 
 **Published** invoices (any payment status) cannot be deleted, but they can be **reversed** or **returned to draft**, depending on system settings.
 
----
-

@@ -1,4 +1,4 @@
-﻿# Organization units
+# Organization units
 
 The **Organization units** code list defines operational organizational entities used across **Production** and **Maintenance** workflows — for example manufacturing cells, assembly lines, maintenance departments, or service teams. Use this page to view, add, edit and delete organization units and to manage their basic properties (name, tags, parent hierarchy, and availability) that other features reference.
 
@@ -80,5 +80,3 @@ Click **Delete** on the edit screen to open a confirmation dialog:
 **Are you sure you want to delete this record?**
 
 If confirmed, the record is permanently removed from the Organization units list; referenced data in other domains is not affected.
-
----

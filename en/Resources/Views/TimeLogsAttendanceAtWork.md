@@ -59,5 +59,3 @@ This view is commonly used to:
 - **Attendance at work** focuses on *current status only*  
 - Historical time entries and detailed edits are handled in **[Time logs – View](TimeLogsView.md)**
 - Active time logging, leave requests, and sign-in/out actions are handled in **[Time logs – Manage](TimeLogsManage.md)**
-
----

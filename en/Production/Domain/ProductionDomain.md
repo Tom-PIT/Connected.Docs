@@ -119,5 +119,3 @@ Production integrates with several other operational domains:
 
 The Production domain manages all manufacturing activities—planning, executing, tracking, and analyzing production. It ensures structured workflows, accurate operational data, and complete traceability from process definition to finished goods.
 
----
-

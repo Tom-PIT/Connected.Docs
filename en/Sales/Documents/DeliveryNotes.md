@@ -190,5 +190,3 @@ If confirmed, the document is permanently removed.
 > - A delivery note cannot be deleted if it is referenced by dependent documents (Issues, Invoices, Production orders, etc.).
 > - Completed documents **cannot** be deleted — only reversed or returned to draft.
 
----
-

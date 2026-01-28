@@ -18,5 +18,3 @@ The Time logs area consists of several dedicated views, each covering a specific
 - **[Attendance at work](TimeLogsAttendanceAtWork.md)** - Attendance overview, showing presence and working patterns for resources.
 
 Each view focuses on a specific workflow, keeping time tracking, leave management, and attendance monitoring clearly separated.
-
----

@@ -31,5 +31,3 @@ Loss entries feed several analytics pages:
 
 Use consistent tagging to get meaningful KPIs.
 
----
-
