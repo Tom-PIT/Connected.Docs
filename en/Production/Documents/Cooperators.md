@@ -7,7 +7,7 @@ Cooperators are external companies (defined in the [**Business directory**](../.
 
 This screen provides a dedicated workflow for issuing materials to cooperators and receiving them back once the external operation is completed.
 
-To access this screen, go to **Production → Cooperators** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Production → Cooperators** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Cooperators overview](../Images/CooperatorsIssue.png)
 

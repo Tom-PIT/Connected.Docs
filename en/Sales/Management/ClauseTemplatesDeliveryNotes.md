@@ -2,7 +2,7 @@
 
 The **Clause templates for delivery notes** code list allows you to define clause sets (templates) that will appear on delivery notes for specific companies. A template contains one or more clauses—such as legal notes, disclaimers, or delivery confirmations—which will be printed at the top or bottom of the delivery note in a defined order. 
 
-To access this page, go to **Sales / Management / Clause templates for delivery notes** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Clause templates for delivery notes** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  

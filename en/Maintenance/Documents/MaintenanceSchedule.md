@@ -4,7 +4,7 @@ The **Maintenance schedule** defines how **planned maintenance orders** are gene
 
 Maintenance schedules are created as part of planned maintenance and ensure that preventive maintenance is executed regularly without manual intervention.
 
-To access maintenance schedules, go to **Maintenance / Maintenance schedule** in the [navigation](../../Common/UI/Navigation.md).
+To access maintenance schedules, go to **Maintenance / Maintenance schedule** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## List of maintenance schedules
 
@@ -37,8 +37,8 @@ Clicking **Schedule** opens the schedule edit screen.
 
 Use the filters on the left to narrow down the list:
 
-- **Planned start** – Filter schedules by date range
-- **Teams** – Filter by assigned teams
+- **Planned start** â€“ Filter schedules by date range
+- **Teams** â€“ Filter by assigned teams
 
 The search bar allows filtering by equipment name or process.
 
@@ -59,7 +59,7 @@ Once created, the schedule is responsible for generating future maintenance orde
 
 To edit a maintenance schedule, click on **Schedule** under an entry in the Maintenance Schedule list.
 
-This opens the **Maintenance schedule – Edit** screen, where you can modify how and when maintenance orders are generated.
+This opens the **Maintenance schedule â€“ Edit** screen, where you can modify how and when maintenance orders are generated.
 
 ![Maintenance Schedule Edit](../Images/MaintenanceScheduleEdit.png)
 
@@ -111,6 +111,6 @@ Maintenance schedules work in close relation with maintenance orders:
   - [**Maintenance calendar**](MaintenanceCalendar.md)
 - After a maintenance order is completed, the schedule continues generating the next execution according to its configuration
 
-This ensures that preventive maintenance is continuous and does not rely on manual task creation—whether based on time or usage counts.
+This ensures that preventive maintenance is continuous and does not rely on manual task creationâ€”whether based on time or usage counts.
 
 ---

@@ -32,7 +32,7 @@ The **Business directory** contains all companies and individuals your organizat
 
 ## Management
 
-You can access the **Business directory** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Business directory** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 

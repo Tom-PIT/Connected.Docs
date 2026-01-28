@@ -2,7 +2,7 @@
 
 A **Supply order** is the formal purchasing document used to confirm materials or services ordered from a vendor. It defines *what* your organization will receive, *when*, and under *which conditions*, and is the basis for operational workflows such as material receiving and cost center allocation.
 
-To access this page, navigate to **Supply / Documents / Supply orders** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, navigate to **Supply / Documents / Supply orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How supply orders fit into the supply workflow
 

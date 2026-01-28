@@ -2,7 +2,7 @@
 
 The **Maintenance calendar** provides a time-based overview of maintenance work. It allows users to plan, review, and navigate maintenance activities using a calendar layout.
 
-To access this screen, go to **Maintenance / Maintenance calendar** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Maintenance / Maintenance calendar** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![MaintenanceCalendarMonthView](../Images/MaintenanceCalendarMonthView.png)
 

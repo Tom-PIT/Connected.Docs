@@ -4,7 +4,7 @@ A **Consumption** document records materials that were consumed during the execu
 
 For the production-side entry of consumed materials, see **[Consumed](../../Production/Documents/Consumed.md)** — the two are closely linked: recording consumed material in production creates the corresponding consumption document in logistics.
 
-To access this page, go to **Logistics / Documents / Consumptions** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Documents / Consumptions** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

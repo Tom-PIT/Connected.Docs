@@ -4,7 +4,7 @@ The Sales order details view provides an aggregated list of all order items from
 
 This view is analytical only — it does **not** create or change sales orders.
 
-To access this view, go to **Sales / Views / Sales order details** in the [navigation](../../Common/UI/Navigation.md).
+To access this view, go to **Sales / Views / Sales order details** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Sales order details](../Images/SalesOrderDetailsView.png)
 

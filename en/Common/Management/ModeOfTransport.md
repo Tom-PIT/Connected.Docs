@@ -2,7 +2,7 @@
 
 This code list defines the **modes of transport** used across the system. Modes of transport are referenced by logistics, sales, supply, and other documents to describe how goods are delivered or transferred.
 
-You can access the **Mode of transport** code list from different domains in the [navigation](../UI/Navigation.md). In all cases, you are working with the same shared data.
+You can access the **Mode of transport** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases, you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 

@@ -2,7 +2,7 @@
 
 Sick leave types define the **reasons for sickness absence** that employees can select when creating a sick leave entry. They standardize sick leave reporting and ensure consistent categorization across time logs, attendance tracking, and leave management.
 
-To access **Sick leave types**, go to **Resources / Management / Sick leave types** in the [navigation](../../Common/UI/Navigation.md).
+To access **Sick leave types**, go to **Resources / Management / Sick leave types** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

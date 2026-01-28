@@ -2,7 +2,7 @@
 
 The **Production KPIs** page provides analytical insights into key production performance indicators. It enables monitoring of efficiency, quality, downtime, and equipment or organizational unit performance over a selected time period. 
 
-To access this page, go to **Production / Analytics / Production KPIs** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Production KPIs** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Production KPIs overview](../Images/ProductionKPIsView.png "Production KPIs overview")
 

@@ -2,7 +2,7 @@
 
 The **AOP** screen provides a ledger-level view of **Annual Operating Plan** data available in the system. AOP data is used for planning, budgeting, and comparison of planned versus actual values in accounting and reporting.
 
-To access this screen, go to **Accounting / Ledger / Management / AOP** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / AOP** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Overview
 

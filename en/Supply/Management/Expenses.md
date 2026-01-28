@@ -4,7 +4,7 @@ The **Expenses** code list contains all costs that your organization wants to re
 
 This list helps maintain consistency by storing all expenses in one place, making them available for use across documents and operational workflows.
 
-To access this code list, go to **Supply / Management / Expenses** in the [navigation](../../Common/UI/Navigation.md).
+To access this code list, go to **Supply / Management / Expenses** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

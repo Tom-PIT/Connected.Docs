@@ -11,7 +11,7 @@ Use a Disassembly when you receive or store sets (bundled materials) but need to
 > - Disassembly affects inventory on publish: parts become available and the set quantity decreases accordingly.
 > - In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/Materials/Sets.md)** code list.
 
-To access **Disassemblies**, go to **Logistics / Documents / Disassemblies** in the [navigation](../../Common/UI/Navigation.md).
+To access **Disassemblies**, go to **Logistics / Documents / Disassemblies** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ### Example scenario
 

@@ -4,7 +4,7 @@ A **Production** document records items that were produced during the execution 
 
 For the production‑side entry of outputs, see **[Execution](../../Production/Documents/Execution.md)** (Outputs). Outputs are closely linked with this page: recording produced items in production creates the corresponding production document in logistics. For defining outputs on processes, see **[Outputs](../../Production/Management/Outputs.md)**.
 
-To access this page, go to **Logistics / Documents / Productions** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Documents / Productions** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

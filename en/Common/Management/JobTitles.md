@@ -2,7 +2,7 @@
 
 Job titles are part of the **Customer Support** module and define the roles that can be assigned to [contacts](../../Common/Management/Contacts.md) in the [**Business directory**](../../Common/Management/BusinessDirectory.md). They help categorize people such as *Account Manager*, *Procurement Manager*, or *Director*.
 
-To access this page, go to **Customer Support / Management / Job titles** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Customer Support / Management / Job titles** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

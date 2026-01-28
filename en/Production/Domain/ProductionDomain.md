@@ -4,7 +4,7 @@ The **Production** domain manages all processes related to manufacturing, shop-f
 
 Where the **[Supply](../../Supply/Domain/SupplyDomain.md)** domain ensures material availability, the Production domain ensures that these materials are transformed into finished or semi-finished goods through controlled and traceable workflows.
 
-To access Production, navigate to **Production** in the [navigation](../../Common/UI/Navigation.md).
+To access Production, navigate to **Production** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Production Domain](../Images/ProductionDomainSitemap.png "Production Domain")
 

@@ -2,7 +2,7 @@
 
 **Issued invoices** are financial documents sent to customers so they can pay for confirmed sales. They summarize delivered goods or services, taxes, due dates, and chosen payment methods. From the **Issued invoices** page you can also record partial or full payments directly against each invoice.
 
-To access this page, go to **Sales / Documents / Issued invoices** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Issued invoices** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How issued invoices fit into the sales workflow
 

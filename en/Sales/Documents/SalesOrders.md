@@ -3,7 +3,7 @@
 A **Sales order** represents the customer’s confirmed intention to purchase goods or services. It is typically created from an approved **Offer**, but it can also be created independently.  
 Sales orders define *what* the customer will receive, *when*, and *under which conditions*, and they serve as the basis for delivery, production, procurement, and invoicing workflows.
 
-To access this page, navigate to **Sales / Documents / Sales orders** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, navigate to **Sales / Documents / Sales orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How sales orders fit into the sales workflow
 

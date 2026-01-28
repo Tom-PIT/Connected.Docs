@@ -10,7 +10,7 @@ Packaging defines how a material is packaged, including quantity, weight, dimens
 > [!TIP]
 > For a full demonstration, see the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video tutorial.
 
-To access packaging configuration, go to: **Assets / Materials / Packaging** in the [navigation](../../Common/UI/Navigation.md).
+To access packaging configuration, go to: **Assets / Materials / Packaging** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

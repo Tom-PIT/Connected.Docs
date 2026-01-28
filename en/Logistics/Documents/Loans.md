@@ -6,7 +6,7 @@ When items are loaned, they become **reserved** and unavailable for other operat
 > [!TIP]  
 > For a full demonstration, see the **[Loans](https://www.youtube.com/watch?v=V0QfOaBJ4Rk)** video tutorial.
 
-To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../../Common/UI/Navigation.md).
+To access Loans, go to **Logistics / Documents / Loans** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

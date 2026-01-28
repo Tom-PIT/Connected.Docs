@@ -2,7 +2,7 @@
 
 Travel Orders are used to record and manage employee business trips. They consolidate mileage, subsistence allowances, and expenses, and calculate the total trip cost.
 
-To access this page, go to **Resources / Documents / Travel Orders** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Resources / Documents / Travel Orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

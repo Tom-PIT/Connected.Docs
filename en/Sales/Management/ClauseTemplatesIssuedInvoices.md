@@ -2,7 +2,7 @@
 
 The **Clause templates for issued invoices** code list allows you to define clause sets (templates) that will appear on issued invoices for specific companies. A template contains one or more clauses—such as legal notes, payment terms, disclaimers, or billing conditions—which will be printed at the top or bottom of the invoice in a defined order.
 
-To access this page, go to **Sales / Management / Clause templates for issued invoices** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Clause templates for issued invoices** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  

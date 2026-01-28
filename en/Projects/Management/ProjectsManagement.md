@@ -2,7 +2,7 @@
 
 Project management is used to **create, configure, and maintain projects** in TomPIT. Projects define a structured container for tasks, timelines, responsibilities, and progress tracking, and can be visualized using **Kanban boards**.
 
-To access project management, go to **Projects / Management / Projects** in the [navigation](../../Common/UI/Navigation.md).
+To access project management, go to **Projects / Management / Projects** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

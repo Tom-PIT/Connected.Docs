@@ -2,7 +2,7 @@
 
 The **Predefined texts** code list stores ready-to-use text snippets that can be inserted into various commercial documents—such as delivery notes, issued invoices, offers, or supply orders. These texts help users add frequently repeated instructions, remarks, or customer-specific notes quickly and consistently.
 
-This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Cost centers** in the [navigation](../../Common/UI/Navigation.md).
+This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Cost centers** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 

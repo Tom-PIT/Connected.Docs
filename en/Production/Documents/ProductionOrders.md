@@ -15,7 +15,7 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 > [!TIP]
 > For a full demonstration, see the **[Production order](https://www.youtube.com/watch?v=q4UjiYpWph8)** video tutorial.
 
-To access production orders, go to **Production / Production orders** in the [navigation](../../Common/UI/Navigation.md).
+To access production orders, go to **Production / Production orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## List of production orders
 

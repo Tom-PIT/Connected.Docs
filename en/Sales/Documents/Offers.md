@@ -3,7 +3,7 @@
 An **Offer** is a sales document used to present a proposed price, quantity, and delivery terms to a customer before a sale is confirmed.  
 Offers help formalize quotations, compare pricing options, and smoothly transition into follow-up documents such as **Sales orders**, **Delivery notes**, and **Issued invoices**.
 
-To access this page, go to **Sales / Documents / Offers** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Offers** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How offers fit into the sales workflow
 

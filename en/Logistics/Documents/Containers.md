@@ -5,7 +5,7 @@ A container groups one or more items under a single serial code (often an SSCC â
 > [!TIP]
 > For a full demonstration, see the **[Containers](https://www.youtube.com/watch?v=2V9K1jTsyQI)** video tutorial.
 
-To access this page, go to **Logistics / Documents / Containers** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Documents / Containers** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
