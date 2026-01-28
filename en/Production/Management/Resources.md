@@ -83,9 +83,8 @@ Selecting an item shows its details and the Edit form.
 
 ## Deletion
 
-A resource can be deleted only if it is **not referenced** in operations, processes, or documents (e.g., production or maintenance orders).
+A resource can be deleted from the edit page only if it is **not referenced** in operations, processes, or documents (e.g., production or maintenance orders).
 
-Deleting an item from the Edit page removes it permanently.
-
----
+> [!WARNING]
+Deleting an item removes it permanently.
 

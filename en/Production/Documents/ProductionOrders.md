@@ -201,5 +201,3 @@ Use the **Delete** option in the header.
 > [!NOTE]
 >
 > Closed orders cannot be deleted, but they can be reverted to active for modifications if necessary.
-
----

@@ -29,12 +29,12 @@ The list shows completed checklist executions with their main contextual informa
 
 Displayed information typically includes:
 
-- **Checklist** — checklist code and name (e.g. `CHL-25-00000003` · Necessary materials)
-- **Document** — source document and code (e.g. Production order `PRO-25-000026`)
-- **Operation** — operation code and name (e.g. `OPR-25-000017, Assembly`)
-- **Product** — product name and code
-- **Organization unit** — responsible unit
-- **Checked by** — user who completed the checklist
+- **Checklist** â€” checklist code and name (e.g. `CHL-25-00000003` Â· Necessary materials)
+- **Document** â€” source document and code (e.g. Production order `PRO-25-000026`)
+- **Operation** â€” operation code and name (e.g. `OPR-25-000017, Assembly`)
+- **Product** â€” product name and code
+- **Organization unit** â€” responsible unit
+- **Checked by** â€” user who completed the checklist
 - **Completion date and time**
 
 Rows are **not expandable**. To see checklist details, open the checklist report.
@@ -55,13 +55,13 @@ The **Menu** in the top-right corner provides:
 
 Use the filters in the left sidebar to narrow down the list:
 
-- **Checklist dates** — filter by checklist completion date range
-- **Document type** — limit results to:
+- **Checklist dates** â€” filter by checklist completion date range
+- **Document type** â€” limit results to:
   - [Production order](../../Production/Documents/ProductionOrders.md)
   - [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md)
-- **Document** — filter by a specific document
-- **Human resources** — filter by the user who completed the checklist
-- **Checklist** — filter by checklist definition
+- **Document** â€” filter by a specific document
+- **Human resources** â€” filter by the user who completed the checklist
+- **Checklist** â€” filter by checklist definition
 
 All filters are optional and can be combined.
 
@@ -93,8 +93,6 @@ The checklist report is **read-only** and cannot be edited after completion.
 
 ## Related views
 
-- **[Active checklists](ActiveChecklists.md)** — monitor checklists that are currently in progress
-- **[Production orders](../../Production/Documents/ProductionOrders.md)** — review production documents linked to checklists
-- **[Maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md)** — review maintenance documents linked to checklists
-
----
+- **[Active checklists](ActiveChecklists.md)** â€” monitor checklists that are currently in progress
+- **[Production orders](../../Production/Documents/ProductionOrders.md)** â€” review production documents linked to checklists
+- **[Maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md)** â€” review maintenance documents linked to checklists

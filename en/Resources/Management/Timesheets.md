@@ -52,5 +52,3 @@ The new timesheet becomes immediately available for selection in time and effort
 ## Deletion
 
 Timesheets can be deleted from the edit view. To delete a timesheet click **Delete** and confirm the action.
-
----

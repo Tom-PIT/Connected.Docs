@@ -1,4 +1,4 @@
-﻿# Company cards
+# Company cards
 
 The **Company cards** view provides a detailed overview of all **debit and credit records** related to each company. Instead of showing a single consolidated balance, this screen lists **individual financial documents** (such as [issued invoices](../Documents/IssuedInvoices.md), [credit notes](../Documents/CreditNotes.md), and [debit notes](../Documents/DebitNotes.md)) and indicates whether each record is **unpaid**, **partially paid**, or **fully paid**.
 
@@ -74,6 +74,4 @@ These visual cues allow you to quickly distinguish between unpaid, partially pai
 - Use this view to track overdue payments, partial settlements, and credit positions at document level.
 
 For applying payments or correcting balances, use the relevant document screens such as [**Issued invoices**](../Documents/IssuedInvoices.md), [**Credit notes**](../Documents/CreditNotes.md), or [**Debit notes**](../Documents/DebitNotes.md).
-
----
 

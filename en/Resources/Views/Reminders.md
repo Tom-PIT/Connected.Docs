@@ -68,5 +68,3 @@ Examples:
   → The reminder triggers **one month before**
 
 This mechanism allows reminders to be scheduled in advance for tasks such as offer expirations, inspections, meetings, or follow-ups.
-
----

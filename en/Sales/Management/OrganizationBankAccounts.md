@@ -55,5 +55,3 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 > [!NOTE]
 >A bank account can be deleted only if it is not referenced by other system entities.  
 
----
-

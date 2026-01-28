@@ -177,5 +177,3 @@ If you need to delete some individual detail lines:
 Once empty, the **Delete** action can be performed.
 
 Committed credit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
-
----

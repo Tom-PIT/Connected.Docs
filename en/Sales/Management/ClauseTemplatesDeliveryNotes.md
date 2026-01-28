@@ -78,6 +78,3 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 > [!NOTE]  
 > A clause template or clause can be deleted only if it is not required by dependent business processes.
 
- 
----
-

@@ -87,5 +87,3 @@ otherwise the system keeps the record unchanged.
 > [!NOTE]  
 > Deleting a record removes the mapping only from the Production configuration. The referenced
 > Warehouse and Warehouse location remain intact in the Logistics domain and are not deleted.
-
----

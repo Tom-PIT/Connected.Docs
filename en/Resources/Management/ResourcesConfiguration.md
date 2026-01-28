@@ -18,5 +18,3 @@ Configure numbering behavior for **Travel Orders** documents.
 > [!TIP]
 >
 > Use a consistent document code format to make travel orders easier to identify and sort across years.
-
----

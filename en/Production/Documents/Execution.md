@@ -149,5 +149,3 @@ Once all production is completed:
 
 The operation switches to **Finished**, and when all operations in the production order are finished, the **Production order** moves to the **Closed** status.
 
----
-

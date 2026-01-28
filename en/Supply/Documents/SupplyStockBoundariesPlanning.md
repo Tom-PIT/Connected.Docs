@@ -84,5 +84,3 @@ Supply stock boundaries planning enables you to:
 
 This view is especially useful for planners and purchasing teams managing multiple suppliers and materials.
 
----
-

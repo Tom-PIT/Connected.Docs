@@ -265,5 +265,3 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > - Once an invoice is published, you can no longer delete it; instead, use **[Reverse document](../../Logistics/Documents/Reversals.md)** or **Return to draft** if available.  
 > - If any payments have been recorded, the invoice cannot be deleted until those payments are removed and the document is returned to draft.
 
-___
-

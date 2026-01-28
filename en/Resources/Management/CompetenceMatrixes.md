@@ -107,5 +107,3 @@ Deleted competences:
 
 > [!WARNING]
 > Use deletion carefully, especially when competences are already assigned to users.
-
----

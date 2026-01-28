@@ -47,5 +47,3 @@ Example categories may include any custom classifications defined in [**Loss cla
 
 Selecting a row may provide more context depending on system configuration.
 
----
-

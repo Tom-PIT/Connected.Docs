@@ -134,5 +134,3 @@ The project status reflects overall progress and is managed from **[Project mana
 
 - **[Tasks](Tasks.md)** — Managing tasks within projects   
 - **[Project management](../Management/ProjectsManagement.md)** — Creating and configuring projects  
-
----

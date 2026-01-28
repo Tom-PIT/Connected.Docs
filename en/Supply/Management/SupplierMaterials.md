@@ -120,6 +120,4 @@ If confirmed, the supplier material is permanently removed.
 > [!NOTE]  
 > A supplier material can be deleted only if it is not referenced by other records.
 
----
-
 

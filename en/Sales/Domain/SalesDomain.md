@@ -122,5 +122,3 @@ Sales integrates with other operational domains:
 ## Summary
 
 The Sales domain manages all commercial activity with customers, ensuring a complete workflow from offer to invoice. It provides the tools needed to create, track, and analyze sales documents while integrating tightly with logistics, supply, assets, and finance.
-
----

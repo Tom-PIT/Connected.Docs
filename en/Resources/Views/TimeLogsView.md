@@ -104,5 +104,3 @@ At the bottom of the screen, totals for the selected period are displayed:
 - Difference between logged and expected hours  
 
 These values provide a clear overview of compliance and discrepancies for the selected worker and timeframe.
-
----

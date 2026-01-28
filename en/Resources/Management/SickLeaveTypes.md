@@ -35,8 +35,5 @@ Changes take effect immediately and apply wherever sick leave is recorded.
 
 Sick leave types can be deleted from the **edit view**. To delete a sick leave type click **Delete** and confirm the action.
 
-
 > [!NOTE]
 >Deletion may be restricted if the type is referenced by existing records (e.g., time logs, attendance, or leave entries). In such cases, disable the type instead of deleting it to preserve historical consistency.
-
----

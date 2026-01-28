@@ -56,5 +56,3 @@ In the example above:
   - **Machine failure** — **12 min 42 s**
 - The chart and list reflect the same breakdown by downtime type (including the cumulative percentage line)
 
----
-

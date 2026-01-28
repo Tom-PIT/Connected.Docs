@@ -187,5 +187,3 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 Committed documents **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).  
 
----
-

@@ -29,6 +29,4 @@ Instruction articles may include:
 
 Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../Management/Operations.md) and use the **Article** field to link existing [Knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) content.
 
----
-
 

@@ -154,5 +154,3 @@ Inquiries can be deleted on the edit screen. To delete an inquiry, open the docu
 > [!NOTE]  
 > Only draft inquiries can be deleted.
 
----
-

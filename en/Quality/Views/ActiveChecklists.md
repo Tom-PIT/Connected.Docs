@@ -65,5 +65,3 @@ A typical layout includes the list of checkpoints with required inputs (confirma
 
 - Only checklists that are actively in progress appear here; completed items are available in the Completed checklists view.
 - Data refresh occurs automatically at regular intervals or when manually reloaded.
-
----

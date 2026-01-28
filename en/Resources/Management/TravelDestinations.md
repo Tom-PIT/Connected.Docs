@@ -51,5 +51,3 @@ Clicking a destination opens it for editing.
 ## Deletion
 
 Travel destinations can be deleted from the edit view. Deleted destinations are no longer available when creating new travel orders.
-
----

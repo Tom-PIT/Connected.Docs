@@ -35,5 +35,3 @@ Loss entries can be expanded or collapsed for easier navigation.
 - Use tags to analyze recurring defect types and improve quality control.  
 - This view helps identify which production orders or work areas contribute most to overall loss.
 
----
-

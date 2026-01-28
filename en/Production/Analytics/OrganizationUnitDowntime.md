@@ -33,5 +33,3 @@ Downtime entries within each organization unit can be expanded or collapsed for 
 - Use tags to quickly identify recurring issues and support root-cause analysis.  
 - Durations are automatically calculated based on start and end times.
 
----
-

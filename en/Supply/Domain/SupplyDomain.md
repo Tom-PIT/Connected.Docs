@@ -117,5 +117,3 @@ The Supply domain manages all procurement activities, ensuring timely replenishm
 
 It supports inquiries, ordering, planning, and analysis, while integrating tightly with logistics, finance, production, and materials management.
 
----
-

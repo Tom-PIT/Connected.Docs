@@ -53,6 +53,3 @@ Effort types can be deleted from the edit view.
 
 > [!NOTE]
 > Deleted effort types are no longer available for new time entries but do not affect historical data.
-
-
----

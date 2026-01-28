@@ -1,4 +1,4 @@
-﻿# Supply configuration
+# Supply configuration
 
 Configure **Supply** settings affecting document numbering. Any changes are saved automatically.
 
@@ -14,5 +14,3 @@ Choose the numbering model and format for [**Supply orders**](../Documents/Suppl
 |-------|-------------|
 | **Document numbering model** | • **Incremental for each year:** sequence resets annually. <br> • **Incremental:** a global sequence that never resets. |
 | **Document code format** | Pattern defining structure (e.g., PREFIX‑YEAR-NUMBER). |
-
----

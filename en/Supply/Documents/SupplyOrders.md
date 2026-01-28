@@ -243,5 +243,3 @@ If confirmed, the system removes the document permanently; otherwise, no changes
 > - Once a supply order is published, it can no longer be deleted.  
 > - Published documents cannot be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).
 
----
-

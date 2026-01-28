@@ -47,5 +47,3 @@ To delete a reminder category:
 1. Click on the category you want to delete.
 2. Click **Delete**.
 3. Confirm the deletion.
-
----

@@ -43,5 +43,3 @@ To edit an existing reason:
 Travel order reasons can be deleted from the edit view.
 
 Deleted reasons are no longer available when creating new travel orders.
-
----

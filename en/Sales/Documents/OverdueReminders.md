@@ -82,5 +82,3 @@ The top menu provides options for:
 Draft documents can be deleted on the edit screen.
 
 Committed overdue reminders **cannot** be deleted.
-
----
