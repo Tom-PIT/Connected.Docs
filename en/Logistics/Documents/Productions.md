@@ -8,7 +8,8 @@ To access this page, go to **Logistics / Documents / Productions** in the [**nav
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -16,12 +17,17 @@ To access this page, go to **Logistics / Documents / Productions** in the [**nav
 | **Created** | Timestamp when the document was created. |
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the produced items were posted. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
 | [**Material**](../../Assets/Domain/Materials.md) | Produced item (typically a [product](../../Assets/Materials/Products.md) or [semi product](../../Assets/Materials/SemiProducts.md)). |
 | **Quantity** | Produced quantity recorded for the material line. |
+
+</details>
 
 ## List of production documents
 

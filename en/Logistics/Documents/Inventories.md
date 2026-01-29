@@ -11,7 +11,8 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [**n
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -20,7 +21,10 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [**n
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the inventory verification is taking place. |
 | [**Location**](../Management/Locations.md) | Specific location within the selected warehouse that is being verified. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -28,6 +32,8 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [**n
 | **Location** | Storage location where the inventory is being performed. |
 | **Theoretical** | Quantity currently recorded in the system. |
 | **Actual** | Physically verified quantity (editable). |
+
+</details>
 
 ## List of inventory documents
 

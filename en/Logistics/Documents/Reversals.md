@@ -16,7 +16,8 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [**navig
 
 ## Schema
 
-### Reversed document section
+<details open>
+  <summary><strong>Reversed document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -25,14 +26,20 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [**navig
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the original document was executed. |
 | **Document date** | Date of the original document. |
 
-### Document section
+</details>
+
+<details>
+  <summary><strong>Document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated reversal document number. |
 | **Document date** | Date of the reversal (editable). |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -40,6 +47,8 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [**navig
 | [**Location**](../Management/Locations.md) | Storage location of the reversed stock. |
 | **Source quantity** | Quantity originally processed in the reversed document. |
 | **Quantity (pc)** | Quantity to reverse — **editable**, used for partial or full reversal. |
+
+</details>
 
 ## List of reversal documents
 

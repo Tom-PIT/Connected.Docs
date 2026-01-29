@@ -11,17 +11,21 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the inter warehouse document. |
 | **Document date** | Date when the transfer is registered. |
 | [**Source warehouse**](../Management/Warehouses.md) | Warehouse from which the materials will be removed. |
-| **[**Destination warehouse**](../Management/Warehouses.md)** | Warehouse where the materials will be received. |
+| [**Destination warehouse**](../Management/Warehouses.md) | Warehouse where the materials will be received. |
 | **Notes** | Additional remarks related to the document. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -31,6 +35,8 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 | [**Source location**](../Management/Locations.md) | Storage location in the source warehouse. |
 | [**Destination location**](../Management/Locations.md) | Storage location where the material will be placed. |
 | **Quantity (pc)** | Quantity to be transferred. |
+
+</details>
 
 ## List of inter warehouse documents
 

@@ -8,7 +8,8 @@ To access this page, go to **Logistics / Documents / Consumptions** in the [**na
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -16,13 +17,18 @@ To access this page, go to **Logistics / Documents / Consumptions** in the [**na
 | **Created** | Timestamp when the document was created. |
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the consumed materials were taken from. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
 | [**Material**](../../Assets/Domain/Materials.md) | Consumed material ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **Source** | Source identifier of the consumed item (for example, a serial number or packaging code, depending on the material tracking method). |
 | **Quantity** | Consumed quantity recorded for the material line. |
+
+</details>
 
 ## List of consumption documents
 
