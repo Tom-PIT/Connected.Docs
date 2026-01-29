@@ -62,6 +62,8 @@ When we receive an invoice from a vendor, it follows this flow:
 
 The list view shows all received invoices and summary indicators.
 
+![Received Invoices List](../Images/ReceivedInvoicesList.png "Received Invoices List")
+
 Available filters:
 
 * **Issue date**
