@@ -33,6 +33,11 @@ To access the **Semi products** code list, go to **Assets / Materials / Semi pro
 | **Image URL** | Public URL pointing to the material image. |
 | **External key** | Identifier in an external system used for cross-system record linking. |
 | **Active** | Indicates whether the semi product is available for use in new documents. Inactive items cannot be used in new entries but remain visible in the history. |
+| [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
+| [**Country origin**](../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
+| **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
+| [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance-sheet account for stock value of this product. Set per material when overriding defaults. |
+| [**Account expense**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | P&L expense account (e.g., COGS) used when this product is consumed or sold, if overriding defaults. |
 
 ## Management
 
@@ -70,24 +75,34 @@ After selecting the base semi product, all fields are pre-filled and can be edit
 
 ### New
 
-Click **New** to open the input form for adding a new semi product.  
-The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
+Click **New** to open the input form for adding a new semi product. The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
 ![New semi product](../Images/NewSemiproduct.png "New semi product")
 
 Additional collapsible sections are available:
 
 #### Packaging
+
 This section allows you to review or add one or more [packaging](Packaging.md) definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
 
 These packaging records can later be used in warehouse operations such as [Receives](../../Logistics/Documents/Receives.md), [Issues](../../Logistics/Documents/Issues.md), and [Inter warehouse](../../Logistics/Documents/InterWarehouse.md) transfers.
 
 #### Additional
+
 This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
 
 ![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
 
 After entering the required information, click **Add** to save the semi product or **Cancel** to return to the list view.
+
+#### Intrastat and Ledger
+
+Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
+
+![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
+
+> [!WARNING]
+> Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
 ## Editing
 
