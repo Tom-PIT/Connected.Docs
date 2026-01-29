@@ -93,7 +93,7 @@ Mismatches typically mean the header amount does not equal the sum of detail lin
   
 To resolve: 
 - Use the menu to **Revert** the document to Draft and adjust the header amount or detail lines accordingly (preferred). 
-- In an Available document, only the **Details** section can be edited to fix the mismatch (not recommended).
+- In an Available document, only the **Details** section can be edited to fix the mismatch.
 
 
 ## Actions
