@@ -6,6 +6,8 @@ To access this screen, go to **Accounting / Invoices / Received invoices** in th
 
 > [!NOTE]
 > Received invoices are typically linked to one or more **Supply orders**. Linking supply orders allows the system to prefill details and propose accounting postings based on received goods.
+>
+> To post any detail lines, the related material must have an **Expense** specified in advance (e.g., set the Raw material inventory expense for new raw materials used in supply orders). Configure expenses in [**Expenses**](../../Supply/Management/Expenses.md) and assign them to [**materials**](../../Assets/Domain/Materials.md).
 
 ## Flow
 
