@@ -18,6 +18,16 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 | **Cost per unit (€)** | Cost of this subcontracted operation per unit. |
 | **Operations** | List of operations associated with this subcontractor cost. |
 
+### Ledger fields
+
+| Field | Description |
+|-------|-------------|
+| [**Account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Ledger account used for postings generated from this expense. |
+| **Tax entry type** | Tax handling classification for the expense (e.g., Stock, Standard expense, Real estate). |
+| **Asset type** | Nature of the purchase used for reporting (e.g., Goods, Services). |
+| **Deduct tax** | Indicates whether input tax is deductible for this expense (checkbox). |
+| **Self taxing** | Indicates whether reverse charge/self-taxing applies (checkbox). |
+
 ### Operation fields (Add operation dialog)
 
 | Field | Description |
@@ -32,7 +42,7 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 
 The list displays all defined expenses along with their tax rate.
 
-![Expenses list](../Images/ExpensesList.png "Expenses list")
+![Expenses list](../Images/ExpensesListV2.png "Expenses list")
 
 Each record includes a status indicator to the left of its name:  
 - **Blue** indicates the expense is **enabled**  
@@ -49,14 +59,25 @@ These filters control whether the list shows active or inactive expense entries.
 
 ## Actions
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to create a new expense. The input form includes fields such as:
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
 
-- Code  
-- Name  
-- Tax rate  
-- Enabled  
+- Add new expense
+- Ledger
+- Subcontractor cost
 
-![New expense](../Images/ExpensesNew.png "New expense")
+![New expense](../Images/ExpensesNewV2.png "New expense")
+
+### Add new expense
+
+Enter the following information:
+- **Code**
+- **Name**
+- **Tax rate**
+- **Enabled**
+
+#### Ledger
+
+In this section we assign the expense to the appropriate ledger account. See [**Chart of Accounts**](../../Accounting/Management/Ledger/ChartOfAccounts.md).
 
 #### Subcontractor cost
 
