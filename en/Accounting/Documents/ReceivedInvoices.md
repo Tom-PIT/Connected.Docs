@@ -9,7 +9,7 @@ To access this screen, go to **Accounting / Invoices / Received invoices** in th
 >
 > To post any detail lines, the related material must have an **Expense** specified in advance (e.g., set the Raw material inventory expense for new raw materials used in supply orders). Configure expenses in [**Expenses**](../../Supply/Management/Expenses.md) and assign them to [**materials**](../../Assets/Domain/Materials.md).
 
-## Flow
+### How received invoices fit into the accounting flow
 
 When we receive an invoice from a vendor, it follows this flow:
 

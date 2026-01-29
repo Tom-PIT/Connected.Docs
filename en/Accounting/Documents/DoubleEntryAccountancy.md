@@ -7,20 +7,6 @@ To access this screen, go to **Accounting / Ledger / Double-entry accountancy** 
 > [!NOTE]
 > Journal entries are usually created automatically from other documents (such as received invoices, sales documents, inventory movements, or stock adjustments). Manual creation and editing is also possible for adjustments and corrections.
 
-### How does journal entries fit in the accounting flow?
-
-
-Journal entries typically follow this flow:
-
-1. A source document is created elsewhere in the system (for example, a received invoice or inventory movement).
-2. The system generates a related journal entry.
-3. The journal entry appears in **Draft** status if manual review or adjustments are required.
-4. Debit and credit lines are reviewed or edited.
-5. Once total debits equal total credits, the entry can be **Published**.
-6. The journal entry moves to **Committed** status and updates the ledger.
-
-It is also possible to create a journal entry directly from this screen without a source document.
-
 ## Schema
 
 ### Journal entry
