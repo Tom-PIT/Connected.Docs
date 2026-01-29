@@ -10,7 +10,8 @@ To access Loans, go to **Logistics / Documents / Loans** in the [**navigation**]
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -20,7 +21,10 @@ To access Loans, go to **Logistics / Documents / Loans** in the [**navigation**]
 | **Contact** | Customer or partner receiving the item, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Notes** | Optional remarks related to the loan. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -29,6 +33,8 @@ To access Loans, go to **Logistics / Documents / Loans** in the [**navigation**]
 | **Best before** | Expiration date if applicable. |
 | [**Warehouse location**](../Management/Locations.md) | Storage location from which the item is taken. |
 | **Quantity (pc)** | Quantity being loaned. Must be edited before saving. |
+
+</details>
 
 ## List of loan documents
 

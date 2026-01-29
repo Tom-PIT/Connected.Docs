@@ -9,7 +9,8 @@ To access this page, go to **Logistics / Documents / Containers** in the [**navi
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document section</strong></summary>
 
 | Field | Description |
 |---|---|
@@ -18,7 +19,10 @@ To access this page, go to **Logistics / Documents / Containers** in the [**navi
 | **Document date** | Date the container document was created. |
 | [**Location**](../Management/Locations.md) | Warehouse location (e.g., Rack/Shelf). |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |---|---|
@@ -28,6 +32,7 @@ To access this page, go to **Logistics / Documents / Containers** in the [**navi
 | **Warehouse location** | Per‑line location if applicable. |
 | **Quantity (pc)** | Quantity of the packed line. |
 
+</details>
 
 ## List of container documents
 

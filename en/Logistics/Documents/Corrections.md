@@ -14,13 +14,19 @@ To access **Corrections**, go to **Logistics / Documents / Corrections** in the 
 
 ## Schema
 
+<details open>
+  <summary><strong>Document section</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Auto-generated document identifier. |
 | **[Warehouse](../Management/Warehouses.md)** | Warehouse where the correction applies (mandatory). |
 | **Document date** | Date of the correction document. |
 
-### Details
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 Each detail describes the material and the correction to apply.
 
@@ -32,6 +38,8 @@ Each detail describes the material and the correction to apply.
 | **Best before** | Best-before date, if applicable for perishable materials. |
 | **Warehouse location** | Bin/shelf in the warehouse for precise placement. See [Locations](../Management/Locations.md). |
 | **Quantity** | Quantity to correct (enter the final quantity or a delta, depending on configuration). |
+
+</details>
 
 ## List view
 

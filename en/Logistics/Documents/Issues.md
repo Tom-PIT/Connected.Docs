@@ -11,7 +11,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [**navigation*
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -21,7 +22,10 @@ To access Issues, go to **Logistics / Documents / Issues** in the [**navigation*
 | **Customer** | Customer receiving the goods , selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Notes** | Additional remarks related to the document. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -30,6 +34,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [**navigation*
 | **Best before** | Expiration date (if the material has shelf life). |
 | [**Warehouse location**](../Management/Locations.md) | Current storage location of the selected item. |
 | **Quantity (pc)** | Quantity being issued. |
+
+</details>
 
 ## List of issue documents
 
