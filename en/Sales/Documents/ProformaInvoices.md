@@ -54,6 +54,17 @@ A committed proforma invoice is informational and does not affect financial or s
 </details>
 
 <details>
+  <summary><strong>Intrastat</strong></summary>
+
+| Field | Description |
+|------|-------------|
+| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
+| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+
+</details>
+
+<details>
   <summary><strong>Details</strong></summary>
 
 | Field | Description |
@@ -167,6 +178,21 @@ The Alternative currency section allows prices in the document to be expressed i
 ![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
 
 When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+## Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+
+![Transport and Intrastat sections](../Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+
+> [!NOTE]  
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+
 
 #### Delivery section
 

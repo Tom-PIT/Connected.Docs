@@ -24,7 +24,7 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [**navig
 </details>
 
 <details>
-  <summary><strong>Detail section</strong></summary>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|

@@ -24,7 +24,7 @@ To access Loans, go to **Logistics / Documents / Loans** in the [**navigation**]
 </details>
 
 <details>
-  <summary><strong>Detail section</strong></summary>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|

@@ -25,7 +25,7 @@ To access Issues, go to **Logistics / Documents / Issues** in the [**navigation*
 </details>
 
 <details>
-  <summary><strong>Detail section</strong></summary>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
