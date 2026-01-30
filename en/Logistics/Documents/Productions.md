@@ -20,7 +20,7 @@ To access this page, go to **Logistics / Documents / Productions** in the [**nav
 </details>
 
 <details>
-  <summary><strong>Detail section</strong></summary>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|

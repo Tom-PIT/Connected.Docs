@@ -25,7 +25,7 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 </details>
 
 <details>
-  <summary><strong>Detail section</strong></summary>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|

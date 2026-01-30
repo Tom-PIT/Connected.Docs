@@ -33,7 +33,7 @@ To access Receives, go to **Logistics / Documents / Receives** in the [**navigat
 </details>
 
 <details>
-  <summary><strong>Detail section</strong></summary>
+  <summary><strong>Details</strong></summary>
 
 
 | Field | Description |
