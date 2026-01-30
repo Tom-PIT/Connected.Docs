@@ -18,7 +18,7 @@ To access Receives, go to **Logistics / Documents / Receives** in the [**navigat
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 
 | Field | Description |

@@ -29,7 +29,7 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [**navig
 </details>
 
 <details>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|

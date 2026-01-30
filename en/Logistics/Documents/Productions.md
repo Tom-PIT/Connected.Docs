@@ -9,7 +9,7 @@ To access this page, go to **Logistics / Documents / Productions** in the [**nav
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|

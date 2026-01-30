@@ -12,7 +12,7 @@ To access Issues, go to **Logistics / Documents / Issues** in the [**navigation*
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|

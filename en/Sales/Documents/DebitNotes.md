@@ -27,7 +27,7 @@ Debit notes affect accounting only and do not impact inventory.
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -47,7 +47,7 @@ Debit notes affect accounting only and do not impact inventory.
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
 <details>
-  <summary><strong>Transport, Alternative currency, and Delivery section</strong></summary>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|

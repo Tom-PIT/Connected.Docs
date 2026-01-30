@@ -12,7 +12,7 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [**n
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|

@@ -12,7 +12,7 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
