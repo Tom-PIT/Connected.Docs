@@ -29,7 +29,7 @@ Clicking a tag opens it for editing.
 
 ## Actions
 
-Click the **action button** to add a new directory tag.
+Select a directory from the left panel, then click the **action button** to add a new directory tag.
 
 ### Add new directory tag
 
