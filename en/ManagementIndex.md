@@ -21,7 +21,7 @@ This index lists all management and configuration documentation across domains. 
 - [Account defaults](Accounting/Management/Ledger/AccountDefaults.md)
 - [Allocation of profit (AOP)](Accounting/Management/Ledger/AOP.md)
 - [Chart of accounts](Accounting/Management/Ledger/ChartOfAccounts.md)
-- [Depreciation groups](Accounting/Management/Ledger/DepretiationGroups.md)
+- [Depreciation groups](Accounting/Management/Ledger/DepreciationGroups.md)
 - [Document types](Accounting/Management/Ledger/DocumentTypes.md)
 - [Journal entry templates](Accounting/Management/Ledger/JournalEntryTemplates.md)
 - [Ledger configuration](Accounting/Management/Ledger/LedgerConfiguration.md)
