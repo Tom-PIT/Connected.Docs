@@ -19,26 +19,40 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dobavnice. |
 | **Stranka** | Prejemnik dobave, izbran iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka dobavnice. |
 | **Datum opravljene storitve** | Datum, ko je dobava predvidena (obvezno). |
-| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
-| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
-| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Neobvezno uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
-| **Postavke** | Seznam vseh dobavljenih postavk (obvezno). |
 | **Vsebina spodaj** | Neobvezno zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
 
-### Postavke
+<details>
+  <summary><strong>Transport in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Common/Management/ModeOfTransport.md)** | Način transporta, dogovorjen s stranko. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
 | [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Izdelek ali storitev, ki se dobavlja. |
 | **Datum opravljene storitve** | Datum dobave za posamezno postavko. |
 | **Izdana količina** | Prikazuje, koliko enot je že izdanih (npr. *0/3* pred izdajo, *3/3* po celotni izdaji). |
+
+</details>
 
 ## Upravljanje
 

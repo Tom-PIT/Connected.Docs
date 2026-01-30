@@ -16,6 +16,9 @@ Tipičen potek:
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator ponudbe. |
@@ -23,15 +26,26 @@ Tipičen potek:
 | **Datum dokumenta** | Datum nastanka ponudbe. |
 | **Datum veljavnosti** | Datum do katerega ponudba velja (obvezno). |
 | **Rabat** | Neobvezen skupni popust na celotno ponudbo (npr. vnesite *2* za 2 % popust). |
-| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
-| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
-| **Dostava – Podjetje / Naslov** | Podatki o dobavi za stranko; vrednosti se povzamejo iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
-| **Postavke** | Seznam ponujenih postavk (sredstev) s cenami in dobavnimi podatki; postavke izvirajo iz šifranta [Sredstva](../../Sredstva/Materiali/Izdelki.md) (obvezno). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
 | [**Način plačila**](../Upravljanje/NacinPlacila.md) | Načini plačila, prikazani stranki. |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -42,6 +56,8 @@ Tipičen potek:
 | **Popust (%)** | Neobvezen popust za posamezno postavko. |
 | [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Skupna vrednost postavke (količina × neto cena po popustih). |
+
+</details>
 
 ## Upravljanje
 

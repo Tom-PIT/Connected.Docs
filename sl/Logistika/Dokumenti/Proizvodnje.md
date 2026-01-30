@@ -8,7 +8,8 @@ Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** 
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -16,12 +17,17 @@ Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** 
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem so bile knjižene proizvedene postavke. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Proizvedena postavka (najpogosteje [izdelek](../../Sredstva/Materiali/Izdelki.md) ali [polizdelek](../../Sredstva/Materiali/Polizdelki.md)). |
 | **Količina** | Zabeležena proizvedena količina za posamezno postavko. |
+
+</details>
 
 ## Seznam dokumentov proizvodnje
 

@@ -11,7 +11,8 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [**navi
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -20,7 +21,10 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [**navi
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, iz katerega se materiali odpisujejo (obvezno). |
 | **Razlog** | Opis razloga za odstranitev materiala (poškodba, izguba, pretečen rok itd.). |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -29,6 +33,8 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [**navi
 | **Datum do** | Datum roka uporabe (če je relevanten). |
 | [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Lokacija, kjer je material shranjen. |
 | **Količina** | Število kosov za odpis. Privzeta vrednost je celotna razpoložljiva količina na lokaciji, vendar jo je potrebno prilagoditi dejanskemu stanju. |
+
+</details>
 
 ## Seznam dokumentov odpisa
 

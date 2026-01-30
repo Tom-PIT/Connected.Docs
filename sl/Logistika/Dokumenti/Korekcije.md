@@ -14,15 +14,19 @@ Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [**
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |-------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta korekcije. |
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, na katero se korekcija nanaša (obvezno). |
 | **Datum dokumenta** | Datum dokumenta korekcije. |
 
-### Podrobnosti
+</details>
 
-Vsaka podrobnost opisuje material in korekcijo, ki se izvede.
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -32,6 +36,8 @@ Vsaka podrobnost opisuje material in korekcijo, ki se izvede.
 | **Datum do** | Datum roka uporabe, če je relevanten za pokvarljive materiale. |
 | **Skladiščna lokacija** | Regal / polica v skladišču za natančno umestitev. Glejte [Lokacije](../Upravljanje/Lokacije.md). |
 | **Količina** | Količina za korekcijo (vnesite končno količino ali razliko, odvisno od konfiguracije). |
+
+</details>
 
 ## Seznam korekcij
 

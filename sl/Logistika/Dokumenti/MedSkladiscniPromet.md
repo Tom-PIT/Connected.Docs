@@ -11,7 +11,8 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -21,7 +22,10 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 | [**Končno skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem bodo materiali prevzeti. |
 | **Postavke** | Dodatne postavke, povezane z dokumentom. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -31,6 +35,8 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 | [**Izvorna lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija v izvor­nem skladišču. |
 | [**Končna lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija, kamor bo material shranjen. |
 | **Količina** | Količina, ki se prenaša. |
+
+</details>
 
 ## Seznam dokumentov med-skladiščnega prometa
 

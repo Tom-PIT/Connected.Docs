@@ -10,7 +10,8 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [**naviga
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -20,7 +21,10 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [**naviga
 | **Stik** | Stranka ali partner, ki prejme material, izbran iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Postavke** | Neobvezne postavke, povezane s posojo. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -29,6 +33,8 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [**naviga
 | **Datum do** | Datum poteka, če je določen. |
 | [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Lokacija, iz katere se material vzame. |
 | **Količina** | Količina, ki se posodi. Pred shranjevanjem jo je potrebno urediti. |
+
+</details>
 
 ## Seznam dokumentov posoje
 
