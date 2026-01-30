@@ -9,7 +9,8 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [**
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -18,7 +19,10 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [**
 | **Datum dokumenta** | Datum, ko je bil dokument vsebnika ustvarjen. |
 | [**Lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija (npr. regal / polica). |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -27,6 +31,8 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [**
 | **Datum do** | Datum poteka, če se sledi roku uporabe. |
 | **Skladiščna lokacija** | Lokacija postavke po vrstici (če je relevantno). |
 | **Količina** | Količina zapakirane postavke. |
+
+</details>
 
 ## Seznam dokumentov vsebnikov
 

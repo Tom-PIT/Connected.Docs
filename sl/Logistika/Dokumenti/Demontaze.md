@@ -19,25 +19,30 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta demontaže. |
-| **Datum dokumenta** | Datum dokumenta demontaže. |
-| [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem se izvede demontaža (obvezno). |
-| **Postavke** | Seznam garnitur, ki se demontirajo (obvezno). |
+| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistem generira kodo dokumenta. |
+| **Datum dokumenta** | Datum demontaže. |
+| [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, kjer demontaža poteka (obvezno). |
+| **Postavke** | Seznam sklopov za demontažo (obvezno). |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
-| **Izdelki** | Združen material (npr. garnitura pohištva), ki se demontira (obvezno). Glejte **[Garniture](../../Sredstva/Materiali/Garniture.md)**. |
-| **Količina** | Število garnitur za demontažo (obvezno). |
-| **Serijska številka** | Serijska številka artikla, če je uporabljena. |
-| **Datum do** | Datum roka uporabe za pokvarljive garniture ali komponente, če je uporaben. |
-| [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Lokacija (polica / regal), kjer se demontaža izvaja ali kamor se deli shranijo. |
+| **Sklop (material)** | Kombinirani material (npr. pohištveni set), ki ga razstavljate (obvezno). Glejte [Sklopi](../../Sredstva/Materiali/Sklopi.md). |
+| **Količina** | Količina sklopov za demontažo (obvezno). |
+| **Serijska številka** | Serijska številka, če je na voljo. |
+| **Datum do** | Rok uporabe za kvarljive sklope/komponente, če je na voljo. |
+| **Skladiščna lokacija** | Lokacija (polica/regal), uporabljena med demontažo ali za odlaganje razstavljenih delov. Glejte [Lokacije](../Upravljanje/Lokacije.md). |
 
+</details>
 ## Upravljanje
 
 ## Seznam in filtri
@@ -99,5 +104,3 @@ V zgornjem desnem kotu kliknite **meni (ikona hamburger)** za tiskanje **nalepk 
 
 - Osnutke demontaž lahko izbrišete s klikom na **Izbriši** v urejanju.
 - Objavljenih dokumentov demontaže praviloma **ni mogoče izbrisati**.
-
----

@@ -15,7 +15,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [**
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -26,7 +27,10 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [**
 | **Nabavni nalog** | (Neobvezno) Povezan dobavni nalog. |
 | **Postavke** | Dodatne opombe, povezane z dokumentom. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Razdelek postavk</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -41,6 +45,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [**
 | **Količina v osnovni enoti (kos)** | Količina, izražena v osnovni merski enoti materiala. |
 | **Prevzeta količina (kos)** | Dejanska prevzeta količina. |
 | **Količina v paketu** | Število prevzetih paketov. |
+
+</details>
 
 ## Seznam prevzemnih dokumentov
 

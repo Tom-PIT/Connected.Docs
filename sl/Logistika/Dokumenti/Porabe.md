@@ -10,7 +10,8 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [**naviga
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -18,13 +19,18 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [**naviga
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, iz katerega so bili materiali porabljeni. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Porabljen material ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
 | **Vir** | Identifikator vira porabljene enote (npr. serijska številka ali koda pakiranja, odvisno od načina sledenja materiala). |
 | **Količina** | Zabeležena porabljena količina za posamezno postavko. |
+
+</details>
 
 ## Seznam dokumentov porabe
 

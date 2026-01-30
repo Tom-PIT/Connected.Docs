@@ -24,6 +24,9 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dobropisa. |
@@ -38,13 +41,26 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 | [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezna oznaka ali razlog za dobropis. |
 | **Rabat** | Skupni rabat, uporabljen na dobropis. |
-| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dogovorjeni pogoji dobave s stranko. |
-| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Dogovorjeni način transporta s stranko. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
-| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Common/Management/ModeOfTransport.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+</details>
+
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -53,6 +69,8 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 | **Cena brez DDV** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |
 | **Vrednost** | Izračunane vrednosti (neto, davek, bruto) z negativnimi zneski. |
+
+</details>
 
 ## Upravljanje
 

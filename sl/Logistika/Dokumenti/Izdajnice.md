@@ -14,7 +14,8 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [**
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -24,7 +25,10 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [**
 | **Stranka** | Kupec, ki prejme blago, izbran iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Postavke** | Dodatne postavke, povezane z dokumentom. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Razdelek postavk</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -33,6 +37,8 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [**
 | **Datum do** | Datum poteka (če ima material določen rok uporabe). |
 | [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Trenutna skladiščna lokacija izbrane postavke. |
 | **Količina (kos)** | Količina, ki se izdaja. |
+
+</details>
 
 ## Seznam izdajnic
 
@@ -67,11 +73,11 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo
 2. V razdelek postavk vnesite ali skenirajte **serijsko številko**, **EAN šifro** ali **ime materiala**.  
    - Sistem prikaže **vse ujemajoče materiale in serijske številke**.
 3. Iz seznama rezultatov izberite ustrezno postavko.
-4. Sistem samodejno izpolni vse znane podatke (material, serijska številka, lokacija, rok uporabe).
+4. Sistem samodejno izpolni vse znane podatke (material, serijska številka, lokacija, rok uporabe).  
 
    ![Podrobnosti izdajnice](../Images/IssueNewDetails.png "Podrobnosti izdajnice")
 
-5. Vnesite **količino**, ki jo želite izdati — to je edino polje, ki ga lahko ročno urejate.
+5. Vnesite **količino**, ki jo želite izdati — to je edino polje, ki ga lahko ročno urejate.  
 6. Kliknite **Shrani**, da dodate postavko v dokument. Po potrebi dodajte nove postavke (ponovite korak 2).
 7. Kliknite **Objavi**, da dokument dokončno potrdite.
 

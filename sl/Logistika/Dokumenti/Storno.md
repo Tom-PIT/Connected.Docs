@@ -17,7 +17,8 @@ Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [**navi
 
 ## Shema
 
-### Razdelek razveljavljenega dokumenta
+<details open>
+  <summary><strong>Dokumenta storno</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -26,14 +27,20 @@ Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [**navi
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem je bil izvirni dokument izveden. |
 | **Datum dokumenta** | Datum izvirnega dokumenta. |
 
-### Razdelek dokumenta
+</details>
+
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta storna. |
 | **Datum dokumenta** | Datum storna (urejanje dovoljeno). |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -41,6 +48,8 @@ Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [**navi
 | [**Lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija razveljavljene zaloge. |
 | **Izvorna količina** | Količina, obdelana v razveljavljenem dokumentu. |
 | **Količina (kos)** | Količina za razveljavitev — **urejanje dovoljeno**, za delno ali polno razveljavitev. |
+
+</details>
 
 ## Seznam dokumentov storna
 
