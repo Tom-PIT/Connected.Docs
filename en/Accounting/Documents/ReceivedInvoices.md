@@ -112,7 +112,7 @@ To resolve:
 3. Review or enter document header fields, including **Amount**.
 4. Select the appropriate **Account** and **Template** (optional).
 
-![Received invoice – header](../../Images/ReceivedInvoicesNewTop.png "Received invoice header")
+![Received invoice – header](../Images/ReceivedInvoicesNewTop.png "Received invoice header")
 
 ### Create suggested postings
 
@@ -122,7 +122,7 @@ Under **Suggested postings**, the system proposes postings based on the linked s
 2. Select the relevant items.
 3. Click **Create postings** to generate posting lines.
 
-![Received invoice – suggested postings](../../Images/ReceivedInvoicesNewSuggestedPostings.png "Suggested postings")
+![Received invoice – suggested postings](../Images/ReceivedInvoicesNewSuggestedPostings.png "Suggested postings")
 
 #### Attachments
 On every document, an **Attachments** section is available.
@@ -134,7 +134,7 @@ You can upload any relevant file—such as delivery notes, transport documents, 
 
 Click any blue field in the **Details** section to edit it. After making changes, click **Save** to apply them.
 
-![Received invoice – edit detail](../../Images/ReceivedInvoicesDetails.png "Edit detail")
+![Received invoice – edit detail](../Images/ReceivedInvoicesDetails.png "Edit detail")
 
 ### Publish received invoice
 
@@ -149,7 +149,7 @@ When all amounts match and required data is filled the bottom of the document wo
 > [!NOTE]
 > If there is a mismatch between the header amount and detail totals, the document shows a **Remaining amount** and is highlighted. Publishing such a document moves it to the **Available** state.
 >
-> ![Remaining amount](../../Images/ReceivedInvoicesNewRemainingAmount.png "Remaining amount")
+> ![Remaining amount](../Images/ReceivedInvoicesNewRemainingAmount.png "Remaining amount")
 
 ### Return to draft
 
@@ -165,7 +165,7 @@ This allows editing of posting dates or accounts before re-publishing.
 
 For committed invoices, the **Document connections** section provides an option to create a payment order based on the received invoice.
 
-![Received invoice – document connections](../../Images/ReceivedInvoicesCommitedTop.png "Document connections")
+![Received invoice – document connections](../Images/ReceivedInvoicesCommitedTop.png "Document connections")
 
 ## Deletion
 
