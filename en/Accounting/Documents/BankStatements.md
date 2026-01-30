@@ -9,7 +9,8 @@ Bank statements are used to record movements on an organization’s bank account
 
 ## Schema
 
-### Bank statement
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field                         | Description                                        |
 | ----------------------------- | -------------------------------------------------- |
@@ -17,7 +18,10 @@ Bank statements are used to record movements on an organization’s bank account
 | **Document date**             | Date of the bank statement.                        |
 | [**Organization bank account**](../../Sales/Management/OrganizationBankAccounts.md) | Bank account to which the statement applies.       |
 
-### Details
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field                 | Description                                          |
 | --------------------- | ---------------------------------------------------- |
@@ -26,6 +30,8 @@ Bank statements are used to record movements on an organization’s bank account
 | **Posting direction** | Indicates whether the movement is a Debit or Credit. |
 | **Amount**            | Monetary value of the bank movement.                 |
 | **Description**       | Description of the bank transaction.                 |
+
+</details>
 
 ## Management
 
