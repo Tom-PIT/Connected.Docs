@@ -9,7 +9,7 @@ To access this page, go to **Logistics / Documents / Consumptions** in the [**na
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|

@@ -11,7 +11,7 @@ To access Loans, go to **Logistics / Documents / Loans** in the [**navigation**]
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|

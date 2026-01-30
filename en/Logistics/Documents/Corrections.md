@@ -15,7 +15,7 @@ To access **Corrections**, go to **Logistics / Documents / Corrections** in the 
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|

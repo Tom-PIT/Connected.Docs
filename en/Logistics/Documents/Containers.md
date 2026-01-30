@@ -10,7 +10,7 @@ To access this page, go to **Logistics / Documents / Containers** in the [**navi
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |---|---|

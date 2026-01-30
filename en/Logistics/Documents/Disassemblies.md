@@ -21,7 +21,7 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -33,7 +33,7 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 </details>
 
 <details>
-  <summary><strong>Details section</strong></summary>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|

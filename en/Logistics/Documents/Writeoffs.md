@@ -12,7 +12,7 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [**navig
 ## Schema
 
 <details open>
-  <summary><strong>Document section</strong></summary>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
