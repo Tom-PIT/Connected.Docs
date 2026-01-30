@@ -16,6 +16,10 @@ A typical flow:
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the offer. |
@@ -23,15 +27,24 @@ A typical flow:
 | **Document date** | Date when the offer is created. |
 | **Expiration date** | Validity date of the offer (mandatory). |
 | **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method as agreed upon with the customer. |
-| **Delivery – Company / Address** | Delivery-related information for the customer. Company and address values are sourced from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Content top** | Predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
-| **Details** | List of quoted items (assets) with pricing and delivery information. Items originate from the [Assets](../../Assets/Assets/Assets.md) list (mandatory). |
 | **Content bottom** | Closing or legal statements from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Available payment methods shown to the customer. |
 
-### Detail fields
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -42,6 +55,7 @@ A typical flow:
 | **Discount (%)** | Optional discount applied to this specific line. |
 | [**Tax rates**](../../Common/Management/TaxRates.md) | Applied tax rule. |
 | **Value** | Total line value (quantity × net price, after discounts). |
+</details>
 
 ## Management
 

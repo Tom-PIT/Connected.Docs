@@ -19,6 +19,9 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the delivery note. |
@@ -27,17 +30,29 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 | **Delivery date** | Date when the delivery is planned to occur (mandatory). |
 | **Delivery – Company / Address** | Customer delivery details taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Content top** | Optional predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
-| **Details** | This section lists all items included in the delivery (mandatory). | 
 | **Content bottom** | Optional closing or legal text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
+</details>
 
+<details>
+  <summary><strong>Transport and Delivery</strong></summary>
 
-### Details
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
 | **[Asset](../../Assets/Assets/Assets.md)** | Item or service being delivered. |
 | **Delivery date** | Delivery date for this specific item. |
 | **Issued quantity** | Shows how many units have already been issued (e.g., *0/3* before issue, *3/3* after full issue). |
+</details>
 
 ## Management
 

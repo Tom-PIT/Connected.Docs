@@ -17,6 +17,9 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the retail invoice. |
@@ -31,11 +34,25 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional cost center assignment. |
 | **Purpose code** | Optional code describing the purpose of the transaction. |
 | **Rebate** | Overall rebate applied to the invoice. |
-| **Delivery** | Delivery company and address information. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+</details>
 
-### Detail fields
+
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -44,7 +61,7 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |
 | **Value** | Calculated totals (net, tax, gross). |
-
+</details>
 ## Management
 
 Retail issued invoices move through the following states:

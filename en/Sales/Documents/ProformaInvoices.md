@@ -21,6 +21,9 @@ A committed proforma invoice is informational and does not affect financial or s
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the proforma invoice. |
@@ -34,13 +37,24 @@ A committed proforma invoice is informational and does not affect financial or s
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional description of the document's purpose. |
 | **Rebate** | Overall rebate applied to the total amount. |
+| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+</details>
+
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+
+| Field | Description |
+|--------|-------------|
 | **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
 | **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+</details>
 
-### Detail fields
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -49,6 +63,7 @@ A committed proforma invoice is informational and does not affect financial or s
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional discount applied to the detail line. |
 | **Value** | Calculated totals (net, tax, gross) for the detail line. |
+</details>
 
 ## Management
 
