@@ -26,6 +26,9 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the sales order. |
@@ -37,10 +40,23 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
 | **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method agreed upon with the customer. |
 | **Delivery – Company / Address** | Customer delivery details, taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
-| **Details** | List of items (assets) being sold, with delivery dates, pricing, quantities, and taxes (mandatory). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Payment options connected to the sales order. |
+</details>
 
-### Detail fields
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -51,6 +67,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Discount (%)** | Line-specific discount. |
 | **[Tax rates](../../Common/Management/TaxRates.md)** | Applied tax percentage. |
 | **Value** | Final line value (quantity × price − discount). |
+<details>
 
 ## Management
 

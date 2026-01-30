@@ -33,7 +33,7 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 </details>
 
 <details>
-  <summary><strong>Details</strong></summary>
+  <summary><strong>Details section</strong></summary>
 
 | Field | Description |
 |-------|-------------|

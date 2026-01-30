@@ -25,6 +25,9 @@ Credit notes affect accounting only and do not impact inventory.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document section</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the credit note. |
@@ -39,13 +42,23 @@ Credit notes affect accounting only and do not impact inventory.
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional reason or classification for the credit. |
 | **Rebate** | Overall rebate applied to the credit note. |
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
-### Detail fields
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery section</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -54,6 +67,7 @@ Credit notes affect accounting only and do not impact inventory.
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |
 | **Value** | Calculated totals (net, tax, gross) with negative amounts. |
+</details>
 
 ## Management
 

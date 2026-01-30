@@ -26,35 +26,49 @@ Debit notes affect accounting only and do not impact inventory.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document section</strong></summary>
+
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the debit note. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the credit note. |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer being charged, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
-| **Issue date** | Date when the debit note is issued. |
+| **Customer** | Customer receiving the credit, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Issue date** | Date when the credit note is issued. |
 | **Delivery date** | Original delivery date of the invoiced goods or services. |
-| **Due date** | Date when the additional amount becomes payable (mandatory). |
+| **Due date** | Date when the credit becomes effective (mandatory). |
 | **Reference type** | Type of payment reference used (mandatory). |
 | **Reference number** | Reference number based on the chosen reference type. |
-| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account where payment should be received (mandatory). |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account used for refunds or accounting (mandatory). |
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
-| **Purpose code** | Optional reason or classification for the debit. |
-| **Rebate** | Overall rebate applied to the debit note, if applicable. |
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| **Purpose code** | Optional reason or classification for the credit. |
+| **Rebate** | Overall rebate applied to the credit note. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
-### Detail fields
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery section</strong></summary>
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Assets/Assets.md) | Charged item or service. |
-| **Quantity** | Quantity being charged (positive value). |
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Detail section</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| [**Asset**](../../Assets/Assets/Assets.md) | Credited item or service. |
+| **Quantity** | Quantity being credited (usually negative). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |
-| **Value** | Calculated totals (net, tax, gross) with positive amounts. |
+| **Value** | Calculated totals (net, tax, gross) with negative amounts. |
+</details>
 
 ## Management
 

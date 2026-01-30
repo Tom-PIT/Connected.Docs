@@ -17,6 +17,9 @@ Invoices can also be created manually as stand-alone documents when required.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Unique identifier of the invoice (system-generated). |
@@ -31,15 +34,25 @@ Invoices can also be created manually as stand-alone documents when required.
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation of revenue to a cost center. |
 | **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Payment method** | Payment option selected from [**Payment methods**](../Management/PaymentMethods.md). |
+</details>
 
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
-### Detail fields
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -48,6 +61,7 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Net price** | Net price per unit, usually taken from price lists or the related document. |
 | **Discount (%)** | Optional line-level discount. |
 | **Value** | Calculated line totals (net, tax, and gross amounts). |
+</details>
 
 ## Management
 
