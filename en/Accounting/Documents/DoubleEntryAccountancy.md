@@ -9,7 +9,8 @@ To access this screen, go to **Accounting / Ledger / Double-entry accountancy** 
 
 ## Schema
 
-### Journal entry
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field               | Description                                                                     |
 | ------------------- | ------------------------------------------------------------------------------- |
@@ -19,7 +20,10 @@ To access this screen, go to **Accounting / Ledger / Double-entry accountancy** 
 | [**Document type**](../Management/Ledger/DocumentTypes.md)   | Classification of the journal entry (e.g. General journal, Inventory movement). |
 | [**Template**](../Management/Ledger/JournalEntryTemplates.md)        | Optional journal entry template used to prefill detail lines.                   |
 
-### Details
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field                 | Description                                      |
 | --------------------- | ------------------------------------------------ |
@@ -28,6 +32,8 @@ To access this screen, go to **Accounting / Ledger / Double-entry accountancy** 
 | **Amount**            | Monetary value of the posting line.              |
 | **Posting date**      | Date applied to the posting line.                |
 | **Description**       | Line-level description or reference.             |
+
+</details>
 
 > [!NOTE]
 > Every journal entry must contain at least one debit and one credit line, and the total debit amount must equal the total credit amount.

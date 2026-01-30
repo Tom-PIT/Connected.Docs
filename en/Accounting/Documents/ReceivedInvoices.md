@@ -24,6 +24,8 @@ When we receive an invoice from a vendor, it follows this flow:
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field             | Description                                                 |
 | ----------------- | ----------------------------------------------------------- |
@@ -43,7 +45,10 @@ When we receive an invoice from a vendor, it follows this flow:
 | [**Account**](../Management/Ledger/ChartOfAccounts.md)       | Ledger account used for posting (mandatory).                            |
 | [**Template**](../Management/Ledger/JournalEntryTemplates.md)      | Posting template applied to the invoice.                    |
 
-### Details
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field           | Description                                         |
 | --------------- | --------------------------------------------------- |
@@ -55,6 +60,8 @@ When we receive an invoice from a vendor, it follows this flow:
 | **Prepayment**  | Indicates whether the line represents a prepayment. |
 | **Self taxing** | Indicates self-taxing logic for the line.           |
 | **Deduct tax**  | Indicates whether tax is deductible.                |
+
+</details>
 
 ## Management
 

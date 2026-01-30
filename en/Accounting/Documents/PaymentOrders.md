@@ -12,7 +12,8 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [**na
 
 ## Schema
 
-### Document
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field           | Description                                               |
 | --------------- | --------------------------------------------------------- |
@@ -25,7 +26,10 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [**na
 | **Purpose code**    | Code describing the payment purpose (mandatory).          |
 | **Payment purpose** | Textual description of the payment purpose (mandatory).   |
 
-### Payer
+</details>
+
+<details>
+  <summary><strong>Payer</strong></summary>
 
 | Field                     | Description                                     |
 | ------------------------- | ----------------------------------------------- |
@@ -33,7 +37,10 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [**na
 | **Reference type**            | Reference type used by the payer (mandatory).   |
 | **Reference number**          | Reference number used by the payer (mandatory). |
 
-### Recipient
+</details>
+
+<details>
+  <summary><strong>Recipient</strong></summary>
 
 | Field            | Description                                             |
 | ---------------- | ------------------------------------------------------- |
@@ -42,6 +49,8 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [**na
 | [**Bank account**](../../Common/Management/BankAccounts.md) | Recipient bank account (mandatory).                     |
 | **Reference type**   | Reference type required by the recipient (mandatory).   |
 | **Reference number** | Reference number required by the recipient (mandatory). |
+
+</details>
 
 ## List view
 
