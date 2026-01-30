@@ -36,13 +36,14 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 | Polje | Opis |
 |------|------|
-| **Sklop (material)** | Kombinirani material (npr. pohištveni set), ki ga razstavljate (obvezno). Glejte [Sklopi](../../Sredstva/Materiali/Sklopi.md). |
+| **Sklop (material)** | Kombinirani material (npr. pohištveni set), ki ga razstavljate (obvezno). Glejte [**Garniture**](../../Sredstva/Materiali/Garniture.md). |
 | **Količina** | Količina sklopov za demontažo (obvezno). |
 | **Serijska številka** | Serijska številka, če je na voljo. |
 | **Datum do** | Rok uporabe za kvarljive sklope/komponente, če je na voljo. |
 | **Skladiščna lokacija** | Lokacija (polica/regal), uporabljena med demontažo ali za odlaganje razstavljenih delov. Glejte [Lokacije](../Upravljanje/Lokacije.md). |
 
 </details>
+
 ## Upravljanje
 
 ## Seznam in filtri
