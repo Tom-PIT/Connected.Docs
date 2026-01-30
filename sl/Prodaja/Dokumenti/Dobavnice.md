@@ -37,7 +37,7 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 | Polje | Opis |
 |--------|-------------|
 | **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
-| **[Vrsta transporta](../../Common/Management/ModeOfTransport.md)** | Način transporta, dogovorjen s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
 | [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 

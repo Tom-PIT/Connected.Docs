@@ -46,7 +46,7 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 | Polje | Opis |
 |--------|-------------|
 | **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
-| **[Vrsta transporta](../../Common/Management/ModeOfTransport.md)** | Način transporta, dogovorjen s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
 | [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
 | [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
