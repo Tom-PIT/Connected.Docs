@@ -6,7 +6,7 @@ Vsako osnovno sredstvo predstavlja posamezno sredstvo ali skupino enakih sredste
 Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Osnovna sredstva** v [**navigaciji**](../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
 
 > [!NOTE]
-> Osnovna sredstva so tesno povezana z **[amortizacijskimi skupinami](../Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md)** in **[konti glavne knjige](../Upravljanje/GlavnaKnjiga/KontniNacrt.md)**. Način knjiženja in izračun amortizacije sta odvisna od nastavitev amortizacijskih skupin in kontov.
+> Osnovna sredstva so tesno povezana z **[amortizacijskimi skupinami](../Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md)** in **[konti glavne knjige](../Upravljanje/GlavnaKnjiga/Konti.md)**. Način knjiženja in izračun amortizacije sta odvisna od nastavitev amortizacijskih skupin in kontov.
 
 ## Shema
 

@@ -13,7 +13,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Računi / Prejeti račun
 > (na primer strošek zaloge surovin za nove surovine, uporabljene v nabavnih nalogih).  
 > Stroške nastavite v **[Stroški](../../Nabava/Upravljanje/Stroski.md)** in jih dodelite **[materialom](../../Sredstva/Domena/Materiali.md)**.
 
-### Kako se prejeti računi vključujejo v računovodski tok
+## Kako se prejeti računi vključujejo v računovodski tok
 
 Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 
@@ -47,7 +47,7 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 | **Način plačila** | Način poravnave (npr. plačilni nalog). |
 | [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna dodelitev stroškovnega mesta. |
 | [**Konto**](../Upravljanje/GlavnaKnjiga/Konti.md) | Konto glavne knjige za knjiženje (obvezno). |
-| [**Predloga**](../Upravljanje/GlavnaKnjiga/PredlogeTemeljnic.md) | Predloga knjiženja, uporabljena za račun. |
+| [**Predloga**](../Upravljanje/GlavnaKnjiga/PredlogeZaTemeljnice.md) | Predloga knjiženja, uporabljena za račun. |
 
 </details>
 
@@ -57,7 +57,7 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 | Polje | Opis |
 |-----|-----|
 | [**Strošek**](../../Nabava/Upravljanje/Stroski.md) | Stroškovna ali zalogovna kategorija postavke. |
-| [**Konto**](../Upravljanje/GlavnaKnjiga/KontniNacrt.md) | Konto glavne knjige za posamezno postavko. |
+| [**Konto**](../Upravljanje/GlavnaKnjiga/Konti.md) | Konto glavne knjige za posamezno postavko. |
 | [**Davčna stopnja**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Znesek** | Neto znesek postavke. |
 | **Znesek DDV** | Izračunan znesek davka. |
