@@ -55,8 +55,6 @@ Click any material to open the detailed stock view.
 
 ## Stock View by Material
 
-## Stock view by material
-
 Clicking a **material name** opens a detailed breakdown of where the material is stored, including available, reserved, and blocked quantities across all [locations](../Management/Locations.md). You can also open the **[Stock view by serial number](#stock-view-by-serial-number)** to explore individual batches or units.
 
 > [!TIP]
