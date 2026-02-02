@@ -101,7 +101,9 @@ If commenting is enabled for an article, users can:
 - Upload files as part of a comment
 - Review comments from other users
 
-This allows collaboration, feedback, and clarification directly within the documentation.
+![Knowledge Base Comment](../Images/KnowledgeBaseComment.png "Knowledge Base Comment")
+
+Comments can be removed by clicking **Delete**.
 
 ## Usage
 
