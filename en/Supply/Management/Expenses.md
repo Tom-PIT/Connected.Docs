@@ -8,6 +8,9 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 
 ## Schema
 
+<details open>
+  <summary><strong>General</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | **Code** | Unique identifier of the expense. |
@@ -18,7 +21,21 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 | **Cost per unit (€)** | Cost of this subcontracted operation per unit. |
 | **Operations** | List of operations associated with this subcontractor cost. |
 
-### Ledger fields
+</details>
+
+<details>
+  <summary><strong>Operation</strong></summary>
+
+| Field | Description |
+|-------|-------------|
+| [**Processes**](../../Production/Management/Processes.md) | Process in which the operation is used. |
+| **Version** | Version of the selected process. |
+| **Operation** | Specific operation belonging to the selected process and version. |
+
+</details>
+
+<details>
+  <summary><strong>Ledger</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -28,13 +45,9 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 | **Deduct tax** | Indicates whether input tax is deductible for this expense (checkbox). |
 | **Self taxing** | Indicates whether reverse charge/self-taxing applies (checkbox). |
 
-### Operation fields (Add operation dialog)
+</details>
 
-| Field | Description |
-|-------|-------------|
-| [**Processes**](../../Production/Management/Processes.md) | Process in which the operation is used. |
-| **Version** | Version of the selected process. |
-| **Operation** | Specific operation belonging to the selected process and version. |
+
 
 ## Management
 
@@ -75,10 +88,6 @@ Enter the following information:
 - **Tax rate**
 - **Enabled**
 
-#### Ledger
-
-In this section we assign the expense to the appropriate ledger account. See [**Chart of Accounts**](../../Accounting/Management/Ledger/ChartOfAccounts.md).
-
 #### Subcontractor cost
 
 This optional section allows adding subcontractor-related costs.  
@@ -93,6 +102,10 @@ Click **Add operation** to open the operation selection dialog.
 ![Add operation](../Images/ExpensesAddOperation.png "Add operation")
 
 After entering the information, click **Add** to save the record or **Cancel** to return to the list.
+
+#### Ledger
+
+In this section we assign the expense to the appropriate ledger account. See [**Chart of Accounts**](../../Accounting/Management/Ledger/ChartOfAccounts.md).
 
 ## Editing
 
