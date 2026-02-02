@@ -183,7 +183,7 @@ When an alternative currency is selected, document prices are automatically reca
 
 When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
 
-![Transport and Intrastat sections](../Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
 
 
 - **Transport** - Used to capture logistics-related information about how the goods were delivered.
