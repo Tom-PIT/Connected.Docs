@@ -1,8 +1,8 @@
 # Bank statements
 
-To access this screen, go to **Accounting / Ledger / Bank statements** in the [**navigation**](../../Common/UI/Navigation.md).
-
 Bank statements are used to record movements on an organization’s bank accounts. Each bank statement represents a set of incoming and outgoing bank transactions for a specific date and bank account.
+
+To access this screen, go to **Accounting / Ledger / Bank statements** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!NOTE]
 > When a bank statement is published, the system automatically creates a corresponding journal entry. This journal entry can be viewed under **Connected documents** on the bank statement.
@@ -59,13 +59,17 @@ Bank statements can be in one of the following states:
 
 ## Actions
 
+Click the [**action button**](../../Common/UI/ActionButton.md) to access available actions:
+* **New** – Create a new bank statement.
+* **Import** – Import bank statements from external files in XML format.
+
 ### Create bank statement
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new bank statement.
 2. Select the [**Organization bank account**](../../Sales/Management/OrganizationBankAccounts.md).
 3. Set the **Document date**.
 
-![Bank Statements New](../Images/BankStatementsNew.png "Bank Statements New")
+   ![Bank Statements New](../Images/BankStatementsNew.png "Bank Statements New")
 
 ### Add bank movement
 
@@ -76,7 +80,7 @@ Bank statements can be in one of the following states:
 5. Enter the **Amount** and **Description**.
 6. Click **Add** to insert the movement.
 
-![Bank Statements New Add Detail](../Images/BankStatementsNewAddDetail.png "Bank Statements New Add Detail")
+   ![Bank Statements New Add Detail](../Images/BankStatementsNewAddDetail.png "Bank Statements New Add Detail")
 
 ### Publish bank statement
 
