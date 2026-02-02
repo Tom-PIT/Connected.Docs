@@ -2,6 +2,11 @@
 
 The **Account summary** view provides an aggregated overview of **initial state, turnover, and final state per account** for a selected accounting period. It is a **read-only analytical view** based on posted journal entries and does not create or modify documents.
 
+> [!NOTE]
+> - Values are calculated exclusively from **committed journal entries**.
+> - Debit and credit columns are always shown separately to reflect double-entry accounting.
+> - This view is typically used for **period-end checks**, **trial balance validation**, and **high-level financial analysis** before drilling down into detailed movements (for example, via the [**Account card**](AccountCard.md) view).
+
 To access this view, go to **Accounting / Ledger / Views / Account summary** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Account summary view](../Images/AccountSummary.png "Account summary view")
@@ -24,8 +29,4 @@ The filters on the left side allow you to narrow down the results:
 - **Account** – Limits the summary to one or more selected accounts.
 - **Company** – Shows balances related to a specific company.
 
-## Usage notes
-
-- Values are calculated exclusively from **committed journal entries**.
-- Debit and credit columns are always shown separately to reflect double-entry accounting.
-- This view is typically used for **period-end checks**, **trial balance validation**, and **high-level financial analysis** before drilling down into detailed movements (for example, via the *Account card* view).
+## 

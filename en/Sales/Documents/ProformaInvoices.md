@@ -189,10 +189,8 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 - **Transport** - Used to capture logistics-related information about how the goods were delivered.
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
 
-
 > [!NOTE]  
 Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
-
 
 #### Delivery section
 

@@ -41,3 +41,7 @@ Each row in the list represents a single posting line and includes:
 
 > [!NOTE]  
 The **Postings** view shows all postings regardless of balance. Unlike journal entries, this view does not group debit and credit lines and does not indicate whether an entry is balanced.
+
+## Menu
+
+The **Menu** in the top-right corner provides options to export the postings list as a CSV file for further analysis.
