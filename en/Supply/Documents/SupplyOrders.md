@@ -19,6 +19,9 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the supply order. |
@@ -33,7 +36,10 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 | **Bottom content** | Closing or legal statements from predefined texts. |
 | **Details** | List of ordered materials or expenses, including quantities, prices, taxes, and delivery information. |
 
-### Detail fields
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -46,6 +52,8 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 | **[Tax rate](../../Common/Management/TaxRates.md)** | Applied tax rule. |
 | **Supplier code** | Vendor’s internal code/reference for the selected material. |
 | **Total cost** | Line total (quantity × net price − discount + tax). |
+
+</details>
 
 ## Management
 

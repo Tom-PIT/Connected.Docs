@@ -8,6 +8,9 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**nav
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator stroška. |
@@ -18,13 +21,32 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**nav
 | **Znesek na enoto v (€)** | Cena te podizvajalske storitve na enoto. |
 | **Operacija** | Seznam operacij, povezanih s tem stroškom podizvajalca. |
 
-### Polja operacije (pogovorno okno *Dodaj operacijo*)
+</details>
+
+<details>
+  <summary><strong>Operacija</strong></summary>
 
 | Polje | Opis |
 |------|------|
 | [**Procesi**](../../Proizvodnja/Upravljanje/Procesi.md) | Proces, v katerem se operacija uporablja. |
 | **Verzija** | Različica izbranega procesa. |
 | **Operacija** | Posamezna operacija, ki pripada izbranemu procesu in različici. |
+
+</details>
+
+
+<details>
+  <summary><strong>Glavna knjiga</strong></summary>
+
+| Polje | Opis |
+|-------|------|
+| [**Konto**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) | Konto glavne knjige, uporabljen za knjiženja, ki nastanejo iz tega stroška. |
+| **Tip davka** | Razvrstitev davčne obravnave stroška (npr. Zaloga, Standardni strošek, Nepremičnine). |
+| **Tip sredstva** | Narava nabave za poročanje (npr. Blago, Storitve). |
+| **Odbij davek** | Označuje, ali je vstopni davek za ta strošek odbiten (potrditveno polje). |
+| **Samoobdavčitev** | Označuje, ali se uporablja mehanizem obrnjene davčne obveznosti/samodobavitev (potrditveno polje). |
+
+</details>
 
 ## Upravljanje
 
@@ -73,6 +95,11 @@ Kliknite **Dodaj operacijo**, da odprete pogovorno okno za izbiro operacije.
 
 Po vnosu podatkov kliknite **Dodaj**, da shranite zapis, ali **Prekliči**, da se vrnete na seznam.
 
+#### Glavna knjiga
+
+V tem razdelku strošek dodelimo ustreznemu kontu glavne knjige. Oglejte si [**Konti**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md).
+
+
 ## Urejanje
 
 Za urejanje stroška kliknite zapis v seznamu. Sistem odpre način urejanja.
@@ -91,5 +118,3 @@ Brisanje je dovoljeno samo, če strošek ni uporabljen v odvisnih zapisih.
 
 > [!NOTE]
 > Onemogočeni stroški ostanejo v sistemu, vendar jih ni mogoče izbrati v novih dokumentih.
-
----

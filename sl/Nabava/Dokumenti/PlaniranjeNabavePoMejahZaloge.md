@@ -57,7 +57,7 @@ Ti podatki pomagajo oceniti, ali je obnavljanje zaloge že v teku, še preden us
 
 Nabavne dokumente ustvarite neposredno iz tega pogleda.
 
-1. Izberite enega ali več materialov s potrditvenim poljem v seznamu.
+1. Izberite enega ali več materialov s potrditvenim poljem in pišete in po želji prilagodite **Naročeno količino** neposredno na seznamu.
 
    ![Izbira materiala](../Images/SupplyStockBoundariesPlanningSelect.png)
 
@@ -65,7 +65,7 @@ Nabavne dokumente ustvarite neposredno iz tega pogleda.
    - **Ustvari nov nabavni nalog**, ali
    - **Povpraševanje**
 
-   ![Akcijski gumb](../Images/SupplyStockBoundariesPlanningActionButton.png)
+   ![Akcijski gumb](../Images/SupplyStockBoundariesPlanningActionButtonSL.png)
 
 3. Odpre se pogovorno okno, kjer potrdite:
    - **Dobavitelja**

@@ -18,15 +18,20 @@ Tipičen potek:
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator povpraševanja. |
 | **Dobavitelj** | Dobavitelj, ki prejme povpraševanje, izbran iz **[Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
 | **Datum dokumenta** | Datum nastanka povpraševanja. |
 | **Datum opravljene storitve** | Rok, do katerega je povpraševanje veljavno (podobno datumu poteka). |
-| **Postavke** | Seznam zahtevanih materialov ali storitev (obvezno). |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -34,6 +39,8 @@ Tipičen potek:
 | **Datum opravljene storitve** | Predviden ali ponujen dobavni datum. |
 | **Količina** | Zahtevana količina izbranega materiala. |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju (neobvezno). |
+
+</details>
 
 ## Upravljanje
 
