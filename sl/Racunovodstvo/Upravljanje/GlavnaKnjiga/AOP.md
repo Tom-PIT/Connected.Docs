@@ -2,7 +2,7 @@
 
 Pogled **AOP** prikazuje vnaprej določen seznam zakonsko predpisanih poročevalskih postavk, ki se uporabljajo za pripravo računovodskih izkazov in zakonsko poročanje.
 
-Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / AOP** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / AOP** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Seznam AOP](../../Images/AOPListSL.png)
 
