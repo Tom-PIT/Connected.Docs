@@ -54,5 +54,3 @@ Posodobite polja in kliknite **Shrani** ali **Prekliči**, da zavržete sprememb
 ## Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odstranite analizo.
-
----

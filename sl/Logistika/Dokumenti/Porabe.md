@@ -85,5 +85,3 @@ S tem se ustvari dokument storna, ki izniči zalogovni in (odvisno od konfigurac
 ## Brisanje
 
 Dokumentov porabe **ni mogoče izbrisati** iz sistema, saj je potrebno ohraniti sledljivost uporabe materialov v proizvodnji. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.
-
----

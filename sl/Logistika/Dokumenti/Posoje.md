@@ -125,5 +125,3 @@ Postopek:
 
 > [!NOTE]
 > Objavljenih dokumentov posoje **ni mogoče izbrisati** — mogoče jih je samo **stornirati**.
-
----

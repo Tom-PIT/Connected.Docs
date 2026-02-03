@@ -79,5 +79,3 @@ Ob objavi se zaloga posodobi, dokument pa se premakne v pogled **Potrjeni**.
 
 - Osnutke korekcij je mogoče izbrisati na zaslonu za urejanje.
 - Objavljenih korekcij **ni mogoče izbrisati**.
-
----

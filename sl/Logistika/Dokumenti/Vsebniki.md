@@ -104,5 +104,3 @@ V **meniju dokumenta** so na voljo naslednje možnosti:
 
 - Osnutke vsebnikov je mogoče prosto izbrisati
 - Zapakiranih vsebnikov **ni mogoče izbrisati**; za sprostitev vsebine uporabite **Razpusti**
-
----

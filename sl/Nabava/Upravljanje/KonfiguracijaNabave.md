@@ -14,5 +14,3 @@ V tem razdelku določite model številčenja in obliko šifre za **[nabavne nalo
 |------|------|
 | **Način številčenja dokumenta** | • **Povečevanje vsako leto:** zaporedje se vsako leto ponastavi. <br> • **Povečevanje:** enotno zaporedje, ki se nikoli ne ponastavi. |
 | **Oblika zapisa šifre dokumenta** | Vzorec, ki določa strukturo šifre (npr. `PREDPONA-LETO-ZAPOREDNA`). |
-
----

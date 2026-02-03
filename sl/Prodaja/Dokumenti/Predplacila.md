@@ -186,5 +186,3 @@ Predplačilo je mogoče izbrisati **samo v stanju Osnutek** in le, če **ne vseb
 Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
 
 Potrjenih predplačil **ni mogoče** izbrisati, lahko pa jih **stornirate**.
-
----

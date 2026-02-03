@@ -82,5 +82,3 @@ Ta pogled je **zgolj analitičen**. Ne omogoča ustvarjanja, urejanja ali brisan
 - **[Pogled zaloge po lokacijah](PogledZalogePoLokacijah.md)** – pregled zaloge na posamezni skladiščni lokaciji  
 - **[Pogled zaloge po materialu](../Dokumenti/Zaloga.md#pogled-zaloge-po-materialu)** – pregled stanja in premikov zaloge po materialih  
 - **[Dokumenti izdaj](../Dokumenti/Izdajnice.md)** – ustvarjanje in pregled dokumentov izdaj
-
----

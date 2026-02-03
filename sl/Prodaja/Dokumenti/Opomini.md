@@ -88,5 +88,3 @@ Opomine je mogoče izbrisati **samo v stanju Osnutek**.
 
 > [!NOTE]
 > Potrjenih opominov **ni mogoče** izbrisati.
-
----

@@ -94,5 +94,3 @@ Poročilo kontrolnega seznama je **samo za branje** in ga po zaključku ni mogo�
 - **[Aktivne kontrolne liste](AktivneKontrolneListe.md)** — spremljanje kontrolnih seznamov, ki so trenutno v teku
 - **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)** — pregled proizvodnih dokumentov, povezanih s kontrolnimi seznami
 - **[Vzdrževalni nalogi](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)** — pregled vzdrževalnih dokumentov, povezanih s kontrolnimi seznami
-
----

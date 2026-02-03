@@ -64,5 +64,3 @@ Ta pregled je namenjen:
 - Podpori planiranju nabave in pripravi skladišča  
 
 Pregled dopolnjuje zaslon dokumentov [**Nabavni nalogi**](../Dokumenti/NabavniNalogi.md), saj se osredotoča na **postavke**, ne na dokumente.
-
----

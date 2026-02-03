@@ -182,5 +182,3 @@ Za prilagoditev zaloge:
 Dokument je mogoče izbrisati **samo v stanju Osnutek** in le, če **ne vsebuje postavk**.
 
 Objavljenih dokumentov **ni mogoče** izbrisati, lahko pa jih **stornirate** ali **vrnete v osnutek**, če je to dovoljeno s sistemsko konfiguracijo.
-
----

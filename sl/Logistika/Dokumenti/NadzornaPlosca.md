@@ -66,5 +66,3 @@ Iskalno polje na desni strani omogoča dodatno filtriranje prikazanih materialov
 
 > [!NOTE]
 > S klikom na material odprete njegov **[Pogled zaloge po materialu](Zaloga.md#pogled-zaloge-po-materialu)**.
-
----

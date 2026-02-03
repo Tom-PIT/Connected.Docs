@@ -201,5 +201,3 @@ Predračun je mogoče izbrisati **samo v stanju Osnutek** in le, če **ne vsebuj
 Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
 
 Potrjenih predračunov **ni mogoče** izbrisati, lahko pa jih **stornirate**.
-
----

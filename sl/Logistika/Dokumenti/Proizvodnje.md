@@ -78,5 +78,3 @@ S tem se ustvari dokument storna, ki izniči zalogovni in (odvisno od konfigurac
 ## Brisanje
 
 Dokumentov proizvodnje **ni mogoče izbrisati** iz sistema, saj je potrebno zagotoviti sledljivost proizvedenih postavk. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.
-
----

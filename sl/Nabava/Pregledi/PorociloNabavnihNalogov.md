@@ -58,5 +58,3 @@ Vsi zneski so izračunani na podlagi dokumentov [**Nabavni nalogi**](../Dokument
 - Pregled je namenjen **izključno analizi** in ne omogoča dejanj, kot so urejanje, storniranje ali ustvarjanje dokumentov
 
 Za podrobnejše informacije na ravni dokumentov odprite ustrezne [**Nabavne naloge**](../Dokumenti/NabavniNalogi.md) neposredno v razdelku **Nabava / Dokumenti / Nabavni nalogi**.
-
----

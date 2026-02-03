@@ -246,5 +246,3 @@ Izbris je mogoč samo za dokumente v stanju **Osnutek** in le, če **ne vsebujej
 
 > [!NOTE]
 > Objavljenih računov ni mogoče izbrisati. Uporabite **Storniraj dokument** ali **Vrni v osnutek**, če je na voljo.
-
----

@@ -178,5 +178,3 @@ Maloprodajni računi v stanju **Osnutek** se lahko izbrišejo le, če **ne vsebu
 3. Postopek ponovite za vse postavke.
 
 Objavljenih računov (ne glede na stanje plačila) **ni mogoče izbrisati**, mogoče pa jih je **stornirati** ali **vrniti v osnutek**, če je to dovoljeno s konfiguracijo.
-
----

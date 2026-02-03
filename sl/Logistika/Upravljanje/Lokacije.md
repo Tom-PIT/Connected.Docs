@@ -96,5 +96,3 @@ Prikaže se potrditveno pogovorno okno:
 
 > [!NOTE]
 > Lokacije ni mogoče izbrisati, če je uporabljena v zalogovnih zapisih ali logističnih dokumentih.
-
----

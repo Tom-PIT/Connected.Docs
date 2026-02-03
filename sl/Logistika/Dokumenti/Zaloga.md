@@ -99,5 +99,3 @@ Ta pogled prikazuje:
 - **Dnevnik** – časovnico vseh premikov in transakcij, povezanih s to serijsko številko
 
 Zaslon **Pogled zaloge po serijski številki** je samo za branje in je namenjen podrobnemu sledenju in sledljivosti posamezne serijske številke.
-
----

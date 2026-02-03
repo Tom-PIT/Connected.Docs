@@ -140,5 +140,3 @@ Področje Logistika predstavlja operativno središče upravljanja zaloge. Zagota
 - transparentno poročanje  
 
 Povezuje fizično ravnanje z blagom z digitalnimi procesi prodaje, proizvodnje, nabave in vzdrževanja.
-
----

@@ -194,5 +194,3 @@ Za brisanje posameznih postavk:
 Ko je dobropis brez postavk, lahko izvedete **Izbriši**.
 
 Potrjenih dobropisov **ni mogoče** izbrisati, mogoče pa jih je **stornirati** ali **vrniti v osnutek**.
-
----

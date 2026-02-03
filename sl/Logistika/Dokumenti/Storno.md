@@ -142,5 +142,3 @@ Prikazuje materiale, lokacije, izvorne količine in razveljavljene količine.
 
 Kliknite **Izbriši**, da odstranite **osnutek** dokumenta storna.  
 Objavljenih dokumentov storna **ni mogoče izbrisati**.
-
----

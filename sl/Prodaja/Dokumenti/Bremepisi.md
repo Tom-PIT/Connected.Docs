@@ -191,5 +191,3 @@ Za brisanje posameznih postavk:
 Ko je bremepis brez postavk, lahko izvedete **Izbriši**.
 
 Potrjenih bremepisov **ni mogoče** izbrisati, mogoče pa jih je **stornirati** ali **vrniti v osnutek**.
-
----

@@ -57,5 +57,3 @@ M-0004;4;20;80;
 ## Meni 
 
 Meni v zgornjem desnem kotu ponuja možnost **Izvoz v CSV**, ki izvozi vse vidne zapise v CSV datoteko za poročanje, analizo ali varnostno kopijo.
-
----
