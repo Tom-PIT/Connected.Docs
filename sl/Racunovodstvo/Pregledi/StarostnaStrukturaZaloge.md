@@ -2,7 +2,7 @@
 
 Pogled **Starostna struktura zaloge** omogoča časovni pregled **finančne vrednosti zaloge**, ki prikazuje, kako so vrednosti zaloge porazdeljene po preteklih obdobjih. Gre za **analitični pogled samo za branje**, ki temelji na knjiženih zalogah in računovodskih podatkih ter ne ustvarja ali spreminja dokumentov.
 
-Ta pogled se običajno uporablja skupaj z drugimi pregledi glavne knjige (na primer [**Zaloga**](PogledZaloge.md) ali [**Knjižbe**](Knjižbe.md)) za analizo razlogov za spremembe vrednosti zaloge.
+Ta pogled se običajno uporablja skupaj z drugimi pregledi glavne knjige (na primer [**Zaloga**](zalogaGlavneKnjige.md) ali [**Knjižbe**](Knjizbe.md)) za analizo razlogov za spremembe vrednosti zaloge.
 
 > [!NOTE]
 > - Vse vrednosti se izračunajo na podlagi **knjižene zaloge in računovodskih knjižb**.

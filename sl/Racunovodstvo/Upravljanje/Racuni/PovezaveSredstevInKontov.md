@@ -20,7 +20,7 @@ Te povezave same po sebi ne ustvarjajo knjižb. Predstavljajo pravila knjiženja
 |------|------|
 | **Sredstvo** | Sredstvo, za katerega velja povezava s kontom. |
 | **Tip knjiženja** | Določa računovodski kontekst, v katerem se konto uporabi. |
-| **Konto** | Konto iz **[kontnega načrta](../GlavnaKnjiga/KontniNacrt.md)**, ki se uporabi za izbran tip knjiženja. |
+| **Konto** | Konto iz **[kontnega načrta](../GlavnaKnjiga/Konti.md)**, ki se uporabi za izbran tip knjiženja. |
 
 ### Tip knjiženja
 
