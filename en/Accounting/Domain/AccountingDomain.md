@@ -151,14 +151,20 @@ The **Management** section contains **global accounting master data** shared acr
 
 Available configuration includes:
 
-- **Countries**
-- **Banks**
-- **Business directory**
-- **Cost centers**
-- **Organization bank accounts**
-- **Tax rates**
-- **Exchange rates**
-- **Intrastat**
+- [**Countries**](../../Common/Management/Countries.md)
+- [**Banks**](../../Common/Management/Banks.md)
+- [**Business directory**](../../Common/Management/BusinessDirectory.md)
+- [**Cost centers**](../../Common/Management/CostCenters.md)
+- [**Organization bank accounts**](../../Sales/Management/OrganizationBankAccounts.md)
+- [**Tax rates**](../../Common/Management/TaxRates.md)
+- [**Exchange rates**](../../Sales/Management/ExchangeRates.md)
+- **Intrastat** - related code lists for EU trade reporting:
+  - [**Nature of transactions**](../Management/Intrastat/NatureOfTransactions.md)
+  - [**Delivery terms**](../../Common/Management/DeliveryTerms.md)
+  - [**Mode of transport**](../../Common/Management/ModeOfTransport.md)
+  - [**Place of delivery**](../Management/Intrastat/PlaceOfDelivery.md)
+  - [**Supplementary units**](../Management/Intrastat/SupplementaryUnits.md)
+  - [**Tariffs**](../Management/Intrastat/Tariffs.md)
 
 These code lists ensure **consistent financial classification and reporting**.
 
