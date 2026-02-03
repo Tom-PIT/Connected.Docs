@@ -30,7 +30,11 @@ This structure allows you to understand how long inventory has been held and how
 The filters on the left side allow you to narrow down the results:
 
 - **Date** – Defines the time range used to calculate the aging structure.
-- **View** – Switches between material categories (for example, Products, Semi products, Raw, Repro).
+- **View** – Filters by material category:
+  - Products
+  - Semi products
+  - Raw
+  - Repro
 
 ## Menu
 
