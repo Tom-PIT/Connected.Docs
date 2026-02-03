@@ -10,7 +10,7 @@ Opredelite **analize ali preizkuse**, ki se lahko izvajajo na materialih (npr. k
 > **[Analiza materialov](https://www.youtube.com/watch?v=AgCVA8labrw)**.
 
 Za dostop do **Analize materialov** pojdite na  
-**Logistika / Upravljanje / Analiza materialov** v [navigaciji](../../Skupno/UI/Navigacija.md).
+**Logistika / Upravljanje / Analiza materialov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -54,5 +54,3 @@ Posodobite polja in kliknite **Shrani** ali **Prekliči**, da zavržete sprememb
 ## Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odstranite analizo.
-
----

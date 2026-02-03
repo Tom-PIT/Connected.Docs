@@ -2,7 +2,7 @@
 
 Šifrant **Predloge klavzul za izdane račune** omogoča definiranje naborov klavzul (predlog), ki se izpišejo na izdanih računih za posamezna podjetja. Predloga vsebuje eno ali več klavzul – kot so pravna obvestila, plačilni pogoji, izjave o omejitvi odgovornosti ali obračunski pogoji – ki se na računu izpišejo na vrhu ali dnu dokumenta v določenem zaporedju.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za izdane račune** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za izdane račune** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > **Predpogoji**  

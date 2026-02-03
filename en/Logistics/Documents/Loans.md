@@ -6,11 +6,12 @@ When items are loaned, they become **reserved** and unavailable for other operat
 > [!TIP]  
 > For a full demonstration, see the **[Loans](https://www.youtube.com/watch?v=V0QfOaBJ4Rk)** video tutorial.
 
-To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../../Common/UI/Navigation.md).
+To access Loans, go to **Logistics / Documents / Loans** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -20,7 +21,10 @@ To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../
 | **Contact** | Customer or partner receiving the item, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Notes** | Optional remarks related to the loan. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -29,6 +33,8 @@ To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../
 | **Best before** | Expiration date if applicable. |
 | [**Warehouse location**](../Management/Locations.md) | Storage location from which the item is taken. |
 | **Quantity (pc)** | Quantity being loaned. Must be edited before saving. |
+
+</details>
 
 ## List of loan documents
 
@@ -120,6 +126,4 @@ To delete:
 
 > [!NOTE]  
 > Committed loans **cannot** be deleted — only **reversed**.
-
----
 

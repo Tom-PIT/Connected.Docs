@@ -4,7 +4,7 @@ The **Knowledge base** is the main screen where all **published Knowledge conten
 
 The **Knowledge base** is primarily used as an **internal documentation library** and supports day-to-day operational work across multiple domains.
 
-To access this screen, go to **Knowledge / Knowledge base** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Knowledge / Knowledge base** in the [**navigation**](../../Common/UI/Navigation.md).
 
 
 ## Overview
@@ -101,7 +101,9 @@ If commenting is enabled for an article, users can:
 - Upload files as part of a comment
 - Review comments from other users
 
-This allows collaboration, feedback, and clarification directly within the documentation.
+![Knowledge Base Comment](../Images/KnowledgeBaseComment.png "Knowledge Base Comment")
+
+Comments can be removed by clicking **Delete**.
 
 ## Usage
 
@@ -124,5 +126,3 @@ The **Knowledge base** is typically used for:
 - **[Articles](../Management/Articles.md)** – author content
 - **[Directory tags](../Management/DirectoryTags.md)** – define tags used for filtering
 - **[Table of contents](../Management/TableOfContents.md)** – define directory navigation
-
----

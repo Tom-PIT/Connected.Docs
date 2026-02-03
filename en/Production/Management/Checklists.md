@@ -1,10 +1,10 @@
-﻿# Checklists
+# Checklists
 
 Checklists are used across **Production** and **Maintenance** to define structured lists that support operational procedures and quality-control activities. This page allows users to create and categorize checklists used on the shop floor and in maintenance workflows.
 
 The individual steps inside a checklist — called **[Check points](Checkpoints.md)** — are managed separately.
 
-To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Checklists** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Checklists** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
@@ -71,6 +71,4 @@ To edit an existing checklist:
 ## Deletion
 
 A checklist can be deleted freely from its Edit page by clicking **Delete**. If confirmed, the checklist is permanently removed from the system.
-
----
 

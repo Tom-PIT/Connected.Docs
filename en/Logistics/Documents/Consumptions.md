@@ -4,11 +4,12 @@ A **Consumption** document records materials that were consumed during the execu
 
 For the production-side entry of consumed materials, see **[Consumed](../../Production/Documents/Consumed.md)** — the two are closely linked: recording consumed material in production creates the corresponding consumption document in logistics.
 
-To access this page, go to **Logistics / Documents / Consumptions** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Documents / Consumptions** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -16,13 +17,18 @@ To access this page, go to **Logistics / Documents / Consumptions** in the [navi
 | **Created** | Timestamp when the document was created. |
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the consumed materials were taken from. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
 | [**Material**](../../Assets/Domain/Materials.md) | Consumed material ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **Source** | Source identifier of the consumed item (for example, a serial number or packaging code, depending on the material tracking method). |
 | **Quantity** | Consumed quantity recorded for the material line. |
+
+</details>
 
 ## List of consumption documents
 

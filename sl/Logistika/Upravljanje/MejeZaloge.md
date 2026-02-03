@@ -2,7 +2,7 @@
 
 Ta šifrant predstavlja **meje zaloge** za posamezne materiale ali izdelke v sistemu. Vsak zapis določa **minimalno** in **maksimalno** dovoljeno količino zaloge za izbran tip materiala, kar pomaga zagotavljati optimalne zalogovne ravni ter preprečuje pomanjkanje ali presežke zaloge.
 
-Za dostop do šifranta **Meje zaloge** pojdite na  **Logistika / Upravljanje / Meje zaloge** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do šifranta **Meje zaloge** pojdite na  **Logistika / Upravljanje / Meje zaloge** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič  
@@ -57,5 +57,3 @@ M-0004;4;20;80;
 ## Meni 
 
 Meni v zgornjem desnem kotu ponuja možnost **Izvoz v CSV**, ki izvozi vse vidne zapise v CSV datoteko za poročanje, analizo ali varnostno kopijo.
-
----

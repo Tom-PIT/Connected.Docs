@@ -100,5 +100,3 @@ If the Common module is not configured first, users will encounter:
 > [!CAUTION]  
 > **Do not proceed with [Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), or [System Configuration](../../System/Settings/Configuration.md) until all required Common Code Lists have been created.**  
 
----
-

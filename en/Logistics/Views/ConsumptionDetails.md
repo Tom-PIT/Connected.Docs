@@ -2,7 +2,7 @@
 
 The **Consumption details** view provides an analytical overview of all **materials consumed during production** within a selected time period. Instead of focusing on production documents, this view aggregates **consumed materials** and shows exactly **which [consumption documents](../../Production/Documents/Consumed.md)** were used and **from which warehouse locations** the materials were sourced.
 
-To access this view, go to **Logistics / Views / Consumption details** in the [navigation](../../Common/UI/Navigation.md).
+To access this view, go to **Logistics / Views / Consumption details** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![ConsumptionDetailsList](../Images/ConsumptionDetailsList.png)
 
@@ -16,16 +16,16 @@ You can expand a material row to view the **individual consumption documents** t
 
 The list is structured as follows:
 
-- **Material** – consumed material and total quantity consumed  
-  - **Consumption document** – individual consumption entry used in production  
-    - **Source** – warehouse and location where the material was sourced  
-    - **Quantity** – quantity consumed in that document  
+- **Material** â€“ consumed material and total quantity consumed  
+  - **Consumption document** â€“ individual consumption entry used in production  
+    - **Source** â€“ warehouse and location where the material was sourced  
+    - **Quantity** â€“ quantity consumed in that document  
 
 When expanded, each consumption document shows:
 
-- **Document number** – clickable, opens the [consumption document](../../Production/Documents/Consumed.md). The same document is also accessible from the related [production order](../../Production/Documents/ProductionOrders.md) under Linked documents.  
+- **Document number** â€“ clickable, opens the [consumption document](../../Production/Documents/Consumed.md). The same document is also accessible from the related [production order](../../Production/Documents/ProductionOrders.md) under Linked documents.  
 - **Document date and time**  
-- **Source** – warehouse and location (clickable)  
+- **Source** â€“ warehouse and location (clickable)  
 - **Consumed quantity**
 
 ![ConsumptionDetailsListExpanded](../Images/ConsumptionDetailsList.png)
@@ -43,7 +43,7 @@ Clicking the source opens the **[Stock view by location](StockViewByLocation.md)
 
 The left sidebar contains the following filter:
 
-- **Document dates** – limits the view to consumption documents within the selected date range
+- **Document dates** â€“ limits the view to consumption documents within the selected date range
 
 Once the date range is selected, the list reloads automatically.
 
@@ -72,15 +72,13 @@ The **Consumption details** view is useful for:
 This view is **analytical only**. It does not allow creating, editing, or deleting documents.
 
 > [!NOTE]
-> - Quantities are displayed in the material’s base unit of measure (e.g. pcs, meters).  
+> - Quantities are displayed in the materialâ€™s base unit of measure (e.g. pcs, meters).  
 > - Only materials that were actually consumed in production appear in the list.  
 > - Issued materials (e.g. sales deliveries) are **not** shown here; this view focuses exclusively on **production consumption**.
 
 ## Related views
 
-- **[Production orders](../../Production/Documents/ProductionOrders.md)** – review production processes that generate material consumption  
-- **[Consumed](../../Production/Documents/Consumed.md)** – enter and review production consumption documents  
-- **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
-- **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** – review stock movements and balances by material
-
----
+- **[Production orders](../../Production/Documents/ProductionOrders.md)** â€“ review production processes that generate material consumption  
+- **[Consumed](../../Production/Documents/Consumed.md)** â€“ enter and review production consumption documents  
+- **[Stock view by location](StockViewByLocation.md)** â€“ review stock stored in a specific warehouse location  
+- **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** â€“ review stock movements and balances by material

@@ -7,11 +7,12 @@ Writeoffs directly adjust stock levels. If incorrect quantities are written off,
 > [!TIP]
 > For a full demonstration, see the **[Writeoffs](https://www.youtube.com/watch?v=_0jEGSTorsY)** video tutorial.
 
-To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigation](../../Common/UI/Navigation.md).
+To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -20,7 +21,10 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 | [**Warehouse**](../Management/Warehouses.md) | The warehouse from which items are being written off (mandatory). |
 | **Reason** | Description of why the material is being removed (damage, loss, expiration, etc.). |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -29,6 +33,8 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 | **Best before** | Expiration date (if applicable). |
 | [**Warehouse location**](../Management/Locations.md) | Location where the material is stored. |
 | **Quantity (pc)** | Number of pieces being written off. The default value is the total number of available pieces at that location, but you should adjust it to match the real number being removed. |
+
+</details>
 
 ## List of writeoff documents
 

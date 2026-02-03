@@ -15,7 +15,7 @@ Ta šifrant predstavlja register vseh surovin znotraj strukture materialov.
 > - [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Surovine** pojdite na  
-**Sredstva / Materiali / Surovine** v [navigaciji](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Surovine** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

@@ -5,11 +5,12 @@ A container groups one or more items under a single serial code (often an SSCC â
 > [!TIP]
 > For a full demonstration, see the **[Containers](https://www.youtube.com/watch?v=2V9K1jTsyQI)** video tutorial.
 
-To access this page, go to **Logistics / Documents / Containers** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Documents / Containers** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |---|---|
@@ -18,7 +19,10 @@ To access this page, go to **Logistics / Documents / Containers** in the [naviga
 | **Document date** | Date the container document was created. |
 | [**Location**](../Management/Locations.md) | Warehouse location (e.g., Rack/Shelf). |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |---|---|
@@ -28,6 +32,7 @@ To access this page, go to **Logistics / Documents / Containers** in the [naviga
 | **Warehouse location** | Perâ€‘line location if applicable. |
 | **Quantity (pc)** | Quantity of the packed line. |
 
+</details>
 
 ## List of container documents
 

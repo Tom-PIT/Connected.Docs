@@ -1,4 +1,4 @@
-﻿# Countries
+# Countries
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
@@ -13,7 +13,7 @@ This code list represents the countries used across the digital contents of the 
 
 ## Management
 
-You can access the **Countries** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Countries** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 
@@ -97,5 +97,3 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >A country can be deleted only if it is not referenced by dependent records (for example, addresses or documents).
-
----

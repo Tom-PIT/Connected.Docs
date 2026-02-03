@@ -4,7 +4,7 @@ The **Directory tags** code list defines tags that can be assigned to **Knowledg
 
 Directory tags are shared across the **Knowledge** domain and can be reused by multiple directories and articles.
 
-To access this screen, go to **Knowledge / Management / Directory tags** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Knowledge / Management / Directory tags** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -21,7 +21,7 @@ The list view displays all configured directory tags.
 ![DirectoryTagsList](../Images/DirectoryTagsList.png)
 
 Each row shows:
-- **Tag** – tag name used to classify Knowledge [articles](Articles.md)
+- **Tag** â€“ tag name used to classify Knowledge [articles](Articles.md)
 
 You can use the **Search** bar to quickly filter tags by name.
 
@@ -29,7 +29,7 @@ Clicking a tag opens it for editing.
 
 ## Actions
 
-Click the **action button** to add a new directory tag.
+Select a directory from the left panel, then click the **action button** to add a new directory tag.
 
 ### Add new directory tag
 
@@ -66,9 +66,7 @@ If confirmed, the tag is permanently removed; otherwise, the system keeps it unc
 
 ## Related
 
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse articles and filter by tags
-- **[Directories](Directories.md)** – containers that hold articles and TOCs
-- **[Articles](Articles.md)** – content items that can use directory tags
-
----
+- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** â€“ browse articles and filter by tags
+- **[Directories](Directories.md)** â€“ containers that hold articles and TOCs
+- **[Articles](Articles.md)** â€“ content items that can use directory tags
 

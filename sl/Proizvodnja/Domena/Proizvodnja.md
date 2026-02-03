@@ -9,7 +9,7 @@ domena Proizvodnja skrbi, da se ti materiali pretvorijo v končne ali polizdelke
 prek nadzorovanih in sledljivih delovnih tokov.
 
 Do domene Proizvodnja dostopate prek **Proizvodnja** v
-[navigaciji](../../Skupno/UI/Navigacija.md).
+[**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Zemljevid domene proizvodnje](../Images/ProductionDomainSitemapSL.png "Zemljevid domene proizvodnje")
 

@@ -54,5 +54,3 @@ To edit an existing input:
 ## Deletion
 
 An input can be deleted from its Edit page by clicking **Delete**. If confirmed, it is removed from the operation.
-
----

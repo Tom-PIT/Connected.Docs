@@ -3,9 +3,9 @@
 **Predračun** je informativni prodajni dokument, ki se uporablja za posredovanje podrobne cenovne ponudbe stranki, preden je blago ali storitev dobavljena.  
 Predračun **ne sproži** računovodskih ali skladiščnih knjiženj, vendar predstavlja potrjeno komercialno ponudbo.
 
-Predračuni se najpogosteje ustvarijo iz potrjene **[Ponudbe](Ponudbe.md)**, lahko pa se ustvarijo tudi samostojno z uporabo [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md).
+Predračuni se najpogosteje ustvarijo iz potrjene **[Ponudbe](Ponudbe.md)**, lahko pa se ustvarijo tudi samostojno z uporabo [**akcijskega gumbа**](../../Skupno/UI/AkcijskiGumb.md).
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predračuni** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predračuni** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga predračunov v prodajnem procesu
 
@@ -22,6 +22,9 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator predračuna. |
@@ -36,10 +39,24 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 | **Koda namena** | Neobvezni opis namena dokumenta. |
 | **Rabat** | Skupni rabat, uporabljen na celoten znesek. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
-| **Dobava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -48,6 +65,8 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 | **Neto cena** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |
 | **Vrednost** | Izračunane vrednosti (neto, davek, bruto) postavke. |
+
+</details>
 
 ## Upravljanje
 
@@ -76,11 +95,11 @@ Osnutke je mogoče urejati, potrjeni predračuni pa so dokončni, razen če so s
 
 Predračune je mogoče ustvariti na dva načina:
 
-- Neposredno na zaslonu **Predračuni** z uporabo [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md).  
+- Neposredno na zaslonu **Predračuni** z uporabo [**akcijskega gumbа**](../../Skupno/UI/AkcijskiGumb.md).  
 - Iz potrjene **[Ponudbe](Ponudbe.md)** prek **Povezani dokumenti → + Predračun**.  
   V tem primeru se večina polj samodejno izpolni.
 
-![Povezani dokumenti ponudbe](../Images/OfferPublishedLinkedDocuments.png "Povezani dokumenti ponudbe")
+![Povezani dokumenti ponudbe](../Images/OfferPublishedLinkedDocuments.png)
 
 Koraki:
 
@@ -105,17 +124,20 @@ Koraki:
 
 5. Ko je dokument pripravljen, kliknite **Objavi**.
 
-> [!NOTE]
+> [!NOTE]  
 > Potrjenih predračunov ni mogoče urejati, lahko pa služijo kot osnova za **avansna plačila** ali končni račun.
 
 ## Urejanje predračuna
 
 Osnutek predračuna je mogoče prosto urejati.  
 Spremenite lahko:
+
 - Glavna polja  
-- Postavke  
-- Vsebino zgoraj/spodaj  
-- Podatke o dobavi  
+- Alternativna valuta
+- Podatki o dobavi  
+- Transport  
+- Postavke (sredstva, količine, cene)  
+- Vsebina zgoraj/spodaj  
 
 Po objavi dokument preide v stanje **Potrjeno** in urejanje ni več dovoljeno.
 
@@ -129,13 +151,22 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in pr
 
 Pogosta dejanja:
 - **[+ Predplačilo](Predplacila.md)** – ustvari predplačilo iz potrjenega predračuna  
+  Zaloga: brez vpliva. Finance: evidentiranje avansnega plačila.
 - **Predračun** – kopira vsebino v nov predračun  
-- **[Ponudba](Ponudbe.md)** – prikaže izvorno ponudbo (če obstaja)
-
-![Povezani dokumenti predračuna](../Images/ProformaInvoiceLinkedDocuments.png "Povezani dokumenti predračuna")
+- **[Ponudba](Ponudbe.md)** – prikaže izvorno ponudbo (če obstaja); omogoča sledljivost od ponudbe → predračun.
 
 > [!NOTE]
 > Razpoložljiva dejanja so odvisna od statusa dokumenta.
+
+![Povezani dokumenti predračuna](../Images/ProformaInvoiceLinkedDocuments.png)
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
 ### Dostava
 
@@ -145,23 +176,24 @@ Ti podatki vplivajo na izpis dokumenta in nadaljnje logistične dokumente, ne sp
 
 ## Meni
 
-Meni dokumenta omogoča:
+Meni dokumenta omogoča naslednja dejanja:
 
 - **Tiskanje**
 - **Izvoz**
 - **Pošiljanje po e-pošti**
-- **Storniraj dokument**
-- **Vrni v osnutek** (če je dovoljeno)
+- **Storniraj dokument**  
+- **Vrni v osnutek** (če sistemska pravila dovoljujejo)
 
-![Meni predračuna](../Images/PrepaymentsMenu.png "Meni predračuna")
+![Meni predračuna](../Images/PrepaymentsMenu.png)
 
-Storniranje predračuna razveljavi njegov potrjeni učinek. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 
 ## Brisanje
 
 Predračun je mogoče izbrisati **samo v stanju Osnutek** in le, če **ne vsebuje postavk**.
 
 Če osnutek vsebuje postavke:
+
 1. Odprite postavko.  
 2. Kliknite **Izbriši**.  
 3. Postopek ponovite za vse postavke.
@@ -169,5 +201,3 @@ Predračun je mogoče izbrisati **samo v stanju Osnutek** in le, če **ne vsebuj
 Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
 
 Potrjenih predračunov **ni mogoče** izbrisati, lahko pa jih **stornirate**.
-
----

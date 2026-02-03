@@ -4,7 +4,7 @@
 
 **Baza znanja** se uporablja predvsem kot **interna knjižnica dokumentacije** in podpira vsakodnevno operativno delo v več domenah.
 
-Za dostop do tega zaslona pojdite na **Znanje / Baza znanja** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Znanje / Baza znanja** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Pregled
 

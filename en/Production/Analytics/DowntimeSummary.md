@@ -1,7 +1,7 @@
 # Downtime summary
 The **Downtime summary** page provides an overview of recorded production downtimes within a selected period. It helps identify the most common downtime reasons, evaluate their impact, and monitor performance across organization units and equipment.
 
-To access this page, go to **Production / Analytics / Downtime summary** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Downtime summary** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Downtime summary](../Images/DowntimeSummaryView.png "Downtime summary")
 
@@ -55,6 +55,4 @@ In the example above:
   - **Electrical failure** — **13 min 37 s**
   - **Machine failure** — **12 min 42 s**
 - The chart and list reflect the same breakdown by downtime type (including the cumulative percentage line)
-
----
 

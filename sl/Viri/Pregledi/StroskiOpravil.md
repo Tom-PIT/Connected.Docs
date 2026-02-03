@@ -2,7 +2,7 @@
 
 Pogled **Stroški opravil** omogoča vpogled v **dejanske stroške izdelave posameznega opravila**, na podlagi porabljenih materialov, vloženega dela in dodatnih stroškov. Namenjen je predvsem analizi [proizvodnih nalogov](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) in [vzdrževalnih nalogov](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md) ter razumevanju porazdelitve stroškov in uspešnosti.
 
-Za dostop do **Stroškov opravil** pojdite na **Viri / Stroški opravil** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Stroškov opravil** pojdite na **Viri / Stroški opravil** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Stroški opravil – seznam](../Images/WorkItemsCostsSL.png)
 

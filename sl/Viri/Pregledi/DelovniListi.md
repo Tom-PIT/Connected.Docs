@@ -3,7 +3,7 @@
 **Delovni listi** omogočajo koledarski pregled za načrtovanje dela na podlagi **časovnih planov**.  
 Predstavljajo *planirano delo* in uporabnikom omogočajo razporejanje aktivnosti skozi čas.
 
-Za dostop do **Delovnih listov** pojdite na **Viri / Delovni listi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Delovnih listov** pojdite na **Viri / Delovni listi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

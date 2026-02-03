@@ -7,7 +7,7 @@ Use this domain to:
 - Review and analyze completed checklists for compliance and continuous improvement
 - Access and maintain the checklist definitions used in day-to-day operations
 
-To access the Quality domain, navigate to **Quality** in the [navigation](../../Common/UI/Navigation.md).
+To access the Quality domain, navigate to **Quality** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Quality Sitemap](../Images/QualitySitemap.png)
 
@@ -39,5 +39,3 @@ The views section focuses on monitoring active and completed quality executions
   - [**Completed checklists**](../Views/CompletedChecklists.md) — Review finished checklists with outcomes, timestamps, responsible users, and any recorded nonconformities. Supports filtering (date ranges, processes, business units, results) and exporting for audits.
 
 ![Quality Domain Views](../Images/QualityDomainViews.png "Quality Domain views")
-
----

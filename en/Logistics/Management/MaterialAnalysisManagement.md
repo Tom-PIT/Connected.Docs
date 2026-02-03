@@ -1,4 +1,4 @@
-﻿# Material analysis management
+# Material analysis management
 
 Define the analyses or tests that can be performed on materials (e.g., chemical, visual, dimensional checks). These entries are reused wherever a material analysis must be selected.
 
@@ -8,7 +8,7 @@ Define the analyses or tests that can be performed on materials (e.g., chemical,
 > [!TIP]
 > For a full demonstration, see the **[Material analysis management](https://www.youtube.com/watch?v=AgCVA8labrw)** video tutorial.
 
-To access **Material analysis management**, go to **Logistics / Management / Material analysis** in the [navigation](../../Common/UI/Navigation.md).
+To access **Material analysis management**, go to **Logistics / Management / Material analysis** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -50,5 +50,3 @@ Click an entry in the list to open it in edit mode. Update fields and click **Sa
 ## Deletion
 
 Click **Delete** on the edit screen to remove an analysis.
-
----

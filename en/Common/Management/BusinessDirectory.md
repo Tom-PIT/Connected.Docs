@@ -1,4 +1,4 @@
-﻿# Business directory
+# Business directory
 
 The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.
 
@@ -20,7 +20,7 @@ The **Business directory** contains all companies and individuals your organizat
 | **Type** | Defines the tax status of the entity (see the list section below). |
 | **VAT ID** | VAT identification number, for example **SI12345678**. |
 | **Company ID** | Company registration number. |
-| **Institutional sector** | Institutional sector to which the entity belongs. |
+| [**Institutional sector**](../../CustomerSupport/Management/InstitutionalSectors.md) | Institutional sector to which the entity belongs. |
 | **Tags** | Tags that allow categorization of entities. |
 | **Payment currency** | Default payment currency used in documents. |
 | [**Currency**](Currencies.md) | Currency associated with the entity. |
@@ -32,7 +32,7 @@ The **Business directory** contains all companies and individuals your organizat
 
 ## Management
 
-You can access the **Business directory** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Business directory** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 
@@ -122,6 +122,4 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >An entry can be deleted only if it is not referenced in any dependent records (for example, invoices or orders).
-
----
 

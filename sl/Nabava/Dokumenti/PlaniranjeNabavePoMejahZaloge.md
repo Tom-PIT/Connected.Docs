@@ -7,7 +7,7 @@ Ta stran tesno sodeluje z naslednjimi šifranti:
 - **[Meje zaloge](../../Logistika/Upravljanje/MejeZaloge.md)** – določanje minimalnih in maksimalnih količin  
 - **[Materiali dobaviteljev](../Upravljanje/MaterialiDobaviteljev.md)** – povezava materialov z dobavitelji  
 
-Za dostop do **Planiranja nabave po mejah zaloge** pojdite na **Nabava / Dokumenti / Planiranje nabave po mejah zaloge** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Planiranja nabave po mejah zaloge** pojdite na **Nabava / Dokumenti / Planiranje nabave po mejah zaloge** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Kako deluje
 
@@ -57,7 +57,7 @@ Ti podatki pomagajo oceniti, ali je obnavljanje zaloge že v teku, še preden us
 
 Nabavne dokumente ustvarite neposredno iz tega pogleda.
 
-1. Izberite enega ali več materialov s potrditvenim poljem v seznamu.
+1. Izberite enega ali več materialov s potrditvenim poljem in pišete in po želji prilagodite **Naročeno količino** neposredno na seznamu.
 
    ![Izbira materiala](../Images/SupplyStockBoundariesPlanningSelect.png)
 
@@ -65,7 +65,7 @@ Nabavne dokumente ustvarite neposredno iz tega pogleda.
    - **Ustvari nov nabavni nalog**, ali
    - **Povpraševanje**
 
-   ![Akcijski gumb](../Images/SupplyStockBoundariesPlanningActionButton.png)
+   ![Akcijski gumb](../Images/SupplyStockBoundariesPlanningActionButtonSL.png)
 
 3. Odpre se pogovorno okno, kjer potrdite:
    - **Dobavitelja**
@@ -87,5 +87,3 @@ Sistem vas nato preusmeri na nov **nabavni nalog** ali **povpraševanje**, kjer 
 - boljše usklajevanje odločitev o nabavi na podlagi dejanskega stanja zaloge in obstoječih naročil  
 
 Ta pogled je posebej uporaben za planerje in nabavne ekipe, ki upravljajo več dobaviteljev in širok nabor materialov.
-
----

@@ -8,7 +8,7 @@ Use this domain to:
 - Track operations, resources, inputs, and checklists during maintenance
 - Review indicators to assess reliability and responsiveness
 
-To access the Maintenance domain, navigate to **Maintenance** in the [navigation](../../Common/UI/Navigation.md).
+To access the Maintenance domain, navigate to **Maintenance** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Maintenance Domain Sitemap](../Images/MaintenanceDomainSitemap.png)
 
@@ -62,5 +62,3 @@ Monitor performance and reliability using built-in analytics.
 
 > [!NOTE]
 > Detailed chapters for each page (orders, schedule, malfunctions, calendar, indicators) are available and provide step-by-step guidance. This page serves as the domain overview.
-
----

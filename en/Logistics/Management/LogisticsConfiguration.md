@@ -1,8 +1,8 @@
-﻿# Logistics configuration
+# Logistics configuration
 
 Configure **Logistics** settings affecting stock behavior, serial formats, and document numbering. Any changes are saved automatically.
 
-To access this page, go to **Logistics / Management / Configuration** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Management / Configuration** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Logistics Configuration](../Images/LogisticsConfiguration.png)
 
@@ -27,8 +27,6 @@ Choose the numbering model and format for Logistics documents (Receives, Issues,
 |-------|-------------|
 | **Document numbering model** | • **Incremental for each year:** sequence resets annually. <br> • **Incremental:** a global sequence that never resets.  |
 | **Document code format** | Pattern defining structure (e.g., PREFIX‑YEAR-NUMBER). |
-
----
 
 
 

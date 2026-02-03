@@ -1,10 +1,10 @@
-﻿# Organization units
+# Organization units
 
 The **Organization units** code list defines operational organizational entities used across **Production** and **Maintenance** workflows — for example manufacturing cells, assembly lines, maintenance departments, or service teams. Use this page to view, add, edit and delete organization units and to manage their basic properties (name, tags, parent hierarchy, and availability) that other features reference.
 
 Organization units are used by planners and supervisors to scope operations, filter lists, and control workflow routing (for example, selecting the correct input/output warehouse location or assigning duties). Example: the Organization unit with Code **ORN-25-0002** corresponds to **Finishing**, a production unit responsible for finishing the product before packaging; similarly, a **Maintenance** unit might be **Electrical Maintenance** for equipment servicing.
 
-To access Organization units, navigate to the **Production** or **Maintenance** domains, then go to **Management / Organization units** in the [navigation](../../Common/UI/Navigation.md).
+To access Organization units, navigate to the **Production** or **Maintenance** domains, then go to **Management / Organization units** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Organization units](https://www.youtube.com/watch?v=qGkHEuOEWT4)** video tutorial.
@@ -80,5 +80,3 @@ Click **Delete** on the edit screen to open a confirmation dialog:
 **Are you sure you want to delete this record?**
 
 If confirmed, the record is permanently removed from the Organization units list; referenced data in other domains is not affected.
-
----

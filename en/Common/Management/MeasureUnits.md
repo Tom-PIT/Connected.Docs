@@ -21,7 +21,7 @@ Examples:
 
 ## Management
 
-You can access the **Measure units** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Measure units** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 
@@ -76,5 +76,3 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 
 > [!NOTE]
 >A **measure unit** can be deleted only if it is not used in any dependent records, such as materials or stock transactions.
-
----

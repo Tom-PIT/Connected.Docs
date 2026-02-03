@@ -2,7 +2,7 @@
 
 Kategorije opomnikov določajo **klasifikacijske oznake**, ki jih je mogoče dodeliti opomnikom v modulu [**Opomniki**](../Pregledi/Opomniki.md). Pomagajo organizirati opomnike glede na namen (na primer *Pregled proračuna* ali *Inšpekcija objekta*) in se ponovno uporabljajo v celotnem sistemu, kjer koli se opomniki ustvarjajo.
 
-Za dostop do **Kategorij opomnikov** pojdite na **Viri / Upravljanje / Kategorije opomnikov** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Kategorij opomnikov** pojdite na **Viri / Upravljanje / Kategorije opomnikov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

@@ -2,7 +2,7 @@
 
 The **Banks** code list contains financial institutions that can be used across documents such as issued invoices, payments, and organizational bank accounts. Each bank entry stores its name, BIC code, and country, allowing the system to Banks connect with various [business partners](../../Common/Management/BusinessDirectory.md) and their transactions, and correctly reference banking information wherever needed.
 
-To access Banks, go to **Sales / Management / Banks** in the [navigation](../../Common/UI/Navigation.md).
+To access Banks, go to **Sales / Management / Banks** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -57,7 +57,5 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 
 > [!NOTE]
 >A bank record can be deleted only if it is not referenced by other system entities.
-
----
 
 

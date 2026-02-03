@@ -3,7 +3,7 @@
 **Predplačilo** je prodajni dokument, ki se uporablja, kadar stranka poravna dogovorjeni znesek **vnaprej**, še preden je blago ali storitev dobavljena. Evidentira prejeta sredstva, ki se lahko kasneje v celoti ali delno uporabijo pri izstavitvi [**izdanega računa**](IzdaniRacuni.md).  
 Predplačila je mogoče ustvariti ročno ali neposredno iz potrjenega [**Predračuna**](Predracuni.md), s čimer so povezana s prodajnim procesom.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predplačila** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predplačila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga predplačil v prodajnem procesu
 
@@ -20,6 +20,9 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator predplačila. |
@@ -35,11 +38,25 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 | **Koda namena** | Neobvezen opis namena plačila. |
 | **Rabat** | Skupni rabat, uporabljen na znesek predplačila. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
-| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Upravljanje/NacinPlacila.md). |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -48,6 +65,8 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 | **Cena brez DDV** | Cena na enoto brez DDV. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |
 | **Vrednost** | Izračunane vrednosti (neto, davek, bruto) postavke. |
+
+</details>
 
 ## Upravljanje
 
@@ -103,6 +122,9 @@ Osnutek predplačila je mogoče urejati do objave.
 
 Urejate lahko:
 - Glavna polja (stranka, datumi, sklici, bančni račun)
+- Alternativna valuta
+- Transport
+- Podatki o dobavi
 - Postavke
 - Načine plačila
 - Besedila (zgoraj/spodaj)
@@ -113,7 +135,7 @@ V razdelku **Priponke** lahko naložite dodatno dokumentacijo.
 
 #### Povezani dokumenti
 
-Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in prikazuje obstoječe povezave.
+Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in prikazuje obstoječe povezave. 
 
 ![Povezani dokumenti predplačila](../Images/PrepaymentsLinkedDocuments.png "Povezani dokumenti predplačila")
 
@@ -124,6 +146,14 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in pr
 Razpoložljiva dejanja vključujejo:
 - **[+ Izdani račun](IzdaniRacuni.md)** – ustvari končni račun z upoštevanjem predplačila.  
 - **Predplačilo** – kopira vsebino v novo predplačilo.
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
 ### Dobava
 
@@ -156,5 +186,3 @@ Predplačilo je mogoče izbrisati **samo v stanju Osnutek** in le, če **ne vseb
 Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
 
 Potrjenih predplačil **ni mogoče** izbrisati, lahko pa jih **stornirate**.
-
----

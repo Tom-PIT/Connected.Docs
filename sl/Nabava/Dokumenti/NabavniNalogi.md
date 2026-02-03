@@ -2,7 +2,7 @@
 
 **Nabavni nalog** je uradni nabavni dokument, s katerim organizacija potrdi naročilo materialov ali storitev pri dobavitelju. Določa, *kaj* bo organizacija prejela, *kdaj* in *pod kakšnimi pogoji*, ter predstavlja osnovo za nadaljnje operativne procese, kot so **prevzemi materiala** in **razporejanje stroškov**.
 
-Za dostop do **Nabavnih nalogov** pojdite na **Nabava / Dokumenti / Nabavni nalogi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Nabavnih nalogov** pojdite na **Nabava / Dokumenti / Nabavni nalogi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Kako se nabavni nalogi vključujejo v nabavni proces
 
@@ -19,6 +19,9 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator nabavnega naloga. |
@@ -31,7 +34,11 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | **Dostava – podjetje / naslov** | Podatki o lokaciji dostave, povzeti iz Poslovnega imenika ali ročno prilagojeni. |
 | **Vsebina na vrhu** | Vnaprej določeno uvodno besedilo iz **[Vnaprej določenih besedil](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** (entiteta: *Nabavni nalog*). |
 | **Vsebina na dnu** | Zaključna ali pravna besedila iz vnaprej določenih besedil. |
-| **Postavke** | Seznam naročenih materialov ali stroškov, vključno s količinami, cenami, davki in podatki o dobavi. |
+
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 ### Polja postavk
 
@@ -46,6 +53,8 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | [**Davčna stopnja**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju. |
 | **Skupna cena** | Znesek postavke (količina × neto cena − popust + davek). |
+
+</details>
 
 ## Upravljanje
 
@@ -240,5 +249,3 @@ Ko dokument ne vsebuje več postavk, kliknite **Izbriši** za trajno odstranitev
 > - Izbris je mogoč samo za nabavne naloge v stanju **Osnutek**.  
 > - Objavljenih dokumentov ni mogoče izbrisati.  
 > - Objavljeni dokumenti se lahko **[stornirajo](../../Logistika/Dokumenti/Storno.md)**.
-
----

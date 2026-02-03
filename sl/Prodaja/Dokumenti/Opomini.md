@@ -2,7 +2,7 @@
 
 **Opomin** je prodajni dokument, ki se uporablja za obveščanje strank o **neplačanih izdanih računih** in za zahtevo po plačilu. Po potrebi lahko vključuje **strošek opomina** in **zamudne obresti**.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Opomini** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Opomini** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga opominov v prodajnem procesu
 
@@ -88,5 +88,3 @@ Opomine je mogoče izbrisati **samo v stanju Osnutek**.
 
 > [!NOTE]
 > Potrjenih opominov **ni mogoče** izbrisati.
-
----

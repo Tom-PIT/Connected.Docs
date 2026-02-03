@@ -7,11 +7,12 @@ Odpisi neposredno prilagodijo stanje zaloge. Če je bila odpisana napačna koli�
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Odpisi](https://www.youtube.com/watch?v=_0jEGSTorsY)**.
 
-Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -20,7 +21,10 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, iz katerega se materiali odpisujejo (obvezno). |
 | **Razlog** | Opis razloga za odstranitev materiala (poškodba, izguba, pretečen rok itd.). |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -29,6 +33,8 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 | **Datum do** | Datum roka uporabe (če je relevanten). |
 | [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Lokacija, kjer je material shranjen. |
 | **Količina** | Število kosov za odpis. Privzeta vrednost je celotna razpoložljiva količina na lokaciji, vendar jo je potrebno prilagoditi dejanskemu stanju. |
+
+</details>
 
 ## Seznam dokumentov odpisa
 
@@ -99,5 +105,3 @@ Ko dokument ne vsebuje več nobenih postavk, ga lahko izbrišete.
 
 > [!NOTE]
 > Objavljenih dokumentov **ni mogoče izbrisati** — mogoče jih je samo **stornirati**.
-
----

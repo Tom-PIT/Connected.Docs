@@ -2,7 +2,7 @@
 
 Stran **Kazalniki proizvodnje** omogoča analitičen vpogled v ključne kazalnike uspešnosti proizvodnje. Namenjena je spremljanju proizvodnje, kakovosti, zastojev ter učinkovitosti strojev ali organizacijskih enot v izbranem časovnem obdobju.
 
-Do strani dostopate preko **Proizvodnja / Analiza / Kazalniki proizvodnje** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Do strani dostopate preko **Proizvodnja / Analiza / Kazalniki proizvodnje** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Pregled kazalnikov proizvodnje](../Images/ProductionKPIsView.png "Kazalniki proizvodnje")
 

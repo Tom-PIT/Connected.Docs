@@ -2,7 +2,7 @@
 
 A **Supply order** is the formal purchasing document used to confirm materials or services ordered from a vendor. It defines *what* your organization will receive, *when*, and under *which conditions*, and is the basis for operational workflows such as material receiving and cost center allocation.
 
-To access this page, navigate to **Supply / Documents / Supply orders** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, navigate to **Supply / Documents / Supply orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How supply orders fit into the supply workflow
 
@@ -19,6 +19,9 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the supply order. |
@@ -33,7 +36,10 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 | **Bottom content** | Closing or legal statements from predefined texts. |
 | **Details** | List of ordered materials or expenses, including quantities, prices, taxes, and delivery information. |
 
-### Detail fields
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -46,6 +52,8 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 | **[Tax rate](../../Common/Management/TaxRates.md)** | Applied tax rule. |
 | **Supplier code** | Vendor’s internal code/reference for the selected material. |
 | **Total cost** | Line total (quantity × net price − discount + tax). |
+
+</details>
 
 ## Management
 
@@ -242,6 +250,4 @@ If confirmed, the system removes the document permanently; otherwise, no changes
 > - Only **draft** supply orders can be deleted.  
 > - Once a supply order is published, it can no longer be deleted.  
 > - Published documents cannot be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).
-
----
 

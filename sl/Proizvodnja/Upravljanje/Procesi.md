@@ -8,7 +8,7 @@ Ta pogled omogoča ustvarjanje in upravljanje procesov, njihovih verzij ter oper
 
 Proces lahko vsebuje eno ali več **verzij**, na primer različne verzije za različne velikosti izdelkov ali vzdrževalne variante. Vsaka verzija vsebuje zaporedje **[operacij](Operacije.md)**, ki določajo vhode, vire (človeške in stvarne), izhode in zahteve kakovosti.
 
-Za dostop do tega pogleda pojdite na **Proizvodnja / Upravljanje / Procesi** v [navigaciji](../../Skupno/UI/Navigacija.md). Procesi so skupni in jih je mogoče označiti za uporabo v Proizvodnji ali Vzdrževanju.
+Za dostop do tega pogleda pojdite na **Proizvodnja / Upravljanje / Procesi** v [**navigaciji**](../../Skupno/UI/Navigacija.md). Procesi so skupni in jih je mogoče označiti za uporabo v Proizvodnji ali Vzdrževanju.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Processes and versions](https://www.youtube.com/watch?v=4svpFCm7rkk)**.

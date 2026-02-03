@@ -7,21 +7,25 @@ The transfer process lets you scan or search for materials, choose a destination
 > [!TIP]
 > For a full demonstration, see the **[Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI)** video tutorial.
 
-To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [navigation](../../Common/UI/Navigation.md).
+To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the inter warehouse document. |
 | **Document date** | Date when the transfer is registered. |
 | [**Source warehouse**](../Management/Warehouses.md) | Warehouse from which the materials will be removed. |
-| **[**Destination warehouse**](../Management/Warehouses.md)** | Warehouse where the materials will be received. |
+| [**Destination warehouse**](../Management/Warehouses.md) | Warehouse where the materials will be received. |
 | **Notes** | Additional remarks related to the document. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -31,6 +35,8 @@ To access Inter warehouse documents, go to **Logistics / Documents / Inter wareh
 | [**Source location**](../Management/Locations.md) | Storage location in the source warehouse. |
 | [**Destination location**](../Management/Locations.md) | Storage location where the material will be placed. |
 | **Quantity (pc)** | Quantity to be transferred. |
+
+</details>
 
 ## List of inter warehouse documents
 
@@ -78,7 +84,7 @@ Click the [**action button**](../../Common/UI/ActionButton.md) to create a new i
 6. Click **Save** on the top-left corner to save the transfer document.
 7. When the physical transfer is completed at the destination warehouse, open the draft and click **Publish** to confirm the stock movement.
 
-A newly created inter warehouse document appears in **Drafts**. Once published, it moves to **Committed** and stock is transferred immediately.---
+A newly created inter warehouse document appears in **Drafts**. Once published, it moves to **Committed** and stock is transferred immediately.
 
 ## Notes
 
@@ -108,5 +114,3 @@ If the draft still includes materials in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 Committed documents **cannot** be deleted.
-
----

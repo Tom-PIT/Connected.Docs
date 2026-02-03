@@ -8,7 +8,7 @@ Minimalne in maksimalne pragove nastavite v šifrantu **[Meje zaloge](../Upravlj
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pregled nadzorne plošče](https://www.youtube.com/watch?v=mEU18GmypkY)**.
 
-Za dostop do **Nadzorne plošče** pojdite na **Logistika / Nadzorna plošča** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Nadzorne plošče** pojdite na **Logistika / Nadzorna plošča** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Nadzorna plošča](../Images/Dashboard.png "Nadzorna plošča")
 
@@ -66,5 +66,3 @@ Iskalno polje na desni strani omogoča dodatno filtriranje prikazanih materialov
 
 > [!NOTE]
 > S klikom na material odprete njegov **[Pogled zaloge po materialu](Zaloga.md#pogled-zaloge-po-materialu)**.
-
----

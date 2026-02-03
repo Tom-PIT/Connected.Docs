@@ -5,7 +5,7 @@ Predstavljajo vstopno točko za **kurativno vzdrževanje**, saj omogočajo pregl
 prijavljenih težav in po potrebi neposredno ustvarjanje vzdrževalnega naloga.
 
 Za dostop do prijavljenih napak pojdite na **Vzdrževanje / Prijavljene napake** v
-[navigaciji](../../Skupno/UI/Navigacija.md).
+[**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Seznam prijavljenih napak
 

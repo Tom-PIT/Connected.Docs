@@ -7,14 +7,14 @@ Most production workers are automatically redirected to the Execution view upon 
 > [!TIP]
 > For a full demonstration, see the **[executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.
 
-To access this page manually, go to **Production / Execution** in the [navigation](../../Common/UI/Navigation.md).
+To access this page manually, go to **Production / Execution** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!NOTE]
 > - The screen usually shows any assigned production orders automatically when opened. If none appear, click **Select production orders** to choose one.
 >   
 >   ![Select production orders](../Images/ExecutionPageEmpty.png "Select a production order")
-> - If the production order list is empty, there are no available orders for the selected unit (not created yet or no active operations). Create orders in [Production orders](ProductionOrders.md) and ensure an operation is assigned to the chosen unit.
-> - If the organization unit list is empty, the code list is not defined yet. Define units in [Organization Units](../Management/OrganizationUnits.md).
+> - If the production order list is empty, there are no available orders for the selected unit (not created yet or no active operations). Create orders in [**Production orders**](ProductionOrders.md) and ensure an operation is assigned to the chosen unit.
+> - If the organization unit list is empty, the code list is not defined yet. Define units in [**Organization Units**](../Management/OrganizationUnits.md).
 
 ## Execution interface overview
 
@@ -24,7 +24,7 @@ The main execution screen shows key information for the current production order
 
 | No. | Description |
 |-----|-------------|
-| **1** | Logged-in user and **organization unit**. <br>• Click user image → logout <br>• Click organization unit → change it (see [Organization Units](../Management/OrganizationUnits.md)) |
+| **1** | Logged-in user and **organization unit**. <br>• Click user image → logout <br>• Click organization unit → change it (see [**Organization Units**](../Management/OrganizationUnits.md)) |
 | **2** | Operation control buttons: <br>• **Start** – begins the operation <br>• **Pause** – temporarily suspends work <br>• **Stop** – completes the operation |
 | **3** | Shortcuts: <br>• **Yellow bin** – record defective items <br>• **Orange triangle** – view open bottlenecks or issues |
 | **4** | Current production order |
@@ -116,27 +116,27 @@ The **Produced** option returns to the main execution screen where production it
 
 ### Consumed
 
-Record input consumption for the current operation. See [Consumed](Consumed.md) for a full, step-by-step guide and validations.
+Record input consumption for the current operation. See [**Consumed**](Consumed.md) for a full, step-by-step guide and validations.
 
 ### Loss
 
-Record defective or unusable items for the current operation. See [Loss](Loss.md) for a detailed guide.
+Record defective or unusable items for the current operation. See [**Loss**](Loss.md) for a detailed guide.
 
 ### Downtime
 
-Record interruptions during production. See [Downtime](Downtime.md) for a detailed guide.
+Record interruptions during production. See [**Downtime**](Downtime.md) for a detailed guide.
 
 ### Quality
 
-Review and repeat quality checklists as needed. See [Quality](Quality.md) for a detailed guide on checklist usage, status, and repetition.
+Review and repeat quality checklists as needed. See [**Quality**](Quality.md) for a detailed guide on checklist usage, status, and repetition.
 
 ### Effort
 
-Record working time for the operation. See [Effort](Effort.md) for detailed methods (automatic Start/Stop or manual entry) and editing tips.
+Record working time for the operation. See [**Effort**](Effort.md) for detailed methods (automatic Start/Stop or manual entry) and editing tips.
 
 ### Instructions
 
-View operation instructions linked to the current operation. See [Instructions](Instructions.md) for a detailed guide.
+View operation instructions linked to the current operation. See [**Instructions**](Instructions.md) for a detailed guide.
 
 ## Completion of execution
 
@@ -148,6 +148,4 @@ Once all production is completed:
 4. Click **Stop**
 
 The operation switches to **Finished**, and when all operations in the production order are finished, the **Production order** moves to the **Closed** status.
-
----
 

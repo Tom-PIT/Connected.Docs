@@ -4,9 +4,12 @@ The **Expenses** code list contains all costs that your organization wants to re
 
 This list helps maintain consistency by storing all expenses in one place, making them available for use across documents and operational workflows.
 
-To access this code list, go to **Supply / Management / Expenses** in the [navigation](../../Common/UI/Navigation.md).
+To access this code list, go to **Supply / Management / Expenses** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
+
+<details open>
+  <summary><strong>General</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -18,7 +21,10 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 | **Cost per unit (€)** | Cost of this subcontracted operation per unit. |
 | **Operations** | List of operations associated with this subcontractor cost. |
 
-### Operation fields (Add operation dialog)
+</details>
+
+<details>
+  <summary><strong>Operation</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -26,13 +32,30 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 | **Version** | Version of the selected process. |
 | **Operation** | Specific operation belonging to the selected process and version. |
 
+</details>
+
+<details>
+  <summary><strong>Ledger</strong></summary>
+
+| Field | Description |
+|-------|-------------|
+| [**Account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Ledger account used for postings generated from this expense. |
+| **Tax entry type** | Tax handling classification for the expense (e.g., Stock, Standard expense, Real estate). |
+| **Asset type** | Nature of the purchase used for reporting (e.g., Goods, Services). |
+| **Deduct tax** | Indicates whether input tax is deductible for this expense (checkbox). |
+| **Self taxing** | Indicates whether reverse charge/self-taxing applies (checkbox). |
+
+</details>
+
+
+
 ## Management
 
 ### List of expenses
 
 The list displays all defined expenses along with their tax rate.
 
-![Expenses list](../Images/ExpensesList.png "Expenses list")
+![Expenses list](../Images/ExpensesListV2.png "Expenses list")
 
 Each record includes a status indicator to the left of its name:  
 - **Blue** indicates the expense is **enabled**  
@@ -49,14 +72,21 @@ These filters control whether the list shows active or inactive expense entries.
 
 ## Actions
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to create a new expense. The input form includes fields such as:
+Click the [**action button**](../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
 
-- Code  
-- Name  
-- Tax rate  
-- Enabled  
+- Add new expense
+- Ledger
+- Subcontractor cost
 
-![New expense](../Images/ExpensesNew.png "New expense")
+![New expense](../Images/ExpensesNewV2.png "New expense")
+
+### Add new expense
+
+Enter the following information:
+- **Code**
+- **Name**
+- **Tax rate**
+- **Enabled**
 
 #### Subcontractor cost
 
@@ -72,6 +102,10 @@ Click **Add operation** to open the operation selection dialog.
 ![Add operation](../Images/ExpensesAddOperation.png "Add operation")
 
 After entering the information, click **Add** to save the record or **Cancel** to return to the list.
+
+#### Ledger
+
+In this section we assign the expense to the appropriate ledger account. See [**Chart of Accounts**](../../Accounting/Management/Ledger/ChartOfAccounts.md).
 
 ## Editing
 
@@ -92,6 +126,4 @@ Deletion is allowed only if the expense is not referenced in dependent records.
 
 > [!NOTE]  
 > Disabled expenses remain in the system but cannot be selected in new documents.
-
----
 

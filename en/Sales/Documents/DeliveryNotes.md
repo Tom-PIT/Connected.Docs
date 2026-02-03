@@ -4,7 +4,7 @@ A **Delivery note** is a logistics document that accompanies goods during delive
 
 A delivery note does **not** represent a financial document—it is primarily operational. Once items are delivered, a delivery note typically leads to the creation of an **Issue** (warehouse output), and later to an **Issued invoice**.
 
-To access this page, go to **Sales / Documents / Delivery notes** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Delivery notes** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How delivery notes fit into the sales workflow
 
@@ -19,6 +19,9 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the delivery note. |
@@ -27,17 +30,29 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 | **Delivery date** | Date when the delivery is planned to occur (mandatory). |
 | **Delivery – Company / Address** | Customer delivery details taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
 | **Content top** | Optional predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
-| **Details** | This section lists all items included in the delivery (mandatory). | 
 | **Content bottom** | Optional closing or legal text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
+</details>
 
+<details>
+  <summary><strong>Transport and Delivery</strong></summary>
 
-### Details
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
 | **[Asset](../../Assets/Assets/Assets.md)** | Item or service being delivered. |
 | **Delivery date** | Delivery date for this specific item. |
 | **Issued quantity** | Shows how many units have already been issued (e.g., *0/3* before issue, *3/3* after full issue). |
+</details>
 
 ## Management
 
@@ -98,6 +113,8 @@ Click on an Delivery note to edit its details. The document is divided into expa
 - Attachments
 - Linked documents
 - Document
+- Alternative currency
+- Transport
 - Delivery
 - Content top
 - Details
@@ -135,6 +152,22 @@ Available actions of delivery notes in the **available** status include:
 - **[Issue](../../Logistics/Documents/Issues.md)** – Link an existing issue
 
 
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+#### Transport
+
+The Transport section defines how goods are delivered to the customer and under which delivery conditions. 
+
+![Sales order – Transport section](../Images/SalesTransportSection.png)
+
+The information entered here is used for logistics coordination, customer communication, and printed sales documents.
+
 ### Completing a Delivery note
 
 Once the delivery note is ready, click **Complete** at the top of the page.
@@ -171,6 +204,4 @@ If confirmed, the document is permanently removed.
 > [!NOTE]  
 > - A delivery note cannot be deleted if it is referenced by dependent documents (Issues, Invoices, Production orders, etc.).
 > - Completed documents **cannot** be deleted — only reversed or returned to draft.
-
----
 

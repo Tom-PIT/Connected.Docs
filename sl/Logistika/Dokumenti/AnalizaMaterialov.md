@@ -8,7 +8,7 @@ Dokumenti **Analiza materialov** prikazujejo materiale, ki so bili prevzeti in z
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Analiza materialov](https://www.youtube.com/watch?v=aJhceUVcusw)**.
 
-Za dostop do **Analize materialov** pojdite na **Logistika / Dokumenti / Analiza materialov** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Analize materialov** pojdite na **Logistika / Dokumenti / Analiza materialov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -51,5 +51,3 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
 ## Brisanje
 
 Dokumentov analize materialov **ni mogoče izbrisati**.
-
----

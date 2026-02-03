@@ -2,7 +2,7 @@
 
 Materials represent the operational items your organization uses in logistics, production, stock management, or assembly processes. They include finished products, partially produced items, raw inputs, and reusable components. Additional code lists help define packaging, measurement units, and bulk import functions.
 
-To access Materials, go to **Assets / Materials** in the [navigation](../../Common/UI/Navigation.md).
+To access Materials, go to **Assets / Materials** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Assets domain overview](../Images/MaterialsSitemap.png "Assets domain overview")
 
@@ -26,5 +26,3 @@ These code lists support the management and definition of the four primary mater
 - **[Alternative measure units](../Materials/AlternativeMeasureUnits.md)** – Additional measurement units that extend a material’s base unit (e.g., pieces, kilograms, square meters), including conversion settings.
 - **[Material price lists](../Materials/MaterialPriceLists.md)** – Defines procurement prices used for purchasing and internal valuation.
 - **[Sets](../Materials/Sets.md)** – Predefined bundles of materials grouped together for easier selection in logistics or production tasks.
-
----

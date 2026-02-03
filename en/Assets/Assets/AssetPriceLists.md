@@ -2,7 +2,7 @@
 
 **Asset price lists** define how much a specific customer (or other business entity) pays for your [assets](Assets.md).  They allow you to set **customer-specific pricing**, valid for a defined date range, and optionally include **volume-based discounts** (price ranges).
 
-To access this screen, go to **Assets / Asset price lists** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Assets / Asset price lists** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -109,8 +109,6 @@ If the draft still includes assets in the **Details** section:
 4. Repeat this for all remaining assets.
 
 Once the document contains no assets, you can click **Delete** to remove the price list.
-
-----
 
 
 

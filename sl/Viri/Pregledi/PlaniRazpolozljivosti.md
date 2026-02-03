@@ -3,7 +3,7 @@
 **Plani razpoložljivosti** omogočajo koledarski pregled, kdaj so viri na voljo ali nedosegljivi za delo.  
 Običajno se uporabljajo za beleženje planiranih odsotnosti, usposabljanj ali drugih obdobij, ki vplivajo na razpoložljivost virov.
 
-Za dostop do **Planov razpoložljivosti** pojdite na **Viri / Pogledi / Plani razpoložljivosti** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Planov razpoložljivosti** pojdite na **Viri / Pogledi / Plani razpoložljivosti** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

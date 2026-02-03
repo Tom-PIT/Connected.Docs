@@ -2,7 +2,7 @@
 
 An **Overdue reminder** is a sales document used to notify customers about unpaid invoices and request payment, optionally including reminder costs and interest.
 
-To access this page, go to **Sales / Documents / Overdue reminders** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Overdue reminders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How overdue reminders fit into the sales workflow
 
@@ -82,5 +82,3 @@ The top menu provides options for:
 Draft documents can be deleted on the edit screen.
 
 Committed overdue reminders **cannot** be deleted.
-
----

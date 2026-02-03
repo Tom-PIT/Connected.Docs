@@ -3,7 +3,7 @@
 The **Organization bank accounts** code list stores the IBAN accounts used by your company for issuing invoices, receiving payments, and other financial processes. This screen allows you to view, add, enable, or disable the IBAN accounts used by your organization.
  Each entry defines a bank, its IBAN number, and whether it is active or formatted using the IBAN mask.
 
-To access Organization bank accounts, go to **Sales / Management / Organization bank accounts** in the [navigation](../../Common/UI/Navigation.md).
+To access Organization bank accounts, go to **Sales / Management / Organization bank accounts** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -54,6 +54,4 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 
 > [!NOTE]
 >A bank account can be deleted only if it is not referenced by other system entities.  
-
----
 

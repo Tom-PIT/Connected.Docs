@@ -7,7 +7,7 @@ You can access the **[Stock view by material](#stock-view-by-material)**, **[Sto
 > [!TIP]
 > For a full demonstration, see the **[Stock overview](https://www.youtube.com/watch?v=gjAKnavIWnY)** video tutorial.
 
-To access Stock, go to **Logistics / Stock** in the [navigation](../../Common/UI/Navigation.md).
+To access Stock, go to **Logistics / Stock** in the [**navigation**](../../Common/UI/Navigation.md).
 
 
 
@@ -54,8 +54,6 @@ Each row shows:
 Click any material to open the detailed stock view.
 
 ## Stock View by Material
-
-## Stock view by material
 
 Clicking a **material name** opens a detailed breakdown of where the material is stored, including available, reserved, and blocked quantities across all [locations](../Management/Locations.md). You can also open the **[Stock view by serial number](#stock-view-by-serial-number)** to explore individual batches or units.
 
@@ -108,7 +106,5 @@ This view shows:
 - **Backlog** – a timeline of all movements and transactions involving this serial number.
 
 The **Stock view by serial number** screen is read-only and is used for detailed tracking and traceability of a specific serial number.
-
----
 
 

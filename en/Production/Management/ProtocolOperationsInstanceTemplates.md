@@ -1,8 +1,8 @@
-﻿# Protocol operation instance templates
+# Protocol operation instance templates
 
 Protocol operation instance templates define reusable operation blueprints that can be quickly inserted into processes. They help standardize naming, descriptions, time-calculation behavior, tags, and other operation attributes across the system for both **Production** and **Maintenance** workflows (e.g., assembly step, inspection, calibration).
 
-To access this page, go to **Production / Management / Protocol operation instance templates** in the [navigation](../../Common/UI/Navigation.md). Templates are shared and can be used when building operations in process versions.
+To access this page, go to **Production / Management / Protocol operation instance templates** in the [**navigation**](../../Common/UI/Navigation.md). Templates are shared and can be used when building operations in process versions.
 
 > [!TIP]
 > For a full demonstration, see the **[Operation templates](https://www.youtube.com/watch?v=Cm8RYdO0f6E)** video tutorial.
@@ -87,6 +87,4 @@ You can still modify any field before saving the operation.
 ## Deletion
 
 Use the **Delete** option inside the template edit page.
-
----
 

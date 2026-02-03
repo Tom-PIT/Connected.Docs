@@ -1,4 +1,4 @@
-﻿# Effort
+# Effort
 
 The **Effort** activity records working time spent on an operation. Use it to track operator time either automatically (Start/Stop) or manually (entering times or duration).
 
@@ -43,6 +43,4 @@ Recorded efforts appear in a list below the form.
 
 > [!NOTE]
 > The **Stop** button inside the Effort page finishes the effort’s time tracking only; it does not finish the [execution](Execution.md).
-
----
 

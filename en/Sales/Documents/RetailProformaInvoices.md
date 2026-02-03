@@ -24,6 +24,9 @@ Retail proforma invoices **do not affect inventory**.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the document. |
@@ -38,11 +41,25 @@ Retail proforma invoices **do not affect inventory**.
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional cost allocation. |
 | **Purpose code** | Optional purpose classification. |
 | **Rebate** | Overall rebate applied to the document. |
-| **Delivery** | Delivery company and address information. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+</details>
 
-### Detail fields
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -51,6 +68,7 @@ Retail proforma invoices **do not affect inventory**.
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |
 | **Value** | Calculated net, tax, and gross totals. |
+</details>
 
 ## Management
 
@@ -170,9 +188,7 @@ To adjust inventory:
 
 ## Deletion
 
-- Draft documents can be deleted **only if they contain no details**.
-- Published documents cannot be deleted.
-- Published documents can be **reversed** or **returned to draft** (if allowed by system settings).
+Draft documents can be deleted in the edit view, **only if they contain no details**.
 
----
+Published documents cannot be deleted but they can be **reversed** or **returned to draft** (if allowed by system settings).
 

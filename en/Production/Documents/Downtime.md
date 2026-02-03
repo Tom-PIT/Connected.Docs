@@ -35,5 +35,3 @@ Downtime entries feed several analytics pages:
 
 Consistent tagging improves the accuracy of KPIs.
 
----
-

@@ -2,7 +2,7 @@
 
 Define **hourly cost rates for resources** (human and non-human). These costs are used to calculate production/operational costs and to evaluate the cost of performed work.
 
-To access this page, go to **Resources / Management / Resources costs** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Resources / Management / Resources costs** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -60,6 +60,4 @@ Use the [**action button**](../../Common/UI/ActionButton.md) to add a new cost e
 ## Deletion
 
 Costs can be removed by clicking **Delete** on the edit view.
-
----
 

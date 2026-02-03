@@ -1,4 +1,4 @@
-﻿# Execution – Quick User Guide
+# Execution – Quick User Guide
 
 This guide shows the **essential steps** to perform production using the Execution screen.
 
@@ -116,6 +116,4 @@ When all production work is completed:
 3. Tap **Stop** to finish the operation.
 
 ![Execution controls](../Images/ExecutionTopStop.png "Stop to finish the operation")
-
----
 

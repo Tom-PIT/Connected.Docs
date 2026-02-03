@@ -1,8 +1,8 @@
-﻿# Delivery note reports
+# Delivery note reports
 
 The **Delivery note reports** view provides a consolidated overview of delivered items, grouped by customer. It is designed for analysis and reporting purposes and does **not** create or modify documents.
 
-To access this page, go to **Sales / Views / Delivery note reports**.
+To access this page, go to **Sales / Views / Delivery note reports** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ### Purpose of this view
 
@@ -51,12 +51,9 @@ Filters can be combined to focus on very specific delivery scenarios.
 
 All amounts are calculated based on the [**Delivery notes**](../Documents/DeliveryNotes.md) included by the selected filters.
 
-## Notes
+> [!NOTE]
+> - Only **committed delivery notes** are included in this report.
+>- Draft or reversed delivery notes are not shown.
+> - The view is intended for **analysis only** and does not support actions such as editing, reversing, or creating documents.
 
-- Only **committed delivery notes** are included in this report.
-- Draft or reversed delivery notes are not shown.
-- The view is intended for **analysis only** and does not support actions such as editing, reversing, or creating documents.
-
-For detailed document-level information, open the related [**Delivery notes**](../Documents/DeliveryNotes.md) directly from the **Sales / Documents / Delivery notes** section.
-
----
+For detailed document-level information, open the related [delivery notes](../Documents/DeliveryNotes.md) directly from the **Sales / Documents / Delivery notes** section.

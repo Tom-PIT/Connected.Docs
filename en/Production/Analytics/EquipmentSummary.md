@@ -2,7 +2,7 @@
 
 The Equipment summary page provides an overview of machine performance, including downtime, production output, quality, and OEE (Overall Equipment Effectiveness). It helps supervisors and managers understand how each machine is performing over time.
 
-To access this page, go to **Production / Analytics / Equipment summary** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Equipment summary** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Equipment summary](../Images/EquipmentSummaryView2.png "Equipment summary")
 
@@ -55,6 +55,4 @@ Shows production progress for the current operation:
 - **Percentage completed**
 
 This section helps monitor both productivity and product quality for the selected equipment.
-
----
 

@@ -119,5 +119,3 @@ Example — **Sales / Management**:
 
 Management pages are typically maintained by administrators or users responsible for system configuration.
 
----
-

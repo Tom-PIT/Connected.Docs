@@ -3,7 +3,7 @@
 Dnevnice določajo **dnevne zneske**, ki se izplačujejo zaposlenim ob službenih poteh.
 Najpogosteje se uporabljajo v dokumentih [**Potni nalogi**](../Dokumenti/PotniNalogi.md) za samodejni izračun prehranskih in drugih dnevnih nadomestil glede na destinacijo.
 
-Za dostop do **Dnevnic** pojdite na **Viri / Upravljanje / Dnevnice** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Dnevnic** pojdite na **Viri / Upravljanje / Dnevnice** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

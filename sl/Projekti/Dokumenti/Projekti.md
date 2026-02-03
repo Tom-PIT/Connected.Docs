@@ -5,7 +5,7 @@ Področje **Projekti** omogoča pregled vseh aktivnih in zaključenih projektov 
 Projekti se ustvarjajo in konfigurirajo v dokumentu **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)**.  
 Ta razdelek je namenjen **delu z obstoječimi projekti**: spremljanju statusa, pregledu opravil in sodelovanju med izvajanjem.
 
-Za dostop do projektov pojdite na **Projekti / Projekti** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do projektov pojdite na **Projekti / Projekti** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Pregled projektov
 

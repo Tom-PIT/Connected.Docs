@@ -4,11 +4,12 @@ Dokument **Proizvodnja** beleži postavke, ki so bile proizvedene med izvajanjem
 
 Za vnos proizvedenih količin na proizvodni strani glejte **[Izvajanje](../../Proizvodnja/Dokumenti/Izvedba.md)** (Izhodi). Izhodi so tesno povezani s to stranjo: beleženje proizvedenih postavk v proizvodnji ustvari ustrezen dokument proizvodnje v logistiki. Za določanje izhodov v procesih glejte **[Izhodi](../../Proizvodnja/Upravljanje/Izhodi.md)**.
 
-Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -16,12 +17,17 @@ Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** 
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem so bile knjižene proizvedene postavke. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Proizvedena postavka (najpogosteje [izdelek](../../Sredstva/Materiali/Izdelki.md) ali [polizdelek](../../Sredstva/Materiali/Polizdelki.md)). |
 | **Količina** | Zabeležena proizvedena količina za posamezno postavko. |
+
+</details>
 
 ## Seznam dokumentov proizvodnje
 
@@ -72,5 +78,3 @@ S tem se ustvari dokument storna, ki izniči zalogovni in (odvisno od konfigurac
 ## Brisanje
 
 Dokumentov proizvodnje **ni mogoče izbrisati** iz sistema, saj je potrebno zagotoviti sledljivost proizvedenih postavk. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.
-
----

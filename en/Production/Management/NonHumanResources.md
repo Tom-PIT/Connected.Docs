@@ -51,5 +51,3 @@ Use the **Search** bar to filter by resource name.
 
 A non-human resource entry can be deleted from its Edit page by clicking **Delete**. If confirmed, it is removed from the operation.
 
----
-

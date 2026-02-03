@@ -5,7 +5,7 @@ The **Projects** area provides an overview of ongoing and completed projects and
 Projects are created and configured in **[Project management](../Management/ProjectsManagement.md)**.  
 This section focuses on **working with existing projects**: monitoring status, viewing tasks, and collaborating during execution.
 
-To access projects, go to **Projects / Projects** in the [navigation](../../Common/UI/Navigation.md).
+To access projects, go to **Projects / Projects** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Projects overview
 
@@ -134,5 +134,3 @@ The project status reflects overall progress and is managed from **[Project mana
 
 - **[Tasks](Tasks.md)** — Managing tasks within projects   
 - **[Project management](../Management/ProjectsManagement.md)** — Creating and configuring projects  
-
----

@@ -4,7 +4,7 @@ Področje **Logistika** pokriva vse skladiščne in logistične operacije znotra
 
 Medtem ko področje **[Materiali](../../Sredstva/Domena/Materiali.md)** določa, *kaj* obstaja na zalogi, področje Logistike določa, *kje je material shranjen*, *kako se premika* in *kako se nadzira*.
 
-Za dostop do tega področja pojdite na **Logistika** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega področja pojdite na **Logistika** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Področje logistike](../Images/LogisticsSitemap.png "Področje logistike")
 
@@ -140,5 +140,3 @@ Področje Logistika predstavlja operativno središče upravljanja zaloge. Zagota
 - transparentno poročanje  
 
 Povezuje fizično ravnanje z blagom z digitalnimi procesi prodaje, proizvodnje, nabave in vzdrževanja.
-
----

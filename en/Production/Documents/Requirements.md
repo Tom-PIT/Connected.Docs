@@ -1,11 +1,11 @@
-﻿# Requirements
+# Requirements
 
 The **Requirements** page provides an overview of all materials needed for planned production operations within a selected time window. It helps planners understand whether enough stock is available and quickly create purchase orders when shortages appear.
 
 > [!TIP]  
 > For a full demonstration, see the **[Requirements](https://www.youtube.com/watch?v=eK7ui-ak7J0)** video tutorial.
 
-To access this page, go to **Production / Requirements** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Requirements** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -63,6 +63,4 @@ The Requirements page helps planners:
 - Compare **required vs. available** quantities  
 - Drill into **which operations** consume each material  
 - Quickly create **supply orders** when stock is insufficient  
-
----
 

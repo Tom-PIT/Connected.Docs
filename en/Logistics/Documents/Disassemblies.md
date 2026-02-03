@@ -11,7 +11,7 @@ Use a Disassembly when you receive or store sets (bundled materials) but need to
 > - Disassembly affects inventory on publish: parts become available and the set quantity decreases accordingly.
 > - In order to create a disassembly, we need to first define a set structure in the **[Sets](../../Assets/Materials/Sets.md)** code list.
 
-To access **Disassemblies**, go to **Logistics / Documents / Disassemblies** in the [navigation](../../Common/UI/Navigation.md).
+To access **Disassemblies**, go to **Logistics / Documents / Disassemblies** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ### Example scenario
 
@@ -20,6 +20,9 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | Auto-generated document code. |
@@ -27,19 +30,24 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where disassembly occurs (mandatory). |
 | **Details** | List of sets to be disassembled (mandatory). |
 
-### Details
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
-| **Set (material)** | The combined material (e.g., a furniture set) you are disassembling (required). See [Sets](../../Assets/Materials/Sets.md). |
+| **[Set](../../Assets/Materials/Sets.md) (material)** | The combined material (e.g., a furniture set) you are disassembling (required). |
 | **Quantity** | How many sets to disassemble (required). |
 | **Serial number** | Item serial number, if applicable. |
 | **Best before** | Best before date for perishable sets/components, if applicable. |
 | **Warehouse location** | Bin/shelf used during disassembly or where parts are placed. See [Locations](../Management/Locations.md). |
 
+</details>
+
 ## Management
 
-## List view and filters
+### List view
 
 The Disassemblies list shows existing documents with status indicators (Draft/Published). A search bar and filters help locate records by warehouse, date, or code.
 

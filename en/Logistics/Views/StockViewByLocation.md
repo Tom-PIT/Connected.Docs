@@ -7,7 +7,7 @@ You can navigate to related views—such as the **[Stock view by material](../Do
 > [!TIP]
 > For a full demonstration, see the **[Stock view by location](https://www.youtube.com/watch?v=_3bZBZ89hds)** video tutorial.
 
-To access this view, go to **Logistics / Views / Stock view by location** in the [navigation](../../Common/UI/Navigation.md), or click any **location name** from stock-related screens such as **Stock view by material**.
+To access this view, go to **Logistics / Views / Stock view by location** in the [**navigation**](../../Common/UI/Navigation.md), or click any **location name** from stock-related screens such as **Stock view by material**.
 
 ## Overview
 
@@ -72,8 +72,5 @@ You can also open this view by clicking a **location name** in other stock-relat
 Example from Stock view by material:
 
 ![StockByLocationLink](../Images/StockByLocationLink.png)
-
-
----
 
 

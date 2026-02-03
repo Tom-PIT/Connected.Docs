@@ -1,4 +1,4 @@
-﻿# Packaging
+# Packaging
 
 Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. It applies to:
 
@@ -10,7 +10,7 @@ Packaging defines how a material is packaged, including quantity, weight, dimens
 > [!TIP]
 > For a full demonstration, see the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video tutorial.
 
-To access packaging configuration, go to: **Assets / Materials / Packaging** in the [navigation](../../Common/UI/Navigation.md).
+To access packaging configuration, go to: **Assets / Materials / Packaging** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -101,5 +101,3 @@ If confirmed, the packaging is permanently removed; otherwise, the system keeps 
 
 > [!NOTE]
 >A packaging record can be deleted only if it is not referenced by other system entities.
-
----

@@ -2,7 +2,7 @@
 
 Competence matrixes are used to define, structure, and track employee competences across the organization. They allow you to model skills hierarchically, assign proficiency levels (layers), and link users to specific competences.
 
-To access **Competence matrixes**, go to **Resources / Management / Competence matrixes** in the [navigation](../../Common/UI/Navigation.md).
+To access **Competence matrixes**, go to **Resources / Management / Competence matrixes** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -107,5 +107,3 @@ Deleted competences:
 
 > [!WARNING]
 > Use deletion carefully, especially when competences are already assigned to users.
-
----

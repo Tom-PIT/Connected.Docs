@@ -13,11 +13,13 @@ The receive process captures key information such as the material, [packaging](.
 > [!TIP]
 > For a full demonstration, see the [**Receive**](https://www.youtube.com/watch?v=oTOYD-nlCqE) video tutorial.
 
-To access Receives, go to **Logistics / Documents / Receives** in the [navigation](../../Common/UI/Navigation.md).
+To access Receives, go to **Logistics / Documents / Receives** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
+
 
 | Field | Description |
 |-------|-------------|
@@ -28,7 +30,11 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 | [**Supply order**](../../Supply/Documents/SupplyOrders.md) | (Optional) Linked supply order. |
 | **Notes** | Additional remarks related to the document. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
+
 
 | Field | Description |
 |-------|-------------|
@@ -43,6 +49,31 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 | **Quantity in base unit (pc)** | Quantity expressed in the material’s base measurement unit. |
 | **Received quantity (pc)** | Quantity actually received. |
 | **Number of packets** | Number of packages received. |
+
+</details>
+
+<details>
+  <summary><strong>Transport</strong></summary>
+
+
+| Field | Description |
+|------|-------------|
+| [**Delivery term**](../../Common/Management/DeliveryTerms.md) | Delivery conditions agreed with the supplier (for example, costs and freight). |
+| [**Mode of transport**](../../Common/Management/ModeOfTransport.md) | Transport method used to deliver the goods (for example, road transport). |
+
+</details>
+
+<details>
+  <summary><strong>Intrastat</strong></summary>
+
+
+| Field | Description |
+|------|-------------|
+| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
+| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+
+</details>
 
 ## List of receive documents
 
@@ -105,6 +136,19 @@ For receive documents, a **Disassemble** option may appear. This allows you to c
 
 For more details, see the [Disassemblies](Disassemblies.md) documentation.
 
+## Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+
+![Transport and Intrastat sections](../Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+
+> [!NOTE]  
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ## Notes
 
@@ -154,5 +198,3 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]
 > Committed documents **cannot** be deleted — only [reversed](Reversals.md).
-
----
