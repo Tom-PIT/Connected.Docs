@@ -14,11 +14,29 @@ To access this screen, go to **Accounting / Ledger / Management / Journal entry 
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field         | Description                                                                                                         |
 | ------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **Document type** | Document type assigned to the journal entry template. Determines how the journal entry is classified in the ledger. |
 | **Code**          | Technical identifier of the journal entry template.                                                                 |
 | **Name**          | Human-readable name describing the purpose of the template.                                                         |
+
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
+
+| Field             | Description                                                                             |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| Code              | Technical identifier of the journal entry template line.                                |
+| Account           | Account from the [**Chart of accounts**](ChartOfAccounts.md) used on this journal line. |
+| Posting direction | Indicates whether the line posts a debit or a credit.                                   |
+| Ordinal           | Order in which the line appears in the journal entry.                                   |
+| Description       | Default description used for the journal entry line.                                    |
+
+</details>
 
 ## List view
 
@@ -63,16 +81,6 @@ Each journal entry template can contain one or more **template details**, which 
 To manage template details, click **Details** on a journal entry template.
 
 ![Journal entry template details button](../../Images/JournalEntryTemplatesDetailsButton.png "Journal entry template details button")
-
-### Template details schema
-
-| Field             | Description                                                                             |
-| ----------------- | --------------------------------------------------------------------------------------- |
-| Code              | Technical identifier of the journal entry template line.                                |
-| Account           | Account from the [**Chart of accounts**](ChartOfAccounts.md) used on this journal line. |
-| Posting direction | Indicates whether the line posts a debit or a credit.                                   |
-| Ordinal           | Order in which the line appears in the journal entry.                                   |
-| Description       | Default description used for the journal entry line.                                    |
 
 ### Template details list view
 

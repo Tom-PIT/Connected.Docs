@@ -89,7 +89,7 @@ Click **Save** to apply changes or **Cancel** to discard them.
 
 ## Deletion rules
 
-An account can be deleted only if it is **not referenced** by:
+An account can be deleted on the edit screen by clicking the **Delete** button. It can be deleted only if it is **not referenced** by:
 
 * Journal entries
 * Documents (e.g. invoices, inventory movements)

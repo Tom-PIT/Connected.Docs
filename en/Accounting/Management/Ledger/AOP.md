@@ -2,7 +2,7 @@
 
 The **AOP** screen displays a predefined list of statutory reporting positions used for financial statements and regulatory reporting.
 
-To access this screen, go to **Accounting / Ledger / Management / AOP** in the [navigation](../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / AOP** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![AOP list](../../Images/AOPList.png)
 
