@@ -113,5 +113,3 @@ Na zaslonu za urejanje kliknite **Izbriši**, da odprete potrditveno okno:
 
 > [!NOTE]
 > Zapis materiala dobavitelja je mogoče izbrisati samo, če nanj ne kažejo drugi zapisi.
-
----

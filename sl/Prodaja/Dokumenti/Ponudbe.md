@@ -203,5 +203,3 @@ Potrjenih dokumentov **ni mogoče** izbrisati.
 
 > [!NOTE]
 > Ponudbo je mogoče izbrisati le, če ni povezana z drugim odvisnim dokumentom (npr. prodajnim nalogom).
-
----

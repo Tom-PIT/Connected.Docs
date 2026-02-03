@@ -57,5 +57,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]
 > Skladišče je mogoče izbrisati le, če ni uporabljeno v odvisnih zapisih, kot so zalogovne transakcije ali premiki materialov.
-
----

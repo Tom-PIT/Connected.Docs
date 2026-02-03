@@ -77,5 +77,3 @@ Po kliku na **Konec**:
 - dobavni nalog se posodobi s prevzetimi količinami  
 
 Za naprednejše postopke prevzema (serijske številke, rok uporabe, pakiranje, priloge, storna itd.) glejte dokumentacijo [**Prevzemi**](Prevzemi.md).
-
----

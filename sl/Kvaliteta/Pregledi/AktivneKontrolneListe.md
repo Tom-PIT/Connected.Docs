@@ -63,5 +63,3 @@ Tipična postavitev vključuje seznam kontrolnih točk z zahtevanimi vnosi (potr
 
 - Tukaj so prikazani samo kontrolni seznami, ki so trenutno v teku; zaključeni elementi so na voljo v pogledu Zaključeni kontrolni seznami.
 - Osveževanje podatkov poteka samodejno v rednih intervalih ali ob ročni osvežitvi.
-
----

@@ -116,5 +116,3 @@ Področje Nabava je povezano z drugimi operativnimi področji:
 Področje Nabava upravlja vse nabavne aktivnosti ter zagotavlja pravočasno obnovo zalog in učinkovito sodelovanje z dobavitelji.
 
 Podpira povpraševanje, naročanje, planiranje in analizo ter se tesno povezuje z logistiko, financami, proizvodnjo in upravljanjem materialov.
-
----

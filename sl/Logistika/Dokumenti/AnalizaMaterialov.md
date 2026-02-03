@@ -51,5 +51,3 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
 ## Brisanje
 
 Dokumentov analize materialov **ni mogoče izbrisati**.
-
----

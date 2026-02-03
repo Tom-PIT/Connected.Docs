@@ -249,5 +249,3 @@ Ko dokument ne vsebuje več postavk, kliknite **Izbriši** za trajno odstranitev
 > - Izbris je mogoč samo za nabavne naloge v stanju **Osnutek**.  
 > - Objavljenih dokumentov ni mogoče izbrisati.  
 > - Objavljeni dokumenti se lahko **[stornirajo](../../Logistika/Dokumenti/Storno.md)**.
-
----

@@ -156,5 +156,3 @@ Povpraševanja je mogoče izbrisati na zaslonu za urejanje. Za brisanje odprite 
 
 > [!NOTE]
 > Izbrisati je mogoče samo povpraševanja v stanju **Osnutek**.
-
----

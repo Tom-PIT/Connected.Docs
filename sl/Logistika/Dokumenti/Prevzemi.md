@@ -159,5 +159,3 @@ Ko dokument ne vsebuje več nobene postavke, lahko kliknete **Izbriši**, da ods
 
 > [!NOTE]
 > Objavljenih dokumentov **ni mogoče izbrisati** — mogoče jih je samo **stornirati**.
-
----

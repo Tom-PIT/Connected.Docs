@@ -50,5 +50,3 @@ Po potrditvi:
 - lokacija vsebnika se spremeni na ciljno,
 - vse postavke znotraj vsebnika so v pregledih zaloge prikazane na končni lokaciji,
 - vse podrobnosti premika si lahko ogledate na strani **[Med-skladiščni promet](MedSkladiscniPromet.md)**.
-
----

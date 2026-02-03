@@ -200,5 +200,3 @@ Ko dokument ne vsebuje več postavk, ga lahko izbrišete. Ob potrditvi se dokume
 > [!NOTE]  
 > - Dobavnice ni mogoče izbrisati, če je uporabljena v odvisnih dokumentih (Izdaje, Računi, Proizvodni nalogi itd.).  
 > - Zaključenih dokumentov **ni mogoče** izbrisati – mogoče jih je le stornirati ali vrniti v osnutek.
-
----

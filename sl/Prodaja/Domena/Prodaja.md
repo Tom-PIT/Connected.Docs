@@ -123,5 +123,3 @@ Področje Prodaja je tesno povezano z drugimi operativnimi področji:
 
 Področje Prodaja upravlja vse komercialne aktivnosti s strankami ter zagotavlja celovit potek od ponudbe do računa.  
 Nudi orodja za ustvarjanje, sledenje in analizo prodajnih dokumentov ter se tesno povezuje z logistiko, nabavo, sredstvi in financami.
-
----

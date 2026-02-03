@@ -31,5 +31,3 @@ Domena je strukturirana v dve funkcionalni področji:
   - [**Zaključene kontrolne liste**](../Pregledi/ZakljuceneKontrolneListe.md) — pregled zaključenih kontrolnih listov z rezultati, časovnimi žigi, odgovornimi uporabniki in morebitnimi zabeleženimi neskladnostmi. Podpira filtriranje (časovna obdobja, procesi, organizacijske enote, rezultati) in izvoz za potrebe revizij.
 
 ![Pogledi domene Kvaliteta](../Images/QualityDomainViews.png "Pogledi domene Kvaliteta")
-
----

@@ -75,5 +75,3 @@ Ta pogled lahko odprete tudi s klikom na **ime lokacije** na drugih zaslonih, po
 Primer iz pogleda **Pogled zaloge po materialu**:
 
 ![StockByLocationLink](../Images/StockByLocationLink.png)
-
----

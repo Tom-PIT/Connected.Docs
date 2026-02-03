@@ -105,5 +105,3 @@ Ko dokument ne vsebuje več nobenih postavk, ga lahko izbrišete.
 
 > [!NOTE]
 > Objavljenih dokumentov **ni mogoče izbrisati** — mogoče jih je samo **stornirati**.
-
----

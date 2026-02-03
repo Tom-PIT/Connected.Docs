@@ -74,5 +74,3 @@ Po zaključku:
 **Primer zabeleženega premika:**
 
 ![Zabeležen premik](../Images/MoveSerialInterWarehouseRecord.png)
-
----

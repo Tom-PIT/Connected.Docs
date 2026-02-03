@@ -243,5 +243,3 @@ Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
 > [!NOTE]
 > - Izbrisati je mogoče samo **osnutke**.  
 > - Po objavi naročila stranke ni več mogoče izbrisati; uporabite **Vrni v osnutek**.
-
----

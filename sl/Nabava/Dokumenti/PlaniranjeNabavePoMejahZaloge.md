@@ -87,5 +87,3 @@ Sistem vas nato preusmeri na nov **nabavni nalog** ali **povpraševanje**, kjer 
 - boljše usklajevanje odločitev o nabavi na podlagi dejanskega stanja zaloge in obstoječih naročil  
 
 Ta pogled je posebej uporaben za planerje in nabavne ekipe, ki upravljajo več dobaviteljev in širok nabor materialov.
-
----
