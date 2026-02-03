@@ -1,4 +1,4 @@
-﻿# Supply orders report
+# Supply orders report
 
 The **Supply orders report** view provides a consolidated overview of ordered materials and services, grouped by supplier. It is designed for analysis and reporting purposes and does **not** create or modify documents.
 
@@ -58,5 +58,3 @@ All amounts are calculated based on the [**Supply orders**](../Documents/SupplyO
 - The view is intended for **analysis only** and does not support actions such as editing, reversing, or creating documents.
 
 For detailed document-level information, open the related [**Supply orders**](../Documents/SupplyOrders.md) directly from the **Supply / Documents / Supply orders** section.
-
----

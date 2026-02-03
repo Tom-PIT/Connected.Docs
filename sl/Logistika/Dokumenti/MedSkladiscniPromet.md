@@ -7,11 +7,12 @@ Postopek prenosa omogoča skeniranje ali iskanje materialov, izbiro ciljnega [sk
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Med-skladiščni promet](https://www.youtube.com/watch?v=xtyKDh7_qgI)**.
 
-Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / Dokumenti / Med-skladiščni promet** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / Dokumenti / Med-skladiščni promet** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -21,7 +22,10 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 | [**Končno skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem bodo materiali prevzeti. |
 | **Postavke** | Dodatne postavke, povezane z dokumentom. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -31,6 +35,8 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 | [**Izvorna lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija v izvor­nem skladišču. |
 | [**Končna lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija, kamor bo material shranjen. |
 | **Količina** | Količina, ki se prenaša. |
+
+</details>
 
 ## Seznam dokumentov med-skladiščnega prometa
 
@@ -108,5 +114,3 @@ Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebuje
 Ko dokument ne vsebuje več nobene postavke, lahko kliknete **Izbriši**, da odstranite osnutek.
 
 Objavljenih dokumentov **ni mogoče izbrisati**.
-
----

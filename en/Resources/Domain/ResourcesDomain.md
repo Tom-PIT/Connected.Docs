@@ -122,5 +122,3 @@ It enables:
 - reliable workforce analytics  
 
 By connecting human resources with operational execution, the Resources domain ensures transparency, accountability, and informed decision-making across the organization.
-
----

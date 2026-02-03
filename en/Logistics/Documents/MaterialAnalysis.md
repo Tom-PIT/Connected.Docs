@@ -8,7 +8,7 @@ Material analysis documents list the materials that were received and require an
 > [!TIP]
 > For a full demonstration, see the **[Material analysis](https://www.youtube.com/watch?v=aJhceUVcusw)** video
 
-To access **Material analysis**, go to **Logistics / Documents / Material analysis** in the [navigation](../../Common/UI/Navigation.md).
+To access **Material analysis**, go to **Logistics / Documents / Material analysis** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -49,5 +49,3 @@ The list shows all material analysis documents created during receiving for mate
 ## Deletion
 
 Material analysis documents cannot be deleted.
-
----

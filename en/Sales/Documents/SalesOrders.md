@@ -3,7 +3,7 @@
 A **Sales order** represents the customer’s confirmed intention to purchase goods or services. It is typically created from an approved **Offer**, but it can also be created independently.  
 Sales orders define *what* the customer will receive, *when*, and *under which conditions*, and they serve as the basis for delivery, production, procurement, and invoicing workflows.
 
-To access this page, navigate to **Sales / Documents / Sales orders** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, navigate to **Sales / Documents / Sales orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How sales orders fit into the sales workflow
 
@@ -26,6 +26,9 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the sales order. |
@@ -34,11 +37,38 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Delivery date** | Expected delivery date for the order (mandatory). |
 | **Rebate** | Optional discount applied to the entire sales order. |
 | **Purchase order** | Optional reference to a related [supply order](../../Supply/Documents/SupplyOrders.md). |
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method agreed upon with the customer. |
 | **Delivery – Company / Address** | Customer delivery details, taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
-| **Details** | List of items (assets) being sold, with delivery dates, pricing, quantities, and taxes (mandatory). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Payment options connected to the sales order. |
+</details>
 
-### Detail fields
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Intrastat</strong></summary>
+
+
+| Field | Description |
+|------|-------------|
+| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
+| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -49,6 +79,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Discount (%)** | Line-specific discount. |
 | **[Tax rates](../../Common/Management/TaxRates.md)** | Applied tax percentage. |
 | **Value** | Final line value (quantity × price − discount). |
+</details>
 
 ## Management
 
@@ -162,6 +193,28 @@ Includes core fields:
 - Rebate  
 - Purchase order  
 
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+## Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+
+![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+
+> [!NOTE]  
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+
 #### Delivery section
 
 The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
@@ -243,6 +296,4 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > [!NOTE]
 > - Only **draft** sales orders can be deleted.  
 > - Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
-
----
 

@@ -2,7 +2,7 @@
 
 Travel Orders are used to record and manage employee business trips. They consolidate mileage, subsistence allowances, and expenses, and calculate the total trip cost.
 
-To access this page, go to **Resources / Documents / Travel Orders** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Resources / Documents / Travel Orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -127,5 +127,3 @@ Open a travel order from the list to edit its data while in **Draft** status. Pu
 - Travel orders can be deleted only while in **Draft** status.
 - A confirmation dialog is shown before deletion: *Are you sure you want to delete this record?*
 - Deleted travel orders are permanently removed and no longer appear in the list.
-
----

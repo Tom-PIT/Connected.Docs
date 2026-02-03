@@ -4,7 +4,7 @@
 
 Dobavnica **ni** finančni dokument – namenjena je predvsem operativni uporabi. Po izvedeni dobavi dobavnica praviloma vodi v ustvarjanje dokumenta **Izdaja** (izhod iz skladišča), kasneje pa še v **Izdani račun**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobavnice** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobavnice** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga dobavnic v prodajnem procesu
 
@@ -19,24 +19,40 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dobavnice. |
 | **Stranka** | Prejemnik dobave, izbran iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka dobavnice. |
 | **Datum opravljene storitve** | Datum, ko je dobava predvidena (obvezno). |
-| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Neobvezno uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
-| **Postavke** | Seznam vseh dobavljenih postavk (obvezno). |
 | **Vsebina spodaj** | Neobvezno zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
 
-### Postavke
+<details>
+  <summary><strong>Transport in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
 | [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Izdelek ali storitev, ki se dobavlja. |
 | **Datum opravljene storitve** | Datum dobave za posamezno postavko. |
 | **Izdana količina** | Prikazuje, koliko enot je že izdanih (npr. *0/3* pred izdajo, *3/3* po celotni izdaji). |
+
+</details>
 
 ## Upravljanje
 
@@ -96,6 +112,8 @@ S klikom na dobavnico odprete urejanje. Dokument je razdeljen v razširljive raz
 - Priponke
 - Povezani dokumenti
 - Dokument
+- Alternativna valuta
+- Transport
 - Dobava
 - Vsebina zgoraj
 - Postavke
@@ -132,6 +150,22 @@ Razpoložljiva dejanja za dobavnice v statusu **Na voljo** vključujejo:
 - **[+ Polna izdaja](../../Logistika/Dokumenti/Izdajnice.md)**
 - **[Izdaja](../../Logistika/Dokumenti/Izdajnice.md)** – povezava z obstoječo izdajo
 
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Transport
+
+Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+
+![Transport](../Images/SalesTransportSection.png "Transport")
+
+Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
+
 ### Zaključevanje dobavnice
 
 Ko je dobavnica pripravljena, kliknite **Zaključi** na vrhu strani.
@@ -166,5 +200,3 @@ Ko dokument ne vsebuje več postavk, ga lahko izbrišete. Ob potrditvi se dokume
 > [!NOTE]  
 > - Dobavnice ni mogoče izbrisati, če je uporabljena v odvisnih dokumentih (Izdaje, Računi, Proizvodni nalogi itd.).  
 > - Zaključenih dokumentov **ni mogoče** izbrisati – mogoče jih je le stornirati ali vrniti v osnutek.
-
----

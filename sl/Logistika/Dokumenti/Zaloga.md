@@ -7,7 +7,7 @@ Na voljo so **[Pogled zaloge po materialu](#pogled-zaloge-po-materialu)**, **[Po
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pregled zaloge](https://www.youtube.com/watch?v=gjAKnavIWnY)**.
 
-Za dostop do **Zaloge** pojdite na **Logistika / Zaloga** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Zaloge** pojdite na **Logistika / Zaloga** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Filtri in navigacija
 
@@ -99,5 +99,3 @@ Ta pogled prikazuje:
 - **Dnevnik** – časovnico vseh premikov in transakcij, povezanih s to serijsko številko
 
 Zaslon **Pogled zaloge po serijski številki** je samo za branje in je namenjen podrobnemu sledenju in sledljivosti posamezne serijske številke.
-
----

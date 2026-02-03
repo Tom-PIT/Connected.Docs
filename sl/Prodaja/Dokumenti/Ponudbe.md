@@ -3,7 +3,7 @@
 **Ponudba** je prodajni dokument, namenjen predstavitvi predlagane cene, količine in dobavnih pogojev stranki, preden je prodaja potrjena.  
 Ponudbe pomagajo formalizirati ponudbe, primerjati cenovne možnosti ter omogočajo nemoten prehod v nadaljnje dokumente, kot so **Prodajni nalogi**, **Dobavnice** in **Izdani računi**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Ponudbe** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Ponudbe** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Kako se ponudbe vključujejo v prodajni proces
 
@@ -16,6 +16,9 @@ Tipičen potek:
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator ponudbe. |
@@ -23,13 +26,26 @@ Tipičen potek:
 | **Datum dokumenta** | Datum nastanka ponudbe. |
 | **Datum veljavnosti** | Datum do katerega ponudba velja (obvezno). |
 | **Rabat** | Neobvezen skupni popust na celotno ponudbo (npr. vnesite *2* za 2 % popust). |
-| **Dostava – Podjetje / Naslov** | Podatki o dobavi za stranko; vrednosti se povzamejo iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
 | **Vsebina zgoraj** | Uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
-| **Postavke** | Seznam ponujenih postavk (sredstev) s cenami in dobavnimi podatki; postavke izvirajo iz šifranta [Sredstva](../../Sredstva/Materiali/Izdelki.md) (obvezno). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Ponudba*). |
 | [**Način plačila**](../Upravljanje/NacinPlacila.md) | Načini plačila, prikazani stranki. |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -40,6 +56,8 @@ Tipičen potek:
 | **Popust (%)** | Neobvezen popust za posamezno postavko. |
 | [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Skupna vrednost postavke (količina × neto cena po popustih). |
+
+</details>
 
 ## Upravljanje
 
@@ -129,6 +147,22 @@ Pogosta dejanja vključujejo:
 
 ![Povezani dokumenti](../Images/OfferPublishedLinkedDocuments.png "Povezani dokumenti")
 
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Transport
+
+Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+
+![Transport](../Images/SalesTransportSection.png "Transport")
+
+Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
+
 #### Razdelek Dobava
 
 Razdelek Dobava določa, kam se blago pošlje. Privzeto se izpolni iz podatkov stranke, vendar ga je mogoče prilagoditi za posamezen dokument.
@@ -169,5 +203,3 @@ Potrjenih dokumentov **ni mogoče** izbrisati.
 
 > [!NOTE]
 > Ponudbo je mogoče izbrisati le, če ni povezana z drugim odvisnim dokumentom (npr. prodajnim nalogom).
-
----

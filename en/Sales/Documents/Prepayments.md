@@ -19,6 +19,9 @@ Prepayments track received funds and do not affect inventory.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the prepayment. |
@@ -34,11 +37,36 @@ Prepayments track received funds and do not affect inventory.
 | **Purpose code** | Optional description of payment purpose. |
 | **Rebate** | Overall rebate applied to the prepayment amount. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Payment method** | Payment method selected from [**Payment methods**](../Management/PaymentMethods.md). |
+</details>
 
-### **Detail fields**
+
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Intrastat</strong></summary>
+
+| Field | Description |
+|------|-------------|
+| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
+| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -47,6 +75,7 @@ Prepayments track received funds and do not affect inventory.
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional discount on the line item. |
 | **Value** | Total values (net, tax, gross) calculated for the line. |
+</details>
 
 ## Management
 
@@ -103,6 +132,9 @@ A draft prepayment can be modified until it is published.
 
 Changes can be made to:
 - Header fields (customer, dates, reference numbers, bank account)
+- Alternative currency
+- Transport
+- Delivery information
 - Detail lines (assets, quantities, prices)
 - Payment methods
 - Content text (top/bottom)
@@ -125,6 +157,28 @@ The linked documents section enables the creation of operational or follow-up do
 Available actions may include:
 - **[+ Issued invoice](IssuedInvoices.md)** – Create a final invoice applying the prepayment.
 - **Prepayment** – Duplicate the details from the current prepayment to a new document.
+
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+## Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+
+![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+
+> [!NOTE]  
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 #### Delivery section
 
@@ -158,6 +212,4 @@ If the draft still includes items in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 Committed documents **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).  
-
----
 

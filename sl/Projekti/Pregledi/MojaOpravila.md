@@ -4,7 +4,7 @@ Zaslon **Moja opravila** ponuja personaliziran pregled vseh [opravil](../Dokumen
 
 Opravila, prikazana na tem zaslonu, vedno pripadajo nekemu [projektu](../Dokumenti/Projekti.md), vendar je seznam filtriran tako, da vključuje samo opravila, relevantna za trenutno prijavljenega uporabnika.
 
-Za dostop do zaslona pojdite na **Projekti / Pregledi / Moja opravila** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do zaslona pojdite na **Projekti / Pregledi / Moja opravila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Seznam mojih opravil
 

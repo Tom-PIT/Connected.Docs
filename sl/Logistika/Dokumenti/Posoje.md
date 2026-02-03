@@ -6,11 +6,12 @@ Ko so materiali posojeni, postanejo **rezervirani** in niso na voljo za druge op
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Posoje](https://www.youtube.com/watch?v=V0QfOaBJ4Rk)**.
 
-Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -20,7 +21,10 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 | **Stik** | Stranka ali partner, ki prejme material, izbran iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Postavke** | Neobvezne postavke, povezane s posojo. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -29,6 +33,8 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 | **Datum do** | Datum poteka, če je določen. |
 | [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Lokacija, iz katere se material vzame. |
 | **Količina** | Količina, ki se posodi. Pred shranjevanjem jo je potrebno urediti. |
+
+</details>
 
 ## Seznam dokumentov posoje
 
@@ -119,5 +125,3 @@ Postopek:
 
 > [!NOTE]
 > Objavljenih dokumentov posoje **ni mogoče izbrisati** — mogoče jih je samo **stornirati**.
-
----

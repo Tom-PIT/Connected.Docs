@@ -7,7 +7,7 @@ Bremepisi povečujejo odprto obveznost stranke. Za zmanjšanja ali vračila glej
 > [!TIP]
 > Za hiter pregled trenutnih **bremenitev in dobropisov** po posameznih strankah uporabite pregled **[Poslovne kartice](../Pregledi/PoslovneKartice.md)**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Bremepisi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Bremepisi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga bremepisov v prodajnem procesu
 
@@ -24,6 +24,9 @@ Bremepisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator bremepisa. |
@@ -39,10 +42,25 @@ Bremepisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 | **Koda namena** | Neobvezna oznaka ali razlog za bremepis. |
 | **Rabat** | Skupni rabat, uporabljen na bremepis (če je primerno). |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
-| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+</details>
+
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -51,6 +69,8 @@ Bremepisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 | **Neto cena** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |
 | **Vrednost** | Izračunane vrednosti (neto, davek, bruto) s pozitivnimi zneski. |
+
+</details>
 
 ## Upravljanje
 
@@ -108,6 +128,9 @@ Urejati je mogoče samo bremepise v stanju **Osnutek**.
 
 Uredite lahko:
 - Glavna polja  
+- Alternativna valuta
+- Transport
+- Podatki o dostavi
 - Postavke  
 - Besedila (zgoraj in spodaj)
 
@@ -124,6 +147,22 @@ Razdelek **Povezani dokumenti** omogoča povezavo s predhodno ustvarjenim **[Izd
 ![Povezani dokumenti bremepisa](../Images/CreditDebitNoteLinkedDocuments.png "Povezani dokumenti bremepisa")
 
 Potrjeni bremepisi razdelka **Povezani dokumenti** ne prikazujejo.
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Transport
+
+Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+
+![Transport](../Images/SalesTransportSection.png "Transport")
+
+Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
 
 ## Meni
 
@@ -152,5 +191,3 @@ Za brisanje posameznih postavk:
 Ko je bremepis brez postavk, lahko izvedete **Izbriši**.
 
 Potrjenih bremepisov **ni mogoče** izbrisati, mogoče pa jih je **stornirati** ali **vrniti v osnutek**.
-
----

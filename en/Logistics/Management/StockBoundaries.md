@@ -15,7 +15,7 @@ This code list represents the stock boundaries for individual materials or produ
 
 ## Management
 
-To access the **Stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [navigation](../../Common/UI/Navigation.md).
+To access the **Stock boundaries** code list, go to **Logistics / Management / Stock boundaries** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ### List of stock boundaries
 
@@ -54,5 +54,3 @@ M-0004;4;20;80;
 ## Menu
 
 The **Menu** in the top-right corner provides the following option: **Export to CSV**, which exports all visible records to a CSV file for reporting, analysis, or backup purposes.
-
----

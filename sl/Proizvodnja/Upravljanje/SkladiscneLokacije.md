@@ -2,7 +2,7 @@
 
 Seznam **Skladiščne lokacije** povezuje [organizacijske enote](OrganizacijskeEnote.md) s fizičnimi skladiščnimi lokacijami, da lahko proizvodni procesi pridobivajo material in shranjujejo proizvedene izdelke. Na tem zaslonu upravljate, katere lokacije lahko Proizvodnja uporablja za vhod in izhod ter uveljavljate pravila povezav med organizacijskimi enotami in skladiščnimi lokacijami.
 
-Za dostop do dokumentov **Skladiščne lokacije** pojdite na **Proizvodnja / Upravljanje / Skladiščne lokacije** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Skladiščne lokacije** pojdite na **Proizvodnja / Upravljanje / Skladiščne lokacije** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Warehouse locations](https://www.youtube.com/watch?v=qR3o0CpIGpo)**.

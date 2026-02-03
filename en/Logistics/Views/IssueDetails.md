@@ -2,7 +2,7 @@
 
 The **Issue details** view provides an analytical overview of all **materials and finished products issued from stock** within a selected time period. Instead of focusing on issue documents themselves, this view aggregates **issued items** and shows exactly **which [issue documents](../Documents/Issues.md)** were used and **from which warehouse locations** the items were issued.
 
-To access this view, go to **Logistics / Views / Issue details** in the [navigation](../../Common/UI/Navigation.md).
+To access this view, go to **Logistics / Views / Issue details** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![IssueDetailsList](../Images/IssueDetailsList.png)
 
@@ -16,16 +16,16 @@ You can expand an item row to view the **individual issue documents** that contr
 
 The list is structured as follows:
 
-- **Item** – material or finished product and total quantity issued  
-  - **Issue document** – individual issue entry  
-    - **Source** – warehouse and location where the item was issued from  
-    - **Quantity** – quantity issued in that document  
+- **Item** â€“ material or finished product and total quantity issued  
+  - **Issue document** â€“ individual issue entry  
+    - **Source** â€“ warehouse and location where the item was issued from  
+    - **Quantity** â€“ quantity issued in that document  
 
 When expanded, each issue document shows:
 
-- **Document number** – clickable, opens the [Issue document](../Documents/Issues.md)  
+- **Document number** â€“ clickable, opens the [Issue document](../Documents/Issues.md)  
 - **Document date and time**  
-- **Source** – warehouse and location (clickable)  
+- **Source** â€“ warehouse and location (clickable)  
 - **Issued quantity**
 
 ![IssueDetailsListExpanded](../Images/IssueDetailsList.png)
@@ -43,7 +43,7 @@ Clicking the source opens the **[Stock view by location](StockViewByLocation.md)
 
 The left sidebar contains the following filter:
 
-- **Document dates** – limits the view to issue documents within the selected date range
+- **Document dates** â€“ limits the view to issue documents within the selected date range
 
 Once the date range is selected, the list reloads automatically.
 
@@ -72,13 +72,13 @@ The **Issue details** view is useful for:
 This view is **analytical only**. It does not allow creating, editing, or deleting documents.
 
 > [!NOTE]
-> - Quantities are displayed in the item’s base unit of measure (e.g. pcs, meters).  
+> - Quantities are displayed in the itemâ€™s base unit of measure (e.g. pcs, meters).  
 > - This view focuses on **stock issues** (e.g. sales deliveries, internal issues).  
 > - Production-related material usage is shown in **[Consumption details](ConsumptionDetails.md)**, not here.
 
 ## Related views
 
-- **[Consumption details](ConsumptionDetails.md)** – review materials consumed during production  
-- **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
-- **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** – review stock movements and balances by material  
-- **[Issue documents](../Documents/Issues.md)** – create and review stock issue documents
+- **[Consumption details](ConsumptionDetails.md)** â€“ review materials consumed during production  
+- **[Stock view by location](StockViewByLocation.md)** â€“ review stock stored in a specific warehouse location  
+- **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** â€“ review stock movements and balances by material  
+- **[Issue documents](../Documents/Issues.md)** â€“ create and review stock issue documents

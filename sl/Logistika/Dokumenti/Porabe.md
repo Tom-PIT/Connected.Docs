@@ -6,11 +6,12 @@ Dokument **Poraba** beleži materiale, ki so bili porabljeni med izvajanjem **pr
 Za vnos porabljenih materialov na proizvodni strani glejte  
 **[Porabljeno](../../Proizvodnja/Dokumenti/Poraba.md)** — modula sta tesno povezana: beleženje porabe v proizvodnji ustvari ustrezen dokument porabe v logistiki.
 
-Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -18,13 +19,18 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaci
 | **Ustvarjeno** | Datum in čas, ko je bil dokument ustvarjen. |
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, iz katerega so bili materiali porabljeni. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-------|------|
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Porabljen material ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
 | **Vir** | Identifikator vira porabljene enote (npr. serijska številka ali koda pakiranja, odvisno od načina sledenja materiala). |
 | **Količina** | Zabeležena porabljena količina za posamezno postavko. |
+
+</details>
 
 ## Seznam dokumentov porabe
 
@@ -79,5 +85,3 @@ S tem se ustvari dokument storna, ki izniči zalogovni in (odvisno od konfigurac
 ## Brisanje
 
 Dokumentov porabe **ni mogoče izbrisati** iz sistema, saj je potrebno ohraniti sledljivost uporabe materialov v proizvodnji. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.
-
----

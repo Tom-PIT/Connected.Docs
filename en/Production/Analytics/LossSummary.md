@@ -2,7 +2,7 @@
 
 The Loss summary page provides an overview of defective or unusable items recorded during production within a selected time period. It helps identify the most common loss types and evaluate their impact on production quality.
 
-To access this page, go to **Production / Analytics / Loss summary** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Loss summary** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Loss summary](../Images/LossSummaryView.png "Loss summary")
 
@@ -46,6 +46,4 @@ Under the chart, a detailed breakdown lists each loss classification along with 
 Example categories may include any custom classifications defined in [**Loss classification tags**](../Management/LossClassificationTags.md)
 
 Selecting a row may provide more context depending on system configuration.
-
----
 

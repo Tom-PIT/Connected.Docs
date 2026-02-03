@@ -15,7 +15,7 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 > [!TIP]
 > For a full demonstration, see the **[Production order](https://www.youtube.com/watch?v=q4UjiYpWph8)** video tutorial.
 
-To access production orders, go to **Production / Production orders** in the [navigation](../../Common/UI/Navigation.md).
+To access production orders, go to **Production / Production orders** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## List of production orders
 
@@ -138,7 +138,7 @@ You may attach other documents that relate to the production order, such as:
 
 ![Linked documents](../Images/ProductionOrdersLinkedDocuments.png "Linked documents")
 
-Production orders also display any linked documents created during the order's life-cycle, such as cost and consumption reports.
+Production orders also display any linked documents created during the order's lifecycle, such as cost and consumption reports.
 
 ![Production Orders Linked Documents Docs](../Images/ProductionOrdersLinkedDocumentsDocs.png)
 
@@ -201,5 +201,3 @@ Use the **Delete** option in the header.
 > [!NOTE]
 >
 > Closed orders cannot be deleted, but they can be reverted to active for modifications if necessary.
-
----

@@ -3,7 +3,7 @@
 The **Time logs – Manage** view is used for **real-time attendance tracking and daily time logging**.  
 It allows workers to record when they start and end work, take breaks, go on business trips, or log private time.
 
-To access **Time logs – Manage**, go to **Resources / Time logs / Manage** in the [navigation](../../Common/UI/Navigation.md).
+To access **Time logs – Manage**, go to **Resources / Time logs / Manage** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Time logs manage](../Images/TimeLogsManage.png "Time logs – manage")
 
@@ -109,5 +109,3 @@ Clicking **View** opens the detailed time log overview for the selected period:
 - **[Time logs – View](TimeLogsView.md)**
 
 These actions allow users to manage attendance, absences, and travel directly from the time logging context.
-
----

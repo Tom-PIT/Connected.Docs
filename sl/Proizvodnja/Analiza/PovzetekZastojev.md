@@ -2,7 +2,7 @@
 
 Stran **Povzetek zastojev** nudi pregled zabeleženih proizvodnih zastojev v izbranem časovnem obdobju. Omogoča prepoznavanje najpogostejših razlogov za zastoje, oceno njihovega vpliva ter spremljanje uspešnosti po organizacijskih enotah in opremi.
 
-Do strani dostopate preko **Proizvodnja / Analiza / Povzetek zastojev** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Do strani dostopate preko **Proizvodnja / Analiza / Povzetek zastojev** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Povzetek zastojev](../Images/DowntimeSummaryView.png "Povzetek zastojev")
 

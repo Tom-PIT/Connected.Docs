@@ -3,7 +3,7 @@
 Effort types define **categories of work** that can be selected when recording effort on tasks, production executions, or maintenance activities. They help standardize time reporting and improve later analysis of how time is spent.
 
 To access **Effort types**, go to **Resources / Management / Effort types** in the  
-[navigation](../../Common/UI/Navigation.md).
+[**navigation**](../../Common/UI/Navigation.md).
 
 ![Effort types list](../Images/EffortTypesList.png "Effort types list")
 
@@ -53,6 +53,3 @@ Effort types can be deleted from the edit view.
 
 > [!NOTE]
 > Deleted effort types are no longer available for new time entries but do not affect historical data.
-
-
----

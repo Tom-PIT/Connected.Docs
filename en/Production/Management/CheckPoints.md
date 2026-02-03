@@ -1,4 +1,4 @@
-﻿# Check points
+# Check points
 
 Check points belong to a specific [**Checklist**](QualityChecklists.md) and define the individual steps, controls, or verifications that operators must perform during production or quality checks.  They ensure consistent process execution and provide structured data for audit trails and reporting.
 
@@ -57,6 +57,4 @@ Use the search bar to filter check points by name or code.
 ## Deletion
 
 Check points can be deleted freely unless restricted by a workflow configuration. To remove one, open the check point and click **Delete**.
-
----
 

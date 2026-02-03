@@ -2,7 +2,7 @@
 
 **Izdani računi** so finančni dokumenti, poslani strankam za plačilo potrjenih prodaj. Povzemajo dobavljeno blago ali storitve, davke, roke plačila in izbrane načine plačila. Na strani **Izdani računi** lahko evidentirate tudi delna ali celotna plačila neposredno na posameznem računu.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Izdani računi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Izdani računi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga izdanih računov v prodajnem procesu
 
@@ -16,6 +16,9 @@ Izdani računi se običajno ustvarijo na koncu prodajnega procesa:
 Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to potrebno.
 
 ## Shema
+
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -32,11 +35,25 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 | **Koda namena** | Neobvezna koda namena računa (če je konfigurirana). |
 | **Rabat** | Skupni rabat, uporabljen na celoten znesek računa. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
-| **Dostava** | Podatki o podjetju in naslovu dobave. |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Upravljanje/NacinPlacila.md). |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -45,6 +62,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 | **Cena brez DDV** | Neto cena na enoto, običajno povzeta iz cenikov ali povezanega dokumenta. |
 | **Popust (%)** | Neobvezen popust na ravni postavke. |
 | **Vrednost** | Izračunane vrednosti postavke (neto, davek in bruto). |
+
+</details>
 
 ## Upravljanje
 
@@ -131,13 +150,77 @@ Po začetku novega računa sledite korakom:
 
    ![Shranjena postavka računa](../Images/IssuedInvoicesNewBottom.png "Shranjena postavka računa")
 
-6. (Neobvezno) Dodajte besedila, podatke o dobavi ali priloge.  
+6. (Neobvezno) Dodajte:
+   - **Vsebina zgoraj / Vsebina spodaj**  
+   - **Alternativna valuta** (glej spodaj)
+   - **Podatke o dostavi**  
+   - **Priloge**  
+
 7. Kliknite **Objavi**, da potrdite račun.
 
 > [!NOTE]
 > Po objavi izdanega računa ni več mogoče urejati ali izbrisati. Za popravke uporabite dejanje **Storniraj dokument**.
 
-### Evidentiranje plačil
+### Urejanje izdanega računa
+
+Kliknite kateri koli izdan račun na seznamu, da ga odprete. Osnutke je mogoče prosto urejati. Dokument je razdeljen na več razširljivih razdelkov.
+
+Dokler je račun v statusu **Osnutek**, lahko urejate vse razdelke:
+
+- Glavna polja (datumi, sklici, stranka, bančni račun itd.)
+- Alternativna valuta
+- Transport
+- Podatki o dostavi
+- **Postavke** – dodajanje, odstranjevanje ali spreminjanje postavk
+- **Načini plačila** – določanje načina plačila
+- **Vsebina zgoraj** in **Vsebina spodaj** – izbor vnaprej določenih besedil
+
+![Postavke in plačila](../Images/IssuedInvoicesNewBottom.png "Postavke in plačila")
+
+#### Priloge
+
+Na vrhu vsakega dokumenta je razdelek **Priloge**.
+
+Naložite lahko datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga dokazila. Vse priloge se shranijo skupaj z dokumentom.
+
+#### Povezani dokumenti
+
+Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokumentov.
+
+![Povezani dokumenti delno plačanega računa](../Images/IssuedInvoicePartiallyPaidLinkedDocuments.png "Povezani dokumenti delno plačanega računa")
+
+> [!NOTE]
+> Razpoložljiva dejanja v razdelku **Povezani dokumenti** so odvisna od tipa in statusa dokumenta.
+
+Primer za osnutek:
+
+![Povezani dokumenti osnutka računa](../Images/IssuedInvoiceDraftLinkedDocuments.png "Povezani dokumenti osnutka računa")
+
+Razpoložljiva dejanja lahko vključujejo:
+
+- **Izdani račun** – kopira trenutni dokument v nov izdani račun
+- [**+ Dobropis**](Dobropisi.md) – ustvari dobropis
+- [**+ Bremepis**](Bremepisi.md) – ustvari bremepis
+- [**Dobavnica**](Dobavnice.md) – povezava z obstoječo dobavnico
+- [**Predplačila**](Predplacila.md) – povezava z obstoječimi predplačili
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Transport
+
+Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+
+![Transport](../Images/SalesTransportSection.png "Transport")
+
+Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
+
+## Evidentiranje plačil
 
 Po objavi računa kliknite **Plačilo**, da evidentirate prejeto plačilo.
 
@@ -163,5 +246,3 @@ Izbris je mogoč samo za dokumente v stanju **Osnutek** in le, če **ne vsebujej
 
 > [!NOTE]
 > Objavljenih računov ni mogoče izbrisati. Uporabite **Storniraj dokument** ali **Vrni v osnutek**, če je na voljo.
-
----

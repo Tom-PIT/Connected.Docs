@@ -2,7 +2,7 @@
 
 An **Inquiry** is a supply document used to request pricing, availability, and delivery information from a vendor before placing a formal order. Inquiries help your organization compare supplier responses, plan upcoming purchasing, and smoothly transition into follow-up documents such as [**Supply orders**](SupplyOrders.md).
 
-To access this page, go to **Supply / Documents / Inquiries** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Supply / Documents / Inquiries** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How inquiries fit into the supply workflow
 
@@ -23,7 +23,7 @@ A typical flow:
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the inquiry. |
-| **Vendor** | Vendor receiving the inquiry, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Vendor** | Vendor receiving the inquiry, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the inquiry is created. |
 | **Validity date** | Deadline by which the inquiry is valid (similar to an expiration date). |
 | **Details** | List of requested materials or services (mandatory). |
@@ -153,6 +153,4 @@ Inquiries can be deleted on the edit screen. To delete an inquiry, open the docu
 
 > [!NOTE]  
 > Only draft inquiries can be deleted.
-
----
 

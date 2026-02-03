@@ -2,7 +2,7 @@
 
 Tipi planov razpoložljivosti določajo **kategorije razpoložljivosti in odsotnosti**, ki jih je mogoče dodeliti virom. Služijo kot osnova za [plane razpoložljivosti](../Pregledi/PlaniRazpolozljivosti.md).
 
-Za dostop do **Tipov planov razpoložljivosti** pojdite na **Viri / Upravljanje / Tipi planov razpoložljivosti** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Tipov planov razpoložljivosti** pojdite na **Viri / Upravljanje / Tipi planov razpoložljivosti** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

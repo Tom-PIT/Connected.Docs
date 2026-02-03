@@ -4,11 +4,12 @@ A **Production** document records items that were produced during the execution 
 
 For the production‑side entry of outputs, see **[Execution](../../Production/Documents/Execution.md)** (Outputs). Outputs are closely linked with this page: recording produced items in production creates the corresponding production document in logistics. For defining outputs on processes, see **[Outputs](../../Production/Management/Outputs.md)**.
 
-To access this page, go to **Logistics / Documents / Productions** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Documents / Productions** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -16,12 +17,17 @@ To access this page, go to **Logistics / Documents / Productions** in the [navig
 | **Created** | Timestamp when the document was created. |
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the produced items were posted. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
 | [**Material**](../../Assets/Domain/Materials.md) | Produced item (typically a [product](../../Assets/Materials/Products.md) or [semi product](../../Assets/Materials/SemiProducts.md)). |
 | **Quantity** | Produced quantity recorded for the material line. |
+
+</details>
 
 ## List of production documents
 

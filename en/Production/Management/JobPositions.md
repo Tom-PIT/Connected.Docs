@@ -1,8 +1,8 @@
-﻿# Job positions
+# Job positions
 
 The **Job positions** code list defines the roles that employees can perform across operational workflows (production and maintenance). These positions are assigned to registered workers in the system, so they can be selected in workflows such as work reports, scheduling, resource assignment, and checklist execution permissions.
 
-To access Job positions, navigate to the **Production** or **Maintenance** domains, then go to **Management / Job positions** in the [navigation](../../Common/UI/Navigation.md).
+To access Job positions, navigate to the **Production** or **Maintenance** domains, then go to **Management / Job positions** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -56,6 +56,4 @@ Click **Delete** on the edit screen to remove a job position. If confirmed, the 
 
 > [!NOTE]  
 > Job positions can be deleted freely, even if users are assigned to them.
-
----
 

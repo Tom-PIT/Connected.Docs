@@ -41,5 +41,3 @@ Saved results are linked to the production order and operation and appear in the
 - [Checklists](../Management/Checklists.md) — create and manage checklist templates.
 - [Check points](../Management/Checkpoints.md) — define individual checklist steps.
 
----
-

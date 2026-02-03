@@ -3,7 +3,7 @@
 Subsistence allowances define the daily amounts paid to employees when traveling for work.
 They are typically used in [**Travel orders**](../Documents/TravelOrders.md) to automatically calculate meal and subsistence compensation based on the destination.
 
-To access **Subsistence Allowances**, go to **Resources / Management / Subsistence Allowances** in the [navigation](../../Common/UI/Navigation.md).
+To access **Subsistence Allowances**, go to **Resources / Management / Subsistence Allowances** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -55,5 +55,3 @@ Subsistence allowances are primarily used in:
 - **[Travel orders](../Documents/TravelOrders.md)** — automatic calculation of daily allowances during business trips
 
 This ensures consistent and centralized management of travel compensation rules across the system.
-
----

@@ -4,7 +4,7 @@ Kontrolne liste se uporabljajo v modulih **Proizvodnja** in **Vzdrževanje** za 
 
 Posamezni koraki znotraj kontrolne liste — imenovani **[Kontrolne točke](KontrolneTocke.md)** — se upravljajo ločeno.
 
-Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, nato izberite **Upravljanje / Kontrolne liste** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, nato izberite **Upravljanje / Kontrolne liste** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Kontrolne liste kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.

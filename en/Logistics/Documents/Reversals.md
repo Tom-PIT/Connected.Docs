@@ -12,11 +12,12 @@ Reversals can be **full** or **partial**, depending on the quantity you enter. R
 > [!TIP]
 > For a full demonstration, see the **[Reversal](https://www.youtube.com/watch?v=yfGNARBWm7Q)** video tutorial.
 
-To access Reversals, go to **Logistics / Documents / Reversals** in the [navigation](../../Common/UI/Navigation.md).
+To access Reversals, go to **Logistics / Documents / Reversals** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Reversed document section
+<details open>
+  <summary><strong>Reversed document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -25,14 +26,20 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [navigat
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the original document was executed. |
 | **Document date** | Date of the original document. |
 
-### Document section
+</details>
+
+<details>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../Common/UI/DocumentCodes.md) | System-generated reversal document number. |
 | **Document date** | Date of the reversal (editable). |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -40,6 +47,8 @@ To access Reversals, go to **Logistics / Documents / Reversals** in the [navigat
 | [**Location**](../Management/Locations.md) | Storage location of the reversed stock. |
 | **Source quantity** | Quantity originally processed in the reversed document. |
 | **Quantity (pc)** | Quantity to reverse — **editable**, used for partial or full reversal. |
+
+</details>
 
 ## List of reversal documents
 
@@ -141,7 +150,5 @@ Lists affected materials, their locations, original quantities, and reversed qua
 Click **Delete** to remove a **draft** reversal document. Committed reversals **cannot** be deleted.
 
 A draft reversal can always be deleted because it does not contain dependent stock movements.
-
----
 
 

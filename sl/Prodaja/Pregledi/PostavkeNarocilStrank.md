@@ -5,7 +5,7 @@ Namesto dokumentov so v tem pogledu prikazane **posamezne postavke naročil**, k
 
 Ta pogled je izključno analitičen — **ne omogoča** ustvarjanja ali spreminjanja naročil strank.
 
-Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Postavke naročil strank** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Postavke naročil strank** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Postavke naročil strank](../Images/SalesOrderDetailsView.png "Postavke naročil strank")
 

@@ -54,7 +54,7 @@ This helps you understand whether replenishment is already in progress before cr
 
 Supply orders and inquiries are created directly from this screen.
 
-1. Select one or more materials using the checkbox in the list.
+1. Select one or more materials using the checkbox and optionally adjust the **Order quantity** directly on the list.
 
    ![Select material](../Images/SupplyStockBoundariesPlanningSelect.png)
 
@@ -83,6 +83,4 @@ Supply stock boundaries planning enables you to:
 - Coordinate purchasing decisions based on real stock levels and existing orders
 
 This view is especially useful for planners and purchasing teams managing multiple suppliers and materials.
-
----
 

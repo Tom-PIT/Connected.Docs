@@ -57,5 +57,3 @@ A business unit can be deleted from the Edit page, but only if it is not referen
 
 > [!NOTE]  
 > Deleting a business unit does **not** delete the associated Business directory entry.
-
----

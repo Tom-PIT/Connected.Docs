@@ -4,7 +4,7 @@ The **Table of contents** defines the **navigation structure** inside a director
 
 A directory can contain **one or more** tables of contents. Each table of contents is displayed as a tree and can include folders, article links, and URLs.
 
-To manage the table of contents, go to **Knowledge / Management / Directories** in the [navigation](../../Common/UI/Navigation.md) and click **Table of contents** under the desired directory. See [Directories](Directories.md).
+To manage the table of contents, go to **Knowledge / Management / Directories** in the [**navigation**](../../Common/UI/Navigation.md) and click **Table of contents** under the desired directory. See [Directories](Directories.md).
 
 ![TableOfContentsList](../Images/TableOfContentsList.png)
 
@@ -12,9 +12,9 @@ To manage the table of contents, go to **Knowledge / Management / Directories** 
 
 The table of contents is displayed as a **tree structure** and can contain:
 
-- **Folders** – used to group entries
-- **Articles** – links to Knowledge [articles](Articles.md)
-- **URLs** – links to external resources
+- **Folders** â€“ used to group entries
+- **Articles** â€“ links to Knowledge [articles](Articles.md)
+- **URLs** â€“ links to external resources
 
 Entries are ordered using an **ordinal value** and can be enabled or disabled.
 
@@ -100,8 +100,6 @@ Inside a directory, click the **hamburger icon** to open the table of contents p
 
 ## Related
 
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse directories and articles
-- **[Directories](Directories.md)** – configure directories that host tables of contents
-- **[Articles](Articles.md)** – create and manage articles linked in the TOC
-
----
+- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** â€“ browse directories and articles
+- **[Directories](Directories.md)** â€“ configure directories that host tables of contents
+- **[Articles](Articles.md)** â€“ create and manage articles linked in the TOC

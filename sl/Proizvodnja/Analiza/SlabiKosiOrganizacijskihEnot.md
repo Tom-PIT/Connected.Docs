@@ -2,7 +2,7 @@
 
 Stran **Slabi kosi organizacijskih enot** ponuja pregled vseh zabeleženih proizvodnih izgub, združenih po organizacijskih enotah. Omogoča hiter vpogled v število slabih kosov, ki so nastali v posamezni organizacijski enoti, ter identifikacijo organizacijskih enot z največ izgubami.
 
-Do strani dostopate prek **Proizvodnja / Analiza / Slabi kosi organizacijskih enot** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Do strani dostopate prek **Proizvodnja / Analiza / Slabi kosi organizacijskih enot** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Slabi kosi organizacijskih enot](../Images/OrganizationUnitLossView.png)
 

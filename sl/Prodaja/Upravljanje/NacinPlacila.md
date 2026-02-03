@@ -2,7 +2,7 @@
 
 Šifrant **Način plačila** določa načine, s katerimi lahko stranke poravnajo plačilo za blago ali storitve – na primer kreditne kartice, spletna plačila ali druge podprte načine. Vsak način vključuje **šifro**, **naziv**, neobvezne **oznake** in naloženo **ikono**, ki predstavlja ponudnika plačila. Ti zapisi se uporabljajo povsod v sistemu, kjer je potrebno izbrati način plačila.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Način plačila** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Način plačila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

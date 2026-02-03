@@ -2,7 +2,7 @@
 
 **Povpraševanje** je nabavni dokument, ki se uporablja za pridobivanje informacij o **cenah**, **razpoložljivosti** in **dobavnih rokih** pri dobaviteljih, še preden se odda formalno naročilo. Povpraševanja omogočajo primerjavo ponudb dobaviteljev, načrtovanje prihodnjih nabav ter nemoten prehod v nadaljnje dokumente, kot so **[nabavni nalogi](NabavniNalogi.md)**.
 
-Za dostop do **Povpraševanj** pojdite na **Nabava / Dokumenti / Povpraševanja** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Povpraševanj** pojdite na **Nabava / Dokumenti / Povpraševanja** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Kako se povpraševanja vključujejo v nabavni proces
 
@@ -18,15 +18,20 @@ Tipičen potek:
 
 ## Shema
 
+<details open>
+  <summary><strong>Dokument</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator povpraševanja. |
 | **Dobavitelj** | Dobavitelj, ki prejme povpraševanje, izbran iz **[Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
 | **Datum dokumenta** | Datum nastanka povpraševanja. |
 | **Datum opravljene storitve** | Rok, do katerega je povpraševanje veljavno (podobno datumu poteka). |
-| **Postavke** | Seznam zahtevanih materialov ali storitev (obvezno). |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -34,6 +39,8 @@ Tipičen potek:
 | **Datum opravljene storitve** | Predviden ali ponujen dobavni datum. |
 | **Količina** | Zahtevana količina izbranega materiala. |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju (neobvezno). |
+
+</details>
 
 ## Upravljanje
 
@@ -149,5 +156,3 @@ Povpraševanja je mogoče izbrisati na zaslonu za urejanje. Za brisanje odprite 
 
 > [!NOTE]
 > Izbrisati je mogoče samo povpraševanja v stanju **Osnutek**.
-
----

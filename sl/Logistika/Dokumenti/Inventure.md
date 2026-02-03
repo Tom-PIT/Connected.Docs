@@ -1,8 +1,8 @@
 # Inventure
 
-Dokument **Inventura** se uporablja za preverjanje in popravljanje zalog na določeni skladiščni lokaciji. Sistem primerja **teoretično zalogo**, zabeleženo v sistemu, z **dejansko zalogo**, ki je fizično prisotna na lokaciji. Če se ugotovijo razlike, lahko količine posodobite in dokument objavite, s čimer se zaloga ustrezno prilagodi.
+Dokument **Inventura** se uporablja za preverjanje in popravljanje zalog na določeni skladiščni lokaciji. Sistem primerja **teoretično zalogo**, zabeleženo v sistemu, z **dejansko zalogo**, ki je fizično prisotna na lokaciji. Če se ugotovijo razlike, lahko posodobite količine in dokument objavite, s čimer se zaloga ustrezno uskladi z dejanskim stanjem.
 
-Inventura se izvaja **po lokacijah** in prikaže vse materiale, shranjene na izbrani lokaciji, skupaj z indikatorji manjkajočih ali presežnih količin. Za razumevanje nastanka zaloge lahko neposredno odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** ali [**Pogled zaloge po serijski številki**](../Dokumenti/Zaloga.md#pogled-zaloge-po-serijski-stevilki).
+Inventura se izvaja **po lokacijah** in prikaže vse materiale, shranjene na izbrani lokaciji, skupaj z indikatorji manjkajočih ali presežnih količin. Za razumevanje nastanka zaloge lahko neposredno odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** ali **[Pogled zaloge po serijski številki](../Dokumenti/Zaloga.md#pogled-zaloge-po-serijski-stevilki)**.
 
 Minimalni in maksimalni pragovi, prikazani v povzetkih, se nastavijo v šifrantu  
 **[Meje zaloge](../Upravljanje/MejeZaloge.md)**.
@@ -14,16 +14,20 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator inventurnega dokumenta. |
-| **Datum dokumenta** | Datum, ko je inventura izvedena ali zabeležena. |
+| **Datum dokumenta** | Datum, ko se inventura izvaja ali evidentira. |
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem se izvaja inventura. |
 | [**Lokacija**](../Upravljanje/Lokacije.md) | Konkretna lokacija znotraj skladišča, ki se preverja. |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -31,6 +35,8 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 | **Lokacija** | Lokacija, na kateri se inventura izvaja. |
 | **Teoretično** | Količina, ki je trenutno zabeležena v sistemu. |
 | **Dejanski** | Fizično preverjena količina (urejanje dovoljeno). |
+
+</details>
 
 ## Seznam inventurnih dokumentov
 
@@ -70,12 +76,13 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nov
    - **Manjka** — število materialov, pri katerih je dejanska količina manjša od teoretične  
    - **Presežek** — število materialov, pri katerih je dejanska količina večja od teoretične  
 
-4. V razdelku **Postavke** ima stolpec **Dejansko** privzeto vrednost **0**.  
+4. V razdelku **Postavke** ima stolpec **Dejanski** privzeto vrednost **0**.  
    Vnesite dejanske fizične količine. Ko je vrednost drugačna od teoretične, se to samodejno odrazi v razdelkih **Manjka** in **Presežek** v **Povzetku**.
 
    ![Urejanje inventure](../Images/InventoryEdits.png)
 
-5. Ko so vsi materiali preverjeni in so vnesene dejanske vrednosti, razdelek **Nerazporejeno** postane zelen in prikaže **0**.
+5. Ko so vsi materiali preverjeni in so vnesene dejanske vrednosti, razdelek **Nerazporejena** postane zelen in prikaže **0**.
+
 6. Kliknite **Objavi**, da potrdite inventuro. S tem se zaloga v sistemu posodobi in uskladi z dejanskim stanjem.
 
 Novo ustvarjen inventurni dokument se prikaže med **Osnutki**. Po objavi se premakne med **Objavljene** in zaloga se ustrezno popravi.
@@ -102,5 +109,3 @@ Možnosti so na voljo tako za *osnutke* kot za *objavljene* dokumente.
 
 S klikom na **Izbriši** lahko odstranite **osnutek** inventurnega dokumenta.  
 Objavljenih inventurnih dokumentov **ni mogoče izbrisati ali razveljaviti**.
-
----

@@ -2,7 +2,7 @@
 
 Stran **Zastoji organizacijskih enot** prikazuje podroben seznam vseh zabeleženih zastojev znotraj izbranih organizacijskih enot. Namenjena je nadzornikom in planerjem za pregled, kdaj se je zastoj začel in končal, kateri vir je bil prizadet, katera oznaka zastoja je bila uporabljena ter kakšno je bilo skupno trajanje.
 
-Do strani dostopate prek **Proizvodnja / Analiza / Zastoji organizacijskih enot** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Do strani dostopate prek **Proizvodnja / Analiza / Zastoji organizacijskih enot** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Zastoji organizacijskih enot](../Images/OrganizationUnitDowntimeView.png "Zastoji organizacijskih enot")
 

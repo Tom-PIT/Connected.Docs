@@ -2,7 +2,7 @@
 
 Configure **Resources** settings that affect document numbering and behavior for resource-related documents.  Any changes are saved automatically.
 
-To access this page, go to **Resources / Management / Configuration** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Resources / Management / Configuration** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Resources Configuration](../Images/ResourcesConfiguration.png)
 
@@ -18,5 +18,3 @@ Configure numbering behavior for **Travel Orders** documents.
 > [!TIP]
 >
 > Use a consistent document code format to make travel orders easier to identify and sort across years.
-
----

@@ -5,7 +5,7 @@
 Organizacijske enote uporabljajo planerji in nadzorniki za razmejevanje operacij, filtriranje seznamov in usmerjanje poteka dela (na primer izbiro ustrezne vhodne/izhodne skladiščne lokacije ali dodeljevanje nalog).  
 Primer: organizacijska enota s šifro **ORN-25-0002** predstavlja **Zaključevanje**, proizvodno enoto, odgovorno za končno obdelavo izdelkov pred pakiranjem; podobno je lahko organizacijska enota v **Vzdrževanju** na primer **Električno vzdrževanje** za servisiranje opreme.
 
-Za dostop do dokumentov **Organizacijske enote** pojdite na **Proizvodnja / Upravljanje / Organizacijske enote** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Organizacijske enote** pojdite na **Proizvodnja / Upravljanje / Organizacijske enote** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Organizacijske enote](https://www.youtube.com/watch?v=qGkHEuOEWT4)**.

@@ -11,7 +11,7 @@ This flow mirrors [**Move serial**](MoveSerial.md) but applies to containers (e.
 > For a full demonstration, see the **[Move container](https://www.youtube.com/watch?v=r_H76lJd7XY)** video tutorial.
 
 
-To access **Move container**, go to **Logistics / Documents / Move container** in the [navigation](../../Common/UI/Navigation.md).
+To access **Move container**, go to **Logistics / Documents / Move container** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ### Prerequisites
 
@@ -52,8 +52,6 @@ After confirmation:
 - The container’s location changes to the destination.
 - All items inside the container are shown at the destination in stock views.
 - All details can be reviewed in the **[Inter warehouse](InterWarehouse.md)** page.
-
----
 
 
 

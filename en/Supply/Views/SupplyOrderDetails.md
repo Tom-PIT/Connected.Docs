@@ -1,9 +1,9 @@
-﻿# Supply order details
+# Supply order details
 
 The Supply order details view provides an aggregated list of all order items from incoming [**supply order**](../Documents/SupplyOrders.md) documents.
 This view is analytical only — it does **not** create or change supply orders.
 
-To access this view, go to **Supply / Views / Supply order details** in the [navigation](../../Common/UI/Navigation.md).
+To access this view, go to **Supply / Views / Supply order details** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ![Supply order details](../Images/SupplyOrderDetailsView.png "Supply order details")
 
@@ -65,6 +65,4 @@ This view is designed for:
 - Supporting supply planning and warehouse preparation
 
 It complements the [**Supply orders**](../Documents/SupplyOrders.md) document screen by focusing on **items**, not documents.
-
----
 

@@ -12,7 +12,7 @@ Za boljši pregled trenutnega stanja in zgodovine premikov lahko odprete:
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Premakni serijsko številko](https://www.youtube.com/watch?v=dy1u6sKmdMg)**.
 
-Za dostop do **Premika serijske številke** pojdite na **Logistika / Dokumenti / Premakni serijsko številko** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Premika serijske številke** pojdite na **Logistika / Dokumenti / Premakni serijsko številko** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ---
 
@@ -74,5 +74,3 @@ Po zaključku:
 **Primer zabeleženega premika:**
 
 ![Zabeležen premik](../Images/MoveSerialInterWarehouseRecord.png)
-
----

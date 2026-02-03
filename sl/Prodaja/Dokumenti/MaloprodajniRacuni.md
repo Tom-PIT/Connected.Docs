@@ -3,7 +3,7 @@
 **Maloprodajni račun** je prodajni dokument, namenjen neposredni prodaji končnim kupcem (npr. prodaja na blagajni ali v trgovini). Običajno se ustvari ob samem nakupu, brez predhodne ponudbe ali naročila stranke.  
 Maloprodajni računi omogočajo takojšnje ali kasnejše evidentiranje plačil, vendar **ne vplivajo na stanje zaloge**. Premiki zaloge se vedno izvajajo ločeno prek logističnih dokumentov.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajni računi** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajni računi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Vloga maloprodajnih računov v prodajnem procesu
 
@@ -18,6 +18,9 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
    (ali z uporabo [**Dobavnice**](Dobavnice.md) + [**Izdaje**](../../Logistika/Dokumenti/Izdajnice.md), če gre za dostavo).
 
 ## Shema
+
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -37,7 +40,23 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
-### Polja postavk
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -46,6 +65,8 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 | **Neto cena** | Neto cena na enoto. |
 | **Popust (%)** | Neobvezen popust na postavki. |
 | **Vrednost** | Izračunane vrednosti (neto, davek, bruto). |
+
+</details>
 
 ## Upravljanje
 
@@ -157,5 +178,3 @@ Maloprodajni računi v stanju **Osnutek** se lahko izbrišejo le, če **ne vsebu
 3. Postopek ponovite za vse postavke.
 
 Objavljenih računov (ne glede na stanje plačila) **ni mogoče izbrisati**, mogoče pa jih je **stornirati** ali **vrniti v osnutek**, če je to dovoljeno s konfiguracijo.
-
----

@@ -100,5 +100,3 @@ Operations **can be deleted** on the Edit page, but only if they are:
 - Not referenced by other operations (e.g., as a parent)  
 - Not used in active production orders  
 
----
-

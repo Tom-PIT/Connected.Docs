@@ -2,7 +2,7 @@
 
 Matrike kompetenc se uporabljajo za definiranje, strukturiranje in spremljanje kompetenc zaposlenih v celotni organizaciji. Omogočajo hierarhično modeliranje znanj, določanje ravni usposobljenosti (plasti) ter povezovanje uporabnikov s posameznimi kompetencami.
 
-Za dostop do **Matrik kompetenc** pojdite na **Viri / Upravljanje / Matrike kompetenc** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Matrik kompetenc** pojdite na **Viri / Upravljanje / Matrike kompetenc** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

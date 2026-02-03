@@ -2,7 +2,7 @@
 
 **Issued invoices** are financial documents sent to customers so they can pay for confirmed sales. They summarize delivered goods or services, taxes, due dates, and chosen payment methods. From the **Issued invoices** page you can also record partial or full payments directly against each invoice.
 
-To access this page, go to **Sales / Documents / Issued invoices** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Issued invoices** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## How issued invoices fit into the sales workflow
 
@@ -16,6 +16,9 @@ Issued invoices are typically created at the end of the sales chain:
 Invoices can also be created manually as stand-alone documents when required.
 
 ## Schema
+
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -32,12 +35,36 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 | **Payment method** | Payment option selected from [**Payment methods**](../Management/PaymentMethods.md). |
+</details>
+
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Intrastat</strong></summary>
 
 
-### Detail fields
+| Field | Description |
+|------|-------------|
+| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
+| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -46,6 +73,7 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Net price** | Net price per unit, usually taken from price lists or the related document. |
 | **Discount (%)** | Optional line-level discount. |
 | **Value** | Calculated line totals (net, tax, and gross amounts). |
+</details>
 
 ## Management
 
@@ -138,6 +166,7 @@ Once you start a new Issued invoice, follow these steps:
 
 6. (Optional) Add:
    - **Content top / Content bottom** text  
+   - **Alternative currency** (see below)
    - **Delivery information**  
    - **Attachments**  
 
@@ -154,6 +183,8 @@ Click any issued invoice in the list to open it. Draft invoices can be edited fr
 While the invoice is in **Draft** status you can edit all sections:
 
 - Header fields (dates, references, customer, bank account, etc.)
+- Alternative currency
+- Transport
 - Delivery information
 - **Details** – add, remove, or change invoice lines
 - **Payment methods** – define how the customer is expected to pay
@@ -187,6 +218,28 @@ Available actions may include:
 - [**+ Debit note**](DebitNotes.md) - Create a debit note
 - [**Delivery note**](DeliveryNotes.md) - Link to an exiting delivery note.
 - [**Prepayments**](Prepayments.md) - Link to an exiting prepayment.
+
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+## Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+
+![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+
+> [!NOTE]  
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ### Publishing an invoice
 
@@ -243,6 +296,4 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > - Only **draft** invoices can be deleted.  
 > - Once an invoice is published, you can no longer delete it; instead, use **[Reverse document](../../Logistics/Documents/Reversals.md)** or **Return to draft** if available.  
 > - If any payments have been recorded, the invoice cannot be deleted until those payments are removed and the document is returned to draft.
-
-___
 

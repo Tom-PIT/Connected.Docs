@@ -20,7 +20,7 @@ The screen also provides a downloadable example file, which shows the required s
 > If a referenced measure unit or tax rate is missing, it will be created automatically during import. Reviewing these lists in advance helps ensure correct naming and mappings.
 
 To access the **Import materials** code list, go to **Assets / Materials /
-Import materials** in the [navigation](../../Common/UI/Navigation.md).
+Import materials** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -108,6 +108,4 @@ After the import completes, the status updates in the table, indicating which ro
 Click any import on the **Created** column on the import list to review the results and any possible errors.
 
 ![Import materials report](../Images/ImportMaterialsReport.png "Import materials report")
-
----
 

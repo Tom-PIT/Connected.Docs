@@ -2,7 +2,7 @@
 
 Konfiguracija **Logistike** omogoča nastavitev vedenja zaloge, oblik zapisa serijskih številk in številčenja dokumentov. Vse spremembe se **samodejno shranijo**.
 
-Za dostop do te strani pojdite na **Logistika / Upravljanje / Konfiguracija** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Logistika / Upravljanje / Konfiguracija** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Konfiguracija logistike](../Images/LogisticsConfiguration.png)
 
@@ -26,5 +26,3 @@ Izberite model številčenja in format za logistične dokumente (Prevzemi, Izdaj
 |------|------|
 | **Način številčenja dokumenta** | • **Povečevanje vsako leto:** zaporedje se vsako leto ponastavi <br> • **Povečevanje:** globalno zaporedje, ki se nikoli ne ponastavi |
 | **Oblika zapisa šifre dokumenta** | Vzorec, ki določa strukturo šifre dokumenta (npr. PREDPONA-LETO-ŠTEVILKA). |
-
----

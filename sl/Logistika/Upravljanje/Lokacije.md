@@ -2,7 +2,7 @@
 
 Ta šifrant predstavlja **skladiščne lokacije** znotraj posameznih [skladišč](Skladisca.md). Vsaka lokacija določa specifično območje ali podrazdelek, kot so regal, polica ali predal, ter omogoča natančno organizacijo in sledenje materialov znotraj skladišča.
 
-Za dostop do tega šifranta pojdite na **Logistika / Upravljanje / Lokacije** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega šifranta pojdite na **Logistika / Upravljanje / Lokacije** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič  
@@ -96,5 +96,3 @@ Prikaže se potrditveno pogovorno okno:
 
 > [!NOTE]
 > Lokacije ni mogoče izbrisati, če je uporabljena v zalogovnih zapisih ali logističnih dokumentih.
-
----

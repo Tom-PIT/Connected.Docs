@@ -2,7 +2,7 @@
 
 Ta šifrant predstavlja **skladišča**, ki se uporabljajo v celotnem sistemu. Vsako skladišče določa fizično ali logično mesto shranjevanja, ki podpira ravnanje z materiali, zalogovne operacije in logistične procese.
 
-Za dostop do tega šifranta pojdite na **Logistika / Upravljanje / Skladišča** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do tega šifranta pojdite na **Logistika / Upravljanje / Skladišča** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Skladišča in skladiščne lokacije](https://www.youtube.com/watch?v=3sEE9Mrtx6M)**.
@@ -57,5 +57,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]
 > Skladišče je mogoče izbrisati le, če ni uporabljeno v odvisnih zapisih, kot so zalogovne transakcije ali premiki materialov.
-
----

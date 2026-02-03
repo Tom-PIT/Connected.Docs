@@ -1,8 +1,8 @@
-﻿# Currencies
+# Currencies
 
 The **Currencies** code list defines all monetary units that can be used across the system. Each currency includes its international code, symbol, and formatting rules, ensuring that prices, totals, and financial documents are displayed consistently and correctly. This list serves as the foundation for representing amounts in sales, purchasing, and reporting processes.
 
-This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Cost centers** in the [navigation](../../Common/UI/Navigation.md).
+This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Cost centers** in the [**navigation**](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -69,7 +69,5 @@ If confirmed, the record is permanently removed; otherwise, the system keeps it 
 
 > [!NOTE]  
 > A currency can be deleted only if it is **not referenced** by price lists, documents, or other financial records.
-
----
 
 

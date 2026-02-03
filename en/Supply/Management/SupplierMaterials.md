@@ -4,7 +4,7 @@ Supplier materials represent the list of materials that vendors provide to your 
 
 This code list ensures that procurement processes can correctly identify which materials are available from each vendor and at what cost.
 
-To access this code list, go to **Supply / Management / Supplier materials** in the [navigation](../../Common/UI/Navigation.md).
+To access this code list, go to **Supply / Management / Supplier materials** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -119,7 +119,5 @@ If confirmed, the supplier material is permanently removed.
 
 > [!NOTE]  
 > A supplier material can be deleted only if it is not referenced by other records.
-
----
 
 

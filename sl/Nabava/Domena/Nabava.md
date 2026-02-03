@@ -4,7 +4,7 @@ Področje **Nabava** upravlja vse procese, povezane z nabavo, sodelovanjem z dob
 
 Medtem ko področje **[Prodaja](../../Prodaja/Domena/Prodaja.md)** upravlja procese, usmerjene k strankam, področje Nabava upravlja procese, usmerjene k dobaviteljem, ki zagotavljajo razpoložljivost materialov ob pravem času.
 
-Za dostop do področja Nabava pojdite na **Nabava** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do področja Nabava pojdite na **Nabava** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ![Področje Nabava](../Images/SupplyDomainSitemap.png "Področje Nabava")
 
@@ -116,5 +116,3 @@ Področje Nabava je povezano z drugimi operativnimi področji:
 Področje Nabava upravlja vse nabavne aktivnosti ter zagotavlja pravočasno obnovo zalog in učinkovito sodelovanje z dobavitelji.
 
 Podpira povpraševanje, naročanje, planiranje in analizo ter se tesno povezuje z logistiko, financami, proizvodnjo in upravljanjem materialov.
-
----

@@ -12,7 +12,7 @@ Each exchange rate is defined **from one currency to another** (Base → Target)
 > [!IMPORTANT]
 > [**Currencies**](../../Common/Management/Currencies.md) must be defined before creating exchange rates.
 
-To access this page, go to **Sales / Management / Exchange rates** in the [navigation](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Exchange rates** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -60,5 +60,3 @@ Each row shows:
 > - Exchange rates are applied automatically by the system where currency conversion is required.
 > - Rates are date-sensitive; ensure the correct date is selected to match the transaction date.
 > - Only base-to-target conversions are supported; reverse rates must be defined explicitly if needed.
-
----

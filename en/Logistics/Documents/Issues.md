@@ -7,11 +7,12 @@ During the issuing process, you scan or search for the items being delivered, co
 > [!TIP]
 > For a full demonstration, see the **[Issue](https://www.youtube.com/watch?v=SrVyblBiLmQ)** video tutorial.
 
-To access Issues, go to **Logistics / Documents / Issues** in the [navigation](../../Common/UI/Navigation.md).
+To access Issues, go to **Logistics / Documents / Issues** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -21,7 +22,10 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 | **Customer** | Customer receiving the goods , selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Notes** | Additional remarks related to the document. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -30,6 +34,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 | **Best before** | Expiration date (if the material has shelf life). |
 | [**Warehouse location**](../Management/Locations.md) | Current storage location of the selected item. |
 | **Quantity (pc)** | Quantity being issued. |
+
+</details>
 
 ## List of issue documents
 
@@ -129,5 +135,3 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]
 > Committed documents **cannot** be deleted — only [reversed](Reversals.md).
-
----

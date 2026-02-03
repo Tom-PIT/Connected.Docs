@@ -26,33 +26,61 @@ Debit notes affect accounting only and do not impact inventory.
 
 ## Schema
 
+<details open>
+  <summary><strong>Document</strong></summary>
+
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the debit note. |
+| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the credit note. |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer being charged, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
-| **Issue date** | Date when the debit note is issued. |
+| **Customer** | Customer receiving the credit, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Issue date** | Date when the credit note is issued. |
 | **Delivery date** | Original delivery date of the invoiced goods or services. |
-| **Due date** | Date when the additional amount becomes payable (mandatory). |
+| **Due date** | Date when the credit becomes effective (mandatory). |
 | **Reference type** | Type of payment reference used (mandatory). |
 | **Reference number** | Reference number based on the chosen reference type. |
-| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account where payment should be received (mandatory). |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account used for refunds or accounting (mandatory). |
 | **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
-| **Purpose code** | Optional reason or classification for the debit. |
-| **Rebate** | Overall rebate applied to the debit note, if applicable. |
+| **Purpose code** | Optional reason or classification for the credit. |
+| **Rebate** | Overall rebate applied to the credit note. |
 | **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Delivery** | Delivery company and address information. |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
 
-### Detail fields
+<details>
+  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Assets/Assets.md) | Charged item or service. |
-| **Quantity** | Quantity being charged (positive value). |
+| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+| **Delivery** | Delivery company and address information. |
+</details>
+
+<details>
+  <summary><strong>Intrastat</strong></summary>
+
+
+| Field | Description |
+|------|-------------|
+| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
+| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| [**Asset**](../../Assets/Assets/Assets.md) | Credited item or service. |
+| **Quantity** | Quantity being credited (usually negative). |
 | **Net price** | Net price per unit. |
 | **Discount (%)** | Optional line-level discount. |
-| **Value** | Calculated totals (net, tax, gross) with positive amounts. |
+| **Value** | Calculated totals (net, tax, gross) with negative amounts. |
+</details>
 
 ## Management
 
@@ -111,6 +139,9 @@ Only **Draft** debit notes can be edited.
 
 You can modify:
 - Header fields  
+- Alternative currency
+- Transport
+- Delivery information
 - Detail lines  
 - Content texts (top and bottom)
 
@@ -127,6 +158,27 @@ The **Linked documents** section allows you to link a previously created **Issue
 ![Link issued invoice](../Images/CreditDebitNoteLinkedDocuments.png)
 
 Published debit notes do **not** display the Linked documents section.
+
+#### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+## Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+
+![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+> [!NOTE]  
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ## Menu
 
@@ -154,6 +206,4 @@ If you need to delete some individual detail lines:
 Once empty, the **Delete** action can be performed.
 
 Committed debit notes **cannot** be deleted, but they can be [**reversed**](../../Logistics/Documents/Reversals.md) or **returned to draft**.
-
----
 

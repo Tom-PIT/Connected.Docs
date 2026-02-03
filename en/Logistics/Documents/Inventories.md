@@ -7,11 +7,12 @@ Inventory checks are performed per location and show all materials stored there,
 > [!TIP]
 > For a full demonstration, see the **[Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8)** video tutorial.
 
-To access Inventories, go to **Logistics / Documents / Inventories** in the [navigation](../../Common/UI/Navigation.md).
+To access Inventories, go to **Logistics / Documents / Inventories** in the [**navigation**](../../Common/UI/Navigation.md).
 
 ## Schema
 
-### Document section
+<details open>
+  <summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -20,7 +21,10 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the inventory verification is taking place. |
 | [**Location**](../Management/Locations.md) | Specific location within the selected warehouse that is being verified. |
 
-### Detail section
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -28,6 +32,8 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 | **Location** | Storage location where the inventory is being performed. |
 | **Theoretical** | Quantity currently recorded in the system. |
 | **Actual** | Physically verified quantity (editable). |
+
+</details>
 
 ## List of inventory documents
 
@@ -99,5 +105,3 @@ These options are available for both *draft* and *committed* documents.
 ## Deletion
 
 Click **Delete** to remove a **draft** inventory document. Committed inventory documents **cannot** be deleted or reversed.
-
----

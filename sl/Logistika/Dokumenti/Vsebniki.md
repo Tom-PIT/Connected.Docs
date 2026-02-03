@@ -5,11 +5,12 @@
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Vsebniki](https://www.youtube.com/watch?v=2V9K1jTsyQI)**.
 
-Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [navigaciji](../../Skupno/UI/Navigacija.md).
+Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
-### Razdelek dokumenta
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -18,7 +19,10 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 | **Datum dokumenta** | Datum, ko je bil dokument vsebnika ustvarjen. |
 | [**Lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija (npr. regal / polica). |
 
-### Razdelek postavk
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -27,6 +31,8 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 | **Datum do** | Datum poteka, če se sledi roku uporabe. |
 | **Skladiščna lokacija** | Lokacija postavke po vrstici (če je relevantno). |
 | **Količina** | Količina zapakirane postavke. |
+
+</details>
 
 ## Seznam dokumentov vsebnikov
 
@@ -98,5 +104,3 @@ V **meniju dokumenta** so na voljo naslednje možnosti:
 
 - Osnutke vsebnikov je mogoče prosto izbrisati
 - Zapakiranih vsebnikov **ni mogoče izbrisati**; za sprostitev vsebine uporabite **Razpusti**
-
----
