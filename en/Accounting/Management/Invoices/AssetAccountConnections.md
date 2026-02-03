@@ -34,6 +34,17 @@ The **Asset posting type** determines *when* the selected account is used. Avail
 > [!NOTE]
 Each posting type represents a different accounting scenario. Multiple account connections can be defined for the same asset, one per posting type.
 
+## List view
+
+The list view displays all defined asset account connections.
+
+![Asset Account Connections List](../../Images/AssetAccountConnectionsList.png "Asset Account Connections List")
+
+Each row shows:
+* **Asset**
+* **Asset posting type**
+* **Account**
+
 ## Actions
 
 ### Add an asset account connection
