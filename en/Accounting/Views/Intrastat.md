@@ -4,7 +4,7 @@ The **Intrastat** view provides an overview of transactions that are subject to 
 
 To access this screen, go to **Accounting / Views / Intrastat** in the [navigation](../../Common/UI/Navigation.md).
 
-![Intrastat view](../../Images/IntrastatView.png)
+![Intrastat view](../Images/IntrastatView.png)
 
 > [!NOTE]
 > This view is read-only. Corrections must be made in the source documents or relevant code lists, after which the Intrastat view is recalculated automatically.
@@ -89,6 +89,4 @@ The correctness of this view depends on proper configuration of:
 - delivery terms
 - mode of transport
 - place of delivery
-
-## Notes
 
