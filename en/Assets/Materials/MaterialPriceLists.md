@@ -11,7 +11,8 @@ To access this screen, navigate to **Assets / Materials / Material price lists**
 
 ## Schema
 
-### Price list header
+<details open>
+<summary><strong>Price list</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -19,7 +20,10 @@ To access this screen, navigate to **Assets / Materials / Material price lists**
 | **Valid from** | Start date when the price list becomes active. |
 | **Valid to** | End date of the price list validity period. |
 
-### Price list details
+</details>
+
+<details>
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -30,6 +34,8 @@ To access this screen, navigate to **Assets / Materials / Material price lists**
 | **Range from / Range to** | Quantity interval where the rule applies. |
 | **Percentage (%)** | Percentage of the base price applied for the range. |
 | **Item price net** | Calculated net price for the specified range. |
+
+</details>
 
 ## Management
 
