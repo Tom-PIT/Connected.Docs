@@ -65,16 +65,16 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Surovine**](Sredstva/Materiali/Surovine.md)
 - [**Uvoz materialov**](Sredstva/Materiali/UvozMaterialov.md)
 
-## Podpora strankam
-- [**Nastavitve obveščanja**](PodporaStrankam/Upravljanje/NastavitveObvescanja.md)
-- [**Mize**](PodporaStrankam/Upravljanje/Mize.md)
+## Stranke
+- [**NastavitveObvestil**](Stranke/Upravljanje/NastavitveObvestil.md)
+- [**Podrocja**](Stranke/Upravljanje/Podrocja.md)
 - [**Poslovni imenik**](Skupno/Upravljanje/PoslovniImenik.md)
-- [**Institucionalni sektorji**](PodporaStrankam/Upravljanje/InstitucionalniSektorji.md)
+- [**Institucionalni sektorji**](Stranke/Upravljanje/InstitucionalniSektorji.md)
 - [**Nazivi delovnih mest**](Skupno/Upravljanje/NaziviDelovnihMest.md)
 
 ## Znanje
 - [**Imeniki**](Znanje/Upravljanje/Imeniki.md)
-- [**Oznake imenikov**](Znanje/Upravljanje/OznakeImenikov.md)
+- [**Oznake imenika**](Znanje/Upravljanje/OznakeImenika.md)
 
 ## Logistika
 - [**Konfiguracija logistike**](Logistika/Upravljanje/KonfiguracijaLogistike.md)
@@ -126,10 +126,10 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 
 ## Prodaja
 - [**Konfiguracija prodaje**](Prodaja/Upravljanje/KonfiguracijaProdaje.md)
-- [**Načini plačil**](Prodaja/Upravljanje/NaciniPlacil.md)
+- [**Način plačila**](Prodaja/Upravljanje/NacinPlacila.md)
 - [**Bančni računi organizacije**](Skupno/Upravljanje/BancniRacuni.md)
-- [**Tečaji**](Skupno/Upravljanje/Valute.md)
-- [**Zunanji šifranti**](Prodaja/Upravljanje/ZunanjiSifranti.md)
+- [**Valute**](Skupno/Upravljanje/Valute.md)
+- [**Kode namenov plačil**](Prodaja/Upravljanje/KodeNamenovPlacil.md)
 - [**Predloge klavzul – izdani računi**](Prodaja/Upravljanje/PredlogeKlavzulZaIzdaneRacune.md)
 - [**Predloge klavzul – dobavnice**](Prodaja/Upravljanje/PredlogeKlavzulZaDobavnice.md)
 - [**Poslovni imenik**](Skupno/Upravljanje/PoslovniImenik.md)
