@@ -87,5 +87,3 @@ V **prevzemnih dokumentih** se količine, vnesene v alternativni merski enoti, s
 > - Osnovne merske enote ni mogoče spreminjati na tem zaslonu  
 > - Pretvorbena razmerja se dosledno uporabljajo v celotnem sistemu  
 > - Sprememba ali odstranitev alternativne merske enote lahko vpliva na poteke pakiranja in prevzema  
-
----

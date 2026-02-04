@@ -116,5 +116,3 @@ Cenik materialov je mogoče izbrisati **samo, če ne vsebuje nobenih podrobnosti
 4. Postopek ponovite, dokler ne ostane nobena podrobnost
 
 Ko je cenik prazen, ga lahko izbrišete na zaslonu za urejanje.
-
----

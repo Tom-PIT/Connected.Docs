@@ -18,21 +18,62 @@ Za dostop do šifranta **Repro materiali** pojdite na
 
 ## Shema
 
+<details open>
+<summary><strong>Repro material</strong></summary>
+
 | Polje | Opis |
 |------|------|
-| **Šifra** | Enolični identifikator repro materiala znotraj seznama materialov. Na primer **REP-VIJ-2**. Šifra mora biti enolična med vsemi materiali. |
-| **Naziv** | Ime, prikazano v seznamih in dokumentih. Na primer **Vijak 6 mm**. |
+| **Šifra** | Enolični identifikator repro materiala znotraj seznama materialov. Na primer **REP-VIJ-2**. Šifra mora biti enolična med vsemi materiali. (obvezno) |
+| **Naziv** | Ime, prikazano v seznamih in dokumentih. Na primer **Vijak 6 mm**. (obvezno) |
 | **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
 | **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
 | **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
-| **Osnovna [merska enota](../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. |
+| **[Osnovna merska enota](../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. (obvezno) |
 | **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
-| **Davek** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
+| **[Davek](../../Skupno/Upravljanje/DavcneStopnje.md)** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
+
+</details>
+
+<details>
+<summary><strong>Pakiranje</strong></summary>
+
+**Definicija pakiranja** opisuje fizikalne lastnosti materiala in alternativne enote, ki se uporabljajo pri ravnanju z njim v skladišču. To je mogoče nastaviti tudi v razdelku [**Pakiranje**](Pakiranje.md).
+
+| Polje | Opis |
+|-------|------|
+| **EAN** | Črtna koda pakiranja. |
+| **Količina (kos)** | Količina, ki jo predstavlja pakirna enota (npr. 6 kosov na škatlo). |
+| **Alternativna merska enota** | Alternativna enota za ravnanje ali poročanje (npr. paket). |
+| **Teža** | Vnesite neto in bruto težo pakiranja. |
+| **Dimenzije** | Vnesite širino, višino in globino pakirne enote. |
+
+</details>
+
+<details>
+<summary><strong>Dodatno</strong></summary>
+
+| Polje | Opis |
+|------|------|
 | **Opis** | Kratek interni opis, ki pojasnjuje uporabo ali specifikacije izdelka. Na primer **Masiven hrast, oljen**. |
 | **Oznake** | Oznake za kategorizacijo in filtriranje. Na primer **pohištvo**, **premium**. |
 | **Info povezava** | Povezava do zunanjih informacij ali dokumentacije o izdelku. |
 | **URL do slike izdelka** | Javna povezava do slike izdelka. |
 | **Zunanji ključ** | Identifikator zapisa v zunanjem sistemu, na primer **SAP-4711**. |
+
+</details>
+
+<details>
+<summary><strong>Intrastat in Glavna knjiga</strong></summary>
+
+| Polje | Opis |
+|------|------|
+| **[Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Carinska tarifa za statistično in carinsko poročanje. |
+| **[Država porekla](../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
+| **Pretvornik mase** | Faktor za pretvorbo osnovne merske enote v maso (npr. kg). Uporablja se v Intrastatu ali analitiki, ko je potreben podatek o teži. |
+| **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge tega materiala. |
+| **[Konto stroška](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Konto stroška ob porabi ali uporabi repro materiala. |
+
+</details>
 
 ## Upravljanje
 
@@ -88,6 +129,15 @@ Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
 - [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
 - [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
 
+#### Intrastat in Glavna knjiga
+
+Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri poročanju.
+
+![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedger.png "Materiali Intrastat in Glavna knjiga")
+
+> [!WARNING]
+> V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
+
 #### Dodatno
 
 Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodaten kontekst, vendar ne vplivajo na izračune zaloge.
@@ -114,5 +164,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]
 > Repro material je mogoče izbrisati le, če ni referenciran v odvisnih zapisih (npr. premiki zaloge, proizvodni procesi ali dokumenti).
-
----
