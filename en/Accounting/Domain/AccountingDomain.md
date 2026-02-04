@@ -75,6 +75,7 @@ Ledger management contains **technical and accounting configuration** that contr
 
 Available configuration includes:
 
+- **[Ledger configuration](../Management/Ledger/LedgerConfiguration.md)** – Global settings for ledger behavior.
 - **[Chart of accounts](../Management/Ledger/ChartOfAccounts.md)** – Definition of all general ledger accounts.
 - **[Stock initial states](../Management/Ledger/StockInitialStates.md)** – Opening balances for stock valuation.
 - **[Account defaults](../Management/Ledger/AccountDefaults.md)** – Default accounts used during posting.

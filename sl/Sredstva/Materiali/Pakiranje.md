@@ -1,11 +1,14 @@
 # Pakiranje
 
-**Pakiranje** določa, kako je material zapakiran, vključno s količino, težo, dimenzijami in neobveznimi alternativnimi merskimi enotami. Uporablja se za:
+**Pakiranje** določa, kako je material zapakiran, vključno s količino, težo, dimenzijami in neobveznimi alternativnimi merskimi enotami. Podatki o pakiranju so ključni za logistiko, pošiljanje in upravljanje zalog. Uporablja se za:
 
 - **[Izdelki](Izdelki.md)**  
 - **[Polizdelki](Polizdelki.md)**  
 - **[Repro materiali](ReproMateriali.md)**  
 - **[Surovine](Surovine.md)**  
+
+> [!NOTE]
+> Podrobnosti pakiranja za posamezno vrsto materiala je mogoče določiti tudi v razdelkih materiala.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pakiranje](https://www.youtube.com/watch?v=-0T_l14bg5s)**.
@@ -16,6 +19,8 @@ Za dostop do nastavitev pakiranja pojdite na **Sredstva / Materiali / Pakiranje*
 
 | Polje | Opis |
 |-------|------|
+| **Tip materiala** | Kategorija materiala, ki mu je dodeljeno pakiranje (npr. Izdelki, Polizdelki, Repro materiali, Surovine). |
+| **Entiteta** | Konkretni materialni zapis znotraj izbrane vrste materiala. |
 | **EAN** | Enolični identifikator pakiranja. Uporablja se tudi za označevanje. |
 | **Količina** | Število kosov, vključenih v eno pakiranje. |
 | **Alternativna merska enota** | (Neobvezno) Alternativna merska enota za vsebino pakiranja. |
@@ -100,5 +105,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]
 > Zapis pakiranja je mogoče izbrisati le, če ni referenciran v drugih sistemskih entitetah.
-
----

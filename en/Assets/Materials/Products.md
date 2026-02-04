@@ -17,27 +17,64 @@ To access the **Products** code list, go to **Assets / Materials / Products** in
 
 ## Schema
 
+<details open>
+<summary><strong>Product</strong></summary>
+
 | Field | Description |
 |-------|-------------|
-| **Code** | Unique identifier of the product within the list of materials. For example **2625001** or **MIZ-ČLS**. The code must be unique across all materials. |
-| **Name** | Name of the product shown in lists and documents. For example **Table – Oak**. |
+| **Code** | Unique identifier of the product within the list of materials. For example **2625001** or **MIZ-ČLS**. The code must be unique across all materials. (required) |
+| **Name** | Name of the product shown in lists and documents. For example **Table – Oak**. (required) |
 | **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before expiration, used for perishable goods. For example **30** or **365**. |
 | **EAN** | Barcode value used for scanning. For example **3831234567890**. |
-| **Base measure unit** | Measure unit used to express quantities, such as **piece** or **meter**. |
-| **Tax rate** | Default tax rate used in business documents. For example **22** or **9.5**. |
-| **Precision** | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
+| **[Base measure unit](../../Common/Management/MeasureUnits.md)** | Measure unit used to express quantities, such as **piece** or **meter**. (required) |
+| **Precision**        | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
+| **[Tax rate](../../Common/Management/TaxRates.md)** | Default tax rate used in business documents. For example **22** or **9.5**. |
+
+</details>
+
+<details>
+<summary><strong>Packaging</strong></summary>
+
+A packaging definition describes the physical properties of a material and the alternative units used when handling it in the warehouse. This can also be set in [**Packaging**](Packaging.md).
+
+| Field | Description |
+|-------|-------------|
+| **Material type** | Classification of the material (e.g., product, semi-product) used for packaging context. |
+| **Products / Entity / Beech Table** | Example reference to the product/entity this packaging applies to. |
+| **EAN** | Packaging barcode. |
+| **Quantity (pc)** | Quantity represented by the packaging unit (e.g., 6 pcs per box). |
+| **Alternative measure unit** | Alternative unit for handling or reporting (e.g., pack). |
+| **Weight** | Enter both net and gross weight for the packaging unit. |
+| **Dimensions** | Enter width, height, and depth of the packaging unit. |
+
+</details>
+
+<details>
+<summary><strong>Additional</strong></summary>
+
+| Field | Description |
+|-------|-------------|
 | **Description** | Short internal description explaining the use or specifications of the product. For example **Solid oak, oiled**. |
 | **Tags** | Tags used for categorization and filtering. For example **furniture**, **premium**. |
 | **Info link URL** | URL linking to external product information or documentation. For example *https://example.domain/info*. |
 | **Image URL** | Public URL pointing to the product image. For example *https://example.domain/images/product.jpg*. |
 | **External key** | Identifier in an external system used for cross-system record linking, for example **SAP-4711**. |
-| **Active** | Indicates whether the product is available for use in new documents. Inactive products cannot be added to new entries but remain visible in the history. |
+
+</details>
+
+<details>
+<summary><strong>Ledger and Intrastat</strong></summary>
+
+| Field | Description |
+|-------|-------------|
+| [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance-sheet account for stock value of this product. Set per material when overriding defaults. |
+| [**Account expense**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | P&L expense account (e.g., COGS) used when this product is consumed or sold, if overriding defaults. |
 | [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
 | [**Country origin**](../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
 | **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
-| [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance-sheet account for stock value of this product. Set per material when overriding defaults. |
-| [**Account expense**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | P&L expense account (e.g., COGS) used when this product is consumed or sold, if overriding defaults. |
+
+</details>
 
 ## Management
 

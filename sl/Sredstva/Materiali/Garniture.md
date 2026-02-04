@@ -56,5 +56,3 @@ Garnituro lahko razstavite, na primer ob prevzemu, če želite posamezne kompone
 
 Posamezne komponente lahko odstranite iz garniture tako, da jih izberete in kliknete **Izbriši**.  
 Po potrditvi se komponenta odstrani iz nadrejene garniture.
-
----
