@@ -1,11 +1,14 @@
 # Packaging
 
-Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. It applies to:
+Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. Packaging information is essential for logistics, shipping, and inventory management. It applies to:
 
 - [**Products**](Products.md)  
 - [**Semi products**](SemiProducts.md)  
 - [**Repro materials**](ReproMaterials.md)  
 - [**Raw materials**](RawMaterials.md)
+
+> [!NOTE]
+Packaging details for each specific material type can also be defined in the material sections.
 
 > [!TIP]
 > For a full demonstration, see the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video tutorial.
@@ -16,6 +19,8 @@ To access packaging configuration, go to: **Assets / Materials / Packaging** in 
 
 | Field | Description |
 |-------|-------------|
+| **Material type** | The material category this packaging is assigned to (e.g., Products, Semi products, Repro materials, Raw materials). |
+| **Entity** | The specific material record selected within the chosen material type. |
 | **EAN** | Unique packaging identifier. Also used for labeling. |
 | **Quantity (pc)** | Number of items included inside one package. |
 | **Alternative measure unit** | (Optional) Alternative unit of measure for packaging content. |

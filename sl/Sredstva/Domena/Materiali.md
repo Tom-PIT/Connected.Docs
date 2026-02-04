@@ -26,5 +26,3 @@ Ti šifranti podpirajo upravljanje in natančno definicijo štirih glavnih vrst 
 - **[Alternativne merske enote](../Materiali/AlternativneMerskeEnote.md)** – Dodatne merske enote, ki razširjajo osnovno mersko enoto materiala (npr. kosi, kilogrami, kvadratni metri) ter vključujejo nastavitve pretvorbe.
 - **[Ceniki materialov](../Materiali/CenikiMaterialov.md)** – Določajo nabavne cene, uporabljene za naročanje in interno vrednotenje materialov.
 - **[Garniture](../Materiali/Garniture.md)** – Vnaprej določeni sklopi materialov, združeni za lažjo izbiro v logističnih ali proizvodnih opravilih.
-
----
