@@ -99,6 +99,10 @@ Pogledi so namenjeni:
 
 Razdelek **Upravljanje** vsebuje vse šifrante in osnovne nastavitve, ki podpirajo delovanje platforme. Te nastavitve zagotavljajo, da dokumenti in procesi uporabljajo dosledne in veljavne podatke.
 
+> [!TIP]  
+> Za hiter dostop do posameznih člankov za **matične podatke** in **šifrante** uporabite [**kazalo upravljanja**](../../KazaloUpravljanja.md).
+
+
 Upravljanje vključuje na primer:
 
 - konfiguracijo sistema  

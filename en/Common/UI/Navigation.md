@@ -99,6 +99,9 @@ Views are designed for:
 
 The **Management** section contains all master data and code lists that support the platform. These settings ensure documents and processes use consistent, valid data.
 
+> [!TIP]
+> Use the [**Management index**](../../ManagementIndex.md) to quickly locate specific articles for master data and code lists.
+
 Management includes items such as:
 
 - Configuration  
