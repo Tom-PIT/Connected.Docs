@@ -16,31 +16,31 @@ This index lists all management and configuration documentation across domains. 
 - [**System**](#system)
 
 ## Accounting
-- [**Countries**](../../Common/Management/Countries.md)
-- [**Banks**](../../Common/Management/Banks.md)
-- [**Business directory**](../../Common/Management/BusinessDirectory.md)
-- [**Cost centers**](../../Common/Management/CostCenters.md)
-- [**Organization bank accounts**](../../Sales/Management/OrganizationBankAccounts.md)
-- [**Tax rates**](../../Common/Management/TaxRates.md)
-- [**Exchange rates**](../../Sales/Management/ExchangeRates.md)
+- [**Countries**](Common/Management/Countries.md)
+- [**Banks**](Common/Management/Banks.md)
+- [**Business directory**](Common/Management/BusinessDirectory.md)
+- [**Cost centers**](Common/Management/CostCenters.md)
+- [**Organization bank accounts**](Sales/Management/OrganizationBankAccounts.md)
+- [**Tax rates**](Common/Management/TaxRates.md)
+- [**Exchange rates**](Sales/Management/ExchangeRates.md)
 
 ### Invoices
-- [**Configuration**](../Management/Invoices/InvoicesConfiguration.md)
-- [**Asset account connections**](../Management/Invoices/AssetAccountConnections.md)
-- [**Predefined texts**](../../Common/Management/PredefinedTexts.md)
-- [**Clause templates for issued invoices**](../../Sales/Management/ClauseTemplatesIssuedInvoices.md)
-- [**Currencies**](../../Common/Management/Currencies.md)
-- [**Expenses**](../../Supply/Management/Expenses.md)
-- [**External code sets**](../../Sales/Management/ExternalCodeSets.md)
-- [**Cost centers**](../../Common/Management/CostCenters.md)
+- [**Configuration**](Accounting/Management/Invoices/InvoicesConfiguration.md)
+- [**Asset account connections**](Accounting/Management/Invoices/AssetAccountConnections.md)
+- [**Predefined texts**](Common/Management/PredefinedTexts.md)
+- [**Clause templates for issued invoices**](Sales/Management/ClauseTemplatesIssuedInvoices.md)
+- [**Currencies**](Common/Management/Currencies.md)
+- [**Expenses**](Supply/Management/Expenses.md)
+- [**External code sets**](Sales/Management/ExternalCodeSets.md)
+- [**Cost centers**](Common/Management/CostCenters.md)
 
 ### Intrastat
-- [**Nature of transactions**](../Management/Intrastat/NatureOfTransactions.md)
-- [**Delivery terms**](../../Common/Management/DeliveryTerms.md)
-- [**Mode of transport**](../../Common/Management/ModeOfTransport.md)
-- [**Place of delivery**](../Management/Intrastat/PlaceOfDelivery.md)
-- [**Supplementary units**](../Management/Intrastat/SupplementaryUnits.md)
-- [**Tariffs**](../Management/Intrastat/Tariffs.md)
+- [**Nature of transactions**](Accounting/Management/Intrastat/NatureOfTransactions.md)
+- [**Delivery terms**](Common/Management/DeliveryTerms.md)
+- [**Mode of transport**](Common/Management/ModeOfTransport.md)
+- [**Place of delivery**](Accounting/Management/Intrastat/PlaceOfDelivery.md)
+- [**Supplementary units**](Accounting/Management/Intrastat/SupplementaryUnits.md)
+- [**Tariffs**](Accounting/Management/Intrastat/Tariffs.md)
 
 ### Ledger
 - [**Account defaults**](Accounting/Management/Ledger/AccountDefaults.md)
@@ -55,7 +55,7 @@ This index lists all management and configuration documentation across domains. 
 
 ## Assets
 - [**Measure units**](Common/Management/MeasureUnits.md)
-- [**Tax rates**](../../Common/Management/TaxRates.md)
+- [**Tax rates**](Common/Management/TaxRates.md)
 
 ### Assets
 - [**Asset price lists**](Assets/Assets/AssetPriceLists.md)
@@ -74,21 +74,21 @@ This index lists all management and configuration documentation across domains. 
 
 ## Customer support
 
-- [**Notification settings**](CustomerSupport/Management/NotificationSettings.md)
-- [**Desks**](../Management/Desks.md)
-- [**Business directory**](../../Common/Management/BusinessDirectory.md)
-- [**Institutional sectors**](../Management/InstitutionalSectors.md)
-- [**Job titles**](../../Common/Management/JobTitles.md)
+- [**Notifications settings**](CustomerSupport/Management/NotificationsSettings.md)
+- [**Desks**](CustomerSupport/Management/Desks.md)
+- [**Business directory**](Common/Management/BusinessDirectory.md)
+- [**Institutional sectors**](CustomerSupport//Management/InstitutionalSectors.md)
+- [**Job titles**](Common/Management/JobTitles.md)
 
 ## Knowledge
-- [**Directories**](../Management/Directories.md)
-- [**Directory tags**](../Management/DirectoryTags.md)
+- [**Directories**](Knowledge/Management/Directories.md)
+- [**Directory tags**](Knowledge/Management/DirectoryTags.md)
 
 ## Logistics
 - [**Logistics configuration**](Logistics/Management/LogisticsConfiguration.md)
-- [**Business directory**](../../Common/Management/BusinessDirectory.md)
-- [**Countries**](../../Common/Management/Countries.md)
-- [**Mode of transport**](../../Common/Management/ModeOfTransport.md)
+- [**Business directory**](Common/Management/BusinessDirectory.md)
+- [**Countries**](Common/Management/Countries.md)
+- [**Mode of transport**](Common/Management/ModeOfTransport.md)
 - [**Locations**](Logistics/Management/Locations.md)
 - [**Material analysis management**](Logistics/Management/MaterialAnalysisManagement.md)
 - [**Stock boundaries**](Logistics/Management/StockBoundaries.md)
@@ -155,15 +155,15 @@ This index lists all management and configuration documentation across domains. 
 
 ## Supply
 - [**Supply configuration**](Supply/Management/SupplyConfiguration.md)
-- **[Supplier materials](../Management/SupplierMaterials.md)**
-- **[Expenses](../Management/Expenses.md)**
-- **[Business directory](../../Common/Management/BusinessDirectory.md)**
-- **[Cost centers](../../Common/Management/CostCenters.md)**
-- **[Currencies](../../Common/Management/Currencies.md)**
-- **[Predefined texts](../../Common/Management/PredefinedTexts.md)**
-- **[Countries](../../Common/Management/Countries.md)**
-- **[Measure units](../../Common/Management/MeasureUnits.md)**
-- **[Tax rates](../../Common/Management/TaxRates.md)**
+- **[Supplier materials](Supply//Management/SupplierMaterials.md)**
+- **[Expenses](Supply/Management/Expenses.md)**
+- **[Business directory](Common/Management/BusinessDirectory.md)**
+- **[Cost centers](Common/Management/CostCenters.md)**
+- **[Currencies](Common/Management/Currencies.md)**
+- **[Predefined texts](Common/Management/PredefinedTexts.md)**
+- **[Countries](Common/Management/Countries.md)**
+- **[Measure units](Common/Management/MeasureUnits.md)**
+- **[Tax rates](Common/Management/TaxRates.md)**
 
 ## System
 - [**Configuration**](System/Settings/Configuration.md)
