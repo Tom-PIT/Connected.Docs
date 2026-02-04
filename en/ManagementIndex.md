@@ -2,6 +2,19 @@
 
 This index lists all management and configuration documentation across domains. Use it to quickly find and open code lists, configurations, and master data screens.
 
+- [**Accounting**](#accounting)
+- [**Assets**](#assets)
+- [**Customer support**](#customer-support)
+- [**Knowledge**](#knowledge)
+- [**Logistics**](#logistics)
+- [**Production and Maintenance**](#production-and-maintenance)
+- [**Projects**](#projects)
+- [**Quality**](#quality)
+- [**Resources**](#resources)
+- [**Sales**](#sales)
+- [**Supply**](#supply)
+- [**System**](#system)
+
 ## Accounting
 - [**Countries**](../../Common/Management/Countries.md)
 - [**Banks**](../../Common/Management/Banks.md)
