@@ -81,8 +81,8 @@ This index lists all management and configuration documentation across domains. 
 - [**Job titles**](Common/Management/JobTitles.md)
 
 ## Knowledge
-- [**Directories**](Knowledge/Management/Directories.md)
-- [**Directory tags**](Knowledge/Management/DirectoryTags.md)
+- [**Directories**](Domains/Knowledge/Management/Directories.md)
+- [**Directory tags**](Domains/Knowledge/Management/DirectoryTags.md)
 
 ## Logistics
 - [**Logistics configuration**](Logistics/Management/LogisticsConfiguration.md)
