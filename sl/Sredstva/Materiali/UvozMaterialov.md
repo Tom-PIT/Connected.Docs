@@ -117,5 +117,3 @@ Kliknite katerikoli uvoz v stolpcu **Ustvarjeno** na seznamu uvozov, da pregleda
 
 ![Poročilo uvoza materialov](../Images/ImportMaterialsReport.png "Poročilo uvoza materialov")
 
----
-

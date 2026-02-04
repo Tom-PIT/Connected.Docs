@@ -13,6 +13,9 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](
 
 ## Shema
 
+<details open>
+<summary><strong>Sredstvo</strong></summary>
+
 | Polje | Opis |
 |------|------|
 | **Šifra** | Enolični identifikator sredstva (obvezno). |
@@ -24,8 +27,37 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](
 | **Neto teža (kg)** | Teža sredstva, če je relevantna (privzeto = 0). |
 | **EAN** | Črtna koda (neobvezno). |
 | **Oznake** | Neobvezne oznake za razvrščanje. |
+
+</details>
+
+<details>
+<summary><strong>Intrastat in Glavna knjiga</strong></summary>
+
+| Polje | Opis |
+|------|------|
+| **[Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Carinska tarifa za statistično in carinsko poročanje. |
+| **[Država porekla](../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
+| **Pretvornik mase** | Faktor za pretvorbo osnovne merske enote v maso (npr. kg). Uporablja se v Intrastatu ali analitiki, ko je potrebna teža. |
+| **Konto prihodkov na domačen trgu** | Prihodkovni konto, uporabljen za prodaje na domačem trgu. |
+| **Konto prihodka na trgih EU** | Prihodkovni konto, uporabljen za prodaje na trgih EU. |
+| **Konto prihodka na trgih izven EU** | Prihodkovni konto, uporabljen za prodaje na trgih izven EU. |
+| **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge, kadar je sredstvo povezano z zalogovno spremljanimi materiali. |
+
+</details>
+
+<details>
+<summary><strong>Dodatno in Podrobnosti</strong></summary>
+
+|  Polje | Opis |
+|-------|------|
 | **Opis** | Dodatno besedilo z razlago sredstva. |
 | **Podrobnosti** | Seznam komponent sredstva (npr. povezani materiali ali količine). |
+| **Dodaj novo podrobnost sredstva** | Dejanje za dodajanje nove podrobnosti sredstva. |
+| **Tip** | Tip podrobnosti (npr. Izdelki). |
+| **Entiteta** | Izbran [material](../Domena/Materiali.md) ali postavka, ki se poveže kot del sredstva. |
+| **Količina** | Količina povezane entitete. |
+
+</details>
 
 ## Dejanja
 
@@ -54,6 +86,14 @@ Vsaka podrobnost vključuje:
 ![Dodajanje podrobnosti sredstva](../Images/AssetsAddAssetDetail1.png "Dodajanje podrobnosti sredstva")  
 ![Seznam podrobnosti sredstva](../Images/AssetsAddAssetDetail2.png "Seznam podrobnosti sredstva")
 
+#### Intrastat in Glavna knjiga
+
+Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri poročanju.
+
+> [!WARNING]
+> V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
+
+
 ### Uvoz
 
 Dejanje **Uvoz** odpre obrazec *Uvoz po materialu*, ki omogoča hitro ustvarjanje sredstev na podlagi obstoječih materialov.
@@ -67,7 +107,7 @@ Uporabniki lahko izberejo:
 
 ![Uvoz sredstev](../Images/AssetsImport.png "Uvoz sredstev")
 
-Kliknite **Uvoz**, da ustvarite zapise sredstev, ali **Prekliči**, da zaprete obrazec brez sprememb.
+Kliknite **Uvoz**, da ustvarite zapiske sredstev, ali **Prekliči**, da zaprete obrazec brez sprememb.
 
 ## Filtri
 
@@ -89,5 +129,3 @@ Prikaže se potrditveno pogovorno okno:
 
 Če potrdite, se sredstvo trajno odstrani.  
 Če je sredstvo referencirano v drugih dokumentih ali zapisih, je lahko brisanje onemogočeno, dokler se odvisnosti ne razrešijo.
-
----

@@ -60,5 +60,3 @@ Spodnja tabela povzema ključne razlike:
 | **Sestava** | Lahko vsebuje materiale kot komponente. | Lahko je del kosovnic ali struktur sredstev. |
 | **Vidnost za kupce** | Vidno kupcem. | Interno, kupci materialov ne vidijo. |
 | **Življenjski cikel** | Tržno usmerjen. | Operativno usmerjen. |
-
----

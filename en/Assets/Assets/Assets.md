@@ -13,6 +13,9 @@ To access this screen, go to **Assets / Assets** in the [**navigation**](../../C
 
 ## Schema
 
+<details open>
+<summary><strong>Asset</strong></summary>
+
 | Field | Description |
 |-------|-------------|
 | **Code** | Unique identifier for the asset (mandatory). |
@@ -24,8 +27,37 @@ To access this screen, go to **Assets / Assets** in the [**navigation**](../../C
 | **Net weight (kg)** | Weight of the item, if applicable (default = 0). |
 | **EAN** | Barcode number (optional). |
 | **Tags** | Optional classification labels. |
+
+</details>
+
+<details>
+<summary><strong>Intrastat and Ledger</strong></summary>
+
+| Field | Description |
+|-------|-------------|
+| [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
+| [**Country origin**](../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
+| **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
+| **Domestic revenue account** | Revenue account used for domestic sales. |
+| **Revenue account in Europe markets** | Revenue account used for sales within EU markets. |
+| **Revenue account in non-Europe markets** | Revenue account used for sales outside EU markets. |
+| [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance-sheet account for stock value when linking assets to stock-tracked materials. |
+
+</details>
+
+<details>
+<summary><strong>Additional and Details</strong></summary>
+
+| Field | Description |
+|-------|-------------|
 | **Description** | Additional text explaining the asset. |
 | **Details** | List of asset components (e.g., linked materials or quantities). |
+| **Add new asset detail** | Action to add a new asset detail. |
+| **Type** | Type of [material](../Domain/Materials.md) of the detail (e.g., Products). |
+| **Entity** | Selected material or item to link as part of the asset. |
+| **Quantity** | Quantity of the linked entity. |
+
+</details>
 
 ## Actions
 
@@ -39,6 +71,12 @@ Click the **action button** to create a new asset. The following fields must be 
 - **Measure unit**
 
 Optional fields such as **Tax rate**, **Item price net**, **EAN**, **Tags**, and **Additional** information may also be filled in.
+
+#### Intrastat and Ledger
+Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
+
+> [!WARNING]
+> Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
 #### Details section
 

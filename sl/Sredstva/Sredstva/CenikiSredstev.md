@@ -112,5 +112,3 @@ Cenike sredstev je mogoče izbrisati na zaslonu za urejanje, vendar **samo če n
 4. Postopek ponovite za vsa preostala sredstva.
 
 Ko dokument ne vsebuje več nobenih sredstev, lahko kliknete **Izbriši**, da odstranite cenik.
-
----
