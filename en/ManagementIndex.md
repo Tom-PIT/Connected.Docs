@@ -58,8 +58,8 @@ This index lists all management and configuration documentation across domains. 
 - [**Tax rates**](Common/Management/TaxRates.md)
 
 ### Assets
-- [**Asset price lists**](Domains/Assets/Domains/Assets/AssetPriceLists.md)
-- [**Assets**](Domains/Assets/Domains/Assets/Assets.md)
+- [**Asset price lists**](Domains/Assets/Assets/AssetPriceLists.md)
+- [**Assets**](Domains/Assets/Assets/Assets.md)
 
 ### Materials
 - [**Alternative measure units**](Domains/Assets/Materials/AlternativeMeasureUnits.md)
@@ -85,14 +85,14 @@ This index lists all management and configuration documentation across domains. 
 - [**Directory tags**](Domains/Knowledge/Management/DirectoryTags.md)
 
 ## Logistics
-- [**Logistics configuration**](Logistics/Management/LogisticsConfiguration.md)
+- [**Logistics configuration**](Domains/Logistics/Management/LogisticsConfiguration.md)
 - [**Business directory**](Common/Management/BusinessDirectory.md)
 - [**Countries**](Common/Management/Countries.md)
 - [**Mode of transport**](Common/Management/ModeOfTransport.md)
-- [**Locations**](Logistics/Management/Locations.md)
-- [**Material analysis management**](Logistics/Management/MaterialAnalysisManagement.md)
-- [**Stock boundaries**](Logistics/Management/StockBoundaries.md)
-- [**Warehouses**](Logistics/Management/Warehouses.md)
+- [**Locations**](Domains/Logistics/Management/Locations.md)
+- [**Material analysis management**](Domains/Logistics/Management/MaterialAnalysisManagement.md)
+- [**Stock boundaries**](Domains/Logistics/Management/StockBoundaries.md)
+- [**Warehouses**](Domains/Logistics/Management/Warehouses.md)
 - [**Measure units**](Common/Management/MeasureUnits.md)
 
 ## Production and Maintenance

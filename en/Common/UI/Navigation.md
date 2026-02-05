@@ -25,7 +25,7 @@ Additionally, on many screens, a **back arrow button** appears in the lower-righ
 Each domain contains the tools relevant to a specific business area. Examples include:
 
 - **[Sales](../../Sales/Domain/SalesDomain.md)**  
-- **[Logistics](../../Logistics/Domain/LogisticsDomain.md)**  
+- **[Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md)**  
 - **[Supply](../../Supply/Domain/SupplyDomain.md)**  
 - **[Production](../../Production/Domain/ProductionDomain.md)**  
 
@@ -48,10 +48,10 @@ Documents are the core of daily operational work. They are used to create, proce
 
 - **[Sales orders](../../Sales/Documents/SalesOrders.md)**  
 - **[Delivery notes](../../Sales/Documents/DeliveryNotes.md)**  
-- **[Receives](../../Logistics/Documents/Receives.md)**  
-- **[Issues](../../Logistics/Documents/Issues.md)**  
-- **[Inter-warehouse transfers](../../Logistics/Documents/InterWarehouse.md)**  
-- **[Inventories](../../Logistics/Documents/Inventories.md)**
+- **[Receives](../../Domains/Logistics/Documents/Receives.md)**  
+- **[Issues](../../Domains/Logistics/Documents/Issues.md)**  
+- **[Inter-warehouse transfers](../../Domains/Logistics/Documents/InterWarehouse.md)**  
+- **[Inventories](../../Domains/Logistics/Documents/Inventories.md)**
 - **[Supply orders](../../Supply/Documents/SupplyOrders.md)**  
 - **[Execution](../../Production/Documents/Execution.md)**
 - **[Production orders](../../Production/Documents/ProductionOrders.md)**
@@ -75,11 +75,11 @@ Views allow you to **analyze and monitor** business information. They do not cre
 
 Views typically include:
 
-- **[Stock overviews](../../Logistics/Documents/Stock.md)**  
+- **[Stock overviews](../../Domains/Logistics/Documents/Stock.md)**  
 - **[Sales order reports](../../Sales/Views/SalesOrderDetails.md)**  
 - **[Delivery note reports](../../Sales/Views/DeliveryNoteReports.md)** 
 - **[Company cards](../../Sales/Views/CompanyCards.md)**  
-- **[Location-based stock views](../../Logistics/Views/StockViewByLocation.md)**  
+- **[Location-based stock views](../../Domains/Logistics/Views/StockViewByLocation.md)**  
 - **[Production KPIs](../../Production/Analytics/ProductionKPIs.md)**
 - **[Loss summary](../../Production/Analytics/LossSummary.md)**
 - **[Downtime summary](../../Production/Analytics/DowntimeSummary.md)**
