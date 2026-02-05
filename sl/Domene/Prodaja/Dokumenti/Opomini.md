@@ -2,7 +2,7 @@
 
 **Opomin** je prodajni dokument, ki se uporablja za obveščanje strank o **neplačanih izdanih računih** in za zahtevo po plačilu. Po potrebi lahko vključuje **strošek opomina** in **zamudne obresti**.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Opomini** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Opomini** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga opominov v prodajnem procesu
 
@@ -19,9 +19,9 @@ Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestil
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator opomina. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator opomina. |
 | **Title** | Naziv dokumenta. Privzeto je nastavljen na *Opomin*. |
-| **Stranka** | Stranka, ki prejme opomin, izbrana iz šifranta [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
+| **Stranka** | Stranka, ki prejme opomin, izbrana iz šifranta [**Poslovni imenik**](../../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka opomina. |
 | **Strošek opomina** | Fiksni strošek pošiljanja opomina (npr. administrativni strošek). Lahko se uporabi na ravni dokumenta ali posamezne postavke. |
 | **Postavke** | Seznam zapadlih postavk, povezanih z [**izdanimi računi**](IzdaniRacuni.md), z zneski in morebitnimi obrestmi. |
@@ -48,7 +48,7 @@ Filtri na levi strani omogočajo omejevanje seznama po:
 
 ### Ustvarjanje novega opomina
 
-1. Uporabite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega opomina v statusu osnutka.
+1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega opomina v statusu osnutka.
 
    ![Nov opomin](../Images/OverdueRemindersNew.png "Nov opomin")
 

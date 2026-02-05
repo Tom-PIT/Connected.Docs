@@ -10,16 +10,16 @@ Menjalni tečaji sistemu omogočajo:
 Vsak menjalni tečaj je definiran **iz ene valute v drugo** (Osnovna → Ciljna) za določen datum.
 
 > [!IMPORTANT]
-> Šifrant [**Valute**](../../Skupno/Upravljanje/Valute.md) mora biti nastavljen pred ustvarjanjem menjalnih tečajev.
+> Šifrant [**Valute**](../../../Skupno/Upravljanje/Valute.md) mora biti nastavljen pred ustvarjanjem menjalnih tečajev.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Menjalni tečaji** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Menjalni tečaji** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
 | Polje | Opis |
 |------|------|
-| **Iz valute** | Osnovna valuta za pretvorbo, izbrana iz šifranta [**Valute**](../../Skupno/Upravljanje/Valute.md). |
-| **V valuto** | Ciljna valuta, v katero se znesek pretvori, izbrana iz šifranta [**Valute**](../../Skupno/Upravljanje/Valute.md). |
+| **Iz valute** | Osnovna valuta za pretvorbo, izbrana iz šifranta [**Valute**](../../../Skupno/Upravljanje/Valute.md). |
+| **V valuto** | Ciljna valuta, v katero se znesek pretvori, izbrana iz šifranta [**Valute**](../../../Skupno/Upravljanje/Valute.md). |
 | **Datum** | Datum, za katerega velja menjalni tečaj. |
 | **Tečaj** | Faktor pretvorbe iz osnovne v ciljno valuto. |
 
@@ -46,7 +46,7 @@ Vsaka vrstica prikazuje:
 
 ### Ustvarjanje novega menjalnega tečaja
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu zaslona za ustvarjanje novega zapisa.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu zaslona za ustvarjanje novega zapisa.
 
    ![Nov menjalni tečaj](../Images/ExchangeRatesNew.png "Ustvarjanje novega menjalnega tečaja")
 

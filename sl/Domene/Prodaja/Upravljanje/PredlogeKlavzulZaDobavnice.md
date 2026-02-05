@@ -1,28 +1,28 @@
-# Predloge klavzul za izdane račune
+# Predloge klavzul za dobavnice
 
-Šifrant **Predloge klavzul za izdane račune** omogoča definiranje naborov klavzul (predlog), ki se izpišejo na izdanih računih za posamezna podjetja. Predloga vsebuje eno ali več klavzul – kot so pravna obvestila, plačilni pogoji, izjave o omejitvi odgovornosti ali obračunski pogoji – ki se na računu izpišejo na vrhu ali dnu dokumenta v določenem zaporedju.
+Šifrant **Predloge klavzul za dobavnice** omogoča definiranje naborov klavzul (predlog), ki se izpišejo na dobavnicah za posamezna podjetja. Predloga vsebuje eno ali več klavzul – kot so pravna obvestila, izjave o omejitvi odgovornosti ali potrditve dobave – ki se na dobavnici izpišejo na vrhu ali dnu dokumenta v določenem zaporedju.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za izdane račune** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za dobavnice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > **Predpogoji**  
 > Pred ustvarjanjem predlog klavzul zagotovite, da je izpolnjeno naslednje:  
-> • Partnersko podjetje obstaja v šifrantu [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md).  
-> • Besedilo klavzule obstaja v šifrantu [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Izdani račun*).
+> • Partnersko podjetje obstaja v šifrantu [**Poslovni imenik**](../../../Skupno/Upravljanje/PoslovniImenik.md).  
+> • Besedilo klavzule obstaja v šifrantu [**Vnaprej določena besedila**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*).
 
 ## Shema
 
 ### Polja predloge  
 | Polje | Opis |
 |------|------|
-| **Podjetje** | Podjetje, za katerega velja predloga klavzul. Izbira iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md). (obvezno) |
+| **Podjetje** | Podjetje, za katerega velja predloga klavzul. Izbira iz šifranta [Poslovni imenik](../../../Skupno/Upravljanje/PoslovniImenik.md). (obvezno) |
 
 ### Polja klavzul (znotraj predloge)  
 | Polje | Opis |
 |------|------|
-| **Lokacija** | Mesto izpisa klavzule na računu (zgoraj ali spodaj). |
+| **Lokacija** | Mesto izpisa klavzule na dobavnici (zgoraj ali spodaj). |
 | **Vrstni red** | Zaporedje prikaza klavzule (npr. 1, 2, 3 …). |
-| **Klavzula** | Vnaprej določeno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta = *Izdani račun*). |
+| **Klavzula** | Vnaprej določeno besedilo iz šifranta [Vnaprej določena besedila](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta = *Dobavnica*). |
 
 ## Upravljanje
 
@@ -30,7 +30,7 @@ Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za iz
 
 Seznam prikazuje vse obstoječe predloge klavzul, združene po podjetjih:
 
-![Seznam predlog klavzul](../Images/ClauseTemplatesIssuedInvoices.png "Seznam predlog klavzul")
+![Seznam predlog klavzul za dobavnice](../Images/ClauseTemplatesDeliveryNotes.png "Seznam predlog klavzul za dobavnice")
 
 S klikom na **Klavzule** odprete seznam klavzul za izbrano predlogo. Za iskanje po imenu podjetja lahko uporabite polje **Iskanje**.
 
@@ -38,7 +38,7 @@ S klikom na **Klavzule** odprete seznam klavzul za izbrano predlogo. Za iskanje 
 
 Kliknite **akcijski gumb**, da ustvarite novo predlogo. Zahtevano je le eno polje:
 
-![Dodaj predlogo](../Images/ClauseTemplatesIssuedInvoicesNew.png "Dodajanje predloge")
+![Dodaj predlogo](../Images/ClauseTemplatesDeliveryNotesNew.png "Dodajanje predloge")
 
 Po dodajanju predloge morate klikniti **Klavzule**, da odprete urejevalnik klavzul.
 
@@ -47,17 +47,17 @@ Po dodajanju predloge morate klikniti **Klavzule**, da odprete urejevalnik klavz
 ### Dodajanje klavzul v predlogo
 
 V urejevalniku klavzul z akcijskim gumbom dodajte novo klavzulo. Izberite:
-- **Lokacija** – mesto izpisa klavzule na izdanem računu  
+- **Lokacija** – mesto izpisa klavzule na dobavnici  
 - **Zaporedna številka** – vrstni red prikaza  
 - **Klavzula** – vnaprej določeno besedilo  
 
-![Dodaj klavzulo](../Images/ClauseTemplatesIssuedInvoicesClausesNew.png "Dodajanje klavzule")
+![Dodaj klavzulo](../Images/ClauseTemplatesDeliveryNotesClausesNew.png "Dodajanje klavzule")
 
 ### Seznam klavzul
 
 Vse klavzule, dodeljene predlogi, so prikazane v pravilnem zaporedju:
 
-![Seznam klavzul](../Images/ClauseTemplatesIssuedInvoicesClausesList.png "Seznam klavzul")
+![Seznam klavzul](../Images/ClauseTemplatesDeliveryNotesClausesList.png "Seznam klavzul")
 
 Zaporedje lahko spremenite z urejanjem vrednosti **Zaporedna številka**.
 

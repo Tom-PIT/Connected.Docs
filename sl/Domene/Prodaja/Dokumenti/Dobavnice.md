@@ -4,7 +4,7 @@
 
 Dobavnica **ni** finančni dokument – namenjena je predvsem operativni uporabi. Po izvedeni dobavi dobavnica praviloma vodi v ustvarjanje dokumenta **Izdaja** (izhod iz skladišča), kasneje pa še v **Izdani račun**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobavnice** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobavnice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga dobavnic v prodajnem procesu
 
@@ -24,22 +24,22 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dobavnice. |
-| **Stranka** | Prejemnik dobave, izbran iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dobavnice. |
+| **Stranka** | Prejemnik dobave, izbran iz šifranta [Poslovni imenik](../../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka dobavnice. |
 | **Datum opravljene storitve** | Datum, ko je dobava predvidena (obvezno). |
-| **Vsebina zgoraj** | Neobvezno uvodno besedilo iz šifranta [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
-| **Vsebina spodaj** | Neobvezno zaključna ali pravna besedila iz [Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
+| **Vsebina zgoraj** | Neobvezno uvodno besedilo iz šifranta [Vnaprej določena besedila](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
+| **Vsebina spodaj** | Neobvezno zaključna ali pravna besedila iz [Vnaprej določena besedila](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
 
 <details>
   <summary><strong>Transport in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
-| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
-| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| **[Pogoj dobave](../../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
 | [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
-| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 
 </details>
 
@@ -96,7 +96,7 @@ Kazalniki se samodejno posodabljajo glede na izbrane filtre (datumi dokumentov, 
 
 Dobavnice je mogoče ustvariti na dva načina:
 
-- Iz seznama **Dobavnice** s klikom na [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md).
+- Iz seznama **Dobavnice** s klikom na [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
 - Iz **Naročila stranke** prek *Povezani dokumenti → + Dobavnica*.
 
   ![Naročilo stranke → Dobavnica](../Images/DeliveryNoteLinkSalesOrder.png "Naročilo stranke → Dobavnica")

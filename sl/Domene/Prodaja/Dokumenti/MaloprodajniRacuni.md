@@ -3,7 +3,7 @@
 **Maloprodajni račun** je prodajni dokument, namenjen neposredni prodaji končnim kupcem (npr. prodaja na blagajni ali v trgovini). Običajno se ustvari ob samem nakupu, brez predhodne ponudbe ali naročila stranke.  
 Maloprodajni računi omogočajo takojšnje ali kasnejše evidentiranje plačil, vendar **ne vplivajo na stanje zaloge**. Premiki zaloge se vedno izvajajo ločeno prek logističnih dokumentov.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajni računi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajni računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga maloprodajnih računov v prodajnem procesu
 
@@ -24,21 +24,21 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator maloprodajnega računa. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator maloprodajnega računa. |
 | **Številka naročila kupca** | Neobvezna referenca kupca. |
-| **Stranka** | Kupec, izbran iz [**Poslovnega imenika**](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). Na voljo so le zapisi z oznakama **Stranka** in **Oseba**. |
+| **Stranka** | Kupec, izbran iz [**Poslovnega imenika**](../../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). Na voljo so le zapisi z oznakama **Stranka** in **Oseba**. |
 | **Datum dokumenta** | Datum izdaje računa. |
 | **Datum dobave** | Datum izročitve ali dostave blaga. |
 | **Datum zapadlosti** | Rok plačila (obvezno). |
 | **Tip reference** | Vrsta plačilnega sklica (obvezno). |
 | **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
 | [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Račun za prejem plačila (obvezno). |
-| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka. |
+| [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka. |
 | **Koda namena** | Neobvezna koda namena transakcije. |
 | **Rabat** | Skupni rabat na računu. |
 | **Dobava** | Podatki o podjetju in naslovu dobave. |
-| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
-| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
+| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
+| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
 </details>
 
@@ -47,11 +47,11 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 
 | Polje | Opis |
 |--------|-------------|
-| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
-| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
-| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| **[Pogoj dobave](../../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
 | [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
-| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 
 </details>
 
@@ -107,13 +107,13 @@ Pri celotnem plačilu se dokument prikaže v pogledu **V celoti plačani**, vrst
 
 Maloprodajne račune je mogoče ustvariti **samo ročno**.
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
 
    ![Nov maloprodajni račun](../Images/RetailIssuedInvoiceNew.png "Nov maloprodajni račun")
 
 2. Izberite **Stranko**. Na voljo so le zapisi z oznakama **Stranka** in **Oseba**.
 
-   ![Klasifikacija stranke](../../Skupno/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija stranke")
+   ![Klasifikacija stranke](../../../Skupno/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija stranke")
 
 3. Izpolnite obvezna polja, kot so **Datum zapadlosti**, **Tip reference** in **Bančni račun organizacije**.
 

@@ -125,13 +125,13 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Tipi planov razpoložljivosti**](Viri/Upravljanje/TipiPlanovRazpolozljivosti.md)
 
 ## Prodaja
-- [**Konfiguracija prodaje**](Prodaja/Upravljanje/KonfiguracijaProdaje.md)
-- [**Način plačila**](Prodaja/Upravljanje/NacinPlacila.md)
+- [**Konfiguracija prodaje**](Domene/Prodaja/Upravljanje/KonfiguracijaProdaje.md)
+- [**Način plačila**](Domene/Prodaja/Upravljanje/NacinPlacila.md)
 - [**Bančni računi organizacije**](Skupno/Upravljanje/BancniRacuni.md)
 - [**Valute**](Skupno/Upravljanje/Valute.md)
-- [**Kode namenov plačil**](Prodaja/Upravljanje/KodeNamenovPlacil.md)
-- [**Predloge klavzul – izdani računi**](Prodaja/Upravljanje/PredlogeKlavzulZaIzdaneRacune.md)
-- [**Predloge klavzul – dobavnice**](Prodaja/Upravljanje/PredlogeKlavzulZaDobavnice.md)
+- [**Kode namenov plačil**](Domene/Prodaja/Upravljanje/KodeNamenovPlacil.md)
+- [**Predloge klavzul – izdani računi**](Domene/Prodaja/Upravljanje/PredlogeKlavzulZaIzdaneRacune.md)
+- [**Predloge klavzul – dobavnice**](Domene/Prodaja/Upravljanje/PredlogeKlavzulZaDobavnice.md)
 - [**Poslovni imenik**](Skupno/Upravljanje/PoslovniImenik.md)
 - [**Države**](Skupno/Upravljanje/Drzave.md)
 - [**Valute**](Skupno/Upravljanje/Valute.md)

@@ -4,7 +4,7 @@ Pogled **Poslovne kartice** omogoča podroben pregled vseh **bremenitev in dobro
 
 Ta pogled je namenjen **finančnemu nadzoru in usklajevanju** ter ne omogoča ustvarjanja ali urejanja dokumentov.
 
-Za dostop do tega pogleda pojdite na **Prodaja / Pregledi / Poslovne kartice** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Prodaja / Pregledi / Poslovne kartice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Seznam poslovnih kartic
 

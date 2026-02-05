@@ -3,7 +3,7 @@
 **Naročilo stranke** predstavlja potrjeno namero stranke za nakup blaga ali storitev. Najpogosteje se ustvari na podlagi potrjene **Ponudbe**, lahko pa se ustvari tudi samostojno.  
 Naročila strank določajo, *kaj* bo stranka prejela, *kdaj* in *pod kakšnimi pogoji*, ter predstavljajo osnovo za procese dostave, proizvodnje, nabave in izdajanja računov.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Naročila strank** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Naročila strank** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga naročil strank v prodajnem procesu
 
@@ -30,8 +30,8 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator naročila stranke. |
-| **Stranka** | Stranka, ki odda naročilo, izbrana iz šifranta [Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator naročila stranke. |
+| **Stranka** | Stranka, ki odda naročilo, izbrana iz šifranta [Poslovni imenik](../../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
 | **Datum dokumenta** | Datum nastanka naročila stranke. |
 | **Datum prodaje** | Predviden datum dobave naročila (obvezno). |
 | **Rabat** | Neobvezen popust na celotno naročilo stranke. |
@@ -45,11 +45,11 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 
 | Polje | Opis |
 |--------|-------------|
-| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
-| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
-| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| **[Pogoj dobave](../../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
 | [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
-| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 </details>
 
 <details>
@@ -62,7 +62,7 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | **Količina** | Količina izbranega sredstva. |
 | **Cena brez DDV (na enoto)** | Uporabljena cena na enoto (iz nastavitev sredstva ali cenikov). |
 | **Popust (%)** | Popust za posamezno postavko. |
-| [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
+| [**Davčne stopnje**](../../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Končna vrednost postavke (količina × cena − popust). |
 
 </details>
@@ -110,7 +110,7 @@ Filtri vključujejo:
 
 Naročila strank je mogoče ustvariti na dva načina:
 
-- Neposredno na zaslonu **Naročila strank** z uporabo [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md)
+- Neposredno na zaslonu **Naročila strank** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)
 - Iz potrjene [**Ponudbe**](Ponudbe.md) prek *Povezani dokumenti → + Naročilo stranke*. V tem primeru se večina polj (stranka, dobava, postavke) samodejno izpolni na podlagi ponudbe.
 
   ![Ustvari naročilo stranke iz ponudbe](../Images/SalesOrdersOfferLink.png "Ustvari naročilo stranke iz ponudbe")

@@ -5,14 +5,14 @@ Dokument je namenjen prodaji na blagajni ali v trgovini in podpira enak življen
 
 Maloprodajna predplačila je mogoče natisniti ali poslati stranki v katerikoli fazi.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna predplačila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna predplačila** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga maloprodajnih predplačil v prodajnem procesu
 
 Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 
 1. Kupec izbere enega ali več izdelkov v trgovini.  
-2. Uporabnik ročno ustvari **Maloprodajno predplačilo** z uporabo [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md).  
+2. Uporabnik ročno ustvari **Maloprodajno predplačilo** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md).  
 3. Dokument se objavi in preide v stanje **Neplačani**.  
 4. Plačila se evidentirajo z gumbom **Plačilo**:
    - Delna plačila premaknejo dokument v stanje **Delno plačani**.
@@ -31,20 +31,20 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dokumenta. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator dokumenta. |
 | **Številka naročilnice** | Neobvezna referenca kupca. |
-| **Stranka** | Obvezno. Izbrana iz [**Poslovnega imenika**](../../Skupno/Upravljanje/PoslovniImenik.md). Na voljo so le zapisi z oznakama **Stranka** in **Oseba**. |
+| **Stranka** | Obvezno. Izbrana iz [**Poslovnega imenika**](../../../Skupno/Upravljanje/PoslovniImenik.md). Na voljo so le zapisi z oznakama **Stranka** in **Oseba**. |
 | **Datum dokumenta** | Datum nastanka dokumenta. |
 | **Datum opravljene storitve** | Datum izročitve ali prevzema blaga. |
 | **Datum zapadlosti** | Rok plačila (obvezno). |
 | **Tip reference** | Vrsta plačilnega sklica (obvezno). |
 | **Sklic** | Sklicna številka za plačilo. |
 | [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Račun za prejem plačila (obvezno). |
-| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka. |
+| [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka. |
 | **Koda namena** | Neobvezna koda namena transakcije. |
 | **Rabat** | Skupni rabat na dokumentu. |
-| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
-| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
+| **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
+| **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 
 </details>
 
@@ -53,11 +53,11 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 
 | Polje | Opis |
 |--------|-------------|
-| **[Pogoj dobave](../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
-| **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
-| [**Alternativna valuta**](../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| **[Pogoj dobave](../../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
 | [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
-| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md). |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 </details>
 
 <details>
@@ -104,13 +104,13 @@ Vsaka vrstica prikazuje:
 
 Maloprodajna predplačila je mogoče ustvariti **samo ročno**.
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
 
    ![Novo maloprodajno predplačilo](../Images/RetailProformaInvoiceNew.png "Novo maloprodajno predplačilo")
 
 2. Izberite **Stranko**. Na voljo so le zapisi z oznakama **Stranka** in **Oseba**.
 
-   ![Klasifikacija stranke](../../Skupno/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija stranke")
+   ![Klasifikacija stranke](../../../Skupno/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija stranke")
 
 3. Izpolnite obvezna polja: **Datum zapadlosti**, **Tip reference**, **Sklic** in **Bančni račun organizacije**.
 

@@ -4,7 +4,7 @@ Področje **Prodaja** vsebuje vse zapise in dokumente, potrebne za upravljanje k
 
 Medtem ko področje **[Sredstva](../../Sredstva/Domena/DomenaSredstve.md)** določa, *kaj* se prodaja, področje Prodaja določa, *kako* se izdelki ali storitve ponudijo, potrdijo, dobavijo in zaračunajo.
 
-Za dostop do tega področja pojdite na **Prodaja** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega področja pojdite na **Prodaja** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Področje Prodaja](../Images/SalesDomainSitemapSL.png "Področje Prodaja")
 
@@ -67,21 +67,21 @@ Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, potrebne za d
 Razpoložljive nastavitve in šifranti vključujejo:
 
 - **[Konfiguracija prodaje](../Upravljanje/KonfiguracijaProdaje.md)** – Globalne nastavitve prodajnih procesov.  
-- **[Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md)** – Zapisi strank in partnerjev.  
-- **[Banke](../../Skupno/Upravljanje/BancniRacuni.md)** – Definicije bank za plačila in račune.  
+- **[Poslovni imenik](../../../Skupno/Upravljanje/PoslovniImenik.md)** – Zapisi strank in partnerjev.  
+- **[Banke](../../../Skupno/Upravljanje/BancniRacuni.md)** – Definicije bank za plačila in račune.  
 - **[Način plačila](../Upravljanje/NacinPlacila.md)** – Načini poravnave prodajnih obveznosti.  
 - **[Bančni računi organizacije](../Upravljanje/BancniRacuniOrganizacije.md)** – Interni bančni računi za izdajanje računov.  
-- **[Države](../../Skupno/Upravljanje/Drzave.md)** – Geografski podatki za dokumente in stranke.  
-- **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – Enote mere v prodajnih dokumentih.  
-- **[Stroškovna mesta](../../Skupno/Upravljanje/StroskovnaMesta.md)** – Razporeditev prihodkov po stroškovnih mestih.  
-- **[Valute](../../Skupno/Upravljanje/Valute.md)** – Valute, uporabljene v cenikih in računih.  
+- **[Države](../../../Skupno/Upravljanje/Drzave.md)** – Geografski podatki za dokumente in stranke.  
+- **[Merske enote](../../../Skupno/Upravljanje/MerskeEnote.md)** – Enote mere v prodajnih dokumentih.  
+- **[Stroškovna mesta](../../../Skupno/Upravljanje/StroskovnaMesta.md)** – Razporeditev prihodkov po stroškovnih mestih.  
+- **[Valute](../../../Skupno/Upravljanje/Valute.md)** – Valute, uporabljene v cenikih in računih.  
 - **[Menjalni tečaji](../Upravljanje/MenjalniTecaji.md)** – Tečaji za preračun valut.  
-- **[Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** – Standardna besedila v prodajnih dokumentih.  
-- **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)** – Davčne definicije za obračun DDV.  
+- **[Vnaprej določena besedila](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** – Standardna besedila v prodajnih dokumentih.  
+- **[Davčne stopnje](../../../Skupno/Upravljanje/DavcneStopnje.md)** – Davčne definicije za obračun DDV.  
 - **[Predloge klavzul za dobavnice](../Upravljanje/PredlogeKlavzulZaDobavnice.md)** – Predloge besedil za dobavnice.  
 - **[Predloge klavzul za izdane račune](../Upravljanje/PredlogeKlavzulZaIzdaneRacune.md)** – Predloge besedil za izdane račune.  
-- **[Pogoji dobave](../../Skupno/Upravljanje/PogojiDobave.md)** – Komercialni dobavni pogoji, uporabljeni v prodajnih dokumentih.  
-- **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)** – Načini transporta, uporabljeni v prodaji in logistiki.  
+- **[Pogoji dobave](../../../Skupno/Upravljanje/PogojiDobave.md)** – Komercialni dobavni pogoji, uporabljeni v prodajnih dokumentih.  
+- **[Vrsta transporta](../../../Skupno/Upravljanje/VrstaTransporta.md)** – Načini transporta, uporabljeni v prodaji in logistiki.  
 - **[Zunanji šifranti](..//Upravljanje/KodeNamenovPlacil.md)** – Zunanje kode za integracije in klasifikacije.
 
 Ti elementi določajo, kako se prodajni procesi izvajajo in kako so strukturirani prodajni podatki.
