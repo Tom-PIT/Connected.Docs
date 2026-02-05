@@ -3,7 +3,7 @@
 An **Offer** is a sales document used to present a proposed price, quantity, and delivery terms to a customer before a sale is confirmed.  
 Offers help formalize quotations, compare pricing options, and smoothly transition into follow-up documents such as **Sales orders**, **Delivery notes**, and **Issued invoices**.
 
-To access this page, go to **Sales / Documents / Offers** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Offers** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## How offers fit into the sales workflow
 
@@ -22,13 +22,13 @@ A typical flow:
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the offer. |
-| **Customer** | The customer receiving the quotation, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the offer. |
+| **Customer** | The customer receiving the quotation, selected from the [Business directory](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the offer is created. |
 | **Expiration date** | Validity date of the offer (mandatory). |
 | **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
-| **Content top** | Predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
-| **Content bottom** | Closing or legal statements from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
+| **Content top** | Predefined introductory text from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
+| **Content bottom** | Closing or legal statements from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Available payment methods shown to the customer. |
 
 <details>
@@ -36,9 +36,9 @@ A typical flow:
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -49,7 +49,7 @@ A typical flow:
 
 | Field | Description |
 |------|-------------|
-| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
 | [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
 | [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
 
@@ -65,7 +65,7 @@ A typical flow:
 | **Quantity** | Quantity of the asset. |
 | **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/Assets/AssetPriceLists.md). |
 | **Discount (%)** | Optional discount applied to this specific line. |
-| [**Tax rates**](../../Common/Management/TaxRates.md) | Applied tax rule. |
+| [**Tax rates**](../../../Common/Management/TaxRates.md) | Applied tax rule. |
 | **Value** | Total line value (quantity × net price, after discounts). |
 </details>
 
@@ -105,9 +105,9 @@ An example of a list with **Completed** offers:
 
 ### Creating a new offer
 
-1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft offer.  
+1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft offer.  
 
-2. Fill in the [**Customer**](../../Common/Management/BusinessDirectory.md), **Expiration date**, and **Rebate** (optional) fields.
+2. Fill in the [**Customer**](../../../Common/Management/BusinessDirectory.md), **Expiration date**, and **Rebate** (optional) fields.
 
     ![New offer top](../Images/OfferNewTop.png)
 

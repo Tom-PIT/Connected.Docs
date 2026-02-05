@@ -51,7 +51,7 @@ Each record displays multiple tags representing **associated data**. Use these p
 - [**Contacts**](Contacts.md)
 - [**Bank accounts**](BankAccounts.md)
 - [**Business units**](BusinessUnits.md)
-- [**Company cards**](../../Sales/Views/CompanyCards.md)
+- [**Company cards**](../../Domains/Sales/Views/CompanyCards.md)
 
 Filters on the left side allow you to narrow results by **View**, **Relation**, **Type**, and **Country**.
 

@@ -24,20 +24,20 @@ Prepayments track received funds and do not affect inventory.
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the prepayment. |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the prepayment. |
 | **Purchase order code** | Optional reference to the customer's purchase order. |
-| **Customer** | Customer making the payment, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer making the payment, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the prepayment document is issued. |
 | **Delivery date** | Estimated delivery date related to the sale. |
 | **Due date** | Deadline for receiving the prepayment (mandatory). |
 | **Reference type** | Type of payment reference used on payment documents (mandatory). |
 | **Reference number** | Payment reference based on the chosen reference type. |
 | **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account receiving the prepayment (mandatory). |
-| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
+| **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional description of payment purpose. |
 | **Rebate** | Overall rebate applied to the prepayment amount. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 | **Payment method** | Payment method selected from [**Payment methods**](../Management/PaymentMethods.md). |
 </details>
 
@@ -47,9 +47,9 @@ Prepayments track received funds and do not affect inventory.
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -59,7 +59,7 @@ Prepayments track received funds and do not affect inventory.
 
 | Field | Description |
 |------|-------------|
-| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
 | [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
 | [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
 
@@ -102,11 +102,11 @@ Drafts can be edited; committed prepayments are final unless reversed.
 
 ### Creating a new prepayment
 
-1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft prepayment.
+1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft prepayment.
 
    ![New prepayment](../Images/PrepaymentsNewTop.png)
 
-2. Fill in mandatory header fields: **Customer** (from the [**Business directory**](../../Common/Management/BusinessDirectory.md)), **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../Management/OrganizationBankAccounts.md)**.
+2. Fill in mandatory header fields: **Customer** (from the [**Business directory**](../../../Common/Management/BusinessDirectory.md)), **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../Management/OrganizationBankAccounts.md)**.
 
 3. Add items in the Details section. Type or scan a **serial number**, **EAN**, or **asset/material name** into the Details bar.
    - The system displays matching assets and materials.

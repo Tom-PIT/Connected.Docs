@@ -31,29 +31,29 @@ Debit notes affect accounting only and do not impact inventory.
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the credit note. |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the credit note. |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer receiving the credit, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer receiving the credit, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the credit note is issued. |
 | **Delivery date** | Original delivery date of the invoiced goods or services. |
 | **Due date** | Date when the credit becomes effective (mandatory). |
 | **Reference type** | Type of payment reference used (mandatory). |
 | **Reference number** | Reference number based on the chosen reference type. |
 | **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account used for refunds or accounting (mandatory). |
-| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
+| **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional reason or classification for the credit. |
 | **Rebate** | Overall rebate applied to the credit note. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 
 <details>
   <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -64,7 +64,7 @@ Debit notes affect accounting only and do not impact inventory.
 
 | Field | Description |
 |------|-------------|
-| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
 | [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
 | [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
 
@@ -109,7 +109,7 @@ Drafts can be edited; committed debit notes are final unless reversed.
 
 Debit notes can be created in two ways:
 
-- Via the [**action button**](../../Common/UI/ActionButton.md) on the **Debit notes** screen  
+- Via the [**action button**](../../../Common/UI/ActionButton.md) on the **Debit notes** screen  
 - From an existing [**Issued invoice**](IssuedInvoices.md) via *Linked documents → + Debit note*
 
 Once you start a new debit note, follow these steps:

@@ -4,7 +4,7 @@ A **Delivery note** is a logistics document that accompanies goods during delive
 
 A delivery note does **not** represent a financial document—it is primarily operational. Once items are delivered, a delivery note typically leads to the creation of an **Issue** (warehouse output), and later to an **Issued invoice**.
 
-To access this page, go to **Sales / Documents / Delivery notes** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Delivery notes** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## How delivery notes fit into the sales workflow
 
@@ -24,13 +24,13 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the delivery note. |
-| **Customer** | Delivery recipient, selected from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the delivery note. |
+| **Customer** | Delivery recipient, selected from the [Business directory](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the delivery note is created. |
 | **Delivery date** | Date when the delivery is planned to occur (mandatory). |
-| **Delivery – Company / Address** | Customer delivery details taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
-| **Content top** | Optional predefined introductory text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
-| **Content bottom** | Optional closing or legal text from [Predefined texts](../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
+| **Delivery – Company / Address** | Customer delivery details taken from the [Business directory](../../../Common/Management/BusinessDirectory.md). |
+| **Content top** | Optional predefined introductory text from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
+| **Content bottom** | Optional closing or legal text from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
 </details>
 
 <details>
@@ -38,8 +38,8 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -97,7 +97,7 @@ These indicators update automatically based on selected filters (Document dates,
 
 Delivery notes can be created in two ways:
 
-- From the **Delivery notes** list, by clicking [**action button**](../../Common/UI/ActionButton.md).
+- From the **Delivery notes** list, by clicking [**action button**](../../../Common/UI/ActionButton.md).
 - From a **Sales order** using *Linked documents → + Delivery note* to create a new delivery note draft.
     
     ![Sales order → Delivery note](../Images/DeliveryNoteLinkSalesOrder.png)

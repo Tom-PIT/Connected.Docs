@@ -12,7 +12,7 @@ To access this page, go to **Sales / Documents / Retail proforma invoices**.
 Retail proforma invoices are used for over-the-counter or direct retail sales:
 
 1. A customer visits the shop and selects one or more items.  
-2. A **Retail proforma invoice** is created manually using the [**action button**](../../Common/UI/ActionButton.md).  
+2. A **Retail proforma invoice** is created manually using the [**action button**](../../../Common/UI/ActionButton.md).  
 3. The document is published and moves to the **Unpaid invoices** state.  
 4. Payments are recorded using the **Payment** button:
    - Partial payments move the document to **Partially paid invoices**.
@@ -29,20 +29,20 @@ Retail proforma invoices **do not affect inventory**.
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the document. |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the document. |
 | **Purchase order code** | Optional reference provided by the customer. |
-| **Customer** | Mandatory. Selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md). Only entities classified as **Customer** and **Person** are available. |
+| **Customer** | Mandatory. Selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md). Only entities classified as **Customer** and **Person** are available. |
 | **Issue date** | Date when the document is created. |
 | **Delivery date** | Delivery or pickup date. |
 | **Due date** | Payment deadline (mandatory). |
 | **Reference type** | Type of payment reference (mandatory). |
 | **Reference number** | Reference number used on payment documents. |
 | **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Account where payments are received (mandatory). |
-| **[Cost center](../../Common/Management/CostCenters.md)** | Optional cost allocation. |
+| **[Cost center](../../../Common/Management/CostCenters.md)** | Optional cost allocation. |
 | **Purpose code** | Optional purpose classification. |
 | **Rebate** | Overall rebate applied to the document. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 </details>
 
 <details>
@@ -50,9 +50,9 @@ Retail proforma invoices **do not affect inventory**.
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -106,13 +106,13 @@ Each row displays:
 
 Retail proforma invoices can only be created manually.
 
-1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new draft retail proforma invoice.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft retail proforma invoice.
 
    ![New retail proforma invoice](../Images/RetailProformaInvoiceNew.png)
 
-2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/Management/BusinessDirectory.md) are available.
+2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../../Common/Management/BusinessDirectory.md) are available.
 
-   ![Customer classification](../../Common/Images/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
+   ![Customer classification](../../../Common/Images/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
 
 3. Fill in mandatory header fields: **Due date**, **Reference type**, **Reference number**, and **[Organization bank account](../Management/OrganizationBankAccounts.md)**.
 

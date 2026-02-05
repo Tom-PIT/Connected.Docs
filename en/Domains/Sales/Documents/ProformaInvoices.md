@@ -2,7 +2,7 @@
 
 A **Proforma invoice** is a preliminary billing document used to provide customers with a detailed price quotation before goods or services are delivered. It does **not** trigger accounting or inventory changes, but it serves as a confirmed commercial offer.  
 
-Proforma invoices are typically created from a committed [**Offer**](Offers.md), but can also be created independently via the [**action button**](../../Common/UI/ActionButton.md).
+Proforma invoices are typically created from a committed [**Offer**](Offers.md), but can also be created independently via the [**action button**](../../../Common/UI/ActionButton.md).
 
 To access this page, go to **Sales / Documents / Proforma invoices**.
 
@@ -26,19 +26,19 @@ A committed proforma invoice is informational and does not affect financial or s
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the proforma invoice. |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the proforma invoice. |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer receiving the document, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer receiving the document, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the proforma invoice is created. |
 | **Validity date** | Date until which the prices and terms are valid (mandatory). |
 | **Reference type** | Type of reference used on payment documents (mandatory). |
 | **Reference number** | Reference number based on the selected reference type. |
 | **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account displayed on the document (mandatory). |
-| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
+| **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
 | **Purpose code** | Optional description of the document's purpose. |
 | **Rebate** | Overall rebate applied to the total amount. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 </details>
 
 <details>
@@ -46,9 +46,9 @@ A committed proforma invoice is informational and does not affect financial or s
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -58,7 +58,7 @@ A committed proforma invoice is informational and does not affect financial or s
 
 | Field | Description |
 |------|-------------|
-| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
 | [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
 | [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
 
@@ -103,7 +103,7 @@ Drafts can be edited; committed proforma invoices are final unless reversed.
 
 Proforma invoices can be created in two ways:
 
-- Directly from the **Proforma invoices** screen using the [**action button**](../../Common/UI/ActionButton.md).  
+- Directly from the **Proforma invoices** screen using the [**action button**](../../../Common/UI/ActionButton.md).  
 - From a committed [**Offer**](Offers.md), via **Linked documents → + Proforma invoice**.  
   In this case, fields such as the customer, validity date, and detail items are automatically pre-filled.
 
@@ -111,10 +111,10 @@ Proforma invoices can be created in two ways:
 
 Once you start a new Proforma invoice, follow these steps:
 
-1. Use the [**action button**](../../Common/UI/ActionButton.md) or the offer’s **Linked documents** panel to create a new draft proforma invoice.
+1. Use the [**action button**](../../../Common/UI/ActionButton.md) or the offer’s **Linked documents** panel to create a new draft proforma invoice.
 
 2. Fill in (or edit) the required header fields:  
-   - [**Customer**](../../Common/Management/BusinessDirectory.md)  
+   - [**Customer**](../../../Common/Management/BusinessDirectory.md)  
    - **Document date**  
    - **Validity date**  
    - **Rebate** (optional)  

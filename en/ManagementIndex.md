@@ -20,18 +20,18 @@ This index lists all management and configuration documentation across domains. 
 - [**Banks**](Common/Management/Banks.md)
 - [**Business directory**](Common/Management/BusinessDirectory.md)
 - [**Cost centers**](Common/Management/CostCenters.md)
-- [**Organization bank accounts**](Sales/Management/OrganizationBankAccounts.md)
+- [**Organization bank accounts**](Domains/Sales/Management/OrganizationBankAccounts.md)
 - [**Tax rates**](Common/Management/TaxRates.md)
-- [**Exchange rates**](Sales/Management/ExchangeRates.md)
+- [**Exchange rates**](Domains/Sales/Management/ExchangeRates.md)
 
 ### Invoices
 - [**Configuration**](Domains/Accounting/Management/Invoices/InvoicesConfiguration.md)
 - [**Asset account connections**](Domains/Accounting/Management/Invoices/AssetAccountConnections.md)
 - [**Predefined texts**](Common/Management/PredefinedTexts.md)
-- [**Clause templates for issued invoices**](Sales/Management/ClauseTemplatesIssuedInvoices.md)
+- [**Clause templates for issued invoices**](Domains/Sales/Management/ClauseTemplatesIssuedInvoices.md)
 - [**Currencies**](Common/Management/Currencies.md)
 - [**Expenses**](Supply/Management/Expenses.md)
-- [**External code sets**](Sales/Management/ExternalCodeSets.md)
+- [**External code sets**](Domains/Sales/Management/ExternalCodeSets.md)
 - [**Cost centers**](Common/Management/CostCenters.md)
 
 ### Intrastat
@@ -138,13 +138,13 @@ This index lists all management and configuration documentation across domains. 
 - [**Travel order reasons**](Resources/Management/TravelOrderReasons.md)
 
 ## Sales
-- [**Sales configuration**](Sales/Management/SalesConfiguration.md)
-- [**Payment methods**](Sales/Management/PaymentMethods.md)
-- [**Organization bank accounts**](Sales/Management/OrganizationBankAccounts.md)
-- [**Exchange rates**](Sales/Management/ExchangeRates.md)
-- [**External code sets**](Sales/Management/ExternalCodeSets.md)
-- [**Clause templates – issued invoices**](Sales/Management/ClauseTemplatesIssuedInvoices.md)
-- [**Clause templates – delivery notes**](Sales/Management/ClauseTemplatesDeliveryNotes.md)
+- [**Sales configuration**](Domains/Sales/Management/SalesConfiguration.md)
+- [**Payment methods**](Domains/Sales/Management/PaymentMethods.md)
+- [**Organization bank accounts**](Domains/Sales/Management/OrganizationBankAccounts.md)
+- [**Exchange rates**](Domains/Sales/Management/ExchangeRates.md)
+- [**External code sets**](Domains/Sales/Management/ExternalCodeSets.md)
+- [**Clause templates – issued invoices**](Domains/Sales/Management/ClauseTemplatesIssuedInvoices.md)
+- [**Clause templates – delivery notes**](Domains/Sales/Management/ClauseTemplatesDeliveryNotes.md)
 - [**Business directory**](Common/Management/BusinessDirectory.md)
 - [**Countries**](Common/Management/Countries.md)
 - [**Currencies**](Common/Management/Currencies.md)

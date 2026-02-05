@@ -22,7 +22,7 @@ The list view displays all available delivery terms with their codes and descrip
 
 ![Delivery terms list](../Images/DeliveryTermsList.png "Delivery terms list")
 
-Delivery terms are shared across domains and can be referenced in documents such as [sales orders](../../Sales/Documents/SalesOrders.md) or [delivery notes](../../Sales/Documents/DeliveryNotes.md).
+Delivery terms are shared across domains and can be referenced in documents such as [sales orders](../../Domains/Sales/Documents/SalesOrders.md) or [delivery notes](../../Domains/Sales/Documents/DeliveryNotes.md).
 
 The list can be searched using the search field in the top-right corner.
 

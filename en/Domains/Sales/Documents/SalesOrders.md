@@ -3,7 +3,7 @@
 A **Sales order** represents the customer’s confirmed intention to purchase goods or services. It is typically created from an approved **Offer**, but it can also be created independently.  
 Sales orders define *what* the customer will receive, *when*, and *under which conditions*, and they serve as the basis for delivery, production, procurement, and invoicing workflows.
 
-To access this page, navigate to **Sales / Documents / Sales orders** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, navigate to **Sales / Documents / Sales orders** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## How sales orders fit into the sales workflow
 
@@ -31,15 +31,15 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the sales order. |
-| **Customer** | Customer receiving the order, taken from the [Business directory](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the sales order. |
+| **Customer** | Customer receiving the order, taken from the [Business directory](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the sales order is created. |
 | **Delivery date** | Expected delivery date for the order (mandatory). |
 | **Rebate** | Optional discount applied to the entire sales order. |
 | **Purchase order** | Optional reference to a related [supply order](../../Supply/Documents/SupplyOrders.md). |
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method agreed upon with the customer. |
-| **Delivery – Company / Address** | Customer delivery details, taken from the [Business directory](../../Common/Management/BusinessDirectory.md). |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method agreed upon with the customer. |
+| **Delivery – Company / Address** | Customer delivery details, taken from the [Business directory](../../../Common/Management/BusinessDirectory.md). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Payment options connected to the sales order. |
 </details>
 
@@ -48,9 +48,9 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -61,7 +61,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 | Field | Description |
 |------|-------------|
-| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
 | [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
 | [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
 
@@ -77,7 +77,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Quantity** | Quantity of the selected asset. |
 | **Net price (per unit)** | Unit price applied (from asset settings or price lists). |
 | **Discount (%)** | Line-specific discount. |
-| **[Tax rates](../../Common/Management/TaxRates.md)** | Applied tax percentage. |
+| **[Tax rates](../../../Common/Management/TaxRates.md)** | Applied tax percentage. |
 | **Value** | Final line value (quantity × price − discount). |
 </details>
 
@@ -124,7 +124,7 @@ Filters include:
 
 Sales orders can be created in two ways:
 
-- Directly from the **Sales orders** screen using the [**action button**](../../Common/UI/ActionButton.md)
+- Directly from the **Sales orders** screen using the [**action button**](../../../Common/UI/ActionButton.md)
 - From a published [**Offer**](Offers.md), via *Linked documents → + Sales order*. In this case, most fields — such as the customer, delivery information, and detail items — are automatically pre-filled based on the offer.
 
   ![Create sales order from offer](../Images/SalesOrdersOfferLink.png "Create sales order from offer")

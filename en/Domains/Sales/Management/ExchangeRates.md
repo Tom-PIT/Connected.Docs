@@ -10,16 +10,16 @@ Exchange rates allow the system to:
 Each exchange rate is defined **from one currency to another** (Base → Target) for a specific date.
 
 > [!IMPORTANT]
-> [**Currencies**](../../Common/Management/Currencies.md) must be defined before creating exchange rates.
+> [**Currencies**](../../../Common/Management/Currencies.md) must be defined before creating exchange rates.
 
-To access this page, go to **Sales / Management / Exchange rates** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Exchange rates** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
 | Field | Description |
 |-------|-------------|
-| **From currency** | Base currency used for conversion, selected from [**Currencies**](../../Common/Management/Currencies.md). |
-| **To currency** | Target currency to which the amount is converted, selected from [**Currencies**](../../Common/Management/Currencies.md). |
+| **From currency** | Base currency used for conversion, selected from [**Currencies**](../../../Common/Management/Currencies.md). |
+| **To currency** | Target currency to which the amount is converted, selected from [**Currencies**](../../../Common/Management/Currencies.md). |
 | **Date** | Date on which the exchange rate is valid. |
 | **Rate** | Conversion factor used to convert from the base currency to the target currency. |
 
@@ -46,7 +46,7 @@ Each row shows:
 
 ### Creating a new exchange rate
 
-1. Click the [**action button**](../../Common/UI/ActionButton.md) button in the bottom-right corner of the screen to create a new record.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) button in the bottom-right corner of the screen to create a new record.
 
    ![New exchange rate](../Images/ExchangeRatesNew.png "Create a new exchange rate")
  

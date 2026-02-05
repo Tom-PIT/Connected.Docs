@@ -2,7 +2,7 @@
 
 The **Payment methods** code list defines the ways customers can pay for goods or services—such as credit cards, online payment services, or other supported methods. Each method includes a **code**, a **name**, optional **tags**, and an uploaded **icon** representing the payment provider. These records are used throughout the system wherever a payment option must be selected.
 
-To access this page, go to **Sales / Management / Payment methods** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Payment methods** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 

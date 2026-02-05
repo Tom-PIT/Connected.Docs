@@ -22,20 +22,20 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the retail invoice. |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the retail invoice. |
 | **Purchase order code** | Optional reference provided by the customer. |
-| **Customer** | Customer selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). Only contacts classified as **Customer** and **Person** are available. |
+| **Customer** | Customer selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). Only contacts classified as **Customer** and **Person** are available. |
 | **Issue date** | Date when the invoice is issued. |
 | **Delivery date** | Date when goods are handed over or delivered. |
 | **Due date** | Payment deadline (mandatory). |
 | **Reference type** | Type of payment reference (mandatory). |
 | **Reference number** | Reference number based on the selected reference type. |
 | **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account receiving the payment (mandatory). |
-| **[Cost center](../../Common/Management/CostCenters.md)** | Optional cost center assignment. |
+| **[Cost center](../../../Common/Management/CostCenters.md)** | Optional cost center assignment. |
 | **Purpose code** | Optional code describing the purpose of the transaction. |
 | **Rebate** | Overall rebate applied to the invoice. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 </details>
 
 
@@ -44,9 +44,9 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -101,13 +101,13 @@ When the full amount is paid, the invoice moves to **Fully paid invoices**. The 
 
 Retail issued invoices can only be created manually.
 
-1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new draft retail issued invoice.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft retail issued invoice.
 
    ![New retail issued invoice](../Images/RetailIssuedInvoiceNew.png "New retail issued invoice")
 
-2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../Common/Management/BusinessDirectory.md) are available.
+2. Select a **Customer**. Only records classified as both **Customer** and **Person** in the [**Business directory**](../../../Common/Management/BusinessDirectory.md) are available.
    
-   ![Customer classification](../../Common/Images/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
+   ![Customer classification](../../../Common/Images/BusinessDirectoryCustomerPerson.png "Customer and Person classification")
 
 3. Fill in required header fields such as **Due date**, **Reference type**, and **Organization bank account**.
 

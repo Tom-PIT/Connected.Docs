@@ -2,7 +2,7 @@
 
 An **Overdue reminder** is a sales document used to notify customers about unpaid invoices and request payment, optionally including reminder costs and interest.
 
-To access this page, go to **Sales / Documents / Overdue reminders** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Overdue reminders** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## How overdue reminders fit into the sales workflow
 
@@ -17,9 +17,9 @@ A typical flow:
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | System-generated identifier of the overdue reminder. |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the overdue reminder. |
 | **Title** | The document title. Defaults to "Overdue reminder". |
-| **Customer** | The customer to whom the reminder is sent, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Customer** | The customer to whom the reminder is sent, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the reminder is created. |
 | **Reminder cost** | Fixed cost for sending the reminder (e.g., administrative fee). Can be applied per document or per detail. |
 | **Details** | List of overdue items linked to [**Issued invoices**](IssuedInvoices.md) with amounts and optional interest. |
@@ -42,7 +42,7 @@ Filters on the left help narrow down results by **document dates**, **status**, 
 
 ### Creating a new overdue reminder
 
-1. Use the [**action button**](../../Common/UI/ActionButton.md) to create a new draft overdue reminder.
+1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft overdue reminder.
 
    ![Overdue Reminders New](../Images/OverdueRemindersNew.png)
 

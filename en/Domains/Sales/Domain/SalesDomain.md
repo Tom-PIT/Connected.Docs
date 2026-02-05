@@ -4,7 +4,7 @@ The **Sales** domain contains all records and documents needed to manage commerc
 
 Where the **[Assets](../../Assets/Domain/AssetsDomain.md)** domain defines *what* is sold, the Sales domain defines *how* it is offered, confirmed, delivered, and billed.
 
-To access this domain, navigate to **Sales** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this domain, navigate to **Sales** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![Sales Domain](../Images/SalesDomainSitemapV2.png "Sales Domain")
 
@@ -67,27 +67,27 @@ The **Management** section contains configuration and master data required by co
 Available configuration and code lists include:
 
 - **[Configuration](../Management/SalesConfiguration.md)** – Global sales settings and behavior settings.  
-- **[Business directory](../../Common/Management/BusinessDirectory.md)** – Customer and partner records used throughout sales documents.  
-- **[Banks](../../Common/Management/Banks.md)** – Bank definitions used on invoices and payment instructions.  
+- **[Business directory](../../../Common/Management/BusinessDirectory.md)** – Customer and partner records used throughout sales documents.  
+- **[Banks](../../../Common/Management/Banks.md)** – Bank definitions used on invoices and payment instructions.  
 - **[Payment methods](../Management/PaymentMethods.md)** – Methods used for settling sales invoices.  
 - **[Organization bank accounts](../Management/OrganizationBankAccounts.md)** – Internal bank accounts used for outgoing billing.  
-- **[Countries](../../Common/Management/Countries.md)** – Geographic entries used on customer records and documents.  
-- **[Measure units](../../Common/Management/MeasureUnits.md)** – Consistent measurement units used in commercial documents.  
-- **[Cost centers](../../Common/Management/CostCenters.md)** – Classification of sales and revenue by cost center.  
-- **[Currencies](../../Common/Management/Currencies.md)** – Currency definitions used in price lists and invoices.  
+- **[Countries](../../../Common/Management/Countries.md)** – Geographic entries used on customer records and documents.  
+- **[Measure units](../../../Common/Management/MeasureUnits.md)** – Consistent measurement units used in commercial documents.  
+- **[Cost centers](../../../Common/Management/CostCenters.md)** – Classification of sales and revenue by cost center.  
+- **[Currencies](../../../Common/Management/Currencies.md)** – Currency definitions used in price lists and invoices.  
 - **[Exchange rates](../Management/ExchangeRates.md)** – Daily or periodic exchange rates used for currency conversion.  
-- **[Predefined texts](../../Common/Management/PredefinedTexts.md)** – Standardized text blocks used throughout sales documents.  
-- **[Tax rates](../../Common/Management/TaxRates.md)** – Definitions of VAT and tax rates used in invoicing.  
+- **[Predefined texts](../../../Common/Management/PredefinedTexts.md)** – Standardized text blocks used throughout sales documents.  
+- **[Tax rates](../../../Common/Management/TaxRates.md)** – Definitions of VAT and tax rates used in invoicing.  
 - **[Clause templates for delivery notes](../Management/ClauseTemplatesDeliveryNotes.md)** – Predefined clauses for delivery documentation.  
 - **[Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md)** – Predefined clauses used in invoice footers.  
 - **[External code sets](../Management/ExternalCodeSets.md)** – Mappings for external systems, partners, or classifications.  
-- **[Mode of transport](../../Common/Management/ModeOfTransport.md)** – Transport methods used across sales and logistics.  
-- **[Delivery terms](../../Common/Management/DeliveryTerms.md)** – Commercial delivery conditions used on sales documents.
+- **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** – Transport methods used across sales and logistics.  
+- **[Delivery terms](../../../Common/Management/DeliveryTerms.md)** – Commercial delivery conditions used on sales documents.
 
 These elements define how sales operations behave and how commercial data is structured.
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../../ManagementIndex.md)**.
 
 ## Sales Processes
 

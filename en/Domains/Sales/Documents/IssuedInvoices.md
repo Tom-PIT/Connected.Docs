@@ -2,7 +2,7 @@
 
 **Issued invoices** are financial documents sent to customers so they can pay for confirmed sales. They summarize delivered goods or services, taxes, due dates, and chosen payment methods. From the **Issued invoices** page you can also record partial or full payments directly against each invoice.
 
-To access this page, go to **Sales / Documents / Issued invoices** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Issued invoices** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## How issued invoices fit into the sales workflow
 
@@ -22,20 +22,20 @@ Invoices can also be created manually as stand-alone documents when required.
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | Unique identifier of the invoice (system-generated). |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | Unique identifier of the invoice (system-generated). |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer receiving the invoice, selected from the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Customer** | Customer receiving the invoice, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Issue date** | Date when the invoice is issued. |
 | **Delivery date** | Date when the goods or services were delivered. |
 | **Due date** | Payment deadline shown to the customer  (mandatory). |
 | **Reference type** | Type of payment reference (e.g., structured reference, model)  (mandatory). |
 | **Reference number** | Reference number used on payment documents, based on the chosen reference type. |
 | **[Organization bank accounts](../Management/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
-| **[Cost center](../../Common/Management/CostCenters.md)** | Optional allocation of revenue to a cost center. |
+| **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation of revenue to a cost center. |
 | **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
-| **Content top** | Introductory text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
-| **Content bottom** | Closing or legal text from [**Predefined texts**](../../Common/Management/PredefinedTexts.md). |
+| **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
+| **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 | **Payment method** | Payment option selected from [**Payment methods**](../Management/PaymentMethods.md). |
 </details>
 
@@ -44,9 +44,9 @@ Invoices can also be created manually as stand-alone documents when required.
 
 | Field | Description |
 |--------|-------------|
-| **[Delivery term](../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
 | [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
 | **Delivery** | Delivery company and address information. |
 </details>
@@ -57,7 +57,7 @@ Invoices can also be created manually as stand-alone documents when required.
 
 | Field | Description |
 |------|-------------|
-| [**Country dispatch**](../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
 | [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
 | [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
 
@@ -129,7 +129,7 @@ Use the **Search** bar to quickly find invoices by code, customer, or other visi
 
 Issued invoices can be created in two ways:
 
-- Directly from the **Issued invoices** screen using the [**action button**](../../Common/UI/ActionButton.md).  
+- Directly from the **Issued invoices** screen using the [**action button**](../../../Common/UI/ActionButton.md).  
 - From other sales documents via **Linked documents → + Issued invoice**, such as:
   - A committed [**Sales order**](SalesOrders.md)  
   - A [**Delivery note**](DeliveryNotes.md)  
@@ -140,10 +140,10 @@ Issued invoices can be created in two ways:
 
 Once you start a new Issued invoice, follow these steps:
 
-1. Use the [**action button**](../../Common/UI/ActionButton.md) or the **Linked documents** panel in another document to create a new draft invoice.
+1. Use the [**action button**](../../../Common/UI/ActionButton.md) or the **Linked documents** panel in another document to create a new draft invoice.
 
 2. Fill in the key header fields:
-   - [**Customer**](../../Common/Management/BusinessDirectory.md)  
+   - [**Customer**](../../../Common/Management/BusinessDirectory.md)  
    - **Issue date**  
    - **Delivery date**  
    - **Due date** (mandatory)  
