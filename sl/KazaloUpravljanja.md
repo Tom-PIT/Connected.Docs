@@ -77,14 +77,14 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Oznake imenika**](Znanje/Upravljanje/OznakeImenika.md)
 
 ## Logistika
-- [**Konfiguracija logistike**](Logistika/Upravljanje/KonfiguracijaLogistike.md)
+- [**Konfiguracija logistike**](Domene/Logistika/Upravljanje/KonfiguracijaLogistike.md)
 - [**Poslovni imenik**](Skupno/Upravljanje/PoslovniImenik.md)
 - [**Države**](Skupno/Upravljanje/Drzave.md)
 - [**Vrsta transporta**](Skupno/Upravljanje/VrstaTransporta.md)
-- [**Lokacije**](Logistika/Upravljanje/Lokacije.md)
-- [**Analiza materialov (upravljanje)**](Logistika/Upravljanje/AnalizaMaterialov.md)
-- [**Meje zaloge**](Logistika/Upravljanje/MejeZaloge.md)
-- [**Skladišča**](Logistika/Upravljanje/Skladisca.md)
+- [**Lokacije**](Domene/Logistika/Upravljanje/Lokacije.md)
+- [**Analiza materialov (upravljanje)**](Domene/Logistika/Upravljanje/AnalizaMaterialov.md)
+- [**Meje zaloge**](Domene/Logistika/Upravljanje/MejeZaloge.md)
+- [**Skladišča**](Domene/Logistika/Upravljanje/Skladisca.md)
 - [**Merske enote**](Skupno/Upravljanje/MerskeEnote.md)
 
 ## Proizvodnja in vzdrževanje

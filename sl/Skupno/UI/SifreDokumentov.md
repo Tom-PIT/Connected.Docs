@@ -59,7 +59,7 @@ Primeri:
 
 Način generiranja šifer (predpone, vzorec, dolžina zaporedja, ločeno številčenje ipd.) je v večini domen nastavljen na zaslonu **Konfiguracija** v razdelku **Upravljanje**. Tipični primeri:
 
-- Logistika: [Konfiguracija logistike](../../Logistika/Upravljanje/KonfiguracijaLogistike.md)
+- Logistika: [Konfiguracija logistike](../../Domene/Logistika/Upravljanje/KonfiguracijaLogistike.md)
 - Prodaja: [Konfiguracija prodaje](../../Prodaja/Upravljanje/KonfiguracijaProdaje.md)
 - Nabava: [Konfiguracija nabave](../../Nabava/Upravljanje/KonfiguracijaNabave.md)
 

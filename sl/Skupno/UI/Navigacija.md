@@ -25,7 +25,7 @@ Na številnih zaslonih je v spodnjem desnem kotu na voljo tudi **gumb s puščic
 Vsaka domena vsebuje orodja, povezana z določenim poslovnim področjem. Primeri vključujejo:
 
 - **[Prodaja](../../Prodaja/Domena/Prodaja.md)**  
-- **[Logistika](../../Logistika/Domena/Logistika.md)**  
+- **[Logistika](../../Domene/Logistika/Domena/Logistika.md)**  
 - **[Nabava](../../Nabava/Domena/Nabava.md)**  
 - **[Proizvodnja](../../Proizvodnja/Domena/Proizvodnja.md)**  
 
@@ -48,10 +48,10 @@ Dokumenti predstavljajo jedro vsakodnevnega operativnega dela. Uporabljajo se za
 
 - **[Naročila strank](../../Prodaja/Dokumenti/NarocilaStrank.md)**  
 - **[Dobavnice](../../Prodaja/Dokumenti/Dobavnice.md)**  
-- **[Prevzemi](../../Logistika/Dokumenti/Prevzemi.md)**  
-- **[Izdajnice](../../Logistika/Dokumenti/Izdajnice.md)**  
-- **[Med-skladiščni promet](../../Logistika/Dokumenti/MedSkladiscniPromet.md)**  
-- **[Inventure](../../Logistika/Dokumenti/Inventure.md)**
+- **[Prevzemi](../../Domene/Logistika/Dokumenti/Prevzemi.md)**  
+- **[Izdajnice](../../Domene/Logistika/Dokumenti/Izdajnice.md)**  
+- **[Med-skladiščni promet](../../Domene/Logistika/Dokumenti/MedSkladiscniPromet.md)**  
+- **[Inventure](../../Domene/Logistika/Dokumenti/Inventure.md)**
 - **[Nabavni nalogi](../../Nabava/Dokumenti/NabavniNalogi.md)**  
 - **[Izvedba](../../Proizvodnja/Dokumenti/Izvedba.md)**
 - **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)**
@@ -75,11 +75,11 @@ Pogledi omogočajo **analizo in spremljanje** poslovnih informacij. Ne ustvarjaj
 
 Primeri pogledov vključujejo:
 
-- **[Pregledi zalog](../../Logistika/Dokumenti/Zaloga.md)**  
+- **[Pregledi zalog](../../Domene/Logistika/Dokumenti/Zaloga.md)**  
 - **[Postavke naročil strank](../../Prodaja/Pregledi/PostavkeNarocilStrank.md)**  
 - **[Poročila dobavnic](../../Prodaja/Pregledi/PorocilaDobavnic.md)**  
 - **[Kartice podjetij](../../Prodaja/Pregledi/PoslovneKartice.md)**  
-- **[Pregledi zalog po lokaciji](../../Logistika/Pregledi/PogledZalogePoLokacijah.md)**  
+- **[Pregledi zalog po lokaciji](../../Domene/Logistika/Pregledi/PogledZalogePoLokacijah.md)**  
 - **[KPI proizvodnje](../../Proizvodnja/Analiza/KazalnikiProizvodnje.md)**
 - **[Povzetek slabih kosov](../../Proizvodnja/Analiza/PovzetekSlabihKosov.md)**
 - **[Povzetek zastojev](../../Proizvodnja/Analiza/PovzetekZastojev.md)**
