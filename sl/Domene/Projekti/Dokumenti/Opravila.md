@@ -5,7 +5,7 @@ Uporabljajo ga tako vodje kot izvajalci za spremljanje napredka, odpiranje posam
 
 Opravila vedno pripadajo **projektu** in ne morejo obstajati samostojno.
 
-Za dostop do zaslona pojdite na **Projekti / Opravila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do zaslona pojdite na **Projekti / Opravila** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -74,7 +74,7 @@ Opravila se ustvarjajo **znotraj projekta**, ne neposredno iz seznama opravil.
 
 Postopek:
 1. Odprite projekt na strani **[Projekti](Projekti.md)**  
-2. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md)
+2. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md)
 3. Izpolnite podatke in ustvarite opravilo  
 
 ![Novo opravilo](../Images/ProjectsNewTaskSL.png)

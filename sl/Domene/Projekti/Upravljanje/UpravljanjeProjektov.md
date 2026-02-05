@@ -2,7 +2,7 @@
 
 **Upravljanje projektov** se uporablja za ustvarjanje, konfiguracijo in vzdrževanje projektov v sistemu TomPIT. Projekti predstavljajo strukturiran okvir za opravila, časovnice, odgovornosti in spremljanje napredka ter omogočajo vizualizacijo dela z uporabo **kanban tabel**.
 
-Za dostop do upravljanja projektov pojdite na **Projekti / Upravljanje / Upravljanje projektov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do upravljanja projektov pojdite na **Projekti / Upravljanje / Upravljanje projektov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -42,7 +42,7 @@ Iskalno polje omogoča filtriranje po imenu projekta.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega projekta.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega projekta.
 
 ![Dodaj projekt](../Images/ProjectsManagementNewSL.png "Dodaj projekt")
 

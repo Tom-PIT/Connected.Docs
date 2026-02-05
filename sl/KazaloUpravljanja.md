@@ -107,7 +107,7 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Viri**](Domene/Proizvodnja/Upravljanje/Viri.md)
 
 ## Projekti
-- [**Upravljanje projektov**](Projekti/Upravljanje/UpravljanjeProjektov.md)
+- [**Upravljanje projektov**](Domene/Projekti/Upravljanje/UpravljanjeProjektov.md)
 
 ## Kvaliteta
 - [**Kvaliteta – kontrolne liste**](Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)

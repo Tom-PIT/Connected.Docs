@@ -2,7 +2,7 @@
 
 Pogled **Moj koledar** omogoča koledarski pregled vseh **[opravil, dodeljenih trenutnemu uporabniku](../Dokumenti/Opravila.md)**. Uporabnikom pomaga razumeti, *kdaj* je delo načrtovano in kako so opravila razporejena skozi čas.
 
-Ta pogled je dostopen v meniju **Projekti / Pregledi / Moj koledar** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Ta pogled je dostopen v meniju **Projekti / Pregledi / Moj koledar** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Moj koledar](../Images/MyCalendarSL.png "Pregled mojega koledarja")
 
