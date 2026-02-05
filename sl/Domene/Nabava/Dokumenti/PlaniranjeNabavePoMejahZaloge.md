@@ -7,7 +7,7 @@ Ta stran tesno sodeluje z naslednjimi šifranti:
 - **[Meje zaloge](../../Logistika/Upravljanje/MejeZaloge.md)** – določanje minimalnih in maksimalnih količin  
 - **[Materiali dobaviteljev](../Upravljanje/MaterialiDobaviteljev.md)** – povezava materialov z dobavitelji  
 
-Za dostop do **Planiranja nabave po mejah zaloge** pojdite na **Nabava / Dokumenti / Planiranje nabave po mejah zaloge** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do **Planiranja nabave po mejah zaloge** pojdite na **Nabava / Dokumenti / Planiranje nabave po mejah zaloge** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Kako deluje
 
@@ -61,7 +61,7 @@ Nabavne dokumente ustvarite neposredno iz tega pogleda.
 
    ![Izbira materiala](../Images/SupplyStockBoundariesPlanningSelect.png)
 
-2. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) in izberite:
+2. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite:
    - **Ustvari nov nabavni nalog**, ali
    - **Povpraševanje**
 

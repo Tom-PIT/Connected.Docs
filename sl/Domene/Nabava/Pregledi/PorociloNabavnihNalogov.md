@@ -2,7 +2,7 @@
 
 Pogled **Poročilo nabavnih nalogov** nudi konsolidiran pregled naročenih materialov in storitev, združenih po dobaviteljih. Namenjen je analizi in poročanju ter **ne omogoča** ustvarjanja ali spreminjanja dokumentov.
 
-Za dostop do tega pregleda pojdite na **Nabava / Pregledi / Poročilo nabavnih nalogov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pregleda pojdite na **Nabava / Pregledi / Poročilo nabavnih nalogov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Namen pregleda
 

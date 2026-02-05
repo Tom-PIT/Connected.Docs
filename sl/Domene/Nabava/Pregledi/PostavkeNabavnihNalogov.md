@@ -3,7 +3,7 @@
 Pogled **Postavke nabavnih nalogov** prikazuje agregiran seznam vseh postavk iz vhodnih dokumentov [**Nabavni nalogi**](../Dokumenti/NabavniNalogi.md).
 Ta pogled je izključno analitičen — **ne omogoča** ustvarjanja ali spreminjanja nabavnih nalogov.
 
-Za dostop do tega pregleda pojdite na **Nabava / Pregledi / Postavke nabavnih nalogov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pregleda pojdite na **Nabava / Pregledi / Postavke nabavnih nalogov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Postavke nabavnih nalogov](../Images/SupplyOrderDetailsView.png "Postavke nabavnih nalogov")
 

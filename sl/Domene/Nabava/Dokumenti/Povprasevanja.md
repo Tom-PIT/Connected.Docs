@@ -2,7 +2,7 @@
 
 **Povpraševanje** je nabavni dokument, ki se uporablja za pridobivanje informacij o **cenah**, **razpoložljivosti** in **dobavnih rokih** pri dobaviteljih, še preden se odda formalno naročilo. Povpraševanja omogočajo primerjavo ponudb dobaviteljev, načrtovanje prihodnjih nabav ter nemoten prehod v nadaljnje dokumente, kot so **[nabavni nalogi](NabavniNalogi.md)**.
 
-Za dostop do **Povpraševanj** pojdite na **Nabava / Dokumenti / Povpraševanja** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do **Povpraševanj** pojdite na **Nabava / Dokumenti / Povpraševanja** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Kako se povpraševanja vključujejo v nabavni proces
 
@@ -23,8 +23,8 @@ Tipičen potek:
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator povpraševanja. |
-| **Dobavitelj** | Dobavitelj, ki prejme povpraševanje, izbran iz **[Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator povpraševanja. |
+| **Dobavitelj** | Dobavitelj, ki prejme povpraševanje, izbran iz **[Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
 | **Datum dokumenta** | Datum nastanka povpraševanja. |
 | **Datum opravljene storitve** | Rok, do katerega je povpraševanje veljavno (podobno datumu poteka). |
 
@@ -87,7 +87,7 @@ Filtri omogočajo hitro navigacijo med povpraševanji različnih dobaviteljev, s
 
 ### Ustvarjanje novega povpraševanja
 
-1. Uporabite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka povpraševanja.
+1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka povpraševanja.
 
 2. Izpolnite polja **Dobavitelj**, **Datum dokumenta** in **Datum veljavnosti**.
 

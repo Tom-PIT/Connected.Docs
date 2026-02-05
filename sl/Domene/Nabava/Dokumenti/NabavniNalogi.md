@@ -2,7 +2,7 @@
 
 **Nabavni nalog** je uradni nabavni dokument, s katerim organizacija potrdi naročilo materialov ali storitev pri dobavitelju. Določa, *kaj* bo organizacija prejela, *kdaj* in *pod kakšnimi pogoji*, ter predstavlja osnovo za nadaljnje operativne procese, kot so **prevzemi materiala** in **razporejanje stroškov**.
 
-Za dostop do **Nabavnih nalogov** pojdite na **Nabava / Dokumenti / Nabavni nalogi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do **Nabavnih nalogov** pojdite na **Nabava / Dokumenti / Nabavni nalogi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Kako se nabavni nalogi vključujejo v nabavni proces
 
@@ -24,15 +24,15 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator nabavnega naloga. |
-| **Dobavitelj** | Dobavitelj materialov ali storitev, izbran iz **[Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md)**. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator nabavnega naloga. |
+| **Dobavitelj** | Dobavitelj materialov ali storitev, izbran iz **[Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md)**. |
 | **Datum dokumenta** | Datum nastanka nabavnega naloga. |
 | **Datum opravljene storitve** | Načrtovani datum dobave zahtevanih materialov (obvezno). |
 | **Rabat** | Neobvezni popust, uporabljen za celoten nabavni nalog. |
-| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Interno stroškovno mesto, povezano z nabavo. |
+| [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Interno stroškovno mesto, povezano z nabavo. |
 | **Šifra ponudbe** | Neobvezna referenca na ponudbo dobavitelja ali zunanji dokument. |
 | **Dostava – podjetje / naslov** | Podatki o lokaciji dostave, povzeti iz Poslovnega imenika ali ročno prilagojeni. |
-| **Vsebina na vrhu** | Vnaprej določeno uvodno besedilo iz **[Vnaprej določenih besedil](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** (entiteta: *Nabavni nalog*). |
+| **Vsebina na vrhu** | Vnaprej določeno uvodno besedilo iz **[Vnaprej določenih besedil](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** (entiteta: *Nabavni nalog*). |
 | **Vsebina na dnu** | Zaključna ali pravna besedila iz vnaprej določenih besedil. |
 
 </details>
@@ -50,7 +50,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | **Datum opravljene storitve** | Specifični datum dobave za to postavko. |
 | **Neto cena (na enoto)** | Cena na enoto, povzeta iz **[Materialov dobaviteljev](../Upravljanje/MaterialiDobaviteljev.md)** ali vnesena ročno. |
 | **Popust (%)** | Neobvezni popust za posamezno postavko. |
-| [**Davčna stopnja**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
+| [**Davčna stopnja**](../../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju. |
 | **Skupna cena** | Znesek postavke (količina × neto cena − popust + davek). |
 
@@ -103,7 +103,7 @@ Razpoložljivi filtri vključujejo:
 
 Nabavni nalogi se lahko ustvarijo:
 
-- neposredno iz seznama **Nabavni nalogi** z uporabo [**akcijskega gumba**](../../Skupno/UI/AkcijskiGumb.md),
+- neposredno iz seznama **Nabavni nalogi** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md),
 - iz objavljenega **[Povpraševanja](Povprasevanja.md)** prek **Povezani dokumenti → + Nabavni nalog**.
 
 V drugem primeru se večina polj (dobavitelj, podatki o dostavi, postavke) samodejno predizpolni.

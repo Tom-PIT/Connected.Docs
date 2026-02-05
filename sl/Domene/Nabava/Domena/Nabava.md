@@ -4,7 +4,7 @@ Področje **Nabava** upravlja vse procese, povezane z nabavo, sodelovanjem z dob
 
 Medtem ko področje **[Prodaja](../../Prodaja/Domena/Prodaja.md)** upravlja procese, usmerjene k strankam, področje Nabava upravlja procese, usmerjene k dobaviteljem, ki zagotavljajo razpoložljivost materialov ob pravem času.
 
-Za dostop do področja Nabava pojdite na **Nabava** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do področja Nabava pojdite na **Nabava** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Področje Nabava](../Images/SupplyDomainSitemap.png "Področje Nabava")
 
@@ -68,13 +68,13 @@ Razpoložljive nastavitve in šifranti vključujejo:
 - **[Konfiguracija nabave](../Upravljanje/KonfiguracijaNabave.md)** – Nastavitve nabave, vključno s pravili in številčenjem nabavnih nalogov.  
 - **[Materiali dobaviteljev](../Upravljanje/MaterialiDobaviteljev.md)** – Povezava med dobavitelji in materiali; lahko vključuje dobavne roke, minimalne količine in cenike.  
 - **[Stroški](../Upravljanje/Stroski.md)** – Kategorije stroškov (npr. prevoz, carina), ki vplivajo na skupni strošek nabave.  
-- **[Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md)** – Podatki o dobaviteljih in partnerjih.  
-- **[Stroškovna mesta](../../Skupno/Upravljanje/StroskovnaMesta.md)** – Finančna razporeditev nabavnih stroškov.  
-- **[Valute](../../Skupno/Upravljanje/Valute.md)** – Definicije valut, uporabljene v nabavnih dokumentih.  
-- **[Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** – Standardna besedila v nabavnih dokumentih.  
-- **[Države](../../Skupno/Upravljanje/Drzave.md)** – Geografski podatki za profile dobaviteljev.  
-- **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)** – Enote mere, uporabljene v nabavnih dokumentih.  
-- **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)** – Davčne definicije, uporabljene pri nabavi.
+- **[Poslovni imenik](../../../Skupno/Upravljanje/PoslovniImenik.md)** – Podatki o dobaviteljih in partnerjih.  
+- **[Stroškovna mesta](../../../Skupno/Upravljanje/StroskovnaMesta.md)** – Finančna razporeditev nabavnih stroškov.  
+- **[Valute](../../../Skupno/Upravljanje/Valute.md)** – Definicije valut, uporabljene v nabavnih dokumentih.  
+- **[Vnaprej določena besedila](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** – Standardna besedila v nabavnih dokumentih.  
+- **[Države](../../../Skupno/Upravljanje/Drzave.md)** – Geografski podatki za profile dobaviteljev.  
+- **[Merske enote](../../../Skupno/Upravljanje/MerskeEnote.md)** – Enote mere, uporabljene v nabavnih dokumentih.  
+- **[Davčne stopnje](../../../Skupno/Upravljanje/DavcneStopnje.md)** – Davčne definicije, uporabljene pri nabavi.
 
 Ti elementi določajo, kako se nabavni procesi izvajajo in kako so strukturirani nabavni podatki.
 

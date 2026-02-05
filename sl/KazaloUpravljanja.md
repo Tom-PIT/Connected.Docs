@@ -141,9 +141,9 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Davčne stopnje**](Skupno/Upravljanje/DavcneStopnje.md)
 
 ## Nabava
-- [**Konfiguracija nabave**](Nabava/Upravljanje/KonfiguracijaNabave.md)
-- [**Materiali dobaviteljev**](Nabava/Upravljanje/MaterialiDobaviteljev.md)
-- [**Stroški**](Nabava/Upravljanje/Stroski.md)
+- [**Konfiguracija nabave**](Domene/Nabava/Upravljanje/KonfiguracijaNabave.md)
+- [**Materiali dobaviteljev**](Domene/Nabava/Upravljanje/MaterialiDobaviteljev.md)
+- [**Stroški**](Domene/Nabava/Upravljanje/Stroski.md)
 - [**Poslovni imenik**](Skupno/Upravljanje/PoslovniImenik.md)
 - [**Stroškovna mesta**](Skupno/Upravljanje/StroskovnaMesta.md)
 - [**Valute**](Skupno/Upravljanje/Valute.md)

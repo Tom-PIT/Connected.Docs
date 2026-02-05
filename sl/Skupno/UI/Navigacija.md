@@ -26,7 +26,7 @@ Vsaka domena vsebuje orodja, povezana z določenim poslovnim področjem. Primeri
 
 - **[Prodaja](../../Prodaja/Domena/Prodaja.md)**  
 - **[Logistika](../../Domene/Logistika/Domena/Logistika.md)**  
-- **[Nabava](../../Nabava/Domena/Nabava.md)**  
+- **[Nabava](../../Domene/Nabava/Domena/Nabava.md)**  
 - **[Proizvodnja](../../Proizvodnja/Domena/Proizvodnja.md)**  
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Dokumenti predstavljajo jedro vsakodnevnega operativnega dela. Uporabljajo se za
 - **[Izdajnice](../../Domene/Logistika/Dokumenti/Izdajnice.md)**  
 - **[Med-skladiščni promet](../../Domene/Logistika/Dokumenti/MedSkladiscniPromet.md)**  
 - **[Inventure](../../Domene/Logistika/Dokumenti/Inventure.md)**
-- **[Nabavni nalogi](../../Nabava/Dokumenti/NabavniNalogi.md)**  
+- **[Nabavni nalogi](../../Domene/Nabava/Dokumenti/NabavniNalogi.md)**  
 - **[Izvedba](../../Proizvodnja/Dokumenti/Izvedba.md)**
 - **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)**
 - **[Zahteve](../../Proizvodnja/Dokumenti/Zahteve.md)**

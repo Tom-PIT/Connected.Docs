@@ -4,7 +4,7 @@
 
 Ta seznam zagotavlja doslednost, saj so vsi stroški shranjeni na enem mestu in na voljo za uporabo v dokumentih ter operativnih delovnih tokovih.
 
-Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -13,11 +13,11 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**nav
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator stroška. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator stroška. |
 | **Naziv** | Opisni naziv stroška. |
-| [**Davek**](../../Skupno/Upravljanje/DavcneStopnje.md) | Davčna stopnja, ki se uporablja za strošek. |
+| [**Davek**](../../../Skupno/Upravljanje/DavcneStopnje.md) | Davčna stopnja, ki se uporablja za strošek. |
 | **Omogočeno** | Označuje, ali je strošek na voljo za uporabo v dokumentih. |
-| **Kooperant** | Poslovni partner, ki izvaja podizvajalsko storitev, izbran iz **[Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md)**. |
+| **Kooperant** | Poslovni partner, ki izvaja podizvajalsko storitev, izbran iz **[Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md)**. |
 | **Znesek na enoto v (€)** | Cena te podizvajalske storitve na enoto. |
 | **Operacija** | Seznam operacij, povezanih s tem stroškom podizvajalca. |
 
@@ -71,7 +71,7 @@ Filtri določajo, ali seznam prikazuje aktivne ali neaktivne zapise stroškov.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega stroška. Vnosni obrazec vključuje polja:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega stroška. Vnosni obrazec vključuje polja:
 
 - Koda  
 - Naziv  

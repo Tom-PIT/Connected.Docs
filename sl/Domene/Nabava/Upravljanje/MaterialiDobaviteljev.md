@@ -4,13 +4,13 @@
 
 Ta šifrant zagotavlja, da procesi nabave pravilno prepoznajo, **kateri materiali so na voljo pri posameznem dobavitelju** in **pod kakšnimi pogoji**.
 
-Za dostop do **Materialov dobaviteljev** pojdite na **Nabava / Šifranti / Materiali dobaviteljev** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do **Materialov dobaviteljev** pojdite na **Nabava / Šifranti / Materiali dobaviteljev** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
 | Polje | Opis |
 |------|------|
-| **Dobavitelj** | Dobavitelj, ki ponuja material. Mora obstajati v **[Poslovnem imeniku](../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
+| **Dobavitelj** | Dobavitelj, ki ponuja material. Mora obstajati v **[Poslovnem imeniku](../../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
 | [**Tip materiala**](../../Sredstva/Domena/Materiali.md) | Tip materiala ([**Surovina**](../../Sredstva/Materiali/Surovine.md), [**Polizdelek**](../../Sredstva/Materiali/Polizdelki.md), [**Izdelek**](../../Sredstva/Materiali/Izdelki.md), [**Repro material**](../../Sredstva/Materiali/ReproMateriali.md)). Mora ustrezati obstoječi vrsti materiala (obvezno). |
 | [**Material**](../../Sredstva/Domena/Materiali.md) | Material, ki ga dobavitelj ponuja. Mora že obstajati v področju **Materiali** (obvezno). |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju. |
@@ -49,7 +49,7 @@ Filtri omogočajo zoženje rezultatov glede na dobavitelja in kategorijo materia
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
 
 - **Novo**  
 - **Uvoz**

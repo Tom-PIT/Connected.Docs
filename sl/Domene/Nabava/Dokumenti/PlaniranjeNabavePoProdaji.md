@@ -5,7 +5,7 @@ Uporablja enak delovni tok kot **[Planiranje nabave po mejah zaloge](PlaniranjeN
 
 Pogled je namenjen operativnemu delu in omogoča neposredno ustvarjanje **[nabavnih nalogov](NabavniNalogi.md)** ter **[povpraševanj](Povprasevanja.md)**.
 
-Za dostop do tega pogleda pojdite na **Nabava / Dokumenti / Planiranje nabave po prodaji** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Nabava / Dokumenti / Planiranje nabave po prodaji** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Seznam
 
@@ -43,7 +43,7 @@ Za ustvarjanje nabavnih dokumentov lahko izberete enega ali več materialov nepo
 
 ## Ustvarjanje nabavnih dokumentov
 
-Ko so materiali izbrani, uporabite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za nadaljevanje.
+Ko so materiali izbrani, uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za nadaljevanje.
 
 Na voljo sta naslednji možnosti:
 
