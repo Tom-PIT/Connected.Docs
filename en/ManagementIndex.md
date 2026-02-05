@@ -25,8 +25,8 @@ This index lists all management and configuration documentation across domains. 
 - [**Exchange rates**](Sales/Management/ExchangeRates.md)
 
 ### Invoices
-- [**Configuration**](Accounting/Management/Invoices/InvoicesConfiguration.md)
-- [**Asset account connections**](Accounting/Management/Invoices/AssetAccountConnections.md)
+- [**Configuration**](Domains/Accounting/Management/Invoices/InvoicesConfiguration.md)
+- [**Asset account connections**](Domains/Accounting/Management/Invoices/AssetAccountConnections.md)
 - [**Predefined texts**](Common/Management/PredefinedTexts.md)
 - [**Clause templates for issued invoices**](Sales/Management/ClauseTemplatesIssuedInvoices.md)
 - [**Currencies**](Common/Management/Currencies.md)
@@ -35,23 +35,23 @@ This index lists all management and configuration documentation across domains. 
 - [**Cost centers**](Common/Management/CostCenters.md)
 
 ### Intrastat
-- [**Nature of transactions**](Accounting/Management/Intrastat/NatureOfTransactions.md)
+- [**Nature of transactions**](Domains/Accounting/Management/Intrastat/NatureOfTransactions.md)
 - [**Delivery terms**](Common/Management/DeliveryTerms.md)
 - [**Mode of transport**](Common/Management/ModeOfTransport.md)
-- [**Place of delivery**](Accounting/Management/Intrastat/PlaceOfDelivery.md)
-- [**Supplementary units**](Accounting/Management/Intrastat/SupplementaryUnits.md)
-- [**Tariffs**](Accounting/Management/Intrastat/Tariffs.md)
+- [**Place of delivery**](Domains/Accounting/Management/Intrastat/PlaceOfDelivery.md)
+- [**Supplementary units**](Domains/Accounting/Management/Intrastat/SupplementaryUnits.md)
+- [**Tariffs**](Domains/Accounting/Management/Intrastat/Tariffs.md)
 
 ### Ledger
-- [**Account defaults**](Accounting/Management/Ledger/AccountDefaults.md)
-- [**Allocation of profit (AOP)**](Accounting/Management/Ledger/AOP.md)
-- [**Chart of accounts**](Accounting/Management/Ledger/ChartOfAccounts.md)
-- [**Depreciation groups**](Accounting/Management/Ledger/DepreciationGroups.md)
-- [**Document types**](Accounting/Management/Ledger/DocumentTypes.md)
-- [**Journal entry templates**](Accounting/Management/Ledger/JournalEntryTemplates.md)
-- [**Ledger configuration**](Accounting/Management/Ledger/LedgerConfiguration.md)
-- [**Ledger locations**](Accounting/Management/Ledger/LedgerLocations.md)
-- [**Stock initial states**](Accounting/Management/Ledger/StockInitialStates.md)
+- [**Account defaults**](Domains/Accounting/Management/Ledger/AccountDefaults.md)
+- [**Allocation of profit (AOP)**](Domains/Accounting/Management/Ledger/AOP.md)
+- [**Chart of accounts**](Domains/Accounting/Management/Ledger/ChartOfAccounts.md)
+- [**Depreciation groups**](Domains/Accounting/Management/Ledger/DepreciationGroups.md)
+- [**Document types**](Domains/Accounting/Management/Ledger/DocumentTypes.md)
+- [**Journal entry templates**](Domains/Accounting/Management/Ledger/JournalEntryTemplates.md)
+- [**Ledger configuration**](Domains/Accounting/Management/Ledger/LedgerConfiguration.md)
+- [**Ledger locations**](Domains/Accounting/Management/Ledger/LedgerLocations.md)
+- [**Stock initial states**](Domains/Accounting/Management/Ledger/StockInitialStates.md)
 
 ## Assets
 - [**Measure units**](Common/Management/MeasureUnits.md)
