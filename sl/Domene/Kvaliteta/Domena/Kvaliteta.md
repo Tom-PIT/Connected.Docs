@@ -7,7 +7,7 @@ To domeno uporabite za:
 - pregled in analizo zaključenih kontrolnih listov za zagotavljanje skladnosti in stalne izboljšave
 - dostop do in vzdrževanje definicij kontrolnih listov, ki se uporabljajo v vsakodnevnem delovanju
 
-Za dostop do domene **Kvaliteta** se pomaknite na **Kvaliteta** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do domene **Kvaliteta** se pomaknite na **Kvaliteta** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Zemljevid domene Kvaliteta](../Images/QualitySitemap.png)
 
