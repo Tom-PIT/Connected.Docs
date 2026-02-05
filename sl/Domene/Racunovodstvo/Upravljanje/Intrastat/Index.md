@@ -4,14 +4,14 @@ Intrastat je sistem Evropske unije za zbiranje statističnih podatkov o blagovni
 
 V aplikaciji področje **Intrastat** združuje šifrante, ki se uporabljajo za razvrščanje gibanja blaga in zagotavljajo pravilno poročanje. Ti šifranti se ponovno uporabljajo v različnih domenah (Prodaja, Logistika, Nabava) pri pripravi in izvozu Intrastat podatkov.
 
-Za dostop do tega področja pojdite na **Računovodstvo / Upravljanje / Intrastat** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega področja pojdite na **Računovodstvo / Upravljanje / Intrastat** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
 
 ## Šifranti v Intrastatu
 
 Naslednji šifranti se uporabljajo pri pripravi Intrastat poročil:
 
-- [**Pogoji dobave**](../../../Skupno/Upravljanje/PogojiDobave.md)
-- [**Vrsta transporta**](../../../Skupno/Upravljanje/VrstaTransporta.md)
+- [**Pogoji dobave**](../../../../Skupno/Upravljanje/PogojiDobave.md)
+- [**Vrsta transporta**](../../../../Skupno/Upravljanje/VrstaTransporta.md)
 - [**Vrsta posla**](VrstaPosla.md)
 - [**Lega kraja**](LegaKraja.md)
 - [**Intrastat merske enote**](IntrastatMerskeEnote.md)

@@ -10,7 +10,7 @@ Predloge za temeljnice poenostavijo vnos podatkov, zagotavljajo enotnost ter zma
 > - Konti, uporabljeni v podrobnostih predloge, morajo že obstajati v **[Kontnem načrtu](Konti.md)**.
 > - Predloge je mogoče ponovno uporabiti pri več temeljnicah.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Predloge za temeljnice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Predloge za temeljnice** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -59,7 +59,7 @@ Vsaka predloga omogoča dostop do **Postavk**, kjer so definirane posamezne vrst
 
 Za ustvarjanje nove predloge temeljnice:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove predloge
+1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove predloge
 2. Izberite **Tip dokumenta**
 3. Vnesite:
    - **Šifra**

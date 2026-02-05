@@ -4,7 +4,7 @@ Pogled **Začetna stanja zaloge** se uporablja za določitev začetnih količin 
 
 Začetna stanja zaloge so **dokumentna** in neposredno povezana z računovodstvom. Ob objavi se inicializira finančna vrednost zaloge v glavni knjigi in ustvari začetno stanje kontov zaloge.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Začetna stanja zaloge** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Začetna stanja zaloge** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -45,7 +45,7 @@ Seznam je mogoče filtrirati glede na stanje dokumenta (**Osnutek** ali **Objavl
 
 Za ustvarjanje novega začetnega stanja zaloge:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md).
 2. Izberite **Skladišče**.
 
    ![Izbira skladišča](../../Images/StockInitialStatesWarehouse.png "Izbira skladišča")

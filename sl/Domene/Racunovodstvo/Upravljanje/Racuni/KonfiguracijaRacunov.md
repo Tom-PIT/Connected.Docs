@@ -2,7 +2,7 @@
 
 Konfiguracija nastavitev za **račune**, ki vplivajo na oštevilčevanje dokumentov. Vse spremembe se shranijo samodejno.
 
-Za dostop do te strani pojdite na **Računovodstvo / Računi / Upravljanje / Konfiguracija** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Računovodstvo / Računi / Upravljanje / Konfiguracija** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
 
 ![Konfiguracija računov](../../Images/InvoicesConfiguration.png)
 

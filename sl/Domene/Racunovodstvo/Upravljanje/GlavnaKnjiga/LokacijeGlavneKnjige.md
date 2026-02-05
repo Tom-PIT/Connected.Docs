@@ -6,7 +6,7 @@ Lokacije glavne knjige so **konfiguracijski vnosi**. Same po sebi ne ustvarjajo 
 
 Za razlikovanje od logističnih lokacij se ta dokumentacija nanaša nanje kot na **lokacije glavne knjige**.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Lokacije** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Lokacije** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
 
 ## Pregled
 
@@ -45,7 +45,7 @@ S klikom na lokacijo v seznamu jo odprete v načinu urejanja.
 
 Za ustvarjanje nove lokacije glavne knjige:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega vnosa.
+1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega vnosa.
 2. Vnesite:
    - **Šifro**
    - **Ime**

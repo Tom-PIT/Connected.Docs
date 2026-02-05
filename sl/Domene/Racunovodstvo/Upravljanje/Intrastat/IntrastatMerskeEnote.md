@@ -2,7 +2,7 @@
 
 **Intrastat merske enote** so standardizirane merske enote, ki se uporabljajo pri poročanju Intrastat in v logističnih ter prodajnih dokumentih. Uporabljajo se v dokumentih, kot so [naročila strank](../../../Prodaja/Dokumenti/NarocilaStrank.md), [dobavnice](../../../Prodaja/Dokumenti/Dobavnice.md) in drugih transakcijah, kjer je poleg osnovne količine potrebna dodatna statistična merska enota.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Upravljanje / Intrastat / Intrastat merske enote** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Upravljanje / Intrastat / Intrastat merske enote** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

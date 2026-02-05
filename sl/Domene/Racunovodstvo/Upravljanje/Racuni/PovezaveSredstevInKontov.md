@@ -2,7 +2,7 @@
 
 Pogled **Povezave sredstev in kontov** določa, kako so posamezna **sredstva** povezana s konti glavne knjige za računovodska knjiženja, ki nastanejo iz računov. Ta konfiguracija določa, kateri konti se uporabijo, ko je sredstvo prodano, skladiščeno ali kako drugače vključeno v knjiženja, povezana z računi.
 
-Za dostop do tega pogleda pojdite na **Računovodstvo / Računi / Upravljanje / Povezave sredstev in kontov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Računovodstvo / Računi / Upravljanje / Povezave sredstev in kontov** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
 
 ## Pregled
 
@@ -52,7 +52,7 @@ Vsaka vrstica prikazuje:
 
 Za dodajanje nove povezave:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega zapisa
+1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega zapisa
 2. Izberite **Sredstvo**
 3. Izberite **Tip knjiženja**
 4. Izberite **Konto**, ki se uporabi za izbrani tip knjiženja
