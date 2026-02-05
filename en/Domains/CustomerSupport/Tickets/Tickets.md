@@ -4,7 +4,7 @@ The **Tickets** screen is the core workspace of the Customer Support domain. It 
 
 Tickets are organized by **Desk** (for example Maintenance, Sales support, Technical support) and move through different states during their lifecycle.
 
-To access this screen, go to **Customer support / Tickets** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, go to **Customer support / Tickets** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -65,7 +65,7 @@ Tickets move through the following main statuses:
 
 ## Creating a new ticket
 
-To create a new ticket, click the [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner.
+To create a new ticket, click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 
 ### Step 1: Select desk
 
@@ -79,7 +79,7 @@ In the second step, ticket details are entered or edited.
 
 ![Create ticket – details](../Images/TicketsNewStep2.png)
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to:
+Click the [**action button**](../../../Common/UI/ActionButton.md) to:
 - Published as **New**
 - Published as **Active**
 - Published as **New** or **Active**, and immediately **create a new ticket**
@@ -136,7 +136,7 @@ Available options include:
 
 ## Resolving tickets
 
-Click on the [**action button**](../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
+Click on the [**action button**](../../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
 
 - **By design** - the issue is intentional and expected
 - **Duplicate** - the ticket is a copy of another one

@@ -67,9 +67,9 @@ Expanding an entry reveals detailed information for each Intrastat line:
 
 - **Nature of transaction** - Classification based on the selected nature-of-transaction code (see [Nature of transactions](../Management/Intrastat/NatureOfTransactions.md)).
 
-- **Mode of transport** - Transport mode used for the transaction (see [Mode of transport](../../../Common/UI/Management/ModeOfTransport.md)).
+- **Mode of transport** - Transport mode used for the transaction (see [Mode of transport](../../../../Common/UI/Management/ModeOfTransport.md)).
 
-- **Delivery term** - Delivery condition (Incoterms-style classification) (see [Delivery terms](../../../Common/UI/Management/DeliveryTerms.md)).
+- **Delivery term** - Delivery condition (Incoterms-style classification) (see [Delivery terms](../../../../Common/UI/Management/DeliveryTerms.md)).
 
 - **Place of delivery** - Classification of the delivery location (see [Place of delivery](../Management/Intrastat/PlaceOfDelivery.md)).
 

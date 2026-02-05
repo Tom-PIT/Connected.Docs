@@ -4,7 +4,7 @@ The **Visitors management** screen is used to create and track visit records, in
 
 Each visit follows a clear lifecycle, from announcement to completion or cancellation.
 
-To access Visitors management, navigate to **Customer Support / Visitors / Visitors management** in the [**navigation**](../../Common/UI/Navigation.md).
+To access Visitors management, navigate to **Customer Support / Visitors / Visitors management** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -63,7 +63,7 @@ A new visit is created when a physical visit is planned.
 
 Typical flow:
 
-1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new visit.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new visit.
 2. The **Status** is set to **Announced** by default.
 3. Fill in the visit details (the **Visitor** field is mandatory).
 4. Click **Save**.

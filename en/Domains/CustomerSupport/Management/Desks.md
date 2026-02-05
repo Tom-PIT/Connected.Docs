@@ -4,7 +4,7 @@ Desks are used to organize and manage **support tickets** by responsibility area
 
 Desks help ensure that incoming requests are routed correctly and processed consistently across the organization.
 
-To access this screen, go to **Customer support / Management / Desks** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, go to **Customer support / Management / Desks** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -41,7 +41,7 @@ Each desk includes:
 ## Actions
 
 ### Creating a new desk
-Click the [**action button**](../../Common/UI/ActionButton.md) to create a new desk.
+Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new desk.
 
 The desk form is divided into multiple sections that define how the desk behaves. When adding or editing, use the fields described in the [**Schema**](#schema).
 

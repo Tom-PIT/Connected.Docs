@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Institutional sectors are a **code list** used to classify customers according to their organizational or institutional nature (for example public administration, education, healthcare, or private companies). These sectors can later be referenced when defining or managing customer records, helping with segmentation, reporting, and filtering in the [**Business directory**](../../Common/Management/BusinessDirectory.md) code list.
+Institutional sectors are a **code list** used to classify customers according to their organizational or institutional nature (for example public administration, education, healthcare, or private companies). These sectors can later be referenced when defining or managing customer records, helping with segmentation, reporting, and filtering in the [**Business directory**](../../../Common/Management/BusinessDirectory.md) code list.
 
-To access this screen, go to **Customer support / Management / Institutional sectors** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, go to **Customer support / Management / Institutional sectors** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
 | Field | Description |
 |------|------------|
-| [**Code**](../../Common/UI/DocumentCodes.md) | Short, unique identifier for the institutional sector. |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | Short, unique identifier for the institutional sector. |
 | **Name** | Descriptive name of the institutional sector. |
 
 ## Institutional sectors list
@@ -26,13 +26,13 @@ Features of the list view:
 
 ## Actions
 
-The following actions are available via the [**Action button**](../../Common/UI/ActionButton.md):
+The following actions are available via the [**Action button**](../../../Common/UI/ActionButton.md):
 - **New** – Create a new institutional sector.
 - **Import** – Bulk import institutional sectors from a CSV spreadsheet file.
 
 ### Create a new institutional sector
 
-1. Click the [**Action button**](../../Common/UI/ActionButton.md) and select **New**.
+1. Click the [**Action button**](../../../Common/UI/ActionButton.md) and select **New**.
 2. Enter:
    - **Code** – a short identifier (e.g. `NPO`)
    - **Name** – the full sector name (e.g. *Non-profit organization*)

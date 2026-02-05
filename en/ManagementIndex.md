@@ -74,10 +74,10 @@ This index lists all management and configuration documentation across domains. 
 
 ## Customer support
 
-- [**Notifications settings**](CustomerSupport/Management/NotificationsSettings.md)
-- [**Desks**](CustomerSupport/Management/Desks.md)
+- [**Notifications settings**](Domains/CustomerSupport/Management/NotificationsSettings.md)
+- [**Desks**](Domains/CustomerSupport/Management/Desks.md)
 - [**Business directory**](Common/Management/BusinessDirectory.md)
-- [**Institutional sectors**](CustomerSupport//Management/InstitutionalSectors.md)
+- [**Institutional sectors**](Domains/CustomerSupport/Management/InstitutionalSectors.md)
 - [**Job titles**](Common/Management/JobTitles.md)
 
 ## Knowledge

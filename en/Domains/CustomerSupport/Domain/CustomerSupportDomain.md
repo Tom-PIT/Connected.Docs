@@ -64,14 +64,14 @@ Available configuration screens include:
 
 - **[Notification settings](../Management/NotificationsSettings.md)** – personalization of ticket-related notifications per desk  
 - **[Desks](../Management/Desks.md)** – definition of support desks and service channels  
-- **[Business directory](../../Common/Management/BusinessDirectory.md)** – shared directory of companies and contacts used across domains  
+- **[Business directory](../../../Common/Management/BusinessDirectory.md)** – shared directory of companies and contacts used across domains  
 - **[Institutional sectors](../Management/InstitutionalSectors.md)** – classification of customers by sector  
-- **[Job titles](../../Common/Management/JobTitles.md)** – role definitions associated with customer contacts and users  
+- **[Job titles](../../../Common/Management/JobTitles.md)** – role definitions associated with customer contacts and users  
 
 These elements define how customer support is structured and how users interact with tickets and notifications.
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../../ManagementIndex.md)**.
 
 ## Customer support and Other Domains
 
