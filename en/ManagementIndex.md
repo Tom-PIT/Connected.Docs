@@ -166,4 +166,4 @@ This index lists all management and configuration documentation across domains. 
 - **[Tax rates](Common/Management/TaxRates.md)**
 
 ## System
-- [**Configuration**](System/Settings/Configuration.md)
+- [**Configuration**](Domains/System/Settings/Configuration.md)

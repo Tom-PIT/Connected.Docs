@@ -11,7 +11,7 @@ Example of Common code lists in the **Sales** domain:
 > [!IMPORTANT]  
 > The Common Code Lists should be the **first configuration step** when setting up the platform.  
 >  
->Without these values, [Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), and [System Configuration](../../System/Settings/Configuration.md) cannot function correctly.
+>Without these values, [Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), and [System Configuration](../../Domains/System/Settings/Configuration.md) cannot function correctly.
 
 ## What is included in the Common module?
 
@@ -49,7 +49,7 @@ These settings influence all monetary and financial behavior across domains.
 
 > [!IMPORTANT]  
 > Currencies must be created here **before** selecting them in:  
-> - System → [Configuration](../../System/Settings/Configuration.md) → Common Types Settings  
+> - System → [Configuration](../../Domains/System/Settings/Configuration.md) → Common Types Settings  
 > - [Sales documents](../../Sales/Domain/SalesDomain.md)  
 > - [Supply documents](../../Supply/Domain/SupplyDomain.md)
 
@@ -98,5 +98,5 @@ If the Common module is not configured first, users will encounter:
 - errors in system configuration  
 
 > [!CAUTION]  
-> **Do not proceed with [Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), or [System Configuration](../../System/Settings/Configuration.md) until all required Common Code Lists have been created.**  
+> **Do not proceed with [Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), or [System Configuration](../../Domains/System/Settings/Configuration.md) until all required Common Code Lists have been created.**  
 
