@@ -4,7 +4,7 @@ Domena **Računovodstvo** vsebuje vse zapise, poročila in nastavitve, potrebne 
 
 Operativne dokumente, ustvarjene v drugih domenah (npr. [**Prodaja**](../../Prodaja/Domena/Prodaja.md), [**Nabava**](../../Nabava/Domena/Nabava.md) in [**Logistika**](../../Logistika/Domena/Logistika.md)), pretvarja v **uradne računovodske knjižbe**, s čimer zagotavlja skladnost, sledljivost in pravilno finančno poročanje.
 
-Do domene dostopate preko **Računovodstvo** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Do domene dostopate preko **Računovodstvo** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Domena Računovodstvo](../Images/AccountingDomainSitemapSL.png "Domena Računovodstvo")
 
@@ -126,11 +126,11 @@ Na voljo so:
 
 - **[Konfiguracija računov](../Upravljanje/Racuni/KonfiguracijaRacunov.md)**
 - **[Povezave sredstev in kontov](../Upravljanje/Racuni/PovezaveSredstevInKontov.md)**
-- **[Vnaprej določena besedila](../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)**
-- **[Valute](../../Skupno/Upravljanje/Valute.md)**
+- **[Vnaprej določena besedila](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)**
+- **[Valute](../../../Skupno/Upravljanje/Valute.md)**
 - **[Stroški](../../Nabava/Upravljanje/Stroski.md)**
 - **[Kode namenov plačil](../../Prodaja/Upravljanje/KodeNamenovPlacil.md)**
-- **[Stroškovna mesta](../../Skupno/Upravljanje/StroskovnaMesta.md)**
+- **[Stroškovna mesta](../../../Skupno/Upravljanje/StroskovnaMesta.md)**
 
 Te nastavitve določajo, **kako se podatki iz računov vključujejo v računovodstvo**.
 
@@ -150,19 +150,19 @@ Razdelek **Upravljanje** vsebuje **globalne šifrante in nastavitve**, ki se upo
 
 Vključuje:
 
-- **[Države](../../Skupno/Upravljanje/Drzave.md)**
-- **[Banke](../../Skupno/Upravljanje/Banke.md)**
-- **[Poslovni imenik](../../Skupno/Upravljanje/PoslovniImenik.md)**
-- **[Stroškovna mesta](../../Skupno/Upravljanje/StroskovnaMesta.md)**
-- **[Bančne račune organizacije](../../Skupno/Upravljanje/Banke.md)**
-- **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)**
+- **[Države](../../../Skupno/Upravljanje/Drzave.md)**
+- **[Banke](../../../Skupno/Upravljanje/Banke.md)**
+- **[Poslovni imenik](../../../Skupno/Upravljanje/PoslovniImenik.md)**
+- **[Stroškovna mesta](../../../Skupno/Upravljanje/StroskovnaMesta.md)**
+- **[Bančne račune organizacije](../../../Skupno/Upravljanje/Banke.md)**
+- **[Davčne stopnje](../../../Skupno/Upravljanje/DavcneStopnje.md)**
 - **[Menjalni tečaji](../../Prodaja/Upravljanje/MenjalniTecaji.md)**
 
 Poseben sklop predstavljajo **Intrastat** šifranti:
 
 - **[Vrsta posla](../Upravljanje/Intrastat/VrstaPosla.md)**
-- **[Pogoji dobave](../../Skupno/Upravljanje/PogojiDobave.md)**
-- **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)**
+- **[Pogoji dobave](../../../Skupno/Upravljanje/PogojiDobave.md)**
+- **[Vrsta transporta](../../../Skupno/Upravljanje/VrstaTransporta.md)**
 - **[Lega kraja](../Upravljanje/Intrastat/LegaKraja.md)**
 - **[Merske enote Intrastat](../Upravljanje/Intrastat/IntrastatMerskeEnote.md)**
 - **[Tarife](../Upravljanje/Intrastat/Tarife.md)**

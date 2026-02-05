@@ -2,7 +2,7 @@
 
 Bančni izpiski se uporabljajo za evidentiranje prometa na bančnih računih organizacije. Vsak bančni izpisek predstavlja nabor **prilivov in odlivov sredstev** za določen datum in bančni račun.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni izpiski** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni izpiski** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > Ko je bančni izpisek objavljen, sistem samodejno ustvari pripadajočo **knjižbo v glavni knjigi**.  
@@ -15,7 +15,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni 
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generirana enolična oznaka bančnega izpiska. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generirana enolična oznaka bančnega izpiska. |
 | **Datum dokumenta** | Datum bančnega izpiska. |
 | [**Bančni račun organizacije**](../../Prodaja/Upravljanje/BancniRacuniOrganizacije.md) | Bančni račun, na katerega se izpisek nanaša. |
 
@@ -26,7 +26,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni 
 
 | Polje | Opis |
 |------|------|
-| [**Podjetje**](../../Skupno/Upravljanje/PoslovniImenik.md) | Poslovni subjekt, povezan z bančnim prometom. |
+| [**Podjetje**](../../../Skupno/Upravljanje/PoslovniImenik.md) | Poslovni subjekt, povezan z bančnim prometom. |
 | [**Konto**](../Upravljanje/GlavnaKnjiga/Konti.md) | Konto glavne knjige, na katerega se knjiži postavka. |
 | **Smer knjiženja** | Določa, ali gre za **Debet** ali **Kredit**. |
 | **Znesek** | Denarni znesek bančnega prometa. |
@@ -59,14 +59,14 @@ Bančni izpiski so lahko v enem izmed naslednjih stanj:
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za dostop do razpoložljivih dejanj:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dostop do razpoložljivih dejanj:
 
 - **Novo** – ustvarjanje novega bančnega izpiska.
 - **Uvoz** – uvoz bančnih izpiskov iz zunanjih XML datotek.
 
 ### Ustvarjanje bančnega izpiska
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov bančni izpisek.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov bančni izpisek.
 2. Izberite **Bančni račun organizacije**.
 3. Nastavite **Datum dokumenta**.
 

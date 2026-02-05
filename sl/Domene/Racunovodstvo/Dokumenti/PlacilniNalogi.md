@@ -6,7 +6,7 @@ Plačilni nalogi predstavljajo namero za plačilo in omogočajo sledenje plačil
 **Plačilni nalogi** vključujejo podatke o plačniku, prejemniku, znesku in namenu plačila.  
 Zagotavljajo, da so plačila pravilno dokumentirana in sledljiva znotraj računovodskega sistema.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi** v [**navigaciji**](../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
+Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
 
 > [!NOTE]
 > - Plačilni nalogi se praviloma ustvarijo na podlagi **prejetih računov**.
@@ -19,12 +19,12 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 
 | Polje | Opis |
 |-----|-----|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Enolična identifikacijska oznaka plačilnega naloga. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Enolična identifikacijska oznaka plačilnega naloga. |
 | **Datum dokumenta** | Datum, ko je plačilni nalog ustvarjen. |
 | **Datum zapadlosti** | Datum, do katerega mora biti plačilo izvedeno (obvezno). |
 | **Datum plačila** | Datum dejanske izvedbe plačila. |
 | **Znesek** | Znesek plačila. |
-| [**Valuta**](../../Skupno/Upravljanje/Valute.md) | Valuta plačila (npr. EUR). |
+| [**Valuta**](../../../Skupno/Upravljanje/Valute.md) | Valuta plačila (npr. EUR). |
 | **Koda namena** | Koda, ki opisuje namen plačila (obvezno). |
 | **Namen plačila** | Besedilni opis namena plačila (obvezno). |
 
@@ -35,7 +35,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 
 | Polje | Opis |
 |-----|-----|
-| [**Bančni račun organizacije**](../../Skupno/Upravljanje/BancniRacuni.md) | Bančni račun, s katerega se izvede plačilo. |
+| [**Bančni račun organizacije**](../../../Skupno/Upravljanje/BancniRacuni.md) | Bančni račun, s katerega se izvede plačilo. |
 | **Tip reference** | Tip reference, ki jo uporablja plačnik (obvezno). |
 | **Sklic** | Sklic plačnika (obvezno). |
 
@@ -47,8 +47,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 | Polje | Opis |
 |-----|-----|
 | **Tip** | Tip prejemnika (npr. Podjetje). |
-| [**Prejemnik**](../../Skupno/Upravljanje/PoslovniImenik.md) | Poslovni subjekt, ki prejme plačilo (obvezno). |
-| [**Bančni račun**](../../Skupno/Upravljanje/BancniRacuni.md) | Bančni račun prejemnika (obvezno). |
+| [**Prejemnik**](../../../Skupno/Upravljanje/PoslovniImenik.md) | Poslovni subjekt, ki prejme plačilo (obvezno). |
+| [**Bančni račun**](../../../Skupno/Upravljanje/BancniRacuni.md) | Bančni račun prejemnika (obvezno). |
 | **Tip reference** | Tip reference, ki jo zahteva prejemnik (obvezno). |
 | **Sklic** | Sklic prejemnika (obvezno). |
 
@@ -90,7 +90,7 @@ Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
 
 ### Ustvari plačilni nalog
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega plačilnega naloga.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega plačilnega naloga.
 2. Vnesite zahtevane podatke dokumenta, plačnika in prejemnika.
 3. Kliknite **Objavi**, da se plačilni nalog premakne iz *Osnutka* v *Neplačani*.
 

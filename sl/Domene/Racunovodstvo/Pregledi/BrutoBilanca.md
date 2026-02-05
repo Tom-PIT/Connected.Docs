@@ -7,7 +7,7 @@ Pogled **Bruto bilanca** omogoča združen pregled **začetnega stanja, prometa 
 > - Stolpca **Debet** in **Kredit** sta vedno prikazana ločeno, v skladu z načeli dvostavnega knjigovodstva.
 > - Ta pogled se običajno uporablja za **preverjanje ob zaključku obdobja**, **kontrolo bruto bilance** in **visokonivojsko finančno analizo**, preden se uporabnik poglobi v podrobnosti (na primer prek pogleda **[Konto kartica](KontoKartica.md)**).
 
-Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Bruto bilanca** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Bruto bilanca** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Bruto bilanca](../Images/AccountSummary.png "Bruto bilanca")
 

@@ -10,7 +10,7 @@ Ta pogled se običajno uporablja za **računovodski pregled**, **nadzor DDV**, *
 > * Dokumentov, prikazanih v tem pogledu, **ni mogoče odpreti ali podrobneje pregledovati**.
 > * Pogled je namenjen izključno **pregledu in poročanju**.
 
-Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knj. pre. rač. za pridobitve blaga znotraj skupnosti** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knj. pre. rač. za pridobitve blaga znotraj skupnosti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Knj. pre. rač. za pridobitve blaga znotraj skupnosti](../Images/ReceivedInvoicesSupplyOfGoods.png "Knj. pre. rač. za pridobitve blaga znotraj skupnosti")
 

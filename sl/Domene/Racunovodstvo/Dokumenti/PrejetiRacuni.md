@@ -3,7 +3,7 @@
 **Prejeti računi** so finančni dokumenti, ki predstavljajo račune, prejete od dobaviteljev za kupljeno blago ali storitve.  
 Uporabljajo se za evidentiranje računov dobaviteljev, ustvarjanje računovodskih knjižb in sprožanje izhodnih plačil.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Računi / Prejeti računi** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Računi / Prejeti računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > Prejeti računi so običajno povezani z enim ali več **nabavnimi nalogi**.  
@@ -35,17 +35,17 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 |-----|-----|
 | **Interna šifra** | Sistemsko generirana enolična oznaka prejetega računa. |
 | **Zunanja šifra** | Referenčna številka računa dobavitelja (obvezno). |
-| **Dobavitelj** | Dobavitelj, ki je izdal račun (obvezno). Prevzeto iz **[Poslovnega imenika](../../Skupno/Upravljanje/PoslovniImenik.md)**. |
-| [**Bančni račun**](../../Skupno/Upravljanje/BancniRacuni.md) | Bančni račun dobavitelja za plačilo (obvezno). |
+| **Dobavitelj** | Dobavitelj, ki je izdal račun (obvezno). Prevzeto iz **[Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md)**. |
+| [**Bančni račun**](../../../Skupno/Upravljanje/BancniRacuni.md) | Bančni račun dobavitelja za plačilo (obvezno). |
 | **Datum izdaje** | Datum, naveden na računu dobavitelja. |
 | **Datum dobave** | Datum, ko je bilo blago ali storitev dobavljena. |
 | **Datum prejema** | Datum, ko je bil račun prejet. |
 | **Datum zapadlosti** | Rok za plačilo računa (obvezno). |
 | **Znesek** | Skupni neto znesek računa. |
-| [**Valuta**](../../Skupno/Upravljanje/Valute.md) | Valuta računa. |
+| [**Valuta**](../../../Skupno/Upravljanje/Valute.md) | Valuta računa. |
 | **Referenca** | Sklic za plačilo, ki ga določi dobavitelj (obvezno). |
 | **Način plačila** | Način poravnave (npr. plačilni nalog). |
-| [**Stroškovno mesto**](../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna dodelitev stroškovnega mesta. |
+| [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna dodelitev stroškovnega mesta. |
 | [**Konto**](../Upravljanje/GlavnaKnjiga/Konti.md) | Konto glavne knjige za knjiženje (obvezno). |
 | [**Predloga**](../Upravljanje/GlavnaKnjiga/PredlogeZaTemeljnice.md) | Predloga knjiženja, uporabljena za račun. |
 
@@ -58,7 +58,7 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 |-----|-----|
 | [**Strošek**](../../Nabava/Upravljanje/Stroski.md) | Stroškovna ali zalogovna kategorija postavke. |
 | [**Konto**](../Upravljanje/GlavnaKnjiga/Konti.md) | Konto glavne knjige za posamezno postavko. |
-| [**Davčna stopnja**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
+| [**Davčna stopnja**](../../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Znesek** | Neto znesek postavke. |
 | **Znesek DDV** | Izračunan znesek davka. |
 | **Predplačilo** | Označuje, ali gre za predplačilo. |
@@ -111,7 +111,7 @@ Za odpravo:
 
 ### Ustvari prejeti račun
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega prejetega računa.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega prejetega računa.
 2. V **Povezavah dokumentov** povežite enega ali več nabavnih nalogov.
 3. Preglejte ali vnesite podatke glave dokumenta, vključno z **Zneskom**.
 4. Izberite ustrezen **Konto** in po potrebi **Predlogo**.

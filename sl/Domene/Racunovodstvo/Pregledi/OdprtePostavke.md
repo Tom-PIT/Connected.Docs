@@ -2,7 +2,7 @@
 
 Pogled **Odprte postavke** omogoča pregled knjiženih računovodskih postavk, ki **še niso v celoti poravnane**. Namenjen je spremljanju odprtih terjatev in obveznosti ter zapadlih zneskov.
 
-Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Odprte postavke** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Odprte postavke** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Odprte postavke](../Images/OpenItemsSL.png "Odprte postavke")
 

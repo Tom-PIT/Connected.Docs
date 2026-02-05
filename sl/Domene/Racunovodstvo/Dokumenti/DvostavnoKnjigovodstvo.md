@@ -3,7 +3,7 @@
 **Dvostavno knjigovodstvo** je osrednji modul, kjer se hranijo in upravljajo vse **temeljnice**.  
 Temeljnice predstavljajo končne računovodske zapise, s katerimi se finančni premiki knjižijo v **glavno knjigo**.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Dvostavno knjigovodstvo** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Dvostavno knjigovodstvo** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > Temeljnice se običajno ustvarijo **samodejno** iz drugih dokumentov (na primer izdanih ali prejetih računov, premikov zaloge, inventur ali prilagoditev zaloge).  
@@ -16,7 +16,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Dvostavn
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../Skupno/UI/SifreDokumentov.md) | Sistemsko generirana enolična oznaka temeljnice. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generirana enolična oznaka temeljnice. |
 | **Datum temeljnice** | Datum, na katerega se temeljnica knjiži v glavno knjigo. |
 | **Opis** | Neobvezen opis temeljnice. |
 | [**Tip dokumenta**](../Upravljanje/GlavnaKnjiga/TipiDokumentov.md) | Razvrstitev temeljnice (npr. splošna temeljnica, premik zaloge). |
@@ -86,7 +86,7 @@ Pred objavo mora sistem preveriti, da se zneska ujemata.
 
 ![Akcijski gumb – nova temeljnica](../Images/DoubleEntryAccountancyJournalEntryNewButton.png)
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove temeljnice.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove temeljnice.
 2. Izberite **Tip dokumenta**.
 3. Po želji izberite **Predlogo** za predizpolnitev postavk.
 4. Nastavite **Datum temeljnice**.

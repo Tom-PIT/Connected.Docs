@@ -8,7 +8,7 @@ Ta pogled se običajno uporablja skupaj z drugimi pregledi glavne knjige (na pri
 > - Vse vrednosti se izračunajo na podlagi **knjižene zaloge in računovodskih knjižb**.
 > - Poročilo je namenjeno **analizi staranja zaloge**, **pregledu vrednotenja** in podpori pri **finančnem poročanju**.
 
-Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Starostna struktura zaloge** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Starostna struktura zaloge** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Starostna struktura zaloge](../Images/StockAgeStructureList.png "Starostna struktura zaloge")
 

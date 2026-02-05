@@ -2,7 +2,7 @@
 
 Pogled **Intrastat** omogoča pregled transakcij, ki so predmet poročanja Intrastat. Združuje podatke iz računovodskih in prodajnih dokumentov ter jih prikazuje v obliki, primerni za pregled in poročanje o blagovnem toku med državami članicami EU.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Pregledi / Intrastat** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Pregledi / Intrastat** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Intrastat pogled](../Images/IntrastatView.png)
 
@@ -65,9 +65,9 @@ Razširitev postavke prikaže podrobne informacije za vsako Intrastat vrstico:
 
 - **Vrsta posla** - Klasifikacija na podlagi izbrane šifre vrste posla (glej [Vrste poslov](../Upravljanje/Intrastat/VrstaPosla.md)).
 
-- **Vrsta transporta** - Način transporta, uporabljen pri transakciji (glej [Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)).
+- **Vrsta transporta** - Način transporta, uporabljen pri transakciji (glej [Vrsta transporta](../../../Skupno/Upravljanje/VrstaTransporta.md)).
 
-- **Pogoj dobave** - Dobavni pogoj (Incoterms klasifikacija) (glej [Pogoji dobave](../../Skupno/Upravljanje/PogojiDobave.md)).
+- **Pogoj dobave** - Dobavni pogoj (Incoterms klasifikacija) (glej [Pogoji dobave](../../../Skupno/Upravljanje/PogojiDobave.md)).
 
 - **Lega kraja** - Klasifikacija kraja dobave (glej [Lega kraja](../Upravljanje/Intrastat/LegaKraja.md)).
 

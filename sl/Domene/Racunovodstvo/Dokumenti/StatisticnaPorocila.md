@@ -2,7 +2,7 @@
 
 **Statistična poročila** omogočajo pregled finančnih podatkov, agregiranih po **AOP postavkah**, ter primerjavo med **trenutnim obdobjem** in **prejšnjim obdobjem** (najpogosteje prejšnje leto). Poročila se običajno uporabljajo za **bilanco stanja**, **izkaz poslovnega izida** ter druga zakonska ali interna finančna poročila.
 
-Do tega zaslona dostopate preko **Računovodstvo / Glavna knjiga / Pregledi / Statistična poročila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Do tega zaslona dostopate preko **Računovodstvo / Glavna knjiga / Pregledi / Statistična poročila** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > - Statistična poročila so po ustvarjanju **samo za branje**.
