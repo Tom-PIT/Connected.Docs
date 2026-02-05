@@ -153,4 +153,4 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Davčne stopnje**](Skupno/Upravljanje/DavcneStopnje.md)
 
 ## Sistem
-- [**Konfiguracija sistema**](Sistem/Nastavitve/KonfiguracijaSistema.md)
+- [**Konfiguracija sistema**](Domene/Sistem/Nastavitve/KonfiguracijaSistema.md)

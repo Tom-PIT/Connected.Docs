@@ -41,7 +41,7 @@ Izberite državo organizacije.
 **Država organizacije, ki se uporablja v sklopu različnih vsebin.**
 
 > [!IMPORTANT]
-> Država mora biti predhodno definirana v šifrantu [**Države**](../../Skupno/Upravljanje/Drzave.md), sicer je ne bo mogoče izbrati.
+> Država mora biti predhodno definirana v šifrantu [**Države**](../../../Skupno/Upravljanje/Drzave.md), sicer je ne bo mogoče izbrati.
 
 ### Valuta
 
@@ -50,7 +50,7 @@ Izberite privzeto valuto organizacije.
 **Valuta organizacije, ki se uporablja v sklopu različnih vsebin.**
 
 > [!IMPORTANT]
-> Valuta mora biti predhodno definirana v šifrantu [**Valute**](../../Skupno/Upravljanje/Valute.md).
+> Valuta mora biti predhodno definirana v šifrantu [**Valute**](../../../Skupno/Upravljanje/Valute.md).
 
 Ti dve nastavitvi predstavljata osnovo za vse finančne in poslovne procese.
 
