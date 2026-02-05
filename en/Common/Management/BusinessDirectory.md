@@ -20,7 +20,7 @@ The **Business directory** contains all companies and individuals your organizat
 | **Type** | Defines the tax status of the entity (see the list section below). |
 | **VAT ID** | VAT identification number, for example **SI12345678**. |
 | **Company ID** | Company registration number. |
-| [**Institutional sector**](../../Domains/CustomerSupport/Management/InstitutionalSectors.md) | Institutional sector to which the entity belongs. |
+| [**Institutional sector**](../../Domains/Customers/Management/InstitutionalSectors.md) | Institutional sector to which the entity belongs. |
 | **Tags** | Tags that allow categorization of entities. |
 | **Payment currency** | Default payment currency used in documents. |
 | [**Currency**](Currencies.md) | Currency associated with the entity. |

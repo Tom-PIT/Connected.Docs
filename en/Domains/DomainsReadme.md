@@ -13,7 +13,7 @@ Domains available in this documentation:
 - [**Resources**](./Resources/Domain/ResourcesDomain.md) — Human and non-human resources, timesheets, costs
 - [**Quality**](./Quality/Domain/QualityDomain.md) — Quality processes, classifications, controls
 - [**Maintenance**](./Maintenance/Domain/MaintenanceDomain.md) — Maintenance planning and execution
-- [**Customer support**](./CustomerSupport/Domain/CustomerSupportDomain.md) — Desks, tickets, SLAs, customer care
+- [**Customers**](./Customers/Domain/CustomersDomain.md) — Desks, tickets, SLAs, customer care
 - [**Knowledge**](./Knowledge/Domain/KnowledgeDomain.md) — Knowledge base articles, directories, tags
 
 Note about the Common domain:

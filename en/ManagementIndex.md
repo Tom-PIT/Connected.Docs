@@ -4,7 +4,7 @@ This index lists all management and configuration documentation across domains. 
 
 - [**Accounting**](#accounting)
 - [**Assets**](#assets)
-- [**Customer support**](#customer-support)
+- [**Customers**](#customers)
 - [**Knowledge**](#knowledge)
 - [**Logistics**](#logistics)
 - [**Production and Maintenance**](#production-and-maintenance)
@@ -72,12 +72,12 @@ This index lists all management and configuration documentation across domains. 
 - [**Semi-products**](Domains/Assets/Materials/SemiProducts.md)
 - [**Sets**](Domains/Assets/Materials/Sets.md)
 
-## Customer support
+## Customers
 
-- [**Notifications settings**](Domains/CustomerSupport/Management/NotificationsSettings.md)
-- [**Desks**](Domains/CustomerSupport/Management/Desks.md)
+- [**Notifications settings**](Domains/Customers/Management/NotificationsSettings.md)
+- [**Desks**](Domains/Customers/Management/Desks.md)
 - [**Business directory**](Common/Management/BusinessDirectory.md)
-- [**Institutional sectors**](Domains/CustomerSupport/Management/InstitutionalSectors.md)
+- [**Institutional sectors**](Domains/Customers/Management/InstitutionalSectors.md)
 - [**Job titles**](Common/Management/JobTitles.md)
 
 ## Knowledge

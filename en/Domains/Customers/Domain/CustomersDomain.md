@@ -1,17 +1,17 @@
-# Customer support
+# Customers
 
-The **Customer support** domain provides tools for managing customer interactions, support requests, and service-related communication. It enables organizations to track incoming requests, resolve issues, monitor service levels, and maintain structured customer-related data.
+The **Customers** domain provides tools for managing customer interactions, support requests, and service-related communication. It enables organizations to track incoming requests, resolve issues, monitor service levels, and maintain structured customer-related data.
 
-Where the **[Sales](../../Sales/Domain/SalesDomain.md)** domain focuses on commercial transactions, the Customer support domain focuses on **post-sale communication, issue resolution, and customer assistance**.
+Where the **[Sales](../../Sales/Domain/SalesDomain.md)** domain focuses on commercial transactions, the Customers domain focuses on **post-sale communication, issue resolution, and customer assistance**.
 
-To access this domain, navigate to **Customer support** from the main sitemap.
+To access this domain, navigate to **Customers** from the main sitemap.
 
-![Customer support Domain](../Images/CustomerSupportDomainSitemap.png "Customer support Domain")
+![Customers Domain](../Images/CustomerSupportDomainSitemap.png "Customers Domain")
 
 > [!NOTE]  
 > The available domains and features depend on the company configuration and enabled modules.
 
-## What is included in the Customer support domain?
+## What is included in the Customers domain?
 
 The domain is organized into the following functional areas:
 
@@ -20,7 +20,7 @@ The domain is organized into the following functional areas:
 - **[Views](#views)** – analytical and summary views related to customer support  
 - **[Management](#management)** – configuration and master data for customer support processes  
 
-![Customer support Domain Overview](../Images/CustomerSupportDomainOverview.png "Customer support Domain Overview")
+![CustomersDomain Overview](../Images/CustomerSupportDomainOverview.png "CustomersDomain Overview")
 
 ## Visitors
 
@@ -40,13 +40,13 @@ It includes screens for:
 - **[Resolved tickets](../Tickets/ResolvedTickets.md)** – completed and closed support cases  
 - **[SLA tickets](../Tickets/SLATickets.md)** – tickets monitored against defined service level agreements  
 
-These screens represent the core operational area of the Customer support domain, allowing support agents to follow tickets from creation through resolution while maintaining visibility of response and resolution times.
+These screens represent the core operational area of the Customers domain, allowing support agents to follow tickets from creation through resolution while maintaining visibility of response and resolution times.
 
 ## Views
 
 The **Views** section provides read-only screens that present customer-related information in a structured and aggregated form.
 
-![Customer support Views](../Images/CustomerSupportDomainCompanyCards.png "Customer support Views")
+![Customers Views](../Images/CustomerSupportDomainCompanyCards.png "CustomersViews")
 
 Available views include:
 
@@ -58,7 +58,7 @@ Views do **not** create or modify data. They are intended for analysis, navigati
 
 The **Management** section contains configuration screens and code lists required to support customer service processes.
 
-![Customer support Management](../Images/CustomerSupportDomainManagement.png "Customer support Management")
+![Customers Management](../Images/CustomerSupportDomainManagement.png "CustomersManagement")
 
 Available configuration screens include:
 
@@ -73,9 +73,9 @@ These elements define how customer support is structured and how users interact 
 > [!TIP]
 See all management entries in the **[Management Index](../../../ManagementIndex.md)**.
 
-## Customer support and Other Domains
+## Customers and other domains
 
-The Customer support domain integrates with several other domains:
+The **Customers** domain integrates with several other domains:
 
 | Area | Interaction |
 |------|-------------|
@@ -87,7 +87,7 @@ The Customer support domain integrates with several other domains:
 
 ## Summary
 
-The Customer support domain centralizes all customer-facing service activities.  
+The **Customers** domain centralizes all customer-facing service activities.  
 It enables organizations to:
 
 - manage customer requests and issues  
