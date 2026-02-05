@@ -62,7 +62,8 @@ The **Management** section contains configuration screens and master data requir
 
 ![Resources Management](../Images/ResourcesDomainManagement.png "Resources Management")
 
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> [!TIP]
+See management entries for all domains in the **[Management Index](../../../ManagementIndex.md)**.
 
 Available configuration and master data include:
 
@@ -71,7 +72,7 @@ Available configuration and master data include:
 - **[Competence matrices](../Management/CompetenceMatrixes.md)**  
 - **[Configuration](../Management/ResourcesConfiguration.md)**  
 - **[Resources costs](../Management/ResourcesCosts.md)**  
-- **[Currencies](../../Common/Management/Currencies.md)**  
+- **[Currencies](../../../Common/Management/Currencies.md)**  
 - **[Travel destinations](../Management/TravelDestinations.md)**  
 - **[Travel order reasons](../Management/TravelOrderReasons.md)**  
 - **[Effort types](../Management/EffortTypes.md)**  

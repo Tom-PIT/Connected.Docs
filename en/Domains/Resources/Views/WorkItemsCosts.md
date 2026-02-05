@@ -2,7 +2,7 @@
 
 The **Work items costs** view provides insight into the **actual cost of producing a single work item**, based on recorded materials, effort, and expenses. It is primarily used to analyze [production](../../Production/Documents/ProductionOrders.md) and [maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md) and understand cost distribution and performance.
 
-To access **Work items costs**, go to **Resources / Work items costs** in the [**navigation**](../../Common/UI/Navigation.md).
+To access **Work items costs**, go to **Resources / Work items costs** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![Work items costs list](../Images/WorkItemsCosts.png)
 

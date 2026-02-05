@@ -2,7 +2,7 @@
 
 The **Resource view** provides a **chronological timeline of effort recorded in the system** for the **currently logged-in user**.
 
-To access **Resource view**, go to **Resources / Resource view** in the [**navigation**](../../Common/UI/Navigation.md).
+To access **Resource view**, go to **Resources / Resource view** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ### Overview
 

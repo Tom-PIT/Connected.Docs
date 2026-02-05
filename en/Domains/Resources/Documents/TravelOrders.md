@@ -2,7 +2,7 @@
 
 Travel Orders are used to record and manage employee business trips. They consolidate mileage, subsistence allowances, and expenses, and calculate the total trip cost.
 
-To access this page, go to **Resources / Documents / Travel Orders** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Resources / Documents / Travel Orders** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -76,7 +76,7 @@ When creating or editing a travel order, the fields described in the [**Schema**
 
 ### Create a new travel order
 
-1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new travel order.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new travel order.
 2. Enter travel order data.
 3. Add mileage, subsistence allowances, and expenses as needed.
 4. Click **Publish**.

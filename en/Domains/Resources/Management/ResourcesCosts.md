@@ -2,7 +2,7 @@
 
 Define **hourly cost rates for resources** (human and non-human). These costs are used to calculate production/operational costs and to evaluate the cost of performed work.
 
-To access this page, go to **Resources / Management / Resources costs** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Resources / Management / Resources costs** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -32,7 +32,7 @@ Use filters on the left to narrow down resources:
 
 ### Add new cost entry
 
-Use the [**action button**](../../Common/UI/ActionButton.md) to add a new cost entry for a resource. Fill in the fields and click **Add**.
+Use the [**action button**](../../../Common/UI/ActionButton.md) to add a new cost entry for a resource. Fill in the fields and click **Add**.
 
 ![Edit resource cost](../Images/ResourcesCostsNew.png "Edit resource cost")
 

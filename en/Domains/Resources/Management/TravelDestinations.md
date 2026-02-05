@@ -3,7 +3,7 @@
 Define **predefined travel destinations** used when creating travel orders.  
 Travel destinations store start and destination addresses together with distance information, allowing consistent and repeatable travel order creation.
 
-To access **Travel destinations**, go to **Resources / Management / Travel destinations** in the [**navigation**](../../Common/UI/Navigation.md).
+To access **Travel destinations**, go to **Resources / Management / Travel destinations** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -13,7 +13,7 @@ To access **Travel destinations**, go to **Resources / Management / Travel desti
 | **Start** | Starting address of the trip, usually the company’s main location. |
 | **Destination** | Target address of the trip. |
 | **Distance** | Distance between start and destination. |
-| [**Measure unit**](../../Common/Management/MeasureUnits.md) | Unit used for the distance (for example kilometers). |
+| [**Measure unit**](../../../Common/Management/MeasureUnits.md) | Unit used for the distance (for example kilometers). |
 
 ## List view
 
@@ -32,7 +32,7 @@ Clicking a destination opens it for editing.
 
 ### Add travel destination
 
-1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new travel destination.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new travel destination.
 2. Fill in the fields described in the [**Schema**](#schema).
 3. Click **Add** to save.
 

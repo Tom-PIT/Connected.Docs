@@ -2,7 +2,7 @@
 
 Reminder categories define **classification labels** that can be assigned to reminders in the [**Reminders**](../Views/Reminders.md) module.  They help organize reminders by purpose (for example *Budget review* or *Facility inspection*) and are reused across the system wherever reminders are created.
 
-To access **Reminder categories**, go to **Resources / Management / Reminder categories** in the [**navigation**](../../Common/UI/Navigation.md).
+To access **Reminder categories**, go to **Resources / Management / Reminder categories** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -25,7 +25,7 @@ Active categories are indicated by a blue status icon, while inactive ones show 
 
 To create a new reminder category:
 
-1. Click the [**action button**](../../Common/UI/ActionButton.md).
+1. Click the [**action button**](../../../Common/UI/ActionButton.md).
 2. Enter a suitable name for the reminder.
 3. Ensure **Status** is enabled if the category should be available.
 4. Click **Add** to save.

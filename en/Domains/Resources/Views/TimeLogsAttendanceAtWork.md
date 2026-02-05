@@ -3,7 +3,7 @@
 The **Attendance at work** view provides a real-time overview of the current attendance status of workers.  
 It is primarily intended for supervisors, team leads, and managers who need to quickly see who is present, absent, or in a specific attendance state.
 
-To access **Attendance at work**, go to **Resources / Time logs / Attendance at work** in the [**navigation**](../../Common/UI/Navigation.md).
+To access **Attendance at work**, go to **Resources / Time logs / Attendance at work** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![Attendance at work overview](../Images/TimeLogsAttendance.png "Attendance at work")
 
