@@ -1,6 +1,6 @@
 # Raw materials
 
-**Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key information—such as[measure units](../../Common/Management/MeasureUnits.md), [tax rate](../../Common/Management/TaxRates.md), expiration period, or [packaging](Packaging.md)—to ensure that it can be managed consistently across the system.
+**Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key information—such as[measure units](../../../Common/Management/MeasureUnits.md), [tax rate](../../../Common/Management/TaxRates.md), expiration period, or [packaging](Packaging.md)—to ensure that it can be managed consistently across the system.
 
 This code list serves as the register of all raw materials within the materials structure.
 
@@ -10,10 +10,10 @@ This code list serves as the register of all raw materials within the materials 
 > [!NOTE]  
 > **Prerequisites**  
 > Before managing semi products, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../Common/Management/MeasureUnits.md)  
-> - [**Tax rates**](../../Common/Management/TaxRates.md)
+> - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
+> - [**Tax rates**](../../../Common/Management/TaxRates.md)
 
-To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [**navigation**](../../Common/UI/Navigation.md).
+To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -27,9 +27,9 @@ To access the **Raw materials** code list, go to **Assets / Materials / Raw mate
 | **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before the material expires (useful for perishable goods). |
 | **EAN**              | Barcode value used for scanning. |
-| **[Base measure unit](../../Common/Management/MeasureUnits.md)**     | Measure unit used to express quantities (e.g., piece, kg, meter). (required) |
+| **[Base measure unit](../../../Common/Management/MeasureUnits.md)**     | Measure unit used to express quantities (e.g., piece, kg, meter). (required) |
 | **Precision**        | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
-| **[Tax rate](../../Common/Management/TaxRates.md)**         | Default tax rate used in business documents. |
+| **[Tax rate](../../../Common/Management/TaxRates.md)**         | Default tax rate used in business documents. |
 
 </details>
 
@@ -72,7 +72,7 @@ A packaging definition describes the physical properties of a material and the a
 | [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance-sheet account for stock value of this product. Set per material when overriding defaults. |
 | [**Account expense**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | P&L expense account (e.g., COGS) used when this product is consumed or sold, if overriding defaults. |
 | [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
-| [**Country origin**](../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
+| [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
 | **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
 
 </details>

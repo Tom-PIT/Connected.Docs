@@ -9,7 +9,7 @@ Assets may represent:
 
 Assets do **not** participate in stock movements. Instead, they define sales-ready items with their own price, tax rate, and properties. An asset may optionally reference materials when the sold product is also tracked in stock.
 
-To access this screen, go to **Assets / Assets** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, go to **Assets / Assets** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -21,8 +21,8 @@ To access this screen, go to **Assets / Assets** in the [**navigation**](../../C
 | **Code** | Unique identifier for the asset (mandatory). |
 | **Name** | Display name of the asset (mandatory). |
 | **Type** | Whether the asset is a *Good* or a *Service* (mandatory). |
-| [**Tax rate**](../../Common/Management/TaxRates.md) | Applicable tax rate (optional). |
-| [**Measure unit**](../../Common/Management/MeasureUnits.md) | Unit used to display and price the asset (mandatory). |
+| [**Tax rate**](../../../Common/Management/TaxRates.md) | Applicable tax rate (optional). |
+| [**Measure unit**](../../../Common/Management/MeasureUnits.md) | Unit used to display and price the asset (mandatory). |
 | **Item price net** | Net unit price of the asset. |
 | **Net weight (kg)** | Weight of the item, if applicable (default = 0). |
 | **EAN** | Barcode number (optional). |
@@ -36,7 +36,7 @@ To access this screen, go to **Assets / Assets** in the [**navigation**](../../C
 | Field | Description |
 |-------|-------------|
 | [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
-| [**Country origin**](../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
+| [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
 | **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
 | **Domestic revenue account** | Revenue account used for domestic sales. |
 | **Revenue account in Europe markets** | Revenue account used for sales within EU markets. |

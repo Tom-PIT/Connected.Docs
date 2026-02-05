@@ -2,7 +2,7 @@
 
 **Repro materials** are reusable or auxiliary components used to support production or internal activities. They are not final products but are essential for maintaining or assembling other materials. Examples include screws, tape, pallets, or styrofoam.
 
-Each repro material includes important attributes—such as [measure units](../../Common/Management/MeasureUnits.md), [tax rate](../../Common/Management/TaxRates.md), serial number behavior, or [packaging](Packaging.md) options—to ensure consistent tracking and usage across all warehouse and production workflows. This code list contains all repro materials used by your organization.
+Each repro material includes important attributes—such as [measure units](../../../Common/Management/MeasureUnits.md), [tax rate](../../../Common/Management/TaxRates.md), serial number behavior, or [packaging](Packaging.md) options—to ensure consistent tracking and usage across all warehouse and production workflows. This code list contains all repro materials used by your organization.
 
 > [!TIP]
 > For a full demonstration, see the **[Repro materials](https://www.youtube.com/watch?v=ZRUwbQrAolU)** video tutorial.
@@ -10,10 +10,10 @@ Each repro material includes important attributes—such as [measure units](../.
 > [!NOTE]  
 > **Prerequisites**  
 > Before managing repro materials, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../Common/Management/MeasureUnits.md)  
-> - [**Tax rates**](../../Common/Management/TaxRates.md)
+> - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
+> - [**Tax rates**](../../../Common/Management/TaxRates.md)
 
-To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [**navigation**](../../Common/UI/Navigation.md).
+To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -27,9 +27,9 @@ To access the **Repro materials** code list, go to: **Assets / Materials / Repro
 | **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
 | **Expiration (days)** | Number of days before expiration, used for perishable items. For example **30** or **365**. |
 | **EAN** | Barcode value used for scanning. For example **57884441241**. |
-| **[Measure unit](../../Common/Management/MeasureUnits.md)** | Measure unit used to express quantities, such as **piece** or **meter**. (required) |
+| **[Measure unit](../../../Common/Management/MeasureUnits.md)** | Measure unit used to express quantities, such as **piece** or **meter**. (required) |
 | **Precision** | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
-| **[Tax rate](../../Common/Management/TaxRates.md)** | Default tax rate used in business documents. For example **22** or **9.5**. |
+| **[Tax rate](../../../Common/Management/TaxRates.md)** | Default tax rate used in business documents. For example **22** or **9.5**. |
 
 </details>
 
@@ -72,7 +72,7 @@ A packaging definition describes the physical properties of a material and the a
 | [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance-sheet account for stock value of this product. Set per material when overriding defaults. |
 | [**Account expense**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | P&L expense account (e.g., COGS) used when this product is consumed or sold, if overriding defaults. |
 | [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
-| [**Country origin**](../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
+| [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
 | **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
 
 </details>
@@ -91,7 +91,7 @@ A filter for **Tags** is available on the left side. A search field is available
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to display the following actions:
+Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
 
 - **Import**
 - **Copy existing**

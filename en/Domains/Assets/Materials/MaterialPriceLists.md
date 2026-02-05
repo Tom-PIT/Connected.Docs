@@ -7,7 +7,7 @@
 
 Use this screen to create and maintain price lists per material type, set the base net price (100 %), and configure ranges that automatically calculate the effective net price for specific order quantities.
 
-To access this screen, navigate to **Assets / Materials / Material price lists** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, navigate to **Assets / Materials / Material price lists** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -64,7 +64,7 @@ Clicking the **Details** button opens the pricing details page.
 
 ## Actions
 
-Depending on the current screen, the [**action button**](../../Common/UI/ActionButton.md) provides different options.
+Depending on the current screen, the [**action button**](../../../Common/UI/ActionButton.md) provides different options.
 
 ### On the Material price lists page
 - **New**

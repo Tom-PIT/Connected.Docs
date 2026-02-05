@@ -58,19 +58,19 @@ This index lists all management and configuration documentation across domains. 
 - [**Tax rates**](Common/Management/TaxRates.md)
 
 ### Assets
-- [**Asset price lists**](Assets/Assets/AssetPriceLists.md)
-- [**Assets**](Assets/Assets/Assets.md)
+- [**Asset price lists**](Domains/Assets/Domains/Assets/AssetPriceLists.md)
+- [**Assets**](Domains/Assets/Domains/Assets/Assets.md)
 
 ### Materials
-- [**Alternative measure units**](Assets/Materials/AlternativeMeasureUnits.md)
-- [**Import materials**](Assets/Materials/ImportMaterials.md)
-- [**Material price lists**](Assets/Materials/MaterialPriceLists.md)
-- [**Packaging**](Assets/Materials/Packaging.md)
-- [**Products**](Assets/Materials/Products.md)
-- [**Raw materials**](Assets/Materials/RawMaterials.md)
-- [**Repro materials**](Assets/Materials/ReproMaterials.md)
-- [**Semi-products**](Assets/Materials/SemiProducts.md)
-- [**Sets**](Assets/Materials/Sets.md)
+- [**Alternative measure units**](Domains/Assets/Materials/AlternativeMeasureUnits.md)
+- [**Import materials**](Domains/Assets/Materials/ImportMaterials.md)
+- [**Material price lists**](Domains/Assets/Materials/MaterialPriceLists.md)
+- [**Packaging**](Domains/Assets/Materials/Packaging.md)
+- [**Products**](Domains/Assets/Materials/Products.md)
+- [**Raw materials**](Domains/Assets/Materials/RawMaterials.md)
+- [**Repro materials**](Domains/Assets/Materials/ReproMaterials.md)
+- [**Semi-products**](Domains/Assets/Materials/SemiProducts.md)
+- [**Sets**](Domains/Assets/Materials/Sets.md)
 
 ## Customer support
 

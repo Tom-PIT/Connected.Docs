@@ -2,7 +2,7 @@
 
 Sets let you define composite items made of existing materials (products, semi products, raw or repro materials). A set groups multiple components with quantities under a single parent material, so you can sell or manage it as one.
 
-To access this page, go to **Assets / Materials / Sets** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Assets / Materials / Sets** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -29,7 +29,7 @@ The left sidebar lists parent materials grouped by [**Material type**](../Domain
 1. Create the parent material in its category:
    - Go to **Assets / Materials / Products** and add a new product (e.g., **Pine Wood Furniture Set**).
 2. Open **Assets / Materials / Sets** and select the parent on the left sidebar: **Products → Pine Wood Furniture Set**.
-3. Click the [**action button**](../../Common/UI/ActionButton.md) to add components to the set (each component must exist already):
+3. Click the [**action button**](../../../Common/UI/ActionButton.md) to add components to the set (each component must exist already):
    - Example components: **Pine Wood Table** (1), **Pine Wood Chair** (4)
 
    ![New set](../Images/SetsNew.png "New set")

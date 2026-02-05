@@ -2,14 +2,14 @@
 
 **Asset price lists** define how much a specific customer (or other business entity) pays for your [assets](Assets.md).  They allow you to set **customer-specific pricing**, valid for a defined date range, and optionally include **volume-based discounts** (price ranges).
 
-To access this screen, go to **Assets / Asset price lists** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, go to **Assets / Asset price lists** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
 | Field | Description |
 |-------|-------------|
 | **Type** | Classification of the price list (e.g., *Company*). |
-| [**Entity**](../../Common/Management/BusinessDirectory.md) | Customer or other partner to whom the price list applies. |
+| [**Entity**](../../../Common/Management/BusinessDirectory.md) | Customer or other partner to whom the price list applies. |
 | **Name** | Display name of the price list (mandatory). |
 | **Valid from** | Start date when the price list becomes active. |
 | **Valid to** | End date of the price list's validity period. |
@@ -42,7 +42,7 @@ Clicking the **Details** button opens the page where assets and discount ranges 
 
 ## Actions
 
-Depending on which page you are, the the [action button](../../Common/UI/ActionButton.md) displays different actions:
+Depending on which page you are, the the [action button](../../../Common/UI/ActionButton.md) displays different actions:
 
 On the **Asset price lists** page:
 - **New**
