@@ -4,7 +4,7 @@ The **Supply** domain manages all processes related to procurement, supplier int
 
 Where the **[Sales](../../Sales/Domain/SalesDomain.md)** domain manages customer-facing activities, the Supply domain manages supplier-facing workflows that ensure materials are available when needed.
 
-To access Supply, navigate to **Supply** in the [**navigation**](../../Common/UI/Navigation.md).
+To access Supply, navigate to **Supply** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![Supply Domain](../Images/SupplyDomainSitemap.png "Supply Domain")
 
@@ -68,18 +68,18 @@ Available configuration and code lists include:
 - **[Configuration](../Management/SupplyConfiguration.md)** – Supply settings and procurement rules, including document numbering for supply orders.  
 - **[Supplier materials](../Management/SupplierMaterials.md)** – Mapping of which suppliers can provide which materials; may include lead times, MOQs, and price sources.  
 - **[Expenses](../Management/Expenses.md)** – Expense categories (e.g., freight, customs) used on supply orders; affect the total procurement cost.  
-- **[Business directory](../../Common/Management/BusinessDirectory.md)** – Supplier and partner records.  
-- **[Cost centers](../../Common/Management/CostCenters.md)** – Financial allocation of procurement expenses.  
-- **[Currencies](../../Common/Management/Currencies.md)** – Currency definitions used in quotations and supply orders.  
-- **[Predefined texts](../../Common/Management/PredefinedTexts.md)** – Standard text blocks used in procurement documents.  
-- **[Countries](../../Common/Management/Countries.md)** – Geographic information used in supplier profiles.  
-- **[Measure units](../../Common/Management/MeasureUnits.md)** – Measurement units used across supply documents.  
-- **[Tax rates](../../Common/Management/TaxRates.md)** – Tax definitions applied during procurement.
+- **[Business directory](../../../Common/Management/BusinessDirectory.md)** – Supplier and partner records.  
+- **[Cost centers](../../../Common/Management/CostCenters.md)** – Financial allocation of procurement expenses.  
+- **[Currencies](../../../Common/Management/Currencies.md)** – Currency definitions used in quotations and supply orders.  
+- **[Predefined texts](../../../Common/Management/PredefinedTexts.md)** – Standard text blocks used in procurement documents.  
+- **[Countries](../../../Common/Management/Countries.md)** – Geographic information used in supplier profiles.  
+- **[Measure units](../../../Common/Management/MeasureUnits.md)** – Measurement units used across supply documents.  
+- **[Tax rates](../../../Common/Management/TaxRates.md)** – Tax definitions applied during procurement.
 
 These elements determine how the procurement processes behave and how supply-related data is structured.
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../../ManagementIndex.md)**.
 
 ## Supply Processes
 

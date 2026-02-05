@@ -30,7 +30,7 @@ This index lists all management and configuration documentation across domains. 
 - [**Predefined texts**](Common/Management/PredefinedTexts.md)
 - [**Clause templates for issued invoices**](Domains/Sales/Management/ClauseTemplatesIssuedInvoices.md)
 - [**Currencies**](Common/Management/Currencies.md)
-- [**Expenses**](Supply/Management/Expenses.md)
+- [**Expenses**](Domains/Supply/Management/Expenses.md)
 - [**External code sets**](Domains/Sales/Management/ExternalCodeSets.md)
 - [**Cost centers**](Common/Management/CostCenters.md)
 
@@ -154,9 +154,9 @@ This index lists all management and configuration documentation across domains. 
 - [**Tax rates**](Common/Management/TaxRates.md)
 
 ## Supply
-- [**Supply configuration**](Supply/Management/SupplyConfiguration.md)
-- **[Supplier materials](Supply//Management/SupplierMaterials.md)**
-- **[Expenses](Supply/Management/Expenses.md)**
+- [**Supply configuration**](Domains/Supply/Management/SupplyConfiguration.md)
+- **[Supplier materials](Domains/Supply//Management/SupplierMaterials.md)**
+- **[Expenses](Domains/Supply/Management/Expenses.md)**
 - **[Business directory](Common/Management/BusinessDirectory.md)**
 - **[Cost centers](Common/Management/CostCenters.md)**
 - **[Currencies](Common/Management/Currencies.md)**

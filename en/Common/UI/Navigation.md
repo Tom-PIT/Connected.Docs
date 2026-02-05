@@ -26,7 +26,7 @@ Each domain contains the tools relevant to a specific business area. Examples in
 
 - **[Sales](../../Domains/Sales/Domain/SalesDomain.md)**  
 - **[Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md)**  
-- **[Supply](../../Supply/Domain/SupplyDomain.md)**  
+- **[Supply](../../Domains/Supply/Domain/SupplyDomain.md)**  
 - **[Production](../../Domains/Production/Domain/ProductionDomain.md)**  
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Documents are the core of daily operational work. They are used to create, proce
 - **[Issues](../../Domains/Logistics/Documents/Issues.md)**  
 - **[Inter-warehouse transfers](../../Domains/Logistics/Documents/InterWarehouse.md)**  
 - **[Inventories](../../Domains/Logistics/Documents/Inventories.md)**
-- **[Supply orders](../../Supply/Documents/SupplyOrders.md)**  
+- **[Supply orders](../../Domains/Supply/Documents/SupplyOrders.md)**  
 - **[Execution](../../Domains/Production/Documents/Execution.md)**
 - **[Production orders](../../Domains/Production/Documents/ProductionOrders.md)**
 - **[Requirements](../../Domains/Production/Documents/Requirements.md)**

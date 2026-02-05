@@ -4,7 +4,7 @@ The **Expenses** code list contains all costs that your organization wants to re
 
 This list helps maintain consistency by storing all expenses in one place, making them available for use across documents and operational workflows.
 
-To access this code list, go to **Supply / Management / Expenses** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this code list, go to **Supply / Management / Expenses** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -15,9 +15,9 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 |-------|-------------|
 | **Code** | Unique identifier of the expense. |
 | **Name** | Descriptive name of the expense. |
-| **[Tax rate](../../Common/Management/TaxRates.md)** | Tax rate applied to the expense. |
+| **[Tax rate](../../../Common/Management/TaxRates.md)** | Tax rate applied to the expense. |
 | **Enabled** | Indicates whether the expense is available for use in documents. |
-| **Subcontractor** | Business partner providing the subcontracted service, selected from the [Business directory](../../Common/Management/BusinessDirectory.md). |
+| **Subcontractor** | Business partner providing the subcontracted service, selected from the [Business directory](../../../Common/Management/BusinessDirectory.md). |
 | **Cost per unit (€)** | Cost of this subcontracted operation per unit. |
 | **Operations** | List of operations associated with this subcontractor cost. |
 
@@ -72,7 +72,7 @@ These filters control whether the list shows active or inactive expense entries.
 
 ## Actions
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
+Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
 
 - Add new expense
 - Ledger

@@ -1,6 +1,6 @@
 # Common
 
-The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain—[Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), [Production](../../Domains/Production/Domain/ProductionDomain.md)—relies on the Common module to operate correctly.
+The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain—[Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Domains/Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), [Production](../../Domains/Production/Domain/ProductionDomain.md)—relies on the Common module to operate correctly.
 
 Because of this, the Common module must be configured **before** using any other domain in the platform.
 
@@ -11,7 +11,7 @@ Example of Common code lists in the **Sales** domain:
 > [!IMPORTANT]  
 > The Common Code Lists should be the **first configuration step** when setting up the platform.  
 >  
->Without these values, [Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), and [System Configuration](../../Domains/System/Settings/Configuration.md) cannot function correctly.
+>Without these values, [Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Domains/Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), and [System Configuration](../../Domains/System/Settings/Configuration.md) cannot function correctly.
 
 ## What is included in the Common module?
 
@@ -51,7 +51,7 @@ These settings influence all monetary and financial behavior across domains.
 > Currencies must be created here **before** selecting them in:  
 > - System → [Configuration](../../Domains/System/Settings/Configuration.md) → Common Types Settings  
 > - [Sales documents](../../Domains/Sales/Domain/SalesDomain.md)  
-> - [Supply documents](../../Supply/Domain/SupplyDomain.md)
+> - [Supply documents](../../Domains/Supply/Domain/SupplyDomain.md)
 
 ### Measurement & Units
 
@@ -98,5 +98,5 @@ If the Common module is not configured first, users will encounter:
 - errors in system configuration  
 
 > [!CAUTION]  
-> **Do not proceed with [Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), or [System Configuration](../../Domains/System/Settings/Configuration.md) until all required Common Code Lists have been created.**  
+> **Do not proceed with [Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Domains/Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), or [System Configuration](../../Domains/System/Settings/Configuration.md) until all required Common Code Lists have been created.**  
 

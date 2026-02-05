@@ -4,13 +4,13 @@ Supplier materials represent the list of materials that vendors provide to your 
 
 This code list ensures that procurement processes can correctly identify which materials are available from each vendor and at what cost.
 
-To access this code list, go to **Supply / Management / Supplier materials** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this code list, go to **Supply / Management / Supplier materials** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
 | Field | Description |
 |-------|-------------|
-| **Vendor** | Vendor providing the material. Must exist in the [**Business directory**](../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Vendor** | Vendor providing the material. Must exist in the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **[Material type](../../Assets/Domain/Materials.md)** | Type of material ([**Raw material**](../../Assets/Materials/RawMaterials.md), [**Semi-product**](../../Assets/Materials/SemiProducts.md), [**Product**](../../Assets/Materials/Products.md), [**Repro material**](../../Assets/Materials/ReproMaterials.md)). Must match an existing material type (mandatory). |
 | **[Material](../../Assets/Domain/Materials.md)** | Material supplied by the vendor. Must already exist in the **Materials** domain (mandatory). |
 | **Supplier code** | The vendor’s internal code for this material. |
@@ -48,7 +48,7 @@ The **Menu** in the top-right corner provides a single action, **Export**. Use i
 
 ## Actions
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to display the available actions:
+Click the [**action button**](../../../Common/UI/ActionButton.md) to display the available actions:
 
 - **New**  
 - **Import**

@@ -58,7 +58,7 @@ Supply orders and inquiries are created directly from this screen.
 
    ![Select material](../Images/SupplyStockBoundariesPlanningSelect.png)
 
-2. Click the [**action button**](../../Common/UI/ActionButton.md) and choose:
+2. Click the [**action button**](../../../Common/UI/ActionButton.md) and choose:
    - **Create new supply order**, or
    - **Inquiry**
 
