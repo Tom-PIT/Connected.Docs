@@ -5,7 +5,7 @@ It is used by both managers and workers to track progress, open individual tasks
 
 Tasks always belong to a **project** and cannot exist independently.
 
-To access the Tasks screen, navigate to **Projects / Tasks** in the [**navigation**](../../Common/UI/Navigation.md).
+To access the Tasks screen, navigate to **Projects / Tasks** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -70,7 +70,7 @@ Tasks are created **from within a project**, not from the task list.
 
 To create a task:
 1. Open a project from the [**Projects**](Projects.md) screen 
-2. Click the [**action button**](../../Common/UI/ActionButton.md)
+2. Click the [**action button**](../../../Common/UI/ActionButton.md)
 3. Fill in the task details and create the task  
 
 ![Create task](../Images/ProjectsNewTask.png "Create task")

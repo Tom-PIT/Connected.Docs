@@ -2,7 +2,7 @@
 
 The **My calendar** view provides a calendar-based overview of all **[tasks assigned to the current user](../Documents/Tasks.md)**. It helps users understand *when* work is planned and how tasks are distributed over time.
 
-This view is available under **Projects / Views / My calendar** in the [**navigation**](../../Common/UI/Navigation.md).
+This view is available under **Projects / Views / My calendar** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![My calendar](../Images/MyCalendar.png "My calendar overview")
 

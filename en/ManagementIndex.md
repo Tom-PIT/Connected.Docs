@@ -115,7 +115,7 @@ This index lists all management and configuration documentation across domains. 
 - [**Warehouse locations**](Domains/Production/Management/WarehouseLocations.md)
 
 ## Projects
-- [**Projects**](Projects/Management/ProjectsManagement.md)
+- [**Projects**](Domains/Projects/Management/ProjectsManagement.md)
 
 ## Quality
 - [**Checklists**](Domains/Production/Management/Checklists.md)
