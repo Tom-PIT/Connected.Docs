@@ -27,7 +27,7 @@ Vsaka domena vsebuje orodja, povezana z določenim poslovnim področjem. Primeri
 - **[Prodaja](../../Domene/Prodaja/Domena/Prodaja.md)**  
 - **[Logistika](../../Domene/Logistika/Domena/Logistika.md)**  
 - **[Nabava](../../Domene/Nabava/Domena/Nabava.md)**  
-- **[Proizvodnja](../../Proizvodnja/Domena/Proizvodnja.md)**  
+- **[Proizvodnja](../../Domene/Proizvodnja/Domena/Proizvodnja.md)**  
 
 > [!NOTE]
 >
@@ -53,9 +53,9 @@ Dokumenti predstavljajo jedro vsakodnevnega operativnega dela. Uporabljajo se za
 - **[Med-skladiščni promet](../../Domene/Logistika/Dokumenti/MedSkladiscniPromet.md)**  
 - **[Inventure](../../Domene/Logistika/Dokumenti/Inventure.md)**
 - **[Nabavni nalogi](../../Domene/Nabava/Dokumenti/NabavniNalogi.md)**  
-- **[Izvedba](../../Proizvodnja/Dokumenti/Izvedba.md)**
-- **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)**
-- **[Zahteve](../../Proizvodnja/Dokumenti/Zahteve.md)**
+- **[Izvedba](../../Domene/Proizvodnja/Dokumenti/Izvedba.md)**
+- **[Proizvodni nalogi](../../Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md)**
+- **[Zahteve](../../Domene/Proizvodnja/Dokumenti/Zahteve.md)**
 - in številni drugi
 
 Primer – vstop v domeno **Prodaja** in razdelek **Dokumenti**:
@@ -80,9 +80,9 @@ Primeri pogledov vključujejo:
 - **[Poročila dobavnic](../../Domene/Prodaja/Pregledi/PorocilaDobavnic.md)**  
 - **[Kartice podjetij](../../Domene/Prodaja/Pregledi/PoslovneKartice.md)**  
 - **[Pregledi zalog po lokaciji](../../Domene/Logistika/Pregledi/PogledZalogePoLokacijah.md)**  
-- **[KPI proizvodnje](../../Proizvodnja/Analiza/KazalnikiProizvodnje.md)**
-- **[Povzetek slabih kosov](../../Proizvodnja/Analiza/PovzetekSlabihKosov.md)**
-- **[Povzetek zastojev](../../Proizvodnja/Analiza/PovzetekZastojev.md)**
+- **[KPI proizvodnje](../../Domene/Proizvodnja/Analiza/KazalnikiProizvodnje.md)**
+- **[Povzetek slabih kosov](../../Domene/Proizvodnja/Analiza/PovzetekSlabihKosov.md)**
+- **[Povzetek zastojev](../../Domene/Proizvodnja/Analiza/PovzetekZastojev.md)**
 
 Primer – **Prodaja / Pogledi**:
 
@@ -112,9 +112,9 @@ Upravljanje vključuje na primer:
 - **[Vnaprej določena besedila](../Upravljanje/VnaprejDolocenaBesedila.md)**  
 - **[Merske enote](../Upravljanje/MerskeEnote.md)**  
 - **[Bančni računi organizacije](../../Domene/Prodaja/Upravljanje/BancniRacuniOrganizacije.md)**  
-- **[Procesi](../../Proizvodnja/Upravljanje/Procesi.md)**
-- **[Vhodi](../../Proizvodnja/Upravljanje/Vhodi.md)**, **[Izhodi](../../Proizvodnja/Upravljanje/Izhodi.md)**
-- **[Nazivi delovnih mest](../Upravljanje/NaziviDelovnihMest.md)**, **[Človeški viri](../../Proizvodnja/Upravljanje/CloveskiViri.md)**
+- **[Procesi](../../Domene/Proizvodnja/Upravljanje/Procesi.md)**
+- **[Vhodi](../../Domene/Proizvodnja/Upravljanje/Vhodi.md)**, **[Izhodi](../../Domene/Proizvodnja/Upravljanje/Izhodi.md)**
+- **[Nazivi delovnih mest](../Upravljanje/NaziviDelovnihMest.md)**, **[Človeški viri](../../Domene/Proizvodnja/Upravljanje/CloveskiViri.md)**
 - drugi ključni šifranti  
 
 Primer – **Prodaja / Upravljanje**:

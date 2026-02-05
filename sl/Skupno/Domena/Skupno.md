@@ -1,6 +1,6 @@
 # Skupno
 
-Modul **Skupno** ni domena, temveč nabor **skupnih šifrantov in osnov uporabniškega vmesnika**, ki se uporabljajo v celotni platformi. Ti elementi definirajo globalne strukture, kot so države, valute, davčne stopnje, merske enote in poslovni partnerji. Vsaka funkcionalna domena — [Prodaja](../../Domene/Prodaja/Domena/Prodaja.md), [Nabava](../../Domene/Nabava/Domena/Nabava.md), [Logistika](../../Domene/Logistika/Domena/Logistika.md), [Proizvodnja](../../Proizvodnja/Domena/Proizvodnja.md) — se za pravilno delovanje zanaša na modul Skupno.
+Modul **Skupno** ni domena, temveč nabor **skupnih šifrantov in osnov uporabniškega vmesnika**, ki se uporabljajo v celotni platformi. Ti elementi definirajo globalne strukture, kot so države, valute, davčne stopnje, merske enote in poslovni partnerji. Vsaka funkcionalna domena — [Prodaja](../../Domene/Prodaja/Domena/Prodaja.md), [Nabava](../../Domene/Nabava/Domena/Nabava.md), [Logistika](../../Domene/Logistika/Domena/Logistika.md), [Proizvodnja](../../Domene/Proizvodnja/Domena/Proizvodnja.md) — se za pravilno delovanje zanaša na modul Skupno.
 
 Zaradi tega mora biti modul **Skupno** konfiguriran **pred** uporabo katerekoli druge domene v platformi.
 

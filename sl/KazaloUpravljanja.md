@@ -88,29 +88,29 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Merske enote**](Skupno/Upravljanje/MerskeEnote.md)
 
 ## Proizvodnja in vzdrževanje
-- [**Človeški viri**](Proizvodnja/Upravljanje/CloveskiViri.md)
-- [**Izhodi**](Proizvodnja/Upravljanje/Izhodi.md)
-- [**Konfiguracija proizvodnje**](Proizvodnja/Upravljanje/KonfiguracijaProizvodnje.md)
-- [**Kontrolne liste**](Proizvodnja/Upravljanje/KontrolneListe.md)
-- [**Kontrolne točke**](Proizvodnja/Upravljanje/KontrolneTocke.md)
-- [**Kvaliteta – kontrolne liste**](Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
-- [**Operacije**](Proizvodnja/Upravljanje/Operacije.md)
-- [**Organizacijske enote**](Proizvodnja/Upravljanje/OrganizacijskeEnote.md)
-- [**Oznake klasifikacije slabega kosa**](Proizvodnja/Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)
-- [**Oznake zastojev**](Proizvodnja/Upravljanje/OznakeZastojev.md)
-- [**Predloge za operacije**](Proizvodnja/Upravljanje/PredlogeZaOperacije.md)
-- [**Procesi**](Proizvodnja/Upravljanje/Procesi.md)
-- [**Sistematizacija delovnih mest**](Proizvodnja/Upravljanje/SistematizacijaDelovnihMest.md)
-- [**Skladiščne lokacije**](Proizvodnja/Upravljanje/SkladiscneLokacije.md)
-- [**Stvarni viri**](Proizvodnja/Upravljanje/StvarniViri.md)
-- [**Vhodi**](Proizvodnja/Upravljanje/Vhodi.md)
-- [**Viri**](Proizvodnja/Upravljanje/Viri.md)
+- [**Človeški viri**](Domene/Proizvodnja/Upravljanje/CloveskiViri.md)
+- [**Izhodi**](Domene/Proizvodnja/Upravljanje/Izhodi.md)
+- [**Konfiguracija proizvodnje**](Domene/Proizvodnja/Upravljanje/KonfiguracijaProizvodnje.md)
+- [**Kontrolne liste**](Domene/Proizvodnja/Upravljanje/KontrolneListe.md)
+- [**Kontrolne točke**](Domene/Proizvodnja/Upravljanje/KontrolneTocke.md)
+- [**Kvaliteta – kontrolne liste**](Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
+- [**Operacije**](Domene/Proizvodnja/Upravljanje/Operacije.md)
+- [**Organizacijske enote**](Domene/Proizvodnja/Upravljanje/OrganizacijskeEnote.md)
+- [**Oznake klasifikacije slabega kosa**](Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)
+- [**Oznake zastojev**](Domene/Proizvodnja/Upravljanje/OznakeZastojev.md)
+- [**Predloge za operacije**](Domene/Proizvodnja/Upravljanje/PredlogeZaOperacije.md)
+- [**Procesi**](Domene/Proizvodnja/Upravljanje/Procesi.md)
+- [**Sistematizacija delovnih mest**](Domene/Proizvodnja/Upravljanje/SistematizacijaDelovnihMest.md)
+- [**Skladiščne lokacije**](Domene/Proizvodnja/Upravljanje/SkladiscneLokacije.md)
+- [**Stvarni viri**](Domene/Proizvodnja/Upravljanje/StvarniViri.md)
+- [**Vhodi**](Domene/Proizvodnja/Upravljanje/Vhodi.md)
+- [**Viri**](Domene/Proizvodnja/Upravljanje/Viri.md)
 
 ## Projekti
 - [**Upravljanje projektov**](Projekti/Upravljanje/UpravljanjeProjektov.md)
 
 ## Kvaliteta
-- [**Kvaliteta – kontrolne liste**](Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
+- [**Kvaliteta – kontrolne liste**](Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
 
 ## Viri
 - [**Časovni plani**](Viri/Upravljanje/CasovniPlani.md)
