@@ -4,7 +4,7 @@ Desks are used to organize and manage **support tickets** by responsibility area
 
 Desks help ensure that incoming requests are routed correctly and processed consistently across the organization.
 
-To access this screen, go to **Customers/ Management / Desks** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Customers / Management / Desks** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
 

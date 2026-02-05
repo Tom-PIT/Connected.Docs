@@ -5,7 +5,7 @@ The **SLA tickets** screen provides an overview of tickets that are subject to *
 - approaching its limit, or
 - already exceeded.
 
-To access this screen, go to **Customers/ Tickets / SLA tickets** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Customers / Tickets / SLA tickets** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Availability
 
