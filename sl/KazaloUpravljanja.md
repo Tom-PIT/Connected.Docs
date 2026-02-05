@@ -25,29 +25,29 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Valute**](Skupno/Upravljanje/Valute.md)
 
 ### Računi
-- [**Konfiguracija računov**](Racunovodstvo/Upravljanje/Racuni/KonfiguracijaRacunov.md)
-- [**Povezave sredstev in kontov**](Racunovodstvo/Upravljanje/Racuni/PovezaveSredstevInKontov.md)
+- [**Konfiguracija računov**](Domene/Racunovodstvo/Upravljanje/Racuni/KonfiguracijaRacunov.md)
+- [**Povezave sredstev in kontov**](Domene/Racunovodstvo/Upravljanje/Racuni/PovezaveSredstevInKontov.md)
 - [**Vnaprej določena besedila**](Skupno/Upravljanje/VnaprejDolocenaBesedila.md)
 
 ### Intrastat
-- [**Vrsta posla**](Racunovodstvo/Upravljanje/Intrastat/VrstaPosla.md)
-- [**Intrastat – pregled**](Racunovodstvo/Upravljanje/Intrastat/Index.md)
-- [**Lega kraja**](Racunovodstvo/Upravljanje/Intrastat/LegaKraja.md)
-- [**Intrastat – merske enote**](Racunovodstvo/Upravljanje/Intrastat/IntrastatMerskeEnote.md)
-- [**Tarife**](Racunovodstvo/Upravljanje/Intrastat/Tarife.md)
+- [**Vrsta posla**](Domene/Racunovodstvo/Upravljanje/Intrastat/VrstaPosla.md)
+- [**Intrastat – pregled**](Domene/Racunovodstvo/Upravljanje/Intrastat/Index.md)
+- [**Lega kraja**](Domene/Racunovodstvo/Upravljanje/Intrastat/LegaKraja.md)
+- [**Intrastat – merske enote**](Domene/Racunovodstvo/Upravljanje/Intrastat/IntrastatMerskeEnote.md)
+- [**Tarife**](Domene/Racunovodstvo/Upravljanje/Intrastat/Tarife.md)
 - [**Pogoj dobave**](Skupno/Upravljanje/PogojiDobave.md)
 - [**Vrsta transporta**](Skupno/Upravljanje/VrstaTransporta.md)
 
 ### Glavna knjiga
-- [**Konti**](Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)
-- [**Konfiguracija glavne knjige**](Racunovodstvo/Upravljanje/GlavnaKnjiga/KonfiguracijaGlavneKnjige.md)
-- [**Začetna stanja zaloge**](Racunovodstvo/Upravljanje/GlavnaKnjiga/ZacetnaStanjaZaloge.md)
-- [**Lokacije glavne knjige**](Racunovodstvo/Upravljanje/GlavnaKnjiga/LokacijeGlavneKnjige.md)
-- [**Privzeti konti**](Racunovodstvo/Upravljanje/GlavnaKnjiga/PrivzetiKonti.md)
-- [**Predloge za temeljnice**](Racunovodstvo/Upravljanje/GlavnaKnjiga/PredlogeZaTemeljnice.md)
-- [**Tipi dokumentov**](Racunovodstvo/Upravljanje/GlavnaKnjiga/TipiDokumentov.md)
-- [**AOP**](Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md)
-- [**Amortizacijske skupine**](Racunovodstvo/Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md)
+- [**Konti**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)
+- [**Konfiguracija glavne knjige**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/KonfiguracijaGlavneKnjige.md)
+- [**Začetna stanja zaloge**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ZacetnaStanjaZaloge.md)
+- [**Lokacije glavne knjige**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/LokacijeGlavneKnjige.md)
+- [**Privzeti konti**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PrivzetiKonti.md)
+- [**Predloge za temeljnice**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PredlogeZaTemeljnice.md)
+- [**Tipi dokumentov**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/TipiDokumentov.md)
+- [**AOP**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md)
+- [**Amortizacijske skupine**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md)
 
 ## Sredstva
 ### Sredstva
