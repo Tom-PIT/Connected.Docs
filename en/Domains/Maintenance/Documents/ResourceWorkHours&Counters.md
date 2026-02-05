@@ -4,13 +4,13 @@ The **Resource work hours & counters** screen is used to track **usage values** 
 
 These values are used by **count-based [maintenance schedules](MaintenanceSchedule.md)** to automatically generate maintenance orders when defined thresholds are reached.
 
-To access this screen, go to **Maintenance / Resource work hours & counters** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, go to **Maintenance / Resource work hours & counters** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![Resource work hours & counters list](../Images/ResourceWorkHoursCountersList.png "Resource work hours & counters list")
 
 ## Overview
 
-Each row represents a **counter** associated with a specific piece of equipment and a specific [measure unit](../../Common/Management/MeasureUnits.md).
+Each row represents a **counter** associated with a specific piece of equipment and a specific [measure unit](../../../Common/Management/MeasureUnits.md).
 
 The list shows:
 - **Equipment** – The resource being tracked
@@ -25,7 +25,7 @@ The search field can be used to locate equipment by name.
 
 ## Adding a resource counter
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to create a new counter.
+Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new counter.
 
 ![Add resource counter](../Images/ResourceWorkHoursCountersNew.png "Add resource counter")
 

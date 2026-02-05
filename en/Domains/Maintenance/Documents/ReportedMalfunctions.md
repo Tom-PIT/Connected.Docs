@@ -2,7 +2,7 @@
 
 Reported malfunctions record **issues detected on equipment during production or operation**.  They serve as an entry point for **curative maintenance**, allowing maintenance teams to review reported issues and, when required, create a maintenance order directly from the malfunction.
 
-To access reported malfunctions, go to **Maintenance / Reported malfunctions** in the [**navigation**](../../Common/UI/Navigation.md).
+To access reported malfunctions, go to **Maintenance / Reported malfunctions** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## List of reported malfunctions
 
@@ -49,7 +49,7 @@ From this screen, maintenance teams can review the issue and decide on the appro
 
 ## Creating a malfunction report
 
-To create a new malfunction report, click the [**action button**](../../Common/UI/ActionButton.md).
+To create a new malfunction report, click the [**action button**](../../../Common/UI/ActionButton.md).
 
 ![New malfunction report](../Images/ReportedMalfunctionsNew.png "New malfunction report")
 

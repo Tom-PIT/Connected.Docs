@@ -8,7 +8,7 @@ Use this domain to:
 - Track operations, resources, inputs, and checklists during maintenance
 - Review indicators to assess reliability and responsiveness
 
-To access the Maintenance domain, navigate to **Maintenance** in the [**navigation**](../../Common/UI/Navigation.md).
+To access the Maintenance domain, navigate to **Maintenance** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![Maintenance Domain Sitemap](../Images/MaintenanceDomainSitemap.png)
 
@@ -42,7 +42,7 @@ Configure shared structures used by maintenance. The Maintenance domain leverage
 Use these code lists to drive maintenance workflows and execution across orders and schedules.
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../../ManagementIndex.md)**.
 
 
 ## Analytics

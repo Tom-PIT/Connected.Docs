@@ -2,7 +2,7 @@
 
 The **Maintenance calendar** provides a time-based overview of maintenance work. It allows users to plan, review, and navigate maintenance activities using a calendar layout.
 
-To access this screen, go to **Maintenance / Maintenance calendar** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, go to **Maintenance / Maintenance calendar** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![MaintenanceCalendarMonthView](../Images/MaintenanceCalendarMonthView.png)
 
@@ -24,7 +24,7 @@ When hovering over a calendar entry, a tooltip displays additional information s
 ## Navigation and interaction
 
 - Clicking a [**maintenance order**](MaintenanceOrders.md) in the calendar opens the corresponding **maintenance order document**.
-- Clicking the [**action button**](../../Common/UI/ActionButton.md) creates a new maintenance order.
+- Clicking the [**action button**](../../../Common/UI/ActionButton.md) creates a new maintenance order.
 
 ## Views
 
