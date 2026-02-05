@@ -7,7 +7,7 @@ Use this domain to:
 - Review and analyze completed checklists for compliance and continuous improvement
 - Access and maintain the checklist definitions used in day-to-day operations
 
-To access the Quality domain, navigate to **Quality** in the [**navigation**](../../Common/UI/Navigation.md).
+To access the Quality domain, navigate to **Quality** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ![Quality Sitemap](../Images/QualitySitemap.png)
 
@@ -29,7 +29,7 @@ The [**Checklists**](../../Production/Management/Checklists.md) code list lets y
 ![Projects Domain Management](../Images/QualityDomainManagement.png)
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../../ManagementIndex.md)**.
 
 ### Views
 

@@ -2,7 +2,7 @@
 
 The **Completed checklists** view provides an analytical overview of all **checklist executions that have been completed** within a selected time period. It allows supervisors and quality managers to review results, validate execution quality, and inspect completed checklist reports.
 
-To access this view, navigate to **Quality / Views / Completed checklists** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this view, navigate to **Quality / Views / Completed checklists** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 
 ### Overview
