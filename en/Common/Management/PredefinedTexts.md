@@ -8,7 +8,7 @@ This page is available in the **Sales** and **Supply** domains, to access it go 
 
 | Field | Description |
 |-------|-------------|
-| **Entity** | Document type to which the predefined text applies (mandatory): <br>• [**Delivery note**](../../Sales/Documents/DeliveryNotes.md) <br>• [**Issued invoice**](../../Sales/Documents/IssuedInvoices.md) <br>• [**Offer**](../../Sales/Documents/Offers.md) <br>• [**Supply order**](../../Supply/Documents/SupplyOrders.md) |
+| **Entity** | Document type to which the predefined text applies (mandatory): <br>• [**Delivery note**](../../Domains/Sales/Documents/DeliveryNotes.md) <br>• [**Issued invoice**](../../Domains/Sales/Documents/IssuedInvoices.md) <br>• [**Offer**](../../Domains/Sales/Documents/Offers.md) <br>• [**Supply order**](../../Domains/Supply/Documents/SupplyOrders.md) |
 | **Code** | Short identifier used to reference the predefined text (mandatory). |
 | **Text** | Full text content that will be inserted into the selected document type (mandatory). |
 | **Enabled** | Indicates whether the predefined text is active and available for use. |

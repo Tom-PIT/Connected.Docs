@@ -16,5 +16,3 @@ You can also start here:
 - Slovenščina:
   - [**Uvod**](sl/Uvod/00.Uvod.md) — Pregled strukture, prvi koraki za nastavitev sistema in tipični poteki dela.
   - [**Navigacija**](sl/Skupno/UI/Navigacija.md) — Kako najti domene, dokumente in nastavitve z uporabo zemljevida in navigacijskih poti.
-
----

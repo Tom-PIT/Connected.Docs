@@ -17,5 +17,3 @@ Welcome to the Connected documentation. This repository contains user guides, do
 - Management (shared master data and code lists)
 
 Use the site navigation and links inside each page to explore related topics.
-
----

@@ -24,10 +24,10 @@ Na številnih zaslonih je v spodnjem desnem kotu na voljo tudi **gumb s puščic
 
 Vsaka domena vsebuje orodja, povezana z določenim poslovnim področjem. Primeri vključujejo:
 
-- **[Prodaja](../../Prodaja/Domena/Prodaja.md)**  
-- **[Logistika](../../Logistika/Domena/Logistika.md)**  
-- **[Nabava](../../Nabava/Domena/Nabava.md)**  
-- **[Proizvodnja](../../Proizvodnja/Domena/Proizvodnja.md)**  
+- **[Prodaja](../../Domene/Prodaja/Domena/Prodaja.md)**  
+- **[Logistika](../../Domene/Logistika/Domena/Logistika.md)**  
+- **[Nabava](../../Domene/Nabava/Domena/Nabava.md)**  
+- **[Proizvodnja](../../Domene/Proizvodnja/Domena/Proizvodnja.md)**  
 
 > [!NOTE]
 >
@@ -46,16 +46,16 @@ Primer – razdelki v domeni **Prodaja**:
 
 Dokumenti predstavljajo jedro vsakodnevnega operativnega dela. Uporabljajo se za ustvarjanje, obdelavo in sledenje poslovnim transakcijam, kot so:
 
-- **[Naročila strank](../../Prodaja/Dokumenti/NarocilaStrank.md)**  
-- **[Dobavnice](../../Prodaja/Dokumenti/Dobavnice.md)**  
-- **[Prevzemi](../../Logistika/Dokumenti/Prevzemi.md)**  
-- **[Izdajnice](../../Logistika/Dokumenti/Izdajnice.md)**  
-- **[Med-skladiščni promet](../../Logistika/Dokumenti/MedSkladiscniPromet.md)**  
-- **[Inventure](../../Logistika/Dokumenti/Inventure.md)**
-- **[Nabavni nalogi](../../Nabava/Dokumenti/NabavniNalogi.md)**  
-- **[Izvedba](../../Proizvodnja/Dokumenti/Izvedba.md)**
-- **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)**
-- **[Zahteve](../../Proizvodnja/Dokumenti/Zahteve.md)**
+- **[Naročila strank](../../Domene/Prodaja/Dokumenti/NarocilaStrank.md)**  
+- **[Dobavnice](../../Domene/Prodaja/Dokumenti/Dobavnice.md)**  
+- **[Prevzemi](../../Domene/Logistika/Dokumenti/Prevzemi.md)**  
+- **[Izdajnice](../../Domene/Logistika/Dokumenti/Izdajnice.md)**  
+- **[Med-skladiščni promet](../../Domene/Logistika/Dokumenti/MedSkladiscniPromet.md)**  
+- **[Inventure](../../Domene/Logistika/Dokumenti/Inventure.md)**
+- **[Nabavni nalogi](../../Domene/Nabava/Dokumenti/NabavniNalogi.md)**  
+- **[Izvedba](../../Domene/Proizvodnja/Dokumenti/Izvedba.md)**
+- **[Proizvodni nalogi](../../Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md)**
+- **[Zahteve](../../Domene/Proizvodnja/Dokumenti/Zahteve.md)**
 - in številni drugi
 
 Primer – vstop v domeno **Prodaja** in razdelek **Dokumenti**:
@@ -75,14 +75,14 @@ Pogledi omogočajo **analizo in spremljanje** poslovnih informacij. Ne ustvarjaj
 
 Primeri pogledov vključujejo:
 
-- **[Pregledi zalog](../../Logistika/Dokumenti/Zaloga.md)**  
-- **[Postavke naročil strank](../../Prodaja/Pregledi/PostavkeNarocilStrank.md)**  
-- **[Poročila dobavnic](../../Prodaja/Pregledi/PorocilaDobavnic.md)**  
-- **[Kartice podjetij](../../Prodaja/Pregledi/PoslovneKartice.md)**  
-- **[Pregledi zalog po lokaciji](../../Logistika/Pregledi/PogledZalogePoLokacijah.md)**  
-- **[KPI proizvodnje](../../Proizvodnja/Analiza/KazalnikiProizvodnje.md)**
-- **[Povzetek slabih kosov](../../Proizvodnja/Analiza/PovzetekSlabihKosov.md)**
-- **[Povzetek zastojev](../../Proizvodnja/Analiza/PovzetekZastojev.md)**
+- **[Pregledi zalog](../../Domene/Logistika/Dokumenti/Zaloga.md)**  
+- **[Postavke naročil strank](../../Domene/Prodaja/Pregledi/PostavkeNarocilStrank.md)**  
+- **[Poročila dobavnic](../../Domene/Prodaja/Pregledi/PorocilaDobavnic.md)**  
+- **[Kartice podjetij](../../Domene/Prodaja/Pregledi/PoslovneKartice.md)**  
+- **[Pregledi zalog po lokaciji](../../Domene/Logistika/Pregledi/PogledZalogePoLokacijah.md)**  
+- **[KPI proizvodnje](../../Domene/Proizvodnja/Analiza/KazalnikiProizvodnje.md)**
+- **[Povzetek slabih kosov](../../Domene/Proizvodnja/Analiza/PovzetekSlabihKosov.md)**
+- **[Povzetek zastojev](../../Domene/Proizvodnja/Analiza/PovzetekZastojev.md)**
 
 Primer – **Prodaja / Pogledi**:
 
@@ -107,14 +107,14 @@ Upravljanje vključuje na primer:
 
 - konfiguracijo sistema  
 - **[Poslovni imenik](../Upravljanje/PoslovniImenik.md)**  
-- **[Banke in načini plačila](../../Prodaja/Upravljanje/NacinPlacila.md)**  
+- **[Banke in načini plačila](../../Domene/Prodaja/Upravljanje/NacinPlacila.md)**  
 - **[Države](../Upravljanje/Drzave.md)**, **[valute](../Upravljanje/Valute.md)**, **[davčne stopnje](../Upravljanje/DavcneStopnje.md)**  
 - **[Vnaprej določena besedila](../Upravljanje/VnaprejDolocenaBesedila.md)**  
 - **[Merske enote](../Upravljanje/MerskeEnote.md)**  
-- **[Bančni računi organizacije](../../Prodaja/Upravljanje/BancniRacuniOrganizacije.md)**  
-- **[Procesi](../../Proizvodnja/Upravljanje/Procesi.md)**
-- **[Vhodi](../../Proizvodnja/Upravljanje/Vhodi.md)**, **[Izhodi](../../Proizvodnja/Upravljanje/Izhodi.md)**
-- **[Nazivi delovnih mest](../Upravljanje/NaziviDelovnihMest.md)**, **[Človeški viri](../../Proizvodnja/Upravljanje/CloveskiViri.md)**
+- **[Bančni računi organizacije](../../Domene/Prodaja/Upravljanje/BancniRacuniOrganizacije.md)**  
+- **[Procesi](../../Domene/Proizvodnja/Upravljanje/Procesi.md)**
+- **[Vhodi](../../Domene/Proizvodnja/Upravljanje/Vhodi.md)**, **[Izhodi](../../Domene/Proizvodnja/Upravljanje/Izhodi.md)**
+- **[Nazivi delovnih mest](../Upravljanje/NaziviDelovnihMest.md)**, **[Človeški viri](../../Domene/Proizvodnja/Upravljanje/CloveskiViri.md)**
 - drugi ključni šifranti  
 
 Primer – **Prodaja / Upravljanje**:

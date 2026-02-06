@@ -8,7 +8,7 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 
 | Polje | Opis |
 |------|------|
-| **Entiteta** | Vrsta dokumenta, na katero se prednastavljeno besedilo nanaša (obvezno): <br>• [**Dobavnica**](../../Prodaja/Dokumenti/Dobavnice.md) <br>• [**Izdani račun**](../../Prodaja/Dokumenti/IzdaniRacuni.md) <br>• [**Ponudba**](../../Prodaja/Dokumenti/Ponudbe.md) <br>• [**Nabavni nalog**](../../Nabava/Dokumenti/NabavniNalogi.md) |
+| **Entiteta** | Vrsta dokumenta, na katero se prednastavljeno besedilo nanaša (obvezno): <br>• [**Dobavnica**](../../Domene/Prodaja/Dokumenti/Dobavnice.md) <br>• [**Izdani račun**](../../Domene/Prodaja/Dokumenti/IzdaniRacuni.md) <br>• [**Ponudba**](../../Domene/Prodaja/Dokumenti/Ponudbe.md) <br>• [**Nabavni nalog**](../../Domene/Nabava/Dokumenti/NabavniNalogi.md) |
 | **Koda** | Kratek identifikator za sklicevanje na prednastavljeno besedilo (obvezno). |
 | **Besedilo** | Celotna vsebina besedila, ki se vstavi v izbrano vrsto dokumenta (obvezno). |
 | **Omogočeno** | Označuje, ali je prednastavljeno besedilo aktivno in na voljo za uporabo. |

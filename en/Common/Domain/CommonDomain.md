@@ -1,6 +1,6 @@
 # Common
 
-The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain—[Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), [Production](../../Production/Domain/ProductionDomain.md)—relies on the Common module to operate correctly.
+The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain—[Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Domains/Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), [Production](../../Domains/Production/Domain/ProductionDomain.md)—relies on the Common module to operate correctly.
 
 Because of this, the Common module must be configured **before** using any other domain in the platform.
 
@@ -11,7 +11,7 @@ Example of Common code lists in the **Sales** domain:
 > [!IMPORTANT]  
 > The Common Code Lists should be the **first configuration step** when setting up the platform.  
 >  
->Without these values, [Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), and [System Configuration](../../System/Settings/Configuration.md) cannot function correctly.
+>Without these values, [Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Domains/Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), and [System Configuration](../../Domains/System/Settings/Configuration.md) cannot function correctly.
 
 ## What is included in the Common module?
 
@@ -45,13 +45,13 @@ These settings influence all monetary and financial behavior across domains.
 
 - **[Currencies](../Management/Currencies.md)** – Defines currencies available for the organization.  
 - **[Tax rates](../Management/TaxRates.md)** – VAT or other tax definitions used in sales and procurement.  
-- **[Payment methods](../../Sales/Management/PaymentMethods.md)** – Payment definitions used in Sales and Finance.  
+- **[Payment methods](../../Domains/Sales/Management/PaymentMethods.md)** – Payment definitions used in Sales and Finance.  
 
 > [!IMPORTANT]  
 > Currencies must be created here **before** selecting them in:  
-> - System → [Configuration](../../System/Settings/Configuration.md) → Common Types Settings  
-> - [Sales documents](../../Sales/Domain/SalesDomain.md)  
-> - [Supply documents](../../Supply/Domain/SupplyDomain.md)
+> - System → [Configuration](../../Domains/System/Settings/Configuration.md) → Common Types Settings  
+> - [Sales documents](../../Domains/Sales/Domain/SalesDomain.md)  
+> - [Supply documents](../../Domains/Supply/Domain/SupplyDomain.md)
 
 ### Measurement & Units
 
@@ -67,7 +67,7 @@ Partner-related records are shared across all commercial workflows.
 
 - **[Business directory](../Management/BusinessDirectory.md)** – Shared directory of customers, suppliers, and business entities.  
 - **[Banks](../Management/BankAccounts.md)** – Bank definitions used in payment instructions.  
-- **[Organization bank accounts](../../Sales/Management/OrganizationBankAccounts.md)** – Internal company bank accounts used for invoicing.
+- **[Organization bank accounts](../../Domains/Sales/Management/OrganizationBankAccounts.md)** – Internal company bank accounts used for invoicing.
 
 These records ensure consistent identification of business partners across domains.
 
@@ -84,7 +84,7 @@ Almost all platform workflows depend on Common settings:
 | Area | Dependency |
 |------|------------|
 | **System → Configuration** | Needs [Countries](../Management/Countries.md) + [Currencies](../Management/Currencies.md) before setting organization details |
-| **Sales** | Requires [Currencies](../Management/Currencies.md), [Tax rates](../Management/TaxRates.md), [Measure units](../Management/MeasureUnits.md), [Payment methods](../../Sales/Management/PaymentMethods.md) |
+| **Sales** | Requires [Currencies](../Management/Currencies.md), [Tax rates](../Management/TaxRates.md), [Measure units](../Management/MeasureUnits.md), [Payment methods](../../Domains/Sales/Management/PaymentMethods.md) |
 | **Supply** | Requires [Business directory](../Management/BusinessDirectory.md), [Countries](../Management/Countries.md), [Currencies](../Management/Currencies.md) |
 | **Logistics** | Requires [Measure units](../Management/MeasureUnits.md), [Countries](../Management/Countries.md), [Business directory](../Management/BusinessDirectory.md) |
 | **Production** | Uses [Measure units](../Management/MeasureUnits.md) and [Business directory](../Management/BusinessDirectory.md) |
@@ -98,5 +98,5 @@ If the Common module is not configured first, users will encounter:
 - errors in system configuration  
 
 > [!CAUTION]  
-> **Do not proceed with [Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), or [System Configuration](../../System/Settings/Configuration.md) until all required Common Code Lists have been created.**  
+> **Do not proceed with [Sales](../../Domains/Sales/Domain/SalesDomain.md), [Supply](../../Domains/Supply/Domain/SupplyDomain.md), [Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md), or [System Configuration](../../Domains/System/Settings/Configuration.md) until all required Common Code Lists have been created.**  
 
