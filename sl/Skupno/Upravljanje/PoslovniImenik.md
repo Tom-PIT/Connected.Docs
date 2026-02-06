@@ -19,7 +19,7 @@
 | **Vrsta** | Določa davčni status entitete (glejte razdelek spodaj). |
 | **DDV ID** | Identifikacijska številka za DDV, na primer **SI12345678**. |
 | **Matična številka** | Matična številka podjetja. |
-| [**Institucionalni sektor**](../../Stranke/Upravljanje/InstitucionalniSektorji.md) | Institucionalni sektor, v katerega spada entiteta. |
+| [**Institucionalni sektor**](../../Domene/Stranke/Upravljanje/InstitucionalniSektorji.md) | Institucionalni sektor, v katerega spada entiteta. |
 | **Oznake** | Oznake za kategorizacijo entitet. |
 | **Valuta Plačilna** | Privzeta plačilna valuta, uporabljena v dokumentih. |
 | [**Valuta**](Valute.md) | Valuta, povezana z entiteto. |
