@@ -17,5 +17,3 @@ Dobrodošli v dokumentaciji Connected. Ta repozitorij vsebuje uporabniške vodi�
 - Upravljanje (šifranti, skupni osnovni podatki in nastavitve)
 
 Za raziskovanje povezanih tem uporabite navigacijo in povezave znotraj posameznih strani.
-
----
