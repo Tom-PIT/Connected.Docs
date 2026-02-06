@@ -4,7 +4,7 @@
 
 Članki spadajo v imenik in jih je mogoče organizirati ter po njih krmariti z uporabo [**kazala**](Kazalo.md) imenika.
 
-Za upravljanje člankov pojdite na **Znanje / Upravljanje / Imeniki** v [**navigaciji**](../../Skupno/UI/Navigacija.md) in kliknite **Članki** pod želenim imenikom. Glejte tudi [Imeniki](Imeniki.md).
+Za upravljanje člankov pojdite na **Znanje / Upravljanje / Imeniki** v [**navigaciji**](../../../Skupno/UI/Navigacija.md) in kliknite **Članki** pod želenim imenikom. Glejte tudi [Imeniki](Imeniki.md).
 
 ## Shema
 

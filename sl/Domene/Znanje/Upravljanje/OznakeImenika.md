@@ -5,7 +5,7 @@ Oznake pomagajo pri kategorizaciji vsebine ter izboljšajo iskanje in filtriranj
 
 Oznake so skupne celotni domeni **Znanje** in jih je mogoče uporabljati v več imenikih in člankih.
 
-Za dostop pojdite na **Znanje / Upravljanje / Oznake imenika** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop pojdite na **Znanje / Upravljanje / Oznake imenika** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
