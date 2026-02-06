@@ -13,7 +13,7 @@
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pakiranje](https://www.youtube.com/watch?v=-0T_l14bg5s)**.
 
-Za dostop do nastavitev pakiranja pojdite na **Sredstva / Materiali / Pakiranje** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do nastavitev pakiranja pojdite na **Sredstva / Materiali / Pakiranje** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -51,7 +51,7 @@ V zgornjem desnem kotu je na voljo **iskalno polje**.
 
 ## Dejanja
 
-Kliknite **[akcijski gumb](../../Skupno/UI/AkcijskiGumb.md)** za dodajanje novega pakiranja.
+Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** za dodajanje novega pakiranja.
 
 Obrazec vključuje naslednja polja:
 

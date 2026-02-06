@@ -3,14 +3,14 @@
 **Ceniki sredstev** določajo, koliko določen kupec (ali druga poslovna entiteta) plača za vaša [sredstva](Sredstva.md).  
 Omogočajo nastavitev **cen po posameznem kupcu**, veljavnih za določeno časovno obdobje, ter po potrebi vključujejo **količinske popuste** (cenovne razrede).
 
-Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
 | Polje | Opis |
 |------|------|
 | **Tip** | Razvrstitev cenika (npr. *Podjetje*). |
-| [**Entiteta**](../../Skupno/Upravljanje/PoslovniImenik.md) | Kupec ali drug poslovni partner, za katerega velja cenik. |
+| [**Entiteta**](../../../Skupno/Upravljanje/PoslovniImenik.md) | Kupec ali drug poslovni partner, za katerega velja cenik. |
 | **Ime** | Prikazno ime cenika (obvezno). |
 | **Veljavno od** | Datum začetka veljavnosti cenika. |
 | **Veljavno do** | Datum konca veljavnosti cenika. |
@@ -43,7 +43,7 @@ Klik na gumb **Podrobnosti** odpre stran, kjer se upravljajo sredstva in količi
 
 ## Dejanja
 
-Glede na to, na katerem zaslonu se nahajate, [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) ponuja različna dejanja:
+Glede na to, na katerem zaslonu se nahajate, [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) ponuja različna dejanja:
 
 Na strani **Ceniki sredstev**:
 - **Nov**

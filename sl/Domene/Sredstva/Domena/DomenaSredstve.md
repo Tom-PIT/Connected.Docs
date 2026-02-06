@@ -9,7 +9,7 @@ Na primer: **sredstvo** je lahko *Komplet prenosnega računalnika*, prodan kot p
 
 Ta domena združuje vse elemente, potrebne za definiranje, cenitev, organizacijo in operativno upravljanje kataloga v prodaji in logistiki.
 
-Za dostop do domene Sredstva pojdite na **Sredstva** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do domene Sredstva pojdite na **Sredstva** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Domena Sredstva](../Images/AssetsSitemap.png)
 
@@ -34,8 +34,8 @@ Domena je razdeljena na več funkcionalnih področij:
     - **[Polizdelki](../Materiali/Polizdelki.md)**
 
 - **Upravljanje – vsebuje dodatne konfiguracijske elemente, kot so:
-  - **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)**
-  - **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)**
+  - **[Davčne stopnje](../../../Skupno/Upravljanje/DavcneStopnje.md)**
+  - **[Merske enote](../../../Skupno/Upravljanje/MerskeEnote.md)**
 
 Te nastavitve določajo strukturo in vedenje sredstev ter način njihove cenitve.
 

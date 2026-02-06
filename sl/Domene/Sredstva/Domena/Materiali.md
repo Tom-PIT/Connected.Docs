@@ -2,7 +2,7 @@
 
 **Materiali** predstavljajo operativne postavke, ki jih organizacija uporablja v **logistiki, proizvodnji, upravljanju zalog** ali **montažnih procesih**. Vključujejo končne izdelke, delno izdelane postavke, osnovne surovine in ponovno uporabne komponente. Dodatni šifranti podpirajo definiranje embalaže, merskih enot in funkcij za množični uvoz.
 
-Za dostop do materialov pojdite na **Sredstva / Materiali** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do materialov pojdite na **Sredstva / Materiali** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Pregled domene Sredstva](../Images/MaterialsSitemap.png "Pregled domene Sredstva")
 

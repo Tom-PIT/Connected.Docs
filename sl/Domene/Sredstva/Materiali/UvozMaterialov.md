@@ -16,13 +16,13 @@ Pred dejanskim uvozom lahko izvedete **Testni uvoz**, ki preveri podatke in poro
 > [!NOTE]  
 > **Predpogoji**  
 > Pred uvozom materialov preverite naslednje šifrante:  
-> - **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)**  
-> - **[Davčne stopnje](../../Skupno/Upravljanje/DavcneStopnje.md)**  
+> - **[Merske enote](../../../Skupno/Upravljanje/MerskeEnote.md)**  
+> - **[Davčne stopnje](../../../Skupno/Upravljanje/DavcneStopnje.md)**  
 > Če manjkajoča merska enota ali davčna stopnja še ne obstaja, bo ustvarjena samodejno med uvozom.  
 > Predhodni pregled teh šifrantov pomaga zagotoviti pravilna poimenovanja in preslikave.
 
 Za dostop do šifranta **Uvoz materialov** pojdite na  
-**Sredstva / Materiali / Uvoz materialov** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Uvoz materialov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

@@ -1,36 +1,36 @@
-# Repro materiali
+# Surovine
 
-**Repro materiali** so ponovno uporabni ali pomožni materiali, ki se uporabljajo za podporo proizvodnji ali drugim internim dejavnostim. Ne predstavljajo končnih izdelkov, so pa ključni za vzdrževanje, montažo ali uporabo drugih materialov. Primeri repro materialov so vijaki, trakovi, palete ali stiropor.
+**Surovine** so osnovni materiali, ki se uporabljajo v proizvodnih procesih ali se kupujejo za interno uporabo. Mednje sodijo les, kovinske plošče, tkanine, kemikalije ali kateri koli drug vhodni material, potreben za izdelavo končnih izdelkov. Vsaka surovina vsebuje ključne podatke – kot so [merske enote](../../../Skupno/Upravljanje/MerskeEnote.md), [davčna stopnja](../../../Skupno/Upravljanje/DavcneStopnje.md), rok uporabe ali [pakiranje](Pakiranje.md) – kar omogoča dosledno upravljanje v celotnem sistemu.
 
-Vsak repro material vsebuje pomembne lastnosti – kot so [merske enote](../../Skupno/Upravljanje/MerskeEnote.md), [davčna stopnja](../../Skupno/Upravljanje/DavcneStopnje.md), način generiranja serijskih številk ali možnosti [pakiranja](Pakiranje.md) – kar zagotavlja dosledno sledenje in uporabo v vseh skladiščnih in proizvodnih procesih. Ta šifrant vsebuje vse repro materiale, ki jih uporablja organizacija.
+Ta šifrant predstavlja register vseh surovin znotraj strukture materialov.
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič **[Repro materiali](https://www.youtube.com/watch?v=ZRUwbQrAolU)**.
+> Za celovit prikaz si oglejte video vodič **[Surovine](https://www.youtube.com/watch?v=kb6I-eJ0tBU)**.
 
 > [!NOTE]  
 > **Predpogoji**  
-> Pred upravljanjem repro materialov zagotovite, da so naslednji šifranti pravilno nastavljeni:  
-> - [**Merske enote**](../../Skupno/Upravljanje/MerskeEnote.md)  
-> - [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md)
+> Pred upravljanjem surovin zagotovite, da so naslednji šifranti pravilno nastavljeni:  
+> - [**Merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md)  
+> - [**Davčne stopnje**](../../../Skupno/Upravljanje/DavcneStopnje.md)
 
-Za dostop do šifranta **Repro materiali** pojdite na  
-**Sredstva / Materiali / Repro materiali** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do šifranta **Surovine** pojdite na  
+**Sredstva / Materiali / Surovine** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
 <details open>
-<summary><strong>Repro material</strong></summary>
+<summary><strong>Surovina</strong></summary>
 
 | Polje | Opis |
 |------|------|
-| **Šifra** | Enolični identifikator repro materiala znotraj seznama materialov. Na primer **REP-VIJ-2**. Šifra mora biti enolična med vsemi materiali. (obvezno) |
-| **Naziv** | Ime, prikazano v seznamih in dokumentih. Na primer **Vijak 6 mm**. (obvezno) |
+| **Šifra** | Enolični identifikator surovine znotraj seznama materialov. Šifra mora biti enolična med vsemi materiali. (obvezno) |
+| **Naziv** | Ime surovine, prikazano v seznamih in dokumentih. (obvezno) |
 | **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
 | **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
 | **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
-| **[Osnovna merska enota](../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. (obvezno) |
+| **[Osnovna merska enota](../../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. (obvezno) |
 | **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
-| **[Davek](../../Skupno/Upravljanje/DavcneStopnje.md)** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
+| **[Davek](../../../Skupno/Upravljanje/DavcneStopnje.md)** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
 
 </details>
 
@@ -68,28 +68,26 @@ Za dostop do šifranta **Repro materiali** pojdite na
 | Polje | Opis |
 |------|------|
 | **[Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Carinska tarifa za statistično in carinsko poročanje. |
-| **[Država porekla](../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
+| **[Država porekla](../../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
 | **Pretvornik mase** | Faktor za pretvorbo osnovne merske enote v maso (npr. kg). Uporablja se v Intrastatu ali analitiki, ko je potreben podatek o teži. |
-| **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge tega materiala. |
-| **[Konto stroška](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Konto stroška ob porabi ali uporabi repro materiala. |
+| **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge te surovine. |
+| **[Konto stroška](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Konto stroška ob porabi ali uporabi surovine. |
 
 </details>
 
 ## Upravljanje
 
-### Seznam repro materialov
+### Seznam surovin
 
-Uporabniški vmesnik vsebuje seznam repro materialov.
+Uporabniški vmesnik vsebuje seznam surovin.
 
-![Repro materiali](../Images/ReproMaterialsList.png "Repro materiali")
+![Surovine](../Images/RawMaterialsList.png "Surovine")
 
-Seznam prikazuje ime, šifro in način generiranja serijske številke za vsak repro material.
-
-Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih materialov.
+Na levi strani je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - **Uvoz**
 - **Kopiraj obstoječi**
@@ -97,26 +95,23 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da se prikažejo 
 
 ### Uvoz
 
-Dejanje **Uvoz** omogoča hkratni uvoz več repro materialov z uporabo pravilno strukturirane preglednice.
+Uporabite funkcionalnost **Uvoz** za hkratni uvoz več surovin.
 
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
 ### Kopiraj obstoječi
 
-Kliknite **Kopiraj obstoječi repro material**, da ustvarite nov zapis na podlagi že obstoječega.
+Omogoča ustvarjanje nove surovine na podlagi že obstoječe.
 
-![Kopiranje repro materiala](../Images/CopyReproMaterial.png "Kopiranje repro materiala")
-
-Po izbiri osnovnega materiala so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
+![Kopiranje surovine](../Images/CopyRawMaterial.png "Kopiranje surovine")
 
 ### Nov
 
-Kliknite **Novo**, da odprete obrazec za ustvarjanje novega repro materiala.
-
-![Nov repro material](../Images/NewReproMaterial.png "Nov repro material")
-
+Kliknite **Novo**, da odprete obrazec za dodajanje nove surovine.  
 Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
+
+![Nova surovina](../Images/NewRawMaterial.png "Nova surovina")
 
 Na voljo so dodatni zložljivi razdelki:
 
@@ -138,21 +133,20 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 > [!WARNING]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
+
 #### Dodatno
 
 Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodaten kontekst, vendar ne vplivajo na izračune zaloge.
 
 ![Zložljivi razdelki](../Images/MaterialPackagingAdditional.png "Zložljivi razdelki")
 
-Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite repro material, ali **Prekliči**, da se vrnete na seznam.
+Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite surovino, ali **Prekliči**, da se vrnete na seznam.
 
 ## Urejanje
 
-Za urejanje obstoječega repro materiala kliknite njegovo **Ime** v seznamu. Vmesnik se preklopi v način urejanja.
+Kliknite ime surovine v seznamu, da odprete zaslon za urejanje.
 
-![Urejanje repro materiala](../Images/EditReproMaterials.png "Urejanje repro materiala")
-
-Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
+![Urejanje surovine](../Images/EditRawMaterial.png "Urejanje surovine")
 
 ## Brisanje
 
@@ -160,7 +154,7 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**
 
-Če potrdite, se repro material trajno odstrani; v nasprotnem primeru sistem ohrani zapis nespremenjen.
+Če potrdite, se surovina trajno odstrani; v nasprotnem primeru sistem ohrani zapis nespremenjen.
 
 > [!NOTE]
-> Repro material je mogoče izbrisati le, če ni referenciran v odvisnih zapisih (npr. premiki zaloge, proizvodni procesi ali dokumenti).
+> Surovino je mogoče izbrisati le, če ni referencirana v drugih zapisih.

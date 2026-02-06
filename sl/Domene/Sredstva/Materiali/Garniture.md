@@ -3,7 +3,7 @@
 **Garniture** omogočajo definiranje sestavljenih postavk iz obstoječih materialov (izdelkov, polizdelkov, surovin ali repro materialov). Garnitura združuje več komponent z določenimi količinami pod enim nadrejenim materialom, tako da jo lahko upravljate ali obravnavate kot eno celoto.
 
 Za dostop do tega zaslona pojdite na  
-**Sredstva / Materiali / Garniture** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Garniture** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -34,7 +34,7 @@ Izberite nadrejeni material, da si v glavnem seznamu ogledate njegove komponente
    - Pojdite na **Sredstva / Materiali / Izdelki** in dodajte nov izdelek (npr. **Garnitura iz borovega lesa**).
 2. Odprite **Sredstva / Materiali / Garniture** in v levi stranski vrstici izberite nadrejeni material:  
    **Izdelki → Garnitura iz borovega lesa**.
-3. Kliknite **[akcijski gumb](../../Skupno/UI/AkcijskiGumb.md)** za dodajanje komponent v garnituro (vsaka komponenta mora že obstajati):
+3. Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** za dodajanje komponent v garnituro (vsaka komponenta mora že obstajati):
    - Primer komponent: **Borova miza** (1), **Borov stol** (4)
 
    ![Nova garnitura](../Images/SetsNew.png "Nova garnitura")

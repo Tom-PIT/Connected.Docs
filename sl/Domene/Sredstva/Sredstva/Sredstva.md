@@ -9,7 +9,7 @@ Sredstva lahko predstavljajo:
 
 Sredstva **ne sodelujejo v premikih zalog**. Namesto tega določajo prodajne postavke z lastno ceno, davčno stopnjo in lastnostmi. Sredstvo lahko po želji referencira materiale, kadar je prodani izdelek hkrati tudi predmet zalogovnega spremljanja.
 
-Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -21,8 +21,8 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](
 | **Šifra** | Enolični identifikator sredstva (obvezno). |
 | **Ime** | Prikazno ime sredstva (obvezno). |
 | **Tip** | Določa, ali je sredstvo **Blago** ali **Storitev** (obvezno). |
-| [**Davek**](../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja (neobvezno). |
-| [**Merska enota**](../../Skupno/Upravljanje/MerskeEnote.md) | Enota za prikaz in cenitev sredstva (obvezno). |
+| [**Davek**](../../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja (neobvezno). |
+| [**Merska enota**](../../../Skupno/Upravljanje/MerskeEnote.md) | Enota za prikaz in cenitev sredstva (obvezno). |
 | **Neto cena (na enoto)** | Neto cena na enoto sredstva. |
 | **Neto teža (kg)** | Teža sredstva, če je relevantna (privzeto = 0). |
 | **EAN** | Črtna koda (neobvezno). |
@@ -36,7 +36,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](
 | Polje | Opis |
 |------|------|
 | **[Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Carinska tarifa za statistično in carinsko poročanje. |
-| **[Država porekla](../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
+| **[Država porekla](../../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
 | **Pretvornik mase** | Faktor za pretvorbo osnovne merske enote v maso (npr. kg). Uporablja se v Intrastatu ali analitiki, ko je potrebna teža. |
 | **Konto prihodkov na domačen trgu** | Prihodkovni konto, uporabljen za prodaje na domačem trgu. |
 | **Konto prihodka na trgih EU** | Prihodkovni konto, uporabljen za prodaje na trgih EU. |
@@ -63,7 +63,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](
 
 ### Dodajanje novega sredstva
 
-Kliknite **[akcijski gumb](../../Skupno/UI/AkcijskiGumb.md)** in izberite **Nov** za ustvarjanje novega sredstva. Pred shranjevanjem morate vnesti naslednja polja:
+Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** in izberite **Nov** za ustvarjanje novega sredstva. Pred shranjevanjem morate vnesti naslednja polja:
 
 - **Šifra**
 - **Ime**

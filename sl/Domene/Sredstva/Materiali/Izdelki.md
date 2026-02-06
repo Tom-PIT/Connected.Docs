@@ -1,37 +1,37 @@
-# Polizdelki
+# Izdelki
 
-**Polizdelki** so vmesni materiali, ki se uporabljajo v proizvodnji končnih izdelkov. Nastanejo iz surovin in se nato uporabljajo kot komponente v drugih izdelkih. Primeri polizdelkov so mizna plošča, kovinski okvir, lesena noga ali elektronski modul.
+**Izdelki** so končni proizvodi, ki jih podjetje izdeluje ali kupuje. Te postavke se lahko prodajajo kupcem, skladiščijo v skladišču ali uporabljajo v internih procesih. Primeri izdelkov so hrastova miza, pisarniški stol, LED svetilka ali vrtna klop.
 
-Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../Skupno/Upravljanje/MerskeEnote.md), [davčna stopnja](../../Skupno/Upravljanje/DavcneStopnje.md), način generiranja serijskih številk ali rok uporabe – kar omogoča dosledno obravnavo v proizvodnji, zalogi in skladiščnih procesih. Ta šifrant vsebuje vse polizdelke, uporabljene v vašem proizvodnem procesu.
+Vsak izdelek vsebuje pomembne podatke – kot so [merske enote](../../../Skupno/Upravljanje/MerskeEnote.md), [davčna stopnja](../../../Skupno/Upravljanje/DavcneStopnje.md), rok uporabe ali [pakiranje](Pakiranje.md) – ki zagotavljajo dosledno upravljanje v zalogi, prodaji in proizvodnih dokumentih. Ta šifrant predstavlja vse končne izdelke, ki so na voljo v vašem katalogu.
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič  
-> **[Materiali polizdelkov](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)**.
+> Za celoten prikaz si oglejte video vodič  
+> **[Materiali izdelkov](https://www.youtube.com/watch?v=FcrJ_IHQYeA)**.
 
 > [!NOTE]  
 > **Predpogoji**  
-> Pred upravljanjem polizdelkov zagotovite, da so naslednji šifranti pravilno nastavljeni:  
-> - [**Merske enote**](../../Skupno/Upravljanje/MerskeEnote.md)  
-> - [**Davčne stopnje**](../../Skupno/Upravljanje/DavcneStopnje.md)
+> Pred upravljanjem izdelkov preverite, ali so pravilno nastavljeni naslednji šifranti:  
+> - [**Merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md)  
+> - [**Davčne stopnje**](../../../Skupno/Upravljanje/DavcneStopnje.md)
 
-Za dostop do šifranta **Polizdelki** pojdite na  
-**Sredstva / Materiali / Polizdelki** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do šifranta **Izdelki** pojdite na  
+**Sredstva / Materiali / Izdelki** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
 <details open>
-<summary><strong>Polizdelek</strong></summary>
+<summary><strong>Izdelek</strong></summary>
 
 | Polje | Opis |
-|-------|------|
+|------|------|
 | **Šifra** | Enolični identifikator izdelka znotraj seznama materialov. Na primer **2625001** ali **MIZ-ČLS**. Šifra mora biti enolična med vsemi materiali. (obvezno) |
 | **Naziv** | Ime izdelka, prikazano v seznamih in dokumentih. Na primer **Miza – hrast**. (obvezno) |
 | **Generiranje serijske številke** | Določa način upravljanja serijskih številk in zapisov materialov:<br>• **Auto** – vsak kos prejme svojo naraščajočo serijsko številko.<br>• **Same** – vsi kosi imajo enako serijsko številko, vendar ostanejo ločeni zapisi.<br>• **Identical** – vsi kosi imajo enako serijsko številko in se obravnavajo kot en identičen zapis. |
 | **Rok trajanja (dnevi)** | Število dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
 | **EAN** | Vrednost črtne šifre, uporabljena za skeniranje. Na primer **3831234567890**. |
-| **[Osnovna merska enota](../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. (obvezno) |
+| **[Osnovna merska enota](../../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. (obvezno) |
 | **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
-| **[Davek](../../Skupno/Upravljanje/DavcneStopnje.md)** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
+| **[Davek](../../../Skupno/Upravljanje/DavcneStopnje.md)** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
 
 </details>
 
@@ -54,7 +54,7 @@ Za dostop do šifranta **Polizdelki** pojdite na
 <summary><strong>Dodatno</strong></summary>
 
 | Polje | Opis |
-|-------|------|
+|------|------|
 | **Opis** | Kratek interni opis, ki pojasnjuje uporabo ali specifikacije izdelka. Na primer **Masiven hrast, oljen**. |
 | **Oznake** | Oznake za kategorizacijo in filtriranje. Na primer **pohištvo**, **premium**. |
 | **Info povezava** | Povezava do zunanjih informacij ali dokumentacije o izdelku. |
@@ -69,7 +69,7 @@ Za dostop do šifranta **Polizdelki** pojdite na
 | Polje | Opis |
 |------|------|
 | **[Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Carinska tarifa za statistično in carinsko poročanje. |
-| **[Država porekla](../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
+| **[Država porekla](../../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
 | **Pretvornik mase** | Faktor za pretvorbo osnovne merske enote v maso (npr. kg). Uporablja se v Intrastatu ali analitiki, ko je potreben podatek o teži. |
 | **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge tega izdelka. |
 | **[Konto stroška](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Konto stroška (npr. strošek prodanega blaga) ob porabi ali prodaji izdelka. |
@@ -78,46 +78,44 @@ Za dostop do šifranta **Polizdelki** pojdite na
 
 ## Upravljanje
 
-### Seznam polizdelkov
+### Seznam izdelkov
 
-Uporabniški vmesnik vsebuje seznam polizdelkov. Če zapisi še ne obstajajo, je seznam prazen.
+Uporabniški vmesnik vsebuje seznam izdelkov. Če zapisi še ne obstajajo, je seznam prazen.
 
-![Polizdelki](../Images/SemiProductsList.png "Polizdelki")
+![Izdelki](../Images/ProductsList.png "Izdelki")
 
-Seznam prikazuje ime, šifro in način generiranja serijske številke za vsak polizdelek.
+Seznam prikazuje ime izdelka, šifro in način generiranja serijske številke.
 
-Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih polizdelkov.
+Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih izdelkov.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - **Uvoz**
-- **Kopiraj obstoječi**
+- **Kopiraj obstoječe**
 - **Nov**
 
 ### Uvoz
 
-Dejanje **Uvoz** omogoča hkratni uvoz več polizdelkov z uporabo pravilno strukturirane preglednice.
+Dejanje **Uvoz** omogoča hkratni uvoz več materialov izdelkov z uporabo ustrezno pripravljene preglednice.
 
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
 ### Kopiraj obstoječi
 
-Kliknite **Kopiraj obstoječi polizdelek**, da ustvarite nov zapis na podlagi že obstoječega.
+Kliknite **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
 
-![Kopiranje polizdelka](../Images/CopySemiproduct.png "Kopiranje polizdelka")
+![Kopiranje izdelka](../Images/CopyProduct.png "Kopiranje izdelka")
 
-Po izbiri osnovnega polizdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
+Po izbiri osnovnega izdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
 ### Nov
 
-Kliknite **Novo**, da odprete obrazec za dodajanje novega polizdelka.
+Kliknite **Nov**, da odprete obrazec za dodajanje novega izdelka. Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
-![Nov polizdelek](../Images/NewSemiproduct.png "Nov polizdelek")
-
-Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
+![Nov izdelek](../Images/NewProduct.png "Nov izdelek")
 
 Na voljo so dodatni zložljivi razdelki:
 
@@ -139,23 +137,19 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 > [!WARNING]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
-
 #### Dodatno
 
-Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodaten kontekst, vendar ne vplivajo na izračune zaloge.
+Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodatni kontekst, vendar ne vplivajo na izračune zaloge.
 
 ![Zložljivi razdelki](../Images/MaterialPackagingAdditional.png "Zložljivi razdelki")
 
-Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite polizdelek, ali **Prekliči**, da se vrnete na seznam.
+Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite izdelek, ali **Prekliči**, da se vrnete na seznam.
 
 ## Urejanje
 
-Za urejanje obstoječega polizdelka kliknite njegovo **Ime** v seznamu.  
-Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja.
+Za urejanje obstoječega izdelka kliknite **Ime** izdelka v seznamu. Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-![Urejanje polizdelka](../Images/EditSemiproduct.png "Urejanje polizdelka")
-
-Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
+![Urejanje izdelka](../Images/EditProduct.png "Urejanje izdelka")
 
 ## Brisanje
 
@@ -163,7 +157,7 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**
 
-Če potrdite, se polizdelek trajno odstrani; v nasprotnem primeru sistem ohrani zapis nespremenjen.
+Če potrdite, se izdelek trajno odstrani; v nasprotnem primeru sistem ohrani zapis nespremenjen.
 
 > [!NOTE]
-> Polizdelek je mogoče izbrisati le, če ni referenciran v odvisnih zapisih, kot so premiki zaloge, dokumenti, proizvodne strukture ali drugi odnosi materialov.
+> Izdelek je mogoče izbrisati le, če ni referenciran v odvisnih zapisih, kot so premiki zaloge, dokumenti ali strukture materialov.
