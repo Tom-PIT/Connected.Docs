@@ -78,7 +78,7 @@ Razpoložljive nastavitve vključujejo:
 Ti elementi določajo strukturo podpore strankam ter način obveščanja in razvrščanja prijav.
 
 > [!TIP]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../../KazaloUpravljanja.md)**.
 
 ## Stranke in druge domene
 

@@ -63,7 +63,7 @@ Razdelek **Upravljanje** vsebuje konfiguracijske zaslone in osnovne podatke, ki 
 ![Upravljanje – Viri](../Images/ResourcesDomainManagementSL.png "Upravljanje – Viri")
 
 > [!TIP]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../../KazaloUpravljanja.md)**.
 
 Razpoložljive nastavitve in osnovni podatki vključujejo:
 

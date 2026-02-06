@@ -57,7 +57,7 @@ Upravljanje vključuje naslednja konfiguracijska področja:
 - **[Oznake](../Upravljanje/OznakeImenika.md)** – klasifikacija in filtriranje člankov
 
 > [!TIP]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../../KazaloUpravljanja.md)**.
 
 
 ### Imeniki

@@ -51,30 +51,30 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 
 ## Sredstva
 ### Sredstva
-- [**Ceniki sredstev**](Sredstva/Sredstva/CenikiSredstev.md)
-- [**Sredstva**](Sredstva/Sredstva/Sredstva.md)
+- [**Ceniki sredstev**](Domene/Sredstva/Sredstva/CenikiSredstev.md)
+- [**Sredstva**](Domene/Sredstva/Sredstva/Sredstva.md)
 
 ### Materiali
-- [**Alternativne merske enote**](Sredstva/Materiali/AlternativneMerskeEnote.md)
-- [**Ceniki materialov**](Sredstva/Materiali/CenikiMaterialov.md)
-- [**Garniture**](Sredstva/Materiali/Garniture.md)
-- [**Izdelki**](Sredstva/Materiali/Izdelki.md)
-- [**Pakiranje**](Sredstva/Materiali/Pakiranje.md)
-- [**Polizdelki**](Sredstva/Materiali/Polizdelki.md)
-- [**Repro materiali**](Sredstva/Materiali/ReproMateriali.md)
-- [**Surovine**](Sredstva/Materiali/Surovine.md)
-- [**Uvoz materialov**](Sredstva/Materiali/UvozMaterialov.md)
+- [**Alternativne merske enote**](Domene/Sredstva/Materiali/AlternativneMerskeEnote.md)
+- [**Ceniki materialov**](Domene/Sredstva/Materiali/CenikiMaterialov.md)
+- [**Garniture**](Domene/Sredstva/Materiali/Garniture.md)
+- [**Izdelki**](Domene/Sredstva/Materiali/Izdelki.md)
+- [**Pakiranje**](Domene/Sredstva/Materiali/Pakiranje.md)
+- [**Polizdelki**](Domene/Sredstva/Materiali/Polizdelki.md)
+- [**Repro materiali**](Domene/Sredstva/Materiali/ReproMateriali.md)
+- [**Surovine**](Domene/Sredstva/Materiali/Surovine.md)
+- [**Uvoz materialov**](Domene/Sredstva/Materiali/UvozMaterialov.md)
 
 ## Stranke
-- [**NastavitveObvestil**](Stranke/Upravljanje/NastavitveObvestil.md)
-- [**Podrocja**](Stranke/Upravljanje/Podrocja.md)
+- [**NastavitveObvestil**](Domene/Stranke/Upravljanje/NastavitveObvestil.md)
+- [**Podrocja**](Domene/Stranke/Upravljanje/Podrocja.md)
 - [**Poslovni imenik**](Skupno/Upravljanje/PoslovniImenik.md)
-- [**Institucionalni sektorji**](Stranke/Upravljanje/InstitucionalniSektorji.md)
+- [**Institucionalni sektorji**](Domene/Stranke/Upravljanje/InstitucionalniSektorji.md)
 - [**Nazivi delovnih mest**](Skupno/Upravljanje/NaziviDelovnihMest.md)
 
 ## Znanje
-- [**Imeniki**](Znanje/Upravljanje/Imeniki.md)
-- [**Oznake imenika**](Znanje/Upravljanje/OznakeImenika.md)
+- [**Imeniki**](Domene/Znanje/Upravljanje/Imeniki.md)
+- [**Oznake imenika**](Domene/Znanje/Upravljanje/OznakeImenika.md)
 
 ## Logistika
 - [**Konfiguracija logistike**](Domene/Logistika/Upravljanje/KonfiguracijaLogistike.md)
@@ -113,16 +113,16 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Kvaliteta – kontrolne liste**](Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
 
 ## Viri
-- [**Časovni plani**](Viri/Upravljanje/CasovniPlani.md)
-- [**Dnevnice**](Viri/Upravljanje/Dnevnice.md)
-- [**Konfiguracija virov**](Viri/Upravljanje/KonfiguracijaVirov.md)
-- [**Matrike kompetenc**](Viri/Upravljanje/MatrikeKompetenc.md)
-- [**Postavke virov**](Viri/Upravljanje/PostavkeVirov.md)
-- [**Razlogi za potovanje**](Viri/Upravljanje/RazlogiZaPotovanje.md)
-- [**Relacije**](Viri/Upravljanje/Relacije.md)
-- [**Tipi bolniških odsotnosti**](Viri/Upravljanje/TipiBolniskihOdsotnosti.md)
-- [**Tipi dela**](Viri/Upravljanje/TipiDela.md)
-- [**Tipi planov razpoložljivosti**](Viri/Upravljanje/TipiPlanovRazpolozljivosti.md)
+- [**Časovni plani**](Domene/Viri/Upravljanje/CasovniPlani.md)
+- [**Dnevnice**](Domene/Viri/Upravljanje/Dnevnice.md)
+- [**Konfiguracija virov**](Domene/Viri/Upravljanje/KonfiguracijaVirov.md)
+- [**Matrike kompetenc**](Domene/Viri/Upravljanje/MatrikeKompetenc.md)
+- [**Postavke virov**](Domene/Viri/Upravljanje/PostavkeVirov.md)
+- [**Razlogi za potovanje**](Domene/Viri/Upravljanje/RazlogiZaPotovanje.md)
+- [**Relacije**](Domene/Viri/Upravljanje/Relacije.md)
+- [**Tipi bolniških odsotnosti**](Domene/Viri/Upravljanje/TipiBolniskihOdsotnosti.md)
+- [**Tipi dela**](Domene/Viri/Upravljanje/TipiDela.md)
+- [**Tipi planov razpoložljivosti**](Domene/Viri/Upravljanje/TipiPlanovRazpolozljivosti.md)
 
 ## Prodaja
 - [**Konfiguracija prodaje**](Domene/Prodaja/Upravljanje/KonfiguracijaProdaje.md)
