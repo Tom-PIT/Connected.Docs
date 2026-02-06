@@ -24,10 +24,10 @@ Additionally, on many screens, a **back arrow button** appears in the lower-righ
 
 Each domain contains the tools relevant to a specific business area. Examples include:
 
-- **[Sales](../../Sales/Domain/SalesDomain.md)**  
-- **[Logistics](../../Logistics/Domain/LogisticsDomain.md)**  
-- **[Supply](../../Supply/Domain/SupplyDomain.md)**  
-- **[Production](../../Production/Domain/ProductionDomain.md)**  
+- **[Sales](../../Domains/Sales/Domain/SalesDomain.md)**  
+- **[Logistics](../../Domains/Logistics/Domain/LogisticsDomain.md)**  
+- **[Supply](../../Domains/Supply/Domain/SupplyDomain.md)**  
+- **[Production](../../Domains/Production/Domain/ProductionDomain.md)**  
 
 > [!NOTE]
 >
@@ -46,16 +46,16 @@ Example - Sections in the **Sales** domain:
 
 Documents are the core of daily operational work. They are used to create, process, and track business transactions such as:
 
-- **[Sales orders](../../Sales/Documents/SalesOrders.md)**  
-- **[Delivery notes](../../Sales/Documents/DeliveryNotes.md)**  
-- **[Receives](../../Logistics/Documents/Receives.md)**  
-- **[Issues](../../Logistics/Documents/Issues.md)**  
-- **[Inter-warehouse transfers](../../Logistics/Documents/InterWarehouse.md)**  
-- **[Inventories](../../Logistics/Documents/Inventories.md)**
-- **[Supply orders](../../Supply/Documents/SupplyOrders.md)**  
-- **[Execution](../../Production/Documents/Execution.md)**
-- **[Production orders](../../Production/Documents/ProductionOrders.md)**
-- **[Requirements](../../Production/Documents/Requirements.md)**
+- **[Sales orders](../../Domains/Sales/Documents/SalesOrders.md)**  
+- **[Delivery notes](../../Domains/Sales/Documents/DeliveryNotes.md)**  
+- **[Receives](../../Domains/Logistics/Documents/Receives.md)**  
+- **[Issues](../../Domains/Logistics/Documents/Issues.md)**  
+- **[Inter-warehouse transfers](../../Domains/Logistics/Documents/InterWarehouse.md)**  
+- **[Inventories](../../Domains/Logistics/Documents/Inventories.md)**
+- **[Supply orders](../../Domains/Supply/Documents/SupplyOrders.md)**  
+- **[Execution](../../Domains/Production/Documents/Execution.md)**
+- **[Production orders](../../Domains/Production/Documents/ProductionOrders.md)**
+- **[Requirements](../../Domains/Production/Documents/Requirements.md)**
 - And many others
 
 Example — entering the **Sales** domain and opening **Documents**:
@@ -75,14 +75,14 @@ Views allow you to **analyze and monitor** business information. They do not cre
 
 Views typically include:
 
-- **[Stock overviews](../../Logistics/Documents/Stock.md)**  
-- **[Sales order reports](../../Sales/Views/SalesOrderDetails.md)**  
-- **[Delivery note reports](../../Sales/Views/DeliveryNoteReports.md)** 
-- **[Company cards](../../Sales/Views/CompanyCards.md)**  
-- **[Location-based stock views](../../Logistics/Views/StockViewByLocation.md)**  
-- **[Production KPIs](../../Production/Analytics/ProductionKPIs.md)**
-- **[Loss summary](../../Production/Analytics/LossSummary.md)**
-- **[Downtime summary](../../Production/Analytics/DowntimeSummary.md)**
+- **[Stock overviews](../../Domains/Logistics/Documents/Stock.md)**  
+- **[Sales order reports](../../Domains/Sales/Views/SalesOrderDetails.md)**  
+- **[Delivery note reports](../../Domains/Sales/Views/DeliveryNoteReports.md)** 
+- **[Company cards](../../Domains/Sales/Views/CompanyCards.md)**  
+- **[Location-based stock views](../../Domains/Logistics/Views/StockViewByLocation.md)**  
+- **[Production KPIs](../../Domains/Production/Analytics/ProductionKPIs.md)**
+- **[Loss summary](../../Domains/Production/Analytics/LossSummary.md)**
+- **[Downtime summary](../../Domains/Production/Analytics/DowntimeSummary.md)**
 
 Example — **Sales / Views**:
 
@@ -106,14 +106,14 @@ Management includes items such as:
 
 - Configuration  
 - **[Business directory](../Management/BusinessDirectory.md)**  
-- **[Banks & payment methods](../../Sales/Management/PaymentMethods.md)**  
+- **[Banks & payment methods](../../Domains/Sales/Management/PaymentMethods.md)**  
 - **[Countries](../Management/Countries.md)**, **[currencies](../Management/Currencies.md)**, **[tax rates](../Management/TaxRates.md)**  
 - **[Predefined texts](../Management/PredefinedTexts.md)**  
 - **[Measure units](../Management/MeasureUnits.md)**  
-- **[Organization bank accounts](../../Sales/Management/OrganizationBankAccounts.md)**  
-- **[Processes](../../Production/Management/Processes.md)**
-- **[Inputs](../../Production/Management/Inputs.md)**, **[Outputs](../../Production/Management/Outputs.md)**
-- **[Job positions](../../Production/Management/JobPositions.md)**, **[Human resources](../../Production/Management/HumanResources.md)**
+- **[Organization bank accounts](../../Domains/Sales/Management/OrganizationBankAccounts.md)**  
+- **[Processes](../../Domains/Production/Management/Processes.md)**
+- **[Inputs](../../Domains/Production/Management/Inputs.md)**, **[Outputs](../../Domains/Production/Management/Outputs.md)**
+- **[Job positions](../../Domains/Production/Management/JobPositions.md)**, **[Human resources](../../Domains/Production/Management/HumanResources.md)**
 - Other critical code lists  
 
 Example — **Sales / Management**:
