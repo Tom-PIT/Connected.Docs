@@ -12,10 +12,10 @@ Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vklj
 > - Dodeljene [**organizacijske enote**](../../Proizvodnja/Upravljanje//OrganizacijskeEnote.md)
 > - Po potrebi dodatne nastavitve, kot so [**viri**](../../Proizvodnja/Upravljanje//Viri.md),
 >   [**kontrolni listi**](../..//Proizvodnja/Upravljanje/KontrolneListe.md) in
->   [**merske enote**](../../Skupno/Upravljanje/MerskeEnote.md), odvisno od poteka vzdrževanja
+>   [**merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md), odvisno od poteka vzdrževanja
 
 Za dostop do vzdrževalnih nalogov pojdite na **Vzdrževanje / Vzdrževalni nalogi** v
-[**navigaciji**](../../Skupno/UI/Navigacija.md).
+[**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Seznam vzdrževalnih nalogov
 
@@ -65,7 +65,7 @@ Iskalno polje omogoča filtriranje po kodi vzdrževalnega naloga ali nazivu opre
 
 ## Ustvarjanje vzdrževalnega naloga
 
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vzdrževalni nalog.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vzdrževalni nalog.
 
 Čarovnik za ustvarjanje je sestavljen iz **treh korakov**, podobno kot pri proizvodnih nalogih.
 

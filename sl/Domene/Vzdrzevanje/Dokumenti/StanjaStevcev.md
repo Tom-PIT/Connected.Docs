@@ -8,7 +8,7 @@ Te vrednosti se uporabljajo pri **urnikih vzdrževanja na podlagi števcev**
 za samodejno ustvarjanje vzdrževalnih nalogov, ko so doseženi določeni pragovi.
 
 Za dostop do tega zaslona pojdite na **Vzdrževanje / Stanja števcev** v
-[**navigaciji**](../../Skupno/UI/Navigacija.md).
+[**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Seznam stanj števcev](../Images/ResourceWorkHoursCountersList.png)
 
@@ -30,7 +30,7 @@ Iskalno polje omogoča iskanje opreme po nazivu.
 
 ## Dodajanje stanja števca
 
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo
 stanje števca.
 
 ![Dodaj stanje števca](../Images/ResourceWorkHoursCountersNew.png)

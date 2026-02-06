@@ -5,7 +5,7 @@ Združuje podatke iz **zaključenih [vzdrževalnih nalogov](../Dokumenti/Vzdrzev
 in pomaga oceniti učinkovitost, odzivnost ter zanesljivost vzdrževalnih aktivnosti.
 
 Do tega zaslona dostopate prek **Vzdrževanje / Analiza / Kazalniki vzdrževanja**
-v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ![Kazalniki vzdrževanja](../Images/MaintenanceIndicators.png "Pregled kazalnikov vzdrževanja")
 
