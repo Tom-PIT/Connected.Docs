@@ -9,6 +9,7 @@
 | **Naziv** | Opisno ime davčne stopnje (npr. *Standardna davčna stopnja 22* ali *Znižana davčna stopnja 9,5*). |
 | **Davčna stopnja (%)** | Številčni odstotek davka (npr. **22** ali **9,5**). |
 | **Aktivna** | Označuje, ali je davčna stopnja trenutno v uporabi. Neaktivnih stopenj ni mogoče izbrati v novih vnosih, ostanejo pa vidne v zgodovini. |
+| **Glavna knjiga – Debet/Kredit** | Konto glavne knjige, izbran iz **[Konti](../../Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**, ki se bremeni oziroma odobri, ko se davčni znesek knjiži z uporabo te davčne stopnje. |
 
 ## Upravljanje
 
@@ -40,10 +41,20 @@ Obrazec vključuje naslednja polja:
 - **Naziv**
 - **Davčna stopnja (%)**
 - **Aktivna**
+- **Glavna knjiga**
 
 Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
 
-![Dodaj novo davčno stopnjo](../Images/NewTaxRate.png "Dodaj novo davčno stopnjo")
+![Dodaj novo davčno stopnjo](../Images/TaxRatesNew.png "Dodaj novo davčno stopnjo")
+
+### Glavna knjiga
+
+Razdelek **Glavna knjiga** določa, kateri konti glavne knjige se uporabijo za knjiženje davčnih zneskov, ko je ta davčna stopnja uporabljena v poslovnih dokumentih.
+
+Polji **Debet** in **Kredit** omogočata izbor kontov iz šifranta **[Konti](../../Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**. Ti konti določajo, kam se davčni zneski knjižijo med računovodskimi transakcijami.
+
+> [!NOTE]
+Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
 ## Urejanje
 
@@ -60,5 +71,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]
 > Davčno stopnjo je mogoče izbrisati le, če ni uporabljena v nobenem od odvisnih zapisov.
-
----

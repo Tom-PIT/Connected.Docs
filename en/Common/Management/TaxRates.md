@@ -9,6 +9,7 @@ This code list defines all **tax rates** used across the system. Tax rates deter
 | **Name** | Descriptive name of the tax rate. For example, Standard tax rate 22 or Reduced tax rate 9.5. |
 | **Tax rate (%)** | Numeric tax percentage applied, for example **22** or **9.5**. |
 | **Active** | Indicates whether the tax rate is currently in use. Inactive tax rates cannot be selected in new entries, but remain visible in history. |
+| **Ledger – Debit/Credit** | General ledger account selected from the [**Chart of accounts**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) that is debited/credited when a tax amount is posted using this tax rate. |
 
 ## Management
 
@@ -40,10 +41,20 @@ The form includes the following fields:
 - **Name**
 - **Tax rate (%)**
 - **Active**
+- **Ledger section**
 
 After entering the required information, click **Add** to save the tax rate or **Cancel** to return to the list view.
 
-![Add new tax rate](../Images/NewTaxRate.png "Add new tax rate")
+![Add new tax rate](../Images/TaxRatesNew.png "Add new tax rate")
+
+### Ledger
+
+The **Ledger** section defines which general ledger accounts are used to post tax amounts when this tax rate is applied in business documents.
+
+The **Debit** and **Credit** fields allow selection of accounts from the [**Chart of accounts**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) code list. These accounts determine where tax amounts are posted during accounting transactions.
+
+> [!NOTE]
+The ledger setup is required for accurate tax accounting, reporting, and regulatory compliance.
 
 ## Editing
 
