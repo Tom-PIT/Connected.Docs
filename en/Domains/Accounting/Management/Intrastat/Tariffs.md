@@ -28,7 +28,7 @@ Tariffs can be searched using the search field in the top-right corner.
 
 ## Add tariff
 
-Click **Add tariff** to create a new tariff entry.
+Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new tariff entry.
 
 ![Add tariff](../../Images/TariffsNew.png)
 

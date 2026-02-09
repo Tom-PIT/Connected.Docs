@@ -43,5 +43,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]  
 > Stroškovno mesto je mogoče izbrisati le, če ni uporabljeno v dokumentih ali drugih sistemskih entitetah.
-
----

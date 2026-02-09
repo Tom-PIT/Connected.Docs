@@ -56,5 +56,3 @@ Bančni račun je mogoče izbrisati na strani za urejanje, vendar le, če ni upo
 
 > [!NOTE]
 > Brisanje bančnega računa **ne izbriše** vnosa v Poslovnem imeniku, kateremu pripada.
-
----

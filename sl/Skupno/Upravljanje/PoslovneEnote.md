@@ -57,5 +57,3 @@ Poslovno enoto je mogoče izbrisati na strani za urejanje, vendar le, če ni upo
 
 > [!NOTE]  
 > Brisanje poslovne enote **ne izbriše** pripadajočega vnosa v Poslovnem imeniku.
-
----

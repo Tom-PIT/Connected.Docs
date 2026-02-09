@@ -98,5 +98,3 @@ Skoraj vsi procesi v platformi so odvisni od nastavitev Skupno:
 
 > [!POZOR]  
 > **Ne nadaljujte z uporabo domen [Prodaja](../../Domene/Prodaja/Domena/Prodaja.md), [Nabava](../../Domene/Nabava/Domena/Nabava.md), [Logistika](../../Domene/Logistika/Domena/Logistika.md) ali [Sistemske nastavitve](../../Domene/Sistem/Nastavitve/KonfiguracijaSistema.md), dokler niso ustvarjeni vsi zahtevani šifranti modula Skupno.**
-
----

@@ -41,8 +41,18 @@ Vnesite zahtevane podatke:
 - **IBAN**
 - **Aktiven**
 - **Uporabljaj IBAN masko** (neobvezno)
+- **Glavna knjiga**
 
-![Nov bančni račun organizacije](../Images/OrganizationBankAccountsNew.png "Dodajanje novega bančnega računa")
+![Nov bančni račun organizacije](../Images/OrganizationBankAccountsNewV2.png "Dodajanje novega bančnega računa")
+
+#### Glavna knjiga
+
+Razdelek **Glavna knjiga** določa, kateri [konto](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) glavne knjige predstavlja **bančni račun organizacije** v računovodskih transakcijah.
+
+Izbrani konto glavne knjige se uporablja pri knjiženju **plačil**, **prejemkov**, **bančnih izpiskov** in **uskladitev**. Vsi finančni premiki, povezani s tem bančnim računom, se knjižijo na izbrani konto.
+
+> [!NOTE]
+Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
 ## Brisanje
   
