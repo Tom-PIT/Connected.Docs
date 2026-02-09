@@ -56,5 +56,3 @@ Poštno številko je mogoče izbrisati na strani za urejanje, vendar le, če ni 
 
 > [!NOTE]  
 > Brisanje poštne številke **ne izbriše** pripadajočega vnosa države.
-
----

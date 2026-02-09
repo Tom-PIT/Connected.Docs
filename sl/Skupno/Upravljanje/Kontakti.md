@@ -64,5 +64,3 @@ Kontakt je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen
 
 > [!NOTE]  
 > Brisanje kontakta **ne izbriše** pripadajočega vnosa v Poslovnem imeniku.
-
----
