@@ -53,22 +53,13 @@ To access Receives, go to **Logistics / Documents / Receives** in the [**navigat
 </details>
 
 <details>
-  <summary><strong>Transport</strong></summary>
+  <summary><strong>Transport and Intrastat</strong></summary>
 
 
 | Field | Description |
 |------|-------------|
 | [**Delivery term**](../../../Common/Management/DeliveryTerms.md) | Delivery conditions agreed with the supplier (for example, costs and freight). |
 | [**Mode of transport**](../../../Common/Management/ModeOfTransport.md) | Transport method used to deliver the goods (for example, road transport). |
-
-</details>
-
-<details>
-  <summary><strong>Intrastat</strong></summary>
-
-
-| Field | Description |
-|------|-------------|
 | [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
 | [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
 | [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
