@@ -29,15 +29,15 @@ Open this screen to view, add and edit organization units used across Production
 
 The list shows the organization unit **Code** and **Name** and displays tags and the **Ordinal** value. Use the search box in the header to find records. Click an organization unit to open the edit form.
 
-![Organization units list](../Images/OrganizationUnitsList1.png "Organization units list")
+![Organization units list](../Images/OrganizationUnitsList2.png "Organization units list")
 
 Each record includes a status indicator to the left of its name:
 - **Blue** indicates the organization unit is active
 - **Gray** indicates the organization unit is inactive
 
-![Organization Units Resources Buttons](../Images/OrganizationUnitsResourcesButtons.png "Organization Units Resources Buttons")
+![Organization Units Resources Buttons](../Images/OrganizationUnitsResourcesButtons1.png "Organization Units Resources Buttons")
 
-Click these buttons to attach human and non-human resources to the selected organization unit. See **[Resources](Resources.md)** for details on defining people, machines, teams, and maintenance tools.
+Use the buttons under each organization unit to attach human, non-human resources, and quality checklists to the selected organization unit. See **[Resources](Resources.md)** for details on defining people, machines, teams, and maintenance tools.
 
 ### Actions
 
@@ -58,6 +58,28 @@ Fill in the fields on the Add form:
 ![Organization units – New](../Images/OrganizationUnitsNew.png "Organization units – New")
 
 Click **Add** to save the new organization unit, or **Cancel** to discard.
+
+### Quality
+
+Organization units can have [**quality checklists**](Checklists.md) assigned to them. A checklist can be used to require users to complete basic tasks (for example, at the start of a shift) before continuing.
+
+> [!NOTE]
+> Currently, the only available mode is **On first login**.
+
+![Organization units - Quality list](../Images/OrganizationUnitsQualityList.png)
+
+#### Add a quality checklist
+
+1. In the organization units list, click **Quality** on the desired organization unit.
+2. Click the **action button** to add a new checklist.
+3. Select:
+   - **Checklist** (configured in [Checklists](Checklists.md))
+   - **Mode** (currently **On first login**)
+   - **Ordinal** (order in which checklists are shown)
+4. Click **Add** to save or **Cancel** to discard.
+
+![Add quality checklist](../Images/OrganizationUnitsQualityNew.png)
+
 
 ### Edit
 
