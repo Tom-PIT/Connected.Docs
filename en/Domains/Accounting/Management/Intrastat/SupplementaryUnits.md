@@ -23,9 +23,9 @@ You can:
 
 ![Supplementary units list](../../Images/SupplementaryUnitsList.png)
 
-## Add supplementary unit
+## Add a supplementary unit
 
-Click **Add supplementary unit** to create a new entry.
+Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry.
 
 ![Add supplementary unit](../../Images/SupplementaryUnitsNew.png)
 

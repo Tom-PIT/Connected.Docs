@@ -35,7 +35,7 @@ Typical examples include:
 ### Add nature of transaction
 
 To create a new nature-of-transaction entry:
-1. Click **Add nature of transaction**
+1. Click the [**action button**](../../../../Common/UI/ActionButton.md)
 2. Enter:
    - **Code**
    - **Description**

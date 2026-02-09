@@ -25,7 +25,7 @@ Omogočeno je:
 
 ## Dodaj mersko enoto
 
-Za dodajanje nove merske enote kliknite **Dodaj mersko enoto**.
+Za dodajanje nove merske enote kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md).
 
 ![Dodaj mersko enoto](../../Images/SupplementaryUnitsNewSL.png)
 

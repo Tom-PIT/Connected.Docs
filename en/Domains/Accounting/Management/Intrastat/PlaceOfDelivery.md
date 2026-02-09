@@ -33,7 +33,7 @@ Example values include:
 ### Add place of delivery
 
 To create a new place-of-delivery entry:
-1. Click **Add place of delivery**
+1. Click the [**action button**](../../../../Common/UI/ActionButton.md)
 2. Enter:
    - **Code**
    - **Description**
