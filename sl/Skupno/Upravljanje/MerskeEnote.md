@@ -76,5 +76,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]
 > Mersko enoto je mogoče izbrisati le, če ni uporabljena v nobenem od odvisnih zapisov, kot so materiali ali zalogovne transakcije.
-
----

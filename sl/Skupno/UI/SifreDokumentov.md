@@ -83,5 +83,3 @@ Enotna struktura zagotavlja:
 - predvidljivo iskanje in filtriranje  
 - enostavno referenciranje v računovodstvu, logistiki in operativnih procesih  
 - berljivo obliko za uporabnike (leto + zaporedje)
-
----

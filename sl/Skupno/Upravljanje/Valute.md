@@ -68,5 +68,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]  
 > Valuto je mogoče izbrisati le, če **ni uporabljena** v cenikih, dokumentih ali drugih finančnih zapisih.
-
----

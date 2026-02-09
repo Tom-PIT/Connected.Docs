@@ -45,5 +45,3 @@ Naziv delovnega mesta je mogoče izbrisati na strani za urejanje, vendar le, če
 
 > [!NOTE]  
 > Brisanje naziva delovnega mesta **ne odstrani** vnosov v Poslovnem imeniku.
-
----
