@@ -30,15 +30,15 @@ Ta pogled omogoča ogled, dodajanje in urejanje organizacijskih enot, ki se upor
 
 Seznam prikazuje **šifro** in **naziv** organizacijske enote ter njene oznake in vrednost **vrstnega reda**. Za iskanje zapisov uporabite iskalno polje v glavi seznama. Kliknite organizacijsko enoto za odpiranje obrazca za urejanje.
 
-![Seznam organizacijskih enot](../Images/OrganizationUnitsList1.png)
+![Seznam organizacijskih enot](../Images/OrganizationUnitsList2.png)
 
 Vsak zapis ima levo od naziva prikazan indikator stanja:
 - **Modra** barva pomeni, da je organizacijska enota aktivna
 - **Siva** barva pomeni, da je organizacijska enota neaktivna
 
-![Gumbi za vire organizacijskih enot](../Images/OrganizationUnitsResourcesButtons.png)
+![Gumbi za vire organizacijskih enot](../Images/OrganizationUnitsResourcesButtons1.png)
 
-S temi gumbi lahko izbrani organizacijski enoti dodelite človeške in stvarne vire. Za več informacij o definiranju oseb, strojev, ekip in vzdrževalnih orodij glejte **[Viri](Viri.md)**.
+Uporabite gumbe pod posamezno organizacijsko enoto za pripenjanje **človeških virov**, **stvarni virov** in **kontrolnih list kakovosti** k izbrani organizacijski enoti. Za podrobnosti o definiranju oseb, strojev, ekip in vzdrževalnih orodij glejte **[Viri](Viri.md)**.
 
 ### Dejanja
 
@@ -59,6 +59,27 @@ V obrazec za dodajanje vnesite naslednja polja:
 ![Organizacijske enote – Novo](../Images/OrganizationUnitsNew.png)
 
 Kliknite **Dodaj** za shranjevanje nove organizacijske enote ali **Prekliči** za opustitev vnosa.
+
+### Kvaliteta
+
+Organizacijskim enotam je mogoče dodeliti [**kontrolne liste kakovosti**](KontrolneListe.md). Kontrolna lista se uporablja za zahtevo, da uporabniki opravijo osnovna opravila (na primer ob začetku izmene), preden lahko nadaljujejo z delom.
+
+> [!NOTE]
+> Trenutno je na voljo samo način **Ob prvi prijavi**.
+
+![Organizacijske enote – seznam kvalitete](../Images/OrganizationUnitsQualityList.png)
+
+#### Dodaj kontrolno listo kakovosti
+
+1. Na seznamu organizacijskih enot pri želeni organizacijski enoti kliknite **Kvaliteta**.
+2. Kliknite **akcijski gumb** za dodajanje nove kontrolne liste.
+3. Izberite:
+   - **Kontrolna lista**
+   - **Način** (trenutno **Ob prvi prijavi**)
+   - **Vrstni red** (zaporedje prikaza kontrolnih list)
+4. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev.
+
+![Dodaj kontrolno listo kakovosti](../Images/OrganizationUnitsQualityNew.png)
 
 ### Urejanje
 
