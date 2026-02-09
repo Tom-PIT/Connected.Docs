@@ -54,5 +54,3 @@ Kliknite **Izbriši**, da odprete potrditveno pogovorno okno:
 
 > [!NOTE]  
 > Prednastavljeno besedilo je mogoče izbrisati le, če ni uporabljeno v odvisnih dokumentih.
-
----

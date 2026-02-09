@@ -33,7 +33,7 @@ Tipični primeri vrednosti:
 ### Dodaj lego kraja
 
 Za dodajanje nove lege kraja:
-1. Kliknite **Dodaj lego kraja**
+1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md)
 2. Vnesite:
    - **Šifra**
    - **Opis**

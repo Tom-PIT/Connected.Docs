@@ -122,5 +122,3 @@ Primer – **Prodaja / Upravljanje**:
 ![Upravljanje Prodaja](../Images/NavigationSalesManagement.png)
 
 Strani za upravljanje običajno vzdržujejo skrbniki ali uporabniki, odgovorni za konfiguracijo sistema.
-
----

@@ -35,7 +35,7 @@ Tipični primeri vključujejo:
 ### Dodaj vrsto posla
 
 Za dodajanje nove vrste posla:
-1. Kliknite **Dodaj vrsto posla**
+1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md)
 2. Vnesite:
    - **Šifro**
    - **Opis**

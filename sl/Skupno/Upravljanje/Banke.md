@@ -56,5 +56,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]
 > Zapis banke je mogoče izbrisati le, če ni uporabljen v drugih sistemskih entitetah.
-
----

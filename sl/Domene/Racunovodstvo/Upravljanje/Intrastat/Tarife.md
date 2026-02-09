@@ -28,7 +28,7 @@ Tarife je mogoče iskati z iskalnikom v zgornjem desnem kotu.
 
 ## Dodajanje tarife
 
-Za dodajanje nove tarife kliknite **Dodaj tarifo**.
+Za dodajanje nove tarife kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md).
 
 ![Dodaj tarifo](../../Images/TariffsNewSL.png)
 
