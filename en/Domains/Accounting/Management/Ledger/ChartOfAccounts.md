@@ -1,10 +1,30 @@
 # Chart of accounts
 
-The **Chart of accounts** code list defines the complete structure of financial accounts used by the system to record, classify, and report all accounting transactions. Each account represents a specific financial category such as assets, revenues, production costs, or operating expenses.
+The **Chart of accounts** defines the complete structure of financial accounts used by the system to record, classify, and report all accounting transactions. Each account represents a specific financial category such as assets, revenues, production costs, or operating expenses.
 
-The Chart of accounts is a **core configuration element**. It is referenced by many other parts of the system, including journals, invoices, inventory valuation, cost centers, and financial reports. Accounts must therefore be defined before they can be used elsewhere.
+The **Chart of accounts** is a **core accounting structure**. It is referenced by many other parts of the system, including journals, invoices, inventory valuation, cost centers, and financial reports. Accounts must therefore be defined before they can be used elsewhere.
 
 To access this screen, go to **Accounting / Ledger / Management / Chart of accounts** in the [**navigation**](../../../../Common/UI/Navigation.md).
+
+## European accounting context
+
+In most EU countries, the chart of accounts follows a **structured and hierarchical model**, often defined or strongly influenced by national accounting regulations.
+
+This typically includes:
+ - Account classes (e.g. 1–9) representing high-level financial categories
+ - Synthetic (grouping) accounts used for structure and reporting
+ - Analytical accounts used for operational postings
+
+The system is designed to support this model while remaining flexible for company-specific extensions.
+
+> [!NOTE]
+> While the hierarchical, synthetic/analytical chart of accounts model is common across most EU countries, the system also supports non-standard or company-defined charts of accounts. This includes simpler structures without predefined account classes or synthetic parent accounts, which are more common in non-EU or group-level accounting setups.
+
+### National variations
+
+While the overall structure of charts of accounts is similar across the EU, specific account numbering, naming, and mandatory structures may vary by country.
+
+The system does not enforce a single national chart of accounts but supports importing and extending country-specific templates.
 
 ## Schema
 
@@ -13,8 +33,8 @@ To access this screen, go to **Accounting / Ledger / Management / Chart of accou
 | **Account**        | Unique numeric identifier of the account. The numbering usually follows a logical structure (e.g. assets, revenues, costs) (mandatory). |
 | **Name**         | Descriptive name of the account, clearly indicating its purpose (mandatory).                                                            |
 | **Posting type**   | Defines whether and how transactions can be posted to the account.                                                          |
-| **Account type**   | Defines operational binding rules for the account (e.g. cost center or client binding) (mandatory).                                     |
-| **Parent account** | Optional parent account used to build a hierarchical chart of accounts.                                                     |
+| **Account type**   | Defines posting and analytical requirements for the account (e.g. cost center or client binding) (mandatory).                                     |
+| **Parent account** | Defines the hierarchical position of the account within the chart of accounts. In EU accounting structures, analytical accounts are typically created under predefined synthetic parent accounts.                                                     |
 | **Tags**           | Tags used for filtering, reporting, or integrations.                                                               |
 
 ### Posting type
@@ -36,7 +56,11 @@ The **Account type** defines whether the account must be linked to another busin
 * **No binding** – The account is used independently, without mandatory links.
 * **Bind to cost center** – Each posting must reference a cost center.
 * **Bind to client** – Each posting must reference a client.
-* **Synthetic** – System-calculated account, not intended for manual postings.
+* **Synthetic** – Structural account used for grouping and reporting.
+Synthetic accounts are typically defined by national accounting frameworks and do not allow direct postings.
+
+> [!NOTE]
+Operational postings are always performed on analytical accounts, which are defined as children of synthetic accounts.
 
 ## List view
 
@@ -50,7 +74,7 @@ Each row shows:
 
 Parent accounts can be expanded to show their child accounts. The list can be searched using the search field in the top-right corner.
 
-![Chart of accounts list](../../Images/ChartOfAccountsList.png "Chart of accounts list")
+![Chart of accounts list](../../Images/ChartOfAccountsListV2.png "Chart of accounts list")
 
 ## Actions
 
