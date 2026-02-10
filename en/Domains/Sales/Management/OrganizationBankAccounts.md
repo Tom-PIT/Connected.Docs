@@ -17,7 +17,7 @@ To access Organization bank accounts, go to **Sales / Management / Organization 
 | **IBAN** | International Bank Account Number (mandatory). |
 | **Active** | Indicates whether the account can be used in documents (selected by default). |
 | **Use mask** | Determines whether the IBAN is displayed and entered using an input mask for improved readability. |
-| **Ledger – Debit/Credit** | General ledger account selected from the [**Chart of accounts**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) that is debited/credited when a tax amount is posted using this tax rate. |
+| **Ledger – Debit/Credit** | General ledger account selected from the [**Chart of accounts**](../../Accounting/Management/Ledger/ChartOfAccounts.md) that is debited/credited when a tax amount is posted using this tax rate. |
 
 ## Management
 
