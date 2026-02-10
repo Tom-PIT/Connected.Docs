@@ -23,7 +23,7 @@ Primeri:
 
 Do šifranta **Merske enote** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
 
-Za odpiranje seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
+Za odpiranje seznama pojdite v razdelek **Upravljanje / Merske enote** v naslednjih domenah:
 
 - **Sredstva**
 - **Logistika**

@@ -2,6 +2,14 @@
 
 Ta šifrant predstavlja države, ki se uporabljajo v digitalnih vsebinah sistema. Vsaka država določa lokalizacijske parametre, kot sta LCID in koda ISO, ki zagotavljajo pravilne jezikovne in regionalne nastavitve ter skladnost z mednarodnimi standardi.
 
+Do šifranta **Države** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+
+Za odpiranje seznama pojdite v razdelek **Upravljanje / Države** v naslednjih domenah:
+
+- **Logistika**
+- **Prodaja**
+- **Nabava**
+- 
 ## Shema
 
 | Polje | Opis |
@@ -12,14 +20,6 @@ Ta šifrant predstavlja države, ki se uporabljajo v digitalnih vsebinah sistema
 | **Aktiven** | Označuje, ali je država aktivna. Neaktivnih držav ni mogoče uporabiti za nove vnose, vendar ostanejo vidne v zgodovini. |
 
 ## Upravljanje
-
-Do šifranta **Države** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
-
-Za odpiranje seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
-
-- **Logistika**
-- **Prodaja**
-- **Nabava**
 
 ### Seznam držav
 

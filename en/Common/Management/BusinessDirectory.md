@@ -2,6 +2,14 @@
 
 The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.
 
+You can access the **Business directory** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+
+To open the list, go to **Management / Business directory** in one of the following domains:
+
+- **Customers**
+- **Logistics**
+- **Sales**
+- **Supply**
 
 ## Schema
 
@@ -31,15 +39,6 @@ The **Business directory** contains all companies and individuals your organizat
 | **Use partner currency on documents** | Checkbox defining whether the entity's [currency](Currencies.md) is used in documents. |
 
 ## Management
-
-You can access the **Business directory** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
-
-To open the list, go to the **Management** section of the following domains:
-
-- **Customers**
-- **Logistics**
-- **Sales**
-- **Supply**
 
 ### List of business directory entries
 
