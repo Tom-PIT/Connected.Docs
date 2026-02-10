@@ -6,7 +6,7 @@ Vrste transporta se uporabljajo v dokumentih logistike, prodaje, nabave in drugi
 Do šifranta **Vrsta transporta** lahko dostopate iz različnih domen prek [navigacije](../UI/Navigacija.md).  
 V vseh primerih gre za **iste deljene podatke**.
 
-Za dostop do seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
+Za dostop do seznama pojdite v razdelek **Upravljanje / Vrsta transporta** v naslednjih domenah:
 
 - **Logistika**
 - **Prodaja**

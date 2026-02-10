@@ -2,6 +2,15 @@
 
 **Poslovni imenik** vsebuje vsa podjetja in posameznike, s katerimi sodeluje vaša organizacija. To vključuje **kupce**, **dobavitelje**, **kooperante** ali **notranje kontakte**. Vsak vnos hrani pomembne podatke, kot so naslovi, davčni podatki, kontaktne osebe in plačilne nastavitve. To zagotavlja dosledno uporabo istih podatkov o partnerjih v prodajnih, nabavnih, logističnih in finančnih dokumentih.
 
+Do šifranta **Poslovni imenik** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+
+Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v naslednjih domenah:
+
+- **Kupci**
+- **Logistika**
+- **Prodaja**
+- **Nabava**
+
 ## Shema
 
 | Polje | Opis |
@@ -30,15 +39,6 @@
 | **Uporabi strankino valuto v dokumentih** | Potrditveno polje, ki določa, ali se v dokumentih uporablja [valuta](Valute.md) partnerja. |
 
 ## Upravljanje
-
-Do šifranta **Poslovni imenik** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
-
-Za odpiranje seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
-
-- **Kupci**
-- **Logistika**
-- **Prodaja**
-- **Nabava**
 
 ### Seznam vnosov v poslovnem imeniku
 

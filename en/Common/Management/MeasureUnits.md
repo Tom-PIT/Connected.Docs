@@ -10,6 +10,17 @@ Examples:
 > [!TIP]
 > For a full demonstration, see the **[Measure units](https://www.youtube.com/watch?v=8swl8Vex6y4)** video tutorial.
 
+You can access the **Measure units** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+
+To open the list, go to **Management / Measure units** in one of the following domains:
+
+- **Assets**
+- **Logistics**
+- **Maintenance**
+- **Production**
+- **Sales**
+- **Supply**
+
 ## Schema
 
 | Field | Description |
@@ -20,17 +31,6 @@ Examples:
 | **Active** | Indicates whether the measure unit is available for use in new documents. Inactive units cannot be selected in new entries, but remain visible in history. |
 
 ## Management
-
-You can access the **Measure units** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
-
-To open the list, go to the **Management** section of the following domains:
-
-- **Assets**
-- **Logistics**
-- **Maintenance**
-- **Production**
-- **Sales**
-- **Supply**
 
 ### List of measure units
 

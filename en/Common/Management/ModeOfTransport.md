@@ -4,7 +4,7 @@ This code list defines the **modes of transport** used across the system. Modes 
 
 You can access the **Mode of transport** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases, you are working with the same shared data.
 
-To open the list, go to the **Management** section of the following domains:
+To open the list, go to **Management / Mode of transport** in one of the following domains:
 
 - **Logistics**
 - **Sales**

@@ -1,7 +1,6 @@
 # Business units
 
-Business units belong to a specific **customer** or **vendor** and are managed inside the **Business directory**.  
-They represent physical locations, branches, or organizational units of the company, each with its own address details.
+Business units belong to a specific **customer** or **vendor** and are managed inside the **Business directory**. They represent physical locations, branches, or organizational units of the company, each with its own address details.
 
 ### Accessing business units
 
@@ -21,7 +20,7 @@ Business units appear as a tag under each Business directory entry. Click the ta
 
 ## List view
 
-The Business units list displays all units linked to the selected Business directory entry.
+The **Business units** list displays all units linked to the selected business directory entry.
 
 ![Business units list](../Images/BusinessUnitsList.png)
 

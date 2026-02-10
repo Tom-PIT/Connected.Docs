@@ -1,7 +1,6 @@
 # Poslovne enote
 
-**Poslovne enote** pripadajo določenemu **kupcu** ali **dobavitelju** in se upravljajo znotraj **Poslovnega imenika**.  
-Predstavljajo fizične lokacije, podružnice ali organizacijske enote podjetja, vsaka s svojimi naslovnimi podatki.
+**Poslovne enote** pripadajo določenemu **kupcu** ali **dobavitelju** in se upravljajo znotraj **Poslovnega imenika**.  Predstavljajo fizične lokacije, podružnice ali organizacijske enote podjetja, vsaka s svojimi naslovnimi podatki.
 
 ### Dostop do poslovnih enot
 

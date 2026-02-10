@@ -2,6 +2,15 @@
 
 This code list defines all **tax rates** used across the system. Tax rates determine the percentage of tax applied to products, materials, and services in business documents. Each entry includes a descriptive name and a numeric percentage, ensuring tax is applied consistently throughout the digital contents.
 
+
+You can access the **Tax rates** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+
+To open the list, go to the **Management** section of the following domains:
+
+- **Assets**
+- **Sales**
+- **Supply**
+
 ## Schema
 
 | Field | Description |
@@ -12,14 +21,6 @@ This code list defines all **tax rates** used across the system. Tax rates deter
 | **Ledger – Debit/Credit** | General ledger account selected from the [**Chart of accounts**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) that is debited/credited when a tax amount is posted using this tax rate. |
 
 ## Management
-
-You can access the **Tax rates** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
-
-To open the list, go to the **Management** section of the following domains:
-
-- **Assets**
-- **Sales**
-- **Supply**
 
 ### List of tax rates
 

@@ -2,6 +2,14 @@
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
+You can access the **Countries** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+
+To open the list, go to the **Management** section of the following domains:
+
+- **Logistics**
+- **Sales**
+- **Supply**
+
 ## Schema
 
 | Field | Description |
@@ -12,14 +20,6 @@ This code list represents the countries used across the digital contents of the 
 | **Active** | Indicates whether the country is active. Inactive countries cannot be used for new entries, but they remain visible in the history. |
 
 ## Management
-
-You can access the **Countries** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
-
-To open the list, go to the **Management** section of the following domains:
-
-- **Logistics**
-- **Sales**
-- **Supply**
 
 ### List of countries
 
