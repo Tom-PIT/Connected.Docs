@@ -29,5 +29,3 @@ Sistem preverja:
 - lastništvo in status serije/lota.
 
 Če katera koli validacija ni uspešna, sistem prikaže napako in poraba ni zabeležena.
-
----

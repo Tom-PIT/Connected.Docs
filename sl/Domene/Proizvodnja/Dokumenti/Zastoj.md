@@ -36,5 +36,3 @@ Zapisi zastojev se uporabljajo v več analitičnih pogledih:
 - [Zastoji organizacijskih enot](../Analiza/ZastojiOrganizacijskihEnot.md)
 
 Dosledna uporaba oznak izboljša natančnost kazalnikov.
-
----
