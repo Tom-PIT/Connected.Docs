@@ -38,9 +38,7 @@ Klik na vrstico odpre zapis v načinu urejanja.
 
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete obrazec za dodajanje nove vrste transporta.
 
-Obrazec vsebuje naslednja polja:
-- **Šifra**
-- **Opis**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da ustvarite zapis, ali **Prekliči**, da se vrnete na seznam brez shranjevanja.
 

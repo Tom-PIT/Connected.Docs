@@ -10,17 +10,6 @@ Primeri:
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Merske enote](https://www.youtube.com/watch?v=8swl8Vex6y4)**.
 
-## Shema
-
-| Polje | Opis |
-|------|------|
-| **Naziv** | Ime merske enote, uporabljeno v seznamih in dokumentih (npr. **kilogram** ali **meter**) (obvezno). |
-| **Kratica** | Kratka oznaka merske enote, prikazana po celotnem sistemu (npr. **kg** ali **m**) (obvezno). |
-| **Natančnost** | Privzeto število decimalnih mest za vrednosti v tej merski enoti (npr. **3** za **1,255** ali **1** za **2,5**). |
-| **Aktiven** | Označuje, ali je merska enota na voljo za uporabo v novih dokumentih. Neaktivne enote ni mogoče izbrati v novih vnosih, vendar ostanejo vidne v zgodovini. |
-
-## Upravljanje
-
 Do šifranta **Merske enote** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
 
 Za odpiranje seznama pojdite v razdelek **Upravljanje / Merske enote** v naslednjih domenah:
@@ -31,6 +20,17 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Merske enote** v nasledn
 - **Proizvodnja**
 - **Prodaja**
 - **Nabava**
+
+## Shema
+
+| Polje | Opis |
+|------|------|
+| **Naziv** | Ime merske enote, uporabljeno v seznamih in dokumentih (npr. **kilogram** ali **meter**) (obvezno). |
+| **Kratica** | Kratka oznaka merske enote, prikazana po celotnem sistemu (npr. **kg** ali **m**) (obvezno). |
+| **Natančnost** | Privzeto število decimalnih mest za vrednosti v tej merski enoti (npr. **3** za **1,255** ali **1** za **2,5**). |
+| **Aktiven** | Označuje, ali je merska enota na voljo za uporabo v novih dokumentih. Neaktivne enote ni mogoče izbrati v novih vnosih, vendar ostanejo vidne v zgodovini. |
+
+## Upravljanje
 
 ### Seznam merskih enot
 
@@ -50,11 +50,7 @@ Seznam prikazuje ime merske enote, okrajšavo in natančnost.
 
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo mersko enoto.
 
-Obrazec vključuje naslednja polja:
-- **Ime**
-- **Kratica**
-- **Natančnost**
-- **Aktiven**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje merske enote ali **Prekliči** za vrnitev na seznam.
 

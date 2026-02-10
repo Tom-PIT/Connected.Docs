@@ -43,8 +43,7 @@ Možnosti entitet:
 
 ### Urejanje
 
-Kliknite katerikoli zapis na seznamu, da odprete zaslon za urejanje.  
-Tam lahko spremenite entiteto, šifro ali besedilo.
+Kliknite katerikoli zapis na seznamu, da odprete zaslon za urejanje. Tam lahko spremenite **entiteto**, **šifro** ali **besedilo**.
 
 ### Brisanje
 

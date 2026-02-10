@@ -35,12 +35,7 @@ To add a new bank account, click on the [**action button**](../UI/ActionButton.m
 
 ![Add bank account](../Images/BankAccountsNew.png)
 
-Fill in the following fields:
-
-- **Bank** – Selected from the [**Banks**](Banks.md) code list  
-- **IBAN** – The international bank account number  
-- **Active** – Determines whether the account is available for use  
-- **Use mask** – Formats the IBAN for easier readability (optional)
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new account.
 

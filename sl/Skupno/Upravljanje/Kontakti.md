@@ -38,15 +38,7 @@ Za dodajanje novega kontakta kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md)
 
 ![Nov kontakt](../Images/ContactsNew.png "Nov kontakt")
 
-Izpolnite naslednja polja:
-
-- **Ime**  
-- **Priimek**  
-- **Naziv delovnega mesta** — izbran iz [**Nazivi delovnih mest**](NaziviDelovnihMest.md)  
-- **E-pošta**  
-- **Telefon** / **Mobilni telefon** / **Faks** (neobvezno)  
-- **Oznake** (neobvezno)  
-- **Aktiven**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite nov kontakt.
 

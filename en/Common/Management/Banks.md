@@ -40,10 +40,7 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 Click the [Action Button](../../Common/UI/ActionButton.md) to add a new bank.  
 
-Fill the required fields:
-- **Name**
-- **BIC**
-- **Country**
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 ![Banks – New](../Images/BanksNew.png "Add new bank")
 

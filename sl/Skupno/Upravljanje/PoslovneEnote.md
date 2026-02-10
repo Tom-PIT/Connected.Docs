@@ -34,13 +34,7 @@ Za dodajanje nove poslovne enote kliknite [**akcijski gumb**](../UI/AkcijskiGumb
 
 ![Dodaj poslovno enoto](../Images/BusinessUnitsNew.png)
 
-Izpolnite naslednja polja:
-
-- **Ime** – ime poslovne enote  
-- **Ulica** – naslov ulice  
-- **Država** – izbrana iz seznama [**Države**](../../Skupno/Upravljanje/Drzave.md)  
-- **Pošta** – izbrana iz seznama [**Poštne številke**](PostneStevilke.md)  
-- **Aktivna** – določa, ali se enota lahko uporablja  
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite novo poslovno enoto.
 

@@ -36,11 +36,7 @@ To add a new postal code, click on the [**action button**](../UI/ActionButton.md
 
 ![Add postal code](../Images/PostalCodesNew.png)
 
-Fill in the following fields:
-
-- **Number** – The postal code  
-- **Name** – The corresponding city or area  
-- **Active** – Determines whether the code can be used  
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new postal code.
 

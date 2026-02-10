@@ -41,14 +41,7 @@ Kliknite **akcijski gumb**, da odprete obrazec za dodajanje nove valute.
 
 ![Dodaj novo valuto](../Images/CurrenciesNew.png)
 
-Izpolnite obvezna polja:
-
-- **Ime**
-- **Šifra**
-- **Simbol**
-- **Pozicija simbola**
-- **LCID**
-- **Aktiven**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite novo valuto.
 

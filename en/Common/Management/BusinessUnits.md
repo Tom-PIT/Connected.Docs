@@ -34,13 +34,7 @@ To add a new business unit, click on the [**action button**](../UI/ActionButton.
 
 ![Add business unit](../Images/BusinessUnitsNew.png)
 
-Fill in the following fields:
-
-- **Name** – Business unit name  
-- **Street** – Street address  
-- **Country** – Selected from the [**Countries**](../../Common/Management/Countries.md) list  
-- **Postal code** – Selected from the country’s [**Postal codes**](PostalCodes.md) list  
-- **Active** – Determines whether the unit can be used  
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new business unit.
 

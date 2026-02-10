@@ -36,11 +36,7 @@ Za dodajanje nove poštne številke kliknite [**akcijski gumb**](../UI/AkcijskiG
 
 ![Dodaj poštno številko](../Images/PostalCodesNew.png)
 
-Izpolnite naslednja polja:
-
-- **Številka** – poštna številka  
-- **Ime** – mesto ali območje  
-- **Aktivna** – določa, ali je poštna številka na voljo  
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite novo poštno številko.
 

@@ -27,10 +27,7 @@ Za dodajanje novega naziva delovnega mesta kliknite [**akcijski gumb**](../../Sk
 
 ![Dodaj nov naziv delovnega mesta](../Images/JobTitlesNew.png "Dodaj nov naziv delovnega mesta")
 
-Izpolnite naslednja polja:
-
-- **Ime** – naziv delovnega mesta  
-- **Aktiven** – določa, ali je naziv mogoče uporabljati  
+Izpolnite **Ime** in nastavite **Aktiven** glede na to, ali želite, da je ta naziv delovnega mesta na voljo za izbiro pri ustvarjanju kontaktov. 
 
 Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
 

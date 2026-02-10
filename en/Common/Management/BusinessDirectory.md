@@ -86,7 +86,9 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ```
 ### New
 
-The **New** action opens the input form for creating a new entry. Fill in the required fields such as **Name**, **Code**, and **VAT ID**. Click **Add** to save the new record or **Cancel** to return to the list view without saving.
+The **New** action opens the input form for creating a new entry. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+
+Click **Add** to save the new record or **Cancel** to return to the list view without saving.
 
 ![New Business Directory Entry](../Images/NewBusinessDirectory.png "New Business Directory Entry")
 

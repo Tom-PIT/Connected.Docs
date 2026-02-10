@@ -36,9 +36,7 @@ Clicking on a row opens the record in edit mode.
 
 Click on the [action button](../UI/ActionButton.md) to open the form for creating a new transport mode.
 
-The form contains the following fields:
-- **Code**
-- **Description**
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to create the record or **Cancel** to return to the list without saving.
 
