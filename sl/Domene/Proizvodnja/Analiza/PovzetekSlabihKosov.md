@@ -43,5 +43,3 @@ Pod grafom je prikazan seznam vseh klasifikacij slabih kosov skupaj s pripadajo�
 Primeri klasifikacij temeljijo na šifrantih, definiranih v **Oznakah klasifikacije slabega kosa**.
 
 Izbira posamezne vrstice lahko prikaže dodatne podrobnosti, odvisno od konfiguracije sistema.
-
----

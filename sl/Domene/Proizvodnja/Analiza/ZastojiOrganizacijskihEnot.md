@@ -32,5 +32,3 @@ Zastoji znotraj posamezne organizacijske enote se lahko razširijo ali skrčijo 
 - Prikazani so samo zastoji, zabeleženi prek modula *Izvedba*.  
 - Z uporabo oznak je lažje prepoznati ponavljajoče se težave in podpreti analizo vzrokov.  
 - Trajanje zastojev se samodejno izračuna glede na čas začetka in konca.
-
----

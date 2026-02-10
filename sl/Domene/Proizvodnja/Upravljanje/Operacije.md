@@ -99,5 +99,3 @@ Do njih dostopate iz vnosa operacije:
 Operacije je **mogoče izbrisati** na strani za urejanje, vendar le, če:
 - Niso uporabljene kot nadrejene drugim operacijam  
 - Niso uporabljene v aktivnih proizvodnih nalogih  
-
----

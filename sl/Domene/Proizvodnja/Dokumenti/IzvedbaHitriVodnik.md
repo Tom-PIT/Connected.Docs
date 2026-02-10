@@ -114,5 +114,3 @@ Ko je proizvodnja zaključena:
 3. Pritisnite **Ustavi**, da zaključite operacijo.
 
 ![Kontrolniki zaključka izvedbe](../Images/ExecutionTopStop.png "Ustavitev operacije")
-
----

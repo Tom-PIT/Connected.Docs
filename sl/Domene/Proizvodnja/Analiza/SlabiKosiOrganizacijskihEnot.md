@@ -40,5 +40,3 @@ Pregled *Slabi kosi organizacijskih enot* se uporablja za:
 - analizo kakovosti proizvodnje po organizacijskih enotah
 - prepoznavanje enot z nadpovprečnim številom slabih kosov
 - podporo pri sprejemanju odločitev za izboljšanje procesov in kakovosti
-
----

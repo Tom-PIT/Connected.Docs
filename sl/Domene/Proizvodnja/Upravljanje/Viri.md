@@ -78,5 +78,3 @@ Z izbiro elementa v drevesu se prikažejo njegove podrobnosti in obrazec za urej
 Vir je mogoče izbrisati samo, če **ni uporabljen** v operacijah, procesih ali dokumentih (npr. proizvodnih ali vzdrževalnih nalogih).
 
 Brisanje elementa na strani za urejanje ga trajno odstrani.
-
----

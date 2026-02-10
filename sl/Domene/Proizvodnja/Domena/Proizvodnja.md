@@ -140,5 +140,3 @@ Domena Proizvodnja upravlja vse proizvodne aktivnosti – planiranje,
 izvajanje, sledenje in analizo. Zagotavlja strukturirane delovne tokove,
 natančne operativne podatke in popolno sledljivost od definicije procesa
 do končnega izdelka.
-
----

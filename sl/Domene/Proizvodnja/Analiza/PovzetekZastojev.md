@@ -57,5 +57,3 @@ V zgornjem primeru:
   - **Električna okvara** — **13 min 37 s**
   - **Okvara stroja** — **12 min 42 s**
 - graf in seznam prikazujeta enako razčlenitev po tipih zastojev (vključno s kumulativnim odstotkom)
-
----
