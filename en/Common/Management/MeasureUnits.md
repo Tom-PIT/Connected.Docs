@@ -46,6 +46,8 @@ The list displays each measure unit's name, abbreviation, and precision.
 
 ## Actions
 
+### Creating a new measure unit
+
 Click on the [**action button**](../UI/ActionButton.md) to add a new measure unit.
 
 The form includes the following fields:
@@ -58,7 +60,7 @@ After entering the required information, click **Add** to save the measure unit 
 
 ![Add measure unit](../Images/NewMeasureUnit.png "Add measure unit")
 
-## Editing
+### Editing a measure unit
 
 To edit an existing measure unit, click the unit's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
 
@@ -66,7 +68,7 @@ To edit an existing measure unit, click the unit's **Name** in the list. The int
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 
-## Deletion
+### Deletion
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

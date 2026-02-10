@@ -19,7 +19,9 @@ Seznam prikazuje vse nazive delovnih mest, definirane v sistemu.
 
 Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih ali neaktivnih nazivov.
 
-## Ustvarjanje novega naziva delovnega mesta
+## Dejanja
+
+### Ustvarjanje novega naziva delovnega mesta
 
 Za dodajanje novega naziva delovnega mesta kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Novo**.
 
@@ -32,14 +34,14 @@ Izpolnite naslednja polja:
 
 Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
 
-## Urejanje obstoječega naziva delovnega mesta
+### Urejanje obstoječega naziva delovnega mesta
 
 1. Odprite **Stranke → Upravljanje → Nazivi delovnih mest**.  
 2. Izberite naziv delovnega mesta s seznama.  
 3. Posodobite ime ali stanje aktivnosti.  
 4. Kliknite **Shrani**.
 
-## Brisanje
+### Brisanje
 
 Naziv delovnega mesta je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v obstoječih kontaktih.
 

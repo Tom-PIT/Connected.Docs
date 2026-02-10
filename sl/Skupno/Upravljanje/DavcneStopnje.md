@@ -35,6 +35,8 @@ Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem
 
 ## Dejanja
 
+### Dodaj novo davčno stopnjo
+
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
 
 Obrazec vključuje naslednja polja:
@@ -47,7 +49,7 @@ Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
 
 ![Dodaj novo davčno stopnjo](../Images/TaxRatesNew.png "Dodaj novo davčno stopnjo")
 
-### Glavna knjiga
+#### Glavna knjiga
 
 Razdelek **Glavna knjiga** določa, kateri konti glavne knjige se uporabijo za knjiženje davčnih zneskov, ko je ta davčna stopnja uporabljena v poslovnih dokumentih.
 
@@ -56,12 +58,12 @@ Polji **Debet** in **Kredit** omogočata izbor kontov iz šifranta **[Konti](../
 > [!NOTE]
 Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
-## Urejanje
+### Urejanje obstoječe davčne stopnje
 
 Za urejanje obstoječe davčne stopnje kliknite njeno **Ime** na seznamu.  
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisanje
+### Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

@@ -77,19 +77,19 @@ Click **Add** to create the record or **Cancel** to return to the list view with
 
 ![New Country](../Images/NewCountry.png "New Country")
 
-## Editing
+### Editing an existing country
 
 To edit an existing country, click the country's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
-### Postal codes
+#### Postal codes
 
 The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing you to maintain correct geographical and mailing data.  
 
 ![Editing Postal Codes](../Images/PostalCodesButton.png "Editing Postal Codes")
 
-## Deletion
+### Deletion
 
-Click **Delete** on the edit screen to open a confirmation dialog: 
+Click **Delete** in the edit screen to open a confirmation dialog:
 
 **Are you sure you want to delete this record?**  
 

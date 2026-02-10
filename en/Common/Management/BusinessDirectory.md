@@ -62,11 +62,11 @@ The **Type** field determines the tax status of the entity. The available values
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to display the available actions:
+Click on the [**action button**](../../Common/UI/ActionButton.md) to display the available actions:
 
-- Import by VIES  
-- Import  
-- New  
+- **Import by VIES** 
+- **Import**  
+- **New**  
 
 ### Import by VIES
 
@@ -106,13 +106,13 @@ This section allows you to define whether the business partner uses the **compan
 The **Menu** in the top-right corner provides the **Exporting** option, which exports all visible records into a CSV file, allowing further analysis or backup.
 
 
-## Editing
+### Editing a business directory entry
 
 To edit an existing record, click the entry's **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Editing Business Directory Entry](../Images/BusinessDirectoryEdit.png "Editing Business Directory Entry")
 
-## Deletion
+### Deletion
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

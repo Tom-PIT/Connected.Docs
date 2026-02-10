@@ -6,7 +6,7 @@ Vsak kontakt vključuje **naziv delovnega mesta**, izbran iz vnaprej definiraneg
 
 ### Dostop do kontaktov
 
-Kontakti so prikazani kot oznaka znotraj posameznega vnosa v Poslovnem imeniku:
+Kontakti so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje kontaktov, povezanih z izbranim partnerjem.
 
 ![Gumb kontakti](../Images/ContactsButton.png "Gumb kontakti")
 

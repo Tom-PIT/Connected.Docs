@@ -1,10 +1,10 @@
-﻿# Postal codes
+# Postal codes
 
 Postal codes belong to a specific **country** and are managed inside the [**Countries**](Countries.md) code list. They define the available postal areas used when entering addresses in the Business directory or logistics documents.
 
 ## Accessing postal codes
 
-Postal codes appear as a tag inside each Country entry:
+Postal codes appear as a tag under each Country entry. Click the tag to open the list of postal codes defined for that country.
 
 ![Postal codes button](../Images/PostalCodesButton.png "Postal codes button")
 
@@ -24,7 +24,13 @@ The Postal codes list displays all codes defined for the selected country.
 
 Use the **Enabled / Disabled** filters on the left to show active or inactive postal codes.
 
-## Creating a new postal code
+## Actions
+
+Click on the [action button](../UI/ActionButton.md) to display the following actions:
+- **Import**
+- **New**
+
+### Creating a new postal code
 
 To add a new postal code, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner and choose **New**.
 
@@ -38,11 +44,11 @@ Fill in the following fields:
 
 Click **Add** to save the new postal code.
 
-## Importing postal codes
+### Importing postal codes
 
 The action button also includes an **Import** option, allowing bulk upload of postal codes from a CSV file.  This is useful when setting up a new country with many postal code entries.
 
-## Editing an existing postal code
+### Editing an existing postal code
 
 1. Open the Country entry.  
 2. Click the **Postal codes** tag.  
@@ -50,7 +56,7 @@ The action button also includes an **Import** option, allowing bulk upload of po
 4. Update the Number, Name, or Active status.  
 5. Click **Save**.
 
-## Deletion
+### Deletion
 
 Postal codes can be deleted from the Edit page, but only if they are not referenced in other records (such as customer or vendor addresses).
 

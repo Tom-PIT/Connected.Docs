@@ -46,14 +46,14 @@ Kliknite **Dodaj**, da ustvarite zapis, ali **Prekliči**, da se vrnete na sezna
 
 ![Dodaj vrsto transporta](../Images/TransportModesNewSL.png "Dodaj vrsto transporta")
 
-## Urejanje
+### Urejanje obstoče vrste transporta
 
 Za urejanje obstoječe vrste transporta kliknite njeno **Šifro** v seznamu.  
 Zaslon se preklopi v način urejanja, kjer lahko posodobite vrednosti polj.
 
 Kliknite **Dodaj** za shranjevanje sprememb ali **Prekliči** za zavrnitev sprememb.
 
-## Brisanje
+### Brisanje
 
 Za brisanje vrste transporta uporabite možnost **Izbriši** v pogledu urejanja in potrdite brisanje v pogovornem oknu.
 

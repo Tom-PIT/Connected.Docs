@@ -27,6 +27,8 @@ Vsak zapis vključuje indikator stanja levo od imena:
 
 Na voljo je **iskalno polje** za hitro iskanje po kodi ali vsebini besedila.
 
+## Dejanja
+
 ### Dodaj novo prednastavljeno besedilo
 
 Kliknite **akcijski gumb**, da ustvarite novo prednastavljeno besedilo.
