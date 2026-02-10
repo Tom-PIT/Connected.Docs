@@ -2,6 +2,14 @@
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
+You can access the **Countries** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+
+To open the list, go to the **Management** section of the following domains:
+
+- **Logistics**
+- **Sales**
+- **Supply**
+
 ## Schema
 
 | Field | Description |
@@ -12,14 +20,6 @@ This code list represents the countries used across the digital contents of the 
 | **Active** | Indicates whether the country is active. Inactive countries cannot be used for new entries, but they remain visible in the history. |
 
 ## Management
-
-You can access the **Countries** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
-
-To open the list, go to the **Management** section of the following domains:
-
-- **Logistics**
-- **Sales**
-- **Supply**
 
 ### List of countries
 
@@ -66,30 +66,27 @@ Italy,1040,IT,false
 
 ### New
 
-Click **New** to open the input form for adding a new country.  
-The form includes the following fields:
-- **Name**
-- **LCID**
-- **ISO Alpha-2 code**
-- **Active**
+Select **New** to open the input form for adding a new country.  
+
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to create the record or **Cancel** to return to the list view without saving.
 
 ![New Country](../Images/NewCountry.png "New Country")
 
-## Editing
+### Editing an existing country
 
 To edit an existing country, click the country's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
-### Postal codes
+#### Postal codes
 
 The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing you to maintain correct geographical and mailing data.  
 
 ![Editing Postal Codes](../Images/PostalCodesButton.png "Editing Postal Codes")
 
-## Deletion
+### Deletion
 
-Click **Delete** on the edit screen to open a confirmation dialog: 
+Click **Delete** in the edit screen to open a confirmation dialog:
 
 **Are you sure you want to delete this record?**  
 

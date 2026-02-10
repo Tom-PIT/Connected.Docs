@@ -31,5 +31,3 @@ Vnosi slabih kosov se uporabljajo v več analitičnih pregledih:
 - [Slabi kosi po organizacijskih enotah](../Analiza/SlabiKosiOrganizacijskihEnot.md)
 
 Za smiselne kazalnike je pomembna dosledna uporaba oznak.
-
----

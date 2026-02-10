@@ -30,5 +30,3 @@ Aktivnost **Navodila** prikazuje članke iz baze znanja, ki so povezani s trenut
 
 Vsebina navodil za posamezno operacijo se upravlja v nastavitvah operacije.  
 Za posodobitev odprite [**Operacije**](../Upravljanje/Procesi.md) in v polju **Članek** povežite ustrezno vsebino iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md).
-
----

@@ -82,5 +82,3 @@ Ob potrditvi se zapis trajno odstrani iz seznama proizvodnih skladiščnih lokac
 > [!NOTE]
 > Brisanje zapisa odstrani povezavo samo iz konfiguracije Proizvodnje. Sklicano
 > skladišče in skladiščna lokacija ostaneta nespremenjena v domeni Logistika in se ne izbrišeta.
-
----

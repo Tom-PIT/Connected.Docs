@@ -147,5 +147,3 @@ Ko je proizvodnja zaključena:
 4. Kliknite **Ustavi**
 
 Operacija preide v stanje **Zaključeno**, in ko so zaključene vse operacije proizvodnega naloga, se **Proizvodni nalog** premakne v stanje **Zaključen**.
-
----

@@ -55,5 +55,3 @@ Prikaz napredka proizvodnje za trenutno operacijo:
 - **Odstotek dokončanosti**
 
 Ta del omogoča hiter vpogled v produktivnost in kakovost za izbrani stroj.
-
----

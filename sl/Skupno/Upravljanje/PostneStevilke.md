@@ -4,7 +4,7 @@
 
 ## Dostop do poštnih številk
 
-Poštne številke so prikazane kot oznaka znotraj posameznega vnosa države:
+Poštne številke so prikazane kot oznaka pod vsakim vnosom države. Kliknite to oznako, da odprete vmesnik za upravljanje poštnih številk, povezanih z izbrano državo.
 
 ![Gumb poštne številke](../Images/PostalCodesButton.png "Gumb poštne številke")
 
@@ -24,25 +24,27 @@ Seznam poštnih številk prikazuje vse šifre, definirane za izbrano državo.
 
 Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih ali neaktivnih poštnih številk.
 
-## Ustvarjanje nove poštne številke
+## Dejanja
+
+Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
+- **Uvoz**
+- **Nov**
+
+### Ustvarjanje nove poštne številke
 
 Za dodajanje nove poštne številke kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov**.
 
 ![Dodaj poštno številko](../Images/PostalCodesNew.png)
 
-Izpolnite naslednja polja:
-
-- **Številka** – poštna številka  
-- **Ime** – mesto ali območje  
-- **Aktivna** – določa, ali je poštna številka na voljo  
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite novo poštno številko.
 
-## Uvoz poštnih številk
+### Ustvarjanje nove poštne številke
 
 Akcijski gumb vključuje tudi možnost **Uvoz**, ki omogoča množični uvoz poštnih številk iz CSV datoteke. To je uporabno pri nastavitvi nove države z večjim številom poštnih številk.
 
-## Urejanje obstoječe poštne številke
+### Urejanje obstoječe poštne številke
 
 1. Odprite vnos države.  
 2. Kliknite oznako **Poštne številke**.  
@@ -50,7 +52,7 @@ Akcijski gumb vključuje tudi možnost **Uvoz**, ki omogoča množični uvoz po�
 4. Posodobite številko, ime ali stanje aktivnosti.  
 5. Kliknite **Shrani**.
 
-## Brisanje
+### Brisanje
 
 Poštno številko je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljena v drugih zapisih (npr. naslovih kupcev ali dobaviteljev).
 

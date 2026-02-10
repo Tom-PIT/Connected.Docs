@@ -63,5 +63,3 @@ Stran **Zahteve** planerjem omogoča:
 - primerjavo **zahtevanih in razpoložljivih** količin  
 - vpogled v **operacije**, ki povzročajo porabo  
 - hitro ustvarjanje **nabavnih nalogov**, kadar zaloga ni zadostna
-
----

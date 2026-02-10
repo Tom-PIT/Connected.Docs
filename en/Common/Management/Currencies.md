@@ -36,18 +36,13 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 ## Actions
 
+### Adding a new currency
+
 Click the **action button** to open the form for adding a new currency.
 
 ![Add new currency](../Images/CurrenciesNew.png)
 
-Fill in the required fields:
-
-- **Name**
-- **Code**
-- **Symbol**
-- **Symbol position**
-- **LCID** 
-- **Active**
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new currency.
 

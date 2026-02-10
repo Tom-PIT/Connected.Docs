@@ -1,11 +1,10 @@
 # Poslovne enote
 
-**Poslovne enote** pripadajo določenemu **kupcu** ali **dobavitelju** in se upravljajo znotraj **Poslovnega imenika**.  
-Predstavljajo fizične lokacije, podružnice ali organizacijske enote podjetja, vsaka s svojimi naslovnimi podatki.
+**Poslovne enote** pripadajo določenemu **kupcu** ali **dobavitelju** in se upravljajo znotraj **Poslovnega imenika**.  Predstavljajo fizične lokacije, podružnice ali organizacijske enote podjetja, vsaka s svojimi naslovnimi podatki.
 
 ### Dostop do poslovnih enot
 
-Poslovne enote so prikazane kot oznaka znotraj posameznega vnosa v Poslovnem imeniku:
+Poslovne enote so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje poslovnih enot, povezanih z izbranim partnerjem.
 
 ![Oznaka poslovnih enot](../Images/BusinessUnitsButton.png "Oznaka poslovnih enot")
 
@@ -27,23 +26,19 @@ Seznam poslovnih enot prikazuje vse enote, povezane z izbranim vnosom v Poslovne
 
 Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih ali neaktivnih enot.
 
-## Ustvarjanje nove poslovne enote
+## Dejanja
+
+### Ustvarjanje nove poslovne enote
 
 Za dodajanje nove poslovne enote kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 
 ![Dodaj poslovno enoto](../Images/BusinessUnitsNew.png)
 
-Izpolnite naslednja polja:
-
-- **Ime** – ime poslovne enote  
-- **Ulica** – naslov ulice  
-- **Država** – izbrana iz seznama [**Države**](../../Skupno/Upravljanje/Drzave.md)  
-- **Pošta** – izbrana iz seznama [**Poštne številke**](PostneStevilke.md)  
-- **Aktivna** – določa, ali se enota lahko uporablja  
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite novo poslovno enoto.
 
-## Urejanje obstoječe poslovne enote
+### Urejanje obstoče poslovne enote
 
 1. Odprite vnos v Poslovnem imeniku.  
 2. Kliknite oznako **Poslovne enote**.  
@@ -51,7 +46,7 @@ Kliknite **Dodaj**, da shranite novo poslovno enoto.
 4. Posodobite ime, naslov, državo, poštno številko ali stanje aktivnosti.  
 5. Kliknite **Shrani**.
 
-## Brisanje
+### Brisanje
 
 Poslovno enoto je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljena v drugih zapisih (npr. naslovih za dostavo ali dokumentih).
 

@@ -6,6 +6,26 @@ Kontni plan je **osrednji konfiguracijski element** sistema. Nanjo se sklicujejo
 
 Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Konti** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
 
+## Evropski računovodski kontekst
+
+V večini držav EU kontni plan sledi **strukturiranemu in hierarhičnemu modelu**, ki je pogosto definiran ali močno vplivan z nacionalnimi računovodskimi predpisi.
+
+To običajno vključuje:
+ - Razrede kontov (npr. 1–9), ki predstavljajo visokonivojske finančne kategorije
+ - Sintetične (zbirne) konte, uporabljene za strukturo in poročanje
+ - Analitične konte, uporabljene za operativna knjiženja
+
+Sistem je zasnovan tako, da podpira ta model in hkrati ostaja prilagodljiv za razširitve specifične za podjetje.
+
+> [!NOTE]
+> Čeprav je hierarhični model kontnega plana s sintetičnimi/analitičnimi konti običajen v večini držav EU, sistem podpira tudi nestandardne ali podjetniško definirane kontne plane. To vključuje enostavnejše strukture brez vnaprej definiranih razredov kontov ali nadrejenih sintetičnih kontov, ki so pogostejše izven EU ali na skupinski ravni.
+
+### Nacionalne različice
+
+Čeprav je skupna struktura kontnih planov v EU podobna, se lahko specifično oštevilčenje, poimenovanje in obvezne strukture med državami razlikujejo.
+
+Sistem ne vsiljuje enega samega nacionalnega kontnega plana, temveč podpira uvoz in razširitev predlog, specifičnih za posamezno državo.
+
 ## Shema
 
 | Polje | Opis |
@@ -14,7 +34,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravlja
 | **Ime** | Opisno ime konta, ki jasno določa njegov namen (obvezno). |
 | **Tip knjiženja** | Določa, ali in kako je dovoljeno knjiženje na konto. |
 | **Tip konta** | Določa operativna pravila vezave konta (npr. vezava na stroškovno mesto ali partnerja) (obvezno). |
-| **Nadrejeni konto** | Izbirni nadrejeni konto, ki se uporablja za gradnjo hierarhičnega kontnega plana. |
+| **Nadrejeni konto** | Določa hierarhični položaj konta v kontnem planu. V EU strukturah se analitični konti običajno ustvarijo pod vnaprej definiranimi sintetičnimi nadrejenimi konti. |
 | **Oznake** | Oznake za filtriranje, poročanje ali integracije. |
 
 ### Tip knjiženja
@@ -36,7 +56,10 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravlja
 - **Brez vezave** – Konto se uporablja samostojno, brez obveznih povezav.
 - **Vezava na stroškovno mesto** – Vsako knjiženje mora vsebovati stroškovno mesto.
 - **Vezava na klienta** – Vsako knjiženje mora vsebovati poslovnega partnerja.
-- **Sintetični** – Sistemsko izračunan konto, ki ni namenjen ročnemu knjiženju.
+- **Sintetični** – Strukturni konto, uporabljen za združevanje in poročanje. Sintetični konti so tipično definirani z nacionalnimi računovodskimi okviri in ne dovoljujejo neposrednih knjiženj.
+
+> [!NOTE]
+> Operativna knjiženja se vedno izvajajo na analitičnih kontih, ki so definirani kot podrejeni sintetičnim kontom.
 
 ## Seznam
 
@@ -50,7 +73,7 @@ Vsaka vrstica prikazuje:
 
 Nadrejene konte je mogoče razširiti za prikaz podrejenih kontov. Seznam je mogoče iskati z iskalnim poljem v zgornjem desnem kotu.
 
-![Seznam kontov](../../Images/ChartOfAccountsList.png "Seznam kontov")
+![Seznam kontov](../../Images/ChartOfAccountsListV2.png "Seznam kontov")
 
 ## Dejanja
 

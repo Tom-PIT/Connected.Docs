@@ -6,7 +6,7 @@ Vrste transporta se uporabljajo v dokumentih logistike, prodaje, nabave in drugi
 Do šifranta **Vrsta transporta** lahko dostopate iz različnih domen prek [navigacije](../UI/Navigacija.md).  
 V vseh primerih gre za **iste deljene podatke**.
 
-Za dostop do seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
+Za dostop do seznama pojdite v razdelek **Upravljanje / Vrsta transporta** v naslednjih domenah:
 
 - **Logistika**
 - **Prodaja**
@@ -38,22 +38,20 @@ Klik na vrstico odpre zapis v načinu urejanja.
 
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete obrazec za dodajanje nove vrste transporta.
 
-Obrazec vsebuje naslednja polja:
-- **Šifra**
-- **Opis**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da ustvarite zapis, ali **Prekliči**, da se vrnete na seznam brez shranjevanja.
 
 ![Dodaj vrsto transporta](../Images/TransportModesNewSL.png "Dodaj vrsto transporta")
 
-## Urejanje
+### Urejanje obstoče vrste transporta
 
 Za urejanje obstoječe vrste transporta kliknite njeno **Šifro** v seznamu.  
 Zaslon se preklopi v način urejanja, kjer lahko posodobite vrednosti polj.
 
 Kliknite **Dodaj** za shranjevanje sprememb ali **Prekliči** za zavrnitev sprememb.
 
-## Brisanje
+### Brisanje
 
 Za brisanje vrste transporta uporabite možnost **Izbriši** v pogledu urejanja in potrdite brisanje v pogovornem oknu.
 

@@ -8,7 +8,7 @@ To access this page, go to **Customer Support / Management / Job titles** in the
 
 | Field | Description |
 |-------|-------------|
-| **Name** | The job title or role (e.g., *Account Manager*, *Director*). |
+| **Name** | The job title or role (e.g., *Account Manager*, *Director*) (required). |
 | **Active** | Indicates whether the job title is available for selection when creating contacts. |
 
 ## List view
@@ -19,27 +19,26 @@ The list displays all job titles defined in the system.
 
 Use the **Enabled / Disabled** filters on the left to show active or inactive titles.
 
-## Creating a new job title
+## Actions
+
+### Creating a new job title
 
 To add a new job title, click on the [**action button**](../../Common/UI/ActionButton.md) in the bottom-right corner and select **New**.
 
 ![Add new job title](../Images/JobTitlesNew.png)
 
-Fill in the following fields:
-
-- **Name** – The job title  
-- **Active** – Determines whether the title can be used  
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new job title.
 
-## Editing an existing job title
+### Editing an existing job title
 
 1. Open **Customer Support → Management → Job titles**.  
 2. Select a job title from the list.  
 3. Update the name or activity status.  
 4. Click **Save**.
 
-## Deletion
+### Deletion
 
 A job title can be deleted from the Edit page, but only if it is not referenced in existing contacts.
 

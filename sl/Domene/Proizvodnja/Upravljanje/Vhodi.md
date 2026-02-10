@@ -54,5 +54,3 @@ Za urejanje obstoječega vhoda:
 ## Brisanje
 
 Vhod lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi se vhod odstrani iz operacije.
-
----

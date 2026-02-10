@@ -6,16 +6,18 @@ Open **Downtime** from the [**Execution**](Execution.md) screen via the activity
 
 ## Recording a downtime
 
-![Downtime](../Images/ExecutionDowntimePage.png "Record downtime")
+![Downtime](../Images/ExecutionDowntimePageV2.png "Record downtime")
 
 1. Open the **Downtime** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).  
 2. Click **Start** to begin tracking the interruption.  
 3. Click **Stop** when the interruption ends. 
 4. Click on a downtime record to: 
-    1. Choose a reason using **Downtime tags** — see [Downtime tags](../Management/DowntimeTags.md).  
+    1. Choose a reason using [**Downtime tags**](../Management/DowntimeTags.md).  
     2. Adjust start/end times if needed.  
     3. Add any relevant equipment affected by the downtime (optional).
-5. Save.
+5. Click **Save**.
+
+Click the **Report malfunction** button to create a Malfunction report — see [**Reported malfunctions**](../../Maintenance/Documents/ReportedMalfunctions.md).
 
 Saved downtimes are linked to the production order and operation and appear in the execution overview.
 

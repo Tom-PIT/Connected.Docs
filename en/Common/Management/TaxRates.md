@@ -2,6 +2,15 @@
 
 This code list defines all **tax rates** used across the system. Tax rates determine the percentage of tax applied to products, materials, and services in business documents. Each entry includes a descriptive name and a numeric percentage, ensuring tax is applied consistently throughout the digital contents.
 
+
+You can access the **Tax rates** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+
+To open the list, go to the **Management** section of the following domains:
+
+- **Assets**
+- **Sales**
+- **Supply**
+
 ## Schema
 
 | Field | Description |
@@ -12,14 +21,6 @@ This code list defines all **tax rates** used across the system. Tax rates deter
 | **Ledger – Debit/Credit** | General ledger account selected from the [**Chart of accounts**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) that is debited/credited when a tax amount is posted using this tax rate. |
 
 ## Management
-
-You can access the **Tax rates** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
-
-To open the list, go to the **Management** section of the following domains:
-
-- **Assets**
-- **Sales**
-- **Supply**
 
 ### List of tax rates
 
@@ -35,6 +36,8 @@ The list displays each tax rate's name and the applicable percentage. A search f
 
 ## Actions
 
+### Adding a new tax rate
+
 Click on the [**action button**](../UI/ActionButton.md) to add a new tax rate.
 
 The form includes the following fields:
@@ -47,7 +50,7 @@ After entering the required information, click **Add** to save the tax rate or *
 
 ![Add new tax rate](../Images/TaxRatesNew.png "Add new tax rate")
 
-### Ledger
+#### Ledger
 
 The **Ledger** section defines which general ledger accounts are used to post tax amounts when this tax rate is applied in business documents.
 
@@ -56,13 +59,13 @@ The **Debit** and **Credit** fields allow selection of accounts from the [**Char
 > [!NOTE]
 The ledger setup is required for accurate tax accounting, reporting, and regulatory compliance.
 
-## Editing
+### Editing an existing tax rate
 
 To edit an existing tax rate, click the tax rate's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 
-## Deletion
+### Deletion
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

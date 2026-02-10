@@ -71,5 +71,3 @@ Za urejanje obstoječe kontrolne liste:
 ## Brisanje
 
 Kontrolno listo lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi je kontrolna lista trajno odstranjena iz sistema.
-
----
