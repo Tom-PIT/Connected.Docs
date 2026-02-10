@@ -50,11 +50,7 @@ The list displays each measure unit's name, abbreviation, and precision.
 
 Click on the [**action button**](../UI/ActionButton.md) to add a new measure unit.
 
-The form includes the following fields:
-- **Name**
-- **Abbreviation**
-- **Precision**
-- **Active**
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 After entering the required information, click **Add** to save the measure unit or **Cancel** to return to the list view.
 

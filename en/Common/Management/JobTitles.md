@@ -8,7 +8,7 @@ To access this page, go to **Customer Support / Management / Job titles** in the
 
 | Field | Description |
 |-------|-------------|
-| **Name** | The job title or role (e.g., *Account Manager*, *Director*). |
+| **Name** | The job title or role (e.g., *Account Manager*, *Director*) (required). |
 | **Active** | Indicates whether the job title is available for selection when creating contacts. |
 
 ## List view
@@ -27,10 +27,7 @@ To add a new job title, click on the [**action button**](../../Common/UI/ActionB
 
 ![Add new job title](../Images/JobTitlesNew.png)
 
-Fill in the following fields:
-
-- **Name** – The job title  
-- **Active** – Determines whether the title can be used  
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new job title.
 

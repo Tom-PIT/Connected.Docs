@@ -66,12 +66,9 @@ Italy,1040,IT,false
 
 ### New
 
-Click **New** to open the input form for adding a new country.  
-The form includes the following fields:
-- **Name**
-- **LCID**
-- **ISO Alpha-2 code**
-- **Active**
+Select **New** to open the input form for adding a new country.  
+
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to create the record or **Cancel** to return to the list view without saving.
 

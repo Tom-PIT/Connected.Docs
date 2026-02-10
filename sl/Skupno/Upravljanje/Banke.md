@@ -39,10 +39,7 @@ Za hitro filtriranje bank po kodi ali imenu lahko uporabite **iskalno vrstico**.
 
 Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove banke.
 
-Izpolnite obvezna polja:
-- **Ime**
-- **BIC**
-- **Država**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Banke – nova](../Images/BanksNew.png "Dodaj novo banko")
 

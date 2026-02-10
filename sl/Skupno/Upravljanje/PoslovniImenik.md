@@ -91,7 +91,11 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ```
 ### Nov
 
-Dejanje **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa. Izpolnite obvezna polja, kot so **Ime**, **Koda** in **ID za DDV**. Kliknite **Dodaj** za shranjevanje novega zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
+Dejanje **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa. 
+
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+
+Kliknite **Dodaj** za shranjevanje novega zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
 
 ![Nov vnos v poslovni imenik](../Images/NewBusinessDirectory.png "Nov vnos v poslovni imenik")
 

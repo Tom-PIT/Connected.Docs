@@ -39,11 +39,7 @@ Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem
 
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
 
-Obrazec vključuje naslednja polja:
-- **Naziv**
-- **Davčna stopnja (%)**
-- **Aktivna**
-- **Glavna knjiga**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
 

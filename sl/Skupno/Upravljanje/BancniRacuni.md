@@ -35,12 +35,7 @@ Za dodajanje novega bančnega računa kliknite [**akcijski gumb**](../UI/Akcijsk
 
 ![Dodaj bančni račun](../Images/BankAccountsNew.png)
 
-Izpolnite naslednja polja:
-
-- **Banka** – izbrana iz šifranta [**Banke**](Banke.md)  
-- **IBAN** – mednarodna številka bančnega računa  
-- **Aktiven** – določa, ali je račun na voljo za uporabo  
-- **Uporabljaj IBAN masko** – oblikuje IBAN za lažjo berljivost (neobvezno)
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite nov račun.
 

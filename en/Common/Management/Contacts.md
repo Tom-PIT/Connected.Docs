@@ -41,15 +41,7 @@ To add a new contact, click on the [**action button**](../UI/ActionButton.md) in
 
 ![New contact](../Images/ContactsNew.png "New contact")
 
-Fill in the following fields:
-
-- **First name**  
-- **Last name**  
-- **Job title** — selected from [**Job titles**](JobTitles.md)  
-- **E-mail**  
-- **Phone** / **Mobile phone** / **Fax** (optional)  
-- **Tags** (optional)  
-- **Active**
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new contact.
 

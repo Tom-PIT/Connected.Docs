@@ -66,11 +66,8 @@ Italy,1040,IT,false
 ### Ustvarjanje nove države
 
 Kliknite **Novo**, da odprete vnosni obrazec za dodajanje nove države.  
-Obrazec vključuje naslednja polja:
-- **Ime**
-- **LCID**
-- **ISO šifra**
-- **Aktiven**
+
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj** za ustvarjanje zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
 

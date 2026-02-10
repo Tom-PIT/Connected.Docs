@@ -32,10 +32,7 @@ The list can be searched using the search field in the top-right corner.
 
 Click the [**action button**](../../Common/UI/ActionButton.md) to create a new delivery term.
 
-The creation form allows you to define:
-- The delivery term **code**
-- A **description**
-- An optional **location to be indicated**, used for terms that require specifying a delivery place
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 > [!NOTE]
 > Make sure to use standard Incoterms® codes and descriptions when applicable, to ensure clarity and consistency in international trade.
