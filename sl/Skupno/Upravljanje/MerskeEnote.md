@@ -46,6 +46,8 @@ Seznam prikazuje ime merske enote, okrajšavo in natančnost.
 
 ## Dejanja
 
+### Ustvarjanje nove merske enote
+
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo mersko enoto.
 
 Obrazec vključuje naslednja polja:
@@ -58,7 +60,7 @@ Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje merske enote ali
 
 ![Dodaj mersko enoto](../Images/NewMeasureUnit.png "Dodaj mersko enoto")
 
-## Urejanje
+### Urejanje merske enote
 
 Za urejanje obstoječe merske enote kliknite njeno **Ime** na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe.
 
@@ -66,7 +68,7 @@ Za urejanje obstoječe merske enote kliknite njeno **Ime** na seznamu. Vmesnik s
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisanje
+### Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

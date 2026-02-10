@@ -1,4 +1,4 @@
-﻿# Bank accounts
+# Bank accounts
 
 Bank accounts belong to a specific **customer** or **vendor** and are managed inside the [**Business directory**](BusinessDirectory.md). They define the financial account information used later in documents such as issued invoices or payments. 
 
@@ -6,7 +6,7 @@ Each account is linked to a **Bank**, selected from the predefined [**Banks**](B
 
 ### Accessing bank accounts
 
-Bank accounts appear as a tag inside each Business directory entry:
+Bank accounts appear as a tag under each Business directory entry. Click the tag to open the list of bank accounts associated with that company or individual.
 
 ![Bank accounts tag](../Images/BankAccountsButton.png)
 
@@ -27,7 +27,9 @@ The Bank accounts list displays all accounts linked to the selected Business dir
 
 Use the filters on the left (Enabled / Disabled) to show only active or inactive accounts.
 
-## Creating a new bank account
+## Actions
+
+### Creating a new bank account
 
 To add a new bank account, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner.
 
@@ -42,7 +44,7 @@ Fill in the following fields:
 
 Click **Add** to save the new account.
 
-## Editing an existing account
+### Editing an existing account
 
 1. Open the Business directory entry.  
 2. Click the **Bank accounts** tag.  
@@ -50,7 +52,7 @@ Click **Add** to save the new account.
 4. Update the IBAN, activity status, or mask option.  
 5. Click **Save**.
 
-## Deletion
+### Deletion
 
 A bank account can be deleted in the Edit page, but only if it is not referenced in other documents (e.g., issued invoices or payments).
 

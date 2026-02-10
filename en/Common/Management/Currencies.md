@@ -36,6 +36,8 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 ## Actions
 
+### Adding a new currency
+
 Click the **action button** to open the form for adding a new currency.
 
 ![Add new currency](../Images/CurrenciesNew.png)

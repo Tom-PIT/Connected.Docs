@@ -63,7 +63,7 @@ Austria,3079,AT,true
 Italy,1040,IT,false
 ```
 
-### Novo
+### Ustvarjanje nove države
 
 Kliknite **Novo**, da odprete vnosni obrazec za dodajanje nove države.  
 Obrazec vključuje naslednja polja:
@@ -76,7 +76,7 @@ Kliknite **Dodaj** za ustvarjanje zapisa ali **Prekliči** za vrnitev na seznam 
 
 ![Nova država](../Images/NewCountry.png "Nova država")
 
-## Urejanje
+### Urejanje obstoječega države
 
 Za urejanje obstoječega zapisa kliknite **Ime** države na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
@@ -86,7 +86,7 @@ Oznaka [**Poštne številke**](PostneStevilke.md) odpre vmesnik za upravljanje p
 
 ![Urejanje poštnih številk](../Images/PostalCodesButton.png "Urejanje poštnih številk")
 
-## Brisanje
+### Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

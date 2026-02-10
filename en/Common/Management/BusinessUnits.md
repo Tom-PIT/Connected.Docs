@@ -5,7 +5,7 @@ They represent physical locations, branches, or organizational units of the comp
 
 ### Accessing business units
 
-Business units appear as a tag inside each Business directory entry:
+Business units appear as a tag under each Business directory entry. Click the tag to open the list of business units associated with that company or individual.
 
 ![Business units button](../Images/BusinessUnitsButton.png "Business units button")
 
@@ -27,7 +27,9 @@ The Business units list displays all units linked to the selected Business direc
 
 Use the **Enabled / Disabled** filters on the left to show active or inactive units.
 
-## Creating a new business unit
+## Actions
+
+### Creating a new business unit
 
 To add a new business unit, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner.
 
@@ -43,7 +45,7 @@ Fill in the following fields:
 
 Click **Add** to save the new business unit.
 
-## Editing an existing business unit
+### Editing an existing business unit
 
 1. Open the Business directory entry.  
 2. Click the **Business units** tag.  
@@ -51,7 +53,7 @@ Click **Add** to save the new business unit.
 4. Update the name, address, country, postal code, or activity status.  
 5. Click **Save**.
 
-## Deletion
+### Deletion
 
 A business unit can be deleted from the Edit page, but only if it is not referenced in other records (such as delivery addresses or documents).
 

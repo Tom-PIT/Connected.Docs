@@ -59,13 +59,18 @@ Polje **Vrsta** določa davčni status entitete. Razpoložljive vrednosti so:
 - **Ni zevezanec za DDV**
 - **Končni potrošnik**
 
+### Meni
+
+**Meni** v zgornjem desnem kotu ponuja možnost **Izvoz**, ki izvozi vse vidne zapise v datoteko CSV za nadaljnjo analizo ali varnostno kopijo.
+
+
 ## Dejanja
 
-Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
+Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
 
-- Uvoz prek VIES  
-- Uvoz  
-- Nov
+- **Uvoz prek VIES**  
+- **Uvoz**  
+- **Nov**
 
 ### Uvoz prek VIES
 
@@ -100,17 +105,13 @@ Ta razdelek omogoča določitev, ali poslovni partner v dokumentih uporablja **v
 
 ![Razširljivi razdelki poslovnega imenika](../Images/BusinessDirectoryCollapsibleOptions.png "Razširljivi razdelki poslovnega imenika")
 
-## Meni
-
-**Meni** v zgornjem desnem kotu ponuja možnost **Izvoz**, ki izvozi vse vidne zapise v datoteko CSV za nadaljnjo analizo ali varnostno kopijo.
-
-## Urejanje
+### Urejanje obstoječega vnosa
 
 Za urejanje obstoječega zapisa kliknite **Ime** vnosa na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe podatke za spremembe. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
 ![Urejanje vnosa v poslovnem imeniku](../Images/BusinessDirectoryEdit.png "Urejanje vnosa v poslovnem imeniku")
 
-## Brisanje
+### Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

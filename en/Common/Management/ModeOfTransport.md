@@ -32,7 +32,7 @@ Clicking on a row opens the record in edit mode.
 
 ## Actions
 
-### New
+### Creating a new transport mode
 
 Click on the [action button](../UI/ActionButton.md) to open the form for creating a new transport mode.
 
@@ -44,13 +44,13 @@ Click **Add** to create the record or **Cancel** to return to the list without s
 
 ![New mode of transport](../Images/TransportModesNew.png "New mode of transport")
 
-## Editing
+### Editing a transport mode
 
 To edit an existing transport mode, click its **Code** in the list. The screen switches to edit mode, allowing you to update the values.
 
 Click **Save** to apply the changes or **Cancel** to discard them.
 
-## Deletion
+### Deletion
 
 Click **Delete** on the edit screen to remove a transport mode and confirm the deletion in the dialog.
 > [!NOTE]

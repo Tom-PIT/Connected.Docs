@@ -35,6 +35,8 @@ The list displays each tax rate's name and the applicable percentage. A search f
 
 ## Actions
 
+### Adding a new tax rate
+
 Click on the [**action button**](../UI/ActionButton.md) to add a new tax rate.
 
 The form includes the following fields:
@@ -47,7 +49,7 @@ After entering the required information, click **Add** to save the tax rate or *
 
 ![Add new tax rate](../Images/TaxRatesNew.png "Add new tax rate")
 
-### Ledger
+#### Ledger
 
 The **Ledger** section defines which general ledger accounts are used to post tax amounts when this tax rate is applied in business documents.
 
@@ -56,13 +58,13 @@ The **Debit** and **Credit** fields allow selection of accounts from the [**Char
 > [!NOTE]
 The ledger setup is required for accurate tax accounting, reporting, and regulatory compliance.
 
-## Editing
+### Editing an existing tax rate
 
 To edit an existing tax rate, click the tax rate's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 
-## Deletion
+### Deletion
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 
