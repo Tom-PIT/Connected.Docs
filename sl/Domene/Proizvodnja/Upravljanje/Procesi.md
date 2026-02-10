@@ -121,6 +121,5 @@ Gumb **[Kvaliteta](KvalitetaKontrolneListe.md)** odpre konfiguracijsko stran za 
 ## Brisanje
 
 Proces je mogoče izbrisati samo, če **ni uporabljen v dokumentih** (npr. proizvodni ali vzdrževalni nalogi) in **ni referenciran v drugih procesih**.  
-Če je brisanje dovoljeno, je možnost **Izbriši** na voljo na strani za urejanje procesa.
 
----
+Če je brisanje dovoljeno, je možnost **Izbriši** na voljo na strani za urejanje procesa.
