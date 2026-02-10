@@ -27,6 +27,8 @@ Each record includes a status indicator to the left of its name:
 
 A **Search** bar is available to quickly find records by code or text content.
 
+## Actions
+
 ### Add new predefined text
 
 Click the **action button** to create a new predefined text.

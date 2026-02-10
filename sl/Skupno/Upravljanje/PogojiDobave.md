@@ -34,10 +34,7 @@ Seznam je mogoče preiskovati z iskalnim poljem v zgornjem desnem kotu.
 
 Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov pogoj dobave.
 
-Obrazec za ustvarjanje omogoča določitev:
-- **Šifre** pogoja dobave
-- **Opisa**
-- neobveznega polja **Navedena lokacija**, ki se uporablja pri pogojih, kjer je treba navesti kraj dobave
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 > [!NOTE]
 > Kadar je to mogoče, uporabljajte standardne **Incoterms®** šifre in opise, da zagotovite jasnost in doslednost v mednarodnem poslovanju.

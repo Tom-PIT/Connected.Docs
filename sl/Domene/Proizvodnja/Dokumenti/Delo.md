@@ -43,5 +43,3 @@ Zabeležena dela se prikažejo v seznamu pod obrazcem.
 
 > [!NOTE]
 > Gumb **Ustavi** znotraj strani **Delo** zaključi samo beleženje časa dela; ne zaključi pa [**izvedbe**](Izvedba.md).
-
----

@@ -102,5 +102,3 @@ Kliknite **Izbriši** na obrazcu za urejanje, da se odpre potrditveno okno:
 **Ali ste prepričani, da želite izbrisati ta zapis?**
 
 Ob potrditvi je zapis trajno odstranjen iz seznama organizacijskih enot; podatki, ki se nanj sklicujejo v drugih domenah, niso spremenjeni.
-
----

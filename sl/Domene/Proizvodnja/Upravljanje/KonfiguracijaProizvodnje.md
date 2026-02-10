@@ -31,5 +31,3 @@ Nastavitve številčenja za dokumente **Serije**.
 
 > [!NOTE]
 > Spremembe konfiguracije se uporabijo za nove dokumente. Obstoječi dokumenti se ne preštevilčijo.
-
----

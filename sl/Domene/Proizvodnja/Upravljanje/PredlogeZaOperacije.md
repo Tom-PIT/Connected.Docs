@@ -79,5 +79,3 @@ Sistem samodejno izpolni vnaprej definirana polja, ki jih lahko po potrebi še p
 ## Brisanje predloge
 
 Brisanje je na voljo v pogledu urejanja posamezne predloge preko možnosti **Izbriši**.
-
----

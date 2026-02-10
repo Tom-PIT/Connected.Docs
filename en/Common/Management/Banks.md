@@ -35,19 +35,20 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 
 ## Actions
+
+### Adding a new bank
+
 Click the [Action Button](../../Common/UI/ActionButton.md) to add a new bank.  
 
-### Add new bank
-
-Fill the required fields:
-- **Name**
-- **BIC**
-- **Country**
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 ![Banks – New](../Images/BanksNew.png "Add new bank")
 
+### Editing an existing bank
 
-## Deletion
+To edit an existing bank, click on its **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to apply the changes or **Cancel** to discard them.
+
+### Deletion
   
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

@@ -197,5 +197,3 @@ Uporabite možnost **Izbriši** v glavi dokumenta.
 > [!NOTE]
 >
 > Zaključenih nalogov ni mogoče izbrisati, lahko pa jih po potrebi povrnete v aktivno stanje za popravke.
-
----

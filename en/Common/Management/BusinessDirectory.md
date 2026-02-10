@@ -2,6 +2,14 @@
 
 The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.
 
+You can access the **Business directory** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+
+To open the list, go to **Management / Business directory** in one of the following domains:
+
+- **Customers**
+- **Logistics**
+- **Sales**
+- **Supply**
 
 ## Schema
 
@@ -32,15 +40,6 @@ The **Business directory** contains all companies and individuals your organizat
 
 ## Management
 
-You can access the **Business directory** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
-
-To open the list, go to the **Management** section of the following domains:
-
-- **Customers**
-- **Logistics**
-- **Sales**
-- **Supply**
-
 ### List of business directory entries
 
 The user interface contains a list of entries in the business directory.
@@ -62,11 +61,11 @@ The **Type** field determines the tax status of the entity. The available values
 
 ## Actions
 
-Click on the [action button](../../Common/UI/ActionButton.md) to display the available actions:
+Click on the [**action button**](../../Common/UI/ActionButton.md) to display the available actions:
 
-- Import by VIES  
-- Import  
-- New  
+- **Import by VIES** 
+- **Import**  
+- **New**  
 
 ### Import by VIES
 
@@ -87,7 +86,9 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ```
 ### New
 
-The **New** action opens the input form for creating a new entry. Fill in the required fields such as **Name**, **Code**, and **VAT ID**. Click **Add** to save the new record or **Cancel** to return to the list view without saving.
+The **New** action opens the input form for creating a new entry. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+
+Click **Add** to save the new record or **Cancel** to return to the list view without saving.
 
 ![New Business Directory Entry](../Images/NewBusinessDirectory.png "New Business Directory Entry")
 
@@ -106,13 +107,13 @@ This section allows you to define whether the business partner uses the **compan
 The **Menu** in the top-right corner provides the **Exporting** option, which exports all visible records into a CSV file, allowing further analysis or backup.
 
 
-## Editing
+### Editing a business directory entry
 
 To edit an existing record, click the entry's **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Editing Business Directory Entry](../Images/BusinessDirectoryEdit.png "Editing Business Directory Entry")
 
-## Deletion
+### Deletion
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

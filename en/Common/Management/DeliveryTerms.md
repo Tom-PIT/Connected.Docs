@@ -6,7 +6,7 @@ These terms are commonly used in **sales** documents to clearly specify delivery
 
 Most delivery terms are based on internationally recognized **Incoterms®** published by the International Chamber of Commerce (ICC), with the possibility to define custom terms if needed.
 
-To access this screen, go to **Accounting / Management / Intrastat / Delivery terms** in the [**navigation**](../../Common/UI/Navigation.md). It appears also under **Management** in the **Sales** domain..
+To access this screen, go to **Accounting / Management / Intrastat / Delivery terms** in the [**navigation**](../../Common/UI/Navigation.md). It appears also under **Management** in the **Sales** domain.
 
 ## Schema
 
@@ -28,14 +28,11 @@ The list can be searched using the search field in the top-right corner.
 
 ## Actions
 
-### Add delivery term
+### Adding a new delivery term
 
 Click the [**action button**](../../Common/UI/ActionButton.md) to create a new delivery term.
 
-The creation form allows you to define:
-- The delivery term **code**
-- A **description**
-- An optional **location to be indicated**, used for terms that require specifying a delivery place
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 > [!NOTE]
 > Make sure to use standard Incoterms® codes and descriptions when applicable, to ensure clarity and consistency in international trade.
@@ -44,13 +41,13 @@ The creation form allows you to define:
 
 After saving, the delivery term becomes available for selection in documents where delivery conditions are required.
 
-### Edit delivery term
+### Editing an existing delivery term
 
 Click a delivery term in the list to open it in edit mode. Update the **code**, **description**, or **location to be indicated** as needed.
 
 Click **Save** to apply changes or **Cancel** to discard them.
 
-### Delete delivery term
+### Deletion
 
 Open a delivery term from the list and click **Delete**. Confirm the deletion in the dialog.
 

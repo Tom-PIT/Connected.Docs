@@ -10,6 +10,17 @@ Primeri:
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Merske enote](https://www.youtube.com/watch?v=8swl8Vex6y4)**.
 
+Do šifranta **Merske enote** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+
+Za odpiranje seznama pojdite v razdelek **Upravljanje / Merske enote** v naslednjih domenah:
+
+- **Sredstva**
+- **Logistika**
+- **Vzdrževanje**
+- **Proizvodnja**
+- **Prodaja**
+- **Nabava**
+
 ## Shema
 
 | Polje | Opis |
@@ -20,17 +31,6 @@ Primeri:
 | **Aktiven** | Označuje, ali je merska enota na voljo za uporabo v novih dokumentih. Neaktivne enote ni mogoče izbrati v novih vnosih, vendar ostanejo vidne v zgodovini. |
 
 ## Upravljanje
-
-Do šifranta **Merske enote** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
-
-Za odpiranje seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
-
-- **Sredstva**
-- **Logistika**
-- **Vzdrževanje**
-- **Proizvodnja**
-- **Prodaja**
-- **Nabava**
 
 ### Seznam merskih enot
 
@@ -46,19 +46,17 @@ Seznam prikazuje ime merske enote, okrajšavo in natančnost.
 
 ## Dejanja
 
+### Ustvarjanje nove merske enote
+
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo mersko enoto.
 
-Obrazec vključuje naslednja polja:
-- **Ime**
-- **Kratica**
-- **Natančnost**
-- **Aktiven**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje merske enote ali **Prekliči** za vrnitev na seznam.
 
 ![Dodaj mersko enoto](../Images/NewMeasureUnit.png "Dodaj mersko enoto")
 
-## Urejanje
+### Urejanje merske enote
 
 Za urejanje obstoječe merske enote kliknite njeno **Ime** na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe.
 
@@ -66,7 +64,7 @@ Za urejanje obstoječe merske enote kliknite njeno **Ime** na seznamu. Vmesnik s
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisanje
+### Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

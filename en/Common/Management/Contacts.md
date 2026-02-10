@@ -1,4 +1,4 @@
-﻿# Contacts
+# Contacts
 
 Contacts belong to a specific **customer** or **vendor** and are managed inside the [**Business directory**](BusinessDirectory.md). They store the people associated with the company — such as account managers, procurement contacts, technicians, or billing representatives.
 
@@ -6,7 +6,7 @@ Each contact includes a **Job title**, selected from the predefined [**Job title
 
 ### Accessing contacts
 
-Contacts appear as a tag inside each Business directory entry:
+Contacts appear as a tag under each Business directory entry. Click the tag to open the list of contacts associated with that company or individual.
 
 ![Contacts button](../Images/ContactsButton.png "Contacts button") 
 
@@ -33,25 +33,19 @@ The Contacts list displays all contacts linked to the selected Business director
 
 Use the filters on the left (**Enabled / Disabled**) to show only active or inactive contacts.
 
-## Creating a new contact
+## Actions
+
+### Creating a new contact
 
 To add a new contact, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner.
 
 ![New contact](../Images/ContactsNew.png "New contact")
 
-Fill in the following fields:
-
-- **First name**  
-- **Last name**  
-- **Job title** — selected from [**Job titles**](JobTitles.md)  
-- **E-mail**  
-- **Phone** / **Mobile phone** / **Fax** (optional)  
-- **Tags** (optional)  
-- **Active**
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new contact.
 
-## Editing an existing contact
+### Editing an existing contact
 
 1. Open the Business directory entry.  
 2. Click the **Contacts** tag.  
@@ -59,7 +53,7 @@ Click **Add** to save the new contact.
 4. Update any field (name, email, phone, job title, tags, etc.).  
 5. Click **Save**.
 
-## Deletion
+### Deletion
 
 A contact can be deleted in the Edit page, but only if it is not referenced in other documents.
 

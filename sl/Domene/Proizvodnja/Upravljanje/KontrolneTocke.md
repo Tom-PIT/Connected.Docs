@@ -56,5 +56,3 @@ Za iskanje uporabite iskalno polje, ki omogoča filtriranje po nazivu ali šifri
 ## Brisanje
 
 Kontrolne točke je mogoče brisati, razen če je to omejeno z nastavitvami delovnega toka. Za odstranitev odprite kontrolno točko in kliknite **Izbriši**.
-
----

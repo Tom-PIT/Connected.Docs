@@ -61,5 +61,3 @@ Glede na izbran kazalnik so lahko prikazani tudi dodatni podatki:
 - pri **proizvodnji**: količine proizvodnje,
 - pri **kakovosti**: razmerje med dobrimi in slabimi kosi,
 - pri **učinkovitosti**: kazalniki uspešnosti strojev ali enot.
-
----

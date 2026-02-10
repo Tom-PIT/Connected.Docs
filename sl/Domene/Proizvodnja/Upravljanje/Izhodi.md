@@ -52,5 +52,3 @@ Seznam prikazuje vse izhode, ki pripadajo izbrani operaciji. Vsaka vrstica prika
 ## Brisanje
 
 Vnos izhoda lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi se izhod odstrani iz operacije.
-
----

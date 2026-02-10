@@ -6,7 +6,7 @@ Vsak račun je povezan z **banko**, izbrano iz vnaprej definiranega šifranta [*
 
 ### Dostop do bančnih računov
 
-Bančni računi so prikazani kot oznaka znotraj posameznega vnosa v Poslovnem imeniku:
+Bančni računi so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje bančnih računov, povezanih z izbranim partnerjem.
 
 ![Oznaka bančnih računov](../Images/BankAccountsButton.png)
 
@@ -27,22 +27,19 @@ Seznam bančnih računov prikazuje vse račune, povezane z izbranim vnosom v Pos
 
 Uporabite filtre na levi strani (Omogočeno / Onemogočeno) za prikaz samo aktivnih ali neaktivnih računov.
 
-## Ustvarjanje novega bančnega računa
+## Dejanja
+
+### Ustvarjanje novega bančnega računa
 
 Za dodajanje novega bančnega računa kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 
 ![Dodaj bančni račun](../Images/BankAccountsNew.png)
 
-Izpolnite naslednja polja:
-
-- **Banka** – izbrana iz šifranta [**Banke**](Banke.md)  
-- **IBAN** – mednarodna številka bančnega računa  
-- **Aktiven** – določa, ali je račun na voljo za uporabo  
-- **Uporabljaj IBAN masko** – oblikuje IBAN za lažjo berljivost (neobvezno)
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite nov račun.
 
-## Urejanje obstoječega računa
+### Urejanje obstoječega računa
 
 1. Odprite vnos v Poslovnem imeniku.  
 2. Kliknite oznako **Bančni računi**.  
@@ -50,7 +47,7 @@ Kliknite **Dodaj**, da shranite nov račun.
 4. Posodobite IBAN, stanje aktivnosti ali možnost maske.  
 5. Kliknite **Shrani**.
 
-## Brisanje
+### Brisanje
 
 Bančni račun je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v drugih dokumentih (npr. izdanih računih ali plačilih).
 

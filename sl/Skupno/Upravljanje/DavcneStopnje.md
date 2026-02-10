@@ -2,6 +2,14 @@
 
 Šifrant **Davčne stopnje** določa vse davčne stopnje, uporabljene v sistemu. Davčne stopnje določajo odstotek davka, ki se uporablja za izdelke, materiale in storitve v poslovnih dokumentih. Vsak zapis vsebuje opisno ime in številčno vrednost, kar zagotavlja dosledno obračunavanje davkov v vseh digitalnih vsebinah.
 
+Do šifranta **Davčne stopnje** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+
+Za odpiranje seznama pojdite v razdelek **Upravljanje / Davčne stopnje** v naslednjih domenah:
+
+- **Sredstva**
+- **Prodaja**
+- **Nabava**
+
 ## Shema
 
 | Polje | Opis |
@@ -12,14 +20,6 @@
 | **Glavna knjiga – Debet/Kredit** | Konto glavne knjige, izbran iz **[Konti](../../Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**, ki se bremeni oziroma odobri, ko se davčni znesek knjiži z uporabo te davčne stopnje. |
 
 ## Upravljanje
-
-Do šifranta **Davčne stopnje** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
-
-Za odpiranje seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
-
-- **Sredstva**
-- **Prodaja**
-- **Nabava**
 
 ### Seznam davčnih stopenj
 
@@ -35,19 +35,17 @@ Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem
 
 ## Dejanja
 
+### Dodaj novo davčno stopnjo
+
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
 
-Obrazec vključuje naslednja polja:
-- **Naziv**
-- **Davčna stopnja (%)**
-- **Aktivna**
-- **Glavna knjiga**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
 
 ![Dodaj novo davčno stopnjo](../Images/TaxRatesNew.png "Dodaj novo davčno stopnjo")
 
-### Glavna knjiga
+#### Glavna knjiga
 
 Razdelek **Glavna knjiga** določa, kateri konti glavne knjige se uporabijo za knjiženje davčnih zneskov, ko je ta davčna stopnja uporabljena v poslovnih dokumentih.
 
@@ -56,12 +54,12 @@ Polji **Debet** in **Kredit** omogočata izbor kontov iz šifranta **[Konti](../
 > [!NOTE]
 Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
-## Urejanje
+### Urejanje obstoječe davčne stopnje
 
 Za urejanje obstoječe davčne stopnje kliknite njeno **Ime** na seznamu.  
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisanje
+### Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

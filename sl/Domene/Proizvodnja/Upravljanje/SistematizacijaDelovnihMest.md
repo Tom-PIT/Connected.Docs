@@ -56,5 +56,3 @@ Na strani za urejanje kliknite **Izbriši**, da odstranite delovno mesto. Po pot
 
 > [!NOTE]
 > Delovna mesta je mogoče izbrisati tudi, če so nanje dodeljeni uporabniki.
-
----

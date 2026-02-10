@@ -1,11 +1,10 @@
 # Business units
 
-Business units belong to a specific **customer** or **vendor** and are managed inside the **Business directory**.  
-They represent physical locations, branches, or organizational units of the company, each with its own address details.
+Business units belong to a specific **customer** or **vendor** and are managed inside the **Business directory**. They represent physical locations, branches, or organizational units of the company, each with its own address details.
 
 ### Accessing business units
 
-Business units appear as a tag inside each Business directory entry:
+Business units appear as a tag under each Business directory entry. Click the tag to open the list of business units associated with that company or individual.
 
 ![Business units button](../Images/BusinessUnitsButton.png "Business units button")
 
@@ -21,29 +20,25 @@ Business units appear as a tag inside each Business directory entry:
 
 ## List view
 
-The Business units list displays all units linked to the selected Business directory entry.
+The **Business units** list displays all units linked to the selected business directory entry.
 
 ![Business units list](../Images/BusinessUnitsList.png)
 
 Use the **Enabled / Disabled** filters on the left to show active or inactive units.
 
-## Creating a new business unit
+## Actions
+
+### Creating a new business unit
 
 To add a new business unit, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner.
 
 ![Add business unit](../Images/BusinessUnitsNew.png)
 
-Fill in the following fields:
-
-- **Name** – Business unit name  
-- **Street** – Street address  
-- **Country** – Selected from the [**Countries**](../../Common/Management/Countries.md) list  
-- **Postal code** – Selected from the country’s [**Postal codes**](PostalCodes.md) list  
-- **Active** – Determines whether the unit can be used  
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new business unit.
 
-## Editing an existing business unit
+### Editing an existing business unit
 
 1. Open the Business directory entry.  
 2. Click the **Business units** tag.  
@@ -51,7 +46,7 @@ Click **Add** to save the new business unit.
 4. Update the name, address, country, postal code, or activity status.  
 5. Click **Save**.
 
-## Deletion
+### Deletion
 
 A business unit can be deleted from the Edit page, but only if it is not referenced in other records (such as delivery addresses or documents).
 

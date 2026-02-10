@@ -2,6 +2,15 @@
 
 **Poslovni imenik** vsebuje vsa podjetja in posameznike, s katerimi sodeluje vaša organizacija. To vključuje **kupce**, **dobavitelje**, **kooperante** ali **notranje kontakte**. Vsak vnos hrani pomembne podatke, kot so naslovi, davčni podatki, kontaktne osebe in plačilne nastavitve. To zagotavlja dosledno uporabo istih podatkov o partnerjih v prodajnih, nabavnih, logističnih in finančnih dokumentih.
 
+Do šifranta **Poslovni imenik** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+
+Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v naslednjih domenah:
+
+- **Kupci**
+- **Logistika**
+- **Prodaja**
+- **Nabava**
+
 ## Shema
 
 | Polje | Opis |
@@ -31,15 +40,6 @@
 
 ## Upravljanje
 
-Do šifranta **Poslovni imenik** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
-
-Za odpiranje seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
-
-- **Kupci**
-- **Logistika**
-- **Prodaja**
-- **Nabava**
-
 ### Seznam vnosov v poslovnem imeniku
 
 Uporabniški vmesnik vsebuje seznam vnosov v Poslovnem imeniku.
@@ -59,13 +59,18 @@ Polje **Vrsta** določa davčni status entitete. Razpoložljive vrednosti so:
 - **Ni zevezanec za DDV**
 - **Končni potrošnik**
 
+### Meni
+
+**Meni** v zgornjem desnem kotu ponuja možnost **Izvoz**, ki izvozi vse vidne zapise v datoteko CSV za nadaljnjo analizo ali varnostno kopijo.
+
+
 ## Dejanja
 
-Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
+Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
 
-- Uvoz prek VIES  
-- Uvoz  
-- Nov
+- **Uvoz prek VIES**  
+- **Uvoz**  
+- **Nov**
 
 ### Uvoz prek VIES
 
@@ -86,7 +91,11 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ```
 ### Nov
 
-Dejanje **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa. Izpolnite obvezna polja, kot so **Ime**, **Koda** in **ID za DDV**. Kliknite **Dodaj** za shranjevanje novega zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
+Dejanje **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa. 
+
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+
+Kliknite **Dodaj** za shranjevanje novega zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
 
 ![Nov vnos v poslovni imenik](../Images/NewBusinessDirectory.png "Nov vnos v poslovni imenik")
 
@@ -100,17 +109,13 @@ Ta razdelek omogoča določitev, ali poslovni partner v dokumentih uporablja **v
 
 ![Razširljivi razdelki poslovnega imenika](../Images/BusinessDirectoryCollapsibleOptions.png "Razširljivi razdelki poslovnega imenika")
 
-## Meni
-
-**Meni** v zgornjem desnem kotu ponuja možnost **Izvoz**, ki izvozi vse vidne zapise v datoteko CSV za nadaljnjo analizo ali varnostno kopijo.
-
-## Urejanje
+### Urejanje obstoječega vnosa
 
 Za urejanje obstoječega zapisa kliknite **Ime** vnosa na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe podatke za spremembe. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
 ![Urejanje vnosa v poslovnem imeniku](../Images/BusinessDirectoryEdit.png "Urejanje vnosa v poslovnem imeniku")
 
-## Brisanje
+### Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

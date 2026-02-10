@@ -4,7 +4,7 @@ This code list defines the **modes of transport** used across the system. Modes 
 
 You can access the **Mode of transport** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases, you are working with the same shared data.
 
-To open the list, go to the **Management** section of the following domains:
+To open the list, go to **Management / Mode of transport** in one of the following domains:
 
 - **Logistics**
 - **Sales**
@@ -32,25 +32,23 @@ Clicking on a row opens the record in edit mode.
 
 ## Actions
 
-### New
+### Creating a new transport mode
 
 Click on the [action button](../UI/ActionButton.md) to open the form for creating a new transport mode.
 
-The form contains the following fields:
-- **Code**
-- **Description**
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to create the record or **Cancel** to return to the list without saving.
 
 ![New mode of transport](../Images/TransportModesNew.png "New mode of transport")
 
-## Editing
+### Editing a transport mode
 
 To edit an existing transport mode, click its **Code** in the list. The screen switches to edit mode, allowing you to update the values.
 
 Click **Save** to apply the changes or **Cancel** to discard them.
 
-## Deletion
+### Deletion
 
 Click **Delete** on the edit screen to remove a transport mode and confirm the deletion in the dialog.
 > [!NOTE]

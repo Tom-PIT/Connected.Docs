@@ -2,6 +2,14 @@
 
 Ta šifrant predstavlja države, ki se uporabljajo v digitalnih vsebinah sistema. Vsaka država določa lokalizacijske parametre, kot sta LCID in koda ISO, ki zagotavljajo pravilne jezikovne in regionalne nastavitve ter skladnost z mednarodnimi standardi.
 
+Do šifranta **Države** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+
+Za odpiranje seznama pojdite v razdelek **Upravljanje / Države** v naslednjih domenah:
+
+- **Logistika**
+- **Prodaja**
+- **Nabava**
+- 
 ## Shema
 
 | Polje | Opis |
@@ -12,14 +20,6 @@ Ta šifrant predstavlja države, ki se uporabljajo v digitalnih vsebinah sistema
 | **Aktiven** | Označuje, ali je država aktivna. Neaktivnih držav ni mogoče uporabiti za nove vnose, vendar ostanejo vidne v zgodovini. |
 
 ## Upravljanje
-
-Do šifranta **Države** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
-
-Za odpiranje seznama pojdite v razdelek **Upravljanje** v naslednjih domenah:
-
-- **Logistika**
-- **Prodaja**
-- **Nabava**
 
 ### Seznam držav
 
@@ -63,20 +63,17 @@ Austria,3079,AT,true
 Italy,1040,IT,false
 ```
 
-### Novo
+### Ustvarjanje nove države
 
 Kliknite **Novo**, da odprete vnosni obrazec za dodajanje nove države.  
-Obrazec vključuje naslednja polja:
-- **Ime**
-- **LCID**
-- **ISO šifra**
-- **Aktiven**
+
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj** za ustvarjanje zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
 
 ![Nova država](../Images/NewCountry.png "Nova država")
 
-## Urejanje
+### Urejanje obstoječega države
 
 Za urejanje obstoječega zapisa kliknite **Ime** države na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
@@ -86,7 +83,7 @@ Oznaka [**Poštne številke**](PostneStevilke.md) odpre vmesnik za upravljanje p
 
 ![Urejanje poštnih številk](../Images/PostalCodesButton.png "Urejanje poštnih številk")
 
-## Brisanje
+### Brisanje
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

@@ -6,7 +6,7 @@ Vsak kontakt vključuje **naziv delovnega mesta**, izbran iz vnaprej definiraneg
 
 ### Dostop do kontaktov
 
-Kontakti so prikazani kot oznaka znotraj posameznega vnosa v Poslovnem imeniku:
+Kontakti so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje kontaktov, povezanih z izbranim partnerjem.
 
 ![Gumb kontakti](../Images/ContactsButton.png "Gumb kontakti")
 
@@ -38,15 +38,7 @@ Za dodajanje novega kontakta kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md)
 
 ![Nov kontakt](../Images/ContactsNew.png "Nov kontakt")
 
-Izpolnite naslednja polja:
-
-- **Ime**  
-- **Priimek**  
-- **Naziv delovnega mesta** — izbran iz [**Nazivi delovnih mest**](NaziviDelovnihMest.md)  
-- **E-pošta**  
-- **Telefon** / **Mobilni telefon** / **Faks** (neobvezno)  
-- **Oznake** (neobvezno)  
-- **Aktiven**
+Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 Kliknite **Dodaj**, da shranite nov kontakt.
 

@@ -39,5 +39,3 @@ Seznam prikazuje vse oznake klasifikacije slabega kosa, definirane v sistemu. Za
 Oznako klasifikacije slabega kosa lahko izbrišete na strani za urejanje s klikom na **Izbriši**.
 
 Po potrditvi je oznaka trajno odstranjena iz sistema.
-
----

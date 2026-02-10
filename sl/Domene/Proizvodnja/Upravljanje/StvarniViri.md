@@ -50,5 +50,3 @@ Za filtriranje po imenu vira uporabite iskalno polje **Iskanje**.
 ## Brisanje
 
 Vnos stvarnega vira lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi se vnos odstrani iz operacije.
-
----
