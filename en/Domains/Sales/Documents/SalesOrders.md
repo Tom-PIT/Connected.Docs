@@ -72,13 +72,16 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 | Field | Description |
 |--------|-------------|
-| **Asset** | The item or service being sold. |
-| **Delivery date** | Planned delivery date for this line. |
-| **Quantity** | Quantity of the selected asset. |
-| **Net price (per unit)** | Unit price applied (from asset settings or price lists). |
-| **Discount (%)** | Line-specific discount. |
-| **[Tax rates](../../../Common/Management/TaxRates.md)** | Applied tax percentage. |
-| **Value** | Final line value (quantity × price − discount). |
+| [**Asset**](../../Assets/Assets/Assets.md) | Sold item or service from the **Assets** domain. |
+| **Quantity** | Quantity of the asset selected. |
+| **Net price** | Net price per unit, usually taken from price lists or the related document. |
+| **Discount (%)** | Optional line-level discount. |
+| **Value** | Calculated line totals (net, tax, and gross amounts). |
+| **[Intrastat – Tariff](../../Accounting/Management/Intrastat/Tariffs.md)** | Commodity code used for Intrastat reporting. |
+| **Intrastat – Country of origin** | Country where the goods originate. |
+| **Intrastat – Net weight (kg)** | Net weight used for statistical reporting. |
+| **Intrastat – Statistical value** | Declared statistical value of goods for Intrastat reporting. |
+
 </details>
 
 ## Management
@@ -149,7 +152,6 @@ To create a completely new Sales order, follow these steps:
 
 Once published, the Sales order moves into the **Committed → Available** state, enabling all related actions such as creating Delivery notes, Production orders, Maintenance orders, or Issued invoices.
 
-
 ### Editing a sales order
 
 The sales order is divided into multiple expandable sections.
@@ -184,14 +186,7 @@ Available actions include:
 
 ![Sales order – Document](../Images/SalesOrdersNewTop.png)
 
-Includes core fields:
-
-- Code  
-- Customer  
-- Document date  
-- Delivery date  
-- Rebate  
-- Purchase order  
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 #### Alternative currency
 
@@ -203,14 +198,13 @@ When an alternative currency is selected, document prices are automatically reca
 
 ## Transport and Intrastat sections
 
-When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the document.
 
 ![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
 
 
 - **Transport** - Used to capture logistics-related information about how the goods were delivered.
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
-
 
 > [!NOTE]  
 Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
@@ -223,15 +217,18 @@ These values affect the printed document and follow-up logistics documents, but 
 
 #### Details
 
-Details define the ordered items.
+Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
 
 Add a new detail:
 
-![Sales order – Add detail](../Images/SalesOrdersNewDetails.png)
+![Sales order – Add detail](../Images/SalesOrdersNewDetailsV2.png "Sales order – Add detail")
 
 Saved detail:
 
-![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png)
+![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png "Details saved))
+
+> [!NOTE]
+> When Intrastat is enabled, additional fields appear in the details section, such as Tariff, Country of origin, Net weight, and Statistical value. These fields are required for Intrastat reporting but do not affect the sales order processing.
 
 #### Payment methods
 
@@ -259,15 +256,11 @@ Completing a sales order performs the following actions:
 > [!NOTE]
 > Completing a sales order is an administrative action that finalizes its lifecycle. It does **not** perform additional stock movements or financial postings — those occur in the linked delivery or invoice documents.
 
-
 #### Completing a sales order
 
 Once the published sales order is finalized, for example, when a [**delivery note**](DeliveryNotes.md) or [**issued invoice**](IssuedInvoices.md) has been generated from a sales order, click **Complete**:
 
 ![Complete button](../Images/SalesOrdersCompleteButton.png)
-
-
-
 
 ## Menu
 
