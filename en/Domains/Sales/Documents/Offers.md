@@ -46,7 +46,6 @@ A typical flow:
 <details>
   <summary><strong>Intrastat</strong></summary>
 
-
 | Field | Description |
 |------|-------------|
 | [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
@@ -98,13 +97,11 @@ At the top of the Offers list, the system displays key indicators that summarize
 
 Filters on the left help narrow down results by **document dates**, **status**, and **customer**.
 
-
 ![Offers list](../Images/OffersListDrafts.png)
 
 An example of a list with **Completed** offers:
 
 ![Offers completed](../Images/OffersListCompleted.png)
-
 
 ## Actions
 
