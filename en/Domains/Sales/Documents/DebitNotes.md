@@ -173,7 +173,7 @@ When the document is posted:
 - The **tax amount** is posted to the selected tax account.
 - The system creates corresponding journal entries in the ledger.
 
-The available accounts are defined in the **[Chart of accounts](../../../Accounting/Ledger/Management/ChartOfAccounts.md)**.
+The available accounts are defined in the **[Chart of accounts](../../Accounting/Management/Ledger/ChartOfAccounts.md)**.
 
 ##### Intrastat details
 
