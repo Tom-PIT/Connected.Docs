@@ -58,7 +58,6 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 <details>
   <summary><strong>Intrastat</strong></summary>
 
-
 | Field | Description |
 |------|-------------|
 | [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
@@ -196,7 +195,7 @@ The Alternative currency section allows prices in the document to be expressed i
 
 When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
 
-## Transport and Intrastat sections
+#### Transport and Intrastat sections
 
 When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the document.
 
@@ -225,7 +224,7 @@ Add a new detail:
 
 Saved detail:
 
-![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png "Details saved))
+![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png "Details saved")
 
 > [!NOTE]
 > When Intrastat is enabled, additional fields appear in the details section, such as Tariff, Country of origin, Net weight, and Statistical value. These fields are required for Intrastat reporting but do not affect the sales order processing.

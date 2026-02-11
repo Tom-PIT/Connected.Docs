@@ -192,8 +192,7 @@ Once you start a new Issued invoice, follow these steps:
    - **Delivery information**  
    - **Attachments**  
 
-7. When the invoice is ready, click **Publish** at the top of the page.  
-   Publishing moves the document from **Draft** to **Committed**, finalizes totals, and enables accounting export and further processing.
+7. When the invoice is ready, click **Publish** at the top of the page. Publishing moves the document from **Draft** to **Committed**, finalizes totals, and enables accounting export and further processing.
 
 > [!NOTE]  
 > Once published, an issued invoice cannot be edited or deleted. If a correction is needed, use **[Reverse document](../../Logistics/Documents/Reversals.md)** action in the menu.
@@ -271,7 +270,7 @@ The Alternative currency section allows prices in the document to be expressed i
 
 When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
 
-## Transport and Intrastat sections
+#### Transport and Intrastat sections
 
 When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
 
