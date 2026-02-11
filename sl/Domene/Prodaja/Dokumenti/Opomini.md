@@ -16,6 +16,8 @@ Tipičen potek:
 Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestilo za račun.
 
 ## Shema
+<details open>
+  <summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -27,6 +29,20 @@ Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestil
 | **Postavke** | Seznam zapadlih postavk, povezanih z [**izdanimi računi**](IzdaniRacuni.md), z zneski in morebitnimi obrestmi. |
 | [**Izdani račun**](IzdaniRacuni.md) | Zapadli račun, na katerega se opomin nanaša. Ob izbiri se samodejno naloži odprti znesek. |
 | **Obresti** | Znesek zamudnih obresti za zapadlo obdobje (vnos je ročen). |
+
+</details>
+
+<details>
+  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **[Pogoj dobave](../../../Skupno/Upravljanje/PogojiDobave.md)** | Dobavni pogoji, dogovorjeni s stranko. |
+| **[Vrsta transporta](../../../Skupno/Upravljanje/VrstaTransporta.md)** | Način transporta, dogovorjen s stranko. |
+| [**Alternativna valuta**](../../../Skupno/Upravljanje/Valute.md) | Alternativna valuta glede na privzeto valuto, uporabljeno v dokumentu. |
+| [**Tečaj**](../Upravljanje/MenjalniTecaji.md) | Tečaj alternativne valute glede na privzeto valuto. |
+| **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
+</details>
 
 ## Upravljanje
 
