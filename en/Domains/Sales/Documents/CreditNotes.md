@@ -73,11 +73,33 @@ Credit notes affect accounting only and do not impact inventory.
 
 | Field | Description |
 |--------|-------------|
-| [**Asset**](../../Assets/Assets/Assets.md) | Credited item or service. |
-| **Quantity** | Quantity being credited (usually negative). |
-| **Net price** | Net price per unit. |
-| **Discount (%)** | Optional line-level discount. |
-| **Value** | Calculated totals (net, tax, gross) with negative amounts. |
+| **Asset** | Product, service, or asset selected for this line. |
+| **Detail name** | Display name of the selected item (can be edited if allowed). |
+| **[Tax rate](../../../Common/Management/TaxRates.md)** | Tax rate applied to the line (defined in tax configuration). |
+| **Net price (per unit)** | Price per unit excluding tax. |
+| **Tax price (per unit)** | Price per unit including tax (calculated automatically based on tax rate). |
+| **Quantity** | Quantity of the selected asset. |
+| **Discount (%)** | Percentage discount applied to the net price. |
+| **Total amount excluding tax** | Calculated net total (Net price × Quantity − Discount). |
+| **Total amount with tax** | Total amount including tax. |
+| **Tax calculation type** | Defines how tax is calculated when special VAT rules apply:<br>• **Trilateral supplies** – For triangular EU transactions where VAT is accounted for by the final buyer (reverse charge).<br>• **Tax is accounted** – Applies reverse charge VAT; the customer accounts for the tax instead of the seller.<br>• **Export services** – Used for services provided to customers outside the EU (typically VAT exempt).<br>• **Transport services** – Special VAT treatment for goods transport services.<br>• **Passenger transport** – VAT rules specific to passenger transport activities.<br>• **Travel agencies** – Applies the VAT margin scheme for travel agency services.<br>• **According to customs procedures 42 and 63** – Used for imports where VAT is deferred to the destination EU country.<br>• **Sale of recalled goods from the EU** – Special VAT handling for returned or recalled goods within the EU. |
+| **Description** | Optional additional information for the line. |
+| **Use alternative currency** | Option to express the line amount in a selected alternative currency. When selected, the amount is recalculated based on the exchange rate defined in the document. |
+
+</details>
+
+<details>
+  <summary><strong>Ledger and Interstat details</strong></summary>
+
+| Field | Description |
+|--------|-------------|
+| **Ledger - Account revenue / expense** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the line amount (e.g., sales revenue or purchase expense). |
+| **Ledger - Account tax** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the tax amount associated with the document line. |
+| **[Intrastat – Tariff](../../Accounting/Management/Intrastat/Tariffs.md)** | Commodity code used for Intrastat reporting. |
+| **Intrastat – Country of origin** | Country where the goods originate. |
+| **Intrastat – Net weight (kg)** | Net weight used for statistical reporting. |
+| **Intrastat – Statistical value** | Declared statistical value of goods for Intrastat reporting. |
+
 </details>
 
 ## Management
@@ -134,6 +156,30 @@ Once you start a new credit note, follow these steps:
 > [!NOTE]  
 > Once published, a credit note cannot be edited. Any corrections must be done via reversal.
 
+#### Details
+
+Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
+
+![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png)
+
+##### Ledger details
+
+The **Ledger** section defines how the document is posted to the general ledger. It determines which accounts are used for revenue, expense, and tax postings when the document is saved and posted.
+
+When the document is posted:
+
+- The **net amount** is posted to the selected revenue or expense account.
+- The **tax amount** is posted to the selected tax account.
+- The system creates corresponding journal entries in the ledger.
+
+The available accounts are defined in the **[Chart of accounts](../../../Accounting/Ledger/Management/ChartOfAccounts.md)**.
+
+##### Intrastat details
+
+When Intrastat reporting is enabled and the transaction involves a customer from another EU country, an additional **Intrastat** section becomes available in the detail edit form. This section collects statistical information required for Intrastat reporting.
+
+These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
+
 ### Editing a credit note
 
 Only **Draft** credit notes can be edited.
@@ -170,7 +216,7 @@ When an alternative currency is selected, document prices are automatically reca
 
 ## Transport and Intrastat sections
 
-When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the document form.
 
 ![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
 
