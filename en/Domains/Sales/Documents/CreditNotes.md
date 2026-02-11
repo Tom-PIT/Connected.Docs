@@ -214,7 +214,7 @@ The Alternative currency section allows prices in the document to be expressed i
 
 When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
 
-## Transport and Intrastat sections
+#### Transport and Intrastat sections
 
 When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the document form.
 
