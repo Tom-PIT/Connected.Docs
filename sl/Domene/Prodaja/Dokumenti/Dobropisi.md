@@ -63,12 +63,33 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
   <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
-|------|------|
-| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Dobropisano blago ali storitev. |
-| **Količina** | Dobropisana količina (običajno negativna). |
-| **Cena brez DDV** | Neto cena na enoto. |
-| **Popust (%)** | Neobvezen popust na ravni postavke. |
-| **Vrednost** | Izračunane vrednosti (neto, davek, bruto) z negativnimi zneski. |
+|--------|-------------|
+| **Vrsta blaga oz. storitev** | Izdelek, storitev ali sredstvo, izbrano za to postavko. |
+| **Naziv postavke** | Prikazni naziv izbrane postavke (po potrebi ga je mogoče urediti). |
+| **[Davčna stopnja](../../../Skupno/Upravljanje/DavcneStopnje.md)** | Davčna stopnja, uporabljena na postavki (nastavljena v konfiguraciji davkov). |
+| **Cena brez DDV (na enoto)** | Cena na enoto brez davka. |
+| **Cena z DDV (na enoto)** | Cena na enoto z davkom (samodejno izračunana glede na davčno stopnjo). |
+| **Količina** | Količina izbrane postavke. |
+| **Popust (%)** | Odstotek popusta, uporabljen na neto ceno. |
+| **Skupni znesek brez davka** | Izračunan neto znesek (Cena brez DDV × Količina − Popust). |
+| **Skupni znesek z davkom** | Skupni znesek z vključenim davkom. |
+| **Vrsta obračuna DDV** | Določa način obračuna DDV v posebnih primerih:<br>• **Tristranske dobave** – Za trikotne EU transakcije, kjer DDV obračuna končni kupec (obrnjena davčna obveznost).<br>• **DDV obračuna kupec** – Uporaba obrnjene davčne obveznosti; DDV obračuna kupec namesto prodajalca.<br>• **Izvozne storitve** – Za storitve, opravljene kupcem zunaj EU (običajno oproščene DDV).<br>• **Prevozne storitve** – Posebna davčna obravnava za prevoz blaga.<br>• **Prevoz potnikov** – Posebna pravila DDV za prevoz potnikov.<br>• **Potovalne agencije** – Uporaba posebne maržne sheme za potovalne agencije.<br>• **Po carinskih postopkih 42 in 63** – Za uvoz, kjer je DDV odložen v namembno državo EU.<br>• **Prodaja odpoklicanega blaga iz EU** – Posebna davčna obravnava za vrnjeno ali odpoklicano blago znotraj EU. |
+| **Opis** | Dodatne informacije o postavki (neobvezno). |
+| **Alternativna valuta** | Možnost prikaza zneska postavke v izbrani alternativni valuti. Ob izbiri se znesek preračuna glede na tečaj, določen v dokumentu. |
+
+</details>
+
+<details>
+  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **Glavna knjiga – Konto prihodka** | [Konto](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) za knjiženje prihodkov ali odhodkov postavke. |
+| **Glavna knjiga – Konto davka** | [Konto](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) za knjiženje davka, vezanega na postavko dokumenta. |
+| **[Intrastat – Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Tarifna oznaka (šifra blaga) za poročanje Intrastat. |
+| **Intrastat – Država porekla** | Država, iz katere blago izvira. |
+| **Intrastat – Neto teža (kg)** | Neto teža za statistično poročanje. |
+| **Intrastat – Statistična vrednost** | Prijavljena statistična vrednost blaga za poročanje Intrastat. |
 
 </details>
 
@@ -125,12 +146,38 @@ Po začetku novega dobropisa sledite korakom:
 > [!NOTE]
 > Po objavi dobropisa ga ni več mogoče urejati. Vse popravke je treba izvesti s storniranjem.
 
+#### Postavke
+
+Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
+
+![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSaved.png)
+
+##### Glavna knjiga
+
+Razdelek **Glavna knjiga** določa, kako se dokument knjiži v glavno knjigo. Opredeljuje, kateri konti se uporabijo za knjiženje prihodkov, odhodkov in davkov ob shranjevanju in knjiženju dokumenta.
+
+Ob knjiženju dokumenta:
+
+- **Neto znesek** se knjiži na izbrani konto prihodka ali odhodka.
+- **Znesek davka** se knjiži na izbrani konto davka.
+- Sistem samodejno ustvari ustrezne temeljnice v glavni knjigi.
+
+Razpoložljivi konti so določeni v **[Kontnem načrtu](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**.
+
+##### Intrastat
+
+Če je omogočeno poročanje Intrastat in transakcija vključuje kupca iz druge države EU, se v obrazcu za urejanje postavke prikaže dodatni razdelek **Intrastat**.
+
+Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat.
+
+Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
+
 ### Urejanje dobropisa
 
 Urejati je mogoče samo dobropise v stanju **Osnutek**.
 
 Uredite lahko:
-- Glavna polja  
+- Dokument
 - Alternativna valuta
 - Transport
 - Podatki o dostavi
@@ -159,13 +206,17 @@ Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
-#### Transport
+#### Razdelka Transport in Intrastat
 
-Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
 
-![Transport](../Images/SalesTransportSection.png "Transport")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
 
-Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
+- **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
+- **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
+
+> [!NOTE]  
+> Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
 
 ## Meni
 

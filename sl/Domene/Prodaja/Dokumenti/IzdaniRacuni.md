@@ -53,15 +53,47 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 </details>
 
 <details>
-  <summary><strong>Postavke</strong></summary>
+  <summary><strong>Intrastat</strong></summary>
 
 | Polje | Opis |
 |------|------|
-| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Zaračunan izdelek ali storitev iz področja Sredstva. |
-| **Količina** | Količina zaračunanega sredstva. |
-| **Cena brez DDV** | Neto cena na enoto, običajno povzeta iz cenikov ali povezanega dokumenta. |
-| **Popust (%)** | Neobvezen popust na ravni postavke. |
-| **Vrednost** | Izračunane vrednosti postavke (neto, davek in bruto). |
+| [**Država prejema**](../../../Skupno/Upravljanje/Drzave.md) | Država, iz katere je bilo blago odposlano. Vrednost je običajno povzeta iz Intrastat konfiguracije materiala. |
+| [**Vrsta posla**](../../Racunovodstvo/Upravljanje/Intrastat/VrstaPosla.md) | Klasifikacija vrste transakcije za Intrastat poročanje (npr. neposredna prodaja ali nakup). |
+| [**Lega kraja**](../../Racunovodstvo/Upravljanje/Intrastat/LegaKraja.md) | Označuje kraj dostave blaga v skladu z Intrastat definicijami. |
+
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **Vrsta blaga oz. storitev** | Izdelek, storitev ali sredstvo, izbrano za to postavko. |
+| **Naziv postavke** | Prikazni naziv izbrane postavke (po potrebi ga je mogoče urediti). |
+| **[Davčna stopnja](../../../Skupno/Upravljanje/DavcneStopnje.md)** | Davčna stopnja, uporabljena na postavki (nastavljena v konfiguraciji davkov). |
+| **Cena brez DDV (na enoto)** | Cena na enoto brez davka. |
+| **Cena z DDV (na enoto)** | Cena na enoto z davkom (samodejno izračunana glede na davčno stopnjo). |
+| **Količina** | Količina izbrane postavke. |
+| **Popust (%)** | Odstotek popusta, uporabljen na neto ceno. |
+| **Skupni znesek brez davka** | Izračunan neto znesek (Cena brez DDV × Količina − Popust). |
+| **Skupni znesek z davkom** | Skupni znesek z vključenim davkom. |
+| **Vrsta obračuna DDV** | Določa način obračuna DDV v posebnih primerih:<br>• **Tristranske dobave** – Za trikotne EU transakcije, kjer DDV obračuna končni kupec (obrnjena davčna obveznost).<br>• **DDV obračuna kupec** – Uporaba obrnjene davčne obveznosti; DDV obračuna kupec namesto prodajalca.<br>• **Izvozne storitve** – Za storitve, opravljene kupcem zunaj EU (običajno oproščene DDV).<br>• **Prevozne storitve** – Posebna davčna obravnava za prevoz blaga.<br>• **Prevoz potnikov** – Posebna pravila DDV za prevoz potnikov.<br>• **Potovalne agencije** – Uporaba posebne maržne sheme za potovalne agencije.<br>• **Po carinskih postopkih 42 in 63** – Za uvoz, kjer je DDV odložen v namembno državo EU.<br>• **Prodaja odpoklicanega blaga iz EU** – Posebna davčna obravnava za vrnjeno ali odpoklicano blago znotraj EU. |
+| **Opis** | Dodatne informacije o postavki (neobvezno). |
+| **Alternativna valuta** | Možnost prikaza zneska postavke v izbrani alternativni valuti. Ob izbiri se znesek preračuna glede na tečaj, določen v dokumentu. |
+
+</details>
+
+<details>
+  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **Glavna knjiga – Konto prihodka** | [Konto](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) za knjiženje prihodkov ali odhodkov postavke. |
+| **Glavna knjiga – Konto davka** | [Konto](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) za knjiženje davka, vezanega na postavko dokumenta. |
+| **[Intrastat – Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Tarifna oznaka (šifra blaga) za poročanje Intrastat. |
+| **Intrastat – Država porekla** | Država, iz katere blago izvira. |
+| **Intrastat – Neto teža (kg)** | Neto teža za statistično poročanje. |
+| **Intrastat – Statistična vrednost** | Prijavljena statistična vrednost blaga za poročanje Intrastat. |
 
 </details>
 
@@ -144,7 +176,7 @@ Po začetku novega računa sledite korakom:
 3. Dodajte postavke v razdelku **Postavke**.  
 4. Prilagodite količine, cene, popuste ali davčne stopnje in kliknite **Shrani**.
 
-   ![Urejanje postavke računa](../Images/IssuedInvoicesNewDetailsEdit.png)
+   ![Urejanje postavke računa](../Images/IssuedInvoicesNewDetailsEditV2.png)
 
 5. Dodajte poljubno število postavk.
 
@@ -160,6 +192,30 @@ Po začetku novega računa sledite korakom:
 
 > [!NOTE]
 > Po objavi izdanega računa ni več mogoče urejati ali izbrisati. Za popravke uporabite dejanje **Storniraj dokument**.
+
+#### Postavke
+
+Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
+
+##### Glavna knjiga
+
+Razdelek **Glavna knjiga** določa, kako se dokument knjiži v glavno knjigo. Opredeljuje, kateri konti se uporabijo za knjiženje prihodkov, odhodkov in davkov ob shranjevanju in knjiženju dokumenta.
+
+Ob knjiženju dokumenta:
+
+- **Neto znesek** se knjiži na izbrani konto prihodka ali odhodka.
+- **Znesek davka** se knjiži na izbrani konto davka.
+- Sistem samodejno ustvari ustrezne temeljnice v glavni knjigi.
+
+Razpoložljivi konti so določeni v **[Kontnem načrtu](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**.
+
+##### Intrastat
+
+Ko je omogočeno poročanje Intrastat in transakcija vključuje kupca iz druge države EU, se v obrazcu za urejanje postavke prikaže dodatni razdelek **Intrastat**.
+
+Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat.
+
+Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
 
 ### Urejanje izdanega računa
 
@@ -212,13 +268,21 @@ Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
-#### Transport
+#### Razdelka Transport in Intrastat
 
-Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
 
-![Transport](../Images/SalesTransportSection.png "Transport")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
 
-Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
+- **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
+- **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
+
+> [!NOTE]  
+> Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
+
+### Objavljanje računa
+
+Ko je račun pripravljen, kliknite **Objavi**, da ga potrdite in premaknete iz stanja **Osnutek** v **Obdelan**. Po objavi postanejo na voljo povezana dejanja in računovodski izvoz.
 
 ## Evidentiranje plačil
 
@@ -226,7 +290,20 @@ Po objavi računa kliknite **Plačilo**, da evidentirate prejeto plačilo.
 
 ![Evidentiranje plačila](../Images/IssuedInvoicesPayment.png "Evidentiranje plačila")
 
-Sistem samodejno posodobi status računa glede na zabeležena plačila.
+V pogovornem oknu za plačilo so prikazani:
+
+- **Za plačilo** – bruto znesek računa in datum zapadlosti.  
+- **Plačilo** – trenutno plačani znesek in datum plačila.  
+- **Preostali znesek** – odprt znesek po evidentiranem plačilu.
+
+Možno je evidentirati več plačil skozi čas. Sistem samodejno posodobi status računa:
+
+- **Neplačani** – še ni evidentiranih plačil.  
+- **Delno plačani** – evidentirana plačila, vendar ostaja odprti znesek.  
+- **Plačani** – preostali znesek je nič.
+
+> [!NOTE]  
+> Ko je račun v celoti pokrit z evidentiranimi plačili, se prikaže v pogledu **Plačani**. Delno plačani dokumenti se prikažejo pod **Delno plačani**, neplačani pa pod **Neplačani**.
 
 ## Meni
 
@@ -242,7 +319,17 @@ Meni v zgornjem desnem kotu omogoča:
 
 ## Brisanje
 
-Izbris je mogoč samo za dokumente v stanju **Osnutek** in le, če **ne vsebujejo postavk**.
+Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo postavk**.
+
+Če osnutek vsebuje postavke v razdelku **Postavke**:
+
+1. Kliknite serijsko številko ali naziv postavke, da odprete okno **Uredi postavko**.  
+2. V oknu urejanja kliknite **Izbriši**, da odstranite postavko.  
+3. Postopek ponovite, dokler dokument ne vsebuje več postavk.
+
+Ko dokument ne vsebuje nobene postavke, kliknite **Izbriši**, da odstranite osnutek.
 
 > [!NOTE]
-> Objavljenih računov ni mogoče izbrisati. Uporabite **Storniraj dokument** ali **Vrni v osnutek**, če je na voljo.
+> - Izbris je mogoč samo za dokumente v stanju **Osnutek**.  
+> - Objavljenih računov ni mogoče izbrisati; uporabite **Storniraj dokument** ali **Vrni v osnutek**, če je na voljo.  
+> - Če so bila evidentirana plačila, računa ni mogoče izbrisati, dokler plačila niso odstranjena in dokument vrnjen v osnutek.

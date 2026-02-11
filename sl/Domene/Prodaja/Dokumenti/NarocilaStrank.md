@@ -53,6 +53,17 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 </details>
 
 <details>
+  <summary><strong>Intrastat</strong></summary>
+
+| Polje | Opis |
+|------|------|
+| [**Država odpošiljanja**](../../../Skupno/Upravljanje/Drzave.md) | Država, iz katere je bilo blago odposlano. Ta vrednost je običajno določena na podlagi Intrastat konfiguracije materiala. |
+| [**Vrsta posla**](../../Racunovodstvo/Upravljanje/Intrastat/VrstaPosla.md) | Klasifikacija vrste transakcije za Intrastat poročanje (npr. neposredna prodaja ali nakup). |
+| [**Lega kraja**](../../Racunovodstvo/Upravljanje/Intrastat/LegaKraja.md) | Označuje kraj dostave blaga v skladu z Intrastat definicijami. |
+
+</details>
+
+<details>
   <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
@@ -62,8 +73,12 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | **Količina** | Količina izbranega sredstva. |
 | **Cena brez DDV (na enoto)** | Uporabljena cena na enoto (iz nastavitev sredstva ali cenikov). |
 | **Popust (%)** | Popust za posamezno postavko. |
-| [**Davčne stopnje**](../../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
+| [**Davčna stopnja**](../../../Skupno/Upravljanje/DavcneStopnje.md) | Uporabljena davčna stopnja. |
 | **Vrednost** | Končna vrednost postavke (količina × cena − popust). |
+| **[Intrastat – Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Tarifna oznaka blaga, uporabljena za Intrastat poročanje. |
+| **Intrastat – Država porekla** | Država, iz katere blago izvira. |
+| **Intrastat – Neto teža (kg)** | Neto teža, uporabljena za statistično poročanje. |
+| **Intrastat – Statistična vrednost** | Prijavljena statistična vrednost blaga za Intrastat poročanje. |
 
 </details>
 
@@ -180,17 +195,21 @@ Vključuje osnovna polja:
 
 Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
 
-![Naročilo stranke – razdelek Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
-#### Transport
+#### Razdelka Transport in Intrastat
 
-Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
+Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
 
-![Naročilo stranke – razdelek Transport](../Images/SalesTransportSection.png)
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
 
-Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
+- **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
+- **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
+
+> [!NOTE]  
+> Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
 
 #### Dobava
 
@@ -198,9 +217,18 @@ Razdelek Dobava določa naslov dostave. Privzeto se izpolni iz podatkov stranke,
 
 #### Postavke
 
-Postavke določajo naročene izdelke ali storitve.
+Postavke določajo naročene izdelke ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
 
-![Naročilo stranke – shranjena postavka](../Images/SalesOrdersNewDetailsSaved.png "Naročilo stranke – shranjena postavka")
+Dodaj novo postavko:
+
+![Prodajni nalog – Dodaj postavko](../Images/SalesOrdersNewDetailsV2.png "Prodajni nalog – Dodaj postavko")
+
+Shranjena postavka:
+
+![Prodajni nalog – Urejanje postavke](../Images/SalesOrdersNewDetailsSaved.png "Shranjene postavke")
+
+> [!NOTE]
+> Ko je omogočen Intrastat, se v razdelku Postavke prikažejo dodatna polja, kot so **Tarifa**, **Država porekla**, **Neto teža (kg)** in **Statistična vrednost**. Ta polja so potrebna za Intrastat poročanje, vendar ne vplivajo na obdelavo prodajnega naloga.
 
 #### Načini plačila
 
