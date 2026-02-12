@@ -8,7 +8,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Računi / Prejeti račun
 > [!NOTE]
 > Prejeti računi so običajno povezani z enim ali več **nabavnimi nalogi**.  Povezava z nabavnimi nalogi omogoča, da sistem predizpolni podatke in predlaga knjižbe na podlagi prejetega blaga.
 >
-> Za knjiženje postavk na prejetem računu mora biti za vsako postavko izbran [**Strošek**](../../Navaba/Upravljanje/Stroski.md). Ta določa konto glavne knjige, davčno stopnjo in logiko knjiženja, ki se uporabi ob potrditvi dokumenta.
+> Za knjiženje postavk na prejetem računu mora biti za vsako postavko izbran [**Strošek**](../../Nabava/Upravljanje/Stroski.md). Ta določa konto glavne knjige, davčno stopnjo in logiko knjiženja, ki se uporabi ob potrditvi dokumenta.
 
 
 ## Kako se prejeti računi vključujejo v računovodski tok
