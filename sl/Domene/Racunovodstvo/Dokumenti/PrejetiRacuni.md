@@ -6,12 +6,10 @@ Uporabljajo se za evidentiranje računov dobaviteljev, ustvarjanje računovodski
 Za dostop do tega zaslona pojdite na **Računovodstvo / Računi / Prejeti računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
-> Prejeti računi so običajno povezani z enim ali več **nabavnimi nalogi**.  
-> Povezava z nabavnimi nalogi omogoča, da sistem predizpolni podatke in predlaga knjižbe na podlagi prejetega blaga.
+> Prejeti računi so običajno povezani z enim ali več **nabavnimi nalogi**.  Povezava z nabavnimi nalogi omogoča, da sistem predizpolni podatke in predlaga knjižbe na podlagi prejetega blaga.
 >
-> Za knjiženje posameznih postavk mora imeti povezan material vnaprej določene **stroške**  
-> (na primer strošek zaloge surovin za nove surovine, uporabljene v nabavnih nalogih).  
-> Stroške nastavite v **[Stroški](../../Nabava/Upravljanje/Stroski.md)** in jih dodelite **[materialom](../../Sredstva/Domena/Materiali.md)**.
+> Za knjiženje postavk na prejetem računu mora biti za vsako postavko izbran [**Strošek**](../../Navaba/Upravljanje/Stroski.md). Ta določa konto glavne knjige, davčno stopnjo in logiko knjiženja, ki se uporabi ob potrditvi dokumenta.
+
 
 ## Kako se prejeti računi vključujejo v računovodski tok
 
@@ -123,10 +121,14 @@ Za odpravo:
 V razdelku **Predlagane knjižbe** sistem predlaga knjižbe na podlagi povezanih nabavnih nalogov.
 
 1. Preglejte predlagane postavke.
-2. Izberite ustrezne vrstice.
-3. Kliknite **Ustvari knjižbe** za ustvarjanje postavk.
+2. Uredite polja **Strošek** in **Količina** na seznamu po potrebi.
 
-![Predlagane knjižbe](../Images/ReceivedInvoicesNewSuggestedPostings.png)
+   ![Received Invoices Details Expense](../Images/ReceivedInvoicesDetailsExpense.png "Uredi postavke")
+
+3. Izberite ustrezne vrstice.
+4. Kliknite **Ustvari knjižbe** za ustvarjanje postavk.
+
+   ![Predlagane knjižbe](../Images/ReceivedInvoicesNewSuggestedPostings.png "Predlagane knjižbe")
 
 #### Priponke
 
