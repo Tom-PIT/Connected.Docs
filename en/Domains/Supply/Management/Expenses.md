@@ -17,7 +17,7 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 | **Name** | Descriptive name of the expense. |
 | **[Tax rate](../../../Common/Management/TaxRates.md)** | Tax rate applied to the expense. |
 | **Enabled** | Indicates whether the expense is available for use in documents. |
-| **Subcontractor** | Business partner providing the subcontracted service, selected from the [Business directory](../../../Common/Management/BusinessDirectory.md). |
+| **Subcontractor** | Business partner providing the subcontracted service, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md). |
 | **Cost per unit (€)** | Cost of this subcontracted operation per unit. |
 | **Operations** | List of operations associated with this subcontractor cost. |
 
@@ -47,8 +47,6 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 
 </details>
 
-
-
 ## Management
 
 ### List of expenses
@@ -74,19 +72,15 @@ These filters control whether the list shows active or inactive expense entries.
 
 Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
 
-- Add new expense
-- Ledger
-- Subcontractor cost
+- **Add new expense**
+- **Ledger**
+- **Subcontractor cost**
 
 ![New expense](../Images/ExpensesNewV2.png "New expense")
 
 ### Add new expense
 
-Enter the following information:
-- **Code**
-- **Name**
-- **Tax rate**
-- **Enabled**
+Enter the required information and click **Save** to create the expense. The new record will then appear in the list.
 
 #### Subcontractor cost
 
@@ -114,7 +108,6 @@ To edit an expense, click the entry in the list and the system opens the edit mo
 All fields—including subcontractor cost and operations—can be modified. You can enable or disable an expense using the **Enabled** checkbox.
 
 When you are done editing, click **Save**. If you do not want to save the changes, click **Cancel**.
-
 
 ## Deletion
 
