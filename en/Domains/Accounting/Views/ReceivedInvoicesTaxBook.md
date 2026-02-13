@@ -2,6 +2,7 @@
 
 The **Received invoices tax book** view provides a **filtered overview of received invoices that contain tax amounts**, together with links to their related journal entries.
 
+
 This is a **read-only analytical view** used for tax reporting and review. No data can be edited from this screen.
 
 To access this view, go to **Accounting / Ledger / Views / Received invoices tax book** in the [**navigation**](../../../Common/UI/Navigation.md).
