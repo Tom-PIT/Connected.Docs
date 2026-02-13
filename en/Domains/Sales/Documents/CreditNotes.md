@@ -234,6 +234,7 @@ The document menu provides additional actions:
 - **Printing**
 - **Exporting**
 - **Send as email**
+- **Delete all details** (only for drafts)
 - **Reverse document**
 - **Return to draft** (only if allowed)
 
@@ -243,13 +244,18 @@ Reversing a credit note negates its financial effect. For details, see **[Revers
 
 ## Deletion
 
-Draft credit notes can be deleted only if they contain **no details**. Details can be removed via Menu → **Delete all details**.
+Draft documents can be deleted in the edit view, **only if they contain no details**.
 
-If you need to delete some individual detail lines:
-1. Open each detail line by clicking on them.
-2. Remove it using **Delete**.
-3. Repeat until all desired lines are removed.
+If the draft still includes items in the **Details** section:
 
-Once empty, the **Delete** action can be performed.
+1. Open the document menu (top right corner).
+2. Select **Delete all details** to remove all lines at once.
+3. Once the document contains no details, click **Delete** to remove the draft.
 
-Committed credit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+If you need to remove only a specific material instead of clearing the entire document:
+
+1. Click the material serial number to open the **Edit detail** screen.
+2. Click **Delete** inside the Edit detail window.
+
+> [!NOTE]
+> Committed credit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
