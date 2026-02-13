@@ -14,8 +14,7 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 3. Račun se objavi in je privzeto v stanju **Neplačano**.  
 4. Plačila se evidentirajo neposredno na računu (delna ali celotna).  
 5. Račun se samodejno premakne v stanje **Delno plačano** ali **V celoti plačano**, glede na prejeta plačila.  
-6. Zaloga se prilagodi ločeno z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md)  
-   (ali z uporabo [**Dobavnice**](Dobavnice.md) + [**Izdaje**](../../Logistika/Dokumenti/Izdajnice.md), če gre za dostavo).
+6. Zaloga se prilagodi ločeno z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md) (ali z uporabo [**Dobavnice**](Dobavnice.md) + [**Izdaje**](../../Logistika/Dokumenti/Izdajnice.md), če gre za dostavo).
 
 ## Shema
 
@@ -59,12 +58,33 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
   <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
-|------|------|
-| [**Sredstvo**](../../Sredstva/Materiali/Izdelki.md) | Prodan izdelek ali storitev. |
-| **Količina** | Prodana količina (privzeto **1**). |
-| **Neto cena** | Neto cena na enoto. |
-| **Popust (%)** | Neobvezen popust na postavki. |
-| **Vrednost** | Izračunane vrednosti (neto, davek, bruto). |
+|--------|-------------|
+| **Vrsta blaga oz. storitev** | Izdelek, storitev ali sredstvo, izbrano za to postavko. |
+| **Naziv postavke** | Prikazni naziv izbrane postavke (po potrebi ga je mogoče urediti). |
+| **[Davčna stopnja](../../../Skupno/Upravljanje/DavcneStopnje.md)** | Davčna stopnja, uporabljena na postavki (nastavljena v konfiguraciji davkov). |
+| **Cena brez DDV (na enoto)** | Cena na enoto brez davka. |
+| **Cena z DDV (na enoto)** | Cena na enoto z davkom (samodejno izračunana glede na davčno stopnjo). |
+| **Količina** | Količina izbrane postavke. |
+| **Popust (%)** | Odstotek popusta, uporabljen na neto ceno. |
+| **Skupni znesek brez davka** | Izračunan neto znesek (Cena brez DDV × Količina − Popust). |
+| **Skupni znesek z davkom** | Skupni znesek z vključenim davkom. |
+| **Vrsta obračuna DDV** | Določa način obračuna DDV v posebnih primerih:<br>• **Tristranske dobave** – Za trikotne EU transakcije, kjer DDV obračuna končni kupec (obrnjena davčna obveznost).<br>• **DDV obračuna kupec** – Uporaba obrnjene davčne obveznosti; DDV obračuna kupec namesto prodajalca.<br>• **Izvozne storitve** – Za storitve, opravljene kupcem zunaj EU (običajno oproščene DDV).<br>• **Prevozne storitve** – Posebna davčna obravnava za prevoz blaga.<br>• **Prevoz potnikov** – Posebna pravila DDV za prevoz potnikov.<br>• **Potovalne agencije** – Uporaba posebne maržne sheme za potovalne agencije.<br>• **Po carinskih postopkih 42 in 63** – Za uvoz, kjer je DDV odložen v namembno državo EU.<br>• **Prodaja odpoklicanega blaga iz EU** – Posebna davčna obravnava za vrnjeno ali odpoklicano blago znotraj EU. |
+| **Opis** | Dodatne informacije o postavki (neobvezno). |
+| **Alternativna valuta** | Možnost prikaza zneska postavke v izbrani alternativni valuti. Ob izbiri se znesek preračuna glede na tečaj, določen v dokumentu. |
+
+</details>
+
+<details>
+  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+
+| Polje | Opis |
+|--------|-------------|
+| **Glavna knjiga – Konto prihodka** | [Konto](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) za knjiženje prihodkov ali odhodkov postavke. |
+| **Glavna knjiga – Konto davka** | [Konto](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) za knjiženje davka, vezanega na postavko dokumenta. |
+| **[Intrastat – Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Tarifna oznaka (šifra blaga) za poročanje Intrastat. |
+| **Intrastat – Država porekla** | Država, iz katere blago izvira. |
+| **Intrastat – Neto teža (kg)** | Neto teža za statistično poročanje. |
+| **Intrastat – Statistična vrednost** | Prijavljena statistična vrednost blaga za poročanje Intrastat. |
 
 </details>
 
@@ -129,6 +149,52 @@ Maloprodajne račune je mogoče ustvariti **samo ročno**.
 
 7. Kliknite **Objavi**.  
    Dokument preide v stanje **Neplačani**.
+
+#### Alternativna valuta
+
+Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
+
+![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+
+Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
+
+#### Razdelka Transport in Intrastat
+
+Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
+
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+
+- **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
+- **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
+
+> [!NOTE]  
+> Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
+
+#### Postavke
+
+Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
+
+![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSaved.png)
+
+##### Glavna knjiga
+
+Razdelek **Glavna knjiga** določa, kako se dokument knjiži v glavno knjigo. Opredeljuje, kateri konti se uporabijo za knjiženje prihodkov, odhodkov in davkov ob shranjevanju in knjiženju dokumenta.
+
+Ob knjiženju dokumenta:
+
+- **Neto znesek** se knjiži na izbrani konto prihodka ali odhodka.
+- **Znesek davka** se knjiži na izbrani konto davka.
+- Sistem samodejno ustvari ustrezne temeljnice v glavni knjigi.
+
+Razpoložljivi konti so določeni v **[Kontnem načrtu](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**.
+
+##### Intrastat
+
+Če je omogočeno poročanje Intrastat in transakcija vključuje kupca iz druge države EU, se v obrazcu za urejanje postavke prikaže dodatni razdelek **Intrastat**.
+
+Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat.
+
+Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
 
 ## Evidentiranje plačil
 

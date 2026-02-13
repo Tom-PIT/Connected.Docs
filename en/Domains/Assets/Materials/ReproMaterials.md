@@ -69,8 +69,8 @@ A packaging definition describes the physical properties of a material and the a
 
 | Field | Description |
 |-------|-------------|
-| [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance-sheet account for stock value of this product. Set per material when overriding defaults. |
-| [**Account expense**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | P&L expense account (e.g., COGS) used when this product is consumed or sold, if overriding defaults. |
+| [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance sheet account where the value of this material’s inventory is recorded. Use this to override the default stock account for this specific material. |
+| [**Account expense**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Profit & loss account used when this material is consumed, issued from stock, or sold (e.g., Cost of Goods Sold). Use this to override the default expense account for this material. |
 | [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
 | [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
 | **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |

@@ -1,42 +1,40 @@
-# Knjiga prejetih računov za pridobitve blaga znotraj skupnosti
+# Knj. pre. rač. za pridobitve blaga znotraj skupnosti
 
-Pogled **Knj. pre. rač. za pridobitve blaga znotraj skupnosti** omogoča pregled **knjiženih prejetih računov, povezanih s pridobitvijo blaga znotraj Evropske unije**. Gre za **analitični pogled samo za branje**, ki temelji na zaključenih računovodskih knjižbah in ne omogoča ustvarjanja, urejanja ali spreminjanja dokumentov.
+Pogled **Knj. pre. rač. za pridobitve blaga znotraj skupnosti** omogoča pregled prejetih računov, povezanih s pridobitvijo blaga znotraj EU v skladu s posebnimi davčnimi pogoji poročanja.
 
-Ta pogled se običajno uporablja za **računovodski pregled**, **nadzor DDV**, **preverjanje prejetih računov dobaviteljev** ter **usklajevanje glavne knjige**.
-
-> [!NOTE]
->
-> * Vsi prikazani podatki temeljijo na **knjiženih (objavljenih) prejetih računih**.
-> * Dokumentov, prikazanih v tem pogledu, **ni mogoče odpreti ali podrobneje pregledovati**.
-> * Pogled je namenjen izključno **pregledu in poročanju**.
+Gre za **analitični pogled samo za branje**, namenjen spremljanju in usklajevanju podatkov. Podatkov na tem zaslonu ni mogoče urejati.
 
 Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knj. pre. rač. za pridobitve blaga znotraj skupnosti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
+> [!NOTE]  
+> Ta pogled je namenjen poročanju in preverjanju. Ne nadomešča uradnih DDV obračunov, temveč podpira notranjo kontrolo in usklajevanje.
+
 ![Knj. pre. rač. za pridobitve blaga znotraj skupnosti](../Images/ReceivedInvoicesSupplyOfGoods.png "Knj. pre. rač. za pridobitve blaga znotraj skupnosti")
 
-## Pregled
+## Namen
 
-Vsaka vrstica v seznamu predstavlja **en knjižen prejeti račun za blago**.
+Ta pogled omogoča uporabnikom:
 
-Pogled prikazuje združen seznam:
+- Pregled prejetih računov, ki ustrezajo kriterijem za poročanje o pridobitvah blaga
+- Preverjanje podatkov o dobavitelju (vključno z ID za DDV, kjer je opredeljen)
+- Podporo DDV poročanju in čezmejnim poročilnim postopkom
+- Usklajevanje prejetih računov z davčnimi in knjigovodskimi evidencami
 
-* prejetih računov za blago, ki so bili uspešno knjiženi v glavno knjigo,
-* dobaviteljev, pri katerih je bilo blago pridobljeno,
-* datumov knjiženja znotraj izbranega obdobja.
-
-Več vrstic z istim dobaviteljem in datumom pomeni **več ločenih prejetih računov**, kar je pričakovano vedenje.
-
-## Stolpci
-
-Tabela vsebuje naslednje stolpce:
-
-* **Dokument** – Datum dokumenta (knjiženja) prejetega računa, vključno z internim sistemskim časovnim žigom.
-* **Podjetje** – Naziv dobavitelja in njegova interna identifikacijska številka.
+Računi se prikažejo na seznamu glede na nastavljeno davčno obravnavo in poročevalske kriterije.
 
 ## Filtri
 
-Filtri na levi strani omogočajo omejitev prikazanih rezultatov po **datumu**, ki določa časovno obdobje, za katero so prikazani knjiženi prejeti računi. Prikazani bodo samo računi, katerih datum dokumenta spada v izbrano obdobje.
+V filtrirnem panelu lahko rezultate omejite:
+
+- **Datum (od – do)** – Prikaz računov v izbranem obdobju.
+
+## Stolpci
+
+Vsaka vrstica predstavlja en prejeti račun in vključuje:
+
+- **Dokument** – Datum dokumenta in interna referenca.
+- **Podjetje** – Naziv dobavitelja in njegova ID številka za DDV (če je definirana).
 
 ## Meni
 
-Meni v zgornjem desnem kotu omogoča možnost **Izvoz v PDF** – izvoz trenutno prikazanega seznama prejetih računov za blago v PDF dokument za potrebe poročanja, pregleda ali revizije.
+V meniju (zgornji desni kot) lahko izberete **Izvoz v PDF** za generiranje PDF datoteke filtriranega seznama.
