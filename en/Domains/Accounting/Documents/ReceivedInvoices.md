@@ -7,7 +7,7 @@ To access this screen, go to **Accounting / Invoices / Received invoices** in th
 > [!NOTE]
 > Received invoices are typically linked to one or more **Supply orders**. Linking supply orders allows the system to prefill details and propose accounting postings based on received goods.
 >
-> To post any detail lines, the related material must have an **Expense** specified in advance (e.g., set the Raw material inventory expense for new raw materials used in supply orders). Configure expenses in [**Expenses**](../../Supply/Management/Expenses.md) and assign them to [**materials**](../../Assets/Domain/Materials.md).
+> To post detail lines on a received invoice, an [**Expense**](../../Supply/Management/Expenses.md) must be selected for each line. This determines the ledger account, tax rate, and posting logic used when the document is confirmed.
 
 ### How received invoices fit into the accounting flow
 
@@ -102,7 +102,6 @@ To resolve:
 - Use the menu to **Revert** the document to Draft and adjust the header amount or detail lines accordingly (preferred). 
 - In an Available document, only the **Details** section can be edited to fix the mismatch.
 
-
 ## Actions
 
 ### Create received invoice
@@ -120,9 +119,13 @@ Under **Suggested postings**, the system proposes postings based on the linked s
 
 1. Review the suggested lines.
 2. Select the relevant items.
-3. Click **Create postings** to generate posting lines.
+3. Edit the **Expense** and **Quantity** fields on the list as needed.
 
-![Received invoice – suggested postings](../Images/ReceivedInvoicesNewSuggestedPostings.png "Suggested postings")
+	![Received Invoices Details Expense](../Images/ReceivedInvoicesDetailsExpense.png)
+
+4. Click **Create postings** to generate posting lines.
+
+   ![Received invoice – suggested postings](../Images/ReceivedInvoicesNewSuggestedPostings.png "Suggested postings")
 
 #### Attachments
 On every document, an **Attachments** section is available.

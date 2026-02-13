@@ -1,7 +1,5 @@
 # Receives
 
-# Receives
-
 A **Receive** document is used to record the arrival of materials into your warehouse. When goods physically arrive from a supplier or another location, you create a receive document to register them in the system. Examples include receiving:
 - [**Products**](../../Assets/Materials/Products.md)  
 - [**Semi products**](../../Assets/Materials/SemiProducts.md)  
@@ -20,7 +18,6 @@ To access Receives, go to **Logistics / Documents / Receives** in the [**navigat
 <details open>
   <summary><strong>Document</strong></summary>
 
-
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the receive document. |
@@ -33,8 +30,20 @@ To access Receives, go to **Logistics / Documents / Receives** in the [**navigat
 </details>
 
 <details>
-  <summary><strong>Details</strong></summary>
+  <summary><strong>Transport and Intrastat</strong></summary>
 
+| Field | Description |
+|------|-------------|
+| [**Delivery term**](../../../Common/Management/DeliveryTerms.md) | Delivery conditions agreed with the supplier (for example, costs and freight). |
+| [**Mode of transport**](../../../Common/Management/ModeOfTransport.md) | Transport method used to deliver the goods (for example, road transport). |
+| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
+| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+
+</details>
+
+<details>
+  <summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -53,18 +62,20 @@ To access Receives, go to **Logistics / Documents / Receives** in the [**navigat
 </details>
 
 <details>
-  <summary><strong>Transport and Intrastat</strong></summary>
+  <summary><strong>Details – Intrastat</strong></summary>
 
+This section becomes available when Intrastat reporting is enabled and the vendor is located in another EU country.
 
 | Field | Description |
-|------|-------------|
-| [**Delivery term**](../../../Common/Management/DeliveryTerms.md) | Delivery conditions agreed with the supplier (for example, costs and freight). |
-| [**Mode of transport**](../../../Common/Management/ModeOfTransport.md) | Transport method used to deliver the goods (for example, road transport). |
-| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
-| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
-| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+|-------|-------------|
+| [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Intrastat tariff code of the material. |
+| **Country origin** | Country where the goods were produced. |
+| **Net weight (kg)** | Net weight used for Intrastat reporting. |
+| **Invoiced amount** | Value of goods reported for statistical purposes. |
+| **Statistical value** | Additional statistical amount required by national regulations. |
 
 </details>
+
 
 ## List of receive documents
 
@@ -109,6 +120,28 @@ To create a new receive document:
 
 A newly created receive document appears in the **Drafts** view. Once published, it moves to **Committed**.
 
+## Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+
+![Transport and Intrastat sections](../Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+> [!NOTE]  
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+
+### Intrastat fields in Details
+
+When **Intrastat** is enabled and the selected **Vendor** is from another EU country, additional fields appear inside each **Detail line**.
+
+![Receive detail – Intrastat](../Images/DocumentDetailsIntrastat.png)
+
+These fields are used for Intrastat statistical reporting and are required for cross-border EU transactions.
+
+
 ## Attachments
 
 At the top of every document, an **Attachments** section is available. 
@@ -126,20 +159,6 @@ For receive documents, a **Disassemble** option may appear. This allows you to c
 ![Document connections](../Images/ReceivesDocumentConnections.png)
 
 For more details, see the [Disassemblies](Disassemblies.md) documentation.
-
-## Transport and Intrastat sections
-
-When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
-
-![Transport and Intrastat sections](../Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
-
-
-- **Transport** - Used to capture logistics-related information about how the goods were delivered.
-- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
-
-
-> [!NOTE]  
-Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ## Notes
 

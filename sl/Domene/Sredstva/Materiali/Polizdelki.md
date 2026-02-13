@@ -64,15 +64,15 @@ Za dostop do šifranta **Polizdelki** pojdite na
 </details>
 
 <details>
-<summary><strong>Intrastat in Glavna knjiga</strong></summary>
+<summary><strong>Glavna knjiga in Intrastat</strong></summary>
 
 | Polje | Opis |
 |------|------|
+| **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge tega izdelka. Nastavi se na ravni materiala in lahko preglasi privzeti konto zaloge. |
+| **[Konto stroška](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Konto poslovnega izida (npr. strošek prodanega blaga), ki se uporabi ob porabi, izdaji iz zaloge ali prodaji izdelka. Lahko preglasi privzeti konto stroška. |
 | **[Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Carinska tarifa za statistično in carinsko poročanje. |
 | **[Država porekla](../../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
 | **Pretvornik mase** | Faktor za pretvorbo osnovne merske enote v maso (npr. kg). Uporablja se v Intrastatu ali analitiki, ko je potreben podatek o teži. |
-| **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge tega izdelka. |
-| **[Konto stroška](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Konto stroška (npr. strošek prodanega blaga) ob porabi ali prodaji izdelka. |
 
 </details>
 

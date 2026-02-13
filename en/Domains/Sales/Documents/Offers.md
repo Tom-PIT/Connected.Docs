@@ -46,7 +46,6 @@ A typical flow:
 <details>
   <summary><strong>Intrastat</strong></summary>
 
-
 | Field | Description |
 |------|-------------|
 | [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
@@ -66,7 +65,12 @@ A typical flow:
 | **Net price (per unit)** | Unit price taken from the asset’s configuration or applicable [asset price list](../../Assets/Assets/AssetPriceLists.md). |
 | **Discount (%)** | Optional discount applied to this specific line. |
 | [**Tax rates**](../../../Common/Management/TaxRates.md) | Applied tax rule. |
+| **[Intrastat – Tariff](../../Accounting/Management/Intrastat/Tariffs.md)** | Commodity code used for Intrastat reporting. |
+| **Intrastat – Country of origin** | Country where the goods originate. |
+| **Intrastat – Net weight (kg)** | Net weight used for statistical reporting. |
+| **Intrastat – Statistical value** | Declared statistical value of goods for Intrastat reporting. |
 | **Value** | Total line value (quantity × net price, after discounts). |
+
 </details>
 
 ## Management
@@ -93,13 +97,11 @@ At the top of the Offers list, the system displays key indicators that summarize
 
 Filters on the left help narrow down results by **document dates**, **status**, and **customer**.
 
-
 ![Offers list](../Images/OffersListDrafts.png)
 
 An example of a list with **Completed** offers:
 
 ![Offers completed](../Images/OffersListCompleted.png)
-
 
 ## Actions
 
@@ -130,7 +132,6 @@ An example of a list with **Completed** offers:
 
 > [!NOTE]
 > When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Committed** group of states.
-
 
 ### Editing an offer
 
@@ -168,16 +169,14 @@ The Alternative currency section allows prices in the document to be expressed i
 
 When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
 
-## Transport and Intrastat sections
+#### Transport and Intrastat sections
 
 When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
 
 ![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
 
-
 - **Transport** - Used to capture logistics-related information about how the goods were delivered.
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
-
 
 > [!NOTE]  
 Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
@@ -187,6 +186,22 @@ Several Intrastat-related values are taken from **material code lists** (Intrast
 The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
 
 These values affect the printed document and follow-up logistics documents, but do not modify the master data.
+
+#### Details
+
+Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
+
+Add a new detail:
+
+![Sales order – Add detail](../Images/SalesOrdersNewDetailsV2.png "Sales order – Add detail")
+
+Saved detail:
+
+![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png)
+
+> [!NOTE]
+> When Intrastat is enabled, additional fields appear in the details section, such as Tariff, Country of origin, Net weight, and Statistical value. These fields are required for Intrastat reporting but do not affect the sales order processing.
+
 
 ### Completing an offer
 Once the offer in the **Available** status is ready, click on **Complete**.

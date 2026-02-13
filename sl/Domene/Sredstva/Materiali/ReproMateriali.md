@@ -63,15 +63,15 @@ Za dostop do šifranta **Repro materiali** pojdite na
 </details>
 
 <details>
-<summary><strong>Intrastat in Glavna knjiga</strong></summary>
+<summary><strong>Glavna knjiga in Intrastat</strong></summary>
 
 | Polje | Opis |
 |------|------|
+| **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge repromateriala. Nastavi se na ravni materiala in lahko preglasi privzeti konto zaloge za repromateriale.. |
+| **[Konto stroška](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Konto poslovnega izida, ki se uporabi ob porabi ali izdaji repromateriala iz zaloge (npr. strošek materiala v proizvodnji). Lahko preglasi privzeti konto stroška. |
 | **[Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Carinska tarifa za statistično in carinsko poročanje. |
 | **[Država porekla](../../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
 | **Pretvornik mase** | Faktor za pretvorbo osnovne merske enote v maso (npr. kg). Uporablja se v Intrastatu ali analitiki, ko je potreben podatek o teži. |
-| **[Konto zaloge](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Bilančni konto za vrednost zaloge tega materiala. |
-| **[Konto stroška](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)** | Konto stroška ob porabi ali uporabi repro materiala. |
 
 </details>
 

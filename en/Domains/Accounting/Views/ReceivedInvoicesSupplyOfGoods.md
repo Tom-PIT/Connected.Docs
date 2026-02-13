@@ -1,42 +1,40 @@
 # Received invoices supply of goods
 
-The **Received invoices supply of goods** view provides an overview of **posted incoming invoices related to the supply of goods**. It is a **read-only analytical view** based on committed accounting postings and does not allow creation, editing, or modification of documents.
+The **Received invoices supply of goods** view provides an overview of received invoices related to the supply of goods under specific tax reporting conditions.
 
-This view is typically used for **accounting review**, **VAT control**, **supplier invoice verification**, and **ledger reconciliation**.
+This is a **read-only analytical view** intended for monitoring and reconciliation purposes. Data cannot be edited from this screen.
 
-> [!NOTE]
->
-> * All data shown is based on **posted (published) incoming invoices**.
-> * Documents listed in this view **cannot be opened or drilled into**.
-> * The view is intended strictly for **review and reporting purposes**.
+To access this view, go to **Accounting / Ledger / Views / Received invoices supply of goods** in the [**Navigation**](../../../Common/UI/Navigation.md).
 
-To access this view, go to **Accounting / Ledger / Views / Received invoices supply of goods** in the [**navigation**](../../../Common/UI/Navigation.md).
+> [!NOTE]  
+> This view is intended for reporting and verification. It does not replace official VAT declarations but supports internal control and reconciliation.
 
-![Received Invoices Supply Of Goods](../Images/ReceivedInvoicesSupplyOfGoods.png "Received Invoices Supply Of Goods")
+![Received invoices supply of goods](../Images/ReceivedInvoicesSupplyOfGoods.png "Received invoices supply of goods")
 
-## Overview
+## Purpose
 
-Each row in the list represents **one posted incoming invoice for goods**.
+This view allows users to:
 
-The view displays a consolidated list of:
+- Review received invoices that qualify for supply-of-goods reporting
+- Verify supplier information (including VAT ID, where applicable)
+- Support VAT and cross-border reporting processes
+- Reconcile received invoices with tax and ledger records
 
-* Incoming invoices that have been successfully posted to the ledger
-* Suppliers from whom goods were purchased
-* Posting dates within the selected period
-
-Multiple rows with the same supplier and date indicate **multiple separate incoming invoices**, which is expected behavior.
-
-## Columns
-
-The table contains the following columns:
-
-* **Document** – The document (posting) date of the incoming invoice, including the internal system timestamp.
-* **Company** – The supplier name and the supplier’s internal identification number.
+Invoices appear in this list based on the configured tax treatment and reporting criteria.
 
 ## Filters
 
-The filters on the left side allow you to narrow down the displayed results by **Date**, which defines the date range for which posted incoming invoices are shown. Only invoices whose document date falls within this range will be included.
+The filter panel allows narrowing down results:
+
+- **Date (from – to)** – Displays invoices within the selected period.
+
+## Columns
+
+Each row represents one received invoice and includes:
+
+- **Document** – Document date and internal reference.
+- **Company** – Supplier name and VAT identification number (if defined).
 
 ## Menu
 
-The menu in the top-right corner provides the option **Export to PDF** – Exports the currently displayed list of received invoices for goods into a PDF document for reporting, review, or audit purposes.
+Use the menu (top right corner) to **Export to PDF** and generate a PDF of the filtered list.

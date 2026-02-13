@@ -30,7 +30,20 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [**
 </details>
 
 <details>
-  <summary><strong>Razdelek postavk</strong></summary>
+  <summary><strong>Transport in Intrastat</strong></summary>
+
+| Polje | Opis |
+|------|------|
+| [**Pogoj dobave**](../../../Skupno/Upravljanje/PogojiDobave.md) | Dogovorjeni pogoji dobave z dobaviteljem (npr. stroški in prevoz). |
+| [**Vrsta transporta**](../../../Skupno/Upravljanje/VrstaTransporta.md) | Način prevoza, uporabljen za dostavo blaga (npr. cestni transport). |
+| [**Država odpošiljanja**](../../../Skupno/Upravljanje/Drzave.md) | Država, iz katere je bilo blago odposlano. Ta vrednost je običajno določena na podlagi Intrastat konfiguracije materiala. |
+| [**Vrsta posla**](../../Racunovodstvo/Upravljanje/Intrastat/VrstaPosla.md) | Klasifikacija vrste transakcije za Intrastat poročanje (npr. neposredna prodaja ali nakup). |
+| [**Lega kraja**](../../Racunovodstvo/Upravljanje/Intrastat/LegaKraja.md) | Označuje kraj dostave blaga v skladu z Intrastat definicijami. |
+
+</details>
+
+<details>
+  <summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -47,6 +60,22 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [**
 | **Količina v paketu** | Število prevzetih paketov. |
 
 </details>
+
+<details>
+  <summary><strong>Postavke – Intrastat</strong></summary>
+
+Ta razdelek je na voljo, ko je omogočeno poročanje **Intrastat** in je dobavitelj iz druge države članice EU.
+
+| Polje | Opis |
+|-------|------|
+| [**Tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Intrastat tarifna oznaka materiala. |
+| **Država porekla** | Država, v kateri je bilo blago proizvedeno. |
+| **Neto teža (kg)** | Neto teža, uporabljena za poročanje Intrastat. |
+| **Fakturirani znesek** | Vrednost blaga, prijavljena za statistične namene. |
+| **Statistična vrednost** | Dodatni statistični znesek, zahtevan po nacionalnih predpisih. |
+
+</details>
+
 
 ## Seznam prevzemnih dokumentov
 
@@ -92,6 +121,26 @@ Postopek ustvarjanja novega prevzema:
 
 Novo ustvarjen prevzem se prikaže med **Osnutki**. Po objavi se premakne med **Objavljene** dokumente.
 
+## Razdelka Transport in Intrastat
+
+Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prejem prikažeta dodatna razdelka.
+
+![Razdelka Transport in Intrastat](../Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+
+- **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
+- **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
+
+> [!NOTE]  
+> Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
+
+### Intrastat polja v postavkah
+
+Ko je **Intrastat** omogočen in je izbrani **Dobavitelj** iz druge države članice EU, se v vsaki **postavki** prikažejo dodatna polja.
+
+![Prejem – Intrastat polja](../Images/DocumentDetailsIntrastat.png)
+
+Ta polja se uporabljajo za statistično poročanje Intrastat in so obvezna pri čezmejnih transakcijah znotraj EU.
+
 ## Priponke
 
 Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
@@ -110,9 +159,9 @@ Pri prevzemih se lahko pojavi možnost **Razstavljanje**, ki omogoča ustvarjanj
 
 Za več podrobnosti glejte dokumentacijo [**Demontaže**](Demontaze.md).
 
-## Postavke
+## Opombe
 
-Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komentarje ali informacije. Postavke se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
+Vsak dokument vsebuje razdelek **Opombe**, kamor lahko vnesete dodatne komentarje ali informacije. Opombe se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
 ## Meni
 
