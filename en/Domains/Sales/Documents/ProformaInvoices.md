@@ -251,6 +251,7 @@ The document menu provides the following actions:
 - **Printing**
 - **Exporting**
 - **Send as email**
+- **Delete all details** (only for drafts)
 - **Reverse document**  
 - **Return to draft** (only when permitted by system rules)
 
@@ -260,15 +261,18 @@ Reversing a proforma invoice removes its committed effect and creates a reversal
 
 ## Deletion
 
-A proforma invoice **can be deleted only in Draft state**, and only when it contains **no detail lines**.
+Draft documents can be deleted in the edit view, **only if they contain no details**.
 
 If the draft still includes items in the **Details** section:
 
-1. Click the material serial number to open the **Edit detail** screen.  
-2. Click **Delete** inside the Edit detail window to remove the material.  
-3. Repeat this for all remaining materials.
+1. Open the document menu (top right corner).
+2. Select **Delete all details** to remove all lines at once.
+3. Once the document contains no details, click **Delete** to remove the draft.
 
-Once the document contains no materials, you can click **Delete** to remove the draft.
+If you need to remove only a specific material instead of clearing the entire document:
 
-Committed documents **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).  
+1. Click the material serial number to open the **Edit detail** screen.
+2. Click **Delete** inside the Edit detail window.
 
+> [!NOTE]
+> Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.

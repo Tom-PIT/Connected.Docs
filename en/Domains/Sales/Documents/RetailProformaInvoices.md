@@ -255,5 +255,17 @@ To adjust inventory:
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
-Published documents cannot be deleted but they can be **reversed** or **returned to draft** (if allowed by system settings).
+If the draft still includes items in the **Details** section:
+
+1. Open the document menu (top right corner).
+2. Select **Delete all details** to remove all lines at once.
+3. Once the document contains no details, click **Delete** to remove the draft.
+
+If you need to remove only a specific material instead of clearing the entire document:
+
+1. Click the material serial number to open the **Edit detail** screen.
+2. Click **Delete** inside the Edit detail window.
+
+> [!NOTE]
+> Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 

@@ -311,25 +311,28 @@ Meni v zgornjem desnem kotu omogoča:
 
 ![Meni izdanih računov](../Images/IssuedInvoicesMenu.png "Meni izdanih računov")
 
-- tiskanje  
-- izvoz  
-- pošiljanje po e-pošti  
-- **storniranje dokumenta**  
-- vrnitev v osnutek (če je dovoljeno)
+- **Tiskanje**  
+- **Izvoz ** 
+- **Pošlji preko e-pošte**  
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrnitev v osnutek** (če je dovoljeno)
 
 ## Brisanje
 
-Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo postavk**.
+Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 
-Če osnutek vsebuje postavke v razdelku **Postavke**:
+Če osnutek še vedno vsebuje vrstice v razdelku **Postavke**:
 
-1. Kliknite serijsko številko ali naziv postavke, da odprete okno **Uredi postavko**.  
-2. V oknu urejanja kliknite **Izbriši**, da odstranite postavko.  
-3. Postopek ponovite, dokler dokument ne vsebuje več postavk.
+1. Odprite meni dokumenta (zgornji desni kot).
+2. Izberite **Izbriši vse postavke**, da odstranite vse vrstice hkrati.
+3. Ko dokument ne vsebuje več postavk, kliknite **Izbriši**, da odstranite osnutek.
 
-Ko dokument ne vsebuje nobene postavke, kliknite **Izbriši**, da odstranite osnutek.
+Če želite odstraniti samo določen material in ne vseh postavk:
 
-> [!NOTE]
-> - Izbris je mogoč samo za dokumente v stanju **Osnutek**.  
-> - Objavljenih računov ni mogoče izbrisati; uporabite **Storniraj dokument** ali **Vrni v osnutek**, če je na voljo.  
-> - Če so bila evidentirana plačila, računa ni mogoče izbrisati, dokler plačila niso odstranjena in dokument vrnjen v osnutek.
+1. Kliknite serijsko številko materiala, da odprete zaslon **Uredi postavko**.
+2. V oknu za urejanje kliknite **Izbriši**.
+
+> [!NOTE]  
+> Objavljenih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Stornacije.md) ali **vrnete v osnutek**.
+Če so bila evidentirana plačila, računa ni mogoče izbrisati, dokler plačila niso odstranjena in dokument vrnjen v osnutek.
