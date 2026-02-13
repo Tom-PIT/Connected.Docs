@@ -49,7 +49,7 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 | **Supply date** | Specific supply date for this material line. |
 | **Net price (per unit)** | Unit price taken from supplier material records or entered manually. |
 | **Discount (%)** | Optional discount applied to this specific detail line. |
-| **[Tax rate](../../../Common/Management/TaxRates.md)** | Applied tax rule. |
+| **[Tax rate](../../../Common/Management/TaxRates.md)** | Applied tax rule. If a **0%** tax rate is defined, it is automatically applied when ordering from a supplier located outside the home country. |
 | **Supplier code** | Vendor’s internal code/reference for the selected material. |
 | **Total cost** | Line total (quantity × net price − discount + tax). |
 
