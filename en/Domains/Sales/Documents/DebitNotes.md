@@ -5,9 +5,7 @@ A **Debit note** is a sales document used to **increase** the amount owed by a c
 Debit notes increase the customer’s outstanding balance. For reductions or refunds, see **[Credit notes](CreditNotes.md)**.
 
 > [!TIP]
->
 > You can easily review the current **debit and credit records** for each customer in the **[Company cards](../Views/CompanyCards.md)** view.
-
 
 To access this page, go to **Sales / Documents / Debit notes**.
 
@@ -15,11 +13,11 @@ To access this page, go to **Sales / Documents / Debit notes**.
 
 Debit notes are used after an invoice has already been issued:
 
-1. Issue an **[Issued invoice](IssuedInvoices.md)** for delivered goods or services.  
-2. Identify the need for an additional charge or correction that increases the invoice amount.  
-3. Create a **Debit note** linked to the issued invoice or as a standalone document.  
-4. Review and publish the debit note, moving it to **Committed**.  
-5. The debited amount increases the customer’s balance and is included in accounting.  
+1. Issue an **[Issued invoice](IssuedInvoices.md)** for delivered goods or services.
+2. Identify the need for an additional charge or correction that increases the invoice amount.
+3. Create a **Debit note** linked to the issued invoice or as a standalone document.
+4. Review and publish the debit note, moving it to **Committed**.
+5. The debited amount increases the customer’s balance and is included in accounting.
 6. Reverse the debit note if it was created by mistake (see **[Reversals](../../Logistics/Documents/Reversals.md)**).
 
 Debit notes affect accounting only and do not impact inventory.
@@ -31,36 +29,38 @@ Debit notes affect accounting only and do not impact inventory.
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the credit note. |
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the debit note. |
 | **Purchase order code** | Optional reference to the customer’s purchase order. |
-| **Customer** | Customer receiving the credit, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
-| **Issue date** | Date when the credit note is issued. |
+| **Customer** | Customer receiving the debit, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
+| **Issue date** | Date when the debit note is issued. |
 | **Delivery date** | Original delivery date of the invoiced goods or services. |
-| **Due date** | Date when the credit becomes effective (mandatory). |
+| **Due date** | Date when the debit becomes effective (mandatory). |
 | **Reference type** | Type of payment reference used (mandatory). |
 | **Reference number** | Reference number based on the chosen reference type. |
-| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account used for refunds or accounting (mandatory). |
+| **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account used for accounting (mandatory). |
 | **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
-| **Purpose code** | Optional reason or classification for the credit. |
-| **Rebate** | Overall rebate applied to the credit note. |
+| **Purpose code** | Optional reason or classification for the debit. |
+| **Rebate** | Overall rebate applied to the debit note. |
 | **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
+
+</details>
 
 <details>
   <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
-|--------|-------------|
-| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
-| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+|------|-------------|
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document. |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency. |
 | **Delivery** | Delivery company and address information. |
+
 </details>
 
 <details>
   <summary><strong>Intrastat</strong></summary>
-
 
 | Field | Description |
 |------|-------------|
@@ -74,7 +74,7 @@ Debit notes affect accounting only and do not impact inventory.
   <summary><strong>Details</strong></summary>
 
 | Field | Description |
-|--------|-------------|
+|------|-------------|
 | **Asset** | Product, service, or asset selected for this line. |
 | **Detail name** | Display name of the selected item (can be edited if allowed). |
 | **[Tax rate](../../../Common/Management/TaxRates.md)** | Tax rate applied to the line (defined in tax configuration). |
@@ -91,10 +91,10 @@ Debit notes affect accounting only and do not impact inventory.
 </details>
 
 <details>
-  <summary><strong>Ledger and Interstat details</strong></summary>
+  <summary><strong>Ledger and Intrastat details</strong></summary>
 
 | Field | Description |
-|--------|-------------|
+|------|-------------|
 | **Ledger - Account revenue / expense** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the line amount (e.g., sales revenue or purchase expense). |
 | **Ledger - Account tax** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the tax amount associated with the document line. |
 | **[Intrastat – Tariff](../../Accounting/Management/Intrastat/Tariffs.md)** | Commodity code used for Intrastat reporting. |
@@ -116,10 +116,10 @@ The debit notes list can be filtered by:
 - **Customer**
 
 Each row displays:
-- Customer  
-- Document code  
-- Document date  
-- Debit amount  
+- Customer
+- Document code
+- Document date
+- Debit amount
 
 Drafts can be edited; committed debit notes are final unless reversed.
 
@@ -131,8 +131,8 @@ Drafts can be edited; committed debit notes are final unless reversed.
 
 Debit notes can be created in two ways:
 
-- Via the [**action button**](../../../Common/UI/ActionButton.md) on the **Debit notes** screen  
-- From an existing [**Issued invoice**](IssuedInvoices.md) via *Linked documents → + Debit note*
+- Via the [**action button**](../../../Common/UI/ActionButton.md) on the **Debit notes** screen
+- From an existing [**Issued invoice](IssuedInvoices.md)** via *Linked documents → + Debit note*
 
 Once you start a new debit note, follow these steps:
 
@@ -142,7 +142,7 @@ Once you start a new debit note, follow these steps:
 
 2. Fill in the required header fields such as **Customer**, **Dates**, **Reference type**, and **Organization bank account**.
 
-3. Add items in the **Details** section by typing or scanning an **asset name**, **EAN**, or **serial number**.  
+3. Add items in the **Details** section by typing or scanning an **asset name**, **EAN**, or **serial number**.
    - Matching items are displayed for selection.
 
    ![Debit note details](../Images/DebitNoteNewDetails.png)
@@ -152,7 +152,7 @@ Once you start a new debit note, follow these steps:
 5. When ready, click **Publish** at the top of the page.  
    The document moves from **Draft** to **Committed** and becomes financially effective.
 
-> [!NOTE]  
+> [!NOTE]
 > Once published, a debit note cannot be edited. Any corrections must be done via reversal.
 
 #### Details
@@ -186,11 +186,11 @@ These fields are mandatory for cross-border EU transactions when the organizatio
 Only **Draft** debit notes can be edited.
 
 You can modify:
-- Header fields  
+- Header fields
 - Alternative currency
 - Transport
 - Delivery information
-- Detail lines  
+- Detail lines
 - Content texts (top and bottom)
 
 Committed debit notes are read-only.
@@ -221,12 +221,11 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 
 ![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
 
-
 - **Transport** - Used to capture logistics-related information about how the goods were delivered.
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
 
-> [!NOTE]  
-Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+> [!NOTE]
+> Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ## Menu
 
@@ -260,4 +259,3 @@ If you need to remove only a specific material instead of clearing the entire do
 
 > [!NOTE]
 > Committed debit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
-
