@@ -148,12 +148,14 @@ Once you start a new credit note, follow these steps:
 4. Edit quantities and values as needed, then click **Save** to confirm the detail.
 
 > [!NOTE]
+>
 > When adding a new detail to a **Credit note**, the **quantity is set to `-1` by default** as credit notes represent a reduction of the invoiced amount.
 
 5. When ready, click **Publish** at the top of the page.  
    The document moves from **Draft** to **Committed** and becomes financially effective.
 
 > [!NOTE]  
+>
 > Once published, a credit note cannot be edited. Any corrections must be done via reversal.
 
 #### Details
@@ -225,7 +227,8 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
 
 > [!NOTE]  
-Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+>
+>Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ## Menu
 
@@ -258,4 +261,5 @@ If you need to remove only a specific material instead of clearing the entire do
 2. Click **Delete** inside the Edit detail window.
 
 > [!NOTE]
+>
 > Committed credit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
