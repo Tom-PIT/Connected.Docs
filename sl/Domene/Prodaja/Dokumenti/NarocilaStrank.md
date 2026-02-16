@@ -250,23 +250,29 @@ Ko je naročilo stranke zaključeno (npr. po izdaji dobavnice ali računa), klik
 ## Meni
 
 Kontekstni meni omogoča:
-- tiskanje  
-- izvoz (PDF)  
-- uvoz postavk (za osnutke)  
-- brisanje vseh postavk (za osnutke)  
-- vrnitev v osnutek (za zaključene dokumente)
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Uvozi postavke** (če je dokument v stanju Osnutek)
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- **Vrni v osnutek** (če je dovoljeno)
 
 ![Meni naročil strank](../Images/SalesOrderMenu.png "Meni naročil strank")
 
 ## Brisanje
 
-Osnutke je mogoče izbrisati le, če **ne vsebujejo postavk**.
+Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 
-Če osnutek vsebuje postavke:
-1. Odprite **Uredi postavko**.  
-2. Kliknite **Izbriši** za vsako postavko.  
+Če osnutek še vedno vsebuje vrstice v razdelku **Postavke**:
 
-Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
+1. Odprite meni dokumenta (zgornji desni kot).
+2. Izberite **Izbriši vse postavke**, da odstranite vse vrstice hkrati.
+3. Ko dokument ne vsebuje več postavk, kliknite **Izbriši**, da odstranite osnutek.
+
+Če želite odstraniti samo določen material in ne vseh postavk:
+
+1. Kliknite serijsko številko materiala, da odprete zaslon **Uredi postavko**.
+2. V oknu za urejanje kliknite **Izbriši**.
 
 > [!NOTE]
 > - Izbrisati je mogoče samo **osnutke**.  

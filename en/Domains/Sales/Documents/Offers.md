@@ -214,15 +214,16 @@ Once the offer in the **Available** status is ready, click on **Complete**.
 ## Menu
 
 The top menu provides options for: 
-- Printing
-- Exporting (to PDF)
-- Sending the document via email (only for Committed documents)
+- **Printing**
+- **Exporting** (to PDF)
+- **Sending the document via email**
+- **Return to draft** (only for Committed documents)
 
 ![Offers menu](../Images/OffersMenu.png)
 
 ## Deletion
 
-Draft documents can be deleted on the edit screen, but only if they contain **no details**.
+Draft documents can be deleted on the edit screen, but only if they contain **no details**. Committed documents **cannot** be deleted.
 
 If the draft still includes items in the **Details** section:
 
@@ -231,8 +232,6 @@ If the draft still includes items in the **Details** section:
 3. Repeat this for all remaining materials.
 
 Once the document contains no materials, you can click **Delete** to remove the draft.
-
-Committed documents **cannot** be deleted
 
 > [!NOTE]  
 > An offer can be deleted only if it is not linked to another dependent document (e.g., Sales orders).

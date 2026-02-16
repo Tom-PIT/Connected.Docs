@@ -225,8 +225,9 @@ Za prilagoditev zaloge:
 Meni objavljenega dokumenta omogoča:
 - **Tiskanje**
 - **Izvoz**
-- **Pošiljanje po e-pošti**
-- **Storniraj dokument** – glejte [**Storno**](../../Logistika/Dokumenti/Storno.md)
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek) 
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
 - **Vrni v osnutek**
 
 ![Meni maloprodajnega računa](../Images/RetailInvoiceMenu.png "Meni maloprodajnega računa")

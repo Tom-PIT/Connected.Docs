@@ -28,8 +28,8 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | **Dobavitelj** | Dobavitelj materialov ali storitev, izbran iz **[Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md)**. |
 | **Datum dokumenta** | Datum nastanka nabavnega naloga. |
 | **Datum opravljene storitve** | Načrtovani datum dobave zahtevanih materialov (obvezno). |
-| **Rabat** | Neobvezni popust, uporabljen za celoten nabavni nalog. |
-| [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Interno stroškovno mesto, povezano z nabavo. |
+| **Rabat** | Neobvezni popust, uporabljen za celoten nabavni nalog. Če je določena davčna stopnja **0 %**, se samodejno uporabi pri naročilu pri dobavitelju s sedežem zunaj matične države. |
+| [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Interno stroškovno mesto, povezano z nabavo. Če je določena davčna stopnja **0 %**, se samodejno uporabi pri naročilu pri dobavitelju s sedežem zunaj matične države. |
 | **Šifra ponudbe** | Neobvezna referenca na ponudbo dobavitelja ali zunanji dokument. |
 | **Dostava – podjetje / naslov** | Podatki o lokaciji dostave, povzeti iz Poslovnega imenika ali ročno prilagojeni. |
 | **Vsebina na vrhu** | Vnaprej določeno uvodno besedilo iz **[Vnaprej določenih besedil](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md)** (entiteta: *Nabavni nalog*). |

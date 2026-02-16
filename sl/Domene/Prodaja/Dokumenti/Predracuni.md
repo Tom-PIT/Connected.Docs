@@ -239,8 +239,9 @@ Meni dokumenta omogoča naslednja dejanja:
 
 - **Tiskanje**
 - **Izvoz**
-- **Pošiljanje po e-pošti**
-- **Storniraj dokument**  
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek** (če sistemska pravila dovoljujejo)
 
 ![Meni predračuna](../Images/PrepaymentsMenu.png)
@@ -249,14 +250,19 @@ Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dok
 
 ## Brisanje
 
-Predračun je mogoče izbrisati **samo v stanju Osnutek** in le, če **ne vsebuje postavk**.
+Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 
-Če osnutek vsebuje postavke:
+Če osnutek še vedno vsebuje vrstice v razdelku **Postavke**:
 
-1. Odprite postavko.  
-2. Kliknite **Izbriši**.  
-3. Postopek ponovite za vse postavke.
+1. Odprite meni dokumenta (zgornji desni kot).
+2. Izberite **Izbriši vse postavke**, da odstranite vse vrstice hkrati.
+3. Ko dokument ne vsebuje več postavk, kliknite **Izbriši**, da odstranite osnutek.
 
-Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
+Če želite odstraniti samo določen material in ne vseh postavk:
 
-Potrjenih predračunov **ni mogoče** izbrisati, lahko pa jih **stornirate**.
+1. Kliknite serijsko številko materiala, da odprete zaslon **Uredi postavko**.
+2. V oknu za urejanje kliknite **Izbriši**.
+
+> [!NOTE]  
+> Objavljenih predračunov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Stornacije.md) ali **vrnete v osnutek**.
+

@@ -216,9 +216,10 @@ Ko je ponudba v statusu **Na voljo**, kliknite **Zaključi**.
 ## Meni
 
 Zgornji meni omogoča:
-- tiskanje
-- izvoz (v PDF)
-- pošiljanje dokumenta po e-pošti (samo za potrjene dokumente)
+- **Tiskanje**
+- **Izvoz (v PDF)**
+- **Pošiljanje dokumenta po e-pošti** (samo za potrjene dokumente)
+- **Povrni v osnutek** (samo za potrjene dokumente)
 
 ![Meni ponudb](../Images/OffersMenu.png "Meni ponudb")
 
