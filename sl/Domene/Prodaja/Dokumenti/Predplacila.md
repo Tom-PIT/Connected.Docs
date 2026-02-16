@@ -225,8 +225,9 @@ Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana 
 Meni dokumenta omogoča:
 - **Tiskanje**
 - **Izvoz**
-- **Pošiljanje po e-pošti**
-- **Storniraj dokument**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti)
 - **Vrni v osnutek** (če je dovoljeno)
 
 ![Meni predplačila](../Images/PrepaymentsMenu.png "Meni predplačila")
@@ -235,13 +236,19 @@ Storniranje razveljavi finančni učinek potrjenega predplačila. Za več inform
 
 ## Brisanje
 
-Predplačilo je mogoče izbrisati **samo v stanju Osnutek** in le, če **ne vsebuje postavk**.
+Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 
-Če osnutek vsebuje postavke:
-1. Odprite postavko.  
-2. Kliknite **Izbriši**.  
-3. Postopek ponovite za vse postavke.
+Če osnutek še vedno vsebuje vrstice v razdelku **Postavke**:
 
-Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
+1. Odprite meni dokumenta (zgornji desni kot).
+2. Izberite **Izbriši vse postavke**, da odstranite vse vrstice hkrati.
+3. Ko dokument ne vsebuje več postavk, kliknite **Izbriši**, da odstranite osnutek.
 
-Potrjenih predplačil **ni mogoče** izbrisati, lahko pa jih **stornirate**.
+Če želite odstraniti samo določen material in ne vseh postavk:
+
+1. Kliknite serijsko številko materiala, da odprete zaslon **Uredi postavko**.
+2. V oknu za urejanje kliknite **Izbriši**.
+
+> [!NOTE]  
+> Objavljenih predplačil **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Stornacije.md) ali **vrnete v osnutek**.
+

@@ -267,25 +267,27 @@ Click the context menu to:
 
 ![Sales orders – menu](../Images/SalesOrderMenu.png)
 
-- Print  
-- Export (PDF)  
-- Import details (for draft orders)
-- Delete all details (for draft orders)
-- Return to draft (for completed orders)
+- **Print**  
+- **Export** (PDF)  
+- **Import details** (for draft orders)
+- **Delete all details** (for draft orders)
+- **Return to draft** (for completed orders)
 
 ## Deletion
 
-Draft documents can be deleted on the edit screen, but only if they contain **no details**.
+Draft documents can be deleted in the edit view, **only if they contain no details**.
 
 If the draft still includes items in the **Details** section:
 
-1. Click the material serial number to open the **Edit detail** screen.  
-2. Click **Delete** inside the Edit detail window to remove the material.  
-3. Repeat this for all remaining materials.
+1. Open the document menu (top right corner).
+2. Select **Delete all details** to remove all lines at once.
+3. Once the document contains no details, click **Delete** to remove the draft.
 
-Once the document contains no materials, you can click **Delete** to remove the draft. If confirmed, the system removes the document permanently; otherwise, no changes are made.
+If you need to remove only a specific material instead of clearing the entire document:
+
+1. Click the material serial number to open the **Edit detail** screen.
+2. Click **Delete** inside the Edit detail window.
 
 > [!NOTE]
-> - Only **draft** sales orders can be deleted.  
-> - Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
+> Only **draft** sales orders can be deleted. Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
 

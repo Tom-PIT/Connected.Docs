@@ -174,10 +174,11 @@ Ko je dobavnica pripravljena, kliknite **Zaključi** na vrhu strani.
 
 Meni v zgornjem desnem kotu omogoča:
 
-![Meni dobavnic](../Images/DeliveryNotesMenu.png "Meni dobavnic")
+![Meni dobavnic](../Images/DeliveryNotesMenuV2SL.png "Meni dobavnic")
 
 - **Tiskanje**
 - **Izvoz (PDF)**
+- **Pošlji preko e-pošte**
 - **Tiskaj sredstvo** (zaključeni dokumenti)
 - **Storniraj dokument** (zaključeni dokumenti)
 - **Povrni v osnutek** (zaključeni dokumenti)

@@ -222,8 +222,9 @@ Meni dokumenta omogoča dodatna dejanja:
 
 - **Tiskanje**
 - **Izvoz**
-- **Pošlji po e-pošti**
-- **Storniraj dokument**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek** (če je dovoljeno)
 
 ![Meni bremepisa](../Images/CreditDebitNoteMenu.png "Meni bremepisa")
@@ -232,14 +233,18 @@ Storniranje bremepisa izniči njegov finančni učinek. Za podrobnosti glejte **
 
 ## Brisanje
 
-Bremepise v stanju **Osnutek** je mogoče izbrisati le, če **ne vsebujejo postavk**.  
-Postavke lahko odstranite preko menija → **Izbriši vse postavke**.
+Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 
-Za brisanje posameznih postavk:
-1. Odprite postavko s klikom nanjo.  
-2. Kliknite **Izbriši**.  
-3. Postopek ponovite po potrebi.
+Če osnutek še vedno vsebuje vrstice v razdelku **Postavke**:
 
-Ko je bremepis brez postavk, lahko izvedete **Izbriši**.
+1. Odprite meni dokumenta (zgornji desni kot).
+2. Izberite **Izbriši vse postavke**, da odstranite vse vrstice hkrati.
+3. Ko dokument ne vsebuje več postavk, kliknite **Izbriši**, da odstranite osnutek.
 
-Potrjenih bremepisov **ni mogoče** izbrisati, mogoče pa jih je **stornirati** ali **vrniti v osnutek**.
+Če želite odstraniti samo določen material in ne vseh postavk:
+
+1. Kliknite serijsko številko materiala, da odprete zaslon **Uredi postavko**.
+2. V oknu za urejanje kliknite **Izbriši**.
+
+> [!NOTE]  
+> Objavljenih bremepisov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Stornacije.md) ali **vrnete v osnutek**.

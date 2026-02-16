@@ -176,10 +176,11 @@ Once the delivery note is ready, click **Complete** at the top of the page.
 
 The top-right menu includes:
 
-![Delivery notes menu](../Images/DeliveryNotesMenu.png)
+![Delivery notes menu](../Images/DeliveryNotesMenuV2.png)
 
 - **Printing**
 - **Exporting (PDF)**
+- **Send as email**
 - **Print asset** (Completed documents)
 - **Reverse document** (Completed documents)
 - **Return to draft** (Completed documents)

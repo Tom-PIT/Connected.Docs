@@ -320,23 +320,27 @@ Available actions include:
 - **Printing** – Print the invoice using configured printouts.  
 - **Exporting** – Export to PDF or other available formats.  
 - **Send as email** – Email the invoice directly to the customer.  
+- **Delete all details** (only for drafts)
 - **[Reverse document](../../Logistics/Documents/Reversals.md)** – Create a reversal invoice for corrections.  
 - **Return to draft** – Move the invoice back to draft status for editing (if allowed by business rules).
 
 ## Deletion
 
-Draft documents can be deleted on the edit screen, but only if they contain **no details**.
+Draft invoices can be deleted in the edit view, **only if they contain no details**.
 
 If the draft still includes items in the **Details** section:
 
-1. Click the material serial number to open the **Edit detail** screen.  
-2. Click **Delete** inside the Edit detail window to remove the material.  
-3. Repeat this for all remaining materials.
+1. Open the document menu (top right corner).
+2. Select **Delete all details** to remove all lines at once.
+3. Once the document contains no details, click **Delete** to remove the draft.
 
-Once the document contains no materials, you can click **Delete** to remove the draft.
+If you need to remove only a specific material instead of clearing the entire document:
+
+1. Click the material serial number to open the **Edit detail** screen.
+2. Click **Delete** inside the Edit detail window.
 
 > [!NOTE]
-> - Only **draft** invoices can be deleted.  
-> - Once an invoice is published, you can no longer delete it; instead, use **[Reverse document](../../Logistics/Documents/Reversals.md)** or **Return to draft** if available.  
-> - If any payments have been recorded, the invoice cannot be deleted until those payments are removed and the document is returned to draft.
+> Deletion is only possible for draft documents. 
+> Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+
 
