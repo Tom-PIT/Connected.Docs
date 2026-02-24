@@ -100,6 +100,8 @@ Drafts allow editing of:
 - Batch 
 - Best before date
 - Notes  
+- Process 
+- Version
 
 ![Draft](../Images/ProductionOrdersDraft.png "Draft production order")
 
