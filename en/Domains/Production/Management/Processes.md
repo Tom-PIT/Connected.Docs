@@ -86,7 +86,7 @@ From the Versions screen, you can:
 - Lock a version  
 - Open a version to work with its operations and configuration screens  
 
-![Versions list](../Images/ProcessesVersionsList.png "Versions list")
+![Versions list](../Images/ProcessesVersionsListV2.png "Versions list")
 
 A version includes:
 
@@ -94,7 +94,30 @@ A version includes:
 - A list of **operations**  
 - Enable/disable controls  
 - The option to **lock** a version to prevent edits  
+- Version cost calculation and analysis features
 
+
+## Version cost calculation
+
+From the **Versions** screen you can estimate the **production cost per item** for a specific process version.
+
+![Versions cost column](../Images/ProcessesVersionsCalculateButton.png "Versions cost column")
+
+Each version displays a **Cost** column with:
+
+- **Izračunaj (Calculate)** – calculates the estimated production cost for the selected version.
+- **Cost value** – the last calculated cost per item.
+
+When **Izračunaj** is clicked, the system calculates the estimated cost of producing one item using that version. The calculation takes into account:
+
+- **Material prices**
+- **Human work** (labor effort)
+- **Non-human resources** (machines, workstations)
+- **Additional expenses** associated with the version
+
+If changes are made to the version (for example operations, materials, or resources), the cost should be recalculated.
+
+Clicking on the **cost value** opens the detailed [**version cost analysis**](VersionCostView.md) page, where the full cost structure is displayed.
 
 ## Operations inside a version
 
