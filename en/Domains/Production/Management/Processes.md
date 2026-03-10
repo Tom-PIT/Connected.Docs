@@ -117,7 +117,7 @@ When **Izračunaj** is clicked, the system calculates the estimated cost of prod
 
 If changes are made to the version (for example operations, materials, or resources), the cost should be recalculated.
 
-Clicking on the **cost value** opens the detailed [**version cost analysis**](VersionCostView.md) page, where the full cost structure is displayed.
+Clicking on the **cost value** opens the detailed [**version cost analysis**](../Analytics/VersionCostView.md) page, where the full cost structure is displayed.
 
 ## Operations inside a version
 

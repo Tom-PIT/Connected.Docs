@@ -2,7 +2,7 @@
 
 The **Version cost analysis** screen displays the **estimated production cost per item** for a specific **process version**.
 
-This view is opened by clicking the **cost value** in the **Cost** column on the **[Versions](Processes.md#versions)** screen.
+This view is opened by clicking the **cost value** in the **Cost** column on the **[Versions](../Management/Processes.md#versions)** screen.
 
 The page provides a detailed breakdown of how the total production cost is calculated, including materials, work effort, and additional expenses.
 
@@ -85,4 +85,4 @@ The **Total** value at the bottom of the page shows the final **estimated produc
 
 This value corresponds to the **cost shown in the Versions list**.
 
-If operations, materials, or resources are modified in the process version, the cost must be recalculated using **Izračunaj** on the **[Versions](Processes.md#versions)** page.
+If operations, materials, or resources are modified in the process version, the cost must be recalculated using **Izračunaj** on the **[Versions](../Management/Processes.md#versions)** page.
