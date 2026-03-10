@@ -33,7 +33,7 @@ This view helps quickly identify which components contribute most to the total c
 
 ## Materials
 
-The [**Materials**](../../Assets/Domain/Materials.md) section lists all materials consumed by the process operations.
+The [**Materials**](../../Assets/Domain/Materials.md) section lists all materials consumed by the process operations. [Supplier material prices](../../Supply/Management/SupplierMaterials.md) are used to calculate the cost contribution of each material.
 
 Each row displays:
 
@@ -65,7 +65,7 @@ Effort costs are calculated using the configured **resource hourly rates**.
 
 ## Expenses
 
-The **Expenses** section lists any **additional costs** applied to the process version.
+The **Expenses** section lists any **additional costs** applied to the process version. Expenses are defined in the [**Expenses**](../../Supply/Management/Expenses.md) code list and can be associated with the process version to account for costs not directly linked to materials or resources.
 
 Examples may include:
 
@@ -73,7 +73,7 @@ Examples may include:
 - Energy consumption
 - Operational overheads
 
-If no expenses are configured, the section displays **No costs**.
+If no expenses are configured in the Process, the section displays **No costs**.
 
 ## Total cost
 
