@@ -110,10 +110,10 @@ Each version displays a **Cost** column with:
 
 When **Izračunaj** is clicked, the system calculates the estimated cost of producing one item using that version. The calculation takes into account:
 
-- **Material prices**
-- **Human work** (labor effort)
-- **Non-human resources** (machines, workstations)
-- **Additional expenses** associated with the version
+- **Material prices** - set in [**Supplier material**](../../Supply/Management/SupplierMaterials.md) price lists
+- **Human work** (labor effort)  - set in [**Resources cost**](../../Resources/Management/ResourcesCosts.md)
+- **Non-human resources** (machines, workstations) - set also in [**Resources cost**](../../Resources/Management/ResourcesCosts.md)
+- **Additional expenses** associated with the version - set in the [**Expenses**](../../Supply/Management/Expenses.md) code list
 
 If changes are made to the version (for example operations, materials, or resources), the cost should be recalculated.
 
