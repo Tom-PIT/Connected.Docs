@@ -250,5 +250,5 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 2. V oknu za urejanje kliknite **Izbriši**.
 
 > [!NOTE]  
-> Objavljenih predplačil **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Stornacije.md) ali **vrnete v osnutek**.
+> Objavljenih predplačil **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
 

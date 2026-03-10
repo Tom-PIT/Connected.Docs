@@ -85,7 +85,7 @@ Na pogledu verzij lahko:
 - Zaklenete verzijo  
 - Odprete verzijo za delo z njenimi operacijami in konfiguracijo  
 
-![Seznam verzij](../Images/ProcessesVersionsList.png "Seznam verzij")
+![Seznam verzij](../Images/ProcessesVersionsListSL.png "Seznam verzij")
 
 Verzija vključuje:
 
@@ -93,6 +93,28 @@ Verzija vključuje:
 - Seznam **operacij**  
 - Kontrole za omogočanje/onemogočanje  
 - Možnost **zaklepa** verzije za preprečitev nadaljnjih sprememb  
+
+## Izračun stroška verzije
+
+Na zaslonu **Verzije** lahko ocenite **strošek proizvodnje na kos** za izbrano verzijo procesa.
+
+![Versions cost column](../Images/ProcessesVersionsCalculateButtonSL.png "Versions cost column")
+
+Vsaka verzija vsebuje stolpec **Strošek**, ki prikazuje:
+
+- **Izračunaj** – izračuna ocenjeni strošek proizvodnje za izbrano verzijo.
+- **Vrednost stroška** – zadnji izračunan strošek na kos.
+
+Ko kliknete **Izračunaj**, sistem izračuna ocenjeni strošek proizvodnje enega izdelka za izbrano verzijo procesa. Pri izračunu se upoštevajo:
+
+- **Cene materialov** – določene v cenikih [**Material dobaviteljev**](../../Nabava/Upravljanje/MaterialiDobaviteljev.md)
+- **Človeško delo** (delovni vložek) – določeno v šifrantu [**Postavke virov**](../../Viri/Upravljanje/PostavkeVirov.md)
+- **Nečloveški viri** (stroji, delovne postaje) – prav tako določeni v [**Postavke virov**](../../Viri/Upravljanje/PostavkeVirov.md)
+- **Dodatni stroški**, povezani z verzijo – določeni v šifrantu [**Stroški**](../../Nabava/Upravljanje/Stroski.md)
+
+Če se verzija spremeni (na primer operacije, materiali ali viri), je treba strošek ponovno izračunati.
+
+S klikom na **vrednost stroška** se odpre stran **[Analiza stroška verzije](../Analiza/AnalizaStroskaVerzije.md)**, kjer je prikazana celotna struktura stroškov.
 
 ## Operacije znotraj verzije
 
