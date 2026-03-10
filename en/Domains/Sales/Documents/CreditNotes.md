@@ -1,11 +1,10 @@
 # Credit notes
 
-A **Credit note** is a sales document used to reduce or cancel all or part of an already issued invoice. It is typically created when goods are returned, an overcharge occurred, or a correction is required after invoicing.  
+A **Credit note** is a sales document used to reduce or cancel all or part of an already issued invoice. It is typically created when goods are returned, an overcharge occurred, or a correction is required after invoicing.
 
 Credit notes decrease the customer’s outstanding balance. For increases or additional charges, see **[Debit notes](DebitNotes.md)**.
 
 > [!TIP]
->
 > You can easily review the current **debit and credit records** for each customer in the **[Company cards](../Views/CompanyCards.md)** view.
 
 To access this page, go to **Sales / Documents / Credit notes**.
@@ -14,11 +13,11 @@ To access this page, go to **Sales / Documents / Credit notes**.
 
 Credit notes are used after an invoice has already been issued:
 
-1. Issue an **[Issued invoice](IssuedInvoices.md)** for delivered goods or services.  
-2. Identify the need for a correction (return, discount, or pricing error).  
-3. Create a **Credit note** linked to the issued invoice or as a standalone document.  
-4. Review and publish the credit note, moving it to **Committed**.  
-5. The credited amount reduces the customer’s balance or is refunded according to payment terms.  
+1. Issue an **[Issued invoice](IssuedInvoices.md)** for delivered goods or services.
+2. Identify the need for a correction (return, discount, or pricing error).
+3. Create a **Credit note** linked to the issued invoice or as a standalone document.
+4. Review and publish the credit note, moving it to **Committed**.
+5. The credited amount reduces the customer’s balance or is refunded according to payment terms.
 6. Reverse the credit note if it was created by mistake (see **[Reversals](../../Logistics/Documents/Reversals.md)**).
 
 Credit notes affect accounting only and do not impact inventory.
@@ -45,16 +44,19 @@ Credit notes affect accounting only and do not impact inventory.
 | **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 
+</details>
+
 <details>
   <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
-|--------|-------------|
-| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions  as agreed upon with the customer. |
-| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method  as agreed upon with the customer. |
-| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document |
-| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency	|
+|------|-------------|
+| **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
+| **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method as agreed upon with the customer. |
+| [**Alternative currency**](../../../Common/Management/Currencies.md) | Alternative currency to the default one used in the document. |
+| [**Exchange rates**](../Management/ExchangeRates.md) | Exchange rate of the alternative currency with respect to the default currency. |
 | **Delivery** | Delivery company and address information. |
+
 </details>
 
 <details>
@@ -72,7 +74,7 @@ Credit notes affect accounting only and do not impact inventory.
   <summary><strong>Details</strong></summary>
 
 | Field | Description |
-|--------|-------------|
+|------|-------------|
 | **Asset** | Product, service, or asset selected for this line. |
 | **Detail name** | Display name of the selected item (can be edited if allowed). |
 | **[Tax rate](../../../Common/Management/TaxRates.md)** | Tax rate applied to the line (defined in tax configuration). |
@@ -89,10 +91,10 @@ Credit notes affect accounting only and do not impact inventory.
 </details>
 
 <details>
-  <summary><strong>Ledger and Interstat details</strong></summary>
+  <summary><strong>Ledger and Intrastat details</strong></summary>
 
 | Field | Description |
-|--------|-------------|
+|------|-------------|
 | **Ledger - Account revenue / expense** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the line amount (e.g., sales revenue or purchase expense). |
 | **Ledger - Account tax** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the tax amount associated with the document line. |
 | **[Intrastat – Tariff](../../Accounting/Management/Intrastat/Tariffs.md)** | Commodity code used for Intrastat reporting. |
@@ -114,10 +116,10 @@ The credit notes list can be filtered by:
 - **Customer**
 
 Each row displays:
-- Customer  
-- Document code  
-- Document date  
-- Credit amount (negative value)  
+- Customer
+- Document code
+- Document date
+- Credit amount (negative value)
 
 Drafts can be edited; committed credit notes are final unless reversed.
 
@@ -129,7 +131,7 @@ Drafts can be edited; committed credit notes are final unless reversed.
 
 Credit notes can be created in two ways:
 
-- Via the [**action button**](../../../Common/UI/ActionButton.md) on the **Credit notes** screen  
+- Via the [**action button**](../../../Common/UI/ActionButton.md) on the **Credit notes** screen
 - From an existing [**Issued invoice**](IssuedInvoices.md) via *Linked documents → + Credit note*
 
 Once you start a new credit note, follow these steps:
@@ -140,12 +142,14 @@ Once you start a new credit note, follow these steps:
 
 2. Fill in the required header fields such as **Customer**, **Dates**, **Reference type**, and **Organization bank account**.
 
-3. Add items in the **Details** section by typing or scanning an **asset name**, **EAN**, or **serial number**.  
+3. Add items in the **Details** section by typing or scanning an **asset name**, **EAN**, or **serial number**.
    - Matching items are displayed for selection.
 
    ![Credit note details](../Images/CreditNoteNewDetails.png)
 
 4. Edit quantities and values as needed, then click **Save** to confirm the detail.
+
+<!-- NOTE: callout must be outside the list to render reliably on GitHub -->
 
 > [!NOTE]
 > When adding a new detail to a **Credit note**, the **quantity is set to `-1` by default** as credit notes represent a reduction of the invoiced amount.
@@ -153,8 +157,9 @@ Once you start a new credit note, follow these steps:
 5. When ready, click **Publish** at the top of the page.  
    The document moves from **Draft** to **Committed** and becomes financially effective.
 
-> [!NOTE]  
+> [!NOTE]
 > Once published, a credit note cannot be edited. Any corrections must be done via reversal.
+
 
 #### Details
 
@@ -185,11 +190,11 @@ These fields are mandatory for cross-border EU transactions when the organizatio
 Only **Draft** credit notes can be edited.
 
 You can modify:
-- Header fields  
+- Header fields
 - Alternative currency
 - Transport
 - Delivery information
-- Detail lines  
+- Detail lines
 - Content texts (top and bottom)
 
 Committed credit notes are read-only.
@@ -220,12 +225,11 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 
 ![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
 
-
 - **Transport** - Used to capture logistics-related information about how the goods were delivered.
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
 
-> [!NOTE]  
-Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+> [!NOTE]
+> Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ## Menu
 

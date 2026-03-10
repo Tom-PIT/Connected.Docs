@@ -98,20 +98,22 @@ V osnutku je mogoče urejati:
 - Serijo
 - Datum uporabnosti
 - Opombe
+- Proces
+- Verzija
 
 ![Osnutek proizvodnega naloga](../Images/ProductionOrdersDraft.png "Osnutek proizvodnega naloga")
 
 ### Objavljanje osnutka
 
-Za prehod v stanje **V pripravi** mora biti izbrana **Organizacijska enota**.
+Za prehod v stanje **V obdelavi** mora biti izbrana **Organizacijska enota**.
 
 ![Izbira organizacijske enote](../Images/ProductionOrdersOrganizationUnits.png "Izbira organizacijske enote")
 
 Ko je pripravljeno, kliknite **Objavi**.
 
-## Proizvodni nalogi v pripravi
+## Proizvodni nalogi v obdelavi
 
-Nalogi v stanju **V pripravi** so v celoti pripravljeni in čakajo na aktivacijo. Izvajanje proizvodnje še ni mogoče.
+Nalogi v stanju **V obdelavi** so v celoti pripravljeni in čakajo na aktivacijo. Izvajanje proizvodnje še ni mogoče.
 
 V tem stanju lahko:
 
@@ -119,6 +121,7 @@ V tem stanju lahko:
 - Dodajate priloge  
 - Dodajate opombe  
 - Upravljate povezane dokumente
+
 
 Ko je nalog pripravljen za proizvodnjo, kliknite **Aktiviraj**.
 

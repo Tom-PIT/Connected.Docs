@@ -10,17 +10,17 @@ To access Visitors management, navigate to **Customer Support / Visitors / Visit
 
 | Field | Description |
 |------|-------------|
-| Status | Current visit status: Announced, On location, Completed, or Cancelled |
-| Author | User who created the visit record |
-| Scheduled arrival time | Planned date and time of the visit |
-| Actual arrival time | Actual date and time when the visitor arrived |
-| Visitor | Name of the visitor (mandatory) |
-| Email | Visitor email address |
-| Phone | Visitor phone number |
-| Company | Company the visitor represents |
-| Locations | Target locations for the visit, taken from the [**Organization units**](../../Production/Management/OrganizationUnits.md) code list. |
-| Guide | Internal person responsible for the visitor |
-| Signature | Visitor confirmation and signature, available in edit mode |
+| **Status** | Current visit status: Announced, On location, Completed, or Cancelled |
+| **Author** | User who created the visit record |
+| **Scheduled arrival time** | Planned date and time of the visit |
+| **Actual arrival time** | Actual date and time when the visitor arrived |
+| **Visitor** | Name of the visitor (mandatory) |
+| **Email** | Visitor email address |
+| **Phone** | Visitor phone number |
+| **Company** | Company the visitor represents |
+| **Locations** | Target locations for the visit, taken from the [**Organization units**](../../Production/Management/OrganizationUnits.md) code list. |
+| **Guide**| Internal person responsible for the visitor |
+| **Signature** | Visitor confirmation and signature, available in edit mode |
 
 ## List view and filters
 
@@ -30,10 +30,10 @@ The list view displays all recorded visits and supports filtering to quickly loc
 
 In the list view, visits are visually distinguished by color:
 
-- Announced – gray  
-- On location – green  
-- Completed – blue  
-- Cancelled – red  
+- Announced –  Blue
+- On location – Green  
+- Completed – Gray  
+- Cancelled – Red  
 
 Available filters:
 
@@ -70,7 +70,7 @@ Typical flow:
 
 ![Create new visit](../Images/VisitorsManagementNew.png "Create new visit")
 
-At this stage, the visit appears in the list as *Announced*.
+At this stage, the visit appears in the list as **Announced**.
 
 ## Managing the visit
 
@@ -84,7 +84,10 @@ When the visitor arrives on site:
 4. The visitor can sign the confirmation statement in the **Signature** section (see below). 
 5. Click **Save**.
 
-The visit now appears in the list as *On location*, and the visit duration tracking starts.
+The visit now appears in the list as **On location**, and the visit duration tracking starts.
+
+> [!NOTE]
+> Recording the **Actual arrival time** and **Signature** section and then saving the document automatically changes the status to **On location**.
 
 #### Signature confirmation
 
@@ -123,3 +126,19 @@ Visits can be deleted if they were created in error or are no longer needed on t
 To delete a visit:
 1. Open the visit record.
 2. Click **Delete** and confirm the action.
+
+## Operational entrance view (Tablet mode)
+
+In addition to the administrative view, the system provides a simplified operational view intended for use on a tablet device at the entrance.
+
+This view:
+
+- Displays only today’s visits in status **Announced** and **On location**
+- Has no filters
+- Refreshes automatically every 15 minutes
+
+Interaction differs slightly from the administrative view:
+
+- Selecting an **Announced** visit automatically changes the status to **On location** and sets the actual arrival time.
+- Selecting an **On location** visit automatically changes the status to **Completed** and sets the actual departure time.
+- Using the **+** button creates a new visit directly in **On location** status.

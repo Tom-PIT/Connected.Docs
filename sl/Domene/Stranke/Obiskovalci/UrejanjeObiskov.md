@@ -30,9 +30,9 @@ Seznamski pogled prikazuje vse zabeležene obiske in omogoča hitro filtriranje 
 
 V seznamu so obiski vizualno ločeni po barvah:
 
-- Najavljen – siva  
+- Najavljen – modra  
 - Na lokaciji – zelena  
-- Zaključen – modra  
+- Zaključen – siva  
 - Odpovedan – rdeča  
 
 Razpoložljivi filtri:
@@ -70,7 +70,7 @@ Tipičen potek:
 
 ![Dodaj nov obisk](../Images/VisitorsManagementNew.png "Dodaj nov obisk")
 
-Obisk se prikaže v seznamu kot *Najavljen*.
+Obisk se prikaže v seznamu kot **Najavljen**.
 
 ## Upravljanje obiska
 
@@ -84,7 +84,10 @@ Ko obiskovalec prispe na lokacijo:
 4. Obiskovalec lahko potrdi izjavo v razdelku **Podpis** (glejte spodaj).
 5. Kliknite **Shrani**.
 
-Obisk se prikaže v seznamu kot *Na lokaciji*. Začne se beleženje trajanja obiska.
+Obisk se prikaže v seznamu kot **Na lokaciji**. Začne se beleženje trajanja obiska.
+
+> [!NOTE]
+> Vnos **Dejanskega časa prihoda** in izpolnitev razdelka **Podpis**, nato pa shranjevanje dokumenta, samodejno spremeni status v **Na lokaciji**.
 
 #### Potrditev podpisa
 
@@ -123,4 +126,18 @@ Postopek:
 1. Odprite zapis obiska.
 2. Kliknite **Izbriši** in potrdite dejanje.
 
----
+## Operativni pogled vhoda (način za tablico)
+
+Poleg administrativnega pogleda sistem omogoča poenostavljen operativni pogled, namenjen uporabi na tablični napravi na vhodu.
+
+Ta pogled:
+
+- Prikazuje samo današnje obiske v statusu **Najavljen** in **Na lokaciji**
+- Ne vsebuje filtrov
+- Se samodejno osveži vsakih 15 minut
+
+Interakcija se nekoliko razlikuje od administrativnega pogleda:
+
+- Izbira obiska v statusu **Najavljen** samodejno spremeni status v **Na lokaciji** in nastavi dejanski čas prihoda.
+- Izbira obiska v statusu **Na lokaciji** samodejno spremeni status v **Zaključen** in nastavi dejanski čas odhoda.
+- Uporaba gumba **+** ustvari nov obisk neposredno v statusu **Na lokaciji**.
