@@ -1,3 +1,6 @@
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
+
 # Countries
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
