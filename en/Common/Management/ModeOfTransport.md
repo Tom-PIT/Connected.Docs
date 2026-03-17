@@ -1,7 +1,7 @@
+# Mode of transport
+
 <!-- app_route: /management/common/mode-of-transport -->
 <!-- app_label: Mode of transport -->
-
-# Mode of transport
 
 This code list defines the **modes of transport** used across the system. Modes of transport are referenced by logistics, sales, supply, and other documents to describe how goods are delivered or transferred.
 
@@ -21,6 +21,9 @@ To open the list, go to **Management / Mode of transport** in one of the followi
 
 ## List of transport modes
 
+<!-- app_route: /management/common/mode-of-transport -->
+<!-- app_label: Mode of transport -->
+
 The screen displays a list of all defined transport modes.
 
 Each row shows:
@@ -37,6 +40,9 @@ Clicking on a row opens the record in edit mode.
 
 ### Creating a new transport mode
 
+<!-- app_route: /management/common/mode-of-transport -->
+<!-- app_label: Mode of transport -->
+
 Click on the [action button](../UI/ActionButton.md) to open the form for creating a new transport mode.
 
 Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
@@ -46,6 +52,9 @@ Click **Add** to create the record or **Cancel** to return to the list without s
 ![New mode of transport](../Images/TransportModesNew.png "New mode of transport")
 
 ### Editing a transport mode
+
+<!-- app_route: /management/common/mode-of-transport -->
+<!-- app_label: Mode of transport -->
 
 To edit an existing transport mode, click its **Code** in the list. The screen switches to edit mode, allowing you to update the values.
 

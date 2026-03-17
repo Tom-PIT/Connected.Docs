@@ -1,7 +1,7 @@
+# Dashboard
+
 <!-- app_route: /warehouse/index -->
 <!-- app_label: Dashboard -->
-
-# Dashboard
 
 The **Dashboard** gives you a quick overview of the current stock situation across all materials. It highlights important conditions such as materials that are **below minimum stock**, **above maximum stock**, **out of stock**, or **blocked**. This allows you to immediately spot potential issues and take action where needed.
 
@@ -16,6 +16,10 @@ To access the Dashboard, go to **Logistics / Dashboard** in the [**navigation**]
 ![Dashboard](../Images/Dashboard.png "Dashboard")
 
 ## Stock Indicators
+
+<!-- app_route: /warehouse/index -->
+<!-- app_label: Dashboard -->
+
 
 The dashboard displays four main indicators. Clicking any indicator updates the list below to show only the materials matching that condition. If no indicator is selected, the dashboard displays recently created logistics documents.
 
@@ -37,6 +41,10 @@ Materials with a stock quantity **lower than the blocked quantity threshold**.
 
 ## Search and Scan
 
+<!-- app_route: /warehouse/index -->
+<!-- app_label: Dashboard -->
+
+
 You can search for a material by typing its **serial number**, **material code**, or **name** into the search bar. 
 
 The option **Include out of stock** allows you to expand the results to include materials with zero stock.
@@ -56,6 +64,10 @@ A results screen appears showing a list of materials with the following columns:
 
 ## Material List
 
+<!-- app_route: /warehouse/index -->
+<!-- app_label: Dashboard -->
+
+
 Below the indicators, the dashboard shows a list of materials relevant to the current indicator selection. The list includes:
 
 - Material type  
@@ -66,5 +78,3 @@ A search field on the right allows further filtering of visible items.
 
 >[!NOTE]
 >Click on a material to open its [Stock by material](Stock.md#stock-view-by-material) view.
-
----
