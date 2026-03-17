@@ -1,3 +1,6 @@
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+
 # Business directory
 
 The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.

@@ -1,3 +1,6 @@
+<!-- app_route: /management/common/mode-of-transport -->
+<!-- app_label: Mode of transport -->
+
 # Mode of transport
 
 This code list defines the **modes of transport** used across the system. Modes of transport are referenced by logistics, sales, supply, and other documents to describe how goods are delivered or transferred.

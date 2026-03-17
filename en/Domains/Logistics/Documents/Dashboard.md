@@ -1,3 +1,6 @@
+<!-- app_route: /warehouse/index -->
+<!-- app_label: Dashboard -->
+
 # Dashboard
 
 The **Dashboard** gives you a quick overview of the current stock situation across all materials. It highlights important conditions such as materials that are **below minimum stock**, **above maximum stock**, **out of stock**, or **blocked**. This allows you to immediately spot potential issues and take action where needed.
