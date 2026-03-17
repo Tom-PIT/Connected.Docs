@@ -1,7 +1,7 @@
+# Countries
+
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
-
-# Countries
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
@@ -26,6 +26,9 @@ To open the list, go to **Management / Countries** in one of the following domai
 
 ### List of countries
 
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
+
 The user interface contains a list of countries. If no record exists yet, the list is empty.
 
 Each record includes a status indicator to the left of its name:
@@ -40,12 +43,18 @@ Clicking this tag opens the interface for managing the related data linked to th
 
 ## Actions
 
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
+
 Click on the [action button](../UI/ActionButton.md) to display the following actions:
 
 - Import  
 - New  
 
 ### Import
+
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
 
 The **Import** action enables bulk creation or updating of country records. This function is intended for administrators who need to add or modify multiple countries at once.
 
@@ -69,6 +78,9 @@ Italy,1040,IT,false
 
 ### New
 
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
+
 Select **New** to open the input form for adding a new country.  
 
 Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
@@ -88,6 +100,9 @@ The [**Postal codes**](PostalCodes.md) tag opens the interface for managing post
 ![Editing Postal Codes](../Images/PostalCodesButton.png "Editing Postal Codes")
 
 ### Deletion
+
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
 
 Click **Delete** in the edit screen to open a confirmation dialog:
 

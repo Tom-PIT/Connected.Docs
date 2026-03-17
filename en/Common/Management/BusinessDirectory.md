@@ -1,7 +1,7 @@
+# Business directory
+
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
-
-# Business directory
 
 The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.
 
@@ -45,6 +45,9 @@ To open the list, go to **Management / Business directory** in one of the follow
 
 ### List of business directory entries
 
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+
 The user interface contains a list of entries in the business directory.
 
 ![Business Directory](../Images/BusinessDirectory.png "Business Directory")
@@ -64,6 +67,9 @@ The **Type** field determines the tax status of the entity. The available values
 
 ## Actions
 
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+
 Click on the [**action button**](../../Common/UI/ActionButton.md) to display the available actions:
 
 - **Import by VIES** 
@@ -75,6 +81,9 @@ Click on the [**action button**](../../Common/UI/ActionButton.md) to display the
 Allows automatic retrieval of data from the VIES database, based on the provided VAT ID.
 
 ### Import
+
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
 
 The **Import** action enables bulk creation or updating of company records.
 
@@ -89,6 +98,9 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ```
 ### New
 
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+
 The **New** action opens the input form for creating a new entry. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new record or **Cancel** to return to the list view without saving.
@@ -98,6 +110,10 @@ Click **Add** to save the new record or **Cancel** to return to the list view wi
 Additional collapsible sections are available:
 
 #### Edit contact
+
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+
 This section allows entering the primary contact information for the business partner. You can specify details such as contact name, phone number, and email address. These fields are optional and serve as reference information used across documents.
 
 #### Currency
@@ -112,11 +128,17 @@ The **Menu** in the top-right corner provides the **Exporting** option, which ex
 
 ### Editing a business directory entry
 
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+
 To edit an existing record, click the entry's **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Editing Business Directory Entry](../Images/BusinessDirectoryEdit.png "Editing Business Directory Entry")
 
 ### Deletion
+
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

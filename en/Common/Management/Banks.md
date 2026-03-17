@@ -1,7 +1,7 @@
+# Banks
+
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banks -->
-
-# Banks
 
 The **Banks** code list contains financial institutions that can be used across documents such as issued invoices, payments, and organizational bank accounts. Each bank entry stores its name, BIC code, and country, allowing the system to Banks connect with various [business partners](../../Common/Management/BusinessDirectory.md) and their transactions, and correctly reference banking information wherever needed.
 
@@ -26,6 +26,9 @@ In this screen you can view, add, and edit banks that are used throughout the sy
 
 ### Bank list
 
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
+
 The list view displays all recorded banks, including their **name**, **BIC**, and [**country**](../../Common/Management/Countries.md).  
 
 ![Banks](../Images/Banks.png "Banks list")
@@ -41,6 +44,9 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 ### Adding a new bank
 
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
+
 Click the [Action Button](../../Common/UI/ActionButton.md) to add a new bank.  
 
 Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
@@ -49,10 +55,16 @@ Fill in all required fields. Optional fields can be completed if relevant. For m
 
 ### Editing an existing bank
 
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
+
 To edit an existing bank, click on its **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to apply the changes or **Cancel** to discard them.
 
 ### Deletion
   
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
+
 Click **Delete** on the edit screen to open a confirmation dialog: 
 
 **Are you sure you want to delete this record?**  
