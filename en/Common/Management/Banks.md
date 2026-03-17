@@ -1,3 +1,6 @@
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
+
 # Banks
 
 The **Banks** code list contains financial institutions that can be used across documents such as issued invoices, payments, and organizational bank accounts. Each bank entry stores its name, BIC code, and country, allowing the system to Banks connect with various [business partners](../../Common/Management/BusinessDirectory.md) and their transactions, and correctly reference banking information wherever needed.
