@@ -1,5 +1,6 @@
 # Currencies
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Currencies -->
 The **Currencies** code list defines all monetary units that can be used across the system. Each currency includes its international code, symbol, and formatting rules, ensuring that prices, totals, and financial documents are displayed consistently and correctly. This list serves as the foundation for representing amounts in sales, purchasing, and reporting processes.
 
 This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Cost centers** in the [**navigation**](../../Common/UI/Navigation.md).
@@ -9,7 +10,8 @@ This page is available in the **Sales** and **Supply** domains, to access it go 
 > A currency must be configured before it can be used in price lists, documents, or financial calculations.
 
 ## Schema
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Currencies -->
 | Field | Description |
 |-------|-------------|
 | **Name** | Full name of the currency, e.g., *Euro*, *United States Dollar* (mandatory). |
@@ -22,7 +24,8 @@ This page is available in the **Sales** and **Supply** domains, to access it go 
 ## Management
 
 ### List view
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Currencies -->
 The list displays all configured currencies along with their code, symbol, LCID.
 
 ![Currencies list](../Images/Currencies.png)
@@ -37,7 +40,8 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 ## Actions
 
 ### Adding a new currency
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Currencies -->
 Click the **action button** to open the form for adding a new currency.
 
 ![Add new currency](../Images/CurrenciesNew.png)
@@ -47,7 +51,8 @@ Fill in all required fields. Optional fields can be completed if relevant. For m
 Click **Add** to save the new currency.
 
 ## Editing an existing currency
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Currencies -->
 Click a currency in the list to open its edit screen.
 
 ![Edit currency](../Images/CurrenciesEdit.png)
@@ -55,7 +60,8 @@ Click a currency in the list to open its edit screen.
 Click **Save** to confirm changes.
 
 ## Deletion
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Currencies -->
 Click **Delete** on the edit screen to open a confirmation dialog:
 
 **Are you sure you want to delete this record?**

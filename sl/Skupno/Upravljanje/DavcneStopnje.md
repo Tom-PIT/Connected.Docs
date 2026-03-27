@@ -1,5 +1,6 @@
 # Davčne stopnje
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Davčne stopnje -->
 Šifrant **Davčne stopnje** določa vse davčne stopnje, uporabljene v sistemu. Davčne stopnje določajo odstotek davka, ki se uporablja za izdelke, materiale in storitve v poslovnih dokumentih. Vsak zapis vsebuje opisno ime in številčno vrednost, kar zagotavlja dosledno obračunavanje davkov v vseh digitalnih vsebinah.
 
 Do šifranta **Davčne stopnje** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
@@ -11,7 +12,8 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Davčne stopnje** v nasl
 - **Nabava**
 
 ## Shema
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Davčne stopnje -->
 | Polje | Opis |
 |------|------|
 | **Naziv** | Opisno ime davčne stopnje (npr. *Standardna davčna stopnja 22* ali *Znižana davčna stopnja 9,5*). |
@@ -22,7 +24,8 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Davčne stopnje** v nasl
 ## Upravljanje
 
 ### Seznam davčnih stopenj
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Davčne stopnje -->
 Uporabniški vmesnik vsebuje seznam davčnih stopenj. Če zapisi še ne obstajajo, je seznam prazen.
 
 Vsak zapis vključuje indikator stanja levo od imena:
@@ -36,7 +39,8 @@ Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem
 ## Dejanja
 
 ### Dodaj novo davčno stopnjo
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Davčne stopnje -->
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
 
 Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
@@ -46,7 +50,8 @@ Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
 ![Dodaj novo davčno stopnjo](../Images/TaxRatesNew.png "Dodaj novo davčno stopnjo")
 
 #### Glavna knjiga
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Davčne stopnje -->
 Razdelek **Glavna knjiga** določa, kateri konti glavne knjige se uporabijo za knjiženje davčnih zneskov, ko je ta davčna stopnja uporabljena v poslovnih dokumentih.
 
 Polji **Debet** in **Kredit** omogočata izbor kontov iz šifranta **[Konti](../../Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**. Ti konti določajo, kam se davčni zneski knjižijo med računovodskimi transakcijami.
@@ -55,12 +60,14 @@ Polji **Debet** in **Kredit** omogočata izbor kontov iz šifranta **[Konti](../
 Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
 ### Urejanje obstoječe davčne stopnje
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Davčne stopnje -->
 Za urejanje obstoječe davčne stopnje kliknite njeno **Ime** na seznamu.  
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
 ### Brisanje
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Davčne stopnje -->
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**

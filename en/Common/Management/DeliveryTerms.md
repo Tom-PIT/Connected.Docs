@@ -1,5 +1,6 @@
 # Delivery terms
-
+<!-- app_route: management/common/delivery-terms -->
+<!-- app_label: Delivery terms -->
 Delivery terms define the conditions under which goods are delivered between seller and buyer, including the allocation of costs, risks, and responsibilities during transport.
 
 These terms are commonly used in **sales** documents to clearly specify delivery conditions.
@@ -9,7 +10,8 @@ Most delivery terms are based on internationally recognized **Incoterms®** publ
 To access this screen, go to **Accounting / Management / Intrastat / Delivery terms** in the [**navigation**](../../Common/UI/Navigation.md). It appears also under **Management** in the **Sales** domain.
 
 ## Schema
-
+<!-- app_route: management/common/delivery-terms -->
+<!-- app_label: Delivery terms -->
 | Field | Description |
 |-----|------------|
 | Code | Short identifier of the delivery term (for example, EXW, DAP, CIF). |
@@ -17,7 +19,8 @@ To access this screen, go to **Accounting / Management / Intrastat / Delivery te
 | Location to be indicated | Optional field used for delivery terms that require a named place (for example, port, terminal, or delivery address). |
 
 ## List view
-
+<!-- app_route: management/common/delivery-terms -->
+<!-- app_label: Delivery terms -->
 The list view displays all available delivery terms with their codes and descriptions.
 
 ![Delivery terms list](../Images/DeliveryTermsList.png "Delivery terms list")
@@ -29,7 +32,8 @@ The list can be searched using the search field in the top-right corner.
 ## Actions
 
 ### Adding a new delivery term
-
+<!-- app_route: management/common/delivery-terms -->
+<!-- app_label: Delivery terms -->
 Click the [**action button**](../../Common/UI/ActionButton.md) to create a new delivery term.
 
 Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
@@ -42,13 +46,15 @@ Fill in all required fields. Optional fields can be completed if relevant. For m
 After saving, the delivery term becomes available for selection in documents where delivery conditions are required.
 
 ### Editing an existing delivery term
-
+<!-- app_route: management/common/delivery-terms -->
+<!-- app_label: Delivery terms -->
 Click a delivery term in the list to open it in edit mode. Update the **code**, **description**, or **location to be indicated** as needed.
 
 Click **Save** to apply changes or **Cancel** to discard them.
 
 ### Deletion
-
+<!-- app_route: management/common/delivery-terms -->
+<!-- app_label: Delivery terms -->
 Open a delivery term from the list and click **Delete**. Confirm the deletion in the dialog.
 
 > [!NOTE]

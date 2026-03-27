@@ -16,6 +16,9 @@ To open the list, go to **Management / Business directory** in one of the follow
 
 ## Schema
 
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+
 | Field | Description |
 |-------|--------------|
 | **Name** | Full name of the entity, for example **ACME d.o.o.** or **John Smith** (mandatory). |
@@ -40,6 +43,9 @@ To open the list, go to **Management / Business directory** in one of the follow
 | **Phone** | Phone number of the primary contact. |
 | **Email** | Email address of the primary contact. |
 | **Use partner currency on documents** | Checkbox defining whether the entity's [currency](Currencies.md) is used in documents. |
+
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
 
 ## Management
 
@@ -77,7 +83,8 @@ Click on the [**action button**](../../Common/UI/ActionButton.md) to display the
 - **New**  
 
 ### Import by VIES
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
 Allows automatic retrieval of data from the VIES database, based on the provided VAT ID.
 
 ### Import
@@ -90,7 +97,8 @@ The **Import** action enables bulk creation or updating of company records.
 ![Import business directory](../Images/CompaniesImport.png "Import business directory")
 
 #### Example CSV structure
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
 ```csv
 Code,Name,Active,Supplier,Customer,Subcontractor,NaturalPerson,Street,Country,PostalCode,Type,VATID,RegistrationNumber,Tags,PaymentCurrency,DiscountPercent,PrimaryContact,Phone,Email
 ACME01,ACME d.o.o.,true,true,true,false,false,Dunajska cesta 10,SI,1000,Liable for tax,SI12345678,1234567-0,wholesale,EUR,5,Janez Novak,+386 1 234 56 78,info@acme.si
@@ -120,9 +128,11 @@ This section allows entering the primary contact information for the business pa
 This section allows you to define whether the business partner uses the **company currency** when appearing on documents. If enabled, all related transactions (such as sales or purchase documents) default to the company's currency instead of the partner's own currency settings.
 
 ![New Business Directory Collapsible Sections](../Images/BusinessDirectoryCollapsibleOptions.png "New business collapsible sections")
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
 ## Menu
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
 The **Menu** in the top-right corner provides the **Exporting** option, which exports all visible records into a CSV file, allowing further analysis or backup.
 
 

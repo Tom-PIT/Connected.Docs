@@ -6,6 +6,10 @@ Ta pogled je namenjen **finančnemu nadzoru in usklajevanju** ter ne omogoča us
 
 Za dostop do tega pogleda pojdite na **Prodaja / Pregledi / Poslovne kartice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
+Zaslon je dostopen tudi iz strani [**Poslovni imenik**](../../Skupno/Upravljanje/PoslovniImenik.md), s klikom na zavihek **Poslovne kartice** pri izbranem vnosu podjetja. V tem primeru bo seznam samodejno filtriran tako, da prikazuje samo zapise, povezane z izbranim podjetjem.
+
+![Oznaka poslovnih kartic](../../../Skupno/Images/CompanyCardsButtonSL.png "Oznaka poslovnih kartic")
+
 ## Seznam poslovnih kartic
 
 ![Pregled poslovnih kartic](../Images/CompanyCardsList.png "Pregled poslovnih kartic")

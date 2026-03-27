@@ -14,7 +14,8 @@ To open the list, go to **Management / Countries** in one of the following domai
 - **Supply**
 
 ## Schema
-
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
 | Field | Description |
 |-------|--------------|
 | **Name** | Country name. For example, Slovenia or **Austria**. |
@@ -68,7 +69,8 @@ The file must contain the required fields in a valid structure. You can download
 Click **Cancel** to return to the country list without importing.
 
 #### Example CSV structure
-
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
 ```csv
 Name,LCID,ISOAlpha2Code,Active
 Slovenia,1060,SI,true
@@ -90,11 +92,13 @@ Click **Add** to create the record or **Cancel** to return to the list view with
 ![New Country](../Images/NewCountry.png "New Country")
 
 ### Editing an existing country
-
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
 To edit an existing country, click the country's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 #### Postal codes
-
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
 The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing you to maintain correct geographical and mailing data.  
 
 ![Editing Postal Codes](../Images/PostalCodesButton.png "Editing Postal Codes")

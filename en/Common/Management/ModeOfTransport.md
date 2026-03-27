@@ -13,7 +13,8 @@ To open the list, go to **Management / Mode of transport** in one of the followi
 - **Sales**
 
 ## Schema
-
+<!-- app_route: /management/common/mode-of-transport -->
+<!-- app_label: Mode of transport -->
 | Field | Description |
 |------|-------------|
 | **Code** | Numeric identifier of the transport mode. |
@@ -61,7 +62,8 @@ To edit an existing transport mode, click its **Code** in the list. The screen s
 Click **Save** to apply the changes or **Cancel** to discard them.
 
 ### Deletion
-
+<!-- app_route: /management/common/mode-of-transport -->
+<!-- app_label: Mode of transport -->
 Click **Delete** on the edit screen to remove a transport mode and confirm the deletion in the dialog.
 > [!NOTE]
 > A transport mode can be deleted only if it is not referenced by existing documents.
