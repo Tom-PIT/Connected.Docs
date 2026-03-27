@@ -1,15 +1,18 @@
 # Poslovne enote
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
 **Poslovne enote** pripadajo določenemu **kupcu** ali **dobavitelju** in se upravljajo znotraj **Poslovnega imenika**.  Predstavljajo fizične lokacije, podružnice ali organizacijske enote podjetja, vsaka s svojimi naslovnimi podatki.
 
 ### Dostop do poslovnih enot
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
 Poslovne enote so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje poslovnih enot, povezanih z izbranim partnerjem.
 
-![Oznaka poslovnih enot](../Images/BusinessUnitsButton.png "Oznaka poslovnih enot")
+![Oznaka poslovnih enot](../Images/BusinessUnitsButtonSL.png "Oznaka poslovnih enot")
 
 ## Shema
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
 | Polje | Opis |
 |------|------|
 | **Ime** | Ime poslovne enote (npr. *Glavni sedež*, *Slovenska podružnica*). |
@@ -19,7 +22,8 @@ Poslovne enote so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kl
 | **Aktivna** | Označuje, ali je poslovna enota na voljo za izbiro v dokumentih. |
 
 ## Seznamski pogled
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
 Seznam poslovnih enot prikazuje vse enote, povezane z izbranim vnosom v Poslovnem imeniku.
 
 ![Seznam poslovnih enot](../Images/BusinessUnitsList.png)
@@ -29,7 +33,8 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 ## Dejanja
 
 ### Ustvarjanje nove poslovne enote
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
 Za dodajanje nove poslovne enote kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 
 ![Dodaj poslovno enoto](../Images/BusinessUnitsNew.png)
@@ -39,7 +44,8 @@ Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za ve
 Kliknite **Dodaj**, da shranite novo poslovno enoto.
 
 ### Urejanje obstoče poslovne enote
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
 1. Odprite vnos v Poslovnem imeniku.  
 2. Kliknite oznako **Poslovne enote**.  
 3. Izberite enoto s seznama.  
@@ -47,7 +53,8 @@ Kliknite **Dodaj**, da shranite novo poslovno enoto.
 5. Kliknite **Shrani**.
 
 ### Brisanje
-
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
 Poslovno enoto je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljena v drugih zapisih (npr. naslovih za dostavo ali dokumentih).
 
 > [!NOTE]  

@@ -19,6 +19,8 @@ To access Banks, go to **Sales / Management / Banks** in the [**navigation**](..
 | **BIC** | Bank Identifier Code used for international transactions (mandatory). |
 | [**Country**](../../Common/Management/Countries.md) | Country where the bank is registered (mandatory). |
 | **Active** | Indicates whether the bank is available for use in documents (selected by default). |
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
 
 ## Management
 

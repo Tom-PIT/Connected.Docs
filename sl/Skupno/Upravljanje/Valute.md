@@ -1,5 +1,6 @@
 # Valute
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Valute -->
 Šifrant **Valute** določa vse denarne enote, ki se lahko uporabljajo v sistemu. Vsaka valuta vključuje svojo mednarodno šifro, simbol in pravila oblikovanja, kar zagotavlja dosleden in pravilen prikaz cen, zneskov in finančnih dokumentov. Ta seznam predstavlja osnovo za prikaz zneskov v prodajnih, nabavnih in poročevalskih procesih.
 
 Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Stroškovna mesta** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
@@ -9,7 +10,8 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 > Valuta mora biti konfigurirana, preden se lahko uporablja v cenikih, dokumentih ali finančnih izračunih.
 
 ## Shema
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Valute -->
 | Polje | Opis |
 |------|------|
 | **Ime** | Polno ime valute, npr. *Evro*, *Ameriški dolar* (obvezno). |
@@ -22,7 +24,8 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 ## Upravljanje
 
 ### Seznamski pogled
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Valute -->
 Seznam prikazuje vse konfigurirane valute skupaj z njihovo šifro, simbolom in LCID.
 
 ![Seznam valut](../Images/Currencies.png)
@@ -36,7 +39,8 @@ Za hitro filtriranje valut po kodi ali imenu lahko uporabite **iskalno vrstico**
 ## Dejanja
 
 ### Dodaj novo valuto
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Valute -->
 Kliknite **akcijski gumb**, da odprete obrazec za dodajanje nove valute.
 
 ![Dodaj novo valuto](../Images/CurrenciesNew.png)
@@ -46,7 +50,8 @@ Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za ve
 Kliknite **Dodaj**, da shranite novo valuto.
 
 ### Urejanje obstoječe valute
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Valute -->
 Kliknite valuto na seznamu, da odprete zaslon za urejanje.
 
 ![Urejanje valute](../Images/CurrenciesEdit.png)
@@ -54,7 +59,8 @@ Kliknite valuto na seznamu, da odprete zaslon za urejanje.
 Kliknite **Shrani** za potrditev sprememb.
 
 ### Brisanje
-
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Valute -->
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**

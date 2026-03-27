@@ -1,5 +1,6 @@
 # Tax rates
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Tax rates -->
 This code list defines all **tax rates** used across the system. Tax rates determine the percentage of tax applied to products, materials, and services in business documents. Each entry includes a descriptive name and a numeric percentage, ensuring tax is applied consistently throughout the digital contents.
 
 
@@ -12,7 +13,8 @@ To open the list, go to the **Management** section of the following domains:
 - **Supply**
 
 ## Schema
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Tax rates -->
 | Field | Description |
 |-------|-------------|
 | **Name** | Descriptive name of the tax rate. For example, Standard tax rate 22 or Reduced tax rate 9.5. |
@@ -23,7 +25,8 @@ To open the list, go to the **Management** section of the following domains:
 ## Management
 
 ### List of tax rates
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Tax rates -->
 The user interface contains a list of tax rates. If no record exists yet, the list is empty.
 
 Each record includes a status indicator to the left of its name:
@@ -37,7 +40,8 @@ The list displays each tax rate's name and the applicable percentage. A search f
 ## Actions
 
 ### Adding a new tax rate
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Tax rates -->
 Click on the [**action button**](../UI/ActionButton.md) to add a new tax rate.
 
 The form includes the following fields:
@@ -51,7 +55,8 @@ After entering the required information, click **Add** to save the tax rate or *
 ![Add new tax rate](../Images/TaxRatesNew.png "Add new tax rate")
 
 #### Ledger
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Tax rates -->
 The **Ledger** section defines which general ledger accounts are used to post tax amounts when this tax rate is applied in business documents.
 
 The **Debit** and **Credit** fields allow selection of accounts from the [**Chart of accounts**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) code list. These accounts determine where tax amounts are posted during accounting transactions.
@@ -60,13 +65,15 @@ The **Debit** and **Credit** fields allow selection of accounts from the [**Char
 The ledger setup is required for accurate tax accounting, reporting, and regulatory compliance.
 
 ### Editing an existing tax rate
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Tax rates -->
 To edit an existing tax rate, click the tax rate's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 
 ### Deletion
-
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Tax rates -->
 Click **Delete** on the edit screen to open a confirmation dialog: 
 
 **Are you sure you want to delete this record?**  
