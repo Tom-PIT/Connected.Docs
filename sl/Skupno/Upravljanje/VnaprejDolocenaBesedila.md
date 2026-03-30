@@ -1,4 +1,9 @@
-# Prednastavljena besedila
+<!-- app_route: management/common-types/predefined-texts -->
+<!-- app_label: Prednastavljena besedila -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
+<!-- canonical_source_title: Vnaprej določena besedila -->
+
+# Vnaprej določena besedila
 <!-- app_route: management/common-types/predefined-texts -->
 <!-- app_label: Prednastavljena besedila -->
 Šifrant **Prednastavljena besedila** vsebuje vnaprej pripravljene besedilne predloge, ki jih je mogoče vstavljati v različne komercialne dokumente — kot so dobavnice, izdani računi, ponudbe ali dobavni nalogi. Ta besedila omogočajo hitro in dosledno dodajanje pogosto uporabljenih navodil, opomb ali besedil, specifičnih za kupca.
@@ -35,7 +40,7 @@ Na voljo je **iskalno polje** za hitro iskanje po kodi ali vsebini besedila.
 ### Dodaj novo prednastavljeno besedilo
 <!-- app_route: management/common-types/predefined-texts -->
 <!-- app_label: Prednastavljena besedila -->
-Kliknite **akcijski gumb**, da ustvarite novo prednastavljeno besedilo.
+Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da ustvarite novo prednastavljeno besedilo.
 
 ![Dodaj prednastavljeno besedilo](../Images/PredefinedTextsNew.png "Dodaj prednastavljeno besedilo")
 

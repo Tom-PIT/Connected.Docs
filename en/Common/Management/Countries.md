@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
+
 # Countries
 
 <!-- app_route: management/common-types/countries -->
@@ -83,7 +88,7 @@ Italy,1040,IT,false
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
 
-Select **New** to open the input form for adding a new country.  
+Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the input form for adding a new country.
 
 Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 

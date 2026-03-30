@@ -1,3 +1,8 @@
+<!-- app_route: management/contacts/job-titles -->
+<!-- app_label: Nazivi delovnih mest -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/NaziviDelovnihMest.md -->
+<!-- canonical_source_title: Nazivi delovnih mest -->
+
 # Nazivi delovnih mest
 <!-- app_route: management/contacts/job-titles -->
 <!-- app_label: Nazivi delovnih mest -->

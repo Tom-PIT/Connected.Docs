@@ -1,3 +1,8 @@
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BankAccounts.md -->
+<!-- canonical_source_title: Bank accounts -->
+
 # Bank accounts
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
@@ -37,7 +42,7 @@ Use the filters on the left (Enabled / Disabled) to show only active or inactive
 ### Creating a new bank account
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
-To add a new bank account, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner.
+Click on the [**action button**](../UI/ActionButton.md) to open the form to add a new bank account.
 
 ![Add bank account](../Images/BankAccountsNew.png)
 

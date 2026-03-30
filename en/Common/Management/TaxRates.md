@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/tax-rates -->
+<!-- app_label: Tax rates -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/TaxRates.md -->
+<!-- canonical_source_title: Tax rates -->
+
 # Tax rates
 <!-- app_route: management/common-types/tax-rates -->
 <!-- app_label: Tax rates -->
@@ -42,7 +47,7 @@ The list displays each tax rate's name and the applicable percentage. A search f
 ### Adding a new tax rate
 <!-- app_route: management/common-types/tax-rates -->
 <!-- app_label: Tax rates -->
-Click on the [**action button**](../UI/ActionButton.md) to add a new tax rate.
+Click on the [**action button**](../UI/ActionButton.md) to open the form to add a new tax rate.
 
 The form includes the following fields:
 - **Name**

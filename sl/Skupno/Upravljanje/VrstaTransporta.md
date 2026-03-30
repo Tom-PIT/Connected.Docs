@@ -1,3 +1,8 @@
+<!-- app_route: /management/common/mode-of-transport -->
+<!-- app_label: Vrsta transporta -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VrstaTransporta.md -->
+<!-- canonical_source_title: Vrsta transporta -->
+
 # Vrsta transporta
 <!-- app_route: /management/common/mode-of-transport -->
 <!-- app_label: Vrsta transporta -->
@@ -40,7 +45,7 @@ Klik na vrstico odpre zapis v načinu urejanja.
 ### Dodajanje nove vrste transporta
 <!-- app_route: /management/common/mode-of-transport -->
 <!-- app_label: Vrsta transporta -->
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete obrazec za dodajanje nove vrste transporta.
+Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove vrste transporta.
 
 Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 

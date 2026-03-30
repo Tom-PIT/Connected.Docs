@@ -1,3 +1,8 @@
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PoslovniImenik.md -->
+<!-- canonical_source_title: Poslovni imenik -->
+
 # Poslovni imenik
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
@@ -77,15 +82,17 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpolo�
 - **Uvoz**  
 - **Nov**
 
-### Uvoz prek VIES
+### Uvoz z VIES
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
-Omogoča samodejno pridobivanje podatkov iz baze VIES na podlagi vnesene ID-številke za DDV.
+Za poenostavitev postopka dodajanja podjetij, registriranih za DDV, v poslovni imenik omogoča dejanje **Uvozi z VIES** samodejno pridobivanje podatkov iz baze podatkov VIES na podlagi podane ID za DDV.
+
+Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz z VIES**. V odprtem pogovornem oknu vnesite ID za DDV podjetja, ki ga želite uvoziti (na primer **SI12345678**). Kliknite **Uvozi**, da začnete postopek.
 
 ### Uvoz
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
-Dejanje **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov podjetij.
+Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov podjetij.
 
 ![Uvoz poslovnega imenika](../Images/CompaniesImport.png "Uvoz poslovnega imenika")
 
@@ -100,7 +107,7 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ### Nov
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
-Dejanje **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa. 
+Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa. 
 
 Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 

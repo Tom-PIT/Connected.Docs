@@ -1,3 +1,9 @@
+<!-- app_route: management/common-types/cost-centers -->
+<!-- app_label: Cost centers -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/CostCenters.md -->
+<!-- canonical_source_title: Cost centers -->
+
+
 # Cost centers
 <!-- app_route: management/common-types/cost-centers -->
 <!-- app_label: Cost centers -->
@@ -29,7 +35,7 @@ You can use the **Search** bar to filter cost centers by name or code.
 ### Add new cost center
 <!-- app_route: management/common-types/cost-centers -->
 <!-- app_label: Cost centers -->
-Click the **action button** to open the creation form and add a new cost center.
+Click on the [**action button**](../UI/ActionButton.md) to open the creation form and add a new cost center.
 
 ![Add new cost center](../Images/CostCentersNew.png "Add cost center")
 

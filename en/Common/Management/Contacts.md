@@ -1,3 +1,9 @@
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Contacts.md -->
+<!-- canonical_source_title: Contacts -->
+
+
 # Contacts
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->

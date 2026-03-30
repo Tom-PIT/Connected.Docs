@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/predefined-texts -->
+<!-- app_label: Predefined texts -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/PredefinedTexts.md -->
+<!-- canonical_source_title: Predefined texts -->
+
 # Predefined texts
 <!-- app_route: management/common-types/predefined-texts -->
 <!-- app_label: Predefined texts -->
@@ -35,7 +40,7 @@ A **Search** bar is available to quickly find records by code or text content.
 ### Add new predefined text
 <!-- app_route: management/common-types/predefined-texts -->
 <!-- app_label: Predefined texts -->
-Click the **action button** to create a new predefined text.
+Click the **action button** to open the form to create a new predefined text.
 
 ![Add predefined text](../Images/PredefinedTextsNew.png "Add predefined text")
 

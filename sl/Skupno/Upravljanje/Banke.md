@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Banke.md -->
+<!-- canonical_source_title: Banke -->
+
 # Banke
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
@@ -42,7 +47,7 @@ Za hitro filtriranje bank po kodi ali imenu lahko uporabite **iskalno vrstico**.
 ### Dodaj novo banko
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
-Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove banke.
+Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove banke.
 
 Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 

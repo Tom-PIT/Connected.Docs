@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/PostalCodes.md -->
+<!-- canonical_source_title: Postal codes -->
+
 # Postal codes
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
@@ -38,7 +43,7 @@ Click on the [action button](../UI/ActionButton.md) to display the following act
 ### Creating a new postal code
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
-To add a new postal code, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner and choose **New**.
+Click on the [**action button**](../UI/ActionButton.md) to open the form to add a new postal code.
 
 ![Add postal code](../Images/PostalCodesNew.png)
 
