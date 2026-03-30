@@ -6,6 +6,8 @@
 # Nazivi delovnih mest
 <!-- app_route: management/contacts/job-titles -->
 <!-- app_label: Nazivi delovnih mest -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/NaziviDelovnihMest.md -->
+<!-- canonical_source_title: Nazivi delovnih mest -->
 **Nazivi delovnih mest** so del modula **Podpora strankam** in določajo vloge, ki jih je mogoče dodeliti [kontaktom](Kontakti.md) v [**Poslovnem imeniku**](PoslovniImenik.md). Omogočajo razvrščanje oseb, kot so *skrbnik kupcev*, *nabavni referent* ali *direktor*.
 
 Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
@@ -13,6 +15,8 @@ Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest
 ## Shema
 <!-- app_route: management/contacts/job-titles -->
 <!-- app_label: Nazivi delovnih mest -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/NaziviDelovnihMest.md -->
+<!-- canonical_source_title: Nazivi delovnih mest -->
 | Polje | Opis |
 |------|------|
 | **Ime** | Naziv delovnega mesta ali vloga (npr. *Skrbnik kupcev*, *Direktor*). |
@@ -21,6 +25,8 @@ Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest
 ## Seznamski pogled
 <!-- app_route: management/contacts/job-titles -->
 <!-- app_label: Nazivi delovnih mest -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/NaziviDelovnihMest.md -->
+<!-- canonical_source_title: Nazivi delovnih mest -->
 Seznam prikazuje vse nazive delovnih mest, definirane v sistemu.
 
 ![Seznam nazivov delovnih mest](../Images/JobTitlesList.png "Seznam nazivov delovnih mest")
@@ -32,6 +38,8 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 ### Ustvarjanje novega naziva delovnega mesta
 <!-- app_route: management/contacts/job-titles -->
 <!-- app_label: Nazivi delovnih mest -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/NaziviDelovnihMest.md -->
+<!-- canonical_source_title: Nazivi delovnih mest -->
 Za dodajanje novega naziva delovnega mesta kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Novo**.
 
 ![Dodaj nov naziv delovnega mesta](../Images/JobTitlesNew.png "Dodaj nov naziv delovnega mesta")
@@ -43,6 +51,8 @@ Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
 ### Urejanje obstoječega naziva delovnega mesta
 <!-- app_route: management/contacts/job-titles -->
 <!-- app_label: Nazivi delovnih mest -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/NaziviDelovnihMest.md -->
+<!-- canonical_source_title: Nazivi delovnih mest -->
 1. Odprite **Stranke → Upravljanje → Nazivi delovnih mest**.  
 2. Izberite naziv delovnega mesta s seznama.  
 3. Posodobite ime ali stanje aktivnosti.  
@@ -51,6 +61,8 @@ Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
 ### Brisanje
 <!-- app_route: management/contacts/job-titles -->
 <!-- app_label: Nazivi delovnih mest -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/NaziviDelovnihMest.md -->
+<!-- canonical_source_title: Nazivi delovnih mest -->
 Naziv delovnega mesta je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v obstoječih kontaktih.
 
 > [!NOTE]  

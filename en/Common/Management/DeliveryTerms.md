@@ -6,6 +6,8 @@
 # Delivery terms
 <!-- app_route: management/common/delivery-terms -->
 <!-- app_label: Delivery terms -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/DeliveryTerms.md -->
+<!-- canonical_source_title: Delivery terms -->
 Delivery terms define the conditions under which goods are delivered between seller and buyer, including the allocation of costs, risks, and responsibilities during transport.
 
 These terms are commonly used in **sales** documents to clearly specify delivery conditions.
@@ -17,6 +19,8 @@ To access this screen, go to **Accounting / Management / Intrastat / Delivery te
 ## Schema
 <!-- app_route: management/common/delivery-terms -->
 <!-- app_label: Delivery terms -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/DeliveryTerms.md -->
+<!-- canonical_source_title: Delivery terms -->
 | Field | Description |
 |-----|------------|
 | Code | Short identifier of the delivery term (for example, EXW, DAP, CIF). |
@@ -26,6 +30,8 @@ To access this screen, go to **Accounting / Management / Intrastat / Delivery te
 ## List view
 <!-- app_route: management/common/delivery-terms -->
 <!-- app_label: Delivery terms -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/DeliveryTerms.md -->
+<!-- canonical_source_title: Delivery terms -->
 The list view displays all available delivery terms with their codes and descriptions.
 
 ![Delivery terms list](../Images/DeliveryTermsList.png "Delivery terms list")
@@ -39,6 +45,8 @@ The list can be searched using the search field in the top-right corner.
 ### Adding a new delivery term
 <!-- app_route: management/common/delivery-terms -->
 <!-- app_label: Delivery terms -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/DeliveryTerms.md -->
+<!-- canonical_source_title: Delivery terms -->
 Click the [**action button**](../../Common/UI/ActionButton.md) to create a new delivery term.
 
 Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
@@ -53,6 +61,8 @@ After saving, the delivery term becomes available for selection in documents whe
 ### Editing an existing delivery term
 <!-- app_route: management/common/delivery-terms -->
 <!-- app_label: Delivery terms -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/DeliveryTerms.md -->
+<!-- canonical_source_title: Delivery terms -->
 Click a delivery term in the list to open it in edit mode. Update the **code**, **description**, or **location to be indicated** as needed.
 
 Click **Save** to apply changes or **Cancel** to discard them.
@@ -60,6 +70,8 @@ Click **Save** to apply changes or **Cancel** to discard them.
 ### Deletion
 <!-- app_route: management/common/delivery-terms -->
 <!-- app_label: Delivery terms -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/DeliveryTerms.md -->
+<!-- canonical_source_title: Delivery terms -->
 Open a delivery term from the list and click **Delete**. Confirm the deletion in the dialog.
 
 > [!NOTE]

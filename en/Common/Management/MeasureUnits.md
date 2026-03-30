@@ -7,6 +7,8 @@
 
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
+<!-- canonical_source_title: Measure units -->
 
 Measure units are how you count or measure items (for example: piece, kilogram, meter, liter). They make quantities consistent across documents, stock, and calculations and control rounding/formatting (e.g., 2 pcs, 1.75 kg, 3.000 m) across all domains.
 
@@ -22,6 +24,8 @@ You can access the **Measure units** code list from different domains in the [**
 
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
+<!-- canonical_source_title: Measure units -->
 
 To open the list, go to **Management / Measure units** in one of the following domains:
 
@@ -43,6 +47,8 @@ To open the list, go to **Management / Measure units** in one of the following d
 
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
+<!-- canonical_source_title: Measure units -->
 
 ## Management
 
@@ -50,6 +56,8 @@ To open the list, go to **Management / Measure units** in one of the following d
 
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
+<!-- canonical_source_title: Measure units -->
 
 The user interface contains a list of measure units. If no record exists yet, the list is empty.
 
@@ -67,6 +75,8 @@ The list displays each measure unit's name, abbreviation, and precision.
 
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
+<!-- canonical_source_title: Measure units -->
 
 Click on the [**action button**](../UI/ActionButton.md) to add a new measure unit.
 
@@ -80,6 +90,8 @@ After entering the required information, click **Add** to save the measure unit 
 
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
+<!-- canonical_source_title: Measure units -->
 
 To edit an existing measure unit, click the unit's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
 
@@ -91,6 +103,8 @@ Click **Save** to confirm changes or **Cancel** to discard them.
 
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
+<!-- canonical_source_title: Measure units -->
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

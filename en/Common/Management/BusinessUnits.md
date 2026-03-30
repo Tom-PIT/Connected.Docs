@@ -7,11 +7,15 @@
 # Business units
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessUnits.md -->
+<!-- canonical_source_title: Business units -->
 Business units belong to a specific **customer** or **vendor** and are managed inside the **Business directory**. They represent physical locations, branches, or organizational units of the company, each with its own address details.
 
 ### Accessing business units
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessUnits.md -->
+<!-- canonical_source_title: Business units -->
 Business units appear as a tag under each Business directory entry. Click the tag to open the list of business units associated with that company or individual.
 
 ![Business units button](../Images/BusinessUnitsButton.png "Business units button")
@@ -19,6 +23,8 @@ Business units appear as a tag under each Business directory entry. Click the ta
 ## Schema
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessUnits.md -->
+<!-- canonical_source_title: Business units -->
 | Field | Description |
 |-------|-------------|
 | **Name** | Name of the business unit (e.g., *Head Office*, *Slovenian Branch*). |
@@ -30,6 +36,8 @@ Business units appear as a tag under each Business directory entry. Click the ta
 ## List view
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessUnits.md -->
+<!-- canonical_source_title: Business units -->
 The **Business units** list displays all units linked to the selected business directory entry.
 
 ![Business units list](../Images/BusinessUnitsList.png)
@@ -41,6 +49,8 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive un
 ### Creating a new business unit
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessUnits.md -->
+<!-- canonical_source_title: Business units -->
 To add a new business unit, click on the [**action button**](../UI/ActionButton.md) in the bottom-right corner.
 
 ![Add business unit](../Images/BusinessUnitsNew.png)
@@ -52,6 +62,8 @@ Click **Add** to save the new business unit.
 ### Editing an existing business unit
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessUnits.md -->
+<!-- canonical_source_title: Business units -->
 1. Open the Business directory entry.  
 2. Click the **Business units** tag.  
 3. Select a unit from the list.  
@@ -61,6 +73,8 @@ Click **Add** to save the new business unit.
 ### Deletion
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessUnits.md -->
+<!-- canonical_source_title: Business units -->
 A business unit can be deleted from the Edit page, but only if it is not referenced in other records (such as delivery addresses or documents).
 
 > [!NOTE]  

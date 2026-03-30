@@ -7,6 +7,8 @@
 
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BankAccounts.md -->
+<!-- canonical_source_title: Bank accounts -->
 
 The **Banks** code list contains financial institutions that can be used across documents such as issued invoices, payments, and organizational bank accounts. Each bank entry stores its name, BIC code, and country, allowing the system to Banks connect with various [business partners](../../Common/Management/BusinessDirectory.md) and their transactions, and correctly reference banking information wherever needed.
 
@@ -17,24 +19,29 @@ To access Banks, go to **Sales / Management / Banks** in the [**navigation**](..
 > Before managing bank records, ensure that the [**Countries**](../../Common/Management/Countries.md) code list is properly configured.  
 
 ## Schema
-
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BankAccounts.md -->
+<!-- canonical_source_title: Bank accounts -->
 | Field | Description |
 |-------|-------------|
 | **Name** | Full name of the bank (mandatory). |
 | **BIC** | Bank Identifier Code used for international transactions (mandatory). |
 | [**Country**](../../Common/Management/Countries.md) | Country where the bank is registered (mandatory). |
 | **Active** | Indicates whether the bank is available for use in documents (selected by default). |
-<!-- app_route: management/common-types/banks -->
-<!-- app_label: Banks -->
 
 ## Management
-
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BankAccounts.md -->
+<!-- canonical_source_title: Bank accounts -->
 In this screen you can view, add, and edit banks that are used throughout the system.
 
 ### Bank list
-
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BankAccounts.md -->
+<!-- canonical_source_title: Bank accounts -->
 
 The list view displays all recorded banks, including their **name**, **BIC**, and [**country**](../../Common/Management/Countries.md).  
 
@@ -50,9 +57,10 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 ## Actions
 
 ### Adding a new bank
-
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BankAccounts.md -->
+<!-- canonical_source_title: Bank accounts -->
 
 Click the [Action Button](../../Common/UI/ActionButton.md) to open the form to add a new bank entry.  
 
@@ -61,16 +69,18 @@ Fill in all required fields. Optional fields can be completed if relevant. For m
 ![Banks – New](../Images/BanksNew.png "Add new bank")
 
 ### Editing an existing bank
-
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BankAccounts.md -->
+<!-- canonical_source_title: Bank accounts -->
 
 To edit an existing bank, click on its **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to apply the changes or **Cancel** to discard them.
 
 ### Deletion
-  
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BankAccounts.md -->
+<!-- canonical_source_title: Bank accounts -->
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

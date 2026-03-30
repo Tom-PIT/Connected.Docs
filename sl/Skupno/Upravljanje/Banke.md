@@ -6,6 +6,8 @@
 # Banke
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Banke.md -->
+<!-- canonical_source_title: Banke -->
 Šifrant **Banke** vsebuje finančne institucije, ki se lahko uporabljajo v dokumentih, kot so izdani računi, plačila in organizacijski bančni računi. Vsak zapis banke vsebuje ime, šifro BIC in državo, kar sistemu omogoča povezovanje z različnimi [poslovnimi partnerji](../../Skupno/Upravljanje/PoslovniImenik.md) in njihovimi transakcijami ter pravilno sklicevanje na bančne podatke kjerkoli so potrebni.
 
 Za dostop do šifranta Banke se pomaknite na **Prodaja / Upravljanje / Banke** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
@@ -17,6 +19,8 @@ Za dostop do šifranta Banke se pomaknite na **Prodaja / Upravljanje / Banke** v
 ## Shema
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Banke.md -->
+<!-- canonical_source_title: Banke -->
 | Polje | Opis |
 |------|------|
 | **Ime** | Polno ime banke (obvezno). |
@@ -27,11 +31,15 @@ Za dostop do šifranta Banke se pomaknite na **Prodaja / Upravljanje / Banke** v
 ## Upravljanje
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Banke.md -->
+<!-- canonical_source_title: Banke -->
 Na tem zaslonu lahko pregledujete, dodajate in urejate banke, ki se uporabljajo v celotnem sistemu.
 
 ### Seznam bank
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Banke.md -->
+<!-- canonical_source_title: Banke -->
 Seznam prikazuje vse evidentirane banke, vključno z njihovim **imenom**, **šifro BIC** in [**državo**](../../Skupno/Upravljanje/Drzave.md).
 
 ![Seznam bank](../Images/Banks.png "Seznam bank")
@@ -47,6 +55,8 @@ Za hitro filtriranje bank po kodi ali imenu lahko uporabite **iskalno vrstico**.
 ### Dodaj novo banko
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Banke.md -->
+<!-- canonical_source_title: Banke -->
 Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove banke.
 
 Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
@@ -56,11 +66,15 @@ Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za ve
 ### Uredi obstoječo banko
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Banke.md -->
+<!-- canonical_source_title: Banke -->
 Za urejanje obstoječe banke kliknite na njeno **ime** v seznamu. Vmesnik se preklopi v način urejanja, kjer so prikazane obstoječe vrednosti za spremembe. Kliknite **Shrani**, da potrdite spremembe, ali **Prekliči**, da jih zavrnete.
 
 ### Brisanje
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Banke.md -->
+<!-- canonical_source_title: Banke -->
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**

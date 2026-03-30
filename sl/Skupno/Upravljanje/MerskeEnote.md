@@ -6,6 +6,8 @@
 # Merske enote
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/MerskeEnote.md -->
+<!-- canonical_source_title: Merske enote -->
 **Merske enote** določajo, kako se količine štejejo ali merijo (na primer: kos, kilogram, meter, liter). Zagotavljajo doslednost količin v dokumentih, zalogah in izračunih ter nadzorujejo zaokroževanje in oblikovanje vrednosti (npr. 2 kos, 1,75 kg, 3,000 m) v vseh domenah.
 
 Primeri:
@@ -19,6 +21,8 @@ Primeri:
 Do šifranta **Merske enote** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/MerskeEnote.md -->
+<!-- canonical_source_title: Merske enote -->
 Za odpiranje seznama pojdite v razdelek **Upravljanje / Merske enote** v naslednjih domenah:
 
 - **Sredstva**
@@ -31,6 +35,8 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Merske enote** v nasledn
 ## Shema
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/MerskeEnote.md -->
+<!-- canonical_source_title: Merske enote -->
 | Polje | Opis |
 |------|------|
 | **Naziv** | Ime merske enote, uporabljeno v seznamih in dokumentih (npr. **kilogram** ali **meter**) (obvezno). |
@@ -43,6 +49,8 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Merske enote** v nasledn
 ### Seznam merskih enot
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/MerskeEnote.md -->
+<!-- canonical_source_title: Merske enote -->
 Uporabniški vmesnik vsebuje seznam merskih enot. Če zapisi še ne obstajajo, je seznam prazen.
 
 Vsak zapis vključuje indikator stanja levo od imena:
@@ -58,6 +66,8 @@ Seznam prikazuje ime merske enote, okrajšavo in natančnost.
 ### Ustvarjanje nove merske enote
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/MerskeEnote.md -->
+<!-- canonical_source_title: Merske enote -->
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo mersko enoto.
 
 Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
@@ -69,6 +79,8 @@ Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje merske enote ali
 ### Urejanje merske enote
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/MerskeEnote.md -->
+<!-- canonical_source_title: Merske enote -->
 Za urejanje obstoječe merske enote kliknite njeno **Ime** na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe.
 
 ![Urejanje merske enote](../Images/MeasureUnitsEdit.png "Urejanje merske enote")
@@ -78,6 +90,8 @@ Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 ### Brisanje
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/MerskeEnote.md -->
+<!-- canonical_source_title: Merske enote -->
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**
