@@ -1,3 +1,8 @@
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
+<!-- canonical_source_title: Business directory -->
+
 # Business directory
 
 <!-- app_route: /management/contacts/companies -->
@@ -85,14 +90,16 @@ Click on the [**action button**](../../Common/UI/ActionButton.md) to display the
 ### Import by VIES
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
-Allows automatic retrieval of data from the VIES database, based on the provided VAT ID.
+To simplify the process of adding VAT-registered companies to the business directory, the **Import by VIES** action allows automatic retrieval of data from the VIES database, based on the provided VAT ID.
+
+Click on the [**action button**](../UI/ActionButton.md) and select **Import by VIES**. In the opened dialog, enter the VAT ID of the company you want to import (for example, **SI12345678**). Click **Import** to start the process.
 
 ### Import
 
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
 
-The **Import** action enables bulk creation or updating of company records.
+Click on the [**action button**](../UI/ActionButton.md) and select **Import**. This action enables bulk creation or updating of company records.
 
 ![Import business directory](../Images/CompaniesImport.png "Import business directory")
 
@@ -108,8 +115,7 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
-
-The **New** action opens the input form for creating a new entry. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+Click on the [**action button**](../UI/ActionButton.md) and select **New**. This action opens the form for creating a new entry. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new record or **Cancel** to return to the list view without saving.
 

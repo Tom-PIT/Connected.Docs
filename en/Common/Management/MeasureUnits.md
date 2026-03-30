@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/measure-units -->
+<!-- app_label: Measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
+<!-- canonical_source_title: Measure units -->
+
 # Measure units
 
 <!-- app_route: /management/common-types/measure-units -->

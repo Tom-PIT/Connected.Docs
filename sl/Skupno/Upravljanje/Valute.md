@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Valute -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Valute.md -->
+<!-- canonical_source_title: Valute -->
+
 # Valute
 <!-- app_route: management/common-types/currencies -->
 <!-- app_label: Valute -->
@@ -41,7 +46,7 @@ Za hitro filtriranje valut po kodi ali imenu lahko uporabite **iskalno vrstico**
 ### Dodaj novo valuto
 <!-- app_route: management/common-types/currencies -->
 <!-- app_label: Valute -->
-Kliknite **akcijski gumb**, da odprete obrazec za dodajanje nove valute.
+Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove valute.
 
 ![Dodaj novo valuto](../Images/CurrenciesNew.png)
 

@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Države -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Drzave.md -->
+<!-- canonical_source_title: Države -->
+
 # Države
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Države -->
@@ -41,7 +46,7 @@ Klik na to oznako odpre vmesnik za upravljanje povezanih podatkov za izbrano dr�
 ## Dejanja
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Države -->
-Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
+Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 
 - Uvoz  
 - Nov
@@ -51,7 +56,7 @@ Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 <!-- app_label: Države -->
 Dejanje **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov držav. Funkcija je namenjena skrbnikom, ki morajo hkrati dodati ali spremeniti več držav.
 
-Ob izbiri **Uvoz** sistem odpre vmesnik za nalaganje:
+Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz** sistem odpre vmesnik za nalaganje:
 
 ![Uvoz držav](../Images/ImportCountries.png "Uvoz držav")
 
@@ -72,7 +77,7 @@ Italy,1040,IT,false
 ### Ustvarjanje nove države
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Države -->
-Kliknite **Novo**, da odprete vnosni obrazec za dodajanje nove države.  
+Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Novo**, da odprete vnosni obrazec za dodajanje nove države.
 
 Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 

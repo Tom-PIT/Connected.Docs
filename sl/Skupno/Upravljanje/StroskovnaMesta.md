@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/cost-centers -->
+<!-- app_label: Cost centers -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/StroskovnaMesta.md -->
+<!-- canonical_source_title: Stroškovna mesta -->
+
 # Stroškovna mesta
 <!-- app_route: management/common-types/cost-centers -->
 <!-- app_label: Cost centers -->
@@ -29,7 +34,7 @@ Za filtriranje stroškovnih mest po imenu ali kodi lahko uporabite **iskalno vrs
 ### Dodaj novo stroškovno mesto
 <!-- app_route: management/common-types/cost-centers -->
 <!-- app_label: Cost centers -->
-Kliknite **akcijski gumb**, da odprete obrazec za ustvarjanje in dodate novo stroškovno mesto.
+Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete obrazec za ustvarjanje in dodate novo stroškovno mesto.
 
 ![Dodaj novo stroškovno mesto](../Images/CostCentersNew.png "Dodaj stroškovno mesto")
 

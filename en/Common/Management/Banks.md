@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/banks -->
+<!-- app_label: Banks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Banks.md -->
+<!-- canonical_source_title: Banks -->
+
 # Banks
 
 <!-- app_route: management/common-types/banks -->
@@ -49,7 +54,7 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 <!-- app_route: management/common-types/banks -->
 <!-- app_label: Banks -->
 
-Click the [Action Button](../../Common/UI/ActionButton.md) to add a new bank.  
+Click the [Action Button](../../Common/UI/ActionButton.md) to open the form to add a new bank entry.  
 
 Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 

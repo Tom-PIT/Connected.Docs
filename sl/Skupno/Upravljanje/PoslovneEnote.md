@@ -1,3 +1,8 @@
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PoslovneEnote.md -->
+<!-- canonical_source_title: Poslovne enote -->
+
 # Poslovne enote
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->

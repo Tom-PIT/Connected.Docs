@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/measure-units -->
+<!-- app_label: Merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/MerskeEnote.md -->
+<!-- canonical_source_title: Merske enote -->
+
 # Merske enote
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Merske enote -->

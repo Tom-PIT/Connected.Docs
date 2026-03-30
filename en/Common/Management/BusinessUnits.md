@@ -1,3 +1,9 @@
+<!-- app_route: /management/contacts/companies -->
+<!-- app_label: Business directory -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessUnits.md -->
+<!-- canonical_source_title: Business units -->
+
+
 # Business units
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->

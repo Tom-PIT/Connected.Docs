@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/countries -->
+<!-- app_label: Države -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
+<!-- canonical_source_title: Poštne številke -->
+
 # Poštne številke
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Države -->
@@ -46,7 +51,7 @@ Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za ve
 
 Kliknite **Dodaj**, da shranite novo poštno številko.
 
-### Ustvarjanje nove poštne številke
+### Uvoz novih poštnih številk
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Države -->
 Akcijski gumb vključuje tudi možnost **Uvoz**, ki omogoča množični uvoz poštnih številk iz CSV datoteke. To je uporabno pri nastavitvi nove države z večjim številom poštnih številk.

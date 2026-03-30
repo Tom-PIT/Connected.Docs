@@ -1,3 +1,8 @@
+<!-- app_route: management/common-types/currencies -->
+<!-- app_label: Currencies -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Currencies.md -->
+<!-- canonical_source_title: Currencies -->
+
 # Currencies
 <!-- app_route: management/common-types/currencies -->
 <!-- app_label: Currencies -->
@@ -42,7 +47,7 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 ### Adding a new currency
 <!-- app_route: management/common-types/currencies -->
 <!-- app_label: Currencies -->
-Click the **action button** to open the form for adding a new currency.
+Click on the [**action button**](../UI/ActionButton.md) to open the form for adding a new currency.
 
 ![Add new currency](../Images/CurrenciesNew.png)
 
