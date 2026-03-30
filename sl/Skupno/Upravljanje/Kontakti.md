@@ -6,6 +6,8 @@
 # Kontakti
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Kontakti.md -->
+<!-- canonical_source_title: Kontakti -->
 **Kontakti** pripadajo določenemu **kupcu** ali **dobavitelju** in se upravljajo znotraj [**Poslovnega imenika**](PoslovniImenik.md). Shranjujejo osebe, povezane s podjetjem — kot so skrbniki kupcev, nabavni kontakti, tehniki ali obračunski predstavniki.
 
 Vsak kontakt vključuje **naziv delovnega mesta**, izbran iz vnaprej definiranega šifranta [**Nazivi delovnih mest**](NaziviDelovnihMest.md).
@@ -13,6 +15,8 @@ Vsak kontakt vključuje **naziv delovnega mesta**, izbran iz vnaprej definiraneg
 ### Dostop do kontaktov
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Kontakti.md -->
+<!-- canonical_source_title: Kontakti -->
 Kontakti so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje kontaktov, povezanih z izbranim partnerjem.
 
 ![Gumb kontakti](../Images/ContactsButtonSL.png "Gumb kontakti")
@@ -20,6 +24,8 @@ Kontakti so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite
 ## Shema
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Kontakti.md -->
+<!-- canonical_source_title: Kontakti -->
 | Polje | Opis |
 |------|------|
 | **Ime** | Ime kontaktne osebe (obvezno). |
@@ -35,6 +41,8 @@ Kontakti so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite
 ## Seznamski pogled
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Kontakti.md -->
+<!-- canonical_source_title: Kontakti -->
 Seznam kontaktov prikazuje vse kontakte, povezane z izbranim vnosom v Poslovnem imeniku.
 
 ![Seznam kontaktov](../Images/ContactsList.png "Seznam kontaktov")
@@ -44,6 +52,8 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 ## Ustvarjanje novega kontakta
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Kontakti.md -->
+<!-- canonical_source_title: Kontakti -->
 Za dodajanje novega kontakta kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 
 ![Nov kontakt](../Images/ContactsNew.png "Nov kontakt")
@@ -55,6 +65,8 @@ Kliknite **Dodaj**, da shranite nov kontakt.
 ## Urejanje obstoječega kontakta
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Kontakti.md -->
+<!-- canonical_source_title: Kontakti -->
 1. Odprite vnos v Poslovnem imeniku.  
 2. Kliknite oznako **Kontakti**.  
 3. Izberite kontakt s seznama.  
@@ -64,6 +76,8 @@ Kliknite **Dodaj**, da shranite nov kontakt.
 ## Brisanje
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Kontakti.md -->
+<!-- canonical_source_title: Kontakti -->
 Kontakt je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v drugih dokumentih.
 
 > [!NOTE]  

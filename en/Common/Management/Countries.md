@@ -7,6 +7,8 @@
 
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
@@ -21,9 +23,12 @@ To open the list, go to **Management / Countries** in one of the following domai
 ## Schema
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
+
 | Field | Description |
 |-------|--------------|
-| **Name** | Country name. For example, Slovenia or **Austria**. |
+| **Name** | Country name. For example, Slovenia or **Austria** (Mandatory). |
 | **LCID** | Localization identifier used to set the language and regional specifics of the country. |
 | **ISO Alpha-2 code** | International standard country code. For example, **SI** for Slovenia or **AT** for Austria. |
 | **Active** | Indicates whether the country is active. Inactive countries cannot be used for new entries, but they remain visible in the history. |
@@ -34,6 +39,8 @@ To open the list, go to **Management / Countries** in one of the following domai
 
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 
 The user interface contains a list of countries. If no record exists yet, the list is empty.
 
@@ -51,6 +58,8 @@ Clicking this tag opens the interface for managing the related data linked to th
 
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 
 Click on the [action button](../UI/ActionButton.md) to display the following actions:
 
@@ -61,6 +70,8 @@ Click on the [action button](../UI/ActionButton.md) to display the following act
 
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 
 The **Import** action enables bulk creation or updating of country records. This function is intended for administrators who need to add or modify multiple countries at once.
 
@@ -76,6 +87,8 @@ Click **Cancel** to return to the country list without importing.
 #### Example CSV structure
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 ```csv
 Name,LCID,ISOAlpha2Code,Active
 Slovenia,1060,SI,true
@@ -87,6 +100,8 @@ Italy,1040,IT,false
 
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 
 Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the input form for adding a new country.
 
@@ -99,11 +114,15 @@ Click **Add** to create the record or **Cancel** to return to the list view with
 ### Editing an existing country
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 To edit an existing country, click the country's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 #### Postal codes
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing you to maintain correct geographical and mailing data.  
 
 ![Editing Postal Codes](../Images/PostalCodesButton.png "Editing Postal Codes")
@@ -112,6 +131,8 @@ The [**Postal codes**](PostalCodes.md) tag opens the interface for managing post
 
 <!-- app_route: management/common-types/countries -->
 <!-- app_label: Countries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_title: Countries -->
 
 Click **Delete** in the edit screen to open a confirmation dialog:
 
