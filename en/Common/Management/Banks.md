@@ -64,7 +64,7 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 Click the [Action Button](../../Common/UI/ActionButton.md) to open the form to add a new bank entry.  
 
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. Click **Add** to save the bank or **Cancel** to return to the list view.
 
 ![Banks – New](../Images/BanksNew.png "Add new bank")
 
