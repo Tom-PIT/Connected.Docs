@@ -1,5 +1,13 @@
-# Plačilni nalogi
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 
+# Plačilni nalogi
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 Zaslon **Plačilni nalogi** se uporablja za ustvarjanje in upravljanje izhodnih plačilnih nalogov za zunanje prejemnike, kot so dobavitelji ali ponudniki storitev.  
 Plačilni nalogi predstavljajo namero za plačilo in omogočajo sledenje plačilu od osnutka do plačanega stanja.
 
@@ -13,7 +21,10 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 > - Objava plačilnega naloga **ne pomeni samodejne izvedbe bančnega plačila**.
 
 ## Shema
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 <details open>
   <summary><strong>Dokument</strong></summary>
 
@@ -55,7 +66,10 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 </details>
 
 ## Seznam
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 Seznam prikazuje vse plačilne naloge in omogoča filtriranje za lažje upravljanje.
 
 ![Seznam plačilnih nalogov](../Images/PaymentOrdersList.png "Seznam plačilnih nalogov")
@@ -72,7 +86,10 @@ Na voljo so naslednji filtri:
 Vsaka vrstica prikazuje dokument, prejemnika, datum in znesek.
 
 ## Potek stanj
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
 
 1. **Osnutek**
@@ -87,9 +104,15 @@ Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
    - Plačilo je bilo zaključeno
 
 ## Dejanja
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 ### Ustvari plačilni nalog
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega plačilnega naloga.
 2. Vnesite zahtevane podatke dokumenta, plačnika in prejemnika.
 3. Kliknite **Objavi**, da se plačilni nalog premakne iz *Osnutka* v *Neplačani*.
@@ -97,7 +120,10 @@ Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
    ![Plačilni nalog – osnutek](../Images/PaymentOrderNew.png "Plačilni nalog – osnutek")
 
 ### Urejanje plačilnega naloga
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 Plačilni nalog lahko urejate, dokler je v stanju **Osnutek**.
 
 - Odprite plačilni nalog s seznama
@@ -107,7 +133,10 @@ Plačilni nalog lahko urejate, dokler je v stanju **Osnutek**.
 Objavljeni (Neplačani / Plačani) plačilni nalogi omejujejo urejanje zaradi zagotavljanja računovodske pravilnosti.
 
 ### Označi kot plačano
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 Ko je plačilni nalog v stanju **Neplačani**, ga lahko označite kot plačanega.
 
 1. Odprite neplačani plačilni nalog
@@ -117,7 +146,10 @@ Ko je plačilni nalog v stanju **Neplačani**, ga lahko označite kot plačanega
    ![Plačilni nalog – neplačani](../Images/PaymentOrderUnpaid.png "Plačilni nalog – neplačani")
 
 ### Izvoz v XML
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 Plačilne naloge je mogoče izvoziti v **XML** iz menija dokumenta.
 
 - Odprite plačilni nalog
@@ -125,7 +157,10 @@ Plačilne naloge je mogoče izvoziti v **XML** iz menija dokumenta.
 - Izberite **Izvoz v XML**
 
 ## Brisanje
-
+<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_label: Plačilni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_title: Plačilni nalogi -->
 Plačilne naloge je mogoče izbrisati, dokler so v stanju **Osnutek**.
 
 Po objavi je brisanje lahko omejeno, da se ohrani sledljivost in računovodska pravilnost.
