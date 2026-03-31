@@ -94,17 +94,20 @@ Ta korak določa način izvajanja in časovni razpored.
 Določa obnašanje proizvodnega naloga:
 
 - **Standardni** — Ustvari en sam proizvodni nalog za celotno količino.
-- **Nadrejeni** — Ustvari nadrejeni (glavni) nalog, ki služi samo kot vsebnik podrejenih nalogov.  
-  Nadrejeni nalog **nima operacij** in se ne izvaja.
-- **Nadrejeni z delnimi proizvodnjami** — Ustvari nadrejeni nalog in samodejno generira več podrejenih proizvodnih nalogov, kjer vsak izdela del celotne količine.  
+- **Krovni** — Ustvari nadrejeni (glavni) nalog, ki služi samo kot vsebnik podrejenih nalogov. Nadrejeni nalog **nima operacij** in se ne izvaja. Podrejena naročila se ustvarijo ročno in imajo lahko različne [različice procesa](../Upravljanje/Procesi.md#verzije) kot nadrejeno. Če želite ustvariti podrejeno naročilo, pojdite na **Povezani dokumenti** → **Ustvari podrejeni proizvodni nalog**.
+
+    ![Production Order Create Child](../Images/ProductionOrderCreateChildSL.png "Ustvari podrejeni proizvodni nalog")
+
+- **Krovni z delnimi izdelavami** — Ustvari nadrejeni nalog in samodejno generira več podrejenih proizvodnih nalogov, kjer vsak izdela del celotne količine.  
   Prikažeta se dve polji:
   - **Število delnih proizvodnj** — koliko podrejenih nalogov se ustvari  
   - **Količina delne proizvodnje** — samodejno izračunana glede na skupno količino
+- **Delne izdelave** — Samodejno ustvari več proizvodnih nalogov, od katerih vsako proizvede del skupne količine, ne da bi ustvarilo nadrejeno naročilo. Prikažeta se isti polji kot v prejšnjem načinu.
 
 **Primer:**  
-Če je skupna količina = **3 kosi**
-- 3 delne proizvodnje → vsaka = **1 kos**
-- 2 delni proizvodnji → vsaka = **1,5 kosa**
+Če je skupna količina = **6 kosi**
+- 3 delne proizvodnje → vsaka = **2 kosi**
+- 2 delni proizvodnji → vsaka = **3 kosi**
 
 ![Delne proizvodnje](../Images/ProductionOrdersNewStep3PartialProductions.png)
 
