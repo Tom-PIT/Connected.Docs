@@ -28,6 +28,12 @@ The list displays all outputs belonging to the selected operation. Each row show
 
 ![Outputs list](../Images/OutputsList.png "Outputs list")
 
+### Menu
+
+The menu in the top-right corner of the screen provides quick access to the following actions:
+
+- **Delete all outputs** – Deletes all outputs linked to the operation.
+
 ## Creating a new output
 
 1. Click the **action button** in the bottom-right corner and choose one of the following:

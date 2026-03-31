@@ -58,7 +58,9 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v nasl
 <!-- canonical_source_title: Poslovni imenik -->
 Uporabniški vmesnik vsebuje seznam vnosov v Poslovnem imeniku.
 
-![Poslovni imenik](../Images/BusinessDirectory.png "Poslovni imenik")
+![Poslovni imenik](../Images/BusinessDirectoryV2.png "Poslovni imenik")
+
+Kartica prikazuje skupno število vnosov v poslovnem imeniku.
 
 Vsak zapis prikazuje več oznak, ki predstavljajo **povezane podatke**. Na teh straneh lahko dodajate povezane podatke za vsakega poslovnega partnerja:
 - [**Kontakti**](Kontakti.md)

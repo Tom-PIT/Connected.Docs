@@ -65,7 +65,9 @@ To open the list, go to **Management / Business directory** in one of the follow
 <!-- canonical_source_title: Business directory -->
 The user interface contains a list of entries in the business directory.
 
-![Business Directory](../Images/BusinessDirectory.png "Business Directory")
+![Business Directory](../Images/BusinessDirectoryV2.png "Business Directory")
+
+The card  displays the total number of entries in the business directory.
 
 Each record displays multiple tags representing **associated data**. Use these pages to add related data to each customer:
 - [**Contacts**](Contacts.md)
