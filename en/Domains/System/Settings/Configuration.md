@@ -46,6 +46,8 @@ These two settings form the foundation for all financial and commercial operatio
 
 The **Organization** section defines your company’s identity and legally required business information. These values appear on printed documents such as invoices, delivery notes, sales orders, and supply orders.
 
+To access these settings, go to **System / Organization**.
+
 ![Organization Details](../Images/ConfigurationSystemOrganization1.png "Organization Details")
 
 ### Schema
@@ -66,4 +68,3 @@ The **Organization** section defines your company’s identity and legally requi
 
 
 ![Organization Footer and Legal Data](../Images/ConfigurationSystemOrganization2.png "Organization Footer and Legal Data")
-
