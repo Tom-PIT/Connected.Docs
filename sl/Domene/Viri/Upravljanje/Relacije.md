@@ -51,5 +51,3 @@ Klik na relacijo jo odpre za urejanje.
 ## Brisanje
 
 Relacije je mogoče izbrisati v pogledu za urejanje. Izbrisane relacije niso več na voljo pri ustvarjanju novih potnih nalogov.
-
----

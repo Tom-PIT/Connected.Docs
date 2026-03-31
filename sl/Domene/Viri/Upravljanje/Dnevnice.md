@@ -56,5 +56,3 @@ Dnevnice se primarno uporabljajo v:
 - **[Potni nalogi](../Dokumenti/PotniNalogi.md)** — samodejni izračun dnevnic med službenimi potmi
 
 To zagotavlja dosledno in centralizirano upravljanje pravil za povračila stroškov službenih poti v celotnem sistemu.
-
----
