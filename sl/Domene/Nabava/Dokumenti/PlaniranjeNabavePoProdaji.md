@@ -47,8 +47,8 @@ Ko so materiali izbrani, uporabite [**akcijski gumb**](../../../Skupno/UI/Akcijs
 
 Na voljo sta naslednji možnosti:
 
-- **Ustvari nov nabavni nalog**
-- **Povpraševanje**
+- **Ustvari nov [nabavni nalog](NabavniNalogi.md)**, ali
+- **[Povpraševanje](Povprasevanja.md)**
 
 ![Akcijski gumb](../Images/SupplyStockBoundariesPlanningActionButtonSL.png)
 

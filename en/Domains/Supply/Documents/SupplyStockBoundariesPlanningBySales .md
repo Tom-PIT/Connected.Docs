@@ -41,8 +41,8 @@ Creating documents from this view works **exactly the same way** as in **Supply 
 
 2. Click the **action button** and choose:
 
-   * **Create new supply order**, or
-   * **Inquiry**
+   * **Create new [supply order](SupplyOrders.md)**, or
+   * **[Inquiry](Inquiries.md)**
 
    ![Action button](../Images/SupplyStockBoundariesPlanningActionButton.png)
 

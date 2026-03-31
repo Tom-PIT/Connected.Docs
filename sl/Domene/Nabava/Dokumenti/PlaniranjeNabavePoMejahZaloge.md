@@ -62,8 +62,8 @@ Nabavne dokumente ustvarite neposredno iz tega pogleda.
    ![Izbira materiala](../Images/SupplyStockBoundariesPlanningSelect.png)
 
 2. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite:
-   - **Ustvari nov nabavni nalog**, ali
-   - **Povpraševanje**
+   - **Ustvari nov [nabavni nalog](NabavniNalogi.md)**, ali
+   - **[Povpraševanje](Povprasevanja.md)**
 
    ![Akcijski gumb](../Images/SupplyStockBoundariesPlanningActionButtonSL.png)
 
