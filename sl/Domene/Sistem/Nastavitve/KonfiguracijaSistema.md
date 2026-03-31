@@ -60,6 +60,8 @@ Razdelek **Organizacija** določa identiteto podjetja in zakonsko zahtevane
 poslovne podatke. Ti podatki se izpisujejo na dokumentih, kot so računi,
 dobavnice, naročila in drugi sistemski izpisi.
 
+Za dostop pojdite na **Sistem / Organization**.
+
 ![Organizacija – osnovni podatki](../Images/ConfigurationSystemOrganization1SL.png "Organizacija – osnovni podatki")
 
 ### Polja
