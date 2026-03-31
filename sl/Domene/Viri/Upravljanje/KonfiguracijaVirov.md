@@ -18,5 +18,3 @@ Nastavite vedenje številčenja za dokumente **Potni nalogi**.
 > [!TIP]
 >
 > Uporabljajte dosleden format kode dokumenta, da bodo potni nalogi lažje prepoznavni in razvrščeni skozi leta.
-
----

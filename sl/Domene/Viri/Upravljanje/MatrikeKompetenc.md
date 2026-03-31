@@ -107,5 +107,3 @@ Izbrisane kompetence:
 
 > [!WARNING]
 > Brisanje uporabljajte previdno, zlasti kadar so kompetence že dodeljene uporabnikom.
-
----

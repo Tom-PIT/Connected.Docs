@@ -43,5 +43,3 @@ Za urejanje obstoječega razloga:
 Razloge za potovanje je mogoče izbrisati v pogledu za urejanje.
 
 Izbrisani razlogi niso več na voljo pri ustvarjanju novih potnih nalogov.
-
----

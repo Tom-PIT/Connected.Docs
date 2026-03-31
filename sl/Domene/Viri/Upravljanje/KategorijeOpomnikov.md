@@ -47,5 +47,3 @@ Za brisanje kategorije opomnika:
 1. Kliknite kategorijo, ki jo želite izbrisati.
 2. Kliknite **Izbriši**.
 3. Potrdite brisanje.
-
----

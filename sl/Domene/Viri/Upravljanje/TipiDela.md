@@ -52,5 +52,3 @@ Tipe dela je mogoče izbrisati v pogledu za urejanje.
 
 > [!NOTE]
 > Izbrisani tipi dela niso več na voljo za nove vnose časa, vendar ne vplivajo na zgodovinske podatke.
-
----

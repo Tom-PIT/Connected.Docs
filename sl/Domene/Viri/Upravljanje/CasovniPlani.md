@@ -52,5 +52,3 @@ Novi časovni plan je takoj na voljo za izbiro na zaslonih za beleženje časa i
 ## Brisanje
 
 Časovne plane je mogoče izbrisati v pogledu za urejanje. Za brisanje kliknite **Izbriši** in potrdite dejanje.
-
----

@@ -58,5 +58,3 @@ Za dodajanje nove postavke za vir uporabite [**akcijski gumb**](../../../Skupno/
 ## Brisanje
 
 Postavke je mogoče odstraniti s klikom na **Izbriši** v pogledu za urejanje.
-
----

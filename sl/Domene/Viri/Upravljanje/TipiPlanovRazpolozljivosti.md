@@ -45,5 +45,3 @@ Pred brisanjem sistem prikaže potrditveno pogovorno okno:
 > *Ste prepričani da želite izbrisati tip plana razpoložljivosti?*
 
 Če je tip plana razpoložljivosti že uporabljen v planih razpoložljivosti ali časovnih evidencah, je lahko brisanje omejeno glede na konfiguracijo sistema.
-
----
