@@ -101,14 +101,14 @@ A version includes:
 
 From the **Versions** screen you can estimate the **production cost per item** for a specific process version.
 
-![Versions cost column](../Images/ProcessesVersionsCalculateButton.png "Versions cost column")
+![Versions cost column](../Images/ProcessesVersionsCalculateButtonV2.png "Versions cost column")
 
 Each version displays a **Cost** column with:
 
-- **Izračunaj (Calculate)** – calculates the estimated production cost for the selected version.
+- **Calculate** – calculates the estimated production cost for the selected version.
 - **Cost value** – the last calculated cost per item.
 
-When **Izračunaj** is clicked, the system calculates the estimated cost of producing one item using that version. The calculation takes into account:
+When **Calculate** is clicked, the system calculates the estimated cost of producing one item using that version. The calculation takes into account:
 
 - **Material prices** - set in [**Supplier material**](../../Supply/Management/SupplierMaterials.md) price lists
 - **Human work** (labor effort)  - set in [**Resources cost**](../../Resources/Management/ResourcesCosts.md)
