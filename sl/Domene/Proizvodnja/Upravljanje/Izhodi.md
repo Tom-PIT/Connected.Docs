@@ -28,6 +28,12 @@ Seznam prikazuje vse izhode, ki pripadajo izbrani operaciji. Vsaka vrstica prika
 
 ![Seznam izhodov](../Images/OutputsList.png "Seznam izhodov")
 
+### Meni
+
+Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
+
+- **Izbriši vse izhode** – Izbriše vse izhode, povezane z operacijo.
+
 ## Ustvarjanje novega izhoda
 
 1. Kliknite **akcijski gumb** v spodnjem desnem kotu in izberite eno izmed možnosti:

@@ -67,9 +67,9 @@ When we receive an invoice from a vendor, it follows this flow:
 
 ### List view
 
-The list view shows all received invoices and summary indicators.
+The list view shows all received invoices and summary indicators. There are columns for **document code**, **due date**, and **amount**, which can be sorted by clicking the column header. The search field allows filtering by vendor name or date.
 
-![Received Invoices List](../Images/ReceivedInvoicesList.png "Received Invoices List")
+![Received Invoices List](../Images/ReceivedInvoicesListV2.png "Received Invoices List")
 
 Available filters:
 

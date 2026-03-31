@@ -69,9 +69,9 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 
 ### Seznam
 
-Seznam prikazuje vse prejete račune skupaj s povzetnimi kazalniki.
+Seznam prikazuje vse prejete račune skupaj s povzetnimi kazalniki. Obstajajo stolpci za **šifro dokumenta**, **datum zapadlosti** in **znesek**, ki jih lahko razvrstite s klikom na glavo stolpca. Iskalno polje omogoča filtriranje po imenu dobavitelja ali datumu.
 
-![Seznam prejetih računov](../Images/ReceivedInvoicesList.png "Seznam prejetih računov")
+![Seznam prejetih računov](../Images/ReceivedInvoicesListV2.png "Seznam prejetih računov")
 
 Na voljo so naslednji filtri:
 
