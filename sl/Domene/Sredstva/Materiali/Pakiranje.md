@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/packaging -->
+<!-- app_label: Pakiranje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Pakiranje.md -->
+<!-- canonical_source_title: Pakiranje -->
+
 # Pakiranje
 
 **Pakiranje** določa, kako je material zapakiran, vključno s količino, težo, dimenzijami in neobveznimi alternativnimi merskimi enotami. Podatki o pakiranju so ključni za logistiko, pošiljanje in upravljanje zalog. Uporablja se za:

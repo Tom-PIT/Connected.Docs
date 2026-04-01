@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/views/issue-details -->
+<!-- app_label: Issue details -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/IssueDetails.md -->
+<!-- canonical_source_title: Issue details -->
+
 # Issue details
 
 The **Issue details** view provides an analytical overview of all **materials and finished products issued from stock** within a selected time period. Instead of focusing on issue documents themselves, this view aggregates **issued items** and shows exactly **which [issue documents](../Documents/Issues.md)** were used and **from which warehouse locations** the items were issued.
@@ -80,5 +85,5 @@ This view is **analytical only**. It does not allow creating, editing, or deleti
 
 - **[Consumption details](ConsumptionDetails.md)** – review materials consumed during production  
 - **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
-- **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** – review stock movements and balances by material  
+- **[Stock view by material](Stock.md#stock-view-by-material)** – review stock movements and balances by material  
 - **[Issue documents](../Documents/Issues.md)** – create and review stock issue documents

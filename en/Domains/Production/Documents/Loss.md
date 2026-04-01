@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Execution -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Loss.md -->
+<!-- canonical_source_title: Loss -->
+
 # Loss
 
 The **Loss** activity records defective or unusable items produced during an operation. It helps keep quality visible and ensures accurate reporting and traceability.

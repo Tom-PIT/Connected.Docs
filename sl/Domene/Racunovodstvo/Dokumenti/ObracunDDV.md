@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/tax-returns -->
+<!-- app_label: Obračun DDV -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/ObracunDDV.md -->
+<!-- canonical_source_title: Obračun DDV -->
+
 # Obračun DDV
 
 **Obračun DDV** zagotavlja združen pregled podatkov, povezanih z davkom na dodano vrednost (DDV), za izbrano davčno obdobje.  

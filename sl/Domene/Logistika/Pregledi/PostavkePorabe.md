@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/views/consumption-details -->
+<!-- app_label: Postavke porabe -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/PostavkePorabe.md -->
+<!-- canonical_source_title: Postavke porabe -->
+
 # Postavke porabe
 
 Pogled **Postavke porabe** nudi analitični pregled vseh **materialov, porabljenih med proizvodnjo**, v izbranem časovnem obdobju. Namesto osredotočanja na proizvodne dokumente ta pogled združuje **porabljene materiale** in jasno prikazuje, **kateri [dokumenti porabe](../../Proizvodnja/Dokumenti/Poraba.md)** so bili uporabljeni ter **iz katerih skladiščnih lokacij** so bili materiali črpani.
@@ -81,4 +86,4 @@ Ta pogled je **zgolj analitičen**. Ne omogoča ustvarjanja, urejanja ali brisan
 - **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)** – pregled proizvodnih procesov, ki ustvarjajo porabo materialov  
 - **[Poraba](../../Proizvodnja/Dokumenti/Poraba.md)** – vnos in pregled dokumentov porabe v proizvodnji  
 - **[Pogled zaloge po lokacijah](PogledZalogePoLokacijah.md)** – pregled zaloge na posamezni skladiščni lokaciji  
-- **[Pogled zaloge po materialu](../Dokumenti/Zaloga.md#pogled-zaloge-po-materialu)** – pregled stanja in premikov zaloge po materialih
+- **[Pogled zaloge po materialu](Zaloga.md#pogled-zaloge-po-materialu)** – pregled stanja in premikov zaloge po materialih

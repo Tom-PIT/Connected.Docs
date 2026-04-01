@@ -75,7 +75,7 @@ Pogledi omogočajo **analizo in spremljanje** poslovnih informacij. Ne ustvarjaj
 
 Primeri pogledov vključujejo:
 
-- **[Pregledi zalog](../../Domene/Logistika/Dokumenti/Zaloga.md)**  
+- **[Pregledi zalog](../../Domene/Logistika/Pregledi/Zaloga.md)**  
 - **[Postavke naročil strank](../../Domene/Prodaja/Pregledi/PostavkeNarocilStrank.md)**  
 - **[Poročila dobavnic](../../Domene/Prodaja/Pregledi/PorocilaDobavnic.md)**  
 - **[Kartice podjetij](../../Domene/Prodaja/Pregledi/PoslovneKartice.md)**  

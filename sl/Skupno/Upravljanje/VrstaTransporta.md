@@ -4,10 +4,6 @@
 <!-- canonical_source_title: Vrsta transporta -->
 
 # Vrsta transporta
-<!-- app_route: /management/common/mode-of-transport -->
-<!-- app_label: Vrsta transporta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VrstaTransporta.md -->
-<!-- canonical_source_title: Vrsta transporta -->
 Ta šifrant določa **vrste transporta**, ki se uporabljajo v celotnem sistemu.  
 Vrste transporta se uporabljajo v dokumentih logistike, prodaje, nabave in drugih domen za opis načina dostave ali prenosa blaga.
 
@@ -20,20 +16,12 @@ Za dostop do seznama pojdite v razdelek **Upravljanje / Vrsta transporta** v nas
 - **Prodaja**
 
 ## Shema
-<!-- app_route: /management/common/mode-of-transport -->
-<!-- app_label: Vrsta transporta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VrstaTransporta.md -->
-<!-- canonical_source_title: Vrsta transporta -->
 | Polje | Opis |
 |------|------|
 | **Šifra** | Številčna identifikacija vrste transporta. |
 | **Opis** | Opis vrste transporta, prikazan uporabnikom. |
 
 ## Seznam vrst transporta
-<!-- app_route: /management/common/mode-of-transport -->
-<!-- app_label: Vrsta transporta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VrstaTransporta.md -->
-<!-- canonical_source_title: Vrsta transporta -->
 Zaslon prikazuje seznam vseh definiranih vrst transporta.
 
 Vsaka vrstica vsebuje:
@@ -49,10 +37,6 @@ Klik na vrstico odpre zapis v načinu urejanja.
 ## Dejanja
 
 ### Dodajanje nove vrste transporta
-<!-- app_route: /management/common/mode-of-transport -->
-<!-- app_label: Vrsta transporta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VrstaTransporta.md -->
-<!-- canonical_source_title: Vrsta transporta -->
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove vrste transporta.
 
 Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
@@ -62,20 +46,12 @@ Kliknite **Dodaj**, da ustvarite zapis, ali **Prekliči**, da se vrnete na sezna
 ![Dodaj vrsto transporta](../Images/TransportModesNewSL.png "Dodaj vrsto transporta")
 
 ### Urejanje obstoče vrste transporta
-<!-- app_route: /management/common/mode-of-transport -->
-<!-- app_label: Vrsta transporta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VrstaTransporta.md -->
-<!-- canonical_source_title: Vrsta transporta -->
 Za urejanje obstoječe vrste transporta kliknite njeno **Šifro** v seznamu.  
 Zaslon se preklopi v način urejanja, kjer lahko posodobite vrednosti polj.
 
 Kliknite **Dodaj** za shranjevanje sprememb ali **Prekliči** za zavrnitev sprememb.
 
 ### Brisanje
-<!-- app_route: /management/common/mode-of-transport -->
-<!-- app_label: Vrsta transporta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VrstaTransporta.md -->
-<!-- canonical_source_title: Vrsta transporta -->
 Za brisanje vrste transporta uporabite možnost **Izbriši** v pogledu urejanja in potrdite brisanje v pogovornem oknu.
 
 > [!NOTE]

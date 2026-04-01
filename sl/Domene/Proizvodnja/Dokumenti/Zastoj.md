@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Izvedba -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Zastoj.md -->
+<!-- canonical_source_title: Zastoj -->
+
 # Zastoj
 
 Aktivnost **Zastoj** beleži prekinitve med izvajanjem operacije (npr. čakanje na material, okvare strojev, menjave nastavitev). Omogoča spremljanje časovnih izgub ter boljšo vidnost za analizo.

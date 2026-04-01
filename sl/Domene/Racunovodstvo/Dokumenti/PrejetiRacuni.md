@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/documents/received-invoices -->
+<!-- app_label: Prejeti računi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PrejetiRacuni.md -->
+<!-- canonical_source_title: Prejeti računi -->
+
 # Prejeti računi
 
 **Prejeti računi** so finančni dokumenti, ki predstavljajo račune, prejete od dobaviteljev za kupljeno blago ali storitve.  

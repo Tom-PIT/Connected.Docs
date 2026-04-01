@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/inters --> 
+<!-- app_label: Med-skladiščni promet --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/MedSkladiscniPromet.md --> 
+<!-- canonical_source_title: Med-skladiščni promet -->
+
 # Med-skladiščni promet
 
 Dokument **Med-skladiščni promet** se uporablja za prenos materialov iz enega skladišča v drugo. Uporaben je, kadar je potrebno zalogo premakniti med lokacijami — na primer prenos artiklov iz **glavnega skladišča** v **centralno skladišče** ali prenos **komponent** v oddaljeno skladišče.

@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/sets -->
+<!-- app_label: Garniture -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Garniture.md -->
+<!-- canonical_source_title: Garniture -->
+
 # Garniture
 
 **Garniture** omogočajo definiranje sestavljenih postavk iz obstoječih materialov (izdelkov, polizdelkov, surovin ali repro materialov). Garnitura združuje več komponent z določenimi količinami pod enim nadrejenim materialom, tako da jo lahko upravljate ali obravnavate kot eno celoto.

@@ -4,10 +4,7 @@
 <!-- canonical_source_title: Production orders -->
 
 # Production orders
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 Production orders define the work required to manufacture products according to a selected process and version.  
 They move through the life cycle **Draft → Pending → Active → Closed**, and can include multiple operations, resources, inputs, outputs, and quality checks based on the assigned process.
 
@@ -26,19 +23,13 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 To access production orders, go to **Production / Production orders** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## List of production orders
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 The Production orders page displays all orders grouped by status. Use the filters on the left to refine the list.
 
 ![Production Orders List](../Images/ProductionOrdersList.png "Production Orders List")
 
 ### Available filters
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 - **Production order dates** – Filter orders by date range.  
 - **View** – Shows orders by life cycle stage:  
   -  **Draft** — Editable order created through the wizard
@@ -50,28 +41,19 @@ The Production orders page displays all orders grouped by status. Use the filter
 The search bar at the top allows filtering by production order code or material name.
 
 ## Creating a production order
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 Click the [**action button**](../../../Common/UI/ActionButton.md) and follow the guided three-step wizard:
 
 
 ### **Step 1 — Select material**
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 Choose the **Material type** (e.g., Products or Semi products), then select the specific [**material**](../../Assets/Domain/Materials.md) and quantity to be manufactured.
 
 ![Step 1](../Images/ProductionOrdersNewStep1.png "Step 1 - Select material")
 
 
 ### **Step 2 — Select process**
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 Choose the **[Process](../Management/Processes.md)** and **Process version** that defines how the material will be produced.
 
 ![Step 2](../Images/ProductionOrdersNewStep2.1.png "Step 2 - Select process")
@@ -80,19 +62,13 @@ Choose the **[Process](../Management/Processes.md)** and **Process version** tha
 > If no processes are listed in this step, verify configuration in the **[Processes](../Management/Processes.md)** code list. Ensure the process includes the “Production” tag and has an active version. Missing the tag is a common reason the process does not appear here.
 
 ### **Step 3 — Provide additional information**
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 This step defines scheduling and order type.
 
 ![Step 3](../Images/ProductionOrdersNewStep3.png "Step 3 - Additional information")
 
 #### **Production order mode**
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 Determines how the production order will behave:
 
 - **Standard** — Creates a single production order for the total quantity.
@@ -114,10 +90,7 @@ If total quantity = **6 pieces**
 ![Production Orders New Step3 Partial Productions](../Images/ProductionOrdersNewStep3PartialProductions.png)
 
 #### **Dates**
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 Specify scheduling details (optional):
 - **Deadline date**
 - **Planned start date**
@@ -126,10 +99,7 @@ Specify scheduling details (optional):
 Click **Finish** to create the **Draft** production order.
 
 ## Draft production orders
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 A newly created order appears with status **Draft**.
 
 Drafts allow editing of:
@@ -145,10 +115,7 @@ Drafts allow editing of:
 ![Draft](../Images/ProductionOrdersDraft.png "Draft production order")
 
 ### Publishing a draft
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 To move the draft to **Pending**, the **Organization unit** must be selected.
 
 ![Organization Unit](../Images/ProductionOrdersOrganizationUnits.png "Organization Unit Selection")
@@ -157,10 +124,7 @@ Click **Publish** when ready.
 
 
 ## Pending production orders
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 A **Pending** order is fully prepared and waiting to be activated. No production execution can begin yet.
 
 From the Pending state, you can:
@@ -174,10 +138,7 @@ When the order is ready for production, click **Activate**.
 
 
 ## Linked documents
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 You may attach other documents that relate to the production order, such as:
 
 - [**Projects**](../../Projects/Domain/ProjectsDomain.md)  
@@ -193,10 +154,7 @@ Production orders also display any linked documents created during the order's l
 ![Production Orders Linked Documents Docs](../Images/ProductionOrdersLinkedDocumentsDocs.png)
 
 ## Active production orders
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 When activated, the order becomes **Active** and is ready for execution on the shop floor.
 
 ![Active](../Images/ProductionOrdersPending.png "Active production order")
@@ -208,10 +166,7 @@ The **Process** section displays all planned operations, inputs, resources, outp
 ![Process View](../Images/ProductionOrdersProcess.png "Process overview")
 
 ## Closed production orders
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 Once production is completed and all operations have been executed, the order is set to **Closed**, appears in the list under the **Closed** status.
 
 ![Closed Production Orders List](../Images/ProductionOrdersClosedList.png "Closed Production Orders List")
@@ -239,10 +194,7 @@ Closed production orders offer additional options in the action menu:
 ![Production Order Closed Menu](../Images/ProductionOrderClosedMenu.png)
 
 ### Reverting to active
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 If modifications are necessary after closing, you can revert the order back to **Active**:
 
 1. Open the closed production order
@@ -252,10 +204,7 @@ If modifications are necessary after closing, you can revert the order back to *
 ![Production Orders Reactivate](../Images/ProductionOrdersReactivate.png)
 
 ## Deletion
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
-<!-- canonical_source_title: Production orders -->
+
 A production order can be deleted only when in **Draft or Pending states** and if it is not referenced by other documents.  
 
 Use the **Delete** option in the header.

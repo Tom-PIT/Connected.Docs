@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/corrections --> 
+<!-- app_label: Korekcije --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Korekcije.md --> 
+<!-- canonical_source_title: Korekcije -->
+
 # Korekcije
 
 **Korekcije** so logistični dokumenti, namenjeni prilagoditvi zaloge, kadar se fizično stanje ne ujema s stanjem v sistemu (npr. razlike pri štetju, napačen material ali napake pri označevanju). Z objavo korekcije se zalogovna stanja v skladišču posodobijo tako, da odražajo dejanske količine in lastnosti materialov.

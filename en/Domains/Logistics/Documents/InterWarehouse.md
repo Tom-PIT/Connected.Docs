@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/inters --> 
+<!-- app_label: Inter warehouse --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/InterWarehouse.md --> 
+<!-- canonical_source_title: Inter warehouse -->
+
 # Inter warehouse
 
 An **Inter warehouse** document is used to transfer materials from one warehouse to another. This is useful when stock needs to be moved between locations—for example, sending items from **Main warehouse** to **Central warehouse**, or transferring **components** to a remote storage area.

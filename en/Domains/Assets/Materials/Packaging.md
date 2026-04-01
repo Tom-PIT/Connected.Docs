@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/packaging -->
+<!-- app_label: Packaging -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Packaging.md -->
+<!-- canonical_source_title: Packaging -->
+
 # Packaging
 
 Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. Packaging information is essential for logistics, shipping, and inventory management. It applies to:

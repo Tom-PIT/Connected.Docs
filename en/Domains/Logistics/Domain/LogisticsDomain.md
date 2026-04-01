@@ -15,8 +15,8 @@ To access this domain, navigate to **Logistics** in the [**navigation**](../../.
 
 The domain is organized into several functional areas:
 
-- [**Dashboard**](../Documents/Dashboard.md) – high-level overview of logistics activity and warehouse performance (read-only KPIs)  
-- [**Stock**](../Documents/Stock.md) – real-time warehouse visibility (read-only; filters by warehouse, location, material, batch/serial)  
+- [**Dashboard**](../Views/Dashboard.md) – high-level overview of logistics activity and warehouse performance (read-only KPIs)  
+- [**Stock**](../Views/Stock.md) – real-time warehouse visibility (read-only; filters by warehouse, location, material, batch/serial)  
 - [**Documents**](#documents) – all stock-affecting logistics transactions  
 - [**Views**](#views) – analytical screens for consumption, issuing, and stock distribution  
 - [**Management**](#management) – code lists and configuration for warehouses and locations
@@ -25,7 +25,7 @@ The domain is organized into several functional areas:
 
 ## Dashboard
 
-The [**Dashboard**](../Documents/Dashboard.md) provides a high-level overview of logistics performance and warehouse activity. It presents operational indicators (e.g., inbound/outbound counts, open inventories, discrepancies) that help users understand current workload, stock movements, and active warehouse processes.
+The [**Dashboard**](../Views/Dashboard.md) provides a high-level overview of logistics performance and warehouse activity. It presents operational indicators (e.g., inbound/outbound counts, open inventories, discrepancies) that help users understand current workload, stock movements, and active warehouse processes.
 
 ![Logistics Dashboard](../Images/Dashboard.png "Logistics Dashboard")
 
@@ -33,7 +33,7 @@ The dashboard serves as the entry point for warehouse supervisors and operators 
 
 ## Stock
 
-The **[Stock](../Documents/Stock.md)** section provides operational insight into warehouse materials and their current quantities. It offers a detailed overview of all materials stored across warehouses and locations. It displays available quantities, batches, serials, and physical positions. This view is read-only.
+The **[Stock](../Views/Stock.md)** section provides operational insight into warehouse materials and their current quantities. It offers a detailed overview of all materials stored across warehouses and locations. It displays available quantities, batches, serials, and physical positions. This view is read-only.
 
 ![Stock Screen](../Images/Stock.png "Stock Screen")
 

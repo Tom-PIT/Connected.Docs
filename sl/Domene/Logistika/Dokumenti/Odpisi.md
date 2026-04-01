@@ -1,8 +1,13 @@
+<!-- app_route: /warehouse/documents/writeoffs --> 
+<!-- app_label: Odpisi --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Odpisi.md --> 
+<!-- canonical_source_title: Odpisi -->
+
 # Odpisi
 
 Dokument **Odpis** se uporablja za evidentiranje materialov, ki jih je potrebno odstraniti iz zaloge, ker so **poškodovani**, **izgubljeni**, **pretečeni** ali kako drugače neuporabni. Tipični primeri vključujejo **zlomljene izdelke**, **pokvarjeno blago** ali **materiale, poškodovane med manipulacijo**. Odpis omogoča določitev razloga, izbiro prizadetih materialov in vnos količine, ki se odstrani iz zaloge.
 
-Odpisi neposredno prilagodijo stanje zaloge. Če je bila odpisana napačna količina, jo je mogoče kasneje popraviti z **delnim ali celotnim stornom** prek menija povezanega dokumenta. Pred odpisom lahko uporabite tudi **[Pogled zaloge po materialu](Zaloga.md#pogled-zaloge-po-materialu)** ali **[Pogled zaloge po serijski številki](Zaloga.md#pogled-zaloge-po-serijski-stevilki)**, da razumete, kako je material dosegel trenutno stanje.
+Odpisi neposredno prilagodijo stanje zaloge. Če je bila odpisana napačna količina, jo je mogoče kasneje popraviti z **delnim ali celotnim stornom** prek menija povezanega dokumenta. Pred odpisom lahko uporabite tudi **[Pogled zaloge po materialu](../Pregledi/Zaloga.md#pogled-zaloge-po-materialu)** ali **[Pogled zaloge po serijski številki](../Pregledi/Zaloga.md#pogled-zaloge-po-serijski-stevilki)**, da razumete, kako je material dosegel trenutno stanje.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Odpisi](https://www.youtube.com/watch?v=_0jEGSTorsY)**.

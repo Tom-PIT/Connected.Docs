@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/semi-products -->
+<!-- app_label: Semi products -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/SemiProducts.md -->
+<!-- canonical_source_title: Semi products -->
+
 # Semi products
 
 **Semi products** are intermediate materials used in the production of finished goods. They are created from raw materials and then used as components in other items. Examples include Tabletop panel, Metal frame, Wooden leg, or Circuit module.

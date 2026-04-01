@@ -1,13 +1,9 @@
-<!-- app_route: accounting/bank/payment-orders -->
+<!-- app_route: /accounting/bank/payment-orders -->
 <!-- app_label: Payment orders -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
 <!-- canonical_source_title: Payment orders -->
 
 # Payment orders
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 The **Payment orders** screen is used to create and manage outgoing payment instructions to external recipients, such as suppliers or service providers. Payment orders represent an intention to pay and track the lifecycle of a payment from draft to paid status.
 
 **Payment orders** include details about the payer, recipient, amount, and payment purpose. They help ensure that payments are properly documented and tracked within the accounting system.
@@ -19,10 +15,6 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [**na
 > * Publishing a payment order does not automatically execute a bank transaction.
 
 ## Schema
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 <details open>
   <summary><strong>Document</strong></summary>
 
@@ -64,10 +56,6 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [**na
 </details>
 
 ## List view
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 The list view displays payment orders and provides filters to help manage them.
 
 ![Payment orders list](../Images/PaymentOrdersList.png "Payment orders list")
@@ -85,10 +73,6 @@ Available filters:
 Each row shows the document identifier, recipient, date, and amount.
 
 ## Status flow
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 Payment orders follow a simple lifecycle:
 
 1. **Draft**
@@ -108,10 +92,6 @@ Payment orders follow a simple lifecycle:
 ## Actions
 
 ### Create payment order
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new payment order
 2. Enter the required document, payer, and recipient information
 3. Click **Publish** to move the payment order from *Draft* to *Unpaid*
@@ -119,10 +99,6 @@ Payment orders follow a simple lifecycle:
    ![Payment order – draft](../Images/PaymentOrderNew.png "Payment order – draft")
 
 ### Edit a payment order
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 You can edit a payment order while it is in **Draft** status.
 
 - Open the payment order from the list
@@ -132,10 +108,6 @@ You can edit a payment order while it is in **Draft** status.
 Published (Unpaid/Paid) payment orders restrict editing to preserve accounting integrity.
 
 ### Mark as paid
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 When a payment order is in **Unpaid** status, it can be marked as paid.
 
 1. Open an unpaid payment order
@@ -145,10 +117,6 @@ When a payment order is in **Unpaid** status, it can be marked as paid.
    ![Payment order – unpaid](../Images/PaymentOrderUnpaid.png "Payment order – unpaid")
 
 ### Export to XML
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 Payment orders can be exported to **XML** from the document menu in the top-right corner.
 
 - Open the payment order
@@ -156,10 +124,6 @@ Payment orders can be exported to **XML** from the document menu in the top-righ
 - Choose **Export to XML**
 
 ## Deletion
-<!-- app_route: accounting/bank/payment-orders -->
-<!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
-<!-- canonical_source_title: Payment orders -->
 Payment orders can be deleted while in **Draft** status.
 
 Once published, deletion may be restricted to preserve accounting integrity.

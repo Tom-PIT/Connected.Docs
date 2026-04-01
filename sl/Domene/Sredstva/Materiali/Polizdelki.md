@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/semi-products -->
+<!-- app_label: Polizdelki -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Polizdelki.md -->
+<!-- canonical_source_title: Polizdelki -->
+
 # Polizdelki
 
 **Polizdelki** so vmesni materiali, ki se uporabljajo v proizvodnji končnih izdelkov. Nastanejo iz surovin in se nato uporabljajo kot komponente v drugih izdelkih. Primeri polizdelkov so mizna plošča, kovinski okvir, lesena noga ali elektronski modul.

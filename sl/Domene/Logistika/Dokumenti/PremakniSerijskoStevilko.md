@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/inter-move --> 
+<!-- app_label: Premakni serijsko številko --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/PremakniSerijskoStevilko.md --> 
+<!-- canonical_source_title: Premakni serijsko številko -->
+
 # Premakni serijsko številko
 
 Funkcija **Premakni serijsko številko** omogoča hiter premik posamezne zalogovne enote (določene s serijsko številko) iz ene skladiščne lokacije na drugo. Namenjena je hitrim in pogostim premikom v skladišču — na primer pri reorganizaciji regalov, pripravi blaga za komisioniranje ali popravljanju napačno shranjenih postavk.
@@ -6,8 +11,8 @@ Za razliko od celotnega dokumenta
 [**Med-skladiščni promet**](MedSkladiscniPromet.md) se **Premakni serijsko številko** osredotoča izključno na premik **ene serijsko vodene enote** znotraj skladiščne strukture.
 
 Za boljši pregled trenutnega stanja in zgodovine premikov lahko odprete:
-- [**Pogled zaloge po materialu**](Zaloga.md#pogled-zaloge-po-materialu)
-- [**Pogled zaloge po serijski številki**](Zaloga.md#pogled-zaloge-po-serijski-stevilki)
+- [**Pogled zaloge po materialu**](../Pregledi/Zaloga.md#pogled-zaloge-po-materialu)
+- [**Pogled zaloge po serijski številki**](../Pregledi/Zaloga.md#pogled-zaloge-po-serijski-stevilki)
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Premakni serijsko številko](https://www.youtube.com/watch?v=dy1u6sKmdMg)**.

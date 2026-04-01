@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Izvedba -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/SlabiKosi.md -->
+<!-- canonical_source_title: Slabi kosi -->
+
 # Slabi kosi
 
 Aktivnost **Slabi kosi** se uporablja za beleženje okvarjenih ali neuporabnih kosov, nastalih med operacijo. Omogoča preglednost kakovosti ter zagotavlja natančno poročanje in sledljivost.

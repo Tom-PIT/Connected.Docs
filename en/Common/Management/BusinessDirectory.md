@@ -5,10 +5,6 @@
 
 # Business directory
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.
 
 You can access the **Business directory** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
@@ -22,10 +18,6 @@ To open the list, go to **Management / Business directory** in one of the follow
 
 ## Schema
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 | Field | Description |
 |-------|--------------|
 | **Name** | Full name of the entity, for example **ACME d.o.o.** or **John Smith** (mandatory). |
@@ -51,18 +43,10 @@ To open the list, go to **Management / Business directory** in one of the follow
 | **Email** | Email address of the primary contact. |
 | **Use partner currency on documents** | Checkbox defining whether the entity's [currency](Currencies.md) is used in documents. |
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 ## Management
 
 ### List of business directory entries
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 The user interface contains a list of entries in the business directory.
 
 ![Business Directory](../Images/BusinessDirectoryV2.png "Business Directory")
@@ -84,10 +68,6 @@ The **Type** field determines the tax status of the entity. The available values
 
 ## Actions
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 Click on the [**action button**](../../Common/UI/ActionButton.md) to display the available actions:
 
 - **Import by VIES** 
@@ -95,29 +75,19 @@ Click on the [**action button**](../../Common/UI/ActionButton.md) to display the
 - **New**  
 
 ### Import by VIES
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
+
 To simplify the process of adding VAT-registered companies to the business directory, the **Import by VIES** action allows automatic retrieval of data from the VIES database, based on the provided VAT ID.
 
 Click on the [**action button**](../UI/ActionButton.md) and select **Import by VIES**. In the opened dialog, enter the VAT ID of the company you want to import (for example, **SI12345678**). Click **Import** to start the process.
 
 ### Import
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 Click on the [**action button**](../UI/ActionButton.md) and select **Import**. This action enables bulk creation or updating of company records.
 
 ![Import business directory](../Images/CompaniesImport.png "Import business directory")
 
 #### Example CSV structure
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
+
 ```csv
 Code,Name,Active,Supplier,Customer,Subcontractor,NaturalPerson,Street,Country,PostalCode,Type,VATID,RegistrationNumber,Tags,PaymentCurrency,DiscountPercent,PrimaryContact,Phone,Email
 ACME01,ACME d.o.o.,true,true,true,false,false,Dunajska cesta 10,SI,1000,Liable for tax,SI12345678,1234567-0,wholesale,EUR,5,Janez Novak,+386 1 234 56 78,info@acme.si
@@ -125,10 +95,6 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ```
 ### New
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 Click on the [**action button**](../UI/ActionButton.md) and select **New**. This action opens the form for creating a new entry. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
 
 Click **Add** to save the new record or **Cancel** to return to the list view without saving.
@@ -139,43 +105,25 @@ Additional collapsible sections are available:
 
 #### Edit contact
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 This section allows entering the primary contact information for the business partner. You can specify details such as contact name, phone number, and email address. These fields are optional and serve as reference information used across documents.
 
 #### Currency
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
+
 This section allows you to define whether the business partner uses the **company currency** when appearing on documents. If enabled, all related transactions (such as sales or purchase documents) default to the company's currency instead of the partner's own currency settings.
 
 ![New Business Directory Collapsible Sections](../Images/BusinessDirectoryCollapsibleOptions.png "New business collapsible sections")
 
 ## Menu
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
+
 The **Menu** in the top-right corner provides the **Exporting** option, which exports all visible records into a CSV file, allowing further analysis or backup.
 
 ### Editing a business directory entry
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 
 To edit an existing record, click the entry's **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Editing Business Directory Entry](../Images/BusinessDirectoryEdit.png "Editing Business Directory Entry")
 
 ### Deletion
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
-<!-- canonical_source_title: Business directory -->
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

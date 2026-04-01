@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/fixed-assets -->
+<!-- app_label: Osnovna sredstva -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/OsnovnaSredstva.md -->
+<!-- canonical_source_title: Osnovna sredstva -->
+
 # Osnovna sredstva
 
 **Osnovna sredstva** se uporabljajo za spremljanje dolgoročnih sredstev v lasti organizacije, kot so stroji, oprema, pohištvo in IT oprema.  

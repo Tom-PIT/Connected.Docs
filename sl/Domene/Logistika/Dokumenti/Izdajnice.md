@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/issues --> 
+<!-- app_label: Izdajnice --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Izdajnice.md --> 
+<!-- canonical_source_title: Izdajnice -->
+
 # Izdajnice
 
 Dokument **Izdajnica** se uporablja za evidentiranje blaga, ki zapušča skladišče, na primer ob dobavi kupcu. Ko končni izdelki, materiali ali pakirani artikli zapustijo skladišče v okviru prodajne ali interne izdaje, izdajnica zajame vse relevantne podatke. Primeri vključujejo:

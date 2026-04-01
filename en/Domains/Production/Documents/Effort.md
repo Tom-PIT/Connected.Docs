@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Execution -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Effort.md -->
+<!-- canonical_source_title: Effort -->
+
 # Effort
 
 The **Effort** activity records working time spent on an operation. Use it to track operator time either automatically (Start/Stop) or manually (entering times or duration).

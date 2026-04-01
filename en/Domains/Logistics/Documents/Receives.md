@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/receives --> 
+<!-- app_label: Receives --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Receives.md --> 
+<!-- canonical_source_title: Receives -->
+
 # Receives
 
 A **Receive** document is used to record the arrival of materials into your warehouse. When goods physically arrive from a supplier or another location, you create a receive document to register them in the system. Examples include receiving:

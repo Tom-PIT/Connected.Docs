@@ -1,3 +1,8 @@
+<!-- app_route: /production/cooperators -->
+<!-- app_label: Kooperanti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Kooperanti.md -->
+<!-- canonical_source_title: Kooperanti -->
+
 # Kooperanti
 
 **Kooperanti** so zunanja podjetja (definirana v [**Poslovnem imeniku**](../../../Skupno/Upravljanje/PoslovniImenik.md)), ki lahko izvajajo določene operacije, povezane s **proizvodnimi** ali **vzdrževalnimi** nalogi.

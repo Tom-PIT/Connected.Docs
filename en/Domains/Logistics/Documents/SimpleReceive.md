@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/simple-receive --> 
+<!-- app_label: Simple receive --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/SimpleReceive.md --> 
+<!-- canonical_source_title: Simple receive -->
+
 # Simple receive
 
 The **Simple receive** workflow provides a fast way to record incoming materials based on an existing [**Supply order**](../../Supply/Documents/SupplyOrders.md).  It guides the user through three clear steps: selecting the document header, confirming the materials to receive, and editing each detail before finishing.

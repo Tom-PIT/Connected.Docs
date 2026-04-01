@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/documents/received-invoices -->
+<!-- app_label: Received invoices -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/ReceivedInvoices.md -->
+<!-- canonical_source_title: Received invoices -->
+
 # Received invoices
 
 **Received invoices** are financial documents representing invoices received from vendors for purchased goods or services. They are used to record supplier invoices, generate accounting postings, and initiate outgoing payments.

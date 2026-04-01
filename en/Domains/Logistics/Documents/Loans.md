@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/loans --> 
+<!-- app_label: Loans --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Loans.md --> 
+<!-- canonical_source_title: Loans -->
+
 # Loans
 
 A **Loan** document is used to record items that are temporarily lent out—for example, equipment lent to a customer, tools used off-site, or products provided for evaluation.  

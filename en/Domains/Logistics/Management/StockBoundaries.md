@@ -10,8 +10,8 @@ This code list represents the stock boundaries for individual materials or produ
 | Field | Description |
 |-------|--------------|
 | **Entity** | The material or product to which the stock boundaries apply. It is displayed with its code and name. |
-| **Min** | The minimum allowed stock quantity for the selected material or product. When the quantity drops below this value, the system highlights the condition in the [Dashboard](../Documents/Dashboard.md). |
-| **Max** | The maximum allowed stock quantity for the selected material or product. When this value is exceeded, the system highlights the condition in the [Dashboard](../Documents/Dashboard.md). |
+| **Min** | The minimum allowed stock quantity for the selected material or product. When the quantity drops below this value, the system highlights the condition in the [Dashboard](../Views/Dashboard.md). |
+| **Max** | The maximum allowed stock quantity for the selected material or product. When this value is exceeded, the system highlights the condition in the [Dashboard](../Views/Dashboard.md). |
 
 ## Management
 
@@ -27,7 +27,7 @@ You can edit stock boundaries directly in the list view by clicking the numeric 
 
 ![Stock Boundaries](../Images/StockBoundaries.png "Stock Boundaries")
 
-Any stock quantity below the defined minimum or above the defined maximum is visually indicated in the [Dashboard](../Documents/Dashboard.md).
+Any stock quantity below the defined minimum or above the defined maximum is visually indicated in the [Dashboard](../Views/Dashboard.md).
 
 ## Actions
 

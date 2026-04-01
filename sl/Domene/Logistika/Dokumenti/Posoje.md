@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/loans --> 
+<!-- app_label: Posoje --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Posoje.md --> 
+<!-- canonical_source_title: Posoje -->
+
 # Posoje
 
 Dokument **Posoja** se uporablja za beleženje materialov ali opreme, ki so **začasno posojeni** — na primer oprema, posojena stranki, orodje, uporabljeno izven lokacije, ali izdelki, dani v preizkus.  

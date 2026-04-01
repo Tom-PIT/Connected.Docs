@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/alternative-measure-units -->
+<!-- app_label: Alternative measure units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/AlternativeMeasureUnits.md -->
+<!-- canonical_source_title: Alternative measure units -->
+
 # Alternative measure units
 
 **Alternative measure units** allow a material to be handled using a unit different from its base unit.  

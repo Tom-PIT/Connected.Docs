@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/repro-materials -->
+<!-- app_label: Repro materiali -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/ReproMateriali.md -->
+<!-- canonical_source_title: Repro materiali -->
+
 # Repro materiali
 
 **Repro materiali** so ponovno uporabni ali pomožni materiali, ki se uporabljajo za podporo proizvodnji ali drugim internim dejavnostim. Ne predstavljajo končnih izdelkov, so pa ključni za vzdrževanje, montažo ali uporabo drugih materialov. Primeri repro materialov so vijaki, trakovi, palete ali stiropor.

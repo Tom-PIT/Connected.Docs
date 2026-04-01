@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/disassemblies --> 
+<!-- app_label: Disassemblies --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Disassemblies.md --> 
+<!-- canonical_source_title: Disassemblies -->
+
 # Disassemblies
 
 Disassemblies are logistics documents used to break down a [set (combined material)](../../Assets/Materials/Sets.md) into its individual components. They provide traceability, update stock correctly, and make the parts available for further use in production, supply, or sales.

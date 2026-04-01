@@ -58,7 +58,7 @@ Seznam prikazuje:
 - **Material** – šifra in naziv materiala.
 - **Znesek** – knjigovodska vrednost materiala na izbrani datum.
 
-S klikom na **naziv materiala** se odpre pripadajoč pogled **[Zaloga po materialu](../../Logistika/Dokumenti/Zaloga.md#pogled-zaloge-po-materialu)**.
+S klikom na **naziv materiala** se odpre pripadajoč pogled **[Zaloga po materialu](../../Logistika/Pregledi/Zaloga.md#pogled-zaloge-po-materialu)**.
 
 > [!NOTE]  
 > Ker ta pogled temelji na glavni knjigi, se lahko vrednosti razlikujejo od logistične zaloge, če knjižbe manjkajo, so zakasnjene ali še niso potrjene.

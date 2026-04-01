@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/raw-materials -->
+<!-- app_label: Raw materials -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/RawMaterials.md -->
+<!-- canonical_source_title: Raw materials -->
+
 # Raw materials
 
 **Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key information—such as[measure units](../../../Common/Management/MeasureUnits.md), [tax rate](../../../Common/Management/TaxRates.md), expiration period, or [packaging](Packaging.md)—to ensure that it can be managed consistently across the system.

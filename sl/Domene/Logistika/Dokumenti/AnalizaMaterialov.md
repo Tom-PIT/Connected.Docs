@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/material-analysis --> 
+<!-- app_label: Analiza materialov --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/AnalizaMaterialov.md --> 
+<!-- canonical_source_title: Analiza materialov -->
+
 # Analiza materialov
 
 Dokumenti **Analiza materialov** prikazujejo materiale, ki so bili prevzeti in za katere je potrebno izvesti analizo ali testiranje na podlagi pravil, nastavljenih v **[Upravljanje analize materialov](../Upravljanje/AnalizaMaterialov.md)**. Ta zaslon uporabite za pregled zahtevanih preverjanj, označevanje uspešnosti analiz ter objavo rezultatov.

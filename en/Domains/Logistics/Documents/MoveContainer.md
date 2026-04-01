@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/container-move --> 
+<!-- app_label: Move container --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/MoveContainer.md --> 
+<!-- canonical_source_title: Move container -->
+
 # Move container
 
 The Move container screen is a streamlined workflow to relocate a single container from one warehouse location to another. It is designed for fast operations (scan and confirm) without using document lists or an action button.

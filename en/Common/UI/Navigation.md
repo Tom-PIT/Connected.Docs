@@ -75,7 +75,7 @@ Views allow you to **analyze and monitor** business information. They do not cre
 
 Views typically include:
 
-- **[Stock overviews](../../Domains/Logistics/Documents/Stock.md)**  
+- **[Stock overviews](../../Domains/Logistics/Views/Stock.md)**  
 - **[Sales order reports](../../Domains/Sales/Views/SalesOrderDetails.md)**  
 - **[Delivery note reports](../../Domains/Sales/Views/DeliveryNoteReports.md)** 
 - **[Company cards](../../Domains/Sales/Views/CompanyCards.md)**  

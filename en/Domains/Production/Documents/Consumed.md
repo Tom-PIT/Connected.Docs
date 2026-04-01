@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Execution -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Consumed.md -->
+<!-- canonical_source_title: Consumed -->
+
 # Consumed
 
 The **Consumed** activity records the usage of input materials during an operation. Use it when you take materials from stock to make products (for example: screws, glue, paint, wiring, or a specific serial/batch). This keeps stock accurate and ensures full traceability of inputs (materials, serials, batches).

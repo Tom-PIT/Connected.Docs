@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/disassemblies --> 
+<!-- app_label: Demontaže --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Demontaze.md --> 
+<!-- canonical_source_title: Demontaže -->
+
 # Demontaže
 
 Dokument **Demontaža** se uporablja za razstavljanje [**garnitur** (združenih materialov)](../../Sredstva/Materiali/Garniture.md) na njihove posamezne komponente. Omogoča sledljivost, pravilno posodabljanje zaloge ter razpoložljivost delov za nadaljnjo uporabo v proizvodnji, nabavi ali prodaji.

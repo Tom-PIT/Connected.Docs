@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/containers --> 
+<!-- app_label: Vsebniki --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Vsebniki.md --> 
+<!-- canonical_source_title: Vsebniki -->
+
 # Vsebniki
 
 **Vsebnik** združuje eno ali več postavk pod eno serijsko šifro (pogosto **SSCC – Serial Shipping Container Code**). To omogoča pakiranje, premikanje in skeniranje celotnega sklopa hkrati, brez potrebe po odpiranju vsebnika. Postavke, ki so dodane v vsebnik, so **rezervirane za ta vsebnik** in jih ni mogoče uporabiti v drugih transakcijah, dokler vsebnik ni razpuščen ali dokler posamezne postavke niso odstranjene.
@@ -77,7 +82,7 @@ Zapakiran vsebnik je pripravljen za uporabo, stanje pa se spremeni v **Zapakiran
 - **Komisioniranje / izdaja:** skenirajte šifro vsebnika v **[Izdajnicah](Izdajnice.md)**, da dodate celotno vsebino naenkrat
 - **Prevzem / uskladiščenje:** skenirajte v **[Prevzemih](Prevzemi.md)** za vnos celotnega sklopa v zalogo
 - **Premiki:** uporabite **[Med-skladiščni promet](MedSkladiscniPromet.md)** ali **[Premakni serijsko številko](PremakniSerijskoStevilko.md)** in skenirajte vsebnik za skupni premik
-- **Pregled zaloge:** uporabite **[Zaloga](Zaloga.md)** ali **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** za preverjanje prisotnosti in lokacije vsebnika
+- **Pregled zaloge:** uporabite **[Zaloga](../Pregledi/Zaloga.md)** ali **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** za preverjanje prisotnosti in lokacije vsebnika
 
 ## Pregled vsebnika
 
@@ -89,7 +94,7 @@ Zapakiran vsebnik je pripravljen za uporabo, stanje pa se spremeni v **Zapakiran
 
 > [!TIP]
 > - Kliknite **Lokacijo**, da odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)**, filtriran na izbrano lokacijo.  
-> - Kliknite serijsko številko materiala, da odprete **[Pogled zaloge po serijski številki](Zaloga.md#pogled-zaloge-po-serijski-stevilki)**.
+> - Kliknite serijsko številko materiala, da odprete **[Pogled zaloge po serijski številki](../Pregledi/Zaloga.md#pogled-zaloge-po-serijski-stevilki)**.
 
 ## Meni
 

@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/inventories --> 
+<!-- app_label: Inventories --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Inventories.md --> 
+<!-- canonical_source_title: Inventories -->
+
 # Inventories
 
 An **Inventory** document is used to verify and correct stock quantities at a specific warehouse location. It compares the **theoretical stock** stored in the system with the **actual stock** physically present on the shelves. If differences are found, you can update the quantities and publish the document to adjust the stock levels accordingly.

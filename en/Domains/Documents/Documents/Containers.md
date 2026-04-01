@@ -60,8 +60,6 @@ Click **Open** on a container to view its contents.
 
 ![Container content](../Images/DocumentsContainersFiles.png "Container content")
 
-Content inside a container is organized using a **folder structure**, similar to [**Resources**](../Resources/Resources.md).
-
 The left sidebar displays folders, while the main area shows documents.
 
 ### Toolbar actions

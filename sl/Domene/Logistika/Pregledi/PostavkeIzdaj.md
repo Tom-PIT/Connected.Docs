@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/views/issue-details -->
+<!-- app_label: Postavke izdaj -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/PostavkeIzdaj.md -->
+<!-- canonical_source_title: Postavke izdaj -->
+
 # Postavke izdaj
 
 Pogled **Postavke izdaj** nudi analitični pregled vseh **materialov in končnih izdelkov, izdanih iz zaloge** v izbranem časovnem obdobju. Namesto osredotočanja na posamezne dokumente izdaj ta pogled združuje **izdane postavke** ter jasno prikazuje, **kateri [dokumenti izdaj](../Dokumenti/Izdajnice.md)** so bili uporabljeni in **iz katerih skladiščnih lokacij** so bile postavke izdane.
@@ -80,5 +85,5 @@ Ta pogled je **zgolj analitičen**. Ne omogoča ustvarjanja, urejanja ali brisan
 
 - **[Postavke porabe](PostavkePorabe.md)** – pregled materialov, porabljenih v proizvodnji  
 - **[Pogled zaloge po lokacijah](PogledZalogePoLokacijah.md)** – pregled zaloge na posamezni skladiščni lokaciji  
-- **[Pogled zaloge po materialu](../Dokumenti/Zaloga.md#pogled-zaloge-po-materialu)** – pregled stanja in premikov zaloge po materialih  
+- **[Pogled zaloge po materialu](Zaloga.md#pogled-zaloge-po-materialu)** – pregled stanja in premikov zaloge po materialih  
 - **[Dokumenti izdaj](../Dokumenti/Izdajnice.md)** – ustvarjanje in pregled dokumentov izdaj
