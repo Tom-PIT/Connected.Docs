@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/issues --> 
+<!-- app_label: Issues --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Issues.md --> 
+<!-- canonical_source_title: Issues -->
+
 # Issues
 
 An **Issue** document is used to record goods that come out your warehouse, for example, to be delivered to a customer. When finished products, materials, or packaged items leave the warehouse as part of a customer delivery, the Issue document captures all relevant details. Examples include issuing **furniture to a customer**, **shipping spare parts**, or **delivering packaged goods** as part of a sales order.

@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/import -->
+<!-- app_label: Import materials -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/ImportMaterials.md -->
+<!-- canonical_source_title: Import materials -->
+
 # Import materials
 
 This document describes how to import multiple materials into the system at once using a spreadsheet file. This allows fast bulk creation or updating of material records. 

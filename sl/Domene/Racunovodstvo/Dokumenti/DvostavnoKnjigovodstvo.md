@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/journal-entries -->
+<!-- app_label: Dvostavno knjigovodstvo -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/DvostavnoKnjigovodstvo.md -->
+<!-- canonical_source_title: Dvostavno knjigovodstvo -->
+
 # Dvostavno knjigovodstvo
 
 **Dvostavno knjigovodstvo** je osrednji modul, kjer se hranijo in upravljajo vse **temeljnice**.  

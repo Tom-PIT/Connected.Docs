@@ -1,3 +1,8 @@
+<!-- app_route: /production/documents/consumptions --> 
+<!-- app_label: Consumptions --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Consumptions.md --> 
+<!-- canonical_source_title: Consumptions -->
+
 # Consumptions
 
 A **Consumption** document records materials that were consumed during the execution of a **Production order**. Consumption documents are created automatically from the [**Execution**](../../Production/Documents/Execution.md) module when a production worker records material consumption. They reduce stock for the consumed materials and provide traceability of what was used. 

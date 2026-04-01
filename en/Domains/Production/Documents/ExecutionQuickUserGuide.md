@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Execution -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Execution.md -->
+<!-- canonical_source_title: Execution -->
+
 # Execution – Quick User Guide
 
 This guide shows the **essential steps** to perform production using the Execution screen.

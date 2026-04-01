@@ -1,13 +1,10 @@
-<!-- app_route: management/materials/products -->
+<!-- app_route: /management/materials/products -->
 <!-- app_label: Izdelki -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
 <!-- canonical_source_title: Izdelki -->
 
 # Izdelki
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 **Izdelki** so končni proizvodi, ki jih podjetje izdeluje ali kupuje. Te postavke se lahko prodajajo kupcem, skladiščijo v skladišču ali uporabljajo v internih procesih. Primeri izdelkov so hrastova miza, pisarniški stol, LED svetilka ali vrtna klop.
 
 Vsak izdelek vsebuje pomembne podatke – kot so [merske enote](../../../Skupno/Upravljanje/MerskeEnote.md), [davčna stopnja](../../../Skupno/Upravljanje/DavcneStopnje.md), rok uporabe ali [pakiranje](Pakiranje.md) – ki zagotavljajo dosledno upravljanje v zalogi, prodaji in proizvodnih dokumentih. Ta šifrant predstavlja vse končne izdelke, ki so na voljo v vašem katalogu.
@@ -26,10 +23,7 @@ Za dostop do šifranta **Izdelki** pojdite na
 **Sredstva / Materiali / Izdelki** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 <details open>
 <summary><strong>Izdelek</strong></summary>
 
@@ -90,10 +84,7 @@ Za dostop do šifranta **Izdelki** pojdite na
 ## Upravljanje
 
 ### Seznam izdelkov
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Uporabniški vmesnik vsebuje seznam izdelkov. Če zapisi še ne obstajajo, je seznam prazen.
 
 ![Izdelki](../Images/ProductsList.png "Izdelki")
@@ -103,10 +94,7 @@ Seznam prikazuje ime izdelka, šifro in način generiranja serijske številke.
 Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih izdelkov.
 
 ## Dejanja
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - **Uvoz**
@@ -114,20 +102,14 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže
 - **Nov**
 
 ### Uvoz
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Uvoz**. Ta akcija omogoča hkratni uvoz več materialov izdelkov z uporabo ustrezno pripravljene preglednice.
 
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
 ### Kopiraj obstoječi
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
 
 ![Kopiranje izdelka](../Images/CopyProduct.png "Kopiranje izdelka")
@@ -135,10 +117,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **K
 Po izbiri osnovnega izdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
 ### Nov
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Nov**, da odprete obrazec za dodajanje novega izdelka. Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
 ![Nov izdelek](../Images/NewProduct.png "Nov izdelek")
@@ -146,10 +125,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **N
 Na voljo so dodatni zložljivi razdelki:
 
 #### Pakiranje
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Ta razdelek omogoča pregled ali dodajanje enega ali več zapisov [pakiranja](Pakiranje.md), specifičnih za material. Vsak zapis predstavlja eno pakirno enoto z lastno količino in identifikacijo.
 
 Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
@@ -158,10 +134,7 @@ Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
 - [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
 
 #### Intrastat in Glavna knjiga
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri poročanju.
 
 ![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedger.png "Materiali Intrastat in Glavna knjiga")
@@ -170,10 +143,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
 #### Dodatno
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodatni kontekst, vendar ne vplivajo na izračune zaloge.
 
 ![Zložljivi razdelki](../Images/MaterialPackagingAdditional.png "Zložljivi razdelki")
@@ -181,19 +151,13 @@ Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite izdelek, ali **Prekliči**, da se vrnete na seznam.
 
 ## Urejanje
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Za urejanje obstoječega izdelka kliknite **Ime** izdelka v seznamu. Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
 ![Urejanje izdelka](../Images/EditProduct.png "Urejanje izdelka")
 
 ## Brisanje
-<!-- app_route: management/materials/products -->
-<!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
-<!-- canonical_source_title: Izdelki -->
+
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**

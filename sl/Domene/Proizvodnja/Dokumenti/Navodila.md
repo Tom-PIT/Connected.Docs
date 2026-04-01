@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Izvedba -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Navodila.md -->
+<!-- canonical_source_title: Navodila -->
+
 # Navodila
 
 Aktivnost **Navodila** prikazuje članke iz baze znanja, ki so povezani s trenutno operacijo (npr. koraki sestave, varnostna navodila, vizualni prikazi). Namenjena je hitremu pregledu navodil med delom.

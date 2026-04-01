@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/corrections --> 
+<!-- app_label: Corrections --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Corrections.md --> 
+<!-- canonical_source_title: Corrections -->
+
 # Corrections
 
 Corrections are logistics documents used to adjust inventory when physical stock does not match system records (e.g., counting differences, wrong material, or labeling errors). Publishing a correction updates warehouse balances to reflect the actual quantities and properties of materials.

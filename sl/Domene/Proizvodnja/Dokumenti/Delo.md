@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Izvedba -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Delo.md -->
+<!-- canonical_source_title: Delo -->
+
 # Delo
 
 Aktivnost **Delo** se uporablja za beleženje porabljenega delovnega časa na operaciji. Omogoča sledenje času operaterja bodisi samodejno (Začetek/Ustavi) bodisi ročno (z vnosom časov ali trajanja).

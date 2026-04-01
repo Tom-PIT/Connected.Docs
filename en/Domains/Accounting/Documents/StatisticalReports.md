@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/statistical-reports -->
+<!-- app_label: Statistical reports -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/StatisticalReports.md -->
+<!-- canonical_source_title: Statistical reports -->
+
 # Statistical reports
 
 Statistical reports provide an overview of financial data aggregated by **AOP positions**, allowing comparison between the **current period** and a **previous period** (usually the previous year). These reports are typically used for balance sheets, income statements, and other statutory or internal financial reports.

@@ -4,10 +4,7 @@
 <!-- canonical_source_title: Proizvodni nalogi -->
 
 # Proizvodni nalogi
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Proizvodni nalogi določajo delo, potrebno za izdelavo izdelkov glede na izbrani proces in verzijo.  
 Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Zaključen** in lahko vključujejo več operacij, virov, vhodov, izhodov in kontrol kakovosti glede na dodeljen proces.
 
@@ -25,19 +22,13 @@ Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Z
 Do proizvodnih nalogov dostopate preko **Proizvodnja / Proizvodni nalogi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ## Seznam proizvodnih nalogov
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Stran Proizvodni nalogi prikazuje vse naloge, razvrščene po statusu. Za natančnejši prikaz uporabite filtre na levi strani.
 
 ![Seznam proizvodnih nalogov](../Images/ProductionOrdersList.png "Seznam proizvodnih nalogov")
 
 ### Razpoložljivi filtri
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 - **Datumi proizvodnih nalogov** – Filtriranje nalogov po časovnem obdobju.  
 - **Pogled** – Prikaz nalogov glede na fazo življenjskega cikla:  
   - **Osnutek** — Urejevalni nalog, ustvarjen preko čarovnika
@@ -49,26 +40,17 @@ Stran Proizvodni nalogi prikazuje vse naloge, razvrščene po statusu. Za natan�
 Iskalno polje na vrhu omogoča filtriranje po šifri proizvodnega naloga ali nazivu materiala.
 
 ## Ustvarjanje proizvodnega naloga
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in sledite vodenemu tristopenjskemu čarovniku:
 
 ### **1. korak — Izberi material**
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Izberite **Tip materiala** (npr. Izdelki ali Polizdelki), nato izberite konkreten [**material**](../../Sredstva/Domena/Materiali.md) in količino, ki jo želite proizvesti.
 
 ![1. korak](../Images/ProductionOrdersNewStep1.png "1. korak – Izbira materiala")
 
 ### **2. korak — Izberi proces**
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Izberite **[Proces](../Upravljanje/Procesi.md)** in **verzijo procesa**, ki določa način izdelave materiala.
 
 ![2. korak](../Images/ProductionOrdersNewStep2.1.png "2. korak – Izbira procesa")
@@ -78,19 +60,13 @@ Izberite **[Proces](../Upravljanje/Procesi.md)** in **verzijo procesa**, ki dolo
 > Prepričajte se, da ima proces oznako »Proizvodnja« in aktivno verzijo. Manjkajoča oznaka je pogost razlog, da se proces tukaj ne prikaže.
 
 ### **3. korak — Podaj dodatne informacije**
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Ta korak določa način izvajanja in časovni razpored.
 
 ![3. korak](../Images/ProductionOrdersNewStep3.png "3. korak – Dodatne informacije")
 
 #### **Način**
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Določa obnašanje proizvodnega naloga:
 
 - **Standardni** — Ustvari en sam proizvodni nalog za celotno količino.
@@ -112,10 +88,7 @@ Določa obnašanje proizvodnega naloga:
 ![Delne proizvodnje](../Images/ProductionOrdersNewStep3PartialProductions.png)
 
 #### **Datumi**
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Po želji določite časovne podatke:
 - **Datum roka**
 - **Planiran datum začetka**
@@ -124,10 +97,7 @@ Po želji določite časovne podatke:
 Kliknite **Zaključi**, da ustvarite proizvodni nalog v stanju **Osnutek**.
 
 ## Osnutki proizvodnih nalogov
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Novo ustvarjen nalog ima status **Osnutek**.
 
 V osnutku je mogoče urejati:
@@ -143,10 +113,7 @@ V osnutku je mogoče urejati:
 ![Osnutek proizvodnega naloga](../Images/ProductionOrdersDraft.png "Osnutek proizvodnega naloga")
 
 ### Objavljanje osnutka
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Za prehod v stanje **V obdelavi** mora biti izbrana **Organizacijska enota**.
 
 ![Izbira organizacijske enote](../Images/ProductionOrdersOrganizationUnits.png "Izbira organizacijske enote")
@@ -154,10 +121,7 @@ Za prehod v stanje **V obdelavi** mora biti izbrana **Organizacijska enota**.
 Ko je pripravljeno, kliknite **Objavi**.
 
 ## Proizvodni nalogi v obdelavi
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Nalogi v stanju **V obdelavi** so v celoti pripravljeni in čakajo na aktivacijo. Izvajanje proizvodnje še ni mogoče.
 
 V tem stanju lahko:
@@ -171,10 +135,7 @@ V tem stanju lahko:
 Ko je nalog pripravljen za proizvodnjo, kliknite **Aktiviraj**.
 
 ## Povezani dokumenti
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Na proizvodni nalog lahko pripnete druge povezane dokumente, kot so:
 
 - [**Projekti**](../../Projekti/Domena/DomenaProjektov.md)  
@@ -189,10 +150,7 @@ Proizvodni nalogi prikazujejo tudi vse dokumente, ustvarjene med življenjskim c
 ![Dokumenti povezanih nalogov](../Images/ProductionOrdersLinkedDocumentsDocs.png)
 
 ## Aktivni proizvodni nalogi
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Po aktivaciji nalog postane **Aktiven** in je pripravljen za izvajanje v proizvodnji.
 
 ![Aktiven proizvodni nalog](../Images/ProductionOrdersPending.png "Aktiven proizvodni nalog")
@@ -205,10 +163,7 @@ Razdelek **Proces** prikazuje vse planirane operacije, vhode, vire, izhode in ko
 ![Pregled procesa](../Images/ProductionOrdersProcess.png "Pregled procesa")
 
 ## Zaključeni proizvodni nalogi
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Ko je proizvodnja zaključena in so vse operacije izvedene, se nalog prestavi v stanje **Zaključen**.
 
 ![Seznam zaključenih proizvodnih nalogov](../Images/ProductionOrdersClosedList.png "Seznam zaključenih proizvodnih nalogov")
@@ -236,10 +191,7 @@ Zaključeni proizvodni nalogi ponujajo dodatne možnosti v akcijskem meniju:
 ![Meni zaključenega naloga](../Images/ProductionOrderClosedMenu.png)
 
 ### Povrnitev v aktivno stanje
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Če so po zaključku potrebne spremembe, lahko nalog povrnete v stanje **Aktiven**:
 
 1. Odprite zaključen proizvodni nalog
@@ -249,10 +201,7 @@ Zaključeni proizvodni nalogi ponujajo dodatne možnosti v akcijskem meniju:
 ![Ponovna aktivacija naloga](../Images/ProductionOrdersReactivate.png)
 
 ## Brisanje
-<!-- app_route: /production-orders -->
-<!-- app_label: Proizvodni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md -->
-<!-- canonical_source_title: Proizvodni nalogi -->
+
 Proizvodni nalog je mogoče izbrisati samo v stanju **Osnutek** ali **V pripravi** in le, če nanj niso vezani drugi dokumenti.
 
 Uporabite možnost **Izbriši** v glavi dokumenta.

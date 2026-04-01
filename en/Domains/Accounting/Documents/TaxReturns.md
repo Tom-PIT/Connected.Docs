@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/tax-returns -->
+<!-- app_label: Tax returns -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/TaxReturns.md -->
+<!-- canonical_source_title: Tax returns -->
+
 # Tax returns
 
 Tax returns provide an aggregated overview of VAT-related data for a specific period.  

@@ -58,7 +58,7 @@ The list displays:
 - **Material** – Material code and name.
 - **Amount** – Ledger value of the material on the selected date.
 
-Clicking on a **material name** opens the related [**Stock view by material**](../../Logistics/Documents/Stock.md#stock-view-by-material) record.
+Clicking on a **material name** opens the related [**Stock view by material**](../../Logistics/Views/Stock.md#stock-view-by-material) record.
 
 > [!NOTE]  
 > Because this view is ledger-based, values may differ from logistics stock if postings are missing, delayed, or not yet committed.

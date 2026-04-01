@@ -1,3 +1,8 @@
+<!-- app_route: /production/documents/productions --> 
+<!-- app_label: Proizvodnje --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Proizvodnje.md --> 
+<!-- canonical_source_title: Proizvodnje -->
+
 # Proizvodnje
 
 Dokument **Proizvodnja** beleži postavke, ki so bile proizvedene med izvajanjem **proizvodnega naloga**. Dokumenti proizvodnje se ustvarijo **samodejno** v modulu [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md), ko proizvodni delavec zabeleži proizvedene količine. Proizvodnje povečujejo zalogo proizvedenih izdelkov in zagotavljajo sledljivost tega, kar je bilo izdelano.

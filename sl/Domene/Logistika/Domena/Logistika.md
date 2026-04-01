@@ -15,8 +15,8 @@ Za dostop do tega področja pojdite na **Logistika** v [**navigaciji**](../../..
 
 Področje je razdeljeno na več funkcionalnih sklopov:
 
-- **[Nadzorna plošča](../Dokumenti/NadzornaPlosca.md)** – hiter pregled logističnih aktivnosti in delovanja skladišč (kazalniki samo za branje)  
-- **[Zaloga](../Dokumenti/Zaloga.md)** – pregled zaloge v realnem času (samo za branje; filtriranje po skladišču, lokaciji, materialu, seriji/serijski številki)  
+- **[Nadzorna plošča](../Pregledi/NadzornaPlosca.md)** – hiter pregled logističnih aktivnosti in delovanja skladišč (kazalniki samo za branje)  
+- **[Zaloga](../Pregledi/Zaloga.md)** – pregled zaloge v realnem času (samo za branje; filtriranje po skladišču, lokaciji, materialu, seriji/serijski številki)  
 - **[Dokumenti](#dokumenti)** – vsi logistični dokumenti, ki vplivajo na zalogo  
 - **[Pregledi](#pregledi)** – analitični pregledi porabe, izdaj in razporeditve zaloge  
 - **[Šifranti](#sifranti)** – konfiguracija skladišč, lokacij in logističnih pravil  
@@ -25,7 +25,7 @@ Področje je razdeljeno na več funkcionalnih sklopov:
 
 ## Nadzorna plošča
 
-**[Nadzorna plošča](../Dokumenti/NadzornaPlosca.md)** omogoča hiter pregled logistične učinkovitosti in aktivnosti v skladiščih. Prikazuje operativne kazalnike (npr. število prevzemov in izdaj, odprte inventure, neskladja), ki uporabnikom pomagajo razumeti trenutno obremenitev, premike zaloge in aktivne skladiščne procese.
+**[Nadzorna plošča](../Pregledi/NadzornaPlosca.md)** omogoča hiter pregled logistične učinkovitosti in aktivnosti v skladiščih. Prikazuje operativne kazalnike (npr. število prevzemov in izdaj, odprte inventure, neskladja), ki uporabnikom pomagajo razumeti trenutno obremenitev, premike zaloge in aktivne skladiščne procese.
 
 ![Nadzorna plošča logistike](../Images/Dashboard.png "Nadzorna plošča logistike")
 
@@ -33,7 +33,7 @@ Nadzorna plošča služi kot vstopna točka za skladiščne vodje in operaterje,
 
 ## Zaloga
 
-Razdelek **[Zaloga](../Dokumenti/Zaloga.md)** omogoča operativni vpogled v materiale in njihove trenutne količine v skladiščih. Prikazuje vse materiale po skladiščih in lokacijah, vključno z razpoložljivimi količinami, serijami, serijskimi številkami in fizičnimi pozicijami. Ta pogled je samo za branje.
+Razdelek **[Zaloga](../Pregledi/Zaloga.md)** omogoča operativni vpogled v materiale in njihove trenutne količine v skladiščih. Prikazuje vse materiale po skladiščih in lokacijah, vključno z razpoložljivimi količinami, serijami, serijskimi številkami in fizičnimi pozicijami. Ta pogled je samo za branje.
 
 ![Zaslon zaloge](../Images/Stock.png "Zaslon zaloge")
 

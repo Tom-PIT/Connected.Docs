@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/stock/index -->
+<!-- app_label: Stock -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/Stock.md -->
+<!-- canonical_source_title: Stock -->
+
 # Stock
 
 The **Stock** page provides a complete overview of material quantities across the system. It shows how many items are available, blocked, or reserved, and lets you quickly find any material by searching or sorting the list. From here, you can open detailed stock views to understand where the material is stored, how it is used, and how it has moved over time.

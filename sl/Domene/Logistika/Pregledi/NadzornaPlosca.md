@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/index -->
+<!-- app_label: Nadzorna plošča -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/NadzornaPlosca.md -->
+<!-- canonical_source_title: Nadzorna plošča -->
+
 # Nadzorna plošča
 
 **Nadzorna plošča** omogoča hiter pregled trenutnega stanja zaloge za vse materiale. Poudari pomembna stanja, kot so materiali, ki so **pod minimalno zalogo**, **nad maksimalno zalogo**, **brez zaloge** ali **blokirani**. Tako lahko hitro zaznate morebitne težave in pravočasno ukrepate.

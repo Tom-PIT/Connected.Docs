@@ -5,11 +5,6 @@
 
 # Measure units
 
-<!-- app_route: /management/common-types/measure-units -->
-<!-- app_label: Measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
-<!-- canonical_source_title: Measure units -->
-
 Measure units are how you count or measure items (for example: piece, kilogram, meter, liter). They make quantities consistent across documents, stock, and calculations and control rounding/formatting (e.g., 2 pcs, 1.75 kg, 3.000 m) across all domains.
 
 Examples:
@@ -21,11 +16,6 @@ Examples:
 > For a full demonstration, see the **[Measure units](https://www.youtube.com/watch?v=8swl8Vex6y4)** video tutorial.
 
 You can access the **Measure units** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
-
-<!-- app_route: /management/common-types/measure-units -->
-<!-- app_label: Measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
-<!-- canonical_source_title: Measure units -->
 
 To open the list, go to **Management / Measure units** in one of the following domains:
 
@@ -45,19 +35,9 @@ To open the list, go to **Management / Measure units** in one of the following d
 | **Precision** | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
 | **Active** | Indicates whether the measure unit is available for use in new documents. Inactive units cannot be selected in new entries, but remain visible in history. |
 
-<!-- app_route: /management/common-types/measure-units -->
-<!-- app_label: Measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
-<!-- canonical_source_title: Measure units -->
-
 ## Management
 
 ### List of measure units
-
-<!-- app_route: /management/common-types/measure-units -->
-<!-- app_label: Measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
-<!-- canonical_source_title: Measure units -->
 
 The user interface contains a list of measure units. If no record exists yet, the list is empty.
 
@@ -73,11 +53,6 @@ The list displays each measure unit's name, abbreviation, and precision.
 
 ### Creating a new measure unit
 
-<!-- app_route: /management/common-types/measure-units -->
-<!-- app_label: Measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
-<!-- canonical_source_title: Measure units -->
-
 Click on the [**action button**](../UI/ActionButton.md) to add a new measure unit.
 
 Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
@@ -88,11 +63,6 @@ After entering the required information, click **Add** to save the measure unit 
 
 ### Editing a measure unit
 
-<!-- app_route: /management/common-types/measure-units -->
-<!-- app_label: Measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
-<!-- canonical_source_title: Measure units -->
-
 To edit an existing measure unit, click the unit's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
 
 ![Edit measure unit](../Images/MeasureUnitsEdit.png "Edit measure unit")
@@ -100,11 +70,6 @@ To edit an existing measure unit, click the unit's **Name** in the list. The int
 Click **Save** to confirm changes or **Cancel** to discard them.
 
 ### Deletion
-
-<!-- app_route: /management/common-types/measure-units -->
-<!-- app_label: Measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/MeasureUnits.md -->
-<!-- canonical_source_title: Measure units -->
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

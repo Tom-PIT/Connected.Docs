@@ -1,8 +1,13 @@
+<!-- app_route: /warehouse/stock/location -->
+<!-- app_label: Stock view by location -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/StockViewByLocation.md -->
+<!-- canonical_source_title: Stock view by location -->
+
 # Stock view by location
 
 The **Stock view by location** screen shows all materials stored in a specific [warehouse location](../Management/Locations.md). It provides a clear overview of total, reserved, blocked, and available quantities at that location. This helps you understand how stock is distributed and whether storage capacity or organization needs adjustment.
 
-You can navigate to related views—such as the **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** or the **[Stock view by serial number](../Documents/Stock.md#stock-view-by-serial-number)**—to explore how items arrived at this location or where else they may be stored. Minimum and maximum stock rules can be defined in the **[Stock boundaries](../Management/StockBoundaries.md)** code list, and broader stock conditions can be reviewed on the **[Dashboard](../Documents/Dashboard.md)**.
+You can navigate to related views—such as the **[Stock view by material](Stock.md#stock-view-by-material)** or the **[Stock view by serial number](Stock.md#stock-view-by-serial-number)**—to explore how items arrived at this location or where else they may be stored. Minimum and maximum stock rules can be defined in the **[Stock boundaries](../Management/StockBoundaries.md)** code list, and broader stock conditions can be reviewed on the **[Dashboard](Dashboard.md)**.
 
 > [!TIP]
 > For a full demonstration, see the **[Stock view by location](https://www.youtube.com/watch?v=_3bZBZ89hds)** video tutorial.

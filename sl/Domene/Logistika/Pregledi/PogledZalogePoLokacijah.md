@@ -1,8 +1,13 @@
+<!-- app_route: /warehouse/stock/location -->
+<!-- app_label: Pogled zaloge po lokacijah -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/PogledZalogePoLokacijah.md -->
+<!-- canonical_source_title: Pogled zaloge po lokacijah -->
+
 # Pogled zaloge po lokacijah
 
 Pogled **Pogled zaloge po lokacijah** prikazuje vse materiale, shranjene na določeni [skladiščni lokaciji](../Upravljanje/Lokacije.md). Zagotavlja jasen pregled **skupnih**, **rezerviranih**, **blokiranih** in **razpoložljivih** količin na izbrani lokaciji. To pomaga razumeti porazdelitev zaloge ter ugotoviti, ali je potrebno prilagoditi kapaciteto ali organizacijo skladiščenja.
 
-Do povezanih pogledov — kot sta **[Pogled zaloge po materialu](../Dokumenti/Zaloga.md#pogled-zaloge-po-materialu)** ali **[Pogled zaloge po serijski številki](../Dokumenti/Zaloga.md#pogled-zaloge-po-serijski-stevilki)** — lahko dostopate za vpogled v to, kako so postavke prispele na to lokacijo ali kje drugje so še shranjene. Pravila minimalne in maksimalne zaloge je mogoče določiti v šifrantu **[Meje zaloge](../Upravljanje/MejeZaloge.md)**, širše stanje zaloge pa si lahko ogledate na **[Nadzorni plošči](../Dokumenti/NadzornaPlosca.md)**.
+Do povezanih pogledov — kot sta **[Pogled zaloge po materialu](Zaloga.md#pogled-zaloge-po-materialu)** ali **[Pogled zaloge po serijski številki](Zaloga.md#pogled-zaloge-po-serijski-stevilki)** — lahko dostopate za vpogled v to, kako so postavke prispele na to lokacijo ali kje drugje so še shranjene. Pravila minimalne in maksimalne zaloge je mogoče določiti v šifrantu **[Meje zaloge](../Upravljanje/MejeZaloge.md)**, širše stanje zaloge pa si lahko ogledate na **[Nadzorni plošči](NadzornaPlosca.md)**.
 
 > [!TIP]
 > Za celoten prikaz si oglejte video vodič  

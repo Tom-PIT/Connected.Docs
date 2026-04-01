@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/material-analysis --> 
+<!-- app_label: Material analysis --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/MaterialAnalysis.md --> 
+<!-- canonical_source_title: Material analysis -->
+
 # Material analysis
 
 Material analysis documents list the materials that were received and require analysis or testing based on rules configured in **[Material analysis management](../Management/MaterialAnalysisManagement.md)**. Use this screen to review the required checks, mark materials as passed, and publish the results.

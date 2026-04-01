@@ -1,3 +1,8 @@
+<!-- app_route: /production/documents/productions --> 
+<!-- app_label: Productions --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Productions.md --> 
+<!-- canonical_source_title: Productions -->
+
 # Productions
 
 A **Production** document records items that were produced during the execution of a **Production order**. Production documents are created automatically from the [**Execution**](../../Production/Documents/Execution.md) module when a production worker records produced outputs. They increase stock for the produced items and provide traceability of what was made.

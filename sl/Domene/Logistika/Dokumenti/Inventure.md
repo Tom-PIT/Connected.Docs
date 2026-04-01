@@ -1,8 +1,13 @@
+<!-- app_route: /warehouse/documents/inventories --> 
+<!-- app_label: Inventure --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Inventure.md --> 
+<!-- canonical_source_title: Inventure -->
+
 # Inventure
 
 Dokument **Inventura** se uporablja za preverjanje in popravljanje zalog na določeni skladiščni lokaciji. Sistem primerja **teoretično zalogo**, zabeleženo v sistemu, z **dejansko zalogo**, ki je fizično prisotna na lokaciji. Če se ugotovijo razlike, lahko posodobite količine in dokument objavite, s čimer se zaloga ustrezno uskladi z dejanskim stanjem.
 
-Inventura se izvaja **po lokacijah** in prikaže vse materiale, shranjene na izbrani lokaciji, skupaj z indikatorji manjkajočih ali presežnih količin. Za razumevanje nastanka zaloge lahko neposredno odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** ali **[Pogled zaloge po serijski številki](../Dokumenti/Zaloga.md#pogled-zaloge-po-serijski-stevilki)**.
+Inventura se izvaja **po lokacijah** in prikaže vse materiale, shranjene na izbrani lokaciji, skupaj z indikatorji manjkajočih ali presežnih količin. Za razumevanje nastanka zaloge lahko neposredno odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** ali **[Pogled zaloge po serijski številki](../Pregledi/Zaloga.md#pogled-zaloge-po-serijski-stevilki)**.
 
 Minimalni in maksimalni pragovi, prikazani v povzetkih, se nastavijo v šifrantu  
 **[Meje zaloge](../Upravljanje/MejeZaloge.md)**.

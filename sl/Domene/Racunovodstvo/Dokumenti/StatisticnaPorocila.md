@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/statistical-reports -->
+<!-- app_label: Statistična poročila -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/StatisticnaPorocila.md -->
+<!-- canonical_source_title: Statistična poročila -->
+
 # Statistična poročila
 
 **Statistična poročila** omogočajo pregled finančnih podatkov, agregiranih po **AOP postavkah**, ter primerjavo med **trenutnim obdobjem** in **prejšnjim obdobjem** (najpogosteje prejšnje leto). Poročila se običajno uporabljajo za **bilanco stanja**, **izkaz poslovnega izida** ter druga zakonska ali interna finančna poročila.

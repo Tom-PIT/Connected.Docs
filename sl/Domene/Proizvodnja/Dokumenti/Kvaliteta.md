@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Izvedba -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Kvaliteta.md -->
+<!-- canonical_source_title: Kvaliteta -->
+
 # Kvaliteta
 
 Aktivnost **Kvaliteta** prikazuje in beleži kontrolne liste kakovosti, povezane s trenutno operacijo. Kontrolne liste pomagajo zagotavljati varno delo in ustrezno kakovost izdelkov z vodenjem skozi zaporedne kontrolne korake.

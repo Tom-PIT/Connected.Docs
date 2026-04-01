@@ -13,8 +13,8 @@ Za dostop do šifranta **Meje zaloge** pojdite na  **Logistika / Upravljanje / M
 | Polje | Opis |
 |-------|------|
 | **Entiteta** | Material ali izdelek, za katerega veljajo meje zaloge. Prikazan je s šifro in imenom. |
-| **Najmanj** | Minimalna dovoljena količina zaloge za izbran material ali izdelek. Ko količina pade pod to vrednost, sistem stanje poudari na **[Nadzorni plošči](../Dokumenti/NadzornaPlosca.md)**. |
-| **Največ** | Maksimalna dovoljena količina zaloge za izbran material ali izdelek. Ko je ta vrednost presežena, sistem stanje poudari na **[Nadzorni plošči](../Dokumenti/NadzornaPlosca.md)**. |
+| **Najmanj** | Minimalna dovoljena količina zaloge za izbran material ali izdelek. Ko količina pade pod to vrednost, sistem stanje poudari na **[Nadzorni plošči](../Pregledi/NadzornaPlosca.md)**. |
+| **Največ** | Maksimalna dovoljena količina zaloge za izbran material ali izdelek. Ko je ta vrednost presežena, sistem stanje poudari na **[Nadzorni plošči](../Pregledi/NadzornaPlosca.md)**. |
 
 ## Upravljanje
 
@@ -30,7 +30,7 @@ Meje zaloge lahko urejate **neposredno v seznamu** — kliknite številsko vredn
 
 ![Meje zaloge](../Images/StockBoundaries.png "Meje zaloge")
 
-Vsaka količina zaloge, ki pade **pod minimalno** ali preseže **maksimalno** vrednost, je vizualno označena na **[Nadzorni plošči](../Dokumenti/NadzornaPlosca.md)**.
+Vsaka količina zaloge, ki pade **pod minimalno** ali preseže **maksimalno** vrednost, je vizualno označena na **[Nadzorni plošči](../Pregledi/NadzornaPlosca.md)**.
 
 ## Dejanja
 

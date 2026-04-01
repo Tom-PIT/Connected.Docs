@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/receives --> 
+<!-- app_label: Prevzemi --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Prevzemi.md --> 
+<!-- canonical_source_title: Prevzemi -->
+
 # Prevzemi
 
 Dokument **Prevzem** se uporablja za evidentiranje prihoda materialov v skladišče. Ko blago fizično prispe od dobavitelja ali iz druge lokacije, ustvarite prevzemni dokument, s katerim ga zabeležite v sistemu. Primeri prevzemov vključujejo:

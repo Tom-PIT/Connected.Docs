@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/reversals --> 
+<!-- app_label: Storno --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Storno.md --> 
+<!-- canonical_source_title: Storno -->
+
 # Storno
 
 Dokument **Storno** se uporablja za razveljavitev učinka drugega logističnega dokumenta. Omogoča popravljanje napak ali prilagoditev zaloge, kadar je potrebno razveljaviti že objavljen premik. Storno je mogoče ustvariti **samo za objavljene dokumente** in **izključno prek njihovega menija → Ustvari novo storno**. Dokumentov storna **ni mogoče** ustvariti neposredno s seznama stornov.

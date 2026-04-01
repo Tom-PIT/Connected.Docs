@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/requirements -->
+<!-- app_label: Zahteve -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Zahteve.md -->
+<!-- canonical_source_title: Zahteve -->
+
 # Zahteve
 
 Stran **Zahteve** ponuja pregled vseh materialov, potrebnih za planirane proizvodne operacije v izbranem časovnem obdobju. Planerjem pomaga preveriti, ali je na voljo dovolj zaloge, ter hitro ustvariti nabavne naloge, kadar se pojavijo primanjkljaji.

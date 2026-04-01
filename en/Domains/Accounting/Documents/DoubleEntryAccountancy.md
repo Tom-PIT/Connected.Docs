@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/journal-entries -->
+<!-- app_label: Double-entry accountancy -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/DoubleEntryAccountancy.md -->
+<!-- canonical_source_title: Double-entry accountancy -->
+
 # Double-entry accountancy
 
 **Double-entry accountancy** is where all journal entries are stored and managed. Journal entries represent the final accounting records that post financial movements to the ledger.

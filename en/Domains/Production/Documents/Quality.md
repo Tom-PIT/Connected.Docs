@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Execution -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Quality.md -->
+<!-- canonical_source_title: Quality -->
+
 # Quality
 
 The **Quality** activity shows and records quality checklists linked to the current operation. Checklists help keep work safe and products correct by guiding step-by-step controls.

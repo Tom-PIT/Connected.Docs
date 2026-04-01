@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/documents/reversals --> 
+<!-- app_label: Reversals --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Reversals.md --> 
+<!-- canonical_source_title: Reversals -->
+
 # Reversals
 
 A **Reversal** document is used to undo the effect of another logistics document. It allows you to correct mistakes or adjust stock levels when a previously committed movement needs to be reversed. You can reverse only committed documents, and only through their **Menu → Create a new reversal** option. Reversals cannot be created directly from the Reversals list.

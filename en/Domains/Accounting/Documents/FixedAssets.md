@@ -1,14 +1,17 @@
-# Fixed assets
+<!-- app_route: /accounting/ledger/fixed-assets -->
+<!-- app_label: Fixed assets -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/FixedAssets.md -->
+<!-- canonical_source_title: Fixed assets -->
 
+# Fixed assets
 Fixed assets are used to track long-term assets owned by the organization, such as machinery, equipment, furniture, and IT hardware. Each fixed asset represents a single asset or a group of identical assets that are capitalized and depreciated over time.
 
 To access this screen, go to **Accounting / Ledger / Fixed assets** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 > [!NOTE]
-Fixed assets are closely linked to [**depreciation groups**](../Management/Ledger/DepreciationGroups.md) and [**ledger accounts**](../Management/Ledger/ChartOfAccounts.md). Posting behavior and depreciation calculations depend on the configuration of depreciation groups and ledger settings.
+> Fixed assets are closely linked to [**depreciation groups**](../Management/Ledger/DepreciationGroups.md) and [**ledger accounts**](../Management/Ledger/ChartOfAccounts.md). Posting behavior and depreciation calculations depend on the configuration of depreciation groups and ledger settings.
 
 ## Schema
-
 <details open>
   <summary><strong>Document</strong></summary>
 
@@ -44,9 +47,7 @@ Fixed assets are closely linked to [**depreciation groups**](../Management/Ledge
 </details>
 
 ## Management
-
-## Document states
-
+### Document states
 Fixed assets move through the following states:
 
 * **Draft** – The asset is being defined and can be freely edited.
@@ -55,7 +56,6 @@ Fixed assets move through the following states:
 * **Depreciated** – The asset has reached the end of its depreciation lifecycle.
 
 ### List view
-
 The list view displays all fixed assets.
 
 ![Fixed Assets List](../Images/FixedAssetsList.png)
@@ -71,9 +71,7 @@ Available filters:
 The current state of each asset reflects its lifecycle stage.
 
 ## Actions
-
 ### Create fixed asset
-
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new fixed asset.
 2. Fill in the required **Document** fields.
 3. Assign a **Depreciation group** and verify the related accounts.
@@ -84,13 +82,11 @@ After publishing, the asset moves from **Draft** to **Not yet in use**.
 ![Fixed Asset New](../Images/FixedAssetsNew.png)
 
 ### Add asset details
-
 In the **Details** section, asset-related events can be recorded.
 
 ![Fixed Asset Details](../Images/FixedAssetsDetails.png)
 
 #### Purchase
-
 Use **Purchase** to record the acquisition of the asset:
 
 * Set **Turnover type** to Purchase
@@ -100,7 +96,6 @@ Use **Purchase** to record the acquisition of the asset:
 This allows recording purchase information separately from activation.
 
 #### Activation
-
 To make the asset active:
 
 * Add a new detail
@@ -110,11 +105,10 @@ To make the asset active:
 
 Once activated, the asset moves to the **Activated** state.
 
-[!NOTE]
-Depreciation calculations are only applicable after an asset has been activated.
+> [!NOTE]
+> Depreciation calculations are only applicable after an asset has been activated.
 
 ### Depreciation on date
-
 The **Depreciation on date** section allows selecting a date and starting or stopping depreciation calculations.
 
 ![Fixed Asset Depreciation On Date](../Images/FixedAssetsDepreciationOnDate.png)

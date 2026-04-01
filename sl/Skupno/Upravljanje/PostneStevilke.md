@@ -1,17 +1,17 @@
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
 
 # Poštne številke
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
 **Poštne številke** pripadajo določeni **državi** in se upravljajo znotraj šifranta [**Države**](Drzave.md). Določajo razpoložljiva poštna območja, ki se uporabljajo pri vnosu naslovov v Poslovnem imeniku ali logističnih dokumentih.
 
 ## Dostop do poštnih številk
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
@@ -20,7 +20,7 @@ Poštne številke so prikazane kot oznaka pod vsakim vnosom države. Kliknite to
 ![Gumb poštne številke](../Images/PostalCodesButton.png "Gumb poštne številke")
 
 ## Shema
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
@@ -31,7 +31,7 @@ Poštne številke so prikazane kot oznaka pod vsakim vnosom države. Kliknite to
 | **Aktiven** | Označuje, ali je poštna številka na voljo za izbiro pri vnosu naslovov. |
 
 ## Seznamski pogled
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
@@ -42,7 +42,7 @@ Seznam poštnih številk prikazuje vse šifre, definirane za izbrano državo.
 Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih ali neaktivnih poštnih številk.
 
 ## Dejanja
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
@@ -51,7 +51,7 @@ Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 - **Nov**
 
 ### Ustvarjanje nove poštne številke
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
@@ -64,14 +64,14 @@ Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za ve
 Kliknite **Dodaj**, da shranite novo poštno številko.
 
 ### Uvoz novih poštnih številk
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
 Akcijski gumb vključuje tudi možnost **Uvoz**, ki omogoča množični uvoz poštnih številk iz CSV datoteke. To je uporabno pri nastavitvi nove države z večjim številom poštnih številk.
 
 ### Urejanje obstoječe poštne številke
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->
@@ -82,7 +82,7 @@ Akcijski gumb vključuje tudi možnost **Uvoz**, ki omogoča množični uvoz po�
 5. Kliknite **Shrani**.
 
 ### Brisanje
-<!-- app_route: management/common-types/countries -->
+<!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
 <!-- canonical_source_title: Poštne številke -->

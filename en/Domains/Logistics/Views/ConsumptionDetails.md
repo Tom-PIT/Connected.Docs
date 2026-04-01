@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/views/consumption-details -->
+<!-- app_label: Consumption details -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/ConsumptionDetails.md -->
+<!-- canonical_source_title: Consumption details -->
+
 # Consumption details
 
 The **Consumption details** view provides an analytical overview of all **materials consumed during production** within a selected time period. Instead of focusing on production documents, this view aggregates **consumed materials** and shows exactly **which [consumption documents](../../Production/Documents/Consumed.md)** were used and **from which warehouse locations** the materials were sourced.
@@ -81,4 +86,4 @@ This view is **analytical only**. It does not allow creating, editing, or deleti
 - **[Production orders](../../Production/Documents/ProductionOrders.md)** – review production processes that generate material consumption  
 - **[Consumed](../../Production/Documents/Consumed.md)** – enter and review production consumption documents  
 - **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
-- **[Stock view by material](../Documents/Stock.md#stock-view-by-material)** – review stock movements and balances by material
+- **[Stock view by material](Stock.md#stock-view-by-material)** – review stock movements and balances by material

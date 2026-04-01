@@ -1,3 +1,8 @@
+<!-- app_route: /production/documents/consumptions --> 
+<!-- app_label: Porabe -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Porabe.md --> 
+<!-- canonical_source_title: Porabe -->
+
 # Porabe
 
 Dokument **Poraba** beleži materiale, ki so bili porabljeni med izvajanjem **proizvodnega naloga**. Dokumenti porabe se ustvarijo **samodejno** v modulu  

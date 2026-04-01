@@ -1,3 +1,8 @@
+<!-- app_route: /management/materials/repro-materials -->
+<!-- app_label: Repro materials -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/ReproMaterials.md -->
+<!-- canonical_source_title: Repro materials -->
+
 # Repro materials
 
 **Repro materials** are reusable or auxiliary components used to support production or internal activities. They are not final products but are essential for maintaining or assembling other materials. Examples include screws, tape, pallets, or styrofoam.

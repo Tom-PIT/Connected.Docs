@@ -1,3 +1,8 @@
+<!-- app_route: /production/cooperators -->
+<!-- app_label: Cooperators -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Cooperators.md -->
+<!-- canonical_source_title: Cooperators -->
+
 # Cooperators
 
 Cooperators are external companies (defined in the [**Business directory**](../../../Common/Management/BusinessDirectory.md)) that can perform specific operations related to **Production** or **Maintenance** orders.

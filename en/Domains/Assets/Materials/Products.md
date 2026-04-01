@@ -1,13 +1,10 @@
-<!-- app_route: management/materials/products -->
+<!-- app_route: /management/materials/products -->
 <!-- app_label: Products -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
 <!-- canonical_source_title: Products -->
 
 # Products
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 **Products** are the final goods that your company manufactures or purchases. These items can be sold to customers, stored in the warehouse, or used in internal processes. Examples of products include Oak table, Office chair, LED lamp, or Garden bench.
 
 Each product contains important information—such as [measure units](../../../Common/Management/MeasureUnits.md), [tax rate](../../../Common/Management/TaxRates.md), expiration period, or [packaging](Packaging.md)—that ensures it is managed consistently across stock, sales, and production documents. This code list represents all finished products available in your catalog.
@@ -24,10 +21,7 @@ Each product contains important information—such as [measure units](../../../C
 To access the **Products** code list, go to **Assets / Materials / Products** in the [**navigation**](../../../Common/UI/Navigation.md).
 
 ## Schema
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 <details open>
 <summary><strong>Product</strong></summary>
 
@@ -90,10 +84,7 @@ A packaging definition describes the physical properties of a material and the a
 ## Management
 
 ### List of products
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 The user interface contains a list of products. If no record exists yet, the list is empty.
 
 ![Products](../Images/ProductsList.png "Products")
@@ -103,10 +94,7 @@ The list displays each product’s name, code, and serial number generation meth
 A filter for **Tags** is available on the left side of the screen. A search field is available in the upper-right corner to quickly locate specific products.
 
 ## Actions
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
 
 - **Import**
@@ -114,19 +102,13 @@ Click on the [action button](../../../Common/UI/ActionButton.md) to display the 
 - **New**
 
 ### Import
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 Click on the [action button](../../../Common/UI/ActionButton.md) and select **Import** to import multiple product materials at once by preparing and uploading a correctly structured spreadsheet.  
 
 See the [**Import materials**](ImportMaterials.md) documentation for full details.
 
 ### Copy existing
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 Click on the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing product** to create a new product based on an existing one. A selection list appears with the available base products.
 
 ![Copy Product](../Images/CopyProduct.png "Copy Product")
@@ -134,10 +116,7 @@ Click on the [action button](../../../Common/UI/ActionButton.md) and select **Co
 After selecting the base product, all fields are pre-filled and can be edited before saving.
 
 ### New
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 Click on the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for adding a new product. The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
 ![New Product](../Images/NewProduct.png "New Product")
@@ -145,19 +124,13 @@ Click on the [action button](../../../Common/UI/ActionButton.md) and select **Ne
 Additional collapsible sections are available:
 
 #### Packaging
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 This section allows you to review or add one or more [packaging](Packaging.md) definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
 
 These packaging records can later be used in warehouse operations such as [Receives](../../Logistics/Documents/Receives.md), [Issues](../../Logistics/Documents/Issues.md), and [Inter warehouse](../../Logistics/Documents/InterWarehouse.md) transfers.
 
 #### Intrastat and Ledger
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
 
 ![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
@@ -166,10 +139,7 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 > Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
 #### Additional
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
 
 ![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
@@ -177,19 +147,13 @@ This section contains optional descriptive fields, such as a material descriptio
 After entering the required information, click **Add** to save the product or **Cancel** to return to the list view.
 
 ## Editing
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 To edit an existing product, click the product’s **Name** in the list. The interface switches to edit mode, displaying all fields for modification. Click **Save** to apply changes or **Cancel** to discard them.
 
 ![Edit Product](../Images/EditProduct.png "Edit Product")
 
 ## Deletion
-<!-- app_route: management/materials/products -->
-<!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+
 Click **Delete** on the edit screen to open a confirmation dialog: 
 
 **Are you sure you want to delete this record?**  

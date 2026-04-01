@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/requirements -->
+<!-- app_label: Requirements -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Requirements.md -->
+<!-- canonical_source_title: Requirements -->
+
 # Requirements
 
 The **Requirements** page provides an overview of all materials needed for planned production operations within a selected time window. It helps planners understand whether enough stock is available and quickly create purchase orders when shortages appear.

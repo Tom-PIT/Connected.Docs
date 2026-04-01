@@ -1,3 +1,8 @@
+<!-- app_route: /warehouse/stock/index -->
+<!-- app_label: Zaloga -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/Zaloga.md -->
+<!-- canonical_source_title: Zaloga -->
+
 # Zaloga
 
 Stran **Zaloga** nudi celovit pregled količin materialov v celotnem sistemu. Prikazuje, koliko materiala je na voljo, blokiranega ali rezerviranega, ter omogoča hitro iskanje posameznih materialov s pomočjo iskanja ali razvrščanja seznama. Od tu lahko odprete podrobne poglede zaloge, da razumete, kje je material shranjen, kako se uporablja in kako se je skozi čas premikal.

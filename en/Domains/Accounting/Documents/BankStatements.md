@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/bank-statements -->
+<!-- app_label: Bank Statements -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/BankStatements.md -->
+<!-- canonical_source_title: Bank Statements -->
+
 # Bank statements
 
 Bank statements are used to record movements on an organization’s bank accounts. Each bank statement represents a set of incoming and outgoing bank transactions for a specific date and bank account.
@@ -107,3 +112,7 @@ This linkage ensures traceability between bank activity and ledger postings.
 ## Deletion
 
 Draft bank statements can be deleted from the edit screen by clicking the **Delete** button.
+
+A confirmation dialog will appear:
+**Are you sure you want to delete this record?**
+If confirmed, the bank statement is permanently removed; otherwise, the system keeps it unchanged.

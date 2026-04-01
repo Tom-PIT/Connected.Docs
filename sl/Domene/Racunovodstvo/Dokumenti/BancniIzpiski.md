@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/bank-statements -->
+<!-- app_label: Bančni izpiski -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Racunovodstvo/Dokumenti/BancniIzpiski.md -->
+<!-- canonical_source_title: Bančni izpiski -->
+
 # Bančni izpiski
 
 Bančni izpiski se uporabljajo za evidentiranje prometa na bančnih računih organizacije. Vsak bančni izpisek predstavlja nabor **prilivov in odlivov sredstev** za določen datum in bančni račun.
@@ -108,4 +113,6 @@ Ta povezava zagotavlja sledljivost med bančnim prometom in knjiženjem v glavni
 
 ## Brisanje
 
-Bančne izpiske v stanju **Osnutek** lahko izbrišete v zaslonu urejanja s klikom na **Izbriši**.
+Bančne izpiske v stanju **Osnutek** lahko izbrišete v zaslonu urejanja s klikom na **Izbriši**. Potrdite brisanje v pojavnem oknu:
+**Ali ste prepričani, da želite izbrisati zapis?**
+Če potrdite, se bančni izpisek trajno odstrani; sicer sistem ohrani obstoječe stanje.

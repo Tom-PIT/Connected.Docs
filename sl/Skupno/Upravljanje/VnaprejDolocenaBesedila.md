@@ -1,22 +1,14 @@
-<!-- app_route: management/common-types/predefined-texts -->
+<!-- app_route: /management/common-types/predefined-texts -->
 <!-- app_label: Vnaprej določena besedila -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
 <!-- canonical_source_title: Vnaprej določena besedila -->
 
 # Vnaprej določena besedila
-<!-- app_route: management/common-types/predefined-texts -->
-<!-- app_label: Vnaprej določena besedila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
-<!-- canonical_source_title: Vnaprej določena besedila -->
 Šifrant **Vnaprej določena besedila** vsebuje vnaprej pripravljene besedilne predloge, ki jih je mogoče vstavljati v različne komercialne dokumente — kot so dobavnice, izdani računi, ponudbe ali dobavni nalogi. Ta besedila omogočajo hitro in dosledno dodajanje pogosto uporabljenih navodil, opomb ali besedil, specifičnih za kupca.
 
 Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Prednastavljena besedila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
 
 ## Shema
-<!-- app_route: management/common-types/predefined-texts -->
-<!-- app_label: Vnaprej določena besedila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
-<!-- canonical_source_title: Vnaprej določena besedila -->
 | Polje | Opis |
 |------|------|
 | **Entiteta** | Vrsta dokumenta, na katero se prednastavljeno besedilo nanaša (obvezno): <br>• [**Dobavnica**](../../Domene/Prodaja/Dokumenti/Dobavnice.md) <br>• [**Izdani račun**](../../Domene/Prodaja/Dokumenti/IzdaniRacuni.md) <br>• [**Ponudba**](../../Domene/Prodaja/Dokumenti/Ponudbe.md) <br>• [**Nabavni nalog**](../../Domene/Nabava/Dokumenti/NabavniNalogi.md) |
@@ -27,10 +19,6 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 ## Upravljanje
 
 ### Seznamski pogled
-<!-- app_route: management/common-types/predefined-texts -->
-<!-- app_label: Vnaprej določena besedila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
-<!-- canonical_source_title: Vnaprej določena besedila -->
 Seznam prikazuje vsa prednastavljena besedila skupaj z **entiteto**, **šifro** in **besedilom**. Seznam lahko filtrirate po stanju **Omogočeno / Onemogočeno** ali po **entiteti**.
 
 ![Prednastavljena besedila](../Images/PredefinedTexts.png "Seznam prednastavljenih besedil")
@@ -44,10 +32,6 @@ Na voljo je **iskalno polje** za hitro iskanje po kodi ali vsebini besedila.
 ## Dejanja
 
 ### Dodaj novo prednastavljeno besedilo
-<!-- app_route: management/common-types/predefined-texts -->
-<!-- app_label: Vnaprej določena besedila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
-<!-- canonical_source_title: Vnaprej določena besedila -->
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da ustvarite novo prednastavljeno besedilo.
 
 ![Dodaj prednastavljeno besedilo](../Images/PredefinedTextsNew.png "Dodaj prednastavljeno besedilo")
@@ -59,17 +43,9 @@ Možnosti entitet:
 ![Entitete prednastavljenih besedil](../Images/PredefinedTextsEntityFilter.png "Možnosti entitet")
 
 ### Urejanje
-<!-- app_route: management/common-types/predefined-texts -->
-<!-- app_label: Vnaprej določena besedila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
-<!-- canonical_source_title: Vnaprej določena besedila -->
 Kliknite katerikoli zapis na seznamu, da odprete zaslon za urejanje. Tam lahko spremenite **entiteto**, **šifro** ali **besedilo**.
 
 ### Brisanje
-<!-- app_route: management/common-types/predefined-texts -->
-<!-- app_label: Vnaprej določena besedila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
-<!-- canonical_source_title: Vnaprej določena besedila -->
 Kliknite **Izbriši**, da odprete potrditveno pogovorno okno:
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**

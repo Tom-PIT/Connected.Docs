@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Execution -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Instructions.md -->
+<!-- canonical_source_title: Instructions -->
+
 # Instructions
 
 The **Instructions** activity displays articles from the knowledge base attached to the current operation (e.g., assembly steps, safety notes, visuals). Use it to quickly review guidance while working.

@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Izvedba -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Izvedba.md -->
+<!-- canonical_source_title: Izvedba -->
+
 # Izvedba
 
 Modul **Izvedba** uporabljajo proizvodni delavci za izvajanje in beleženje dela na dodeljenih proizvodnih nalogih. Omogoča sprotno spremljanje napredka, proizvedenih količin, zastojev, izgub, kontrolnih seznamov in drugih aktivnosti.

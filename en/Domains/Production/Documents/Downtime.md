@@ -1,3 +1,8 @@
+<!-- app_route: /production-orders/execution -->
+<!-- app_label: Execution -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Downtime.md -->
+<!-- canonical_source_title: Downtime -->
+
 # Downtime
 
 The **Downtime** activity records interruptions during an operation (e.g., waiting for materials, machine issues, changeovers). It helps track time losses and improves visibility for analysis.
