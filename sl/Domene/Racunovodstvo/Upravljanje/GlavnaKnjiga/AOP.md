@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/aop -->
+<!-- app_label: AOP -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md -->
+<!-- canonical_source_title: AOP -->
+
 # AOP
 
 Pogled **AOP** prikazuje vnaprej določen seznam zakonsko predpisanih poročevalskih postavk, ki se uporabljajo za pripravo računovodskih izkazov in zakonsko poročanje.

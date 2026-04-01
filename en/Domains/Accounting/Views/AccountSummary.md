@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/account-summary-days -->
+<!-- app_label: Account summary -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/AccountSummary.md -->
+<!-- canonical_source_title: Account summary -->
+
 # Account summary
 
 The **Account summary** view provides an aggregated overview of **initial state, turnover, and final state per account** for a selected accounting period. It is a **read-only analytical view** based on posted journal entries and does not create or modify documents.

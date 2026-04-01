@@ -1,6 +1,11 @@
-# Knj. pre. rač. za pridobitve blaga znotraj skupnosti
+<!-- app_route: /accounting/ledger/received-invoices-supply-of-goods -->
+<!-- app_label: Prejeti računi za pridobitve blaga znotraj skupnosti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/KnjPreRacZaPridobitveBlagaZnotrajSkupnosti.md -->
+<!-- canonical_source_title: Prejeti računi za pridobitve blaga znotraj skupnosti -->
 
-Pogled **Knj. pre. rač. za pridobitve blaga znotraj skupnosti** omogoča pregled prejetih računov, povezanih s pridobitvijo blaga znotraj EU v skladu s posebnimi davčnimi pogoji poročanja.
+# Knjižnica prejetih računov za pridobitve blaga znotraj skupnosti
+
+Pogled **Knjižnica prejetih računov za pridobitve blaga znotraj skupnosti** omogoča pregled prejetih računov, povezanih s pridobitvijo blaga znotraj EU v skladu s posebnimi davčnimi pogoji poročanja.
 
 Gre za **analitični pogled samo za branje**, namenjen spremljanju in usklajevanju podatkov. Podatkov na tem zaslonu ni mogoče urejati.
 

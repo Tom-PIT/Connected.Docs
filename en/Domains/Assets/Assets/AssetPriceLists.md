@@ -1,3 +1,8 @@
+<!-- app_route: /assets/management/asset-price-lists -->
+<!-- app_label: Asset price lists -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Assets/AssetPriceLists.md -->
+<!-- canonical_source_title: Asset price lists -->
+
 # Asset price lists
 
 **Asset price lists** define how much a specific customer (or other business entity) pays for your [assets](Assets.md).  They allow you to set **customer-specific pricing**, valid for a defined date range, and optionally include **volume-based discounts** (price ranges).

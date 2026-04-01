@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/assets.materials -->
+<!-- app_label: Materials -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Domain/Materials.md -->
+<!-- canonical_source_title: Materials -->
+
 # Materials
 
 Materials represent the operational items your organization uses in logistics, production, stock management, or assembly processes. They include finished products, partially produced items, raw inputs, and reusable components. Additional code lists help define packaging, measurement units, and bulk import functions.

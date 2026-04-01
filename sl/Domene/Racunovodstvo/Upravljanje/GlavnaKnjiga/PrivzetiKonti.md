@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/account-defaults -->
+<!-- app_label: Privzeti konti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PrivzetiKonti.md -->
+<!-- canonical_source_title: Privzeti konti -->
+
 # Privzeti konti
 
 Šifrant **Privzeti konti** določa, kako sistem samodejno izbira konte pri knjiženju računovodskih postavk, ki jih ustvarjajo sistemski procesi. Vsak privzeti konto predstavlja vnaprej določeno povezavo med poslovnim scenarijem in konkretnim kontom, skupaj s smerjo knjiženja.

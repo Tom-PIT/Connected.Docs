@@ -1,3 +1,8 @@
+<!-- app_route: /management/intrastat/place-of-delivery -->
+<!-- app_label: Place of delivery -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Intrastat/PlaceOfDelivery.md -->
+<!-- canonical_source_title: Place of delivery -->
+
 # Place of delivery
 
 The **Place of delivery** code list is used for Intrastat and accounting reporting to classify where the delivery of goods takes place. Each code represents a standardized delivery location category required for regulatory and statistical purposes.

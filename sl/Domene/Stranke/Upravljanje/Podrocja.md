@@ -1,3 +1,8 @@
+<!-- app_route: /management/customer-support/desks -->
+<!-- app_label: Področja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Upravljanje/Podrocja.md -->
+<!-- canonical_source_title: Področja -->
+
 # Področja
 
 **Področja** se uporabljajo za organizacijo in upravljanje **podpornih prijav** glede na odgovornost, na primer **Vzdrževanje**, **Logistika** ali **Prodaja**. Določajo, kako so prijave razvrščene, kako se pošiljajo obvestila ter kako se obravnavajo dodatne funkcionalnosti, kot so e-poštni vnos prijav, zakupljene ure in obračunavanje.
@@ -85,5 +90,3 @@ Sklop **Računi** omogoča pregled računov, povezanih z aktivnostmi področja. 
 ### Urejanje področij
 
 Klik na področje v seznamu ga odpre v načinu urejanja. Vsa polja in nastavitve je mogoče spreminjati, spremembe pa se shranijo samodejno.
-
----

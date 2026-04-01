@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/asset-account-connections -->
+<!-- app_label: Povezave sredstev in kontov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Racuni/PovezaveSredstevInKontov.md -->
+<!-- canonical_source_title: Povezave sredstev in kontov -->
+
 # Povezave sredstev in kontov
 
 Pogled **Povezave sredstev in kontov** določa, kako so posamezna **sredstva** povezana s konti glavne knjige za računovodska knjiženja, ki nastanejo iz računov. Ta konfiguracija določa, kateri konti se uporabijo, ko je sredstvo prodano, skladiščeno ali kako drugače vključeno v knjiženja, povezana z računi.

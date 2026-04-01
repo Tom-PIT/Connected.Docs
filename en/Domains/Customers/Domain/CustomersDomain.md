@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/customers -->
+<!-- app_label: Customers Domain -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Management/CustomersDomain.md -->
+<!-- canonical_source_title: Customers Domain -->
+
 # Customers
 
 The **Customers** domain provides tools for managing customer interactions, support requests, and service-related communication. It enables organizations to track incoming requests, resolve issues, monitor service levels, and maintain structured customer-related data.

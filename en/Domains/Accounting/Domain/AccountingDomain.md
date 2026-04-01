@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/accounting -->
+<!-- app_label: Accounting domain -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Domain/AccountingDomain.md -->
+<!-- canonical_source_title: Accounting domain -->
+
 # Accounting
 
 The **Accounting** domain contains all records, reports, and configuration required to **record, control, and analyze financial transactions**.  

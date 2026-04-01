@@ -1,3 +1,8 @@
+<!-- app_route: /assets/management/asset-price-lists -->
+<!-- app_label: Ceniki sredstev -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Sredstva/CenikiSredstev.md -->
+<!-- canonical_source_title: Ceniki sredstev -->
+
 # Ceniki sredstev
 
 **Ceniki sredstev** določajo, koliko določen kupec (ali druga poslovna entiteta) plača za vaša [sredstva](Sredstva.md).  

@@ -1,3 +1,8 @@
+<!-- app_route: /management/intrastat/supplementary-units -->
+<!-- app_label: Supplementary units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Intrastat/SupplementaryUnits.md -->
+<!-- canonical_source_title: Supplementary units -->
+
 # Supplementary units
 
 Supplementary units are standardized measurement units used for Intrastat reporting and logistics-related documents. They are referenced by documents such as [sales orders](../../../Sales/Documents/SalesOrders.md), [delivery notes](../../../Sales/Documents/DeliveryNotes.md), and other transactions where an additional statistical unit is required alongside the primary quantity.

@@ -1,3 +1,8 @@
+<!-- app_route: /management/customer-support/desks -->
+<!-- app_label: Desks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Management/Desks.md -->
+<!-- canonical_source_title: Desks -->
+
 # Desks
 
 Desks are used to organize and manage **support tickets** by responsibility area, such as **Maintenance**, **Logistics**, or **Sales**. They define how tickets are grouped, how notifications are sent, and how optional features such as email intake, leased hours, and invoicing are handled.

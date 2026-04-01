@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/assets -->
+<!-- app_label: Assets domain -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Domain/AssetsDomain.md -->
+<!-- canonical_source_title: Assets domain -->
+
 # Assets
 
 The **Assets** domain contains all records related to the goods and services your company offers and prices, as well as the operational items used to build, deliver, or support them. It includes both **Assets** (commercial items you sell) and **Materials** (operational items used internally in production and logistics).

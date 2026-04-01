@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/views/intrastat-entries -->
+<!-- app_label: Intrastat -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/Intrastat.md -->
+<!-- canonical_source_title: Intrastat -->
+
 # Intrastat
 
 Pogled **Intrastat** omogoča pregled transakcij, ki so predmet poročanja Intrastat. Združuje podatke iz računovodskih in prodajnih dokumentov ter jih prikazuje v obliki, primerni za pregled in poročanje o blagovnem toku med državami članicami EU.

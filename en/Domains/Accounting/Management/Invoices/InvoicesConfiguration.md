@@ -1,3 +1,8 @@
+<!-- app_route: /management/accounting/configuration -->
+<!-- app_label: Configuration -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Invoices/InvoicesConfiguration.md -->
+<!-- canonical_source_title: Configuration -->
+
 # Configuration
 
 Configure **Invoices** settings affecting document numbering. Any changes are saved automatically.

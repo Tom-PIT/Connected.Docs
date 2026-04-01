@@ -1,3 +1,8 @@
+<!-- app_route: /customer-support -->
+<!-- app_label: Tickets -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Tickets/Tickets.md -->
+<!-- canonical_source_title: Tickets -->
+
 # Tickets
 
 The **Tickets** screen is the core workspace of the Customer Support domain. It is used to create, track, update, and resolve support requests submitted by customers, partners, or internal users.

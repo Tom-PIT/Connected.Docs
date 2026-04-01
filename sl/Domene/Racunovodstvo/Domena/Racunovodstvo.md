@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/accounting -->
+<!-- app_label: Domena Računovodstvo -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Domena/Racunovodstvo.md -->
+<!-- canonical_source_title: Domena Računovodstvo -->
+
 # Računovodstvo
 
 Domena **Računovodstvo** vsebuje vse zapise, poročila in nastavitve, potrebne za **evidentiranje, nadzor in analizo finančnih transakcij**.

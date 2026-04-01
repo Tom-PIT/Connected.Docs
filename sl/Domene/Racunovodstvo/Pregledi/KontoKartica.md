@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/account-card -->
+<!-- app_label: Konto kartica -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/KontoKartica.md -->
+<!-- canonical_source_title: Konto kartica -->
+
 # Konto kartica
 
 Pogled **Konto kartica** omogoča podroben pregled **debetnih in kreditnih knjižb po posameznem kontu**, na podlagi knjiženih temeljnic. Gre za **analitični pogled samo za branje**, ki ne ustvarja in ne spreminja dokumentov.

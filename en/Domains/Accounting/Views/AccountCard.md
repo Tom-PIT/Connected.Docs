@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/account-card -->
+<!-- app_label: Account card -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/AccountCard.md -->
+<!-- canonical_source_title: Account card -->
+
 # Account card
 
 The **Account card** view provides a detailed overview of **debit and credit movements per account**, based on posted journal entries. It is a **read-only analytical view** and does not create or modify documents.

@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/configuration -->
+<!-- app_label: Konfiguracija glavne knjige -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/KonfiguracijaGlavneKnjige.md -->
+<!-- canonical_source_title: Konfiguracija glavne knjige -->
+
 # Konfiguracija glavne knjige
 
 Nastavitve **glavne knjige**, ki vplivajo na številčenje dokumentov. Spremembe se shranjujejo samodejno.

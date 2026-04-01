@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/stock/initial-states -->
+<!-- app_label: Začetna stanja zaloge -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ZacetnaStanjaZaloge.md -->
+<!-- canonical_source_title: Začetna stanja zaloge -->
+
 # Začetna stanja zaloge
 
 Pogled **Začetna stanja zaloge** se uporablja za določitev začetnih količin in vrednosti zaloge v skladišču. Predstavlja začetno izhodišče za vrednotenje zalog ob začetku uporabe sistema ali ob vključitvi finančnega spremljanja zaloge.

@@ -1,3 +1,8 @@
+<!-- app_label: /management/intrastat/nature-of-transactions -->
+<!-- app_label: Vrsta posla -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/VrstaPosla.md -->
+<!-- canonical_source_title: Vrsta posla -->
+
 # Vrsta posla
 
 Šifrarnik **Vrsta posla** se uporablja za poročanje Intrastat in v računovodstvu za razvrščanje vrste transakcije, v okviru katere se blago odpošlje ali prejme. Vsaka šifra predstavlja standardizirano kategorijo transakcije, določeno s pravili Intrastata, in je obvezna za statistično in regulativno poročanje.

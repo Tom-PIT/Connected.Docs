@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/views/intrastat-entries -->
+<!-- app_label: Intrastat -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/Intrastat.md -->
+<!-- canonical_source_title: Intrastat -->
+
 # Intrastat
 
 The **Intrastat** view provides an overview of transactions that are subject to Intrastat reporting. It aggregates data from accounting and sales documents and presents it in a format suitable for review and reporting of goods movement between EU Member States.

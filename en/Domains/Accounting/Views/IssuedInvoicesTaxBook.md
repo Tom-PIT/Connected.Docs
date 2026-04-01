@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/issued-invoices-tax-book -->
+<!-- app_label: Issued invoices tax book -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/IssuedInvoicesTaxBook.md -->
+<!-- canonical_source_title: Issued invoices tax book -->
+
 # Issued invoices tax book
 
 The **Issued invoices tax book** view provides a **filtered overview of issued invoices that contain tax amounts**, together with links to their related journal entries.

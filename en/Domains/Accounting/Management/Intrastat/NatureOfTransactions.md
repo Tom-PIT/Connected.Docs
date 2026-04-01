@@ -1,3 +1,8 @@
+<!-- app_route: /management/intrastat/nature-of-transactions -->
+<!-- app_label: Nature of transactions -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Intrastat/NatureOfTransactions.md -->
+<!-- canonical_source_title: Nature of transactions -->
+
 # Nature of transactions
 
 The **Nature of transactions** code list is used for Intrastat and accounting reporting to classify the type of transaction under which goods are dispatched or received. Each code represents a standardized transaction category defined by Intrastat regulations and is required for statistical and regulatory reporting.

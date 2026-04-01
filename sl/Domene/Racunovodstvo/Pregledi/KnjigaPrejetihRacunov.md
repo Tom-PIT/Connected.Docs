@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/received-invoices-tax-book -->
+<!-- app_label: Knjiga prejetih računov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/KnjigaPrejetihRacunov.md -->
+<!-- canonical_source_title: Knjiga prejetih računov -->
+
 # Knjiga prejetih računov
 
 Pogled **Knjiga prejetih računov** omogoča **filtriran pregled prejetih računov, ki vsebujejo davčne zneske**, skupaj s povezavami na povezane temeljnice.

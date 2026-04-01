@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/document-types -->
+<!-- app_label: Document types -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/DocumentTypes.md -->
+<!-- canonical_source_title: Document types -->
+
 # Document types
 
 The **Document types** code list defines the types of accounting documents used in the ledger. Each document type classifies journal entries and other accounting postings according to their business purpose, such as sales, purchases, inventory movements, or general adjustments.

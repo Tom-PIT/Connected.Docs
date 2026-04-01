@@ -1,3 +1,8 @@
+<!-- app_route: /customers/visitors/management -->
+<!-- app_label: Urejanje obiskov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Obiskovalci/UrejanjeObiskov.md -->
+<!-- canonical_source_title: Urejanje obiskov -->
+
 # Urejanje obiskov
 
 Zaslon **Urejanje obiskov** je namenjen ustvarjanju in spremljanju evidenc obiskov. Omogoča beleženje podatkov o obiskovalcih, načrtovanem in dejanskem času prihoda, statusu obiska ter prostorih in oddelkih, ki jih obiskovalec obišče.

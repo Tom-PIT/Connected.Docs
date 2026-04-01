@@ -1,3 +1,8 @@
+<!-- app_route: /customer-support/resolved-tickets -->
+<!-- app_label: Rešene prijave -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Prijave/ResenePrijave.md -->
+<!-- canonical_source_title: Rešene prijave -->
+
 # Rešene prijave
 
 Zaslon **Rešene prijave** omogoča pregled prijav, ki so zaključile svoj življenjski cikel. Uporablja se za pregled opravljenega dela, vpogled v zgodovino prijav in po potrebi ponovno odpiranje prijav.
