@@ -1,3 +1,8 @@
+<!-- app_route: /management/contacts/institutional-sectors -->
+<!-- app_label: Institucionalni sektorji -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Upravljanje/InstitucionalniSektorji.md -->
+<!-- canonical_source_title: Institucionalni sektorji -->
+
 # Institucionalni sektorji
 
 ## Uvod
@@ -57,5 +62,3 @@ Naslednja dejanja so na voljo prek [**akcijskega gumba**](../../../Skupno/UI/Akc
 
 > [!NOTE]
 > Izbrisani institucionalni sektorji niso več na voljo za izbiro pri dodeljevanju sektorjev strankam.
-
----

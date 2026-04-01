@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/journal-entry-templates -->
+<!-- app_label: Predloge za temeljnice -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PredlogeZaTemeljnice.md -->
+<!-- canonical_source_title: Predloge za temeljnice -->
+
 # Predloge za temeljnice
 
 Šifrant **Predloge za temeljnice** določa vnaprej pripravljene predloge za ustvarjanje računovodskih temeljnic v glavni knjigi. Predloga temeljnice določa tip dokumenta in ponuja ponovno uporabno strukturo, ki jo lahko uporabite pri ustvarjanju računovodskih knjižb.

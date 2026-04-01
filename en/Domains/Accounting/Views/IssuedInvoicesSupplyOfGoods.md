@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/issued-invoices-supply-of-goods -->
+<!-- app_label: Issued invoices supply of goods -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/IssuedInvoicesSupplyOfGoods.md -->
+<!-- canonical_source_title: Issued invoices supply of goods -->
+
 # Issued invoices supply of goods
 
 The **Issued invoices supply of goods** view provides an overview of issued invoices related to the supply of goods under specific tax reporting conditions.

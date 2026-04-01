@@ -1,3 +1,8 @@
+<!-- app_route: /management/accounting/locations -->
+<!-- app_label: Ledger locations -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/LedgerLocations.md -->
+<!-- canonical_source_title: Ledger locations -->
+
 # Ledger locations
 
 The **Ledger locations** screen defines locations used for accounting and reporting purposes within the ledger. Ledger locations represent physical or organizational places where assets, inventory, or values are located and are referenced by other accounting objects.

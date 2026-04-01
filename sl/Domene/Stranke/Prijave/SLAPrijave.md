@@ -1,3 +1,8 @@
+<!-- app_route: /customer-support/sla -->
+<!-- app_label: SLA prijave -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Prijave/SLAPrijave.md -->
+<!-- canonical_source_title: SLA prijave -->
+
 # SLA prijave
 
 Zaslon **SLA prijave** omogoča pregled prijav, za katere veljajo pravila **Sporazuma o ravni storitev (SLA)**, določena na posameznih **področjih**. Ta pogled uporabnikom pomaga spremljati prijave, pri katerih se:

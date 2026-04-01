@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/aop -->
+<!-- app_label: AOP -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/AOP.md -->
+<!-- canonical_source_title: AOP -->
+
 # AOP
 
 The **AOP** screen displays a predefined list of statutory reporting positions used for financial statements and regulatory reporting.

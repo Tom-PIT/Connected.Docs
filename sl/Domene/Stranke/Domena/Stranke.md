@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/customers -->
+<!-- app_label: Domena Stranke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Domena/Stranke.md -->
+<!-- canonical_source_title: Domena Stranke -->
+
 # Stranke
 
 Domena **Stranke** zagotavlja orodja za upravljanje interakcij s strankami, podpornih zahtevkov in komunikacije, povezane s storitvami. Organizacijam omogoča spremljanje prejetih prijav, reševanje težav, nadzor ravni storitev ter vzdrževanje strukturiranih podatkov o strankah.

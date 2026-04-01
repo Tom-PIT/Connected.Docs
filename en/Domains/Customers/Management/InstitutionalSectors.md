@@ -1,3 +1,8 @@
+<!-- app_route: /management/contacts/institutional-sectors -->
+<!-- app_label: Institutional sectors -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Management/InstitutionalSectors.md -->
+<!-- canonical_source_title: Institutional sectors -->
+
 # Institutional sectors
 
 ## Introduction
@@ -55,5 +60,3 @@ The following actions are available via the [**Action button**](../../../Common/
 
 > [!NOTE]
 Deleted sectors are no longer available for selection when assigning institutional sectors to customers.
-
----

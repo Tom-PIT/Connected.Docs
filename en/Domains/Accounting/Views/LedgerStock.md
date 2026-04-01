@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/stock -->
+<!-- app_label: Stock (Ledger) -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/LedgerStock.md -->
+<!-- canonical_source_title: Stock (Ledger) -->
+
 # Stock (Ledger)
 
 The **Stock** view provides a **financial snapshot of inventory value** at a specific point in time, based on **posted stock-related journal entries**. It shows the **monetary value of stock**, not physical quantities.

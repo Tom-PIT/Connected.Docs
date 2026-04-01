@@ -1,3 +1,8 @@
+<!-- app_route: /management/accounting/depreciation-groups -->
+<!-- app_label: Amortizacijske skupine -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md -->
+<!-- canonical_source_title: Amortizacijske skupine -->
+
 # Amortizacijske skupine
 
 Zaslon **Amortizacijske skupine** določa, kako se osnovna sredstva amortizirajo v glavni knjigi. Amortizacijska skupina opredeljuje amortizacijsko stopnjo ter konte, ki se uporabljajo za knjiženje nabavne vrednosti, popravkov vrednosti (akumulirane amortizacije) in stroškov amortizacije.

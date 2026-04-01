@@ -1,3 +1,8 @@
+<!-- app_route: /management/intrastat/tariffs -->
+<!-- app_label: Tarife -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/Tarife.md -->
+<!-- canonical_source_title: Tarife -->
+
 # Tarife
 
 Tarife predstavljajo **klasifikacijske šifre blaga**, ki se uporabljajo za **poročanje Intrastat** ter v izbranih logističnih in prodajnih procesih. Vsaka tarifa določa vrsto blaga, pripadajočo mersko enoto in oddelek, v katerem se najpogosteje uporablja.

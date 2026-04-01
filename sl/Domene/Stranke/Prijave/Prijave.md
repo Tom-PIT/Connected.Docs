@@ -1,3 +1,8 @@
+<!-- app_route: /customer-support -->
+<!-- app_label: Prijave -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Prijave/Prijave.md -->
+<!-- canonical_source_title: Prijave -->
+
 # Prijave
 
 Zaslon **Prijave** je osrednji delovni prostor domene Stranke.  
@@ -159,5 +164,3 @@ Ko je prijava rešena:
 - se njeno stanje nastavi na **Rešeno**,
 - odstrani se iz aktivnega seznama,
 - prikaže se v zaslonu **[Rešene prijave](ResenePrijave.md)**.
-
----

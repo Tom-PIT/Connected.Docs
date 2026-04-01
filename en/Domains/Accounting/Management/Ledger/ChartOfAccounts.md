@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/accounts -->
+<!-- app_label: Chart of accounts -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/ChartOfAccounts.md -->
+<!-- canonical_source_title: Chart of accounts -->
+
 # Chart of accounts
 
 The **Chart of accounts** defines the complete structure of financial accounts used by the system to record, classify, and report all accounting transactions. Each account represents a specific financial category such as assets, revenues, production costs, or operating expenses.

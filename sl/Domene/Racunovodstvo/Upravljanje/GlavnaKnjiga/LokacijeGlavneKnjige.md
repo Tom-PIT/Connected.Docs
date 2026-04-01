@@ -1,3 +1,8 @@
+<!-- app_route: /management/accounting/locations -->
+<!-- app_label: Lokacije glavne knjige -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/LokacijeGlavneKnjige.md -->
+<!-- canonical_source_title: Lokacije glavne knjige -->
+
 # Lokacije glavne knjige
 
 Zaslon **Lokacije glavne knjige** omogoča definiranje lokacij, ki se uporabljajo za računovodske in poročevalske namene v glavni knjigi. Lokacije glavne knjige predstavljajo fizična ali organizacijska mesta, kjer se nahajajo sredstva, zaloge ali vrednosti, ter jih uporabljajo drugi računovodski objekti.

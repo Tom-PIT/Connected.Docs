@@ -1,3 +1,8 @@
+<!-- app_route: /management/intrastat/supplementary-units -->
+<!-- app_label: Intrastat merske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/IntrastatMerskeEnote.md -->
+<!-- canonical_source_title: Intrastat merske enote -->
+
 # Intrastat merske enote
 
 **Intrastat merske enote** so standardizirane merske enote, ki se uporabljajo pri poročanju Intrastat in v logističnih ter prodajnih dokumentih. Uporabljajo se v dokumentih, kot so [naročila strank](../../../Prodaja/Dokumenti/NarocilaStrank.md), [dobavnice](../../../Prodaja/Dokumenti/Dobavnice.md) in drugih transakcijah, kjer je poleg osnovne količine potrebna dodatna statistična merska enota.

@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/journal-entry-details -->
+<!-- app_label: Knjižbe -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/Knjizbe.md -->
+<!-- canonical_source_title: Knjižbe -->
+
 # Knjižbe
 
 Pogled **Knjižbe** omogoča **ploskovit, vrstični pregled vseh debetnih in kreditnih knjižb**, ki so nastale iz knjiženih temeljnic. Vsaka vrstica predstavlja **eno knjižbo**, skupaj s kontom, zneskom in izvorno temeljnico.

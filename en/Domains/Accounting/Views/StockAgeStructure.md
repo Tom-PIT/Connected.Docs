@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/stock-age-structure -->
+<!-- app_label: Stock age structure -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/StockAgeStructure.md -->
+<!-- canonical_source_title: Stock age structure -->
+
 # Stock age structure
 
 The **Stock age structure** view provides a time-based overview of the **financial value of inventory**, showing how stock values are distributed across past periods. It is a **read-only analytical view** based on posted inventory and accounting data and does not create or modify documents.

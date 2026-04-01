@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/journal-entry-details -->
+<!-- app_label: Postings -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/Postings.md -->
+<!-- canonical_source_title: Postings -->
+
 # Postings
 
 The **Postings** view provides a **flat, line-level overview of all debit and credit postings**, generated from posted journal entries. Each row represents a **single posting line**, showing the account, amount, and originating journal entry.

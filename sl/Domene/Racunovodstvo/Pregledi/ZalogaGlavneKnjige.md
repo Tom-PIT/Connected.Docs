@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/stock -->
+<!-- app_label: Zaloga glavne knjige -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/ZalogaGlavneKnjige.md -->
+<!-- canonical_source_title: Zaloga glavne knjige -->
+
 # Zaloga glavne knjige
 
 Pogled **Zaloga glavne knjige** omogoča **finančni posnetek vrednosti zaloge** na določen dan, na podlagi **knjiženih temeljnic, povezanih z zalogo**. Prikazuje **denarno vrednost zaloge**, ne pa fizičnih količin.

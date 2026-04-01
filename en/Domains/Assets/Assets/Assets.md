@@ -1,3 +1,8 @@
+<!-- app_route: /assets/management/assets -->
+<!-- app_label: Assets -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Assets/Assets.md -->
+<!-- canonical_source_title: Assets -->
+
 # Assets
 
 An **Asset** represents an item or service that can be *sold* or *invoiced* within the system. Unlike **materials**—which are used for stock tracking, logistics, or production—**assets are commercial items** intended for pricing, offering, and billing.

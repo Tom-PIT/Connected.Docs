@@ -1,3 +1,8 @@
+<!-- app_route: /management/intrastat/place-of-delivery -->
+<!-- app_label: Lega kraja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/LegaKraja.md -->
+<!-- canonical_source_title: Lega kraja -->
+
 # Lega kraja
 
 Šifrant **Lega kraja** se uporablja za **Intrastat in računovodsko poročanje** ter določa, kje se nahaja kraj dobave blaga. Vsaka šifra predstavlja standardizirano kategorijo kraja dobave, ki je zahtevana za statistične in zakonske namene.

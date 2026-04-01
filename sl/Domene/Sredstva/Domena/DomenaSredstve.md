@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/assets -->
+<!-- app_label: Domena Sredstva -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Domena/DomenaSredstve.md -->
+<!-- canonical_source_title: Domena Sredstva -->
+
 # Sredstva
 
 Domena **Sredstva** vsebuje vse zapise, povezane z izdelki in storitvami, ki jih podjetje ponuja, ter z operativnimi postavkami, ki se uporabljajo za njihovo izdelavo, dobavo ali podporo. Vključuje tako **Sredstva** (komercialne postavke za prodajo) kot **Materiale** (operativne postavke, uporabljene interno v proizvodnji in logistiki).

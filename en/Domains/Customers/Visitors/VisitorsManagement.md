@@ -1,3 +1,8 @@
+<!-- app_route: /customers/visitors/management -->
+<!-- app_label: Visitors management -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Customers/Visitors/VisitorsManagement.md -->
+<!-- canonical_source_title: Visitors management -->
+
 # Visitors management
 
 The **Visitors management** screen is used to create and track visit records, including visitor details, planned and actual arrival times, visit status, and the locations being visited.

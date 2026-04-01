@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/document-types -->
+<!-- app_label: Tipi dokumentov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/TipiDokumentov.md -->
+<!-- canonical_source_title: Tipi dokumentov -->
+
 # Tipi dokumentov
 
 Šifrant **Tipi dokumentov** določa vrste računovodskih dokumentov, ki se uporabljajo v glavni knjigi. Vsak tip dokumenta razvršča temeljnice in druge računovodske knjižbe glede na njihov poslovni namen, kot so prodaja, nabava, premiki zaloge ali splošne prilagoditve.

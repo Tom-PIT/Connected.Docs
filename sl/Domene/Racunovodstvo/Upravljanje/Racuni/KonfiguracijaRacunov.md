@@ -1,3 +1,8 @@
+<!-- app_route: /management/accounting/configuration -->
+<!-- app_label: Konfiguracija -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Racuni/KonfiguracijaRacunov.md -->
+<!-- canonical_source_title: Konfiguracija -->
+
 # Konfiguracija
 
 Konfiguracija nastavitev za **račune**, ki vplivajo na oštevilčevanje dokumentov. Vse spremembe se shranijo samodejno.

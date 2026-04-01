@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/accounts -->
+<!-- app_label: Konti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md -->
+<!-- canonical_source_title: Konti -->
+
 # Konti
 
 Šifrant **Konti** določa celotno strukturo finančnih kontov, ki jih sistem uporablja za knjiženje, razvrščanje in poročanje o vseh računovodskih transakcijah. Vsak konto predstavlja določeno finančno kategorijo, kot so sredstva, prihodki, stroški proizvodnje ali poslovni odhodki.

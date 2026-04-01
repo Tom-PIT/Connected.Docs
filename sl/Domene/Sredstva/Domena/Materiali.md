@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/assets.materials -->
+<!-- app_label: Materiali -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Domena/Materiali.md -->
+<!-- canonical_source_title: Materiali -->
+
 # Materiali
 
 **Materiali** predstavljajo operativne postavke, ki jih organizacija uporablja v **logistiki, proizvodnji, upravljanju zalog** ali **montažnih procesih**. Vključujejo končne izdelke, delno izdelane postavke, osnovne surovine in ponovno uporabne komponente. Dodatni šifranti podpirajo definiranje embalaže, merskih enot in funkcij za množični uvoz.

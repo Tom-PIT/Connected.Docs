@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/stock/initial-states -->
+<!-- app_label: Stock initial states -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/StockInitialStates.md -->
+<!-- canonical_source_title: Stock initial states -->
+
 # Stock initial states
 
 The **Stock initial states** screen is used to define the opening inventory quantities and values for a warehouse. It establishes the starting point for inventory valuation when beginning to use the system or when enabling financial stock integration.

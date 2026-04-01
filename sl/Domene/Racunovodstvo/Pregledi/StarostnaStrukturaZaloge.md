@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/stock-age-structure -->
+<!-- app_label: Starostna struktura zaloge -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/StarostnaStrukturaZaloge.md -->
+<!-- canonical_source_title: Starostna struktura zaloge -->
+
 # Starostna struktura zaloge
 
 Pogled **Starostna struktura zaloge** omogoča časovni pregled **finančne vrednosti zaloge**, ki prikazuje, kako so vrednosti zaloge porazdeljene po preteklih obdobjih. Gre za **analitični pogled samo za branje**, ki temelji na knjiženih zalogah in računovodskih podatkih ter ne ustvarja ali spreminja dokumentov.

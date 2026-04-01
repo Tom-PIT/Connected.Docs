@@ -1,3 +1,8 @@
+<!-- app_route: /management/ledger/journal-entry-templates -->
+<!-- app_label: Journal entry templates -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/JournalEntryTemplates.md -->
+<!-- canonical_source_title: Journal entry templates -->
+
 # Journal entry templates
 
 The **Journal entry templates** code list defines predefined templates for creating journal entries in the ledger. A journal entry template specifies the document type and provides a reusable structure that can be applied when creating accounting entries.

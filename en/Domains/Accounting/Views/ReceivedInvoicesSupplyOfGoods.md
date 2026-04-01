@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/received-invoices-supply-of-goods -->
+<!-- app_label: Received invoices supply of goods -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/ReceivedInvoicesSupplyOfGoods.md -->
+<!-- canonical_source_title: Received invoices supply of goods -->
+
 # Received invoices supply of goods
 
 The **Received invoices supply of goods** view provides an overview of received invoices related to the supply of goods under specific tax reporting conditions.

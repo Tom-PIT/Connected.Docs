@@ -1,3 +1,8 @@
+<!-- app_route: /configuration/customer-support/notifications -->
+<!-- app_label: Nastavitve obvestil -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Upravljanje/NastavitveObvestil.md -->
+<!-- canonical_source_title: Nastavitve obvestil -->
+
 # Nastavitve obvestil
 
 Zaslon **Nastavitve obvestil** uporabnikom omogoča prilagoditev, **katera obvestila o prijavah prejemajo**. Nastavitve se konfigurirajo **po področjih**, kar pomeni, da ima lahko vsako področje svoje nastavitve obveščanja.
@@ -37,5 +42,3 @@ Možnost **Naroči se** določa, **za katere prijave** bo uporabnik prejemal obv
 - Nastavitve so **vezane na posameznega uporabnika**.
 - Spremembe se **uveljavijo takoj**.
 - Dodatna potrditev po spremembi nastavitev ni potrebna.
-
----

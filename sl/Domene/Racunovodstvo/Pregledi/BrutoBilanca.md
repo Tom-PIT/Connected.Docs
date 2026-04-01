@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/account-summary-days -->
+<!-- app_label: Bruto bilanca -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/BrutoBilanca.md -->
+<!-- canonical_source_title: Bruto bilanca -->
+
 # Bruto bilanca
 
 Pogled **Bruto bilanca** omogoča združen pregled **začetnega stanja, prometa in končnega stanja po kontih** za izbrano obračunsko obdobje. Gre za **analitični pogled samo za branje**, ki temelji na knjiženih temeljnicah in ne ustvarja ali spreminja dokumentov.

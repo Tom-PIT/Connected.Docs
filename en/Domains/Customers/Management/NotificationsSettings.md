@@ -1,3 +1,8 @@
+<!-- app_route: /configuration/customer-support/notifications -->
+<!-- app_label: Notification settings -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Management/NotificationsSettings.md -->
+<!-- canonical_source_title: Notification settings -->
+
 # Notification settings
 
 The **Notification settings** screen allows users to personalize which ticket notifications they receive. Settings are configured **per desk**, meaning each desk can have different notification preferences.

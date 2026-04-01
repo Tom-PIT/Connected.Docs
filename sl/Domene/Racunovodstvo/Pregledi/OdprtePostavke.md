@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/ledger/views/open-items -->
+<!-- app_label: Odprte postavke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/OdprtePostavke.md -->
+<!-- canonical_source_title: Odprte postavke -->
+
 # Odprte postavke
 
 Pogled **Odprte postavke** omogoča pregled knjiženih računovodskih postavk, ki **še niso v celoti poravnane**. Namenjen je spremljanju odprtih terjatev in obveznosti ter zapadlih zneskov.
