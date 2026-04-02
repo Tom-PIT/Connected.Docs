@@ -1,3 +1,8 @@
+<!-- app_route: /management/sales/issued-invoice-clause-templates -->
+<!-- app_label: Predloge klavzul za izdane račune -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/PredlogeKlavzulZaIzdaneRacune.md -->
+<!-- canonical_source_title: Predloge klavzul za izdane račune -->
+
 # Predloge klavzul za izdane račune
 
 Šifrant **Predloge klavzul za izdane račune** omogoča definiranje naborov klavzul (predlog), ki se izpišejo na izdanih računih za posamezna podjetja. Predloga vsebuje eno ali več klavzul – kot so pravna obvestila, plačilni pogoji, izjave o omejitvi odgovornosti ali obračunski pogoji – ki se na računu izpišejo na vrhu ali dnu dokumenta v določenem zaporedju.

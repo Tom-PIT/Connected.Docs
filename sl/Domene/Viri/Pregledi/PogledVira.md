@@ -1,3 +1,8 @@
+<!-- app_route: /resources/resource -->
+<!-- app_label: Pogled vira -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/PogledVira.md -->
+<!-- canonical_source_title: Pogled vira -->
+
 # Pogled vira
 
 Pogled **Pogled vira** omogoča **časovni pregled zabeleženega dela v sistemu** za **trenutno prijavljenega uporabnika**.

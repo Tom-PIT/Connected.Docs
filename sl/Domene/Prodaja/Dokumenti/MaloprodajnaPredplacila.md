@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/retail-prepayments -->
+<!-- app_label: Maloprodajna predplačila -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/MaloprodajnaPredplacila.md -->
+<!-- canonical_source_title: Maloprodajna predplačila -->
+
 # Maloprodajna predplačila
 
 **Maloprodajno predplačilo** je prodajni dokument, ki se uporablja v maloprodajnih scenarijih za evidentiranje prodaje v obliki predračuna, pri čemer omogoča **fleksibilno evidentiranje plačil** (takojšnja ali kasnejša plačila).  

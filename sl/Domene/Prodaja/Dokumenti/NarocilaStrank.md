@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/sales-orders -->
+<!-- app_label: Naročila strank -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/NarocilaStrank.md -->
+<!-- canonical_source_title: Naročila strank -->
+
 # Naročila strank
 
 **Naročilo stranke** predstavlja potrjeno namero stranke za nakup blaga ali storitev. Najpogosteje se ustvari na podlagi potrjene **Ponudbe**, lahko pa se ustvari tudi samostojno.  

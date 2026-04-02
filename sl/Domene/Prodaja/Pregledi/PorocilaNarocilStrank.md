@@ -1,3 +1,8 @@
+<!-- app_route: /sales/views/sales-order-reports -->
+<!-- app_label: Poročila naročil strank -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/PorocilaNarocilStrank.md -->
+<!-- canonical_source_title: Poročila naročil strank -->
+
 # Poročila naročil strank
 
 Pogled **Poročila naročil strank** nudi konsolidiran pregled **naročenih postavk**, združenih po **strankah**. Namenjen je analizi in poročanju ter **ne omogoča** ustvarjanja, urejanja ali spreminjanja dokumentov.

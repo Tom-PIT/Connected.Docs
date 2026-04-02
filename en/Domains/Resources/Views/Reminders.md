@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/reminders -->
+<!-- app_label: Reminders -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/Reminders.md -->
+<!-- canonical_source_title: Reminders -->
+
 # Reminders
 
 The **Reminders** view provides a calendar-based overview of scheduled reminders and allows users to create notifications for important events, deadlines, and follow-ups.

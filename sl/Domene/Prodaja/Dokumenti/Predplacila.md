@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/prepayments -->
+<!-- app_label: Predplačila -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Predplacila.md -->
+<!-- canonical_source_title: Predplačila -->
+
 # Predplačila
 
 **Predplačilo** je prodajni dokument, ki se uporablja, kadar stranka poravna dogovorjeni znesek **vnaprej**, še preden je blago ali storitev dobavljena. Evidentira prejeta sredstva, ki se lahko kasneje v celoti ali delno uporabijo pri izstavitvi [**izdanega računa**](IzdaniRacuni.md).  

@@ -1,3 +1,8 @@
+<!-- app_route: /management/sales/configuration -->
+<!-- app_label: Sales configuration -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/SalesConfiguration.md -->
+<!-- canonical_source_title: Sales configuration -->
+
 # Sales configuration
 
 Configure **Sales** settings affecting document numbering. Any changes are saved automatically.

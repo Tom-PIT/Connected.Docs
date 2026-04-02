@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/travel-order-reasons -->
+<!-- app_label: Travel order reasons -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/TravelOrderReasons.md -->
+<!-- canonical_source_title: Travel order reasons -->
+
 # Travel order reasons
 
 Travel order reasons define the possible purposes of a business trip. They are used when creating [travel orders](../Documents/TravelOrders.md), allowing users to select a predefined reason instead of entering free text.

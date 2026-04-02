@@ -1,3 +1,8 @@
+<!-- app_route: /quality/views/completed-checklists -->
+<!-- app_label: Completed checklists -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/Views/CompletedChecklists.md -->
+<!-- canonical_source_title: Completed checklists -->
+
 # Completed checklists
 
 The **Completed checklists** view provides an analytical overview of all **checklist executions that have been completed** within a selected time period. It allows supervisors and quality managers to review results, validate execution quality, and inspect completed checklist reports.

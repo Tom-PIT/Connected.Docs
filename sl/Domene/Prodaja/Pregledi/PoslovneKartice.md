@@ -1,3 +1,8 @@
+<!-- app_route: /customers/company-cards -->
+<!-- app_label: Poslovne kartice -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/PoslovneKartice.md -->
+<!-- canonical_source_title: Poslovne kartice -->
+
 # Poslovne kartice
 
 Pogled **Poslovne kartice** omogoča podroben pregled vseh **bremenitev in dobroimetij** po posameznih podjetjih. Namesto enotnega salda prikazuje **posamezne finančne dokumente** (npr. [izdani računi](../Dokumenti/IzdaniRacuni.md), [dobropisi](../Dokumenti/Dobropisi.md) in [bremepisi](../Dokumenti/Bremepisi.md)) ter njihov status plačila: **neplačano**, **delno plačano** ali **v celoti plačano**.

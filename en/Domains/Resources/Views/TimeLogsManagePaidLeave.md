@@ -1,3 +1,8 @@
+<!-- app_route: /time-logs/paid-leave-management -->
+<!-- app_label: Manage paid leave -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/TimeLogsManagePaidLeave.md -->
+<!-- canonical_source_title: Manage paid leave -->
+
 # Manage paid leave
 
 The **Manage paid leave** view is intended primarily for managers and responsible users to **review, approve, or reject paid leave requests** submitted by employees.

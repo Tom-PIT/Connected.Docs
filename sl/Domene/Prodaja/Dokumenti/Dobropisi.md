@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/credit-notes -->
+<!-- app_label: Dobropisi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Dobropisi.md -->
+<!-- canonical_source_title: Dobropisi -->
+
 # Dobropisi
 
 **Dobropis** je prodajni dokument, ki se uporablja za zmanjšanje ali razveljavitev celotnega ali dela že izdanega računa. Običajno se ustvari ob vračilu blaga, napačnem obračunu ali kadar je po izdaji računa potrebna korekcija.

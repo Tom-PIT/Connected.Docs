@@ -1,3 +1,8 @@
+<!-- app_route: /quality/views/active-checklists -->
+<!-- app_label: Active checklists -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/Views/ActiveChecklists.md -->
+<!-- canonical_source_title: Active checklists -->
+
 # Active checklists
 
 The **Active checklists** view lists all checklist executions that are currently in progress. Operators use it to monitor and complete ongoing quality or maintenance tasks. When a checklist is completed, it no longer appears in this view and moves to the Completed checklists view.

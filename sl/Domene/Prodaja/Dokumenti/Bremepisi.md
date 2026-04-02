@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/debit-notes -->
+<!-- app_label: Bremepisi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Bremepisi.md -->
+<!-- canonical_source_title: Bremepisi -->
+
 # Bremepisi
 
 **Bremepis** je prodajni dokument, ki se uporablja za **povečanje** zneska, ki ga dolguje stranka, po tem ko je bil račun že izdan. Običajno se ustvari, kadar je potrebno dodatno zaračunati stroške, kot so popravki cen, dodatne storitve ali stroški, ki niso bili vključeni v prvotni račun.

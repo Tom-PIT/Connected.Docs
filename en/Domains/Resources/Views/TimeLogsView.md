@@ -1,3 +1,8 @@
+<!-- app_route: /time-logs/view -->
+<!-- app_label: Time log – View -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/TimeLogsView.md -->
+<!-- canonical_source_title: Time log – View -->
+
 # Time log – View
 
 The **Time log – View** screen provides a detailed overview of recorded working time for a specific worker and period. It is used to review daily attendance, inspect individual time entries, and manually add or correct time logs when needed.

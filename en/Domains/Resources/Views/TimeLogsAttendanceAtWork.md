@@ -1,3 +1,8 @@
+<!-- app_route: /time-logs/attendance -->
+<!-- app_label: Attendance at work -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/TimeLogsAttendanceAtWork.md -->
+<!-- canonical_source_title: Attendance at work -->
+
 # Attendance at work
 
 The **Attendance at work** view provides a real-time overview of the current attendance status of workers.  

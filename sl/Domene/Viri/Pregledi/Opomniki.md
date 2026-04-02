@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/reminders -->
+<!-- app_label: Opomniki -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/Opomniki.md -->
+<!-- canonical_source_title: Opomniki -->
+
 # Opomniki
 
 Pogled **Opomniki** omogoča koledarski pregled načrtovanih opomnikov ter ustvarjanje obvestil za pomembne dogodke, roke in nadaljnja opravila.

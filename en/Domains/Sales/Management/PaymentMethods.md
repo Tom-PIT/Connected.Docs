@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/payment-methods -->
+<!-- app_label: Payment methods -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/PaymentMethods.md -->
+<!-- canonical_source_title: Payment methods -->
+
 # Payment methods
 
 The **Payment methods** code list defines the ways customers can pay for goods or services—such as credit cards, online payment services, or other supported methods. Each method includes a **code**, a **name**, optional **tags**, and an uploaded **icon** representing the payment provider. These records are used throughout the system wherever a payment option must be selected.

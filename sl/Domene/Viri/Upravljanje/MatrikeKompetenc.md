@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/competence-matrix -->
+<!-- app_label: Matrike kompetenc -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/MatrikeKompetenc.md -->
+<!-- canonical_source_title: Matrike kompetenc -->
+
 # Matrike kompetenc
 
 Matrike kompetenc se uporabljajo za definiranje, strukturiranje in spremljanje kompetenc zaposlenih v celotni organizaciji. Omogočajo hierarhično modeliranje znanj, določanje ravni usposobljenosti (plasti) ter povezovanje uporabnikov s posameznimi kompetencami.

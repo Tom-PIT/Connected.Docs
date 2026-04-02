@@ -1,3 +1,8 @@
+<!-- app_route: /resources/resource-costs -->
+<!-- app_label: Postavke virov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/PostavkeVirov.md -->
+<!-- canonical_source_title: Postavke virov -->
+
 # Postavke virov
 
 Določite **urne stroškovne postavke za vire** (človeške in nečloveške). Te postavke se uporabljajo za izračun proizvodnih in operativnih stroškov ter za ocenjevanje stroškov opravljenega dela.

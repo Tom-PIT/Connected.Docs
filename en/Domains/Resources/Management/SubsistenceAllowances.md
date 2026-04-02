@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/subsistence-allowances -->
+<!-- app_label: Subsistence Allowances -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/SubsistenceAllowances.md -->
+<!-- canonical_source_title: Subsistence Allowances -->
+
 # Subsistence Allowances
 
 Subsistence allowances define the daily amounts paid to employees when traveling for work.

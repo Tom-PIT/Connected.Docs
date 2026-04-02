@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/worksheets -->
+<!-- app_label: Delovni listi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/DelovniListi.md -->
+<!-- canonical_source_title: Delovni listi -->
+
 # Delovni listi
 
 **Delovni listi** omogočajo koledarski pregled za načrtovanje dela na podlagi **časovnih planov**.  

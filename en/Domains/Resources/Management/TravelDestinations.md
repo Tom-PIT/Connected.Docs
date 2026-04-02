@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/destinations -->
+<!-- app_label: Travel destinations -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/TravelDestinations.md -->
+<!-- canonical_source_title: Travel destinations -->
+
 # Travel destinations
 
 Define **predefined travel destinations** used when creating travel orders.  

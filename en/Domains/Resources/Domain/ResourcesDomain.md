@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/resources -->
+<!-- app_label: Resources -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Domain/ResourcesDomain.md -->
+<!-- canonical_source_title: Resources -->
+
 # Resources
 
 The **Resources** domain manages all human-related operational data within your organization. It provides tools for planning availability, tracking time and effort, managing resource master data, and analyzing workforce utilization.

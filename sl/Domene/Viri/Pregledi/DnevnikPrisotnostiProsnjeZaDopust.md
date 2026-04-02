@@ -1,3 +1,8 @@
+<!-- app_route: /time-logs/paid-leave-management -->
+<!-- app_label: Dnevnik prisotnosti – Prošnje za dopust -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiProsnjeZaDopust.md -->
+<!-- canonical_source_title: Dnevnik prisotnosti – Prošnje za dopust -->
+
 # Dnevnik prisotnosti – Prošnje za dopust
 
 Pogled **Dnevnik prisotnosti – Prošnje za dopust** je namenjen predvsem vodjem in odgovornim uporabnikom za **pregled, odobritev ali zavrnitev prošenj za plačani dopust**, ki jih oddajo zaposleni.

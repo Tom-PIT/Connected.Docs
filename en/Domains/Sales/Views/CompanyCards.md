@@ -1,3 +1,8 @@
+<!-- app_route: /customers/company-cards -->
+<!-- app_label: Company cards -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Views/CompanyCards.md -->
+<!-- canonical_source_title: Company cards -->
+
 # Company cards
 
 The **Company cards** view provides a detailed overview of all **debit and credit records** related to each company. Instead of showing a single consolidated balance, this screen lists **individual financial documents** (such as [issued invoices](../Documents/IssuedInvoices.md), [credit notes](../Documents/CreditNotes.md), and [debit notes](../Documents/DebitNotes.md)) and indicates whether each record is **unpaid**, **partially paid**, or **fully paid**.

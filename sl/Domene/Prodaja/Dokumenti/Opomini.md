@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/overdue-reminders -->
+<!-- app_label: Opomini -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Opomini.md -->
+<!-- canonical_source_title: Opomini -->
+
 # Opomini
 
 **Opomin** je prodajni dokument, ki se uporablja za obveščanje strank o **neplačanih izdanih računih** in za zahtevo po plačilu. Po potrebi lahko vključuje **strošek opomina** in **zamudne obresti**.

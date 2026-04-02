@@ -1,3 +1,8 @@
+<!-- app_route: /resources/views/work-item-analysis -->
+<!-- app_label: Analiza opravil -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Analiza/AnalizaOpravil.md -->
+<!-- canonical_source_title: Analiza opravil -->
+
 # Analiza opravil
 
 Pogled **Analiza opravil** omogoča analitični pregled **zabeleženega delovnega časa v sistemu**.  

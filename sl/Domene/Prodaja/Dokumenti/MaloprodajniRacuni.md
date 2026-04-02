@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/retail-issued-invoices -->
+<!-- app_label: Maloprodajni računi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/MaloprodajniRacuni.md -->
+<!-- canonical_source_title: Maloprodajni računi -->
+
 # Maloprodajni računi
 
 **Maloprodajni račun** je prodajni dokument, namenjen neposredni prodaji končnim kupcem (npr. prodaja na blagajni ali v trgovini). Običajno se ustvari ob samem nakupu, brez predhodne ponudbe ali naročila stranke.  

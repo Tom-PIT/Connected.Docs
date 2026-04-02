@@ -1,3 +1,8 @@
+<!-- app_route: /management/sales/delivery-note-clause-templates -->
+<!-- app_label: Predloge klavzul za dobavnice -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/PredlogeKlavzulZaDobavnice.md -->
+<!-- canonical_source_title: Predloge klavzul za dobavnice -->
+
 # Predloge klavzul za dobavnice
 
 Šifrant **Predloge klavzul za dobavnice** omogoča definiranje naborov klavzul (predlog), ki se izpišejo na dobavnicah za posamezna podjetja. Predloga vsebuje eno ali več klavzul – kot so pravna obvestila, izjave o omejitvi odgovornosti ali potrditve dobave – ki se na dobavnici izpišejo na vrhu ali dnu dokumenta v določenem zaporedju.

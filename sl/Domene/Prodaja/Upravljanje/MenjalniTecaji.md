@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/exchange-rates -->
+<!-- app_label: Menjalni tečaji -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/MenjalniTecaji.md -->
+<!-- canonical_source_title: Menjalni tečaji -->
+
 # Menjalni tečaji
 
 Šifrant **Menjalni tečaji** določa menjalne tečaje, ki se uporabljajo po celotnem sistemu pri delu z dokumenti v različnih valutah. Ti tečaji se primarno uporabljajo v področju **Prodaja** za pretvorbo zneskov med **osnovno valuto** in **ciljno valuto** na določen datum.

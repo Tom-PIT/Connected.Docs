@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/debit-notes -->
+<!-- app_label: Debit notes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/DebitNotes.md -->
+<!-- canonical_source_title: Debit notes -->
+
 # Debit notes
 
 A **Debit note** is a sales document used to **increase** the amount owed by a customer after an invoice has already been issued. It is typically created when additional charges are required, such as price corrections, extra services, or costs that were not included in the original invoice.

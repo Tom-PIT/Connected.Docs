@@ -1,3 +1,8 @@
+<!-- app_route: /quality/views/completed-checklists -->
+<!-- app_label: Zaključene kontrolne liste -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Kvaliteta/Pregledi/ZakljuceneKontrolneListe.md -->
+<!-- canonical_source_title: Zaključene kontrolne liste -->
+
 # Zaključene kontrolne liste
 
 Pogled **Zaključene kontrolne liste** ponuja analitični pregled vseh **izvajanj kontrolnih seznamov, ki so bila zaključena** v izbranem časovnem obdobju. Omogoča nadzornikom in vodjem kakovosti pregled rezultatov, preverjanje kakovosti izvajanja ter vpogled v poročila zaključenih kontrolnih seznamov.

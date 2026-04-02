@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/resources -->
+<!-- app_label: Viri -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Domena/Viri.md -->
+<!-- canonical_source_title: Viri -->
+
 # Viri
 
 Domena **Viri** upravlja vse operativne podatke, povezane z ljudmi, znotraj organizacije. Zagotavlja orodja za načrtovanje razpoložljivosti, beleženje časa in napora, upravljanje osnovnih podatkov o virih ter analizo izkoriščenosti delovne sile.

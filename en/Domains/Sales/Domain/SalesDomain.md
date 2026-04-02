@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/sales -->
+<!-- app_label: Sales -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Domain/SalesDomain.md -->
+<!-- canonical_source_title: Sales -->
+
 # Sales
 
 The **Sales** domain contains all records and documents needed to manage commercial transactions with customers. It includes [**Offers**](../Documents/Offers.md), [**Sales orders**](../Documents/SalesOrders.md), [**Delivery notes**](../Documents/DeliveryNotes.md), [**Issued invoices**](../Documents/IssuedInvoices.md), and analytical views used to understand sales performance and document flows.

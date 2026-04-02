@@ -1,3 +1,8 @@
+<!-- app_route: /sales/views/sales-order-details -->
+<!-- app_label: Sales order details -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Views/SalesOrderDetails.md -->
+<!-- canonical_source_title: Sales order details -->
+
 # Sales order details
 
 The Sales order details view provides an aggregated list of all order items from outgoing [**sales order**](../Documents/SalesOrders.md) documents. Instead of showing documents, this view shows **individual order lines**, allowing you to monitor deliveries, quantities, and outstanding obligations.

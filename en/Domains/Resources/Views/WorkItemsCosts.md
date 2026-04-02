@@ -1,3 +1,8 @@
+<!-- app_route: /work-items-costs -->
+<!-- app_label: Work items costs -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/WorkItemsCosts.md -->
+<!-- canonical_source_title: Work items costs -->
+
 # Work items costs
 
 The **Work items costs** view provides insight into the **actual cost of producing a single work item**, based on recorded materials, effort, and expenses. It is primarily used to analyze [production](../../Production/Documents/ProductionOrders.md) and [maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md) and understand cost distribution and performance.

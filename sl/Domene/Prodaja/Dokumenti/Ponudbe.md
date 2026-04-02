@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/offers -->
+<!-- app_label: Ponudbe -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Ponudbe.md -->
+<!-- canonical_source_title: Ponudbe -->
+
 # Ponudbe
 
 **Ponudba** je prodajni dokument, namenjen predstavitvi predlagane cene, količine in dobavnih pogojev stranki, preden je prodaja potrjena.  

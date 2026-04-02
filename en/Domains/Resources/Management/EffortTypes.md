@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/effort-types -->
+<!-- app_label: Effort types -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/EffortTypes.md -->
+<!-- canonical_source_title: Effort types -->
+
 # Effort types
 
 Effort types define **categories of work** that can be selected when recording effort on tasks, production executions, or maintenance activities. They help standardize time reporting and improve later analysis of how time is spent.

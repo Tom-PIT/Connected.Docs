@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/organization-bank-accounts -->
+<!-- app_label: Organization bank accounts -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/OrganizationBankAccounts.md -->
+<!-- canonical_source_title: Organization bank accounts -->
+
 # Organization bank accounts
 
 The **Organization bank accounts** code list stores the IBAN accounts used by your company for issuing invoices, receiving payments, and other financial processes. This screen allows you to view, add, enable, or disable the IBAN accounts used by your organization.

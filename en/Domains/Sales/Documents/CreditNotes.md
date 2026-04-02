@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/credit-notes -->
+<!-- app_label: Credit notes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/CreditNotes.md -->
+<!-- canonical_source_title: Credit notes -->
+
 # Credit notes
 
 A **Credit note** is a sales document used to reduce or cancel all or part of an already issued invoice. It is typically created when goods are returned, an overcharge occurred, or a correction is required after invoicing.

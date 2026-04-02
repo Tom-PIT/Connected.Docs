@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/quality -->
+<!-- app_label: Quality -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/Domain/QualityDomain.md -->
+<!-- canonical_source_title: Quality -->
+
 # Quality
 
 The **Quality** domain provides a focused workspace to visualize and manage operational **checklists** used across production and maintenance. It centralizes how checklists are defined (via templates), executed by operators, and reviewed for compliance and traceability.

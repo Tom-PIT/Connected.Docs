@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/timesheets -->
+<!-- app_label: Časovni plani -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/CasovniPlani.md -->
+<!-- canonical_source_title: Časovni plani -->
+
 # Časovni plani
 
 Časovni plani določajo vnaprej definirane kategorije delovnih aktivnosti, ki se uporabljajo pri beleženju časa in napora v celotnem sistemu.
