@@ -1,3 +1,8 @@
+<!-- app_route: /management/downtime -->
+<!-- app_label: Oznake zastojev -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/OznakeZastojev.md -->
+<!-- canonical_source_title: Oznake zastojev -->
+
 # Oznake zastojev
 
 **Oznake zastojev** se uporabljajo za razvrščanje in beleženje razlogov za prekinitve proizvodnje. Omogočajo analizo vzrokov zastojev, kot so okvare strojev, planirana vzdrževalna dela ali čiščenje, ter se uporabljajo v poročilih in analizah učinkovitosti proizvodnje.

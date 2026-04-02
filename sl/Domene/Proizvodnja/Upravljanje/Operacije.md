@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Operacije.md -->
+<!-- canonical_source_title: Operacije -->
+
 # Operacije
 
 Operacije predstavljajo **posamezne korake znotraj verzije procesa**. Vsaka verzija procesa vsebuje eno ali več operacij, ki se izvajajo zaporedno ali glede na določene pogoje. Operacije določajo **katere vire se uporablja**, **katere vhode in izhode obravnavajo**, **koliko časa korak traja** ter **katere organizacijske enote ali stroški se upoštevajo**.
@@ -7,7 +12,7 @@ Za dostop do operacij:
 2. Izberite **Verzijo**
 3. Kliknite **Operacije**
 
-![Odpri operacije](../Images/ProcessesVersionsOperationsButton1.png "Odpri operacije")
+![Odpri operacije](../Images/ProcessesVersionsOperationsButton1SL.png "Odpri operacije")
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Operacije](https://www.youtube.com/watch?v=rPyLL6pSZA0)**.

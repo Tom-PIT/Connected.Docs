@@ -1,3 +1,8 @@
+<!-- app_route: /projects/tasks -->
+<!-- app_label: Opravila -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Dokumenti/Opravila.md -->
+<!-- canonical_source_title: Opravila -->
+
 # Opravila
 
 Zaslon **Opravila** omogoča centraliziran pregled vseh opravil v projektih.  

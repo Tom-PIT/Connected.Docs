@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance/resource-counters -->
+<!-- app_label: Resource work hours & counters -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/ResourceWorkHours&Counters.md -->
+<!-- canonical_source_title: Resource work hours & counters -->
+
 # Resource work hours & counters
 
 The **Resource work hours & counters** screen is used to track **usage values** for equipment, such as produced pieces, operating hours, distance, volume, or any other measurable unit.

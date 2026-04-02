@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/VersionCostView.md -->
+<!-- canonical_source_title: Version cost analysis -->
+
 # Version cost analysis
 
 The **Version cost analysis** screen displays the **estimated production cost per item** for a specific **process version**.

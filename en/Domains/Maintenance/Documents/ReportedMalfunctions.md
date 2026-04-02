@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders/tickets -->
+<!-- app_label: Reported malfunctions -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/ReportedMalfunctions.md -->
+<!-- canonical_source_title: Reported malfunctions -->
+
 # Reported malfunctions
 
 Reported malfunctions record **issues detected on equipment during production or operation**.  They serve as an entry point for **curative maintenance**, allowing maintenance teams to review reported issues and, when required, create a maintenance order directly from the malfunction.

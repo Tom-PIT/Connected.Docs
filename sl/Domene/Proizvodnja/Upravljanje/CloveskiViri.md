@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Človeški viri -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/CloveskiViri.md -->
+<!-- canonical_source_title: Človeški viri -->
+
 # Človeški viri
 
 Človeški viri določajo, katere osebe ali vloge so potrebne za izvajanje posamezne operacije v procesu. Vsak vnos predstavlja planirani čas za osebo, delovno mesto ali vir, ki sodeluje pri delu.

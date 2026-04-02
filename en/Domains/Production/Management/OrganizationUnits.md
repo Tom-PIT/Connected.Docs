@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/organization-units -->
+<!-- app_label: Organization units -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/OrganizationUnits.md -->
+<!-- canonical_source_title: Organization units -->
+
 # Organization units
 
 The **Organization units** code list defines operational organizational entities used across **Production** and **Maintenance** workflows — for example manufacturing cells, assembly lines, maintenance departments, or service teams. Use this page to view, add, edit and delete organization units and to manage their basic properties (name, tags, parent hierarchy, and availability) that other features reference.

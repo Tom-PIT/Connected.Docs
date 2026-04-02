@@ -1,3 +1,8 @@
+<!-- app_route: /production/analytics/organization-unit-downtime -->
+<!-- app_label: Zastoji organizacijskih enot -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/ZastojiOrganizacijskihEnot.md -->
+<!-- canonical_source_title: Zastoji organizacijskih enot -->
+
 # Zastoji organizacijskih enot
 
 Stran **Zastoji organizacijskih enot** prikazuje podroben seznam vseh zabeleženih zastojev znotraj izbranih organizacijskih enot. Namenjena je nadzornikom in planerjem za pregled, kdaj se je zastoj začel in končal, kateri vir je bil prizadet, katera oznaka zastoja je bila uporabljena ter kakšno je bilo skupno trajanje.

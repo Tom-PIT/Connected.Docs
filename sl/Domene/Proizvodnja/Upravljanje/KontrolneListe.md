@@ -1,3 +1,8 @@
+<!-- app_route: /management/check-lists -->
+<!-- app_label: Kontrolne liste -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/KontrolneListe.md -->
+<!-- canonical_source_title: Kontrolne liste -->
+
 # Kontrolne liste
 
 Kontrolne liste se uporabljajo v modulih **Proizvodnja** in **Vzdrževanje** za definiranje strukturiranih seznamov, ki podpirajo operativne postopke in dejavnosti zagotavljanja kakovosti. Ta stran omogoča ustvarjanje in razvrščanje kontrolnih list, ki se uporabljajo na proizvodnih delovnih mestih in v vzdrževalnih procesih.

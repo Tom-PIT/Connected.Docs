@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/projects -->
+<!-- app_label: Projekti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Domena/DomenaProjektov.md -->
+<!-- canonical_source_title: Projekti -->
+
 # Projekti
 
 Domena **Projekti** podpira strukturirano načrtovanje, izvajanje in spremljanje projektnega dela znotraj vaše organizacije.  

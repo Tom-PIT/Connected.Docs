@@ -1,3 +1,8 @@
+<!-- app_route: /production/analytics/organization-unit-downtime -->
+<!-- app_label: Organization unit downtime -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/OrganizationUnitDowntime.md -->
+<!-- canonical_source_title: Organization unit downtime -->
+
 # Organization unit downtime
 
 The **Organization unit downtime** page provides a detailed list of all downtime events recorded within selected organizational units. It allows supervisors and planners to review when downtime started and ended, which resource was affected, the downtime classification tag, and the total duration.

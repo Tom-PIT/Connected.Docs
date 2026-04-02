@@ -1,3 +1,8 @@
+<!-- app_route: /management/downtime -->
+<!-- app_label: Downtime tags -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/DowntimeTags.md -->
+<!-- canonical_source_title: Downtime tags -->
+
 # Downtime tags
 
 Downtime tags are used to classify and record the reasons for interruptions in production processes. They help track issues such as equipment failures, planned maintenance, or cleaning, and are later used in production reports and efficiency analysis.

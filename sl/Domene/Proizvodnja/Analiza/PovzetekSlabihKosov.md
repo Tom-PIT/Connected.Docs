@@ -1,3 +1,8 @@
+<!-- app_route: /production/analytics/loss-summary -->
+<!-- app_label: Povzetek slabih kosov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/PovzetekSlabihKosov.md -->
+<!-- canonical_source_title: Povzetek slabih kosov -->
+
 # Povzetek slabih kosov
 
 Pogled **Povzetek slabih kosov** prikazuje pregled slabih oziroma neuporabnih kosov, zabeleženih med proizvodnjo v izbranem časovnem obdobju. Omogoča prepoznavanje najpogostejših vzrokov za slabe kose ter oceno njihovega vpliva na kakovost proizvodnje.

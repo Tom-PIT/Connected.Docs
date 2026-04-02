@@ -1,3 +1,8 @@
+<!-- app_route: /management/check-lists -->
+<!-- app_label: Checklists -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Checklists.md -->
+<!-- canonical_source_title: Checklists -->
+
 # Checklists
 
 Checklists are used across **Production** and **Maintenance** to define structured lists that support operational procedures and quality-control activities. This page allows users to create and categorize checklists used on the shop floor and in maintenance workflows.

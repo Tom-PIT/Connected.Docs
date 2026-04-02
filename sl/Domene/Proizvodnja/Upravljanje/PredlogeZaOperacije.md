@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes/protocol-operation-templates -->
+<!-- app_label: Predloge za operacije -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/PredlogeZaOperacije.md -->
+<!-- canonical_source_title: Predloge za operacije -->
+
 # Predloge za operacije
 
 Predloge za operacije definirajo **ponovno uporabne predloge operacij**, ki jih lahko hitro vstavite v procese. Omogočajo standardizacijo poimenovanja, opisov, vpliva časa, oznak in drugih lastnosti operacij v sistemu za **Proizvodnjo** in **Vzdrževanje** (npr. montažni korak, pregled, čiščenje).

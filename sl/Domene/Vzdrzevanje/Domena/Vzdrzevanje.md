@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/maintenance -->
+<!-- app_label: Vzdrževanje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Domena/Vzdrzevanje.md -->
+<!-- canonical_source_title: Vzdrževanje -->
+
 # Vzdrževanje
 
 Domena **Vzdrževanje** zagotavlja namenski delovni prostor za planiranje,

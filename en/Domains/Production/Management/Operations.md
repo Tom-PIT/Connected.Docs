@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Operations.md -->
+<!-- canonical_source_title: Operations -->
+
 # Operations
 
 Operations represent the **individual steps inside a process version**. Each process version contains one or more operations, executed in sequence or according to defined conditions. Operations define **what resources are used**, **what inputs and outputs are handled**, **how long the step takes**, and **which organizational units or expenses apply**.

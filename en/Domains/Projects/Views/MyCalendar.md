@@ -1,3 +1,8 @@
+<!-- app_route: /projects/my-calendar -->
+<!-- app_label: My calendar -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/Views/MyCalendar.md -->
+<!-- canonical_source_title: My calendar -->
+
 # My calendar
 
 The **My calendar** view provides a calendar-based overview of all **[tasks assigned to the current user](../Documents/Tasks.md)**. It helps users understand *when* work is planned and how tasks are distributed over time.

@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders/list -->
+<!-- app_label: Vzdrževalni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md -->
+<!-- canonical_source_title: Vzdrževalni nalogi -->
+
 # Vzdrževalni nalogi
 
 Vzdrževalni nalogi določajo delo, ki je potrebno za izvajanje **planiranega ali kurativnega vzdrževanja** opreme, na podlagi izbranega **vzdrževalnega procesa** in njegove verzije.  

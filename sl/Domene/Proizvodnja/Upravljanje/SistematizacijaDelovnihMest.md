@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/job-positions -->
+<!-- app_label: Sistematizacija delovnih mest -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/SistematizacijaDelovnihMest.md -->
+<!-- canonical_source_title: Sistematizacija delovnih mest -->
+
 # Sistematizacija delovnih mest
 
 Šifrant **Sistematizacija delovnih mest** določa delovna mesta oziroma vloge, ki jih lahko zaposleni opravljajo v operativnih procesih (proizvodnja in vzdrževanje). Delovna mesta se dodeljujejo registriranim uporabnikom sistema in se uporabljajo pri poročilih o delu, razporejanju, dodeljevanju virov ter pri pravicah za izvajanje kontrolnih list.

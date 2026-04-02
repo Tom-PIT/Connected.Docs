@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Procesi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/AnalizaStroskaVerzije.md -->
+<!-- canonical_source_title: Analiza stroška verzije -->
+
 # Analiza stroška verzije
 
 Zaslon **Analiza stroška verzije** prikazuje **ocenjeni strošek proizvodnje na kos** za izbrano **verzijo procesa**.

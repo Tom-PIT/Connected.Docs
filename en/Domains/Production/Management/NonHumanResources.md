@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/NonHumanResources.md -->
+<!-- canonical_source_title: Non-human resources -->
+
 # Non-human resources
 
 Non-human resources define which machines, tools, equipment, or resource groups are required to execute a specific operation in a process. Each entry represents planned usage time for a technical or physical resource.

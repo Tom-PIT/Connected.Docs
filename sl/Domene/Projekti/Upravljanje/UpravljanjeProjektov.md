@@ -1,3 +1,8 @@
+<!-- app_route: /projects/management/projects -->
+<!-- app_label: Upravljanje projektov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Upravljanje/UpravljanjeProjektov.md -->
+<!-- canonical_source_title: Upravljanje projektov -->
+
 # Upravljanje projektov
 
 **Upravljanje projektov** se uporablja za ustvarjanje, konfiguracijo in vzdrževanje projektov v sistemu TomPIT. Projekti predstavljajo strukturiran okvir za opravila, časovnice, odgovornosti in spremljanje napredka ter omogočajo vizualizacijo dela z uporabo **kanban tabel**.

@@ -1,3 +1,8 @@
+<!-- app_route: /analytics/downtime-summary -->
+<!-- app_label: Povzetek zastojev -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/PovzetekZastojev.md -->
+<!-- canonical_source_title: Povzetek zastojev -->
+
 # Povzetek zastojev
 
 Stran **Povzetek zastojev** nudi pregled zabeleženih proizvodnih zastojev v izbranem časovnem obdobju. Omogoča prepoznavanje najpogostejših razlogov za zastoje, oceno njihovega vpliva ter spremljanje uspešnosti po organizacijskih enotah in opremi.

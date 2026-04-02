@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance/resource-counters -->
+<!-- app_label: Stanja števcev -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/StanjaStevcev.md -->
+<!-- canonical_source_title: Stanja števcev -->
+
 # Stanja števcev
 
 Zaslon **Stanja števcev** se uporablja za spremljanje **vrednosti uporabe** opreme,

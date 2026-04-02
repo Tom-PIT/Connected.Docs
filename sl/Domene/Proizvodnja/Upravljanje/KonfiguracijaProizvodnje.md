@@ -1,3 +1,8 @@
+<!-- app_route: /management/production/configuration -->
+<!-- app_label: Konfiguracija proizvodnje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/KonfiguracijaProizvodnje.md -->
+<!-- canonical_source_title: Konfiguracija proizvodnje -->
+
 # Konfiguracija proizvodnje
 
 Konfiguracija nastavitev modula **Proizvodnja**, ki vplivajo na številčenje dokumentov. Spremembe se shranijo samodejno.

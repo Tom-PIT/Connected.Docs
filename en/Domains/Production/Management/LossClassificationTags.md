@@ -1,3 +1,8 @@
+<!-- app_route: /management/incompliant-production-tags -->
+<!-- app_label: Loss classification tags -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/LossClassificationTags.md -->
+<!-- canonical_source_title: Loss classification tags -->
+
 # Loss classification tags
 
 Loss classification tags are used in production to categorize and record different types of production losses — such as defective materials, handling issues, or cosmetic defects. These tags help identify the causes of waste and support loss-analysis reporting.

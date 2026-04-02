@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/HumanResources.md -->
+<!-- canonical_source_title: Human resources -->
+
 # Human resources
 
 Human resources define which people or roles are required to execute a specific operation in a process. Each entry represents planned time for a person, job position, or resource involved in the work.

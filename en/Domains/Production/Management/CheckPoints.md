@@ -1,3 +1,8 @@
+<!-- app_route: /management/check-lists -->
+<!-- app_label: Checklists -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/CheckPoints.md -->
+<!-- canonical_source_title: Check points -->
+
 # Check points
 
 Check points belong to a specific [**Checklist**](QualityChecklists.md) and define the individual steps, controls, or verifications that operators must perform during production or quality checks.  They ensure consistent process execution and provide structured data for audit trails and reporting.

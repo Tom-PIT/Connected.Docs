@@ -1,3 +1,8 @@
+<!-- app_route: /projects/projects -->
+<!-- app_label: Projects -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/Documents/Projects.md -->
+<!-- canonical_source_title: Projects -->
+
 # Projects
 
 The **Projects** area provides an overview of ongoing and completed projects and serves as the main workspace for **tracking progress and executing tasks** within a project.

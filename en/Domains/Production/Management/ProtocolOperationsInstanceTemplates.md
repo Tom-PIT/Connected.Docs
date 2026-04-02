@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes/protocol-operation-templates -->
+<!-- app_label: Protocol operation instance templates -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/ProtocolOperationsInstanceTemplates.md -->
+<!-- canonical_source_title: Protocol operation instance templates -->
+
 # Protocol operation instance templates
 
 Protocol operation instance templates define reusable operation blueprints that can be quickly inserted into processes. They help standardize naming, descriptions, time-calculation behavior, tags, and other operation attributes across the system for both **Production** and **Maintenance** workflows (e.g., assembly step, inspection, calibration).

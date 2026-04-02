@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Processes.md -->
+<!-- canonical_source_title: Processes -->
+
 # Processes
 
 Processes define the structured steps used across **Production** and **Maintenance** to transform inputs into outputs (finished, intermediate, or serviced equipment states). They form the backbone of operational workflows and are used in **documents** to calculate materials, resources, workloads, and execution steps:

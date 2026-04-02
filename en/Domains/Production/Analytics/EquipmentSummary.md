@@ -1,3 +1,8 @@
+<!-- app_route: /production/analytics/equipment -->
+<!-- app_label: Equipment summary -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/EquipmentSummary.md -->
+<!-- canonical_source_title: Equipment summary -->
+
 # Equipment summary
 
 The Equipment summary page provides an overview of machine performance, including downtime, production output, quality, and OEE (Overall Equipment Effectiveness). It helps supervisors and managers understand how each machine is performing over time.

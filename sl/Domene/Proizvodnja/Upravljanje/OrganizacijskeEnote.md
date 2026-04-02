@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/organization-units -->
+<!-- app_label: Organizacijske enote -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/OrganizacijskeEnote.md -->
+<!-- canonical_source_title: Organizacijske enote -->
+
 # Organizacijske enote
 
 Šifrant **organizacijskih enot** opredeljuje operativne organizacijske entitete, ki se uporabljajo v domenah **Proizvodnja** in **Vzdrževanje** — na primer proizvodne celice, montažne linije, vzdrževalni oddelki ali servisne ekipe. Ta pogled omogoča ogled, dodajanje, urejanje in brisanje organizacijskih enot ter upravljanje njihovih osnovnih lastnosti (naziv, oznake, hierarhija nadrejenih enot in aktivnost), na katere se sklicujejo druge funkcionalnosti sistema.

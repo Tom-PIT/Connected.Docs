@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/job-positions -->
+<!-- app_label: Job positions -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/JobPositions.md -->
+<!-- canonical_source_title: Job positions -->
+
 # Job positions
 
 The **Job positions** code list defines the roles that employees can perform across operational workflows (production and maintenance). These positions are assigned to registered workers in the system, so they can be selected in workflows such as work reports, scheduling, resource assignment, and checklist execution permissions.

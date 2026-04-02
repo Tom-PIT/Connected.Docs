@@ -1,3 +1,8 @@
+<!-- app_route: /management/check-lists -->
+<!-- app_label: Kontrolne liste -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/KontrolneTocke.md -->
+<!-- canonical_source_title: Kontrolne točke -->
+
 # Kontrolne točke
 
 Kontrolne točke pripadajo posamezni **[Kontrolni listi](KontrolneListe.md)** in določajo posamezne korake, kontrole ali preverjanja, ki jih morajo izvajalci opraviti med proizvodnjo ali preverjanjem kakovosti. Zagotavljajo dosledno izvajanje procesa ter omogočajo strukturirano zbiranje podatkov za sledenje, revizije in poročanje.

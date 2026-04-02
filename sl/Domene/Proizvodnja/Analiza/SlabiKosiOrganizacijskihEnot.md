@@ -1,3 +1,8 @@
+<!-- app_route: /production/analytics/organization-unit-loss -->
+<!-- app_label: Slabi kosi organizacijskih enot -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/SlabiKosiOrganizacijskihEnot.md -->
+<!-- canonical_source_title: Slabi kosi organizacijskih enot -->
+
 # Slabi kosi organizacijskih enot
 
 Stran **Slabi kosi organizacijskih enot** ponuja pregled vseh zabeleženih proizvodnih izgub, združenih po organizacijskih enotah. Omogoča hiter vpogled v število slabih kosov, ki so nastali v posamezni organizacijski enoti, ter identifikacijo organizacijskih enot z največ izgubami.

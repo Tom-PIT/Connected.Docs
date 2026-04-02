@@ -1,3 +1,8 @@
+<!-- app_route: /projects/my-tasks -->
+<!-- app_label: Moja opravila -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Pregledi/MojaOpravila.md -->
+<!-- canonical_source_title: Moja opravila -->
+
 # Moja opravila
 
 Zaslon **Moja opravila** ponuja personaliziran pregled vseh [opravil](../Dokumenti/Opravila.md), ki so **dodeljena vam**. Namenjen je delavcem in vodjem, da se lahko hitro osredotočijo na svoje naloge, brez potrebe po pregledovanju vseh projektov.

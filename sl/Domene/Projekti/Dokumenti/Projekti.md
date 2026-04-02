@@ -1,3 +1,8 @@
+<!-- app_route: /projects/projects -->
+<!-- app_label: Projekti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Dokumenti/Projekti.md -->
+<!-- canonical_source_title: Projekti -->
+
 # Projekti
 
 Področje **Projekti** omogoča pregled vseh aktivnih in zaključenih projektov ter predstavlja glavni delovni prostor za **spremljanje napredka in izvajanje opravil** znotraj projekta.
