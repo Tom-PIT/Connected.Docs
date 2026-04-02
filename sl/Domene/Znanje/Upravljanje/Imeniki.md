@@ -1,3 +1,8 @@
+<!-- app_route:  -->
+<!-- app_label: Imeniki -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Znanje/Upravljanje/Imeniki.md -->
+<!-- canonical_source_title: Imeniki -->
+
 # Imeniki
 
 Šifrant **Imeniki** določa glavne **vsebinske vsebnike**, uporabljene v **bazi znanja**.  

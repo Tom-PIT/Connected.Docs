@@ -1,3 +1,8 @@
+<!-- app_route: /management/warehouse/material-analysis -->
+<!-- app_label: Material analysis management -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Management/MaterialAnalysisManagement.md -->
+<!-- canonical_source_title: Material analysis management -->
+
 # Material analysis management
 
 Define the analyses or tests that can be performed on materials (e.g., chemical, visual, dimensional checks). These entries are reused wherever a material analysis must be selected.

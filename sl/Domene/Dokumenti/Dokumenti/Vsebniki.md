@@ -1,4 +1,9 @@
-## Vsebniki
+<!-- app_route: /documents/containers -->
+<!-- app_label: Vsebniki -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Dokumenti/Dokumenti/Vsebniki.md -->
+<!-- canonical_source_title: Vsebniki -->
+
+# Vsebniki
 
 Zaslon **Vsebniki** določa glavne **repozitorije dokumentov** v domeni **Dokumenti**.
 

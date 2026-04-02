@@ -1,3 +1,8 @@
+<!-- app_route: /management/warehouse/locations -->
+<!-- app_label: Lokacije -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Upravljanje/Lokacije.md -->
+<!-- canonical_source_title: Lokacije -->
+
 # Lokacije
 
 Ta šifrant predstavlja **skladiščne lokacije** znotraj posameznih [skladišč](Skladisca.md). Vsaka lokacija določa specifično območje ali podrazdelek, kot so regal, polica ali predal, ter omogoča natančno organizacijo in sledenje materialov znotraj skladišča.

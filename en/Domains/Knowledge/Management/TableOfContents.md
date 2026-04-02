@@ -1,3 +1,8 @@
+<!-- app_route: /management/knowledge/directories -->
+<!-- app_label: Directories -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/TableOfContents.md -->
+<!-- canonical_source_title: Table of contents -->
+
 # Table of contents
 
 The **Table of contents** defines the **navigation structure** inside a directory in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). It allows directories to organize articles hierarchically and provides users with a clear way to browse content.

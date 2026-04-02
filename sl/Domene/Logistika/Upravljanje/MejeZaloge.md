@@ -1,3 +1,8 @@
+<!-- app_route: /management/warehouse/stock-boundaries -->
+<!-- app_label: Meje zaloge -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Upravljanje/MejeZaloge.md -->
+<!-- canonical_source_title: Meje zaloge -->
+
 # Meje zaloge
 
 Ta šifrant predstavlja **meje zaloge** za posamezne materiale ali izdelke v sistemu. Vsak zapis določa **minimalno** in **maksimalno** dovoljeno količino zaloge za izbran tip materiala, kar pomaga zagotavljati optimalne zalogovne ravni ter preprečuje pomanjkanje ali presežke zaloge.

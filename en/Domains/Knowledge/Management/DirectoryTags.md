@@ -1,3 +1,8 @@
+<!-- app_route: /management/knowledge/directory-tags -->
+<!-- app_label: Directory tags -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/DirectoryTags.md -->
+<!-- canonical_source_title: Directory tags -->
+
 # Directory tags
 
 The **Directory tags** code list defines tags that can be assigned to **Knowledge articles**. Tags help categorize content and improve searching and filtering within the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md).

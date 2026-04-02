@@ -1,3 +1,8 @@
+<!-- app_route: /knowledge/ -->
+<!-- app_label: Baza znanja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Znanje/BazaZnanja/BazaZnanja.md -->
+<!-- canonical_source_title: Baza znanja -->
+
 # Baza znanja
 
 **Baza znanja** je glavni zaslon, kjer je predstavljena vsa **objavljena vsebina znanja**. Uporabnikom nudi osrednje mesto za brskanje, iskanje in branje interne dokumentacije, kot so navodila, smernice, postopki in referenčni članki.

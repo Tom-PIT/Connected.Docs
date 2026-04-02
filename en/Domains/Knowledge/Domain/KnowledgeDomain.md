@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/knowledge -->
+<!-- app_label: Knowledge domain -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Domain/KnowledgeDomain.md -->
+<!-- canonical_source_title: Knowledge domain -->
+
 # Knowledge
 
 The **Knowledge** domain provides a centralized **knowledge base library** used for internal documentation such as instructions, guidelines, procedures, and announcements. It allows organizations to structure, publish, and maintain written content that supports daily operations and knowledge sharing.

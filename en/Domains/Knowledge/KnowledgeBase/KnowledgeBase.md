@@ -1,3 +1,8 @@
+<!-- app_route: /knowledge/ -->
+<!-- app_label: Knowledge base -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/KnowledgeBase/KnowledgeBase.md -->
+<!-- canonical_source_title: Knowledge base -->
+
 # Knowledge base
 
 The **Knowledge base** is the main screen where all **published Knowledge content** is presented. It provides users with a central place to browse, search, and read internal documentation such as instructions, guidelines, procedures, and reference articles.

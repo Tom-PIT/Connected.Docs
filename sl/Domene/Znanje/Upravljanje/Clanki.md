@@ -1,3 +1,8 @@
+<!-- app_route: /management/knowledge/directories -->
+<!-- app_label: Imeniki -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Znanje/Upravljanje/Clanki.md -->
+<!-- canonical_source_title: Članki -->
+
 # Članki
 
 **Članki** so glavne vsebinske enote [**baze znanja**](../BazaZnanja/BazaZnanja.md). Vsebujejo pisno dokumentacijo, kot so navodila, smernice, postopki in referenčne informacije.

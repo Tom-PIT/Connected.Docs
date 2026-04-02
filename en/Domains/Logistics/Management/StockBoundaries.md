@@ -1,3 +1,8 @@
+<!-- app_route: /management/warehouse/stock-boundaries -->
+<!-- app_label: Stock boundaries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Management/StockBoundaries.md -->
+<!-- canonical_source_title: Stock boundaries -->
+
 # Stock boundaries
 
 This code list represents the stock boundaries for individual materials or products in the system. Each record defines the minimum and maximum stock quantity allowed for a particular material type, ensuring optimal inventory levels and preventing shortages or overstocking.  
