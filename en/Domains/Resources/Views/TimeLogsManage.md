@@ -113,6 +113,7 @@ Selecting an action immediately updates the worker’s status and records the co
 1. The worker presses **Login** → working time starts  
 2. The worker presses **Lunch** → working time stops and lunch time is recorded  
 3. After lunch, the worker presses **Login** again → lunch ends and working time resumes  
+4. When the worker finishes the day, he presses **Logoff**, this stops the working time and the day is closed. 
 
 ## Leave and travel actions
 

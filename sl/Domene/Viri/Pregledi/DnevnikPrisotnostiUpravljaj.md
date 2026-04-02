@@ -110,9 +110,10 @@ Izbira akcije takoj posodobi status uporabnika in zabeleži ustrezen časovni vn
 
 #### Primer
 
-1. Uporabnik klikne **Prijava** → začne se beleženje delovnega časa  
-2. Uporabnik klikne **Malica** → beleženje delovnega časa se ustavi in začne se beleženje malice  
-3. Po malici uporabnik ponovno klikne **Prijava** → malica se zaključi in beleženje delovnega časa se nadaljuje  
+1. Uporabnik klikne **Prijava** → začne se beleženje delovnega časa.  
+2. Uporabnik klikne **Malica** → beleženje delovnega časa se ustavi in začne se beleženje malice.
+3. Po malici uporabnik ponovno klikne **Prijava** → malica se zaključi in beleženje delovnega časa se nadaljuje.
+4. Ko uporabnik zaključi dan, pritisne **Odjava**, kar ustavi delovni čas in zaključi dan.
 
 ## Dejanja za dopust in odsotnosti
 
