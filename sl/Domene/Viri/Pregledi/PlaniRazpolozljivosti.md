@@ -67,5 +67,3 @@ Nato se prikaže še končno potrditveno pogovorno okno:
 - **»Ali ste prepričani, da želite izbrisati plan razpoložljivosti?«**
 
 Po potrditvi je plan trajno odstranjen iz sistema.
-
----

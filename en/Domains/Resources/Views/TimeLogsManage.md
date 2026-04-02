@@ -75,18 +75,44 @@ This section provides a quick overview of attendance and working progress.
 
 ## Time logging actions
 
-When available, the following time logging actions can be shown:
+The **Login** button is used to start the working period. 
 
-![Time log action buttons](../Images/TimeLogsManageLogButtons.png "Time logging actions")
+![Time Logs Manage Login](../Images/TimeLogsManageLogIn.png)
 
-Common actions include:
+Once pressed, the working time is recorded and the possibility to log other actions is available:
 
 - **Logoff** – End the current working session
 - **Lunch** – Record a lunch or break period
 - **Business trip** – Log time spent on a business trip
 - **Private** – Log private time during the working day
 
+![Time Logs Manage Other Actions](../Images/TimeLogsManageLogButtons.png "Other time logging actions")
+
 Selecting an action immediately updates the worker’s status and records the corresponding time entry.
+
+> [!NOTE]
+> The **Login** button is not available to all users. In some working environments, it is **replaced by a card-based sign-in** using a physical card reader (for example at the entrance).  
+> In setups where workers log time directly from their computers (for example remote or office-based work), this button may also be available in the application.
+
+### How it works
+
+- Pressing **Login** starts recording **working time**
+- Additional action buttons (such as **Lunch**, **Business trip**, **Private**) become available
+- Selecting one of these actions:
+  - **Stops the current working time**
+  - Starts recording the selected activity (for example **Lunch**)
+- Pressing **Login** again:
+  - Ends the current activity (for example lunch)
+  - Resumes recording **working time**
+
+> [!NOTE]
+> The exact actions available may vary based on the organization’s configuration and policies.
+
+#### Example
+
+1. The worker presses **Login** → working time starts  
+2. The worker presses **Lunch** → working time stops and lunch time is recorded  
+3. After lunch, the worker presses **Login** again → lunch ends and working time resumes  
 
 ## Leave and travel actions
 
