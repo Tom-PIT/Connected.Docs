@@ -1,3 +1,8 @@
+<!-- app_route: /management/configuration -->
+<!-- app_label: Configuration -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Settings/WarehouseConfiguration.md -->
+<!-- canonical_source_title: Warehouse configuration -->
+
 # Warehouse configuration
 
 Warehouse configuration settings allow you to customize how the system handles various warehouse operations, such as inventory management and GS1 settings. These settings can be accessed and modified by navigating to **Warehouse** in the sidebar menu.

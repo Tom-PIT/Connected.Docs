@@ -1,3 +1,8 @@
+<!-- app_route: /supply/documents/supply-planning-by-sales -->
+<!-- app_label: Supply stock boundaries planning by sales -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Documents/SupplyStockBoundariesPlanningBySales .md -->
+<!-- canonical_source_title: Supply stock boundaries planning by sales -->
+
 # Supply stock boundaries planning by sales
 
 The **Supply stock boundaries planning by sales** view supports purchase planning based on **sales-driven demand**. It uses the same planning logic and workflow as [**Supply stock boundaries planning**](SupplyStockBoundariesPlanning.md), but adds **sold quantity analysis** to help prioritize replenishment based on recent sales activity.

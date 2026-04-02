@@ -1,3 +1,8 @@
+<!-- app_route: /management/users -->
+<!-- app_label: Users -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Management/Users.md -->
+<!-- canonical_source_title: Users -->
+
 # Users
 
 The **Users** code list contains all user accounts registered in the system. User accounts define login credentials, role-based access rights, personal profile details (name, email, time zone, language), and whether the user may access specific system areas (warehouse/domain rules still under review). These settings ensure that each user has appropriate permissions according to their responsibilities. 

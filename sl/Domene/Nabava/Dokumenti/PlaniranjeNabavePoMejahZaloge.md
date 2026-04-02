@@ -1,3 +1,8 @@
+<!-- app_route: /supply/documents/supply-planning -->
+<!-- app_label: Planiranje nabave po mejah zaloge -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/PlaniranjeNabavePoMejahZaloge.md -->
+<!-- canonical_source_title: Planiranje nabave po mejah zaloge -->
+
 # Planiranje nabave po mejah zaloge
 
 Pogled **Planiranje nabave po mejah zaloge** omogoča proaktivno načrtovanje nabav z identifikacijo materialov, katerih zaloga je padla pod določeno **minimalno mejo zaloge**. S tega zaslona lahko neposredno ustvarite **[nabavne naloge](NabavniNalogi.md)** ali **[povpraševanja](Povprasevanja.md)** za izbrane materiale, pri čemer je večina podatkov že samodejno predizpolnjenih.

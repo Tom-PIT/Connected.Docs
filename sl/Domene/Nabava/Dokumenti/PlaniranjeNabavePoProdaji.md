@@ -1,3 +1,8 @@
+<!-- app_route: /supply/documents/supply-planning-by-sales -->
+<!-- app_label: Planiranje nabave po prodaji -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/PlaniranjeNabavePoProdaji.md -->
+<!-- canonical_source_title: Planiranje nabave po prodaji -->
+
 # Planiranje nabave po prodaji
 
 Pogled **Planiranje nabave po prodaji** omogoča načrtovanje nabav na podlagi **prodajnega povpraševanja**.  

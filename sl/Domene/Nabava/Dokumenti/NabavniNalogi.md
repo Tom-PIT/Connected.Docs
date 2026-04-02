@@ -1,3 +1,8 @@
+<!-- app_route: /supply/documents/supply-orders -->
+<!-- app_label: Nabavni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/NabavniNalogi.md -->
+<!-- canonical_source_title: Nabavni nalogi -->
+
 # Nabavni nalogi
 
 **Nabavni nalog** je uradni nabavni dokument, s katerim organizacija potrdi naročilo materialov ali storitev pri dobavitelju. Določa, *kaj* bo organizacija prejela, *kdaj* in *pod kakšnimi pogoji*, ter predstavlja osnovo za nadaljnje operativne procese, kot so **prevzemi materiala** in **razporejanje stroškov**.

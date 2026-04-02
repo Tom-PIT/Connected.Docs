@@ -1,3 +1,8 @@
+<!-- app_route: /management/supply/supplier-materials -->
+<!-- app_label: Materiali dobaviteljev -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Upravljanje/MaterialiDobaviteljev.md -->
+<!-- canonical_source_title: Materiali dobaviteljev -->
+
 # Materiali dobaviteljev
 
 **Materiali dobaviteljev** predstavljajo seznam materialov, ki jih posamezni dobavitelji ponujajo vaši organizaciji. Vsak zapis povezuje obstoječ material iz področja **[Materiali](../../Sredstva/Domena/Materiali.md)** z določenim dobaviteljem ter vključuje dodatne informacije, kot so dobaviteljeva interna šifra materiala, cena in dobavni rok.

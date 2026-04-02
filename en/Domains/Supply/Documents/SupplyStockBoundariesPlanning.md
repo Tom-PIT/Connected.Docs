@@ -1,3 +1,8 @@
+<!-- app_route: /supply/documents/supply-planning -->
+<!-- app_label: Supply stock boundaries planning -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Documents/SupplyStockBoundariesPlanning.md -->
+<!-- canonical_source_title: Supply stock boundaries planning -->
+
 # Supply stock boundaries planning
 
 The **Supply stock boundaries planning** view helps you proactively plan purchases by identifying materials that have fallen below their defined minimum stock levels. From this screen, you can directly create [**Supply orders**](../../Supply/Documents/SupplyOrders.md) or [**Inquiries**](../../Supply/Documents/Inquiries.md) for the affected materials, with most details pre-filled.

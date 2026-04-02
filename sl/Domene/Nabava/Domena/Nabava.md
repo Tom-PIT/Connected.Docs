@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/supply -->
+<!-- app_label: Nabava -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Domena/Nabava.md -->
+<!-- canonical_source_title: Nabava -->
+
 # Nabava
 
 Področje **Nabava** upravlja vse procese, povezane z nabavo, sodelovanjem z dobavitelji in planiranjem vhodnih materialov. Vključuje povpraševanja pri dobaviteljih, nabavne naloge, orodja za planiranje ter analitične preglede, ki pomagajo vzdrževati optimalne zaloge in zagotavljati pravočasno oskrbo.

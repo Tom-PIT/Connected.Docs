@@ -1,3 +1,8 @@
+<!-- app_route: /supply/documents/inquiries -->
+<!-- app_label: Povpraševanja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/Povprasevanja.md -->
+<!-- canonical_source_title: Povpraševanja -->
+
 # Povpraševanja
 
 **Povpraševanje** je nabavni dokument, ki se uporablja za pridobivanje informacij o **cenah**, **razpoložljivosti** in **dobavnih rokih** pri dobaviteljih, še preden se odda formalno naročilo. Povpraševanja omogočajo primerjavo ponudb dobaviteljev, načrtovanje prihodnjih nabav ter nemoten prehod v nadaljnje dokumente, kot so **[nabavni nalogi](NabavniNalogi.md)**.

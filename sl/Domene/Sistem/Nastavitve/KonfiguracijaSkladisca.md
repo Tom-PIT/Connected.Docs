@@ -1,3 +1,8 @@
+<!-- app_route: /management/configuration -->
+<!-- app_label: Sistemske nastavitve -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sistem/Nastavitve/KonfiguracijaSkladisca.md -->
+<!-- canonical_source_title: Konfiguracija skladišča -->
+
 # Konfiguracija skladišča
 
 Nastavitve konfiguracije skladišča omogočajo prilagoditev načina, kako sistem obravnava različne skladiščne operacije, kot so upravljanje zalog in GS1 nastavitve. Do teh nastavitev lahko dostopate in jih urejate v meniju **Warehouse** v stranski vrstici.
