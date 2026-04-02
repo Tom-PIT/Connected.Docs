@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/expenses -->
+<!-- app_label: Expenses -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Management/Expenses.md -->
+<!-- canonical_source_title: Expenses -->
+
 # Expenses
 
 The **Expenses** code list contains all costs that your organization wants to register as predefined expenses. These can include recurring services, equipment-related costs, subcontractor fees, or any non-material cost that needs to be referenced in supply or production processes.

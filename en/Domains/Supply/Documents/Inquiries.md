@@ -1,3 +1,8 @@
+<!-- app_route: /supply/documents/inquiries -->
+<!-- app_label: Inquiries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Documents/Inquiries.md -->
+<!-- canonical_source_title: Inquiries -->
+
 # Inquiries
 
 An **Inquiry** is a supply document used to request pricing, availability, and delivery information from a vendor before placing a formal order. Inquiries help your organization compare supplier responses, plan upcoming purchasing, and smoothly transition into follow-up documents such as [**Supply orders**](SupplyOrders.md).

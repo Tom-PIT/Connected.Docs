@@ -1,3 +1,8 @@
+<!-- app_route: /management/users -->
+<!-- app_label: Uporabniki -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sistem/Upravljanje/Uporabniki.md -->
+<!-- canonical_source_title: Uporabniki -->
+
 # Uporabniki
 
 Šifrant **Uporabniki** vsebuje vse uporabniške račune, registrirane v sistemu.

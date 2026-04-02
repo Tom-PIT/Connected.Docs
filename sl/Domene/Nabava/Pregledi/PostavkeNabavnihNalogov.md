@@ -1,3 +1,8 @@
+<!-- app_route: /supply/views/supply-order-details -->
+<!-- app_label: Postavke nabavnih nalogov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Pregledi/PostavkeNabavnihNalogov.md -->
+<!-- canonical_source_title: Postavke nabavnih nalogov -->
+
 # Postavke nabavnih nalogov
 
 Pogled **Postavke nabavnih nalogov** prikazuje agregiran seznam vseh postavk iz vhodnih dokumentov [**Nabavni nalogi**](../Dokumenti/NabavniNalogi.md).

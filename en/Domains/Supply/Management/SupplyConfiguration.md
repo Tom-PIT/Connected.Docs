@@ -1,3 +1,8 @@
+<!-- app_route: /management/supply/configuration -->
+<!-- app_label: Supply configuration -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Management/SupplyConfiguration.md -->
+<!-- canonical_source_title: Supply configuration -->
+
 # Supply configuration
 
 Configure **Supply** settings affecting document numbering. Any changes are saved automatically.

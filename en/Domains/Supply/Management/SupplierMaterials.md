@@ -1,3 +1,8 @@
+<!-- app_route: /management/supply/supplier-materials -->
+<!-- app_label: Supplier materials -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Management/SupplierMaterials.md -->
+<!-- canonical_source_title: Supplier materials -->
+
 # Supplier materials
 
 Supplier materials represent the list of materials that vendors provide to your organization. Each entry links an existing material from the [**Materials**](../../Assets/Domain/Materials.md) domain with a specific vendor and includes additional information such as the supplier’s material code, price, and delivery time.

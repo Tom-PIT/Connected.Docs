@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/expenses -->
+<!-- app_label: Stroški -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Upravljanje/Stroski.md -->
+<!-- canonical_source_title: Stroški -->
+
 # Stroški
 
 Šifrant **Stroški** vsebuje vse stroške, ki jih organizacija želi evidentirati kot vnaprej določene stroške. Ti lahko vključujejo ponavljajoče se storitve, stroške, povezane z opremo, stroške podizvajalcev ali katerikoli drug **ne-materialni strošek**, ki se uporablja v procesih nabave ali proizvodnje.

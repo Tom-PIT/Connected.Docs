@@ -1,3 +1,8 @@
+<!-- app_route: /supply/views/supply-orders-reports -->
+<!-- app_label: Supply orders report -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Views/SupplyOrdersReport.md -->
+<!-- canonical_source_title: Supply orders report -->
+
 # Supply orders report
 
 The **Supply orders report** view provides a consolidated overview of ordered materials and services, grouped by supplier. It is designed for analysis and reporting purposes and does **not** create or modify documents.

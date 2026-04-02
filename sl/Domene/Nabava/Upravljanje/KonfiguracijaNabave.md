@@ -1,3 +1,8 @@
+<!-- app_route: /management/supply/configuration -->
+<!-- app_label: Konfiguracija nabave -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Upravljanje/KonfiguracijaNabave.md -->
+<!-- canonical_source_title: Konfiguracija nabave -->
+
 # Konfiguracija nabave
 
 Zaslon **Konfiguracija nabave** omogoča nastavitev pravil, ki vplivajo na **številčenje dokumentov nabave**. Vse spremembe se **samodejno shranijo** ob spremembi vrednosti.
