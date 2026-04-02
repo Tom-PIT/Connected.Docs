@@ -1,3 +1,8 @@
+<!-- app_route: /management/warehouse/locations -->
+<!-- app_label: Locations -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Management/Locations.md -->
+<!-- canonical_source_title: Locations -->
+
 # Locations
 
 This code list represents the storage locations within individual [warehouses](Warehouses.md). Each location defines a specific area or subdivision, such as a rack, shelf, or compartment, and enables precise organization and tracking of materials within a warehouse.

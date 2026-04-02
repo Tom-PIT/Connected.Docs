@@ -1,3 +1,8 @@
+<!-- app_route: /management/knowledge/directories -->
+<!-- app_label: Directories -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/Articles.md -->
+<!-- canonical_source_title: Articles -->
+
 # Articles
 
 **Articles** are the main content units of the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). They contain written documentation such as instructions, guidelines, procedures, and reference information.

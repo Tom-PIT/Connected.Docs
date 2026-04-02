@@ -1,3 +1,8 @@
+<!-- app_route: /management/warehouse/material-analysis -->
+<!-- app_label: Analiza materialov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Upravljanje/AnalizaMaterialov.md -->
+<!-- canonical_source_title: Analiza materialov -->
+
 # Analiza materialov
 
 Opredelite **analize ali preizkuse**, ki se lahko izvajajo na materialih (npr. kemijske, vizualne, dimenzijske kontrole). Ti zapisi se ponovno uporabljajo povsod, kjer je potrebno izbrati analizo materiala.

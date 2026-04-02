@@ -1,3 +1,8 @@
+<!-- app_route: /management/warehouse/warehouses -->
+<!-- app_label: Warehouses -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Management/Warehouses.md -->
+<!-- canonical_source_title: Warehouses -->
+
 # Warehouses
 
 This code list represents the warehouses used across the digital contents of the system. Each warehouse defines a physical or logical storage location that supports material handling, inventory operations, and logistical processes. 

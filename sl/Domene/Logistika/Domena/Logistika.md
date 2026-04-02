@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/logistics -->
+<!-- app_label: Logistika -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Domena/Logistika.md -->
+<!-- canonical_source_title: Logistika -->
+
 # Logistika
 
 Področje **Logistika** pokriva vse skladiščne in logistične operacije znotraj organizacije. Vključuje procese ravnanja z zalogo, strukturo skladišč, premike materialov ter vso dokumentacijo, potrebno za sledenje fizičnemu toku blaga.

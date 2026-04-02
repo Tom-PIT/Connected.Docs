@@ -1,3 +1,8 @@
+<!-- app_route: /documents/containers -->
+<!-- app_label: Containers -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Documents/Documents/Containers.md -->
+<!-- canonical_source_title: Containers -->
+
 # Containers
 
 The **Containers** screen defines the main **document repositories** used in the **Documents** domain.

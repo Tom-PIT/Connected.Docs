@@ -1,3 +1,8 @@
+<!-- app_route: /management/warehouse/warehouses -->
+<!-- app_label: Skladišča -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Upravljanje/Skladisca.md -->
+<!-- canonical_source_title: Skladišča -->
+
 # Skladišča
 
 Ta šifrant predstavlja **skladišča**, ki se uporabljajo v celotnem sistemu. Vsako skladišče določa fizično ali logično mesto shranjevanja, ki podpira ravnanje z materiali, zalogovne operacije in logistične procese.

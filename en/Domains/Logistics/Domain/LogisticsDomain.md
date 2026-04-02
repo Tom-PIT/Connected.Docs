@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/logistics -->
+<!-- app_label: Logistics domain -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Domain/LogisticsDomain.md -->
+<!-- canonical_source_title: Logistics domain -->
+
 # Logistics
 
 The **Logistics** domain covers all warehouse-related operations within your organization. It includes stock handling processes, warehouse structures, material movements, and all documentation needed to track the physical flow of goods.

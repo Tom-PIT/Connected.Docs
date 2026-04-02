@@ -1,3 +1,8 @@
+<!-- app_route: /management/knowledge/directories -->
+<!-- app_label: Directories -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/Directories.md -->
+<!-- canonical_source_title: Directories -->
+
 # Directories
 
 The **Directories** code list defines the main **content containers** used in the **Knowledge base**. Each directory represents a topic or category (for example *Table Assembly*, *Safety Guidelines*, *Quality Inspections*) and contains articles and a table of contents structure.

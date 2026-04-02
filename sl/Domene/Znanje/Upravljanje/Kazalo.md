@@ -1,3 +1,8 @@
+<!-- app_route: /management/knowledge/directories -->
+<!-- app_label: Imeniki -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Znanje/Upravljanje/Kazalo.md -->
+<!-- canonical_source_title: Kazalo -->
+
 # Kazalo
 
 **Kazalo** določa **navigacijsko strukturo** znotraj imenika v [**bazi znanja**](../BazaZnanja/BazaZnanja.md).  

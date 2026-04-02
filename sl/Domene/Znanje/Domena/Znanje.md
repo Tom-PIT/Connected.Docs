@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/knowledge -->
+<!-- app_label: Znanje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Znanje/Domena/Znanje.md -->
+<!-- canonical_source_title: Znanje -->
+
 # Znanje
 
 Domena **Znanje** zagotavlja centralizirano **bazo znanja**, namenjeno interni dokumentaciji, kot so navodila, smernice, postopki in obvestila. Organizacijam omogoča strukturiranje, objavljanje in vzdrževanje pisne vsebine, ki podpira vsakodnevno delo in deljenje znanja.

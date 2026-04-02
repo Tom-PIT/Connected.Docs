@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/documents -->
+<!-- app_label: Domena dokumentov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Dokumenti/Domena/DomenaDokumentov.md -->
+<!-- canonical_source_title: Domena dokumentov -->
+
 # Domena dokumentov
 
 **Domena dokumentov** omogoča centraliziran repozitorij za upravljanje **zunanjih dokumentov**, ki jih sistem ne generira sam, vendar jih je treba shraniti, organizirati in imeti dostopne znotraj platforme.
