@@ -73,20 +73,46 @@ Na vrhu zaslona so prikazane naslednje informacije:
 
 Ta razdelek omogoča hiter pregled prisotnosti in poteka delovnega dne.
 
-## Dejanja beleženja časa
+## Akcije beleženja časa
 
-Kadar so na voljo, so prikazana naslednja dejanja beleženja časa:
+Gumb **Prijava** se uporablja za začetek delovnega časa.
 
-![Gumbi za beleženje časa](../Images/TimeLogsManageLogButtonsSL.png "Dejanja beleženja časa")
+![Time Logs Manage Log In](../Images/TimeLogsManageLogIn.png)
 
-Pogosta dejanja vključujejo:
+Po kliku se začne beleženje **delovnega časa**, hkrati pa postanejo na voljo dodatne akcije:
 
-- **Odjava** – zaključi trenutno delovno sejo,
-- **Malica** – zabeleži odmor,
-- **Službena pot** – beleži čas na službeni poti,
-- **Privat** – beleži zasebni čas med delovnim dnem.
+- **Odjava** – Zaključi trenutno delovno sejo
+- **Malica** – Zabeleži čas za malico ali odmor
+- **Službena pot** – Zabeleži čas službene poti
+- **Privat** – Zabeleži zasebni čas med delovnim dnevom
 
-Izbira dejanja takoj posodobi stanje zaposlenega in zabeleži ustrezen časovni vnos.
+![Time Logs Manage Other Actions](../Images/TimeLogsManageLogButtonsSL.png)
+
+Izbira akcije takoj posodobi status uporabnika in zabeleži ustrezen časovni vnos.
+
+> [!NOTE]
+> Gumb **Prijava** ni na voljo vsem uporabnikom. V nekaterih delovnih okoljih je **nadomeščen s prijavo preko kartice** z uporabo fizičnega čitalca kartic (na primer na vhodu).  
+> V okoljih, kjer uporabniki beležijo čas neposredno na računalniku (na primer delo na daljavo ali pisarniško delo), je ta gumb lahko na voljo tudi v aplikaciji.
+
+### Kako deluje
+
+- S klikom na **Prijava** se začne beleženje **delovnega časa**
+- Na voljo postanejo dodatni gumbi (npr. **Malica**, **Službena pot**, **Privat**)
+- Izbira ene izmed teh akcij:
+  - **Ustavi trenutno beleženje delovnega časa**
+  - Začne beleženje izbrane aktivnosti (npr. **Malica**)
+- Ponovni klik na **Prijava**:
+  - Zaključi trenutno aktivnost (npr. malico)
+  - Nadaljuje beleženje **delovnega časa**
+
+> [!NOTE]
+> Razpoložljive akcije se lahko razlikujejo glede na nastavitve in pravila organizacije.
+
+#### Primer
+
+1. Uporabnik klikne **Prijava** → začne se beleženje delovnega časa  
+2. Uporabnik klikne **Malica** → beleženje delovnega časa se ustavi in začne se beleženje malice  
+3. Po malici uporabnik ponovno klikne **Prijava** → malica se zaključi in beleženje delovnega časa se nadaljuje  
 
 ## Dejanja za dopust in odsotnosti
 
@@ -114,5 +140,3 @@ Klik na **Pregled** odpre podroben pregled časovnih vnosov za izbrano obdobje:
 - **[Dnevnik prisotnosti – Pregled](DnevnikPrisotnostiPregled.md)**
 
 Ta dejanja omogočajo upravljanje prisotnosti, odsotnosti in potovanj neposredno iz konteksta beleženja časa.
-
----
