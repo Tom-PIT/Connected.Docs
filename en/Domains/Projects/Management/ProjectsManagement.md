@@ -1,3 +1,8 @@
+<!-- app_route: /projects/management/projects -->
+<!-- app_label: Project Management -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/Management/ProjectsManagement.md -->
+<!-- canonical_source_title: Project Management -->
+
 # Project Management
 
 Project management is used to **create, configure, and maintain projects** in TomPIT. Projects define a structured container for tasks, timelines, responsibilities, and progress tracking, and can be visualized using **Kanban boards**.

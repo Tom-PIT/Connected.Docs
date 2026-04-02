@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders/list -->
+<!-- app_label: Maintenance orders -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceOrders.md -->
+<!-- canonical_source_title: Maintenance orders -->
+
 # Maintenance orders
 
 Maintenance orders define the work required to perform **planned or curative maintenance** on equipment, based on a selected **maintenance process** and version.  

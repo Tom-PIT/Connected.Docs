@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Inputs.md -->
+<!-- canonical_source_title: Inputs -->
+
 # Inputs
 
 Inputs define the **materials required** to perform an operation within a process version. Each input specifies what material is needed, in what unit and quantity, and how it should be calculated.

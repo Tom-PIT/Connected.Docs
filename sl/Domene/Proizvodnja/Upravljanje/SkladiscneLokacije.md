@@ -1,3 +1,8 @@
+<!-- app_route: /management/organization-units/warehouse-locations -->
+<!-- app_label: Skladiščne lokacije -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/SkladiscneLokacije.md -->
+<!-- canonical_source_title: Skladiščne lokacije -->
+
 # Skladiščne lokacije
 
 Seznam **Skladiščne lokacije** povezuje [organizacijske enote](OrganizacijskeEnote.md) s fizičnimi skladiščnimi lokacijami, da lahko proizvodni procesi pridobivajo material in shranjujejo proizvedene izdelke. Na tem zaslonu upravljate, katere lokacije lahko Proizvodnja uporablja za vhod in izhod ter uveljavljate pravila povezav med organizacijskimi enotami in skladiščnimi lokacijami.

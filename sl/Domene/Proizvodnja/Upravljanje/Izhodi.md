@@ -1,10 +1,15 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Izhodi.md -->
+<!-- canonical_source_title: Izhodi -->
+
 # Izhodi
 
 Izhodi določajo materiale, ki nastanejo med **operacijo** znotraj verzije procesa. Vsak izhod opredeljuje nastali material, njegovo količino in morebitne oznake za razvrščanje.
 
 Za dostop do te strani odprite verzijo procesa v **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, nato kliknite **[Operacije](Operacije.md)** in pri izbrani operaciji izberite **Izhodi**.
 
-![Gumb Izhodi](../Images/OutputsButton.png "Gumb Izhodi")
+![Gumb Izhodi](../Images/OutputsButtonSL.png "Gumb Izhodi")
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Vhodi in izhodi](https://www.youtube.com/watch?v=647sT70tNZc)**.

@@ -1,3 +1,8 @@
+<!-- app_route: /production/analytics/equipment -->
+<!-- app_label: Povzetek stroja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/PovzetekStroja.md -->
+<!-- canonical_source_title: Povzetek stroja -->
+
 # Povzetek stroja
 
 Pogled **Povzetek stroja** nudi pregled delovanja posameznega stroja, vključno z zastoji, proizvodnjo, kakovostjo in OEE (Skupna učinkovitost opreme). Namenjen je vodjem in nadzornikom za hitro oceno učinkovitosti strojev skozi čas.

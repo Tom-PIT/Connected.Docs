@@ -1,3 +1,8 @@
+<!-- app_route: /projects/my-tasks -->
+<!-- app_label: My tasks -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/Views/MyTasks.md -->
+<!-- canonical_source_title: My tasks -->
+
 # My tasks
 
 The **My Tasks** screen provides a personalized view of all [tasks](../Documents/Tasks.md) **assigned to you**. It is designed for workers and managers to quickly focus on their own responsibilities without navigating through all projects.

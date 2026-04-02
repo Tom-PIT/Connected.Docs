@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Vhodi.md -->
+<!-- canonical_source_title: Vhodi -->
+
 # Vhodi
 
 Vhodi določajo **materiale, potrebne** za izvedbo operacije znotraj verzije procesa. Vsak vhod določa, kateri material je potreben, v kateri enoti in količini ter kako se količina izračuna.  
@@ -5,7 +10,7 @@ Vhodi se upravljajo znotraj **operacije**.
 
 Za dostop do te strani odprite verzijo procesa prek **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite **[Operacije](Operacije.md)** in nato pri izbrani operaciji izberite **Vhodi**.
 
-![Gumb Vhodi](../Images/InputsButton.png "Gumb Vhodi")
+![Gumb Vhodi](../Images/InputsButtonSL.png "Gumb Vhodi")
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Inputs & Outputs](https://www.youtube.com/watch?v=647sT70tNZc)**.

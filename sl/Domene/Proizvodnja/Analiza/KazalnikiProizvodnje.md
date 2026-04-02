@@ -1,10 +1,15 @@
+<!-- app_route: /production/analytics/kpis -->
+<!-- app_label: Kazalniki proizvodnje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/KazalnikiProizvodnje.md -->
+<!-- canonical_source_title: Kazalniki proizvodnje -->
+
 # Kazalniki proizvodnje
 
 Stran **Kazalniki proizvodnje** omogoča analitičen vpogled v ključne kazalnike uspešnosti proizvodnje. Namenjena je spremljanju proizvodnje, kakovosti, zastojev ter učinkovitosti strojev ali organizacijskih enot v izbranem časovnem obdobju.
 
 Do strani dostopate preko **Proizvodnja / Analiza / Kazalniki proizvodnje** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
-![Pregled kazalnikov proizvodnje](../Images/ProductionKPIsView.png "Kazalniki proizvodnje")
+![Pregled kazalnikov proizvodnje](../Images/ProductionKPIsViewV2SL.png "Kazalniki proizvodnje")
 
 > [!TIP]
 > Za celovit pregled analitike proizvodnje si oglejte video **[Kazalniki uspešnosti](https://www.youtube.com/watch?v=zzs6wJh-tQY)**.

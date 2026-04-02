@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders/list -->
+<!-- app_label: Maintenance Order – Quick User Guide -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceOrderQuickUserGuide.md -->
+<!-- canonical_source_title: Maintenance Order – Quick User Guide -->
+
 # Maintenance Order – Quick User Guide
 
 This guide shows the **essential steps** for technicians and maintenance workers to **carry out maintenance work** using an **active maintenance order** in TomPIT.

@@ -1,3 +1,8 @@
+<!-- app_route: /production/analytics/organization-unit-loss -->
+<!-- app_label: Organization unit loss -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/OrganizationUnitLoss.md -->
+<!-- canonical_source_title: Organization unit loss -->
+
 # Organization unit loss
 
 The **Organization unit loss** page provides an overview of all recorded production losses grouped by organizational unit. It allows supervisors and planners to quickly see how many defective or unusable items were produced in each organizational unit and from which production orders the losses originated.

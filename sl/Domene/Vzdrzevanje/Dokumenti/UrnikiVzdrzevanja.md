@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders/schedule -->
+<!-- app_label: Urniki vzdrževanja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/UrnikiVzdrzevanja.md -->
+<!-- canonical_source_title: Urniki vzdrževanja -->
+
 # Urniki vzdrževanja
 
 **Urniki vzdrževanja** določajo, kako se **planirani vzdrževalni nalogi**

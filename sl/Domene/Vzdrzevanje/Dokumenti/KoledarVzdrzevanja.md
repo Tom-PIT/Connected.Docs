@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders -->
+<!-- app_label: Koledar vzdrževanja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/KoledarVzdrzevanja.md -->
+<!-- canonical_source_title: Koledar vzdrževanja -->
+
 # Koledar vzdrževanja
 
 **Koledar vzdrževanja** omogoča časovni pregled vzdrževalnih aktivnosti.

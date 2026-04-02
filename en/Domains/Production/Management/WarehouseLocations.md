@@ -1,3 +1,8 @@
+<!-- app_route: /management/organization-units/warehouse-locations -->
+<!-- app_label: Warehouse locations -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/WarehouseLocations.md -->
+<!-- canonical_source_title: Warehouse locations -->
+
 # Warehouse locations
 
 The **Warehouse locations** list maps [organization units](OrganizationUnits.md) to physical warehouse locations so

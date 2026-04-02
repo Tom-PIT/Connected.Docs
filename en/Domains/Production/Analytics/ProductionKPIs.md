@@ -1,10 +1,15 @@
+<!-- app_route: /production/analytics/kpis -->
+<!-- app_label: Production KPIs -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/ProductionKPIs.md -->
+<!-- canonical_source_title: Production KPIs -->
+
 # Production KPIs
 
 The **Production KPIs** page provides analytical insights into key production performance indicators. It enables monitoring of efficiency, quality, downtime, and equipment or organizational unit performance over a selected time period. 
 
 To access this page, go to **Production / Analytics / Production KPIs** in the [**navigation**](../../../Common/UI/Navigation.md).
 
-![Production KPIs overview](../Images/ProductionKPIsView.png "Production KPIs overview")
+![Production KPIs overview](../Images/ProductionKPIsViewV2.png "Production KPIs overview")
 
 > [!TIP]
 > For a full walkthrough of production analytics, see the **[Key Performance Indicators](https://www.youtube.com/watch?v=zzs6wJh-tQY)** video tutorial.

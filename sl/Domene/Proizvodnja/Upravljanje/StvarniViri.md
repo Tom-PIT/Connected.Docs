@@ -1,10 +1,15 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/StvarniViri.md -->
+<!-- canonical_source_title: Stvarni viri -->
+
 # Stvarni viri
 
 **Stvarni viri** določajo, kateri stroji, orodja, oprema ali skupine virov so potrebni za izvedbo posamezne operacije v procesu. Vsak vnos predstavlja planirani čas uporabe tehničnega ali fizičnega vira.
 
 Za dostop do tega pogleda odprite verzijo procesa v **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite **[Operacije](Operacije.md)** in nato za izbrano operacijo izberite **Stvarni viri**.
 
-![Gumb Stvarni viri](../Images/NonHumanResourcesButton.png "Gumb Stvarni viri")
+![Gumb Stvarni viri](../Images/NonHumanResourcesButtonSL.png "Gumb Stvarni viri")
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Človeški in stvarni viri](https://www.youtube.com/watch?v=iq7fQiPh_i4)**.

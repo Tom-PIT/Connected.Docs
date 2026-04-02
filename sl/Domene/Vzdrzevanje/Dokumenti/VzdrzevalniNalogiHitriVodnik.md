@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders/list -->
+<!-- app_label: Vzdrževalni nalog – hitri uporabniški vodnik -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogiHitriVodnik.md -->
+<!-- canonical_source_title: Vzdrževalni nalog – hitri uporabniški vodnik -->
+
 # Vzdrževalni nalog – hitri uporabniški vodnik
 
 Ta vodnik prikazuje **osnovne korake** za tehnike in vzdrževalce za

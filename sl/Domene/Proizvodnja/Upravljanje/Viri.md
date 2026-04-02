@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources -->
+<!-- app_label: Viri -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Viri.md -->
+<!-- canonical_source_title: Viri -->
+
 # Viri
 
 Viri se uporabljajo za opredelitev in upravljanje vseh **človeških** in **nečloveških** sredstev, ki so na voljo v domenah **Proizvodnja** in **Vzdrževanje**. Sem spadajo delavci, tehniki, stroji, delovne postaje, orodja, merilna oprema in ekipe. Tukaj ustvarjeni viri se lahko kasneje dodelijo **[operacijam](Operacije.md)**, **[procesom](Procesi.md)** ter dokumentom, kot so **[proizvodni nalogi](../Dokumenti/ProizvodniNalogi.md)** in **[vzdrževalni nalogi](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)**.

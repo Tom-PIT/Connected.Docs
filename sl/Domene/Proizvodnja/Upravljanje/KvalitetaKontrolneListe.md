@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md -->
+<!-- canonical_source_title: Kvaliteta – kontrolne liste -->
+
 # Kvaliteta – kontrolne liste
 
 Stran **Kakovost** omogoča povezovanje **[kontrolnih list](KontrolneListe.md)** bodisi na **različico procesa** bodisi na **operacijo**. Te kontrolne liste se uporabljajo za izvajanje korakov kontrole kakovosti med proizvodnjo.
@@ -5,10 +10,10 @@ Stran **Kakovost** omogoča povezovanje **[kontrolnih list](KontrolneListe.md)**
 Do te strani dostopate s klikom na gumb **Kakovost** iz:
 
 - **Različice procesa**  
-  ![Gumb Kakovost na različici](../Images/ProcessesVersionsQualityButton.png)
+  ![Gumb Kakovost na različici](../Images/ProcessesVersionsQualityButtonSL.png)
 
 - **Operacije**  
-  ![Gumb Kakovost na operaciji](../Images/OperationsQualityButton.png)
+  ![Gumb Kakovost na operaciji](../Images/OperationsQualityButtonSL.png)
 
 > [!NOTE]
 > Kontrolno listo je treba najprej pripraviti v šifrantu **[Kontrolne liste](KontrolneListe.md)**. Tukaj je mogoče povezati samo že definirane kontrolne liste.

@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Outputs.md -->
+<!-- canonical_source_title: Outputs -->
+
 # Outputs
 
 Outputs define the materials produced during an **operation** inside a process version. Each output specifies the resulting product, its quantity, and optional classification tags.

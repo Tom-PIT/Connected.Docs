@@ -1,3 +1,8 @@
+<!-- app_route: /analytics/downtime-summary -->
+<!-- app_label: Downtime summary -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/DowntimeSummary.md -->
+<!-- canonical_source_title: Downtime summary -->
+
 # Downtime summary
 The **Downtime summary** page provides an overview of recorded production downtimes within a selected period. It helps identify the most common downtime reasons, evaluate their impact, and monitor performance across organization units and equipment.
 

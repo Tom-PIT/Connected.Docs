@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/QualityChecklists.md -->
+<!-- canonical_source_title: Quality — Execution checklists -->
+
 # Quality — Execution checklists
 
 The **Quality** page allows you to link **[checklists](Checklists.md)** to either a **process version** or an **operation**. These checklists are used to enforce quality-control steps during production.

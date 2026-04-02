@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/production -->
+<!-- app_label: Production -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Domain/ProductionDomain.md -->
+<!-- canonical_source_title: Production -->
+
 # Production
 
 The **Production** domain manages all processes related to manufacturing, shop-floor execution, and production analysis. It includes tools for planning and issuing production orders, executing operations, tracking consumption and production, and reviewing performance analytics.

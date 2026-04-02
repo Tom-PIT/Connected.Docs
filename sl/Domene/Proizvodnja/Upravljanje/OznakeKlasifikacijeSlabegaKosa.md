@@ -1,3 +1,8 @@
+<!-- app_route: /management/incompliant-production-tags -->
+<!-- app_label: Oznake klasifikacije slabega kosa -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeSlabegaKosa.md -->
+<!-- canonical_source_title: Oznake klasifikacije slabega kosa -->
+
 # Oznake klasifikacije slabega kosa
 
 Oznake klasifikacije slabega kosa se uporabljajo v proizvodnji za razvrščanje in beleženje različnih vrst izgub v proizvodnji – kot so neustrezni materiali, težave pri rokovanju ali kozmetične napake. Te oznake pomagajo pri prepoznavanju vzrokov izgub in podpirajo analizo izgub.

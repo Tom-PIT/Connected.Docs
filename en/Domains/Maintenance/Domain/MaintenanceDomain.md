@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/maintenance -->
+<!-- app_label: Maintenance -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Domain/MaintenanceDomain.md -->
+<!-- canonical_source_title: Maintenance -->
+
 # Maintenance
 
 The **Maintenance** domain provides a dedicated workspace to plan, execute, and analyze equipment maintenance. It centralizes how maintenance processes are defined, how orders are created and carried out, and how performance is measured for continuous improvement.

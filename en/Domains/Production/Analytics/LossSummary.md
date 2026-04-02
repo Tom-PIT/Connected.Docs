@@ -1,3 +1,8 @@
+<!-- app_route: /production/analytics/loss-summary -->
+<!-- app_label: Loss summary -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/LossSummary.md -->
+<!-- canonical_source_title: Loss summary -->
+
 # Loss summary
 
 The Loss summary page provides an overview of defective or unusable items recorded during production within a selected time period. It helps identify the most common loss types and evaluate their impact on production quality.

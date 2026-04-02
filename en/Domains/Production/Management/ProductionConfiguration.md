@@ -1,3 +1,8 @@
+<!-- app_route: /management/production/configuration -->
+<!-- app_label: Production configuration -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/ProductionConfiguration.md -->
+<!-- canonical_source_title: Production configuration -->
+
 # Production configuration
 
 Configure **Production** settings affecting document numbering. Any changes are saved automatically.

@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources -->
+<!-- app_label: Resources -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Resources.md -->
+<!-- canonical_source_title: Resources -->
+
 # Resources
 
 Resources are used to define and manage all **human** and **non-human** assets available across **Production** and **Maintenance**. These include workers, technicians, machines, workstations, tools, test equipment, and teams. Resources created here can later be assigned to **[operations](Operations.md)**, **[processes](Processes.md)**, and documents such as **[production orders](../Documents/ProductionOrders.md)** and **[maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md)**.

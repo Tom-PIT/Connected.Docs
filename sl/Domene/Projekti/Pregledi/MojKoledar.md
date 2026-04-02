@@ -1,3 +1,8 @@
+<!-- app_route: /projects/my-calendar -->
+<!-- app_label: Moj koledar -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Pregledi/MojKoledar.md -->
+<!-- canonical_source_title: Moj koledar -->
+
 # Moj koledar
 
 Pogled **Moj koledar** omogoča koledarski pregled vseh **[opravil, dodeljenih trenutnemu uporabniku](../Dokumenti/Opravila.md)**. Uporabnikom pomaga razumeti, *kdaj* je delo načrtovano in kako so opravila razporejena skozi čas.

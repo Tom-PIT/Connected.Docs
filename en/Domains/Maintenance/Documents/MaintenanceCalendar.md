@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders -->
+<!-- app_label: Maintenance calendar -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceCalendar.md -->
+<!-- canonical_source_title: Maintenance calendar -->
+
 # Maintenance calendar
 
 The **Maintenance calendar** provides a time-based overview of maintenance work. It allows users to plan, review, and navigate maintenance activities using a calendar layout.
