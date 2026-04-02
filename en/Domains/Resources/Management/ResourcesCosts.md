@@ -1,3 +1,8 @@
+<!-- app_route: /resources/resource-costs -->
+<!-- app_label: Resources costs -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/ResourcesCosts.md -->
+<!-- canonical_source_title: Resources costs -->
+
 # Resources costs
 
 Define **hourly cost rates for resources** (human and non-human). These costs are used to calculate production/operational costs and to evaluate the cost of performed work.

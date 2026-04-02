@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/destinations -->
+<!-- app_label: Relacije -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/Relacije.md -->
+<!-- canonical_source_title: Relacije -->
+
 # Relacije
 
 Relacije določajo **vnaprej definirane poti**, ki se uporabljajo pri ustvarjanju potnih nalogov.  

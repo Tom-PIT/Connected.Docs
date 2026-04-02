@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/offers -->
+<!-- app_label: Offers -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/Offers.md -->
+<!-- canonical_source_title: Offers -->
+
 # Offers
 
 An **Offer** is a sales document used to present a proposed price, quantity, and delivery terms to a customer before a sale is confirmed.  

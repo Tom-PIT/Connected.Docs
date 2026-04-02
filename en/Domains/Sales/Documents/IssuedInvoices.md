@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/issued-invoices -->
+<!-- app_label: Issued invoices -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/IssuedInvoices.md -->
+<!-- canonical_source_title: Issued invoices -->
+
 # Issued invoices
 
 **Issued invoices** are financial documents sent to customers so they can pay for confirmed sales. They summarize delivered goods or services, taxes, due dates, and chosen payment methods. From the **Issued invoices** page you can also record partial or full payments directly against each invoice.

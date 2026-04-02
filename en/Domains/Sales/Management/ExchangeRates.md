@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/exchange-rates -->
+<!-- app_label: Exchange rates -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/ExchangeRates.md -->
+<!-- canonical_source_title: Exchange rates -->
+
 # Exchange rates
 
 The **Exchange rates** code list defines currency conversion rates used across the system when working with documents in different currencies. These rates are primarily used in the **Sales** domain to convert amounts between a **base currency** and a **target currency** on a given date.

@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/reminder-categories -->
+<!-- app_label: Kategorije opomnikov -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/KategorijeOpomnikov.md -->
+<!-- canonical_source_title: Kategorije opomnikov -->
+
 # Kategorije opomnikov
 
 Kategorije opomnikov določajo **klasifikacijske oznake**, ki jih je mogoče dodeliti opomnikom v modulu [**Opomniki**](../Pregledi/Opomniki.md). Pomagajo organizirati opomnike glede na namen (na primer *Pregled proračuna* ali *Inšpekcija objekta*) in se ponovno uporabljajo v celotnem sistemu, kjer koli se opomniki ustvarjajo.

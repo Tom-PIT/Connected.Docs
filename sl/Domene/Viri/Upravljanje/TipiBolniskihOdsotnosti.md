@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/sick-leave-types -->
+<!-- app_label: Tipi bolniških odsotnosti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/TipiBolniskihOdsotnosti.md -->
+<!-- canonical_source_title: Tipi bolniških odsotnosti -->
+
 # Tipi bolniških odsotnosti
 
 Tipi bolniških odsotnosti določajo **razloge za bolniško odsotnost**, ki jih lahko zaposleni izberejo pri ustvarjanju vnosa bolniške odsotnosti. Omogočajo standardizirano poročanje o bolniških odsotnostih in zagotavljajo dosledno kategorizacijo v časovnih evidencah, spremljanju prisotnosti in upravljanju odsotnosti.

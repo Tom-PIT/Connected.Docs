@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/proforma-invoices -->
+<!-- app_label: Predračuni -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Predracuni.md -->
+<!-- canonical_source_title: Predračuni -->
+
 # Predračuni
 
 **Predračun** je informativni prodajni dokument, ki se uporablja za posredovanje podrobne cenovne ponudbe stranki, preden je blago ali storitev dobavljena.  

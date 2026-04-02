@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/sales -->
+<!-- app_label: Prodaja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Domena/Prodaja.md -->
+<!-- canonical_source_title: Prodaja -->
+
 # Prodaja
 
 Področje **Prodaja** vsebuje vse zapise in dokumente, potrebne za upravljanje komercialnih transakcij s strankami. Vključuje dokumente, kot so [**Ponudbe**](../Dokumenti/Ponudbe.md), [**Naročila strank**](../Dokumenti/NarocilaStrank.md), [**Dobavnice**](../Dokumenti/Dobavnice.md), [**Izdani računi**](../Dokumenti/IzdaniRacuni.md), ter analitične preglede, namenjene razumevanju prodajne uspešnosti in tokov dokumentov.

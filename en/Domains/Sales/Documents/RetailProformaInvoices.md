@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/retail-prepayments -->
+<!-- app_label: Retail proforma invoices -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/RetailProformaInvoices.md -->
+<!-- canonical_source_title: Retail proforma invoices -->
+
 # Retail proforma invoices
 
 A **Retail proforma invoice** is a sales document used in retail scenarios to record a sale in an invoice-like format while allowing flexible payment handling.  

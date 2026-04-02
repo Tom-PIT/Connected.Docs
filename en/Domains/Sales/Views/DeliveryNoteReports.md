@@ -1,3 +1,8 @@
+<!-- app_route: /sales/views/delivery-note-reports -->
+<!-- app_label: Delivery note reports -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Views/DeliveryNoteReports.md -->
+<!-- canonical_source_title: Delivery note reports -->
+
 # Delivery note reports
 
 The **Delivery note reports** view provides a consolidated overview of delivered items, grouped by customer. It is designed for analysis and reporting purposes and does **not** create or modify documents.

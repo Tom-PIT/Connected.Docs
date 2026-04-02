@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/external-code-sets -->
+<!-- app_label: External code sets -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/ExternalCodeSets.md -->
+<!-- canonical_source_title: External code sets -->
+
 # External code sets
 
 The **External code sets** screen defines configurable codes used to map internal data to **external systems, partners, or classifications**.  These codes are typically used when integrating with third-party ERP systems, logistics providers, customers, or industry-specific classifications.

@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/sales-orders -->
+<!-- app_label: Sales orders -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/SalesOrders.md -->
+<!-- canonical_source_title: Sales orders -->
+
 # Sales orders
 
 A **Sales order** represents the customer’s confirmed intention to purchase goods or services. It is typically created from an approved **Offer**, but it can also be created independently.  

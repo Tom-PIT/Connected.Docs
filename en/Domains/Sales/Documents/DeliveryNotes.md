@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/delivery-notes -->
+<!-- app_label: Delivery notes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/DeliveryNotes.md -->
+<!-- canonical_source_title: Delivery notes -->
+
 # Delivery notes
 
 A **Delivery note** is a logistics document that accompanies goods during delivery. It confirms what items are being dispatched, in what quantities, and on which date. Delivery notes are usually created from a **Sales order**, but can also be created independently when needed.

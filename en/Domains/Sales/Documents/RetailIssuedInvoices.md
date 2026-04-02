@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/retail-issued-invoices -->
+<!-- app_label: Retail issued invoices -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/RetailIssuedInvoices.md -->
+<!-- canonical_source_title: Retail issued invoices -->
+
 # Retail issued invoices
 
 A **Retail issued invoice** is a sales document used for direct, in-store sales to end customers. It is typically created when a customer purchases goods on the spot, without a preceding offer or sales order. Retail issued invoices support immediate or later payment tracking, but **do not affect stock levels**. Inventory changes must be handled separately through Logistics documents.

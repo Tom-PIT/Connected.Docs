@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/quality -->
+<!-- app_label: Kvaliteta -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Kvaliteta/Domena/Kvaliteta.md -->
+<!-- canonical_source_title: Kvaliteta -->
+
 # Kvaliteta
 
 Domena **Kvaliteta** zagotavlja osredotočen delovni prostor za vizualizacijo in upravljanje operativnih **kontrolnih listov**, ki se uporabljajo v proizvodnji in vzdrževanju. Združuje način definiranja kontrolnih listov (prek predlog), njihovo izvajanje s strani operaterjev ter pregled skladnosti in sledljivosti.

@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/payment-methods -->
+<!-- app_label: Način plačila -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/NacinPlacila.md -->
+<!-- canonical_source_title: Način plačila -->
+
 # Način plačila
 
 Šifrant **Način plačila** določa načine, s katerimi lahko stranke poravnajo plačilo za blago ali storitve – na primer kreditne kartice, spletna plačila ali druge podprte načine. Vsak način vključuje **šifro**, **naziv**, neobvezne **oznake** in naloženo **ikono**, ki predstavlja ponudnika plačila. Ti zapisi se uporabljajo povsod v sistemu, kjer je potrebno izbrati način plačila.

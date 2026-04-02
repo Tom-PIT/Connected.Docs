@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/organization-bank-accounts -->
+<!-- app_label: Bančni računi organizacije -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/BancniRacuniOrganizacije.md -->
+<!-- canonical_source_title: Bančni računi organizacije -->
+
 # Bančni računi organizacije
 
 Šifrant **Bančni računi organizacije** hrani IBAN račune, ki jih vaše podjetje uporablja za izdajanje računov, prejemanje plačil in druge finančne procese. Ta zaslon omogoča pregled, dodajanje, omogočanje ali onemogočanje IBAN računov, ki jih uporablja organizacija.  

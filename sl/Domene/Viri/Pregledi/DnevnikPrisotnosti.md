@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/resources.timeLogs -->
+<!-- app_label: Dnevnik prisotnosti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/DnevnikPrisotnosti.md -->
+<!-- canonical_source_title: Dnevnik prisotnosti -->
+
 # Dnevnik prisotnosti
 
 Razdelek **Dnevnik prisotnosti** omogoča dostop do vseh pogledov, povezanih s časom za vire.  

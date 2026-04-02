@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/availabilty-plans -->
+<!-- app_label: Plani razpoložljivosti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/PlaniRazpolozljivosti.md -->
+<!-- canonical_source_title: Plani razpoložljivosti -->
+
 # Plani razpoložljivosti
 
 **Plani razpoložljivosti** omogočajo koledarski pregled, kdaj so viri na voljo ali nedosegljivi za delo.  

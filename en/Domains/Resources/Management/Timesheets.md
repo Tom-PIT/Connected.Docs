@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/timesheets -->
+<!-- app_label: Timesheets -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/Timesheets.md -->
+<!-- canonical_source_title: Timesheets -->
+
 # Timesheets
 
 Timesheets define predefined work activity categories that can be used when recording time and effort across the system.

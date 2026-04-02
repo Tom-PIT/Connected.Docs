@@ -1,3 +1,8 @@
+<!-- app_route: /time-logs/view -->
+<!-- app_label: Dnevnik prisotnosti – Pregled -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiPregled.md -->
+<!-- canonical_source_title: Dnevnik prisotnosti – Pregled -->
+
 # Dnevnik prisotnosti – Pregled
 
 Zaslon **Dnevnik prisotnosti – Pregled** omogoča podroben pregled zabeleženega delovnega časa za izbranega zaposlenega in obdobje. Uporablja se za pregled dnevne prisotnosti, pregled posameznih časovnih vnosov ter ročno dodajanje ali popravljanje časovnih zapisov po potrebi.

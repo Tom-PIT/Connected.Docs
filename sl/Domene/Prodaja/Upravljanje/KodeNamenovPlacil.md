@@ -1,3 +1,8 @@
+<!-- app_route: /management/common-types/external-code-sets -->
+<!-- app_label: Kode namenov plačil -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/KodeNamenovPlacil.md -->
+<!-- canonical_source_title: Kode namenov plačil -->
+
 # Kode namenov plačil
 
 Zaslon **Kode namenov plačil** omogoča definiranje nastavljivih kod, ki se uporabljajo za preslikavo internih podatkov v **zunanje sisteme, partnerje ali klasifikacije**.  

@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/competence-matrix -->
+<!-- app_label: Competence matrixes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/CompetenceMatrixes.md -->
+<!-- canonical_source_title: Competence matrixes -->
+
 # Competence matrixes
 
 Competence matrixes are used to define, structure, and track employee competences across the organization. They allow you to model skills hierarchically, assign proficiency levels (layers), and link users to specific competences.

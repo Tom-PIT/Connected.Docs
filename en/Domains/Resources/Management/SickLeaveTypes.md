@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/sick-leave-types -->
+<!-- app_label: Sick leave types -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/SickLeaveTypes.md -->
+<!-- canonical_source_title: Sick leave types -->
+
 # Sick leave types
 
 Sick leave types define the **reasons for sickness absence** that employees can select when creating a sick leave entry. They standardize sick leave reporting and ensure consistent categorization across time logs, attendance tracking, and leave management.

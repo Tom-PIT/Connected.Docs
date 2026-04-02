@@ -1,3 +1,8 @@
+<!-- app_route: /time-logs/attendance -->
+<!-- app_label: Dnevnik prisotnosti – Prisotnost na delu -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiPrisotnostNaDelu.md -->
+<!-- canonical_source_title: Dnevnik prisotnosti – Prisotnost na delu -->
+
 # Dnevnik prisotnosti – Prisotnost na delu
 
 Pogled **Dnevnik prisotnosti – Prisotnost na delu** omogoča pregled **trenutnega stanja prisotnosti zaposlenih v realnem času**.  

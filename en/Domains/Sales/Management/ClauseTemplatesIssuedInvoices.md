@@ -1,3 +1,8 @@
+<!-- app_route: /management/sales/issued-invoice-clause-templates -->
+<!-- app_label: Clause templates for issued invoices -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/ClauseTemplatesIssuedInvoices.md -->
+<!-- canonical_source_title: Clause templates for issued invoices -->
+
 # Clause templates for issued invoices
 
 The **Clause templates for issued invoices** code list allows you to define clause sets (templates) that will appear on issued invoices for specific companies. A template contains one or more clauses—such as legal notes, payment terms, disclaimers, or billing conditions—which will be printed at the top or bottom of the invoice in a defined order.

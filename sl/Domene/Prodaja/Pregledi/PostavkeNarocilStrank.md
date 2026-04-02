@@ -1,3 +1,8 @@
+<!-- app_route: /sales/views/sales-order-details -->
+<!-- app_label: Postavke naročil strank -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/PostavkeNarocilStrank.md -->
+<!-- canonical_source_title: Postavke naročil strank -->
+
 # Postavke naročil strank
 
 Pogled **Postavke naročil strank** prikazuje agregiran seznam vseh **postavk** iz izhodnih dokumentov [**Naročila strank**](../Dokumenti/NarocilaStrank.md).  

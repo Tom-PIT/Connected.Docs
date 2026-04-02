@@ -1,3 +1,8 @@
+<!-- app_route: /resources/documents/travel-orders -->
+<!-- app_label: Potni nalogi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Dokumenti/PotniNalogi.md -->
+<!-- canonical_source_title: Potni nalogi -->
+
 # Potni nalogi
 
 Potni nalogi se uporabljajo za evidentiranje in upravljanje službenih poti zaposlenih. Združujejo kilometrino, dnevnice in druge stroške ter izračunajo skupni strošek poti.

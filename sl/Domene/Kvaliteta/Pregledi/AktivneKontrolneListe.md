@@ -1,3 +1,8 @@
+<!-- app_route: /quality/views/active-checklists -->
+<!-- app_label: Aktivne kontrolne liste -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Kvaliteta/Pregledi/AktivneKontrolneListe.md -->
+<!-- canonical_source_title: Aktivne kontrolne liste -->
+
 # Aktivne kontrolne liste
 
 Pogled **Aktivne kontrolne liste** prikazuje vsa izvajanja kontrolnih seznamov, ki so trenutno v teku. Operaterji ga uporabljajo za spremljanje in dokončanje tekočih nalog kakovosti ali vzdrževanja. Ko je kontrolni seznam zaključen, se v tem pogledu ne prikazuje več in se premakne v pogled Zaključene kontrolne liste.

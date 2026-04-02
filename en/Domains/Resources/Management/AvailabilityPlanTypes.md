@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/worksheet-types -->
+<!-- app_label: Availability plan types -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/AvailabilityPlanTypes.md -->
+<!-- canonical_source_title: Availability plan types -->
+
 # Availability plan types
 
 Availability plan types define the **categories of availability and absence** that can be assigned to resources. They are used as a foundation for [availability plans](../Views/AvailabilityPlans.md).

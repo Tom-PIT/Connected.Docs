@@ -1,3 +1,8 @@
+<!-- app_route: /management/sales/configuration -->
+<!-- app_label: Konfiguracija prodaje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/KonfiguracijaProdaje.md -->
+<!-- canonical_source_title: Konfiguracija prodaje -->
+
 # Konfiguracija prodaje
 
 Konfiguracija **Prodaje** omogoča nastavitev pravil, ki vplivajo na številčenje prodajnih dokumentov. Vse spremembe se shranjujejo samodejno.

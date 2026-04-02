@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/travel-order-reasons -->
+<!-- app_label: Razlogi za potovanje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/RazlogiZaPotovanje.md -->
+<!-- canonical_source_title: Razlogi za potovanje -->
+
 # Razlogi za potovanje
 
 Razlogi za potovanje določajo možne **namene službenih poti**. Uporabljajo se pri ustvarjanju [potnih nalogov](../Dokumenti/PotniNalogi.md) in omogočajo izbiro vnaprej definiranega razloga namesto prostega vnosa besedila.

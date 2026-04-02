@@ -1,3 +1,8 @@
+<!-- app_route: /resources/resource -->
+<!-- app_label: Resource view -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/ResourceView.md -->
+<!-- canonical_source_title: Resource view -->
+
 # Resource view
 
 The **Resource view** provides a **chronological timeline of effort recorded in the system** for the **currently logged-in user**.

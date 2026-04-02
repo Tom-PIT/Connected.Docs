@@ -1,3 +1,8 @@
+<!-- app_route: /management/sales/delivery-note-clause-templates -->
+<!-- app_label: Clause templates for delivery notes -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/ClauseTemplatesDeliveryNotes.md -->
+<!-- canonical_source_title: Clause templates for delivery notes -->
+
 # Clause templates for delivery notes
 
 The **Clause templates for delivery notes** code list allows you to define clause sets (templates) that will appear on delivery notes for specific companies. A template contains one or more clauses—such as legal notes, disclaimers, or delivery confirmations—which will be printed at the top or bottom of the delivery note in a defined order. 

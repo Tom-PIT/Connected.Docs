@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/proforma-invoices -->
+<!-- app_label: Proforma invoices -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/ProformaInvoices.md -->
+<!-- canonical_source_title: Proforma invoices -->
+
 # Proforma invoices
 
 A **Proforma invoice** is a preliminary billing document used to provide customers with a detailed price quotation before goods or services are delivered. It does **not** trigger accounting or inventory changes, but it serves as a confirmed commercial offer.  

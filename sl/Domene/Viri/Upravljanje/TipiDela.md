@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/effort-types -->
+<!-- app_label: Tipi dela -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/TipiDela.md -->
+<!-- canonical_source_title: Tipi dela -->
+
 # Tipi dela
 
 Tipi dela določajo **kategorije dela**, ki jih je mogoče izbrati pri beleženju napora na opravilih, proizvodnih izvedbah ali vzdrževalnih aktivnostih. Pomagajo standardizirati poročanje časa in izboljšujejo kasnejšo analizo porabe časa.

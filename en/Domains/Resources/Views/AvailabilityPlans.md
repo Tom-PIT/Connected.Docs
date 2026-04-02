@@ -1,3 +1,8 @@
+<!-- app_route: /management/resources/availabilty-plans -->
+<!-- app_label: Availability plans -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/AvailabilityPlans.md -->
+<!-- canonical_source_title: Availability plans -->
+
 # Availability plans
 
 Availability plans provide a calendar-based overview of when resources are available or unavailable for work. They are typically used to record planned absences, training, or other non-working periods that affect resource availability.

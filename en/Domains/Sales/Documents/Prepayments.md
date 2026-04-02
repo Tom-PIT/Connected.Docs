@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/prepayments -->
+<!-- app_label: Prepayments -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/Prepayments.md -->
+<!-- canonical_source_title: Prepayments -->
+
 # Prepayments
 
 A **Prepayment** is a sales document used when a customer pays an agreed amount in advance before goods or services are delivered. It records received funds that can later be fully or partially applied to [issued invoices](IssuedInvoices.md). Prepayments can be created manually or directly from a committed [**Proforma invoice**](ProformaInvoices.md), linking them to the sales process.

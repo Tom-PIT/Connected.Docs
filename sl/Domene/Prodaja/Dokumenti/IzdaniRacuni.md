@@ -1,3 +1,8 @@
+<!-- app_route: /sales/documents/issued-invoices -->
+<!-- app_label: Izdani računi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/IzdaniRacuni.md -->
+<!-- canonical_source_title: Izdani računi -->
+
 # Izdani računi
 
 **Izdani računi** so finančni dokumenti, poslani strankam za plačilo potrjenih prodaj. Povzemajo dobavljeno blago ali storitve, davke, roke plačila in izbrane načine plačila. Na strani **Izdani računi** lahko evidentirate tudi delna ali celotna plačila neposredno na posameznem računu.
