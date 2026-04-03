@@ -5,16 +5,7 @@
 
 # Dnevnik prisotnosti – Upravljaj
 
-Pogled **Dnevnik prisotnosti – Upravljaj** je namenjen **sprotnemu beleženju prisotnosti in dnevnemu evidentiranju časa**.  
-Zaposlenim omogoča beleženje začetka in konca dela, odmorov, službenih poti, zasebnega časa ter hiter dostop do odsotnosti in potnih nalogov.
-
-Za dostop do pogleda **Dnevnik prisotnosti – Upravljaj** pojdite na **Viri / Dnevnik prisotnosti / Upravljaj** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
-
-![Dnevnik prisotnosti – upravljaj](../Images/TimeLogsManageSL.png "Dnevnik prisotnosti – upravljaj")
-
-## Namen pogleda
-
-Ta pogled je primarno namenjen **dnevnim prijavam in odjavam** ter sprotnemu spremljanju delovnega časa.
+Pogled **Dnevnik prisotnosti – Upravljaj** je namenjen **sprotnemu beleženju prisotnosti in dnevnemu evidentiranju časa**. Zaposlenim omogoča beleženje začetka in konca dela, odmorov, službenih poti, zasebnega časa ter hiter dostop do odsotnosti in potnih nalogov.
 
 Tipični primeri uporabe vključujejo:
 
@@ -22,36 +13,11 @@ Tipični primeri uporabe vključujejo:
 - evidentiranje odmora (npr. malica),
 - beleženje službenih poti in zasebnega časa,
 - hiter pregled današnje prisotnosti,
-- hiter dostop do dejanj, povezanih z odsotnostmi (dopust, bolniška odsotnost) in potnimi nalogi.
+- hiter dostop do dejanj, povezanih z odsotnostmi ([dopust](#dopust), [bolniška odsotnost](#bolniška-odsotnost)) in [potnimi nalogi](#potni-nalogi).
 
-## Tipičen potek na lokaciji (čitalec kartic)
+Za dostop do pogleda **Dnevnik prisotnosti – Upravljaj** pojdite na **Viri / Dnevnik prisotnosti / Upravljaj** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
-V številnih okoljih se ta pogled uporablja skupaj s **fizičnim čitalcem kartic** (na primer ob vhodu v objekt).
-
-Tipičen potek je naslednji:
-
-1. Zaposleni **prisloni kartico** ob prihodu na delo.  
-2. Sistem zabeleži **začetek delovnega dne**.  
-3. Ob ponovnem pristopu kartice se prikažejo **gumbi za beleženje časa**.  
-4. Zaposleni izbere dejanje (na primer **Malica**).  
-5. Po koncu malice ponovno prisloni kartico, kar zaključi malico in nadaljuje **Delo**.  
-6. Ob koncu dneva zaposleni prisloni kartico in izbere **Odjava**, s čimer zaključi delovni dan.
-
-V tem primeru zaposleni **ne uporablja neposredno uporabniškega vmesnika**, vendar so vsa dejanja vidna tudi v pogledu **Dnevnik prisotnosti – Upravljaj**.
-
-## Oddaljena ali računalniška uporaba
-
-V drugih okoljih (na primer **delo na daljavo** ali pisarniško delo) se ista dejanja izvajajo neposredno prek računalnika.
-
-V tem primeru zaposleni:
-
-- odpre pogled **Dnevnik prisotnosti – Upravljaj**,
-- uporabi razpoložljive gumbe za:
-  - začetek dela,
-  - beleženje malice ali zasebnega časa,
-  - zaključek delovnega dne.
-
-S tem je zagotovljena enaka logika beleženja prisotnosti ne glede na lokacijo dela.
+![Dnevnik prisotnosti – upravljaj](../Images/TimeLogsManageSL.png "Dnevnik prisotnosti – upravljaj")
 
 > [!NOTE]
 > Dejanja beleženja časa morda niso na voljo vsem uporabnikom prek računalnika.  
@@ -117,27 +83,86 @@ Izbira akcije takoj posodobi status uporabnika in zabeleži ustrezen časovni vn
 
 ## Dejanja za dopust in odsotnosti
 
-Iz tega pogleda imajo uporabniki tudi neposreden dostop do dejanj, povezanih z odsotnostmi in potovanji.
+Iz tega pogleda imajo uporabniki dostop do dejanj, povezanih z odsotnostmi in potovanji. Ta dejanja omogočajo upravljanje prisotnosti, odsotnosti in potovanj neposredno iz konteksta beleženja časa.
 
-Klik na dejanje, povezano z odsotnostjo (na primer **Dopust** ali **Bolniška odsotnost**), odpre pogovorno okno za vnos odsotnosti.
+![Time Logs Manage Leave Travel Actions](../Images/TimeLogsManageLeaveTravelActionsSL.png "Dejanja za dopust in potovanja")
+
+Na voljo so naslednja dejanja:
+- **Pregled**
+- **Dopust**
+- **Bolniška odsotnost**
+- **Potni nalogi**
+
+### Pregled
+
+Klik na **[Pregled](DnevnikPrisotnostiPregled.md)** odpre podroben pregled časovnih vnosov za izbrano obdobje.
+
+### Dopust
+
+Klik na **Dopust** odpre pogovorno okno za oddajo zahtevka za odsotnost.
 
 ![Pogovorno okno za dopust](../Images/TimeLogsManageLeaveSL.png "Dodaj dopust")
 
-V tem pogovornem oknu lahko uporabnik:
+Za oddajo zahtevka za dopust:
 
-- izbere datuma **Od** in **Do**,
-- doda neobvezen **Komentar**,
-- izbere **Tip odsotnosti** (pri bolniški odsotnosti),
-- potrdi vnos.
+1. Kliknite **Dopust**
+2. V dialogu:
+	- izberite datuma **Od** in **Do**  
+	- dodajte neobvezen **Komentar**  
+3. Kliknite **Dodaj**, da oddate zahtevek
 
-Zabeležene odsotnosti se samodejno prikažejo v dnevniku prisotnosti in povzetkih.
+Zahtevek se nato obdela v skladu s postopkom odobritve v organizaciji (na primer zahteva odobritev nadrejenega).
 
-Klik na **Potni nalogi** odpre dokumente za urejanje službenih poti:
+> [!NOTE]
+> Zgodovina zahtevkov in njihov status je običajno na voljo v istem pogovornem oknu.
 
-- **[Potni nalogi](../Dokumenti/PotniNalogi.md)**
+### Bolniška odsotnost
 
-Klik na **Pregled** odpre podroben pregled časovnih vnosov za izbrano obdobje:
+Klik na **Bolniška odsotnost** odpre podobno pogovorno okno za vnos bolniške.
 
-- **[Dnevnik prisotnosti – Pregled](DnevnikPrisotnostiPregled.md)**
+![Time Logs Manage Sick Leave](../Images/TimeLogsManageSickLeaveSL.png)
 
-Ta dejanja omogočajo upravljanje prisotnosti, odsotnosti in potovanj neposredno iz konteksta beleženja časa.
+Za oddajo zahtevka za bolniško odsotnost:
+
+1. Kliknite **Bolniška odsotnost**
+2. V tem pogovornem oknu lahko uporabnik izvede podobna dejanja kot pri dopustu, z dodatno možnostjo izbire razloga za bolniško odsotnost (če je to omogočeno).
+3. Kliknite **Dodaj**, da oddate zahtevek.
+
+Zabeležene odsotnosti se prikažejo v dnevniku prisotnosti in povzetkih.
+
+### Potni nalogi
+
+Klik na **Potni nalogi** odpre zaslon **[Potni nalogi](../Dokumenti/PotniNalogi.md)**, kjer se upravljajo službene poti.
+
+## Tipični poteki uporabe
+
+Spodnji primeri prikazujejo, kako se beleženje časa običajno izvaja v različnih okoljih.
+
+### Čitalec kartic
+
+V številnih okoljih se ta pogled uporablja skupaj s **fizičnim čitalcem kartic** (na primer ob vhodu v objekt).
+
+Tipičen potek je naslednji:
+
+1. Zaposleni **prisloni kartico** ob prihodu na delo  
+2. Sistem zabeleži **začetek delovnega dne**  
+3. Ob ponovnem pristopu kartice se prikažejo **gumbi za beleženje časa**  
+4. Zaposleni izbere dejanje (na primer **Malica**)  
+5. Po koncu malice ponovno prisloni kartico, kar zaključi malico in nadaljuje **Delo**  
+6. Ob koncu dneva zaposleni prisloni kartico in izbere **Odjava**, s čimer zaključi delovni dan  
+
+V tem primeru zaposleni **ne uporablja neposredno uporabniškega vmesnika**, vendar so vsa dejanja vidna tudi v pogledu **Dnevnik prisotnosti – Upravljaj**.
+
+### Računalniška ali oddaljena uporaba
+
+V drugih okoljih (na primer **delo na daljavo** ali pisarniško delo) se ista dejanja izvajajo neposredno prek računalnika.
+
+V tem primeru zaposleni:
+
+- odpre pogled **Dnevnik prisotnosti – Upravljaj**
+- uporabi razpoložljive gumbe za:
+  - začetek dela
+  - beleženje malice ali zasebnega časa
+  - zaključek delovnega dne
+
+S tem je zagotovljena enaka logika beleženja prisotnosti ne glede na lokacijo dela.
