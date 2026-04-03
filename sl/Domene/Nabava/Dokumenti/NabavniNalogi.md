@@ -115,7 +115,7 @@ V drugem primeru se večina polj (dobavitelj, podatki o dostavi, postavke) samod
 
 Postopek:
 
-1. Kliknite **+** za ustvarjanje novega nabavnega naloga.  
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega nabavnega naloga.  
 2. Vnesite ali preverite **Dobavitelja**, **Datum dokumenta** in **Datum dobave**.
 
    ![Nov nabavni nalog](../Images/SupplyOrderNew.png "Nov nabavni nalog")
