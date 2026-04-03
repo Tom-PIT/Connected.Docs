@@ -1,7 +1,13 @@
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/UI/SifreDokumentov.md -->
+<!-- canonical_source_title: Šifre dokumentov -->
+
 # Šifre dokumentov
 
 Vsak dokument v sistemu prejme samodejno ustvarjeno **šifro dokumenta**.  
 Ta šifra enolično identificira dokument in sledi enotni strukturi v vseh modulih.
+
+> [!NOTE]
+> Oblika šifer dokumentov je nastavljiva v **Upravljanje / Konfiguracija** za posamezne dokumente v vsaki domeni.
 
 Šifre dokumentov se uporabljajo za:
 

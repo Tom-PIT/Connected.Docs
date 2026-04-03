@@ -1,7 +1,13 @@
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/UI/DocumentCodes.md -->
+<!-- canonical_source_title: Document codes -->
+
 # Document codes
 
 Each document in the system receives an automatically generated **document code**.  
 This code uniquely identifies the document and follows a consistent structure across all modules.
+
+> [!NOTE]
+> The format of document codes can be configured in **Management / Configuration** for the specific documents of each domain.
 
 Document codes help with:
 
@@ -17,7 +23,6 @@ All document codes follow the same format:
 ```
 PREFIX-YEAR-SEQUENCE
 ```
-
 
 Where:
 

@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap -->
+<!-- app_label: Zemljevid strani -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/UI/AkcijskiGumb.md -->
+<!-- canonical_source_title: Akcijski gumb -->
+
 # Akcijski gumb
 
 **Akcijski gumb** se prikaže kot okrogla modra ikona **+** v spodnjem desnem kotu seznamskih strani.  
