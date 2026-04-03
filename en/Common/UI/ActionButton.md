@@ -1,4 +1,9 @@
-﻿# Action button
+<!-- app_route: /sitemap -->
+<!-- app_label: Sitemap -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/UI/ActionButton.md -->
+<!-- canonical_source_title: Action button -->
+
+# Action button
 
 The **Action button** appears as a round blue **+** icon in the bottom-right corner of list pages.  
 Its primary purpose is to create new records within the module you are viewing.

@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap -->
+<!-- app_label: Sitemap -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/UI/Navigation.md -->
+<!-- canonical_source_title: Navigation -->
+
 # Navigation
 
 The platform is organized so you can easily find documents, views, and configuration areas based on your daily work. Navigation happens mainly through the **Sitemap**, breadcrumbs, and quick access buttons.

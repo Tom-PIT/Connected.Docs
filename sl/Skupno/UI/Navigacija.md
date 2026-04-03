@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap -->
+<!-- app_label: Zemljevid strani -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/UI/Navigacija.md -->
+<!-- canonical_source_title: Navigacija -->
+
 # Navigacija
 
 Platforma je organizirana tako, da omogoča enostavno iskanje dokumentov, pogledov in konfiguracijskih področij glede na vsakodnevno delo. Navigacija poteka predvsem prek **zemljevida strani**, drobtinic in gumbov za hitri dostop.
