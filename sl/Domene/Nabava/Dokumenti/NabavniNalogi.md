@@ -32,7 +32,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator nabavnega naloga. |
 | **Dobavitelj** | Dobavitelj materialov ali storitev, izbran iz **[Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md)**. |
 | **Datum dokumenta** | Datum nastanka nabavnega naloga. |
-| **Datum opravljene storitve** | Načrtovani datum dobave zahtevanih materialov (obvezno). |
+| **Datum dobave** | Načrtovani datum dobave zahtevanih materialov (obvezno). |
 | **Rabat** | Neobvezni popust, uporabljen za celoten nabavni nalog. Če je določena davčna stopnja **0 %**, se samodejno uporabi pri naročilu pri dobavitelju s sedežem zunaj matične države. |
 | [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Interno stroškovno mesto, povezano z nabavo. Če je določena davčna stopnja **0 %**, se samodejno uporabi pri naročilu pri dobavitelju s sedežem zunaj matične države. |
 | **Šifra ponudbe** | Neobvezna referenca na ponudbo dobavitelja ali zunanji dokument. |
@@ -116,7 +116,7 @@ V drugem primeru se večina polj (dobavitelj, podatki o dostavi, postavke) samod
 Postopek:
 
 1. Kliknite **+** za ustvarjanje novega nabavnega naloga.  
-2. Vnesite ali preverite **Dobavitelja**, **Datum dokumenta** in **Datum opravljene storitve**.
+2. Vnesite ali preverite **Dobavitelja**, **Datum dokumenta** in **Datum dobave**.
 
    ![Nov nabavni nalog](../Images/SupplyOrderNew.png "Nov nabavni nalog")
 
