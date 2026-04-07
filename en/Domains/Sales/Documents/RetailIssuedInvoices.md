@@ -123,6 +123,14 @@ When the full amount is paid, the invoice moves to **Fully paid invoices**. The 
    
 ![Fully paid retail invoice](../Images/RetailInvoiceFullyPaid.png "Fully paid retail invoice")
 
+#### List menu
+
+On the list view, the menu in the top-right corner provides additional options:
+
+- **Exporting** – Export to CSV. There are two report options:
+    - **Documents** – Exports all the list of invoices on the list.
+    - **Details** – Exports all line item details for all invoices on the list.
+
 ## Actions
 
 ### Creating a new retail issued invoice
