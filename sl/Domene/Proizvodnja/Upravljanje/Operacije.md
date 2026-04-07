@@ -46,9 +46,10 @@ Seznam prikazuje vse operacije, definirane znotraj izbrane verzije procesa. Vsak
   - **[Človeški viri](CloveskiViri.md)** – delavci ali delovna mesta  
   - **[Stvarni viri](StvarniViri.md)** – stroji ali oprema  
   - **[Izhodi](Izhodi.md)** – materiali ali elementi, ki nastanejo v operaciji  
+  - **[Stroški](StroskiOperacije.md)** – stroški, povezani z operacijo  
   - **[Kvaliteta](KvalitetaKontrolneListe.md)** – dodeljene kontrolne liste in zahteve kakovosti  
 
-![Seznam operacij](../Images/OperationsList.png "Seznam operacij")
+![Seznam operacij](../Images/OperationsListV2.png "Seznam operacij")
 
 Uporabite polje **Iskanje** za filtriranje operacij po nazivu ali šifri.
 
@@ -97,7 +98,7 @@ Vsaka operacija vsebuje več podstrani, vsaka s svojim seznamom in zasloni. Ti s
 
 Do njih dostopate iz vnosa operacije:
 
-![Gumbi podrobnosti operacije](../Images/ProcessesOperationsListDetail.png "Gumbi podrobnosti operacije")
+![Gumbi podrobnosti operacije](../Images/ProcessesOperationsListDetailV2.png "Gumbi podrobnosti operacije")
 
 ## Brisanje
 

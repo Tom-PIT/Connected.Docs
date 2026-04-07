@@ -46,9 +46,10 @@ The list displays all operations defined inside the selected process version. Ea
 - **[Human resources](HumanResources.md)** – Workers or job positions required  
 - **[Non-human resources](NonHumanResources.md)** – Machines or equipment  
 - **[Outputs](Outputs.md)** – Materials or items produced by the operation  
+- **[Expenses](OperationExpenses.md)** – Costs associated with the operation
 - **[Quality](QualityChecklists.md)** – Assigned checklists and quality requirements
 
-![Operations list](../Images/OperationsList.png "Operations list")
+![Operations list](../Images/OperationsListV2.png "Operations list")
 
 Use the **Search** field to filter operations by name or code.
 
@@ -93,11 +94,12 @@ Each operation contains several sub-pages, each with its own list and screens. T
 - **[Human resources](HumanResources.md)** 
 - **[Non-human resources](NonHumanResources.md)**
 - **[Outputs](Outputs.md)** 
+- **[Expenses](Expenses.md)**
 - **[Quality](QualityChecklists.md)**
 
 You can access these from the operation entry:
 
-![Operation detail buttons](../Images/ProcessesOperationsListDetail.png "Operation detail buttons")
+![Operation detail buttons](../Images/ProcessesOperationsListDetailV2.png "Operation detail buttons")
 
 ## Deletion
 
