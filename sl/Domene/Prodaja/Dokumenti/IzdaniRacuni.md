@@ -149,6 +149,14 @@ Kazalniki se posodabljajo glede na izbrane filtre:
 
 Za hitro iskanje uporabite polje **Iskanje**.
 
+#### Meni seznama
+
+V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
+
+- **Izvoz** – Izvozi v CSV. Na voljo sta dve možnosti poročila:
+    - **Dokument** – Izvozi celoten seznam računov na seznamu.
+    - **Postavke** – Izvozi vse podrobnosti postavk za vse račune na seznamu.
+
 ## Dejanja
 
 ### Ustvarjanje novega izdanega računa

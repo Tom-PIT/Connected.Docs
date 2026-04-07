@@ -150,6 +150,14 @@ These indicators update based on the filters on the left:
 
 Use the **Search** bar to quickly find invoices by code, customer, or other visible values.
 
+#### List menu
+
+On the list view, the menu in the top-right corner provides additional options:
+
+- **Exporting** – Export to CSV. There are two report options:
+    - **Documents** – Exports all the list of invoices on the list.
+    - **Details** – Exports all line item details for all invoices on the list.
+
 ## Actions
 
 ### Creating a new issued invoice
@@ -323,7 +331,7 @@ For published invoices, the menu in the top-right corner provides additional opt
 Available actions include:
 
 - **Printing** – Print the invoice using configured printouts.  
-- **Exporting** – Export to PDF or other available formats.  
+- **Exporting** – Export the invoice to PDF.
 - **Send as email** – Email the invoice directly to the customer.  
 - **Delete all details** (only for drafts)
 - **[Reverse document](../../Logistics/Documents/Reversals.md)** – Create a reversal invoice for corrections.  
