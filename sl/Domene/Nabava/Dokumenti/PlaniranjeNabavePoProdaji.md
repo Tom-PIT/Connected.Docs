@@ -6,7 +6,7 @@
 # Planiranje nabave po prodaji
 
 Pogled **Planiranje nabave po prodaji** omogoča načrtovanje nabav na podlagi **prodajnega povpraševanja**.  
-Uporablja enak delovni tok kot **[Planiranje nabave po mejah zaloge](PlaniranjeNabavePoMejahZaloge.md)**, hkrati pa vključuje podatke o **prodanih količinah**, ki pomagajo pri določanju prioritet obnove zaloge glede na nedavno prodajno aktivnost.
+Uporablja enak delovni tok kot **[Planiranje nabave po mejah zaloge](PlaniranjeNabavePoMejahZaloge.md)**, hkrati pa vključuje podatke o **prodanih količinah**, ki pomagajo pri določanju prioritet obnove zaloge glede na nedavno prodajno aktivnost (ne glede na stanje).
 
 Pogled je namenjen operativnemu delu in omogoča neposredno ustvarjanje **[nabavnih nalogov](NabavniNalogi.md)** ter **[povpraševanj](Povprasevanja.md)**.
 
@@ -25,15 +25,16 @@ Prikazani so podatki, kot so:
 - **Naročeno / planirano** – količine, ki so že pokrite z obstoječimi nabavnimi dokumenti
 - **Količina za naročilo** – predlagana količina za nabavo
 
-![Seznam materialov](../Images/SupplyStockBoundariesPlanningBySalesListSL.png)
+![Seznam materialov](../Images/SupplyStockBoundariesPlanningBySalesListV2SL.png)
 
 ## Filtri
 
 Levi stranski panel omogoča omejevanje prikaza materialov glede na izbrane kriterije:
 
-- **Dobavitelj**
-- **Oznake materialov**
-- **Časovno obdobje prodaje** – obdobje, uporabljeno za izračun prodanih količin
+- **Rok dobave**
+- **Naročilo stranke**
+- **Oznaka materiala**
+- **Dobavitelj** - 
 
 Filtri vplivajo samo na prikaz seznama in ne spreminjajo izračunov mej zaloge.
 
