@@ -48,8 +48,9 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**nav
 | [**Konto**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md) | Konto glavne knjige, uporabljen za knjiženja, ki nastanejo iz tega stroška. |
 | **Tip davka** | Razvrstitev davčne obravnave stroška (npr. Zaloga, Standardni strošek, Nepremičnine). |
 | **Tip sredstva** | Narava nabave za poročanje (npr. Blago, Storitve). |
-| **Odbij davek** | Označuje, ali je vstopni davek za ta strošek odbiten (potrditveno polje). |
-| **Samoobdavčitev** | Označuje, ali se uporablja mehanizem obrnjene davčne obveznosti/samodobavitev (potrditveno polje). |
+| **Odbij davek** | Označuje, ali je vstopni davek za ta strošek odbiten. |
+| **Samoobdavčitev** | Označuje, ali se uporablja mehanizem obrnjene davčne obveznosti/samodobavitev. |
+| **Upoštevaj za finančno zalogo** | Strošek se zabeleži, vendar se ne vključi v finančno vrednost zaloge ob obdelavi prejetega računa. |
 
 </details>
 
@@ -104,6 +105,13 @@ Po vnosu podatkov kliknite **Dodaj**, da shranite zapis, ali **Prekliči**, da s
 
 V tem razdelku strošek dodelimo ustreznemu kontu glavne knjige. Oglejte si [**Konti**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md).
 
+Možnosti v tem razdelku določajo, kako se strošek obravnava pri finančnih knjiženjih in poročanju. Vključujejo:
+
+- **Odbij davka**
+- **Samoobdavčitev**
+- **Upoštevaj za finančno zalogo**
+
+Te nastavitve je mogoče po potrebi spremeniti tudi na prejetem računu.
 
 ## Urejanje
 

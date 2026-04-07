@@ -47,8 +47,9 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 | [**Account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Ledger account used for postings generated from this expense. |
 | **Tax entry type** | Tax handling classification for the expense (e.g., Stock, Standard expense, Real estate). |
 | **Asset type** | Nature of the purchase used for reporting (e.g., Goods, Services). |
-| **Deduct tax** | Indicates whether input tax is deductible for this expense (checkbox). |
-| **Self taxing** | Indicates whether reverse charge/self-taxing applies (checkbox). |
+| **Deduct tax** | Indicates whether input tax is deductible for this expense. |
+| **Self taxing** | Indicates whether reverse charge/self-taxing applies. |
+| **Ignore for financial stock** | The expense is recorded but not included in the financial value of stock when processing invoices. |
 
 </details>
 
@@ -105,6 +106,13 @@ After entering the information, click **Add** to save the record or **Cancel** t
 #### Ledger
 
 In this section we assign the expense to the appropriate ledger account. See [**Chart of Accounts**](../../Accounting/Management/Ledger/ChartOfAccounts.md).
+
+The options available in this section determine how the expense is handled in financial postings and reporting. They include:
+- **Deduct tax**
+- **Self taxing**
+- **Ignore for financial stock**
+
+These can later be reset on the received invoice if needed.
 
 ## Editing
 
