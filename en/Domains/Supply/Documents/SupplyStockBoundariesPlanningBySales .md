@@ -5,7 +5,7 @@
 
 # Supply stock boundaries planning by sales
 
-The **Supply stock boundaries planning by sales** view supports purchase planning based on **sales-driven demand**. It uses the same planning logic and workflow as [**Supply stock boundaries planning**](SupplyStockBoundariesPlanning.md), but adds **sold quantity analysis** to help prioritize replenishment based on recent sales activity.
+The **Supply stock boundaries planning by sales** view supports purchase planning based on **sales-driven demand**. It uses the same planning logic and workflow as [**Supply stock boundaries planning**](SupplyStockBoundariesPlanning.md), but adds **sold quantity analysis** to help prioritize replenishment based on recent sales activity (regardless of status).
 
 This view is **actionable** and allows you to create [**Supply orders**](SupplyOrders.md) and [**Inquiries**](Inquiries.md) directly, while relying on sales data to provide additional context for planning decisions.
 
@@ -24,15 +24,16 @@ Typical columns include:
 * **Ordered / Planned** – Quantities already covered by existing supply documents
 * **Order quantity** – Suggested quantity to order
 
-![Supply stock boundaries planning by sales list](../Images/SupplyStockBoundariesPlanningBySalesList.png)
+![Supply stock boundaries planning by sales list](../Images/SupplyStockBoundariesPlanningBySalesListV2.png)
 
 ## Filters
 
 The left sidebar allows you to refine the planning view using:
 
-* **Supplier**
+* **Delivery date**
+* **Sales order**
 * **Material tags**
-* **Date range of sold quantities** – Defines the sales period used to calculate sold quantities
+* **Supplier**  
 
 Only materials matching both the filters and planning conditions are displayed.
 
