@@ -1,5 +1,6 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
+<!-- app_navigation_hint: Open a process, select a version, click Operations, then open Outputs for the relevant operation. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Outputs.md -->
 <!-- canonical_source_title: Outputs -->
 

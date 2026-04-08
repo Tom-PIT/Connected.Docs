@@ -1,5 +1,6 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
+<!-- app_navigation_hint: Odpri proces, izberi verzijo, klikni Operacije, nato pri ustrezni operaciji odpri Izhodi. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Izhodi.md -->
 <!-- canonical_source_title: Izhodi -->
 
