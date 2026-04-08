@@ -28,6 +28,8 @@ Use the filters on the left side to refine the view:
 - **Date** – select the desired time period  
 - **Type** – filter by planning type (e.g. production timeline)
 
+The **Today** button quickly navigates back to the current date.
+
 ## Calendar views
 
 The calendar can be displayed in different modes:
