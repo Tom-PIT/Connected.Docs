@@ -28,6 +28,8 @@ Za filtriranje prikaza uporabite filtre na levi strani:
 - **Datum** – izbira želenega časovnega obdobja  
 - **Tip** – filtriranje po tipu planiranja (npr. časovnica proizvodnje)
 
+Gumb **Danes** omogoča hitro vrnitev na trenutni datum.
+
 ## Pogledi koledarja
 
 Koledar lahko prikažete v različnih načinih:
