@@ -89,12 +89,13 @@ Določa obnašanje proizvodnega naloga:
 
 #### **Datumi**
 
-Po želji določite časovne podatke:
-- **Datum roka**
-- **Planiran datum začetka**
-- **Planiran datum konca**
+Določite podatke za razporejanje za potrebe [planiranja](../../Planiranje/Pregledi/Planiranje.md) (neobvezno):
 
-Kliknite **Zaključi**, da ustvarite proizvodni nalog v stanju **Osnutek**.
+- **Rok izdelave** – datum, do katerega mora biti proizvodnja zaključena.  
+- **Planiran začetek** – kdaj naj bi se proizvodnja začela.  
+- **Planiran konec** – kdaj naj bi se proizvodnja zaključila; izpolni se samodejno glede na izbran [proces](../Management/Processes.md) in njegove časovne nastavitve.  
+
+Kliknite **Zaključi**, da ustvarite proizvodni nalog v statusu **Osnutek**.
 
 ## Osnutki proizvodnih nalogov
 

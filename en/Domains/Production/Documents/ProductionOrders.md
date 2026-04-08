@@ -91,10 +91,10 @@ If total quantity = **6 pieces**
 
 #### **Dates**
 
-Specify scheduling details (optional):
-- **Deadline date**
-- **Planned start date**
-- **Planned end date**
+Specify scheduling details for [planning](../../Planning/Views/Planning.md) purposes (optional):
+- **Deadline date** - the date by which production should be completed.
+- **Planned start date** - when production is scheduled to begin.
+- **Planned end date** - when production is scheduled to end, filled automatically based on the selected [process](../Management/Processes.md) and its timings.
 
 Click **Finish** to create the **Draft** production order.
 
