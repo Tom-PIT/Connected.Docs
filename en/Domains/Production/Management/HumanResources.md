@@ -1,7 +1,9 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
+<!-- app_navigation_hint: Open a process, select a version, click Operations, then open Human resources for the relevant operation. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/HumanResources.md -->
 <!-- canonical_source_title: Human resources -->
+
 
 # Human resources
 

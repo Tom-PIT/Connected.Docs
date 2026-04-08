@@ -1,5 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
+<!-- app_navigation_hint: Na nivoju procesa: odpri proces, izberi ustrezno verzijo in odpri Kvaliteta.
+Na nivoju operacije: odpri proces, izberi verzijo, klikni Operacije in nato pri ustrezni operaciji odpri Kvaliteta. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md -->
 <!-- canonical_source_title: Kvaliteta – kontrolne liste -->
 
