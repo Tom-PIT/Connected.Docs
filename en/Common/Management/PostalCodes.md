@@ -7,9 +7,7 @@
 
 Postal codes belong to a specific **country** and are managed inside the [**Countries**](Countries.md) code list. They define the available postal areas used when entering addresses in the Business directory or logistics documents.
 
-## Accessing postal codes
-
-Postal codes appear as a tag under each Country entry. Click the tag to open the list of postal codes defined for that country.
+Postal codes appear as a tag under each **Country** entry. Click the tag to open the list of postal codes defined for that country.
 
 ![Postal codes button](../Images/PostalCodesButton.png "Postal codes button")
 
@@ -23,7 +21,7 @@ Postal codes appear as a tag under each Country entry. Click the tag to open the
 
 ## List view
 
-The Postal codes list displays all codes defined for the selected country.
+The **Postal codes** list displays all codes defined for the selected country.
 
 ![Postal codes list](../Images/PostalCodesList.png)
 
@@ -35,31 +33,43 @@ Click on the [action button](../UI/ActionButton.md) to display the following act
 - **Import**
 - **New**
 
-### Creating a new postal code
+### Add a new postal code
 
-Click on the [**action button**](../UI/ActionButton.md) to open the form to add a new postal code.
+To create a new postal code, follow these steps:
+
+1. Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the form to add a new postal code.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to save the new postal code or **Cancel** to return to the list view.
 
 ![Add postal code](../Images/PostalCodesNew.png)
 
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
-
-Click **Add** to save the new postal code.
-
-### Importing postal codes
+### Import postal codes
 
 The action button also includes an **Import** option, allowing bulk upload of postal codes from a CSV file.  This is useful when setting up a new country with many postal code entries.
 
-### Editing an existing postal code
+To import postal codes, follow these steps:
+1. Click on the [**action button**](../UI/ActionButton.md) and select **Import**.
+2. Choose a CSV file containing the postal codes to import.
 
-1. Open the Country entry.  
+### Edit an existing postal code
+
+To edit an existing postal code, follow these steps:
+
+1. Go to the [**Countries**](Countries.md) list.  
 2. Click the **Postal codes** tag.  
-3. Select a postal code from the list.  
-4. Update the Number, Name, or Active status.  
-5. Click **Save**.
+3. Select a postal code from the list by clicking its number.  
+4. Update the **Number**, **Name**, or **Active** status.  
+5. Click **Save** to apply the changes, or **Cancel** to discard them.
 
-### Deletion
+### Delete a postal code
 
-Postal codes can be deleted from the Edit page, but only if they are not referenced in other records (such as customer or vendor addresses).
+To delete a postal code, follow these steps:
+1. Go to the [**Countries**](Countries.md) list.
+2. Click the **Postal codes** tag.  
+3. Select a postal code from the list by clicking its number.
+4. Click the **Delete** button. A confirmation dialog will appear. If confirmed, the postal code will be deleted.
+
+Postal codes can only be deleted if they are not referenced in other records (such as customer or vendor addresses).
 
 > [!NOTE]  
 > Deleting a postal code does **not** delete the associated Country entry.

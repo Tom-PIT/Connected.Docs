@@ -36,29 +36,32 @@ A **Search** bar is available to quickly find records by code or text content.
 
 ### Add new predefined text
 
-Click the **action button** to open the form to create a new predefined text.
+To create a new predefined text, follow these steps:
+
+1. Click the [**action button**](../UI/ActionButton.md) to open the form to create a new predefined text.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to save the new predefined text or **Cancel** to return to the list view.
 
 ![Add predefined text](../Images/PredefinedTextsNew.png "Add predefined text")
-
-Select the **entity**, enter the **code**, and write the full **text**. You can enable or disable the record as needed.
 
 Entity options:
 
 ![Predefined texts entities](../Images/PredefinedTextsEntityFilter.png "Predefined text entity options")
 
-### Editing
+### Edit an existing predefined text
 
-Click any record in the list to open its edit screen.
+To edit an existing predefined text, follow these steps:
 
-From there you can modify the entity, code, or text.  
+1. Click any record in the list to open its edit screen.
+2. Modify the entity, code, or text.
+3. Click **Save** to apply the changes, or **Cancel** to discard them.
 
-### Deletion
+### Delete a predefined text
 
-Click **Delete** to open a confirmation dialog:
+To delete a predefined text, follow these steps:
 
-**Are you sure you want to delete this record?**
-
-If confirmed, the record is permanently removed; otherwise, the system keeps it unchanged.
+1. Click any record in the list to open its edit screen.
+2. Click **Delete**, and confirm the action in the pop-up dialog. If confirmed, the record is permanently removed; otherwise, the system keeps it unchanged.
 
 > [!NOTE]  
 > A predefined text can be deleted only if it is not referenced by dependent documents.

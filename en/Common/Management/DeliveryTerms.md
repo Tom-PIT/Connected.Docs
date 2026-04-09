@@ -33,11 +33,13 @@ The list can be searched using the search field in the top-right corner.
 
 ## Actions
 
-### Adding a new delivery term
+### Add a new delivery term
 
-Click the [**action button**](../../Common/UI/ActionButton.md) to create a new delivery term.
+To create a new delivery term, follow these steps:
 
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new delivery term.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to save the new delivery term or **Cancel** to return to the list view.
 
 > [!NOTE]
 > Make sure to use standard Incoterms® codes and descriptions when applicable, to ensure clarity and consistency in international trade.
@@ -46,15 +48,21 @@ Fill in all required fields. Optional fields can be completed if relevant. For m
 
 After saving, the delivery term becomes available for selection in documents where delivery conditions are required.
 
-### Editing an existing delivery term
+### Edit an existing delivery term
 
-Click a delivery term in the list to open it in edit mode. Update the **code**, **description**, or **location to be indicated** as needed.
+To edit an existing delivery term, follow these steps:
 
-Click **Save** to apply changes or **Cancel** to discard them.
+1. Click a delivery term in the list to open it in edit mode.
+2. Update the **code**, **description**, or **location to be indicated** as needed.
+3. Click **Save** to apply changes or **Cancel** to discard them.
 
-### Deletion
+### Delete an existing delivery term
 
-Open a delivery term from the list and click **Delete**. Confirm the deletion in the dialog.
+To delete a delivery term, follow these steps:
+
+1. Open a delivery term from the list.
+2. Click **Delete**.
+3. Confirm the deletion in the dialog.
 
 > [!NOTE]
 > A delivery term can be deleted only if it is not referenced in dependent records (e.g., sales or purchase orders).

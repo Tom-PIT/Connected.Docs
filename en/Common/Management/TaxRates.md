@@ -41,17 +41,13 @@ The list displays each tax rate's name and the applicable percentage. A search f
 
 ## Actions
 
-### Adding a new tax rate
+### Add a new tax rate
 
-Click on the [**action button**](../UI/ActionButton.md) to open the form to add a new tax rate.
+To create a new tax rate, follow these steps:
 
-The form includes the following fields:
-- **Name**
-- **Tax rate (%)**
-- **Active**
-- **Ledger section**
-
-After entering the required information, click **Add** to save the tax rate or **Cancel** to return to the list view.
+1. Click on the [**action button**](../UI/ActionButton.md) to open the form to add a new tax rate.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to save the new tax rate or **Cancel** to return to the list view.
 
 ![Add new tax rate](../Images/TaxRatesNew.png "Add new tax rate")
 
@@ -64,19 +60,20 @@ The **Debit** and **Credit** fields allow selection of accounts from the [**Char
 > [!NOTE]
 The ledger setup is required for accurate tax accounting, reporting, and regulatory compliance.
 
-### Editing an existing tax rate
+### Edit an existing tax rate
 
-To edit an existing tax rate, click the tax rate's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+To edit an existing tax rate, follow these steps:
 
-Click **Save** to confirm changes or **Cancel** to discard them.
+1. Click the tax rate's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+2. Make the necessary changes.
+3. Click **Save** to confirm changes or **Cancel** to discard them.
 
-### Deletion
+### Delete an existing tax rate
 
-Click **Delete** on the edit screen to open a confirmation dialog: 
+To delete an existing tax rate, follow these steps:
 
-**Are you sure you want to delete this record?**  
-
-If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
+1. Click the tax rate's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+2. Click **Delete** in the edit screen to open a confirmation dialog. If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
 
 > [!NOTE]
 >A tax rate can be deleted only if it is not used in any dependent entries.  

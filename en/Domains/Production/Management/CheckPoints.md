@@ -25,7 +25,7 @@ To access the check points for a checklist, open **Production / Management / Che
 | **Ordinal** | Number defining the order in which the check point appears in the checklist. |
 | **Category** | Optional classification used to group or filter check points. |
 | **Optional** | Indicates whether the check point may be skipped during execution. |
-| **Type** | Defines the operator input required:<br>• **Check** – Simple checkbox confirmation<br>• **File upload** – Requires attaching a file (image, PDF…)<br>• **List** – Choose single or multiple values from a predefined list<br>• **Number** – Numerical input<br>• **Text** – Free-text field |
+| **Type** | Defines the operator input required:<br>• **[Check](#type-check)** – Simple checkbox confirmation<br>• **File upload** – Requires attaching a file (image, PDF…)<br>• **[List](#type-list)** – Choose single or multiple values from a predefined list<br>• **[Number](#type-number)** – Numerical input<br>• **Text** – Free-text field |
 | **Confirm text** | Text displayed next to the checkbox for **Check** type. |
 | **Instructions** | Additional guidelines shown to the operator performing the check. |
 
@@ -53,6 +53,9 @@ Use the search bar to filter check points by name or code.
 
 3. Click **Add** to save the check point.
 
+> [!NOTE]
+> Some specifics may appear based on the selected **Type**. See [Specifics by Type](#specifics-by-type) for details.
+
 ## Editing an existing check point
 
 1. Select a check point from the list.  
@@ -62,4 +65,46 @@ Use the search bar to filter check points by name or code.
 ## Deletion
 
 Check points can be deleted freely unless restricted by a workflow configuration. To remove one, open the check point and click **Delete**.
+
+## Specifics by Type
+
+Certain fields are displayed or become required depending on the selected **Type**.
+
+### Type: Check
+
+When selecting the **Check** type, an additional field appears:
+
+| Attribute | Type | Description |
+|----------|------|-------------|
+| **Confirm text** | Text | Text displayed next to the checkbox. |
+
+### Type: List
+
+When selecting the **List** type, additional settings appear:
+
+| Attribute | Type | Description |
+|----------|------|-------------|
+| **Selection type** | Dropdown | Defines whether **single** or **multiple** values can be selected. |
+
+The user can add list values:
+
+- Clicking **Add new value** opens input fields:
+  - **Text**
+  - **Valid** (checkbox)
+
+- Clicking **Add** saves the value to the list
+
+Added values are displayed in a table:
+- **Text**
+- **Valid**
+
+### Type: Number
+
+When selecting the **Number** type, additional fields appear:
+
+| Attribute | Type | Description |
+|----------|------|-------------|
+| **Measure unit** | Dropdown | Selection of the measurement unit. |
+| **Min value** | Number | Minimum allowed value. |
+| **Max value** | Number | Maximum allowed value. |
 

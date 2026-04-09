@@ -26,27 +26,31 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive ti
 
 ## Actions
 
-### Creating a new job title
+### Add a new job title
 
-Click on the [**action button**](../../Common/UI/ActionButton.md) to add a new job title.
+To create a new job title, follow these steps:
+
+1. Click on the [**action button**](../../Common/UI/ActionButton.md) to add a new job title.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to save the new job title.
 
 ![Add new job title](../Images/JobTitlesNew.png)
 
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+### Edit an existing job title
 
-Click **Add** to save the new job title.
+To edit an existing job title, follow these steps:
 
-### Editing an existing job title
+1. Click on a job title from the list.
+2. Update the name or activity status.
+3. Click **Save** to apply the changes or **Cancel** to discard them.
 
-1. Open **Customer Support → Management → Job titles**.  
-2. Click on a job title from the list.  
-3. Update the name or activity status.  
-4. Click **Save**.
+### Delete a job title
 
-### Deletion
+To delete a job title, follow these steps:
 
-A job title can be deleted from the Edit page, but only if it is not referenced in existing contacts.
+1. Open a job title from the list.
+2. Click **Delete**.
+3. Confirm the deletion in the dialog.
 
-> [!NOTE]  
-> Deleting a job title does **not** remove any Business directory entries.
+A job title can only be deleted if it is not referenced in existing contacts.
 

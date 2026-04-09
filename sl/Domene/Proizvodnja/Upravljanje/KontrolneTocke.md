@@ -24,8 +24,7 @@ Za dostop do kontrolnih točk pojdite na **Kakovost / Upravljanje / Kontrolne li
 | **Vrstni red** | Številka, ki določa zaporedje kontrolne točke znotraj kontrolnega seznama. |
 | **Kategorija** | Neobvezna razvrstitev za združevanje ali filtriranje kontrolnih točk. |
 | **Neobvezno** | Določa, ali je kontrolno točko dovoljeno preskočiti med izvajanjem. |
-| **Tip** | Določa vrsto vnosa izvajalca:<br>• **Besedilo** – prosti besedilni vnos<br>• **Označi** – potrditveno polje (da / ne)<br>• **Priponka** – zahteva nalaganje datoteke (slika, PDF …)<br>• **Seznam** – izbor ene ali več vrednosti s seznama<br>• **Številka** – številčni vnos |
-| **Besedilo potrditve** | Besedilo, prikazano ob potrditvenem polju pri tipu **Potrditev**. |
+| **Tip** | Določa vrsto vnosa izvajalca:<br>• **Besedilo** – prosti besedilni vnos<br>• **[Označi](#tip-označi)** – potrditveno polje (da / ne)<br>• **Priponka** – zahteva nalaganje datoteke (slika, PDF …)<br>• **[Seznam](#tip-seznam)** – izbor ene ali več vrednosti s seznama<br>• **[Številka](#tip-številka)** – številčni vnos |
 | **Navodila** | Dodatna navodila, prikazana izvajalcu med izvajanjem kontrole. |
 
 ## Seznam kontrolnih točk
@@ -52,6 +51,9 @@ Za iskanje uporabite iskalno polje, ki omogoča filtriranje po nazivu ali šifri
 
 3. Kliknite **Dodaj**, da shranite kontrolno točko.
 
+> [!NOTE]
+> Nekaj posebnosti se lahko pojavijo glede na izbran **Tip**. Glejte [Posebnosti glede na tip](#posebnosti-glede-na-tip)
+
 ## Urejanje kontrolne točke
 
 1. Izberite kontrolno točko s seznama.  
@@ -61,3 +63,45 @@ Za iskanje uporabite iskalno polje, ki omogoča filtriranje po nazivu ali šifri
 ## Brisanje
 
 Kontrolne točke je mogoče brisati, razen če je to omejeno z nastavitvami delovnega toka. Za odstranitev odprite kontrolno točko in kliknite **Izbriši**.
+
+## Posebnosti glede na tip
+
+Določena polja se prikažejo ali postanejo obvezna glede na izbran **Tip**.
+
+### Tip: Označi
+
+Pri izbiri tipa **Označi** se prikaže dodatno polje:
+
+| Atribut | Tip | Opis |
+|----------|------|------|
+| **Potrditveno besedilo** | Text | Besedilo, prikazano ob potrditvenem polju. |
+
+### Tip: Seznam
+
+Pri izbiri tipa **Seznam** se prikažejo dodatne nastavitve:
+
+| Atribut | Tip | Opis |
+|----------|------|------|
+| **Število veljavnih vrednosti** | Dropdown | Določa ali je možna izbira **Ena** ali **Več** vrednosti. |
+
+Uporabnik lahko dodaja vrednosti seznama:
+
+- Klik na **Dodaj novo vrednost** odpre vnos:
+  - **Besedilo**
+  - **Veljavno** (checkbox)
+
+- Klik na **Dodaj** shrani vrednost v seznam
+
+Dodane vrednosti so prikazane v tabeli:
+- **Besedilo**
+- **Veljavno**
+
+### Tip: Številka
+
+Pri izbiri tipa **Številka** se prikažejo dodatna polja:
+
+| Atribut | Tip | Opis |
+|----------|------|------|
+| **Merska enota** | Dropdown | Izbira merske enote. |
+| **Najmanjša vrednost** | Number | Najnižja dovoljena vrednost. |
+| **Največja vrednost** | Number | Najvišja dovoljena vrednost. |
