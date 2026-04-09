@@ -86,6 +86,10 @@ Na vrhu seznama sistem prikaže dva ključna indikatorja:
 - **Čez rok dobave** (interaktivno) – nabavni nalogi, katerih načrtovani datum dobave je potekel in še niso v celoti prevzeti. S klikom se seznam samodejno filtrira.
 - **Skupni znesek** – prikazuje skupno vrednost (neto + davek) vseh nabavnih nalogov v aktivnem filtru.
 
+#### Menu
+
+Seznam ima gumb **Menu**, ki omogoča izvoz seznama kot CSV datoteko.
+
 ### Filtri
 
 Razpoložljivi filtri vključujejo:

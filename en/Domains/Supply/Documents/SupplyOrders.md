@@ -85,7 +85,11 @@ At the top of the Supply orders list, the system displays two key indicators sum
 - **Over the supply date** (interactive) – Supply orders whose planned supply date has passed and are not yet fully received. Clicking this indicator automatically filters the list to show only such orders.
 - **Total amount** – Displays the total value (net + tax) of all supply orders included in the active filter.
 
-Filters include:
+#### Menu
+
+The menu in the top-right corner of the list provides the option to export the list as a CSV file.
+
+### Filters
 
 - **Document dates**  
 - **Supply dates**  
