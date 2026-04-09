@@ -51,29 +51,33 @@ The list displays each measure unit's name, abbreviation, and precision.
 
 ## Actions
 
-### Creating a new measure unit
+### Add a new measure unit
 
-Click on the [**action button**](../UI/ActionButton.md) to add a new measure unit.
+To create a new measure unit, follow these steps:
 
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
-
-After entering the required information, click **Add** to save the measure unit or **Cancel** to return to the list view.
+1. Click on the [**action button**](../UI/ActionButton.md) to add a new measure unit.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to save the measure unit or **Cancel** to return to the list view.
 
 ![Add measure unit](../Images/NewMeasureUnit.png "Add measure unit")
 
-### Editing a measure unit
+### Edit a measure unit
 
-To edit an existing measure unit, click the unit's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. 
+To edit an existing measure unit, follow these steps:
+
+1. Click the unit's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+2. Update the name, abbreviation, precision, or activity status as needed.
+3. Click **Save** to apply the changes or **Cancel** to discard them.
 
 ![Edit measure unit](../Images/MeasureUnitsEdit.png "Edit measure unit")
 
-Click **Save** to confirm changes or **Cancel** to discard them.
+### Delete a measure unit
 
-### Deletion
+To delete a measure unit, follow these steps:
 
-Click **Delete** on the edit screen to open a confirmation dialog: 
-
-**Are you sure you want to delete this record?**  
+1. Open a measure unit from the list.
+2. Click **Delete**.
+3. Confirm the deletion in the dialog.
 
 If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
 

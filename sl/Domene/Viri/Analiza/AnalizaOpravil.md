@@ -70,6 +70,14 @@ Vsaka sprememba filtra takoj **preračuna kazalnike in seznam opravil**.
 
 ![Filter tipa opravila](../Images/WorkTimeAnalysisWorkItemTypeSL.png)
 
+## Menu
+
+Menu v zgornjem desnem kotu ponuja naslednja dejanja:
+
+- **Izvoz** **Podrobni stroški dela** na format CSV.
+
+Rezultantna datoteka prikazuje stroške, povezane z zabeleženim delovnim časom.
+
 ## Osveževanje podatkov
 
 Dejanje **Osveži** ponovno naloži analitične podatke glede na trenutno izbrane filtre.

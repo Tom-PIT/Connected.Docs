@@ -6,7 +6,7 @@
 
 # Stvarni viri
 
-**Stvarni viri** določajo, kateri stroji, orodja, oprema ali skupine virov so potrebni za izvedbo posamezne operacije v procesu. Vsak vnos predstavlja planirani čas uporabe tehničnega ali fizičnega vira.
+**Stvarni viri** določajo nečloveške vire, kateri stroji, orodja, oprema ali skupine virov so potrebni za izvedbo posamezne operacije v procesu. Vsak vnos predstavlja planirani čas uporabe tehničnega ali fizičnega vira.
 
 Za dostop do tega pogleda odprite verzijo procesa v **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite **[Operacije](Operacije.md)** in nato za izbrano operacijo izberite **Stvarni viri**.
 
@@ -38,7 +38,7 @@ Za filtriranje po imenu vira uporabite iskalno polje **Iskanje**.
 
 ![Seznam stvarnih virov](../Images/NonHumanResourcesList.png "Seznam stvarnih virov")
 
-## Ustvarjanje novega stvarnega vira
+## Ustvarj novi stvarni vir
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov** (ali možnost kopiranja, če je na voljo).
 2. Izpolnite polja:
@@ -47,12 +47,12 @@ Za filtriranje po imenu vira uporabite iskalno polje **Iskanje**.
 
 3. Kliknite **Dodaj**, da shranite vnos.
 
-## Urejanje stvarnega vira
+## Uredi stvarni vir
 
 1. Kliknite vrstico vira v seznamu, da odprete stran za urejanje.
 2. Po potrebi prilagodite **Tip**, **Vir**, **Tip kalkulacije**, **Količino**, **Oznake** ali možnost **Neobvezno**.
 3. Kliknite **Shrani**.
 
-## Brisanje
+## Izbriši stvarni vir
 
 Vnos stvarnega vira lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi se vnos odstrani iz operacije.

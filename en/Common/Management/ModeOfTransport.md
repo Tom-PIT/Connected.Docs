@@ -37,24 +37,29 @@ Clicking on a row opens the record in edit mode.
 
 ## Actions
 
-### Creating a new transport mode
+### Add a new transport mode
 
-Click on the [action button](../UI/ActionButton.md) to open the form for creating a new transport mode.
+To create a new transport mode, follow these steps:
 
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
-
-Click **Add** to create the record or **Cancel** to return to the list without saving.
+1. Click on the [action button](../UI/ActionButton.md) to open the form for creating a new transport mode.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to create the record or **Cancel** to return to the list without saving.
 
 ![New mode of transport](../Images/TransportModesNew.png "New mode of transport")
 
-### Editing a transport mode
+### Edit a transport mode
 
-To edit an existing transport mode, click its **Code** in the list. The screen switches to edit mode, allowing you to update the values.
+To edit an existing transport mode, follow these steps:
 
-Click **Save** to apply the changes or **Cancel** to discard them.
+1. Click its **Code** in the list. The screen switches to edit mode, allowing you to update the values.
+2. Click **Save** to apply the changes or **Cancel** to discard them.
 
-### Deletion
+### Delete a transport mode
 
-Click **Delete** on the edit screen to remove a transport mode and confirm the deletion in the dialog.
+To delete a transport mode, follow these steps:
+
+1. Click its **Code** in the list. The screen switches to edit mode.
+2. Click **Delete** to remove a transport mode and confirm the deletion in the dialog.
+
 > [!NOTE]
 > A transport mode can be deleted only if it is not referenced by existing documents.

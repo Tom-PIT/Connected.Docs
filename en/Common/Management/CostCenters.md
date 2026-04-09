@@ -28,23 +28,31 @@ You can use the **Search** bar to filter cost centers by name or code.
 
 ## Actions
 
-### Add new cost center
+### Add a new cost center
 
-Click on the [**action button**](../UI/ActionButton.md) to open the creation form and add a new cost center.
+To create a new cost center, follow these steps:
+
+1. Click on the [**action button**](../UI/ActionButton.md) to open the creation form and add a new cost center.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to create the new cost center or **Cancel** to return to the list view.
 
 ![Add new cost center](../Images/CostCentersNew.png "Add cost center")
 
-### Editing a cost center
+### Edit a cost center
 
-Click any entry in the list to open its edit screen, where you can adjust the **code** or **name**.
+To edit an existing cost center, follow these steps:
 
-### Deletion
+1. Open the **Cost centers** list.
+2. Click any entry in the list to open its edit screen, where you can adjust the **code** or **name**.
+3. Click **Save** to apply the changes or **Cancel** to discard them.
 
-Click **Delete** on the edit screen to open a confirmation dialog:
+### Delete a cost center	
 
-**Are you sure you want to delete this record?**
+To delete a cost center, follow these steps:
 
-If confirmed, the record is permanently removed; otherwise, the system keeps it unchanged.
+1. Open the **Cost centers** list.
+2. Click any entry in the list to open its edit screen.
+3. Click **Delete** on the edit screen to open a confirmation dialog.If confirmed, the record is permanently removed; otherwise, the system keeps it unchanged.
 
 > [!NOTE]  
 > A cost center can be deleted only if it is not referenced by documents or other system entities.

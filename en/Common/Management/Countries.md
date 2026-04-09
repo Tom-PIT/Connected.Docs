@@ -40,22 +40,26 @@ Each record displays a tag representing **associated data** — [Postal codes](P
 
 Clicking this tag opens the interface for managing the related data linked to the selected country.
 
+![Editing Postal Codes](../Images/PostalCodesButton.png "Editing Postal Codes")
+
 ## Actions
 
 Click on the [action button](../UI/ActionButton.md) to display the following actions:
 
-- Import  
-- New  
+- **Import**  
+- **New**  
 
-### Import
+### Import countries
 
 The **Import** action enables bulk creation or updating of country records. This function is intended for administrators who need to add or modify multiple countries at once.
 
-When selecting **Import**, the system opens the upload interface:
+To import country records, follow these steps:
+
+1. Click on the [**action button**](../UI/ActionButton.md) and select **Import**. The system opens the upload interface.
+2. Drag and drop the file into the upload area or click to open the file dialog. The import accepts a **CSV file**. 
 
 ![Import countries](../Images/ImportCountries.png "Import countries")
 
-The import accepts a **CSV file**. Drag and drop the file into the upload area or click to open the file dialog.
 The file must contain the required fields in a valid structure. You can download a file example using the menu located on the top-right corner. After the upload is complete, the system processes the file and creates or updates countries based on the CSV content.
 
 Click **Cancel** to return to the country list without importing.
@@ -69,33 +73,30 @@ Austria,3079,AT,true
 Italy,1040,IT,false
 ```
 
-### New
+### Add a new country
 
-Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the input form for adding a new country.
+To create a new country record, follow these steps:
 
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
-
-Click **Add** to create the record or **Cancel** to return to the list view without saving.
+1. Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the input form for adding a new country.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to create the record or **Cancel** to return to the list view without saving.
 
 ![New Country](../Images/NewCountry.png "New Country")
 
-### Editing an existing country
+### Edit an existing country
 
-To edit an existing country, click the country's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification. Click **Save** to confirm changes or **Cancel** to discard them.
+To edit an existing country, follow these steps:
 
-#### Postal codes
+1. Click the country's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+2. Make the necessary changes.
+3. Click **Save** to confirm changes or **Cancel** to discard them.
 
-The [**Postal codes**](PostalCodes.md) tag opens the interface for managing postal codes related to the selected country. Each postal code record includes fields such as **Number** and **City**, allowing you to maintain correct geographical and mailing data.  
+### Delete a country
 
-![Editing Postal Codes](../Images/PostalCodesButton.png "Editing Postal Codes")
+To delete a country, follow these steps:
 
-### Deletion
-
-Click **Delete** in the edit screen to open a confirmation dialog:
-
-**Are you sure you want to delete this record?**  
-
-If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
+1. Click the country's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+2. Click **Delete** in the edit screen to open a confirmation dialog. If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
 
 > [!NOTE]
 >A country can be deleted only if it is not referenced by dependent records (for example, addresses or documents).

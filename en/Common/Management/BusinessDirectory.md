@@ -78,11 +78,19 @@ Click on the [**action button**](../../Common/UI/ActionButton.md) to display the
 
 To simplify the process of adding VAT-registered companies to the business directory, the **Import by VIES** action allows automatic retrieval of data from the VIES database, based on the provided VAT ID.
 
-Click on the [**action button**](../UI/ActionButton.md) and select **Import by VIES**. In the opened dialog, enter the VAT ID of the company you want to import (for example, **SI12345678**). Click **Import** to start the process.
+To import a company using VIES, follow these steps:
 
-### Import
+1. Click on the [**action button**](../UI/ActionButton.md) and select **Import by VIES**. 
+2. In the opened dialog, enter the VAT ID of the company you want to import (for example, **SI12345678**). 
+3. Click **Import** to start the process.
 
-Click on the [**action button**](../UI/ActionButton.md) and select **Import**. This action enables bulk creation or updating of company records.
+### Import a CSV file
+
+To import one or multiple entries into the business directory at once, follow these steps:
+
+1. Click on the [**action button**](../UI/ActionButton.md) and select **Import**.
+2. Select a CSV file from your computer that contains the data to be imported. The file should follow the required structure, with columns corresponding to the fields in the business directory (see the example below).
+3. Click **Import** to start the process.
 
 ![Import business directory](../Images/CompaniesImport.png "Import business directory")
 
@@ -93,11 +101,13 @@ Code,Name,Active,Supplier,Customer,Subcontractor,NaturalPerson,Street,Country,Po
 ACME01,ACME d.o.o.,true,true,true,false,false,Dunajska cesta 10,SI,1000,Liable for tax,SI12345678,1234567-0,wholesale,EUR,5,Janez Novak,+386 1 234 56 78,info@acme.si
 CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final customer,,,"retail,online",EUR,0,John Smith,+386 31 555 555,john.smith@example.com
 ```
-### New
+### Add a new business directory entry
 
-Click on the [**action button**](../UI/ActionButton.md) and select **New**. This action opens the form for creating a new entry. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+To create a new business directory entry, follow these steps:
 
-Click **Add** to save the new record or **Cancel** to return to the list view without saving.
+1. Click on the [**action button**](../UI/ActionButton.md) and select **New**. This action opens the form for creating a new entry. 
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+3. Click **Add** to save the new record or **Cancel** to return to the list view without saving.
 
 ![New Business Directory Entry](../Images/NewBusinessDirectory.png "New Business Directory Entry")
 
@@ -117,15 +127,21 @@ This section allows you to define whether the business partner uses the **compan
 
 The **Menu** in the top-right corner provides the **Exporting** option, which exports all visible records into a CSV file, allowing further analysis or backup.
 
-### Editing a business directory entry
+### Edit a business directory entry
 
-To edit an existing record, click the entry's **Name** in the list. The interface switches to edit mode, displaying the existing data for modification. Click **Save** to confirm changes or **Cancel** to discard them.
+To edit an existing record, follow these steps:
+
+1. Click the entry's **Name** in the list. The interface switches to edit mode, displaying the existing data for modification.
+2. Update the relevant fields as needed.
+3. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Editing Business Directory Entry](../Images/BusinessDirectoryEdit.png "Editing Business Directory Entry")
 
-### Deletion
+### Delete an existing business directory entry
 
-Click **Delete** on the edit screen to open a confirmation dialog: 
+To delete an existing record, follow these steps:
+1. Click the entry's **Name** in the list. The interface switches to edit mode, displaying the existing data for modification.
+2. Click **Delete** on the edit screen to open a confirmation dialog.
 
 **Are you sure you want to delete this record?**  
 

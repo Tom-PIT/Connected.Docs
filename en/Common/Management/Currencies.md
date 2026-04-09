@@ -41,31 +41,32 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 ## Actions
 
-### Adding a new currency
+### Add a new currency
 
-Click on the [**action button**](../UI/ActionButton.md) to open the form for adding a new currency.
+To create a new currency entry, follow these steps:
+
+1. Click on the [**action button**](../UI/ActionButton.md) to open the form for adding a new currency.
+2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+3. Click **Add** to save the new currency or **Cancel** to return to the list view.
 
 ![Add new currency](../Images/CurrenciesNew.png)
 
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+## Edit an existing currency
 
-Click **Add** to save the new currency.
+To edit an existing currency, follow these steps:
 
-## Editing an existing currency
-
-Click a currency in the list to open its edit screen.
+1. Click a currency in the list to open its edit screen.
+2. Make the necessary changes.
+3. Click **Save** to confirm changes or **Cancel** to discard them.
 
 ![Edit currency](../Images/CurrenciesEdit.png)
 
-Click **Save** to confirm changes.
+## Delete an existing currency
 
-## Deletion
+To delete a currency, follow these steps:
 
-Click **Delete** on the edit screen to open a confirmation dialog:
-
-**Are you sure you want to delete this record?**
-
-If confirmed, the record is permanently removed; otherwise, the system keeps it unchanged.
+1. Click the currency's **Name** in the list. The interface switches to edit mode, displaying the existing values for modification.
+2. Click **Delete** in the edit screen to open a confirmation dialog. If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
 
 > [!NOTE]  
 > A currency can be deleted only if it is **not referenced** by price lists, documents, or other financial records.
