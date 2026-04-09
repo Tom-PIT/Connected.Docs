@@ -7,8 +7,15 @@
 
 Stran **Zahteve** ponuja pregled vseh materialov, potrebnih za planirane proizvodne operacije v izbranem časovnem obdobju. Planerjem pomaga preveriti, ali je na voljo dovolj zaloge, ter hitro ustvariti nabavne naloge, kadar se pojavijo primanjkljaji.
 
+Stran **Zahteve** planerjem omogoča:
+
+- pregled **potrebnih materialov** za prihajajočo proizvodnjo  
+- primerjavo **zahtevanih in razpoložljivih** količin  
+- vpogled v **operacije**, ki povzročajo porabo  
+- hitro ustvarjanje **nabavnih nalogov**, kadar zaloga ni zadostna
+
 > [!TIP]  
-> Za celovit prikaz si oglejte video vodič **Zahteve**.
+> Za celovit prikaz si oglejte video vodič **[Requirements](https://www.youtube.com/watch?v=eK7ui-ak7J0)**.
 
 Do strani dostopate prek **Proizvodnja / Zahteve** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
@@ -50,21 +57,20 @@ Za vsako operacijo so prikazani:
 
 To planerjem omogoča vpogled v to, *katere* proizvodne naloge povzročajo porabo materiala.
 
+#### Barvna koda
+
+Sistem prikaže številke porabe z barvno kodo:
+
+- **Rdeče** – zaloga je **0**.
+- **Oranžno** – če je zaloga manjša od potreb.
+- **Črno** – če je zaloga zadostna za pokritje porabe.
+
 ## Ustvarjanje nabavnega naloga
 
-Kadar zaloga ni zadostna, je v stolpcu **Zaloga** vrednost prikazana rdeče skupaj z gumbom **+**:
+V stolpcu **Zaloga** je gumb **+** poleg številke količine.
 
 ![Ustvari nabavni nalog](../Images/RequirementsPlusButton.png "Ustvarjanje nabavnega naloga")
 
 Klik na **+** odpre obrazec za ustvarjanje nabavnega naloga, ki je že predizpolnjen z izbranim materialom.
 
 To omogoča hitro dopolnjevanje zaloge neposredno s strani **Zahteve**.
-
-## Povzetek
-
-Stran **Zahteve** planerjem omogoča:
-
-- pregled **potrebnih materialov** za prihajajočo proizvodnjo  
-- primerjavo **zahtevanih in razpoložljivih** količin  
-- vpogled v **operacije**, ki povzročajo porabo  
-- hitro ustvarjanje **nabavnih nalogov**, kadar zaloga ni zadostna

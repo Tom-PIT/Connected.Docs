@@ -7,6 +7,13 @@
 
 The **Requirements** page provides an overview of all materials needed for planned production operations within a selected time window. It helps planners understand whether enough stock is available and quickly create purchase orders when shortages appear.
 
+The Requirements page helps planners:
+
+- See **which materials are needed** for upcoming production  
+- Compare **required vs. available** quantities  
+- Drill into **which operations** consume each material  
+- Quickly create **supply orders** when stock is insufficient  
+
 > [!TIP]  
 > For a full demonstration, see the **[Requirements](https://www.youtube.com/watch?v=eK7ui-ak7J0)** video tutorial.
 
@@ -50,22 +57,21 @@ For each operation, the following is shown:
 
 This allows planners to understand *which* production tasks drive consumption.
 
+#### Color code
+
+The number appears in: 
+
+- **black** if stock is sufficient to cover the requirements.
+- **orange** if stock is less than the requirements.
+- **red** if stock is **0**.
+
 ## Creating a supply order
 
-When stock is insufficient, the **Stock** column displays the number in red along with a **+** button:
+The **Stock** column displays a **+** sign next to the quantity:
 
 ![Create supply order](../Images/RequirementsPlusButton.png "Create supply order")
 
 Clicking **+** opens the supply order creation form, pre-filled with the selected material.
 
 This provides quick replenishment directly from the Requirements screen.
-
-## Summary
-
-The Requirements page helps planners:
-
-- See **which materials are needed** for upcoming production  
-- Compare **required vs. available** quantities  
-- Drill into **which operations** consume each material  
-- Quickly create **supply orders** when stock is insufficient  
 
