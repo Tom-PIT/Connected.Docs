@@ -161,7 +161,18 @@ Za več informacij glejte **[Izvedba](Izvedba.md)**.
 
 Razdelek **Proces** prikazuje vse planirane operacije, vhode, vire, izhode in kontrole kakovosti za izbrano verzijo.
 
-![Pregled procesa](../Images/ProductionOrdersProcess.png "Pregled procesa")
+![Pregled procesa](../Images/ProductionOrdersProcessV2.png "Pregled procesa")
+
+Klik na operacijo odpre podroben pogled, kjer lahko delavci beležijo podatke o izvedbi, kot so:
+
+- **Proizvodnja**
+- **Poraba**
+- **Slabi kosi**
+- **Delo**
+
+![Urejanje operacije proizvodnega naloga](../Images/ProductionOrderOperationEdit.png "Urejanje operacije proizvodnega naloga")
+
+Vsak razdelek ima gumb **Dodaj vnos** za beleženje podrobnosti izvedbe. Na primer, v razdelku **Proizvodnja** lahko zabeležite proizvedeni material, količino in čase proizvodnje.
 
 ## Zaključeni proizvodni nalogi
 
