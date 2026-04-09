@@ -157,13 +157,24 @@ Production orders also display any linked documents created during the order's l
 
 When activated, the order becomes **Active** and is ready for execution on the shop floor.
 
-![Active](../Images/ProductionOrdersPending.png "Active production order")
+![Active](../Images/ProductionOrdersPendingV2.png "Active production order")
 
 Production workers can now execute operations through the **Execution** module. See **[Execution](Execution.md)** for more details.
 
 The **Process** section displays all planned operations, inputs, resources, outputs, and quality checks for the chosen version.
 
 ![Process View](../Images/ProductionOrdersProcess.png "Process overview")
+
+Clicking on an operation opens the detailed view, where workers can record execution data, such as:
+
+- **Produced**
+- **Consumed**
+- **Loss**
+- **Effort**
+
+![Production Order Operation Edit](../Images/ProductionOrderOperationEdit.png "Production Order Operation Edit")
+
+Each section has an **Add entry** button to record execution details. For example, in the **Produced** section, you can log the material produced, the quantity produced, and the production times.
 
 ## Closed production orders
 
