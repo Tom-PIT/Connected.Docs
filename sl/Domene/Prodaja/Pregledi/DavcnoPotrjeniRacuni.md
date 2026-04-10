@@ -11,7 +11,7 @@ Ti računi se običajno uporabljajo za **maloprodajo (B2C)** in so v skladu z lo
 
 Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Davčno potrjeni računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
-![Davčno potrjeni računi](../Images/FiscalIvoicesListSL.png "Davčno potrjeni računi")
+![Davčno potrjeni računi](../Images/FiscalIvoicesListV2SL.png "Davčno potrjeni računi")
 
 ## Seznam davčno potrjenih računov
 
@@ -22,6 +22,10 @@ Vsak zapis vključuje:
 - **Številka računa**  
 - **Stranka**  
 - **Datum izdaje**  
+
+Barva vrstice označuje status fiskalizacije:
+- **Zelena** – račun je uspešno fiskaliziran
+- **Oranžna** – podatki še niso poslani davčnemu organu
 
 ### Filtri
 
