@@ -46,7 +46,7 @@ Za ustvarjanje novega kontakta:
 
 ![Nov kontakt](../Images/ContactsNew.png "Nov kontakt")
 
-## Urediti obstoječega kontakta
+## Urediti kontakta
 
 Za urejanje obstoječega kontakta:
  

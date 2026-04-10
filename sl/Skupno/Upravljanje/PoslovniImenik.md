@@ -90,7 +90,7 @@ Code,Name,Active,Supplier,Customer,Subcontractor,NaturalPerson,Street,Country,Po
 ACME01,ACME d.o.o.,true,true,true,false,false,Dunajska cesta 10,SI,1000,Liable for tax,SI12345678,1234567-0,wholesale,EUR,5,Janez Novak,+386 1 234 56 78,info@acme.si
 CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final customer,,,"retail,online",EUR,0,John Smith,+386 31 555 555,john.smith@example.com
 ```
-### Dodati novega zapisa
+### Dodati nov zapis
 
 Za ustvarjanje novega zapisa:
 
@@ -112,7 +112,7 @@ Ta razdelek omogoča določitev, ali poslovni partner v dokumentih uporablja **v
 
 ![Razširljivi razdelki poslovnega imenika](../Images/BusinessDirectoryCollapsibleOptions.png "Razširljivi razdelki poslovnega imenika")
 
-### Urediti obstoječega zapisa
+### Urediti zapis
 
 Za urejanje obstoječega zapisa: 
 

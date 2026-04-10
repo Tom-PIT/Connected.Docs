@@ -29,7 +29,7 @@ Uporabite filtre na levi strani (Omogočeno / Onemogočeno) za prikaz samo aktiv
 
 ## Dejanja
 
-### Dodati novega bančnega računa
+### Dodati nov bančni račun
 
 Za ustvarjanje novega bančnega računa:
 
@@ -41,7 +41,7 @@ Za ustvarjanje novega bančnega računa:
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-### Urediti obstoječega računa
+### Urediti bančni račun
 
 Za urejanje bančnega računa:
 

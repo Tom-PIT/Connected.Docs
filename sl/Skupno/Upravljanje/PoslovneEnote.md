@@ -28,7 +28,7 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 
 ## Dejanja
 
-### Dodati nove poslovne enote
+### Dodati novo poslovno enoto
 
 Za dodajanje nove poslovne enote: 
 
@@ -41,7 +41,7 @@ Za dodajanje nove poslovne enote:
 
 ![Dodaj poslovno enoto](../Images/BusinessUnitsNew.png)
 
-### Urediti obstoče poslovne enote
+### Urediti poslovno enoto
 
 Za ureditev obstoče poslovne enote:
 

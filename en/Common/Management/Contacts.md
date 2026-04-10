@@ -1,5 +1,6 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
+<!-- app_navigation_hint: Open **Business directory**, then open **Contacts** for the relevant entry. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Contacts.md -->
 <!-- canonical_source_title: Contacts -->
 

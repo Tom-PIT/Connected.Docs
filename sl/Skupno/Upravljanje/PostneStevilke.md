@@ -33,7 +33,7 @@ Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 - **Uvoz**
 - **Nov**
 
-### Uvoziti nove poštne številke
+### Uvoziti novo poštno številko
 
 Za dodanjem posameznih poštnih številk lahko uporabite tudi funkcijo **Uvoz**, ki omogoča množični uvoz poštnih številk iz CSV datoteke. 
 
@@ -54,7 +54,7 @@ Za dodajanje nove poštne številke:
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-### Urediti obstoječe poštne številke
+### Urediti poštno številko
 
 Za urejanje obstoječe poštne številke:
 

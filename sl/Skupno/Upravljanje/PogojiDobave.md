@@ -50,7 +50,7 @@ Za ustvarjanje novega pogoja dobave:
 
 Po shranjevanju je pogoj dobave na voljo za izbiro v dokumentih, kjer so potrebni dobavni pogoji.
 
-### Urediti pogoja dobave
+### Urediti pogoj dobave
 
 Za urejanje obstoječega pogoja dobave:
 
@@ -58,7 +58,7 @@ Za urejanje obstoječega pogoja dobave:
 2. Po potrebi lahko posodobite **Šifro**, **Opis** ali **Navedeno lokacijo**.
 3. Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za zavrnitev.
 
-### Izbrisati pogoja dobave
+### Izbrisati pogoj dobave
 
 Za brisanje pogoja dobave:
 
