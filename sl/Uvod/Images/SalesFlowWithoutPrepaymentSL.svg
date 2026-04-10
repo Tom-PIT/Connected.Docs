@@ -7,7 +7,7 @@
    aria-label="Sales flow without prepayment"
    version="1.1"
    id="svg13"
-   sodipodi:docname="SalesFlowWithoutPrepayment.svg"
+   sodipodi:docname="SalesFlowWithoutPrepaymentSL.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.2558216"
      inkscape:cx="329.66466"
-     inkscape:cy="-94.360536"
+     inkscape:cy="-94.360537"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -133,8 +133,8 @@
       </g>
       <text
          class="text"
-         x="759.65137"
-         y="73.253906"
+         x="759.84619"
+         y="75.208984"
          text-anchor="middle"
          id="text10">Plačila</text>
       <line
