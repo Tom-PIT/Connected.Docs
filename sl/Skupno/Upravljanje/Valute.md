@@ -37,28 +37,33 @@ Za hitro filtriranje valut po kodi ali imenu lahko uporabite **iskalno vrstico**
 
 ## Dejanja
 
-### Dodaj novo valuto
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove valute.
+### Dodati novo valuto
+
+Za ustvarjanje nove valute:
+
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove valute.
+2. Izpolnite vsa obvezna polja.
+3. Kliknite **Dodaj**, da shranite novo valuto.
 
 ![Dodaj novo valuto](../Images/CurrenciesNew.png)
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+### Urediti obstoječe valute
 
-Kliknite **Dodaj**, da shranite novo valuto.
+Za ureditev obstoječe valute:
 
-### Urejanje obstoječe valute
-Kliknite valuto na seznamu, da odprete zaslon za urejanje.
+1. Kliknite valuto na seznamu, da odprete zaslon za urejanje.
+2. Prilagodite polja po potrebi.
+3. Kliknite **Shrani** za potrditev sprememb ali **Prekliči**, da zavrnete spremembe.
 
 ![Urejanje valute](../Images/CurrenciesEdit.png)
 
-Kliknite **Shrani** za potrditev sprememb.
+### Izbrisati valuto
 
-### Brisanje
-Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
+Za izbris valute:
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
-
-Če potrdite, se zapis trajno odstrani; sicer sistem ohrani obstoječe stanje.
+1. Kliknite valuto na seznamu, da odprete zaslon za urejanje.
+2. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno.
+3. Če brisanje potrdite, se zapis trajno odstrani. Če ga prekličete, sistem ohrani obstoječe stanje.
 
 > [!NOTE]  
 > Valuto je mogoče izbrisati le, če **ni uporabljena** v cenikih, dokumentih ali drugih finančnih zapisih.

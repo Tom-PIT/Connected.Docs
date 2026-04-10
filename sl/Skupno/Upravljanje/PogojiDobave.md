@@ -32,10 +32,16 @@ Seznam je mogoče preiskovati z iskalnim poljem v zgornjem desnem kotu.
 
 ## Dejanja
 
-### Dodaj pogoj dobave
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov pogoj dobave.
+### Dodati pogoj dobave
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+Za ustvarjanje novega pogoja dobave:
+
+1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov pogoj dobave.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+3.Kliknite **Dodaj**, da shranite pogoj dobave.
+
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 > [!NOTE]
 > Kadar je to mogoče, uporabljajte standardne **Incoterms®** šifre in opise, da zagotovite jasnost in doslednost v mednarodnem poslovanju.
@@ -44,14 +50,20 @@ Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za ve
 
 Po shranjevanju je pogoj dobave na voljo za izbiro v dokumentih, kjer so potrebni dobavni pogoji.
 
-### Urejanje pogoja dobave
-Kliknite pogoj dobave v seznamu, da ga odprete v načinu urejanja.  
-Po potrebi lahko posodobite **Šifro**, **Opis** ali **Navedeno lokacijo**.
+### Urediti pogoja dobave
 
-Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za zavrnitev.
+Za urejanje obstoječega pogoja dobave:
 
-### Brisanje pogoja dobave
-Odprite pogoj dobave s seznama in kliknite **Izbriši**. Brisanje potrdite v pogovornem oknu.
+1. Kliknite pogoj dobave v seznamu, da ga odprete v načinu urejanja.
+2. Po potrebi lahko posodobite **Šifro**, **Opis** ali **Navedeno lokacijo**.
+3. Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za zavrnitev.
+
+### Izbrisati pogoja dobave
+
+Za brisanje pogoja dobave:
+
+1. Kliknite pogoj dobave v seznamu, da ga odprete v načinu urejanja.
+3. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno. Potrdite, da želite izbrisati ta zapis.
 
 > [!NOTE]
 > Pogoj dobave je mogoče izbrisati samo, če ni uporabljen v povezanih zapisih (na primer prodajnih ali nabavnih nalogih).

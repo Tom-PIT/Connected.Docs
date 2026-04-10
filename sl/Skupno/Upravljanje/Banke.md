@@ -36,22 +36,32 @@ Za hitro filtriranje bank po kodi ali imenu lahko uporabite **iskalno vrstico**.
 
 ## Dejanja
 
-### Dodaj novo banko
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove banke.
+### Dodati novo banko
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema). Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
+Za vstvarjanje nove banke:
+
+1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove banke.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
+3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
+
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Banke – nova](../Images/BanksNew.png "Dodaj novo banko")
 
-### Uredi obstoječo banko
-Za urejanje obstoječe banke kliknite na njeno **ime** v seznamu. Vmesnik se preklopi v način urejanja, kjer so prikazane obstoječe vrednosti za spremembe. Kliknite **Shrani**, da potrdite spremembe, ali **Prekliči**, da jih zavrnete.
+### Urediti obstoječo banko
 
-### Brisanje
-Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
+Za urejanje obstoječe banke: 
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+1. Kliknite na njeno **ime** v seznamu. Vmesnik se preklopi v način urejanja, kjer so prikazane obstoječe vrednosti za spremembe. 
+2. Kliknite **Shrani**, da potrdite spremembe, ali **Prekliči**, da jih zavrnete.
 
-Če potrdite, se zapis trajno odstrani; sicer sistem ohrani obstoječe stanje.
+### Izbrisati banko
+
+Za brisanje banke:
+
+1. Kliknite na njeno **ime** v seznamu. Vmesnik se preklopi v način urejanja.
+2. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno. Če potrdite, se zapis trajno odstrani; sicer sistem ohrani obstoječe stanje.
 
 > [!NOTE]
 > Zapis banke je mogoče izbrisati le, če ni uporabljen v drugih sistemskih entitetah.

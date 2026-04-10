@@ -40,10 +40,11 @@ Klik na to oznako odpre vmesnik za upravljanje povezanih podatkov za izbrano dr�
 ## Dejanja
 Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 
-- Uvoz  
-- Nov
+- **Uvoz** 
+- **Nov**
 
-### Uvoz
+### Uvoziti države
+
 Dejanje **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov držav. Funkcija je namenjena skrbnikom, ki morajo hkrati dodati ali spremeniti več držav.
 
 Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz** sistem odpre vmesnik za nalaganje:
@@ -62,29 +63,34 @@ Austria,3079,AT,true
 Italy,1040,IT,false
 ```
 
-### Ustvarjanje nove države
-Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Novo**, da odprete vnosni obrazec za dodajanje nove države.
+### Dodati nove države
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+Za ustvarjanje nove države sledite tem korakom:
 
-Kliknite **Dodaj** za ustvarjanje zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
+1. Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Novo**, da odprete vnosni obrazec za dodajanje nove države.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
+3. Kliknite **Dodaj** za ustvarjanje zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
+
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Nova država](../Images/NewCountry.png "Nova država")
 
-### Urejanje obstoječega države
-Za urejanje obstoječega zapisa kliknite **Ime** države na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
+### Urediti obstoječo državo
 
-### Poštne številke
-Oznaka [**Poštne številke**](PostneStevilke.md) odpre vmesnik za upravljanje poštnih številk, povezanih z izbrano državo. Vsak zapis poštne številke vključuje polja, kot sta **Številka** in **Mesto**, kar omogoča vzdrževanje pravilnih geografskih in poštnih podatkov.
+Za urejanje obstoječega zapisa:
 
-![Urejanje poštnih številk](../Images/PostalCodesButton.png "Urejanje poštnih številk")
+1. Kliknite **Ime** države na seznamu. 
+2. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe. 
+3. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-### Brisanje
-Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
+### Izbrisati državo
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+Za brisanje države sledite tem korakom:
 
-Če potrdite, se vnos trajno odstrani; sicer sistem ohrani obstoječe stanje.
+1. Kliknite njeno **Ime** na seznamu.
+2. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno.
+3. Če brisanje potrdite, se zapis trajno odstrani. Če ga prekličete, sistem ohrani obstoječe stanje.
 
 > [!NOTE]
 > Državo je mogoče izbrisati le, če ni uporabljena v odvisnih zapisih (npr. naslovih ali dokumentih).

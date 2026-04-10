@@ -38,10 +38,13 @@ The list can be searched using the search field in the top-right corner.
 To create a new delivery term, follow these steps:
 
 1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new delivery term.
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to save the new delivery term or **Cancel** to return to the list view.
 
 > [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
+
+> [!IMPORTANT]
 > Make sure to use standard Incoterms® codes and descriptions when applicable, to ensure clarity and consistency in international trade.
 
 ![Add delivery term](../Images/DeliveryTermsNew.png "Add delivery term")

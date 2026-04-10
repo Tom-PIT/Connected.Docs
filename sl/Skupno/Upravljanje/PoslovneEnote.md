@@ -6,7 +6,6 @@
 # Poslovne enote
 **Poslovne enote** pripadajo določenemu **kupcu** ali **dobavitelju** in se upravljajo znotraj **Poslovnega imenika**.  Predstavljajo fizične lokacije, podružnice ali organizacijske enote podjetja, vsaka s svojimi naslovnimi podatki.
 
-### Dostop do poslovnih enot
 Poslovne enote so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje poslovnih enot, povezanih z izbranim partnerjem.
 
 ![Oznaka poslovnih enot](../Images/BusinessUnitsButtonSL.png "Oznaka poslovnih enot")
@@ -29,24 +28,35 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 
 ## Dejanja
 
-### Ustvarjanje nove poslovne enote
-Za dodajanje nove poslovne enote kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
+### Dodati nove poslovne enote
+
+Za dodajanje nove poslovne enote: 
+
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
+3. Kliknite **Dodaj**, da shranite novo poslovno enoto.
+
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Dodaj poslovno enoto](../Images/BusinessUnitsNew.png)
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+### Urediti obstoče poslovne enote
 
-Kliknite **Dodaj**, da shranite novo poslovno enoto.
+Za ureditev obstoče poslovne enote:
 
-### Urejanje obstoče poslovne enote
 1. Odprite vnos v Poslovnem imeniku.  
 2. Kliknite oznako **Poslovne enote**.  
 3. Izberite enoto s seznama.  
 4. Posodobite ime, naslov, državo, poštno številko ali stanje aktivnosti.  
 5. Kliknite **Shrani**.
 
-### Brisanje
-Poslovno enoto je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljena v drugih zapisih (npr. naslovih za dostavo ali dokumentih).
+### Izbrisati poslovno enoto
+
+1. Odprite vnos v Poslovnem imeniku.  
+2. Kliknite oznako **Poslovne enote**.  
+3. Izberite enoto s seznama. 
+4. Kliknite **Izbriši** in potrdite dejanje.
 
 > [!NOTE]  
 > Brisanje poslovne enote **ne izbriše** pripadajočega vnosa v Poslovnem imeniku.

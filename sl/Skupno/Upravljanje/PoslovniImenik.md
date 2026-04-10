@@ -66,7 +66,6 @@ Polje **Vrsta** določa davčni status entitete. Razpoložljive vrednosti so:
 ### Meni
 **Meni** v zgornjem desnem kotu ponuja možnost **Izvoz**, ki izvozi vse vidne zapise v datoteko CSV za nadaljnjo analizo ali varnostno kopijo.
 
-
 ## Dejanja
 Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
 
@@ -74,12 +73,13 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpolo�
 - **Uvoz**  
 - **Nov**
 
-### Uvoz z VIES
+### Uvoziti z VIES
 Za poenostavitev postopka dodajanja podjetij, registriranih za DDV, v poslovni imenik omogoča dejanje **Uvozi z VIES** samodejno pridobivanje podatkov iz baze podatkov VIES na podlagi podane ID za DDV.
 
 Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz z VIES**. V odprtem pogovornem oknu vnesite ID za DDV podjetja, ki ga želite uvoziti (na primer **SI12345678**). Kliknite **Uvozi**, da začnete postopek.
 
-### Uvoz
+### Uvoziti prek CSV
+
 Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov podjetij.
 
 ![Uvoz poslovnega imenika](../Images/CompaniesImport.png "Uvoz poslovnega imenika")
@@ -90,18 +90,21 @@ Code,Name,Active,Supplier,Customer,Subcontractor,NaturalPerson,Street,Country,Po
 ACME01,ACME d.o.o.,true,true,true,false,false,Dunajska cesta 10,SI,1000,Liable for tax,SI12345678,1234567-0,wholesale,EUR,5,Janez Novak,+386 1 234 56 78,info@acme.si
 CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final customer,,,"retail,online",EUR,0,John Smith,+386 31 555 555,john.smith@example.com
 ```
-### Nov
-Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa. 
+### Dodati novega zapisa
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+Za ustvarjanje novega zapisa:
 
-Kliknite **Dodaj** za shranjevanje novega zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
+1. Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
+3. Kliknite **Dodaj** za shranjevanje novega zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
+
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Nov vnos v poslovni imenik](../Images/NewBusinessDirectory.png "Nov vnos v poslovni imenik")
 
-Na voljo so dodatni razširljivi razdelki:
+#### Urediti kontakt
 
-#### Uredi kontakt
 Ta razdelek omogoča vnos podatkov o primarni kontaktni osebi poslovnega partnerja (ime, telefonska številka, e-pošta). Polja so neobvezna in služijo kot referenčni podatki, uporabljeni v dokumentih.
 
 #### Valuta
@@ -109,17 +112,22 @@ Ta razdelek omogoča določitev, ali poslovni partner v dokumentih uporablja **v
 
 ![Razširljivi razdelki poslovnega imenika](../Images/BusinessDirectoryCollapsibleOptions.png "Razširljivi razdelki poslovnega imenika")
 
-### Urejanje obstoječega vnosa
-Za urejanje obstoječega zapisa kliknite **Ime** vnosa na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe podatke za spremembe. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
+### Urediti obstoječega zapisa
+
+Za urejanje obstoječega zapisa: 
+
+1. Kliknite **Ime** vnosa na seznamu. 
+2. Vmesnik se preklopi v način urejanja in prikaže obstoječe podatke za spremembe. 
+3. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
 ![Urejanje vnosa v poslovnem imeniku](../Images/BusinessDirectoryEdit.png "Urejanje vnosa v poslovnem imeniku")
 
-### Brisanje
-Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
+### Izbrisati zapis
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+Za izbrisati obstoječega zapisa:
 
-Če potrdite, se vnos trajno odstrani; sicer sistem ohrani obstoječe stanje.
+1. Kliknite **Ime** vnosa na seznamu.
+2. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno. Potrdite, da želite izbrisati zapis.
 
 > [!NOTE]
 > Vnos je mogoče izbrisati le, če ni uporabljen v nobenem od odvisnih zapisov (npr. računi ali naročila).

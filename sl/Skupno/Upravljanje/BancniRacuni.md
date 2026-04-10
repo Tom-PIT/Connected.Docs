@@ -8,7 +8,6 @@ Bančni računi pripadajo določenemu **kupcu** ali **dobavitelju** in se upravl
 
 Vsak račun je povezan z **banko**, izbrano iz vnaprej definiranega šifranta [**Banke**](Banke.md).
 
-### Dostop do bančnih računov
 Bančni računi so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje bančnih računov, povezanih z izbranim partnerjem.
 
 ![Oznaka bančnih računov](../Images/BankAccountsButtonSL.png)
@@ -30,24 +29,35 @@ Uporabite filtre na levi strani (Omogočeno / Onemogočeno) za prikaz samo aktiv
 
 ## Dejanja
 
-### Ustvarjanje novega bančnega računa
-Za dodajanje novega bančnega računa kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
+### Dodati novega bančnega računa
 
+Za ustvarjanje novega bančnega računa:
+
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
 ![Dodaj bančni račun](../Images/BankAccountsNew.png)
+3. Kliknite **Dodaj**, da shranite nov račun.
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-Kliknite **Dodaj**, da shranite nov račun.
+### Urediti obstoječega računa
 
-### Urejanje obstoječega računa
+Za urejanje bančnega računa:
+
 1. Odprite vnos v Poslovnem imeniku.  
 2. Kliknite oznako **Bančni računi**.  
 3. Izberite račun s seznama.  
 4. Posodobite IBAN, stanje aktivnosti ali možnost maske.  
 5. Kliknite **Shrani**.
 
-### Brisanje
-Bančni račun je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v drugih dokumentih (npr. izdanih računih ali plačilih).
+### Izbrisati bančni račun
 
-> [!NOTE]
-> Brisanje bančnega računa **ne izbriše** vnosa v Poslovnem imeniku, kateremu pripada.
+Za brisanje bančnega računa:
+
+1. Odprite vnos v Poslovnem imeniku.
+2. Kliknite oznako **Bančni računi**.
+3. Izberite račun s seznama.
+4. Kliknite **Izbriši**. Pojavi se potrditveno okno. Če potrdite, bo bančni račun izbrisan.
+
+Bančni račun je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v drugih dokumentih (npr. izdanih računih ali plačilih).

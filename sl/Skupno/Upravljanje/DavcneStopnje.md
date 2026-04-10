@@ -37,12 +37,14 @@ Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem
 
 ## Dejanja
 
-### Dodaj novo davčno stopnjo
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
+### Dodati novo davčno stopnjo
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
+3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
 
-Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Dodaj novo davčno stopnjo](../Images/TaxRatesNew.png "Dodaj novo davčno stopnjo")
 
@@ -54,16 +56,20 @@ Polji **Debet** in **Kredit** omogočata izbor kontov iz šifranta **[Konti](../
 > [!NOTE]
 Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
-### Urejanje obstoječe davčne stopnje
-Za urejanje obstoječe davčne stopnje kliknite njeno **Ime** na seznamu.  
-Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
+### Urediti obstoječe davčne stopnje
 
-### Brisanje
-Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
+Za urejanje obstoječe davčne stopnje: 
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+1. Kliknite njeno **Ime** na seznamu.  
+2. Vmesnik se preklopi v način urejanja, kjer so prikazane obstoječe vrednosti za spremembe.  
+3. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-Če potrdite, se zapis trajno odstrani; sicer sistem ohrani obstoječe stanje.
+### Izbrisati davčno stopnjo
+
+Za brisanje davčne stopnje:
+
+1. Kliknite njeno **Ime** na seznamu.  
+2. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno. Če potrdite, se zapis trajno odstrani; sicer sistem ohrani obstoječe stanje.
 
 > [!NOTE]
 > Davčno stopnjo je mogoče izbrisati le, če ni uporabljena v nobenem od odvisnih zapisov.

@@ -42,8 +42,11 @@ Clicking on a row opens the record in edit mode.
 To create a new transport mode, follow these steps:
 
 1. Click on the [action button](../UI/ActionButton.md) to open the form for creating a new transport mode.
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant. 
 3. Click **Add** to create the record or **Cancel** to return to the list without saving.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
 
 ![New mode of transport](../Images/TransportModesNew.png "New mode of transport")
 

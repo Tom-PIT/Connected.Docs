@@ -47,26 +47,33 @@ Seznam prikazuje ime merske enote, okrajšavo in natančnost.
 
 ## Dejanja
 
-### Ustvarjanje nove merske enote
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo mersko enoto.
+### Dodati novo mersko enoto
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+Za dodajanje nove merske enote:
 
-Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje merske enote ali **Prekliči** za vrnitev na seznam.
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo mersko enoto.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
+3. Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje merske enote ali **Prekliči** za vrnitev na seznam.
+
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Dodaj mersko enoto](../Images/NewMeasureUnit.png "Dodaj mersko enoto")
 
-### Urejanje merske enote
-Za urejanje obstoječe merske enote kliknite njeno **Ime** na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe.
+### Urediti mersko enoto
+Za urejanje obstoče merske enote: 
+
+1. Kliknite njeno **Ime** na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe.
+2. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
 ![Urejanje merske enote](../Images/MeasureUnitsEdit.png "Urejanje merske enote")
 
-Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
+### Izbrisati mersko enoto
 
-### Brisanje
-Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
+Za izbris merske enote:
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+1. Kliknite njeno **Ime** na seznamu.
+2. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno. Potrdite, da želite izbrisati ta zapis.
 
 Če potrdite, se vnos trajno odstrani; sicer sistem ohrani obstoječe stanje.
 

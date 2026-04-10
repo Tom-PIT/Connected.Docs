@@ -56,8 +56,11 @@ The list displays each measure unit's name, abbreviation, and precision.
 To create a new measure unit, follow these steps:
 
 1. Click on the [**action button**](../UI/ActionButton.md) to add a new measure unit.
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to save the measure unit or **Cancel** to return to the list view.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
 
 ![Add measure unit](../Images/NewMeasureUnit.png "Add measure unit")
 
