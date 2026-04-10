@@ -47,7 +47,7 @@ Možnosti entitet:
 
 ![Entitete prednastavljenih besedil](../Images/PredefinedTextsEntityFilter.png "Možnosti entitet")
 
-### Urediti obstoječe prednastavljeno besedilo
+### Urediti prednastavljeno besedilo
 
 Za urejanje obstoječega prednastavljenega besedila:
 

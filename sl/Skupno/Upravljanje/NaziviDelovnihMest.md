@@ -23,7 +23,7 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 
 ## Dejanja
 
-### Dodati novega naziva delovnega mesta
+### Dodati naziv delovnega mesta
 
 Za ustvarjanje novega naziva delovnega mesta: 
 
@@ -34,7 +34,7 @@ Za ustvarjanje novega naziva delovnega mesta:
 ![Dodaj nov naziv delovnega mesta](../Images/JobTitlesNew.png "Dodaj nov naziv delovnega mesta")
 
 
-### Urediti obstoječega naziva delovnega mesta
+### Urediti naziv delovnega mesta
 
 Za urejanje obstoječega naziva delovnega mesta:
 

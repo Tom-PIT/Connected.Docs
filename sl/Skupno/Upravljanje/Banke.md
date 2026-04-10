@@ -49,7 +49,7 @@ Za vstvarjanje nove banke:
 
 ![Banke – nova](../Images/BanksNew.png "Dodaj novo banko")
 
-### Urediti obstoječo banko
+### Urediti banko
 
 Za urejanje obstoječe banke: 
 

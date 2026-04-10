@@ -56,7 +56,7 @@ Polji **Debet** in **Kredit** omogočata izbor kontov iz šifranta **[Konti](../
 > [!NOTE]
 Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
-### Urediti obstoječe davčne stopnje
+### Urediti davčno stopnjo
 
 Za urejanje obstoječe davčne stopnje: 
 
