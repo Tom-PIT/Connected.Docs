@@ -39,7 +39,7 @@ Stran Proizvodni nalogi prikazuje vse naloge, razvrščene po statusu. Za natan�
 
 Iskalno polje na vrhu omogoča filtriranje po šifri proizvodnega naloga ali nazivu materiala.
 
-## Ustvarjanje proizvodnega naloga
+## Dodati proizvodni nalog
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in sledite vodenemu tristopenjskemu čarovniku:
 
@@ -113,13 +113,21 @@ V osnutku je mogoče urejati:
 
 ![Osnutek proizvodnega naloga](../Images/ProductionOrdersDraft.png "Osnutek proizvodnega naloga")
 
-### Objavljanje osnutka
+### Objaviti osnutek
 
 Za prehod v stanje **V obdelavi** mora biti izbrana **Organizacijska enota**.
 
 ![Izbira organizacijske enote](../Images/ProductionOrdersOrganizationUnits.png "Izbira organizacijske enote")
 
 Ko je pripravljeno, kliknite **Objavi**.
+
+## Urediti proizvodni nalog
+
+Osnutke nalogov lahko prosto urejate, medtem ko je urejanje aktivnih in zaprtih nalogov omejeno. Če želite urediti nalog:
+
+1. Kliknite nalog na seznamu, da odprete njegove podrobnosti.
+2. Izvedite potrebne spremembe.
+3. Kliknite **Shrani**, da uporabite spremembe, ali **Prekliči**, da jih zavržete.
 
 ## Proizvodni nalogi v obdelavi
 
@@ -202,7 +210,7 @@ Zaključeni proizvodni nalogi ponujajo dodatne možnosti v akcijskem meniju:
 
 ![Meni zaključenega naloga](../Images/ProductionOrderClosedMenu.png)
 
-### Povrnitev v aktivno stanje
+### Povrniti proizvodni nalog v aktivno stanje
 
 Če so po zaključku potrebne spremembe, lahko nalog povrnete v stanje **Aktiven**:
 
@@ -212,11 +220,14 @@ Zaključeni proizvodni nalogi ponujajo dodatne možnosti v akcijskem meniju:
 
 ![Ponovna aktivacija naloga](../Images/ProductionOrdersReactivate.png)
 
-## Brisanje
+## Izbrisati proizvodni nalog
 
 Proizvodni nalog je mogoče izbrisati samo v stanju **Osnutek** ali **V pripravi** in le, če nanj niso vezani drugi dokumenti.
 
-Uporabite možnost **Izbriši** v glavi dokumenta.
+Za izbris:
+
+1. Odprite proizvodni nalog v stanju **Osnutek** ali **V pripravi**.
+2. Kliknite **Izbriši**. Pojavi se potrditveno okno. Če potrdite, bo nalog trajno odstranjen iz sistema.
 
 > [!NOTE]
 >

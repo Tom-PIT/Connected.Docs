@@ -28,7 +28,7 @@ The Production orders page displays all orders grouped by status. Use the filter
 
 ![Production Orders List](../Images/ProductionOrdersList.png "Production Orders List")
 
-### Available filters
+### Filters
 
 - **Production order dates** – Filter orders by date range.  
 - **View** – Shows orders by life cycle stage:  
@@ -40,7 +40,7 @@ The Production orders page displays all orders grouped by status. Use the filter
 
 The search bar at the top allows filtering by production order code or material name.
 
-## Creating a production order
+## Create a production order
 
 Click the [**action button**](../../../Common/UI/ActionButton.md) and follow the guided three-step wizard:
 
@@ -89,7 +89,7 @@ If total quantity = **6 pieces**
 
 ![Production Orders New Step3 Partial Productions](../Images/ProductionOrdersNewStep3PartialProductions.png)
 
-#### **Dates**
+#### Dates
 
 Specify scheduling details for [planning](../../Planning/Views/Planning.md) purposes (optional):
 - **Deadline date** - the date by which production should be completed.
@@ -114,7 +114,7 @@ Drafts allow editing of:
 
 ![Draft](../Images/ProductionOrdersDraft.png "Draft production order")
 
-### Publishing a draft
+### Publish a draft production order
 
 To move the draft to **Pending**, the **Organization unit** must be selected.
 
@@ -122,6 +122,13 @@ To move the draft to **Pending**, the **Organization unit** must be selected.
 
 Click **Publish** when ready.
 
+## Edit a production order
+
+Draft orders can be edited freely, while Active and Closed orders have limited editability. To edit an order:
+
+1. Click on the desired order from the list to open its details.
+2. Make the necessary changes.
+3. Click **Save** to apply the changes or **Cancel** to discard them.
 
 ## Pending production orders
 
@@ -204,7 +211,7 @@ Closed production orders offer additional options in the action menu:
 
 ![Production Order Closed Menu](../Images/ProductionOrderClosedMenu.png)
 
-### Reverting to active
+### Revert a closed production order to active
 
 If modifications are necessary after closing, you can revert the order back to **Active**:
 
@@ -214,11 +221,14 @@ If modifications are necessary after closing, you can revert the order back to *
 
 ![Production Orders Reactivate](../Images/ProductionOrdersReactivate.png)
 
-## Deletion
+## Delete a production order
 
 A production order can be deleted only when in **Draft or Pending states** and if it is not referenced by other documents.  
 
-Use the **Delete** option in the header.
+To delete a production order:
+
+1. Select a draft or pending order from the list to open its details.
+2. Click **Delete**. A confirmation dialog will appear. If confirmed, the order will be permanently removed from the system.
 
 > [!NOTE]
 >
