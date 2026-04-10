@@ -63,7 +63,7 @@ Austria,3079,AT,true
 Italy,1040,IT,false
 ```
 
-### Dodati nove države
+### Dodati novo državo
 
 Za ustvarjanje nove države sledite tem korakom:
 
@@ -76,7 +76,7 @@ Za ustvarjanje nove države sledite tem korakom:
 
 ![Nova država](../Images/NewCountry.png "Nova država")
 
-### Urediti obstoječo državo
+### Urediti državo
 
 Za urejanje obstoječega zapisa:
 
