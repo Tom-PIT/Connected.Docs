@@ -36,23 +36,29 @@ Klik na vrstico odpre zapis v načinu urejanja.
 
 ## Dejanja
 
-### Dodajanje nove vrste transporta
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove vrste transporta.
+### Dodati novo vrsto transporta
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+Za ustvarjanje nove vrste transporta:
 
-Kliknite **Dodaj**, da ustvarite zapis, ali **Prekliči**, da se vrnete na seznam brez shranjevanja.
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove vrste transporta.
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
+3. Kliknite **Dodaj**, da ustvarite zapis, ali **Prekliči**, da se vrnete na seznam brez shranjevanja.
 
 ![Dodaj vrsto transporta](../Images/TransportModesNewSL.png "Dodaj vrsto transporta")
 
-### Urejanje obstoče vrste transporta
-Za urejanje obstoječe vrste transporta kliknite njeno **Šifro** v seznamu.  
-Zaslon se preklopi v način urejanja, kjer lahko posodobite vrednosti polj.
+### Urediti vrsto transporta
+Za urejanje obstoče vrste transporta: 
 
-Kliknite **Dodaj** za shranjevanje sprememb ali **Prekliči** za zavrnitev sprememb.
+1. Kliknite njeno **Šifro** v seznamu.
+2. Zaslon se preklopi v način urejanja, kjer lahko posodobite vrednosti polj.
+3. Kliknite **Dodaj** za shranjevanje sprememb ali **Prekliči** za zavrnitev sprememb.
 
-### Brisanje
-Za brisanje vrste transporta uporabite možnost **Izbriši** v pogledu urejanja in potrdite brisanje v pogovornem oknu.
+### Izbrisati vrsto transporta
+
+Za brisanje vrste transporta: 
+
+1. Kliknite njeno **Šifro** v seznamu.
+2. V načinu urejanja kliknite **Izbriši**, nato potrdite brisanje v pogovornem oknu.
 
 > [!NOTE]
 > Vrsto transporta je mogoče izbrisati samo, če ni uporabljena v nobenem obstoječem dokumentu.

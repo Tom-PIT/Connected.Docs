@@ -38,8 +38,11 @@ Click on the [action button](../UI/ActionButton.md) to display the following act
 To create a new postal code, follow these steps:
 
 1. Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the form to add a new postal code.
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant. 
 3. Click **Add** to save the new postal code or **Cancel** to return to the list view.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
 
 ![Add postal code](../Images/PostalCodesNew.png)
 

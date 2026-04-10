@@ -31,8 +31,11 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive ti
 To create a new job title, follow these steps:
 
 1. Click on the [**action button**](../../Common/UI/ActionButton.md) to add a new job title.
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to save the new job title.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
 
 ![Add new job title](../Images/JobTitlesNew.png)
 

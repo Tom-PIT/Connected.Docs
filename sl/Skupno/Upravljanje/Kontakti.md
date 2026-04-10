@@ -8,7 +8,6 @@
 
 Vsak kontakt vključuje **naziv delovnega mesta**, izbran iz vnaprej definiranega šifranta [**Nazivi delovnih mest**](NaziviDelovnihMest.md).
 
-### Dostop do kontaktov
 Kontakti so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite to oznako, da odprete vmesnik za upravljanje kontaktov, povezanih z izbranim partnerjem.
 
 ![Gumb kontakti](../Images/ContactsButtonSL.png "Gumb kontakti")
@@ -27,30 +26,43 @@ Kontakti so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kliknite
 | **Aktiven** | Označuje, ali je kontakt na voljo za izbiro v dokumentih. |
 
 ## Seznamski pogled
+
 Seznam kontaktov prikazuje vse kontakte, povezane z izbranim vnosom v Poslovnem imeniku.
 
 ![Seznam kontaktov](../Images/ContactsList.png "Seznam kontaktov")
 
 Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih ali neaktivnih kontaktov.
 
-## Ustvarjanje novega kontakta
-Za dodajanje novega kontakta kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
+## Dodati novega kontakta
+
+Za ustvarjanje novega kontakta: 
+
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md).
+2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
+3.Kliknite **Dodaj**, da shranite nov kontakt.
+
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Nov kontakt](../Images/ContactsNew.png "Nov kontakt")
 
-Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+## Urediti obstoječega kontakta
 
-Kliknite **Dodaj**, da shranite nov kontakt.
-
-## Urejanje obstoječega kontakta
+Za urejanje obstoječega kontakta:
+ 
 1. Odprite vnos v Poslovnem imeniku.  
 2. Kliknite oznako **Kontakti**.  
 3. Izberite kontakt s seznama.  
 4. Posodobite poljubno polje (ime, e-pošta, telefon, naziv delovnega mesta, oznake itd.).  
 5. Kliknite **Shrani**.
 
-## Brisanje
-Kontakt je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v drugih dokumentih.
+## Izbrisati kontakta
 
-> [!NOTE]  
-> Brisanje kontakta **ne izbriše** pripadajočega vnosa v Poslovnem imeniku.
+Za brisanje kontakta:
+
+1. Odprite vnos v Poslovnem imeniku.
+2. Kliknite oznako **Kontakti**.
+3. Izberite kontakt s seznama.
+4. Kliknite **Izbriši**.
+
+Kontakt je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v drugih dokumentih.

@@ -106,12 +106,13 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 To create a new business directory entry, follow these steps:
 
 1. Click on the [**action button**](../UI/ActionButton.md) and select **New**. This action opens the form for creating a new entry. 
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+2. Fill in all required fields. Optional fields can be completed if relevant. 
 3. Click **Add** to save the new record or **Cancel** to return to the list view without saving.
 
 ![New Business Directory Entry](../Images/NewBusinessDirectory.png "New Business Directory Entry")
 
-Additional collapsible sections are available:
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
 
 #### Edit contact
 

@@ -36,8 +36,11 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive un
 To create a new business unit, follow these steps:
 
 1. Click on the [**action button**](../UI/ActionButton.md).
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant. 
 3. Click **Add** to save the new business unit or **Cancel** to return to the list view.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
 
 ![Add business unit](../Images/BusinessUnitsNew.png "Add business unit")
 

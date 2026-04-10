@@ -78,8 +78,11 @@ Italy,1040,IT,false
 To create a new country record, follow these steps:
 
 1. Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the input form for adding a new country.
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to create the record or **Cancel** to return to the list view without saving.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
 
 ![New Country](../Images/NewCountry.png "New Country")
 

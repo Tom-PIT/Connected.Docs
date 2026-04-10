@@ -23,22 +23,34 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 
 ## Dejanja
 
-### Ustvarjanje novega naziva delovnega mesta
-Za dodajanje novega naziva delovnega mesta kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Novo**.
+### Dodati novega naziva delovnega mesta
+
+Za ustvarjanje novega naziva delovnega mesta: 
+
+1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md).
+2. Izpolnite **Ime** in nastavite **Aktiven** glede na to, ali želite, da je ta naziv delovnega mesta na voljo za izbiro pri ustvarjanju kontaktov.
+3. Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
 
 ![Dodaj nov naziv delovnega mesta](../Images/JobTitlesNew.png "Dodaj nov naziv delovnega mesta")
 
-Izpolnite **Ime** in nastavite **Aktiven** glede na to, ali želite, da je ta naziv delovnega mesta na voljo za izbiro pri ustvarjanju kontaktov. 
 
-Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
+### Urediti obstoječega naziva delovnega mesta
 
-### Urejanje obstoječega naziva delovnega mesta
+Za urejanje obstoječega naziva delovnega mesta:
+
 1. Odprite **Stranke → Upravljanje → Nazivi delovnih mest**.  
 2. Izberite naziv delovnega mesta s seznama.  
 3. Posodobite ime ali stanje aktivnosti.  
 4. Kliknite **Shrani**.
 
-### Brisanje
+### Izbrisati naziv delovnega mesta
+
+Za brisanje naziva delovnega mesta:
+
+1. Odprite **Stranke → Upravljanje → Nazivi delovnih mest**.
+2. Izberite naziv delovnega mesta s seznama.
+3. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno. Potrdite, da želite izbrisati ta zapis.
+
 Naziv delovnega mesta je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljen v obstoječih kontaktih.
 
 > [!NOTE]  

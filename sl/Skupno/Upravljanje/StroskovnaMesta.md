@@ -25,20 +25,31 @@ Za filtriranje stroškovnih mest po imenu ali kodi lahko uporabite **iskalno vrs
 
 ## Dejanja
 
-### Dodaj novo stroškovno mesto
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete obrazec za ustvarjanje in dodate novo stroškovno mesto.
+### Dodati novo stroškovno mesto
+
+Za ustvarjanje novega stroškovnega mesta:
+
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete obrazec za ustvarjanje
+2. Izpolnite vsa obvezna polja.
+3. Kliknite **Dodaj**, da shranite novo stroškovno mesto.
 
 ![Dodaj novo stroškovno mesto](../Images/CostCentersNew.png "Dodaj stroškovno mesto")
 
-### Urejanje stroškovnega mesta
-Kliknite katerikoli vnos na seznamu, da odprete zaslon za urejanje, kjer lahko prilagodite **šifro** ali **ime**.
+### Urediti stroškovno mesto
 
-### Brisanje
-Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
+Za urejanje obstoječega stroškovnega mesta:
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+1. Kliknite vnos na seznamu, da odprete zaslon za urejanje.
+2. Prilagodite **Šifro** ali **Ime**.
+3. Kliknite **Shrani**, da potrdite spremembe ali **Prekliči**, da zavrnete spremembe in ohranite obstoječe stanje. 
 
-Če potrdite, se zapis trajno odstrani; sicer sistem ohrani obstoječe stanje.
+### Izbrisati stroškovno mesto
+
+Za brisanje stroškovnega mesta:
+
+1. Kliknite vnos na seznamu, da odprete zaslon za urejanje.
+2. Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno. 
+3. Če brisanje potrdite, se zapis trajno odstrani. Če ga prekličete, sistem ohrani obstoječe stanje.
 
 > [!NOTE]  
 > Stroškovno mesto je mogoče izbrisati le, če ni uporabljeno v dokumentih ali drugih sistemskih entitetah.

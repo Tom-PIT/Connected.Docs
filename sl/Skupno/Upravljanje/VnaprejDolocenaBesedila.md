@@ -31,8 +31,13 @@ Na voljo je **iskalno polje** za hitro iskanje po kodi ali vsebini besedila.
 
 ## Dejanja
 
-### Dodaj novo prednastavljeno besedilo
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da ustvarite novo prednastavljeno besedilo.
+### Dodati novo prednastavljeno besedilo
+
+Za ustvarjanje novega prednastavljenega besedila:
+
+1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da ustvarite novo prednastavljeno besedilo.
+2. Izpolnite vsa obvezna polja.
+3. Kliknite **Dodaj**, da shranite novo prednastavljeno besedilo.
 
 ![Dodaj prednastavljeno besedilo](../Images/PredefinedTextsNew.png "Dodaj prednastavljeno besedilo")
 
@@ -42,15 +47,21 @@ Možnosti entitet:
 
 ![Entitete prednastavljenih besedil](../Images/PredefinedTextsEntityFilter.png "Možnosti entitet")
 
-### Urejanje
-Kliknite katerikoli zapis na seznamu, da odprete zaslon za urejanje. Tam lahko spremenite **entiteto**, **šifro** ali **besedilo**.
+### Urediti obstoječe prednastavljeno besedilo
 
-### Brisanje
-Kliknite **Izbriši**, da odprete potrditveno pogovorno okno:
+Za urejanje obstoječega prednastavljenega besedila:
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+1. Kliknite zapis na seznamu, da odprete zaslon za urejanje.
+2. Spremenite **Entiteto**, **Šifro** ali **Besedilo**.
+3. Kliknite **Shrani**, da potrdite spremembe ali **Prekliči**, da zavrnete spremembe in ohranite obstoječe stanje.
 
-Če potrdite, se zapis trajno odstrani; sicer sistem ohrani obstoječe stanje.
+### Izbrisati prednastavljeno besedilo
+
+Za izbris prednastavljenega besedila:
+
+1. Kliknite zapis na seznamu, da odprete zaslon za urejanje.
+2. Kliknite **Izbriši**, da odprete potrditveno pogovorno okno.
+3. Če brisanje potrdite, se zapis trajno odstrani. Če ga prekličete, sistem ohrani obstoječe stanje.
 
 > [!NOTE]  
 > Prednastavljeno besedilo je mogoče izbrisati le, če ni uporabljeno v odvisnih dokumentih.
