@@ -11,7 +11,7 @@ These invoices are typically used for **retail (B2C) sales** and are reported to
 
 To access this page, go to **Sales / Views / Fiscal invoices** in the [**navigation**](../../../Common/UI/Navigation.md).
 
-![Fiscal invoices list](../Images/FiscalInvoicesList.png "Fiscal invoices list")
+![Fiscal invoices list](../Images/FiscalInvoicesListV2.png "Fiscal invoices list")
 
 ## Fiscal invoice list
 
@@ -22,6 +22,10 @@ Each entry includes:
 - **Invoice number**  
 - **Customer**  
 - **Issue date**  
+
+The color on the left side of each entry indicates the invoice status:
+- **Green** — Successfully fiscalized and reported to the tax authority
+- **Orange** — Data not yet sent to the tax authority
 
 ### Filters
 
