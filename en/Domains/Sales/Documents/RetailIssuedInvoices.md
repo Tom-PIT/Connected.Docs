@@ -20,6 +20,19 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 5. The invoice moves automatically to **Partially paid** or **Fully paid** based on recorded payments.  
 6. Stock is adjusted separately using an [**Issue**](../../Logistics/Documents/Issues.md) document (or [**Delivery note**](DeliveryNotes.md) + [**Issue**](../../Logistics/Documents/Issues.md) if goods are delivered).
 
+## Conditions for a retail issued invoice to be fiscalized (if fiscalization is enabled in the system)
+
+To ensure that a retail issued invoice can be fiscalized, the following conditions must be met:
+
+1. **Personal configuration:** The person creating the invoice must have a **tax number** specified in their [resource record](../../Production/Management/Resources.md).
+2. **System configuration:** The system must be configured for fiscalization, and the necessary [fiscalization settings](../../System/Settings/SalesRetailsSISettings.md) must be in place.
+3. **Cash-register configuration**: Configuration of the specific cash-register used for the transaction. This is configured by the **Tom PIT** team during implementation and is not user-configurable. Specific cash-registers are set in the [Cost centers](../../Common/Management/CostCenters.md) screen.
+
+When these conditions are met, the retail issued invoice can be fiscalized upon publishing, ensuring compliance with tax regulations for retail sales.
+
+> [!NOTE]
+> Tom PIT Connected allows fiscalization of retail issued invoices in in **Slovenia** and **Croatia**, at the moment. Fiscalization is the process of reporting sales transactions to the tax authority in real time, ensuring compliance with local tax regulations for retail sales.
+
 ## Schema
 
 <details open>

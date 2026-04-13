@@ -21,6 +21,19 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 5. Račun se samodejno premakne v stanje **Delno plačano** ali **V celoti plačano**, glede na prejeta plačila.  
 6. Zaloga se prilagodi ločeno z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md) (ali z uporabo [**Dobavnice**](Dobavnice.md) + [**Izdaje**](../../Logistika/Dokumenti/Izdajnice.md), če gre za dostavo).
 
+## Pogoji za davčno potrjevanje maloprodajnega izdanega računa (če je davčno potrjevanje omogočeno v sistemu)
+
+Da se maloprodajni izdani račun lahko davčno potrdi, morajo biti izpolnjeni naslednji pogoji:
+
+1. **Osebna konfiguracija:** Oseba, ki ustvarja račun, mora imeti določeno **davčno številko** v svojem [zapisu vira](../../Proizvodnja/Upravljanje/Viri.md).
+2. **Sistemska konfiguracija:** Sistem mora biti nastavljen za davčno potrjevanje, potrebne [nastavitve davčnega potrjevanja](../../Sistem/Nastavitve/KonfiguracijaMaloprodajaSI.md) pa morajo biti pravilno konfigurirane.
+3. **Konfiguracija blagajne:** Konfiguracija konkretne blagajne, uporabljene za transakcijo. To konfiguracijo nastavi ekipa **Tom PIT** ob implementaciji in je uporabnik ne more spreminjati. Specifične blagajne so nastavljene na zaslonu [Stroškovna mesta](../../Skupno/Upravljanje/StroskovnaMesta.md).
+
+Ko so ti pogoji izpolnjeni, se lahko maloprodajni izdani račun ob objavi davčno potrdi, kar zagotavlja skladnost z davčno zakonodajo za maloprodajo.
+
+> [!NOTE]
+> Tom PIT Connected trenutno omogoča davčno potrjevanje maloprodajnih izdanih računov v **Sloveniji** in **Hrvaški**. Davčno potrjevanje je proces sprotnega poročanja prodajnih transakcij davčnemu organu, kar zagotavlja skladnost z lokalnimi davčnimi predpisi za maloprodajo.
+
 ## Shema
 
 <details open>
