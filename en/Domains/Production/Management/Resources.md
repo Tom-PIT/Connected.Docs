@@ -14,6 +14,9 @@ To access this page, navigate to the **Production** or **Maintenance** domains, 
 
 ## Schema
 
+<details open>
+  <summary><strong>General</strong></summary>
+
 The following table lists all fields used across **Human**, **Non-human**, and **Team** resources.
 
 | Field | Description | H | NH | T |
@@ -26,7 +29,27 @@ The following table lists all fields used across **Human**, **Non-human**, and *
 | **Resource parent** | Parent resource for hierarchical grouping. |  | ✔️ |  |
 | **External Key** | External identifier for integration. |  | ✔️ |  |
 | **Members** | Human resources included in the team. |  |  | ✔️ |
+| **Article** | Article related to the specific non-human resource. |  | ✔️ |  |
 | **Enabled** | Indicates whether the resource/team is active. | ✔️ | ✔️ | ✔️ |
+
+</details>
+
+<details>
+  <summary><strong>Basic details</strong></summary>
+
+This table lists the fields used in the **Basic details** section of the resource edit form for human resources.
+
+| Field | Description | 
+|-------|-------------|
+| **First name** | First name of the resource. |
+| **Last name** | Last name of the resource. |
+| **Country** | Country of residence. | 
+| **Postal code** | Postal code of the resource's location. |
+| **Street address** | Street address of the resource's location. |
+| **Date of birth** | Date of birth of the resource. |
+| **Tax number** | Tax number of the resource (mandatory field to create tax-compliant [retail issued invoices](../../Sales/Documents/RetailIssuedInvoices.md). |
+
+</details>
 
 ## Toolbar actions
 

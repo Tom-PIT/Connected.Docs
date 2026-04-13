@@ -14,6 +14,9 @@ Za dostop do tega zaslona pojdite na **Proizvodnja / Upravljanje / Viri** ali **
 
 ## Shema
 
+<details open>
+  <summary><strong>Glavne podrobnosti</strong></summary>
+
 Spodnja tabela prikazuje vsa polja, ki se uporabljajo pri **človeških**, **nečloveških** in **ekipnih** virih.
 
 | Polje | Opis | Č | NČ | E |
@@ -26,7 +29,27 @@ Spodnja tabela prikazuje vsa polja, ki se uporabljajo pri **človeških**, **ne�
 | **Nadrejeni stvarni vir** | Nadrejeni vir za hierarhično združevanje. |  | ✔️ |  |
 | **Zunanji ključ** | Zunanji identifikator za integracije. |  | ✔️ |  |
 | **Člani** | Človeški viri, vključeni v ekipo. |  |  | ✔️ |
+| **Članek** | Članek, povezan s specifičnim nečloveškim virom. |  | ✔️ |  |
 | **Omogočeno** | Označuje, ali je vir oziroma ekipa aktivna. | ✔️ | ✔️ | ✔️ |
+
+</details>
+
+<details>
+  <summary><strong>Osnovni podatki</strong></summary>
+
+Tabela spodaj prikazuje dodatna polja, specifična za človeške vire, ki zajemajo osnovne podatke o posamezniku.
+
+| Polje | Opis | 
+|-------|-------------|
+| **Ime** | Ime vira. |
+| **Priimek** | Priimek vira. |
+| **Država** | Država bivališča. | 
+| **Poštna številka** | Poštna številka lokacije vira. |
+| **Ulica** | Ulica lokacije vira. |
+| **Datum rojstva** | Datum rojstva vira. |
+| **Davčna številka** | Davčna številka vira (obvezno polje za ustvarjanje davčno skladnih [maloprodajnih računov](../../Prodaja/Dokumenti/MaloprodajniRacuni.md). |
+
+</details>
 
 ## Dejanja v orodni vrstici
 
