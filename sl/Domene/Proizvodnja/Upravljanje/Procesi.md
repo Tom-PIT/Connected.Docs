@@ -99,7 +99,7 @@ Verzija vključuje:
 - Kontrole za omogočanje/onemogočanje  
 - Možnost **zaklepa** verzije za preprečitev nadaljnjih sprememb  
 
-## Izračun stroška verzije
+### Predkalkulacija (izračun stroška verzije)
 
 Na zaslonu **Verzije** lahko ocenite **strošek proizvodnje na kos** za izbrano verzijo procesa.
 
@@ -121,7 +121,7 @@ Ko kliknete **Izračunaj**, sistem izračuna ocenjeni strošek proizvodnje enega
 
 S klikom na **vrednost stroška** se odpre stran **[Analiza stroška verzije](../Analiza/AnalizaStroskaVerzije.md)**, kjer je prikazana celotna struktura stroškov.
 
-## Operacije znotraj verzije
+### Operacije znotraj verzije
 
 Verzija vsebuje zaporedje **[operacij](Operacije.md)**, pri čemer vsaka predstavlja posamezen korak procesa. Operacije lahko vključujejo na primer rezanje, barvanje, sestavljanje, pakiranje (proizvodnja) ali pregled, mazanje, kalibracijo (vzdrževanje).
 

@@ -101,8 +101,7 @@ A version includes:
 - The option to **lock** a version to prevent edits  
 - Version cost calculation and analysis features
 
-
-## Version cost calculation
+### Pre-calculation (Version cost calculation)
 
 From the **Versions** screen you can estimate the **production cost per item** for a specific process version.
 
@@ -124,7 +123,7 @@ If changes are made to the version (for example operations, materials, or resour
 
 Clicking on the **cost value** opens the detailed [**version cost analysis**](../Analytics/VersionCostView.md) page, where the full cost structure is displayed.
 
-## Operations inside a version
+### Operations inside a version
 
 A version contains a sequence of **[operations](Operations.md)**, each representing a step of the process. Operations may include, for example, cutting, painting, assembly, packaging (production), or inspection, lubrication, calibration (maintenance).
 

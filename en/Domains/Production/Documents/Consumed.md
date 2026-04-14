@@ -1,5 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Execution -->
+<!-- app_navigation_hint: In Execution, click the action button and select Consumed. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Consumed.md -->
 <!-- canonical_source_title: Consumed -->
 
