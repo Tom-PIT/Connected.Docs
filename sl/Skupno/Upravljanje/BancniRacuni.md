@@ -1,5 +1,6 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
+<!-- app_navigation_hint: Odprite Poslovni imenik in kliknite oznako Bančni računi pod imenom podjetja. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/BancniRacuni.md -->
 <!-- canonical_source_title: Bančni računi -->
 
