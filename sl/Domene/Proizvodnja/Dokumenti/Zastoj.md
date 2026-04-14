@@ -1,5 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Izvedba -->
+<!-- app_navigation_hint: V Izvedbi, kliknite akcijski gumb in izberite Zastoj. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Zastoj.md -->
 <!-- canonical_source_title: Zastoj -->
 

@@ -1,5 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Execution -->
+<!-- app_navigation_hint: In Execution, tap the action button and select Downtime. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Downtime.md -->
 <!-- canonical_source_title: Downtime -->
 
