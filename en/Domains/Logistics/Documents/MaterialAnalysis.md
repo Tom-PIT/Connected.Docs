@@ -29,7 +29,7 @@ To access **Material analysis**, go to **Logistics / Documents / Material analys
 
 The list shows all material analysis documents created during receiving for materials with configured analyses. Use search or filters to locate entries by status.
 
-![Material Analysis List](../Images/MaterialAnalysisList.png)
+![Material Analysis List](../Images/MaterialAnalysisListV2.png)
 
 ## Reviewing and passing an analysis
 

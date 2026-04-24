@@ -29,7 +29,7 @@ Za dostop do **Analize materialov** pojdite na **Logistika / Dokumenti / Analiza
 
 Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu materialov, za katere je zahtevana analiza. Uporabite iskalnik ali filtre za iskanje po stanju.
 
-![Seznam analiz materialov](../Images/MaterialAnalysisList.png)
+![Seznam analiz materialov](../Images/MaterialAnalysisListV2.png)
 
 ## Pregled in potrjevanje analize
 
