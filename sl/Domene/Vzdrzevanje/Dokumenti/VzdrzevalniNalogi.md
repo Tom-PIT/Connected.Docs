@@ -70,66 +70,7 @@ Iskalno polje omogoča filtriranje po kodi vzdrževalnega naloga ali nazivu opre
 
 ## Ustvarjanje vzdrževalnega naloga
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vzdrževalni nalog.
-
-Čarovnik za ustvarjanje je sestavljen iz **treh korakov**, podobno kot pri proizvodnih nalogih.
-
-### Korak 1 — Izberi tip naloga in entiteto
-
-Izberite:
-- **Tip naloga**
-- **Entiteta** – Oprema, ki bo vzdrževana
-
-> [!NOTE]
-> Pri ročnem ustvarjanju vzdrževalnega naloga je tip naloga vedno **Preventiva**.
->
-> **Kurativni** vzdrževalni nalogi se ustvarijo iz **prijavljenih okvar**.
-
-Nato iz seznama izberite konkretno opremo.
-
-![Maintenance Orders Step 1](../Images/MaintenanceOrdersNewStep1.png "Ustvari vzdrževalni nalog – korak 1")
-
-### Korak 2 — Izberi proces
-
-Izberite **vzdrževalni [proces](../../Proizvodnja/Upravljanje/Procesi.md)** in
-**verzijo procesa**, ki določa vzdrževalne operacije.
-
-![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2.png "Ustvari vzdrževalni nalog – korak 2")
-
-> [!NOTE]
-> Če v tem koraku ni razpoložljivih procesov, preverite:
-> - Ali ima proces dodeljeno oznako **Vzdrževanje**
-> - Ali so v operacijah procesa definirani **nečloveški viri**
-> - Ali ima proces vsaj eno **aktivno verzijo**
-
-### Korak 3 — Ustvari urnik
-
-Določite, kako in kdaj se bo vzdrževalni nalog izvajal.
-
-#### Tip urnika
-
-Na voljo sta dva načina razporejanja:
-
-- **Čas** — Razporeditev vzdrževanja za določen datum ali ponavljajoči interval
-
-  ![Maintenance Orders Step 3 Time](../Images/MaintenanceOrdersNewStep3.png "Ustvari vzdrževalni nalog – časovni urnik")
-
-- **Števec** — Razporeditev vzdrževanja glede na uporabo ali števce
-
-  ![Maintenance Orders Step 3 Count](../Images/MaintenanceOrdersNewStep3Count.png "Ustvari vzdrževalni nalog – urnik po števcu")
-
-> [!NOTE]
-> Urniki na podlagi uporabe temeljijo na števcih virov in opreme
-> (npr. kosi, metri, grami, ure).
-> Za nastavitev glejte **[Stanja števcev](StanjaStevcev.md)**
-
-Če je izbran **vzorec ponavljajoče izvedbe** (npr. *Mesečno*, *Vsakih X dni* ali *Letno*),
-se samodejno ustvari **vzdrževalni urnik**, ki bo generiral vzdrževalne naloge
-v skladu z določenim vzorcem.
-
-![Maintenance Orders Schedule](../Images/MaintenanceOrdersNewStep3Schedule.png "Konfiguracija urnika vzdrževalnega naloga")
-
-Kliknite **Zaključi**, da ustvarite vzdrževalni nalog v stanju **V obdelavi**.
+Za ustvarjanje vzdrževalnega naloga uporabite [vodeni čarovnik](MaintenanceOrderCreate.md).
 
 ## V obdelavi vzdrževalni nalogi
 
@@ -179,9 +120,9 @@ Na voljo sta dva načina izvajanja:
    ![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Seznam operacij vzdrževalnega naloga")
 
 Klik na operacijo odpre **zaslon izvajanja operacije**, kjer lahko izvajalec:
-- pregleda navodila
-- evidentira vhode in nečloveške vire
-- izvede kontrolne sezname in preverjanja kakovosti
+- pregleda [navodila](../../Znanje/BazaZnanja/BazaZnanja.md)
+- evidentira [vhode](../../Proizvodnja/Upravljanje/Vhodi.md) in [nečloveške vire](../../Proizvodnja/Upravljanje/StvarniViri.md)
+- izvede [kontrolne sezname](../../Proizvodnja/Upravljanje/Checklists.md) kakovosti
 - beleži delo (začetek/konec, trajanje)
 - vnese podatke o izvedbi
 
@@ -201,5 +142,3 @@ Zaprti vzdrževalni nalogi:
 - služijo kot evidenca vzdrževanja za opremo
 
 V seznamu so vidni pod pogledom **Zaprt**.
-
----

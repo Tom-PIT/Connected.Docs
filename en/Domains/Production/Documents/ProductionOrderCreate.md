@@ -1,20 +1,22 @@
-<!-- app_route: /production-orders -->
-<!-- app_label: Production orders -->
+<!-- app_route: /production-orders/create -->
+<!-- app_label: Create a new production order -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrdersCreate.md -->
-<!-- canonical_source_title: Create a production order -->
+<!-- canonical_source_title: Create a new production order -->
 
-# Create a production order
+# Create a new production order
 
 To create a new production order, click the [**action button**](../../../Common/UI/ActionButton.md) on the [**Production orders**](ProductionOrders.md) page and follow the guided three-step wizard:
 
-## **Step 1 — Select material**
+## Configuration steps
+
+### **Step 1 — Select material**
 
 Choose the **Material type** (e.g., Products or Semi products), then select the specific [**material**](../../Assets/Domain/Materials.md) and quantity to be manufactured.
 
 ![Step 1](../Images/ProductionOrdersNewStep1.png "Step 1 - Select material")
 
 
-## **Step 2 — Select process**
+### **Step 2 — Select process**
 
 Choose the **[Process](../Management/Processes.md)** and **Process version** that defines how the material will be produced.
 
@@ -23,13 +25,13 @@ Choose the **[Process](../Management/Processes.md)** and **Process version** tha
 > [!NOTE]
 > If no processes are listed in this step, verify configuration in the **[Processes](../Management/Processes.md)** code list. Ensure the process includes the “Production” tag and has an active version. Missing the tag is a common reason the process does not appear here.
 
-## **Step 3 — Provide additional information**
+### **Step 3 — Provide additional information**
 
 This step defines scheduling and order type.
 
 ![Step 3](../Images/ProductionOrdersNewStep3.png "Step 3 - Additional information")
 
-### **Production order mode**
+#### **Production order mode**
 
 Determines how the production order will behave:
 
@@ -51,7 +53,7 @@ If total quantity = **6 pieces**
 
 ![Production Orders New Step3 Partial Productions](../Images/ProductionOrdersNewStep3PartialProductions.png)
 
-### Dates
+#### Dates
 
 Specify scheduling details for [planning](../../Planning/Views/Planning.md) purposes (optional):
 - **Deadline date** - the date by which production should be completed.
