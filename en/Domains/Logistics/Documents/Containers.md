@@ -75,11 +75,13 @@ Containers are created manually from this page.
 The packaged container is now ready, and the status changes to **Packaged**. You can use the menu to print or export labels with the container SSCC code.
 
 > [!NOTE]
-> Items in a Packaged container are reserved and cannot be transacted (issue/receive/move) individually. To release them, dissolve the container or remove the line from the container.
+> Items in a Packaged container are reserved and cannot be freely transacted individually. However, the system allows **partial quantity usage** directly from the container without unpacking it.
 
 ### Using containers
 
-- Picking/issuing: scan the container code during **[Issues](Issues.md)** to add all content at once
+- Picking/issuing: scan the container code during **[Issues](Issues.md)** to:
+    - add all content at once
+    - select and use a **partial quantity**
 - Receiving/put‑away: scan on **[Receives](Receives.md)** to place the full set into stock
 - Moves: use **[Inter warehouse](InterWarehouse.md)** or **[Move serial](MoveSerial.md)** and scan the container to move all items together
 - Stock checks: use **[Stock](../Views/Stock.md)** / **[Stock view by location](../Views/StockViewByLocation.md)** to verify container presence and position
@@ -96,6 +98,18 @@ The packaged container is now ready, and the status changes to **Packaged**. You
 > - Click on the **Location** link to open the [**Stock view by location**](../Views/StockViewByLocation.md) filtered to show only items in that location. 
 > - Click on a material's serial number to open the [**Stock view by serial number**](../Views/Stock.md#stock-view-by-serial-number).
 
+## Partial quantity usage
+
+A **partial quantity** can be used from a packaged container without unpacking it.
+
+- The container remains packaged  
+- The remaining quantity stays in the container  
+- Only the used quantity is deducted  
+
+The system records the container, quantity, document, date, and user.
+
+Supported in [**Issues**](Issues.md), [**Moves**](InterWarehouse.md), and [**Production consumption**](Consumptions.md).
+
 ## Menu
 
 Use the document menu for actions:
@@ -108,5 +122,3 @@ Use the document menu for actions:
 ## Deletion
 - Draft containers can be deleted freely
 - Packaged containers cannot be deleted; use **Dissolve** to release contents.
-
----

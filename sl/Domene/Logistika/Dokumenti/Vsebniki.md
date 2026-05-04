@@ -75,11 +75,13 @@ Vsebniki se ustvarjajo ročno na tej strani.
 Zapakiran vsebnik je pripravljen za uporabo, stanje pa se spremeni v **Zapakirano**. V meniju lahko natisnete ali izvozite nalepke z **SSCC šifro vsebnika**.
 
 > [!NOTE]
-> Postavke v **zapakiranem** vsebniku so rezervirane in jih ni mogoče posamezno obdelovati (izdaja / prevzem / premik). Za sprostitev vsebine je potrebno vsebnik **razpustiti** ali odstraniti posamezno postavko.
+> Postavke v **zapakiranem** vsebniku so rezervirane in jih ni mogoče prosto posamezno obdelovati (izdaja / prevzem / premik). Sistem pa omogoča uporabo [**delne količine**](#delna-uporaba-količine) neposredno iz vsebnika brez razpakiranja.
 
 ### Uporaba vsebnikov
 
-- **Komisioniranje / izdaja:** skenirajte šifro vsebnika v **[Izdajnicah](Izdajnice.md)**, da dodate celotno vsebino naenkrat
+- **Komisioniranje / izdaja:** skenirajte šifro vsebnika v **[Izdajnicah](Izdajnice.md)**, da:
+  - dodate celotno vsebino naenkrat
+  - izberete in uporabite **delno količino**
 - **Prevzem / uskladiščenje:** skenirajte v **[Prevzemih](Prevzemi.md)** za vnos celotnega sklopa v zalogo
 - **Premiki:** uporabite **[Med-skladiščni promet](MedSkladiscniPromet.md)** ali **[Premakni serijsko številko](PremakniSerijskoStevilko.md)** in skenirajte vsebnik za skupni premik
 - **Pregled zaloge:** uporabite **[Zaloga](../Pregledi/Zaloga.md)** ali **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)** za preverjanje prisotnosti in lokacije vsebnika
@@ -95,6 +97,18 @@ Zapakiran vsebnik je pripravljen za uporabo, stanje pa se spremeni v **Zapakiran
 > [!TIP]
 > - Kliknite **Lokacijo**, da odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)**, filtriran na izbrano lokacijo.  
 > - Kliknite serijsko številko materiala, da odprete **[Pogled zaloge po serijski številki](../Pregledi/Zaloga.md#pogled-zaloge-po-serijski-stevilki)**.
+
+## Delna uporaba količine
+
+Iz **zapakiranega vsebnika** je mogoče uporabiti **delno količino** brez razpakiranja.
+
+- Vsebnik ostane zapakiran  
+- Preostala količina ostane v vsebniku  
+- Odšteje se samo uporabljena količina  
+
+Sistem beleži vsebnik, količino, dokument, datum in uporabnika.
+
+Podprto v **[Izdajnicah](Izdajnice.md)**, **[Premikih](MedSkladiscniPromet.md)** in [**porabi v proizvodnji**](Porabe.md).
 
 ## Meni
 

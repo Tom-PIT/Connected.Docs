@@ -75,3 +75,7 @@ Clicking **+** opens the supply order creation form, pre-filled with the selecte
 
 This provides quick replenishment directly from the Requirements screen.
 
+## Menu
+
+The menu in the top right corner of the page gives the option to export the list of requirements to a CSV file for further analysis or sharing with other stakeholders.
+
