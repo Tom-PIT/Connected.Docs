@@ -74,3 +74,7 @@ V stolpcu **Zaloga** je gumb **+** poleg številke količine.
 Klik na **+** odpre obrazec za ustvarjanje nabavnega naloga, ki je že predizpolnjen z izbranim materialom.
 
 To omogoča hitro dopolnjevanje zaloge neposredno s strani **Zahteve**.
+
+## Meni
+
+Meni v zgornjem desnem kotu strani ponuja možnost izvoza seznama zahtev v datoteko CSV za nadaljnjo analizo ali skupno rabo z drugimi deležniki.
