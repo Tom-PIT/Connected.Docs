@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/create -->
 <!-- app_label: Create a new production order -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrdersCreate.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrderCreate.md -->
 <!-- canonical_source_title: Create a new production order -->
 
 # Create a new production order
