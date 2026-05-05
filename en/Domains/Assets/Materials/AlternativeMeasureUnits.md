@@ -13,19 +13,6 @@ To access this page, go to **Assets / Materials / Alternative measure units**.
 > [!TIP]
 > For a full demonstration, see the **[Alternative measure units](https://www.youtube.com/watch?v=wPmLquFm8fY)** video tutorial.
 
-### How alternative measure units work
-
-Each alternative measure unit defines a fixed conversion to the material’s base unit.
-The conversion is defined using two mandatory values:
-
-Numerator alternative units = Denominator base units
-
-**Example:**
-
-If **1 piece = 2 meters**, enter:
-- **Denominator**: `2`
-- **Numerator**: `1`
-
 ## Schema
 
 | Field | Description |
@@ -65,6 +52,21 @@ The list shows:
 5. Click **Save**.
 
 ![New alternative measure unit](../Images/AlternativeMeasureUnitsNew.png)
+
+### How alternative measure units work
+
+Each alternative measure unit defines a fixed conversion to the material’s base unit.
+The conversion is defined using two mandatory values:
+
+Numerator alternative units = Denominator base units
+
+**Example:**
+
+We have a material with a base unit of **meter**, but it is stored and handled in pieces, where each piece is equal to 2 meters.
+
+If **1 piece = 2 meters**, enter:
+- **Denominator**: `2`
+- **Numerator**: `1`
 
 ### Editing and deletion
 

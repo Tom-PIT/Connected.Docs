@@ -13,19 +13,6 @@ Za dostop do tega zaslona pojdite na **Sredstva / Materiali / Alternativne mersk
 > [!TIP]
 > Za podrobno predstavitev si oglejte video vodič **[Alternativne merske enote](https://www.youtube.com/watch?v=wPmLquFm8fY)**.
 
-## Kako delujejo alternativne merske enote
-
-Vsaka alternativna merska enota določa **fiksno pretvorbo** v osnovno mersko enoto materiala.  
-Pretvorba je definirana z dvema obveznima vrednostma:
-
-**Števec alternativne merske enote = Imenovalec osnovne merske enote**
-
-### Primer
-
-Če velja **1 kos = 2 metra**, vnesite:
-- **Imenovalec**: `2`
-- **Števec**: `1`
-
 ## Shema
 
 | Polje | Opis |
@@ -65,6 +52,21 @@ Seznam prikazuje:
 5. Kliknite **Shrani**.
 
 ![Nova alternativna merska enota](../Images/AlternativeMeasureUnitsNew.png)
+
+## Kako delujejo alternativne merske enote
+
+Vsaka alternativna merska enota določa **fiksno pretvorbo** v osnovno mersko enoto materiala.  
+Pretvorba je definirana z dvema obveznima vrednostma:
+
+**Števec alternativne merske enote = Imenovalec osnovne merske enote**
+
+### Primer
+
+Imamo material, ki se v zalogi vodi v metrih, vendar se skladišči in pakira v kosih.
+
+Če velja **1 kos = 2 metra**, vnesite:
+- **Imenovalec**: `2`
+- **Števec**: `1`
 
 ### Urejanje in brisanje
 
