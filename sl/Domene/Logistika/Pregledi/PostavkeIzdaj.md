@@ -9,7 +9,7 @@ Pogled **Postavke izdaj** nudi analitični pregled vseh **materialov in končnih
 
 Za dostop do tega pogleda pojdite na **Logistika / Pregledi / Postavke izdaj** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
-![IssueDetailsList](../Images/IssueDetailsList.png)
+![IssueDetailsList](../Images/IssueDetailsListV2.png)
 
 ## Seznam postavk izdaj
 
@@ -33,8 +33,6 @@ Ko je dokument izdaje razširjen, so prikazani naslednji podatki:
 - **Izvor** – skladišče in lokacija (klikljivo)  
 - **Izdana količina**
 
-![IssueDetailsListExpanded](../Images/IssueDetailsList.png)
-
 ## Navigacija po Izvoru
 
 Stolpec **Izvor** prikazuje:
@@ -49,8 +47,7 @@ Klik na Izvor odpre zaslon **[Pogled zaloge po lokacijah](PogledZalogePoLokacija
 Leva stranska vrstica vsebuje naslednji filter:
 
 - **Datumi dokumentov** – omeji prikaz na dokumente izdaj znotraj izbranega časovnega obdobja
-
-Ko izberete časovno obdobje, se seznam samodejno ponovno naloži.
+- **Stranka** – omeji prikaz na dokumente izdaj za izbrano stranko
 
 ## Iskanje
 
@@ -80,10 +77,3 @@ Ta pogled je **zgolj analitičen**. Ne omogoča ustvarjanja, urejanja ali brisan
 > - Količine so prikazane v osnovni merski enoti postavke (npr. kos, meter).  
 > - Ta pogled se osredotoča na **izdaje zaloge** (npr. prodajne dobave, interne izdaje).  
 > - Poraba materialov, povezana s proizvodnjo, je prikazana v **[Postavkah porabe](PostavkePorabe.md)**, ne tukaj.
-
-## Povezani pogledi
-
-- **[Postavke porabe](PostavkePorabe.md)** – pregled materialov, porabljenih v proizvodnji  
-- **[Pogled zaloge po lokacijah](PogledZalogePoLokacijah.md)** – pregled zaloge na posamezni skladiščni lokaciji  
-- **[Pogled zaloge po materialu](Zaloga.md#pogled-zaloge-po-materialu)** – pregled stanja in premikov zaloge po materialih  
-- **[Dokumenti izdaj](../Dokumenti/Izdajnice.md)** – ustvarjanje in pregled dokumentov izdaj
