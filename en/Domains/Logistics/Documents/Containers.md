@@ -45,7 +45,7 @@ To access this page, go to **Logistics / Documents / Containers** in the [**navi
 
 The Containers page shows all container documents. Use filters such as:
 - **Document dates**
-- **View** (Draft, Packaged)
+- **View** (Open, Packaged)
 - **Warehouse**
 - **Author**
 

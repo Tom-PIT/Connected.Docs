@@ -45,7 +45,7 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [**
 
 Stran **Vsebniki** prikazuje vse dokumente vsebnikov. Na voljo so filtri:
 - **Datumi dokumentov**
-- **Pogled** (Osnutki, Zapakirano)
+- **Pogled** (Odprti, Zapakirano)
 - **Skladišče**
 - **Avtor**
 
