@@ -113,9 +113,9 @@ Po aktivaciji nalog postane **Aktiven** in je pripravljen za izvajanje v proizvo
 Proizvodni delavci lahko zdaj izvajajo operacije v modulu **Izvedba**.  
 Za več informacij glejte **[Izvedba](Izvedba.md)**.
 
-Razdelek **Proces** prikazuje vse planirane operacije, vhode, vire, izhode in [kontrole kakovosti za izbrano verzijo](../ProizvodniNalogiKvaliteta.md).
+Razdelek **Proces** prikazuje vse planirane operacije, vhode, vire, izhode, stroški in [kontrole kakovosti za izbrano verzijo](../ProizvodniNalogiKvaliteta.md).
 
-![Pregled procesa](../Images/ProductionOrdersProcessV2.png "Pregled procesa")
+![Pregled procesa](../Images/ProductionOrdersProcessV3SL.png "Pregled procesa")
 
 Klik na operacijo odpre podroben pogled, kjer lahko delavci beležijo podatke o izvedbi, kot so:
 
@@ -127,6 +127,34 @@ Klik na operacijo odpre podroben pogled, kjer lahko delavci beležijo podatke o 
 ![Urejanje operacije proizvodnega naloga](../Images/ProductionOrderOperationEdit.png "Urejanje operacije proizvodnega naloga")
 
 Vsak razdelek ima gumb **Dodaj vnos** za beleženje podrobnosti izvedbe. Na primer, v razdelku **Proizvodnja** lahko zabeležite proizvedeni material, količino in čase proizvodnje.
+
+### Dodati ali urejati stroške za proizvodni nalog
+
+![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesSL.png "Stroški za proizvodni nalog")
+
+Za natančnejši izračun dejanskih stroškov proizvedenega izdelka je mogoče na zavihku **Stroški** dodajati ali urejati planirane stroške:
+
+- Za urejanje planiranega stroška kliknite strošek na seznamu, da odprete njegove podrobnosti, izvedite želene spremembe in kliknite **Shrani**.
+- Za dodajanje novega stroška:
+    1. Kliknite gumb **Dodaj planiran strošek**.
+    2. Izberite strošek operacije in določite strošek.
+    3. Kliknite **Dodaj**, da shranite nov strošek.
+
+> [!IMPORTANT]
+> Strošek je podan **na kos**. Na primer, če je strošek 2 € in je proizvedena količina 10 kosov, bo skupni strošek znašal 20 €.
+
+Za evidentiranje dejanskega stroška:
+
+1. Kliknite puščico ob strošku na seznamu, da odprete njegove podrobnosti.
+2. Kliknite **Dodaj dejanski strošek**.
+3. Vnesite dejanski strošek.
+4. Kliknite **Dodaj**.
+
+![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesDetailSL.png "Production order expenses add actual")
+
+Dejanske zneske je mogoče po potrebi urejati ali izbrisati. Za urejanje ali brisanje dejanskega stroška kliknite znesek, da odprete njegove podrobnosti, izvedite želene spremembe in kliknite **Shrani** ali **Izbriši**.
+
+![Production Orders Process Expenses Actual](../Images/ProductionOrdersProcessExpensesActualSL.png)
 
 ## Zaključeni proizvodni nalogi
 
