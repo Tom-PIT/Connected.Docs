@@ -147,7 +147,7 @@ Za evidentiranje dejanskega stroška:
 
 1. Kliknite puščico ob strošku na seznamu, da odprete njegove podrobnosti.
 2. Kliknite **Dodaj dejanski strošek**.
-3. Vnesite dejanski strošek.
+3. Vnesite dejanski strošek, datum in čas.
 4. Kliknite **Dodaj**.
 
 ![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesDetailSL.png "Production order expenses add actual")

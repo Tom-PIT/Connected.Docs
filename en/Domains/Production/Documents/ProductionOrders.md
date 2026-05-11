@@ -148,7 +148,7 @@ To record the actual expense cost:
 
 1. Click on the arrow next to the expense on the list to open its details.
 1. Click on **Add actual expense**.
-2. Enter the actual cost of the expense.
+2. Enter the actual cost of the expense, date and time.
 3. Click **Add**.
 
 ![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesDetail.png "Production order expenses add actual")
