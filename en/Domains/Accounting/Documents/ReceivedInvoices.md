@@ -14,7 +14,7 @@ To access this screen, go to **Accounting / Invoices / Received invoices** in th
 >
 > To post detail lines on a received invoice, an [**Expense**](../../Supply/Management/Expenses.md) must be selected for each line. This determines the ledger account, tax rate, and posting logic used when the document is confirmed.
 
-### How received invoices fit into the accounting flow
+### Received invoice lifecycle
 
 When we receive an invoice from a vendor, it follows this flow:
 
@@ -109,55 +109,9 @@ To resolve:
 
 ## Actions
 
-### Create received invoice
+### Create a received invoice
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new received invoice.
-2. In **Document connections**, link one or more Supply orders.
-3. Review or enter document header fields, including **Amount**.
-4. Select the appropriate **Account** and **Template** (optional).
-
-![Received invoice – header](../Images/ReceivedInvoicesNewTop.png "Received invoice header")
-
-### Create suggested postings
-
-Under **Suggested postings**, the system proposes postings based on the linked supply orders.
-
-1. Review the suggested lines.
-2. Select the relevant items.
-3. Edit the **Expense** and **Quantity** fields on the list as needed.
-
-	![Received Invoices Details Expense](../Images/ReceivedInvoicesDetailsExpense.png)
-
-4. Click **Create postings** to generate posting lines.
-
-   ![Received invoice – suggested postings](../Images/ReceivedInvoicesNewSuggestedPostings.png "Suggested postings")
-
-#### Attachments
-On every document, an **Attachments** section is available.
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
-
-
-### Edit details
-
-Click any blue field in the **Details** section to edit it. After making changes, click **Save** to apply them.
-
-![Received invoice – edit detail](../Images/ReceivedInvoicesDetails.png "Edit detail")
-
-### Publish received invoice
-
-When all amounts match and required data is filled the bottom of the document would look like this.
-
-![Received Invoices New Bottom](../Images/ReceivedInvoicesNewBottom.png "Received invoices - bottom of the document")
-
-* Click **Publish** to commit the document.
-* The invoice is posted to the ledger.
-* A related **Journal entry** is created automatically in [**Double-entry accountancy**](DoubleEntryAccountancy.md).
-
-> [!NOTE]
-> If there is a mismatch between the header amount and detail totals, the document shows a **Remaining amount** and is highlighted. Publishing such a document moves it to the **Available** state.
->
-> ![Remaining amount](../Images/ReceivedInvoicesNewRemainingAmount.png "Remaining amount")
+To create a received invoice, use the creation workflow explained in **[How to create received invoice](ReceivedInvoiceCreate.md)**.
 
 ### Return to draft
 

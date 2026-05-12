@@ -3,7 +3,7 @@
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceOrderCreate.md -->
 <!-- canonical_source_title: Create a new maintenance order -->
 
-# Create a new maintenance order
+# How to create a new maintenance order
 
 Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new maintenance order.
 
