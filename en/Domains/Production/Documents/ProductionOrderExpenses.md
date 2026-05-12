@@ -18,7 +18,7 @@ In order to calculate more accurately the actual costs of a produced item, plann
 
 - To edit a planned expense, click on the expense in the list to open its details, make the necessary changes, and click **Save**.
 - To add a new expense:
-    1. Click on the **Add planned expense** button.
+    1. Click on the **Add expense** button.
     2. Select the operation expense and the cost.
     3. Click **Add** to save the new expense.
 
@@ -44,9 +44,9 @@ Actual costs can be edited or deleted if necessary. To edit or delete an actual 
 
 ## Expenses cost review
 
-The recorded expenses are added and summarized in the [**Work items cost]**(../../Resources/Views/WorkItemsCosts.md) view, where you can analyze the cost distribution of the work item. 
+The recorded expenses are added and summarized in the [**Work items cost**](../../Resources/Views/WorkItemsCosts.md) view, where you can analyze the cost distribution of the work item. 
 
 ![Work Items Cost Expenses](../Images/WorkItemsCostExpenses.png)
 
-This view is also accessible through the production orders list, where the cost per unit is displayed for each order. Clicking on the cost per unit opens the [**Work items cost]**(../../Resources/Views/WorkItemsCosts.md) view filtered on the selected order, allowing you to analyze the cost distribution of the work item and review the expenses in detail.
+This view is also accessible through the production orders list, where the cost per unit is displayed for each order. Clicking on the cost per unit opens the [**Work items cost**](../../Resources/Views/WorkItemsCosts.md) view filtered on the selected order, allowing you to analyze the cost distribution of the work item and review the expenses in detail.
 
