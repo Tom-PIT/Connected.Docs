@@ -128,33 +128,13 @@ Klik na operacijo odpre podroben pogled, kjer lahko delavci beležijo podatke o 
 
 Vsak razdelek ima gumb **Dodaj vnos** za beleženje podrobnosti izvedbe. Na primer, v razdelku **Proizvodnja** lahko zabeležite proizvedeni material, količino in čase proizvodnje.
 
-### Dodati ali urejati stroške za proizvodni nalog
+### Stroški
 
-![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesSL.png "Stroški za proizvodni nalog")
+**[Stroški proizvodnega naloga](ProizvodniNalogiStroski.md)** omogočajo spremljanje planiranih in dejanskih operativnih stroškov. 
 
-Za natančnejši izračun dejanskih stroškov proizvedenega izdelka je mogoče na zavihku **Stroški** dodajati ali urejati planirane stroške:
+### Kakovost
 
-- Za urejanje planiranega stroška kliknite strošek na seznamu, da odprete njegove podrobnosti, izvedite želene spremembe in kliknite **Shrani**.
-- Za dodajanje novega stroška:
-    1. Kliknite gumb **Dodaj planiran strošek**.
-    2. Izberite strošek operacije in določite strošek.
-    3. Kliknite **Dodaj**, da shranite nov strošek.
-
-> [!IMPORTANT]
-> Strošek je podan **na kos**. Na primer, če je strošek 2 € in je proizvedena količina 10 kosov, bo skupni strošek znašal 20 €.
-
-Za evidentiranje dejanskega stroška:
-
-1. Kliknite puščico ob strošku na seznamu, da odprete njegove podrobnosti.
-2. Kliknite **Dodaj dejanski strošek**.
-3. Vnesite dejanski strošek, datum in čas.
-4. Kliknite **Dodaj**.
-
-![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesDetailSL.png "Production order expenses add actual")
-
-Dejanske zneske je mogoče po potrebi urejati ali izbrisati. Za urejanje ali brisanje dejanskega stroška kliknite znesek, da odprete njegove podrobnosti, izvedite želene spremembe in kliknite **Shrani** ali **Izbriši**.
-
-![Production Orders Process Expenses Actual](../Images/ProductionOrdersProcessExpensesActualSL.png)
+Razdelek [**Kakovost**](ProizvodniNalogiKvaliteta.md) prikazuje vse [**kontrolne sezname**](../Upravljanje/KontrolneListe.md), povezane z izbranim proizvodnim nalogom.
 
 ## Zaključeni proizvodni nalogi
 
@@ -162,7 +142,7 @@ Ko je proizvodnja zaključena in so vse operacije izvedene, se nalog prestavi v 
 
 ![Seznam zaključenih proizvodnih nalogov](../Images/ProductionOrdersClosedList.png "Seznam zaključenih proizvodnih nalogov")
 
-Seznam prikazuje tudi strošek na enoto in puščico, ki označuje povečanje ali zmanjšanje stroška v primerjavi s prejšnjim zaključenim nalogom za isti material.
+Seznam prikazuje tudi strošek na enoto in puščico, ki označuje povečanje ali zmanjšanje stroška v primerjavi s prejšnjim zaključenim nalogom za isti material. Klik na strošek na enoto odpre pogled [**Stroški opravil**](../../Viri/Pregledi/StroskiOpravil.md), filtriran na izbrani nalog, kar omogoča analizo porazdelitve stroškov delovnega naloga in podroben pregled stroškov.
 
 Zaključeni nalogi:
 

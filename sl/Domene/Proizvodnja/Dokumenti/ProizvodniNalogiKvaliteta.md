@@ -1,7 +1,7 @@
 <!-- app_route: /production-orders -->
 <!-- app_label: Proizvodni nalog -->
 <!-- app_navigation_hint: Odprite proizvodni nalog, nato odprite zavihek **Kvaliteta**. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi_Kvaliteta.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogiKvaliteta.md -->
 <!-- canonical_source_title: Proizvodni nalogi - Kvaliteta -->
 
 # Proizvodni nalogi - Kvaliteta
