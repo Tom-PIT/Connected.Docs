@@ -6,7 +6,7 @@
 
 # Proizvodni nalogi - Stroški
 
-Stroške, povezane s [proizvodnim nalogom](ProizvodniNalogi.md), je mogoče evidentirati v razdelku **Stroški** v podrobnostih naloga. To omogoča spremljanje planiranih in dejanskih stroškov proizvodnega naloga ter boljši vpogled v stroške proizvodnega procesa.
+[Stroške](../../Nabava/Upravljanje/Stroski.md), povezane s [proizvodnim nalogom](ProizvodniNalogi.md), je mogoče evidentirati v razdelku **Stroški** v podrobnostih naloga. To omogoča spremljanje planiranih in dejanskih stroškov proizvodnega naloga ter boljši vpogled v stroške proizvodnega procesa.
 
 ![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesSL.png "Stroški za proizvodni nalog")
 

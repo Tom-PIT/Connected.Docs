@@ -5,7 +5,7 @@
 
 # Stroški
 
-Šifrant **Stroški** vsebuje vse stroške, ki jih organizacija želi evidentirati kot vnaprej določene stroške. Ti lahko vključujejo ponavljajoče se storitve, stroške, povezane z opremo, stroške podizvajalcev ali katerikoli drug **ne-materialni strošek**, ki se uporablja v procesih nabave ali proizvodnje.
+Šifrant **Stroški** vsebuje vse stroške, ki jih organizacija želi evidentirati kot vnaprej določene stroške. Ti lahko vključujejo ponavljajoče se storitve, stroške, povezane z opremo, stroške podizvajalcev ali katerikoli drug operativni ali finančni strošek, ki se uporablja v procesih nabave ali proizvodnje.
 
 Ta seznam zagotavlja doslednost, saj so vsi stroški shranjeni na enem mestu in na voljo za uporabo v dokumentih ter operativnih delovnih tokovih.
 
@@ -21,6 +21,7 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**nav
 | [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator stroška. |
 | **Naziv** | Opisni naziv stroška. |
 | [**Davek**](../../../Skupno/Upravljanje/DavcneStopnje.md) | Davčna stopnja, ki se uporablja za strošek. |
+| **Neto cena (na enoto)** | Privzeta neto cena stroška. |
 | **Omogočeno** | Označuje, ali je strošek na voljo za uporabo v dokumentih. |
 | **Kooperant** | Poslovni partner, ki izvaja podizvajalsko storitev, izbran iz **[Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md)**. |
 | **Znesek na enoto v (€)** | Cena te podizvajalske storitve na enoto. |
@@ -49,7 +50,7 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**nav
 | **Tip davka** | Razvrstitev davčne obravnave stroška (npr. Zaloga, Standardni strošek, Nepremičnine). |
 | **Tip sredstva** | Narava nabave za poročanje (npr. Blago, Storitve). |
 | **Odbij davek** | Označuje, ali je vstopni davek za ta strošek odbiten. |
-| **Samoobdavčitev** | Označuje, ali se uporablja mehanizem obrnjene davčne obveznosti/samodobavitev. |
+| **Samoobdavčitev** | Označuje, ali se uporablja mehanizem obrnjene davčne obveznosti (samoobdavčitev). |
 | **Upoštevaj za finančno zalogo** | Strošek se zabeleži, vendar se ne vključi v finančno vrednost zaloge ob obdelavi prejetega računa. |
 
 </details>
@@ -58,9 +59,9 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**nav
 
 ### Seznam stroškov
 
-Seznam prikazuje vse definirane stroške skupaj z njihovo davčno stopnjo.
+Seznam prikazuje vse definirane stroške skupaj z njihovo privzeto neto ceno artikla.
 
-![Seznam stroškov](../Images/ExpensesList.png "Seznam stroškov")
+![Seznam stroškov](../Images/ExpensesListV3SL.png "Seznam stroškov")
 
 Vsak zapis vključuje indikator stanja na levi strani naziva:
 - **Modra** – strošek je **omogočen**
@@ -75,29 +76,28 @@ Leva stranska vrstica vsebuje dva filtra:
 
 Filtri določajo, ali seznam prikazuje aktivne ali neaktivne zapise stroškov.
 
-## Dejanja
+## Dodati nov strošek
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega stroška. Vnosni obrazec vključuje polja:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega stroška. Vnosni obrazec vključuje naslednje razdelke:
 
-- Koda  
-- Naziv  
-- Davčna stopnja  
-- Omogočeno  
+- **Dodaj nov strošek**
+- **Glavna knjiga**
+- **Strošek podizvajalca**
 
-![Nov strošek](../Images/ExpensesNew.png "Nov strošek")
+![Nov strošek](../Images/ExpensesNewV3SL.png "Nov strošek")
 
 ### Strošek podizvajalca
 
 Ta izbirni razdelek omogoča dodajanje stroškov, povezanih s podizvajalci.  
 Določite lahko:
 
-- Podizvajalca  
-- Ceno na enoto (€)  
-- Operacije  
+- **Podizvajalca**  
+- **Ceno na enoto (€)**  
+- **Operacije** 
 
 Kliknite **Dodaj operacijo**, da odprete pogovorno okno za izbiro operacije.
 
-![Dodaj operacijo](../Images/ExpensesAddOperation.png "Dodaj operacijo")
+![Dodaj operacijo](../Images/ExpensesAddOperationSL.png "Dodaj operacijo")
 
 Po vnosu podatkov kliknite **Dodaj**, da shranite zapis, ali **Prekliči**, da se vrnete na seznam.
 
@@ -107,13 +107,13 @@ V tem razdelku strošek dodelimo ustreznemu kontu glavne knjige. Oglejte si [**K
 
 Možnosti v tem razdelku določajo, kako se strošek obravnava pri finančnih knjiženjih in poročanju. Vključujejo:
 
-- **Odbij davka**
+- **Odbij davek**
 - **Samoobdavčitev**
 - **Upoštevaj za finančno zalogo**
 
 Te nastavitve je mogoče po potrebi spremeniti tudi na prejetem računu.
 
-## Urejanje
+## Urejati strošek
 
 Za urejanje stroška kliknite zapis v seznamu. Sistem odpre način urejanja.
 
@@ -121,7 +121,7 @@ Vsa polja – vključno s stroški podizvajalca in operacijami – je mogoče sp
 
 Ko zaključite z urejanjem, kliknite **Shrani**. Če sprememb ne želite shraniti, kliknite **Prekliči**.
 
-## Brisanje
+## Brisati strošek
 
 Na zaslonu za urejanje kliknite **Izbriši**, da trajno odstranite strošek.
 

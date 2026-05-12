@@ -5,7 +5,7 @@
 
 # Expenses
 
-The **Expenses** code list contains all costs that your organization wants to register as predefined expenses. These can include recurring services, equipment-related costs, subcontractor fees, or any non-material cost that needs to be referenced in supply or production processes.
+The **Expenses** code list contains all costs that your organization wants to register as predefined expenses. These can include recurring services, equipment-related costs, subcontractor fees, or any operational or financial cost that needs to be referenced in supply or production processes.
 
 This list helps maintain consistency by storing all expenses in one place, making them available for use across documents and operational workflows.
 
@@ -21,6 +21,7 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 | **Code** | Unique identifier of the expense. |
 | **Name** | Descriptive name of the expense. |
 | **[Tax rate](../../../Common/Management/TaxRates.md)** | Tax rate applied to the expense. |
+| **Item price net** | Default net price of the expense item. |
 | **Enabled** | Indicates whether the expense is available for use in documents. |
 | **Subcontractor** | Business partner providing the subcontracted service, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md). |
 | **Cost per unit (€)** | Cost of this subcontracted operation per unit. |
@@ -57,9 +58,9 @@ To access this code list, go to **Supply / Management / Expenses** in the [**nav
 
 ### List of expenses
 
-The list displays all defined expenses along with their tax rate.
+The list displays all defined expenses along with their default net item price.
 
-![Expenses list](../Images/ExpensesListV2.png "Expenses list")
+![Expenses list](../Images/ExpensesListV3.png "Expenses list")
 
 Each record includes a status indicator to the left of its name:  
 - **Blue** indicates the expense is **enabled**  
@@ -82,7 +83,7 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to create a ne
 - **Ledger**
 - **Subcontractor cost**
 
-![New expense](../Images/ExpensesNewV2.png "New expense")
+![New expense](../Images/ExpensesNewV3.png "New expense")
 
 ### Add new expense
 
@@ -93,9 +94,9 @@ Enter the required information and click **Save** to create the expense. The new
 This optional section allows adding subcontractor-related costs.  
 You can specify:
 
-- Subcontractor  
-- Cost per unit (€)  
-- Operations  
+- **Subcontractor** 
+- **Cost per unit (€)**  
+- **Operations**  
 
 Click **Add operation** to open the operation selection dialog.
 
@@ -114,7 +115,7 @@ The options available in this section determine how the expense is handled in fi
 
 These can later be reset on the received invoice if needed.
 
-## Editing
+## Edit an expense
 
 To edit an expense, click the entry in the list and the system opens the edit mode.
 
@@ -122,7 +123,7 @@ All fields—including subcontractor cost and operations—can be modified. You 
 
 When you are done editing, click **Save**. If you do not want to save the changes, click **Cancel**.
 
-## Deletion
+## Delete an expense
 
 Click **Delete** on the edit screen to remove the expense permanently.
 
