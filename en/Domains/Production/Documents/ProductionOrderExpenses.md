@@ -6,7 +6,7 @@
 
 # Production orders - Expenses
 
-Expenses related to a [production order](ProductionOrders.md) can be recorded in the **Expenses** section of the order details. This allows tracking of both planned and actual expenses for a production order, providing better insights into the costs associated with the production process.
+[Expenses](../../Supply/Management/Expenses.md) related to a [production order](ProductionOrders.md) can be recorded in the **Expenses** section of the order details. This allows tracking of both planned and actual expenses for a production order, providing better insights into the costs associated with the production process.
 
 ![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpenses.png "Production order expenses")
 
