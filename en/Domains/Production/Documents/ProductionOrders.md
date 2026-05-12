@@ -112,9 +112,9 @@ When activated, the order becomes **Active** and is ready for execution on the s
 
 ![Active](../Images/ProductionOrdersPendingV3.png "Active production order")
 
-Production workers can now execute operations through the **Execution** module. See **[Execution](Execution.md)** for more details.
+Production workers can now execute operations through the **[Execution](Execution.md)** module.
 
-The **Process** section displays all planned operations, inputs, resources, outputs, expenses, and [quality checks](ProductionOrderQuality.md) for the chosen version and its operations. 
+The **Process** section displays all planned operations, inputs, resources, outputs, [expenses](ProductionOrderExpenses.md), and [quality checks](ProductionOrderQuality.md) for the chosen version and its operations. 
 
 ![Process View](../Images/ProductionOrdersProcessV3.png "Process overview")
 
@@ -129,33 +129,13 @@ Clicking on an operation opens the detailed view, where workers can record execu
 
 Each section has an **Add entry** button to record execution details. For example, in the **Produced** section, you can log the material produced, the quantity produced, and the production times.
 
-### Add or edit an expense
+### Expenses
 
-![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpenses.png "Production order expenses")
+**[Production order expenses](ProductionOrderExpenses.md)** allow tracking planned and actual operational costs. 
 
-In order to calculate more accurately the actual costs of a produced item, planned expenses can be added or edited on the **Expenses** tab: 
+### Quality
 
-- To edit a planned expense, click on the expense in the list to open its details, make the necessary changes, and click **Save**.
-- To add a new expense:
-    1. Click on the **Add planned expense** button.
-    2. Select the operation expense and the cost.
-    3. Click add to save the new expense.
-
-> [!IMPORTANT]
-> The expense cost is **per item**. For example, if the cost is $2 and the quantity produced is 10, the total expense will be $20.
-
-To record the actual expense cost:
-
-1. Click on the arrow next to the expense on the list to open its details.
-1. Click on **Add actual expense**.
-2. Enter the actual cost of the expense, date and time.
-3. Click **Add**.
-
-![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesDetail.png "Production order expenses add actual")
-
-Actual amounts can be edited or deleted if necessary. To edit or delete an actual expense click on the amount to open its details, make the necessary changes, and click **Save** or **Delete**.
-
-![Production Orders Process Expenses Actual](../Images/ProductionOrdersProcessExpensesActual.png)
+The [**Quality**](ProductionOrderQuality.md) section displays all [**checklists**](../Management/Checklists.md) associated with the selected production order.
 
 ## Closed production orders
 
@@ -163,7 +143,7 @@ Once production is completed and all operations have been executed, the order is
 
 ![Closed Production Orders List](../Images/ProductionOrdersClosedList.png "Closed Production Orders List")
 
-The list also displays the cost per unit produced and an arrow indicating whether the cost has increased or decreased compared to the previous closed order for the same material.
+The list also displays the cost per unit produced and an arrow indicating whether the cost has increased or decreased compared to the previous closed order for the same material. Clicking on the cost per unit opens the [**Work items costs**](../../Resources/Views/WorkItemsCosts.md) view filtered on the selected order, allowing you to analyze the cost distribution of the work item and review the expenses in detail.
 
 Closed orders:
 
