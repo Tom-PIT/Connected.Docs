@@ -3,7 +3,7 @@
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md -->
 <!-- canonical_source_title: Dodati nov proizvodni nalog -->
 
-# Dodati nov proizvodni nalog
+# Kako ustvariti proizvodni nalog
 
 Za ustvarjanje novega proizvodnega naloga, kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v zaslonu [**Proizvodni nalogi**](ProizvodniNalogi.md) in sledite vodenemu tristopenjskemu čarovniku:
 

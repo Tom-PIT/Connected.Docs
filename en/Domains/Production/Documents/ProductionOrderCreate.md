@@ -3,7 +3,7 @@
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrderCreate.md -->
 <!-- canonical_source_title: Create a new production order -->
 
-# Create a new production order
+# How to create a new production order
 
 To create a new production order, click the [**action button**](../../../Common/UI/ActionButton.md) on the [**Production orders**](ProductionOrders.md) page and follow the guided three-step wizard:
 

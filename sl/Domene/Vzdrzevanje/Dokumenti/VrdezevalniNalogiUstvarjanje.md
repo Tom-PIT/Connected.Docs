@@ -3,7 +3,7 @@
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogiUstvarjanje.md -->
 <!-- canonical_source_title: Dodati nov vzdrževalni nalog -->
 
-## Dodati nov vzdrževalni nalog
+## Kako dodati nov vzdrževalni nalog
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vzdrževalni nalog.
 
