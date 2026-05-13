@@ -159,76 +159,11 @@ V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
 
 ## Dejanja
 
-### Ustvarjanje novega izdanega računa
+### Ustvariti izdani račun
 
-Izdane račune je mogoče ustvariti na dva načina:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Dodaj izdani račun**, da ustvarite nov račun. Odpre se obrazec za vnos podatkov.
 
-- Neposredno na zaslonu **Izdani računi** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md).  
-- Iz drugih prodajnih dokumentov prek **Povezani dokumenti → + Izdani račun**, na primer iz:
-  - potrjenega [**Naročila stranke**](NarocilaStrank.md)  
-  - [**Dobavnice**](Dobavnice.md)
-
-  V teh primerih se večina polj samodejno izpolni.
-
-  ![Povezani dokumenti naročila stranke](../Images/SalesOrderCommittedLinkedDocuments.png "Povezani dokumenti potrjenega naročila stranke")
-
-Po začetku novega računa sledite korakom:
-
-1. Uporabite **akcijski gumb** ali razdelek **Povezani dokumenti**, da ustvarite osnutek.  
-2. Izpolnite ključna polja:
-   - **Stranka**  
-   - **Datum dokumenta**  
-   - **Datum opravljene storitve**  
-   - **Datum zapadlosti**  
-   - **Tip reference / Sklic**  
-   - **Bančni račun organizacije**  
-   - **Način plačila**
-
-   ![Nov račun – zgornji del](../Images/IssuedInvoicesNewTop.png "Nov račun – zgornji del")
-
-3. Dodajte postavke v razdelku **Postavke**.  
-4. Prilagodite količine, cene, popuste ali davčne stopnje in kliknite **Shrani**.
-
-   ![Urejanje postavke računa](../Images/IssuedInvoicesNewDetailsEditV2.png)
-
-5. Dodajte poljubno število postavk.
-
-   ![Shranjena postavka računa](../Images/IssuedInvoicesNewBottom.png "Shranjena postavka računa")
-
-6. (Neobvezno) Dodajte:
-   - **Vsebina zgoraj / Vsebina spodaj**  
-   - **Alternativna valuta** (glej spodaj)
-   - **Podatke o dostavi**  
-   - **Priloge**  
-
-7. Kliknite **Objavi**, da potrdite račun.
-
-> [!NOTE]
-> Po objavi izdanega računa ni več mogoče urejati ali izbrisati. Za popravke uporabite dejanje **Storniraj dokument**.
-
-#### Postavke
-
-Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
-
-##### Glavna knjiga
-
-Razdelek **Glavna knjiga** določa, kako se dokument knjiži v glavno knjigo. Opredeljuje, kateri konti se uporabijo za knjiženje prihodkov, odhodkov in davkov ob shranjevanju in knjiženju dokumenta.
-
-Ob knjiženju dokumenta:
-
-- **Neto znesek** se knjiži na izbrani konto prihodka ali odhodka.
-- **Znesek davka** se knjiži na izbrani konto davka.
-- Sistem samodejno ustvari ustrezne temeljnice v glavni knjigi.
-
-Razpoložljivi konti so določeni v **[Kontnem načrtu](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**.
-
-##### Intrastat
-
-Ko je omogočeno poročanje Intrastat in transakcija vključuje kupca iz druge države EU, se v obrazcu za urejanje postavke prikaže dodatni razdelek **Intrastat**.
-
-Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat.
-
-Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
+Za podroben postopek ustvarjanja si oglejte vodnik [**Kako ustvariti izdani račun**](IzdaniRacuniUstvarjanje.md).
 
 ### Urejanje izdanega računa
 
@@ -245,12 +180,6 @@ Dokler je račun v statusu **Osnutek**, lahko urejate vse razdelke:
 - **Vsebina zgoraj** in **Vsebina spodaj** – izbor vnaprej določenih besedil
 
 ![Postavke in plačila](../Images/IssuedInvoicesNewBottom.png "Postavke in plačila")
-
-#### Priloge
-
-Na vrhu vsakega dokumenta je razdelek **Priloge**.
-
-Naložite lahko datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga dokazila. Vse priloge se shranijo skupaj z dokumentom.
 
 #### Povezani dokumenti
 
@@ -273,31 +202,11 @@ Razpoložljiva dejanja lahko vključujejo:
 - [**Dobavnica**](Dobavnice.md) – povezava z obstoječo dobavnico
 - [**Predplačila**](Predplacila.md) – povezava z obstoječimi predplačili
 
-#### Alternativna valuta
-
-Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
-
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
-
-Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
-
-#### Razdelka Transport in Intrastat
-
-Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
-
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
-
-- **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
-- **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
-
-> [!NOTE]  
-> Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
-
 ### Objavljanje računa
 
 Ko je račun pripravljen, kliknite **Objavi**, da ga potrdite in premaknete iz stanja **Osnutek** v **Obdelan**. Po objavi postanejo na voljo povezana dejanja in računovodski izvoz.
 
-## Evidentiranje plačil
+### Evidentiranje plačil
 
 Po objavi računa kliknite **Plačilo**, da evidentirate prejeto plačilo.
 

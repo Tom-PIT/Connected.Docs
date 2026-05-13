@@ -1,0 +1,125 @@
+<!-- app_route: /sales/documents/issued-invoices -->
+<!-- app_label: Issued invoices -->
+<!-- app_navigation_hint: Open Issued invoices, then click the action button to create a new draft invoice. -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/IssuedInvoicesCreate.md -->
+<!-- canonical_source_title: How to create an issued invoice -->
+
+# How to create an issued invoice
+
+New [issued invoices](IssuedInvoices.md) can be created:
+
+- manually from the **Issued invoices** screen
+- from related sales documents using **Linked documents → + Issued invoice**
+
+Supported source documents include:
+
+- committed [**Sales orders**](SalesOrders.md)
+- [**Delivery notes**](DeliveryNotes.md)
+
+When created from another document, the system automatically pre-fills most invoice data, including the customer, delivery information, and detail lines.
+
+![Sales Order Committed Linked Documents](../Images/SalesOrderCommittedLinkedDocuments.png "Committed Sales Order Linked Documents")
+
+## Step 1 — Create the document
+
+Create a new draft invoice using one of the following methods:
+
+- Click the [**action button**](../../../Common/UI/ActionButton.md) on the **Issued invoices** screen
+- Use **Linked documents → + Issued invoice** from a related sales document (e.g., [Sales order](SalesOrders.md), [Delivery note](DeliveryNotes.md))
+
+A new draft issued invoice is created. If created directly from another document it will have most of its fields already pre-filled.
+
+## Step 2 — Fill in header information
+
+Fill in the key header fields in the top section of the invoice form. When creating from a related document, most of these fields are pre-filled based on the source document:
+
+   - [**Customer**](../../../Common/Management/BusinessDirectory.md)  
+   - **Issue date**  
+   - **Delivery date**  
+   - **Due date** (mandatory)  
+   - **Reference type / Reference number**  
+   - [**Organization bank account**](../Management/OrganizationBankAccounts.md)  
+   - [**Payment method**](../Management/PaymentMethods.md)
+
+   ![New invoice top](../Images/IssuedInvoicesNewTop.png "New invoice top section")
+
+## Step 3 — Add details
+
+Add items in the **Details** section. Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
+
+ To add a new item: 
+ 
+ 1. Type or scan a **serial number**, **EAN**, or **asset name** in the Details bar. The system displays all matching items. 
+ 2. Select the desired item from the list.
+ 3. Adjust **quantity**, **price**, **discount**, or **tax information**, then click **Save**.
+
+    ![Issued Invoices New Details Edit](../Images/IssuedInvoicesNewDetailsEditV2.png)
+
+4. Continue adding as many detail lines as needed. After saving, the detail appears in the list:
+
+   ![Invoice detail saved](../Images/IssuedInvoicesNewBottom.png "Saved invoice detail")
+
+### Ledger details
+
+The **Ledger** section defines how the document is posted to the general ledger. It determines which accounts are used for revenue, expense, and tax postings when the document is saved and posted.
+
+When the document is posted:
+
+- The **net amount** is posted to the selected revenue or expense account.
+- The **tax amount** is posted to the selected tax account.
+- The system creates corresponding journal entries in the ledger.
+
+The available accounts are defined in the **[Chart of accounts](../../Accounting/Management/Ledger/ChartOfAccounts.md)**.
+
+> [!NOTE]  
+> Once published, an issued invoice cannot be edited or deleted. If a correction is needed, use **[Reverse document](../../Logistics/Documents/Reversals.md)** action in the menu.
+
+## Step 4 — Configure additional sections
+
+### Alternative currency
+
+The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
+
+![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
+
+When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+### Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the document.
+
+![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+> [!NOTE]  
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+
+#### Intrastat details
+
+When Intrastat reporting is enabled and the transaction involves a customer from another EU country, an additional **Intrastat** section becomes available in the detail edit form. This section collects statistical information required for Intrastat reporting.
+
+These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
+
+### Attachments
+
+At the top of every document, an **Attachments** section is available.
+
+![Attachments](../../Logistics/Images/Attachments.png "Attachments section")
+
+You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+
+### Content top and Content bottom
+
+Pre-filled content sections allow you to add predefined text blocks to the top or bottom of the invoice. This is useful for including standard terms and conditions, payment instructions, or any other relevant information that should appear on the printed document. 
+
+The content is selected from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
+
+## Step 5 - Publish the issued invoice
+
+When the invoice is ready, click **Publish** at the top of the page. Publishing moves the document from **Draft** to **Committed**, finalizes totals, and enables accounting export and further processing.
+
+
+
+
