@@ -8,7 +8,7 @@
 
 New [issued invoices](IssuedInvoices.md) can be created:
 
-- manually from the **Issued invoices** screen
+- manually from the **Issued invoices** screen  using the [**action button**](../../../Common/UI/ActionButton.md)
 - from related sales documents using **Linked documents → + Issued invoice**
 
 Supported source documents include:
@@ -71,9 +71,6 @@ When the document is posted:
 
 The available accounts are defined in the **[Chart of accounts](../../Accounting/Management/Ledger/ChartOfAccounts.md)**.
 
-> [!NOTE]  
-> Once published, an issued invoice cannot be edited or deleted. If a correction is needed, use **[Reverse document](../../Logistics/Documents/Reversals.md)** action in the menu.
-
 ## Step 4 — Configure additional sections
 
 ### Alternative currency
@@ -83,6 +80,14 @@ The Alternative currency section allows prices in the document to be expressed i
 ![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
 
 When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
+
+### Delivery
+
+Review or adjust delivery information in the **Delivery** section.
+
+The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
+
+These values affect the printed document and follow-up logistics documents, but do not modify the master data.
 
 ### Transport and Intrastat sections
 
@@ -116,9 +121,20 @@ Pre-filled content sections allow you to add predefined text blocks to the top o
 
 The content is selected from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
 
+### Payment methods
+
+Payment method assignments appear at the bottom of the document. 
+
+Click **Add payment method** to assign a [payment method](../Management/PaymentMethods.md) to the order. This field is informational and does not trigger any financial transactions by itself. It is used for internal tracking of how the customer intends to pay for the order.
+
+![Sales order – Payment methods](../Images/SalesOrdersNewBottom.png)
+
 ## Step 5 - Publish the issued invoice
 
 When the invoice is ready, click **Publish** at the top of the page. Publishing moves the document from **Draft** to **Committed**, finalizes totals, and enables accounting export and further processing.
+
+> [!NOTE]  
+> Once published, an issued invoice cannot be edited or deleted. If a correction is needed, use **[Reverse document](../../Logistics/Documents/Reversals.md)** action in the menu.
 
 
 

@@ -84,6 +84,14 @@ Razdelek **Alternativna valuta** omogoča prikaz cen v dokumentu v valuti, ki se
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo glede na določen menjalni tečaj.
 
+### Dostava
+
+Preglejte ali prilagodite podatke o dostavi v razdelku **Dostava**.
+
+Razdelek Dostava določa, kam bo blago odposlano. Samodejno se izpolni iz podatkov o stranki ali dobavitelju, vendar ga je mogoče prilagoditi za vsak dokument posebej.
+
+Te vrednosti vplivajo na natisnjen dokument in dokumente nadaljnje logistike, vendar ne spreminjajo glavnih podatkov.
+
 ### Transport in Intrastat
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v dokumentu prikažeta dodatna razdelka.
@@ -106,19 +114,27 @@ Ta razdelek vsebuje statistične podatke, potrebne za Intrastat poročanje.
 
 Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k Intrastat poročanju.
 
-### Priloge
+### Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priloge**.
+Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
 
-![Priloge](../../Logistika/Images/AttachmentsSL.png)
+![Priponke](../../Logistika/Images/AttachmentsSL.png)
 
-Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga podporna dokumentacija. Vse priloge ostanejo shranjene skupaj z dokumentom in so vedno dostopne za pregled.
+Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga podporna dokumentacija. Vse priponke ostanejo shranjene skupaj z dokumentom in so vedno dostopne za pregled.
 
 ### Vsebina zgoraj in vsebina spodaj
 
 Vnaprej pripravljeni razdelki vsebine omogočajo dodajanje predlog besedila na vrh ali dno računa. To je uporabno za vključevanje splošnih pogojev, navodil za plačilo ali drugih informacij, ki morajo biti prikazane na izpisu dokumenta.
 
 Besedilo se izbira iz [**Predlog klavzul za izdane račune**](../Upravljanje/PredlogeKlavzulIzdaniRacuni.md).
+
+#### Načini plačila
+
+Načini plačila so prikazani na dnu dokumenta.
+
+Kliknite **Dodaj način plačila**, da naročilu dodelite [način plačila](../Upravljanje/NačiniPlačila.md). To polje je informativne narave in samo po sebi ne sproži nobenih finančnih transakcij. Uporablja se za interno sledenje, kako stranka namerava plačati naročilo.
+
+![Naročilo stranke – načini plačila](../Images/SalesOrdersNewBottom.png "Naročilo stranke – načini plačila")
 
 ## Korak 5 — Objava računa
 

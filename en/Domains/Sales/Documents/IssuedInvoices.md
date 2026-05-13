@@ -173,12 +173,12 @@ Click any issued invoice in the list to open it. Draft invoices can be edited fr
 While the invoice is in **Draft** status you can edit all sections:
 
 - Header fields (dates, references, customer, bank account, etc.)
-- Alternative currency
-- Transport
-- Delivery information
-- **Details** – add, remove, or change invoice lines
-- **Payment methods** – define how the customer is expected to pay
-- **Content top** and **Content bottom** – choose predefined texts from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
+- [**Alternative currency**](IssuedInvoicesCreate.md#alternative-currency)
+- [**Transport and Intrastat**](IssuedInvoicesCreate.md#transport-and-intrastat-sections)
+- [**Delivery information**](IssuedInvoicesCreate.md#delivery)
+- [**Details**](IssuedInvoicesCreate.md#step-3--add-details) – add, remove, or change invoice lines
+- [**Payment methods**](IssuedInvoicesCreate.md#payment-methods) – define how the customer is expected to pay
+- [**Content top** and **Content bottom**](IssuedInvoicesCreate.md#content-top-and-content-bottom) – choose predefined texts from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
 
 ![Details and payments](../Images/IssuedInvoicesNewBottom.png "Invoice details and payment methods")
 
@@ -203,11 +203,11 @@ Available actions may include:
 - [**Delivery note**](DeliveryNotes.md) - Link to an exiting delivery note.
 - [**Prepayments**](Prepayments.md) - Link to an exiting prepayment.
 
-### Publishing an invoice
+### Publish an invoice
 
 When you are ready, click **Publish** to confirm the invoice and move it out of the **Draft** state. Once published, all related invoice actions become available.
 
-### Recording payments
+### Record payments
 
 After an invoice is published, use the **Payment** button to record incoming payments.
 
@@ -243,7 +243,7 @@ Available actions include:
 - **[Reverse document](../../Logistics/Documents/Reversals.md)** – Create a reversal invoice for corrections.  
 - **Return to draft** – Move the invoice back to draft status for editing (if allowed by business rules).
 
-## Deletion
+## Delete an issued invoice
 
 Draft invoices can be deleted in the edit view, **only if they contain no details**.
 
