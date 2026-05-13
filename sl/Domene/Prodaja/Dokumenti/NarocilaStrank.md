@@ -15,7 +15,7 @@ Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Naročila strank*
 Naročila strank so eden ključnih korakov v prodajni verigi:
 
 1. Ponudba se pripravi v dokumentu **[Ponudba](Ponudbe.md)**.  
-2. Ko stranka potrdi ponudbo, se iz nje ustvari **Naročilo stranke** (prek razdelka [*Povezani dokumenti*](Ponudbe.md#povezani-dokumenti)).  
+2. Ko stranka potrdi ponudbo, se iz nje ustvari **Naročilo stranke** (prek razdelka [**Povezani dokumenti**](Ponudbe.md#povezani-dokumenti)).  
 3. Naročilo stranke sproži nadaljnje operativne procese:
    - [**Dobavnice**](Dobavnice.md)
    - [**Proizvodni nalogi**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)
@@ -128,42 +128,22 @@ Filtri vključujejo:
 
 ### Ustvarjanje novega naročila stranke
 
-Naročila strank je mogoče ustvariti na dva načina:
+Za ustvarjanje novega naročila stranke kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
 
-- Neposredno na zaslonu **Naročila strank** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)
-- Iz potrjene [**Ponudbe**](Ponudbe.md) prek *Povezani dokumenti → + Naročilo stranke*. V tem primeru se večina polj (stranka, dobava, postavke) samodejno izpolni na podlagi ponudbe.
-
-  ![Ustvari naročilo stranke iz ponudbe](../Images/SalesOrdersOfferLink.png "Ustvari naročilo stranke iz ponudbe")
-
-Za ustvarjanje novega naroila stranke sledite korakom:
-
-1. Kliknite **akcijski gumb** za novo naročilo stranke.  
-2. Vnesite ali preverite **Stranko**, **Datum dokumenta** in **Datum dobave**.
-
-   ![Naročilo stranke – dokument](../Images/SalesOrdersNewTop.png "Naročilo stranke – dokument")
-
-3. Dodajte postavke v razdelek Postavke. Vnesite ali skenirajte **serijsko številko**, **EAN** ali **naziv materiala**.
-   - Sistem prikaže **vsa ujemajoča se sredstva in serijske številke**.
-
-   ![Naročilo stranke – dodaj postavko](../Images/SalesOrdersNewDetails.png "Naročilo stranke – dodaj postavko")
-
-4. Po potrebi prilagodite **Količino**, **Datum dobave** ali druga polja.  
-5. Kliknite **Shrani**, da potrdite dodane postavke.  
-6. Preglejte ali prilagodite podatke v razdelku **Dobava**.  
-7. (Neobvezno) Dodajte priloge ali povežite naročilo s projektom preko **Povezanih dokumentov**.  
-8. Kliknite **Objavi**, ko je naročilo pripravljeno.
-
-Po objavi se naročilo stranke premakne v stanje **Potrjeno → Na voljo** in omogoči nadaljnja dejanja.
+Za podroben postopek ustvarjanja si oglejte vodnik [**Kako ustvariti naročilo stranke**](NarocilaStrankUstvarjanje.md).
 
 ### Urejanje naročila stranke
 
-Naroilo stranke je razdeljeno v več razširljivih razdelkov.
+Naročilo stranke je razdeljeno v več razširljivih razdelkov. Razpoložljiva dejanja so odvisna od stanja dokumenta. Medtem ko je naročilo v stanju **Osnutek**, lahko urejate vse razdelke:
 
-#### Priponke
+- Polja glave (datumi, stranka)
+- [**Alternativna valuta**](NarocilaStrankUstvarjanje.md#alternativna-valuta)
+- [**Dobava**](NarocilaStrankUstvarjanje.md#dobava)
+- [**Transport in Intrastat**](NarocilaStrankUstvarjanje.md#razdelka-transport-in-intrastat)
+- [**Podrobnosti**](NarocilaStrankUstvarjanje.md#korak-3--dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk računa
+- [**Načini plačila**](NarocilaStrankUstvarjanje.md#načini-plačila) – določanje načina plačila stranke
 
-Na vrhu dokumenta je razdelek **Priponke**, kjer lahko naložite spremljajoče datoteke.
-
-#### Povezani dokumenti
+### Povezani dokumenti
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokumentov.
 
@@ -183,72 +163,27 @@ Razpoložljiva dejanja vključujejo:
 - **Poveži s projektom**
 - **Kopiraj naročilo stranke**
 
-#### Dokument
+### Objavljanje naročila stranke
 
-![Naročilo stranke – dokument](../Images/SalesOrdersNewTop.png)
-
-Vključuje osnovna polja:
-
-- Šifra  
-- Stranka  
-- Datum dokumenta  
-- Datum dobave  
-- Rabat  
-- Številka naročilnice  
-
-#### Alternativna valuta
-
-Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
-
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
-
-Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
-
-#### Razdelka Transport in Intrastat
-
-Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
-
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
-
-- **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
-- **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
-
-> [!NOTE]  
-> Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
-
-#### Dobava
-
-Razdelek Dobava določa naslov dostave. Privzeto se izpolni iz podatkov stranke, vendar ga je mogoče prilagoditi.
-
-#### Postavke
-
-Postavke določajo naročene izdelke ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
-
-Dodaj novo postavko:
-
-![Prodajni nalog – Dodaj postavko](../Images/SalesOrdersNewDetailsV2.png "Prodajni nalog – Dodaj postavko")
-
-Shranjena postavka:
-
-![Prodajni nalog – Urejanje postavke](../Images/SalesOrdersNewDetailsSaved.png "Shranjene postavke")
+Ko je osnutek pripravljen, kliknite **Objavi** na vrhu strani, da potrdite naročilo. Potrjeno naročilo stranke se premakne v stanje **Na voljo** in omogoči dodatna dejanja dokumenta.
 
 > [!NOTE]
-> Ko je omogočen Intrastat, se v razdelku Postavke prikažejo dodatna polja, kot so **Tarifa**, **Država porekla**, **Neto teža (kg)** in **Statistična vrednost**. Ta polja so potrebna za Intrastat poročanje, vendar ne vplivajo na obdelavo prodajnega naloga.
+> Ko kliknete **Objavi**, se dokument potrdi in premakne iz stanja **Osnutek** v skupino stanj **Obdelan**.
 
-#### Načini plačila
+![Naročila strank – Na voljo](../Images/SalesOrdersListAvailable.png)
 
-Načini plačila so prikazani na dnu dokumenta.
+Zaključevanje naročila stranke ima naslednje učinke:
 
-![Naročilo stranke – načini plačila](../Images/SalesOrdersNewBottom.png "Naročilo stranke – načini plačila")
-
-### Objavljanje in zaključevanje naročila stranke
-
-S klikom na **Objavi** se dokument potrdi in premakne v stanje **Potrjeno → Na voljo**.
+- Dokument se premakne iz stanja _Na voljo_ v stanje _Zaključen_.
+- Urejanje dokumenta je omejeno.
+- Večina dejanj v razdelku **Povezani dokumenti** ni več na voljo.
 
 > [!NOTE]
-> Objavljanje dokumenta ne povzroči dodatnih premikov zaloge ali finančnih knjiženj – ti se izvajajo v povezanih dokumentih.
+> Zaključevanje naročila stranke je administrativno dejanje, ki zaključi življenjski cikel dokumenta. Ne povzroči dodatnih premikov zaloge ali finančnih knjiženj — ta se izvajajo v povezanih dokumentih, kot so dobavnice ali izdani računi.
 
-Ko je naročilo stranke zaključeno (npr. po izdaji dobavnice ali računa), kliknite **Zaključi**:
+### Zaključevanje naročila stranke
+
+Ko je potrjeno naročilo stranke zaključeno, na primer po izdaji [**dobavnice**](Dobavnice.md) ali [**izdanega računa**](IzdaniRacuni.md), kliknite **Zaključi**:
 
 ![Gumb Zaključi naročilo stranke](../Images/SalesOrdersCompleteButton.png "Gumb Zaključi naročilo stranke")
 

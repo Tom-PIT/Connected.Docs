@@ -15,7 +15,7 @@ To access this page, navigate to **Sales / Documents / Sales orders** in the [**
 Sales orders are one of the core steps in the sales chain:
 
 1. A quotation is prepared in an **[Offer](Offers.md)**.  
-2. When the customer confirms the offer, a **Sales order** is created from the offer (via [*Linked documents*](Offers.md#linked-documents)).  
+2. When the customer confirms the offer, a **Sales order** is created from the offer (via [**Linked documents**](Offers.md#linked-documents)).  
 3. The sales order triggers downstream operational processes:
    - [**Delivery notes**](DeliveryNotes.md)
    - [**Production orders**](../../Production/Documents/ProductionOrders.md)
@@ -127,44 +127,22 @@ Filters include:
 
 ## Actions
 
-### Creating a new sales order
+### Create a sales order
 
-Sales orders can be created in two ways:
+To create a new sales order, click the [**action button**](../../../Common/UI/ActionButton.md). 
 
-- Directly from the **Sales orders** screen using the [**action button**](../../../Common/UI/ActionButton.md)
-- From a published [**Offer**](Offers.md), via *Linked documents → + Sales order*. In this case, most fields — such as the customer, delivery information, and detail items — are automatically pre-filled based on the offer.
+See the [**How to create a sales order**](SalesOrdersCreate.md) guide for a step-by-step walkthrough of the creation process.
 
-  ![Create sales order from offer](../Images/SalesOrdersOfferLink.png "Create sales order from offer")
+### Edit a sales order
 
-To create a completely new Sales order, follow these steps:
+Click on a sales order on the list to open the edit view. The available actions depend on the document state. While the order is in **Draft** status you can edit all sections:
 
-1. Click the **action button** button to create a new Sales order.  
-2. Enter the **Customer**, **Document date**, and **Delivery date** (or review them if pre-filled).  
-
-   ![Sales order – Document](../Images/SalesOrdersNewTop.png)
-
-3. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar (or review them if pre-filled).  
-   - The system displays **all matching materials and serial numbers**. If multiple matches exist, select the correct one from the list.
-
-   ![Sales order – Add detail](../Images/SalesOrdersNewDetails.png)
-
-4. Adjust the **Quantity**, **Delivery date**, or other fields as needed.  
-5. Click **Save** the confirm added details. Repeat step 3 to add more items.
-6. Review or adjust delivery information in the **Delivery** section.  
-7. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
-8. When ready, click **Publish** at the top of the page.
-
-Once published, the Sales order moves into the **Committed → Available** state, enabling all related actions such as creating Delivery notes, Production orders, Maintenance orders, or Issued invoices.
-
-### Editing a sales order
-
-The sales order is divided into multiple expandable sections.
-
-#### Attachments
-
-At the top of every document, an **Attachments** section is available. 
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+- Header fields (dates, customer)
+- [**Alternative currency**](SalesOrdersCreate.md#alternative-currency)
+- [**Transport and Intrastat**](SalesOrdersCreate.md#transport-and-intrastat-sections)
+- [**Delivery information**](SalesOrdersCreate.md#delivery)
+- [**Details**](SalesOrdersCreate.md#step-3--add-details) – add, remove, or change invoice lines
+- [**Payment methods**](SalesOrdersCreate.md#payment-methods) – define how the customer is expected to pay
 
 #### Linked documents
 
@@ -186,61 +164,7 @@ Available actions include:
 - **Link to project**
 - **Copy sales order**
 
-#### Document
-
-![Sales order – Document](../Images/SalesOrdersNewTop.png)
-
-Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
-
-#### Alternative currency
-
-The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
-
-![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
-
-When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
-
-#### Transport and Intrastat sections
-
-When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the document.
-
-![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
-
-
-- **Transport** - Used to capture logistics-related information about how the goods were delivered.
-- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
-
-> [!NOTE]  
-Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
-
-#### Delivery section
-
-The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
-
-These values affect the printed document and follow-up logistics documents, but do not modify the master data.
-
-#### Details
-
-Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
-
-Add a new detail:
-
-![Sales order – Add detail](../Images/SalesOrdersNewDetailsV2.png "Sales order – Add detail")
-
-Saved detail:
-
-![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png "Details saved")
-
-> [!NOTE]
-> When Intrastat is enabled, additional fields appear in the details section, such as Tariff, Country of origin, Net weight, and Statistical value. These fields are required for Intrastat reporting but do not affect the sales order processing.
-
-#### Payment methods
-
-Payment method assignments appear at the bottom of the document.
-
-![Sales order – Payment methods](../Images/SalesOrdersNewBottom.png)
-
-### Publishing a sales order
+### Publish a sales order
 
 When the draft is ready, click **Publish** located at the top of the page to commit the order. A Committed sales order moves to the **Available** state and enables additional document actions.
 
@@ -249,7 +173,7 @@ When the draft is ready, click **Publish** located at the top of the page to com
 
 ![Sales orders – Available](../Images/SalesOrdersListAvailable.png)
 
-Completing a sales order performs the following actions:
+Completing a sales order has the following effects:
 
 - The document moves from _Available_ to _Completed_ state.
   
@@ -260,7 +184,7 @@ Completing a sales order performs the following actions:
 > [!NOTE]
 > Completing a sales order is an administrative action that finalizes its lifecycle. It does **not** perform additional stock movements or financial postings — those occur in the linked delivery or invoice documents.
 
-#### Completing a sales order
+### Complete a sales order
 
 Once the published sales order is finalized, for example, when a [**delivery note**](DeliveryNotes.md) or [**issued invoice**](IssuedInvoices.md) has been generated from a sales order, click **Complete**:
 
@@ -278,14 +202,14 @@ Click the context menu to:
 - **Delete all details** (for draft orders)
 - **Return to draft** (for completed orders)
 
-## Deletion
+## Delete a sales order
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
 If the draft still includes items in the **Details** section:
 
 1. Open the document menu (top right corner).
-2. Select **Delete all details** to remove all lines at once.
+2. Select **Delete all details** to remove all detail lines at once.
 3. Once the document contains no details, click **Delete** to remove the draft.
 
 If you need to remove only a specific material instead of clearing the entire document:
