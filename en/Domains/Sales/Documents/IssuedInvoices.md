@@ -89,7 +89,7 @@ Invoices can also be created manually as stand-alone documents when required.
 </details>
 
 <details>
-  <summary><strong>Ledger and Interstat details</strong></summary>
+  <summary><strong>Ledger and Intrastat details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -160,79 +160,13 @@ On the list view, the menu in the top-right corner provides additional options:
 
 ## Actions
 
-### Creating a new issued invoice
+### Create a new issued invoice
 
-Issued invoices can be created in two ways:
+To create a new issued invoice, click the [**action button**](../../../Common/UI/ActionButton.md) on the **Issued invoices** screen. 
 
-- Directly from the **Issued invoices** screen using the [**action button**](../../../Common/UI/ActionButton.md).  
-- From other sales documents via **Linked documents → + Issued invoice**, such as:
-  - A committed [**Sales order**](SalesOrders.md)  
-  - A [**Delivery note**](DeliveryNotes.md)  
+See the [**How to create an issued invoice**](IssuedInvoicesCreate.md) guide for a step-by-step walkthrough of the creation process.
 
-  In these cases, most fields — including the customer, delivery data, and detail items — are automatically pre-filled.
-
-  ![Sales Order Committed Linked Documents](../Images/SalesOrderCommittedLinkedDocuments.png "Committed Sales Order Linked Documents")
-
-Once you start a new Issued invoice, follow these steps:
-
-1. Use the [**action button**](../../../Common/UI/ActionButton.md) or the **Linked documents** panel in another document to create a new draft invoice.
-
-2. Fill in the key header fields:
-   - [**Customer**](../../../Common/Management/BusinessDirectory.md)  
-   - **Issue date**  
-   - **Delivery date**  
-   - **Due date** (mandatory)  
-   - **Reference type / Reference number**  
-   - [**Organization bank account**](../Management/OrganizationBankAccounts.md)  
-   - [**Payment method**](../Management/PaymentMethods.md)
-
-   ![New invoice top](../Images/IssuedInvoicesNewTop.png "New invoice top section")
-
-3. Add items in the **Details** section. Type or scan a **serial number**, **EAN**, or **asset name** in the Details bar.  
-   The system displays all matching items.
-
-4. Adjust **quantity**, **price**, **discount**, or **tax information**, then click **Save**.
-
-    ![Issued Invoices New Details Edit](../Images/IssuedInvoicesNewDetailsEditV2.png)
-
-5. Continue adding as many detail lines as needed. After saving, the detail appears in the list:
-
-   ![Invoice detail saved](../Images/IssuedInvoicesNewBottom.png "Saved invoice detail")
-
-6. (Optional) Add:
-   - **Content top / Content bottom** text  
-   - **Alternative currency** (see below)
-   - **Delivery information**  
-   - **Attachments**  
-
-7. When the invoice is ready, click **Publish** at the top of the page. Publishing moves the document from **Draft** to **Committed**, finalizes totals, and enables accounting export and further processing.
-
-> [!NOTE]  
-> Once published, an issued invoice cannot be edited or deleted. If a correction is needed, use **[Reverse document](../../Logistics/Documents/Reversals.md)** action in the menu.
-
-#### Details
-
-Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
-
-##### Ledger details
-
-The **Ledger** section defines how the document is posted to the general ledger. It determines which accounts are used for revenue, expense, and tax postings when the document is saved and posted.
-
-When the document is posted:
-
-- The **net amount** is posted to the selected revenue or expense account.
-- The **tax amount** is posted to the selected tax account.
-- The system creates corresponding journal entries in the ledger.
-
-The available accounts are defined in the **[Chart of accounts](../../Accounting/Management/Ledger/ChartOfAccounts.md)**.
-
-##### Intrastat details
-
-When Intrastat reporting is enabled and the transaction involves a customer from another EU country, an additional **Intrastat** section becomes available in the detail edit form. This section collects statistical information required for Intrastat reporting.
-
-These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
-
-### Editing an issued invoice
+### Edit an issued invoice
 
 Click any issued invoice in the list to open it. Draft invoices can be edited freely. The document is divided into multiple expandable sections. 
 
@@ -244,15 +178,9 @@ While the invoice is in **Draft** status you can edit all sections:
 - Delivery information
 - **Details** – add, remove, or change invoice lines
 - **Payment methods** – define how the customer is expected to pay
-- **Content top** and **Content bottom** – choose predefined texts
+- **Content top** and **Content bottom** – choose predefined texts from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
 
 ![Details and payments](../Images/IssuedInvoicesNewBottom.png "Invoice details and payment methods")
-
-#### Attachments
-
-At the top of every document, an **Attachments** section is available. 
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
 #### Linked documents
 
@@ -274,28 +202,6 @@ Available actions may include:
 - [**+ Debit note**](DebitNotes.md) - Create a debit note
 - [**Delivery note**](DeliveryNotes.md) - Link to an exiting delivery note.
 - [**Prepayments**](Prepayments.md) - Link to an exiting prepayment.
-
-#### Alternative currency
-
-The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
-
-![Sales order – Alternative currency section](../Images/SalesAlternativeCurrency.png "Alternative currency section")
-
-When an alternative currency is selected, document prices are automatically recalculated using the specified exchange rate.
-
-#### Transport and Intrastat sections
-
-When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
-
-![Transport and Intrastat sections](../../Logistics/Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
-
-
-- **Transport** - Used to capture logistics-related information about how the goods were delivered.
-- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
-
-
-> [!NOTE]  
-Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ### Publishing an invoice
 
@@ -344,7 +250,7 @@ Draft invoices can be deleted in the edit view, **only if they contain no detail
 If the draft still includes items in the **Details** section:
 
 1. Open the document menu (top right corner).
-2. Select **Delete all details** to remove all lines at once.
+2. Select **Delete all details** to remove all detail lines at once.
 3. Once the document contains no details, click **Delete** to remove the draft.
 
 If you need to remove only a specific material instead of clearing the entire document:
