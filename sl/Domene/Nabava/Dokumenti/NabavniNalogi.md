@@ -33,7 +33,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 | **Dobavitelj** | Dobavitelj materialov ali storitev, izbran iz **[Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md)**. |
 | **Datum dokumenta** | Datum nastanka nabavnega naloga. |
 | **Datum dobave** | Načrtovani datum dobave zahtevanih materialov (obvezno). |
-| **Rabat** | Neobvezni popust, uporabljen za celoten nabavni nalog. Če je določena davčna stopnja **0 %**, se samodejno uporabi pri naročilu pri dobavitelju s sedežem zunaj matične države. |
+| **Rabat** | Neobvezni popust, uporabljen za celoten nabavni nalog. |
 | [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Interno stroškovno mesto, povezano z nabavo. Če je določena davčna stopnja **0 %**, se samodejno uporabi pri naročilu pri dobavitelju s sedežem zunaj matične države. |
 | **Šifra ponudbe** | Neobvezna referenca na ponudbo dobavitelja ali zunanji dokument. |
 | **Dostava – podjetje / naslov** | Podatki o lokaciji dostave, povzeti iz Poslovnega imenika ali ročno prilagojeni. |
@@ -98,7 +98,7 @@ Razpoložljivi filtri vključujejo:
 - **Datumi dobave**  
 - **Pogled**
   - Osnutki  
-- **Objavljeno**
+- **Potrjeno**
   - Na voljo  
   - V obdelavi  
   - Zaključeno  
@@ -108,38 +108,24 @@ Razpoložljivi filtri vključujejo:
 
 ## Dejanja
 
-### Ustvarjanje novega nabavnega naloga
+### Ustvariti novi nabavni nalog
 
-Nabavni nalogi se lahko ustvarijo:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novi nalog.
 
-- neposredno iz seznama **Nabavni nalogi** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md),
-- iz objavljenega **[Povpraševanja](Povprasevanja.md)** prek **Povezani dokumenti → + Nabavni nalog**.
+Za podroben postopek ustvarjanja si oglejte vodnik [**Kako ustvariti nabavni nalog**](NabavniNalogiUstvarjanje.md).
 
-V drugem primeru se večina polj (dobavitelj, podatki o dostavi, postavke) samodejno predizpolni.
+### Urediti nabavni nalog
 
-Postopek:
+Kliknite nabavni nalog v seznamu, da ga odprete. Nabavne naloge v stanju **Osnutek** je mogoče prosto urejati.
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega nabavnega naloga.  
-2. Vnesite ali preverite **Dobavitelja**, **Datum dokumenta** in **Datum dobave**.
+Razširljivi razdelki vključujejo:
 
-   ![Nov nabavni nalog](../Images/SupplyOrderNew.png "Nov nabavni nalog")
-
-3. V razdelku **Postavke** vnesite ali skenirajte **serijsko številko**, **EAN** ali **ime materiala**.  
-   Sistem prikaže vsa ujemanja materialov in serijskih številk.
-
-   ![Shranjena postavka](../Images/SupplyOrderNewDetailsSaved.png "Shranjena postavka")
-
-4. Preglejte ali prilagodite podatke o dostavi v razdelku **Dostava**.  
-5. (Neobvezno) dodajte **Priponke** ali povežite dokument s projektom prek **Povezani dokumenti**.  
-6. Ko ste pripravljeni, kliknite **Objavi**.
-
-Po objavi se dokument premakne v stanje **Objavljeno → Na voljo**, kar omogoči vse nadaljnje aktivnosti, kot so prevzemi.
-
-#### Priponke
-
-Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
-
-Naložite lahko katerokoli ustrezno datoteko (dobavnice, transportne dokumente, fotografije, spremno dokumentacijo). Vse priloge ostanejo shranjene skupaj z dokumentom.
+- [**Povezani dokumenti**](#povezani-dokumenti) 
+- [**Priponke**](NabavniNalogiUstvarjanje.md#priponke)
+- [**Dokument**](NabavniNalogiUstvarjanje.md#korak-2--izpolnjevanje-glave-dokumenta)
+- [**Dostava**](NabavniNalogiUstvarjanje.md#razdelek-dostava)
+- [**Vsebina na vrhu in na dnu**](NabavniNalogiUstvarjanje.md#vsebina-na-vrhu-in-vsebina-na-dnu)
+- [**Postavke**](NabavniNalogiUstvarjanje.md#korak-3--dodajanje-postavk)
 
 #### Povezani dokumenti
 
@@ -156,68 +142,7 @@ Razpoložljiva dejanja vključujejo:
 - **Dodaj opravilo**  
 - **Kopiraj nabavni nalog**
 
-#### Razdelek Dokument
-
-Razdelek **Dokument** vsebuje:
-
-- Kodo  
-- Dobavitelja  
-- Datum dokumenta  
-- Datum dobave  
-- Rabat  
-- Stroškovno mesto  
-- Šifro ponudbe  
-- Dostavo  
-- Vsebina na vrhu  
-
-#### Razdelek Dostava
-
-Razdelek **Dostava** določa, kam bodo materiali dostavljeni. Privzeto se podatki prevzamejo iz dostavnega naslova podjetja, vendar jih je mogoče po potrebi prilagoditi za posamezno nabavo.
-
-Ti podatki vplivajo na tiskani nabavni nalog in nadaljnje logistične dokumente (npr. **Prevzeme**), ne pa na osnovne podatke v Poslovnem imeniku.
-
-#### Postavke
-
-Razdelek **Postavke** omogoča dodajanje materialov ali stroškov.
-
-##### Urejanje postavke
-
-![Urejanje postavke](../Images/SupplyOrderNewDetailsEdit.png "Urejanje postavke")
-
-Polja vključujejo:
-
-- Material  
-- EAN  
-- Količina  
-- Datum dobave  
-- Cena brez DDV (na enoto)  
-- Davčna stopnja  
-- Dobaviteljeva šifra  
-- Popust (%)  
-
-Povzetek na dnu prikazuje:
-
-- Neto znesek  
-- Davek  
-- Skupni znesek  
-
-![Shranjena postavka](../Images/SupplyOrderNewDetailsSaved.png "Shranjena postavka")
-
-### Urejanje nabavnega naloga
-
-Kliknite nabavni nalog v seznamu, da ga odprete. Nabavne naloge v stanju **Osnutek** je mogoče prosto urejati.
-
-Razširljivi razdelki vključujejo:
-
-- Povezani dokumenti  
-- Priponke  
-- Dokument  
-- Dostava  
-- Vsebina na vrhu  
-- Postavke  
-- Vsebina na dnu  
-
-### Zaključevanje nabavnega naloga
+## Zaključiti nabavni nalog
 
 Nabavni nalog se šteje za zaključen, ko so vsi materiali v celoti prevzeti.
 
@@ -242,7 +167,7 @@ Ob zaključevanju:
 - **Pošlji po e-pošti**  
 - **Storniraj dokument**
 
-## Brisanje
+## Brisati nabavni nalog
 
 Nabavne naloge v stanju **Osnutek** je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo postavk**.
 
