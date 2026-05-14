@@ -58,7 +58,7 @@ The **Menu** in the top-right corner provides:
 - **Export CSV**
 - **Export PDF**
 
-## Checklist edit
+## Edit a checklist 
 
 The checklist edit page shows the current checklist **code** and **name**, followed by an overview of the checklist's checkpoints.
 
