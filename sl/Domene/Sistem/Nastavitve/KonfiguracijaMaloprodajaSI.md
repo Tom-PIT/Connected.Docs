@@ -1,4 +1,4 @@
-<!-- app_route: /sales/retail/settings -->
+<!-- app_route: /management/configuration -->
 <!-- app_label: Nastavitve maloprodaje SI -->
 <!-- app_navigation_hint: Odprite **Nastavitve** v glavni navigaciji, nato odprite **Sales Retails SI Settings**. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sistem/Nastavitve/KonfiguracijaMaloprodajaSI.md -->
@@ -10,7 +10,7 @@ Nastavitve **Maloprodaja SI** se uporabljajo za konfiguracijo povezave s **FURS 
 
 Te nastavitve omogočajo pošiljanje davčno pomembnih podatkov za [**maloprodajne izdane račune**](../../Prodaja/Dokumenti/MaloprodajniRacuni.md) na FURS.
 
-Do teh nastavitev dostopate preko **Sales.Retail.SI / Sales Retail SI Settings**.
+Do teh nastavitev dostopate preko **Sistem / Nastavitve / Sales.Retail.SI / Sales Retail SI Settings**.
 
 ![Sales Retail SI Settings Navigation](../Images/SalesRetailsSettingsNav.png "Sales Retail SI Settings Navigation")
 
