@@ -181,7 +181,7 @@ Zaključevanje naročila stranke ima naslednje učinke:
 > [!NOTE]
 > Zaključevanje naročila stranke je administrativno dejanje, ki zaključi življenjski cikel dokumenta. Ne povzroči dodatnih premikov zaloge ali finančnih knjiženj — ta se izvajajo v povezanih dokumentih, kot so dobavnice ali izdani računi.
 
-### Zaključevanje naročila stranke
+### Zaključiti naročila stranke
 
 Ko je potrjeno naročilo stranke zaključeno, na primer po izdaji [**dobavnice**](Dobavnice.md) ali [**izdanega računa**](IzdaniRacuni.md), kliknite **Zaključi**:
 

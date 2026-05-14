@@ -161,20 +161,20 @@ V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
 
 ### Ustvariti izdani račun
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Dodaj izdani račun**, da ustvarite nov račun. Odpre se obrazec za vnos podatkov.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) da ustvarite nov račun.
 
 Za podroben postopek ustvarjanja si oglejte vodnik [**Kako ustvariti izdani račun**](IzdaniRacuniUstvarjanje.md).
 
-### Urejanje izdanega računa
+### Urediti izdani račun
 
 Kliknite kateri koli izdan račun na seznamu, da ga odprete. Osnutke je mogoče prosto urejati. Dokument je razdeljen na več razširljivih razdelkov.
 
 Dokler je račun v statusu **Osnutek**, lahko urejate vse razdelke:
 
-- Glavna polja (datumi, sklici, stranka, bančni račun itd.)
-- [Alternativna valuta](IzdaniRacuniUstvarjanje.md#alternativna-valuta)
-- [Transport](IzdaniRacuniUstvarjanje.md#transport-in-intrastat)
-- [Podatki o dostavi](IzdaniRacuniUstvarjanje.md#dostava)
+- [Glavna polja](IzdaniRacuniUstvarjanje.md#korak-2--izpolnjevanje-glave-dokumenta) (datumi, sklici, stranka, bančni račun itd.)
+- [**Alternativna valuta**](IzdaniRacuniUstvarjanje.md#alternativna-valuta)
+- [**Transport**](IzdaniRacuniUstvarjanje.md#transport-in-intrastat)
+- [**Dostava**](IzdaniRacuniUstvarjanje.md#dostava)
 - [**Postavke**](IzdaniRacuniUstvarjanje.md#korak-3--dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk
 - [**Načini plačila**](IzdaniRacuniUstvarjanje.md#načini-plačila) – določanje načina plačila
 - [**Vsebina zgoraj** in **Vsebina spodaj**](IzdaniRacuniUstvarjanje.md#vsebina-zgoraj-in-vsebina-spodaj) – izbor vnaprej določenih besedil
@@ -202,7 +202,7 @@ Razpoložljiva dejanja lahko vključujejo:
 - [**Dobavnica**](Dobavnice.md) – povezava z obstoječo dobavnico
 - [**Predplačila**](Predplacila.md) – povezava z obstoječimi predplačili
 
-### Objavljanje računa
+### Objaviti izdani račun
 
 Ko je račun pripravljen, kliknite **Objavi**, da ga potrdite in premaknete iz stanja **Osnutek** v **Obdelan**. Po objavi postanejo na voljo povezana dejanja in računovodski izvoz.
 
@@ -240,7 +240,7 @@ Meni v zgornjem desnem kotu omogoča:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrnitev v osnutek** (če je dovoljeno)
 
-## Brisanje
+## Brisati izdani račun
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 

@@ -13,8 +13,8 @@ New [issued invoices](IssuedInvoices.md) can be created:
 
 Supported source documents include:
 
-- committed [**Sales orders**](SalesOrders.md)
-- [**Delivery notes**](DeliveryNotes.md)
+- committed [sales orders](SalesOrders.md)
+- [delivery notes](DeliveryNotes.md)
 
 When created from another document, the system automatically pre-fills most invoice data, including the customer, delivery information, and detail lines.
 
@@ -25,7 +25,7 @@ When created from another document, the system automatically pre-fills most invo
 Create a new draft invoice using one of the following methods:
 
 - Click the [**action button**](../../../Common/UI/ActionButton.md) on the **Issued invoices** screen
-- Use **Linked documents → + Issued invoice** from a related sales document (e.g., [Sales order](SalesOrders.md), [Delivery note](DeliveryNotes.md))
+- Use **Linked documents → + Issued invoice** from a related sales document (e.g., [sales order](SalesOrders.md), [delivery note](DeliveryNotes.md))
 
 A new draft issued invoice is created. If created directly from another document it will have most of its fields already pre-filled.
 
@@ -49,7 +49,7 @@ Add items in the **Details** section. Details define the ordered items and their
 
  To add a new item: 
  
- 1. Type or scan a **serial number**, **EAN**, or **asset name** in the Details bar. The system displays all matching items. 
+ 1. Type or scan a **serial number**, **EAN**, or **asset name** in the **Details** bar. The system displays all matching items. 
  2. Select the desired item from the list.
  3. Adjust **quantity**, **price**, **discount**, or **tax information**, then click **Save**.
 
@@ -115,11 +115,11 @@ At the top of every document, an **Attachments** section is available.
 
 You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
 
-### Content top and Content bottom
+### Top content and Bottom content
 
 Pre-filled content sections allow you to add predefined text blocks to the top or bottom of the invoice. This is useful for including standard terms and conditions, payment instructions, or any other relevant information that should appear on the printed document. 
 
-The content is selected from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
+The content is selected from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md).
 
 ### Payment methods
 

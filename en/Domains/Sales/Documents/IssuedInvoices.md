@@ -172,7 +172,7 @@ Click any issued invoice in the list to open it. Draft invoices can be edited fr
 
 While the invoice is in **Draft** status you can edit all sections:
 
-- Header fields (dates, references, customer, bank account, etc.)
+- [Header fields](IssuedInvoicesCreate.md#step-2--fill-in-header-information) (dates, references, customer, bank account, etc.)
 - [**Alternative currency**](IssuedInvoicesCreate.md#alternative-currency)
 - [**Transport and Intrastat**](IssuedInvoicesCreate.md#transport-and-intrastat-sections)
 - [**Delivery information**](IssuedInvoicesCreate.md#delivery)

@@ -126,7 +126,7 @@ Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, foto
 
 Vnaprej pripravljeni razdelki vsebine omogočajo dodajanje predlog besedila na vrh ali dno računa. To je uporabno za vključevanje splošnih pogojev, navodil za plačilo ali drugih informacij, ki morajo biti prikazane na izpisu dokumenta.
 
-Besedilo se izbira iz [**Predlog klavzul za izdane račune**](../Upravljanje/PredlogeKlavzulIzdaniRacuni.md).
+Besedilo se izbira iz [**Vnaprej določena besedila**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md).
 
 #### Načini plačila
 

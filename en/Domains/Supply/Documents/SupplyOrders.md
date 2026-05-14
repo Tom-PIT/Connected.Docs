@@ -105,36 +105,24 @@ The menu in the top-right corner of the list provides the option to export the l
 
 ## Actions
 
-### Creating a new supply order
+### Create a supply order
 
-Supply orders can be created:
+New supply orders can be created by clicking the [**action button**](../../../Common/UI/ActionButton.md).
 
-- Directly from the **Supply orders** screen using the [**action button**](../../../Common/UI/ActionButton.md)
-- From a published [**Inquiry**](Inquiries.md) via *Linked documents → + Supply order*. In this case, most fields — such as the vendor, delivery information, and detail items — are automatically pre-filled based on the inquiry.
+See the [**How to create a supply order**](SupplyOrdersCreate.md) guide for a step-by-step walkthrough of the creation process.
 
-Once you start a new Supply order, follow these steps:
+### Edit a supply order
 
-1. Click the **+** button to create a new Supply order.  
-2. Enter the **Vendor**, **Document date**, and **Supply date** (or review them if pre-filled from a inquiry document).  
+Click any supply order in the list to open it. Draft supply orders can be edited freely.
 
-   ![New supply order](../Images/SupplyOrderNew.png)
+Expandable sections:
 
-3.  Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar (or review them if pre-filled).  
-   - The system displays **all matching materials and serial numbers**.  
-   
-     ![Saved detail](../Images/SupplyOrderNewDetailsSaved.png)
-
-4. Review or adjust delivery information in the **Delivery** section.  
-5. (Optional) Add attachments or link the order to a Project using **Linked documents**.  
-6. When ready, click **Publish** at the top of the page.
-
-Once published, the Supply order moves into the **Committed → Available** state, enabling all related actions such as creating Receive documents.
-
-#### Attachments
-
-At the top of every document, an **Attachments** section is available. 
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+- [Linked documents](#linked-documents)  
+- [Attachments](SupplyOrdersCreate.md#attachments)  
+- [Document](SupplyOrdersCreate.md#step-2--fill-in-header-information) 
+- [Delivery](SupplyOrdersCreate.md#delivery-section)  
+- [Top content and bottom content](SupplyOrdersCreate.md#top-content-and-bottom-content)  
+- [Details](SupplyOrdersCreate.md#step-3--add-details)  
 
 #### Linked documents
 
@@ -151,70 +139,6 @@ Available actions include:
 - **Add task** – Add task to supply order  
 - **Copy supply order** – Duplicate the supply order with its contents
 
-#### Document section
-
-![New supply order](../Images/SupplyOrderNew.png)
-
-The document contains the following fields:
-
-- Code  
-- Vendor  
-- Document date  
-- Supply date  
-- Rebate  
-- Cost center  
-- Offer code  
-- Delivery  
-- Top content  
-
-#### Delivery section
-
-The Delivery section defines where the ordered materials will be delivered. It is filled automatically from your company's delivery information, but the address can be adjusted for each purchase if needed.
-
-These values affect the printed supply order and the follow-up logistics documents (such as [Receive](../../Logistics/Documents/Receives.md) documents), but they do not modify the master data stored in the Business directory.
-
-#### Details
-
-The Details section allows adding requested materials or expenses.
-
-##### Edit detail
-
-![Edit detail](../Images/SupplyOrderNewDetailsEdit.png)
-
-Fields include:
-
-- Material  
-- EAN  
-- Quantity  
-- Supply date  
-- Net price (per unit)  
-- Tax rate  
-- Supplier code  
-- Discount (%)  
-
-The bottom summary displays:
-
-- Net price  
-- Tax  
-- Total cost  
-
-![Saved detail](../Images/SupplyOrderNewDetailsSaved.png)
-
-### Editing a supply order
-
-Click any supply order in the list to open it.  
-Draft supply orders can be edited freely.
-
-Expandable sections:
-
-- Linked documents  
-- Attachments  
-- Document  
-- Delivery  
-- Top content  
-- Details  
-- Bottom content  
-
 ### Completing a Supply order
 
 A Supply order is considered complete when all materials have been fully received.
@@ -228,8 +152,6 @@ Completing a supply order performs the following actions:
 
 > [!NOTE]
 > Completing a Supply order is an administrative action that finalizes its lifecycle. It does **not** perform additional stock movements — those occur in the linked Receive documents.
-
-
 
 ## Menu
 
