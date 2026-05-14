@@ -5,32 +5,32 @@
 
 # Aktivne kontrolne liste
 
-Pogled **Aktivne kontrolne liste** prikazuje vsa izvajanja kontrolnih seznamov, ki so trenutno v teku. Operaterji ga uporabljajo za spremljanje in dokončanje tekočih nalog kakovosti ali vzdrževanja. Ko je kontrolni seznam zaključen, se v tem pogledu ne prikazuje več in se premakne v pogled Zaključene kontrolne liste.
+Pogled **Aktivne kontrolne liste** prikazuje vsa izvajanja kontrolnih list, ki so trenutno v teku. Operaterji ga uporabljajo za spremljanje in dokončanje tekočih nalog kakovosti ali vzdrževanja. Ko je kontrolna lista zaključena, se v tem pogledu ne prikazuje več in se premakne v pogled Zaključene kontrolne liste.
 
 Za dostop do tega pogleda se pomaknite na **Kvaliteta / Pogledi / Aktivne kontrolne liste** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
 ### Pregled
 
-Ta pogled ponuja seznam vseh trenutno aktivnih (nedokončanih) kontrolnih seznamov v realnem času. Namenjen je osebju v proizvodnji, vzdrževalnemu osebju in nadzornikom za hiter pregled, kateri kontrolni seznami zahtevajo pozornost.
+Ta pogled ponuja seznam vseh trenutno aktivnih (nedokončanih) kontrolnih list v realnem času. Namenjen je osebju v proizvodnji, vzdrževalnemu osebju in nadzornikom za hiter pregled, katere kontrolne liste zahtevajo pozornost.
 
 ## Shema
 
 | Polje | Opis |
 |------|------|
-| **Kontrolni list** | Šifra in ime kontrolnega seznama, ki se izvaja; prikazuje trenutno fazo prek statusne oznake (npr. Na začetku). |
+| **Kontrolna lista** | Šifra in ime kontrolne liste, ki se izvaja; prikazuje trenutno fazo prek statusne oznake (npr. Na začetku). |
 | **Dokument** | Vrsta in koda izvornega dokumenta: [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) ali [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md). |
-| **Operacija** | Šifra in ime operacije, povezane z izvajanjem kontrolnega seznama. |
+| **Operacija** | Šifra in ime operacije, povezane z izvajanjem kontrolne liste. |
 | **Izdelek** | Ime in koda izdelka, povezana z operacijo (v proizvodnih kontekstih). |
 | [**Organizacijska enota**](../../Proizvodnja/Upravljanje/OrganizacijskeEnote.md) | Enota, odgovorna za izvajanje (npr. Montaža, Elektro vzdrževanje). |
-| **Oprema** | Prikazano za kontrolne sezname, povezane z vzdrževanjem; oprema, ki se vzdržuje ali preverja. |
+| **Oprema** | Prikazano za kontrolne liste, povezane z vzdrževanjem; oprema, ki se vzdržuje ali preverja. |
 
-## Seznam aktivnih kontrolnih seznamov
+## Seznam aktivnih kontrolnih list
 
-![Seznam aktivnih kontrolnih seznamov](../Images/ActiveChecklistsList.png "Seznam aktivnih kontrolnih seznamov")
+![Seznam aktivnih kontrolnih list](../Images/ActiveChecklistsList.png "Seznam aktivnih kontrolnih list")
 
 Na vrhu strani dva kazalnika povzemata trenutno stanje:
-- **Aktivne kontrolne liste** — skupno število aktivnih izvajanj kontrolnih seznamov.
-- **Moje kontrolne liste** — število aktivnih izvajanj kontrolnih seznamov, dodeljenih trenutno prijavljenemu uporabniku.
+- **Aktivne kontrolne liste** — skupno število aktivnih izvajanj kontrolnih list.
+- **Moje kontrolne liste** — število aktivnih izvajanj kontrolnih list, dodeljenih trenutno prijavljenemu uporabniku.
 
 ## Filtri
 
@@ -42,7 +42,7 @@ Uporabite filtre za zoženje seznama:
 
 ## Interakcije vrstic
 
-- Kliknite **šifro kontrolnega seznama**, da odprete izvajanje kontrolnega seznama na strani [Urejanje kontrolnega seznama](#urejanje-kontrolnega-seznama).
+- Kliknite **šifro kontrolne liste**, da odprete izvajanje kontrolne liste na strani [Urediti kontrolno listo](#uredite-kontrolno-listo).
 - Kliknite **šifro dokumenta**, da odprete povezani dokument:
   - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md), kadar je vrsta dokumenta Proizvodni nalog
   - [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md), kadar je vrsta dokumenta Vzdrževalni nalog
@@ -56,15 +56,15 @@ Uporabite filtre za zoženje seznama:
 - **Izvoz CSV**
 - **Izvoz PDF**
 
-## Urejanje kontrolnega seznama
+## Urediti kontrolno listo
 
-Stran za urejanje kontrolnega seznama prikazuje trenutno **šifro** in **ime** kontrolnega seznama, nato pa pregled kontrolnih točk.
+Stran za urejanje kontrolne liste prikazuje trenutno **šifro** in **ime** kontrolne liste, nato pa pregled kontrolnih točk.
 
-![Urejanje kontrolnega seznama – aktivne kontrolne liste](../Images/ActiveChecklistsChecklistEdit.png "Urejanje kontrolnega seznama")
+![Urejanje kontrolne liste – aktivne kontrolne liste](../Images/ActiveChecklistsChecklistEdit.png "Urejanje kontrolne liste")
 
 Tipična postavitev vključuje seznam kontrolnih točk z zahtevanimi vnosi (potrditve, meritve, tolerance).
 
 ## Postavke
 
-- Tukaj so prikazani samo kontrolni seznami, ki so trenutno v teku; zaključeni elementi so na voljo v pogledu Zaključeni kontrolni seznami.
+- Tukaj so prikazane samo kontrolne liste, ki so trenutno v teku; zaključeni elementi so na voljo v pogledu Zaključene kontrolne liste.
 - Osveževanje podatkov poteka samodejno v rednih intervalih ali ob ročni osvežitvi.
