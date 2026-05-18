@@ -116,7 +116,7 @@ Na voljo so naslednji dokumenti:
 - **[Dobropisi](../../Prodaja/Dokumenti/Dobropisi.md)**
 - **[Bremepisi](../../Prodaja/Dokumenti/Bremepisi.md)**
 - **[Predračuni](../../Prodaja/Dokumenti/Predracuni.md)**
-- **[Predplačila](../../Prodaja/Dokumenti/Predplacila.md)**
+- **[Avansni računi](../../Prodaja/Dokumenti/AvansniRacuni.md)**
 - **[Opomini](../../Prodaja/Dokumenti/Opomini.md)**
 
 Struktura dokumentov je opisana v domeni Prodaja, medtem ko so tukaj dokumentirani **računovodski vidiki** (knjiženje, zapiranje, davki).

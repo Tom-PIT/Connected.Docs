@@ -10,7 +10,7 @@
 
 ![Production Orders Process Expenses](../Images/ProductionOrdersProcessExpensesSL.png "Stroški za proizvodni nalog")
 
-Stroški so običajno [dodani operaciji](../Upravljanje/StroskiOperacij.md) v proizvodnem procesu, lahko pa se dodajo tudi neposredno na proizvodni nalog, če niso vezani na določeno operacijo.
+Stroški so običajno [dodani operaciji](../Upravljanje/StroskiOperacije.md) v proizvodnem procesu, lahko pa se dodajo tudi neposredno na proizvodni nalog, če niso vezani na določeno operacijo.
 
 ## Dodajanje ali urejanje stroška
 

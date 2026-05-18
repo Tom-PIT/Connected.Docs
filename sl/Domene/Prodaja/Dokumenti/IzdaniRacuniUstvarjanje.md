@@ -130,7 +130,7 @@ Besedilo se izbira iz [**Vnaprej določena besedila**](../../../Skupno/Upravljan
 
 Načini plačila so prikazani na dnu dokumenta.
 
-Kliknite **Dodaj način plačila**, da naročilu dodelite [način plačila](../Upravljanje/NačiniPlačila.md). To polje je informativne narave in samo po sebi ne sproži nobenih finančnih transakcij. Uporablja se za interno sledenje, kako stranka namerava plačati naročilo.
+Kliknite **Dodaj način plačila**, da naročilu dodelite [način plačila](../Upravljanje/NacinPlacila.md). To polje je informativne narave in samo po sebi ne sproži nobenih finančnih transakcij. Uporablja se za interno sledenje, kako stranka namerava plačati naročilo.
 
 ![Naročilo stranke – načini plačila](../Images/SalesOrdersNewBottom.png "Naročilo stranke – načini plačila")
 

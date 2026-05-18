@@ -70,7 +70,7 @@ Iskalno polje omogoča filtriranje po kodi vzdrževalnega naloga ali nazivu opre
 
 ## Ustvarjanje vzdrževalnega naloga
 
-Za ustvarjanje vzdrževalnega naloga uporabite [vodeni čarovnik](MaintenanceOrderCreate.md).
+Za ustvarjanje vzdrževalnega naloga uporabite [vodeni čarovnik](VzdrzevalniNalogiUstvarjanje.md).
 
 ## V obdelavi vzdrževalni nalogi
 
@@ -122,7 +122,7 @@ Na voljo sta dva načina izvajanja:
 Klik na operacijo odpre **zaslon izvajanja operacije**, kjer lahko izvajalec:
 - pregleda [navodila](../../Znanje/BazaZnanja/BazaZnanja.md)
 - evidentira [vhode](../../Proizvodnja/Upravljanje/Vhodi.md) in [nečloveške vire](../../Proizvodnja/Upravljanje/StvarniViri.md)
-- izvede [kontrolne sezname](../../Proizvodnja/Upravljanje/Checklists.md) kakovosti
+- izvede [kontrolne sezname](../../Proizvodnja/Upravljanje/KontrolneListe.md) kakovosti
 - beleži delo (začetek/konec, trajanje)
 - vnese podatke o izvedbi
 

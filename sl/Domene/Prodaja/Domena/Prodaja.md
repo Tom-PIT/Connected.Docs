@@ -41,7 +41,7 @@ Razpoložljivi prodajni dokumenti vključujejo:
 - **[Dobropisi](../Dokumenti/Dobropisi.md)** – Negativni računi za popravke ali vračila.  
 - **[Bremepisi](../Dokumenti/Bremepisi.md)** – Dodatna zaračunavanja k že izdanemu računu.  
 - **[Predračuni](../Dokumenti/Predracuni.md)** – Informativni računi, izdani pred dobavo ali plačilom; ne potrjujejo dobave.  
-- **[Predplačila](../Dokumenti/Predplacila.md)** – Upravljanje prejetih predplačil strank.  
+- **[Avansni računi](../Dokumenti/AvansniRacuni.md)** – Upravljanje prejetih avansnih računov strank.  
 - **[Opomini](../Dokumenti/Opomini.md)** – Obvestila o neplačanih ali zapadlih računih.  
 - **[Maloprodajni računi](../Dokumenti/MaloprodajniRacuni.md)** – Računi, ustvarjeni v maloprodajnih procesih; zaloga se ureja prek logistike.  
 - **[Maloprodajna predplačila](../Dokumenti/MaloprodajnaPredplacila.md)** – Maloprodajni predračuni in predplačila.
@@ -108,7 +108,7 @@ Stranke potrdijo ponudbe, kar ustvari [naročila strank](../Dokumenti/NarocilaSt
 [Dobavnice](../Dokumenti/Dobavnice.md) beležijo premik blaga k stranki in povezujejo prodajo s področjem **[Logistika](../../Logistika/Domena/Logistika.md)**.
 
 ### **4. Obračun**  
-[Izdani računi](../Dokumenti/IzdaniRacuni.md) zaračunajo stranki, po potrebi podprti z [bremepisi](../Dokumenti/Bremepisi.md), [dobropisi](../Dokumenti/Dobropisi.md) in [predplačili](../Dokumenti/Predplacila.md).
+[Izdani računi](../Dokumenti/IzdaniRacuni.md) zaračunajo stranki, po potrebi podprti z [bremepisi](../Dokumenti/Bremepisi.md), [dobropisi](../Dokumenti/Dobropisi.md) in [predplačili](../Dokumenti/AvansniRacuni.md).
 
 ### **5. Analiza**  
 Pregledi omogočajo vpogled v prodajno uspešnost, aktivnosti strank in staranje dokumentov.

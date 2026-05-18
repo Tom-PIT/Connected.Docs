@@ -200,7 +200,7 @@ Razpoložljiva dejanja lahko vključujejo:
 - [**+ Dobropis**](Dobropisi.md) – ustvari dobropis
 - [**+ Bremepis**](Bremepisi.md) – ustvari bremepis
 - [**Dobavnica**](Dobavnice.md) – povezava z obstoječo dobavnico
-- [**Predplačila**](Predplacila.md) – povezava z obstoječimi predplačili
+- [**Avansni računi**](AvansniRacuni.md) – povezava z obstoječimi avansnimi računi
 
 ### Objaviti izdani račun
 
