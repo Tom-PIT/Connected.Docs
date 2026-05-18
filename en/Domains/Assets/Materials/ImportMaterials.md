@@ -75,13 +75,13 @@ The import file must include the columns listed below. Each row represents a sin
 Product,C0000001,Acme product 1,Kg,ACME,Acme product 1,C000EAN1,0,https://google.com;https://google.com,0,DDV,22,EXT01
 ```
 
-## Editing the file
+## Edit the file
 
 You can prepare or modify the spreadsheet in a spreadsheet editor:
 
 ![Editing in Excel](../Images/ImportMaterialsExcel.png "Editing in Excel")
 
-## Uploading the file
+## Upload the file
 
 1. To begin the import, drag a **CSV** or **XLSX** file into the upload area or click it to open the file dialog.
 

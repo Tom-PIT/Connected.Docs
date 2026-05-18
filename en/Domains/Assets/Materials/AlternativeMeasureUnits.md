@@ -43,7 +43,9 @@ The list shows:
 
 ![Alternative measure units list](../Images/AlternativeMeasureUnitsList.png)
 
-### Creating a new alternative measure unit
+## Actions
+
+### Add a new alternative measure unit
 
 1. Select a **Material type** and **Entity**.
 2. Click the [**action button**](../../../Common/UI/ActionButton.md).
@@ -53,7 +55,7 @@ The list shows:
 
 ![New alternative measure unit](../Images/AlternativeMeasureUnitsNew.png)
 
-### How alternative measure units work
+#### How alternative measure units work
 
 Each alternative measure unit defines a fixed conversion to the material’s base unit.
 The conversion is defined using two mandatory values:
@@ -68,11 +70,13 @@ If **1 piece = 2 meters**, enter:
 - **Denominator**: `2`
 - **Numerator**: `1`
 
-### Editing and deletion
+### Edit an alternative measure unit
 
-- Click an existing entry to edit it.
-- Use **Save** to apply changes.
-- Use **Delete** to remove the alternative measure unit.
+Click an existing entry on the list to edit it, apply changes and click **Save**. Alternatively, click **Cancel** to discard changes and return to the list.
+
+### Delete an alternative measure unit 
+
+On the list, select the alternative measure unit and use **Delete** to remove it. After confirmation, the alternative measure unit will be deleted from the system.
 
 ## Usage in other features
 
@@ -87,7 +91,6 @@ Alternative measure units are used in **Packaging** to define package quantities
 In **Receive** documents, quantities entered in an alternative measure unit are automatically converted to the base unit when updating stock.
 
 ![Alternative measure unit in receive details](../Images/AlternativeMeasureUnitsDetails.png)
-
 
 > [!IMPORTANT]
 >

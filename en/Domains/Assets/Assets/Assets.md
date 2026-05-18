@@ -66,7 +66,7 @@ To access this screen, go to **Assets / Assets** in the [**navigation**](../../.
 
 ## Actions
 
-### Adding a new asset
+### Add a new asset
 
 Click the **action button** to create a new asset. The following fields must be entered before saving:
 
@@ -96,9 +96,9 @@ Each detail includes:
 ![Add asset detail](../Images/AssetsAddAssetDetail1.png "Add asset detail")  
 ![Asset details list](../Images/AssetsAddAssetDetail2.png "Asset details list")
 
-### Import
+### Import assets from materials
 
-The **Import** action opens the *Import by material* form, allowing quick creation of assets based on existing materials.
+The **Import** action opens the **Import by material** form, allowing quick creation of assets based on existing materials.
 
 Users can select:
 
@@ -121,7 +121,7 @@ You can filter the Assets list using:
 
 These filters help locate specific assets and simplify management of large asset catalogs.
 
-## Deletion
+## Delete an asset
 
 Click **Delete** on the edit screen to remove the selected asset.
 

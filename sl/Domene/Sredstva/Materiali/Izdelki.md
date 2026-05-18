@@ -97,26 +97,11 @@ Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
-- **Uvoz**
-- **Kopiraj obstoječe**
+- [**Uvoz**](#uvoziti-izdelke)
+- [**Kopiraj obstoječe**](#kopiraj-obstoječi-izdelek)
 - **Nov**
 
-### Uvoz
-
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Uvoz**. Ta akcija omogoča hkratni uvoz več materialov izdelkov z uporabo ustrezno pripravljene preglednice.
-
-Za podrobnosti glejte dokumentacijo  
-[**Uvoz materialov**](UvozMaterialov.md).
-
-### Kopiraj obstoječi
-
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
-
-![Kopiranje izdelka](../Images/CopyProduct.png "Kopiranje izdelka")
-
-Po izbiri osnovnega izdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
-
-### Nov
+### Ustvariti nov izdelek
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Nov**, da odprete obrazec za dodajanje novega izdelka. Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
@@ -150,13 +135,28 @@ Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite izdelek, ali **Prekliči**, da se vrnete na seznam.
 
-## Urejanje
+### Uvoziti izdelke
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Uvoz**. Ta akcija omogoča hkratni uvoz več materialov izdelkov z uporabo ustrezno pripravljene preglednice.
+
+Za podrobnosti glejte dokumentacijo  
+[**Uvoz materialov**](UvozMaterialov.md).
+
+### Kopiraj obstoječi izdelek
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
+
+![Kopiranje izdelka](../Images/CopyProduct.png "Kopiranje izdelka")
+
+Po izbiri osnovnega izdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
+
+## Urejati izdelek
 
 Za urejanje obstoječega izdelka kliknite **Ime** izdelka v seznamu. Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
 ![Urejanje izdelka](../Images/EditProduct.png "Urejanje izdelka")
 
-## Brisanje
+## Brisati izdelek
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

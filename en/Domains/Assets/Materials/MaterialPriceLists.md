@@ -44,6 +44,8 @@ To access this screen, navigate to **Assets / Materials / Material price lists**
 
 ## Management
 
+### List view
+
 To access the list of material price lists, go to:
 
 **Assets / Materials / Material price lists**
@@ -58,10 +60,6 @@ The list can be filtered by:
 - **Value**
 
 ![Material price lists](../Images/MaterialsPriceListsList.png "Material price lists")
-
-Clicking the **price list name** opens the **Edit** screen.
-
-![Edit material price list](../Images/MaterialsPriceListsNew.png "Edit material price list")
 
 Clicking the **Details** button opens the pricing details page.
 
@@ -79,9 +77,9 @@ Depending on the current screen, the [**action button**](../../../Common/UI/Acti
 - **New**
 - **Import**
 
-## Creating a new material price list
+## Create a new material price list
 
-1. Click **New** on the *Material price lists* screen.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New** on the **Material price lists** screen.
 2. Enter:
    - **Name**
    - **Valid from**
@@ -109,12 +107,29 @@ Depending on the current screen, the [**action button**](../../../Common/UI/Acti
 8. Save the details.  
    The material price list is now active for the selected period.
 
+## Edit a material price list
+
+To edit a material price list, click the name of the price list on the list view. This opens the edit screen where you can modify the **Name**, **Valid from**, and **Valid to** fields. After making changes, click **Save** to apply them.
+
+![Edit material price list](../Images/MaterialsPriceListsNew.png "Edit material price list")
+
+> [!NOTE]
+> To edit material prices and ranges, click the **Details** button to open the details page, where you can make changes to materials and ranges as needed.
+
+### Copy a materials price list
+
+Creates a duplicate of an existing price list, including its validity range and contents.
+
+### Import a materials price list
+
+The **Import** screen allows you to import a CSV file with the list of details.
+
 ## Menu
 
 The menu in the **Details** view allows you to:
 - Export the material price details (including ranges) to **CSV**
 
-## Deletion
+## Delete a material price list
 
 A material price list can be deleted **only if it contains no material details**.
 

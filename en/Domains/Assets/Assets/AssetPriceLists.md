@@ -24,6 +24,8 @@ To access this screen, go to **Assets / Asset price lists** in the [**navigation
 
 ## Management
 
+## List view
+
 To access the list of price lists, navigate to **Assets / Asset price lists**.
 
 The list displays:
@@ -37,51 +39,32 @@ The list can be filtered by:
 
 ![Asset price lists](../Images/AssetPriceLists.png "Asset price lists list")
 
-Clicking the **price list name** opens the *Edit* screen.  
-
-![Edit price list](../Images/AssetPriceListsEdit.png "Edit asset price list")
-
-Clicking the **Details** button opens the page where assets and discount ranges are maintained.
+Clicking the **Details** button opens the page where assets and discount ranges are managed.
 
 ![Detail ranges](../Images/AssetPriceListsDetailsEdit.png "Ranges and asset details")
 
+### Menu
+
+Exports the asset detail table—including ranges—to a **CSV** file.
+
+
 ## Actions
 
-Depending on which page you are, the the [action button](../../../Common/UI/ActionButton.md) displays different actions:
+Depending on which page you are, the [**action button**](../../../Common/UI/ActionButton.md) displays different actions:
 
 On the **Asset price lists** page:
 - **New**
-- **Copy**
+- [**Copy**](#copy-a-price-list)
 
 On the **Details** page:
-- **Import**
+- [**Import**](#import-a-price-list)
 - **New**
 
-### New
-On the **Asset price lists** page, it creates a new price list. You must specify:
-- **Type**
-- **Entity**
-- **Name**
-- **Valid from**
-- **Valid to**
-
-On the **Details** page, it creates a new details list. You must specify:
-- **Asset**
-
-After saving, click **Details** to add assets and pricing rules.
-
-### Copy
-Creates a duplicate of an existing price list, including its validity range and contents.
-
-### Import
-
-The **Import** screen allows you to import a CSV file with the list of details.
-
-## Creating a new price list
+### Create a new price list
 
 Follow these steps to create a functional price list:
 
-1. Click **New**.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New**.
 2. Enter the fields as required: **Type**, **Entity**, **Name**, **Valid from**, **Valid to**.
 3. Click **Add** to save the price list header.
 4. Click the **Details** button to open the pricing page.
@@ -98,11 +81,22 @@ Follow these steps to create a functional price list:
 
 7. Save the details. The price list is now active for the selected customer during the specified period.
 
-## Menu
+### Edit a price list
 
-Exports the asset detail table—including ranges—to a **CSV** file.
+Clicking the **price list name** opens the **Edit** screen. Here you can modify the price list header information, but not the assets or ranges. To edit assets and ranges, click the **Details** button as described in the previous section.
 
-## Deletion
+![Edit price list](../Images/AssetPriceListsEdit.png "Edit asset price list")
+
+### Copy a price list
+
+Creates a duplicate of an existing price list, including its validity range and contents.
+
+### Import a price list
+
+The **Import** screen allows you to import a CSV file with the list of details.
+
+
+### Delete a price list
 
 Asset price lists can be deleted on the edit screen, but only if they contain **no assets**.
 
