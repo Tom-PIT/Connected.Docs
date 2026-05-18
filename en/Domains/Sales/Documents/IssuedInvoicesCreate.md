@@ -109,11 +109,9 @@ These fields are mandatory for cross-border EU transactions when the organizatio
 
 ### Attachments
 
-At the top of every document, an **Attachments** section is available.
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
 
-![Attachments](../../Logistics/Images/Attachments.png "Attachments section")
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
 ### Top content and Bottom content
 

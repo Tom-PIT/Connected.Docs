@@ -30,11 +30,11 @@ Under **Suggested postings**, the system proposes postings based on the linked s
 
    ![Received invoice – suggested postings](../Images/ReceivedInvoicesNewSuggestedPostings.png "Suggested postings")
 
-## Attachments
+### Attachments
 
-On every document, an **Attachments** section is available.
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
 ## Edit details
 

@@ -129,9 +129,9 @@ S klikom na dobavnico odprete urejanje. Dokument je razdeljen v razširljive raz
 
 #### Priponke
 
-Na vrhu vsakega dokumenta je razdelek **Priponke**.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
 
-Naložite lahko datoteke, kot so transportni dokumenti, fotografije ali druga dokazila. Vse priloge se shranijo skupaj z dokumentom.
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 #### Povezani dokumenti
 

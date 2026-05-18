@@ -103,11 +103,9 @@ Kliknite **Dodaj način plačila**, da naročilu dodelite [način plačila](../U
 
 ### Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
 
-![Priponke](../../Logistika/Images/AttachmentsSL.png "Razdelek Priponke")
-
-Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga podporna dokumentacija. Vse priponke ostanejo shranjene skupaj z dokumentom in so vedno dostopne za pregled.
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 ## Korak 5 — Objava dokumenta
 
