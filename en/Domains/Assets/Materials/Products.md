@@ -97,25 +97,11 @@ A filter for **Tags** is available on the left side of the screen. A search fiel
 
 Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
 
-- **Import**
-- **Copy existing**
+- [**Import**](#import-products)
+- [**Copy existing**](#copy-an-existing-product)
 - **New**
 
-### Import
-
-Click on the [action button](../../../Common/UI/ActionButton.md) and select **Import** to import multiple product materials at once by preparing and uploading a correctly structured spreadsheet.  
-
-See the [**Import materials**](ImportMaterials.md) documentation for full details.
-
-### Copy existing
-
-Click on the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing product** to create a new product based on an existing one. A selection list appears with the available base products.
-
-![Copy Product](../Images/CopyProduct.png "Copy Product")
-
-After selecting the base product, all fields are pre-filled and can be edited before saving.
-
-### New
+### Add a new product
 
 Click on the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for adding a new product. The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
@@ -146,13 +132,28 @@ This section contains optional descriptive fields, such as a material descriptio
 
 After entering the required information, click **Add** to save the product or **Cancel** to return to the list view.
 
-## Editing
+### Import products
+
+Click on the [action button](../../../Common/UI/ActionButton.md) and select **Import** to import multiple product materials at once by preparing and uploading a correctly structured spreadsheet.  
+
+See the [**Import materials**](ImportMaterials.md) documentation for full details.
+
+### Copy an exisisting product
+
+Click on the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing product** to create a new product based on an existing one. A selection list appears with the available base products.
+
+![Copy Product](../Images/CopyProduct.png "Copy Product")
+
+After selecting the base product, all fields are pre-filled and can be edited before saving.
+
+
+## Edit a product
 
 To edit an existing product, click the product’s **Name** in the list. The interface switches to edit mode, displaying all fields for modification. Click **Save** to apply changes or **Cancel** to discard them.
 
 ![Edit Product](../Images/EditProduct.png "Edit Product")
 
-## Deletion
+## Delete a product
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

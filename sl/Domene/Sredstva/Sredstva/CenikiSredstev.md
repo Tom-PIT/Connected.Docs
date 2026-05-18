@@ -25,6 +25,8 @@ Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [**navigac
 
 ## Upravljanje
 
+### Zaslon seznama
+
 Za dostop do seznama cenikov pojdite na **Sredstva / Ceniki sredstev**.
 
 Seznam prikazuje:
@@ -38,10 +40,6 @@ Seznam je mogoče filtrirati po:
 
 ![Ceniki sredstev](../Images/AssetPriceLists.png "Seznam cenikov sredstev")
 
-Klik na **ime cenika** odpre zaslon za urejanje.
-
-![Urejanje cenika](../Images/AssetPriceListsEdit.png "Urejanje cenika sredstev")
-
 Klik na gumb **Podrobnosti** odpre stran, kjer se upravljajo sredstva in količinski razponi.
 
 ![Podrobnosti in razponi](../Images/AssetPriceListsDetailsEdit.png "Razponi in podrobnosti sredstev")
@@ -52,39 +50,17 @@ Glede na to, na katerem zaslonu se nahajate, [**akcijski gumb**](../../../Skupno
 
 Na strani **Ceniki sredstev**:
 - **Nov**
-- **Kopiraj**
+- [**Kopiraj**](#kopirati-cenik)
 
 Na strani **Podrobnosti**:
-- **Uvoz**
+- [**Uvoz**](#uvoziti-cenik)
 - **Nov**
 
-### Nov
-
-Na strani **Ceniki sredstev** ustvari nov cenik. Določiti morate:
-- **Tip**
-- **Entiteto**
-- **Ime**
-- **Veljavno od**
-- **Veljavno do**
-
-Na strani **Podrobnosti** ustvari nov seznam postavk. Določiti morate:
-- **Sredstvo**
-
-Po shranjevanju kliknite **Podrobnosti**, da dodate sredstva in cenovna pravila.
-
-### Kopiraj
-
-Ustvari kopijo obstoječega cenika, vključno z obdobjem veljavnosti in vsebino.
-
-### Uvoz
-
-Zaslon **Uvoz** omogoča uvoz CSV datoteke s seznamom postavk cenika.
-
-## Ustvarjanje novega cenika
+### Ustvariti nov cenik sredstev
 
 Za ustvarjanje delujočega cenika sledite tem korakom:
 
-1. Kliknite **Nov**.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Nov**.
 2. Izpolnite zahtevana polja: **Tip**, **Entiteta**, **Ime**, **Veljavno od**, **Veljavno do**.
 3. Kliknite **Dodaj**, da shranite glavo cenika.
 4. Kliknite gumb **Postavke**, da odprete stran s cenami.
@@ -101,11 +77,21 @@ Za ustvarjanje delujočega cenika sledite tem korakom:
 
 7. Shranite podrobnosti. Cenik je zdaj aktiven za izbranega kupca v določenem obdobju.
 
-## Meni
+### Urejati cenik sredstev
 
-Izvozi tabelo podrobnosti sredstev — skupaj z razponi — v **CSV** datoteko.
+Kliknite **ime cenika**, da odprete zaslon za urejanje. Tukaj lahko spremenite informacije o glavi cenika, vendar ne sredstev ali razponov. Za urejanje sredstev in razponov kliknite gumb **Podrobnosti**, kot je opisano v prejšnjem razdelku.
 
-## Brisanje
+![Urejanje cenika](../Images/AssetPriceListsEdit.png "Urejanje cenika sredstev")
+
+### Kopirati cenik sredstev
+
+Ustvari kopijo obstoječega cenika, vključno z obdobjem veljavnosti in vsebino.
+
+### Uvoziti cenik sredstev
+
+Zaslon **Uvoz** omogoča uvoz CSV datoteke s seznamom postavk cenika.
+
+## Brisati cenik sredstev
 
 Cenike sredstev je mogoče izbrisati na zaslonu za urejanje, vendar **samo če ne vsebujejo nobenih sredstev**.
 

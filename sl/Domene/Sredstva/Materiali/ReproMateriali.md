@@ -96,28 +96,13 @@ Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
-- **Uvoz**
-- **Kopiraj obstoječi**
+- [**Uvoz**](#uvoziti-repro-materiale)
+- [**Kopiraj obstoječi**](#kopiraj-obstoječi-repro-material)
 - **Nov**
 
-### Uvoz
+### Usvariti novo repro material
 
-Dejanje **Uvoz** omogoča hkratni uvoz več repro materialov z uporabo pravilno strukturirane preglednice.
-
-Za podrobnosti glejte dokumentacijo  
-[**Uvoz materialov**](UvozMaterialov.md).
-
-### Kopiraj obstoječi
-
-Kliknite **Kopiraj obstoječi repro material**, da ustvarite nov zapis na podlagi že obstoječega.
-
-![Kopiranje repro materiala](../Images/CopyReproMaterial.png "Kopiranje repro materiala")
-
-Po izbiri osnovnega materiala so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
-
-### Nov
-
-Kliknite **Novo**, da odprete obrazec za ustvarjanje novega repro materiala.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje novega repro materiala.
 
 ![Nov repro material](../Images/NewReproMaterial.png "Nov repro material")
 
@@ -151,7 +136,22 @@ Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite repro material, ali **Prekliči**, da se vrnete na seznam.
 
-## Urejanje
+### Uvoziti repro materiale
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz**, da omogočite hkratni uvoz več repro materialov z uporabo pravilno strukturirane preglednice.
+
+Za podrobnosti glejte dokumentacijo  
+[**Uvoz materialov**](UvozMaterialov.md).
+
+### Kopiraj obstoječi repro material
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječi**, da ustvarite nov zapis na podlagi že obstoječega.
+
+![Kopiranje repro materiala](../Images/CopyReproMaterial.png "Kopiranje repro materiala")
+
+Po izbiri osnovnega materiala so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
+
+## Urejati repro material
 
 Za urejanje obstoječega repro materiala kliknite njegovo **Ime** v seznamu. Vmesnik se preklopi v način urejanja.
 
@@ -159,7 +159,7 @@ Za urejanje obstoječega repro materiala kliknite njegovo **Ime** v seznamu. Vme
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisanje
+## Brisati repro material
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

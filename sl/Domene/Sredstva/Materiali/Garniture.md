@@ -20,6 +20,12 @@ Za dostop do tega zaslona pojdite na
 | **Entiteta** | Nadrejeni material, ki predstavlja garnituro (npr. Pohištvena garnitura). |
 | **Količina** | Količina posamezne komponente v garnituri. |
 
+## Upravljanje
+
+### Predpogoji
+- Najprej ustvarite nadrejeni material v ustrezni kategoriji (npr. **Izdelki**, **Polizdelki**).
+- Prepričajte se, da so vse komponente, ki jih želite vključiti, že definirane v ustreznih šifrantih.
+
 ## Seznam garnitur
 
 Leva stranska vrstica prikazuje nadrejene materiale, združene po **[Vrsti materiala](../Domena/Materiali.md)** (npr. **[Izdelki](Izdelki.md)**, **[Polizdelki](Polizdelki.md)**).  
@@ -27,13 +33,7 @@ Izberite nadrejeni material, da si v glavnem seznamu ogledate njegove komponente
 
 ![Seznam garnitur](../Images/SetsList.png "Seznam garnitur")
 
-## Upravljanje
-
-### Predpogoji
-- Najprej ustvarite nadrejeni material v ustrezni kategoriji (npr. **Izdelki**, **Polizdelki**).
-- Prepričajte se, da so vse komponente, ki jih želite vključiti, že definirane v ustreznih šifrantih.
-
-### Ustvarjanje garniture
+### Ustvarati garniture
 
 1. Ustvarite nadrejeni material v njegovi kategoriji:
    - Pojdite na **Sredstva / Materiali / Izdelki** in dodajte nov izdelek (npr. **Garnitura iz borovega lesa**).
@@ -48,16 +48,17 @@ Izberite nadrejeni material, da si v glavnem seznamu ogledate njegove komponente
 
    ![Seznam garnitur](../Images/SetsList.png "Seznam garnitur")
 
-### Urejanje garniture
+### Urejati garniture
 
 Kliknite komponento v seznamu garniture, da spremenite njeno količino ali jo zamenjate z drugim materialom.
 
 ## Povezane operacije
 
-Garniture so povezane z **[Demontaže](../../Logistika/Dokumenti/Demontaze.md)**.  
+Garniture so povezane z **[Demontaže](../../Logistika/Dokumenti/Demontaze.md)**.
+
 Garnituro lahko razstavite, na primer ob prevzemu, če želite posamezne komponente uporabiti ali prodati ločeno. Razstavljanje ustvari logistične dokumente, ki odstranijo garnituro iz zaloge in hkrati vnesejo njene komponente v zalogo glede na definirane količine.
 
-## Brisanje
+## Brisati garniture
 
 Posamezne komponente lahko odstranite iz garniture tako, da jih izberete in kliknete **Izbriši**.  
 Po potrditvi se komponenta odstrani iz nadrejene garniture.

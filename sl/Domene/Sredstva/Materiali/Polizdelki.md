@@ -101,24 +101,9 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže
 - **Kopiraj obstoječi**
 - **Nov**
 
-### Uvoz
+### Ustvariti novo polizdelek
 
-Dejanje **Uvoz** omogoča hkratni uvoz več polizdelkov z uporabo pravilno strukturirane preglednice.
-
-Za podrobnosti glejte dokumentacijo  
-[**Uvoz materialov**](UvozMaterialov.md).
-
-### Kopiraj obstoječi
-
-Kliknite **Kopiraj obstoječi polizdelek**, da ustvarite nov zapis na podlagi že obstoječega.
-
-![Kopiranje polizdelka](../Images/CopySemiproduct.png "Kopiranje polizdelka")
-
-Po izbiri osnovnega polizdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
-
-### Nov
-
-Kliknite **Novo**, da odprete obrazec za dodajanje novega polizdelka.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje novega polizdelka.
 
 ![Nov polizdelek](../Images/NewSemiproduct.png "Nov polizdelek")
 
@@ -153,7 +138,22 @@ Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite polizdelek, ali **Prekliči**, da se vrnete na seznam.
 
-## Urejanje
+### Uvoziti polizdelke
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz**, da omogočite hkratni uvoz več polizdelkov z uporabo pravilno strukturirane preglednice.
+
+Za podrobnosti glejte dokumentacijo  
+[**Uvoz materialov**](UvozMaterialov.md).
+
+### Kopiraj obstoječi poizdelek
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječi**, da ustvarite nov zapis na podlagi že obstoječega.
+
+![Kopiranje polizdelka](../Images/CopySemiproduct.png "Kopiranje polizdelka")
+
+Po izbiri osnovnega polizdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
+
+## Urejati polizdelek
 
 Za urejanje obstoječega polizdelka kliknite njegovo **Ime** v seznamu.  
 Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja.
@@ -162,7 +162,7 @@ Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja.
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisanje
+## Brisati polizdelek
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

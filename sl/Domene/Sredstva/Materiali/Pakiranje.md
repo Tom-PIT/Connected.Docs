@@ -39,7 +39,7 @@ Za dodelitev pakiranja materialu morate najprej izbrati **Vrsto materiala** (npr
 
 ![Spustni seznam za izbor materiala](../Images/DropdownPackaging.png)
 
-### Seznam pakiranj
+### Pregled seznama
 
 Vmesnik prikazuje seznam zapisov pakiranja za izbrano **Vrsto materiala** in **Entiteto**.
 
@@ -56,7 +56,9 @@ V zgornjem desnem kotu je na voljo **iskalno polje**.
 
 ## Dejanja
 
-Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** za dodajanje novega pakiranja.
+### Ustvarjati novo pakiranje
+
+Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** v zaslonu **Pakiranje** za dodajanje novega pakiranja.
 
 Obrazec vključuje naslednja polja:
 
@@ -70,7 +72,7 @@ Obrazec vključuje naslednja polja:
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev brez sprememb.
 
-## Urejanje
+## Urejati obstoječe pakiranje
 
 Za urejanje obstoječega zapisa pakiranja kliknite vrednost **EAN** na seznamu.
 
@@ -100,7 +102,7 @@ Razpoložljive vrste nalepk:
 
 Izberite želene vrste nalepk in kliknite **Shrani**.
 
-## Brisanje
+## Brisati pakiranje
   
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

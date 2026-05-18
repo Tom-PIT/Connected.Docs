@@ -81,13 +81,13 @@ Uvozna datoteka mora vsebovati spodaj navedene stolpce. Vsaka vrstica predstavlj
 Izdelki,C0000001,Acme izdelek 1,Kg,ACME,Acme izdelek 1,C000EAN1,0,https://google.com;https://google.com,0,DDV,22,EXT01
 ```
 
-## Urejanje datoteke
+## Urejati datoteke
 
 Preglednico lahko pripravite ali uredite v pregledničnem urejevalniku:
 
 ![Urejanje v Excelu](../Images/ImportMaterialsExcel.png "Urejanje v Excelu")
 
-## Nalaganje datoteke
+## Uvoziti datoteke
 
 1. Za začetek uvoza povlecite **CSV** ali **XLSX** datoteko v območje za nalaganje ali kliknite območje, da odprete pogovorno okno za izbiro datoteke.
 

@@ -98,27 +98,13 @@ A filter for **Tags** is available on the left side. A search field is available
 
 Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
 
-- **Import**
-- **Copy existing**
+- [**Import**](#import-repro-materials)
+- [**Copy existing**](#copy-an-existing-repro-material)
 - **New**
 
-### Import
+### Add a new repro material
 
-The **Import** action allows you to import multiple repro materials at once by uploading a correctly structured spreadsheet.
-
-See the [**Import materials**](ImportMaterials.md) documentation for full details.
-
-### Copy existing
-
-Click **Copy existing repro material** to create a new record based on an existing one.
-
-![Copy Repro Material](../Images/CopyReproMaterial.png "Copy Repro Material")
-
-After selecting a base material, all fields are pre-filled and may be edited before saving.
-
-### New
-
-Click **New** to open the input form for creating a new repro material.
+Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New** to open the input form for creating a new repro material.
 
 ![New Repro Material](../Images/NewReproMaterial.png "New Repro Material")
 
@@ -146,7 +132,22 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 > [!WARNING]
 > Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
-## Editing
+
+### Import repro materials
+
+Click the [**action button**](../../../Common/UI/ActionButton.md) and select **Import** to import multiple repro materials at once by uploading a correctly structured spreadsheet.
+
+See the [**Import materials**](ImportMaterials.md) documentation for full details.
+
+### Copy an existing repro material
+
+Click the [**action button**](../../../Common/UI/ActionButton.md) and select **Copy existing repro material** to create a new record based on an existing one.
+
+![Copy Repro Material](../Images/CopyReproMaterial.png "Copy Repro Material")
+
+After selecting a base material, all fields are pre-filled and may be edited before saving.
+
+## Edit a repro material
 
 To edit an existing repro material, click its **Name** in the list. The interface switches to edit mode.
 
@@ -155,7 +156,7 @@ To edit an existing repro material, click its **Name** in the list. The interfac
 Make the necessary changes and click **Save**.  
 Click **Cancel** to discard changes.
 
-## Deletion
+## Delete a repro material
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

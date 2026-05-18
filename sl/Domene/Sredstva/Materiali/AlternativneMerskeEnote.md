@@ -43,7 +43,9 @@ Seznam prikazuje:
 
 ![Seznam alternativnih merskih enot](../Images/AlternativeMeasureUnitsList.png)
 
-### Ustvarjanje nove alternativne merske enote
+## Dejanja
+
+### Ustvariti nove alternativne merske enote
 
 1. Izberite **Vrsto materiala** in **Entiteto**.
 2. Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)**.
@@ -53,7 +55,7 @@ Seznam prikazuje:
 
 ![Nova alternativna merska enota](../Images/AlternativeMeasureUnitsNew.png)
 
-## Kako delujejo alternativne merske enote
+#### Kako delujejo alternativne merske enote
 
 Vsaka alternativna merska enota določa **fiksno pretvorbo** v osnovno mersko enoto materiala.  
 Pretvorba je definirana z dvema obveznima vrednostma:
@@ -68,11 +70,13 @@ Imamo material, ki se v zalogi vodi v metrih, vendar se skladišči in pakira v 
 - **Imenovalec**: `2`
 - **Števec**: `1`
 
-### Urejanje in brisanje
+### Urejati alternativne merske enote
 
-- Kliknite obstoječi zapis za urejanje.
-- Uporabite **Shrani** za potrditev sprememb.
-- Uporabite **Izbriši** za odstranitev alternativne merske enote.
+Kliknite obstoječi vnos na seznamu, da ga uredite, uporabite spremembe in kliknite **Shrani**. Lahko pa kliknete **Prekliči**, da zavržete spremembe in se vrnete na seznam.
+
+### Brisati alternativne merske enote
+
+Na seznamu izberite alternativno mersko enoto in uporabite **Izbriši** za njeno odstranitev. Po potrditvi bo alternativna merska enota izbrisana iz sistema.
 
 ## Uporaba v drugih funkcionalnostih
 

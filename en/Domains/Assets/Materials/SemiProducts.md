@@ -98,27 +98,15 @@ A filter for **Tags** is available on the left side of the screen. A search fiel
 
 Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
 
-- **Import**
-- **Copy existing**
+- [**Import**](#import-semi-products)
+- [**Copy existing**](#copy-existing-semi-products)
 - **New**
 
-### Import
+### Add a new semi product
 
-The **Import** action allows you to import multiple semi products at once by preparing and uploading a correctly structured spreadsheet.  
+Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New** to open the input form for creating a new semi product.
 
-See the [**Import materials**](ImportMaterials.md) documentation for full details.
-
-### Copy existing
-
-Click **Copy existing semi product** to create a new semi product based on an existing one. A selection list appears with the available base semi products.
-
-![Copy semi product](../Images/CopySemiproduct.png "Copy semi product")
-
-After selecting the base semi product, all fields are pre-filled and can be edited before saving.
-
-### New
-
-Click **New** to open the input form for adding a new semi product. The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
+The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
 ![New semi product](../Images/NewSemiproduct.png "New semi product")
 
@@ -147,7 +135,21 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 > [!WARNING]
 > Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
-## Editing
+### Import semi products
+
+Click the [**action button**](../../../Common/UI/ActionButton.md) and select **Import** to import multiple semi products at once by preparing and uploading a correctly structured spreadsheet.  
+
+See the [**Import materials**](ImportMaterials.md) documentation for full details.
+
+### Copy existing semi products
+
+Click the [**action button**](../../../Common/UI/ActionButton.md) and select **Copy existing semi product** to create a new semi product based on an existing one. A selection list appears with the available base semi products.
+
+![Copy semi product](../Images/CopySemiproduct.png "Copy semi product")
+
+After selecting the base semi product, all fields are pre-filled and can be edited before saving.
+
+## Edit semi products
 
 To edit an existing semi product, click the semi product’s **Name** in the list.  
 The interface switches to edit mode, displaying all fields for modification.
@@ -156,7 +158,7 @@ The interface switches to edit mode, displaying all fields for modification.
 
 Click **Save** to apply changes or **Cancel** to discard them.
 
-## Deletion
+## Delete a semi product
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

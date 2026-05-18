@@ -41,7 +41,7 @@ To assign packaging to a material, you must first select the **Material type** (
 
 ![Material selection dropdown](../Images/DropdownPackaging.png)
 
-### List of packaging
+### List view
 
 The interface displays a list of packaging records for the selected **Material type** and **Entity**. 
 
@@ -58,7 +58,9 @@ A search field is available in the upper-right corner.
 
 ## Actions
 
-Click the **Action button** to add a new packaging item.
+### Add a packaging entry
+
+On the **Packaging** screen, click the [**Action button**](../../../Common/UI/ActionButton.md) to add a new packaging item.
 
 The form includes fields such as:
 
@@ -72,7 +74,7 @@ The form includes fields such as:
 
 After entering the required information, click **Add** to save or **Cancel** to return.
 
-## Editing
+## Edit a packaging entry
 
 To edit an existing packaging entry, click the **EAN** value in the list.
 
@@ -101,7 +103,7 @@ Available label types:
 
 Select the desired label types and click **Save**.
 
-## Deletion
+## Delete a packaging entry
   
 Click **Delete** on the edit screen to open a confirmation dialog: 
 

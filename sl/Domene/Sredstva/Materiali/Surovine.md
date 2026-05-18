@@ -94,26 +94,14 @@ Na levi strani je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **is
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
-- **Uvoz**
-- **Kopiraj obstoječi**
+- [**Uvoz**](#uvoziti-surovine)
+- [**Kopiraj obstoječi**](#kopirati-obstoječo-surovino)
 - **Nov**
 
-### Uvoz
+### Ustvariti novo surovino
 
-Uporabite funkcionalnost **Uvoz** za hkratni uvoz več surovin.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje nove surovine.  
 
-Za podrobnosti glejte dokumentacijo  
-[**Uvoz materialov**](UvozMaterialov.md).
-
-### Kopiraj obstoječi
-
-Omogoča ustvarjanje nove surovine na podlagi že obstoječe.
-
-![Kopiranje surovine](../Images/CopyRawMaterial.png "Kopiranje surovine")
-
-### Nov
-
-Kliknite **Novo**, da odprete obrazec za dodajanje nove surovine.  
 Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
 ![Nova surovina](../Images/NewRawMaterial.png "Nova surovina")
@@ -138,6 +126,18 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 > [!WARNING]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
+### Uvoziti surovine
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za hkratni uvoziti več surovin.
+
+Za podrobnosti glejte dokumentacijo  
+[**Uvoz materialov**](UvozMaterialov.md).
+
+### Kopirati obstoječo surovino
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječo**, da omogočite ustvarjanje nove surovine na podlagi že obstoječe.
+
+![Kopiranje surovine](../Images/CopyRawMaterial.png "Kopiranje surovine")
 
 #### Dodatno
 
@@ -147,13 +147,13 @@ Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite surovino, ali **Prekliči**, da se vrnete na seznam.
 
-## Urejanje
+## Urejati surovino
 
 Kliknite ime surovine v seznamu, da odprete zaslon za urejanje.
 
 ![Urejanje surovine](../Images/EditRawMaterial.png "Urejanje surovine")
 
-## Brisanje
+## Brisati surovino
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

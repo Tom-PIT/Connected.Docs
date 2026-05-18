@@ -66,7 +66,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](
 
 ## Dejanja
 
-### Dodajanje novega sredstva
+### Ustvariti novo sredstvo
 
 Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** in izberite **Nov** za ustvarjanje novega sredstva. Pred shranjevanjem morate vnesti naslednja polja:
 
@@ -99,7 +99,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
 
-### Uvoz
+### Uvoziti sredstvo 
 
 Dejanje **Uvoz** odpre obrazec *Uvoz po materialu*, ki omogoča hitro ustvarjanje sredstev na podlagi obstoječih materialov.
 
@@ -124,7 +124,7 @@ Seznam sredstev lahko filtrirate z uporabo:
 
 Ti filtri pomagajo pri iskanju določenih sredstev in poenostavijo upravljanje obsežnih katalogov.
 
-## Brisanje
+## Brisati sredstvo
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odstranite izbrano sredstvo.
 

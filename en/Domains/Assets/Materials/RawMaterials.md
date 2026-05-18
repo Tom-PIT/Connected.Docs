@@ -96,27 +96,15 @@ available in the upper-right corner.
 
 ## Actions
 
-Click on the action button to display the following actions:
+Click on the [**action button**](../../../Common/UI/ActionButton.md) to display the following actions:
 
--   **Import**
--   **Copy existing**
+-   [**Import**](#import-raw-materials)
+-   [**Copy existing**](#copy-an-exisisting-raw-material)
 -   **New**
 
-### Import
+## Add a new raw material
 
-Use the import functionality to upload multiple raw materials in bulk.\
-
-See the [**Import materials**](ImportMaterials.md) documentation for full details.
-
-### Copy existing
-
-Allows creating a new raw material based on an existing one.
-
-![Copy Raw Material](../Images/CopyRawMaterial.png "Copy Raw Material")
-
-### New
-
-Click **New** to open the input form for adding a new semi product.  
+Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New** to open the input form for adding a new semi product.  
 The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
 ![New Raw Material](../Images/NewRawMaterial.png "New Raw Material")
@@ -144,13 +132,25 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 > [!WARNING]
 > Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
-## Editing
+### Import raw materials
 
-Click the raw material name to edit the entry.
+Click on the [action button](../../../Common/UI/ActionButton.md) and select	import functionality to upload multiple raw materials in bulk.
+
+See the [**Import materials**](ImportMaterials.md) documentation for full details.
+
+### Copy an existing raw material
+
+Click on the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing** to create a new raw material based on an existing one.
+
+![Copy Raw Material](../Images/CopyRawMaterial.png "Copy Raw Material")
+
+## Edit a raw material
+
+Click the raw material name on the list to edit the entry.
 
 ![Edit Raw Material](../Images/EditRawMaterial.png "Edit Raw Material")
 
-## Deletion
+## Delete a raw material
 
  Click **Delete** on the edit screen to open a confirmation dialog: 
  

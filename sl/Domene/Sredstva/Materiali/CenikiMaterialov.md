@@ -39,6 +39,8 @@ Za dostop do tega zaslona pojdite na
 
 ## Upravljanje
 
+### Zaslon seznama
+
 Za dostop do seznama cenikov materialov pojdite na:
 
 **Sredstva / Materiali / Ceniki materialov**
@@ -74,7 +76,7 @@ Glede na trenutni zaslon [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md)
 - **Nov**
 - **Uvoz**
 
-## Ustvarjanje novega cenika materialov
+## Ustvariti novega cenika materialov
 
 1. Kliknite **Nov** na zaslonu *Ceniki materialov*.
 2. Vnesite:
@@ -104,12 +106,27 @@ Glede na trenutni zaslon [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md)
 8. Shranite podrobnosti.  
    Cenik materialov je zdaj aktiven za izbrano obdobje.
 
-## Meni
+### Urejati cenik materialov
+
+Kliknite **ime cenika** na seznamu, da odprete zaslon za urejanje. Tukaj lahko spremenite informacije o glavi cenika, vendar ne materialov ali razponov. Za urejanje materialov in razponov kliknite gumb **Postavke**, kot je opisano v prejšnjem razdelku.
+
+> [!OPOMBA]
+> Če želite urediti cene in razpone materialov, kliknite gumb **Postavke**, da odprete stran s podrobnostmi, kjer lahko po potrebi spremenite materiale in razpone.
+
+#### Meni
 
 Meni v pogledu **Podrobnosti** omogoča:
 - izvoz podrobnosti cen materialov (vključno z razponi) v **CSV**
 
-## Brisanje
+### Kopirati cenik materialov
+
+Ustvari kopijo obstoječega cenika, vključno z obdobjem veljavnosti in vsebino.
+
+### Uvoziti cenik materialov
+
+Zaslon **Uvoz** omogoča uvoz CSV datoteke s seznamom postavk cenika.
+
+## Brisati cenik materialov
 
 Cenik materialov je mogoče izbrisati **samo, če ne vsebuje nobenih podrobnosti materialov**.
 
