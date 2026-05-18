@@ -131,7 +131,7 @@ These exports are typically used for:
 
 ## Actions
 
-### Creating a tax return
+### Create a tax return
 
 A new tax return is created for a specific period.
 
@@ -145,7 +145,7 @@ A new tax return is created for a specific period.
 > [!NOTE]  
 A new tax return can only be created if the **previous tax return has already been finalized**.
 
-### Deleting a tax return
+### Delete a tax return
 
 Only **unpublished (draft)** tax returns can be deleted.
 

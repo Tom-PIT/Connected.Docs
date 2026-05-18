@@ -71,7 +71,8 @@ Available filters:
 The current state of each asset reflects its lifecycle stage.
 
 ## Actions
-### Create fixed asset
+
+### Create a fixed asset
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new fixed asset.
 2. Fill in the required **Document** fields.
 3. Assign a **Depreciation group** and verify the related accounts.

@@ -33,7 +33,7 @@ Neaktivni tipi dokumentov so ohranjeni zaradi zgodovinske sledljivosti, vendar j
 
 ## Dejanja
 
-### Dodaj tip dokumenta
+### Ustvariti tip dokumenta
 
 Za dodajanje novega tipa dokumenta:
 
@@ -46,13 +46,13 @@ Za dodajanje novega tipa dokumenta:
 
 ![Tipi dokumentov – nov](../../Images/DocumentTypesNew.png "Tipi dokumentov – nov")
 
-### Urejanje tipa dokumenta
+### Urejati tip dokumenta
 
 Kliknite tip dokumenta v seznamu, da ga odprete v načinu urejanja, in po potrebi posodobite polja.
 
 Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisanje
+## Brisati tip dokumenta
 
 Tip dokumenta je mogoče izbrisati samo, če **ni uporabljen** v obstoječih temeljnicah ali konfiguracijskih pravilih.
 

@@ -53,7 +53,7 @@ Klik na amortizacijsko skupino odpre zapis v načinu urejanja.
 
 ## Dejanja
 
-### Dodaj amortizacijsko skupino
+### Ustvariti amortizacijsko skupino
 
 Za ustvarjanje nove amortizacijske skupine:
 
@@ -70,7 +70,7 @@ Za ustvarjanje nove amortizacijske skupine:
 
 ![Nova amortizacijska skupina](../../Images/DepreciationGroupsNew.png "Nova amortizacijska skupina")
 
-### Urejanje amortizacijske skupine
+### Urejati amortizacijske skupine
 
 Kliknite amortizacijsko skupino v seznamu, da jo odprete v načinu urejanja. Po potrebi spremenite polja.
 
@@ -91,7 +91,7 @@ Naslednji primer prikazuje tipično amortizacijsko skupino. Predpostavimo, da ž
 
 Ta skupina je primerna za dolgoročna proizvodna sredstva.
 
-## Brisanje
+## Brisati amortizacijsko skupino
 
 Amortizacijsko skupino je mogoče izbrisati le, če **ni uporabljena** pri nobenem obstoječem osnovnem sredstvu.
 

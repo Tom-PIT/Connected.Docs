@@ -69,7 +69,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dostop do ra
 - **Novo** – ustvarjanje novega bančnega izpiska.
 - **Uvoz** – uvoz bančnih izpiskov iz zunanjih XML datotek.
 
-### Ustvarjanje bančnega izpiska
+### Ustvariti bančnega izpiska
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov bančni izpisek.
 2. Izberite **Bančni račun organizacije**.
@@ -77,7 +77,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dostop do ra
 
 ![Nov bančni izpisek](../Images/BankStatementsNew.png)
 
-### Dodajanje postavke
+### Dodati postavke
 
 1. V razdelku **Postavke** kliknite **Dodaj postavko**.
 2. Izberite **Podjetje**, povezano s transakcijo.
@@ -88,7 +88,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dostop do ra
 
 ![Dodajanje postavke](../Images/BankStatementsNewAddDetail.png)
 
-### Objavljanje bančnega izpiska
+### Objavljati bančnega izpiska
 
 Ko so vse postavke vnesene:
 
@@ -111,7 +111,7 @@ Povezana knjižba:
 
 Ta povezava zagotavlja sledljivost med bančnim prometom in knjiženjem v glavni knjigi.
 
-## Brisanje
+## Brisati bančni izpisek
 
 Bančne izpiske v stanju **Osnutek** lahko izbrišete v zaslonu urejanja s klikom na **Izbriši**. Potrdite brisanje v pojavnem oknu:
 **Ali ste prepričani, da želite izbrisati zapis?**

@@ -87,9 +87,9 @@ Click the [**action button**](../../../../Common/UI/ActionButton.md) to access a
 - **New**
 - **Import**
 
-### Add new account
+### Add a new account
 
-To create a new account:
+To add a new account:
 
 1. Click the **action button** and select **New**
 2. Enter the required fields
@@ -103,7 +103,7 @@ The **Import** action allows bulk creation of accounts by uploading a CSV file. 
 
 The CSV file must follow the expected column structure for accounts, including account numbers, names, and configuration fields.
 
-### Edit account
+### Edit an account
 
 Click an account in the list to open it in edit mode. You can update its properties as long as it is not restricted by existing postings or dependencies.
 
@@ -116,7 +116,7 @@ Click **Save** to apply changes or **Cancel** to discard them.
 * Accounts bound to cost centers are commonly used for production, labor, and overhead tracking.
 * The Chart of accounts should be defined before creating journals, invoices, or inventory transactions.
 
-## Deletion rules
+## Delete an account
 
 An account can be deleted on the edit screen by clicking the **Delete** button. It can be deleted only if it is **not referenced** by:
 

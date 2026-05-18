@@ -46,7 +46,7 @@ Seznam je mogoče filtrirati glede na stanje dokumenta (**Osnutek** ali **Objavl
 
 ## Dejanja
 
-### Ustvarjanje začetnega stanja
+### Ustvariti začetno stanje
 
 Za ustvarjanje novega začetnega stanja zaloge:
 
@@ -61,7 +61,7 @@ Sistem ustvari nov dokument v stanju osnutka za izbrano skladišče.
 
 ![Dokument začetnega stanja (osnutek)](../../Images/StockInitialStatesDocumentDraft.png "Dokument začetnega stanja (osnutek)")
 
-### Urejanje začetnega stanja
+### Urejati začetno stanje
 
 Kliknite dokument v seznamu osnutkov za odprtje v urejanju. Vnesite ali posodobite **Dejanski znesek (na enoto)** pri postavkah in preverite podatke v glavi dokumenta.
 
@@ -77,7 +77,7 @@ Ko so vse zahtevane vrednosti vnesene, kliknite **Objavi**, da se inicializira v
 >
 > Finančno zalogo omogočite v **Sistem / Nastavitve / Nastavitve glavne knjige** z vklopom možnosti **Finančna zaloga omogočena**.
 
-### Brisanje začetnega stanja
+### Brisati začetno stanje
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati iz zaslona za urejanje.
 

@@ -34,7 +34,7 @@ Vsak vnos prikazuje:
 
 S klikom na poročilo v seznamu odprete njegov podroben pogled.
 
-## Dodajanje statističnega poročila
+## Dodati statistično poročilo
 
 Za ustvarjanje novega statističnega poročila kliknite **Dodaj statistično poročilo**.
 

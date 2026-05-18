@@ -35,7 +35,7 @@ Example values include:
 
 ## Actions
 
-### Add place of delivery
+### Add a place of delivery
 
 To create a new place-of-delivery entry:
 1. Click the [**action button**](../../../../Common/UI/ActionButton.md)
@@ -46,13 +46,13 @@ To create a new place-of-delivery entry:
 
 ![Add place of delivery](../../Images/PlaceOfDeliveryNew.png)
 
-### Edit place of delivery
+### Edit a place of delivery
 
 Click a code in the list to open it in edit mode. Update the **Code** or **Description** as needed.
 
 Click **Save** to apply changes or **Cancel** to discard them.
 
-### Deletion
+### Delete a place of delivery
 
 Open an entry from the list and click **Delete**. Confirm the deletion in the dialog.
 

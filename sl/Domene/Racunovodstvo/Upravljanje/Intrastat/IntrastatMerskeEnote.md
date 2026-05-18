@@ -28,7 +28,7 @@ Omogočeno je:
 
 ![Intrastat merske enote – seznam](../../Images/SupplementaryUnitsListSL.png)
 
-## Dodaj mersko enoto
+## Ustvariti mersko enoto
 
 Za dodajanje nove merske enote kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md).
 
@@ -41,13 +41,13 @@ Vnesite:
 
 Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev vnosa.
 
-## Uredi mersko enoto
+## Ustvariti mersko enoto
 
 Kliknite na **šifro** v seznamu, da odprete vnos v načinu urejanja. Po potrebi posodobite **Šifro**, **Ime** ali **Opis**.
 
 Kliknite **Shrani**, da potrdite spremembe, ali **Prekliči**, da jih zavržete.
 
-## Brisanje
+## Brisati mersko enoto
 
 Odprite vnos iz seznama in kliknite **Izbriši**. Brisanje potrdite v potrditvenem oknu.
 

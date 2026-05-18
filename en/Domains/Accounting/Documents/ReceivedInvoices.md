@@ -134,13 +134,13 @@ If changes are required after publishing:
 
 This allows editing of posting dates or accounts before re-publishing.
 
-### Create payment order
+### Create a payment order
 
 For committed invoices, the **Document connections** section provides an option to create a payment order based on the received invoice.
 
 ![Received invoice – document connections](../Images/ReceivedInvoicesCommitedTop.png "Document connections")
 
-## Deletion
+## Delete a received invoice
 
 Draft documents can be deleted on the edit screen, but only if they contain **no details**.
 

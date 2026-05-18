@@ -85,7 +85,7 @@ Pred objavo mora sistem preveriti, da se zneska ujemata.
 
 ## Dejanja
 
-### Ustvarjanje temeljnice
+### Ustvariti temeljnice
 
 ![Ustvarjanje temeljnice](../Images/DoubleEntryAccountancyJournalEntryNew.png)
 
@@ -97,7 +97,7 @@ Pred objavo mora sistem preveriti, da se zneska ujemata.
 4. Nastavite **Datum temeljnice**.
 5. Dodajte ali uredite **Postavke**.
 
-### Urejanje postavk
+### Urejati postavke
 
 ![Urejanje postavk temeljnice](../Images/DoubleEntryAccountancyJournalEntryDetailEdit.png)
 
@@ -131,7 +131,7 @@ Kadar temeljnica nastane iz drugega dokumenta:
 
 Ta povezava zagotavlja **popolno sledljivost** med operativnimi dokumenti in njihovim računovodskim učinkom.
 
-## Brisanje
+## Brisati temeljnice
 
 Temeljnico je mogoče izbrisati **samo**, če je v stanju **Osnutek** in ni povezana z dokončanimi izvornimi dokumenti.
 

@@ -60,7 +60,7 @@ Vsaka predloga omogoča dostop do **Postavk**, kjer so definirane posamezne vrst
 
 ## Dejanja
 
-### Dodaj predlogo za temeljnico
+### Ustvariti predlogo za temeljnico
 
 Za ustvarjanje nove predloge temeljnice:
 
@@ -73,7 +73,7 @@ Za ustvarjanje nove predloge temeljnice:
 
 ![Nova predloga za temeljnico](../../Images/JournalEntryTemplatesNew.png "Nova predloga za temeljnico")
 
-### Urejanje predloge za temeljnico
+### Urejati predloge za temeljnico
 
 Kliknite predlogo v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobite polja.
 
@@ -99,7 +99,7 @@ Vsaka vrstica prikazuje:
 
 ![Seznam postavk predloge](../../Images/JournalEntryTemplatesDetailsList.png "Seznam postavk predloge")
 
-### Dodaj postavko predloge temeljnice
+### Dodati postavko predloge temeljnice
 
 Za dodajanje nove postavke:
 
@@ -114,7 +114,7 @@ Za dodajanje nove postavke:
 
 ![Nova postavka predloge](../../Images/JournalEntryTemplatesDetailsNew.png "Nova postavka predloge")
 
-## Brisanje
+## Brisati predlogo za temeljnico
 
 Predlogo temeljnice je mogoče izbrisati samo, če **ni uporabljena** v obstoječih temeljnicah.
 

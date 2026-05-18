@@ -41,14 +41,14 @@ Provide:
 
 Click **Add** to save the unit or **Cancel** to discard the entry.
 
-## Edit supplementary unit
+## Edit a supplementary unit
 
 Click a code in the list to open it in edit mode.  
 Update the **Code**, **Name**, or **Description** as needed.
 
 Click **Save** to apply changes or **Cancel** to discard them.
 
-## Deletion
+## Delete a supplementary unit
 
 Open an entry from the list and click **Delete**. Confirm the deletion in the dialog.
 

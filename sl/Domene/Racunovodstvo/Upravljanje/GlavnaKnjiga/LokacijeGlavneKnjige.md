@@ -46,7 +46,7 @@ S klikom na lokacijo v seznamu jo odprete v načinu urejanja.
 
 ## Dejanja
 
-### Dodajanje lokacije
+### Ustvariti lokacijo glavne knjige
 
 Za ustvarjanje nove lokacije glavne knjige:
 
@@ -58,7 +58,7 @@ Za ustvarjanje nove lokacije glavne knjige:
 
 ![Nova lokacija glavne knjige](../../Images/LedgerLocationsNew.png "Nova lokacija glavne knjige")
 
-### Urejanje lokacije
+### Urejati lokacijo glavne knjige
 
 Kliknite lokacijo glavne knjige v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobite njena polja.
 
@@ -77,7 +77,7 @@ Tipični primeri lokacij glavne knjige vključujejo:
 
 Te lokacije zagotavljajo kontekstne informacije in jih je mogoče ponovno uporabljati v celotnem sistemu.
 
-## Brisanje
+## Brisanti lokacije glavne knjige
 
 Lokacijo glavne knjige je mogoče izbrisati le, če **ni uporabljena** v drugih objektih.
 

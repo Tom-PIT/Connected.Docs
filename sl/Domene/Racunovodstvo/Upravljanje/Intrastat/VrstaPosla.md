@@ -37,7 +37,7 @@ Tipični primeri vključujejo:
 
 ## Dejanja
 
-### Dodaj vrsto posla
+### Ustvariti vrsto posla
 
 Za dodajanje nove vrste posla:
 1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md)
@@ -48,13 +48,13 @@ Za dodajanje nove vrste posla:
 
 ![Dodaj vrsto posla](../../Images/NatureOfTransactionNewSL.png)
 
-### Uredi vrsto posla
+### Urejati vrsto posla
 
 Kliknite šifro v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobite **Šifro** ali **Opis**.
 
 Kliknite **Shrani**, da uveljavite spremembe, ali **Prekliči**, da jih zavržete.
 
-### Brisanje
+### Brisati vrsto posla
 
 Odprite zapis iz seznama in kliknite **Izbriši**. Brisanje potrdite v pogovornem oknu.
 

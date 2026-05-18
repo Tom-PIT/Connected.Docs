@@ -35,7 +35,7 @@ Tipični primeri vrednosti:
 
 ## Dejanja
 
-### Dodaj lego kraja
+### Ustvariti lego kraja
 
 Za dodajanje nove lege kraja:
 1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md)
@@ -46,13 +46,13 @@ Za dodajanje nove lege kraja:
 
 ![Dodaj lego kraja](../../Images/PlaceOfDeliveryNewSL.png)
 
-### Urejanje lege kraja
+### Urejati lego kraja
 
 Kliknite na šifro v seznamu, da jo odprete v urejevalnem načinu. Po potrebi posodobite **Šifro** ali **Opis**.
 
 Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za preklic.
 
-### Brisanje
+### Brisati lego kraja
 
 Odprite vnos iz seznama in kliknite **Izbriši**. Brisanje potrdite v pogovornem oknu.
 

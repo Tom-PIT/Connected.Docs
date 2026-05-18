@@ -48,7 +48,7 @@ Seznam je mogoče preiskovati z iskalnim poljem v zgornjem desnem kotu.
 
 ## Dejanja
 
-### Dodaj privzeti konto
+### Ustvariti privzeti konto
 
 Za ustvarjanje novega privzetega konta:
 
@@ -62,7 +62,7 @@ Za ustvarjanje novega privzetega konta:
 
 ![Privzeti konti – novo](../../Images/AccountDefaultsNew.png "Privzeti konti – novo")
 
-### Urejanje privzetega konta
+### Urejati privzeti konto
 
 Kliknite vnos v seznamu, da ga odprete v načinu urejanja. Po potrebi spremenite polja.
 
@@ -79,7 +79,7 @@ Tipični primeri privzetih kontov vključujejo:
 
 Ti privzeti konti se uporabljajo v sistemskih procesih, kot so prodaja, zaloga in proizvodnja.
 
-## Brisanje
+## Brisati privzeti konto
 
 Privzeti konto je mogoče izbrisati le, če **ni uporabljen** v aktivnih sistemskih procesih ali konfiguracijskih pravilih.
 
