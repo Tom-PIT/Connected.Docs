@@ -32,10 +32,9 @@ V razdelku **Predlagane knjižbe** sistem predlaga knjižbe na podlagi povezanih
 
 #### Priponke
 
-Vsak dokument vsebuje razdelek **Priponke**.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
 
-Naložite lahko poljubne datoteke (dobavnice, transportne dokumente, fotografije ali podporno dokumentacijo).  
-Vse priponke so shranjene skupaj z dokumentom in so vedno dostopne.
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 ### Urejanje postavk
 
