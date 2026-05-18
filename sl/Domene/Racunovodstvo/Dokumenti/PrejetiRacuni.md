@@ -91,6 +91,17 @@ Na voljo so naslednji filtri:
 
 Seznam prikazuje tudi agregirane kazalnike, kot so število dokumentov in skupni znesek glede na trenutne filtre.
 
+#### Meni
+
+**Meni** v zgornjem desnem kotu omogoča dodatna dejanja za seznam prejetih računov.
+
+Na voljo so naslednja dejanja:
+
+- **Tiskanje ni na voljo** – tiskanje seznama trenutno ni omogočeno.
+- **Izvoz ni na voljo** – izvoz seznama trenutno ni omogočen.
+- **Odpri masovno procesiranje** – omogoča izbor več prejetih računov s seznama in njihov izvoz v Excel datoteko.
+- **Uvozi e-račun** – uvoz elektronskega računa in samodejno ustvarjanje dokumenta prejetega računa v sistemu.
+
 ### Stanja dokumentov
 
 Prejeti računi prehajajo skozi naslednja stanja:

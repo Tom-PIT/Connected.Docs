@@ -89,6 +89,17 @@ Available filters:
 
 The list also displays aggregated indicators such as document count and total amount for the current filter.
 
+#### Menu
+
+The **Menu** in the top-right corner provides additional actions for the received invoices list.
+
+Available actions include:
+
+- **Print** – Print the current list of received invoices.
+- **Export** – Export the current list of received invoices.
+- **Open mass processing** – Enables selecting multiple received invoices from the list and exporting them to an Excel file.
+- **Import E-invoice** – Import an electronic invoice file and automatically create a received invoice document in the system.
+
 ### Document states
 
 Received invoices move through the following states:
