@@ -114,7 +114,12 @@ When activated, the order becomes **Active** and is ready for execution on the s
 
 Production workers can now execute operations through the **[Execution](Execution.md)** module.
 
-The **Process** section displays all planned operations, inputs, resources, outputs, [expenses](ProductionOrderExpenses.md), and [quality checks](ProductionOrderQuality.md) for the chosen version and its operations. 
+The **Process** section displays all planned [operations](../Management/Operations.md), [inputs](../Management/Inputs.md), resources, [outputs](../Management/Outputs.md), [expenses](ProductionOrderExpenses.md), and [quality checks](ProductionOrderQuality.md) for the chosen version and its operations.
+
+> [!NOTE]
+> The input and output sections: 
+> - Show the **planned** and **actual** quantities. The planned quantity is determined by the selected process version and the order quantity, while the actual quantity reflects the production execution data. 
+> - Show the **stock** on hand for the materials, allowing workers to verify availability before starting production.
 
 ![Process View](../Images/ProductionOrdersProcessV3.png "Process overview")
 
