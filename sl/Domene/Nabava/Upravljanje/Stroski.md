@@ -86,6 +86,11 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje 
 
 ![Nov strošek](../Images/ExpensesNewV3SL.png "Nov strošek")
 
+V polje **Neto cena (na enoto)** vnesite zahtevane podatke in stroške, če so znani. Kliknite **Shrani**, da ustvarite stroške. Nov zapis se bo nato prikazal na seznamu.
+
+> [!OPOMBA]
+> Stroški stroškov bodo samodejno izpolnjeni v nabavnem nalogu, če je strošek dodan kot postavka in je **Neto cena (na enoto)** znana.
+
 ### Strošek podizvajalca
 
 Ta izbirni razdelek omogoča dodajanje stroškov, povezanih s podizvajalci.  
