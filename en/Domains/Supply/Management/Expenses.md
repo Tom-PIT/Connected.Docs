@@ -77,6 +77,8 @@ These filters control whether the list shows active or inactive expense entries.
 
 ## Actions
 
+### Add new expense
+
 Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
 
 - **Add new expense**
@@ -85,9 +87,10 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to create a ne
 
 ![New expense](../Images/ExpensesNewV3.png "New expense")
 
-### Add new expense
+Enter the required information and the cost of the expense in **Item price net** field, if known. Click **Save** to create the expense. The new record will then appear in the list.
 
-Enter the required information and click **Save** to create the expense. The new record will then appear in the list.
+> [!NOTE]
+> The cost of the expense will be automatically filled in a supply order if the expense is added as a line item and the **Item price net** is known.
 
 #### Subcontractor cost
 
