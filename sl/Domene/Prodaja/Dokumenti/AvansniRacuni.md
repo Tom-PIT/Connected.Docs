@@ -1,27 +1,30 @@
 <!-- app_route: /sales/documents/prepayments -->
-<!-- app_label: Predplačila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Predplacila.md -->
-<!-- canonical_source_title: Predplačila -->
+<!-- app_label: Avansni računi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/AvansniRacuni.md -->
+<!-- canonical_source_title: Avansni računi -->
 
-# Predplačila
 
-**Predplačilo** je prodajni dokument, ki se uporablja, kadar stranka poravna dogovorjeni znesek **vnaprej**, še preden je blago ali storitev dobavljena. Evidentira prejeta sredstva, ki se lahko kasneje v celoti ali delno uporabijo pri izstavitvi [**izdanega računa**](IzdaniRacuni.md).  
-Predplačila je mogoče ustvariti ročno ali neposredno iz potrjenega [**Predračuna**](Predracuni.md), s čimer so povezana s prodajnim procesom.
+# Avansni računi
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predplačila** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+**Avansni račun** je prodajni dokument, ki se uporablja, kadar stranka poravna dogovorjeni znesek **vnaprej**, še preden je blago ali storitev dobavljena. Evidentira prejeta sredstva, ki se lahko kasneje v celoti ali delno uporabijo pri izstavitvi [**izdanega računa**](IzdaniRacuni.md).  
+Avansne račune je mogoče ustvariti ročno ali neposredno iz potrjenega [**Predračuna**](Predracuni.md), s čimer so povezani s prodajnim procesom.
 
-## Vloga predplačil v prodajnem procesu
 
-Predplačila se uporabljajo, kadar stranka plača del ali celoten znesek vnaprej. V prodajni proces se vključujejo na naslednji način:
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Avansni računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+
+
+## Vloga avansnih računov v prodajnem procesu
+
+Avansni računi se uporabljajo, kadar stranka plača del ali celoten znesek vnaprej. V prodajni proces se vključujejo na naslednji način:
 
 1. Ustvarite **[Ponudbo](Ponudbe.md)** in jo pretvorite v **[Predračun](Predracuni.md)**.  
-2. Predračun potrdite, s čimer postane primeren za predplačila.  
-3. Ustvarite **Predplačilo** – ročno ali prek *Povezani dokumenti → + Predplačilo* na predračunu.  
-4. Evidentirate prejeti znesek in objavite predplačilo (preide v stanje **Potrjeno**).  
-5. Ob izdaji končnega **[Izdani račun](IzdaniRacuni.md)** predplačilo v celoti ali delno zmanjša znesek za plačilo.  
-6. Če je treba predplačilo preklicati ali vrniti, izvedete **[storno](../../Logistika/Dokumenti/Storno.md)**.
+2. Predračun potrdite, s čimer postane primeren za avansni račun.  
+3. Ustvarite **Avansni račun** – ročno ali prek *Povezani dokumenti → + Avansni račun* na predračunu.  
+4. Evidentirate prejeti znesek in objavite avansni račun (preide v stanje **Potrjeno**).  
+5. Ob izdaji končnega **[Izdani račun](IzdaniRacuni.md)** avansni račun v celoti ali delno zmanjša znesek za plačilo.  
+6. Če je treba avansni račun preklicati ali vrniti, izvedete **[storno](../../Logistika/Dokumenti/Storno.md)**.
 
-Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
+Avansni računi sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 ## Shema
 
@@ -30,18 +33,18 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 | Polje | Opis |
 |------|------|
-| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator predplačila. |
+| [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran identifikator avansnega računa. |
 | **Številka naročila kupca** | Neobvezna referenca na naročilo stranke. |
-| **Stranka** | Stranka, ki izvede predplačilo, izbrana iz šifranta [**Poslovni imenik**](../../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
-| **Datum dokumenta** | Datum izdaje dokumenta predplačila. |
+| **Stranka** | Stranka, ki izvede avansni račun, izbrana iz šifranta [**Poslovni imenik**](../../../Skupno/Upravljanje/PoslovniImenik.md) (obvezno). |
+| **Datum dokumenta** | Datum izdaje dokumenta avansnega računa. |
 | **Datum opravljene storitve** | Predviden datum dobave, povezan s prodajo. |
 | **Datum zapadlosti** | Rok za prejem predplačila (obvezno). |
 | **Tip reference** | Vrsta plačilnega sklica (obvezno). |
 | **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
-| [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Bančni račun za prejem predplačila (obvezno). |
+| [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Bančni račun za prejem avansnega računa (obvezno). |
 | [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
 | **Koda namena** | Neobvezen opis namena plačila. |
-| **Rabat** | Skupni rabat, uporabljen na znesek predplačila. |
+| **Rabat** | Skupni rabat, uporabljen na znesek avansnega računa. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Način plačila** | Izbrani način plačila iz šifranta [**Način plačila**](../Upravljanje/NacinPlacila.md). |
@@ -94,15 +97,17 @@ Predplačila sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 </details>
 
+
 ## Upravljanje
 
-Predplačila imajo lahko status **Osnutek** ali **Potrjeno**.
+Avansni računi imajo lahko status **Osnutek** ali **Potrjeno**.
 
 ### Seznam
 
-![Seznam predplačil](../Images/PrepaymentsList.png "Seznam predplačil")
 
-Seznam predplačil je mogoče filtrirati po:
+![Seznam avansnih računov](../Images/PrepaymentsList.png "Seznam avansnih računov")
+
+Seznam avansnih računov je mogoče filtrirati po:
 - **Datumih dokumentov**
 - **Pogledu** (Osnutek / Potrjeno)
 - **Stranki**
@@ -111,17 +116,18 @@ Vsaka vrstica prikazuje:
 - Stranko  
 - Šifro dokumenta  
 - Datum dokumenta  
-- Znesek predplačila  
+- Znesek avansnega računa  
 
-Osnutke je mogoče urejati, potrjena predplačila pa so dokončna, razen če so stornirana.
+Osnutke je mogoče urejati, potrjeni avansni računi pa so dokončni, razen če so stornirani.
 
 ## Dejanja
 
-### Ustvarjanje novega predplačila
 
-1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka predplačila.
+### Ustvarjanje novega avansnega računa
 
-   ![Novo predplačilo](../Images/PrepaymentsNewTop.png "Novo predplačilo")
+1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka avansnega računa.
+
+   ![Novi avansni račun](../Images/PrepaymentsNewTop.png "Novi avansni račun")
 
 2. Izpolnite obvezna polja: **Stranka**, **Datum zapadlosti**, **Tip reference**, **Sklic** in **Bančni račun organizacije**.
 
@@ -131,20 +137,21 @@ Osnutke je mogoče urejati, potrjena predplačila pa so dokončna, razen če so 
 
 5. Izberite **Način plačila**.
 
-   ![Predplačilo – spodnji del](../Images/PrepaymentsNewBottom.png "Predplačilo – spodnji del")
+   ![Avansni račun – spodnji del](../Images/PrepaymentsNewBottom.png "Avansni račun – spodnji del")
 
-6. Ko je predplačilo pripravljeno, kliknite **Objavi**.  
+6. Ko je avansni račun pripravljen, kliknite **Objavi**.  
    Dokument preide v stanje **Potrjeno** in omogoči nadaljnja dejanja.
 
 > [!NOTE]
 > - S klikom na **Objavi** se dokument potrdi in premakne iz **Osnutka** v **Potrjeno**.  
-> - Osnutek predplačila je mogoče ustvariti tudi iz potrjenega **[Predračuna](Predracuni.md)** prek dejanja **+ Predplačilo**.
+> - Osnutek avansnega računa je mogoče ustvariti tudi iz potrjenega **[Predračuna](Predracuni.md)** prek dejanja **+ Avansni račun**.
 >
-> ![Povezava predračun → predplačilo](../Images/PrepaymentsProformaLink.png "Povezava predračun → predplačilo")
+> ![Povezava predračun → avansni račun](../Images/PrepaymentsProformaLink.png "Povezava predračun → avansni račun")
 
-### Urejanje predplačila
 
-Osnutek predplačila je mogoče urejati do objave.
+### Urejanje avansnega računa
+
+Osnutek avansnega računa je mogoče urejati do objave.
 
 Urejate lahko:
 - Glavna polja (stranka, datumi, sklici, bančni račun)
@@ -163,15 +170,17 @@ V razdelku **Priponke** lahko naložite dodatno dokumentacijo.
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in prikazuje obstoječe povezave. 
 
-![Povezani dokumenti predplačila](../Images/PrepaymentsLinkedDocuments.png "Povezani dokumenti predplačila")
+
+![Povezani dokumenti avansnega računa](../Images/PrepaymentsLinkedDocuments.png "Povezani dokumenti avansnega računa")
 
 > [!NOTE]
 > - Razpoložljiva dejanja so odvisna od tipa in statusa dokumenta.  
-> - Predplačila je mogoče v celoti ali delno uporabiti ob izdaji računa.
+> - Avansne račune je mogoče v celoti ali delno uporabiti ob izdaji računa.
+
 
 Razpoložljiva dejanja vključujejo:
-- **[+ Izdani račun](IzdaniRacuni.md)** – ustvari končni račun z upoštevanjem predplačila.  
-- **Predplačilo** – kopira vsebino v novo predplačilo.
+- **[+ Izdani račun](IzdaniRacuni.md)** – ustvari končni račun z upoštevanjem avansnega računa.  
+- **Avansni račun** – kopira vsebino v nov avansni račun.
 
 #### Alternativna valuta
 
@@ -235,9 +244,11 @@ Meni dokumenta omogoča:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti)
 - **Vrni v osnutek** (če je dovoljeno)
 
-![Meni predplačila](../Images/PrepaymentsMenu.png "Meni predplačila")
 
-Storniranje razveljavi finančni učinek potrjenega predplačila. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+![Meni avansnega računa](../Images/PrepaymentsMenu.png "Meni avansnega računa")
+
+
+Storniranje razveljavi finančni učinek potrjenega avansnega računa. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 
 ## Brisanje
 
@@ -255,5 +266,5 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 2. V oknu za urejanje kliknite **Izbriši**.
 
 > [!NOTE]  
-> Objavljenih predplačil **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
+> Objavljenih avansnih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
 

@@ -8,7 +8,7 @@
 
 Stroski predstavljajo dodatne **stroške**, ki se uporabljajo za **operacijo** znotraj različice procesa. Ti stroški prispevajo k skupni kalkulaciji proizvodnih stroškov artikla.
 
-Za dostop do te strani odprite različico procesa iz **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite [**Operacije**](Operacije.md.md), nato izberite **Stroski** za določeno operacijo.
+Za dostop do te strani odprite različico procesa iz **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite [**Operacije**](Operacije.md), nato izberite **Stroski** za določeno operacijo.
 
 ![Stroški gumb](../Images/OperationExpensesButtonSL.png "Stroški gumb")
 

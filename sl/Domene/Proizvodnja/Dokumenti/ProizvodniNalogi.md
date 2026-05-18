@@ -113,7 +113,7 @@ Po aktivaciji nalog postane **Aktiven** in je pripravljen za izvajanje v proizvo
 Proizvodni delavci lahko zdaj izvajajo operacije v modulu **Izvedba**.  
 Za več informacij glejte **[Izvedba](Izvedba.md)**.
 
-Razdelek **Proces** prikazuje vse planirane operacije, vhode, vire, izhode, stroški in [kontrole kakovosti za izbrano verzijo](../ProizvodniNalogiKvaliteta.md).
+Razdelek **Proces** prikazuje vse planirane operacije, vhode, vire, izhode, stroški in [kontrole kakovosti za izbrano verzijo](ProizvodniNalogiKvaliteta.md).
 
 ![Pregled procesa](../Images/ProductionOrdersProcessV3SL.png "Pregled procesa")
 

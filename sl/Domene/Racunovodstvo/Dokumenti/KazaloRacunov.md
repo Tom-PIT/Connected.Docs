@@ -14,5 +14,5 @@ Ta razdelek vsebuje dokumente, povezane z računi, ki so na voljo v domeni Raču
 - [**Dobropisi**](../../Prodaja/Dokumenti/Dobropisi.md)
 - [**Bremepisi**](../../Prodaja/Dokumenti/Bremepisi.md)
 - [**Predračuni**](../../Prodaja/Dokumenti/Predracuni.md)
-- [**Predplačila**](../../Prodaja/Dokumenti/Predplacila.md)
+- [**Avansni računi**](../../Prodaja/Dokumenti/AvansniRacuni.md)
 - [**Opomini**](../../Prodaja/Dokumenti/Opomini.md)

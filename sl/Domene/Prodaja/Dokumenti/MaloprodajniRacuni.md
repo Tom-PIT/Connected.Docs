@@ -27,7 +27,7 @@ Da se maloprodajni izdani račun lahko davčno potrdi, morajo biti izpolnjeni na
 
 1. **Osebna konfiguracija:** Oseba, ki ustvarja račun, mora imeti določeno **davčno številko** v svojem [zapisu vira](../../Proizvodnja/Upravljanje/Viri.md).
 2. **Sistemska konfiguracija:** Sistem mora biti nastavljen za davčno potrjevanje, potrebne [nastavitve davčnega potrjevanja](../../Sistem/Nastavitve/KonfiguracijaMaloprodajaSI.md) pa morajo biti pravilno konfigurirane.
-3. **Konfiguracija blagajne:** Konfiguracija konkretne blagajne, uporabljene za transakcijo. To konfiguracijo nastavi ekipa **Tom PIT** ob implementaciji in je uporabnik ne more spreminjati. Specifične blagajne so nastavljene na zaslonu [Stroškovna mesta](../../Skupno/Upravljanje/StroskovnaMesta.md).
+3. **Konfiguracija blagajne:** Konfiguracija konkretne blagajne, uporabljene za transakcijo. To konfiguracijo nastavi ekipa **Tom PIT** ob implementaciji in je uporabnik ne more spreminjati. Specifične blagajne so nastavljene na zaslonu [Stroškovna mesta](../../../Skupno/Upravljanje/StroskovnaMesta.md).
 
 Ko so ti pogoji izpolnjeni, se lahko maloprodajni izdani račun ob objavi davčno potrdi, kar zagotavlja skladnost z davčno zakonodajo za maloprodajo.
 
