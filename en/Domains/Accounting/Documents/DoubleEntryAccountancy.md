@@ -83,7 +83,7 @@ Draft entries with mismatched debit and credit totals cannot be published. Valid
 
 ## Actions
 
-### Create journal entry
+### Create a journal entry
 
 ![Create journal entry](../Images/DoubleEntryAccountancyJournalEntryNew.png)
 
@@ -110,7 +110,7 @@ You can:
 
 After making changes, click **Save** to apply them.
 
-### Publish journal entry
+### Publish a journal entry
 
 When debit and credit totals match:
 
@@ -129,7 +129,7 @@ When a journal entry originates from another document:
 
 This linkage ensures full traceability between operational documents and their accounting impact.
 
-## Deletion
+## Delete a journal entry
 
 A journal entry can be deleted only if it is in **Draft** status and not linked to finalized source documents.
 

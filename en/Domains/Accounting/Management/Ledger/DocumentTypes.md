@@ -35,9 +35,9 @@ Inactive document types are kept for historical consistency but cannot be used f
 
 ## Actions
 
-### Add document type
+### Add a document type
 
-To create a new document type:
+To add a new document type:
 
 1. Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry
 2. Enter:
@@ -55,7 +55,7 @@ Click a document type in the list to open it in edit mode. Update its fields as 
 
 Click **Save** to apply changes or **Cancel** to discard the entry.
 
-## Deletion
+## Delete a document type
 
 A document type can be deleted only if it is **not referenced** by existing journal entries or configuration rules.
 

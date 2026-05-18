@@ -37,7 +37,7 @@ Typical examples include:
 
 ## Actions
 
-### Add nature of transaction
+### Add a nature of transaction
 
 To create a new nature-of-transaction entry:
 1. Click the [**action button**](../../../../Common/UI/ActionButton.md)
@@ -48,13 +48,13 @@ To create a new nature-of-transaction entry:
 
 ![Add nature of transaction](../../Images/NatureOfTransactionsNew.png)
 
-### Edit nature of transaction
+### Edit a nature of transaction
 
 Click a code in the list to open it in edit mode. Update the **Code** or **Description** as needed.
 
 Click **Save** to apply changes or **Cancel** to discard them.
 
-### Deletion
+### Delete a nature of transaction
 
 Open an entry from the list and click **Delete**. Confirm the deletion in the dialog.
 

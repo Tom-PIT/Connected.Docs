@@ -92,7 +92,7 @@ This connection links the asset to its inventory account and is used to represen
 
 This allows differentiated revenue posting based on sales region.
 
-## Deletion
+## Delete an asset account connection
 
 An asset account connection can be deleted only if it is not required by existing invoice postings.
 

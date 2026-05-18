@@ -68,7 +68,7 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to access avai
 * **New** – Create a new bank statement.
 * **Import** – Import bank statements from external files in XML format.
 
-### Create bank statement
+### Create a bank statement
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new bank statement.
 2. Select the [**Organization bank account**](../../Sales/Management/OrganizationBankAccounts.md).
@@ -76,7 +76,7 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to access avai
 
    ![Bank Statements New](../Images/BankStatementsNew.png "Bank Statements New")
 
-### Add bank movement
+### Add a bank movement
 
 1. In the **Details** section, click **Add detail**.
 2. Select the [**Company**](../../../Common/Management/BusinessDirectory.md) related to the transaction.
@@ -87,7 +87,7 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to access avai
 
    ![Bank Statements New Add Detail](../Images/BankStatementsNewAddDetail.png "Bank Statements New Add Detail")
 
-### Publish bank statement
+### Publish a bank statement
 
 After all bank movements have been entered:
 
@@ -109,7 +109,7 @@ The linked journal entry:
 
 This linkage ensures traceability between bank activity and ledger postings.
 
-## Deletion
+## Delete a bank statement
 
 Draft bank statements can be deleted from the edit screen by clicking the **Delete** button.
 

@@ -47,9 +47,9 @@ The list can be filtered by document status (**Draft** or **Committed**)
 
 ## Actions
 
-### Create initial state
+### Add an initial stock state
 
-To create a new stock initial state:
+To add a new stock initial state:
 1. Click the [**action button**](../../../../Common/UI/ActionButton.md).
 2. Select a **Warehouse**.
 
@@ -61,13 +61,13 @@ The system creates a new draft document for the selected warehouse.
 
 ![Stock initial state document (draft)](../../Images/StockInitialStatesDocumentDraft.png "Stock initial state document (draft)")
 
-### Edit initial state
+### Edit an initial stock state
 
 Click a document in the draft list to open it in edit mode. Enter or update **Amount actual (per unit)** on details and review header fields.
 
 Click **Save** to apply changes or **Cancel** to discard them.
 
-### Publish initial state
+### Publish an initial stock state
 
 When all required values are entered, click **Publish** to initialize inventory value in the ledger and create opening balances for inventory accounts. Publishing locks the document against further changes.
 
@@ -76,7 +76,7 @@ When all required values are entered, click **Publish** to initialize inventory 
 >
 > To enable financial stock, go to **System / Configuration / Ledger settings** and activate the **Financial stock enabled** option.
 
-### Delete initial state
+### Delete an initial stock state
 
 Draft initial states can be deleted from the edit screen.
 

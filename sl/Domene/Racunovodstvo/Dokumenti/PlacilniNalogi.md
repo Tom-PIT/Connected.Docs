@@ -93,7 +93,7 @@ Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
 
 ## Dejanja
 
-### Ustvari plačilni nalog
+### Ustvariti plačilni nalog
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega plačilnega naloga.
 2. Vnesite zahtevane podatke dokumenta, plačnika in prejemnika.
@@ -101,7 +101,7 @@ Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
 
    ![Plačilni nalog – osnutek](../Images/PaymentOrderNew.png "Plačilni nalog – osnutek")
 
-### Urejanje plačilnega naloga
+### Urejati plačilnega naloga
 
 Plačilni nalog lahko urejate, dokler je v stanju **Osnutek**.
 
@@ -129,7 +129,7 @@ Plačilne naloge je mogoče izvoziti v **XML** iz menija dokumenta.
 - Kliknite meni (ikona hamburger) v zgornjem desnem kotu
 - Izberite **Izvoz v XML**
 
-## Brisanje
+## Brisati plačilne naloge
 
 Plačilne naloge je mogoče izbrisati, dokler so v stanju **Osnutek**.
 

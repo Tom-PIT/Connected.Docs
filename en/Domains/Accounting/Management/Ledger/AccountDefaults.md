@@ -48,9 +48,9 @@ The list can be searched using the search field in the top-right corner.
 
 ## Actions
 
-### Add account default
+### Add an account default
 
-To create a new account default:
+To add a new account default:
 
 1. Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry
 2. Enter:
@@ -63,7 +63,7 @@ To create a new account default:
 
 ![Account defaults – new](../../Images/AccountDefaultsNew.png "Account defaults – new")
 
-### Edit account default
+### Edit an account default
 
 Click a default in the list to open it in edit mode. Update its fields as needed.
 
@@ -80,7 +80,7 @@ Typical account defaults include:
 
 These defaults are referenced by system workflows such as sales, inventory, and production processes.
 
-## Deletion
+## Delete an account default
 
 An account default can be deleted only if it is **not referenced** by active system processes or configuration rules. 
 

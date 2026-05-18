@@ -59,9 +59,9 @@ Each template provides access to its **Details**, where individual journal entry
 
 ## Actions
 
-### Add journal entry template
+### Add a journal entry template
 
-To create a new journal entry template:
+To add a new journal entry template:
 
 1. Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry
 2. Select a **Document type**
@@ -73,7 +73,7 @@ To create a new journal entry template:
 
 ![Journal entry templates – new](../../Images/JournalEntryTemplatesNew.png "Journal entry templates – new")
 
-### Edit journal entry template
+### Edit a journal entry template
 
 Click a journal entry template in the list to open it in edit mode. Update its fields as needed.
 
@@ -115,7 +115,7 @@ To add a new detail line to a journal entry template:
 
 ![Journal entry template details – new](../../Images/JournalEntryTemplatesDetailsNew.png "Journal entry template details – new")
 
-## Deletion
+## Delete a journal entry template
 
 A journal entry template can be deleted only if it is **not referenced** by existing journal entries.
 

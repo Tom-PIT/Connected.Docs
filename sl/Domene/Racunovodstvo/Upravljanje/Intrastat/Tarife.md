@@ -31,7 +31,7 @@ Seznam prikazuje vse definirane tarife z naslednjimi stolpci:
 
 Tarife je mogoče iskati z iskalnikom v zgornjem desnem kotu.
 
-## Dodajanje tarife
+## Ustvariti tarife
 
 Za dodajanje nove tarife kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md).
 
@@ -46,13 +46,13 @@ Izpolnite naslednja polja:
 
 Kliknite **Dodaj**, da shranite tarifo, ali **Prekliči**, da opustite vnos.
 
-## Urejanje tarife
+## Urejati tarife
 
 Kliknite **šifro** tarife v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobite **Šifro**, **Ime**, **Mersko enoto** ali **Oddelek**.
 
 Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisanje
+## Brisati tarife
 
 Odprite tarifo iz seznama in kliknite **Izbriši**. Brisanje potrdite v pogovornem oknu.
 

@@ -78,7 +78,7 @@ Trenutno stanje posameznega sredstva odraža njegov življenjski cikel.
 
 ## Dejanja
 
-### Ustvari osnovno sredstvo
+### Ustvariti osnovno sredstvo
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnovnega sredstva.
 2. Izpolnite obvezna polja v razdelku **Dokument**.
@@ -89,7 +89,7 @@ Po objavi se osnovno sredstvo premakne iz stanja **Osnutek** v **Še ni v uporab
 
 ![Novo osnovno sredstvo](../Images/FixedAssetsNew.png)
 
-### Dodajanje podrobnosti sredstva
+### Dodati podrobnosti sredstva
 
 V razdelku **Podrobnosti** lahko beležite dogodke, povezane z osnovnim sredstvom.
 
@@ -105,7 +105,7 @@ Za beleženje nabave osnovnega sredstva:
 
 To omogoča beleženje nabavne vrednosti ločeno od aktivacije.
 
-#### Aktivacija
+#### Aktivirati osnovno sredstvo
 
 Za aktivacijo osnovnega sredstva:
 

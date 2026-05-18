@@ -86,7 +86,7 @@ Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md) za dostop do
 - **Novo**
 - **Uvoz**
 
-### Dodajanje novega konta
+### Ustvariti novega konta
 
 Za ustvarjanje novega konta:
 
@@ -102,7 +102,7 @@ Dejanje **Uvoz** omogoča množično ustvarjanje kontov z nalaganjem CSV datotek
 
 CSV datoteka mora slediti pričakovani strukturi stolpcev za konte, vključno s številkami kontov, imeni in konfiguracijskimi polji.
 
-### Urejanje konta
+### Urejati konta
 
 Kliknite na konto v seznamu, da ga odprete v načinu urejanja. Njegove lastnosti lahko spreminjate, dokler to ni omejeno zaradi obstoječih knjižb ali odvisnosti.
 
@@ -115,7 +115,7 @@ Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 - Konti, vezani na stroškovna mesta, se pogosto uporabljajo za sledenje proizvodnji, delu in režijskim stroškom.
 - Kontni plan mora biti definiran pred ustvarjanjem temeljnic, računov ali zalogovnih transakcij.
 
-## Pravila brisanja
+## Brisati konto
 
 Konto je mogoče izbrisati na zaslonu za urejanje s klikom na gumb **Izbriši**. Izbrišete ga lahko le, samo če **ni uporabljen** v:
 

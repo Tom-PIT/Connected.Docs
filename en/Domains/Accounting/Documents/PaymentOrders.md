@@ -91,7 +91,7 @@ Payment orders follow a simple lifecycle:
 
 ## Actions
 
-### Create payment order
+### Create a payment order
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new payment order
 2. Enter the required document, payer, and recipient information
 3. Click **Publish** to move the payment order from *Draft* to *Unpaid*
@@ -123,7 +123,7 @@ Payment orders can be exported to **XML** from the document menu in the top-righ
 - Click the hamburger menu in the top-right (three lines)
 - Choose **Export to XML**
 
-## Deletion
+## Delete a payment order
 Payment orders can be deleted while in **Draft** status.
 
 Once published, deletion may be restricted to preserve accounting integrity.

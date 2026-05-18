@@ -31,7 +31,7 @@ The list view displays all defined tariffs with the following columns:
 
 Tariffs can be searched using the search field in the top-right corner.
 
-## Add tariff
+## Add a tariff
 
 Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new tariff entry.
 
@@ -46,14 +46,14 @@ Fill in the following fields:
 
 Click **Add** to create the tariff or **Cancel** to discard changes.
 
-## Edit tariff
+## Edit a tariff
 
 Click a tariff **Code** in the list to open it in edit mode.  
 Update the **Code**, **Name**, **Supplementary unit**, or **Section** as needed.
 
 Click **Save** to apply changes or **Cancel** to discard them.
 
-## Deletion
+## Delete a tariff
 
 Open a tariff from the list and click **Delete**. Confirm the deletion in the dialog.
 

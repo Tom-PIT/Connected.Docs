@@ -131,7 +131,7 @@ Ti izvozi se običajno uporabljajo za:
 
 ## Dejanja
 
-### Ustvarjanje obračuna DDV
+### Ustvariti obračuna DDV
 
 Nov obračun DDV se ustvari za izbrano obdobje.
 
@@ -145,7 +145,7 @@ Nov obračun DDV se ustvari za izbrano obdobje.
 > [!NOTE]  
 > Nov obračun DDV je mogoče ustvariti le, če je **prejšnji obračun že zaključen**.
 
-### Brisanje obračuna DDV
+### Brisati obračuna DDV
 
 Izbrisati je mogoče samo **neobjavljene (osnutke)** obračune DDV.
 

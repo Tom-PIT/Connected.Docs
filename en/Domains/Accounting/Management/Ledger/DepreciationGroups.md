@@ -53,9 +53,9 @@ Click a depreciation group to open it in edit mode.
 
 ## Actions
 
-### Add depreciation group
+### Add a depreciation group
 
-To create a new depreciation group:
+To add a new depreciation group:
 
 1. Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry
 
@@ -96,7 +96,7 @@ The following example illustrate a typical depreciation group. Let's imagine a c
 
 This group is suitable for long-lived production assets.
 
-## Deletion
+## Delete a depreciation group
 
 A depreciation group can be deleted only if it is **not referenced** by any existing assets.
 

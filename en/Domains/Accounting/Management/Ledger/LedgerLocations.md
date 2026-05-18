@@ -46,9 +46,9 @@ Click a location in the list to open it in edit mode.
 
 ## Actions
 
-### Add location
+### Add a ledger location
 
-To create a new ledger location:
+To add a new ledger location:
 
 1. Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry
 
@@ -61,7 +61,7 @@ To create a new ledger location:
 
 ![Ledger locations – new](../../Images/LedgerLocationsNew.png "Ledger locations – new")
 
-### Edit location
+### Edit a ledger location
 
 Click a ledger location in the list to open it in edit mode. Update its fields as needed.
 
@@ -80,7 +80,7 @@ Typical ledger locations include:
 
 These locations provide contextual information and can be reused across the system.
 
-## Deletion
+## Delete a ledger location
 
 A ledger location can be deleted only if it is **not referenced** by other objects.
 
