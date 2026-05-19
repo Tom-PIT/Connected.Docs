@@ -35,7 +35,7 @@ The following actions are available via the [**Action button**](../../../Common/
 - **New** – Create a new institutional sector.
 - **Import** – Bulk import institutional sectors from a CSV spreadsheet file.
 
-### Create a new institutional sector
+### Add a new institutional sector
 
 1. Click the [**Action button**](../../../Common/UI/ActionButton.md) and select **New**.
 2. Enter:

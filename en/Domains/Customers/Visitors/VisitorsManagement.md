@@ -62,7 +62,7 @@ A visit progresses through the following statuses:
 - **Completed** – the visit has ended
 - **Cancelled** – the visit was cancelled and did not take place
 
-## Create a new visit
+## Add a new visit
 
 A new visit is created when a physical visit is planned. 
 

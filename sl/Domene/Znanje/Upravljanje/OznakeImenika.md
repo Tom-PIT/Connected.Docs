@@ -37,7 +37,7 @@ Klik na oznako odpre zaslon za urejanje.
 
 Kliknite **akcijski gumb** za dodajanje nove oznake imenika.
 
-### Dodaj novo oznako imenika
+### Dodati novo oznako imenika
 
 Vnesite zahtevano **ime oznake**.
 
@@ -47,7 +47,7 @@ Kliknite **Dodaj**, da shranite oznako.
 
 Oznaka je takoj na voljo za uporabo v [člankih](Clanki.md).
 
-## Urejanje obstoječe oznake
+## Urejati obstoječe oznake
 
 Kliknite oznako v seznamu, da odprete zaslon za urejanje.
 
@@ -61,18 +61,10 @@ Razdelek **Članki** omogoča pregled uporabe oznake pred spremembami ali brisan
 
 Kliknite **Shrani** ali **Prekliči**.
 
-## Brisanje
+## Brisati oznako imenika
 
 Kliknite **Izbriši**, da odprete potrditveno pogovorno okno:
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**
 
 Če potrdite, se oznaka trajno odstrani.
-
-## Povezano
-
-- **[Baza znanja](../BazaZnanja/BazaZnanja.md)**  
-- **[Imeniki](Imeniki.md)**  
-- **[Članki](Clanki.md)**
-
----

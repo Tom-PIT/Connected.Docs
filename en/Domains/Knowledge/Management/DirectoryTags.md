@@ -46,7 +46,7 @@ Click **Add** to save the new tag.
 
 The tag becomes immediately available for use in Knowledge [articles](Articles.md).
 
-## Editing an existing directory tag
+## Edit a directory tag
 
 Click a directory tag in the list to open its edit screen.
 
@@ -61,17 +61,11 @@ The **Articles** section helps you understand where the tag is used before makin
 
 Click **Save** to confirm changes, or **Cancel** to discard them and return to the list.
 
-## Deletion
+## Delete a directory tag
 
 Click **Delete** on the edit screen to open a confirmation dialog:
 
 **Are you sure you want to delete this record?**
 
 If confirmed, the tag is permanently removed; otherwise, the system keeps it unchanged.
-
-## Related
-
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse articles and filter by tags
-- **[Directories](Directories.md)** – containers that hold articles and TOCs
-- **[Articles](Articles.md)** – content items that can use directory tags
 

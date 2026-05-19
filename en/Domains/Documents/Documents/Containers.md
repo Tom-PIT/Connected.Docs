@@ -47,7 +47,7 @@ Each record includes a status indicator to the left of its name:
 
 ## Actions
 
-### Add new container
+### Add a new container
 
 Click the [**action button**](../../../Common/UI/ActionButton.md) to add a new container and fill in the **Name** field.
 
@@ -59,7 +59,7 @@ Click **Add** to create the container.
 
 Once created, the container appears in the list and can be opened to manage its content.
 
-## Managing container content
+## Manage the container content
 
 Click **Open** on a container to view its contents.
 
@@ -83,7 +83,7 @@ The following actions are available:
 - Documents can be stored inside folders or at the root level
 - Folders are optional but recommended for better organization
 
-### Creating a folder
+### Create a folder
 
 1. Click **New folder**
 2. Enter:
@@ -94,7 +94,7 @@ The following actions are available:
 
 ![New folder](../Images/DocumentsContainersNewFolder.png "New folder")
 
-### Uploading documents
+### Upload documents
 
 To upload a document, first select a folder in the sidebar, click **Upload document** and select the file from your device. The file will be uploaded to the selected folder and will be visible on the screen.
 
@@ -103,7 +103,7 @@ The uploaded document will be added to the list. The following actions are avail
 - **Copy** - creates a duplicate of the document in the same folder.
 - **Download** - downloads the document to your device.
 
-### Editing documents
+### Edit documents
 
 After uploading a document, click on the file name to edit its metadata.
 

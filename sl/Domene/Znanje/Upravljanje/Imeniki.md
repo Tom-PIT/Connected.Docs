@@ -46,11 +46,9 @@ Klik na ime imenika odpre zaslon za urejanje.
 
 ## Dejanja
 
-Kliknite **akcijski gumb** za dodajanje novega imenika.
+### Dodati nov imenik
 
-### Dodaj nov imenik
-
-Izpolnite naslednja polja:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega imenika. Izpolnite naslednja polja:
 
 - **Ime**
 - **Ključ**
@@ -64,7 +62,7 @@ Kliknite **Dodaj**, da shranite nov imenik.
 
 Po ustvarjanju postane imenik na voljo v [**bazi znanja**](../BazaZnanja/BazaZnanja.md) in ga je mogoče zapolniti z vsebino.
 
-## Upravljanje vsebine imenika
+## Upravljati vsebine imenika
 
 Po ustvarjanju imenika so na voljo dodatne možnosti neposredno iz seznama:
 
@@ -77,7 +75,7 @@ Po ustvarjanju imenika so na voljo dodatne možnosti neposredno iz seznama:
 > Imeniki določajo **samo strukturo**.  
 > Članki in kazala se upravljajo ločeno.
 
-## Urejanje imenika
+## Urejati imenika
 
 Kliknite ime imenika, da odprete zaslon za urejanje.
 
@@ -88,7 +86,7 @@ Na voljo so:
 
 Kliknite **Shrani**, da potrdite spremembe.
 
-## Brisanje
+## Brisati imenik
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 
@@ -98,12 +96,3 @@ Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno o
 
 > [!NOTE]
 > Imenik je mogoče izbrisati le, če ne vsebuje člankov ali vnosov kazala.
-
-## Povezano
-
-- **[Baza znanja](../BazaZnanja/BazaZnanja.md)**  
-- **[Članki](Clanki.md)**  
-- **[Kazalo](Kazalo.md)**  
-- **[Oznake imenika](OznakeImenika.md)**
-
----

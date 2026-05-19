@@ -20,8 +20,7 @@ The screen is read-only, except for **comments** on articles where commenting is
 
 ![KnowledgeBase](../Images/KnowledgeBase.png "Knowledge Base")
 
-
-## Search and filtering
+## Search and filters
 
 At the top of the page, a **search bar** allows users to search the **Knowledge base** by:
 
@@ -124,10 +123,3 @@ The **Knowledge base** is typically used for:
 > - The **Knowledge base** displays only **published** and **enabled** content.  
 > - Visibility of articles depends on directory status and publication settings.  
 > - Commenting and attachments depend on how the article was configured.
-
-## Related
-
-- **[Directories](../Management/Directories.md)** – manage containers and navigation
-- **[Articles](../Management/Articles.md)** – author content
-- **[Directory tags](../Management/DirectoryTags.md)** – define tags used for filtering
-- **[Table of contents](../Management/TableOfContents.md)** – define directory navigation

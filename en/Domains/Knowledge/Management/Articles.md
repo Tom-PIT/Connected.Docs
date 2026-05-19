@@ -45,7 +45,7 @@ Clicking an article opens it for editing.
 
 Click the **action button** to create a new article.
 
-### Add new article
+### Add a new article
 
 When creating or editing an article, the fields described in the [Schema](#schema) section above are available.
 
@@ -82,7 +82,7 @@ Tags are used to categorize articles and make them easier to find in the system.
 
 Tags are selected from **[Directory tags](DirectoryTags.md)** and can be reused across multiple articles.
 
-## Publishing and validity
+## Publish and schedule articles
 
 Articles can be scheduled using:
 
@@ -97,7 +97,7 @@ When **Collaboration** is enabled, users can add comments to the article.
 
 This allows feedback, clarification, and discussion directly on the documentation.
 
-## Deletion
+## Delete an article
 
 Click **Delete** on the article edit screen to open a confirmation dialog:
 
@@ -107,10 +107,3 @@ If confirmed, the article is permanently removed.
 
 > [!NOTE]
 > Deleting an article also removes it from the directory’s table of contents.
-
-## Related
-
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse and read published articles
-- **[Directories](Directories.md)** – manage directories that group articles
-- **[Table of contents](TableOfContents.md)** – define navigation for a directory
-- **[Directory tags](DirectoryTags.md)** – categorize and filter articles
