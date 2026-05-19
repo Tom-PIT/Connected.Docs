@@ -38,7 +38,7 @@ Naslednja dejanja so na voljo prek [**akcijskega gumba**](../../../Skupno/UI/Akc
 - **Nov** – ustvari nov institucionalni sektor.
 - **Uvoz** – množični uvoz institucionalnih sektorjev iz CSV datoteke.
 
-### Ustvari nov institucionalni sektor
+### Ustvariti nov institucionalni sektor
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Nov**.
 2. Vnesite:
@@ -48,13 +48,13 @@ Naslednja dejanja so na voljo prek [**akcijskega gumba**](../../../Skupno/UI/Akc
 
 ![Dodaj institucionalni sektor](../Images/InstitutionalSectorsNew.png)
 
-### Urejanje institucionalnega sektorja
+### Urejati institucionalni sektor
 
 - Kliknite obstoječi sektor v seznamu.
 - Po potrebi posodobite **Šifro** ali **Naziv**.
 - Shranite spremembe.
 
-### Brisanje institucionalnega sektorja
+### Brisati institucionalni sektor
 
 - Odprite sektor iz seznama.
 - V pogledu za urejanje uporabite dejanje **Izbriši**.

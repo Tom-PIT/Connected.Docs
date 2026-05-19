@@ -62,7 +62,7 @@ A visit progresses through the following statuses:
 - **Completed** – the visit has ended
 - **Cancelled** – the visit was cancelled and did not take place
 
-## Creating a new visit
+## Create a new visit
 
 A new visit is created when a physical visit is planned. 
 
@@ -77,7 +77,7 @@ Typical flow:
 
 At this stage, the visit appears in the list as **Announced**.
 
-## Managing the visit
+## Manage the visit
 
 ### Visitor arrival
 
@@ -102,7 +102,7 @@ The visitor can confirm and sign the statement directly on the form.
 
 ![Signature section](../Images/VisitorsManagementSignatureSection.png "Signature section")
 
-### Completing the visit
+### Complete the visit
 
 After the visit ends:
 
@@ -114,7 +114,7 @@ This action effectively stops the visit duration tracking.
 
 The visit moves to the **Completed** list and displays both arrival and departure times.
 
-### Cancelling a visit
+### Cancel a visit
 
 If a planned visit does not take place:
 
@@ -124,7 +124,7 @@ If a planned visit does not take place:
 
 The visit is moved to the **Cancelled** state and shown accordingly in the list view.
 
-## Deleting a visit
+## Delete a visit
 
 Visits can be deleted if they were created in error or are no longer needed on the edit screen.
 

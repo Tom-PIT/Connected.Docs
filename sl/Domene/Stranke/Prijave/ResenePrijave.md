@@ -61,7 +61,7 @@ Večina polj je **samo za branje**, vendar je še vedno mogoče:
 - dodajati komentarje,
 - uporabljati dejanja prek [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md).
 
-## Ponovno odpiranje prijave
+## Ponovno odpirati prijave
 
 Iz pogleda rešene prijave omogoča [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) ponovno odpiranje prijave.
 
@@ -76,5 +76,3 @@ Ko je prijava ponovno odprta:
 - se odstrani iz seznama **Rešene prijave**,
 - se znova prikaže v zaslonu **[Prijave](Prijave.md)**,
 - njeno stanje se ustrezno posodobi.
-
----
