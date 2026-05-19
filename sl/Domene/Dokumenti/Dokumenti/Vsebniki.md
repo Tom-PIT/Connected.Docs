@@ -47,7 +47,7 @@ Vsak zapis vključuje indikator stanja levo od naziva:
 
 ## Dejanja
 
-### Dodaj nov vsebnik
+### Ustvariti nov vsebnik
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega vsebnika in izpolnite polje **Naziv**.
 
@@ -59,7 +59,7 @@ Kliknite **Dodaj** za ustvarjanje vsebnika.
 
 Ko je ustvarjen, se vsebnik prikaže v seznamu in ga lahko odprete za upravljanje vsebine.
 
-## Upravljanje vsebine vsebnika
+## Upravljati vsebine vsebnika
 
 Kliknite **Odpri** na vsebniku za ogled njegove vsebine.
 
@@ -83,7 +83,7 @@ Na voljo so naslednja dejanja:
 - Dokumente lahko shranjujete v mape ali na korenski ravni
 - Mape niso obvezne, vendar so priporočljive za boljšo organizacijo
 
-### Ustvarjanje mape
+### Ustvariti mape
 
 1. Kliknite **Nova mapa**
 2. Vnesite:
@@ -103,7 +103,7 @@ Naloženi dokument bo dodan na seznam. Za vsak dokument so na voljo naslednja de
 - **Kopiraj** – ustvari kopijo dokumenta v isti mapi.
 - **Prenesi** – prenese dokument na vašo napravo.
 
-### Urejanje dokumentov
+### Urejati dokumente
 
 Po nalaganju dokumenta kliknite na naziv datoteke za urejanje metapodatkov.
 

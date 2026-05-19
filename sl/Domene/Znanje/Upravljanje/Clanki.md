@@ -45,7 +45,7 @@ Klik na članek ga odpre za urejanje.
 
 Kliknite **akcijski gumb**, da ustvarite nov članek.
 
-### Dodaj nov članek
+### Ustvariti nov članek
 
 Pri ustvarjanju ali urejanju članka so na voljo polja, ki so opisana v razdelku [**Shema**](#shema) zgoraj.
 
@@ -82,7 +82,7 @@ Oznake se uporabljajo za kategorizacijo člankov in lažje iskanje vsebine v sis
 
 Oznake se izberejo iz **[Oznake imenika](OznakeImenika.md)** in jih je mogoče ponovno uporabiti v več člankih.
 
-## Objavljanje in veljavnost
+## Objavljati in razporejati članke
 
 Članke je mogoče časovno načrtovati z uporabo:
 
@@ -97,7 +97,7 @@ Ko je možnost **Sodelovanje** omogočena, lahko uporabniki dodajajo komentarje 
 
 To omogoča povratne informacije, pojasnila in razpravo neposredno na dokumentaciji.
 
-## Brisanje
+## Brisati članek
 
 Kliknite **Izbriši** na zaslonu za urejanje članka, da odprete potrditveno pogovorno okno:
 
@@ -107,12 +107,3 @@ Kliknite **Izbriši** na zaslonu za urejanje članka, da odprete potrditveno pog
 
 > [!NOTE]
 > Brisanje članka ga odstrani tudi iz imenikovega kazala.
-
-## Povezano
-
-- **[Baza znanja](../BazaZnanja/BazaZnanja.md)** – brskanje in branje objavljenih člankov  
-- **[Imeniki](Imeniki.md)** – upravljanje imenikov, ki združujejo članke  
-- **[Kazalo](Kazalo.md)** – definiranje navigacije znotraj imenika  
-- **[Oznake imenika](OznakeImenika.md)** – kategorizacija in filtriranje člankov  
-
----

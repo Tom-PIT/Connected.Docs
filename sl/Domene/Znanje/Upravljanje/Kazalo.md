@@ -40,7 +40,7 @@ Vnosi so razvrščeni po **ordinalni vrednosti** in jih je mogoče omogočiti al
 | **Prikaži neuporabljene** | Prikaže članke, ki še niso uporabljeni v kazalu. |
 | **Uskladi naziv** | Sinhronizira naslov z naslovom povezanega članka. |
 
-## Ustvarjanje kazala
+## Ustvariti kazalo
 
 Če imenik še nima nobenega kazala, je zaslon prazen.
 
@@ -51,7 +51,7 @@ Za ustvarjanje novega kazala kliknite **ikono mape**.
 Imenik lahko vsebuje več kazal.
 Za ustvarjanje **novega glavnega kazala** se prepričajte, da v stranskem meniju **ni izbrano nobeno obstoječe kazalo**, nato kliknite **ikono mape**.
 
-## Dodajanje vnosov v kazalo
+## Ustvariti vnos v kazalo
 
 Za dodajanje vnosov najprej izberite ciljno **kazalo** v stranskem meniju, nato kliknite **ikono dokumenta**, da dodate nov vnos.
 
@@ -61,7 +61,7 @@ Pri ustvarjanju vnosa izberite ustrezen **Tip** in izpolnite pripadajoča polja.
 
 Kliknite **Dodaj**, da ustvarite vnos.
 
-## Urejanje vnosov
+## Urejati vnosov
 
 Kliknite obstoječo mapo ali vnos v drevesu, da odprete zaslon za urejanje.
 
@@ -89,7 +89,7 @@ Spremembe kazala se **takoj** odrazijo v izbranem imeniku.
 > Kazalo vpliva **izključno na navigacijo**. Vsebina člankov se ureja ločeno v
 > [Člankih](Clanki.md).
 
-## Brisanje
+## Brisati kazalo ali vnos
 
 Kliknite **Izbriši** na kazalu ali posameznem vnosu, da se odpre potrditveno okno:
 
@@ -104,11 +104,3 @@ Ko je kazalo nastavljeno, se uporablja pri brskanju po imeniku v [**Bazi znanja*
 Znotraj imenika kliknite **ikono menija (hamburger)**, da odprete stranski panel s kazalom, ki omogoča navigacijo med mapami in članki.
 
 ![Kazalo v imeniku baze znanja](../Images/KnowledgeBaseDirectoryTOC.png "Kazalo v imeniku baze znanja")
-
-## Povezano
-
-- **[Baza znanja](../BazaZnanja/BazaZnanja.md)** – pregled in brskanje po vsebini  
-- **[Imeniki](Imeniki.md)** – konfiguracija imenikov  
-- **[Članki](Clanki.md)** – ustvarjanje in urejanje člankov, povezanih s kazalom
-
----

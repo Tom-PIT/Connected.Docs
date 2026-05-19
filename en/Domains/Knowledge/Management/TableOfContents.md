@@ -39,7 +39,7 @@ Entries are ordered using an **ordinal value** and can be enabled or disabled.
 | **Show unused** | Shows articles not yet used in the table of contents when selecting an [article](Articles.md). |
 | **Synchronize title** | Keeps the entry title synchronized with the linked [article](Articles.md) title. |
 
-## Creating a table of contents
+## Create a table of contents
 
 If a directory does not yet have any table of contents, the screen appears empty.
 
@@ -50,7 +50,7 @@ To create a new table of contents, click the **folder icon**.
 A directory can contain multiple tables of contents.  
 To create a new table of contents (root), make sure you are **not focused on an existing table of contents** in the sidebar, then click the **folder icon**.
 
-## Creating table of contents entries
+## Create a table of contents entry
 
 To add entries, first select the target **table of contents** in the sidebar, then click the **file icon** to add a new entry.
 
@@ -60,7 +60,7 @@ When creating an entry, select the desired **Type** and fill in the relevant fie
 
 Click **Add** to create the entry.
 
-## Editing entries
+## Edit entries
 
 Click an existing folder or entry in the tree to open its edit screen.
 
@@ -87,7 +87,7 @@ Changes to the table of contents are reflected immediately in the selected direc
 > [!NOTE]
 > The table of contents controls **navigation only**. Article content is managed separately in **[Articles](Articles.md)**.
 
-## Deletion
+## Delete a table of contents or entry
 
 Click **Delete** on a table of contents or entry to open a confirmation dialog:
 
@@ -102,9 +102,3 @@ Once configured, the table of contents is used when browsing a directory in the 
 Inside a directory, click the **hamburger icon** to open the table of contents panel. This panel allows users to navigate between folders and articles defined in the table of contents.
 
 ![Knowledge Base Directory T O C](../Images/KnowledgeBaseDirectoryTOC.png "Knowledge Base Directory T O C")
-
-## Related
-
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse directories and articles
-- **[Directories](Directories.md)** – configure directories that host tables of contents
-- **[Articles](Articles.md)** – create and manage articles linked in the TOC

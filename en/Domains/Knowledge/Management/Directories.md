@@ -45,11 +45,9 @@ Clicking a directory name opens it for editing.
 
 ## Actions
 
-Click the **action button** to add a new directory.
+### Add a new directory
 
-### Add new directory
-
-Fill in the following fields:
+Click the [**action button**](../../../Common/UI/ActionButton.md) to add a new directory. Fill in the following fields:
 
 - **Name**
 - **Key**
@@ -63,7 +61,7 @@ Click **Add** to save the new directory.
 
 Once created, the directory becomes available in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md) and can be populated with content.
 
-## Managing directory content
+## Manage the directory content
 
 After a directory is created, additional configuration options become available directly from the list:
 
@@ -77,7 +75,7 @@ These options are accessed via the links shown below each directory in the list.
 > [!NOTE]
 > Directories define **structure only**. Articles and table of contents are managed separately.
 
-## Editing a directory
+## Edit a directory
 
 Click a directory name to open its edit screen.
 
@@ -88,7 +86,7 @@ From the edit screen you can:
 
 Click **Save** to confirm changes.
 
-## Deletion
+## Delete a directory
 
 Click **Delete** on the edit screen to open a confirmation dialog:
 
@@ -99,9 +97,3 @@ If confirmed, the directory is permanently removed.
 > [!NOTE]
 > A directory can be deleted only if it does not contain articles or table of contents entries.
 
-## Related
-
-- **[**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)** – browse published content by directory
-- **[Articles](Articles.md)** – author and maintain content
-- **[Table of contents](TableOfContents.md)** – define directory navigation
-- **[Directory tags](DirectoryTags.md)** – categorize articles for filtering

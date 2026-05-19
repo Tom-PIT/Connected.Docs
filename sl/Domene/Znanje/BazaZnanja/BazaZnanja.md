@@ -19,7 +19,7 @@ Zaslon je samo za branje, razen **komentarjev** pri člankih, kjer je komentiran
 
 ![Baza znanja](../Images/KnowledgeBase.png "Baza znanja")
 
-## Iskanje in filtriranje
+## Iskati in filtri
 
 Na vrhu strani je **iskalna vrstica**, ki omogoča iskanje po **Bazi znanja** glede na:
 
@@ -119,12 +119,3 @@ To omogoča sodelovanje, povratne informacije in pojasnila neposredno znotraj do
 > - Baza znanja prikazuje samo **objavljeno** in **omogočeno** vsebino.  
 > - Vidnost člankov je odvisna od stanja imenika in nastavitev objave.  
 > - Komentarji in priloge so odvisni od konfiguracije posameznega članka.
-
-## Povezano
-
-- **[Imeniki](../Upravljanje/Imeniki.md)** – upravljanje vsebinskih vsebnikov in navigacije  
-- **[Članki](../Upravljanje/Clanki.md)** – ustvarjanje in urejanje vsebine  
-- **[Oznake imenika](../Upravljanje/OznakeImenika.md)** – definicija oznak za filtriranje  
-- **[Kazalo](../Upravljanje/Kazalo.md)** – nastavitev navigacije znotraj imenikov  
-
----
