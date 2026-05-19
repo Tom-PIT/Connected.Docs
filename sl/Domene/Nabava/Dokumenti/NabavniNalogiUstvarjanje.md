@@ -6,12 +6,15 @@
 
 # Kako ustvariti novi nabavni nalog
 
-Novi [nabavni nalogi](NabavniNalogi.md) se lahko ustvarijo:
+Nova [nabavna naročila](NabavniNalogi.md) je mogoče ustvariti:
 
-- ročno iz zaslona **Nabavni nalogi** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)
-- iz povezanih dokumentov prek **Povezani dokumenti → + Nabavni nalog**, na primer iz [povpraševanja](Povprasevanja.md)
+- ročno na zaslonu **Nabavni nalogi** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)
+- iz [povpraševanja](Povprasevanja.md) prek **Povezani dokumenti → + Nabavni nalog**
 
-Ko je dokument ustvarjen iz drugega dokumenta, sistem samodejno predizpolni večino podatkov nabavnega naloga, vključno z dobaviteljem, podatki o dostavi in postavkami.
+> [!NOTE]
+> - Ročno ustvarjeni nabavni nalogi vsebujejo prazna polja.
+>
+> - Ko je nabavni nalog ustvarjen iz povpraševanja, sistem samodejno predizpolni večino polj iz izvornega dokumenta, vključno z dobaviteljem, podatki o dostavi in postavkami.
 
 ## Korak 1 — Ustvarjanje dokumenta
 

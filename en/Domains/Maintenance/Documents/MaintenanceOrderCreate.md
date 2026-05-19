@@ -13,10 +13,7 @@ The creation wizard consists of **three steps**, similar to production orders.
 
 ### Step 1 — Select order type and entity
 
-Select:
-
-Select:
-- **Entity** – Equipment to be maintained
+Select as **Entity** the equipment to be maintained
 
 > [!NOTE]
 > When creating a maintenance order manually, the order type is always **Planned**.
@@ -30,7 +27,8 @@ Then choose the specific equipment from the list.
 
 ### Step 2 — Select process
 
-Select the **maintenance [process](../../Production/Management/Processes.md)** and **process version** that defines the maintenance operations.
+- Select the **maintenance [process](../../Production/Management/Processes.md)** 
+- Select the **process version** that defines the maintenance operations.
 
 ![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2.png "Create maintenance order – step 2")
 
@@ -42,11 +40,7 @@ Select the **maintenance [process](../../Production/Management/Processes.md)** a
 
 ### Step 3 — Create schedule
 
-Define how and when the maintenance order should be executed.
-
-#### Schedule type
-
-Two scheduling modes are available:
+Define how and when the maintenance order should be executed. Two scheduling modes are available:
 
 - **Time** — Schedule maintenance for a specific date or recurring interval
 

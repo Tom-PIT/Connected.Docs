@@ -9,9 +9,12 @@
 Nova naročila strank je mogoče ustvariti:
 
 - ročno na zaslonu **Naročila strank** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)
-- iz povezanih prodajnih dokumentov prek **Povezani dokumenti → + Naročilo stranke**
+- iz objavljene [ponudbe](Ponudbe.md) prek **Povezani dokumenti → + Naročilo stranke**
 
-V nekaterih primerih se naročilo stranke ustvari iz [**Ponudbe**](Ponudbe.md). Pri ustvarjanju naročila iz ponudbe sistem samodejno predizpolni večino polj, kot so podatki o stranki, podatki o dostavi in postavke. To poenostavi postopek in zmanjša potrebo po ročnem vnosu podatkov.
+> [!NOTE]
+> - Ročno ustvarjena naročila strank vsebujejo prazna polja.
+>
+> - Ko je naročilo stranke ustvarjeno iz ponudbe, sistem samodejno predizpolni večino polj iz izvornega dokumenta, vključno s podatki o stranki, podatki o dostavi in postavkami.
 
 ## Korak 1 — Ustvarjanje dokumenta
 
