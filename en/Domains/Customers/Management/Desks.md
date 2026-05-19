@@ -45,7 +45,7 @@ Each desk includes:
 
 ## Actions
 
-### Creating a new desk
+### Create a new desk
 Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new desk.
 
 The desk form is divided into multiple sections that define how the desk behaves. When adding or editing, use the fields described in the [**Schema**](#schema).
@@ -76,6 +76,6 @@ Used to manage prepaid or contractually agreed support hours for a desk. Click *
 
 Provides an overview of invoices related to the desk’s activity. Click **Add invoice** to add a date and the amount billed.
 
-### Editing desks
+### Edit a desk
 
 Click on a desk in the list to open it in edit mode. You can modify all fields and settings as needed. Changes are saved automatically.

@@ -62,7 +62,7 @@ Obisk prehaja skozi naslednje statuse:
 - **Zaključen** – obisk je končan.
 - **Odpovedan** – obisk je bil odpovedan in se ni izvedel.
 
-## Ustvarjanje novega obiska
+## Ustvariti nov obisk
 
 Nov obisk se ustvari, ko je načrtovan fizični obisk.
 
@@ -77,7 +77,7 @@ Tipičen potek:
 
 Obisk se prikaže v seznamu kot **Najavljen**.
 
-## Upravljanje obiska
+## Upravljati obiska
 
 ### Prihod obiskovalca
 
@@ -94,7 +94,7 @@ Obisk se prikaže v seznamu kot **Na lokaciji**. Začne se beleženje trajanja o
 > [!NOTE]
 > Vnos **Dejanskega časa prihoda** in izpolnitev razdelka **Podpis**, nato pa shranjevanje dokumenta, samodejno spremeni status v **Na lokaciji**.
 
-#### Potrditev podpisa
+#### Potrditi podpis
 
 Pri odpiranju zapisa v načinu urejanja se prikaže razdelek **Podpis**.
 
@@ -123,7 +123,7 @@ Obisk se premakne med **Zaključene** in prikaže tako čas prihoda kot čas odh
 
 Obisk se prikaže v stanju **Odpovedan** in je ustrezno označen v seznamu.
 
-## Brisanje obiska
+## Brisati obisk
 
 Obiske je mogoče izbrisati, če so bili ustvarjeni pomotoma ali niso več potrebni.
 

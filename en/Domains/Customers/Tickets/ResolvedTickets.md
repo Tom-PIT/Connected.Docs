@@ -48,7 +48,7 @@ Resolved tickets can be filtered using the left panel:
 - **Tags**
 - **Reason resolved**
 
-## Reviewing a resolved ticket
+## Review a resolved ticket
 
 Opening a resolved ticket displays the same detailed view as active tickets, including:
 - Ticket metadata
@@ -58,9 +58,9 @@ Opening a resolved ticket displays the same detailed view as active tickets, inc
 
 Most fields are read-only; you can still update selected options (such as **Subject**, **Description**, **Priority**, etc.), add comments, and use actions via the [**action button**](../../../Common/UI/ActionButton.md).
 
-## Reopening a ticket
+## Reopen a ticket
 
-From the ticket detail view, the [**action button**](../../../Common/UI/ActionButton.md) allows reopening a resolved ticket.
+From the ticket detail view, reopen a resolved ticket via the [**action button**](../../../Common/UI/ActionButton.md).
 
 Available options include:
 - **Save as New**

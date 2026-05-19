@@ -71,7 +71,7 @@ Prijave se premikajo skozi naslednja glavna stanja:
 - **Aktivno** – prijava je v obravnavi
 - **Rešeno** – prijava je zaključena in premaknjena v **[Rešene prijave](ResenePrijave.md)**
 
-## Ustvarjanje nove prijave
+## Ustvariti nove prijave
 
 Za ustvarjanje nove prijave kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 
@@ -97,7 +97,7 @@ Klik na [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) omogoča:
 
 ## Delo s prijavami
 
-### Odpiranje prijave
+### Odpirati prijave
 
 Klik na naslov prijave odpre celoten pogled prijave.
 
@@ -147,7 +147,7 @@ Razpoložljive možnosti vključujejo:
 > [!NOTE]
 Nastavitve obvestil na ravni področja upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
 
-## Reševanje prijav
+## Reševati prijave
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da odprete meni in izberete možnost rešitve:
 

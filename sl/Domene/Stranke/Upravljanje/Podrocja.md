@@ -44,7 +44,7 @@ Vsako področje vključuje:
 
 ## Dejanja
 
-### Ustvarjanje novega področja
+### Ustvariti novo področje
 
 Za ustvarjanje novega področja kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
 
@@ -87,6 +87,6 @@ Sklop **Računi** omogoča pregled računov, povezanih z aktivnostmi področja. 
 - **Datum**
 - **Količina**
 
-### Urejanje področij
+### Urejati področje
 
 Klik na področje v seznamu ga odpre v načinu urejanja. Vsa polja in nastavitve je mogoče spreminjati, spremembe pa se shranijo samodejno.

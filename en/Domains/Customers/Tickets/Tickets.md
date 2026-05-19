@@ -68,7 +68,7 @@ Tickets move through the following main statuses:
 - **Active** – ticket is being worked on
 - **Resolved** – ticket is completed and moved to [**Resolved tickets**](ResolvedTickets.md)
 
-## Creating a new ticket
+## Create a new ticket
 
 To create a new ticket, click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 
@@ -93,9 +93,9 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to:
 
 ## Working with tickets
 
-### Opening a ticket
+### Open a ticket
 
-Clicking on a ticket title opens the full ticket view.
+Click on a ticket title to open the full ticket view.
 
 ![Ticket detail](../Images/TicketActiveView.png)
 
@@ -139,7 +139,7 @@ Available options include:
 > [!NOTE]
  Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
 
-## Resolving tickets
+## Resolve a ticket
 
 Click on the [**action button**](../../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
 
