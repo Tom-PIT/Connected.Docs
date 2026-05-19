@@ -8,17 +8,21 @@
 
 New sales orders can be created:
 
-- manually from the **Sales orders** screen using the [**action button**](../../../Common/UI/ActionButton.md) 
-- from related sales documents using **Linked documents → + Sales order**
+- manually from the **Sales orders** screen using the [**action button**](../../../Common/UI/ActionButton.md)
+- from a published [offer](Offers.md) using **Linked documents → + Sales order**
 
-In some cases, a sales order is created from an [**Offer**](Offers.md). When you create a sales order from an offer, most fields are automatically pre-filled based on the offer details, such as customer information, delivery details, and line items. This streamlines the process and reduces manual data entry.
+> [!NOTE]
+> - Sales orders created manually start with empty fields.
+>
+> - When a sales order is created from an offer, most fields are automatically pre-filled from the source document, including customer information, delivery details, and detail items.
+
 
 ## Step 1 — Create the document
 
 Create a new draft sales order using one of the following methods:
 
 - Directly from the **Sales orders** screen using the [**action button**](../../../Common/UI/ActionButton.md)
-- From a published [**Offer**](Offers.md), via **Linked documents → + Sales order**. In this case, most fields — such as the customer, delivery information, and detail items — are automatically pre-filled based on the offer.
+- From a published [offer](Offers.md), via **Linked documents → + Sales order**. In this case, most fields — such as the customer, delivery information, and detail items — are automatically pre-filled based on the offer.
 
   ![Create sales order from offer](../Images/SalesOrdersOfferLink.png "Create sales order from offer")
 

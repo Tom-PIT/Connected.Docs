@@ -28,8 +28,8 @@ Nato iz seznama izberite konkretno opremo.
 
 ### Korak 2 — Izberi proces
 
-Izberite **vzdrževalni [proces](../../Proizvodnja/Upravljanje/Procesi.md)** in
-**verzijo procesa**, ki določa vzdrževalne operacije.
+- Izberite **vzdrževalni [proces](../../Proizvodnja/Upravljanje/Procesi.md)**
+- Izberite **verzijo procesa**, ki določa vzdrževalne operacije.
 
 ![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2.png "Ustvari vzdrževalni nalog – korak 2")
 
@@ -41,11 +41,7 @@ Izberite **vzdrževalni [proces](../../Proizvodnja/Upravljanje/Procesi.md)** in
 
 ### Korak 3 — Ustvari urnik
 
-Določite, kako in kdaj se bo vzdrževalni nalog izvajal.
-
-#### Tip urnika
-
-Na voljo sta dva načina razporejanja:
+Določite, kako in kdaj se bo vzdrževalni nalog izvajal. Na voljo sta dva načina razporejanja:
 
 - **Čas** — Razporeditev vzdrževanja za določen datum ali ponavljajoči interval
 

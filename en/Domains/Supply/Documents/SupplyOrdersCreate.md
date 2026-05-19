@@ -8,10 +8,13 @@
 
 New [supply orders](SupplyOrders.md) can be created:
 
-- manually from the **Supply orders** screen  using the [**action button**](../../../Common/UI/ActionButton.md)
-- from related documents using **Linked documents → + Supply order**, for example from an [inquiry](Inquiries.md)
+- manually from the **Supply orders** screen using the [**action button**](../../../Common/UI/ActionButton.md)
+- from an [inquiry](Inquiries.md) using **Linked documents → + Supply order**
 
-When created from another document, the system automatically pre-fills most supply order data, including the vendor, delivery information, and detail lines.
+> [!NOTE]
+> - Supply orders created manually start with empty fields.
+>
+> - When a supply order is created from an inquiry, the system automatically pre-fills most fields from the source document, including the vendor, delivery information, and detail lines.
 
 ## Step 1 — Create the document
 
