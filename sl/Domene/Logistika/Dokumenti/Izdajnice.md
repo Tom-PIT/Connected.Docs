@@ -67,11 +67,9 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo izdajniško dokumentacijo.
+### Ustvariti izdajnice
 
-### Ustvarjanje izdajnice
-
-1. Kliknite **akcijski gumb** za ustvarjanje osnutka dokumenta, nato izberite **Skladišče** in **Kupca**.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje osnutka dokumenta, nato izberite **Skladišče** in **Kupca**.
 
    ![Nova izdajna](../Images/IssueNew.png "Nova izdajna")
 
@@ -88,15 +86,13 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite n
 
 Novo ustvarjena izdajna se prikaže v pogledu **Osnutki**. Po objavi se premakne med **Objavljene** dokumente.
 
-## Priponke
+#### Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
 
-![Priponke](../Images/Attachments.png "Priponke")
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
-Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga spremljajoča dokumentacija. Priponke so trajno shranjene skupaj z dokumentom.
-
-## Postavke
+#### Postavke
 
 Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komentarje ali informacije, povezane s transakcijo. Postavke se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
@@ -117,9 +113,9 @@ V izdajnem dokumentu **meni (ikona hamburger)** v zgornjem desnem kotu ponuja ra
 - Izvoz (PDF)  
 - [**Ustvari storno**](Storno.md)
 
-## Pregled izdajnice
+### Urediti izdajnice
 
-Ko kliknete izdajni dokument:
+Ko kliknete šifro dokumenta v seznamu izdajnih dokumentov:
 
 - vidite razdelek **Dokument** (glava dokumenta)  
 - vidite vse **Postavke** izdanega blaga  
@@ -129,7 +125,7 @@ Ko kliknete izdajni dokument:
 
 ![Pregled izdajnice](../Images/IssueReviewing.png "Pregled izdajnice")
 
-## Brisanje
+## Brisati izdajnice
 
 Osnutke je mogoče izbrisati le, če **ne vsebujejo nobenih postavk**.
 

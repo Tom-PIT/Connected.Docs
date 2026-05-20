@@ -62,11 +62,9 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega dokumenta posoje.
-
 ### Ustvarjanje nove posoje
 
-1. Kliknite **akcijski gumb** in ustvarite nov osnutek posoje.  
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov osnutek posoje.  
    Izberite **Skladišče** in **Stik**.
 
    ![Nova posoja](../Images/LoansNew.png "Nova posoja")
@@ -80,38 +78,31 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje 
 
    ![Več ujemanj](../Images/LoansNewDetailsSearch.png "Več ujemanj")
 
-3. Izberite pravilno postavko.  
-   Sistem samodejno izpolni znane podatke (material, serijska številka, lokacija).
+3. Izberite pravilno postavko. Sistem samodejno izpolni znane podatke (material, serijska številka, lokacija).
 
-4. Vnesite **količino**, ki jo želite posoditi.  
-   Količino je potrebno urediti v obrazcu postavke:
+4. Vnesite **količino**, ki jo želite posoditi. Količino je potrebno urediti v obrazcu postavke:
 
    ![Podrobnosti posoje](../Images/LoansNewDetails.png "Podrobnosti posoje")
 
-5. Kliknite **Shrani**, da dodate postavko.  
-   Po potrebi postopek ponovite za dodatne postavke.
+5. Kliknite **Shrani**, da dodate postavko. Po potrebi postopek ponovite za dodatne postavke.
 
-6. Kliknite **Objavi**, da dokument potrdite.  
-   Objavljen dokument se prikaže v pogledu *Potrjeni*.
+6. Kliknite **Objavi**, da dokument potrdite. Objavljen dokument se prikaže v pogledu *Potrjeni*.
 
 Po objavi dokumenta postanejo vsi posojeni materiali **rezervirani** in niso več na voljo za druge procese.
 
-## Vračilo posoje (storno)
+### Vračilo posoje (storno)
 
 Ko so posojeni materiali vrnjeni, ustvarite **storno** iz menija dokumenta.
 
-V zgornjem desnem kotu odprite **meni (ikona hamburger)** in izberite:
+V zgornjem desnem kotu odprite **meni (ikona hamburger)** in izberite **Ustvari novo storno**.
 
 ![Meni posoje](../Images/LoansMenu.png "Meni posoje")
 
-- **Ustvari novo storno**
+S tem se ustvari dokument, ki materiale vrne nazaj na zalogo. Za več podrobnosti glejte **[Storno](Storno.md)**.
 
-S tem se ustvari dokument, ki materiale vrne nazaj na zalogo.  
-Za več podrobnosti glejte **[Storno](Storno.md)**.
+### Urediti dokument posoje
 
-## Pregled dokumenta posoje
-
-Ko odprete dokument posoje:
+Klik na šifro dokumenta odpri zaslon za urejanje:
 
 - razdelek **Dokument** prikazuje glavo dokumenta  
 - razdelek **Postavke** prikazuje vse posojene materiale  
@@ -119,7 +110,7 @@ Ko odprete dokument posoje:
 - objavljeni dokumenti so samo za branje (razen ustvarjanja storna)  
 - tiskanje in izvoz sta na voljo v meniju
 
-## Brisanje
+### Brisati posoje
 
 Osnutke dokumentov posoje je mogoče izbrisati **le, če ne vsebujejo nobenih postavk**.
 

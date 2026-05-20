@@ -25,13 +25,13 @@ Za dostop do **Analize materialov** pojdite na **Logistika / Dokumenti / Analiza
 | **Izvor** | Serijska številka prevzetega materiala. |
 | **Status analize** | Stanje analize: **Ni nastavljeno**, **Uspešno**, ali **Neuspešno**. |
 
-## Seznam dokumentov
+## Seznam analiz materialov
 
 Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu materialov, za katere je zahtevana analiza. Uporabite iskalnik ali filtre za iskanje po stanju.
 
 ![Seznam analiz materialov](../Images/MaterialAnalysisListV2.png)
 
-## Pregled in potrjevanje analize
+## Pregled analize materialov
 
 1. Kliknite dokument v pogledu **Osnutki**, da ga odprete.
    
@@ -53,6 +53,6 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
 
 4. Ko so vsa zahtevana preverjanja zaključena, kliknite **Objavi**, da dokončate dokument analize materialov. Dokument se premakne v pogled **Potrjeni**.
 
-## Brisanje
+## Brisati analize materialov
 
 Dokumentov analize materialov **ni mogoče izbrisati**.

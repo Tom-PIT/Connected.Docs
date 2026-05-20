@@ -51,6 +51,8 @@ Stran **Vsebniki** prikazuje vse dokumente vsebnikov. Na voljo so filtri:
 
 ## Dejanja
 
+### Ustvariti vsebnik
+
 Vsebniki se ustvarjajo ročno na tej strani.
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega dokumenta vsebnika.
@@ -119,7 +121,7 @@ V **meniju dokumenta** so na voljo naslednje možnosti:
 
 ![Meni vsebnika](../Images/ContainersMenu.png "Meni vsebnika")
 
-## Brisanje
+## Brisati vsebnike
 
-- Osnutke vsebnikov je mogoče prosto izbrisati
+- Osnutke vsebnikov je mogoče prosto izbrisati v urejanju. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Zapakiranih vsebnikov **ni mogoče izbrisati**; za sprostitev vsebine uporabite **Razpusti**

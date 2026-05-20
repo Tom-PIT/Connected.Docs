@@ -63,11 +63,9 @@ You can open any document to review its details.
 
 ## Actions
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new writeoff document.
+### Create a writeoff document
 
-### Creating a writeoff document
-
-1. Click **Add new** to create a draft.
+1. Click [**action button**](../../../Common/UI/ActionButton.md) to create a new writeoff document.
 
    ![WriteoffsNew](../Images/WriteoffsNew.png)
 
@@ -91,13 +89,13 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to create a ne
 
 Published writeoffs immediately update stock levels.
 
-## Menu
+#### Menu
 
 Inside a **committed** writeoff document, the menu (hamburger icon) has the option to [**Create a new reversal**](Reversals.md).
 
 The menu is **not available** for draft writeoff documents.
 
-## Deletion
+### Delete a writeoff document
 
 Draft writeoff documents can be deleted on the edit screen, but only if they contain **no material entries**.
 
@@ -111,7 +109,5 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]
 > Committed documents **cannot** be deleted — only [reversed](Reversals.md).
-
----
 
 

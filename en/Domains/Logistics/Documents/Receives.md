@@ -81,7 +81,6 @@ This section becomes available when Intrastat reporting is enabled and the vendo
 
 </details>
 
-
 ## List of receive documents
 
 The Receives page displays all receive documents. You can search for a specific document using the search bar, or filter the list using the left sidebar, which includes:
@@ -104,28 +103,29 @@ You can click any document to open and review its details.
 
 ## Actions
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new receive document.
-
-### Creating a receive document
+### Create a receive document
 
 To create a new receive document:
 
-1. Click the **action button**, then select the **Vendor**.
-
+1. Click the [**action button**](../../../Common/UI/ActionButton.md), then select the **Vendor**.
 
 	![Receive document](../Images/ReceiveDocument.png "Receive document")
-2. Scan or manually enter the **EAN code of the packaging**.
-   - The system displays **all matching materials and serial numbers**.  
+
+2. Scan or manually enter the **EAN code of the packaging**. The system displays **all matching materials and serial numbers**.
+
 3. The system automatically retrieves the packaging information and fills all relevant fields in the **Details** section.
 
 	![Receive document details](../Images/ReceiveDocumentDetails.png "Receive document details")
-4. Adjust quantities, storage locations, or other values if needed.  
-5. Click **Save** to save the details. Add more items starting from step 2 if needed.  
+
+4. Adjust quantities, storage locations, or other values if needed.
+
+5. Click **Save** to save the details. Add more items starting from step 2 if needed.
+
 6. Click **Publish** to commit the document. 
 
 A newly created receive document appears in the **Drafts** view. Once published, it moves to **Committed**.
 
-## Transport and Intrastat sections
+#### Transport and Intrastat sections
 
 When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
 
@@ -138,7 +138,7 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 > [!NOTE]  
 Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
-### Intrastat fields in Details
+#### Intrastat fields in Details
 
 When **Intrastat** is enabled and the selected **Vendor** is from another EU country, additional fields appear inside each **Detail line**.
 
@@ -146,16 +146,13 @@ When **Intrastat** is enabled and the selected **Vendor** is from another EU cou
 
 These fields are used for Intrastat statistical reporting and are required for cross-border EU transactions.
 
+#### Attachments
 
-## Attachments
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
 
-At the top of every document, an **Attachments** section is available. 
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
-![Attachments section](../Images/Attachments.png "Attachments section")
-
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
-
-## Document connections
+#### Document connections
 
 Committed receive documents include an additional **Document connections** section. This section lists any documents that can be created based on the received materials.
 
@@ -165,41 +162,43 @@ For receive documents, a **Disassemble** option may appear. This allows you to c
 
 For more details, see the [Disassemblies](Disassemblies.md) documentation.
 
-## Notes
+#### Notes
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
-## Menu
+#### Menu
 
 Inside a receive document, the **menu (hamburger icon)** in the top-right corner provides different options depending on the document status.
 
 ![Menu options](../Images/ReceiveMenu.png "Menu options")
 
-### Draft receive document
+##### Draft receive document
 
 - Print  
 - Export (PDF)  
 - Delete all details 
 
-### Published receive document
+##### Published receive document
 
 - Print  
 - Export (PDF)  
 - [**Create a new reversal**](Reversals.md).
 
-## Reviewing a receive document
+### Edit a receive document
 
-When you click a document from the list:
+Click a document code from the list to open the edit screen. You can:
 
-- You see its **Document** section (header information)
-- You see all **Details** representing the received items
-- You can edit draft documents
-- You can print or export draft or committed documents
-- Committed documents are read-only, except for reversal creation
+- Review its **Document** section (header information)
+- Review all **Details** representing the received items
+- Edit draft documents
+- Print or export the document
+
+> [!NOTE]
+> Committed documents are read-only, except for reversal creation
 
 ![Receive reviewing](../Images/ReceiveReviewing.png "Receive reviewing")
 
-## Deletion
+### Delete a receive document
 
 Draft documents can be deleted on the edit screen, but only if they contain **no material entries**. If the draft still includes materials in the **Details** section, you can use the option **Delete all details** in the **Menu**.
 

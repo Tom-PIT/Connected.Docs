@@ -54,32 +54,28 @@ Workflow notes:
 - When a production worker starts recording outputs, a **Draft** production document is created automatically.
 - When the [**Execution**](../../Production/Documents/Execution.md) process is completed, the document moves to **Committed** and can be reviewed in the committed list.
 
-## Reviewing a production document
+### Review a production document
 
-A production document contains:
+Click a production document code in the list to review its details. A production document contains:
 
-### Linked documents
+#### Linked documents
 If the output was recorded for a production order, the **Linked documents** section shows a link to the related [**Production order**](../../Production/Documents/ProductionOrders.md).
 
 ![Productions linked documents](../Images/ProductionsLinkedDocuments.png "Productions linked documents")
 
-### Document and Details
+#### Document and Details
 The **Details** section lists all produced items with their recorded quantities.
 
 ![Committed production document](../Images/ProductionsCommittedDocument.png "Committed production document")
 
-## Menu
+#### Menu
 
-Committed production documents can be corrected through reversals. Open the document menu and select:
-
-- **Create a new reversal**
+Committed production documents can be corrected through reversals. Open the document menu and select **Create a new reversal**.
 
 This creates a reversal document that negates the stock and financial effect of the production posting (depending on system configuration). See **[Reversals](Reversals.md)** for more details.
 
 ![Productions menu](../Images/ConsumptionsMenu.png "Productions menu")
 
-## Deletion
+## Delete a production document
 
 Production documents cannot be deleted from the system to ensure traceability of produced items, but they can be reversed as described above.
-
----

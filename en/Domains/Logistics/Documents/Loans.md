@@ -62,12 +62,9 @@ Click any loan to open and review its details.
 
 ## Actions
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new loan document.
-
 ### Creating a new loan
 
-1. Click the **action button** and start a new loan draft.  
-   Select the **Warehouse** and **Contact**.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) and start a new loan draft. Select the **Warehouse** and **Contact**.
 
    ![New loan](../Images/LoansNew.png "Add new loan")
 
@@ -96,22 +93,19 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to create a ne
 
 Once published, items in the loan become **reserved** and unavailable for other processes.
 
-## Returning a loan (reversal)
+## Return a loan (reversal)
 
 When the customer returns the loaned items, create a **reversal** from the document menu.
 
-At the top-right, open the **menu (hamburger icon)** and select:
+At the top-right, open the **menu (hamburger icon)** and select **Create a new reversal**.
 
 ![Loan menu](../Images/LoansMenu.png "Loan menu")
 
-- **Create a new reversal**
+This opens a reversal document that returns the items back to stock. For more details see **[Reversals](Reversals.md)**.
 
-This opens a reversal document that returns the items back to stock.  
-For details see **[Reversals](Reversals.md)**.
+## Edit a loan document
 
-## Reviewing a loan document
-
-When you open a loan document:
+Click on the document code in the main list to open it. When you open a loan document:
 
 - The **Document** section displays header information  
 - The **Details** list shows all loaned items  
@@ -119,7 +113,7 @@ When you open a loan document:
 - Committed documents are read-only except for reversal creation  
 - Printing and exporting are available from the menu
 
-## Deletion
+## Delete a loan document
 
 Draft loan documents can be deleted **only if no material lines remain**.
 

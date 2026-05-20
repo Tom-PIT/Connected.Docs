@@ -46,13 +46,15 @@ Each detail describes the material and the correction to apply.
 
 </details>
 
-## List view
+## List of correction documents
 
 The list shows existing Correction documents, with filters for date, warehouse, and status (Draft/Published). Use search to find by code or material.
 
 ![Corrections List](../Images/CorrectionsList.png)
 
-## Creating a correction document
+## Actions
+
+### Create a correction document
 
 Create a Correction when the counted stock differs from system stock.
 
@@ -78,15 +80,14 @@ Publishing the correction updates inventory to reflect the new quantities and at
 > [!IMPORTANT]
 > On publish, inventory is adjusted: quantities increase/decrease to match the correction, and serial/location attributes are updated accordingly.
 
-## Editing
+## Edit a correction document
 
 1. Click the document **Code** to open it.
 2. In **Draft** status, modify header and details as needed.
 3. Use **Save** to confirm changes.
 
-## Deletion
+## Delete a correction document
 
-- Draft corrections can be deleted from the edit screen.
+- Draft correction documents can be deleted freely from the edit screen, using the **Delete** button. After confirmation, the document is removed from the system without affecting inventory.
 - Published corrections cannot be deleted.
----
 

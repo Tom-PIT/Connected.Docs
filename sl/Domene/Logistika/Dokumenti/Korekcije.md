@@ -50,7 +50,9 @@ Seznam prikazuje obstoječe dokumente **Korekcij** z možnostjo filtriranja po d
 
 ![Seznam korekcij](../Images/CorrectionsList.png)
 
-## Ustvarjanje dokumenta korekcije
+## Dejanja
+
+### Ustvariti dokument korekcije
 
 Korekcijo ustvarite, kadar prešteto stanje odstopa od sistemskega.
 
@@ -74,13 +76,13 @@ Ob objavi se zaloga posodobi, dokument pa se premakne v pogled **Potrjeni**.
 > [!IMPORTANT]
 > Ob objavi se zaloga prilagodi: količine se povečajo ali zmanjšajo glede na korekcijo, atributi serij in lokacij pa se posodobijo skladno z vnosom.
 
-## Urejanje
+## Urediti dokument korekcije
 
 1. Kliknite **Kodo** dokumenta, da ga odprete.
 2. V stanju **Osnutek** lahko urejate glavo in podrobnosti.
 3. Kliknite **Shrani**, da potrdite spremembe.
 
-## Brisanje
+## Brisati dokument korekcije
 
-- Osnutke korekcij je mogoče izbrisati na zaslonu za urejanje.
+- Osnutke korekcij je mogoče izbrisati na zaslonu za urejanje. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Objavljenih korekcij **ni mogoče izbrisati**.

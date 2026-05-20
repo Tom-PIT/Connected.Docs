@@ -49,15 +49,15 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 </details>
 
-## Upravljanje
-
-## Seznam in filtri
+## Seznam demontaž
 
 Seznam **Demontaž** prikazuje obstoječe dokumente z indikatorji stanja (*Osnutek / Objavljeno*). Iskalnik in filtri omogočajo iskanje po skladišču, datumu ali kodi dokumenta.
 
 ![Seznam demontaž](../Images/DisassembliesList.png "Seznam demontaž")
 
-## Ustvarjanje dokumenta demontaže
+## Dejanja
+
+### Ustvariti dokument demontaže
 
 Demontažo ustvarite za razstavljanje garnitur na posamezne dele.
 
@@ -96,17 +96,17 @@ Demontažo ustvarite za razstavljanje garnitur na posamezne dele.
 
 S tem se ustvari osnutek demontaže, predizpolnjen na podlagi prejetih paketov, kar je uporabno za beleženje demontaž že ob samem prevzemu.
 
-## Urejanje
+### Urediti dokument demontaže
 
 1. Kliknite **Šifro** dokumenta, da ga odprete.
 2. V stanju *Osnutek* lahko urejate glavo dokumenta in postavke.
 3. Kliknite **Shrani**, da potrdite spremembe.
 
-## Meni
+### Meni
 
 V zgornjem desnem kotu kliknite **meni (ikona hamburger)** za tiskanje **nalepk serijskih številk**, če je tiskalnik konfiguriran.
 
-## Brisanje
+### Brisati dokument demontaže
 
-- Osnutke demontaž lahko izbrišete s klikom na **Izbriši** v urejanju.
+- Osnutke demontaž lahko izbrišete s klikom na **Izbriši** v urejanju. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Objavljenih dokumentov demontaže praviloma **ni mogoče izbrisati**.

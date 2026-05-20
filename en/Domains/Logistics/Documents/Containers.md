@@ -51,6 +51,8 @@ The Containers page shows all container documents. Use filters such as:
 
 ## Actions
 
+### Create a container
+
 Containers are created manually from this page.
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new container document.
@@ -79,14 +81,14 @@ The packaged container is now ready, and the status changes to **Packaged**. You
 
 ### Using containers
 
-- Picking/issuing: scan the container code during **[Issues](Issues.md)** to:
+- **Picking/issuing**: scan the container code during **[Issues](Issues.md)** to:
     - add all content at once
     - select and use a **partial quantity**
-- Receiving/put‑away: scan on **[Receives](Receives.md)** to place the full set into stock
-- Moves: use **[Inter warehouse](InterWarehouse.md)** or **[Move serial](MoveSerial.md)** and scan the container to move all items together
-- Stock checks: use **[Stock](../Views/Stock.md)** / **[Stock view by location](../Views/StockViewByLocation.md)** to verify container presence and position
+- **Receiving/put‑away**: scan on **[Receives](Receives.md)** to place the full set into stock
+- **Moves**: use **[Inter warehouse](InterWarehouse.md)** or **[Move serial](MoveSerial.md)** and scan the container to move all items together
+- **Stock checks**: use **[Stock](../Views/Stock.md)** / **[Stock view by location](../Views/StockViewByLocation.md)** to verify container presence and position
 
-## Reviewing a container
+## Review a container
 
 - Header shows container code, warehouse, date, and location
 - Details list packed items, serials, storage location, and quantities
@@ -119,6 +121,7 @@ Use the document menu for actions:
 
 ![Containers menu](../Images/ContainersMenu.png "Containers menu")
 
-## Deletion
-- Draft containers can be deleted freely
+## Delete a container
+
+- Draft container documents can be deleted freely from the edit screen, using the **Delete** button. After confirmation, the document is removed from the system without affecting inventory.
 - Packaged containers cannot be deleted; use **Dissolve** to release contents.

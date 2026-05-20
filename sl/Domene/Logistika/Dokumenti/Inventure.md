@@ -66,9 +66,9 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega inventurnega dokumenta.
+### Ustvariti inventurnega dokumenta
 
-### Ustvarjanje inventurnega dokumenta
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega inventurnega dokumenta.
 
 1. Kliknite **Novo**, da ustvarite novo inventuro.
 
@@ -95,11 +95,15 @@ Novo ustvarjen inventurni dokument se prikaže med **Osnutki**. Po objavi se pre
 > [!NOTE]
 > Vrednosti v razdelkih **Manjka** in **Presežek** prikazujejo število **različnih materialov** z odstopanji, ne pa števila manjkajočih ali presežnih kosov.
 
-## Postavke
+## Urediti inventurnega dokumenta
+
+V seznamu kliknite na **Šifro** dokumenta, da ga odprete. V statusu **Osnutek** lahko po potrebi urejate glavne podatke in podrobnosti. Uporabite lahko tudi možnosti menija za tiskanje ali izvoz dokumenta v PDF obliki.
+
+#### Postavke
 
 V razdelku **Postavke** lahko zabeležite dodatne komentarje ali ugotovitve, povezane z inventurnim postopkom.
 
-## Meni
+#### Meni
 
 Znotraj inventurnega dokumenta **meni (ikona hamburger)** ponuja naslednje možnosti:
 
@@ -110,7 +114,7 @@ Možnosti so na voljo tako za *osnutke* kot za *objavljene* dokumente.
 
 ![Meni inventure](../Images/InterWarehouseMenuOptions.png)
 
-## Brisanje
+## Brisati inventurni dokument
 
-S klikom na **Izbriši** lahko odstranite **osnutek** inventurnega dokumenta.  
-Objavljenih inventurnih dokumentov **ni mogoče izbrisati ali razveljaviti**.
+- V zaslonu za upravljanje inventurnimi dokumenti kliknite na **Izbriši**, da odstranite **osnutek** inventurnega dokumenta. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
+- Objavljenih inventurnih dokumentov **ni mogoče izbrisati ali razveljaviti**.
