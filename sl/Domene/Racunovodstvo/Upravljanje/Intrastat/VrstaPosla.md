@@ -48,7 +48,7 @@ Za dodajanje nove vrste posla:
 
 ![Dodaj vrsto posla](../../Images/NatureOfTransactionNewSL.png)
 
-### Urejati vrsto posla
+### Urediti vrsto posla
 
 Kliknite šifro v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobite **Šifro** ali **Opis**.
 

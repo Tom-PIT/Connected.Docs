@@ -47,7 +47,7 @@ Kliknite **Dodaj**, da shranite oznako.
 
 Oznaka je takoj na voljo za uporabo v [člankih](Clanki.md).
 
-## Urejati obstoječe oznake
+## Urediti obstoječe oznake
 
 Kliknite oznako v seznamu, da odprete zaslon za urejanje.
 

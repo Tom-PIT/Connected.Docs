@@ -101,7 +101,7 @@ Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
 
    ![Plačilni nalog – osnutek](../Images/PaymentOrderNew.png "Plačilni nalog – osnutek")
 
-### Urejati plačilnega naloga
+### Urediti plačilnega naloga
 
 Plačilni nalog lahko urejate, dokler je v stanju **Osnutek**.
 

@@ -61,7 +61,7 @@ Sistem ustvari nov dokument v stanju osnutka za izbrano skladišče.
 
 ![Dokument začetnega stanja (osnutek)](../../Images/StockInitialStatesDocumentDraft.png "Dokument začetnega stanja (osnutek)")
 
-### Urejati začetno stanje
+### Urediti začetno stanje
 
 Kliknite dokument v seznamu osnutkov za odprtje v urejanju. Vnesite ali posodobite **Dejanski znesek (na enoto)** pri postavkah in preverite podatke v glavi dokumenta.
 

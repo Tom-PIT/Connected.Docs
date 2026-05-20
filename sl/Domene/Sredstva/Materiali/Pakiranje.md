@@ -72,7 +72,7 @@ Obrazec vključuje naslednja polja:
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev brez sprememb.
 
-## Urejati obstoječe pakiranje
+## Urediti obstoječe pakiranje
 
 Za urejanje obstoječega zapisa pakiranja kliknite vrednost **EAN** na seznamu.
 

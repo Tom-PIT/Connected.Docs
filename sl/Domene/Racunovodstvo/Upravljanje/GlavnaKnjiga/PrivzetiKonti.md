@@ -62,7 +62,7 @@ Za ustvarjanje novega privzetega konta:
 
 ![Privzeti konti – novo](../../Images/AccountDefaultsNew.png "Privzeti konti – novo")
 
-### Urejati privzeti konto
+### Urediti privzeti konto
 
 Kliknite vnos v seznamu, da ga odprete v načinu urejanja. Po potrebi spremenite polja.
 

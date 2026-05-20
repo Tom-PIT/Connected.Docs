@@ -81,7 +81,7 @@ Uvozna datoteka mora vsebovati spodaj navedene stolpce. Vsaka vrstica predstavlj
 Izdelki,C0000001,Acme izdelek 1,Kg,ACME,Acme izdelek 1,C000EAN1,0,https://google.com;https://google.com,0,DDV,22,EXT01
 ```
 
-## Urejati datoteke
+## Urediti datoteke
 
 Preglednico lahko pripravite ali uredite v pregledničnem urejevalniku:
 

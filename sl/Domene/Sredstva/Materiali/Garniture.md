@@ -48,7 +48,7 @@ Izberite nadrejeni material, da si v glavnem seznamu ogledate njegove komponente
 
    ![Seznam garnitur](../Images/SetsList.png "Seznam garnitur")
 
-### Urejati garniture
+### Urediti garniture
 
 Kliknite komponento v seznamu garniture, da spremenite njeno količino ali jo zamenjate z drugim materialom.
 

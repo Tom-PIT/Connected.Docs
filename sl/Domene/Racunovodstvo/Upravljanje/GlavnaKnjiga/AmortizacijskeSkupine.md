@@ -70,7 +70,7 @@ Za ustvarjanje nove amortizacijske skupine:
 
 ![Nova amortizacijska skupina](../../Images/DepreciationGroupsNew.png "Nova amortizacijska skupina")
 
-### Urejati amortizacijske skupine
+### Urediti amortizacijske skupine
 
 Kliknite amortizacijsko skupino v seznamu, da jo odprete v načinu urejanja. Po potrebi spremenite polja.
 

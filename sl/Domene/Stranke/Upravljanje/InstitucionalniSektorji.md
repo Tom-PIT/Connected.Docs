@@ -48,7 +48,7 @@ Naslednja dejanja so na voljo prek [**akcijskega gumba**](../../../Skupno/UI/Akc
 
 ![Dodaj institucionalni sektor](../Images/InstitutionalSectorsNew.png)
 
-### Urejati institucionalni sektor
+### Urediti institucionalni sektor
 
 - Kliknite obstoječi sektor v seznamu.
 - Po potrebi posodobite **Šifro** ali **Naziv**.

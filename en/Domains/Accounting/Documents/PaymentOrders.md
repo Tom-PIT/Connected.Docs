@@ -124,6 +124,7 @@ Payment orders can be exported to **XML** from the document menu in the top-righ
 - Choose **Export to XML**
 
 ## Delete a payment order
+
 Payment orders can be deleted while in **Draft** status.
 
 Once published, deletion may be restricted to preserve accounting integrity.

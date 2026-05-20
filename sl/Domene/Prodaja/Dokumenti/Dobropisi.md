@@ -179,7 +179,7 @@ Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana 
 
 ### Urejanje dobropisa
 
-Urejati je mogoče samo dobropise v stanju **Osnutek**.
+Urediti je mogoče samo dobropise v stanju **Osnutek**.
 
 Uredite lahko:
 - Dokument

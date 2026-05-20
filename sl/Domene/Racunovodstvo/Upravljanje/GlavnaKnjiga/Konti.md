@@ -102,7 +102,7 @@ Dejanje **Uvoz** omogoča množično ustvarjanje kontov z nalaganjem CSV datotek
 
 CSV datoteka mora slediti pričakovani strukturi stolpcev za konte, vključno s številkami kontov, imeni in konfiguracijskimi polji.
 
-### Urejati konta
+### Urediti konta
 
 Kliknite na konto v seznamu, da ga odprete v načinu urejanja. Njegove lastnosti lahko spreminjate, dokler to ni omejeno zaradi obstoječih knjižb ali odvisnosti.
 
