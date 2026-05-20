@@ -80,29 +80,14 @@ Color indicators:
 
 ## Actions
 
-Reversal documents **cannot** be created manually from the Reversals page. They are created only from the source document through:
+### Create a reversal
 
-**Menu → Create a new reversal**
+Reversal documents **cannot** be created manually from the **Reversals** page. They are created only from the source document through these steps:
 
-Once created:
-
-- If saved but not published → it appears in **Drafts**
-- If published → it appears in **Committed**
-
-Tags displayed on the original document:
-
-- **Reversal in progress** — when a reversal draft exists  
-- **Partially reversed** — only part of the quantity was reversed  
-- **Fully reversed** — the document has been completely reversed  
-
-![ReversalsDocumentTag](../Images/ReversalsDocumentTag.png)
-
-## Creating and publishing a reversal
-
-### Step 1 — Start the reversal  
+#### Step 1 — Start the reversal  
 Open the committed document you want to reverse. Open the **menu** and select **Create a new reversal**.
 
-### Step 2 — Edit reversal quantities  
+#### Step 2 — Edit reversal quantities  
 A draft reversal document is generated automatically.
 
 Each material line displays:
@@ -117,7 +102,9 @@ Examples:
 
 ![ReversalsEdit](../Images/ReversalsEdit.png)
 
-### Step 3 — Publish  
+If saved but not published → it appears in **Drafts**
+
+#### Step 3 — Publish  
 Click **Publish** to confirm the reversal.
 
 If you don’t publish immediately:
@@ -131,29 +118,41 @@ Once published:
 - The reversed document shows **Partially reversed** or **Fully reversed**  
 - The reversal moves to **Committed**
 
-## Reviewing a reversal document
+Tags displayed on the original document:
 
-A reversal document includes:
+- **Reversal in progress** — when a reversal draft exists  
+- **Partially reversed** — only part of the quantity was reversed  
+- **Fully reversed** — the document has been completely reversed  
 
-### Reversed document section  
+![ReversalsDocumentTag](../Images/ReversalsDocumentTag.png)
+
+
+### Edit a reversal document
+
+Click a reversal document to open in the list to review its details.
+
+Published reversals **cannot** be edited. Draft reversals can be edited, but keep in mind that they may affect the original document’s status (e.g., if you change the quantity, the original document may switch between *Reversal in progress*, *Partially reversed*, or *Fully reversed*).
+
+A reversed document contains:
+
+#### Reversed document section  
 Displays information about the document being reversed and a link to open it.
 
 ![ReversalsReversedDocument](../Images/ReversalsReversedDocument.png "Link to reversed document")
 
-### Document section  
+#### Document section  
 Shows reversal code and date.
 
 ![Reversal Document](../Images/ReversalsDocumentSection.png "Reversal document")
 
-### Detail section  
+#### Detail section  
 Lists affected materials, their locations, original quantities, and reversed quantities.
 
 ![Reversal Document Details](../Images/ReversalsDetailsSection.png "Reversal details")
 
-## Deletion
+### Delete a reversal document
 
-Click **Delete** to remove a **draft** reversal document. Committed reversals **cannot** be deleted.
+On the edit screen, click **Delete** to remove a **draft** reversal document. After confirmation, the document is removed from the system without affecting inventory or the original document.
 
-A draft reversal can always be deleted because it does not contain dependent stock movements.
-
+Committed reversals **cannot** be deleted.
 

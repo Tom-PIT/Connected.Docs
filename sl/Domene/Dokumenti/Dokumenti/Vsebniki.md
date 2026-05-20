@@ -103,7 +103,7 @@ Naloženi dokument bo dodan na seznam. Za vsak dokument so na voljo naslednja de
 - **Kopiraj** – ustvari kopijo dokumenta v isti mapi.
 - **Prenesi** – prenese dokument na vašo napravo.
 
-### Urejati dokumente
+### Urediti dokumente
 
 Po nalaganju dokumenta kliknite na naziv datoteke za urejanje metapodatkov.
 

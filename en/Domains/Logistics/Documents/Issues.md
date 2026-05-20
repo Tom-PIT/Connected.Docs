@@ -64,11 +64,9 @@ You can click any document to open and review its details.
 
 ## Actions
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new issue document.
-
 ### Creating an issue document
 
-1. Click the **action button** to create a new document draft, then select the **Warehouse** and **Customer**.
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new document draft, then select the **Warehouse** and **Customer**.
 
 	![Issue Document](../Images/IssueNew.png "Add new issue")
 
@@ -85,15 +83,13 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to create a ne
 
 A newly created issue document appears in the **Drafts** view. Once published, it moves to **Committed**.
 
-## Attachments
+#### Attachments
 
-At the top of every document, an **Attachments** section is available. 
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
 
-![Attachments section](../Images/Attachments.png "Attachments section")
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
-
-## Notes
+#### Notes
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
@@ -114,9 +110,9 @@ Inside an issue document, the **menu (hamburger icon)** in the top-right corner 
 - Export (PDF)  
 - [Create a new reversal](Reversals.md).
 
-## Reviewing an issue document
+## Edit an issue document
 
-When you click an issue document:
+Click an issue document code in the main list to open its details:
 
 - You see the **Document** section (header information)  
 - You see all **Details** representing the issued items  
@@ -126,7 +122,7 @@ When you click an issue document:
 
 ![Issue reviewing](../Images/IssueReviewing.png "Issue reviewing")
 
-## Deletion
+## Delete an issue document
 
 Draft documents can be deleted on the edit screen, but only if they contain **no material entries**.
 

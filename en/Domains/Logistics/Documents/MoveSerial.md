@@ -14,16 +14,7 @@ You can open the [**Stock view by material**](../Views/Stock.md#stock-view-by-ma
 
 To access Move serial, go to **Logistics / Documents / Move serial** in the [**navigation**](../../../Common/UI/Navigation.md).
 
-
-## Moving a serial number
-
-Move serial follows a guided three-step workflow:
-
-1. Identify the serial number  
-2. Select the destination location  
-3. Confirm and complete the movement  
-
-Each completed move is automatically recorded and appears in **Inter warehouse → Committed**.
+## Move a serial number
 
 ### Step 1 — Scan or enter a serial number
 
@@ -68,8 +59,6 @@ After finishing:
 - The move is immediately recorded.  
 - You are returned to **Step 1** so you can continue scanning additional items.  
 - The completed movement is visible in **Inter warehouse → Committed**.
-
-**Example of the recorded transfer:**
 
 ![MoveSerialInterWarehouseRecord](../Images/MoveSerialInterWarehouseRecord.png)
 

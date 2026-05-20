@@ -19,18 +19,7 @@ Za boljši pregled trenutnega stanja in zgodovine premikov lahko odprete:
 
 Za dostop do **Premika serijske številke** pojdite na **Logistika / Dokumenti / Premakni serijsko številko** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
----
-
-## Premikanje serijske številke
-
-Postopek sledi vodenemu delovnemu toku s tremi koraki:
-
-1. Identifikacija serijske številke  
-2. Izbira ciljne lokacije  
-3. Potrditev in izvedba premika  
-
-Vsak zaključen premik se samodejno zabeleži in prikaže v  
-**Med-skladiščni promet → Objavljeni**.
+## Premakniti serijske številke
 
 ### Korak 1 — Skeniraj ali vnesi serijsko številko
 
@@ -75,7 +64,5 @@ Po zaključku:
 - premik se takoj zabeleži,  
 - vrnete se na **Korak 1**, kjer lahko nadaljujete s skeniranjem novih postavk,  
 - zaključen premik je viden v **Med-skladiščni promet → Potrjeni**.
-
-**Primer zabeleženega premika:**
 
 ![Zabeležen premik](../Images/MoveSerialInterWarehouseRecord.png)

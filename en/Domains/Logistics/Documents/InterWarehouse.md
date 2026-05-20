@@ -66,9 +66,9 @@ You can click any document to open and review its details.
 
 ## Actions
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new inter warehouse document.
+### Create an inter warehouse document
 
-### Creating an inter warehouse document
+Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new inter warehouse document.
 
 1. Click **Add new**. Then select the **Source warehouse** and **Destination warehouse**.
 
@@ -91,11 +91,11 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to create a ne
 
 A newly created inter warehouse document appears in **Drafts**. Once published, it moves to **Committed** and stock is transferred immediately.
 
-## Notes
+#### Notes
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
-## Menu
+#### Menu
 
 Inside an inter warehouse document, the **menu (hamburger icon)** in the top-right corner provides:
 
@@ -106,7 +106,7 @@ These options are available for both *draft* and *committed* documents.
 
 ![InterWarehouseMenuOptions](../Images/InterWarehouseMenuOptions.png)
 
-## Deletion
+### Delete an inter warehouse document
 
 Draft documents can be deletedon the edit screen, but only if they contain **no material entries**.
 

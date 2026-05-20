@@ -24,7 +24,7 @@ Poenostavljen prevzem je sestavljen iz treh korakov:
 Vsak zaključen poenostavljen prevzem v sistemu ustvari standardni dokument  
 [**Prevzem**](Prevzemi.md).
 
-## Ustvarjanje poenostavljenega prevzema
+## Ustvariti poenostavljenega prevzema
 
 ### Korak 1 — Dokument
 

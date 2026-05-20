@@ -56,7 +56,7 @@ Delovni tok:
 
 ## Pregled dokumenta proizvodnje
 
-Dokument proizvodnje vsebuje:
+Klik na šifro dokumenta proizvodnje v seznamu prikaže njegove podrobnosti. Dokument proizvodnje vsebuje:
 
 ### Povezani dokumenti
 
@@ -70,16 +70,14 @@ Razdelek **Postavke** prikazuje vse proizvedene postavke z njihovimi zabeleženi
 
 ![Objavljen dokument proizvodnje](../Images/ProductionsCommittedDocument.png "Objavljen dokument proizvodnje")
 
-## Meni
+### Meni
 
-Objavljene dokumente proizvodnje je mogoče popraviti s pomočjo storna. Odprite **meni dokumenta** in izberite:
-
-- **Ustvari novo storno**
+Objavljene dokumente proizvodnje je mogoče popraviti s pomočjo storna. Odprite **meni dokumenta** in izberite **Ustvari novo storno**.
 
 S tem se ustvari dokument storna, ki izniči zalogovni in (odvisno od konfiguracije sistema) tudi finančni učinek knjiženja proizvodnje. Za več informacij glejte **[Storno](Storno.md)**.
 
 ![Meni proizvodnje](../Images/ConsumptionsMenu.png "Meni proizvodnje")
 
-## Brisanje
+## Brisati dokumente proizvodnje
 
 Dokumentov proizvodnje **ni mogoče izbrisati** iz sistema, saj je potrebno zagotoviti sledljivost proizvedenih postavk. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.

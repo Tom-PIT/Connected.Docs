@@ -5,7 +5,7 @@
 
 # Move container
 
-The Move container screen is a streamlined workflow to relocate a single container from one warehouse location to another. It is designed for fast operations (scan and confirm) without using document lists or an action button.
+The **Move container** screen is a streamlined workflow to relocate a single container from one warehouse location to another. It is designed for fast operations (scan and confirm) without using document lists or an action button.
 
 This flow mirrors [**Move serial**](MoveSerial.md) but applies to containers (e.g., pallets or boxes) that hold one or more materials.
 
@@ -18,12 +18,12 @@ This flow mirrors [**Move serial**](MoveSerial.md) but applies to containers (e.
 
 To access **Move container**, go to **Logistics / Documents / Move container** in the [**navigation**](../../../Common/UI/Navigation.md).
 
+## Move a container
+
 ### Prerequisites
 
 - Define warehouse **[Locations](../Management/Locations.md)**.
 - Ensure the [**container**](Containers.md) is registered and has a scannable identifier (barcode/EAN/code).
-
-## Steps
 
 ### Step 1 — Identify the container
 
@@ -51,7 +51,6 @@ Choose the **To location**. You can:
 Review the summary (container, from/to locations) and click **Finish**. The system records the transfer of the container and all contained items.
 
 ![Move Container Step3](../Images/MoveContainerStep3.png)
-
 
 After confirmation:
 - The container’s location changes to the destination.

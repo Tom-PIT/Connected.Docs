@@ -17,12 +17,12 @@ Ta postopek je podoben funkciji **[Premakni serijsko številko](PremakniSerijsko
 
 Za dostop do **Premika vsebnika** pojdite na **Logistika / Dokumenti / Premik vsebnika** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
-## Predpogoji
+## Premakniti vsebnik
+
+### Predpogoji
 
 - Definirane morajo biti skladiščne **[Lokacije](../Upravljanje/Lokacije.md)**.
 - **[Vsebnik](Vsebniki.md)** mora biti registriran in imeti skenirljiv identifikator (črtna koda / EAN / koda).
-
-## Koraki
 
 ### Korak 1 — Identifikacija vsebnika
 

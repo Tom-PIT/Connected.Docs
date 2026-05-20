@@ -21,7 +21,7 @@ Simple receive consists of three steps:
 
 Each completed simple receive creates a standard [**Receive**](Receives.md) document in the system.
 
-## Creating a simple receive
+## Create a simple receive
 
 ### Step 1 — Document
 
@@ -39,8 +39,6 @@ Click **Next** to continue.
 
 ### Step 2 — Details
 
-## Step 2 — Details
-
 In this step, the system displays all **expected materials and quantities** from the selected supply order.
 
 ![Simple receive step 2](../Images/SimpleReceiveStep2.png)
@@ -51,7 +49,6 @@ The user must now **scan or manually enter the packaging code** (EAN / barcode) 
 - The user must **select the correct line** that corresponds to the received packaging.
 
 Once the correct item is selected, the workflow automatically advances to **Step 3 — Edit detail**.
-
 
 ### Step 3 — Edit detail
 
@@ -68,7 +65,7 @@ You can also **delete** the line if it should not be received.
 
 When all details are confirmed, click **Finish** to complete the simple receive.
 
-## Completing the receive
+## Completethe receive
 
 After clicking **Finish**:
 

@@ -66,9 +66,9 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov dokument med-skladiščnega prometa.
+### Ustvariti dokument med-skladiščnega prometa
 
-### Ustvarjanje dokumenta med-skladiščnega prometa
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov dokument med-skladiščnega prometa.
 
 1. Kliknite **Novo**, nato izberite **Izvorno skladišče** in **Ciljno skladišče**.
 
@@ -91,11 +91,11 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite n
 
 Novo ustvarjen dokument se prikaže med **Osnutki**. Po objavi se premakne med **Objavljene** in zaloga se takoj posodobi.
 
-## Postavke
+#### Postavke
 
 Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komentarje ali informacije o transakciji. Postavke se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
-## Meni
+#### Meni
 
 V dokumentu med-skladiščnega prometa **meni (ikona hamburger)** v zgornjem desnem kotu ponuja:
 
@@ -106,7 +106,7 @@ Možnosti so na voljo tako za *osnutke* kot za *objavljene* dokumente.
 
 ![Meni med-skladiščnega prometa](../Images/InterWarehouseMenuOptions.png)
 
-## Brisanje
+### Brisati dokument med-skladiščnega prometa
 
 Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo nobenih postavk**.
 

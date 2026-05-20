@@ -50,15 +50,15 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 
 </details>
 
-## Management
-
-### List view
+### List of disassembly documents
 
 The Disassemblies list shows existing documents with status indicators (Draft/Published). A search bar and filters help locate records by warehouse, date, or code.
 
 ![Disassemblies List](../Images/DisassembliesList.png "Disassemblies list")
 
-## Creating a disassembly document
+## Actions
+
+### Create a disassembly document
 
 Create a Disassembly to split sets into their parts.
 
@@ -97,21 +97,20 @@ If you already published a **[Receive](Receives.md)**, you can create a disassem
 
 This creates a Disassembly draft prefilled from the received packages, useful to record disassemblies directly at receipt.
 
-## Editing
+### Edit a disassembly document
 
 1. Click a document **Code** to open it.
 2. In **Draft** status, you can modify header fields and details.
 3. Use **Save** to confirm changes.
 
-## Menu
+### Menu
 
 Click on the hamburger menu (three vertical dots) in the top-right corner to print **received serial number labels** using a configured printer.
 
-## Deletion
+## Delete a disassembly document
 
-- Click **Delete** in the edit screen to remove a draft.
-- Published disassemblies typically cannot be deleted.
+- Draft disassemblies can be deleted freely from the edit screen, using the **Delete** button. After confirmation, the document is removed from the system without affecting inventory.
+- Published disassemblies cannot be deleted.
 
----
 
 

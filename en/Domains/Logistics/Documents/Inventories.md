@@ -65,9 +65,9 @@ Click any document to open and review its contents.
 
 ## Actions
 
-Click the **action button** to create a new inventory document.
+### Create an inventory document
 
-### Creating an inventory document
+Click the **action button** to create a new inventory document.
 
 1. Click **Add new** to create a new inventory session. 
 
@@ -92,11 +92,15 @@ A newly created inventory document appears in **Drafts**. Once published, it mov
  > [!NOTE]
  > The values shown under **Missing** and **Excess** indicate how many **different materials** have discrepancies. They do not represent the number of missing or extra pieces, only the number of materials affected.
 
-## Notes
+## Edit an inventory document
+
+In the list view, click on a document **Code** to open it. In **Draft** status, you can modify header fields and details as needed. You can also use the menu options to print or export the document in PDF format.
+
+#### Notes
 
 Use the **Notes** section to record any comments related to the inventory process.
 
-## Menu
+#### Menu
 
 Inside an inventory document, the **menu (hamburger icon)** provides the following options:
 
@@ -107,6 +111,7 @@ These options are available for both *draft* and *committed* documents.
 
 ![InterWarehouseMenuOptions](../Images/InterWarehouseMenuOptions.png)
 
-## Deletion
+### Delete an inventory document
 
-Click **Delete** to remove a **draft** inventory document. Committed inventory documents **cannot** be deleted or reversed.
+- Click **Delete** in the edit screen to remove a **draft** inventory document. After confirmation, the document is removed from the system without affecting inventory.
+- Committed inventory documents **cannot** be deleted or reversed.

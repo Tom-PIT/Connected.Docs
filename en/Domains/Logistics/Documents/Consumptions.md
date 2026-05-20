@@ -56,7 +56,7 @@ Workflow notes:
 - When a production worker starts recording consumption, a **Draft** consumption document is created automatically.
 - When the [**Execution**](../../Production/Documents/Execution.md) process is completed, the document moves to **Committed** and can be reviewed in the committed list.
 
-## Reviewing a consumption document
+## Review a consumption document
 
 A consumption document contains:
 
@@ -80,9 +80,7 @@ This creates a reversal document that negates the stock and financial effect of 
 
 ![Consumptions menu](../Images/ConsumptionsMenu.png "Consumptions menu")
 
-
-## Deletion
+## Delete a consumption document
 
 Consumption documents cannot be deleted from the system to ensure traceability of material usage in production, but they can be reversed as described above.
 
----

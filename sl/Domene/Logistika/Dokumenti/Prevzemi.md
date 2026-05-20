@@ -81,7 +81,6 @@ Ta razdelek je na voljo, ko je omogočeno poročanje **Intrastat** in je dobavit
 
 </details>
 
-
 ## Seznam prevzemnih dokumentov
 
 Stran **Prevzemi** prikazuje vse prevzemne dokumente. Dokument lahko poiščete z iskalnikom ali uporabite filtre v levem stranskem meniju:
@@ -104,13 +103,11 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov prevzemni dokument.
-
-### Ustvarjanje prevzemnega dokumenta
+### Ustvariti prevzemnega dokumenta
 
 Postopek ustvarjanja novega prevzema:
 
-1. Kliknite **akcijski gumb** in izberite **Dobavitelja**.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Dobavitelja**.
 
    ![Prevzemni dokument](../Images/ReceiveDocument.png "Prevzemni dokument")
 
@@ -126,7 +123,7 @@ Postopek ustvarjanja novega prevzema:
 
 Novo ustvarjen prevzem se prikaže med **Osnutki**. Po objavi se premakne med **Objavljene** dokumente.
 
-## Razdelka Transport in Intrastat
+#### Razdelka Transport in Intrastat
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prejem prikažeta dodatna razdelka.
 
@@ -138,7 +135,7 @@ Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intra
 > [!NOTE]  
 > Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
 
-### Intrastat polja v postavkah
+#### Intrastat polja v postavkah
 
 Ko je **Intrastat** omogočen in je izbrani **Dobavitelj** iz druge države članice EU, se v vsaki **postavki** prikažejo dodatna polja.
 
@@ -146,15 +143,13 @@ Ko je **Intrastat** omogočen in je izbrani **Dobavitelj** iz druge države čla
 
 Ta polja se uporabljajo za statistično poročanje Intrastat in so obvezna pri čezmejnih transakcijah znotraj EU.
 
-## Priponke
+#### Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
 
-![Priponke](../Images/Attachments.png "Priponke")
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
-Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali druga spremljajoča dokumentacija. Priponke so trajno shranjene skupaj z dokumentom.
-
-## Povezavi dokumenti
+#### Povezavi dokumenti
 
 Objavljeni prevzemni dokumenti vsebujejo dodatni razdelek **Povezavi dokumenti**, ki prikazuje dokumente, ki jih je mogoče ustvariti na podlagi prevzetih materialov.
 
@@ -164,41 +159,43 @@ Pri prevzemih se lahko pojavi možnost **Razstavljanje**, ki omogoča ustvarjanj
 
 Za več podrobnosti glejte dokumentacijo [**Demontaže**](Demontaze.md).
 
-## Opombe
+#### Opombe
 
 Vsak dokument vsebuje razdelek **Opombe**, kamor lahko vnesete dodatne komentarje ali informacije. Opombe se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
-## Meni
+#### Meni
 
 V prevzemnem dokumentu **meni (ikona hamburger)** v zgornjem desnem kotu ponuja različne možnosti, odvisno od stanja dokumenta.
 
 ![Meni prevzema](../Images/ReceiveMenu.png "Meni prevzema")
 
-### Osnutek prevzema
+##### Osnutek prevzema
 
 - Tiskanje  
 - Izvoz (PDF)  
 - Izbriši vse postavke  
 
-### Objavljen prevzem
+##### Objavljen prevzem
 
 - Tiskanje  
 - Izvoz (PDF)  
 - [**Ustvari storno**](Storno.md)
 
-## Pregled prevzemnega dokumenta
+### Urediti dokument prevzema
 
-Ko kliknete dokument v seznamu:
+Kliknite kodo dokumenta na seznamu, da odprete zaslon za urejanje. Lahko:
 
-- vidite razdelek **Dokument** (glava dokumenta)
-- vidite vse **Postavke** prevzetih materialov
-- osnutke lahko urejate
-- dokumente lahko tiskate ali izvozite
-- objavljeni dokumenti so samo za branje (razen ustvarjanja storna)
+- Pregledate njegov razdelek **Dokument** (podatki v glavi)
+- Pregledate vse **Postavke**, ki predstavljajo prejete elemente
+- Uredite osnutke dokumentov
+- Natisnete ali izvozite dokument
+
+> [!NOTE]
+> Objavljeni dokumenti so samo za branje (razen ustvarjanja storna)
 
 ![Pregled prevzema](../Images/ReceiveReviewing.png "Pregled prevzema")
 
-## Brisanje
+### Brisati prevzemne dokumente
 
 Osnutke je mogoče izbrisati le, če **ne vsebujejo nobenih postavk**.  
 Če osnutek še vsebuje postavke, uporabite možnost **Izbriši vse postavke** v **Meniju**.

@@ -62,11 +62,9 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega dokumenta odpisa.
+### Ustvariti dokument odpisa
 
-### Ustvarjanje dokumenta odpisa
-
-1. Kliknite **Novo**, da ustvarite osnutek.
+1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega dokumenta odpisa.
 
    ![Nov odpis](../Images/WriteoffsNew.png)
 
@@ -90,13 +88,13 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje 
 
 Objavljeni odpisi takoj posodobijo stanje zaloge.
 
-## Meni
+#### Meni
 
 V **objavljenem** dokumentu odpisa je v meniju (ikona hamburger) na voljo možnost **Ustvari novo storno**.
 
 Meni **ni na voljo** za osnutke dokumentov odpisa.
 
-## Brisanje
+### Brisati dokument odpisa
 
 Osnutke dokumentov odpisa je mogoče izbrisati na zaslonu za urejanje, vendar samo, če **ne vsebujejo nobenih postavk**.
 
