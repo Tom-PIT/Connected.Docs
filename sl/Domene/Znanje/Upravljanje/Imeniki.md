@@ -75,7 +75,7 @@ Po ustvarjanju imenika so na voljo dodatne možnosti neposredno iz seznama:
 > Imeniki določajo **samo strukturo**.  
 > Članki in kazala se upravljajo ločeno.
 
-## Urejati imenika
+## Urediti imenika
 
 Kliknite ime imenika, da odprete zaslon za urejanje.
 

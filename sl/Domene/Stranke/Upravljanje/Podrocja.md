@@ -87,6 +87,6 @@ Sklop **Računi** omogoča pregled računov, povezanih z aktivnostmi področja. 
 - **Datum**
 - **Količina**
 
-### Urejati področje
+### Urediti področje
 
 Klik na področje v seznamu ga odpre v načinu urejanja. Vsa polja in nastavitve je mogoče spreminjati, spremembe pa se shranijo samodejno.

@@ -106,7 +106,7 @@ Glede na trenutni zaslon [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md)
 8. Shranite podrobnosti.  
    Cenik materialov je zdaj aktiven za izbrano obdobje.
 
-### Urejati cenik materialov
+### Urediti cenik materialov
 
 Kliknite **ime cenika** na seznamu, da odprete zaslon za urejanje. Tukaj lahko spremenite informacije o glavi cenika, vendar ne materialov ali razponov. Za urejanje materialov in razponov kliknite gumb **Postavke**, kot je opisano v prejšnjem razdelku.
 

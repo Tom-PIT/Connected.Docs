@@ -147,7 +147,7 @@ Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite surovino, ali **Prekliči**, da se vrnete na seznam.
 
-## Urejati surovino
+## Urediti surovino
 
 Kliknite ime surovine v seznamu, da odprete zaslon za urejanje.
 

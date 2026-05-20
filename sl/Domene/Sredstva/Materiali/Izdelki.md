@@ -150,7 +150,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **K
 
 Po izbiri osnovnega izdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
-## Urejati izdelek
+## Urediti izdelek
 
 Za urejanje obstoječega izdelka kliknite **Ime** izdelka v seznamu. Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 

@@ -97,7 +97,7 @@ Pred objavo mora sistem preveriti, da se zneska ujemata.
 4. Nastavite **Datum temeljnice**.
 5. Dodajte ali uredite **Postavke**.
 
-### Urejati postavke
+### Urediti postavke
 
 ![Urejanje postavk temeljnice](../Images/DoubleEntryAccountancyJournalEntryDetailEdit.png)
 

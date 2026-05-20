@@ -177,7 +177,7 @@ Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana 
 
 ### Urejanje bremepisa
 
-Urejati je mogoče samo bremepise v stanju **Osnutek**.
+Urediti je mogoče samo bremepise v stanju **Osnutek**.
 
 Uredite lahko:
 - Glavna polja  

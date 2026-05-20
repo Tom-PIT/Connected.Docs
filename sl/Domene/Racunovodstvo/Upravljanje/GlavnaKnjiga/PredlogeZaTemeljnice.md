@@ -73,7 +73,7 @@ Za ustvarjanje nove predloge temeljnice:
 
 ![Nova predloga za temeljnico](../../Images/JournalEntryTemplatesNew.png "Nova predloga za temeljnico")
 
-### Urejati predloge za temeljnico
+### Urediti predloge za temeljnico
 
 Kliknite predlogo v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobite polja.
 

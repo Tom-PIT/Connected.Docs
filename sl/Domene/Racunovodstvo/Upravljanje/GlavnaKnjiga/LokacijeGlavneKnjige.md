@@ -58,7 +58,7 @@ Za ustvarjanje nove lokacije glavne knjige:
 
 ![Nova lokacija glavne knjige](../../Images/LedgerLocationsNew.png "Nova lokacija glavne knjige")
 
-### Urejati lokacijo glavne knjige
+### Urediti lokacijo glavne knjige
 
 Kliknite lokacijo glavne knjige v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobite njena polja.
 

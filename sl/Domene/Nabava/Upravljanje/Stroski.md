@@ -118,7 +118,7 @@ Možnosti v tem razdelku določajo, kako se strošek obravnava pri finančnih kn
 
 Te nastavitve je mogoče po potrebi spremeniti tudi na prejetem računu.
 
-## Urejati strošek
+## Urediti strošek
 
 Za urejanje stroška kliknite zapis v seznamu. Sistem odpre način urejanja.
 

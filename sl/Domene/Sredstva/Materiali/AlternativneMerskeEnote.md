@@ -70,7 +70,7 @@ Imamo material, ki se v zalogi vodi v metrih, vendar se skladišči in pakira v 
 - **Imenovalec**: `2`
 - **Števec**: `1`
 
-### Urejati alternativne merske enote
+### Urediti alternativne merske enote
 
 Kliknite obstoječi vnos na seznamu, da ga uredite, uporabite spremembe in kliknite **Shrani**. Lahko pa kliknete **Prekliči**, da zavržete spremembe in se vrnete na seznam.
 

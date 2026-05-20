@@ -46,7 +46,7 @@ Za dodajanje nove lege kraja:
 
 ![Dodaj lego kraja](../../Images/PlaceOfDeliveryNewSL.png)
 
-### Urejati lego kraja
+### Urediti lego kraja
 
 Kliknite na šifro v seznamu, da jo odprete v urejevalnem načinu. Po potrebi posodobite **Šifro** ali **Opis**.
 

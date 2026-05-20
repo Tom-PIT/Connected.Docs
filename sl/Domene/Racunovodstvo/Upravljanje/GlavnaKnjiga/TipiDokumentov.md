@@ -46,7 +46,7 @@ Za dodajanje novega tipa dokumenta:
 
 ![Tipi dokumentov – nov](../../Images/DocumentTypesNew.png "Tipi dokumentov – nov")
 
-### Urejati tip dokumenta
+### Urediti tip dokumenta
 
 Kliknite tip dokumenta v seznamu, da ga odprete v načinu urejanja, in po potrebi posodobite polja.
 

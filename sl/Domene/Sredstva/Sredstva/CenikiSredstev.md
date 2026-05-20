@@ -77,7 +77,7 @@ Za ustvarjanje delujočega cenika sledite tem korakom:
 
 7. Shranite podrobnosti. Cenik je zdaj aktiven za izbranega kupca v določenem obdobju.
 
-### Urejati cenik sredstev
+### Urediti cenik sredstev
 
 Kliknite **ime cenika**, da odprete zaslon za urejanje. Tukaj lahko spremenite informacije o glavi cenika, vendar ne sredstev ali razponov. Za urejanje sredstev in razponov kliknite gumb **Podrobnosti**, kot je opisano v prejšnjem razdelku.
 

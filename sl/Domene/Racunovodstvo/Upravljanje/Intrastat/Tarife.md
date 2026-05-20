@@ -46,7 +46,7 @@ Izpolnite naslednja polja:
 
 Kliknite **Dodaj**, da shranite tarifo, ali **Prekliči**, da opustite vnos.
 
-## Urejati tarife
+## Urediti tarife
 
 Kliknite **šifro** tarife v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobite **Šifro**, **Ime**, **Mersko enoto** ali **Oddelek**.
 

@@ -153,7 +153,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **K
 
 Po izbiri osnovnega polizdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
-## Urejati polizdelek
+## Urediti polizdelek
 
 Za urejanje obstoječega polizdelka kliknite njegovo **Ime** v seznamu.  
 Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja.

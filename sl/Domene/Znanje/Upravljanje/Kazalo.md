@@ -61,7 +61,7 @@ Pri ustvarjanju vnosa izberite ustrezen **Tip** in izpolnite pripadajoča polja.
 
 Kliknite **Dodaj**, da ustvarite vnos.
 
-## Urejati vnosov
+## Urediti vnosov
 
 Kliknite obstoječo mapo ali vnos v drevesu, da odprete zaslon za urejanje.
 
