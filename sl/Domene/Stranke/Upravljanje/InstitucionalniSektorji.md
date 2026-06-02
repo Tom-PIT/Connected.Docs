@@ -54,7 +54,7 @@ Naslednja dejanja so na voljo prek [**akcijskega gumba**](../../../Skupno/UI/Akc
 - Po potrebi posodobite **Šifro** ali **Naziv**.
 - Shranite spremembe.
 
-### Brisati institucionalni sektor
+### Izbrisati institucionalni sektor
 
 - Odprite sektor iz seznama.
 - V pogledu za urejanje uporabite dejanje **Izbriši**.

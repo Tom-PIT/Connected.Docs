@@ -91,7 +91,7 @@ Ustvari kopijo obstoječega cenika, vključno z obdobjem veljavnosti in vsebino.
 
 Zaslon **Uvoz** omogoča uvoz CSV datoteke s seznamom postavk cenika.
 
-## Brisati cenik sredstev
+## Izbrisati cenik sredstev
 
 Cenike sredstev je mogoče izbrisati na zaslonu za urejanje, vendar **samo če ne vsebujejo nobenih sredstev**.
 

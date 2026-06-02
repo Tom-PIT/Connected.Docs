@@ -145,7 +145,7 @@ Nov obračun DDV se ustvari za izbrano obdobje.
 > [!NOTE]  
 > Nov obračun DDV je mogoče ustvariti le, če je **prejšnji obračun že zaključen**.
 
-### Brisati obračuna DDV
+### Izbrisati obračuna DDV
 
 Izbrisati je mogoče samo **neobjavljene (osnutke)** obračune DDV.
 

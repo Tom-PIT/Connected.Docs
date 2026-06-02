@@ -121,7 +121,7 @@ V **meniju dokumenta** so na voljo naslednje možnosti:
 
 ![Meni vsebnika](../Images/ContainersMenu.png "Meni vsebnika")
 
-## Brisati vsebnike
+## Izbrisati vsebnike
 
 - Osnutke vsebnikov je mogoče prosto izbrisati v urejanju. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Zapakiranih vsebnikov **ni mogoče izbrisati**; za sprostitev vsebine uporabite **Razpusti**

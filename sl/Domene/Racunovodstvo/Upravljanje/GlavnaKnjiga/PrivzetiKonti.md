@@ -79,7 +79,7 @@ Tipični primeri privzetih kontov vključujejo:
 
 Ti privzeti konti se uporabljajo v sistemskih procesih, kot so prodaja, zaloga in proizvodnja.
 
-## Brisati privzeti konto
+## Izbrisati privzeti konto
 
 Privzeti konto je mogoče izbrisati le, če **ni uporabljen** v aktivnih sistemskih procesih ali konfiguracijskih pravilih.
 

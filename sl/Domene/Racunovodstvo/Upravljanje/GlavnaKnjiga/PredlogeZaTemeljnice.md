@@ -114,7 +114,7 @@ Za dodajanje nove postavke:
 
 ![Nova postavka predloge](../../Images/JournalEntryTemplatesDetailsNew.png "Nova postavka predloge")
 
-## Brisati predlogo za temeljnico
+## Izbrisati predlogo za temeljnico
 
 Predlogo temeljnice je mogoče izbrisati samo, če **ni uporabljena** v obstoječih temeljnicah.
 

@@ -89,7 +89,7 @@ Spremembe kazala se **takoj** odrazijo v izbranem imeniku.
 > Kazalo vpliva **izključno na navigacijo**. Vsebina člankov se ureja ločeno v
 > [Člankih](Clanki.md).
 
-## Brisati kazalo ali vnos
+## Izbrisati kazalo ali vnos
 
 Kliknite **Izbriši** na kazalu ali posameznem vnosu, da se odpre potrditveno okno:
 

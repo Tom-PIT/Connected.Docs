@@ -10,7 +10,7 @@ The **Loss** activity records defective or unusable items produced during an ope
 
 Open **Loss** from the [**Execution**](Execution.md) screen via the activity selection menu (tap the [action button](../../../Common/UI/ActionButton.md), then choose **Loss**).
 
-## Recording a loss
+## Record a loss
 
 1. Open the **Loss** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).  
 2. Enter the defective quantity.  

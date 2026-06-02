@@ -123,7 +123,7 @@ Obisk se premakne med **Zaključene** in prikaže tako čas prihoda kot čas odh
 
 Obisk se prikaže v stanju **Odpovedan** in je ustrezno označen v seznamu.
 
-## Brisati obisk
+## Izbrisati obisk
 
 Obiske je mogoče izbrisati, če so bili ustvarjeni pomotoma ali niso več potrebni.
 

@@ -42,7 +42,7 @@ Klik na **Dodaj uporabniški vir** odpre pogovorno okno, kjer lahko izberete ene
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega delovnega mesta.
 
-### Dodajanje novega delovnega mesta
+### Ustvariti novo delovno mesto
 
 Izpolnite zahtevana polja:
 
@@ -55,9 +55,13 @@ Izpolnite zahtevana polja:
 
 Kliknite **Dodaj**, da shranite novo delovno mesto.
 
-## Brisanje
+### Urediti delovno mesto
 
-Na strani za urejanje kliknite **Izbriši**, da odstranite delovno mesto. Po potrditvi je zapis trajno izbrisan.
+Na strani za urejanje lahko posodobite katero koli od polj delovnega mesta. Spremembe shranite s klikom na **Shrani**.
 
-> [!NOTE]
+## Izbrisati delovno mesto
+
+Kliknite delovno mesto na seznamu, da odprete stran za urejanje, nato kliknite **Izbriši**. Po potrditvi je zapis trajno izbrisan.
+
+> [!WARNING]
 > Delovna mesta je mogoče izbrisati tudi, če so nanje dodeljeni uporabniki.

@@ -107,7 +107,7 @@ Ko je material prevzet, operacija ni več v čakanju.
 >  
 > Lakirane mize iz bora so pripravljene za vračilo od kooperanta. Ustvarite **Nabavni nalog** za storitev lakiranja in nato **Prevzem**, da mize vrnete na zalogo. Operacija izgine s seznama **Za prevzem**.
 
-## Zaključek operacije
+## Zaključiti operacijo
 
 Ko je vrnjeni material na voljo:
 

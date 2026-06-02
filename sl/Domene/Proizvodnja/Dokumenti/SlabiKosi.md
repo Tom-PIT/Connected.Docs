@@ -10,7 +10,7 @@ Aktivnost **Slabi kosi** se uporablja za beleženje okvarjenih ali neuporabnih k
 
 **Slabi kosi** odprete iz zaslona [**Izvedba**](Izvedba.md) prek izbirnika aktivnosti (tapnite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Slabi kosi**).
 
-## Beleženje slabih kosov
+## Zabeležiti slabe kose
 
 1. Odprite stran **Slabi kosi** iz [**menija aktivnosti v izvedbi**](Izvedba.md#akcijski-meni-in-aktivnosti).  
 2. Vnesite količino slabih kosov.

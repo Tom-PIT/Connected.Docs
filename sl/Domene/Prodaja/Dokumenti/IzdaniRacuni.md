@@ -240,7 +240,7 @@ Meni v zgornjem desnem kotu omogoča:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrnitev v osnutek** (če je dovoljeno)
 
-## Brisati izdani račun
+## Izbrisati izdani račun
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 

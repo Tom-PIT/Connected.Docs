@@ -35,7 +35,7 @@ Seznam prikazuje vse kontrolne točke, povezane z izbranim kontrolnim seznamom, 
 
 Za iskanje uporabite iskalno polje, ki omogoča filtriranje po nazivu ali šifri.
 
-## Dodajanje nove kontrolne točke
+## Dodati novo kontrolno točko
 
 1. Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** v spodnjem desnem kotu.  
 2. Izpolnite polja, opisana v shemi:  
@@ -54,13 +54,13 @@ Za iskanje uporabite iskalno polje, ki omogoča filtriranje po nazivu ali šifri
 > [!NOTE]
 > Nekaj posebnosti se lahko pojavijo glede na izbran **Tip**. Glejte [Posebnosti glede na tip](#posebnosti-glede-na-tip)
 
-## Urejanje kontrolne točke
+## Urediti kontrolne točke
 
 1. Izberite kontrolno točko s seznama.  
 2. Spremenite poljubno polje, vključno s **Tipom**, **Kategorijo** ali **Navodili**.  
 3. Kliknite **Shrani**.
 
-## Brisanje
+## Izbrisati kontrolne točke
 
 Kontrolne točke je mogoče brisati, razen če je to omejeno z nastavitvami delovnega toka. Za odstranitev odprite kontrolno točko in kliknite **Izbriši**.
 

@@ -10,7 +10,7 @@ The **Consumed** activity records the usage of input materials during an operati
 
 Open the **Consumed** screen from the main [**Execution**](Execution.md) page via the activity selection menu (click the [action button](../../../Common/UI/ActionButton.md) and select **Consumed**).
 
-## Recording a consumption
+## Record a consumption
 
 ![Consumed](../Images/ExecutionConsumptionList.png "Record consumed materials")
 

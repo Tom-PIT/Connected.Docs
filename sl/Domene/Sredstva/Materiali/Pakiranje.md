@@ -102,7 +102,7 @@ Razpoložljive vrste nalepk:
 
 Izberite želene vrste nalepk in kliknite **Shrani**.
 
-## Brisati pakiranje
+## Izbrisati pakiranje
   
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

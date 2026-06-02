@@ -12,7 +12,7 @@
 
 Stroški so običajno [dodani operaciji](../Upravljanje/StroskiOperacije.md) v proizvodnem procesu, lahko pa se dodajo tudi neposredno na proizvodni nalog, če niso vezani na določeno operacijo.
 
-## Dodajanje ali urejanje stroška
+## Dodati ali urediti strošek
 
 Za natančnejši izračun dejanskih stroškov proizvedenega izdelka je mogoče na zavihku **Stroški** dodajati ali urejati planirane stroške:
 
@@ -25,7 +25,7 @@ Za natančnejši izračun dejanskih stroškov proizvedenega izdelka je mogoče n
 > [!IMPORTANT]
 > Planirani stroški se izračunajo **na nalog**. Če so na primer stroški **2$** na izdelek in je načrtovana količina za proizvodnjo 10, bodo stroški znašali **20$**.
 
-## Evidentiranje dejanskega stroška
+## Evidentirati dejanski strošek
 
 Planirani stroški predstavljajo pričakovane stroške, medtem ko dejanski stroški predstavljajo dejansko evidentirane stroške med izvajanjem proizvodnje. Dejanske stroške je mogoče evidentirati, kadar se razlikujejo od planiranih stroškov. To omogoča spremljanje razlik med planiranimi in dejanskimi stroški, kar je pomembno za nadzor in analizo stroškov.
 

@@ -53,6 +53,6 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
 
 4. Ko so vsa zahtevana preverjanja zaključena, kliknite **Objavi**, da dokončate dokument analize materialov. Dokument se premakne v pogled **Potrjeni**.
 
-## Brisati analize materialov
+## Izbrisati analize materialov
 
 Dokumentov analize materialov **ni mogoče izbrisati**.

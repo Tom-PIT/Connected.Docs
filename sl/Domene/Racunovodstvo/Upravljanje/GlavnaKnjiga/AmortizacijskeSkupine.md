@@ -91,7 +91,7 @@ Naslednji primer prikazuje tipično amortizacijsko skupino. Predpostavimo, da ž
 
 Ta skupina je primerna za dolgoročna proizvodna sredstva.
 
-## Brisati amortizacijsko skupino
+## Izbrisati amortizacijsko skupino
 
 Amortizacijsko skupino je mogoče izbrisati le, če **ni uporabljena** pri nobenem obstoječem osnovnem sredstvu.
 

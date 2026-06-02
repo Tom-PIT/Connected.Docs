@@ -10,7 +10,7 @@ The **Effort** activity records working time spent on an operation. Use it to tr
 
 Open **Effort** from the [**Execution**](Execution.md) screen via the activity selection menu (tap the [action button](../../../Common/UI/ActionButton.md), then choose **Effort**).
 
-## Recording effort
+## Record effort
 
 ![Effort entry](../Images/ExecutionEffortPage.png "Record effort")
 
@@ -38,7 +38,7 @@ Enter the details directly:
 
 Click **Add effort** to save the record.
 
-## Editing and corrections
+## Edit effort entries
 
 Recorded efforts appear in a list below the form.
 

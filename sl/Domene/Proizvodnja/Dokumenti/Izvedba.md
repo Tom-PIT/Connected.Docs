@@ -48,14 +48,16 @@ Glavni zaslon izvedbe prikazuje ključne informacije za trenutni proizvodni nalo
 
 ## Proces izvedbe
 
-### Začetek proizvodnje
+### Začeti proizvodnjo
 
 Operacijo lahko začnete na dva načina:
 
 #### **1. Klik na Začni**
+
 Kliknite **Začni**, da pričnete operacijo.
 
 #### **2. Klik na Proizvedi (samodejni začetek)**
+
 Če kliknete **Proizvedi**, sistem:
 
 - samodejno začne operacijo  
@@ -65,23 +67,11 @@ Kliknite **Začni**, da pričnete operacijo.
   
   ![Proizvodnja zaključena](../Images/ExecutionProductionFinished.png "Napredek proizvodnje")
 
-### Premor proizvodnje
+### Začasno ustaviti proizvodnjo
 
 Kliknite **Premor**, da začasno ustavite operacijo. To **ne zaključi** proizvodnje — le prekine jo do nadaljevanja.
 
 ![Premor](../Images/ExecutionTopPause.png "Gumb Premor")
-
-### Ustavitev / zaključek proizvodnje
-
-Kliknite **Ustavi**, da zaključite trenutno operacijo.
-
-![Ustavi](../Images/ExecutionTopStop.png "Gumb Ustavi")
-
-Delavci običajno kliknejo **Ustavi**, ko so vsi kosi proizvedeni in so vsi kontrolni seznami, izgube in zapisi zaključeni.
-
-Če se operacija ustavi predčasno (npr. 1/3 proizvedeno), se operacija zaključi z delno proizvodnjo.
-
-Ko so zaključene vse operacije proizvodnega naloga, se **[Proizvodni nalog](ProizvodniNalogi.md)** premakne v stanje **Zaključen**.
 
 ### Kontrolni seznami in kakovost
 
@@ -142,13 +132,21 @@ Beleženje delovnega časa. Glejte **[Delo](Delo.md)** za samodejne in ročne vn
 
 Ogled navodil, povezanih s trenutno operacijo. Glejte **[Navodila](Navodila.md)**.
 
-## Zaključek izvedbe
+## Zaključiti izvedbo
 
-Ko je proizvodnja zaključena:
+Kliknite **Ustavi**, da zaključite trenutno operacijo.
 
-1. Vse zahtevane količine so proizvedene  
-2. Vsi slabi kosi in zastoji so zabeleženi  
-3. Vse kontrole kakovosti so zaključene  
-4. Kliknite **Ustavi**
+![Ustavi](../Images/ExecutionTopStop.png "Gumb Ustavi")
 
-Operacija preide v stanje **Zaključeno**, in ko so zaključene vse operacije proizvodnega naloga, se **Proizvodni nalog** premakne v stanje **Zaključen**.
+Pred zaključkom operacije preverite, da:
+
+* So proizvedene vse zahtevane količine
+* So zabeleženi vsi slabi kosi in zastoji
+* So zaključene vse kontrole kakovosti
+
+Ko je operacija zaključena, preide v stanje **Zaključeno**.
+
+Če operacijo ustavite pred doseženo planirano količino, se operacija zaključi z delno proizvodnjo.
+
+Ko so zaključene vse operacije proizvodnega naloga, se proizvodni nalog premakne v stanje **Zaključen**.
+

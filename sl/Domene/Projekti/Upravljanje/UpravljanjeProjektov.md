@@ -95,7 +95,7 @@ Na tem zaslonu lahko:
 - dostopate do nastavitev kanban stolpcev,
 - izbrišete projekt.
 
-## Brisati projekt
+## Izbrisati projekt
 
 Projekt lahko izbrišete na zaslonu za upravljanje projekta. Ob brisanju se prikaže potrditveno okno:
 

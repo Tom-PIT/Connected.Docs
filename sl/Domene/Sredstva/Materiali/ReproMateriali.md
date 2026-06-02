@@ -159,7 +159,7 @@ Za urejanje obstoječega repro materiala kliknite njegovo **Ime** v seznamu. Vme
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisati repro material
+## Izbrisati repro material
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

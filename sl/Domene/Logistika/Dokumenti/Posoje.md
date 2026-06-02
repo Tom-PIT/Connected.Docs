@@ -110,7 +110,7 @@ Klik na šifro dokumenta odpri zaslon za urejanje:
 - objavljeni dokumenti so samo za branje (razen ustvarjanja storna)  
 - tiskanje in izvoz sta na voljo v meniju
 
-### Brisati posoje
+### Izbrisati posoje
 
 Osnutke dokumentov posoje je mogoče izbrisati **le, če ne vsebujejo nobenih postavk**.
 

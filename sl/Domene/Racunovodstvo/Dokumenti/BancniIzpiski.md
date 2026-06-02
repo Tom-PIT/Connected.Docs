@@ -111,7 +111,7 @@ Povezana knjižba:
 
 Ta povezava zagotavlja sledljivost med bančnim prometom in knjiženjem v glavni knjigi.
 
-## Brisati bančni izpisek
+## Izbrisati bančni izpisek
 
 Bančne izpiske v stanju **Osnutek** lahko izbrišete v zaslonu urejanja s klikom na **Izbriši**. Potrdite brisanje v pojavnem oknu:
 **Ali ste prepričani, da želite izbrisati zapis?**

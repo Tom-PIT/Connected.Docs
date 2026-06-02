@@ -86,7 +86,7 @@ Na voljo so:
 
 Kliknite **Shrani**, da potrdite spremembe.
 
-## Brisati imenik
+## Izbrisati imenik
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

@@ -82,7 +82,7 @@ Ob objavi se zaloga posodobi, dokument pa se premakne v pogled **Potrjeni**.
 2. V stanju **Osnutek** lahko urejate glavo in podrobnosti.
 3. Kliknite **Shrani**, da potrdite spremembe.
 
-## Brisati dokument korekcije
+## Izbrisati dokument korekcije
 
 - Osnutke korekcij je mogoče izbrisati na zaslonu za urejanje. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Objavljenih korekcij **ni mogoče izbrisati**.

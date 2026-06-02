@@ -167,7 +167,7 @@ Ob zaključevanju:
 - **Pošlji po e-pošti**  
 - **Storniraj dokument**
 
-## Brisati nabavni nalog
+## Izbrisati nabavni nalog
 
 Nabavne naloge v stanju **Osnutek** je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo postavk**.
 

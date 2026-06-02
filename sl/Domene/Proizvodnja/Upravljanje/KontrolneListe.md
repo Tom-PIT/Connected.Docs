@@ -36,7 +36,7 @@ Vsaka kontrolna lista vsebuje gumb **Kontrolne točke**, s katerim upravljate po
 
 Na levi strani je na voljo filter **Oznake**, ki omogoča prikaz samo tistih kontrolnih list, ki so povezane z izbranimi oznakami.
 
-## Ustvarjanje nove kontrolne liste
+## Ustvariti novo kontrolno listo
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 2. Izpolnite naslednja polja:
@@ -50,7 +50,7 @@ Na levi strani je na voljo filter **Oznake**, ki omogoča prikaz samo tistih kon
 
 3. Kliknite **Dodaj**, da ustvarite kontrolno listo.
 
-## Upravljanje kontrolnih točk
+## Upravljati kontrolne točke
 
 Vsaka kontrolna lista lahko vsebuje eno ali več **kontrolnih točk**, ki določajo konkretne korake ali preverjanja med izvajanjem.
 
@@ -65,7 +65,7 @@ Odpre se stran **Kontrolne točke**, kjer lahko kontrolne točke dodajate, ureja
 
 Za podrobnosti glejte **[Kontrolne točke](KontrolneTocke.md)**.
 
-## Urejanje kontrolne liste
+## Urediti kontrolno listo
 
 Za urejanje obstoječe kontrolne liste:
 

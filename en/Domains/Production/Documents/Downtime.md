@@ -10,7 +10,7 @@ The **Downtime** activity records interruptions during an operation (e.g., waiti
 
 Open **Downtime** from the [**Execution**](Execution.md) screen via the activity selection menu (tap the [action button](../../../Common/UI/ActionButton.md), then choose **Downtime**).
 
-## Recording a downtime
+## Record a downtime
 
 ![Downtime](../Images/ExecutionDowntimePageV2.png "Record downtime")
 
@@ -27,7 +27,7 @@ Click the **Report malfunction** button to create a Malfunction report — see [
 
 Saved downtimes are linked to the production order and operation and appear in the execution overview.
 
-### Editing and corrections
+### Edit downtimes
 
 Select a downtime entry to adjust times, change the tag, add equipment, or delete it if added by mistake.
 

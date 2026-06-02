@@ -77,7 +77,7 @@ Ko so vse zahtevane vrednosti vnesene, kliknite **Objavi**, da se inicializira v
 >
 > Finančno zalogo omogočite v **Sistem / Nastavitve / Nastavitve glavne knjige** z vklopom možnosti **Finančna zaloga omogočena**.
 
-### Brisati začetno stanje
+### Izbrisati začetno stanje
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati iz zaslona za urejanje.
 

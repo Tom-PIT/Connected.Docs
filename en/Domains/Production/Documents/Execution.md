@@ -42,21 +42,22 @@ The main execution screen shows key information for the current production order
 | **11** | **Produce** button — records produced quantity |
 | **12** | Activity (action) button leading to the activity selection page |
 
-
 ### Operation controls
 
 ![Stop](../Images/ExecutionTop.png "Execution controls")
 
 ## Execution process 
 
-### Starting production
+### Start production
 
 You can start an operation in two ways:
 
 #### **1. Press Start**
+
 Click **Start** to begin the operation.
 
 #### **2. Press Produce (starts automatically)**
+
 If you press **Produce**, the system:
 
 - Starts the operation automatically  
@@ -66,23 +67,11 @@ If you press **Produce**, the system:
   
   ![Produce](../Images/ExecutionProductionFinished.png "Execution progress")
 
-### Pausing production
+### Pause production
 
 Press **Pause** to temporarily stop the operation. This does **not** finish production — it only pauses it until resumed.
 
 ![Execution Top Pause](../Images/ExecutionTopPause.png "Execution Pause button")
-
-### Stopping / finishing production
-
-Press **Stop** to finish the current operation.
-
-![Execution Top Stop](../Images/ExecutionTopStop.png "Execution Stop button")
-
-Usually, workers press **Stop** when all items are produced and all checklists, losses, and records are completed.
-
-If stopped early (e.g., 1/3 produced), the operation completes with partial production.
-
-Once all operations in the production order are finished, the [**Production order**](ProductionOrders.md) moves to the **Closed** status.
 
 ### Checklists and quality controls
 
@@ -143,14 +132,21 @@ Record working time for the operation. See [**Effort**](Effort.md) for detailed 
 
 View operation instructions linked to the current operation. See [**Instructions**](Instructions.md) for a detailed guide.
 
-## Completion of execution
+## Complete execution
 
-Once all production is completed:
+Press **Stop** to complete the current operation.
 
-1. All required quantities are produced  
-2. All losses and downtimes are recorded  
-3. All quality checkpoints are completed  
-4. Click **Stop**
+![Execution Top Stop](../Images/ExecutionTopStop.png "Execution Stop button")
 
-The operation switches to **Finished**, and when all operations in the production order are finished, the **Production order** moves to the **Closed** status.
+Before completing the operation, ensure that:
+
+- All required quantities are produced
+- All losses and downtimes are recorded
+- All quality checkpoints are completed
+
+Once the operation is completed, it is marked as **Finished**.
+
+If the operation is stopped before the planned quantity is produced, it is completed with partial production.
+
+When all operations in the production order are completed, the production order moves to the **Closed** status.
 

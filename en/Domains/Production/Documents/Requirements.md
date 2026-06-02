@@ -43,7 +43,7 @@ Filters appear on the left side of the screen and allow you to adjust which plan
 
 Only materials required by operations that fall within the selected time and organizational unit range are included.
 
-### Viewing consumption details
+### View consumption details
 
 Click the expand arrow next to a material to display all operations that use it:
 
@@ -65,7 +65,7 @@ The number appears in:
 - **orange** if stock is less than the requirements.
 - **red** if stock is **0**.
 
-## Creating a supply order
+## Create a supply order
 
 The **Stock** column displays a **+** sign next to the quantity:
 
