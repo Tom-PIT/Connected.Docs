@@ -47,7 +47,7 @@ Kliknite na **šifro** v seznamu, da odprete vnos v načinu urejanja. Po potrebi
 
 Kliknite **Shrani**, da potrdite spremembe, ali **Prekliči**, da jih zavržete.
 
-## Brisati mersko enoto
+## Izbrisati mersko enoto
 
 Odprite vnos iz seznama in kliknite **Izbriši**. Brisanje potrdite v potrditvenem oknu.
 

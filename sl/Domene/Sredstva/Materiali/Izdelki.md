@@ -156,7 +156,7 @@ Za urejanje obstoječega izdelka kliknite **Ime** izdelka v seznamu. Vmesnik se 
 
 ![Urejanje izdelka](../Images/EditProduct.png "Urejanje izdelka")
 
-## Brisati izdelek
+## Izbrisati izdelek
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

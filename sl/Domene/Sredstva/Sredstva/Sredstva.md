@@ -124,7 +124,7 @@ Seznam sredstev lahko filtrirate z uporabo:
 
 Ti filtri pomagajo pri iskanju določenih sredstev in poenostavijo upravljanje obsežnih katalogov.
 
-## Brisati sredstvo
+## Izbrisati sredstvo
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odstranite izbrano sredstvo.
 

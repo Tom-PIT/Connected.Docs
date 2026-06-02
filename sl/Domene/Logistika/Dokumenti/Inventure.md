@@ -114,7 +114,7 @@ Možnosti so na voljo tako za *osnutke* kot za *objavljene* dokumente.
 
 ![Meni inventure](../Images/InterWarehouseMenuOptions.png)
 
-## Brisati inventurni dokument
+## Izbrisati inventurni dokument
 
 - V zaslonu za upravljanje inventurnimi dokumenti kliknite na **Izbriši**, da odstranite **osnutek** inventurnega dokumenta. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Objavljenih inventurnih dokumentov **ni mogoče izbrisati ali razveljaviti**.

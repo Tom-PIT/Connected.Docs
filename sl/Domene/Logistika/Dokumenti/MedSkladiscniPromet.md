@@ -106,7 +106,7 @@ Možnosti so na voljo tako za *osnutke* kot za *objavljene* dokumente.
 
 ![Meni med-skladiščnega prometa](../Images/InterWarehouseMenuOptions.png)
 
-### Brisati dokument med-skladiščnega prometa
+### Izbrisati dokument med-skladiščnega prometa
 
 Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo nobenih postavk**.
 

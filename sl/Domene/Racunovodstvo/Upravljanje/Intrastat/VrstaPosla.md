@@ -54,7 +54,7 @@ Kliknite šifro v seznamu, da jo odprete v načinu urejanja. Po potrebi posodobi
 
 Kliknite **Shrani**, da uveljavite spremembe, ali **Prekliči**, da jih zavržete.
 
-### Brisati vrsto posla
+### Izbrisati vrsto posla
 
 Odprite zapis iz seznama in kliknite **Izbriši**. Brisanje potrdite v pogovornem oknu.
 

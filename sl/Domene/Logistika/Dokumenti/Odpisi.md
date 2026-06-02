@@ -94,7 +94,7 @@ V **objavljenem** dokumentu odpisa je v meniju (ikona hamburger) na voljo možno
 
 Meni **ni na voljo** za osnutke dokumentov odpisa.
 
-### Brisati dokument odpisa
+### Izbrisati dokument odpisa
 
 Osnutke dokumentov odpisa je mogoče izbrisati na zaslonu za urejanje, vendar samo, če **ne vsebujejo nobenih postavk**.
 

@@ -93,7 +93,7 @@ Ta povezava poveže sredstvo s kontom zaloge in se uporablja za prikaz vrednosti
 
 To omogoča različno knjiženje prihodkov glede na prodajni trg.
 
-## Brisati povezave sredstva in konta
+## Izbrisati povezave sredstva in konta
 
 Povezavo sredstva in konta je mogoče izbrisati samo, če ni uporabljena v obstoječih knjiženjih računov.
 

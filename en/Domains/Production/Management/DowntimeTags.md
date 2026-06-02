@@ -28,7 +28,7 @@ The list displays all downtime tags defined in the system. The **Search** bar fi
 
 ![Downtime tags list](../Images/DowntimeTagsList.png)
 
-## Creating a new downtime tag
+## Create a new downtime tag
 
 1. Click on the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 
@@ -40,7 +40,7 @@ The list displays all downtime tags defined in the system. The **Search** bar fi
 
 3. Click **Add** to save the new tag.
 
-## Editing an existing tag
+## Edit an downtime tag
 
 To edit a tag:
 
@@ -52,7 +52,7 @@ To edit a tag:
 3. (Optional) Disable the tag by unchecking **Active**.  
 4. Click **Save**.
 
-## Deletion
+## Delete a downtime tag
 
 A downtime tag can be deleted from its Edit page by clicking **Delete**. If confirmed, the tag is removed from the system.
 

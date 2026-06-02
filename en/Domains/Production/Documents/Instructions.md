@@ -10,7 +10,7 @@ The **Instructions** activity displays articles from the knowledge base attached
 
 Open **Instructions** from the [**Execution**](Execution.md) screen via the activity selection menu (tap the [action button](../../../Common/UI/ActionButton.md), then choose **Instructions**).
 
-## Viewing instructions
+## View instructions
 
 1. Open the **Instructions** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).  
 
@@ -29,10 +29,10 @@ Instruction articles may include:
 - Notes specific to the operation or product  
 
 > [!NOTE]
-> Articles themselves can be updated by authorized staff in the [Knowledge base domain](../../Knowledge/KnowledgeBase/KnowledgeBase.md).
+> Articles themselves can be updated by authorized staff in the [**Knowledge base** domain](../../Knowledge/KnowledgeBase/KnowledgeBase.md).
 
-## Editing and updates
+## Edit and update instructions
 
-Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../Management/Operations.md) and use the **Article** field to link existing [Knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) content.
+Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../Management/Operations.md) and use the **Article** field to link existing [knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) content.
 
 

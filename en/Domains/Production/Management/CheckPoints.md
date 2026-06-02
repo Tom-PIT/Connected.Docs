@@ -37,7 +37,7 @@ The list displays all check points belonging to the selected checklist, sorted b
 
 Use the search bar to filter check points by name or code.
 
-## Creating a new check point
+## Create a new check point
 
 1. Click on the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.  
 2. Fill in the fields described in the schema:  
@@ -56,13 +56,13 @@ Use the search bar to filter check points by name or code.
 > [!NOTE]
 > Some specifics may appear based on the selected **Type**. See [Specifics by Type](#specifics-by-type) for details.
 
-## Editing an existing check point
+## Edit an existing check point
 
 1. Select a check point from the list.  
 2. Modify any field, including **Type**, **Category**, or **Instructions**.  
 3. Click **Save**.
 
-## Deletion
+## Delete a check point
 
 Check points can be deleted freely unless restricted by a workflow configuration. To remove one, open the check point and click **Delete**.
 

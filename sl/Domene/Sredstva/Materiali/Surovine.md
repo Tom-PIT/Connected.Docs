@@ -153,7 +153,7 @@ Kliknite ime surovine v seznamu, da odprete zaslon za urejanje.
 
 ![Urejanje surovine](../Images/EditRawMaterial.png "Urejanje surovine")
 
-## Brisati surovino
+## Izbrisati surovino
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

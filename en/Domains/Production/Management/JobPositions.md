@@ -42,7 +42,7 @@ Clicking **Add user resource** opens a dialog where you can select one or more e
 
 Click the [**Action Button**](../../../Common/UI/ActionButton.md) to add a new job position.
 
-### Add new job position
+### Create a new job position
 
 Fill in the required information:
 
@@ -55,10 +55,14 @@ Fill in the required information:
 
 Click **Add** to save the new position.
 
-## Deletion
+### Edit a job position
 
-Click **Delete** on the edit screen to remove a job position. If confirmed, the record is permanently deleted.
+To edit an existing job position, click on its name in the list. This opens the edit screen where you can modify the position's details.
 
-> [!NOTE]  
+## Delete a job position
+
+Click a job position on the list to open the edit screen, then click **Delete**. If confirmed, the record is permanently deleted.
+
+> [!WARNING]
 > Job positions can be deleted freely, even if users are assigned to them.
 

@@ -52,7 +52,7 @@ Kliknite **šifro** tarife v seznamu, da jo odprete v načinu urejanja. Po potre
 
 Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisati tarife
+## Izbrisati tarife
 
 Odprite tarifo iz seznama in kliknite **Izbriši**. Brisanje potrdite v pogovornem oknu.
 

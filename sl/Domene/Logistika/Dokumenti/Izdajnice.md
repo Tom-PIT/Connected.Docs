@@ -125,7 +125,7 @@ Ko kliknete šifro dokumenta v seznamu izdajnih dokumentov:
 
 ![Pregled izdajnice](../Images/IssueReviewing.png "Pregled izdajnice")
 
-## Brisati izdajnice
+## Izbrisati izdajnice
 
 Osnutke je mogoče izbrisati le, če **ne vsebujejo nobenih postavk**.
 

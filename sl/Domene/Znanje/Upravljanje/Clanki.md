@@ -97,7 +97,7 @@ Ko je možnost **Sodelovanje** omogočena, lahko uporabniki dodajajo komentarje 
 
 To omogoča povratne informacije, pojasnila in razpravo neposredno na dokumentaciji.
 
-## Brisati članek
+## Izbrisati članek
 
 Kliknite **Izbriši** na zaslonu za urejanje članka, da odprete potrditveno pogovorno okno:
 

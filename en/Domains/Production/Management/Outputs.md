@@ -40,7 +40,7 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
 - **Delete all outputs** – Deletes all outputs linked to the operation.
 
-## Creating a new output
+## Create a new output
 
 1. Click the **action button** in the bottom-right corner and choose one of the following:
 
@@ -55,12 +55,12 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
 3. Click **Add** to save the output.
 
-## Editing an output
+## Edit an output
 
 1. Click an existing output in the list.  
 2. Modify any of the fields.  
 3. Click **Save**.
 
-## Deletion
+## Delete an output
 
-An output entry can be deleted from its Edit page by clicking **Delete**. If confirmed, it is removed from the operation.
+Click an existing output in the list to open the edit page, then click **Delete**. If confirmed, it is removed from the operation.

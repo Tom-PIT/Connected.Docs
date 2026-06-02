@@ -43,7 +43,7 @@ Filtri se nahajajo na levi strani zaslona in omogočajo prilagoditev, katere pla
 
 V izračun so vključeni samo materiali, ki jih zahtevajo operacije znotraj izbranega časovnega intervala in organizacijske enote.
 
-### Ogled podrobnosti porabe
+### Ogledati podrobnosti porabe
 
 Kliknite puščico za razširitev ob materialu, da prikažete vse operacije, ki ga uporabljajo:
 
@@ -65,7 +65,7 @@ Sistem prikaže številke porabe z barvno kodo:
 - **Oranžno** – če je zaloga manjša od potreb.
 - **Črno** – če je zaloga zadostna za pokritje porabe.
 
-## Ustvarjanje nabavnega naloga
+## Ustvariti nabavni nalog
 
 V stolpcu **Zaloga** je gumb **+** poleg številke količine.
 

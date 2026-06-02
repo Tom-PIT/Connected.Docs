@@ -115,7 +115,7 @@ Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 - Konti, vezani na stroškovna mesta, se pogosto uporabljajo za sledenje proizvodnji, delu in režijskim stroškom.
 - Kontni plan mora biti definiran pred ustvarjanjem temeljnic, računov ali zalogovnih transakcij.
 
-## Brisati konto
+## Izbrisati konto
 
 Konto je mogoče izbrisati na zaslonu za urejanje s klikom na gumb **Izbriši**. Izbrišete ga lahko le, samo če **ni uporabljen** v:
 

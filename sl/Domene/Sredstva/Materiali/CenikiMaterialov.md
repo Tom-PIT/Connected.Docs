@@ -126,7 +126,7 @@ Ustvari kopijo obstoječega cenika, vključno z obdobjem veljavnosti in vsebino.
 
 Zaslon **Uvoz** omogoča uvoz CSV datoteke s seznamom postavk cenika.
 
-## Brisati cenik materialov
+## Izbrisati cenik materialov
 
 Cenik materialov je mogoče izbrisati **samo, če ne vsebuje nobenih podrobnosti materialov**.
 

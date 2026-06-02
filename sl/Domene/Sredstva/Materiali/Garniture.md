@@ -58,7 +58,7 @@ Garniture so povezane z **[Demontaže](../../Logistika/Dokumenti/Demontaze.md)**
 
 Garnituro lahko razstavite, na primer ob prevzemu, če želite posamezne komponente uporabiti ali prodati ločeno. Razstavljanje ustvari logistične dokumente, ki odstranijo garnituro iz zaloge in hkrati vnesejo njene komponente v zalogo glede na definirane količine.
 
-## Brisati garniture
+## Izbrisati garniture
 
 Posamezne komponente lahko odstranite iz garniture tako, da jih izberete in kliknete **Izbriši**.  
 Po potrditvi se komponenta odstrani iz nadrejene garniture.

@@ -25,7 +25,7 @@ A status color is shown for each checklist:
 > If a checklist point cannot be completed (e.g., missing material), complete the available steps, then use **Repeat** to run the checklist again when the condition is met.
 
 
-## Repeating a checklist
+## Repeat a checklist
 
 1. Open the **Quality** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).
 2. Review the checklist shown for your operation (if multiple are available).
@@ -36,9 +36,9 @@ A status color is shown for each checklist:
 Saved results are linked to the production order and operation and appear in the execution overview.
 
 
-## Editing and corrections
+## Edit a checklist 
 
-- Re-open a checklist to adjust entries where allowed by your process.
+- Re-open a checklist to adjust entries when allowed by your process.
 - Use **Repeat** to perform the checklist again when required.
 
 ## See also

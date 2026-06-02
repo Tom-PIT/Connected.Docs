@@ -168,7 +168,7 @@ Prikazuje prizadete materiale, njihove lokacije, izvorne količine in razveljavl
 
 ![Podrobnosti storna](../Images/ReversalsDetailsSection.png "Podrobnosti storna")
 
-### Brisati dokument storna
+### Izbrisati dokument storna
 
 Na zaslonu za urejanje kliknite **Izbriši**, da odstranite **osnutek** dokumenta storna. Po potrditvi se dokument odstrani iz sistema brez vpliva na zalogo ali izvirni dokument.
 

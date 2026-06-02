@@ -106,7 +106,7 @@ S tem se ustvari osnutek demontaže, predizpolnjen na podlagi prejetih paketov, 
 
 V zgornjem desnem kotu kliknite **meni (ikona hamburger)** za tiskanje **nalepk serijskih številk**, če je tiskalnik konfiguriran.
 
-### Brisati dokument demontaže
+### Izbrisati dokument demontaže
 
 - Osnutke demontaž lahko izbrišete s klikom na **Izbriši** v urejanju. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Objavljenih dokumentov demontaže praviloma **ni mogoče izbrisati**.

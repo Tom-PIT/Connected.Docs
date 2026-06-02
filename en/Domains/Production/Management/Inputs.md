@@ -40,7 +40,7 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
 - **Delete all inputs** – Deletes all inputs linked to the operation.
 
-## Creating a new input
+## Create a new input
 
 1. Click the **action button** in the bottom-right corner and choose one of the following:
 
@@ -55,7 +55,7 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
 3. Click **Add** to save the new input.
 
-## Editing an input
+## Edit an input
 
 To edit an existing input:
 
@@ -63,6 +63,6 @@ To edit an existing input:
 2. Adjust the fields as needed.
 3. Click **Save**.
 
-## Deletion
+## Delete an input
 
-An input can be deleted from its Edit page by clicking **Delete**. If confirmed, it is removed from the operation.
+Click the entry in the list to enter its Edit page, then click **Delete**. If confirmed, it is removed from the operation.

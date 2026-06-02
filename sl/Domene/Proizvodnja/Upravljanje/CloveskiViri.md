@@ -39,7 +39,7 @@ Za filtriranje po imenu vira uporabite polje **Iskanje**.
 
 ![Seznam človeških virov](../Images/HumanResourcesList.png "Seznam človeških virov")
 
-## Ustvarjanje novega človeškega vira
+## Ustvariti novi človeški vir
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov** (ali možnost kopiranja, če je na voljo).
 2. Izpolnite polja:
@@ -55,12 +55,12 @@ Za filtriranje po imenu vira uporabite polje **Iskanje**.
 
 3. Kliknite **Dodaj**, da shranite vnos.
 
-## Urejanje človeškega vira
+## Urediti človeški vir
 
 1. Kliknite vrstico vira v seznamu, da odprete stran za urejanje.
 2. Po potrebi prilagodite **Tip**, **Vir**, **Tip kalkulacije**, **Količino**, **Oznake** ali **Neobvezno**.
 3. Kliknite **Shrani**.
 
-## Brisanje
+## Izbrisati človeški vir
 
 Vnos človeškega vira lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi je vnos odstranjen iz operacije.

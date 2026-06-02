@@ -195,7 +195,7 @@ Kliknite kodo dokumenta na seznamu, da odprete zaslon za urejanje. Lahko:
 
 ![Pregled prevzema](../Images/ReceiveReviewing.png "Pregled prevzema")
 
-### Brisati prevzemne dokumente
+### Izbrisati prevzemne dokumente
 
 Osnutke je mogoče izbrisati le, če **ne vsebujejo nobenih postavk**.  
 Če osnutek še vsebuje postavke, uporabite možnost **Izbriši vse postavke** v **Meniju**.

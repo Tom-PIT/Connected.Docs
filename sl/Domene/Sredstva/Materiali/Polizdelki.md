@@ -162,7 +162,7 @@ Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja.
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-## Brisati polizdelek
+## Izbrisati polizdelek
 
 Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 

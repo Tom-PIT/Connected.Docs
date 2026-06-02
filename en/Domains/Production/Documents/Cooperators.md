@@ -101,7 +101,7 @@ After the material is received, the operation is no longer pending.
 > 
 > The varnished Pine tables are ready to be returned from the cooperator. You create a **Supply order** for the varnishing service, then a **Receive** to bring the tables into stock. The operation disappears from **For receive**.
 
-## Completing the operation
+## Complete the operation
 
 Once the returned material is available:
 - The operator can open the operation in **[Execution](Execution.md)** and proceed as usual (produce, record losses/downtime, confirm checklists).

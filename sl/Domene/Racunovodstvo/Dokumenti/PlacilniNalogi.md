@@ -129,7 +129,7 @@ Plačilne naloge je mogoče izvoziti v **XML** iz menija dokumenta.
 - Kliknite meni (ikona hamburger) v zgornjem desnem kotu
 - Izberite **Izvoz v XML**
 
-## Brisati plačilne naloge
+## Izbrisati plačilne naloge
 
 Plačilne naloge je mogoče izbrisati, dokler so v stanju **Osnutek**.
 

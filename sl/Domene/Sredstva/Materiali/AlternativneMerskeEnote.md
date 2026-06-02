@@ -74,7 +74,7 @@ Imamo material, ki se v zalogi vodi v metrih, vendar se skladišči in pakira v 
 
 Kliknite obstoječi vnos na seznamu, da ga uredite, uporabite spremembe in kliknite **Shrani**. Lahko pa kliknete **Prekliči**, da zavržete spremembe in se vrnete na seznam.
 
-### Brisati alternativne merske enote
+### Izbrisati alternativne merske enote
 
 Na seznamu izberite alternativno mersko enoto in uporabite **Izbriši** za njeno odstranitev. Po potrditvi bo alternativna merska enota izbrisana iz sistema.
 

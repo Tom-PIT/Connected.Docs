@@ -40,7 +40,7 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 - **Izbriši vse vhode** – Izbriše vse vhode, povezane z operacijo.
 
-## Dodajanje novega vhoda
+## Ustvariti novi vhod
 
 1. Kliknite **akcijski gumb** v spodnjem desnem kotu in izberite eno od možnosti:
 
@@ -55,7 +55,7 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 3. Kliknite **Dodaj**, da shranite novi vhod.
 
-## Urejanje vhoda
+## Urediti vhod
 
 Za urejanje obstoječega vhoda:
 
@@ -63,6 +63,6 @@ Za urejanje obstoječega vhoda:
 2. Po potrebi prilagodite polja.
 3. Kliknite **Shrani**.
 
-## Brisanje
+## Izbrisati vhod
 
-Vhod lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi se vhod odstrani iz operacije.
+Kliknite vnos na seznamu, da odprete stran za urejanje, nato kliknite **Izbriši**. Po potrditvi se vhod odstrani iz operacije.

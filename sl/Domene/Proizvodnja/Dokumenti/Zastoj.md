@@ -10,7 +10,7 @@ Aktivnost **Zastoj** beleži prekinitve med izvajanjem operacije (npr. čakanje 
 
 **Zastoj** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire aktivnosti (tapnite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in nato izberite **Zastoj**).
 
-## Beleženje zastoja
+## Zabeležiti zastoj
 
 ![Zastoj](../Images/ExecutionDowntimePageV2.png "Beleženje zastoja")
 
@@ -27,7 +27,7 @@ Kliknite gumb **Prijavi napako** za ustvarjanje poročila o napaki — glejte [*
 
 Shranjeni zastoji so povezani s proizvodnim nalogom in operacijo ter so prikazani v pregledu izvedbe.
 
-### Urejanje in popravki
+### Urediti zastoj
 
 Izberite zapis zastoja za prilagoditev časov, spremembo oznake, dodajanje opreme ali brisanje zapisa, če je bil dodan pomotoma.
 

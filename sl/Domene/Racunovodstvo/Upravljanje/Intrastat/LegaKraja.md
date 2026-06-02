@@ -52,7 +52,7 @@ Kliknite na šifro v seznamu, da jo odprete v urejevalnem načinu. Po potrebi po
 
 Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za preklic.
 
-### Brisati lego kraja
+### Izbrisati lego kraja
 
 Odprite vnos iz seznama in kliknite **Izbriši**. Brisanje potrdite v pogovornem oknu.
 

@@ -40,7 +40,7 @@ Use the **Search** bar to filter by resource name.
 
 ![Human resources list](../Images/HumanResourcesList.png "Human resources list")
 
-## Creating a new human resource entry
+## Create a new human resource entry
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner and choose **New** (or a copy option, if available).
 2. Fill in the fields:
@@ -56,12 +56,12 @@ Use the **Search** bar to filter by resource name.
 
 3. Click **Add** to save the entry.
 
-## Editing a human resource entry
+## Edit a human resource entry
 
 1. Click a resource row in the list to open the Edit page.  
 2. Adjust **Type**, **Resource**, **Calculation type**, **Quantity**, **Tags**, or **Optional** as needed.  
 3. Click **Save**.
 
-## Deletion
+## Delete a human resource entry
 
 A human resource entry can be deleted from its Edit page by clicking **Delete**. If confirmed, it is removed from the operation.

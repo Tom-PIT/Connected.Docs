@@ -10,7 +10,7 @@ Aktivnost **Poraba** beleži porabo vhodnih materialov med izvajanjem operacije.
 
 Zaslon **Poraba** odprete iz glavne strani [**Izvedba**](Izvedba.md) preko izbire aktivnosti (klik na [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbira **Poraba**).
 
-## Beleženje porabe
+## Zabeležiti porabo materiala
 
 ![Seznam porabe materiala](../Images/ExecutionConsumptionList.png "Beleženje porabe materiala")
 

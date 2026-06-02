@@ -24,7 +24,7 @@ Pri vsaki kontrolni listi je prikazana barva stanja:
 > [!NOTE]
 > Če posamezne točke kontrolne liste ni mogoče zaključiti (npr. zaradi manjkajočega materiala), izvedite razpoložljive korake, nato uporabite **Ponovi**, ko je pogoj izpolnjen.
 
-## Ponovno izvajanje kontrolne liste
+## Ponoviti kontrolno listo
 
 1. Odprite stran **Kvaliteta** iz [**menija aktivnosti izvedbe**](Izvedba.md#meni-aktivnosti-in-dejavnosti).
 2. Preglejte prikazano kontrolno listo za operacijo (če jih je več).
@@ -34,7 +34,7 @@ Pri vsaki kontrolni listi je prikazana barva stanja:
 
 Shranjeni rezultati so povezani s proizvodnim nalogom in operacijo ter so vidni v pregledu izvedbe.
 
-## Urejanje in popravki
+## Urediti kontrolno listo
 
 - Kontrolno listo lahko ponovno odprete in po potrebi prilagodite vnose, kjer to dovoljuje proces.
 - Za ponovno izvajanje kontrolne liste uporabite **Ponovi**.

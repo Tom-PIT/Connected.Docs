@@ -40,7 +40,7 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 - **Izbriši vse izhode** – Izbriše vse izhode, povezane z operacijo.
 
-## Ustvarjanje novega izhoda
+## Ustvariti novi izhod
 
 1. Kliknite **akcijski gumb** v spodnjem desnem kotu in izberite eno izmed možnosti:
 
@@ -55,12 +55,12 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 3. Kliknite **Dodaj**, da shranite izhod.
 
-## Urejanje izhoda
+## Urediti izhod
 
 1. Kliknite obstoječi izhod na seznamu.  
 2. Spremenite želena polja.  
 3. Kliknite **Shrani**.
 
-## Brisanje
+## Izbrisati izhod
 
-Vnos izhoda lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi se izhod odstrani iz operacije.
+Kliknite obstoječi izhod na seznamu, da odprete stran za urejanje, nato kliknite **Izbriši**. Po potrditvi se izhod odstrani iz operacije.

@@ -61,7 +61,7 @@ Razdelek **Članki** omogoča pregled uporabe oznake pred spremembami ali brisan
 
 Kliknite **Shrani** ali **Prekliči**.
 
-## Brisati oznako imenika
+## Izbrisati oznako imenika
 
 Kliknite **Izbriši**, da odprete potrditveno pogovorno okno:
 

@@ -36,7 +36,7 @@ Each checklist entry includes a **Check points** button used to manage the steps
 
 The list includes a **Tags** filter on the left, allowing you to show only checklists associated with specific tags.
 
-## Creating a new checklist
+## Create a new checklist
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 2. Fill in the following fields:
@@ -50,7 +50,7 @@ The list includes a **Tags** filter on the left, allowing you to show only check
 
 3. Click **Add** to create the checklist.
 
-## Managing check points
+## Manage check points
 
 Each checklist may contain one or more **check points**, which define the specific steps or validations required during its execution.
 
@@ -65,7 +65,7 @@ This opens the **Check points** page, where you can add, edit, delete, and reord
 
 For detailed information, see **[Check points](Checkpoints.md)**.
 
-## Editing a checklist
+## Edit a checklist
 
 To edit an existing checklist:
 
@@ -73,7 +73,7 @@ To edit an existing checklist:
 2. Modify the **Name**, **Description**, **Tags**, or **Execution roles** as needed.
 3. Click **Save**.
 
-## Deletion
+## Delete a checklist
 
 A checklist can be deleted freely from its Edit page by clicking **Delete**. If confirmed, the checklist is permanently removed from the system.
 

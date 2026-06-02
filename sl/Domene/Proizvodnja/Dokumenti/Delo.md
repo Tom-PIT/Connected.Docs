@@ -10,7 +10,7 @@ Aktivnost **Delo** se uporablja za beleženje porabljenega delovnega časa na op
 
 Aktivnost **Delo** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire aktivnosti (tapnite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in nato izberite **Delo**).
 
-## Beleženje dela
+## Zabeležiti delo
 
 ![Vnos dela](../Images/ExecutionEffortPage.png "Vnos dela")
 
@@ -38,7 +38,7 @@ S tem se časovni interval zabeleži samodejno.
 
 Kliknite **Dodaj delo**, da shranite zapis.
 
-## Urejanje in popravki
+## Urediti delo
 
 Zabeležena dela se prikažejo v seznamu pod obrazcem.
 

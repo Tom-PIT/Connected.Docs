@@ -126,7 +126,7 @@ Vsa polja – vključno s stroški podizvajalca in operacijami – je mogoče sp
 
 Ko zaključite z urejanjem, kliknite **Shrani**. Če sprememb ne želite shraniti, kliknite **Prekliči**.
 
-## Brisati strošek
+## Izbrisati strošek
 
 Na zaslonu za urejanje kliknite **Izbriši**, da trajno odstranite strošek.
 

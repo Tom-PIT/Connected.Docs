@@ -131,7 +131,7 @@ Kadar temeljnica nastane iz drugega dokumenta:
 
 Ta povezava zagotavlja **popolno sledljivost** med operativnimi dokumenti in njihovim računovodskim učinkom.
 
-## Brisati temeljnice
+## Izbrisati temeljnice
 
 Temeljnico je mogoče izbrisati **samo**, če je v stanju **Osnutek** in ni povezana z dokončanimi izvornimi dokumenti.
 

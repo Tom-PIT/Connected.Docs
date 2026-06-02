@@ -143,7 +143,7 @@ Pri zaključenih dokumentih razdelek **Povezave dokumentov** omogoča ustvarjanj
 
 ![Povezani dokumenti](../Images/ReceivedInvoicesCommitedTop.png)
 
-## Brisati prejeti račun
+## Izbrisati prejeti račun
 
 Dokumente v stanju **Osnutek** lahko izbrišete v urejanju, vendar **le, če ne vsebujejo postavk**.
 
