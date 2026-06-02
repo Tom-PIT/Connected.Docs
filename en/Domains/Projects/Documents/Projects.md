@@ -12,6 +12,15 @@ This section focuses on **working with existing projects**: monitoring status, v
 
 To access projects, go to **Projects / Projects** in the [**navigation**](../../../Common/UI/Navigation.md).
 
+## Project lifecycle
+
+Projects can be in one of the following states:
+- **Pending** — Planned but not yet started
+- **Active** — Currently in execution
+- **Closed** — Completed projects
+
+The project status reflects overall progress and is managed from **[Project management](../Management/ProjectsManagement.md)**.
+
 ## Projects overview
 
 The Projects page displays all available projects as cards.
@@ -83,7 +92,7 @@ From this view, users can:
 This screen provides a **project-level overview** of tasks.  
 Detailed task execution, effort logging, and status handling are also covered in **[Tasks](Tasks.md)**.
 
-## Creating a new task
+## Create a new task
 
 Tasks are created **from inside a project**.
 
@@ -125,17 +134,3 @@ From this section, users can:
 - Review the project description
 
 Notes provide a central place for project-related decisions, updates, and shared information.
-
-## Project lifecycle
-
-Projects can be in one of the following states:
-- **Pending** — Planned but not yet started
-- **Active** — Currently in execution
-- **Closed** — Completed projects
-
-The project status reflects overall progress and is managed from **[Project management](../Management/ProjectsManagement.md)**.
-
-## Related documentation
-
-- **[Tasks](Tasks.md)** — Managing tasks within projects   
-- **[Project management](../Management/ProjectsManagement.md)** — Creating and configuring projects  

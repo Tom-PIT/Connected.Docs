@@ -42,11 +42,11 @@ Use the date selector on the left to navigate between dates.
 
 ## Actions
 
-### Viewing details
+### View details
 
 Click on a **production order code** to open its detailed view.
 
-### Moving planned orders
+### Move planned orders
 
 Planned orders can be **rescheduled** directly in the calendar using drag & drop.
 
@@ -58,7 +58,7 @@ Planned orders can be **rescheduled** directly in the calendar using drag & drop
 > [!NOTE]
 > It is not possible to move a production order beyond its **due date** defined in the [production order](../../Production/Documents/ProductionOrders.md#dates).
 
-### Order information
+### Display order information
 
 Hovering over a planned order displays additional details such as:
 

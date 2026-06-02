@@ -47,6 +47,8 @@ The search field allows filtering by project code or name.
 
 ## Actions
 
+### Create a new project
+
 Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new project.
 
 When creating or editing a project, the fields described in the [**Schema**](#schema) section above are available.
@@ -55,13 +57,13 @@ When creating or editing a project, the fields described in the [**Schema**](#sc
 
 Click **Create** to save the project.
 
-## Editing a project
+### Edit a project
 
 Click on a project in the list to open the edit screen, with all the same fields as when creating a new project.
 
 When you are done editing, click **Save** to apply the changes.
 
-## Kanban board columns
+### Kanban board columns
 
 Each project can define its own **Kanban board columns**, used to track task progress visually. Kanban columns are **project-specific**.
 
@@ -82,8 +84,7 @@ Kanban columns are applied only to the selected project and are used when workin
 - Kanban columns define the workflow stages for tasks
 - They control which values are available in the task **Status** dropdown menu
 
-
-## Management screen
+### Management screen
 
 Click on the **Management** button to open the Management screen.
 
@@ -96,16 +97,11 @@ From this screen you can:
 - Access Kanban board configuration
 - Delete the project
 
-## Deletion
+### Delete a project
 
 Projects can be deleted from the **project management** screen. When deleting a project, a confirmation dialog is displayed:
 
 *Are you sure you want to delete record?*
 
 Once deleted, the project is permanently removed.
-
-## Related documentation
-
-- **[Projects](../Documents/Projects.md)** — Project overview and progress tracking  
-- **[Tasks](../Documents/Tasks.md)** — Managing tasks within projects   
 

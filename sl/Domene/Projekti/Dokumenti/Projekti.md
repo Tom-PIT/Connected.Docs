@@ -12,6 +12,15 @@ Ta razdelek je namenjen **delu z obstoječimi projekti**: spremljanju statusa, p
 
 Za dostop do projektov pojdite na **Projekti / Projekti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
+## Življenjski cikel projekta
+
+Projekt je lahko v enem izmed naslednjih stanj:
+- **V obdelavi** — projekt je načrtovan, vendar še ni aktiven
+- **Aktiven** — projekt se izvaja
+- **Zaprt** — projekt je zaključen
+
+Status projekta odraža splošni napredek in se upravlja v dokumentu **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)**.
+
 ## Pregled projektov
 
 Stran **Projekti** prikazuje vse razpoložljive projekte v obliki kartic.
@@ -43,7 +52,7 @@ Na levi strani lahko s filtri omejite seznam projektov:
 
 Projekte lahko razvrščate tudi po **prioriteti** ali **datumu zaključka** z možnostmi v zgornjem desnem kotu.
 
-## Pregled projekta
+## Urediti projekt
 
 S klikom na projekt se odpre **pregled projekta**, ki ponuja celovit vpogled v stanje in izvajanje projekta.
 
@@ -83,7 +92,7 @@ V tem pogledu lahko uporabniki:
 Ta zaslon ponuja **projektni pregled opravil**.  
 Podrobnosti o izvajanju opravil, beleženju časa in upravljanju statusov so opisane v dokumentu **[Opravila](Opravila.md)**.
 
-## Ustvarjanje novega opravila
+## Ustvariti novo opravilo
 
 Opravila se ustvarjajo **znotraj projekta**.
 
@@ -125,19 +134,3 @@ V tem razdelku lahko uporabniki:
 - pregledajo opis projekta
 
 Opombe predstavljajo osrednje mesto za projektne odločitve, posodobitve in skupne informacije.
-
-## Življenjski cikel projekta
-
-Projekt je lahko v enem izmed naslednjih stanj:
-- **V obdelavi** — projekt je načrtovan, vendar še ni aktiven
-- **Aktiven** — projekt se izvaja
-- **Zaprt** — projekt je zaključen
-
-Status projekta odraža splošni napredek in se upravlja v dokumentu **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)**.
-
-## Povezana dokumentacija
-
-- **[Opravila](Opravila.md)** — upravljanje opravil znotraj projektov  
-- **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)** — ustvarjanje in konfiguracija projektov
-
----

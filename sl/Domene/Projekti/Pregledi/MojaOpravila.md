@@ -58,5 +58,3 @@ Izvajanje opravil in delo z njimi poteka popolnoma enako kot v splošnem pogledu
 Za podrobnejše informacije o strukturi opravil, njihovem življenjskem ciklu in beleženju časa glejte:
 - **[Opravila](../Dokumenti/Opravila.md)** — podrobno izvajanje in sledenje opravil
 - **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)** — nastavitev in upravljanje projektov
-
----

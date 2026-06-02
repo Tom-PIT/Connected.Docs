@@ -58,5 +58,3 @@ Task execution and detailed task handling behave exactly the same as in the gene
 For detailed information about task structure, lifecycle, and effort recording, see:
 - **[Tasks](../Documents/Tasks.md)** — Detailed task execution and tracking
 - **[Project management](../Management/ProjectsManagement.md)** — Project setup and configuration
-
----

@@ -46,7 +46,7 @@ Za premikanje med datumi uporabite izbirnik datuma na levi strani.
 
 Klik na **kodo proizvodnega naloga** odpre njegov podroben pogled.
 
-### Premikanje planiranih nalogov
+### Premakniti planirane naloge
 
 Planirane naloge lahko **prestavite** neposredno v koledarju z metodo povleci in spusti (drag & drop).
 
@@ -58,7 +58,7 @@ Planirane naloge lahko **prestavite** neposredno v koledarju z metodo povleci in
 > [!NOTE]
 > Proizvodnega naloga ni mogoče prestaviti preko njegovega **roka izdelave**, ki je določen v [proizvodnem nalogu](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md#datumi).
 
-### Informacije o nalogu
+### Pregledati informacijo o nalogu
 
 Ob premiku miške nad planiranim nalogom se prikažejo dodatne informacije:
 
