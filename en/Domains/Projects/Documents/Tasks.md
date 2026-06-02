@@ -63,13 +63,13 @@ The left panel allows filtering tasks by:
 
 Filters can be combined to quickly narrow down relevant tasks.
 
-## Task detail view
+## Edit a task
 
 Click a task to open the **task detail screen**, where users can review information, add comments, attach files, and record work.
 
 ![Task detail view](../Images/TasksView.png "Task detail view")
 
-## Creating tasks
+## Create a task
 
 Tasks are created **from within a project**, not from the task list.
 
@@ -85,7 +85,7 @@ To create a task:
 Tasks support a simple, flexible workflow that reflects how work is carried out in practice.  
 As work progresses, users update the **task status**, optionally record **effort**, and add **comments or attachments** as needed.
 
-### 1. Starting work on a task
+### 1. Start work on a task
 
 When a worker opens a task from the task list or from a project:
 
@@ -95,7 +95,7 @@ When a worker opens a task from the task list or from a project:
 
 Tasks are ready to be worked on immediately after creation.
 
-### 2. Updating task status (Kanban workflow)
+### 2. Update the task status (Kanban workflow)
 
 Each task has a **Status** field.  
 The available status values come from the **Kanban columns defined for the project**.
@@ -114,7 +114,7 @@ This allows the task to move through the project workflow step by step, providin
 
 > The task lifecycle (Pending → Active → Closed) is driven by these status changes.
 
-### 3. Recording effort (optional)
+### 3. Record effort (optional)
 
 While working on a task, users can record the time spent on it.  
 Effort tracking is **optional** and depends on company-specific rules.
@@ -149,7 +149,7 @@ Click **Add effort** to save the entry.
 
 Multiple effort records can be added to the same task.
 
-### 4. Collaboration during execution
+### 4. Collaborate during execution
 
 During task execution, users can:
 - Add comments to share updates or notes
@@ -158,7 +158,7 @@ During task execution, users can:
 
 This keeps all task-related communication in one place.
 
-### 5. Completing a task
+### 5. Complete a task
 
 Once the work is finished:
 1. The worker updates the **Status** to the final Kanban column (for example *Done*)
@@ -169,8 +169,3 @@ Closed tasks:
 - Keep a full history of comments, attachments, and recorded effort
 
 ![Closed tasks](../Images/TasksListClosed.png "Closed tasks")
-
-## Related documentation
-
-- **[Projects](Projects.md)** — Project overview and progress tracking  
-- **[Project management](../Management/ProjectsManagement.md)** — Creating and configuring projects  

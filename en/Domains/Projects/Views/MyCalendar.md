@@ -21,7 +21,7 @@ Tasks are displayed in a calendar format based on their **start** and **end date
 
 Both **monthly** and **weekly** views are available and can be switched using the view selector in the top-right corner.
 
-## Displaying tasks in the calendar
+## Display tasks in the calendar
 
 To appear in **My calendar**, a task must have:
 
@@ -34,7 +34,7 @@ These dates are defined directly on the task.
 
 Once the dates are saved, the task automatically appears in the calendar for the assigned user.
 
-## Interacting with calendar entries
+## Interact with calendar entries
 
 Click a task in the calendar to open a **task detail pop-up**, allowing the user to:
 
@@ -57,5 +57,3 @@ It complements the **My tasks** list by providing a time-oriented perspective on
 For detailed information about task structure, lifecycle, and effort recording, see:
 - **[Tasks](../Documents/Tasks.md)** — Detailed task execution and tracking
 - **[Project management](../Management/ProjectsManagement.md)** — Project setup and configuration
-
----

@@ -45,7 +45,7 @@ Na levi strani seznama lahko projekte filtrirate po:
 
 Iskalno polje omogoča filtriranje po imenu projekta.
 
-## Dejanja
+## Ustvariti projekt
 
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega projekta.
 
@@ -55,7 +55,7 @@ Pri ustvarjanju novega projekta so na voljo polja, opisana v razdelku **Shema**.
 
 Kliknite **Dodaj**, da shranite projekt.
 
-## Urejanje projekta
+## Urediti projekt
 
 S klikom na projekt v seznamu se odpre zaslon za urejanje, ki vsebuje enaka polja kot pri ustvarjanju novega projekta.
 
@@ -95,17 +95,10 @@ Na tem zaslonu lahko:
 - dostopate do nastavitev kanban stolpcev,
 - izbrišete projekt.
 
-## Brisanje
+## Brisati projekt
 
 Projekt lahko izbrišete na zaslonu za upravljanje projekta. Ob brisanju se prikaže potrditveno okno:
 
 *Ali ste prepričani, da želite izbrisati zapis?*
 
 Po potrditvi je projekt trajno odstranjen iz sistema.
-
-## Povezana dokumentacija
-
-- **[Projekti](../Dokumenti/Projekti.md)** – pregled projektov in spremljanje napredka  
-- **[Opravila](../Dokumenti/Opravila.md)** – upravljanje opravil znotraj projektov  
-
----

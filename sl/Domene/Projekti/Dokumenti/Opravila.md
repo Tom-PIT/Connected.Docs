@@ -63,9 +63,9 @@ Levi panel omogoča filtriranje opravil po:
 
 Filtre je mogoče kombinirati za hitrejše iskanje ustreznih opravil.
 
-## Podroben pogled opravila
+## Urediti opravila
 
-S klikom na opravilo se odpre **podrobni pogled**, kjer lahko uporabniki:
+S klikom na opravilo se odpre **podrobni pogled**, kjer se lahko:
 - pregledajo vse informacije,
 - dodajajo komentarje,
 - pripenjajo datoteke,
@@ -73,7 +73,7 @@ S klikom na opravilo se odpre **podrobni pogled**, kjer lahko uporabniki:
 
 ![Pogled opravila](../Images/TasksViewSL.png)
 
-## Ustvarjanje opravil
+## Ustvariti opravilo
 
 Opravila se ustvarjajo **znotraj projekta**, ne neposredno iz seznama opravil.
 
@@ -172,10 +172,3 @@ Zaprta opravila:
 - ohranijo celotno zgodovino komentarjev, priponk in časa.
 
 ![Zaprta opravila](../Images/TasksListClosedSL.png)
-
-## Povezana dokumentacija
-
-- **[Projekti](Projekti.md)** – pregled in spremljanje projektov  
-- **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)** – ustvarjanje in nastavitev projektov
-
----

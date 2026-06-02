@@ -57,5 +57,3 @@ Dopolnjuje pogled **Moja opravila**, saj ponuja časovno usmerjeno perspektivo d
 Za podrobnejše informacije o strukturi opravil, njihovem življenjskem ciklu in beleženju dela glejte:
 - **[Opravila](../Dokumenti/Opravila.md)** — podrobno izvajanje in spremljanje opravil
 - **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)** — nastavitev in konfiguracija projektov
-
----
