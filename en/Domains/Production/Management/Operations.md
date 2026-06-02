@@ -95,7 +95,7 @@ Each operation contains several sub-pages, each with its own list and screens. T
 - **[Human resources](HumanResources.md)** 
 - **[Non-human resources](NonHumanResources.md)**
 - **[Outputs](Outputs.md)** 
-- **[Expenses](Expenses.md)**
+- **[Expenses](../../Supply/Management/Expenses.md)**
 - **[Quality](QualityChecklists.md)**
 
 You can access these from the operation entry:

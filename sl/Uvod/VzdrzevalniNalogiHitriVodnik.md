@@ -23,7 +23,7 @@ Vzdrževalni nalog prikazuje:
 
 Vsa vzdrževalna dela se izvajajo v razdelku **Operacije**.
 
-![Aktiven vzdrževalni nalog](../Images/MaintenanceOrdersNewActive.png "Aktiven vzdrževalni nalog")
+![Aktiven vzdrževalni nalog](Images/MaintenanceOrdersNewActive.png "Aktiven vzdrževalni nalog")
 
 ## 2. Odprite operacijo
 
@@ -38,7 +38,7 @@ Zaslon vključuje:
   - nečloveški viri
   - napor
 
-![Izvajanje operacije vzdrževalnega naloga](../Images/MaintenanceOrdersOperationScreen.png "Izvajanje operacije vzdrževalnega naloga")
+![Izvajanje operacije vzdrževalnega naloga](Images/MaintenanceOrdersOperationScreen.png "Izvajanje operacije vzdrževalnega naloga")
 
 ## 3. Izpolnite kontrolne liste (če so zahtevani)
 
@@ -56,7 +56,7 @@ Za nadaljevanje izpolnite kontrolni seznam in kliknite **Zaključi**.
 > **Pomembno**  
 > Zahtevani kontrolni seznami morajo biti zaključeni pred nadaljevanjem operacije.
 
-![Kontrolni seznam operacije](../Images/MaintenanceOrderOperationChecklist.png "Kontrolni seznam operacije")
+![Kontrolni seznam operacije](Images/MaintenanceOrderOperationChecklist.png "Kontrolni seznam operacije")
 
 ## 4. Sledite navodilom
 
@@ -105,7 +105,7 @@ Po zaključku:
 - je operacija označena kot **Zaključena**
 - v vzdrževalnem nalogu je prikazana kot zaključena
 
-![Zaključena vzdrževalna operacija](../Images/MaintenanceOrdersOperationsDetails.png "Zaključena vzdrževalna operacija")
+![Zaključena vzdrževalna operacija](Images/MaintenanceOrdersOperationsDetails.png "Zaključena vzdrževalna operacija")
 
 ## 8. Nadaljujte z naslednjo operacijo
 
@@ -114,4 +114,6 @@ Vrnite se na vzdrževalni nalog in ponovite korake za naslednjo operacijo.
 Ko so vse operacije zaključene, je vzdrževalno delo zaključeno in
 zabeleženo za opremo.
 
----
+## Povezani vodniki
+
+[**Izvedba – Hitri uporabniški vodnik**](IzvedbaHitriVodnik.md)

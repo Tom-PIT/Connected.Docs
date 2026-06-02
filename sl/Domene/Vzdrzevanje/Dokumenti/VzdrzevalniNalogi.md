@@ -70,7 +70,7 @@ Iskalno polje omogoča filtriranje po kodi vzdrževalnega naloga ali nazivu opre
 
 ## Ustvarjanje vzdrževalnega naloga
 
-Za ustvarjanje vzdrževalnega naloga uporabite [vodeni čarovnik](VzdrzevalniNalogiUstvarjanje.md).
+Za ustvarjanje vzdrževalnega naloga uporabite [vodeni čarovnik](VrdrzevalniNalogiUstvarjanje.md).
 
 ## V obdelavi vzdrževalni nalogi
 
