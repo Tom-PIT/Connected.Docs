@@ -81,8 +81,6 @@ Prikazuje povprečni čas med napakami.
 
 Ta kazalnik se pogosto uporablja za oceno zanesljivosti opreme.
 
----
-
 ![Kazalniki vzdrževanja – časovni kazalniki](../Images/MaintenanceIndicatorsCardsExtra.png "Časovni kazalniki vzdrževanja")
 
 ### Povprečni čas za zaznavo napake
@@ -136,5 +134,3 @@ Vizualni označevalniki v seznamu omogočajo hitro razlikovanje tipov nalogov:
 
 To omogoča enostavno analizo vpliva korektivnega vzdrževanja
 na skupne kazalnike uspešnosti.
-
----

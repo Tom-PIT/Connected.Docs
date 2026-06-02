@@ -33,10 +33,9 @@ Filtri na levi strani omogočajo zoženje seznama po:
 
 Iskalno polje omogoča iskanje opreme po nazivu.
 
-## Dodajanje stanja števca
+## Ustvariti stanja števca
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo
-stanje števca.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo stanje števca.
 
 ![Dodaj stanje števca](../Images/ResourceWorkHoursCountersNew.png)
 
@@ -52,7 +51,7 @@ Kliknite **DODAJ**, da ustvarite novo stanje števca.
 > Za posamezno kombinacijo opreme in merske enote lahko obstaja samo **eno**
 > stanje števca.
 
-## Urejanje vrednosti števca
+## Urediti vrednosti števca
 
 Vrednosti števcev je mogoče posodabljati neposredno v seznamu.
 
@@ -100,5 +99,3 @@ Naslednji primer prikazuje uporabo števcev za sprožanje vzdrževalnih nalogov:
 
 Ta pristop zagotavlja, da se vzdrževanje sproža na podlagi
 **dejanske uporabe opreme**, namesto fiksnih časovnih intervalov.
-
----

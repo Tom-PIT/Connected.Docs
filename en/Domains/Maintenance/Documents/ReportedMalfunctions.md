@@ -52,7 +52,7 @@ The detail view includes:
 
 From this screen, maintenance teams can review the issue and decide on the appropriate corrective action.
 
-## Creating a malfunction report
+## Create a malfunction report
 
 To create a new malfunction report, click the [**action button**](../../../Common/UI/ActionButton.md).
 
@@ -61,7 +61,7 @@ To create a new malfunction report, click the [**action button**](../../../Commo
 Fill in the malfunction details and click **Report**. The new entry appears in the malfunction list.
 
 
-## Creating a maintenance order from a malfunction
+## Create a maintenance order from a malfunction report
 
 From the malfunction detail screen, click **Create maintenance order** to generate a [maintenance order](MaintenanceOrders.md) based on the reported issue.
 
@@ -76,5 +76,3 @@ This action creates a new **curative maintenance order** with the following beha
 ![Create Maintenance Order from Malfunction](../Images/ReportedMalfunctionsMaintenanceOrder.png)
 
 Once created, the maintenance order follows the standard maintenance order life cycle and can be activated and executed from the [**Maintenance orders**](MaintenanceOrders.md) screen.
-
----

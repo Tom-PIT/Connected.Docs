@@ -38,7 +38,7 @@ Klik na kartico ustrezno filtrira seznam.
 
 Iskalno polje omogoča filtriranje po kodi napake ali nazivu opreme.
 
-## Podrobnosti napake
+## Urediti prijavljene napake
 
 Klik na napako v seznamu odpre zaslon s podrobnostmi napake.
 
@@ -54,10 +54,9 @@ Pogled podrobnosti vključuje naslednja polja:
 - **Dodeljeno** – Oseba, odgovorna za obravnavo napake
 - **Prioriteta** – Prioriteta napake
 
-Na tem zaslonu lahko vzdrževalne ekipe pregledajo prijavljeno napako in
-se odločijo o ustreznem korektivnem ukrepu.
+Na tem zaslonu lahko vzdrževalne ekipe pregledajo prijavljeno napako in se odločijo o ustreznem korektivnem ukrepu.
 
-## Ustvarjanje prijave napake
+## Ustvariti prijavo napake
 
 Za ustvarjanje nove prijave napake kliknite
 [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
@@ -67,7 +66,7 @@ Za ustvarjanje nove prijave napake kliknite
 Izpolnite podatke o napaki in kliknite **PRIJAVI**.
 Nova prijava se prikaže v seznamu prijavljenih napak.
 
-## Ustvarjanje vzdrževalnega naloga iz napake
+## Ustvariti vzdrževalni nalog iz napake
 
 Na zaslonu s podrobnostmi napake kliknite **Ustvari vzdrževalni nalog**, da
 ustvarite [**vzdrževalni nalog**](VzdrzevalniNalogi.md) na podlagi prijavljene napake.
@@ -84,5 +83,3 @@ To dejanje ustvari **kurativni vzdrževalni nalog** z naslednjimi lastnostmi:
 
 Ko je vzdrževalni nalog ustvarjen, sledi standardnemu življenjskemu ciklu in je
 na voljo v pogledu [**Vzdrževalni nalogi**](VzdrzevalniNalogi.md).
-
----

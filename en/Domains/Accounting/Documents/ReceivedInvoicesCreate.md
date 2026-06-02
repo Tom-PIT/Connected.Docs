@@ -5,7 +5,7 @@
 
 # How to create a new received invoice
 
-[Received invoices](ReceivedInvoices.md) are created to record incoming invoices from suppliers. They can be linked to one or more [supply orders](../../Nabava/Dokumenti/NabavniNalogi.md), which allows the system to suggest postings based on the received goods or services, and their associated costs.
+[Received invoices](ReceivedInvoices.md) are created to record incoming invoices from suppliers. They can be linked to one or more [supply orders](../../Supply/Documents/SupplyOrders.md), which allows the system to suggest postings based on the received goods or services, and their associated costs.
 
 ## Create a new received invoice
 

@@ -11,6 +11,18 @@ Maintenance schedules are created as part of planned maintenance and ensure that
 
 To access maintenance schedules, go to **Maintenance / Maintenance schedule** in the [**navigation**](../../../Common/UI/Navigation.md).
 
+## Relation to maintenance orders
+
+Maintenance schedules work in close relation with maintenance orders:
+
+- Each schedule automatically generates **pending maintenance orders**
+- Generated orders appear in:
+  - [**Maintenance orders**](MaintenanceOrders.md)
+  - [**Maintenance calendar**](MaintenanceCalendar.md)
+- After a maintenance order is completed, the schedule continues generating the next execution according to its configuration
+
+This ensures that preventive maintenance is continuous and does not rely on manual task creation—whether based on time or usage counts.
+
 ## List of maintenance schedules
 
 The Maintenance Schedule page displays all existing schedules created from planned maintenance orders.
@@ -47,7 +59,7 @@ Use the filters on the left to narrow down the list:
 
 The search bar allows filtering by equipment name or process.
 
-## How maintenance schedules are created
+## Create a maintenance schedule
 
 Maintenance schedules are created **automatically** when a planned maintenance order is configured with a **recurring execution pattern**.
 
@@ -60,7 +72,7 @@ Supported recurring execution patterns include:
 
 Once created, the schedule is responsible for generating future maintenance orders according to the defined interval or usage threshold, so preventive maintenance can continue without manually creating new orders.
 
-## Editing a maintenance schedule
+## Edit a maintenance schedule
 
 To edit a maintenance schedule, click on **Schedule** under an entry in the Maintenance Schedule list.
 
@@ -68,7 +80,7 @@ This opens the **Maintenance schedule – Edit** screen, where you can modify ho
 
 ![Maintenance Schedule Edit](../Images/MaintenanceScheduleEdit.png)
 
-### Schedule interval
+### Schedule an interval
 
 The **Schedule interval** section defines the recurrence logic for the maintenance schedule.
 
@@ -105,17 +117,3 @@ Click **Save** to apply changes to the schedule.
 > [!NOTE]
 > Changes to a maintenance schedule affect **future maintenance orders only**.  
 > Maintenance orders that have already been created are not modified.
-
-## Relation to maintenance orders
-
-Maintenance schedules work in close relation with maintenance orders:
-
-- Each schedule automatically generates **pending maintenance orders**
-- Generated orders appear in:
-  - [**Maintenance orders**](MaintenanceOrders.md)
-  - [**Maintenance calendar**](MaintenanceCalendar.md)
-- After a maintenance order is completed, the schedule continues generating the next execution according to its configuration
-
-This ensures that preventive maintenance is continuous and does not rely on manual task creation—whether based on time or usage counts.
-
----

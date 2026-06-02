@@ -21,7 +21,7 @@ The maintenance order shows:
 
 All maintenance work is carried out through the **Operations** section.
 
-![Active maintenance order](../Images/MaintenanceOrdersNewActive.png "Active maintenance order")
+![Active maintenance order](Images/MaintenanceOrdersNewActive.png "Active maintenance order")
 
 ## 2. Open an operation
 
@@ -36,7 +36,7 @@ The screen includes:
   - Non-human resources
   - Effort
 
-![Maintenance order operation execution](../Images/MaintenanceOrdersOperationScreen.png "Maintenance order operation execution")
+![Maintenance order operation execution](Images/MaintenanceOrdersOperationScreen.png "Maintenance order operation execution")
 
 ## 3. Complete checklists (when required)
 
@@ -52,7 +52,7 @@ To continue, complete the checklist and click **Finish**.
 > **Important**  
 > Required checklists must be completed before continuing with the operation.
 
-![Operation checklist](../Images/MaintenanceOrderOperationChecklist.png "Operation checklist")
+![Operation checklist](Images/MaintenanceOrderOperationChecklist.png "Operation checklist")
 
 ## 4. Follow instructions
 
@@ -77,12 +77,14 @@ This ensures correct material tracking and traceability.
 Effort represents the time spent working on the operation.
 
 ### Automatic effort tracking
+
 1. Open the **Effort** section
 2. Click **Start**
 3. Perform the maintenance work
 4. Click **Stop** when finished
 
 ### Manual effort entry
+
 1. Open the **Effort** section
 2. Enter the required time information
 3. Save the entry
@@ -100,10 +102,14 @@ Once completed:
 - The operation is marked as **Completed**
 - It appears as completed in the maintenance order
 
-![Completed maintenance operation](../Images/MaintenanceOrdersOperationsDetails.png "Completed maintenance operation")
+![Completed maintenance operation](Images/MaintenanceOrdersOperationsDetails.png "Completed maintenance operation")
 
 ## 8. Continue with the next operation
 
 Return to the maintenance order and repeat the steps for the next operation.
 
 After all operations are completed, the maintenance work is finished and recorded for the equipment.
+
+## Related guides
+
+- [**Execution – Quick User Guide**](ExecutionQuickUserGuide.md)

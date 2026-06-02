@@ -16,6 +16,21 @@ ustvarjanja nalogov.
 Za dostop do urnikov vzdrževanja pojdite na **Vzdrževanje / Urniki vzdrževanja**
 v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
 
+## Povezava z vzdrževalnimi nalogi
+
+Urniki vzdrževanja delujejo v tesni povezavi z vzdrževalnimi nalogi:
+
+- vsak urnik samodejno generira **vzdrževalne naloge v obdelavi**
+- ustvarjeni nalogi so vidni v:
+  - [**Vzdrževalni nalogi**](VzdrzevalniNalogi.md)
+  - [**Koledar vzdrževanja**](KoledarVzdrzevanja.md)
+- po zaključku vzdrževalnega naloga urnik nadaljuje z generiranjem
+  naslednje izvedbe v skladu s svojo konfiguracijo
+
+To zagotavlja, da je preventivno vzdrževanje neprekinjeno in ne temelji
+na ročnem ustvarjanju nalog—ne glede na to, ali je osnovano na času ali
+na uporabi.
+
 ## Seznam urnikov vzdrževanja
 
 Stran **Urniki vzdrževanja** prikazuje vse obstoječe urnike, ustvarjene iz
@@ -56,7 +71,7 @@ Za zoženje seznama uporabite filtre na levi strani:
 
 Iskalno polje omogoča filtriranje po nazivu opreme ali procesu.
 
-## Kako se ustvarijo urniki vzdrževanja
+## Ustvariti urnik vzdrževanja
 
 Urniki vzdrževanja se ustvarijo **samodejno**, ko je planirani
 vzdrževalni nalog konfiguriran s **ponavljajočim vzorcem izvedbe**.
@@ -74,7 +89,7 @@ Ko je urnik ustvarjen, je odgovoren za generiranje prihodnjih
 vzdrževalnih nalogov v skladu z določenim intervalom ali pragom uporabe,
 kar omogoča neprekinjeno preventivno vzdrževanje brez ročnega dela.
 
-## Urejanje urnika vzdrževanja
+## Urediti urnik vzdrževanja
 
 Za urejanje urnika vzdrževanja kliknite **Urnik** pri posameznem zapisu
 v seznamu urnikov vzdrževanja.
@@ -125,20 +140,3 @@ Kliknite **Shrani**, da uveljavite spremembe urnika.
 > [!NOTE]
 > Spremembe urnika vzdrževanja vplivajo **samo na prihodnje vzdrževalne naloge**.  
 > Že ustvarjeni vzdrževalni nalogi se ne spreminjajo.
-
-## Povezava z vzdrževalnimi nalogi
-
-Urniki vzdrževanja delujejo v tesni povezavi z vzdrževalnimi nalogi:
-
-- vsak urnik samodejno generira **vzdrževalne naloge v obdelavi**
-- ustvarjeni nalogi so vidni v:
-  - [**Vzdrževalni nalogi**](VzdrzevalniNalogi.md)
-  - [**Koledar vzdrževanja**](KoledarVzdrzevanja.md)
-- po zaključku vzdrževalnega naloga urnik nadaljuje z generiranjem
-  naslednje izvedbe v skladu s svojo konfiguracijo
-
-To zagotavlja, da je preventivno vzdrževanje neprekinjeno in ne temelji
-na ročnem ustvarjanju nalog—ne glede na to, ali je osnovano na času ali
-na uporabi.
-
----

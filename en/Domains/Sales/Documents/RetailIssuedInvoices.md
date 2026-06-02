@@ -26,7 +26,7 @@ To ensure that a retail issued invoice can be fiscalized, the following conditio
 
 1. **Personal configuration:** The person creating the invoice must have a **tax number** specified in their [resource record](../../Production/Management/Resources.md).
 2. **System configuration:** The system must be configured for fiscalization, and the necessary [fiscalization settings](../../System/Settings/SalesRetailsSISettings.md) must be in place.
-3. **Cash-register configuration**: Configuration of the specific cash-register used for the transaction. This is configured by the **Tom PIT** team during implementation and is not user-configurable. Specific cash-registers are set in the [Cost centers](../../Common/Management/CostCenters.md) screen.
+3. **Cash-register configuration**: Configuration of the specific cash-register used for the transaction. This is configured by the **Tom PIT** team during implementation and is not user-configurable. Specific cash-registers are set in the [Cost centers](../../../Common/Management/CostCenters.md) screen.
 
 When these conditions are met, the retail issued invoice can be fiscalized upon publishing, ensuring compliance with tax regulations for retail sales.
 

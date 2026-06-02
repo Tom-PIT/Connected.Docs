@@ -38,4 +38,4 @@ Use the filters on the left side to refine the list:
 
 ### Viewing details
 
-Click on an **invoice number** to open the detailed view of the fiscal invoice ([retail issued invoice](../Documents/RetailIssuedInvoice.md)).
+Click on an **invoice number** to open the detailed view of the fiscal invoice ([retail issued invoice](../Documents/RetailIssuedInvoices.md)).

@@ -122,7 +122,7 @@ To resolve:
 
 ### Create a received invoice
 
-To create a received invoice, use the creation workflow explained in **[How to create received invoice](ReceivedInvoiceCreate.md)**.
+To create a received invoice, use the creation workflow explained in **[How to create received invoice](ReceivedInvoicesCreate.md)**.
 
 ### Return to draft
 

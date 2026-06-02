@@ -28,7 +28,7 @@ Filters on the left allow narrowing the list by:
 
 The search field can be used to locate equipment by name.
 
-## Adding a resource counter
+## Add a resource counter
 
 Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new counter.
 
@@ -45,7 +45,7 @@ Click **Add** to create the counter.
 >  
 > Only one counter per equipment and measure unit can exist.
 
-## Editing counter values
+## Edit counter values
 
 Counter values can be updated directly from the list.
 
@@ -88,5 +88,3 @@ The following example illustrates how resource counters are used to trigger main
 4. When the counter value is updated to **800 or higher**, the system automatically generates a new maintenance order.
 
 This approach ensures that maintenance is triggered based on **actual equipment usage** rather than fixed time intervals.
-
----
