@@ -35,7 +35,7 @@ Clicking a destination opens it for editing.
 
 ## Actions
 
-### Add travel destination
+### Add a new travel destination
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new travel destination.
 2. Fill in the fields described in the [**Schema**](#schema).
@@ -43,7 +43,7 @@ Clicking a destination opens it for editing.
 
 ![Add travel destination](../Images/TravelDestinationsNew.png "Add travel destination")
 
-### Edit travel destination
+### Edita travel destination
 
 1. Click a destination in the list.
 2. Modify the required fields.
@@ -53,6 +53,9 @@ Clicking a destination opens it for editing.
 > - Destinations can be reused across multiple travel orders.
 > - Changes to a destination affect future travel orders, not already created ones.
 
-## Deletion
+### Delete a travel destination
 
-Travel destinations can be deleted from the edit view. Deleted destinations are no longer available when creating new travel orders.
+1. Click a destination in the list to open it for editing.
+2. Click **Delete** and confirm the action.
+
+Deleted travel destinations are no longer available when creating new travel orders.

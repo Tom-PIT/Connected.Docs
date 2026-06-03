@@ -29,31 +29,37 @@ Seznamski pogled prikazuje vse definirane tipe dela v sistemu.
 
 ![Seznam tipov dela](../Images/EffortTypesList.png "Seznam tipov dela")
 
-## Ustvarjanje in urejanje tipov dela
+## Ustvariti nov tip dela
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos, ali kliknite element na seznamu za urejanje obstoječega.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov tip dela.
 
 Pri ustvarjanju ali urejanju tipa dela lahko:
 
-- nastavite **Naziv tipa dela**, ki je prikazan uporabnikom,
-- dodate neobvezen **Uredi tip dela**,
-- omogočite ali onemogočite tip dela.
+- Nastavite **naziv**, ki bo prikazan uporabnikom
+- Dodate neobvezen **opis**
+- Omogočite ali onemogočite tip dela
 
 ![Dodaj tip dela](../Images/EffortTypesNew.png "Dodaj tip dela")
 
-## Uporaba pri beleženju napora
+## Urejati tip dela
 
-Tipi dela se uporabljajo, ko uporabniki beležijo napor na opravilih in izvedbah.
+Kliknite element na seznamu, da uredite obstoječi tip dela. Spreminjate lahko naziv, opis in stanje omogočenosti.
 
-Pri dodajanju napora uporabniki izberejo tip dela iz spustnega seznama, ki je napolnjen iz te konfiguracije.
+Spremembe shranite s klikom na **Shrani**. Če želite spremembe zavreči, kliknite **Prekliči**.
 
-![Tipi dela v vnosu napora](../Images/EffortTypesInDropdown.png "Tipi dela v vnosu napora")
+## Uporabljati tipe dela pri evidentiranju dela
 
-To zagotavlja, da je zabeležen čas dosledno kategoriziran v celotnem sistemu ter podpira natančno poročanje in analizo.
+Tipi dela se uporabljajo pri evidentiranju dela na nalogah in izvajanjih.
 
-## Brisanje
+Pri dodajanju dela uporabnik izbere tip dela iz spustnega seznama, ki je ustvarjen na podlagi te konfiguracije.
 
-Tipe dela je mogoče izbrisati v pogledu za urejanje.
+![Tipi dela v spustnem seznamu](../Images/EffortTypesInDropdown.png "Tipi dela pri vnosu dela")
+
+To zagotavlja enotno kategorizacijo evidentiranega časa v celotnem sistemu ter omogoča natančnejše poročanje in analizo.
+
+## Izbrisati tip dela
+
+Kliknite element na seznamu, da odprete zaslon za urejanje, nato kliknite **Izbriši**, da odstranite tip dela.
 
 > [!NOTE]
-> Izbrisani tipi dela niso več na voljo za nove vnose časa, vendar ne vplivajo na zgodovinske podatke.
+> Izbrisani tipi dela niso več na voljo za nove vnose časa, ne vplivajo pa na obstoječe zgodovinske podatke.

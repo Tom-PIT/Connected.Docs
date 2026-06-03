@@ -33,7 +33,9 @@ Seznam časovnih planov prikazuje vse definirane časovne plane.
 
 Z osrednjim definiranjem časovnih planov organizacije zagotovijo dosledno poimenovanje in razvrščanje delovnih aktivnosti v vseh ekipah.
 
-## Ustvarjanje časovnega plana
+## Dejanja
+
+### Ustvariti nov časovni plan
 
 Za ustvarjanje novega časovnega plana:
 
@@ -43,17 +45,20 @@ Za ustvarjanje novega časovnega plana:
 
 ![Nov časovni plan](../Images/TimesheetsNew.png "Nov časovni plan")
 
-Novi časovni plan je takoj na voljo za izbiro na zaslonih za beleženje časa in napora.
+Novi časovni plan je takoj na voljo za izbiro na zaslonih za evidentiranje časa in dela.
 
-## Urejanje časovnih planov
+### Urejati časovni plan
 
-- Klik na časovni plan na seznamu ga odpre za urejanje.
-- Spremembe naziva vplivajo na prikaz kategorije povsod, kjer se uporablja.
-- Obstoječi časovni zapisi ostanejo povezani s posodobljenim časovnim planom.
+1. Kliknite časovni plan na seznamu, da ga odprete za urejanje.
+2. Po potrebi posodobite **Naziv**.
+3. Shranite spremembe.
 
 > [!NOTE]
-> Časovni plani so konfiguracijski podatki. Spremembe izvajajte previdno, zlasti če se časovni plan že pogosto uporablja v zgodovinskih zapisih.
+> Časovni plani predstavljajo konfiguracijske podatke. Spremembe izvajajte previdno, zlasti če je časovni plan že pogosto uporabljen v zgodovinskih zapisih.
 
-## Brisanje
+### Izbrisati časovni plan
 
-Časovne plane je mogoče izbrisati v pogledu za urejanje. Za brisanje kliknite **Izbriši** in potrdite dejanje.
+1. Kliknite časovni plan na seznamu, da ga odprete za urejanje.
+2. Kliknite **Izbriši** in potrdite dejanje.
+
+Izbrisani časovni plani niso več na voljo za izbiro na zaslonih za evidentiranje časa in dela.

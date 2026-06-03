@@ -102,6 +102,8 @@ Clicking on **Paid leave** opens a dialog where the user can submit a request fo
 
 ![Paid leave dialog](../Images/TimeLogsManageLeave.png "Add paid leave")
 
+#### Create a paid leave request
+
 To send a paid leave request:
 
 1. Clicking **Paid leave**
@@ -120,6 +122,8 @@ The request is then processed according to the organization’s leave management
 Clicking on **Sick leave** opens a similar dialog for recording sick leave.
 
 ![Time Logs Manage Sick Leave](../Images/TimeLogsManageSickLeave.png)
+
+### Create a sick leave request
 
 To send a sick leave request:
 

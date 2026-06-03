@@ -27,18 +27,25 @@ The list displays all defined sick leave types.
 
 This list is typically maintained by administrators or HR managers.
 
-## Creating and editing sick leave types
+## Actions
 
+### Create a new sick leave type
 
-1. 1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new entry.
-1. Enter a **Name** and set the **Status** (enabled or disabled) for the sick leave type.2. Set   
+1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new entry.
+2. Enter a **Name** and set the **Status** (enabled or disabled) for the sick leave type.
 3. Click **Save** to make the type available system-wide. 
 
 Changes take effect immediately and apply wherever sick leave is recorded.
 
-## Deletion
+### Edit a sick leave type
 
-Sick leave types can be deleted from the **edit view**. To delete a sick leave type click **Delete** and confirm the action.
+To modify an existing sick leave type, click its **Name** in the list. The edit screen allows changing the **Name** and **Status** of the type.
+
+Click **Save** to apply changes. Updated types are immediately reflected in all relevant areas of the system.
+
+### Delete a sick leave type
+
+Click on a sick leave type in the list to open the edit view, then click **Delete** and confirm the action.
 
 > [!NOTE]
 >Deletion may be restricted if the type is referenced by existing records (e.g., time logs, attendance, or leave entries). In such cases, disable the type instead of deleting it to preserve historical consistency.

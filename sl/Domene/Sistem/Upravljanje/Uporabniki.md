@@ -51,11 +51,10 @@ za urejanje njegovih podatkov.
 
 ## Dejanja
 
+### Dodati uporabnika
+
 Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novega uporabnika.
 
-### Dodaj uporabnika
-
-Kliknite **Dodaj uporabnika**, da odprete obrazec za vnos novega uporabnika.
 Obrazec vključuje osebne podatke, prijavne podatke, dodeljene vloge ter lokalizacijske nastavitve.
 
 ![Dodaj uporabnika](../Images/UsersNewSL.png "Dodaj uporabnika")
@@ -71,7 +70,7 @@ Kliknite **DODAJ**, da ustvarite uporabnika, ali **PREKLIČI**, da se vrnete na 
 > Struktura in pomen posameznih vlog sta odvisna od konfiguracije sistema,
 > poslovnega modela in operativnih potreb, zato se lahko razlikujeta med različnimi implementacijami.
 
-## Urejanje
+## Urediti uporabnika
 
 Za urejanje obstoječega uporabnika kliknite njegovo **ime** v seznamu.
 

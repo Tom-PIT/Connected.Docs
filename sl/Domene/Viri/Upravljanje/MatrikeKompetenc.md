@@ -37,7 +37,7 @@ Izbira kompetence na desni strani prikaže pogled **Uporabniki**, kjer je mogoč
 
 ![Uporabniki matrike kompetenc](../Images/CompetenceMatrixesUsers.png "Uporabniki matrike kompetenc")
 
-## Ustvarjanje matrike kompetenc
+## Ustvariti novo matriko kompetenc
 
 Za ustvarjanje nove matrike kompetenc:
 
@@ -54,7 +54,7 @@ Za ustvarjanje nove matrike kompetenc:
 
 ![Dodaj novo matriko kompetenc](../Images/CompetenceMatrixesNew.png)
 
-## Dodajanje plasti (ravni usposobljenosti)
+## Ustvariti plaste (ravni usposobljenosti) v matriko kompetenc
 
 Plasti predstavljajo **ravni usposobljenosti** znotraj kompetence (na primer *Osnovno*, *Samostojno*, *Napredno*).
 
@@ -101,14 +101,15 @@ Primeri:
 
 Takšna struktura omogoča jasno organizacijo kompetenc in lažje upravljanje v večjem obsegu.
 
-## Brisanje
+## Izbrisati matriko kompetenc ali plast
 
-Matrike kompetenc in njihove plasti je mogoče izbrisati v njihovih pogledih za urejanje.
+Matrike kompetenc in plasti je mogoče izbrisati na zaslonu za urejanje. Kliknite naziv matrike ali plasti na seznamu, da odprete njene podrobnosti, nato kliknite **Izbriši** in potrdite dejanje.
 
 Izbrisane kompetence:
-- so odstranjene iz hierarhije,
-- niso več na voljo za dodeljevanje uporabnikom,
-- ne vplivajo na zgodovinske zapise.
+
+- Se odstranijo iz hierarhije
+- Niso več na voljo za dodeljevanje uporabnikom
+- Ne vplivajo na zgodovinske zapise
 
 > [!WARNING]
-> Brisanje uporabljajte previdno, zlasti kadar so kompetence že dodeljene uporabnikom.
+> Pri brisanju bodite previdni, zlasti če so kompetence že dodeljene uporabnikom.

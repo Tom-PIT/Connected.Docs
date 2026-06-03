@@ -25,7 +25,9 @@ The list displays all configured travel order reasons.
 
 ![Travel order reasons list](../Images/TravelOrderReasonsList.png "Travel order reasons")
 
-## Creating a travel order reason
+## Actions
+
+## Create a travel order reason
 
 To create a new travel order reason:
 
@@ -35,7 +37,7 @@ To create a new travel order reason:
 
 ![Add travel order reason](../Images/TravelOrderReasonsNew.png "Add travel order reason")
 
-## Editing a travel order reason
+## Edit a travel order reason
 
 To edit an existing reason:
 
@@ -43,8 +45,8 @@ To edit an existing reason:
 2. Update the **Name** as needed.
 3. Save the changes.
 
-## Deleting a travel order reason
+## Delete a travel order reason
 
-Travel order reasons can be deleted from the edit view.
+Click the reason in the list to open it for editing, then click **Delete** and confirm the deletion.
 
 Deleted reasons are no longer available when creating new travel orders.

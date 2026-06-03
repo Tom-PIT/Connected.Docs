@@ -40,19 +40,20 @@ Hovering over a reminder opens an information tooltip showing:
 
 ![Reminder hover details](../Images/RemindersCalendarHover.png)
 
-### Editing reminders
+## Actions
 
-**Double-click** on a reminder to open it in edit mode. Reminder details such as date, category, users, and offset can be modified.
-
-## Creating a new reminder
-
+### Create a new reminder
 A new reminder is created using the reminder dialog.
 
 ![Create reminder](../Images/RemindersCalendarNew.png)
 
 The reminder dialog allows configuring the reminder date, category, users, and offset.
 
-## Reminder offset usage
+### Edit a reminder
+
+**Double-click** on a reminder to open it in edit mode. Reminder details such as date, category, users, and offset can be modified.
+
+### Reminder offset usage
 
 The reminder offset defines **when the reminder notification is triggered relative to the reminder date**.
 

@@ -31,7 +31,9 @@ Clicking on an entry opens it for editing.
 
 ![Subsistence allowances list](../Images/SubsistenceAllowancesList.png "Subsistence allowances list")
 
-## Creating a subsistence allowance
+## Actions
+
+### Create a subsistence allowance
 
 To create a new subsistence allowance:
 
@@ -43,15 +45,17 @@ To create a new subsistence allowance:
 
 ![Add subsistence allowance](../Images/SubsistenceAllowancesNew.png "Add subsistence allowance")
 
-## Editing allowances
+### Edit a substance allowance
 
-Clicking an existing allowance opens it in edit mode, where values can be adjusted as regulations or company policies change.
+Click an existing allowance opens it in edit mode, where values can be adjusted as regulations or company policies change.
 
 Changes take effect immediately and are used when calculating allowances in travel-related documents.
 
-## Deletion
+### Delete a subsistence allowance
 
-Allowances can be deleted from the edit view. To delete an allowance click **Delete** and confirm the action.
+Click an existing allowance opens it in edit mode and click **Delete**.
+
+After confirming the deletion, the allowance is removed from the list and will no longer be available for selection in travel orders.
 
 ## Usage in other modules
 

@@ -88,11 +88,11 @@ When creating or editing a travel order, the fields described in the [**Schema**
 
 ![New travel order](../Images/TravelOrdersNew.png "New travel order")
 
-#### Adding details to a travel order
+#### Add details to a travel order
 
 Each travel order can include **mileages**, **subsistence allowances**, and **expenses**. These entries are managed from the **Details** section of the travel order and contribute to the total travel cost.
 
-##### Adding mileage
+##### Add mileage to a travel order
 
 Mileage entries are used to record distance-based travel costs, typically when using a personal or company vehicle.
 
@@ -100,7 +100,7 @@ To add mileage, open the travel order, expand the **Details** section, switch to
 
 ![Add mileage](../Images/TravelOrdersDetailsMileage.png)
 
-##### Adding subsistence allowances
+##### Add subsistence allowances to a travel order
 
 Subsistence allowances are used to calculate daily travel allowances based on location and duration.
 
@@ -108,7 +108,7 @@ To add a subsistence allowance, open the **Subsistence allowances** tab in the *
 
 ![Add subsistence allowance](../Images/TravelOrdersDetailsAllowances.png)
 
-##### Adding expenses
+##### Add expenses to a travel order
 
 Expenses are used to record additional travel-related costs such as accommodation, tickets, parking, or other reimbursable items.
 
@@ -117,7 +117,7 @@ To add an expense, open the **Expenses** tab in the **Details** section and clic
 ![Add expense](../Images/TravelOrdersDetailsExpenses.png)
 
 
-### Editing travel orders
+### Edit a travel order
 
 Open a travel order from the list to edit its data while in **Draft** status. Publish the travel order to make it **read-only**. Delete a draft if it is no longer needed.
 
@@ -127,8 +127,10 @@ Open a travel order from the list to edit its data while in **Draft** status. Pu
 - Mileage, allowance, and expense totals are **calculated automatically**.
 - Vehicles list includes only **non-human resources** tagged `vehicle`.
 
-## Deletion rules
+## Delete a travel order
 
-- Travel orders can be deleted only while in **Draft** status.
-- A confirmation dialog is shown before deletion: *Are you sure you want to delete this record?*
-- Deleted travel orders are permanently removed and no longer appear in the list.
+Travel orders can be deleted only while in **Draft** status.
+
+Click on a travel order in the list to open its details, then select **Delete**. After confirming the deletion, the travel order is permanently removed from the system.
+
+Deleted travel orders are permanently removed and no longer appear in the list.

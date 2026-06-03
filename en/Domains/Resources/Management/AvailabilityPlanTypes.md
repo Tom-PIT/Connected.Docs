@@ -31,22 +31,26 @@ For each entry, the following information is visible:
 
 Clicking an item in the list opens its **edit screen**.
 
-The **action button** allows creating a new availability plan type.
+## Actions
 
-## Creating and editing availability plan types
+### Create a new availability plan type
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new entry or click on an item on the list to edit an existing one.
+Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new entry.
 
 ![Create availability plan type](../Images/AvailabilityPlanTypesNew.png "Create availability plan type")
 
 Changes are applied immediately after saving and affect all screens where availability types are selectable.
 
-## Deletion
+### Edit availability plan types
 
-Availability plan types can be deleted from the **edit screen**.
+Click on an item on the list to edit a plan type. The edit screen allows modifying the **Name**, **Type**, and **Enabled** status.
 
-Before deletion, the system displays a confirmation dialog:
+Click **Save** to apply changes or **Cancel** to discard them.
 
-> *Are you sure you want to delete this record?*
+## Delete an availability plan type
+
+Click on a plan type to open the edit screen. From there, you can delete the availability plan type.
+
+After confirming the deletion, the availability plan type is removed from the system and can no longer be assigned to availability plans.
 
 If an availability plan type is already used in availability plans or time records, deletion may be restricted depending on system configuration.

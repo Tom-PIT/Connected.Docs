@@ -35,14 +35,14 @@ Use filters on the left to narrow down resources:
 
 ## Actions
 
-### Add new cost entry
+### Create a new resource cost
 
 Use the [**action button**](../../../Common/UI/ActionButton.md) to add a new cost entry for a resource. Fill in the fields and click **Add**.
 
 ![Edit resource cost](../Images/ResourcesCostsNew.png "Edit resource cost")
 
 
-### Add cost
+### Add a new cost to an existing resource
 
 1. Expand a already existing resource and click **Add cost**.
 2. Fill in the fields described in the [**Schema**](#schema).
@@ -50,19 +50,18 @@ Use the [**action button**](../../../Common/UI/ActionButton.md) to add a new cos
 
 ![Add resource cost](../Images/ResourcesCostsAddCost.png "Add resource cost")
 
-### Edit cost
+### Edit a resource cost
 
 1. Click the **cost value** in the history list to open it for editing.
 2. Adjust the value or validity period and click **Save**.
 
+### Delete a resource cost
+
+Click the **cost value** in the list to open it and click **Delete**.
 
 ## Special behaviours / validation
 
 - Validity periods for a given resource must **not overlap**.
 - If **Valid to** is not set, the entry is treated as open-ended.
 - Cost values are used by analytics and views such as [**Work items costs**](../Views/WorkItemsCosts.md).
-
-## Deletion
-
-Costs can be removed by clicking **Delete** on the edit view.
 

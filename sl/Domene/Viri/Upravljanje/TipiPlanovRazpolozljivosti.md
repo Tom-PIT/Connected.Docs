@@ -31,22 +31,30 @@ Za vsak vnos so prikazane naslednje informacije:
 
 Klik na element v seznamu odpre njegov **zaslon za urejanje**.
 
-**Akcijski gumb** omogoča ustvarjanje novega tipa plana razpoložljivosti.
+### Ustvariti nov tip plana razpoložljivosti
 
-## Ustvarjanje in urejanje tipov planov razpoložljivosti
-
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos, ali kliknite element na seznamu za urejanje obstoječega.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
 
 ![Ustvari tip plana razpoložljivosti](../Images/AvailabilityPlanTypesNew.png "Ustvari tip plana razpoložljivosti")
 
 Spremembe se po shranjevanju uveljavijo takoj in vplivajo na vse zaslone, kjer je mogoče izbirati tipe razpoložljivosti.
 
-## Brisanje
+### Urejati tipe planov razpoložljivosti
 
-Tipe planov razpoložljivosti je mogoče izbrisati na **zaslonu za urejanje**.
+Kliknite element na seznamu, da odprete zaslon za urejanje tipa plana.
 
-Pred brisanjem sistem prikaže potrditveno pogovorno okno:
+Na zaslonu za urejanje lahko spreminjate:
 
-> *Ste prepričani da želite izbrisati tip plana razpoložljivosti?*
+- **Naziv**
+- **Tip**
+- **Omogočeno**
+
+Kliknite **Shrani**, da uveljavite spremembe, ali **Prekliči**, da jih zavržete.
+
+## Izbrisati tip plana razpoložljivosti
+
+Kliknite tip plana, da odprete zaslon za urejanje. Na zaslonu za urejanje lahko tip plana razpoložljivosti izbrišete.
+
+Po potrditvi brisanja se tip plana razpoložljivosti odstrani iz sistema in ga ni več mogoče dodeliti planom razpoložljivosti.
 
 Če je tip plana razpoložljivosti že uporabljen v planih razpoložljivosti ali časovnih evidencah, je lahko brisanje omejeno glede na konfiguracijo sistema.

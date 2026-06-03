@@ -55,13 +55,13 @@ Use **Multiple** to schedule a recurring worksheet over a date range.
 
 After saving, the worksheet appears in the calendar on the corresponding date(s).
 
-### Editing worksheets
+### Edit a worksheet
 
 Worksheets can be edited directly from the calendar view.
 
 To edit a worksheet, **double-click on the event in the calendar**. The edit dialog opens, allowing you to update its fields such as time, execution pattern, or description.
 
-## Deleting worksheets
+### Delete a worksheet
 
 Worksheets can be deleted from the **edit dialog**.
 

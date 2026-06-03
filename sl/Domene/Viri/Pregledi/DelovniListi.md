@@ -36,7 +36,7 @@ Prikazani so samo delovni listi, ki pripadajo izbranemu časovnemu planu.
 
 ## Dejanja
 
-### Ustvari nov delovni list
+### Ustvariti novi delovni list
 
 Za ustvarjanje novega delovnega lista kliknite **akcijski gumb** **+** v spodnjem desnem kotu.
 
@@ -56,13 +56,13 @@ Možnost **Večkrat** se uporablja za planiranje ponavljajočega se delovnega li
 
 Po shranjevanju se delovni list prikaže v koledarju na ustreznem datumu oziroma datumih.
 
-### Urejanje delovnih listov
+### Urediti delovni list
 
 Delovne liste je mogoče urejati neposredno iz koledarskega pogleda.
 
 Za urejanje **dvokliknite dogodek v koledarju**. Odpre se pogovorno okno za urejanje, kjer lahko posodobite polja, kot so čas, vzorec izvajanja ali opis.
 
-## Brisanje delovnih listov
+### Izbrisati delovni list
 
 Delovne liste je mogoče izbrisati iz **pogovornega okna za urejanje**.
 
@@ -78,5 +78,3 @@ Nato se prikaže še končno potrditveno pogovorno okno:
 - **»Ali ste prepričani, da želite izbrisati delovni list?«**
 
 Po potrditvi je delovni list trajno odstranjen iz sistema.
-
----

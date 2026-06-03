@@ -35,7 +35,7 @@ Klik na relacijo jo odpre za urejanje.
 
 ## Dejanja
 
-### Dodaj relacijo
+### Ustvariti novo relacijo
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove relacije.
 2. Izpolnite polja, opisana v razdelku [**Shema**](#shema).
@@ -43,7 +43,7 @@ Klik na relacijo jo odpre za urejanje.
 
 ![Dodaj relacijo](../Images/TravelDestinationsNew.png "Dodaj relacijo")
 
-### Uredi relacijo
+### Urediti relacijo
 
 1. Kliknite relacijo na seznamu.
 2. Spremenite zahtevana polja.
@@ -53,6 +53,9 @@ Klik na relacijo jo odpre za urejanje.
 > - Relacije je mogoče ponovno uporabiti v več potnih nalogih.
 > - Spremembe relacije vplivajo na prihodnje potne naloge, ne pa na že ustvarjene.
 
-## Brisanje
+### Izbrisati destinacijo potovanja
 
-Relacije je mogoče izbrisati v pogledu za urejanje. Izbrisane relacije niso več na voljo pri ustvarjanju novih potnih nalogov.
+1. Kliknite destinacijo na seznamu, da jo odprete za urejanje.
+2. Kliknite **Izbriši** in potrdite dejanje.
+
+Izbrisane destinacije potovanja niso več na voljo pri ustvarjanju novih potnih nalogov.

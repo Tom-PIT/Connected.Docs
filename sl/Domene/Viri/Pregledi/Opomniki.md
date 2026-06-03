@@ -40,17 +40,19 @@ Premik kazalca nad opomnik prikaže informativni namig z:
 
 ![Podrobnosti opomnika ob prehodu](../Images/RemindersCalendarHover.png)
 
-### Urejanje opomnikov
+## Dejanja
 
-Z **dvojnim klikom** na opomnik se ta odpre v načinu urejanja. Spremeniti je mogoče datum, kategorijo, uporabnike in zamik opomnika.
-
-## Ustvarjanje novega opomnika
+### Ustvariti novega opomnika
 
 Nov opomnik se ustvari prek pogovornega okna za opomnike.
 
 ![Ustvari opomnik](../Images/RemindersCalendarNew.png)
 
 Pogovorno okno omogoča nastavitev datuma opomnika, kategorije, uporabnikov in zamika.
+
+### Urejanje opomnikov
+
+Z **dvojnim klikom** na opomnik se ta odpre v načinu urejanja. Spremeniti je mogoče datum, kategorijo, uporabnike in zamik opomnika.
 
 ## Uporaba zamika opomnika
 
@@ -73,5 +75,3 @@ Primeri:
   → opomnik se sproži **en mesec pred datumom opomnika**.
 
 Ta mehanizem omogoča pravočasno obveščanje za opravila, kot so poteki ponudb, pregledi, sestanki ali nadaljnja dejanja.
-
----

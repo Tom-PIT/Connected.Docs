@@ -33,7 +33,9 @@ Timesheets act as **reference categories** and are used in various time and effo
 
 By defining timesheets centrally, organizations ensure consistent naming and classification of work activities across teams.
 
-## Creating a timesheet
+## Actions
+
+### Create a new timesheet 
 
 To create a new timesheet:
 
@@ -45,15 +47,18 @@ To create a new timesheet:
 
 The new timesheet becomes immediately available for selection in time and effort recording screens.
 
-## Editing timesheets
+### Edit a timesheet
 
-- Clicking on a timesheet in the list opens it for editing.
-- Changes to the name affect how the category is displayed wherever it is used.
-- Existing time records remain linked to the updated timesheet.
+1. Click on a timesheet in the list to open it for editing.
+2. Update the **Name** as needed.
+3. Save the changes.
 
 > **Note**  
 > Timesheets are configuration data. Changes should be made carefully, especially if the timesheet is already widely used in historical records.
 
-## Deletion
+### Delete a timesheet
 
-Timesheets can be deleted from the edit view. To delete a timesheet click **Delete** and confirm the action.
+1. Click on a timesheet in the list to open it for editing.
+2. Click **Delete** and confirm the action.
+
+Deleted timesheets are no longer available for selection in time and effort recording screens.
