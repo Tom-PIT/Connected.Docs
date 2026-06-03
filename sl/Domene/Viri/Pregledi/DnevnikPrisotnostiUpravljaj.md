@@ -103,6 +103,8 @@ Klik na **Dopust** odpre pogovorno okno za oddajo zahtevka za odsotnost.
 
 ![Pogovorno okno za dopust](../Images/TimeLogsManageLeaveSL.png "Dodaj dopust")
 
+#### Ustvariti novi zahtevek za dopust
+
 Za oddajo zahtevka za dopust:
 
 1. Kliknite **Dopust**
@@ -121,6 +123,8 @@ Zahtevek se nato obdela v skladu s postopkom odobritve v organizaciji (na primer
 Klik na **Bolniška odsotnost** odpre podobno pogovorno okno za vnos bolniške.
 
 ![Time Logs Manage Sick Leave](../Images/TimeLogsManageSickLeaveSL.png)
+
+#### Ustvariti novi zahtevek za bolniško odsotnost
 
 Za oddajo zahtevka za bolniško odsotnost:
 

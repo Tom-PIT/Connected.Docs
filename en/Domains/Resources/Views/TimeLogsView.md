@@ -54,7 +54,7 @@ Each row shows:
 
 ![Daily time logs](../Images/TimeLogsViewListDetail.png "Daily time logs")
 
-### Expanding a day
+### Expand a day record
 
 Clicking a day expands the row to reveal individual time entries, such as:
 
@@ -65,7 +65,7 @@ Clicking a day expands the row to reveal individual time entries, such as:
 
 Each entry displays its start and end time.
 
-## Editing time entries
+## Edit time entries
 
 Clicking on an individual entry (for example, **Work** or **Lunch**) opens the **Edit time log** dialog.
 
@@ -86,8 +86,7 @@ When editing the **From** and **To** fields, a combined **calendar and clock pic
 
 This allows precise selection of both the date and the exact time for a time log entry. Changes are applied once confirmed and reflected immediately in the daily totals.
 
-
-## Adding a new time log
+## Add a new time log
 
 Using the **action button** (bottom-right), approved users can manually add a new time entry.
 

@@ -26,7 +26,7 @@ Vsaka vrstica predstavlja eno kategorijo opomnika. Klik na kategorijo jo odpre z
 
 Aktivne kategorije so označene z modro ikono stanja, neaktivne pa s sivo ikono.
 
-## Ustvarjanje kategorije opomnika
+## Ustvariti kategorijo opomnika
 
 Za ustvarjanje nove kategorije opomnika:
 
@@ -37,7 +37,7 @@ Za ustvarjanje nove kategorije opomnika:
 
 ![Nova kategorija opomnika](../Images/ReminderCategoriesNew.png "Ustvari kategorijo opomnika")
 
-## Urejanje kategorije opomnika
+## Urediti kategorijo opomnika
 
 Za urejanje obstoječe kategorije opomnika:
 
@@ -45,7 +45,7 @@ Za urejanje obstoječe kategorije opomnika:
 2. Po potrebi spremenite **Naziv** ali **Status**.
 3. Kliknite **Shrani** za uveljavitev sprememb.
 
-## Brisanje
+## Izbrisati kategorijo opomnika
 
 Za brisanje kategorije opomnika:
 

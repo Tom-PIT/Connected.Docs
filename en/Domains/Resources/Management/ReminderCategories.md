@@ -26,7 +26,9 @@ Each row represents a single reminder category. Clicking a category opens it for
 
 Active categories are indicated by a blue status icon, while inactive ones show a gray icon.
 
-## Creating a reminder category
+## Actions
+
+### Create a reminder category
 
 To create a new reminder category:
 
@@ -37,7 +39,7 @@ To create a new reminder category:
 
 ![New reminder category](../Images/ReminderCategoriesNew.png "Create reminder category")
 
-## Editing a reminder category
+### Edit a reminder category
 
 To edit an existing reminder category:
 
@@ -45,7 +47,7 @@ To edit an existing reminder category:
 2. Modify the **Name** or **Status** as needed.
 3. Click **Save** to apply changes.
 
-## Deletion
+### Delete a reminder category
 
 To delete a reminder category:
 

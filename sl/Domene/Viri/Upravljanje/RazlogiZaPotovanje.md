@@ -25,7 +25,9 @@ Seznam prikazuje vse konfigurirane razloge za potovanje.
 
 ![Seznam razlogov za potovanje](../Images/TravelOrderReasonsList.png "Seznam razlogov za potovanje")
 
-## Ustvarjanje razloga za potovanje
+## Dejanja
+
+### Ustvariti razlog za potovanje
 
 Za ustvarjanje novega razloga za potovanje:
 
@@ -35,7 +37,7 @@ Za ustvarjanje novega razloga za potovanje:
 
 ![Dodaj razlog za potovanje](../Images/TravelOrderReasonsNew.png "Dodaj razlog za potovanje")
 
-## Urejanje razloga za potovanje
+### Urediti razlog za potovanje
 
 Za urejanje obstoječega razloga:
 
@@ -43,8 +45,8 @@ Za urejanje obstoječega razloga:
 2. Po potrebi posodobite **Ime**.
 3. Shranite spremembe.
 
-## Brisanje razloga za potovanje
+## Izbrisati razlog za potovanje
 
-Razloge za potovanje je mogoče izbrisati v pogledu za urejanje.
+Kliknite razlog na seznamu, da ga odprete za urejanje, nato kliknite **Izbriši** in potrdite brisanje.
 
 Izbrisani razlogi niso več na voljo pri ustvarjanju novih potnih nalogov.

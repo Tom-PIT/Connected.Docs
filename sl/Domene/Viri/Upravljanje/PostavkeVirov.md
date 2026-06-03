@@ -35,13 +35,13 @@ Uporabite filtre na levi strani za zoženje nabora virov:
 
 ## Dejanja
 
-### Dodaj novo postavko
+### Dodati novo postavko
 
 Za dodajanje nove postavke za vir uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md). Izpolnite polja in kliknite **Dodaj**.
 
 ![Urejanje postavke vira](../Images/ResourcesCostsNew.png "Urejanje postavke vira")
 
-### Dodaj postavko
+### Dodati postavko obstoječemu viru
 
 1. Razširite obstoječi vir in kliknite **Dodaj postavko**.
 2. Izpolnite polja, opisana v razdelku [**Shema**](#shema).
@@ -49,17 +49,17 @@ Za dodajanje nove postavke za vir uporabite [**akcijski gumb**](../../../Skupno/
 
 ![Dodaj postavko vira](../Images/ResourcesCostsAddCost.png "Dodaj postavko vira")
 
-### Uredi postavko
+### Urejati postavko
 
 1. Kliknite **vrednost postavke** v seznamu zgodovine, da jo odprete za urejanje.
 2. Prilagodite vrednost ali obdobje veljavnosti in kliknite **Shrani**.
+
+### Izbrisati postavko
+
+Kliknite **vrednost postavke** na seznamu, da odprete vnos, nato kliknite **Izbriši**.
 
 ## Posebna vedenja / validacije
 
 - Obdobja veljavnosti za posamezen vir se **ne smejo prekrivati**.
 - Če polje **Velja do** ni nastavljeno, se postavka obravnava kot časovno neomejena.
 - Vrednosti postavk uporabljajo analitika in pogledi, kot je [**Stroški opravil**](../Pregledi/StroskiOpravil.md).
-
-## Brisanje
-
-Postavke je mogoče odstraniti s klikom na **Izbriši** v pogledu za urejanje.

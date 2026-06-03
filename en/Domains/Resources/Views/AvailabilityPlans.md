@@ -35,7 +35,7 @@ Click the [**action button**](../../../Common/UI/ActionButton.md) to create a ne
 
 When creating or editing a plan, the fields described in the [**Schema**](#schema) section above are available.
 
-### Add plan
+### Add an availability plan
 
 1. Click the **+** action button.
 2. Select **Resources** and **Type**.
@@ -44,11 +44,11 @@ When creating or editing a plan, the fields described in the [**Schema**](#schem
 
 ![Add availability plan](../Images/AvailabilityPlansNew.png "Add availability plan")
 
-### Edit plan
+### Edit an availability plan
 
 Click a calendar entry to open the edit form. Adjust **Date**, **time range**, **Type**, or **Execution pattern** and save.
 
-## Deleting availability plans
+### Delete an availability plan
 
 Availability plans can be deleted from the **edit dialog**.
 

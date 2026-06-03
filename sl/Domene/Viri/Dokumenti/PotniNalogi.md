@@ -83,7 +83,7 @@ Seznam prikazuje vse potne naloge ter pregled skupnih stroškov poti.
 
 Pri ustvarjanju ali urejanju potnega naloga so na voljo polja, opisana v razdelku [**Shema**](#shema).
 
-### Ustvari nov potni nalog
+### Ustvariti novi potni nalog
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
 2. Vnesite podatke potnega naloga.
@@ -92,29 +92,29 @@ Pri ustvarjanju ali urejanju potnega naloga so na voljo polja, opisana v razdelk
 
 ![Nov potni nalog](../Images/TravelOrdersNew.png "Nov potni nalog")
 
-#### Dodajanje podrobnosti potnemu nalogu
+#### Dodati podrobnosti potnemu nalogu
 
 Vsak potni nalog lahko vsebuje **kilometrine**, **dnevnice** in **stroške**. Ti vnosi se upravljajo v razdelku **Podrobnosti** in prispevajo k skupnemu strošku poti.
 
-##### Dodaj kilometrino
+##### Dodati kilometrino v potni nalog
 
 Za dodajanje kilometrine odprite potni nalog, razširite razdelek **Podrobnosti**, izberite zavihek **Kilometrina** in kliknite **Dodaj kilometrino**. Relacija se izbere iz vnaprej definiranih [relacij](../Upravljanje/Relacije.md), skupna cena pa se izračuna samodejno glede na razdaljo, ceno na enoto in oznako povratne vožnje.
 
 ![Dodaj kilometrino](../Images/TravelOrdersDetailsMileage.png)
 
-##### Dodaj dnevnico
+##### Dodati dnevnico v potni nalog
 
 Za dodajanje dnevnice odprite zavihek **Dnevnice** v razdelku **Podrobnosti** in kliknite **Dodaj dnevnico**. Dnevnica se izbere iz šifranta [dnevnic](../Upravljanje/Dnevnice.md), sistem pa samodejno izračuna znižane, polovične in polne zneske glede na izbrano časovno obdobje in vključene obroke.
 
 ![Dodaj dnevnico](../Images/TravelOrdersDetailsAllowances.png)
 
-##### Dodaj nov strošek
+##### Dodati strošek v potni nalog
 
 Za dodajanje stroška odprite zavihek **Stroški** v razdelku **Podrobnosti** in kliknite **Dodaj nov strošek**. Stroški se izberejo iz šifranta stroškov, k vnosu pa je mogoče priložiti dokazila.
 
 ![Dodaj strošek](../Images/TravelOrdersDetailsExpenses.png)
 
-### Urejanje potnih nalogov
+### Urediti potni nalog
 
 Potni nalog iz seznama lahko urejate, dokler je v stanju **Osnutek**. Z objavo potni nalog postane **samo za branje**. Osnutek lahko izbrišete, če ni več potreben.
 
@@ -124,8 +124,10 @@ Potni nalog iz seznama lahko urejate, dokler je v stanju **Osnutek**. Z objavo p
 - Skupni zneski kilometrine, dnevnic in stroškov se **izračunajo samodejno**.
 - Seznam vozil vključuje samo **nečloveške vire**, označene kot `vehicle`.
 
-## Pravila brisanja
+## Izbrisati potni nalog
 
-- Potne naloge je mogoče izbrisati le v stanju **Osnutek**.
-- Pred brisanjem je prikazano potrditveno pogovorno okno.
-- Izbrisani potni nalogi so trajno odstranjeni in se ne prikazujejo več v seznamu.
+Potne naloge je mogoče izbrisati samo, ko so v stanju **Osnutek**.
+
+Kliknite potni nalog na seznamu, da odprete njegove podrobnosti, nato izberite **Izbriši**. Po potrditvi brisanja se potni nalog trajno odstrani iz sistema.
+
+Izbrisani potni nalogi so trajno odstranjeni in se ne prikazujejo več na seznamu.

@@ -32,7 +32,7 @@ Each paid leave request has a status that reflects its current state:
 
 The left-hand filters allow you to quickly switch between these states and focus on pending or completed requests.
 
-## Reviewing requests
+## Review and manage paid leave requests
 
 Requests with status **Not set** can be expanded directly in the list.
 
@@ -50,7 +50,7 @@ Once a decision is made:
 
 This allows managers to clearly track both pending and completed decisions.
 
-## Filtering and search
+## Filter and search paid leave requests
 
 The left sidebar provides filters to help manage larger volumes of requests:
 

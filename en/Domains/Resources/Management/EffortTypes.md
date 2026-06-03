@@ -30,9 +30,9 @@ The list shows all defined effort types in the system.
 
 ![Effort types list](../Images/EffortTypesList.png "Effort types list")
 
-## Creating and editing effort types
+## Create a new effort type
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new entry or click on an item on the list to edit an existing one.
+Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new effort type.
 
 When creating or editing an effort type, you can:
 
@@ -41,6 +41,12 @@ When creating or editing an effort type, you can:
 - Enable or disable the effort type
 
 ![Add effort type](../Images/EffortTypesNew.png "Add effort type")
+
+## Edit an effort type
+
+Click on an item on the list to edit an existing effort type. You can modify the name, description, and enabled status.
+
+Changes are saved by clicking the **Save** button. If you want to discard changes, click **Cancel**.
 
 ## Usage in effort recording
 
@@ -52,9 +58,9 @@ When adding effort, users select an effort type from a dropdown list populated f
 
 This ensures that recorded time is consistently categorized across the system, supporting accurate reporting and analysis.
 
-## Deletion
+## Delete an effort type
 
-Effort types can be deleted from the edit view. 
+Click on an item on the list to enter its edit screen, then click the **Delete** button to remove an effort type.
 
 > [!NOTE]
 > Deleted effort types are no longer available for new time entries but do not affect historical data.

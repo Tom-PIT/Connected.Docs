@@ -54,7 +54,7 @@ Vsaka vrstica prikazuje:
 
 ![Dnevni časovni vnosi](../Images/TimeLogsViewListDetail.png "Dnevni časovni vnosi")
 
-### Razširitev dneva
+### Razširiti zapis dneva
 
 Klik na posamezen dan razširi vrstico in prikaže posamezne časovne vnose, kot so:
 
@@ -65,7 +65,7 @@ Klik na posamezen dan razširi vrstico in prikaže posamezne časovne vnose, kot
 
 Vsak vnos prikazuje čas začetka in konca.
 
-## Urejanje časovnih vnosov
+## Urediti časovne vnose
 
 Klik na posamezen vnos (na primer **Delo** ali **Malica**) odpre pogovorno okno **Uredi časovni vnos**.
 
@@ -86,7 +86,7 @@ Pri urejanju polj **Od** in **Do** se uporablja kombiniran **izbirnik koledarja 
 
 To omogoča natančno izbiro datuma in časa za posamezen časovni vnos. Spremembe se po potrditvi takoj uveljavijo in so vidne v dnevnih seštevkih.
 
-## Dodajanje novega časovnega vnosa
+## Dodati nov časovni vnos
 
 S pomočjo **akcijskega gumba** (spodaj desno) lahko pooblaščeni uporabniki ročno dodajo nov časovni vnos.
 
@@ -108,5 +108,3 @@ Na dnu zaslona so prikazani seštevki za izbrano obdobje:
 - razlika med zabeleženimi in pričakovanimi urami.  
 
 Te vrednosti omogočajo jasen pregled skladnosti in morebitnih odstopanj za izbranega zaposlenega in časovno obdobje.
-
----

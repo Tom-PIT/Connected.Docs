@@ -32,7 +32,7 @@ Vsaka prošnja za dopust ima stanje, ki odraža njen trenutni status:
 
 Levi filtri omogočajo hiter preklop med stanji in osredotočanje na odprte ali že obdelane prošnje.
 
-## Obravnava prošenj
+## Pregledovati in upravljati zahtevke za dopust
 
 Prošnje v stanju **Neobdelan** je mogoče neposredno razširiti v seznamu.
 
@@ -50,7 +50,7 @@ Po sprejeti odločitvi:
 
 To omogoča jasen pregled nad čakajočimi in zaključenimi odločitvami.
 
-## Filtri in iskanje
+## Filtrirati in iskati zahtevke za dopust
 
 Leva stranska vrstica ponuja filtre za lažje upravljanje večjega števila prošenj:
 
@@ -65,5 +65,3 @@ Iskalno polje v zgornjem desnem delu omogoča hitro iskanje posameznih prošenj.
 Odobrene prošnje za dopust se samodejno odražajo v časovnih evidencah zaposlenega in so vidne v pogledu **Dnevnik prisotnosti – Pregled**.
 
 Ta zaslon je osredotočen na **odločitvene in potrditvene delovne tokove**, medtem ko so podrobni pregledi prisotnosti in ur obravnavani v drugih pogledih.
-
----

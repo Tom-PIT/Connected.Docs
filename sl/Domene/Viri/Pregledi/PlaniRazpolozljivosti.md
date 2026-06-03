@@ -37,7 +37,7 @@ Za ustvarjanje novega plana razpoložljivosti kliknite [**akcijski gumb**](../..
 
 Pri ustvarjanju ali urejanju plana so na voljo polja, opisana v razdelku [**Shema**](#shema).
 
-### Dodaj plan
+### Ustvariti nov plan razpoložljivosti
 
 1. Kliknite akcijski gumb **+**.
 2. Izberite **Vire** in **Tip**.
@@ -46,12 +46,12 @@ Pri ustvarjanju ali urejanju plana so na voljo polja, opisana v razdelku [**Shem
 
 ![Dodaj plan razpoložljivosti](../Images/AvailabilityPlansNew.png "Dodaj plan razpoložljivosti")
 
-### Uredi plan
+### Urediti plan razpoložljivosti
 
 Klik na vnos v koledarju odpre obrazec za urejanje.  
 Prilagodite **datum**, **časovni razpon**, **tip** ali **vzorec izvajanja** in shranite spremembe.
 
-## Brisanje planov razpoložljivosti
+### Izbrisati plan razpoložljivosti
 
 Plane razpoložljivosti je mogoče izbrisati iz **pogovornega okna za urejanje**.
 

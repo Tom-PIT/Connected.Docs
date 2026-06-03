@@ -31,28 +31,31 @@ Klik na vnos ga odpre za urejanje.
 
 ![Seznam dnevnic](../Images/SubsistenceAllowancesList.png "Seznam dnevnic")
 
-## Ustvarjanje dnevnice
+## Dejanja
+
+### Ustvariti dnevnico
 
 Za ustvarjanje nove dnevnice:
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
 2. Izberite **Državo**.
-3. Po potrebi določite **Poštno številko** ali mesto.
-4. Vnesite **Znesek**, **Znesek polovične** in **Znesek znižane**.
+3. Po želji določite **Poštno številko** ali mesto.
+4. Vnesite **Znesek**, **Polovični znesek** in **Znižani znesek**.
 5. Kliknite **Dodaj** za shranjevanje.
 
 ![Dodaj dnevnico](../Images/SubsistenceAllowancesNew.png "Dodaj dnevnico")
 
-## Urejanje dnevnic
+### Urejati dnevnico
 
-Klik na obstoječo dnevnico jo odpre v načinu urejanja, kjer je mogoče prilagoditi zneske glede na spremembe zakonodaje ali pravil podjetja.
+Kliknite obstoječo dnevnico, da jo odprete v načinu urejanja, kjer lahko prilagodite vrednosti glede na spremembe predpisov ali pravil podjetja.
 
-Spremembe stopijo v veljavo takoj in se uporabljajo pri izračunu dnevnic v dokumentih, povezanih s službenimi potmi.
+Spremembe začnejo veljati takoj in se uporabljajo pri izračunu dnevnic v dokumentih, povezanih s službenimi potovanji.
 
-## Brisanje
+### Izbrisati dnevnico
 
-Dnevnice je mogoče izbrisati v pogledu za urejanje.  
-Za brisanje kliknite **Izbriši** in potrdite dejanje.
+Kliknite obstoječo dnevnico, da jo odprete v načinu urejanja, nato kliknite **Izbriši**.
+
+Po potrditvi brisanja se dnevnica odstrani s seznama in ne bo več na voljo za izbiro v potnih nalogih.
 
 ## Uporaba v drugih modulih
 

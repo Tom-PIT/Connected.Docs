@@ -27,20 +27,25 @@ Seznam prikazuje vse definirane tipe bolniških odsotnosti.
 
 Ta seznam običajno vzdržujejo administratorji ali kadrovski skrbniki.
 
-## Ustvarjanje in urejanje tipov bolniških odsotnosti
+## Dejanja
 
-Za ustvarjanje ali urejanje tipa bolniške odsotnosti:
+### Ustvariti nov tip bolniške odsotnosti
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
-2. Vnesite **Ime** in nastavite **Stanje** (omogočeno ali onemogočeno) za tip bolniške odsotnosti.
-3. Kliknite **Shrani**, da tip postane na voljo v celotnem sistemu.
+2. Vnesite **Naziv** in nastavite **Status** (omogočeno ali onemogočeno) za tip bolniške odsotnosti.
+3. Kliknite **Shrani**, da bo tip na voljo v celotnem sistemu.
 
-Spremembe stopijo v veljavo takoj in se uporabljajo povsod, kjer se beleži bolniška odsotnost.
+Spremembe začnejo veljati takoj in se uporabljajo povsod, kjer se evidentira bolniška odsotnost.
 
-## Brisanje
+### Urejati tip bolniške odsotnosti
 
-Tipe bolniških odsotnosti je mogoče izbrisati v **pogledu za urejanje**.  
-Za brisanje kliknite **Izbriši** in potrdite dejanje.
+Za spreminjanje obstoječega tipa bolniške odsotnosti kliknite njegov **Naziv** na seznamu. Na zaslonu za urejanje lahko spremenite **Naziv** in **Status** tipa.
+
+Kliknite **Shrani**, da uveljavite spremembe. Posodobitve se takoj odražajo na vseh ustreznih mestih v sistemu.
+
+### Izbrisati tip bolniške odsotnosti
+
+Kliknite tip bolniške odsotnosti na seznamu, da odprete zaslon za urejanje, nato kliknite **Izbriši** in potrdite dejanje.
 
 > [!NOTE]
-> Brisanje je lahko omejeno, če je tip uporabljen v obstoječih zapisih (na primer v časovnih evidencah, prisotnosti ali odsotnostih). V takih primerih tip raje onemogočite, da ohranite zgodovinsko doslednost.
+> Brisanje je lahko omejeno, če je tip uporabljen v obstoječih zapisih (npr. časovnih evidencah, evidencah prisotnosti ali odsotnosti). V takšnih primerih tip raje onemogočite namesto brisanja, da ohranite skladnost zgodovinskih podatkov.

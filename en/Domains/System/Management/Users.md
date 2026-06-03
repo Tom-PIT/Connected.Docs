@@ -39,11 +39,11 @@ You may **search**, **sort**, or open a user to edit its details.
 
 ## Actions
 
+### Create a new user
+
 Click the [action button](../../../Common/UI/ActionButton.md) to create a new user.
 
-### New
-
-Click **New** to open the input form for adding a user. The form includes personal details, login credentials, assigned roles, and localization settings.
+The form includes personal details, login credentials, assigned roles, and localization settings.
 
 ![New User](../Images/UsersNew.png "New User")
 
@@ -55,7 +55,7 @@ Click **Add** to create the user or **Cancel** to return to the list.
 
 > **Note:** Roles define the user’s access rights within the system. Role structures are configured individually, according to your business model and operational needs. Because of this, the exact meaning and scope of each role may differ between implementations.
 
-## Editing
+## Edit a user
 
 To modify an existing user, click the user’s **Name** in the list. The edit screen allows updating all fields, including roles and status.  
 
