@@ -158,6 +158,7 @@ On the list view, the menu in the top-right corner provides additional options:
     - **Documents** – Exports all the list of invoices on the list.
     - **Details** – Exports all line item details for all invoices on the list.
 
+
 ## Actions
 
 ### Create a new issued invoice
@@ -228,22 +229,7 @@ You can register multiple payments over time. The system automatically updates t
 > [!NOTE]  
 > When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
 
-## Menu
-
-For published invoices, the menu in the top-right corner provides additional options:
-
-![Invoice menu](../Images/IssuedInvoicesMenu.png "Issued invoice menu")
-
-Available actions include:
-
-- **Printing** – Print the invoice using configured printouts.  
-- **Exporting** – Export the invoice to PDF.
-- **Send as email** – Email the invoice directly to the customer.  
-- **Delete all details** (only for drafts)
-- **[Reverse document](../../Logistics/Documents/Reversals.md)** – Create a reversal invoice for corrections.  
-- **Return to draft** – Move the invoice back to draft status for editing (if allowed by business rules).
-
-## Delete an issued invoice
+### Delete an issued invoice
 
 Draft invoices can be deleted in the edit view, **only if they contain no details**.
 
@@ -261,5 +247,21 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Deletion is only possible for draft documents. 
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+
+### Document menu
+
+For published invoices, the menu in the top-right corner provides additional options:
+
+![Invoice menu](../Images/IssuedInvoicesMenu.png "Issued invoice menu")
+
+Available actions include:
+
+- **Printing** – Print the invoice using configured printouts.  
+- **Exporting** – Export the invoice to PDF.
+- **Send as email** – Email the invoice directly to the customer.  
+- **Delete all details** (only for drafts)
+- **[Reverse document](../../Logistics/Documents/Reversals.md)** – Create a reversal invoice for corrections.  
+- **Return to draft** – Move the invoice back to draft status for editing (if allowed by business rules).
+
 
 

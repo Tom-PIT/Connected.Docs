@@ -126,7 +126,7 @@ Drafts can be edited; committed proforma invoices are final unless reversed.
 
 ## Actions
 
-### Creating a new proforma invoice
+### Create a new proforma invoice
 
 Proforma invoices can be created in two ways:
 
@@ -165,7 +165,7 @@ Publishing moves the document from **Draft** to **Committed**.
 > [!NOTE]  
 > Committed proforma invoices cannot be edited but can be used to create **Prepayments** or serve as the basis for a final invoice.
 
-## Editing a proforma invoice
+## Edit a proforma invoice
 
 A draft proforma invoice can be freely edited.  
 You may change:
@@ -181,7 +181,9 @@ Once published, the document becomes **Committed** and no further editing is all
 
 ### Attachments
 
-Files may be uploaded to provide supporting information such as contracts or customer confirmations.
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
+
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
 ### Linked documents
 
@@ -249,22 +251,7 @@ When Intrastat reporting is enabled and the transaction involves a customer from
 
 These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
 
-## Menu
-
-The document menu provides the following actions:
-
-- **Printing**
-- **Exporting**
-- **Send as email**
-- **Delete all details** (only for drafts)
-- **Reverse document**  
-- **Return to draft** (only when permitted by system rules)
-
-![Proforma invoice menu](../Images/PrepaymentsMenu.png)
-
-Reversing a proforma invoice removes its committed effect and creates a reversal document. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more information.
-
-## Deletion
+### Delete a proforma invoice
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
@@ -281,3 +268,17 @@ If you need to remove only a specific material instead of clearing the entire do
 
 > [!NOTE]
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+
+### Document menu
+
+The document menu provides additional actions:
+- **Printing**
+- **Exporting**
+- **Send as email**
+- **Delete all details** (only for drafts)
+- **Reverse document** (creates a financial reversal)
+- **Return to draft** (only if allowed by system settings)
+
+![Prepayment menu](../Images/PrepaymentsMenu.png "Prepayment menu")
+
+A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.

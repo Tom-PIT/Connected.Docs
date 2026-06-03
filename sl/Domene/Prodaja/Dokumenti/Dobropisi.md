@@ -119,9 +119,24 @@ Osnutke je mogoče urejati, potrjeni dobropisi pa so dokončni, razen če so sto
 
 ![Seznam dobropisov](../Images/CreditNotesList.png "Seznam dobropisov")
 
+### Meni
+
+Meni dokumenta omogoča dodatna dejanja:
+
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek** (če je dovoljeno)
+
+![Meni dobropisa](../Images/CreditDebitNoteMenu.png "Meni dobropisa")
+
+Storniranje dobropisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+
 ## Dejanja
 
-### Ustvarjanje novega dobropisa
+### Ustvariti nov dobropis
 
 Dobropise je mogoče ustvariti na dva načina:
 
@@ -177,7 +192,7 @@ Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat
 
 Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
 
-### Urejanje dobropisa
+### Urediti dobropis
 
 Urediti je mogoče samo dobropise v stanju **Osnutek**.
 
@@ -193,7 +208,9 @@ Potrjeni dobropisi so samo za branje.
 
 #### Priponke
 
-V razdelku **Priponke** lahko shranite podporne dokumente, kot so potrdila o vračilu ali dogovori.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
+
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 #### Povezani dokumenti
 
@@ -223,22 +240,7 @@ Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intra
 > [!NOTE]  
 > Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
 
-## Meni
-
-Meni dokumenta omogoča dodatna dejanja:
-
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrni v osnutek** (če je dovoljeno)
-
-![Meni dobropisa](../Images/CreditDebitNoteMenu.png "Meni dobropisa")
-
-Storniranje dobropisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
-
-## Brisanje
+### Izbrisati dobropis
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 

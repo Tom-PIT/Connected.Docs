@@ -164,7 +164,9 @@ Urejate lahko:
 
 #### Priponke
 
-V razdelku **Priponke** lahko naložite dodatno dokumentacijo.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
+
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 #### Povezani dokumenti
 
@@ -234,23 +236,7 @@ Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat
 
 Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
 
-## Meni
-
-Meni dokumenta omogoča:
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti)
-- **Vrni v osnutek** (če je dovoljeno)
-
-
-![Meni avansnega računa](../Images/PrepaymentsMenu.png "Meni avansnega računa")
-
-
-Storniranje razveljavi finančni učinek potrjenega avansnega računa. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
-
-## Brisanje
+## Brisati avansni račun
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 
@@ -267,4 +253,20 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 
 > [!NOTE]  
 > Objavljenih avansnih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
+
+### Meni dokumenta
+
+Meni dokumenta omogoča:
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti)
+- **Vrni v osnutek** (če je dovoljeno)
+
+
+![Meni avansnega računa](../Images/PrepaymentsMenu.png "Meni avansnega računa")
+
+
+Storniranje razveljavi finančni učinek potrjenega avansnega računa. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 

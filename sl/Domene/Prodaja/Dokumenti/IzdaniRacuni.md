@@ -119,7 +119,7 @@ Izdani računi uporabljajo plačilno osnovane statuse:
 
 Ti statusi določajo razpoložljiva dejanja (evidentiranje plačil, storniranje, izvoz ipd.) in način prikaza v seznamih.
 
-### Seznam
+### Seznam izdanih računov
 
 Seznam prikazuje vse račune, ki ustrezajo izbranim filtrom in časovnim obdobjem.
 
@@ -148,6 +148,19 @@ Kazalniki se posodabljajo glede na izbrane filtre:
 - **Način plačila**
 
 Za hitro iskanje uporabite polje **Iskanje**.
+
+### Meni
+
+Meni v zgornjem desnem kotu omogoča:
+
+![Meni izdanih računov](../Images/IssuedInvoicesMenu.png "Meni izdanih računov")
+
+- **Tiskanje**  
+- **Izvoz ** 
+- **Pošlji preko e-pošte**  
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrnitev v osnutek** (če je dovoljeno)
 
 #### Meni seznama
 
@@ -227,20 +240,7 @@ Možno je evidentirati več plačil skozi čas. Sistem samodejno posodobi status
 > [!NOTE]  
 > Ko je račun v celoti pokrit z evidentiranimi plačili, se prikaže v pogledu **Plačani**. Delno plačani dokumenti se prikažejo pod **Delno plačani**, neplačani pa pod **Neplačani**.
 
-## Meni
-
-Meni v zgornjem desnem kotu omogoča:
-
-![Meni izdanih računov](../Images/IssuedInvoicesMenu.png "Meni izdanih računov")
-
-- **Tiskanje**  
-- **Izvoz ** 
-- **Pošlji preko e-pošte**  
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrnitev v osnutek** (če je dovoljeno)
-
-## Izbrisati izdani račun
+### Izbrisati izdani račun
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 

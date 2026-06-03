@@ -115,9 +115,24 @@ Vsaka vrstica prikazuje:
 
 Osnutke je mogoče urejati, potrjeni predračuni pa so dokončni, razen če so stornirani.
 
+### Meni
+
+Meni dokumenta omogoča naslednja dejanja:
+
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek** (če sistemska pravila dovoljujejo)
+
+![Meni predračuna](../Images/PrepaymentsMenu.png)
+
+Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+
 ## Dejanja
 
-### Ustvarjanje novega predračuna
+### Ustvariti nove predračune
 
 Predračune je mogoče ustvariti na dva načina:
 
@@ -153,7 +168,7 @@ Koraki:
 > [!NOTE]  
 > Potrjenih predračunov ni mogoče urejati, lahko pa služijo kot osnova za **avansna plačila** ali končni račun.
 
-## Urejanje predračuna
+## Urediti predračune
 
 Osnutek predračuna je mogoče prosto urejati.  
 Spremenite lahko:
@@ -167,9 +182,11 @@ Spremenite lahko:
 
 Po objavi dokument preide v stanje **Potrjeno** in urejanje ni več dovoljeno.
 
-### Priponke
+#### Priponke
 
-V razdelku **Priponke** lahko dodate podporne dokumente, kot so pogodbe ali potrditve stranke.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
+
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 ### Povezani dokumenti
 
@@ -238,22 +255,7 @@ Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat
 
 Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
 
-## Meni
-
-Meni dokumenta omogoča naslednja dejanja:
-
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrni v osnutek** (če sistemska pravila dovoljujejo)
-
-![Meni predračuna](../Images/PrepaymentsMenu.png)
-
-Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
-
-## Brisanje
+## Izbrisati predračune
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 

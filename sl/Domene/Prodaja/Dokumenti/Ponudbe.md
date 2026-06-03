@@ -109,9 +109,20 @@ Primer seznama **Zaključenih** ponudb:
 
 ![Zaključene ponudbe](../Images/OffersListCompleted.png "Zaključene ponudbe")
 
+
+### Meni
+
+Zgornji meni omogoča:
+- **Tiskanje**
+- **Izvoz (v PDF)**
+- **Pošiljanje dokumenta po e-pošti** (samo za potrjene dokumente)
+- **Povrni v osnutek** (samo za potrjene dokumente)
+
+![Meni ponudb](../Images/OffersMenu.png "Meni ponudb")
+
 ## Dejanja
 
-### Ustvarjanje nove ponudbe
+### Ustvariti nove ponudbe
 
 1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove ponudbe v statusu osnutka.
 
@@ -139,7 +150,7 @@ Primer seznama **Zaključenih** ponudb:
 > [!NOTE]
 > S klikom na **Objavi** se dokument potrdi in preide iz statusa **Osnutek** v skupino statusov **Obdelan**.
 
-### Urejanje ponudbe
+### Urediti ponudbe
 
 Kliknite katero koli ponudbo v seznamu, da jo odprete. Osnutke je mogoče prosto urejati. Dokument je razdeljen na več razširljivih razdelkov.
 
@@ -147,9 +158,9 @@ Objavljene ponudbe omogočajo omejene spremembe, odvisno od sistemske konfigurac
 
 #### Priponke
 
-Na vrhu vsakega dokumenta je razdelek **Priponke**.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
 
-Naložite lahko poljubne datoteke, kot so dobavnice, transportni dokumenti, fotografije ali podporna dokazila. Vse priloge se shranijo skupaj z dokumentom.
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 #### Povezani dokumenti
 
@@ -208,8 +219,7 @@ Shranjena postavka:
 > [!NOTE]
 > Ko je omogočen Intrastat, se v razdelku Postavke prikažejo dodatna polja, kot so **Tarifa**, **Država porekla**, **Neto teža (kg)** in **Statistična vrednost**. Ta polja so potrebna za Intrastat poročanje, vendar ne vplivajo na obdelavo prodajnega naloga.
 
-
-### Zaključevanje ponudbe
+### Zaključiti ponudbe
 
 Ko je ponudba v statusu **Na voljo**, kliknite **Zaključi**.
 
@@ -218,17 +228,7 @@ Ko je ponudba v statusu **Na voljo**, kliknite **Zaključi**.
 > [!NOTE]
 > Ponudba se samodejno premakne v status **Zaključeno**, ko se iz nje neposredno ustvari nov [**Prodajni nalog**](NarocilaStrank.md) preko dejanja **Povezani dokumenti**.
 
-## Meni
-
-Zgornji meni omogoča:
-- **Tiskanje**
-- **Izvoz (v PDF)**
-- **Pošiljanje dokumenta po e-pošti** (samo za potrjene dokumente)
-- **Povrni v osnutek** (samo za potrjene dokumente)
-
-![Meni ponudb](../Images/OffersMenu.png "Meni ponudb")
-
-## Brisanje
+## Izbrisati ponudbe
 
 Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo postavk**.
 

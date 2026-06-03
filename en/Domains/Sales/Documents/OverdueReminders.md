@@ -45,7 +45,7 @@ Filters on the left help narrow down results by **document dates**, **status**, 
 
 ## Actions
 
-### Creating a new overdue reminder
+### Create a new overdue reminder
 
 1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft overdue reminder.
 
@@ -70,20 +70,25 @@ Filters on the left help narrow down results by **document dates**, **status**, 
 > [!NOTE]
 > When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Committed** group of states.
 
-## Editing an overdue reminder
+## Edit an overdue reminder
 
- **Draft** reminders can be edited freely. Click any reminder in the list of drafts to open it.
+ **Draft** reminders can be edited freely. Click any reminder in the list to open it.
  
  Published reminders **cannot** be edited.
 
-## Menu
+### Delete an overdue reminder
+
+Click any draft reminder in the list to open it and click **Delete** to remove it.
+
+After confirming the deletion, the reminder is permanently removed from the system.
+
+Committed overdue reminders **cannot** be deleted.
+
+### Document menu
 
 The top menu provides options for:
 - Printing
 - Exporting (to PDF)
 
-## Deletion
 
-Draft documents can be deleted on the edit screen.
 
-Committed overdue reminders **cannot** be deleted.

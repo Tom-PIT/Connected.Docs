@@ -110,7 +110,7 @@ An example of a list with **Completed** offers:
 
 ## Actions
 
-### Creating a new offer
+### Create a new offer
 
 1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft offer.  
 
@@ -138,7 +138,7 @@ An example of a list with **Completed** offers:
 > [!NOTE]
 > When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Committed** group of states.
 
-### Editing an offer
+### Edit an offer
 
 Click any offer in the list to open it. Draft offers can be edited freely. The Document is divided into multiple expandable sections. 
 
@@ -146,9 +146,9 @@ Published offers allow limited modifications depending on system configuration.
 
 #### Attachments
 
-At the top of every document, an **Attachments** section is available. 
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
 #### Linked documents
 
@@ -207,8 +207,7 @@ Saved detail:
 > [!NOTE]
 > When Intrastat is enabled, additional fields appear in the details section, such as Tariff, Country of origin, Net weight, and Statistical value. These fields are required for Intrastat reporting but do not affect the sales order processing.
 
-
-### Completing an offer
+### Complete an offer
 Once the offer in the **Available** status is ready, click on **Complete**.
 
 ![Offers Complete Button](../Images/OffersCompleteButton.png)
@@ -216,17 +215,7 @@ Once the offer in the **Available** status is ready, click on **Complete**.
 > [!NOTE]
 > An offer is also automatically moved to the **completed** status when a new [**Sales order**](SalesOrders.md) is created directly from it using the **Linked documents** action.
 
-## Menu
-
-The top menu provides options for: 
-- **Printing**
-- **Exporting** (to PDF)
-- **Sending the document via email**
-- **Return to draft** (only for Committed documents)
-
-![Offers menu](../Images/OffersMenu.png)
-
-## Deletion
+## Delete an offer
 
 Draft documents can be deleted on the edit screen, but only if they contain **no details**. Committed documents **cannot** be deleted.
 
@@ -240,5 +229,15 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]  
 > An offer can be deleted only if it is not linked to another dependent document (e.g., Sales orders).
+
+### Document menu
+
+The top menu provides options for: 
+- **Printing**
+- **Exporting** (to PDF)
+- **Sending the document via email**
+- **Return to draft** (only for Committed documents)
+
+![Offers menu](../Images/OffersMenu.png)
 
 

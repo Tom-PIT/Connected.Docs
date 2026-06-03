@@ -124,15 +124,27 @@ Filtri vključujejo:
 - **Poslovni vnos**
 - **Iskalno polje**
 
+### Meni
+
+Kontekstni meni omogoča:
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Uvozi postavke** (če je dokument v stanju Osnutek)
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- **Vrni v osnutek** (če je dovoljeno)
+
+![Meni naročil strank](../Images/SalesOrderMenu.png "Meni naročil strank")
+
 ## Dejanja
 
-### Ustvarjanje novega naročila stranke
+### Ustvariti novo naročilo stranke
 
 Za ustvarjanje novega naročila stranke kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
 
 Za podroben postopek ustvarjanja si oglejte vodnik [**Kako ustvariti naročilo stranke**](NarocilaStrankUstvarjanje.md).
 
-### Urejanje naročila stranke
+### Urediti naročilo stranke
 
 Naročilo stranke je razdeljeno v več razširljivih razdelkov. Razpoložljiva dejanja so odvisna od stanja dokumenta. Medtem ko je naročilo v stanju **Osnutek**, lahko urejate vse razdelke:
 
@@ -143,7 +155,7 @@ Naročilo stranke je razdeljeno v več razširljivih razdelkov. Razpoložljiva d
 - [**Podrobnosti**](NarocilaStrankUstvarjanje.md#korak-3--dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk računa
 - [**Načini plačila**](NarocilaStrankUstvarjanje.md#načini-plačila) – določanje načina plačila stranke
 
-### Povezani dokumenti
+#### Povezani dokumenti
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokumentov.
 
@@ -163,7 +175,7 @@ Razpoložljiva dejanja vključujejo:
 - **Poveži s projektom**
 - **Kopiraj naročilo stranke**
 
-### Objavljanje naročila stranke
+### Objavljati naročilo stranke
 
 Ko je osnutek pripravljen, kliknite **Objavi** na vrhu strani, da potrdite naročilo. Potrjeno naročilo stranke se premakne v stanje **Na voljo** in omogoči dodatna dejanja dokumenta.
 
@@ -187,19 +199,7 @@ Ko je potrjeno naročilo stranke zaključeno, na primer po izdaji [**dobavnice**
 
 ![Gumb Zaključi naročilo stranke](../Images/SalesOrdersCompleteButton.png "Gumb Zaključi naročilo stranke")
 
-## Meni
-
-Kontekstni meni omogoča:
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Uvozi postavke** (če je dokument v stanju Osnutek)
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- **Vrni v osnutek** (če je dovoljeno)
-
-![Meni naročil strank](../Images/SalesOrderMenu.png "Meni naročil strank")
-
-## Brisanje
+### Brisati naročilo stranke
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 

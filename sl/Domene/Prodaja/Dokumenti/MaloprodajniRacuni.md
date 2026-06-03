@@ -21,6 +21,14 @@ Maloprodajni računi so namenjeni hitri prodaji »na licu mesta«:
 5. Račun se samodejno premakne v stanje **Delno plačano** ali **V celoti plačano**, glede na prejeta plačila.  
 6. Zaloga se prilagodi ločeno z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md) (ali z uporabo [**Dobavnice**](Dobavnice.md) + [**Izdaje**](../../Logistika/Dokumenti/Izdajnice.md), če gre za dostavo).
 
+## Ravnanje z zalogo
+
+Maloprodajni računi **ne zmanjšujejo zaloge**, ne glede na stanje plačila.
+
+Za prilagoditev zaloge:
+- ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md), ali  
+- ustvarite [**Dobavnico**](Dobavnice.md) in nato [**Izdajo**](../../Logistika/Dokumenti/Izdajnice.md).
+
 ## Pogoji za davčno potrjevanje maloprodajnega izdanega računa (če je davčno potrjevanje omogočeno v sistemu)
 
 Da se maloprodajni izdani račun lahko davčno potrdi, morajo biti izpolnjeni naslednji pogoji:
@@ -147,9 +155,25 @@ V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
     - **Dokument** – Izvozi celoten seznam računov na seznamu.
     - **Postavke** – Izvozi vse podrobnosti postavk za vse račune na seznamu.
 
+### Meni
+
+Meni objavljenega dokumenta omogoča:
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek) 
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
+- **Vrni v osnutek**
+
+![Meni maloprodajnega računa](../Images/RetailInvoiceMenu.png "Meni maloprodajnega računa")
+
+> [!NOTE]
+> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.
+
+
 ## Dejanja
 
-### Ustvarjanje novega maloprodajnega računa
+### Ustvariti novi maloprodajni račun
 
 Maloprodajne račune je mogoče ustvariti **samo ročno**.
 
@@ -222,7 +246,7 @@ Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat
 
 Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
 
-## Evidentiranje plačil
+### Evidentirati plačila
 
 Plačila se evidentirajo z gumbom **Plačilo** na vrhu dokumenta.
 
@@ -238,30 +262,7 @@ Možno je evidentirati več plačil. Sistem samodejno posodablja stanje dokument
 - **Delno plačani**
 - **V celoti plačani**
 
-## Ravnanje z zalogo
-
-Maloprodajni računi **ne zmanjšujejo zaloge**, ne glede na stanje plačila.
-
-Za prilagoditev zaloge:
-- ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md), ali  
-- ustvarite [**Dobavnico**](Dobavnice.md) in nato [**Izdajo**](../../Logistika/Dokumenti/Izdajnice.md).
-
-## Meni
-
-Meni objavljenega dokumenta omogoča:
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek) 
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
-- **Vrni v osnutek**
-
-![Meni maloprodajnega računa](../Images/RetailInvoiceMenu.png "Meni maloprodajnega računa")
-
-> [!NOTE]
-> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.
-
-## Brisanje
+## Izbrisati maloprodajni račun
 
 Maloprodajni računi v stanju **Osnutek** se lahko izbrišejo le, če **ne vsebujejo postavk**.
 

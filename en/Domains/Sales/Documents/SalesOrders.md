@@ -190,19 +190,7 @@ Once the published sales order is finalized, for example, when a [**delivery not
 
 ![Complete button](../Images/SalesOrdersCompleteButton.png)
 
-## Menu
-
-Click the context menu to:
-
-![Sales orders – menu](../Images/SalesOrderMenu.png)
-
-- **Print**  
-- **Export** (PDF)  
-- **Import details** (for draft orders)
-- **Delete all details** (for draft orders)
-- **Return to draft** (for completed orders)
-
-## Delete a sales order
+### Delete a sales order
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
@@ -219,4 +207,16 @@ If you need to remove only a specific material instead of clearing the entire do
 
 > [!NOTE]
 > Only **draft** sales orders can be deleted. Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
+
+### Document menu
+
+Click the context menu to:
+
+![Sales orders – menu](../Images/SalesOrderMenu.png)
+
+- **Print**  
+- **Export** (PDF)  
+- **Import details** (for draft orders)
+- **Delete all details** (for draft orders)
+- **Return to draft** (for completed orders)
 

@@ -102,7 +102,7 @@ Bremepisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 Bremepisi imajo lahko status **Osnutek** ali **Potrjeno**.
 
-### Seznam
+### Seznam bremepisov
 
 Seznam bremepisov je mogoče filtrirati po:
 - **Datumih dokumentov**
@@ -119,9 +119,24 @@ Osnutke je mogoče urejati, potrjeni bremepisi pa so dokončni, razen če so sto
 
 ![Seznam bremepisov](../Images/DebitNotesList.png "Seznam bremepisov")
 
+### Meni
+
+Meni dokumenta omogoča dodatna dejanja:
+
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek** (če je dovoljeno)
+
+![Meni bremepisa](../Images/CreditDebitNoteMenu.png "Meni bremepisa")
+
+Storniranje bremepisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+
 ## Dejanja
 
-### Ustvarjanje novega bremepisa
+### Ustvariti nov bremepis
 
 Bremepise je mogoče ustvariti na dva načina:
 
@@ -175,7 +190,7 @@ Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat
 Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
 
 
-### Urejanje bremepisa
+### Urediti bremepis
 
 Urediti je mogoče samo bremepise v stanju **Osnutek**.
 
@@ -191,7 +206,9 @@ Potrjeni bremepisi so samo za branje.
 
 #### Priponke
 
-V razdelku **Priponke** lahko shranite podporne dokumente, kot so dogovori ali obrazložitve popravkov.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
+
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 #### Povezani dokumenti
 
@@ -221,22 +238,7 @@ Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intra
 > [!NOTE]  
 > Več vrednosti, povezanih z Intrastat, je prevzetih iz **šifrantov materialov** (Intrastat konfiguracija), kot sta država in vrsta posla. Ta polja niso prosto nastavljiva na ravni dokumenta in so odvisna od predhodno definiranih matičnih podatkov.
 
-## Meni
-
-Meni dokumenta omogoča dodatna dejanja:
-
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrni v osnutek** (če je dovoljeno)
-
-![Meni bremepisa](../Images/CreditDebitNoteMenu.png "Meni bremepisa")
-
-Storniranje bremepisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
-
-## Brisanje
+### Brisati bremepis
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 

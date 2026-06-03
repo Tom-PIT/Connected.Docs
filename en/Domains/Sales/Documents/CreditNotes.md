@@ -132,7 +132,7 @@ Drafts can be edited; committed credit notes are final unless reversed.
 
 ## Actions
 
-### Creating a new credit note
+### Create a new credit note
 
 Credit notes can be created in two ways:
 
@@ -165,7 +165,6 @@ Once you start a new credit note, follow these steps:
 > [!NOTE]
 > Once published, a credit note cannot be edited. Any corrections must be done via reversal.
 
-
 #### Details
 
 Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
@@ -190,7 +189,7 @@ When Intrastat reporting is enabled and the transaction involves a customer from
 
 These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
 
-### Editing a credit note
+### Edit a credit note
 
 Only **Draft** credit notes can be edited.
 
@@ -206,7 +205,9 @@ Committed credit notes are read-only.
 
 #### Attachments
 
-Files can be added in the **Attachments** section to store supporting documents such as return confirmations or agreements.
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
+
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
 #### Linked documents
 
@@ -236,22 +237,7 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 > [!NOTE]
 > Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
-## Menu
-
-The document menu provides additional actions:
-
-- **Printing**
-- **Exporting**
-- **Send as email**
-- **Delete all details** (only for drafts)
-- **Reverse document**
-- **Return to draft** (only if allowed)
-
-![Credit note menu](../Images/CreditDebitNoteMenu.png)
-
-Reversing a credit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.
-
-## Deletion
+### Delete a credit note
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
@@ -268,3 +254,18 @@ If you need to remove only a specific material instead of clearing the entire do
 
 > [!NOTE]
 > Committed credit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+
+### Document menu
+
+The document menu provides additional actions:
+
+- **Printing**
+- **Exporting**
+- **Send as email**
+- **Delete all details** (only for drafts)
+- **Reverse document**
+- **Return to draft** (only if allowed)
+
+![Credit note menu](../Images/CreditDebitNoteMenu.png)
+
+Reversing a credit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.

@@ -95,9 +95,25 @@ Kazalniki se samodejno posodabljajo glede na izbrane filtre (datumi dokumentov, 
 
 ![Zaključene dobavnice](../Images/DeliveryNotesListCompleted.png "Zaključene dobavnice")
 
+### Meni
+
+Meni v zgornjem desnem kotu omogoča:
+
+![Meni dobavnic](../Images/DeliveryNotesMenuV2SL.png "Meni dobavnic")
+
+- **Tiskanje**
+- **Izvoz (PDF)**
+- **Pošlji preko e-pošte**
+- **Tiskaj sredstvo** (zaključeni dokumenti)
+- **Storniraj dokument** (zaključeni dokumenti)
+- **Povrni v osnutek** (zaključeni dokumenti)
+
+> **Opomba o storniranju:**  
+> Stornirana dobavnica je prikazana pod *Stanje storniranja → Stornirano* v stranskem meniju.
+
 ## Dejanja
 
-### Ustvarjanje nove dobavnice
+### Ustvariti novo dobavnico
 
 Dobavnice je mogoče ustvariti na dva načina:
 
@@ -110,7 +126,7 @@ Primer praznega osnutka dobavnice:
 
 ![Nova dobavnica](../Images/DeliveryNoteNew.png "Nova dobavnica")
 
-### Urejanje dobavnice
+### Urediti dobavnico
 
 S klikom na dobavnico odprete urejanje. Dokument je razdeljen v razširljive razdelke:
 
@@ -171,27 +187,11 @@ Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobav
 
 Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
 
-### Zaključevanje dobavnice
+### Zaključiti dobavnico
 
 Ko je dobavnica pripravljena, kliknite **Zaključi** na vrhu strani.
 
-## Meni
-
-Meni v zgornjem desnem kotu omogoča:
-
-![Meni dobavnic](../Images/DeliveryNotesMenuV2SL.png "Meni dobavnic")
-
-- **Tiskanje**
-- **Izvoz (PDF)**
-- **Pošlji preko e-pošte**
-- **Tiskaj sredstvo** (zaključeni dokumenti)
-- **Storniraj dokument** (zaključeni dokumenti)
-- **Povrni v osnutek** (zaključeni dokumenti)
-
-> **Opomba o storniranju:**  
-> Stornirana dobavnica je prikazana pod *Stanje storniranja → Stornirano* v stranskem meniju.
-
-## Brisanje
+### Izbrisati dobavnico
 
 Dobavnice v osnutku je mogoče izbrisati le, če **ne vsebujejo postavk**.
 
