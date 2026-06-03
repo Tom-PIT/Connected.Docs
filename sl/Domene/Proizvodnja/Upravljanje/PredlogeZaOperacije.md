@@ -37,7 +37,7 @@ Stran prikazuje vse obstoječe predloge za operacije, skupaj z:
 
 Klik na posamezno vrstico odpre predlogo za urejanje.
 
-## Dodajanje nove predloge
+## Ustvariti novo predlogo za operacijo
 
 1. Kliknite **akcijski gumb** in izberite **Dodaj predlogo za operacijo**.
 
@@ -54,7 +54,7 @@ Klik na posamezno vrstico odpre predlogo za urejanje.
 
 3. Kliknite **Dodaj**, da shranite predlogo.
 
-## Urejanje predloge
+## Urediti predlogo za operacijo
 
 1. Kliknite obstoječo predlogo v seznamu.
 2. Po potrebi posodobite:
@@ -72,7 +72,7 @@ Predloge za operacije lahko uporabite neposredno pri dodajanju novih operacij v 
 
 Postopek:
 
-1. Odprite želeno **različico procesa**
+1. Odprite želeno **proces in verzijo**
 2. Pojdite na **Operacije**
 3. Kliknite **akcijski gumb** → **Po predlogi**
 4. Izberite predlogo v spustnem seznamu **Predloga operacije**
@@ -81,6 +81,8 @@ Postopek:
 
 Sistem samodejno izpolni vnaprej definirana polja, ki jih lahko po potrebi še prilagodite.
 
-## Brisanje predloge
+## Izbrisati predlogo za operacijo
 
-Brisanje je na voljo v pogledu urejanja posamezne predloge preko možnosti **Izbriši**.
+Kliknite vrstico predloge, da odprete stran za urejanje, nato izberite **Izbriši**.
+
+Po potrditvi bo predloga trajno odstranjena iz sistema. Brisanje predloge ne vpliva na obstoječe operacije, ki so bile ustvarjene na njeni podlagi.

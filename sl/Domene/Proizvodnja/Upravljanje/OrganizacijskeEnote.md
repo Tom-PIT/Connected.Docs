@@ -47,11 +47,12 @@ Uporabite gumbe pod posamezno organizacijsko enoto za pripenjanje **človeških 
 
 ### Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za odpiranje obrazca za ustvarjanje nove organizacijske enote.
 
 ### Dodajanje nove
 
-V obrazec za dodajanje vnesite naslednja polja:
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za odpiranje obrazca za ustvarjanje nove organizacijske enote.
+
+V obrazec vnesite naslednja polja:
 
 - **Šifra** — prikazana in dodeljena s strani sistema.
 - **Naziv** (obvezno) — naziv organizacijske enote.
@@ -65,7 +66,7 @@ V obrazec za dodajanje vnesite naslednja polja:
 
 Kliknite **Dodaj** za shranjevanje nove organizacijske enote ali **Prekliči** za opustitev vnosa.
 
-### Kvaliteta
+### Kvaliteta v organizacijskih enotah
 
 Organizacijskim enotam je mogoče dodeliti [**kontrolne liste kakovosti**](KontrolneListe.md). Kontrolna lista se uporablja za zahtevo, da uporabniki opravijo osnovna opravila (na primer ob začetku izmene), preden lahko nadaljujejo z delom.
 
@@ -74,7 +75,7 @@ Organizacijskim enotam je mogoče dodeliti [**kontrolne liste kakovosti**](Kontr
 
 ![Organizacijske enote – seznam kvalitete](../Images/OrganizationUnitsQualityList.png)
 
-#### Dodaj kontrolno listo kakovosti
+#### Dodati kontrolno listo kakovosti v organizacijsko enoto
 
 1. Na seznamu organizacijskih enot pri želeni organizacijski enoti kliknite **Kvaliteta**.
 2. Kliknite **akcijski gumb** za dodajanje nove kontrolne liste.
@@ -86,9 +87,10 @@ Organizacijskim enotam je mogoče dodeliti [**kontrolne liste kakovosti**](Kontr
 
 ![Dodaj kontrolno listo kakovosti](../Images/OrganizationUnitsQualityNew.png)
 
-### Urejanje
+### Urediti organizacijsko enoto
 
-Odprite obstoječo organizacijsko enoto za spremembo naslednjih podatkov:
+Kliknite organizacijsko enoto v seznamu, da odprete obrazec za urejanje. Na tej strani lahko spremenite katero koli od naslednjih lastnosti organizacijske enote:
+
 - **Naziv**
 - **Opis**
 - **Vrstni red**
@@ -100,10 +102,8 @@ Kliknite **Shrani** za shranjevanje sprememb ali **Prekliči** za opustitev. Za 
 
 ![Organizacijske enote – Urejanje](../Images/OrganizationUnitsEdit1.png)
 
-## Brisanje
+## Izbrisati organizacijsko enoto
 
-Kliknite **Izbriši** na obrazcu za urejanje, da se odpre potrditveno okno:
-
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+Kliknite organizacijsko enoto v seznamu, da odprete obrazec za urejanje in kliknite **Izbriši**.
 
 Ob potrditvi je zapis trajno odstranjen iz seznama organizacijskih enot; podatki, ki se nanj sklicujejo v drugih domenah, niso spremenjeni.

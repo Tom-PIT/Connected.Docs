@@ -41,13 +41,15 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da prikažete 
 
 ![Meni akcijskega gumba](../Images/WarehouseLocationsActions.png)
 
-### Uvoz
+### Uvoziti skladiščne lokacije
 
-Uporabite **Uvoz** iz menija akcijskega gumba za množično ustvarjanje zapisov. Upoštevajte projektno uvozno predlogo za strukturo CSV.
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za množično ustvarjanje zapisov.
 
 ![Uvoz skladiščnih lokacij](../Images/WarehouseLocationsImport.png)
 
-### Dodaj novo
+### Ustvariti novo skladiščno lokacijo
+
+Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**.
 
 Izpolnite polja na obrazcu:
 
@@ -69,20 +71,19 @@ Kliknite **Dodaj**, da shranite zapis.
 >   [**Skladiščna lokacija**](../../Logistika/Upravljanje/Lokacije.md) izvirajo iz pripadajočih šifrantov; zagotovite, da so ti seznami
 >   usklajeni z domenama Logistika in Skupno.
 
-### Urejanje
+### Urediti skladiščno lokacijo
 
-Kliknite ime **Organizacijske enote** v seznamu, da odprete obrazec za urejanje. Polja se obnašajo enako kot pri dodajanju novega zapisa.
-Validacija preprečuje neveljavne kombinacije, kot je opisano zgoraj.
+Kliknite ime lokacije v seznamu, da odprete obrazec za urejanje. Polja se obnašajo enako kot pri dodajanju novega zapisa.
+
+Validacija preprečuje neveljavne kombinacije, v skladu s pravili, opisanimi pri ustvarjanju novega zapisa.
 
 ![Urejanje skladiščne lokacije](../Images/WarehouseLocationsEdit.png)
 
-## Brisanje
+## Izbrisati skladiščno lokacijo
 
-Kliknite **Izbriši** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
+Kliknite naziv skladiščne lokacije na seznamu, da odprete stran za urejanje, nato izberite **Izbriši**.
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
-
-Ob potrditvi se zapis trajno odstrani iz seznama proizvodnih skladiščnih lokacij; v nasprotnem primeru sistem ohrani zapis nespremenjen.
+Po potrditvi brisanja se zapis odstrani s seznama skladiščnih lokacij proizvodnega skladišča.
 
 > [!NOTE]
 > Brisanje zapisa odstrani povezavo samo iz konfiguracije Proizvodnje. Sklicano

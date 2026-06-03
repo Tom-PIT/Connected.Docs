@@ -10,7 +10,7 @@ Do šifranta **Poslovni imenik** lahko dostopate iz različnih domen v [**naviga
 
 Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v naslednjih domenah:
 
-- **Kupci**
+- **Stranke**
 - **Logistika**
 - **Prodaja**
 - **Nabava**
@@ -22,7 +22,7 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v nasl
 | **Šifra** | Interna koda, ki zagotavlja enolično identifikacijo (npr. **COK** za *Coca-Cola* ali **ACM** za *ACME d.o.o.*). |
 | **Aktivna** | Označuje, ali je vnos aktiven. Neaktivnih vnosov ni mogoče uporabiti v novih dokumentih. |
 | **Dobavitelj** | Potrditveno polje, ki označuje, ali entiteta nastopa kot dobavitelj. |
-| **Kupec** | Potrditveno polje, ki označuje, ali entiteta nastopa kot kupec. |
+| **Stranka** | Potrditveno polje, ki označuje, ali entiteta nastopa kot stranka. |
 | **Kooperant** | Potrditveno polje, ki označuje, ali entiteta nastopa kot kooperant. |
 | **Oseba** | Potrditveno polje, ki označuje, ali gre za fizično osebo. |
 | **Ulica** | Naslov ulice entitete, na primer **Dunajska cesta 10**. |
@@ -92,14 +92,20 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ```
 ### Dodati nov zapis
 
+**Poslovni imenik** se uporablja za upravljanje strank, dobaviteljev, kooperantov in fizičnih oseb.
+
 Za ustvarjanje novega zapisa:
 
 1. Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa.
-2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
+2. Izpolnite vsa obvezna polja.
+   - Označite **Stranka**, če želite ustvariti stranko.
+   - Označite **Dobavitelj**, če želite ustvariti dobavitelja.
+   - Označite **Kooperant**, če želite ustvariti kooperanta.
+   - Označite **Oseba**, če gre za fizično osebo.
 3. Kliknite **Dodaj** za shranjevanje novega zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
 
 > [!NOTE]
-> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+> Entiteti lahko dodelite eno ali več vlog z označitvijo ustreznih potrditvenih polj. Na primer, isti zapis je lahko hkrati stranka, dobavitelj in kooperant.
 
 ![Nov vnos v poslovni imenik](../Images/NewBusinessDirectory.png "Nov vnos v poslovni imenik")
 

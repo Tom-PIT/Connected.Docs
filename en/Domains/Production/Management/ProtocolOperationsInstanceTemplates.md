@@ -26,6 +26,8 @@ To access this page, go to **Production / Management / Protocol operation instan
 
 ## Management
 
+### List view
+
 The page lists all protocol operation instance templates, displaying:
 
 - **Code and Name**
@@ -39,7 +41,7 @@ Templates help ensure consistency when defining operations in process versions.
 
 Clicking a row opens the template for editing.
 
-## Adding a new template
+## Create a new protocol operation template
 
 Click the [**action button**](../../../Common/UI/ActionButton.md) and choose **Add protocol operation template**.
 
@@ -57,7 +59,7 @@ Fill in the following fields:
 
 Click **Add** to save the template.
 
-## Editing a template
+## Edit a protocol operation template
 
 Select any template from the list to open its detail page.
 
@@ -89,7 +91,8 @@ The system automatically fills in the predefined fields from the template.
 
 You can still modify any field before saving the operation.
 
-## Deletion
+## Delete a protocol operation template
 
-Use the **Delete** option inside the template edit page.
+Click a template row to open the edit page, then select **Delete**.
 
+If confirmed, the template is permanently removed from the system. Note that deleting a template does not affect existing operations created from it.

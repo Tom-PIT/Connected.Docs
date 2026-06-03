@@ -52,7 +52,7 @@ Levi stranski panel omogoča filtriranje po:
 - **Tipu izhoda**  
 - **Izhodih**
 
-## Ustvarjanje novega procesa
+## Ustvariti nov proces
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Nov** ali **Kopiraj obstoječega**.
 2. Izpolnite naslednja polja:
@@ -69,7 +69,7 @@ Levi stranski panel omogoča filtriranje po:
 > [!IMPORTANT]
 > Oznake določajo, kje je proces mogoče uporabiti. Če ne dodate ustrezne oznake (npr. **Proizvodnja** ali **Vzdrževanje**), proces ne bo na voljo pri ustvarjanju dokumentov na tem področju (npr. [**proizvodnega naloga**](../Dokumenti/ProizvodniNalogi.md) ali [**vzdrževalnega naloga**](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)).
 
-## Urejanje procesa
+## Urediti proces
 
 Za urejanje obstoječega procesa:
 
@@ -139,14 +139,16 @@ Vsaka operacija vključuje:
 
 ![Podrobnosti operacij](../Images/ProcessesOperationsListDetail.png)
 
-## Kvaliteta
+## Kvaliteta v verziji procesa
 
 Gumb **[Kvaliteta](KvalitetaKontrolneListe.md)** odpre konfiguracijsko stran za izbrano verzijo procesa ali operacijo. Ta stran omogoča dodelitev ene ali več **[kontrolnih list](KontrolneListe.md)**, ki določajo korake kontrole kakovosti med izvedbo.
 
 ![Gumb Kvaliteta verzije procesa](../Images/ProcessesVersionsQualityButton.png "Gumb Kvaliteta verzije procesa")
 
-## Brisanje
+## Izbrisati proces
 
-Proces je mogoče izbrisati samo, če **ni uporabljen v dokumentih** (npr. proizvodni ali vzdrževalni nalogi) in **ni referenciran v drugih procesih**.  
+Proces je mogoče izbrisati samo, če **ni uporabljen v dokumentih** (npr. proizvodnih ali vzdrževalnih nalogih) in **nanj niso vezani drugi procesi**.
 
-Če je brisanje dovoljeno, je možnost **Izbriši** na voljo na strani za urejanje procesa.
+Za brisanje procesa ga izberite na seznamu in kliknite **Izbriši**.
+
+Po potrditvi bo proces trajno odstranjen s seznama procesov. Če je proces v uporabi, se prikaže sporočilo o napaki.

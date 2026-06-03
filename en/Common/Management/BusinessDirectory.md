@@ -103,16 +103,22 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 ```
 ### Add a new business directory entry
 
-To create a new business directory entry, follow these steps:
+The **Business directory** is used to manage customers, vendors, cooperators, and individuals.
 
-1. Click on the [**action button**](../UI/ActionButton.md) and select **New**. This action opens the form for creating a new entry. 
-2. Fill in all required fields. Optional fields can be completed if relevant. 
-3. Click **Add** to save the new record or **Cancel** to return to the list view without saving.
+To create a new entry:
 
-![New Business Directory Entry](../Images/NewBusinessDirectory.png "New Business Directory Entry")
+1. Click the [**action button**](../UI/ActionButton.md) and select **New**. This opens the form for creating a new entry.
+2. Fill in all required fields.
+   - Select **Customer** if you want to create a customer.
+   - Select **Vendor** if you want to create a vendor.
+   - Select **Cooperator** if you want to create a cooperator.
+   - Select **Person** if the entry represents an individual.
+3. Click **Add** to save the new record or **Cancel** to return to the list without saving.
 
 > [!NOTE]
-> For more details on the fields, see the [**Schema**](#schema) section above. 
+> An entity can have one or more roles assigned by selecting the appropriate checkboxes. For example, the same entry can be both a customer, vendor, and cooperator.
+
+![New Business Directory Entry](../Images/NewBusinessDirectory.png "New Business Directory Entry")
 
 #### Edit contact
 

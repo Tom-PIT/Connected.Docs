@@ -26,7 +26,7 @@ Seznam prikazuje vse stroške, povezane z izbrano operacijo. Vsaka vrstica prika
 
 ![Seznam stroškov](../Images/OperationExpensesList.png "Seznam stroškov")
 
-## Ustvarjanje novega stroška   
+## Dodati nov strošek   
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 2. Izpolnite obvezna polja.
@@ -35,12 +35,14 @@ Seznam prikazuje vse stroške, povezane z izbrano operacijo. Vsaka vrstica prika
 
 3. Kliknite **Dodaj** za shranjevanje stroška.
 
-## Urejanje stroška
+## Urediti strošek
 
 1. Kliknite obstoječi strošek na seznamu.
 2. Spremenite katero koli od polj.
 3. Kliknite **Shrani**.
 
-## Izbris
+## Izbrisati strošek
 
-Strošek lahko izbrišete s strani za urejanje tako, da kliknete **Izbriši**. Če potrdite, se odstrani iz operacije.
+Kliknite obstoječi strošek na seznamu, da odprete stran za urejanje, nato kliknite **Izbriši**. 
+
+Če potrdite, se odstrani iz operacije.

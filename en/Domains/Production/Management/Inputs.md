@@ -40,7 +40,7 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
 - **Delete all inputs** – Deletes all inputs linked to the operation.
 
-## Create a new input
+## Add a new input
 
 1. Click the **action button** in the bottom-right corner and choose one of the following:
 

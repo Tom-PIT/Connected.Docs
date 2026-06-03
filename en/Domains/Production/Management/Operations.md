@@ -54,11 +54,11 @@ The list displays all operations defined inside the selected process version. Ea
 
 Use the **Search** field to filter operations by name or code.
 
-## Creating a new operation
+## Create a new operation
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) and choose:  
    - **New**  
-   - **By template** - if templates are available in [**Protocol operations instance templates**](ProtocolOperationsInstanceTemplates.md).
+   - **By template** - if templates are available in [**Protocol operations instance templates**](ProtocolOperationsInstanceTemplates.md#using-templates-when-creating-operations).
    - **Copy existing**  
 
    ![Operation action button](../Images/OperationsActionButton.png)
@@ -70,7 +70,7 @@ Use the **Search** field to filter operations by name or code.
 
 3. Click **Add** to create the operation.
 
-## Editing an operation
+## Edit an operation
 
 To edit an operation:
 1. Click an operation in the list.  
@@ -102,9 +102,11 @@ You can access these from the operation entry:
 
 ![Operation detail buttons](../Images/ProcessesOperationsListDetailV2.png "Operation detail buttons")
 
-## Deletion
+## Delete an operation
 
 Operations **can be deleted** on the Edit page, but only if they are:
 - Not referenced by other operations (e.g., as a parent)  
 - Not used in active production orders  
+
+To delete an operation click an operation in the list and select **Delete**. If the operation is eligible for deletion, confirm the action to remove it from the process version.
 

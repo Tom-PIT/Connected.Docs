@@ -75,3 +75,5 @@ Razdelek [**Povezani dokumenti**](NabavniNalogi.md#povezani-dokumenti) omogoča 
 Ko so vsi potrebni podatki vneseni, kliknite **Objavi**, da zaključite pripravo nabavnega naloga.
 
 Po objavi se dokument premakne v stanje **Potrjeno → Na voljo**, kar omogoči nadaljnje postopke, kot je ustvarjanje [prevzemov](../../Logistika/Dokumenti/Prevzemi.md).
+
+Če dokumenta ne objavite, ostane v stanju **Osnutek**, kjer ga lahko še naprej urejate, dopolnjujete ali objavite pozneje.

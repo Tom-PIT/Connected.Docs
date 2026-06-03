@@ -38,7 +38,7 @@ Za filtriranje po imenu vira uporabite iskalno polje **Iskanje**.
 
 ![Seznam stvarnih virov](../Images/NonHumanResourcesList.png "Seznam stvarnih virov")
 
-## Ustvarj novi stvarni vir
+## Ustvariti nov stvarni vir
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov** (ali možnost kopiranja, če je na voljo).
 2. Izpolnite polja:
@@ -47,12 +47,14 @@ Za filtriranje po imenu vira uporabite iskalno polje **Iskanje**.
 
 3. Kliknite **Dodaj**, da shranite vnos.
 
-## Uredi stvarni vir
+## Urediti stvarni vir
 
 1. Kliknite vrstico vira v seznamu, da odprete stran za urejanje.
 2. Po potrebi prilagodite **Tip**, **Vir**, **Tip kalkulacije**, **Količino**, **Oznake** ali možnost **Neobvezno**.
 3. Kliknite **Shrani**.
 
-## Izbriši stvarni vir
+## Izbrisati stvarni vir
 
-Vnos stvarnega vira lahko izbrišete na strani za urejanje s klikom na **Izbriši**. Po potrditvi se vnos odstrani iz operacije.
+Kliknite vrstico vira v seznamu, da odprete stran za urejanje in kliknite **Izbriši**. 
+
+Po potrditvi se vnos odstrani iz operacije.

@@ -54,11 +54,11 @@ Seznam prikazuje vse operacije, definirane znotraj izbrane verzije procesa. Vsak
 
 Uporabite polje **Iskanje** za filtriranje operacij po nazivu ali šifri.
 
-## Ustvarjanje nove operacije
+## Ustvariti novo operacijo
 
 1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite:
    - **Novo**
-   - **Po predlogi** – če so predloge na voljo v [Predlogah za operacije](PredlogeZaOperacije.md)
+   - **Po predlogi** – če so predloge na voljo v [**Predlogah za operacije**](PredlogeZaOperacije.md#uporaba-predlog-pri-ustvarjanju-operacij)
    - **Kopiraj obstoječo**
 
    ![Akcijski gumb operacije](../Images/OperationsActionButton.png)
@@ -70,7 +70,7 @@ Uporabite polje **Iskanje** za filtriranje operacij po nazivu ali šifri.
 
 3. Kliknite **Dodaj**, da ustvarite operacijo.
 
-## Urejanje operacije
+## Urediti operacijo
 
 Za urejanje operacije:
 1. Kliknite operacijo v seznamu.  
@@ -101,8 +101,10 @@ Do njih dostopate iz vnosa operacije:
 
 ![Gumbi podrobnosti operacije](../Images/ProcessesOperationsListDetailV2.png "Gumbi podrobnosti operacije")
 
-## Brisanje
+## Izbrisati operacijo
 
 Operacije je **mogoče izbrisati** na strani za urejanje, vendar le, če:
 - Niso uporabljene kot nadrejene drugim operacijam  
 - Niso uporabljene v aktivnih proizvodnih nalogih  
+
+Za brisanje operacije kliknite operacijo na seznamu in izberite **Izbriši**. Če je operacijo dovoljeno izbrisati, potrdite dejanje, da jo odstranite iz različice procesa.

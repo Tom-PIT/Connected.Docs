@@ -129,5 +129,3 @@ Potni nalog iz seznama lahko urejate, dokler je v stanju **Osnutek**. Z objavo p
 - Potne naloge je mogoče izbrisati le v stanju **Osnutek**.
 - Pred brisanjem je prikazano potrditveno pogovorno okno.
 - Izbrisani potni nalogi so trajno odstranjeni in se ne prikazujejo več v seznamu.
-
----

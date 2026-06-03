@@ -39,7 +39,7 @@ Ob odprtju stran **Kakovost** prikaže vse kontrolne liste, ki so že povezane z
 
 Zaporedje lahko spreminjate z urejanjem vrednosti **Vrstni red**.
 
-## Dodajanje nove kakovosti
+## Dodati nove kakovosti
 
 1. Kliknite **akcijski gumb** in izberite **Dodaj kvaliteto**.
 
@@ -59,12 +59,14 @@ Zaporedje lahko spreminjate z urejanjem vrednosti **Vrstni red**.
 
 3. Kliknite **Dodaj**.
 
-## Urejanje kakovosti
+## Urediti kakovost
 
 1. Odprite zapis s seznama.
 2. Po potrebi posodobite **Kontrolno listo**, **Način** ali **Vrstni red**.
 3. Kliknite **Shrani** za uveljavitev sprememb.
 
-## Brisanje
+## Izbrisati kakovost
 
-Na strani za urejanje kliknite **Izbriši**.
+Kliknite obstoječi vnos na seznamu, da odprete stran za urejanje, nato izberite **Izbriši**.
+
+Potrdite brisanje, da odstranite vnos kakovosti.

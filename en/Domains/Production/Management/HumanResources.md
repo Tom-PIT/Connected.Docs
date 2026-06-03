@@ -40,7 +40,7 @@ Use the **Search** bar to filter by resource name.
 
 ![Human resources list](../Images/HumanResourcesList.png "Human resources list")
 
-## Create a new human resource entry
+## Add a new human resource entry
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner and choose **New** (or a copy option, if available).
 2. Fill in the fields:

@@ -72,8 +72,10 @@ The [**Linked documents**](SupplyOrders.md#linked-documents) section allows you 
 
 ## Step 5 — Publish the supply order
 
-Once all necessary information is filled in, click **Publish** to finalize the supply order. 
+Once all required information has been entered, click **Publish** to finalize the preparation of the supply order.
 
-Once published, the Supply order moves into the **Committed → Available** state, enabling all related actions such as creating [receive](../../Logistics/Documents/Receives.md) documents.
+After publishing, the document moves to the **Committed → Available** state, enabling further processes such as creating [receives](../../Logistics/Documents/Receives.md).
+
+If the document is not published, it remains in the **Draft** state, where it can continue to be edited, updated, or published later.
 
 

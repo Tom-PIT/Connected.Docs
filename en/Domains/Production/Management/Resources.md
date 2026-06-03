@@ -87,7 +87,7 @@ Selecting an item shows its details and the Edit form.
 
 ![Resources list](../Images/ResourcesListEditV2.png "Resources list")
 
-## Creating a new resource
+## Create a new resource
 
 1. Choose from the toolbar:
    - **Add folder**
@@ -103,16 +103,16 @@ Selecting an item shows its details and the Edit form.
 > ![Travel Orders Vehicles](../Images/ResourcesVehicles.png)
 
 
-## Editing a resource
+## Edit a resource
 
 1. Click any resource in the tree.
 2. Modify its fields (e.g., Name, Folder, Parent, Tags, Teams, or External Key).
 3. Click **Save**.
 
-## Deletion
+## Delete a resource
+
+Click any resource in the tree to open the Edit page and select **Delete**. After confirming the deletion, the resource is permanently removed from the system.
 
 A resource can be deleted from the edit page only if it is **not referenced** in operations, processes, or documents (e.g., production or maintenance orders).
 
-> [!WARNING]
-Deleting an item removes it permanently.
 

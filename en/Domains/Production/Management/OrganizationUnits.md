@@ -46,11 +46,11 @@ Use the buttons under each organization unit to attach human, non-human resource
 
 ### Actions
 
+### Create a new organization unit
+
 Click the [**action button**](../../../Common/UI/ActionButton.md) to open the form to create a new organization unit.
 
-### Add new
-
-Fill in the fields on the Add form:
+Fill in the fields on the form:
 
 - **Code** — shown and assigned by the system.
 - **Name** (mandatory) — enter the unit name.
@@ -64,7 +64,7 @@ Fill in the fields on the Add form:
 
 Click **Add** to save the new organization unit, or **Cancel** to discard.
 
-### Quality
+### Quality in organization units
 
 Organization units can have [**quality checklists**](Checklists.md) assigned to them. A checklist can be used to require users to complete basic tasks (for example, at the start of a shift) before continuing.
 
@@ -73,7 +73,7 @@ Organization units can have [**quality checklists**](Checklists.md) assigned to 
 
 ![Organization units - Quality list](../Images/OrganizationUnitsQualityList.png)
 
-#### Add a quality checklist
+#### Add a quality checklist to an organization unit
 
 1. In the organization units list, click **Quality** on the desired organization unit.
 2. Click the **action button** to add a new checklist.
@@ -86,9 +86,10 @@ Organization units can have [**quality checklists**](Checklists.md) assigned to 
 ![Add quality checklist](../Images/OrganizationUnitsQualityNew.png)
 
 
-### Edit
+### Edit a organization unit
 
-Open an existing organization unit to change: 
+Click on an organization unit in the list to open the Edit form. Adjust the following fields as needed:
+
 - **Name** 
 - **Description** 
 - **Ordinal** 
@@ -100,10 +101,8 @@ Click **Save** to persist changes or **Cancel** to discard. Use **Delete** to re
 
 ![Organization units – Edit](../Images/OrganizationUnitsEdit1.png "Organization units – Edit")
 
-## Deletion
+## Delete an organization unit
 
-Click **Delete** on the edit screen to open a confirmation dialog:
-
-**Are you sure you want to delete this record?**
+Click on an organization unit in the list to open the Edit form and select **Delete**.
 
 If confirmed, the record is permanently removed from the Organization units list; referenced data in other domains is not affected.
