@@ -35,13 +35,13 @@ To access this page, click the **Quality** button from:
 
 ## List view
 
-When opened, the Quality page displays all checklists already linked to the process version or operation.
+When opened, the **Quality** page displays all checklists already linked to the process version or operation.
 
 ![Quality list](../Images/QualityList.png)
 
 You may reorder entries by adjusting their **Ordinal** value.
 
-## Creating a new quality entry
+## Add a new quality entry
 
 1. Click the **action button** and choose **New**.
 
@@ -61,12 +61,14 @@ You may reorder entries by adjusting their **Ordinal** value.
  
 3. Click **Add**.
 
-## Editing a quality entry
+## Edit a quality entry
 
-1. Open the entry from the list.
+1. Click an existing entry in the list to open the Edit page.
 2. Update **Checklist**, **Mode**, or **Ordinal** as needed.
 3. Click **Save** to apply changes.
 
-## Deletion
+## Delete a quality entry
 
-Click **Delete** on the Edit page.
+Click an existing entry in the list to open the Edit page and select **Delete**.
+
+Confirm the deletion to remove the quality entry.

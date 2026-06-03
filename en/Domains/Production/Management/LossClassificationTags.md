@@ -16,7 +16,7 @@ To access this page, go to **Production / Management / Loss classification tags*
 
 | Field | Description |
 |-------|-------------|
-| **Name** | The name of the loss category (e.g., Cosmetic defect, Damage handling) *(mandatory)*. |
+| **Name** | The name of the loss category (e.g., Cosmetic defect, Damage handling) (mandatory). |
 
 ## List view
 
@@ -24,7 +24,7 @@ The list displays all loss classification tags defined in the system. Use the **
 
 ![Loss classification tags list](../Images/LossClassificationTags.png)
 
-## Creating a new loss classification tag
+## Create a new loss classification tag
 
 1. Click on the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 2. Enter the **Name** of the loss category.
@@ -33,15 +33,15 @@ The list displays all loss classification tags defined in the system. Use the **
 
 3. Click **Add** to save the new tag.
 
-## Editing an existing tag
+## Edit a loss classification tag
 
 1. Click the tag in the list to open the Edit page.
 2. Update the **Name**.
 3. Click **Save**.
 
-## Deletion
+## Delete a loss classification tag
 
-A loss classification tag can be deleted from its Edit page by clicking **Delete**.  
+Click the tag in the list to open the Edit page and click **Delete**.  
 
 If confirmed, the tag is permanently removed from the system.
 

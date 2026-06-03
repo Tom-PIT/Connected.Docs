@@ -6,7 +6,7 @@
 
 # Non-human resources
 
-Non-human resources define which machines, tools, equipment, or resource groups are required to execute a specific operation in a process. Each entry represents planned usage time for a technical or physical resource.
+**Non-human resources** define which machines, tools, equipment, or resource groups are required to execute a specific operation in a process. Each entry represents planned usage time for a technical or physical resource.
 
 To access this page, open a process version from **Production / Management / [Processes](Processes.md)**, click [**Operations**](Operations.md), then select **Non-human resources** for a specific operation.
 
@@ -38,7 +38,7 @@ Use the **Search** bar to filter by resource name.
 
 ![Non-human resources list](../Images/NonHumanResourcesList.png "Non-human resources list")
 
-## Creating a new non-human resource entry
+## Add a new non-human resource entry
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner and choose **New** (or a copy option, if available).
 2. Fill in the fields:
@@ -47,13 +47,15 @@ Use the **Search** bar to filter by resource name.
 
 3. Click **Add** to save the entry.
 
-## Editing a non-human resource entry
+## Edit a non-human resource entry
 
 1. Click a resource row in the list to open the Edit page.  
 2. Adjust **Type**, **Resource**, **Calculation type**, **Quantity**, **Tags**, or **Optional** as needed.  
 3. Click **Save**.
 
-## Deletion
+## Delete a non-human resource entry
 
-A non-human resource entry can be deleted from its Edit page by clicking **Delete**. If confirmed, it is removed from the operation.
+Click a resource row in the list to open the Edit page and select **Delete**. 
+
+If confirmed, the resource is removed from the operation.
 

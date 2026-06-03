@@ -11,7 +11,7 @@ Processes define the structured steps used across **Production** and **Maintenan
 
 This page allows you to create and manage processes, their versions, and their operational structure.
 
-A process may contain one or more **versions**, for example, different versions for different product sizes or maintenance variants. Each version contains a sequence of [**operations**](Operations.md), which define inputs, resources (human and non?human), outputs, and quality requirements.
+A process may contain one or more **versions**, for example, different versions for different product sizes or maintenance variants. Each version contains a sequence of [**operations**](Operations.md), which define inputs, resources (human and non-human), outputs, and quality requirements.
 
 To access this page, go to **Production / Management / Processes** in the [**navigation**](../../../Common/UI/Navigation.md). Processes are shared and can be tagged for Production or Maintenance usage.
 
@@ -52,7 +52,7 @@ The left-side panel provides filters for:
 - **Output type**  
 - **Outputs**
 
-## Creating a new process
+## Create a new process
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New** or **Copy existing**.
 2. Fill in the following fields:  
@@ -69,7 +69,7 @@ The left-side panel provides filters for:
 > [!IMPORTANT]
 > Tags control where the process can be used. If you do not add a relevant tag (e.g., **Production** or **Maintenance**), the process will not be available when creating documents in that area (e.g., a [**Production order**](../Documents/ProductionOrders.md) or a [**Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md)).
 
-## Editing a process
+## Edit a process
 
 To edit an existing process:
 
@@ -82,7 +82,6 @@ To edit an existing process:
 Each process may include multiple **versions**, allowing you to update or improve a workflow over time while keeping older versions intact.
 
 ![Versions button](../Images/ProcessesVersionsButton.png "Versions button")
-
 
 From the Versions screen, you can:
 
@@ -141,13 +140,16 @@ Each operation includes:
 
 ![Operations detail](../Images/ProcessesOperationsListDetail.png)
 
-## Quality
+## Quality in process versions
 
 The **[Quality](QualityChecklists.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](Checklists.md), which define the quality-control steps required during execution.
 
 ![Processes Versions Quality Button](../Images/ProcessesVersionsQualityButton.png "Processes Versions Quality Button")
 
-## Deletion
+## Delete a process
 
 A process can be deleted only if it is **not used by documents** (e.g., production or maintenance orders) and **not referenced by other processes**.  
-If allowed, the **Delete** action is available in the Edit page.
+
+To delete a process, select it from the list and click **Delete**. 
+
+After confirmation, the process will be permanently removed from the list of processes. If the process is in use, an error message will appear.

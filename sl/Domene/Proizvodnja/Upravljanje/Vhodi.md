@@ -40,7 +40,7 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 - **Izbriši vse vhode** – Izbriše vse vhode, povezane z operacijo.
 
-## Ustvariti novi vhod
+## Dodati novi vhod
 
 1. Kliknite **akcijski gumb** v spodnjem desnem kotu in izberite eno od možnosti:
 

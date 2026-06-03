@@ -36,6 +36,7 @@ search box in the header to find records.
 ![Warehouse locations list](../Images/WarehouseLocationsList.png "Warehouse locations list")
 
 Click an **Organization unit** name to open the edit form for that record. 
+
 ## Actions
 
 Click the [**Action Button**](../../../Common/UI/ActionButton.md) to show the following actions:
@@ -44,14 +45,15 @@ Click the [**Action Button**](../../../Common/UI/ActionButton.md) to show the fo
 
 ![Action button menu](../Images/WarehouseLocationsActions.png "Action button menu")
 
-### Import
+### Import warehouse locations
 
-Use **Import** from the Action Button menu to bulk-create records. Follow the project import
-template for CSV structure.
+Click the **action button** and select **Import** to bulk-create records.
 
 ![Warehouse Loacations Import](../Images/WarehouseLocationsImport.png "Warehouse Loacations Import Screen")
 
-### Add new
+### Create a new warehouse location
+ 
+Click the **action button** and select **New** to create a new record.
 
 Fill in the fields shown on the form:
 
@@ -73,22 +75,17 @@ Click **Add** to save the record.
   code lists; keep those lists in sync with Logistics and Common domains.
 
 
-### Edit
+### Edit warehouse location
 
-Click an **Organization unit** name in the list to open the edit form. Fields behave the same as on New.
-Validation prevents invalid combinations as described above.
+Click a warehouse location name in the list to open the edit form.
+
+Validation prevents invalid combinations as described in the creation process.
 
 ![Warehouse locations – Edit](../Images/WarehouseLocationsEdit.png "Warehouse locations – Edit")
 
-## Deletion
+## Delete a warehouse location
 
-Click **Delete** on the edit screen to open a confirmation dialog:
-
-**Are you sure you want to delete this record?**
-
-If confirmed, the record is permanently removed from the Production Warehouse locations list;
-otherwise the system keeps the record unchanged.
+Click a warehouse location name in the list to open the edit page, then select **Delete**. After confirming the deletion, the record is removed from the Production Warehouse locations list.
 
 > [!NOTE]  
-> Deleting a record removes the mapping only from the Production configuration. The referenced
-> Warehouse and Warehouse location remain intact in the Logistics domain and are not deleted.
+> Deleting a record removes the mapping only from the Production configuration. The referenced [warehouse](../../Logistics/Management/Warehouses.md) and [warehouse location](../../Logistics/Management/Locations.md) remain intact in the Logistics domain and are not deleted.

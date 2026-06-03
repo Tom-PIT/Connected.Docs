@@ -26,7 +26,7 @@ The list displays all expenses linked to the selected operation. Each row shows 
 
 ![Expenses list](../Images/OperationsExpensesList.png "Expenses list")
 
-## Creating a new expense
+## Add a new expense
 
 1. Click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 2. Fill in the required fields.
@@ -35,12 +35,14 @@ The list displays all expenses linked to the selected operation. Each row shows 
 
 3. Click **Add** to save the expense.
 
-## Editing an expense
+## Edit an expense
 
 1. Click an existing expense in the list.  
 2. Modify any of the fields.  
 3. Click **Save**.
 
-## Deletion
+## Delete an expense
 
-An expense can be deleted from its Edit page by clicking **Delete**. If confirmed, it is removed from the operation.
+Click an existing expense in the list and select **Delete**. 
+
+If confirmed, it is removed from the operation.

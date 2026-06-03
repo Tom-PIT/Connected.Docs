@@ -24,7 +24,7 @@ Seznam prikazuje vse oznake klasifikacije slabega kosa, definirane v sistemu. Za
 
 ![Seznam oznak klasifikacije slabega kosa](../Images/LossClassificationTags.png)
 
-## Dodajanje nove oznake klasifikacije slabega kosa
+## Ustvariti novo oznako klasifikacije slabega kosa
 
 1. Kliknite **akcijski gumb** v spodnjem desnem kotu.
 2. Vnesite **Naziv** kategorije slabega kosa.
@@ -33,14 +33,14 @@ Seznam prikazuje vse oznake klasifikacije slabega kosa, definirane v sistemu. Za
 
 3. Kliknite **Dodaj**, da shranite novo oznako.
 
-## Urejanje obstoječe oznake
+## Urediti oznako klasifikacije slabega kosa
 
 1. Kliknite oznako v seznamu, da odprete stran za urejanje.
 2. Posodobite **Naziv**.
 3. Kliknite **Shrani**.
 
-## Brisanje
+## Izbrisati oznako klasifikacije slabega kosa
 
-Oznako klasifikacije slabega kosa lahko izbrišete na strani za urejanje s klikom na **Izbriši**.
+Kliknite oznako v seznamu, da odprete stran za urejanje in kliknite **Izbriši**.
 
 Po potrditvi je oznaka trajno odstranjena iz sistema.

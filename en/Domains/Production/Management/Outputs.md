@@ -40,7 +40,7 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
 - **Delete all outputs** – Deletes all outputs linked to the operation.
 
-## Create a new output
+## Add a new output
 
 1. Click the **action button** in the bottom-right corner and choose one of the following:
 

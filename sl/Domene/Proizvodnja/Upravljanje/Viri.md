@@ -85,7 +85,7 @@ Z izbiro elementa v drevesu se prikažejo njegove podrobnosti in obrazec za urej
 
 ![Seznam virov](../Images/ResourcesListEdit.png "Seznam virov")
 
-## Ustvarjanje novega vira
+## Ustvariti nov vir
 
 1. V orodni vrstici izberite:
    - **Dodaj mapo**
@@ -95,14 +95,14 @@ Z izbiro elementa v drevesu se prikažejo njegove podrobnosti in obrazec za urej
 2. Izpolnite polja, opisana v ustrezni shemi.
 3. Kliknite **Dodaj** ali **Shrani** za potrditev.
 
-## Urejanje vira
+## Urediti vir
 
 1. Kliknite vir v drevesnem pogledu.
 2. Spremenite njegova polja (npr. Naziv, Mapa, Nadrejeni vir, Oznake, Ekipe ali Zunanji ključ).
 3. Kliknite **Shrani**.
 
-## Brisanje
+## Izbrisati vir
+
+Kliknite vir v drevesnem pogledu in nato kliknite **Izbriši**. Po potrditvi se vir trajno odstrani iz sistema.
 
 Vir je mogoče izbrisati samo, če **ni uporabljen** v operacijah, procesih ali dokumentih (npr. proizvodnih ali vzdrževalnih nalogih).
-
-Brisanje elementa na strani za urejanje ga trajno odstrani.

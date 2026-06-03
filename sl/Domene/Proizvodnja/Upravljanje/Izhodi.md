@@ -40,7 +40,7 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 - **Izbriši vse izhode** – Izbriše vse izhode, povezane z operacijo.
 
-## Ustvariti novi izhod
+## Dodati nov izhod
 
 1. Kliknite **akcijski gumb** v spodnjem desnem kotu in izberite eno izmed možnosti:
 
