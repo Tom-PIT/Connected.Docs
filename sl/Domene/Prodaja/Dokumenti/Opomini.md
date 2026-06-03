@@ -65,9 +65,15 @@ Filtri na levi strani omogočajo omejevanje seznama po:
 - **Statusu**
 - **Stranki**
 
+### Meni
+
+Zgornji meni omogoča:
+- tiskanje
+- izvoz (PDF)
+
 ## Dejanja
 
-### Ustvarjanje novega opomina
+### Ustvariti nov opomin
 
 1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega opomina v statusu osnutka.
 
@@ -92,20 +98,16 @@ Filtri na levi strani omogočajo omejevanje seznama po:
 > [!NOTE]
 > S klikom na **Objavi** se dokument potrdi in premakne iz stanja **Osnutek** v skupino **Obdelan**.
 
-## Urejanje opomina
+## Urejati opomin
 
-- **Osnutke** je mogoče prosto urejati – kliknite dokument v seznamu osnutkov.
-- **Potrjenih** opominov ni mogoče urejati.
+Opomine v stanju **Osnutek** je mogoče prosto urejati. Kliknite poljuben opomin na seznamu, da ga odprete.
 
-## Meni
+Objavljenih opominov **ni mogoče** urejati.
 
-Zgornji meni omogoča:
-- tiskanje
-- izvoz (PDF)
+## Izbrisati opomin
 
-## Brisanje
+Kliknite poljuben opomin v stanju **Osnutek** na seznamu, da ga odprete, nato kliknite **Izbriši**.
 
-Opomine je mogoče izbrisati **samo v stanju Osnutek**.
+Po potrditvi brisanja se opomin trajno odstrani iz sistema.
 
-> [!NOTE]
-> Potrjenih opominov **ni mogoče** izbrisati.
+Objavljenih opominov za zamudo **ni mogoče** izbrisati.

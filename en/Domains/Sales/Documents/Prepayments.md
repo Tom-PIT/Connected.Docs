@@ -127,7 +127,7 @@ Drafts can be edited; committed prepayments are final unless reversed.
 
 ## Actions
 
-### Creating a new prepayment
+### Create a new prepayment
 
 1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft prepayment.
 
@@ -153,7 +153,7 @@ Drafts can be edited; committed prepayments are final unless reversed.
 >
 >![Prepayments Proforma Link](../Images/PrepaymentsProformaLink.png)
 
-### Editing a prepayment
+### Edit a prepayment
 
 A draft prepayment can be modified until it is published.
 
@@ -168,7 +168,9 @@ Changes can be made to:
 
 #### Attachments
 
-Files can be uploaded in the **Attachments** section to provide additional documentation.
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
+
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
 #### Linked documents
 
@@ -235,22 +237,7 @@ When Intrastat reporting is enabled and the transaction involves a customer from
 
 These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
 
-
-## Menu
-
-The document menu provides additional actions:
-- **Printing**
-- **Exporting**
-- **Send as email**
-- **Delete all details** (only for drafts)
-- **Reverse document** (creates a financial reversal)
-- **Return to draft** (only if allowed by system settings)
-
-![Prepayment menu](../Images/PrepaymentsMenu.png "Prepayment menu")
-
-A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
-
-## Deletion
+### Delete a prepayment
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
@@ -267,4 +254,19 @@ If you need to remove only a specific material instead of clearing the entire do
 
 > [!NOTE]
 > Committed prepayments **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+
+
+### Document menu
+
+The document menu provides additional actions:
+- **Printing**
+- **Exporting**
+- **Send as email**
+- **Delete all details** (only for drafts)
+- **Reverse document** (creates a financial reversal)
+- **Return to draft** (only if allowed by system settings)
+
+![Prepayment menu](../Images/PrepaymentsMenu.png "Prepayment menu")
+
+A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
 

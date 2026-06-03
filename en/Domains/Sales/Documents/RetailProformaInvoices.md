@@ -27,6 +27,14 @@ Retail proforma invoices are used for over-the-counter or direct retail sales:
 
 Retail proforma invoices **do not affect inventory**.
 
+## Stock handling
+
+Retail proforma invoices **do not decrease stock**, regardless of payment status.
+
+To adjust inventory:
+- Create an [issue](../../Logistics/Documents/Issues.md) document, or  
+- Create a [delivery note](DeliveryNotes.md) followed by an [issue](../../Logistics/Documents/Issues.md).
+
 ## Schema
 
 <details open>
@@ -129,7 +137,7 @@ Each row displays:
 
 ## Actions
 
-### Creating a new retail proforma invoice
+### Create a new retail proforma invoice
 
 Retail proforma invoices can only be created manually.
 
@@ -156,7 +164,7 @@ Retail proforma invoices can only be created manually.
 7. When ready, click **Publish** to confirm the document.  
    The document moves from **Draft** to **Unpaid invoices**.
 
-### Transport and Intrastat sections
+#### Transport and Intrastat sections
 
 When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
 
@@ -168,19 +176,19 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 > [!NOTE]  
 Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
-### Delivery section
+#### Delivery section
 
 The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
 
 These values affect the printed document and follow-up logistics documents, but do not modify the master data.
 
-### Details
+#### Details
 
 Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
 
 ![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png)
 
-#### Ledger details
+##### Ledger details
 
 The **Ledger** section defines how the document is posted to the general ledger. It determines which accounts are used for revenue, expense, and tax postings when the document is saved and posted.
 
@@ -192,14 +200,13 @@ When the document is posted:
 
 The available accounts are defined in the **[Chart of accounts](../../Accounting/Management/Ledger/ChartOfAccounts.md)**.
 
-#### Intrastat details
+##### Intrastat details
 
 When Intrastat reporting is enabled and the transaction involves a customer from another EU country, an additional **Intrastat** section becomes available in the detail edit form. This section collects statistical information required for Intrastat reporting.
 
 These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
 
-
-### Payments
+### Record payments
 
 Payments are recorded using the **Payment** button at the top of the document.
 
@@ -220,7 +227,7 @@ You can register multiple payments over time. The system automatically updates t
 > [!NOTE]  
 > When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
 
-### Editing a retail proforma invoice
+### Edit a retail proforma invoice
 
 A retail proforma invoice can be edited while it is in **Draft** state.
 
@@ -232,31 +239,7 @@ Editable sections include:
 
 Once published, edits are no longer allowed unless the document is returned to draft (if permitted).
 
-### Menu
-
-The document menu provides additional actions:
-
-- **Printing**
-- **Exporting**
-- **Send as email**
-- **Reverse document**
-- **Return to draft**
-
-![Retail invoice menu](../Images/RetailInvoiceMenu.png)
-
-> [!NOTE]
->
-> Draft invoices do not have **Reverse document**, but they have a **Delete all details** option.
-
-## Stock handling
-
-Retail proforma invoices **do not decrease stock**, regardless of payment status.
-
-To adjust inventory:
-- Create an [issue](../../Logistics/Documents/Issues.md) document, or  
-- Create a [delivery note](DeliveryNotes.md) followed by an [issue](../../Logistics/Documents/Issues.md).
-
-## Deletion
+### Delete a retail proforma invoice
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
@@ -273,4 +256,20 @@ If you need to remove only a specific material instead of clearing the entire do
 
 > [!NOTE]
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+
+### Document menu
+
+The document menu provides additional actions:
+
+- **Printing**
+- **Exporting**
+- **Send as email**
+- **Reverse document**
+- **Return to draft**
+
+![Retail invoice menu](../Images/RetailInvoiceMenu.png)
+
+> [!NOTE]
+>
+> Draft invoices do not have **Reverse document**, but they have a **Delete all details** option.
 

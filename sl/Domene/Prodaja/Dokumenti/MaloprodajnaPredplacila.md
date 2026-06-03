@@ -29,6 +29,14 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 > [!IMPORTANT]  
 > Maloprodajna predplačila **ne vplivajo na zalogo**.
 
+## Ravnanje z zalogo
+
+Maloprodajna predplačila **ne zmanjšujejo zaloge**, ne glede na stanje plačila.
+
+Za prilagoditev zaloge:
+- ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md), ali  
+- ustvarite [**Dobavnico**](Dobavnice.md) in nato [**Izdajo**](../../Logistika/Dokumenti/Izdajnice.md).
+
 ## Shema
 
 <details open>
@@ -110,7 +118,7 @@ Maloprodajna predplačila podpirajo naslednja stanja:
 
 Po objavi dokumenta postane na voljo gumb **Plačilo**.
 
-### Seznam
+### Seznam malaprodajnih predplačil
 
 Seznam je mogoče filtrirati po:
 - **Datumih dokumentov**
@@ -124,9 +132,24 @@ Vsaka vrstica prikazuje:
 - Plačan znesek  
 - Skupni znesek  
 
+### Meni
+
+Meni dokumenta omogoča:
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
+- **Vrni v osnutek**
+
+![Meni maloprodajnega predplačila](../Images/RetailInvoiceMenu.png "Meni dokumenta")
+
+> [!NOTE]
+> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.
+
 ## Dejanja
 
-### Ustvarjanje novega maloprodajnega predplačila
+### Ustvariti novo maloprodajno predplačilo
 
 Maloprodajna predplačila je mogoče ustvariti **samo ročno**.
 
@@ -199,7 +222,7 @@ Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat
 
 Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
 
-### Evidentiranje plačil
+#### Evidentirati plačilo
 
 Plačila se evidentirajo z gumbom **Plačilo** na vrhu dokumenta.
 
@@ -215,7 +238,7 @@ Evidentirati je mogoče več plačil. Sistem samodejno posodobi stanje dokumenta
 - **Delno plačani**
 - **V celoti plačani**
 
-## Urejanje maloprodajnega predplačila
+### Urediti maloprodajno predplačilo
 
 Dokument je mogoče urejati **le v stanju Osnutek**.
 
@@ -227,30 +250,7 @@ Urejate lahko:
 
 Po objavi urejanje ni več dovoljeno, razen če je dokument **vrnjen v osnutek** (če to dovoljuje konfiguracija).
 
-## Meni
-
-Meni dokumenta omogoča:
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
-- **Vrni v osnutek**
-
-![Meni maloprodajnega predplačila](../Images/RetailInvoiceMenu.png "Meni dokumenta")
-
-> [!NOTE]
-> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.
-
-## Ravnanje z zalogo
-
-Maloprodajna predplačila **ne zmanjšujejo zaloge**, ne glede na stanje plačila.
-
-Za prilagoditev zaloge:
-- ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md), ali  
-- ustvarite [**Dobavnico**](Dobavnice.md) in nato [**Izdajo**](../../Logistika/Dokumenti/Izdajnice.md).
-
-## Brisanje
+### Izbrisati maloprodajno predplačilo
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 

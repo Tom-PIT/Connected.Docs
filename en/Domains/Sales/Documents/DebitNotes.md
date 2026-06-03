@@ -132,7 +132,7 @@ Drafts can be edited; committed debit notes are final unless reversed.
 
 ## Actions
 
-### Creating a new debit note
+### Create a new debit note
 
 Debit notes can be created in two ways:
 
@@ -186,7 +186,7 @@ When Intrastat reporting is enabled and the transaction involves a customer from
 
 These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
 
-### Editing a debit note
+### Edit a debit note
 
 Only **Draft** debit notes can be edited.
 
@@ -202,7 +202,9 @@ Committed debit notes are read-only.
 
 #### Attachments
 
-Files can be added in the **Attachments** section to store supporting documents such as agreements or correction explanations.
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
+
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
 #### Linked documents
 
@@ -232,22 +234,7 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 > [!NOTE]
 > Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
-## Menu
-
-The document menu provides additional actions:
-
-- **Printing**
-- **Exporting**
-- **Send as email**
-- **Delete all details** (only for drafts)
-- **Reverse document**
-- **Return to draft** (only if allowed)
-
-![Debit note menu](../Images/CreditDebitNoteMenu.png)
-
-Reversing a debit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.
-
-## Deletion
+## Delete a debit note
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
@@ -264,3 +251,18 @@ If you need to remove only a specific material instead of clearing the entire do
 
 > [!NOTE]
 > Committed debit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+
+### Document menu
+
+The document menu provides additional actions:
+
+- **Printing**
+- **Exporting**
+- **Send as email**
+- **Delete all details** (only for drafts)
+- **Reverse document**
+- **Return to draft** (only if allowed)
+
+![Debit note menu](../Images/CreditDebitNoteMenu.png)
+
+Reversing a debit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.

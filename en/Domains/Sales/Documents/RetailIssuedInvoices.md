@@ -20,6 +20,14 @@ Retail issued invoices are designed for walk-in or over-the-counter sales:
 5. The invoice moves automatically to **Partially paid** or **Fully paid** based on recorded payments.  
 6. Stock is adjusted separately using an [**Issue**](../../Logistics/Documents/Issues.md) document (or [**Delivery note**](DeliveryNotes.md) + [**Issue**](../../Logistics/Documents/Issues.md) if goods are delivered).
 
+## Stock handling
+
+Retail proforma invoices **do not decrease stock**, regardless of payment status.
+
+To adjust inventory:
+- Create an [issue](../../Logistics/Documents/Issues.md) document, or  
+- Create a [delivery note](DeliveryNotes.md) followed by an [issue](../../Logistics/Documents/Issues.md).
+
 ## Conditions for a retail issued invoice to be fiscalized (if fiscalization is enabled in the system)
 
 To ensure that a retail issued invoice can be fiscalized, the following conditions must be met:
@@ -146,7 +154,7 @@ On the list view, the menu in the top-right corner provides additional options:
 
 ## Actions
 
-### Creating a new retail issued invoice
+### Create a new retail issued invoice
 
 Retail issued invoices can only be created manually.
 
@@ -173,7 +181,7 @@ Retail issued invoices can only be created manually.
 7. Click **Publish** to confirm the invoice.  
    The document moves to **Unpaid invoices**.
 
-### Transport and Intrastat sections
+#### Transport and Intrastat sections
 
 When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
 
@@ -185,13 +193,13 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 > [!NOTE]  
 Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
-### Delivery section
+#### Delivery section
 
 The Delivery section defines where the goods will be shipped. It is filled automatically from the customer or vendor data but can be adjusted for each document.  
 
 These values affect the printed document and follow-up logistics documents, but do not modify the master data.
 
-### Details
+#### Details
 
 Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
 
@@ -215,7 +223,7 @@ When Intrastat reporting is enabled and the transaction involves a customer from
 
 These fields are mandatory for cross-border EU transactions when the organization is Intrastat-obliged.
 
-## Recording payments
+### Record payments
 
 Payments are recorded using the **Payment** button at the top of the document.
 
@@ -236,31 +244,7 @@ You can register multiple payments over time. The system automatically updates t
 > [!NOTE]  
 > When an invoice is fully covered by recorded payments, it appears in the **Fully paid invoices** view. Partially paid documents appear under **Partially paid invoices**, and unpaid ones under **Unpaid invoices**.
 
-## Stock handling
-
-Retail proforma invoices **do not decrease stock**, regardless of payment status.
-
-To adjust inventory:
-- Create an [issue](../../Logistics/Documents/Issues.md) document, or  
-- Create a [delivery note](DeliveryNotes.md) followed by an [issue](../../Logistics/Documents/Issues.md).
-
-## Menu
-
-The document menu for published invoices provides:
-- **Printing**
-- **Exporting**
-- **Send as email**
-- **Delete all details** (only for drafts)
-- **Reverse document** - See [**Reversals**](../../Logistics/Documents/Reversals.md) for details.
-- **Return to draft**
-
-   ![Retail invoice menu](../Images/RetailInvoiceMenu.png "Retail invoice menu")
-
-> [!NOTE]
->
-> Draft invoices do not have **Reverse document**, but they have a **Delete all details** option.
-
-## Deletion
+### Delete a retail issued invoice
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
@@ -277,4 +261,23 @@ If you need to remove only a specific material instead of clearing the entire do
 
 > [!NOTE]
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
+
+### Document menu
+
+The document menu for published invoices provides:
+- **Printing**
+- **Exporting**
+- **Send as email**
+- **Delete all details** (only for drafts)
+- **Reverse document** - See [**Reversals**](../../Logistics/Documents/Reversals.md) for details.
+- **Return to draft**
+
+   ![Retail invoice menu](../Images/RetailInvoiceMenu.png "Retail invoice menu")
+
+> [!NOTE]
+>
+> Draft invoices do not have **Reverse document**, but they have a **Delete all details** option.
+
+
+
 

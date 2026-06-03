@@ -71,7 +71,6 @@ Delivery notes use a simplified set of workflow states:
 
 - **Completed** – All actions related to the delivery note have been fully executed. The delivery note cannot be modified further but can still be printed, exported, or used to generate an invoice.
 
-
 ### List view
 
 The Delivery notes list shows all documents separated by:
@@ -98,7 +97,7 @@ These indicators update automatically based on selected filters (Document dates,
 
 ## Actions
 
-### Creating a new delivery note
+### Create a new delivery note
 
 Delivery notes can be created in two ways:
 
@@ -111,7 +110,7 @@ Example of an empty Delivery note draft:
 
 ![Delivery note new](../Images/DeliveryNoteNew.png)
 
-### Editing a delivery note
+### Edit a delivery note
 
 Click on an Delivery note to edit its details. The document is divided into expandable sections that can be edited:
 
@@ -156,7 +155,6 @@ Available actions of delivery notes in the **available** status include:
 - **[+ Full issue](../../Logistics/Documents/Issues.md)**
 - **[Issue](../../Logistics/Documents/Issues.md)** – Link an existing issue
 
-
 #### Alternative currency
 
 The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.
@@ -173,27 +171,11 @@ The Transport section defines how goods are delivered to the customer and under 
 
 The information entered here is used for logistics coordination, customer communication, and printed sales documents.
 
-### Completing a Delivery note
+### Completing a delivery note
 
 Once the delivery note is ready, click **Complete** at the top of the page.
 
-## Menu
-
-The top-right menu includes:
-
-![Delivery notes menu](../Images/DeliveryNotesMenuV2.png)
-
-- **Printing**
-- **Exporting (PDF)**
-- **Send as email**
-- **Print asset** (Completed documents)
-- **Reverse document** (Completed documents)
-- **Return to draft** (Completed documents)
-
-> **Reversal note:**  
-> A reversed delivery note appears under *Reversal state → Reversed* in the sidebar.
-
-## Deletion
+### Delete a delivery note
 
 Draft delivery notes can be deleted on the edit screen, but only if they contain **no details**.
 
@@ -210,4 +192,21 @@ If confirmed, the document is permanently removed.
 > [!NOTE]  
 > - A delivery note cannot be deleted if it is referenced by dependent documents (Issues, Invoices, Production orders, etc.).
 > - Completed documents **cannot** be deleted — only reversed or returned to draft.
+
+
+### Document menu
+
+The top-right menu includes:
+
+![Delivery notes menu](../Images/DeliveryNotesMenuV2.png)
+
+- **Printing**
+- **Exporting (PDF)**
+- **Send as email**
+- **Print asset** (Completed documents)
+- **Reverse document** (Completed documents)
+- **Return to draft** (Completed documents)
+
+> **Reversal note:**  
+> A reversed delivery note appears under *Reversal state → Reversed* in the sidebar.
 

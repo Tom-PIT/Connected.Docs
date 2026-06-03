@@ -17,12 +17,14 @@ To access this page, go to **Sales / Management / Clause templates for delivery 
 
 ## Schema
 
-### Template fields  
+### Template fields
+
 | Field | Description |
 |--------|-------------|
 | **Company** | The company for which the clause template applies. Selected from the [Business directory](../../../Common/Management/BusinessDirectory.md). (mandatory) |
 
-### Clause fields (inside a template)  
+### Clause fields (inside a template)
+
 | Field | Description |
 |--------|-------------|
 | **Location** | Where the clause appears on the delivery note (top or bottom). |
@@ -39,7 +41,9 @@ The list displays all existing clause templates, grouped by company:
 
 Click **Clauses** to open the clause list for that template. You may use the **Search** bar to filter templates by company name.
 
-### Creating a new template
+## Actions
+
+### Create a new template
 
 Click the **action button** to create a new template. Only one field is required:
 
@@ -49,7 +53,7 @@ After adding the template, you must click **Clauses** to open the clause editor.
 
 ![Clauses button](../Images/ClauseTemplatesDeliveryNotesClausesButton.png "Clauses button")
 
-### Adding clauses to a template
+#### Add clauses to a template
 
 Inside the clause editor, use the action button to add clauses. Select: 
 - **Location** - The place in the delivery note where the clause should appear
@@ -58,7 +62,7 @@ Inside the clause editor, use the action button to add clauses. Select:
 
 ![Add clause](../Images/ClauseTemplatesDeliveryNotesClausesNew.png "Add clause")
 
-### Clause list
+#### Clause list
 
 All clauses assigned to the template are shown in order:
 
@@ -66,17 +70,13 @@ All clauses assigned to the template are shown in order:
 
 You may reorder clauses by editing the **Ordinal** value.
 
-## Actions
-
-### Editing templates and clauses
+### Edit templates and clauses
 
 Click the **company name** to open the template. Click any clause to edit its location, order, or assigned predefined text.
 
-### Deletion
+### Delete templates and clauses
 
-Click **Delete** on the edit screen to open a confirmation dialog:
-
-**Are you sure you want to delete this record?**  
+Open a template or clause and click **Delete** on the edit screen. 
 
 If confirmed, the record is permanently removed; otherwise, the system keeps it unchanged.
 
