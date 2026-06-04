@@ -10,7 +10,7 @@ Dokument je namenjen prodaji na blagajni ali v trgovini in podpira enak življen
 
 Maloprodajna predplačila je mogoče natisniti ali poslati stranki v katerikoli fazi.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna predplačila** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna predplačila** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga maloprodajnih predplačil v prodajnem procesu
 
@@ -132,28 +132,13 @@ Vsaka vrstica prikazuje:
 - Plačan znesek  
 - Skupni znesek  
 
-### Meni
-
-Meni dokumenta omogoča:
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
-- **Vrni v osnutek**
-
-![Meni maloprodajnega predplačila](../Images/RetailInvoiceMenu.png "Meni dokumenta")
-
-> [!NOTE]
-> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.
-
 ## Dejanja
 
 ### Ustvariti novo maloprodajno predplačilo
 
 Maloprodajna predplačila je mogoče ustvariti **samo ročno**.
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
 
    ![Novo maloprodajno predplačilo](../Images/RetailProformaInvoiceNew.png "Novo maloprodajno predplačilo")
 
@@ -267,3 +252,18 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 
 > [!NOTE]  
 > Objavljenih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
+
+### Meni
+
+Meni dokumenta omogoča:
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
+- **Vrni v osnutek**
+
+![Meni maloprodajnega predplačila](../Images/RetailInvoiceMenu.png "Meni dokumenta")
+
+> [!NOTE]
+> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.

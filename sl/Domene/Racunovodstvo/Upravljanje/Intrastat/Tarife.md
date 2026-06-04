@@ -7,7 +7,7 @@
 
 Tarife predstavljajo **klasifikacijske šifre blaga**, ki se uporabljajo za **poročanje Intrastat** ter v izbranih logističnih in prodajnih procesih. Vsaka tarifa določa vrsto blaga, pripadajočo mersko enoto in oddelek, v katerem se najpogosteje uporablja.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Upravljanje / Intrastat / Tarife** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Upravljanje / Intrastat / Tarife** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -33,7 +33,7 @@ Tarife je mogoče iskati z iskalnikom v zgornjem desnem kotu.
 
 ## Ustvariti tarife
 
-Za dodajanje nove tarife kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md).
+Za dodajanje nove tarife kliknite [akcijski gumb](../../../../Skupno/UI/AkcijskiGumb.md).
 
 ![Dodaj tarifo](../../Images/TariffsNewSL.png)
 

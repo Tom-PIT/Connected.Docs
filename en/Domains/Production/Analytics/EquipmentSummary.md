@@ -7,7 +7,7 @@
 
 The Equipment summary page provides an overview of machine performance, including downtime, production output, quality, and OEE (Overall Equipment Effectiveness). It helps supervisors and managers understand how each machine is performing over time.
 
-To access this page, go to **Production / Analytics / Equipment summary** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Equipment summary** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Equipment summary](../Images/EquipmentSummaryView2.png "Equipment summary")
 
@@ -25,16 +25,16 @@ Shows the selected machine name and rating (if used).
 
 ## Machine status
 
-Displays the machine’s current operating condition:
+Displays the machineâ€™s current operating condition:
 
-- **Running** – shows the cycle time (e.g., `0 s/piece`)  
-- **Downtime** – shows the duration of the active downtime  
+- **Running** â€“ shows the cycle time (e.g., `0 s/piece`)  
+- **Downtime** â€“ shows the duration of the active downtime  
 
 The status label may vary depending on machine state (e.g., *Working*, *Stopped*).
 
 ## OEE indicator
 
-A circular gauge representing the machine’s **Overall Equipment Effectiveness** (%).  
+A circular gauge representing the machineâ€™s **Overall Equipment Effectiveness** (%).  
 
 If insufficient data is available, OEE may show **0%**.
 
@@ -51,8 +51,8 @@ This includes:
 
 ### Incompliant  
 Shows defective pieces relative to total produced:
-- **Count** – defective / produced  
-- **Percentage** – defect rate
+- **Count** â€“ defective / produced  
+- **Percentage** â€“ defect rate
 
 ### Production  
 Shows production progress for the current operation:

@@ -9,7 +9,7 @@ The **Sales** domain contains all records and documents needed to manage commerc
 
 Where the **[Assets](../../Assets/Domain/AssetsDomain.md)** domain defines *what* is sold, the Sales domain defines *how* it is offered, confirmed, delivered, and billed.
 
-To access this domain, navigate to **Sales** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this domain, navigate to **Sales** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Sales Domain](../Images/SalesDomainSitemapV2.png "Sales Domain")
 

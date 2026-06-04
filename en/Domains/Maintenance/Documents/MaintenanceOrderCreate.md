@@ -5,7 +5,7 @@
 
 # How to create a new maintenance order
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new maintenance order.
+Click the [action button](../../../Common/UI/ActionButton.md) to create a new maintenance order.
 
 The creation wizard consists of **three steps**, similar to production orders.
 

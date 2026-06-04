@@ -9,7 +9,7 @@ The **Organization units** code list defines operational organizational entities
 
 Organization units are used by planners and supervisors to scope operations, filter lists, and control workflow routing (for example, selecting the correct input/output warehouse location or assigning duties). Example: the Organization unit with Code **ORN-25-0002** corresponds to **Finishing**, a production unit responsible for finishing the product before packaging; similarly, a **Maintenance** unit might be **Electrical Maintenance** for equipment servicing.
 
-To access Organization units, navigate to the **Production** or **Maintenance** domains, then go to **Management / Organization units** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Organization units, navigate to the **Production** or **Maintenance** domains, then go to **Management / Organization units** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Organization units](https://www.youtube.com/watch?v=qGkHEuOEWT4)** video tutorial.
@@ -48,7 +48,7 @@ Use the buttons under each organization unit to attach human, non-human resource
 
 ### Create a new organization unit
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to open the form to create a new organization unit.
+Click the [action button](../../../Common/UI/ActionButton.md) to open the form to create a new organization unit.
 
 Fill in the fields on the form:
 
@@ -76,7 +76,7 @@ Organization units can have [**quality checklists**](Checklists.md) assigned to 
 #### Add a quality checklist to an organization unit
 
 1. In the organization units list, click **Quality** on the desired organization unit.
-2. Click the **action button** to add a new checklist.
+2. Click the action button to add a new checklist.
 3. Select:
    - **Checklist** (configured in [Checklists](Checklists.md))
    - **Mode** (currently **On first login**)

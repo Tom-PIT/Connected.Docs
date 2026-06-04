@@ -6,7 +6,7 @@
 # Banke
 Šifrant **Banke** vsebuje finančne institucije, ki se lahko uporabljajo v dokumentih, kot so izdani računi, plačila in organizacijski bančni računi. Vsak zapis banke vsebuje ime, šifro BIC in državo, kar sistemu omogoča povezovanje z različnimi [poslovnimi partnerji](../../Skupno/Upravljanje/PoslovniImenik.md) in njihovimi transakcijami ter pravilno sklicevanje na bančne podatke kjerkoli so potrebni.
 
-Za dostop do šifranta Banke se pomaknite na **Prodaja / Upravljanje / Banke** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do šifranta Banke se pomaknite na **Prodaja / Upravljanje / Banke** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > **Predpogoji**  
@@ -40,7 +40,7 @@ Za hitro filtriranje bank po kodi ali imenu lahko uporabite **iskalno vrstico**.
 
 Za vstvarjanje nove banke:
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove banke.
+1. Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove banke.
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
 

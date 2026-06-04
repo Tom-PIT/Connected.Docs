@@ -7,7 +7,7 @@
 
 An **Inquiry** is a supply document used to request pricing, availability, and delivery information from a vendor before placing a formal order. Inquiries help your organization compare supplier responses, plan upcoming purchasing, and smoothly transition into follow-up documents such as [**Supply orders**](SupplyOrders.md).
 
-To access this page, go to **Supply / Documents / Inquiries** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Supply / Documents / Inquiries** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## How inquiries fit into the supply workflow
 
@@ -87,7 +87,7 @@ These filters allow quick navigation through vendor requests across different st
 
 ### Creating a new Inquiry
 
-1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft inquiry.
+1. Use the [action button](../../../Common/UI/ActionButton.md) to create a new draft inquiry.
 
 2. Fill in the **Vendor**, **Document date**, and **Validity date** fields.
 

@@ -12,7 +12,7 @@
 
 Ta zaslon zagotavlja namenski delovni tok za **izdajo materiala kooperantom** in **prevzem materiala nazaj**, ko je zunanja operacija zaključena.
 
-Za dostop do tega zaslona pojdite na **Proizvodnja / Kooperanti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Proizvodnja / Kooperanti** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Pregled kooperantov](../Images/CooperatorsIssue.png)
 
@@ -70,7 +70,7 @@ Tipičen potek dela:
 
 1. Izberite eno ali več operacij s seznama.
 2. V levi stranski vrstici izberite **Kooperanta** (iz [**Poslovnega imenika**](../../../Skupno/Upravljanje/PoslovniImenik.md)).
-3. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+3. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 4. Izberite eno od razpoložljivih možnosti:
    - **Ustvari [Dobavnico](../../Prodaja/Dokumenti/Dobavnice.md)**
    - **Dodaj k obstoječi [Dobavnici](../../Prodaja/Dokumenti/Dobavnice.md)**
@@ -95,7 +95,7 @@ Po izdaji materiala se operacija prikaže v pogledu **Za prevzem**.
 Od tu se delovni tok obrne:
 
 1. Izberite operacijo.
-2. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+2. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 3. Ustvarite nov **[Nabavni nalog](../../Nabava/Dokumenti/NabavniNalogi.md)** (za evidentiranje storitve dobavitelja in povratne logistike).
 4. Nadaljujte standardni tok:
    **[Nabavni nalog](../../Nabava/Dokumenti/NabavniNalogi.md) → [Prevzem](../../Logistika/Dokumenti/Prevzemi.md)**

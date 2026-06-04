@@ -7,7 +7,7 @@
 
 **Received invoices** are financial documents representing invoices received from vendors for purchased goods or services. They are used to record supplier invoices, generate accounting postings, and initiate outgoing payments.
 
-To access this screen, go to **Accounting / Invoices / Received invoices** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Invoices / Received invoices** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]
 > Received invoices are typically linked to one or more **Supply orders**. Linking supply orders allows the system to prefill details and propose accounting postings based on received goods.

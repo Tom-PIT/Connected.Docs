@@ -7,7 +7,7 @@
 
 Sick leave types define the **reasons for sickness absence** that employees can select when creating a sick leave entry. They standardize sick leave reporting and ensure consistent categorization across time logs, attendance tracking, and leave management.
 
-To access **Sick leave types**, go to **Resources / Management / Sick leave types** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access **Sick leave types**, go to **Resources / Management / Sick leave types** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -21,7 +21,7 @@ The list displays all defined sick leave types.
 
 - Each row represents one sick leave reason  
 - Clicking a row opens the edit view  
-- The **action button** allows creating a new sick leave type  
+- The action button allows creating a new sick leave type  
 
 ![Sick Leave Types List](../Images/SickLeaveTypesList.png "Sick Leave Types List")
 
@@ -31,7 +31,7 @@ This list is typically maintained by administrators or HR managers.
 
 ### Create a new sick leave type
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new entry.
+1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new entry.
 2. Enter a **Name** and set the **Status** (enabled or disabled) for the sick leave type.
 3. Click **Save** to make the type available system-wide. 
 

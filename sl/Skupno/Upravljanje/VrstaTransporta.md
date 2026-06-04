@@ -40,7 +40,7 @@ Klik na vrstico odpre zapis v načinu urejanja.
 
 Za ustvarjanje nove vrste transporta:
 
-1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove vrste transporta.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove vrste transporta.
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
 3. Kliknite **Dodaj**, da ustvarite zapis, ali **Prekliči**, da se vrnete na seznam brez shranjevanja.
 

@@ -8,7 +8,7 @@
 Worksheets provide a calendar-based view for planning work based on **Timesheets**.  
 They represent *planned work* and allow users to schedule activities over time.
 
-To access **Worksheets**, go to **Resources / Worksheets** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access **Worksheets**, go to **Resources / Worksheets** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 

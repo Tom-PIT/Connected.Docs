@@ -9,7 +9,7 @@ The **Expenses** code list contains all costs that your organization wants to re
 
 This list helps maintain consistency by storing all expenses in one place, making them available for use across documents and operational workflows.
 
-To access this code list, go to **Supply / Management / Expenses** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this code list, go to **Supply / Management / Expenses** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -79,7 +79,7 @@ These filters control whether the list shows active or inactive expense entries.
 
 ### Add new expense
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
+Click the [action button](../../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
 
 - **Add new expense**
 - **Ledger**

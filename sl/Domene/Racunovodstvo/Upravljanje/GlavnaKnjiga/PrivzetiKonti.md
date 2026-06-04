@@ -12,7 +12,7 @@ Privzeti konti se uporabljajo vedno, ko se računovodske postavke ustvarijo **sa
 > [!NOTE]
 > Privzeti konti se običajno nastavijo ob začetni konfiguraciji sistema. Spremembe vplivajo na prihodnja samodejna knjiženja, ne pa na že obstoječe postavke.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Privzeti konti** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Privzeti konti** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -52,7 +52,7 @@ Seznam je mogoče preiskovati z iskalnim poljem v zgornjem desnem kotu.
 
 Za ustvarjanje novega privzetega konta:
 
-1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md)
+1. Kliknite [akcijski gumb](../../../../Skupno/UI/AkcijskiGumb.md)
 2. Vnesite:
    - **Šifro**
    - **Ime**

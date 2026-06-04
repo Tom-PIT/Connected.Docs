@@ -14,7 +14,7 @@ Assets may represent:
 
 Assets do **not** participate in stock movements. Instead, they define sales-ready items with their own price, tax rate, and properties. An asset may optionally reference materials when the sold product is also tracked in stock.
 
-To access this screen, go to **Assets / Assets** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Assets / Assets** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -68,7 +68,7 @@ To access this screen, go to **Assets / Assets** in the [**navigation**](../../.
 
 ### Add a new asset
 
-Click the **action button** to create a new asset. The following fields must be entered before saving:
+Click the action button to create a new asset. The following fields must be entered before saving:
 
 - **Code**  
 - **Name**  

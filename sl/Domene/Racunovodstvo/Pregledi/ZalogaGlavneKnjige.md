@@ -9,7 +9,7 @@ Pogled **Zaloga glavne knjige** omogoča **finančni posnetek vrednosti zaloge**
 
 Gre za **analitični pogled samo za branje**, namenjen računovodstvu in poročanju.
 
-Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Zaloga** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Zaloga** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Zaloga glavne knjige](../Images/StockViewLedger.png "Zaloga glavne knjige")
 

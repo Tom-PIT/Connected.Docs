@@ -7,7 +7,7 @@
 
 Šifrant **Predloge klavzul za izdane račune** omogoča definiranje naborov klavzul (predlog), ki se izpišejo na izdanih računih za posamezna podjetja. Predloga vsebuje eno ali več klavzul – kot so pravna obvestila, plačilni pogoji, izjave o omejitvi odgovornosti ali obračunski pogoji – ki se na računu izpišejo na vrhu ali dnu dokumenta v določenem zaporedju.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za izdane račune** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za izdane račune** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > **Predpogoji**  
@@ -39,9 +39,11 @@ Seznam prikazuje vse obstoječe predloge klavzul, združene po podjetjih:
 
 S klikom na **Klavzule** odprete seznam klavzul za izbrano predlogo. Za iskanje po imenu podjetja lahko uporabite polje **Iskanje**.
 
-### Ustvarjanje nove predloge
+## Dejanja
 
-Kliknite **akcijski gumb**, da ustvarite novo predlogo. Zahtevano je le eno polje:
+### Ustvariti novo predlogo izdane račune
+
+Kliknite akcijski gumb, da ustvarite novo predlogo. Zahtevano je le eno polje:
 
 ![Dodaj predlogo](../Images/ClauseTemplatesIssuedInvoicesNew.png "Dodajanje predloge")
 
@@ -49,7 +51,7 @@ Po dodajanju predloge morate klikniti **Klavzule**, da odprete urejevalnik klavz
 
 ![Gumb Klavzule](../Images/ClauseTemplatesDeliveryNotesClausesButton.png "Gumb Klavzule")
 
-### Dodajanje klavzul v predlogo
+### Dodati klavzul v predlogo
 
 V urejevalniku klavzul z akcijskim gumbom dodajte novo klavzulo. Izberite:
 - **Lokacija** – mesto izpisa klavzule na izdanem računu  
@@ -66,15 +68,13 @@ Vse klavzule, dodeljene predlogi, so prikazane v pravilnem zaporedju:
 
 Zaporedje lahko spremenite z urejanjem vrednosti **Zaporedna številka**.
 
-## Dejanja
-
-### Urejanje predlog in klavzul
+### Urediti predlogo izdane račune in klavzule
 
 S klikom na **ime podjetja** odprete predlogo. S klikom na posamezno klavzulo lahko uredite njeno lokacijo, zaporedje ali pripadajoče besedilo.
 
-### Brisanje
+### Izbrisati predlogo izdane račune
 
-Na zaslonu za urejanje kliknite **Izbriši**, da se odpre potrditveno okno:
+Kliknite predlogo, ki jo želite izbrisati, nato kliknite **Izbriši**, da se odpre potrditveno okno:
 
 **Ali ste prepričani, da želite izbrisati ta zapis?**
 
@@ -83,4 +83,3 @@ Ob potrditvi se zapis trajno izbriše, v nasprotnem primeru ostane nespremenjen.
 > [!NOTE]  
 > Predlogo klavzul ali posamezno klavzulo je mogoče izbrisati le, če ni zahtevana v odvisnih poslovnih procesih.
 
----

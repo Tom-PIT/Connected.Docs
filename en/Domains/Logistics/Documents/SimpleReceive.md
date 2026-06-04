@@ -9,7 +9,7 @@ The **Simple receive** workflow provides a fast way to record incoming materials
 
 Simple receive is ideal for quick warehouse operations where materials arrive exactly as ordered, without the need for advanced receiving features.
 
-To access Simple receive, go to **Logistics / Documents / Simple receive** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Simple receive, go to **Logistics / Documents / Simple receive** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Overview
 

@@ -18,7 +18,7 @@ Packaging details for each specific material type can also be defined in the mat
 > [!TIP]
 > For a full demonstration, see the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video tutorial.
 
-To access packaging configuration, go to: **Assets / Materials / Packaging** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access packaging configuration, go to: **Assets / Materials / Packaging** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -60,7 +60,7 @@ A search field is available in the upper-right corner.
 
 ### Add a packaging entry
 
-On the **Packaging** screen, click the [**Action button**](../../../Common/UI/ActionButton.md) to add a new packaging item.
+On the **Packaging** screen, click the [action button](../../../Common/UI/ActionButton.md) to add a new packaging item.
 
 The form includes fields such as:
 

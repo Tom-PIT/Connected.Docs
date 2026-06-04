@@ -11,7 +11,7 @@ These terms are commonly used in **sales** documents to clearly specify delivery
 
 Most delivery terms are based on internationally recognized **Incoterms®** published by the International Chamber of Commerce (ICC), with the possibility to define custom terms if needed.
 
-To access this screen, go to **Accounting / Management / Intrastat / Delivery terms** in the [**navigation**](../../Common/UI/Navigation.md). It appears also under **Management** in the **Sales** domain.
+To access this screen, go to **Accounting / Management / Intrastat / Delivery terms** in the [navigation](../../Common/UI/Navigation.md). It appears also under **Management** in the **Sales** domain.
 
 ## Schema
 
@@ -37,7 +37,7 @@ The list can be searched using the search field in the top-right corner.
 
 To create a new delivery term, follow these steps:
 
-1. Click the [**action button**](../../Common/UI/ActionButton.md) to create a new delivery term.
+1. Click the [action button](../../Common/UI/ActionButton.md) to create a new delivery term.
 2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to save the new delivery term or **Cancel** to return to the list view.
 

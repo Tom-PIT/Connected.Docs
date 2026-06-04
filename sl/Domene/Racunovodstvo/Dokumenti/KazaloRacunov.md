@@ -1,6 +1,6 @@
 # Kazalo računov
 
-Za dostop do teh zaslonov pojdite na **Računovodstvo / Računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do teh zaslonov pojdite na **Računovodstvo / Računi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 Ta razdelek vsebuje dokumente, povezane z računi, ki so na voljo v domeni Računovodstvo.
 

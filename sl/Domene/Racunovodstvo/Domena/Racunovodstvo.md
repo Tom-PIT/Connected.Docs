@@ -9,7 +9,7 @@ Domena **Računovodstvo** vsebuje vse zapise, poročila in nastavitve, potrebne 
 
 Operativne dokumente, ustvarjene v drugih domenah (npr. [**Prodaja**](../../Prodaja/Domena/Prodaja.md), [**Nabava**](../../Nabava/Domena/Nabava.md) in [**Logistika**](../../Logistika/Domena/Logistika.md)), pretvarja v **uradne računovodske knjižbe**, s čimer zagotavlja skladnost, sledljivost in pravilno finančno poročanje.
 
-Do domene dostopate preko **Računovodstvo** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Do domene dostopate preko **Računovodstvo** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Domena Računovodstvo](../Images/AccountingDomainSitemapSL.png "Domena Računovodstvo")
 

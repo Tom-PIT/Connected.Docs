@@ -15,7 +15,7 @@ Ta postopek je podoben funkciji **[Premakni serijsko številko](PremakniSerijsko
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Premik vsebnika](https://www.youtube.com/watch?v=r_H76lJd7XY)**.
 
-Za dostop do **Premika vsebnika** pojdite na **Logistika / Dokumenti / Premik vsebnika** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Premika vsebnika** pojdite na **Logistika / Dokumenti / Premik vsebnika** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Premakniti vsebnik
 

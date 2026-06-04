@@ -7,7 +7,7 @@
 
 Pogled **Opomniki** omogoča koledarski pregled načrtovanih opomnikov ter ustvarjanje obvestil za pomembne dogodke, roke in nadaljnja opravila.
 
-Za dostop do **Opomnikov** pojdite na **Viri / Opomniki** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Opomnikov** pojdite na **Viri / Opomniki** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Koledar opomnikov](../Images/RemindersCalendar.png)
 

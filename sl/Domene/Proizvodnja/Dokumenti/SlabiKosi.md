@@ -8,7 +8,7 @@
 
 Aktivnost **Slabi kosi** se uporablja za beleženje okvarjenih ali neuporabnih kosov, nastalih med operacijo. Omogoča preglednost kakovosti ter zagotavlja natančno poročanje in sledljivost.
 
-**Slabi kosi** odprete iz zaslona [**Izvedba**](Izvedba.md) prek izbirnika aktivnosti (tapnite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Slabi kosi**).
+**Slabi kosi** odprete iz zaslona [**Izvedba**](Izvedba.md) prek izbirnika aktivnosti (tapnite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Slabi kosi**).
 
 ## Zabeležiti slabe kose
 

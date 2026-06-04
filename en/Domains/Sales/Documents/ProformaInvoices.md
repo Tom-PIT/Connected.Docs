@@ -7,7 +7,7 @@
 
 A **Proforma invoice** is a preliminary billing document used to provide customers with a detailed price quotation before goods or services are delivered. It does **not** trigger accounting or inventory changes, but it serves as a confirmed commercial offer.  
 
-Proforma invoices are typically created from a committed [**Offer**](Offers.md), but can also be created independently via the [**action button**](../../../Common/UI/ActionButton.md).
+Proforma invoices are typically created from a committed [**Offer**](Offers.md), but can also be created independently via the [action button](../../../Common/UI/ActionButton.md).
 
 To access this page, go to **Sales / Documents / Proforma invoices**.
 
@@ -130,7 +130,7 @@ Drafts can be edited; committed proforma invoices are final unless reversed.
 
 Proforma invoices can be created in two ways:
 
-- Directly from the **Proforma invoices** screen using the [**action button**](../../../Common/UI/ActionButton.md).  
+- Directly from the **Proforma invoices** screen using the [action button](../../../Common/UI/ActionButton.md).  
 - From a committed [**Offer**](Offers.md), via **Linked documents → + Proforma invoice**.  
   In this case, fields such as the customer, validity date, and detail items are automatically pre-filled.
 
@@ -138,7 +138,7 @@ Proforma invoices can be created in two ways:
 
 Once you start a new Proforma invoice, follow these steps:
 
-1. Use the [**action button**](../../../Common/UI/ActionButton.md) or the offer’s **Linked documents** panel to create a new draft proforma invoice.
+1. Use the [action button](../../../Common/UI/ActionButton.md) or the offer’s **Linked documents** panel to create a new draft proforma invoice.
 
 2. Fill in (or edit) the required header fields:  
    - [**Customer**](../../../Common/Management/BusinessDirectory.md)  
@@ -269,7 +269,7 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Document menu
+### Menu
 
 The document menu provides additional actions:
 - **Printing**

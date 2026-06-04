@@ -11,7 +11,7 @@ When items are loaned, they become **reserved** and unavailable for other operat
 > [!TIP]  
 > For a full demonstration, see the **[Loans](https://www.youtube.com/watch?v=V0QfOaBJ4Rk)** video tutorial.
 
-To access Loans, go to **Logistics / Documents / Loans** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -64,7 +64,7 @@ Click any loan to open and review its details.
 
 ### Creating a new loan
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) and start a new loan draft. Select the **Warehouse** and **Contact**.
+1. Click the [action button](../../../Common/UI/ActionButton.md) and start a new loan draft. Select the **Warehouse** and **Contact**.
 
    ![New loan](../Images/LoansNew.png "Add new loan")
 

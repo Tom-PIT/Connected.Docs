@@ -56,7 +56,7 @@ Use the **Search** field to filter operations by name or code.
 
 ## Create a new operation
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) and choose:  
+1. Click the [action button](../../../Common/UI/ActionButton.md) and choose:  
    - **New**  
    - **By template** - if templates are available in [**Protocol operations instance templates**](ProtocolOperationsInstanceTemplates.md#using-templates-when-creating-operations).
    - **Copy existing**  

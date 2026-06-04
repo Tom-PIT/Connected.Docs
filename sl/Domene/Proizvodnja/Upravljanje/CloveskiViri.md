@@ -41,7 +41,7 @@ Za filtriranje po imenu vira uporabite polje **Iskanje**.
 
 ## Dodati nov človeški vir
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov** (ali možnost kopiranja, če je na voljo).
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov** (ali možnost kopiranja, če je na voljo).
 2. Izpolnite polja:
 
    - **Tip** – Kompetenca, Delovno mesto ali Vir  

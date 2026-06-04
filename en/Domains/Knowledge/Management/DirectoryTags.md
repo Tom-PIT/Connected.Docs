@@ -9,7 +9,7 @@ The **Directory tags** code list defines tags that can be assigned to **Knowledg
 
 Directory tags are shared across the **Knowledge** domain and can be reused by multiple directories and articles.
 
-To access this screen, go to **Knowledge / Management / Directory tags** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Knowledge / Management / Directory tags** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -34,7 +34,7 @@ Clicking a tag opens it for editing.
 
 ## Actions
 
-Select a directory from the left panel, then click the **action button** to add a new directory tag.
+Select a directory from the left panel, then click the action button to add a new directory tag.
 
 ### Add new directory tag
 

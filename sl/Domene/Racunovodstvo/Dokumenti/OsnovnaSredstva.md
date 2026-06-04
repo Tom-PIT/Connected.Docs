@@ -8,7 +8,7 @@
 **Osnovna sredstva** se uporabljajo za spremljanje dolgoročnih sredstev v lasti organizacije, kot so stroji, oprema, pohištvo in IT oprema.  
 Vsako osnovno sredstvo predstavlja posamezno sredstvo ali skupino enakih sredstev, ki se kapitalizirajo in amortizirajo skozi čas.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Osnovna sredstva** v [**navigaciji**](../../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Osnovna sredstva** v [navigaciji](../../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
 
 > [!NOTE]
 > Osnovna sredstva so tesno povezana z **[amortizacijskimi skupinami](../Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md)** in **[konti glavne knjige](../Upravljanje/GlavnaKnjiga/Konti.md)**. Način knjiženja in izračun amortizacije sta odvisna od nastavitev amortizacijskih skupin in kontov.
@@ -80,7 +80,7 @@ Trenutno stanje posameznega sredstva odraža njegov življenjski cikel.
 
 ### Ustvariti osnovno sredstvo
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnovnega sredstva.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnovnega sredstva.
 2. Izpolnite obvezna polja v razdelku **Dokument**.
 3. Dodelite **amortizacijsko skupino** in preverite povezane konte.
 4. Kliknite **Objavi**.

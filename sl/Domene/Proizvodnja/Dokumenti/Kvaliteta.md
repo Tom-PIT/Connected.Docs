@@ -10,7 +10,7 @@ Aktivnost **Kvaliteta** prikazuje in beleži kontrolne liste kakovosti, povezane
 
 Med izvedbo se zahtevane kontrolne liste samodejno prikažejo ob ustreznem trenutku (na začetku, med delom ali pred zaključkom). Stran **Kvaliteta** omogoča pregled posamezne kontrolne liste in njeno ponovno izvajanje po potrebi. Primer si lahko ogledate v razdelku [Izvedba — kontrolne liste in nadzor kakovosti](Izvedba.md#kontrolne-liste-in-nadzor-kakovosti).
 
-**Kvaliteto** odprete na zaslonu [**Izvedba**](Izvedba.md) prek menija aktivnosti (tapnite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kvaliteta**).
+**Kvaliteto** odprete na zaslonu [**Izvedba**](Izvedba.md) prek menija aktivnosti (tapnite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kvaliteta**).
 
 ## Kontrolne liste kakovosti
 

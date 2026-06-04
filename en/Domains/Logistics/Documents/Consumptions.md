@@ -9,7 +9,7 @@ A **Consumption** document records materials that were consumed during the execu
 
 For the production-side entry of consumed materials, see **[Consumed](../../Production/Documents/Consumed.md)** — the two are closely linked: recording consumed material in production creates the corresponding consumption document in logistics.
 
-To access this page, go to **Logistics / Documents / Consumptions** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Documents / Consumptions** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -50,7 +50,7 @@ The **Consumptions** page displays all consumption documents created through pro
 
 ## Actions
 
-Consumption documents are **not** created manually from this page (there is no [**action button**](../../../Common/UI/ActionButton.md)). They are created from the [**Execution**](../../Production/Documents/Execution.md) module while recording consumption for a production order. See **[Consumed](../../Production/Documents/Consumed.md)** for the production entry that triggers these documents.
+Consumption documents are **not** created manually from this page (there is no [action button](../../../Common/UI/ActionButton.md)). They are created from the [**Execution**](../../Production/Documents/Execution.md) module while recording consumption for a production order. See **[Consumed](../../Production/Documents/Consumed.md)** for the production entry that triggers these documents.
 
 Workflow notes:
 - When a production worker starts recording consumption, a **Draft** consumption document is created automatically.

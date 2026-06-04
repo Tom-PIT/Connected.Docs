@@ -8,7 +8,7 @@
 **Ceniki sredstev** določajo, koliko določen kupec (ali druga poslovna entiteta) plača za vaša [sredstva](Sredstva.md).  
 Omogočajo nastavitev **cen po posameznem kupcu**, veljavnih za določeno časovno obdobje, ter po potrebi vključujejo **količinske popuste** (cenovne razrede).
 
-Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Sredstva / Ceniki sredstev** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -46,7 +46,7 @@ Klik na gumb **Podrobnosti** odpre stran, kjer se upravljajo sredstva in količi
 
 ## Dejanja
 
-Glede na to, na katerem zaslonu se nahajate, [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) ponuja različna dejanja:
+Glede na to, na katerem zaslonu se nahajate, [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) ponuja različna dejanja:
 
 Na strani **Ceniki sredstev**:
 - **Nov**
@@ -60,7 +60,7 @@ Na strani **Podrobnosti**:
 
 Za ustvarjanje delujočega cenika sledite tem korakom:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Nov**.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Nov**.
 2. Izpolnite zahtevana polja: **Tip**, **Entiteta**, **Ime**, **Veljavno od**, **Veljavno do**.
 3. Kliknite **Dodaj**, da shranite glavo cenika.
 4. Kliknite gumb **Postavke**, da odprete stran s cenami.

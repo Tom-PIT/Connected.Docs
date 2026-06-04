@@ -17,7 +17,7 @@ Stran **Zahteve** planerjem omogoča:
 > [!TIP]  
 > Za celovit prikaz si oglejte video vodič **[Requirements](https://www.youtube.com/watch?v=eK7ui-ak7J0)**.
 
-Do strani dostopate prek **Proizvodnja / Zahteve** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Do strani dostopate prek **Proizvodnja / Zahteve** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

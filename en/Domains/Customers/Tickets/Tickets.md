@@ -9,7 +9,7 @@ The **Tickets** screen is the core workspace of the Customer Support domain. It 
 
 Tickets are organized by **Desk** (for example Maintenance, Sales support, Technical support) and move through different states during their lifecycle.
 
-To access this screen, go to **Customers / Tickets** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Customers / Tickets** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -70,11 +70,11 @@ Tickets move through the following main statuses:
 
 ## Create a new ticket
 
-To create a new ticket, click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
+To create a new ticket, click the [action button](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 
 ### Step 1: Select desk
 
-The first step is selecting the **Desk** the ticket belongs to. Select the desk, then click on the **action button** to proceed to the next step.
+The first step is selecting the **Desk** the ticket belongs to. Select the desk, then click on the action button to proceed to the next step.
 
 ![Select desk](../Images/TicketsNewStep1.png)
 
@@ -84,7 +84,7 @@ In the second step, ticket details are entered or edited.
 
 ![Create ticket – details](../Images/TicketsNewStep2.png)
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to:
+Click the [action button](../../../Common/UI/ActionButton.md) to:
 - Published as **New**
 - Published as **Active**
 - Published as **New** or **Active**, and immediately **create a new ticket**
@@ -141,7 +141,7 @@ Available options include:
 
 ## Resolve a ticket
 
-Click on the [**action button**](../../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
+Click on the [action button](../../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
 
 - **By design** - the issue is intentional and expected
 - **Duplicate** - the ticket is a copy of another one

@@ -6,7 +6,7 @@
 # Nazivi delovnih mest
 **Nazivi delovnih mest** so del modula **Podpora strankam** in določajo vloge, ki jih je mogoče dodeliti [kontaktom](Kontakti.md) v [**Poslovnem imeniku**](PoslovniImenik.md). Omogočajo razvrščanje oseb, kot so *skrbnik kupcev*, *nabavni referent* ali *direktor*.
 
-Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 | Polje | Opis |
@@ -27,7 +27,7 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 
 Za ustvarjanje novega naziva delovnega mesta: 
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md).
+1. Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md).
 2. Izpolnite **Ime** in nastavite **Aktiven** glede na to, ali želite, da je ta naziv delovnega mesta na voljo za izbiro pri ustvarjanju kontaktov.
 3. Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
 

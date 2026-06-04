@@ -19,7 +19,7 @@ Vsak repro material vsebuje pomembne lastnosti – kot so [merske enote](../../.
 > - [**Davčne stopnje**](../../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Repro materiali** pojdite na  
-**Sredstva / Materiali / Repro materiali** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Repro materiali** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -94,7 +94,7 @@ Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-repro-materiale)
 - [**Kopiraj obstoječi**](#kopiraj-obstoječi-repro-material)
@@ -102,7 +102,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže
 
 ### Usvariti novo repro material
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje novega repro materiala.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje novega repro materiala.
 
 ![Nov repro material](../Images/NewReproMaterial.png "Nov repro material")
 
@@ -138,14 +138,14 @@ Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite repro material, ali
 
 ### Uvoziti repro materiale
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz**, da omogočite hkratni uvoz več repro materialov z uporabo pravilno strukturirane preglednice.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz**, da omogočite hkratni uvoz več repro materialov z uporabo pravilno strukturirane preglednice.
 
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
 ### Kopiraj obstoječi repro material
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječi**, da ustvarite nov zapis na podlagi že obstoječega.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječi**, da ustvarite nov zapis na podlagi že obstoječega.
 
 ![Kopiranje repro materiala](../Images/CopyReproMaterial.png "Kopiranje repro materiala")
 

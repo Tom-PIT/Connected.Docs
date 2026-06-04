@@ -7,7 +7,7 @@
 
 Pogled **Postavke porabe** nudi analitični pregled vseh **materialov, porabljenih med proizvodnjo**, v izbranem časovnem obdobju. Namesto osredotočanja na proizvodne dokumente ta pogled združuje **porabljene materiale** in jasno prikazuje, **kateri [dokumenti porabe](../../Proizvodnja/Dokumenti/Poraba.md)** so bili uporabljeni ter **iz katerih skladiščnih lokacij** so bili materiali črpani.
 
-Za dostop do tega pogleda pojdite na **Logistika / Pregledi / Postavke porabe** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Logistika / Pregledi / Postavke porabe** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![ConsumptionDetailsList](../Images/ConsumptionDetailsList.png)
 

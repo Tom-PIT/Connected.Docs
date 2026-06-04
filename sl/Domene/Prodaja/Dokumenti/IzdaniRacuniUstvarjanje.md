@@ -24,7 +24,7 @@ Ko je račun ustvarjen iz drugega dokumenta, sistem samodejno predizpolni večin
 
 Ustvarite nov osnutek računa na enega od naslednjih načinov:
 
-- Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) na zaslonu **Izdani računi**
+- Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) na zaslonu **Izdani računi**
 - Uporabite **Povezani dokumenti → + Izdani račun** iz povezanega prodajnega dokumenta (npr. [Naročilo stranke](NarocilaStrank.md), [Dobavnica](Dobavnice.md))
 
 Ustvari se nov osnutek izdanega računa. Če je račun ustvarjen iz drugega dokumenta, bo večina polj že samodejno izpolnjena.

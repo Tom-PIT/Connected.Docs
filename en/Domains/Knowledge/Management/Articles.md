@@ -9,7 +9,7 @@
 
 Articles belong to a **directory** and can be organized and navigated using the directory’s [table of contents](TableOfContents.md).
 
-To manage articles, go to **Knowledge / Management / Directories** in the [**navigation**](../../../Common/UI/Navigation.md) and click **Articles** under the desired directory. See [Directories](Directories.md).
+To manage articles, go to **Knowledge / Management / Directories** in the [navigation](../../../Common/UI/Navigation.md) and click **Articles** under the desired directory. See [Directories](Directories.md).
 
 ## Schema
 
@@ -43,7 +43,7 @@ Clicking an article opens it for editing.
 
 ## Actions
 
-Click the **action button** to create a new article.
+Click the action button to create a new article.
 
 ### Add a new article
 

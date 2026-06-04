@@ -7,7 +7,7 @@
 
 Predloge za operacije definirajo **ponovno uporabne predloge operacij**, ki jih lahko hitro vstavite v procese. Omogočajo standardizacijo poimenovanja, opisov, vpliva časa, oznak in drugih lastnosti operacij v sistemu za **Proizvodnjo** in **Vzdrževanje** (npr. montažni korak, pregled, čiščenje).
 
-Za dostop do dokumentov **Predloge za operacije** pojdite na **Proizvodnja / Upravljanje / Predloge za operacije** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Predloge za operacije** pojdite na **Proizvodnja / Upravljanje / Predloge za operacije** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Operation templates](https://www.youtube.com/watch?v=Cm8RYdO0f6E)**.
@@ -39,7 +39,7 @@ Klik na posamezno vrstico odpre predlogo za urejanje.
 
 ## Ustvariti novo predlogo za operacijo
 
-1. Kliknite **akcijski gumb** in izberite **Dodaj predlogo za operacijo**.
+1. Kliknite akcijski gumb in izberite **Dodaj predlogo za operacijo**.
 
 2. Izpolnite naslednja polja:
    - **Šifra**
@@ -74,7 +74,7 @@ Postopek:
 
 1. Odprite želeno **proces in verzijo**
 2. Pojdite na **Operacije**
-3. Kliknite **akcijski gumb** → **Po predlogi**
+3. Kliknite akcijski gumb → **Po predlogi**
 4. Izberite predlogo v spustnem seznamu **Predloga operacije**
 
 ![Izbira predloge operacije](../Images/ProtocolOperationInstanceTemplateNewOperation.png)

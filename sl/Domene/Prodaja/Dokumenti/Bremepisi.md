@@ -12,7 +12,7 @@ Bremepisi povečujejo odprto obveznost stranke. Za zmanjšanja ali vračila glej
 > [!TIP]
 > Za hiter pregled trenutnih **bremenitev in dobropisov** po posameznih strankah uporabite pregled **[Poslovne kartice](../Pregledi/PoslovneKartice.md)**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Bremepisi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Bremepisi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga bremepisov v prodajnem procesu
 
@@ -118,21 +118,6 @@ Vsaka vrstica prikazuje:
 Osnutke je mogoče urejati, potrjeni bremepisi pa so dokončni, razen če so stornirani.
 
 ![Seznam bremepisov](../Images/DebitNotesList.png "Seznam bremepisov")
-
-### Meni
-
-Meni dokumenta omogoča dodatna dejanja:
-
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrni v osnutek** (če je dovoljeno)
-
-![Meni bremepisa](../Images/CreditDebitNoteMenu.png "Meni bremepisa")
-
-Storniranje bremepisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 
 ## Dejanja
 
@@ -255,3 +240,18 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 
 > [!NOTE]  
 > Objavljenih bremepisov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
+
+## Meni
+
+Meni dokumenta omogoča dodatna dejanja:
+
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek** (če je dovoljeno)
+
+![Meni bremepisa](../Images/CreditDebitNoteMenu.png "Meni bremepisa")
+
+Storniranje bremepisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

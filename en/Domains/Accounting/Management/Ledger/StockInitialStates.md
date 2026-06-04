@@ -9,7 +9,7 @@ The **Stock initial states** screen is used to define the opening inventory quan
 
 Stock initial states are **document-based** and directly related to accounting. When published, they initialize the financial value of stock in the ledger, forming the opening balance for inventory accounts.
 
-To access this screen, go to **Accounting / Ledger / Management / Stock initial states** in the [**navigation**](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Stock initial states** in the [navigation](../../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -50,7 +50,7 @@ The list can be filtered by document status (**Draft** or **Committed**)
 ### Add an initial stock state
 
 To add a new stock initial state:
-1. Click the [**action button**](../../../../Common/UI/ActionButton.md).
+1. Click the [action button](../../../../Common/UI/ActionButton.md).
 2. Select a **Warehouse**.
 
    ![Create stock initial state](../../Images/StockInitialStatesWarehouse.png "Create stock initial state")

@@ -18,7 +18,7 @@ Each repro material includes important attributes—such as [measure units](../.
 > - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
 > - [**Tax rates**](../../../Common/Management/TaxRates.md)
 
-To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -104,7 +104,7 @@ Click on the [action button](../../../Common/UI/ActionButton.md) to display the 
 
 ### Add a new repro material
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New** to open the input form for creating a new repro material.
+Click the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for creating a new repro material.
 
 ![New Repro Material](../Images/NewReproMaterial.png "New Repro Material")
 
@@ -135,13 +135,13 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 
 ### Import repro materials
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) and select **Import** to import multiple repro materials at once by uploading a correctly structured spreadsheet.
+Click the [action button](../../../Common/UI/ActionButton.md) and select **Import** to import multiple repro materials at once by uploading a correctly structured spreadsheet.
 
 See the [**Import materials**](ImportMaterials.md) documentation for full details.
 
 ### Copy an existing repro material
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) and select **Copy existing repro material** to create a new record based on an existing one.
+Click the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing repro material** to create a new record based on an existing one.
 
 ![Copy Repro Material](../Images/CopyReproMaterial.png "Copy Repro Material")
 

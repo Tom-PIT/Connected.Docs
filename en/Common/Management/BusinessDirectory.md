@@ -7,7 +7,7 @@
 
 The **Business directory** contains all companies and individuals your organization works with. These can include **customers**, **vendors**, **cooperators**, or **internal contacts**. Each entry stores important information such as addresses, tax details, contact persons, and payment preferences. This ensures that the same partner data is used consistently across sales, supply, logistics, and financial documents.
 
-You can access the **Business directory** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Business directory** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to **Management / Business directory** in one of the following domains:
 
@@ -68,7 +68,7 @@ The **Type** field determines the tax status of the entity. The available values
 
 ## Actions
 
-Click on the [**action button**](../../Common/UI/ActionButton.md) to display the available actions:
+Click on the [action button](../../Common/UI/ActionButton.md) to display the available actions:
 
 - **Import by VIES** 
 - **Import**  
@@ -80,7 +80,7 @@ To simplify the process of adding VAT-registered companies to the business direc
 
 To import a company using VIES, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) and select **Import by VIES**. 
+1. Click on the [action button](../UI/ActionButton.md) and select **Import by VIES**. 
 2. In the opened dialog, enter the VAT ID of the company you want to import (for example, **SI12345678**). 
 3. Click **Import** to start the process.
 
@@ -88,7 +88,7 @@ To import a company using VIES, follow these steps:
 
 To import one or multiple entries into the business directory at once, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) and select **Import**.
+1. Click on the [action button](../UI/ActionButton.md) and select **Import**.
 2. Select a CSV file from your computer that contains the data to be imported. The file should follow the required structure, with columns corresponding to the fields in the business directory (see the example below).
 3. Click **Import** to start the process.
 
@@ -107,7 +107,7 @@ The **Business directory** is used to manage customers, vendors, cooperators, an
 
 To create a new entry:
 
-1. Click the [**action button**](../UI/ActionButton.md) and select **New**. This opens the form for creating a new entry.
+1. Click the [action button](../UI/ActionButton.md) and select **New**. This opens the form for creating a new entry.
 2. Fill in all required fields.
    - Select **Customer** if you want to create a customer.
    - Select **Vendor** if you want to create a vendor.

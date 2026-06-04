@@ -7,7 +7,7 @@
 
 Potni nalogi se uporabljajo za evidentiranje in upravljanje službenih poti zaposlenih. Združujejo kilometrino, dnevnice in druge stroške ter izračunajo skupni strošek poti.
 
-Za dostop do dokumentov **Potni nalogi** pojdite na **Viri / Dokumenti / Potni nalogi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Potni nalogi** pojdite na **Viri / Dokumenti / Potni nalogi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -85,7 +85,7 @@ Pri ustvarjanju ali urejanju potnega naloga so na voljo polja, opisana v razdelk
 
 ### Ustvariti novi potni nalog
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 2. Vnesite podatke potnega naloga.
 3. Po potrebi dodajte **kilometrino**, **dnevnice** in **stroške**.
 4. Kliknite **Objavi**.

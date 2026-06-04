@@ -7,7 +7,7 @@
 
 This code list represents the countries used across the digital contents of the system. Each country defines localization parameters, such as the LCID and ISO code, which ensure correct language, regional settings, and compliance with international standards.
 
-You can access the **Countries** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Countries** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to **Management / Countries** in one of the following domains:
 
@@ -44,7 +44,7 @@ Clicking this tag opens the interface for managing the related data linked to th
 
 ## Actions
 
-Click on the [action button](../UI/ActionButton.md) to display the following actions:
+Click the [action button](../UI/ActionButton.md) to display the following actions:
 
 - **Import**  
 - **New**  
@@ -55,7 +55,7 @@ The **Import** action enables bulk creation or updating of country records. This
 
 To import country records, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) and select **Import**. The system opens the upload interface.
+1. Click the [action button](../UI/ActionButton.md) and select **Import**. The system opens the upload interface.
 2. Drag and drop the file into the upload area or click to open the file dialog. The import accepts a **CSV file**. 
 
 ![Import countries](../Images/ImportCountries.png "Import countries")
@@ -77,7 +77,7 @@ Italy,1040,IT,false
 
 To create a new country record, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the input form for adding a new country.
+1. Click the [action button](../UI/ActionButton.md) and select **New** to open the input form for adding a new country.
 2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to create the record or **Cancel** to return to the list view without saving.
 

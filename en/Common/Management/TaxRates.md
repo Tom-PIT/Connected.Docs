@@ -8,7 +8,7 @@
 This code list defines all **tax rates** used across the system. Tax rates determine the percentage of tax applied to products, materials, and services in business documents. Each entry includes a descriptive name and a numeric percentage, ensuring tax is applied consistently throughout the digital contents.
 
 
-You can access the **Tax rates** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Tax rates** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to the **Management** section of the following domains:
 
@@ -45,7 +45,7 @@ The list displays each tax rate's name and the applicable percentage. A search f
 
 To create a new tax rate, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) to open the form to add a new tax rate.
+1. Click on the [action button](../UI/ActionButton.md) to open the form to add a new tax rate.
 2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
 3. Click **Add** to save the new tax rate or **Cancel** to return to the list view.
 

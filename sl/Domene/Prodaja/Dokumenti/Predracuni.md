@@ -10,7 +10,7 @@ Predračun **ne sproži** računovodskih ali skladiščnih knjiženj, vendar pre
 
 Predračuni se najpogosteje ustvarijo iz potrjene **[Ponudbe](Ponudbe.md)**, lahko pa se ustvarijo tudi samostojno z uporabo [**akcijskega gumbа**](../../../Skupno/UI/AkcijskiGumb.md).
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predračuni** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Predračuni** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga predračunov v prodajnem procesu
 
@@ -114,21 +114,6 @@ Vsaka vrstica prikazuje:
 ![Seznam predračunov](../Images/ProformaInvoiceList.png "Seznam predračunov")
 
 Osnutke je mogoče urejati, potrjeni predračuni pa so dokončni, razen če so stornirani.
-
-### Meni
-
-Meni dokumenta omogoča naslednja dejanja:
-
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrni v osnutek** (če sistemska pravila dovoljujejo)
-
-![Meni predračuna](../Images/PrepaymentsMenu.png)
-
-Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 
 ## Dejanja
 
@@ -272,4 +257,19 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 
 > [!NOTE]  
 > Objavljenih predračunov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
+
+### Meni
+
+Meni dokumenta omogoča naslednja dejanja:
+
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek** (če sistemska pravila dovoljujejo)
+
+![Meni predračuna](../Images/PrepaymentsMenu.png)
+
+Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 

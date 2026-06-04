@@ -9,7 +9,7 @@ Domena **Znanje** zagotavlja centralizirano **bazo znanja**, namenjeno interni d
 
 Domena se najpogosteje uporablja za **interno dokumentacijo**, gradiva za uvajanje novih zaposlenih, operativna navodila in referenčne vsebine.
 
-Za dostop do domene pojdite na **Znanje** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do domene pojdite na **Znanje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Domena Znanje](../Images/KnowledgeDomainSitemap.png "Domena Znanje")
 

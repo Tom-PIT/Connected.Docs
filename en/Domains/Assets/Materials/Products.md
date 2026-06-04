@@ -18,7 +18,7 @@ Each product contains important information—such as [measure units](../../../C
 > - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
 > - [**Tax rates**](../../../Common/Management/TaxRates.md)
 
-To access the **Products** code list, go to **Assets / Materials / Products** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 

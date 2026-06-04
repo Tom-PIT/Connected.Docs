@@ -8,7 +8,7 @@
 Dnevnice določajo **dnevne zneske**, ki se izplačujejo zaposlenim ob službenih poteh.
 Najpogosteje se uporabljajo v dokumentih [**Potni nalogi**](../Dokumenti/PotniNalogi.md) za samodejni izračun prehranskih in drugih dnevnih nadomestil glede na destinacijo.
 
-Za dostop do **Dnevnic** pojdite na **Viri / Upravljanje / Dnevnice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Dnevnic** pojdite na **Viri / Upravljanje / Dnevnice** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -37,7 +37,7 @@ Klik na vnos ga odpre za urejanje.
 
 Za ustvarjanje nove dnevnice:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 2. Izberite **Državo**.
 3. Po želji določite **Poštno številko** ali mesto.
 4. Vnesite **Znesek**, **Polovični znesek** in **Znižani znesek**.

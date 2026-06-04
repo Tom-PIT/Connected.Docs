@@ -12,7 +12,7 @@ Zaslon **SLA prijave** omogoča pregled prijav, za katere veljajo pravila **Spor
 
 bliža izteku ali je že presežen.
 
-Za dostop do tega zaslona pojdite na **Stranke / Prijave / SLA prijave** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Stranke / Prijave / SLA prijave** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Razpoložljivost
 

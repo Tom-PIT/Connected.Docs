@@ -7,7 +7,7 @@
 
 Pogled **Pogled vira** omogoča **časovni pregled zabeleženega dela v sistemu** za **trenutno prijavljenega uporabnika**.
 
-Za dostop do **Pogleda vira** pojdite na **Viri / Pogled vira** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Pogleda vira** pojdite na **Viri / Pogled vira** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Pogled vira](../Images/ResourceViewSL.png "Pogled vira")
 

@@ -7,7 +7,7 @@
 
 The **Payment methods** code list defines the ways customers can pay for goods or services—such as credit cards, online payment services, or other supported methods. Each method includes a **code**, a **name**, optional **tags**, and an uploaded **icon** representing the payment provider. These records are used throughout the system wherever a payment option must be selected.
 
-To access this page, go to **Sales / Management / Payment methods** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Payment methods** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -30,23 +30,21 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 ## Actions
 
-### Add new payment method
+### Create new payment method
 
-Click the **action button** to open the creation form. You can enter basic information and upload a logo or icon representing the payment provider.
+Click the action button to open the creation form. You can enter basic information and upload a logo or icon representing the payment provider.
 
 ![Add payment method](../Images/PaymentMethodsNew.png "Add payment method")
 
-### Editing a payment method
+### Edit a payment method
 
 Click any payment method in the list to open its edit screen.  
 
 From there you can modify the code, name, tags, or replace the uploaded image.
 
-### Deletion
+### Delete a payment method
 
-Click **Delete** on the edit screen to open a confirmation dialog:
-
-**Are you sure you want to delete this record?**
+Click any payment method in the list to open its edit screen and click **Delete**.
 
 If confirmed, the record is permanently removed; otherwise, the system keeps it unchanged.
 

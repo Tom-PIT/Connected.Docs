@@ -8,7 +8,7 @@
 An **Offer** is a sales document used to present a proposed price, quantity, and delivery terms to a customer before a sale is confirmed.  
 Offers help formalize quotations, compare pricing options, and smoothly transition into follow-up documents such as **Sales orders**, **Delivery notes**, and **Issued invoices**.
 
-To access this page, go to **Sales / Documents / Offers** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Offers** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## How offers fit into the sales workflow
 
@@ -112,7 +112,7 @@ An example of a list with **Completed** offers:
 
 ### Create a new offer
 
-1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft offer.  
+1. Use the [action button](../../../Common/UI/ActionButton.md) to create a new draft offer.  
 
 2. Fill in the [**Customer**](../../../Common/Management/BusinessDirectory.md), **Expiration date**, and **Rebate** (optional) fields.
 
@@ -215,7 +215,7 @@ Once the offer in the **Available** status is ready, click on **Complete**.
 > [!NOTE]
 > An offer is also automatically moved to the **completed** status when a new [**Sales order**](SalesOrders.md) is created directly from it using the **Linked documents** action.
 
-## Delete an offer
+### Delete an offer
 
 Draft documents can be deleted on the edit screen, but only if they contain **no details**. Committed documents **cannot** be deleted.
 
@@ -230,7 +230,7 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > [!NOTE]  
 > An offer can be deleted only if it is not linked to another dependent document (e.g., Sales orders).
 
-### Document menu
+### Menu
 
 The top menu provides options for: 
 - **Printing**

@@ -42,7 +42,7 @@ Use the **Search** bar to filter by resource name.
 
 ## Add a new human resource entry
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner and choose **New** (or a copy option, if available).
+1. Click the [action button](../../../Common/UI/ActionButton.md) in the bottom-right corner and choose **New** (or a copy option, if available).
 2. Fill in the fields:
 
    - **Type** – Competence, Job position, or Resource  

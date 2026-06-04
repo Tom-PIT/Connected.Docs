@@ -11,7 +11,7 @@
 
 Ti sektorji se kasneje uporabljajo pri definiranju in upravljanju podatkov o strankah ter omogočajo boljšo segmentacijo, poročanje in filtriranje v šifrantu [**Poslovni imenik**](../../../Skupno/Upravljanje/PoslovniImenik.md).
 
-Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Institucionalni sektorji** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Institucionalni sektorji** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -40,7 +40,7 @@ Naslednja dejanja so na voljo prek [**akcijskega gumba**](../../../Skupno/UI/Akc
 
 ### Ustvariti nov institucionalni sektor
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Nov**.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Nov**.
 2. Vnesite:
    - **Šifra** – kratka oznaka (npr. `JAV`)
    - **Naziv** – polni naziv sektorja (npr. *Javna uprava*)

@@ -7,7 +7,7 @@
 
 **Issued invoices** are financial documents sent to customers so they can pay for confirmed sales. They summarize delivered goods or services, taxes, due dates, and chosen payment methods. From the **Issued invoices** page you can also record partial or full payments directly against each invoice.
 
-To access this page, go to **Sales / Documents / Issued invoices** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Issued invoices** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## How issued invoices fit into the sales workflow
 
@@ -163,7 +163,7 @@ On the list view, the menu in the top-right corner provides additional options:
 
 ### Create a new issued invoice
 
-To create a new issued invoice, click the [**action button**](../../../Common/UI/ActionButton.md) on the **Issued invoices** screen. 
+To create a new issued invoice, click the [action button](../../../Common/UI/ActionButton.md) on the **Issued invoices** screen. 
 
 See the [**How to create an issued invoice**](IssuedInvoicesCreate.md) guide for a step-by-step walkthrough of the creation process.
 
@@ -248,7 +248,7 @@ If you need to remove only a specific material instead of clearing the entire do
 > Deletion is only possible for draft documents. 
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Document menu
+### Menu
 
 For published invoices, the menu in the top-right corner provides additional options:
 

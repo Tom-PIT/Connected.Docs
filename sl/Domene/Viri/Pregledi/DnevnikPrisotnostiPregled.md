@@ -7,7 +7,7 @@
 
 Zaslon **Dnevnik prisotnosti – Pregled** omogoča podroben pregled zabeleženega delovnega časa za izbranega zaposlenega in obdobje. Uporablja se za pregled dnevne prisotnosti, pregled posameznih časovnih vnosov ter ročno dodajanje ali popravljanje časovnih zapisov po potrebi.
 
-Za dostop do pogleda **Dnevnik prisotnosti – Pregled** pojdite na **Viri / Dnevnik prisotnosti / Pregled** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do pogleda **Dnevnik prisotnosti – Pregled** pojdite na **Viri / Dnevnik prisotnosti / Pregled** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Pregled dnevnika prisotnosti](../Images/TimeLogsView.png "Pregled dnevnika prisotnosti")
 

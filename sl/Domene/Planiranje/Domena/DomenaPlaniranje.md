@@ -7,7 +7,7 @@
 
 Domena **Planiranje** se uporablja za **razporejanje in spremljanje proizvodnih nalogov**. Omogoča vizualna orodja za upravljanje časovnic proizvodnje in pregled planiranega dela.
 
-Do te domene dostopate preko **Planiranje** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Do te domene dostopate preko **Planiranje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Planning Domain](../Images/PlanningSitemapSL.png "Planning Domain")
 

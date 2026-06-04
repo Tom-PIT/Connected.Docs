@@ -8,7 +8,7 @@
 The **Resolved tickets** screen provides an overview of tickets that have completed their lifecycle.  
 It is used to review completed work, inspect ticket history, and optionally reopen tickets if further action is required.
 
-To access this screen, go to **Customers / Tickets / Resolved tickets** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Customers / Tickets / Resolved tickets** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -56,11 +56,11 @@ Opening a resolved ticket displays the same detailed view as active tickets, inc
 - Full comment history
 - Audit trail
 
-Most fields are read-only; you can still update selected options (such as **Subject**, **Description**, **Priority**, etc.), add comments, and use actions via the [**action button**](../../../Common/UI/ActionButton.md).
+Most fields are read-only; you can still update selected options (such as **Subject**, **Description**, **Priority**, etc.), add comments, and use actions via the [action button](../../../Common/UI/ActionButton.md).
 
 ## Reopen a ticket
 
-From the ticket detail view, reopen a resolved ticket via the [**action button**](../../../Common/UI/ActionButton.md).
+From the ticket detail view, reopen a resolved ticket via the [action button](../../../Common/UI/ActionButton.md).
 
 Available options include:
 - **Save as New**

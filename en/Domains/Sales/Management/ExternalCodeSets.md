@@ -7,7 +7,7 @@
 
 The **External code sets** screen defines configurable codes used to map internal data to **external systems, partners, or classifications**.  These codes are typically used when integrating with third-party ERP systems, logistics providers, customers, or industry-specific classifications.
 
-To access this screen, go to **Sales / Management / External code sets** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Sales / Management / External code sets** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]
 External code sets do not enforce a specific meaning by themselves. Their interpretation depends on how they are referenced in other documents or integrations.
@@ -19,7 +19,9 @@ External code sets do not enforce a specific meaning by themselves. Their interp
 | Code | Unique identifier of the external code set. Used for references and integrations. |
 | Name | Human-readable description explaining the purpose of the code set. |
 
-## List view
+## Management
+
+### List view
 
 The list view displays all defined external code sets.
 
@@ -48,15 +50,9 @@ To edit an existing external code set, click its **Code** in the list to open it
 
 Click **Save** to apply the changes or **Cancel** to discard them.
 
-## Deletion
+### Delete external code sets
 
-Click **Delete** on the edit screen to remove an external code set.
-
-A confirmation dialog is shown:
-
-**Are you sure you want to delete this record?**
-
-If confirmed, the record is permanently deleted.
+Click¸the name of the external code set you want to delete, then click **Delete** on the edit screen to remove it. After confirmation, the record is permanently deleted.
 
 > [!NOTE]
 > An external code set can be deleted only if it is not referenced by mappings, documents, or integrations.

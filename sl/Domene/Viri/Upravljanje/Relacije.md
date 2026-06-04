@@ -8,7 +8,7 @@
 Relacije določajo **vnaprej definirane poti**, ki se uporabljajo pri ustvarjanju potnih nalogov.  
 Shranjujejo začetni in ciljni naslov skupaj s podatki o razdalji, kar omogoča dosledno in ponovljivo ustvarjanje potnih nalogov.
 
-Za dostop do **Relacij** pojdite na **Viri / Upravljanje / Relacije** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Relacij** pojdite na **Viri / Upravljanje / Relacije** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -37,7 +37,7 @@ Klik na relacijo jo odpre za urejanje.
 
 ### Ustvariti novo relacijo
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove relacije.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove relacije.
 2. Izpolnite polja, opisana v razdelku [**Shema**](#shema).
 3. Kliknite **Dodaj** za shranjevanje.
 

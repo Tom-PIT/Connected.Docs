@@ -15,7 +15,7 @@ Containers are used to organize externally uploaded documents such as:
 
 Each container acts as a root structure where documents can be grouped into folders and managed.
 
-To access this screen, navigate to **Documents / Containers** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, navigate to **Documents / Containers** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -49,7 +49,7 @@ Each record includes a status indicator to the left of its name:
 
 ### Add a new container
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to add a new container and fill in the **Name** field.
+Click the [action button](../../../Common/UI/ActionButton.md) to add a new container and fill in the **Name** field.
 
 The checkbox **Enabled** controls whether the container is active.
 

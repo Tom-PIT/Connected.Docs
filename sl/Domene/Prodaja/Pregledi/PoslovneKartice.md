@@ -9,7 +9,7 @@ Pogled **Poslovne kartice** omogoča podroben pregled vseh **bremenitev in dobro
 
 Ta pogled je namenjen **finančnemu nadzoru in usklajevanju** ter ne omogoča ustvarjanja ali urejanja dokumentov.
 
-Za dostop do tega pogleda pojdite na **Prodaja / Pregledi / Poslovne kartice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Prodaja / Pregledi / Poslovne kartice** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 Zaslon je dostopen tudi iz strani [**Poslovni imenik**](../../../Skupno/Upravljanje/PoslovniImenik.md), s klikom na zavihek **Poslovne kartice** pri izbranem vnosu podjetja. V tem primeru bo seznam samodejno filtriran tako, da prikazuje samo zapise, povezane z izbranim podjetjem.
 

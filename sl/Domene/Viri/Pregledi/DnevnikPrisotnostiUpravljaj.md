@@ -15,7 +15,7 @@ Tipični primeri uporabe vključujejo:
 - hiter pregled današnje prisotnosti,
 - hiter dostop do dejanj, povezanih z odsotnostmi ([dopust](#dopust), [bolniška odsotnost](#bolniška-odsotnost)) in [potnimi nalogi](#potni-nalogi).
 
-Za dostop do pogleda **Dnevnik prisotnosti – Upravljaj** pojdite na **Viri / Dnevnik prisotnosti / Upravljaj** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do pogleda **Dnevnik prisotnosti – Upravljaj** pojdite na **Viri / Dnevnik prisotnosti / Upravljaj** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Dnevnik prisotnosti – upravljaj](../Images/TimeLogsManageSL.png "Dnevnik prisotnosti – upravljaj")
 

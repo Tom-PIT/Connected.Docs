@@ -6,7 +6,7 @@
 # Vnaprej določena besedila
 Šifrant **Vnaprej določena besedila** vsebuje vnaprej pripravljene besedilne predloge, ki jih je mogoče vstavljati v različne komercialne dokumente — kot so dobavnice, izdani računi, ponudbe ali dobavni nalogi. Ta besedila omogočajo hitro in dosledno dodajanje pogosto uporabljenih navodil, opomb ali besedil, specifičnih za kupca.
 
-Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Prednastavljena besedila** v [**navigaciji**](../../Skupno/UI/Navigacija.md).
+Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Prednastavljena besedila** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
 ## Shema
 | Polje | Opis |
@@ -35,7 +35,7 @@ Na voljo je **iskalno polje** za hitro iskanje po kodi ali vsebini besedila.
 
 Za ustvarjanje novega prednastavljenega besedila:
 
-1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da ustvarite novo prednastavljeno besedilo.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md), da ustvarite novo prednastavljeno besedilo.
 2. Izpolnite vsa obvezna polja.
 3. Kliknite **Dodaj**, da shranite novo prednastavljeno besedilo.
 

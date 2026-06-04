@@ -16,7 +16,7 @@ Postopek prevzema zajema ključne informacije, kot so material, [pakiranje](../.
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Prevzemi](https://www.youtube.com/watch?v=oTOYD-nlCqE)**.
 
-Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -107,7 +107,7 @@ S klikom na dokument odprete njegov podroben pregled.
 
 Postopek ustvarjanja novega prevzema:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Dobavitelja**.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Dobavitelja**.
 
    ![Prevzemni dokument](../Images/ReceiveDocument.png "Prevzemni dokument")
 

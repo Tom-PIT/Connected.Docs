@@ -7,7 +7,7 @@
 
 Pogled **Povzetek stroja** nudi pregled delovanja posameznega stroja, vključno z zastoji, proizvodnjo, kakovostjo in OEE (Skupna učinkovitost opreme). Namenjen je vodjem in nadzornikom za hitro oceno učinkovitosti strojev skozi čas.
 
-Do tega pogleda dostopate preko **Proizvodnja / Analiza / Povzetek stroja** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Do tega pogleda dostopate preko **Proizvodnja / Analiza / Povzetek stroja** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Povzetek stroja](../Images/EquipmentSummaryView2.png)
 

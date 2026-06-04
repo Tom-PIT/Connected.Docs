@@ -9,7 +9,7 @@ The **Chart of accounts** defines the complete structure of financial accounts u
 
 The **Chart of accounts** is a **core accounting structure**. It is referenced by many other parts of the system, including journals, invoices, inventory valuation, cost centers, and financial reports. Accounts must therefore be defined before they can be used elsewhere.
 
-To access this screen, go to **Accounting / Ledger / Management / Chart of accounts** in the [**navigation**](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Chart of accounts** in the [navigation](../../../../Common/UI/Navigation.md).
 
 ## European accounting context
 
@@ -83,7 +83,7 @@ Parent accounts can be expanded to show their child accounts. The list can be se
 
 ## Actions
 
-Click the [**action button**](../../../../Common/UI/ActionButton.md) to access available actions:
+Click the [action button](../../../../Common/UI/ActionButton.md) to access available actions:
 - **New**
 - **Import**
 
@@ -91,7 +91,7 @@ Click the [**action button**](../../../../Common/UI/ActionButton.md) to access a
 
 To add a new account:
 
-1. Click the **action button** and select **New**
+1. Click the action button and select **New**
 2. Enter the required fields
 3. Click **Add** to save the account or **Cancel** to discard the entry
 

@@ -7,7 +7,7 @@
 
 Konfiguracija **Logistike** omogoča nastavitev vedenja zaloge, oblik zapisa serijskih številk in številčenja dokumentov. Vse spremembe se **samodejno shranijo**.
 
-Za dostop do te strani pojdite na **Logistika / Upravljanje / Konfiguracija** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Logistika / Upravljanje / Konfiguracija** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Konfiguracija logistike](../Images/LogisticsConfiguration.png)
 

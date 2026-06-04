@@ -9,7 +9,7 @@ A **Production** document records items that were produced during the execution 
 
 For the production‑side entry of outputs, see **[Execution](../../Production/Documents/Execution.md)** (Outputs). Outputs are closely linked with this page: recording produced items in production creates the corresponding production document in logistics. For defining outputs on processes, see **[Outputs](../../Production/Management/Outputs.md)**.
 
-To access this page, go to **Logistics / Documents / Productions** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Documents / Productions** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -48,7 +48,7 @@ The **Productions** page displays all production documents created through execu
 
 ## Actions
 
-Production documents are **not** created manually from this page (there is no [**action button**](../../../Common/UI/ActionButton.md)). They are created from the [**Execution**](../../Production/Documents/Execution.md) module while recording outputs for a production order.
+Production documents are **not** created manually from this page (there is no [action button](../../../Common/UI/ActionButton.md)). They are created from the [**Execution**](../../Production/Documents/Execution.md) module while recording outputs for a production order.
 
 Workflow notes:
 - When a production worker starts recording outputs, a **Draft** production document is created automatically.

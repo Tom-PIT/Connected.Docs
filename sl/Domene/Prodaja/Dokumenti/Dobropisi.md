@@ -12,7 +12,7 @@ Dobropisi zmanjšujejo odprto obveznost stranke. Za povečanja ali dodatne zara�
 > [!TIP]
 > Za hiter pregled trenutnih **bremenitev in dobropisov** po posameznih strankah uporabite pregled **[Kartice podjetij](../Pregledi/PoslovneKartice.md)**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobropisi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobropisi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga dobropisov v prodajnem procesu
 
@@ -118,21 +118,6 @@ Vsaka vrstica prikazuje:
 Osnutke je mogoče urejati, potrjeni dobropisi pa so dokončni, razen če so stornirani.
 
 ![Seznam dobropisov](../Images/CreditNotesList.png "Seznam dobropisov")
-
-### Meni
-
-Meni dokumenta omogoča dodatna dejanja:
-
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrni v osnutek** (če je dovoljeno)
-
-![Meni dobropisa](../Images/CreditDebitNoteMenu.png "Meni dobropisa")
-
-Storniranje dobropisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 
 ## Dejanja
 
@@ -257,3 +242,18 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 
 > [!NOTE]  
 > Objavljenih dobropisov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
+
+### Meni
+
+Meni dokumenta omogoča dodatna dejanja:
+
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek** (če je dovoljeno)
+
+![Meni dobropisa](../Images/CreditDebitNoteMenu.png "Meni dobropisa")
+
+Storniranje dobropisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

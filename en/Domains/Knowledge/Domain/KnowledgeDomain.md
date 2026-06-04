@@ -9,7 +9,7 @@ The **Knowledge** domain provides a centralized **knowledge base library** used 
 
 This domain is typically used for **internal documentation**, onboarding materials, operational instructions, and reference content.
 
-To access this domain, navigate to **Knowledge** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this domain, navigate to **Knowledge** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Knowledge Domain](../Images/KnowledgeDomainSitemap.png "Knowledge Domain")
 

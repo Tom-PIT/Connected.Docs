@@ -7,7 +7,7 @@
 
 A **Supply order** is the formal purchasing document used to confirm materials or services ordered from a vendor. It defines *what* your organization will receive, *when*, and under *which conditions*, and is the basis for operational workflows such as material receiving and cost center allocation.
 
-To access this page, navigate to **Supply / Documents / Supply orders** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, navigate to **Supply / Documents / Supply orders** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## How supply orders fit into the supply workflow
 
@@ -107,7 +107,7 @@ The menu in the top-right corner of the list provides the option to export the l
 
 ### Create a supply order
 
-New supply orders can be created by clicking the [**action button**](../../../Common/UI/ActionButton.md).
+New supply orders can be created by clicking the [action button](../../../Common/UI/ActionButton.md).
 
 See the [**How to create a supply order**](SupplyOrdersCreate.md) guide for a step-by-step walkthrough of the creation process.
 

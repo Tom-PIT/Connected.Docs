@@ -28,7 +28,7 @@ The list displays all expenses linked to the selected operation. Each row shows 
 
 ## Add a new expense
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
+1. Click the [action button](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 2. Fill in the required fields.
 
     ![Add expense](../Images/OperationExpensesNew.png "Add expense")

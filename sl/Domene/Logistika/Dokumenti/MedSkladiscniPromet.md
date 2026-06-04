@@ -12,7 +12,7 @@ Postopek prenosa omogoča skeniranje ali iskanje materialov, izbiro ciljnega [sk
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Med-skladiščni promet](https://www.youtube.com/watch?v=xtyKDh7_qgI)**.
 
-Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / Dokumenti / Med-skladiščni promet** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / Dokumenti / Med-skladiščni promet** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -68,7 +68,7 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ### Ustvariti dokument med-skladiščnega prometa
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov dokument med-skladiščnega prometa.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov dokument med-skladiščnega prometa.
 
 1. Kliknite **Novo**, nato izberite **Izvorno skladišče** in **Ciljno skladišče**.
 

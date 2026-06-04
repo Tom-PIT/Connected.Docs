@@ -17,7 +17,7 @@ To access this page, go to **Sales / Documents / Retail proforma invoices**.
 Retail proforma invoices are used for over-the-counter or direct retail sales:
 
 1. A customer visits the shop and selects one or more items.  
-2. A **Retail proforma invoice** is created manually using the [**action button**](../../../Common/UI/ActionButton.md).  
+2. A **Retail proforma invoice** is created manually using the [action button](../../../Common/UI/ActionButton.md).  
 3. The document is published and moves to the **Unpaid invoices** state.  
 4. Payments are recorded using the **Payment** button:
    - Partial payments move the document to **Partially paid invoices**.
@@ -141,7 +141,7 @@ Each row displays:
 
 Retail proforma invoices can only be created manually.
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft retail proforma invoice.
+1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new draft retail proforma invoice.
 
    ![New retail proforma invoice](../Images/RetailProformaInvoiceNew.png)
 
@@ -257,12 +257,12 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Document menu
+### Menu
 
 The document menu provides additional actions:
 
-- **Printing**
-- **Exporting**
+- **Print**
+- **Export**
 - **Send as email**
 - **Reverse document**
 - **Return to draft**

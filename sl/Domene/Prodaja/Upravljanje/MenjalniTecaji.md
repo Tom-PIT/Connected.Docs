@@ -17,7 +17,7 @@ Vsak menjalni tečaj je definiran **iz ene valute v drugo** (Osnovna → Ciljna)
 > [!IMPORTANT]
 > Šifrant [**Valute**](../../../Skupno/Upravljanje/Valute.md) mora biti nastavljen pred ustvarjanjem menjalnih tečajev.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Menjalni tečaji** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Menjalni tečaji** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -49,9 +49,9 @@ Vsaka vrstica prikazuje:
 
 ## Dejanja
 
-### Ustvarjanje novega menjalnega tečaja
+### Ustvariti novega menjalnega tečaja
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu zaslona za ustvarjanje novega zapisa.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu zaslona za ustvarjanje novega zapisa.
 
    ![Nov menjalni tečaj](../Images/ExchangeRatesNew.png "Ustvarjanje novega menjalnega tečaja")
 
@@ -66,4 +66,14 @@ Vsaka vrstica prikazuje:
 > - Tečaji so datum­sko odvisni; preverite, da izberete pravilen datum glede na datum transakcije.
 > - Podprte so samo pretvorbe iz osnovne v ciljno valuto; obratne tečaje je treba po potrebi vnesti posebej.
 
----
+### Urejati menjalni tečaj
+
+Kliknite menjalni tečaj na seznamu, da odprete njegove podrobnosti. Posodobite lahko polji **Datum** in **Tečaj**. Polj **Iz valute** in **V valuto** po ustvarjanju ni mogoče urejati, saj se s tem zagotavlja celovitost podatkov.
+
+Kliknite **Shrani**, da uveljavite spremembe, ali **Prekliči**, da jih zavržete.
+
+### Izbrisati menjalni tečaj
+
+Kliknite menjalni tečaj, da odprete njegove podrobnosti, nato kliknite **Izbriši**.
+
+Potrdite brisanje, da odstranite menjalni tečaj iz sistema.

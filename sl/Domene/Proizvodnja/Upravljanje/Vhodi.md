@@ -42,7 +42,7 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 ## Dodati novi vhod
 
-1. Kliknite **akcijski gumb** v spodnjem desnem kotu in izberite eno od možnosti:
+1. Kliknite akcijski gumb v spodnjem desnem kotu in izberite eno od možnosti:
 
    - **Kopiraj iz obstoječega vhoda**
    - **Nov**

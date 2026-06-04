@@ -7,7 +7,7 @@
 
 Šifrarnik **Vrsta posla** se uporablja za poročanje Intrastat in v računovodstvu za razvrščanje vrste transakcije, v okviru katere se blago odpošlje ali prejme. Vsaka šifra predstavlja standardizirano kategorijo transakcije, določeno s pravili Intrastata, in je obvezna za statistično in regulativno poročanje.
 
-Do tega zaslona dostopate preko **Računovodstvo / Upravljanje / Intrastat / Vrsta posla** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
+Do tega zaslona dostopate preko **Računovodstvo / Upravljanje / Intrastat / Vrsta posla** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -40,7 +40,7 @@ Tipični primeri vključujejo:
 ### Ustvariti vrsto posla
 
 Za dodajanje nove vrste posla:
-1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md)
+1. Kliknite [akcijski gumb](../../../../Skupno/UI/AkcijskiGumb.md)
 2. Vnesite:
    - **Šifro**
    - **Opis**

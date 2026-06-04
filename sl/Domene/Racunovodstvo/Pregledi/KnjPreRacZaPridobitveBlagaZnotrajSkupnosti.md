@@ -9,7 +9,7 @@ Pogled **Knjižnica prejetih računov za pridobitve blaga znotraj skupnosti** om
 
 Gre za **analitični pogled samo za branje**, namenjen spremljanju in usklajevanju podatkov. Podatkov na tem zaslonu ni mogoče urejati.
 
-Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knj. pre. rač. za pridobitve blaga znotraj skupnosti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knj. pre. rač. za pridobitve blaga znotraj skupnosti** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > Ta pogled je namenjen poročanju in preverjanju. Ne nadomešča uradnih DDV obračunov, temveč podpira notranjo kontrolo in usklajevanje.

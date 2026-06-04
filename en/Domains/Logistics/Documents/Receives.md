@@ -16,7 +16,7 @@ The receive process captures key information such as the material, [packaging](.
 > [!TIP]
 > For a full demonstration, see the [**Receive**](https://www.youtube.com/watch?v=oTOYD-nlCqE) video tutorial.
 
-To access Receives, go to **Logistics / Documents / Receives** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Receives, go to **Logistics / Documents / Receives** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -107,7 +107,7 @@ You can click any document to open and review its details.
 
 To create a new receive document:
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md), then select the **Vendor**.
+1. Click the [action button](../../../Common/UI/ActionButton.md), then select the **Vendor**.
 
 	![Receive document](../Images/ReceiveDocument.png "Receive document")
 

@@ -9,7 +9,7 @@
 
 Kontni plan je **osrednji konfiguracijski element** sistema. Nanjo se sklicujejo številni drugi deli sistema, vključno s temeljnicami, računi, vrednotenjem zalog, stroškovnimi mesti in računovodskimi poročili. Konti morajo biti zato definirani, preden jih je mogoče uporabiti drugje.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Konti** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Konti** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
 ## Evropski računovodski kontekst
 
@@ -82,7 +82,7 @@ Nadrejene konte je mogoče razširiti za prikaz podrejenih kontov. Seznam je mog
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md) za dostop do razpoložljivih dejanj:
+Kliknite [akcijski gumb](../../../../Skupno/UI/AkcijskiGumb.md) za dostop do razpoložljivih dejanj:
 - **Novo**
 - **Uvoz**
 
@@ -90,7 +90,7 @@ Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md) za dostop do
 
 Za ustvarjanje novega konta:
 
-1. Kliknite **akcijski gumb** in izberite **Novo**
+1. Kliknite akcijski gumb in izberite **Novo**
 2. Vnesite obvezna polja
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev vnosa
 

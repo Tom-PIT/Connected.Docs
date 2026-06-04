@@ -10,7 +10,7 @@ production workflows can source materials and store produced items. Use this pag
 locations Production may use for input and output and to enforce connection rules between
 organization units and warehouse locations.
 
-To access Warehouse locations, go to **Production / Management / Warehouse locations** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Warehouse locations, go to **Production / Management / Warehouse locations** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Warehouse locations](https://www.youtube.com/watch?v=qR3o0CpIGpo)** video tutorial.
@@ -39,7 +39,7 @@ Click an **Organization unit** name to open the edit form for that record.
 
 ## Actions
 
-Click the [**Action Button**](../../../Common/UI/ActionButton.md) to show the following actions:
+Click the [action button](../../../Common/UI/ActionButton.md) to show the following actions:
 - **Import** 
 - **New**.
 
@@ -47,13 +47,13 @@ Click the [**Action Button**](../../../Common/UI/ActionButton.md) to show the fo
 
 ### Import warehouse locations
 
-Click the **action button** and select **Import** to bulk-create records.
+Click the action button and select **Import** to bulk-create records.
 
 ![Warehouse Loacations Import](../Images/WarehouseLocationsImport.png "Warehouse Loacations Import Screen")
 
 ### Create a new warehouse location
  
-Click the **action button** and select **New** to create a new record.
+Click the action button and select **New** to create a new record.
 
 Fill in the fields shown on the form:
 

@@ -6,7 +6,7 @@
 # Države
 Ta šifrant predstavlja države, ki se uporabljajo v digitalnih vsebinah sistema. Vsaka država določa lokalizacijske parametre, kot sta LCID in koda ISO, ki zagotavljajo pravilne jezikovne in regionalne nastavitve ter skladnost z mednarodnimi standardi.
 
-Do šifranta **Države** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+Do šifranta **Države** lahko dostopate iz različnih domen v [navigaciji](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
 
 Za odpiranje seznama pojdite v razdelek **Upravljanje / Države** v naslednjih domenah:
 
@@ -38,7 +38,7 @@ Vsak zapis prikazuje oznako s **povezanimi podatki** — [Poštne številke](Pos
 Klik na to oznako odpre vmesnik za upravljanje povezanih podatkov za izbrano državo.
 
 ## Dejanja
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
+Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 
 - **Uvoz** 
 - **Nov**
@@ -47,7 +47,7 @@ Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 
 Dejanje **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov držav. Funkcija je namenjena skrbnikom, ki morajo hkrati dodati ali spremeniti več držav.
 
-Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz** sistem odpre vmesnik za nalaganje:
+Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Uvoz** sistem odpre vmesnik za nalaganje:
 
 ![Uvoz držav](../Images/ImportCountries.png "Uvoz držav")
 
@@ -67,7 +67,7 @@ Italy,1040,IT,false
 
 Za ustvarjanje nove države sledite tem korakom:
 
-1. Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Novo**, da odprete vnosni obrazec za dodajanje nove države.
+1. Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Novo**, da odprete vnosni obrazec za dodajanje nove države.
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
 3. Kliknite **Dodaj** za ustvarjanje zapisa ali **Prekliči** za vrnitev na seznam brez shranjevanja.
 

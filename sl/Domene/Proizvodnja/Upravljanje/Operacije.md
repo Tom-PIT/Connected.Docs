@@ -56,7 +56,7 @@ Uporabite polje **Iskanje** za filtriranje operacij po nazivu ali šifri.
 
 ## Ustvariti novo operacijo
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite:
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite:
    - **Novo**
    - **Po predlogi** – če so predloge na voljo v [**Predlogah za operacije**](PredlogeZaOperacije.md#uporaba-predlog-pri-ustvarjanju-operacij)
    - **Kopiraj obstoječo**

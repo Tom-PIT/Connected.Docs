@@ -9,7 +9,7 @@
 
 Tipi dokumentov so **obvezna konfiguracija** glavne knjige. Na njih se sklicujejo temeljnice in jih sistem uporablja za razvrÅ¡Äanje knjiÅ¾b, uporabo pravil knjiÅ¾enja ter podporo poroÄanju in reviziji.
 
-Za dostop do tega zaslona pojdite na **RaÄunovodstvo / Glavna knjiga / Upravljanje / Tipi dokumentov** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **RaÄunovodstvo / Glavna knjiga / Upravljanje / Tipi dokumentov** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -37,7 +37,7 @@ Neaktivni tipi dokumentov so ohranjeni zaradi zgodovinske sledljivosti, vendar j
 
 Za dodajanje novega tipa dokumenta:
 
-1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega vnosa.
+1. Kliknite [akcijski gumb](../../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega vnosa.
 2. Vnesite:
    - **Å ifra**
    - **Ime**

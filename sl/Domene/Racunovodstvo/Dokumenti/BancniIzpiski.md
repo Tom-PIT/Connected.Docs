@@ -7,7 +7,7 @@
 
 Bančni izpiski se uporabljajo za evidentiranje prometa na bančnih računih organizacije. Vsak bančni izpisek predstavlja nabor **prilivov in odlivov sredstev** za določen datum in bančni račun.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni izpiski** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni izpiski** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > Ko je bančni izpisek objavljen, sistem samodejno ustvari pripadajočo **knjižbo v glavni knjigi**.  
@@ -64,14 +64,14 @@ Bančni izpiski so lahko v enem izmed naslednjih stanj:
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dostop do razpoložljivih dejanj:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za dostop do razpoložljivih dejanj:
 
 - **Novo** – ustvarjanje novega bančnega izpiska.
 - **Uvoz** – uvoz bančnih izpiskov iz zunanjih XML datotek.
 
 ### Ustvariti bančnega izpiska
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov bančni izpisek.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov bančni izpisek.
 2. Izberite **Bančni račun organizacije**.
 3. Nastavite **Datum dokumenta**.
 

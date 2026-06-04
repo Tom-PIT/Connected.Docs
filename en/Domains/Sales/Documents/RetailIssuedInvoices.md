@@ -158,7 +158,7 @@ On the list view, the menu in the top-right corner provides additional options:
 
 Retail issued invoices can only be created manually.
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft retail issued invoice.
+1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new draft retail issued invoice.
 
    ![New retail issued invoice](../Images/RetailIssuedInvoiceNew.png "New retail issued invoice")
 
@@ -262,7 +262,7 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Document menu
+### Menu
 
 The document menu for published invoices provides:
 - **Printing**

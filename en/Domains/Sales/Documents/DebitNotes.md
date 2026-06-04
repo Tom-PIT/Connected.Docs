@@ -136,7 +136,7 @@ Drafts can be edited; committed debit notes are final unless reversed.
 
 Debit notes can be created in two ways:
 
-- Via the [**action button**](../../../Common/UI/ActionButton.md) on the **Debit notes** screen
+- Via the [action button](../../../Common/UI/ActionButton.md) on the **Debit notes** screen
 - From an existing [**Issued invoice](IssuedInvoices.md)** via *Linked documents → + Debit note*
 
 Once you start a new debit note, follow these steps:
@@ -234,7 +234,7 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 > [!NOTE]
 > Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
-## Delete a debit note
+### Delete a debit note
 
 Draft documents can be deleted in the edit view, **only if they contain no details**.
 
@@ -252,7 +252,7 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed debit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Document menu
+### Menu
 
 The document menu provides additional actions:
 

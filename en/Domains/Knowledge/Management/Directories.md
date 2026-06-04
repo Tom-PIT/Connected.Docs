@@ -9,7 +9,7 @@ The **Directories** code list defines the main **content containers** used in th
 
 Directories are used to organize Knowledge content and determine how articles are grouped and navigated in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md).
 
-To access this screen, go to **Knowledge / Management / Directories** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Knowledge / Management / Directories** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -47,7 +47,7 @@ Clicking a directory name opens it for editing.
 
 ### Add a new directory
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to add a new directory. Fill in the following fields:
+Click the [action button](../../../Common/UI/ActionButton.md) to add a new directory. Fill in the following fields:
 
 - **Name**
 - **Key**

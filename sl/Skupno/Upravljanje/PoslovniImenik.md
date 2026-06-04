@@ -6,7 +6,7 @@
 # Poslovni imenik
 **Poslovni imenik** vsebuje vsa podjetja in posameznike, s katerimi sodeluje vaša organizacija. To vključuje **kupce**, **dobavitelje**, **kooperante** ali **notranje kontakte**. Vsak vnos hrani pomembne podatke, kot so naslovi, davčni podatki, kontaktne osebe in plačilne nastavitve. To zagotavlja dosledno uporabo istih podatkov o partnerjih v prodajnih, nabavnih, logističnih in finančnih dokumentih.
 
-Do šifranta **Poslovni imenik** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+Do šifranta **Poslovni imenik** lahko dostopate iz različnih domen v [navigaciji](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
 
 Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v naslednjih domenah:
 
@@ -67,7 +67,7 @@ Polje **Vrsta** določa davčni status entitete. Razpoložljive vrednosti so:
 **Meni** v zgornjem desnem kotu ponuja možnost **Izvoz**, ki izvozi vse vidne zapise v datoteko CSV za nadaljnjo analizo ali varnostno kopijo.
 
 ## Dejanja
-Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
+Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
 
 - **Uvoz prek VIES**  
 - **Uvoz**  
@@ -76,11 +76,11 @@ Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpolo�
 ### Uvoziti z VIES
 Za poenostavitev postopka dodajanja podjetij, registriranih za DDV, v poslovni imenik omogoča dejanje **Uvozi z VIES** samodejno pridobivanje podatkov iz baze podatkov VIES na podlagi podane ID za DDV.
 
-Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz z VIES**. V odprtem pogovornem oknu vnesite ID za DDV podjetja, ki ga želite uvoziti (na primer **SI12345678**). Kliknite **Uvozi**, da začnete postopek.
+Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Uvoz z VIES**. V odprtem pogovornem oknu vnesite ID za DDV podjetja, ki ga želite uvoziti (na primer **SI12345678**). Kliknite **Uvozi**, da začnete postopek.
 
 ### Uvoziti prek CSV
 
-Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov podjetij.
+Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov podjetij.
 
 ![Uvoz poslovnega imenika](../Images/CompaniesImport.png "Uvoz poslovnega imenika")
 
@@ -96,7 +96,7 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 
 Za ustvarjanje novega zapisa:
 
-1. Kliknite na [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa.
+1. Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Nov** odpre vnosni obrazec za ustvarjanje novega zapisa.
 2. Izpolnite vsa obvezna polja.
    - Označite **Stranka**, če želite ustvariti stranko.
    - Označite **Dobavitelj**, če želite ustvariti dobavitelja.

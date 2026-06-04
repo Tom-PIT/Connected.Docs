@@ -10,7 +10,7 @@ Združuje napor, zabeležen na različnih tipih opravil (projekti, proizvodni na
 
 Ta pogled se uporablja predvsem za razumevanje, **kako je delovni čas porazdeljen** med tipi opravil in posameznimi opravili v izbranem časovnem obdobju.
 
-Za dostop do **Analize opravil** pojdite na **Viri / Analiza / Analiza opravil** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Analize opravil** pojdite na **Viri / Analiza / Analiza opravil** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Analiza opravil](../Images/WorkTimeAnalysisSL.png)
 

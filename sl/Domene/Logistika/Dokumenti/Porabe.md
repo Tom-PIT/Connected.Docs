@@ -11,7 +11,7 @@ Dokument **Poraba** beleži materiale, ki so bili porabljeni med izvajanjem **pr
 Za vnos porabljenih materialov na proizvodni strani glejte  
 **[Porabljeno](../../Proizvodnja/Dokumenti/Poraba.md)** — modula sta tesno povezana: beleženje porabe v proizvodnji ustvari ustrezen dokument porabe v logistiki.
 
-Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

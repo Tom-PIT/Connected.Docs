@@ -19,7 +19,7 @@ Ta šifrant predstavlja register vseh surovin znotraj strukture materialov.
 > - [**Davčne stopnje**](../../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Surovine** pojdite na  
-**Sredstva / Materiali / Surovine** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Surovine** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -92,7 +92,7 @@ Na levi strani je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **is
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-surovine)
 - [**Kopiraj obstoječi**](#kopirati-obstoječo-surovino)
@@ -100,7 +100,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže
 
 ### Ustvariti novo surovino
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje nove surovine.  
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje nove surovine.  
 
 Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
@@ -128,14 +128,14 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 ### Uvoziti surovine
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za hkratni uvoziti več surovin.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za hkratni uvoziti več surovin.
 
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
 ### Kopirati obstoječo surovino
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječo**, da omogočite ustvarjanje nove surovine na podlagi že obstoječe.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječo**, da omogočite ustvarjanje nove surovine na podlagi že obstoječe.
 
 ![Kopiranje surovine](../Images/CopyRawMaterial.png "Kopiranje surovine")
 

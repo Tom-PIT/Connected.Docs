@@ -20,7 +20,7 @@ Vsak izdelek vsebuje pomembne podatke – kot so [merske enote](../../../Skupno/
 > - [**Davčne stopnje**](../../../Skupno/Upravljanje/DavcneStopnje.md)
 
 Za dostop do šifranta **Izdelki** pojdite na  
-**Sredstva / Materiali / Izdelki** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+**Sredstva / Materiali / Izdelki** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -95,7 +95,7 @@ Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-izdelke)
 - [**Kopiraj obstoječe**](#kopiraj-obstoječi-izdelek)
@@ -103,7 +103,7 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže
 
 ### Ustvariti nov izdelek
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Nov**, da odprete obrazec za dodajanje novega izdelka. Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Nov**, da odprete obrazec za dodajanje novega izdelka. Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
 ![Nov izdelek](../Images/NewProduct.png "Nov izdelek")
 
@@ -137,14 +137,14 @@ Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite izdelek, ali **Prek
 
 ### Uvoziti izdelke
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Uvoz**. Ta akcija omogoča hkratni uvoz več materialov izdelkov z uporabo ustrezno pripravljene preglednice.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Uvoz**. Ta akcija omogoča hkratni uvoz več materialov izdelkov z uporabo ustrezno pripravljene preglednice.
 
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
 ### Kopiraj obstoječi izdelek
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
 
 ![Kopiranje izdelka](../Images/CopyProduct.png "Kopiranje izdelka")
 

@@ -20,7 +20,7 @@ Nova [nabavna naročila](NabavniNalogi.md) je mogoče ustvariti:
 
 Ustvarite nov osnutek nabavnega naloga na enega izmed naslednjih načinov:
 
-- Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) na zaslonu **Nabavni nalogi**
+- Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) na zaslonu **Nabavni nalogi**
 - Uporabite **Povezani dokumenti → + Nabavni nalog** iz povezanega dokumenta, kot je [povpraševanje](Povprasevanja.md)
 
 Ustvari se nov osnutek nabavnega naloga. Če je ustvarjen iz drugega dokumenta, bo večina polj že samodejno izpolnjena.

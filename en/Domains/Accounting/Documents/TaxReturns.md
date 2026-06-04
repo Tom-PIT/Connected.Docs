@@ -8,7 +8,7 @@
 Tax returns provide an aggregated overview of VAT-related data for a specific period.  
 They are used to **review, verify, and export** information required for submitting official tax returns to tax authorities.
 
-To access this screen, go to **Accounting / Ledger / Tax returns** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Tax returns** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > - This screen is **informative**. Values are calculated automatically from posted accounting documents (issued invoices, received invoices, credit notes, debit notes). Fields cannot be edited manually.

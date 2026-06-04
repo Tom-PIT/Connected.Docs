@@ -15,7 +15,7 @@ Korekcije uporabite za:
 > [!NOTE]
 > Ob objavi korekcije se zaloga posodobi: sistem prilagodi količine in atribute glede na vnesene razlike.
 
-Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -57,7 +57,7 @@ Seznam prikazuje obstoječe dokumente **Korekcij** z možnostjo filtriranja po d
 Korekcijo ustvarite, kadar prešteto stanje odstopa od sistemskega.
 
 1. Pojdite na **Logistika / Dokumenti / Korekcije**.
-2. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite osnutek korekcije.
+2. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite osnutek korekcije.
 
    ![Nova korekcija](../Images/CorrectionsNew.png)
 

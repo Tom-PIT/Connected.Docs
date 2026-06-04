@@ -7,7 +7,7 @@
 
 Razlogi za potovanje določajo možne **namene službenih poti**. Uporabljajo se pri ustvarjanju [potnih nalogov](../Dokumenti/PotniNalogi.md) in omogočajo izbiro vnaprej definiranega razloga namesto prostega vnosa besedila.
 
-Za dostop do **Razlogov za potovanje** pojdite na **Viri / Upravljanje / Razlogi za potovanje** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Razlogov za potovanje** pojdite na **Viri / Upravljanje / Razlogi za potovanje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -31,7 +31,7 @@ Seznam prikazuje vse konfigurirane razloge za potovanje.
 
 Za ustvarjanje novega razloga za potovanje:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
 2. Vnesite **Ime** razloga.
 3. Kliknite **Dodaj** za shranjevanje.
 

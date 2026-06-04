@@ -7,7 +7,7 @@
 
 The **Clause templates for issued invoices** code list allows you to define clause sets (templates) that will appear on issued invoices for specific companies. A template contains one or more clauses—such as legal notes, payment terms, disclaimers, or billing conditions—which will be printed at the top or bottom of the invoice in a defined order.
 
-To access this page, go to **Sales / Management / Clause templates for issued invoices** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Clause templates for issued invoices** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -39,9 +39,11 @@ The list displays all existing clause templates, grouped by company:
 
 Click **Clauses** to open the clause list for that template. You may use the **Search** bar to filter templates by company name.
 
-### Creating a new template
+## Actions
 
-Click the **action button** to create a new template. Only one field is required:
+### Create a new issued invoice template
+
+Click the action button to create a new template. Only one field is required:
 
 ![Add template](../Images/ClauseTemplatesIssuedInvoicesNew.png "Add template")
 
@@ -49,7 +51,7 @@ After adding the template, you must click **Clauses** to open the clause editor.
 
 ![Clauses button](../Images/ClauseTemplatesDeliveryNotesClausesButton.png "Clauses button")
 
-### Adding clauses to a template
+### Add clauses to an issued invoice template
 
 Inside the clause editor, use the action button to add clauses. Select:  
 - **Location** – The place in the issued invoice where the clause should appear  
@@ -58,7 +60,7 @@ Inside the clause editor, use the action button to add clauses. Select:
 
 ![Add clause](../Images/ClauseTemplatesIssuedInvoicesClausesNew.png "Add clause")
 
-### Clause list
+#### Clause list
 
 All clauses assigned to the template are shown in order:
 
@@ -66,13 +68,11 @@ All clauses assigned to the template are shown in order:
 
 You may reorder clauses by editing the **Ordinal** value.
 
-## Actions
-
-### Editing templates and clauses
+### Edit issued invoice templates and clauses
 
 Click the **company name** to open the template. Click any clause to edit its location, order, or assigned predefined text.
 
-### Deletion
+### Delete an issued invoice template
 
 Click **Delete** on the edit screen to open a confirmation dialog:
 

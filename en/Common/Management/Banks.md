@@ -7,7 +7,7 @@
 
 The **Banks** code list contains financial institutions that can be used across documents such as issued invoices, payments, and organizational bank accounts. Each bank entry stores its name, BIC code, and country, allowing the system to Banks connect with various [business partners](../../Common/Management/BusinessDirectory.md) and their transactions, and correctly reference banking information wherever needed.
 
-To access this screen, go to **Sales / Management / Banks** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this screen, go to **Sales / Management / Banks** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  

@@ -7,7 +7,7 @@
 
 Tipi planov razpoložljivosti določajo **kategorije razpoložljivosti in odsotnosti**, ki jih je mogoče dodeliti virom. Služijo kot osnova za [plane razpoložljivosti](../Pregledi/PlaniRazpolozljivosti.md).
 
-Za dostop do **Tipov planov razpoložljivosti** pojdite na **Viri / Upravljanje / Tipi planov razpoložljivosti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Tipov planov razpoložljivosti** pojdite na **Viri / Upravljanje / Tipi planov razpoložljivosti** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -33,7 +33,7 @@ Klik na element v seznamu odpre njegov **zaslon za urejanje**.
 
 ### Ustvariti nov tip plana razpoložljivosti
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
 
 ![Ustvari tip plana razpoložljivosti](../Images/AvailabilityPlanTypesNew.png "Ustvari tip plana razpoložljivosti")
 

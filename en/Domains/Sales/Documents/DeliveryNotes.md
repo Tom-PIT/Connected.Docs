@@ -9,7 +9,7 @@ A **Delivery note** is a logistics document that accompanies goods during delive
 
 A delivery note does **not** represent a financial document—it is primarily operational. Once items are delivered, a delivery note typically leads to the creation of an **Issue** (warehouse output), and later to an **Issued invoice**.
 
-To access this page, go to **Sales / Documents / Delivery notes** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Documents / Delivery notes** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## How delivery notes fit into the sales workflow
 
@@ -101,7 +101,7 @@ These indicators update automatically based on selected filters (Document dates,
 
 Delivery notes can be created in two ways:
 
-- From the **Delivery notes** list, by clicking [**action button**](../../../Common/UI/ActionButton.md).
+- From the **Delivery notes** list, by clicking [action button](../../../Common/UI/ActionButton.md).
 - From a **Sales order** using *Linked documents → + Delivery note* to create a new delivery note draft.
     
     ![Sales order → Delivery note](../Images/DeliveryNoteLinkSalesOrder.png)
@@ -194,7 +194,7 @@ If confirmed, the document is permanently removed.
 > - Completed documents **cannot** be deleted — only reversed or returned to draft.
 
 
-### Document menu
+### Menu
 
 The top-right menu includes:
 

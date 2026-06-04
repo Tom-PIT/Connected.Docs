@@ -10,7 +10,7 @@ Ti pogoji se najpogosteje uporabljajo v dokumentih **prodaje** za jasno opredeli
 
 Večina pogojev dobave temelji na mednarodno priznanih **Incoterms®**, ki jih izdaja Mednarodna trgovinska zbornica (ICC), pri čemer je po potrebi mogoče definirati tudi lastne pogoje.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Upravljanje / Intrastat / Pogoji dobave** v [**navigaciji**](../../Skupno/UI/Navigacija.md). Prikazano je tudi pod **Upravljanje** v področju **Prodaja**.
+Za dostop do tega zaslona pojdite na **Računovodstvo / Upravljanje / Intrastat / Pogoji dobave** v [navigaciji](../../Skupno/UI/Navigacija.md). Prikazano je tudi pod **Upravljanje** v področju **Prodaja**.
 
 ## Shema
 | Polje | Opis |
@@ -36,7 +36,7 @@ Seznam je mogoče preiskovati z iskalnim poljem v zgornjem desnem kotu.
 
 Za ustvarjanje novega pogoja dobave:
 
-1. Kliknite [**akcijski gumb**](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov pogoj dobave.
+1. Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov pogoj dobave.
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 3.Kliknite **Dodaj**, da shranite pogoj dobave.
 

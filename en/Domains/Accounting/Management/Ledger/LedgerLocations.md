@@ -11,7 +11,7 @@ Ledger locations are configuration entries. They do not create accounting postin
 
 To avoid ambiguity with logistics-related locations, this documentation refers to this screen as **Ledger locations**.
 
-To access this screen, go to **Accounting / Ledger / Management / Locations** in the [**navigation**](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Locations** in the [navigation](../../../../Common/UI/Navigation.md).
 
 ### Overview
 
@@ -50,7 +50,7 @@ Click a location in the list to open it in edit mode.
 
 To add a new ledger location:
 
-1. Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry
+1. Click the [action button](../../../../Common/UI/ActionButton.md) to create a new entry
 
 2. Enter:
 

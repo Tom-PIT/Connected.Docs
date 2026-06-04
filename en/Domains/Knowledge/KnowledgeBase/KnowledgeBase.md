@@ -9,7 +9,7 @@ The **Knowledge base** is the main screen where all **published Knowledge conten
 
 The **Knowledge base** is primarily used as an **internal documentation library** and supports day-to-day operational work across multiple domains.
 
-To access this screen, go to **Knowledge / Knowledge base** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Knowledge / Knowledge base** in the [navigation](../../../Common/UI/Navigation.md).
 
 
 ## Overview

@@ -10,7 +10,7 @@
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Vsebniki](https://www.youtube.com/watch?v=2V9K1jTsyQI)**.
 
-Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -55,7 +55,7 @@ Stran **Vsebniki** prikazuje vse dokumente vsebnikov. Na voljo so filtri:
 
 Vsebniki se ustvarjajo ročno na tej strani.
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega dokumenta vsebnika.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega dokumenta vsebnika.
 2. Določite **Skladišče** in **Lokacijo**.
 
    ![Ustvari vsebnik](../Images/ContainersNewCreate.png "Ustvari vsebnik")

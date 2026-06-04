@@ -38,7 +38,7 @@ Click on the [action button](../UI/ActionButton.md) to display the following act
 
 To create a new postal code, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) and select **New** to open the form to add a new postal code.
+1. Click on the [action button](../UI/ActionButton.md) and select **New** to open the form to add a new postal code.
 2. Fill in all required fields. Optional fields can be completed if relevant. 
 3. Click **Add** to save the new postal code or **Cancel** to return to the list view.
 
@@ -52,7 +52,7 @@ To create a new postal code, follow these steps:
 The action button also includes an **Import** option, allowing bulk upload of postal codes from a CSV file.  This is useful when setting up a new country with many postal code entries.
 
 To import postal codes, follow these steps:
-1. Click on the [**action button**](../UI/ActionButton.md) and select **Import**.
+1. Click on the [action button](../UI/ActionButton.md) and select **Import**.
 2. Choose a CSV file containing the postal codes to import.
 
 ### Edit an existing postal code

@@ -8,7 +8,7 @@
 **Prejeti računi** so finančni dokumenti, ki predstavljajo račune, prejete od dobaviteljev za kupljeno blago ali storitve.  
 Uporabljajo se za evidentiranje računov dobaviteljev, ustvarjanje računovodskih knjižb in sprožanje izhodnih plačil.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Računi / Prejeti računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Računi / Prejeti računi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > Prejeti računi so običajno povezani z enim ali več **nabavnimi nalogi**.  Povezava z nabavnimi nalogi omogoča, da sistem predizpolni podatke in predlaga knjižbe na podlagi prejetega blaga.

@@ -9,7 +9,7 @@
 
 Dobavnica **ni** finančni dokument – namenjena je predvsem operativni uporabi. Po izvedeni dobavi dobavnica praviloma vodi v ustvarjanje dokumenta **Izdaja** (izhod iz skladišča), kasneje pa še v **Izdani račun**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobavnice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Dobavnice** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga dobavnic v prodajnem procesu
 
@@ -95,21 +95,6 @@ Kazalniki se samodejno posodabljajo glede na izbrane filtre (datumi dokumentov, 
 
 ![Zaključene dobavnice](../Images/DeliveryNotesListCompleted.png "Zaključene dobavnice")
 
-### Meni
-
-Meni v zgornjem desnem kotu omogoča:
-
-![Meni dobavnic](../Images/DeliveryNotesMenuV2SL.png "Meni dobavnic")
-
-- **Tiskanje**
-- **Izvoz (PDF)**
-- **Pošlji preko e-pošte**
-- **Tiskaj sredstvo** (zaključeni dokumenti)
-- **Storniraj dokument** (zaključeni dokumenti)
-- **Povrni v osnutek** (zaključeni dokumenti)
-
-> **Opomba o storniranju:**  
-> Stornirana dobavnica je prikazana pod *Stanje storniranja → Stornirano* v stranskem meniju.
 
 ## Dejanja
 
@@ -117,7 +102,7 @@ Meni v zgornjem desnem kotu omogoča:
 
 Dobavnice je mogoče ustvariti na dva načina:
 
-- Iz seznama **Dobavnice** s klikom na [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+- Iz seznama **Dobavnice** s klikom na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 - Iz **Naročila stranke** prek *Povezani dokumenti → + Dobavnica*.
 
   ![Naročilo stranke → Dobavnica](../Images/DeliveryNoteLinkSalesOrder.png "Naročilo stranke → Dobavnica")
@@ -206,3 +191,19 @@ Ko dokument ne vsebuje več postavk, ga lahko izbrišete. Ob potrditvi se dokume
 > [!NOTE]  
 > - Dobavnice ni mogoče izbrisati, če je uporabljena v odvisnih dokumentih (Izdaje, Računi, Proizvodni nalogi itd.).  
 > - Zaključenih dokumentov **ni mogoče** izbrisati – mogoče jih je le stornirati ali vrniti v osnutek.
+
+### Meni
+
+Meni v zgornjem desnem kotu omogoča:
+
+![Meni dobavnic](../Images/DeliveryNotesMenuV2SL.png "Meni dobavnic")
+
+- **Tiskanje**
+- **Izvoz (PDF)**
+- **Pošlji preko e-pošte**
+- **Tiskaj sredstvo** (zaključeni dokumenti)
+- **Storniraj dokument** (zaključeni dokumenti)
+- **Povrni v osnutek** (zaključeni dokumenti)
+
+> **Opomba o storniranju:**  
+> Stornirana dobavnica je prikazana pod *Stanje storniranja → Stornirano* v stranskem meniju.

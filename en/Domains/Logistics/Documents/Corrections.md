@@ -15,7 +15,7 @@ Use Corrections to:
 > [!NOTE]
 > Corrections affect inventory on publish: the system updates stock levels and attributes based on the entered differences.
 
-To access **Corrections**, go to **Logistics / Documents / Corrections** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access **Corrections**, go to **Logistics / Documents / Corrections** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -59,7 +59,7 @@ The list shows existing Correction documents, with filters for date, warehouse, 
 Create a Correction when the counted stock differs from system stock.
 
 1. Go to **Logistics / Documents / Corrections**.
-2. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a draft Correction.
+2. Use the [action button](../../../Common/UI/ActionButton.md) to create a draft Correction.
 
     ![Corrections New](../Images/CorrectionsNew.png)
 

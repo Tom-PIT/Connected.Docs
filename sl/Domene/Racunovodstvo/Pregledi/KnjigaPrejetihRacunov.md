@@ -9,7 +9,7 @@ Pogled **Knjiga prejetih računov** omogoča **filtriran pregled prejetih račun
 
 Gre za **analitični pogled samo za branje**, namenjen davčnemu poročanju in pregledu. Podatkov na tem zaslonu ni mogoče urejati.
 
-Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knjiga prejetih računov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knjiga prejetih računov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > Ta pogled prikazuje samo **prejete račune, ki ustvarijo davčne knjižbe**. Namenjen je davčnemu pregledu in poročanju ter ne nadomešča uradnih DDV poročil.

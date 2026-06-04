@@ -7,7 +7,7 @@
 
 The **Cost centers** code list identifies departments or functions that create expenses but not revenue, such as HR or support teams. Even though these units don’t generate profit, they play a vital role in keeping the company running. By defining cost centers and assigning costs to them, the system provides transparency into how expenses are distributed across the company.
 
-This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Cost centers** in the [**navigation**](../../Common/UI/Navigation.md).
+This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Cost centers** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -32,7 +32,7 @@ You can use the **Search** bar to filter cost centers by name or code.
 
 To create a new cost center, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) to open the creation form and add a new cost center.
+1. Click on the [action button](../UI/ActionButton.md) to open the creation form and add a new cost center.
 2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
 3. Click **Add** to create the new cost center or **Cancel** to return to the list view.
 

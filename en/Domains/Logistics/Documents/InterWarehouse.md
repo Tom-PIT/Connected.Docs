@@ -12,7 +12,7 @@ The transfer process lets you scan or search for materials, choose a destination
 > [!TIP]
 > For a full demonstration, see the **[Inter warehouse](https://www.youtube.com/watch?v=xtyKDh7_qgI)** video tutorial.
 
-To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Inter warehouse documents, go to **Logistics / Documents / Inter warehouse** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -68,7 +68,7 @@ You can click any document to open and review its details.
 
 ### Create an inter warehouse document
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new inter warehouse document.
+Click the [action button](../../../Common/UI/ActionButton.md) to create a new inter warehouse document.
 
 1. Click **Add new**. Then select the **Source warehouse** and **Destination warehouse**.
 
