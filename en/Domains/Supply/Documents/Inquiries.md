@@ -18,7 +18,6 @@ A typical flow:
 3. When approved, convert the inquiry into a [**Supply order**](SupplyOrders.md) using the **Linked documents** section.  
 4. From the Supply order, you can then create a [**Receive**](../../Logistics/Documents/Receives.md) document (partial or full) once the materials arrive.
 
-
 > [!NOTE]  
 > Inquiries are not mandatory — Supply orders can also be created directly without a prior inquiry. Your organization may follow all steps or only some of them, depending on the purchasing process.
 
@@ -85,7 +84,7 @@ These filters allow quick navigation through vendor requests across different st
 
 ## Actions
 
-### Creating a new Inquiry
+### Create a new inquiry
 
 1. Use the [action button](../../../Common/UI/ActionButton.md) to create a new draft inquiry.
 
@@ -101,7 +100,7 @@ These filters allow quick navigation through vendor requests across different st
 
 5. When ready, click **Publish** to finalize the inquiry draft and move it to the **Available** state.
 
-### Editing an Inquiry
+### Edit an inquiry
 
 Click any inquiry in the list to open it. Draft inquiries can be edited freely.
 
@@ -113,9 +112,9 @@ The document contains several expandable sections:
 
 #### Attachments
 
-At the top of every document, an **Attachments** section is available. 
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
 
-You can upload any relevant file—such as delivery notes, transport documents, photos, or supporting records. All attached files remain stored together with the document and can be reviewed at any time.
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
 
 #### Linked documents
 
@@ -132,8 +131,7 @@ Available actions include:
 > [!TIP]
 > When a Supply order is created from an Inquiry, most relevant fields are automatically pre-filled.
 
-
-### Completing an inquiry
+### Complete an inquiry
 
 Once the inquiry in the **Available** state is approved, click **Complete** at the top of the page. The document will now show on the **Complete** list.
 
@@ -142,8 +140,16 @@ Once the inquiry in the **Available** state is approved, click **Complete** at t
 > [!NOTE]  
 > An inquiry is automatically moved to the **Completed** status when a new [**Supply order**](SupplyOrders.md) is created directly from it using the **Linked documents** action.
 
+### Delete an inquiry
 
-## Menu
+Inquiries can be deleted on the edit screen. To delete an inquiry, open the document by clicking on it in the list and then select **Delete** in the top-right corner.
+
+A confirmation pop-up will appear. Click **Delete** again to confirm the deletion.
+
+> [!NOTE]  
+> Only draft inquiries can be deleted.
+
+### Menu
 
 The **Menu** in the top-right corner provides the following actions:
 
@@ -151,11 +157,4 @@ The **Menu** in the top-right corner provides the following actions:
 
 - **Printing** – Print the inquiry  
 - **Exporting** – Export to PDF  
-
-## Deletion
-
-Inquiries can be deleted on the edit screen. To delete an inquiry, open the document and click **Delete** in the top-right corner.
-
-> [!NOTE]  
-> Only draft inquiries can be deleted.
 

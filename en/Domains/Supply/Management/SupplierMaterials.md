@@ -50,7 +50,6 @@ These filters allow narrowing the results based on supplier and material categor
 
 The **Menu** in the top-right corner provides a single action, **Export**. Use it to export the visible list of supplier materials into a CSV file for analysis or backup purposes.
 
-
 ## Actions
 
 Click the [action button](../../../Common/UI/ActionButton.md) to display the available actions:
@@ -58,10 +57,9 @@ Click the [action button](../../../Common/UI/ActionButton.md) to display the ava
 - **New**  
 - **Import**
 
-### New
+### Create a new supplier material
 
-Creates a new supplier material entry.  
-The input form includes fields:
+Click the [action button](../../../Common/UI/ActionButton.md) and select **New**. The input form includes fields:
 
 - Vendor  
 - Material type  
@@ -74,9 +72,9 @@ The input form includes fields:
 
 After entering the required information, click **Add** to save the record or **Cancel** to return to the list view.
 
-### Import
+### Import supplier materials
 
-The **Import** functionality allows bulk creation or updating of supplier materials using a spreadsheet file.
+Click the [action button](../../../Common/UI/ActionButton.md) and select **Import**. This functionality allows bulk creation or updating of supplier materials using a spreadsheet file.
 
 This screen behaves similarly to the **[Import materials](../../Assets/Materials/ImportMaterials.md)** page. It provides:
 
@@ -101,28 +99,21 @@ Example row:
 Rivermark Woodwork,CODE003,20,SupplierMaterial001,0
 ```
 
-## Editing
+### Edit a supplier material
 
 To edit an existing supplier material, click its entry in the list. The system opens the edit view where all fields can be modified.
 
 When you are done editing, click **Save**. If you do not want to save the changes, click **Cancel**.
 
-## Menu
+## Delete a supplier material
 
-The **Menu** in the top-right corner provides a single action:
-
-- **Export** – Exports the visible list of supplier materials into a CSV file for analysis or backup purposes.
-
-
-## Deletion
-
-Click **Delete** on the edit screen to open the confirmation dialog:
-
-**Are you sure you want to delete this record?**
-
-If confirmed, the supplier material is permanently removed.
+Click on a supplier material and click **Delete** to remove it from the system. A confirmation pop-up will appear. After confirming the deletion, the record will be permanently removed from the system.
 
 > [!NOTE]  
 > A supplier material can be deleted only if it is not referenced by other records.
+
+### Document menu
+
+The document menu in the top-right corner provides a single action,  **Export**. This action exports the details of the supplier material into a CSV file for analysis or backup purposes.
 
 

@@ -47,7 +47,7 @@ Za ustvarjanje nabavnih dokumentov lahko izberete enega ali več materialov nepo
 
 ![Izbira materialov](../Images/SupplyStockBoundariesPlanningSelect.png)
 
-## Ustvarjanje nabavnih dokumentov
+## Ustvariti nabavne dokumente po prodaji
 
 Ko so materiali izbrani, uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za nadaljevanje.
 
@@ -75,12 +75,3 @@ Materiali, količine in dobavitelj so že predizpolnjeni.
 Obnašanje ustvarjanja dokumentov, pravila brisanja in nadaljnje delo z nabavnimi dokumenti so enaki kot pri:
 
 - **[Planiranje nabave po mejah zaloge](PlaniranjeNabavePoMejahZaloge.md)**
-
-## Namen in koristi
-
-**Planiranje nabave po prodaji** omogoča:
-
-- povezovanje prodajnih podatkov z odločitvami o nabavi,
-- hitrejšo obnovo zaloge za pogosto prodajane materiale,
-- bolj informirane nabavne odločitve na podlagi dejanske prodaje,
-- uporabo že znanega in preverjenega delovnega toka planiranja.

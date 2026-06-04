@@ -139,7 +139,7 @@ Available actions include:
 - **Add task** – Add task to supply order  
 - **Copy supply order** – Duplicate the supply order with its contents
 
-### Completing a Supply order
+### Complete a supply order
 
 A Supply order is considered complete when all materials have been fully received.
 
@@ -153,18 +153,7 @@ Completing a supply order performs the following actions:
 > [!NOTE]
 > Completing a Supply order is an administrative action that finalizes its lifecycle. It does **not** perform additional stock movements — those occur in the linked Receive documents.
 
-## Menu
-
-The **Menu** in the top-right corner provides:
-
-![Supply order menu](../Images/SupplyOrderMenu.png)
-
-- **Printing** – Print the supply order  
-- **Exporting** – Export to PDF  
-- **Send as email**  
-- **Reverse document**  
-
-## Deletion
+### Delete a supply order
 
 Draft supply orders can be deleted on the edit screen, but only if they contain **no details**.
 
@@ -181,4 +170,15 @@ If confirmed, the system removes the document permanently; otherwise, no changes
 > - Only **draft** supply orders can be deleted.  
 > - Once a supply order is published, it can no longer be deleted.  
 > - Published documents cannot be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).
+
+### Menu
+
+The **Menu** in the top-right corner provides:
+
+![Supply order menu](../Images/SupplyOrderMenu.png)
+
+- **Printing** – Print the supply order  
+- **Exporting** – Export to PDF  
+- **Send as email**  
+- **Reverse document**  
 

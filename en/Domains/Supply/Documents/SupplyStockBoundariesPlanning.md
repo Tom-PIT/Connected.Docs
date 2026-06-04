@@ -55,7 +55,7 @@ Each row can be expanded to show additional planning information, such as:
 
 This helps you understand whether replenishment is already in progress before creating new documents.
 
-## Creating supply orders or inquiries
+## Create supply orders or inquiries according to stock levels
 
 Supply orders and inquiries are created directly from this screen.
 
@@ -78,14 +78,4 @@ Supply orders and inquiries are created directly from this screen.
 4. Click **Create** to proceed.
 
 You are then redirected to a new **Supply order** or **Inquiry** with all relevant details—material, quantities, and vendor—already filled in.
-
-## Purpose and benefits
-
-Supply stock boundaries planning enables you to:
-- Detect low-stock situations early
-- Centralize replenishment planning
-- Reduce manual data entry when creating supply documents
-- Coordinate purchasing decisions based on real stock levels and existing orders
-
-This view is especially useful for planners and purchasing teams managing multiple suppliers and materials.
 
