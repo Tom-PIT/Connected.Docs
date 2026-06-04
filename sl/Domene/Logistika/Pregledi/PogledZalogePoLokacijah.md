@@ -14,7 +14,7 @@ Do povezanih pogledov — kot sta **[Pogled zaloge po materialu](Zaloga.md#pogle
 > **[Pogled zaloge po lokacijah](https://www.youtube.com/watch?v=_3bZBZ89hds)**.
 
 Za dostop do tega pogleda pojdite na  
-**Logistika / Pregledi / Pogled zaloge po lokacijah** v [**navigaciji**](../../../Skupno/UI/Navigacija.md),  
+**Logistika / Pregledi / Pogled zaloge po lokacijah** v [navigaciji](../../../Skupno/UI/Navigacija.md),  
 ali kliknite **ime lokacije** na drugih zaslonih, povezanih z zalogo, kot je **Pogled zaloge po materialu**.
 
 ## Pregled

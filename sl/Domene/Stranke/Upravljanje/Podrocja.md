@@ -9,7 +9,7 @@
 
 Področja zagotavljajo, da so prejete zahteve pravilno usmerjene in dosledno obdelane v celotni organizaciji.
 
-Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Področja** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Področja** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -46,7 +46,7 @@ Vsako področje vključuje:
 
 ### Ustvariti novo področje
 
-Za ustvarjanje novega področja kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+Za ustvarjanje novega področja kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 
 Obrazec področja je razdeljen na več sklopov, ki določajo njegovo obnašanje. Pri dodajanju ali urejanju uporabite polja, opisana v razdelku [**Shema**](#shema).
 

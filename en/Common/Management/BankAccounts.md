@@ -37,7 +37,7 @@ Use the filters on the left (Enabled / Disabled) to show only active or inactive
 
 To create a new bank account, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) to open the form to add a new bank account.
+1. Click on the [action button](../UI/ActionButton.md) to open the form to add a new bank account.
 
    ![Add bank account](../Images/BankAccountsNew.png)
 

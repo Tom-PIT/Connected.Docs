@@ -129,7 +129,7 @@ Drafts can be edited; committed prepayments are final unless reversed.
 
 ### Create a new prepayment
 
-1. Use the [**action button**](../../../Common/UI/ActionButton.md) to create a new draft prepayment.
+1. Use the [action button](../../../Common/UI/ActionButton.md) to create a new draft prepayment.
 
    ![New prepayment](../Images/PrepaymentsNewTop.png)
 
@@ -256,7 +256,7 @@ If you need to remove only a specific material instead of clearing the entire do
 > Committed prepayments **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
 
-### Document menu
+### Menu
 
 The document menu provides additional actions:
 - **Printing**

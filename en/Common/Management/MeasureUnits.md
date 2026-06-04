@@ -15,7 +15,7 @@ Examples:
 > [!TIP]
 > For a full demonstration, see the **[Measure units](https://www.youtube.com/watch?v=8swl8Vex6y4)** video tutorial.
 
-You can access the **Measure units** code list from different domains in the [**navigation**](../UI/Navigation.md). In all cases you are working with the same shared data.
+You can access the **Measure units** code list from different domains in the [navigation](../UI/Navigation.md). In all cases you are working with the same shared data.
 
 To open the list, go to **Management / Measure units** in one of the following domains:
 
@@ -55,7 +55,7 @@ The list displays each measure unit's name, abbreviation, and precision.
 
 To create a new measure unit, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) to add a new measure unit.
+1. Click on the [action button](../UI/ActionButton.md) to add a new measure unit.
 2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to save the measure unit or **Cancel** to return to the list view.
 

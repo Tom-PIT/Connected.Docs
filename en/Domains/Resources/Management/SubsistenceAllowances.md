@@ -8,7 +8,7 @@
 Subsistence allowances define the daily amounts paid to employees when traveling for work.
 They are typically used in [**Travel orders**](../Documents/TravelOrders.md) to automatically calculate meal and subsistence compensation based on the destination.
 
-To access **Subsistence Allowances**, go to **Resources / Management / Subsistence Allowances** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access **Subsistence Allowances**, go to **Resources / Management / Subsistence Allowances** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -37,7 +37,7 @@ Clicking on an entry opens it for editing.
 
 To create a new subsistence allowance:
 
-1. Click [**action button**](../../../Common/UI/ActionButton.md).
+1. Click [action button](../../../Common/UI/ActionButton.md).
 2. Select the **Country**.
 3. Optionally define a **Postal code** or city.
 4. Enter the **Amount**, **Half amount**, and **Reduced amount**.

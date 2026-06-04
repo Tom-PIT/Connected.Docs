@@ -7,7 +7,7 @@
 
 Pogled **Zaključene kontrolne liste** ponuja analitični pregled vseh **izvajanj kontrolnih list, ki so bila zaključena** v izbranem časovnem obdobju. Omogoča nadzornikom in vodjem kakovosti pregled rezultatov, preverjanje kakovosti izvajanja ter vpogled v poročila zaključenih kontrolnih list.
 
-Za dostop do tega pogleda se pomaknite na **Kvaliteta / Pogledi / Zaključene kontrolne liste** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda se pomaknite na **Kvaliteta / Pogledi / Zaključene kontrolne liste** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ### Pregled
 

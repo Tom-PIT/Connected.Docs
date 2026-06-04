@@ -39,7 +39,7 @@ Use the search bar to filter check points by name or code.
 
 ## Create a new check point
 
-1. Click on the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.  
+1. Click on the [action button](../../../Common/UI/ActionButton.md) in the bottom-right corner.  
 2. Fill in the fields described in the schema:  
    - **Name** (mandatory)  
    - **Description** (optional)  

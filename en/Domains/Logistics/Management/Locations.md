@@ -7,7 +7,7 @@
 
 This code list represents the storage locations within individual [warehouses](Warehouses.md). Each location defines a specific area or subdivision, such as a rack, shelf, or compartment, and enables precise organization and tracking of materials within a warehouse.
 
-To access this code list, go to **Logistics / Management / Locations** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this code list, go to **Logistics / Management / Locations** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Warehouses and warehouse locations](https://www.youtube.com/watch?v=3sEE9Mrtx6M)** video tutorial.

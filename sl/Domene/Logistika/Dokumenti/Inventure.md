@@ -68,7 +68,7 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ### Ustvariti inventurnega dokumenta
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega inventurnega dokumenta.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega inventurnega dokumenta.
 
 1. Kliknite **Novo**, da ustvarite novo inventuro.
 

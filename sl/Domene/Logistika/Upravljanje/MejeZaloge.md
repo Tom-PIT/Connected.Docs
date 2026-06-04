@@ -7,7 +7,7 @@
 
 Ta šifrant predstavlja **meje zaloge** za posamezne materiale ali izdelke v sistemu. Vsak zapis določa **minimalno** in **maksimalno** dovoljeno količino zaloge za izbran tip materiala, kar pomaga zagotavljati optimalne zalogovne ravni ter preprečuje pomanjkanje ali presežke zaloge.
 
-Za dostop do šifranta **Meje zaloge** pojdite na  **Logistika / Upravljanje / Meje zaloge** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do šifranta **Meje zaloge** pojdite na  **Logistika / Upravljanje / Meje zaloge** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič  
@@ -39,7 +39,7 @@ Vsaka količina zaloge, ki pade **pod minimalno** ali preseže **maksimalno** vr
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže dejanje **Uvoz**.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže dejanje **Uvoz**.
 
 ### Uvoz
 

@@ -10,7 +10,7 @@
 Avansne račune je mogoče ustvariti ročno ali neposredno iz potrjenega [**Predračuna**](Predracuni.md), s čimer so povezani s prodajnim procesom.
 
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Avansni računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Avansni računi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 
 ## Vloga avansnih računov v prodajnem procesu
@@ -125,7 +125,7 @@ Osnutke je mogoče urejati, potrjeni avansni računi pa so dokončni, razen če 
 
 ### Ustvarjanje novega avansnega računa
 
-1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka avansnega računa.
+1. Uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka avansnega računa.
 
    ![Novi avansni račun](../Images/PrepaymentsNewTop.png "Novi avansni račun")
 
@@ -264,9 +264,7 @@ Meni dokumenta omogoča:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti)
 - **Vrni v osnutek** (če je dovoljeno)
 
-
 ![Meni avansnega računa](../Images/PrepaymentsMenu.png "Meni avansnega računa")
-
 
 Storniranje razveljavi finančni učinek potrjenega avansnega računa. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 

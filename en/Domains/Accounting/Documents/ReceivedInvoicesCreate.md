@@ -9,7 +9,7 @@
 
 ## Create a new received invoice
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new received invoice.
+1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new received invoice.
 2. In **Document connections**, link one or more Supply orders.
 3. Review or enter document header fields, including **Amount**.
 4. Select the appropriate **Account** and **Template** (optional).

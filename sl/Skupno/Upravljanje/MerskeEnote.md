@@ -14,7 +14,7 @@ Primeri:
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Merske enote](https://www.youtube.com/watch?v=8swl8Vex6y4)**.
 
-Do šifranta **Merske enote** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+Do šifranta **Merske enote** lahko dostopate iz različnih domen v [navigaciji](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
 Za odpiranje seznama pojdite v razdelek **Upravljanje / Merske enote** v naslednjih domenah:
 
 - **Sredstva**
@@ -51,7 +51,7 @@ Seznam prikazuje ime merske enote, okrajšavo in natančnost.
 
 Za dodajanje nove merske enote:
 
-1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo mersko enoto.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md), da dodate novo mersko enoto.
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
 3. Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje merske enote ali **Prekliči** za vrnitev na seznam.
 

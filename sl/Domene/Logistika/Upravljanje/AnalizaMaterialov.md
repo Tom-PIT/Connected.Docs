@@ -15,7 +15,7 @@ Opredelite **analize ali preizkuse**, ki se lahko izvajajo na materialih (npr. k
 > **[Analiza materialov](https://www.youtube.com/watch?v=AgCVA8labrw)**.
 
 Za dostop do **Analize materialov** pojdite na  
-**Logistika / Upravljanje / Analiza materialov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+**Logistika / Upravljanje / Analiza materialov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -39,7 +39,7 @@ Vsak zapis vsebuje indikator stanja na levi strani imena:
 
 ## Dejanja
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove analize.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove analize.
 
    ![Nova analiza materiala](../Images/MaterialAnalysisManagementNew.png "Nova analiza materiala")
 

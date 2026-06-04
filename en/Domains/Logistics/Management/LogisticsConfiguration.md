@@ -7,7 +7,7 @@
 
 Configure **Logistics** settings affecting stock behavior, serial formats, and document numbering. Any changes are saved automatically.
 
-To access this page, go to **Logistics / Management / Configuration** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Logistics / Management / Configuration** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Logistics Configuration](../Images/LogisticsConfiguration.png)
 

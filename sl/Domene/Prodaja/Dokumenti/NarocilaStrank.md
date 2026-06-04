@@ -8,7 +8,7 @@
 **Naročilo stranke** predstavlja potrjeno namero stranke za nakup blaga ali storitev. Najpogosteje se ustvari na podlagi potrjene **Ponudbe**, lahko pa se ustvari tudi samostojno.  
 Naročila strank določajo, *kaj* bo stranka prejela, *kdaj* in *pod kakšnimi pogoji*, ter predstavljajo osnovo za procese dostave, proizvodnje, nabave in izdajanja računov.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Naročila strank** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Naročila strank** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga naročil strank v prodajnem procesu
 
@@ -124,23 +124,11 @@ Filtri vključujejo:
 - **Poslovni vnos**
 - **Iskalno polje**
 
-### Meni
-
-Kontekstni meni omogoča:
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Uvozi postavke** (če je dokument v stanju Osnutek)
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- **Vrni v osnutek** (če je dovoljeno)
-
-![Meni naročil strank](../Images/SalesOrderMenu.png "Meni naročil strank")
-
 ## Dejanja
 
 ### Ustvariti novo naročilo stranke
 
-Za ustvarjanje novega naročila stranke kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+Za ustvarjanje novega naročila stranke kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 
 Za podroben postopek ustvarjanja si oglejte vodnik [**Kako ustvariti naročilo stranke**](NarocilaStrankUstvarjanje.md).
 
@@ -217,3 +205,15 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 > [!NOTE]
 > - Izbrisati je mogoče samo **osnutke**.  
 > - Po objavi naročila stranke ni več mogoče izbrisati; uporabite **Vrni v osnutek**.
+
+### Meni
+
+Kontekstni meni omogoča:
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Uvozi postavke** (če je dokument v stanju Osnutek)
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- **Vrni v osnutek** (če je dovoljeno)
+
+![Meni naročil strank](../Images/SalesOrderMenu.png "Meni naročil strank")

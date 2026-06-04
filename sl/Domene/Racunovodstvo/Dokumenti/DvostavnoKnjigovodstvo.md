@@ -8,7 +8,7 @@
 **Dvostavno knjigovodstvo** je osrednji modul, kjer se hranijo in upravljajo vse **temeljnice**.  
 Temeljnice predstavljajo končne računovodske zapise, s katerimi se finančni premiki knjižijo v **glavno knjigo**.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Dvostavno knjigovodstvo** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Dvostavno knjigovodstvo** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > Temeljnice se običajno ustvarijo **samodejno** iz drugih dokumentov (na primer izdanih ali prejetih računov, premikov zaloge, inventur ali prilagoditev zaloge).  
@@ -91,7 +91,7 @@ Pred objavo mora sistem preveriti, da se zneska ujemata.
 
 ![Akcijski gumb – nova temeljnica](../Images/DoubleEntryAccountancyJournalEntryNewButton.png)
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove temeljnice.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove temeljnice.
 2. Izberite **Tip dokumenta**.
 3. Po želji izberite **Predlogo** za predizpolnitev postavk.
 4. Nastavite **Datum temeljnice**.

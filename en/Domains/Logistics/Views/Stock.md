@@ -12,7 +12,7 @@ You can access the **[Stock view by material](#stock-view-by-material)**, **[Sto
 > [!TIP]
 > For a full demonstration, see the **[Stock overview](https://www.youtube.com/watch?v=gjAKnavIWnY)** video tutorial.
 
-To access Stock, go to **Logistics / Stock** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Stock, go to **Logistics / Stock** in the [navigation](../../../Common/UI/Navigation.md).
 
 
 

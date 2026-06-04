@@ -10,7 +10,7 @@ Področje **Projekti** omogoča pregled vseh aktivnih in zaključenih projektov 
 Projekti se ustvarjajo in konfigurirajo v dokumentu **[Upravljanje projektov](../Upravljanje/UpravljanjeProjektov.md)**.  
 Ta razdelek je namenjen **delu z obstoječimi projekti**: spremljanju statusa, pregledu opravil in sodelovanju med izvajanjem.
 
-Za dostop do projektov pojdite na **Projekti / Projekti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do projektov pojdite na **Projekti / Projekti** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Življenjski cikel projekta
 
@@ -96,7 +96,7 @@ Podrobnosti o izvajanju opravil, beleženju časa in upravljanju statusov so opi
 
 Opravila se ustvarjajo **znotraj projekta**.
 
-Kliknite **akcijski gumb** v pregledu projekta in odprite obrazec **Dodaj opravilo**.
+Kliknite akcijski gumb v pregledu projekta in odprite obrazec **Dodaj opravilo**.
 
 ![Novo opravilo projekta](../Images/ProjectsNewTaskSL.png "Novo opravilo projekta")
 

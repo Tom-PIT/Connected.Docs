@@ -8,7 +8,7 @@
 **Obračun DDV** zagotavlja združen pregled podatkov, povezanih z davkom na dodano vrednost (DDV), za izbrano davčno obdobje.  
 Uporablja se za **pregled, preverjanje in izvoz** podatkov, potrebnih za oddajo uradnih davčnih obračunov davčnim organom.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Obračun DDV** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Obračun DDV** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > - Ta zaslon je **informativne narave**. Vrednosti se samodejno izračunajo iz objavljenih računovodskih dokumentov (izdani računi, prejeti računi, dobropisi, bremepisi). Polj ni mogoče ročno urejati.

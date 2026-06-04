@@ -7,7 +7,7 @@
 
 Travel order reasons define the possible purposes of a business trip. They are used when creating [travel orders](../Documents/TravelOrders.md), allowing users to select a predefined reason instead of entering free text.
 
-To access **Travel order reasons**, go to **Resources / Management / Travel order reasons** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access **Travel order reasons**, go to **Resources / Management / Travel order reasons** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -31,7 +31,7 @@ The list displays all configured travel order reasons.
 
 To create a new travel order reason:
 
-1. Click [**action button**](../../../Common/UI/ActionButton.md) to create a new entry.
+1. Click [action button](../../../Common/UI/ActionButton.md) to create a new entry.
 2. Enter the **Name** of the reason.
 3. Click **Add** to save.
 

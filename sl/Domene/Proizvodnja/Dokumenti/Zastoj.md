@@ -8,7 +8,7 @@
 
 Aktivnost **Zastoj** beleži prekinitve med izvajanjem operacije (npr. čakanje na material, okvare strojev, menjave nastavitev). Omogoča spremljanje časovnih izgub ter boljšo vidnost za analizo.
 
-**Zastoj** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire aktivnosti (tapnite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in nato izberite **Zastoj**).
+**Zastoj** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire aktivnosti (tapnite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in nato izberite **Zastoj**).
 
 ## Zabeležiti zastoj
 

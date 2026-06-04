@@ -12,7 +12,7 @@ Inventory checks are performed per location and show all materials stored there,
 > [!TIP]
 > For a full demonstration, see the **[Inventory](https://www.youtube.com/watch?v=Rc4qqTdxKn8)** video tutorial.
 
-To access Inventories, go to **Logistics / Documents / Inventories** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Inventories, go to **Logistics / Documents / Inventories** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -67,7 +67,7 @@ Click any document to open and review its contents.
 
 ### Create an inventory document
 
-Click the **action button** to create a new inventory document.
+Click the action button to create a new inventory document.
 
 1. Click **Add new** to create a new inventory session. 
 

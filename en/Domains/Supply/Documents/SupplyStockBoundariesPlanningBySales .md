@@ -9,7 +9,7 @@ The **Supply stock boundaries planning by sales** view supports purchase plannin
 
 This view is **actionable** and allows you to create [**Supply orders**](SupplyOrders.md) and [**Inquiries**](Inquiries.md) directly, while relying on sales data to provide additional context for planning decisions.
 
-To access this view, go to **Supply / Supply stock boundaries planning by sales** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this view, go to **Supply / Supply stock boundaries planning by sales** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## List view
 
@@ -45,7 +45,7 @@ Creating documents from this view works **exactly the same way** as in **Supply 
 
     ![Select material](../Images/SupplyStockBoundariesPlanningSelect.png)
 
-2. Click the **action button** and choose:
+2. Click the action button and choose:
 
    * **Create new [supply order](SupplyOrders.md)**, or
    * **[Inquiry](Inquiries.md)**

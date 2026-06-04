@@ -8,7 +8,7 @@
 
 New sales orders can be created:
 
-- manually from the **Sales orders** screen using the [**action button**](../../../Common/UI/ActionButton.md)
+- manually from the **Sales orders** screen using the [action button](../../../Common/UI/ActionButton.md)
 - from a published [offer](Offers.md) using **Linked documents → + Sales order**
 
 > [!NOTE]
@@ -21,7 +21,7 @@ New sales orders can be created:
 
 Create a new draft sales order using one of the following methods:
 
-- Directly from the **Sales orders** screen using the [**action button**](../../../Common/UI/ActionButton.md)
+- Directly from the **Sales orders** screen using the [action button](../../../Common/UI/ActionButton.md)
 - From a published [offer](Offers.md), via **Linked documents → + Sales order**. In this case, most fields — such as the customer, delivery information, and detail items — are automatically pre-filled based on the offer.
 
   ![Create sales order from offer](../Images/SalesOrdersOfferLink.png "Create sales order from offer")

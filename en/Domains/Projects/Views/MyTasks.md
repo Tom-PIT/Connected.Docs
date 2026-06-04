@@ -9,7 +9,7 @@ The **My Tasks** screen provides a personalized view of all [tasks](../Documents
 
 Tasks shown here always belong to a [project](../Documents/Projects.md), but the list is filtered to include only tasks relevant to the current user.
 
-To access the **My Tasks** screen, navigate to **Projects / Views / My tasks** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access the **My Tasks** screen, navigate to **Projects / Views / My tasks** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## My tasks list
 

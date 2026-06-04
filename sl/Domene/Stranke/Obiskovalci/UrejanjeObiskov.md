@@ -9,7 +9,7 @@ Zaslon **Urejanje obiskov** je namenjen ustvarjanju in spremljanju evidenc obisk
 
 Vsak obisk ima jasno določen življenjski cikel – od najave do zaključka ali odpovedi.
 
-Za dostop do **Urejanja obiskov** pojdite na **Stranke / Obiskovalci / Urejanje obiskov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Urejanja obiskov** pojdite na **Stranke / Obiskovalci / Urejanje obiskov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -68,7 +68,7 @@ Nov obisk se ustvari, ko je načrtovan fizični obisk.
 
 Tipičen potek:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega obiska.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega obiska.
 2. **Status** je privzeto nastavljen na **Najavljen**.
 3. Izpolnite podrobnosti obiska (polje **Obiskovalec** je obvezno).
 4. Kliknite **Shrani**.

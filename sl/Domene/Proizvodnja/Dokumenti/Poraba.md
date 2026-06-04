@@ -8,7 +8,7 @@
 
 Aktivnost **Poraba** beleži porabo vhodnih materialov med izvajanjem operacije. Uporablja se, ko iz zaloge vzamete materiale za izdelavo izdelkov (npr. vijake, lepilo, barvo, napeljavo ali določen serijski/serijski sklop). S tem se zagotavlja natančno stanje zalog in popolna sledljivost vhodov (materiali, serije, loti).
 
-Zaslon **Poraba** odprete iz glavne strani [**Izvedba**](Izvedba.md) preko izbire aktivnosti (klik na [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izbira **Poraba**).
+Zaslon **Poraba** odprete iz glavne strani [**Izvedba**](Izvedba.md) preko izbire aktivnosti (klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izbira **Poraba**).
 
 ## Zabeležiti porabo materiala
 

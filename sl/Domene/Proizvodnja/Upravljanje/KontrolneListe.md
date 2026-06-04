@@ -9,7 +9,7 @@ Kontrolne liste se uporabljajo v modulih **Proizvodnja** in **Vzdrževanje** za 
 
 Posamezni koraki znotraj kontrolne liste — imenovani **[Kontrolne točke](KontrolneTocke.md)** — se upravljajo ločeno.
 
-Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, nato izberite **Upravljanje / Kontrolne liste** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, nato izberite **Upravljanje / Kontrolne liste** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Kontrolne liste kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
@@ -38,7 +38,7 @@ Na levi strani je na voljo filter **Oznake**, ki omogoča prikaz samo tistih kon
 
 ## Ustvariti novo kontrolno listo
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 2. Izpolnite naslednja polja:
 
     ![Dodaj kontrolno listo](../Images/ChecklistsNew.png "Dodaj kontrolno listo")

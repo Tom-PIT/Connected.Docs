@@ -7,7 +7,7 @@
 
 Kontrolne točke pripadajo posamezni **[Kontrolni listi](KontrolneListe.md)** in določajo posamezne korake, kontrole ali preverjanja, ki jih morajo izvajalci opraviti med proizvodnjo ali preverjanjem kakovosti. Zagotavljajo dosledno izvajanje procesa ter omogočajo strukturirano zbiranje podatkov za sledenje, revizije in poročanje.
 
-Za dostop do kontrolnih točk pojdite na **Kakovost / Upravljanje / Kontrolne liste** v [**navigaciji**](../../../Skupno/UI/Navigacija.md) in pri želenem kontrolnem seznamu kliknite **Kontrolne točke**.
+Za dostop do kontrolnih točk pojdite na **Kakovost / Upravljanje / Kontrolne liste** v [navigaciji](../../../Skupno/UI/Navigacija.md) in pri želenem kontrolnem seznamu kliknite **Kontrolne točke**.
 
 ![Navigacija do kontrolnih točk](../Images/CheckpointButton.png)
 

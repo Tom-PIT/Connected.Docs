@@ -10,7 +10,7 @@ Oznake pomagajo pri kategorizaciji vsebine ter izboljšajo iskanje in filtriranj
 
 Oznake so skupne celotni domeni **Znanje** in jih je mogoče uporabljati v več imenikih in člankih.
 
-Za dostop pojdite na **Znanje / Upravljanje / Oznake imenika** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop pojdite na **Znanje / Upravljanje / Oznake imenika** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -35,7 +35,7 @@ Klik na oznako odpre zaslon za urejanje.
 
 ## Dejanja
 
-Kliknite **akcijski gumb** za dodajanje nove oznake imenika.
+Kliknite akcijski gumb za dodajanje nove oznake imenika.
 
 ### Dodati novo oznako imenika
 

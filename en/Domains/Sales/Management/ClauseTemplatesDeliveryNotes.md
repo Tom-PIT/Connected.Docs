@@ -7,7 +7,7 @@
 
 The **Clause templates for delivery notes** code list allows you to define clause sets (templates) that will appear on delivery notes for specific companies. A template contains one or more clauses—such as legal notes, disclaimers, or delivery confirmations—which will be printed at the top or bottom of the delivery note in a defined order. 
 
-To access this page, go to **Sales / Management / Clause templates for delivery notes** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Clause templates for delivery notes** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -43,9 +43,9 @@ Click **Clauses** to open the clause list for that template. You may use the **S
 
 ## Actions
 
-### Create a new template
+### Create a new delivery note template
 
-Click the **action button** to create a new template. Only one field is required:
+Click the action button to create a new template. Only one field is required:
 
 ![Add template](../Images/ClauseTemplatesDeliveryNotesNew.png "Add template")
 
@@ -53,7 +53,7 @@ After adding the template, you must click **Clauses** to open the clause editor.
 
 ![Clauses button](../Images/ClauseTemplatesDeliveryNotesClausesButton.png "Clauses button")
 
-#### Add clauses to a template
+#### Add clauses to a delivery note template
 
 Inside the clause editor, use the action button to add clauses. Select: 
 - **Location** - The place in the delivery note where the clause should appear
@@ -70,11 +70,11 @@ All clauses assigned to the template are shown in order:
 
 You may reorder clauses by editing the **Ordinal** value.
 
-### Edit templates and clauses
+### Edit delivery note templates and clauses
 
 Click the **company name** to open the template. Click any clause to edit its location, order, or assigned predefined text.
 
-### Delete templates and clauses
+### Delete delivery note templates and clauses
 
 Open a template or clause and click **Delete** on the edit screen. 
 

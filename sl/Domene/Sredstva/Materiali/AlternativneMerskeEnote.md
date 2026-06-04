@@ -8,7 +8,7 @@
 **Alternativne merske enote** omogočajo obravnavo materiala z mersko enoto, ki je drugačna od njegove osnovne merske enote.  
 To je uporabno v primerih, ko se materiali skladiščijo, pakirajo ali prevzemajo v praktičnih enotah (na primer kosih), zaloga pa se vodi v fizični enoti (na primer metrih).
 
-Za dostop do tega zaslona pojdite na **Sredstva / Materiali / Alternativne merske enote** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Sredstva / Materiali / Alternativne merske enote** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za podrobno predstavitev si oglejte video vodič **[Alternativne merske enote](https://www.youtube.com/watch?v=wPmLquFm8fY)**.

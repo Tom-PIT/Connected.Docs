@@ -7,7 +7,7 @@
 
 Availability plan types define the **categories of availability and absence** that can be assigned to resources. They are used as a foundation for [availability plans](../Views/AvailabilityPlans.md).
 
-To access **Availability plan types**, go to **Resources / Management / Availability plan types** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access **Availability plan types**, go to **Resources / Management / Availability plan types** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -35,7 +35,7 @@ Clicking an item in the list opens its **edit screen**.
 
 ### Create a new availability plan type
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new entry.
+Click the [action button](../../../Common/UI/ActionButton.md) to create a new entry.
 
 ![Create availability plan type](../Images/AvailabilityPlanTypesNew.png "Create availability plan type")
 

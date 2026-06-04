@@ -7,7 +7,7 @@
 
 Kategorije opomnikov določajo **klasifikacijske oznake**, ki jih je mogoče dodeliti opomnikom v modulu [**Opomniki**](../Pregledi/Opomniki.md). Pomagajo organizirati opomnike glede na namen (na primer *Pregled proračuna* ali *Inšpekcija objekta*) in se ponovno uporabljajo v celotnem sistemu, kjer koli se opomniki ustvarjajo.
 
-Za dostop do **Kategorij opomnikov** pojdite na **Viri / Upravljanje / Kategorije opomnikov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Kategorij opomnikov** pojdite na **Viri / Upravljanje / Kategorije opomnikov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -30,7 +30,7 @@ Aktivne kategorije so označene z modro ikono stanja, neaktivne pa s sivo ikono.
 
 Za ustvarjanje nove kategorije opomnika:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 2. Vnesite ustrezen **Naziv** kategorije opomnika.
 3. Preverite, ali je **Stanje** omogočeno, če naj bo kategorija na voljo.
 4. Kliknite **Dodaj** za shranjevanje.

@@ -7,7 +7,7 @@
 
 Nastavitve **glavne knjige**, ki vplivajo na številčenje dokumentov. Spremembe se shranjujejo samodejno.
 
-Do te strani dostopate preko **Računovodstvo / Glavna knjiga / Upravljanje / Konfiguracija** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
+Do te strani dostopate preko **Računovodstvo / Glavna knjiga / Upravljanje / Konfiguracija** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
 ![Konfiguracija glavne knjige](../../Images/LedgerConfigurationSL.png)
 

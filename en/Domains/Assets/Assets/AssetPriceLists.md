@@ -7,7 +7,7 @@
 
 **Asset price lists** define how much a specific customer (or other business entity) pays for your [assets](Assets.md).  They allow you to set **customer-specific pricing**, valid for a defined date range, and optionally include **volume-based discounts** (price ranges).
 
-To access this screen, go to **Assets / Asset price lists** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Assets / Asset price lists** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -50,7 +50,7 @@ Exports the asset detail table—including ranges—to a **CSV** file.
 
 ## Actions
 
-Depending on which page you are, the [**action button**](../../../Common/UI/ActionButton.md) displays different actions:
+Depending on which page you are, the [action button](../../../Common/UI/ActionButton.md) displays different actions:
 
 On the **Asset price lists** page:
 - **New**
@@ -64,7 +64,7 @@ On the **Details** page:
 
 Follow these steps to create a functional price list:
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New**.
+1. Click the [action button](../../../Common/UI/ActionButton.md) and select **New**.
 2. Enter the fields as required: **Type**, **Entity**, **Name**, **Valid from**, **Valid to**.
 3. Click **Add** to save the price list header.
 4. Click the **Details** button to open the pricing page.

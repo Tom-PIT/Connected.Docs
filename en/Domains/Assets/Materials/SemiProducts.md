@@ -18,7 +18,7 @@ Each semi product includes key information—like  [measure units](../../../Comm
 > - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
 > - [**Tax rates**](../../../Common/Management/TaxRates.md)
 
-To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -104,7 +104,7 @@ Click on the [action button](../../../Common/UI/ActionButton.md) to display the 
 
 ### Add a new semi product
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New** to open the input form for creating a new semi product.
+Click the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for creating a new semi product.
 
 The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
@@ -137,13 +137,13 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 
 ### Import semi products
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) and select **Import** to import multiple semi products at once by preparing and uploading a correctly structured spreadsheet.  
+Click the [action button](../../../Common/UI/ActionButton.md) and select **Import** to import multiple semi products at once by preparing and uploading a correctly structured spreadsheet.  
 
 See the [**Import materials**](ImportMaterials.md) documentation for full details.
 
 ### Copy existing semi products
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) and select **Copy existing semi product** to create a new semi product based on an existing one. A selection list appears with the available base semi products.
+Click the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing semi product** to create a new semi product based on an existing one. A selection list appears with the available base semi products.
 
 ![Copy semi product](../Images/CopySemiproduct.png "Copy semi product")
 

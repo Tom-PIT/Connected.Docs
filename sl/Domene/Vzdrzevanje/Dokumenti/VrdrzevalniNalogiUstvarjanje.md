@@ -5,7 +5,7 @@
 
 ## Kako dodati nov vzdrževalni nalog
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vzdrževalni nalog.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vzdrževalni nalog.
 
 Čarovnik za ustvarjanje je sestavljen iz **treh korakov**, podobno kot pri proizvodnih nalogih.
 

@@ -11,7 +11,7 @@ Plačilni nalogi predstavljajo namero za plačilo in omogočajo sledenje plačil
 **Plačilni nalogi** vključujejo podatke o plačniku, prejemniku, znesku in namenu plačila.  
 Zagotavljajo, da so plačila pravilno dokumentirana in sledljiva znotraj računovodskega sistema.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
+Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi** v [navigaciji](../../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
 
 > [!NOTE]
 > - Plačilni nalogi se praviloma ustvarijo na podlagi **prejetih računov**.
@@ -95,7 +95,7 @@ Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
 
 ### Ustvariti plačilni nalog
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega plačilnega naloga.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega plačilnega naloga.
 2. Vnesite zahtevane podatke dokumenta, plačnika in prejemnika.
 3. Kliknite **Objavi**, da se plačilni nalog premakne iz *Osnutka* v *Neplačani*.
 

@@ -41,7 +41,7 @@ Zaporedje lahko spreminjate z urejanjem vrednosti **Vrstni red**.
 
 ## Dodati nove kakovosti
 
-1. Kliknite **akcijski gumb** in izberite **Dodaj kvaliteto**.
+1. Kliknite akcijski gumb in izberite **Dodaj kvaliteto**.
 
    ![Nova kakovost](../Images/QualityNew.png "Nov zapis kakovosti")
 

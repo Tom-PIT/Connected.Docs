@@ -8,7 +8,7 @@
 The **Organization bank accounts** code list stores the IBAN accounts used by your company for issuing invoices, receiving payments, and other financial processes. This screen allows you to view, add, enable, or disable the IBAN accounts used by your organization.
  Each entry defines a bank, its IBAN number, and whether it is active or formatted using the IBAN mask.
 
-To access Organization bank accounts, go to **Sales / Management / Organization bank accounts** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Organization bank accounts, go to **Sales / Management / Organization bank accounts** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -38,9 +38,9 @@ Click on an IBAN number to edit an specific bank account.
 
 ## Actions
 
-Click the [Action Button](../../../Common/UI/ActionButton.md) to add a new bank account.
+### Add new organization bank account
 
-### Add new bank account
+Click the [Action Button](../../../Common/UI/ActionButton.md) to add a new bank account.
 
 Enter the required information:
 - **Bank**
@@ -60,11 +60,13 @@ The selected ledger account is used when posting payments, receipts, bank statem
 > [!NOTE]
 Correct ledger configuration is required for accurate cash management, reconciliation, and regulatory compliance.
 
-## Deletion
-  
-Click **Delete** on the edit screen to open a confirmation dialog: 
+### Edit an organization bank account
 
-**Are you sure you want to delete this record?**  
+Click the IBAN number of the account you want to edit. You can update any fields as needed.
+
+### Delete an organization bank account
+  
+Click the IBAN number of the account you want to delete, then click **Delete** on the edit screen.
 
 If confirmed, the record is permanently removed; otherwise, the system keeps it unchanged.
 

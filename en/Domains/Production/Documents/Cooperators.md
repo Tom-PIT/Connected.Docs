@@ -12,7 +12,7 @@ Cooperators are external companies (defined in the [**Business directory**](../.
 
 This screen provides a dedicated workflow for issuing materials to cooperators and receiving them back once the external operation is completed.
 
-To access this screen, go to **Production → Cooperators** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Production → Cooperators** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Cooperators overview](../Images/CooperatorsIssue.png)
 
@@ -64,7 +64,7 @@ Typical workflow:
 
 1. Select one or more operations from the list.
 2. Select a **Cooperator** in the left sidebar (taken from the [**Business directory**](../../../Common/Management/BusinessDirectory.md)).
-3. Click the [**action button**](../../../Common/UI/ActionButton.md).
+3. Click the [action button](../../../Common/UI/ActionButton.md).
 4. Choose one of the available actions:
    - **Create [Delivery note](../../Sales/Documents/DeliveryNotes.md)**
    - **Add to existing [Delivery note](../../Sales/Documents/DeliveryNotes.md)**
@@ -89,7 +89,7 @@ After the material has been issued, the operation appears in the **For receive**
 From here, the workflow is reversed:
 
 1. Select the operation.
-2. Click the [**action button**](../../../Common/UI/ActionButton.md).
+2. Click the [action button](../../../Common/UI/ActionButton.md).
 3. Create a new **[Supply order](../../Supply/Documents/SupplyOrders.md)** (to record the vendor service and return logistics). 
 4. Follow the standard flow:
    **[Supply order](../../Supply/Documents/SupplyOrders.md) → [Receive](../../Logistics/Documents/Receives.md)**

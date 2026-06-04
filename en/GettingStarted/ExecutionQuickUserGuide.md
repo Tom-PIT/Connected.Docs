@@ -58,7 +58,7 @@ Repeat whenever more items are completed.
 
 2. Complete each step. When you’re done, tap **Finish**.  
 3. If you need to do a checklist again:
-    1. Open the action menu via the [**action button**](../Common/UI/ActionButton.md).
+    1. Open the action menu via the [action button](../Common/UI/ActionButton.md).
     2. Enter the **[Quality](../Domains/Production/Documents/Quality.md)** section.
     3. Tap **Repeat** for the checklist you want to redo.
 
@@ -67,7 +67,7 @@ Repeat whenever more items are completed.
 
 ## 5. Record losses (if applicable)
 
-1. Go to the action menu by clicking the [**action button**](../Common/UI/ActionButton.md).
+1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
 2. Enter the **[Loss](../Domains/Production/Documents/Execution.md#loss)** section.  
 3. Enter the defective quantity.  
 4. Select the loss reason.  
@@ -77,7 +77,7 @@ Repeat whenever more items are completed.
 
 Use this when materials are used during the operation:
 
-1. Go to the action menu by clicking the [**action button**](../Common/UI/ActionButton.md).
+1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
 2. Enter the **[Consumed](../Domains/Production/Documents/Execution.md#consumed)** section.  
 3. Scan, type, or select the material.  
 4. Enter the quantity consumed.  
@@ -85,7 +85,7 @@ Use this when materials are used during the operation:
 
 ## 7. Record downtime (if applicable)
 
-1. Go to the action menu by clicking the [**action button**](../Common/UI/ActionButton.md).
+1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
 2. Enter the **[Downtime](../Domains/Production/Documents/Execution.md#downtime)** section.
 3. Click start and stop to record the interruption period.  
 4. Choose the reason for the interruption.  
@@ -96,7 +96,7 @@ Use this for any interruption, such as waiting for materials or machine issues.
 
 ## 8. Record effort (working time)
 
-1. Go to the action menu by clicking the [**action button**](../Common/UI/ActionButton.md).
+1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
 2. Enter the **[Effort](../Domains/Production/Documents/Execution.md#effort)** section if required by your workflow.
 
 ![Effort entry](Images/ExecutionEffortPage.png "Record effort")

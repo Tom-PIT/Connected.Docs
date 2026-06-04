@@ -7,7 +7,7 @@
 
 Zaslon **Konfiguracija nabave** omogoča nastavitev pravil, ki vplivajo na **številčenje dokumentov nabave**. Vse spremembe se **samodejno shranijo** ob spremembi vrednosti.
 
-Za dostop do **Konfiguracije nabave** pojdite na **Nabava / Šifranti / Konfiguracija nabave** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Konfiguracije nabave** pojdite na **Nabava / Šifranti / Konfiguracija nabave** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Konfiguracija nabave](../Images/SupplyConfiguration.png)
 

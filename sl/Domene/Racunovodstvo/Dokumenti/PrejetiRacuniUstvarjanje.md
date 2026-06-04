@@ -9,7 +9,7 @@
 
 ### Ustvariti prejeti račun
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega prejetega računa.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega prejetega računa.
 2. V **Povezavah dokumentov** povežite enega ali več nabavnih nalogov.
 3. Preglejte ali vnesite podatke glave dokumenta, vključno z **Zneskom**.
 4. Izberite ustrezen **Konto** in po potrebi **Predlogo**.

@@ -9,7 +9,7 @@ The **Fiscal invoices** view displays a list of **issued retail invoices** that 
 
 These invoices are typically used for **retail (B2C) sales** and are reported to the tax authority according to local fiscalization rules.
 
-To access this page, go to **Sales / Views / Fiscal invoices** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Views / Fiscal invoices** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Fiscal invoices list](../Images/FiscalInvoicesListV2.png "Fiscal invoices list")
 

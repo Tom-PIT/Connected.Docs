@@ -12,7 +12,7 @@ Account defaults are used whenever accounting entries are created **automaticall
 > [!NOTE]
 > Defaults are usually created during initial system configuration. Changes to account defaults affect future automated postings, not historical entries.
 
-To access this screen, go to **Accounting / Ledger / Management / Account defaults** in the [**navigation**](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Account defaults** in the [navigation](../../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -52,7 +52,7 @@ The list can be searched using the search field in the top-right corner.
 
 To add a new account default:
 
-1. Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry
+1. Click the [action button](../../../../Common/UI/ActionButton.md) to create a new entry
 2. Enter:
 
    * **Code**

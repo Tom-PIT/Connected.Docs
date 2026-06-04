@@ -7,7 +7,7 @@
 
 **Opomin** je prodajni dokument, ki se uporablja za obveščanje strank o **neplačanih izdanih računih** in za zahtevo po plačilu. Po potrebi lahko vključuje **strošek opomina** in **zamudne obresti**.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Opomini** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Opomini** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga opominov v prodajnem procesu
 
@@ -65,17 +65,11 @@ Filtri na levi strani omogočajo omejevanje seznama po:
 - **Statusu**
 - **Stranki**
 
-### Meni
-
-Zgornji meni omogoča:
-- tiskanje
-- izvoz (PDF)
-
 ## Dejanja
 
 ### Ustvariti nov opomin
 
-1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega opomina v statusu osnutka.
+1. Uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega opomina v statusu osnutka.
 
    ![Nov opomin](../Images/OverdueRemindersNew.png "Nov opomin")
 
@@ -111,3 +105,9 @@ Kliknite poljuben opomin v stanju **Osnutek** na seznamu, da ga odprete, nato kl
 Po potrditvi brisanja se opomin trajno odstrani iz sistema.
 
 Objavljenih opominov za zamudo **ni mogoče** izbrisati.
+
+### Meni
+
+Zgornji meni omogoča:
+- tiskanje
+- izvoz (PDF)

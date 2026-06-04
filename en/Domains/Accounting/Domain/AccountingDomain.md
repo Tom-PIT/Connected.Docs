@@ -9,7 +9,7 @@ The **Accounting** domain contains all records, reports, and configuration requi
 
 It transforms operational documents created in other domains (such as [**Sales**](../../Sales/Domain/SalesDomain.md), [**Supply**](../../Supply/Domain/SupplyDomain.md), and [**Logistics**](../../Logistics/Domain/LogisticsDomain.md)) into **official accounting entries**, ensuring compliance, traceability, and accurate financial reporting.
 
-To access this domain, navigate to **Accounting** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this domain, navigate to **Accounting** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Accounting Domain](../Images/AccountingDomainSitemap.png "Accounting Domain")
 

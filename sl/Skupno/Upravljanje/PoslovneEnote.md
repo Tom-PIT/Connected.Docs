@@ -33,7 +33,7 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 
 Za dodajanje nove poslovne enote: 
 
-1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
 3. Kliknite **Dodaj**, da shranite novo poslovno enoto.
 

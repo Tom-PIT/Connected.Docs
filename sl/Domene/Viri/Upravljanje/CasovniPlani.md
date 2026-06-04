@@ -7,7 +7,7 @@
 
 Časovni plani določajo vnaprej definirane kategorije delovnih aktivnosti, ki se uporabljajo pri beleženju časa in napora v celotnem sistemu.
 
-Za dostop do **Časovnih planov** pojdite na **Viri / Upravljanje / Časovni plani** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Časovnih planov** pojdite na **Viri / Upravljanje / Časovni plani** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 Ti vnosi se običajno uporabljajo za poenotenje načina kategorizacije dela pri beleženju časa, kar omogoča dosledno poročanje in analizo.
 
@@ -39,7 +39,7 @@ Z osrednjim definiranjem časovnih planov organizacije zagotovijo dosledno poime
 
 Za ustvarjanje novega časovnega plana:
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md).
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 2. Vnesite **Naziv**, ki jasno opisuje delovno aktivnost.
 3. Kliknite **Dodaj** za shranjevanje.
 

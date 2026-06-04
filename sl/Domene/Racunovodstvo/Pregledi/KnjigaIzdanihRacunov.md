@@ -9,7 +9,7 @@ Pogled **Knjiga izdanih računov** omogoča **filtriran pregled izdanih računov
 
 Gre za **analitični pogled samo za branje**, namenjen davčnemu pregledu in kontroli. Podatkov na tem zaslonu ni mogoče urejati.
 
-Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knjiga izdanih računov** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Knjiga izdanih računov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > Ta pogled prikazuje samo **izdane račune, ki ustvarijo davčne knjižbe**. Namenjen je davčnemu pregledu in poročanju ter ne nadomešča uradnega obračuna DDV.

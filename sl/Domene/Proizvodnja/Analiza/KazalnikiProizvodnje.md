@@ -16,7 +16,7 @@ Kazalniki omogočajo spremljanje:
 
 Izračuni KPI temeljijo na standardni [metodologiji OEE](https://www.oee.com/calculating-oee/).
 
-Do strani dostopate preko **Proizvodnja / Analiza / Kazalniki proizvodnje** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Do strani dostopate preko **Proizvodnja / Analiza / Kazalniki proizvodnje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Pregled kazalnikov proizvodnje](../Images/ProductionKPIsViewV2SL.png "Kazalniki proizvodnje")
 

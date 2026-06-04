@@ -8,7 +8,7 @@
 
 New [issued invoices](IssuedInvoices.md) can be created:
 
-- manually from the **Issued invoices** screen  using the [**action button**](../../../Common/UI/ActionButton.md)
+- manually from the **Issued invoices** screen  using the [action button](../../../Common/UI/ActionButton.md)
 - from related sales documents using **Linked documents → + Issued invoice**
 
 Supported source documents include:
@@ -24,7 +24,7 @@ When created from another document, the system automatically pre-fills most invo
 
 Create a new draft invoice using one of the following methods:
 
-- Click the [**action button**](../../../Common/UI/ActionButton.md) on the **Issued invoices** screen
+- Click the [action button](../../../Common/UI/ActionButton.md) on the **Issued invoices** screen
 - Use **Linked documents → + Issued invoice** from a related sales document (e.g., [sales order](SalesOrders.md), [delivery note](DeliveryNotes.md))
 
 A new draft issued invoice is created. If created directly from another document it will have most of its fields already pre-filled.

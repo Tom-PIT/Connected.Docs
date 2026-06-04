@@ -13,7 +13,7 @@ dostop do posameznih delov sistema (pravila po domenah/skladiščih so lahko dod
 Te nastavitve zagotavljajo, da ima vsak uporabnik ustrezna dovoljenja glede na svoje odgovornosti.
 
 Za dostop do strani **Uporabniki** pojdite na **Sistem / Uporabniki** v
-[**navigaciji**](../../../Skupno/UI/Navigacija.md).
+[navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -33,7 +33,7 @@ Za dostop do strani **Uporabniki** pojdite na **Sistem / Uporabniki** v
 ## Upravljanje
 
 Do šifranta **Uporabniki** dostopate prek **Sistem / Uporabniki** v
-[**navigaciji**](../../../Skupno/UI/Navigacija.md).
+[navigaciji](../../../Skupno/UI/Navigacija.md).
 
 Seznam prikazuje vse uporabnike v sistemu skupaj z njihovim statusom.
 
@@ -53,7 +53,7 @@ za urejanje njegovih podatkov.
 
 ### Dodati uporabnika
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novega uporabnika.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novega uporabnika.
 
 Obrazec vključuje osebne podatke, prijavne podatke, dodeljene vloge ter lokalizacijske nastavitve.
 

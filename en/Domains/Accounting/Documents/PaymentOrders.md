@@ -8,7 +8,7 @@ The **Payment orders** screen is used to create and manage outgoing payment inst
 
 **Payment orders** include details about the payer, recipient, amount, and payment purpose. They help ensure that payments are properly documented and tracked within the accounting system.
 
-To access this screen, go to **Accounting / Bank / Payment orders** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Bank / Payment orders** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]
 > * Payment orders are typically created after receiving supplier invoices.
@@ -92,7 +92,7 @@ Payment orders follow a simple lifecycle:
 ## Actions
 
 ### Create a payment order
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new payment order
+1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new payment order
 2. Enter the required document, payer, and recipient information
 3. Click **Publish** to move the payment order from *Draft* to *Unpaid*
 

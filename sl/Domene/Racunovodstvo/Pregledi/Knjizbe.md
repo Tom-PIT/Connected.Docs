@@ -9,7 +9,7 @@ Pogled **Knjižbe** omogoča **ploskovit, vrstični pregled vseh debetnih in kre
 
 Gre za **analitični pogled samo za branje**, namenjen pregledu in reviziji knjižb. Na tem zaslonu **ni mogoče urejati podatkov**.
 
-Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Knjižbe** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Knjižbe** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Knjižbe](../Images/PostingsView.png "Knjižbe")
 

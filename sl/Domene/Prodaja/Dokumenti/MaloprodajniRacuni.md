@@ -8,7 +8,7 @@
 **Maloprodajni račun** je prodajni dokument, namenjen neposredni prodaji končnim kupcem (npr. prodaja na blagajni ali v trgovini). Običajno se ustvari ob samem nakupu, brez predhodne ponudbe ali naročila stranke.  
 Maloprodajni računi omogočajo takojšnje ali kasnejše evidentiranje plačil, vendar **ne vplivajo na stanje zaloge**. Premiki zaloge se vedno izvajajo ločeno prek logističnih dokumentov.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajni računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajni računi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga maloprodajnih računov v prodajnem procesu
 
@@ -155,29 +155,13 @@ V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
     - **Dokument** – Izvozi celoten seznam računov na seznamu.
     - **Postavke** – Izvozi vse podrobnosti postavk za vse račune na seznamu.
 
-### Meni
-
-Meni objavljenega dokumenta omogoča:
-- **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek) 
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
-- **Vrni v osnutek**
-
-![Meni maloprodajnega računa](../Images/RetailInvoiceMenu.png "Meni maloprodajnega računa")
-
-> [!NOTE]
-> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.
-
-
 ## Dejanja
 
 ### Ustvariti novi maloprodajni račun
 
 Maloprodajne račune je mogoče ustvariti **samo ročno**.
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
 
    ![Nov maloprodajni račun](../Images/RetailIssuedInvoiceNew.png "Nov maloprodajni račun")
 
@@ -262,7 +246,7 @@ Možno je evidentirati več plačil. Sistem samodejno posodablja stanje dokument
 - **Delno plačani**
 - **V celoti plačani**
 
-## Izbrisati maloprodajni račun
+### Izbrisati maloprodajni račun
 
 Maloprodajni računi v stanju **Osnutek** se lahko izbrišejo le, če **ne vsebujejo postavk**.
 
@@ -272,3 +256,18 @@ Maloprodajni računi v stanju **Osnutek** se lahko izbrišejo le, če **ne vsebu
 3. Postopek ponovite za vse postavke.
 
 Objavljenih računov (ne glede na stanje plačila) **ni mogoče izbrisati**, mogoče pa jih je **stornirati** ali **vrniti v osnutek**, če je to dovoljeno s konfiguracijo.
+
+### Meni
+
+Meni objavljenega dokumenta omogoča:
+- **Tiskanje**
+- **Izvoz**
+- **Pošlji preko e-pošte**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek) 
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
+- **Vrni v osnutek**
+
+![Meni maloprodajnega računa](../Images/RetailInvoiceMenu.png "Meni maloprodajnega računa")
+
+> [!NOTE]
+> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.

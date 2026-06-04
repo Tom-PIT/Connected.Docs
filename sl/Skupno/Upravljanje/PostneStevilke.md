@@ -30,7 +30,7 @@ Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
+Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 - **Uvoz**
 - **Nov**
 
@@ -38,7 +38,7 @@ Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) za prikaz naslednjih dejanj:
 
 Za dodanjem posameznih poštnih številk lahko uporabite tudi funkcijo **Uvoz**, ki omogoča množični uvoz poštnih številk iz CSV datoteke. 
 
-1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Uvoz**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Uvoz**.
 2. Izberite CSV datoteko, ki vsebuje poštne številke.
 3. Kliknite **Uvozi**, da začnete postopek.
 
@@ -46,7 +46,7 @@ Za dodanjem posameznih poštnih številk lahko uporabite tudi funkcijo **Uvoz**,
 
 Za dodajanje nove poštne številke: 
 
-1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md) in izberite **Nov**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Nov**.
 2.Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
 3. Kliknite **Dodaj**, da shranite novo poštno številko.
 

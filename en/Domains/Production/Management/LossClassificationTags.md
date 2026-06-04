@@ -7,7 +7,7 @@
 
 Loss classification tags are used in production to categorize and record different types of production losses — such as defective materials, handling issues, or cosmetic defects. These tags help identify the causes of waste and support loss-analysis reporting.
 
-To access this page, go to **Production / Management / Loss classification tags** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Production / Management / Loss classification tags** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Loss classification tags](https://www.youtube.com/watch?v=pC8TELowUgA)** video tutorial.
@@ -26,7 +26,7 @@ The list displays all loss classification tags defined in the system. Use the **
 
 ## Create a new loss classification tag
 
-1. Click on the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
+1. Click on the [action button](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 2. Enter the **Name** of the loss category.
 
     ![Add loss classification tag](../Images/LossClassificationTagsNew.png "Add loss classification tag")

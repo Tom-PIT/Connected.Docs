@@ -1,6 +1,6 @@
 # Invoices index
 
-To access these screens, go to **Accounting / Invoices**  in the [**navigation**](../../../Common/UI/Navigation.md).
+To access these screens, go to **Accounting / Invoices**  in the [navigation](../../../Common/UI/Navigation.md).
 
 This section contains invoice-related documents available in the Accounting domain.
 

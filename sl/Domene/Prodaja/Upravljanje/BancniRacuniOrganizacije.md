@@ -8,7 +8,7 @@
 Šifrant **Bančni računi organizacije** hrani IBAN račune, ki jih vaše podjetje uporablja za izdajanje računov, prejemanje plačil in druge finančne procese. Ta zaslon omogoča pregled, dodajanje, omogočanje ali onemogočanje IBAN računov, ki jih uporablja organizacija.  
 Vsak zapis določa banko, IBAN številko ter ali je račun aktiven in ali se uporablja maska za vnos IBAN-a.
 
-Za dostop do tega zaslona pojdite na **Prodaja / Šifranti / Bančni računi organizacije** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Prodaja / Šifranti / Bančni računi organizacije** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]  
 > **Predpogoji**  
@@ -37,9 +37,9 @@ S klikom na IBAN številko odprete urejanje izbranega bančnega računa.
 
 ## Dejanja
 
-Za dodajanje novega bančnega računa kliknite [Akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
+### Ustvariti nov bančni račun organizacije
 
-### Dodaj nov bančni račun
+Za dodajanje novega bančnega računa kliknite [Akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 
 Vnesite zahtevane podatke:
 - **Banka**
@@ -59,15 +59,15 @@ Izbrani konto glavne knjige se uporablja pri knjiženju **plačil**, **prejemkov
 > [!NOTE]
 Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
-## Brisanje
-  
-Na zaslonu za urejanje kliknite **Izbriši**, da se odpre potrditveno okno:
+### Urejati bančni račun organizacije
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
+Kliknite številko IBAN računa, ki ga želite urediti. Po potrebi lahko posodobite katerokoli polje.
 
-Ob potrditvi se zapis trajno izbriše, v nasprotnem primeru ostane nespremenjen.
+### Izbrisati bančni račun organizacije
 
-> [!NOTE]  
-> Bančni račun je mogoče izbrisati le, če ni uporabljen ali referenciran v drugih delih sistema.
+Kliknite številko IBAN računa, ki ga želite izbrisati, nato na zaslonu za urejanje kliknite **Izbriši**.
 
----
+Po potrditvi se zapis trajno odstrani. Če brisanja ne potrdite, ostane zapis nespremenjen.
+
+> [!NOTE]
+> Bančni račun je mogoče izbrisati samo, če ni uporabljen v drugih entitetah sistema.

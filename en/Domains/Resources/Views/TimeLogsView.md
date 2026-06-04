@@ -7,7 +7,7 @@
 
 The **Time log – View** screen provides a detailed overview of recorded working time for a specific worker and period. It is used to review daily attendance, inspect individual time entries, and manually add or correct time logs when needed.
 
-To access the **Time log** view, go to **Resources / Time logs / View** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access the **Time log** view, go to **Resources / Time logs / View** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Time log view](../Images/TimeLogsView.png "Time log view")
 
@@ -88,7 +88,7 @@ This allows precise selection of both the date and the exact time for a time log
 
 ## Add a new time log
 
-Using the **action button** (bottom-right), approved users can manually add a new time entry.
+Using the action button (bottom-right), approved users can manually add a new time entry.
 
 This is typically used when:
 

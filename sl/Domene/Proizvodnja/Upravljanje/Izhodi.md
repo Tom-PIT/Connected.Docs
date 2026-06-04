@@ -42,7 +42,7 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 ## Dodati nov izhod
 
-1. Kliknite **akcijski gumb** v spodnjem desnem kotu in izberite eno izmed možnosti:
+1. Kliknite akcijski gumb v spodnjem desnem kotu in izberite eno izmed možnosti:
 
     ![Akcijski gumb izhodov](../Images/OutputsActionButton.png "Akcijski gumb izhodov")
 

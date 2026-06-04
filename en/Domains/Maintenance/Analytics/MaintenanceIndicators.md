@@ -7,7 +7,7 @@
 
 The **Maintenance indicators** screen provides an analytical overview of maintenance performance. It aggregates data from **completed [maintenance orders](../Documents/MaintenanceOrders.md)** and helps evaluate efficiency, responsiveness, and reliability of maintenance activities.
 
-To access this screen, go to **Maintenance / Analytics / Maintenance indicators** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Maintenance / Analytics / Maintenance indicators** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Maintenance Indicators](../Images/MaintenanceIndicators.png "Maintenance indicators overview")
 
@@ -36,7 +36,7 @@ The panel on the left allows refining the data shown on the screen.
 
 Available filters include:
 
-- **Completion date** – Time range used to calculate indicators
+- **Completion date** â€“ Time range used to calculate indicators
 - **Order type**
   - **Planned**
   - **Curative**
@@ -77,7 +77,7 @@ Shows the average time between failures.
 
 MTBF is commonly used to evaluate equipment reliability.
 
-![Maintenance Indicators – Time metrics](../Images/MaintenanceIndicatorsCardsExtra.png "Maintenance time-based indicators")
+![Maintenance Indicators â€“ Time metrics](../Images/MaintenanceIndicatorsCardsExtra.png "Maintenance time-based indicators")
 
 ### Mean time to detection
 

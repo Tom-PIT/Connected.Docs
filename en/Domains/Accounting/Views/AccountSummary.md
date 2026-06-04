@@ -12,7 +12,7 @@ The **Account summary** view provides an aggregated overview of **initial state,
 > - Debit and credit columns are always shown separately to reflect double-entry accounting.
 > - This view is typically used for **period-end checks**, **trial balance validation**, and **high-level financial analysis** before drilling down into detailed movements (for example, via the [**Account card**](AccountCard.md) view).
 
-To access this view, go to **Accounting / Ledger / Views / Account summary** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this view, go to **Accounting / Ledger / Views / Account summary** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Account summary view](../Images/AccountSummary.png "Account summary view")
 

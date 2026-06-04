@@ -8,7 +8,7 @@
 
 Aktivnost **Navodila** prikazuje članke iz baze znanja, ki so povezani s trenutno operacijo (npr. koraki sestave, varnostna navodila, vizualni prikazi). Namenjena je hitremu pregledu navodil med delom.
 
-**Navodila** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire aktivnosti (tapnite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Navodila**).
+**Navodila** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire aktivnosti (tapnite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Navodila**).
 
 ## Ogledati navodila
 

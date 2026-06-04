@@ -5,7 +5,7 @@
 
 # Action button
 
-The **Action button** appears as a round blue **+** icon in the bottom-right corner of list pages.  
+The action button appears as a round blue **+** icon in the bottom-right corner of list pages.  
 Its primary purpose is to create new records within the module you are viewing.
 
 ![Action button](../Images/ActionButton.png "Action button")

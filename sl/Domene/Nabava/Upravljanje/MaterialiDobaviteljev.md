@@ -9,7 +9,7 @@
 
 Ta šifrant zagotavlja, da procesi nabave pravilno prepoznajo, **kateri materiali so na voljo pri posameznem dobavitelju** in **pod kakšnimi pogoji**.
 
-Za dostop do **Materialov dobaviteljev** pojdite na **Nabava / Šifranti / Materiali dobaviteljev** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Materialov dobaviteljev** pojdite na **Nabava / Šifranti / Materiali dobaviteljev** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -54,7 +54,7 @@ Filtri omogočajo zoženje rezultatov glede na dobavitelja in kategorijo materia
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
 
 - **Novo**  
 - **Uvoz**

@@ -9,7 +9,7 @@ The **Company cards** view provides a detailed overview of all **debit and credi
 
 This view is intended for **financial monitoring and reconciliation** and does not allow creating or editing documents.
 
-This view is available via **Sales / Views / Company cards** or **Accounting / Ledger / Views / Company cards** in the [**navigation**](../../../Common/UI/Navigation.md).
+This view is available via **Sales / Views / Company cards** or **Accounting / Ledger / Views / Company cards** in the [navigation](../../../Common/UI/Navigation.md).
 
 The screen is also accessible from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) page, by clicking on the **Company cards** tag of a specific company entry. In that case, the list will be pre-filtered to show only records related to the selected company.
 

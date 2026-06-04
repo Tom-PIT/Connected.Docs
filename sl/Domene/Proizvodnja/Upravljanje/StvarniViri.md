@@ -40,7 +40,7 @@ Za filtriranje po imenu vira uporabite iskalno polje **Iskanje**.
 
 ## Ustvariti nov stvarni vir
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov** (ali možnost kopiranja, če je na voljo).
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov** (ali možnost kopiranja, če je na voljo).
 2. Izpolnite polja:
 
    ![Dodaj stvarni vir](../Images/NonHumanResourcesNew.png "Dodaj stvarni vir")

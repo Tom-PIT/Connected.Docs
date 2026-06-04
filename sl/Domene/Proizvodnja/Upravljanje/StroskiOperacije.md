@@ -28,7 +28,7 @@ Seznam prikazuje vse stroške, povezane z izbrano operacijo. Vsaka vrstica prika
 
 ## Dodati nov strošek   
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 2. Izpolnite obvezna polja.
 
     ![Dodaj strošek](../Images/OperationExpensesNew.png "Dodaj strošek")

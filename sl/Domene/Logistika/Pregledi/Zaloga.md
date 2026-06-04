@@ -12,7 +12,7 @@ Na voljo so **[Pogled zaloge po materialu](#pogled-zaloge-po-materialu)**, **[Po
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pregled zaloge](https://www.youtube.com/watch?v=gjAKnavIWnY)**.
 
-Za dostop do **Zaloge** pojdite na **Logistika / Zaloga** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Zaloge** pojdite na **Logistika / Zaloga** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Filtri in navigacija
 

@@ -7,7 +7,7 @@
 
 Tipi bolniških odsotnosti določajo **razloge za bolniško odsotnost**, ki jih lahko zaposleni izberejo pri ustvarjanju vnosa bolniške odsotnosti. Omogočajo standardizirano poročanje o bolniških odsotnostih in zagotavljajo dosledno kategorizacijo v časovnih evidencah, spremljanju prisotnosti in upravljanju odsotnosti.
 
-Za dostop do **Tipov bolniških odsotnosti** pojdite na **Viri / Upravljanje / Tipi bolniških odsotnosti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Tipov bolniških odsotnosti** pojdite na **Viri / Upravljanje / Tipi bolniških odsotnosti** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -21,7 +21,7 @@ Seznam prikazuje vse definirane tipe bolniških odsotnosti.
 
 - Vsaka vrstica predstavlja en razlog za bolniško odsotnost  
 - Klik na vrstico odpre pogled za urejanje  
-- **Akcijski gumb** omogoča ustvarjanje novega tipa bolniške odsotnosti  
+- akcijski gumb omogoča ustvarjanje novega tipa bolniške odsotnosti  
 
 ![Seznam tipov bolniških odsotnosti](../Images/SickLeaveTypesList.png "Seznam tipov bolniških odsotnosti")
 
@@ -31,7 +31,7 @@ Ta seznam običajno vzdržujejo administratorji ali kadrovski skrbniki.
 
 ### Ustvariti nov tip bolniške odsotnosti
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
 2. Vnesite **Naziv** in nastavite **Status** (omogočeno ali onemogočeno) za tip bolniške odsotnosti.
 3. Kliknite **Shrani**, da bo tip na voljo v celotnem sistemu.
 

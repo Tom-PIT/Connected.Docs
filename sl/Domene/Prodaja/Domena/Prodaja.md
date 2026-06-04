@@ -9,7 +9,7 @@ Področje **Prodaja** vsebuje vse zapise in dokumente, potrebne za upravljanje k
 
 Medtem ko področje **[Sredstva](../../Sredstva/Domena/DomenaSredstve.md)** določa, *kaj* se prodaja, področje Prodaja določa, *kako* se izdelki ali storitve ponudijo, potrdijo, dobavijo in zaračunajo.
 
-Za dostop do tega področja pojdite na **Prodaja** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega področja pojdite na **Prodaja** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Področje Prodaja](../Images/SalesDomainSitemapSL.png "Področje Prodaja")
 

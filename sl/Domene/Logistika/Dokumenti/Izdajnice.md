@@ -15,7 +15,7 @@ Med postopkom izdaje poiščete ali skenirate postavke, ki jih želite izdati, p
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Izdajnice](https://www.youtube.com/watch?v=SrVyblBiLmQ)**.
 
-Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -69,7 +69,7 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ### Ustvariti izdajnice
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje osnutka dokumenta, nato izberite **Skladišče** in **Kupca**.
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje osnutka dokumenta, nato izberite **Skladišče** in **Kupca**.
 
    ![Nova izdajna](../Images/IssueNew.png "Nova izdajna")
 

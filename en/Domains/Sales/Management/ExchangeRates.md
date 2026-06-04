@@ -17,7 +17,7 @@ Each exchange rate is defined **from one currency to another** (Base → Target)
 > [!IMPORTANT]
 > [**Currencies**](../../../Common/Management/Currencies.md) must be defined before creating exchange rates.
 
-To access this page, go to **Sales / Management / Exchange rates** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Management / Exchange rates** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -49,9 +49,9 @@ Each row shows:
 
 ## Actions
 
-### Creating a new exchange rate
+### Create a new exchange rate
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) button in the bottom-right corner of the screen to create a new record.
+1. Click the [action button](../../../Common/UI/ActionButton.md) button in the bottom-right corner of the screen to create a new record.
 
    ![New exchange rate](../Images/ExchangeRatesNew.png "Create a new exchange rate")
  
@@ -65,3 +65,13 @@ Each row shows:
 > - Exchange rates are applied automatically by the system where currency conversion is required.
 > - Rates are date-sensitive; ensure the correct date is selected to match the transaction date.
 > - Only base-to-target conversions are supported; reverse rates must be defined explicitly if needed.
+
+### Edit an exchange rate
+
+Click on an exchange rate on the list to open its details. You can update the **Date** and **Rate** fields. The **From currency** and **To currency** fields are not editable after creation to maintain data integrity.
+
+Click **Save** to apply changes or **Cancel** to discard.
+
+### Delete an exchange rate
+
+Click on an exchange rate to open its details, then click the **Delete** button. Confirm the deletion to remove the exchange rate from the system.

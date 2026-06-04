@@ -7,7 +7,7 @@
 
 The **Delivery note reports** view provides a consolidated overview of delivered items, grouped by customer. It is designed for analysis and reporting purposes and does **not** create or modify documents.
 
-To access this page, go to **Sales / Views / Delivery note reports** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, go to **Sales / Views / Delivery note reports** in the [navigation](../../../Common/UI/Navigation.md).
 
 ### Purpose of this view
 

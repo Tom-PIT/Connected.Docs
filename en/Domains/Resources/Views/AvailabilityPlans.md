@@ -7,7 +7,7 @@
 
 Availability plans provide a calendar-based overview of when resources are available or unavailable for work. They are typically used to record planned absences, training, or other non-working periods that affect resource availability.
 
-To access this view, go to **Resources / Views / Availability plans** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this view, go to **Resources / Views / Availability plans** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -31,7 +31,7 @@ Each entry represents a planned availability or unavailability period for a reso
 
 ## Actions
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new availability plan.
+Click the [action button](../../../Common/UI/ActionButton.md) to create a new availability plan.
 
 When creating or editing a plan, the fields described in the [**Schema**](#schema) section above are available.
 

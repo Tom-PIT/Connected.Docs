@@ -14,7 +14,7 @@ Na primer: **sredstvo** je lahko *Komplet prenosnega računalnika*, prodan kot p
 
 Ta domena združuje vse elemente, potrebne za definiranje, cenitev, organizacijo in operativno upravljanje kataloga v prodaji in logistiki.
 
-Za dostop do domene Sredstva pojdite na **Sredstva** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do domene Sredstva pojdite na **Sredstva** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Domena Sredstva](../Images/AssetsSitemap.png)
 

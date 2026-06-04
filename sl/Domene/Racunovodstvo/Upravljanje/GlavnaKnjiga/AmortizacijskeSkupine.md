@@ -9,7 +9,7 @@ Zaslon **Amortizacijske skupine** določa, kako se osnovna sredstva amortizirajo
 
 Amortizacijske skupine se uporabljajo pri osnovnih sredstvih in jih sistem uporablja pri izračunu in knjiženju amortizacije.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Amortizacijske skupine** v [**navigaciji**](../../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Amortizacijske skupine** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > **Predpogoji**
@@ -57,7 +57,7 @@ Klik na amortizacijsko skupino odpre zapis v načinu urejanja.
 
 Za ustvarjanje nove amortizacijske skupine:
 
-1. Kliknite [**akcijski gumb**](../../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega zapisa
+1. Kliknite [akcijski gumb](../../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega zapisa
 2. Vnesite:
    - **Šifro**
    - **Ime**

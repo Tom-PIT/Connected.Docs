@@ -18,7 +18,7 @@ This code list serves as the register of all raw materials within the materials 
 > - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
 > - [**Tax rates**](../../../Common/Management/TaxRates.md)
 
-To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -96,7 +96,7 @@ available in the upper-right corner.
 
 ## Actions
 
-Click on the [**action button**](../../../Common/UI/ActionButton.md) to display the following actions:
+Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
 
 -   [**Import**](#import-raw-materials)
 -   [**Copy existing**](#copy-an-exisisting-raw-material)
@@ -104,7 +104,7 @@ Click on the [**action button**](../../../Common/UI/ActionButton.md) to display 
 
 ## Add a new raw material
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) and select **New** to open the input form for adding a new semi product.  
+Click the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for adding a new semi product.  
 The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
 
 ![New Raw Material](../Images/NewRawMaterial.png "New Raw Material")

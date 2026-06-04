@@ -5,7 +5,7 @@
 
 # Kako ustvariti proizvodni nalog
 
-Za ustvarjanje novega proizvodnega naloga, kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) v zaslonu [**Proizvodni nalogi**](ProizvodniNalogi.md) in sledite vodenemu tristopenjskemu čarovniku:
+Za ustvarjanje novega proizvodnega naloga, kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v zaslonu [**Proizvodni nalogi**](ProizvodniNalogi.md) in sledite vodenemu tristopenjskemu čarovniku:
 
 ## Koraki konfiguracije
 

@@ -7,7 +7,7 @@
 
 The **Place of delivery** code list is used for Intrastat and accounting reporting to classify where the delivery of goods takes place. Each code represents a standardized delivery location category required for regulatory and statistical purposes.
 
-To access this screen, go to **Accounting / Management / Intrastat / Place of delivery** in the [**navigation**](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Management / Intrastat / Place of delivery** in the [navigation](../../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -38,7 +38,7 @@ Example values include:
 ### Add a place of delivery
 
 To create a new place-of-delivery entry:
-1. Click the [**action button**](../../../../Common/UI/ActionButton.md)
+1. Click the [action button](../../../../Common/UI/ActionButton.md)
 2. Enter:
    - **Code**
    - **Description**

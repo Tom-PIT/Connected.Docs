@@ -7,7 +7,7 @@
 
 Seznam **Skladiščne lokacije** povezuje [organizacijske enote](OrganizacijskeEnote.md) s fizičnimi skladiščnimi lokacijami, da lahko proizvodni procesi pridobivajo material in shranjujejo proizvedene izdelke. Na tem zaslonu upravljate, katere lokacije lahko Proizvodnja uporablja za vhod in izhod ter uveljavljate pravila povezav med organizacijskimi enotami in skladiščnimi lokacijami.
 
-Za dostop do dokumentov **Skladiščne lokacije** pojdite na **Proizvodnja / Upravljanje / Skladiščne lokacije** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do dokumentov **Skladiščne lokacije** pojdite na **Proizvodnja / Upravljanje / Skladiščne lokacije** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Warehouse locations](https://www.youtube.com/watch?v=qR3o0CpIGpo)**.
@@ -35,7 +35,7 @@ Kliknite ime **Organizacijske enote**, da odprete obrazec za urejanje zapisa.
 
 ## Dejanja
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da prikažete naslednja dejanja:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da prikažete naslednja dejanja:
 - **Uvoz**
 - **Novo**
 
@@ -43,13 +43,13 @@ Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md), da prikažete 
 
 ### Uvoziti skladiščne lokacije
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za množično ustvarjanje zapisov.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za množično ustvarjanje zapisov.
 
 ![Uvoz skladiščnih lokacij](../Images/WarehouseLocationsImport.png)
 
 ### Ustvariti novo skladiščno lokacijo
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**.
 
 Izpolnite polja na obrazcu:
 

@@ -6,7 +6,7 @@
 # Fixed assets
 Fixed assets are used to track long-term assets owned by the organization, such as machinery, equipment, furniture, and IT hardware. Each fixed asset represents a single asset or a group of identical assets that are capitalized and depreciated over time.
 
-To access this screen, go to **Accounting / Ledger / Fixed assets** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Fixed assets** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]
 > Fixed assets are closely linked to [**depreciation groups**](../Management/Ledger/DepreciationGroups.md) and [**ledger accounts**](../Management/Ledger/ChartOfAccounts.md). Posting behavior and depreciation calculations depend on the configuration of depreciation groups and ledger settings.
@@ -73,7 +73,7 @@ The current state of each asset reflects its lifecycle stage.
 ## Actions
 
 ### Create a fixed asset
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new fixed asset.
+1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new fixed asset.
 2. Fill in the required **Document** fields.
 3. Assign a **Depreciation group** and verify the related accounts.
 4. Click **Publish**.

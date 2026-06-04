@@ -10,7 +10,7 @@ The **Projects** area provides an overview of ongoing and completed projects and
 Projects are created and configured in **[Project management](../Management/ProjectsManagement.md)**.  
 This section focuses on **working with existing projects**: monitoring status, viewing tasks, and collaborating during execution.
 
-To access projects, go to **Projects / Projects** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access projects, go to **Projects / Projects** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Project lifecycle
 
@@ -96,7 +96,7 @@ Detailed task execution, effort logging, and status handling are also covered in
 
 Tasks are created **from inside a project**.
 
-Click the [**action button**](../../../Common/UI/ActionButton.md) in the project view to open the **Add task** form.
+Click the [action button](../../../Common/UI/ActionButton.md) in the project view to open the **Add task** form.
 
 ![Add Project Task](../Images/ProjectsNewTask.png "Add project task")
 

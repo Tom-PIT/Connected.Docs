@@ -5,7 +5,7 @@
 
 # Akcijski gumb
 
-**Akcijski gumb** se prikaže kot okrogla modra ikona **+** v spodnjem desnem kotu seznamskih strani.  
+akcijski gumb se prikaže kot okrogla modra ikona **+** v spodnjem desnem kotu seznamskih strani.  
 Njegov glavni namen je ustvarjanje novih zapisov znotraj modula, ki ga trenutno uporabljate.
 
 ![Akcijski gumb](../Images/ActionButton.png "Akcijski gumb")

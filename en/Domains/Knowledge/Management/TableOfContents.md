@@ -9,7 +9,7 @@ The **Table of contents** defines the **navigation structure** inside a director
 
 A directory can contain **one or more** tables of contents. Each table of contents is displayed as a tree and can include folders, article links, and URLs.
 
-To manage the table of contents, go to **Knowledge / Management / Directories** in the [**navigation**](../../../Common/UI/Navigation.md) and click **Table of contents** under the desired directory. See [Directories](Directories.md).
+To manage the table of contents, go to **Knowledge / Management / Directories** in the [navigation](../../../Common/UI/Navigation.md) and click **Table of contents** under the desired directory. See [Directories](Directories.md).
 
 ![TableOfContentsList](../Images/TableOfContentsList.png)
 

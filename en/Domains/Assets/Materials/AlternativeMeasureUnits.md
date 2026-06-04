@@ -48,7 +48,7 @@ The list shows:
 ### Add a new alternative measure unit
 
 1. Select a **Material type** and **Entity**.
-2. Click the [**action button**](../../../Common/UI/ActionButton.md).
+2. Click the [action button](../../../Common/UI/ActionButton.md).
 3. Choose the alternative **Measure unit**.
 4. Enter the **Denominator** and **Numerator**.
 5. Click **Save**.

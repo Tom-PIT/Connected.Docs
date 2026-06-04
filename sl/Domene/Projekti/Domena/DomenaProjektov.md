@@ -10,7 +10,7 @@ Zagotavlja orodja za organizacijo projektov, upravljanje opravil, spremljanje na
 
 Domena Projekti se običajno uporablja za **interne pobude**, **medoddelčne aktivnosti** ali **neprodukcijsko delo**, ki zahteva usklajevanje, sledenje opravilom in preglednost skozi čas.
 
-Za dostop do te domene pojdite na **Projekti** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te domene pojdite na **Projekti** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Domena Projekti](../Images/ProjectsDomainSitemapSL.png "Domena Projekti")
 

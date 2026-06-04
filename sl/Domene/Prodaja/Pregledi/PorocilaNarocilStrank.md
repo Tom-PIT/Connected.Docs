@@ -7,7 +7,7 @@
 
 Pogled **Poročila naročil strank** nudi konsolidiran pregled **naročenih postavk**, združenih po **strankah**. Namenjen je analizi in poročanju ter **ne omogoča** ustvarjanja, urejanja ali spreminjanja dokumentov.
 
-Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Poročila naročil strank** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Poročila naročil strank** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Namen pregleda
 

@@ -7,7 +7,7 @@
 
 Job titles are part of the **Customer Support** module and define the roles that can be assigned to [contacts](../../Common/Management/Contacts.md) in the [**Business directory**](../../Common/Management/BusinessDirectory.md). They help categorize people such as *Account Manager*, *Procurement Manager*, or *Director*.
 
-To access this page, go to **Customer Support / Management / Job titles** in the [**navigation**](../../Common/UI/Navigation.md).
+To access this page, go to **Customer Support / Management / Job titles** in the [navigation](../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -30,7 +30,7 @@ Use the **Enabled / Disabled** filters on the left to show active or inactive ti
 
 To create a new job title, follow these steps:
 
-1. Click on the [**action button**](../../Common/UI/ActionButton.md) to add a new job title.
+1. Click on the [action button](../../Common/UI/ActionButton.md) to add a new job title.
 2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to save the new job title.
 

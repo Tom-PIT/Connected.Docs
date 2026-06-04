@@ -8,7 +8,7 @@
 A **Sales order** represents the customer’s confirmed intention to purchase goods or services. It is typically created from an approved **Offer**, but it can also be created independently.  
 Sales orders define *what* the customer will receive, *when*, and *under which conditions*, and they serve as the basis for delivery, production, procurement, and invoicing workflows.
 
-To access this page, navigate to **Sales / Documents / Sales orders** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, navigate to **Sales / Documents / Sales orders** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## How sales orders fit into the sales workflow
 
@@ -129,7 +129,7 @@ Filters include:
 
 ### Create a sales order
 
-To create a new sales order, click the [**action button**](../../../Common/UI/ActionButton.md). 
+To create a new sales order, click the [action button](../../../Common/UI/ActionButton.md). 
 
 See the [**How to create a sales order**](SalesOrdersCreate.md) guide for a step-by-step walkthrough of the creation process.
 
@@ -208,9 +208,9 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Only **draft** sales orders can be deleted. Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
 
-### Document menu
+### Menu
 
-Click the context menu to:
+The document menu provides additional actions:
 
 ![Sales orders – menu](../Images/SalesOrderMenu.png)
 

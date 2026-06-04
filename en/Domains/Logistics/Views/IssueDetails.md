@@ -7,7 +7,7 @@
 
 The **Issue details** view provides an analytical overview of all **materials and finished products issued from stock** within a selected time period. Instead of focusing on issue documents themselves, this view aggregates **issued items** and shows exactly **which [issue documents](../Documents/Issues.md)** were used and **from which warehouse locations** the items were issued.
 
-To access this view, go to **Logistics / Views / Issue details** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this view, go to **Logistics / Views / Issue details** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![IssueDetailsList](../Images/IssueDetailsListV2.png)
 

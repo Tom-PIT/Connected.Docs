@@ -7,7 +7,7 @@
 
 Šifrant **Način plačila** določa načine, s katerimi lahko stranke poravnajo plačilo za blago ali storitve – na primer kreditne kartice, spletna plačila ali druge podprte načine. Vsak način vključuje **šifro**, **naziv**, neobvezne **oznake** in naloženo **ikono**, ki predstavlja ponudnika plačila. Ti zapisi se uporabljajo povsod v sistemu, kjer je potrebno izbrati način plačila.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Način plačila** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Način plačila** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -30,27 +30,23 @@ Za hitro filtriranje načinov plačila po kodi ali nazivu lahko uporabite iskaln
 
 ## Dejanja
 
-### Dodaj nov način plačila
+### Ustvariti nov način plačila
 
-Kliknite **akcijski gumb**, da odprete obrazec za ustvarjanje. Vnesete lahko osnovne podatke ter naložite logotip ali ikono ponudnika plačila.
+Kliknite akcijski gumb, da odprete obrazec za ustvarjanje. Vnesete lahko osnovne podatke ter naložite logotip ali ikono ponudnika plačila.
 
 ![Dodaj način plačila](../Images/PaymentMethodsNew.png "Dodajanje načina plačila")
 
-### Urejanje načina plačila
+### Urediti način plačila
 
 S klikom na posamezen način plačila v seznamu se odpre zaslon za urejanje.
 
 Tam lahko spremenite šifro, naziv, oznake ali zamenjate naloženo sliko.
 
-### Brisanje
+### Izbrisati način plačila
 
-Na zaslonu za urejanje kliknite **Izbriši**, da se odpre potrditveno okno:
+Kliknite številko načina plačila, ki ga želite izbrisati, nato na zaslonu za urejanje kliknite **Izbriši**.
 
-**Ali ste prepričani, da želite izbrisati ta zapis?**
-
-Ob potrditvi se zapis trajno izbriše, v nasprotnem primeru ostane nespremenjen.
+Po potrditvi se zapis trajno izbriše, v nasprotnem primeru ostane nespremenjen.
 
 > [!NOTE]  
 > Način plačila je mogoče izbrisati le, če ni uporabljen v odvisnih dokumentih ali nastavitvah.
-
----

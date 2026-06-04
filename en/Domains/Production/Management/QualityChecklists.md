@@ -43,7 +43,7 @@ You may reorder entries by adjusting their **Ordinal** value.
 
 ## Add a new quality entry
 
-1. Click the **action button** and choose **New**.
+1. Click the action button and choose **New**.
 
    ![Quality New](../Images/QualityNew.png "New quality record")
 

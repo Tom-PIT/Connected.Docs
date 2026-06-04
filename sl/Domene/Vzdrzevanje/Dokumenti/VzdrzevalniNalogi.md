@@ -1,82 +1,82 @@
 <!-- app_route: /maintenance-orders/list -->
-<!-- app_label: Vzdrževalni nalogi -->
+<!-- app_label: VzdrÅ¾evalni nalogi -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md -->
-<!-- canonical_source_title: Vzdrževalni nalogi -->
+<!-- canonical_source_title: VzdrÅ¾evalni nalogi -->
 
-# Vzdrževalni nalogi
+# VzdrÅ¾evalni nalogi
 
-Vzdrževalni nalogi določajo delo, ki je potrebno za izvajanje **planiranega ali kurativnega vzdrževanja** opreme, na podlagi izbranega **vzdrževalnega procesa** in njegove verzije.  
-Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vključujejo operacije, vire, vhode in kontrolne sezname kakovosti, kot so definirani v izbranem procesu.
+VzdrÅ¾evalni nalogi doloÄajo delo, ki je potrebno za izvajanje **planiranega ali kurativnega vzdrÅ¾evanja** opreme, na podlagi izbranega **vzdrÅ¾evalnega procesa** in njegove verzije.  
+Prehajajo skozi Å¾ivljenjski cikel **V obdelavi â†’ Aktiven â†’ Zaprt** ter vkljuÄujejo operacije, vire, vhode in kontrolne sezname kakovosti, kot so definirani v izbranem procesu.
 
 > [!NOTE]
 > **Predpogoji**
 >
-> Pred ustvarjanjem vzdrževalnega naloga se prepričajte, da so nastavljeni:
-> - Vsaj en [**vzdrževalni proces**](../../Proizvodnja/Upravljanje/Procesi.md) z aktivno verzijo
+> Pred ustvarjanjem vzdrÅ¾evalnega naloga se prepriÄajte, da so nastavljeni:
+> - Vsaj en [**vzdrÅ¾evalni proces**](../../Proizvodnja/Upravljanje/Procesi.md) z aktivno verzijo
 > - Definicije opreme
 > - Dodeljene [**organizacijske enote**](../../Proizvodnja/Upravljanje//OrganizacijskeEnote.md)
 > - Po potrebi dodatne nastavitve, kot so [**viri**](../../Proizvodnja/Upravljanje//Viri.md),
 >   [**kontrolni listi**](../..//Proizvodnja/Upravljanje/KontrolneListe.md) in
->   [**merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md), odvisno od poteka vzdrževanja
+>   [**merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md), odvisno od poteka vzdrÅ¾evanja
 
-Za dostop do vzdrževalnih nalogov pojdite na **Vzdrževanje / Vzdrževalni nalogi** v
-[**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do vzdrÅ¾evalnih nalogov pojdite na **VzdrÅ¾evanje / VzdrÅ¾evalni nalogi** v
+[navigaciji](../../../Skupno/UI/Navigacija.md).
 
-## Seznam vzdrževalnih nalogov
+## Seznam vzdrÅ¾evalnih nalogov
 
-Stran **Vzdrževalni nalogi** prikazuje vse vzdrževalne naloge, združene po statusu.  
-Za zoženje seznama uporabite filtre na levi strani.
+Stran **VzdrÅ¾evalni nalogi** prikazuje vse vzdrÅ¾evalne naloge, zdruÅ¾ene po statusu.  
+Za zoÅ¾enje seznama uporabite filtre na levi strani.
 
-![Maintenance Orders List](../Images/MaintenanceOrdersList.png "Seznam vzdrževalnih nalogov")
+![Maintenance Orders List](../Images/MaintenanceOrdersList.png "Seznam vzdrÅ¾evalnih nalogov")
 
 ### Pregled statusov
 
-Na vrhu strani so prikazane kartice s povzetkom števila nalogov:
+Na vrhu strani so prikazane kartice s povzetkom Å¡tevila nalogov:
 
-- **Moji** – Nalogi, dodeljeni trenutnemu uporabniku
-- **Nedodeljeni** – Nalogi brez dodeljenega vira
-- **Vsi** – Skupno število vzdrževalnih nalogov
+- **Moji** â€“ Nalogi, dodeljeni trenutnemu uporabniku
+- **Nedodeljeni** â€“ Nalogi brez dodeljenega vira
+- **Vsi** â€“ Skupno Å¡tevilo vzdrÅ¾evalnih nalogov
 
 Klik na kartico ustrezno posodobi seznam.
 
 ### Vizualni indikatorji v seznamu
 
-Vzdrževalni nalogi lahko vsebujejo vizualne indikatorje za hiter pregled stanja:
+VzdrÅ¾evalni nalogi lahko vsebujejo vizualne indikatorje za hiter pregled stanja:
 
-- **Rdeča pika** – Kurativni vzdrževalni nalog
-- **Oznaka zamude** – Označuje, da je nalog v zamudi
-- **Puščice prioritete**
-  - Rdeča puščica navzgor – Visoka prioriteta
-  - Brez puščice – Normalna prioriteta
-  - Modra puščica navzdol – Nizka prioriteta
+- **RdeÄa pika** â€“ Kurativni vzdrÅ¾evalni nalog
+- **Oznaka zamude** â€“ OznaÄuje, da je nalog v zamudi
+- **PuÅ¡Äice prioritete**
+  - RdeÄa puÅ¡Äica navzgor â€“ Visoka prioriteta
+  - Brez puÅ¡Äice â€“ Normalna prioriteta
+  - Modra puÅ¡Äica navzdol â€“ Nizka prioriteta
 
-![Maintenance Orders List Item](../Images/MaintenanceOrdersListItem.png "Indikatorji v seznamu vzdrževalnih nalogov")
+![Maintenance Orders List Item](../Images/MaintenanceOrdersListItem.png "Indikatorji v seznamu vzdrÅ¾evalnih nalogov")
 
-### Razpoložljivi filtri
+### RazpoloÅ¾ljivi filtri
 
-- **Planiran začetek** – Filtriranje nalogov po razponu planiranega začetka
-- **Pogled** – Filtriranje po statusu življenjskega cikla:
-  - **V obdelavi** — Ustvarjen in pripravljen za aktivacijo
-  - **Aktiven** — Trenutno v izvajanju
-  - **Zaprt** — Zaključen vzdrževalni nalog
+- **Planiran zaÄetek** â€“ Filtriranje nalogov po razponu planiranega zaÄetka
+- **Pogled** â€“ Filtriranje po statusu Å¾ivljenjskega cikla:
+  - **V obdelavi** â€” Ustvarjen in pripravljen za aktivacijo
+  - **Aktiven** â€” Trenutno v izvajanju
+  - **Zaprt** â€” ZakljuÄen vzdrÅ¾evalni nalog
 - **Tip naloga**
-  - **Preventiva** — Planirano preventivno vzdrževanje
-  - **Kurativa** — Korektivno vzdrževanje
+  - **Preventiva** â€” Planirano preventivno vzdrÅ¾evanje
+  - **Kurativa** â€” Korektivno vzdrÅ¾evanje
 - **Prioriteta**
 - **Organizacijska enota**
 - **Kategorije virov**
 
-Iskalno polje omogoča filtriranje po kodi vzdrževalnega naloga ali nazivu opreme.
+Iskalno polje omogoÄa filtriranje po kodi vzdrÅ¾evalnega naloga ali nazivu opreme.
 
-## Ustvarjanje vzdrževalnega naloga
+## Ustvarjanje vzdrÅ¾evalnega naloga
 
-Za ustvarjanje vzdrževalnega naloga uporabite [vodeni čarovnik](VrdrzevalniNalogiUstvarjanje.md).
+Za ustvarjanje vzdrÅ¾evalnega naloga uporabite [vodeni Äarovnik](VrdrzevalniNalogiUstvarjanje.md).
 
-## V obdelavi vzdrževalni nalogi
+## V obdelavi vzdrÅ¾evalni nalogi
 
-Novo ustvarjen vzdrževalni nalog se začne v stanju **V obdelavi**.
+Novo ustvarjen vzdrÅ¾evalni nalog se zaÄne v stanju **V obdelavi**.
 
-V tem stanju je nalog mogoče:
+V tem stanju je nalog mogoÄe:
 - pregledati
 - urejati (oprema, prioriteta, planirani datumi, proces in verzija)
 - izbrisati
@@ -89,56 +89,56 @@ Iz tega stanja lahko:
 
 Ko je nalog pripravljen za izvedbo, kliknite **Aktiviraj**.
 
-![Pending Maintenance Order](../Images/MaintenanceOrdersNewDraft.png "Vzdrževalni nalog v obdelavi")
+![Pending Maintenance Order](../Images/MaintenanceOrdersNewDraft.png "VzdrÅ¾evalni nalog v obdelavi")
 
-### Brisanje vzdrževalnih nalogov
+### Brisanje vzdrÅ¾evalnih nalogov
 
-Izbrisati je mogoče samo vzdrževalne naloge v stanju **V obdelavi**.
-Ko je nalog aktiviran, izbris ni več mogoč.
+Izbrisati je mogoÄe samo vzdrÅ¾evalne naloge v stanju **V obdelavi**.
+Ko je nalog aktiviran, izbris ni veÄ mogoÄ.
 
-## Aktivni vzdrževalni nalogi
+## Aktivni vzdrÅ¾evalni nalogi
 
-Po aktivaciji vzdrževalni nalog preide v stanje **Aktiven**.
+Po aktivaciji vzdrÅ¾evalni nalog preide v stanje **Aktiven**.
 
-![Active Maintenance Order](../Images/MaintenanceOrdersNewActive.png "Aktiven vzdrževalni nalog")
+![Active Maintenance Order](../Images/MaintenanceOrdersNewActive.png "Aktiven vzdrÅ¾evalni nalog")
 
 Nalog prikazuje:
 - opremo in prioriteto
-- planiran začetek in konec
+- planiran zaÄetek in konec
 - proces in verzijo
-- vse operacije, določene z izbranim procesom
+- vse operacije, doloÄene z izbranim procesom
 
 ### Izvajanje operacij
 
 Operacije se izvajajo v skladu z definicijo procesa.
 
-Na voljo sta dva načina izvajanja:
+Na voljo sta dva naÄina izvajanja:
 
-- **Hitro zaključevanje** – Kliknite **Zaključi** neposredno na vzdrževalnem nalogu
-- **Podrobno izvajanje (priporočeno)** – Kliknite operacijo, da odprete zaslon izvajanja
+- **Hitro zakljuÄevanje** â€“ Kliknite **ZakljuÄi** neposredno na vzdrÅ¾evalnem nalogu
+- **Podrobno izvajanje (priporoÄeno)** â€“ Kliknite operacijo, da odprete zaslon izvajanja
 
-   ![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Seznam operacij vzdrževalnega naloga")
+   ![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Seznam operacij vzdrÅ¾evalnega naloga")
 
 Klik na operacijo odpre **zaslon izvajanja operacije**, kjer lahko izvajalec:
 - pregleda [navodila](../../Znanje/BazaZnanja/BazaZnanja.md)
-- evidentira [vhode](../../Proizvodnja/Upravljanje/Vhodi.md) in [nečloveške vire](../../Proizvodnja/Upravljanje/StvarniViri.md)
+- evidentira [vhode](../../Proizvodnja/Upravljanje/Vhodi.md) in [neÄloveÅ¡ke vire](../../Proizvodnja/Upravljanje/StvarniViri.md)
 - izvede [kontrolne sezname](../../Proizvodnja/Upravljanje/KontrolneListe.md) kakovosti
-- beleži delo (začetek/konec, trajanje)
+- beleÅ¾i delo (zaÄetek/konec, trajanje)
 - vnese podatke o izvedbi
 
-![Maintenance Order Operation](../Images/MaintenanceOrdersOperationScreen.png "Izvajanje operacije vzdrževalnega naloga")
+![Maintenance Order Operation](../Images/MaintenanceOrdersOperationScreen.png "Izvajanje operacije vzdrÅ¾evalnega naloga")
 
-Ko je operacija zaključena, kliknite **Zaključi** v zgornjem levem kotu zaslona operacije.
+Ko je operacija zakljuÄena, kliknite **ZakljuÄi** v zgornjem levem kotu zaslona operacije.
 
-Zaključene operacije so označene z **zelenim indikatorjem**, kar omogoča jasen vizualni pregled.
+ZakljuÄene operacije so oznaÄene z **zelenim indikatorjem**, kar omogoÄa jasen vizualni pregled.
 
-## Zaprti vzdrževalni nalogi
+## Zaprti vzdrÅ¾evalni nalogi
 
-Ko so vse operacije zaključene, vzdrževalni nalog preide v stanje **Zaprt**.
+Ko so vse operacije zakljuÄene, vzdrÅ¾evalni nalog preide v stanje **Zaprt**.
 
-Zaprti vzdrževalni nalogi:
+Zaprti vzdrÅ¾evalni nalogi:
 - so samo za branje
 - vsebujejo celotno zgodovino izvedbe
-- služijo kot evidenca vzdrževanja za opremo
+- sluÅ¾ijo kot evidenca vzdrÅ¾evanja za opremo
 
 V seznamu so vidni pod pogledom **Zaprt**.

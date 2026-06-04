@@ -13,7 +13,7 @@ Minimum and maximum thresholds can be defined in the **[Stock boundaries](../Man
 > [!TIP]
 > For a full demonstration, see the **[Dashboard overview](https://www.youtube.com/watch?v=mEU18GmypkY)** video tutorial.
 
-To access the Dashboard, go to **Logistics / Dashboard** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access the Dashboard, go to **Logistics / Dashboard** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Dashboard](../Images/Dashboard.png "Dashboard")
 

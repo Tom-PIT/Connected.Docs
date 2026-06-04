@@ -17,7 +17,7 @@ Reversals can be **full** or **partial**, depending on the quantity you enter. R
 > [!TIP]
 > For a full demonstration, see the **[Reversal](https://www.youtube.com/watch?v=yfGNARBWm7Q)** video tutorial.
 
-To access Reversals, go to **Logistics / Documents / Reversals** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Reversals, go to **Logistics / Documents / Reversals** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 

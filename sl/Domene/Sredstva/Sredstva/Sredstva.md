@@ -14,7 +14,7 @@ Sredstva lahko predstavljajo:
 
 Sredstva **ne sodelujejo v premikih zalog**. Namesto tega določajo prodajne postavke z lastno ceno, davčno stopnjo in lastnostmi. Sredstvo lahko po želji referencira materiale, kadar je prodani izdelek hkrati tudi predmet zalogovnega spremljanja.
 
-Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

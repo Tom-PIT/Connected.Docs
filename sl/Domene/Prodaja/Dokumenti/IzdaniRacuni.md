@@ -7,7 +7,7 @@
 
 **Izdani računi** so finančni dokumenti, poslani strankam za plačilo potrjenih prodaj. Povzemajo dobavljeno blago ali storitve, davke, roke plačila in izbrane načine plačila. Na strani **Izdani računi** lahko evidentirate tudi delna ali celotna plačila neposredno na posameznem računu.
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Izdani računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Izdani računi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Vloga izdanih računov v prodajnem procesu
 
@@ -149,19 +149,6 @@ Kazalniki se posodabljajo glede na izbrane filtre:
 
 Za hitro iskanje uporabite polje **Iskanje**.
 
-### Meni
-
-Meni v zgornjem desnem kotu omogoča:
-
-![Meni izdanih računov](../Images/IssuedInvoicesMenu.png "Meni izdanih računov")
-
-- **Tiskanje**  
-- **Izvoz ** 
-- **Pošlji preko e-pošte**  
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrnitev v osnutek** (če je dovoljeno)
-
 #### Meni seznama
 
 V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
@@ -174,7 +161,7 @@ V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
 
 ### Ustvariti izdani račun
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) da ustvarite nov račun.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) da ustvarite nov račun.
 
 Za podroben postopek ustvarjanja si oglejte vodnik [**Kako ustvariti izdani račun**](IzdaniRacuniUstvarjanje.md).
 
@@ -258,3 +245,16 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 > [!NOTE]  
 > Objavljenih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
 Če so bila evidentirana plačila, računa ni mogoče izbrisati, dokler plačila niso odstranjena in dokument vrnjen v osnutek.
+
+### Meni
+
+Meni v zgornjem desnem kotu omogoča:
+
+![Meni izdanih računov](../Images/IssuedInvoicesMenu.png "Meni izdanih računov")
+
+- **Tiskanje**  
+- **Izvoz ** 
+- **Pošlji preko e-pošte**  
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrnitev v osnutek** (če je dovoljeno)

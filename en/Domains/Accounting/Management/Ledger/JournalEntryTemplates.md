@@ -63,7 +63,7 @@ Each template provides access to its **Details**, where individual journal entry
 
 To add a new journal entry template:
 
-1. Click the [**action button**](../../../../Common/UI/ActionButton.md) to create a new entry
+1. Click the [action button](../../../../Common/UI/ActionButton.md) to create a new entry
 2. Select a **Document type**
 3. Enter:
 

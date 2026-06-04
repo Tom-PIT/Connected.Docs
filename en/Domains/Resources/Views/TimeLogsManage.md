@@ -15,7 +15,7 @@ Typical use cases include:
 - Providing an immediate overview of today’s attendance
 - Giving quick access to leave-related actions ([paid leave](#paid-leave), [sick leave](#sick-leave), [travel orders](#travel-orders))
 
-To access **Time logs – Manage**, go to **Resources / Time logs / Manage** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access **Time logs – Manage**, go to **Resources / Time logs / Manage** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Time logs manage](../Images/TimeLogsManage.png "Time logs – manage")
 

@@ -16,7 +16,7 @@ This flow mirrors [**Move serial**](MoveSerial.md) but applies to containers (e.
 > For a full demonstration, see the **[Move container](https://www.youtube.com/watch?v=r_H76lJd7XY)** video tutorial.
 
 
-To access **Move container**, go to **Logistics / Documents / Move container** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access **Move container**, go to **Logistics / Documents / Move container** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Move a container
 

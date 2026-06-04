@@ -8,7 +8,7 @@
 **Ponudba** je prodajni dokument, namenjen predstavitvi predlagane cene, količine in dobavnih pogojev stranki, preden je prodaja potrjena.  
 Ponudbe pomagajo formalizirati ponudbe, primerjati cenovne možnosti ter omogočajo nemoten prehod v nadaljnje dokumente, kot so **Prodajni nalogi**, **Dobavnice** in **Izdani računi**.
 
-Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Ponudbe** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega dokumenta pojdite na **Prodaja / Dokumenti / Ponudbe** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Kako se ponudbe vključujejo v prodajni proces
 
@@ -110,21 +110,11 @@ Primer seznama **Zaključenih** ponudb:
 ![Zaključene ponudbe](../Images/OffersListCompleted.png "Zaključene ponudbe")
 
 
-### Meni
-
-Zgornji meni omogoča:
-- **Tiskanje**
-- **Izvoz (v PDF)**
-- **Pošiljanje dokumenta po e-pošti** (samo za potrjene dokumente)
-- **Povrni v osnutek** (samo za potrjene dokumente)
-
-![Meni ponudb](../Images/OffersMenu.png "Meni ponudb")
-
 ## Dejanja
 
 ### Ustvariti nove ponudbe
 
-1. Uporabite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove ponudbe v statusu osnutka.
+1. Uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove ponudbe v statusu osnutka.
 
 2. Izpolnite polja **Stranka**, **Datum veljavnosti** in po potrebi **Rabat**.
 
@@ -244,3 +234,14 @@ Potrjenih dokumentov **ni mogoče** izbrisati.
 
 > [!NOTE]
 > Ponudbo je mogoče izbrisati le, če ni povezana z drugim odvisnim dokumentom (npr. prodajnim nalogom).
+
+
+### Meni
+
+Zgornji meni omogoča:
+- **Tiskanje**
+- **Izvoz (v PDF)**
+- **Pošiljanje dokumenta po e-pošti** (samo za potrjene dokumente)
+- **Povrni v osnutek** (samo za potrjene dokumente)
+
+![Meni ponudb](../Images/OffersMenu.png "Meni ponudb")

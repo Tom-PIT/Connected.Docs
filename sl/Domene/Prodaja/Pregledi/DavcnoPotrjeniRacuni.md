@@ -9,7 +9,7 @@ Pogled **Davčno potrjeni računi** prikazuje seznam **izdanih maloprodajnih ra�
 
 Ti računi se običajno uporabljajo za **maloprodajo (B2C)** in so v skladu z lokalnimi pravili fiskalizacije prijavljeni davčnemu organu.
 
-Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Davčno potrjeni računi** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Davčno potrjeni računi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Davčno potrjeni računi](../Images/FiscalIvoicesListV2SL.png "Davčno potrjeni računi")
 

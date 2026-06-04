@@ -42,7 +42,7 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
 ## Add a new output
 
-1. Click the **action button** in the bottom-right corner and choose one of the following:
+1. Click the action button in the bottom-right corner and choose one of the following:
 
     ![Outputs action button](../Images/OutputsActionButton.png "Outputs action button")
 

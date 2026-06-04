@@ -9,7 +9,7 @@ The **Issued invoices tax book** view provides a **filtered overview of issued i
 
 This is a **read-only analytical view** used for tax reporting and review. No data can be edited from this screen.
 
-To access this view, go to **Accounting / Ledger / Views / Issued invoices tax book** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this view, go to **Accounting / Ledger / Views / Issued invoices tax book** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > This view displays only **issued invoices that generate tax entries**. It is intended for tax review and reporting purposes and does not replace official VAT reports.

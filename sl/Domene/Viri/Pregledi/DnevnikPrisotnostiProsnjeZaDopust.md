@@ -7,7 +7,7 @@
 
 Pogled **Dnevnik prisotnosti – Prošnje za dopust** je namenjen predvsem vodjem in odgovornim uporabnikom za **pregled, odobritev ali zavrnitev prošenj za plačani dopust**, ki jih oddajo zaposleni.
 
-Za dostop do pogleda **Prošnje za dopust** pojdite na **Viri / Dnevnik prisotnosti / Prošnje za dopust** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do pogleda **Prošnje za dopust** pojdite na **Viri / Dnevnik prisotnosti / Prošnje za dopust** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Prošnje za dopust – pregled](../Images/TimeLogsManagePaidLeaveSL.png "Prošnje za dopust – pregled")
 

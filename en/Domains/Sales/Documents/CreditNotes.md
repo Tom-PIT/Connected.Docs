@@ -136,7 +136,7 @@ Drafts can be edited; committed credit notes are final unless reversed.
 
 Credit notes can be created in two ways:
 
-- Via the [**action button**](../../../Common/UI/ActionButton.md) on the **Credit notes** screen
+- Via the [action button](../../../Common/UI/ActionButton.md) on the **Credit notes** screen
 - From an existing [**Issued invoice**](IssuedInvoices.md) via *Linked documents → + Credit note*
 
 Once you start a new credit note, follow these steps:
@@ -255,7 +255,7 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed credit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Document menu
+### Menu
 
 The document menu provides additional actions:
 

@@ -6,7 +6,7 @@
 # Davčne stopnje
 Šifrant **Davčne stopnje** določa vse davčne stopnje, uporabljene v sistemu. Davčne stopnje določajo odstotek davka, ki se uporablja za izdelke, materiale in storitve v poslovnih dokumentih. Vsak zapis vsebuje opisno ime in številčno vrednost, kar zagotavlja dosledno obračunavanje davkov v vseh digitalnih vsebinah.
 
-Do šifranta **Davčne stopnje** lahko dostopate iz različnih domen v [**navigaciji**](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
+Do šifranta **Davčne stopnje** lahko dostopate iz različnih domen v [navigaciji](../UI/Navigacija.md). V vseh primerih delate z istimi skupnimi podatki.
 
 Za odpiranje seznama pojdite v razdelek **Upravljanje / Davčne stopnje** v naslednjih domenah:
 
@@ -39,7 +39,7 @@ Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem
 
 ### Dodati novo davčno stopnjo
 
-1. Kliknite [**akcijski gumb**](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md), da dodate novo davčno stopnjo.
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.
 

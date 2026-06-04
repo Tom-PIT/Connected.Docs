@@ -11,7 +11,7 @@ Ko so materiali posojeni, postanejo **rezervirani** in niso na voljo za druge op
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Posoje](https://www.youtube.com/watch?v=V0QfOaBJ4Rk)**.
 
-Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -64,7 +64,7 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ### Ustvarjanje nove posoje
 
-1. Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov osnutek posoje.  
+1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov osnutek posoje.  
    Izberite **Skladišče** in **Stik**.
 
    ![Nova posoja](../Images/LoansNew.png "Nova posoja")

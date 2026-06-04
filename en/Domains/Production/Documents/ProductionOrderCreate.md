@@ -5,7 +5,7 @@
 
 # How to create a new production order
 
-To create a new production order, click the [**action button**](../../../Common/UI/ActionButton.md) on the [**Production orders**](ProductionOrders.md) page and follow the guided three-step wizard:
+To create a new production order, click the [action button](../../../Common/UI/ActionButton.md) on the [**Production orders**](ProductionOrders.md) page and follow the guided three-step wizard:
 
 ## Configuration steps
 

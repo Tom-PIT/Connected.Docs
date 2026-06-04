@@ -7,7 +7,7 @@
 
 The **Currencies** code list defines all monetary units that can be used across the system. Each currency includes its international code, symbol, and formatting rules, ensuring that prices, totals, and financial documents are displayed consistently and correctly. This list serves as the foundation for representing amounts in sales, purchasing, and reporting processes.
 
-This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Currencies** in the [**navigation**](../../Common/UI/Navigation.md).
+This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Currencies** in the [navigation](../../Common/UI/Navigation.md).
 
 > [!NOTE]  
 > **Prerequisites**  
@@ -45,7 +45,7 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 
 To create a new currency entry, follow these steps:
 
-1. Click on the [**action button**](../UI/ActionButton.md) to open the form for adding a new currency.
+1. Click on the [action button](../UI/ActionButton.md) to open the form for adding a new currency.
 2. Fill in all required fields. Optional fields can be completed if relevant. 
 3. Click **Add** to save the new currency or **Cancel** to return to the list view.
 

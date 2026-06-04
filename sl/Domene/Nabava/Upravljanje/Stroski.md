@@ -9,7 +9,7 @@
 
 Ta seznam zagotavlja doslednost, saj so vsi stroški shranjeni na enem mestu in na voljo za uporabo v dokumentih ter operativnih delovnih tokovih.
 
-Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -78,7 +78,7 @@ Filtri določajo, ali seznam prikazuje aktivne ali neaktivne zapise stroškov.
 
 ## Dodati nov strošek
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega stroška. Vnosni obrazec vključuje naslednje razdelke:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega stroška. Vnosni obrazec vključuje naslednje razdelke:
 
 - **Dodaj nov strošek**
 - **Glavna knjiga**

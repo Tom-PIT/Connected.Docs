@@ -15,7 +15,7 @@ Vsebniki se uporabljajo za organizacijo zunanjih naloženih dokumentov, kot so:
 
 Vsak vsebnik deluje kot korenska struktura, kjer lahko dokumente razporedite v mape in jih upravljate.
 
-Za dostop do tega zaslona pojdite na **Dokumenti / Vsebniki** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona pojdite na **Dokumenti / Vsebniki** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
@@ -49,7 +49,7 @@ Vsak zapis vključuje indikator stanja levo od naziva:
 
 ### Ustvariti nov vsebnik
 
-Kliknite [**akcijski gumb**](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega vsebnika in izpolnite polje **Naziv**.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega vsebnika in izpolnite polje **Naziv**.
 
 Polje **Omogočeno** določa, ali je vsebnik aktiven.
 

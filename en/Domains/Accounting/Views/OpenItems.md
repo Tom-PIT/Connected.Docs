@@ -7,7 +7,7 @@
 
 The **Open items** view provides an overview of accounting entries originating from invoices that have **not yet been fully settled**. It is a **read-only analytical view** used to monitor outstanding receivables and payables and track overdue amounts.
 
-To access this view, go to **Accounting / Ledger / Views / Open items** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this view, go to **Accounting / Ledger / Views / Open items** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Open items view](../Images/OpenItems.png "Open items view")
 

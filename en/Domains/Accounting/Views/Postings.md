@@ -9,7 +9,7 @@ The **Postings** view provides a **flat, line-level overview of all debit and cr
 
 This is a **read-only analytical view** used to review and audit accounting postings. No data can be edited from this screen.
 
-To access this view, go to **Accounting / Ledger / Views / Postings** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this view, go to **Accounting / Ledger / Views / Postings** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Postings view](../Images/PostingsView.png "Postings view")
 

@@ -9,7 +9,7 @@ Checklists are used across **Production** and **Maintenance** to define structur
 
 The individual steps inside a checklist — called **[Check points](Checkpoints.md)** — are managed separately.
 
-To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Checklists** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Checklists** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
@@ -38,7 +38,7 @@ The list includes a **Tags** filter on the left, allowing you to show only check
 
 ## Create a new checklist
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) in the bottom-right corner.
+1. Click the [action button](../../../Common/UI/ActionButton.md) in the bottom-right corner.
 2. Fill in the following fields:
 
     ![Add checklist](../Images/ChecklistsNew.png "Add checklist")

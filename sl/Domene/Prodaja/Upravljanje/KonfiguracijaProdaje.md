@@ -7,7 +7,7 @@
 
 Konfiguracija **Prodaje** omogoča nastavitev pravil, ki vplivajo na številčenje prodajnih dokumentov. Vse spremembe se shranjujejo samodejno.
 
-Za dostop do te strani pojdite na **Prodaja / Šifranti / Konfiguracija prodaje** v [**navigaciji**](../../../Skupno/UI/Navigacija.md).
+Za dostop do te strani pojdite na **Prodaja / Šifranti / Konfiguracija prodaje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Konfiguracija prodaje](../Images/SalesConfiguration.png "Konfiguracija prodaje")
 

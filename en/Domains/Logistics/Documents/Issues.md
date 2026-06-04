@@ -12,7 +12,7 @@ During the issuing process, you scan or search for the items being delivered, co
 > [!TIP]
 > For a full demonstration, see the **[Issue](https://www.youtube.com/watch?v=SrVyblBiLmQ)** video tutorial.
 
-To access Issues, go to **Logistics / Documents / Issues** in the [**navigation**](../../../Common/UI/Navigation.md).
+To access Issues, go to **Logistics / Documents / Issues** in the [navigation](../../../Common/UI/Navigation.md).
 
 ## Schema
 
@@ -66,7 +66,7 @@ You can click any document to open and review its details.
 
 ### Creating an issue document
 
-1. Click the [**action button**](../../../Common/UI/ActionButton.md) to create a new document draft, then select the **Warehouse** and **Customer**.
+1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new document draft, then select the **Warehouse** and **Customer**.
 
 	![Issue Document](../Images/IssueNew.png "Add new issue")
 
