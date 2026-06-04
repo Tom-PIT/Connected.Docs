@@ -46,10 +46,6 @@ The left sidebar contains the following filters:
 
 These filters allow narrowing the results based on supplier and material category.
 
-### Menu
-
-The **Menu** in the top-right corner provides a single action, **Export**. Use it to export the visible list of supplier materials into a CSV file for analysis or backup purposes.
-
 ## Actions
 
 Click the [action button](../../../Common/UI/ActionButton.md) to display the available actions:
@@ -112,8 +108,28 @@ Click on a supplier material and click **Delete** to remove it from the system. 
 > [!NOTE]  
 > A supplier material can be deleted only if it is not referenced by other records.
 
+## Menu
+
+This page includes menu actions in two places.
+
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+
+- **Export to CSV**
+
 ### Document menu
 
-The document menu in the top-right corner provides a single action,  **Export**. This action exports the details of the supplier material into a CSV file for analysis or backup purposes.
+The document menu provides actions for the currently opened document.
+
+Available actions:
+
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 

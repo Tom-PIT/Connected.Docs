@@ -116,18 +116,17 @@ To add an expense, open the **Expenses** tab in the **Details** section and clic
 
 ![Add expense](../Images/TravelOrdersDetailsExpenses.png)
 
-
-### Edit a travel order
-
-Open a travel order from the list to edit its data while in **Draft** status. Publish the travel order to make it **read-only**. Delete a draft if it is no longer needed.
-
-## Special behaviours / validation
+#### Special behaviours / validation
 
 - Publishing a travel order makes it **read-only**.
 - Mileage, allowance, and expense totals are **calculated automatically**.
 - Vehicles list includes only **non-human resources** tagged `vehicle`.
 
-## Delete a travel order
+### Edit a travel order
+
+Open a travel order from the list to edit its data while in **Draft** status. Publish the travel order to make it **read-only**. Delete a draft if it is no longer needed.
+
+### Delete a travel order
 
 Travel orders can be deleted only while in **Draft** status.
 

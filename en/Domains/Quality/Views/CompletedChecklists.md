@@ -49,13 +49,6 @@ Rows are **not expandable**. To see checklist details, open the checklist report
 - Click the **Checklist code** to open the **Checklist report**.
 - Click the **Production order code** to open the related [production order](../../Production/Documents/ProductionOrders.md) document.
 
-## Menu
-
-The **Menu** in the top-right corner provides:
-
-- **Printing**
-- **Export CSV**
-
 ## Filters
 
 Use the filters in the left sidebar to narrow down the list:
@@ -101,3 +94,14 @@ The checklist report is **read-only** and cannot be edited after completion.
 - **[Active checklists](ActiveChecklists.md)** — monitor checklists that are currently in progress
 - **[Production orders](../../Production/Documents/ProductionOrders.md)** — review production documents linked to checklists
 - **[Maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md)** — review maintenance documents linked to checklists
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

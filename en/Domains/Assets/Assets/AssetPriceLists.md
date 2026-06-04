@@ -43,11 +43,6 @@ Clicking the **Details** button opens the page where assets and discount ranges 
 
 ![Detail ranges](../Images/AssetPriceListsDetailsEdit.png "Ranges and asset details")
 
-### Menu
-
-Exports the asset detail table—including ranges—to a **CSV** file.
-
-
 ## Actions
 
 Depending on which page you are, the [action button](../../../Common/UI/ActionButton.md) displays different actions:
@@ -108,6 +103,16 @@ If the draft still includes assets in the **Details** section:
 4. Repeat this for all remaining assets.
 
 Once the document contains no assets, you can click **Delete** to remove the price list.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 
 

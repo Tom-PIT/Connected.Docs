@@ -27,7 +27,9 @@ To access **Competence matrixes**, go to **Resources / Management / Competence m
 | **Name** | Name of the proficiency level (for example: *Basic*, *Independent*, *Advanced*, *Certified operator*). |
 | **Level** | Numeric order of the layer. Lower numbers typically represent lower proficiency. |
 
-## Overview
+## Management
+
+### Overview
 
 The left side of the screen displays a **tree structure** of all competence matrices. Competences can be organized into categories and sub-competences.
 

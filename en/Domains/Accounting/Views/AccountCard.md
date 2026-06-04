@@ -63,3 +63,13 @@ Use the menu in the top-right corner to export the data as a PDF.
 > - The Account card is intended for **analysis and verification only** and does not support editing or posting actions.
 
 For editing or correcting postings, open the related [**Journal entry**](../Documents/DoubleEntryAccountancy.md) directly.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to PDF**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

@@ -15,7 +15,9 @@ To access **Sick leave types**, go to **Resources / Management / Sick leave type
 |------|------------|
 | **Name** | The name of the sick leave reason shown to users when reporting sick leave (for example: *Accident at work*, *Flu*, *Child sickness*). |
 
-## List view
+## Management
+
+### List view
 
 The list displays all defined sick leave types.
 

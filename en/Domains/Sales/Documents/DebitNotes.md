@@ -252,9 +252,11 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed debit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Menu
+## Menu
 
-The document menu provides additional actions:
+The menu provides additional actions available on this page.
+
+Available actions:
 
 - **Printing**
 - **Exporting**
@@ -263,6 +265,10 @@ The document menu provides additional actions:
 - **Reverse document**
 - **Return to draft** (only if allowed)
 
+> [!NOTE]
+> Reversing a debit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+
 ![Debit note menu](../Images/CreditDebitNoteMenu.png)
 
-Reversing a debit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.

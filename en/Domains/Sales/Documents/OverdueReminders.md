@@ -84,11 +84,16 @@ After confirming the deletion, the reminder is permanently removed from the syst
 
 Committed overdue reminders **cannot** be deleted.
 
-### Menu
+## Menu
 
-The top menu provides options for:
-- Printing
-- Exporting (to PDF)
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 
 

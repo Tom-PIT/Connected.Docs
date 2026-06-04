@@ -50,14 +50,6 @@ Use filters to narrow down the list:
   - [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md) when the document type is Maintenance order
 - Click the **Operation code** to open the [Production Execution](../../Production/Documents/Execution.md) page focused on the current execution.
 
-## Menu
-
-The **Menu** in the top-right corner provides:
-
-- **Printing**
-- **Export CSV**
-- **Export PDF**
-
 ## Edit a checklist 
 
 The checklist edit page shows the current checklist **code** and **name**, followed by an overview of the checklist's checkpoints.
@@ -66,7 +58,13 @@ The checklist edit page shows the current checklist **code** and **name**, follo
 
 A typical layout includes the list of checkpoints with required inputs (confirmations, measurements, tolerances).
 
-## Notes
+## Menu
 
-- Only checklists that are actively in progress appear here; completed items are available in the Completed checklists view.
-- Data refresh occurs automatically at regular intervals or when manually reloaded.
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to PDF or CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

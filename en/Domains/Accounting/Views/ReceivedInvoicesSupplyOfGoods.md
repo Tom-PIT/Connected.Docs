@@ -42,4 +42,10 @@ Each row represents one received invoice and includes:
 
 ## Menu
 
-Use the menu (top right corner) to **Export to PDF** and generate a PDF of the filtered list.
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to PDF**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

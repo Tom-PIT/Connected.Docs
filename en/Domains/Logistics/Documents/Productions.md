@@ -68,14 +68,17 @@ The **Details** section lists all produced items with their recorded quantities.
 
 ![Committed production document](../Images/ProductionsCommittedDocument.png "Committed production document")
 
-#### Menu
 
-Committed production documents can be corrected through reversals. Open the document menu and select **Create a new reversal**.
-
-This creates a reversal document that negates the stock and financial effect of the production posting (depending on system configuration). See **[Reversals](Reversals.md)** for more details.
-
-![Productions menu](../Images/ConsumptionsMenu.png "Productions menu")
-
-## Delete a production document
+### Delete a production document
 
 Production documents cannot be deleted from the system to ensure traceability of produced items, but they can be reversed as described above.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Create a new reversal** (only for committed documents)
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

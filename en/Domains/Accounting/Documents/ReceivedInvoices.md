@@ -89,17 +89,6 @@ Available filters:
 
 The list also displays aggregated indicators such as document count and total amount for the current filter.
 
-#### Menu
-
-The **Menu** in the top-right corner provides additional actions for the received invoices list.
-
-Available actions include:
-
-- **Print** – Print the current list of received invoices.
-- **Export** – Export the current list of received invoices.
-- **Open mass processing** – Enables selecting multiple received invoices from the list and exporting them to an Excel file.
-- **Import E-invoice** – Import an electronic invoice file and automatically create a received invoice document in the system.
-
 ### Document states
 
 Received invoices move through the following states:
@@ -156,4 +145,29 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > - Only **draft** documents can be deleted.  
 > - Once a document is published, you can no longer delete it; instead, use **Revert** in the menu.  
 > - If any payments have been recorded, the document cannot be deleted until those payments are removed and the document is returned to draft.
+
+## Menu
+
+This page includes menu actions in two places.
+
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+
+- **Open mass processing**
+- **Import e-invoice**
+
+### Document menu
+
+The document menu provides actions for the currently opened document.
+
+Available actions:
+
+- **Revert**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 

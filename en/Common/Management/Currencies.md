@@ -38,7 +38,6 @@ Each record includes a status indicator to the left of its name:
 
 You can use the **Search** bar to quickly filter payment methods by their code or name.
 
-
 ## Actions
 
 ### Add a new currency

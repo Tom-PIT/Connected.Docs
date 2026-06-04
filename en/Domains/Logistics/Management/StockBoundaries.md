@@ -36,11 +36,11 @@ Any stock quantity below the defined minimum or above the defined maximum is vis
 
 ## Actions
 
-Click on the [action button](../../../Common/UI/ActionButton.md) to display the **Import** action.  
+### Import stock boundaries
 
-### Import
+Click on the [action button](../../../Common/UI/ActionButton.md) to display the **Import** action. 
 
-The **Import** action allows bulk creation or update of stock boundary records using a CSV file. Prepare the file with the required fields (**Entity**, **Min**, **Max**) and upload it to automatically populate the list.
+**Import** allows bulk creation or update of stock boundary records using a CSV file. Prepare the file with the required fields (**Entity**, **Min**, **Max**) and upload it to automatically populate the list.
 
 ![Stock boundaries import](../Images/StockBoundariesImport.png "Stock boundaries import")
 
@@ -58,4 +58,10 @@ M-0004;4;20;80;
 
 ## Menu
 
-The **Menu** in the top-right corner provides the following option: **Export to CSV**, which exports all visible records to a CSV file for reporting, analysis, or backup purposes.
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

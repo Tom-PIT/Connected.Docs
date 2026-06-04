@@ -149,12 +149,14 @@ A confirmation pop-up will appear. Click **Delete** again to confirm the deletio
 > [!NOTE]  
 > Only draft inquiries can be deleted.
 
-### Menu
+## Menu
 
-The **Menu** in the top-right corner provides the following actions:
+The menu provides additional actions available on this page.
 
-![Inquiry menu](../Images/InquiriesMenu.png "Inquiry menu")
+Available actions:
 
-- **Printing** – Print the inquiry  
-- **Exporting** – Export to PDF  
+- **Print**
+- **Export to PDF**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 

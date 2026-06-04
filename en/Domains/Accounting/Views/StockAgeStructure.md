@@ -43,4 +43,10 @@ The filters on the left side allow you to narrow down the results:
 
 ## Menu
 
-The table can be exported to **CSV format** using the menu in the top-right corner, allowing further analysis in spreadsheet tools.
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

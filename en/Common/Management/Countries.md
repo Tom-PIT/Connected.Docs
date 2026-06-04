@@ -60,9 +60,12 @@ To import country records, follow these steps:
 
 ![Import countries](../Images/ImportCountries.png "Import countries")
 
-The file must contain the required fields in a valid structure. You can download a file example using the menu located on the top-right corner. After the upload is complete, the system processes the file and creates or updates countries based on the CSV content.
+The file must contain the required fields in a valid structure. After the upload is complete, the system processes the file and creates or updates countries based on the CSV content.
 
 Click **Cancel** to return to the country list without importing.
+
+> [!TIP]
+> You can download a file example using the menu located on the top-right corner of the import screen.
 
 #### Example CSV structure
 

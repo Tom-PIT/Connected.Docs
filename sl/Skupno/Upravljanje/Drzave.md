@@ -51,9 +51,12 @@ Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Uvoz** sistem o
 
 ![Uvoz držav](../Images/ImportCountries.png "Uvoz držav")
 
-Uvoz sprejme **CSV datoteko**. Datoteko lahko povlečete in spustite v območje za nalaganje ali kliknete za odprtje pogovornega okna za izbiro datoteke. Datoteka mora vsebovati zahtevana polja v veljavni strukturi. Primer datoteke lahko prenesete prek menija v zgornjem desnem kotu. Po končanem nalaganju sistem obdela datoteko in ustvari ali posodobi zapise držav na podlagi vsebine CSV.
+Uvoz sprejme **CSV datoteko**. Datoteko lahko povlečete in spustite v območje za nalaganje ali kliknete za odprtje pogovornega okna za izbiro datoteke. Datoteka mora vsebovati zahtevana polja v veljavni strukturi. Po končanem nalaganju sistem obdela datoteko in ustvari ali posodobi zapise držav na podlagi vsebine CSV.
 
 Kliknite **Prekliči** za vrnitev na seznam držav brez uvoza.
+
+> [!TIP]
+> Primer datoteke lahko prenesete prek menija v zgornjem desnem kotu zaslona za uvoz.
 
 #### Primer strukture CSV
 ```csv

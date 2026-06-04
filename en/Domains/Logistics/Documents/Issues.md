@@ -64,7 +64,7 @@ You can click any document to open and review its details.
 
 ## Actions
 
-### Creating an issue document
+### Create an issue document
 
 1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new document draft, then select the **Warehouse** and **Customer**.
 
@@ -93,24 +93,7 @@ For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attach
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
-## Menu
-
-Inside an issue document, the **menu (hamburger icon)** in the top-right corner shows different options depending on the document status.
-
-![Menu options](../Images/ReceiveMenu.png "Menu options")
-
-### Draft issue document
-
-- Print  
-- Export (PDF)  
-
-### Published issue document
-
-- Print  
-- Export (PDF)  
-- [Create a new reversal](Reversals.md).
-
-## Edit an issue document
+### Edit an issue document
 
 Click an issue document code in the main list to open its details:
 
@@ -122,7 +105,7 @@ Click an issue document code in the main list to open its details:
 
 ![Issue reviewing](../Images/IssueReviewing.png "Issue reviewing")
 
-## Delete an issue document
+### Delete an issue document
 
 Draft documents can be deleted on the edit screen, but only if they contain **no material entries**.
 
@@ -136,3 +119,16 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]
 > Committed documents **cannot** be deleted — only [reversed](Reversals.md).
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+- **Delete all details** (only for draft documents)
+- **Reverse issue** (only for committed documents)
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

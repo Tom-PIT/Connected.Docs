@@ -255,18 +255,23 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed prepayments **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
+## Menu
 
-### Menu
+The menu provides additional actions available on this page.
 
-The document menu provides additional actions:
-- **Printing**
-- **Exporting**
-- **Send as email**
+Available actions:
+
+- **Print**
+- **Export to PDF**
+- **Send as email** 
 - **Delete all details** (only for drafts)
-- **Reverse document** (creates a financial reversal)
-- **Return to draft** (only if allowed by system settings)
+- **[Reverse document](../../Logistics/Documents/Reversals.md)**
+- **Return to draft**
 
-![Prepayment menu](../Images/PrepaymentsMenu.png "Prepayment menu")
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
-A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
+> [!NOTE]
+> A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
+
+
 

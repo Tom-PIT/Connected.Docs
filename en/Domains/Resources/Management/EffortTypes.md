@@ -20,7 +20,9 @@ To access **Effort types**, go to **Resources / Management / Effort types** in t
 | **Description** | Optional explanation of what the effort type represents. This is mainly for internal clarification and administration. |
 | **Enabled** | Determines whether the effort type is active and available for selection in effort entry forms. |
 
-## List view
+## Management
+
+### List view
 
 The list shows all defined effort types in the system.
 
@@ -30,7 +32,9 @@ The list shows all defined effort types in the system.
 
 ![Effort types list](../Images/EffortTypesList.png "Effort types list")
 
-## Create a new effort type
+## Actions
+
+### Create a new effort type
 
 Click the [action button](../../../Common/UI/ActionButton.md) to create a new effort type.
 
@@ -42,13 +46,13 @@ When creating or editing an effort type, you can:
 
 ![Add effort type](../Images/EffortTypesNew.png "Add effort type")
 
-## Edit an effort type
+### Edit an effort type
 
 Click on an item on the list to edit an existing effort type. You can modify the name, description, and enabled status.
 
 Changes are saved by clicking the **Save** button. If you want to discard changes, click **Cancel**.
 
-## Usage in effort recording
+### Usage in effort recording
 
 Effort types are used when users record effort on tasks and executions.
 
@@ -58,7 +62,7 @@ When adding effort, users select an effort type from a dropdown list populated f
 
 This ensures that recorded time is consistently categorized across the system, supporting accurate reporting and analysis.
 
-## Delete an effort type
+### Delete an effort type
 
 Click on an item on the list to enter its edit screen, then click the **Delete** button to remove an effort type.
 

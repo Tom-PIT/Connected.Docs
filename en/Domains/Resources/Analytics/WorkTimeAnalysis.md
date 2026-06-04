@@ -67,14 +67,18 @@ Changing any filter immediately recalculates the indicators and the list.
 
 ![Work item type filter](../Images/WorkTimeAnalysisWorkItemType.png)
 
-## Menu
-
-The menu in the top-right corner of the screen provides quick access to the following actions:
-
-- **Export** the **Effort cost details** to CSV format.
-
-The resulting file shows the expenses linked to the recorded work time.
-
 ## Refresh data
 
 The **Refresh** action reloads the analysis data using the currently selected filters.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export** the effort cost details to CSV** 
+
+The resulting file shows the expenses linked to the recorded work time.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

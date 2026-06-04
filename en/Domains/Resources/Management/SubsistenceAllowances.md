@@ -10,6 +10,14 @@ They are typically used in [**Travel orders**](../Documents/TravelOrders.md) to 
 
 To access **Subsistence Allowances**, go to **Resources / Management / Subsistence Allowances** in the [navigation](../../../Common/UI/Navigation.md).
 
+## Usage in other modules
+
+Subsistence allowances are primarily used in:
+
+- **[Travel orders](../Documents/TravelOrders.md)** — automatic calculation of daily allowances during business trips
+
+This ensures consistent and centralized management of travel compensation rules across the system.
+
 ## Schema
 
 | Field | Description |
@@ -20,10 +28,11 @@ To access **Subsistence Allowances**, go to **Resources / Management / Subsisten
 | **Half amount** | Reduced amount, typically used for partial-day travel. |
 | **Reduced amount** | Further reduced allowance, depending on company or legal rules. |
 
-## Overview
+## Management
 
-The **Subsistence Allowances** screen displays a list of all defined allowances.
-Each entry represents a country (and optionally a city or postal code) with its corresponding allowance values.
+### List view
+
+The **Subsistence Allowances** screen displays a list of all defined allowances. Each entry represents a country (and optionally a city or postal code) with its corresponding allowance values.
 
 The list supports search and quick navigation.
 
@@ -56,11 +65,3 @@ Changes take effect immediately and are used when calculating allowances in trav
 Click an existing allowance opens it in edit mode and click **Delete**.
 
 After confirming the deletion, the allowance is removed from the list and will no longer be available for selection in travel orders.
-
-## Usage in other modules
-
-Subsistence allowances are primarily used in:
-
-- **[Travel orders](../Documents/TravelOrders.md)** — automatic calculation of daily allowances during business trips
-
-This ensures consistent and centralized management of travel compensation rules across the system.

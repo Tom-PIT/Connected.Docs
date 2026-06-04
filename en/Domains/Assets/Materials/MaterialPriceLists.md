@@ -124,11 +124,6 @@ Creates a duplicate of an existing price list, including its validity range and 
 
 The **Import** screen allows you to import a CSV file with the list of details.
 
-## Menu
-
-The menu in the **Details** view allows you to:
-- Export the material price details (including ranges) to **CSV**
-
 ## Delete a material price list
 
 A material price list can be deleted **only if it contains no material details**.
@@ -141,3 +136,13 @@ If materials exist in the **Details** section:
 4. Repeat until no details remain
 
 Once empty, the price list itself can be deleted from the edit screen.
+
+## Menu
+
+The menu in the details screen provides additional actions for this document.
+
+Available actions:
+
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

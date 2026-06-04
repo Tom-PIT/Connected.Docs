@@ -70,6 +70,10 @@ Clicking on a **material name** opens the related [**Stock view by material**](.
 
 ## Menu
 
-The **Menu** in the top-right corner provides options to:
-- **Print** – Print the current view.
-- **Export CSV** – Export the data to a CSV file for further analysis.
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export stock state by average amount**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

@@ -62,7 +62,7 @@ Click any loan to open and review its details.
 
 ## Actions
 
-### Creating a new loan
+### Create a new loan
 
 1. Click the [action button](../../../Common/UI/ActionButton.md) and start a new loan draft. Select the **Warehouse** and **Contact**.
 
@@ -102,6 +102,8 @@ At the top-right, open the **menu (hamburger icon)** and select **Create a new r
 ![Loan menu](../Images/LoansMenu.png "Loan menu")
 
 This opens a reversal document that returns the items back to stock. For more details see **[Reversals](Reversals.md)**.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 ## Edit a loan document
 

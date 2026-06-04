@@ -3,9 +3,9 @@
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/Intrastat.md -->
 <!-- canonical_source_title: Intrastat -->
 
-# Intrastat
+# Intrastat entries
 
-The **Intrastat** view provides an overview of transactions that are subject to Intrastat reporting. It aggregates data from accounting and sales documents and presents it in a format suitable for review and reporting of goods movement between EU Member States.
+The **Intrastat entries** view provides an overview of transactions that are subject to Intrastat reporting. It aggregates data from accounting and sales documents and presents it in a format suitable for review and reporting of goods movement between EU Member States.
 
 To access this screen, go to **Accounting / Views / Intrastat** in the [navigation](../../../Common/UI/Navigation.md).
 
@@ -94,4 +94,28 @@ The correctness of this view depends on proper configuration of:
 - delivery terms
 - mode of transport
 - place of delivery
+
+## Menu
+
+This page includes menu actions in two places.
+
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+
+- **Export to CSV**
+
+### Document menu
+
+The document menu provides actions for the currently opened document.
+
+Available actions:
+
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 

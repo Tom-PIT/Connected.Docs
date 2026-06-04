@@ -257,19 +257,20 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Menu
+## Menu
 
-The document menu provides additional actions:
+The menu provides additional actions available on this page.
+
+Available actions:
 
 - **Print**
-- **Export**
-- **Send as email**
-- **Reverse document**
+- **Export to PDF**
+- **Send as email** 
+- **[Reverse document](../../Logistics/Documents/Reversals.md)**
 - **Return to draft**
 
-![Retail invoice menu](../Images/RetailInvoiceMenu.png)
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 > [!NOTE]
->
-> Draft invoices do not have **Reverse document**, but they have a **Delete all details** option.
+> A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
 

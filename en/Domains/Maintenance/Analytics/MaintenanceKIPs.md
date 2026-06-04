@@ -1,15 +1,14 @@
 <!-- app_route: /maintenance/analytics/kpis -->
 <!-- app_label: Maintenance indicators -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Analytics/MaintenanceIndicators.md -->
-<!-- canonical_source_title: Maintenance indicators -->
+<!-- canonical_source_title: Maintenance KPIs -->
 
-# Maintenance indicators
+# Maintenance KPIs
 
-The **Maintenance indicators** screen provides an analytical overview of maintenance performance. It aggregates data from **completed [maintenance orders](../Documents/MaintenanceOrders.md)** and helps evaluate efficiency, responsiveness, and reliability of maintenance activities.
+The **Maintenance KPIs** screen provides an analytical overview of maintenance performance. It aggregates data from **completed [maintenance orders](../Documents/MaintenanceOrders.md)** and helps evaluate efficiency, responsiveness, and reliability of maintenance activities.
 
-To access this screen, go to **Maintenance / Analytics / Maintenance indicators** in the [navigation](../../../Common/UI/Navigation.md).
-
-![Maintenance Indicators](../Images/MaintenanceIndicators.png "Maintenance indicators overview")
+To access this screen, go to **Maintenance / Analytics / Maintenance KPIs** in the [navigation](../../../Common/UI/Navigation.md).
+![Maintenance KPIs](../Images/MaintenanceIndicators.png "Maintenance KPIs overview")
 
 > [!NOTE]
 > - Only **completed** maintenance orders are considered in indicator calculations

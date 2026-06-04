@@ -155,6 +155,16 @@ Only **unpublished (draft)** tax returns can be deleted.
 
 Once published, a tax return can no longer be deleted.
 
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to PDF or XML**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+
 
 
 

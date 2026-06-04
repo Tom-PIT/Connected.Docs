@@ -126,7 +126,6 @@ Tags displayed on the original document:
 
 ![ReversalsDocumentTag](../Images/ReversalsDocumentTag.png)
 
-
 ### Edit a reversal document
 
 Click a reversal document to open in the list to review its details.

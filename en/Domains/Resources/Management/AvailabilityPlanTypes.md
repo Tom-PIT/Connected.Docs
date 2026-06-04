@@ -17,7 +17,9 @@ To access **Availability plan types**, go to **Resources / Management / Availabi
 | **Name** | Descriptive name displayed to users when selecting an availability type (for example: *Child sickness*, *Work accident*). |
 | **Enabled** | Indicates whether the availability plan type is active and selectable in other parts of the system. |
 
-## List view
+## Management
+
+### List view
 
 The list view shows all configured availability plan types.
 
