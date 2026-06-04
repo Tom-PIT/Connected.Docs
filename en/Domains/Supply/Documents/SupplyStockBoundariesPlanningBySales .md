@@ -37,7 +37,7 @@ The left sidebar allows you to refine the planning view using:
 
 Only materials matching both the filters and planning conditions are displayed.
 
-## Creating supply orders or inquiries
+## Create supply orders or inquiries according to sales demand
 
 Creating documents from this view works **exactly the same way** as in **Supply stock boundaries planning**.
 
@@ -64,13 +64,3 @@ You will be redirected to a new **Supply order** or **Inquiry** with materials, 
 For detailed action behavior, deletion rules, and document handling, refer to:
 
 * **Supply stock boundaries planning**
-
-
-## Purpose and benefits
-
-**Supply stock boundaries planning by sales** helps you:
-
-* Combine **stock boundary rules** with **actual sales demand**
-* Identify fast-moving items that require faster replenishment
-* Make better purchasing decisions based on recent sales behavior
-* Use the same familiar planning workflow with additional insight

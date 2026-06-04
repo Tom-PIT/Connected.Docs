@@ -76,7 +76,9 @@ Leva stranska vrstica vsebuje dva filtra:
 
 Filtri določajo, ali seznam prikazuje aktivne ali neaktivne zapise stroškov.
 
-## Dodati nov strošek
+## Dejanja
+
+### Ustvariti nov strošek
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega stroška. Vnosni obrazec vključuje naslednje razdelke:
 
@@ -91,7 +93,7 @@ V polje **Neto cena (na enoto)** vnesite zahtevane podatke in stroške, če so z
 > [!OPOMBA]
 > Stroški stroškov bodo samodejno izpolnjeni v nabavnem nalogu, če je strošek dodan kot postavka in je **Neto cena (na enoto)** znana.
 
-### Strošek podizvajalca
+#### Strošek podizvajalca
 
 Ta izbirni razdelek omogoča dodajanje stroškov, povezanih s podizvajalci.  
 Določite lahko:
@@ -118,7 +120,7 @@ Možnosti v tem razdelku določajo, kako se strošek obravnava pri finančnih kn
 
 Te nastavitve je mogoče po potrebi spremeniti tudi na prejetem računu.
 
-## Urediti strošek
+### Urediti strošek
 
 Za urejanje stroška kliknite zapis v seznamu. Sistem odpre način urejanja.
 
@@ -126,13 +128,10 @@ Vsa polja – vključno s stroški podizvajalca in operacijami – je mogoče sp
 
 Ko zaključite z urejanjem, kliknite **Shrani**. Če sprememb ne želite shraniti, kliknite **Prekliči**.
 
-## Izbrisati strošek
+### Izbrisati strošek
 
-Na zaslonu za urejanje kliknite **Izbriši**, da trajno odstranite strošek.
-
-**Ali ste prepričani, da želite izbrisati ta zapis?**
-
-Brisanje je dovoljeno samo, če strošek ni uporabljen v odvisnih zapisih.
+Kliknite zapis v seznamu in sistem odpre način urejanja, nato kliknite **Izbriši**, da trajno odstranite strošek po potrditvi.  
 
 > [!NOTE]
-> Onemogočeni stroški ostanejo v sistemu, vendar jih ni mogoče izbrati v novih dokumentih.
+> - Brisanje je dovoljeno samo, če strošek ni uporabljen v odvisnih zapisih.
+> - Onemogočeni stroški ostanejo v sistemu, vendar jih ni mogoče izbrati v novih dokumentih.

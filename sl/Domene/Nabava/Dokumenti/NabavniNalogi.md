@@ -142,7 +142,7 @@ Razpoložljiva dejanja vključujejo:
 - **Dodaj opravilo**  
 - **Kopiraj nabavni nalog**
 
-## Zaključiti nabavni nalog
+### Zaključiti nabavni nalog
 
 Nabavni nalog se šteje za zaključen, ko so vsi materiali v celoti prevzeti.
 
@@ -156,18 +156,7 @@ Ob zaključevanju:
 > [!NOTE]
 > Zaključevanje nabavnega naloga je administrativno dejanje, ki zaključi njegov življenjski cikel. Ne povzroča dodatnih premikov zaloge — ti se izvajajo v povezanih dokumentih **Prevzema**.
 
-## Meni
-
-**Meni** v zgornjem desnem kotu ponuja:
-
-![Meni nabavnega naloga](../Images/SupplyOrderMenu.png "Meni nabavnega naloga")
-
-- **Tiskanje** – tiskanje nabavnega naloga  
-- **Izvoz** – izvoz v PDF  
-- **Pošlji po e-pošti**  
-- **Storniraj dokument**
-
-## Izbrisati nabavni nalog
+### Izbrisati nabavni nalog
 
 Nabavne naloge v stanju **Osnutek** je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo postavk**.
 
@@ -183,3 +172,14 @@ Ko dokument ne vsebuje več postavk, kliknite **Izbriši** za trajno odstranitev
 > - Izbris je mogoč samo za nabavne naloge v stanju **Osnutek**.  
 > - Objavljenih dokumentov ni mogoče izbrisati.  
 > - Objavljeni dokumenti se lahko **[stornirajo](../../Logistika/Dokumenti/Storno.md)**.
+
+### Meni
+
+**Meni** v zgornjem desnem kotu ponuja:
+
+![Meni nabavnega naloga](../Images/SupplyOrderMenu.png "Meni nabavnega naloga")
+
+- **Tiskanje** – tiskanje nabavnega naloga  
+- **Izvoz** – izvoz v PDF  
+- **Pošlji po e-pošti**  
+- **Storniraj dokument**

@@ -59,9 +59,10 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za prikaz razpolož
 - **Novo**  
 - **Uvoz**
 
-### Novo
+### Ustvariti nov material dobavitelja
 
-Ustvari nov zapis materiala dobavitelja.  
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za ustvarjanje novega zapisa materiala dobavitelja.
+
 Vnosni obrazec vključuje naslednja polja:
 
 - Dobavitelj  
@@ -75,9 +76,9 @@ Vnosni obrazec vključuje naslednja polja:
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite zapis, ali **Prekliči**, da se vrnete na seznam.
 
-### Uvoz
+### Uvoziti materialov dobaviteljev
 
-Funkcionalnost **Uvoz** omogoča množično ustvarjanje ali posodabljanje materialov dobaviteljev z uporabo preglednice.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za množično ustvarjanje ali posodabljanje materialov dobaviteljev z uporabo preglednice. Funkcionalnost omogoča množično ustvarjanje ali posodabljanje materialov dobaviteljev z uporabo preglednice.
 
 Ta zaslon deluje podobno kot stran **[Uvoz materialov](../../Sredstva/Materiali/UvozMaterialov.md)** in vključuje:
 
@@ -102,19 +103,19 @@ Primer vrstice:
 Rivermark Woodwork,CODE003,20,SupplierMaterial001,0
 ```
 
-## Urejanje
+### Urediti material dobavitelja
 
 Za urejanje obstoječega zapisa kliknite njegovo vrstico v seznamu. Sistem odpre pogled za urejanje, kjer lahko spremenite vsa polja.
 
 Ko končate z urejanjem, kliknite **Shrani**. Če sprememb ne želite shraniti, kliknite **Prekliči**.
 
-## Brisanje
+## Brisati material dobavitelja
 
-Na zaslonu za urejanje kliknite **Izbriši**, da odprete potrditveno okno:
-
-**Ali ste prepričani, da želite izbrisati ta zapis?**
-
-Če potrdite, se zapis materiala dobavitelja trajno odstrani.
+Kliknite na dobaviteljev material in nato kliknite **Izbriši**, da ga odstranite iz sistema. Prikazalo se bo potrditveno pojavno okno. Po potrditvi se zapis trajno odstrani.
 
 > [!NOTE]
 > Zapis materiala dobavitelja je mogoče izbrisati samo, če nanj ne kažejo drugi zapisi.
+
+### Meni dokumenta
+
+Meni dokumenta v zgornjem desnem kotu omogoča eno dejanje, **Izvoz**. To dejanje izvozi podatke o dobaviteljevem materialu v datoteko CSV za namene analize ali varnostnega kopiranja.

@@ -90,7 +90,7 @@ Filtri omogočajo hitro navigacijo med povpraševanji različnih dobaviteljev, s
 
 ## Dejanja
 
-### Ustvarjanje novega povpraševanja
+### Ustvariti novo povpraševanje
 
 1. Uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka povpraševanja.
 
@@ -106,7 +106,7 @@ Filtri omogočajo hitro navigacijo med povpraševanji različnih dobaviteljev, s
 
 5. Ko ste pripravljeni, kliknite **Objavi**, da zaključite osnutek in premaknete povpraševanje v stanje **Na voljo**.
 
-### Urejanje povpraševanja
+### Urediti povpraševanje
 
 Kliknite katerokoli povpraševanje v seznamu, da ga odprete. Povpraševanja v stanju **Osnutek** je mogoče prosto urejati.
 
@@ -118,9 +118,9 @@ Dokument vsebuje več razširljivih razdelkov:
 
 #### Priponke
 
-Na vrhu vsakega dokumenta je na voljo razdelek **Priponke**.
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
 
-Naložite lahko katerokoli ustrezno datoteko — npr. ponudbe, tehnične liste, fotografije ali drugo spremljevalno dokumentacijo. Vse priloge ostanejo shranjene skupaj z dokumentom.
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
 
 #### Povezani dokumenti
 
@@ -137,7 +137,7 @@ Razpoložljiva dejanja vključujejo:
 > [!TIP]
 > Ko se **nabavni nalog** ustvari iz povpraševanja, se večina pomembnih polj samodejno predizpolni.
 
-### Zaključevanje povpraševanja
+### Zaključiti povpraševanje
 
 Ko je povpraševanje v stanju **Na voljo** odobreno, kliknite **Zaključi** na vrhu strani. Dokument se nato prikaže v pogledu **Zaključeno**.
 
@@ -145,6 +145,15 @@ Ko je povpraševanje v stanju **Na voljo** odobreno, kliknite **Zaključi** na v
 
 > [!NOTE]
 > Povpraševanje se samodejno premakne v stanje **Zaključeno**, ko se iz njega neposredno ustvari **[nabavni nalog](NabavniNalogi.md)** prek razdelka **Povezani dokumenti**.
+
+## Brisanje
+
+Povpraševanja je mogoče izbrisati na zaslonu za urejanje. Za brisanje odprite dokument s klikom nanj v seznamu in nato izberite **Izbriši** v zgornjem desnem kotu.
+
+Potrdite brisanje, da trajno odstranite dokument.
+
+> [!NOTE]
+> Izbrisati je mogoče samo povpraševanja v stanju **Osnutek**.
 
 ## Meni
 
@@ -154,10 +163,3 @@ Ko je povpraševanje v stanju **Na voljo** odobreno, kliknite **Zaključi** na v
 
 - **Tiskanje** – tiskanje povpraševanja  
 - **Izvoz** – izvoz v PDF  
-
-## Brisanje
-
-Povpraševanja je mogoče izbrisati na zaslonu za urejanje. Za brisanje odprite dokument in kliknite **Izbriši** v zgornjem desnem kotu.
-
-> [!NOTE]
-> Izbrisati je mogoče samo povpraševanja v stanju **Osnutek**.

@@ -58,12 +58,11 @@ Vsako vrstico je mogoče razširiti in prikazati dodatne informacije za planiran
 
 Ti podatki pomagajo oceniti, ali je obnavljanje zaloge že v teku, še preden ustvarite nove dokumente.
 
-## Ustvarjanje nabavnih dokumentov
+## Ustvariti nabavne dokumente po mejah zaloge
 
 Nabavne dokumente ustvarite neposredno iz tega pogleda.
 
-1. Izberite enega ali več materialov s potrditvenim poljem in pišete in po želji prilagodite **Naročeno količino** neposredno na seznamu.
-
+1. Izberite enega ali več materialov s potrditvenim poljem in po želji prilagodite **Naročeno količino** neposredno na seznamu.
    ![Izbira materiala](../Images/SupplyStockBoundariesPlanningSelect.png)
 
 2. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite:
@@ -81,14 +80,3 @@ Nabavne dokumente ustvarite neposredno iz tega pogleda.
 4. Kliknite **Ustvari** za nadaljevanje.
 
 Sistem vas nato preusmeri na nov **nabavni nalog** ali **povpraševanje**, kjer so vsi pomembni podatki — material, količine in dobavitelj — že vnaprej izpolnjeni.
-
-## Namen in koristi
-
-**Planiranje nabave po mejah zaloge** omogoča:
-
-- zgodnje zaznavanje nizkih zalog  
-- centralizirano planiranje obnove zaloge  
-- manj ročnega vnosa pri ustvarjanju nabavnih dokumentov  
-- boljše usklajevanje odločitev o nabavi na podlagi dejanskega stanja zaloge in obstoječih naročil  
-
-Ta pogled je posebej uporaben za planerje in nabavne ekipe, ki upravljajo več dobaviteljev in širok nabor materialov.

@@ -77,7 +77,7 @@ These filters control whether the list shows active or inactive expense entries.
 
 ## Actions
 
-### Add new expense
+### Create a new expense
 
 Click the [action button](../../../Common/UI/ActionButton.md) to create a new expense. The input form includes sections:
 
@@ -118,7 +118,7 @@ The options available in this section determine how the expense is handled in fi
 
 These can later be reset on the received invoice if needed.
 
-## Edit an expense
+### Edit an expense
 
 To edit an expense, click the entry in the list and the system opens the edit mode.
 
@@ -128,12 +128,9 @@ When you are done editing, click **Save**. If you do not want to save the change
 
 ## Delete an expense
 
-Click **Delete** on the edit screen to remove the expense permanently.
-
-**Are you sure you want to delete this record?**
-
-Deletion is allowed only if the expense is not referenced in dependent records.
+click the entry in the list and the system opens the edit mode and click **Delete** to remove the expense permanently after confirmation.
 
 > [!NOTE]  
-> Disabled expenses remain in the system but cannot be selected in new documents.
+> - Deletion is allowed only if the expense is not referenced in dependent records.
+> - Disabled expenses remain in the system but cannot be selected in new documents.
 
