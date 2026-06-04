@@ -112,16 +112,19 @@ The system records the container, quantity, document, date, and user.
 
 Supported in [**Issues**](Issues.md), [**Moves**](InterWarehouse.md), and [**Production consumption**](Consumptions.md).
 
-## Menu
-
-Use the document menu for actions:
-
-- **Printing** (if configured) — prints the container (SSCC) label
-- **Exporting** — exports the container (SSCC) label as a PDF file
-
-![Containers menu](../Images/ContainersMenu.png "Containers menu")
-
 ## Delete a container
 
 - Draft container documents can be deleted freely from the edit screen, using the **Delete** button. After confirmation, the document is removed from the system without affecting inventory.
 - Packaged containers cannot be deleted; use **Dissolve** to release contents.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Printing** — prints the container (SSCC) label
+- **Export to PDF** — exports the container (SSCC) label as a PDF file
+
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

@@ -129,8 +129,18 @@ When a journal entry originates from another document:
 
 This linkage ensures full traceability between operational documents and their accounting impact.
 
-## Delete a journal entry
+### Delete a journal entry
 
 A journal entry can be deleted only if it is in **Draft** status and not linked to finalized source documents.
 
 To delete it, click on an entry in the list to enter edit mode and select **Delete**.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to PDF**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

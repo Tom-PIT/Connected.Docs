@@ -131,3 +131,13 @@ Once published, deletion may be restricted to preserve accounting integrity.
 
 > [!WARNING]
 > Deleting payment orders that are already unpaid or paid may affect payment tracking and auditability.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Turn on/off export mode**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

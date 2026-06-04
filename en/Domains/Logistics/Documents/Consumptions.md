@@ -70,17 +70,17 @@ The **Details** section lists all consumed materials with their source and recor
 
 ![Committed consumption document](../Images/ConsumptionsCommittedDocument.png "Committed consumption document")
 
+### Delete a consumption document
+
+Consumption documents cannot be deleted from the system to ensure traceability of material usage in production, but they can be reversed as described above.
+
 ## Menu
 
-Committed consumption documents can be corrected through reversals. Open the document menu and select:
+The menu provides additional actions available on this page.
+
+Available actions:
 
 - **Create a new reversal**
 
-This creates a reversal document that negates the stock and financial effect of the consumption (depending on system configuration). See **[Reversals](Reversals.md)** for more details.
-
-![Consumptions menu](../Images/ConsumptionsMenu.png "Consumptions menu")
-
-## Delete a consumption document
-
-Consumption documents cannot be deleted from the system to ensure traceability of material usage in production, but they can be reversed as described above.
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 

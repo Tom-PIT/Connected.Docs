@@ -130,10 +130,6 @@ This section allows you to define whether the business partner uses the **compan
 
 ![New Business Directory Collapsible Sections](../Images/BusinessDirectoryCollapsibleOptions.png "New business collapsible sections")
 
-## Menu
-
-The **Menu** in the top-right corner provides the **Exporting** option, which exports all visible records into a CSV file, allowing further analysis or backup.
-
 ### Edit a business directory entry
 
 To edit an existing record, follow these steps:
@@ -157,3 +153,26 @@ If confirmed, the entry is permanently removed; otherwise, the system keeps the 
 > [!NOTE]
 >An entry can be deleted only if it is not referenced in any dependent records (for example, invoices or orders).
 
+## Menu
+
+This page includes menu actions in two places.
+
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+
+- **Export to CSV**
+
+### Document menu
+
+The document menu provides actions for the currently opened document.
+
+Available actions:
+
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../Common/Concepts/MenuActions.md).

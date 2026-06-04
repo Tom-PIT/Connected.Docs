@@ -255,9 +255,11 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed credit notes **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Menu
+## Menu
 
-The document menu provides additional actions:
+The menu provides additional actions available on this page.
+
+Available actions:
 
 - **Printing**
 - **Exporting**
@@ -266,6 +268,9 @@ The document menu provides additional actions:
 - **Reverse document**
 - **Return to draft** (only if allowed)
 
-![Credit note menu](../Images/CreditDebitNoteMenu.png)
+> [!NOTE]
+> Reversing a credit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.
 
-Reversing a credit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+
+![Credit note menu](../Images/CreditDebitNoteMenu.png)

@@ -103,14 +103,23 @@ This creates a Disassembly draft prefilled from the received packages, useful to
 2. In **Draft** status, you can modify header fields and details.
 3. Use **Save** to confirm changes.
 
-### Menu
 
-Click on the hamburger menu (three vertical dots) in the top-right corner to print **received serial number labels** using a configured printer.
-
-## Delete a disassembly document
+### Delete a disassembly document
 
 - Draft disassemblies can be deleted freely from the edit screen, using the **Delete** button. After confirmation, the document is removed from the system without affecting inventory.
 - Published disassemblies cannot be deleted.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+![Ticket menu](../Images/TicketsMenu.png)
+
+Available actions:
+
+- **Print received serial number labels**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 
 

@@ -48,7 +48,6 @@ The left sidebar lists parent materials grouped by [**Material type**](../Domain
 
    ![Sets list](../Images/SetsList.png "Sets list")
 
-
 ### Edit a set
 
 Click on a component in the set list to modify its quantity or replace it with another material.

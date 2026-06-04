@@ -144,14 +144,6 @@ When the full amount is paid, the invoice moves to **Fully paid invoices**. The 
    
 ![Fully paid retail invoice](../Images/RetailInvoiceFullyPaid.png "Fully paid retail invoice")
 
-#### List menu
-
-On the list view, the menu in the top-right corner provides additional options:
-
-- **Exporting** – Export to CSV. There are two report options:
-    - **Documents** – Exports all the list of invoices on the list.
-    - **Details** – Exports all line item details for all invoices on the list.
-
 ## Actions
 
 ### Create a new retail issued invoice
@@ -262,21 +254,37 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Committed invoices **cannot** be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md) or **returned to draft**.
 
-### Menu
 
-The document menu for published invoices provides:
-- **Printing**
-- **Exporting**
-- **Send as email**
+## Menu
+
+This page includes menu actions in two places.
+
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+
+- **Export to CSV** – There are two report options:
+    - **Documents** – Exports all the list of invoices on the list.
+    - **Details** – Exports all line item details for all invoices on the list.
+
+### Document menu
+
+The document menu provides actions for the currently opened document.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+- **Send as email** 
 - **Delete all details** (only for drafts)
-- **Reverse document** - See [**Reversals**](../../Logistics/Documents/Reversals.md) for details.
+- **[Reverse document](../../Logistics/Documents/Reversals.md)**
 - **Return to draft**
 
-   ![Retail invoice menu](../Images/RetailInvoiceMenu.png "Retail invoice menu")
-
-> [!NOTE]
->
-> Draft invoices do not have **Reverse document**, but they have a **Delete all details** option.
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 
 

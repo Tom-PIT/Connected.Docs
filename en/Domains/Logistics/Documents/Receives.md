@@ -166,24 +166,6 @@ For more details, see the [Disassemblies](Disassemblies.md) documentation.
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
-#### Menu
-
-Inside a receive document, the **menu (hamburger icon)** in the top-right corner provides different options depending on the document status.
-
-![Menu options](../Images/ReceiveMenu.png "Menu options")
-
-##### Draft receive document
-
-- Print  
-- Export (PDF)  
-- Delete all details 
-
-##### Published receive document
-
-- Print  
-- Export (PDF)  
-- [**Create a new reversal**](Reversals.md).
-
 ### Edit a receive document
 
 Click a document code from the list to open the edit screen. You can:
@@ -212,3 +194,16 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]
 > Committed documents **cannot** be deleted — only [reversed](Reversals.md).
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+- **Delete all details** (only for draft documents)
+- **Reverse issue** (only for committed documents)
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

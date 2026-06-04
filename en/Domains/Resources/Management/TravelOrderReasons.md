@@ -15,7 +15,9 @@ To access **Travel order reasons**, go to **Resources / Management / Travel orde
 |------|------------|
 | **Name** | The name of the travel order reason as shown to users when creating a travel order (for example: *Supplier visit*, *Customer meeting*). |
 
-## Travel order reasons list
+## Management
+
+### Travel order reasons list
 
 The list displays all configured travel order reasons.
 

@@ -208,15 +208,20 @@ If you need to remove only a specific material instead of clearing the entire do
 > [!NOTE]
 > Only **draft** sales orders can be deleted. Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
 
-### Menu
+## Menu
 
-The document menu provides additional actions:
+The menu provides additional actions available on this page.
 
-![Sales orders – menu](../Images/SalesOrderMenu.png)
+Available actions:
 
-- **Print**  
-- **Export** (PDF)  
-- **Import details** (for draft orders)
-- **Delete all details** (for draft orders)
-- **Return to draft** (for completed orders)
+- **Print**
+- **Export to PDF**
+- **Import details** 
+- **Delete all details** (only for drafts)
+- **Return to draft**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+
+> [!NOTE]
+> A reversal negates the financial effect of a committed prepayment. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
 

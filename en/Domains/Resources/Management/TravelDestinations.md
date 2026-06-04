@@ -20,7 +20,9 @@ To access **Travel destinations**, go to **Resources / Management / Travel desti
 | **Distance** | Distance between start and destination. |
 | [**Measure unit**](../../../Common/Management/MeasureUnits.md) | Unit used for the distance (for example kilometers). |
 
-## List view
+## Management
+
+### List view
 
 The list view displays all configured travel destinations.
 

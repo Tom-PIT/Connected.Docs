@@ -75,4 +75,10 @@ When an invoice is fully paid or settled, it is automatically removed from this 
 
 ## Menu
 
-Use the **Menu** in the top-right corner to export the data as a PDF.
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to PDF**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

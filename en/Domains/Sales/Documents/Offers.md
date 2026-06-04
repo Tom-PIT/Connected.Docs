@@ -230,14 +230,17 @@ Once the document contains no materials, you can click **Delete** to remove the 
 > [!NOTE]  
 > An offer can be deleted only if it is not linked to another dependent document (e.g., Sales orders).
 
-### Menu
+## Menu
 
-The top menu provides options for: 
-- **Printing**
-- **Exporting** (to PDF)
-- **Sending the document via email**
-- **Return to draft** (only for Committed documents)
+The menu provides additional actions available on this page.
 
-![Offers menu](../Images/OffersMenu.png)
+Available actions:
+
+- **Print**
+- **Export to PDF**
+- **Send as email** 
+- **Return to draft**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 

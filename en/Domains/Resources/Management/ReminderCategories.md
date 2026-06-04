@@ -16,7 +16,9 @@ To access **Reminder categories**, go to **Resources / Management / Reminder cat
 | **Name** | Name of the reminder category, shown when selecting a category while creating or editing a reminder. |
 | **Status** | Determines whether the category is active and available for selection. Disabled categories cannot be used for new reminders. |
 
-## List view
+## Management
+
+### List view
 
 The reminder categories list displays all defined categories.
 

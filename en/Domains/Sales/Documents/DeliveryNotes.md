@@ -193,12 +193,11 @@ If confirmed, the document is permanently removed.
 > - A delivery note cannot be deleted if it is referenced by dependent documents (Issues, Invoices, Production orders, etc.).
 > - Completed documents **cannot** be deleted — only reversed or returned to draft.
 
+## Menu
 
-### Menu
+The menu provides additional actions available on this page.
 
-The top-right menu includes:
-
-![Delivery notes menu](../Images/DeliveryNotesMenuV2.png)
+Available actions:
 
 - **Printing**
 - **Exporting (PDF)**
@@ -207,6 +206,8 @@ The top-right menu includes:
 - **Reverse document** (Completed documents)
 - **Return to draft** (Completed documents)
 
-> **Reversal note:**  
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+
+> [!NOTE]] 
 > A reversed delivery note appears under *Reversal state → Reversed* in the sidebar.
 

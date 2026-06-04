@@ -95,17 +95,6 @@ A newly created inter warehouse document appears in **Drafts**. Once published, 
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
-#### Menu
-
-Inside an inter warehouse document, the **menu (hamburger icon)** in the top-right corner provides:
-
-- **Printing**
-- **Exporting (PDF)**
-
-These options are available for both *draft* and *committed* documents.
-
-![InterWarehouseMenuOptions](../Images/InterWarehouseMenuOptions.png)
-
 ### Delete an inter warehouse document
 
 Draft documents can be deletedon the edit screen, but only if they contain **no material entries**.
@@ -119,3 +108,16 @@ If the draft still includes materials in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 Committed documents **cannot** be deleted.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+
+

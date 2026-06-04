@@ -89,7 +89,6 @@ From the Pending state, you can:
 
 When the order is ready for production, click **Activate**.
 
-
 ## Linked documents
 
 You may attach other documents that relate to the production order, such as:
@@ -162,13 +161,6 @@ The **Process** section displays the full execution history. Click on the differ
 
 ![Production Orders Closed Inputs](../Images/ProductionOrdersClosedInputs.png)
 
-Closed production orders offer additional options in the action menu:
-
-- Printing
-- Exporting (PDF)
-- Revert to active - allows reopening the order for corrections if needed
-
-![Production Order Closed Menu](../Images/ProductionOrderClosedMenu.png)
 
 ### Revert a closed production order to active
 
@@ -192,3 +184,15 @@ To delete a production order:
 > [!NOTE]
 >
 > Closed orders cannot be deleted, but they can be reverted to active for modifications if necessary.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+- **Revert to active**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

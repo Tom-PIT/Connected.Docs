@@ -100,18 +100,18 @@ In the list view, click on a document **Code** to open it. In **Draft** status, 
 
 Use the **Notes** section to record any comments related to the inventory process.
 
-#### Menu
-
-Inside an inventory document, the **menu (hamburger icon)** provides the following options:
-
-- **Printing**
-- **Exporting (PDF)**  
-
-These options are available for both *draft* and *committed* documents.
-
-![InterWarehouseMenuOptions](../Images/InterWarehouseMenuOptions.png)
-
 ### Delete an inventory document
 
 - Click **Delete** in the edit screen to remove a **draft** inventory document. After confirmation, the document is removed from the system without affecting inventory.
 - Committed inventory documents **cannot** be deleted or reversed.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

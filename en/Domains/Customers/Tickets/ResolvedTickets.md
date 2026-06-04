@@ -72,3 +72,21 @@ When reopened:
 - The ticket is removed from the **Resolved tickets** list
 - It reappears in the **[Tickets](Tickets.md)** screen
 - Its status is updated accordingly
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+![Ticket menu](../Images/TicketsMenu.png)
+
+Available actions:
+
+- **Subscribe/Unsubscribe to ticket**
+- **View subscribers**
+- **Share**
+- **Record effort**
+
+> [!NOTE]
+ Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

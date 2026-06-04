@@ -85,10 +85,6 @@ At the top of the Supply orders list, the system displays two key indicators sum
 - **Over the supply date** (interactive) – Supply orders whose planned supply date has passed and are not yet fully received. Clicking this indicator automatically filters the list to show only such orders.
 - **Total amount** – Displays the total value (net + tax) of all supply orders included in the active filter.
 
-#### Menu
-
-The menu in the top-right corner of the list provides the option to export the list as a CSV file.
-
 ### Filters
 
 - **Document dates**  
@@ -171,14 +167,31 @@ If confirmed, the system removes the document permanently; otherwise, no changes
 > - Once a supply order is published, it can no longer be deleted.  
 > - Published documents cannot be deleted, but they can be [reversed](../../Logistics/Documents/Reversals.md).
 
-### Menu
+## Menu
 
-The **Menu** in the top-right corner provides:
+This page includes menu actions in two places.
 
-![Supply order menu](../Images/SupplyOrderMenu.png)
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
 
-- **Printing** – Print the supply order  
-- **Exporting** – Export to PDF  
-- **Send as email**  
-- **Reverse document**  
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+
+- **Export to CSV**
+
+### Document menu
+
+The document menu provides actions for the currently opened document.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+- **Send as email** 
+- **[Reverse document](../../Logistics/Documents/Reversals.md)**
+- **Return to draft**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 

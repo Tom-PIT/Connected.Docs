@@ -49,4 +49,10 @@ The **Postings** view shows all postings regardless of balance. Unlike journal e
 
 ## Menu
 
-The **Menu** in the top-right corner provides options to export the postings list as a CSV file for further analysis.
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to CSV**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

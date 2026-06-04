@@ -89,12 +89,6 @@ You can open any document to review its details.
 
 Published writeoffs immediately update stock levels.
 
-#### Menu
-
-Inside a **committed** writeoff document, the menu (hamburger icon) has the option to [**Create a new reversal**](Reversals.md).
-
-The menu is **not available** for draft writeoff documents.
-
 ### Delete a writeoff document
 
 Draft writeoff documents can be deleted on the edit screen, but only if they contain **no material entries**.
@@ -109,5 +103,15 @@ Once the document contains no materials, you can click **Delete** to remove the 
 
 > [!NOTE]
 > Committed documents **cannot** be deleted — only [reversed](Reversals.md).
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Create a new reversal** (only for committed documents)
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
 

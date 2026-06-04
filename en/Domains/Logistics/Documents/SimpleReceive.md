@@ -75,3 +75,13 @@ After clicking **Finish**:
 
 For more advanced receiving workflows (serial numbers, best-before dates, packaging, attachments, reversals, etc.), see the full [Receives documentation](Receives.md).
 
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Publish**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+

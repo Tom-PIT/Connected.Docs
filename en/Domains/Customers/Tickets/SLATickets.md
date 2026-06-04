@@ -70,3 +70,21 @@ The left sidebar provides filters to refine the list:
 Click a ticket name to open its detail view. From there, users can review the ticket, add comments, or change its status.
 
 If a ticket is resolved or reopened, it is automatically removed from or reclassified within the SLA tickets list.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+![Ticket menu](../Images/TicketsMenu.png)
+
+Available actions:
+
+- **Subscribe/Unsubscribe to ticket**
+- **View subscribers**
+- **Share**
+- **Record effort**
+
+> [!NOTE]
+ Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

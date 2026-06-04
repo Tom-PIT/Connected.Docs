@@ -37,12 +37,12 @@ See [Stock view by location](../Views/StockViewByLocation.md) for more details.
 
 Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
 
-- Import  
-- New  
+- **Import**  
+- **New** 
 
-### Import
-You can import locations from a **CSV** file. This is useful when you are setting up warehouse structures with many racks, shelves, and bins.
+### Import locations
 
+Click the action button and select **Import** to open the import interface. You can import locations from a **CSV** file. This is useful when you are setting up warehouse structures with many racks, shelves, and bins.
 
 ![Import locations](../Images/LocationsImport.png "Import locations")
 
@@ -66,9 +66,9 @@ MAIN,CR01-SH02,Shelf 2,CR01,Second shelf in the central rack
 SEC,SEC-R1,Rack 1,,Rack in secondary warehouse
 ```
 
-### New
+### Create a new location
 
-The **New** action opens the input form for creating a new entry. The form includes the following fields:
+Click the action button and select  **New** to create a new location record manually. The **New** action opens the input form for creating a new entry. The form includes the following fields:
 
 - **Code**
 - **Name**
@@ -80,13 +80,13 @@ The **New** action opens the input form for creating a new entry. The form inclu
 
 After entering the required information, click **Add** to save the location or **Cancel** to return to the list view.
 
-## Editing
+### Edit a location
 
 To edit an existing location, click the location's **Name** in the list. The interface switches to edit mode, displaying the existing values. 
 
 Click **Save** to confirm changes or **Cancel** to discard them.
 
-## Deletion
+### Delete a location
 
 Click **Delete** on the edit screen to open a confirmation dialog: 
 
@@ -96,3 +96,13 @@ If confirmed, the location is permanently removed; otherwise, the system keeps t
 
 > [!NOTE]
 >A location can be deleted only if it is not used in any dependent entries, such as stock records or warehouse operations.  
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print locations code labels for warehouse using**
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

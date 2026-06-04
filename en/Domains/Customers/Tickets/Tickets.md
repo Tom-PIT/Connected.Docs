@@ -64,9 +64,9 @@ Tickets can be filtered using the left panel:
 
 Tickets move through the following main statuses:
 
-- **New** – ticket has been created but not yet activated
-- **Active** – ticket is being worked on
-- **Resolved** – ticket is completed and moved to [**Resolved tickets**](ResolvedTickets.md)
+- **New** â€“ ticket has been created but not yet activated
+- **Active** â€“ ticket is being worked on
+- **Resolved** â€“ ticket is completed and moved to [**Resolved tickets**](ResolvedTickets.md)
 
 ## Create a new ticket
 
@@ -82,7 +82,7 @@ The first step is selecting the **Desk** the ticket belongs to. Select the desk,
 
 In the second step, ticket details are entered or edited.
 
-![Create ticket – details](../Images/TicketsNewStep2.png)
+![Create ticket â€“ details](../Images/TicketsNewStep2.png)
 
 Click the [action button](../../../Common/UI/ActionButton.md) to:
 - Published as **New**
@@ -124,21 +124,6 @@ To save a comment, the ticket must be updated by:
 
 The audit trail tracks all changes made to the ticket on a timeline. To open it, click the **Audit trail** tab in the ticket view, under the **Comment** section.
 
-### Menu actions
-
-Additional actions are available through the ticket menu, located on the top-right side of the ticket view.
-
-![Ticket menu](../Images/TicketsMenu.png)
-
-Available options include:
-- **Subscribe to ticket**
-- **View subscribers**
-- **Share**
-- **Record effort**
-
-> [!NOTE]
- Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
-
 ## Resolve a ticket
 
 Click on the [action button](../../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
@@ -155,3 +140,21 @@ When a ticket is resolved:
 - Its status is set to **Resolved**
 - It is removed from the active list
 - It appears in the **[Resolved tickets](ResolvedTickets.md)** screen
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+![Ticket menu](../Images/TicketsMenu.png)
+
+Available actions:
+
+- **Subscribe/Unsubscribe to ticket**
+- **View subscribers**
+- **Share**
+- **Record effort**
+
+> [!NOTE]
+ Manage your perâ€‘desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
