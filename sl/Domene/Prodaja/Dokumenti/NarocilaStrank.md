@@ -23,6 +23,8 @@ Naročila strank so eden ključnih korakov v prodajni verigi:
    - [**Nabavni nalogi**](../../Nabava/Dokumenti/NabavniNalogi.md)
    - [**Izdani računi**](IzdaniRacuni.md)
 
+![Sales Order Diagram S L](../Images/SalesOrderDiagramSL.svg "Diagram naročila stranke v prodajnem procesu")
+
 Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaključeno stanje.
 
 > [!NOTE]

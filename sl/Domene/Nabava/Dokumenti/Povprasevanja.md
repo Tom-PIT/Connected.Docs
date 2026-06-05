@@ -18,6 +18,8 @@ Tipičen potek:
 3. Po odobritvi povpraševanje pretvorite v **[Nabavni nalog](NabavniNalogi.md)** prek razdelka **Povezani dokumenti**.  
 4. Iz nabavnega naloga lahko nato ustvarite **[Prevzem](../../Logistika/Dokumenti/Prevzemi.md)** (delni ali celotni), ko material prispe.
 
+![Inquiry Diagram S L](../Images/InquiryDiagramSL.svg "Diagram povpraševanja v procesu dobave")
+
 > [!NOTE]
 > Povpraševanja niso obvezna — **nabavne naloge** je mogoče ustvariti tudi neposredno, brez predhodnega povpraševanja. Organizacija lahko uporablja vse ali le nekatere korake, odvisno od nabavnega procesa.
 
