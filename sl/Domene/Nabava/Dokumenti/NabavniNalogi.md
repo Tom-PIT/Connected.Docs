@@ -22,6 +22,8 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 4. Ko so vsi materiali prevzeti, se nabavni nalog samodejno premakne v stanje **Zaključeno**.  
    - Če je prevzem le delni, dokument ostane v stanju **Na voljo**, dokler ni v celoti zaključen.
 
+![Pregled življenjskega cikla nabavnega naloga](../Images/SupplyOrderDiagramSL.svg "Diagram nabavnega naloga v nabavnem procesu")
+
 ## Shema
 
 <details open>
