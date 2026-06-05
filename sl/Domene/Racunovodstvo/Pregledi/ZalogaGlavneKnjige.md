@@ -70,7 +70,10 @@ S klikom na **naziv materiala** se odpre pripadajoč pogled **[Zaloga po materia
 
 ## Meni
 
-**Meni** v zgornjem desnem kotu omogoča:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
 
-- **Tiskanje** – izpis trenutnega pogleda.
-- **Izvoz CSV** – izvoz podatkov v CSV datoteko za nadaljnjo analizo.
+Na voljo je naslednje dejanje:
+
+- **Izvoz stanje zaloge po povprečnem znesku**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

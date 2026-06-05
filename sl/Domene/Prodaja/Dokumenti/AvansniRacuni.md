@@ -254,9 +254,12 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 > [!NOTE]  
 > Objavljenih avansnih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
 
-### Meni dokumenta
+## Meni
 
-Meni dokumenta omogoča:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
 - **Tiskanje**
 - **Izvoz**
 - **Pošlji preko e-pošte**
@@ -264,7 +267,7 @@ Meni dokumenta omogoča:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti)
 - **Vrni v osnutek** (če je dovoljeno)
 
-![Meni avansnega računa](../Images/PrepaymentsMenu.png "Meni avansnega računa")
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
-Storniranje razveljavi finančni učinek potrjenega avansnega računa. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
-
+> [!NOTE]
+> Storniranje razveljavi finančni učinek potrjenega avansnega računa. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

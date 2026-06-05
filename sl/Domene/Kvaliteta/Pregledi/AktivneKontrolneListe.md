@@ -48,14 +48,6 @@ Uporabite filtre za zoženje seznama:
   - [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md), kadar je vrsta dokumenta Vzdrževalni nalog
 - Kliknite **šifro operacije**, da odprete stran [Izvedba](../../Proizvodnja/Dokumenti/Izvedba.md), osredotočeno na trenutno izvajanje.
 
-## Meni
-
-**Meni** v zgornjem desnem kotu ponuja:
-
-- **Tiskanje**
-- **Izvoz CSV**
-- **Izvoz PDF**
-
 ## Urediti kontrolno listo
 
 Stran za urejanje kontrolne liste prikazuje trenutno **šifro** in **ime** kontrolne liste, nato pa pregled kontrolnih točk.
@@ -64,7 +56,15 @@ Stran za urejanje kontrolne liste prikazuje trenutno **šifro** in **ime** kontr
 
 Tipična postavitev vključuje seznam kontrolnih točk z zahtevanimi vnosi (potrditve, meritve, tolerance).
 
-## Postavke
+## Meni
 
-- Tukaj so prikazane samo kontrolne liste, ki so trenutno v teku; zaključeni elementi so na voljo v pogledu Zaključene kontrolne liste.
-- Osveževanje podatkov poteka samodejno v rednih intervalih ali ob ročni osvežitvi.
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo sta naslednji dejanji:
+
+- **Tiskanje**
+- **Izvoz PDF in CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
+
+

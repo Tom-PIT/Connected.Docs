@@ -106,8 +106,13 @@ Po potrditvi brisanja se opomin trajno odstrani iz sistema.
 
 Objavljenih opominov za zamudo **ni mogoče** izbrisati.
 
-### Meni
+## Meni
 
-Zgornji meni omogoča:
-- tiskanje
-- izvoz (PDF)
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo sta naslednji dejanji:
+
+- **Tiskanje**
+- **Izvozv PDF**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

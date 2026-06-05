@@ -112,16 +112,18 @@ Sistem beleži vsebnik, količino, dokument, datum in uporabnika.
 
 Podprto v **[Izdajnicah](Izdajnice.md)**, **[Premikih](MedSkladiscniPromet.md)** in [**porabi v proizvodnji**](Porabe.md).
 
-## Meni
-
-V **meniju dokumenta** so na voljo naslednje možnosti:
-
-- **Tiskanje** (če je konfigurirano) — natisne nalepko vsebnika (SSCC)
-- **Izvoz** — izvozi nalepko vsebnika (SSCC) v PDF
-
-![Meni vsebnika](../Images/ContainersMenu.png "Meni vsebnika")
-
 ## Izbrisati vsebnike
 
 - Osnutke vsebnikov je mogoče prosto izbrisati v urejanju. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Zapakiranih vsebnikov **ni mogoče izbrisati**; za sprostitev vsebine uporabite **Razpusti**
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Tiskanje** — natisne nalepko vsebnika (SSCC)
+- **Izvoz** — izvozi nalepko vsebnika (SSCC) v PDF
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

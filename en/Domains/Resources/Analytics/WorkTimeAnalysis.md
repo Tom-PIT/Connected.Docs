@@ -77,7 +77,7 @@ The menu provides additional actions available on this page.
 
 Available actions:
 
-- **Export** the effort cost details to CSV** 
+- **Export the effort cost details to CSV** 
 
 The resulting file shows the expenses linked to the recorded work time.
 

@@ -56,7 +56,7 @@ Monitor performance and reliability using built-in analytics.
 
 ![Maintenance Domain Analytics](../Images/MaintenanceDomainAnalytics.png "Maintenance Domain analytics")
 
-- **[Maintenance indicators](../Analytics/MaintenanceIndicators.md)** — KPI cards and detailed lists for MTBF, detection time, repair time, effort, and workload breakdown.
+- **[Maintenance KPIs](../Analytics/MaintenanceKIPs.md)** — KPI cards and detailed lists for MTBF, detection time, repair time, effort, and workload breakdown.
 
 ## Lifecycle and execution
 

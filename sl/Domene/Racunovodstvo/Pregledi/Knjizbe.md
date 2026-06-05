@@ -58,4 +58,10 @@ Vsaka vrstica v seznamu predstavlja eno knjižbo in vključuje:
 
 ## Meni
 
-**Meni** v zgornjem desnem kotu omogoča izvoz seznama knjižb v **CSV datoteko** za nadaljnjo analizo.
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

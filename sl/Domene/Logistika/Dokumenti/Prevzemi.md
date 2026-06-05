@@ -163,24 +163,6 @@ Za več podrobnosti glejte dokumentacijo [**Demontaže**](Demontaze.md).
 
 Vsak dokument vsebuje razdelek **Opombe**, kamor lahko vnesete dodatne komentarje ali informacije. Opombe se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
-#### Meni
-
-V prevzemnem dokumentu **meni (ikona hamburger)** v zgornjem desnem kotu ponuja različne možnosti, odvisno od stanja dokumenta.
-
-![Meni prevzema](../Images/ReceiveMenu.png "Meni prevzema")
-
-##### Osnutek prevzema
-
-- Tiskanje  
-- Izvoz (PDF)  
-- Izbriši vse postavke  
-
-##### Objavljen prevzem
-
-- Tiskanje  
-- Izvoz (PDF)  
-- [**Ustvari storno**](Storno.md)
-
 ### Urediti dokument prevzema
 
 Kliknite kodo dokumenta na seznamu, da odprete zaslon za urejanje. Lahko:
@@ -210,3 +192,16 @@ Ko dokument ne vsebuje več nobene postavke, lahko kliknete **Izbriši**, da ods
 
 > [!NOTE]
 > Objavljenih dokumentov **ni mogoče izbrisati** — mogoče jih je samo **stornirati**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Tiskanje**
+- **Izvoz v PDF**
+- **Izbriši postavke** (samo za osnutke)
+- **Ustvari storno** (samo za objavljene dokumente)
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

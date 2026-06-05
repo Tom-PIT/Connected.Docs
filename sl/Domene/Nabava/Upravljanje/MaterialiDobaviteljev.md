@@ -46,12 +46,6 @@ Leva stranska vrstica vsebuje naslednje filtre:
 
 Filtri omogočajo zoženje rezultatov glede na dobavitelja in kategorijo materiala.
 
-### Meni
-
-**Meni** v zgornjem desnem kotu ponuja eno dejanje:
-
-- **Izvoz** – izvoz prikazanega seznama materialov dobaviteljev v CSV datoteko za analizo ali arhiviranje.
-
 ## Dejanja
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
@@ -116,6 +110,24 @@ Kliknite na dobaviteljev material in nato kliknite **Izbriši**, da ga odstranit
 > [!NOTE]
 > Zapis materiala dobavitelja je mogoče izbrisati samo, če nanj ne kažejo drugi zapisi.
 
+## Meni
+
+Na tej strani so dejanja menija na voljo na dveh mestih.
+
+### Meni seznama
+
+Meni seznama omogoča dejanja za trenutno prikazan seznam.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v CSV**
+
 ### Meni dokumenta
 
-Meni dokumenta v zgornjem desnem kotu omogoča eno dejanje, **Izvoz**. To dejanje izvozi podatke o dobaviteljevem materialu v datoteko CSV za namene analize ali varnostnega kopiranja.
+Meni dokumenta omogoča dejanja za trenutno odprt dokument.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

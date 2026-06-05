@@ -113,11 +113,6 @@ Kliknite **ime cenika** na seznamu, da odprete zaslon za urejanje. Tukaj lahko s
 > [!OPOMBA]
 > Če želite urediti cene in razpone materialov, kliknite gumb **Postavke**, da odprete stran s podrobnostmi, kjer lahko po potrebi spremenite materiale in razpone.
 
-#### Meni
-
-Meni v pogledu **Podrobnosti** omogoča:
-- izvoz podrobnosti cen materialov (vključno z razponi) v **CSV**
-
 ### Kopirati cenik materialov
 
 Ustvari kopijo obstoječega cenika, vključno z obdobjem veljavnosti in vsebino.
@@ -138,3 +133,13 @@ Cenik materialov je mogoče izbrisati **samo, če ne vsebuje nobenih podrobnosti
 4. Postopek ponovite, dokler ne ostane nobena podrobnost
 
 Ko je cenik prazen, ga lahko izbrišete na zaslonu za urejanje.
+
+## Meni
+
+Meni v pogledu **Podrobnosti** omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

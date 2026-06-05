@@ -52,7 +52,7 @@ Stran **Porabe** prikazuje vse dokumente porabe, ustvarjene med izvajanjem proiz
 
 ## Dejanja
 
-Dokumentov porabe **ni mogoče ustvariti ročno** na tej strani (ni [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se iz modula [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md) med beleženjem porabe za proizvodni nalog.
+Dokumentov porabe **ni mogoče ustvariti ročno** na tej strani (ni [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se iz modula [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md) med beleženjem porabe za proizvodni nalog.
 
 Delovni tok:
 - Ko proizvodni delavec začne beležiti porabo, se samodejno ustvari **osnutek** dokumenta porabe.
@@ -75,18 +75,16 @@ Razdelek **Postavke** prikazuje vse porabljene materiale skupaj z njihovim virom
 
 ![Objavljen dokument porabe](../Images/ConsumptionsCommittedDocument.png "Objavljen dokument porabe")
 
-## Meni
-
-Objavljene dokumente porabe je mogoče popraviti s pomočjo storna.  
-Odprite **meni dokumenta** in izberite:
-
-- **Ustvari novo storno**
-
-S tem se ustvari dokument storna, ki izniči zalogovni in (odvisno od konfiguracije sistema) tudi finančni učinek porabe. Za več informacij glejte  
-[**Storno**](Storno.md).
-
-![Meni porab](../Images/ConsumptionsMenu.png "Meni porab")
-
 ## Izbrisati dokument porabe
 
 Dokumentov porabe **ni mogoče izbrisati** iz sistema, saj je potrebno ohraniti sledljivost uporabe materialov v proizvodnji. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Ustvari novo storno**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

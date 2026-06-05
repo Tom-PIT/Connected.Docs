@@ -5,7 +5,7 @@
 
 # Reversals
 
-A **Reversal** document is used to undo the effect of another logistics document. It allows you to correct mistakes or adjust stock levels when a previously committed movement needs to be reversed. You can reverse only committed documents, and only through their **Menu → Create a new reversal** option. Reversals cannot be created directly from the Reversals list.
+A **Reversal** document is used to undo the effect of another committed document. It allows you to correct mistakes or adjust stock levels when a previously committed movement needs to be reversed. You can reverse only committed documents, and only through their **Menu → Create a new reversal** option. Reversals cannot be created directly from the Reversals list.
 
 Reversals adjust stock depending on the type of document being reversed:
 - Reversing a **[Writeoff](Writeoffs.md)** returns items to stock.
@@ -18,6 +18,27 @@ Reversals can be **full** or **partial**, depending on the quantity you enter. R
 > For a full demonstration, see the **[Reversal](https://www.youtube.com/watch?v=yfGNARBWm7Q)** video tutorial.
 
 To access Reversals, go to **Logistics / Documents / Reversals** in the [navigation](../../../Common/UI/Navigation.md).
+
+## How reversals work
+
+A reversal cancels the effect of an existing committed document without deleting or modifying the original document.
+
+When a reversal is published:
+
+- The original document remains unchanged.
+- A reversal document is created and linked to the original document.
+- Opposite stock or financial effects are applied.
+- The original document is marked as partially or fully reversed.
+
+Together, the original document and its reversal result in a net effect of zero.
+
+Different document types produce different effects when reversed.
+
+Examples:
+
+- Logistics documents reverse stock movements.
+- Financial documents reverse financial values.
+- Credit notes reverse the effect of the original credit transaction.
 
 ## Schema
 

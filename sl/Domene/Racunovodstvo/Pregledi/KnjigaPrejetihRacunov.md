@@ -44,4 +44,10 @@ Vsaka vrstica predstavlja en prejeti račun in vključuje:
 
 ## Meni
 
-V meniju (zgornji desni kot) lahko izberete **Izvoz v PDF** za generiranje PDF datoteke filtriranega seznama.
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v PDF**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

@@ -102,11 +102,17 @@ S tem se ustvari osnutek demontaže, predizpolnjen na podlagi prejetih paketov, 
 2. V stanju *Osnutek* lahko urejate glavo dokumenta in postavke.
 3. Kliknite **Shrani**, da potrdite spremembe.
 
-### Meni
-
-V zgornjem desnem kotu kliknite **meni (ikona hamburger)** za tiskanje **nalepk serijskih številk**, če je tiskalnik konfiguriran.
-
 ### Izbrisati dokument demontaže
 
 - Osnutke demontaž lahko izbrišete s klikom na **Izbriši** v urejanju. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Objavljenih dokumentov demontaže praviloma **ni mogoče izbrisati**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Tiskanje nalepk serijskih številk** 
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

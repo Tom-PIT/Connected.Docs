@@ -239,9 +239,19 @@ Potrjenih dokumentov **ni mogoče** izbrisati.
 ### Meni
 
 Zgornji meni omogoča:
+
+
+![Meni ponudb](../Images/OffersMenu.png "Meni ponudb")
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
 - **Tiskanje**
 - **Izvoz (v PDF)**
 - **Pošiljanje dokumenta po e-pošti** (samo za potrjene dokumente)
 - **Povrni v osnutek** (samo za potrjene dokumente)
 
-![Meni ponudb](../Images/OffersMenu.png "Meni ponudb")
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

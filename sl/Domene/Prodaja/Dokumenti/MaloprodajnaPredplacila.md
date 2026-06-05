@@ -17,7 +17,7 @@ Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna predplač
 Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 
 1. Kupec izbere enega ali več izdelkov v trgovini.  
-2. Uporabnik ročno ustvari **Maloprodajno predplačilo** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md).  
+2. Uporabnik ročno ustvari **Maloprodajno predplačilo** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md).  
 3. Dokument se objavi in preide v stanje **Neplačani**.  
 4. Plačila se evidentirajo z gumbom **Plačilo**:
    - Delna plačila premaknejo dokument v stanje **Delno plačani**.
@@ -253,17 +253,20 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 > [!NOTE]  
 > Objavljenih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
 
-### Meni
+## Meni
 
-Meni dokumenta omogoča:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
 - **Tiskanje**
 - **Izvoz**
 - **Pošlji preko e-pošte**
 - **Izbriši vse postavke** (če je dokument v stanju Osnutek)
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek**
 
-![Meni maloprodajnega predplačila](../Images/RetailInvoiceMenu.png "Meni dokumenta")
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
 > [!NOTE]
-> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.
+> Storniranje maloprodajnega predplačila izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

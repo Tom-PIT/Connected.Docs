@@ -192,18 +192,20 @@ Ko dokument ne vsebuje več postavk, ga lahko izbrišete. Ob potrditvi se dokume
 > - Dobavnice ni mogoče izbrisati, če je uporabljena v odvisnih dokumentih (Izdaje, Računi, Proizvodni nalogi itd.).  
 > - Zaključenih dokumentov **ni mogoče** izbrisati – mogoče jih je le stornirati ali vrniti v osnutek.
 
-### Meni
+## Meni
 
-Meni v zgornjem desnem kotu omogoča:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
 
-![Meni dobavnic](../Images/DeliveryNotesMenuV2SL.png "Meni dobavnic")
+Na voljo so naslednja dejanja:
 
 - **Tiskanje**
-- **Izvoz (PDF)**
+- **Izvoz**
 - **Pošlji preko e-pošte**
 - **Tiskaj sredstvo** (zaključeni dokumenti)
-- **Storniraj dokument** (zaključeni dokumenti)
-- **Povrni v osnutek** (zaključeni dokumenti)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek** (če je dovoljeno)
 
-> **Opomba o storniranju:**  
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
+
+> [!NOTE] 
 > Stornirana dobavnica je prikazana pod *Stanje storniranja → Stornirano* v stranskem meniju.

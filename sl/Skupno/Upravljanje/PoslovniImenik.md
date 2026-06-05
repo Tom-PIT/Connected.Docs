@@ -63,10 +63,6 @@ Polje **Vrsta** določa davčni status entitete. Razpoložljive vrednosti so:
 - **Ni zevezanec za DDV**
 - **Končni potrošnik**
 
-### Meni seznamka
-
-Meni v zgornjem desnem kotu ponuja možnost **Izvoz**, ki izvozi vse vidne zapise v datoteko CSV za nadaljnjo analizo ali varnostno kopijo.
-
 ## Dejanja
 Kliknite [akcijski gumb](../../Skupno/UI/AkcijskiGumb.md) za prikaz razpoložljivih dejanj:
 
@@ -139,6 +135,24 @@ Za izbrisati obstoječega zapisa:
 > [!NOTE]
 > Vnos je mogoče izbrisati le, če ni uporabljen v nobenem od odvisnih zapisov (npr. računi ali naročila).
 
-### Meni
+## Meni
 
-Meni dokumenta v zgornjem desnem kotu ponuja možnost **Izvoz**, ki izvozi vse podrobnosti dokumenta v datoteko CSV za nadaljnjo analizo ali varnostno kopijo.
+Na tej strani so dejanja menija na voljo na dveh mestih.
+
+### Meni seznama
+
+Meni seznama omogoča dejanja za trenutno prikazan seznam.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v CSV**
+
+### Meni dokumenta
+
+Meni dokumenta omogoča dejanja za trenutno odprt dokument.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../Koncepti/MeniDejanja.md).

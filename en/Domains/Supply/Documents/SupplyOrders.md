@@ -188,7 +188,7 @@ The document menu provides actions for the currently opened document.
 Available actions:
 
 - **Print**
-- **Export to PDF**
+- **Export to PDF (Supply order document) or CSV (Supply order details)**
 - **Send as email** 
 - **[Reverse document](../../Logistics/Documents/Reversals.md)**
 - **Return to draft**

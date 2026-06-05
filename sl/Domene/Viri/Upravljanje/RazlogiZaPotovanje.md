@@ -15,6 +15,8 @@ Za dostop do **Razlogov za potovanje** pojdite na **Viri / Upravljanje / Razlogi
 |------|------|
 | **Ime** | Ime razloga za potovanje, ki je prikazano uporabnikom pri ustvarjanju potnega naloga (na primer: *Obisk dobavitelja*, *Sestanek s stranko*). |
 
+## Upravljanje
+
 ## Seznam razlogov za potovanje
 
 Seznam prikazuje vse konfigurirane razloge za potovanje.

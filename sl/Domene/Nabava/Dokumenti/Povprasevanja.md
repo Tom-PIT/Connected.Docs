@@ -157,9 +157,11 @@ Potrdite brisanje, da trajno odstranite dokument.
 
 ## Meni
 
-**Meni** v zgornjem desnem kotu ponuja naslednja dejanja:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
 
-![Meni povpraševanja](../Images/InquiriesMenu.png "Meni povpraševanja")
+Na voljo sta naslednji dejanji:
 
-- **Tiskanje** – tiskanje povpraševanja  
-- **Izvoz** – izvoz v PDF  
+- **Tiskanje**
+- **Izvoz v PDF**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

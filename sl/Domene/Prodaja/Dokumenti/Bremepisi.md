@@ -125,7 +125,7 @@ Osnutke je mogoče urejati, potrjeni bremepisi pa so dokončni, razen če so sto
 
 Bremepise je mogoče ustvariti na dva načina:
 
-- Z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md) na zaslonu **Bremepisi**  
+- Z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md) na zaslonu **Bremepisi**  
 - Iz obstoječega **[Izdanega računa](IzdaniRacuni.md)** prek *Povezani dokumenti → + Bremepis*
 
 Po začetku novega bremepisa sledite korakom:
@@ -173,7 +173,6 @@ Razpoložljivi konti so določeni v **[Kontnem načrtu](../../Racunovodstvo/Upra
 Ta razdelek vsebuje statistične podatke, ki so potrebni za poročanje Intrastat.
 
 Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana k poročanju Intrastat.
-
 
 ### Urediti bremepis
 
@@ -243,7 +242,9 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 
 ## Meni
 
-Meni dokumenta omogoča dodatna dejanja:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
 
 - **Tiskanje**
 - **Izvoz**
@@ -252,6 +253,7 @@ Meni dokumenta omogoča dodatna dejanja:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek** (če je dovoljeno)
 
-![Meni bremepisa](../Images/CreditDebitNoteMenu.png "Meni bremepisa")
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
-Storniranje bremepisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+> [!NOTE]
+> Storniranje bremepisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

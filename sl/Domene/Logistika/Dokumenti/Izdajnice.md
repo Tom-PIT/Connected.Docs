@@ -139,3 +139,16 @@ Ko dokument ne vsebuje več nobene postavke, lahko kliknete **Izbriši**, da ods
 
 > [!NOTE]
 > Objavljenih dokumentov **ni mogoče izbrisati** — mogoče jih je samo **stornirati**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Tiskanje**
+- **Izvoz v PDF**
+- **Izbriši postavke** (samo za osnutke)
+- **Ustvari storno** (samo za objavljene dokumente)
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

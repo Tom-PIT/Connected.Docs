@@ -114,15 +114,15 @@ Za dodajanje stroška odprite zavihek **Stroški** v razdelku **Podrobnosti** in
 
 ![Dodaj strošek](../Images/TravelOrdersDetailsExpenses.png)
 
-### Urediti potni nalog
-
-Potni nalog iz seznama lahko urejate, dokler je v stanju **Osnutek**. Z objavo potni nalog postane **samo za branje**. Osnutek lahko izbrišete, če ni več potreben.
-
-## Posebna vedenja / validacije
+#### Posebna vedenja / validacije
 
 - Objava potnega naloga ga naredi **samo za branje**.
 - Skupni zneski kilometrine, dnevnic in stroškov se **izračunajo samodejno**.
 - Seznam vozil vključuje samo **nečloveške vire**, označene kot `vehicle`.
+
+### Urediti potni nalog
+
+Potni nalog iz seznama lahko urejate, dokler je v stanju **Osnutek**. Z objavo potni nalog postane **samo za branje**. Osnutek lahko izbrišete, če ni več potreben.
 
 ## Izbrisati potni nalog
 

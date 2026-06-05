@@ -88,12 +88,6 @@ S klikom na dokument odprete njegov podroben pregled.
 
 Objavljeni odpisi takoj posodobijo stanje zaloge.
 
-#### Meni
-
-V **objavljenem** dokumentu odpisa je v meniju (ikona hamburger) na voljo možnost **Ustvari novo storno**.
-
-Meni **ni na voljo** za osnutke dokumentov odpisa.
-
 ### Izbrisati dokument odpisa
 
 Osnutke dokumentov odpisa je mogoče izbrisati na zaslonu za urejanje, vendar samo, če **ne vsebujejo nobenih postavk**.
@@ -108,3 +102,14 @@ Ko dokument ne vsebuje več nobenih postavk, ga lahko izbrišete.
 
 > [!NOTE]
 > Objavljenih dokumentov **ni mogoče izbrisati** — mogoče jih je samo **stornirati**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Ustvari storno** (samo za objavljene dokumente)
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
+

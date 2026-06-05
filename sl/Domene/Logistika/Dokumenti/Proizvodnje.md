@@ -48,7 +48,7 @@ Stran **Proizvodnje** prikazuje vse dokumente proizvodnje, ustvarjene prek izvaj
 
 ## Dejanja
 
-Dokumentov proizvodnje **ni mogoče ustvariti ročno** na tej strani (ni [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se v modulu [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md) med beleženjem izhodov za proizvodni nalog.
+Dokumentov proizvodnje **ni mogoče ustvariti ročno** na tej strani (ni [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md)). Ustvarijo se v modulu [**Izvajanje**](../../Proizvodnja/Dokumenti/Izvedba.md) med beleženjem izhodov za proizvodni nalog.
 
 Delovni tok:
 - Ko proizvodni delavec začne beležiti izhode, se samodejno ustvari **osnutek** dokumenta proizvodnje.
@@ -70,14 +70,16 @@ Razdelek **Postavke** prikazuje vse proizvedene postavke z njihovimi zabeleženi
 
 ![Objavljen dokument proizvodnje](../Images/ProductionsCommittedDocument.png "Objavljen dokument proizvodnje")
 
-### Meni
-
-Objavljene dokumente proizvodnje je mogoče popraviti s pomočjo storna. Odprite **meni dokumenta** in izberite **Ustvari novo storno**.
-
-S tem se ustvari dokument storna, ki izniči zalogovni in (odvisno od konfiguracije sistema) tudi finančni učinek knjiženja proizvodnje. Za več informacij glejte **[Storno](Storno.md)**.
-
-![Meni proizvodnje](../Images/ConsumptionsMenu.png "Meni proizvodnje")
-
 ## Izbrisati dokumente proizvodnje
 
 Dokumentov proizvodnje **ni mogoče izbrisati** iz sistema, saj je potrebno zagotoviti sledljivost proizvedenih postavk. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Ustvari storno** (samo za objavljene dokumente)
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

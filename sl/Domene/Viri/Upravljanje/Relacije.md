@@ -20,7 +20,9 @@ Za dostop do **Relacij** pojdite na **Viri / Upravljanje / Relacije** v [navigac
 | **Razdalja** | Razdalja med začetkom in ciljem. |
 | [**Merska enota**](../../../Skupno/Upravljanje/MerskeEnote.md) | Enota, uporabljena za razdaljo (na primer kilometri). |
 
-## Seznamski pogled
+## Upravljanje
+
+### Seznam relacij
 
 Seznamski pogled prikazuje vse konfigurirane relacije.
 

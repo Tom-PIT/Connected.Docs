@@ -43,4 +43,10 @@ Filtri na levi strani omogočajo omejevanje prikazanih podatkov:
 
 ## Meni
 
-Tabela se lahko izvozi v **CSV format** z uporabo menija v zgornjem desnem kotu, kar omogoča nadaljnjo analizo v preglednicah ali drugih orodjih.
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

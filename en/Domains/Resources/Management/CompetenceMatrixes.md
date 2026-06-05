@@ -39,7 +39,9 @@ Selecting a competence shows the **Users** view on the right, where users can be
 
 ![Competence matrix users](../Images/CompetenceMatrixesUsers.png "Competence Matrixes Users")
 
-## Create a new competence matrix
+## Actions
+
+### Create a new competence matrix
 
 To create a new competence matrix:
 
@@ -56,7 +58,7 @@ To create a new competence matrix:
 
 ![Add new competence matrix](../Images/CompetenceMatrixesNew.png)
 
-## Add layers (proficiency levels) to a competence matrix
+### Add layers (proficiency levels) to a competence matrix
 
 Layers represent **levels of proficiency** within a competence (for example *Basic*, *Independent*, *Advanced*).
 
@@ -74,7 +76,7 @@ To add a layer:
 > Not all competences require layers.
 > Layers are typically used where **progression or certification levels** are relevant.
 
-## Assign users to competences
+### Assign users to competences
 
 When a competence is selected, the **Users** panel shows all available users.
 
@@ -103,7 +105,7 @@ Examples:
 
 This structure helps organize competences clearly and makes them easier to manage at scale.
 
-## Delete a competence matrix or layer
+### Delete a competence matrix or layer
 
 Competence matrices and layers can be deleted from their edit views. Click a matrix or layer name on the list to access its details view, and then click the **Delete** button and confirm the action.
 

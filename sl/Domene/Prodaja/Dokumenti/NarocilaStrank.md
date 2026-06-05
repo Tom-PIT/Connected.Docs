@@ -206,9 +206,12 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 > - Izbrisati je mogoče samo **osnutke**.  
 > - Po objavi naročila stranke ni več mogoče izbrisati; uporabite **Vrni v osnutek**.
 
-### Meni
+## Meni
 
-Kontekstni meni omogoča:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
 - **Tiskanje**
 - **Izvoz**
 - **Pošlji preko e-pošte**
@@ -216,4 +219,7 @@ Kontekstni meni omogoča:
 - **Izbriši vse postavke** (če je dokument v stanju Osnutek)
 - **Vrni v osnutek** (če je dovoljeno)
 
-![Meni naročil strank](../Images/SalesOrderMenu.png "Meni naročil strank")
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
+
+> [!NOTE]
+> Storniranje naročila stranke izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

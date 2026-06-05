@@ -33,7 +33,7 @@ Značilnosti seznama:
 
 ## Dejanja
 
-Naslednja dejanja so na voljo prek [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md):
+Naslednja dejanja so na voljo prek [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md):
 
 - **Nov** – ustvari nov institucionalni sektor.
 - **Uvoz** – množični uvoz institucionalnih sektorjev iz CSV datoteke.

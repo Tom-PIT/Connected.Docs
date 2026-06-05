@@ -16,7 +16,9 @@ Za dostop do **Kategorij opomnikov** pojdite na **Viri / Upravljanje / Kategorij
 | **Naziv** | Naziv kategorije opomnika, ki je prikazan pri izbiri kategorije med ustvarjanjem ali urejanjem opomnika. |
 | **Status** | Določa, ali je kategorija aktivna in na voljo za izbiro. Onemogočene kategorije ni mogoče uporabiti za nove opomnike. |
 
-## Seznamski pogled
+## Upravljanje
+
+## Seznam kategorij opomnikov
 
 Seznamski pogled kategorij opomnikov prikazuje vse definirane kategorije.
 
@@ -26,7 +28,9 @@ Vsaka vrstica predstavlja eno kategorijo opomnika. Klik na kategorijo jo odpre z
 
 Aktivne kategorije so označene z modro ikono stanja, neaktivne pa s sivo ikono.
 
-## Ustvariti kategorijo opomnika
+## Dejanja
+
+### Ustvariti kategorijo opomnika
 
 Za ustvarjanje nove kategorije opomnika:
 
@@ -37,7 +41,7 @@ Za ustvarjanje nove kategorije opomnika:
 
 ![Nova kategorija opomnika](../Images/ReminderCategoriesNew.png "Ustvari kategorijo opomnika")
 
-## Urediti kategorijo opomnika
+### Urediti kategorijo opomnika
 
 Za urejanje obstoječe kategorije opomnika:
 
@@ -45,7 +49,7 @@ Za urejanje obstoječe kategorije opomnika:
 2. Po potrebi spremenite **Naziv** ali **Status**.
 3. Kliknite **Shrani** za uveljavitev sprememb.
 
-## Izbrisati kategorijo opomnika
+### Izbrisati kategorijo opomnika
 
 Za brisanje kategorije opomnika:
 
