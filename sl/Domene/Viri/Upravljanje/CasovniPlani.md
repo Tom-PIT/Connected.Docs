@@ -17,13 +17,15 @@ Ti vnosi se običajno uporabljajo za poenotenje načina kategorizacije dela pri 
 |------|------|
 | **Naziv** | Naziv kategorije časovnega plana, ki je prikazan uporabnikom pri izbiri načina kategorizacije njihovega časa (na primer: *Vzdrževanje strojev*, *Pakiranje*, *Skladiščne aktivnosti*). |
 
-## Seznamski pogled
+## Upravljanje
+
+### Seznamski pogled
 
 Seznam časovnih planov prikazuje vse definirane časovne plane.
 
 ![Seznam časovnih planov](../Images/TimesheetsList.png "Seznam časovnih planov")
 
-## Uporaba časovnih planov
+### Uporaba časovnih planov
 
 Časovni plani delujejo kot **referenčne kategorije** in se uporabljajo v različnih delovnih tokovih beleženja časa in napora, kot so:
 

@@ -95,17 +95,6 @@ Novo ustvarjen dokument se prikaže med **Osnutki**. Po objavi se premakne med *
 
 Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komentarje ali informacije o transakciji. Postavke se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
-#### Meni
-
-V dokumentu med-skladiščnega prometa **meni (ikona hamburger)** v zgornjem desnem kotu ponuja:
-
-- **Tiskanje**
-- **Izvoz (PDF)**
-
-Možnosti so na voljo tako za *osnutke* kot za *objavljene* dokumente.
-
-![Meni med-skladiščnega prometa](../Images/InterWarehouseMenuOptions.png)
-
 ### Izbrisati dokument med-skladiščnega prometa
 
 Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo nobenih postavk**.
@@ -119,3 +108,14 @@ Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebuje
 Ko dokument ne vsebuje več nobene postavke, lahko kliknete **Izbriši**, da odstranite osnutek.
 
 Objavljenih dokumentov **ni mogoče izbrisati**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo sta naslednji dejanji:
+
+- **Tiskanje**
+- **Izvoz v PDF**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

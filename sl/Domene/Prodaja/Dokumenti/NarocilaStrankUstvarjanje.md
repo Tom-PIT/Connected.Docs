@@ -8,7 +8,7 @@
 
 Nova naročila strank je mogoče ustvariti:
 
-- ročno na zaslonu **Naročila strank** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)
+- ročno na zaslonu **Naročila strank** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md)
 - iz objavljene [ponudbe](Ponudbe.md) prek **Povezani dokumenti → + Naročilo stranke**
 
 > [!NOTE]
@@ -20,7 +20,7 @@ Nova naročila strank je mogoče ustvariti:
 
 Ustvarite nov osnutek naročila stranke na enega od naslednjih načinov:
 
-- Neposredno na zaslonu **Naročila strank** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)
+- Neposredno na zaslonu **Naročila strank** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md)
 - Iz potrjene [**Ponudbe**](Ponudbe.md) prek **Povezani dokumenti → + Naročilo stranke**. V tem primeru se večina polj — kot so stranka, podatki o dostavi in postavke — samodejno izpolni na podlagi ponudbe.
 
 ![Ustvari naročilo stranke iz ponudbe](../Images/SalesOrdersOfferLink.png "Ustvari naročilo stranke iz ponudbe")

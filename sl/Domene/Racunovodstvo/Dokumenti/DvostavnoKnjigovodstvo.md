@@ -139,3 +139,13 @@ Za brisanje:
 
 1. v seznamu odprite temeljnico,
 2. v načinu urejanja kliknite **Izbriši**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v PDF**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

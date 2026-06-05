@@ -246,15 +246,30 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 > Objavljenih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
 Če so bila evidentirana plačila, računa ni mogoče izbrisati, dokler plačila niso odstranjena in dokument vrnjen v osnutek.
 
-### Meni
+## Meni
 
-Meni v zgornjem desnem kotu omogoča:
+Na tej strani so dejanja menija na voljo na dveh mestih.
 
-![Meni izdanih računov](../Images/IssuedInvoicesMenu.png "Meni izdanih računov")
+### Meni seznama
 
-- **Tiskanje**  
-- **Izvoz ** 
-- **Pošlji preko e-pošte**  
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+Meni seznama omogoča dejanja za trenutno prikazan seznam.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v CSV** – Na voljo sta dve možnosti poročila:
+    - **Dokument** – Izvozi celoten seznam računov na seznamu.
+    - **Postavke** – Izvozi vse podrobnosti postavk za vse račune na seznamu.
+
+### Meni dokumenta
+
+Meni dokumenta omogoča dejanja za trenutno odprt dokument.
+
+Na voljo so naslednja dejanja:
+
+- **Tiskanje**
+- **Izvoz v PDF**
+- **Pošlji preko e-pošte**
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrnitev v osnutek** (če je dovoljeno)
+- **Vrnitev v osnutek**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

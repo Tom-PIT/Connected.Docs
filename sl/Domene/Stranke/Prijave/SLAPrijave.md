@@ -75,3 +75,19 @@ Levi stranski meni omogoča filtriranje seznama:
 S klikom na ime prijave odprete njen podrobni pogled.  Tam lahko prijavo pregledate, dodate komentarje ali spremenite njen status.
 
 Ko je prijava rešena ali ponovno odprta, se samodejno odstrani iz seznama SLA prijav ali prerazvrsti glede na novo stanje.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Odjavi s prijave**
+- **Naročniki**
+- **Deli**
+- **Delo**
+
+> [!NOTE]
+> Nastavitve obvestil za posamezno področje lahko upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

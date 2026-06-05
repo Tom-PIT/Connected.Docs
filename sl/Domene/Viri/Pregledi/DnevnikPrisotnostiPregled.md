@@ -88,7 +88,7 @@ To omogoča natančno izbiro datuma in časa za posamezen časovni vnos. Spremem
 
 ## Dodati nov časovni vnos
 
-S pomočjo **akcijskega gumba** (spodaj desno) lahko pooblaščeni uporabniki ročno dodajo nov časovni vnos.
+S pomočjo akcijskega gumba (spodaj desno) lahko pooblaščeni uporabniki ročno dodajo nov časovni vnos.
 
 To se običajno uporablja, kadar:
 

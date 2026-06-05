@@ -47,13 +47,6 @@ Vrstice **niso razširljive**. Za ogled podrobnosti kontrolne liste odprite poro
 - Kliknite **šifro kontrolne liste**, da odprete **poročilo kontrolne liste**.
 - Kliknite **šifro proizvodnega naloga**, da odprete povezani dokument [proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md).
 
-## Meni
-
-**Meni** v zgornjem desnem kotu ponuja:
-
-- **Tiskanje**
-- **Izvoz CSV**
-
 ## Filtri
 
 Uporabite filtre v levi stranski vrstici za zoženje seznama:
@@ -99,3 +92,14 @@ Poročilo kontrolne liste je **samo za branje** in ga po zaključku ni mogoče u
 - **[Aktivne kontrolne liste](AktivneKontrolneListe.md)** — spremljanje kontrolnih list, ki so trenutno v teku
 - **[Proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)** — pregled proizvodnih dokumentov, povezanih s kontrolnimi listami
 - **[Vzdrževalni nalogi](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)** — pregled vzdrževalnih dokumentov, povezanih s kontrolnimi listami
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo sta naslednji dejanji:
+
+- **Tiskanje**
+- **Izvoz CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

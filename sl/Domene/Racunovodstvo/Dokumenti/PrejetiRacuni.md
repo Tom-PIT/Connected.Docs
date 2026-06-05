@@ -91,17 +91,6 @@ Na voljo so naslednji filtri:
 
 Seznam prikazuje tudi agregirane kazalnike, kot so število dokumentov in skupni znesek glede na trenutne filtre.
 
-#### Meni
-
-**Meni** v zgornjem desnem kotu omogoča dodatna dejanja za seznam prejetih računov.
-
-Na voljo so naslednja dejanja:
-
-- **Tiskanje ni na voljo** – tiskanje seznama trenutno ni omogočeno.
-- **Izvoz ni na voljo** – izvoz seznama trenutno ni omogočen.
-- **Odpri masovno procesiranje** – omogoča izbor več prejetih računov s seznama in njihov izvoz v Excel datoteko.
-- **Uvozi e-račun** – uvoz elektronskega računa in samodejno ustvarjanje dokumenta prejetega računa v sistemu.
-
 ### Stanja dokumentov
 
 Prejeti računi prehajajo skozi naslednja stanja:
@@ -159,3 +148,26 @@ Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
 > - Izbris je mogoč samo za **osnutke**.  
 > - Objavljenih dokumentov ni mogoče izbrisati; uporabite **Vrni v osnutek**.  
 > - Če so bila zabeležena plačila, dokumenta ni mogoče izbrisati, dokler plačila niso odstranjena in dokument vrnjen v osnutek.
+
+## Meni
+
+Na tej strani so dejanja menija na voljo na dveh mestih.
+
+### Meni seznama
+
+Meni seznama omogoča dejanja za trenutno prikazan seznam.
+
+Na voljo so naslednja dejanja:
+
+- **Odpri masovno procesiranje**
+- **Uvozi e-račun**
+
+### Meni dokumenta
+
+Meni dokumenta omogoča dejanja za trenutno odprt dokument.
+
+Na voljo so naslednja dejanja:
+
+- **Povrni stanje**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

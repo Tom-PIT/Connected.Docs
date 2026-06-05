@@ -125,7 +125,7 @@ Osnutke je mogoče urejati, potrjeni dobropisi pa so dokončni, razen če so sto
 
 Dobropise je mogoče ustvariti na dva načina:
 
-- Z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md) na zaslonu **Dobropisi**  
+- Z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md) na zaslonu **Dobropisi**  
 - Iz obstoječega **[Izdanega računa](IzdaniRacuni.md)** prek *Povezani dokumenti → + Dobropis*
 
 Po začetku novega dobropisa sledite korakom:
@@ -243,9 +243,11 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 > [!NOTE]  
 > Objavljenih dobropisov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
 
-### Meni
+## Meni
 
-Meni dokumenta omogoča dodatna dejanja:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
 
 - **Tiskanje**
 - **Izvoz**
@@ -254,6 +256,7 @@ Meni dokumenta omogoča dodatna dejanja:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek** (če je dovoljeno)
 
-![Meni dobropisa](../Images/CreditDebitNoteMenu.png "Meni dobropisa")
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
-Storniranje dobropisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+> [!NOTE]
+> Storniranje dobropisa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

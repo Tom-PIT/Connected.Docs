@@ -116,13 +116,6 @@ When a payment order is in **Unpaid** status, it can be marked as paid.
 
    ![Payment order – unpaid](../Images/PaymentOrderUnpaid.png "Payment order – unpaid")
 
-### Export to XML
-Payment orders can be exported to **XML** from the document menu in the top-right corner.
-
-- Open the payment order
-- Click the hamburger menu in the top-right (three lines)
-- Choose **Export to XML**
-
 ## Delete a payment order
 
 Payment orders can be deleted while in **Draft** status.
@@ -134,10 +127,24 @@ Once published, deletion may be restricted to preserve accounting integrity.
 
 ## Menu
 
-The menu provides additional actions available on this page.
+This page includes menu actions in two places.
 
-Available actions:
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available action:
 
 - **Turn on/off export mode**
+
+### Document menu
+
+The document menu provides actions for the currently opened document.
+
+Available action:
+
+- **Export to XML**
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

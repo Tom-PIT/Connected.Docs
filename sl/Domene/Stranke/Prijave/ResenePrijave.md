@@ -59,7 +59,7 @@ Ob odprtju rešene prijave se prikaže enak podrobni pogled kot pri aktivnih pri
 Večina polj je **samo za branje**, vendar je še vedno mogoče:
 - posodobiti izbrana polja (na primer **Zadeva**, **Opis**, **Prioriteta**),
 - dodajati komentarje,
-- uporabljati dejanja prek [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md).
+- uporabljati dejanja prek [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md).
 
 ## Ponovno odpirati prijave
 
@@ -76,3 +76,19 @@ Ko je prijava ponovno odprta:
 - se odstrani iz seznama **Rešene prijave**,
 - se znova prikaže v zaslonu **[Prijave](Prijave.md)**,
 - njeno stanje se ustrezno posodobi.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Odjavi s prijave**
+- **Naročniki**
+- **Deli**
+- **Delo**
+
+> [!NOTE]
+> Nastavitve obvestil za posamezno področje lahko upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

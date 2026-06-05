@@ -187,7 +187,21 @@ To delete a production order:
 
 ## Menu
 
-The menu provides additional actions available on this page.
+This page includes menu actions in two places.
+
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+ 
+- **Status mass processing** – allows changing the status of multiple production orders at once (e.g., from Pending to Active).
+
+### Document menu
+
+The document menu provides actions for the currently opened document.
 
 Available actions:
 
@@ -196,3 +210,4 @@ Available actions:
 - **Revert to active**
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+

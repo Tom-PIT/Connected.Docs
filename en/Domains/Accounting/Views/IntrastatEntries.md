@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/views/intrastat-entries -->
-<!-- app_label: Intrastat -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/Intrastat.md -->
+<!-- app_label: Intrastat entries -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/IntrastatEntries.md -->
 <!-- canonical_source_title: Intrastat -->
 
 # Intrastat entries

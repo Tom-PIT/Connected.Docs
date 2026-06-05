@@ -39,9 +39,9 @@ Vsaka količina zaloge, ki pade **pod minimalno** ali preseže **maksimalno** vr
 
 ## Dejanja
 
-Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže dejanje **Uvoz**.
-
 ### Uvoz
+
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže dejanje **Uvoz**.
 
 Dejanje **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov mej zaloge z uporabo **CSV** datoteke. Pripravite datoteko z zahtevanimi polji (**Entiteta**, **Najmanj**, **Največ**) in jo naložite za samodejno zapolnitev seznama.
 
@@ -59,6 +59,12 @@ M-0003;3;50;0;
 M-0004;4;20;80;
 ```
 
-## Meni 
+## Meni
 
-Meni v zgornjem desnem kotu ponuja možnost **Izvoz v CSV**, ki izvozi vse vidne zapise v CSV datoteko za poročanje, analizo ali varnostno kopijo.
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

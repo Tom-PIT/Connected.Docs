@@ -13,7 +13,7 @@
 
 # Storno
 
-Dokument **Storno** se uporablja za razveljavitev učinka drugega logističnega dokumenta. Omogoča popravljanje napak ali prilagoditev zaloge, kadar je potrebno razveljaviti že objavljen premik. Storno je mogoče ustvariti **samo za objavljene dokumente** in **izključno prek njihovega menija → Ustvari novo storno**. Dokumentov storna **ni mogoče** ustvariti neposredno s seznama stornov.
+**Storno** dokument se uporablja za razveljavitev učinka drugega potrjenega dokumenta. Omogoča popravljanje napak ali prilagoditev zaloge, kadar je potrebno razveljaviti že objavljen premik. Storno je mogoče ustvariti **samo za objavljene dokumente** in **izključno prek njihovega menija → Ustvari novo storno**. Dokumentov storna **ni mogoče** ustvariti neposredno s seznama stornov.
 
 Storno prilagodi zalogo glede na vrsto dokumenta, ki se razveljavlja:
 
@@ -27,6 +27,25 @@ Storno je lahko **delno** ali **polno**, odvisno od vnesene količine. Dokumento
 > Za celovit prikaz si oglejte video vodič **[Storno](https://www.youtube.com/watch?v=yfGNARBWm7Q)**.
 
 Za dostop do **Stornov** pojdite na **Logistika / Dokumenti / Storno** v [navigaciji](../../../Skupno/UI/Navigacija.md).
+
+## Kako delujejo storni
+
+Storno razveljavi učinek obstoječega potrjenega dokumenta, ne da bi izbrisal ali spremenil izvorni dokument.
+
+Ko je storno objavljen:
+
+- Izvorni dokument ostane nespremenjen.
+- Ustvari se storno dokument, ki je povezan z izvornim dokumentom.
+- Uporabijo se nasprotni učinki na zalogo ali finančne vrednosti.
+- Izvorni dokument se označi kot delno ali v celoti storniran.
+
+Skupaj izvorni dokument in njegov storno dokument povzročita neto učinek nič.
+
+Različne vrste dokumentov imajo pri storniranju različne učinke:
+
+- Logistični dokumenti razveljavijo premike zaloge.
+- Finančni dokumenti razveljavijo finančne vrednosti.
+- Dobropisi razveljavijo učinek prvotne finančne transakcije.
 
 ## Shema
 

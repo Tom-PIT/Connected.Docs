@@ -121,14 +121,6 @@ Ko je plačilni nalog v stanju **Neplačani**, ga lahko označite kot plačanega
 
    ![Plačilni nalog – neplačani](../Images/PaymentOrderUnpaid.png "Plačilni nalog – neplačani")
 
-### Izvoz v XML
-
-Plačilne naloge je mogoče izvoziti v **XML** iz menija dokumenta.
-
-- Odprite plačilni nalog
-- Kliknite meni (ikona hamburger) v zgornjem desnem kotu
-- Izberite **Izvoz v XML**
-
 ## Izbrisati plačilne naloge
 
 Plačilne naloge je mogoče izbrisati, dokler so v stanju **Osnutek**.
@@ -137,3 +129,25 @@ Po objavi je brisanje lahko omejeno, da se ohrani sledljivost in računovodska p
 
 > [!WARNING]
 > Brisanje plačilnih nalogov v stanju *Neplačani* ali *Plačani* lahko vpliva na sledljivost plačil in revizijsko sled.
+
+## Meni
+
+Na tej strani so dejanja menija na voljo na dveh mestih.
+
+### Meni seznama
+
+Meni seznama omogoča dejanja za trenutno prikazan seznam.
+
+Na voljo so naslednja dejanja:
+
+- **Izklopi / Vklopi izvozni način**
+
+### Meni dokumenta
+
+Meni dokumenta omogoča dejanja za trenutno odprt dokument.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v XML**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

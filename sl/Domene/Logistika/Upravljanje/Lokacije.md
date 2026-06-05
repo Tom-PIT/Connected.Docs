@@ -41,7 +41,9 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo n
 - **Uvoz**
 - **Novo**
 
-### Uvoz
+### Uvoziti lokacije
+
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za nalaganje lokacij iz datoteke.
 
 Lokacije lahko uvozite iz **CSV** datoteke. To je uporabno pri vzpostavljanju skladiščnih struktur z več regali, policami in predali.
 
@@ -65,9 +67,9 @@ MAIN,CR01-SH01,Polica 1,CR01,Prva polica v centralnem regalu
 MAIN,CR01-SH02,Polica 2,CR01,Druga polica v centralnem regalu
 SEC,SEC-R1,Regal 1,,Regal v sekundarnem skladišču
 ```
-### Novo
+### Ustvariti novo lokacijo
 
-Dejanje **Novo** odpre obrazec za ustvarjanje nove skladiščne lokacije.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo** za ročno ustvarjanje nove lokacije.
 
 V obrazcu je potrebno vnesti naslednja polja:
 
@@ -81,7 +83,7 @@ V obrazcu je potrebno vnesti naslednja polja:
 
 Kliknite **Dodaj**, da shranite novo lokacijo, ali **Prekliči**, da zaprete obrazec brez shranjevanja.
 
-### Urejanje
+### Urediti lokacijo
 
 Za urejanje obstoječe lokacije kliknite njeno **Ime** v seznamu.
 
@@ -89,15 +91,19 @@ Odpre se obrazec za urejanje, kjer lahko spremenite vse lastnosti lokacije.
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-### Brisanje
+### Izbrisati lokacijo
 
-Kliknite **Izbriši** na zaslonu za urejanje.
-
-Prikaže se potrditveno pogovorno okno:
-
-**Ali ste prepričani, da želite izbrisati ta zapis?**
-
-Če potrdite, se lokacija trajno odstrani.
+Kliknite ime lokacije, da odprete zaslon za urejanje, nato kliknite **Izbriši**. Po potrditvi se lokacija trajno odstrani.
 
 > [!NOTE]
 > Lokacije ni mogoče izbrisati, če je uporabljena v zalogovnih zapisih ali logističnih dokumentih.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Natisni šifro skladiščne lokacije z nalepko**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

@@ -15,7 +15,9 @@ Za dostop do **Tipov bolniških odsotnosti** pojdite na **Viri / Upravljanje / T
 |------|------|
 | **Ime** | Ime razloga za bolniško odsotnost, ki je prikazano uporabnikom pri beleženju bolniške odsotnosti (na primer: *Poškodba pri delu*, *Gripa*, *Nega otroka*). |
 
-## Seznamski pogled
+## Upravljanje
+
+## Seznam tipov bolniških odsotnosti
 
 Seznam prikazuje vse definirane tipe bolniških odsotnosti.
 

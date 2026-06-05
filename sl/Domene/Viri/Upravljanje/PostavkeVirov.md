@@ -18,7 +18,9 @@ Za dostop do **Postavk virov** pojdite na **Viri / Upravljanje / Postavke virov*
 | **Veljavno od** | Datum in čas, od katerega je postavka veljavna. |
 | **Veljavno do** | Datum in čas, do katerega je postavka veljavna. Če je polje prazno, je postavka veljavna neomejeno. |
 
-## Seznamski pogled
+## Upravljanje
+
+## Seznam 
 
 Seznam prikazuje vse vire, ki imajo definirane postavke. Vsaka vrstica predstavlja en vir.
 
@@ -41,6 +43,12 @@ Za dodajanje nove postavke za vir uporabite [akcijski gumb](../../../Skupno/UI/A
 
 ![Urejanje postavke vira](../Images/ResourcesCostsNew.png "Urejanje postavke vira")
 
+#### Posebna vedenja / validacije
+
+- Obdobja veljavnosti za posamezen vir se **ne smejo prekrivati**.
+- Če polje **Velja do** ni nastavljeno, se postavka obravnava kot časovno neomejena.
+- Vrednosti postavk uporabljajo analitika in pogledi, kot je [**Stroški opravil**](../Pregledi/StroskiOpravil.md).
+
 ### Dodati postavko obstoječemu viru
 
 1. Razširite obstoječi vir in kliknite **Dodaj postavko**.
@@ -58,8 +66,4 @@ Za dodajanje nove postavke za vir uporabite [akcijski gumb](../../../Skupno/UI/A
 
 Kliknite **vrednost postavke** na seznamu, da odprete vnos, nato kliknite **Izbriši**.
 
-## Posebna vedenja / validacije
 
-- Obdobja veljavnosti za posamezen vir se **ne smejo prekrivati**.
-- Če polje **Velja do** ni nastavljeno, se postavka obravnava kot časovno neomejena.
-- Vrednosti postavk uporabljajo analitika in pogledi, kot je [**Stroški opravil**](../Pregledi/StroskiOpravil.md).

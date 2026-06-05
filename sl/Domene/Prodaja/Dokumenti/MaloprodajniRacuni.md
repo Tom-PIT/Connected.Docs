@@ -257,17 +257,20 @@ Maloprodajni računi v stanju **Osnutek** se lahko izbrišejo le, če **ne vsebu
 
 Objavljenih računov (ne glede na stanje plačila) **ni mogoče izbrisati**, mogoče pa jih je **stornirati** ali **vrniti v osnutek**, če je to dovoljeno s konfiguracijo.
 
-### Meni
+## Meni
 
-Meni objavljenega dokumenta omogoča:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
 - **Tiskanje**
 - **Izvoz**
 - **Pošlji preko e-pošte**
-- **Izbriši vse postavke** (če je dokument v stanju Osnutek) 
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md) (zaključeni dokumenti))  
-- **Vrni v osnutek**
+- **Izbriši vse postavke** (če je dokument v stanju Osnutek)
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek** (če je dovoljeno)
 
-![Meni maloprodajnega računa](../Images/RetailInvoiceMenu.png "Meni maloprodajnega računa")
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
 > [!NOTE]
-> Osnutki nimajo možnosti **Storniraj dokument**, imajo pa možnost **Izbriši vse postavke**.
+> Storniranje maloprodajnega računa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

@@ -8,7 +8,7 @@
 
 Nova [nabavna naročila](NabavniNalogi.md) je mogoče ustvariti:
 
-- ročno na zaslonu **Nabavni nalogi** z uporabo [**akcijskega gumba**](../../../Skupno/UI/AkcijskiGumb.md)
+- ročno na zaslonu **Nabavni nalogi** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md)
 - iz [povpraševanja](Povprasevanja.md) prek **Povezani dokumenti → + Nabavni nalog**
 
 > [!NOTE]

@@ -64,3 +64,13 @@ Z uporabo menija v zgornjem desnem kotu lahko podatke izvozite v **PDF** obliki.
 > - Konto kartica je namenjena **analizi in preverjanju** ter ne omogoča urejanja ali knjiženja.
 
 Za popravljanje ali urejanje knjižb odprite pripadajočo **[temeljnico](../Dokumenti/DvostavnoKnjigovodstvo.md)** neposredno.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v PDF**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

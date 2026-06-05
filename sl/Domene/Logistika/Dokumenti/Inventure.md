@@ -103,18 +103,18 @@ V seznamu kliknite na **Šifro** dokumenta, da ga odprete. V statusu **Osnutek**
 
 V razdelku **Postavke** lahko zabeležite dodatne komentarje ali ugotovitve, povezane z inventurnim postopkom.
 
-#### Meni
-
-Znotraj inventurnega dokumenta **meni (ikona hamburger)** ponuja naslednje možnosti:
-
-- **Tiskanje**
-- **Izvoz (PDF)**
-
-Možnosti so na voljo tako za *osnutke* kot za *objavljene* dokumente.
-
-![Meni inventure](../Images/InterWarehouseMenuOptions.png)
-
 ## Izbrisati inventurni dokument
 
 - V zaslonu za upravljanje inventurnimi dokumenti kliknite na **Izbriši**, da odstranite **osnutek** inventurnega dokumenta. Po potrditvi se dokument odstrani iz sistema, ne da bi to vplivalo na zalogo.
 - Objavljenih inventurnih dokumentov **ni mogoče izbrisati ali razveljaviti**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo sta naslednji dejanji:
+
+- **Tiskanje**
+- **Izvoz v PDF**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

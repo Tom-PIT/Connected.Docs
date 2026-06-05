@@ -31,6 +31,8 @@ Za vsak vnos so prikazane naslednje informacije:
 
 Klik na element v seznamu odpre njegov **zaslon za urejanje**.
 
+## Dejanja
+
 ### Ustvariti nov tip plana razpoložljivosti
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.

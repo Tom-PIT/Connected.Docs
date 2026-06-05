@@ -2,6 +2,9 @@
 
 Številni zasloni omogočajo dodatna dejanja prek **menija**, ki se nahaja v zgornjem desnem kotu strani.
 
+![Menu S L](../Images/MenuSL.png "Primer menija")
+
+
 Razpoložljiva dejanja so odvisna od trenutnega zaslona in od tega, ali je meni odprt na **seznamu** ali v **podrobnostih dokumenta**.
 
 ## Meni na seznamih
@@ -14,7 +17,7 @@ Primeri:
 * Izvoz trenutnega seznama v CSV ali PDF
 * Odpiranje masovnega procesiranja za več zapisov
 
-Rezultat je odvisen od trenutno uporabljenih filtrov in prikazanih podatkov.
+Rezultat je odvisen od trenutno uporabljenih filtrov in prikazanih podatkov. Je mogoče izbrati prejemnike in priponke v meniju.
 
 ## Meni v podrobnostih dokumenta
 
@@ -67,9 +70,20 @@ Ustvari [storno dokument](../../Domene/Logistika/Dokumenti/Storno.md), ki razvel
 
 Razpoložljivost je odvisna od vrste dokumenta.
 
+> [!NOTE]
+> Storno ne izbriše ali spremeni izvornega dokumenta. Namesto tega sistem ustvari povezan storno dokument, ki uporabi nasprotne učinke na zalogo ali finančne vrednosti ter hkrati ohrani popolno revizijsko sled.
+
 ### Pošlji po e-pošti
 
 Pošlje trenutni dokument po e-pošti.
+
+Kadar je na voljo, lahko izberete, katero datoteko želite priložiti e-poštnemu sporočilu. Glede na vrsto dokumenta in konfiguracijo sistema so lahko na voljo:
+
+- PDF različica dokumenta
+- CSV izvoz s podrobnostmi dokumenta
+- Druge datoteke, ki jih ustvari sistem
+
+Razpoložljive vrste datotek so odvisne od izbranega dokumenta ali pogleda.
 
 ### Odpri masovno procesiranje
 
@@ -77,7 +91,7 @@ Omogoča izvajanje dejanj nad več izbranimi zapisi hkrati.
 
 Razpoložljiva dejanja so odvisna od vrste dokumenta.
 
-Odpre način, v katerem je mogoče izbrati več zapisov za paketno obdelavo. Po izboru zapisov je nad njimi mogoče izvajati različna dejanja prek [akcijskega gumba](../UI/AkcijskiGumb.md).
+Odpre način, v katerem je mogoče izbrati več zapisov za paketno obdelavo. Po izboru zapisov se dejanja izvajajo prek [akcijskega gumba](../UI/AkcijskiGumb.md).
 
 ### Stanje zaloge po povprečnem znesku
 
@@ -98,4 +112,4 @@ Izvoz je namenjen analizi zaloge, poročanju in vrednotenju zaloge.
 
 ## Dodatna dejanja
 
-Nekateri dokumenti vsebujejo dodatna dejanja menija, ki so specifična za posamezno vrsto dokumenta. Ta dejanja so opisana v dokumentaciji posameznega dokumenta.
+Nekatere strani vsebujejo dodatna dejanja menija, ki so specifična za posamezno stran. Ta dejanja so opisana v dokumentaciji posameznega dokumenta.

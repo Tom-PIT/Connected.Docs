@@ -191,3 +191,27 @@ Za izbris:
 > [!NOTE]
 >
 > Zaključenih nalogov ni mogoče izbrisati, lahko pa jih po potrebi povrnete v aktivno stanje za popravke.
+
+## Meni
+
+Na tej strani so dejanja menija na voljo na dveh mestih.
+
+### Meni seznama
+
+Meni seznama omogoča dejanja za trenutno prikazan seznam.
+
+Na voljo so naslednja dejanja:
+
+- **Masovno procesiranje statusov** – omogoča hkratno spreminjanje statusov več nalogov (npr. iz Osnutek v V pripravi)
+
+### Meni dokumenta
+
+Meni dokumenta omogoča dejanja za trenutno odprt dokument.
+
+Na voljo so naslednja dejanja:
+
+- **Tiskanje**
+- **Izvoz v PDF**
+- **Povrni v aktiven** (samo za zaključen nalog) 
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

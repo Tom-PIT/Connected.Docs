@@ -82,3 +82,13 @@ Po kliku na **Konec**:
 - dobavni nalog se posodobi s prevzetimi količinami  
 
 Za naprednejše postopke prevzema (serijske številke, rok uporabe, pakiranje, priloge, storna itd.) glejte dokumentacijo [**Prevzemi**](Prevzemi.md).
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Objavi**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

@@ -154,3 +154,13 @@ Izbrisati je mogoče samo **neobjavljene (osnutke)** obračune DDV.
 3. Potrdite dejanje
 
 Po objavi obračuna DDV ni več mogoče izbrisati.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v PDF ali XML**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

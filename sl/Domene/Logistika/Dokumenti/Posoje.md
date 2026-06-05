@@ -62,7 +62,7 @@ S klikom na dokument odprete njegov podroben pregled.
 
 ## Dejanja
 
-### Ustvarjanje nove posoje
+### Ustvariti nove posoje
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov osnutek posoje.  
    Izberite **Skladišče** in **Stik**.
@@ -99,6 +99,8 @@ V zgornjem desnem kotu odprite **meni (ikona hamburger)** in izberite **Ustvari 
 ![Meni posoje](../Images/LoansMenu.png "Meni posoje")
 
 S tem se ustvari dokument, ki materiale vrne nazaj na zalogo. Za več podrobnosti glejte **[Storno](Storno.md)**.
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
 ### Urediti dokument posoje
 

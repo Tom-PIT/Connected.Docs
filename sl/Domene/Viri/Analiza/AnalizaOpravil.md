@@ -70,18 +70,18 @@ Vsaka sprememba filtra takoj **preračuna kazalnike in seznam opravil**.
 
 ![Filter tipa opravila](../Images/WorkTimeAnalysisWorkItemTypeSL.png)
 
-## Menu
-
-Menu v zgornjem desnem kotu ponuja naslednja dejanja:
-
-- **Izvoz** **Podrobni stroški dela** na format CSV.
-
-Rezultantna datoteka prikazuje stroške, povezane z zabeleženim delovnim časom.
-
 ## Osveževanje podatkov
 
 Dejanje **Osveži** ponovno naloži analitične podatke glede na trenutno izbrane filtre.
 
 Ta pogled je namenjen **analizi in poročanju** ter ne omogoča neposrednega urejanja podatkov o času.
 
----
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo sta naslednji dejanji:
+
+- **Izvoz podrobni stroški dela v CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

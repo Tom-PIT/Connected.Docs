@@ -75,6 +75,12 @@ Odprte postavke nastanejo iz knjiženih računovodskih temeljnic, ki običajno i
 
 Ko je postavka v celoti poravnana, se samodejno odstrani iz tega pogleda.
 
-## Menu
+## Meni
 
-V zgornjem desnem kotu lahko preko **menija** izvozite podatke v PDF obliki.
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v PDF**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

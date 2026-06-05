@@ -6,9 +6,9 @@
 # Prijave
 
 Zaslon **Prijave** je osrednji delovni prostor domene Stranke.  
-Uporablja se za ustvarjanje, spremljanje, posodabljanje in reÅ¡evanje podpornih prijav, ki jih oddajo stranke, partnerji ali interni uporabniki.
+Uporablja se za ustvarjanje, spremljanje, posodabljanje in reševanje podpornih prijav, ki jih oddajo stranke, partnerji ali interni uporabniki.
 
-Prijave so organizirane po **PodroÄjih** (na primer VzdrÅ¾evanje, Prodajna podpora, TehniÄna podpora) in se skozi svoj Å¾ivljenjski cikel premikajo med razliÄnimi stanji.
+Prijave so organizirane po **Področjih** (na primer Vzdrževanje, Prodajna podpora, Tehnična podpora) in se skozi svoj življenjski cikel premikajo med različnimi stanji.
 
 Za dostop do tega zaslona pojdite na **Stranke / Prijave** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
@@ -16,19 +16,19 @@ Za dostop do tega zaslona pojdite na **Stranke / Prijave** v [navigaciji](../../
 
 | Polje | Opis |
 |-----|------|
-| **Zadeva** | Kratek naslov, ki opisuje teÅ¾avo |
+| **Zadeva** | Kratek naslov, ki opisuje težavo |
 | **Opis** | Podroben opis prijave |
-| **[PodroÄje](../Upravljanje/Podrocja.md)** | PodroÄje, kateremu prijava pripada |
-| **Kanal** | Izvor prijave (**Splet**, **Telefon**, **E-poÅ¡ta**) |
+| **[Področje](../Upravljanje/Podrocja.md)** | Področje, kateremu prijava pripada |
+| **Kanal** | Izvor prijave (**Splet**, **Telefon**, **E-pošta**) |
 | **Avtor** | Uporabnik, ki je ustvaril prijavo |
-| **Dodeljeno** | Uporabnik, odgovoren za reÅ¡evanje prijave |
+| **Dodeljeno** | Uporabnik, odgovoren za reševanje prijave |
 | **Oznake** | Klasifikacijske oznake |
 | **Prioriteta** | Prioriteta prijave (**Nizka**, **Normalna**, **Visoka**) |
 | **Ocena** | Ocenjen napor |
-| **Ustvarjeno** | ÄŒas ustvarjanja prijave |
-| **Aktivirano** | ÄŒas, ko prijava postane aktivna |
-| **ReÅ¡eno** | ÄŒas reÅ¡itve prijave |
-| **Priponke** | Datoteke, priloÅ¾ene prijavi |
+| **Ustvarjeno** | Čas ustvarjanja prijave |
+| **Aktivirano** | Čas, ko prijava postane aktivna |
+| **Rešeno** | Čas rešitve prijave |
+| **Priponke** | Datoteke, priložene prijavi |
 
 ## Seznam prijav
 
@@ -40,11 +40,11 @@ Seznam prikazuje prijave v stanjih **Novo** in **Aktivno**. Na vrhu seznama so p
 
 ![Seznam prijav](../Images/TicketsList.png)
 
-Vsaka prijava je prikazana kot vrstica, ki jo je mogoÄe razÅ¡iriti za hitra dejanja. Na voljo so naslednja dejanja:
+Vsaka prijava je prikazana kot vrstica, ki jo je mogoče razširiti za hitra dejanja. Na voljo so naslednja dejanja:
 
 - **Aktiviraj**
-- **ReÅ¡i**
-- **IzbriÅ¡i**
+- **Reši**
+- **Izbriši**
 - **Spremeni prioriteto**
 - **Dodeli uporabnika**
 
@@ -52,9 +52,9 @@ Vsaka prijava je prikazana kot vrstica, ki jo je mogoÄe razÅ¡iriti za hitra
 
 ### Filtri
 
-Prijave je mogoÄe filtrirati z uporabo levega panela:
+Prijave je mogoče filtrirati z uporabo levega panela:
 
-- **PodroÄje**
+- **Področje**
 - **Pogled**
   - Novo
   - Aktivno
@@ -67,27 +67,27 @@ Prijave je mogoÄe filtrirati z uporabo levega panela:
 
 Prijave se premikajo skozi naslednja glavna stanja:
 
-- **Novo** â€“ prijava je ustvarjena, vendar Å¡e ni aktivirana
-- **Aktivno** â€“ prijava je v obravnavi
-- **ReÅ¡eno** â€“ prijava je zakljuÄena in premaknjena v **[ReÅ¡ene prijave](ResenePrijave.md)**
+- **Novo** – prijava je ustvarjena, vendar še ni aktivirana
+- **Aktivno** – prijava je v obravnavi
+- **Rešeno** – prijava je zaključena in premaknjena v **[Rešene prijave](ResenePrijave.md)**
 
 ## Ustvariti nove prijave
 
 Za ustvarjanje nove prijave kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 
-### Korak 1: Izbira podroÄja
+### Korak 1: Izbira področja
 
-Prvi korak je izbira **PodroÄja**, kateremu bo prijava pripadala. Za potrditev kliknite akcijski gumb.
+Prvi korak je izbira **Področja**, kateremu bo prijava pripadala. Za potrditev kliknite akcijski gumb.
 
-![Izbira podroÄja](../Images/TicketsNewStep1.png)
+![Izbira področja](../Images/TicketsNewStep1.png)
 
 ### Korak 2: Podrobnosti prijave
 
 V drugem koraku se vnesejo ali uredijo podrobnosti prijave.
 
-![Ustvari prijavo â€“ podrobnosti](../Images/TicketsNewStep2.png)
+![Ustvari prijavo – podrobnosti](../Images/TicketsNewStep2.png)
 
-Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) omogoÄa:
+Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) omogoča:
 
 - objavo kot **Novo**
 - objavo kot **Aktivno**
@@ -106,7 +106,7 @@ Klik na naslov prijave odpre celoten pogled prijave.
 Pogled prijave prikazuje:
 
 - podatke o prijavi,
-- Äasovne oznake stanj,
+- Časovne oznake stanj,
 - priloge,
 - avtorja, oznake, dodelitev in prioriteto.
 
@@ -118,18 +118,18 @@ Prijave podpirajo sprotno komunikacijo prek komentarjev.
 
 Pri dodajanju komentarja:
 
-- je mogoÄe komentar usmeriti k doloÄenemu uporabniku,
-- komentar je lahko oznaÄen kot **Zasebno**,
-- mogoÄe je priloÅ¾iti datoteke.
+- je mogoče komentar usmeriti k določenemu uporabniku,
+- komentar je lahko označen kot **Zasebno**,
+- mogoče je priložiti datoteke.
 
 Za shranjevanje komentarja je potrebno prijavo posodobiti tako, da se:
 
 - shrani kot **Novo** ali **Aktivno**, ali
-- spremeni njeno stanje (na primer v **ReÅ¡eno**).
+- spremeni njeno stanje (na primer v **Rešeno**).
 
 ### Revizijska sled
 
-Revizijska sled beleÅ¾i vse spremembe, opravljene na prijavi, v obliki Äasovnice. Do nje dostopate prek zavihka **Revizijska sled** v pogledu prijave, pod razdelkom **Komentar**.
+Revizijska sled beleži vse spremembe, opravljene na prijavi, v obliki časovnice. Do nje dostopate prek zavihka **Revizijska sled** v pogledu prijave, pod razdelkom **Komentar**.
 
 ### Dejanja v meniju
 
@@ -137,30 +137,46 @@ Dodatna dejanja so na voljo v meniju prijave, ki se nahaja v zgornjem desnem del
 
 ![Meni prijave](../Images/TicketsMenuSL.png)
 
-RazpoloÅ¾ljive moÅ¾nosti vkljuÄujejo:
+Razpoložljive možnosti vključujejo:
 
 - **Odjavi s prijave**
-- **NaroÄniki**
+- **Naročniki**
 - **Deli**
 - **Delo**
 
 > [!NOTE]
-Nastavitve obvestil na ravni podroÄja upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
+Nastavitve obvestil na ravni področja upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
 
-## ReÅ¡evati prijave
+## Reševati prijave
 
-Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da odprete meni in izberete moÅ¾nost reÅ¡itve:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da odprete meni in izberete možnost rešitve:
 
-- **Brez napak** â€“ teÅ¾ave ni
-- **Ni v uporabi** â€“ prijava ni veÄ relevantna
-- **Podvojeno** â€“ prijava je kopija druge prijave
-- **Po zasnovi** â€“ teÅ¾ava je namerna in priÄakovana
-- **ReÅ¡eno** â€“ teÅ¾ava je odpravljena
+- **Brez napak** – težave ni
+- **Ni v uporabi** – prijava ni več relevantna
+- **Podvojeno** – prijava je kopija druge prijave
+- **Po zasnovi** – težava je namerna in pričakovana
+- **Rešeno** – težava je odpravljena
 
 ![Gumb za premik prijav](../Images/TicketsMoveTicketsButtonSL.png)
 
-Ko je prijava reÅ¡ena:
+Ko je prijava rešena:
 
-- se njeno stanje nastavi na **ReÅ¡eno**,
+- se njeno stanje nastavi na **Rešeno**,
 - odstrani se iz aktivnega seznama,
-- prikaÅ¾e se v zaslonu **[ReÅ¡ene prijave](ResenePrijave.md)**.
+- prikaže se v zaslonu **[Rešene prijave](ResenePrijave.md)**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Odjavi s prijave**
+- **Naročniki**
+- **Deli**
+- **Delo**
+
+> [!NOTE]
+> Nastavitve obvestil za posamezno področje lahko upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

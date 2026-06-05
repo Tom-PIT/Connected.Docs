@@ -64,9 +64,9 @@ Tickets can be filtered using the left panel:
 
 Tickets move through the following main statuses:
 
-- **New** â€“ ticket has been created but not yet activated
-- **Active** â€“ ticket is being worked on
-- **Resolved** â€“ ticket is completed and moved to [**Resolved tickets**](ResolvedTickets.md)
+- **New** – the ticket has been created but not yet activated
+- **Active** – the ticket is being worked on
+- **Resolved** – the ticket is completed and moved to [**Resolved tickets**](ResolvedTickets.md)
 
 ## Create a new ticket
 
@@ -82,12 +82,12 @@ The first step is selecting the **Desk** the ticket belongs to. Select the desk,
 
 In the second step, ticket details are entered or edited.
 
-![Create ticket â€“ details](../Images/TicketsNewStep2.png)
+![Create ticket – details](../Images/TicketsNewStep2.png)
 
 Click the [action button](../../../Common/UI/ActionButton.md) to:
-- Published as **New**
-- Published as **Active**
-- Published as **New** or **Active**, and immediately **create a new ticket**
+- Publish as **New**
+- Publish as **Active**
+- Publish as **New** or **Active**, and immediately **create a new ticket**
 
 ![Tickets Publish Tickets Button](../Images/TicketsPublishTicketsButton.png "Tickets Publish Action Button")
 

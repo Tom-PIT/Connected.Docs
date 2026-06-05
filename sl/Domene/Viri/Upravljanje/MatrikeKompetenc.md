@@ -27,7 +27,9 @@ Za dostop do **Matrik kompetenc** pojdite na **Viri / Upravljanje / Matrike komp
 | **Naziv** | Naziv ravni usposobljenosti (na primer: *Osnovno*, *Samostojno*, *Napredno*, *Certificiran upravljavec*). |
 | **Nivo** | Številčni vrstni red plasti. Nižje vrednosti praviloma predstavljajo nižjo raven usposobljenosti. |
 
-## Pregled
+## Upravljanje
+
+### Pregled
 
 Leva stran zaslona prikazuje **drevesno strukturo** vseh matrik kompetenc. Kompetence je mogoče organizirati v kategorije in podkompetence.
 

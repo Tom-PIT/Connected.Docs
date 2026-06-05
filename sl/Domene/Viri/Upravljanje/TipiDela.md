@@ -19,7 +19,9 @@ Za dostop do **Tipov dela** pojdite na **Viri / Upravljanje / Tipi dela** v [nav
 | **Uredi tip dela** | Neobvezen opis, ki pojasnjuje, kaj tip dela predstavlja. Namenjen je predvsem notranji razjasnitvi in administraciji. |
 | **Omogočeno** | Določa, ali je tip dela aktiven in na voljo za izbiro v obrazcih za beleženje napora. |
 
-## Seznamski pogled
+## Upravljanje
+
+## Seznam tipov dela
 
 Seznamski pogled prikazuje vse definirane tipe dela v sistemu.
 
@@ -29,7 +31,9 @@ Seznamski pogled prikazuje vse definirane tipe dela v sistemu.
 
 ![Seznam tipov dela](../Images/EffortTypesList.png "Seznam tipov dela")
 
-## Ustvariti nov tip dela
+## Dejanja
+
+### Ustvariti nov tip dela
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov tip dela.
 
@@ -41,13 +45,13 @@ Pri ustvarjanju ali urejanju tipa dela lahko:
 
 ![Dodaj tip dela](../Images/EffortTypesNew.png "Dodaj tip dela")
 
-## Urejati tip dela
+### Urejati tip dela
 
 Kliknite element na seznamu, da uredite obstoječi tip dela. Spreminjate lahko naziv, opis in stanje omogočenosti.
 
 Spremembe shranite s klikom na **Shrani**. Če želite spremembe zavreči, kliknite **Prekliči**.
 
-## Uporabljati tipe dela pri evidentiranju dela
+### Uporabljati tipe dela pri evidentiranju dela
 
 Tipi dela se uporabljajo pri evidentiranju dela na nalogah in izvajanjih.
 
@@ -57,7 +61,7 @@ Pri dodajanju dela uporabnik izbere tip dela iz spustnega seznama, ki je ustvarj
 
 To zagotavlja enotno kategorizacijo evidentiranega časa v celotnem sistemu ter omogoča natančnejše poročanje in analizo.
 
-## Izbrisati tip dela
+### Izbrisati tip dela
 
 Kliknite element na seznamu, da odprete zaslon za urejanje, nato kliknite **Izbriši**, da odstranite tip dela.
 

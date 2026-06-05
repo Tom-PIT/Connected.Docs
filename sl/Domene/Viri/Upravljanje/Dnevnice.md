@@ -20,16 +20,25 @@ Za dostop do **Dnevnic** pojdite na **Viri / Upravljanje / Dnevnice** v [navigac
 | **Znesek polovične** | Znižani znesek, ki se običajno uporablja pri delnih dnevih potovanja. |
 | **Znesek znižane** | Dodatno znižan znesek dnevnice, odvisen od zakonskih ali internih pravil podjetja. |
 
-## Pregled
+## Upravljanje
 
-Zaslon **Dnevnice** prikazuje seznam vseh definiranih dnevnic.
-Vsak vnos predstavlja državo (in po potrebi mesto ali poštno številko) s pripadajočimi zneski dnevnic.
+### Seznam dnevnic
+
+Zaslon **Dnevnice** prikazuje seznam vseh definiranih dnevnic. Vsak vnos predstavlja državo (in po potrebi mesto ali poštno številko) s pripadajočimi zneski dnevnic.
 
 Seznam omogoča iskanje in hitro navigacijo.
 
 Klik na vnos ga odpre za urejanje.
 
 ![Seznam dnevnic](../Images/SubsistenceAllowancesList.png "Seznam dnevnic")
+
+### Uporaba v drugih modulih
+
+Dnevnice se primarno uporabljajo v:
+
+- **[Potni nalogi](../Dokumenti/PotniNalogi.md)** — samodejni izračun dnevnic med službenimi potmi
+
+To zagotavlja dosledno in centralizirano upravljanje pravil za povračila stroškov službenih poti v celotnem sistemu.
 
 ## Dejanja
 
@@ -56,11 +65,3 @@ Spremembe začnejo veljati takoj in se uporabljajo pri izračunu dnevnic v dokum
 Kliknite obstoječo dnevnico, da jo odprete v načinu urejanja, nato kliknite **Izbriši**.
 
 Po potrditvi brisanja se dnevnica odstrani s seznama in ne bo več na voljo za izbiro v potnih nalogih.
-
-## Uporaba v drugih modulih
-
-Dnevnice se primarno uporabljajo v:
-
-- **[Potni nalogi](../Dokumenti/PotniNalogi.md)** — samodejni izračun dnevnic med službenimi potmi
-
-To zagotavlja dosledno in centralizirano upravljanje pravil za povračila stroškov službenih poti v celotnem sistemu.

@@ -173,13 +173,16 @@ Ko dokument ne vsebuje več postavk, kliknite **Izbriši** za trajno odstranitev
 > - Objavljenih dokumentov ni mogoče izbrisati.  
 > - Objavljeni dokumenti se lahko **[stornirajo](../../Logistika/Dokumenti/Storno.md)**.
 
-### Meni
+## Meni
 
-**Meni** v zgornjem desnem kotu ponuja:
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
 
-![Meni nabavnega naloga](../Images/SupplyOrderMenu.png "Meni nabavnega naloga")
+Na voljo so naslednja dejanja:
 
-- **Tiskanje** – tiskanje nabavnega naloga  
-- **Izvoz** – izvoz v PDF  
-- **Pošlji po e-pošti**  
-- **Storniraj dokument**
+- **Tiskanje**
+- **Izvoz v PDF**
+- **Pošlji preko e-pošte**
+- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
+- **Vrni v osnutek**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

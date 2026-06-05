@@ -1,11 +1,11 @@
 <!-- app_route: /accounting/views/intrastat-entries -->
-<!-- app_label: Intrastat -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/Intrastat.md -->
-<!-- canonical_source_title: Intrastat -->
+<!-- app_label: Intrastat  postavke -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/IntrastatPostvke.md -->
+<!-- canonical_source_title: Intrastat postavke -->
 
-# Intrastat
+# Intrastat  postavke
 
-Pogled **Intrastat** omogoča pregled transakcij, ki so predmet poročanja Intrastat. Združuje podatke iz računovodskih in prodajnih dokumentov ter jih prikazuje v obliki, primerni za pregled in poročanje o blagovnem toku med državami članicami EU.
+Pogled **Intrastat postavke** omogoča pregled transakcij, ki so predmet poročanja Intrastat. Združuje podatke iz računovodskih in prodajnih dokumentov ter jih prikazuje v obliki, primerni za pregled in poročanje o blagovnem toku med državami članicami EU.
 
 Za dostop do tega zaslona pojdite na **Računovodstvo / Pregledi / Intrastat** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
@@ -92,3 +92,25 @@ Pravilnost tega pogleda je odvisna od pravilne konfiguracije:
 - pogojev dobave
 - vrst transporta
 - lege kraja
+
+## Meni
+
+Na tej strani so dejanja menija na voljo na dveh mestih.
+
+### Meni seznama
+
+Meni seznama omogoča dejanja za trenutno prikazan seznam.
+
+Na voljo je naslednje dejanje:
+
+- **Izvoz v CSV**
+
+### Meni dokumenta
+
+Meni dokumenta omogoča dejanja za trenutno odprt dokument.
+
+je naslednje dejanje:
+
+- **Izvoz v CSV**
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
