@@ -11,7 +11,7 @@ Platforma je organizirana tako, da omogoča enostavno iskanje dokumentov, pogled
 
 **Zemljevid strani** je glavna vstopna točka platforme. Razdeljen je na **domene**, od katerih vsaka predstavlja funkcionalno področje sistema.
 
-![Zemljevid strani](../Images/NavigationSitemap.png)
+![Zemljevid strani](../Images/NavigationSitemapSL.png)
 
 Na zemljevid strani se lahko vedno vrnete s klikom na **ikono hiše** v drobtinicah.
 
@@ -19,7 +19,7 @@ Na zemljevid strani se lahko vedno vrnete s klikom na **ikono hiše** v drobtini
 
 Drobtinice prikazujejo trenutno pot in omogočajo vračanje nazaj s klikom na katerikoli prejšnji element:
 
-![Drobtinice](../Images/NavigationBreadcrumbsDetail.png)
+![Drobtinice](../Images/NavigationBreadcrumbsDetailSL.png)
 
 Na številnih zaslonih je v spodnjem desnem kotu na voljo tudi **gumb s puščico nazaj**, ki omogoča vrnitev na prejšnji zaslon:
 
@@ -45,7 +45,7 @@ Znotraj domen so različni razdelki glede na funkcionalno področje:
 
 Primer – razdelki v domeni **Prodaja**:
 
-![Domena Prodaja](../Images/SalesDomain.png "Razdelki domene Prodaja")
+![Domena Prodaja](../Images/SalesDomainSL.png "Razdelki domene Prodaja")
 
 ## Dokumenti
 
@@ -65,7 +65,7 @@ Dokumenti predstavljajo jedro vsakodnevnega operativnega dela. Uporabljajo se za
 
 Primer – vstop v domeno **Prodaja** in razdelek **Dokumenti**:
 
-![Dokumenti Prodaja](../Images/NavigationSalesDocuments.png)
+![Dokumenti Prodaja](../Images/NavigationSalesDocumentsSL.png)
 
 Dokumenti običajno omogočajo:
 
@@ -74,9 +74,9 @@ Dokumenti običajno omogočajo:
 - filtre za hitro iskanje informacij  
 - možnosti tiskanja in izvoza  
 
-## Pogledi
+## Pregledi
 
-Pogledi omogočajo **analizo in spremljanje** poslovnih informacij. Ne ustvarjajo transakcij, temveč pomagajo razumeti širšo sliko.
+Pregledi omogočajo **analizo in spremljanje** poslovnih informacij. Ne ustvarjajo transakcij, temveč pomagajo razumeti širšo sliko.
 
 Primeri pogledov vključujejo:
 
@@ -91,7 +91,7 @@ Primeri pogledov vključujejo:
 
 Primer – **Prodaja / Pogledi**:
 
-![Pogledi Prodaja](../Images/NavigationSalesViews.png)
+![Pogledi Prodaja](../Images/NavigationSalesViewsSL.png)
 
 Pogledi so namenjeni:
 
@@ -124,6 +124,6 @@ Upravljanje vključuje na primer:
 
 Primer – **Prodaja / Upravljanje**:
 
-![Upravljanje Prodaja](../Images/NavigationSalesManagement.png)
+![Upravljanje Prodaja](../Images/NavigationSalesManagementSL.png)
 
 Strani za upravljanje običajno vzdržujejo skrbniki ali uporabniki, odgovorni za konfiguracijo sistema.

@@ -28,7 +28,7 @@ Kjer:
 - `LETO` – leto nastanka dokumenta  
 - `ZAPOREDJE` – zaporedna številka z vodilnimi ničlami  
 
-![Primer šifre ponudbe](../Images/DocumentCodeOffer.png "Primer šifre ponudbe")
+![Primer šifre ponudbe](../Images/DocumentCodeOfferSL.png "Primer šifre ponudbe")
 
 Primeri:
 
@@ -71,7 +71,7 @@ Način generiranja šifer (predpone, vzorec, dolžina zaporedja, ločeno števil
 
 ## Kje je šifra prikazana
 
-![Primer šifre prodajnega naloga](../Images/DocumentCodeSalesOrders.png "Primer šifre prodajnega naloga")
+![Primer šifre prodajnega naloga](../Images/DocumentCodeSalesOrdersSL.png "Primer šifre prodajnega naloga")
 
 Šifre so prikazane tudi v:
 
