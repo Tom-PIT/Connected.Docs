@@ -21,10 +21,7 @@ Glede na modul lahko akcijski gumb vključuje tudi dodatne možnosti, kot so:
 - **Kopiraj obstoječe** — ustvarjanje novega zapisa na podlagi obstoječega.  
 - **Druga modulno specifična dejanja** — prikazana samo, kadar so na voljo.
 
-![Meni akcijskega gumba](../Images/ActionButtonOptions.png "Meni akcijskega gumba")
+![Meni akcijskega gumba](../Images/ActionButtonOptionsSL.png "Meni akcijskega gumba")
 
-### Postavke
-
-- Razpoložljiva dejanja so odvisna od modula in uporabniških pravic.  
-- Akcijski gumb je prikazan samo na **seznamskih straneh**, ne pa na obrazcih za urejanje dokumentov.  
-- Vsako dejanje odpre ali ustvari **nov osnutek zapisa**, ki ga je nato mogoče dopolniti in potrditi.
+> [!NOTE]
+Razpoložljiva dejanja so odvisna od modula in uporabniških pravic.  
