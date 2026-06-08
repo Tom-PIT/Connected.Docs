@@ -9,7 +9,7 @@ The **Configuration** section, found under **System / Configuration**, contains 
 
 > [!IMPORTANT]
 >
->These settings are referenced by nearly all modules ([Sales](../../Sales/Domain/SalesDomain.md), [Supply](../../Supply/Domain/SupplyDomain.md), [Logistics](../../Logistics/Domain/LogisticsDomain.md), [Projects](../../Projects/Domain/ProjectsDomain.md), etc.) and must be configured before operational work begins.
+>These settings are referenced by nearly all modules ([Sales](../../Sales/SalesDomain.md), [Supply](../../Supply/SupplyDomain.md), [Logistics](../../Logistics/LogisticsDomain.md), [Projects](../../Projects/ProjectsDomain.md), etc.) and must be configured before operational work begins.
 
 While the **System / Configuration** area contains numerous technical settings that affect the system's overall behavior, this document focuses on two key groups that must be configured for initial setup:
 

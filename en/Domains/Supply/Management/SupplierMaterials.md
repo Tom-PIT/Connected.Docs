@@ -5,7 +5,7 @@
 
 # Supplier materials
 
-Supplier materials represent the list of materials that vendors provide to your organization. Each entry links an existing material from the [**Materials**](../../Assets/Domain/Materials.md) domain with a specific vendor and includes additional information such as the supplier’s material code, price, and delivery time.
+Supplier materials represent the list of materials that vendors provide to your organization. Each entry links an existing material from the [**Materials**](../../Assets/Materials.md) domain with a specific vendor and includes additional information such as the supplier’s material code, price, and delivery time.
 
 This code list ensures that procurement processes can correctly identify which materials are available from each vendor and at what cost.
 
@@ -16,8 +16,8 @@ To access this code list, go to **Supply / Management / Supplier materials** in 
 | Field | Description |
 |-------|-------------|
 | **Vendor** | Vendor providing the material. Must exist in the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
-| **[Material type](../../Assets/Domain/Materials.md)** | Type of material ([**Raw material**](../../Assets/Materials/RawMaterials.md), [**Semi-product**](../../Assets/Materials/SemiProducts.md), [**Product**](../../Assets/Materials/Products.md), [**Repro material**](../../Assets/Materials/ReproMaterials.md)). Must match an existing material type (mandatory). |
-| **[Material](../../Assets/Domain/Materials.md)** | Material supplied by the vendor. Must already exist in the **Materials** domain (mandatory). |
+| **[Material type](../../Assets/Materials.md)** | Type of material ([**Raw material**](../../Assets/Materials/RawMaterials.md), [**Semi-product**](../../Assets/Materials/SemiProducts.md), [**Product**](../../Assets/Materials/Products.md), [**Repro material**](../../Assets/Materials/ReproMaterials.md)). Must match an existing material type (mandatory). |
+| **[Material](../../Assets/Materials.md)** | Material supplied by the vendor. Must already exist in the **Materials** domain (mandatory). |
 | **Supplier code** | The vendor’s internal code for this material. |
 | **Price** | Net price at which the vendor supplies the material. |
 | **Delivery date** | Delivery time expressed in days. |

@@ -30,7 +30,7 @@ Za dostop do tega zaslona pojdite na
 | Polje | Opis |
 |------|------|
 | **Tip** | Razvrstitev materiala (npr. *Surovine*, *Polizdelki*, *Repro materiali*). |
-| [**Material**](../Domena/Materiali.md) | Konkreten material, za katerega velja cena. |
+| [**Material**](../Materiali.md) | Konkreten material, za katerega velja cena. |
 | **Neto cena (na enoto) 100 %** | Osnovna neto cena materiala brez popustov. |
 | **Razponi** | Neobvezna pravila količinske cenitve, ki določajo popuste ali prilagoditve. |
 | **Razpon od / Razpon do** | Količinski interval, za katerega velja pravilo. |

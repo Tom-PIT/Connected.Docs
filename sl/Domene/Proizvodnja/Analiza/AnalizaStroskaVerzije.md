@@ -39,7 +39,7 @@ Ta pogled omogoča hitro razumevanje, kateri elementi največ prispevajo k skupn
 
 ## Materiali
 
-Razdelek **[Materiali](../../Sredstva/Domena/Materiali.md)** prikazuje vse materiale, ki se porabijo v operacijah procesa. Za izračun stroška posameznega materiala se uporabljajo cene iz [**Material dobavitelja**](../../Nabava/Upravljanje/MaterialiDobaviteljev.md).
+Razdelek **[Materiali](../../Sredstva/Materiali.md)** prikazuje vse materiale, ki se porabijo v operacijah procesa. Za izračun stroška posameznega materiala se uporabljajo cene iz [**Material dobavitelja**](../../Nabava/Upravljanje/MaterialiDobaviteljev.md).
 
 Vsaka vrstica prikazuje:
 

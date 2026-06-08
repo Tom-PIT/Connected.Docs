@@ -20,7 +20,7 @@ To access **Material analysis management**, go to **Logistics / Management / Mat
 | Field | Description |
 |-------|-------------|
 | **Type** | Type of material (product, semi product, raw or repro material) (mandatory). |
-| **[Materials](../../Assets/Domain/Materials.md)** | The specific material that the analysis applies to (mandatory). |
+| **[Materials](../../Assets/Materials.md)** | The specific material that the analysis applies to (mandatory). |
 | **Instructions** | Procedure and acceptance criteria for performing the analysis (mandatory). |
 | **Enabled** | Whether the analysis is available for selection. Checked by default. |
 

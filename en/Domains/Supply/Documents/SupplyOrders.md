@@ -50,7 +50,7 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 
 | Field | Description |
 |--------|-------------|
-| **[Material](../../Assets/Domain/Materials.md)** | Material being purchased. |
+| **[Material](../../Assets/Materials.md)** | Material being purchased. |
 | **EAN** | Barcode identifier for the material (optional). |
 | **Quantity** | Ordered quantity. |
 | **Supply date** | Specific supply date for this material line. |

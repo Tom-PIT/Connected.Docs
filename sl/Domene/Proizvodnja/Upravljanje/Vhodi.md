@@ -20,7 +20,7 @@ Za dostop do te strani odprite verzijo procesa prek **Proizvodnja / Upravljanje 
 
 | Polje | Opis |
 |------|------|
-| **Entiteta** | Določa vrsto vhoda. Trenutno je podprt **[Material](../../Sredstva/Domena/Materiali.md)**. |
+| **Entiteta** | Določa vrsto vhoda. Trenutno je podprt **[Material](../../Sredstva/Materiali.md)**. |
 | **Tip materiala** | Kategorija materiala: <br>• **[Izdelki](../../Sredstva/Materiali/Izdelki.md)**<br>• **[Surovine](../../Sredstva/Materiali/Surovine.md)**<br>• **[Repro materiali](../../Sredstva/Materiali/ReproMateriali.md)**<br>• **[Polizdelki](../../Sredstva/Materiali/Polizdelki.md)** |
 | **Material** | Konkreten material, ki se porabi v operaciji. Nabor je odvisen od izbranega **tipa materiala**. |
 | **Tip kalkulacije** | Določa način izračuna količine: <br>• **Dinamično** – količina se izračuna glede na količine v proizvodnem nalogu. <br>• **Statično** – količina je fiksna in neodvisna od naloga. |

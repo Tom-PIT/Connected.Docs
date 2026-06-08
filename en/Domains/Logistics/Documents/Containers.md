@@ -31,7 +31,7 @@ To access this page, go to **Logistics / Documents / Containers** in the [naviga
 
 | Field | Description |
 |---|---|
-| [**Material**](../../Assets/Domain/Materials.md) | Packed item (product, semi product, raw or repro material). |
+| [**Material**](../../Assets/Materials.md) | Packed item (product, semi product, raw or repro material). |
 | **Serial number** | Serial/lot identifier of the packed item. |
 | **Best before** | Expiration date if tracked. |
 | **Warehouse location** | Per‑line location if applicable. |

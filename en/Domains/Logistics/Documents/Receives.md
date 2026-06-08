@@ -52,7 +52,7 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Domain/Materials.md) | Material being received ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
+| [**Material**](../../Assets/Materials.md) | Material being received ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **EAN** | Packaging or unit barcode. |
 | **Net weight / Gross weight (kg)** | Weight information stored in the system or scanned. |
 | **Dimensions (whd, mm)** | Width, height, and depth of the package. |

@@ -31,7 +31,7 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Zapakirana postavka (izdelek, polizdelek, surovina ali repro material). |
+| [**Material**](../../Sredstva/Materiali.md) | Zapakirana postavka (izdelek, polizdelek, surovina ali repro material). |
 | **Serijska številka** | Serijska ali lot številka zapakirane postavke. |
 | **Datum do** | Datum poteka, če se sledi roku uporabe. |
 | **Skladiščna lokacija** | Lokacija postavke po vrstici (če je relevantno). |

@@ -5,7 +5,7 @@ Za dostop do teh zaslonov pojdite na **Računovodstvo / Računi** v [navigaciji]
 Ta razdelek vsebuje dokumente, povezane z računi, ki so na voljo v domeni Računovodstvo.
 
 > [!NOTE]
->Nekatere vrste dokumentov so v celoti dokumentirane v domeni [**Prodaja**](../../Prodaja/Domena/Prodaja.md), da se izognemo podvajanju. Vedenje, specifično za računovodstvo (knjiženje, status, plačila), je dokumentirano tukaj le, če se razlikuje.
+>Nekatere vrste dokumentov so v celoti dokumentirane v domeni [**Prodaja**](../../Prodaja/Prodaja.md), da se izognemo podvajanju. Vedenje, specifično za računovodstvo (knjiženje, status, plačila), je dokumentirano tukaj le, če se razlikuje.
 
 ## Dokumenti
 

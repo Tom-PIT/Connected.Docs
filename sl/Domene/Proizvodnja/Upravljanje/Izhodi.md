@@ -19,7 +19,7 @@ Za dostop do te strani odprite verzijo procesa v **Proizvodnja / Upravljanje / [
 
 | Polje | Opis |
 |------|------|
-| **Entiteta** | Izberite, ali se izhod nanaša na **[Material](../../Sredstva/Domena/Materiali.md)** ali na oznako materiala. |
+| **Entiteta** | Izberite, ali se izhod nanaša na **[Material](../../Sredstva/Materiali.md)** ali na oznako materiala. |
 | **Tip** | Kategorija materiala, ki nastane: <br>• **[Izdelki](../../Sredstva/Materiali/Izdelki.md)**<br>• **[Surovine](../../Sredstva/Materiali/Surovine.md)**<br>• **[Repro materiali](../../Sredstva/Materiali/ReproMateriali.md)**<br>• **[Polizdelki](../../Sredstva/Materiali/Polizdelki.md)** |
 | **Material** | Konkreten material ali izdelek, ki nastane v operaciji. |
 | **Tip kalkulacije** | Določa način izračuna količine: **Dinamično** ali **Statično**. |
