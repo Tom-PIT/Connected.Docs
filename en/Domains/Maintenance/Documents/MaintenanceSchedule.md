@@ -34,7 +34,7 @@ Each entry represents a **recurring maintenance definition** linked to:
 
 ![Maintenance Schedule List](../Images/MaintenanceScheduleList.png)
 
-Clicking the [action button](../../../Common/UI/ActionButton.md) creates a [**new maintenance order**](MaintenanceOrders.md).
+Clicking the [action button](../../../Common/UI/ActionButton.md) starts the creation of a new maintenance schedule, which is the same process as [creating a maintenance order](MaintenanceOrdersCreate.md).
 
 From there, you can define the order details and choose whether the maintenance should be executed **once** or generate a **recurring maintenance schedule**.
 
@@ -61,16 +61,24 @@ The search bar allows filtering by equipment name or process.
 
 ## Create a maintenance schedule
 
-Maintenance schedules are created **automatically** when a planned maintenance order is configured with a **recurring execution pattern**.
+Maintenance schedules can be created in two ways:
+
+- Manually from the **Maintenance schedule** page using the [**action button**](../../../Common/UI/ActionButton.md)
+- Automatically when a planned maintenance order is configured with a **recurring execution pattern**
+
+When creating a maintenance schedule manually, the creation process follows the same workflow as creating a maintenance order.
+
+For detailed instructions, see [**How to create a maintenance order**](MaintenanceOrdersCreate.md).
 
 Supported recurring execution patterns include:
+
 - **Time-based** patterns (e.g., monthly, yearly, every X days)
 - **Count/usage-based** patterns (e.g., every X pieces, meters, grams, hours), using the relevant equipment counters and measure units
 
 > [!NOTE]
 > For configuring usage counters on resources and equipment, see **[Resource work hours & counters](ResourceWorkHours&Counters.md)**.
 
-Once created, the schedule is responsible for generating future maintenance orders according to the defined interval or usage threshold, so preventive maintenance can continue without manually creating new orders.
+Once created, the schedule is responsible for generating future maintenance orders according to the defined interval or usage threshold, so preventive maintenance can continue automatically.
 
 ## Edit a maintenance schedule
 
