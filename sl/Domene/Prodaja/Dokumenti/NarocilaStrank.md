@@ -149,6 +149,8 @@ Naročilo stranke je razdeljeno v več razširljivih razdelkov. Razpoložljiva d
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokumentov.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 ![Naročilo stranke – povezani dokumenti](../Images/SalesOrdersLinkedDocuments.png "Naročilo stranke – povezani dokumenti")
 
 > [!NOTE]

@@ -174,9 +174,11 @@ For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attach
 
 #### Linked documents
 
+The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents.
+
 ![Prepayments Linked Documents](../Images/PrepaymentsLinkedDocuments.png "Linked documents")
 
-The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents. 
+ For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
 
 > [!NOTE]
 > - The available **Linked document** actions depend on the document type and status.

@@ -140,6 +140,8 @@ Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md)
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokumentov.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 ![Dobavnica – povezani dokumenti](../Images/DeliveryNoteLinkedDocuments.png "Dobavnica – povezani dokumenti")
 
 > [!NOTE]

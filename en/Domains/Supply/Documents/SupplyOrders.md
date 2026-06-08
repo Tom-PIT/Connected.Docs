@@ -126,6 +126,8 @@ Expandable sections:
 
 The **Linked documents** section allows creating and linking operational documents to a supply order.
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
 ![Linked documents](../Images/SupplyOrderLinkedDocuments.png)
 
 Available actions include:

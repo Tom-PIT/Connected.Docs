@@ -189,6 +189,8 @@ For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attach
 
 The linked documents section enables the creation of operational or follow-up documents and shows previously linked ones.
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
 Typical actions and pre-fills:
 - **[+ Prepayment](Prepayments.md)** – Creates a prepayment from the committed proforma; pre-fills customer, amounts, and references.  
   Inventory impact: none. Financial impact: record advance payment.

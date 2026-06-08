@@ -177,6 +177,8 @@ Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md)
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in prikazuje obstoječe povezave.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 Pogosta dejanja:
 - **[+ Avansni račun](AvansniRacuni.md)** – ustvari avansni račun iz potrjenega predračuna  
   Zaloga: brez vpliva. Finance: evidentiranje avansnega plačila.

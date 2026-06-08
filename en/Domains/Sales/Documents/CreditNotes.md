@@ -217,6 +217,8 @@ The **Linked documents** section allows you to link a previously created **Issue
 
 Published credit notes do **not** display the Linked documents section.
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
 #### Alternative currency
 
 The Alternative currency section allows prices in the document to be expressed in a currency different from the system’s default currency. This is typically used for international sales. Rates are taken from the [Exchange rates](../Management/ExchangeRates.md) code list.

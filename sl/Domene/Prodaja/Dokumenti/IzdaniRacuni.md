@@ -187,6 +187,8 @@ Dokler je račun v statusu **Osnutek**, lahko urejate vse razdelke:
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokumentov.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 ![Povezani dokumenti delno plačanega računa](../Images/IssuedInvoicePartiallyPaidLinkedDocuments.png "Povezani dokumenti delno plačanega računa")
 
 > [!NOTE]

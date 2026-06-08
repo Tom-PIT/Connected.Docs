@@ -122,6 +122,8 @@ For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attach
 
 The **Linked documents** section allows creation and tracking of dependent supply documents.
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
 > [!NOTE]  
 > The available **Linked document** actions depend on the document type and inquiry status.
 

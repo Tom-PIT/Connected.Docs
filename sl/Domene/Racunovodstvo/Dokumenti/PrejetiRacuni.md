@@ -132,6 +132,8 @@ Pri zaključenih dokumentih razdelek **Povezave dokumentov** omogoča ustvarjanj
 
 ![Povezani dokumenti](../Images/ReceivedInvoicesCommitedTop.png)
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 ## Izbrisati prejeti račun
 
 Dokumente v stanju **Osnutek** lahko izbrišete v urejanju, vendar **le, če ne vsebujejo postavk**.

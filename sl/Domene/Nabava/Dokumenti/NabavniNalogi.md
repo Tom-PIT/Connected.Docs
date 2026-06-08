@@ -133,6 +133,8 @@ Razširljivi razdelki vključujejo:
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje in povezovanje nadaljnjih operativnih dokumentov.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 ![Povezani dokumenti](../Images/SupplyOrderLinkedDocuments.png "Povezani dokumenti")
 
 Razpoložljiva dejanja vključujejo:
