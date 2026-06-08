@@ -11,7 +11,7 @@ Medtem ko področje **[Materiali](../Sredstva/Materiali.md)** določa, *kaj* obs
 
 Za dostop do tega področja pojdite na **Logistika** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-![Področje logistike](Images/LogisticsSitemap.png "Področje logistike")
+![Področje logistike](Images/LogisticsSitemapSL.png "Področje logistike")
 
 > [!NOTE]
 > Razpoložljiva področja so odvisna od konfiguracije podjetja in poslovnega modela.
@@ -26,13 +26,13 @@ Področje je razdeljeno na več funkcionalnih sklopov:
 - **[Pregledi](#pregledi)** – analitični pregledi porabe, izdaj in razporeditve zaloge  
 - **[Šifranti](#sifranti)** – konfiguracija skladišč, lokacij in logističnih pravil  
 
-![Pregled področja logistike](Images/LogisticsDomainOverview.png "Pregled področja logistike")
+![Pregled področja logistike](Images/LogisticsDomainOverviewSL.png "Pregled področja logistike")
 
 ## Nadzorna plošča
 
 **[Nadzorna plošča](Pregledi/NadzornaPlosca.md)** omogoča hiter pregled logistične učinkovitosti in aktivnosti v skladiščih. Prikazuje operativne kazalnike (npr. število prevzemov in izdaj, odprte inventure, neskladja), ki uporabnikom pomagajo razumeti trenutno obremenitev, premike zaloge in aktivne skladiščne procese.
 
-![Nadzorna plošča logistike](Images/Dashboard.png "Nadzorna plošča logistike")
+![Nadzorna plošča logistike](Images/DashboardSL.png "Nadzorna plošča logistike")
 
 Nadzorna plošča služi kot vstopna točka za skladiščne vodje in operaterje, ki potrebujejo takojšen vpogled v stanje logističnih operacij.
 
@@ -40,13 +40,13 @@ Nadzorna plošča služi kot vstopna točka za skladiščne vodje in operaterje,
 
 Razdelek **[Zaloga](Pregledi/Zaloga.md)** omogoča operativni vpogled v materiale in njihove trenutne količine v skladiščih. Prikazuje vse materiale po skladiščih in lokacijah, vključno z razpoložljivimi količinami, serijami, serijskimi številkami in fizičnimi pozicijami. Ta pogled je samo za branje.
 
-![Zaslon zaloge](Images/Stock.png "Zaslon zaloge")
+![Zaslon zaloge](Images/StockSL.png "Zaslon zaloge")
 
 ## Dokumenti
 
 Razdelek **Dokumenti** vsebuje vse logistične transakcije, ki **spreminjajo količino zaloge** ali **beležijo skladiščne aktivnosti**.
 
-![Logistični dokumenti](Images/LogisticsDomainDocuments.png "Logistični dokumenti")
+![Logistični dokumenti](Images/LogisticsDomainDocumentsSL.png "Logistični dokumenti")
 
 Razpoložljivi logistični dokumenti vključujejo:
 
@@ -73,7 +73,7 @@ Vsak od teh dokumentov prispeva k sledljivosti in natančnosti skladiščnih ope
 
 Razdelek **Pregledi** ponuja analitična orodja za razumevanje premikov zaloge, vzorcev porabe in razporeditve po lokacijah.
 
-![Pregledi logistike](Images/LogisticsDomainViews.png "Pregledi logistike")
+![Pregledi logistike](Images/LogisticsDomainViewsSL.png "Pregledi logistike")
 
 Razpoložljivi pregledi vključujejo:
 
@@ -87,7 +87,7 @@ Ti zasloni **ne ustvarjajo transakcij** – namenjeni so podpori odločanja.
 
 Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, ki jih uporabljajo vsi logistični procesi.
 
-![Šifranti logistike](Images/LogisticsDomainManagement.png "Šifranti logistike")
+![Šifranti logistike](Images/LogisticsDomainManagementSL.png "Šifranti logistike")
 
 Razpoložljivi šifranti vključujejo:
 

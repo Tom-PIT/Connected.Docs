@@ -14,14 +14,14 @@ To domeno uporabite za:
 
 Za dostop do domene **Kvaliteta** se pomaknite na **Kvaliteta** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-![Zemljevid domene Kvaliteta](Images/QualitySitemap.png)
+![Zemljevid domene Kvaliteta](Images/QualityDomainSitemapSL.png)
 
 > [!NOTE]
 > Razpoložljive domene so odvisne od konfiguracije in poslovnega modela posameznega podjetja.
 
 ## Kaj vključuje domena Kvaliteta?
 
-![Pregled domene Kvaliteta](Images/QualityDomainOverview.png "Pregled domene Kvaliteta")
+![Pregled domene Kvaliteta](Images/QualityDomainOverviewSL.png "Pregled domene Kvaliteta")
 
 Domena je strukturirana v dve funkcionalni področji:
 
@@ -35,4 +35,4 @@ Domena je strukturirana v dve funkcionalni področji:
   - [**Aktivne kontrolne liste**](Pregledi/AktivneKontrolneListe.md) — pregled vseh kontrolnih listov, ki so trenutno v teku ali čakajo na zaključek. Tipični stolpci vključujejo ime kontrolnega lista, proces/sredstvo, odgovorno osebo, čas začetka, rok in status. Pogosta dejanja: odpiranje zapisa, nadaljevanje izvajanja ali označitev kot zaključenega (glede na dovoljenja).
   - [**Zaključene kontrolne liste**](Pregledi/ZakljuceneKontrolneListe.md) — pregled zaključenih kontrolnih listov z rezultati, časovnimi žigi, odgovornimi uporabniki in morebitnimi zabeleženimi neskladnostmi. Podpira filtriranje (časovna obdobja, procesi, organizacijske enote, rezultati) in izvoz za potrebe revizij.
 
-![Pogledi domene Kvaliteta](Images/QualityDomainViews.png "Pogledi domene Kvaliteta")
+![Pogledi domene Kvaliteta](Images/QualityDomainViewsSL.png "Pogledi domene Kvaliteta")

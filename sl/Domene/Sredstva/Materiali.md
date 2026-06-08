@@ -9,7 +9,7 @@
 
 Za dostop do materialov pojdite na **Sredstva / Materiali** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-![Pregled domene Sredstva](Images/MaterialsSitemap.png "Pregled domene Sredstva")
+![Pregled domene Sredstva](Images/MaterialsSitemapSL.png "Pregled domene Sredstva")
 
 ## Kategorije materialov
 
@@ -20,7 +20,7 @@ Razdelek **Materiali** vsebuje štiri glavne šifrante, ki predstavljajo osnovne
 - **[Surovine](Materiali/Surovine.md)** – Osnovni vhodni materiali, uporabljeni v začetnih fazah proizvodnje, kot so les, kovinske plošče ali drugi temeljni materiali.
 - **[Repro materiali](Materiali/ReproMateriali.md)** – Povratne ali pomožne komponente, ki se uporabljajo za podporo proizvodnji ali internim dejavnostim.
 
-![Področje Materiali](Images/MaterialsSubdomain.png "Področje Materiali")
+![Področje Materiali](Images/MaterialsSubdomainSL.png "Področje Materiali")
 
 ## Dodatni šifranti, povezani z materiali
 Ti šifranti podpirajo upravljanje in natančno definicijo štirih glavnih vrst materialov:

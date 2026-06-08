@@ -11,7 +11,7 @@ Domena se najpogosteje uporablja za **interno dokumentacijo**, gradiva za uvajan
 
 Za dostop do domene pojdite na **Znanje** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-![Domena Znanje](Images/KnowledgeDomainSitemap.png "Domena Znanje")
+![Domena Znanje](Images/KnowledgeDomainSitemapSL.png "Domena Znanje")
 
 > [!NOTE]  
 > Razpoložljive domene so odvisne od konfiguracije sistema in poslovnega modela podjetja.
@@ -23,7 +23,7 @@ Domena je razdeljena na dve glavni funkcionalni področji:
 - **[Baza znanja](BazaZnanja/BazaZnanja.md)** – uporabniški dostop do objavljenih člankov in dokumentacije  
 - **[Upravljanje](#upravljanje)** – nastavitev strukture in vsebine  
 
-![Pregled domene Znanje](Images/KnowledgeDomainOverview.png "Pregled domene Znanje")
+![Pregled domene Znanje](Images/KnowledgeDomainOverviewSL.png "Pregled domene Znanje")
 
 ## Baza znanja
 
@@ -55,7 +55,7 @@ Tipična uporaba vključuje:
 
 Razdelek **Upravljanje** se uporablja za nastavitev in vzdrževanje strukture domene Znanje. Določa **kako je vsebina organizirana**, ne pa same vsebine.
 
-![Upravljanje Znanja](Images/KnowledgeDomainManagement.png "Upravljanje Znanja")
+![Upravljanje Znanja](Images/KnowledgeDomainManagementSL.png "Upravljanje Znanja")
 
 Upravljanje vključuje naslednja konfiguracijska področja:
 - **[Imeniki](Upravljanje/Imeniki.md)** – organizacijski vsebniki za članke
@@ -69,9 +69,9 @@ Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravl
 
 **Imeniki** določajo glavno strukturo **Baze znanja**. Vsak imenik predstavlja **temo ali kategorijo** in lahko vsebuje:
 
-- [Članke](Upravljanje/Clanki.md)  
-- [Kazalo](Upravljanje/Kazalo.md) (strukturirano navigacijo)  
-- priloge  
+- [**Članke**](Upravljanje/Clanki.md)  
+- [**Kazalo**](Upravljanje/Kazalo.md) (strukturirano navigacijo)  
+- **Priloge**  
 
 Imeniki omogočajo logično združevanje vsebine (npr. kadrovske smernice, proizvodna navodila, IT dokumentacija).
 
