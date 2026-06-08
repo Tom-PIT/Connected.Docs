@@ -11,7 +11,7 @@ Medtem ko področje **[Prodaja](../Prodaja/Prodaja.md)** upravlja procese, usmer
 
 Za dostop do področja Nabava pojdite na **Nabava** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-![Področje Nabava](Images/SupplyDomainSitemap.png "Področje Nabava")
+![Področje Nabava](Images/SupplyDomainSitemapSL.png "Področje Nabava")
 
 > [!NOTE]  
 > Razpoložljiva področja so odvisna od konfiguracije in poslovnega modela posameznega podjetja.
@@ -25,13 +25,13 @@ Področje je organizirano v več funkcionalnih sklopov:
 - **[Pregledi](#pregledi)** – analitični pregledi za spremljanje nabavnih trendov  
 - **[Šifranti](#sifranti)** – nastavitve in osnovni podatki za nabavne procese
 
-![Pregled področja Nabava](Images/SupplyDomainOverview.png "Pregled področja Nabava")
+![Pregled področja Nabava](Images/SupplyDomainOverviewSL.png "Pregled področja Nabava")
 
 ## Dokumenti
 
 Razdelek **Dokumenti** vsebuje nabavne dokumente, ki se uporabljajo za povpraševanje po ponudbah ali za izdajo nabavnih nalogov dobaviteljem.
 
-![Dokumenti nabave](Images/SupplyDomainDocuments.png "Dokumenti nabave")
+![Dokumenti nabave](Images/SupplyDomainDocumentsSL.png "Dokumenti nabave")
 
 Razpoložljivi dokumenti vključujejo:
 
@@ -53,7 +53,7 @@ Omogoča proaktivno planiranje ter preprečuje pomanjkanje ali presežke zalog.
 
 Razdelek **Pregledi** omogoča analitičen vpogled v nabavne naloge in nabavne vzorce. Pregledi so namenjeni samo za branje.
 
-![Pregledi nabave](Images/SupplyDomainsViews.png "Pregledi nabave")
+![Pregledi nabave](Images/SupplyDomainsViewsSL.png "Pregledi nabave")
 
 Razpoložljivi pregledi vključujejo:
 
@@ -66,7 +66,7 @@ Ti pregledi podpirajo analizo in odločanje, vendar **ne ustvarjajo** transakcij
 
 Razdelek **Upravljanje** vsebuje konfiguracijo in osnovne podatke, potrebne za delovanje nabavnih procesov.
 
-![Šifranti nabave](Images/SupplyDomainManagement.png "Šifranti nabave")
+![Šifranti nabave](Images/SupplyDomainManagementSL.png "Šifranti nabave")
 
 Razpoložljive nastavitve in šifranti vključujejo:
 

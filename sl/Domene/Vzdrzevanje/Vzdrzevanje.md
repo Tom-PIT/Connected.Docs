@@ -19,7 +19,7 @@ To domeno uporabljate za:
 Do domene Vzdrževanje dostopate prek **Vzdrževanje** v
 [navigaciji](../../Skupno/UI/Navigacija.md).
 
-![Zemljevid domene vzdrževanja](Images/MaintenanceDomainSitemap.png)
+![Zemljevid domene vzdrževanja](Images/MaintenanceDomainSitemapSL.png)
 
 > [!NOTE]
 > Razpoložljive domene so odvisne od konfiguracije in poslovnega modela
@@ -27,7 +27,7 @@ Do domene Vzdrževanje dostopate prek **Vzdrževanje** v
 
 ## Kaj vključuje domena Vzdrževanje?
 
-![Pregled domene vzdrževanja](Images/MaintenanceDomainOverview.png "Pregled domene vzdrževanja")
+![Pregled domene vzdrževanja](Images/MaintenanceDomainOverviewSL.png "Pregled domene vzdrževanja")
 
 Domena je strukturirana v funkcionalna področja za dnevno delo in analizo:
 
@@ -43,7 +43,7 @@ Konfiguracija skupnih struktur, ki se uporabljajo pri vzdrževanju.
 Domena Vzdrževanje uporablja skupne šifrante, ki so deljeni s
 [**Proizvodnjo**](../Proizvodnja/Proizvodnja.md).
 
-![Upravljanje domene vzdrževanja](Images/MaintenanceDomainManagement.png "Upravljanje domene vzdrževanja")
+![Upravljanje domene vzdrževanja](Images/MaintenanceDomainManagementSL.png "Upravljanje domene vzdrževanja")
 
 - **[Procesi](../Proizvodnja/Upravljanje/Procesi.md)** — definicija korakov procesov in verzij, ki se uporabljajo za izvajanje vzdrževalnih operacij.
 - **[Organizacijske enote](../Proizvodnja/Upravljanje/OrganizacijskeEnote.md)** — definicija operativnih enot (npr. vzdrževalni oddelki, servisne ekipe).
@@ -55,12 +55,11 @@ Ti šifranti omogočajo vodenje vzdrževalnih tokov dela in izvajanja prek nalog
 > [!TIP]
 Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
-
 ## Analitika
 
 Spremljanje uspešnosti in zanesljivosti s pomočjo vgrajene analitike.
 
-![Analitika domene vzdrževanja](Images/MaintenanceDomainAnalytics.png "Analitika domene vzdrževanja")
+![Analitika domene vzdrževanja](Images/MaintenanceDomainAnalyticsSL.png "Analitika domene vzdrževanja")
 
 - **[Kazalniki vzdrževanja](Analiza/KazalnikiVzdrzevanja.md)** — kartice KPI in podrobni seznami za MTBF, čas zaznave napake, čas odprave napake, napor in razčlenitev obremenitev.
 

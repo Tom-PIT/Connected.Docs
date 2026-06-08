@@ -16,14 +16,14 @@ Ta domena združuje vse elemente, potrebne za definiranje, cenitev, organizacijo
 
 Za dostop do domene Sredstva pojdite na **Sredstva** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-![Domena Sredstva](Images/AssetsSitemap.png)
+![Domena Sredstva](Images/AssetsSitemapSL.png)
 
 > [!NOTE]  
 > Razpoložljive domene so odvisne od konfiguracije sistema in poslovnega modela podjetja.
 
 ## Kaj vključuje domena Sredstva?
 
-![Pregled domene Sredstva](Images/AssetsDomain.png "Pregled domene Sredstva")
+![Pregled domene Sredstva](Images/AssetsDomainOverviewSL.png "Pregled domene Sredstva")
 
 Domena je razdeljena na več funkcionalnih področij:
 
@@ -43,7 +43,7 @@ Domena je razdeljena na več funkcionalnih področij:
   - **[Merske enote](../../Skupno/Upravljanje/MerskeEnote.md)**
 Te nastavitve določajo strukturo in vedenje sredstev ter način njihove cenitve.
 
-![Upravljanje domene Sredstva](Images/AssetsDomainManagement.png)
+![Upravljanje domene Sredstva](Images/AssetsDomainManagementSL.png)
 
 ## Sredstva vs. Materiali
 
