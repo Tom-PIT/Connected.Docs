@@ -6,7 +6,10 @@
 # Maintenance orders
 
 Maintenance orders define the work required to perform **planned or curative maintenance** on equipment, based on a selected **maintenance process** and version.  
+
 They move through the life cycle **Pending → Active → Closed**, and include operations, resources, inputs, and quality checks defined by the selected process.
+
+![Maintenance Order Lifecycle](../Images/MaintenanceOrderLifecycle.svg "Maintenance orders lifecycle diagram")
 
 > [!NOTE]
 > **Prerequisites**

@@ -5,12 +5,12 @@
 
 # Izvedba
 
-Modul **Izvedba** uporabljajo proizvodni delavci za izvajanje in beleženje dela na dodeljenih proizvodnih nalogih. Omogoča sprotno spremljanje napredka, proizvedenih količin, zastojev, izgub, kontrolnih seznamov in drugih aktivnosti.
+Modul **Izvedba** uporabljajo proizvodni delavci za izvajanje in beleženje dela na dodeljenih proizvodnih nalogih. Omogoča sprotno spremljanje napredka, proizvedenih količin, [zastojev](Zastoj.md), [slabih kosov](SlabiKosi.md), [kvalitete](Kvaliteta.md) in drugih aktivnosti.
 
 Večina proizvodnih delavcev je ob prijavi samodejno preusmerjena na pogled Izvedba.
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič **[izvedba](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)**.
+> Za celovit prikaz si oglejte video vodič **[Izvedba](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)**.
 
 Za ročni dostop pojdite na **Proizvodnja / Izvedba** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 

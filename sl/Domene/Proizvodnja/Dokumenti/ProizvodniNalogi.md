@@ -8,6 +8,8 @@
 Proizvodni nalogi določajo delo, potrebno za izdelavo izdelkov glede na izbrani proces in verzijo.  
 Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Zaključen** in lahko vključujejo več operacij, virov, vhodov, izhodov in kontrol kakovosti glede na dodeljen proces.
 
+![Production Order Lifecycle S L](../Images/ProductionOrderLifecycleSL.svg "Diagram življenjskega cikla proizvodnega naloga")
+
 > [!NOTE]
 > **Predpogoji**  
 >

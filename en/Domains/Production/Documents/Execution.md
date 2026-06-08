@@ -5,12 +5,12 @@
 
 # Execution
 
-The **Execution** module is used by production workers to perform and record work on assigned production orders. It provides real-time tracking of progress, produced quantities, downtime, losses, checklists, and other activities.
+The **Execution** module is used by production workers to perform and record work on assigned production orders. It provides real-time tracking of progress, produced quantities, [downtime](Downtime.md), [losses](Loss.md), [quality checklists](Quality.md), and other activities.
 
 Most production workers are automatically redirected to the Execution view upon login.
 
 > [!TIP]
-> For a full demonstration, see the **[executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.
+> For a full demonstration, see the **[Executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.
 
 To access this page manually, go to **Production / Execution** in the [navigation](../../../Common/UI/Navigation.md).
 
