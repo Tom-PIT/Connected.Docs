@@ -58,7 +58,7 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 | **Description** | Additional text explaining the asset. |
 | **Details** | List of asset components (e.g., linked materials or quantities). |
 | **Add new asset detail** | Action to add a new asset detail. |
-| **Type** | Type of [material](../Domain/Materials.md) of the detail (e.g., Products). |
+| **Type** | Type of [material](../Materials.md) of the detail (e.g., Products). |
 | **Entity** | Selected material or item to link as part of the asset. |
 | **Quantity** | Quantity of the linked entity. |
 

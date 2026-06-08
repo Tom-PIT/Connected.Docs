@@ -52,7 +52,7 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Prevzeti material (izdelek, polizdelek, surovina ali repro material). |
+| [**Material**](../../Sredstva/Materiali.md) | Prevzeti material (izdelek, polizdelek, surovina ali repro material). |
 | **EAN** | Črtna koda pakiranja ali enote. |
 | **Neto teža / Bruto teža (kg)** | Podatek o teži, shranjen v sistemu ali pridobljen s skeniranjem. |
 | **Dimenzije (švd, mm)** | Širina, višina in globina pakiranja. |

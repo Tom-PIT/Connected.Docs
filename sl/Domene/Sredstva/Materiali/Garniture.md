@@ -16,7 +16,7 @@ Za dostop do tega zaslona pojdite na
 
 | Polje | Opis |
 |---|---|
-| **Tip [materiala](../Domena/Materiali.md)** | Kategorija nadrejene garniture (npr. Izdelek, Polizdelek). |
+| **Tip [materiala](../Materiali.md)** | Kategorija nadrejene garniture (npr. Izdelek, Polizdelek). |
 | **Entiteta** | Nadrejeni material, ki predstavlja garnituro (npr. Pohištvena garnitura). |
 | **Količina** | Količina posamezne komponente v garnituri. |
 
@@ -28,7 +28,7 @@ Za dostop do tega zaslona pojdite na
 
 ## Seznam garnitur
 
-Leva stranska vrstica prikazuje nadrejene materiale, združene po **[Vrsti materiala](../Domena/Materiali.md)** (npr. **[Izdelki](Izdelki.md)**, **[Polizdelki](Polizdelki.md)**).  
+Leva stranska vrstica prikazuje nadrejene materiale, združene po **[Vrsti materiala](../Materiali.md)** (npr. **[Izdelki](Izdelki.md)**, **[Polizdelki](Polizdelki.md)**).  
 Izberite nadrejeni material, da si v glavnem seznamu ogledate njegove komponente in pripadajoče količine.
 
 ![Seznam garnitur](../Images/SetsList.png "Seznam garnitur")

@@ -30,7 +30,7 @@ To access this page, click the **Quality** button from:
 | **Checklist** | The quality checklist that will be executed during the operation. |
 | **Mode** | Defines when the checklist is executed: <br>• **Manual**<br>• **On complete**<br>• **On every N units**<br>• **On first produced unit**<br>• **On last produced unit**<br>• **On pause**<br>• **On run**<br>• **On start** |
 | **Order** | Determines the execution order of the checklist relative to other checklists in the same operation. |
-| **Material** | Optional material to which the checklist applies. Used when quality checks are material-specific. See **[Materials](../../Assets/Domain/Materials.md)**. |
+| **Material** | Optional material to which the checklist applies. Used when quality checks are material-specific. See **[Materials](../../Assets/Materials.md)**. |
 | **Period** | Defines the number of produced units after which the checklist is triggered. This field is available only when **Mode = On every N units**. |
 
 ## List view

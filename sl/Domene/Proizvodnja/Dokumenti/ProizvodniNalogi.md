@@ -95,7 +95,7 @@ Ko je nalog pripravljen za proizvodnjo, kliknite **Aktiviraj**.
 
 Na proizvodni nalog lahko pripnete druge povezane dokumente, kot so:
 
-- [**Projekti**](../../Projekti/Domena/DomenaProjektov.md)  
+- [**Projekti**](../../Projekti/DomenaProjektov.md)  
 - [**Nabavni nalogi**](../../Nabava/Dokumenti/NabavniNalogi.md)
 - [**Povpraševanja**](../../Nabava/Dokumenti/Povprasevanja.md)
 - Drugi proizvodni nalogi (povezani ali kot vhodni)

@@ -20,7 +20,7 @@ Za dostop do tega zaslona pojdite na **Proizvodnja / Kooperanti** v [navigaciji]
 
 Da je operacija na voljo za kooperante, morajo biti izpolnjeni naslednji pogoji:
 
-- Operacija mora pripadati **[Proizvodnemu nalogu](ProizvodniNalogi.md)** ali domeni **Vzdrževanje** (glej [domeno Vzdrževanje](../../Vzdrzevanje/Domena/Vzdrzevanje.md)).
+- Operacija mora pripadati **[Proizvodnemu nalogu](ProizvodniNalogi.md)** ali domeni **Vzdrževanje** (glej [domeno Vzdrževanje](../../Vzdrzevanje/Vzdrzevanje.md)).
 - V obrazcu za ustvarjanje ali urejanje operacije mora biti dodeljena oznaka `cooperator`.
 - Zunanje podjetje mora obstajati v [**Poslovnem imeniku**](../../../Skupno/Upravljanje/PoslovniImenik.md) in imeti omogočeno vlogo **Kooperant**.
 

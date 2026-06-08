@@ -33,7 +33,7 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Domena/Materiali.md) | Posojen material (izdelek, surovina, polizdelek, repro material itd.). |
+| [**Material**](../../Sredstva/Materiali.md) | Posojen material (izdelek, surovina, polizdelek, repro material itd.). |
 | **Serijska številka** | Izbrana serijska številka za serijsko vodene materiale. |
 | **Datum do** | Datum poteka, če je določen. |
 | [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Lokacija, iz katere se material vzame. |

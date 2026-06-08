@@ -39,7 +39,7 @@ This view helps quickly identify which components contribute most to the total c
 
 ## Materials
 
-The [**Materials**](../../Assets/Domain/Materials.md) section lists all materials consumed by the process operations. [Supplier material prices](../../Supply/Management/SupplierMaterials.md) are used to calculate the cost contribution of each material.
+The [**Materials**](../../Assets/Materials.md) section lists all materials consumed by the process operations. [Supplier material prices](../../Supply/Management/SupplierMaterials.md) are used to calculate the cost contribution of each material.
 
 Each row displays:
 
