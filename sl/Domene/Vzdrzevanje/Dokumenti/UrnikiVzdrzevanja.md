@@ -87,7 +87,7 @@ Podprti ponavljajoči se vzorci izvajanja vključujejo:
 - Vzorce na podlagi **števcev oziroma uporabe** (npr. vsakih X kosov, metrov, gramov ali ur) z uporabo ustreznih števcev in merskih enot opreme
 
 > [!NOTE]
-> Za konfiguracijo števcev uporabe na virih in opremi glejte [**Delovne ure in števci virov**](DelovneUreInStevciVirov.md).
+> Za konfiguracijo števcev uporabe na virih in opremi glejte [**Stanja števcev**](StanjaStevcev.md).
 
 Ko je urnik ustvarjen, samodejno generira prihodnje vzdrževalne naloge glede na določeni interval ali prag uporabe, kar omogoča neprekinjeno izvajanje preventivnega vzdrževanja brez ročnega ustvarjanja novih nalogov.
 

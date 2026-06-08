@@ -74,6 +74,7 @@ Iskalno polje omogoča filtriranje po kodi vzdrževalnega naloga ali nazivu opre
 ## Ustvarjanje vzdrževalnega naloga
 
 Za ustvarjanje vzdrževalnega naloga uporabite [vodeni čarovnik](VzdrzevalniNalogiUstvarjanje.md).
+
 ## V obdelavi vzdrževalni nalogi
 
 Novo ustvarjen vzdrževalni nalog se začne v stanju **V obdelavi**.

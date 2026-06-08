@@ -34,7 +34,7 @@ Each entry represents a **recurring maintenance definition** linked to:
 
 ![Maintenance Schedule List](../Images/MaintenanceScheduleList.png)
 
-Clicking the [action button](../../../Common/UI/ActionButton.md) starts the creation of a new maintenance schedule, which is the same process as [creating a maintenance order](MaintenanceOrdersCreate.md).
+Clicking the [action button](../../../Common/UI/ActionButton.md) starts the creation of a new maintenance schedule, which is the same process as [creating a maintenance order](MaintenanceOrderCreate.md).
 
 From there, you can define the order details and choose whether the maintenance should be executed **once** or generate a **recurring maintenance schedule**.
 
@@ -68,7 +68,7 @@ Maintenance schedules can be created in two ways:
 
 When creating a maintenance schedule manually, the creation process follows the same workflow as creating a maintenance order.
 
-For detailed instructions, see [**How to create a maintenance order**](MaintenanceOrdersCreate.md).
+For detailed instructions, see [**How to create a maintenance order**](MaintenanceOrderCreate.md).
 
 Supported recurring execution patterns include:
 

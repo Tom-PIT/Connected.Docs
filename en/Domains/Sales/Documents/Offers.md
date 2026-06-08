@@ -159,14 +159,16 @@ Offers support the creation of several related documents, allowing a complete bu
 > [!NOTE]
 > The available **Linked document** actions depend on the document type and status.
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
+![Linked documents](../Images/OfferPublishedLinkedDocuments.png)
+
 Common actions include:
 
 - **Project** – link the offer to a project  
 - **Copy offer** – duplicate this offer  
 - **+ Proforma invoice** – create a proforma invoice  
 - **+ Sales order** – create a [sales order](SalesOrders.md) directly from the offer (typical workflow when a customer accepts the offer)
-
-![Linked documents](../Images/OfferPublishedLinkedDocuments.png)
 
 #### Alternative currency
 

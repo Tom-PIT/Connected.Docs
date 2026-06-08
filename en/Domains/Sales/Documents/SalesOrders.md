@@ -150,6 +150,8 @@ Click on a sales order on the list to open the edit view. The available actions 
 
 The Linked documents section allows creation and linkage of operational documents. It also shows any previously linked documents.
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
 ![Sales order – Linked documents](../Images/SalesOrdersLinkedDocuments.png)
 
 > [!NOTE]

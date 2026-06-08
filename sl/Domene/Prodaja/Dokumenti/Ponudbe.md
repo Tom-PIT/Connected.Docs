@@ -158,6 +158,8 @@ Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md)
 
 Ponudbe omogočajo ustvarjanje več povezanih dokumentov, kar podpira celoten poslovni proces.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 > [!NOTE]
 > Razpoložljiva dejanja v razdelku **Povezani dokumenti** so odvisna od tipa in statusa dokumenta.
 

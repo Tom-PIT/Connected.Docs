@@ -129,6 +129,8 @@ For committed invoices, the **Document connections** section provides an option 
 
 ![Received invoice – document connections](../Images/ReceivedInvoicesCommitedTop.png "Document connections")
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
 ## Delete a received invoice
 
 Draft documents can be deleted on the edit screen, but only if they contain **no details**.

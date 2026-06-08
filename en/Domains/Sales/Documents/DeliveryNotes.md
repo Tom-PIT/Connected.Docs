@@ -139,6 +139,8 @@ For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attach
 
 The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents.
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
 ![Delivery note – linked documents](../Images/DeliveryNoteLinkedDocuments.png)
 
 > [!NOTE]

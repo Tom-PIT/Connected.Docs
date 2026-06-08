@@ -201,6 +201,8 @@ Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md)
 
 Razdelek **Povezani dokumenti** omogoča povezavo s predhodno ustvarjenim **[Izdanim računom](IzdaniRacuni.md)**.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 ![Povezani dokumenti dobropisa](../Images/CreditDebitNoteLinkedDocuments.png "Povezani dokumenti dobropisa")
 
 Potrjeni dobropisi razdelka **Povezani dokumenti** ne prikazujejo.

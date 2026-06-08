@@ -180,6 +180,8 @@ While the invoice is in **Draft** status you can edit all sections:
 
 The linked documents section enables the creation of operational or follow-up documents. This section also shows any previously linked documents.
 
+For details about document relationships, traceability, and creating related documents, see [**Linked documents**](../../../Common/Concepts/LinkedDocuments.md).
+
 ![Issued Invoice Partially Paid Linked Documents](../Images/IssuedInvoicePartiallyPaidLinkedDocuments.png "Issued Invoice Partially Paid Linked Documents")
 
 > [!NOTE]

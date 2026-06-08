@@ -128,6 +128,8 @@ Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md)
 
 Razdelek **Povezani dokumenti** omogoča ustvarjanje in sledenje nadaljnjih nabavnih dokumentov.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 > [!NOTE]
 > Razpoložljiva dejanja v razdelku **Povezani dokumenti** so odvisna od vrste dokumenta in njegovega stanja.
 

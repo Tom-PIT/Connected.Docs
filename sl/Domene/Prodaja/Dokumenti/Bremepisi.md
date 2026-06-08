@@ -198,6 +198,8 @@ Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md)
 
 Razdelek **Povezani dokumenti** omogoča povezavo s predhodno ustvarjenim **[Izdanim računom](IzdaniRacuni.md)**.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 ![Povezani dokumenti bremepisa](../Images/CreditDebitNoteLinkedDocuments.png "Povezani dokumenti bremepisa")
 
 Potrjeni bremepisi razdelka **Povezani dokumenti** ne prikazujejo.
