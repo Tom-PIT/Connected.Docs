@@ -44,8 +44,7 @@ povezana z:
 
 ![Seznam urnikov vzdrževanja](../Images/MaintenanceScheduleList.png)
 
-Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) ustvari
-[**nov vzdrževalni nalog**](VzdrzevalniNalogi.md).
+Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) začne postopek ustvarjanja novega urnika vzdrževanja, ki poteka enako kot [ustvarjanje vzdrževalnega naloga](VzdrzevalniNalogiUstvarjanje.md).
 
 Nato lahko določite podrobnosti naloga in izberete, ali se bo vzdrževanje
 izvedlo **enkratno** ali pa bo ustvarjen **ponavljajoč urnik vzdrževanja**.
@@ -71,23 +70,26 @@ Za zoženje seznama uporabite filtre na levi strani:
 
 Iskalno polje omogoča filtriranje po nazivu opreme ali procesu.
 
-## Ustvariti urnik vzdrževanja
+## Ustvarjanje urnika vzdrževanja
 
-Urniki vzdrževanja se ustvarijo **samodejno**, ko je planirani
-vzdrževalni nalog konfiguriran s **ponavljajočim vzorcem izvedbe**.
+Urnike vzdrževanja je mogoče ustvariti na dva načina:
 
-Podprti vzorci ponavljanja vključujejo:
-- **Časovne vzorce** (npr. mesečno, letno, vsakih X dni)
-- **Vzorce na podlagi števcev/uporabe**
-  (npr. vsakih X kosov, metrov, gramov, ur),
-  z uporabo ustreznih števcev opreme in merskih enot
+- Ročno na strani **Urnik vzdrževanja** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md)
+- Samodejno, ko je vzdrževalni nalog konfiguriran s **ponavljajočim se vzorcem izvajanja**
+
+Pri ročnem ustvarjanju urnika vzdrževanja postopek poteka enako kot pri ustvarjanju vzdrževalnega naloga.
+
+Za podrobna navodila glejte [**Kako ustvariti vzdrževalni nalog**](VzdrzevalniNalogiUstvarjanje.md).
+
+Podprti ponavljajoči se vzorci izvajanja vključujejo:
+
+- Vzorce na podlagi **časa** (npr. mesečno, letno, vsakih X dni)
+- Vzorce na podlagi **števcev oziroma uporabe** (npr. vsakih X kosov, metrov, gramov ali ur) z uporabo ustreznih števcev in merskih enot opreme
 
 > [!NOTE]
-> Za konfiguracijo števcev uporabe na virih in opremi glejte **[Stanja števcev](StanjaStevcev.md)**.
+> Za konfiguracijo števcev uporabe na virih in opremi glejte [**Delovne ure in števci virov**](DelovneUreInStevciVirov.md).
 
-Ko je urnik ustvarjen, je odgovoren za generiranje prihodnjih
-vzdrževalnih nalogov v skladu z določenim intervalom ali pragom uporabe,
-kar omogoča neprekinjeno preventivno vzdrževanje brez ročnega dela.
+Ko je urnik ustvarjen, samodejno generira prihodnje vzdrževalne naloge glede na določeni interval ali prag uporabe, kar omogoča neprekinjeno izvajanje preventivnega vzdrževanja brez ročnega ustvarjanja novih nalogov.
 
 ## Urediti urnik vzdrževanja
 
