@@ -27,7 +27,7 @@ Za dostop do tega šifranta pojdite na **Logistika / Upravljanje / Skladišča**
 
 Uporabniški vmesnik vsebuje seznam skladišč. Če zapisi še ne obstajajo, je seznam prazen.
 
-![Seznam skladišč](../Images/Warehouses.png "Seznam skladišč")
+![Seznam skladišč](../Images/WarehousesSL.png "Seznam skladišč")
 
 Seznam prikazuje osnovne podatke o skladiščih, vključno s **šifro** in **imenom** skladišča.
 
@@ -43,7 +43,7 @@ Obrazec vključuje naslednja polja:
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite skladišče, ali **Prekliči**, da se vrnete na seznam.
 
-![Novo skladišče](../Images/NewWarehouse.png "Novo skladišče")
+![Novo skladišče](../Images/NewWarehouseSL.png "Novo skladišče")
 
 ## Urejanje
 
