@@ -13,10 +13,11 @@ Ta vodnik prikazuje **osnovne korake** za izvajanje proizvodnje na zaslonu **Izv
 
 ## 1. Izberite proizvodni nalog
 
-Ko odprete **Izvedbo**, izberite proizvodni nalog in operacijo, na kateri boste delali.  
-Če nič ni izbrano, vas bo zaslon pozval k izbiri **proizvodnega naloga**.
+Ko odprete **Izvedbo**, prepričajte se, da je izbrana prava organizacijska enota in izberite proizvodni nalog in operacijo, na kateri boste delali.  
 
-![Prazna stran izvedbe](Images/ExecutionPageEmpty.png "Izberite proizvodni nalog")
+Če ni izbrano nič ali če ni na voljo nobenih proizvodnih nalogov, vas bo zaslon pozval, da izberete **Proizvodni nalog**.
+
+![Prazna stran izvedbe](Images/ExecutionPageEmptySL.png "Izberite proizvodni nalog")
 
 ## 2. Zaženite operacijo
 
@@ -38,11 +39,11 @@ S pritiskom na **Proizvedi** se operacija **samodejno zažene**, tudi če ne spr
    - proizvedeno količino  
    - preostalo količino  
 
-![Korak izvedbe 1](Images/ExecutionStep1.png)
+![Korak izvedbe 1](Images/ExecutionStep1SL.png)
 
 Postopek ponovite vsakič, ko dokončate nove kose.
 
-> **OPOMBA**  
+> [!NOTE]  
 > Po potrebi preverite **Navodila**:  
 > - tapnite **Navodila**, da si ogledate korake sestave, slike ali opombe, specifične za operacijo.
 
@@ -52,9 +53,9 @@ Postopek ponovite vsakič, ko dokončate nove kose.
 
 1. Sledite korakom, prikazanim na zaslonu.  
 
-   ![Kontrolna lista kakovosti](Images/ExecutionStep1Checklist.png "Kontrolna lista kakovosti")
+   ![Kontrolna lista kakovosti](Images/ExecutionStep1ChecklistSL.png "Kontrolna lista kakovosti")
 
-2. Dokončajte vse korake in pritisnite **Zaključi**.  
+2. Dokončajte vse korake in pritisnite **Konec**.  
 3. Če morate kontrolno listo ponoviti:
    1. Odprite akcijski meni z [**akcijskim gumbom**](../Skupno/UI/AkcijskiGumb.md).
    2. Vstopite v razdelek **[Kakovost](../Domene/Proizvodnja/Dokumenti/Kvaliteta.md)**.
@@ -97,7 +98,7 @@ To uporabite za vsako prekinitev, npr. čakanje na material ali okvaro stroja.
 1. Odprite akcijski meni z [**akcijskim gumbom**](../Skupno/UI/AkcijskiGumb.md).
 2. Po potrebi vstopite v razdelek **[Delo](../Domene/Proizvodnja/Dokumenti/Izvedba.md#delo)**.
 
-![Vnos dela](Images/ExecutionEffortPage.png "Vnos dela")
+![Vnos dela](Images/ExecutionEffortPageSL.png "Vnos dela")
 
 ### Samodejno:
 Pritisnite **Začni** → delajte → pritisnite **Ustavi**.

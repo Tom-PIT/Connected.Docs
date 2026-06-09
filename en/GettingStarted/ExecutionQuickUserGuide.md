@@ -13,10 +13,13 @@ This guide shows the **essential steps** to perform production using the Executi
 
 ## 1. Select your production order
 
-When you open **Execution**, select the production order and operation you will work on.  
-If nothing is selected, the screen will prompt you to choose a **Production order**.
+When you open **Execution**: 
+- Make sure the correct organizational unit is selected.
+- Select the production order and operation you will work on.  
 
-![Empty execution page](Images/ExecutionPageEmpty.png "Select a production order")
+If nothing is selected, or no production orders are available, the screen will prompt you to choose a **Production order**.
+
+![Empty execution page](Images/ExecutionPageEmptyV2.png "Select a production order")
 
 ## 2. Start the operation
 
@@ -40,7 +43,7 @@ Pressing **Produce** will **automatically start the operation**, even if you don
    - Produced quantity  
    - Remaining quantity  
 
-![Execution Step1](Images/ExecutionStep1.png)
+![Execution Step1](Images/ExecutionStep1V2.png)
 
 Repeat whenever more items are completed.
 
@@ -54,7 +57,7 @@ Repeat whenever more items are completed.
 
 1. Follow the steps shown on screen.  
    
-   ![Quality checklist](Images/ExecutionStep1Checklist.png "Quality checklist")
+   ![Quality checklist](Images/ExecutionStep1ChecklistV2.png "Quality checklist")
 
 2. Complete each step. When you’re done, tap **Finish**.  
 3. If you need to do a checklist again:
@@ -99,7 +102,7 @@ Use this for any interruption, such as waiting for materials or machine issues.
 1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
 2. Enter the **[Effort](../Domains/Production/Documents/Execution.md#effort)** section if required by your workflow.
 
-![Effort entry](Images/ExecutionEffortPage.png "Record effort")
+![Effort entry](Images/ExecutionEffortPageV2.png "Record effort")
 
 ### Automatic:
 
