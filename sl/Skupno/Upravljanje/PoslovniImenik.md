@@ -46,7 +46,7 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v nasl
 ### Seznam vnosov v poslovnem imeniku
 Uporabniški vmesnik vsebuje seznam vnosov v Poslovnem imeniku.
 
-![Poslovni imenik](../Images/BusinessDirectoryV2.png "Poslovni imenik")
+![Poslovni imenik](../Images/BusinessDirectorySL.png "Poslovni imenik")
 
 Kartica prikazuje skupno število vnosov v poslovnem imeniku.
 
@@ -79,7 +79,7 @@ Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Uvoz z VIES**. 
 
 Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov podjetij.
 
-![Uvoz poslovnega imenika](../Images/CompaniesImport.png "Uvoz poslovnega imenika")
+![Uvoz poslovnega imenika](../Images/CompaniesImportSL.png "Uvoz poslovnega imenika")
 
 #### Primer strukture CSV
 ```csv
@@ -104,7 +104,11 @@ Za ustvarjanje novega zapisa:
 > [!NOTE]
 > Entiteti lahko dodelite eno ali več vlog z označitvijo ustreznih potrditvenih polj. Na primer, isti zapis je lahko hkrati stranka, dobavitelj in kooperant.
 
-![Nov vnos v poslovni imenik](../Images/NewBusinessDirectory.png "Nov vnos v poslovni imenik")
+![Nov vnos v poslovni imenik](../Images/NewBusinessDirectorySL.png "Nov vnos v poslovni imenik")
+
+#### E-računi
+
+Ta razdelek omogoča izdajanje e-računov povezanemu podjetju.
 
 #### Urediti kontakt
 
@@ -113,7 +117,7 @@ Ta razdelek omogoča vnos podatkov o primarni kontaktni osebi poslovnega partner
 #### Valuta
 Ta razdelek omogoča določitev, ali poslovni partner v dokumentih uporablja **valuto podjetja**. Če je možnost omogočena, se vse povezane transakcije (npr. prodajni ali nabavni dokumenti) privzeto izvajajo v valuti podjetja namesto v valuti partnerja.
 
-![Razširljivi razdelki poslovnega imenika](../Images/BusinessDirectoryCollapsibleOptions.png "Razširljivi razdelki poslovnega imenika")
+![Razširljivi razdelki poslovnega imenika](../Images/BusinessDirectoryCollapsibleOptionsSL.png "Razširljivi razdelki poslovnega imenika")
 
 ### Urediti zapis
 
@@ -123,7 +127,7 @@ Za urejanje obstoječega zapisa:
 2. Vmesnik se preklopi v način urejanja in prikaže obstoječe podatke za spremembe. 
 3. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-![Urejanje vnosa v poslovnem imeniku](../Images/BusinessDirectoryEdit.png "Urejanje vnosa v poslovnem imeniku")
+![Urejanje vnosa v poslovnem imeniku](../Images/BusinessDirectoryEditSL.png "Urejanje vnosa v poslovnem imeniku")
 
 ### Izbrisati zapis
 

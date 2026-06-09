@@ -31,7 +31,7 @@ Vsak zapis vključuje indikator stanja levo od imena:
 - **Modra** označuje, da je davčna stopnja aktivna
 - **Siva** označuje, da je davčna stopnja neaktivna
 
-![Seznam davčnih stopenj](../Images/TaxRates.png "Seznam davčnih stopenj")
+![Seznam davčnih stopenj](../Images/TaxRatesSL.png "Seznam davčnih stopenj")
 
 Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem kotu je na voljo iskalno polje.
 
@@ -46,7 +46,7 @@ Seznam prikazuje ime davčne stopnje in pripadajoči odstotek. V zgornjem desnem
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-![Dodaj novo davčno stopnjo](../Images/TaxRatesNew.png "Dodaj novo davčno stopnjo")
+![Dodaj novo davčno stopnjo](../Images/TaxRatesNewSL.png "Dodaj novo davčno stopnjo")
 
 #### Glavna knjiga
 Razdelek **Glavna knjiga** določa, kateri konti glavne knjige se uporabijo za knjiženje davčnih zneskov, ko je ta davčna stopnja uporabljena v poslovnih dokumentih.

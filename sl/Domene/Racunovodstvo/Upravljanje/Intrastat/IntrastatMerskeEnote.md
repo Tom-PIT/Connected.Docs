@@ -23,7 +23,7 @@ Seznam prikazuje vse razpoloÅ¾ljive Intrastat merske enote skupaj z njihovo **
 
 OmogoÄeno je:
 - iskanje po seznamu,
-- razvrÅ¡Äanje po **Å¡ifri**,
+- razvrÅ¡čanje po **Å¡ifri**,
 - odpiranje vnosa s klikom za urejanje.
 
 ![Intrastat merske enote â€“ seznam](../../Images/SupplementaryUnitsListSL.png)
@@ -52,4 +52,4 @@ Kliknite **Shrani**, da potrdite spremembe, ali **PrekliÄi**, da jih zavrÅ¾
 Odprite vnos iz seznama in kliknite **IzbriÅ¡i**. Brisanje potrdite v potrditvenem oknu.
 
 > [!NOTE]
-> Mersko enoto je mogoÄe izbrisati le, Äe ni uporabljena v odvisnih dokumentih, kot so prodajna naroÄila, dobavnice ali Intrastat poroÄila.
+> Mersko enoto je mogoÄe izbrisati le, če ni uporabljena v odvisnih dokumentih, kot so prodajna naroÄila, dobavnice ali Intrastat poroÄila.

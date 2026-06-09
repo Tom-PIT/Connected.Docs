@@ -24,7 +24,7 @@ Bančni računi so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. K
 ## Seznamski pogled
 Seznam bančnih računov prikazuje vse račune, povezane z izbranim vnosom v Poslovnem imeniku.
 
-![Seznam bančnih računov](../Images/BankAccountsList.png)
+![Seznam bančnih računov](../Images/BankAccountsListSL.png)
 
 Uporabite filtre na levi strani (Omogočeno / Onemogočeno) za prikaz samo aktivnih ali neaktivnih računov.
 
@@ -36,7 +36,7 @@ Za ustvarjanje novega bančnega računa:
 
 1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna.
-![Dodaj bančni račun](../Images/BankAccountsNew.png)
+![Dodaj bančni račun](../Images/BankAccountsNewSL.png)
 3. Kliknite **Dodaj**, da shranite nov račun.
 
 > [!NOTE]

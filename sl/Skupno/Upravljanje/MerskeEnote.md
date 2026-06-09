@@ -41,7 +41,7 @@ Vsak zapis vključuje indikator stanja levo od imena:
 - **Modra** označuje, da je merska enota aktivna
 - **Siva** označuje, da je merska enota neaktivna
 
-![Merske enote](../Images/MeasureUnits.png "Merske enote")
+![Merske enote](../Images/MeasureUnitsSL.png "Merske enote")
 
 Seznam prikazuje ime merske enote, okrajšavo in natančnost.
 
@@ -58,15 +58,15 @@ Za dodajanje nove merske enote:
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-![Dodaj mersko enoto](../Images/NewMeasureUnit.png "Dodaj mersko enoto")
+![Dodaj mersko enoto](../Images/NewMeasureUnitSL.png "Dodaj mersko enoto")
 
 ### Urediti mersko enoto
-Za urejanje obstoče merske enote: 
+Za urejanje obstoječe merske enote: 
 
 1. Kliknite njeno **Ime** na seznamu. Vmesnik se preklopi v način urejanja in prikaže obstoječe vrednosti za spremembe.
 2. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-![Urejanje merske enote](../Images/MeasureUnitsEdit.png "Urejanje merske enote")
+![Urejanje merske enote](../Images/MeasureUnitsEditSL.png "Urejanje merske enote")
 
 ### Izbrisati mersko enoto
 

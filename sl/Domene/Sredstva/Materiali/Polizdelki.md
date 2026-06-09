@@ -5,9 +5,9 @@
 
 # Polizdelki
 
-**Polizdelki** so vmesni materiali, ki se uporabljajo v proizvodnji konÄnih izdelkov. Nastanejo iz surovin in se nato uporabljajo kot komponente v drugih izdelkih. Primeri polizdelkov so mizna ploÅ¡Äa, kovinski okvir, lesena noga ali elektronski modul.
+**Polizdelki** so vmesni materiali, ki se uporabljajo v proizvodnji konÄnih izdelkov. Nastanejo iz surovin in se nato uporabljajo kot komponente v drugih izdelkih. Primeri polizdelkov so mizna ploÅ¡ča, kovinski okvir, lesena noga ali elektronski modul.
 
-Vsak polizdelek vsebuje kljuÄne podatke â€“ kot so [merske enote](../../../Skupno/Upravljanje/MerskeEnote.md), [davÄna stopnja](../../../Skupno/Upravljanje/DavcneStopnje.md), naÄin generiranja serijskih Å¡tevilk ali rok uporabe â€“ kar omogoÄa dosledno obravnavo v proizvodnji, zalogi in skladiÅ¡Änih procesih. Ta Å¡ifrant vsebuje vse polizdelke, uporabljene v vaÅ¡em proizvodnem procesu.
+Vsak polizdelek vsebuje kljuÄne podatke â€“ kot so [merske enote](../../../Skupno/Upravljanje/MerskeEnote.md), [davÄna stopnja](../../../Skupno/Upravljanje/DavcneStopnje.md), naÄin generiranja serijskih Å¡tevilk ali rok uporabe â€“ kar omogoÄa dosledno obravnavo v proizvodnji, zalogi in skladiÅ¡čnih procesih. Ta Å¡ifrant vsebuje vse polizdelke, uporabljene v vaÅ¡em proizvodnem procesu.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodiÄ  
@@ -31,9 +31,9 @@ Za dostop do Å¡ifranta **Polizdelki** pojdite na
 |-------|------|
 | **Å ifra** | EnoliÄni identifikator izdelka znotraj seznama materialov. Na primer **2625001** ali **MIZ-ÄŒLS**. Å ifra mora biti enoliÄna med vsemi materiali. (obvezno) |
 | **Naziv** | Ime izdelka, prikazano v seznamih in dokumentih. Na primer **Miza â€“ hrast**. (obvezno) |
-| **Generiranje serijske Å¡tevilke** | DoloÄa naÄin upravljanja serijskih Å¡tevilk in zapisov materialov:<br>â€¢ **Auto** â€“ vsak kos prejme svojo naraÅ¡ÄajoÄo serijsko Å¡tevilko.<br>â€¢ **Same** â€“ vsi kosi imajo enako serijsko Å¡tevilko, vendar ostanejo loÄeni zapisi.<br>â€¢ **Identical** â€“ vsi kosi imajo enako serijsko Å¡tevilko in se obravnavajo kot en identiÄen zapis. |
+| **Generiranje serijske Å¡tevilke** | DoloÄa naÄin upravljanja serijskih Å¡tevilk in zapisov materialov:<br>â€¢ **Auto** â€“ vsak kos prejme svojo naraÅ¡čajoÄo serijsko Å¡tevilko.<br>â€¢ **Same** â€“ vsi kosi imajo enako serijsko Å¡tevilko, vendar ostanejo loÄeni zapisi.<br>â€¢ **Identical** â€“ vsi kosi imajo enako serijsko Å¡tevilko in se obravnavajo kot en identiÄen zapis. |
 | **Rok trajanja (dnevi)** | Å tevilo dni do poteka, uporabljeno za pokvarljivo blago. Na primer **30** ali **365**. |
-| **EAN** | Vrednost Ärtne Å¡ifre, uporabljena za skeniranje. Na primer **3831234567890**. |
+| **EAN** | Vrednost črtne Å¡ifre, uporabljena za skeniranje. Na primer **3831234567890**. |
 | **[Osnovna merska enota](../../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izraÅ¾anje koliÄin, kot sta **kos** ali **meter**. (obvezno) |
 | **Å tevilo decimalnih mest** | Privzeto Å¡tevilo decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
 | **[Davek](../../../Skupno/Upravljanje/DavcneStopnje.md)** | Privzeta davÄna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
@@ -43,7 +43,7 @@ Za dostop do Å¡ifranta **Polizdelki** pojdite na
 <details>
 <summary><strong>Pakiranje</strong></summary>
 
-**Definicija pakiranja** opisuje fizikalne lastnosti materiala in alternativne enote, ki se uporabljajo pri ravnanju z njim v skladiÅ¡Äu. To je mogoÄe nastaviti tudi v razdelku [**Pakiranje**](Pakiranje.md).
+**Definicija pakiranja** opisuje fizikalne lastnosti materiala in alternativne enote, ki se uporabljajo pri ravnanju z njim v skladiÅ¡ču. To je mogoÄe nastaviti tudi v razdelku [**Pakiranje**](Pakiranje.md).
 
 | Polje | Opis |
 |-------|------|
@@ -115,10 +115,10 @@ Na voljo so dodatni zloÅ¾ljivi razdelki:
 
 Ta razdelek omogoÄa pregled ali dodajanje enega ali veÄ zapisov [pakiranja](Pakiranje.md), specifiÄnih za material. Vsak zapis predstavlja eno pakirno enoto z lastno koliÄino in identifikacijo.
 
-Zapisi pakiranja se kasneje uporabljajo v skladiÅ¡Änih procesih, kot so:
+Zapisi pakiranja se kasneje uporabljajo v skladiÅ¡čnih procesih, kot so:
 - [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md)
 - [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
-- [**MedskladiÅ¡Äni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
+- [**MedskladiÅ¡čni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
 
 #### Intrastat in Glavna knjiga
 
@@ -147,7 +147,7 @@ Za podrobnosti glejte dokumentacijo
 
 ### Kopiraj obstojeÄi poizdelek
 
-Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstojeÄi**, da ustvarite nov zapis na podlagi Å¾e obstojeÄega.
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstojeÄi**, da ustvarite nov zapis na podlagi že obstojeÄega.
 
 ![Kopiranje polizdelka](../Images/CopySemiproduct.png "Kopiranje polizdelka")
 
@@ -166,9 +166,9 @@ Kliknite **Shrani** za potrditev sprememb ali **PrekliÄi** za zavrnitev.
 
 Kliknite **IzbriÅ¡i** na zaslonu za urejanje, da odprete potrditveno pogovorno okno:
 
-**Ali ste prepriÄani, da Å¾elite izbrisati ta zapis?**
+**Ali ste prepriÄani, da želite izbrisati ta zapis?**
 
 ÄŒe potrdite, se polizdelek trajno odstrani; v nasprotnem primeru sistem ohrani zapis nespremenjen.
 
 > [!NOTE]
-> Polizdelek je mogoÄe izbrisati le, Äe ni referenciran v odvisnih zapisih, kot so premiki zaloge, dokumenti, proizvodne strukture ali drugi odnosi materialov.
+> Polizdelek je mogoÄe izbrisati le, če ni referenciran v odvisnih zapisih, kot so premiki zaloge, dokumenti, proizvodne strukture ali drugi odnosi materialov.

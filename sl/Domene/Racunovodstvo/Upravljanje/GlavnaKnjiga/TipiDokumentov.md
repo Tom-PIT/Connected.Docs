@@ -5,9 +5,9 @@
 
 # Tipi dokumentov
 
-Å ifrant **Tipi dokumentov** doloÄa vrste raÄunovodskih dokumentov, ki se uporabljajo v glavni knjigi. Vsak tip dokumenta razvrÅ¡Äa temeljnice in druge raÄunovodske knjiÅ¾be glede na njihov poslovni namen, kot so prodaja, nabava, premiki zaloge ali sploÅ¡ne prilagoditve.
+Å ifrant **Tipi dokumentov** doloÄa vrste raÄunovodskih dokumentov, ki se uporabljajo v glavni knjigi. Vsak tip dokumenta razvrÅ¡ča temeljnice in druge raÄunovodske knjiÅ¾be glede na njihov poslovni namen, kot so prodaja, nabava, premiki zaloge ali sploÅ¡ne prilagoditve.
 
-Tipi dokumentov so **obvezna konfiguracija** glavne knjige. Na njih se sklicujejo temeljnice in jih sistem uporablja za razvrÅ¡Äanje knjiÅ¾b, uporabo pravil knjiÅ¾enja ter podporo poroÄanju in reviziji.
+Tipi dokumentov so **obvezna konfiguracija** glavne knjige. Na njih se sklicujejo temeljnice in jih sistem uporablja za razvrÅ¡čanje knjiÅ¾b, uporabo pravil knjiÅ¾enja ter podporo poroÄanju in reviziji.
 
 Za dostop do tega zaslona pojdite na **RaÄunovodstvo / Glavna knjiga / Upravljanje / Tipi dokumentov** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
@@ -54,7 +54,7 @@ Kliknite **Shrani** za uveljavitev sprememb ali **PrekliÄi** za zavrnitev.
 
 ## Izbrisati tip dokumenta
 
-Tip dokumenta je mogoÄe izbrisati samo, Äe **ni uporabljen** v obstojeÄih temeljnicah ali konfiguracijskih pravilih.
+Tip dokumenta je mogoÄe izbrisati samo, če **ni uporabljen** v obstojeÄih temeljnicah ali konfiguracijskih pravilih.
 
 Za brisanje odprite vnos v naÄinu urejanja in izberite **IzbriÅ¡i**.
 

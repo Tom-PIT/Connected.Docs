@@ -120,6 +120,10 @@ To create a new entry:
 
 ![New Business Directory Entry](../Images/NewBusinessDirectory.png "New Business Directory Entry")
 
+#### E-invoices
+
+This section allows enabling the issuing of e-invoices to the related company.
+
 #### Edit contact
 
 This section allows entering the primary contact information for the business partner. You can specify details such as contact name, phone number, and email address. These fields are optional and serve as reference information used across documents.
@@ -128,7 +132,7 @@ This section allows entering the primary contact information for the business pa
 
 This section allows you to define whether the business partner uses the **company currency** when appearing on documents. If enabled, all related transactions (such as sales or purchase documents) default to the company's currency instead of the partner's own currency settings.
 
-![New Business Directory Collapsible Sections](../Images/BusinessDirectoryCollapsibleOptions.png "New business collapsible sections")
+![New Business Directory Collapsible Sections](../Images/BusinessDirectoryCollapsibleOptionsV2.png "New business collapsible sections")
 
 ### Edit a business directory entry
 
