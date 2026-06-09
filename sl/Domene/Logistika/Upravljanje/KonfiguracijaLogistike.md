@@ -9,7 +9,7 @@ Konfiguracija **Logistike** omogoča nastavitev vedenja zaloge, oblik zapisa ser
 
 Za dostop do te strani pojdite na **Logistika / Upravljanje / Konfiguracija** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Konfiguracija logistike](../Images/LogisticsConfiguration.png)
+![Konfiguracija logistike](../Images/LogisticsConfigurationSL.png)
 
 ## Nastavitve zaloge
 
@@ -18,7 +18,7 @@ Za dostop do te strani pojdite na **Logistika / Upravljanje / Konfiguracija** v 
 | **Model številčenja** | Pravilo za porabo zaloge: <br> • **FIFO:** najprej se porabi najstarejša zaloga <br> • **LIFO:** najprej se porabi najnovejša zaloga <br> • **Uporabno do:** najprej se porabi zaloga z najzgodnejšim rokom uporabe |
 | **Format serijske številke** | Oblika zapisa, ki se uporabi, ko sistem samodejno generira serijske številke. Na primer **{0:D10}** ustvari 10-mestno številko z vodilnimi ničlami: **0000000001**, **0000000002**, itd. |
 
-![Izbira načina jemanja](../Images/LogisticsConfigurationItemsTakeDropdown.png)
+![Izbira načina jemanja](../Images/LogisticsConfigurationItemsTakeDropdownSL.png)
 
 > [!TIP]
 > Uporabite dosleden format serijskih številk za lažje skeniranje in sledenje.

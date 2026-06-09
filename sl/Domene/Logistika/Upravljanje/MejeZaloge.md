@@ -33,7 +33,7 @@ Vsak zapis prikazuje **Entiteto**, **Najmanj** in **Največ** količino zaloge.
 
 Meje zaloge lahko urejate **neposredno v seznamu** — kliknite številsko vrednost v stolpcu **Najmanj** ali **Največ**, vnesite novo vrednost, sprememba pa se samodejno shrani.
 
-![Meje zaloge](../Images/StockBoundaries.png "Meje zaloge")
+![Meje zaloge](../Images/StockBoundariesSL.png "Meje zaloge")
 
 Vsaka količina zaloge, ki pade **pod minimalno** ali preseže **maksimalno** vrednost, je vizualno označena na **[Nadzorni plošči](../Pregledi/NadzornaPlosca.md)**.
 
@@ -45,7 +45,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikaže dej
 
 Dejanje **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov mej zaloge z uporabo **CSV** datoteke. Pripravite datoteko z zahtevanimi polji (**Entiteta**, **Najmanj**, **Največ**) in jo naložite za samodejno zapolnitev seznama.
 
-![Uvoz mej zaloge](../Images/StockBoundariesImport.png "Uvoz mej zaloge")
+![Uvoz mej zaloge](../Images/StockBoundariesImportSL.png "Uvoz mej zaloge")
 
 Kliknite **Prekliči**, da se vrnete na seznam brez uvoza.
 

@@ -31,7 +31,7 @@ Za dostop do **Analize materialov** pojdite na
 Seznam prikazuje vse definirane analize skupaj z njihovim **Tipom**, **Materialom** in stanjem **Omogočeno**.  
 Za filtriranje po tipu ali materialu uporabite iskalno polje.
 
-![Seznam analiz materialov](../Images/MaterialAnalysisManagementList.png "Seznam analiz materialov")
+![Seznam analiz materialov](../Images/MaterialAnalysisManagementListSL.png "Seznam analiz materialov")
 
 Vsak zapis vsebuje indikator stanja na levi strani imena:
 - **Modra** barva označuje, da je analiza aktivna
@@ -41,7 +41,7 @@ Vsak zapis vsebuje indikator stanja na levi strani imena:
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje nove analize.
 
-   ![Nova analiza materiala](../Images/MaterialAnalysisManagementNew.png "Nova analiza materiala")
+   ![Nova analiza materiala](../Images/MaterialAnalysisManagementNewSL.png "Nova analiza materiala")
 
 2. Izpolnite obrazec:
    - **Tip** – izberite kategorijo analize.
