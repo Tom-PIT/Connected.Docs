@@ -5,18 +5,18 @@
 
 # Oznake klasifikacije slabega kosa
 
-Oznake klasifikacije slabega kosa se uporabljajo v proizvodnji za razvrÅ¡čanje in beleÅ¾enje razliÄnih vrst izgub v proizvodnji â€“ kot so neustrezni materiali, teÅ¾ave pri rokovanju ali kozmetiÄne napake. Te oznake pomagajo pri prepoznavanju vzrokov izgub in podpirajo analizo izgub.
+Oznake klasifikacije slabega kosa se uporabljajo v proizvodnji za razvrščanje in beleženje različnih vrst izgub v proizvodnji – kot so neustrezni materiali, težave pri rokovanju ali kozmetične napake. Te oznake pomagajo pri prepoznavanju vzrokov izgub in podpirajo analizo izgub.
 
 Za dostop do te strani pojdite na **Proizvodnja / Upravljanje / Oznake klasifikacije slabega kosa** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodiÄ **[Oznake klasifikacije slabega kosa](https://www.youtube.com/watch?v=pC8TELowUgA)**.
+> Za celovit prikaz si oglejte video vodič **[Oznake klasifikacije slabega kosa](https://www.youtube.com/watch?v=pC8TELowUgA)**.
 
 ## Shema
 
 | Polje | Opis |
 |------|------|
-| **Naziv** | Naziv kategorije slabega kosa (npr. KozmetiÄna napaka, PoÅ¡kodba pri rokovanju) *(obvezno)*. |
+| **Naziv** | Naziv kategorije slabega kosa (npr. Kozmetična napaka, Poškodba pri rokovanju) *(obvezno)*. |
 
 ## Seznamski prikaz
 
@@ -41,6 +41,6 @@ Seznam prikazuje vse oznake klasifikacije slabega kosa, definirane v sistemu. Za
 
 ## Izbrisati oznako klasifikacije slabega kosa
 
-Kliknite oznako v seznamu, da odprete stran za urejanje in kliknite **IzbriÅ¡i**.
+Kliknite oznako v seznamu, da odprete stran za urejanje in kliknite **Izbriši**.
 
 Po potrditvi je oznaka trajno odstranjena iz sistema.
