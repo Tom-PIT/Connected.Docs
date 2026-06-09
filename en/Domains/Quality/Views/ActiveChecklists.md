@@ -44,15 +44,15 @@ Use filters to narrow down the list:
 
 ## Row interactions
 
-- Click the **Checklist code** to open the checklist execution in the [Checklist edit](#checklist-edit) page.
+- Click the **Checklist code** to review the checklist execution in the [checklist review](#review-a-checklist) page.
 - Click the **Document code** to open the related document:
   - [Production order](../../Production/Documents/ProductionOrders.md) when the document type is Production order
   - [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md) when the document type is Maintenance order
 - Click the **Operation code** to open the [Production Execution](../../Production/Documents/Execution.md) page focused on the current execution.
 
-## Edit a checklist 
+## Review a checklist 
 
-The checklist edit page shows the current checklist **code** and **name**, followed by an overview of the checklist's checkpoints.
+The checklist review page shows the current checklist **code** and **name**, followed by an overview of the checklist's checkpoints.
 
 ![Active Checklists Checklist Edit](../Images/ActiveChecklistsChecklistEdit.png "Checklist edit")
 

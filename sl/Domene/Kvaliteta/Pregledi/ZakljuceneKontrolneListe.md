@@ -28,7 +28,7 @@ Klik na posamezni kazalnik ustrezno filtrira seznam.
 
 Seznam prikazuje zaključena izvajanja kontrolnih list z njihovimi glavnimi kontekstnimi informacijami. Vsaka vrstica predstavlja **eno zaključno izvajanje kontrolne liste**. Za hitro filtriranje rezultatov uporabite iskalno vrstico v zgornjem desnem kotu.
 
-![Seznam zaključenih kontrolnih list](../Images/CompletedChecklistsList.png)
+![Seznam zaključenih kontrolnih list](../Images/CompletedChecklistsListSL.png)
 
 Prikazane informacije običajno vključujejo:
 
@@ -65,7 +65,7 @@ Vsi filtri so neobvezni in jih je mogoče kombinirati.
 
 Klik na šifro kontrolne liste odpre zaslon **Poročilo kontrolne liste**, ki prikazuje celoten rezultat zaključenega izvajanja kontrolne liste.
 
-![Poročilo kontrolne liste](../Images/CompletedChecklistReport.png)
+![Poročilo kontrolne liste](../Images/CompletedChecklistReportSL.png)
 
 Poročilo vključuje:
 
