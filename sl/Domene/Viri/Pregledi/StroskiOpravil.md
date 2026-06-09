@@ -13,7 +13,7 @@ Za dostop do **StroÅ¡kov opravil** pojdite na **Viri / StroÅ¡ki opravil** v 
 
 ## Seznam stroÅ¡kov opravil
 
-Seznam prikazuje vsa opravila znotraj izbranega Äasovnega obdobja.
+Seznam prikazuje vsa opravila znotraj izbranega časovnega obdobja.
 
 Vsaka vrstica predstavlja **eno opravilo**, obiÄajno povezano s proizvodnim ali vzdrÅ¾evalnim nalogom, in prikazuje:
 
@@ -59,7 +59,7 @@ RazÅ¡iritev vrstice materiala prikaÅ¾e dodatne podrobnosti, kjer so na voljo
 
 ### Delo
 
-Razdelek **Delo** prikazuje vloÅ¾en Äas zaposlenih v opravilo:
+Razdelek **Delo** prikazuje vloÅ¾en čas zaposlenih v opravilo:
 
 - zaposleni,
 - trajanje dela,

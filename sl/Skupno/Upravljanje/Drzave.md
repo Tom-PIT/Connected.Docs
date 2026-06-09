@@ -31,7 +31,7 @@ Vsak zapis vključuje indikator stanja levo od imena:
 - **Modra** označuje, da je država aktivna
 - **Siva** označuje, da je država neaktivna
 
-![Seznam držav](../Images/CountriesList.png "Seznam držav")
+![Seznam držav](../Images/CountriesListSL.png "Seznam držav")
 
 Vsak zapis prikazuje oznako s **povezanimi podatki** — [Poštne številke](PostneStevilke.md).
 
@@ -49,7 +49,7 @@ Dejanje **Uvoz** omogoča množično ustvarjanje ali posodabljanje zapisov drža
 
 Kliknite na [akcijski gumb](../UI/AkcijskiGumb.md) in izberite **Uvoz** sistem odpre vmesnik za nalaganje:
 
-![Uvoz držav](../Images/ImportCountries.png "Uvoz držav")
+![Uvoz držav](../Images/ImportCountriesSL.png "Uvoz držav")
 
 Uvoz sprejme **CSV datoteko**. Datoteko lahko povlečete in spustite v območje za nalaganje ali kliknete za odprtje pogovornega okna za izbiro datoteke. Datoteka mora vsebovati zahtevana polja v veljavni strukturi. Po končanem nalaganju sistem obdela datoteko in ustvari ali posodobi zapise držav na podlagi vsebine CSV.
 
@@ -77,7 +77,7 @@ Za ustvarjanje nove države sledite tem korakom:
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-![Nova država](../Images/NewCountry.png "Nova država")
+![Nova država](../Images/NewCountrySL.png "Nova država")
 
 ### Urediti državo
 

@@ -24,7 +24,7 @@ Poštne številke so prikazane kot oznaka pod vsakim vnosom države. Kliknite to
 
 Seznam poštnih številk prikazuje vse šifre, definirane za izbrano državo.
 
-![Seznam poštnih številk](../Images/PostalCodesList.png)
+![Seznam poštnih številk](../Images/PostalCodesListSL.png)
 
 Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih ali neaktivnih poštnih številk.
 
@@ -50,7 +50,7 @@ Za dodajanje nove poštne številke:
 2.Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
 3. Kliknite **Dodaj**, da shranite novo poštno številko.
 
-![Dodaj poštno številko](../Images/PostalCodesNew.png)
+![Dodaj poštno številko](../Images/PostalCodesNewSL.png)
 
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).

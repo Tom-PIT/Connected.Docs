@@ -27,7 +27,7 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 ### Seznamski pogled
 Seznam prikazuje vse konfigurirane valute skupaj z njihovo šifro, simbolom in LCID.
 
-![Seznam valut](../Images/Currencies.png)
+![Seznam valut](../Images/CurrenciesSL.png)
 
 Vsak zapis vključuje indikator stanja levo od imena:
 - **Modra** označuje, da je valuta aktivna
@@ -45,7 +45,7 @@ Za ustvarjanje nove valute:
 2. Izpolnite vsa obvezna polja.
 3. Kliknite **Dodaj**, da shranite novo valuto.
 
-![Dodaj novo valuto](../Images/CurrenciesNew.png)
+![Dodaj novo valuto](../Images/CurrenciesNewSL.png)
 
 ### Urediti valuto
 
@@ -55,7 +55,7 @@ Za ureditev obstoječe valute:
 2. Prilagodite polja po potrebi.
 3. Kliknite **Shrani** za potrditev sprememb ali **Prekliči**, da zavrnete spremembe.
 
-![Urejanje valute](../Images/CurrenciesEdit.png)
+![Urejanje valute](../Images/CurrenciesEditSL.png)
 
 ### Izbrisati valuto
 

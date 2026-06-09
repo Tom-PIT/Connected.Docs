@@ -11,7 +11,7 @@ Procesi doloÄajo strukturirane korake, ki se uporabljajo v **Proizvodnji** in
 
 Ta pogled omogoÄa ustvarjanje in upravljanje procesov, njihovih verzij ter operativne strukture.
 
-Proces lahko vsebuje eno ali veÄ **verzij**, na primer razliÄne verzije za razliÄne velikosti izdelkov ali vzdrÅ¾evalne variante. Vsaka verzija vsebuje zaporedje **[operacij](Operacije.md)**, ki doloÄajo vhode, vire (ÄloveÅ¡ke in stvarne), izhode in zahteve kakovosti.
+Proces lahko vsebuje eno ali veÄ **verzij**, na primer razliÄne verzije za razliÄne velikosti izdelkov ali vzdrÅ¾evalne variante. Vsaka verzija vsebuje zaporedje **[operacij](Operacije.md)**, ki doloÄajo vhode, vire (človeÅ¡ke in stvarne), izhode in zahteve kakovosti.
 
 Za dostop do tega pogleda pojdite na **Proizvodnja / Upravljanje / Procesi** v [navigaciji](../../../Skupno/UI/Navigacija.md). Procesi so skupni in jih je mogoÄe oznaÄiti za uporabo v Proizvodnji ali VzdrÅ¾evanju.
 
@@ -123,7 +123,7 @@ S klikom na **vrednost stroÅ¡ka** se odpre stran **[Analiza stroÅ¡ka verzije
 
 ### Operacije znotraj verzije
 
-Verzija vsebuje zaporedje **[operacij](Operacije.md)**, pri Äemer vsaka predstavlja posamezen korak procesa. Operacije lahko vkljuÄujejo na primer rezanje, barvanje, sestavljanje, pakiranje (proizvodnja) ali pregled, mazanje, kalibracijo (vzdrÅ¾evanje).
+Verzija vsebuje zaporedje **[operacij](Operacije.md)**, pri čemer vsaka predstavlja posamezen korak procesa. Operacije lahko vkljuÄujejo na primer rezanje, barvanje, sestavljanje, pakiranje (proizvodnja) ali pregled, mazanje, kalibracijo (vzdrÅ¾evanje).
 
 Za dostop do seznama operacij verzije kliknite gumb **[Operacije](Operacije.md)**:
 
@@ -147,7 +147,7 @@ Gumb **[Kvaliteta](KvalitetaKontrolneListe.md)** odpre konfiguracijsko stran za 
 
 ## Izbrisati proces
 
-Proces je mogoÄe izbrisati samo, Äe **ni uporabljen v dokumentih** (npr. proizvodnih ali vzdrÅ¾evalnih nalogih) in **nanj niso vezani drugi procesi**.
+Proces je mogoÄe izbrisati samo, če **ni uporabljen v dokumentih** (npr. proizvodnih ali vzdrÅ¾evalnih nalogih) in **nanj niso vezani drugi procesi**.
 
 Za brisanje procesa ga izberite na seznamu in kliknite **IzbriÅ¡i**.
 

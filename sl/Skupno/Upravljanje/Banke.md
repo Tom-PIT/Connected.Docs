@@ -26,7 +26,7 @@ Na tem zaslonu lahko pregledujete, dodajate in urejate banke, ki se uporabljajo 
 ### Seznam bank
 Seznam prikazuje vse evidentirane banke, vključno z njihovim **imenom**, **šifro BIC** in [**državo**](../../Skupno/Upravljanje/Drzave.md).
 
-![Seznam bank](../Images/Banks.png "Seznam bank")
+![Seznam bank](../Images/BanksSL.png "Seznam bank")
 
 Vsak zapis vključuje indikator stanja levo od imena:
 - **Modra** označuje, da je banka aktivna
@@ -47,7 +47,7 @@ Za vstvarjanje nove banke:
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-![Banke – nova](../Images/BanksNew.png "Dodaj novo banko")
+![Banke – nova](../Images/BanksNewSL.png "Dodaj novo banko")
 
 ### Urediti banko
 

@@ -19,7 +19,7 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 ### Seznamski pogled
 Seznamski pogled prikazuje vsa evidentirana stroškovna mesta skupaj z njihovim **imenom** in **šifro**.
 
-![Stroškovna mesta](../Images/CostCenters.png "Seznam stroškovnih mest")
+![Stroškovna mesta](../Images/CostCentersSL.png "Seznam stroškovnih mest")
 
 Za filtriranje stroškovnih mest po imenu ali kodi lahko uporabite **iskalno vrstico**.
 
@@ -33,7 +33,7 @@ Za ustvarjanje novega stroškovnega mesta:
 2. Izpolnite vsa obvezna polja.
 3. Kliknite **Dodaj**, da shranite novo stroškovno mesto.
 
-![Dodaj novo stroškovno mesto](../Images/CostCentersNew.png "Dodaj stroškovno mesto")
+![Dodaj novo stroškovno mesto](../Images/CostCentersNewSL.png "Dodaj stroškovno mesto")
 
 ### Urediti stroškovno mesto
 

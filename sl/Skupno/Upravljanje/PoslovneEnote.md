@@ -23,7 +23,7 @@ Poslovne enote so prikazani kot oznaka pod vsakim vnosom v poslovnem imeniku. Kl
 ## Seznamski pogled
 Seznam poslovnih enot prikazuje vse enote, povezane z izbranim vnosom v Poslovnem imeniku.
 
-![Seznam poslovnih enot](../Images/BusinessUnitsList.png)
+![Seznam poslovnih enot](../Images/BusinessUnitsListSL.png)
 
 Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih ali neaktivnih enot.
 
@@ -40,7 +40,7 @@ Za dodajanje nove poslovne enote:
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-![Dodaj poslovno enoto](../Images/BusinessUnitsNew.png)
+![Dodaj poslovno enoto](../Images/BusinessUnitsNewSL.png)
 
 ### Urediti poslovno enoto
 

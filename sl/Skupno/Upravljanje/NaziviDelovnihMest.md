@@ -17,7 +17,7 @@ Za dostop do te strani pojdite na **Stranke / Upravljanje / Nazivi delovnih mest
 ## Seznamski pogled
 Seznam prikazuje vse nazive delovnih mest, definirane v sistemu.
 
-![Seznam nazivov delovnih mest](../Images/JobTitlesList.png "Seznam nazivov delovnih mest")
+![Seznam nazivov delovnih mest](../Images/JobTitlesListSL.png "Seznam nazivov delovnih mest")
 
 Uporabite filtre **Omogočeno / Onemogočeno** na levi strani za prikaz aktivnih ali neaktivnih nazivov.
 
@@ -31,7 +31,7 @@ Za ustvarjanje novega naziva delovnega mesta:
 2. Izpolnite **Ime** in nastavite **Aktiven** glede na to, ali želite, da je ta naziv delovnega mesta na voljo za izbiro pri ustvarjanju kontaktov.
 3. Kliknite **Dodaj**, da shranite nov naziv delovnega mesta.
 
-![Dodaj nov naziv delovnega mesta](../Images/JobTitlesNew.png "Dodaj nov naziv delovnega mesta")
+![Dodaj nov naziv delovnega mesta](../Images/JobTitlesNewSL.png "Dodaj nov naziv delovnega mesta")
 
 
 ### Urediti naziv delovnega mesta

@@ -21,7 +21,7 @@ Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na *
 ### Seznamski pogled
 Seznam prikazuje vsa prednastavljena besedila skupaj z **entiteto**, **šifro** in **besedilom**. Seznam lahko filtrirate po stanju **Omogočeno / Onemogočeno** ali po **entiteti**.
 
-![Prednastavljena besedila](../Images/PredefinedTexts.png "Seznam prednastavljenih besedil")
+![Prednastavljena besedila](../Images/PredefinedTextsSL.png "Seznam prednastavljenih besedil")
 
 Vsak zapis vključuje indikator stanja levo od imena:
 - **Modra** označuje, da je besedilo aktivno
@@ -39,13 +39,13 @@ Za ustvarjanje novega prednastavljenega besedila:
 2. Izpolnite vsa obvezna polja.
 3. Kliknite **Dodaj**, da shranite novo prednastavljeno besedilo.
 
-![Dodaj prednastavljeno besedilo](../Images/PredefinedTextsNew.png "Dodaj prednastavljeno besedilo")
+![Dodaj prednastavljeno besedilo](../Images/PredefinedTextsNewSL.png "Dodaj prednastavljeno besedilo")
 
 Izberite **entiteto**, vnesite **šifro** in napišite celotno **besedilo**. Po potrebi lahko zapis omogočite ali onemogočite.
 
 Možnosti entitet:
 
-![Entitete prednastavljenih besedil](../Images/PredefinedTextsEntityFilter.png "Možnosti entitet")
+![Entitete prednastavljenih besedil](../Images/PredefinedTextsEntityFilterSL.png "Možnosti entitet")
 
 ### Urediti prednastavljeno besedilo
 
