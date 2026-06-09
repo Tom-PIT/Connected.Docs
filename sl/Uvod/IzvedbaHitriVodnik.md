@@ -57,7 +57,7 @@ Postopek ponovite vsakič, ko dokončate nove kose.
 
 2. Dokončajte vse korake in pritisnite **Konec**.  
 3. Če morate kontrolno listo ponoviti:
-   1. Odprite akcijski meni z [**akcijskim gumbom**](../Skupno/UI/AkcijskiGumb.md).
+   1. Odprite akcijski meni z [akcijskim gumbom](../Skupno/UI/AkcijskiGumb.md).
    2. Vstopite v razdelek **[Kakovost](../Domene/Proizvodnja/Dokumenti/Kvaliteta.md)**.
    3. Pri želeni kontrolni listi pritisnite **Ponovi**.
 
@@ -66,7 +66,7 @@ Postopek ponovite vsakič, ko dokončate nove kose.
 
 ## 5. Zabeležite slabe kose (če je potrebno)
 
-1. Odprite akcijski meni z [**akcijskim gumbom**](../Skupno/UI/AkcijskiGumb.md).
+1. Odprite akcijski meni z [akcijskim gumbom](../Skupno/UI/AkcijskiGumb.md).
 2. Vstopite v razdelek **[Slabi kosi](../Domene/Proizvodnja/Dokumenti/Izvedba.md#slabi-kosi)**.  
 3. Vnesite količino slabih kosov.  
 4. Izberite razlog za izmet.  
@@ -76,7 +76,7 @@ Postopek ponovite vsakič, ko dokončate nove kose.
 
 To uporabite, kadar se med operacijo porablja material:
 
-1. Odprite akcijski meni z [**akcijskim gumbom**](../Skupno/UI/AkcijskiGumb.md).
+1. Odprite akcijski meni z [akcijskim gumbom](../Skupno/UI/AkcijskiGumb.md).
 2. Vstopite v razdelek **[Poraba](../Domene/Proizvodnja/Dokumenti/Izvedba.md#poraba)**.  
 3. Skenirajte, vnesite ali izberite material.  
 4. Vnesite porabljeno količino.  
@@ -84,7 +84,7 @@ To uporabite, kadar se med operacijo porablja material:
 
 ## 7. Zabeležite zastoje (če je potrebno)
 
-1. Odprite akcijski meni z [**akcijskim gumbom**](../Skupno/UI/AkcijskiGumb.md).
+1. Odprite akcijski meni z [akcijskim gumbom](../Skupno/UI/AkcijskiGumb.md).
 2. Vstopite v razdelek **[Zastoj](../Domene/Proizvodnja/Dokumenti/Izvedba.md#zastoj)**.
 3. Zaženite in ustavite merjenje zastoja.  
 4. Izberite razlog zastoja.  
@@ -95,7 +95,7 @@ To uporabite za vsako prekinitev, npr. čakanje na material ali okvaro stroja.
 
 ## 8. Zabeležite delo (delovni čas)
 
-1. Odprite akcijski meni z [**akcijskim gumbom**](../Skupno/UI/AkcijskiGumb.md).
+1. Odprite akcijski meni z [akcijskim gumbom](../Skupno/UI/AkcijskiGumb.md).
 2. Po potrebi vstopite v razdelek **[Delo](../Domene/Proizvodnja/Dokumenti/Izvedba.md#delo)**.
 
 ![Vnos dela](Images/ExecutionEffortPageSL.png "Vnos dela")

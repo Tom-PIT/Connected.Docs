@@ -26,7 +26,7 @@ Ta pogled ponuja seznam vseh trenutno aktivnih (nedokončanih) kontrolnih list v
 
 ## Seznam aktivnih kontrolnih list
 
-![Seznam aktivnih kontrolnih list](../Images/ActiveChecklistsList.png "Seznam aktivnih kontrolnih list")
+![Seznam aktivnih kontrolnih list](../Images/ActiveChecklistsListSL.png "Seznam aktivnih kontrolnih list")
 
 Na vrhu strani dva kazalnika povzemata trenutno stanje:
 - **Aktivne kontrolne liste** — skupno število aktivnih izvajanj kontrolnih list.
@@ -42,17 +42,17 @@ Uporabite filtre za zoženje seznama:
 
 ## Interakcije vrstic
 
-- Kliknite **šifro kontrolne liste**, da odprete izvajanje kontrolne liste na strani [Urediti kontrolno listo](#uredite-kontrolno-listo).
+- Kliknite **šifro kontrolne liste**, da odprete izvajanje kontrolne liste na strani [Pregled kontrolne liste](#podrobnosti-kontrolne-liste).
 - Kliknite **šifro dokumenta**, da odprete povezani dokument:
   - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md), kadar je vrsta dokumenta Proizvodni nalog
   - [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md), kadar je vrsta dokumenta Vzdrževalni nalog
 - Kliknite **šifro operacije**, da odprete stran [Izvedba](../../Proizvodnja/Dokumenti/Izvedba.md), osredotočeno na trenutno izvajanje.
 
-## Urediti kontrolno listo
+## Podrobnosti kontrolne liste
 
-Stran za urejanje kontrolne liste prikazuje trenutno **šifro** in **ime** kontrolne liste, nato pa pregled kontrolnih točk.
+Stran za pregled kontrolne liste prikazuje trenutno **šifro** in **ime** kontrolne liste, nato pa pregled kontrolnih točk.
 
-![Urejanje kontrolne liste – aktivne kontrolne liste](../Images/ActiveChecklistsChecklistEdit.png "Urejanje kontrolne liste")
+![Urejanje kontrolne liste – aktivne kontrolne liste](../Images/ActiveChecklistsChecklistEditSL.png "Urejanje kontrolne liste")
 
 Tipična postavitev vključuje seznam kontrolnih točk z zahtevanimi vnosi (potrditve, meritve, tolerance).
 
