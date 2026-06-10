@@ -62,7 +62,7 @@ Barvni indikator ob dokumentu prikazuje njegovo stanje:
 
 S klikom na dokument odprete njegov podroben pregled.
 
-![Med-skladiščni promet](../Images/InterWarehouse.png)
+![Med-skladiščni promet](../Images/InterWarehouseSL.png)
 
 ## Dejanja
 
@@ -72,18 +72,18 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov d
 
 1. Kliknite **Novo**, nato izberite **Izvorno skladišče** in **Ciljno skladišče**.
 
-   ![Nov med-skladiščni promet](../Images/InterWarehouseNew.png)
+   ![Nov med-skladiščni promet](../Images/InterWarehouseNewSL.png)
 
 2. V razdelku **Postavke** skenirajte ali vnesite **serijsko številko**, **EAN** ali **ime materiala**.  
    - Če obstaja samo eno ujemanje → podatki se samodejno izpolnijo.  
    - Če obstaja več ujemanj → prikaže se seznam za izbiro:
 
-   ![Rezultati iskanja](../Images/InterWarehouseSearchResults.png)
+   ![Rezultati iskanja](../Images/InterWarehouseSearchResultsSL.png)
 
 3. Izberite pravilno postavko, sistem pa samodejno izpolni vsa polja.
 4. Po potrebi prilagodite **Končno lokacijo** ali **Količino**.
 
-   ![Podrobnosti prenosa](../Images/InterWarehouseDetails.png)
+   ![Podrobnosti prenosa](../Images/InterWarehouseDetailsSL.png)
 
 5. Kliknite **Shrani**, da shranite postavko. Po potrebi dodajte nove postavke (ponovite korak 2).
 6. Kliknite **Shrani** v zgornjem levem kotu, da shranite dokument.

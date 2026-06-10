@@ -30,7 +30,7 @@ Vnesite ali skenirajte **serijsko številko**, **EAN** ali vpišite **ime materi
 
 **Primer (več ujemanj):**
 
-![Korak 1 – več ujemanj](../Images/MoveSerialStep1.png)
+![Korak 1 – več ujemanj](../Images/MoveSerialStep1SL.png)
 
 Kliknite **Naslednji** za nadaljevanje.
 
@@ -40,7 +40,7 @@ Vnesite ciljno lokacijo z vnosom njenega **imena**, **šifre** ali dela besedila
 
 Če obstaja več ujemajočih se lokacij, morate izbrati pravilno:
 
-![Korak 2 – izbira lokacije](../Images/MoveSerialStep2.png)
+![Korak 2 – izbira lokacije](../Images/MoveSerialStep2SL.png)
 
 Kliknite **Naslednji** za nadaljevanje.
 
@@ -55,7 +55,7 @@ Na zadnjem zaslonu so prikazani naslednji podatki:
 - **Razpoložljiv** — količina, ki je trenutno na voljo za premik (urejanje dovoljeno)  
 - **Datum do**
 
-![Korak 3 – potrditev premika](../Images/MoveSerialStep3.png)
+![Korak 3 – potrditev premika](../Images/MoveSerialStep3SL.png)
 
 Po potrebi prilagodite vrednost **Razpoložljiv** in kliknite **Konec**.
 
@@ -65,4 +65,4 @@ Po zaključku:
 - vrnete se na **Korak 1**, kjer lahko nadaljujete s skeniranjem novih postavk,  
 - zaključen premik je viden v **Med-skladiščni promet → Potrjeni**.
 
-![Zabeležen premik](../Images/MoveSerialInterWarehouseRecord.png)
+![Zabeležen premik](../Images/MoveSerialInterWarehouseRecordSL.png)

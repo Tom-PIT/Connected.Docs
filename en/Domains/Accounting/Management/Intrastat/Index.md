@@ -1,6 +1,6 @@
 # Intrastat
 
-Intrastat is the European Union’s system for collecting statistics on the trade in goods between EU Member States. Businesses that dispatch (send) or arrive (receive) goods across EU borders must submit monthly Intrastat declarations once they exceed national thresholds.
+**Intrastat** is the European Union’s system for collecting statistics on the trade in goods between EU Member States. Businesses that dispatch (send) or arrive (receive) goods across EU borders must submit monthly Intrastat declarations once they exceed national thresholds.
 
 In the app, the Intrastat area centralizes code lists that classify movements of goods and support correct reporting. These lists are reused across domains (Sales, Logistics, Supply) when preparing and exporting Intrastat data.
 
