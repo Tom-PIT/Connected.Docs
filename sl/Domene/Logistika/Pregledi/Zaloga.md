@@ -14,6 +14,25 @@ Na voljo so **[Pogled zaloge po materialu](#pogled-zaloge-po-materialu)**, **[Po
 
 Za dostop do **Zaloge** pojdite na **Logistika / Zaloga** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
+## Seznam zaloge
+
+Glavni seznam prikazuje vse materiale v **abecednem vrstnem redu**.  
+Razvrščanje lahko prilagodite:
+
+- po **imenu materiala** (A–Z ali Z–A)  
+- po **količini**
+
+Na vrhu je na voljo iskalno polje za hitro iskanje določenih materialov.
+
+![Seznam zaloge](../Images/StockSL.png "Seznam zaloge")
+
+Vsaka vrstica prikazuje:
+- **šifro in ime materiala**
+- **količino**
+- **oznako vrste materiala**
+
+S klikom na material se odpre podrobni pogled zaloge.
+
 ## Filtri in navigacija
 
 Leva stranska vrstica vsebuje več filtrov.
@@ -36,24 +55,7 @@ Seznam lahko filtrirate po:
 ### **Filter oznak**
 Seznam lahko dodatno zožite z izbiro oznak materialov.
 
-## Seznam zaloge
 
-Glavni seznam prikazuje vse materiale v **abecednem vrstnem redu**.  
-Razvrščanje lahko prilagodite:
-
-- po **imenu materiala** (A–Z ali Z–A)  
-- po **količini**
-
-Na vrhu je na voljo iskalno polje za hitro iskanje določenih materialov.
-
-![Seznam zaloge](../Images/Stock.png "Seznam zaloge")
-
-Vsaka vrstica prikazuje:
-- **šifro in ime materiala**
-- **količino**
-- **oznako vrste materiala**
-
-S klikom na material se odpre podrobni pogled zaloge.
 
 ## Pogled zaloge po materialu
 
@@ -62,7 +64,7 @@ S klikom na **ime materiala** se odpre podroben razčlenjen prikaz, kje je mater
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pogled zaloge po materialu](https://www.youtube.com/watch?v=GUdnV6bZwoI)**.
 
-![Pogled zaloge po materialu](../Images/StockByMaterial.png "Pogled zaloge po materialu")
+![Pogled zaloge po materialu](../Images/StockByMaterialSL.png "Pogled zaloge po materialu")
 
 Ta pogled vključuje:
 - **skupno zalogo**
@@ -94,7 +96,7 @@ Material ima lahko več **serijskih številk**, ki predstavljajo različne serij
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Pogled zaloge po serijski številki](https://www.youtube.com/watch?v=_vzXNsGg5N4)**.
 
-![Pogled zaloge po serijski številki](../Images/StockBySerialNumber.png "Pogled zaloge po serijski številki")
+![Pogled zaloge po serijski številki](../Images/StockBySerialNumberSL.png "Pogled zaloge po serijski številki")
 
 Ta pogled prikazuje:
 - **material in serijsko številko** – konkretno enoto, ki jo pregledujete  
