@@ -9,7 +9,7 @@ Pogled **Postavke izdaj** nudi analitični pregled vseh **materialov in končnih
 
 Za dostop do tega pogleda pojdite na **Logistika / Pregledi / Postavke izdaj** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![IssueDetailsList](../Images/IssueDetailsListV2.png)
+![IssueDetailsList](../Images/IssueDetailsListSL.png)
 
 ## Seznam postavk izdaj
 
@@ -59,7 +59,7 @@ Uporabite **iskalno polje** v zgornjem desnem kotu za hitro filtriranje rezultat
 
 To omogoča hitro iskanje izdaj, povezanih z določenim materialom, izdelkom, dokumentom ali skladiščno lokacijo.
 
-![IssueDetailsListSearch](../Images/IssueDetailsListSearch.png)
+![IssueDetailsListSearch](../Images/IssueDetailsListSearchSL.png)
 
 ## Namen
 
