@@ -48,7 +48,7 @@ Stran **Porabe** prikazuje vse dokumente porabe, ustvarjene med izvajanjem proiz
 - **Avtor**
 - **Skladišče**
 
-![Seznam porab](../Images/ConsumptionsList.png "Seznam porab")
+![Seznam porab](../Images/ConsumptionsListSL.png "Seznam porab")
 
 ## Dejanja
 
@@ -67,13 +67,13 @@ Dokument porabe vsebuje:
 Če je bila poraba zabeležena za proizvodni nalog, razdelek **Povezani dokumenti** prikaže povezavo do povezanega  
 [**Proizvodnega naloga**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) (če obstaja).
 
-![Povezani proizvodni nalog](../Images/ConsumptionsLinkedDocuments.png "Povezani proizvodni nalog")
+![Povezani proizvodni nalog](../Images/ConsumptionsLinkedDocumentsSL.png "Povezani proizvodni nalog")
 
 ### Dokument in postavke
 
 Razdelek **Postavke** prikazuje vse porabljene materiale skupaj z njihovim virom in zabeleženimi količinami.
 
-![Objavljen dokument porabe](../Images/ConsumptionsCommittedDocument.png "Objavljen dokument porabe")
+![Objavljen dokument porabe](../Images/ConsumptionsCommittedDocumentSL.png "Objavljen dokument porabe")
 
 ## Izbrisati dokument porabe
 

@@ -43,7 +43,11 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 
 ## Seznam dokumentov odpisa
 
-Stran **Odpisi** prikazuje vse dokumente odpisa. Posamezen dokument lahko poiščete z iskalnikom ali uporabite filtre v levem stranskem meniju:
+Stran **Odpisi** prikazuje vse dokumente odpisa. 
+
+![Seznam odpisov](../Images/WriteoffsListSL.png)
+
+Posamezen dokument lahko poiščete z iskalnikom ali uporabite filtre v levem stranskem meniju:
 
 - **Datumi dokumentov**
 - **Pogled**
@@ -58,15 +62,13 @@ Barvni indikator prikazuje stanje dokumenta:
 
 S klikom na dokument odprete njegov podroben pregled.
 
-![Seznam odpisov](../Images/WriteoffsList.png)
-
 ## Dejanja
 
 ### Ustvariti dokument odpisa
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega dokumenta odpisa.
 
-   ![Nov odpis](../Images/WriteoffsNew.png)
+   ![Nov odpis](../Images/WriteoffsNewSL.png)
 
 2. Izberite **Skladišče** in po potrebi vnesite **Razlog**.
 
@@ -74,13 +76,13 @@ S klikom na dokument odprete njegov podroben pregled.
    - Če obstaja samo eno ujemanje → sistem samodejno izpolni podatke.
    - Če obstaja več ujemanj → prikaže se izbirni seznam:
 
-     ![Iskanje postavk odpisa](../Images/WriteoffsDetailsSearch.png)
+     ![Iskanje postavk odpisa](../Images/WriteoffsDetailsSearchSL.png)
 
 4. Izberite pravilno postavko, da odprete okno **Uredi postavko**.
 
 5. Prilagodite **Količino** glede na dejansko število poškodovanih ali manjkajočih kosov.
 
-   ![Podrobnosti odpisa](../Images/WriteoffsDetails.png)
+   ![Podrobnosti odpisa](../Images/WriteoffsDetailsSL.png)
 
 6. Kliknite **Shrani**, da shranite postavko. Po potrebi dodajte dodatne postavke.
 

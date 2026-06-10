@@ -48,7 +48,7 @@ Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [na
 
 Seznam prikazuje obstoječe dokumente **Korekcij** z možnostjo filtriranja po datumu, skladišču in stanju (*Osnutek / Objavljeno*). Uporabite iskanje po kodi ali materialu.
 
-![Seznam korekcij](../Images/CorrectionsList.png)
+![Seznam korekcij](../Images/CorrectionsListSL.png)
 
 ## Dejanja
 
@@ -59,14 +59,14 @@ Korekcijo ustvarite, kadar prešteto stanje odstopa od sistemskega.
 1. Pojdite na **Logistika / Dokumenti / Korekcije**.
 2. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite osnutek korekcije.
 
-   ![Nova korekcija](../Images/CorrectionsNew.png)
+   ![Nova korekcija](../Images/CorrectionsNewSL.png)
 
 3. Izpolnite razdelek **Dokument**.
 4. V razdelku **Podrobnosti** vnesite ali skenirajte **serijsko številko**, **EAN** ali **ime materiala**.  
    - Sistem prikaže **vsa ujemanja materialov in serijskih številk**. Če obstaja več ujemanj, izberite pravilno postavko s seznama.
    - Po potrebi uredite **Material**, **Serijsko številko** ali **Količino**.
 
-   ![Urejanje podrobnosti korekcije](../Images/CorrectionsNewDetailsEdit.png)
+   ![Urejanje podrobnosti korekcije](../Images/CorrectionsNewDetailsEditSL.png)
 
 5. Kliknite **Shrani**, da potrdite dodano postavko. Po potrebi ponovite korak 4.
 6. Kliknite **Objavi**, da uveljavite korekcije.

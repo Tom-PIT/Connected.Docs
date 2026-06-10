@@ -28,7 +28,7 @@ Za dostop do **Premika vsebnika** pojdite na **Logistika / Dokumenti / Premik vs
 
 Skenirajte črtno šifro vsebnika ali vnesite **šifro vsebnika**. Uporabniški vmesnik prikaže podatke o vsebniku in njegovo trenutno lokacijo.
 
-![Premik vsebnika – korak 1](../Images/MoveContainerStep1.png)
+![Premik vsebnika – korak 1](../Images/MoveContainerStep1SL.png)
 
 - Če je najdenih več ujemanj, izberite pravilen vsebnik.
 - Če trenutna lokacija ni znana, jo lahko nastavite ročno.
@@ -39,7 +39,7 @@ Izberite **ciljno lokacijo**. To lahko storite na dva načina:
 - skenirate oznako ciljne lokacije ali
 - ročno vnesete lokacijo.
 
-![Premik vsebnika – korak 2](../Images/MoveContainerStep2.png)
+![Premik vsebnika – korak 2](../Images/MoveContainerStep2SL.png)
 
 > [!TIP]
 > - Uporabljajte standardizirane oznake lokacij za hitrejše skeniranje.
@@ -49,7 +49,7 @@ Izberite **ciljno lokacijo**. To lahko storite na dva načina:
 
 Preglejte povzetek (vsebnik, izvorna in ciljna lokacija) in kliknite **Konec**. Sistem zabeleži premik vsebnika in vseh postavk, ki jih vsebuje.
 
-![Premik vsebnika – korak 3](../Images/MoveContainerStep3.png)
+![Premik vsebnika – korak 3](../Images/MoveContainerStep3SL.png)
 
 Po potrditvi:
 - lokacija vsebnika se spremeni na ciljno,

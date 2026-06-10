@@ -63,7 +63,7 @@ Barvni indikator ob dokumentu prikazuje njegovo stanje:
 
 S klikom na dokument odprete njegov podroben pregled.
 
-![Izdajnice](../Images/Issues.png "Seznam izdajnic")
+![Izdajnice](../Images/IssuesSL.png "Seznam izdajnic")
 
 ## Dejanja
 
@@ -71,14 +71,14 @@ S klikom na dokument odprete njegov podroben pregled.
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje osnutka dokumenta, nato izberite **Skladišče** in **Kupca**.
 
-   ![Nova izdajna](../Images/IssueNew.png "Nova izdajna")
+   ![Nova izdajna](../Images/IssueNewSL.png "Nova izdajna")
 
 2. V razdelek postavk vnesite ali skenirajte **serijsko številko**, **EAN šifro** ali **ime materiala**.  
    - Sistem prikaže **vse ujemajoče materiale in serijske številke**.
 3. Iz seznama rezultatov izberite ustrezno postavko.
 4. Sistem samodejno izpolni vse znane podatke (material, serijska številka, lokacija, rok uporabe).  
 
-   ![Podrobnosti izdajnice](../Images/IssueNewDetails.png "Podrobnosti izdajnice")
+   ![Podrobnosti izdajnice](../Images/IssueNewDetailsSL.png "Podrobnosti izdajnice")
 
 5. Vnesite **količino**, ki jo želite izdati — to je edino polje, ki ga lahko ročno urejate.  
 6. Kliknite **Shrani**, da dodate postavko v dokument. Po potrebi dodajte nove postavke (ponovite korak 2).
@@ -100,7 +100,7 @@ Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komenta
 
 V izdajnem dokumentu **meni (ikona hamburger)** v zgornjem desnem kotu ponuja različne možnosti, odvisno od stanja dokumenta.
 
-![Meni izdajnice](../Images/ReceiveMenu.png "Meni izdajnice")
+![Meni izdajnice](../Images/ReceiveMenuSL.png "Meni izdajnice")
 
 ### Osnutek izdajnice
 
@@ -123,7 +123,7 @@ Ko kliknete šifro dokumenta v seznamu izdajnih dokumentov:
 - dokumente lahko tiskate ali izvozite  
 - objavljeni dokumenti so samo za branje (razen ustvarjanja storna)
 
-![Pregled izdajnice](../Images/IssueReviewing.png "Pregled izdajnice")
+![Pregled izdajnice](../Images/IssueReviewingSL.png "Pregled izdajnice")
 
 ## Izbrisati izdajnice
 
