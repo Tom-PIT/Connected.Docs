@@ -45,11 +45,13 @@ The list shows all material analysis documents created during receiving for mate
    
    ![Material Analysis Edit Material Check](../Images/MaterialAnalysisEditMaterialCheck.png)
 
-   - If the test is not passed, leave the check unmarked and click **Save**. The status changes to **Failed** and the material shows red color on the list. 
+   - If the test is not passed, leave the check unmarked and click **Save**. The status changes to **Failed** and the material shows red color on the list. If the document is published it will be shown as failed in the committed list.
     
      ![Material Analysis Edit Failed](../Images/MaterialAnalysisEditFailed.png "Failed material analysis")
 
 4. Once all required checks are complete, click **Publish** to finalize the material analysis document. The document moves to the Committed list.
+
+    ![Material Analysis List Commited](../Images/MaterialAnalysisListCommited.png "List of committed lists")
  
 ## Delete a material analysis
 
