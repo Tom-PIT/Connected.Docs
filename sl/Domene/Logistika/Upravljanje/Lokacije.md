@@ -32,7 +32,7 @@ Uporabniški vmesnik prikazuje seznam vseh lokacij za izbrano skladišče. Upora
 
 Vsak zapis vsebuje oznako **Zaloga**, ki odpre vmesnik za upravljanje zaloge, povezane z izbrano lokacijo.
 
-Za veÄ podrobnosti glejte **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)**.
+Za več podrobnosti glejte **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)**.
 
 ## Dejanja
 
