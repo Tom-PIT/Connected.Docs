@@ -29,29 +29,30 @@ Za dostop do **Analize materialov** pojdite na **Logistika / Dokumenti / Analiza
 
 Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu materialov, za katere je zahtevana analiza. Uporabite iskalnik ali filtre za iskanje po stanju.
 
-![Seznam analiz materialov](../Images/MaterialAnalysisListV2.png)
+![Seznam analiz materialov](../Images/MaterialAnalysisListSL.png)
 
 ## Pregled analize materialov
 
 1. Kliknite dokument v pogledu **Osnutki**, da ga odprete.
    
-   ![Urejanje analize materialov](../Images/MaterialAnalysisEdit.png)
+   ![Urejanje analize materialov](../Images/MaterialAnalysisEditSL.png)
 
 2. Kliknite polje **Material**, da izberete material za testiranje (če je navedenih več materialov).
    
-   ![Izbira materiala](../Images/MaterialAnalysisEditMaterial.png)
+   ![Izbira materiala](../Images/MaterialAnalysisEditMaterialSL.png)
 
 3. Kliknite gumb **Preveri**, da označite uspešno opravljen test za izbrani material, nato kliknite **Shrani**.  
    Stanje **Status** se spremeni v **Uspešno**, material pa je v seznamu označen z zeleno barvo.
    
-   ![Uspešna analiza](../Images/MaterialAnalysisEditMaterialCheck.png)
+   ![Uspešna analiza](../Images/MaterialAnalysisEditMaterialCheckSL.png)
 
-   - Če test **ni uspešen**, pustite preverjanje neoznačeno in kliknite **Shrani**.  
-     Stanje se spremeni v **Neuspešno**, material pa je v seznamu označen z rdečo barvo.
+   - Če test **ni uspešen**, pustite preverjanje neoznačeno in kliknite **Shrani**. Stanje se spremeni v **Neuspešno**, material pa je v seznamu označen z rdečo barvo. Če je dokument objavljen, bo na seznamu potrjenih prikazan kot neuspešen.
 
-     ![Neuspešna analiza](../Images/MaterialAnalysisEditFailed.png "Neuspešna analiza materiala")
+     ![Neuspešna analiza](../Images/MaterialAnalysisEditFailedSL.png "Neuspešna analiza materiala")
 
 4. Ko so vsa zahtevana preverjanja zaključena, kliknite **Objavi**, da dokončate dokument analize materialov. Dokument se premakne v pogled **Potrjeni**.
+
+    ![Seznam potrjenih analiz materialov](../../../../sl/Domene/Logistika/Images/MaterialAnalysisListCommitedSL.png "Seznam potrjeni")
 
 ## Izbrisati analize materialov
 
