@@ -104,7 +104,7 @@ Določite lahko:
 
 Kliknite **Dodaj operacijo**, da odprete pogovorno okno za izbiro operacije.
 
-![Dodaj operacijo](../Images/ExpensesAddOperationSL.png "Dodaj operacijo")
+![Dodaj operacijo](../Images/ExpensesAddOperationSLV2.png "Dodaj operacijo")
 
 Po vnosu podatkov kliknite **Dodaj**, da shranite zapis, ali **Prekliči**, da se vrnete na seznam.
 
