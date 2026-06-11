@@ -3,14 +3,6 @@
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Storno.md --> 
 <!-- canonical_source_title: Storno -->
 
-<!-- app_route: /warehouse/documents/reversals -->
-
-<!-- app_label: Storno -->
-
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Storno.md -->
-
-<!-- canonical_source_title: Storno -->
-
 # Storno
 
 **Storno** dokument se uporablja za razveljavitev učinka drugega potrjenega dokumenta. Omogoča popravljanje napak ali prilagoditev zaloge, kadar je potrebno razveljaviti že objavljen premik. Storno je mogoče ustvariti **samo za objavljene dokumente** in **izključno prek njihovega menija → Ustvari novo storno**. Dokumentov storna **ni mogoče** ustvariti neposredno s seznama stornov.
@@ -108,7 +100,7 @@ Barvni indikatorji:
 * **Zelena** — potrjeno
 * **Siva** — osnutek
 
-![Seznam stornov](../Images/Reversals.png)
+![Seznam stornov](../Images/ReversalsSL.png)
 
 ## Dejanja
 
@@ -134,7 +126,7 @@ Primeri:
 * Izvirni odpis: **4 kos** → vnesite **4** za polno razveljavitev
 * Vnesite **2** → delna razveljavitev
 
-![Urejanje storna](../Images/ReversalsEdit.png)
+![Urejanje storna](../Images/ReversalsEditSL.png)
 
 Če je dokument shranjen, vendar ne objavljen → prikaže se med **Osnutki**
 
@@ -159,7 +151,7 @@ Oznake, prikazane na izvirnem dokumentu:
 * **Delno stornirano** — razveljavljen je del količine
 * **V celoti stornirano** — dokument je v celoti razveljavljen
 
-![Oznaka storna](../Images/ReversalsDocumentTag.png)
+![Oznaka storna](../Images/ReversalsDocumentTagSL.png)
 
 ### Urediti dokument storna
 
@@ -173,19 +165,19 @@ Dokument storna vsebuje:
 
 Prikazuje informacije o dokumentu, ki se razveljavlja, in povezavo za njegov ogled.
 
-![Razveljavljen dokument](../Images/ReversalsReversedDocument.png "Povezava do razveljavljenega dokumenta")
+![Razveljavljen dokument](../Images/ReversalsReversedDocumentSL.png "Povezava do razveljavljenega dokumenta")
 
 #### Razdelek dokumenta
 
 Prikazuje šifro in datum storna.
 
-![Dokument storna](../Images/ReversalsDocumentSection.png "Dokument storna")
+![Dokument storna](../Images/ReversalsDocumentSectionSL.png "Dokument storna")
 
 #### Razdelek podrobnosti
 
 Prikazuje prizadete materiale, njihove lokacije, izvorne količine in razveljavljene količine.
 
-![Podrobnosti storna](../Images/ReversalsDetailsSection.png "Podrobnosti storna")
+![Podrobnosti storna](../Images/ReversalsDetailsSectionSL.png "Podrobnosti storna")
 
 ### Izbrisati dokument storna
 

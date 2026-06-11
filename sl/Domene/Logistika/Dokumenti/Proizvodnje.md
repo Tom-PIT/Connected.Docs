@@ -44,7 +44,7 @@ Stran **Proizvodnje** prikazuje vse dokumente proizvodnje, ustvarjene prek izvaj
   - *Potrjeni* — zaključen dokument proizvodnje
 - **Skladišče**
 
-![Seznam proizvodnje](../Images/ProductionsList.png "Seznam proizvodnje")
+![Seznam proizvodnje](../Images/ProductionsListSL.png "Seznam proizvodnje")
 
 ## Dejanja
 
@@ -62,13 +62,13 @@ Klik na šifro dokumenta proizvodnje v seznamu prikaže njegove podrobnosti. Dok
 
 Če je bil izhod zabeležen za proizvodni nalog, razdelek **Povezani dokumenti** prikaže povezavo do povezanega **[Proizvodnega naloga](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)**.
 
-![Povezani proizvodni nalog](../Images/ProductionsLinkedDocuments.png "Povezani proizvodni nalog")
+![Povezani proizvodni nalog](../Images/ProductionsLinkedDocumentsSL.png "Povezani proizvodni nalog")
 
 ### Dokument in postavke
 
 Razdelek **Postavke** prikazuje vse proizvedene postavke z njihovimi zabeleženimi količinami.
 
-![Objavljen dokument proizvodnje](../Images/ProductionsCommittedDocument.png "Objavljen dokument proizvodnje")
+![Objavljen dokument proizvodnje](../Images/ProductionsCommittedDocumentSL.png "Objavljen dokument proizvodnje")
 
 ## Izbrisati dokumente proizvodnje
 
