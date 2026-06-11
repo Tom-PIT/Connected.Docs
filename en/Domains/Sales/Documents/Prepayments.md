@@ -140,6 +140,8 @@ Drafts can be edited; committed prepayments are final unless reversed.
 
 4. Save the added details.
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. Select the **[Payment method](../Management/PaymentMethods.md)**.
 
     ![Prepayments New Bottom](../Images/PrepaymentsNewBottom.png)

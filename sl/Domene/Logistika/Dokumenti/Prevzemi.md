@@ -117,6 +117,8 @@ Postopek ustvarjanja novega prevzema:
 
    ![Podrobnosti prevzema](../Images/ReceiveDocumentDetailsSL.png "Podrobnosti prevzema")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 4. Po potrebi prilagodite količine, skladiščne lokacije ali druge vrednosti.
 5. Kliknite **Shrani**, da shranite postavko. Po potrebi dodajte nove postavke (ponovite od koraka 2).
 6. Kliknite **Objavi**, da dokument dokončno potrdite.

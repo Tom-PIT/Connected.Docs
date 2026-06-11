@@ -133,6 +133,8 @@ Osnutke je mogoče urejati, potrjeni avansni računi pa so dokončni, razen če 
 
 3. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **serijske številke**, **EAN** ali **naziva sredstva/materiala**.
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 4. Shranite dodane postavke.
 
 5. Izberite **Način plačila**.

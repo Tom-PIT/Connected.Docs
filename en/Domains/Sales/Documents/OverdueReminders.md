@@ -61,6 +61,8 @@ Filters on the left help narrow down results by **document dates**, **status**, 
 
    ![Overdue Reminders Add Detail](../Images/OverdueRemindersAddDetail.png)
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 4. Click **Save** to confirm added details. Repeat step 3 to add more items.
 
    ![Overdue Reminders New Details Saved](../Images/OverdueRemindersNewDetailsSaved.png)

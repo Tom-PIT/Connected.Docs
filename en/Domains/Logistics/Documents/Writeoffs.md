@@ -83,6 +83,8 @@ You can open any document to review its details.
 
    ![WriteoffsDetails](../Images/WriteoffsDetails.png)
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 6. Click **Save** to save the detail. Add more items starting from step 3 if needed.
 
 7. Once all items are added and verified, click **Publish** to finalize the writeoff.

@@ -86,6 +86,8 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove
 
    ![Urejanje inventure](../Images/InventoryEditsSL.png "Urejanje inventure")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 5. Ko so vsi materiali preverjeni in so vnesene dejanske vrednosti, razdelek **Nerazporejena** postane zelen in prikaže **0**.
 
 6. Kliknite **Objavi**, da potrdite inventuro. S tem se zaloga v sistemu posodobi in uskladi z dejanskim stanjem.

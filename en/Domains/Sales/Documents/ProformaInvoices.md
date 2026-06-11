@@ -158,6 +158,8 @@ Once you start a new Proforma invoice, follow these steps:
 
    ![Proforma invoice detail saved](../Images/ProformaInvoiceNewDetailsSaved.png)
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. When the document is ready, click **Publish** to finalize it.  
    
 Publishing moves the document from **Draft** to **Committed**.

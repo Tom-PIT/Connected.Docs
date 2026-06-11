@@ -206,6 +206,8 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 1. Kliknite serijsko številko materiala, da odprete zaslon **Uredi postavko**.
 2. V oknu za urejanje kliknite **Izbriši**.
 
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 > [!NOTE]
 > - Izbrisati je mogoče samo **osnutke**.  
 > - Po objavi naročila stranke ni več mogoče izbrisati; uporabite **Vrni v osnutek**.

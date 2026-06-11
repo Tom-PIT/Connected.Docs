@@ -59,6 +59,8 @@ Za dodajanje nove postavke:
 
 ![Shranjena postavka računa](../Images/IssuedInvoicesNewBottom.png "Shranjena postavka računa")
 
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 ### Glavna knjiga
 
 Razdelek **Glavna knjiga** določa, kako se dokument knjiži v glavno knjigo. Opredeljuje, kateri konti se uporabijo za knjiženje prihodkov, odhodkov in davkov ob shranjevanju in knjiženju dokumenta.

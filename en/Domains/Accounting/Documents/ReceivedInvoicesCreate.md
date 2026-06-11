@@ -42,6 +42,8 @@ Click any blue field in the **Details** section to edit it. After making changes
 
 ![Received invoice – edit detail](../Images/ReceivedInvoicesDetails.png "Edit detail")
 
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 ## Publish a received invoice
 
 When all amounts match and required data is filled the bottom of the document would look like this.

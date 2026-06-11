@@ -88,6 +88,8 @@ S klikom na dokument odprete njegov podroben pregled.
 
 5. Kliknite **Shrani**, da dodate postavko. Po potrebi postopek ponovite za dodatne postavke.
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 6. Kliknite **Objavi**, da dokument potrdite. Objavljen dokument se prikaže v pogledu *Potrjeni*.
 
 Po objavi dokumenta postanejo vsi posojeni materiali **rezervirani** in niso več na voljo za druge procese.

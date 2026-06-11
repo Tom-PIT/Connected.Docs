@@ -75,6 +75,8 @@ Razdelek **Postavke** prikazuje vse porabljene materiale skupaj z njihovim virom
 
 ![Objavljen dokument porabe](../Images/ConsumptionsCommittedDocumentSL.png "Objavljen dokument porabe")
 
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 ## Izbrisati dokument porabe
 
 Dokumentov porabe **ni mogoče izbrisati** iz sistema, saj je potrebno ohraniti sledljivost uporabe materialov v proizvodnji. Dokumente je mogoče samo **stornirati**, kot je opisano zgoraj.

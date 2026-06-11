@@ -46,6 +46,8 @@ To add a new item:
 
     ![Saved detail](../Images/SupplyOrderNewDetailsSaved.png "Saved details")
 
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 ## Step 4 — Configure additional sections
 
 ### Delivery section

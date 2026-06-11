@@ -129,6 +129,8 @@ An example of a list with **Completed** offers:
 
     ![Edit detail](../Images/OfferNewDetailsSaved.png)
 
+    For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. Select the [**Payment method**](../Management/PaymentMethods.md).
 
    ![Offer bottom](../Images/OfferNewBottom.png)

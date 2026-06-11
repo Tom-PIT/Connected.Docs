@@ -155,6 +155,8 @@ Retail proforma invoices can only be created manually.
 
    ![Retail proforma details](../Images/RetailProformaInvoiceNewDetailsEdit.png)
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. Save the details.
 
 6. Select a **Payment method** at the bottom of the document (optional).
@@ -187,6 +189,8 @@ These values affect the printed document and follow-up logistics documents, but 
 Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
 
 ![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png)
+
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 ##### Ledger details
 

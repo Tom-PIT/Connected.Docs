@@ -140,6 +140,8 @@ Po začetku novega dobropisa sledite korakom:
 
    ![Postavke dobropisa](../Images/CreditNoteNewDetails.png "Postavke dobropisa")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 4. Prilagodite količine in vrednosti ter kliknite **Shrani**.
 
 > [!NOTE]

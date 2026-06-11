@@ -154,6 +154,8 @@ Once you start a new debit note, follow these steps:
 
 4. Edit quantities and values as needed, then click **Save** to confirm the detail.
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. When ready, click **Publish** at the top of the page.  
    The document moves from **Draft** to **Committed** and becomes financially effective.
 

@@ -152,6 +152,8 @@ Once you start a new credit note, follow these steps:
 
    ![Credit note details](../Images/CreditNoteNewDetails.png)
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 4. Edit quantities and values as needed, then click **Save** to confirm the detail.
 
 <!-- NOTE: callout must be outside the list to render reliably on GitHub -->

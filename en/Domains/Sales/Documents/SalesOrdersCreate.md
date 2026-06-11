@@ -48,6 +48,8 @@ To add a new item:
 3. Click **Save** to confirm the added details. 
 4. Repeat step 1 to add more items.
 
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 Saved detail:
 
 ![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png "Details saved")

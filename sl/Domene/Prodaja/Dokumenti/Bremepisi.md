@@ -140,6 +140,8 @@ Po začetku novega bremepisa sledite korakom:
 
    ![Postavke bremepisa](../Images/DebitNoteNewDetails.png "Postavke bremepisa")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 4. Prilagodite količine in vrednosti ter kliknite **Shrani**.
 
 5. Ko je bremepis pripravljen, kliknite **Objavi**.  
