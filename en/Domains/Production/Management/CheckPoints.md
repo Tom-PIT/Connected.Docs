@@ -106,6 +106,7 @@ When selecting the **Number** type, additional fields appear:
 |----------|------|-------------|
 | **Measure unit** | Dropdown | Selection of the measurement unit. |
 | **Min value** | Number | Minimum allowed value. |
+| **Default value** | Number | Default value for the check point. |
 | **Max value** | Number | Maximum allowed value. |
 
 > [!NOTE]

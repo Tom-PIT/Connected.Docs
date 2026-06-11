@@ -104,6 +104,7 @@ Pri izbiri tipa **Številka** se prikažejo dodatna polja:
 |----------|------|------|
 | **Merska enota** | Dropdown | Izbira merske enote. |
 | **Najmanjša vrednost** | Number | Najnižja dovoljena vrednost. |
+| **Privzeta vrednost** | Number | Privzeta vrednost za kontrolno točko. |
 | **Največja vrednost** | Number | Najvišja dovoljena vrednost. |
 
 > [!NOTE]

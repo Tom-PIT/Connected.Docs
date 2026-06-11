@@ -135,6 +135,9 @@ Ko je operacija zaključena, kliknite **Zaključi** v zgornjem levem kotu zaslon
 
 Zaključene operacije so označene z **zelenim indikatorjem**, kar omogoča jasen vizualni pregled.
 
+> [!TIP]
+> Po želji lahko celoten vzdrževalni nalog zaključite z enim dejanjem, tako da v [meniju](#meni) izberete **Zaključi vzdrževalni nalog**.
+
 ## Zaprti vzdrževalni nalogi
 
 Ko so vse operacije zaključene, vzdrževalni nalog preide v stanje **Zaprt**.
@@ -144,3 +147,15 @@ Zaprti vzdrževalni nalogi:
 - služijo kot evidenca vzdrževanja za opremo
 
 V seznamu so vidni pod pogledom **Zaprt**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani za **aktivne** vzdrževalne naloge.
+
+Na voljo so naslednja dejanja:
+
+- **Zaključi vzdrževalni nalog**
+
+Če izberete **Zaključi vzdrževalni nalog**, se po potrditvi zaključijo vse operacije vzdrževalnega naloga, nalog pa preide v stanje **Zaprt**.
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/DejanjaMenija.md).
