@@ -105,3 +105,8 @@ Pri izbiri tipa **Številka** se prikažejo dodatna polja:
 | **Merska enota** | Dropdown | Izbira merske enote. |
 | **Najmanjša vrednost** | Number | Najnižja dovoljena vrednost. |
 | **Največja vrednost** | Number | Najvišja dovoljena vrednost. |
+
+> [!NOTE]
+> Na voljo je povezava do zaslona za upravljanje [**Merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md), kjer lahko dodajate ali urejate merske enote.
+>
+> ![Povezava do merskih enot](../Images/CheckpointMeasureUnitsSL.png)

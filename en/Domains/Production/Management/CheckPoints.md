@@ -108,3 +108,7 @@ When selecting the **Number** type, additional fields appear:
 | **Min value** | Number | Minimum allowed value. |
 | **Max value** | Number | Maximum allowed value. |
 
+> [!NOTE]
+> For your convenience there is a link to the [**Measure units**](../../../Common/Management/MeasureUnits.md)  management screen, where you can add or edit measure units.
+>
+> ![Measure units link](../Images/CheckpointMeasureUnits.png)
