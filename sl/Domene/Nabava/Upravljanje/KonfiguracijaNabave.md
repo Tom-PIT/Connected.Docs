@@ -9,7 +9,7 @@ Zaslon **Konfiguracija nabave** omogoča nastavitev pravil, ki vplivajo na **št
 
 Za dostop do **Konfiguracije nabave** pojdite na **Nabava / Šifranti / Konfiguracija nabave** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Konfiguracija nabave](../Images/SupplyConfiguration.png)
+![Konfiguracija nabave](../Images/SupplyConfigurationSL.png)
 
 ## Nastavitve številčenja dokumentov
 

@@ -65,7 +65,7 @@ Po izbiri dejanja se odpre pogovorno okno, kjer določite:
 - **Dobavitelja**
 - **Datum opravljene storitve**
 
-![Izbira dobavitelja](../Images/SupplyStockBoundariesPlanningDialog.png)
+![Izbira dobavitelja](../Images/SupplyStockBoundariesPlanningDialogSL.png)
 
 S klikom na **Ustvari** sistem ustvari izbrani dokument in vas preusmeri nanj.  
 Materiali, količine in dobavitelj so že predizpolnjeni.

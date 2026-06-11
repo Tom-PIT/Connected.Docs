@@ -34,7 +34,7 @@ Uporabniški vmesnik prikazuje seznam vseh materialov dobaviteljev z naslednjimi
 
 Na voljo je iskalno polje v zgornjem desnem kotu.
 
-![Seznam materialov dobaviteljev](../Images/SupplierMaterialsList.png "Seznam materialov dobaviteljev")
+![Seznam materialov dobaviteljev](../Images/SupplierMaterialsListSL.png "Seznam materialov dobaviteljev")
 
 ### Filtri
 
@@ -66,7 +66,7 @@ Vnosni obrazec vključuje naslednja polja:
 - Cena  
 - Dobavni dostave
 
-![Nov material dobavitelja](../Images/SupplierMaterialsNew.png "Nov material dobavitelja")
+![Nov material dobavitelja](../Images/SupplierMaterialsNewSL.png "Nov material dobavitelja")
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite zapis, ali **Prekliči**, da se vrnete na seznam.
 
@@ -81,7 +81,7 @@ Ta zaslon deluje podobno kot stran **[Uvoz materialov](../../Sredstva/Materiali/
 - območje za povleci-in-spusti nalaganje,  
 - predogled preteklih uvozov.
 
-![Uvoz materialov dobaviteljev](../Images/SupplierMaterialsImport.png "Uvoz materialov dobaviteljev")
+![Uvoz materialov dobaviteljev](../Images/SupplierMaterialsImportSL.png "Uvoz materialov dobaviteljev")
 
 #### Struktura preglednice
 

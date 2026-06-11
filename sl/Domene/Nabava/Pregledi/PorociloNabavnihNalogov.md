@@ -33,7 +33,7 @@ Za vsak material poročilo prikazuje:
 - **Povprečno ceno**
 - **Skupno ceno s stroški**, vključno z neto vrednostjo in davkom
 
-![Seznam poročila nabavnih nalogov](../Images/SupplyOrdersReportList.png "Seznam poročila nabavnih nalogov")
+![Seznam poročila nabavnih nalogov](../Images/SupplyOrdersReportListSL.png "Seznam poročila nabavnih nalogov")
 
 ## Filtri
 

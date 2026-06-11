@@ -33,7 +33,7 @@ Glavni seznam prikazuje materiale, ki zahtevajo pozornost, z naslednjimi stolpci
 - **Minimalna / maksimalna količina**
 - **Količina za naročilo**
 
-![Planiranje nabave po mejah zaloge – seznam](../Images/SupplyStockBoundariesPlanningList.png)
+![Planiranje nabave po mejah zaloge – seznam](../Images/SupplyStockBoundariesPlanningListSL.png)
 
 ### Filtri
 
@@ -54,7 +54,7 @@ Vsako vrstico je mogoče razširiti in prikazati dodatne informacije za planiran
 - **Datum opravljene storitve**  
 - **Cena**
 
-![Podrobnosti planiranja nabave](../Images/SupplyStockBoundariesPlanningListDetails.png)
+![Podrobnosti planiranja nabave](../Images/SupplyStockBoundariesPlanningListDetailsSL.png)
 
 Ti podatki pomagajo oceniti, ali je obnavljanje zaloge že v teku, še preden ustvarite nove dokumente.
 
@@ -63,6 +63,7 @@ Ti podatki pomagajo oceniti, ali je obnavljanje zaloge že v teku, še preden us
 Nabavne dokumente ustvarite neposredno iz tega pogleda.
 
 1. Izberite enega ali več materialov s potrditvenim poljem in po želji prilagodite **Naročeno količino** neposredno na seznamu.
+   
    ![Izbira materiala](../Images/SupplyStockBoundariesPlanningSelect.png)
 
 2. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite:
@@ -75,7 +76,7 @@ Nabavne dokumente ustvarite neposredno iz tega pogleda.
    - **Dobavitelja**
    - **Datum opravljene storitve**
 
-   ![Izbira dobavitelja in datuma dobave](../Images/SupplyStockBoundariesPlanningDialog.png)
+   ![Izbira dobavitelja in datuma dobave](../Images/SupplyStockBoundariesPlanningDialogSL.png)
 
 4. Kliknite **Ustvari** za nadaljevanje.
 
