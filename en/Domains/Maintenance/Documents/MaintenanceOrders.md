@@ -136,6 +136,9 @@ Once the operation is finished, click **Complete** in the top-left corner of the
 
 Completed operations are displayed with a **green indicator**, providing a clear visual status.
 
+> [!TIP]
+> You have the option of completing the entire maintenance order at once by clicking **Complete maintenance order** in the [menu](#menu), if desired.
+
 ## Closed maintenance orders
 
 When all operations are completed, the maintenance order moves to **Closed** state.
@@ -147,3 +150,15 @@ Closed maintenance orders:
 - Serve as maintenance records for the equipment
 
 They remain visible in the list under the **Closed** view.
+
+## Menu
+
+The menu provides additional actions available on this page for **active** maintenance orders.
+
+Available actions:
+
+- **Complete maintenance order**
+
+Click **Complete maintenance order** to complete all operations in the maintenance order. After confirmation, the order moves to the **Closed** status.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
