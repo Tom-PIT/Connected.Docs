@@ -65,7 +65,7 @@ Dokumenti se v svojem življenjskem ciklu pomikajo skozi več stanj:
 
 Seznam **Povpraševanj** omogoča pregled vseh nabavnih zahtevkov, razdeljenih v poglede **Osnutki**, **Na voljo**, **V obdelavi** in **Zaključeno**.
 
-![Seznam povpraševanj – Na voljo](../Images/InquiriesListAvailable.png "Seznam povpraševanj – Na voljo")
+![Seznam povpraševanj – Na voljo](../Images/InquiriesListAvailableSL.png "Seznam povpraševanj – Na voljo")
 
 ### Indikatorji
 
@@ -98,7 +98,7 @@ Filtri omogočajo hitro navigacijo med povpraševanji različnih dobaviteljev, s
 
 2. Izpolnite polja **Dobavitelj**, **Datum dokumenta** in **Datum veljavnosti**.
 
-   ![Novo povpraševanje](../Images/InquiriesNew.png "Novo povpraševanje")
+   ![Novo povpraševanje](../Images/InquiriesNewSL.png "Novo povpraševanje")
 
 3. V razdelku **Postavke** vnesite ali skenirajte **serijsko številko**, **EAN** ali **ime materiala**.  
    - Sistem prikaže **vsa ujemanja materialov in serijskih številk**.  
@@ -147,7 +147,7 @@ Razpoložljiva dejanja vključujejo:
 
 Ko je povpraševanje v stanju **Na voljo** odobreno, kliknite **Zaključi** na vrhu strani. Dokument se nato prikaže v pogledu **Zaključeno**.
 
-![Seznam povpraševanj – Zaključeno](../Images/InquiriesListCompleted.png "Seznam povpraševanj – Zaključeno")
+![Seznam povpraševanj – Zaključeno](../Images/InquiriesListCompletedSL.png "Seznam povpraševanj – Zaključeno")
 
 > [!NOTE]
 > Povpraševanje se samodejno premakne v stanje **Zaključeno**, ko se iz njega neposredno ustvari **[nabavni nalog](NabavniNalogi.md)** prek razdelka **Povezani dokumenti**.

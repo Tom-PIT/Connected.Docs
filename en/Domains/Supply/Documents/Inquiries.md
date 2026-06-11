@@ -59,7 +59,7 @@ Documents move through several possible states during their lifecycle:
 
 The Inquiries list provides an overview of all supply requests, separated into **Drafts**, **Available**, **In completion**, and **Completed**.
 
-![Inquiries list – Available](../Images/InquiriesListAvailable.png "Inquiries list – Available")
+![Inquiries list – Available](../Images/InquiriesListAvailableV2.png "Inquiries list – Available")
 
 ### Indicators
 
