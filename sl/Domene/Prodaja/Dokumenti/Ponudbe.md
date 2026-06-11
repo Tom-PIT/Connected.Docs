@@ -210,6 +210,8 @@ Shranjena postavka:
 
 ![Prodajni nalog – Urejanje postavke](../Images/SalesOrdersNewDetailsSaved.png "Shranjene postavke")
 
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 > [!NOTE]
 > Ko je omogočen Intrastat, se v razdelku Postavke prikažejo dodatna polja, kot so **Tarifa**, **Država porekla**, **Neto teža (kg)** in **Statistična vrednost**. Ta polja so potrebna za Intrastat poročanje, vendar ne vplivajo na obdelavo prodajnega naloga.
 

@@ -166,6 +166,8 @@ Retail issued invoices can only be created manually.
 
 5. Save the detail lines and review totals.
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 6. Add **Payment methods** at the bottom of the document (optional).
 
    ![Retail invoice payment methods](../Images/RetailInvoiceNewBottom.png "Retail invoice payment methods")

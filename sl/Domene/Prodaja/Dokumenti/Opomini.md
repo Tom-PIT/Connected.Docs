@@ -83,6 +83,8 @@ Filtri na levi strani omogočajo omejevanje seznama po:
 
    ![Dodaj postavko opomina](../Images/OverdueRemindersAddDetail.png "Dodaj postavko opomina")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 4. Kliknite **Shrani**, da potrdite dodano postavko. Postopek ponovite za dodajanje več postavk.
 
    ![Shranjena postavka opomina](../Images/OverdueRemindersNewDetailsSaved.png "Shranjena postavka opomina")

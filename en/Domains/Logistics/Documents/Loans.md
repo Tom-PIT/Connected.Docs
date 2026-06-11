@@ -85,6 +85,8 @@ Click any loan to open and review its details.
 
    ![Loan detail](../Images/LoansNewDetails.png "Loan detail")
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. Click **Save** to add the detail.  
    Repeat the process to add additional loaned items.
 

@@ -146,6 +146,8 @@ Dokumente v stanju **Osnutek** lahko izbrišete v urejanju, vendar **le, če ne 
 
 Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
 
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 > [!NOTE]
 > - Izbris je mogoč samo za **osnutke**.  
 > - Objavljenih dokumentov ni mogoče izbrisati; uporabite **Vrni v osnutek**.  

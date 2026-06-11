@@ -152,6 +152,8 @@ Maloprodajna predplačila je mogoče ustvariti **samo ročno**.
 
    ![Postavke maloprodajnega predplačila](../Images/RetailProformaInvoiceNewDetailsEdit.png "Postavke maloprodajnega predplačila")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 5. Shranite postavke.
 
 6. (Neobvezno) Izberite **Način plačila** na dnu dokumenta.

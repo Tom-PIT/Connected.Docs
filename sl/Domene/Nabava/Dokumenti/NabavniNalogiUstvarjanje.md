@@ -46,6 +46,8 @@ Za dodajanje nove postavke:
 
    ![Shranjena postavka](../Images/SupplyOrderNewDetailsSaved.png "Shranjena postavka")
 
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 ## Korak 4 — Dodatne nastavitve
 
 ### Razdelek Dostava

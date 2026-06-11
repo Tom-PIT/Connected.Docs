@@ -68,6 +68,8 @@ Vsebniki se ustvarjajo ročno na tej strani.
 
    ![Podrobnosti vsebnika](../Images/ContainersNewDetailsSL.png "Podrobnosti vsebnika")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 5. **Izberite pravilno količino** in kliknite **Shrani**, da shranite postavko. Po potrebi postopek ponovite.
 
    ![Shranjene postavke vsebnika](../Images/ContainersNewDetailsSavedSL.png "Shranjene postavke vsebnika")

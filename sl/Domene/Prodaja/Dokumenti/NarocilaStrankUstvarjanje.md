@@ -51,6 +51,8 @@ Za dodajanje nove postavke:
 3. Kliknite **Shrani**, da potrdite dodane postavke.
 4. Po potrebi ponovite korak 1 za dodajanje dodatnih postavk.
 
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 Shranjena postavka:
 
 ![Naročilo stranke – shranjena postavka](../Images/SalesOrdersNewDetailsSaved.png "Shranjena postavka")

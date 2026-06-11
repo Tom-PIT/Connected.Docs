@@ -175,6 +175,8 @@ Maloprodajne račune je mogoče ustvariti **samo ročno**.
 
    ![Urejanje postavke](../Images/RetailIssuedInvoiceNewDetailsEdit.png "Urejanje postavke")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 5. Shranite postavke in preverite izračune.
 
 6. (Neobvezno) Dodajte **Načine plačila** na dnu dokumenta.

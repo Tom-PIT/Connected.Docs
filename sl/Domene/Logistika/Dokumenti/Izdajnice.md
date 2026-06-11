@@ -81,6 +81,9 @@ S klikom na dokument odprete njegov podroben pregled.
    ![Podrobnosti izdajnice](../Images/IssueNewDetailsSL.png "Podrobnosti izdajnice")
 
 5. Vnesite **količino**, ki jo želite izdati — to je edino polje, ki ga lahko ročno urejate.  
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 6. Kliknite **Shrani**, da dodate postavko v dokument. Po potrebi dodajte nove postavke (ponovite korak 2).
 7. Kliknite **Objavi**, da dokument dokončno potrdite.
 

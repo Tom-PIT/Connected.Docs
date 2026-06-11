@@ -43,6 +43,8 @@ Po spremembah kliknite **Shrani**.
 
 ![Urejanje postavke](../Images/ReceivedInvoicesDetails.png)
 
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 ### Objavi prejeti račun
 
 Ko so vsi zneski usklajeni in obvezni podatki izpolnjeni, je spodnji del dokumenta videti takole:

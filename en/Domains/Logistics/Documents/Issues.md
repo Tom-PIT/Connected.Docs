@@ -77,6 +77,8 @@ You can click any document to open and review its details.
 
 	![Issue Detail](../Images/IssueNewDetails.png "Issue Details")
 
+	For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. Enter the **quantity** you want to issue — this is the only editable field.  
 6. Click **Save** to add the line to the document.  Add more items starting from step 2 if needed. 
 7. Click **Publish** to commit the document.

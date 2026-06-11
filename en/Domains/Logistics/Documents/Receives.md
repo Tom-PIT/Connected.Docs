@@ -118,6 +118,8 @@ To create a new receive document:
 	![Receive document details](../Images/ReceiveDocumentDetails.png "Receive document details")
 
 4. Adjust quantities, storage locations, or other values if needed.
+   
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 5. Click **Save** to save the details. Add more items starting from step 2 if needed.
 

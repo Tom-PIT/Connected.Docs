@@ -138,10 +138,12 @@ Draft documents can be deleted on the edit screen, but only if they contain **no
 If the draft still includes items in the **Details** section:
 
 1. Click the expense blue field in the **Details** section to open the **Edit detail** screen.  
-2. Click **Delete** inside the Edit detail window to remove the material.  
-3. Repeat this for all remaining materials.
+2. Click **Delete** inside the Edit detail window to remove the detail.  
+3. Repeat this for all remaining details.
 
-Once the document contains no materials, you can click **Delete** to remove the draft.
+Once the document contains no details, you can click **Delete** to remove the draft.
+
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 > [!NOTE]
 > - Only **draft** documents can be deleted.  

@@ -65,7 +65,7 @@ You can also **delete** the line if it should not be received.
 
 When all details are confirmed, click **Finish** to complete the simple receive.
 
-## Completethe receive
+## Complete the receive
 
 After clicking **Finish**:
 

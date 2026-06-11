@@ -209,6 +209,8 @@ If you need to remove only a specific material instead of clearing the entire do
 1. Click the material serial number to open the **Edit detail** screen.
 2. Click **Delete** inside the Edit detail window.
 
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 > [!NOTE]
 > Only **draft** sales orders can be deleted. Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  
 

@@ -104,6 +104,8 @@ Filtri omogočajo hitro navigacijo med povpraševanji različnih dobaviteljev, s
    - Sistem prikaže **vsa ujemanja materialov in serijskih številk**.  
    - Prilagodite količino glede na potrebe.
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 4. Shranite dodane postavke.
 
 5. Ko ste pripravljeni, kliknite **Objavi**, da zaključite osnutek in premaknete povpraševanje v stanje **Na voljo**.

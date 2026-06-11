@@ -84,6 +84,8 @@ Click the action button to create a new inventory document.
 
    ![InventoryEdit](../Images/InventoryEdits.png)
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. Once all materials have been checked and actual values are entered, the **Non allocated** section of the **Summary** will turn green and show **0**.
 5. Click **Publish** to confirm the inventory. This action updates the system stock levels to match the actual physical quantities.
 

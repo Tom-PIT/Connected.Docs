@@ -144,6 +144,8 @@ Koraki:
 
    ![Urejanje postavk predračuna](../Images/ProformaInvoiceNewDetailsEdit.png "Urejanje postavk predračuna")
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 4. Shranite postavko.
 
    ![Shranjena postavka predračuna](../Images/ProformaInvoiceNewDetailsSaved.png "Shranjena postavka predračuna")

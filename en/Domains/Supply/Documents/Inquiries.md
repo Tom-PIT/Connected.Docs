@@ -98,6 +98,8 @@ These filters allow quick navigation through vendor requests across different st
    - The system displays **all matching materials and serial numbers**.  
    - Adapt the quantity according to your requirement 
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 4. Save the added details.
 
 5. When ready, click **Publish** to finalize the inquiry draft and move it to the **Available** state.
