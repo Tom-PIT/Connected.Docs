@@ -105,11 +105,11 @@ Na vrhu seznama sistem prikazuje ključne kazalnike za trenutno filtrirane podat
 
 Filtri na levi strani omogočajo zoženje rezultatov po **datumih dokumentov**, **statusu** in **stranki**.
 
-![Seznam ponudb](../Images/OffersListDrafts.png "Seznam ponudb")
+![Seznam ponudb](../Images/OffersListDraftsSL.png "Seznam ponudb")
 
 Primer seznama **Zaključenih** ponudb:
 
-![Zaključene ponudbe](../Images/OffersListCompleted.png "Zaključene ponudbe")
+![Zaključene ponudbe](../Images/OffersListCompletedSL.png "Zaključene ponudbe")
 
 
 ## Dejanja
@@ -120,24 +120,24 @@ Primer seznama **Zaključenih** ponudb:
 
 2. Izpolnite polja **Stranka**, **Datum veljavnosti** in po potrebi **Rabat**.
 
-   ![Nova ponudba – zgoraj](../Images/OfferNewTop.png "Nova ponudba – zgornji del")
+   ![Nova ponudba – zgoraj](../Images/OfferNewTopSL.png "Nova ponudba – zgornji del")
 
 3. Dodajte postavke v razdelek Postavke. Vnesite ali skenirajte **serijsko številko**, **EAN** ali **naziv materiala**.
    - Sistem prikaže **vsa ujemajoča se sredstva in serijske številke**; ob več ujemanjih izberite pravilno.
 
-   ![Nova ponudba – postavke](../Images/OfferNewDetails.png "Nova ponudba – postavke")
+   ![Nova ponudba – postavke](../Images/OfferNewDetailsSL.png "Nova ponudba – postavke")
 
 4. Kliknite **Shrani**, da potrdite dodane postavke. Korak 3 ponovite za dodajanje dodatnih postavk.
 
-   ![Shranjena postavka](../Images/OfferNewDetailsSaved.png "Shranjena postavka")
+   ![Shranjena postavka](../Images/OfferNewDetailsSavedSL.png "Shranjena postavka")
 
 5. Izberite **Način plačila**.
 
-   ![Nova ponudba – spodaj](../Images/OfferNewBottom.png "Nova ponudba – spodnji del")
+   ![Nova ponudba – spodaj](../Images/OfferNewBottomSL.png "Nova ponudba – spodnji del")
 
 6. Ko je ponudba pripravljena, kliknite **Objavi** na vrhu strani. Dokument preide v status **Na voljo** in omogoči dodatna dejanja.
 
-   ![Ponudbe na voljo](../Images/OfferListAvailable.png "Ponudbe na voljo")
+   ![Ponudbe na voljo](../Images/OfferListAvailableSL.png "Ponudbe na voljo")
 
 > [!NOTE]
 > S klikom na **Objavi** se dokument potrdi in preide iz statusa **Osnutek** v skupino statusov **Obdelan**.
@@ -170,7 +170,7 @@ Pogosta dejanja vključujejo:
 - [**+ Predračun**](Predracuni.md) – ustvarjanje predračuna  
 - **+ Prodajni nalog** – neposredno ustvarjanje [prodajnega naloga](NarocilaStrank.md) iz ponudbe
 
-![Povezani dokumenti](../Images/OfferPublishedLinkedDocuments.png "Povezani dokumenti")
+![Povezani dokumenti](../Images/OfferPublishedLinkedDocumentsSL.png "Povezani dokumenti")
 
 #### Alternativna valuta
 
@@ -204,7 +204,7 @@ Postavke določajo naročene izdelke ter njihove količine, cene, davke in popus
 
 Dodaj novo postavko:
 
-![Prodajni nalog – Dodaj postavko](../Images/SalesOrdersNewDetailsV2.png "Prodajni nalog – Dodaj postavko")
+![Prodajni nalog – Dodaj postavko](../Images/SalesOrdersNewDetailsSL.png "Prodajni nalog – Dodaj postavko")
 
 Shranjena postavka:
 
@@ -219,7 +219,7 @@ Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../
 
 Ko je ponudba v statusu **Na voljo**, kliknite **Zaključi**.
 
-![Gumb Zaključi ponudbo](../Images/OffersCompleteButton.png "Gumb Zaključi ponudbo")
+![Gumb Zaključi ponudbo](../Images/OffersCompleteButtonSL.png "Gumb Zaključi ponudbo")
 
 > [!NOTE]
 > Ponudba se samodejno premakne v status **Zaključeno**, ko se iz nje neposredno ustvari nov [**Prodajni nalog**](NarocilaStrank.md) preko dejanja **Povezani dokumenti**.
@@ -240,14 +240,6 @@ Potrjenih dokumentov **ni mogoče** izbrisati.
 
 > [!NOTE]
 > Ponudbo je mogoče izbrisati le, če ni povezana z drugim odvisnim dokumentom (npr. prodajnim nalogom).
-
-
-### Meni
-
-Zgornji meni omogoča:
-
-
-![Meni ponudb](../Images/OffersMenu.png "Meni ponudb")
 
 ## Meni
 
