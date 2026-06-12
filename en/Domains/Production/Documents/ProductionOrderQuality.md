@@ -6,7 +6,7 @@
 
 # Production orders - Quality
 
-The **Quality** section displays all [**checklists**](../Management/Checklists.md) associated with the selected **[production](ProductionOrders.md) or [maintenance](../../Maintenance/Documents/MaintenanceOrders.md) order**. 
+The **Quality** section displays all [**checklists**](../../Quality/Management/Checklists.md) associated with the selected **[production](ProductionOrders.md) or [maintenance](../../Maintenance/Documents/MaintenanceOrders.md) order**. 
 
 These checklists are added to a specific **[process](../Management/Processes.md) or [operation](../Management/Operations.md)** to ensure that quality control procedures are performed during the execution of the order.
 

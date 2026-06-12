@@ -66,7 +66,7 @@ Click **Add** to save the new organization unit, or **Cancel** to discard.
 
 ### Quality in organization units
 
-Organization units can have [**quality checklists**](Checklists.md) assigned to them. A checklist can be used to require users to complete basic tasks (for example, at the start of a shift) before continuing.
+Organization units can have [**quality checklists**](../../Quality/Management/Checklists.md) assigned to them. A checklist can be used to require users to complete basic tasks (for example, at the start of a shift) before continuing.
 
 > [!NOTE]
 > Currently, the only available mode is **On first login**.
@@ -78,7 +78,7 @@ Organization units can have [**quality checklists**](Checklists.md) assigned to 
 1. In the organization units list, click **Quality** on the desired organization unit.
 2. Click the action button to add a new checklist.
 3. Select:
-   - **Checklist** (configured in [Checklists](Checklists.md))
+   - **Checklist** (configured in [Checklists](../../Quality/Management/Checklists.md))
    - **Mode** (currently **On first login**)
    - **Ordinal** (order in which checklists are shown)
 4. Click **Add** to save or **Cancel** to discard.

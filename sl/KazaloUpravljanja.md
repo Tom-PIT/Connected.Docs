@@ -91,8 +91,8 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Človeški viri**](Domene/Proizvodnja/Upravljanje/CloveskiViri.md)
 - [**Izhodi**](Domene/Proizvodnja/Upravljanje/Izhodi.md)
 - [**Konfiguracija proizvodnje**](Domene/Proizvodnja/Upravljanje/KonfiguracijaProizvodnje.md)
-- [**Kontrolne liste**](Domene/Proizvodnja/Upravljanje/KontrolneListe.md)
-- [**Kontrolne točke**](Domene/Proizvodnja/Upravljanje/KontrolneTocke.md)
+- [**Kontrolne liste**](Domene/Kvaliteta/Upravljanje/KontrolneListe.md)
+- [**Kontrolne točke**](Domene/Kvaliteta/Upravljanje/KontrolneTocke.md)
 - [**Kvaliteta – kontrolne liste**](Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
 - [**Operacije**](Domene/Proizvodnja/Upravljanje/Operacije.md)
 - [**Organizacijske enote**](Domene/Proizvodnja/Upravljanje/OrganizacijskeEnote.md)
@@ -110,7 +110,8 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Upravljanje projektov**](Domene/Projekti/Upravljanje/UpravljanjeProjektov.md)
 
 ## Kvaliteta
-- [**Kvaliteta – kontrolne liste**](Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
+- [**Kontrolne liste**](Domene/Kvaliteta/Upravljanje/KontrolneListe.md)
+- [**Kontrolne točke**](Domene/Kvaliteta/Upravljanje/KontrolneTocke.md)
 
 ## Viri
 - [**Časovni plani**](Domene/Viri/Upravljanje/CasovniPlani.md)

@@ -68,7 +68,7 @@ Kliknite **Dodaj** za shranjevanje nove organizacijske enote ali **Prekliči** z
 
 ### Kvaliteta v organizacijskih enotah
 
-Organizacijskim enotam je mogoče dodeliti [**kontrolne liste kakovosti**](KontrolneListe.md). Kontrolna lista se uporablja za zahtevo, da uporabniki opravijo osnovna opravila (na primer ob začetku izmene), preden lahko nadaljujejo z delom.
+Organizacijskim enotam je mogoče dodeliti [**kontrolne liste kakovosti**](../../Kvaliteta/Upravljanje/KontrolneListe.md). Kontrolna lista se uporablja za zahtevo, da uporabniki opravijo osnovna opravila (na primer ob začetku izmene), preden lahko nadaljujejo z delom.
 
 > [!NOTE]
 > Trenutno je na voljo samo način **Ob prvi prijavi**.

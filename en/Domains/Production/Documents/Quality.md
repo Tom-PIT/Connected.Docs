@@ -44,6 +44,6 @@ Saved results are linked to the production order and operation and appear in the
 ## See also
 
 - [Quality checklists](../Management/QualityChecklists.md) — attach checklists to process versions or operations.
-- [Checklists](../Management/Checklists.md) — create and manage checklist templates.
-- [Check points](../Management/Checkpoints.md) — define individual checklist steps.
+- [Checklists](../../Quality/Management/Checklists.md) — create and manage checklist templates.
+- [Check points](../../Quality/Management/Checkpoints.md) — define individual checklist steps.
 

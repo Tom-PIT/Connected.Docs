@@ -19,7 +19,7 @@ Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vklj
 > - Definicije opreme
 > - Dodeljene [**organizacijske enote**](../../Proizvodnja/Upravljanje//OrganizacijskeEnote.md)
 > - Po potrebi dodatne nastavitve, kot so [**viri**](../../Proizvodnja/Upravljanje//Viri.md),
->   [**kontrolni listi**](../..//Proizvodnja/Upravljanje/KontrolneListe.md) in
+>   [**kontrolni listi**](../..//Kvaliteta/Upravljanje/KontrolneListe.md) in
 >   [**merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md), odvisno od poteka vzdrževanja
 
 Za dostop do vzdrževalnih nalogov pojdite na **Vzdrževanje / Vzdrževalni nalogi** v
@@ -125,7 +125,7 @@ Na voljo sta dva načina izvajanja:
 Klik na operacijo odpre **zaslon izvajanja operacije**, kjer lahko izvajalec:
 - pregleda [navodila](../../Znanje/BazaZnanja/BazaZnanja.md)
 - evidentira [vhode](../../Proizvodnja/Upravljanje/Vhodi.md) in [nečloveške vire](../../Proizvodnja/Upravljanje/StvarniViri.md)
-- izvede [kontrolne sezname](../../Proizvodnja/Upravljanje/KontrolneListe.md) kakovosti
+- izvede [kontrolne sezname](../../Kvaliteta/Upravljanje/KontrolneListe.md) kakovosti
 - beleži delo (začetek/konec, trajanje)
 - vnese podatke o izvedbi
 
@@ -158,4 +158,4 @@ Na voljo so naslednja dejanja:
 
 Če izberete **Zaključi vzdrževalni nalog**, se po potrditvi zaključijo vse operacije vzdrževalnega naloga, nalog pa preide v stanje **Zaprt**.
 
-Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/DejanjaMenija.md).
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

@@ -73,7 +73,7 @@ The **Management** section contains configuration, process definitions, and prod
 Available configuration and code lists include:
 
 - **[Configuration](Management/ProductionConfiguration.md)** – Global production settings for numbering and behavior.
-- **[Checklists](Management/CheckLists.md)** – Quality and process checklists used during execution.
+- **[Checklists](../Quality/Management/Checklists.md)** – Quality and process checklists used during execution.
 - **[Downtime tags](Management/DowntimeTags.md)** – Classification of downtime reasons for analysis.
 - **[Loss classification tags](Management/LossClassificationTags.md)** – Standard categories for loss recording and reporting.
 - **[Job positions](Management/JobPositions.md)** – Roles and positions for shop-floor personnel.

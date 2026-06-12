@@ -42,5 +42,5 @@ Shranjeni rezultati so povezani s proizvodnim nalogom in operacijo ter so vidni 
 ## Glej tudi
 
 - [Kontrolne liste kakovosti](../Upravljanje/KvalitetaKontrolneListe.md) — dodeljevanje kontrolnih list procesnim verzijam ali operacijam
-- [Kontrolne liste](../Upravljanje/KontrolneListe.md) — ustvarjanje in upravljanje predlog kontrolnih list
-- [Kontrolne točke](../Upravljanje/KontrolneTocke.md) — definicija posameznih korakov kontrolne liste
+- [Kontrolne liste](../../Kvaliteta/Upravljanje/KontrolneListe.md) — ustvarjanje in upravljanje predlog kontrolnih list
+- [Kontrolne točke](../../Kvaliteta/Upravljanje/KontrolneTocke.md) — definicija posameznih korakov kontrolne liste

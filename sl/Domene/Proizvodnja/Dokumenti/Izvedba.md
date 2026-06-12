@@ -75,7 +75,7 @@ Kliknite **Premor**, da začasno ustavite operacijo. To **ne zaključi** proizvo
 
 ### Kontrolni seznami in kakovost
 
-Kontrolni seznami **[kontrolnih list](../Upravljanje/KontrolneListe.md)** zagotavljajo varnost in kakovost izdelkov. Če je za operacijo zahtevan kontrolni seznam, se samodejno prikaže ob pravem času (na začetku, med izvajanjem ali pred zaključkom).
+Kontrolni seznami **[kontrolnih list](../../Kvaliteta/Upravljanje/KontrolneListe.md)** zagotavljajo varnost in kakovost izdelkov. Če je za operacijo zahtevan kontrolni seznam, se samodejno prikaže ob pravem času (na začetku, med izvajanjem ali pred zaključkom).
 
 ![Kontrolni seznam kakovosti](../Images/ExecutionStep1Checklist.png "Kontrolni seznam kakovosti")
 

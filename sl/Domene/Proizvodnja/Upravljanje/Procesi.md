@@ -138,7 +138,7 @@ Vsaka operacija vključuje:
 
 ## Kvaliteta v verziji procesa
 
-Gumb **[Kvaliteta](KvalitetaKontrolneListe.md)** odpre konfiguracijsko stran za izbrano verzijo procesa ali operacijo. Ta stran omogoča dodelitev ene ali več **[kontrolnih list](KontrolneListe.md)**, ki določajo korake kontrole kakovosti med izvedbo.
+Gumb **[Kvaliteta](KvalitetaKontrolneListe.md)** odpre konfiguracijsko stran za izbrano verzijo procesa ali operacijo. Ta stran omogoča dodelitev ene ali več **[kontrolnih list](../../Kvaliteta/Upravljanje/KontrolneListe.md)**, ki določajo korake kontrole kakovosti med izvedbo.
 
 ![Gumb Kvaliteta verzije procesa](../Images/ProcessesVersionsQualityButton.png "Gumb Kvaliteta verzije procesa")
 

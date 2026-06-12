@@ -90,7 +90,7 @@ in proizvodne šifrante, potrebne za nemoteno delovanje.
 Na voljo so naslednje nastavitve in šifranti:
 
 - **[Konfiguracija](Upravljanje/KonfiguracijaProizvodnje.md)** – splošne nastavitve proizvodnje
-- **[Kontrolne liste](Upravljanje/KontrolneListe.md)** – kontrolni seznami za kakovost in procese
+- **[Kontrolne liste](../Kvaliteta/Upravljanje/KontrolneListe.md)** – kontrolni seznami za kakovost in procese
 - **[Oznake zastojev](Upravljanje/OznakeZastojev.md)** – klasifikacija razlogov za zastoje
 - **[Oznake klasifikacije slabega kosa](Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)** – standardne kategorije izgub
 - **[Sistematizacija delovnih mest](../../Skupno/Upravljanje/NaziviDelovnihMest.md)** – delovna mesta v proizvodnji

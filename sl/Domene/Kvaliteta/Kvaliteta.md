@@ -26,10 +26,11 @@ Za dostop do domene **Kvaliteta** se pomaknite na **Kvaliteta** v [navigaciji](.
 Domena je strukturirana v dve funkcionalni področji:
 
 - **Upravljanje** – konfiguracija in vzdrževanje definicij kontrolnih listov, ki se uporabljajo v proizvodnji in vzdrževanju.
-  - [**Kontrolne liste**](../Proizvodnja/Upravljanje/KontrolneListe.md) — upravljanje predlog kontrolnih listov (struktura, koraki, kriteriji in mejne vrednosti). Gre za isti šifrant, ki je na voljo v domeni [Proizvodnja](../Proizvodnja/Proizvodnja.md) in se tam tudi centralno vzdržuje.
+  - [**Kontrolne liste**](../Kvaliteta/Upravljanje/KontrolneListe.md) — upravljanje predlog kontrolnih listov (struktura, koraki, kriteriji in mejne vrednosti). Gre za isti šifrant, ki je na voljo v domenah[**Proizvodnja**](../Proizvodnja/Proizvodnja.md) in [**Vzdrževanje**](../Vzdrzevanje/Vzdrzevanje.md) in se tam tudi centralno vzdržuje.
+  - [**Merske enote**](../../Skupno/Upravljanje/MerskeEnote.md) — upravljanje merskih enot, ki se uporabljajo v kriterijih kontrolnih listov (npr. temperatura v °C, tlak v bar). Ta šifrant je del skupnih nastavitev in je dostopen tudi v drugih domenah.
 
 > [!NOTE]
-> Urejanje predlog kontrolnih listov se izvaja v proizvodnem šifrantu: [Kontrolni listi](../Proizvodnja/Upravljanje/KontrolneListe.md). Domena **Kvaliteta** se osredotoča na spremljanje aktivnih in zaključenih izvajanj.
+> Urejanje predlog kontrolnih listov se izvaja v proizvodnem šifrantu: [Kontrolni listi](../Kvaliteta/Upravljanje/KontrolneListe.md). Domena **Kvaliteta** se osredotoča na spremljanje aktivnih in zaključenih izvajanj.
 
 - **Pogledi** – upravljanje in analiza izvajanj kontrolnih listov v realnem času ter zgodovinskih podatkov.
   - [**Aktivne kontrolne liste**](Pregledi/AktivneKontrolneListe.md) — pregled vseh kontrolnih listov, ki so trenutno v teku ali čakajo na zaključek. Tipični stolpci vključujejo ime kontrolnega lista, proces/sredstvo, odgovorno osebo, čas začetka, rok in status. Pogosta dejanja: odpiranje zapisa, nadaljevanje izvajanja ali označitev kot zaključenega (glede na dovoljenja).

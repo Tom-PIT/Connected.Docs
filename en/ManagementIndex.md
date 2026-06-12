@@ -96,8 +96,8 @@ This index lists all management and configuration documentation across domains. 
 - [**Measure units**](Common/Management/MeasureUnits.md)
 
 ## Production and Maintenance
-- [**Check points**](Domains/Production/Management/CheckPoints.md)
-- [**Checklists**](Domains/Production/Management/Checklists.md)
+
+- [**Checklists**](Domains/Quality/Management/Checklists.md)
 - [**Downtime tags**](Domains/Production/Management/DowntimeTags.md)
 - [**Human resources**](Domains/Production/Management/HumanResources.md)
 - [**Inputs**](Domains/Production/Management/Inputs.md)
@@ -118,7 +118,8 @@ This index lists all management and configuration documentation across domains. 
 - [**Projects**](Domains/Projects/Management/ProjectsManagement.md)
 
 ## Quality
-- [**Checklists**](Domains/Production/Management/Checklists.md)
+- [**Checklists**](Domains/Quality/Management/Checklists.md)
+- [**Check points**](Domains/Quality/Management/CheckPoints.md)
 
 ## Resources
 - [**Availability plan types**](Domains/Resources/Management/AvailabilityPlanTypes.md)
