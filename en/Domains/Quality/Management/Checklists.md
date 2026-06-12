@@ -7,7 +7,7 @@
 
 Checklists are used across **Production** and **Maintenance** to define structured lists that support operational procedures and quality-control activities. This page allows users to create and categorize checklists used on the shop floor and in maintenance workflows.
 
-The individual steps inside a checklist — called **[Check points](Checkpoints.md)** — are managed separately.
+The individual steps inside a checklist — called **[Check points](CheckPoints.md)** — are managed separately.
 
 To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Checklists** in the [navigation](../../../Common/UI/Navigation.md).
 
@@ -63,7 +63,7 @@ To manage check points:
 
 This opens the **Check points** page, where you can add, edit, delete, and reorder check points.
 
-For detailed information, see **[Check points](Checkpoints.md)**.
+For detailed information, see **[Check points](CheckPoints.md)**.
 
 ## Edit a checklist
 

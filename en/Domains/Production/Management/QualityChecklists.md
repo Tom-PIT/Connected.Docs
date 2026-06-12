@@ -7,7 +7,7 @@ Operation level: open a process, select a version, click Operations, and then op
 
 # Quality — Execution checklists
 
-The **Quality** page allows you to link **[checklists](Checklists.md)** to either a **process version** or an **operation**. These checklists are used to enforce quality-control steps during production.
+The **Quality** page allows you to link **[checklists](../../Quality/Management/Checklists.md)** to either a **process version** or an **operation**. These checklists are used to enforce quality-control steps during production.
 
 To access this page, click the **Quality** button from:
 
@@ -18,7 +18,7 @@ To access this page, click the **Quality** button from:
   ![Quality button on operation](../Images/OperationsQualityButton.png)
 
 > [!NOTE]
-> Prepare the checklist first in the **[Checklists](Checklists.md)** code list. Only defined checklists can be linked here.
+> Prepare the checklist first in the **[Checklists](../../Quality/Management/Checklists.md)** code list. Only defined checklists can be linked here.
 
 > [!TIP]
 > For a full demonstration, see the **[Quality](https://www.youtube.com/watch?v=B2KX_UvDiCw)** video tutorial.

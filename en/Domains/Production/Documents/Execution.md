@@ -75,7 +75,7 @@ Press **Pause** to temporarily stop the operation. This does **not** finish prod
 
 ### Checklists and quality controls
 
-Quality [**checklists**](../Management/Checklists.md) help ensure safety and product quality. If a checklist is required for the operation, it appears automatically at the right moment (at start, during execution, or before completion).
+Quality [**checklists**](../../Quality/Management/Checklists.md) help ensure safety and product quality. If a checklist is required for the operation, it appears automatically at the right moment (at start, during execution, or before completion).
 
 ![Quality checklist](../Images/ExecutionStep1Checklist.png "Quality checklist")
 
