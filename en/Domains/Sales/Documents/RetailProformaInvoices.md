@@ -159,7 +159,7 @@ Retail proforma invoices can only be created manually.
 
 5. Save the details.
 
-6. Select a **Payment method** at the bottom of the document (optional).
+6. Select a **Payment method** at the bottom of the document.
    
    ![Retail proforma new bottom](../Images/RetailInvoiceNewBottom.png)
 

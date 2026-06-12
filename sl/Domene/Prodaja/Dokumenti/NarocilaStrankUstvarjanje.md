@@ -55,7 +55,7 @@ Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../
 
 Shranjena postavka:
 
-![Naročilo stranke – shranjena postavka](../Images/SalesOrdersNewDetailsSaved.png "Shranjena postavka")
+![Naročilo stranke – shranjena postavka](../Images/SalesOrdersNewDetailsSavedSL.png "Shranjena postavka")
 
 ### Intrastat postavke
 
@@ -82,7 +82,7 @@ Te vrednosti vplivajo na izpis dokumenta in nadaljnje logistične dokumente, ven
 
 Razdelek Alternativna valuta omogoča prikaz cen v dokumentu v valuti, ki se razlikuje od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se prevzemajo iz šifranta [**Menjalni tečaji**](../Upravljanje/MenjalniTecaji.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencySL.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo glede na določen menjalni tečaj.
 
@@ -90,7 +90,7 @@ Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo gl
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v dokumentu prikažeta dodatna razdelka.
 
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastatSL.png "Razdelka Transport in Intrastat")
 
 - **Transport** – uporablja se za zajem logističnih podatkov o dostavi blaga.
 - **Intrastat** – uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
@@ -104,7 +104,7 @@ Načini plačila so prikazani na dnu dokumenta.
 
 Kliknite **Dodaj način plačila**, da naročilu dodelite [način plačila](../Upravljanje/NacinPlacila.md). To polje je informativne narave in samo po sebi ne sproži finančnih transakcij. Uporablja se za interno spremljanje načina, kako namerava stranka poravnati naročilo.
 
-![Naročilo stranke – načini plačila](../Images/SalesOrdersNewBottom.png "Naročilo stranke – načini plačila")
+![Naročilo stranke – načini plačila](../Images/SalesOrdersNewBottomSL.png "Naročilo stranke – načini plačila")
 
 ### Priponke
 
