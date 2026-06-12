@@ -91,11 +91,11 @@ Kazalniki se samodejno posodabljajo glede na izbrane filtre (datumi dokumentov, 
 
 **Primer – Na voljo:**
 
-![Dobavnice na voljo](../Images/DeliveryNotesListAvailable.png "Dobavnice na voljo")
+![Dobavnice na voljo](../Images/DeliveryNotesListAvailableSL.png "Dobavnice na voljo")
 
 **Primer – Zaključeno:**
 
-![Zaključene dobavnice](../Images/DeliveryNotesListCompleted.png "Zaključene dobavnice")
+![Zaključene dobavnice](../Images/DeliveryNotesListCompletedSL.png "Zaključene dobavnice")
 
 
 ## Dejanja
@@ -107,11 +107,11 @@ Dobavnice je mogoče ustvariti na dva načina:
 - Iz seznama **Dobavnice** s klikom na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 - Iz **Naročila stranke** prek *Povezani dokumenti → + Dobavnica*.
 
-  ![Naročilo stranke → Dobavnica](../Images/DeliveryNoteLinkSalesOrder.png "Naročilo stranke → Dobavnica")
+  ![Naročilo stranke → Dobavnica](../Images/DeliveryNoteLinkSalesOrderSL.png "Naročilo stranke → Dobavnica")
 
 Primer praznega osnutka dobavnice:
 
-![Nova dobavnica](../Images/DeliveryNoteNew.png "Nova dobavnica")
+![Nova dobavnica](../Images/DeliveryNoteNewSL.png "Nova dobavnica")
 
 ### Urediti dobavnico
 
@@ -142,7 +142,7 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokume
 
 Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
 
-![Dobavnica – povezani dokumenti](../Images/DeliveryNoteLinkedDocuments.png "Dobavnica – povezani dokumenti")
+![Dobavnica – povezani dokumenti](../Images/DeliveryNoteLinkedDocumentsSL.png "Dobavnica – povezani dokumenti")
 
 > [!NOTE]
 > Razpoložljiva dejanja v razdelku **Povezani dokumenti** so odvisna od tipa in statusa dokumenta.
@@ -164,7 +164,7 @@ Razpoložljiva dejanja za dobavnice v statusu **Na voljo** vključujejo:
 
 Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencySL.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
@@ -172,7 +172,7 @@ Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z 
 
 Razdelek Transport določa, kako se blago dostavi stranki in pod kakšnimi dobavnimi pogoji.
 
-![Transport](../Images/SalesTransportSection.png "Transport")
+![Transport](../Images/SalesTransportSectionSL.png "Transport")
 
 Tukaj vneseni podatki se uporabljajo pri usklajevanju logistike, komunikaciji s stranko in na izpisih dokumentov.
 

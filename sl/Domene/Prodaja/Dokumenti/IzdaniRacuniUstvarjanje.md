@@ -18,7 +18,7 @@ Podprti izvorni dokumenti vključujejo:
 
 Ko je račun ustvarjen iz drugega dokumenta, sistem samodejno predizpolni večino podatkov, vključno s stranko, podatki o dostavi in postavkami.
 
-![Povezani dokumenti naročila stranke](../Images/SalesOrderCommittedLinkedDocuments.png "Povezani dokumenti potrjenega naročila stranke")
+![Povezani dokumenti naročila stranke](../Images/SalesOrderCommittedLinkedDocumentsSL.png "Povezani dokumenti potrjenega naročila stranke")
 
 ## Korak 1 — Ustvarjanje dokumenta
 
@@ -41,7 +41,7 @@ Izpolnite ključna polja v zgornjem delu obrazca računa. Pri ustvarjanju iz pov
 - [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md)
 - [**Način plačila**](../Upravljanje/NacinPlacila.md)
 
-![Nov račun – zgornji del](../Images/IssuedInvoicesNewTop.png "Nov račun – zgornji del")
+![Nov račun – zgornji del](../Images/IssuedInvoicesNewTopSL.png "Nov račun – zgornji del")
 
 ## Korak 3 — Dodajanje postavk
 
@@ -53,11 +53,11 @@ Za dodajanje nove postavke:
 2. Izberite želeno postavko s seznama.
 3. Prilagodite **količino**, **ceno**, **popust** ali **davčne podatke**, nato kliknite **Shrani**.
 
-![Urejanje postavke računa](../Images/IssuedInvoicesNewDetailsEditV2.png)
+   ![Urejanje postavke računa](../Images/IssuedInvoicesNewDetailsEditSL.png)
 
 4. Nadaljujte z dodajanjem poljubnega števila postavk. Po shranjevanju se postavka prikaže na seznamu:
 
-![Shranjena postavka računa](../Images/IssuedInvoicesNewBottom.png "Shranjena postavka računa")
+   ![Shranjena postavka računa](../Images/IssuedInvoicesNewBottomSL.png "Shranjena postavka računa")
 
 Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
@@ -82,7 +82,7 @@ Razpoložljivi konti so določeni v **[Kontnem načrtu](../../Racunovodstvo/Upra
 
 Razdelek **Alternativna valuta** omogoča prikaz cen v dokumentu v valuti, ki se razlikuje od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se prevzemajo iz šifranta [**Menjalni tečaji**](../Upravljanje/MenjalniTecaji.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencySL.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo glede na določen menjalni tečaj.
 
@@ -98,7 +98,7 @@ Te vrednosti vplivajo na natisnjen dokument in dokumente nadaljnje logistike, ve
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v dokumentu prikažeta dodatna razdelka.
 
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastatSL.png "Razdelka Transport in Intrastat")
 
 - **Transport** – uporablja se za zajem logističnih podatkov o dostavi blaga
 - **Intrastat** – uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje
@@ -134,7 +134,7 @@ Načini plačila so prikazani na dnu dokumenta.
 
 Kliknite **Dodaj način plačila**, da naročilu dodelite [način plačila](../Upravljanje/NacinPlacila.md). To polje je informativne narave in samo po sebi ne sproži nobenih finančnih transakcij. Uporablja se za interno sledenje, kako stranka namerava plačati naročilo.
 
-![Naročilo stranke – načini plačila](../Images/SalesOrdersNewBottom.png "Naročilo stranke – načini plačila")
+![Naročilo stranke – načini plačila](../Images/SalesOrdersNewBottomSL.png "Naročilo stranke – načini plačila")
 
 ## Korak 5 — Objava računa
 
