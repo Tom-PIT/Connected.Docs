@@ -112,11 +112,11 @@ Na vrhu seznama sistem prikazuje povzetne kazalnike glede na trenutno uporabljen
 
 **Osnutki:**
 
-![Naročila strank – Osnutki](../Images/SalesOrdersListDrafts.png "Naročila strank – Osnutki")
+![Naročila strank – Osnutki](../Images/SalesOrdersListDraftsSL.png "Naročila strank – Osnutki")
 
 **Na voljo (potrjena):**
 
-![Naročila strank – Na voljo](../Images/SalesOrdersListAvailable.png "Naročila strank – Na voljo")
+![Naročila strank – Na voljo](../Images/SalesOrdersListAvailableSL.png "Naročila strank – Na voljo")
 
 Filtri vključujejo:
 - **Datumi dokumentov**
@@ -151,7 +151,7 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokume
 
 Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
 
-![Naročilo stranke – povezani dokumenti](../Images/SalesOrdersLinkedDocuments.png "Naročilo stranke – povezani dokumenti")
+![Naročilo stranke – povezani dokumenti](../Images/SalesOrdersLinkedDocumentsSL.png "Naročilo stranke – povezani dokumenti")
 
 > [!NOTE]
 > Razpoložljiva dejanja v razdelku **Povezani dokumenti** so odvisna od tipa in statusa dokumenta.
@@ -174,7 +174,7 @@ Ko je osnutek pripravljen, kliknite **Objavi** na vrhu strani, da potrdite naro�
 > [!NOTE]
 > Ko kliknete **Objavi**, se dokument potrdi in premakne iz stanja **Osnutek** v skupino stanj **Obdelan**.
 
-![Naročila strank – Na voljo](../Images/SalesOrdersListAvailable.png)
+![Naročila strank – Na voljo](../Images/SalesOrdersListAvailableSL.png)
 
 Zaključevanje naročila stranke ima naslednje učinke:
 
@@ -189,7 +189,7 @@ Zaključevanje naročila stranke ima naslednje učinke:
 
 Ko je potrjeno naročilo stranke zaključeno, na primer po izdaji [**dobavnice**](Dobavnice.md) ali [**izdanega računa**](IzdaniRacuni.md), kliknite **Zaključi**:
 
-![Gumb Zaključi naročilo stranke](../Images/SalesOrdersCompleteButton.png "Gumb Zaključi naročilo stranke")
+![Gumb Zaključi naročilo stranke](../Images/SalesOrdersCompleteButtonSL.png "Gumb Zaključi naročilo stranke")
 
 ### Brisati naročilo stranke
 

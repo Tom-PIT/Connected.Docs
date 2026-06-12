@@ -23,7 +23,7 @@ Ustvarite nov osnutek naročila stranke na enega od naslednjih načinov:
 - Neposredno na zaslonu **Naročila strank** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md)
 - Iz potrjene [**Ponudbe**](Ponudbe.md) prek **Povezani dokumenti → + Naročilo stranke**. V tem primeru se večina polj — kot so stranka, podatki o dostavi in postavke — samodejno izpolni na podlagi ponudbe.
 
-![Ustvari naročilo stranke iz ponudbe](../Images/SalesOrdersOfferLink.png "Ustvari naročilo stranke iz ponudbe")
+![Ustvari naročilo stranke iz ponudbe](../Images/SalesOrdersOfferLinkSL.png "Ustvari naročilo stranke iz ponudbe")
 
 ## Korak 2 — Izpolnjevanje glave dokumenta
 
@@ -33,19 +33,17 @@ Vnesite ali preverite naslednja polja:
 - **Datum dokumenta**
 - **Datum dobave**
 
-![Naročilo stranke – glava dokumenta](../Images/SalesOrdersNewTop.png "Naročilo stranke – glava dokumenta")
+![Naročilo stranke – glava dokumenta](../Images/SalesOrdersNewTopSL.png "Naročilo stranke – glava dokumenta")
 
 ## Korak 3 — Dodajanje postavk
 
 Dodajte postavke v razdelek **Postavke**. Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali artikel.
 
-![Naročilo stranke – dodaj postavko](../Images/SalesOrdersNewDetailsV2.png "Naročilo stranke – dodaj postavko")
-
 Za dodajanje nove postavke:
 
 1. Vnesite ali skenirajte **serijsko številko**, **EAN** ali **naziv materiala** v vrstico Postavke. Sistem prikaže vse ujemajoče se artikle in serijske številke. Če obstaja več zadetkov, izberite pravilnega s seznama.
 
-   ![Naročilo stranke – dodaj postavko](../Images/SalesOrdersNewDetails.png)
+   ![Naročilo stranke – dodaj postavko](../Images/SalesOrdersNewDetailsSL.png)
 
 2. Po potrebi prilagodite **Količino**, **Datum dobave** ali druga polja.
 3. Kliknite **Shrani**, da potrdite dodane postavke.
