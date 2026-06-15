@@ -50,7 +50,7 @@ Seznam prikazuje vse operacije, definirane znotraj izbrane verzije procesa. Vsak
   - **[Stroški](StroskiOperacije.md)** – stroški, povezani z operacijo  
   - **[Kvaliteta](KvalitetaKontrolneListe.md)** – dodeljene kontrolne liste in zahteve kakovosti  
 
-![Seznam operacij](../Images/OperationsListV2.png "Seznam operacij")
+![Seznam operacij](../Images/OperationsListSL.png "Seznam operacij")
 
 Uporabite polje **Iskanje** za filtriranje operacij po nazivu ali šifri.
 
@@ -61,12 +61,12 @@ Uporabite polje **Iskanje** za filtriranje operacij po nazivu ali šifri.
    - **Po predlogi** – če so predloge na voljo v [**Predlogah za operacije**](PredlogeZaOperacije.md#uporaba-predlog-pri-ustvarjanju-operacij)
    - **Kopiraj obstoječo**
 
-   ![Akcijski gumb operacije](../Images/OperationsActionButton.png)
+   ![Akcijski gumb operacije](../Images/OperationsActionButtonSL.png)
 
 2. Izpolnite polja:
 
-   ![Operacija – novo (zgoraj)](../Images/OperationsNewTop.png "Operacija – novo (zgoraj)")  
-   ![Operacija – novo (spodaj)](../Images/OperationsNewBottom.png "Operacija – novo (spodaj)")
+   ![Operacija – novo (zgoraj)](../Images/OperationsNewTopSL.png "Operacija – novo (zgoraj)")  
+   ![Operacija – novo (spodaj)](../Images/OperationsNewBottomSL.png "Operacija – novo (spodaj)")
 
 3. Kliknite **Dodaj**, da ustvarite operacijo.
 
@@ -99,7 +99,7 @@ Vsaka operacija vsebuje več podstrani, vsaka s svojim seznamom in zasloni. Ti s
 
 Do njih dostopate iz vnosa operacije:
 
-![Gumbi podrobnosti operacije](../Images/ProcessesOperationsListDetailV2.png "Gumbi podrobnosti operacije")
+![Gumbi podrobnosti operacije](../Images/ProcessesOperationsListDetailSLV2.png "Gumbi podrobnosti operacije")
 
 ## Izbrisati operacijo
 

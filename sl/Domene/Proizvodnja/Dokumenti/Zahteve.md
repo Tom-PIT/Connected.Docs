@@ -31,7 +31,7 @@ Do strani dostopate prek **Proizvodnja / Zahteve** v [navigaciji](../../../Skupn
 
 Vsaka vrstica predstavlja **zahtevo po materialu**, izračunano na podlagi vhodov, definiranih v procesih in proizvodnih nalogih.
 
-![Seznam zahtev](../Images/RequirementsList.png "Pregled zahtev")
+![Seznam zahtev](../Images/RequirementsListSL.png "Pregled zahtev")
 
 ### Filtri
 
@@ -47,7 +47,7 @@ V izračun so vključeni samo materiali, ki jih zahtevajo operacije znotraj izbr
 
 Kliknite puščico za razširitev ob materialu, da prikažete vse operacije, ki ga uporabljajo:
 
-![Razširjena zahteva](../Images/RequirementsExpandedLine.png "Razširjene zahteve materiala")
+![Razširjena zahteva](../Images/RequirementsExpandedLineSL.png "Razširjene zahteve materiala")
 
 Za vsako operacijo so prikazani:
 

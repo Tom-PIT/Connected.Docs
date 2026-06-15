@@ -16,20 +16,20 @@ Za dostop do te strani pojdite na **Proizvodnja / Upravljanje / Oznake klasifika
 
 | Polje | Opis |
 |------|------|
-| **Naziv** | Naziv kategorije slabega kosa (npr. Kozmetična napaka, Poškodba pri rokovanju) *(obvezno)*. |
+| **Naziv** | Naziv kategorije slabega kosa (npr. Kozmetična napaka, Poškodba pri rokovanju) (obvezno). |
 
 ## Seznamski prikaz
 
 Seznam prikazuje vse oznake klasifikacije slabega kosa, definirane v sistemu. Za hitro filtriranje po nazivu uporabite iskalno polje **Iskanje**.
 
-![Seznam oznak klasifikacije slabega kosa](../Images/LossClassificationTags.png)
+![Seznam oznak klasifikacije slabega kosa](../Images/LossClassificationTagsSL.png)
 
 ## Ustvariti novo oznako klasifikacije slabega kosa
 
 1. Kliknite akcijski gumb v spodnjem desnem kotu.
 2. Vnesite **Naziv** kategorije slabega kosa.
 
-   ![Dodajanje oznake klasifikacije slabega kosa](../Images/LossClassificationTagsNew.png "Dodajanje oznake klasifikacije slabega kosa")
+   ![Dodajanje oznake klasifikacije slabega kosa](../Images/LossClassificationTagsNewSL.png "Dodajanje oznake klasifikacije slabega kosa")
 
 3. Kliknite **Dodaj**, da shranite novo oznako.
 

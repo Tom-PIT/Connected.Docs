@@ -10,7 +10,7 @@ Stroski predstavljajo dodatne **stroške**, ki se uporabljajo za **operacijo** z
 
 Za dostop do te strani odprite različico procesa iz **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite [**Operacije**](Operacije.md), nato izberite **Stroski** za določeno operacijo.
 
-![Stroški gumb](../Images/OperationExpensesButtonSL.png "Stroški gumb")
+![Stroški gumb](../Images/OperationExpensesButtonSLV2.png "Stroški gumb")
 
 ## Shema
 
@@ -24,14 +24,14 @@ Za dostop do te strani odprite različico procesa iz **Proizvodnja / Upravljanje
 
 Seznam prikazuje vse stroške, povezane z izbrano operacijo. Vsaka vrstica prikazuje ime stroška, vrsto izračuna in znesek.
 
-![Seznam stroškov](../Images/OperationExpensesList.png "Seznam stroškov")
+![Seznam stroškov](../Images/OperationExpensesListSL.png "Seznam stroškov")
 
 ## Dodati nov strošek   
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 2. Izpolnite obvezna polja.
 
-    ![Dodaj strošek](../Images/OperationExpensesNew.png "Dodaj strošek")
+    ![Dodaj strošek](../Images/OperationExpensesNewSL.png "Dodaj strošek")
 
 3. Kliknite **Dodaj** za shranjevanje stroška.
 

@@ -26,7 +26,7 @@ Na tem zaslonu lahko pregledujete, dodajate in urejate delovna mesta, ki se upor
 
 Seznam prikazuje vsa evidentirana delovna mesta z njihovim **Nazivom** in **Šifro**.
 
-![Seznam delovnih mest](../Images/JobPositionsList.png)
+![Seznam delovnih mest](../Images/JobPositionsListSL.png)
 
 Vsak zapis ima na levi strani indikator stanja:
 - **Modra** barva pomeni, da je delovno mesto aktivno  
@@ -51,7 +51,7 @@ Izpolnite zahtevana polja:
 - **Opis** (neobvezno)  
 - **Aktiven**  
 
-![Novo delovno mesto](../Images/JobPositionsNew.png)
+![Novo delovno mesto](../Images/JobPositionsNewSL.png)
 
 Kliknite **Dodaj**, da shranite novo delovno mesto.
 

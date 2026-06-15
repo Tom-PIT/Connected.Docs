@@ -29,7 +29,7 @@ Ta zaslon uporabite za ogled, dodajanje, urejanje in brisanje skladiščnih loka
 
 Seznam prikazuje **Organizacijsko enoto**, **Skladiščno lokacijo** in **Tip povezave**. Za iskanje zapisov uporabite iskalno polje v glavi.
 
-![Seznam skladiščnih lokacij](../Images/WarehouseLocationsList.png)
+![Seznam skladiščnih lokacij](../Images/WarehouseLocationsListSL.png)
 
 Kliknite ime **Organizacijske enote**, da odprete obrazec za urejanje zapisa.
 
@@ -39,13 +39,11 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da prikažete nasl
 - **Uvoz**
 - **Novo**
 
-![Meni akcijskega gumba](../Images/WarehouseLocationsActions.png)
-
 ### Uvoziti skladiščne lokacije
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz** za množično ustvarjanje zapisov.
 
-![Uvoz skladiščnih lokacij](../Images/WarehouseLocationsImport.png)
+![Uvoz skladiščnih lokacij](../Images/WarehouseLocationsImportSL.png)
 
 ### Ustvariti novo skladiščno lokacijo
 
@@ -58,7 +56,7 @@ Izpolnite polja na obrazcu:
 - [**Skladiščna lokacija**](../../Logistika/Upravljanje/Lokacije.md)
 - **Tip povezave** — izberite **Vhod** ali **Izhod**
 
-![Nova skladiščna lokacija](../Images/WarehouseLocationsNew.png)
+![Nova skladiščna lokacija](../Images/WarehouseLocationsNewSL.png)
 
 Kliknite **Dodaj**, da shranite zapis.
 
@@ -77,7 +75,7 @@ Kliknite ime lokacije v seznamu, da odprete obrazec za urejanje. Polja se obnaš
 
 Validacija preprečuje neveljavne kombinacije, v skladu s pravili, opisanimi pri ustvarjanju novega zapisa.
 
-![Urejanje skladiščne lokacije](../Images/WarehouseLocationsEdit.png)
+![Urejanje skladiščne lokacije](../Images/WarehouseLocationsEditSL.png)
 
 ## Izbrisati skladiščno lokacijo
 

@@ -12,7 +12,7 @@ Ta pogled se odpre s klikom na **vrednost stroška** v stolpcu **Strošek** na z
 
 Stran prikazuje podrobno razčlenitev, kako je izračunan skupni strošek proizvodnje, vključno z materiali, delom in dodatnimi stroški.
 
-![Version cost view](../Images/VersionCostViewSL.png "Version cost view")
+![Version cost view](../Images/VersionCostViewV2SL.png "Version cost view")
 
 ## Povzetek stroška
 

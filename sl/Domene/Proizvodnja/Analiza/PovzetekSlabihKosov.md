@@ -9,7 +9,7 @@ Pogled **Povzetek slabih kosov** prikazuje pregled slabih oziroma neuporabnih ko
 
 Do pogleda dostopate prek **Proizvodnja / Analiza / Povzetek slabih kosov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Povzetek slabih kosov](../Images/LossSummaryView.png)
+![Povzetek slabih kosov](../Images/LossSummaryViewSL.png)
 
 ## Filtri
 

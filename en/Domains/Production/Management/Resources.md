@@ -85,7 +85,7 @@ Examples:
 
 Selecting an item shows its details and the Edit form.
 
-![Resources list](../Images/ResourcesListEditV2.png "Resources list")
+![Resources list](../Images/ResourcesListEditV3.png "Resources list")
 
 ## Create a new resource
 

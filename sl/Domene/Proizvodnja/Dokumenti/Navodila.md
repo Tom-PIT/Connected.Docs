@@ -6,7 +6,7 @@
 
 # Navodila
 
-Aktivnost **Navodila** prikazuje članke iz baze znanja, ki so povezani s trenutno operacijo (npr. koraki sestave, varnostna navodila, vizualni prikazi). Namenjena je hitremu pregledu navodil med delom.
+Aktivnost **Navodila** prikazuje članke iz baze znanja, povezane s trenutno operacijo, procesom ali organizacijsko enoto. Namenjena je hitremu pregledu navodil med delom.
 
 **Navodila** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire aktivnosti (tapnite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Navodila**).
 
@@ -14,10 +14,22 @@ Aktivnost **Navodila** prikazuje članke iz baze znanja, ki so povezani s trenut
 
 1. Odprite stran **Navodila** prek [**menija aktivnosti v Izvedbi**](Izvedba.md#akcijski-meni-in-aktivnosti).
 
-   ![Navodila operacije](../Images/ExecutionInstructions.png "Navodila operacije")
+   ![Navodila operacije](../Images/ExecutionInstructionsSL.png "Navodila operacije")
 
 2. Preberite vsebino, povečajte slike in sledite navodilom.  
 3. Ko končate, se vrnite na zaslon [**Izvedba**](Izvedba.md) prek akcijskega gumba → **Proizvedeno**.
+
+## Vrste navodil
+
+Na voljo so različne vrste navodil, ki se prikazujejo v ločenih zavihkih:
+
+- **Navodila operacije** – navodila, povezana s trenutno operacijo (npr. koraki dela, nastavitve stroja ali zahteve za posamezno operacijo).
+- **Navodila procesa** – navodila, ki veljajo za celoten proizvodni proces.
+- **Navodila org. enota** – navodila, povezana z organizacijsko enoto, v kateri se operacija izvaja.
+
+Vsaka vrsta navodil se upravlja ločeno in lahko vsebuje različne članke iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md).
+
+![Vrste navodil](../Images/ExecutionInstructionTypesSL.png "Vrste navodil")
 
 ## Tipična vsebina
 
@@ -34,5 +46,6 @@ Aktivnost **Navodila** prikazuje članke iz baze znanja, ki so povezani s trenut
 
 ## Urediti in posodobiti navodila
 
-Vsebina navodil za posamezno operacijo se upravlja v nastavitvah operacije.  
-Za posodobitev odprite [**Operacije**](../Upravljanje/Procesi.md) in v polju **Članek** povežite ustrezno vsebino iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md).
+Vsebina navodil se lahko upravlja na ravni operacije, procesa ali organizacijske enote.
+
+Za posodobitev navodil povežite ustrezne članke iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md) v konfiguraciji [operacije](../Upravljanje/Operacije.md), [procesa](../Upravljanje/Procesi.md) ali [organizacijske enote](../Upravljanje/OrganizacijskeEnote.md).

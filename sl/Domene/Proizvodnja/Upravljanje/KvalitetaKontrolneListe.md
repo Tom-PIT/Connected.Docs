@@ -35,15 +35,15 @@ Do te strani dostopate s klikom na gumb **Kakovost** iz:
 
 Ob odprtju stran **Kakovost** prikaže vse kontrolne liste, ki so že povezane z izbrano različico procesa ali operacijo.
 
-![Seznam kakovosti](../Images/QualityList.png)
+![Seznam kakovosti](../Images/QualityListSL.png)
 
 Zaporedje lahko spreminjate z urejanjem vrednosti **Vrstni red**.
 
-## Dodati nove kakovosti
+## Dodati nove kvaliteto
 
-1. Kliknite akcijski gumb in izberite **Dodaj kvaliteto**.
+1. Kliknite akcijski gumb da se odpre obrazec za dodajanje nove kvalitete.
 
-   ![Nova kakovost](../Images/QualityNew.png "Nov zapis kakovosti")
+   ![Nova kakovost](../Images/QualityNewSL.png "Nov zapis kakovosti")
 
 2. Izberite **Kontrolno listo** in **Način**:
    - **Na začetku**: Kontrolna lista se prikaže ob začetku operacije.
@@ -55,7 +55,7 @@ Zaporedje lahko spreminjate z urejanjem vrednosti **Vrstni red**.
    - **Ročno**: Kontrolna lista se odpre in izpolni ročno iz aktivnosti **Kakovost**.
    - **Vsake n enot**: Kontrolna lista se prikaže periodično glede na število proizvedenih enot (zahteva nastavitev **Periode**).
 
-   ![Načini kakovosti](../Images/QualityNewModes.png "Način kontrolne liste")
+   ![Načini kakovosti](../Images/QualityNewModesSL.png "Način kontrolne liste")
 
 3. Kliknite **Dodaj**.
 

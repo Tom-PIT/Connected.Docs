@@ -9,7 +9,7 @@ Stran **Zastoji organizacijskih enot** prikazuje podroben seznam vseh zabeležen
 
 Do strani dostopate prek **Proizvodnja / Analiza / Zastoji organizacijskih enot** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Zastoji organizacijskih enot](../Images/OrganizationUnitDowntimeView.png "Zastoji organizacijskih enot")
+![Zastoji organizacijskih enot](../Images/OrganizationUnitDowntimeViewSL.png "Zastoji organizacijskih enot")
 
 ## Filtri
 

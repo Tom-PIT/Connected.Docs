@@ -23,7 +23,7 @@ Seznam prikazuje vse oznake zastojev, definirane v sistemu.
 - Polje **Iskanje** omogoča filtriranje po nazivu.
 - **Neplanirani** zastoji so vizualno označeni z rdečim indikatorjem.
 
-![Seznam oznak zastojev](../Images/DowntimeTagsList.png)
+![Seznam oznak zastojev](../Images/DowntimeTagsListSL.png)
 
 ## Dodati novo oznako zastoja
 
@@ -32,7 +32,7 @@ Seznam prikazuje vse oznake zastojev, definirane v sistemu.
    - **Naziv** – razlog zastoja  
    - **Planiran** – označite, če gre za planiran zastoj (npr. preventivno vzdrževanje)
 
-   ![Nova oznaka zastoja](../Images/DowntimeTagsNew.png "Nova oznaka zastoja")
+   ![Nova oznaka zastoja](../Images/DowntimeTagsNewSL.png "Nova oznaka zastoja")
 
 3. Kliknite **Dodaj**, da shranite oznako.
 

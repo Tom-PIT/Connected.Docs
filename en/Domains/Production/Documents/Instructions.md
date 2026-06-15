@@ -6,7 +6,7 @@
 
 # Instructions
 
-The **Instructions** activity displays articles from the knowledge base attached to the current operation (e.g., assembly steps, safety notes, visuals). Use it to quickly review guidance while working.
+The **Instructions** activity displays knowledge base articles associated with the current operation, process, or organizational unit. Use it to quickly review guidance while working.
 
 Open **Instructions** from the [**Execution**](Execution.md) screen via the activity selection menu (tap the [action button](../../../Common/UI/ActionButton.md), then choose **Instructions**).
 
@@ -14,10 +14,22 @@ Open **Instructions** from the [**Execution**](Execution.md) screen via the acti
 
 1. Open the **Instructions** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).  
 
-   ![Instructions](../Images/ExecutionInstructions.png "Operation instructions")
+   ![Instructions](../Images/ExecutionInstructionsV2.png "Operation instructions")
 
 4. Read, zoom images, and follow the guidance.  
 5. Return to the [**Execution**](Execution.md) screen via Action button → Produced when done. 
+
+## Types of instructions
+
+Different types of instructions are available through separate tabs:
+
+- **Instructions operation** – instructions specific to the current operation, such as work steps, machine settings, or operation-specific requirements.
+- **Instructions process** – instructions that apply to the entire production process.
+- **Instructions organization unit** – instructions associated with the organizational unit where the operation is being performed.
+
+Each instruction type is managed independently and can contain different articles from the [**Knowledge base**](../../Knowledge/KnowledgeBase/KnowledgeBase.md).
+
+![Instruction types](../Images/ExecutionInstructionTypes.png "Instruction types")
 
 ## Typical content
 
@@ -33,6 +45,8 @@ Instruction articles may include:
 
 ## Edit and update instructions
 
-Instruction content for a specific operation is managed in the operation setup. To update it, open [Operations](../Management/Operations.md) and use the **Article** field to link existing [knowledge base](../../Knowledge/KnowledgeBase/KnowledgeBase.md) content.
+Instruction content can be managed at the operation, process, or organizational unit level.
+
+To update instructions, link the appropriate articles from the [**Knowledge base**](../../Knowledge/KnowledgeBase/KnowledgeBase.md) in the configuration of the [operation](../Management/Operations.md), [process](../Management/Processes.md), or [organizational unit](../Management/OrganizationUnits.md).
 
 

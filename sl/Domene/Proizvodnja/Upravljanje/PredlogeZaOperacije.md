@@ -33,7 +33,7 @@ Stran prikazuje vse obstoječe predloge za operacije, skupaj z:
 - **Opisom**
 - **Oznakami**
 
-![Seznam predlog za operacije](../Images/ProtocolOperationInstanceTemplateList.png)
+![Seznam predlog za operacije](../Images/ProtocolOperationInstanceTemplateListSL.png)
 
 Klik na posamezno vrstico odpre predlogo za urejanje.
 
@@ -50,7 +50,7 @@ Klik na posamezno vrstico odpre predlogo za urejanje.
    - **Članek** (neobvezno)
    - **Oznake**
 
-![Nova predloga za operacijo](../Images/ProtocolOperationInstanceTemplateNew.png "Nova predloga za operacijo")
+![Nova predloga za operacijo](../Images/ProtocolOperationInstanceTemplateNewSL.png "Nova predloga za operacijo")
 
 3. Kliknite **Dodaj**, da shranite predlogo.
 
@@ -74,10 +74,10 @@ Postopek:
 
 1. Odprite želeno **proces in verzijo**
 2. Pojdite na **Operacije**
-3. Kliknite akcijski gumb → **Po predlogi**
+3. Kliknite akcijski gumb → **Iz predloge**
 4. Izberite predlogo v spustnem seznamu **Predloga operacije**
 
-![Izbira predloge operacije](../Images/ProtocolOperationInstanceTemplateNewOperation.png)
+![Izbira predloge operacije](../Images/ProtocolOperationInstanceTemplateNewOperationSL.png)
 
 Sistem samodejno izpolni vnaprej definirana polja, ki jih lahko po potrebi še prilagodite.
 

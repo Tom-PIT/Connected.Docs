@@ -36,6 +36,7 @@ To access this page, go to **Production / Management / Processes** in the [navig
 | [**Code**](../../../Common/UI/DocumentCodes.md) | Automatically generated version code (read-only). |
 | **Name** | Version name (mandatory). |
 | **Description** | Optional additional details about the version. |
+| **Article** | Optional link to a specific instruction article from the [**Knowledge base**](../../Knowledge/KnowledgeBase/KnowledgeBase.md). |
 
 ## List view
 
