@@ -100,6 +100,17 @@ Z izbiro elementa v drevesu se prikažejo njegove podrobnosti in obrazec za urej
 >
 > ![Vozila v potnih nalogih](../Images/ResourcesVehiclesSL.png)
 
+> [!TIP]
+> Nečloveškim virom lahko prek polja **Članek** dodelite članek iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md).
+>
+> To omogoča povezovanje:
+>
+> - Navodil za uporabo
+> - Vzdrževalnih postopkov
+> - Varnostnih navodil
+> - Uporabniških priročnikov
+> - Tehnične dokumentacije
+
 ## Urediti vir
 
 1. Kliknite vir v drevesnem pogledu.

@@ -102,6 +102,16 @@ Selecting an item shows its details and the Edit form.
 >
 > ![Travel Orders Vehicles](../Images/ResourcesVehicles.png)
 
+> [!TIP]
+> Non-human resources can be linked to a **[Knowledge base article](../../Knowledge/KnowledgeBase/KnowledgeBase.md)** using the **Article** field.
+>
+> This can be used to provide:
+>
+> - Operating instructions
+> - Maintenance procedures
+> - Safety guidelines
+> - User manuals
+> - Technical documentation
 
 ## Edit a resource
 
