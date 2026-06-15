@@ -111,7 +111,7 @@ Vsaka vrstica prikazuje:
 - Datum dokumenta  
 - Znesek dokumenta  
 
-![Seznam predračunov](../Images/ProformaInvoiceList.png "Seznam predračunov")
+![Seznam predračunov](../Images/ProformaInvoiceListSL.png "Seznam predračunov")
 
 Osnutke je mogoče urejati, potrjeni predračuni pa so dokončni, razen če so stornirani.
 
@@ -125,7 +125,7 @@ Predračune je mogoče ustvariti na dva načina:
 - Iz potrjene **[Ponudbe](Ponudbe.md)** prek **Povezani dokumenti → + Predračun**.  
   V tem primeru se večina polj samodejno izpolni.
 
-![Povezani dokumenti ponudbe](../Images/OfferPublishedLinkedDocuments.png)
+![Povezani dokumenti ponudbe](../Images/OfferPublishedLinkedDocumentsSL.png)
 
 Koraki:
 
@@ -138,17 +138,17 @@ Koraki:
    - **Tip reference / Sklic**  
    - **Bančni račun organizacije**
 
-   ![Nov predračun – zgornji del](../Images/ProformaInvoiceNewTop.png "Nov predračun – zgornji del")
+   ![Nov predračun – zgornji del](../Images/ProformaInvoiceNewTopSL.png "Nov predračun – zgornji del")
 
 3. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **serijske številke**, **EAN** ali **naziva sredstva**.
 
-   ![Urejanje postavk predračuna](../Images/ProformaInvoiceNewDetailsEdit.png "Urejanje postavk predračuna")
+   ![Urejanje postavk predračuna](../Images/ProformaInvoiceNewDetailsEditSL.png "Urejanje postavk predračuna")
 
    Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 4. Shranite postavko.
 
-   ![Shranjena postavka predračuna](../Images/ProformaInvoiceNewDetailsSaved.png "Shranjena postavka predračuna")
+   ![Shranjena postavka predračuna](../Images/ProformaInvoiceNewDetailsSavedSL.png "Shranjena postavka predračuna")
 
 5. Ko je dokument pripravljen, kliknite **Objavi**.
 
@@ -190,7 +190,7 @@ Pogosta dejanja:
 > [!NOTE]
 > Razpoložljiva dejanja so odvisna od statusa dokumenta.
 
-![Povezani dokumenti predračuna](../Images/ProformaInvoiceLinkedDocuments.png)
+![Povezani dokumenti predračuna](../Images/ProformaInvoiceLinkedDocumentsSL.png)
 
 #### Alternativna valuta
 
@@ -273,7 +273,7 @@ Meni dokumenta omogoča naslednja dejanja:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek** (če sistemska pravila dovoljujejo)
 
-![Meni predračuna](../Images/PrepaymentsMenu.png)
+![Meni predračuna](../Images/PrepaymentsMenuSL.png)
 
 Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 

@@ -63,3 +63,14 @@ All amounts are calculated based on the [**Sales orders**](../Documents/SalesOrd
 - The view is intended for **analysis only** and does not support actions such as editing, reversing, or creating documents.
 
 For detailed document-level information, open the related [**Sales orders**](../Documents/SalesOrders.md) directly from the **Sales / Documents / Sales orders** section.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export cumulative PDF** - aggregates quantities and amounts into totals.
+- **Export detail PDF** - exports the details of each sales order separately.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

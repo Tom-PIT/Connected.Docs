@@ -53,3 +53,16 @@ This view is useful for:
 
 It complements the **Sales orders** document screen by focusing on **items**, not documents.
 
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export cumulative report in CSV** - aggregates quantities and amounts into totals.
+- **Export detail report in CSV** - exports the details of each sales order item separately.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+
+
+
