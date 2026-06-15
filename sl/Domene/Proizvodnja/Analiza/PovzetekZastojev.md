@@ -9,7 +9,7 @@ Stran **Povzetek zastojev** nudi pregled zabeleženih proizvodnih zastojev v izb
 
 Do strani dostopate preko **Proizvodnja / Analiza / Povzetek zastojev** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Povzetek zastojev](../Images/DowntimeSummaryView.png "Povzetek zastojev")
+![Povzetek zastojev](../Images/DowntimeSummaryViewSL.png "Povzetek zastojev")
 
 > [!TIP]
 > Za celoten prikaz si oglejte video vodič **[Povzetek zastojev](https://www.youtube.com/watch?v=IdEsZkN2Wv0)**.
@@ -22,7 +22,7 @@ Določa način združevanja podatkov o zastojih:
 - **Število** — število zabeleženih zastojev
 - **Trajanje** — skupno trajanje zastojev
 
-![Filter tipa](../Images/DowntimeSummaryType.png "Filter tipa")
+![Filter tipa](../Images/DowntimeSummaryTypeSL.png "Filter tipa")
 
 ### Od / Do
 Izberite časovno obdobje, za katerega želite prikaz zastojev.
@@ -51,14 +51,14 @@ Na dnu strani je podroben seznam, ki prikazuje:
 
 ## Primer
 
-![Primer povzetka zastojev](../Images/DowntimeSummaryExample.png "Primer povzetka zastojev")
+![Primer povzetka zastojev](../Images/DowntimeSummaryExampleSL.png "Primer povzetka zastojev")
 
 V zgornjem primeru:
 - izbran je način **Trajanje**
 - skupni čas zastojev v izbranem obdobju znaša **52 min 13 s**
 - povprečno trajanje posameznega zastoja je **17 min 24 s**
 - zastoji so razdeljeni na tri tipe:
-  - **Čiščenje** — **25 min 52 s**
-  - **Električna okvara** — **13 min 37 s**
-  - **Okvara stroja** — **12 min 42 s**
+  - **Čiščenje (Cleaning)** — **25 min 52 s**
+  - **Električna okvara (Electrical Failure)** — **13 min 37 s**
+  - **Okvara stroja (Machine Failure)** — **12 min 42 s**
 - graf in seznam prikazujeta enako razčlenitev po tipih zastojev (vključno s kumulativnim odstotkom)

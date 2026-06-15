@@ -14,7 +14,7 @@ Med izvedbo se zahtevane kontrolne liste samodejno prikažejo ob ustreznem trenu
 
 ## Kontrolne liste kakovosti
 
-![Kontrolna lista kakovosti](../Images/ExecutionQualityScreen.png)
+![Kontrolna lista kakovosti](../Images/ExecutionQualityScreenSL.png)
 
 Pri vsaki kontrolni listi je prikazana barva stanja:
 

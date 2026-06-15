@@ -20,11 +20,12 @@ Za dostop do dokumentov **Organizacijske enote** pojdite na **Proizvodnja / Upra
 | Polje | Opis |
 |------|------|
 | [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Enolična šifra organizacijske enote (sistemsko generirana). |
-| **Naziv** (obvezno) | Prikazno ime organizacijske enote. |
+| **Naziv** | Prikazno ime organizacijske enote (obvezno). |
 | **Opis** | Kratek opis odgovornosti ali področja delovanja enote. |
 | **Vrstni red** | Celo število za določanje vrstnega reda v seznamih. |
 | **Oznake** | Neobvezne oznake za kategorizacijo (npr. Proizvodnja, Vzdrževanje). |
 | **Nadrejen** | Neobvezna nadrejena organizacijska enota (hierarhija). |
+| **Članek** | Neobvezna povezava do določenega članka z navodili iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md. |
 | **Omogočeno** | Stikalo za vklop ali izklop organizacijske enote. Onemogočene enote se ne uporabljajo v novih potekih dela. |
 
 ## Upravljanje
@@ -35,13 +36,13 @@ Ta pogled omogoča ogled, dodajanje in urejanje organizacijskih enot, ki se upor
 
 Seznam prikazuje **šifro** in **naziv** organizacijske enote ter njene oznake in vrednost **vrstnega reda**. Za iskanje zapisov uporabite iskalno polje v glavi seznama. Kliknite organizacijsko enoto za odpiranje obrazca za urejanje.
 
-![Seznam organizacijskih enot](../Images/OrganizationUnitsList2.png)
+![Seznam organizacijskih enot](../Images/OrganizationUnitsListSL.png)
 
 Vsak zapis ima levo od naziva prikazan indikator stanja:
 - **Modra** barva pomeni, da je organizacijska enota aktivna
 - **Siva** barva pomeni, da je organizacijska enota neaktivna
 
-![Gumbi za vire organizacijskih enot](../Images/OrganizationUnitsResourcesButtons1.png)
+![Gumbi za vire organizacijskih enot](../Images/OrganizationUnitsResourcesButtonsSL.png)
 
 Uporabite gumbe pod posamezno organizacijsko enoto za pripenjanje **človeških virov**, **stvarni virov** in **kontrolnih list kakovosti** k izbrani organizacijski enoti. Za podrobnosti o definiranju oseb, strojev, ekip in vzdrževalnih orodij glejte **[Viri](Viri.md)**.
 
@@ -62,7 +63,7 @@ V obrazec vnesite naslednja polja:
 - **Nadrejen** — po želji izberite nadrejeno enoto za vzpostavitev hierarhije.
 - **Omogočeno** — označite za omogočanje enote.
 
-![Organizacijske enote – Novo](../Images/OrganizationUnitsNew.png)
+![Organizacijske enote – Novo](../Images/OrganizationUnitsNewSL.png)
 
 Kliknite **Dodaj** za shranjevanje nove organizacijske enote ali **Prekliči** za opustitev vnosa.
 
@@ -73,7 +74,7 @@ Organizacijskim enotam je mogoče dodeliti [**kontrolne liste kakovosti**](../..
 > [!NOTE]
 > Trenutno je na voljo samo način **Ob prvi prijavi**.
 
-![Organizacijske enote – seznam kvalitete](../Images/OrganizationUnitsQualityList.png)
+![Organizacijske enote – seznam kvalitete](../Images/OrganizationUnitsQualityListSL.png)
 
 #### Dodati kontrolno listo kakovosti v organizacijsko enoto
 
@@ -85,7 +86,7 @@ Organizacijskim enotam je mogoče dodeliti [**kontrolne liste kakovosti**](../..
    - **Vrstni red** (zaporedje prikaza kontrolnih list)
 4. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev.
 
-![Dodaj kontrolno listo kakovosti](../Images/OrganizationUnitsQualityNew.png)
+![Dodaj kontrolno listo kakovosti](../Images/OrganizationUnitsQualityNewSL.png)
 
 ### Urediti organizacijsko enoto
 
@@ -100,7 +101,7 @@ Kliknite organizacijsko enoto v seznamu, da odprete obrazec za urejanje. Na tej 
 
 Kliknite **Shrani** za shranjevanje sprememb ali **Prekliči** za opustitev. Za odstranitev zapisa uporabite **Izbriši**, kadar enota ni več potrebna.
 
-![Organizacijske enote – Urejanje](../Images/OrganizationUnitsEdit1.png)
+![Organizacijske enote – Urejanje](../Images/OrganizationUnitsEditSL.png)
 
 ## Izbrisati organizacijsko enoto
 

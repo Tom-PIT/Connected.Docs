@@ -12,14 +12,14 @@ Zaslon **Poraba** odprete iz glavne strani [**Izvedba**](Izvedba.md) preko izbir
 
 ## Zabeležiti porabo materiala
 
-![Seznam porabe materiala](../Images/ExecutionConsumptionList.png "Beleženje porabe materiala")
+![Seznam porabe materiala](../Images/ExecutionConsumptionPageSL.png "Beleženje porabe materiala")
 
 1. Odprite stran **Poraba** iz [**menija aktivnosti izvedbe**](Izvedba.md#akcijski-meni-in-aktivnosti).  
 2. Preglejte seznam materialov za porabo (s prikazom stanja zaloge).  
 3. Izberite material s seznama ali poiščite/skenirajte po nazivu, šifri, serijski številki ali EAN kodi.  
 4. Na zaslonu **Dodaj porabo** vnesite količino za porabo.  
 
-   ![Podrobnosti porabe materiala](../Images/ExecutionConsumptionDetailScreen.png "Zaslon podrobnosti porabe")
+   ![Podrobnosti porabe materiala](../Images/ExecutionConsumptionDetailScreenSL.png "Zaslon podrobnosti porabe")
 
 5. Kliknite **Dodaj**, da shranite porabo.  
 6. Po potrebi ponovite postopek za druge materiale.

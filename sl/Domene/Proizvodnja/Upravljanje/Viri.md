@@ -53,7 +53,7 @@ Tabela spodaj prikazuje dodatna polja, specifična za človeške vire, ki zajema
 
 ## Dejanja v orodni vrstici
 
-![Orodna vrstica virov](../Images/ResourcesListAddNewButtons.png "Orodna vrstica virov")
+![Orodna vrstica virov](../Images/ResourcesListAddNewButtonsSL.png "Orodna vrstica virov")
 
 - **Dodaj mapo** – Ustvari mapo za organizacijo virov.
 - **Dodaj človeški vir** – Ustvari posamezen človeški vir (npr. operater, vzdrževalec).
@@ -83,7 +83,7 @@ Primeri:
 
 Z izbiro elementa v drevesu se prikažejo njegove podrobnosti in obrazec za urejanje.
 
-![Seznam virov](../Images/ResourcesListEdit.png "Seznam virov")
+![Seznam virov](../Images/ResourcesListEditSL.png "Seznam virov")
 
 ## Ustvariti nov vir
 
@@ -94,6 +94,11 @@ Z izbiro elementa v drevesu se prikažejo njegove podrobnosti in obrazec za urej
    - **Dodaj ekipo**
 2. Izpolnite polja, opisana v ustrezni shemi.
 3. Kliknite **Dodaj** ali **Shrani** za potrditev.
+
+> [!IMPORTANT]
+> Za uporabo vozil v povezanih dokumentih (na primer [potnih nalogih](../../Viri/Dokumenti/PotniNalogi.md)) jih dodajte kot **nečloveške vire** in jim dodelite oznako **`vehicle`**. Sistem kot vozila prepozna samo nečloveške vire, ki imajo dodeljeno to oznako.
+>
+> ![Vozila v potnih nalogih](../Images/ResourcesVehiclesSL.png)
 
 ## Urediti vir
 

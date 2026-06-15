@@ -13,13 +13,13 @@ Za ustvarjanje novega proizvodnega naloga, kliknite [akcijski gumb](../../../Sku
 
 Izberite **Tip materiala** (npr. Izdelki ali Polizdelki), nato izberite konkreten [**material**](../../Sredstva/Materiali.md) in količino, ki jo želite proizvesti.
 
-![1. korak](../Images/ProductionOrdersNewStep1.png "1. korak – Izbira materiala")
+![1. korak](../Images/ProductionOrdersNewStep1SL.png "1. korak – Izbira materiala")
 
 ### **2. korak — Izberi proces**
 
 Izberite **[Proces](../Upravljanje/Procesi.md)** in **verzijo procesa**, ki določa način izdelave materiala.
 
-![2. korak](../Images/ProductionOrdersNewStep2.1.png "2. korak – Izbira procesa")
+![2. korak](../Images/ProductionOrdersNewStep2SL.png "2. korak – Izbira procesa")
 
 > [!NOTE]
 > Če v tem koraku ni prikazan noben proces, preverite nastavitve v šifrantu **[Procesi](../Upravljanje/Procesi.md)**.  
@@ -29,7 +29,7 @@ Izberite **[Proces](../Upravljanje/Procesi.md)** in **verzijo procesa**, ki dolo
 
 Ta korak določa način izvajanja in časovni razpored.
 
-![3. korak](../Images/ProductionOrdersNewStep3.png "3. korak – Dodatne informacije")
+![3. korak](../Images/ProductionOrdersNewStep3SL.png "3. korak – Dodatne informacije")
 
 #### **Način**
 
@@ -51,7 +51,7 @@ Določa obnašanje proizvodnega naloga:
 - 3 delne proizvodnje → vsaka = **2 kosi**
 - 2 delni proizvodnji → vsaka = **3 kosi**
 
-![Delne proizvodnje](../Images/ProductionOrdersNewStep3PartialProductions.png)
+![Delne proizvodnje](../Images/ProductionOrdersNewStep3PartialProductionsSL.png)
 
 #### **Datumi**
 

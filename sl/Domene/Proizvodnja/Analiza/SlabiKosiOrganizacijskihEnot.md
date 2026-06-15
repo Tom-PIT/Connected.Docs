@@ -9,7 +9,7 @@ Stran **Slabi kosi organizacijskih enot** ponuja pregled vseh zabeleženih proiz
 
 Do strani dostopate prek **Proizvodnja / Analiza / Slabi kosi organizacijskih enot** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Slabi kosi organizacijskih enot](../Images/OrganizationUnitLossView.png)
+![Slabi kosi organizacijskih enot](../Images/OrganizationUnitLossViewSL.png)
 
 ## Filtri
 

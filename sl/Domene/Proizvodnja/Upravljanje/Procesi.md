@@ -35,12 +35,13 @@ Za dostop do tega pogleda pojdite na **Proizvodnja / Upravljanje / Procesi** v [
 | [**Koda**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generirana koda verzije (samo za branje). |
 | **Naziv** | Naziv verzije (obvezno). |
 | **Opis** | Dodatne podrobnosti o verziji (neobvezno). |
+| **Članek** | Neobvezna povezava do določenega članka z navodili iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md. |
 
 ## Seznam procesov
 
 Seznam procesov prikazuje vse konfigurirane procese. Vsaka vrstica vkljuÄuje kodo procesa, naziv, opis in oznake. Za iskanje po nazivu ali kodi uporabite polje **Iskanje**.
 
-![Seznam procesov](../Images/ProcessesList1.png "Seznam procesov")
+![Seznam procesov](../Images/ProcessesListSL.png "Seznam procesov")
 
 Levi stranski panel omogoča filtriranje po:
 
@@ -61,7 +62,7 @@ Levi stranski panel omogoča filtriranje po:
      - Dodajte oznako **Proizvodnja**, da bo proces na voljo pri ustvarjanju novega [**proizvodnega naloga**](../Dokumenti/ProizvodniNalogi.md).
      - Dodajte oznako **Vzdrževanje**, da bo proces na voljo pri ustvarjanju novega [**vzdrževalnega naloga**](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md).
 
-   ![Nov proces](../Images/ProcessesNew1.png "Nov proces")
+   ![Nov proces](../Images/ProcessesNewSL.png "Nov proces")
 
 3. Kliknite **Dodaj**, da ustvarite nov proces.
 
@@ -79,7 +80,7 @@ Za urejanje obstoječega procesa:
 
 Vsak proces lahko vsebuje več **verzij**, kar omogoča postopno izboljševanje potekov dela ob hkratnem ohranjanju starejših verzij.
 
-![Gumb Verzije](../Images/ProcessesVersionsButton.png "Gumb Verzije")
+![Gumb Verzije](../Images/ProcessesVersionsButtonSL.png "Gumb Verzije")
 
 Na pogledu verzij lahko:
 
@@ -124,7 +125,7 @@ Verzija vsebuje zaporedje **[operacij](Operacije.md)**, pri čemer vsaka predsta
 
 Za dostop do seznama operacij verzije kliknite gumb **[Operacije](Operacije.md)**:
 
-![Gumb Operacije](../Images/ProcessesVersionsOperationsButton1.png "Gumb Operacije")
+![Gumb Operacije](../Images/ProcessesVersionsOperationsButtonSL.png "Gumb Operacije")
 
 Vsaka operacija vključuje:
 
@@ -134,13 +135,13 @@ Vsaka operacija vključuje:
 - **[Izhodi](Izhodi.md)** – materiali ali elementi, ki nastanejo v operaciji  
 - **[Kvaliteta](KvalitetaKontrolneListe.md)** – dodeljene kontrolne liste in zahteve kakovosti  
 
-![Podrobnosti operacij](../Images/ProcessesOperationsListDetail.png)
+![Podrobnosti operacij](../Images/ProcessesOperationsListDetailSLV2.png)
 
 ## Kvaliteta v verziji procesa
 
 Gumb **[Kvaliteta](KvalitetaKontrolneListe.md)** odpre konfiguracijsko stran za izbrano verzijo procesa ali operacijo. Ta stran omogoča dodelitev ene ali več **[kontrolnih list](../../Kvaliteta/Upravljanje/KontrolneListe.md)**, ki določajo korake kontrole kakovosti med izvedbo.
 
-![Gumb Kvaliteta verzije procesa](../Images/ProcessesVersionsQualityButton.png "Gumb Kvaliteta verzije procesa")
+![Gumb Kvaliteta verzije procesa](../Images/ProcessesVersionsQualityButtonSLV2.png "Gumb Kvaliteta verzije procesa")
 
 ## Izbrisati proces
 

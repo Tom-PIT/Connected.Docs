@@ -15,7 +15,7 @@ Aktivnost **Slabi kosi** se uporablja za beleženje okvarjenih ali neuporabnih k
 1. Odprite stran **Slabi kosi** iz [**menija aktivnosti v izvedbi**](Izvedba.md#akcijski-meni-in-aktivnosti).  
 2. Vnesite količino slabih kosov.
 
-    ![Vnos slabih kosov](../Images/ExecutionLossPage.png)
+    ![Vnos slabih kosov](../Images/ExecutionLossPageSL.png)
 
 3. Izberite **klasifikacijo slabih kosov** (razlog) – glejte [Oznake klasifikacije slabega kosa](../Upravljanje/OznakeKlasifikacijeSlabegaKosa.md).  
 4. Kliknite **Izmet** (rumeni gumb), da shranite vnos.  

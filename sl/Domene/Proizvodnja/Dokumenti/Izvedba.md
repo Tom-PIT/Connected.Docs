@@ -17,7 +17,7 @@ Za ročni dostop pojdite na **Proizvodnja / Izvedba** v [navigaciji](../../../Sk
 > [!NOTE]
 > - Ob odprtju zaslon običajno samodejno prikaže dodeljene proizvodne naloge. Če se ne prikaže nobena, kliknite **Izberi proizvodne naloge**.
 >   
->   ![Izbira proizvodnih nalogov](../Images/ExecutionPageEmpty.png "Izberi proizvodni nalog")
+>   ![Izbira proizvodnih nalogov](../Images/ExecutionPageEmptySL.png "Izberi proizvodni nalog")
 > - Če je seznam proizvodnih nalogov prazen, za izbrano enoto ni razpoložljivih nalogov (še niso ustvarjeni ali nimajo aktivnih operacij). Naloge ustvarite v **[Proizvodni nalogi](ProizvodniNalogi.md)** in preverite, da je operacija dodeljena izbrani enoti.
 > - Če je seznam organizacijskih enot prazen, šifrant še ni definiran. Enote definirajte v **[Organizacijske enote](../../../Skupno/Upravljanje/PoslovneEnote.md)**.
 
@@ -25,7 +25,7 @@ Za ročni dostop pojdite na **Proizvodnja / Izvedba** v [navigaciji](../../../Sk
 
 Glavni zaslon izvedbe prikazuje ključne informacije za trenutni proizvodni nalog in operacijo.
 
-![Pregled izvedbe](../Images/ExecutionViewExplanation.png "Pregled izvedbe")
+![Pregled izvedbe](../Images/ExecutionViewExplanationSL.png "Pregled izvedbe")
 
 | Št. | Opis |
 |----|------|
@@ -65,7 +65,7 @@ Kliknite **Začni**, da pričnete operacijo.
 - posodobi preostalo količino  
 - če je privzeta količina enaka planirani in je ne spremenite, sistem zabeleži **vse preostale kose kot proizvedene**
   
-  ![Proizvodnja zaključena](../Images/ExecutionProductionFinished.png "Napredek proizvodnje")
+  ![Proizvodnja zaključena](../Images/ExecutionProductionFinishedSL.png "Napredek proizvodnje")
 
 ### Začasno ustaviti proizvodnjo
 
@@ -77,7 +77,7 @@ Kliknite **Premor**, da začasno ustavite operacijo. To **ne zaključi** proizvo
 
 Kontrolni seznami **[kontrolnih list](../../Kvaliteta/Upravljanje/KontrolneListe.md)** zagotavljajo varnost in kakovost izdelkov. Če je za operacijo zahtevan kontrolni seznam, se samodejno prikaže ob pravem času (na začetku, med izvajanjem ali pred zaključkom).
 
-![Kontrolni seznam kakovosti](../Images/ExecutionStep1Checklist.png "Kontrolni seznam kakovosti")
+![Kontrolni seznam kakovosti](../Images/ExecutionStep1ChecklistSL.png "Kontrolni seznam kakovosti")
 
 Delavci potrdijo vsak korak v skladu z definicijo kontrolnega seznama.
 
@@ -100,7 +100,7 @@ Na voljo so naslednje možnosti:
 - **[Delo](Delo.md)** – beleženje delovnega časa  
 - **[Navodila](Navodila.md)** – ogled navodil za operacijo  
 
-![Proizvodnja kosov](../Images/ExecutionProductionScreen.png "Proizvodnja kosov")
+![Proizvodnja kosov](../Images/ExecutionProductionScreenSL.png "Proizvodnja kosov")
 
 Vsaka možnost je podrobneje opisana spodaj.
 
