@@ -12,7 +12,7 @@ Ta pogled je izključno analitičen — **ne omogoča** ustvarjanja ali spreminj
 
 Za dostop do tega pregleda pojdite na **Prodaja / Pregledi / Postavke naročil strank** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Postavke naročil strank](../Images/SalesOrderDetailsView.png "Postavke naročil strank")
+![Postavke naročil strank](../Images/SalesOrderDetailsViewSL.png "Postavke naročil strank")
 
 ## Seznam postavk naročil strank
 
@@ -56,4 +56,13 @@ Pogled **Postavke naročil strank** je uporaben za:
 
 Ta pregled dopolnjuje zaslon dokumentov **[Naročila strank](../Dokumenti/NarocilaStrank.md)**, saj se osredotoča na **postavke**, ne na dokumente.
 
----
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz kumulativno poročilo v CSV** – združi količine in zneske v skupne vrednosti.
+- **Izvoz postavke v CSV** – izvozi podrobnosti posameznih dokumentov ločeno.
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

@@ -36,7 +36,7 @@ Menjalni tečaji se vzdržujejo ročno in jih je mogoče ustvariti za različne 
 
 Seznam prikazuje vse definirane menjalne tečaje glede na izbrane filtre.
 
-![Seznam menjalnih tečajev](../Images/ExchangeRatesList.png "Seznam menjalnih tečajev")
+![Seznam menjalnih tečajev](../Images/ExchangeRatesListSL.png "Seznam menjalnih tečajev")
 
 Razpoložljivi filtri na levi strani:
 - **Datum** — Filtriranje menjalnih tečajev po datumu  
@@ -53,7 +53,7 @@ Vsaka vrstica prikazuje:
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu zaslona za ustvarjanje novega zapisa.
 
-   ![Nov menjalni tečaj](../Images/ExchangeRatesNew.png "Ustvarjanje novega menjalnega tečaja")
+   ![Nov menjalni tečaj](../Images/ExchangeRatesNewSL.png "Ustvarjanje novega menjalnega tečaja")
 
 2. Izberite **Iz valute** (osnovna valuta).
 3. Izberite **V valuto** (ciljna valuta).

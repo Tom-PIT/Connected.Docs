@@ -17,7 +17,7 @@ Zaslon je dostopen tudi iz strani [**Poslovni imenik**](../../../Skupno/Upravlja
 
 ## Seznam poslovnih kartic
 
-![Pregled poslovnih kartic](../Images/CompanyCardsList.png "Pregled poslovnih kartic")
+![Pregled poslovnih kartic](../Images/CompanyCardsListSL.png "Pregled poslovnih kartic")
 
 Vsaka vrstica predstavlja **en sam finančni zapis** za podjetje, ne povzetega salda.
 
@@ -46,7 +46,7 @@ Poslovne kartice vizualno prikazujejo status plačila vsakega zapisa z izpisom *
 
 Ko je dokument **v celoti plačan**, je prikazan le končni poravnani znesek, kar pomeni, da odprta obveznost ne obstaja.
 
-![V celoti plačan zapis](../Images/CompanyCardsFullyPaid.png "V celoti plačan zapis")
+![V celoti plačan zapis](../Images/CompanyCardsFullyPaidSL.png "V celoti plačan zapis")
 
 V tem primeru:
 - dokument je popolnoma poravnan,
@@ -57,7 +57,7 @@ V tem primeru:
 
 Pri **delno plačanih** dokumentih je prikazan ločen znesek za že plačani del in izvorni skupni znesek dokumenta.
 
-![Delno plačan zapis](../Images/CompanyCardsPartiallyPaid.png "Delno plačan zapis")
+![Delno plačan zapis](../Images/CompanyCardsPartiallyPaidSL.png "Delno plačan zapis")
 
 V tem primeru:
 - **zgornji znesek** predstavlja **že plačani znesek**,
@@ -67,7 +67,7 @@ V tem primeru:
 
 Če dokument **še ni bil plačan**, je odprti znesek prikazan kot **0,00**, celotna vrednost dokumenta pa je izpisana spodaj.
 
-![Neplačan zapis](../Images/CompanyCardsUnpaid.png "Neplačan zapis")
+![Neplačan zapis](../Images/CompanyCardsUnpaidSL.png "Neplačan zapis")
 
 To pomeni:
 - plačila še niso bila evidentirana,
@@ -84,5 +84,3 @@ Za evidentiranje plačil ali popravke uporabite ustrezne dokumente, kot so:
 - [**Izdani računi**](../Dokumenti/IzdaniRacuni.md)
 - [**Dobropisi**](../Dokumenti/Dobropisi.md)
 - [**Bremepisi**](../Dokumenti/Bremepisi.md)
-
----

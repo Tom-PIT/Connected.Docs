@@ -62,3 +62,14 @@ All amounts are calculated based on the [**Delivery notes**](../Documents/Delive
 > - The view is intended for **analysis only** and does not support actions such as editing, reversing, or creating documents.
 
 For detailed document-level information, open the related [delivery notes](../Documents/DeliveryNotes.md) directly from the **Sales / Documents / Delivery notes** section.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export cumulative report in CSV** - aggregates quantities and amounts into totals.
+- **Export detail report in CSV** - exports the details of each delivery note separately.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

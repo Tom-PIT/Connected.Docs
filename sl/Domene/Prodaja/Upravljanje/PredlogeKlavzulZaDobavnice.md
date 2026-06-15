@@ -35,9 +35,17 @@ Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za do
 
 Seznam prikazuje vse obstoječe predloge klavzul, združene po podjetjih:
 
-![Seznam predlog klavzul za dobavnice](../Images/ClauseTemplatesDeliveryNotes.png "Seznam predlog klavzul za dobavnice")
+![Seznam predlog klavzul za dobavnice](../Images/ClauseTemplatesDeliveryNotesSL.png "Seznam predlog klavzul za dobavnice")
 
 S klikom na **Klavzule** odprete seznam klavzul za izbrano predlogo. Za iskanje po imenu podjetja lahko uporabite polje **Iskanje**.
+
+### Seznam klavzul
+
+Vse klavzule, dodeljene predlogi, so prikazane v pravilnem zaporedju:
+
+![Seznam klavzul](../Images/ClauseTemplatesDeliveryNotesClausesListSL.png "Seznam klavzul")
+
+Zaporedje lahko spremenite z urejanjem vrednosti **Zaporedna številka**.
 
 ## Dejanja
 
@@ -45,11 +53,11 @@ S klikom na **Klavzule** odprete seznam klavzul za izbrano predlogo. Za iskanje 
 
 Kliknite akcijski gumb, da ustvarite novo predlogo. Zahtevano je le eno polje:
 
-![Dodaj predlogo](../Images/ClauseTemplatesDeliveryNotesNew.png "Dodajanje predloge")
+![Dodaj predlogo](../Images/ClauseTemplatesDeliveryNotesNewSL.png "Dodajanje predloge")
 
 Po dodajanju predloge morate klikniti **Klavzule**, da odprete urejevalnik klavzul.
 
-![Gumb Klavzule](../Images/ClauseTemplatesDeliveryNotesClausesButton.png "Gumb Klavzule")
+![Gumb Klavzule](../Images/ClauseTemplatesDeliveryNotesClausesButtonSL.png "Gumb Klavzule")
 
 ### Dodati klavzul v predlogo
 
@@ -58,15 +66,7 @@ V urejevalniku klavzul z akcijskim gumbom dodajte novo klavzulo. Izberite:
 - **Zaporedna številka** – vrstni red prikaza  
 - **Klavzula** – vnaprej določeno besedilo  
 
-![Dodaj klavzulo](../Images/ClauseTemplatesDeliveryNotesClausesNew.png "Dodajanje klavzule")
-
-#### Seznam klavzul
-
-Vse klavzule, dodeljene predlogi, so prikazane v pravilnem zaporedju:
-
-![Seznam klavzul](../Images/ClauseTemplatesDeliveryNotesClausesList.png "Seznam klavzul")
-
-Zaporedje lahko spremenite z urejanjem vrednosti **Zaporedna številka**.
+![Dodaj klavzulo](../Images/ClauseTemplatesDeliveryNotesClausesNewSL.png "Dodajanje klavzule")
 
 ### Urediti predlogo dobavnice in klavzule
 
@@ -82,5 +82,3 @@ Ob potrditvi se zapis trajno izbriše, v nasprotnem primeru ostane nespremenjen.
 
 > [!NOTE]  
 > Predlogo klavzul ali posamezno klavzulo je mogoče izbrisati le, če ni zahtevana v odvisnih poslovnih procesih.
-
----

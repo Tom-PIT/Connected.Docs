@@ -9,7 +9,7 @@ Konfiguracija **Prodaje** omogoča nastavitev pravil, ki vplivajo na številčen
 
 Za dostop do te strani pojdite na **Prodaja / Šifranti / Konfiguracija prodaje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Konfiguracija prodaje](../Images/SalesConfiguration.png "Konfiguracija prodaje")
+![Konfiguracija prodaje](../Images/SalesConfigurationSL.png "Konfiguracija prodaje")
 
 ## Nastavitve številčenja dokumentov
 
@@ -19,5 +19,3 @@ Izberite model številčenja in obliko šifre za prodajne dokumente (Ponudbe, Pr
 |------|------|
 | **Način številčenja dokumenta** | • **Povečevanje vsako leto:** zaporedje se vsako leto ponastavi. <br> • **Povečevanje:** globalno zaporedje, ki se nikoli ne ponastavi. |
 | **Oblika zapisa šifre dokumenta** | Vzorec, ki določa strukturo šifre (npr. PREDPONA-LETO-ŠTEVILKA). |
-
----

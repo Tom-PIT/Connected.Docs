@@ -33,7 +33,7 @@ Za vsako sredstvo so prikazani:
 - **Povprečna cena**  
 - **Skupni strošek**, vključno z neto vrednostjo in davkom  
 
-![Seznam poročil dobavnic](../Images/DeliveryNotesReportsList.png "Seznam poročil dobavnic")
+![Seznam poročil dobavnic](../Images/DeliveryNotesReportsListSL.png "Seznam poročil dobavnic")
 
 ## Filtri
 
@@ -64,4 +64,13 @@ Vsi zneski temeljijo na podatkih iz [**Dobavnic**](../Dokumenti/Dobavnice.md), v
 
 Za podrobnejše informacije na ravni dokumentov odprite ustrezne [**Dobavnice**](../Dokumenti/Dobavnice.md) neposredno v razdelku **Prodaja / Dokumenti / Dobavnice**.
 
----
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz kumulativnega PDF-ja** – združi količine in zneske v skupne vrednosti.
+- **Izvoz podrobnega PDF-ja** – izvozi podrobnosti posameznih dokumentov ločeno.
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

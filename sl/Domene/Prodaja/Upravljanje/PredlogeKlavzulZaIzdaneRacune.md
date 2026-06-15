@@ -35,9 +35,17 @@ Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za iz
 
 Seznam prikazuje vse obstoječe predloge klavzul, združene po podjetjih:
 
-![Seznam predlog klavzul](../Images/ClauseTemplatesIssuedInvoices.png "Seznam predlog klavzul")
+![Seznam predlog klavzul](../Images/ClauseTemplatesIssuedInvoicesSL.png "Seznam predlog klavzul")
 
 S klikom na **Klavzule** odprete seznam klavzul za izbrano predlogo. Za iskanje po imenu podjetja lahko uporabite polje **Iskanje**.
+
+### Seznam klavzul
+
+Vse klavzule, dodeljene predlogi, so prikazane v pravilnem zaporedju:
+
+![Seznam klavzul](../Images/ClauseTemplatesIssuedInvoicesClausesListSL.png "Seznam klavzul")
+
+Zaporedje lahko spremenite z urejanjem vrednosti **Zaporedna številka**.
 
 ## Dejanja
 
@@ -45,11 +53,11 @@ S klikom na **Klavzule** odprete seznam klavzul za izbrano predlogo. Za iskanje 
 
 Kliknite akcijski gumb, da ustvarite novo predlogo. Zahtevano je le eno polje:
 
-![Dodaj predlogo](../Images/ClauseTemplatesIssuedInvoicesNew.png "Dodajanje predloge")
+![Dodaj predlogo](../Images/ClauseTemplatesIssuedInvoicesNewSL.png "Dodajanje predloge")
 
 Po dodajanju predloge morate klikniti **Klavzule**, da odprete urejevalnik klavzul.
 
-![Gumb Klavzule](../Images/ClauseTemplatesDeliveryNotesClausesButton.png "Gumb Klavzule")
+![Gumb Klavzule](../Images/ClauseTemplatesDeliveryNotesClausesButtonSL.png "Gumb Klavzule")
 
 ### Dodati klavzul v predlogo
 
@@ -58,15 +66,7 @@ V urejevalniku klavzul z akcijskim gumbom dodajte novo klavzulo. Izberite:
 - **Zaporedna številka** – vrstni red prikaza  
 - **Klavzula** – vnaprej določeno besedilo  
 
-![Dodaj klavzulo](../Images/ClauseTemplatesIssuedInvoicesClausesNew.png "Dodajanje klavzule")
-
-### Seznam klavzul
-
-Vse klavzule, dodeljene predlogi, so prikazane v pravilnem zaporedju:
-
-![Seznam klavzul](../Images/ClauseTemplatesIssuedInvoicesClausesList.png "Seznam klavzul")
-
-Zaporedje lahko spremenite z urejanjem vrednosti **Zaporedna številka**.
+![Dodaj klavzulo](../Images/ClauseTemplatesIssuedInvoicesClausesNewSL.png "Dodajanje klavzule")
 
 ### Urediti predlogo izdane račune in klavzule
 

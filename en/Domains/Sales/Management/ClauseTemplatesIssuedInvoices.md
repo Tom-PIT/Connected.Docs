@@ -39,6 +39,14 @@ The list displays all existing clause templates, grouped by company:
 
 Click **Clauses** to open the clause list for that template. You may use the **Search** bar to filter templates by company name.
 
+### Clause list
+
+All clauses assigned to the template are shown in order:
+
+![Clause list](../Images/ClauseTemplatesIssuedInvoicesClausesList.png "Clause list")
+
+You may reorder clauses by editing the **Ordinal** value.
+
 ## Actions
 
 ### Create a new issued invoice template
@@ -59,14 +67,6 @@ Inside the clause editor, use the action button to add clauses. Select:
 - **Clause** – Predefined text to use  
 
 ![Add clause](../Images/ClauseTemplatesIssuedInvoicesClausesNew.png "Add clause")
-
-#### Clause list
-
-All clauses assigned to the template are shown in order:
-
-![Clause list](../Images/ClauseTemplatesIssuedInvoicesClausesList.png "Clause list")
-
-You may reorder clauses by editing the **Ordinal** value.
 
 ### Edit issued invoice templates and clauses
 

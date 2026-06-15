@@ -24,7 +24,7 @@ Za dostop do te strani pojdite na **Prodaja / Šifranti / Način plačila** v [n
 
 Seznam prikazuje vse obstoječe načine plačila, skupaj z njihovo **šifro**, **nazivom** ter morebitnimi **oznakami** ali **ikonami**.
 
-![Način plačila](../Images/PaymentMethods.png "Seznam načinov plačila")
+![Način plačila](../Images/PaymentMethodsSL.png "Seznam načinov plačila")
 
 Za hitro filtriranje načinov plačila po kodi ali nazivu lahko uporabite iskalno polje **Iskanje**.
 
@@ -34,7 +34,7 @@ Za hitro filtriranje načinov plačila po kodi ali nazivu lahko uporabite iskaln
 
 Kliknite akcijski gumb, da odprete obrazec za ustvarjanje. Vnesete lahko osnovne podatke ter naložite logotip ali ikono ponudnika plačila.
 
-![Dodaj način plačila](../Images/PaymentMethodsNew.png "Dodajanje načina plačila")
+![Dodaj način plačila](../Images/PaymentMethodsNewSL.png "Dodajanje načina plačila")
 
 ### Urediti način plačila
 
