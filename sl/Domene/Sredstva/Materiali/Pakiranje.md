@@ -37,13 +37,13 @@ Za dostop do nastavitev pakiranja pojdite na **Sredstva / Materiali / Pakiranje*
 
 Za dodelitev pakiranja materialu morate najprej izbrati **Vrsto materiala** (npr. Izdelki, Polizdelki) in nato konkretno **Entiteto** na levi strani zaslona.
 
-![Spustni seznam za izbor materiala](../Images/DropdownPackaging.png)
+![Spustni seznam za izbor materiala](../Images/DropdownPackagingSL.png)
 
 ### Pregled seznama
 
 Vmesnik prikazuje seznam zapisov pakiranja za izbrano **Vrsto materiala** in **Entiteto**.
 
-![Seznam pakiranj](../Images/Packaging.png)
+![Seznam pakiranj](../Images/PackagingSL.png)
 
 Seznam prikazuje:
 
@@ -68,7 +68,7 @@ Obrazec vključuje naslednja polja:
 - **Teža** (neto in bruto)
 - **Dimenzije** (širina, višina, globina)
 
-![Dodaj pakiranje](../Images/NewPackaging.png)
+![Dodaj pakiranje](../Images/NewPackagingSL.png)
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev brez sprememb.
 
@@ -76,7 +76,7 @@ Po vnosu zahtevanih podatkov kliknite **Dodaj** za shranjevanje ali **Prekliči*
 
 Za urejanje obstoječega zapisa pakiranja kliknite vrednost **EAN** na seznamu.
 
-![Urejanje pakiranja](../Images/EditPackaging.png)
+![Urejanje pakiranja](../Images/EditPackagingSL.png)
 
 Zaslon za urejanje omogoča spreminjanje vseh polj.  
 Po končanem urejanju kliknite **Shrani** ali **Prekliči**.
@@ -87,11 +87,11 @@ Vsak zapis pakiranja vsebuje oznako **Nalepke**, ki določa, katere vrste nalepk
 
 V seznamskem pogledu kliknite gumb **Nalepke** pod izbranim pakiranjem:
 
-![Oznaka Nalepke](../Images/LabelPackaging.png "Oznaka Nalepke")
+![Oznaka Nalepke](../Images/LabelPackagingSL.png "Oznaka Nalepke")
 
 Odpre se pogovorno okno za izbor nalepk:
 
-![Izbor nalepk](../Images/LabelSelectPackaging.png "Izbor nalepk")
+![Izbor nalepk](../Images/LabelSelectPackagingSL.png "Izbor nalepk")
 
 Razpoložljive vrste nalepk:
 

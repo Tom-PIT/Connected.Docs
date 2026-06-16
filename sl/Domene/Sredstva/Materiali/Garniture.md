@@ -31,9 +31,9 @@ Za dostop do tega zaslona pojdite na
 Leva stranska vrstica prikazuje nadrejene materiale, združene po **[Vrsti materiala](../Materiali.md)** (npr. **[Izdelki](Izdelki.md)**, **[Polizdelki](Polizdelki.md)**).  
 Izberite nadrejeni material, da si v glavnem seznamu ogledate njegove komponente in pripadajoče količine.
 
-![Seznam garnitur](../Images/SetsList.png "Seznam garnitur")
+![Seznam garnitur](../Images/SetsListSL.png "Seznam garnitur")
 
-### Ustvarati garniture
+### Ustvariti garniture
 
 1. Ustvarite nadrejeni material v njegovi kategoriji:
    - Pojdite na **Sredstva / Materiali / Izdelki** in dodajte nov izdelek (npr. **Garnitura iz borovega lesa**).
@@ -42,11 +42,11 @@ Izberite nadrejeni material, da si v glavnem seznamu ogledate njegove komponente
 3. Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** za dodajanje komponent v garnituro (vsaka komponenta mora že obstajati):
    - Primer komponent: **Borova miza** (1), **Borov stol** (4)
 
-   ![Nova garnitura](../Images/SetsNew.png "Nova garnitura")
+       ![Nova garnitura](../Images/SetsNewSL.png "Nova garnitura")
 
 4. Shranite. **Garnitura iz borovega lesa** zdaj referencira vse komponente z določenimi količinami.
 
-   ![Seznam garnitur](../Images/SetsList.png "Seznam garnitur")
+   ![Seznam garnitur](../Images/SetsListSL.png "Seznam garnitur")
 
 ### Urediti garniture
 
