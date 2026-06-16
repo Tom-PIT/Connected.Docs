@@ -80,12 +80,24 @@ Click the [action button](../../../Common/UI/ActionButton.md) to access availabl
 
 1. In the **Details** section, click **Add detail**.
 2. Select the [**Company**](../../../Common/Management/BusinessDirectory.md) related to the transaction.
-3. Select the [**Account**](../Management/Ledger/ChartOfAccounts.md)  to post against.
-4. Choose the **Posting direction** (Debit or Credit).
-5. Enter the **Amount** and **Description**.
+3. Review the list of **Open items** displayed in the **Closing item** section.
+4. Select one or more transactions to settle.
+5. Verify the **Closing amount** for the selected transactions.
 6. Click **Add** to insert the movement.
 
-   ![Bank Statements New Add Detail](../Images/BankStatementsNewAddDetail.png "Bank Statements New Add Detail")
+![Bank Statements New Add Detail](../Images/BankStatementsNewAddDetailV2.png "Bank Statements New Add Detail")
+
+> [!TIP]
+> Selecting a company displays its open transactions, allowing the bank movement to be matched against existing receivables or payables.
+
+### Manual posting
+
+If the movement is not related to an existing open transaction:
+
+1. Select the appropriate [**Account**](../Management/Ledger/ChartOfAccounts.md).
+2. Choose the **Posting direction** (**Debit** or **Credit**).
+3. Enter the **Amount** and optional **Description**.
+4. Click **Add**.
 
 ### Publish a bank statement
 
