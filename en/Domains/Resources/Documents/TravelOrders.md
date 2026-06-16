@@ -20,7 +20,7 @@ To access this page, go to **Resources / Documents / Travel Orders** in the [nav
 | **Arrival** | Arrival date and time. |
 | **Reason** | Travel reason sourced from the from [**Travel order reasons**](../Management/TravelOrderReasons.md) code list. |
 | **Means of transport** | Transport used for the trip (e.g., own vehicle). |
-| **Vehicle** | Vehicle [resource](../../Production/Management/Resources.md); only non-human resources tagged `vehicle` are available. |
+| **Vehicle** | Vehicle [resource](../../Resources/Management/Resources.md); only non-human resources tagged `vehicle` are available. |
 | **Company** | Company selected from the business directory. |
 | **Location** | Travel destination. |
 | **Cost center** | Cost center assigned to the travel order. |

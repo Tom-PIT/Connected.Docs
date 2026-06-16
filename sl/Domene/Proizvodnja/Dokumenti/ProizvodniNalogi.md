@@ -16,7 +16,7 @@ Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Z
 > Pred ustvarjanjem novega proizvodnega naloga zagotovite, da je naslednje že nastavljeno:
 > - Vsaj en **[Proces](../Upravljanje/Procesi.md)** z aktivno **verzijo**
 > - Dodeljene **[Organizacijske enote](../../../Skupno/Upravljanje/PoslovneEnote.md)** za proizvodnjo  
-> - Po potrebi dodatne definicije, kot so **[viri](../Upravljanje/Viri.md)**, **[oznake zastojev](../Upravljanje/OznakeZastojev.md)**, **[oznake klasifikacije slabega kosa](../Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)** in **[kontrolne liste](../../Kvaliteta/Upravljanje/KontrolneListe.md)** glede na potek dela (priporočeno)
+> - Po potrebi dodatne definicije, kot so **[viri](../../Viri/Upravljanje/Viri.md)**, **[oznake zastojev](../Upravljanje/OznakeZastojev.md)**, **[oznake klasifikacije slabega kosa](../Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)** in **[kontrolne liste](../../Kvaliteta/Upravljanje/KontrolneListe.md)** glede na potek dela (priporočeno)
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Proizvodni nalog](https://www.youtube.com/watch?v=q4UjiYpWph8)**.

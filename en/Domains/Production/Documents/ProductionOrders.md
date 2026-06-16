@@ -16,7 +16,7 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 >Before creating a new production order, ensure that the following are configured:
 > - At least one **[Process](../Management/Processes.md)** with an active **version**
 > - Assigned **[Organization units](../Management/OrganizationUnits.md)** for production  
-> - Optional supporting definitions such as **[resources](../Management/Resources.md)**, **[downtime tags](../Management/DowntimeTags.md)**, **[loss classification tags](../Management/LossClassificationTags.md)** and **[checklists](../../Quality/Management/Checklists.md)** depending on your workflow (recommended)
+> - Optional supporting definitions such as **[resources](../../Resources/Management/Resources.md)**, **[downtime tags](../Management/DowntimeTags.md)**, **[loss classification tags](../Management/LossClassificationTags.md)** and **[checklists](../../Quality/Management/Checklists.md)** depending on your workflow (recommended)
 
 
 > [!TIP]

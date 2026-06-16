@@ -19,7 +19,7 @@ Za dostop do te strani odprite različico procesa v **Proizvodnja / Upravljanje 
 
 | Polje | Opis |
 |------|------|
-| **Tip** | Določa vrsto vira, ki se uporablja:<br>• **Kompetenca**<br>• [**Delovno mesto**](../Upravljanje/SistematizacijaDelovnihMest.md)<br>• [**Vir**](../Upravljanje/Viri.md) |
+| **Tip** | Določa vrsto vira, ki se uporablja:<br>• **Kompetenca**<br>• [**Delovno mesto**](../Upravljanje/SistematizacijaDelovnihMest.md)<br>• [**Vir**](../../Viri/Upravljanje/Viri.md) |
 | **Vir** | Izbrana kompetenca, delovno mesto ali vir glede na izbrani **Tip**. |
 | **Tip kalkulacije** | Določa način izračuna planiranega časa:<br>• **Dinamično** – čas se izračuna glede na količino proizvodnje ali druge parametre procesa.<br>• **Dinamično na serijo** – čas se izračuna glede na posamezno serijo.<br>• **Statično** – količina je fiksna. |
 | **Količina** | Planirani čas za ta človeški vir, vnesen kot trajanje (dnevi, ure, minute, sekunde, milisekunde). |

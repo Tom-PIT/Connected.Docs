@@ -104,7 +104,7 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Skladiščne lokacije**](Domene/Proizvodnja/Upravljanje/SkladiscneLokacije.md)
 - [**Stvarni viri**](Domene/Proizvodnja/Upravljanje/StvarniViri.md)
 - [**Vhodi**](Domene/Proizvodnja/Upravljanje/Vhodi.md)
-- [**Viri**](Domene/Proizvodnja/Upravljanje/Viri.md)
+- [**Viri**](Domene/Viri/Upravljanje/Viri.md)
 
 ## Projekti
 - [**Upravljanje projektov**](Domene/Projekti/Upravljanje/UpravljanjeProjektov.md)

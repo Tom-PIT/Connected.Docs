@@ -44,7 +44,7 @@ Vsak zapis ima levo od naziva prikazan indikator stanja:
 
 ![Gumbi za vire organizacijskih enot](../Images/OrganizationUnitsResourcesButtonsSL.png)
 
-Uporabite gumbe pod posamezno organizacijsko enoto za pripenjanje **človeških virov**, **stvarni virov** in **kontrolnih list kakovosti** k izbrani organizacijski enoti. Za podrobnosti o definiranju oseb, strojev, ekip in vzdrževalnih orodij glejte **[Viri](Viri.md)**.
+Uporabite gumbe pod posamezno organizacijsko enoto za pripenjanje **človeških virov**, **stvarni virov** in **kontrolnih list kakovosti** k izbrani organizacijski enoti. Za podrobnosti o definiranju oseb, strojev, ekip in vzdrževalnih orodij glejte **[Viri](../../Viri/Upravljanje/Viri.md)**.
 
 ### Dejanja
 

@@ -18,7 +18,7 @@ Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vklj
 > - Vsaj en [**vzdrževalni proces**](../../Proizvodnja/Upravljanje/Procesi.md) z aktivno verzijo
 > - Definicije opreme
 > - Dodeljene [**organizacijske enote**](../../Proizvodnja/Upravljanje//OrganizacijskeEnote.md)
-> - Po potrebi dodatne nastavitve, kot so [**viri**](../../Proizvodnja/Upravljanje//Viri.md),
+> - Po potrebi dodatne nastavitve, kot so [**viri**](../../Viri/Upravljanje/Viri.md),
 >   [**kontrolni listi**](../..//Kvaliteta/Upravljanje/KontrolneListe.md) in
 >   [**merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md), odvisno od poteka vzdrževanja
 

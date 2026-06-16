@@ -20,7 +20,7 @@ To access this page, open a process version from **Production / Management / [Pr
 
 | Field | Description |
 |-------|-------------|
-| **Type** | Defines what kind of resource is used: <br>• **Competence**<br>• [**Job position**](../Management/JobPositions.md)<br>• [**Resource**](../Management/Resources.md) |
+| **Type** | Defines what kind of resource is used: <br>• **Competence**<br>• [**Job position**](../Management/JobPositions.md)<br>• [**Resource**](../../Resources/Management/Resources.md) |
 | **Resource** | The specific competence, job position, or resource selected based on the chosen **Type**. |
 | **Calculation type** | Defines how the planned time is calculated. <br>• **Dynamic** – time is calculated based on production quantity or other process parameters. <br>• **Static** – Quantity is fixed. |
 | **Quantity** | Planned time requirement for this human resource, entered as a duration (days, hours, minutes, seconds, milliseconds). |

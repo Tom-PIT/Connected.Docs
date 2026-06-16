@@ -5,9 +5,9 @@
 
 # Viri
 
-Viri se uporabljajo za opredelitev in upravljanje vseh **človeških** in **nečloveških** sredstev, ki so na voljo v domenah **Proizvodnja** in **Vzdrževanje**. Sem spadajo delavci, tehniki, stroji, delovne postaje, orodja, merilna oprema in ekipe. Tukaj ustvarjeni viri se lahko kasneje dodelijo **[operacijam](Operacije.md)**, **[procesom](Procesi.md)** ter dokumentom, kot so **[proizvodni nalogi](../Dokumenti/ProizvodniNalogi.md)** in **[vzdrževalni nalogi](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)**.
+Viri se uporabljajo za opredelitev in upravljanje vseh **človeških** in **nečloveških** sredstev, ki so na voljo v domenah **Proizvodnja** in **Vzdrževanje**. Sem spadajo delavci, tehniki, stroji, delovne postaje, orodja, merilna oprema in ekipe. Tukaj ustvarjeni viri se lahko kasneje dodelijo **[operacijam](../../Proizvodnja/Upravljanje/Operacije.md)**, **[procesom](../../Proizvodnja/Upravljanje/Procesi.md)** ter dokumentom, kot so **[proizvodni nalogi](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)** in **[vzdrževalni nalogi](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)**.
 
-Za dostop do tega zaslona pojdite na **Proizvodnja / Upravljanje / Viri** ali **Vzdrževanje / Upravljanje / Viri** v [navigaciji](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega zaslona odprite domeno **Proizvodnja**, **Viri** ali **Vzdrževanje**, nato pa v [navigaciji](../../../Skupno/UI/Navigacija.md) izberite **Upravljanje / Viri**.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Viri](https://www.youtube.com/watch?v=Kr5WkGMQj48)**.
