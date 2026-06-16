@@ -9,7 +9,7 @@ Konfiguracija nastavitev za **račune**, ki vplivajo na oštevilčevanje dokumen
 
 Za dostop do te strani pojdite na **Računovodstvo / Računi / Upravljanje / Konfiguracija** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
-![Konfiguracija računov](../../Images/InvoicesConfiguration.png)
+![Konfiguracija računov](../../Images/InvoicesConfigurationSL.png)
 
 ## Nastavitve oštevilčevanja dokumentov
 

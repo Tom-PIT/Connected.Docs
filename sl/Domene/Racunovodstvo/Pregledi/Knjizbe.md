@@ -11,7 +11,7 @@ Gre za **analitični pogled samo za branje**, namenjen pregledu in reviziji knji
 
 Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Knjižbe** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Knjižbe](../Images/PostingsView.png "Knjižbe")
+![Knjižbe](../Images/PostingsViewSL.png "Knjižbe")
 
 ## Namen pogleda
 

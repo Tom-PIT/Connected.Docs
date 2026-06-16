@@ -9,7 +9,7 @@ Pogled **Odprte postavke** omogoča pregled knjiženih računovodskih postavk, k
 
 Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi / Odprte postavke** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Odprte postavke](../Images/OpenItemsSL.png "Odprte postavke")
+![Odprte postavke](../Images/OpenItemsSLV2.png "Odprte postavke")
 
 > [!NOTE]
 > Pogled je samo za branje. Odprtih postavk ni mogoče urejati neposredno, temveč se zapirajo preko plačil, pobotov ali knjižb.

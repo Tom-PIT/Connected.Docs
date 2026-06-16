@@ -35,7 +35,7 @@ Lokacije glavne knjige se običajno uporabljajo za opis, kje se sredstva ali zal
 
 Seznam prikazuje vse definirane lokacije glavne knjige.
 
-![Seznam lokacij glavne knjige](../../Images/LedgerLocationsList.png "Seznam lokacij glavne knjige")
+![Seznam lokacij glavne knjige](../../Images/LedgerLocationsListSL.png "Seznam lokacij glavne knjige")
 
 Vsaka vrstica prikazuje:
 
@@ -56,7 +56,7 @@ Za ustvarjanje nove lokacije glavne knjige:
    - **Ime**
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev vnosa.
 
-![Nova lokacija glavne knjige](../../Images/LedgerLocationsNew.png "Nova lokacija glavne knjige")
+![Nova lokacija glavne knjige](../../Images/LedgerLocationsNewSL.png "Nova lokacija glavne knjige")
 
 ### Urediti lokacijo glavne knjige
 

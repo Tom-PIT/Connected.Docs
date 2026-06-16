@@ -14,7 +14,7 @@ Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi
 > [!NOTE]  
 > Ta pogled je namenjen poročanju in preverjanju. Ne nadomešča uradnih DDV obračunov, temveč podpira notranjo kontrolo in usklajevanje.
 
-![Izdani računi za dobave blaga znotraj skupnosti](../Images/IssuedInvoicesSupplyOfGoodsList.png "Izdani računi za dobave blaga znotraj skupnosti")
+![Izdani računi za dobave blaga znotraj skupnosti](../Images/IssuedInvoicesSupplyOfGoodsListSL.png "Izdani računi za dobave blaga znotraj skupnosti")
 
 ## Namen
 

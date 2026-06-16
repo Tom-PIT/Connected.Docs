@@ -48,7 +48,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravlja
 
 Seznam prikazuje vse definirane predloge za temeljnice.
 
-![Seznam predlog za temeljnice](../../Images/JournalEntryTemplatesList.png "Seznam predlog za temeljnice")
+![Seznam predlog za temeljnice](../../Images/JournalEntryTemplatesListSL.png "Seznam predlog za temeljnice")
 
 Vsaka vrstica prikazuje:
 
@@ -71,7 +71,7 @@ Za ustvarjanje nove predloge temeljnice:
    - **Ime**
 4. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev vnosa
 
-![Nova predloga za temeljnico](../../Images/JournalEntryTemplatesNew.png "Nova predloga za temeljnico")
+![Nova predloga za temeljnico](../../Images/JournalEntryTemplatesNewSL.png "Nova predloga za temeljnico")
 
 ### Urediti predloge za temeljnico
 
@@ -85,7 +85,7 @@ Vsaka predloga temeljnice lahko vsebuje eno ali več **postavk**, ki določajo p
 
 Za upravljanje postavk kliknite **Postavke** pri izbrani predlogi temeljnice.
 
-![Gumb za postavke predloge](../../Images/JournalEntryTemplatesDetailsButton.png "Gumb za postavke predloge")
+![Gumb za postavke predloge](../../Images/JournalEntryTemplatesDetailsButtonSL.png "Gumb za postavke predloge")
 
 ### Seznam postavk
 
@@ -97,7 +97,7 @@ Vsaka vrstica prikazuje:
 - **Debetni** ali **kreditni konto**
 - **Vrstni red**
 
-![Seznam postavk predloge](../../Images/JournalEntryTemplatesDetailsList.png "Seznam postavk predloge")
+![Seznam postavk predloge](../../Images/JournalEntryTemplatesDetailsListSL.png "Seznam postavk predloge")
 
 ### Dodati postavko predloge temeljnice
 
@@ -112,7 +112,7 @@ Za dodajanje nove postavke:
    - **Opis**
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev vnosa
 
-![Nova postavka predloge](../../Images/JournalEntryTemplatesDetailsNew.png "Nova postavka predloge")
+![Nova postavka predloge](../../Images/JournalEntryTemplatesDetailsNewSL.png "Nova postavka predloge")
 
 ## Izbrisati predlogo za temeljnico
 

@@ -11,7 +11,7 @@ Gre za **analitični pogled samo za branje**, namenjen računovodstvu in poroča
 
 Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Zaloga** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Zaloga glavne knjige](../Images/StockViewLedger.png "Zaloga glavne knjige")
+![Zaloga glavne knjige](../Images/StockViewLedgerSL.png "Zaloga glavne knjige")
 
 > [!NOTE]  
 > Ta pogled predstavlja **vrednotenje zaloge na podlagi glavne knjige** in je ločen od pogledov zaloge v logističnem modulu.

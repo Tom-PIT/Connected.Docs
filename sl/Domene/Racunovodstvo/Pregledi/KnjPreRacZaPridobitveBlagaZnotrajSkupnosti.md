@@ -14,7 +14,7 @@ Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi
 > [!NOTE]  
 > Ta pogled je namenjen poročanju in preverjanju. Ne nadomešča uradnih DDV obračunov, temveč podpira notranjo kontrolo in usklajevanje.
 
-![Knj. pre. rač. za pridobitve blaga znotraj skupnosti](../Images/ReceivedInvoicesSupplyOfGoods.png "Knj. pre. rač. za pridobitve blaga znotraj skupnosti")
+![Knj. pre. rač. za pridobitve blaga znotraj skupnosti](../Images/ReceivedInvoicesSupplyOfGoodsSL.png "Knj. pre. rač. za pridobitve blaga znotraj skupnosti")
 
 ## Namen
 

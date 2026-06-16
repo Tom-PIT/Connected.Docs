@@ -29,13 +29,13 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravlja
 - **Znesek (na enoto)** prikazuje sistemsko izračunano vrednost, če je na voljo. Ob inicializaciji je lahko ta vrednost nič ali določena na podlagi nastavitev vrednotenja materiala.
 - **Dejanski znesek (na enoto)** se uporablja za ročni vnos začetne vrednosti zaloge. Pri materialih z več serijskimi številkami se praviloma vnese enaka vrednost na enoto za vse serije istega materiala.
 
-![Urejanje začetnega stanja – vnos vrednosti](../../Images/StockInitialStatesDocumentDraftEdit.png "Urejanje začetnega stanja – vnos vrednosti")
+![Urejanje začetnega stanja – vnos vrednosti](../../Images/StockInitialStatesDocumentDraftEditSL.png "Urejanje začetnega stanja – vnos vrednosti")
 
 ## Seznam dokumentov
 
 Seznam prikazuje po en dokument začetnega stanja na skladišče, v stanju **Osnutek** ali **Objavljeno**. Na voljo sta iskanje in filtriranje.
 
-![Seznam začetnih stanj zaloge](../../Images/StockInitialStatesList.png "Seznam začetnih stanj zaloge")
+![Seznam začetnih stanj zaloge](../../Images/StockInitialStatesListSL.png "Seznam začetnih stanj zaloge")
 
 Vsaka vrstica prikazuje:
 - **Šifro**
@@ -53,7 +53,7 @@ Za ustvarjanje novega začetnega stanja zaloge:
 1. Kliknite [akcijski gumb](../../../../Skupno/UI/AkcijskiGumb.md).
 2. Izberite **Skladišče**.
 
-   ![Izbira skladišča](../../Images/StockInitialStatesWarehouse.png "Izbira skladišča")
+   ![Izbira skladišča](../../Images/StockInitialStatesWarehouseSL.png "Izbira skladišča")
 
 3. Kliknite **Ustvari**.
 

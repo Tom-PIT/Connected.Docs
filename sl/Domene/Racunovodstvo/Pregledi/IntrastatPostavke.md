@@ -9,7 +9,7 @@ Pogled **Intrastat postavke** omogoča pregled transakcij, ki so predmet poroča
 
 Za dostop do tega zaslona pojdite na **Računovodstvo / Pregledi / Intrastat** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Intrastat pogled](../Images/IntrastatView.png)
+![Intrastat pogled](../Images/IntrastatViewSL.png)
 
 > [!NOTE]
 > Ta pogled je samo za branje. Popravke je treba opraviti v izvornih dokumentih ali ustreznih šifrantih, nato pa se pogled Intrastat samodejno ponovno izračuna.

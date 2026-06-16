@@ -14,7 +14,7 @@ Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi
 > [!NOTE]  
 > Ta pogled prikazuje samo **izdane račune, ki ustvarijo davčne knjižbe**. Namenjen je davčnemu pregledu in poročanju ter ne nadomešča uradnega obračuna DDV.
 
-![Knjiga izdanih računov](../Images/IssuedInvoicesTaxBookList.png "Knjiga izdanih računov")
+![Knjiga izdanih računov](../Images/IssuedInvoicesTaxBookListSL.png "Knjiga izdanih računov")
 
 ## Namen pogleda
 

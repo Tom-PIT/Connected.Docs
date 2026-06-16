@@ -44,7 +44,7 @@ Vsaka vrstica vsebuje:
 
 Seznam je mogoče preiskovati z iskalnim poljem v zgornjem desnem kotu.
 
-![Privzeti konti – seznam](../../Images/AccountDefaultsList.png "Privzeti konti – seznam")
+![Privzeti konti – seznam](../../Images/AccountDefaultsListSL.png "Privzeti konti – seznam")
 
 ## Dejanja
 
@@ -60,7 +60,7 @@ Za ustvarjanje novega privzetega konta:
    - **Konto**
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za preklic
 
-![Privzeti konti – novo](../../Images/AccountDefaultsNew.png "Privzeti konti – novo")
+![Privzeti konti – novo](../../Images/AccountDefaultsNewSL.png "Privzeti konti – novo")
 
 ### Urediti privzeti konto
 

@@ -9,7 +9,7 @@ Pogled **Konto kartica** omogoča podroben pregled **debetnih in kreditnih knji�
 
 Do pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Konto kartica** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Konto kartica](../Images/AccountCard.png "Konto kartica")
+![Konto kartica](../Images/AccountCardSL.png "Konto kartica")
 
 ## Namen pogleda
 
