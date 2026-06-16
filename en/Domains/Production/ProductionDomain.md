@@ -81,7 +81,7 @@ Available configuration and code lists include:
 - **[Organization units](Management/OrganizationUnits.md)** – Hierarchical production units used for planning and analytics.
 - **[Processes](Management/Processes.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
 - **[Protocol operation instance templates](Management/ProtocolOperationsInstanceTemplates.md)** – Templates for step-by-step operation protocols.
-- **[Resources](Management/Resources.md)** – Human and non-human resources used in production.
+- **[Resources](../Resources/Management/Resources.md))** – Human and non-human resources used in production.
 - **[Warehouse locations](Management/WarehouseLocations.md)** – Logistics-backed staging and storage locations for production.
 
 These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.

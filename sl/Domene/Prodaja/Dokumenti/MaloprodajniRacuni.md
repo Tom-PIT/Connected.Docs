@@ -33,7 +33,7 @@ Za prilagoditev zaloge:
 
 Da se maloprodajni izdani račun lahko davčno potrdi, morajo biti izpolnjeni naslednji pogoji:
 
-1. **Osebna konfiguracija:** Oseba, ki ustvarja račun, mora imeti določeno **davčno številko** v svojem [zapisu vira](../../Proizvodnja/Upravljanje/Viri.md).
+1. **Osebna konfiguracija:** Oseba, ki ustvarja račun, mora imeti določeno **davčno številko** v svojem [zapisu vira](../../Viri/Upravljanje/Viri.md).
 2. **Sistemska konfiguracija:** Sistem mora biti nastavljen za davčno potrjevanje, potrebne [nastavitve davčnega potrjevanja](../../Sistem/Nastavitve/KonfiguracijaMaloprodajaSI.md) pa morajo biti pravilno konfigurirane.
 3. **Konfiguracija blagajne:** Konfiguracija konkretne blagajne, uporabljene za transakcijo. To konfiguracijo nastavi ekipa **Tom PIT** ob implementaciji in je uporabnik ne more spreminjati. Specifične blagajne so nastavljene na zaslonu [Stroškovna mesta](../../../Skupno/Upravljanje/StroskovnaMesta.md).
 

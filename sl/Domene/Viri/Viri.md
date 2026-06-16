@@ -81,7 +81,7 @@ Razpoložljive nastavitve in osnovni podatki vključujejo:
 - **[Delovna mesta](../Proizvodnja/Upravljanje/SistematizacijaDelovnihMest.md)**  
 - **[Organizacijske enote](../Proizvodnja/Upravljanje/OrganizacijskeEnote.md)**  
 - **[Kategorije opomnikov](Upravljanje/KategorijeOpomnikov.md)**  
-- **[Viri](../Proizvodnja/Upravljanje/Viri.md)**  
+- **[Viri](../Viri/Upravljanje/Viri.md)**  
 - **[Tipi bolniških odsotnosti](Upravljanje/TipiBolniskihOdsotnosti.md)**  
 - **[Dnevnice](Upravljanje/Dnevnice.md)**  
 - **[Časovni plani](Upravljanje/CasovniPlani.md)**  

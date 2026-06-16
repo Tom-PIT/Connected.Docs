@@ -19,8 +19,8 @@ To access this page, open a process version from **Production / Management / [Pr
 
 | Field | Description |
 |-------|-------------|
-| **Type** | Defines what kind of non-human resource is used: <br>• [**Resource**](../Management/Resources.md)<br>• **Resource category** |
-| [**Resource**](../Management/Resources.md) | The specific resource or resource category selected based on the chosen **Type**. |
+| **Type** | Defines what kind of non-human resource is used: <br>• [**Resource**](../../Resources/Management/Resources.md)<br>• **Resource category** |
+| [**Resource**](../../Resources/Management/Resources.md) | The specific resource or resource category selected based on the chosen **Type**. |
 | **Calculation type** | Defines how the planned time is calculated. <br>• **Dynamic** – time is calculated according to production quantity or other process parameters. <br>• **Dynamic by batch** – time is calculated according to a specific batch. <br>• **Static** – Quantity is fixed. |
 | **Quantity** | Planned usage time for the resource, entered as a duration (days, hours, minutes, seconds, milliseconds). |
 | **Tags** | Optional labels used to categorize or filter non-human resource assignments. |

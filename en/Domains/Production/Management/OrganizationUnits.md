@@ -44,7 +44,7 @@ Each record includes a status indicator to the left of its name:
 
 ![Organization Units Resources Buttons](../Images/OrganizationUnitsResourcesButtons1.png "Organization Units Resources Buttons")
 
-Use the buttons under each organization unit to attach human, non-human resources, and quality checklists to the selected organization unit. See **[Resources](Resources.md)** for details on defining people, machines, teams, and maintenance tools.
+Use the buttons under each organization unit to attach human, non-human resources, and quality checklists to the selected organization unit. See **[Resources](../../Resources/Management/Resources.md)** for details on defining people, machines, teams, and maintenance tools.
 
 ### Actions
 

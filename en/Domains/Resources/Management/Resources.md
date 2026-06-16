@@ -5,9 +5,9 @@
 
 # Resources
 
-Resources are used to define and manage all **human** and **non-human** assets available across **Production** and **Maintenance**. These include workers, technicians, machines, workstations, tools, test equipment, and teams. Resources created here can later be assigned to **[operations](Operations.md)**, **[processes](Processes.md)**, and documents such as **[production orders](../Documents/ProductionOrders.md)** and **[maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md)**.
+Resources are used to define and manage all **human** and **non-human** assets available across **Production** and **Maintenance**. These include workers, technicians, machines, workstations, tools, test equipment, and teams. Resources created here can later be assigned to **[operations](../../Production/Management/Operations.md)**, **[processes](../../Production/Management/Processes.md)**, and documents such as **[production orders](../../Production/Documents/ProductionOrders.md)** and **[maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md)**.
 
-To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Resources** in the [navigation](../../../Common/UI/Navigation.md).
+To access this page, navigate to the **Production**, **Resources**, or **Maintenance** domains, then go to **Management / Resources** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Resources](https://www.youtube.com/watch?v=Kr5WkGMQj48)** video tutorial.

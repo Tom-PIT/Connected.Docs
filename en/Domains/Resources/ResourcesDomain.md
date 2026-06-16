@@ -84,7 +84,7 @@ Available configuration and master data include:
 - **[Job positions](../Production/Management/JobPositions.md)**  
 - **[Organization units](../Production/Management/OrganizationUnits.md)**  
 - **[Reminder categories](Management/ReminderCategories.md)**  
-- **[Resources](../Production/Management/Resources.md)**  
+- **[Resources](../Resources/Management/Resources.md)**  
 - **[Sick leave types](Management/SickLeaveTypes.md)**  
 - **[Subsistence allowances](Management/SubsistenceAllowances.md)**  
 - **[Timesheets](Management/Timesheets.md)**  

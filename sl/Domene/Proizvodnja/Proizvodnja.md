@@ -98,7 +98,7 @@ Na voljo so naslednje nastavitve in šifranti:
 - **[Organizacijske enote](../../Skupno/Upravljanje/PoslovneEnote.md)** – hierarhija organizacijskih enot
 - **[Procesi](Upravljanje/Procesi.md)** – definicije procesov, verzij, operacij, vhodov in izhodov
 - **[Predloge za operacije](Upravljanje/PredlogeZaOperacije.md)** – predloge protokolov operacij
-- **[Viri](Upravljanje/Viri.md)** – človeški in nečloveški viri v proizvodnji
+- **[Viri](../Viri/Upravljanje/Viri.md)** – človeški in nečloveški viri v proizvodnji
 - **[Skladiščne lokacije](Upravljanje/SkladiscneLokacije.md)** – lokacije za proizvodnjo in logistiko
 
 Ti elementi določajo delovanje proizvodnje: razpoložljivost virov, strukturo procesov, nastavitev operacij, preverjanje kakovosti in analitično klasifikacijo.
