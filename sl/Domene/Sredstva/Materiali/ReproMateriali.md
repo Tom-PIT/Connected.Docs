@@ -86,7 +86,7 @@ Za dostop do šifranta **Repro materiali** pojdite na
 
 Uporabniški vmesnik vsebuje seznam repro materialov.
 
-![Repro materiali](../Images/ReproMaterialsList.png "Repro materiali")
+![Repro materiali](../Images/ReproMaterialsListSL.png "Repro materiali")
 
 Seznam prikazuje ime, šifro in način generiranja serijske številke za vsak repro material.
 
@@ -104,7 +104,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo n
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje novega repro materiala.
 
-![Nov repro material](../Images/NewReproMaterial.png "Nov repro material")
+![Nov repro material](../Images/NewReproMaterialSL.png "Nov repro material")
 
 Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
@@ -123,7 +123,7 @@ Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
 
 Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri poročanju.
 
-![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedger.png "Materiali Intrastat in Glavna knjiga")
+![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedgerSL.png "Materiali Intrastat in Glavna knjiga")
 
 > [!WARNING]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
@@ -132,7 +132,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodaten kontekst, vendar ne vplivajo na izračune zaloge.
 
-![Zložljivi razdelki](../Images/MaterialPackagingAdditional.png "Zložljivi razdelki")
+![Zložljivi razdelki](../Images/MaterialPackagingAdditionalSL.png "Zložljivi razdelki")
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite repro material, ali **Prekliči**, da se vrnete na seznam.
 
@@ -147,7 +147,7 @@ Za podrobnosti glejte dokumentacijo
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječi**, da ustvarite nov zapis na podlagi že obstoječega.
 
-![Kopiranje repro materiala](../Images/CopyReproMaterial.png "Kopiranje repro materiala")
+![Kopiranje repro materiala](../Images/CopyReproMaterialSL.png "Kopiranje repro materiala")
 
 Po izbiri osnovnega materiala so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
@@ -155,7 +155,7 @@ Po izbiri osnovnega materiala so vsa polja predizpolnjena in jih je mogoče ured
 
 Za urejanje obstoječega repro materiala kliknite njegovo **Ime** v seznamu. Vmesnik se preklopi v način urejanja.
 
-![Urejanje repro materiala](../Images/EditReproMaterials.png "Urejanje repro materiala")
+![Urejanje repro materiala](../Images/EditReproMaterialsSL.png "Urejanje repro materiala")
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 

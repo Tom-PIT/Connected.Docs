@@ -139,7 +139,21 @@ Once empty, the price list itself can be deleted from the edit screen.
 
 ## Menu
 
-The menu in the details screen provides additional actions for this document.
+This page includes menu actions in two places.
+
+Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+ 
+- **Export to PDF**
+
+### Document menu
+
+The details screen provides actions for the currently opened document.
 
 Available actions:
 
