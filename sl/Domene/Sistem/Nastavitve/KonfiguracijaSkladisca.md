@@ -7,7 +7,7 @@
 
 Nastavitve konfiguracije skladišča omogočajo prilagoditev načina, kako sistem obravnava različne skladiščne operacije, kot so upravljanje zalog in GS1 nastavitve. Do teh nastavitev lahko dostopate in jih urejate v meniju **Warehouse** v stranski vrstici.
 
-![Warehouse Settings Nav](../Images/WarehouseSettingsNav.png "Warehouse Settings Navigation")
+![Warehouse Settings Nav](../Images/WarehouseSettingsNavV2.png "Warehouse Settings Navigation")
 
 ## GS1 settings
 
