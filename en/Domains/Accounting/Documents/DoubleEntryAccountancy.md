@@ -45,13 +45,15 @@ To access this screen, go to **Accounting / Ledger / Double-entry accountancy** 
 
 ## Management
 
-![Journal entry list indicators](../Images/DoubleEntryAccountancyListDetail.png)
-
 ### List view
 
 The list view displays all journal entries and summary indicators.
 
 ![Journal entries – committed list](../Images/DoubleEntryAccountancyCommitedList.png)
+
+Each entry can be expanded to show its related documents.
+
+![Journal entry list indicators](../Images/DoubleEntryAccountancyListDetail.png)
 
 Available filters:
 
@@ -85,15 +87,27 @@ Draft entries with mismatched debit and credit totals cannot be published. Valid
 
 ### Create a journal entry
 
+From the journal entry list, click the [action button](../../../Common/UI/ActionButton.md) and select **Add journal entry**.
+
 ![Create journal entry](../Images/DoubleEntryAccountancyJournalEntryNew.png)
+
+1. Select the **Document type**.
+2. Optionally select a **Template** to prefill posting lines.
+3. Set the **Accounting date**.
+4. Click **Add** to create the journal entry.
+
+### Add posting lines
+
+After creating the journal entry, use the [action button](../../../Common/UI/ActionButton.md) inside the document to add posting or tax lines in the details section.
+
+Available actions:
+
+- **Add posting** – adds a new posting line.
+- **Add tax entry** – adds a new tax entry.
 
 ![Add journal entry action](../Images/DoubleEntryAccountancyJournalEntryNewButton.png)
 
-1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new journal entry.
-2. Select the **Document type**.
-3. Optionally select a **Template** to prefill posting lines.
-4. Set the **Accounting date**.
-5. Add or edit detail lines.
+Edit or add lines as required and save the journal entry.
 
 ### Edit details
 

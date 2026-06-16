@@ -5,13 +5,11 @@
 
 # Plačilni nalogi
 
-Zaslon **Plačilni nalogi** se uporablja za ustvarjanje in upravljanje izhodnih plačilnih nalogov za zunanje prejemnike, kot so dobavitelji ali ponudniki storitev.  
-Plačilni nalogi predstavljajo namero za plačilo in omogočajo sledenje plačilu od osnutka do plačanega stanja.
+Zaslon **Plačilni nalogi** se uporablja za ustvarjanje in upravljanje izhodnih plačilnih nalogov za zunanje prejemnike, kot so dobavitelji ali ponudniki storitev. Plačilni nalogi predstavljajo namero za plačilo in omogočajo sledenje plačilu od osnutka do plačanega stanja.
 
-**Plačilni nalogi** vključujejo podatke o plačniku, prejemniku, znesku in namenu plačila.  
-Zagotavljajo, da so plačila pravilno dokumentirana in sledljiva znotraj računovodskega sistema.
+**Plačilni nalogi** vključujejo podatke o plačniku, prejemniku, znesku in namenu plačila. Zagotavljajo, da so plačila pravilno dokumentirana in sledljiva znotraj računovodskega sistema.
 
-Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi** v [navigaciji](../../../Skupno/UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
+Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!NOTE]
 > - Plačilni nalogi se praviloma ustvarijo na podlagi **prejetih računov**.
@@ -63,7 +61,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 
 Seznam prikazuje vse plačilne naloge in omogoča filtriranje za lažje upravljanje.
 
-![Seznam plačilnih nalogov](../Images/PaymentOrdersList.png "Seznam plačilnih nalogov")
+![Seznam plačilnih nalogov](../Images/PaymentOrdersListSL.png "Seznam plačilnih nalogov")
 
 Na voljo so naslednji filtri:
 
@@ -99,7 +97,7 @@ Plačilni nalogi sledijo enostavnemu življenjskemu ciklu:
 2. Vnesite zahtevane podatke dokumenta, plačnika in prejemnika.
 3. Kliknite **Objavi**, da se plačilni nalog premakne iz *Osnutka* v *Neplačani*.
 
-   ![Plačilni nalog – osnutek](../Images/PaymentOrderNew.png "Plačilni nalog – osnutek")
+   ![Plačilni nalog – osnutek](../Images/PaymentOrderNewSL.png "Plačilni nalog – osnutek")
 
 ### Urediti plačilnega naloga
 
@@ -119,7 +117,7 @@ Ko je plačilni nalog v stanju **Neplačani**, ga lahko označite kot plačanega
 2. Kliknite **Označi kot plačano**
 3. Stanje plačilnega naloga se spremeni v **Plačani**
 
-   ![Plačilni nalog – neplačani](../Images/PaymentOrderUnpaid.png "Plačilni nalog – neplačani")
+   ![Plačilni nalog – neplačani](../Images/PaymentOrderUnpaidSL.png "Plačilni nalog – neplačani")
 
 ## Izbrisati plačilne naloge
 
