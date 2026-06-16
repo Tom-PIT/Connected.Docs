@@ -14,7 +14,7 @@ Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi
 > [!NOTE]  
 > Ta pogled prikazuje samo **prejete račune, ki ustvarijo davčne knjižbe**. Namenjen je davčnemu pregledu in poročanju ter ne nadomešča uradnih DDV poročil.
 
-![Knjiga prejetih računov](../Images/ReceivedInvoicesTaxBookList.png "Knjiga prejetih računov")
+![Knjiga prejetih računov](../Images/ReceivedInvoicesTaxBookListSL.png "Knjiga prejetih računov")
 
 ## Namen pogleda
 

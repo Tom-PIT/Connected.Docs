@@ -29,7 +29,7 @@ Vsaka vrstica vsebuje:
 
 Neaktivni tipi dokumentov so ohranjeni zaradi zgodovinske sledljivosti, vendar jih ni mogoče uporabljati za nove knjižbe.
 
-![Tipi dokumentov – seznam](../../Images/DocumentTypesList.png "Tipi dokumentov – seznam")
+![Tipi dokumentov – seznam](../../Images/DocumentTypesListSL.png "Tipi dokumentov – seznam")
 ## Dejanja
 
 ### Ustvariti tip dokumenta
@@ -43,12 +43,12 @@ Za dodajanje novega tipa dokumenta:
    - **Aktiven** (privzeto omogočeno)
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za zavrnitev vnosa.
 
-![Tipi dokumentov – nov](../../Images/DocumentTypesNew.png "Tipi dokumentov – nov")
+![Tipi dokumentov – nov](../../Images/DocumentTypesNewSL.png "Tipi dokumentov – nov")
 
 ### Urediti tip dokumenta
 
 Kliknite tip dokumenta v seznamu, da ga odprete v načinu urejanja, in po potrebi posodobite polja.
-Kliknite **Shrani** za uveljavitev sprememb ali **PrekliÄi** za zavrnitev.
+Kliknite **Shrani** za uveljavitev sprememb ali **Prekliči** za zavrnitev.
 
 ## Izbrisati tip dokumenta
 

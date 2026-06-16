@@ -15,7 +15,7 @@ Ta pogled se običajno uporablja skupaj z drugimi pregledi glavne knjige (na pri
 
 Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Starostna struktura zaloge** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Starostna struktura zaloge](../Images/StockAgeStructureList.png "Starostna struktura zaloge")
+![Starostna struktura zaloge](../Images/StockAgeStructureListSL.png "Starostna struktura zaloge")
 
 ## Pregled
 
