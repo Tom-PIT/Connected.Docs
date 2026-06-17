@@ -21,7 +21,8 @@ Za dostop do področja Nabava pojdite na **Nabava** v [navigaciji](../../Skupno/
 Področje je organizirano v več funkcionalnih sklopov:
 
 - **[Dokumenti](#dokumenti)** – nabavni dokumenti za povpraševanje in naročanje materialov  
-- **[Planiranje nabave po mejah zaloge](#planiranje-nabave-po-mejah-zaloge)** – planiranje na podlagi pravil mej zaloge  
+- **[Planiranje nabave po mejah zaloge](Dokumenti/PlaniranjeNabavePoMejahZaloge.md)** – planiranje na podlagi pravil mej zaloge
+- **[Planiranje nabave po naročilih strank](Dokumenti/PlaniranjeNabavePoNarocilihStrank.md)** – planiranje na podlagi prodajnega povpraševanja
 - **[Pregledi](#pregledi)** – analitični pregledi za spremljanje nabavnih trendov  
 - **[Šifranti](#sifranti)** – nastavitve in osnovni podatki za nabavne procese
 
@@ -42,12 +43,6 @@ Ti dokumenti predstavljajo osnovo nabavnega procesa in omogočajo popolno sledlj
 
 > [!NOTE]
 > Nabavni dokumenti sledijo standardnim statusom, kot sta Osnutek in Potrjeno. Razpoložljivost akcij je odvisna od trenutnega statusa dokumenta.
-
-## Planiranje nabave po mejah zaloge
-
-Razdelek **[Planiranje nabave po mejah zaloge](Dokumenti/PlaniranjeNabavePoMejahZaloge.md)** nudi orodja za planiranje na podlagi pravil mej zaloge in pragov za obnovo materialov. Pravila mej zaloge so določena v **Logistiki** v razdelku [Meje zaloge](../Logistika/Upravljanje/MejeZaloge.md).
-
-Omogoča proaktivno planiranje ter preprečuje pomanjkanje ali presežke zalog.
 
 ## Pregledi
 
