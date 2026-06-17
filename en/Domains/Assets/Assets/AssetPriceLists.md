@@ -37,11 +37,11 @@ The list can be filtered by:
 - **Type** (e.g., Company)
 - **Entity** (e.g., Customer)
 
-![Asset price lists](../Images/AssetPriceLists.png "Asset price lists list")
+![Asset price lists](../Images/AssetPriceListsV2.png "Asset price lists list")
 
 Clicking the **Details** button opens the page where assets and discount ranges are managed.
 
-![Detail ranges](../Images/AssetPriceListsDetailsEdit.png "Ranges and asset details")
+![Details list](../Images/AssetPriceListsDetailsListV2.png "Details list screen")
 
 ## Actions
 
@@ -64,23 +64,27 @@ Follow these steps to create a functional price list:
 3. Click **Add** to save the price list header.
 4. Click the **Details** button to open the pricing page.
    
-   ![Details button](../Images/AssetPriceListsDetailsButton.png "Open price list details")
+   ![Details button](../Images/AssetPriceListsDetailsButtonV2.png "Open price list details")
 
-5. Add one or more **Assets** to the list using the action button.
+5. Click the action button and select **New** to add an asset to the price list. 
   
-   ![Details list](../Images/AssetPriceListsDetailsList.png "Details list screen")
+   ![Detail ranges](../Images/AssetPriceListsDetailsEditV2.png "Ranges and asset details")
 
-6. (Optional) Add **Ranges** to define quantity-based discounts. In the example below, if the customer buys between 5 and 100 assets, the percentage of the price will be 90% (10% discount).
+6. Select the asset, the field **Item price net 100%** is automatically filled.
+
+7. (Optional) Add **Ranges** to define quantity-based discounts. In the example below, if the customer buys between 5 and 100 assets, the percentage of the price will be 90% (10% discount).
 
    ![Add range example](../Images/AssetPriceListsDetailsRange.png "Example of range discount")
 
-7. Save the details. The price list is now active for the selected customer during the specified period.
+8. Save the details. Repeat from step 5 to add more assets to the price list.
+ 
+The price list is now active for the selected customer during the specified period.
 
 ### Edit a price list
 
 Clicking the **price list name** opens the **Edit** screen. Here you can modify the price list header information, but not the assets or ranges. To edit assets and ranges, click the **Details** button as described in the previous section.
 
-![Edit price list](../Images/AssetPriceListsEdit.png "Edit asset price list")
+![Edit price list](../Images/AssetPriceListsEditV2.png "Edit asset price list")
 
 ### Copy a price list
 
@@ -90,6 +94,7 @@ Creates a duplicate of an existing price list, including its validity range and 
 
 The **Import** screen allows you to import a CSV file with the list of details.
 
+![Import price list](../Images/AssetPriceListsImport.png "Import price list")
 
 ### Delete a price list
 
