@@ -29,7 +29,7 @@ Za dostop do tega zaslona pojdite na **Stranke / Prijave / Rešene prijave** v [
 
 Seznam prikazuje vse prijave s stanjem **Rešeno**.
 
-![Seznam rešenih prijav](../Images/ResolvedTicketsList.png)
+![Seznam rešenih prijav](../Images/ResolvedTicketsListSL.png)
 
 Vsaka vrstica prikazuje:
 - številko in zadevo prijave,

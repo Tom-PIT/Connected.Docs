@@ -9,7 +9,7 @@ Zaslon **Nastavitve obvestil** uporabnikom omogoča prilagoditev, **katera obves
 
 Za dostop do tega zaslona pojdite na **Stranke / Upravljanje / Nastavitve obvestil** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Nastavitve obvestil](../Images/NotificationSettings.png "Nastavitve obvestil")
+![Nastavitve obvestil](../Images/NotificationSettingsSL.png "Nastavitve obvestil")
 
 ## Shema
 
