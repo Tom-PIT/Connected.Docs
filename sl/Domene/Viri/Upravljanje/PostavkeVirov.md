@@ -24,11 +24,11 @@ Za dostop do **Postavk virov** pojdite na **Viri / Upravljanje / Postavke virov*
 
 Seznam prikazuje vse vire, ki imajo definirane postavke. Vsaka vrstica predstavlja en vir.
 
-![Pregled postavk virov](../Images/ResourcesCostsList.png "Pregled postavk virov")
+![Pregled postavk virov](../Images/ResourcesCostsListSL.png "Pregled postavk virov")
 
 Razširite vir za prikaz njegove **zgodovine postavk** in hitrih dejanj.
 
-![Razširjen pogled postavk vira](../Images/ResourcesCostsListDetail.png "Razširjen pogled postavk vira")
+![Razširjen pogled postavk vira](../Images/ResourcesCostsListDetailSL.png "Razširjen pogled postavk vira")
 
 ### Filtri
 
@@ -41,7 +41,7 @@ Uporabite filtre na levi strani za zoženje nabora virov:
 
 Za dodajanje nove postavke za vir uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md). Izpolnite polja in kliknite **Dodaj**.
 
-![Urejanje postavke vira](../Images/ResourcesCostsNew.png "Urejanje postavke vira")
+![Urejanje postavke vira](../Images/ResourcesCostsNewSL.png "Urejanje postavke vira")
 
 #### Posebna vedenja / validacije
 
@@ -55,7 +55,7 @@ Za dodajanje nove postavke za vir uporabite [akcijski gumb](../../../Skupno/UI/A
 2. Izpolnite polja, opisana v razdelku [**Shema**](#shema).
 3. Kliknite **Dodaj** za shranjevanje.
 
-![Dodaj postavko vira](../Images/ResourcesCostsAddCost.png "Dodaj postavko vira")
+![Dodaj postavko vira](../Images/ResourcesCostsAddCostSL.png "Dodaj postavko vira")
 
 ### Urejati postavko
 

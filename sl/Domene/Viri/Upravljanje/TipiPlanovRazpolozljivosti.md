@@ -21,7 +21,7 @@ Za dostop do **Tipov planov razpoložljivosti** pojdite na **Viri / Upravljanje 
 
 Seznamski pogled prikazuje vse konfigurirane tipe planov razpoložljivosti.
 
-![Seznam tipov planov razpoložljivosti](../Images/AvailabilityPlanTypes1.png "Seznam tipov planov razpoložljivosti")
+![Seznam tipov planov razpoložljivosti](../Images/AvailabilityPlanTypesSL.png "Seznam tipov planov razpoložljivosti")
 
 Za vsak vnos so prikazane naslednje informacije:
 
@@ -37,7 +37,7 @@ Klik na element v seznamu odpre njegov **zaslon za urejanje**.
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite nov vnos.
 
-![Ustvari tip plana razpoložljivosti](../Images/AvailabilityPlanTypesNew.png "Ustvari tip plana razpoložljivosti")
+![Ustvari tip plana razpoložljivosti](../Images/AvailabilityPlanTypeNewSLV2.png "Ustvari tip plana razpoložljivosti")
 
 Spremembe se po shranjevanju uveljavijo takoj in vplivajo na vse zaslone, kjer je mogoče izbirati tipe razpoložljivosti.
 

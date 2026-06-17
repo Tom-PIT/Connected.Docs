@@ -30,7 +30,7 @@ Seznam omogoča iskanje in hitro navigacijo.
 
 Klik na vnos ga odpre za urejanje.
 
-![Seznam dnevnic](../Images/SubsistenceAllowancesList.png "Seznam dnevnic")
+![Seznam dnevnic](../Images/SubsistenceAllowancesListSL.png "Seznam dnevnic")
 
 ### Uporaba v drugih modulih
 
@@ -52,7 +52,7 @@ Za ustvarjanje nove dnevnice:
 4. Vnesite **Znesek**, **Polovični znesek** in **Znižani znesek**.
 5. Kliknite **Dodaj** za shranjevanje.
 
-![Dodaj dnevnico](../Images/SubsistenceAllowancesNew.png "Dodaj dnevnico")
+![Dodaj dnevnico](../Images/SubsistenceAllowancesNewSL.png "Dodaj dnevnico")
 
 ### Urejati dnevnico
 
