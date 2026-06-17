@@ -26,7 +26,7 @@ Za dostop do tega zaslona pojdite na **Znanje / Upravljanje / Imeniki** v [navig
 
 ### Seznam imenikov
 
-![Seznam imenikov](../Images/DirectoriesList.png "Seznam imenikov")
+![Seznam imenikov](../Images/DirectoriesListSL.png "Seznam imenikov")
 
 Seznamski pogled prikazuje vse konfigurirane imenike.
 
@@ -56,7 +56,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za dodajanje novega
 - **Slika** (neobvezno)
 - **Omogočen** – določa, ali je imenik viden v [**bazi znanja**](../BazaZnanja/BazaZnanja.md)
 
-![Nov imenik](../Images/DirectoriesNew.png "Nov imenik")
+![Nov imenik](../Images/DirectoriesNewSL.png "Nov imenik")
 
 Kliknite **Dodaj**, da shranite nov imenik.
 
@@ -69,7 +69,7 @@ Po ustvarjanju imenika so na voljo dodatne možnosti neposredno iz seznama:
 - **[Članki](Clanki.md)** – upravljanje člankov v imeniku  
 - **[Kazalo](Kazalo.md)** – določanje navigacijske strukture znotraj imenika  
 
-![Povezave imenika](../Images/DirectoriesLinks.png "Povezave imenika")
+![Povezave imenika](../Images/DirectoriesLinksSL.png "Povezave imenika")
 
 > [!NOTE]
 > Imeniki določajo **samo strukturo**.  

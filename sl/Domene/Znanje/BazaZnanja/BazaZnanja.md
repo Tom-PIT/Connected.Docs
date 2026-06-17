@@ -17,7 +17,7 @@ Začetna stran **Baze znanja** je zasnovana tako, da uporabnikom omogoča hitro 
 
 Zaslon je samo za branje, razen **komentarjev** pri člankih, kjer je komentiranje omogočeno.
 
-![Baza znanja](../Images/KnowledgeBase.png "Baza znanja")
+![Baza znanja](../Images/KnowledgeBaseSL.png "Baza znanja")
 
 ## Iskati in filtri
 
@@ -53,7 +53,7 @@ Klik na ploščico imenika odpre **pogled imenika**, kjer lahko uporabniki navig
 
 Klik na imenik v razdelku **Prebrskaj vse teme** odpre **pogled imenika**, ki prikazuje članke znotraj izbranega imenika.
 
-![Pogled imenika baze znanja](../Images/KnowledgeBaseDirectory.png "Pogled imenika baze znanja")
+![Pogled imenika baze znanja](../Images/KnowledgeBaseDirectorySL.png "Pogled imenika baze znanja")
 
 Pogled imenika vključuje:
 
@@ -65,17 +65,17 @@ V pogledu imenika meni omogoča:
 - urejanje oznak in
 - urejanje imenika.
 
-![Meni imenika](../Images/DirectoriesMenu.png "Meni imenika")
+![Meni imenika](../Images/DirectoriesMenuSL.png "Meni imenika")
 
 ### Kazalo
 
 Za pregled vseh člankov v imeniku odprite **kazalo** z uporabo **ikone menija** v zgornjem levem kotu.
 
-![Hamburger meni imenika](../Images/KnowledgeBaseDirectoryHamburger.png "Hamburger meni imenika")
+![Hamburger meni imenika](../Images/KnowledgeBaseDirectoryHamburgerSL.png "Hamburger meni imenika")
 
 Kazalo prikazuje strukturo imenika in razpoložljive članke. Klik na članek ga odpre v [pogledu članka](#pogled-članka).
 
-![Kazalo imenika](../Images/KnowledgeBaseDirectoryTOC.png "Kazalo imenika")
+![Kazalo imenika](../Images/KnowledgeBaseDirectoryTOCSL.png "Kazalo imenika")
 
 Struktura imenikov in kazala je nastavljena v **[Imeniki](../Upravljanje/Imeniki.md)** in **[Kazalo](../Upravljanje/Kazalo.md)**.
 
@@ -83,7 +83,7 @@ Struktura imenikov in kazala je nastavljena v **[Imeniki](../Upravljanje/Imeniki
 
 Klik na članek odpre **pogled članka**, kjer je prikazana celotna vsebina.
 
-![Pogled članka](../Images/KnowledgeBaseArticle.png "Pogled članka")
+![Pogled članka](../Images/KnowledgeBaseArticleSL.png "Pogled članka")
 
 Pogled članka vključuje:
 
