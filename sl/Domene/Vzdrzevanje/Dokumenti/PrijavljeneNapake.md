@@ -17,7 +17,7 @@ Za dostop do prijavljenih napak pojdite na **Vzdrževanje / Prijavljene napake**
 Stran **Prijavljene napake** prikazuje vse prijavljene napake, razvrščene glede
 na dodelitev.
 
-![Seznam prijavljenih napak](../Images/ReportedMalfunctions.png)
+![Seznam prijavljenih napak](../Images/ReportedMalfunctionsSL.png)
 
 ### Pregled statusov
 
@@ -42,7 +42,7 @@ Iskalno polje omogoča filtriranje po kodi napake ali nazivu opreme.
 
 Klik na napako v seznamu odpre zaslon s podrobnostmi napake.
 
-![Podrobnosti prijavljene napake](../Images/ReportedMalfunctionsReport.png)
+![Podrobnosti prijavljene napake](../Images/ReportedMalfunctionsReportSL.png)
 
 Pogled podrobnosti vključuje naslednja polja:
 
@@ -61,7 +61,7 @@ Na tem zaslonu lahko vzdrževalne ekipe pregledajo prijavljeno napako in se odlo
 Za ustvarjanje nove prijave napake kliknite
 [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md).
 
-![Nova prijava napake](../Images/ReportedMalfunctionsNew.png)
+![Nova prijava napake](../Images/ReportedMalfunctionsNewSL.png)
 
 Izpolnite podatke o napaki in kliknite **PRIJAVI**.
 Nova prijava se prikaže v seznamu prijavljenih napak.
@@ -71,7 +71,7 @@ Nova prijava se prikaže v seznamu prijavljenih napak.
 Na zaslonu s podrobnostmi napake kliknite **Ustvari vzdrževalni nalog**, da
 ustvarite [**vzdrževalni nalog**](VzdrzevalniNalogi.md) na podlagi prijavljene napake.
 
-![Ustvarjanje vzdrževalnega naloga iz napake](../Images/ReportedMalfunctionsMaintenanceOrder.png)
+![Ustvarjanje vzdrževalnega naloga iz napake](../Images/ReportedMalfunctionsMaintenanceOrderSL.png)
 
 To dejanje ustvari **kurativni vzdrževalni nalog** z naslednjimi lastnostmi:
 
