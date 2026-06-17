@@ -1,16 +1,16 @@
 <!-- app_route: /supply/documents/supply-planning-by-sales -->
-<!-- app_label: Planiranje nabave po prodaji -->
+<!-- app_label: Planiranje nabave po naročilih strank -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/PlaniranjeNabavePoProdaji.md -->
-<!-- canonical_source_title: Planiranje nabave po prodaji -->
+<!-- canonical_source_title: Planiranje nabave po naročilih strank -->
 
-# Planiranje nabave po prodaji
+# Planiranje nabave po naročilih strank
 
-Pogled **Planiranje nabave po prodaji** omogoča načrtovanje nabav na podlagi **prodajnega povpraševanja**.  
+Pogled **Planiranje nabave po naročilih strank** omogoča načrtovanje nabav na podlagi **prodajnega povpraševanja**.  
 Uporablja enak delovni tok kot **[Planiranje nabave po mejah zaloge](PlaniranjeNabavePoMejahZaloge.md)**, hkrati pa vključuje podatke o **prodanih količinah**, ki pomagajo pri določanju prioritet obnove zaloge glede na nedavno prodajno aktivnost (ne glede na stanje).
 
 Pogled je namenjen operativnemu delu in omogoča neposredno ustvarjanje **[nabavnih nalogov](NabavniNalogi.md)** ter **[povpraševanj](Povprasevanja.md)**.
 
-Za dostop do tega pogleda pojdite na **Nabava / Dokumenti / Planiranje nabave po prodaji** v [navigaciji](../../../Skupno/UI/Navigacija.md).
+Za dostop do tega pogleda pojdite na **Nabava / Dokumenti / Planiranje nabave po naročilih strank** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Seznam
 

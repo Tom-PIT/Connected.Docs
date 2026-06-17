@@ -21,11 +21,12 @@ To access Supply, navigate to **Supply** in the [navigation](../../Common/UI/Nav
 The domain is organized into several functional areas:
 
 - **[Documents](#documents)** – procurement documents used to request or order materials  
-- **[Supply stock boundaries planning](#supply-stock-boundaries-planning)** – planning tools based on stock boundary rules  
+- **[Supply stock boundaries planning](Documents/SupplyStockBoundariesPlanning.md)** – planning tools based on stock boundary rules  
+- **[Supply planning by sales orders](Documents/SupplyPlanningBySales.md)** – planning based on sales demand
 - **[Views](#views)** – analytical tools for understanding procurement trends  
 - **[Management](#management)** – code lists and configuration for supplier-related processes
 
-![Supply Domain Overview](Images/SupplyDomainOverview.png "Supply Domain Overview")
+![Supply Domain Overview](Images/SupplyDomainOverviewV2.png "Supply Domain Overview")
 
 ## Documents
 
@@ -42,12 +43,6 @@ These documents initiate the procurement workflow and provide full traceability 
 
 > [!NOTE]
 > Supply documents follow standard states such as Draft and Committed. Availability of actions depends on the current state.
-
-## Supply stock boundaries planning
-
-The **[Supply stock boundaries planning](Documents/SupplyStockBoundariesPlanning.md)** section provides planning tools based on stock boundary rules and material replenishment thresholds. Stock boundary rules are defined in **Logistics** under [Stock boundaries](../Logistics/Management/StockBoundaries.md).
-
-It supports proactive planning and prevents stockouts or overstocking.
 
 ## Views
 
