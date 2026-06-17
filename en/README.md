@@ -7,7 +7,7 @@ Welcome to the Connected documentation. This repository contains user guides, do
 ## Start here
 
 - Get an overview and first steps: [**Getting Started**](GettingStarted/00.GettingStarted.md)
-- Learn how to move around the product: [navigation](Common/UI/Navigation.md)
+- Learn how to move around the product: [**Navigation**](Common/UI/Navigation.md)
 - Find all management and configuration docs: [**Management Index**](ManagementIndex.md)
 
 ## How the documentation is organized
