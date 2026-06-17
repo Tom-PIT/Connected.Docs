@@ -22,7 +22,7 @@ Za dostop pojdite na **Znanje / Upravljanje / Oznake imenika** v [navigaciji](..
 
 ### Seznam oznak imenika
 
-![Seznam oznak imenika](../Images/DirectoryTagsList.png)
+![Seznam oznak imenika](../Images/DirectoryTagsListSL.png)
 
 Seznam prikazuje vse definirane oznake.
 
@@ -41,7 +41,7 @@ Kliknite akcijski gumb za dodajanje nove oznake imenika.
 
 Vnesite zahtevano **ime oznake**.
 
-![Nova oznaka imenika](../Images/DirectoryTagsNew.png)
+![Nova oznaka imenika](../Images/DirectoryTagsNewSL.png)
 
 Kliknite **Dodaj**, da shranite oznako.
 
@@ -51,7 +51,7 @@ Oznaka je takoj na voljo za uporabo v [člankih](Clanki.md).
 
 Kliknite oznako v seznamu, da odprete zaslon za urejanje.
 
-![Urejanje oznake imenika](../Images/DirectoryTagsEdit.png)
+![Urejanje oznake imenika](../Images/DirectoryTagsEditSL.png)
 
 Na voljo je:
 - sprememba imena oznake

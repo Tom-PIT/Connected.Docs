@@ -35,7 +35,7 @@ Vsaka vrstica prikazuje:
 - **Naslov članka**
 - **Datum zadnje spremembe**
 
-![Seznam člankov](../Images/ArticlesList.png "Seznam člankov")
+![Seznam člankov](../Images/ArticlesListSL.png "Seznam člankov")
 
 Članke lahko iščete z uporabo **iskalnega polja** v zgornjem desnem kotu.
 
@@ -49,7 +49,7 @@ Kliknite akcijski gumb, da ustvarite nov članek.
 
 Pri ustvarjanju ali urejanju članka so na voljo polja, ki so opisana v razdelku [**Shema**](#shema) zgoraj.
 
-![Urejanje članka](../Images/ArticlesEdit.png "Urejanje članka")
+![Urejanje članka](../Images/ArticlesEditSL.png "Urejanje članka")
 
 Med urejanjem članka kliknite **Pogled** v zgornjem levem kotu za predogled, kako bo članek prikazan v [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
 
@@ -59,7 +59,7 @@ Med urejanjem članka kliknite **Pogled** v zgornjem levem kotu za predogled, ka
 
 Vsebina članka se piše z vgrajenim **urejevalnikom besedila**.
 
-![Urejevalnik besedila](../Images/ArticlesTextEditor.png "Urejevalnik besedila")
+![Urejevalnik besedila](../Images/ArticlesTextEditorSL.png "Urejevalnik besedila")
 
 Urejevalnik ponuja običajne možnosti oblikovanja, ki jih najdemo v večini urejevalnikov besedila, vključno z:
 
