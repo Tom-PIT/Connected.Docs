@@ -38,7 +38,7 @@ Seznam prikazuje prijave v stanjih **Novo** in **Aktivno**. Na vrhu seznama so p
 - **Nedodeljene prijave**
 - **Prijave z visoko prioriteto**
 
-![Seznam prijav](../Images/TicketsList.png)
+![Seznam prijav](../Images/TicketsListSL.png)
 
 Vsaka prijava je prikazana kot vrstica, ki jo je mogoče razširiti za hitra dejanja. Na voljo so naslednja dejanja:
 
@@ -48,7 +48,7 @@ Vsaka prijava je prikazana kot vrstica, ki jo je mogoče razširiti za hitra dej
 - **Spremeni prioriteto**
 - **Dodeli uporabnika**
 
-![Podrobnosti seznama prijav](../Images/TicketsListDetail.png "Podrobnosti seznama prijav")
+![Podrobnosti seznama prijav](../Images/TicketsListDetailSL.png "Podrobnosti seznama prijav")
 
 ### Filtri
 
@@ -79,13 +79,13 @@ Za ustvarjanje nove prijave kliknite [akcijski gumb](../../../Skupno/UI/Akcijski
 
 Prvi korak je izbira **Področja**, kateremu bo prijava pripadala. Za potrditev kliknite akcijski gumb.
 
-![Izbira področja](../Images/TicketsNewStep1.png)
+![Izbira področja](../Images/TicketsNewStep1SL.png)
 
 ### Korak 2: Podrobnosti prijave
 
 V drugem koraku se vnesejo ali uredijo podrobnosti prijave.
 
-![Ustvari prijavo – podrobnosti](../Images/TicketsNewStep2.png)
+![Ustvari prijavo – podrobnosti](../Images/TicketsNewStep2SL.png)
 
 Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) omogoča:
 
@@ -93,7 +93,7 @@ Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) omogoča:
 - objavo kot **Aktivno**
 - objavo kot **Novo** ali **Aktivno** in hkratno **ustvarjanje nove prijave**
 
-![Gumb za objavo prijav](../Images/TicketsPublishTicketsButton.png "Gumb za objavo prijav")
+![Gumb za objavo prijav](../Images/TicketsPublishTicketsButtonSL.png "Gumb za objavo prijav")
 
 ## Delo s prijavami
 
@@ -101,7 +101,7 @@ Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) omogoča:
 
 Klik na naslov prijave odpre celoten pogled prijave.
 
-![Podrobnosti prijave](../Images/TicketActiveView.png)
+![Podrobnosti prijave](../Images/TicketActiveViewSL.png)
 
 Pogled prijave prikazuje:
 
@@ -114,7 +114,7 @@ Pogled prijave prikazuje:
 
 Prijave podpirajo sprotno komunikacijo prek komentarjev.
 
-![Razdelek za komentarje](../Images/TicketCommentSection.png)
+![Razdelek za komentarje](../Images/TicketCommentSectionSL.png)
 
 Pri dodajanju komentarja:
 

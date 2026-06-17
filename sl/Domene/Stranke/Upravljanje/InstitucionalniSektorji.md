@@ -29,7 +29,7 @@ Značilnosti seznama:
 - možnost **iskanja** za hitro filtriranje,
 - klik na vrstico odpre sektor v načinu urejanja.
 
-![Seznam institucionalnih sektorjev](../Images/InstitutionalSectorsList.png)
+![Seznam institucionalnih sektorjev](../Images/InstitutionalSectorsListSL.png)
 
 ## Dejanja
 
@@ -46,7 +46,7 @@ Naslednja dejanja so na voljo prek [akcijskega gumba](../../../Skupno/UI/Akcijsk
    - **Naziv** – polni naziv sektorja (npr. *Javna uprava*)
 3. Kliknite **DODAJ** za shranjevanje.
 
-![Dodaj institucionalni sektor](../Images/InstitutionalSectorsNew.png)
+![Dodaj institucionalni sektor](../Images/InstitutionalSectorsNewSL.png)
 
 ### Urediti institucionalni sektor
 

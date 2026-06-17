@@ -31,7 +31,7 @@ Za dostop do **Urejanja obiskov** pojdite na **Stranke / Obiskovalci / Urejanje 
 
 Seznamski pogled prikazuje vse zabeležene obiske in omogoča hitro filtriranje za lažje iskanje relevantnih vnosov.
 
-![Seznam urejanja obiskov](../Images/VisitorsManagementList.png "Seznam urejanja obiskov")
+![Seznam urejanja obiskov](../Images/VisitorsManagementListSL.png "Seznam urejanja obiskov")
 
 V seznamu so obiski vizualno ločeni po barvah:
 
@@ -73,7 +73,7 @@ Tipičen potek:
 3. Izpolnite podrobnosti obiska (polje **Obiskovalec** je obvezno).
 4. Kliknite **Shrani**.
 
-![Dodaj nov obisk](../Images/VisitorsManagementNew.png "Dodaj nov obisk")
+![Dodaj nov obisk](../Images/VisitorsManagementNewSL.png "Dodaj nov obisk")
 
 Obisk se prikaže v seznamu kot **Najavljen**.
 
@@ -100,7 +100,7 @@ Pri odpiranju zapisa v načinu urejanja se prikaže razdelek **Podpis**.
 
 Obiskovalec lahko izjavo potrdi in se podpiše neposredno v obrazcu.
 
-![Razdelek podpis](../Images/VisitorsManagementSignatureSection.png "Razdelek podpis")
+![Razdelek podpis](../Images/VisitorsManagementSignatureSectionSL.png "Razdelek podpis")
 
 ### Zaključek obiska
 
