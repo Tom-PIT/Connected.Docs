@@ -22,7 +22,7 @@ Za dostop do **Kategorij opomnikov** pojdite na **Viri / Upravljanje / Kategorij
 
 Seznamski pogled kategorij opomnikov prikazuje vse definirane kategorije.
 
-![Seznam kategorij opomnikov](../Images/ReminderCategoriesList.png "Seznam kategorij opomnikov")
+![Seznam kategorij opomnikov](../Images/ReminderCategoriesListSL.png "Seznam kategorij opomnikov")
 
 Vsaka vrstica predstavlja eno kategorijo opomnika. Klik na kategorijo jo odpre za urejanje.
 
@@ -39,7 +39,7 @@ Za ustvarjanje nove kategorije opomnika:
 3. Preverite, ali je **Stanje** omogočeno, če naj bo kategorija na voljo.
 4. Kliknite **Dodaj** za shranjevanje.
 
-![Nova kategorija opomnika](../Images/ReminderCategoriesNew.png "Ustvari kategorijo opomnika")
+![Nova kategorija opomnika](../Images/ReminderCategoriesNewSL.png "Ustvari kategorijo opomnika")
 
 ### Urediti kategorijo opomnika
 

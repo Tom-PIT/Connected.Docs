@@ -9,7 +9,7 @@ Zaslon **Dnevnik prisotnosti – Pregled** omogoča podroben pregled zabeležene
 
 Za dostop do pogleda **Dnevnik prisotnosti – Pregled** pojdite na **Viri / Dnevnik prisotnosti / Pregled** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Pregled dnevnika prisotnosti](../Images/TimeLogsView.png "Pregled dnevnika prisotnosti")
+![Pregled dnevnika prisotnosti](../Images/TimeLogsViewSL.png "Pregled dnevnika prisotnosti")
 
 ## Namen
 
@@ -52,7 +52,7 @@ Vsaka vrstica prikazuje:
 - **Datum**,  
 - **Skupni zabeležen čas za dan**.
 
-![Dnevni časovni vnosi](../Images/TimeLogsViewListDetail.png "Dnevni časovni vnosi")
+![Dnevni časovni vnosi](../Images/TimeLogsViewListDetailSL.png "Dnevni časovni vnosi")
 
 ### Razširiti zapis dneva
 
@@ -69,7 +69,7 @@ Vsak vnos prikazuje čas začetka in konca.
 
 Klik na posamezen vnos (na primer **Delo** ali **Malica**) odpre pogovorno okno **Uredi časovni vnos**.
 
-![Uredi časovni vnos](../Images/TimeLogsViewAdd.png "Uredi časovni vnos")
+![Uredi časovni vnos](../Images/TimeLogsViewAddSL.png "Uredi časovni vnos")
 
 V tem pogovornem oknu lahko pooblaščeni uporabniki:
 
@@ -82,7 +82,7 @@ Spremembe se shranijo takoj in se odražajo v dnevnih in skupnih povzetkih.
 
 Pri urejanju polj **Od** in **Do** se uporablja kombiniran **izbirnik koledarja in ure**.
 
-![Izbirnik datuma in časa](../Images/TimeLogsViewTimeManagement.png "Izbirnik datuma in časa")
+![Izbirnik datuma in časa](../Images/TimeLogsViewTimeManagementSL.png "Izbirnik datuma in časa")
 
 To omogoča natančno izbiro datuma in časa za posamezen časovni vnos. Spremembe se po potrditvi takoj uveljavijo in so vidne v dnevnih seštevkih.
 

@@ -25,7 +25,7 @@ Seznam prikazuje vse definirane tipe bolniških odsotnosti.
 - Klik na vrstico odpre pogled za urejanje  
 - akcijski gumb omogoča ustvarjanje novega tipa bolniške odsotnosti  
 
-![Seznam tipov bolniških odsotnosti](../Images/SickLeaveTypesList.png "Seznam tipov bolniških odsotnosti")
+![Seznam tipov bolniških odsotnosti](../Images/SickLeaveTypesListSL.png "Seznam tipov bolniških odsotnosti")
 
 Ta seznam običajno vzdržujejo administratorji ali kadrovski skrbniki.
 

@@ -27,7 +27,7 @@ Za dostop do **Planov razpoložljivosti** pojdite na **Viri / Pogledi / Plani ra
 Glavni zaslon prikazuje koledar v **dnevnem**, **tedenskem** ali **mesečnem** pogledu.  
 Na levi strani je mogoče izbrati enega ali več **virov**, za katere se plani prikažejo v koledarju.
 
-![Koledar planov razpoložljivosti](../Images/AvailabilityPlansCalendar.png "Koledar planov razpoložljivosti")
+![Koledar planov razpoložljivosti](../Images/AvailabilityPlansCalendarSL.png "Koledar planov razpoložljivosti")
 
 Vsak vnos predstavlja planirano obdobje razpoložljivosti ali nerazpoložljivosti vira.
 
@@ -44,7 +44,7 @@ Pri ustvarjanju ali urejanju plana so na voljo polja, opisana v razdelku [**Shem
 3. Nastavite **Vzorec izvajanja**, **Datum**, **Cel dan**, **Začetek** in **Konec** po potrebi.
 4. Kliknite **Dodaj** za shranjevanje.
 
-![Dodaj plan razpoložljivosti](../Images/AvailabilityPlansNew.png "Dodaj plan razpoložljivosti")
+![Dodaj plan razpoložljivosti](../Images/AvailabilityPlanNewSL.png "Dodaj plan razpoložljivosti")
 
 ### Urediti plan razpoložljivosti
 

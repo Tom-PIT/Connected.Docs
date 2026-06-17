@@ -9,7 +9,7 @@ Pogled **Opomniki** omogoča koledarski pregled načrtovanih opomnikov ter ustva
 
 Za dostop do **Opomnikov** pojdite na **Viri / Opomniki** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Koledar opomnikov](../Images/RemindersCalendar.png)
+![Koledar opomnikov](../Images/RemindersCalendarSL.png)
 
 ## Shema
 
@@ -38,7 +38,7 @@ Premik kazalca nad opomnik prikaže informativni namig z:
 - datumom in časom opomnika,
 - nastavitvijo zamika.
 
-![Podrobnosti opomnika ob prehodu](../Images/RemindersCalendarHover.png)
+![Podrobnosti opomnika ob prehodu](../Images/RemindersCalendarHoverSL.png)
 
 ## Dejanja
 
@@ -46,7 +46,7 @@ Premik kazalca nad opomnik prikaže informativni namig z:
 
 Nov opomnik se ustvari prek pogovornega okna za opomnike.
 
-![Ustvari opomnik](../Images/RemindersCalendarNew.png)
+![Ustvari opomnik](../Images/RemindersCalendarNewSL.png)
 
 Pogovorno okno omogoča nastavitev datuma opomnika, kategorije, uporabnikov in zamika.
 

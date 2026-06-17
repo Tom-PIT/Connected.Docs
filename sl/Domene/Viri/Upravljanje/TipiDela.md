@@ -9,8 +9,6 @@ Tipi dela določajo **kategorije dela**, ki jih je mogoče izbrati pri beleženj
 
 Za dostop do **Tipov dela** pojdite na **Viri / Upravljanje / Tipi dela** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Seznam tipov dela](../Images/EffortTypesList.png "Seznam tipov dela")
-
 ## Shema
 
 | Polje | Opis |
@@ -29,7 +27,7 @@ Seznamski pogled prikazuje vse definirane tipe dela v sistemu.
 - Onemogočeni tipi dela ostanejo shranjeni, vendar jih ni mogoče izbrati.
 - Klik na tip dela ga odpre v načinu urejanja.
 
-![Seznam tipov dela](../Images/EffortTypesList.png "Seznam tipov dela")
+![Seznam tipov dela](../Images/EffortTypesListSL.png "Seznam tipov dela")
 
 ## Dejanja
 
@@ -43,7 +41,7 @@ Pri ustvarjanju ali urejanju tipa dela lahko:
 - Dodate neobvezen **opis**
 - Omogočite ali onemogočite tip dela
 
-![Dodaj tip dela](../Images/EffortTypesNew.png "Dodaj tip dela")
+![Dodaj tip dela](../Images/EffortTypesNewSL.png "Dodaj tip dela")
 
 ### Urejati tip dela
 
@@ -57,7 +55,7 @@ Tipi dela se uporabljajo pri evidentiranju dela na nalogah in izvajanjih.
 
 Pri dodajanju dela uporabnik izbere tip dela iz spustnega seznama, ki je ustvarjen na podlagi te konfiguracije.
 
-![Tipi dela v spustnem seznamu](../Images/EffortTypesInDropdown.png "Tipi dela pri vnosu dela")
+![Tipi dela v spustnem seznamu](../Images/EffortTypesInDropdownSL.png "Tipi dela pri vnosu dela")
 
 To zagotavlja enotno kategorizacijo evidentiranega časa v celotnem sistemu ter omogoča natančnejše poročanje in analizo.
 

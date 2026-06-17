@@ -25,7 +25,7 @@ Seznam prikazuje vse konfigurirane razloge za potovanje.
 - Klik na razlog ga odpre za urejanje.
 - Iskalno polje omogoča hitro iskanje posameznih razlogov.
 
-![Seznam razlogov za potovanje](../Images/TravelOrderReasonsList.png "Seznam razlogov za potovanje")
+![Seznam razlogov za potovanje](../Images/TravelOrderReasonsListSL.png "Seznam razlogov za potovanje")
 
 ## Dejanja
 
@@ -37,7 +37,7 @@ Za ustvarjanje novega razloga za potovanje:
 2. Vnesite **Ime** razloga.
 3. Kliknite **Dodaj** za shranjevanje.
 
-![Dodaj razlog za potovanje](../Images/TravelOrderReasonsNew.png "Dodaj razlog za potovanje")
+![Dodaj razlog za potovanje](../Images/TravelOrderReasonsNewSL.png "Dodaj razlog za potovanje")
 
 ### Urediti razlog za potovanje
 

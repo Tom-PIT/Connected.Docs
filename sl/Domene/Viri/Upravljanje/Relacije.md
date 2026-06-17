@@ -26,7 +26,7 @@ Za dostop do **Relacij** pojdite na **Viri / Upravljanje / Relacije** v [navigac
 
 Seznamski pogled prikazuje vse konfigurirane relacije.
 
-![Seznam relacij](../Images/TravelDestinationsList.png "Seznam relacij")
+![Seznam relacij](../Images/TravelDestinationsListSL.png "Seznam relacij")
 
 Vsaka vrstica prikazuje:
 - naziv relacije,
@@ -43,7 +43,7 @@ Klik na relacijo jo odpre za urejanje.
 2. Izpolnite polja, opisana v razdelku [**Shema**](#shema).
 3. Kliknite **Dodaj** za shranjevanje.
 
-![Dodaj relacijo](../Images/TravelDestinationsNew.png "Dodaj relacijo")
+![Dodaj relacijo](../Images/TravelDestinationsNewSL.png "Dodaj relacijo")
 
 ### Urediti relacijo
 

@@ -70,7 +70,7 @@ Vrednosti dnevnic (znižane, polovične, polne) se izračunajo samodejno glede n
 
 Seznam prikazuje vse potne naloge ter pregled skupnih stroškov poti.
 
-![Seznam potnih nalogov](../Images/TravelOrdersList.png "Seznam potnih nalogov")
+![Seznam potnih nalogov](../Images/TravelOrdersListSL.png "Seznam potnih nalogov")
 
 ### Filtri
 
@@ -90,7 +90,7 @@ Pri ustvarjanju ali urejanju potnega naloga so na voljo polja, opisana v razdelk
 3. Po potrebi dodajte **kilometrino**, **dnevnice** in **stroške**.
 4. Kliknite **Objavi**.
 
-![Nov potni nalog](../Images/TravelOrdersNew.png "Nov potni nalog")
+![Nov potni nalog](../Images/TravelOrdersNewSL.png "Nov potni nalog")
 
 #### Dodati podrobnosti potnemu nalogu
 
@@ -98,21 +98,34 @@ Vsak potni nalog lahko vsebuje **kilometrine**, **dnevnice** in **stroške**. Ti
 
 ##### Dodati kilometrino v potni nalog
 
-Za dodajanje kilometrine odprite potni nalog, razširite razdelek **Podrobnosti**, izberite zavihek **Kilometrina** in kliknite **Dodaj kilometrino**. Relacija se izbere iz vnaprej definiranih [relacij](../Upravljanje/Relacije.md), skupna cena pa se izračuna samodejno glede na razdaljo, ceno na enoto in oznako povratne vožnje.
+Za dodajanje kilometrine odprite potni nalog: 
 
-![Dodaj kilometrino](../Images/TravelOrdersDetailsMileage.png)
+1. Razširite razdelek **Podrobnosti**, izberite zavihek **Kilometrina**. 
+2. Kliknite **Dodaj kilometrino**. 
+#. Izberite relacijo iz vnaprej definiranih [**Relacije**](../Upravljanje/Relacije.md), skupna cena pa se izračuna samodejno glede na razdaljo, ceno na enoto in oznako povratne vožnje.
+
+![Dodaj kilometrino](../Images/TravelOrdersDetailsMileageSL.png)
 
 ##### Dodati dnevnico v potni nalog
 
-Za dodajanje dnevnice odprite zavihek **Dnevnice** v razdelku **Podrobnosti** in kliknite **Dodaj dnevnico**. Dnevnica se izbere iz šifranta [dnevnic](../Upravljanje/Dnevnice.md), sistem pa samodejno izračuna znižane, polovične in polne zneske glede na izbrano časovno obdobje in vključene obroke.
+Za dodajanje dnevnice:
 
-![Dodaj dnevnico](../Images/TravelOrdersDetailsAllowances.png)
+1. Razširite razdelek **Podrobnosti**, izberite zavihek **Dnevnice**. 
+2. Kliknite **Dodaj dnevnico**.
+2. Izberite Dnevnica iz šifranta [**Dnevnice**](../Upravljanje/Dnevnice.md), sistem pa samodejno izračuna znižane, polovične in polne zneske glede na izbrano časovno obdobje in vključene obroke.
+
+![Dodaj dnevnico](../Images/TravelOrdersDetailsAllowancesSL.png)
 
 ##### Dodati strošek v potni nalog
 
-Za dodajanje stroška odprite zavihek **Stroški** v razdelku **Podrobnosti** in kliknite **Dodaj nov strošek**. Stroški se izberejo iz šifranta stroškov, k vnosu pa je mogoče priložiti dokazila.
+Za dodajanje stroška:
 
-![Dodaj strošek](../Images/TravelOrdersDetailsExpenses.png)
+1. Razširite razdelek **Podrobnosti**, izberite zavihek **Stroški**. 
+2. kliknite **Dodaj nov strošek**. 
+3. Stroški se izberejo iz šifranta [**Stroški**](../../Nabava/Upravljanje/Stroski.md), k vnosu pa je mogoče priložiti dokazila.
+4. Na voljo dodajte ceno, opis in datotek stroška, nato kliknite **Dodaj**. Skupni stroški se samodejno izračunajo.
+
+![Dodaj strošek](../Images/TravelOrdersDetailsExpensesSL.png)
 
 #### Posebna vedenja / validacije
 

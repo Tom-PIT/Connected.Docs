@@ -33,11 +33,11 @@ Za dostop do **Matrik kompetenc** pojdite na **Viri / Upravljanje / Matrike komp
 
 Leva stran zaslona prikazuje **drevesno strukturo** vseh matrik kompetenc. Kompetence je mogoče organizirati v kategorije in podkompetence.
 
-![Seznam matrik kompetenc](../Images/CompetenceMatrixesList.png "Seznam matrik kompetenc")
+![Seznam matrik kompetenc](../Images/CompetenceMatrixesListSL.png "Seznam matrik kompetenc")
 
 Izbira kompetence na desni strani prikaže pogled **Uporabniki**, kjer je mogoče uporabnike dodeliti izbrani kompetenci.
 
-![Uporabniki matrike kompetenc](../Images/CompetenceMatrixesUsers.png "Uporabniki matrike kompetenc")
+![Uporabniki matrike kompetenc](../Images/CompetenceMatrixesUsersSL.png "Uporabniki matrike kompetenc")
 
 ## Ustvariti novo matriko kompetenc
 
@@ -48,13 +48,13 @@ Za ustvarjanje nove matrike kompetenc:
 3. Po potrebi vnesite **Opis**.
 4. (Neobvezno) Izberite **Nadrejeni** kompetenco, da jo umestite v hierarhijo.
 
-   ![Izbira nadrejene kompetence](../Images/CompetenceMatrixesNewParent.png)
+   ![Izbira nadrejene kompetence](../Images/CompetenceMatrixesNewParentSL.png)
 
 5. Omogočite **Stanje**, če naj bo kompetenca aktivna.
 6. Omogočite **Časovno veljavnost**, če kompetenca poteče po določenem datumu.
 7. Kliknite **Dodaj** za shranjevanje.
 
-![Dodaj novo matriko kompetenc](../Images/CompetenceMatrixesNew.png)
+![Dodaj novo matriko kompetenc](../Images/CompetenceMatrixesNewSL.png)
 
 ## Ustvariti plaste (ravni usposobljenosti) v matriko kompetenc
 
@@ -68,7 +68,7 @@ Za dodajanje plasti:
 4. Določite **Nivo** (številčni vrstni red).
 5. Kliknite **Dodaj** za shranjevanje.
 
-![Dodaj plast matrike kompetenc](../Images/CompetenceMatrixesLayerNew.png)
+![Dodaj plast matrike kompetenc](../Images/CompetenceMatrixesLayerNewSL.png)
 
 > [!NOTE]
 > Vse kompetence ne zahtevajo plasti.
@@ -83,7 +83,7 @@ Ko je izbrana kompetenca, plošča **Uporabniki** prikaže vse razpoložljive up
 
 Dodeljeni uporabniki se štejejo kot usposobljeni za to področje, po potrebi tudi na določeni ravni usposobljenosti, če so plasti definirane.
 
-![Dodeljevanje uporabnikov kompetenci](../Images/CompetenceMatrixesUsers.png)
+![Dodeljevanje uporabnikov kompetenci](../Images/CompetenceMatrixesUsersSL.png)
 
 ## Hierarhije in struktura
 
