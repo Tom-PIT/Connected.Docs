@@ -42,7 +42,7 @@ povezana z:
 - vzdrževalnim procesom in verzijo
 - ponavljajočim vzorcem izvedbe (časovni ali števec/uporaba)
 
-![Seznam urnikov vzdrževanja](../Images/MaintenanceScheduleList.png)
+![Seznam urnikov vzdrževanja](../Images/MaintenanceScheduleListSL.png)
 
 Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) začne postopek ustvarjanja novega urnika vzdrževanja, ki poteka enako kot [ustvarjanje vzdrževalnega naloga](VzdrzevalniNalogiUstvarjanje.md).
 
@@ -99,7 +99,7 @@ v seznamu urnikov vzdrževanja.
 Odpre se zaslon **Uredi urnik vzdrževanja**, kjer lahko prilagodite,
 kako in kdaj se ustvarjajo vzdrževalni nalogi.
 
-![Urejanje urnika vzdrževanja](../Images/MaintenanceScheduleEdit.png)
+![Urejanje urnika vzdrževanja](../Images/MaintenanceScheduleEditSL.png)
 
 ### Interval urnika
 

@@ -46,9 +46,9 @@ Maintenance orders may display visual indicators to provide quick status informa
 - **Red dot** – Curative maintenance order
 - **Late indicator** – Indicates that the maintenance order is overdue
 - **Priority arrows**
-  - Red arrow pointing up – High priority
-  - No arrow – Normal priority
-  - Blue arrow pointing down – Low priority
+  - **Red arrow** pointing up – High priority
+  - **No arrow** – Normal priority
+  - **Blue arrow** pointing down – Low priority
 
 ![Maintenance Orders List Item](../Images/MaintenanceOrdersListItem.png "Maintenance order list indicators")
 

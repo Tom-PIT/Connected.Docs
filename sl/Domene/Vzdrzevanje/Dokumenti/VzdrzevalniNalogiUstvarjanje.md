@@ -24,14 +24,14 @@ Izberite:
 
 Nato iz seznama izberite konkretno opremo.
 
-![Maintenance Orders Step 1](../Images/MaintenanceOrdersNewStep1.png "Ustvari vzdrževalni nalog – korak 1")
+![Maintenance Orders Step 1](../Images/MaintenanceOrdersNewStep1SL.png "Ustvari vzdrževalni nalog – korak 1")
 
 ### Korak 2 — Izberi proces
 
 - Izberite **vzdrževalni [proces](../../Proizvodnja/Upravljanje/Procesi.md)**
 - Izberite **verzijo procesa**, ki določa vzdrževalne operacije.
 
-![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2.png "Ustvari vzdrževalni nalog – korak 2")
+![Maintenance Orders Step 2](../Images/MaintenanceOrdersNewStep2SL.png "Ustvari vzdrževalni nalog – korak 2")
 
 > [!NOTE]
 > Če v tem koraku ni razpoložljivih procesov, preverite:
@@ -45,11 +45,11 @@ Določite, kako in kdaj se bo vzdrževalni nalog izvajal. Na voljo sta dva nači
 
 - **Čas** — Razporeditev vzdrževanja za določen datum ali ponavljajoči interval
 
-  ![Maintenance Orders Step 3 Time](../Images/MaintenanceOrdersNewStep3.png "Ustvari vzdrževalni nalog – časovni urnik")
+  ![Maintenance Orders Step 3 Time](../Images/MaintenanceOrdersNewStep3SL.png "Ustvari vzdrževalni nalog – časovni urnik")
 
 - **Števec** — Razporeditev vzdrževanja glede na uporabo ali števce
 
-  ![Maintenance Orders Step 3 Count](../Images/MaintenanceOrdersNewStep3Count.png "Ustvari vzdrževalni nalog – urnik po števcu")
+  ![Maintenance Orders Step 3 Count](../Images/MaintenanceOrdersNewStep3CountSL.png "Ustvari vzdrževalni nalog – urnik po števcu")
 
 > [!NOTE]
 > Urniki na podlagi uporabe temeljijo na števcih virov in opreme
@@ -60,6 +60,6 @@ Določite, kako in kdaj se bo vzdrževalni nalog izvajal. Na voljo sta dva nači
 se samodejno ustvari **vzdrževalni urnik**, ki bo generiral vzdrževalne naloge
 v skladu z določenim vzorcem.
 
-![Maintenance Orders Schedule](../Images/MaintenanceOrdersNewStep3Schedule.png "Konfiguracija urnika vzdrževalnega naloga")
+![Maintenance Orders Schedule](../Images/MaintenanceOrdersNewStep3ScheduleSL.png "Konfiguracija urnika vzdrževalnega naloga")
 
 Kliknite **Zaključi**, da ustvarite vzdrževalni nalog v stanju **V obdelavi**.

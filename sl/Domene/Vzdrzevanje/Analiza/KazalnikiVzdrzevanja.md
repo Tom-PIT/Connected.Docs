@@ -12,7 +12,7 @@ in pomaga oceniti učinkovitost, odzivnost ter zanesljivost vzdrževalnih aktivn
 Do tega zaslona dostopate prek **Vzdrževanje / Analiza / Kazalniki vzdrževanja**
 v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Kazalniki vzdrževanja](../Images/MaintenanceIndicators.png "Pregled kazalnikov vzdrževanja")
+![Kazalniki vzdrževanja](../Images/MaintenanceIndicatorsSL.png "Pregled kazalnikov vzdrževanja")
 
 > [!NOTE]
 > - Pri izračunu kazalnikov se upoštevajo samo **zaključeni** vzdrževalni nalogi
@@ -51,7 +51,7 @@ Vsaka sprememba filtra takoj ponovno izračuna kazalnike in posodobi seznam spod
 
 Na vrhu zaslona so prikazane kartice s povzetki ključnih kazalnikov.
 
-![Kartice kazalnikov vzdrževanja](../Images/MaintenanceIndicatorsCards.png "Kartice kazalnikov vzdrževanja")
+![Kartice kazalnikov vzdrževanja](../Images/MaintenanceIndicatorsCardsSL.png "Kartice kazalnikov vzdrževanja")
 
 ### Število nalogov
 
@@ -81,7 +81,7 @@ Prikazuje povprečni čas med napakami.
 
 Ta kazalnik se pogosto uporablja za oceno zanesljivosti opreme.
 
-![Kazalniki vzdrževanja – časovni kazalniki](../Images/MaintenanceIndicatorsCardsExtra.png "Časovni kazalniki vzdrževanja")
+![Kazalniki vzdrževanja – časovni kazalniki](../Images/MaintenanceIndicatorsCardsExtraSL.png "Časovni kazalniki vzdrževanja")
 
 ### Povprečni čas za zaznavo napake
 

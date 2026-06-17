@@ -12,7 +12,7 @@ z uporabo koledarskega prikaza.
 Za dostop do tega zaslona pojdite na **Vzdrževanje / Koledar vzdrževanja** v
 [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Koledar vzdrževanja - mesečni pogled](../Images/MaintenanceCalendarMonthView.png)
+![Koledar vzdrževanja - mesečni pogled](../Images/MaintenanceCalendarMonthViewSL.png)
 
 ### Pregled
 
@@ -31,7 +31,7 @@ informacijami, kot so:
 - šifra vzdrževalnega naloga
 - planirani čas izvedbe
 
-![Koledar vzdrževanja - hover](../Images/MaintenanceCalendarHover.png)
+![Koledar vzdrževanja - hover](../Images/MaintenanceCalendarHoverSL.png)
 
 ## Navigacija in interakcija
 
@@ -49,7 +49,7 @@ desnem kotu zaslona:
 - **Teden** – pregled vzdrževalnih nalogov v okviru enega tedna
 - **Mesec** – splošen pregled planiranih vzdrževalnih nalogov
 
-![Koledar vzdrževanja - mesečni pogled](../Images/MaintenanceCalendarMonthView.png)
+![Koledar vzdrževanja - mesečni pogled](../Images/MaintenanceCalendarMonthViewSL.png)
 
 ## Filtri
 

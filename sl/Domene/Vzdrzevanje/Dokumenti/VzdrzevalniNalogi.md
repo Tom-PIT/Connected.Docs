@@ -30,7 +30,7 @@ Za dostop do vzdrževalnih nalogov pojdite na **Vzdrževanje / Vzdrževalni nalo
 Stran **Vzdrževalni nalogi** prikazuje vse vzdrževalne naloge, združene po statusu.  
 Za zoženje seznama uporabite filtre na levi strani.
 
-![Maintenance Orders List](../Images/MaintenanceOrdersList.png "Seznam vzdrževalnih nalogov")
+![Maintenance Orders List](../Images/MaintenanceOrdersListSL.png "Seznam vzdrževalnih nalogov")
 
 ### Pregled statusov
 
@@ -48,12 +48,12 @@ Vzdrževalni nalogi lahko vsebujejo vizualne indikatorje za hiter pregled stanja
 
 - **Rdeča pika** – Kurativni vzdrževalni nalog
 - **Oznaka zamude** – Označuje, da je nalog v zamudi
-- **Puščice prioritete**
-  - Rdeča puščica navzgor – Visoka prioriteta
-  - Brez puščice – Normalna prioriteta
-  - Modra puščica navzdol – Nizka prioriteta
+- **Puščice prioritete:**
+  - **Rdeča puščica** navzgor – Visoka prioriteta
+  - **Brez puščice** – Normalna prioriteta
+  - **Modra puščica** navzdol – Nizka prioriteta
 
-![Maintenance Orders List Item](../Images/MaintenanceOrdersListItem.png "Indikatorji v seznamu vzdrževalnih nalogov")
+![Maintenance Orders List Item](../Images/MaintenanceOrdersListItemSL.png "Indikatorji v seznamu vzdrževalnih nalogov")
 
 ### Razpoložljivi filtri
 
@@ -92,7 +92,7 @@ Iz tega stanja lahko:
 
 Ko je nalog pripravljen za izvedbo, kliknite **Aktiviraj**.
 
-![Pending Maintenance Order](../Images/MaintenanceOrdersNewDraft.png "Vzdrževalni nalog v obdelavi")
+![Pending Maintenance Order](../Images/MaintenanceOrdersNewDraftSL.png "Vzdrževalni nalog v obdelavi")
 
 ### Brisanje vzdrževalnih nalogov
 
@@ -103,7 +103,7 @@ Ko je nalog aktiviran, izbris ni več mogoč.
 
 Po aktivaciji vzdrževalni nalog preide v stanje **Aktiven**.
 
-![Active Maintenance Order](../Images/MaintenanceOrdersNewActive.png "Aktiven vzdrževalni nalog")
+![Active Maintenance Order](../Images/MaintenanceOrdersNewActiveSL.png "Aktiven vzdrževalni nalog")
 
 Nalog prikazuje:
 - opremo in prioriteto
@@ -120,7 +120,7 @@ Na voljo sta dva načina izvajanja:
 - **Hitro zaključevanje** – Kliknite **Zaključi** neposredno na vzdrževalnem nalogu
 - **Podrobno izvajanje (priporočeno)** – Kliknite operacijo, da odprete zaslon izvajanja
 
-   ![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Seznam operacij vzdrževalnega naloga")
+   ![Maintenance Order Operations](../Images/MaintenanceOrdersOperationSL.png "Seznam operacij vzdrževalnega naloga")
 
 Klik na operacijo odpre **zaslon izvajanja operacije**, kjer lahko izvajalec:
 - pregleda [navodila](../../Znanje/BazaZnanja/BazaZnanja.md)
@@ -129,7 +129,7 @@ Klik na operacijo odpre **zaslon izvajanja operacije**, kjer lahko izvajalec:
 - beleži delo (začetek/konec, trajanje)
 - vnese podatke o izvedbi
 
-![Maintenance Order Operation](../Images/MaintenanceOrdersOperationScreen.png "Izvajanje operacije vzdrževalnega naloga")
+![Maintenance Order Operation](../Images/MaintenanceOrdersOperationScreenSL.png "Izvajanje operacije vzdrževalnega naloga")
 
 Ko je operacija zaključena, kliknite **Zaključi** v zgornjem levem kotu zaslona operacije.
 
