@@ -25,7 +25,9 @@ Sales orders are one of the core steps in the sales chain:
 
 Once the sales order is fulfilled and invoiced, it moves toward completion.
 
-![Sales Order Diagram](../Images/SalesOrderDiagram.svg "Sales order in the sales process")
+<p align="center">
+  <img src="../Images/SalesOrderDiagram.svg" alt="Sales orders in the sales process" style="width:90%; height:auto;" title="Sales orders in the sales process" >
+</p>
 
 > [!NOTE]
 >Your company may follow all steps or only some of them, depending on the type of business (for example, service companies may not use Delivery notes).

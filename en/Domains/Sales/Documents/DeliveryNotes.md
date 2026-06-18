@@ -20,7 +20,9 @@ Delivery notes act as the bridge between the commercial and warehouse processes:
 3. Once the delivery note is ready, an [**Issue**](../../Logistics/Documents/Issues.md) is created and linked (full or partial delivery).  
 4. After delivery, the process continues toward [**Issued invoice**](IssuedInvoices.md) creation.
 
-![Delivery Notes Diagram](../Images/DeliveryNotesDiagram.svg "Delivery notes in the sales process")
+<p align="center">
+  <img src="../Images/DeliveryNotesDiagram.svg" alt="Delivery notes in the sales process" style="width:90%; height:auto;" title="Delivery notes in the sales process" >
+</p>
 
 Delivery notes can also be copied, linked to existing issues or projects, or used to trigger production or maintenance tasks.
 
