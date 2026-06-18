@@ -19,7 +19,9 @@ Tipičen potek:
 3. Iz prodajnega naloga se proces nadaljuje v operativne faze – proizvodnja, nabava, dostava ipd.  
 4. Na koncu se ustvari [**Dobavnica**](Dobavnice.md) in nato še [**Izdani račun**](IzdaniRacuni.md).
 
-![Offer Diagram S L](../Images/OfferDiagramSL.svg "Diagram ponudbe v prodajnem procesu")
+<p align="center">
+  <img src="../Images/OfferDiagramSL.svg" alt="Diagram ponudbe v prodajnem procesu" style="width:90%; height:auto;" title="Diagram ponudbe v prodajnem procesu" >
+</p>
 
 ## Shema
 
