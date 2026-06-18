@@ -10,7 +10,7 @@ The **Execution** module is used by production workers to perform and record wor
 Most production workers are automatically redirected to the **Execution** view upon login.
 
 <p align="center">
-  <img src="../Images/ProductionExecutionFlow.svg" alt="Production execution flow">
+  <img src="../Images/ProductionExecutionFlow.svg" alt="Production execution flow" style="width:80%; height:auto;" >
 </p>
 
 > [!TIP]

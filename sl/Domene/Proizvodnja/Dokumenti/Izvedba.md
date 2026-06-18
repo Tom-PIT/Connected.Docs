@@ -10,7 +10,7 @@ Modul **Izvedba** uporabljajo proizvodni delavci za izvajanje in beleženje dela
 Večina proizvodnih delavcev je ob prijavi samodejno preusmerjena na pogled Izvedba.
 
 <p align="center">
-  <img src="../Images/ProductionExecutionFlowSL.svg" alt="Production execution flow">
+  <img src="../Images/ProductionExecutionFlowSL.svg" alt="Production execution flow" style="width:80%; height:auto;">
 </p>
 
 > [!TIP]
