@@ -1,0 +1,17 @@
+site_name: Tom PIT Connected Documentation
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - English: en/index.md
+  - Slovenščina: sl/index.md

@@ -1,0 +1,68 @@
+<!-- app_route: /management/common/mode-of-transport -->
+<!-- app_label: Mode of transport -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/ModeOfTransport.md -->
+<!-- canonical_source_title: Mode of transport -->
+
+# Mode of transport
+
+This code list defines the **modes of transport** used across the system. Modes of transport are referenced by logistics, sales, supply, and other documents to describe how goods are delivered or transferred.
+
+You can access the **Mode of transport** code list from different domains in the [navigation](../UI/Navigation.md). In all cases, you are working with the same shared data.
+
+To open the list, go to **Management / Mode of transport** in one of the following domains:
+
+- **Logistics**
+- **Sales**
+
+## Schema
+
+| Field | Description |
+|------|-------------|
+| **Code** | Numeric identifier of the transport mode. |
+| **Description** | Human-readable description of the transport mode. |
+
+## List of transport modes
+
+The screen displays a list of all defined transport modes.
+
+Each row shows:
+- **Code**
+- **Description**
+
+If no records exist, the list is empty.
+
+![Mode of transport list](../Images/TransportModesList.png "Mode of transport list")
+
+Clicking on a row opens the record in edit mode.
+
+## Actions
+
+### Add a new transport mode
+
+To create a new transport mode, follow these steps:
+
+1. Click on the [action button](../UI/ActionButton.md) to open the form for creating a new transport mode.
+2. Fill in all required fields. Optional fields can be completed if relevant. 
+3. Click **Add** to create the record or **Cancel** to return to the list without saving.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above. 
+
+![New mode of transport](../Images/TransportModesNew.png "New mode of transport")
+
+### Edit a transport mode
+
+To edit an existing transport mode, follow these steps:
+
+1. Click its **Code** in the list. The screen switches to edit mode, allowing you to update the values.
+2. Click **Save** to apply the changes or **Cancel** to discard them.
+
+### Delete a transport mode
+
+To delete a transport mode, follow these steps:
+
+1. Click its **Code** in the list. The screen switches to edit mode.
+2. Click **Delete** to remove a transport mode and confirm the deletion in the dialog.
+
+> [!NOTE]
+> A transport mode can be deleted only if it is not referenced by existing documents.

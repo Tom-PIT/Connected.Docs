@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1080"
+   height="110"
+   viewBox="0 0 1080 110"
+   role="img"
+   aria-label="Sales flow with prepayment"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="SalesFlowWithPrepaymentSL.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0826049"
+     inkscape:cx="450.76464"
+     inkscape:cy="47.570449"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g20" />
+  <style
+     id="style1">
+    .box { fill:#ffffff; stroke:#2d3748; stroke-width:2; rx:8; ry:8; }
+    .text { font-family:Segoe UI, Arial, sans-serif; font-size:14px; fill:#1a202c; }
+    .arrow { stroke:#2d3748; stroke-width:2; marker-end:url(#arrowhead); }
+    .note { font-size:12px; fill:#4a5568; }
+  </style>
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#2d3748"
+         id="polygon1" />
+    </marker>
+  </defs>
+  <!-- Boxes -->
+  <!-- Labels -->
+  <!-- Arrows -->
+  <!-- Notes -->
+  <text
+     class="note"
+     x="20"
+     y="150"
+     id="text19" />
+  <g
+     id="g20"
+     transform="translate(-19.21946,-24.999998)">
+    <rect
+       class="box"
+       x="20"
+       y="50"
+       width="120"
+       height="60"
+       id="rect1" />
+    <rect
+       class="box"
+       x="170"
+       y="50"
+       width="160"
+       height="60"
+       id="rect2" />
+    <rect
+       class="box"
+       x="360"
+       y="50"
+       width="140"
+       height="60"
+       id="rect3" />
+    <rect
+       class="box"
+       x="530"
+       y="50"
+       width="120"
+       height="60"
+       id="rect4" />
+    <rect
+       class="box"
+       x="680"
+       y="50"
+       width="140"
+       height="60"
+       id="rect5" />
+    <rect
+       class="box"
+       x="850.0918"
+       y="50.091763"
+       width="119.55993"
+       height="59.816479"
+       id="rect6" />
+    <rect
+       class="box"
+       x="999.68945"
+       y="49.84206"
+       width="98.749466"
+       height="60.315876"
+       id="rect7" />
+    <text
+       class="text"
+       x="79.846191"
+       y="85.099609"
+       text-anchor="middle"
+       id="text7">Ponudba</text>
+    <text
+       class="text"
+       x="249.84619"
+       y="85.208984"
+       text-anchor="middle"
+       id="text8">Predračun</text>
+    <text
+       class="text"
+       x="430.41357"
+       y="83.681152"
+       text-anchor="middle"
+       id="text9">Avansni račun</text>
+    <text
+       class="text"
+       x="589.36426"
+       y="85.208984"
+       text-anchor="middle"
+       id="text10">Naročilo strank</text>
+    <g
+       id="g19"
+       transform="translate(-0.15380859,-5.4658203)">
+      <text
+         class="text"
+         x="750"
+         y="80"
+         text-anchor="middle"
+         id="text11">Dobavnica</text>
+      <text
+         class="text"
+         x="749.84961"
+         y="98"
+         text-anchor="middle"
+         id="text12">+ Izdajnica</text>
+    </g>
+    <text
+       class="text"
+       x="1048.9104"
+       y="85.208984"
+       text-anchor="middle"
+       id="text14">Plačila</text>
+    <line
+       class="arrow"
+       x1="140"
+       y1="80"
+       x2="170"
+       y2="80"
+       id="line14" />
+    <line
+       class="arrow"
+       x1="330"
+       y1="80"
+       x2="360"
+       y2="80"
+       id="line15" />
+    <line
+       class="arrow"
+       x1="500"
+       y1="80"
+       x2="530"
+       y2="80"
+       id="line16" />
+    <line
+       class="arrow"
+       x1="650"
+       y1="80"
+       x2="680"
+       y2="80"
+       id="line17" />
+    <line
+       class="arrow"
+       x1="820"
+       y1="80"
+       x2="850"
+       y2="80"
+       id="line18" />
+    <line
+       class="arrow"
+       x1="970"
+       y1="80"
+       x2="1000"
+       y2="80"
+       id="line19" />
+    <text
+       class="text"
+       x="909.71796"
+       y="85.208984"
+       text-anchor="middle"
+       id="text9-4"
+       style="font-size:14px;font-family:'Segoe UI', Arial, sans-serif;fill:#1a202c"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         x="909.71796"
+         y="85.208984">Izdan račun</tspan><tspan
+         sodipodi:role="line"
+         x="909.71796"
+         y="102.70898"
+         id="tspan16" /><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         x="909.71796"
+         y="120.20898" /></text>
+  </g>
+</svg>

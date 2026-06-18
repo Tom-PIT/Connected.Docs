@@ -1,0 +1,68 @@
+<!-- app_route: /maintenance-orders -->
+<!-- app_label: Maintenance calendar -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceCalendar.md -->
+<!-- canonical_source_title: Maintenance calendar -->
+
+# Maintenance calendar
+
+The **Maintenance calendar** provides a time-based overview of maintenance work. It allows users to plan, review, and navigate maintenance activities using a calendar layout.
+
+To access this screen, go to **Maintenance / Maintenance calendar** in the [navigation](../../../Common/UI/Navigation.md).
+
+![MaintenanceCalendarMonthView](../Images/MaintenanceCalendarMonthView.png)
+
+### Overview
+
+By default, the calendar displays **active** [maintenance orders](MaintenanceOrders.md), positioned on a timeline according to their planned execution date and time.
+
+You can optionally include **pending** orders by enabling the **Pending** filter (see Filters). When the Pending filter is off, only Active orders are shown.
+
+The calendar supports different time scales to suit planning and review needs.
+
+When hovering over a calendar entry, a tooltip displays additional information such as:
+- Equipment to be maintained
+- Maintenance order code
+- Scheduled time
+
+![MaintenanceCalendarHover](../Images/MaintenanceCalendarHover.png)
+
+## Navigation and interaction
+
+- Clicking a [**maintenance order**](MaintenanceOrders.md) in the calendar opens the corresponding **maintenance order document**.
+- Clicking the [action button](../../../Common/UI/ActionButton.md) creates a new maintenance order.
+
+## Views
+
+The calendar can be displayed in the following views, selectable from the top-right corner:
+
+- **Day** – detailed view of maintenance orders for a single day
+- **Week** – overview of maintenance orders across a week
+- **Month** – high-level overview of planned maintenance orders
+
+![MaintenanceCalendarDayView](../Images/MaintenanceCalendarDayView.png)
+
+## Filters
+
+The following filters are available on the left side of the screen:
+
+### Order type
+- **Planned**
+- **Curative**
+
+### Assigned
+- **My**
+- **Unassigned**
+- **All**
+
+### Order status
+- **Pending** (toggle) — include pending orders when enabled; otherwise only Active orders are shown
+
+### Organization unit
+- Select one or more organization units
+
+Filters can be combined to narrow down the calendar view to relevant maintenance orders.
+
+## Related
+
+- **[Maintenance orders](MaintenanceOrders.md)** – create and manage maintenance work
+- **[Maintenance schedule](MaintenanceSchedule.md)** – configure recurring time/usage-based schedules that generate orders
