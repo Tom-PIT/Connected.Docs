@@ -11,6 +11,18 @@ theme:
 plugins:
   - search
 
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
 nav:
   - Home: index.md
   - English: en/index.md
