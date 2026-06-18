@@ -103,4 +103,4 @@ Ko je kazalo nastavljeno, se uporablja pri brskanju po imeniku v [**Bazi znanja*
 
 Znotraj imenika kliknite **ikono menija (hamburger)**, da odprete stranski panel s kazalom, ki omogoča navigacijo med mapami in članki.
 
-![Kazalo v imeniku baze znanja](../Images/KnowledgeBaseDirectoryTOC.png "Kazalo v imeniku baze znanja")
+![Kazalo v imeniku baze znanja](../Images/KnowledgeBaseDirectoryTOCSL.png "Kazalo v imeniku baze znanja")
