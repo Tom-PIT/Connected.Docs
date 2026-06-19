@@ -78,4 +78,4 @@ Vsaka vrstica vsebuje:
 Ta pogled lahko odprete tudi s klikom na **ime lokacije** na drugih zaslonih, povezanih z zalogo. Sistem samodejno naloži ustrezno skladišče in lokacijo ter prikaže samo zalogo, shranjeno tam.
 Primer iz pogleda **Pogled zaloge po materialu**:
 
-![StockByLocationLink](../Images/StockByLocationLink.png)
+![StockByLocationLink](../Images/StockByLocationLinkSL.png)

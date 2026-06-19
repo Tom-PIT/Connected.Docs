@@ -38,7 +38,7 @@ Prikazani so samo delovni listi, ki pripadajo izbranemu časovnemu planu.
 
 ### Ustvariti novi delovni list
 
-Za ustvarjanje novega delovnega lista kliknite [akcijski gumb](../../../Common/UI/ActionButton.md) v spodnjem desnem kotu.
+Za ustvarjanje novega delovnega lista kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 
 Glede na izbrani **vzorec izvajanja** so na voljo različne možnosti.
 

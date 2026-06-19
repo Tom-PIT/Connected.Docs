@@ -24,7 +24,7 @@ To access this page, open a process version from **Production / Management / [Pr
 
 The list displays all expenses linked to the selected operation. Each row shows the expense name, calculation type, and amount.
 
-![Expenses list](../Images/OperationsExpensesList.png "Expenses list")
+![Expenses list](../Images/OperationExpensesList.png "Expenses list")
 
 ## Add a new expense
 

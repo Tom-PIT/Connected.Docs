@@ -31,7 +31,7 @@ Shranjeni zastoji so povezani s proizvodnim nalogom in operacijo ter so prikazan
 
 Izberite zapis zastoja za prilagoditev časov, spremembo oznake, dodajanje opreme ali brisanje zapisa, če je bil dodan pomotoma.
 
-![Urejanje zastoja](../Images/ExecutionDowntimeEdit.png "Urejanje zastoja")
+![Urejanje zastoja](../Images/ExecutionDowntimeEditSL.png "Urejanje zastoja")
 
 ## Analitika in poročila
 

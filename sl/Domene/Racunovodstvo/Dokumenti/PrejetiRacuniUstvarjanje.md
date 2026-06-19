@@ -58,4 +58,4 @@ Ko so vsi zneski usklajeni in obvezni podatki izpolnjeni, je spodnji del dokumen
 > [!NOTE]
 > Če obstaja razlika med zneskom v glavi in vsoto postavk, dokument prikaže **Preostali znesek** in je označen.
 >
-> ![Preostali znesek](../Images/ReceivedInvoicesNewRemainingAmount.png)
+> ![Preostali znesek](../Images/ReceivedInvoicesNewRemainingAmountSL.png)

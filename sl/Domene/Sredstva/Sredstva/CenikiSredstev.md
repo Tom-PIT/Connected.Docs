@@ -50,10 +50,10 @@ Glede na to, na katerem zaslonu se nahajate, [akcijski gumb](../../../Skupno/UI/
 
 Na strani **Ceniki sredstev**:
 - **Nov**
-- [**Kopiraj**](#kopirati-cenik)
+- [**Kopiraj**](#kopirati-cenik-sredstev)
 
 Na strani **Podrobnosti**:
-- [**Uvoz**](#uvoziti-cenik)
+- [**Uvoz**](#uvoziti-cenik-sredstev)
 - **Nov**
 
 ### Ustvariti nov cenik sredstev

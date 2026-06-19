@@ -49,7 +49,7 @@ Postopek ponovite vsakič, ko dokončate nove kose.
 
 ## 4. Izpolnite kontrolne sezname kakovosti (če je potrebno)
 
-[Kontrolne liste in nadzor kakovosti](../Domene/Proizvodnja/Dokumenti/Izvedba.md#kontrolne-liste-in-kakovost) so enostavni zaporedni pregledi, ki pomagajo zagotavljati varno delo in pravilno kakovost izdelkov. Kontrolna lista se lahko prikaže ob začetku, med delom ali pred zaključkom – odvisno od nastavitve operacije.
+[Kontrolne liste in nadzor kakovosti](../Domene/Proizvodnja/Dokumenti/Izvedba.md#kontrolni-seznami-in-kakovost) so enostavni zaporedni pregledi, ki pomagajo zagotavljati varno delo in pravilno kakovost izdelkov. Kontrolna lista se lahko prikaže ob začetku, med delom ali pred zaključkom – odvisno od nastavitve operacije.
 
 1. Sledite korakom, prikazanim na zaslonu.  
 

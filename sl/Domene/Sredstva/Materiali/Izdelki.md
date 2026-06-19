@@ -116,7 +116,7 @@ Ta razdelek omogoča pregled ali dodajanje enega ali več zapisov [pakiranja](Pa
 Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
 - [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md)
 - [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
-- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
+- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedSkladiscniPromet.md)
 
 #### Intrastat in Glavna knjiga
 

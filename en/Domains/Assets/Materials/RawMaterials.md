@@ -99,7 +99,7 @@ available in the upper-right corner.
 Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
 
 -   [**Import**](#import-raw-materials)
--   [**Copy existing**](#copy-an-exisisting-raw-material)
+-   [**Copy existing**](#copy-an-existing-raw-material)
 -   **New**
 
 ## Add a new raw material
