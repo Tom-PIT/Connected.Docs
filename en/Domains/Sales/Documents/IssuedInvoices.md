@@ -26,8 +26,8 @@ Invoices can also be created manually as stand-alone documents when required.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -48,8 +48,8 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Payment method** | Payment option selected from [**Payment methods**](../Management/PaymentMethods.md). |
 </details>
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -60,8 +60,8 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 
 | Field | Description |
@@ -72,8 +72,8 @@ Invoices can also be created manually as stand-alone documents when required.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -92,8 +92,8 @@ Invoices can also be created manually as stand-alone documents when required.
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Intrastat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Intrastat details</strong></summary>
 
 | Field | Description |
 |--------|-------------|

@@ -18,7 +18,7 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 
 ## Schema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Asset</strong></summary>
 
 | Field | Description |
@@ -35,7 +35,7 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Intrastat and Ledger</strong></summary>
 
 | Field | Description |
@@ -50,7 +50,7 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Additional and Details</strong></summary>
 
 | Field | Description |

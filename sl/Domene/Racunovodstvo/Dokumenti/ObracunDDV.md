@@ -30,8 +30,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -43,8 +43,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Dobave blaga in storitev (brez davka)</strong></summary>
+<details markdown="1">
+<summary><strong>Dobave blaga in storitev (brez davka)</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -57,8 +57,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Obračunani davek</strong></summary>
+<details markdown="1">
+<summary><strong>Obračunani davek</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -70,8 +70,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Nabave blaga in storitev</strong></summary>
+<details markdown="1">
+<summary><strong>Nabave blaga in storitev</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -85,8 +85,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Odbitek davka</strong></summary>
+<details markdown="1">
+<summary><strong>Odbitek davka</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -95,8 +95,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Končni izračun</strong></summary>
+<details markdown="1">
+<summary><strong>Končni izračun</strong></summary>
 
 | Polje | Opis |
 |------|------|

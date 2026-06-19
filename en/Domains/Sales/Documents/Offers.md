@@ -26,8 +26,8 @@ A typical flow:
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 
 | Field | Description |
@@ -41,8 +41,8 @@ A typical flow:
 | **Content bottom** | Closing or legal statements from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Available payment methods shown to the customer. |
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -53,8 +53,8 @@ A typical flow:
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -64,8 +64,8 @@ A typical flow:
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|

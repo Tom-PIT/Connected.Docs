@@ -19,8 +19,8 @@ To access this screen, go to **Accounting / Ledger / Management / Journal entry 
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field         | Description                                                                                                         |
 | ------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -30,8 +30,8 @@ To access this screen, go to **Accounting / Ledger / Management / Journal entry 
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field             | Description                                                                             |
 | ----------------- | --------------------------------------------------------------------------------------- |

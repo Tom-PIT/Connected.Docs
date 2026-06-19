@@ -15,8 +15,8 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaci
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -26,8 +26,8 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaci
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-------|------|

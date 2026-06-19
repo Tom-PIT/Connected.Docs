@@ -19,8 +19,8 @@ Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [na
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -30,8 +30,8 @@ Za dostop do **Korekcij** pojdite na **Logistika / Dokumenti / Korekcije** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-------|------|

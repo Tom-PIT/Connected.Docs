@@ -26,8 +26,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -49,8 +49,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -61,8 +61,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -72,8 +72,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -92,8 +92,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 </details>
 
-<details>
-  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|

@@ -20,8 +20,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -34,8 +34,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 </details>
 
-<details>
-  <summary><strong>Transport in Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Transport in Intrastat</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -47,8 +47,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -66,8 +66,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke – Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke – Intrastat</strong></summary>
 
 Ta razdelek je na voljo, ko je omogočeno poročanje **Intrastat** in je dobavitelj iz druge države članice EU.
 
