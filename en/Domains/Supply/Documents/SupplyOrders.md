@@ -22,10 +22,7 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 4. Once all materials are received, the Supply order automatically moves to the **Completed** status.  
    - If only partially received, it remains **Available** until completed.
 
-<p align="center">
-  <img src="../Images/SupplyOrderDiagram.svg" alt="Sales orders in the sales process" title="Sales orders in the sales process" >
-</p>
-
+![Supply orders in the supply process](../Images/SupplyOrderDiagram.svg "Supply orders in the supply process")
 
 ## Schema
 
