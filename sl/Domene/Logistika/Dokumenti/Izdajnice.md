@@ -19,8 +19,8 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [na
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -32,8 +32,8 @@ Za dostop do **Izdajnic** pojdite na **Logistika / Dokumenti / Izdajnice** v [na
 
 </details>
 
-<details>
-  <summary><strong>Razdelek postavk</strong></summary>
+<details markdown="1">
+<summary><strong>Razdelek postavk</strong></summary>
 
 | Polje | Opis |
 |------|------|

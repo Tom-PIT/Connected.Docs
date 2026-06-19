@@ -29,8 +29,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -51,8 +51,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 </details>
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -64,8 +64,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -75,8 +75,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -95,8 +95,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Intrastat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Intrastat details</strong></summary>
 
 | Field | Description |
 |------|-------------|

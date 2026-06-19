@@ -12,8 +12,8 @@ To access this screen, go to **Accounting / Ledger / Fixed assets** in the [navi
 > Fixed assets are closely linked to [**depreciation groups**](../Management/Ledger/DepreciationGroups.md) and [**ledger accounts**](../Management/Ledger/ChartOfAccounts.md). Posting behavior and depreciation calculations depend on the configuration of depreciation groups and ledger settings.
 
 ## Schema
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -35,8 +35,8 @@ To access this screen, go to **Accounting / Ledger / Fixed assets** in the [navi
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |------|-------------|

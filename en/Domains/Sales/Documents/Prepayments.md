@@ -24,8 +24,8 @@ Prepayments track received funds and do not affect inventory.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -47,8 +47,8 @@ Prepayments track received funds and do not affect inventory.
 </details>
 
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -59,8 +59,8 @@ Prepayments track received funds and do not affect inventory.
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -70,8 +70,8 @@ Prepayments track received funds and do not affect inventory.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -90,8 +90,8 @@ Prepayments track received funds and do not affect inventory.
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Interstat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Interstat details</strong></summary>
 
 | Field | Description |
 |--------|-------------|

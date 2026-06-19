@@ -18,7 +18,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 
 ## Shema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Sredstvo</strong></summary>
 
 | Polje | Opis |
@@ -35,7 +35,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Intrastat in Glavna knjiga</strong></summary>
 
 | Polje | Opis |
@@ -50,7 +50,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Dodatno in Podrobnosti</strong></summary>
 
 |  Polje | Opis |

@@ -28,8 +28,8 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -46,8 +46,8 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 ### Polja postavk
 

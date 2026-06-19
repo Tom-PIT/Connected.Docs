@@ -28,8 +28,8 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -40,8 +40,8 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 | **Vsebina zgoraj** | Neobvezno uvodno besedilo iz šifranta [Vnaprej določena besedila](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
 | **Vsebina spodaj** | Neobvezno zaključna ali pravna besedila iz [Vnaprej določena besedila](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md) (entiteta: *Dobavnica*). |
 
-<details>
-  <summary><strong>Transport in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -52,8 +52,8 @@ Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekt
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|

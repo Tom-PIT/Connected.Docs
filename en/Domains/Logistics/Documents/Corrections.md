@@ -19,8 +19,8 @@ To access **Corrections**, go to **Logistics / Documents / Corrections** in the 
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -30,8 +30,8 @@ To access **Corrections**, go to **Logistics / Documents / Corrections** in the 
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 Each detail describes the material and the correction to apply.
 

@@ -14,8 +14,8 @@ Za dostop do tega zaslona odprite domeno **Proizvodnja**, **Viri** ali **Vzdrže
 
 ## Shema
 
-<details open>
-  <summary><strong>Glavne podrobnosti</strong></summary>
+<details open markdown="1">
+<summary><strong>Glavne podrobnosti</strong></summary>
 
 Spodnja tabela prikazuje vsa polja, ki se uporabljajo pri **človeških**, **nečloveških** in **ekipnih** virih.
 
@@ -34,8 +34,8 @@ Spodnja tabela prikazuje vsa polja, ki se uporabljajo pri **človeških**, **ne�
 
 </details>
 
-<details>
-  <summary><strong>Osnovni podatki</strong></summary>
+<details markdown="1">
+<summary><strong>Osnovni podatki</strong></summary>
 
 Tabela spodaj prikazuje dodatna polja, specifična za človeške vire, ki zajemajo osnovne podatke o posamezniku.
 
