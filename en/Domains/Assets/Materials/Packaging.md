@@ -13,7 +13,7 @@ Packaging defines how a material is packaged, including quantity, weight, dimens
 - [**Raw materials**](RawMaterials.md)
 
 > [!NOTE]
-Packaging details for each specific material type can also be defined in the material sections.
+> Packaging details for each specific material type can also be defined in the material sections.
 
 > [!TIP]
 > For a full demonstration, see the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video tutorial.

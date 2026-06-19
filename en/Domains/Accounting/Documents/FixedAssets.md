@@ -118,4 +118,4 @@ The **Depreciation on date** section allows selecting a date and starting or sto
 * **Reset** stops depreciation tracking.
 
 > [!NOTE]
-When a future date is selected, the system may display a calculated depreciation value. This value represents a projected depreciation amount based on the configured depreciation group and rate.
+> When a future date is selected, the system may display a calculated depreciation value. This value represents a projected depreciation amount based on the configured depreciation group and rate.

@@ -1,4 +1,4 @@
-<!-- app_route: /management/organization-units/warehouse-locations -->
+﻿<!-- app_route: /management/organization-units/warehouse-locations -->
 <!-- app_label: Warehouse locations -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/WarehouseLocations.md -->
 <!-- canonical_source_title: Warehouse locations -->
@@ -68,11 +68,11 @@ Click **Add** to save the record.
 
 > [!NOTE]
 > - A single [**Warehouse location**](../../Logistics/Management/Locations.md) cannot be assigned as both **Input** and **Output** for the same
-  [**Organization unit**](OrganizationUnits.md). The UI prevents selecting the same location for both roles.  
+>   [**Organization unit**](OrganizationUnits.md). The UI prevents selecting the same location for both roles.  
 > - Only one `**Output** connection is permitted per [**Organization unit**](OrganizationUnits.md). Adding a second
-  **Output** for the same unit is blocked by validation.  
+>   **Output** for the same unit is blocked by validation.  
 > - [**Organization unit**](OrganizationUnits.md), [**Warehouse**](../../Logistics/Management/Warehouses.md), and [**Warehouse location**](../../Logistics/Management/Locations.md) are sourced from their respective
-  code lists; keep those lists in sync with Logistics and Common domains.
+>   code lists; keep those lists in sync with Logistics and Common domains.
 
 
 ### Edit warehouse location
