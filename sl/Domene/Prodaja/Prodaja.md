@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/sales -->
+﻿<!-- app_route: /sitemap/sales -->
 <!-- app_label: Prodaja -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Domena/Prodaja.md -->
 <!-- canonical_source_title: Prodaja -->
@@ -91,7 +91,7 @@ Razpoložljive nastavitve in šifranti vključujejo:
 Ti elementi določajo, kako se prodajni procesi izvajajo in kako so strukturirani prodajni podatki.
 
 > [!TIP]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 ## Prodajni procesi
 

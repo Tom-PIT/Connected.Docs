@@ -1,4 +1,4 @@
-<!-- app_route: /management/common-types/external-code-sets -->
+﻿<!-- app_route: /management/common-types/external-code-sets -->
 <!-- app_label: External code sets -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/ExternalCodeSets.md -->
 <!-- canonical_source_title: External code sets -->
@@ -10,7 +10,7 @@ The **External code sets** screen defines configurable codes used to map interna
 To access this screen, go to **Sales / Management / External code sets** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!NOTE]
-External code sets do not enforce a specific meaning by themselves. Their interpretation depends on how they are referenced in other documents or integrations.
+> External code sets do not enforce a specific meaning by themselves. Their interpretation depends on how they are referenced in other documents or integrations.
 
 ## Schema
 
