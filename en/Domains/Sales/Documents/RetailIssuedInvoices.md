@@ -1,4 +1,4 @@
-<!-- app_route: /sales/documents/retail-issued-invoices -->
+﻿<!-- app_route: /sales/documents/retail-issued-invoices -->
 <!-- app_label: Retail issued invoices -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/RetailIssuedInvoices.md -->
 <!-- canonical_source_title: Retail issued invoices -->
@@ -185,7 +185,7 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
 
 > [!NOTE]  
-Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+> Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 #### Delivery section
 

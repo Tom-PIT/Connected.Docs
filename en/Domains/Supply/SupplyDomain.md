@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/supply -->
+﻿<!-- app_route: /sitemap/supply -->
 <!-- app_label: Supply domain -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/SupplyDomain.md -->
 <!-- canonical_source_title: Supply domain -->
@@ -79,7 +79,7 @@ Available configuration and code lists include:
 These elements determine how the procurement processes behave and how supply-related data is structured.
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ## Supply Processes
 

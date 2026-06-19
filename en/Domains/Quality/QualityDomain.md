@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/quality -->
+﻿<!-- app_route: /sitemap/quality -->
 <!-- app_label: Quality -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/QualityDomain.md -->
 <!-- canonical_source_title: Quality -->
@@ -35,7 +35,7 @@ The domain is structured into two functional areas:
 ![Projects Domain Management](Images/QualityDomainManagement.png)
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ### Views
 

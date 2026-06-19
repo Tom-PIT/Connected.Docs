@@ -1,4 +1,4 @@
-<!-- app_route: /sales/documents/proforma-invoices -->
+﻿<!-- app_route: /sales/documents/proforma-invoices -->
 <!-- app_label: Proforma invoices -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/ProformaInvoices.md -->
 <!-- canonical_source_title: Proforma invoices -->
@@ -223,7 +223,7 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
 
 > [!NOTE]  
-Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+> Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 #### Delivery section
 

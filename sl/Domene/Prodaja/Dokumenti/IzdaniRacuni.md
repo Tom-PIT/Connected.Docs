@@ -1,4 +1,4 @@
-<!-- app_route: /sales/documents/issued-invoices -->
+﻿<!-- app_route: /sales/documents/issued-invoices -->
 <!-- app_label: Izdani računi -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/IzdaniRacuni.md -->
 <!-- canonical_source_title: Izdani računi -->
@@ -248,7 +248,7 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 
 > [!NOTE]  
 > Objavljenih računov **ni mogoče izbrisati**, lahko pa jih [stornirate](../../Logistika/Dokumenti/Storno.md) ali **vrnete v osnutek**.
-Če so bila evidentirana plačila, računa ni mogoče izbrisati, dokler plačila niso odstranjena in dokument vrnjen v osnutek.
+> Če so bila evidentirana plačila, računa ni mogoče izbrisati, dokler plačila niso odstranjena in dokument vrnjen v osnutek.
 
 ## Meni
 

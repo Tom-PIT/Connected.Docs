@@ -1,4 +1,4 @@
-# Skupno
+﻿# Skupno
 
 Modul **Skupno** ni domena, temveč nabor **skupnih šifrantov in osnov uporabniškega vmesnika**, ki se uporabljajo v celotni platformi. Ti elementi definirajo globalne strukture, kot so države, valute, davčne stopnje, merske enote in poslovni partnerji. Vsaka funkcionalna domena — [Prodaja](../Domene/Prodaja/Prodaja.md), [Nabava](../Domene/Nabava/Nabava.md), [Logistika](../Domene/Logistika/Logistika.md), [Proizvodnja](../Domene/Proizvodnja/Proizvodnja.md) — se za pravilno delovanje zanaša na modul Skupno.
 
@@ -26,7 +26,7 @@ Modul Skupno vsebuje več kategorij skupnih šifrantov, ki se uporabljajo v celo
 Ti šifranti predstavljajo osnovne gradnike, na katerih temeljijo druge domene.
 
 > [!NOTE]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../KazaloUpravljanja.md)**.
+> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../KazaloUpravljanja.md)**.
 
 
 ### Geografija in organizacija

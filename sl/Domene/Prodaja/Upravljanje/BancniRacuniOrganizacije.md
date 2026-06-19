@@ -1,4 +1,4 @@
-<!-- app_route: /management/common-types/organization-bank-accounts -->
+﻿<!-- app_route: /management/common-types/organization-bank-accounts -->
 <!-- app_label: Bančni računi organizacije -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/BancniRacuniOrganizacije.md -->
 <!-- canonical_source_title: Bančni računi organizacije -->
@@ -57,7 +57,7 @@ Razdelek **Glavna knjiga** določa, kateri [konto](../../Racunovodstvo/Upravljan
 Izbrani konto glavne knjige se uporablja pri knjiženju **plačil**, **prejemkov**, **bančnih izpiskov** in **uskladitev**. Vsi finančni premiki, povezani s tem bančnim računom, se knjižijo na izbrani konto.
 
 > [!NOTE]
-Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
+> Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
 ### Urejati bančni račun organizacije
 

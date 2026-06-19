@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/projects -->
+﻿<!-- app_route: /sitemap/projects -->
 <!-- app_label: Projects -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/ProjectsDomain.md -->
 <!-- canonical_source_title: Projects -->
@@ -87,7 +87,7 @@ This area is typically used by administrators or power users to:
 Changes made here affect how projects and tasks are structured and displayed throughout the domain.
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ## Projects Workflow Overview
 

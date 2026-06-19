@@ -45,7 +45,7 @@ Each row in the list represents a single posting line and includes:
 - **Amount** – Debit or credit value posted to the account.
 
 > [!NOTE]  
-The **Postings** view shows all postings regardless of balance. Unlike journal entries, this view does not group debit and credit lines and does not indicate whether an entry is balanced.
+> The **Postings** view shows all postings regardless of balance. Unlike journal entries, this view does not group debit and credit lines and does not indicate whether an entry is balanced.
 
 ## Menu
 

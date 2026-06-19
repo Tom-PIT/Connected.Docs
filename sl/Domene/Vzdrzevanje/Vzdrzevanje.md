@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/maintenance -->
+﻿<!-- app_route: /sitemap/maintenance -->
 <!-- app_label: Vzdrževanje -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Vzdrzevanje.md -->
 <!-- canonical_source_title: Vzdrževanje -->
@@ -53,7 +53,7 @@ Domena Vzdrževanje uporablja skupne šifrante, ki so deljeni s
 Ti šifranti omogočajo vodenje vzdrževalnih tokov dela in izvajanja prek nalogov in urnikov.
 
 > [!TIP]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 ## Analitika
 

@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/supply -->
+﻿<!-- app_route: /sitemap/supply -->
 <!-- app_label: Nabava -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Nabava.md -->
 <!-- canonical_source_title: Nabava -->
@@ -79,7 +79,7 @@ Razpoložljive nastavitve in šifranti vključujejo:
 Ti elementi določajo, kako se nabavni procesi izvajajo in kako so strukturirani nabavni podatki.
 
 > [!TIP]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 ## Nabavni procesi
 
