@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/production -->
+﻿<!-- app_route: /sitemap/production -->
 <!-- app_label: Production -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/ProductionDomain.md -->
 <!-- canonical_source_title: Production -->
@@ -87,7 +87,7 @@ Available configuration and code lists include:
 These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.
 
 > [!TIP]
-See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ## Production process lifecycle
 
