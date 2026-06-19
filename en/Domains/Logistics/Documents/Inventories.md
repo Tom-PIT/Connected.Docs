@@ -16,8 +16,8 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -28,8 +28,8 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -83,6 +83,8 @@ Click the action button to create a new inventory document.
 4. In the **Details** section, the **Actual** column shows **0** by default. Edit the values in this column to reflect the real number found physically at the location. When an actual value is lower or higher than the theoretical value, it will be reflected in the **Missing** and **Excess** sections of the **Summary**.
 
    ![InventoryEdit](../Images/InventoryEdits.png)
+
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 5. Once all materials have been checked and actual values are entered, the **Non allocated** section of the **Summary** will turn green and show **0**.
 5. Click **Publish** to confirm the inventory. This action updates the system stock levels to match the actual physical quantities.

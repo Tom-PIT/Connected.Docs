@@ -25,8 +25,8 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -37,8 +37,8 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -112,8 +112,6 @@ This creates a Disassembly draft prefilled from the received packages, useful to
 ## Menu
 
 The menu provides additional actions available on this page.
-
-![Ticket menu](../Images/TicketsMenu.png)
 
 Available actions:
 

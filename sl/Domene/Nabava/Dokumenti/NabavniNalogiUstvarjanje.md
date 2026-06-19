@@ -29,7 +29,7 @@ Ustvari se nov osnutek nabavnega naloga. Če je ustvarjen iz drugega dokumenta, 
 
 Vnesite **Dobavitelja**, **Datum dokumenta** in **Datum dobave** (ali jih preverite, če so bili predizpolnjeni iz dokumenta povpraševanja).
 
-![Nov nabavni nalog](../Images/SupplyOrderNew.png "Nov nabavni nalog")
+![Nov nabavni nalog](../Images/SupplyOrderNewSL.png "Nov nabavni nalog")
 
 ## Korak 3 — Dodajanje postavk
 
@@ -39,12 +39,14 @@ Za dodajanje nove postavke:
 
 1. Vnesite ali skenirajte **serijsko številko**, **EAN** ali **ime materiala** v vrstico **Postavke**. Sistem prikaže vse ujemajoče se postavke.
 
-   ![Urejanje postavke](../Images/SupplyOrderNewDetailsEdit.png "Urejanje postavke nabavnega naloga")
+   ![Urejanje postavke](../Images/SupplyOrderNewDetailsEditSL.png "Urejanje postavke nabavnega naloga")
 
 2. Izberite želeno postavko s seznama.
 3. Prilagodite **količino**, **ceno**, **popust** ali **davčne podatke**, nato kliknite **Shrani**.
 
-   ![Shranjena postavka](../Images/SupplyOrderNewDetailsSaved.png "Shranjena postavka")
+   ![Shranjena postavka](../Images/SupplyOrderNewDetailsSavedSL.png "Shranjena postavka")
+
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 ## Korak 4 — Dodatne nastavitve
 

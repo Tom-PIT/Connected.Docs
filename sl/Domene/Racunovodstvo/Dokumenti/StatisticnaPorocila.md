@@ -25,7 +25,7 @@ Do tega zaslona dostopate preko **Računovodstvo / Glavna knjiga / Pregledi / St
 
 Seznam prikazuje vsa ustvarjena statistična poročila.
 
-![Seznam statističnih poročil](../Images/StatisticalReportsList.png)
+![Seznam statističnih poročil](../Images/StatisticalReportsListSL.png)
 
 Vsak vnos prikazuje:
 - **Tip statističnega poročila** (*Bilanca stanja* ali *Izkaz poslovnega izida*)
@@ -38,7 +38,7 @@ S klikom na poročilo v seznamu odprete njegov podroben pogled.
 
 Za ustvarjanje novega statističnega poročila kliknite **Dodaj statistično poročilo**.
 
-![Novo statistično poročilo](../Images/StatisticalReportsNew.png)
+![Novo statistično poročilo](../Images/StatisticalReportsNewSL.png)
 
 Izberite **tip statističnega poročila** (npr. *Bilanca stanja*) in določite primerjalna obdobja:
 - **Trenutno leto od / do**

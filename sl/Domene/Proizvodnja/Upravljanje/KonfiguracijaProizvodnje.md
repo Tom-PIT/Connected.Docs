@@ -9,7 +9,7 @@ Konfiguracija nastavitev modula **Proizvodnja**, ki vplivajo na številčenje do
 
 Za dostop do te strani pojdite na **Proizvodnja / Upravljanje / Konfiguracija** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Konfiguracija proizvodnje](../Images/ProductionConfiguration.png)
+![Konfiguracija proizvodnje](../Images/ProductionConfigurationSL.png)
 
 ## Nastavitve številčenja dokumentov
 

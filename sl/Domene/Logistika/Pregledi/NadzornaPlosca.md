@@ -15,7 +15,7 @@ Minimalne in maksimalne pragove nastavite v šifrantu **[Meje zaloge](../Upravlj
 
 Za dostop do **Nadzorne plošče** pojdite na **Logistika / Nadzorna plošča** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Nadzorna plošča](../Images/Dashboard.png "Nadzorna plošča")
+![Nadzorna plošča](../Images/DashboardSL.png "Nadzorna plošča")
 
 ## Indikatorji zaloge
 
@@ -48,7 +48,7 @@ Možnost **Vključi materiale brez zaloge** razširi rezultate tudi na materiale
 
 Pritisnite Enter ali kliknite gumb **Zaloga**, da prikažete rezultate. Če je iskalno polje prazno, vas gumb neposredno preusmeri na pregled **[Zaloge](Zaloga.md)**.
 
-![Iskalna vrstica nadzorne plošče](../Images/DashboardSearchBar.png)
+![Iskalna vrstica nadzorne plošče](../Images/DashboardSearchBarSL.png)
 
 Prikaže se seznam rezultatov z naslednjimi stolpci:
 
@@ -57,7 +57,7 @@ Prikaže se seznam rezultatov z naslednjimi stolpci:
 - **Blokirano**
 - **Rezervirano**
 
-![Rezultati iskanja](../Images/DashboardSearch.png "Rezultati iskanja")
+![Rezultati iskanja](../Images/DashboardSearchSL.png "Rezultati iskanja")
 
 ## Seznam materialov
 

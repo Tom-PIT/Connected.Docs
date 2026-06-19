@@ -29,8 +29,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -51,8 +51,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 </details>
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -64,8 +64,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -75,8 +75,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -95,8 +95,8 @@ Debit notes affect accounting only and do not impact inventory.
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Intrastat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Intrastat details</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -153,6 +153,8 @@ Once you start a new debit note, follow these steps:
    ![Debit note details](../Images/DebitNoteNewDetails.png)
 
 4. Edit quantities and values as needed, then click **Save** to confirm the detail.
+
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 5. When ready, click **Publish** at the top of the page.  
    The document moves from **Draft** to **Committed** and becomes financially effective.

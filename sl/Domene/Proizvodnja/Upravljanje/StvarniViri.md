@@ -10,7 +10,7 @@
 
 Za dostop do tega pogleda odprite verzijo procesa v **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite **[Operacije](Operacije.md)** in nato za izbrano operacijo izberite **Stvarni viri**.
 
-![Gumb Stvarni viri](../Images/NonHumanResourcesButtonSL.png "Gumb Stvarni viri")
+![Gumb Stvarni viri](../Images/NonHumanResourcesButtonSLV2.png "Gumb Stvarni viri")
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Človeški in stvarni viri](https://www.youtube.com/watch?v=iq7fQiPh_i4)**.
@@ -19,8 +19,8 @@ Za dostop do tega pogleda odprite verzijo procesa v **Proizvodnja / Upravljanje 
 
 | Polje | Opis |
 |------|------|
-| **Tip** | Določa vrsto stvarnega vira: <br>• [**Vir**](../Upravljanje/Viri.md)<br>• **Kategorija virov** |
-| [**Vir**](../Upravljanje/Viri.md) | Konkreten vir ali kategorija virov, izbrana glede na izbrani **Tip**. |
+| **Tip** | Določa vrsto stvarnega vira: <br>• [**Vir**](../../Viri/Upravljanje/Viri.md)<br>• **Kategorija virov** |
+| [**Vir**](../../Viri/Upravljanje/Viri.md) | Konkreten vir ali kategorija virov, izbrana glede na izbrani **Tip**. |
 | **Tip kalkulacije** | Določa, kako se izračuna planirani čas. <br>• **Dinamično** – čas se izračuna glede na količino proizvodnje ali druge parametre procesa.<br>• **Dinamično po seriji** – čas se izračuna glede na posamezno serijo.<br>• **Statično** – količina je fiksna. |
 | **Količina** | Planirani čas uporabe vira, vnesen kot trajanje (dnevi, ure, minute, sekunde, milisekunde). |
 | **Oznake** | Neobvezne oznake za kategorizacijo ali filtriranje dodeljenih stvarnih virov. |
@@ -36,14 +36,14 @@ Seznam **stvarnih virov** prikazuje vse dodelitve virov za izbrano operacijo, vk
 
 Za filtriranje po imenu vira uporabite iskalno polje **Iskanje**.
 
-![Seznam stvarnih virov](../Images/NonHumanResourcesList.png "Seznam stvarnih virov")
+![Seznam stvarnih virov](../Images/NonHumanResourcesListSL.png "Seznam stvarnih virov")
 
 ## Ustvariti nov stvarni vir
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu in izberite **Nov** (ali možnost kopiranja, če je na voljo).
 2. Izpolnite polja:
 
-   ![Dodaj stvarni vir](../Images/NonHumanResourcesNew.png "Dodaj stvarni vir")
+   ![Dodaj stvarni vir](../Images/NonHumanResourcesNewSL.png "Dodaj stvarni vir")
 
 3. Kliknite **Dodaj**, da shranite vnos.
 

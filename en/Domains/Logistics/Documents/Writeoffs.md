@@ -16,8 +16,8 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -28,8 +28,8 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -82,6 +82,8 @@ You can open any document to review its details.
 5. Adjust the **Quantity (pc)** to specify the number of damaged/missing pieces. The default value in the field is the total number available.
 
    ![WriteoffsDetails](../Images/WriteoffsDetails.png)
+
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 6. Click **Save** to save the detail. Add more items starting from step 3 if needed.
 

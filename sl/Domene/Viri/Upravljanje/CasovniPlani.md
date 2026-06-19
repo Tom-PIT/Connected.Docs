@@ -23,7 +23,7 @@ Ti vnosi se običajno uporabljajo za poenotenje načina kategorizacije dela pri 
 
 Seznam časovnih planov prikazuje vse definirane časovne plane.
 
-![Seznam časovnih planov](../Images/TimesheetsList.png "Seznam časovnih planov")
+![Seznam časovnih planov](../Images/TimesheetsListSL.png "Seznam časovnih planov")
 
 ### Uporaba časovnih planov
 
@@ -45,7 +45,7 @@ Za ustvarjanje novega časovnega plana:
 2. Vnesite **Naziv**, ki jasno opisuje delovno aktivnost.
 3. Kliknite **Dodaj** za shranjevanje.
 
-![Nov časovni plan](../Images/TimesheetsNew.png "Nov časovni plan")
+![Nov časovni plan](../Images/TimesheetsNewSL.png "Nov časovni plan")
 
 Novi časovni plan je takoj na voljo za izbiro na zaslonih za evidentiranje časa in dela.
 

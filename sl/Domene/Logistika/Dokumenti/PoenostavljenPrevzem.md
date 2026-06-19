@@ -30,7 +30,7 @@ Vsak zaključen poenostavljen prevzem v sistemu ustvari standardni dokument
 
 V prvem koraku uporabnik izbere podatke glave prevzemnega dokumenta.
 
-![Poenostavljen prevzem – korak 1](../Images/SimpleReceiveStep1.png)
+![Poenostavljen prevzem – korak 1](../Images/SimpleReceiveStep1SL.png)
 
 Polja vključujejo:
 
@@ -45,7 +45,7 @@ Kliknite **Naprej** za nadaljevanje.
 
 V tem koraku sistem prikaže vse **pričakovane materiale in količine** iz izbranega dobavnega naloga.
 
-![Poenostavljen prevzem – korak 2](../Images/SimpleReceiveStep2.png)
+![Poenostavljen prevzem – korak 2](../Images/SimpleReceiveStep2SL.png)
 
 Uporabnik mora sedaj **skenirati ali ročno vnesti šifro pakiranja**  
 (EAN / črtno šifro) prejetega artikla.
@@ -62,7 +62,7 @@ Ko je izbrana pravilna postavka, se postopek samodejno nadaljuje v
 
 V zadnjem koraku uporabnik dopolni podatke za vsako materialno postavko.
 
-![Poenostavljen prevzem – korak 3](../Images/SimpleReceiveStep3.png)
+![Poenostavljen prevzem – korak 3](../Images/SimpleReceiveStep3SL.png)
 
 Za vsako prejeto postavko lahko pregledate ali prilagodite:
 

@@ -10,7 +10,7 @@ Izhodi določajo materiale, ki nastanejo med **operacijo** znotraj verzije proce
 
 Za dostop do te strani odprite verzijo procesa v **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, nato kliknite **[Operacije](Operacije.md)** in pri izbrani operaciji izberite **Izhodi**.
 
-![Gumb Izhodi](../Images/OutputsButtonSL.png "Gumb Izhodi")
+![Gumb Izhodi](../Images/OutputsButtonSLV2.png "Gumb Izhodi")
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Vhodi in izhodi](https://www.youtube.com/watch?v=647sT70tNZc)**.
@@ -32,7 +32,7 @@ Za dostop do te strani odprite verzijo procesa v **Proizvodnja / Upravljanje / [
 
 Seznam prikazuje vse izhode, ki pripadajo izbrani operaciji. Vsaka vrstica prikazuje material, njegov tip in količino.
 
-![Seznam izhodov](../Images/OutputsList.png "Seznam izhodov")
+![Seznam izhodov](../Images/OutputsListSL.png "Seznam izhodov")
 
 ### Meni
 
@@ -44,14 +44,14 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 1. Kliknite akcijski gumb v spodnjem desnem kotu in izberite eno izmed možnosti:
 
-    ![Akcijski gumb izhodov](../Images/OutputsActionButton.png "Akcijski gumb izhodov")
+    ![Akcijski gumb izhodov](../Images/OutputsActionButtonSL.png "Akcijski gumb izhodov")
 
     - **Kopiraj iz obstoječega izhoda**
     - **Nov**
 
 2. Izpolnite zahtevana polja.
 
-    ![Dodaj izhod](../Images/OutputsNew.png "Dodaj izhod")
+    ![Dodaj izhod](../Images/OutputsNewSL.png "Dodaj izhod")
 
 3. Kliknite **Dodaj**, da shranite izhod.
 

@@ -21,8 +21,8 @@ Tipičen potek:
 Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestilo za račun.
 
 ## Shema
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -37,8 +37,8 @@ Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestil
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -58,7 +58,7 @@ Seznam opominov omogoča pregled vseh dokumentov, razdeljenih v skupini:
 - **Osnutki** – Dokument še ni objavljen; vsa polja so prosto uredljiva.
 - **Obdelan** – Dokument je objavljen; ni ga mogoče izbrisati ali urejati.
 
-![Seznam opominov](../Images/OverdueRemindersList.png "Seznam opominov")
+![Seznam opominov](../Images/OverdueRemindersListSL.png "Seznam opominov")
 
 Filtri na levi strani omogočajo omejevanje seznama po:
 - **Datumih dokumentov**
@@ -71,7 +71,7 @@ Filtri na levi strani omogočajo omejevanje seznama po:
 
 1. Uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega opomina v statusu osnutka.
 
-   ![Nov opomin](../Images/OverdueRemindersNew.png "Nov opomin")
+   ![Nov opomin](../Images/OverdueRemindersNewSL.png "Nov opomin")
 
 2. Izpolnite polja **Stranka**, **Datum dokumenta** in po potrebi **Strošek opomina**.
 
@@ -81,11 +81,13 @@ Filtri na levi strani omogočajo omejevanje seznama po:
    - Sistem samodejno vnese **odprti znesek** in upošteva morebiten strošek opomina.
    - Po potrebi ročno vnesite **Obresti**.
 
-   ![Dodaj postavko opomina](../Images/OverdueRemindersAddDetail.png "Dodaj postavko opomina")
+   ![Dodaj postavko opomina](../Images/OverdueRemindersAddDetailSL.png "Dodaj postavko opomina")
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 4. Kliknite **Shrani**, da potrdite dodano postavko. Postopek ponovite za dodajanje več postavk.
 
-   ![Shranjena postavka opomina](../Images/OverdueRemindersNewDetailsSaved.png "Shranjena postavka opomina")
+   ![Shranjena postavka opomina](../Images/OverdueRemindersNewDetailsSavedSL.png "Shranjena postavka opomina")
 
 5. Ko je opomin pripravljen, kliknite **Objavi** na vrhu strani.
 

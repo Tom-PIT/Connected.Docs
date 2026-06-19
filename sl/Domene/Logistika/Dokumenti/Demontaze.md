@@ -24,8 +24,8 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -36,8 +36,8 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -53,7 +53,7 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 Seznam **Demontaž** prikazuje obstoječe dokumente z indikatorji stanja (*Osnutek / Objavljeno*). Iskalnik in filtri omogočajo iskanje po skladišču, datumu ali kodi dokumenta.
 
-![Seznam demontaž](../Images/DisassembliesList.png "Seznam demontaž")
+![Seznam demontaž](../Images/DisassembliesListSL.png "Seznam demontaž")
 
 ## Dejanja
 
@@ -64,7 +64,7 @@ Demontažo ustvarite za razstavljanje garnitur na posamezne dele.
 1. Pojdite na **Logistika / Dokumenti / Demontaže**.
 2. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite osnutek demontaže.
 
-   ![Nova demontaža](../Images/DisassembliesNew.png)
+   ![Nova demontaža](../Images/DisassembliesNewSL.png)
 
 3. Izpolnite razdelek **Dokument**.
 
@@ -72,16 +72,16 @@ Demontažo ustvarite za razstavljanje garnitur na posamezne dele.
    - Sistem prikaže **vse ujemajoče materiale in serijske številke**.  
    - Če obstaja več ujemanj, izberite pravilno postavko s seznama.
 
-   ![Več ujemanj](../Images/DisassembliesNewDetailsMultiple.png)
+   ![Več ujemanj](../Images/DisassembliesNewDetailsMultipleSL.png)
 
 5. Vnesite **Količino** garnitur za demontažo.
 
-   ![Urejanje postavke](../Images/DisassembliesNewDetailsEdit.png)
+   ![Urejanje postavke](../Images/DisassembliesNewDetailsEditSL.png)
 
 6. Kliknite **Shrani**, da potrdite dodano postavko. Po potrebi ponovite postopek za dodatne garniture.  
    - Po shranjevanju lahko razširite vrstico in si ogledate seznam komponent, ki bodo demontirane, skupaj z izračunanimi količinami.
 
-   ![Shranjene postavke](../Images/DisassembliesNewDetailsSaved.png)
+   ![Shranjene postavke](../Images/DisassembliesNewDetailsSavedSL.png)
 
 7. Kliknite **Objavi**, da zaključite demontažo. Dokument se prikaže med **Potrjeni**.
 

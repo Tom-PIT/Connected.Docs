@@ -27,8 +27,8 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -48,8 +48,8 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -60,8 +60,8 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -80,8 +80,8 @@ Potrjeni predračuni so informativni in ne vplivajo na finančna ali skladiščn
 
 </details>
 
-<details>
-  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -111,7 +111,7 @@ Vsaka vrstica prikazuje:
 - Datum dokumenta  
 - Znesek dokumenta  
 
-![Seznam predračunov](../Images/ProformaInvoiceList.png "Seznam predračunov")
+![Seznam predračunov](../Images/ProformaInvoiceListSL.png "Seznam predračunov")
 
 Osnutke je mogoče urejati, potrjeni predračuni pa so dokončni, razen če so stornirani.
 
@@ -125,7 +125,7 @@ Predračune je mogoče ustvariti na dva načina:
 - Iz potrjene **[Ponudbe](Ponudbe.md)** prek **Povezani dokumenti → + Predračun**.  
   V tem primeru se večina polj samodejno izpolni.
 
-![Povezani dokumenti ponudbe](../Images/OfferPublishedLinkedDocuments.png)
+![Povezani dokumenti ponudbe](../Images/OfferPublishedLinkedDocumentsSL.png)
 
 Koraki:
 
@@ -138,15 +138,17 @@ Koraki:
    - **Tip reference / Sklic**  
    - **Bančni račun organizacije**
 
-   ![Nov predračun – zgornji del](../Images/ProformaInvoiceNewTop.png "Nov predračun – zgornji del")
+   ![Nov predračun – zgornji del](../Images/ProformaInvoiceNewTopSL.png "Nov predračun – zgornji del")
 
 3. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **serijske številke**, **EAN** ali **naziva sredstva**.
 
-   ![Urejanje postavk predračuna](../Images/ProformaInvoiceNewDetailsEdit.png "Urejanje postavk predračuna")
+   ![Urejanje postavk predračuna](../Images/ProformaInvoiceNewDetailsEditSL.png "Urejanje postavk predračuna")
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 4. Shranite postavko.
 
-   ![Shranjena postavka predračuna](../Images/ProformaInvoiceNewDetailsSaved.png "Shranjena postavka predračuna")
+   ![Shranjena postavka predračuna](../Images/ProformaInvoiceNewDetailsSavedSL.png "Shranjena postavka predračuna")
 
 5. Ko je dokument pripravljen, kliknite **Objavi**.
 
@@ -188,13 +190,13 @@ Pogosta dejanja:
 > [!NOTE]
 > Razpoložljiva dejanja so odvisna od statusa dokumenta.
 
-![Povezani dokumenti predračuna](../Images/ProformaInvoiceLinkedDocuments.png)
+![Povezani dokumenti predračuna](../Images/ProformaInvoiceLinkedDocumentsSL.png)
 
 #### Alternativna valuta
 
 Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencySL.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
@@ -202,7 +204,7 @@ Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z 
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
 
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastatSL.png "Razdelka Transport in Intrastat")
 
 - **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
 - **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
@@ -220,7 +222,7 @@ Ti podatki vplivajo na izpis dokumenta in nadaljnje logistične dokumente, ne sp
 
 Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
 
-![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSaved.png)
+![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSavedSL.png)
 
 ##### Glavna knjiga
 
@@ -271,7 +273,7 @@ Meni dokumenta omogoča naslednja dejanja:
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek** (če sistemska pravila dovoljujejo)
 
-![Meni predračuna](../Images/PrepaymentsMenu.png)
+![Meni predračuna](../Images/PrepaymentsMenuSL.png)
 
 Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 

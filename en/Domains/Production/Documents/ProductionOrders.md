@@ -8,7 +8,7 @@
 Production orders define the work required to manufacture products according to a selected process and version.  
 They move through the life cycle **Draft → Pending → Active → Closed**, and can include multiple operations, resources, inputs, outputs, and quality checks based on the assigned process.
 
-![Production Order Lifecycle](../Images/ProductionOrderLifecycle.svg "Production order lifecycle diagram")
+![Production order lifecycle](../Images/ProductionOrderLifecycle.svg "Production order lifecycle")
 
 > [!NOTE]
 > **Prerequisites**  
@@ -16,7 +16,7 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 >Before creating a new production order, ensure that the following are configured:
 > - At least one **[Process](../Management/Processes.md)** with an active **version**
 > - Assigned **[Organization units](../Management/OrganizationUnits.md)** for production  
-> - Optional supporting definitions such as **[resources](../Management/Resources.md)**, **[downtime tags](../Management/DowntimeTags.md)**, **[loss classification tags](../Management/LossClassificationTags.md)** and **[checklists](../Management/Checklists.md)** depending on your workflow (recommended)
+> - Optional supporting definitions such as **[resources](../../Resources/Management/Resources.md)**, **[downtime tags](../Management/DowntimeTags.md)**, **[loss classification tags](../Management/LossClassificationTags.md)** and **[checklists](../../Quality/Management/Checklists.md)** depending on your workflow (recommended)
 
 
 > [!TIP]
@@ -141,7 +141,7 @@ Each section has an **Add entry** button to record execution details. For exampl
 
 ### Quality
 
-The [**Quality**](ProductionOrderQuality.md) section displays all [**checklists**](../Management/Checklists.md) associated with the selected production order.
+The [**Quality**](ProductionOrderQuality.md) section displays all [**checklists**](../../Quality/Management/Checklists.md) associated with the selected production order.
 
 ## Closed production orders
 

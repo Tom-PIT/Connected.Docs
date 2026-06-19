@@ -42,7 +42,7 @@ Amortizacijske skupine ne predstavljajo osnovnih sredstev. Gre za nastavitvene z
 
 Seznam prikazuje vse definirane amortizacijske skupine.
 
-![Seznam amortizacijskih skupin](../../Images/DepreciationGroupsList.png "Seznam amortizacijskih skupin")
+![Seznam amortizacijskih skupin](../../Images/DepreciationGroupsListSL.png "Seznam amortizacijskih skupin")
 
 Vsaka vrstica prikazuje:
 
@@ -68,7 +68,7 @@ Za ustvarjanje nove amortizacijske skupine:
    - **Konto stroška amortizacije**
 4. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev vnosa
 
-![Nova amortizacijska skupina](../../Images/DepreciationGroupsNew.png "Nova amortizacijska skupina")
+![Nova amortizacijska skupina](../../Images/DepreciationGroupsNewSL.png "Nova amortizacijska skupina")
 
 ### Urediti amortizacijske skupine
 

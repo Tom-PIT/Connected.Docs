@@ -8,7 +8,7 @@
 Proizvodni nalogi določajo delo, potrebno za izdelavo izdelkov glede na izbrani proces in verzijo.  
 Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Zaključen** in lahko vključujejo več operacij, virov, vhodov, izhodov in kontrol kakovosti glede na dodeljen proces.
 
-![Production Order Lifecycle S L](../Images/ProductionOrderLifecycleSL.svg "Diagram življenjskega cikla proizvodnega naloga")
+![Proizvodni nalogi v proizvodnem procesu](../Images/ProductionOrderLifecycleSL.svg "Proizvodni nalogi v proizvodnem procesu")
 
 > [!NOTE]
 > **Predpogoji**  
@@ -16,7 +16,7 @@ Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Z
 > Pred ustvarjanjem novega proizvodnega naloga zagotovite, da je naslednje že nastavljeno:
 > - Vsaj en **[Proces](../Upravljanje/Procesi.md)** z aktivno **verzijo**
 > - Dodeljene **[Organizacijske enote](../../../Skupno/Upravljanje/PoslovneEnote.md)** za proizvodnjo  
-> - Po potrebi dodatne definicije, kot so **[viri](../Upravljanje/Viri.md)**, **[oznake zastojev](../Upravljanje/OznakeZastojev.md)**, **[oznake klasifikacije slabega kosa](../Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)** in **[kontrolne liste](../Upravljanje/KontrolneListe.md)** glede na potek dela (priporočeno)
+> - Po potrebi dodatne definicije, kot so **[viri](../../Viri/Upravljanje/Viri.md)**, **[oznake zastojev](../Upravljanje/OznakeZastojev.md)**, **[oznake klasifikacije slabega kosa](../Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)** in **[kontrolne liste](../../Kvaliteta/Upravljanje/KontrolneListe.md)** glede na potek dela (priporočeno)
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Proizvodni nalog](https://www.youtube.com/watch?v=q4UjiYpWph8)**.
@@ -27,7 +27,7 @@ Do proizvodnih nalogov dostopate preko **Proizvodnja / Proizvodni nalogi** v [na
 
 Stran Proizvodni nalogi prikazuje vse naloge, razvrščene po statusu. Za natančnejši prikaz uporabite filtre na levi strani.
 
-![Seznam proizvodnih nalogov](../Images/ProductionOrdersList.png "Seznam proizvodnih nalogov")
+![Seznam proizvodnih nalogov](../Images/ProductionOrdersListSL.png "Seznam proizvodnih nalogov")
 
 ### Razpoložljivi filtri
 
@@ -51,21 +51,21 @@ Novo ustvarjen nalog ima status **Osnutek**.
 
 V osnutku je mogoče urejati:
 
-- Šifro
-- Količino  
-- Serijo
-- Datum uporabnosti
-- Opombe
-- Proces
-- Verzija
+- **Šifro**
+- **Količino**
+- **Serijo**
+- **Datum uporabnosti**
+- **Opombe**
+- **Proces**
+- **Verzija**
 
-![Osnutek proizvodnega naloga](../Images/ProductionOrdersDraft.png "Osnutek proizvodnega naloga")
+![Osnutek proizvodnega naloga](../Images/ProductionOrdersDraftSL.png "Osnutek proizvodnega naloga")
 
 ### Objaviti osnutek
 
 Za prehod v stanje **V obdelavi** mora biti izbrana **Organizacijska enota**, če ni še definirala v [operacijo](../Upravljanje/Operacije.md).
 
-![Izbira organizacijske enote](../Images/ProductionOrdersOrganizationUnits.png "Izbira organizacijske enote")
+![Izbira organizacijske enote](../Images/ProductionOrdersOrganizationUnitsSL.png "Izbira organizacijske enote")
 
 Ko je pripravljeno, kliknite **Objavi**.
 
@@ -100,17 +100,17 @@ Na proizvodni nalog lahko pripnete druge povezane dokumente, kot so:
 - [**Povpraševanja**](../../Nabava/Dokumenti/Povprasevanja.md)
 - Drugi proizvodni nalogi (povezani ali kot vhodni)
 
-![Povezani dokumenti](../Images/ProductionOrdersLinkedDocuments.png "Povezani dokumenti")
+![Povezani dokumenti](../Images/ProductionOrdersLinkedDocumentsSL.png "Povezani dokumenti")
 
 Proizvodni nalogi prikazujejo tudi vse dokumente, ustvarjene med življenjskim ciklom naloga, kot so stroškovna in porabna poročila.
 
-![Dokumenti povezanih nalogov](../Images/ProductionOrdersLinkedDocumentsDocs.png)
+![Dokumenti povezanih nalogov](../Images/ProductionOrdersLinkedDocumentsDocsSL.png)
 
 ## Aktivni proizvodni nalogi
 
 Po aktivaciji nalog postane **Aktiven** in je pripravljen za izvajanje v proizvodnji.
 
-![Aktiven proizvodni nalog](../Images/ProductionOrdersPending.png "Aktiven proizvodni nalog")
+![Aktiven proizvodni nalog](../Images/ProductionOrdersActiveSL.png "Aktiven proizvodni nalog")
 
 Proizvodni delavci lahko zdaj izvajajo operacije v modulu **Izvedba**.  
 Za več informacij glejte **[Izvedba](Izvedba.md)**.
@@ -131,7 +131,7 @@ Klik na operacijo odpre podroben pogled, kjer lahko delavci beležijo podatke o 
 - **Slabi kosi**
 - **Delo**
 
-![Urejanje operacije proizvodnega naloga](../Images/ProductionOrderOperationEdit.png "Urejanje operacije proizvodnega naloga")
+![Urejanje operacije proizvodnega naloga](../Images/ProductionOrderOperationEditSL.png "Urejanje operacije proizvodnega naloga")
 
 Vsak razdelek ima gumb **Dodaj vnos** za beleženje podrobnosti izvedbe. Na primer, v razdelku **Proizvodnja** lahko zabeležite proizvedeni material, količino in čase proizvodnje.
 
@@ -141,13 +141,13 @@ Vsak razdelek ima gumb **Dodaj vnos** za beleženje podrobnosti izvedbe. Na prim
 
 ### Kakovost
 
-Razdelek [**Kakovost**](ProizvodniNalogiKvaliteta.md) prikazuje vse [**kontrolne sezname**](../Upravljanje/KontrolneListe.md), povezane z izbranim proizvodnim nalogom.
+Razdelek [**Kakovost**](ProizvodniNalogiKvaliteta.md) prikazuje vse [**kontrolne sezname**](../../Kvaliteta/Upravljanje/KontrolneListe.md), povezane z izbranim proizvodnim nalogom.
 
 ## Zaključeni proizvodni nalogi
 
 Ko je proizvodnja zaključena in so vse operacije izvedene, se nalog prestavi v stanje **Zaključen**.
 
-![Seznam zaključenih proizvodnih nalogov](../Images/ProductionOrdersClosedList.png "Seznam zaključenih proizvodnih nalogov")
+![Seznam zaključenih proizvodnih nalogov](../Images/ProductionOrdersClosedListSL.png "Seznam zaključenih proizvodnih nalogov")
 
 Seznam prikazuje tudi strošek na enoto in puščico, ki označuje povečanje ali zmanjšanje stroška v primerjavi s prejšnjim zaključenim nalogom za isti material. Klik na strošek na enoto odpre pogled [**Stroški opravil**](../../Viri/Pregledi/StroskiOpravil.md), filtriran na izbrani nalog, kar omogoča analizo porazdelitve stroškov delovnega naloga in podroben pregled stroškov.
 
@@ -157,11 +157,11 @@ Zaključeni nalogi:
 - Nudijo popolno zgodovino proizvodnje  
 - Prikazujejo proizvedene in planirane količine, izgube ter izhode
 
-![Podrobnosti zaključenega naloga](../Images/ProductionOrderClosedDetail.png)
+![Podrobnosti zaključenega naloga](../Images/ProductionOrderClosedDetailSL.png)
 
 Razdelek **Proces** prikazuje celotno zgodovino izvedbe. S klikom na zavihke si lahko ogledate podrobnosti, npr. uporabljene vhode:
 
-![Vhodi zaključenega naloga](../Images/ProductionOrdersClosedInputs.png)
+![Vhodi zaključenega naloga](../Images/ProductionOrdersClosedInputsSL.png)
 
 Zaključeni proizvodni nalogi ponujajo dodatne možnosti v akcijskem meniju:
 
@@ -169,7 +169,7 @@ Zaključeni proizvodni nalogi ponujajo dodatne možnosti v akcijskem meniju:
 - Izvoz (PDF)
 - Povrni v aktivno stanje – omogoča ponovno odprtje naloga za popravke
 
-![Meni zaključenega naloga](../Images/ProductionOrderClosedMenu.png)
+![Meni zaključenega naloga](../Images/ProductionOrderClosedMenuSL.png)
 
 ### Povrniti proizvodni nalog v aktivno stanje
 
@@ -179,7 +179,7 @@ Zaključeni proizvodni nalogi ponujajo dodatne možnosti v akcijskem meniju:
 2. V akcijskem meniju izberite **Povrni v aktivn**
 3. Kliknite **Ponovno Aktiviraj** pri želenem procesu
 
-![Ponovna aktivacija naloga](../Images/ProductionOrdersReactivate.png)
+![Ponovna aktivacija naloga](../Images/ProductionOrdersReactivateSL.png)
 
 ## Izbrisati proizvodni nalog
 

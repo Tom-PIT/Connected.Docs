@@ -1,23 +1,21 @@
 <!-- app_route: /sales/documents/retail-prepayments -->
-<!-- app_label: Maloprodajna predplačila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/MaloprodajnaPredplacila.md -->
-<!-- canonical_source_title: Maloprodajna predplačila -->
+<!-- app_label: Maloprodajna avansni računi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/MaloprodajnaAvansniRacuni.md -->
+<!-- canonical_source_title: Maloprodajna avansni računi -->
 
-# Maloprodajna predplačila
-
-**Maloprodajno predplačilo** je prodajni dokument, ki se uporablja v maloprodajnih scenarijih za evidentiranje prodaje v obliki predračuna, pri čemer omogoča **fleksibilno evidentiranje plačil** (takojšnja ali kasnejša plačila).  
+# Maloprodajna avansni računi
+**Maloprodajni avansni račun** je prodajni dokument, ki se uporablja v maloprodajnih scenarijih za evidentiranje prodaje v obliki predračuna, pri čemer omogoča **fleksibilno evidentiranje plačil** (takojšnja ali kasnejša plačila).  
 Dokument je namenjen prodaji na blagajni ali v trgovini in podpira enak življenjski cikel plačil kot **[maloprodajni računi](MaloprodajniRacuni.md)**.
 
-Maloprodajna predplačila je mogoče natisniti ali poslati stranki v katerikoli fazi.
+Maloprodajni avansni računi je mogoče natisniti ali poslati stranki v katerikoli fazi.
+Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna avansni računi** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-Za dostop do te strani pojdite na **Prodaja / Dokumenti / Maloprodajna predplačila** v [navigaciji](../../../Skupno/UI/Navigacija.md).
+## Vloga maloprodajnih avansnih računov v prodajnem procesu
 
-## Vloga maloprodajnih predplačil v prodajnem procesu
-
-Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
+Maloprodajni avansni računi se uporabljajo pri neposredni prodaji končnim kupcem:
 
 1. Kupec izbere enega ali več izdelkov v trgovini.  
-2. Uporabnik ročno ustvari **Maloprodajno predplačilo** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md).  
+2. Uporabnik ročno ustvari **Maloprodajni avansni račun** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md).  
 3. Dokument se objavi in preide v stanje **Neplačani**.  
 4. Plačila se evidentirajo z gumbom **Plačilo**:
    - Delna plačila premaknejo dokument v stanje **Delno plačani**.
@@ -31,7 +29,7 @@ Maloprodajna predplačila se uporabljajo pri neposredni prodaji končnim kupcem:
 
 ## Ravnanje z zalogo
 
-Maloprodajna predplačila **ne zmanjšujejo zaloge**, ne glede na stanje plačila.
+Maloprodajni avansni računi **ne zmanjšujejo zaloge**, ne glede na stanje plačila.
 
 Za prilagoditev zaloge:
 - ustvarite dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md), ali  
@@ -39,8 +37,8 @@ Za prilagoditev zaloge:
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -61,8 +59,8 @@ Za prilagoditev zaloge:
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -73,8 +71,8 @@ Za prilagoditev zaloge:
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -93,8 +91,8 @@ Za prilagoditev zaloge:
 
 </details>
 
-<details>
-  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -109,7 +107,7 @@ Za prilagoditev zaloge:
 
 ## Upravljanje
 
-Maloprodajna predplačila podpirajo naslednja stanja:
+Maloprodajni avansni računi podpirajo naslednja stanja:
 
 - **Osnutki**
 - **Neplačani**
@@ -118,7 +116,9 @@ Maloprodajna predplačila podpirajo naslednja stanja:
 
 Po objavi dokumenta postane na voljo gumb **Plačilo**.
 
-### Seznam malaprodajnih predplačil
+### Seznam maloprodajnih avansnih računov
+
+![Seznam maloprodajnih avansnih računov](../Images/RetailProformaInvoicesListSL.png "Seznam maloprodajnih avansnih računov")
 
 Seznam je mogoče filtrirati po:
 - **Datumih dokumentov**
@@ -134,29 +134,31 @@ Vsaka vrstica prikazuje:
 
 ## Dejanja
 
-### Ustvariti novo maloprodajno predplačilo
+### Ustvariti novo maloprodajno avansni račun
 
-Maloprodajna predplačila je mogoče ustvariti **samo ročno**.
+Maloprodajni avansni računi je mogoče ustvariti **samo ročno**.
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
 
-   ![Novo maloprodajno predplačilo](../Images/RetailProformaInvoiceNew.png "Novo maloprodajno predplačilo")
+   ![Novo maloprodajno avansni račun](../Images/RetailProformaInvoiceNewSL.png "Novo maloprodajno avansni račun")
 
-2. Izberite **Stranko**. Na voljo so le zapisi z oznakama **Stranka** in **Oseba**.
+2. Izberite **Stranko**. Na voljo so le zapisi z oznakama **Stranka** in **Fisična oseba**. Glejte [**Poslovni imenik**](../../../Skupno/Upravljanje/PoslovniImenik.md).
 
-   ![Klasifikacija stranke](../../../Skupno/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija stranke")
+   ![Klasifikacija stranke](../../../Skupno/Images/BusinessDirectoryCustomerPersonSL.png "Klasifikacija stranke")
 
 3. Izpolnite obvezna polja: **Datum zapadlosti**, **Tip reference**, **Sklic** in **Bančni račun organizacije**.
 
 4. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **serijske številke**, **EAN** ali **naziva sredstva**.
 
-   ![Postavke maloprodajnega predplačila](../Images/RetailProformaInvoiceNewDetailsEdit.png "Postavke maloprodajnega predplačila")
+   ![Postavke maloprodajnega predplačila](../Images/RetailProformaInvoiceNewDetailsEditSL.png "Postavke maloprodajnega predplačila")
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 5. Shranite postavke.
 
-6. (Neobvezno) Izberite **Način plačila** na dnu dokumenta.
+6. Izberite **Način plačila** na dnu dokumenta.
 
-   ![Spodnji del dokumenta](../Images/RetailInvoiceNewBottom.png "Način plačila")
+   ![Spodnji del dokumenta](../Images/RetailInvoiceNewBottomSL.png "Način plačila")
 
 7. Kliknite **Objavi**.  
    Dokument preide iz **Osnutka** v **Neplačani**.
@@ -165,7 +167,7 @@ Maloprodajna predplačila je mogoče ustvariti **samo ročno**.
 
 Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencySL.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
@@ -173,7 +175,7 @@ Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z 
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
 
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastatSL.png "Razdelka Transport in Intrastat")
 
 - **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
 - **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
@@ -185,7 +187,7 @@ Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intra
 
 Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
 
-![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSaved.png)
+![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSavedSL.png)
 
 ##### Glavna knjiga
 
@@ -211,7 +213,7 @@ Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana 
 
 Plačila se evidentirajo z gumbom **Plačilo** na vrhu dokumenta.
 
-![Plačilo maloprodajnega predplačila](../Images/RetailProformaInvoicePaymentScreen.png "Plačilo")
+![Plačilo maloprodajnega avansnega računa](../Images/RetailProformaInvoicePaymentScreenSL.png "Plačilo")
 
 V pogovornem oknu so prikazani:
 - **Skupni znesek**  
@@ -223,7 +225,7 @@ Evidentirati je mogoče več plačil. Sistem samodejno posodobi stanje dokumenta
 - **Delno plačani**
 - **V celoti plačani**
 
-### Urediti maloprodajno predplačilo
+### Urediti maloprodajni avansni račun
 
 Dokument je mogoče urejati **le v stanju Osnutek**.
 
@@ -235,7 +237,7 @@ Urejate lahko:
 
 Po objavi urejanje ni več dovoljeno, razen če je dokument **vrnjen v osnutek** (če to dovoljuje konfiguracija).
 
-### Izbrisati maloprodajno predplačilo
+### Izbrisati maloprodajni avansni račun
 
 Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **samo če ne vsebujejo postavk**.
 
@@ -269,4 +271,4 @@ Na voljo so naslednja dejanja:
 Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
 > [!NOTE]
-> Storniranje maloprodajnega predplačila izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+> Storniranje maloprodajnega avansnega računa izniči njegov finančni učinek. Za podrobnosti glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.

@@ -41,7 +41,7 @@ Seznam prikazuje:
 - **Delilnik**
 - **Množilnik**
 
-![Seznam alternativnih merskih enot](../Images/AlternativeMeasureUnitsList.png)
+![Seznam alternativnih merskih enot](../Images/AlternativeMeasureUnitsListSL.png)
 
 ## Dejanja
 
@@ -53,7 +53,7 @@ Seznam prikazuje:
 4. Vnesite **Delilnik** in **Množilnik**.
 5. Kliknite **Shrani**.
 
-![Nova alternativna merska enota](../Images/AlternativeMeasureUnitsNew.png)
+![Nova alternativna merska enota](../Images/AlternativeMeasureUnitsNewSL.png)
 
 #### Kako delujejo alternativne merske enote
 
@@ -84,13 +84,13 @@ Na seznamu izberite alternativno mersko enoto in uporabite **Izbriši** za njeno
 
 Alternativne merske enote se uporabljajo v **[Pakiranju](Pakiranje.md)** za določanje količin pakiranja v alternativni merski enoti, medtem ko sistem samodejno izračuna ustrezno količino v osnovni merski enoti.
 
-![Alternativna merska enota v pakiranju](../Images/AlternativeMeasureUnitsPackaging.png)
+![Alternativna merska enota v pakiranju](../Images/AlternativeMeasureUnitsPackagingSL.png)
 
 ### Prevzemni dokumenti
 
 V **prevzemnih dokumentih** se količine, vnesene v alternativni merski enoti, samodejno pretvorijo v osnovno mersko enoto pri posodabljanju zaloge.
 
-![Alternativna merska enota v prevzemu](../Images/AlternativeMeasureUnitsDetails.png)
+![Alternativna merska enota v prevzemu](../Images/AlternativeMeasureUnitsDetailsSL.png)
 
 > [!IMPORTANT]
 >

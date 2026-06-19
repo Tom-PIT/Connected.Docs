@@ -34,15 +34,15 @@ Seznam prikazuje:
 - njihova obdobja veljavnosti  
 - gumb **Podrobnosti** za ogled vsebine cenika  
 
+![Ceniki sredstev](../Images/AssetPriceListsSL.png "Seznam cenikov sredstev")
+
 Seznam je mogoče filtrirati po:
 - **Tipu** (npr. Podjetje)
 - **Entiteti** (npr. Kupec)
 
-![Ceniki sredstev](../Images/AssetPriceLists.png "Seznam cenikov sredstev")
+Klik na gumb **Postavke** odpre stran, kjer se upravljajo sredstva in količinski razponi.
 
-Klik na gumb **Podrobnosti** odpre stran, kjer se upravljajo sredstva in količinski razponi.
-
-![Podrobnosti in razponi](../Images/AssetPriceListsDetailsEdit.png "Razponi in podrobnosti sredstev")
+![Seznam podrobnosti](../Images/AssetPriceListsDetailsListSL.png "Seznam podrobnosti")
 
 ## Dejanja
 
@@ -50,10 +50,10 @@ Glede na to, na katerem zaslonu se nahajate, [akcijski gumb](../../../Skupno/UI/
 
 Na strani **Ceniki sredstev**:
 - **Nov**
-- [**Kopiraj**](#kopirati-cenik)
+- [**Kopiraj**](#kopirati-cenik-sredstev)
 
 Na strani **Podrobnosti**:
-- [**Uvoz**](#uvoziti-cenik)
+- [**Uvoz**](#uvoziti-cenik-sredstev)
 - **Nov**
 
 ### Ustvariti nov cenik sredstev
@@ -65,23 +65,27 @@ Za ustvarjanje delujočega cenika sledite tem korakom:
 3. Kliknite **Dodaj**, da shranite glavo cenika.
 4. Kliknite gumb **Postavke**, da odprete stran s cenami.
    
-   ![Gumb Podrobnosti](../Images/AssetPriceListsDetailsButton.png "Odpri podrobnosti cenika")
+   ![Gumb Podrobnosti](../Images/AssetPriceListsDetailsButtonSL.png "Odpri podrobnosti cenika")
 
-5. Z uporabo akcijskega gumba dodajte eno ali več **Sredstev** v cenik.
-  
-   ![Seznam podrobnosti](../Images/AssetPriceListsDetailsList.png "Seznam podrobnosti")
+5. Kliknite akcijski gumb in izberite **Novo**.
 
-6. (Neobvezno) Dodajte **Razpone**, da določite količinske popuste. V spodnjem primeru velja, da se pri nakupu med 5 in 100 sredstvi uporabi 90 % cene (10 % popust).
+   ![Podrobnosti in razponi](../Images/AssetPriceListsDetailsEditSL.png "Razponi in podrobnosti sredstev")
 
-   ![Primer razpona](../Images/AssetPriceListsDetailsRange.png "Primer količinskega popusta")
+6. Izberite sredstvo, polje **Neto ceno (na enoto) 100 %** se samodejno izpolni.
 
-7. Shranite podrobnosti. Cenik je zdaj aktiven za izbranega kupca v določenem obdobju.
+7. (Neobvezno) Dodajte **Razpone**, da določite količinske popuste. V spodnjem primeru velja, da se pri nakupu med 5 in 100 sredstvi uporabi 90 % cene (10 % popust).
+
+   ![Primer razpona](../Images/AssetPriceListsDetailsRangeSL.png "Primer količinskega popusta")
+
+8. Shranite podrobnosti. Ponovite od koraka 5, da dodate več sredstev v cenik. 
+ 
+Cenik je zdaj aktiven za izbranega kupca v določenem obdobju.
 
 ### Urediti cenik sredstev
 
 Kliknite **ime cenika**, da odprete zaslon za urejanje. Tukaj lahko spremenite informacije o glavi cenika, vendar ne sredstev ali razponov. Za urejanje sredstev in razponov kliknite gumb **Podrobnosti**, kot je opisano v prejšnjem razdelku.
 
-![Urejanje cenika](../Images/AssetPriceListsEdit.png "Urejanje cenika sredstev")
+![Urejanje cenika](../Images/AssetPriceListsEditSL.png "Urejanje cenika sredstev")
 
 ### Kopirati cenik sredstev
 
@@ -90,6 +94,8 @@ Ustvari kopijo obstoječega cenika, vključno z obdobjem veljavnosti in vsebino.
 ### Uvoziti cenik sredstev
 
 Zaslon **Uvoz** omogoča uvoz CSV datoteke s seznamom postavk cenika.
+
+![Uvoz cenika](../Images/AssetPriceListsImportSL.png "Uvoz cenika sredstev")
 
 ## Izbrisati cenik sredstev
 

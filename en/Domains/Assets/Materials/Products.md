@@ -22,7 +22,7 @@ To access the **Products** code list, go to **Assets / Materials / Products** in
 
 ## Schema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Product</strong></summary>
 
 | Field | Description |
@@ -38,7 +38,7 @@ To access the **Products** code list, go to **Assets / Materials / Products** in
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Packaging</strong></summary>
 
 A packaging definition describes the physical properties of a material and the alternative units used when handling it in the warehouse. This can also be set in [**Packaging**](Packaging.md).
@@ -55,7 +55,7 @@ A packaging definition describes the physical properties of a material and the a
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Additional</strong></summary>
 
 | Field | Description |
@@ -68,7 +68,7 @@ A packaging definition describes the physical properties of a material and the a
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Ledger and Intrastat</strong></summary>
 
 | Field | Description |
@@ -138,7 +138,7 @@ Click on the [action button](../../../Common/UI/ActionButton.md) and select **Im
 
 See the [**Import materials**](ImportMaterials.md) documentation for full details.
 
-### Copy an exisisting product
+### Copy an existing product
 
 Click on the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing product** to create a new product based on an existing one. A selection list appears with the available base products.
 

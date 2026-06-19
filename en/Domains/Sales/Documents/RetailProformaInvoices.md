@@ -37,8 +37,8 @@ To adjust inventory:
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -58,8 +58,8 @@ To adjust inventory:
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 </details>
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -71,8 +71,8 @@ To adjust inventory:
 </details>
 
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -91,8 +91,8 @@ To adjust inventory:
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Interstat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Interstat details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -155,9 +155,11 @@ Retail proforma invoices can only be created manually.
 
    ![Retail proforma details](../Images/RetailProformaInvoiceNewDetailsEdit.png)
 
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 5. Save the details.
 
-6. Select a **Payment method** at the bottom of the document (optional).
+6. Select a **Payment method** at the bottom of the document.
    
    ![Retail proforma new bottom](../Images/RetailInvoiceNewBottom.png)
 
@@ -187,6 +189,8 @@ These values affect the printed document and follow-up logistics documents, but 
 Details define the ordered items and their quantities, prices, taxes, and discounts. Each detail line corresponds to a specific product, service, or asset.
 
 ![Sales order – Edit detail](../Images/SalesOrdersNewDetailsSaved.png)
+
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 ##### Ledger details
 

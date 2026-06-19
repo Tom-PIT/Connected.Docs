@@ -65,7 +65,7 @@ Razpoložljive **vloge** lahko izberete iz spustnega seznama:
 
 Kliknite **DODAJ**, da ustvarite uporabnika, ali **PREKLIČI**, da se vrnete na seznam.
 
-> **Opomba:**  
+> [!NOTE]  
 > Vloge določajo dostopne pravice uporabnika v sistemu.
 > Struktura in pomen posameznih vlog sta odvisna od konfiguracije sistema,
 > poslovnega modela in operativnih potreb, zato se lahko razlikujeta med različnimi implementacijami.

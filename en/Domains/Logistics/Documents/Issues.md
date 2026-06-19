@@ -16,8 +16,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -29,8 +29,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -76,6 +76,8 @@ You can click any document to open and review its details.
 4. The system automatically fills in all known details (material, serial number, location, best before).  
 
 	![Issue Detail](../Images/IssueNewDetails.png "Issue Details")
+
+	For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 5. Enter the **quantity** you want to issue — this is the only editable field.  
 6. Click **Save** to add the line to the document.  Add more items starting from step 2 if needed. 

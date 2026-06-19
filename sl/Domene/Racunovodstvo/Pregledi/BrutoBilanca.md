@@ -14,7 +14,7 @@ Pogled **Bruto bilanca** omogoča združen pregled **začetnega stanja, prometa 
 
 Do tega pogleda dostopate prek **Računovodstvo / Glavna knjiga / Pregledi / Bruto bilanca** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Bruto bilanca](../Images/AccountSummary.png "Bruto bilanca")
+![Bruto bilanca](../Images/AccountSummarySL.png "Bruto bilanca")
 
 ## Pregled
 

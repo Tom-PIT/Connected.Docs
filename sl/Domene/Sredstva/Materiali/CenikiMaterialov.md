@@ -54,15 +54,13 @@ Seznam je mogoče filtrirati po:
 - **Tipu**
 - **Vrednosti**
 
-![Ceniki materialov](../Images/MaterialsPriceListsList.png "Ceniki materialov")
-
-Klik na **ime cenika** odpre zaslon za **urejanje**.
-
-![Urejanje cenika materialov](../Images/MaterialsPriceListsNew.png "Urejanje cenika materialov")
+![Ceniki materialov](../Images/MaterialsPriceListsListSL.png "Ceniki materialov")
 
 Klik na gumb **Postavke** odpre stran s podrobnostmi cenitve.
 
-![Podrobnosti cenika materialov](../Images/MaterialsPriceListsDetailsList.png "Podrobnosti cenika materialov")
+![Podrobnosti cenika materialov](../Images/MaterialsPriceListsDetailsButtonSL.png "Podrobnosti cenika materialov")
+
+![Podrobnosti cenika materialov](../Images/MaterialsPriceListsDetailsListSL.png "Podrobnosti cenika materialov")
 
 ## Dejanja
 
@@ -85,15 +83,15 @@ Glede na trenutni zaslon [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) pon
    - **Veljavno do**
 3. Kliknite **Dodaj**, da shranite glavo cenika.
 
-   ![Nov cenik materialov](../Images/MaterialsPriceListsNew.png "Nov cenik materialov")
+   ![Nov cenik materialov](../Images/MaterialsPriceListsNewSL.png "Nov cenik materialov")
 
 4. Kliknite gumb **Postavke**, da upravljate cene materialov.
 
-   ![Gumb Postavke](../Images/MaterialsPriceListsDetailsButton.png "Gumb Postavke")
+   ![Gumb Postavke](../Images/MaterialsPriceListsDetailsButtonSL.png "Gumb Postavke")
 
 5. Z uporabo akcijskega gumba dodajte enega ali več **materialov**.
 
-   ![Dodajanje podrobnosti cenika materialov](../Images/MaterialsPriceListsDetailsNew.png)
+   ![Dodajanje podrobnosti cenika materialov](../Images/MaterialsPriceListsDetailsNewSL.png)
 
 6. Vnesite:
    - **Tip**
@@ -136,9 +134,21 @@ Ko je cenik prazen, ga lahko izbrišete na zaslonu za urejanje.
 
 ## Meni
 
-Meni v pogledu **Podrobnosti** omogoča dodatna dejanja, ki so na voljo na tej strani.
+Na tej strani so dejanja menija na voljo na dveh mestih.
 
-Na voljo je naslednje dejanje:
+### Meni seznama
+
+Meni seznama omogoča dejanja za trenutno prikazan seznam.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v PDF**
+
+### Meni dokumenta
+
+Meni v pogledu **Podrobnosti** omogoča dejanja za trenutno odprt dokument.
+
+Na voljo so naslednja dejanja:
 
 - **Izvoz v CSV**
 

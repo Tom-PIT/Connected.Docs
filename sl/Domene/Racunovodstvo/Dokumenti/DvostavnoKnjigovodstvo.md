@@ -16,8 +16,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Dvostavn
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -29,8 +29,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Dvostavn
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -47,13 +47,15 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Dvostavn
 
 ## Upravljanje
 
-![Indikatorji seznama temeljnic](../Images/DoubleEntryAccountancyListDetail.png)
-
 ### Seznam
 
 Seznam prikazuje vse temeljnice skupaj s povzetnimi indikatorji.
 
-![Seznam objavljenih temeljnic](../Images/DoubleEntryAccountancyCommitedList.png)
+![Seznam objavljenih temeljnic](../Images/DoubleEntryAccountancyCommitedListSL.png)
+
+Vsak vnos je mogoče razširiti, da prikaže z njim povezane dokumente.
+
+![Indikatorji seznama temeljnic](../Images/DoubleEntryAccountancyListDetailSL.png)
 
 Na voljo so naslednji filtri:
 
@@ -69,7 +71,7 @@ Povzetni indikatorji na vrhu seznama prikazujejo:
 - Skupni znesek kredita
 - Število neuravnoteženih temeljnic
 
-![Seznam osnutkov temeljnic](../Images/DoubleEntryAccountancyDraftList.png)
+![Seznam osnutkov temeljnic](../Images/DoubleEntryAccountancyDraftListSL.png)
 
 Neuravnotežene temeljnice so vizualno označene, da jih je lažje prepoznati in popraviti.
 
@@ -85,21 +87,33 @@ Pred objavo mora sistem preveriti, da se zneska ujemata.
 
 ## Dejanja
 
-### Ustvariti temeljnice
+### Ustvariti temeljnico
 
-![Ustvarjanje temeljnice](../Images/DoubleEntryAccountancyJournalEntryNew.png)
+Na seznamu temeljnic kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Dodaj temeljnico**.
 
-![Akcijski gumb – nova temeljnica](../Images/DoubleEntryAccountancyJournalEntryNewButton.png)
+![Ustvarjanje temeljnice](../Images/DoubleEntryAccountancyJournalEntryNewSL.png)
 
-1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove temeljnice.
-2. Izberite **Tip dokumenta**.
-3. Po želji izberite **Predlogo** za predizpolnitev postavk.
-4. Nastavite **Datum temeljnice**.
-5. Dodajte ali uredite **Postavke**.
+1. Izberite **Tip dokumenta**.
+2. Po želji izberite **Predlogo** za predizpolnitev knjižb.
+3. Nastavite **Datum temeljnice**.
+4. Kliknite **Dodaj**, da ustvarite temeljnico.
+
+### Dodati knjižbe
+
+Po ustvarjanju temeljnice uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) znotraj dokumenta za dodajanje knjižb ali davčnih vnosov v razdelku **Postavke**.
+
+Na voljo so naslednja dejanja:
+
+- **Dodaj knjižbo** – doda novo knjižbo.
+- **Dodaj davčni vnos** – doda nov davčni vnos.
+
+![Akcijski gumb – nova temeljnica](../Images/DoubleEntryAccountancyJournalEntryNewButtonSL.png)
+
+Po potrebi dodajte ali uredite knjižbe in shranite temeljnico.
 
 ### Urediti postavke
 
-![Urejanje postavk temeljnice](../Images/DoubleEntryAccountancyJournalEntryDetailEdit.png)
+![Urejanje postavk temeljnice](../Images/DoubleEntryAccountancyJournalEntryDetailEditSL.png)
 
 Kliknite katerokoli modro polje v razdelku **Postavke**, da uredite posamezno knjižbo.
 

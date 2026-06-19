@@ -33,7 +33,7 @@ Za vsako sredstvo so prikazani:
 - **Povprečna cena**  
 - **Skupna cena**, vključno z neto vrednostjo in davkom  
 
-![Seznam poročil naročil strank](../Images/SalesOrderReportList.png "Seznam poročil naročil strank")
+![Seznam poročil naročil strank](../Images/SalesOrderReportListSL.png "Seznam poročil naročil strank")
 
 ## Filtri
 
@@ -64,4 +64,14 @@ Vsi zneski temeljijo na podatkih iz [**Naročil strank**](../Dokumenti/NarocilaS
 
 Za podrobnejše informacije na ravni dokumentov odprite ustrezna [**Naročila strank**](../Dokumenti/NarocilaStrank.md) neposredno v razdelku **Prodaja / Dokumenti / Naročila strank**.
 
----
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz kumulativnega PDF-ja** – združi količine in zneske v skupne vrednosti.
+- **Izvoz podrobnega PDF-ja** – izvozi podrobnosti posameznih dokumentov ločeno.
+
+Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
+

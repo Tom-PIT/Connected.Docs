@@ -15,8 +15,8 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -28,8 +28,8 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -43,7 +43,11 @@ Za dostop do **Posoj** pojdite na **Logistika / Dokumenti / Posoje** v [navigaci
 
 ## Seznam dokumentov posoje
 
-Stran **Posoje** prikazuje vse dokumente posoje. Seznam lahko filtrirate z iskalnikom ali z levim stranskim menijem:
+Stran **Posoje** prikazuje vse dokumente posoje. 
+
+![Seznam posoj](../Images/LoansListSL.png "Seznam posoj")
+
+Seznam lahko filtrirate z iskalnikom ali z levim stranskim menijem:
 
 - **Datumi dokumentov**
 - **Pogled**
@@ -58,8 +62,6 @@ Barvni indikator ob dokumentu prikazuje njegovo stanje:
 
 S klikom na dokument odprete njegov podroben pregled.
 
-![Seznam posoj](../Images/LoansList.png "Seznam posoj")
-
 ## Dejanja
 
 ### Ustvariti nove posoje
@@ -67,7 +69,7 @@ S klikom na dokument odprete njegov podroben pregled.
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in ustvarite nov osnutek posoje.  
    Izberite **Skladišče** in **Stik**.
 
-   ![Nova posoja](../Images/LoansNew.png "Nova posoja")
+   ![Nova posoja](../Images/LoansNewSL.png "Nova posoja")
 
 2. V razdelku **Postavke** vnesite ali skenirajte **serijsko številko**, **EAN** ali **ime materiala**.
 
@@ -76,15 +78,17 @@ S klikom na dokument odprete njegov podroben pregled.
    - **vse materiale, ki ustrezajo vnosu**
    - če obstaja več ujemanj, se prikaže **izbirni seznam**
 
-   ![Več ujemanj](../Images/LoansNewDetailsSearch.png "Več ujemanj")
+   ![Več ujemanj](../Images/LoansNewDetailsSearchSL.png "Več ujemanj")
 
 3. Izberite pravilno postavko. Sistem samodejno izpolni znane podatke (material, serijska številka, lokacija).
 
 4. Vnesite **količino**, ki jo želite posoditi. Količino je potrebno urediti v obrazcu postavke:
 
-   ![Podrobnosti posoje](../Images/LoansNewDetails.png "Podrobnosti posoje")
+   ![Podrobnosti posoje](../Images/LoansNewDetailsSL.png "Podrobnosti posoje")
 
 5. Kliknite **Shrani**, da dodate postavko. Po potrebi postopek ponovite za dodatne postavke.
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 6. Kliknite **Objavi**, da dokument potrdite. Objavljen dokument se prikaže v pogledu *Potrjeni*.
 
@@ -96,7 +100,7 @@ Ko so posojeni materiali vrnjeni, ustvarite **storno** iz menija dokumenta.
 
 V zgornjem desnem kotu odprite **meni (ikona hamburger)** in izberite **Ustvari novo storno**.
 
-![Meni posoje](../Images/LoansMenu.png "Meni posoje")
+![Meni posoje](../Images/LoansMenuSL.png "Meni posoje")
 
 S tem se ustvari dokument, ki materiale vrne nazaj na zalogo. Za več podrobnosti glejte **[Storno](Storno.md)**.
 

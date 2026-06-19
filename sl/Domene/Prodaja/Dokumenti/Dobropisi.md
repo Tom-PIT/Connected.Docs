@@ -29,8 +29,8 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -51,8 +51,8 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -64,8 +64,8 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 </details>
 
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -84,8 +84,8 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 
 </details>
 
-<details>
-  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -117,7 +117,7 @@ Vsaka vrstica prikazuje:
 
 Osnutke je mogoče urejati, potrjeni dobropisi pa so dokončni, razen če so stornirani.
 
-![Seznam dobropisov](../Images/CreditNotesList.png "Seznam dobropisov")
+![Seznam dobropisov](../Images/CreditNotesListSL.png "Seznam dobropisov")
 
 ## Dejanja
 
@@ -132,13 +132,15 @@ Po začetku novega dobropisa sledite korakom:
 
 1. Ustvarite nov osnutek dobropisa.
 
-   ![Nov dobropis](../Images/CreditNoteNew.png "Nov dobropis")
+   ![Nov dobropis](../Images/CreditNoteNewSL.png "Nov dobropis")
 
 2. Izpolnite zahtevana polja, kot so **Stranka**, **Datumi**, **Tip reference** in **Bančni račun organizacije**.
 
 3. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **naziva sredstva**, **EAN** ali **serijske številke**.
 
-   ![Postavke dobropisa](../Images/CreditNoteNewDetails.png "Postavke dobropisa")
+   ![Postavke dobropisa](../Images/CreditNoteNewDetailsSL.png "Postavke dobropisa")
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 4. Prilagodite količine in vrednosti ter kliknite **Shrani**.
 
@@ -155,7 +157,7 @@ Po začetku novega dobropisa sledite korakom:
 
 Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
 
-![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSaved.png)
+![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSavedSL.png)
 
 ##### Glavna knjiga
 
@@ -203,7 +205,7 @@ Razdelek **Povezani dokumenti** omogoča povezavo s predhodno ustvarjenim **[Izd
 
 Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
 
-![Povezani dokumenti dobropisa](../Images/CreditDebitNoteLinkedDocuments.png "Povezani dokumenti dobropisa")
+![Povezani dokumenti dobropisa](../Images/CreditDebitNoteLinkedDocumentsSL.png "Povezani dokumenti dobropisa")
 
 Potrjeni dobropisi razdelka **Povezani dokumenti** ne prikazujejo.
 
@@ -211,7 +213,7 @@ Potrjeni dobropisi razdelka **Povezani dokumenti** ne prikazujejo.
 
 Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencySL.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
@@ -219,7 +221,7 @@ Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z 
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
 
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastatSL.png "Razdelka Transport in Intrastat")
 
 - **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
 - **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.

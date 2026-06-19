@@ -18,7 +18,7 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 
 ## Schema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Asset</strong></summary>
 
 | Field | Description |
@@ -35,7 +35,7 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Intrastat and Ledger</strong></summary>
 
 | Field | Description |
@@ -50,7 +50,7 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Additional and Details</strong></summary>
 
 | Field | Description |
@@ -63,6 +63,22 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 | **Quantity** | Quantity of the linked entity. |
 
 </details>
+
+## Management
+
+### Assets list
+
+The **Assets** list displays all existing assets, along withtheir type (service or goods), neto price, and measure unit.
+
+![Assets list](../Images/AssetsListV2.png "Assets list")
+
+You can filter the Assets list using:
+
+- **View**: Enabled / Disabled  
+- **Type**: Goods / Service  
+- **Tags**  
+
+These filters help locate specific assets and simplify management of large asset catalogs.
 
 ## Actions
 
@@ -87,13 +103,16 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 
 After saving the asset, you may add **asset details**. These allow linking the asset to other entities such as materials (for example, when a sold product corresponds to a stock-tracked item).
 
-Each detail includes:
+Click the **Add asset detail** button to open the form for adding a new asset detail. Each detail includes:
 
 - **Type** (e.g., Products)  
 - **Entity** (selected material or item)  
 - **Quantity**
 
 ![Add asset detail](../Images/AssetsAddAssetDetail1.png "Add asset detail")  
+
+Click **Add** to save the detail or **Cancel** to exit without changes.
+
 ![Asset details list](../Images/AssetsAddAssetDetail2.png "Asset details list")
 
 ### Import assets from materials
@@ -111,22 +130,9 @@ Users can select:
 
 Click **Import** to create asset entries or **Cancel** to exit without changes.
 
-## Filters
-
-You can filter the Assets list using:
-
-- **View**: Enabled / Disabled  
-- **Type**: Goods / Service  
-- **Tags**  
-
-These filters help locate specific assets and simplify management of large asset catalogs.
-
 ## Delete an asset
 
-Click **Delete** on the edit screen to remove the selected asset.
+Click an asset on the list to open the edit screen, then click **Delete** to remove the selected asset. If confirmed, the asset is permanently removed. 
 
-A confirmation dialog appears:
-
-**Are you sure you want to delete the record?**
-
-If confirmed, the asset is permanently removed. If the asset is referenced in other documents or records, deletion may be blocked until dependencies are resolved.
+> [!NOTE]
+> If the asset is referenced in other documents or records, deletion may be blocked until dependencies are resolved.

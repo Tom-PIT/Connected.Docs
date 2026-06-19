@@ -12,7 +12,7 @@ Aktivnost **Delo** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire akti
 
 ## Zabeležiti delo
 
-![Vnos dela](../Images/ExecutionEffortPage.png "Vnos dela")
+![Vnos dela](../Images/ExecutionEffortPageSL.png "Vnos dela")
 
 1. Odprite stran **Delo** iz [**menija aktivnosti v izvedbi**](Izvedba.md#akcijski-meni-in-aktivnosti).  
 2. Izberite enega od spodnjih načinov in zabeležite čas.  
@@ -42,7 +42,7 @@ Kliknite **Dodaj delo**, da shranite zapis.
 
 Zabeležena dela se prikažejo v seznamu pod obrazcem.
 
-![Seznam dela](../Images/ExecutionEffortList.png "Seznam dela")
+![Seznam dela](../Images/ExecutionEffortListSL.png "Seznam dela")
 
 - Izberite zapis za urejanje časov, trajanja, oznak ali opisa.  
 - Zapis lahko tudi izbrišete, če je bil dodan pomotoma.

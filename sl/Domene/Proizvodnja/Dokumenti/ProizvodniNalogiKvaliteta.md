@@ -6,7 +6,7 @@
 
 # Proizvodni nalogi - Kvaliteta
 
-Zavihek **Kvaliteta** prikazuje vse [**kontrolne sezname**](../Upravljanje/KontrolneListe.md), povezane z izbranim **[proizvodnim](ProizvodniNalogi.md) ali [vzdrževalnim](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md) nalogom**.
+Zavihek **Kvaliteta** prikazuje vse [**kontrolne sezname**](../../Kvaliteta/Upravljanje/KontrolneListe.md), povezane z izbranim **[proizvodnim](ProizvodniNalogi.md) ali [vzdrževalnim](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md) nalogom**.
 
 Ti kontrolni seznami so dodani na določen **[proces](../Upravljanje/Procesi.md) ali [operacijo](../Upravljanje/Operacije.md)**, da se zagotovi izvajanje kontrol kakovosti med izvajanjem naloga.
 

@@ -78,7 +78,7 @@ Vsaka vrstica prikazuje:
 
 Nadrejene konte je mogoče razširiti za prikaz podrejenih kontov. Seznam je mogoče iskati z iskalnim poljem v zgornjem desnem kotu.
 
-![Seznam kontov](../../Images/ChartOfAccountsListV2.png "Seznam kontov")
+![Seznam kontov](../../Images/ChartOfAccountsListSL.png "Seznam kontov")
 
 ## Dejanja
 
@@ -94,7 +94,7 @@ Za ustvarjanje novega konta:
 2. Vnesite obvezna polja
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev vnosa
 
-![Konti – nov](../../Images/ChartOfAccountsNew.png "Nov konto")
+![Konti – nov](../../Images/ChartOfAccountsNewSL.png "Nov konto")
 
 ### Uvoz kontov
 

@@ -13,8 +13,8 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [navig
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -29,8 +29,8 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [navig
 
 </details>
 
-<details>
-  <summary><strong>Operacija</strong></summary>
+<details markdown="1">
+<summary><strong>Operacija</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -41,8 +41,8 @@ Za dostop do **Stroškov** pojdite na **Nabava / Šifranti / Stroški** v [navig
 </details>
 
 
-<details>
-  <summary><strong>Glavna knjiga</strong></summary>
+<details markdown="1">
+<summary><strong>Glavna knjiga</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -104,7 +104,7 @@ Določite lahko:
 
 Kliknite **Dodaj operacijo**, da odprete pogovorno okno za izbiro operacije.
 
-![Dodaj operacijo](../Images/ExpensesAddOperationSL.png "Dodaj operacijo")
+![Dodaj operacijo](../Images/ExpensesAddOperationSLV2.png "Dodaj operacijo")
 
 Po vnosu podatkov kliknite **Dodaj**, da shranite zapis, ali **Prekliči**, da se vrnete na seznam.
 

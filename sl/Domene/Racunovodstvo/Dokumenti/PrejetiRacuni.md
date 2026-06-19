@@ -31,8 +31,8 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-----|-----|
@@ -54,8 +54,8 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-----|-----|
@@ -76,7 +76,7 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 
 Seznam prikazuje vse prejete račune skupaj s povzetnimi kazalniki. Obstajajo stolpci za **šifro dokumenta**, **datum zapadlosti** in **znesek**, ki jih lahko razvrstite s klikom na glavo stolpca. Iskalno polje omogoča filtriranje po imenu dobavitelja ali datumu.
 
-![Seznam prejetih računov](../Images/ReceivedInvoicesListV2.png "Seznam prejetih računov")
+![Seznam prejetih računov](../Images/ReceivedInvoicesListSL.png "Seznam prejetih računov")
 
 Na voljo so naslednji filtri:
 
@@ -130,7 +130,7 @@ To omogoča popravljanje datumov ali kontov pred ponovnim objavljanjem.
 
 Pri zaključenih dokumentih razdelek **Povezave dokumentov** omogoča ustvarjanje plačilnega naloga iz prejetega računa.
 
-![Povezani dokumenti](../Images/ReceivedInvoicesCommitedTop.png)
+![Povezani dokumenti](../Images/ReceivedInvoicesCommitedTopSL.png)
 
 Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
 
@@ -145,6 +145,8 @@ Dokumente v stanju **Osnutek** lahko izbrišete v urejanju, vendar **le, če ne 
 3. Postopek ponovite za vse preostale postavke.
 
 Ko dokument ne vsebuje več postavk, ga lahko izbrišete.
+
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 > [!NOTE]
 > - Izbris je mogoč samo za **osnutke**.  

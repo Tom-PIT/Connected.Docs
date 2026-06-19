@@ -43,7 +43,7 @@ Te povezave same po sebi ne ustvarjajo knjižb. Predstavljajo pravila knjiženja
 
 Seznam prikazuje vse definirane povezave med sredstvi in konti.
 
-![Seznam povezav sredstev in kontov](../../Images/AssetAccountConnectionsList.png "Seznam povezav sredstev in kontov")
+![Seznam povezav sredstev in kontov](../../Images/AssetAccountConnectionsListSL.png "Seznam povezav sredstev in kontov")
 
 Vsaka vrstica prikazuje:
 * **Sredstvo**
@@ -63,7 +63,7 @@ Za dodajanje nove povezave:
 4. Izberite **Konto**, ki se uporabi za izbrani tip knjiženja
 5. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za opustitev
 
-![Povezave sredstev in kontov – novo](../../Images/AssetAccountConnectionsNew.png "Povezave sredstev in kontov – novo")
+![Povezave sredstev in kontov – novo](../../Images/AssetAccountConnectionsNewSL.png "Povezave sredstev in kontov – novo")
 
 ### Praktični primeri
 

@@ -31,7 +31,7 @@ Zaslon prikazuje seznam bančnih računov. Na levi strani lahko račune filtrira
 - **Omogočeno**
 - **Onemogočeno**
 
-![Bančni računi organizacije](../Images/OrganizationBankAccounts.png "Seznam bančnih računov organizacije")
+![Bančni računi organizacije](../Images/OrganizationBankAccountsSL.png "Seznam bančnih računov organizacije")
 
 S klikom na IBAN številko odprete urejanje izbranega bančnega računa.
 
@@ -48,7 +48,7 @@ Vnesite zahtevane podatke:
 - **Uporabljaj IBAN masko** (neobvezno)
 - **Glavna knjiga**
 
-![Nov bančni račun organizacije](../Images/OrganizationBankAccountsNewV2.png "Dodajanje novega bančnega računa")
+![Nov bančni račun organizacije](../Images/OrganizationBankAccountsNewSL.png "Dodajanje novega bančnega računa")
 
 #### Glavna knjiga
 

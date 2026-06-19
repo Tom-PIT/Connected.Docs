@@ -9,7 +9,7 @@ Maintenance orders define the work required to perform **planned or curative mai
 
 They move through the life cycle **Pending → Active → Closed**, and include operations, resources, inputs, and quality checks defined by the selected process.
 
-![Maintenance Order Lifecycle](../Images/MaintenanceOrderLifecycle.svg "Maintenance orders lifecycle diagram")
+![Maintenance order lifecycle](../Images/MaintenanceOrderLifecycle.svg "Maintenance order lifecycle")
 
 > [!NOTE]
 > **Prerequisites**
@@ -18,7 +18,7 @@ They move through the life cycle **Pending → Active → Closed**, and include 
 > - At least one [**maintenance process**](../../Production/Management/Processes.md) with an active version
 > - Equipment definitions
 > - Assigned [**organization units**](../../Production/Management/OrganizationUnits.md)
-> - Optional supporting definitions such as [**resources**](../../Production/Management/Resources.md), [**checklists**](../../Production/Management/Checklists.md), and [**measure units**](../../../Common/Management/MeasureUnits.md), depending on your maintenance workflow
+> - Optional supporting definitions such as [**resources**](../../Resources/Management/Resources.md), [**checklists**](../../Quality/Management/Checklists.md), and [**measure units**](../../../Common/Management/MeasureUnits.md), depending on your maintenance workflow
 
 To access maintenance orders, go to **Maintenance / Maintenance Orders** in the [navigation](../../../Common/UI/Navigation.md).
 
@@ -46,9 +46,9 @@ Maintenance orders may display visual indicators to provide quick status informa
 - **Red dot** – Curative maintenance order
 - **Late indicator** – Indicates that the maintenance order is overdue
 - **Priority arrows**
-  - Red arrow pointing up – High priority
-  - No arrow – Normal priority
-  - Blue arrow pointing down – Low priority
+  - **Red arrow** pointing up – High priority
+  - **No arrow** – Normal priority
+  - **Blue arrow** pointing down – Low priority
 
 ![Maintenance Orders List Item](../Images/MaintenanceOrdersListItem.png "Maintenance order list indicators")
 
@@ -126,7 +126,7 @@ Clicking an operation opens the **operation execution screen**, where the worker
 
 - Review [instructions](../../Knowledge/KnowledgeBase/KnowledgeBase.md)
 - Register [inputs](../../Production/Management/Inputs.md) and [non-human resources](../../Production/Management/NonHumanResources.md)
-- Complete quality [checklists](../../Production/Management/Checklists.md)
+- Complete quality [checklists](../../Quality/Management/Checklists.md)
 - Record effort (start/stop work, duration)
 - Add execution data
 
@@ -135,6 +135,9 @@ Clicking an operation opens the **operation execution screen**, where the worker
 Once the operation is finished, click **Complete** in the top-left corner of the operation screen.
 
 Completed operations are displayed with a **green indicator**, providing a clear visual status.
+
+> [!TIP]
+> You have the option of completing the entire maintenance order at once by clicking **Complete maintenance order** in the [menu](#menu), if desired.
 
 ## Closed maintenance orders
 
@@ -147,3 +150,15 @@ Closed maintenance orders:
 - Serve as maintenance records for the equipment
 
 They remain visible in the list under the **Closed** view.
+
+## Menu
+
+The menu provides additional actions available on this page for **active** maintenance orders.
+
+Available actions:
+
+- **Complete maintenance order**
+
+Click **Complete maintenance order** to complete all operations in the maintenance order. After confirmation, the order moves to the **Closed** status.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

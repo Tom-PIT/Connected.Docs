@@ -15,7 +15,7 @@ za samodejno ustvarjanje vzdrževalnih nalogov, ko so doseženi določeni pragov
 Za dostop do tega zaslona pojdite na **Vzdrževanje / Stanja števcev** v
 [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Seznam stanj števcev](../Images/ResourceWorkHoursCountersList.png)
+![Seznam stanj števcev](../Images/ResourceWorkHoursCountersListSL.png)
 
 ## Pregled
 
@@ -37,7 +37,7 @@ Iskalno polje omogoča iskanje opreme po nazivu.
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite novo stanje števca.
 
-![Dodaj stanje števca](../Images/ResourceWorkHoursCountersNew.png)
+![Dodaj stanje števca](../Images/ResourceWorkHoursCountersNewSL.png)
 
 Vnesite naslednje podatke:
 - **Merska enota** – Enota, uporabljena za števec (npr. *Piece*, *Hour*, *Liter*)
@@ -46,7 +46,7 @@ Vnesite naslednje podatke:
 
 Kliknite **DODAJ**, da ustvarite novo stanje števca.
 
-> **Opomba**
+> [!NOTE]
 >
 > Za posamezno kombinacijo opreme in merske enote lahko obstaja samo **eno**
 > stanje števca.
@@ -60,7 +60,7 @@ Za urejanje vrednosti:
 2. Vnesite novo vrednost
 3. Potrdite spremembo
 
-![Urejanje vrednosti števca](../Images/ResourceWorkHoursCountersListEdit.png)
+![Urejanje vrednosti števca](../Images/ResourceWorkHoursCountersListEditSL.png)
 
 Polje **Zadnja sprememba** se samodejno posodobi ob vsaki spremembi vrednosti.
 

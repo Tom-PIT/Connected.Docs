@@ -15,8 +15,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Osnovna 
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -38,8 +38,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Osnovna 
 
 </details>
 
-<details>
-  <summary><strong>Podrobnosti</strong></summary>
+<details markdown="1">
+<summary><strong>Podrobnosti</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -64,7 +64,7 @@ Osnovna sredstva prehajajo skozi naslednja stanja:
 
 Seznam prikazuje vsa osnovna sredstva.
 
-![Seznam osnovnih sredstev](../Images/FixedAssetsList.png)
+![Seznam osnovnih sredstev](../Images/FixedAssetsListSL.png)
 
 Na voljo so naslednji filtri:
 
@@ -87,13 +87,13 @@ Trenutno stanje posameznega sredstva odraža njegov življenjski cikel.
 
 Po objavi se osnovno sredstvo premakne iz stanja **Osnutek** v **Še ni v uporabi**.
 
-![Novo osnovno sredstvo](../Images/FixedAssetsNew.png)
+![Novo osnovno sredstvo](../Images/FixedAssetsNewSL.png)
 
 ### Dodati podrobnosti sredstva
 
 V razdelku **Podrobnosti** lahko beležite dogodke, povezane z osnovnim sredstvom.
 
-![Podrobnosti osnovnega sredstva](../Images/FixedAssetsDetails.png)
+![Podrobnosti osnovnega sredstva](../Images/FixedAssetsDetailsSL.png)
 
 #### Nabava
 
@@ -123,7 +123,7 @@ Po aktivaciji se osnovno sredstvo premakne v stanje **Aktiviran**.
 
 Razdelek **Amortizacija na datum** omogoča izbiro datuma za začetek ali zaustavitev izračuna amortizacije.
 
-![Amortizacija na datum](../Images/FixedAssetsDepreciationOnDate.png)
+![Amortizacija na datum](../Images/FixedAssetsDepreciationOnDateSL.png)
 
 - **Začni** sproži izračun amortizacije od izbranega datuma.
 - **Ponastavi** ustavi izračun amortizacije.

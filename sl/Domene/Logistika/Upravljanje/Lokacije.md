@@ -28,7 +28,7 @@ Za dostop do tega šifranta pojdite na **Logistika / Upravljanje / Lokacije** v 
 
 Uporabniški vmesnik prikazuje seznam vseh lokacij za izbrano skladišče. Uporabite izbirnik skladišča na levi strani za spremembo skladišča. Če zapisi še ne obstajajo, je seznam prazen.
 
-![Seznam lokacij](../Images/LocationsList.png "Seznam lokacij")
+![Seznam lokacij](../Images/LocationsListSL.png "Seznam lokacij")
 
 Vsak zapis vsebuje oznako **Zaloga**, ki odpre vmesnik za upravljanje zaloge, povezane z izbrano lokacijo.
 
@@ -36,7 +36,7 @@ Za več podrobnosti glejte **[Pogled zaloge po lokacijah](../Pregledi/PogledZalo
 
 ## Dejanja
 
-Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikaÅ¾ejo naslednja dejanja:
 
 - **Uvoz**
 - **Novo**
@@ -47,14 +47,13 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Uvoz*
 
 Lokacije lahko uvozite iz **CSV** datoteke. To je uporabno pri vzpostavljanju skladiščnih struktur z več regali, policami in predali.
 
-![Uvoz lokacij](../Images/LocationsImport.png "Uvoz lokacij")
+![Uvoz lokacij](../Images/LocationsImportSL.png "Uvoz lokacij")
 
 Datoteko povlecite v območje za nalaganje ali kliknite območje, da odprete pogovorno okno za izbiro datoteke. Datoteka mora vsebovati zahtevana polja v veljavni strukturi.
 
 Po uvozu lahko lokacije pregledate in po potrebi prilagodite na zaslonu za upravljanje lokacij.
 
 Kliknite **Prekliči**, da se vrnete na seznam brez uvoza.
-
 > [!NOTE]
 > Vsaka lokacija je vezana na **skladišče**, zato se prepričajte, da vsa referencirana [**skladišča**](Skladisca.md) že obstajajo v sistemu.
 
@@ -79,7 +78,7 @@ V obrazcu je potrebno vnesti naslednja polja:
 - **Opis** – dodatne informacije o lokaciji (neobvezno)  
 - **Aktiven** – določa, ali je lokacija na voljo za uporabo v novih dokumentih  
 
-![Nova lokacija](../Images/NewLocation.png)
+![Nova lokacija](../Images/NewLocationSL.png)
 
 Kliknite **Dodaj**, da shranite novo lokacijo, ali **Prekliči**, da zaprete obrazec brez shranjevanja.
 
@@ -90,7 +89,6 @@ Za urejanje obstoječe lokacije kliknite njeno **Ime** v seznamu.
 Odpre se obrazec za urejanje, kjer lahko spremenite vse lastnosti lokacije.
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
-
 ### Izbrisati lokacijo
 
 Kliknite ime lokacije, da odprete zaslon za urejanje, nato kliknite **Izbriši**. Po potrditvi se lokacija trajno odstrani.
@@ -101,7 +99,6 @@ Kliknite ime lokacije, da odprete zaslon za urejanje, nato kliknite **Izbriši**
 ## Meni
 
 Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
-
 Na voljo je naslednje dejanje:
 
 - **Natisni šifro skladiščne lokacije z nalepko**

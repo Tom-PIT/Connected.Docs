@@ -18,15 +18,15 @@ Tipičen potek:
 3. Po odobritvi povpraševanje pretvorite v **[Nabavni nalog](NabavniNalogi.md)** prek razdelka **Povezani dokumenti**.  
 4. Iz nabavnega naloga lahko nato ustvarite **[Prevzem](../../Logistika/Dokumenti/Prevzemi.md)** (delni ali celotni), ko material prispe.
 
-![Inquiry Diagram S L](../Images/InquiryDiagramSL.svg "Diagram povpraševanja v procesu dobave")
+![Povpraševanja v nabavnem procesu](../Images/InquiryDiagramSL.svg "Povpraševanja v nabavnem procesu")
 
 > [!NOTE]
 > Povpraševanja niso obvezna — **nabavne naloge** je mogoče ustvariti tudi neposredno, brez predhodnega povpraševanja. Organizacija lahko uporablja vse ali le nekatere korake, odvisno od nabavnega procesa.
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -37,8 +37,8 @@ Tipičen potek:
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -65,7 +65,7 @@ Dokumenti se v svojem življenjskem ciklu pomikajo skozi več stanj:
 
 Seznam **Povpraševanj** omogoča pregled vseh nabavnih zahtevkov, razdeljenih v poglede **Osnutki**, **Na voljo**, **V obdelavi** in **Zaključeno**.
 
-![Seznam povpraševanj – Na voljo](../Images/InquiriesListAvailable.png "Seznam povpraševanj – Na voljo")
+![Seznam povpraševanj – Na voljo](../Images/InquiriesListAvailableSL.png "Seznam povpraševanj – Na voljo")
 
 ### Indikatorji
 
@@ -98,11 +98,13 @@ Filtri omogočajo hitro navigacijo med povpraševanji različnih dobaviteljev, s
 
 2. Izpolnite polja **Dobavitelj**, **Datum dokumenta** in **Datum veljavnosti**.
 
-   ![Novo povpraševanje](../Images/InquiriesNew.png "Novo povpraševanje")
+   ![Novo povpraševanje](../Images/InquiriesNewSL.png "Novo povpraševanje")
 
 3. V razdelku **Postavke** vnesite ali skenirajte **serijsko številko**, **EAN** ali **ime materiala**.  
    - Sistem prikaže **vsa ujemanja materialov in serijskih številk**.  
    - Prilagodite količino glede na potrebe.
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 4. Shranite dodane postavke.
 
@@ -145,7 +147,7 @@ Razpoložljiva dejanja vključujejo:
 
 Ko je povpraševanje v stanju **Na voljo** odobreno, kliknite **Zaključi** na vrhu strani. Dokument se nato prikaže v pogledu **Zaključeno**.
 
-![Seznam povpraševanj – Zaključeno](../Images/InquiriesListCompleted.png "Seznam povpraševanj – Zaključeno")
+![Seznam povpraševanj – Zaključeno](../Images/InquiriesListCompletedSL.png "Seznam povpraševanj – Zaključeno")
 
 > [!NOTE]
 > Povpraševanje se samodejno premakne v stanje **Zaključeno**, ko se iz njega neposredno ustvari **[nabavni nalog](NabavniNalogi.md)** prek razdelka **Povezani dokumenti**.

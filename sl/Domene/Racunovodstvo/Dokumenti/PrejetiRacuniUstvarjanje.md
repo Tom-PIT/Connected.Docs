@@ -14,7 +14,7 @@
 3. Preglejte ali vnesite podatke glave dokumenta, vključno z **Zneskom**.
 4. Izberite ustrezen **Konto** in po potrebi **Predlogo**.
 
-![Glava novega prejetega računa](../Images/ReceivedInvoicesNewTop.png)
+![Glava novega prejetega računa](../Images/ReceivedInvoicesNewTopSL.png)
 
 ### Ustvari predlagane knjižbe
 
@@ -23,12 +23,12 @@ V razdelku **Predlagane knjižbe** sistem predlaga knjižbe na podlagi povezanih
 1. Preglejte predlagane postavke.
 2. Uredite polja **Strošek** in **Količina** na seznamu po potrebi.
 
-   ![Received Invoices Details Expense](../Images/ReceivedInvoicesDetailsExpense.png "Uredi postavke")
+   ![Received Invoices Details Expense](../Images/ReceivedInvoicesDetailsExpenseSL.png "Uredi postavke")
 
 3. Izberite ustrezne vrstice.
 4. Kliknite **Ustvari knjižbe** za ustvarjanje postavk.
 
-   ![Predlagane knjižbe](../Images/ReceivedInvoicesNewSuggestedPostings.png "Predlagane knjižbe")
+   ![Predlagane knjižbe](../Images/ReceivedInvoicesNewSuggestedPostingsSL.png "Predlagane knjižbe")
 
 #### Priponke
 
@@ -41,13 +41,15 @@ Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md)
 Kliknite katerokoli modro polje v razdelku **Postavke**, da ga uredite.  
 Po spremembah kliknite **Shrani**.
 
-![Urejanje postavke](../Images/ReceivedInvoicesDetails.png)
+![Urejanje postavke](../Images/ReceivedInvoicesDetailsSL.png)
+
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 ### Objavi prejeti račun
 
 Ko so vsi zneski usklajeni in obvezni podatki izpolnjeni, je spodnji del dokumenta videti takole:
 
-![Spodnji del dokumenta](../Images/ReceivedInvoicesNewBottom.png)
+![Spodnji del dokumenta](../Images/ReceivedInvoicesNewBottomSL.png)
 
 - Kliknite **Objavi** za potrditev dokumenta.
 - Račun se knjiži v glavno knjigo.
@@ -56,4 +58,4 @@ Ko so vsi zneski usklajeni in obvezni podatki izpolnjeni, je spodnji del dokumen
 > [!NOTE]
 > Če obstaja razlika med zneskom v glavi in vsoto postavk, dokument prikaže **Preostali znesek** in je označen.
 >
-> ![Preostali znesek](../Images/ReceivedInvoicesNewRemainingAmount.png)
+> ![Preostali znesek](../Images/ReceivedInvoicesNewRemainingAmountSL.png)

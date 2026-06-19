@@ -42,20 +42,20 @@ Examples:
 
 ## Schema
 
-<details open>
-  <summary><strong>Reversed document section</strong></summary>
+<details open markdown="1">
+<summary><strong>Reversed document section</strong></summary>
 
 | Field | Description |
 |-------|-------------|
-| **Document type** | Type of document being reversed ([receive](receives.md), [issue](Issues.md), [writeoff](Writeoffs.md), [inter warehouse](InterWarehouse.md)). |
+| **Document type** | Type of document being reversed ([receive](Receives.md), [issue](Issues.md), [writeoff](Writeoffs.md), [inter warehouse](InterWarehouse.md)). |
 | [**Code**](../../../Common/UI/DocumentCodes.md) | Identifier of the reversed document (clickable). |
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the original document was executed. |
 | **Document date** | Date of the original document. |
 
 </details>
 
-<details>
-  <summary><strong>Document</strong></summary>
+<details markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -64,8 +64,8 @@ Examples:
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|

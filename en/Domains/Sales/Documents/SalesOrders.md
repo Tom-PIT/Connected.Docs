@@ -25,7 +25,7 @@ Sales orders are one of the core steps in the sales chain:
 
 Once the sales order is fulfilled and invoiced, it moves toward completion.
 
-![Sales Order Diagram](../Images/SalesOrderDiagram.svg "Sales order in the sales process")
+![Sales orders in the sales process](../Images/SalesOrderDiagram.svg "Sales orders in the sales process")
 
 > [!NOTE]
 >Your company may follow all steps or only some of them, depending on the type of business (for example, service companies may not use Delivery notes).
@@ -33,8 +33,8 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -50,8 +50,8 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | [**Payment methods**](../Management/PaymentMethods.md) | Payment options connected to the sales order. |
 </details>
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -62,8 +62,8 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -73,8 +73,8 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -208,6 +208,8 @@ If you need to remove only a specific material instead of clearing the entire do
 
 1. Click the material serial number to open the **Edit detail** screen.
 2. Click **Delete** inside the Edit detail window.
+
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 > [!NOTE]
 > Only **draft** sales orders can be deleted. Once a sales order is published, you can no longer delete it; instead, use **Return to draft**.  

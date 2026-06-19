@@ -23,7 +23,7 @@ Naročila strank so eden ključnih korakov v prodajni verigi:
    - [**Nabavni nalogi**](../../Nabava/Dokumenti/NabavniNalogi.md)
    - [**Izdani računi**](IzdaniRacuni.md)
 
-![Sales Order Diagram S L](../Images/SalesOrderDiagramSL.svg "Diagram naročila stranke v prodajnem procesu")
+![Prodajni proces](../Images/SalesOrderDiagramSL.svg "Prodajni proces")
 
 Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaključeno stanje.
 
@@ -32,8 +32,8 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -47,8 +47,8 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -59,8 +59,8 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -70,8 +70,8 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -112,11 +112,11 @@ Na vrhu seznama sistem prikazuje povzetne kazalnike glede na trenutno uporabljen
 
 **Osnutki:**
 
-![Naročila strank – Osnutki](../Images/SalesOrdersListDrafts.png "Naročila strank – Osnutki")
+![Naročila strank – Osnutki](../Images/SalesOrdersListDraftsSL.png "Naročila strank – Osnutki")
 
 **Na voljo (potrjena):**
 
-![Naročila strank – Na voljo](../Images/SalesOrdersListAvailable.png "Naročila strank – Na voljo")
+![Naročila strank – Na voljo](../Images/SalesOrdersListAvailableSL.png "Naročila strank – Na voljo")
 
 Filtri vključujejo:
 - **Datumi dokumentov**
@@ -151,7 +151,7 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokume
 
 Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
 
-![Naročilo stranke – povezani dokumenti](../Images/SalesOrdersLinkedDocuments.png "Naročilo stranke – povezani dokumenti")
+![Naročilo stranke – povezani dokumenti](../Images/SalesOrdersLinkedDocumentsSL.png "Naročilo stranke – povezani dokumenti")
 
 > [!NOTE]
 > Razpoložljiva dejanja v razdelku **Povezani dokumenti** so odvisna od tipa in statusa dokumenta.
@@ -174,7 +174,7 @@ Ko je osnutek pripravljen, kliknite **Objavi** na vrhu strani, da potrdite naro�
 > [!NOTE]
 > Ko kliknete **Objavi**, se dokument potrdi in premakne iz stanja **Osnutek** v skupino stanj **Obdelan**.
 
-![Naročila strank – Na voljo](../Images/SalesOrdersListAvailable.png)
+![Naročila strank – Na voljo](../Images/SalesOrdersListAvailableSL.png)
 
 Zaključevanje naročila stranke ima naslednje učinke:
 
@@ -189,7 +189,7 @@ Zaključevanje naročila stranke ima naslednje učinke:
 
 Ko je potrjeno naročilo stranke zaključeno, na primer po izdaji [**dobavnice**](Dobavnice.md) ali [**izdanega računa**](IzdaniRacuni.md), kliknite **Zaključi**:
 
-![Gumb Zaključi naročilo stranke](../Images/SalesOrdersCompleteButton.png "Gumb Zaključi naročilo stranke")
+![Gumb Zaključi naročilo stranke](../Images/SalesOrdersCompleteButtonSL.png "Gumb Zaključi naročilo stranke")
 
 ### Brisati naročilo stranke
 
@@ -205,6 +205,8 @@ Dokumente v stanju **Osnutek** je mogoče izbrisati v pogledu za urejanje, **sam
 
 1. Kliknite serijsko številko materiala, da odprete zaslon **Uredi postavko**.
 2. V oknu za urejanje kliknite **Izbriši**.
+
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 > [!NOTE]
 > - Izbrisati je mogoče samo **osnutke**.  

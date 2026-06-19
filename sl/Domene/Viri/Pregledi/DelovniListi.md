@@ -29,7 +29,7 @@ Za dostop do **Delovnih listov** pojdite na **Viri / Delovni listi** v [navigaci
 Koledar prikazuje vse delovne liste za izbrani **časovni plan**.  
 Delovne liste je mogoče prikazati v **dnevnem**, **tedenskem** ali **mesečnem** pogledu.
 
-![Koledar delovnih listov](../Images/WorksheetsCalendar.png "Koledar delovnih listov")
+![Koledar delovnih listov](../Images/WorksheetsCalendarSL.png "Koledar delovnih listov")
 
 Na levi strani je na voljo filter za izbiro, kateri **časovni plan** je prikazan v koledarju.  
 Prikazani so samo delovni listi, ki pripadajo izbranemu časovnemu planu.
@@ -38,7 +38,7 @@ Prikazani so samo delovni listi, ki pripadajo izbranemu časovnemu planu.
 
 ### Ustvariti novi delovni list
 
-Za ustvarjanje novega delovnega lista kliknite akcijski gumb **+** v spodnjem desnem kotu.
+Za ustvarjanje novega delovnega lista kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu.
 
 Glede na izbrani **vzorec izvajanja** so na voljo različne možnosti.
 
@@ -46,13 +46,13 @@ Glede na izbrani **vzorec izvajanja** so na voljo različne možnosti.
 
 Možnost **Enkrat** se uporablja za planiranje enkratne izvedbe.
 
-![Nov delovni list – enkrat](../Images/WorksheetsNewOnce.png "Nov delovni list – enkrat")
+![Nov delovni list – enkrat](../Images/WorksheetsNewOnceSL.png "Nov delovni list – enkrat")
 
 #### Večkrat
 
 Možnost **Večkrat** se uporablja za planiranje ponavljajočega se delovnega lista v določenem časovnem obdobju.
 
-![Nov delovni list – večkrat](../Images/WorksheetsNewMultiple.png "Nov delovni list – večkrat")
+![Nov delovni list – večkrat](../Images/WorksheetsNewMultipleSL.png "Nov delovni list – večkrat")
 
 Po shranjevanju se delovni list prikaže v koledarju na ustreznem datumu oziroma datumih.
 

@@ -19,12 +19,14 @@ To access Organization units, navigate to the **Production** or **Maintenance** 
 | Field | Description |
 |-------|-------------|
 | [**Code**](../../../Common/UI/DocumentCodes.md) | Unique code for the organization unit (system-generated). |
-| **Name** (mandatory) | Display name of the organization unit. |
+| **Name**  | Display name of the organization unit (mandatory). |
 | **Description** | Short description of the unit's responsibilities or scope. |
 | **Ordinal** | Integer to control ordering in lists. |
 | **Tags** | Optional tags for categorization (e.g., Production, Maintenance). |
 | **Parent** | Optional parent organization unit (hierarchy). |
+| **Article** | Optional link to a specific instruction article from the [**Knowledge base**](../../Knowledge/KnowledgeBase/KnowledgeBase.md). |
 | **Enabled** | Toggle to enable or disable the organization unit. Disabled units are not used in new workflows. |
+
 
 ## Management
 
@@ -42,7 +44,7 @@ Each record includes a status indicator to the left of its name:
 
 ![Organization Units Resources Buttons](../Images/OrganizationUnitsResourcesButtons1.png "Organization Units Resources Buttons")
 
-Use the buttons under each organization unit to attach human, non-human resources, and quality checklists to the selected organization unit. See **[Resources](Resources.md)** for details on defining people, machines, teams, and maintenance tools.
+Use the buttons under each organization unit to attach human, non-human resources, and quality checklists to the selected organization unit. See **[Resources](../../Resources/Management/Resources.md)** for details on defining people, machines, teams, and maintenance tools.
 
 ### Actions
 
@@ -60,13 +62,13 @@ Fill in the fields on the form:
 - **Parent** — optionally select a parent unit to build a hierarchy.
 - **Enabled** — check to enable the unit.
 
-![Organization units – New](../Images/OrganizationUnitsNew.png "Organization units – New")
+![Organization units – New](../Images/OrganizationUnitsNewV2.png "Organization units – New")
 
 Click **Add** to save the new organization unit, or **Cancel** to discard.
 
 ### Quality in organization units
 
-Organization units can have [**quality checklists**](Checklists.md) assigned to them. A checklist can be used to require users to complete basic tasks (for example, at the start of a shift) before continuing.
+Organization units can have [**quality checklists**](../../Quality/Management/Checklists.md) assigned to them. A checklist can be used to require users to complete basic tasks (for example, at the start of a shift) before continuing.
 
 > [!NOTE]
 > Currently, the only available mode is **On first login**.
@@ -78,7 +80,7 @@ Organization units can have [**quality checklists**](Checklists.md) assigned to 
 1. In the organization units list, click **Quality** on the desired organization unit.
 2. Click the action button to add a new checklist.
 3. Select:
-   - **Checklist** (configured in [Checklists](Checklists.md))
+   - **Checklist** (configured in [Checklists](../../Quality/Management/Checklists.md))
    - **Mode** (currently **On first login**)
    - **Ordinal** (order in which checklists are shown)
 4. Click **Add** to save or **Cancel** to discard.

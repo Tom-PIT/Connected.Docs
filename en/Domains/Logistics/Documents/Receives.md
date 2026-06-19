@@ -20,8 +20,8 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -34,8 +34,8 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 
 </details>
 
-<details>
-  <summary><strong>Transport and Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Transport and Intrastat</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -47,8 +47,8 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -66,8 +66,8 @@ To access Receives, go to **Logistics / Documents / Receives** in the [navigatio
 
 </details>
 
-<details>
-  <summary><strong>Details – Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Details – Intrastat</strong></summary>
 
 This section becomes available when Intrastat reporting is enabled and the vendor is located in another EU country.
 
@@ -118,6 +118,8 @@ To create a new receive document:
 	![Receive document details](../Images/ReceiveDocumentDetails.png "Receive document details")
 
 4. Adjust quantities, storage locations, or other values if needed.
+   
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 5. Click **Save** to save the details. Add more items starting from step 2 if needed.
 

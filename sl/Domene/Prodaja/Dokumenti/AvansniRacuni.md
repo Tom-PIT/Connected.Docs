@@ -28,8 +28,8 @@ Avansni računi sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -51,8 +51,8 @@ Avansni računi sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -63,8 +63,8 @@ Avansni računi sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -83,8 +83,8 @@ Avansni računi sledijo prejetim sredstvom in **ne vplivajo na zalogo**.
 
 </details>
 
-<details>
-  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -105,7 +105,7 @@ Avansni računi imajo lahko status **Osnutek** ali **Potrjeno**.
 ### Seznam
 
 
-![Seznam avansnih računov](../Images/PrepaymentsList.png "Seznam avansnih računov")
+![Seznam avansnih računov](../Images/PrepaymentsListSL.png "Seznam avansnih računov")
 
 Seznam avansnih računov je mogoče filtrirati po:
 - **Datumih dokumentov**
@@ -127,17 +127,19 @@ Osnutke je mogoče urejati, potrjeni avansni računi pa so dokončni, razen če 
 
 1. Uporabite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka avansnega računa.
 
-   ![Novi avansni račun](../Images/PrepaymentsNewTop.png "Novi avansni račun")
+   ![Novi avansni račun](../Images/PrepaymentsNewTopSL.png "Novi avansni račun")
 
 2. Izpolnite obvezna polja: **Stranka**, **Datum zapadlosti**, **Tip reference**, **Sklic** in **Bančni račun organizacije**.
 
 3. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem **serijske številke**, **EAN** ali **naziva sredstva/materiala**.
 
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+
 4. Shranite dodane postavke.
 
 5. Izberite **Način plačila**.
 
-   ![Avansni račun – spodnji del](../Images/PrepaymentsNewBottom.png "Avansni račun – spodnji del")
+   ![Avansni račun – spodnji del](../Images/PrepaymentsNewBottomSL.png "Avansni račun – spodnji del")
 
 6. Ko je avansni račun pripravljen, kliknite **Objavi**.  
    Dokument preide v stanje **Potrjeno** in omogoči nadaljnja dejanja.
@@ -146,7 +148,7 @@ Osnutke je mogoče urejati, potrjeni avansni računi pa so dokončni, razen če 
 > - S klikom na **Objavi** se dokument potrdi in premakne iz **Osnutka** v **Potrjeno**.  
 > - Osnutek avansnega računa je mogoče ustvariti tudi iz potrjenega **[Predračuna](Predracuni.md)** prek dejanja **+ Avansni račun**.
 >
-> ![Povezava predračun → avansni račun](../Images/PrepaymentsProformaLink.png "Povezava predračun → avansni račun")
+> ![Povezava predračun → avansni račun](../Images/PrepaymentsProformaLinkSL.png "Povezava predračun → avansni račun")
 
 
 ### Urejanje avansnega računa
@@ -174,7 +176,7 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje nadaljnjih dokumentov in pr
 
 Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
 
-![Povezani dokumenti avansnega računa](../Images/PrepaymentsLinkedDocuments.png "Povezani dokumenti avansnega računa")
+![Povezani dokumenti avansnega računa](../Images/PrepaymentsLinkedDocumentsSL.png "Povezani dokumenti avansnega računa")
 
 > [!NOTE]
 > - Razpoložljiva dejanja so odvisna od tipa in statusa dokumenta.  
@@ -189,7 +191,7 @@ Razpoložljiva dejanja vključujejo:
 
 Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencySL.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
@@ -197,7 +199,7 @@ Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z 
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
 
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastatSL.png "Razdelka Transport in Intrastat")
 
 - **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
 - **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
@@ -215,7 +217,7 @@ Ti podatki vplivajo na izpis dokumenta in nadaljnje logistične dokumente, ne sp
 
 Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
 
-![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSaved.png)
+![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSavedSL.png)
 
 ##### Glavna knjiga
 

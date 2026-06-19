@@ -23,7 +23,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 ## Shema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Surovina</strong></summary>
 
 | Polje | Opis |
@@ -39,7 +39,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Pakiranje</strong></summary>
 
 **Definicija pakiranja** opisuje fizikalne lastnosti materiala in alternativne enote, ki se uporabljajo pri ravnanju z njim v skladišču. To je mogoče nastaviti tudi v razdelku [**Pakiranje**](Pakiranje.md).
@@ -54,7 +54,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Dodatno</strong></summary>
 
 | Polje | Opis |
@@ -67,7 +67,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Glavna knjiga in Intrastat</strong></summary>
 
 | Polje | Opis |
@@ -86,7 +86,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 Uporabniški vmesnik vsebuje seznam surovin.
 
-![Surovine](../Images/RawMaterialsList.png "Surovine")
+![Surovine](../Images/RawMaterialsListSL.png "Surovine")
 
 Na levi strani je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje.
 
@@ -104,7 +104,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo*
 
 Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
-![Nova surovina](../Images/NewRawMaterial.png "Nova surovina")
+![Nova surovina](../Images/NewRawMaterialSL.png "Nova surovina")
 
 Na voljo so dodatni zložljivi razdelki:
 
@@ -115,13 +115,13 @@ Ta razdelek omogoča pregled ali dodajanje enega ali več zapisov [pakiranja](Pa
 Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
 - [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md)
 - [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
-- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
+- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedSkladiscniPromet.md)
 
 #### Intrastat in Glavna knjiga
 
 Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri poročanju.
 
-![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedger.png "Materiali Intrastat in Glavna knjiga")
+![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedgerSL.png "Materiali Intrastat in Glavna knjiga")
 
 > [!WARNING]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
@@ -137,13 +137,13 @@ Za podrobnosti glejte dokumentacijo
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječo**, da omogočite ustvarjanje nove surovine na podlagi že obstoječe.
 
-![Kopiranje surovine](../Images/CopyRawMaterial.png "Kopiranje surovine")
+![Kopiranje surovine](../Images/CopyRawMaterialSL.png "Kopiranje surovine")
 
 #### Dodatno
 
 Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodaten kontekst, vendar ne vplivajo na izračune zaloge.
 
-![Zložljivi razdelki](../Images/MaterialPackagingAdditional.png "Zložljivi razdelki")
+![Zložljivi razdelki](../Images/MaterialPackagingAdditionalSL.png "Zložljivi razdelki")
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite surovino, ali **Prekliči**, da se vrnete na seznam.
 
@@ -151,7 +151,7 @@ Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite surovino, ali **Pre
 
 Kliknite ime surovine v seznamu, da odprete zaslon za urejanje.
 
-![Urejanje surovine](../Images/EditRawMaterial.png "Urejanje surovine")
+![Urejanje surovine](../Images/EditRawMaterialSL.png "Urejanje surovine")
 
 ## Izbrisati surovino
 

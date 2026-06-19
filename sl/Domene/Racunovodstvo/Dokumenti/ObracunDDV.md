@@ -30,8 +30,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -43,8 +43,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Dobave blaga in storitev (brez davka)</strong></summary>
+<details markdown="1">
+<summary><strong>Dobave blaga in storitev (brez davka)</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -57,8 +57,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Obračunani davek</strong></summary>
+<details markdown="1">
+<summary><strong>Obračunani davek</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -70,8 +70,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Nabave blaga in storitev</strong></summary>
+<details markdown="1">
+<summary><strong>Nabave blaga in storitev</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -85,8 +85,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Odbitek davka</strong></summary>
+<details markdown="1">
+<summary><strong>Odbitek davka</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -95,8 +95,8 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 </details>
 
-<details>
-  <summary><strong>Končni izračun</strong></summary>
+<details markdown="1">
+<summary><strong>Končni izračun</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -109,7 +109,7 @@ Prikazani zneski predstavljajo **neto pozicijo DDV** za izbrano obdobje:
 
 Seznam prikazuje vse ustvarjene obračune DDV. S klikom na vrstico odprete podrobni pogled posameznega obračuna.
 
-![Seznam obračunov DDV](../Images/TaxReturnsList.png)
+![Seznam obračunov DDV](../Images/TaxReturnsListSL.png)
 
 Objavljeni obračuni so označeni z zeleno barvo, osnutki pa s sivo.
 
@@ -117,7 +117,7 @@ Objavljeni obračuni so označeni z zeleno barvo, osnutki pa s sivo.
 
 Na vrhu odprtega dokumenta obračuna DDV so na voljo hitra dejanja za poročila.
 
-![Poročila obračuna DDV](../Images/TaxReturnsReports.png)
+![Poročila obračuna DDV](../Images/TaxReturnsReportsSL.png)
 
 Na voljo so naslednji izvozi:
 - **Davčna knjiga izdanih računov**
@@ -136,11 +136,11 @@ Ti izvozi se običajno uporabljajo za:
 Nov obračun DDV se ustvari za izbrano obdobje.
 
 1. Odprite **Računovodstvo / Glavna knjiga / Obračun DDV**
-2. Kliknite **+** v spodnjem desnem kotu
+2. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) v spodnjem desnem kotu
 3. Preglejte samodejno izračunano obdobje in vrednosti
 4. Kliknite **OBJAVI**, da zaključite obračun DDV
 
-![Osnutek obračuna DDV](../Images/TaxReturnDraft.png)
+![Osnutek obračuna DDV](../Images/TaxReturnDraftSL.png)
 
 > [!NOTE]  
 > Nov obračun DDV je mogoče ustvariti le, če je **prejšnji obračun že zaključen**.

@@ -41,8 +41,8 @@ Configure shared structures used by maintenance. The Maintenance domain leverage
 
 - **[Processes](../Production/Management/Processes.md)** — Define process steps and versions used to execute maintenance operations.
 - **[Organization units](../Production/Management/OrganizationUnits.md)** — Define operational units (e.g., maintenance departments, service teams).
-- **[Resources](../Production/Management/Resources.md)** — Manage human and non-human resources (technicians, tools, equipment).
-- **[Checklists](../Production/Management/Checklists.md)** — Create and categorize checklists used during maintenance operations.
+- **[Resources](../Resources/Management/Resources.md)** — Manage human and non-human resources (technicians, tools, equipment).
+- **[Checklists](../Quality/Management/Checklists.md)** — Create and categorize checklists used during maintenance operations.
 
 Use these code lists to drive maintenance workflows and execution across orders and schedules.
 

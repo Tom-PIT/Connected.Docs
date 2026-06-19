@@ -96,8 +96,8 @@ This index lists all management and configuration documentation across domains. 
 - [**Measure units**](Common/Management/MeasureUnits.md)
 
 ## Production and Maintenance
-- [**Check points**](Domains/Production/Management/CheckPoints.md)
-- [**Checklists**](Domains/Production/Management/Checklists.md)
+
+- [**Checklists**](Domains/Quality/Management/Checklists.md)
 - [**Downtime tags**](Domains/Production/Management/DowntimeTags.md)
 - [**Human resources**](Domains/Production/Management/HumanResources.md)
 - [**Inputs**](Domains/Production/Management/Inputs.md)
@@ -111,14 +111,15 @@ This index lists all management and configuration documentation across domains. 
 - [**Production configuration**](Domains/Production/Management/ProductionConfiguration.md)
 - [**Protocol operations instance templates**](Domains/Production/Management/ProtocolOperationsInstanceTemplates.md)
 - [**Quality checklists**](Domains/Production/Management/QualityChecklists.md)
-- [**Resources**](Domains/Production/Management/Resources.md)
+- [**Resources**](Domains/Resources/Management/Resources.md)
 - [**Warehouse locations**](Domains/Production/Management/WarehouseLocations.md)
 
 ## Projects
 - [**Projects**](Domains/Projects/Management/ProjectsManagement.md)
 
 ## Quality
-- [**Checklists**](Domains/Production/Management/Checklists.md)
+- [**Checklists**](Domains/Quality/Management/Checklists.md)
+- [**Check points**](Domains/Quality/Management/CheckPoints.md)
 
 ## Resources
 - [**Availability plan types**](Domains/Resources/Management/AvailabilityPlanTypes.md)
@@ -129,7 +130,7 @@ This index lists all management and configuration documentation across domains. 
 - [**Organization units**](Domains/Production/Management/OrganizationUnits.md)
 - [**Effort types**](Domains/Resources/Management/EffortTypes.md)
 - [**Reminder categories**](Domains/Resources/Management/ReminderCategories.md)
-- [**Resources**](Domains/Production/Management/Resources.md)
+- [**Resources**](Domains/Resources/Management/Resources.md)
 - [**Resources costs**](Domains/Resources/Management/ResourcesCosts.md)
 - [**Sick leave types**](Domains/Resources/Management/SickLeaveTypes.md)
 - [**Subsistence allowances**](Domains/Resources/Management/SubsistenceAllowances.md)

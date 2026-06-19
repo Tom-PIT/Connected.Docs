@@ -15,8 +15,8 @@ To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -28,8 +28,8 @@ To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -84,6 +84,8 @@ Click any loan to open and review its details.
    Quantity must be edited in the detail form:
 
    ![Loan detail](../Images/LoansNewDetails.png "Loan detail")
+
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 5. Click **Save** to add the detail.  
    Repeat the process to add additional loaned items.

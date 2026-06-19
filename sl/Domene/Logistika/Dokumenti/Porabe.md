@@ -15,8 +15,8 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaci
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -26,8 +26,8 @@ Za dostop do **Porab** pojdite na **Logistika / Dokumenti / Porabe** v [navigaci
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -48,7 +48,7 @@ Stran **Porabe** prikazuje vse dokumente porabe, ustvarjene med izvajanjem proiz
 - **Avtor**
 - **Skladišče**
 
-![Seznam porab](../Images/ConsumptionsList.png "Seznam porab")
+![Seznam porab](../Images/ConsumptionsListSL.png "Seznam porab")
 
 ## Dejanja
 
@@ -67,13 +67,15 @@ Dokument porabe vsebuje:
 Če je bila poraba zabeležena za proizvodni nalog, razdelek **Povezani dokumenti** prikaže povezavo do povezanega  
 [**Proizvodnega naloga**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) (če obstaja).
 
-![Povezani proizvodni nalog](../Images/ConsumptionsLinkedDocuments.png "Povezani proizvodni nalog")
+![Povezani proizvodni nalog](../Images/ConsumptionsLinkedDocumentsSL.png "Povezani proizvodni nalog")
 
 ### Dokument in postavke
 
 Razdelek **Postavke** prikazuje vse porabljene materiale skupaj z njihovim virom in zabeleženimi količinami.
 
-![Objavljen dokument porabe](../Images/ConsumptionsCommittedDocument.png "Objavljen dokument porabe")
+![Objavljen dokument porabe](../Images/ConsumptionsCommittedDocumentSL.png "Objavljen dokument porabe")
+
+Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 ## Izbrisati dokument porabe
 

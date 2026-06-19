@@ -20,8 +20,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -34,8 +34,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 </details>
 
-<details>
-  <summary><strong>Transport in Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Transport in Intrastat</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -47,8 +47,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -66,8 +66,8 @@ Za dostop do **Prevzemov** pojdite na **Logistika / Dokumenti / Prevzemi** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke – Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke – Intrastat</strong></summary>
 
 Ta razdelek je na voljo, ko je omogočeno poročanje **Intrastat** in je dobavitelj iz druge države članice EU.
 
@@ -99,7 +99,7 @@ Barvni indikator ob dokumentu prikazuje njegovo stanje:
 
 S klikom na dokument odprete njegov podroben pregled.
 
-![Seznam prevzemov](../Images/Receives.png "Seznam prevzemov")
+![Seznam prevzemov](../Images/ReceivesSL.png "Seznam prevzemov")
 
 ## Dejanja
 
@@ -109,13 +109,15 @@ Postopek ustvarjanja novega prevzema:
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Dobavitelja**.
 
-   ![Prevzemni dokument](../Images/ReceiveDocument.png "Prevzemni dokument")
+   ![Prevzemni dokument](../Images/ReceiveDocumentSL.png "Prevzemni dokument")
 
 2. Skenirajte ali ročno vnesite **EAN šifro pakiranja**.
    - Sistem prikaže **vse ujemajoče materiale in serijske številke**.
 3. Sistem samodejno pridobi podatke o pakiranju in izpolni ustrezna polja v razdelku **Postavke**.
 
-   ![Podrobnosti prevzema](../Images/ReceiveDocumentDetails.png "Podrobnosti prevzema")
+   ![Podrobnosti prevzema](../Images/ReceiveDocumentDetailsSL.png "Podrobnosti prevzema")
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 4. Po potrebi prilagodite količine, skladiščne lokacije ali druge vrednosti.
 5. Kliknite **Shrani**, da shranite postavko. Po potrebi dodajte nove postavke (ponovite od koraka 2).
@@ -127,7 +129,7 @@ Novo ustvarjen prevzem se prikaže med **Osnutki**. Po objavi se premakne med **
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prejem prikažeta dodatna razdelka.
 
-![Razdelka Transport in Intrastat](../Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+![Razdelka Transport in Intrastat](../Images/ReceiveTransportInstrastatSL.png "Razdelka Transport in Intrastat")
 
 - **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
 - **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
@@ -139,7 +141,7 @@ Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intra
 
 Ko je **Intrastat** omogočen in je izbrani **Dobavitelj** iz druge države članice EU, se v vsaki **postavki** prikažejo dodatna polja.
 
-![Prejem – Intrastat polja](../Images/DocumentDetailsIntrastat.png)
+![Prejem – Intrastat polja](../Images/DocumentDetailsIntrastatSL.png)
 
 Ta polja se uporabljajo za statistično poročanje Intrastat in so obvezna pri čezmejnih transakcijah znotraj EU.
 
@@ -153,9 +155,11 @@ Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md)
 
 Objavljeni prevzemni dokumenti vsebujejo dodatni razdelek **Povezavi dokumenti**, ki prikazuje dokumente, ki jih je mogoče ustvariti na podlagi prevzetih materialov.
 
+Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
+
 Pri prevzemih se lahko pojavi možnost **Razstavljanje**, ki omogoča ustvarjanje novega dokumenta razstavljanja na podlagi prevzetih postavk.
 
-![Povezave dokumentov](../Images/ReceivesDocumentConnections.png)
+![Povezave dokumentov](../Images/ReceivesDocumentConnectionsSL.png)
 
 Za več podrobnosti glejte dokumentacijo [**Demontaže**](Demontaze.md).
 
@@ -175,7 +179,7 @@ Kliknite kodo dokumenta na seznamu, da odprete zaslon za urejanje. Lahko:
 > [!NOTE]
 > Objavljeni dokumenti so samo za branje (razen ustvarjanja storna)
 
-![Pregled prevzema](../Images/ReceiveReviewing.png "Pregled prevzema")
+![Pregled prevzema](../Images/ReceiveReviewingSL.png "Pregled prevzema")
 
 ### Izbrisati prevzemne dokumente
 

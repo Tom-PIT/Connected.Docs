@@ -59,6 +59,8 @@ Add items in the **Details** section. Details define the ordered items and their
 
    ![Invoice detail saved](../Images/IssuedInvoicesNewBottom.png "Saved invoice detail")
 
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
 ### Ledger details
 
 The **Ledger** section defines how the document is posted to the general ledger. It determines which accounts are used for revenue, expense, and tax postings when the document is saved and posted.

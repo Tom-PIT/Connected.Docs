@@ -4,7 +4,7 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 
 - [**Računovodstvo**](#računovodstvo)
 - [**Sredstva**](#sredstva)
-- [**Podpora strankam**](#podpora-strankam)
+- [**Stranke**](#stranke)
 - [**Znanje**](#znanje)
 - [**Logistika**](#logistika)
 - [**Proizvodnja in vzdrževanje**](#proizvodnja-in-vzdrževanje)
@@ -49,7 +49,6 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**AOP**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md)
 - [**Amortizacijske skupine**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md)
 
-## Sredstva
 ### Sredstva
 - [**Ceniki sredstev**](Domene/Sredstva/Sredstva/CenikiSredstev.md)
 - [**Sredstva**](Domene/Sredstva/Sredstva/Sredstva.md)
@@ -91,8 +90,8 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Človeški viri**](Domene/Proizvodnja/Upravljanje/CloveskiViri.md)
 - [**Izhodi**](Domene/Proizvodnja/Upravljanje/Izhodi.md)
 - [**Konfiguracija proizvodnje**](Domene/Proizvodnja/Upravljanje/KonfiguracijaProizvodnje.md)
-- [**Kontrolne liste**](Domene/Proizvodnja/Upravljanje/KontrolneListe.md)
-- [**Kontrolne točke**](Domene/Proizvodnja/Upravljanje/KontrolneTocke.md)
+- [**Kontrolne liste**](Domene/Kvaliteta/Upravljanje/KontrolneListe.md)
+- [**Kontrolne točke**](Domene/Kvaliteta/Upravljanje/KontrolneTocke.md)
 - [**Kvaliteta – kontrolne liste**](Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
 - [**Operacije**](Domene/Proizvodnja/Upravljanje/Operacije.md)
 - [**Organizacijske enote**](Domene/Proizvodnja/Upravljanje/OrganizacijskeEnote.md)
@@ -104,13 +103,14 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**Skladiščne lokacije**](Domene/Proizvodnja/Upravljanje/SkladiscneLokacije.md)
 - [**Stvarni viri**](Domene/Proizvodnja/Upravljanje/StvarniViri.md)
 - [**Vhodi**](Domene/Proizvodnja/Upravljanje/Vhodi.md)
-- [**Viri**](Domene/Proizvodnja/Upravljanje/Viri.md)
+- [**Viri**](Domene/Viri/Upravljanje/Viri.md)
 
 ## Projekti
 - [**Upravljanje projektov**](Domene/Projekti/Upravljanje/UpravljanjeProjektov.md)
 
 ## Kvaliteta
-- [**Kvaliteta – kontrolne liste**](Domene/Proizvodnja/Upravljanje/KvalitetaKontrolneListe.md)
+- [**Kontrolne liste**](Domene/Kvaliteta/Upravljanje/KontrolneListe.md)
+- [**Kontrolne točke**](Domene/Kvaliteta/Upravljanje/KontrolneTocke.md)
 
 ## Viri
 - [**Časovni plani**](Domene/Viri/Upravljanje/CasovniPlani.md)

@@ -33,7 +33,7 @@ Za prilagoditev zaloge:
 
 Da se maloprodajni izdani račun lahko davčno potrdi, morajo biti izpolnjeni naslednji pogoji:
 
-1. **Osebna konfiguracija:** Oseba, ki ustvarja račun, mora imeti določeno **davčno številko** v svojem [zapisu vira](../../Proizvodnja/Upravljanje/Viri.md).
+1. **Osebna konfiguracija:** Oseba, ki ustvarja račun, mora imeti določeno **davčno številko** v svojem [zapisu vira](../../Viri/Upravljanje/Viri.md).
 2. **Sistemska konfiguracija:** Sistem mora biti nastavljen za davčno potrjevanje, potrebne [nastavitve davčnega potrjevanja](../../Sistem/Nastavitve/KonfiguracijaMaloprodajaSI.md) pa morajo biti pravilno konfigurirane.
 3. **Konfiguracija blagajne:** Konfiguracija konkretne blagajne, uporabljene za transakcijo. To konfiguracijo nastavi ekipa **Tom PIT** ob implementaciji in je uporabnik ne more spreminjati. Specifične blagajne so nastavljene na zaslonu [Stroškovna mesta](../../../Skupno/Upravljanje/StroskovnaMesta.md).
 
@@ -44,8 +44,8 @@ Ko so ti pogoji izpolnjeni, se lahko maloprodajni izdani račun ob objavi davčn
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -67,8 +67,8 @@ Ko so ti pogoji izpolnjeni, se lahko maloprodajni izdani račun ob objavi davčn
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -80,8 +80,8 @@ Ko so ti pogoji izpolnjeni, se lahko maloprodajni izdani račun ob objavi davčn
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -100,8 +100,8 @@ Ko so ti pogoji izpolnjeni, se lahko maloprodajni izdani račun ob objavi davčn
 
 </details>
 
-<details>
-  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -125,7 +125,7 @@ Maloprodajni računi prehajajo skozi naslednja stanja:
 
 ### Seznam
 
-![Seznam maloprodajnih računov](../Images/RetailIssuedInvoiceList.png "Seznam maloprodajnih računov")
+![Seznam maloprodajnih računov](../Images/RetailIssuedInvoiceListSL.png "Seznam maloprodajnih računov")
 
 Seznam je mogoče filtrirati po:
 - **Datumih dokumentov**
@@ -141,11 +141,11 @@ Vsaka vrstica prikazuje:
 
 Pri delnem plačilu se dokument prikaže v pogledu **Delno plačani**, vrstica pa je označena z **modro** barvo.
 
-![Delno plačan maloprodajni račun](../Images/RetailInvoicePartiallyPaid.png "Delno plačan maloprodajni račun")
+![Delno plačan maloprodajni račun](../Images/RetailInvoicePartiallyPaidSL.png "Delno plačan maloprodajni račun")
 
 Pri celotnem plačilu se dokument prikaže v pogledu **V celoti plačani**, vrstica pa je označena z **zeleno** barvo.
 
-![V celoti plačan maloprodajni račun](../Images/RetailInvoiceFullyPaid.png "V celoti plačan maloprodajni račun")
+![V celoti plačan maloprodajni račun](../Images/RetailInvoiceFullyPaidSL.png "V celoti plačan maloprodajni račun")
 
 #### Meni seznama
 
@@ -163,23 +163,25 @@ Maloprodajne račune je mogoče ustvariti **samo ročno**.
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega osnutka.
 
-   ![Nov maloprodajni račun](../Images/RetailIssuedInvoiceNew.png "Nov maloprodajni račun")
+   ![Nov maloprodajni račun](../Images/RetailIssuedInvoiceNewSL.png "Nov maloprodajni račun")
 
 2. Izberite **Stranko**. Na voljo so le zapisi z oznakama **Stranka** in **Oseba**.
 
-   ![Klasifikacija stranke](../../../Skupno/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija stranke")
+   ![Klasifikacija stranke](../../../Skupno/Images/BusinessDirectoryCustomerPersonSL.png "Klasifikacija stranke")
 
 3. Izpolnite obvezna polja, kot so **Datum zapadlosti**, **Tip reference** in **Bančni račun organizacije**.
 
 4. V razdelku **Postavke** dodajte postavke z vnosom ali skeniranjem naziva ali šifre sredstva.
 
-   ![Urejanje postavke](../Images/RetailIssuedInvoiceNewDetailsEdit.png "Urejanje postavke")
+   ![Urejanje postavke](../Images/RetailProformaInvoiceNewDetailsEditSL.png "Urejanje postavke")
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 5. Shranite postavke in preverite izračune.
 
-6. (Neobvezno) Dodajte **Načine plačila** na dnu dokumenta.
+6. Dodajte **Načine plačila** na dnu dokumenta.
 
-   ![Načini plačila](../Images/RetailInvoiceNewBottom.png "Načini plačila")
+   ![Načini plačila](../Images/RetailInvoiceNewBottomSL.png "Načini plačila")
 
 7. Kliknite **Objavi**.  
    Dokument preide v stanje **Neplačani**.
@@ -188,7 +190,7 @@ Maloprodajne račune je mogoče ustvariti **samo ročno**.
 
 Razdelek Alternativna valuta omogoča izražanje cen v dokumentu v valuti, ki je različna od privzete sistemske valute. To se običajno uporablja pri mednarodni prodaji. Tečaji se povzemajo iz šifranta [Devizni tečaji](../Upravljanje/MenjalniTecaji.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencySL.png "Alternativna valuta")
 
 Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z uporabo navedenega deviznega tečaja.
 
@@ -196,7 +198,7 @@ Ko je izbrana alternativna valuta, se cene v dokumentu samodejno preračunajo z 
 
 Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intrastat**, se v obrazcu dokumenta prikažeta dodatna razdelka.
 
-![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Razdelka Transport in Intrastat")
+![Razdelka Transport in Intrastat](../../Logistika/Images/ReceiveTransportInstrastatSL.png "Razdelka Transport in Intrastat")
 
 - **Transport** – Uporablja se za zajem logističnih informacij o načinu dostave blaga.
 - **Intrastat** – Uporablja se za zbiranje podatkov, potrebnih za Intrastat poročanje. Ta polja so prikazana samo, kadar je Intrastat poročanje omogočeno v sistemu.
@@ -208,7 +210,7 @@ Ko je **Intrastat** nastavljen na **Obvezno** v **Sistem / Konfiguracija / Intra
 
 Postavke določajo naročene artikle ter njihove količine, cene, davke in popuste. Vsaka postavka predstavlja določen izdelek, storitev ali sredstvo.
 
-![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSaved.png)
+![Prodajni nalog – Uredi postavko](../Images/SalesOrdersNewDetailsSavedSL.png)
 
 ##### Glavna knjiga
 
@@ -234,7 +236,7 @@ Polja so obvezna pri čezmejnih EU transakcijah, kadar je organizacija zavezana 
 
 Plačila se evidentirajo z gumbom **Plačilo** na vrhu dokumenta.
 
-![Plačilo maloprodajnega računa](../Images/RetailIssueInvoicePaymentScreen.png "Plačilo")
+![Plačilo maloprodajnega računa](../Images/RetailIssueInvoicePaymentScreenSL.png "Plačilo")
 
 V oknu za plačilo so prikazani:
 - **Skupni znesek**  

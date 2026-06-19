@@ -20,14 +20,14 @@ Delivery notes act as the bridge between the commercial and warehouse processes:
 3. Once the delivery note is ready, an [**Issue**](../../Logistics/Documents/Issues.md) is created and linked (full or partial delivery).  
 4. After delivery, the process continues toward [**Issued invoice**](IssuedInvoices.md) creation.
 
-![Delivery Notes Diagram](../Images/DeliveryNotesDiagram.svg "Delivery notes in the sales process")
+![Delivery notes in the sales process](../Images/DeliveryNotesDiagram.svg "Delivery notes in the sales process")
 
 Delivery notes can also be copied, linked to existing issues or projects, or used to trigger production or maintenance tasks.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -40,8 +40,8 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 | **Content bottom** | Optional closing or legal text from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
 </details>
 
-<details>
-  <summary><strong>Transport and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -51,8 +51,8 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|

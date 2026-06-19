@@ -14,7 +14,7 @@ Ta zaslon zagotavlja namenski delovni tok za **izdajo materiala kooperantom** in
 
 Za dostop do tega zaslona pojdite na **Proizvodnja / Kooperanti** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Pregled kooperantov](../Images/CooperatorsIssue.png)
+![Pregled kooperantov](../Images/CooperatorsIssueSL.png)
 
 ## Predpogoji
 
@@ -24,7 +24,7 @@ Da je operacija na voljo za kooperante, morajo biti izpolnjeni naslednji pogoji:
 - V obrazcu za ustvarjanje ali urejanje operacije mora biti dodeljena oznaka `cooperator`.
 - Zunanje podjetje mora obstajati v [**Poslovnem imeniku**](../../../Skupno/Upravljanje/PoslovniImenik.md) in imeti omogočeno vlogo **Kooperant**.
 
-![Oznaka operacije](../Images/CooperatorsOperationTag.png)
+![Oznaka operacije](../Images/CooperatorsOperationTagSL.png)
 
 Na zaslonu **Kooperanti** se prikažejo samo operacije, označene z `cooperator`.
 
@@ -48,13 +48,13 @@ Leva stranska vrstica omogoča filtriranje po:
 - operaciji,
 - kooperantu (zunanjem podjetju).
 
-![Za izdajo / Za prevzem](../Images/CooperatorsIssue.png)
+![Za izdajo / Za prevzem](../Images/CooperatorsIssueSL.png)
 
 ### Pogled operaterja (Izvajanje)
 
 Ko operater odpre operacijo, ki zahteva zunanjega kooperanta, je v pogledu [**Izvedba**](Izvedba.md) jasno prikazano, da se korak izvaja zunanje.
 
-![Zaslon izvajanja](../Images/CooperatorsExecutionScreen.png)
+![Zaslon izvajanja](../Images/CooperatorsExecutionScreenSL.png)
 
 Operater lahko klikne **Začni**, da začne operacijo.  
 Ko je operacija zagnana, se prikaže na seznamu **Za izdajo** na zaslonu **Kooperanti**.
@@ -90,7 +90,7 @@ Ko je material izdan, se operacija odstrani s seznama **Za izdajo**.
 
 Po izdaji materiala se operacija prikaže v pogledu **Za prevzem**.
 
-![Za prevzem](../Images/CooperatorsReceive.png)
+![Za prevzem](../Images/CooperatorsReceiveSL.png)
 
 Od tu se delovni tok obrne:
 

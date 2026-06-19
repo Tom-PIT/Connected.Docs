@@ -24,7 +24,7 @@ Za dostop do šifranta **Polizdelki** pojdite na
 
 ## Shema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Polizdelek</strong></summary>
 
 | Polje | Opis |
@@ -40,7 +40,7 @@ Za dostop do šifranta **Polizdelki** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Pakiranje</strong></summary>
 
 **Definicija pakiranja** opisuje fizikalne lastnosti materiala in alternativne enote, ki se uporabljajo pri ravnanju z njim v skladišču. To je mogoče nastaviti tudi v razdelku [**Pakiranje**](Pakiranje.md).
@@ -55,7 +55,7 @@ Za dostop do šifranta **Polizdelki** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Dodatno</strong></summary>
 
 | Polje | Opis |
@@ -68,7 +68,7 @@ Za dostop do šifranta **Polizdelki** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Glavna knjiga in Intrastat</strong></summary>
 
 | Polje | Opis |
@@ -86,7 +86,7 @@ Za dostop do šifranta **Polizdelki** pojdite na
 
 Uporabniški vmesnik vsebuje seznam polizdelkov. Če zapisi še ne obstajajo, je seznam prazen.
 
-![Polizdelki](../Images/SemiProductsList.png "Polizdelki")
+![Polizdelki](../Images/SemiProductsListSL.png "Polizdelki")
 
 Seznam prikazuje ime, šifro in način generiranja serijske številke za vsak polizdelek.
 Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih polizdelkov.
@@ -103,7 +103,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo n
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**, da odprete obrazec za dodajanje novega polizdelka.
 
-![Nov polizdelek](../Images/NewSemiproduct.png "Nov polizdelek")
+![Nov polizdelek](../Images/NewSemiproductSL.png "Nov polizdelek")
 
 Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
@@ -115,13 +115,13 @@ Ta razdelek omogoča pregled ali dodajanje enega ali več zapisov [pakiranja](Pa
 Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
 - [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md)
 - [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
-- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
+- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedSkladiscniPromet.md)
 
 #### Intrastat in Glavna knjiga
 
 Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri poročanju.
 
-![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedger.png "Materiali Intrastat in Glavna knjiga")
+![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedgerSL.png "Materiali Intrastat in Glavna knjiga")
 
 > [!WARNING]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
@@ -131,7 +131,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodaten kontekst, vendar ne vplivajo na izračune zaloge.
 
-![Zložljivi razdelki](../Images/MaterialPackagingAdditional.png "Zložljivi razdelki")
+![Zložljivi razdelki](../Images/MaterialPackagingAdditionalSL.png "Zložljivi razdelki")
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite polizdelek, ali **Prekliči**, da se vrnete na seznam.
 
@@ -146,7 +146,7 @@ Za podrobnosti glejte dokumentacijo
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Kopiraj obstoječi**, da ustvarite nov zapis na podlagi že obstoječega.
 
-![Kopiranje polizdelka](../Images/CopySemiproduct.png "Kopiranje polizdelka")
+![Kopiranje polizdelka](../Images/CopySemiproductSL.png "Kopiranje polizdelka")
 
 Po izbiri osnovnega polizdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
@@ -155,7 +155,7 @@ Po izbiri osnovnega polizdelka so vsa polja predizpolnjena in jih je mogoče ure
 Za urejanje obstoječega polizdelka kliknite njegovo **Ime** v seznamu.  
 Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja.
 
-![Urejanje polizdelka](../Images/EditSemiproduct.png "Urejanje polizdelka")
+![Urejanje polizdelka](../Images/EditSemiproductSL.png "Urejanje polizdelka")
 
 Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 

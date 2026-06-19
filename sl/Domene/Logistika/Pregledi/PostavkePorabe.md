@@ -9,7 +9,7 @@ Pogled **Postavke porabe** nudi analitični pregled vseh **materialov, porabljen
 
 Za dostop do tega pogleda pojdite na **Logistika / Pregledi / Postavke porabe** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![ConsumptionDetailsList](../Images/ConsumptionDetailsList.png)
+![ConsumptionDetailsList](../Images/ConsumptionDetailsListSL.png)
 
 ## Seznam postavk porabe
 
@@ -33,7 +33,7 @@ Ko je dokument porabe razširjen, so prikazani naslednji podatki:
 - **Vir** – skladišče in lokacija (klikljivo)  
 - **Porabljena količina**
 
-![ConsumptionDetailsListExpanded](../Images/ConsumptionDetailsList.png)
+![ConsumptionDetailsListExpanded](../Images/ConsumptionDetailsListCollapsedSL.png "Seznam postavk porabe")
 
 ## Navigacija po viru
 
@@ -63,7 +63,7 @@ Uporabite **iskalno polje** v zgornjem desnem kotu za hitro filtriranje rezultat
 
 To omogoča hitro iskanje porabe, povezane z določenim materialom, dokumentom ali skladiščno lokacijo.
 
-![ConsumptionDetailsListSearch](../Images/ConsumptionDetailsListSearch.png)
+![ConsumptionDetailsListSearch](../Images/ConsumptionDetailsListSearchSL.png "iskanje postavke porabe")
 
 ## Namen
 

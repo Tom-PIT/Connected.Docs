@@ -26,8 +26,8 @@ A committed proforma invoice is informational and does not affect financial or s
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -46,8 +46,8 @@ A committed proforma invoice is informational and does not affect financial or s
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 </details>
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -58,8 +58,8 @@ A committed proforma invoice is informational and does not affect financial or s
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -69,8 +69,8 @@ A committed proforma invoice is informational and does not affect financial or s
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -89,8 +89,8 @@ A committed proforma invoice is informational and does not affect financial or s
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Interstat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Interstat details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -157,6 +157,8 @@ Once you start a new Proforma invoice, follow these steps:
 4. Save the added detail line.
 
    ![Proforma invoice detail saved](../Images/ProformaInvoiceNewDetailsSaved.png)
+
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 5. When the document is ready, click **Publish** to finalize it.  
    

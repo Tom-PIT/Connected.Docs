@@ -14,8 +14,8 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -26,8 +26,8 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -41,7 +41,7 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 
 ## Seznam dokumentov vsebnikov
 
-![Seznam vsebnikov](../Images/ContainersList.png "Seznam vsebnikov")
+![Seznam vsebnikov](../Images/ContainersListSL.png "Seznam vsebnikov")
 
 Stran **Vsebniki** prikazuje vse dokumente vsebnikov. Na voljo so filtri:
 - **Datumi dokumentov**
@@ -58,19 +58,21 @@ Vsebniki se ustvarjajo ročno na tej strani.
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje novega dokumenta vsebnika.
 2. Določite **Skladišče** in **Lokacijo**.
 
-   ![Ustvari vsebnik](../Images/ContainersNewCreate.png "Ustvari vsebnik")
+   ![Ustvari vsebnik](../Images/ContainersNewCreateSL.png "Ustvari vsebnik")
 
 3. Ustvari se **osnutek** vsebnika. Po potrebi uredite **Datum dokumenta**.
 
-   ![Nov vsebnik](../Images/ContainersNew.png "Nov vsebnik")
+   ![Nov vsebnik](../Images/ContainersNewSL.png "Nov vsebnik")
 
 4. V polje **Postavke** vnesite ali skenirajte **serijsko številko**, **EAN** ali **ime materiala**. Sistem prikaže vse ujemajoče se materiale in serijske številke. Če je več ujemanj, izberite pravilno postavko.
 
-   ![Podrobnosti vsebnika](../Images/ContainersNewDetails.png "Podrobnosti vsebnika")
+   ![Podrobnosti vsebnika](../Images/ContainersNewDetailsSL.png "Podrobnosti vsebnika")
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 5. **Izberite pravilno količino** in kliknite **Shrani**, da shranite postavko. Po potrebi postopek ponovite.
 
-   ![Shranjene postavke vsebnika](../Images/ContainersNewDetailsSaved.png "Shranjene postavke vsebnika")
+   ![Shranjene postavke vsebnika](../Images/ContainersNewDetailsSavedSL.png "Shranjene postavke vsebnika")
 
 6. Ko ste pripravljeni, kliknite **Zapakiraj**, da rezervirate vsebino in omogočite nadaljnje logistične operacije.
 
@@ -94,7 +96,7 @@ Zapakiran vsebnik je pripravljen za uporabo, stanje pa se spremeni v **Zapakiran
 - Postavke prikazujejo zapakirane materiale, serijske številke, lokacije in količine
 - **Povezave dokumentov** (če obstajajo) prikazujejo povezane logistične transakcije
 
-![Dokument vsebnika](../Images/ContainersDocument.png "Dokument vsebnika")
+![Dokument vsebnika](../Images/ContainersDocumentSL.png "Dokument vsebnika")
 
 > [!TIP]
 > - Kliknite **Lokacijo**, da odprete **[Pogled zaloge po lokacijah](../Pregledi/PogledZalogePoLokacijah.md)**, filtriran na izbrano lokacijo.  

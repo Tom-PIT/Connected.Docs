@@ -12,7 +12,7 @@ Imenik lahko vsebuje **eno ali več kazal**.
 
 Za upravljanje kazala pojdite na **Znanje / Upravljanje / Imeniki**, nato kliknite **Kazalo** pod izbranim imenikom.
 
-![Seznam kazal](../Images/TableOfContentsList.png)
+![Seznam kazal](../Images/TableOfContentsListSL.png)
 
 ## Pregled
 
@@ -46,7 +46,7 @@ Vnosi so razvrščeni po **ordinalni vrednosti** in jih je mogoče omogočiti al
 
 Za ustvarjanje novega kazala kliknite **ikono mape**.
 
-![Dodaj kazalo](../Images/TableOfContentsAdd.png "Dodaj kazalo")
+![Dodaj kazalo](../Images/TableOfContentsAddSL.png "Dodaj kazalo")
 
 Imenik lahko vsebuje več kazal.
 Za ustvarjanje **novega glavnega kazala** se prepričajte, da v stranskem meniju **ni izbrano nobeno obstoječe kazalo**, nato kliknite **ikono mape**.
@@ -57,7 +57,7 @@ Za dodajanje vnosov najprej izberite ciljno **kazalo** v stranskem meniju, nato 
 
 Pri ustvarjanju vnosa izberite ustrezen **Tip** in izpolnite pripadajoča polja.
 
-![Nov vnos kazala](../Images/TableOfContentsNewEntry.png "Nov vnos kazala")
+![Nov vnos kazala](../Images/TableOfContentsNewEntrySL.png "Nov vnos kazala")
 
 Kliknite **Dodaj**, da ustvarite vnos.
 
@@ -103,4 +103,4 @@ Ko je kazalo nastavljeno, se uporablja pri brskanju po imeniku v [**Bazi znanja*
 
 Znotraj imenika kliknite **ikono menija (hamburger)**, da odprete stranski panel s kazalom, ki omogoča navigacijo med mapami in članki.
 
-![Kazalo v imeniku baze znanja](../Images/KnowledgeBaseDirectoryTOC.png "Kazalo v imeniku baze znanja")
+![Kazalo v imeniku baze znanja](../Images/KnowledgeBaseDirectoryTOCSL.png "Kazalo v imeniku baze znanja")

@@ -43,10 +43,9 @@ Za dostop do šifranta **Uvoz materialov** pojdite na
 Sistem sprejema uvoze v obliki **CSV** ali **XLSX**.  
 Spustni meni se uporablja za izbiro oblike **primerne datoteke**, ki jo lahko prenesete.
 
-Kliknite **Prenesi**, da pridobite primer uvozne datoteke v izbrani obliki.  
-Primerna datoteka vsebuje vse zahtevane stolpce v pravilnem vrstnem redu.
+Kliknite **Prenesi**, da pridobite primer uvozne datoteke v izbrani obliki. Primerna datoteka vsebuje vse zahtevane stolpce v pravilnem vrstnem redu.
 
-![Uvoz materialov — začetni zaslon](../Images/ImportMaterials.png "Uvoz materialov — začetni zaslon")
+![Uvoz materialov — začetni zaslon](../Images/ImportMaterialsSL.png "Uvoz materialov — začetni zaslon")
 
 ## Struktura preglednice
 
@@ -96,14 +95,14 @@ Preglednico lahko pripravite ali uredite v pregledničnem urejevalniku:
    - **Testni uvoz** — izvede preverjanje brez shranjevanja podatkov  
    - **Uvoz** — uvozi in shrani podatke ter uveljavi vse veljavne spremembe  
 
-   ![Uvoz materialov — predogled podatkov](../Images/ImportMaterialsPreview.png "Uvoz materialov — predogled podatkov")
+   ![Uvoz materialov — predogled podatkov](../Images/ImportMaterialsPreviewSL.png "Uvoz materialov — predogled podatkov")
 
    Priporočljivo je, da najprej izvedete **Testni uvoz**, da preverite strukturo podatkov in preprečite napake.  
    Pod območjem za nalaganje je prikazan seznam vseh predhodno naloženih datotek.
 
    Vrstice z napakami so v stolpcu **Status** označene **rdeče**, veljavne vrstice pa **zeleno**.
 
-   ![Uvoz materialov — pregled napak](../Images/ImportMaterialsError.png "Uvoz materialov — pregled napak")
+   ![Uvoz materialov — pregled napak](../Images/ImportMaterialsErrorSL.png "Uvoz materialov — pregled napak")
 
 3. Za dokončanje dejanskega uvoza po uspešnem **Testnem uvozu** ponovno naložite preglednico in izberite možnost **Uvoz**.
 
@@ -118,7 +117,7 @@ Po končanem uvozu se stanje v seznamu posodobi in prikaže, katere vrstice so b
 
 ## Seznam rezultatov
 
-Kliknite katerikoli uvoz v stolpcu **Ustvarjeno** na seznamu uvozov, da pregledate rezultate in morebitne napake.
+Kliknite katerikoli uvoz v stolpcu **Ustvarjen** na seznamu uvozov, da pregledate rezultate in morebitne napake.
 
-![Poročilo uvoza materialov](../Images/ImportMaterialsReport.png "Poročilo uvoza materialov")
+![Poročilo uvoza materialov](../Images/ImportMaterialsReportSL.png "Poročilo uvoza materialov")
 

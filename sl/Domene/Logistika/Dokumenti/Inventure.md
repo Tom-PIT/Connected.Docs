@@ -19,8 +19,8 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -31,8 +31,8 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -62,7 +62,7 @@ Barvni indikator ob dokumentu prikazuje njegovo stanje:
 
 S klikom na dokument odprete njegov podroben pregled.
 
-![Inventure](../Images/Inventories.png)
+![Inventure](../Images/InventoriesSL.png "Seznam inventur")
 
 ## Dejanja
 
@@ -72,7 +72,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove
 
 1. Kliknite **Novo**, da ustvarite novo inventuro.
 
-   ![Nova inventura](../Images/InventoryNew.png)
+   ![Nova inventura](../Images/InventoryNewSL.png)
 
 2. Po izbiri **skladišča** in **lokacije** sistem samodejno naloži vse materiale, zabeležene na tej lokaciji.
 
@@ -84,7 +84,9 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove
 4. V razdelku **Postavke** ima stolpec **Dejanski** privzeto vrednost **0**.  
    Vnesite dejanske fizične količine. Ko je vrednost drugačna od teoretične, se to samodejno odrazi v razdelkih **Manjka** in **Presežek** v **Povzetku**.
 
-   ![Urejanje inventure](../Images/InventoryEdits.png)
+   ![Urejanje inventure](../Images/InventoryEditsSL.png "Urejanje inventure")
+
+   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
 
 5. Ko so vsi materiali preverjeni in so vnesene dejanske vrednosti, razdelek **Nerazporejena** postane zelen in prikaže **0**.
 

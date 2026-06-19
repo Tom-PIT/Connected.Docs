@@ -10,7 +10,7 @@ Ta pogled je izključno analitičen — **ne omogoča** ustvarjanja ali spreminj
 
 Za dostop do tega pregleda pojdite na **Nabava / Pregledi / Postavke nabavnih nalogov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Postavke nabavnih nalogov](../Images/SupplyOrderDetailsView.png "Postavke nabavnih nalogov")
+![Postavke nabavnih nalogov](../Images/SupplyOrderDetailsViewSL.png "Postavke nabavnih nalogov")
 
 ## Kazalniki
 
@@ -18,7 +18,7 @@ Na vrhu seznama **Postavke nabavnih nalogov** sistem prikazuje ključne kazalnik
 
 S klikom na posamezen kazalnik se seznam samodejno filtrira tako, da prikaže samo ustrezne postavke.
 
-![Kazalniki postavk nabavnih nalogov](../Images/SupplyOrderDetailsViewIndicators.png "Kazalniki postavk nabavnih nalogov")
+![Kazalniki postavk nabavnih nalogov](../Images/SupplyOrderDetailsViewIndicatorsSL.png "Kazalniki postavk nabavnih nalogov")
 
 Prikazani so naslednji kazalniki:
 
@@ -36,7 +36,7 @@ Vsaka vrstica v seznamu predstavlja **eno posamezno postavko nabavnega naloga**,
 - **Dostavljena količina** – Prikaz potrjene in nepotrjene dobave  
   - Primer: *50 m (Potrjeno: 50 m / Nepotrjeno: 0 m)*
 
-![Vrstica postavke nabavnega naloga](../Images/SupplyOrderDetailsViewRow.png "Vrstica postavke nabavnega naloga")
+![Vrstica postavke nabavnega naloga](../Images/SupplyOrderDetailsViewRowSL.png "Vrstica postavke nabavnega naloga")
 
 Na ta način lahko hitro preverite, kaj je bilo že dobavljeno, kaj je še odprto ter katere postavke so dosegle ali presegle datum dobave.
 

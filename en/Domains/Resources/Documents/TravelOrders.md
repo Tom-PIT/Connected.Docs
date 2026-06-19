@@ -20,7 +20,7 @@ To access this page, go to **Resources / Documents / Travel Orders** in the [nav
 | **Arrival** | Arrival date and time. |
 | **Reason** | Travel reason sourced from the from [**Travel order reasons**](../Management/TravelOrderReasons.md) code list. |
 | **Means of transport** | Transport used for the trip (e.g., own vehicle). |
-| **Vehicle** | Vehicle [resource](../../Production/Management/Resources.md); only non-human resources tagged `vehicle` are available. |
+| **Vehicle** | Vehicle [resource](../../Resources/Management/Resources.md); only non-human resources tagged `vehicle` are available. |
 | **Company** | Company selected from the business directory. |
 | **Location** | Travel destination. |
 | **Cost center** | Cost center assigned to the travel order. |
@@ -94,25 +94,32 @@ Each travel order can include **mileages**, **subsistence allowances**, and **ex
 
 ##### Add mileage to a travel order
 
-Mileage entries are used to record distance-based travel costs, typically when using a personal or company vehicle.
+To add mileage:
 
-To add mileage, open the travel order, expand the **Details** section, switch to the **Mileages** tab, and click **Add new mileage**. The destination is selected from predefined [travel destinations](../Management/TravelDestinations.md) , and the total price is calculated automatically based on distance, unit price, and whether the trip is marked as a return trip.
+1. Expand the **Details** section and select the **Mileage** tab.
+2. Click **Add mileage**.
+3. Select a route from the predefined [**Travel destionations**](../Management/TravelDestinations.md). The total amount is calculated automatically based on the distance, unit price, and return-trip flag.
 
 ![Add mileage](../Images/TravelOrdersDetailsMileage.png)
 
-##### Add subsistence allowances to a travel order
+##### Add subsistence allowance to a travel order
 
-Subsistence allowances are used to calculate daily travel allowances based on location and duration.
+To add a subsistence allowance:
 
-To add a subsistence allowance, open the **Subsistence allowances** tab in the **Details** section and click **Add subsistence allowance**. The [allowance](../Management/SubsistenceAllowances.md) is selected from the subsistence allowances code list, and the system automatically calculates reduced, half, and full amounts based on the selected time range and included meals.
+1. Expand the **Details** section and select the **Subsistence allowances** tab.
+2. Click **Add subsistence allowance**.
+3. Select a subsistence allowance from the [**Subsistence allowances**](../Management/SubsistenceAllowances.md) code list. The system automatically calculates reduced, half, and full allowance amounts based on the selected time period and included meals.
 
 ![Add subsistence allowance](../Images/TravelOrdersDetailsAllowances.png)
 
-##### Add expenses to a travel order
+##### Add an expense to a travel order
 
-Expenses are used to record additional travel-related costs such as accommodation, tickets, parking, or other reimbursable items.
+To add an expense:
 
-To add an expense, open the **Expenses** tab in the **Details** section and click **Add new expense**. [Expenses](../../Supply/Management/Expenses.md) are selected from the expenses code list, and supporting documents (such as receipts) can be attached directly to the entry.
+1. Expand the **Details** section and select the **Expenses** tab.
+2. Click **Add new expense**.
+3. Select an expense from the [**Expenses**](../../Supply/Management/Expenses.md) code list. Supporting documents can be attached to the entry.
+4. Enter the expense amount, description, and attachment, then click **Add**. Total expenses are calculated automatically.
 
 ![Add expense](../Images/TravelOrdersDetailsExpenses.png)
 

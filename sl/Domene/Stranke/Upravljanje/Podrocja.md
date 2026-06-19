@@ -40,7 +40,7 @@ Vsako področje vključuje:
 - naziv področja,
 - kratek opis (če je podan).
 
-![Seznam področij](../Images/DesksList.png "Seznam področij")
+![Seznam področij](../Images/DesksListSL.png "Seznam področij")
 
 ## Dejanja
 
@@ -50,7 +50,7 @@ Za ustvarjanje novega področja kliknite [akcijski gumb](../../../Skupno/UI/Akci
 
 Obrazec področja je razdeljen na več sklopov, ki določajo njegovo obnašanje. Pri dodajanju ali urejanju uporabite polja, opisana v razdelku [**Shema**](#shema).
 
-![Dodaj področje](../Images/DesksNew.png "Dodaj področje")
+![Dodaj področje](../Images/DesksNewSL.png "Dodaj področje")
 
 ### Splošno
 
@@ -69,7 +69,7 @@ V razdelku **Obvestilo** je določen e-poštni naslov, s katerega se pošiljajo 
 
 Sklop **IMAP** omogoča povezavo področja z e-poštnim nabiralnikom. Ko je omogočen, se prejeta e-poštna sporočila samodejno pretvorijo v podporne prijave.
 
-![IMAP nastavitve področja](../Images/DesksNewBottom.png "IMAP nastavitve področja")
+![IMAP nastavitve področja](../Images/DesksNewBottomSL.png "IMAP nastavitve področja")
 
 ### Zakupljene ure
 
@@ -78,7 +78,7 @@ Sklop **Zakupljene ure** omogoča upravljanje predplačanih ali pogodbeno dogovo
 - **Datum**
 - **Količina**
 
-![Zakupljene ure področja](../Images/DesksLeasedHours.png "Zakupljene ure področja")
+![Zakupljene ure področja](../Images/DesksLeasedHoursSL.png "Zakupljene ure področja")
 
 ### Računi
 

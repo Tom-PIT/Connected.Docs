@@ -22,7 +22,7 @@ To access the **Semi products** code list, go to **Assets / Materials / Semi pro
 
 ## Schema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Semi product</strong></summary>
 
 | Field | Description |
@@ -38,7 +38,7 @@ To access the **Semi products** code list, go to **Assets / Materials / Semi pro
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Packaging</strong></summary>
 
 A packaging definition describes the physical properties of a material and the alternative units used when handling it in the warehouse. This can also be set in [**Packaging**](Packaging.md).
@@ -55,7 +55,7 @@ A packaging definition describes the physical properties of a material and the a
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Additional</strong></summary>
 
 | Field | Description |
@@ -69,7 +69,7 @@ A packaging definition describes the physical properties of a material and the a
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Ledger and Intrastat</strong></summary>
 
 | Field | Description |

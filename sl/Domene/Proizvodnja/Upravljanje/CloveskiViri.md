@@ -10,7 +10,7 @@
 
 Za dostop do te strani odprite različico procesa v **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite **[Operacije](Operacije.md)** in nato za izbrano operacijo izberite **Človeški viri**.
 
-![Gumb Človeški viri](../Images/HumanResourcesButton.png "Gumb Človeški viri")
+![Gumb Človeški viri](../Images/HumanResourcesButtonSLV2.png "Gumb Človeški viri")
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Human and Non-human resources](https://www.youtube.com/watch?v=iq7fQiPh_i4)**.
@@ -19,7 +19,7 @@ Za dostop do te strani odprite različico procesa v **Proizvodnja / Upravljanje 
 
 | Polje | Opis |
 |------|------|
-| **Tip** | Določa vrsto vira, ki se uporablja:<br>• **Kompetenca**<br>• [**Delovno mesto**](../Upravljanje/SistematizacijaDelovnihMest.md)<br>• [**Vir**](../Upravljanje/Viri.md) |
+| **Tip** | Določa vrsto vira, ki se uporablja:<br>• **Kompetenca**<br>• [**Delovno mesto**](../Upravljanje/SistematizacijaDelovnihMest.md)<br>• [**Vir**](../../Viri/Upravljanje/Viri.md) |
 | **Vir** | Izbrana kompetenca, delovno mesto ali vir glede na izbrani **Tip**. |
 | **Tip kalkulacije** | Določa način izračuna planiranega časa:<br>• **Dinamično** – čas se izračuna glede na količino proizvodnje ali druge parametre procesa.<br>• **Dinamično na serijo** – čas se izračuna glede na posamezno serijo.<br>• **Statično** – količina je fiksna. |
 | **Količina** | Planirani čas za ta človeški vir, vnesen kot trajanje (dnevi, ure, minute, sekunde, milisekunde). |
@@ -37,7 +37,7 @@ Seznam človeških virov prikazuje vse dodelitve človeških virov za izbrano op
 
 Za filtriranje po imenu vira uporabite polje **Iskanje**.
 
-![Seznam človeških virov](../Images/HumanResourcesList.png "Seznam človeških virov")
+![Seznam človeških virov](../Images/HumanResourcesListSL.png "Seznam človeških virov")
 
 ## Dodati nov človeški vir
 
@@ -51,7 +51,7 @@ Za filtriranje po imenu vira uporabite polje **Iskanje**.
    - **Oznake** – (neobvezno) klasifikacijske oznake  
    - **Neobvezno** – omogočite, če vir ni obvezen
 
-   ![Dodaj človeški vir](../Images/HumanResourcesNew.png "Dodaj človeški vir")
+   ![Dodaj človeški vir](../Images/HumanResourcesNewSL.png "Dodaj človeški vir")
 
 3. Kliknite **Dodaj**, da shranite vnos.
 

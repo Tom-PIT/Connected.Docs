@@ -7,7 +7,7 @@ Na nivoju operacije: odpri proces, izberi verzijo, klikni Operacije in nato pri 
 
 # Kvaliteta – kontrolne liste
 
-Stran **Kakovost** omogoča povezovanje **[kontrolnih list](KontrolneListe.md)** bodisi na **različico procesa** bodisi na **operacijo**. Te kontrolne liste se uporabljajo za izvajanje korakov kontrole kakovosti med proizvodnjo.
+Stran **Kakovost** omogoča povezovanje **[kontrolnih list](../../Kvaliteta/Upravljanje/KontrolneListe.md)** bodisi na **različico procesa** bodisi na **operacijo**. Te kontrolne liste se uporabljajo za izvajanje korakov kontrole kakovosti med proizvodnjo.
 
 Do te strani dostopate s klikom na gumb **Kakovost** iz:
 
@@ -18,14 +18,14 @@ Do te strani dostopate s klikom na gumb **Kakovost** iz:
   ![Gumb Kakovost na operaciji](../Images/OperationsQualityButtonSL.png)
 
 > [!NOTE]
-> Kontrolno listo je treba najprej pripraviti v šifrantu **[Kontrolne liste](KontrolneListe.md)**. Tukaj je mogoče povezati samo že definirane kontrolne liste.
+> Kontrolno listo je treba najprej pripraviti v šifrantu **[Kontrolne liste](../../Kvaliteta/Upravljanje/KontrolneListe.md)**. Tukaj je mogoče povezati samo že definirane kontrolne liste.
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Quality](https://www.youtube.com/watch?v=B2KX_UvDiCw)**.
 
 | Polje | Opis |
 |------|------|
-| **Kontrolna lista** | Izbira obstoječe kontrolne liste, definirane v modulu **[Kontrolne liste](../Upravljanje/KontrolneListe.md)**. |
+| **Kontrolna lista** | Izbira obstoječe kontrolne liste, definirane v modulu **[Kontrolne liste](../../Kvaliteta/Upravljanje/../../Kvaliteta/Upravljanje/KontrolneListe.md)**. |
 | **Način** | Določa, kdaj se kontrolna lista izvaja:<br>• **Na začetku**<br>• **Ob pavzi**<br>• **Ob prvi proizvodnji**<br>• **Ob zadnji proizvodnji**<br>• **Ob zagonu**<br>• **Pred zaključkom**<br>• **Ročno**<br>• **Vsake n enot** |
 | **Material** | Material, na katerega je vezana kontrolna lista. Izbira se iz šifranta **[Materiali](../../Sredstva/Materiali.md)**. |
 | **Perioda** | Število enot, po katerih se kontrolna lista ponovno izvede. Polje je prikazano samo, če je izbran način **Vsake n enot**. |
@@ -35,15 +35,15 @@ Do te strani dostopate s klikom na gumb **Kakovost** iz:
 
 Ob odprtju stran **Kakovost** prikaže vse kontrolne liste, ki so že povezane z izbrano različico procesa ali operacijo.
 
-![Seznam kakovosti](../Images/QualityList.png)
+![Seznam kakovosti](../Images/QualityListSL.png)
 
 Zaporedje lahko spreminjate z urejanjem vrednosti **Vrstni red**.
 
-## Dodati nove kakovosti
+## Dodati nove kvaliteto
 
-1. Kliknite akcijski gumb in izberite **Dodaj kvaliteto**.
+1. Kliknite akcijski gumb da se odpre obrazec za dodajanje nove kvalitete.
 
-   ![Nova kakovost](../Images/QualityNew.png "Nov zapis kakovosti")
+   ![Nova kakovost](../Images/QualityNewSL.png "Nov zapis kakovosti")
 
 2. Izberite **Kontrolno listo** in **Način**:
    - **Na začetku**: Kontrolna lista se prikaže ob začetku operacije.
@@ -55,7 +55,7 @@ Zaporedje lahko spreminjate z urejanjem vrednosti **Vrstni red**.
    - **Ročno**: Kontrolna lista se odpre in izpolni ročno iz aktivnosti **Kakovost**.
    - **Vsake n enot**: Kontrolna lista se prikaže periodično glede na število proizvedenih enot (zahteva nastavitev **Periode**).
 
-   ![Načini kakovosti](../Images/QualityNewModes.png "Način kontrolne liste")
+   ![Načini kakovosti](../Images/QualityNewModesSL.png "Način kontrolne liste")
 
 3. Kliknite **Dodaj**.
 

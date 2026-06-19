@@ -22,12 +22,12 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 4. Ko so vsi materiali prevzeti, se nabavni nalog samodejno premakne v stanje **Zaključeno**.  
    - Če je prevzem le delni, dokument ostane v stanju **Na voljo**, dokler ni v celoti zaključen.
 
-![Pregled življenjskega cikla nabavnega naloga](../Images/SupplyOrderDiagramSL.svg "Diagram nabavnega naloga v nabavnem procesu")
+![Nabavni nalogi v nabavnem procesu](../Images/SupplyOrderDiagramSL.svg "Nabavni nalogi v nabavnem procesu")
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -44,8 +44,8 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 ### Polja postavk
 
@@ -79,11 +79,11 @@ Nabavni nalogi se v svojem življenjskem ciklu pomikajo skozi naslednja stanja:
 
 Seznam **Nabavnih nalogov** prikazuje vse dokumente z njihovim trenutnim stanjem in načrtovanimi datumi dobave.
 
-![Seznam nabavnih nalogov](../Images/SupplyOrdersList.png "Seznam nabavnih nalogov")
+![Seznam nabavnih nalogov](../Images/SupplyOrdersListSL.png "Seznam nabavnih nalogov")
 
 Na vrhu seznama sistem prikaže dva ključna indikatorja:
 
-![Indikatorji nabavnih nalogov](../Images/SupplyOrdersIndicators.png "Indikatorji nabavnih nalogov")
+![Indikatorji nabavnih nalogov](../Images/SupplyOrdersIndicatorsSL.png "Indikatorji nabavnih nalogov")
 
 - **Čez rok dobave** (interaktivno) – nabavni nalogi, katerih načrtovani datum dobave je potekel in še niso v celoti prevzeti. S klikom se seznam samodejno filtrira.
 - **Skupni znesek** – prikazuje skupno vrednost (neto + davek) vseh nabavnih nalogov v aktivnem filtru.
@@ -135,7 +135,7 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje in povezovanje nadaljnjih o
 
 Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
 
-![Povezani dokumenti](../Images/SupplyOrderLinkedDocuments.png "Povezani dokumenti")
+![Povezani dokumenti](../Images/SupplyOrderLinkedDocumentsSL.png "Povezani dokumenti")
 
 Razpoložljiva dejanja vključujejo:
 

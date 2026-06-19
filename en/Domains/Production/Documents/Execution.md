@@ -7,7 +7,9 @@
 
 The **Execution** module is used by production workers to perform and record work on assigned production orders. It provides real-time tracking of progress, produced quantities, [downtime](Downtime.md), [losses](Loss.md), [quality checklists](Quality.md), and other activities.
 
-Most production workers are automatically redirected to the Execution view upon login.
+Most production workers are automatically redirected to the **Execution** view upon login.
+
+![Production execution flow](../Images/ProductionExecutionFlow.svg "Production execution flow")
 
 > [!TIP]
 > For a full demonstration, see the **[Executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.
@@ -75,7 +77,7 @@ Press **Pause** to temporarily stop the operation. This does **not** finish prod
 
 ### Checklists and quality controls
 
-Quality [**checklists**](../Management/Checklists.md) help ensure safety and product quality. If a checklist is required for the operation, it appears automatically at the right moment (at start, during execution, or before completion).
+Quality [**checklists**](../../Quality/Management/Checklists.md) help ensure safety and product quality. If a checklist is required for the operation, it appears automatically at the right moment (at start, during execution, or before completion).
 
 ![Quality checklist](../Images/ExecutionStep1Checklist.png "Quality checklist")
 

@@ -18,7 +18,7 @@ A typical flow:
 3. When approved, convert the inquiry into a [**Supply order**](SupplyOrders.md) using the **Linked documents** section.  
 4. From the Supply order, you can then create a [**Receive**](../../Logistics/Documents/Receives.md) document (partial or full) once the materials arrive.
 
-![Inquiry Diagram](../Images/InquiryDiagram.svg "Inquiries in the supply order process")
+![Inquiries in the supply order process](../Images/InquiryDiagram.svg "Inquiries in the supply order process")
 
 > [!NOTE]  
 > Inquiries are not mandatory — Supply orders can also be created directly without a prior inquiry. Your organization may follow all steps or only some of them, depending on the purchasing process.
@@ -59,7 +59,7 @@ Documents move through several possible states during their lifecycle:
 
 The Inquiries list provides an overview of all supply requests, separated into **Drafts**, **Available**, **In completion**, and **Completed**.
 
-![Inquiries list – Available](../Images/InquiriesListAvailable.png "Inquiries list – Available")
+![Inquiries list – Available](../Images/InquiriesListAvailableV2.png "Inquiries list – Available")
 
 ### Indicators
 
@@ -97,6 +97,8 @@ These filters allow quick navigation through vendor requests across different st
 3. Add items to the **Details** section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
    - The system displays **all matching materials and serial numbers**.  
    - Adapt the quantity according to your requirement 
+
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 4. Save the added details.
 

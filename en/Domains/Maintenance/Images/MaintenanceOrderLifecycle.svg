@@ -20,9 +20,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.74"
-     inkscape:cx="444.59459"
-     inkscape:cy="331.75676"
+     inkscape:zoom="1.48"
+     inkscape:cx="292.56757"
+     inkscape:cy="190.87838"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -84,9 +84,10 @@
   <!-- Source explanation -->
   <text
      class="small-text"
-     x="146"
-     y="7.5"
-     id="text1">Creation sources</text>
+     x="145.86537"
+     y="23.708324"
+     id="text1"
+     style="font-size:21.3333px">Creation sources</text>
   <!-- Maintenance schedule source -->
   <rect
      class="source"

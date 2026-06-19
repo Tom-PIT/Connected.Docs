@@ -18,14 +18,14 @@ Issued invoices are typically created at the end of the sales chain:
 3. Goods are shipped using **[Delivery notes](DeliveryNotes.md)** and related issues.  
 4. Finally, an issued invoice is created (often from the delivery note or sales order) and sent to the customer for payment.
 
-![Issued Invoices Diagram](../Images/IssuedInvoicesDiagram.svg "Issued invoices in the sales process")
+![Sales flow](../Images/IssuedInvoicesDiagram.svg "Sales flow")
 
 Invoices can also be created manually as stand-alone documents when required.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -46,8 +46,8 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Payment method** | Payment option selected from [**Payment methods**](../Management/PaymentMethods.md). |
 </details>
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -58,8 +58,8 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 
 | Field | Description |
@@ -70,8 +70,8 @@ Invoices can also be created manually as stand-alone documents when required.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -90,8 +90,8 @@ Invoices can also be created manually as stand-alone documents when required.
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Intrastat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Intrastat details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -172,7 +172,7 @@ While the invoice is in **Draft** status you can edit all sections:
 - [**Delivery information**](IssuedInvoicesCreate.md#delivery)
 - [**Details**](IssuedInvoicesCreate.md#step-3--add-details) – add, remove, or change invoice lines
 - [**Payment methods**](IssuedInvoicesCreate.md#payment-methods) – define how the customer is expected to pay
-- [**Content top** and **Content bottom**](IssuedInvoicesCreate.md#content-top-and-content-bottom) – choose predefined texts from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
+- [**Content top** and **Content bottom**](IssuedInvoicesCreate.md#top-content-and-bottom-content) – choose predefined texts from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
 
 ![Details and payments](../Images/IssuedInvoicesNewBottom.png "Invoice details and payment methods")
 

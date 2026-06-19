@@ -18,7 +18,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 
 ## Shema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Sredstvo</strong></summary>
 
 | Polje | Opis |
@@ -35,7 +35,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Intrastat in Glavna knjiga</strong></summary>
 
 | Polje | Opis |
@@ -50,7 +50,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Dodatno in Podrobnosti</strong></summary>
 
 |  Polje | Opis |
@@ -63,6 +63,23 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 | **Količina** | Količina povezane entitete. |
 
 </details>
+
+## Upravljanje
+
+### Seznam sredstev
+
+Seznam **Sredstva** prikazuje vsa obstoječa sredstva, skupaj z njihovo vrsto (storitev ali blago), neto ceno in mersko enoto.
+
+![Seznam sredstev](../Images/AssetsListSL.png "Seznam sredstev")
+
+Seznam sredstev lahko filtrirate z uporabo:
+
+- **Pogled**: Omogočeno / Onemogočeno
+- **Tip**: Blago / Storitev
+- **Oznake**
+
+Ti filtri pomagajo pri iskanju določenih sredstev in poenostavijo upravljanje obsežnih katalogov.
+
 
 ## Dejanja
 
@@ -77,19 +94,25 @@ Kliknite **[akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md)** in izberite **N
 
 Neobvezna polja, kot so **Davek**, **Neto cena (na enoto)**, **EAN**, **Oznake** in **Dodatni podatki**, lahko izpolnite po potrebi.
 
-### Razdelek Podrobnosti
+![Novo sredstvo](../Images/AssetsNewSL.png "Novo sredstvo")
+
+
+#### Razdelek Podrobnosti
 
 Po shranjevanju sredstva lahko dodate **podrobnosti sredstva**.  
 Te omogočajo povezavo sredstva z drugimi entitetami, kot so materiali (na primer, kadar prodani izdelek ustreza zalogovno spremljanemu materialu).
 
-Vsaka podrobnost vključuje:
+Kliknite **Dodaj postavko sredstva**, da odprete obrazec za dodajanje nove podrobnosti sredstva. Vsaka podrobnost vključuje:
 
 - **Tip** (npr. Izdelki)
 - **Entiteta** (izbran material ali postavka)
 - **Količina**
 
-![Dodajanje podrobnosti sredstva](../Images/AssetsAddAssetDetail1.png "Dodajanje podrobnosti sredstva")  
-![Seznam podrobnosti sredstva](../Images/AssetsAddAssetDetail2.png "Seznam podrobnosti sredstva")
+![Dodajanje podrobnosti sredstva](../Images/AssetsAddAssetDetail1SL.png "Dodajanje podrobnosti sredstva")  
+
+Kliknite **Dodaj**, da dodate podrobnost sredstva, ali **Prekliči**, da zaprete obrazec brez sprememb.
+
+![Seznam podrobnosti sredstva](../Images/AssetsAddAssetDetail2SL.png "Seznam podrobnosti sredstva")
 
 #### Intrastat in Glavna knjiga
 
@@ -101,7 +124,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 ### Uvoziti sredstvo 
 
-Dejanje **Uvoz** odpre obrazec *Uvoz po materialu*, ki omogoča hitro ustvarjanje sredstev na podlagi obstoječih materialov.
+Kliknite akcijski gumb in izberite **Uvoz** za odpiranje obrazca **Uvoz po materialu**, ki omogoča hitro ustvarjanje sredstev na podlagi obstoječih materialov.
 
 Uporabniki lahko izberejo:
 
@@ -110,27 +133,14 @@ Uporabniki lahko izberejo:
 - **Neto ceno postavke**
 - **Količino**
 
-![Uvoz sredstev](../Images/AssetsImport.png "Uvoz sredstev")
+![Uvoz sredstev](../Images/AssetsImportSL.png "Uvoz sredstev")
 
 Kliknite **Uvoz**, da ustvarite zapiske sredstev, ali **Prekliči**, da zaprete obrazec brez sprememb.
 
-## Filtri
-
-Seznam sredstev lahko filtrirate z uporabo:
-
-- **Pogled**: Omogočeno / Onemogočeno
-- **Tip**: Blago / Storitev
-- **Oznake**
-
-Ti filtri pomagajo pri iskanju določenih sredstev in poenostavijo upravljanje obsežnih katalogov.
 
 ## Izbrisati sredstvo
 
-Kliknite **Izbriši** na zaslonu za urejanje, da odstranite izbrano sredstvo.
+Kliknite sredstvo v seznamu, da odprete zaslon za urejanje, nato kliknite **Izbriši**, da odstranite izbrano sredstvo. Če potrdite, se sredstvo trajno odstrani.
 
-Prikaže se potrditveno pogovorno okno:
-
-**Ali ste prepričani, da želite izbrisati ta zapis?**
-
-Če potrdite, se sredstvo trajno odstrani.  
-Če je sredstvo referencirano v drugih dokumentih ali zapisih, je lahko brisanje onemogočeno, dokler se odvisnosti ne razrešijo.
+> [!NOTE]
+> Če je sredstvo referencirano v drugih dokumentih ali zapisih, je lahko brisanje onemogočeno, dokler se odvisnosti ne razrešijo.

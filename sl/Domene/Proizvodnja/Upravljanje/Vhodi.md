@@ -11,7 +11,7 @@ Vhodi se upravljajo znotraj **operacije**.
 
 Za dostop do te strani odprite verzijo procesa prek **Proizvodnja / Upravljanje / [Procesi](Procesi.md)**, kliknite **[Operacije](Operacije.md)** in nato pri izbrani operaciji izberite **Vhodi**.
 
-![Gumb Vhodi](../Images/InputsButtonSL.png "Gumb Vhodi")
+![Gumb Vhodi](../Images/InputsButtonSLV2.png "Gumb Vhodi")
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Inputs & Outputs](https://www.youtube.com/watch?v=647sT70tNZc)**.
@@ -32,7 +32,7 @@ Za dostop do te strani odprite verzijo procesa prek **Proizvodnja / Upravljanje 
 
 Seznam prikazuje vse vhode, povezane z izbrano operacijo, vključno z materialom, tipom entitete, količino in vrstnim redom. Za filtriranje po nazivu materiala uporabite polje **Iskanje**.
 
-![Seznam vhodov](../Images/InputsList.png "Seznam vhodov")
+![Seznam vhodov](../Images/InputsListSL.png "Seznam vhodov")
 
 ### Meni
 
@@ -47,11 +47,11 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
    - **Kopiraj iz obstoječega vhoda**
    - **Nov**
 
-   ![Akcijski gumb Vhodi](../Images/InputsActionButton.png "Akcijski gumb Vhodi")
+   ![Akcijski gumb Vhodi](../Images/InputsActionButtonSL.png "Akcijski gumb Vhodi")
 
 2. Izpolnite zahtevana polja.
 
-   ![Dodajanje vhoda](../Images/InputsNew.png "Dodajanje vhoda")
+   ![Dodajanje vhoda](../Images/InputsNewSL.png "Dodajanje vhoda")
 
 3. Kliknite **Dodaj**, da shranite novi vhod.
 

@@ -32,9 +32,9 @@ To adjust inventory:
 
 To ensure that a retail issued invoice can be fiscalized, the following conditions must be met:
 
-1. **Personal configuration:** The person creating the invoice must have a **tax number** specified in their [resource record](../../Production/Management/Resources.md).
+1. **Personal configuration:** The person creating the invoice must have a **tax number** specified in their [resource record](../../Resources/Management/Resources.md).
 2. **System configuration:** The system must be configured for fiscalization, and the necessary [fiscalization settings](../../System/Settings/SalesRetailsSISettings.md) must be in place.
-3. **Cash-register configuration**: Configuration of the specific cash-register used for the transaction. This is configured by the **Tom PIT** team during implementation and is not user-configurable. Specific cash-registers are set in the [Cost centers](../../../Common/Management/CostCenters.md) screen.
+3. **Cash-register configuration**: Configuration of the specific cash-register used for the transaction. This is configured by the **Tom PIT** team during implementation and is not user-configurable. Specific cash-registers are set in the [**Cost centers**](../../../Common/Management/CostCenters.md) screen.
 
 When these conditions are met, the retail issued invoice can be fiscalized upon publishing, ensuring compliance with tax regulations for retail sales.
 
@@ -43,8 +43,8 @@ When these conditions are met, the retail issued invoice can be fiscalized upon 
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -65,8 +65,8 @@ When these conditions are met, the retail issued invoice can be fiscalized upon 
 </details>
 
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -77,8 +77,8 @@ When these conditions are met, the retail issued invoice can be fiscalized upon 
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -97,8 +97,8 @@ When these conditions are met, the retail issued invoice can be fiscalized upon 
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Interstat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Interstat details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -166,7 +166,9 @@ Retail issued invoices can only be created manually.
 
 5. Save the detail lines and review totals.
 
-6. Add **Payment methods** at the bottom of the document (optional).
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
+6. Add **Payment methods** at the bottom of the document.
 
    ![Retail invoice payment methods](../Images/RetailInvoiceNewBottom.png "Retail invoice payment methods")
 

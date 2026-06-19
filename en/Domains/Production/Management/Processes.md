@@ -36,6 +36,7 @@ To access this page, go to **Production / Management / Processes** in the [navig
 | [**Code**](../../../Common/UI/DocumentCodes.md) | Automatically generated version code (read-only). |
 | **Name** | Version name (mandatory). |
 | **Description** | Optional additional details about the version. |
+| **Article** | Optional link to a specific instruction article from the [**Knowledge base**](../../Knowledge/KnowledgeBase/KnowledgeBase.md). |
 
 ## List view
 
@@ -142,7 +143,7 @@ Each operation includes:
 
 ## Quality in process versions
 
-The **[Quality](QualityChecklists.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](Checklists.md), which define the quality-control steps required during execution.
+The **[Quality](QualityChecklists.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](../../Quality/Management/Checklists.md), which define the quality-control steps required during execution.
 
 ![Processes Versions Quality Button](../Images/ProcessesVersionsQualityButton.png "Processes Versions Quality Button")
 

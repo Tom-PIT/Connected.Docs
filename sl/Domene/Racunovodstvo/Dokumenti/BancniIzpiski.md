@@ -15,8 +15,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni 
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -26,8 +26,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni 
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -45,7 +45,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Bančni 
 
 Seznam prikazuje vse bančne izpiske.
 
-![Seznam bančnih izpiskov](../Images/BankStatementsList.png)
+![Seznam bančnih izpiskov](../Images/BankStatementsListSL.png "Seznam bančnih izpiskov")
 
 Na voljo so naslednji filtri:
 
@@ -75,18 +75,30 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za dostop do razpol
 2. Izberite **Bančni račun organizacije**.
 3. Nastavite **Datum dokumenta**.
 
-![Nov bančni izpisek](../Images/BankStatementsNew.png)
+![Nov bančni izpisek](../Images/BankStatementsNewSL.png)
 
-### Dodati postavke
+### Dodati postavko
 
 1. V razdelku **Postavke** kliknite **Dodaj postavko**.
 2. Izberite **Podjetje**, povezano s transakcijo.
-3. Izberite **Konto**, na katerega se bo knjižilo.
-4. Določite **Smer knjiženja** (Debet ali Kredit).
-5. Vnesite **Znesek** in **Opis**.
+3. Preglejte seznam **Odprtih postavk** v razdelku **Zapiranje postavke**.
+4. Izberite eno ali več postavk za zapiranje.
+5. Preverite **Znesek zapiranja** za izbrane postavke.
 6. Kliknite **Dodaj** za potrditev postavke.
 
-![Dodajanje postavke](../Images/BankStatementsNewAddDetail.png)
+![Dodajanje postavke](../Images/BankStatementsNewAddDetailSL.png)
+
+> [!TIP]
+> Po izbiri podjetja sistem prikaže njegove odprte postavke, ki jih lahko povežete z bančnim prometom in tako zaprete odprte terjatve ali obveznosti.
+
+### Ročno knjiženje
+
+Če promet ni povezan z obstoječo odprto postavko:
+
+1. Izberite ustrezen **Konto**.
+2. Določite **Smer knjiženja** (**Debet** ali **Kredit**).
+3. Vnesite **Znesek** in po potrebi **Opis**.
+4. Kliknite **Dodaj**.
 
 ### Objavljati bančnega izpiska
 

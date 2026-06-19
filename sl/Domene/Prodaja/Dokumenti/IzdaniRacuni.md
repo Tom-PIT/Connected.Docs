@@ -18,14 +18,14 @@ Izdani računi se običajno ustvarijo na koncu prodajnega procesa:
 3. Blago se odpremi z uporabo **[Dobavnic](Dobavnice.md)** in povezanih izdaj.  
 4. Na koncu se ustvari **Izdani račun** (pogosto iz dobavnice ali naročila stranke) in se pošlje stranki v plačilo.
 
-![Issued Invoice Diagram S L](../Images/IssuedInvoiceDiagramSL.svg "diagram izdanega računa v prodajnem procesu ")
+![Prodajni proces z izdanimi računi](../Images/IssuedInvoiceDiagramSL.svg "Prodajni proces z izdanimi računi")
 
 Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to potrebno.
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -47,8 +47,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -59,8 +59,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 | **Dobava – Podjetje / Naslov** | Dobavni podatki stranke, povzeti iz [Poslovnega imenika](../../../Skupno/Upravljanje/PoslovniImenik.md). |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -70,8 +70,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -90,8 +90,8 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 
 </details>
 
-<details>
-  <summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Glavna knjiga in Intrastat postavke</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|
@@ -125,7 +125,7 @@ Ti statusi določajo razpoložljiva dejanja (evidentiranje plačil, storniranje,
 
 Seznam prikazuje vse račune, ki ustrezajo izbranim filtrom in časovnim obdobjem.
 
-![Seznam izdanih računov](../Images/IssuedInvoicesListPartiallyPaid.png "Seznam izdanih računov")
+![Seznam izdanih računov](../Images/IssuedInvoicesListPaidSL.png "Seznam izdanih računov")
 
 **Kazalniki**
 
@@ -181,7 +181,7 @@ Dokler je račun v statusu **Osnutek**, lahko urejate vse razdelke:
 - [**Načini plačila**](IzdaniRacuniUstvarjanje.md#načini-plačila) – določanje načina plačila
 - [**Vsebina zgoraj** in **Vsebina spodaj**](IzdaniRacuniUstvarjanje.md#vsebina-zgoraj-in-vsebina-spodaj) – izbor vnaprej določenih besedil
 
-![Postavke in plačila](../Images/IssuedInvoicesNewBottom.png "Postavke in plačila")
+![Postavke in plačila](../Images/IssuedInvoicesNewBottomSL.png "Postavke in plačila")
 
 #### Povezani dokumenti
 
@@ -189,14 +189,14 @@ Razdelek **Povezani dokumenti** omogoča ustvarjanje in pregled povezanih dokume
 
 Za podrobnosti o povezavah med dokumenti, sledljivosti in ustvarjanju povezanih dokumentov glejte [**Povezani dokumenti**](../../../Skupno/Koncepti/PovezaniDokumenti.md).
 
-![Povezani dokumenti delno plačanega računa](../Images/IssuedInvoicePartiallyPaidLinkedDocuments.png "Povezani dokumenti delno plačanega računa")
+![Povezani dokumenti delno plačanega računa](../Images/IssuedInvoicePartiallyPaidLinkedDocumentsSL.png "Povezani dokumenti delno plačanega računa")
 
 > [!NOTE]
 > Razpoložljiva dejanja v razdelku **Povezani dokumenti** so odvisna od tipa in statusa dokumenta.
 
 Primer za osnutek:
 
-![Povezani dokumenti osnutka računa](../Images/IssuedInvoiceDraftLinkedDocuments.png "Povezani dokumenti osnutka računa")
+![Povezani dokumenti osnutka računa](../Images/IssuedInvoiceDraftLinkedDocumentsSL.png "Povezani dokumenti osnutka računa")
 
 Razpoložljiva dejanja lahko vključujejo:
 
@@ -214,7 +214,7 @@ Ko je račun pripravljen, kliknite **Objavi**, da ga potrdite in premaknete iz s
 
 Po objavi računa kliknite **Plačilo**, da evidentirate prejeto plačilo.
 
-![Evidentiranje plačila](../Images/IssuedInvoicesPayment.png "Evidentiranje plačila")
+![Evidentiranje plačila](../Images/IssuedInvoicesPaymentSL.png "Evidentiranje plačila")
 
 V pogovornem oknu za plačilo so prikazani:
 

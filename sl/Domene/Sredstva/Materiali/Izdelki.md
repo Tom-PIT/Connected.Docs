@@ -24,7 +24,7 @@ Za dostop do šifranta **Izdelki** pojdite na
 
 ## Shema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Izdelek</strong></summary>
 
 | Polje | Opis |
@@ -40,7 +40,7 @@ Za dostop do šifranta **Izdelki** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Pakiranje</strong></summary>
 
 **Definicija pakiranja** opisuje fizikalne lastnosti materiala in alternativne enote, ki se uporabljajo pri ravnanju z njim v skladišču. To je mogoče nastaviti tudi v razdelku [**Pakiranje**](Pakiranje.md).
@@ -55,7 +55,7 @@ Za dostop do šifranta **Izdelki** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Dodatno</strong></summary>
 
 | Polje | Opis |
@@ -68,7 +68,7 @@ Za dostop do šifranta **Izdelki** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Glavna knjiga in Intrastat</strong></summary>
 
 | Polje | Opis |
@@ -87,7 +87,7 @@ Za dostop do šifranta **Izdelki** pojdite na
 
 Uporabniški vmesnik vsebuje seznam izdelkov. Če zapisi še ne obstajajo, je seznam prazen.
 
-![Izdelki](../Images/ProductsList.png "Izdelki")
+![Izdelki](../Images/ProductsListSL.png "Izdelki")
 
 Seznam prikazuje ime izdelka, šifro in način generiranja serijske številke.
 
@@ -105,7 +105,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo n
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Nov**, da odprete obrazec za dodajanje novega izdelka. Obrazec vključuje polja, kot so **Koda**, **Ime**, **Generiranje serijske številke**, **Osnovna merska enota**, **Davčna stopnja** in druga, odvisno od konfiguracije sistema.
 
-![Nov izdelek](../Images/NewProduct.png "Nov izdelek")
+![Nov izdelek](../Images/NewProductSL.png "Nov izdelek")
 
 Na voljo so dodatni zložljivi razdelki:
 
@@ -116,13 +116,13 @@ Ta razdelek omogoča pregled ali dodajanje enega ali več zapisov [pakiranja](Pa
 Zapisi pakiranja se kasneje uporabljajo v skladiščnih procesih, kot so:
 - [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md)
 - [**Izdajnice**](../../Logistika/Dokumenti/Izdajnice.md)
-- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedskladiscniPromet.md)
+- [**Medskladiščni promet**](../../Logistika/Dokumenti/MedSkladiscniPromet.md)
 
 #### Intrastat in Glavna knjiga
 
 Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri poročanju.
 
-![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedger.png "Materiali Intrastat in Glavna knjiga")
+![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedgerSL.png "Materiali Intrastat in Glavna knjiga")
 
 > [!WARNING]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
@@ -131,7 +131,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 Ta razdelek vsebuje neobvezna opisna polja, kot so opis materiala, oznake, slike, povezave ali zunanji identifikatorji. Ta polja zagotavljajo dodatni kontekst, vendar ne vplivajo na izračune zaloge.
 
-![Zložljivi razdelki](../Images/MaterialPackagingAdditional.png "Zložljivi razdelki")
+![Zložljivi razdelki](../Images/MaterialPackagingAdditionalSL.png "Zložljivi razdelki")
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite izdelek, ali **Prekliči**, da se vrnete na seznam.
 
@@ -146,7 +146,7 @@ Za podrobnosti glejte dokumentacijo
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
 
-![Kopiranje izdelka](../Images/CopyProduct.png "Kopiranje izdelka")
+![Kopiranje izdelka](../Images/CopyProductSL.png "Kopiranje izdelka")
 
 Po izbiri osnovnega izdelka so vsa polja predizpolnjena in jih je mogoče urediti pred shranjevanjem.
 
@@ -154,7 +154,7 @@ Po izbiri osnovnega izdelka so vsa polja predizpolnjena in jih je mogoče uredit
 
 Za urejanje obstoječega izdelka kliknite **Ime** izdelka v seznamu. Vmesnik se preklopi v način urejanja, kjer so prikazana vsa polja. Kliknite **Shrani** za potrditev sprememb ali **Prekliči** za zavrnitev.
 
-![Urejanje izdelka](../Images/EditProduct.png "Urejanje izdelka")
+![Urejanje izdelka](../Images/EditProductSL.png "Urejanje izdelka")
 
 ## Izbrisati izdelek
 

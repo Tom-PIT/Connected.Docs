@@ -14,7 +14,7 @@
 3. Review or enter document header fields, including **Amount**.
 4. Select the appropriate **Account** and **Template** (optional).
 
-![Received invoice – header](../Images/ReceivedInvoicesNewTop.png "Received invoice header")
+![Received invoice – header](../Images/ReceivedInvoicesNewTopV2.png "Received invoice header")
 
 ## Create suggested postings
 
@@ -24,11 +24,11 @@ Under **Suggested postings**, the system proposes postings based on the linked s
 2. Select the relevant items.
 3. Edit the **Expense** and **Quantity** fields on the list as needed.
 
-	![Received Invoices Details Expense](../Images/ReceivedInvoicesDetailsExpense.png)
+	![Received Invoices Details Expense](../Images/ReceivedInvoicesDetailsExpenseV2.png)
 
 4. Click **Create postings** to generate posting lines.
 
-   ![Received invoice – suggested postings](../Images/ReceivedInvoicesNewSuggestedPostings.png "Suggested postings")
+   ![Received invoice – suggested postings](../Images/ReceivedInvoicesNewSuggestedPostingsV2.png "Suggested postings")
 
 ### Attachments
 
@@ -40,13 +40,15 @@ For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attach
 
 Click any blue field in the **Details** section to edit it. After making changes, click **Save** to apply them.
 
-![Received invoice – edit detail](../Images/ReceivedInvoicesDetails.png "Edit detail")
+![Received invoice – edit detail](../Images/ReceivedInvoicesDetailsV2.png "Edit detail")
+
+For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
 
 ## Publish a received invoice
 
 When all amounts match and required data is filled the bottom of the document would look like this.
 
-![Received Invoices New Bottom](../Images/ReceivedInvoicesNewBottom.png "Received invoices - bottom of the document")
+![Received Invoices New Bottom](../Images/ReceivedInvoicesNewBottomV2.png "Received invoices - bottom of the document")
 
 * Click **Publish** to commit the document.
 * The invoice is posted to the ledger.
