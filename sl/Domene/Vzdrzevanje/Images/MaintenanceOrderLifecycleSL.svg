@@ -20,9 +20,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.74"
-     inkscape:cx="444.59459"
-     inkscape:cy="331.75676"
+     inkscape:zoom="1.48"
+     inkscape:cx="311.48649"
+     inkscape:cy="167.90541"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -84,9 +84,10 @@
   <!-- Source explanation -->
   <text
      class="small-text"
-     x="146"
-     y="7.3046875"
-     id="text1">Viri ustvarjanja</text>
+     x="146.40639"
+     y="21.283854"
+     id="text1"
+     style="font-size:21.3333px">Viri ustvarjanja</text>
   <!-- Maintenance schedule source -->
   <rect
      class="source"
