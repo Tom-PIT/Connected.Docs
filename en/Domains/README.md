@@ -1,6 +1,6 @@
 # Domains
 
-This folder contains domain-organized documentation. A domain groups all content related to a business area: its documents, views (reports), and management (code lists and settings). Use these entries to explore each domain’s overview and find its sub-sections.
+This section contains domain-organized documentation. A domain groups all content related to a business area: its documents, views (reports), and management (code lists and settings). Use these entries to explore each domain’s overview and find its sub-sections.
 
 Domains available in this documentation:
 
