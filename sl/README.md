@@ -1,8 +1,8 @@
 # Connected Docs (Slovenščina)
 
-Ta mapa predstavlja vstopno točko za slovenski (sl) nabor dokumentacije.
+Ta mapa predstavlja vstopno točko za slovenski nabor dokumentacije.
 
-Dobrodošli v dokumentaciji Connected. Ta repozitorij vsebuje uporabniške vodiče, domenske preglede ter reference šifrantov za delo s platformo.
+Dobrodošli v dokumentaciji Connected. Ta je vstopna točka  za slovenski nabor dokumentacije in vsebuje uporabniške vodiče, domenske preglede ter reference šifrantov za delo s platformo.
 
 ## Začnite tukaj
 
@@ -17,3 +17,21 @@ Dobrodošli v dokumentaciji Connected. Ta repozitorij vsebuje uporabniške vodi�
 - Upravljanje (šifranti, skupni osnovni podatki in nastavitve)
 
 Za raziskovanje povezanih tem uporabite navigacijo in povezave znotraj posameznih strani.
+
+## Domene
+
+- [**Računovodstvo**](Domene/Racunovodstvo/Racunovodstvo.md)
+- [**Sredstva**](Domene/Sredstva/DomenaSredstve.md)
+- [**Stranke**](Domene/Stranke/Stranke.md)
+- [**Dokumenti**](Domene/Dokumenti/Dokumenti.md)
+- [**Znanje**](Domene/Znanje/Znanje.md)
+- [**Logistika**](Domene/Logistika/Logistika.md)
+- [**Vzdrževanje**](Domene/Vzdrzevanje/Vzdrzevanje.md)
+- [**Planiranje**](Domene/Planiranje/DomenaPlaniranje.md)
+- [**Proizvodnja**](Domene/Proizvodnja/Proizvodnja.md)
+- [**Projekti**](Domene/Projekti/DomenaProjektov.md)
+- [**Kvaliteta**](Domene/Kvaliteta/Kvaliteta.md)
+- [**Viri**](Domene/Viri/Viri.md)
+- [**Prodaja**](Domene/Prodaja/Prodaja.md)
+- [**Nabava**](Domene/Nabava/Nabava.md)
+- [**Sistem**](Domene/Nabava/Nabava.md)
