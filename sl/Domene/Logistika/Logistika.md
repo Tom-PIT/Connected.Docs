@@ -24,7 +24,7 @@ Področje je razdeljeno na več funkcionalnih sklopov:
 - **[Zaloga](Pregledi/Zaloga.md)** – pregled zaloge v realnem času (samo za branje; filtriranje po skladišču, lokaciji, materialu, seriji/serijski številki)  
 - **[Dokumenti](#dokumenti)** – vsi logistični dokumenti, ki vplivajo na zalogo  
 - **[Pregledi](#pregledi)** – analitični pregledi porabe, izdaj in razporeditve zaloge  
-- **[Šifranti](#sifranti)** – konfiguracija skladišč, lokacij in logističnih pravil  
+- **[Upravljanje](#upravljanje)** – konfiguracija skladišč, lokacij in logističnih pravil  
 
 ![Pregled področja logistike](Images/LogisticsDomainOverviewSL.png "Pregled področja logistike")
 
