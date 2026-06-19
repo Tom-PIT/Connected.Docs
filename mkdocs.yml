@@ -20,8 +20,10 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
     - search.highlight
-    - content.code.copy
 
 plugins:
   - search
@@ -41,5 +43,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - English: en/index.md
+  - English:
+      - Introduction: en/index.md
+      - Getting started: en/GettingStarted/00.GettingStarted.md
+      - Common features: en/Common/Common.md
+      - Production: en/Domains/Production/ProductionDomain.md
   - Slovenščina: sl/index.md

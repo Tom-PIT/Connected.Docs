@@ -20,9 +20,7 @@ Dobavnice predstavljajo povezavo med prodajnimi in skladiščnimi procesi:
 3. Ko je dobavnica pripravljena, se ustvari in poveže dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md) (delna ali celotna dobava).  
 4. Po dobavi se proces nadaljuje z ustvarjanjem [**Izdani račun**](IzdaniRacuni.md).
 
-<p align="center">
-  <img src="../Images/DeliveryNoteDiagramSL.svg" alt="Diagram dobavnice v prodajnem procesu" style="width:90%; height:auto;" title="Diagram dobavnice v prodajnem procesu" >
-</p>
+![Dobavnica v prodajnem procesu](../Images/DeliveryNoteDiagramSL.svg "Dobavnica v prodajnem procesu")
 
 Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekti ter jih uporabiti za sprožanje proizvodnih ali vzdrževalnih nalogov.
 

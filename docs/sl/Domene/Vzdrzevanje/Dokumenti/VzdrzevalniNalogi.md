@@ -9,9 +9,7 @@ Vzdrževalni nalogi določajo delo, ki je potrebno za izvajanje **planiranega al
 
 Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vključujejo operacije, vire, vhode in kontrolne sezname kakovosti, kot so definirani v izbranem procesu.
 
-<p align="center">
-  <img src="../Images/MaintenanceOrderLifecycleSL.svg" alt="Vzdrževalni nalogi v vzdrževalnem procesu" title="Vzdrževalni nalogi v vzdrževalnem procesu" style="width:90%; height:auto;" >
-</p>
+![Življenjski cikel vzdrževalnega naloga](../Images/MaintenanceOrderLifecycleSL.svg "Življenjski cikel vzdrževalnega naloga")
 
 > [!NOTE]
 > **Predpogoji**

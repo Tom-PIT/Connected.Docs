@@ -18,9 +18,7 @@ Issued invoices are typically created at the end of the sales chain:
 3. Goods are shipped using **[Delivery notes](DeliveryNotes.md)** and related issues.  
 4. Finally, an issued invoice is created (often from the delivery note or sales order) and sent to the customer for payment.
 
-<p align="center">
-  <img src="../Images/IssuedInvoicesDiagram.svg" alt="Issued invoices in the sales process" style="width:90%; height:auto;" title="Issued invoices in the sales process" >
-</p>
+![Sales flow](../Images/IssuedInvoicesDiagram.svg "Sales flow")
 
 Invoices can also be created manually as stand-alone documents when required.
 
