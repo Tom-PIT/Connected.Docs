@@ -113,8 +113,6 @@ This creates a Disassembly draft prefilled from the received packages, useful to
 
 The menu provides additional actions available on this page.
 
-![Ticket menu](../Images/TicketsMenu.png)
-
 Available actions:
 
 - **Print received serial number labels**

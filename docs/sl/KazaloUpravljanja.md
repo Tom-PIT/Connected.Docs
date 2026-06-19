@@ -4,7 +4,7 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 
 - [**Računovodstvo**](#računovodstvo)
 - [**Sredstva**](#sredstva)
-- [**Podpora strankam**](#podpora-strankam)
+- [**Stranke**](#stranke)
 - [**Znanje**](#znanje)
 - [**Logistika**](#logistika)
 - [**Proizvodnja in vzdrževanje**](#proizvodnja-in-vzdrževanje)
@@ -49,7 +49,6 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 - [**AOP**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md)
 - [**Amortizacijske skupine**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md)
 
-## Sredstva
 ### Sredstva
 - [**Ceniki sredstev**](Domene/Sredstva/Sredstva/CenikiSredstev.md)
 - [**Sredstva**](Domene/Sredstva/Sredstva/Sredstva.md)
