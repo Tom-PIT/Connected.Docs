@@ -28,8 +28,8 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -42,8 +42,8 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 | **Content bottom** | Optional closing or legal text from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Delivery note*). |
 </details>
 
-<details>
-  <summary><strong>Transport and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -53,8 +53,8 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|

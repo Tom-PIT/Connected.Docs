@@ -17,8 +17,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-----|-----|
@@ -33,8 +33,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 
 </details>
 
-<details>
-  <summary><strong>Plačnik</strong></summary>
+<details markdown="1">
+<summary><strong>Plačnik</strong></summary>
 
 | Polje | Opis |
 |-----|-----|
@@ -44,8 +44,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Banka / Plačilni nalogi
 
 </details>
 
-<details>
-  <summary><strong>Prejemnik</strong></summary>
+<details markdown="1">
+<summary><strong>Prejemnik</strong></summary>
 
 | Polje | Opis |
 |-----|-----|

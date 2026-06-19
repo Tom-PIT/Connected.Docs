@@ -28,7 +28,7 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 
 </details>
 
-<details  markdown="1">
+<details markdown="1">
 <summary><strong>Details</strong></summary>
 
 | Field | Description |

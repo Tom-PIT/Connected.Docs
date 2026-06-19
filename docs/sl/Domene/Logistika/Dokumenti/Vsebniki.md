@@ -14,8 +14,8 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -26,8 +26,8 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|

@@ -16,8 +16,8 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -28,8 +28,8 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|

@@ -16,7 +16,7 @@ To access this screen, navigate to **Assets / Materials / Material price lists**
 
 ## Schema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Price list</strong></summary>
 
 | Field | Description |
@@ -27,7 +27,7 @@ To access this screen, navigate to **Assets / Materials / Material price lists**
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Details</strong></summary>
 
 | Field | Description |

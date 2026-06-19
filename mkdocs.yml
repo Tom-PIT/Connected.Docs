@@ -1,5 +1,10 @@
 site_name: Tom PIT Connected Documentation
 
+repo_url: https://github.com/Tom-PIT/Connected.Docs/tree/main
+
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   
@@ -20,6 +25,7 @@ theme:
 
 plugins:
   - search
+  - callouts
 
 markdown_extensions:
   - md_in_html
@@ -28,7 +34,6 @@ markdown_extensions:
   - toc:
       permalink: true
   - attr_list
-  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
