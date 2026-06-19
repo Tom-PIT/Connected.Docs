@@ -19,10 +19,7 @@ A typical flow:
 3. From the sales order, continue the operational workflow—production, purchasing, delivery, etc.  
 4. Eventually, generate a [**Delivery note**](DeliveryNotes.md), and finally an [**Issued invoice**](IssuedInvoices.md).
 
-<p align="center">
-  <img src="../Images/OfferDiagram.svg" alt="Offers in the sales process" style="width:90%; height:auto;" title="Offers in the sales process" >
-</p>
-
+![Offers in the sales process](../Images/OfferDiagram.svg "Offers in the sales process")
 
 ## Schema
 

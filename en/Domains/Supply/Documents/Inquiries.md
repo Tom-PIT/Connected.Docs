@@ -18,10 +18,7 @@ A typical flow:
 3. When approved, convert the inquiry into a [**Supply order**](SupplyOrders.md) using the **Linked documents** section.  
 4. From the Supply order, you can then create a [**Receive**](../../Logistics/Documents/Receives.md) document (partial or full) once the materials arrive.
 
-<p align="center">
-  <img src="../Images/InquiryDiagram.svg" alt="Inquiries in the supply order process" title="Inquiries in the supply order process" >
-</p>
-
+![Inquiries in the supply order process](../Images/InquiryDiagram.svg "Inquiries in the supply order process")
 
 > [!NOTE]  
 > Inquiries are not mandatory — Supply orders can also be created directly without a prior inquiry. Your organization may follow all steps or only some of them, depending on the purchasing process.
