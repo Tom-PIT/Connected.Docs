@@ -138,7 +138,7 @@ Click on the [action button](../../../Common/UI/ActionButton.md) and select **Im
 
 See the [**Import materials**](ImportMaterials.md) documentation for full details.
 
-### Copy an exisisting product
+### Copy an existing product
 
 Click on the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing product** to create a new product based on an existing one. A selection list appears with the available base products.
 

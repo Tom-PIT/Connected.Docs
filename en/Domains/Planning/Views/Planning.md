@@ -56,7 +56,7 @@ Planned orders can be **rescheduled** directly in the calendar using drag & drop
 - The system automatically updates the planned dates  
 
 > [!NOTE]
-> It is not possible to move a production order beyond its **due date** defined in the [production order](../../Production/Documents/ProductionOrders.md#dates).
+> It is not possible to move a production order beyond its **due date** defined in the [production order](../../Production/Documents/ProductionOrderCreate.md#dates).
 
 ### Display order information
 

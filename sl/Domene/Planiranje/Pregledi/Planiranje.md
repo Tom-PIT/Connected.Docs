@@ -17,7 +17,7 @@ Proizvodni nalogi so prikazani na koledarju glede na njihov **planiran začetek*
 
 > [!IMPORTANT]
 > Proizvodni nalog bo viden v Planiranju samo, če sta določena tako **planiran začetek** kot **planiran konec**.  
-> Ti vrednosti se nastavita ob ustvarjanju ali urejanju proizvodnega naloga. Glej [**Proizvodni nalogi**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md#datumi).
+> Ti vrednosti se nastavita ob ustvarjanju ali urejanju proizvodnega naloga. Glej [**Proizvodni nalogi**](../../Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md#datumi).
 
 Vsak element na koledarju predstavlja planiran proizvodni nalog in prikazuje njegovo trajanje v izbranem časovnem obdobju.
 
