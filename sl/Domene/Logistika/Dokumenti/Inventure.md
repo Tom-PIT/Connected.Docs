@@ -19,8 +19,8 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -31,8 +31,8 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|

@@ -14,8 +14,8 @@ To access this page, navigate to the **Production**, **Resources**, or **Mainten
 
 ## Schema
 
-<details open>
-  <summary><strong>General</strong></summary>
+<details open markdown="1">
+<summary><strong>General</strong></summary>
 
 The following table lists all fields used across **Human**, **Non-human**, and **Team** resources.
 
@@ -34,8 +34,8 @@ The following table lists all fields used across **Human**, **Non-human**, and *
 
 </details>
 
-<details>
-  <summary><strong>Basic details</strong></summary>
+<details markdown="1">
+<summary><strong>Basic details</strong></summary>
 
 This table lists the fields used in the **Basic details** section of the resource edit form for human resources.
 

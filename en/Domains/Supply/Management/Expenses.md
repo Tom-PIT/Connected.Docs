@@ -13,8 +13,8 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 
 ## Schema
 
-<details open>
-  <summary><strong>General</strong></summary>
+<details open markdown="1">
+<summary><strong>General</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -29,8 +29,8 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 
 </details>
 
-<details>
-  <summary><strong>Operation</strong></summary>
+<details markdown="1">
+<summary><strong>Operation</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -40,8 +40,8 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 
 </details>
 
-<details>
-  <summary><strong>Ledger</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger</strong></summary>
 
 | Field | Description |
 |-------|-------------|

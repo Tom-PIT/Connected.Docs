@@ -24,8 +24,8 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -36,8 +36,8 @@ Prejmete garniture pohištva, na primer jedilni komplet (ena miza in štirje sto
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |------|------|

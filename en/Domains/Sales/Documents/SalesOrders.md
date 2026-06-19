@@ -35,8 +35,8 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -52,8 +52,8 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | [**Payment methods**](../Management/PaymentMethods.md) | Payment options connected to the sales order. |
 </details>
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -64,8 +64,8 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Intrastat</strong></summary>
+<details markdown="1">
+<summary><strong>Intrastat</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -75,8 +75,8 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|

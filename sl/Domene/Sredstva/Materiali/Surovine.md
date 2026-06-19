@@ -23,7 +23,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 ## Shema
 
-<details open>
+<details open markdown="1">
 <summary><strong>Surovina</strong></summary>
 
 | Polje | Opis |
@@ -39,7 +39,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Pakiranje</strong></summary>
 
 **Definicija pakiranja** opisuje fizikalne lastnosti materiala in alternativne enote, ki se uporabljajo pri ravnanju z njim v skladišču. To je mogoče nastaviti tudi v razdelku [**Pakiranje**](Pakiranje.md).
@@ -54,7 +54,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Dodatno</strong></summary>
 
 | Polje | Opis |
@@ -67,7 +67,7 @@ Za dostop do šifranta **Surovine** pojdite na
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Glavna knjiga in Intrastat</strong></summary>
 
 | Polje | Opis |

@@ -43,8 +43,8 @@ When these conditions are met, the retail issued invoice can be fiscalized upon 
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -65,8 +65,8 @@ When these conditions are met, the retail issued invoice can be fiscalized upon 
 </details>
 
 
-<details>
-  <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -77,8 +77,8 @@ When these conditions are met, the retail issued invoice can be fiscalized upon 
 | **Delivery** | Delivery company and address information. |
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |--------|-------------|
@@ -97,8 +97,8 @@ When these conditions are met, the retail issued invoice can be fiscalized upon 
 
 </details>
 
-<details>
-  <summary><strong>Ledger and Interstat details</strong></summary>
+<details markdown="1">
+<summary><strong>Ledger and Interstat details</strong></summary>
 
 | Field | Description |
 |--------|-------------|

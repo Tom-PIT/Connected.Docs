@@ -30,8 +30,8 @@ The amounts shown here represent the **net VAT position** for the selected perio
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -43,8 +43,8 @@ The amounts shown here represent the **net VAT position** for the selected perio
 
 </details>
 
-<details>
-  <summary><strong>Supply of goods and services (without tax)</strong></summary>
+<details markdown="1">
+<summary><strong>Supply of goods and services (without tax)</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -57,8 +57,8 @@ The amounts shown here represent the **net VAT position** for the selected perio
 
 </details>
 
-<details>
-  <summary><strong>Tax charged</strong></summary>
+<details markdown="1">
+<summary><strong>Tax charged</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -70,8 +70,8 @@ The amounts shown here represent the **net VAT position** for the selected perio
 
 </details>
 
-<details>
-  <summary><strong>Purchase of goods and services</strong></summary>
+<details markdown="1">
+<summary><strong>Purchase of goods and services</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -85,8 +85,8 @@ The amounts shown here represent the **net VAT position** for the selected perio
 
 </details>
 
-<details>
-  <summary><strong>Tax deduction</strong></summary>
+<details markdown="1">
+<summary><strong>Tax deduction</strong></summary>
 
 | Field | Description |
 |------|-------------|
@@ -95,8 +95,8 @@ The amounts shown here represent the **net VAT position** for the selected perio
 
 </details>
 
-<details>
-  <summary><strong>Final calculation</strong></summary>
+<details markdown="1">
+<summary><strong>Final calculation</strong></summary>
 
 | Field | Description |
 |------|-------------|

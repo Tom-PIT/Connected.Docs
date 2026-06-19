@@ -16,8 +16,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -29,8 +29,8 @@ To access Issues, go to **Logistics / Documents / Issues** in the [navigation](.
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|

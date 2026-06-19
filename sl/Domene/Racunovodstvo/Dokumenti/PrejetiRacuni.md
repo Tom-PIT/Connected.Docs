@@ -31,8 +31,8 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-----|-----|
@@ -54,8 +54,8 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 
 </details>
 
-<details>
-  <summary><strong>Postavke</strong></summary>
+<details markdown="1">
+<summary><strong>Postavke</strong></summary>
 
 | Polje | Opis |
 |-----|-----|

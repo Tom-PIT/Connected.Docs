@@ -15,8 +15,8 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [navi
 > * Publishing a payment order does not automatically execute a bank transaction.
 
 ## Schema
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field           | Description                                               |
 | --------------- | --------------------------------------------------------- |
@@ -31,8 +31,8 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [navi
 
 </details>
 
-<details>
-  <summary><strong>Payer</strong></summary>
+<details markdown="1">
+<summary><strong>Payer</strong></summary>
 
 | Field                     | Description                                     |
 | ------------------------- | ----------------------------------------------- |
@@ -42,8 +42,8 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [navi
 
 </details>
 
-<details>
-  <summary><strong>Recipient</strong></summary>
+<details markdown="1">
+<summary><strong>Recipient</strong></summary>
 
 | Field            | Description                                             |
 | ---------------- | ------------------------------------------------------- |

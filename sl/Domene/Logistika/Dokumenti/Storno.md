@@ -42,8 +42,8 @@ Različne vrste dokumentov imajo pri storniranju različne učinke:
 ## Shema
 
 
-<details open>
-  <summary><strong>Razdelek razveljavljenega dokumenta</strong></summary>
+<details open markdown="1">
+<summary><strong>Razdelek razveljavljenega dokumenta</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -55,8 +55,8 @@ Različne vrste dokumentov imajo pri storniranju različne učinke:
 </details>
 
 
-<details>
-  <summary><strong>Dokument</strong></summary>
+<details markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |-------|------|
@@ -66,8 +66,8 @@ Različne vrste dokumentov imajo pri storniranju različne učinke:
 </details>
 
 
-<details>
-  <summary><strong>Podrobnosti</strong></summary>
+<details markdown="1">
+<summary><strong>Podrobnosti</strong></summary>
 
 | Polje | Opis |
 |-------|------|

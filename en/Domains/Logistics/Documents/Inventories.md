@@ -16,8 +16,8 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 
 ## Schema
 
-<details open>
-  <summary><strong>Document</strong></summary>
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
 
 | Field | Description |
 |-------|-------------|
@@ -28,8 +28,8 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 
 </details>
 
-<details>
-  <summary><strong>Details</strong></summary>
+<details markdown="1">
+<summary><strong>Details</strong></summary>
 
 | Field | Description |
 |-------|-------------|

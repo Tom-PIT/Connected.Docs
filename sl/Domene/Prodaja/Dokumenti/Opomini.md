@@ -21,8 +21,8 @@ Tipičen potek:
 Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestilo za račun.
 
 ## Shema
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -37,8 +37,8 @@ Opomini so informativni in služijo kot formalno opozorilo, ne pa kot nadomestil
 
 </details>
 
-<details>
-  <summary><strong>Transport, alternativna valuta in dostava</strong></summary>
+<details markdown="1">
+<summary><strong>Transport, alternativna valuta in dostava</strong></summary>
 
 | Polje | Opis |
 |--------|-------------|

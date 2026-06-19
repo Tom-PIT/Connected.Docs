@@ -15,8 +15,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Osnovna 
 
 ## Shema
 
-<details open>
-  <summary><strong>Dokument</strong></summary>
+<details open markdown="1">
+<summary><strong>Dokument</strong></summary>
 
 | Polje | Opis |
 |------|------|
@@ -38,8 +38,8 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Osnovna 
 
 </details>
 
-<details>
-  <summary><strong>Podrobnosti</strong></summary>
+<details markdown="1">
+<summary><strong>Podrobnosti</strong></summary>
 
 | Polje | Opis |
 |------|------|
