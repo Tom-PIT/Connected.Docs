@@ -52,7 +52,7 @@ The **Posting type** determines how the account can be used in accounting entrie
 * **Debit and credit** – Both debit and credit postings are allowed.
 
 > [!TIP]
-> Grouping accounts (such as *Production costs* or *Operating expenses*) typically use **Posting is not allowed**, while operational accounts use **Debit and credit**.
+Grouping accounts (such as *Production costs* or *Operating expenses*) typically use **Posting is not allowed**, while operational accounts use **Debit and credit**.
 
 ### Account type
 
@@ -65,7 +65,7 @@ The **Account type** defines whether the account must be linked to another busin
 Synthetic accounts are typically defined by national accounting frameworks and do not allow direct postings.
 
 > [!NOTE]
-> Operational postings are always performed on analytical accounts, which are defined as children of synthetic accounts.
+Operational postings are always performed on analytical accounts, which are defined as children of synthetic accounts.
 
 ## List view
 

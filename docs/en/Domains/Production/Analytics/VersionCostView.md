@@ -14,9 +14,6 @@ The page provides a detailed breakdown of how the total production cost is calcu
 
 ![Version cost view](../Images/VersionCostView.png "Version cost view")
 
-> [!NOTE]
-> The same cost analysis can also be accessed from the [**Work items costs**](../../Resources/Views/WorkItemsCosts.md) view by selecting **Processes**.
-
 ## Cost summary
 
 The **Cost** panel shows the **total estimated cost per produced item** for the selected version.

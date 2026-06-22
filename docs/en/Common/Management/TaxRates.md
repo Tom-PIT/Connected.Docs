@@ -58,7 +58,7 @@ The **Ledger** section defines which general ledger accounts are used to post ta
 The **Debit** and **Credit** fields allow selection of accounts from the [**Chart of accounts**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) code list. These accounts determine where tax amounts are posted during accounting transactions.
 
 > [!NOTE]
-> The ledger setup is required for accurate tax accounting, reporting, and regulatory compliance.
+The ledger setup is required for accurate tax accounting, reporting, and regulatory compliance.
 
 ### Edit an existing tax rate
 
@@ -76,5 +76,5 @@ To delete an existing tax rate, follow these steps:
 2. Click **Delete** in the edit screen to open a confirmation dialog. If confirmed, the entry is permanently removed; otherwise, the system keeps the record unchanged.
 
 > [!NOTE]
-> A tax rate can be deleted only if it is not used in any dependent entries.  
+>A tax rate can be deleted only if it is not used in any dependent entries.  
 

@@ -1,4 +1,4 @@
-# Connected Docs (English)
+# Connected Docs
 
 This folder is the entry point for the English (en) documentation set.
 

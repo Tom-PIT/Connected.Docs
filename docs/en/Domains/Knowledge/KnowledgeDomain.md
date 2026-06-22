@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/knowledge -->
+<!-- app_route: /sitemap/knowledge -->
 <!-- app_label: Knowledge domain -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/KnowledgeDomain.md -->
 <!-- canonical_source_title: Knowledge domain -->
@@ -61,7 +61,7 @@ Management includes the following configuration areas:
 - [**Directories**](Management/Directories.md)
 - [**Directory tags**](Management/DirectoryTags.md)
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ### Directories
 

@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/resources -->
+<!-- app_route: /sitemap/resources -->
 <!-- app_label: Viri -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Viri.md -->
 <!-- canonical_source_title: Viri -->
@@ -65,7 +65,7 @@ Razdelek **Upravljanje** vsebuje konfiguracijske zaslone in osnovne podatke, ki 
 ![Upravljanje – Viri](Images/ResourcesDomainManagementSL.png "Upravljanje – Viri")
 
 > [!TIP]
-> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 Razpoložljive nastavitve in osnovni podatki vključujejo:
 

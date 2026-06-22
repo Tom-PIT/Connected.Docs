@@ -1,4 +1,4 @@
-﻿<!-- app_route: /customer-support -->
+<!-- app_route: /customer-support -->
 <!-- app_label: Prijave -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Prijave/Prijave.md -->
 <!-- canonical_source_title: Prijave -->
@@ -145,7 +145,7 @@ Razpoložljive možnosti vključujejo:
 - **Delo**
 
 > [!NOTE]
-> Nastavitve obvestil na ravni področja upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
+Nastavitve obvestil na ravni področja upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
 
 ## Reševati prijave
 

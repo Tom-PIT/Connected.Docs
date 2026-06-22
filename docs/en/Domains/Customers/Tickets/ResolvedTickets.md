@@ -87,6 +87,6 @@ Available actions:
 - **Record effort**
 
 > [!NOTE]
-> Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+ Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

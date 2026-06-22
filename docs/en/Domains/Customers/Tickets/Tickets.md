@@ -1,4 +1,4 @@
-﻿<!-- app_route: /customer-support -->
+<!-- app_route: /customer-support -->
 <!-- app_label: Tickets -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Tickets/Tickets.md -->
 <!-- canonical_source_title: Tickets -->
@@ -155,6 +155,6 @@ Available actions:
 - **Record effort**
 
 > [!NOTE]
->  Manage your perâ€‘desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+ Manage your perâ€‘desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

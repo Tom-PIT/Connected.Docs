@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/resources -->
+<!-- app_route: /sitemap/resources -->
 <!-- app_label: Resources -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/ResourcesDomain.md -->
 <!-- canonical_source_title: Resources -->
@@ -68,7 +68,7 @@ The **Management** section contains configuration screens and master data requir
 ![Resources Management](Images/ResourcesDomainManagement.png "Resources Management")
 
 > [!TIP]
-> See management entries for all domains in the **[Management Index](../../ManagementIndex.md)**.
+See management entries for all domains in the **[Management Index](../../ManagementIndex.md)**.
 
 Available configuration and master data include:
 

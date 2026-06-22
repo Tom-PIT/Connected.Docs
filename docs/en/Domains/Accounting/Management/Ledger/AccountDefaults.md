@@ -1,4 +1,4 @@
-﻿<!-- app_route: /management/ledger/account-defaults -->
+<!-- app_route: /management/ledger/account-defaults -->
 <!-- app_label: Account defaults -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/AccountDefaults.md -->
 <!-- canonical_source_title: Account defaults -->
@@ -87,4 +87,4 @@ An account default can be deleted only if it is **not referenced** by active sys
 To delete it, click on an entry on the list to enter the edit mode and select **Delete**
 
 > [!WARNING]
-> Deleting a default that is required by a workflow may cause posting errors or incomplete accounting entries.
+Deleting a default that is required by a workflow may cause posting errors or incomplete accounting entries.

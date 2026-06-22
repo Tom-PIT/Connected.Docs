@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/maintenance -->
+<!-- app_route: /sitemap/maintenance -->
 <!-- app_label: Maintenance -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/MaintenanceDomain.md -->
 <!-- canonical_source_title: Maintenance -->
@@ -47,7 +47,7 @@ Configure shared structures used by maintenance. The Maintenance domain leverage
 Use these code lists to drive maintenance workflows and execution across orders and schedules.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 
 ## Analytics

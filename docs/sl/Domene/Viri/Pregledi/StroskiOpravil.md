@@ -10,9 +10,6 @@ Za dostop do **Stroškov opravil** pojdite na **Viri / Stroški opravil** v [nav
 
 ![Stroški opravil – seznam](../Images/WorkItemsCostsSL.png)
 
-> [!NOTE]
-> Če v filtru **Pogled** izberete **Procese**, zaslon prikazuje **[ocenjene stroške verzij procesov](../../Proizvodnja/Analiza/AnalizaStroskaVerzije.md)** namesto dejanskih stroškov proizvodnih ali vzdrževalnih nalogov.
-
 ## Seznam stroškov opravil
 
 Seznam prikazuje vsa opravila znotraj izbranega časovnega obdobja.
@@ -46,10 +43,6 @@ Na vrhu zaslona so prikazani ključni kazalniki:
   - **Najboljše**,
   - **Najslabši** prispevek.
 
-Prikažejo se tudi vsi povezani dokumenti (npr. proizvodni ali vzdrževalni nalogi) za referenco.
-
-![Stroški opravil – povezani dokumenti](../Images/WorkItemsLinkedDocumentsSL.png "Povezani dokumenti")
-
 ### Materiali
 
 Razdelek **Materiali** prikazuje vse materiale, uporabljene pri izdelavi opravila:
@@ -76,6 +69,15 @@ Stroški dela se izraČunajo na podlagi nastavitev **Postavk virov**.
 V tem razdelku so prikazani vsi dodatni stroški, povezani z opravilom (na primer namestitev, prevoz, storitve).
 
 Če stroški niso zabeleženi, je razdelek prikazan kot prazen z obvestilom *Ni stroškov*.
+
+### Skupaj
+
+Na dnu pogleda je prikazan **skupni strošek opravila**, ki vključuje:
+
+- materiale,
+- delo,
+- dodatne stroške.
+Ta vrednost predstavlja končni strošek izdelave ene enote.
 
 ## Opombe o uporabi
 

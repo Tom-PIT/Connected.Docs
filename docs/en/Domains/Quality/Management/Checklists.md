@@ -23,7 +23,6 @@ To access this page, navigate to the **Production** or **Maintenance** domains, 
 | **Description** | A short explanation of the checklist’s purpose. |
 | **Tags** | Optional tags used to categorize or group checklists (e.g., Production, Maintenance). |
 | **Execution roles** | Optional roles defining which job positions may execute the checklist (e.g., operators, maintenance technicians). |
-| **Attachments** | Optionally attach relevant documents or images related to the checklist. |
 
 ## List view
 
@@ -48,7 +47,6 @@ The list includes a **Tags** filter on the left, allowing you to show only check
     - **Description** – Optional description  
     - **Tags** – Select one or more tags to categorize the checklist (e.g., Production, Maintenance)  
     - **Execution roles** – Select which job positions can execute this checklist (e.g., operators, maintenance technicians)
-    - **Attachments** – Optionally attach relevant documents or images to the checklist
 
 3. Click **Add** to create the checklist.
 

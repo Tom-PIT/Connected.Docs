@@ -1,4 +1,4 @@
-# Connected Docs (Slovenščina)
+# Connected Docs
 
 Ta mapa predstavlja vstopno točko za slovenski (sl) nabor dokumentacije.
 

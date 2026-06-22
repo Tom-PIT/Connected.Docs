@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/customers -->
+<!-- app_route: /sitemap/customers -->
 <!-- app_label: Domena Stranke -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Stranke.md -->
 <!-- canonical_source_title: Stranke -->
@@ -83,7 +83,7 @@ Razpoložljive nastavitve vključujejo:
 Ti elementi določajo strukturo podpore strankam ter način obveščanja in razvrščanja prijav.
 
 > [!TIP]
-> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 ## Stranke in druge domene
 

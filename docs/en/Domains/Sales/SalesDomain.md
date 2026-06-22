@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/sales -->
+<!-- app_route: /sitemap/sales -->
 <!-- app_label: Sales -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/SalesDomain.md -->
 <!-- canonical_source_title: Sales -->
@@ -92,7 +92,7 @@ Available configuration and code lists include:
 These elements define how sales operations behave and how commercial data is structured.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ## Sales Processes
 

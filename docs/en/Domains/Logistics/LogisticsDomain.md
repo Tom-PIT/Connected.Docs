@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/logistics -->
+<!-- app_route: /sitemap/logistics -->
 <!-- app_label: Logistics domain -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/LogisticsDomain.md -->
 <!-- canonical_source_title: Logistics domain -->
@@ -102,7 +102,7 @@ Available code lists and configuration screens:
 These elements define how logistics operations behave and how data is structured.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ## Logistics Processes
 

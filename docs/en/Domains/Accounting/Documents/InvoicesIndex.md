@@ -5,7 +5,7 @@ To access these screens, go to **Accounting / Invoices**  in the [navigation](..
 This section contains invoice-related documents available in the Accounting domain.
 
 > [!NOTE]
-> Some document types are fully documented in the [**Sales**](../../Sales/SalesDomain.md) domain to avoid duplication. Accounting-specific behavior (posting, status, payments) is documented here only when it differs.
+Some document types are fully documented in the [**Sales**](../../Sales/SalesDomain.md) domain to avoid duplication. Accounting-specific behavior (posting, status, payments) is documented here only when it differs.
 
 ## Documents
 

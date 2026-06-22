@@ -76,7 +76,7 @@ Available configuration screens include:
 These elements define how customer support is structured and how users interact with tickets and notifications.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+See all management entries in the **[Management Index](../../ManagementIndex.md)**.
 
 ## Customers and other domains
 

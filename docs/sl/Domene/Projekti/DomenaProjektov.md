@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/projects -->
+<!-- app_route: /sitemap/projects -->
 <!-- app_label: Projekti -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/DomenaProjektov.md -->
 <!-- canonical_source_title: Projekti -->
@@ -87,7 +87,7 @@ Ta del običajno uporabljajo skrbniki ali napredni uporabniki za:
 Spremembe, narejene tukaj, vplivajo na strukturo in prikaz projektov ter opravil v celotni domeni.
 
 > [!TIP]
-> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 ## Pregled poteka dela v domeni Projekti
 

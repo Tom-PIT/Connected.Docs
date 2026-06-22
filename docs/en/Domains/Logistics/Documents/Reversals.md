@@ -47,7 +47,7 @@ Examples:
 
 | Field | Description |
 |-------|-------------|
-| **Document type** | Type of document being reversed ([receive](Receives.md), [issue](Issues.md), [writeoff](Writeoffs.md), [inter warehouse](InterWarehouse.md)). |
+| **Document type** | Type of document being reversed ([receive](receives.md), [issue](Issues.md), [writeoff](Writeoffs.md), [inter warehouse](InterWarehouse.md)). |
 | [**Code**](../../../Common/UI/DocumentCodes.md) | Identifier of the reversed document (clickable). |
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the original document was executed. |
 | **Document date** | Date of the original document. |

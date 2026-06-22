@@ -14,7 +14,7 @@ To access this view, go to **Accounting / Ledger / Views / Stock** in the [navig
 ![Ledger stock view](../Images/StockViewLedger.png "Ledger stock view")
 
 > [!NOTE]  
-> This view represents **ledger-based stock valuation** and is separate from stock views in the Logistics domain.
+This view represents **ledger-based stock valuation** and is separate from stock views in the Logistics domain.
 
 ## How this view is used
 

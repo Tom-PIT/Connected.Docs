@@ -1,6 +1,6 @@
 # Domene
 
-Ta sekcija vsebuje dokumentacijo, organizirano po domenah. Domena združuje vse vsebine, povezane s posameznim poslovnim področjem: dokumente, poglede (poročila) ter upravljanje (šifrante in nastavitve). Uporabite spodnje vnose za pregled posamezne domene in dostop do njenih podrazdelkov.
+Ta mapa vsebuje dokumentacijo, organizirano po domenah. Domena združuje vse vsebine, povezane s posameznim poslovnim področjem: dokumente, poglede (poročila) ter upravljanje (šifrante in nastavitve). Uporabite spodnje vnose za pregled posamezne domene in dostop do njenih podrazdelkov.
 
 Domene, vključene v to dokumentacijo:
 

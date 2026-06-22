@@ -1,4 +1,4 @@
-﻿<!-- app_route: /accounting/ledger/tax-returns -->
+<!-- app_route: /accounting/ledger/tax-returns -->
 <!-- app_label: Tax returns -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/TaxReturns.md -->
 <!-- canonical_source_title: Tax returns -->
@@ -143,7 +143,7 @@ A new tax return is created for a specific period.
 ![Tax return draft](../Images/TaxReturnDraft.png)
 
 > [!NOTE]  
-> A new tax return can only be created if the **previous tax return has already been finalized**.
+A new tax return can only be created if the **previous tax return has already been finalized**.
 
 ### Delete a tax return
 

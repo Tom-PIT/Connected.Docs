@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sales/documents/sales-orders -->
+<!-- app_route: /sales/documents/sales-orders -->
 <!-- app_label: Sales orders -->
 <!-- app_navigation_hint: Open Sales orders, then click the action button to create a new draft order. -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/SalesOrdersCreate.md -->
@@ -93,7 +93,7 @@ When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat
 - **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
 
 > [!NOTE]  
-> Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
 
 ### Payment methods
 

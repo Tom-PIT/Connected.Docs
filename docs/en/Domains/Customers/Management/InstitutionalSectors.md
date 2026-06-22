@@ -59,4 +59,4 @@ The following actions are available via the [action button](../../../Common/UI/A
 - Confirm the deletion.
 
 > [!NOTE]
-> Deleted sectors are no longer available for selection when assigning institutional sectors to customers.
+Deleted sectors are no longer available for selection when assigning institutional sectors to customers.

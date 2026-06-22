@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/logistics -->
+<!-- app_route: /sitemap/logistics -->
 <!-- app_label: Logistika -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Logistika.md -->
 <!-- canonical_source_title: Logistika -->
@@ -101,7 +101,7 @@ Razpoložljivi šifranti vključujejo:
 - **[Analiza materialov](Upravljanje/AnalizaMaterialov.md)** – nastavitve za analize materialov.
 
 > [!TIP]
-> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 ## Logistični procesi
 
