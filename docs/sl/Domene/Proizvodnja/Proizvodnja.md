@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/production -->
+﻿<!-- app_route: /sitemap/production -->
 <!-- app_label: Proizvodnja -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Proizvodnja.md -->
 <!-- canonical_source_title: Proizvodnja -->
@@ -104,7 +104,7 @@ Na voljo so naslednje nastavitve in šifranti:
 Ti elementi določajo delovanje proizvodnje: razpoložljivost virov, strukturo procesov, nastavitev operacij, preverjanje kakovosti in analitično klasifikacijo.
 
 > [!TIP]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 ## Življenjski cikel proizvodnega procesa
 

@@ -1,8 +1,6 @@
 # Connected Docs (English)
 
-This folder is the entry point for the English (en) documentation set.
-
-Welcome to the Connected documentation. This repository contains user guides, domain overviews, and code list references for operating the platform.
+Welcome to the Connected documentation. This is the entry point for the documentation set in English and contains user guides, domain overviews, and code list references for operating the platform.
 
 ## Start here
 
@@ -17,3 +15,21 @@ Welcome to the Connected documentation. This repository contains user guides, do
 - Management (shared master data and code lists)
 
 Use the site navigation and links inside each page to explore related topics.
+
+## Domains
+
+- [**Accounting**](Domains/Accounting/AccountingDomain.md)
+- [**Assets**](Domains/Assets/AssetsDomain.md)
+- [**Customers**](Domains/Customers/CustomersDomain.md)
+- [**Documents**](Domains/Documents/DocumentsDomain.md)
+- [**Knowledge**](Domains/Knowledge/KnowledgeDomain.md)
+- [**Logistics**](Domains/Logistics/LogisticsDomain.md)
+- [**Maintenance**](Domains/Maintenance/MaintenanceDomain.md)
+- [**Planning**](Domains/Planning/PlanningDomain.md)
+- [**Production**](Domains/Production/ProductionDomain.md)
+- [**Projects**](Domains/Projects/ProjectsDomain.md)
+- [**Quality**](Domains/Quality/QualityDomain.md)
+- [**Resources**](Domains/Resources/ResourcesDomain.md)
+- [**Sales**](Domains/Sales/SalesDomain.md)
+- [**Supply**](Domains/Supply/SupplyDomain.md)
+- [**System**](Domains/System/SystemDomain.md)

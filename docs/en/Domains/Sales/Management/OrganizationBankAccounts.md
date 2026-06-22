@@ -1,4 +1,4 @@
-<!-- app_route: /management/common-types/organization-bank-accounts -->
+﻿<!-- app_route: /management/common-types/organization-bank-accounts -->
 <!-- app_label: Organization bank accounts -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/OrganizationBankAccounts.md -->
 <!-- canonical_source_title: Organization bank accounts -->
@@ -58,7 +58,7 @@ The Ledger section defines which general ledger account represents the organizat
 The selected ledger account is used when posting payments, receipts, bank statements, and reconciliations. All financial movements related to this bank account are recorded against the selected account.
 
 > [!NOTE]
-Correct ledger configuration is required for accurate cash management, reconciliation, and regulatory compliance.
+> Correct ledger configuration is required for accurate cash management, reconciliation, and regulatory compliance.
 
 ### Edit an organization bank account
 

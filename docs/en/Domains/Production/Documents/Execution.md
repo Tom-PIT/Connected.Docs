@@ -152,3 +152,31 @@ If the operation is stopped before the planned quantity is produced, it is compl
 
 When all operations in the production order are completed, the production order moves to the **Closed** status.
 
+### Card-based effort registration
+
+Some execution stations may include a **card registration panel** that allows workers to register or unregister themselves on the current operation by scanning an employee card.
+
+When a card is scanned:
+
+* If the worker is not currently registered on the operation, the system starts a new effort record.
+* If the worker already has an active effort record on the operation, the system stops the effort record.
+
+> [!IMPORTANT]
+> Only the worker's effort time is affected. Scanning a card does **not**:
+>
+> * Start or stop the operation
+> * Change the operation status
+> * Pause the operation
+> * Complete the operation
+
+The operation remains controlled through the normal **Start**, **Pause**, and **Stop** buttons.
+
+### Typical usage
+
+A shift leader starts the operation and logs into the execution screen.
+
+As workers arrive at the workstation, they scan their cards to start recording effort time on the current operation. When they leave the workstation, they scan their cards again to stop recording effort time.
+
+Multiple workers can register effort time against the same operation independently.
+
+

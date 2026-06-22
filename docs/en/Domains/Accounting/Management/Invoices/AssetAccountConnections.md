@@ -37,7 +37,7 @@ The **Asset posting type** determines *when* the selected account is used. Avail
 * **Stock account** – Used to represent the inventory value of the asset
 
 > [!NOTE]
-Each posting type represents a different accounting scenario. Multiple account connections can be defined for the same asset, one per posting type.
+> Each posting type represents a different accounting scenario. Multiple account connections can be defined for the same asset, one per posting type.
 
 ## List view
 
