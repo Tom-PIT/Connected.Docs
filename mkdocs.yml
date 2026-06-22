@@ -47,5 +47,8 @@ nav:
       - Introduction: en/index.md
       - Getting started: en/GettingStarted/00.GettingStarted.md
       - Common features: en/Common/Common.md
-      - Production: en/Domains/Production/ProductionDomain.md
+      - Domains:
+        - Production: en/Domains/Production/ProductionDomain.md
+        - Assets: en/Domains/Assets/AssetsDomain.md
+        - Supply: en/Domains/Supply/SupplyDomain.md
   - Slovenščina: sl/index.md
