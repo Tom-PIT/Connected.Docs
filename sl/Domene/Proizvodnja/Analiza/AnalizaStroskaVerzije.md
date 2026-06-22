@@ -14,6 +14,9 @@ Stran prikazuje podrobno razčlenitev, kako je izračunan skupni strošek proizv
 
 ![Version cost view](../Images/VersionCostViewV2SL.png "Version cost view")
 
+> [!NOTE]
+> Enako analizo stroškov lahko odprete tudi v pogledu [**Stroški opravil**](../../Viri/Pregledi/StroskiOpravil.md), če v filtru **Pogled** izberete **Procese**.
+
 ## Povzetek stroška
 
 Panel **Strošek** prikazuje **skupni ocenjeni strošek na proizveden kos** za izbrano verzijo.

@@ -5,11 +5,14 @@
 
 # Work items costs
 
-The **Work items costs** view provides insight into the **actual cost of producing a single work item**, based on recorded materials, effort, and expenses. It is primarily used to analyze [production](../../Production/Documents/ProductionOrders.md) and [maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md) and understand cost distribution and performance.
+The **Work items costs** view provides insight into the **actual cost of producing a single work item**, based on recorded materials, effort, and expenses. It is primarily used to analyze processes, [production](../../Production/Documents/ProductionOrders.md), and [maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md) and understand cost distribution and performance.
 
 To access **Work items costs**, go to **Resources / Work items costs** in the [navigation](../../../Common/UI/Navigation.md).
 
-![Work items costs list](../Images/WorkItemsCosts.png)
+![Work items costs list](../Images/WorkItemsCostsV2.png)
+
+> [!NOTE]
+> When the **Processes** view is selected, the screen displays estimated [process version costs](../../Production/Analytics/VersionCostView.md) rather than actual work item costs.
 
 ## Work items costs list
 
@@ -33,7 +36,7 @@ Clicking on a work item opens its detailed cost breakdown.
 
 Selecting a work item opens a detailed view with a full cost analysis.
 
-![Work item cost details](../Images/WorkItemsCostsDetails.png)
+![Work item cost details](../Images/WorkItemsCostsDetailsV2.png)
 
 ### Cost overview
 
@@ -43,6 +46,10 @@ At the top of the screen, key indicators provide a quick summary:
 - **Cost trend** compared to previous values
 - **Cost distribution** between materials and effort
 - **Performance indicators**, such as best and worst contributors
+
+Any linked documents (e.g., production or maintenance orders) are also shown for reference.
+
+![Work items linked documents](../Images/WorkItemsLinkedDocuments.png "Linked documents section")
 
 ### Materials
 
@@ -69,16 +76,6 @@ Effort costs are calculated using resource cost definitions.
 ### Expenses
 
 Any additional [expenses](../../Supply/Management/Expenses.md) linked to the work item are listed here. If no expenses are recorded, the section is displayed as empty.
-
-### Total cost
-
-At the bottom of the detail view, the **total cost** of the work item is shown, combining:
-
-- Materials
-- Effort
-- Expenses
-
-This value represents the final manufacturing cost of a single unit.
 
 ## Usage notes
 

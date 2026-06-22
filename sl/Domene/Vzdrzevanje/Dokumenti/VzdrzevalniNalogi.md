@@ -135,8 +135,17 @@ Ko je operacija zaključena, kliknite **Zaključi** v zgornjem levem kotu zaslon
 
 Zaključene operacije so označene z **zelenim indikatorjem**, kar omogoča jasen vizualni pregled.
 
+Če je treba zaključeno operacijo ponovno odpreti, kliknite operacijo in izberite **Ponovno aktiviraj**.
+
+![Ponovno aktiviranje operacije](../Images/MaintenanceOrdersOperationsReopenSL.png "Ponovno aktiviranje operacije")
+
+Po potrditvi se operacija ponovno aktivira in jo je mogoče dopolniti ali popraviti.
+
 > [!TIP]
 > Po želji lahko celoten vzdrževalni nalog zaključite z enim dejanjem, tako da v [meniju](#meni) izberete **Zaključi vzdrževalni nalog**.
+
+> [!NOTE]
+> Če je omogočena samodejna poraba, se poraba **vhodnih materialov** ob zaključku operacije evidentira samodejno. V nasprotnem primeru je treba vhodne materiale porabiti ročno med izvedbo.
 
 ## Zaprti vzdrževalni nalogi
 
