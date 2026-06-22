@@ -14,6 +14,9 @@ To access this page, navigate to the **Production** or **Maintenance** domains, 
 > [!TIP]
 > For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
 
+> [!TIP]
+> To learn how to create a complete checklist with different types of check points, see [**How to create a quality checklist**](ChecklistCreate.md).
+
 ## Schema
 
 | Field | Description |

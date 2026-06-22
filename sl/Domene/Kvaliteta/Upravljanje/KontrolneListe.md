@@ -14,6 +14,9 @@ Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Kontrolne liste kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
 
+> [!TIP]
+> Za praktičen primer ustvarjanja kontrolne liste in različnih tipov kontrolnih točk si oglejte [**Kako ustvariti kontrolno listo kakovosti**](KontrolniListUstvarjanje.md).
+
 ## Shema
 
 | Polje | Opis |

@@ -14,6 +14,9 @@ Za dostop do kontrolnih točk pojdite na **Kakovost / Upravljanje / Kontrolne li
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Kontrolne točke kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
 
+> [!TIP]
+> Za praktičen primer ustvarjanja kontrolne liste in različnih tipov kontrolnih točk si oglejte [**Kako ustvariti kontrolno listo kakovosti**](KontrolniListUstvarjanje.md).
+
 ## Shema
 
 | Polje | Opis |
@@ -82,19 +85,21 @@ Pri izbiri tipa **Seznam** se prikažejo dodatne nastavitve:
 
 | Atribut | Tip | Opis |
 |----------|------|------|
-| **Število veljavnih vrednosti** | Dropdown | Določa ali je možna izbira **Ena** ali **Več** vrednosti. |
+| **Število veljavnih vrednosti** | Dropdown | Določa ali je možna izbira **Ena** ali **Več** vrednosti. Če je **Ena**, je mogoče izbrati samo eno vrednost. Če je **Več**, je mogoče izbrati več vrednosti. |
 
 Uporabnik lahko dodaja vrednosti seznama:
 
 - Klik na **Dodaj novo vrednost** odpre vnos:
-  - **Besedilo**
-  - **Veljavno** (checkbox)
+  - **Besedilo** - polje za vnos besedila, ki predstavlja vrednost seznama
+  - **Veljavno** (checkbox) - označuje, ali je ta vrednost veljavna ali ne. To je uporabno za kontrole kakovosti, kjer so določeni pogoji lahko označeni kot neveljavni, za **eno** vrsto je lahko veljavna samo ena vrednost.
 
 - Klik na **Dodaj** shrani vrednost v seznam
 
 Dodane vrednosti so prikazane v tabeli:
 - **Besedilo**
 - **Veljavno**
+
+![Ustvarjanje seznama vrednosti](../Images/CheckpointListTableSL.png "Ustvarjanje seznama vrednosti")
 
 ### Tip: Številka
 
