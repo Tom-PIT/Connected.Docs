@@ -136,8 +136,17 @@ Once the operation is finished, click **Complete** in the top-left corner of the
 
 Completed operations are displayed with a **green indicator**, providing a clear visual status.
 
+If a completed operation needs to be reopened, open the operation and click **Reactivate**.
+
+![Reactivate operation](../Images/MaintenanceOrdersOperationsReopen.png "Reactivate operation")
+
+After confirmation, the operation becomes active again and can be updated or completed again.
+
 > [!TIP]
 > You have the option of completing the entire maintenance order at once by clicking **Complete maintenance order** in the [menu](#menu), if desired.
+
+> [!NOTE]
+> Material consumption of **inputs** can be recorded automatically when an operation is completed, if automatic consumption is enabled. Otherwise, input materials must be consumed manually during execution.
 
 ## Closed maintenance orders
 

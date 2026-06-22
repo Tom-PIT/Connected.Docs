@@ -23,6 +23,7 @@ Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, 
 | **Opis** | Kratek opis namena kontrolne liste. |
 | **Oznake** | Neobvezne oznake za razvrščanje ali združevanje kontrolnih list (npr. Proizvodnja, Vzdrževanje). |
 | **Izvajalne vloge** | Neobvezne vloge, ki določajo, katera delovna mesta lahko izvajajo kontrolno listo (npr. operaterji, vzdrževalci). |
+| **Priponke** | Možnost dodajanja relevantnih dokumentov ali slik, povezanih s kontrolno listo. |
 
 ## Seznam
 
@@ -47,6 +48,7 @@ Na levi strani je na voljo filter **Oznake**, ki omogoča prikaz samo tistih kon
     - **Opis** – neobvezni opis  
     - **Oznake** – izberite eno ali več oznak za razvrščanje (npr. Proizvodnja, Vzdrževanje)  
     - **Izvajalne vloge** – določite delovna mesta, ki lahko izvajajo to kontrolno listo (npr. operaterji, vzdrževalci)
+    - **Priponke** – po želji dodajte relevantne dokumente ali slike k kontrolni listi
 
 3. Kliknite **Dodaj**, da ustvarite kontrolno listo.
 
