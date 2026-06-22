@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sales/documents/offers -->
+<!-- app_route: /sales/documents/offers -->
 <!-- app_label: Offers -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/Offers.md -->
 <!-- canonical_source_title: Offers -->
@@ -37,6 +37,8 @@ A typical flow:
 | **Content top** | Predefined introductory text from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | **Content bottom** | Closing or legal statements from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Available payment methods shown to the customer. |
+
+</details>
 
 <details markdown="1">
 <summary><strong>Transport, Alternative currency, and Delivery</strong></summary>
