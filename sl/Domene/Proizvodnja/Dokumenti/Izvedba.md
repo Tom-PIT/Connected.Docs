@@ -152,3 +152,31 @@ Ko je operacija zaključena, preide v stanje **Zaključeno**.
 
 Ko so zaključene vse operacije proizvodnega naloga, se proizvodni nalog premakne v stanje **Zaključen**.
 
+### Evidentiranje dela s kartico
+
+Nekatere izvedbene postaje lahko vključujejo **modul za prijavo s kartico**, ki delavcem omogoča prijavo ali odjavo na trenutno operacijo s skeniranjem identifikacijske kartice.
+
+Ob skeniranju kartice:
+
+* Če delavec še ni prijavljen na operacijo, sistem zažene nov zapis dela.
+* Če ima delavec na operaciji že aktiven zapis dela, sistem zapis dela zaključi.
+
+> [!IMPORTANT]
+>Skeniranje kartice vpliva samo na evidentiranje delovnega časa. Pri tem sistem ne:
+>
+> * Zažene ali ustavi operacije
+> * Spremeni statusa operacije
+> * Začasno ustavi operacije
+> * Zaključi operacije
+
+Operacija se še vedno upravlja z običajnimi gumbi **Začni**, **Premor** in **Ustavi**.
+
+### Običajen način uporabe
+
+Vodja izmene zažene operacijo in se prijavi v izvedbeni zaslon.
+
+Ko delavci pridejo na delovno mesto, skenirajo svoje kartice in s tem začnejo evidentirati delo na trenutni operaciji. Ko zaključijo delo ali zapustijo delovno mesto, kartico ponovno skenirajo in sistem ustavi evidentiranje njihovega časa.
+
+Več delavcev lahko neodvisno evidentira delo na isti operaciji hkrati.
+
+
