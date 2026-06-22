@@ -1,4 +1,4 @@
-<!-- app_route: /customer-support/sla -->
+﻿<!-- app_route: /customer-support/sla -->
 <!-- app_label: SLA tickets -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Tickets/SLATickets.md -->
 <!-- canonical_source_title: SLA tickets -->
@@ -85,6 +85,6 @@ Available actions:
 - **Record effort**
 
 > [!NOTE]
- Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+>  Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

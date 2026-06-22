@@ -1,4 +1,4 @@
-<!-- app_route: /sitemap/knowledge -->
+﻿<!-- app_route: /sitemap/knowledge -->
 <!-- app_label: Znanje -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Znanje/Znanje.md -->
 <!-- canonical_source_title: Znanje -->
@@ -62,7 +62,7 @@ Upravljanje vključuje naslednja konfiguracijska področja:
 - **[Oznake](Upravljanje/OznakeImenika.md)** – klasifikacija in filtriranje člankov
 
 > [!TIP]
-Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
+> Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.
 
 
 ### Imeniki
