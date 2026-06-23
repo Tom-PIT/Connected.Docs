@@ -26,7 +26,7 @@ To access this page, navigate to the **Production** or **Maintenance** domains, 
 | **Description** | A short explanation of the checklist’s purpose. |
 | **Tags** | Optional tags used to categorize or group checklists (e.g., Production, Maintenance). |
 | **Execution roles** | Optional roles defining which job positions may execute the checklist (e.g., operators, maintenance technicians). |
-| **Attachments** | Optionally attach relevant documents or images related to the checklist. |
+| **Attachments** | Optionally attach relevant documents or images related to the checklist (This section is only shown **after** creating the checklist). |
 
 ## List view
 
@@ -51,7 +51,6 @@ The list includes a **Tags** filter on the left, allowing you to show only check
     - **Description** – Optional description  
     - **Tags** – Select one or more tags to categorize the checklist (e.g., Production, Maintenance)  
     - **Execution roles** – Select which job positions can execute this checklist (e.g., operators, maintenance technicians)
-    - **Attachments** – Optionally attach relevant documents or images to the checklist
 
 3. Click **Add** to create the checklist.
 
@@ -68,14 +67,14 @@ To manage check points:
 
 This opens the **Check points** page, where you can add, edit, delete, and reorder check points.
 
-For detailed information, see **[Check points](CheckPoints.md)**.
+For detailed information, see **[Check points](CheckPoints.md)** and **[How to create a quality checklist](ChecklistCreate.md)**.
 
 ## Edit a checklist
 
 To edit an existing checklist:
 
 1. Click on a checklist entry in the list.
-2. Modify the **Name**, **Description**, **Tags**, or **Execution roles** as needed.
+2. Modify the **Name**, **Description**, **Tags**, **Attachments**, or **Execution roles** as needed.
 3. Click **Save**.
 
 ## Delete a checklist
