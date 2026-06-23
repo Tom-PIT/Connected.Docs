@@ -22,9 +22,6 @@ Odprite **Proizvodnja / Upravljanje / Kontrolne liste** ali **Vzdrževanje / Upr
 
 Kontrolna lista je zdaj ustvarjena in pripravljena za dodajanje kontrolnih točk.
 
-> [!NOTE]
-> Za določitev vrstnega reda kontrolnih točk uporabite polje **Vrstni red** na posamezni kontrolni točki.
-
 ## Korak 2: Odpreti stran kontrolnih točk
 
 Vsaka kontrolna lista vsebuje eno ali več kontrolnih točk.
@@ -61,7 +58,10 @@ Za dodajanje kontrolne točke:
    * **Navodila** (neobvezno)
 3. Kliknite **Dodaj**.
 
-![Dodaj kontrolno točko](../Images/ChecklistExampleCheckpointNewSL.png "Dodaj novo kontrolno točko")
+> [!NOTE]
+> Za določitev vrstnega reda kontrolnih točk uporabite polje **Vrstni red** na posamezni kontrolni točki.
+
+![Dodaj kontrolno točko](../Images/ChecklistExampleCheckSL.png "Dodaj novo kontrolno točko")
 
 Po ustvarjanju kontrolne točke so lahko na voljo dodatne nastavitve, odvisno od izbranega **Tipa**.
 
@@ -81,11 +81,11 @@ Pri ustvarjanju kontrolne točke:
 * Nastavite **Tip** na **Označi**
 * Vnesite **Navodila** in **Potrditveno besedilo**
 
-Primer:
+### Primer
 
-* Naziv: *Preverjanje varnostnih oznak*
-* Navodila: *Preverite, ali so vse obvezne varnostne oznake nameščene in dobro vidne.*
-* Potrditveno besedilo: *Potrjujem, da so vse varnostne oznake nameščene.*
+* **Naziv**: *Preverjanje varnostnih oznak*
+* **Navodila**: *Preverite, ali so vse obvezne varnostne oznake nameščene in dobro vidne.*
+* **Potrditveno besedilo**: *Potrjujem, da so vse varnostne oznake nameščene.*
 
 ![Primer potrditvene kontrole](../Images/ChecklistExampleCheckSL.png "Primer potrditvene kontrole")
 
@@ -107,13 +107,13 @@ Pri ustvarjanju kontrolne točke:
 * Izberite **Mersko enoto**
 * Po želji določite **Najmanjšo** in **Največjo vrednost**
 
-Primer:
+### Primer
 
-* Naziv: *Teža izdelka*
-* Merska enota: *kg*
-* Najmanjša vrednost: *4,8*
-* Privzeta vrednost: *5,0*
-* Največja vrednost: *5,2*
+* **Naziv**: *Teža izdelka*
+* **Merska enota**: *kg*
+* **Najmanjša vrednost**: *4,8*
+* **Privzeta vrednost**: *5,0*
+* **Največja vrednost**: *5,2*
 
 ![Primer merilne kontrole](../Images/ChecklistExampleMeasurementSL.png "Primer merilne kontrole")
 
@@ -130,8 +130,9 @@ Pri ustvarjanju kontrolne točke:
 
 Primer:
 
-* Naziv: *Kakovost površine*
-* Vrednosti:
+* **Naziv**: *Kakovost površine*
+* **Število veljavnih vrednosti**: *Ena*
+* **Vrednosti**:
 
   * *Sprejmi* – Veljavno
   * *Popravilo* – Neveljavno
@@ -156,11 +157,11 @@ Pri ustvarjanju kontrolne točke:
 * Vnesite **Naziv**
 * Nastavite **Tip** na **Besedilo**
 
-Primer:
+### Primer
 
-* Naziv: *Komentar kontrolorja*
-* Navodila: *Zabeležite opažanja, odstopanja ali priporočila.*
-* Privzeta vrednost: *Ni ugotovljenih nepravilnosti.*
+* **Naziv**: *Komentar kontrolorja*
+* **Navodila**: *Zabeležite opažanja, odstopanja ali priporočila.*
+* **Privzeta vrednost**: *Ni ugotovljenih nepravilnosti.*
 
 ![Primer polja za komentar](../Images/ChecklistExampleTextSL.png "Primer polja za komentar")
 
@@ -180,10 +181,10 @@ Pri ustvarjanju kontrolne točke:
 * Vnesite **Naziv**
 * Nastavite **Tip** na **Priponka**
 
-Primer:
+### Primer
 
-* Naziv: *Fotografija končnega izdelka*
-* Navodila: *Naložite fotografijo končnega izdelka za potrebe sledljivosti.*
+* **Naziv**: *Fotografija končnega izdelka*
+* **Navodila**: *Naložite fotografijo končnega izdelka za potrebe sledljivosti.*
 
 ![Primer nalaganja datoteke](../Images/ChecklistExampleUploadSL.png "Primer nalaganja datoteke")
 
@@ -206,5 +207,5 @@ Rezultati se shranijo v sistem in jih je mogoče pozneje pregledovati za potrebe
 
 Za podrobnejše informacije glejte:
 
-* [Kontrolne liste](KontrolneListe.md)
-* [Kontrolne točke](KontrolneTocke.md)
+* [**Kontrolne liste**](KontrolneListe.md)
+* [**Kontrolne točke**](KontrolneTocke.md)
