@@ -195,7 +195,7 @@ Ko je kontrolna lista pripravljena, jo lahko povežete s proizvodnim ali vzdrže
 ![Povezava kontrolne liste s procesom](../Images/ChecklistExampleAddToProcessSL.png "Povezava kontrolne liste s procesom")
 
 > [!NOTE]
-> Kontrolne liste je mogoče povezati tudi z [organizacijskimi enotami](../../../Skupno/Upravljanje/OrganizacijskeEnote.md), kar omogoča samodejno vključitev kontrolne liste v vse procese, ki se izvajajo v tej organizacijski enoti.
+> Kontrolne liste je mogoče povezati tudi z [organizacijskimi enotami](../../Proizvodnja/Upravljanje/OrganizacijskeEnote.md), kar omogoča samodejno vključitev kontrolne liste v vse procese, ki se izvajajo v tej organizacijski enoti.
 
 Med izvedbo izvajalci izpolnijo zahtevane kontrolne točke in vnesejo zahtevane podatke.
 

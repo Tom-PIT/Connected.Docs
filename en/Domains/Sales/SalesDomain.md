@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/sales -->
+<!-- app_route: /sitemap/sales -->
 <!-- app_label: Sales -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/SalesDomain.md -->
 <!-- canonical_source_title: Sales -->
@@ -47,6 +47,9 @@ Available sales documents include:
 - **[Retail proforma invoices](Documents/RetailProformaInvoices.md)** – Retail-mode proforma documents.
 
 Each document type contributes to the sales workflow, ensuring full traceability from initial offer to final invoice.
+
+> [!TIP]
+> See [**How to create an issued invoice**](Documents/IssuedInvoicesCreate.md) and [**How to create a sales order**](Documents/SalesOrdersCreate.md) for a step-by-step guide of the creation of these documents.
 
 ## Views
 

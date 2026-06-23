@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/maintenance -->
+<!-- app_route: /sitemap/maintenance -->
 <!-- app_label: Maintenance -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/MaintenanceDomain.md -->
 <!-- canonical_source_title: Maintenance -->
@@ -32,6 +32,9 @@ The domain is structured into functional areas for daily work and analysis:
   - **[Reported malfunctions](Documents/ReportedMalfunctions.md)** — Capture equipment issues from the field; curative maintenance orders are created from reported malfunctions.
   - **[Maintenance calendar](Documents/MaintenanceCalendar.md)** — Calendar view of planned and active maintenance, with filters by organization unit, resource, and order status.
   - **[Resource work hours & counters](Documents/ResourceWorkHours&Counters.md)** — Configure working hours windows and usage counters (e.g., pieces, meters, grams, hours) used by schedules and count-based maintenance.
+
+> [!TIP]
+> See [**How to create a maintenance order**](Documents/MaintenanceOrderCreate.md) for a step-by-step guide of the creation of these documents.
 
 ## Management
 

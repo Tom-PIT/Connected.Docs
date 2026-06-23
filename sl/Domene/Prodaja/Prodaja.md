@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/sales -->
+<!-- app_route: /sitemap/sales -->
 <!-- app_label: Prodaja -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Domena/Prodaja.md -->
 <!-- canonical_source_title: Prodaja -->
@@ -46,6 +46,9 @@ Razpoložljivi prodajni dokumenti vključujejo:
 - **[Maloprodajni računi](Dokumenti/MaloprodajniRacuni.md)** – Računi, ustvarjeni v maloprodajnih procesih; zaloga se ureja prek logistike.  
 - **[Maloprodajna predplačila](Dokumenti/MaloprodajnaPredplacila.md)** – Maloprodajni predračuni in predplačila.
 Vsaka vrsta dokumenta prispeva k prodajnemu toku in zagotavlja popolno sledljivost od začetne ponudbe do končnega obračuna.
+
+> [!TIP]
+> Oglejte si [**Kako ustvariti izdani račun**](Dokumenti/IzdaniRacuniUstvarjanje.md) in [**Kako ustvariti prodajno naročilo**](Dokumenti/NarocilaStrankUstvarjanje.md) za vodnik po korakih za ustvarjanje teh dokumentov.
 
 ## Pregledi
 
