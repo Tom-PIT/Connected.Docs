@@ -103,19 +103,21 @@ Na voljo so naslednje nastavitve in šifranti:
 - **[Organizacijske enote](../../Skupno/Upravljanje/PoslovneEnote.md)** – hierarhija organizacijskih enot
 - **[Procesi](Upravljanje/Procesi.md)** – definicije procesov, verzij, operacij, vhodov in izhodov
 - **[Predloge za operacije](Upravljanje/PredlogeZaOperacije.md)** – predloge protokolov operacij
- - **[Procesi](Upravljanje/Procesi.md)** – definicije procesov, verzij, operacij, vhodov in izhodov
+ - **[Procesi](Upravljanje/Procesi.md)** in **[Operacije](Upravljanje/Operacije.md)** – definicije procesov, verzij, operacij, vhodov in izhodov
  - **[Predloge za operacije](Upravljanje/PredlogeZaOperacije.md)** – predloge protokolov operacij
  - **[Viri](../Viri/Upravljanje/Viri.md)** – človeški in nečloveški viri v proizvodnji
  - **[Človeški viri](Upravljanje/CloveskiViri.md)** – ljudje in vloge, dodeljene proizvodnim nalogam
  - **[Nečloveški viri](Upravljanje/StvarniViri.md)** – stroji, orodja in oprema v proizvodnji
  - **[Vhodi](Upravljanje/Vhodi.md)** – materialni vhodi in definicije porabe za operacije
  - **[Izhodi](Upravljanje/Izhodi.md)** – proizvedeni artikli in stranski produkti, definirani za operacije
- - **[Operacije](Upravljanje/Operacije.md)** – definicije in nastavitve operacij v procesih
  - **[Stroški operacije](Upravljanje/StroskiOperacije.md)** – kategorizacija stroškov in odhodkov operacij
  - **[Kvaliteta - kontrolne liste](Upravljanje/KvalitetaKontrolneListe.md)** – kontrolni seznami in proizvodni ukrepi za kakovost
  - **[Skladiščne lokacije](Upravljanje/SkladiscneLokacije.md)** – lokacije za proizvodnjo in logistiko
 
 Ti elementi določajo delovanje proizvodnje: razpoložljivost virov, strukturo procesov, nastavitev operacij, preverjanje kakovosti in analitično klasifikacijo.
+
+> [!NOTE]
+> Za pregled vseh korakov konfiguracije, potrebnih za začetek proizvodnje, si oglejte vodič [**Kako ustvariti proces**](Upravljanje/ProcesUstvarjanje.md).
 
 > [!TIP]
 > Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../../KazaloUpravljanja.md)**.

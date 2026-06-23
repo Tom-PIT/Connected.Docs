@@ -40,7 +40,7 @@ The **Documents** section contains procurement-related documents used to request
 Available documents include:
 
 - **[Inquiries](Documents/Inquiries.md)** – Requests sent to suppliers asking for quotations or availability. These do not affect stock and can typically be converted to supply orders via linked documents.
-- **[Supply orders](Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Numbering is configured in the [Supply configuration](Management/SupplyConfiguration.md). Receipts are registered in **Logistics** using [Receives](../Logistics/Documents/Receives.md).
+- **[Supply orders](Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Receipts are registered in **Logistics** using [receives](../Logistics/Documents/Receives.md).
 
 These documents initiate the procurement workflow and provide full traceability of supplier activity.
 

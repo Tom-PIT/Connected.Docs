@@ -40,7 +40,7 @@ Razdelek **Dokumenti** vsebuje nabavne dokumente, ki se uporabljajo za povpraše
 Razpoložljivi dokumenti vključujejo:
 
 - **[Povpraševanja](Dokumenti/Povprasevanja.md)** – Povpraševanja, poslana dobaviteljem za pridobitev cen, razpoložljivosti ali dobavnih rokov. Ne vplivajo na zalogo in jih je mogoče pretvoriti v nabavne naloge preko povezanih dokumentov.
-- **[Nabavni nalogi](Dokumenti/NabavniNalogi.md)** – Potrjeni nalogi, izdani dobaviteljem za blago ali storitve. Številčenje se nastavlja v [Konfiguraciji nabave](Upravljanje/KonfiguracijaNabave.md). Prevzemi se evidentirajo v **Logistiki** preko dokumentov [Prevzemi](../Logistika/Dokumenti/Prevzemi.md).
+- **[Nabavni nalogi](Dokumenti/NabavniNalogi.md)** – Potrjeni nalogi, izdani dobaviteljem za blago ali storitve. Prevzemi se evidentirajo v **Logistiki** preko dokumentov [prevzemi](../Logistika/Dokumenti/Prevzemi.md).
 
 Ti dokumenti predstavljajo osnovo nabavnega procesa in omogočajo popolno sledljivost aktivnosti z dobavitelji.
 

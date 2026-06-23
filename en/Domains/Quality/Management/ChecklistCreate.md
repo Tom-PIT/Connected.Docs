@@ -180,7 +180,7 @@ When creating the check point:
 * Enter a **Name**
 * Set **Type** to **File upload**
 
-Example:
+### Example
 
 * **Name**: *Upload finished product photo*
 * **Instructions**: *Upload a photo of the finished product for traceability purposes.*
