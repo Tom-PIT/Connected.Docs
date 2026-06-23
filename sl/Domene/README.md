@@ -1,22 +1,62 @@
 # Domene
 
-Ta sekcija vsebuje dokumentacijo, organizirano po domenah. Domena združuje vse vsebine, povezane s posameznim poslovnim področjem: dokumente, poglede (poročila) ter upravljanje (šifrante in nastavitve). Uporabite spodnje vnose za pregled posamezne domene in dostop do njenih podrazdelkov.
+Poslovne funkcionalnosti v sistemu Tom PIT.Connected so organizirane po domenah.
 
-Domene, vključene v to dokumentacijo:
+Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem, vključno z:
 
-* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Finančno računovodstvo, glavna knjiga, računi, Intrastat, zakonska poročila
-* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni dokumenti in procesi, ceniki, upravljanje poslovnih partnerjev
-* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, premiki zaloge, inventure, lokacije
-* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi, viri
-* [**Sistem**](./Sistem/Sistem.md) — Administracija sistema, upravljanje uporabnikov, varnost, revizijska sled
-* [**Nabava**](./Nabava/Nabava.md) — Planiranje nabave, sodelovanje z dobavitelji, stroški
-* [**Projekti**](./Projekti/DomenaProjektov.md) — Projektne strukture, planiranje in spremljanje projektov
-* [**Viri**](./Viri/Viri.md) — Človeški in nečloveški viri, časovni plani, stroški
-* [**Kvaliteta**](./Kvaliteta/Kvaliteta.md) — Procesi kakovosti, klasifikacije in kontrole
+* dokumenti in transakcijami,
+* pregledi in poročili,
+* upravljanjem in nastavitvami,
+* šifranti in osnovnimi podatki.
+
+Če sistem uporabljate prvič, začnite z izbiro domene, ki najbolje ustreza vašemu poslovnemu procesu. Za hitro iskanje dokumentov, nastavitev ali konceptov lahko uporabite tudi iskalnik v zgornjem desnem kotu.
+
+## Najpogosteje Uporabljene Domene
+
+* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
+* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, premiki zalog, inventure in lokacije
+* [**Nabava**](./Nabava/Nabava.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
+* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni dokumenti, ceniki in upravljanje strank
+* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
+
+## Pregled domen
+
+### Finančno Poslovanje
+
+* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Finančno računovodstvo, glavna knjiga, računi, Intrastat in zakonska poročila
+
+### Komerciala
+
+* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni procesi, ponudbe, naročila, ceniki in upravljanje poslovnih partnerjev
+* [**Nabava**](./Nabava/Nabava.md) — Nabavni procesi, sodelovanje z dobavitelji in planiranje nabave
+
+### Operativa
+
+* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
+* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, upravljanje zalog in premiki materiala
 * [**Vzdrževanje**](./Vzdrzevanje/Vzdrzevanje.md) — Planiranje in izvajanje vzdrževanja
-* [**Stranke**](./Stranke/Stranke.md) — Področja podpore, zahtevki, SLA-ji, skrb za stranke
+* [**Kvaliteta**](./Kvaliteta/Kvaliteta.md) — Procesi kakovosti, klasifikacije, kontrole in pregledi
+
+### Viri in Projekti
+
+* [**Projekti**](./Projekti/DomenaProjektov.md) — Projektne strukture, planiranje in spremljanje projektov
+* [**Viri**](./Viri/Viri.md) — Človeški in nečloveški viri, razporejanje in stroški
+
+### Stranke in Znanje
+
+* [**Stranke**](./Stranke/Stranke.md) — Zahtevki, SLA-ji, podpora in skrb za stranke
 * [**Znanje**](./Znanje/Znanje.md) — Članki baze znanja, imeniki in oznake
 
-Opomba glede domene Skupno:
+### Administracija Platforme
 
-* Domena **Skupno** vsebuje skupne šifrante in funkcionalnosti uporabniškega vmesnika (države, valute, davčne stopnje itd.), ki se uporabljajo v drugih domenah. Nahaja se izven te mape: [**Skupno**](../Skupno/Skupno.md).
+* [**Sistem**](./Sistem/Sistem.md) — Upravljanje uporabnikov, varnost, revizijska sled in administracija sistema
+
+### Skupne Funkcionalnosti
+
+Nekatere funkcionalnosti se uporabljajo v vseh domenah in so dokumentirane ločeno.
+
+* [**Skupno**](../Skupno/Skupno.md) — Skupni šifranti, funkcionalnosti uporabniškega vmesnika, države, valute, davčne stopnje in druge funkcionalnosti, ki se uporabljajo v celotnem sistemu.
+
+## Ne Najdete Iskanega?
+
+Uporabite iskalnik v zgornjem desnem kotu za iskanje po vseh domenah, dokumentih, pregledih, nastavitvah in šifrantih.
