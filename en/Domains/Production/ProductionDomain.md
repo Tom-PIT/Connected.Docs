@@ -54,8 +54,6 @@ The **[Requirements](Documents/Requirements.md)** page aggregates all planned ma
 - Requirements grouped by material  
 - Direct links to production orders and operations that consume those materials  
 
-
-
 ## Analytics
 
 The **Analytics** section provides insight into production performance, downtime, quality, loss distribution, and OEE.
@@ -88,19 +86,21 @@ Available configuration and code lists include:
 - **[Job positions](Management/JobPositions.md)** – Roles and positions for shop-floor personnel.
 - **[Measure units](../../Common/Management/MeasureUnits.md)** – Unified measurement units across production.
 - **[Organization units](Management/OrganizationUnits.md)** – Hierarchical production units used for planning and analytics.
-- **[Processes](Management/Processes.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
+- **[Processes](Management/Processes.md)** and **[Operations](Management/Operations.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
 - **[Protocol operation instance templates](Management/ProtocolOperationsInstanceTemplates.md)** – Templates for step-by-step operation protocols.
 - **[Resources](../Resources/Management/Resources.md)** – Human and non-human resources used in production.
 - **[Human resources](Management/HumanResources.md)** – People and roles assigned to production operations.
 - **[Non-human resources](Management/NonHumanResources.md)** – Machines, tools and equipment used in production operations.
 - **[Inputs](Management/Inputs.md)** – Material inputs and consumption definitions for operations.
 - **[Outputs](Management/Outputs.md)** – Produced items and by-products configured per operation.
-- **[Operations](Management/Operations.md)** – Operation definitions and settings used in processes.
 - **[Operation expenses](Management/OperationExpenses.md)** – Costing and expense categories for operations.
 - **[Quality checklists](Management/QualityChecklists.md)** – Production-specific checklists and quality controls.
 - **[Warehouse locations](Management/WarehouseLocations.md)** – Logistics-backed staging and storage locations for production.
 
 These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.
+
+> [!NOTE]
+> For a step-by-step overview of the configuration required to start production, see the [**How to create a production process**](Management/ProcessCreate.md) guide.
 
 > [!TIP]
 > See all management entries in the **[Management Index](../../ManagementIndex.md)**.
