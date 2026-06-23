@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/supply -->
+<!-- app_route: /sitemap/supply -->
 <!-- app_label: Supply domain -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/SupplyDomain.md -->
 <!-- canonical_source_title: Supply domain -->
@@ -27,6 +27,9 @@ The domain is organized into several functional areas:
 - **[Management](#management)** – code lists and configuration for supplier-related processes
 
 ![Supply Domain Overview](Images/SupplyDomainOverviewV2.png "Supply Domain Overview")
+
+> [!TIP]
+> See [**How to create a supply order**](Documents/SupplyOrdersCreate.md) for a step-by-step guide of the creation of these documents.
 
 ## Documents
 

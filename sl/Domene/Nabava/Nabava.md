@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/supply -->
+<!-- app_route: /sitemap/supply -->
 <!-- app_label: Nabava -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Nabava.md -->
 <!-- canonical_source_title: Nabava -->
@@ -27,6 +27,9 @@ Področje je organizirano v več funkcionalnih sklopov:
 - **[Šifranti](#sifranti)** – nastavitve in osnovni podatki za nabavne procese
 
 ![Pregled področja Nabava](Images/SupplyDomainOverviewSL.png "Pregled področja Nabava")
+
+> [!TIP]
+> Oglejte si [**Kako ustvariti nabavni nalog**](Dokumenti/NabavniNalogiUstvarjanje.md) za praktičen primer uporabe vseh funkcionalnih sklopov.
 
 ## Dokumenti
 

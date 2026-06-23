@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/production -->
+<!-- app_route: /sitemap/production -->
 <!-- app_label: Proizvodnja -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Proizvodnja.md -->
 <!-- canonical_source_title: Proizvodnja -->
@@ -40,9 +40,10 @@ Razdelek **[Proizvodni nalogi](Dokumenti/ProizvodniNalogi.md)** vsebuje osrednje
 za planiranje in izvajanje proizvodnje. Omogoča definicijo:
 kaj se proizvaja, po kateri verziji procesa, v kakšni količini in pod katerimi pogoji.
 
-Proizvodni nalogi prehajajo skozi življenjski cikel
-**Osnutek → V obdelavi → Aktiven → Zaključen**
-in predstavljajo osnovo za vse izvajalne aktivnosti.
+Proizvodni nalogi prehajajo skozi življenjski cikel **Osnutek → V obdelavi → Aktiven → Zaključen** in predstavljajo osnovo za vse izvajalne aktivnosti.
+
+> [!TIP]
+> Glejte [**Kako ustvariti proizvodni nalog**](Dokumenti/ProizvodniNalogiUstvarjanje.md) za korak-po-korak pregled ustvarjanja novega proizvodnega naloga.
 
 ## Izvedba
 
@@ -50,6 +51,9 @@ Modul **[Izvedba](Dokumenti/Izvedba.md)** uporabljajo proizvodni delavci za spro
 proizvedene količine, porabljene materiale, zastoje, izgube, kontrolne sezname in napor.
 
 Izvedba zagotavlja natančno zbiranje podatkov, kar omogoča zanesljivo analitiko in sledljivost.
+
+> [!TIP]
+> Glejte [**Izvedba – Hiter uporabniški vodič**](../../Uvod/IzvedbaHitriVodnik.md) za korak-po-korak pregled delovnega toka izvedbe.
 
 ## Zahteve
 
@@ -76,6 +80,7 @@ Na voljo so naslednji analitični pregledi:
 - **[Povzetek slabih kosov](Analiza/PovzetekSlabihKosov.md)** – porazdelitev slabih kosov po kategorijah
 - **[Zastoji organizacijskih enot](Analiza/ZastojiOrganizacijskihEnot.md)** – analiza zastojev po organizacijskih enotah
 - **[Slabi kosi organizacijskih enot](Analiza/SlabiKosiOrganizacijskihEnot.md)** – analiza slabih kosov po organizacijskih enotah
+- **[Analiza stroškov verzije](Analiza/AnalizaStroskaVerzije.md)** – analiza stroškov po verzijah procesov
 
 Ti vpogledi podpirajo planiranje proizvodnje, stalne izboljšave
 in operativno odločanje.
@@ -98,8 +103,17 @@ Na voljo so naslednje nastavitve in šifranti:
 - **[Organizacijske enote](../../Skupno/Upravljanje/PoslovneEnote.md)** – hierarhija organizacijskih enot
 - **[Procesi](Upravljanje/Procesi.md)** – definicije procesov, verzij, operacij, vhodov in izhodov
 - **[Predloge za operacije](Upravljanje/PredlogeZaOperacije.md)** – predloge protokolov operacij
-- **[Viri](../Viri/Upravljanje/Viri.md)** – človeški in nečloveški viri v proizvodnji
-- **[Skladiščne lokacije](Upravljanje/SkladiscneLokacije.md)** – lokacije za proizvodnjo in logistiko
+ - **[Procesi](Upravljanje/Procesi.md)** – definicije procesov, verzij, operacij, vhodov in izhodov
+ - **[Predloge za operacije](Upravljanje/PredlogeZaOperacije.md)** – predloge protokolov operacij
+ - **[Viri](../Viri/Upravljanje/Viri.md)** – človeški in nečloveški viri v proizvodnji
+ - **[Človeški viri](Upravljanje/CloveskiViri.md)** – ljudje in vloge, dodeljene proizvodnim nalogam
+ - **[Nečloveški viri](Upravljanje/StvarniViri.md)** – stroji, orodja in oprema v proizvodnji
+ - **[Vhodi](Upravljanje/Vhodi.md)** – materialni vhodi in definicije porabe za operacije
+ - **[Izhodi](Upravljanje/Izhodi.md)** – proizvedeni artikli in stranski produkti, definirani za operacije
+ - **[Operacije](Upravljanje/Operacije.md)** – definicije in nastavitve operacij v procesih
+ - **[Stroški operacije](Upravljanje/StroskiOperacije.md)** – kategorizacija stroškov in odhodkov operacij
+ - **[Kvaliteta - kontrolne liste](Upravljanje/KvalitetaKontrolneListe.md)** – kontrolni seznami in proizvodni ukrepi za kakovost
+ - **[Skladiščne lokacije](Upravljanje/SkladiscneLokacije.md)** – lokacije za proizvodnjo in logistiko
 
 Ti elementi določajo delovanje proizvodnje: razpoložljivost virov, strukturo procesov, nastavitev operacij, preverjanje kakovosti in analitično klasifikacijo.
 

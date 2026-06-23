@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/production -->
+<!-- app_route: /sitemap/production -->
 <!-- app_label: Production -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/ProductionDomain.md -->
 <!-- canonical_source_title: Production -->
@@ -34,11 +34,17 @@ The **[Production orders](Documents/ProductionOrders.md)** section contains the 
 
 Production orders move through the life cycle **Draft → Pending → Active → Closed** and form the basis of all execution activity.
 
+> [!TIP]
+> For a step-by-step overview of the creation of a new production order, see the [**How to create a production order**](Documents/ProductionOrderCreate.md).
+
 ## Execution
 
 The **[Execution](Documents/Execution.md)** module is used by production workers to perform real-time reporting: produced quantities, consumed materials, downtimes, losses, checklists, and effort.
 
 Execution ensures accurate data collection, enabling reliable analytics and traceability.
+
+> [!TIP]
+> Check the [**Execution – Quick User Guide**](../../GettingStarted/ExecutionQuickUserGuide.md) for a step-by-step overview of the execution workflow.
 
 ## Requirements
 
@@ -47,6 +53,8 @@ The **[Requirements](Documents/Requirements.md)** page aggregates all planned ma
 - Required vs. available material quantities  
 - Requirements grouped by material  
 - Direct links to production orders and operations that consume those materials  
+
+
 
 ## Analytics
 
@@ -62,6 +70,7 @@ Available analytical views include:
 - **[Loss summary](Analytics/LossSummary.md)** – Distribution of losses (scrap, rework, inefficiency) by category.
 - **[Organization unit downtime](Analytics/OrganizationUnitDowntime.md)** – Downtime analysis by organization unit.
 - **[Organization unit loss](Analytics/OrganizationUnitLoss.md)** – Loss analysis by organization unit.
+- **[Version cost view](Analytics/VersionCostView.md)** – Estimated production cost per item for a specific process version, including materials, effort, and expenses.
 These insights support production planning, continuous improvement, and operational decision-making.
 
 ## Management
@@ -81,7 +90,14 @@ Available configuration and code lists include:
 - **[Organization units](Management/OrganizationUnits.md)** – Hierarchical production units used for planning and analytics.
 - **[Processes](Management/Processes.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
 - **[Protocol operation instance templates](Management/ProtocolOperationsInstanceTemplates.md)** – Templates for step-by-step operation protocols.
-- **[Resources](../Resources/Management/Resources.md))** – Human and non-human resources used in production.
+- **[Resources](../Resources/Management/Resources.md)** – Human and non-human resources used in production.
+- **[Human resources](Management/HumanResources.md)** – People and roles assigned to production operations.
+- **[Non-human resources](Management/NonHumanResources.md)** – Machines, tools and equipment used in production operations.
+- **[Inputs](Management/Inputs.md)** – Material inputs and consumption definitions for operations.
+- **[Outputs](Management/Outputs.md)** – Produced items and by-products configured per operation.
+- **[Operations](Management/Operations.md)** – Operation definitions and settings used in processes.
+- **[Operation expenses](Management/OperationExpenses.md)** – Costing and expense categories for operations.
+- **[Quality checklists](Management/QualityChecklists.md)** – Production-specific checklists and quality controls.
 - **[Warehouse locations](Management/WarehouseLocations.md)** – Logistics-backed staging and storage locations for production.
 
 These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.
