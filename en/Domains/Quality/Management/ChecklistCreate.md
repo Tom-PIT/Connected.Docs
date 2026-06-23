@@ -22,9 +22,6 @@ Open **Production / Management / Checklists** or **Maintenance / Management / Ch
 
 The checklist is now created and ready to receive check points.
 
-> [!NOTE]
-> Use the **Ordinal** field on each check point to define the order in which check points appear.
-
 ## Step 2: Open the check points page
 
 Each checklist consists of one or more check points.
@@ -60,6 +57,9 @@ To add a check point:
    - **Instructions** (optional)
 3. Click **Add**.
 
+> [!NOTE]
+> Use the **Ordinal** field on each check point to define the order in which check points appear.
+
 ![Add check point](../Images/ChecklistExampleCheckpointNew.png "Add a new checpoint")
 
 After creating the check point, additional settings may be available depending on the selected **Type**.
@@ -80,11 +80,11 @@ When creating the check point:
 * Set **Type** to **Check**
 * Enter the **Instructions** and **Confirm text** displayed next to the checkbox
 
-Example:
+### Example
 
-* Name: *Safety label verification*
-* Instructions: *Verify that all mandatory safety labels are attached and clearly visible.*
-* Confirm text: *I confirm that all safety labels are installed.*
+* **Name**: *Safety label verification*
+* **Instructions**: *Verify that all mandatory safety labels are attached and clearly visible.*
+* **Confirm text**: *I confirm that all safety labels are installed.*
 
 ![Confirmation check example](../Images/ChecklistExampleCheck.png "Confirmation check example")
 
@@ -106,7 +106,7 @@ When creating the check point:
 * Select a **Measure unit**
 * Optionally define **Minimum** and **Maximum** values
 
-Example:
+### Example
 
 * Name: *Product weight*
 * Unit: *kg*
@@ -127,14 +127,15 @@ When creating the check point:
 * Select whether single or multiple values can be selected
 * Add the available values
 
-Example:
+### Example
 
-* Name: *Surface quality*
-* Values:
+* **Name**: *Surface quality*
+* **Selection type**: *Single*
+* **Values**:
 
-  * *Accept* - Valid
-  * *Rework* - Not valid
-  * *Reject* - Not valid
+  * *Accept* - *Valid*
+  * *Rework* - *Not valid*
+  * *Reject* - *Not valid*
 
 This ensures that only valid options will confirm the check point.
 
@@ -155,11 +156,13 @@ When creating the check point:
 * Enter a **Name**
 * Set **Type** to **Text**
 
-Example:
+### Example
 
-* Name: *Inspector comments*
-* Instructions: *Record any observations, deviations, or recommendations.*
-* Default value: *No issues observed.*
+* **Name**: *Inspector comments*
+* **Instructions**: *Record any observations, deviations, or recommendations.*
+* **Default value**: *No issues observed.*
+
+![Checklist Example Text](../Images/ChecklistExampleText.png "Example of a text input check point")
 
 ## Step 8: Add a file attachment check
 
@@ -179,8 +182,8 @@ When creating the check point:
 
 Example:
 
-* Name: *Upload finished product photo*
-* Instructions: *Upload a photo of the finished product for traceability purposes.*
+* **Name**: *Upload finished product photo*
+* **Instructions**: *Upload a photo of the finished product for traceability purposes.*
 
 ![File upload check example](../Images/ChecklistExampleUpload.png "File upload check example")
 
@@ -203,5 +206,5 @@ Completed results are stored in the system and can be reviewed later for quality
 
 For detailed information about checklist configuration, see:
 
-* [Checklists](Checklists.md)
-* [Check points](CheckPoints.md)
+* [**Checklists**](Checklists.md)
+* [**Check points**](CheckPoints.md)
