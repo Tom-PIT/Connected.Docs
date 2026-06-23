@@ -22,8 +22,10 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.top
+    - navigation.path 
     - search.suggest
     - search.highlight
+    - navigation.footer
 
 plugins:
   - search
@@ -33,6 +35,9 @@ markdown_extensions:
   - md_in_html
   - admonition
   - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
   - attr_list
@@ -47,8 +52,19 @@ nav:
       - Introduction: en/index.md
       - Getting started: en/GettingStarted/00.GettingStarted.md
       - Common features: en/Common/Common.md
+      - Navigation: en/Common/UI/Navigation.md
       - Domains:
+        - Overview: en/Domains/index.md
         - Production: en/Domains/Production/ProductionDomain.md
         - Assets: en/Domains/Assets/AssetsDomain.md
         - Supply: en/Domains/Supply/SupplyDomain.md
-  - Slovenščina: sl/index.md
+  - Slovenščina: 
+      - Introduction: sl/index.md
+      - Uvod: sl/Uvod/00.Uvod.md
+      - Skupno: sl/Skupno/Skupno.md
+      - Navigacija: sl/Skupno/UI/Navigacija.md
+      - Domene:
+        - Pregled: sl/Domene/index.md
+        - Proizvodnja: sl/Domene/Proizvodnja/Proizvodnja.md
+        - Sredstva: sl/Domene/Sredstva/DomenaSredstve.md
+        - Nabava: sl/Domene/Nabava/Nabava.md
