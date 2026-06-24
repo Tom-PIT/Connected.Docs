@@ -100,7 +100,7 @@ The System domain supports all other domains throughout the platform.
 | [**Sales** ](../Sales/SalesDomain.md)      | Supplies fiscalization, organization, and user settings.             |
 | [**Supply** ](../Supply/SupplyDomain.md)     | Provides warehouse and integration settings.                         |
 | [**Production**](../Production/README.md)  | Supplies user, localization, and system-wide configuration.          |
-| [**Maintenance**](../Maintenance/MaintenanceDomain.md) | Provides access control and shared configuration.                    |
+| [**Maintenance**](../Maintenance/README.md) | Provides access control and shared configuration.                    |
 | [**Resources**](../Resources/ResourcesDomain.md)   | Uses users, roles, and localization settings.                        |
 
 The System domain acts as the administrative foundation of the platform and supports the operation of all business processes.

@@ -95,7 +95,7 @@ When the order is ready for production, click **Activate**.
 
 You may attach other documents that relate to the production order, such as:
 
-- [**Projects**](../../Projects/ProjectsDomain.md)  
+- [**Projects**](../../Projects/README.md)  
 - [**Supply orders**](../../Supply/Documents/SupplyOrders.md)
 - [**Inquiries**](../../Supply/Documents/Inquiries.md)
 - Other production orders (linked or input-producing)  
