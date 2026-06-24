@@ -21,17 +21,17 @@ Explore the available domains:
 
 - [**Production**](Domains/Production/README.md)
 - [**Logistics**](Domains/Logistics/README.md)
-- [**Supply**](Domains/Supply/SupplyDomain.md)
-- [**Sales**](Domains/Sales/SalesDomain.md)
+- [**Supply**](Domains/Supply/README.md)
+- [**Sales**](Domains/Sales/README.md)
 - [**Accounting**](Domains/Accounting/README.md)
-- [**Assets**](Domains/Assets/AssetsDomain.md)
+- [**Assets**](Domains/Assets/README.md)
 - [**Projects**](Domains/Projects/README.md)
-- [**Quality**](Domains/Quality/QualityDomain.md)
+- [**Quality**](Domains/Quality/README.md)
 - [**Customers**](Domains/Customers/README.md)
-- [**Resources**](Domains/Resources/ResourcesDomain.md)
+- [**Resources**](Domains/Resources/README.md)
 - [**Maintenance**](Domains/Maintenance/README.md)
 - [**Documents**](Domains/Documents/README.md)
-- [**System**](Domains/System/SystemDomain.md)
+- [**System**](Domains/System/README.md)
 
 ## Documentation Structure
 
