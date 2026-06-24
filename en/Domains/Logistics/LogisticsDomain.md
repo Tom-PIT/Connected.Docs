@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/logistics -->
+<!-- app_route: /sitemap/logistics -->
 <!-- app_label: Logistics domain -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/LogisticsDomain.md -->
 <!-- canonical_source_title: Logistics domain -->
@@ -7,7 +7,7 @@
 
 The **Logistics** domain covers all warehouse-related operations within your organization. It includes stock handling processes, warehouse structures, material movements, and all documentation needed to track the physical flow of goods.
 
-Where the **[Materials](../Assets/Materials.md)** domain defines *what* exists in stock, the Logistics domain defines *where it is stored*, *how it moves*, and *how it is controlled*.
+Where the **[Materials](../Assets/Materials/README.md)** domain defines *what* exists in stock, the Logistics domain defines *where it is stored*, *how it moves*, and *how it is controlled*.
 
 To access this domain, navigate to **Logistics** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -129,9 +129,9 @@ Logistics integrates tightly with other operational areas:
 
 | Area | Interaction |
 |--------|------------|
-| **[Materials](../Assets/Materials.md)** | Defines materials stored and moved in logistics. |
+| **[Materials](../Assets/Materials/README.md)** | Defines materials stored and moved in logistics. |
 | **[Assets](../Assets/AssetsDomain.md)** | Sales visibility and availability calculations rely on logistics stock. |
-| **[Production](../Production/ProductionDomain.md)** | Issues and receives connect logistics with production orders. |
+| **[Production](../Production/README.md)** | Issues and receives connect logistics with production orders. |
 | **[Maintenance](../Maintenance/MaintenanceDomain.md)** | Spare parts and maintenance stock flow through logistics. |
 | **[Sales](../Sales/SalesDomain.md)** / **[Supply](../Supply/SupplyDomain.md)** | Logistics ensures availability and correct warehouse fulfillment. |
 

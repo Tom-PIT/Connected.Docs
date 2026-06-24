@@ -38,7 +38,7 @@ The domain is structured into functional areas for daily work and analysis:
 
 ## Management
 
-Configure shared structures used by maintenance. The Maintenance domain leverages common code lists that are shared with [**Production**](../Production/ProductionDomain.md).
+Configure shared structures used by maintenance. The Maintenance domain leverages common code lists that are shared with [**Production**](../Production/README.md).
 
 ![Maintenance Domain Management](Images/MaintenanceDomainManagement.png "Maintenance Domain management")
 

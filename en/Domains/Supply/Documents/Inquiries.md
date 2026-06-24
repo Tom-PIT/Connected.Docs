@@ -38,7 +38,7 @@ A typical flow:
 
 | Field | Description |
 |--------|-------------|
-| **[Material](../../Assets/Materials.md)** | Material for which information is requested. |
+| **[Material](../../Assets/Materials/README.md)** | Material for which information is requested. |
 | **Validity date** | Expected or proposed delivery date. |
 | **Quantity** | Requested quantity of the selected material. |
 | **Supplier code** | Vendor’s internal material reference code (optional). |

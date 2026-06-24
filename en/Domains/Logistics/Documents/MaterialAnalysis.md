@@ -21,7 +21,7 @@ To access **Material analysis**, go to **Logistics / Documents / Material analys
 |-------|-------------|
 | [**Code**](../../../Common/UI/DocumentCodes.md) | System‑generated identifier of the material analysis document. |
 | **Document date** | Date when the analysis document was created. |
-| [**Material**](../../Assets/Materials.md) | The material under analysis (as defined by the receipt and analysis configuration). |
+| [**Material**](../../Assets/Materials/README.md) | The material under analysis (as defined by the receipt and analysis configuration). |
 | **Source** | Serial number of the material received. |
 | **Status** | Analysis status: **Not set**, **Passed**, or **Failed**. |
 

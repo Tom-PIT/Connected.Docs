@@ -109,8 +109,8 @@ Supply integrates with other operational domains:
 
 | Area | Interaction |
 |------|-------------|
-| **[Materials](../Assets/Materials.md)** | Defines the items being procured. |
+| **[Materials](../Assets/Materials/README.md)** | Defines the items being procured. |
 | **[Logistics](../Logistics/LogisticsDomain.md)** | Receives incoming goods and updates stock. |
-| **[Production](../Production/ProductionDomain.md)** | Requires purchased materials for manufacturing processes. |
+| **[Production](../Production/README.md)** | Requires purchased materials for manufacturing processes. |
 | **[Sales](../Sales/SalesDomain.md)** | Relies on procurement to ensure availability of sold items. |
 

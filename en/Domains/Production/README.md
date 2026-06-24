@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/production -->
 <!-- app_label: Production -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/ProductionDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/README.md -->
 <!-- canonical_source_title: Production -->
 
 # Production
@@ -130,7 +130,7 @@ Production integrates with several other operational domains:
 
 | Area | Interaction |
 |------|-------------|
-| **[Materials](../Assets/Materials.md)** | Defines what is being produced and consumed. |
+| **[Materials](../Assets/Materials/README.md)** | Defines what is being produced and consumed. |
 | **[Supply](../Supply/SupplyDomain.md)** | Provides materials needed for production. |
 | **[Logistics](../Logistics/LogisticsDomain.md)** | Handles warehouse movements of consumed and produced items. |
 | **[Maintenance](../Maintenance/MaintenanceDomain.md)** | Shares processes, organization units, resources, and checklists; maintenance orders can use time/count-based schedules and link back to production resources and counters. |

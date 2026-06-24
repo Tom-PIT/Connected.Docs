@@ -19,7 +19,7 @@ Tom PIT.Connected is an integrated business platform covering sales, supply, log
 
 Explore the available domains:
 
-- [**Production**](Domains/Production/ProductionDomain.md)
+- [**Production**](Domains/Production/README.md)
 - [**Logistics**](Domains/Logistics/LogisticsDomain.md)
 - [**Supply**](Domains/Supply/SupplyDomain.md)
 - [**Sales**](Domains/Sales/SalesDomain.md)

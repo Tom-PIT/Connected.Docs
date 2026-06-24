@@ -11,7 +11,7 @@ To create a new production order, click the [action button](../../../Common/UI/A
 
 ### **Step 1 — Select material**
 
-Choose the **Material type** (e.g., Products or Semi products), then select the specific [**material**](../../Assets/Materials.md) and quantity to be manufactured.
+Choose the **Material type** (e.g., Products or Semi products), then select the specific [**material**](../../Assets/Materials/README.md) and quantity to be manufactured.
 
 ![Step 1](../Images/ProductionOrdersNewStep1.png "Step 1 - Select material")
 

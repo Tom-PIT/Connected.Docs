@@ -32,7 +32,7 @@ Each domain contains the tools relevant to a specific business area. Examples in
 - **[Sales](../../Domains/Sales/SalesDomain.md)**  
 - **[Logistics](../../Domains/Logistics/LogisticsDomain.md)**  
 - **[Supply](../../Domains/Supply/SupplyDomain.md)**  
-- **[Production](../../Domains/Production/ProductionDomain.md)**  
+- **[Production](../../Domains/Production/README.md)**  
 
 > [!NOTE]
 >

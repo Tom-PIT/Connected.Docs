@@ -33,7 +33,7 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Materials.md) | The item being written off ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
+| [**Material**](../../Assets/Materials/README.md) | The item being written off ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **Serial number** | Serial number of the affected unit. |
 | **Best before** | Expiration date (if applicable). |
 | [**Warehouse location**](../Management/Locations.md) | Location where the material is stored. |
