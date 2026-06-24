@@ -11,10 +11,10 @@ Documentation is organized by language/country because regulations and processes
 
 You can also start here:
 
-- English:
+- **English**:
   - [**Getting started**](en/GettingStarted/00.GettingStarted.md) — Overview of the structure, first steps to configure the system, and typical workflow overviews.
   - [**Navigation**](en/Common/UI/Navigation.md) — How to find domains, documents, and settings using the Sitemap and breadcrumbs.
 
-- Slovenščina:
+- **Slovenščina**:
   - [**Uvod**](sl/Uvod/00.Uvod.md) — Pregled strukture, prvi koraki za nastavitev sistema in tipični poteki dela.
   - [**Navigacija**](sl/Skupno/UI/Navigacija.md) — Kako najti domene, dokumente in nastavitve z uporabo zemljevida in navigacijskih poti.
