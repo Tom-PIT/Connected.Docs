@@ -13,43 +13,43 @@ Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem
 
 ## Najpogosteje Uporabljene Domene
 
-* [**Proizvodnja**](Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
-* [**Logistika**](Logistika/Logistika.md) — Skladiščenje, premiki zalog, inventure in lokacije
-* [**Nabava**](Nabava/Nabava.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
-* [**Prodaja**](Prodaja/Prodaja.md) — Prodajni dokumenti, ceniki in upravljanje strank
-* [**Računovodstvo**](Racunovodstvo/Racunovodstvo.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
+* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
+* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, premiki zalog, inventure in lokacije
+* [**Nabava**](./Nabava/Nabava.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
+* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni dokumenti, ceniki in upravljanje strank
+* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
 
 ## Pregled domen
 
 ### Finančno Poslovanje
 
-* [**Računovodstvo**](Racunovodstvo/Racunovodstvo.md) — Finančno računovodstvo, glavna knjiga, računi, Intrastat in zakonska poročila
+* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Finančno računovodstvo, glavna knjiga, računi, Intrastat in zakonska poročila
 
 ### Komerciala
 
-* [**Prodaja**](Prodaja/Prodaja.md) — Prodajni procesi, ponudbe, naročila, ceniki in upravljanje poslovnih partnerjev
-* [**Nabava**](Nabava/Nabava.md) — Nabavni procesi, sodelovanje z dobavitelji in planiranje nabave
+* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni procesi, ponudbe, naročila, ceniki in upravljanje poslovnih partnerjev
+* [**Nabava**](./Nabava/Nabava.md) — Nabavni procesi, sodelovanje z dobavitelji in planiranje nabave
 
 ### Operativa
 
-* [**Proizvodnja**](Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
-* [**Logistika**](Logistika/Logistika.md) — Skladiščenje, upravljanje zalog in premiki materiala
-* [**Vzdrževanje**](Vzdrzevanje/Vzdrzevanje.md) — Planiranje in izvajanje vzdrževanja
-* [**Kvaliteta**](Kvaliteta/Kvaliteta.md) — Procesi kakovosti, klasifikacije, kontrole in pregledi
+* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
+* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, upravljanje zalog in premiki materiala
+* [**Vzdrževanje**](./Vzdrzevanje/Vzdrzevanje.md) — Planiranje in izvajanje vzdrževanja
+* [**Kvaliteta**](./Kvaliteta/Kvaliteta.md) — Procesi kakovosti, klasifikacije, kontrole in pregledi
 
 ### Viri in Projekti
 
-* [**Projekti**](Projekti/DomenaProjektov.md) — Projektne strukture, planiranje in spremljanje projektov
-* [**Viri**](Viri/Viri.md) — Človeški in nečloveški viri, razporejanje in stroški
+* [**Projekti**](./Projekti/DomenaProjektov.md) — Projektne strukture, planiranje in spremljanje projektov
+* [**Viri**](./Viri/Viri.md) — Človeški in nečloveški viri, razporejanje in stroški
 
 ### Stranke in Znanje
 
-* [**Stranke**](Stranke/Stranke.md) — Zahtevki, SLA-ji, podpora in skrb za stranke
-* [**Znanje**](Znanje/Znanje.md) — Članki baze znanja, imeniki in oznake
+* [**Stranke**](./Stranke/Stranke.md) — Zahtevki, SLA-ji, podpora in skrb za stranke
+* [**Znanje**](./Znanje/Znanje.md) — Članki baze znanja, imeniki in oznake
 
 ### Administracija Platforme
 
-* [**Sistem**](Sistem/Sistem.md) — Upravljanje uporabnikov, varnost, revizijska sled in administracija sistema
+* [**Sistem**](./Sistem/Sistem.md) — Upravljanje uporabnikov, varnost, revizijska sled in administracija sistema
 
 ### Skupne Funkcionalnosti
 

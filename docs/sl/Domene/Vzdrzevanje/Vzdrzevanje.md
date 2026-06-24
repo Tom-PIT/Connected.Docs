@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/maintenance -->
+<!-- app_route: /sitemap/maintenance -->
 <!-- app_label: Vzdrževanje -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Vzdrzevanje.md -->
 <!-- canonical_source_title: Vzdrževanje -->
@@ -37,6 +37,10 @@ Domena je strukturirana v funkcionalna področja za dnevno delo in analizo:
   - **[Prijavljene napake](Dokumenti/PrijavljeneNapake.md)** — zajem težav z opremo na terenu; iz prijavljenih napak se ustvarijo kurativni vzdrževalni nalogi.
   - **[Koledar vzdrževanja](Dokumenti/KoledarVzdrzevanja.md)** — koledarski pogled planiranega in aktivnega vzdrževanja z možnostjo filtriranja po organizacijski enoti, virih in statusu naloga.
   - **[Stanja števcev](Dokumenti/StanjaStevcev.md)** — konfiguracija delovnih časovnih oken in števcev uporabe (npr. kosi, metri, grami, ure), ki se uporabljajo v urnikih in vzdrževanju na podlagi števcev.
+
+> [!TIP]
+> Oglejte si [**Kako ustvariti vzdrževalni nalog**](Dokumenti/VzdrzevalniNalogiUstvarjanje.md) za vodnik po korakih za ustvarjanje teh dokumentov.
+
 ## Upravljanje
 
 Konfiguracija skupnih struktur, ki se uporabljajo pri vzdrževanju.

@@ -14,6 +14,9 @@ Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Kontrolne liste kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
 
+> [!TIP]
+> Za praktičen primer ustvarjanja kontrolne liste in različnih tipov kontrolnih točk si oglejte [**Kako ustvariti kontrolno listo kakovosti**](KontrolniListUstvarjanje.md).
+
 ## Shema
 
 | Polje | Opis |
@@ -23,7 +26,7 @@ Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, 
 | **Opis** | Kratek opis namena kontrolne liste. |
 | **Oznake** | Neobvezne oznake za razvrščanje ali združevanje kontrolnih list (npr. Proizvodnja, Vzdrževanje). |
 | **Izvajalne vloge** | Neobvezne vloge, ki določajo, katera delovna mesta lahko izvajajo kontrolno listo (npr. operaterji, vzdrževalci). |
-| **Priponke** | Možnost dodajanja relevantnih dokumentov ali slik, povezanih s kontrolno listo. |
+| **Priponke** | Možnost dodajanja relevantnih dokumentov ali slik, povezanih s kontrolno listo (ta razdelek se prikaže **šele po** ustvarjanju kontrolne liste). |
 
 ## Seznam
 
@@ -46,9 +49,8 @@ Na levi strani je na voljo filter **Oznake**, ki omogoča prikaz samo tistih kon
 
     - **Naziv** – naziv kontrolne liste  
     - **Opis** – neobvezni opis  
-    - **Oznake** – izberite eno ali več oznak za razvrščanje (npr. Proizvodnja, Vzdrževanje)  
+    - **Oznake** – izberite eno ali več oznak za razvrščanje (npr. Proizvodnja, Vzdrževanje)
     - **Izvajalne vloge** – določite delovna mesta, ki lahko izvajajo to kontrolno listo (npr. operaterji, vzdrževalci)
-    - **Priponke** – po želji dodajte relevantne dokumente ali slike k kontrolni listi
 
 3. Kliknite **Dodaj**, da ustvarite kontrolno listo.
 
@@ -65,14 +67,14 @@ Za upravljanje kontrolnih točk:
 
 Odpre se stran **Kontrolne točke**, kjer lahko kontrolne točke dodajate, urejate, brišete in spreminjate njihov vrstni red.
 
-Za podrobnosti glejte **[Kontrolne točke](KontrolneTocke.md)**.
+Za podrobnosti glejte **[Kontrolne točke](KontrolneTocke.md)** in **[Kako ustvariti kontrolno listo kakovosti](KontrolniListUstvarjanje.md)**.
 
 ## Urediti kontrolno listo
 
 Za urejanje obstoječe kontrolne liste:
 
 1. Kliknite kontrolno listo v seznamu.
-2. Po potrebi spremenite **Naziv**, **Opis**, **Oznake** ali **Izvajalne vloge**.
+2. Po potrebi spremenite **Naziv**, **Opis**, **Oznake**, **Priponke** ali **Izvajalne vloge**.
 3. Kliknite **Shrani**.
 
 ## Brisanje
