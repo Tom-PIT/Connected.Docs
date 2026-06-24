@@ -130,7 +130,7 @@ Logistics integrates tightly with other operational areas:
 | Area | Interaction |
 |--------|------------|
 | **[Materials](../Assets/Materials/README.md)** | Defines materials stored and moved in logistics. |
-| **[Assets](../Assets/AssetsDomain.md)** | Sales visibility and availability calculations rely on logistics stock. |
+| **[Assets](../Assets/README.md)** | Sales visibility and availability calculations rely on logistics stock. |
 | **[Production](../Production/README.md)** | Issues and receives connect logistics with production orders. |
 | **[Maintenance](../Maintenance/README.md)** | Spare parts and maintenance stock flow through logistics. |
 | **[Sales](../Sales/README.md)** / **[Supply](../Supply/README.md)** | Logistics ensures availability and correct warehouse fulfillment. |

@@ -181,4 +181,4 @@ Accounting integrates tightly with other operational domains:
 | **[Sales](../Sales/README.md)** | Issued invoices, revenue recognition, receivables. |
 | **[Supply](../Supply/README.md)** | Received invoices, procurement costs, liabilities. |
 | **[Logistics](../Logistics/README.md)** | Stock movements and valuation. |
-| **[Assets](../Assets/AssetsDomain.md)** | Fixed assets, depreciation, long-term value tracking. |
+| **[Assets](../Assets/README.md)** | Fixed assets, depreciation, long-term value tracking. |
