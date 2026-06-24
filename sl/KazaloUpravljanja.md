@@ -154,3 +154,4 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 
 ## Sistem
 - [**Konfiguracija sistema**](Domene/Sistem/Nastavitve/KonfiguracijaSistema.md)
+- [**Uporabniki**](Domene/Sistem/Nastavitve/Uporabniki.md)
