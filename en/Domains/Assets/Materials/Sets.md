@@ -28,7 +28,7 @@ To access this page, go to **Assets / Materials / Sets** in the [navigation](../
 - Ensure each component you want to include is already defined in its respective code list.
 
 ## List of sets
-The left sidebar lists parent materials grouped by [**Material type**](../Materials.md) (e.g., [**Products**](Products.md), [**Semi products**](SemiProducts.md)). Select a parent to view its components in the main list. The main list shows the components of the selected set with their quantities.
+The left sidebar lists parent materials grouped by [**Material type**](../README.md) (e.g., [**Products**](Products.md), [**Semi products**](SemiProducts.md)). Select a parent to view its components in the main list. The main list shows the components of the selected set with their quantities.
 
 ![Sets list](../Images/SetsList.png "Sets list")
 

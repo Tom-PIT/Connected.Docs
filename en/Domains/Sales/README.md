@@ -7,7 +7,7 @@
 
 The **Sales** domain contains all records and documents needed to manage commercial transactions with customers. It includes [**Offers**](Documents/Offers.md), [**Sales orders**](Documents/SalesOrders.md), [**Delivery notes**](Documents/DeliveryNotes.md), [**Issued invoices**](Documents/IssuedInvoices.md), and analytical views used to understand sales performance and document flows.
 
-Where the **[Assets](../Assets/AssetsDomain.md)** domain defines *what* is sold, the Sales domain defines *how* it is offered, confirmed, delivered, and billed.
+Where the **[Assets](../Assets/README.md)** domain defines *what* is sold, the Sales domain defines *how* it is offered, confirmed, delivered, and billed.
 
 To access this domain, navigate to **Sales** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -122,7 +122,7 @@ Sales integrates with other operational domains:
 
 | Area | Interaction |
 |------|-------------|
-| **[Assets](../Assets/AssetsDomain.md)** | Defines the items, prices, and configurations used in sales documents. |
+| **[Assets](../Assets/README.md)** | Defines the items, prices, and configurations used in sales documents. |
 | **[Materials](../Assets/Materials/README.md)** | Provides availability and stock data for planning and fulfillment. |
 | **[Logistics](../Logistics/README.md)** | Manages the physical delivery of goods. |
 | **[Supply](../Supply/README.md)** | Ensures procurement of items sold to customers. |
