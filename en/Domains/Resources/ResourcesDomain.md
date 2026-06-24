@@ -112,5 +112,5 @@ The Resources domain integrates closely with other operational areas:
 | [**Projects**](../Projects/ProjectsDomain.md) | Tasks are assigned to resources; effort and availability are tracked per project. |
 | [**Production**](../Production/README.md) | Resources execute production operations and report time and effort. |
 | [**Maintenance**](../Maintenance/MaintenanceDomain.md) | Maintenance activities consume resource time and availability. |
-| [**Logistics**](../Logistics/LogisticsDomain.md) | Travel orders and availability impact logistics planning. |
+| [**Logistics**](../Logistics/README.md) | Travel orders and availability impact logistics planning. |
 | [**Accounting**](../Accounting/README.md) | Time, cost, and allowance data feed financial processes and reporting. |
