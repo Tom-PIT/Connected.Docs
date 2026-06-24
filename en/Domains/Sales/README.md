@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/sales -->
 <!-- app_label: Sales -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/SalesDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/README.md -->
 <!-- canonical_source_title: Sales -->
 
 # Sales
@@ -125,4 +125,4 @@ Sales integrates with other operational domains:
 | **[Assets](../Assets/AssetsDomain.md)** | Defines the items, prices, and configurations used in sales documents. |
 | **[Materials](../Assets/Materials/README.md)** | Provides availability and stock data for planning and fulfillment. |
 | **[Logistics](../Logistics/README.md)** | Manages the physical delivery of goods. |
-| **[Supply](../Supply/SupplyDomain.md)** | Ensures procurement of items sold to customers. |
+| **[Supply](../Supply/README.md)** | Ensures procurement of items sold to customers. |

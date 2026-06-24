@@ -7,7 +7,7 @@
 
 The **Production** domain manages all processes related to manufacturing, shop-floor execution, and production analysis. It includes tools for planning and issuing production orders, executing operations, tracking consumption and production, and reviewing performance analytics.
 
-Where the **[Supply](../Supply/SupplyDomain.md)** domain ensures material availability, the Production domain ensures that these materials are transformed into finished or semi-finished goods through controlled and traceable workflows.
+Where the **[Supply](../Supply/README.md)** domain ensures material availability, the Production domain ensures that these materials are transformed into finished or semi-finished goods through controlled and traceable workflows.
 
 To access Production, navigate to **Production** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -131,7 +131,7 @@ Production integrates with several other operational domains:
 | Area | Interaction |
 |------|-------------|
 | **[Materials](../Assets/Materials/README.md)** | Defines what is being produced and consumed. |
-| **[Supply](../Supply/SupplyDomain.md)** | Provides materials needed for production. |
+| **[Supply](../Supply/README.md)** | Provides materials needed for production. |
 | **[Logistics](../Logistics/README.md)** | Handles warehouse movements of consumed and produced items. |
 | **[Maintenance](../Maintenance/README.md)** | Shares processes, organization units, resources, and checklists; maintenance orders can use time/count-based schedules and link back to production resources and counters. |
 
