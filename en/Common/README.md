@@ -1,9 +1,9 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Common/Common.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Common/README.md -->
 <!-- canonical_source_title: Common module -->
 
 # Common
 
-The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain — [**Sales**](../Domains/Sales/SalesDomain.md), [**Supply**](../Domains/Supply/SupplyDomain.md), [**Logistics**](../Domains/Logistics/LogisticsDomain.md), [**Production**](../Domains/Production/ProductionDomain.md)—relies on the Common module to operate correctly.
+The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain — [**Sales**](../Domains/Sales/SalesDomain.md), [**Supply**](../Domains/Supply/SupplyDomain.md), [**Logistics**](../Domains/Logistics/LogisticsDomain.md), [**Production**](../Domains/Production/README.md)—relies on the Common module to operate correctly.
 
 Because of this, the Common module must be configured **before** using any other domain in the platform.
 

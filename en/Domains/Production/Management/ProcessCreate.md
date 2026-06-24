@@ -10,7 +10,7 @@ The example in this tutorial focuses on a **production process** for manufacturi
 
 > [!NOTE]
 > - This tutorial assumes that the required materials, resources, and quality checklists have already been created. For more information, see:
->    * [**Materials**](../../Assets/Materials.md)
+>    * [**Materials**](../../Assets/Materials/README.md)
 >    * [**Resources**](../../Resources/Management/Resources.md)
 >    * [**Quality Checklists**](../../Quality/Management/Checklists.md)
 > - For more information on processes and their components, see the dedicated documents listed in the [**Next steps**](#next-steps) section at the end of this tutorial.

@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/resources -->
+<!-- app_route: /sitemap/resources -->
 <!-- app_label: Resources -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/ResourcesDomain.md -->
 <!-- canonical_source_title: Resources -->
@@ -110,7 +110,7 @@ The Resources domain integrates closely with other operational areas:
 | Domain | Integration |
 |------|------------|
 | [**Projects**](../Projects/ProjectsDomain.md) | Tasks are assigned to resources; effort and availability are tracked per project. |
-| [**Production**](../Production/ProductionDomain.md) | Resources execute production operations and report time and effort. |
+| [**Production**](../Production/README.md) | Resources execute production operations and report time and effort. |
 | [**Maintenance**](../Maintenance/MaintenanceDomain.md) | Maintenance activities consume resource time and availability. |
 | [**Logistics**](../Logistics/LogisticsDomain.md) | Travel orders and availability impact logistics planning. |
-| [**Accounting**](../Accounting/AccountingDomain.md) | Time, cost, and allowance data feed financial processes and reporting. |
+| [**Accounting**](../Accounting/README.md) | Time, cost, and allowance data feed financial processes and reporting. |

@@ -123,6 +123,6 @@ Sales integrates with other operational domains:
 | Area | Interaction |
 |------|-------------|
 | **[Assets](../Assets/AssetsDomain.md)** | Defines the items, prices, and configurations used in sales documents. |
-| **[Materials](../Assets/Materials.md)** | Provides availability and stock data for planning and fulfillment. |
+| **[Materials](../Assets/Materials/README.md)** | Provides availability and stock data for planning and fulfillment. |
 | **[Logistics](../Logistics/LogisticsDomain.md)** | Manages the physical delivery of goods. |
 | **[Supply](../Supply/SupplyDomain.md)** | Ensures procurement of items sold to customers. |

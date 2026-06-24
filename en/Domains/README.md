@@ -13,49 +13,49 @@ If you are new to the platform, start by selecting the domain that best matches 
 
 ## Most Frequently Used Domains
 
-* [**Production**](./Production/ProductionDomain.md) — Production orders, execution, processes, and resources
-* [**Logistics**](./Logistics/LogisticsDomain.md) — Warehousing, stock movements, inventories, and locations
-* [**Supply**](./Supply/SupplyDomain.md) — Supply planning, supplier collaboration, and procurement processes
-* [**Sales**](./Sales/SalesDomain.md) — Sales documents, pricing, and customer management
-* [**Accounting**](./Accounting/AccountingDomain.md) — Financial accounting, ledger, invoices, and statutory reporting
+* [**Production**](./Production/README.md) — Production orders, execution, processes, and resources
+* [**Logistics**](./Logistics/README.md) — Warehousing, stock movements, inventories, and locations
+* [**Supply**](./Supply/README.md) — Supply planning, supplier collaboration, and procurement processes
+* [**Sales**](./Sales/README.md) — Sales documents, pricing, and customer management
+* [**Accounting**](./Accounting/README.md) — Financial accounting, ledger, invoices, and statutory reporting
 
 ## Domains overview
 
 ### Financial Management
 
-* [**Accounting**](./Accounting/AccountingDomain.md) — Financial accounting, ledger, invoices, Intrastat, and statutory reports
+* [**Accounting**](./Accounting/README.md) — Financial accounting, ledger, invoices, Intrastat, and statutory reports
 
 ### Commercial Operations
 
-* [**Sales**](./Sales/SalesDomain.md) — Sales processes, quotations, orders, pricing, and customer management
-* [**Supply**](./Supply/SupplyDomain.md) — Procurement processes, supplier collaboration, and supply planning
+* [**Sales**](./Sales/README.md) — Sales processes, quotations, orders, pricing, and customer management
+* [**Supply**](./Supply/README.md) — Procurement processes, supplier collaboration, and supply planning
 
 ### Operations
 
-* [**Production**](./Production/ProductionDomain.md) — Production orders, execution, processes, and resources
-* [**Logistics**](./Logistics/LogisticsDomain.md) — Warehousing, inventory management, and stock movements
-* [**Maintenance**](./Maintenance/MaintenanceDomain.md) — Maintenance planning and execution
-* [**Quality**](./Quality/QualityDomain.md) — Quality processes, classifications, inspections, and controls
+* [**Production**](./Production/README.md) — Production orders, execution, processes, and resources
+* [**Logistics**](./Logistics/README.md) — Warehousing, inventory management, and stock movements
+* [**Maintenance**](./Maintenance/README.md) — Maintenance planning and execution
+* [**Quality**](./Quality/README.md) — Quality processes, classifications, inspections, and controls
 
 ### Resources & Projects
 
-* [**Projects**](./Projects/ProjectsDomain.md) — Project structures, planning, and tracking
-* [**Resources**](./Resources/ResourcesDomain.md) — Human and non-human resources, timesheets, and costs
+* [**Projects**](./Projects/README.md) — Project structures, planning, and tracking
+* [**Resources**](./Resources/README.md) — Human and non-human resources, timesheets, and costs
 
 ### Customer & Knowledge Management
 
-* [**Customers**](./Customers/CustomersDomain.md) — Service desks, tickets, SLAs, and customer care
-* [**Knowledge**](./Knowledge/KnowledgeDomain.md) — Knowledge base articles, directories, and tags
+* [**Customers**](./Customers/README.md) — Service desks, tickets, SLAs, and customer care
+* [**Knowledge**](./Knowledge/README.md) — Knowledge base articles, directories, and tags
 
 ### Platform Administration
 
-* [**System**](./System/SystemDomain.md) — User management, security, auditing, and system administration
+* [**System**](./System/README.md) — User management, security, auditing, and system administration
 
 ### Shared Functionality
 
 Some functionality is shared across all domains and is documented separately.
 
-* [**Common Features**](../Common/Common.md) — Shared code lists, user interface concepts, countries, currencies, tax rates, and other common functionality used throughout the platform.
+* [**Common Features**](../Common/README.md) — Shared code lists, user interface concepts, countries, currencies, tax rates, and other common functionality used throughout the platform.
 
 ## Need Help Finding Something?
 

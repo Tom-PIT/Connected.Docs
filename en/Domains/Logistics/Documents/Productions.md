@@ -29,7 +29,7 @@ To access this page, go to **Logistics / Documents / Productions** in the [navig
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Materials.md) | Produced item (typically a [product](../../Assets/Materials/Products.md) or [semi product](../../Assets/Materials/SemiProducts.md)). |
+| [**Material**](../../Assets/Materials/README.md) | Produced item (typically a [product](../../Assets/Materials/Products.md) or [semi product](../../Assets/Materials/SemiProducts.md)). |
 | **Quantity** | Produced quantity recorded for the material line. |
 
 </details>

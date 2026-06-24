@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/accounting -->
 <!-- app_label: Accounting domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/AccountingDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/README.md -->
 <!-- canonical_source_title: Accounting domain -->
 
 # Accounting

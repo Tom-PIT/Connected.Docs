@@ -29,7 +29,7 @@ To access this page, go to **Logistics / Documents / Consumptions** in the [navi
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Materials.md) | Consumed material ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
+| [**Material**](../../Assets/Materials/README.md) | Consumed material ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **Source** | Source identifier of the consumed item (for example, a serial number or packaging code, depending on the material tracking method). |
 | **Quantity** | Consumed quantity recorded for the material line. |
 
