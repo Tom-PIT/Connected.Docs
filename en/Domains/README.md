@@ -34,6 +34,7 @@ If you are new to the platform, start by selecting the domain that best matches 
 
 * [**Production**](./Production/README.md) — Production orders, execution, processes, and resources
 * [**Logistics**](./Logistics/README.md) — Warehousing, inventory management, and stock movements
+* [**Planning**](./Planning/README.md) — Planning and scheduling of production and supply processes
 * [**Maintenance**](./Maintenance/README.md) — Maintenance planning and execution
 * [**Quality**](./Quality/README.md) — Quality processes, classifications, inspections, and controls
 

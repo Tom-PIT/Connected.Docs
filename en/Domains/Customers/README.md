@@ -85,7 +85,7 @@ The **Customers** domain integrates with several other domains:
 | Area | Interaction |
 |------|-------------|
 | [**Sales**](../Sales/SalesDomain.md) | Customer and company data shared with commercial processes |
-| [**Projects**](../Projects/ProjectsDomain.md) | Tickets may relate to ongoing customer projects |
-| [**Maintenance**](../Maintenance/MaintenanceDomain.md) | Support tickets can be linked to maintenance orders or issues |
+| [**Projects**](../Projects/README.md) | Tickets may relate to ongoing customer projects |
+| [**Maintenance**](../Maintenance/README.md) | Support tickets can be linked to maintenance orders or issues |
 | [**Resources**](../Resources/ResourcesDomain.md) | Support workload and responsibility distribution |
 | [**Knowledge**](../Knowledge/README.md) | Documentation and knowledge base entries supporting issue resolution |

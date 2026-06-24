@@ -25,11 +25,11 @@ Explore the available domains:
 - [**Sales**](Domains/Sales/SalesDomain.md)
 - [**Accounting**](Domains/Accounting/README.md)
 - [**Assets**](Domains/Assets/AssetsDomain.md)
-- [**Projects**](Domains/Projects/ProjectsDomain.md)
+- [**Projects**](Domains/Projects/README.md)
 - [**Quality**](Domains/Quality/QualityDomain.md)
 - [**Customers**](Domains/Customers/README.md)
 - [**Resources**](Domains/Resources/ResourcesDomain.md)
-- [**Maintenance**](Domains/Maintenance/MaintenanceDomain.md)
+- [**Maintenance**](Domains/Maintenance/README.md)
 - [**Documents**](Domains/Documents/README.md)
 - [**System**](Domains/System/SystemDomain.md)
 

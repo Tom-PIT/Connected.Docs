@@ -133,5 +133,5 @@ Production integrates with several other operational domains:
 | **[Materials](../Assets/Materials/README.md)** | Defines what is being produced and consumed. |
 | **[Supply](../Supply/SupplyDomain.md)** | Provides materials needed for production. |
 | **[Logistics](../Logistics/README.md)** | Handles warehouse movements of consumed and produced items. |
-| **[Maintenance](../Maintenance/MaintenanceDomain.md)** | Shares processes, organization units, resources, and checklists; maintenance orders can use time/count-based schedules and link back to production resources and counters. |
+| **[Maintenance](../Maintenance/README.md)** | Shares processes, organization units, resources, and checklists; maintenance orders can use time/count-based schedules and link back to production resources and counters. |
 
