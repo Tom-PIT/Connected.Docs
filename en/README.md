@@ -1,35 +1,45 @@
-# Connected Docs (English)
+# Connected Documentation
 
-Welcome to the Connected documentation. This is the entry point for the documentation set in English and contains user guides, domain overviews, and code list references for operating the platform.
+Welcome to the documentation portal for Tom PIT.Connected.
 
-## Start here
+Tom PIT.Connected is an integrated business platform covering sales, supply, logistics, production, assets, projects, maintenance, quality, and other business processes.
 
-- Get an overview and first steps: [**Getting Started**](GettingStarted/00.GettingStarted.md)
-- Learn how to move around the product: [**Navigation**](Common/UI/Navigation.md)
-- Find all management and configuration docs: [**Management Index**](ManagementIndex.md)
+## Start Here
 
-## How the documentation is organized
+### New to the platform?
 
-- Domains (e.g., Production, Logistics, Supply, Sales, Maintenance, Quality)
-- Documents and Views (daily operational screens)
-- Management (shared master data and code lists)
+- [**Getting Started**](GettingStarted/00.GettingStarted.md) – Learn the basic concepts, system structure, and first configuration steps.
+- [**Navigation**](Common/UI/Navigation.md) – Understand how to move around the platform using the Sitemap and breadcrumbs.
 
-Use the site navigation and links inside each page to explore related topics.
+### Looking for configuration options?
 
-## Domains
+- [**Management Index**](ManagementIndex.md) – Access master data, settings, and configuration documentation.
 
-- [**Accounting**](Domains/Accounting/AccountingDomain.md)
-- [**Assets**](Domains/Assets/AssetsDomain.md)
-- [**Customers**](Domains/Customers/CustomersDomain.md)
-- [**Documents**](Domains/Documents/DocumentsDomain.md)
-- [**Knowledge**](Domains/Knowledge/KnowledgeDomain.md)
-- [**Logistics**](Domains/Logistics/LogisticsDomain.md)
-- [**Maintenance**](Domains/Maintenance/MaintenanceDomain.md)
-- [**Planning**](Domains/Planning/PlanningDomain.md)
-- [**Production**](Domains/Production/ProductionDomain.md)
-- [**Projects**](Domains/Projects/ProjectsDomain.md)
-- [**Quality**](Domains/Quality/QualityDomain.md)
-- [**Resources**](Domains/Resources/ResourcesDomain.md)
-- [**Sales**](Domains/Sales/SalesDomain.md)
-- [**Supply**](Domains/Supply/SupplyDomain.md)
-- [**System**](Domains/System/SystemDomain.md)
+### Looking for a specific business area?
+
+Explore the available domains:
+
+- [**Production**](Domains/Production/README.md)
+- [**Logistics**](Domains/Logistics/README.md)
+- [**Supply**](Domains/Supply/README.md)
+- [**Sales**](Domains/Sales/README.md)
+- [**Accounting**](Domains/Accounting/README.md)
+- [**Assets**](Domains/Assets/README.md)
+- [**Projects**](Domains/Projects/README.md)
+- [**Quality**](Domains/Quality/README.md)
+- [**Customers**](Domains/Customers/README.md)
+- [**Resources**](Domains/Resources/README.md)
+- [**Maintenance**](Domains/Maintenance/README.md)
+- [**Documents**](Domains/Documents/README.md)
+- [**System**](Domains/System/README.md)
+
+## Documentation Structure
+
+The documentation is organized into:
+
+- **Domains** – business processes and operational workflows
+- **Documents and Views** – day-to-day operational screens
+- **Management** – master data, code lists, and configuration
+- **Concepts** – shared platform functionality and terminology
+
+Use the navigation menu or the search box to quickly find relevant information.

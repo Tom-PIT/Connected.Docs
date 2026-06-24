@@ -20,7 +20,7 @@ To access this page, open a process version from **Production / Management / [Pr
 
 | Field | Description |
 |-------|-------------|
-| **Entity** | Select whether the input refers to a [**Material**](../../Assets/Materials.md) or a **Material tag**. |
+| **Entity** | Select whether the input refers to a [**Material**](../../Assets/Materials/README.md) or a **Material tag**. |
 | **Material type** | The category of the material: <br>• **[Products](../../Assets/Materials/Products.md)**<br>• **[Raw material](../../Assets/Materials/RawMaterials.md)**<br>• **[Repro materials](../../Assets/Materials/ReproMaterials.md)**<br>• **[Semi products](../../Assets/Materials/SemiProducts.md)** |
 | **Material** | The specific item being consumed (depends on the selected **Material type**). For example, for a raw material, it could be an **Oak Wood Board**. |
 | **Calculation type** | Determines how the quantity is calculated: <br>• **Dynamic** – Quantity depends on production order quantities. <br>• **Static** – Quantity is fixed. |

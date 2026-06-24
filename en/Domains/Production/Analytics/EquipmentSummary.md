@@ -47,7 +47,7 @@ This includes:
 ### Production order and operation  
 - Clickable [production order](../Documents/ProductionOrders.md) code (e.g., `PRO-24-000015`)  
 - [Operation](../Management/Operations.md) description  
-- [Material](../../Assets/Materials.md) being produced (e.g., product or semi product)
+- [Material](../../Assets/Materials/README.md) being produced (e.g., product or semi product)
 
 ### Incompliant  
 Shows defective pieces relative to total produced:

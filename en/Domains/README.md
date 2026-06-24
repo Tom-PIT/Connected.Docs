@@ -1,21 +1,63 @@
 # Domains
 
-This section contains domain-organized documentation. A domain groups all content related to a business area: its documents, views (reports), and management (code lists and settings). Use these entries to explore each domain’s overview and find its sub-sections.
+Business functionality in Tom PIT.Connected is organized into domains.
 
-Domains available in this documentation:
+A domain groups all functionality related to a specific business area, including:
 
-- [**Accounting**](./Accounting/AccountingDomain.md) — Financial accounting, ledger, invoices, Intrastat, statutory reports
-- [**Sales**](./Sales/SalesDomain.md) — Sales documents and flows, pricing, partner management
-- [**Logistics**](./Logistics/LogisticsDomain.md) — Warehousing, stock movements, inventories, locations
-- [**Production**](./Production/ProductionDomain.md) — Production orders, execution, processes, resources
-- [**System**](./System/SystemDomain.md) — System administration, user management, security, audit
-- [**Supply**](./Supply/SupplyDomain.md) — Supply planning, supplier collaboration, expenses
-- [**Projects**](./Projects/ProjectsDomain.md) — Project structures, planning, tracking
-- [**Resources**](./Resources/ResourcesDomain.md) — Human and non-human resources, timesheets, costs
-- [**Quality**](./Quality/QualityDomain.md) — Quality processes, classifications, controls
-- [**Maintenance**](./Maintenance/MaintenanceDomain.md) — Maintenance planning and execution
-- [**Customers**](./Customers/CustomersDomain.md) — Desks, tickets, SLAs, customer care
-- [**Knowledge**](./Knowledge/KnowledgeDomain.md) — Knowledge base articles, directories, tags
+* Documents and transactions
+* Views and reports
+* Management and configuration
+* Master data and code lists
 
-Note about the Common domain:
-- The Common domain contains shared code lists and common user interface features (countries, currencies, tax rates, etc.) used across other domains and is located outside this folder: [**Common domain**](../Common/Common.md).
+If you are new to the platform, start by selecting the domain that best matches your business process. You can also use the search box to quickly find specific documents, settings, or concepts.
+
+## Most Frequently Used Domains
+
+* [**Production**](./Production/README.md) — Production orders, execution, processes, and resources
+* [**Logistics**](./Logistics/README.md) — Warehousing, stock movements, inventories, and locations
+* [**Supply**](./Supply/README.md) — Supply planning, supplier collaboration, and procurement processes
+* [**Sales**](./Sales/README.md) — Sales documents, pricing, and customer management
+* [**Accounting**](./Accounting/README.md) — Financial accounting, ledger, invoices, and statutory reporting
+
+## Domains overview
+
+### Financial Management
+
+* [**Accounting**](./Accounting/README.md) — Financial accounting, ledger, invoices, Intrastat, and statutory reports
+
+### Commercial Operations
+
+* [**Sales**](./Sales/README.md) — Sales processes, quotations, orders, pricing, and customer management
+* [**Supply**](./Supply/README.md) — Procurement processes, supplier collaboration, and supply planning
+
+### Operations
+
+* [**Production**](./Production/README.md) — Production orders, execution, processes, and resources
+* [**Logistics**](./Logistics/README.md) — Warehousing, inventory management, and stock movements
+* [**Planning**](./Planning/README.md) — Planning and scheduling of production and supply processes
+* [**Maintenance**](./Maintenance/README.md) — Maintenance planning and execution
+* [**Quality**](./Quality/README.md) — Quality processes, classifications, inspections, and controls
+
+### Resources & Projects
+
+* [**Projects**](./Projects/README.md) — Project structures, planning, and tracking
+* [**Resources**](./Resources/README.md) — Human and non-human resources, timesheets, and costs
+
+### Customer & Knowledge Management
+
+* [**Customers**](./Customers/README.md) — Service desks, tickets, SLAs, and customer care
+* [**Knowledge**](./Knowledge/README.md) — Knowledge base articles, directories, and tags
+
+### Platform Administration
+
+* [**System**](./System/README.md) — User management, security, auditing, and system administration
+
+### Shared Functionality
+
+Some functionality is shared across all domains and is documented separately.
+
+* [**Common Features**](../Common/README.md) — Shared code lists, user interface concepts, countries, currencies, tax rates, and other common functionality used throughout the platform.
+
+## Need Help Finding Something?
+
+Use the search box in the top-right corner to search across all documentation, including domains, documents, views, settings, and management entries.

@@ -29,10 +29,10 @@ Additionally, on many screens, a **back arrow button** appears in the lower-righ
 
 Each domain contains the tools relevant to a specific business area. Examples include:
 
-- **[Sales](../../Domains/Sales/SalesDomain.md)**  
-- **[Logistics](../../Domains/Logistics/LogisticsDomain.md)**  
-- **[Supply](../../Domains/Supply/SupplyDomain.md)**  
-- **[Production](../../Domains/Production/ProductionDomain.md)**  
+- **[Sales](../../Domains/Sales/README.md)**  
+- **[Logistics](../../Domains/Logistics/README.md)**  
+- **[Supply](../../Domains/Supply/README.md)**  
+- **[Production](../../Domains/Production/README.md)**  
 
 > [!NOTE]
 >

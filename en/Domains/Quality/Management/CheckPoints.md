@@ -14,6 +14,8 @@ To access the check points for a checklist, open **Production / Management / Che
 > [!TIP]
 > For a full demonstration, see the **[Quality checkpoints](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
 
+> [!TIP]
+> For a step-by-step example of creating and using a checklist, see [**How to create a quality checklist**](ChecklistCreate.md).
 
 ## Schema
 
@@ -84,19 +86,21 @@ When selecting the **List** type, additional settings appear:
 
 | Attribute | Type | Description |
 |----------|------|-------------|
-| **Selection type** | Dropdown | Defines whether **single** or **multiple** values can be selected. |
+| **Selection type** | Dropdown | Defines whether **single** or **multiple** values can be selected. If **single**, only one value can be chosen. If **multiple**, several values can be selected. |
 
 The user can add list values:
 
 - Clicking **Add new value** opens input fields:
-  - **Text**
-  - **Valid** (checkbox)
+  - **Text** - The text displayed next to the checkbox for this value
+  - **Valid** (checkbox) - Indicates whether this value is valid or not. This is useful for quality checks where certain conditions may be marked as invalid, for **single** types, only one value can be valid.
 
 - Clicking **Add** saves the value to the list
 
 Added values are displayed in a table:
 - **Text**
 - **Valid**
+
+![Add list value](../Images/CheckpointListTable.png "Add list value")
 
 ### Type: Number
 
