@@ -52,7 +52,7 @@ nav:
   - English:
       - Introduction: en/README.md
       - Getting started: en/GettingStarted/00.GettingStarted.md
-      - Common features: en/Common/Common.md
+      - Common features: en/Common/README.md
       - Navigation: en/Common/UI/Navigation.md
       - Management index: en/ManagementIndex.md
       - Domains:
@@ -70,17 +70,17 @@ nav:
                 - Raw Materials: en/Domains/Assets/Materials/RawMaterials.md
                 - Semi products: en/Domains/Assets/Materials/SemiProducts.md
                 - Repro materials: en/Domains/Assets/Materials/ReproMaterials.md
-        - Supply: en/Domains/Supply/SupplyDomain.md
-        - Logistics: en/Domains/Logistics/LogisticsDomain.md
-        - Maintenance: en/Domains/Maintenance/MaintenanceDomain.md
-        - Knowledge: en/Domains/Knowledge/KnowledgeDomain.md
-        - Customers: en/Domains/Customers/CustomersDomain.md
-        - Documents: en/Domains/Documents/DocumentsDomain.md
-        - Sales: en/Domains/Sales/SalesDomain.md
-        - Accounting: en/Domains/Accounting/AccountingDomain.md
-        - Resources: en/Domains/Resources/ResourcesDomain.md
-        - Quality: en/Domains/Quality/QualityDomain.md
-        - System: en/Domains/System/SystemDomain.md
+        - Supply: en/Domains/Supply/README.md
+        - Logistics: en/Domains/Logistics/README.md
+        - Maintenance: en/Domains/Maintenance/README.md
+        - Knowledge: en/Domains/Knowledge/README.md
+        - Customers: en/Domains/Customers/README.md
+        - Documents: en/Domains/Documents/README.md
+        - Sales: en/Domains/Sales/README.md
+        - Accounting: en/Domains/Accounting/README.md
+        - Resources: en/Domains/Resources/README.md
+        - Quality: en/Domains/Quality/README.md
+        - System: en/Domains/System/README.md
   - Slovenščina: 
       - Introduction: sl/README.md
       - Uvod: sl/Uvod/00.Uvod.md

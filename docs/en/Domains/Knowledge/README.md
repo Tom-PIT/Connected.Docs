@@ -1,6 +1,6 @@
-﻿<!-- app_route: /sitemap/knowledge -->
+<!-- app_route: /sitemap/knowledge -->
 <!-- app_label: Knowledge domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/KnowledgeDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/README.md -->
 <!-- canonical_source_title: Knowledge domain -->
 
 # Knowledge

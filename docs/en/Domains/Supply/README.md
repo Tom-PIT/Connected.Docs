@@ -1,13 +1,13 @@
-﻿<!-- app_route: /sitemap/supply -->
+<!-- app_route: /sitemap/supply -->
 <!-- app_label: Supply domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/SupplyDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/README.md -->
 <!-- canonical_source_title: Supply domain -->
 
 # Supply
 
 The **Supply** domain manages all processes related to procurement, supplier interactions, and inbound material planning. It includes supplier inquiries, supply orders, planning tools, and analytical views that help maintain optimal stock levels and ensure timely replenishment.
 
-Where the **[Sales](../Sales/SalesDomain.md)** domain manages customer-facing activities, the Supply domain manages supplier-facing workflows that ensure materials are available when needed.
+Where the **[Sales](../Sales/README.md)** domain manages customer-facing activities, the Supply domain manages supplier-facing workflows that ensure materials are available when needed.
 
 To access Supply, navigate to **Supply** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -28,6 +28,9 @@ The domain is organized into several functional areas:
 
 ![Supply Domain Overview](Images/SupplyDomainOverviewV2.png "Supply Domain Overview")
 
+> [!TIP]
+> See [**How to create a supply order**](Documents/SupplyOrdersCreate.md) for a step-by-step guide of the creation of these documents.
+
 ## Documents
 
 The **Documents** section contains procurement-related documents used to request quotations or issue supply orders to vendors.
@@ -37,7 +40,7 @@ The **Documents** section contains procurement-related documents used to request
 Available documents include:
 
 - **[Inquiries](Documents/Inquiries.md)** – Requests sent to suppliers asking for quotations or availability. These do not affect stock and can typically be converted to supply orders via linked documents.
-- **[Supply orders](Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Numbering is configured in the [Supply configuration](Management/SupplyConfiguration.md). Receipts are registered in **Logistics** using [Receives](../Logistics/Documents/Receives.md).
+- **[Supply orders](Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Receipts are registered in **Logistics** using [receives](../Logistics/Documents/Receives.md).
 
 These documents initiate the procurement workflow and provide full traceability of supplier activity.
 
@@ -106,8 +109,8 @@ Supply integrates with other operational domains:
 
 | Area | Interaction |
 |------|-------------|
-| **[Materials](../Assets/Materials.md)** | Defines the items being procured. |
-| **[Logistics](../Logistics/LogisticsDomain.md)** | Receives incoming goods and updates stock. |
-| **[Production](../Production/ProductionDomain.md)** | Requires purchased materials for manufacturing processes. |
-| **[Sales](../Sales/SalesDomain.md)** | Relies on procurement to ensure availability of sold items. |
+| **[Materials](../Assets/Materials/README.md)** | Defines the items being procured. |
+| **[Logistics](../Logistics/README.md)** | Receives incoming goods and updates stock. |
+| **[Production](../Production/README.md)** | Requires purchased materials for manufacturing processes. |
+| **[Sales](../Sales/README.md)** | Relies on procurement to ensure availability of sold items. |
 

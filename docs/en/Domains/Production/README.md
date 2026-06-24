@@ -7,7 +7,7 @@
 
 The **Production** domain manages all processes related to manufacturing, shop-floor execution, and production analysis. It includes tools for planning and issuing production orders, executing operations, tracking consumption and production, and reviewing performance analytics.
 
-Where the **[Supply](../Supply/SupplyDomain.md)** domain ensures material availability, the Production domain ensures that these materials are transformed into finished or semi-finished goods through controlled and traceable workflows.
+Where the **[Supply](../Supply/README.md)** domain ensures material availability, the Production domain ensures that these materials are transformed into finished or semi-finished goods through controlled and traceable workflows.
 
 To access Production, navigate to **Production** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -34,11 +34,17 @@ The **[Production orders](Documents/ProductionOrders.md)** section contains the 
 
 Production orders move through the life cycle **Draft → Pending → Active → Closed** and form the basis of all execution activity.
 
+> [!TIP]
+> For a step-by-step overview of the creation of a new production order, see the [**How to create a production order**](Documents/ProductionOrderCreate.md).
+
 ## Execution
 
 The **[Execution](Documents/Execution.md)** module is used by production workers to perform real-time reporting: produced quantities, consumed materials, downtimes, losses, checklists, and effort.
 
 Execution ensures accurate data collection, enabling reliable analytics and traceability.
+
+> [!TIP]
+> Check the [**Execution – Quick User Guide**](../../GettingStarted/ExecutionQuickUserGuide.md) for a step-by-step overview of the execution workflow.
 
 ## Requirements
 
@@ -62,6 +68,7 @@ Available analytical views include:
 - **[Loss summary](Analytics/LossSummary.md)** – Distribution of losses (scrap, rework, inefficiency) by category.
 - **[Organization unit downtime](Analytics/OrganizationUnitDowntime.md)** – Downtime analysis by organization unit.
 - **[Organization unit loss](Analytics/OrganizationUnitLoss.md)** – Loss analysis by organization unit.
+- **[Version cost view](Analytics/VersionCostView.md)** – Estimated production cost per item for a specific process version, including materials, effort, and expenses.
 These insights support production planning, continuous improvement, and operational decision-making.
 
 ## Management
@@ -79,12 +86,21 @@ Available configuration and code lists include:
 - **[Job positions](Management/JobPositions.md)** – Roles and positions for shop-floor personnel.
 - **[Measure units](../../Common/Management/MeasureUnits.md)** – Unified measurement units across production.
 - **[Organization units](Management/OrganizationUnits.md)** – Hierarchical production units used for planning and analytics.
-- **[Processes](Management/Processes.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
+- **[Processes](Management/Processes.md)** and **[Operations](Management/Operations.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
 - **[Protocol operation instance templates](Management/ProtocolOperationsInstanceTemplates.md)** – Templates for step-by-step operation protocols.
-- **[Resources](../Resources/Management/Resources.md))** – Human and non-human resources used in production.
+- **[Resources](../Resources/Management/Resources.md)** – Human and non-human resources used in production.
+- **[Human resources](Management/HumanResources.md)** – People and roles assigned to production operations.
+- **[Non-human resources](Management/NonHumanResources.md)** – Machines, tools and equipment used in production operations.
+- **[Inputs](Management/Inputs.md)** – Material inputs and consumption definitions for operations.
+- **[Outputs](Management/Outputs.md)** – Produced items and by-products configured per operation.
+- **[Operation expenses](Management/OperationExpenses.md)** – Costing and expense categories for operations.
+- **[Quality checklists](Management/QualityChecklists.md)** – Production-specific checklists and quality controls.
 - **[Warehouse locations](Management/WarehouseLocations.md)** – Logistics-backed staging and storage locations for production.
 
 These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.
+
+> [!NOTE]
+> For a step-by-step overview of the configuration required to start production, see the [**How to create a production process**](Management/ProcessCreate.md) guide.
 
 > [!TIP]
 > See all management entries in the **[Management Index](../../ManagementIndex.md)**.
@@ -114,8 +130,8 @@ Production integrates with several other operational domains:
 
 | Area | Interaction |
 |------|-------------|
-| **[Materials](../Assets/Materials.md)** | Defines what is being produced and consumed. |
-| **[Supply](../Supply/SupplyDomain.md)** | Provides materials needed for production. |
-| **[Logistics](../Logistics/LogisticsDomain.md)** | Handles warehouse movements of consumed and produced items. |
-| **[Maintenance](../Maintenance/MaintenanceDomain.md)** | Shares processes, organization units, resources, and checklists; maintenance orders can use time/count-based schedules and link back to production resources and counters. |
+| **[Materials](../Assets/Materials/README.md)** | Defines what is being produced and consumed. |
+| **[Supply](../Supply/README.md)** | Provides materials needed for production. |
+| **[Logistics](../Logistics/README.md)** | Handles warehouse movements of consumed and produced items. |
+| **[Maintenance](../Maintenance/README.md)** | Shares processes, organization units, resources, and checklists; maintenance orders can use time/count-based schedules and link back to production resources and counters. |
 

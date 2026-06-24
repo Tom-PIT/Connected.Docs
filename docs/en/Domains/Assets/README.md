@@ -32,7 +32,7 @@ The domain is structured into several functional areas:
 
 - **[Asset price lists](Assets/AssetPriceLists.md)** – Used to prepare customer-specific selling prices for selected assets. Price lists support validity periods, company-specific pricing, and quantity-based discount ranges.
 
-- **[Materials](Materials.md)** – Materials are used to *build* assets or represent items handled in logistics workflows (stock, receives, issues, etc.). Unlike assets, materials are operational internal units.
+- **[Materials](README.md)** – Materials are used to *build* assets or represent items handled in logistics workflows (stock, receives, issues, etc.). Unlike assets, materials are operational internal units.
 
     - **[Products](Materials/Products.md)**
     - **[Raw materials](Materials/RawMaterials.md)**
@@ -48,11 +48,11 @@ The domain is structured into several functional areas:
 Understanding the distinction between these two concepts is essential. Although both represent items managed within your organization, they serve very different purposes.
 
 - **[Assets](Assets/Assets.md)** define what you *sell* to customers.
-- **[Materials](Materials.md)** define what you *use* internally in production and logistics.
+- **[Materials](README.md)** define what you *use* internally in production and logistics.
 
 The table below summarizes the key differences and helps determine where each type of item belongs.
 
-| Aspect | [**Assets**](Assets/Assets.md) | [**Materials**](Materials.md) |
+| Aspect | [**Assets**](Assets/Assets.md) | [**Materials**](README.md) |
 |--------|--------------------------------------|-------------------------------------------|
 | **Purpose** | Commercial items offered or sold to customers. | Operational items used internally in production or logistics. |
 | **Role in the system** | Appear in price lists, catalogs, offers, invoices, etc. | Appear in stock, receives, issues, production, and warehouse operations. |

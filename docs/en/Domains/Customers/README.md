@@ -1,13 +1,13 @@
 <!-- app_route: /sitemap/customers -->
 <!-- app_label: Customers Domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/CustomersDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/README.md -->
 <!-- canonical_source_title: Customers Domain -->
 
 # Customers
 
 The **Customers** domain provides tools for managing customer interactions, support requests, and service-related communication. It enables organizations to track incoming requests, resolve issues, monitor service levels, and maintain structured customer-related data.
 
-Where the **[Sales](../Sales/SalesDomain.md)** domain focuses on commercial transactions, the Customers domain focuses on **post-sale communication, issue resolution, and customer assistance**.
+Where the **[Sales](../Sales/README.md)** domain focuses on commercial transactions, the Customers domain focuses on **post-sale communication, issue resolution, and customer assistance**.
 
 To access this domain, navigate to **Customers** from the main sitemap.
 
@@ -84,8 +84,8 @@ The **Customers** domain integrates with several other domains:
 
 | Area | Interaction |
 |------|-------------|
-| [**Sales**](../Sales/SalesDomain.md) | Customer and company data shared with commercial processes |
-| [**Projects**](../Projects/ProjectsDomain.md) | Tickets may relate to ongoing customer projects |
-| [**Maintenance**](../Maintenance/MaintenanceDomain.md) | Support tickets can be linked to maintenance orders or issues |
-| [**Resources**](../Resources/ResourcesDomain.md) | Support workload and responsibility distribution |
-| [**Knowledge**](../Knowledge/KnowledgeDomain.md) | Documentation and knowledge base entries supporting issue resolution |
+| [**Sales**](../Sales/README.md) | Customer and company data shared with commercial processes |
+| [**Projects**](../Projects/README.md) | Tickets may relate to ongoing customer projects |
+| [**Maintenance**](../Maintenance/README.md) | Support tickets can be linked to maintenance orders or issues |
+| [**Resources**](../Resources/README.md) | Support workload and responsibility distribution |
+| [**Knowledge**](../Knowledge/README.md) | Documentation and knowledge base entries supporting issue resolution |
