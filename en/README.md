@@ -20,17 +20,17 @@ Tom PIT.Connected is an integrated business platform covering sales, supply, log
 Explore the available domains:
 
 - [**Production**](Domains/Production/README.md)
-- [**Logistics**](Domains/Logistics/LogisticsDomain.md)
+- [**Logistics**](Domains/Logistics/README.md)
 - [**Supply**](Domains/Supply/SupplyDomain.md)
 - [**Sales**](Domains/Sales/SalesDomain.md)
-- [**Accounting**](Domains/Accounting/AccountingDomain.md)
+- [**Accounting**](Domains/Accounting/README.md)
 - [**Assets**](Domains/Assets/AssetsDomain.md)
 - [**Projects**](Domains/Projects/ProjectsDomain.md)
 - [**Quality**](Domains/Quality/QualityDomain.md)
-- [**Customers**](Domains/Customers/CustomersDomain.md)
+- [**Customers**](Domains/Customers/README.md)
 - [**Resources**](Domains/Resources/ResourcesDomain.md)
 - [**Maintenance**](Domains/Maintenance/MaintenanceDomain.md)
-- [**Documents**](Domains/Documents/DocumentsDomain.md)
+- [**Documents**](Domains/Documents/README.md)
 - [**System**](Domains/System/SystemDomain.md)
 
 ## Documentation Structure

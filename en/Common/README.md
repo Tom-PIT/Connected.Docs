@@ -3,7 +3,7 @@
 
 # Common
 
-The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain — [**Sales**](../Domains/Sales/SalesDomain.md), [**Supply**](../Domains/Supply/SupplyDomain.md), [**Logistics**](../Domains/Logistics/LogisticsDomain.md), [**Production**](../Domains/Production/README.md)—relies on the Common module to operate correctly.
+The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain — [**Sales**](../Domains/Sales/SalesDomain.md), [**Supply**](../Domains/Supply/SupplyDomain.md), [**Logistics**](../Domains/Logistics/README.md), [**Production**](../Domains/Production/README.md)—relies on the Common module to operate correctly.
 
 Because of this, the Common module must be configured **before** using any other domain in the platform.
 
@@ -14,7 +14,7 @@ Example of Common code lists in the **Sales** domain:
 > [!IMPORTANT]  
 > The Common Code Lists should be the **first configuration step** when setting up the platform.  
 >  
->Without these values, [**Sales**](../Domains/Sales/SalesDomain.md), [**Supply**](../Domains/Supply/SupplyDomain.md), [**Logistics**](../Domains/Logistics/LogisticsDomain.md), and [**System Configuration**](../Domains/System/Settings/Configuration.md) cannot function correctly.
+>Without these values, [**Sales**](../Domains/Sales/SalesDomain.md), [**Supply**](../Domains/Supply/SupplyDomain.md), [**Logistics**](../Domains/Logistics/README.md), and [**System Configuration**](../Domains/System/Settings/Configuration.md) cannot function correctly.
 
 ## What is included in the Common module?
 
@@ -101,5 +101,5 @@ If the Common module is not configured first, users will encounter:
 - errors in system configuration  
 
 > [!CAUTION]  
-> Do not proceed with [**Sales**](../Domains/Sales/SalesDomain.md), [**Supply**](../Domains/Supply/SupplyDomain.md), [**Logistics**](../Domains/Logistics/LogisticsDomain.md), or [**System Configuration**](../Domains/System/Settings/Configuration.md) until all required Common Code Lists have been created.
+> Do not proceed with [**Sales**](../Domains/Sales/SalesDomain.md), [**Supply**](../Domains/Supply/SupplyDomain.md), [**Logistics**](../Domains/Logistics/README.md), or [**System Configuration**](../Domains/System/Settings/Configuration.md) until all required Common Code Lists have been created.
 

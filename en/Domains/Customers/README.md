@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/customers -->
 <!-- app_label: Customers Domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/CustomersDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/README.md -->
 <!-- canonical_source_title: Customers Domain -->
 
 # Customers
@@ -88,4 +88,4 @@ The **Customers** domain integrates with several other domains:
 | [**Projects**](../Projects/ProjectsDomain.md) | Tickets may relate to ongoing customer projects |
 | [**Maintenance**](../Maintenance/MaintenanceDomain.md) | Support tickets can be linked to maintenance orders or issues |
 | [**Resources**](../Resources/ResourcesDomain.md) | Support workload and responsibility distribution |
-| [**Knowledge**](../Knowledge/KnowledgeDomain.md) | Documentation and knowledge base entries supporting issue resolution |
+| [**Knowledge**](../Knowledge/README.md) | Documentation and knowledge base entries supporting issue resolution |

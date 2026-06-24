@@ -7,7 +7,7 @@
 
 The **Accounting** domain contains all records, reports, and configuration required to **record, control, and analyze financial transactions**.  
 
-It transforms operational documents created in other domains (such as [**Sales**](../Sales/SalesDomain.md), [**Supply**](../Supply/SupplyDomain.md), and [**Logistics**](../Logistics/LogisticsDomain.md)) into **official accounting entries**, ensuring compliance, traceability, and accurate financial reporting.
+It transforms operational documents created in other domains (such as [**Sales**](../Sales/SalesDomain.md), [**Supply**](../Supply/SupplyDomain.md), and [**Logistics**](../Logistics/README.md)) into **official accounting entries**, ensuring compliance, traceability, and accurate financial reporting.
 
 To access this domain, navigate to **Accounting** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -180,5 +180,5 @@ Accounting integrates tightly with other operational domains:
 |------|-------------|
 | **[Sales](../Sales/SalesDomain.md)** | Issued invoices, revenue recognition, receivables. |
 | **[Supply](../Supply/SupplyDomain.md)** | Received invoices, procurement costs, liabilities. |
-| **[Logistics](../Logistics/LogisticsDomain.md)** | Stock movements and valuation. |
+| **[Logistics](../Logistics/README.md)** | Stock movements and valuation. |
 | **[Assets](../Assets/AssetsDomain.md)** | Fixed assets, depreciation, long-term value tracking. |

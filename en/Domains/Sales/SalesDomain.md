@@ -108,7 +108,7 @@ Sales representatives create [offers](Documents/Offers.md) that outline items, q
 Customers confirm offers, generating [sales orders](Documents/SalesOrders.md) that drive fulfillment and invoicing.
 
 ### **3. Delivery**  
-[Delivery notes](Documents/DeliveryNotes.md) record the movement of goods to the customer, connecting Sales with **[Logistics](../Logistics/LogisticsDomain.md)**.
+[Delivery notes](Documents/DeliveryNotes.md) record the movement of goods to the customer, connecting Sales with **[Logistics](../Logistics/README.md)**.
 
 ### **4. Billing**  
 [Issued invoices](Documents/IssuedInvoices.md) document customer charges, supported by [debit notes](Documents/DebitNotes.md), [credit notes](Documents/CreditNotes.md), and [prepayments](Documents/Prepayments.md).
@@ -124,5 +124,5 @@ Sales integrates with other operational domains:
 |------|-------------|
 | **[Assets](../Assets/AssetsDomain.md)** | Defines the items, prices, and configurations used in sales documents. |
 | **[Materials](../Assets/Materials/README.md)** | Provides availability and stock data for planning and fulfillment. |
-| **[Logistics](../Logistics/LogisticsDomain.md)** | Manages the physical delivery of goods. |
+| **[Logistics](../Logistics/README.md)** | Manages the physical delivery of goods. |
 | **[Supply](../Supply/SupplyDomain.md)** | Ensures procurement of items sold to customers. |
