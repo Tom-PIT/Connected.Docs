@@ -20,7 +20,7 @@ To access this screen, go to **Production → Cooperators** in the [navigation](
 
 To make an operation available for cooperators:
 
-- The operation must belong to a **[Production order](ProductionOrders.md)** or the **Maintenance** domain (see [Maintenance domain](../../Maintenance/MaintenanceDomain.md)).
+- The operation must belong to a **[Production order](ProductionOrders.md)** or the **Maintenance** domain (see [Maintenance domain](../../Maintenance/README.md)).
 - In the operation creation or editing form, the tag `cooperator` must be assigned.
 - The external company must exist in the [**Business directory**](../../../Common/Management/BusinessDirectory.md) with the role **Cooperator** enabled.
 

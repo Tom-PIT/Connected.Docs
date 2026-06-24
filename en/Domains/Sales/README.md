@@ -1,13 +1,13 @@
-﻿<!-- app_route: /sitemap/sales -->
+<!-- app_route: /sitemap/sales -->
 <!-- app_label: Sales -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/SalesDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/README.md -->
 <!-- canonical_source_title: Sales -->
 
 # Sales
 
 The **Sales** domain contains all records and documents needed to manage commercial transactions with customers. It includes [**Offers**](Documents/Offers.md), [**Sales orders**](Documents/SalesOrders.md), [**Delivery notes**](Documents/DeliveryNotes.md), [**Issued invoices**](Documents/IssuedInvoices.md), and analytical views used to understand sales performance and document flows.
 
-Where the **[Assets](../Assets/AssetsDomain.md)** domain defines *what* is sold, the Sales domain defines *how* it is offered, confirmed, delivered, and billed.
+Where the **[Assets](../Assets/README.md)** domain defines *what* is sold, the Sales domain defines *how* it is offered, confirmed, delivered, and billed.
 
 To access this domain, navigate to **Sales** in the [navigation](../../Common/UI/Navigation.md).
 
@@ -47,6 +47,9 @@ Available sales documents include:
 - **[Retail proforma invoices](Documents/RetailProformaInvoices.md)** – Retail-mode proforma documents.
 
 Each document type contributes to the sales workflow, ensuring full traceability from initial offer to final invoice.
+
+> [!TIP]
+> See [**How to create an issued invoice**](Documents/IssuedInvoicesCreate.md) and [**How to create a sales order**](Documents/SalesOrdersCreate.md) for a step-by-step guide of the creation of these documents.
 
 ## Views
 
@@ -105,7 +108,7 @@ Sales representatives create [offers](Documents/Offers.md) that outline items, q
 Customers confirm offers, generating [sales orders](Documents/SalesOrders.md) that drive fulfillment and invoicing.
 
 ### **3. Delivery**  
-[Delivery notes](Documents/DeliveryNotes.md) record the movement of goods to the customer, connecting Sales with **[Logistics](../Logistics/LogisticsDomain.md)**.
+[Delivery notes](Documents/DeliveryNotes.md) record the movement of goods to the customer, connecting Sales with **[Logistics](../Logistics/README.md)**.
 
 ### **4. Billing**  
 [Issued invoices](Documents/IssuedInvoices.md) document customer charges, supported by [debit notes](Documents/DebitNotes.md), [credit notes](Documents/CreditNotes.md), and [prepayments](Documents/Prepayments.md).
@@ -119,7 +122,7 @@ Sales integrates with other operational domains:
 
 | Area | Interaction |
 |------|-------------|
-| **[Assets](../Assets/AssetsDomain.md)** | Defines the items, prices, and configurations used in sales documents. |
-| **[Materials](../Assets/Materials.md)** | Provides availability and stock data for planning and fulfillment. |
-| **[Logistics](../Logistics/LogisticsDomain.md)** | Manages the physical delivery of goods. |
-| **[Supply](../Supply/SupplyDomain.md)** | Ensures procurement of items sold to customers. |
+| **[Assets](../Assets/README.md)** | Defines the items, prices, and configurations used in sales documents. |
+| **[Materials](../Assets/Materials/README.md)** | Provides availability and stock data for planning and fulfillment. |
+| **[Logistics](../Logistics/README.md)** | Manages the physical delivery of goods. |
+| **[Supply](../Supply/README.md)** | Ensures procurement of items sold to customers. |

@@ -1,6 +1,6 @@
-﻿<!-- app_route: /sitemap/quality -->
+<!-- app_route: /sitemap/quality -->
 <!-- app_label: Quality -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/QualityDomain.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/README.md -->
 <!-- canonical_source_title: Quality -->
 
 # Quality
@@ -26,6 +26,9 @@ To access the Quality domain, navigate to **Quality** in the [navigation](../../
 The domain is structured into two functional areas:
 - **Management** - Configure and maintain checklist definitions used by production and maintenance.
 - **Views** - Operate and analyze real-time and historical checklist executions.
+
+> [!TIP]
+> See [**How to create a quality checklist**](Management/ChecklistCreate.md) for a step-by-step guide of the creation of these documents.
 
 ### Management
 

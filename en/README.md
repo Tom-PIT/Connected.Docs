@@ -19,19 +19,19 @@ Tom PIT.Connected is an integrated business platform covering sales, supply, log
 
 Explore the available domains:
 
-- [**Production**](Domains/Production/ProductionDomain.md)
-- [**Logistics**](Domains/Logistics/LogisticsDomain.md)
-- [**Supply**](Domains/Supply/SupplyDomain.md)
-- [**Sales**](Domains/Sales/SalesDomain.md)
-- [**Accounting**](Domains/Accounting/AccountingDomain.md)
-- [**Assets**](Domains/Assets/AssetsDomain.md)
-- [**Projects**](Domains/Projects/ProjectsDomain.md)
-- [**Quality**](Domains/Quality/QualityDomain.md)
-- [**Customers**](Domains/Customers/CustomersDomain.md)
-- [**Resources**](Domains/Resources/ResourcesDomain.md)
-- [**Maintenance**](Domains/Maintenance/MaintenanceDomain.md)
-- [**Documents**](Domains/Documents/DocumentsDomain.md)
-- [**System**](Domains/System/SystemDomain.md)
+- [**Production**](Domains/Production/README.md)
+- [**Logistics**](Domains/Logistics/README.md)
+- [**Supply**](Domains/Supply/README.md)
+- [**Sales**](Domains/Sales/README.md)
+- [**Accounting**](Domains/Accounting/README.md)
+- [**Assets**](Domains/Assets/README.md)
+- [**Projects**](Domains/Projects/README.md)
+- [**Quality**](Domains/Quality/README.md)
+- [**Customers**](Domains/Customers/README.md)
+- [**Resources**](Domains/Resources/README.md)
+- [**Maintenance**](Domains/Maintenance/README.md)
+- [**Documents**](Domains/Documents/README.md)
+- [**System**](Domains/System/README.md)
 
 ## Documentation Structure
 

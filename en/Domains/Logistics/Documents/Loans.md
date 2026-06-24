@@ -33,7 +33,7 @@ To access Loans, go to **Logistics / Documents / Loans** in the [navigation](../
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Materials.md) | Item being loaned (product, raw material, semi product, etc.). |
+| [**Material**](../../Assets/Materials/README.md) | Item being loaned (product, raw material, semi product, etc.). |
 | **Serial number** | Selected serial number for serialized items. |
 | **Best before** | Expiration date if applicable. |
 | [**Warehouse location**](../Management/Locations.md) | Storage location from which the item is taken. |

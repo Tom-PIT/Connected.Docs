@@ -33,7 +33,7 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 
 | Field | Description |
 |-------|-------------|
-| [**Material**](../../Assets/Materials.md) | The material stored at the selected location ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
+| [**Material**](../../Assets/Materials/README.md) | The material stored at the selected location ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **Location** | Storage location where the inventory is being performed. |
 | **Theoretical** | Quantity currently recorded in the system. |
 | **Actual** | Physically verified quantity (editable). |

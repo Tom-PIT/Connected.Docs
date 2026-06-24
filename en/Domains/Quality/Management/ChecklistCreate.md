@@ -60,7 +60,7 @@ To add a check point:
 > [!NOTE]
 > Use the **Ordinal** field on each check point to define the order in which check points appear.
 
-![Add check point](../Images/ChecklistExampleCheckpointNew.png "Add a new checpoint")
+![Add check point](../Images/ChecklistExampleCheckpointNew.png "Add a new checkpoint")
 
 After creating the check point, additional settings may be available depending on the selected **Type**.
 
@@ -180,7 +180,7 @@ When creating the check point:
 * Enter a **Name**
 * Set **Type** to **File upload**
 
-Example:
+### Example
 
 * **Name**: *Upload finished product photo*
 * **Instructions**: *Upload a photo of the finished product for traceability purposes.*
@@ -194,7 +194,7 @@ Once configured, the checklist can be attached to production or maintenance proc
 ![Attach checklist to process](../Images/ChecklistExampleAddToProcess.png "Attach checklist to process")
 
 > [!NOTE]
-> Checklists can also be attached to [organization units](../../../Common/Management/OrganizationUnits.md), allowing them to be automatically included in any process executed by that unit.
+> Checklists can also be attached to [organization units](../../Production/Management/OrganizationUnits.md), allowing them to be automatically included in any process executed by that unit.
 
 During execution, operators complete the required check points and provide the requested information.
 

@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/system -->
+<!-- app_label: System domain -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/README.md -->
+<!-- canonical_source_title: System domain -->
+
 # System
 
 The **System** domain contains administrative tools used to configure, secure, and maintain the platform.
@@ -97,10 +102,10 @@ The System domain supports all other domains throughout the platform.
 
 | Area            | Interaction                                                          |
 | --------------- | -------------------------------------------------------------------- |
-| [**Sales** ](../Sales/SalesDomain.md)      | Supplies fiscalization, organization, and user settings.             |
-| [**Supply** ](../Supply/SupplyDomain.md)     | Provides warehouse and integration settings.                         |
-| [**Production**](../Production/ProductionDomain.md)  | Supplies user, localization, and system-wide configuration.          |
-| [**Maintenance**](../Maintenance/MaintenanceDomain.md) | Provides access control and shared configuration.                    |
-| [**Resources**](../Resources/ResourcesDomain.md)   | Uses users, roles, and localization settings.                        |
+| [**Sales** ](../Sales/README.md)      | Supplies fiscalization, organization, and user settings.             |
+| [**Supply** ](../Supply/README.md)     | Provides warehouse and integration settings.                         |
+| [**Production**](../Production/README.md)  | Supplies user, localization, and system-wide configuration.          |
+| [**Maintenance**](../Maintenance/README.md) | Provides access control and shared configuration.                    |
+| [**Resources**](../Resources/README.md)   | Uses users, roles, and localization settings.                        |
 
 The System domain acts as the administrative foundation of the platform and supports the operation of all business processes.
