@@ -6,3 +6,13 @@
     max-width: 90%;
     height: auto;
 }
+
+/* Slightly improve normal section lists */
+.md-typeset h2 + ul {
+    margin-top: 0.4rem;
+}
+
+.md-typeset h2 {
+    margin-top: 1.6rem;
+}
+

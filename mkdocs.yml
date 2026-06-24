@@ -12,13 +12,14 @@ theme:
   
   palette:
     primary: blue
-    accent: blue gray
+    accent: blue grey
   
   icon:
     logo: material/office-building
   
   features:
     - navigation.tabs
+  #  - navigation.expand
     - navigation.sections
     - navigation.indexes
     - navigation.top
@@ -49,22 +50,55 @@ markdown_extensions:
 nav:
   - Home: index.md
   - English:
-      - Introduction: en/index.md
+      - Introduction: en/README.md
       - Getting started: en/GettingStarted/00.GettingStarted.md
       - Common features: en/Common/Common.md
       - Navigation: en/Common/UI/Navigation.md
+      - Management index: en/ManagementIndex.md
       - Domains:
-        - Overview: en/Domains/index.md
-        - Production: en/Domains/Production/ProductionDomain.md
-        - Assets: en/Domains/Assets/AssetsDomain.md
+        - Overview: en/Domains/README.md
+        - Production: 
+            - Overview: en/Domains/Production/README.md
+            - Production Orders: en/Domains/Production/Documents/ProductionOrders.md
+        - Assets: 
+            - Overview: en/Domains/Assets/README.md
+            - Assets: en/Domains/Assets/Assets/Assets.md
+            - Assets price lists: en/Domains/Assets/Assets/AssetPriceLists.md
+            - Materials: 
+                - Overview: en/Domains/Assets/Materials/README.md
+                - Products: en/Domains/Assets/Materials/Products.md
+                - Raw Materials: en/Domains/Assets/Materials/RawMaterials.md
+                - Semi products: en/Domains/Assets/Materials/SemiProducts.md
+                - Repro materials: en/Domains/Assets/Materials/ReproMaterials.md
         - Supply: en/Domains/Supply/SupplyDomain.md
+        - Logistics: en/Domains/Logistics/LogisticsDomain.md
+        - Maintenance: en/Domains/Maintenance/MaintenanceDomain.md
+        - Knowledge: en/Domains/Knowledge/KnowledgeDomain.md
+        - Customers: en/Domains/Customers/CustomersDomain.md
+        - Documents: en/Domains/Documents/DocumentsDomain.md
+        - Sales: en/Domains/Sales/SalesDomain.md
+        - Accounting: en/Domains/Accounting/AccountingDomain.md
+        - Resources: en/Domains/Resources/ResourcesDomain.md
+        - Quality: en/Domains/Quality/QualityDomain.md
+        - System: en/Domains/System/SystemDomain.md
   - Slovenščina: 
-      - Introduction: sl/index.md
+      - Introduction: sl/README.md
       - Uvod: sl/Uvod/00.Uvod.md
       - Skupno: sl/Skupno/Skupno.md
       - Navigacija: sl/Skupno/UI/Navigacija.md
+      - Kazalo upravljanja: sl/KazaloUpravljanja.md
       - Domene:
-        - Pregled: sl/Domene/index.md
+        - Pregled: sl/Domene/README.md
         - Proizvodnja: sl/Domene/Proizvodnja/Proizvodnja.md
         - Sredstva: sl/Domene/Sredstva/DomenaSredstve.md
         - Nabava: sl/Domene/Nabava/Nabava.md
+        - Logistika: sl/Domene/Logistika/Logistika.md
+        - Vzdrzevanje: sl/Domene/Vzdrzevanje/Vzdrzevanje.md
+        - Znanje: sl/Domene/Znanje/Znanje.md
+        - Stranke: sl/Domene/Stranke/Stranke.md
+        - Dokumenti: sl/Domene/Dokumenti/Dokumenti.md
+        - Prodaja: sl/Domene/Prodaja/Prodaja.md
+        - Racunovodstvo: sl/Domene/Racunovodstvo/Racunovodstvo.md
+        - Viri: sl/Domene/Viri/Viri.md
+        - Kvaliteta: sl/Domene/Kvaliteta/Kvaliteta.md
+        - Sistem: sl/Domene/Sistem/Sistem.md

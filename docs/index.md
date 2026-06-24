@@ -6,15 +6,17 @@ Tom PIT.Connected is a global digital transformation platform that covers the fu
 
 Documentation is organized by language/country because regulations and processes can vary. Choose your preferred language and start exploring the platform:
 
-- [**English**](en/index.md)
-- [**Slovenian**](sl/index.md)
+<div class="grid cards" markdown>
 
-You can also start here:
+- ### **English**
+    - [**Home**](en/README.md) – Main entry point to the documentation portal in English.
+    - [**Getting started**](en/GettingStarted/00.GettingStarted.md) – Overview of the structure, first steps to configure the system, and typical workflow overviews.
+    - [**Navigation**](en/Common/UI/Navigation.md) – How to find domains, documents, and settings using the sitemap and breadcrumbs.
 
-- English:
-  - [**Getting started**](en/GettingStarted/00.GettingStarted.md) — Overview of the structure, first steps to configure the system, and typical workflow overviews.
-  - [**Navigation**](en/Common/UI/Navigation.md) — How to find domains, documents, and settings using the Sitemap and breadcrumbs.
+- ### **Slovenščina**
 
-- Slovenščina:
-  - [**Uvod**](sl/Uvod/00.Uvod.md) — Pregled strukture, prvi koraki za nastavitev sistema in tipični poteki dela.
-  - [**Navigacija**](sl/Skupno/UI/Navigacija.md) — Kako najti domene, dokumente in nastavitve z uporabo zemljevida in navigacijskih poti.
+    - [**Domov**](sl/README.md) – Glavna vstopna točka v dokumentacijski portal v slovenščini.
+    - [**Uvod**](sl/Uvod/00.Uvod.md) – Pregled strukture, prvi koraki za nastavitev sistema in tipični poteki dela.
+    - [**Navigacija**](sl/Skupno/UI/Navigacija.md) – Kako najti domene, dokumente in nastavitve z uporabo zemljevida in navigacijskih poti.
+
+</div>
