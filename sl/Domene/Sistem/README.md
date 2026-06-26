@@ -105,6 +105,6 @@ Domena Sistem podpira vse druge domene platforme.
 | [**Prodaja**](../Prodaja/README.md) | Zagotavlja nastavitve fiskalizacije, organizacije in uporabnikov. |
 | [**Nabava**](../Nabava/README.md) | Zagotavlja nastavitve skladišča in integracij. |
 | [**Proizvodnja**](../Proizvodnja/README.md) | Uporablja uporabnike, lokalizacijo in sistemske nastavitve. |
-| [**Vzdrževanje**](../Vzdrzevanje/Vzdrzevanje.md) | Uporablja nadzor dostopa in skupne sistemske nastavitve. |
-| [**Viri**](../Viri/Viri.md) | Uporablja uporabnike, vloge in lokalizacijske nastavitve. |
+| [**Vzdrževanje**](../Vzdrzevanje/README.md) | Uporablja nadzor dostopa in skupne sistemske nastavitve. |
+| [**Viri**](../Viri/README.md) | Uporablja uporabnike, vloge in lokalizacijske nastavitve. |
 Domena Sistem predstavlja administrativno osnovo platforme in podpira delovanje vseh poslovnih procesov.

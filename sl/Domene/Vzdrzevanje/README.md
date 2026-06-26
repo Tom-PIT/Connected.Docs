@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/maintenance -->
 <!-- app_label: Vzdrževanje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Vzdrzevanje.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/README.md -->
 <!-- canonical_source_title: Vzdrževanje -->
 
 # Vzdrževanje
