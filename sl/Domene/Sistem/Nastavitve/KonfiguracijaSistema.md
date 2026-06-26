@@ -10,7 +10,7 @@ osnovne konfiguracije, ki določajo delovanje celotnega sistema na ravni organiz
 
 > [!IMPORTANT]
 > Te nastavitve uporabljajo skoraj vsa področja sistema
-> (npr. [Prodaja](../../Prodaja/Prodaja.md),
+> (npr. [Prodaja](../../Prodaja/README.md),
 > [Nabava](../../Nabava/README.md),
 > [Logistika](../../Logistika/README.md),
 > [Sredstva](../../Sredstva/DomenaSredstve.md))

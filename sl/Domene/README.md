@@ -13,10 +13,10 @@ Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem
 
 ## Najpogosteje Uporabljene Domene
 
-* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
+* [**Proizvodnja**](./Proizvodnja/README.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
 * [**Logistika**](./Logistika/README.md) — Skladiščenje, premiki zalog, inventure in lokacije
 * [**Nabava**](./Nabava/README.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
-* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni dokumenti, ceniki in upravljanje strank
+* [**Prodaja**](./Prodaja/README.md) — Prodajni dokumenti, ceniki in upravljanje strank
 * [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
 
 ## Pregled domen
@@ -27,19 +27,19 @@ Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem
 
 ### Komerciala
 
-* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni procesi, ponudbe, naročila, ceniki in upravljanje poslovnih partnerjev
+* [**Prodaja**](./Prodaja/README.md) — Prodajni procesi, ponudbe, naročila, ceniki in upravljanje poslovnih partnerjev
 * [**Nabava**](./Nabava/README.md) — Nabavni procesi, sodelovanje z dobavitelji in planiranje nabave
 
 ### Operativa
 
-* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
+* [**Proizvodnja**](./Proizvodnja/README.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
 * [**Logistika**](./Logistika/README.md) — Skladiščenje, upravljanje zalog in premiki materiala
 * [**Vzdrževanje**](./Vzdrzevanje/Vzdrzevanje.md) — Planiranje in izvajanje vzdrževanja
 * [**Kvaliteta**](./Kvaliteta/README.md) — Procesi kakovosti, klasifikacije, kontrole in pregledi
 
 ### Viri in Projekti
 
-* [**Projekti**](./Projekti/DomenaProjektov.md) — Projektne strukture, planiranje in spremljanje projektov
+* [**Projekti**](./Projekti/README.md) — Projektne strukture, planiranje in spremljanje projektov
 * [**Viri**](./Viri/Viri.md) — Človeški in nečloveški viri, razporejanje in stroški
 
 ### Stranke in Znanje

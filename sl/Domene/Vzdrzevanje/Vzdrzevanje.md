@@ -45,7 +45,7 @@ Domena je strukturirana v funkcionalna področja za dnevno delo in analizo:
 
 Konfiguracija skupnih struktur, ki se uporabljajo pri vzdrževanju.
 Domena Vzdrževanje uporablja skupne šifrante, ki so deljeni s
-[**Proizvodnjo**](../Proizvodnja/Proizvodnja.md).
+[**Proizvodnjo**](../Proizvodnja/README.md).
 
 ![Upravljanje domene vzdrževanja](Images/MaintenanceDomainManagementSL.png "Upravljanje domene vzdrževanja")
 

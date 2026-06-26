@@ -1,4 +1,4 @@
-﻿<!-- app_route: /sitemap/customers -->
+<!-- app_route: /sitemap/customers -->
 <!-- app_label: Domena Stranke -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Stranke.md -->
 <!-- canonical_source_title: Stranke -->
@@ -7,7 +7,7 @@
 
 Domena **Stranke** zagotavlja orodja za upravljanje interakcij s strankami, podpornih zahtevkov in komunikacije, povezane s storitvami. Organizacijam omogoča spremljanje prejetih prijav, reševanje težav, nadzor ravni storitev ter vzdrževanje strukturiranih podatkov o strankah.
 
-Medtem ko se domena **[Prodaja](../Prodaja/Prodaja.md)** osredotoča na komercialne transakcije, se domena Stranke osredotoča na **poprodajno komunikacijo, reševanje težav in podporo strankam**.
+Medtem ko se domena **[Prodaja](../Prodaja/README.md)** osredotoča na komercialne transakcije, se domena Stranke osredotoča na **poprodajno komunikacijo, reševanje težav in podporo strankam**.
 
 Za dostop do domene pojdite na **Stranke** v glavnem zemljevidu aplikacije.
 
@@ -91,8 +91,8 @@ Domena Stranke je tesno povezana z drugimi področji sistema:
 
 | Področje | Povezava |
 |--------|----------|
-| [**Prodaja**](../Prodaja/Prodaja.md) | Skupni podatki o strankah in podjetjih |
-| [**Projekti**](../Projekti/DomenaProjektov.md) | Prijave se lahko nanašajo na projekte strank |
+| [**Prodaja**](../Prodaja/README.md) | Skupni podatki o strankah in podjetjih |
+| [**Projekti**](../Projekti/README.md) | Prijave se lahko nanašajo na projekte strank |
 | [**Vzdrževanje**](../Vzdrzevanje/Vzdrzevanje.md) | Prijave so lahko povezane z vzdrževalnimi nalogi |
 | [**Viri**](../Viri/Viri.md) | Razporejanje in obremenitev podpornih ekip |
 | [**Znanje**](../Znanje/Znanje.md) | Dokumentacija in baza znanja za podporo reševanju težav |
