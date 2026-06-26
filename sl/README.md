@@ -20,17 +20,17 @@ Tom PIT.Connected je integrirana poslovna platforma, ki pokriva prodajo, nabavo,
 Raziščite posamezne domene:
 
 - [**Proizvodnja**](Domene/Proizvodnja/Proizvodnja.md)
-- [**Logistika**](Domene/Logistika/Logistika.md)
-- [**Nabava**](Domene/Nabava/Nabava.md)
+- [**Logistika**](Domene/Logistika/README.md)
+- [**Nabava**](Domene/Nabava/README.md)
 - [**Prodaja**](Domene/Prodaja/Prodaja.md)
 - [**Računovodstvo**](Domene/Racunovodstvo/Racunovodstvo.md)
 - [**Sredstva**](Domene/Sredstva/DomenaSredstve.md)
 - [**Projekti**](Domene/Projekti/DomenaProjektov.md)
-- [**Kakovost**](Domene/Kvaliteta/Kvaliteta.md)
+- [**Kakovost**](Domene/Kvaliteta/README.md)
 - [**Stranke**](Domene/Stranke/Stranke.md)
 - [**Viri**](Domene/Viri/Viri.md)
 - [**Vzdrževanje**](Domene/Vzdrzevanje/Vzdrzevanje.md)
-- [**Dokumenti**](Domene/Dokumenti/Dokumenti.md)
+- [**Dokumenti**](Domene/Dokumenti/README.md)
 - [**Sistem**](Domene/Sistem/Sistem.md)
 
 ## Organizacija dokumentacije

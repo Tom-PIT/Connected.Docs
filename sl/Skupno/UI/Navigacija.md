@@ -30,8 +30,8 @@ Na številnih zaslonih je v spodnjem desnem kotu na voljo tudi **gumb s puščic
 Vsaka domena vsebuje orodja, povezana z določenim poslovnim področjem. Primeri vključujejo:
 
 - **[Prodaja](../../Domene/Prodaja/Prodaja.md)**  
-- **[Logistika](../../Domene/Logistika/Logistika.md)**  
-- **[Nabava](../../Domene/Nabava/Nabava.md)**  
+- **[Logistika](../../Domene/Logistika/README.md)**  
+- **[Nabava](../../Domene/Nabava/README.md)**  
 - **[Proizvodnja](../../Domene/Proizvodnja/Proizvodnja.md)**  
 
 > [!NOTE]

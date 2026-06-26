@@ -14,8 +14,8 @@ Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem
 ## Najpogosteje Uporabljene Domene
 
 * [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
-* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, premiki zalog, inventure in lokacije
-* [**Nabava**](./Nabava/Nabava.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
+* [**Logistika**](./Logistika/README.md) — Skladiščenje, premiki zalog, inventure in lokacije
+* [**Nabava**](./Nabava/README.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
 * [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni dokumenti, ceniki in upravljanje strank
 * [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
 
@@ -28,14 +28,14 @@ Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem
 ### Komerciala
 
 * [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni procesi, ponudbe, naročila, ceniki in upravljanje poslovnih partnerjev
-* [**Nabava**](./Nabava/Nabava.md) — Nabavni procesi, sodelovanje z dobavitelji in planiranje nabave
+* [**Nabava**](./Nabava/README.md) — Nabavni procesi, sodelovanje z dobavitelji in planiranje nabave
 
 ### Operativa
 
 * [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
-* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, upravljanje zalog in premiki materiala
+* [**Logistika**](./Logistika/README.md) — Skladiščenje, upravljanje zalog in premiki materiala
 * [**Vzdrževanje**](./Vzdrzevanje/Vzdrzevanje.md) — Planiranje in izvajanje vzdrževanja
-* [**Kvaliteta**](./Kvaliteta/Kvaliteta.md) — Procesi kakovosti, klasifikacije, kontrole in pregledi
+* [**Kvaliteta**](./Kvaliteta/README.md) — Procesi kakovosti, klasifikacije, kontrole in pregledi
 
 ### Viri in Projekti
 

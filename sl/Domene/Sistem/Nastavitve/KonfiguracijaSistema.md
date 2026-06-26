@@ -11,8 +11,8 @@ osnovne konfiguracije, ki določajo delovanje celotnega sistema na ravni organiz
 > [!IMPORTANT]
 > Te nastavitve uporabljajo skoraj vsa področja sistema
 > (npr. [Prodaja](../../Prodaja/Prodaja.md),
-> [Nabava](../../Nabava/Nabava.md),
-> [Logistika](../../Logistika/Logistika.md),
+> [Nabava](../../Nabava/README.md),
+> [Logistika](../../Logistika/README.md),
 > [Sredstva](../../Sredstva/DomenaSredstve.md))
 > in jih je treba pravilno nastaviti **pred začetkom operativnega dela**.
 
