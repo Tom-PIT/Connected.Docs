@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/ManagementIndex.md -->
+<!-- canonical_source_title: Management Index -->
+
 # Management Index
 
 This index lists all management and configuration documentation across domains. Use it to quickly find and open code lists, configurations, and master data screens.
