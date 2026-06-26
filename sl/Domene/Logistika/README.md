@@ -130,6 +130,6 @@ Logistika je tesno povezana z drugimi področji sistema:
 |--------|----------|
 | **[Materiali](../Sredstva/Materiali.md)** | Določa materiale, ki se skladiščijo in premikajo. |
 | **[Sredstva](../Sredstva/DomenaSredstve.md)** | Razpoložljivost temelji na stanju zaloge. |
-| **[Proizvodnja](../Proizvodnja/Proizvodnja.md)** | Izdaje in prevzemi povezujejo logistiko s proizvodnjo. |
+| **[Proizvodnja](../Proizvodnja/README.md)** | Izdaje in prevzemi povezujejo logistiko s proizvodnjo. |
 | **[Vzdrževanje](../Vzdrzevanje/Vzdrzevanje.md)** | Rezervni deli in materiali tečejo skozi logistiko. |
-| **[Prodaja](../Prodaja/Prodaja.md)** / **[Nabava](../Nabava/README.md)** | Logistika zagotavlja pravilno izpolnjevanje naročil. |
+| **[Prodaja](../Prodaja/README.md)** / **[Nabava](../Nabava/README.md)** | Logistika zagotavlja pravilno izpolnjevanje naročil. |
