@@ -1,4 +1,4 @@
-# Connected Documentation
+# Tom PIT.Connected documentation
 
 Welcome to the documentation portal for **Tom PIT.Connected**.
 
