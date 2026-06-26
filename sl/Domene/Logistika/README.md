@@ -1,6 +1,6 @@
-﻿<!-- app_route: /sitemap/logistics -->
+<!-- app_route: /sitemap/logistics -->
 <!-- app_label: Logistika -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Logistika.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/README.md -->
 <!-- canonical_source_title: Logistika -->
 
 # Logistika
@@ -132,4 +132,4 @@ Logistika je tesno povezana z drugimi področji sistema:
 | **[Sredstva](../Sredstva/DomenaSredstve.md)** | Razpoložljivost temelji na stanju zaloge. |
 | **[Proizvodnja](../Proizvodnja/Proizvodnja.md)** | Izdaje in prevzemi povezujejo logistiko s proizvodnjo. |
 | **[Vzdrževanje](../Vzdrzevanje/Vzdrzevanje.md)** | Rezervni deli in materiali tečejo skozi logistiko. |
-| **[Prodaja](../Prodaja/Prodaja.md)** / **[Nabava](../Nabava/Nabava.md)** | Logistika zagotavlja pravilno izpolnjevanje naročil. |
+| **[Prodaja](../Prodaja/Prodaja.md)** / **[Nabava](../Nabava/README.md)** | Logistika zagotavlja pravilno izpolnjevanje naročil. |

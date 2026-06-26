@@ -107,7 +107,7 @@ Prodajni predstavniki ustvarijo [ponudbe](Dokumenti/Ponudbe.md), ki opredelijo i
 Stranke potrdijo ponudbe, kar ustvari [naročila strank](Dokumenti/NarocilaStrank.md), ki sprožijo izvedbo.
 
 ### **3. Dobava**  
-[Dobavnice](Dokumenti/Dobavnice.md) beležijo premik blaga k stranki in povezujejo prodajo s področjem **[Logistika](../Logistika/Logistika.md)**.
+[Dobavnice](Dokumenti/Dobavnice.md) beležijo premik blaga k stranki in povezujejo prodajo s področjem **[Logistika](../Logistika/README.md)**.
 
 ### **4. Obračun**  
 [Izdani računi](Dokumenti/IzdaniRacuni.md) zaračunajo stranki, po potrebi podprti z [bremepisi](Dokumenti/Bremepisi.md), [dobropisi](Dokumenti/Dobropisi.md) in [predplačili](Dokumenti/AvansniRacuni.md).
@@ -123,5 +123,5 @@ Področje Prodaja je tesno povezano z drugimi operativnimi področji:
 |--------|----------|
 | **[Sredstva](../Sredstva/DomenaSredstve.md)** | Določa izdelke, cene in konfiguracije, uporabljene v prodajnih dokumentih. |
 | **[Materiali](../Sredstva/Materiali.md)** | Zagotavlja podatke o razpoložljivosti in zalogi. |
-| **[Logistika](../Logistika/Logistika.md)** | Upravljanje fizične dobave blaga. |
-| **[Nabava](../Nabava/Nabava.md)** | Zagotavlja nabavo izdelkov, prodanih strankam. |
+| **[Logistika](../Logistika/README.md)** | Upravljanje fizične dobave blaga. |
+| **[Nabava](../Nabava/README.md)** | Zagotavlja nabavo izdelkov, prodanih strankam. |

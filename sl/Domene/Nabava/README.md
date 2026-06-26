@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/supply -->
 <!-- app_label: Nabava -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Nabava.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/README.md -->
 <!-- canonical_source_title: Nabava -->
 
 # Nabava
@@ -110,6 +110,6 @@ Področje Nabava je povezano z drugimi operativnimi področji:
 | Področje | Povezava |
 |--------|----------|
 | **[Materiali](../Sredstva/Materiali.md)** | Določa materiale, ki se nabavljajo. |
-| **[Logistika](../Logistika/Logistika.md)** | Prevzema vhodno blago in posodablja zalogo. |
+| **[Logistika](../Logistika/README.md)** | Prevzema vhodno blago in posodablja zalogo. |
 | **[Proizvodnja](../Proizvodnja/Proizvodnja.md)** | Uporablja kupljene materiale v proizvodnih procesih. |
 | **[Prodaja](../Prodaja/Prodaja.md)** | Se zanaša na nabavo za zagotavljanje razpoložljivosti prodajnih izdelkov. |

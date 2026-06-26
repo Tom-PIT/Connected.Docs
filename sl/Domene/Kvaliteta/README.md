@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/quality -->
 <!-- app_label: Kvaliteta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Kvaliteta/Kvaliteta.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Kvaliteta/README.md -->
 <!-- canonical_source_title: Kvaliteta -->
 
 # Kvaliteta
