@@ -83,6 +83,8 @@ nav:
 
       - Logistics:
         - en/Domains/Logistics/README.md
+        - Dashboard: en/Domains/Logistics/Views/Dashboard.md
+        - Stock: en/Domains/Logistics/Views/Stock.md  
         - Receives: en/Domains/Logistics/Documents/Receives.md
         - Issues: en/Domains/Logistics/Documents/Issues.md
         - Inter-warehouse transfers: en/Domains/Logistics/Documents/InterWarehouse.md
@@ -187,6 +189,8 @@ nav:
 
       - Logistika:
         - sl/Domene/Logistika/README.md
+        - Nadzorna plošča: sl/Domene/Logistika/Pregledi/NadzornaPlosca.md
+        - Zaloga: sl/Domene/Logistika/Pregledi/Zaloga.md  
         - Prevzemi: sl/Domene/Logistika/Dokumenti/Prevzemi.md
         - Izdajnice: sl/Domene/Logistika/Dokumenti/Izdajnice.md
         - Medskladiščni promet: sl/Domene/Logistika/Dokumenti/MedSkladiscniPromet.md
