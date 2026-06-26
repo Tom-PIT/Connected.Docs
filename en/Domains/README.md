@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/README.md -->
+<!-- canonical_source_title: Domains overview -->
+
 # Domains
 
 Business functionality in Tom PIT.Connected is organized into domains.
