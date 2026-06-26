@@ -1,6 +1,6 @@
-# Connected Documentation
+# Tom PIT.Connected documentation
 
-Welcome to the documentation portal for Tom PIT.Connected.
+Welcome to the documentation portal for **Tom PIT.Connected**.
 
 Tom PIT.Connected is an integrated business platform covering sales, supply, logistics, production, assets, projects, maintenance, quality, and other business processes.
 
