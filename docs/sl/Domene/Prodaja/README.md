@@ -7,7 +7,7 @@
 
 Področje **Prodaja** vsebuje vse zapise in dokumente, potrebne za upravljanje komercialnih transakcij s strankami. Vključuje dokumente, kot so [**Ponudbe**](Dokumenti/Ponudbe.md), [**Naročila strank**](Dokumenti/NarocilaStrank.md), [**Dobavnice**](Dokumenti/Dobavnice.md), [**Izdani računi**](Dokumenti/IzdaniRacuni.md), ter analitične preglede, namenjene razumevanju prodajne uspešnosti in tokov dokumentov.
 
-Medtem ko področje **[Sredstva](../Sredstva/DomenaSredstve.md)** določa, *kaj* se prodaja, področje Prodaja določa, *kako* se izdelki ali storitve ponudijo, potrdijo, dobavijo in zaračunajo.
+Medtem ko področje **[Sredstva](../Sredstva/README.md)** določa, *kaj* se prodaja, področje Prodaja določa, *kako* se izdelki ali storitve ponudijo, potrdijo, dobavijo in zaračunajo.
 
 Za dostop do tega področja pojdite na **Prodaja** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -107,7 +107,7 @@ Prodajni predstavniki ustvarijo [ponudbe](Dokumenti/Ponudbe.md), ki opredelijo i
 Stranke potrdijo ponudbe, kar ustvari [naročila strank](Dokumenti/NarocilaStrank.md), ki sprožijo izvedbo.
 
 ### **3. Dobava**  
-[Dobavnice](Dokumenti/Dobavnice.md) beležijo premik blaga k stranki in povezujejo prodajo s področjem **[Logistika](../Logistika/Logistika.md)**.
+[Dobavnice](Dokumenti/Dobavnice.md) beležijo premik blaga k stranki in povezujejo prodajo s področjem **[Logistika](../Logistika/README.md)**.
 
 ### **4. Obračun**  
 [Izdani računi](Dokumenti/IzdaniRacuni.md) zaračunajo stranki, po potrebi podprti z [bremepisi](Dokumenti/Bremepisi.md), [dobropisi](Dokumenti/Dobropisi.md) in [predplačili](Dokumenti/AvansniRacuni.md).
@@ -121,7 +121,7 @@ Področje Prodaja je tesno povezano z drugimi operativnimi področji:
 
 | Področje | Povezava |
 |--------|----------|
-| **[Sredstva](../Sredstva/DomenaSredstve.md)** | Določa izdelke, cene in konfiguracije, uporabljene v prodajnih dokumentih. |
-| **[Materiali](../Sredstva/Materiali.md)** | Zagotavlja podatke o razpoložljivosti in zalogi. |
-| **[Logistika](../Logistika/Logistika.md)** | Upravljanje fizične dobave blaga. |
-| **[Nabava](../Nabava/Nabava.md)** | Zagotavlja nabavo izdelkov, prodanih strankam. |
+| **[Sredstva](../Sredstva/README.md)** | Določa izdelke, cene in konfiguracije, uporabljene v prodajnih dokumentih. |
+| **[Materiali](../Sredstva/Materiali/README.md)** | Zagotavlja podatke o razpoložljivosti in zalogi. |
+| **[Logistika](../Logistika/README.md)** | Upravljanje fizične dobave blaga. |
+| **[Nabava](../Nabava/README.md)** | Zagotavlja nabavo izdelkov, prodanih strankam. |

@@ -33,7 +33,7 @@ Za dostop do **Odpisov** pojdite na **Logistika / Dokumenti / Odpisi** v [naviga
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Materiali.md) | Material, ki se odpisuje ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Materiali/README.md) | Material, ki se odpisuje ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
 | **Serijska številka** | Serijska številka prizadete enote. |
 | **Datum do** | Datum roka uporabe (če je relevanten). |
 | [**Skladiščna lokacija**](../Upravljanje/Lokacije.md) | Lokacija, kjer je material shranjen. |

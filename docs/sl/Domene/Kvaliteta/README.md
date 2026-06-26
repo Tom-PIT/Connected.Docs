@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/quality -->
 <!-- app_label: Kvaliteta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Kvaliteta/Kvaliteta.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Kvaliteta/README.md -->
 <!-- canonical_source_title: Kvaliteta -->
 
 # Kvaliteta
@@ -26,7 +26,7 @@ Za dostop do domene **Kvaliteta** se pomaknite na **Kvaliteta** v [navigaciji](.
 Domena je strukturirana v dve funkcionalni področji:
 
 - **Upravljanje** – konfiguracija in vzdrževanje definicij kontrolnih listov, ki se uporabljajo v proizvodnji in vzdrževanju.
-  - [**Kontrolne liste**](../Kvaliteta/Upravljanje/KontrolneListe.md) — upravljanje predlog kontrolnih listov (struktura, koraki, kriteriji in mejne vrednosti). Gre za isti šifrant, ki je na voljo v domenah[**Proizvodnja**](../Proizvodnja/Proizvodnja.md) in [**Vzdrževanje**](../Vzdrzevanje/Vzdrzevanje.md) in se tam tudi centralno vzdržuje.
+  - [**Kontrolne liste**](../Kvaliteta/Upravljanje/KontrolneListe.md) — upravljanje predlog kontrolnih listov (struktura, koraki, kriteriji in mejne vrednosti). Gre za isti šifrant, ki je na voljo v domenah[**Proizvodnja**](../Proizvodnja/README.md) in [**Vzdrževanje**](../Vzdrzevanje/README.md) in se tam tudi centralno vzdržuje.
   - [**Merske enote**](../../Skupno/Upravljanje/MerskeEnote.md) — upravljanje merskih enot, ki se uporabljajo v kriterijih kontrolnih listov (npr. temperatura v °C, tlak v bar). Ta šifrant je del skupnih nastavitev in je dostopen tudi v drugih domenah.
 
 > [!NOTE]

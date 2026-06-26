@@ -19,19 +19,19 @@ Tom PIT.Connected je integrirana poslovna platforma, ki pokriva prodajo, nabavo,
 
 Raziščite posamezne domene:
 
-- [**Proizvodnja**](Domene/Proizvodnja/Proizvodnja.md)
-- [**Logistika**](Domene/Logistika/Logistika.md)
-- [**Nabava**](Domene/Nabava/Nabava.md)
-- [**Prodaja**](Domene/Prodaja/Prodaja.md)
-- [**Računovodstvo**](Domene/Racunovodstvo/Racunovodstvo.md)
-- [**Sredstva**](Domene/Sredstva/DomenaSredstve.md)
-- [**Projekti**](Domene/Projekti/DomenaProjektov.md)
-- [**Kakovost**](Domene/Kvaliteta/Kvaliteta.md)
-- [**Stranke**](Domene/Stranke/Stranke.md)
-- [**Viri**](Domene/Viri/Viri.md)
-- [**Vzdrževanje**](Domene/Vzdrzevanje/Vzdrzevanje.md)
-- [**Dokumenti**](Domene/Dokumenti/Dokumenti.md)
-- [**Sistem**](Domene/Sistem/Sistem.md)
+- [**Proizvodnja**](Domene/Proizvodnja/README.md)
+- [**Logistika**](Domene/Logistika/README.md)
+- [**Nabava**](Domene/Nabava/README.md)
+- [**Prodaja**](Domene/Prodaja/README.md)
+- [**Računovodstvo**](Domene/Racunovodstvo/README.md)
+- [**Sredstva**](Domene/Sredstva/README.md)
+- [**Projekti**](Domene/Projekti/README.md)
+- [**Kakovost**](Domene/Kvaliteta/README.md)
+- [**Stranke**](Domene/Stranke/README.md)
+- [**Viri**](Domene/Viri/README.md)
+- [**Vzdrževanje**](Domene/Vzdrzevanje/README.md)
+- [**Dokumenti**](Domene/Dokumenti/README.md)
+- [**Sistem**](Domene/Sistem/README.md)
 
 ## Organizacija dokumentacije
 

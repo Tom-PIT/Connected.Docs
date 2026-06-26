@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/production -->
 <!-- app_label: Proizvodnja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Proizvodnja.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/README.md -->
 <!-- canonical_source_title: Proizvodnja -->
 
 # Proizvodnja
@@ -9,7 +9,7 @@ Domena **Proizvodnja** upravlja vse procese, povezane s proizvodnjo, izvajanjem 
 in analizo proizvodnje. Vključuje orodja za planiranje in izdajanje proizvodnih nalogov,
 izvajanje operacij, sledenje porabi in proizvodnji ter pregled analitičnih kazalnikov uspešnosti.
 
-Medtem ko domena **[Nabava](../Nabava/Nabava.md)** zagotavlja razpoložljivost materialov,
+Medtem ko domena **[Nabava](../Nabava/README.md)** zagotavlja razpoložljivost materialov,
 domena Proizvodnja skrbi, da se ti materiali pretvorijo v končne ali polizdelke
 prek nadzorovanih in sledljivih delovnih tokov.
 
@@ -150,7 +150,7 @@ Proizvodnja se povezuje z več drugimi operativnimi domenami:
 
 | Področje | Povezava |
 |--------|---------|
-| **[Sredstva](../Sredstva/DomenaSredstve.md)** | Določajo, kaj se proizvaja in porablja |
-| **[Nabava](../Nabava/Nabava.md)** | Zagotavlja materiale za proizvodnjo |
-| **[Logistika](../Logistika/Logistika.md)** | Skrbi za skladiščne premike porabljenih in proizvedenih artiklov |
-| **[Vzdrževanje](../Vzdrzevanje/Vzdrzevanje.md)** | Deli procese, organizacijske enote, vire in kontrolne sezname; vzdrževalni nalogi se lahko vežejo na proizvodne vire in števce |
+| **[Sredstva](../Sredstva/README.md)** | Določajo, kaj se proizvaja in porablja |
+| **[Nabava](../Nabava/README.md)** | Zagotavlja materiale za proizvodnjo |
+| **[Logistika](../Logistika/README.md)** | Skrbi za skladiščne premike porabljenih in proizvedenih artiklov |
+| **[Vzdrževanje](../Vzdrzevanje/README.md)** | Deli procese, organizacijske enote, vire in kontrolne sezname; vzdrževalni nalogi se lahko vežejo na proizvodne vire in števce |
