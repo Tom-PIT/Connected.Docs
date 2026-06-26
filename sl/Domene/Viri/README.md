@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/resources -->
 <!-- app_label: Viri -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Viri.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/README.md -->
 <!-- canonical_source_title: Viri -->
 
 # Viri
@@ -105,6 +105,6 @@ Domena Viri je tesno povezana z drugimi operativnimi področji:
 |------|-------------|
 | [**Projekti**](../Projekti/README.md) | Opravila so dodeljena virom; napor in razpoložljivost se spremljata po projektih. |
 | [**Proizvodnja**](../Proizvodnja/README.md) | Viri izvajajo proizvodne operacije in poročajo čas ter napor. |
-| [**Vzdrževanje**](../Vzdrzevanje/Vzdrzevanje.md) | Vzdrževalne aktivnosti porabljajo čas in razpoložljivost virov. |
+| [**Vzdrževanje**](../Vzdrzevanje/README.md) | Vzdrževalne aktivnosti porabljajo čas in razpoložljivost virov. |
 | [**Logistika**](../Logistika/README.md) | Potni nalogi in razpoložljivost vplivajo na logistično načrtovanje. |
 | [**Računovodstvo**](../Racunovodstvo/README.md) | Podatki o času, stroških in dnevnicah se prenašajo v finančne procese in poročila. |

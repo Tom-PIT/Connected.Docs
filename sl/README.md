@@ -28,8 +28,8 @@ Raziščite posamezne domene:
 - [**Projekti**](Domene/Projekti/README.md)
 - [**Kakovost**](Domene/Kvaliteta/README.md)
 - [**Stranke**](Domene/Stranke/README.md)
-- [**Viri**](Domene/Viri/Viri.md)
-- [**Vzdrževanje**](Domene/Vzdrzevanje/Vzdrzevanje.md)
+- [**Viri**](Domene/Viri/README.md)
+- [**Vzdrževanje**](Domene/Vzdrzevanje/README.md)
 - [**Dokumenti**](Domene/Dokumenti/README.md)
 - [**Sistem**](Domene/Sistem/README.md)
 

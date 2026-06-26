@@ -93,6 +93,6 @@ Domena Stranke je tesno povezana z drugimi področji sistema:
 |--------|----------|
 | [**Prodaja**](../Prodaja/README.md) | Skupni podatki o strankah in podjetjih |
 | [**Projekti**](../Projekti/README.md) | Prijave se lahko nanašajo na projekte strank |
-| [**Vzdrževanje**](../Vzdrzevanje/Vzdrzevanje.md) | Prijave so lahko povezane z vzdrževalnimi nalogi |
-| [**Viri**](../Viri/Viri.md) | Razporejanje in obremenitev podpornih ekip |
-| [**Znanje**](../Znanje/Znanje.md) | Dokumentacija in baza znanja za podporo reševanju težav |
+| [**Vzdrževanje**](../Vzdrzevanje/README.md) | Prijave so lahko povezane z vzdrževalnimi nalogi |
+| [**Viri**](../Viri/README.md) | Razporejanje in obremenitev podpornih ekip |
+| [**Znanje**](../Znanje/README.md) | Dokumentacija in baza znanja za podporo reševanju težav |
