@@ -59,7 +59,7 @@ Za dostop do tega zaslona pojdite na **Sredstva / Sredstva** v [navigaciji](../.
 | **Podrobnosti** | Seznam komponent sredstva (npr. povezani materiali ali količine). |
 | **Dodaj novo podrobnost sredstva** | Dejanje za dodajanje nove podrobnosti sredstva. |
 | **Tip** | Tip podrobnosti (npr. Izdelki). |
-| **Entiteta** | Izbran [material](../Materiali.md) ali postavka, ki se poveže kot del sredstva. |
+| **Entiteta** | Izbran [material](../Materiali/README.md) ali postavka, ki se poveže kot del sredstva. |
 | **Količina** | Količina povezane entitete. |
 
 </details>

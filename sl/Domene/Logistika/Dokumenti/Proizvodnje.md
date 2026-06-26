@@ -29,7 +29,7 @@ Za dostop do **Proizvodnje** pojdite na **Logistika / Dokumenti / Proizvodnje** 
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Materiali.md) | Proizvedena postavka (najpogosteje [izdelek](../../Sredstva/Materiali/Izdelki.md) ali [polizdelek](../../Sredstva/Materiali/Polizdelki.md)). |
+| [**Material**](../../Sredstva/Materiali/README.md) | Proizvedena postavka (najpogosteje [izdelek](../../Sredstva/Materiali/Izdelki.md) ali [polizdelek](../../Sredstva/Materiali/Polizdelki.md)). |
 | **Količina** | Zabeležena proizvedena količina za posamezno postavko. |
 
 </details>

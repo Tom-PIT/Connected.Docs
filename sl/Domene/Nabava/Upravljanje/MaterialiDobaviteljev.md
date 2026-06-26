@@ -5,7 +5,7 @@
 
 # Materiali dobaviteljev
 
-**Materiali dobaviteljev** predstavljajo seznam materialov, ki jih posamezni dobavitelji ponujajo vaši organizaciji. Vsak zapis povezuje obstoječ material iz področja **[Materiali](../../Sredstva/Materiali.md)** z določenim dobaviteljem ter vključuje dodatne informacije, kot so dobaviteljeva interna šifra materiala, cena in dobavni rok.
+**Materiali dobaviteljev** predstavljajo seznam materialov, ki jih posamezni dobavitelji ponujajo vaši organizaciji. Vsak zapis povezuje obstoječ material iz področja **[Materiali](../../Sredstva/Materiali/README.md)** z določenim dobaviteljem ter vključuje dodatne informacije, kot so dobaviteljeva interna šifra materiala, cena in dobavni rok.
 
 Ta šifrant zagotavlja, da procesi nabave pravilno prepoznajo, **kateri materiali so na voljo pri posameznem dobavitelju** in **pod kakšnimi pogoji**.
 
@@ -16,8 +16,8 @@ Za dostop do **Materialov dobaviteljev** pojdite na **Nabava / Šifranti / Mater
 | Polje | Opis |
 |------|------|
 | **Dobavitelj** | Dobavitelj, ki ponuja material. Mora obstajati v **[Poslovnem imeniku](../../../Skupno/Upravljanje/PoslovniImenik.md)** (obvezno). |
-| [**Tip materiala**](../../Sredstva/Materiali.md) | Tip materiala ([**Surovina**](../../Sredstva/Materiali/Surovine.md), [**Polizdelek**](../../Sredstva/Materiali/Polizdelki.md), [**Izdelek**](../../Sredstva/Materiali/Izdelki.md), [**Repro material**](../../Sredstva/Materiali/ReproMateriali.md)). Mora ustrezati obstoječi vrsti materiala (obvezno). |
-| [**Material**](../../Sredstva/Materiali.md) | Material, ki ga dobavitelj ponuja. Mora že obstajati v področju **Materiali** (obvezno). |
+| [**Tip materiala**](../../Sredstva/Materiali/README.md) | Tip materiala ([**Surovina**](../../Sredstva/Materiali/Surovine.md), [**Polizdelek**](../../Sredstva/Materiali/Polizdelki.md), [**Izdelek**](../../Sredstva/Materiali/Izdelki.md), [**Repro material**](../../Sredstva/Materiali/ReproMateriali.md)). Mora ustrezati obstoječi vrsti materiala (obvezno). |
+| [**Material**](../../Sredstva/Materiali/README.md) | Material, ki ga dobavitelj ponuja. Mora že obstajati v področju **Materiali** (obvezno). |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju. |
 | **Cena** | Neto cena, po kateri dobavitelj dobavlja material. |
 | **Dobavni dostave (dni)** | Dobavni čas, izražen v številu dni. |

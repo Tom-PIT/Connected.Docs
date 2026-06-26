@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/assets -->
 <!-- app_label: Domena Sredstva -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/DomenaSredstve.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/README.md -->
 <!-- canonical_source_title: Domena Sredstva -->
 
 # Sredstva
@@ -31,7 +31,7 @@ Domena je razdeljena na več funkcionalnih področij:
 
 - **[Ceniki sredstev](Sredstva/CenikiSredstev.md)** – uporabljajo se za pripravo prodajnih cen za izbrana sredstva. Ceniki podpirajo časovno veljavnost, cenitev po podjetjih in količinske popuste.
 
-- **[Materiali](Materiali.md)** – materiali se uporabljajo za *izdelavo* sredstev ali kot postavke v logističnih procesih (zaloga, prevzemi, izdaje ipd.). Za razliko od sredstev so materiali izključno interni.
+- **[Materiali](Materiali/README.md)** – materiali se uporabljajo za *izdelavo* sredstev ali kot postavke v logističnih procesih (zaloga, prevzemi, izdaje ipd.). Za razliko od sredstev so materiali izključno interni.
 
     - **[Izdelki](Materiali/Izdelki.md)**
     - **[Surovine](Materiali/Surovine.md)**
@@ -50,7 +50,7 @@ Te nastavitve določajo strukturo in vedenje sredstev ter način njihove cenitve
 Razumevanje razlike med tema dvema pojmoma je ključno. Čeprav oba predstavljata postavke, ki jih sistem upravlja, imata povsem različen namen.
 
 - **[Sredstva](Sredstva/Sredstva.md)** določajo, kaj podjetje *prodaja* kupcem.
-- **[Materiali](Materiali.md)** določajo, kaj podjetje *uporablja interno* v proizvodnji in logistiki.
+- **[Materiali](Materiali/README.md)** določajo, kaj podjetje *uporablja interno* v proizvodnji in logistiki.
 
 Spodnja tabela povzema ključne razlike:
 
