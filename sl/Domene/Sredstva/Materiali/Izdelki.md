@@ -98,7 +98,7 @@ Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-izdelke)
-- [**Kopiraj obstoječe**](#kopiraj-obstoječi-izdelek)
+- [**Kopiraj obstoječe**](#kopirati-obstoječi-izdelek)
 - **Nov**
 
 ### Ustvariti nov izdelek
@@ -142,7 +142,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Uvoz*
 Za podrobnosti glejte dokumentacijo  
 [**Uvoz materialov**](UvozMaterialov.md).
 
-### Kopiraj obstoječi izdelek
+### Kopirati obstoječi izdelek
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izbirate **Kopiraj obstoječi izdelek**, da ustvarite nov izdelek na podlagi že obstoječega. Prikaže se izbirni seznam razpoložljivih osnovnih izdelkov.
 
