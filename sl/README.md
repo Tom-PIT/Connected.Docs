@@ -1,6 +1,6 @@
-# Connected Dokumentacija
+# Tom PIT.Connected dokumentacija
 
-Dobrodošli v dokumentacijskem portalu platforme Tom PIT.Connected.
+Dobrodošli v dokumentacijskem portalu platforme **Tom PIT.Connected**.
 
 Tom PIT.Connected je integrirana poslovna platforma, ki pokriva prodajo, nabavo, logistiko, proizvodnjo, sredstva, projekte, vzdrževanje, kakovost in druge poslovne procese.
 
