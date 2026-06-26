@@ -11,7 +11,12 @@
 *.sln.docstates
 *.env
 
+<<<<<<< HEAD
 # Site files
+=======
+# Ignore site
+
+>>>>>>> main
 site/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
