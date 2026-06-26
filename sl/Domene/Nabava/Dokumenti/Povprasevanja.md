@@ -42,7 +42,7 @@ Tipičen potek:
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Materiali.md) | Material, za katerega se zahteva informacija. |
+| [**Material**](../../Sredstva/Materiali/README.md) | Material, za katerega se zahteva informacija. |
 | **Datum opravljene storitve** | Predviden ali ponujen dobavni datum. |
 | **Količina** | Zahtevana količina izbranega materiala. |
 | **Dobaviteljeva šifra** | Interna oznaka materiala pri dobavitelju (neobvezno). |

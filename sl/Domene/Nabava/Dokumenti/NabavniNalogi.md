@@ -51,7 +51,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Materiali.md) | Material, ki se nabavlja. |
+| [**Material**](../../Sredstva/Materiali/README.md) | Material, ki se nabavlja. |
 | **EAN** | Črtna koda materiala (neobvezno). |
 | **Količina** | Naročena količina. |
 | **Datum opravljene storitve** | Specifični datum dobave za to postavko. |

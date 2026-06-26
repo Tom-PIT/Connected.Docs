@@ -27,7 +27,7 @@ Do te strani dostopate s klikom na gumb **Kakovost** iz:
 |------|------|
 | **Kontrolna lista** | Izbira obstoječe kontrolne liste, definirane v modulu **[Kontrolne liste](../../Kvaliteta/Upravljanje/../../Kvaliteta/Upravljanje/KontrolneListe.md)**. |
 | **Način** | Določa, kdaj se kontrolna lista izvaja:<br>• **Na začetku**<br>• **Ob pavzi**<br>• **Ob prvi proizvodnji**<br>• **Ob zadnji proizvodnji**<br>• **Ob zagonu**<br>• **Pred zaključkom**<br>• **Ročno**<br>• **Vsake n enot** |
-| **Material** | Material, na katerega je vezana kontrolna lista. Izbira se iz šifranta **[Materiali](../../Sredstva/Materiali.md)**. |
+| **Material** | Material, na katerega je vezana kontrolna lista. Izbira se iz šifranta **[Materiali](../../Sredstva/Materiali/README.md)**. |
 | **Perioda** | Število enot, po katerih se kontrolna lista ponovno izvede. Polje je prikazano samo, če je izbran način **Vsake n enot**. |
 | **Vrstni red** | Določa zaporedje izvajanja kontrolnih list v okviru iste operacije. |
 

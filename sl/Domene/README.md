@@ -17,13 +17,13 @@ Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem
 * [**Logistika**](./Logistika/README.md) — Skladiščenje, premiki zalog, inventure in lokacije
 * [**Nabava**](./Nabava/README.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
 * [**Prodaja**](./Prodaja/README.md) — Prodajni dokumenti, ceniki in upravljanje strank
-* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
+* [**Računovodstvo**](./Racunovodstvo/README.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
 
 ## Pregled domen
 
 ### Finančno Poslovanje
 
-* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Finančno računovodstvo, glavna knjiga, računi, Intrastat in zakonska poročila
+* [**Računovodstvo**](./Racunovodstvo/README.md) — Finančno računovodstvo, glavna knjiga, računi, Intrastat in zakonska poročila
 
 ### Komerciala
 
@@ -44,12 +44,12 @@ Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem
 
 ### Stranke in Znanje
 
-* [**Stranke**](./Stranke/Stranke.md) — Zahtevki, SLA-ji, podpora in skrb za stranke
+* [**Stranke**](./Stranke/README.md) — Zahtevki, SLA-ji, podpora in skrb za stranke
 * [**Znanje**](./Znanje/Znanje.md) — Članki baze znanja, imeniki in oznake
 
 ### Administracija Platforme
 
-* [**Sistem**](./Sistem/Sistem.md) — Upravljanje uporabnikov, varnost, revizijska sled in administracija sistema
+* [**Sistem**](./Sistem/README.md) — Upravljanje uporabnikov, varnost, revizijska sled in administracija sistema
 
 ### Skupne Funkcionalnosti
 

@@ -47,7 +47,7 @@ Prikaz vključuje:
 ### Proizvodni nalog in operacija  
 - Klikljiv [proizvodni nalog](../Dokumenti/ProizvodniNalogi.md) (npr. `PRO-24-000015`)  
 - Opis [operacije](../Upravljanje/Operacije.md)  
-- [Material](../../Sredstva/Materiali.md), ki se proizvaja (izdelek ali polizdelek)
+- [Material](../../Sredstva/Materiali/README.md), ki se proizvaja (izdelek ali polizdelek)
 
 ### Slabi kosi  
 Prikaz neustreznih kosov glede na celotno proizvodnjo:

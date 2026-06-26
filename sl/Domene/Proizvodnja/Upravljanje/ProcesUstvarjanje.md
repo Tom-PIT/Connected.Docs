@@ -12,7 +12,7 @@ Primer v tem vodiču prikazuje **proizvodni proces** za izdelavo **hrastovega st
 >
 > * Ta vodič predpostavlja, da so potrebni materiali, viri in kontrolne liste kakovosti že ustvarjeni. Za več informacij glejte:
 >
->   * [**Materiali**](../../Sredstva/Materiali.md)
+>   * [**Materiali**](../../Sredstva/Materiali/README.md)
 >   * [**Viri**](../../Viri/Upravljanje/Viri.md)
 >   * [**Kontrolne liste kakovosti**](../../Kvaliteta/Upravljanje/KontrolneListe.md)
 > * Za podrobnejše informacije o procesih in njihovih komponentah si oglejte dokumente v razdelku [**Naslednji koraki**](#naslednji-koraki) na koncu tega vodiča.

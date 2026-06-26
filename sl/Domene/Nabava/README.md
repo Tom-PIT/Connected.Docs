@@ -109,7 +109,7 @@ Področje Nabava je povezano z drugimi operativnimi področji:
 
 | Področje | Povezava |
 |--------|----------|
-| **[Materiali](../Sredstva/Materiali.md)** | Določa materiale, ki se nabavljajo. |
+| **[Materiali](../Sredstva/Materiali/README.md)** | Določa materiale, ki se nabavljajo. |
 | **[Logistika](../Logistika/README.md)** | Prevzema vhodno blago in posodablja zalogo. |
 | **[Proizvodnja](../Proizvodnja/README.md)** | Uporablja kupljene materiale v proizvodnih procesih. |
 | **[Prodaja](../Prodaja/README.md)** | Se zanaša na nabavo za zagotavljanje razpoložljivosti prodajnih izdelkov. |

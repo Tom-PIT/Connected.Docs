@@ -7,7 +7,7 @@
 
 Področje **Logistika** pokriva vse skladiščne in logistične operacije znotraj organizacije. Vključuje procese ravnanja z zalogo, strukturo skladišč, premike materialov ter vso dokumentacijo, potrebno za sledenje fizičnemu toku blaga.
 
-Medtem ko področje **[Materiali](../Sredstva/Materiali.md)** določa, *kaj* obstaja na zalogi, področje Logistike določa, *kje je material shranjen*, *kako se premika* in *kako se nadzira*.
+Medtem ko področje **[Materiali](../Sredstva/Materiali/README.md)** določa, *kaj* obstaja na zalogi, področje Logistike določa, *kje je material shranjen*, *kako se premika* in *kako se nadzira*.
 
 Za dostop do tega področja pojdite na **Logistika** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -128,8 +128,8 @@ Logistika je tesno povezana z drugimi področji sistema:
 
 | Področje | Povezava |
 |--------|----------|
-| **[Materiali](../Sredstva/Materiali.md)** | Določa materiale, ki se skladiščijo in premikajo. |
-| **[Sredstva](../Sredstva/DomenaSredstve.md)** | Razpoložljivost temelji na stanju zaloge. |
+| **[Materiali](../Sredstva/Materiali/README.md)** | Določa materiale, ki se skladiščijo in premikajo. |
+| **[Sredstva](../Sredstva/README.md)** | Razpoložljivost temelji na stanju zaloge. |
 | **[Proizvodnja](../Proizvodnja/README.md)** | Izdaje in prevzemi povezujejo logistiko s proizvodnjo. |
 | **[Vzdrževanje](../Vzdrzevanje/Vzdrzevanje.md)** | Rezervni deli in materiali tečejo skozi logistiko. |
 | **[Prodaja](../Prodaja/README.md)** / **[Nabava](../Nabava/README.md)** | Logistika zagotavlja pravilno izpolnjevanje naročil. |

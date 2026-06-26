@@ -34,7 +34,7 @@ Za dostop do dokumentov **Med-skladiščnega prometa** pojdite na **Logistika / 
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Materiali.md) | Material, ki se prenaša ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Materiali/README.md) | Material, ki se prenaša ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
 | **Serijska številka** | Serijska številka enote, ki se prenaša. |
 | **Datum do** | Datum poteka (za materiale z rokom uporabe). |
 | [**Izvorna lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija v izvor­nem skladišču. |

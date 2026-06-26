@@ -36,7 +36,7 @@ Za dostop do **Inventur** pojdite na **Logistika / Dokumenti / Inventure** v [na
 
 | Polje | Opis |
 |------|------|
-| [**Material**](../../Sredstva/Materiali.md) | Material, shranjen na izbrani lokaciji ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
+| [**Material**](../../Sredstva/Materiali/README.md) | Material, shranjen na izbrani lokaciji ([izdelek](../../Sredstva/Materiali/Izdelki.md), [polizdelek](../../Sredstva/Materiali/Polizdelki.md), [surovina](../../Sredstva/Materiali/Surovine.md) ali [repro material](../../Sredstva/Materiali/ReproMateriali.md)). |
 | **Lokacija** | Lokacija, na kateri se inventura izvaja. |
 | **Teoretično** | Količina, ki je trenutno zabeležena v sistemu. |
 | **Dejanski** | Fizično preverjena količina (urejanje dovoljeno). |
