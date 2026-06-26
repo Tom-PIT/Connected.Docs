@@ -21,7 +21,7 @@ Za dostop do **Analize materialov** pojdite na **Logistika / Dokumenti / Analiza
 |-------|------|
 | [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Sistemsko generiran enolični identifikator dokumenta analize materialov. |
 | **Datum dokumenta** | Datum, ko je bil dokument analize ustvarjen. |
-| [**Material**](../../Sredstva/Materiali.md) | Material v analizi (kot je določen s prevzemom in konfiguracijo analize). |
+| [**Material**](../../Sredstva/Materiali/README.md) | Material v analizi (kot je določen s prevzemom in konfiguracijo analize). |
 | **Izvor** | Serijska številka prevzetega materiala. |
 | **Status analize** | Stanje analize: **Ni nastavljeno**, **Uspešno**, ali **Neuspešno**. |
 

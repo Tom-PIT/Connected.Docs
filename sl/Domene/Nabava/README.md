@@ -1,13 +1,13 @@
 <!-- app_route: /sitemap/supply -->
 <!-- app_label: Nabava -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Nabava.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/README.md -->
 <!-- canonical_source_title: Nabava -->
 
 # Nabava
 
 Področje **Nabava** upravlja vse procese, povezane z nabavo, sodelovanjem z dobavitelji in planiranjem vhodnih materialov. Vključuje povpraševanja pri dobaviteljih, nabavne naloge, orodja za planiranje ter analitične preglede, ki pomagajo vzdrževati optimalne zaloge in zagotavljati pravočasno oskrbo.
 
-Medtem ko področje **[Prodaja](../Prodaja/Prodaja.md)** upravlja procese, usmerjene k strankam, področje Nabava upravlja procese, usmerjene k dobaviteljem, ki zagotavljajo razpoložljivost materialov ob pravem času.
+Medtem ko področje **[Prodaja](../Prodaja/README.md)** upravlja procese, usmerjene k strankam, področje Nabava upravlja procese, usmerjene k dobaviteljem, ki zagotavljajo razpoložljivost materialov ob pravem času.
 
 Za dostop do področja Nabava pojdite na **Nabava** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -109,7 +109,7 @@ Področje Nabava je povezano z drugimi operativnimi področji:
 
 | Področje | Povezava |
 |--------|----------|
-| **[Materiali](../Sredstva/Materiali.md)** | Določa materiale, ki se nabavljajo. |
-| **[Logistika](../Logistika/Logistika.md)** | Prevzema vhodno blago in posodablja zalogo. |
-| **[Proizvodnja](../Proizvodnja/Proizvodnja.md)** | Uporablja kupljene materiale v proizvodnih procesih. |
-| **[Prodaja](../Prodaja/Prodaja.md)** | Se zanaša na nabavo za zagotavljanje razpoložljivosti prodajnih izdelkov. |
+| **[Materiali](../Sredstva/Materiali/README.md)** | Določa materiale, ki se nabavljajo. |
+| **[Logistika](../Logistika/README.md)** | Prevzema vhodno blago in posodablja zalogo. |
+| **[Proizvodnja](../Proizvodnja/README.md)** | Uporablja kupljene materiale v proizvodnih procesih. |
+| **[Prodaja](../Prodaja/README.md)** | Se zanaša na nabavo za zagotavljanje razpoložljivosti prodajnih izdelkov. |

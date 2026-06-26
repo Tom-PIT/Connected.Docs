@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/README.md -->
+<!-- canonical_source_title: Pregled domen -->
+
 # Domene
 
 Poslovne funkcionalnosti v sistemu Tom PIT.Connected so organizirane po domenah.
@@ -13,43 +16,43 @@ Domena združuje vse funkcionalnosti, povezane s posameznim poslovnim področjem
 
 ## Najpogosteje Uporabljene Domene
 
-* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
-* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, premiki zalog, inventure in lokacije
-* [**Nabava**](./Nabava/Nabava.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
-* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni dokumenti, ceniki in upravljanje strank
-* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
+* [**Proizvodnja**](./Proizvodnja/README.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
+* [**Logistika**](./Logistika/README.md) — Skladiščenje, premiki zalog, inventure in lokacije
+* [**Nabava**](./Nabava/README.md) — Planiranje nabave, sodelovanje z dobavitelji in nabavni procesi
+* [**Prodaja**](./Prodaja/README.md) — Prodajni dokumenti, ceniki in upravljanje strank
+* [**Računovodstvo**](./Racunovodstvo/README.md) — Glavna knjiga, računi, Intrastat in zakonska poročila
 
 ## Pregled domen
 
 ### Finančno Poslovanje
 
-* [**Računovodstvo**](./Racunovodstvo/Racunovodstvo.md) — Finančno računovodstvo, glavna knjiga, računi, Intrastat in zakonska poročila
+* [**Računovodstvo**](./Racunovodstvo/README.md) — Finančno računovodstvo, glavna knjiga, računi, Intrastat in zakonska poročila
 
 ### Komerciala
 
-* [**Prodaja**](./Prodaja/Prodaja.md) — Prodajni procesi, ponudbe, naročila, ceniki in upravljanje poslovnih partnerjev
-* [**Nabava**](./Nabava/Nabava.md) — Nabavni procesi, sodelovanje z dobavitelji in planiranje nabave
+* [**Prodaja**](./Prodaja/README.md) — Prodajni procesi, ponudbe, naročila, ceniki in upravljanje poslovnih partnerjev
+* [**Nabava**](./Nabava/README.md) — Nabavni procesi, sodelovanje z dobavitelji in planiranje nabave
 
 ### Operativa
 
-* [**Proizvodnja**](./Proizvodnja/Proizvodnja.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
-* [**Logistika**](./Logistika/Logistika.md) — Skladiščenje, upravljanje zalog in premiki materiala
-* [**Vzdrževanje**](./Vzdrzevanje/Vzdrzevanje.md) — Planiranje in izvajanje vzdrževanja
-* [**Kvaliteta**](./Kvaliteta/Kvaliteta.md) — Procesi kakovosti, klasifikacije, kontrole in pregledi
+* [**Proizvodnja**](./Proizvodnja/README.md) — Proizvodni nalogi, izvajanje proizvodnje, procesi in viri
+* [**Logistika**](./Logistika/README.md) — Skladiščenje, upravljanje zalog in premiki materiala
+* [**Vzdrževanje**](./Vzdrzevanje/README.md) — Planiranje in izvajanje vzdrževanja
+* [**Kvaliteta**](./Kvaliteta/README.md) — Procesi kakovosti, klasifikacije, kontrole in pregledi
 
 ### Viri in Projekti
 
-* [**Projekti**](./Projekti/DomenaProjektov.md) — Projektne strukture, planiranje in spremljanje projektov
-* [**Viri**](./Viri/Viri.md) — Človeški in nečloveški viri, razporejanje in stroški
+* [**Projekti**](./Projekti/README.md) — Projektne strukture, planiranje in spremljanje projektov
+* [**Viri**](./Viri/README.md) — Človeški in nečloveški viri, razporejanje in stroški
 
 ### Stranke in Znanje
 
-* [**Stranke**](./Stranke/Stranke.md) — Zahtevki, SLA-ji, podpora in skrb za stranke
-* [**Znanje**](./Znanje/Znanje.md) — Članki baze znanja, imeniki in oznake
+* [**Stranke**](./Stranke/README.md) — Zahtevki, SLA-ji, podpora in skrb za stranke
+* [**Znanje**](./Znanje/README.md) — Članki baze znanja, imeniki in oznake
 
 ### Administracija Platforme
 
-* [**Sistem**](./Sistem/Sistem.md) — Upravljanje uporabnikov, varnost, revizijska sled in administracija sistema
+* [**Sistem**](./Sistem/README.md) — Upravljanje uporabnikov, varnost, revizijska sled in administracija sistema
 
 ### Skupne Funkcionalnosti
 

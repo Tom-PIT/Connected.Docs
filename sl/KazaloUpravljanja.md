@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/KazaloUpravljanja.md -->
+<!-- canonical_source_title: Management Index -->
+
 # Kazalo upravljanja
 
 To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. Uporabite ga za hitrejši dostop do šifrantov, nastavitev in osnovnih podatkov.
@@ -154,4 +157,4 @@ To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. U
 
 ## Sistem
 - [**Konfiguracija sistema**](Domene/Sistem/Nastavitve/KonfiguracijaSistema.md)
-- [**Uporabniki**](Domene/Sistem/Nastavitve/Uporabniki.md)
+- [**Uporabniki**](Domene/Sistem/Upravljanje/Uporabniki.md)

@@ -1,13 +1,13 @@
 <!-- app_route: /sitemap/accounting -->
 <!-- app_label: Domena Računovodstvo -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Racunovodstvo.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/README.md -->
 <!-- canonical_source_title: Domena Računovodstvo -->
 
 # Računovodstvo
 
 Domena **Računovodstvo** vsebuje vse zapise, poročila in nastavitve, potrebne za **evidentiranje, nadzor in analizo finančnih transakcij**.
 
-Operativne dokumente, ustvarjene v drugih domenah (npr. [**Prodaja**](../Prodaja/Prodaja.md), [**Nabava**](../Nabava/Nabava.md) in [**Logistika**](../Logistika/Logistika.md)), pretvarja v **uradne računovodske knjižbe**, s čimer zagotavlja skladnost, sledljivost in pravilno finančno poročanje.
+Operativne dokumente, ustvarjene v drugih domenah (npr. [**Prodaja**](../Prodaja/README.md), [**Nabava**](../Nabava/README.md) in [**Logistika**](../Logistika/README.md)), pretvarja v **uradne računovodske knjižbe**, s čimer zagotavlja skladnost, sledljivost in pravilno finančno poročanje.
 
 Do domene dostopate preko **Računovodstvo** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
@@ -178,7 +178,7 @@ Računovodstvo je tesno povezano z drugimi domenami:
 
 | Domena | Povezava |
 |------|----------|
-| **[Prodaja](../Prodaja/Prodaja.md)** | Izdani računi, prihodki, terjatve |
-| **[Nabava](../Nabava/Nabava.md)** | Prejeti računi, stroški, obveznosti |
-| **[Logistika](../Logistika/Logistika.md)** | Premiki in vrednotenje zaloge |
-| **[Sredstva](../Sredstva/DomenaSredstve.md)** | Osnovna sredstva in amortizacija |
+| **[Prodaja](../Prodaja/README.md)** | Izdani računi, prihodki, terjatve |
+| **[Nabava](../Nabava/README.md)** | Prejeti računi, stroški, obveznosti |
+| **[Logistika](../Logistika/README.md)** | Premiki in vrednotenje zaloge |
+| **[Sredstva](../Sredstva/README.md)** | Osnovna sredstva in amortizacija |

@@ -11,7 +11,7 @@ Za ustvarjanje novega proizvodnega naloga, kliknite [akcijski gumb](../../../Sku
 
 ### **1. korak — Izberi material**
 
-Izberite **Tip materiala** (npr. Izdelki ali Polizdelki), nato izberite konkreten [**material**](../../Sredstva/Materiali.md) in količino, ki jo želite proizvesti.
+Izberite **Tip materiala** (npr. Izdelki ali Polizdelki), nato izberite konkreten [**material**](../../Sredstva/Materiali/README.md) in količino, ki jo želite proizvesti.
 
 ![1. korak](../Images/ProductionOrdersNewStep1SL.png "1. korak – Izbira materiala")
 

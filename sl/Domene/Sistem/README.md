@@ -1,3 +1,8 @@
+<!-- app_route: /sitemap/system -->
+<!-- app_label: Domena Sistem -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sistem/README.md -->
+<!-- canonical_source_title: Domena Sistem -->
+
 # Sistem
 
 Domena **Sistem** vsebuje administrativna orodja za konfiguracijo, zaščito in vzdrževanje platforme.
@@ -97,9 +102,9 @@ Domena Sistem podpira vse druge domene platforme.
 
 | Področje | Povezava |
 |-----------|-----------|
-| [**Prodaja**](../Prodaja/Prodaja.md) | Zagotavlja nastavitve fiskalizacije, organizacije in uporabnikov. |
-| [**Nabava**](../Nabava/Nabava.md) | Zagotavlja nastavitve skladišča in integracij. |
-| [**Proizvodnja**](../Proizvodnja/Proizvodnja.md) | Uporablja uporabnike, lokalizacijo in sistemske nastavitve. |
-| [**Vzdrževanje**](../Vzdrzevanje/Vzdrzevanje.md) | Uporablja nadzor dostopa in skupne sistemske nastavitve. |
-| [**Viri**](../Viri/Viri.md) | Uporablja uporabnike, vloge in lokalizacijske nastavitve. |
+| [**Prodaja**](../Prodaja/README.md) | Zagotavlja nastavitve fiskalizacije, organizacije in uporabnikov. |
+| [**Nabava**](../Nabava/README.md) | Zagotavlja nastavitve skladišča in integracij. |
+| [**Proizvodnja**](../Proizvodnja/README.md) | Uporablja uporabnike, lokalizacijo in sistemske nastavitve. |
+| [**Vzdrževanje**](../Vzdrzevanje/README.md) | Uporablja nadzor dostopa in skupne sistemske nastavitve. |
+| [**Viri**](../Viri/README.md) | Uporablja uporabnike, vloge in lokalizacijske nastavitve. |
 Domena Sistem predstavlja administrativno osnovo platforme in podpira delovanje vseh poslovnih procesov.
