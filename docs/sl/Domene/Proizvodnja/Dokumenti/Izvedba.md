@@ -75,7 +75,7 @@ Kliknite **Premor**, da začasno ustavite operacijo. To **ne zaključi** proizvo
 
 ![Premor](../Images/ExecutionTopPause.png "Gumb Premor")
 
-### Kontrolne liste in kakovost
+### Kontrolne liste in kvaliteta
 
 **[Kontrolne liste](../../Kvaliteta/Upravljanje/KontrolneListe.md)** zagotavljajo varnost in kakovost izdelkov. Če je za operacijo zahtevan kontrolni seznam, se samodejno prikaže ob pravem času (na začetku, med izvajanjem ali pred zaključkom).
 
