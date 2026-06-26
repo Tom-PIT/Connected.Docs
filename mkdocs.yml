@@ -50,55 +50,208 @@ markdown_extensions:
 nav:
   - Home: index.md
   - English:
-      - Introduction: en/README.md
-      - Getting started: en/GettingStarted/00.GettingStarted.md
-      - Common features: en/Common/README.md
-      - Navigation: en/Common/UI/Navigation.md
-      - Management index: en/ManagementIndex.md
-      - Domains:
-        - Overview: en/Domains/README.md
-        - Production: 
-            - Overview: en/Domains/Production/README.md
-            - Production Orders: en/Domains/Production/Documents/ProductionOrders.md
-        - Assets: 
-            - Overview: en/Domains/Assets/README.md
-            - Assets: en/Domains/Assets/Assets/Assets.md
-            - Assets price lists: en/Domains/Assets/Assets/AssetPriceLists.md
-            - Materials: 
-                - Overview: en/Domains/Assets/Materials/README.md
-                - Products: en/Domains/Assets/Materials/Products.md
-                - Raw Materials: en/Domains/Assets/Materials/RawMaterials.md
-                - Semi products: en/Domains/Assets/Materials/SemiProducts.md
-                - Repro materials: en/Domains/Assets/Materials/ReproMaterials.md
-        - Supply: en/Domains/Supply/README.md
-        - Logistics: en/Domains/Logistics/README.md
-        - Maintenance: en/Domains/Maintenance/README.md
-        - Knowledge: en/Domains/Knowledge/README.md
-        - Customers: en/Domains/Customers/README.md
-        - Documents: en/Domains/Documents/README.md
-        - Sales: en/Domains/Sales/README.md
-        - Accounting: en/Domains/Accounting/README.md
-        - Resources: en/Domains/Resources/README.md
-        - Quality: en/Domains/Quality/README.md
-        - System: en/Domains/System/README.md
-  - Slovenščina: 
-      - Introduction: sl/README.md
-      - Uvod: sl/Uvod/00.Uvod.md
-      - Skupno: sl/Skupno/Skupno.md
-      - Navigacija: sl/Skupno/UI/Navigacija.md
-      - Kazalo upravljanja: sl/KazaloUpravljanja.md
-      - Domene:
-        - Pregled: sl/Domene/README.md
-        - Proizvodnja: sl/Domene/Proizvodnja/Proizvodnja.md
-        - Sredstva: sl/Domene/Sredstva/DomenaSredstve.md
-        - Nabava: sl/Domene/Nabava/Nabava.md
-        - Logistika: sl/Domene/Logistika/Logistika.md
-        - Vzdrzevanje: sl/Domene/Vzdrzevanje/Vzdrzevanje.md
-        - Znanje: sl/Domene/Znanje/Znanje.md
-        - Stranke: sl/Domene/Stranke/Stranke.md
-        - Dokumenti: sl/Domene/Dokumenti/Dokumenti.md
-        - Prodaja: sl/Domene/Prodaja/Prodaja.md
-        - Racunovodstvo: sl/Domene/Racunovodstvo/Racunovodstvo.md
-        - Viri: sl/Domene/Viri/Viri.md
-        - Kvaliteta: sl/Domene/Kvaliteta/Kvaliteta.md
-        - Sistem: sl/Domene/Sistem/Sistem.md
+    - en/README.md
+    - Getting started: en/GettingStarted/00.GettingStarted.md
+    - Navigation: en/Common/UI/Navigation.md
+    - Management index: en/ManagementIndex.md
+    - Domains:
+      - en/Domains/README.md
+
+      - Production: 
+        - en/Domains/Production/README.md
+        - Production orders: en/Domains/Production/Documents/ProductionOrders.md
+        - Execution: en/Domains/Production/Documents/Execution.md
+        - Processes: en/Domains/Production/Management/Processes.md
+  
+      - Assets: 
+        - en/Domains/Assets/README.md
+        - Assets: en/Domains/Assets/Assets/Assets.md
+        - Assets price lists: en/Domains/Assets/Assets/AssetPriceLists.md
+        - Materials: 
+          - en/Domains/Assets/Materials/README.md
+          - Products: en/Domains/Assets/Materials/Products.md
+          - Raw materials: en/Domains/Assets/Materials/RawMaterials.md
+          - Semi products: en/Domains/Assets/Materials/SemiProducts.md
+          - Repro materials: en/Domains/Assets/Materials/ReproMaterials.md
+          - Packaging: en/Domains/Assets/Materials/Packaging.md
+  
+      - Supply:
+        - en/Domains/Supply/README.md
+        - Inquiries: en/Domains/Supply/Documents/Inquiries.md
+        - Supply orders: en/Domains/Supply/Documents/SupplyOrders.md
+        - Restock planning: en/Domains/Supply/Documents/SupplyStockBoundariesPlanning.md
+
+      - Logistics:
+        - en/Domains/Logistics/README.md
+        - Receives: en/Domains/Logistics/Documents/Receives.md
+        - Issues: en/Domains/Logistics/Documents/Issues.md
+        - Inter-warehouse transfers: en/Domains/Logistics/Documents/InterWarehouse.md
+        - Reversals: en/Domains/Logistics/Documents/Reversals.md
+
+      - Maintenance:
+        - en/Domains/Maintenance/README.md
+        - Maintenance orders: en/Domains/Maintenance/Documents/MaintenanceOrders.md
+        - Maintenance schedule: en/Domains/Maintenance/Documents/MaintenanceSchedule.md
+        - Maintenance calendar: en/Domains/Maintenance/Documents/MaintenanceCalendar.md
+        - Reported malfunctions: en/Domains/Maintenance/Documents/ReportedMalfunctions.md
+
+      - Planning:
+        - en/Domains/Planning/README.md
+        - Planning: en/Domains/Planning/Views/Planning.md
+
+      - Knowledge:
+        - en/Domains/Knowledge/README.md
+        - Knowledge base: en/Domains/Knowledge/KnowledgeBase/KnowledgeBase.md
+        - Directories: en/Domains/Knowledge/Management/Directories.md
+        - Articles: en/Domains/Knowledge/Management/Articles.md
+
+      - Customers:
+        - en/Domains/Customers/README.md
+        - Tickets: en/Domains/Customers/Tickets/Tickets.md
+        - Resolved tickets: en/Domains/Customers/Tickets/ResolvedTickets.md
+        - Desks: en/Domains/Customers/Management/Desks.md
+        - Visitors: en/Domains/Customers/Visitors/VisitorsManagement.md
+
+      - Documents:
+        - en/Domains/Documents/README.md
+        - Document containers: en/Domains/Documents/Documents/Containers.md
+
+      - Sales:
+        - en/Domains/Sales/README.md
+        - Offers: en/Domains/Sales/Documents/Offers.md
+        - Sales orders: en/Domains/Sales/Documents/SalesOrders.md
+        - Issued invoices: en/Domains/Sales/Documents/IssuedInvoices.md
+        - Delivery notes: en/Domains/Sales/Documents/DeliveryNotes.md
+        - Proforma invoices: en/Domains/Sales/Documents/ProformaInvoices.md
+
+      - Accounting:
+        - en/Domains/Accounting/README.md
+        - Received invoices: en/Domains/Accounting/Documents/ReceivedInvoices.md
+        - Bank statements: en/Domains/Accounting/Documents/BankStatements.md
+        - Payment orders: en/Domains/Accounting/Documents/PaymentOrders.md
+        - Fixed assets: en/Domains/Accounting/Documents/FixedAssets.md
+        - Tax returns: en/Domains/Accounting/Documents/TaxReturns.md
+
+      - Resources:
+        - en/Domains/Resources/README.md
+        - Travel orders: en/Domains/Resources/Documents/TravelOrders.md
+        - Time logs: en/Domains/Resources/Views/TimeLogs.md
+        - Attendance: en/Domains/Resources/Views/TimeLogsAttendanceAtWork.md
+        - Availability plans: en/Domains/Resources/Views/AvailabilityPlans.md
+        - Reminders: en/Domains/Resources/Views/Reminders.md
+
+      - Quality:
+        - en/Domains/Quality/README.md
+        - Checklists: en/Domains/Quality/Management/Checklists.md
+        - Checkpoints: en/Domains/Quality/Management/CheckPoints.md
+        - Active checklists: en/Domains/Quality/Views/ActiveChecklists.md
+        - Completed checklists: en/Domains/Quality/Views/CompletedChecklists.md
+
+      - System:
+        - en/Domains/System/README.md
+        - Configuration: en/Domains/System/Settings/Configuration.md
+        - Users: en/Domains/System/Management/Users.md
+
+  - Slovenščina:
+    - sl/README.md
+    - Uvod: sl/Uvod/00.Uvod.md
+    - Navigacija: sl/Skupno/UI/Navigacija.md
+    - Kazalo upravljanja: sl/KazaloUpravljanja.md
+
+    - Domene:
+      - sl/Domene/README.md
+
+      - Proizvodnja:
+        - sl/Domene/Proizvodnja/README.md
+        - Proizvodni nalogi: sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md
+        - Izvedba: sl/Domene/Proizvodnja/Dokumenti/Izvedba.md
+        - Procesi: sl/Domene/Proizvodnja/Upravljanje/Procesi.md
+
+      - Sredstva:
+        - sl/Domene/Sredstva/README.md
+        - Sredstva: sl/Domene/Sredstva/Sredstva/Sredstva.md
+        - Ceniki sredstev: sl/Domene/Sredstva/Sredstva/CenikiSredstev.md
+        - Materiali:
+          - sl/Domene/Sredstva/Materiali/README.md
+          - Izdelki: sl/Domene/Sredstva/Materiali/Izdelki.md
+          - Surovine: sl/Domene/Sredstva/Materiali/Surovine.md
+          - Polizdelki: sl/Domene/Sredstva/Materiali/Polizdelki.md
+          - Repro materiali: sl/Domene/Sredstva/Materiali/ReproMateriali.md
+          - Pakiranje: sl/Domene/Sredstva/Materiali/Pakiranje.md
+
+      - Nabava:
+        - sl/Domene/Nabava/README.md
+        - Povpraševanja: sl/Domene/Nabava/Dokumenti/Povprasevanja.md
+        - Nabavni nalogi: sl/Domene/Nabava/Dokumenti/NabavniNalogi.md
+        - Planiranje nabave: sl/Domene/Nabava/Dokumenti/PlaniranjeNabavePoMejahZaloge.md
+
+      - Logistika:
+        - sl/Domene/Logistika/README.md
+        - Prevzemi: sl/Domene/Logistika/Dokumenti/Prevzemi.md
+        - Izdajnice: sl/Domene/Logistika/Dokumenti/Izdajnice.md
+        - Medskladiščni promet: sl/Domene/Logistika/Dokumenti/MedSkladiscniPromet.md
+        - Storno: sl/Domene/Logistika/Dokumenti/Storno.md
+
+      - Vzdrževanje:
+        - sl/Domene/Vzdrzevanje/README.md
+        - Vzdrževalni nalogi: sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md
+        - Urniki vzdrževanja: sl/Domene/Vzdrzevanje/Dokumenti/UrnikiVzdrzevanja.md
+        - Koledar vzdrževanja: sl/Domene/Vzdrzevanje/Dokumenti/KoledarVzdrzevanja.md
+        - Prijavljene napake: sl/Domene/Vzdrzevanje/Dokumenti/PrijavljeneNapake.md
+
+      - Planiranje:
+        - sl/Domene/Planiranje/README.md
+        - Planiranje: sl/Domene/Planiranje/Pregledi/Planiranje.md
+
+      - Znanje:
+        - sl/Domene/Znanje/README.md
+        - Baza znanja: sl/Domene/Znanje/BazaZnanja/BazaZnanja.md
+        - Imeniki: sl/Domene/Znanje/Upravljanje/Imeniki.md
+        - Članki: sl/Domene/Znanje/Upravljanje/Clanki.md
+
+      - Stranke:
+        - sl/Domene/Stranke/README.md
+        - Prijave: sl/Domene/Stranke/Prijave/Prijave.md
+        - Rešene prijave: sl/Domene/Stranke/Prijave/ResenePrijave.md
+        - Področja: sl/Domene/Stranke/Upravljanje/Podrocja.md
+        - Urejanje obiskov: sl/Domene/Stranke/Obiskovalci/UrejanjeObiskov.md
+
+      - Dokumenti:
+        - sl/Domene/Dokumenti/README.md
+        - Vsebniki: sl/Domene/Dokumenti/Dokumenti/Vsebniki.md
+
+      - Prodaja:
+        - sl/Domene/Prodaja/README.md
+        - Ponudbe: sl/Domene/Prodaja/Dokumenti/Ponudbe.md
+        - Naročila strank: sl/Domene/Prodaja/Dokumenti/NarocilaStrank.md
+        - Izdani računi: sl/Domene/Prodaja/Dokumenti/IzdaniRacuni.md
+        - Dobavnice: sl/Domene/Prodaja/Dokumenti/Dobavnice.md
+        - Predračuni: sl/Domene/Prodaja/Dokumenti/Predracuni.md
+
+      - Računovodstvo:
+        - sl/Domene/Racunovodstvo/README.md
+        - Prejeti računi: sl/Domene/Racunovodstvo/Dokumenti/PrejetiRacuni.md
+        - Bančni izpiski: sl/Domene/Racunovodstvo/Dokumenti/BancniIzpiski.md
+        - Plačilni nalogi: sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md
+        - Osnovna sredstva: sl/Domene/Racunovodstvo/Dokumenti/OsnovnaSredstva.md
+        - Obračun DDV: sl/Domene/Racunovodstvo/Dokumenti/ObracunDDV.md
+
+      - Viri:
+        - sl/Domene/Viri/README.md
+        - Potni nalogi: sl/Domene/Viri/Dokumenti/PotniNalogi.md
+        - Dnevnik prisotnosti: sl/Domene/Viri/Pregledi/DnevnikPrisotnosti.md
+        - Prisotnost na delu: sl/Domene/Viri/Pregledi/DnevnikPrisotnostiPrisotnostNaDelu.md
+        - Plani razpoložljivosti: sl/Domene/Viri/Pregledi/PlaniRazpolozljivosti.md
+        - Opomniki: sl/Domene/Viri/Pregledi/Opomniki.md
+
+      - Kvaliteta:
+        - sl/Domene/Kvaliteta/README.md
+        - Kontrolne liste: sl/Domene/Kvaliteta/Upravljanje/KontrolneListe.md
+        - Kontrolne točke: sl/Domene/Kvaliteta/Upravljanje/KontrolneTocke.md
+        - Aktivne kontrolne liste: sl/Domene/Kvaliteta/Pregledi/AktivneKontrolneListe.md
+        - Zaključene kontrolne liste: sl/Domene/Kvaliteta/Pregledi/ZakljuceneKontrolneListe.md
+
+      - Sistem:
+        - sl/Domene/Sistem/README.md
+        - Konfiguracija: sl/Domene/Sistem/Nastavitve/KonfiguracijaSistema.md
+        - Uporabniki: sl/Domene/Sistem/Upravljanje/Uporabniki.md
