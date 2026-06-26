@@ -150,7 +150,7 @@ Proizvodnja se povezuje z več drugimi operativnimi domenami:
 
 | Področje | Povezava |
 |--------|---------|
-| **[Sredstva](../Sredstva/DomenaSredstve.md)** | Določajo, kaj se proizvaja in porablja |
+| **[Sredstva](../Sredstva/README.md)** | Določajo, kaj se proizvaja in porablja |
 | **[Nabava](../Nabava/README.md)** | Zagotavlja materiale za proizvodnjo |
 | **[Logistika](../Logistika/README.md)** | Skrbi za skladiščne premike porabljenih in proizvedenih artiklov |
 | **[Vzdrževanje](../Vzdrzevanje/Vzdrzevanje.md)** | Deli procese, organizacijske enote, vire in kontrolne sezname; vzdrževalni nalogi se lahko vežejo na proizvodne vire in števce |

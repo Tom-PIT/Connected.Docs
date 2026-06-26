@@ -107,4 +107,4 @@ Domena Viri je tesno povezana z drugimi operativnimi področji:
 | [**Proizvodnja**](../Proizvodnja/README.md) | Viri izvajajo proizvodne operacije in poročajo čas ter napor. |
 | [**Vzdrževanje**](../Vzdrzevanje/Vzdrzevanje.md) | Vzdrževalne aktivnosti porabljajo čas in razpoložljivost virov. |
 | [**Logistika**](../Logistika/README.md) | Potni nalogi in razpoložljivost vplivajo na logistično načrtovanje. |
-| [**Računovodstvo**](../Racunovodstvo/Racunovodstvo.md) | Podatki o času, stroških in dnevnicah se prenašajo v finančne procese in poročila. |
+| [**Računovodstvo**](../Racunovodstvo/README.md) | Podatki o času, stroških in dnevnicah se prenašajo v finančne procese in poročila. |

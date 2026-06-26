@@ -23,15 +23,15 @@ Raziščite posamezne domene:
 - [**Logistika**](Domene/Logistika/README.md)
 - [**Nabava**](Domene/Nabava/README.md)
 - [**Prodaja**](Domene/Prodaja/README.md)
-- [**Računovodstvo**](Domene/Racunovodstvo/Racunovodstvo.md)
-- [**Sredstva**](Domene/Sredstva/DomenaSredstve.md)
+- [**Računovodstvo**](Domene/Racunovodstvo/README.md)
+- [**Sredstva**](Domene/Sredstva/README.md)
 - [**Projekti**](Domene/Projekti/README.md)
 - [**Kakovost**](Domene/Kvaliteta/README.md)
-- [**Stranke**](Domene/Stranke/Stranke.md)
+- [**Stranke**](Domene/Stranke/README.md)
 - [**Viri**](Domene/Viri/Viri.md)
 - [**Vzdrževanje**](Domene/Vzdrzevanje/Vzdrzevanje.md)
 - [**Dokumenti**](Domene/Dokumenti/README.md)
-- [**Sistem**](Domene/Sistem/Sistem.md)
+- [**Sistem**](Domene/Sistem/README.md)
 
 ## Organizacija dokumentacije
 

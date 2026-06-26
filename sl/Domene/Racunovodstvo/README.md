@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/accounting -->
 <!-- app_label: Domena Računovodstvo -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Racunovodstvo.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/README.md -->
 <!-- canonical_source_title: Domena Računovodstvo -->
 
 # Računovodstvo
@@ -181,4 +181,4 @@ Računovodstvo je tesno povezano z drugimi domenami:
 | **[Prodaja](../Prodaja/README.md)** | Izdani računi, prihodki, terjatve |
 | **[Nabava](../Nabava/README.md)** | Prejeti računi, stroški, obveznosti |
 | **[Logistika](../Logistika/README.md)** | Premiki in vrednotenje zaloge |
-| **[Sredstva](../Sredstva/DomenaSredstve.md)** | Osnovna sredstva in amortizacija |
+| **[Sredstva](../Sredstva/README.md)** | Osnovna sredstva in amortizacija |
