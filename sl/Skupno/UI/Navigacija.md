@@ -7,13 +7,13 @@
 
 Platforma je organizirana tako, da omogoča enostavno iskanje dokumentov, pogledov in konfiguracijskih področij glede na vsakodnevno delo. Navigacija poteka predvsem prek **zemljevida strani**, drobtinic in gumbov za hitri dostop.
 
-## Zemljevid strani
+## Glavna navigacija
 
-**Zemljevid strani** je glavna vstopna točka platforme. Razdeljen je na **domene**, od katerih vsaka predstavlja funkcionalno področje sistema.
+**Navigacija** je glavna vstopna točka platforme. Razdeljena je na **domene**, od katerih vsaka predstavlja funkcionalno področje sistema.
 
-![Zemljevid strani](../Images/NavigationSitemapSL.png)
+![Navigacija](../Images/NavigationSitemapSL.png)
 
-Na zemljevid strani se lahko vedno vrnete s klikom na **ikono hiše** v drobtinicah.
+Na navigacijo se lahko vedno vrnete s klikom na **ikono hiše** v drobtinicah.
 
 ### Navigacija z drobtinicami
 
