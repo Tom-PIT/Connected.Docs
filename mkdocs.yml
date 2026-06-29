@@ -1,6 +1,6 @@
-site_name: Tom PIT Connected Documentation
+site_name: Connected Documentation
 
-repo_url: https://github.com/Tom-PIT/Connected.Docs/tree/main
+# repo_url: https://github.com/Tom-PIT/Connected.Docs/tree/main
 
 extra_css:
   - stylesheets/extra.css
@@ -9,13 +9,14 @@ theme:
   name: material
   
   favicon: img/favicon.ico
+  logo: img/tompit-logo.svg
   
   palette:
     primary: blue
-    accent: blue grey
+    accent: teal
   
   icon:
-    logo: material/office-building
+    
   
   features:
     - navigation.tabs
@@ -48,7 +49,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
 
 nav:
-  - Home: index.md
   - English:
     - en/README.md
     - Getting started: en/GettingStarted/00.GettingStarted.md
