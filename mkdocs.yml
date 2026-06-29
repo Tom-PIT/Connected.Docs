@@ -1,4 +1,4 @@
-site_name: Connected Documentation
+site_name: Connected documentation
 
 # repo_url: https://github.com/Tom-PIT/Connected.Docs/tree/main
 
@@ -10,10 +10,10 @@ theme:
   
   favicon: img/favicon.ico
   logo: img/tompit-logo.svg
+
   
   palette:
     primary: blue
-    accent: teal
   
   icon:
     
@@ -28,6 +28,8 @@ theme:
     - search.suggest
     - search.highlight
     - navigation.footer
+
+copyright: Copyright &copy; 2026 Tom PIT d.o.o. All rights reserved.
 
 plugins:
   - search
