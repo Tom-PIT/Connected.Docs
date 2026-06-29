@@ -149,6 +149,9 @@ The **[Quality](QualityChecklists.md)** button opens the configuration page for 
 
 ![Processes Versions Quality Button](../Images/ProcessesVersionsQualityButton.png "Processes Versions Quality Button")
 
+> [!NOTE]
+> Quality checklists can be assigned either to the **process version** (applies to the entire process) or to individual **operations** (performed during a specific operation).
+
 ## Delete a process
 
 A process can be deleted only if it is **not used by documents** (e.g., production or maintenance orders) and **not referenced by other processes**.  

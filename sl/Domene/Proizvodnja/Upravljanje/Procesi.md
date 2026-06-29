@@ -145,6 +145,9 @@ Gumb **[Kvaliteta](KvalitetaKontrolneListe.md)** odpre konfiguracijsko stran za 
 
 ![Gumb Kvaliteta verzije procesa](../Images/ProcessesVersionsQualityButtonSLV2.png "Gumb Kvaliteta verzije procesa")
 
+> [!NOTE]
+> Kontrolne liste kakovosti je mogoče dodeliti bodisi **verziji procesa** (velja za celoten proces) bodisi posameznim **operacijam** (izvedejo se med določeno operacijo).
+
 ## Izbrisati proces
 
 Proces je mogoče izbrisati samo, če **ni uporabljen v dokumentih** (npr. proizvodnih ali vzdrževalnih nalogih) in **nanj niso vezani drugi procesi**.
