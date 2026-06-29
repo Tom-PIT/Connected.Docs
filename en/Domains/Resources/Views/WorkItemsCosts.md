@@ -85,3 +85,14 @@ Any additional [expenses](../../Supply/Management/Expenses.md) linked to the wor
   - Material prices
   - Effort tracking
 - This view is typically used by production managers and analysts.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to PDF**
+- **Recalculate** – recalculates the costs of the selected work item or process version using the latest materials, resources, and expenses.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).

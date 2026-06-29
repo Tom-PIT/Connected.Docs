@@ -86,3 +86,14 @@ V tem razdelku so prikazani vsi dodatni stroški, povezani z opravilom (na prime
   - beleženja dela.
 - Ta pogled najpogosteje uporabljajo vodje proizvodnje in analitiki.
 
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v PDF**
+- **Ponovno izračunaj** – ponovno izračuna stroške izbranega opravila ali verzije procesa na podlagi trenutnih materialov, virov in stroškov.
+
+Za več informacij o dejanjih v meniju glejte [**Dejanja menija**](../../../Skupno/Koncepti/DejanjaMenija.md).
+
