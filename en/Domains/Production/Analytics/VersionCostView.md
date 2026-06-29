@@ -94,4 +94,15 @@ The **Total** value at the bottom of the page shows the final **estimated produc
 
 This value corresponds to the **cost shown in the Versions list**.
 
-If operations, materials, or resources are modified in the process version, the cost must be recalculated using **Izračunaj** on the **[Versions](../Management/Processes.md#versions)** page.
+If operations, materials, or resources are modified in the process version, the cost must be recalculated using **Calculate** on the **[Versions](../Management/Processes.md#versions)** page.
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Export to PDF**
+- **Recalculate** – recalculates the costs of the selected work item or process version using the latest materials, resources, and expenses.
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
