@@ -88,7 +88,7 @@ Ustvarite naročilo stranke za rezervacijo zaloge in planiranje izvedbe.
 
 ### 4a. Obnovite zalogo ali proizvedite (po potrebi)
 
-Če izdelki niso na voljo, glejte **[Obnova zaloge ali proizvodnja](05.ObnovaAliProizvodnja.md)** za možnosti nabave ali proizvodnje pred dobavo.
+Če izdelki niso na voljo, glejte **[Obnova zaloge ali proizvodnja](NabavaAliProizvodnja.md)** za možnosti nabave ali proizvodnje pred dobavo.
 
 Za proizvodna podjetja je hiter način ustvarjanja proizvodnega naloga neposredno iz objavljenega naročila stranke:
 - **Povezani dokumenti → [**+ Proizvodni nalog**](../Domene/Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md)**

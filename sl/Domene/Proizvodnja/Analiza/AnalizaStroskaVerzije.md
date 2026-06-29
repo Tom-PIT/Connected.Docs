@@ -105,4 +105,4 @@ Na voljo so naslednja dejanja:
 - **Izvoz v PDF**
 - **Ponovno izračunaj** – ponovno izračuna stroške izbranega opravila ali verzije procesa na podlagi trenutnih materialov, virov in stroškov.
 
-Za več informacij o dejanjih v meniju glejte [**Dejanja menija**](../../../Skupno/Koncepti/DejanjaMenija.md).
+Za več informacij o dejanjih v meniju glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

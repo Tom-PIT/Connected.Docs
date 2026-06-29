@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/04.Efficiency.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/Efficiency.md -->
 <!-- canonical_source_title: Improving production efficiency -->
 
 # Improving production efficiency

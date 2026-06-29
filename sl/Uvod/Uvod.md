@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/00.Uvod.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/Uvod.md -->
 <!-- canonical_source_title: Uvod -->
 
 # Uvod
@@ -26,11 +26,13 @@ Več informacij o strukturi in navigaciji znotraj platforme najdete v vodiču **
 
 Naslednji scenariji prikazujejo tipične poslovne procese od začetka do konca in so priporočljivi za nove uporabnike, ki se seznanjajo s platformo:
 
-1. **[Predpogoji](01.Predpogoji.md)**
-2. **[Prodajni proces s avansnim računom](02.ProdajniProcesSAvansnimRacunom.md)**
-3. **[Prodajni proces brez avansnega računa](03.ProdajniProcesBrezAvansnegaRacuna.md)**
-4. **[Izboljšanje učinkovitosti proizvodnje](04.Ucinkovitost.md)**
-5. **[Obnova zaloge ali proizvodnja](05.ObnovaAliProizvodnja.md)**
+1. [**Predpogoji**](Predpogoji.md)
+2. [**Prodajni proces s avansnim računom**](ProdajniProcesSAvansnimRacunom.md)
+3. [**Prodajni proces brez avansnega računa**](ProdajniProcesBrezAvansnegaRacuna.md)
+4. [**Izboljšanje učinkovitosti proizvodnje**](Ucinkovitost.md)
+5. [**Nabava ali proizvodnja**](NabavaAliProizvodnja.md)
+6. [**Ustvarjanje in vzdrževanje baze znanja**](UstvarjanjeInVzdrzevanjeBazeZnanja.md)
+7. [**Dvofaktorska avtentikacija (2FA)**](DvofaktorskaAvtentikacija.md)
 
 ## Hitri vodniki
 
@@ -40,4 +42,4 @@ Za hiter začetek si oglejte video vodiče, ki zajemajo ključne funkcionalnosti
 - [**Vzdrževalni nalog – hitri uporabniški vodnik**](VzdrzevalniNalogiHitriVodnik.md)
 
 > [!TIP]
-> Iščete navodila po korakih? Številni dokumenti vsebujejo poseben vodič **Kako ustvariti...** , ki vas korak za korakom vodi skozi postopek ustvarjanja in objave dokumentov, na primer [Kako ustvariti naročilo strank](../Domene/Prodaja/Dokumenti/NarocilaStrankUstvarjanje.md), [Kako ustvariti proizvodni nalog](../Domene/Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md) ali [Kako ustvariti izdani račun](../Domene/Prodaja/Dokumenti/IzdaniRacuniUstvarjanje.md).
+> Iščete navodila po korakih? Številni dokumenti vsebujejo poseben vodič **Kako ustvariti...** , ki vas korak za korakom vodi skozi postopek ustvarjanja in objave dokumentov, na primer [**Kako ustvariti naročilo strank**](../Domene/Prodaja/Dokumenti/NarocilaStrankUstvarjanje.md), [**Kako ustvariti proizvodni nalog**](../Domene/Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md) ali [**Kako ustvariti izdani račun**](../Domene/Prodaja/Dokumenti/IzdaniRacuniUstvarjanje.md).

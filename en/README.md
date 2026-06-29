@@ -8,7 +8,7 @@ Tom PIT.Connected is an integrated business platform covering sales, supply, log
 
 ### New to the platform?
 
-- [**Getting Started**](GettingStarted/00.GettingStarted.md) – Learn the basic concepts, system structure, and first configuration steps.
+- [**Getting Started**](GettingStarted/GettingStarted.md) – Learn the basic concepts, system structure, and first configuration steps.
 - [**Navigation**](Common/UI/Navigation.md) – Understand how to move around the platform using the Sitemap and breadcrumbs.
 
 ### Looking for configuration options?

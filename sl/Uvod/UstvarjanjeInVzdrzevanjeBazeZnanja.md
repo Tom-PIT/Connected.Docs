@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/07.UstvarjanjeInVzdrzevanjeBazeZnanja.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/UstvarjanjeInVzdrzevanjeBazeZnanja.md -->
 <!-- canonical_source_title: Ustvarjanje in vzdrževanje baze znanja -->
 
 # Ustvarjanje in vzdrževanje baze znanja
