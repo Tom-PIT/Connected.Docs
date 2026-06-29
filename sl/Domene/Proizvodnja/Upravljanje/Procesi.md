@@ -12,6 +12,8 @@ Procesi določajo strukturirane korake, ki se uporabljajo v **Proizvodnji** in *
 Ta pogled omogoča ustvarjanje in upravljanje procesov, njihovih verzij ter operativne strukture.
 Proces lahko vsebuje eno ali več **verzij**, na primer različne verzije za različne velikosti izdelkov ali vzdrževalne variante. Vsaka verzija vsebuje zaporedje **[operacij](Operacije.md)**, ki določajo vhode, vire (človeške in stvarne), izhode in zahteve kakovosti.
 
+![Diagram strukture procesa](../Images/ProcessDiagramSL.svg "Diagram strukture procesa")
+
 Za dostop do tega pogleda pojdite na **Proizvodnja / Upravljanje / Procesi** v [navigaciji](../../../Skupno/UI/Navigacija.md). Procesi so skupni in jih je mogoče označiti za uporabo v Proizvodnji ali Vzdrževanju.
 
 > [!TIP]
