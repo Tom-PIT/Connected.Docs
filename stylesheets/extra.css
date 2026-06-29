@@ -26,3 +26,11 @@
     width: auto;
 }
 
+.md-footer-meta {
+    background-color: #2094f3;
+}
+
+:root > * {
+    --md-accent-fg-color: #0D47A1;
+}
+
