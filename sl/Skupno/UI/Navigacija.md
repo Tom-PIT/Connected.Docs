@@ -5,7 +5,7 @@
 
 # Navigacija
 
-Platforma je organizirana tako, da omogoča enostavno iskanje dokumentov, pogledov in konfiguracijskih področij glede na vsakodnevno delo. Navigacija poteka predvsem prek **zemljevida strani**, drobtinic in gumbov za hitri dostop.
+Platforma je organizirana tako, da omogoča hitro in enostavno iskanje dokumentov, pogledov ter področij za upravljanje. Po dokumentaciji se lahko premikate z uporabo **navigacije**, drobtinic in gumbov za hitri dostop.
 
 ## Glavna navigacija
 
