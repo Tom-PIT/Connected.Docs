@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/01.Predpogoji.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/Predpogoji.md -->
 <!-- canonical_source_title: Predpogoji -->
 
 # Predpogoji
@@ -133,5 +133,5 @@ Zdaj ste dodali minimalne podatke, potrebne za izvajanje standardnega poslovnega
 ### Naslednji koraki
 
 Raziščite celostne scenarije, da vidite, kako se ti predpogoji vključujejo v poteke dela:
-- **[Prodajni proces (s avansnim plačilom)](02.ProdajniProcesSAvansnimRacunom.md)**
-- **[Prodajni proces (brez avansnega plačila)](03.ProdajniProcesBrezAvansnegaRacuna.md)**
+- **[Prodajni proces (s avansnim plačilom)](ProdajniProcesSAvansnimRacunom.md)**
+- **[Prodajni proces (brez avansnega plačila)](ProdajniProcesBrezAvansnegaRacuna.md)**
