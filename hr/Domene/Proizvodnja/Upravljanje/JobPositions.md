@@ -1,0 +1,68 @@
+<!-- app_route: /management/resources/job-positions -->
+<!-- app_label: Job positions -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/JobPositions.md -->
+<!-- canonical_source_title: Job positions -->
+
+# Job positions
+
+The **Job positions** code list defines the roles that employees can perform across operational workflows (production and maintenance). These positions are assigned to registered workers in the system, so they can be selected in workflows such as work reports, scheduling, resource assignment, and checklist execution permissions.
+
+To access Job positions, navigate to the **Production** or **Maintenance** domains, then go to **Management / Job positions** in the [navigation](../../../Common/UI/Navigation.md).
+
+## Schema
+
+| Field | Description |
+|-------|-------------|
+| **Code** | Unique identifier of the job position (mandatory). |
+| **Name** | Human-readable name of the role (mandatory). |
+| **Description** | Optional explanation of the responsibilities associated with this position. |
+| **Active** | Indicates whether the position can be assigned to users. |
+
+## Management
+
+From this screen, you can view, add, and edit job positions used across Production and Maintenance.
+
+### Job positions list
+
+The list displays all recorded job positions, showing their **name** and **code**.
+
+![Job positions list](../Images/JobPositionsList.png)
+
+Each record includes a status indicator to the left of its name:
+- **Blue** indicates the position is active  
+- **Gray** indicates the position is inactive  
+
+To view or assign workers to a position, first expand the record by clicking the arrow on the left side of the row. This reveals the **Add user resource** option.
+
+Clicking **Add user resource** opens a dialog where you can select one or more existing system users to assign to the job position.
+
+![Add user resource](../Images/JobPositionsListAddUserResource.png)
+
+## Actions
+
+Click the [action button](../../../Common/UI/ActionButton.md) to add a new job position.
+
+### Create a new job position
+
+Fill in the required information:
+
+- **Code**  
+- **Name**  
+- **Description** (optional)  
+- **Active**  
+
+![Job positions – New](../Images/JobPositionsNew.png)
+
+Click **Add** to save the new position.
+
+### Edit a job position
+
+To edit an existing job position, click on its name in the list. This opens the edit screen where you can modify the position's details.
+
+## Delete a job position
+
+Click a job position on the list to open the edit screen, then click **Delete**. If confirmed, the record is permanently deleted.
+
+> [!WARNING]
+> Job positions can be deleted freely, even if users are assigned to them.
+

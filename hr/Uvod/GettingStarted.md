@@ -1,0 +1,47 @@
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/GettingStarted.md -->
+<!-- canonical_source_title: Getting started -->
+
+# Getting started
+
+Tom PIT.Connected is a global digital transformation platform. Use this guide to quickly orient yourself and navigate the materials.
+
+This documentation is structured by platform domains (each with their documents, code lists, views, and analytics) and complemented by typical end‑to‑end workflows in the **Getting started** folder to help you follow common scenarios from setup to execution.
+
+> [!TIP]
+> Start with the **[Navigation](../Common/UI/Navigation.md)** topic to explore domains, documents, and views.
+
+## Structure
+
+The platform follows a consistent structure:
+
+- **Domain** — business areas (e.g., [**Production**](../Domains/Production/README.md), [**Logistics**](../Domains/Logistics/README.md), [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Assets**](../Domains/Assets/README.md), [**Projects**](../Domains/Projects/README.md)). Each domain divided into different sections:
+   - **Documents** — operational documents and workflows (e.g., [**Issues**](../Domains/Logistics/Documents/Issues.md), [**Receives**](../Domains/Logistics/Documents/Receives.md), [**Sales orders**](../Domains/Sales/Documents/SalesOrders.md))
+   - **Views** and **Analytics** — Performance views, KPIs, and reports
+   - **Management** — code lists and master data (e.g., [**Business directory**](../Common/Management/BusinessDirectory.md), [**Measure units**](../Common/Management/MeasureUnits.md), [**Tax rates**](../Common/Management/TaxRates.md), [**Payment methods**](../Domains/Sales/Management/PaymentMethods.md), [**Organization bank accounts**](../Domains/Sales/Management/OrganizationBankAccounts.md))
+- **Common** — shared concepts and UI elements
+
+More information on the structure and navigation inside the platform can be found in the [navigation](../Common/UI/Navigation.md) guide.
+
+## Scenarios
+
+The following scenarios demonstrate typical end-to-end business processes and are recommended for new users becoming familiar with the platform.
+
+1. [**Prerequisites**](Prerequisites.md)
+2. [**Sales process with prepayment**](SalesProcessWithPrepayment.md)
+3. [**Sales process without prepayment**](SalesProcessWithoutPrepayment.md)
+4. [**Improving production efficiency**](Efficiency.md)
+5. [**Restock or produce**](RestockOrProduce.md)
+6. [**Create and maintain a knowledge base**](CreateAndMaintainKnowledgeBase.md)
+7. [**Add two-factor authentication (2FA)**](TwoFactorAuthentication.md)
+ 
+
+## Quick user guides
+
+Find quick guides for common tasks in the following documents:
+
+- [**Execution – Quick User Guide**](ExecutionQuickUserGuide.md)
+- [**Maintenance Order – Quick User Guide**](MaintenanceOrderQuickUserGuide.md)
+
+> [!TIP]
+> Looking for step-by-step instructions? Many document pages include a dedicated **How to create...** guide that walks you through the complete process of creating and publishing documents, such as [**How to create a sales order**](../Domains/Sales/Documents/SalesOrdersCreate.md), [**How to create a production order**](../Domains/Production/Documents/ProductionOrderCreate.md), or [**How to create an issued invoice**](../Domains/Sales/Documents/IssuedInvoicesCreate.md).
+

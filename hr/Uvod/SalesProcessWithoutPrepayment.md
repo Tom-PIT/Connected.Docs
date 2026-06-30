@@ -1,0 +1,94 @@
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/SalesProcessWithoutPrepayment.md -->
+<!-- canonical_source_title: Sales process (without prepayment) -->
+
+# Sales process (without prepayment)
+
+This guide walks through a typical sales process without using prepayments. Use links for details; do not duplicate configuration here.
+
+![Sales flow without prepayment](Images/SalesFlowWithoutPrepayment.svg "Sales flow without prepayment")
+
+> [!TIP]
+> Follow this guide step‑by‑step to configure the platform. Use the links to open each code list or setting if you need further details, then return to this page to continue with the next step.
+
+> [!NOTE]
+> - In some use cases the process starts directly with a **Sales Order**. The **Offer** step is optional.
+> - Inventory movement occurs at **Issue**. 
+> - **Issued Invoice** records revenue and payments.
+
+## Steps
+
+<!-- app_route: /sales/documents/offers -->
+<!-- app_label: Sales offers -->
+
+### 1. Create and publish a sales offer (optional)
+
+Create a commercial offer to confirm prices, quantities, and validity with the customer.
+
+1. Go to **Sales / Documents / Offers**.
+2. Use the **[action button](../Common/UI/ActionButton.md)** to create a draft [sales offer](../Domains/Sales/Documents/Offers.md).
+3. Fill **Customer**, **Expiration date**, and add items in the **Details** section.
+4. Click **Publish** to confirm the document.
+
+   ![Publish offer](Images/OfferDraft.png "Publish offer")
+
+
+<!-- app_route: /sales/documents/sales-orders -->
+<!-- app_label: Sales orders -->
+
+### 2. Create a sales order
+
+Create a sales order to reserve stock and plan fulfillment.
+
+1. From the committed offer, use **Linked documents → [+ Sales order](../Domains/Sales/Documents/SalesOrdersCreate.md)**.
+
+   ![Offer Link Sales Order](Images/OfferSalesOrder.png "Create sales order from offer")
+
+2. Confirm quantities and delivery details, then click **Publish**.
+
+<!-- app_route: /production-orders -->
+<!-- app_label: Production orders -->
+
+### 2a. Restock or produce (if needed)
+
+If items are unavailable, see **[Restock or produce](RestockOrProduce.md)** for options to procure or manufacture before delivery.
+
+For production companies, a quick way to create a production order is from the published sales order: 
+- **Linked documents → [**+ Production order**](../Domains/Production/Documents/ProductionOrderCreate.md)**.
+
+This creates a Production order draft that can be committed later in the **[Production domain](../Domains/Production/README.md)**.
+
+<!-- app_route: /sales/documents/delivery-notes -->
+<!-- app_label: Delivery notes -->
+
+### 3. Deliver goods
+
+The sales order is ready; prepare the shipment and move stock out of the warehouse.
+
+1. From the sales order, open **Linked documents → [+ Delivery note](../Domains/Sales/Documents/DeliveryNotes.md)**.  
+   Verify **Customer**, **Delivery address**, and add the items to be shipped. You can adjust quantities if only part of the order is being delivered.
+2. In the delivery note, open **Linked documents → [+ Full issue](../Domains/Logistics/Documents/Issues.md)**.
+
+   ![Delivery Note Full Issue](Images/DeliveryNoteFullIssue.png "Create full issue from delivery note")
+
+   Select the **Warehouse** and **Location(s)**, confirm quantities to pick.
+3. Click **Publish** to commit the issue.  
+   This moves stock out and updates inventory balances.
+4. (Optional) Verify the change in **[Stock view by location](../Domains/Logistics/Views/StockViewByLocation.md)**.
+
+<!-- app_route: /sales/documents/issued-invoices -->
+<!-- app_label: Issued invoices -->
+
+### 4. Issue the final invoice and record payments
+
+Invoice delivered goods and record payment(s).
+
+1. From the sales order or the delivery note, open **Linked documents → [+ Issued invoice](../Domains/Sales/Documents/IssuedInvoicesCreate.md)**.
+2. Review the final totals and add **Payment methods** if needed.
+3. Click **Publish**.
+4. Record incoming payments (partial or full) via the **Payment** button.
+
+   ![Issued Invoices Payment Button](Images/IssuedInvoicesPaymentButton.png)
+
+> [!TIP]
+> - Use **Linked documents** to step through each stage and confirm auto-filled data (customer, items).
+> - Open **[Company cards](../Domains/Sales/Views/CompanyCards.md)** to review customer history, orders, and balances.

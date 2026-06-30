@@ -1,0 +1,211 @@
+<!-- app_route: /warehouse/documents/receives --> 
+<!-- app_label: Receives --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Receives.md --> 
+<!-- canonical_source_title: Receives -->
+
+# Receives
+
+A **Receive** document is used to record the arrival of materials into your warehouse. When goods physically arrive from a supplier or another location, you create a receive document to register them in the system. Examples include receiving:
+- [**Products**](../../Assets/Materials/Products.md)  
+- [**Semi products**](../../Assets/Materials/SemiProducts.md)  
+- [**Repro materials**](../../Assets/Materials/ReproMaterials.md)  
+- [**Raw materials**](../../Assets/Materials/RawMaterials.md)
+
+The receive process captures key information such as the material, [packaging](../../Assets/Materials/Packaging.md), quantity, serial numbers, best-before dates, and [storage location](../Management/Locations.md). This ensures that stock levels are accurate and that all items are properly tracked from the moment they enter the warehouse.
+
+> [!TIP]
+> For a full demonstration, see the [**Receive**](https://www.youtube.com/watch?v=oTOYD-nlCqE) video tutorial.
+
+To access Receives, go to **Logistics / Documents / Receives** in the [navigation](../../../Common/UI/Navigation.md).
+
+## Schema
+
+<details open markdown="1">
+<summary><strong>Document</strong></summary>
+
+| Field | Description |
+|-------|-------------|
+| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated unique identifier for the receive document. |
+| **Document date** | Date when the goods were physically received. |
+| [**Warehouse**](../Management/Warehouses.md) | Warehouse where the materials are being received (mandatory). |
+| **Vendor** | Supplier delivering the goods, selected from the [Business directory](../../../Common/Management/BusinessDirectory.md) (mandatory). |
+| [**Supply order**](../../Supply/Documents/SupplyOrders.md) | (Optional) Linked supply order. |
+| **Notes** | Additional remarks related to the document. |
+
+</details>
+
+<details markdown="1">
+<summary><strong>Transport and Intrastat</strong></summary>
+
+| Field | Description |
+|------|-------------|
+| [**Delivery term**](../../../Common/Management/DeliveryTerms.md) | Delivery conditions agreed with the supplier (for example, costs and freight). |
+| [**Mode of transport**](../../../Common/Management/ModeOfTransport.md) | Transport method used to deliver the goods (for example, road transport). |
+| [**Country dispatch**](../../../Common/Management/Countries.md) | Country from which the goods were dispatched. This value is typically derived from the material’s Intrastat configuration. |
+| [**Nature of transaction**](../../Accounting/Management/Intrastat/NatureOfTransactions.md) | Classification of the transaction type used for Intrastat reporting (for example, direct sales or purchases). |
+| [**Place of delivery**](../../Accounting/Management/Intrastat/PlaceOfDelivery.md) | Indicates where the goods are delivered, according to Intrastat definitions. |
+
+</details>
+
+<details markdown="1">
+<summary><strong>Details</strong></summary>
+
+| Field | Description |
+|-------|-------------|
+| [**Material**](../../Assets/Materials/README.md) | Material being received ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
+| **EAN** | Packaging or unit barcode. |
+| **Net weight / Gross weight (kg)** | Weight information stored in the system or scanned. |
+| **Dimensions (whd, mm)** | Width, height, and depth of the package. |
+| [**Warehouse location**](../Management/Locations.md) | Storage location where the unit will be placed. |
+| **Serial number** | Serial number scanned or generated. |
+| **Best before** | Expiration date (for materials with shelf life). |
+| **Packaging quantity (pc)** | Quantity represented by a single packaging unit. |
+| **Quantity in base unit (pc)** | Quantity expressed in the material’s base measurement unit. |
+| **Received quantity (pc)** | Quantity actually received. |
+| **Number of packets** | Number of packages received. |
+
+</details>
+
+<details markdown="1">
+<summary><strong>Details – Intrastat</strong></summary>
+
+This section becomes available when Intrastat reporting is enabled and the vendor is located in another EU country.
+
+| Field | Description |
+|-------|-------------|
+| [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Intrastat tariff code of the material. |
+| **Country origin** | Country where the goods were produced. |
+| **Net weight (kg)** | Net weight used for Intrastat reporting. |
+| **Invoiced amount** | Value of goods reported for statistical purposes. |
+| **Statistical value** | Additional statistical amount required by national regulations. |
+
+</details>
+
+## List of receive documents
+
+The Receives page displays all receive documents. You can search for a specific document using the search bar, or filter the list using the left sidebar, which includes:
+
+- **Document dates**
+- **View:**  
+  - *Drafts* — documents you created but have not yet published  
+  - *Committed* — documents that are published and fixed
+- **Author**
+- **Warehouse**
+
+A color indicator next to each document shows its status:
+
+- **Green** — committed  
+- **Gray** — draft
+
+You can click any document to open and review its details.
+
+![Receive documents list](../Images/Receives.png "Receive documents list")
+
+## Actions
+
+### Create a receive document
+
+To create a new receive document:
+
+1. Click the [action button](../../../Common/UI/ActionButton.md), then select the **Vendor**.
+
+	![Receive document](../Images/ReceiveDocument.png "Receive document")
+
+2. Scan or manually enter the **EAN code of the packaging**. The system displays **all matching materials and serial numbers**.
+
+3. The system automatically retrieves the packaging information and fills all relevant fields in the **Details** section.
+
+	![Receive document details](../Images/ReceiveDocumentDetails.png "Receive document details")
+
+4. Adjust quantities, storage locations, or other values if needed.
+   
+   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+
+5. Click **Save** to save the details. Add more items starting from step 2 if needed.
+
+6. Click **Publish** to commit the document. 
+
+A newly created receive document appears in the **Drafts** view. Once published, it moves to **Committed**.
+
+#### Transport and Intrastat sections
+
+When **Intrastat** is set to **Obliged** in **System / Configuration / Intrastat**, additional sections become available in the receive document form.
+
+![Transport and Intrastat sections](../Images/ReceiveTransportInstrastat.png "Transport and Intrastat sections")
+
+
+- **Transport** - Used to capture logistics-related information about how the goods were delivered.
+- **Intrastat** - Used to collect data required for Intrastat reporting. These fields are only shown when Intrastat reporting is enabled for the system.
+
+> [!NOTE]  
+> Several Intrastat-related values are taken from **material code lists** (Intrastat configuration), such as country and transaction nature. These fields are not freely configurable per document and depend on predefined master data.
+
+#### Intrastat fields in Details
+
+When **Intrastat** is enabled and the selected **Vendor** is from another EU country, additional fields appear inside each **Detail line**.
+
+![Receive detail – Intrastat](../Images/DocumentDetailsIntrastat.png)
+
+These fields are used for Intrastat statistical reporting and are required for cross-border EU transactions.
+
+#### Attachments
+
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
+
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
+
+#### Document connections
+
+Committed receive documents include an additional **Document connections** section. This section lists any documents that can be created based on the received materials.
+
+For receive documents, a **Disassemble** option may appear. This allows you to create a new disassembly document using the received items.
+
+![Document connections](../Images/ReceivesDocumentConnections.png)
+
+For more details, see the [Disassemblies](Disassemblies.md) documentation.
+
+#### Notes
+
+Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
+
+### Edit a receive document
+
+Click a document code from the list to open the edit screen. You can:
+
+- Review its **Document** section (header information)
+- Review all **Details** representing the received items
+- Edit draft documents
+- Print or export the document
+
+> [!NOTE]
+> Committed documents are read-only, except for reversal creation
+
+![Receive reviewing](../Images/ReceiveReviewing.png "Receive reviewing")
+
+### Delete a receive document
+
+Draft documents can be deleted on the edit screen, but only if they contain **no material entries**. If the draft still includes materials in the **Details** section, you can use the option **Delete all details** in the **Menu**.
+
+To delete details individually:
+
+1. Click the material serial number to open the **Edit detail** screen.  
+2. Click **Delete** inside the Edit detail window to remove the material.  
+3. Repeat this for all remaining materials.
+
+Once the document contains no materials, you can click **Delete** to remove the draft.
+
+> [!NOTE]
+> Committed documents **cannot** be deleted — only [reversed](Reversals.md).
+
+## Menu
+
+The menu provides additional actions available on this page.
+
+Available actions:
+
+- **Print**
+- **Export to PDF**
+- **Delete all details** (only for draft documents)
+- **Reverse issue** (only for committed documents)
+
+For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
