@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/06.DvofaktorskaAvtentikacija.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/DvofaktorskaAvtentikacija.md -->
 <!-- canonical_source_title: Dvofaktorska avtentikacija -->
 
 # Dvofaktorska avtentikacija

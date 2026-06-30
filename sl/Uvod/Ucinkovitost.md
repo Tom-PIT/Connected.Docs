@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/04.Ucinkovitost.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/Ucinkovitost.md -->
 <!-- canonical_source_title: Izboljšanje učinkovitosti proizvodnje -->
 
 # Izboljšanje učinkovitosti proizvodnje
@@ -25,6 +25,8 @@ Ta vodič v preprostih korakih pojasnjuje, kako spremljati proizvodno delo in iz
 - Odprite **[Procesi](../Domene/Proizvodnja/Upravljanje/Procesi.md)** in določite operacije, vhode, izhode ter pričakovane čase cikla.
 - Preverite, da so **[Vhodi](../Domene/Proizvodnja/Upravljanje/Vhodi.md)** in **[Izhodi](../Domene/Proizvodnja/Upravljanje/Izhodi.md)** definirani za vse materiale in izdelke.
 
+![Seznam vhodov](../Domene/Proizvodnja/Images/InputsListSL.png "Seznam vhodov")
+
 > [!NOTE]
 > Jasno definirani procesi omogočajo natančne izračune porabe in učinkovitosti med izvedbo.
 
@@ -35,6 +37,8 @@ Ta vodič v preprostih korakih pojasnjuje, kako spremljati proizvodno delo in iz
 - Dodajte **[Oznake klasifikacije slabega kosa](../Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeSlabegaKosa.md)** za izmet, popravila in težave s kakovostjo.
 - Dodajte **[Oznake zastojev](../Domene/Proizvodnja/Upravljanje/OznakeZastojev.md)** za zaustavitve opreme in zamude.
 - Preverite **[Človeške vire](../Domene/Proizvodnja/Upravljanje/CloveskiViri.md)** in **[Stvarne vire](../Domene/Proizvodnja/Upravljanje/StvarniViri.md)** po potrebi.
+
+![Seznam oznak klasifikacije slabega kosa](../Domene/Proizvodnja/Images/LossClassificationTagsSL.png "Seznam oznak klasifikacije slabega kosa")
 
 > [!TIP]
 > Seznam oznak naj bo kratek in smiseln, da lahko operaterji hitro izberejo ustrezen razlog.
@@ -50,6 +54,8 @@ Ta vodič v preprostih korakih pojasnjuje, kako spremljati proizvodno delo in iz
   - zastojev z razlogi
   - vloženega truda (delovni čas)
 
+![Beleženje izvedbe](../Domene/Proizvodnja/Images/ExecutionProductionScreenSL.png "Beleženje izvedbe")
+
 > [!TIP]
 > Uporabite **Povezane dokumente** v proizvodnih nalogih za sledenje porabi po nalogu, nato primerjajte zabeleženo porabo z **[Zalogo](../Domene/Logistika/Pregledi/Zaloga.md)** in dokumenti premikov (**[Medskladiščni promet](../Domene/Logistika/Dokumenti/MedSkladiscniPromet.md)**, **[Premakni serijsko številko](../Domene/Logistika/Dokumenti/PremakniSerijskoStevilko.md)**), da potrdite razlike in ugotovite vzroke.
 
@@ -64,6 +70,8 @@ Ta vodič v preprostih korakih pojasnjuje, kako spremljati proizvodno delo in iz
   - **[Povzetek stroja](../Domene/Proizvodnja/Analiza/PovzetekStroja.md)** — učinkovitost po stroju/liniji
   - **[Slabi kosi organizacijskih enot](../Domene/Proizvodnja/Analiza/SlabiKosiOrganizacijskihEnot.md)** — izmet po organizacijskih enotah
   - **[Zastoji organizacijskih enot](../Domene/Proizvodnja/Analiza/ZastojiOrganizacijskihEnot.md)** — zastoji po organizacijskih enotah
+
+![Povzetek slabih kosov](../Domene/Proizvodnja/Images/LossSummaryViewSL.png "Povzetek slabih kosov")
 
 > [!TIP]
 > - Filtrirajte po časovnem obdobju in enoti ter primerjajte najpogostejše razloge za določanje prioritet izboljšav.
