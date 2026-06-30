@@ -21,7 +21,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.74"
-     inkscape:cx="286.48649"
+     inkscape:cx="287.83784"
      inkscape:cy="-199.32432"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -76,9 +76,10 @@
      id="rect1" />
   <text
      class="text"
-     x="90.231934"
-     y="43.175293"
-     id="text1">Draft</text>
+     x="90.473633"
+     y="43.443848"
+     id="text1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Draft</text>
   <rect
      class="box"
      x="281"
@@ -89,9 +90,10 @@
      id="rect2" />
   <text
      class="text"
-     x="370.88721"
-     y="40.85498"
-     id="text2">Pending</text>
+     x="370.84424"
+     y="41.14502"
+     id="text2"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Pending</text>
   <rect
      class="box"
      x="561"
@@ -102,9 +104,10 @@
      id="rect3" />
   <text
      class="text"
-     x="651.47266"
-     y="43.041016"
-     id="text3">Active</text>
+     x="651.24707"
+     y="43.008789"
+     id="text3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Active</text>
   <rect
      class="box"
      x="841"
@@ -115,9 +118,10 @@
      id="rect4" />
   <text
      class="text"
-     x="931.24707"
-     y="43.169922"
-     id="text4">Closed</text>
+     x="931.13965"
+     y="43.331055"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Closed</text>
   <rect
      class="activity"
      x="560.05444"
@@ -128,9 +132,10 @@
      id="rect6" />
   <text
      class="text"
-     x="650.88721"
-     y="180.61066"
-     id="text6">Execution</text>
+     x="650.83887"
+     y="180.57843"
+     id="text6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Execution</text>
   <line
      class="arrow"
      x1="181"

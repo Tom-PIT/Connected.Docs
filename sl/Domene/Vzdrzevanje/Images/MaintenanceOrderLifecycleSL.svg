@@ -20,9 +20,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.48"
-     inkscape:cx="311.48649"
-     inkscape:cy="167.90541"
+     inkscape:zoom="0.74"
+     inkscape:cx="547.2973"
+     inkscape:cy="315.54054"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -87,7 +87,7 @@
      x="146.40639"
      y="21.283854"
      id="text1"
-     style="font-size:21.3333px">Viri ustvarjanja</text>
+     style="font-size:21.3333px;-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Viri ustvarjanja</text>
   <!-- Maintenance schedule source -->
   <rect
      class="source"
@@ -99,9 +99,10 @@
      id="rect1" />
   <text
      class="text"
-     x="145.64027"
-     y="84.351837"
-     id="text2">Urniki vzdrževanja</text>
+     x="145.84975"
+     y="82.40213"
+     id="text2"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Urniki vzdrževanja</text>
   <!-- Reported malfunction source -->
   <rect
      class="source"
@@ -113,9 +114,10 @@
      id="rect2" />
   <text
      class="text"
-     x="145.89272"
-     y="242.42899"
-     id="text3">Prijavljene napake</text>
+     x="145.49525"
+     y="242.40213"
+     id="text3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Prijavljene napake</text>
   <!-- Pending -->
   <rect
      class="box"
@@ -127,9 +129,10 @@
      id="rect3" />
   <text
      class="text"
-     x="510.88721"
-     y="162.15967"
-     id="text4">V obdelavi</text>
+     x="511.58008"
+     y="164.63574"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">V obdelavi</text>
   <!-- Active -->
   <rect
      class="box"
@@ -141,9 +144,10 @@
      id="rect4" />
   <text
      class="text"
-     x="771.47266"
-     y="164.3457"
-     id="text5">Aktiven</text>
+     x="771.59082"
+     y="164.63574"
+     id="text5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Aktiven</text>
   <!-- Closed -->
   <rect
      class="box"
@@ -155,9 +159,10 @@
      id="rect5" />
   <text
      class="text"
-     x="1031.2471"
-     y="164.47461"
-     id="text6">Zaprt</text>
+     x="1030.9141"
+     y="162.0791"
+     id="text6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Zaprt</text>
   <!-- Source arrows -->
   <!-- Lifecycle arrows -->
   <line

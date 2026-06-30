@@ -23,8 +23,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.0826049"
-     inkscape:cx="450.76464"
-     inkscape:cy="47.570449"
+     inkscape:cx="746.348"
+     inkscape:cy="47.570448"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -61,7 +61,8 @@
      class="note"
      x="20"
      y="150"
-     id="text19" />
+     id="text19"
+     style="-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" />
   <g
      id="g20"
      transform="translate(-19.21946,-24.999998)">
@@ -116,50 +117,61 @@
        id="rect7" />
     <text
        class="text"
-       x="79.846191"
-       y="85.099609"
+       x="79.805176"
+       y="85.181641"
        text-anchor="middle"
-       id="text7">Ponudba</text>
+       id="text7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Ponudba</text>
     <text
        class="text"
-       x="249.84619"
-       y="85.208984"
+       x="249.89746"
+       y="85.181641"
        text-anchor="middle"
-       id="text8">Predračun</text>
+       id="text8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Predračun</text>
     <text
        class="text"
-       x="430.41357"
-       y="83.681152"
+       x="430.37598"
+       y="85.178223"
        text-anchor="middle"
-       id="text9">Avansni račun</text>
+       id="text9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Avansni račun</text>
     <text
        class="text"
-       x="589.36426"
-       y="85.208984"
+       x="589.42578"
+       y="85.181641"
        text-anchor="middle"
-       id="text10">Naročilo strank</text>
+       id="text10"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Naročilo strank</text>
     <g
        id="g19"
        transform="translate(-0.15380859,-5.4658203)">
-      <text
-         class="text"
-         x="750"
-         y="80"
-         text-anchor="middle"
-         id="text11">Dobavnica</text>
-      <text
-         class="text"
-         x="749.84961"
-         y="98"
-         text-anchor="middle"
-         id="text12">+ Izdajnica</text>
+      <g
+         id="g1"
+         transform="translate(0.42041015,0.22216796)">
+        <text
+           class="text"
+           x="750"
+           y="80"
+           text-anchor="middle"
+           id="text11"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Dobavnica</text>
+        <text
+           class="text"
+           x="749.84961"
+           y="98"
+           text-anchor="middle"
+           id="text12"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">+ Izdajnica</text>
+      </g>
     </g>
     <text
        class="text"
-       x="1048.9104"
-       y="85.208984"
+       x="1048.8694"
+       y="85.181641"
        text-anchor="middle"
-       id="text14">Plačila</text>
+       id="text14"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Plačila</text>
     <line
        class="arrow"
        x1="140"
@@ -204,22 +216,22 @@
        id="line19" />
     <text
        class="text"
-       x="909.71796"
-       y="85.208984"
+       x="909.72137"
+       y="85.181641"
        text-anchor="middle"
        id="text9-4"
-       style="font-size:14px;font-family:'Segoe UI', Arial, sans-serif;fill:#1a202c"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#1a202c"><tspan
          sodipodi:role="line"
          id="tspan14"
-         x="909.71796"
-         y="85.208984">Izdan račun</tspan><tspan
+         x="909.72137"
+         y="85.181641">Izdan račun</tspan><tspan
          sodipodi:role="line"
-         x="909.71796"
-         y="102.70898"
+         x="909.72137"
+         y="102.68164"
          id="tspan16" /><tspan
          sodipodi:role="line"
          id="tspan15"
-         x="909.71796"
-         y="120.20898" /></text>
+         x="909.72137"
+         y="120.18164" /></text>
   </g>
 </svg>
