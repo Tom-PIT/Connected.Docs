@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/debit-notes -->
 <!-- app_label: Terećenja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Prodaja/Dokumenti/Terecenja.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/Terecenja.md -->
 <!-- canonical_source_title: Terećenja -->
 
 # Terećenja

@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/credit-notes -->
 <!-- app_label: Odobrenja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Prodaja/Dokumenti/Odobrenja.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/Odobrenja.md -->
 <!-- canonical_source_title: Odobrenja -->
 
 # Odobrenja
