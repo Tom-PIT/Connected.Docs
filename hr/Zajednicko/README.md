@@ -1,105 +1,104 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Common/README.md -->
-<!-- canonical_source_title: Common module -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/README.md -->
+<!-- canonical_source_title: Zajedničko -->
 
-# Common
+# Zajedničko
 
-The **Common** module is not a domain; instead, it provides a set of **shared Code Lists and UI foundations** used across the entire platform.  These elements define global structures such as countries, currencies, tax rates, measurement units, and business partners.   Every functional domain — [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Logistics**](../Domains/Logistics/README.md), [**Production**](../Domains/Production/README.md)—relies on the Common module to operate correctly.
+Modul **Zajedničko** nije zasebna domena, već skup **zajedničkih šifrarnika i osnovnih elemenata korisničkog sučelja** koji se koriste u cijeloj platformi. Ti elementi definiraju zajedničke podatke, kao što su države, valute, porezne stope, mjerne jedinice i poslovni partneri. Sve funkcionalne domene — [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Logistika**](../Domene/Logistika/README.md) i [**Proizvodnja**](../Domene/Proizvodnja/README.md) — oslanjaju se na modul **Zajedničko** za ispravan rad.
 
-Because of this, the Common module must be configured **before** using any other domain in the platform.
+Zbog toga je modul **Zajedničko** potrebno konfigurirati **prije** korištenja bilo koje druge domene u platformi.
 
-Example of Common code lists in the **Sales** domain:
+Primjer zajedničkih šifrarnika u domeni **Prodaja**:
 
-![Common Code Lists Examples](Images/CommonCodeListsExamples.png "Common Code Lists Examples")
+![Primjer zajedničkih šifrarnika](Images/CommonCodeListsExamplesHR.png "Primjer zajedničkih šifrarnika")
 
-> [!IMPORTANT]  
-> The Common Code Lists should be the **first configuration step** when setting up the platform.  
->  
->Without these values, [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Logistics**](../Domains/Logistics/README.md), and [**System Configuration**](../Domains/System/Settings/Configuration.md) cannot function correctly.
+> [!IMPORTANT]
+> Zajedničke šifrarnike potrebno je konfigurirati kao **prvi korak** prilikom postavljanja platforme.
+>
+> Bez tih podataka domene [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Logistika**](../Domene/Logistika/README.md) i [**Konfiguracija sustava**](../Domene/Sustav/Postavke/Konfiguracija.md) ne mogu ispravno funkcionirati.
 
-## What is included in the Common module?
+## Što uključuje modul Zajedničko?
 
-The Common module contains several categories of shared code lists used throughout the system:
+Modul **Zajedničko** sadrži nekoliko skupina zajedničkih šifrarnika koji se koriste u cijelom sustavu:
 
-- **Geography and Organizational Structure**  
-- **Financial and Tax Settings**  
-- **Measurement and Units**  
-- **Partner and Directory Records**  
-- **Text Templates and UI Behavior**
+- **Geografski i organizacijski podaci**
+- **Financijske i porezne postavke**
+- **Mjerne jedinice**
+- **Poslovni partneri i poslovni podaci**
+- **Predlošci tekstova i elementi korisničkog sučelja**
 
-These code lists act as foundational building blocks that other domains depend on.
+Ti šifrarnici predstavljaju osnovu na kojoj se temelje ostale domene sustava.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../ManagementIndex.md)**.
+> Pregled svih šifrarnika dostupan je u dokumentu **[Indeks upravljanja](../IndeksUpravljanja.md)**.
 
+## Geografski i organizacijski podaci
 
-### Geography & Organization
+Ovi šifrarnici definiraju geografski i organizacijski kontekst tvrtke i njezinih dokumenata.
 
-These settings define the geographic and organizational context of the company and its documents.
+- **[Države](Upravljanje/Drzave.md)** – Definiraju države koje se koriste za adrese, dokumente, zakonske zahtjeve i lokalizaciju.
+- **[Poslovni imenik](Upravljanje/PoslovniImenik.md)** – Središnji popis kupaca, dobavljača i drugih poslovnih subjekata.
 
-- **[Countries](Management/Countries.md)** – Defines allowed countries used for addresses, documents, legal formatting, and localization.  
-- **[Business directory](Management/BusinessDirectory.md)** – Central database of companies, suppliers, and other legal entities.
+> [!IMPORTANT]
+> Države moraju biti konfigurirane prije postavljanja države organizacije u **Sustav → Konfiguracija → Organizacija** ili u **Postavkama zajedničkih šifrarnika**.
 
-> [!IMPORTANT]  
-> Countries must be configured before setting the organization’s country in **System → Configuration → Organization** or in **Common Types Settings**.
+## Financijske i porezne postavke
 
-### Financial & Currency Settings
+Ove postavke utječu na sva financijska i novčana poslovanja u sustavu.
 
-These settings influence all monetary and financial behavior across domains.
+- **[Valute](Upravljanje/Valute.md)** – Definiraju valute dostupne u sustavu.
+- **[Porezne stope](Upravljanje/PorezneStope.md)** – Definiraju PDV i ostale porezne stope koje se koriste u prodaji i nabavi.
+- **[Načini plaćanja](../Domene/Prodaja/Upravljanje/NaciniPlacanja.md)** – Definiraju načine plaćanja koji se koriste u prodaji i financijama.
 
-- **[Currencies](Management/Currencies.md)** – Defines currencies available for the organization.  
-- **[Tax rates](Management/TaxRates.md)** – VAT or other tax definitions used in sales and procurement.  
-- **[Payment methods](../Domains/Sales/Management/PaymentMethods.md)** – Payment definitions used in Sales and Finance.  
+> [!IMPORTANT]
+> Valute moraju biti definirane prije nego što se mogu koristiti u:
+>
+> - **Sustav → Konfiguracija → Postavke zajedničkih šifrarnika**
+> - dokumentima **Prodaje**
+> - dokumentima **Nabave**
 
-> [!IMPORTANT]  
-> Currencies must be created here **before** selecting them in:  
-> - System → [Configuration](../Domains/System/Settings/Configuration.md) → Common Types Settings  
-> - [Sales documents](../Domains/Sales/README.md)  
-> - [Supply documents](../Domains/Supply/README.md)
+## Mjerne jedinice
 
-### Measurement & Units
+Mjerne jedinice koriste se u području imovine, materijala, prodaje, nabave, logistike i proizvodnje.
 
-Used across assets, materials, sales documents, supply orders, logistics, and production workflows.
+- **[Mjerne jedinice](Upravljanje/MjerneJedinice.md)** – Definiraju osnovne mjerne jedinice poput komada, kilograma, metara ili litara.
 
-- **[Measure units](Management/MeasureUnits.md)** – Base measurement units used (pieces, kg, m, etc.).  
+Ispravna konfiguracija osigurava dosljedan prikaz količina, cijena i izračuna zaliha.
 
-Correct configuration ensures consistency in quantities, pricing, and stock calculations.
+## Poslovni partneri
 
-## Partner & Business Records
+Podaci o poslovnim partnerima zajednički su svim komercijalnim procesima.
 
-Partner-related records are shared across all commercial workflows.
+- **[Poslovni imenik](Upravljanje/PoslovniImenik.md)** – Zajednički popis kupaca, dobavljača i drugih poslovnih subjekata.
+- **[Banke](Upravljanje/Banke.md)** – Definicije banaka koje se koriste u platnim nalozima i bankovnim računima.
+- **[Bankovni računi organizacije](../Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md)** – Bankovni računi tvrtke koji se koriste na izlaznim računima i drugim dokumentima.
 
-- **[Business directory](Management/BusinessDirectory.md)** – Shared directory of customers, suppliers, and business entities.  
-- **[Banks](Management/BankAccounts.md)** – Bank definitions used in payment instructions.  
-- **[Organization bank accounts](../Domains/Sales/Management/OrganizationBankAccounts.md)** – Internal company bank accounts used for invoicing.
+Ovi podaci osiguravaju dosljednu identifikaciju poslovnih partnera u svim domenama.
 
-These records ensure consistent identification of business partners across domains.
+## Tekstovi i predlošci
 
-## Text & Template Configuration
+Ovi šifrarnici omogućuju dosljedan izgled i sadržaj poslovnih dokumenata.
 
-These values allow consistent formatting and behavior of documents.
+- **[Unaprijed pripremljeni tekstovi](Upravljanje/UnaprijedPripremljeniTekstovi.md)** – Tekstovi koji se mogu ponovno koristiti u ponudama, izlaznim računima, otpremnicama i narudžbenicama.
 
-- **[Predefined texts](Management/PredefinedTexts.md)** – Reusable text blocks used in offers, invoices, delivery notes, and supply documents.  
+## Zašto je potrebno prvo konfigurirati modul Zajedničko?
 
-## Why Common code lists must be configured first
+Gotovo svi poslovni procesi u sustavu ovise o zajedničkim šifrarnicima.
 
-Almost all platform workflows depend on Common settings:
+| Područje | Ovisnost |
+|----------|----------|
+| **Sustav → Konfiguracija** | Zahtijeva [**Države**](Upravljanje/Drzave.md) i [**Valute**](Upravljanje/Valute.md) prije definiranja podataka o organizaciji. |
+| **Prodaja** | Zahtijeva [**Valute**](Upravljanje/Valute.md), [**Porezne stope**](Upravljanje/PorezneStope.md), [**Mjerne jedinice**](Upravljanje/MjerneJedinice.md) i [**Načine plaćanja**](../Domene/Prodaja/Upravljanje/NaciniPlacanja.md). |
+| **Nabava** | Zahtijeva [**Poslovni imenik**](Upravljanje/PoslovniImenik.md), [**Države**](Upravljanje/Drzave.md) i [**Valute**](Upravljanje/Valute.md). |
+| **Logistika** | Zahtijeva [**Mjerne jedinice**](Upravljanje/MjerneJedinice.md), [**Države**](Upravljanje/Drzave.md) i [**Poslovni imenik**](Upravljanje/PoslovniImenik.md). |
+| **Proizvodnja** | Koristi [**Mjerne jedinice**](Upravljanje/MjerneJedinice.md) i [**Poslovni imenik**](Upravljanje/PoslovniImenik.md). |
 
-| Area | Dependency |
-|------|------------|
-| **System → Configuration** | Needs [Countries]**(Management**/Countries.md) + [Currencies](Management/Currencies.md) before setting organization details |
-| **Sales** | Requires [Currencies](Management/Currencies.md), [Tax rates](Management/TaxRates.md), [Measure units](Management/MeasureUnits.md), [Payment methods](../Domains/Sales/Management/PaymentMethods.md) |
-| **Supply** | Requires [Business directory](Management/BusinessDirectory.md), [Countries](Management/Countries.md), [Currencies](Management/Currencies.md) |
-| **Logistics** | Requires [Measure units](Management/MeasureUnits.md), [Countries](Management/Countries.md), [Business directory](Management/BusinessDirectory.md) |
-| **Production** | Uses [Measure units](Management/MeasureUnits.md) and [Business directory](Management/BusinessDirectory.md) |
+Ako modul **Zajedničko** nije konfiguriran prije početka rada, korisnici mogu naići na sljedeće probleme:
 
-If the Common module is not configured first, users will encounter:
+- nedostajuće vrijednosti u padajućim popisima
+- nemogućnost stvaranja prodajnih i nabavnih dokumenata
+- neispravan obračun poreza
+- pogrešan prikaz podataka na računima i otpremnicama
+- pogreške prilikom konfiguracije sustava
 
-- missing values in dropdowns  
-- inability to create sales or supply documents  
-- invalid tax calculations  
-- incorrect formatting on invoices and delivery notes  
-- errors in system configuration  
-
-> [!CAUTION]  
-> Do not proceed with [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Logistics**](../Domains/Logistics/README.md), or [**System Configuration**](../Domains/System/Settings/Configuration.md) until all required Common Code Lists have been created.
-
+> [!CAUTION]
+> Nemojte započeti rad u domenama [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Logistika**](../Domene/Logistika/README.md) ili **Konfiguracija sustava** dok nisu konfigurirani svi potrebni zajednički šifrarnici.

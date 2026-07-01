@@ -5,7 +5,7 @@
 
 Mnogi zasloni pružaju dodatne radnje putem **Izbornika** koji se nalazi u gornjem desnom kutu stranice.
 
-![Primjer izbornika](../Images/MenuHR.png "Primjer izbornika")
+![Primjer izbornika](../Images/MenuV2HR.png "Primjer izbornika")
 
 Dostupne radnje ovise o trenutnom zaslonu te o tome je li izbornik otvoren iz **prikaza popisa** ili **prikaza dokumenta**.
 

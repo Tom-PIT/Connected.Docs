@@ -1,101 +1,113 @@
 <!-- app_route: /sales/documents/overdue-reminders -->
-<!-- app_label: Overdue reminders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/OverdueReminders.md -->
-<!-- canonical_source_title: Overdue reminders -->
+<!-- app_label: Opomene -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/Opomene.md -->
+<!-- canonical_source_title: Opomene -->
 
-# Overdue reminders
+# Opomene
 
-An **Overdue reminder** is a sales document used to notify customers about unpaid invoices and request payment, optionally including reminder costs and interest.
+**Opomena** je prodajni dokument koji se koristi za obavještavanje kupaca o neplaćenim izlaznim računima i zahtjev za plaćanje, uz mogućnost obračuna troška opomene i kamata.
 
-To access this page, go to **Sales / Documents / Overdue reminders** in the [navigation](../../../Common/UI/Navigation.md).
+Za pristup ovom dokumentu idite na **Prodaja / Dokumenti / Opomene** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-## How overdue reminders fit into the sales workflow
+## Kako se opomene uklapaju u prodajni tijek rada
 
-A typical flow:
+Uobičajeni tijek rada:
 
-1. Identify an [**Issued invoice**](IssuedInvoices.md) that has an outstanding amount past its due date.
-2. Create an **Overdue reminder** with the invoice details and applicable reminder cost and interest.
-3. Send the reminder to the customer and record any follow-up actions.
-4. When the invoice is settled, no further reminders are needed.
+1. Pronađite **[Izlazni račun](IzlazniRacuni.md)** koji ima nepodmireni iznos nakon datuma dospijeća.
+2. Izradite **Opomenu** s podacima izlaznog računa te po potrebi dodajte trošak opomene i kamate.
+3. Pošaljite opomenu kupcu i evidentirajte daljnje aktivnosti.
+4. Nakon podmirenja izlaznog računa više nije potrebno slati dodatne opomene.
 
-## Schema
+## Shema
 
-| Field | Description |
-|-------|-------------|
-| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated identifier of the overdue reminder. |
-| **Title** | The document title. Defaults to "Overdue reminder". |
-| **Customer** | The customer to whom the reminder is sent, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
-| **Document date** | Date when the reminder is created. |
-| **Reminder cost** | Fixed cost for sending the reminder (e.g., administrative fee). Can be applied per document or per detail. |
-| **Details** | List of overdue items linked to [**Issued invoices**](IssuedInvoices.md) with amounts and optional interest. |
-| [**Issued invoice**](IssuedInvoices.md) | The overdue invoice being reminded. Selecting it automatically loads the outstanding amount. |
-| **Interest** | Interest value to be charged for the overdue period. Needs to be entered manually. |
+| Polje | Opis |
+| ------ | ---- |
+| [**Oznaka**](../../../Zajednicko/UI/OznakeDokumenata.md) | Sistemski generirana oznaka opomene. |
+| **Naziv** | Naziv dokumenta. Zadana vrijednost je **Opomena**. |
+| **Kupac** | Kupac kojem se šalje opomena, odabire se iz [Poslovnog imenika](../../../Zajednicko/Upravljanje/PoslovniImenik.md) (obavezno). |
+| **Datum dokumenta** | Datum izrade opomene. |
+| **Trošak opomene** | Fiksni trošak slanja opomene (npr. administrativna naknada). Može se primijeniti po dokumentu ili po stavci. |
+| **Stavke** | Popis dospjelih stavki povezanih s **[Izlaznim računima](IzlazniRacuni.md)**, s pripadajućim iznosima i opcionalnim kamatama. |
+| [**Izlazni račun**](IzlazniRacuni.md) | Izlazni račun za koji se šalje opomena. Nakon odabira sustav automatski učitava nepodmireni iznos. |
+| **Kamate** | Iznos kamata za razdoblje kašnjenja. Unosi se ručno. |
 
-## Management
+## Upravljanje
 
-### List view
+### Pregled
 
-The Overdue reminders list provides an overview of all reminders, separated into: **Drafts**, and **Committed**.
-- **Draft** — The document is not yet published. All fields can be edited freely.
-- **Committed** — The document has been published. It cannot be deleted or freely modified.
+Popis opomena podijeljen je na:
 
-![Overdue Reminders List](../Images/OverdueRemindersList.png)
+- **Nacrte**
+- **Obrađene**
 
-Filters on the left help narrow down results by **document dates**, **status**, and **customer**.
+- **Nacrt** – Dokument još nije objavljen i sva polja mogu se slobodno uređivati.
+- **Obrađen** – Dokument je objavljen te ga nije moguće brisati niti uređivati.
 
-## Actions
+![Popis opomena](../Images/OverdueRemindersListHR.png)
 
-### Create a new overdue reminder
+Filtri s lijeve strane omogućuju filtriranje prema:
 
-1. Use the [action button](../../../Common/UI/ActionButton.md) to create a new draft overdue reminder.
+- **Datumima dokumenta**
+- **Statusu**
+- **Kupcu**
 
-   ![Overdue Reminders New](../Images/OverdueRemindersNew.png)
+## Radnje
 
-2. Fill in the **Customer**, **Document date**, and **Reminder cost** (optional) fields.
+### Izraditi novu opomenu
 
-3. Add items into the **Details** section:
-   - Click **Add detail**.
-   - Select the overdue [**Issued invoice**](IssuedInvoices.md) to include.
-   - The system automatically adds the **outstanding amount** and applies any **reminder cost**.
-   - Enter the **Interest** manually if applicable.
+1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) kako biste izradili novu opomenu u statusu **Nacrt**.
 
-   ![Overdue Reminders Add Detail](../Images/OverdueRemindersAddDetail.png)
+   ![Nova opomena](../Images/OverdueRemindersNewHR.png)
 
-   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+2. Ispunite polja:
 
-4. Click **Save** to confirm added details. Repeat step 3 to add more items.
+   - **Kupac**
+   - **Datum dokumenta**
+   - **Trošak opomene** (opcionalno)
 
-   ![Overdue Reminders New Details Saved](../Images/OverdueRemindersNewDetailsSaved.png)
+3. Dodajte stavke u odjeljak **Stavke**:
 
-5. When ready, click **Publish** at the top of the page to finalize the reminder.
+   - Kliknite **Dodaj stavku**.
+   - Odaberite dospjeli **[Izlazni račun](IzlazniRacuni.md)**.
+   - Sustav automatski učitava **nepodmireni iznos** i primjenjuje **trošak opomene**.
+   - Po potrebi ručno unesite **kamate**.
+
+   ![Dodavanje stavke](../Images/OverdueRemindersAddDetailHR.png)
+
+   Za više informacija pogledajte **[Stavke dokumenta](../../../Zajednicko/Koncepti/StavkeDokumenta.md)**.
+
+4. Kliknite **Spremi** kako biste potvrdili dodanu stavku. Ponovite prethodni korak za dodavanje dodatnih stavki.
+
+   ![Spremljene stavke](../Images/OverdueRemindersNewDetailsSavedHR.png)
+
+5. Kada je dokument spreman, kliknite **Objavi** na vrhu stranice.
 
 > [!NOTE]
-> When you click **Publish**, the document is confirmed and moves from the **Draft** state into the **Committed** group of states.
+> Klikom na **Objavi** dokument se potvrđuje i prelazi iz statusa **Nacrt** u status **Obrađen**.
 
-## Edit an overdue reminder
+## Urediti opomenu
 
- **Draft** reminders can be edited freely. Click any reminder in the list to open it.
- 
- Published reminders **cannot** be edited.
+Opomene u statusu **Nacrt** mogu se slobodno uređivati.
 
-### Delete an overdue reminder
+Kliknite opomenu na popisu kako biste otvorili njezine detalje.
 
-Click any draft reminder in the list to open it and click **Delete** to remove it.
+Opomene u statusu **Obrađen** nije moguće uređivati.
 
-After confirming the deletion, the reminder is permanently removed from the system.
+## Izbrisati opomenu
 
-Committed overdue reminders **cannot** be deleted.
+Otvorite opomenu u statusu **Nacrt** i kliknite **Izbriši**.
 
-## Menu
+Nakon potvrde brisanja dokument se trajno uklanja iz sustava.
 
-The menu provides additional actions available on this page.
+Opomene u statusu **Obrađen** nije moguće izbrisati.
 
-Available actions:
+## Izbornik
 
-- **Print**
-- **Export to PDF**
+Izbornik omogućuje dodatne radnje dostupne na ovom dokumentu.
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+Dostupne radnje:
 
+- **Ispis**
+- **Izvoz u PDF**
 
-
+Za više informacija pogledajte **[Radnje izbornika](../../../Zajednicko/Koncepti/RadnjeIzbornika.md)**.

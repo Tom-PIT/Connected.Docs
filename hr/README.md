@@ -1,45 +1,48 @@
-# Tom PIT.Connected documentation
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/README.md -->
+<!-- canonical_source_title: Dokumentacija Tom PIT.Connected -->
 
-Welcome to the documentation portal for **Tom PIT.Connected**.
+# Dokumentacija Tom PIT.Connected
 
-Tom PIT.Connected is an integrated business platform covering sales, supply, logistics, production, assets, projects, maintenance, quality, and other business processes.
+Dobro došli u dokumentacijski portal za **Tom PIT.Connected**.
 
-## Start Here
+**Tom PIT.Connected** integrirana je poslovna platforma koja obuhvaća prodaju, nabavu, logistiku, proizvodnju, imovinu, projekte, održavanje, kvalitetu i druge poslovne procese. :contentReference[oaicite:0]{index=0}
 
-### New to the platform?
+## Početak rada
 
-- [**Getting Started**](GettingStarted/GettingStarted.md) – Learn the basic concepts, system structure, and first configuration steps.
-- [**Navigation**](Common/UI/Navigation.md) – Understand how to move around the platform using the Sitemap and breadcrumbs.
+### Prvi put koristite platformu?
 
-### Looking for configuration options?
+- [**Uvod**](Uvod/Uvod.md) – Upoznajte osnovne koncepte, strukturu sustava i prve korake konfiguracije.
+- [**Navigacija**](Zajednicko/UI/Navigacija.md) – Saznajte kako se kretati kroz platformu pomoću **Navigacije** i navigacijske putanje.
 
-- [**Management Index**](ManagementIndex.md) – Access master data, settings, and configuration documentation.
+### Tražite mogućnosti konfiguracije?
 
-### Looking for a specific business area?
+- [**Indeks upravljanja**](IndeksUpravljanja.md) – Pristupite dokumentaciji o šifrarnicima, postavkama i konfiguraciji sustava.
 
-Explore the available domains:
+### Tražite određeno poslovno područje?
 
-- [**Production**](Domains/Production/README.md)
-- [**Logistics**](Domains/Logistics/README.md)
-- [**Supply**](Domains/Supply/README.md)
-- [**Sales**](Domains/Sales/README.md)
-- [**Accounting**](Domains/Accounting/README.md)
-- [**Assets**](Domains/Assets/README.md)
-- [**Projects**](Domains/Projects/README.md)
-- [**Quality**](Domains/Quality/README.md)
-- [**Customers**](Domains/Customers/README.md)
-- [**Resources**](Domains/Resources/README.md)
-- [**Maintenance**](Domains/Maintenance/README.md)
-- [**Documents**](Domains/Documents/README.md)
-- [**System**](Domains/System/README.md)
+Istražite dostupne domene:
 
-## Documentation Structure
+- [**Proizvodnja**](Domene/Proizvodnja/README.md)
+- [**Logistika**](Domene/Logistika/README.md)
+- [**Nabava**](Domene/Nabava/README.md)
+- [**Prodaja**](Domene/Prodaja/README.md)
+- [**Računovodstvo**](Domene/Racunovodstvo/README.md)
+- [**Imovina**](Domene/Imovina/README.md)
+- [**Projekti**](Domene/Projekti/README.md)
+- [**Kvaliteta**](Domene/Kvaliteta/README.md)
+- [**Korisnička podrška**](Domene/KorisnickaPodrska/README.md)
+- [**Ljudski resursi**](Domene/LjudskiResursi/README.md)
+- [**Održavanje**](Domene/Odrzavanje/README.md)
+- [**Dokumenti**](Domene/Dokumenti/README.md)
+- [**Sustav**](Domene/Sustav/README.md)
 
-The documentation is organized into:
+## Struktura dokumentacije
 
-- **Domains** – business processes and operational workflows
-- **Documents and Views** – day-to-day operational screens
-- **Management** – master data, code lists, and configuration
-- **Concepts** – shared platform functionality and terminology
+Dokumentacija je organizirana u sljedeće cjeline:
 
-Use the navigation menu or the search box to quickly find relevant information.
+- **Domene** – poslovni procesi i operativni tijekovi rada
+- **Dokumenti i pogledi** – zasloni za svakodnevni rad
+- **Upravljanje** – šifrarnici, matični podaci i konfiguracija
+- **Koncepti** – zajedničke funkcionalnosti i terminologija platforme
+
+Koristite navigacijski izbornik ili polje **Pretraživanje** kako biste brzo pronašli željene informacije.
