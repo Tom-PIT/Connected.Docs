@@ -5,7 +5,7 @@
 
 # Kartice tvrtke
 
-Pogled **Kartice tvrtke** pruža detaljan pregled svih **dugovnih i potražnih stavki** povezanih s pojedinom tvrtkom. Umjesto prikaza jedinstvenog salda, ovaj zaslon prikazuje **pojedinačne financijske dokumente** (kao što su [**Izdani računi**](../Dokumenti/IzlazniRacuni.md), [**Odobrenja**](../Dokumenti/Odobrenja.md) i [**Terećenja**](../Dokumenti/Terecenja.md)) te njihov status plaćanja.
+Pogled **Kartice tvrtke** pruža detaljan pregled svih **dugovnih i potražnih stavki** povezanih s pojedinom tvrtkom. Umjesto prikaza jedinstvenog salda, ovaj zaslon prikazuje **pojedinačne financijske dokumente** (kao što su [**Izlazni računi**](../Dokumenti/IzlazniRacuni.md), [**Odobrenja**](../Dokumenti/Odobrenja.md) i [**Terećenja**](../Dokumenti/Terecenja.md)) te njihov status plaćanja.
 
 Pogled je namijenjen praćenju otvorenih stavki i evidentiranju uplata.
 

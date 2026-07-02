@@ -59,6 +59,7 @@ Odjeljak **Pogledi** sadrži analitičke zaslone za pregled i analizu prodajnih 
 
 Dostupni pogledi:
 
+- [Fiskalni računi](Pogledi/FiskalniRacuni.md) – Pregled fiskalnih računa za maloprodaju i njihovih statusa.
 - **[Kartice tvrtke](Pogledi/KarticeTvrtke.md)** – Pregled poslovnih partnera i njihove komercijalne aktivnosti.
 - **[Izvješća o otpremnicama](Pogledi/IzvjescaOOtpremnicama.md)** – Analiza isporučene robe prema kupcima.
 - **[Izvješće o narudžbama kupcu](Pogledi/IzvjesceONarudzbamaKupcu.md)** – Analiza potvrđenih narudžbi prema kupcima.

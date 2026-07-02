@@ -6,7 +6,7 @@
 # Ponude
 
 **Ponuda** je prodajni dokument koji se koristi za predstavljanje predložene cijene, količine i uvjeta isporuke kupcu prije potvrde prodaje.
-Ponude omogućuju formalizaciju ponuda, usporedbu različitih cjenovnih opcija te jednostavan prijelaz na povezane dokumente, kao što su **Narudžbe kupca**, **Otpremnice** i **Izdani računi**.
+Ponude omogućuju formalizaciju ponuda, usporedbu različitih cjenovnih opcija te jednostavan prijelaz na povezane dokumente, kao što su **Narudžbe kupca**, **Otpremnice** i **Izlazni računi**.
 
 Za pristup ovom dokumentu idite na **Prodaja / Dokumenti / Ponude** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
