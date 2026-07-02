@@ -1,87 +1,85 @@
 <!-- app_route: /warehouse/documents/simple-receive --> 
 <!-- app_label: Simple receive --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/SimpleReceive.md --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/SimpleReceive.md --> 
 <!-- canonical_source_title: Simple receive -->
 
 # Simple receive
 
-The **Simple receive** workflow provides a fast way to record incoming materials based on an existing [**Supply order**](../../Supply/Documents/SupplyOrders.md).  It guides the user through three clear steps: selecting the document header, confirming the materials to receive, and editing each detail before finishing.
+**Simple receive** omogućuje brzo zaprimanje materijala na temelju postojeće [**Narudžbenice dobavljača**](../../Nabava/Dokumenti/NarudzbeniceDobavljaca.md). Korisnika vodi kroz tri jednostavna koraka: odabir podataka dokumenta, potvrdu stavki narudžbenice i uređivanje pojedine stavke prije završetka postupka.
 
-Simple receive is ideal for quick warehouse operations where materials arrive exactly as ordered, without the need for advanced receiving features.
+Simple receive namijenjen je brzom zaprimanju robe kada materijal stiže prema narudžbenici, bez potrebe za naprednim mogućnostima zaprimanja.
 
-To access Simple receive, go to **Logistics / Documents / Simple receive** in the [navigation](../../../Common/UI/Navigation.md).
+Za pristup dokumentu **Simple receive** idite na **Logistika / Dokumenti / Simple receive** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-## Overview
+## Pregled
 
-Simple receive consists of three steps:
+Simple receive sastoji se od tri koraka:
 
-1. **Document** — Select warehouse, vendor, and supply order  
-2. **Details** — Confirm incoming materials from the supply order  
-3. **Edit detail** — Review and complete each material line  
+1. **Dokument** — odabir skladišta, dobavljača i narudžbenice dobavljača.
+2. **Stavke** — odabir stavki koje će biti zaprimljene.
+3. **Uredi stavku** — pregled i potvrda podataka za svaku stavku.
 
-Each completed simple receive creates a standard [**Receive**](Receives.md) document in the system.
+Nakon završetka postupka sustav automatski kreira standardni dokument [**Primka**](Primke.md).
 
-## Create a simple receive
+## Izrada Simple receive dokumenta
 
-### Step 1 — Document
+### Korak 1 — Dokument
 
-In the first step, the user selects the header information for the receive document.
+U prvom koraku odabirete osnovne podatke dokumenta.
 
-![Simple receive step 1](../Images/SimpleReceiveStep1.png)
+![Simple receive - Korak 1](../Images/SimpleReceiveStep1HR.png "Simple receive - Korak 1")
 
-Fields include:
+Dostupna su sljedeća polja:
 
-- **Warehouse** — Where the materials will be received  
-- **Vendor** — Automatically suggested if linked to the supply order  
-- **Supply order** — Enter or scan the supply order number (e.g. *SOR-2025-00000018*)  
+- **Skladište** — skladište u koje će materijal biti zaprimljen.
+- **Dobavljač** — automatski se popunjava nakon odabira narudžbenice, ali ga je moguće promijeniti.
+- **Narudžbenica dobavljača** — unesite ili skenirajte oznaku narudžbenice.
 
-Click **Next** to continue.
+Kliknite **Sljedeći** za nastavak.
 
-### Step 2 — Details
+### Korak 2 — Stavke
 
-In this step, the system displays all **expected materials and quantities** from the selected supply order.
+U drugom koraku prikazuju se sve stavke odabrane narudžbenice koje još nisu zaprimljene.
 
-![Simple receive step 2](../Images/SimpleReceiveStep2.png)
+![Simple receive - Korak 2](../Images/SimpleReceiveStep2HR.png "Simple receive - Korak 2")
 
-The user must now **scan or manually enter the packaging code** (EAN / barcode) of the item being received.
+Za dodavanje stavke:
 
-- If the scanned code matches **multiple supply order lines** (e.g., same material across different batches or orders), the system displays **all matching items**.
-- The user must **select the correct line** that corresponds to the received packaging.
+1. Upišite ili skenirajte EAN, serijski broj ili naziv materijala.
+2. Ako je pronađena jedna odgovarajuća stavka, sustav automatski otvara sljedeći korak.
+3. Ako je pronađeno više rezultata, odaberite odgovarajuću stavku.
 
-Once the correct item is selected, the workflow automatically advances to **Step 3 — Edit detail**.
+### Korak 3 — Uredi stavku
 
-### Step 3 — Edit detail
+U posljednjem koraku potvrđujete podatke odabrane stavke.
 
-In the final step, the user completes the information for each material line.
+![Simple receive - Korak 3](../Images/SimpleReceiveStep3HR.png "Simple receive - Korak 3")
 
-![Simple receive step 3](../Images/SimpleReceiveStep3.png)
+Za svaku stavku možete pregledati ili promijeniti:
 
-For each received item, you can review or adjust:
- 
-- **Warehouse location**  
-- **Number of packets**  
+- **Skladišnu lokaciju**
+- **Količinu u paketu**
 
-You can also **delete** the line if it should not be received.
+Po potrebi stavku možete ukloniti klikom na **Izbriši**.
 
-When all details are confirmed, click **Finish** to complete the simple receive.
+Kliknite **Kraj** za završetak postupka.
 
-## Complete the receive
+## Završetak zaprimanja
 
-After clicking **Finish**:
+Nakon završetka postupka:
 
-- The system creates a standard completed [**Receive**](Receives.md) document  
-- All confirmed materials are posted to stock  
-- The supply order is updated with the received quantities  
+- sustav automatski kreira standardni dokument [**Primka**](Primke.md)
+- zaprimljene količine evidentiraju se na zalihu
+- narudžbenica dobavljača ažurira se sa zaprimljenim količinama.
 
-For more advanced receiving workflows (serial numbers, best-before dates, packaging, attachments, reversals, etc.), see the full [Receives documentation](Receives.md).
+Za naprednije mogućnosti zaprimanja, poput rada sa serijskim brojevima, rokovima trajanja, pakiranjima ili prilozima, pogledajte dokument [**Primke**](Primke.md).
 
-## Menu
+## Izbornik
 
-The menu provides additional actions available on this page.
+Izbornik sadrži dodatne akcije dostupne na ovoj stranici.
 
-Available actions:
+Dostupne su sljedeće akcije:
 
-- **Publish**
+- **Objavi**
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
-
+Za više informacija pogledajte [**Akcije izbornika**](../../../Zajednicko/Koncepti/AkcijeIzbornika.md).

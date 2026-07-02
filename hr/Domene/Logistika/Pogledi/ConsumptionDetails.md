@@ -1,89 +1,90 @@
 <!-- app_route: /warehouse/views/consumption-details -->
 <!-- app_label: Consumption details -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/ConsumptionDetails.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Pogledi/ConsumptionDetails.md -->
 <!-- canonical_source_title: Consumption details -->
 
 # Consumption details
 
-The **Consumption details** view provides an analytical overview of all **materials consumed during production** within a selected time period. Instead of focusing on production documents, this view aggregates **consumed materials** and shows exactly **which [consumption documents](../../Production/Documents/Consumed.md)** were used and **from which warehouse locations** the materials were sourced.
+Stranica **Consumption details** pruža analitički pregled svih **materijala utrošenih tijekom proizvodnje** u odabranom vremenskom razdoblju. Umjesto prikaza pojedinačnih dokumenata potrošnje, stranica grupira **utrošene materijale** te prikazuje **u kojim su [dokumentima potrošnje](../../Proizvodnja/Dokumenti/Potrosnja.md)** korišteni i **s kojih skladišnih lokacija** su preuzeti.
 
-To access this view, go to **Logistics / Views / Consumption details** in the [navigation](../../../Common/UI/Navigation.md).
+Za pristup ovoj stranici otvorite **Logistika / Pogledi / Consumption details** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![ConsumptionDetailsList](../Images/ConsumptionDetailsList.png)
+![Consumption details](../Images/ConsumptionDetailsList.png "Consumption details")
 
-## Consumption details list
+## Popis potrošnje
 
-The list displays **all consumed materials**, grouped by material. Each row shows the **total quantity consumed** for that material in the selected date range.
+Popis prikazuje **sve utrošene materijale**, grupirane po materijalu. Za svaki materijal prikazana je **ukupna utrošena količina** u odabranom vremenskom razdoblju.
 
-You can expand a material row to view the **individual consumption documents** that contributed to the total.
+Proširite red materijala kako biste pregledali pojedinačne dokumente potrošnje koji čine ukupnu količinu.
 
-### Hierarchy
+### Struktura
 
-The list is structured as follows:
+Popis je organiziran na sljedeći način:
 
-- **Material** – consumed material and total quantity consumed  
-  - **Consumption document** – individual consumption entry used in production  
-    - **Source** – warehouse and location where the material was sourced  
-    - **Quantity** – quantity consumed in that document  
+- **Materijal** – utrošeni materijal i ukupna utrošena količina
+    - **Dokument potrošnje** – pojedinačni zapis potrošnje u proizvodnji
+        - **Izvor** – skladište i lokacija s koje je materijal preuzet
+        - **Količina** – količina utrošena u tom dokumentu
 
-When expanded, each consumption document shows:
+Za svaki dokument potrošnje prikazani su:
 
-- **Document number** – clickable, opens the [consumption document](../../Production/Documents/Consumed.md). The same document is also accessible from the related [production order](../../Production/Documents/ProductionOrders.md) under Linked documents.  
-- **Document date and time**  
-- **Source** – warehouse and location (clickable)  
-- **Consumed quantity**
+- **Broj dokumenta** – otvara odgovarajući [dokument potrošnje](../../Proizvodnja/Dokumenti/Potroseno.md). Isti dokument dostupan je i iz povezanog [proizvodnog naloga](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md) u odjeljku **Povezani dokumenti**.
+- **Datum i vrijeme**
+- **Izvor** – skladište i lokacija
+- **Utrošena količina**
 
-![ConsumptionDetailsListExpanded](../Images/ConsumptionDetailsList.png)
+## Navigacija prema lokaciji
 
-## Source navigation
+Stupac **Izvor** prikazuje:
 
-The **Source** column shows:
+- **Skladište**
+- **Točnu skladišnu lokaciju**
 
-- **Warehouse**
-- **Exact warehouse location**
+Klikom na naziv lokacije otvara se **[Pogled na zalihe prema lokacijama](PogledNaZalihePremaLokacijama.md)** za odabranu lokaciju. Na taj način možete pregledati stanje zaliha i ostale materijale pohranjene na toj lokaciji.
 
-Clicking the source opens the **[Stock view by location](StockViewByLocation.md)** screen, filtered to the location from which the material was consumed. This allows you to review stock availability and other materials stored at that location.
+## Filtri
 
-## Filters
+Lijeva bočna traka sadrži sljedeći filtar:
 
-The left sidebar contains the following filter:
+- **Datumi dokumenata** – prikazuje samo dokumente potrošnje unutar odabranog vremenskog razdoblja.
 
-- **Document dates** – limits the view to consumption documents within the selected date range
+Nakon promjene razdoblja popis se automatski osvježava.
 
-Once the date range is selected, the list reloads automatically.
+## Pretraživanje
 
-## Search
+Polje za pretraživanje u gornjem desnom kutu omogućuje brzo pronalaženje podataka.
 
-Use the **search bar** in the top-right corner to quickly filter results. The search works across:
+Pretraživanje obuhvaća:
 
-- Material codes  
-- Material names  
-- Document numbers  
-- Warehouse and location codes  
+- Šifre materijala
+- Nazive materijala
+- Brojeve dokumenata
+- Šifre serijskih brojeva
+- Šifre skladišta i lokacija
 
-This makes it easy to find consumption related to a specific material, document, or storage location.
+To omogućuje brzo pronalaženje potrošnje povezane s određenim materijalom, dokumentom ili skladišnom lokacijom.
 
-![ConsumptionDetailsListSearch](../Images/ConsumptionDetailsListSearch.png)
+![Pretraživanje](../Images/ConsumptionDetailsListSearch.png "Pretraživanje")
 
-## Purpose
+## Namjena
 
-The **Consumption details** view is useful for:
+Stranica **Consumption details** koristi se za:
 
-- Analyzing material usage in production  
-- Tracing which materials were consumed and from where  
-- Auditing consumption quantities by material  
-- Investigating stock movements related to production  
+- Analizu potrošnje materijala u proizvodnji
+- Praćenje s kojih su lokacija materijali preuzeti
+- Analizu utrošenih količina po materijalu
+- Provjeru skladišnih kretanja povezanih s proizvodnjom
 
-This view is **analytical only**. It does not allow creating, editing, or deleting documents.
+Ova stranica služi isključivo za pregled podataka te nije moguće stvarati, uređivati ili brisati dokumente.
 
 > [!NOTE]
-> - Quantities are displayed in the material’s base unit of measure (e.g. pcs, meters).  
-> - Only materials that were actually consumed in production appear in the list.  
-> - Issued materials (e.g. sales deliveries) are **not** shown here; this view focuses exclusively on **production consumption**.
+> - Količine su prikazane u osnovnoj mjernoj jedinici materijala.
+> - Na popisu su prikazani samo materijali koji su stvarno utrošeni u proizvodnji.
+> - Materijali izdani iz skladišta (npr. za prodaju) nisu prikazani na ovoj stranici. Za njihov pregled koristite **[Issue details](IssueDetails.md)**.
 
-## Related views
+## Povezane stranice
 
-- **[Production orders](../../Production/Documents/ProductionOrders.md)** – review production processes that generate material consumption  
-- **[Consumed](../../Production/Documents/Consumed.md)** – enter and review production consumption documents  
-- **[Stock view by location](StockViewByLocation.md)** – review stock stored in a specific warehouse location  
-- **[Stock view by material](Stock.md#stock-view-by-material)** – review stock movements and balances by material
+- **[Proizvodni nalozi](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md)** – pregled proizvodnih naloga koji generiraju potrošnju materijala
+- **[Potrošnja](../../Proizvodnja/Dokumenti/Potrosnja.md)** – unos i pregled dokumenata potrošnje
+- **[Pogled na zalihe prema lokacijama](PogledNaZalihePremaLokacijama.md)** – pregled zaliha na pojedinoj skladišnoj lokaciji
+- **[Pogled na zalihe prema materijalu](Zaliha.md#pogled-na-zalihe-prema-materijalu)** – pregled stanja i kretanja zaliha po materijalu

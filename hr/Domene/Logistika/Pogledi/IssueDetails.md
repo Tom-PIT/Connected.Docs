@@ -1,80 +1,80 @@
 <!-- app_route: /warehouse/views/issue-details -->
 <!-- app_label: Issue details -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/IssueDetails.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Pogledi/IssueDetails.md -->
 <!-- canonical_source_title: Issue details -->
 
 # Issue details
 
-The **Issue details** view provides an analytical overview of all **materials and finished products issued from stock** within a selected time period. Instead of focusing on issue documents themselves, this view aggregates **issued items** and shows exactly **which [issue documents](../Documents/Issues.md)** were used and **from which warehouse locations** the items were issued.
+Stranica **Issue details** pruža analitički pregled svih **materijala i gotovih proizvoda izdanih sa zalihe** u odabranom vremenskom razdoblju. Umjesto prikaza pojedinih izdatnica, stranica grupira izdane stavke i prikazuje **iz kojih su [izdatnica](../Documents/Izdatnica.md)** izdane te **s kojih skladišnih lokacija**.
 
-To access this view, go to **Logistics / Views / Issue details** in the [navigation](../../../Common/UI/Navigation.md).
+Za pristup ovoj stranici otvorite **Logistika / Pogledi / Issue details** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![IssueDetailsList](../Images/IssueDetailsListV2.png)
+![Issue details](../Images/IssueDetailsListHR.png "Issue details")
 
-## Issue details list
+## Popis izdanih stavki
 
-The list displays **all issued materials and products**, grouped by item. Each row shows the **total quantity issued** for that item in the selected date range.
+Popis prikazuje **sve izdane materijale i proizvode**, grupirane po stavci. Za svaku stavku prikazana je **ukupna izdana količina** u odabranom vremenskom razdoblju.
 
-You can expand an item row to view the **individual issue documents** that contributed to the total.
+Proširite stavku kako biste pregledali pojedinačne izdatnice koje čine ukupnu količinu.
 
-### Hierarchy
+### Struktura
 
-The list is structured as follows:
+Popis je organiziran na sljedeći način:
 
-- **Item** – material or finished product and total quantity issued  
-  - **Issue document** – individual issue entry  
-    - **Source** – warehouse and location where the item was issued from  
-    - **Quantity** – quantity issued in that document  
+- **Stavka** – materijal ili proizvod i ukupna izdana količina
+    - **Izdatnica** – pojedinačno izdavanje
+        - **Izvor** – skladište i lokacija s koje je materijal izdan
+        - **Količina** – količina izdana na toj izdatnici
 
-When expanded, each issue document shows:
+Za svaku izdatnicu prikazani su:
 
-- **Document number** – clickable, opens the [Issue document](../Documents/Issues.md)  
-- **Document date and time**  
-- **Source** – warehouse and location (clickable)  
-- **Issued quantity**
+- **Broj dokumenta** – otvara odgovarajuću [izdatnicu](../Documents/Izdatnica.md)
+- **Datum i vrijeme izdavanja**
+- **Izvor** – skladište i lokacija
+- **Izdana količina**
 
-## Source navigation
+## Navigacija prema lokaciji
 
-The **Source** column shows:
+Stupac **Izvor** prikazuje:
 
-- **Warehouse**
-- **Exact warehouse location**
+- **Skladište**
+- **Točnu skladišnu lokaciju**
 
-Clicking the source opens the **[Stock view by location](StockViewByLocation.md)** screen, filtered to the location from which the item was issued. This allows you to review stock availability and other materials stored at that location.
+Klikom na naziv lokacije otvara se **[Pogled na zalihe prema lokacijama](PogledNaZalihePremaLokacijama.md)** za odabranu lokaciju. Na taj način možete pregledati trenutno stanje zaliha i ostale materijale pohranjene na toj lokaciji.
 
-## Filters
+## Filtri
 
-The left sidebar contains the following filter:
+Lijeva bočna traka sadrži sljedeće filtre:
 
-- **Document dates** – limits the view to issue documents within the selected date range
-- **Customer** – limits the view to issue documents for the selected customer
+- **Datumi dokumenata** – prikazuje samo izdatnice unutar odabranog razdoblja
+- **Kupac** – prikazuje samo izdatnice za odabranog kupca
 
-## Search
+## Pretraživanje
 
-Use the **search bar** in the top-right corner to quickly filter results. The search works across:
+Polje za pretraživanje u gornjem desnom kutu omogućuje brzo pronalaženje podataka.
 
-- Item codes  
-- Item names  
-- Document numbers  
-- Warehouse and location codes  
+Pretraživanje obuhvaća:
 
-This makes it easy to find issues related to a specific material, product, document, or storage location.
+- Šifre materijala
+- Nazive materijala
+- Brojeve izdatnica
+- Šifre serijskih brojeva
+- Šifre skladišta i lokacija
 
-![IssueDetailsListSearch](../Images/IssueDetailsListSearch.png)
+![Pretraživanje](../Images/IssueDetailsListSearchHR.png "Pretraživanje")
 
-## Purpose
+## Namjena
 
-The **Issue details** view is useful for:
+Stranica **Issue details** koristi se za:
 
-- Analyzing stock issued to customers or internal processes  
-- Tracing which items were issued and from where  
-- Auditing issued quantities by item  
-- Investigating outbound stock movements  
+- Analizu materijala i proizvoda izdanih sa zalihe
+- Praćenje iz kojih su lokacija izdane pojedine stavke
+- Analizu izdanih količina po materijalu
+- Provjeru izlaza robe iz skladišta
 
-This view is **analytical only**. It does not allow creating, editing, or deleting documents.
+Ova stranica služi isključivo za pregled podataka te nije moguće stvarati, uređivati ili brisati dokumente.
 
 > [!NOTE]
-> - Quantities are displayed in the item’s base unit of measure (e.g. pcs, meters).  
-> - This view focuses on **stock issues** (e.g. sales deliveries, internal issues).  
-> - Production-related material usage is shown in **[Consumption details](ConsumptionDetails.md)**, not here.
-
+> - Količine su prikazane u osnovnoj mjernoj jedinici materijala ili proizvoda.
+> - Stranica prikazuje samo izdavanja sa zalihe.
+> - Potrošnja materijala u proizvodnji prikazana je na stranici **[Consumption details](ConsumptionDetails.md)**.
