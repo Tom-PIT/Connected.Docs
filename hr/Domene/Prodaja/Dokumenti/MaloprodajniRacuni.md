@@ -61,8 +61,8 @@ Kada su svi uvjeti ispunjeni, maloprodajni račun može se fiskalizirati priliko
 | [**Mjesto troška**](../../../Zajednicko/Upravljanje/MjestaTroska.md) | Neobavezna dodjela mjesta troška. |
 | **Oznaka svrhe** | Neobavezna oznaka svrhe transakcije. |
 | **Rabat** | Ukupni rabat primijenjen na račun. |
-| **Sadržaj gore** | Uvodni tekst iz [**Unaprijed definiranih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedDefiniraniTekstovi.md). |
-| **Sadržaj dolje** | Završni ili zakonski tekst iz [**Unaprijed definiranih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedDefiniraniTekstovi.md). |
+| **Sadržaj gore** | Uvodni tekst iz [**Unaprijed definiranih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
+| **Sadržaj dolje** | Završni ili zakonski tekst iz [**Unaprijed definiranih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
 
 </details>
 
@@ -72,7 +72,7 @@ Kada su svi uvjeti ispunjeni, maloprodajni račun može se fiskalizirati priliko
 | Polje | Opis |
 |--------|------|
 | [**Uvjeti isporuke**](../../../Zajednicko/Upravljanje/UvjetiIsporuke.md) | Uvjeti isporuke dogovoreni s kupcem. |
-| [**Način transporta**](../../../Zajednicko/Upravljanje/NaciniTransporta.md) | Način prijevoza dogovoren s kupcem. |
+| [**Način transporta**](../../../Zajednicko/Upravljanje/VrstaTransporta.md) | Način prijevoza dogovoren s kupcem. |
 | [**Alternativna valuta**](../../../Zajednicko/Upravljanje/Valute.md) | Alternativna valuta koja se koristi na dokumentu. |
 | [**Tečaj**](../Upravljanje/DevizniTecajevi.md) | Tečaj alternativne valute u odnosu na zadanu valutu. |
 | **Dostava** | Podaci o dostavnoj službi i adresi isporuke. |
@@ -170,7 +170,7 @@ Maloprodajni računi mogu se kreirati samo ručno.
 
 5. Spremite stavke i provjerite ukupne iznose.
 
-   Za više informacija o radu sa stavkama dokumenta pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+   Za više informacija o radu sa stavkama dokumenta pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 6. Dodajte **Načine plaćanja** na dnu dokumenta.
 

@@ -7,7 +7,7 @@
 
 Šifrarnik **Načini plaćanja** definira načine na koje kupci mogu platiti robu ili usluge, kao što su kreditne kartice, internetske usluge plaćanja ili drugi podržani načini. Svaki način plaćanja sadrži **oznaku**, **naziv**, neobavezne **oznake** i učitanu **ikonu** koja predstavlja pružatelja usluge plaćanja. Ovi se zapisi koriste u cijelom sustavu gdje god je potrebno odabrati način plaćanja.
 
-Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Načini plaćanja** u [navigaciji](../../../Common/UI/Navigation.md).
+Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Načini plaćanja** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 ## Shema
 
@@ -32,7 +32,7 @@ Pomoću polja **Pretraživanje** možete brzo pronaći način plaćanja prema oz
 
 ### Dodavanje načina plaćanja
 
-Kliknite [akcijski gumb](../../../Common/UI/ActionButton.md) za dodavanje novog načina plaćanja.
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za dodavanje novog načina plaćanja.
 
 Unesite sljedeće podatke:
 

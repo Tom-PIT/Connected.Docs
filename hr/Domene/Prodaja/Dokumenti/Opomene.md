@@ -74,7 +74,7 @@ Filtri s lijeve strane omogućuju filtriranje prema:
 
    ![Dodavanje stavke](../Images/OverdueRemindersAddDetailHR.png)
 
-   Za više informacija pogledajte **[Stavke dokumenta](../../../Zajednicko/Koncepti/StavkeDokumenta.md)**.
+   Za više informacija pogledajte **[Stavke dokumenta](../../../Zajednicko/Koncepti/Stavke.md)**.
 
 4. Kliknite **Spremi** kako biste potvrdili dodanu stavku. Ponovite prethodni korak za dodavanje dodatnih stavki.
 

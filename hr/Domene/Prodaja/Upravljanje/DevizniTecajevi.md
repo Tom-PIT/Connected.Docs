@@ -16,16 +16,16 @@ Devizni tečajevi omogućuju:
 Svaki tečaj definiran je za prijelaz **iz jedne valute u drugu** na određeni datum.
 
 > [!IMPORTANT]
-> Prije definiranja deviznih tečajeva potrebno je definirati [**Valute**](../../../Common/Management/Currencies.md).
+> Prije definiranja deviznih tečajeva potrebno je definirati [**Valute**](../../../Zajednicko/Upravljanje/Valute.md).
 
-Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Devizni tečajevi** u [navigaciji](../../../Common/UI/Navigation.md).
+Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Devizni tečajevi** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 ## Shema
 
 | Polje | Opis |
 |-------|------|
-| [**Od valute**](../../../Common/Management/Currencies.md) | Polazna valuta koja se koristi za preračunavanje. |
-| [**Do valute**](../../../Common/Management/Currencies.md) | Odredišna valuta u koju se iznos preračunava. |
+| [**Od valute**](../../../Zajednicko/Upravljanje/Valute.md) | Polazna valuta koja se koristi za preračunavanje. |
+| [**Do valute**](../../../Zajednicko/Upravljanje/Valute.md) | Odredišna valuta u koju se iznos preračunava. |
 | **Datum** | Datum na koji tečaj vrijedi. |
 | **Tečaj** | Vrijednost tečaja koja se koristi za preračunavanje između odabranih valuta. |
 
@@ -54,12 +54,12 @@ Svaki zapis prikazuje:
 
 ### Dodavanje deviznog tečaja
 
-Kliknite [akcijski gumb](../../../Common/UI/ActionButton.md).
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md).
 
 Unesite:
 
-- [**Od valute**](../../../Common/Management/Currencies.md)
-- [**Do valute**](../../../Common/Management/Currencies.md)
+- [**Od valute**](../../../Zajednicko/Upravljanje/Valute.md)
+- [**Do valute**](../../../Zajednicko/Upravljanje/Valute.md)
 - **Datum**
 - **Tečaj**
 

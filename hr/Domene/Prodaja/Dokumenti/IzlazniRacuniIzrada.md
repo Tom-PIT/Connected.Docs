@@ -59,7 +59,7 @@ Za dodavanje nove stavke:
 
 ![Spremljena stavka izlaznog računa](../Images/IssuedInvoicesNewBottomHR.png "Spremljena stavka")
 
-Za više informacija o radu sa stavkama pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+Za više informacija o radu sa stavkama pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 ### Knjigovodstvo
 

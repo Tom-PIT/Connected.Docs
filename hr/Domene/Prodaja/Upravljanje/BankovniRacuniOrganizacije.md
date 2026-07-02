@@ -9,22 +9,22 @@ Bankovni računi pohranjuju IBAN račune koje vaša organizacija koristi za izda
 
 Svaki zapis definira banku, njezin IBAN račun te označava je li račun aktivan i koristi li masku za prikaz IBAN-a.
 
-Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Bankovni računi** u [navigaciji](../../../Common/UI/Navigation.md).
+Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Bankovni računi** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > **Preduvjeti**
 >
-> Prije upravljanja bankovnim računima provjerite je li šifrarnik [**Banke**](../../../Common/Management/Banks.md) pravilno konfiguriran.
+> Prije upravljanja bankovnim računima provjerite je li šifrarnik [**Banke**](../../../Zajednicko/Upravljanje/Banke.md) pravilno konfiguriran.
 
 ## Shema
 
 | Polje | Opis |
 |-------|------|
-| [**Banka**](../../../Common/Management/Banks.md) | Banka kojoj račun pripada (obavezno). |
+| [**Banka**](../../../Zajednicko/Upravljanje/Banke.md) | Banka kojoj račun pripada (obavezno). |
 | **IBAN** | Međunarodni broj bankovnog računa (obavezno). |
 | **Aktivan** | Određuje može li se račun koristiti u dokumentima (zadano označeno). |
 | **Upotrijebi masku** | Određuje prikazuje li se i unosi IBAN pomoću maske radi bolje čitljivosti. |
-| **Glavna knjiga – Duguje/Na teret** | Konto glavne knjige odabran iz [**Kontnog plana**](../../Accounting/Management/Ledger/ChartOfAccounts.md) koji predstavlja bankovni račun organizacije u knjigovodstvenim transakcijama. |
+| **Glavna knjiga – Duguje/Na teret** | Konto glavne knjige odabran iz [**Kontnog plana**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) koji predstavlja bankovni račun organizacije u knjigovodstvenim transakcijama. |
 
 ## Upravljanje
 
@@ -43,7 +43,7 @@ Kliknite na IBAN račun kako biste otvorili njegove pojedinosti.
 
 ### Dodavanje bankovnog računa
 
-Kliknite [akcijski gumb](../../../Common/UI/ActionButton.md) za dodavanje novog bankovnog računa.
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za dodavanje novog bankovnog računa.
 
 Unesite potrebne podatke:
 

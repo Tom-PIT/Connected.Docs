@@ -7,15 +7,15 @@
 
 Šifrarnik **Predlošci klauzula za otpremnice** omogućuje definiranje skupova klauzula (predložaka) koji će se ispisivati na otpremnicama za određene tvrtke. Predložak sadrži jednu ili više klauzula, kao što su pravne napomene, izjave o odricanju odgovornosti ili potvrde isporuke, koje se ispisuju na vrhu ili dnu otpremnice prema definiranom redoslijedu.
 
-Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Predlošci klauzula za otpremnice** u [navigaciji](../../../Common/UI/Navigation.md).
+Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Predlošci klauzula za otpremnice** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > **Preduvjeti**
 >
 > Prije izrade predložaka klauzula provjerite sljedeće:
 >
-> - Tvrtka postoji u [**Poslovnom imeniku**](../../../Common/Management/BusinessDirectory.md).
-> - Tekst klauzule postoji u šifrarniku [**Unaprijed definirani tekstovi**](../../../Common/Management/PredefinedTexts.md) (entitet: **Otpremnica**).
+> - Tvrtka postoji u [**Poslovnom imeniku**](../../../Zajednicko/Upravljanje/PoslovniImenik.md).
+> - Tekst klauzule postoji u šifrarniku [**Unaprijed definirani tekstovi**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md) (entitet: **Otpremnica**).
 
 ## Shema
 
@@ -23,7 +23,7 @@ Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Predlošci klauzula
 
 | Polje | Opis |
 |-------|------|
-| [**Tvrtka**](../../../Common/Management/BusinessDirectory.md) | Tvrtka na koju se predložak klauzula primjenjuje (obavezno). |
+| [**Tvrtka**](../../../Zajednicko/Upravljanje/PoslovniImenik.md) | Tvrtka na koju se predložak klauzula primjenjuje (obavezno). |
 
 ### Polja klauzule
 
@@ -31,7 +31,7 @@ Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Predlošci klauzula
 |-------|------|
 | **Lokacija** | Određuje prikazuje li se klauzula na vrhu ili dnu otpremnice. |
 | **Redoslijed** | Numerički redoslijed prikaza klauzule (npr. 1, 2, 3...). |
-| [**Klauzula**](../../../Common/Management/PredefinedTexts.md) | Unaprijed definirani tekst za entitet **Otpremnica**. |
+| [**Klauzula**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md) | Unaprijed definirani tekst za entitet **Otpremnica**. |
 
 ## Upravljanje
 
@@ -57,11 +57,11 @@ Redoslijed klauzula možete promijeniti uređivanjem vrijednosti **Redoslijed**.
 
 ### Dodavanje predloška klauzula za otpremnice
 
-Kliknite [akcijski gumb](../../../Common/UI/ActionButton.md) za dodavanje novog predloška.
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za dodavanje novog predloška.
 
 Potrebno je unijeti samo jedno polje:
 
-- [**Tvrtka**](../../../Common/Management/BusinessDirectory.md)
+- [**Tvrtka**](../../../Zajednicko/Upravljanje/PoslovniImenik.md)
 
 ![Dodavanje predloška](../Images/ClauseTemplatesDeliveryNotesNewHR.png "Dodavanje predloška")
 
@@ -71,11 +71,11 @@ Nakon što izradite predložak, kliknite **Klauzule** kako biste otvorili uređi
 
 #### Dodavanje klauzula u predložak
 
-U uređivaču klauzula kliknite [akcijski gumb](../../../Common/UI/ActionButton.md) te odaberite:
+U uređivaču klauzula kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) te odaberite:
 
 - **Lokacija**
 - **Redoslijed**
-- [**Klauzula**](../../../Common/Management/PredefinedTexts.md)
+- [**Klauzula**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md)
 
 ![Dodavanje klauzule](../Images/ClauseTemplatesDeliveryNotesClausesNewHR.png "Dodavanje klauzule")
 

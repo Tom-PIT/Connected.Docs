@@ -44,8 +44,8 @@ Potvrđeni avansni račun služi isključivo u informativne svrhe i nema utjecaj
 | **[Mjesto troška](../../../Zajednicko/Upravljanje/MjestaTroska.md)** | Opcionalna dodjela mjesta troška. |
 | **Oznaka svrhe** | Opcionalna oznaka svrhe dokumenta. |
 | **Rabat** | Ukupni rabat primijenjen na dokument. |
-| **Sadržaj gore** | Uvodni tekst iz [**Preddefiniranih tekstova**](../../../Zajednicko/Upravljanje/PreddefiniraniTekstovi.md). |
-| **Sadržaj dolje** | Završni ili pravni tekst iz [**Preddefiniranih tekstova**](../../../Zajednicko/Upravljanje/PreddefiniraniTekstovi.md). |
+| **Sadržaj gore** | Uvodni tekst iz [**Preddefiniranih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
+| **Sadržaj dolje** | Završni ili pravni tekst iz [**Preddefiniranih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
 
 </details>
 
@@ -55,7 +55,7 @@ Potvrđeni avansni račun služi isključivo u informativne svrhe i nema utjecaj
 | Polje | Opis |
 |-------|------|
 | **[Uvjeti isporuke](../../../Zajednicko/Upravljanje/UvjetiIsporuke.md)** | Uvjeti isporuke dogovoreni s kupcem. |
-| **[Način transporta](../../../Zajednicko/Upravljanje/NaciniTransporta.md)** | Način transporta dogovoren s kupcem. |
+| **[Način transporta](../../../Zajednicko/Upravljanje/VrstaTransporta.md)** | Način transporta dogovoren s kupcem. |
 | [**Alternativna valuta**](../../../Zajednicko/Upravljanje/Valute.md) | Alternativna valuta koja se koristi na dokumentu. |
 | [**Tečaj](../Upravljanje/DevizniTecajevi.md)** | Tečaj alternativne valute u odnosu na zadanu valutu. |
 | **Dostava** | Podaci o dostavnoj adresi i prijevozniku. |
@@ -166,7 +166,7 @@ Nakon što započnete novi avansni račun:
 
    ![Spremljena stavka avansnog računa](../Images/ProformaInvoiceNewDetailsSavedHR.png)
 
-   Za više informacija o radu sa stavkama pogledajte [**Stavke dokumenata**](../../../Zajednicko/Koncepti/StavkeDokumenata.md).
+   Za više informacija o radu sa stavkama pogledajte [**Stavke dokumenata**](../../../Zajednicko/Koncepti/Stavke.md).
 
 5. Kada je dokument spreman, kliknite **Objavi**.
 

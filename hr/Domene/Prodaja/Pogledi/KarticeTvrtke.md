@@ -5,13 +5,13 @@
 
 # Kartice tvrtke
 
-Pogled **Kartice tvrtke** pruža detaljan pregled svih **dugovnih i potražnih stavki** povezanih s pojedinom tvrtkom. Umjesto prikaza jedinstvenog salda, ovaj zaslon prikazuje **pojedinačne financijske dokumente** (kao što su [**Izdani računi**](../Dokumenti/IzdaniRacuni.md), [**Odobrenja**](../Dokumenti/Odobrenja.md) i [**Terećenja**](../Dokumenti/Terecenja.md)) te njihov status plaćanja.
+Pogled **Kartice tvrtke** pruža detaljan pregled svih **dugovnih i potražnih stavki** povezanih s pojedinom tvrtkom. Umjesto prikaza jedinstvenog salda, ovaj zaslon prikazuje **pojedinačne financijske dokumente** (kao što su [**Izdani računi**](../Dokumenti/IzlazniRacuni.md), [**Odobrenja**](../Dokumenti/Odobrenja.md) i [**Terećenja**](../Dokumenti/Terecenja.md)) te njihov status plaćanja.
 
 Pogled je namijenjen praćenju otvorenih stavki i evidentiranju uplata.
 
 Za pristup ovom dokumentu idite na **Prodaja / Pogledi / Kartice tvrtke** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-Dokument je dostupan i putem stranice [**Poslovni adresar**](../../../Zajednicko/Upravljanje/PoslovniAdresar.md), klikom na oznaku **Kartice** uz željenu tvrtku. U tom će slučaju popis biti automatski filtriran za odabranu tvrtku.
+Dokument je dostupan i putem stranice [**Poslovni adresar**](../../../Zajednicko/Upravljanje/PoslovniImenik.md), klikom na oznaku **Kartice** uz željenu tvrtku. U tom će slučaju popis biti automatski filtriran za odabranu tvrtku.
 
 ![Kartice tvrtke](../Images/CompanyCardsListHR.png "Kartice tvrtke")
 

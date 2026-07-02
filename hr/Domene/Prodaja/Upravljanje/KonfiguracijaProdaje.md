@@ -7,7 +7,7 @@
 
 Konfiguracija prodaje omogućuje definiranje načina numeriranja dokumenata u modulu **Prodaja**. Promjene se spremaju automatski.
 
-Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Konfiguracija** u [navigaciji](../../../Common/UI/Navigation.md).
+Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Konfiguracija** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 ![Konfiguracija prodaje](../Images/SalesConfigurationHR.png)
 

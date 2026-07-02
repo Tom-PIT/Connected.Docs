@@ -47,7 +47,7 @@ Za dodavanje nove stavke:
 3. Kliknite **Spremi** kako biste potvrdili dodanu stavku.
 4. Ponovite korak 1 za dodavanje dodatnih stavki.
 
-Za više informacija o radu sa stavkama dokumenata pogledajte [**Stavke dokumenata**](../../../Zajednicko/Koncepti/StavkeDokumenata.md).
+Za više informacija o radu sa stavkama dokumenata pogledajte [**Stavke dokumenata**](../../../Zajednicko/Koncepti/Stavke.md).
 
 Spremljena stavka:
 

@@ -10,7 +10,7 @@
 Odobrenja smanjuju otvoreno dugovanje kupca. Za povećanja ili dodatna terećenja pogledajte **[Terećenja](Terecenja.md)**.
 
 > [!TIP]
-> Trenutni pregled **terećenja i odobrenja** za svakog kupca možete jednostavno pregledati u prikazu **[Kartice tvrtki](../Pogledi/KarticeTvrtki.md)**.
+> Trenutni pregled **terećenja i odobrenja** za svakog kupca možete jednostavno pregledati u prikazu **[Kartice tvrtki](../Pogledi/KarticeTvrtke.md)**.
 
 Za pristup ovom dokumentu idite na **Prodaja / Dokumenti / Odobrenja**.
 
@@ -144,7 +144,7 @@ Nakon što započnete novo odobrenje, slijedite ove korake:
 
    ![Stavke odobrenja](../Images/CreditNoteNewDetailsHR.png)
 
-   Za više informacija o radu sa stavkama dokumenata pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+   Za više informacija o radu sa stavkama dokumenata pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 4. Po potrebi uredite količine i vrijednosti te kliknite **Spremi** za potvrdu stavke.
 

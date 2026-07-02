@@ -17,7 +17,7 @@ Tipičan tijek rada:
 1. Izradite **Ponudu** i pošaljite je kupcu.
 2. Nakon što je kupac prihvati, izradite iz nje [**Narudžbu kupca**](NarudzbeKupca.md) pomoću odjeljka [**Povezani dokumenti**](#povezani-dokumenti).
 3. Iz narudžbe kupca nastavite daljnji poslovni proces — proizvodnju, nabavu, isporuku itd.
-4. Na kraju izradite [**Otpremnicu**](Otpremnice.md), a zatim i [**Izdani račun**](IzdaniRacuni.md).
+4. Na kraju izradite [**Otpremnicu**](Otpremnice.md), a zatim i [**Izdani račun**](IzlazniRacuni.md).
 
 ![Ponude u prodajnom procesu](../Images/OfferDiagramHR.svg "Ponude u prodajnom procesu")
 
@@ -133,7 +133,7 @@ Primjer popisa **Dovršenih** ponuda:
 
    ![Spremljena stavka](../Images/OfferNewDetailsSavedHR.png)
 
-   Za više informacija pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+   Za više informacija pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 5. Odaberite [**Način plaćanja**](../Upravljanje/NaciniPlacanja.md).
 

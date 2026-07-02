@@ -143,7 +143,7 @@ Dokumenti u stanju **Nacrt** mogu se uređivati, dok su **Potvrđeni** predujmov
 
 4. Spremite dodane stavke.
 
-   Za više informacija o radu sa stavkama dokumenta pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+   Za više informacija o radu sa stavkama dokumenta pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 5. Odaberite **[Način plaćanja](../Upravljanje/NaciniPlacanja.md)**.
 

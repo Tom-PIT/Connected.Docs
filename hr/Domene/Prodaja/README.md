@@ -5,9 +5,9 @@
 
 # Prodaja
 
-Domena **Prodaja** sadrži sve dokumente i šifrarnike potrebne za upravljanje komercijalnim procesima s kupcima. Obuhvaća dokumente kao što su [**Ponude**](Dokumenti/Ponude.md), [**Narudžbe kupca**](Dokumenti/NarudzbeKupca.md), [**Otpremnice**](Dokumenti/Otpremnice.md), [**Izlazni računi**](Dokumenti/IzlazniRacuni.md) te analitičke **[Poglede](#pogledi)** za praćenje prodajnih aktivnosti i tijeka dokumenata. :contentReference[oaicite:0]{index=0}
+Domena **Prodaja** sadrži sve dokumente i šifrarnike potrebne za upravljanje komercijalnim procesima s kupcima. Obuhvaća dokumente kao što su [**Ponude**](Dokumenti/Ponude.md), [**Narudžbe kupca**](Dokumenti/NarudzbeKupca.md), [**Otpremnice**](Dokumenti/Otpremnice.md), [**Izlazni računi**](Dokumenti/IzlazniRacuni.md) te analitičke **[Poglede](#pogledi)** za praćenje prodajnih aktivnosti i tijeka dokumenata.
 
-Dok domena **[Imovina](../Imovina/README.md)** definira **što** se prodaje, domena **Prodaja** određuje **kako** se proizvodi i usluge nude, potvrđuju, isporučuju i fakturiraju.
+Dok domena **[Roba i usluge](../RobaIUsluge/README.md)** definira **što** se prodaje, domena **Prodaja** određuje **kako** se proizvodi i usluge nude, potvrđuju, isporučuju i fakturiraju.
 
 Za pristup ovoj domeni otvorite **Prodaja** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
@@ -61,7 +61,7 @@ Dostupni pogledi:
 
 - **[Kartice tvrtke](Pogledi/KarticeTvrtke.md)** – Pregled poslovnih partnera i njihove komercijalne aktivnosti.
 - **[Izvješća o otpremnicama](Pogledi/IzvjescaOOtpremnicama.md)** – Analiza isporučene robe prema kupcima.
-- **[Izvješća o narudžbama kupca](Pogledi/IzvjescaONarudzbamaKupca.md)** – Analiza potvrđenih narudžbi prema kupcima.
+- **[Izvješće o narudžbama kupcu](Pogledi/IzvjesceONarudzbamaKupcu.md)** – Analiza potvrđenih narudžbi prema kupcima.
 - **[Stavke narudžbi](Pogledi/StavkeNarudzbi.md)** – Detaljan pregled pojedinačnih stavki narudžbi.
 
 Ovi zasloni služe isključivo za analizu podataka i ne stvaraju nove poslovne dokumente.
@@ -74,11 +74,11 @@ Odjeljak **Upravljanje** sadrži šifrarnike i postavke potrebne za konfiguracij
 
 Dostupni šifrarnici i postavke:
 
-- **[Konfiguracija](Upravljanje/Konfiguracija.md)** – Globalne postavke koje određuju ponašanje prodajnih procesa.
+- **[Konfiguracija](Upravljanje/KonfiguracijaProdaje.md)** – Globalne postavke koje određuju ponašanje prodajnih procesa.
 - **[Poslovni imenik](../../Zajednicko/Upravljanje/PoslovniImenik.md)** – Evidencija kupaca i poslovnih partnera koja se koristi u svim prodajnim dokumentima.
 - **[Banke](../../Zajednicko/Upravljanje/Banke.md)** – Definicije banaka koje se koriste na računima i u podacima za plaćanje.
 - **[Načini plaćanja](Upravljanje/NaciniPlacanja.md)** – Načini plaćanja koji se koriste na prodajnim dokumentima.
-- **[Bankovni računi](Upravljanje/BankovniRacuni.md)** – Bankovni računi organizacije koji se koriste na izlaznim računima.
+- **[Bankovni računi](Upravljanje/BankovniRacuniOrganizacije.md)** – Bankovni računi organizacije koji se koriste na izlaznim računima.
 - **[Države](../../Zajednicko/Upravljanje/Drzave.md)** – Popis država koje se koriste u adresama i poslovnim dokumentima.
 - **[Mjerne jedinice](../../Zajednicko/Upravljanje/MjerneJedinice.md)** – Mjerne jedinice koje se koriste u prodajnim dokumentima.
 - **[Mjesta troška](../../Zajednicko/Upravljanje/MjestaTroska.md)** – Klasifikacija prihoda i troškova prema mjestu troška.
@@ -87,7 +87,7 @@ Dostupni šifrarnici i postavke:
 - **[Unaprijed pripremljeni tekstovi](../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md)** – Standardni tekstovi koji se mogu koristiti u prodajnim dokumentima.
 - **[Porezne stope](../../Zajednicko/Upravljanje/PorezneStope.md)** – Definicije PDV-a i ostalih poreznih stopa koje se koriste pri obračunu poreza.
 - **[Predlošci klauzula za otpremnice](Upravljanje/PredlosciKlauzulaZaOtpremnice.md)** – Standardne klauzule koje se umeću u otpremnice.
-- **[Predlošci klauzula za izlazne račune](Upravljanje/PredlosciKlauzulaZaIzlazneRacune.md)** – Standardne klauzule koje se umeću u izlazne račune.
+- **[Predlošci klauzula za izdane račune](Upravljanje/PredlosciKlauzulaZaIzdaneRacune.md)** – Standardne klauzule koje se umeću u izdane račune.
 - **[Oznake svrha plaćanja](Upravljanje/OznakeSvrhaPlacanja.md)** – Oznake koje se koriste za razmjenu podataka o plaćanju i integraciju s vanjskim sustavima.
 - **[Vrsta transporta](../../Zajednicko/Upravljanje/VrstaTransporta.md)** – Načini transporta koji se koriste u prodaji i logistici.
 - **[Uvjeti isporuke](../../Zajednicko/Upravljanje/UvjetiIsporuke.md)** – Komercijalni uvjeti isporuke koji se primjenjuju na prodajne dokumente.

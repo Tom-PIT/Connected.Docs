@@ -56,8 +56,8 @@ Za ažuriranje zaliha:
 | [**Mjesto troška**](../../../Zajednicko/Upravljanje/MjestaTroska.md) | Opcionalna raspodjela troškova. |
 | **Oznaka svrhe** | Opcionalna oznaka svrhe plaćanja. |
 | **Rabat** | Ukupni rabat primijenjen na dokument. |
-| **Sadržaj gore** | Uvodni tekst iz [**Preddefiniranih tekstova**](../../../Zajednicko/Upravljanje/PreddefiniraniTekstovi.md). |
-| **Sadržaj dolje** | Završni ili zakonski tekst iz [**Preddefiniranih tekstova**](../../../Zajednicko/Upravljanje/PreddefiniraniTekstovi.md). |
+| **Sadržaj gore** | Uvodni tekst iz [**Preddefiniranih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
+| **Sadržaj dolje** | Završni ili zakonski tekst iz [**Preddefiniranih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
 
 </details>
 
@@ -66,10 +66,10 @@ Za ažuriranje zaliha:
 
 | Polje | Opis |
 |-------|------|
-| [**Paritet**](../../../Zajednicko/Upravljanje/Pariteti.md) | Uvjeti isporuke dogovoreni s kupcem. |
-| [**Vrsta transporta**](../../../Zajednicko/Upravljanje/VrsteTransporta.md) | Način prijevoza dogovoren s kupcem. |
+| [**Uvjeti isporuke**](../../../Zajednicko/Upravljanje/UvjetiIsporuke.md) | Uvjeti isporuke dogovoreni s kupcem. |
+| [**Vrsta transporta**](../../../Zajednicko/Upravljanje/VrstaTransporta.md) | Način prijevoza dogovoren s kupcem. |
 | [**Alternativna valuta**](../../../Zajednicko/Upravljanje/Valute.md) | Alternativna valuta koja se koristi na dokumentu. |
-| [**Tečajevi**](../Upravljanje/Tečajevi.md) | Tečaj alternativne valute u odnosu na zadanu valutu. |
+| [**Tečaj**](../Upravljanje/DevizniTecajevi.md) | Tečaj alternativne valute u odnosu na zadanu valutu. |
 | **Dostava** | Podaci o dostavi i adresi isporuke. |
 
 </details>
@@ -159,7 +159,7 @@ Maloprodajni računi za predujam mogu se kreirati samo ručno.
 
    ![Stavke maloprodajnog računa za predujam](../Images/RetailProformaInvoiceNewDetailsEditHR.png)
 
-   Za više informacija o radu sa stavkama dokumenta pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+   Za više informacija o radu sa stavkama dokumenta pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 5. Spremite stavke.
 
@@ -195,7 +195,7 @@ Stavke definiraju artikle, njihove količine, cijene, poreze i popuste. Svaka st
 
 ![Uređivanje stavke](../Images/SalesOrdersNewDetailsSavedHR.png)
 
-Za više informacija o radu sa stavkama dokumenta pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+Za više informacija o radu sa stavkama dokumenta pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 ##### Detalji glavne knjige
 

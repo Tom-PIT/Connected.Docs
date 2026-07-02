@@ -219,7 +219,7 @@ Ako želite obrisati samo jednu stavku:
 1. Kliknite stavku kako biste otvorili zaslon **Uredi stavku**.
 2. Kliknite **Izbriši**.
 
-Više informacija o radu sa stavkama dokumenta potražite u dokumentu [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+Više informacija o radu sa stavkama dokumenta potražite u dokumentu [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 > [!NOTE]
 > Obrisati je moguće samo narudžbe kupca u stanju **Nacrti**. Nakon objave dokument više nije moguće obrisati, već ga je potrebno vratiti u stanje **Nacrti**.

@@ -10,7 +10,7 @@
 Terećenja povećavaju otvoreno dugovanje kupca. Za umanjenja ili povrate pogledajte **[Odobrenja](Odobrenja.md)**.
 
 > [!TIP]
-> Trenutni pregled **terećenja i odobrenja** za svakog kupca možete jednostavno pregledati u prikazu **[Kartice tvrtki](../Pogledi/KarticeTvrtki.md)**.
+> Trenutni pregled **terećenja i odobrenja** za svakog kupca možete jednostavno pregledati u prikazu **[Kartice tvrtki](../Pogledi/KarticeTvrtke.md)**.
 
 Za pristup ovom dokumentu idite na **Prodaja / Dokumenti / Terećenja**.
 
@@ -136,7 +136,7 @@ Nakon pokretanja novog terećenja:
 
 4. Po potrebi uredite količine i iznose te kliknite **Spremi** kako biste potvrdili stavku.
 
-   Za više informacija pogledajte **[Stavke dokumenta](../../../Zajednicko/Koncepti/StavkeDokumenta.md)**.
+   Za više informacija pogledajte **[Stavke dokumenta](../../../Zajednicko/Koncepti/Stavke.md)**.
 
 5. Kada je dokument spreman, kliknite **Objavi**.
 

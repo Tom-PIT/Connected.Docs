@@ -7,7 +7,7 @@
 
 Šifrarnik **Oznake svrha plaćanja** omogućuje definiranje oznaka koje opisuju svrhu plaćanja na prodajnim dokumentima. Oznake se mogu koristiti za klasifikaciju dokumenata, izvještavanje ili razmjenu podataka s vanjskim sustavima.
 
-Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Oznake svrha plaćanja** u [navigaciji](../../../Common/UI/Navigation.md).
+Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Oznake svrha plaćanja** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > Značenje pojedine oznake ovisi o načinu na koji se koristi u dokumentima ili integracijama.
@@ -38,7 +38,7 @@ Pomoću polja **Pretraživanje** možete pretraživati oznake prema oznaci ili n
 
 ### Dodavanje oznake svrhe plaćanja
 
-Kliknite [akcijski gumb](../../../Common/UI/ActionButton.md).
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md).
 
 Unesite:
 
