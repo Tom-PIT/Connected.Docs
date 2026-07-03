@@ -1,6 +1,6 @@
 <!-- app_route: /customers/visitors/management -->
 <!-- app_label: Urejanje obiskov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Obiskovalci/UrejanjeObiskov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Stranke/Obiskovalci/UrejanjeObiskov/ -->
 <!-- canonical_source_title: Urejanje obiskov -->
 
 # Urejanje obiskov

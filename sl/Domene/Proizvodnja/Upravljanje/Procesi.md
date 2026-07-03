@@ -1,6 +1,6 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Procesi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Procesi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/Procesi/ -->
 <!-- canonical_source_title: Procesi -->
 
 # Procesi

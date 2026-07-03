@@ -1,6 +1,6 @@
 <!-- app_route: /work-items-costs -->
 <!-- app_label: Stroški opravil -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/StroskiOpravil.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Pregledi/StroskiOpravil/ -->
 <!-- canonical_source_title: Stroški opravil -->
 
 # Stroški opravil

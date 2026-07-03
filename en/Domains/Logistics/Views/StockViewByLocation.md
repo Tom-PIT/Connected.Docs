@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/stock/location -->
 <!-- app_label: Stock view by location -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/StockViewByLocation.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Views/StockViewByLocation/ -->
 <!-- canonical_source_title: Stock view by location -->
 
 # Stock view by location

@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/raw-materials -->
 <!-- app_label: Surovine -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Surovine.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/Surovine/ -->
 <!-- canonical_source_title: Surovine -->
 
 # Surovine

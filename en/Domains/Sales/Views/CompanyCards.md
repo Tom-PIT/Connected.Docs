@@ -1,6 +1,6 @@
 <!-- app_route: /customers/company-cards -->
 <!-- app_label: Company cards -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Views/CompanyCards.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Views/CompanyCards/ -->
 <!-- canonical_source_title: Company cards -->
 
 # Company cards

@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/institutional-sectors -->
 <!-- app_label: Institutional sectors -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Management/InstitutionalSectors.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Customers/Management/InstitutionalSectors/ -->
 <!-- canonical_source_title: Institutional sectors -->
 
 # Institutional sectors

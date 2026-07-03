@@ -1,6 +1,6 @@
 <!-- app_label: /management/intrastat/nature-of-transactions -->
 <!-- app_label: Vrsta posla -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/VrstaPosla.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/VrstaPosla/ -->
 <!-- canonical_source_title: Vrsta posla -->
 
 # Vrsta posla

@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/debit-notes -->
 <!-- app_label: Bremepisi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Bremepisi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/Bremepisi/ -->
 <!-- canonical_source_title: Bremepisi -->
 
 # Bremepisi

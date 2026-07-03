@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /customer-support -->
 <!-- app_label: Prijave -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Prijave/Prijave.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Stranke/Prijave/Prijave/ -->
 <!-- canonical_source_title: Prijave -->
 
 # Prijave

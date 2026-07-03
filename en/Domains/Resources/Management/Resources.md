@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources -->
 <!-- app_label: Resources -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Resources.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/Resources/ -->
 <!-- canonical_source_title: Resources -->
 
 # Resources

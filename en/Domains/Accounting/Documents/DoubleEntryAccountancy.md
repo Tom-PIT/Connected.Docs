@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/journal-entries -->
 <!-- app_label: Double-entry accountancy -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/DoubleEntryAccountancy.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Documents/DoubleEntryAccountancy/ -->
 <!-- canonical_source_title: Double-entry accountancy -->
 
 # Double-entry accountancy

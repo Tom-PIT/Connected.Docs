@@ -1,6 +1,6 @@
 <!-- app_route: /resources/resource -->
 <!-- app_label: Resource view -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/ResourceView.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Views/ResourceView/ -->
 <!-- canonical_source_title: Resource view -->
 
 # Resource view

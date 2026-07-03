@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/products -->
 <!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/Izdelki/ -->
 <!-- canonical_source_title: Izdelki -->
 
 # Izdelki

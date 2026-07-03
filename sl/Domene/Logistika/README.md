@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/logistics -->
 <!-- app_label: Logistika -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/ -->
 <!-- canonical_source_title: Logistika -->
 
 # Logistika

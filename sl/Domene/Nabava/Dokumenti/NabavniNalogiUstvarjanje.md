@@ -1,7 +1,7 @@
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Nabavni nalogi -->
 <!-- app_navigation_hint: Odprite Nabavni nalogi, nato kliknite akcijski gumb za ustvarjanje novega osnutka nabavnega naloga. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/NabavniNalogiUstvarjanje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Dokumenti/NabavniNalogiUstvarjanje/ -->
 <!-- canonical_source_title: Kako ustvariti novi nabavni nalog -->
 
 # Kako ustvariti novi nabavni nalog

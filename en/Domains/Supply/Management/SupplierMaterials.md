@@ -1,6 +1,6 @@
 <!-- app_route: /management/supply/supplier-materials -->
 <!-- app_label: Supplier materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Management/SupplierMaterials.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Supply/Management/SupplierMaterials/ -->
 <!-- canonical_source_title: Supplier materials -->
 
 # Supplier materials

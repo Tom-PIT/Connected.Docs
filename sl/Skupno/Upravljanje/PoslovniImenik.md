@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PoslovniImenik.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Upravljanje/PoslovniImenik/ -->
 <!-- canonical_source_title: Poslovni imenik -->
 
 # Poslovni imenik

@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/timesheets -->
 <!-- app_label: Timesheets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/Timesheets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/Timesheets/ -->
 <!-- canonical_source_title: Timesheets -->
 
 # Timesheets

@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/expenses -->
 <!-- app_label: Expenses -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Management/Expenses.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Supply/Management/Expenses/ -->
 <!-- canonical_source_title: Expenses -->
 
 # Expenses

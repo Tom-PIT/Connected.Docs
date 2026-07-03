@@ -1,6 +1,6 @@
 <!-- app_route: /resources/views/work-item-analysis -->
 <!-- app_label: Work Time Analysis -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Analytics/WorkTimeAnalysis.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Analytics/WorkTimeAnalysis/ -->
 <!-- canonical_source_title: Work Time Analysis -->
 
 # Work Time Analysis

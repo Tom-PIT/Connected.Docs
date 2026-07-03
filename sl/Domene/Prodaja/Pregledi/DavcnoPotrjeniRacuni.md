@@ -1,6 +1,6 @@
 <!-- app_route: /sales/views/fiscal-invoices -->
 <!-- app_label: Davčno potrjeni računi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/DavcnoPotrjeniRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Pregledi/DavcnoPotrjeniRacuni/ -->
 <!-- canonical_source_title: Davčno potrjeni računi -->
 
 # Davčno potrjeni računi

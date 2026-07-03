@@ -1,6 +1,6 @@
 <!-- app_route: /knowledge/ -->
 <!-- app_label: Baza znanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Znanje/BazaZnanja/BazaZnanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Znanje/BazaZnanja/BazaZnanja/ -->
 <!-- canonical_source_title: Baza znanja -->
 
 # Baza znanja

@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/credit-notes -->
 <!-- app_label: Credit notes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/CreditNotes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/CreditNotes/ -->
 <!-- canonical_source_title: Credit notes -->
 
 # Credit notes

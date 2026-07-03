@@ -1,6 +1,6 @@
 <!-- app_route: /management/supply/supplier-materials -->
 <!-- app_label: Materiali dobaviteljev -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Upravljanje/MaterialiDobaviteljev.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Upravljanje/MaterialiDobaviteljev/ -->
 <!-- canonical_source_title: Materiali dobaviteljev -->
 
 # Materiali dobaviteljev

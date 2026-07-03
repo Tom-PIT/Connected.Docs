@@ -1,6 +1,6 @@
 <!-- app_route: /management/intrastat/nature-of-transactions -->
 <!-- app_label: Nature of transactions -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Intrastat/NatureOfTransactions.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Intrastat/NatureOfTransactions/ -->
 <!-- canonical_source_title: Nature of transactions -->
 
 # Nature of transactions

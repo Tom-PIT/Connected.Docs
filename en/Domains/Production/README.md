@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/production -->
 <!-- app_label: Production -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/ -->
 <!-- canonical_source_title: Production -->
 
 # Production

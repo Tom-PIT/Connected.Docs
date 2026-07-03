@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/schedule -->
 <!-- app_label: Maintenance schedule -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceSchedule.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Maintenance/Documents/MaintenanceSchedule/ -->
 <!-- canonical_source_title: Maintenance schedule -->
 
 # Maintenance schedule

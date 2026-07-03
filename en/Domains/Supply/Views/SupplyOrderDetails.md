@@ -1,6 +1,6 @@
 <!-- app_route: /supply/views/supply-order-details -->
 <!-- app_label: Supply order details -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Views/SupplyOrderDetails.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Supply/Views/SupplyOrderDetails/ -->
 <!-- canonical_source_title: Supply order details -->
 
 # Supply order details

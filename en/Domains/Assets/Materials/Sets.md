@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/sets -->
 <!-- app_label: Sets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Sets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/Sets/ -->
 <!-- canonical_source_title: Sets -->
 
 # Sets

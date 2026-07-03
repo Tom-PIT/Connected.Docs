@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/views/intrastat-entries -->
 <!-- app_label: Intrastat  postavke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/IntrastatPostvke.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/IntrastatPostvke/ -->
 <!-- canonical_source_title: Intrastat postavke -->
 
 # Intrastat  postavke

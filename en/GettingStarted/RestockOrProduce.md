@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/RestockOrProduce.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/RestockOrProduce/ -->
 <!-- canonical_source_title: Restock or produce -->
 
 # Restock or produce

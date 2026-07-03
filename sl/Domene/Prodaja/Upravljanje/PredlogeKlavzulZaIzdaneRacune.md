@@ -1,6 +1,6 @@
 <!-- app_route: /management/sales/issued-invoice-clause-templates -->
 <!-- app_label: Predloge klavzul za izdane račune -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/PredlogeKlavzulZaIzdaneRacune.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Upravljanje/PredlogeKlavzulZaIzdaneRacune/ -->
 <!-- canonical_source_title: Predloge klavzul za izdane račune -->
 
 # Predloge klavzul za izdane račune

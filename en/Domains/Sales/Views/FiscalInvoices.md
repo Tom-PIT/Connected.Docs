@@ -1,6 +1,6 @@
 <!-- app_route: /sales/views/fiscal-invoices -->
 <!-- app_label: Fiscal invoices -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Views/FiscalInvoices.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Views/FiscalInvoices/ -->
 <!-- canonical_source_title: Fiscal invoices -->
 
 # Fiscal invoices

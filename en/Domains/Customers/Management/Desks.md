@@ -1,6 +1,6 @@
 <!-- app_route: /management/customer-support/desks -->
 <!-- app_label: Desks -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Management/Desks.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Customers/Management/Desks/ -->
 <!-- canonical_source_title: Desks -->
 
 # Desks

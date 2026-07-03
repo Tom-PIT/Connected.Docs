@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/stock/location -->
 <!-- app_label: Pogled zaloge po lokacijah -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/PogledZalogePoLokacijah.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Pregledi/PogledZalogePoLokacijah/ -->
 <!-- canonical_source_title: Pogled zaloge po lokacijah -->
 
 # Pogled zaloge po lokacijah

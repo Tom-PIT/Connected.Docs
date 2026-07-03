@@ -1,6 +1,6 @@
 <!-- app_route: /customers/company-cards -->
 <!-- app_label: Poslovne kartice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/PoslovneKartice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Pregledi/PoslovneKartice/ -->
 <!-- canonical_source_title: Poslovne kartice -->
 
 # Poslovne kartice

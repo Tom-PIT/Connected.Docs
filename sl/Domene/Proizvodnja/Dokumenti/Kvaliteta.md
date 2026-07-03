@@ -1,7 +1,7 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Izvedba -->
 <!-- app_navigation_hint: V Izvedbi, kliknite akcijski gumb in izberite Kvaliteta. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Kvaliteta.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/Kvaliteta/ -->
 <!-- canonical_source_title: Kvaliteta -->
 
 # Kvaliteta

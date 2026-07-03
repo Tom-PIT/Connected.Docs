@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/organization-unit-downtime -->
 <!-- app_label: Zastoji organizacijskih enot -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/ZastojiOrganizacijskihEnot.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Analiza/ZastojiOrganizacijskihEnot/ -->
 <!-- canonical_source_title: Zastoji organizacijskih enot -->
 
 # Zastoji organizacijskih enot

@@ -1,6 +1,6 @@
 <!-- app_route: /customers/visitors/management -->
 <!-- app_label: Visitors management -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Customers/Visitors/VisitorsManagement.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Customers/Visitors/VisitorsManagement/ -->
 <!-- canonical_source_title: Visitors management -->
 
 # Visitors management

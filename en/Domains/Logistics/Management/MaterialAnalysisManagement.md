@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/material-analysis -->
 <!-- app_label: Material analysis management -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Management/MaterialAnalysisManagement.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Management/MaterialAnalysisManagement/ -->
 <!-- canonical_source_title: Material analysis management -->
 
 # Material analysis management

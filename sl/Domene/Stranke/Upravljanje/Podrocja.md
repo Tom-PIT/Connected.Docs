@@ -1,6 +1,6 @@
 <!-- app_route: /management/customer-support/desks -->
 <!-- app_label: Področja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Upravljanje/Podrocja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Stranke/Upravljanje/Podrocja/ -->
 <!-- canonical_source_title: Področja -->
 
 # Področja

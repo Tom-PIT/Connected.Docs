@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/issued-invoices-tax-book -->
 <!-- app_label: Knjiga izdanih računov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/KnjigaIzdanihRacunov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/KnjigaIzdanihRacunov/ -->
 <!-- canonical_source_title: Knjiga izdanih računov -->
 
 # Knjiga izdanih računov

@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /customer-support -->
 <!-- app_label: Tickets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Tickets/Tickets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Customers/Tickets/Tickets/ -->
 <!-- canonical_source_title: Tickets -->
 
 # Tickets

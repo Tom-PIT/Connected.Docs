@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/bank/payment-orders -->
 <!-- app_label: Payment orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/PaymentOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Documents/PaymentOrders/ -->
 <!-- canonical_source_title: Payment orders -->
 
 # Payment orders

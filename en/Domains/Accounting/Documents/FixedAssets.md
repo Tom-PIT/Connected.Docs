@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/fixed-assets -->
 <!-- app_label: Fixed assets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/FixedAssets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Documents/FixedAssets/ -->
 <!-- canonical_source_title: Fixed assets -->
 
 # Fixed assets

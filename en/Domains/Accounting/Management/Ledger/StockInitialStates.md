@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/stock/initial-states -->
 <!-- app_label: Stock initial states -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/StockInitialStates.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Ledger/StockInitialStates/ -->
 <!-- canonical_source_title: Stock initial states -->
 
 # Stock initial states

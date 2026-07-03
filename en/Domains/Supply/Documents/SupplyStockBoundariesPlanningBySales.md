@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-planning-by-sales -->
 <!-- app_label: Supply stock boundaries planning by sales -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Documents/SupplyStockBoundariesPlanningBySales .md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Supply/Documents/SupplyStockBoundariesPlanningBySales / -->
 <!-- canonical_source_title: Supply stock boundaries planning by sales -->
 
 # Supply stock boundaries planning by sales

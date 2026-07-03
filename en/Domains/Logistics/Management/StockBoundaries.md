@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/stock-boundaries -->
 <!-- app_label: Stock boundaries -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Management/StockBoundaries.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Management/StockBoundaries/ -->
 <!-- canonical_source_title: Stock boundaries -->
 
 # Stock boundaries

@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/subsistence-allowances -->
 <!-- app_label: Subsistence Allowances -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/SubsistenceAllowances.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/SubsistenceAllowances/ -->
 <!-- canonical_source_title: Subsistence Allowances -->
 
 # Subsistence Allowances

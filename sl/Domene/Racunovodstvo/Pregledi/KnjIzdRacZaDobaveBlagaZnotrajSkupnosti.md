@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/issued-invoices-supply-of-goods -->
 <!-- app_label: Izdani računi za dobave blaga znotraj skupnosti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/KnjIzdRacZaDobaveBlagaZnotrajSkupnosti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/KnjIzdRacZaDobaveBlagaZnotrajSkupnosti/ -->
 <!-- canonical_source_title: Izdani računi za dobave blaga znotraj skupnosti -->
 
 # Izdani računi za dobave blaga znotraj skupnosti

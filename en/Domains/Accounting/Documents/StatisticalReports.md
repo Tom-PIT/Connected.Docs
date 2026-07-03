@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/statistical-reports -->
 <!-- app_label: Statistical reports -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/StatisticalReports.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Documents/StatisticalReports/ -->
 <!-- canonical_source_title: Statistical reports -->
 
 # Statistical reports

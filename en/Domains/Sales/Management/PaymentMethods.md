@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/payment-methods -->
 <!-- app_label: Payment methods -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/PaymentMethods.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Management/PaymentMethods/ -->
 <!-- canonical_source_title: Payment methods -->
 
 # Payment methods

@@ -1,6 +1,6 @@
 <!-- app_route: /login -->
 <!-- app_label: Prijava -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/UI/Prijava.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/UI/Prijava/ -->
 <!-- canonical_source_title: Prijava -->
 
 # Prijava

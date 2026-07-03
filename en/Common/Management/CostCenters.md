@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/cost-centers -->
 <!-- app_label: Cost centers -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/CostCenters.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/CostCenters/ -->
 <!-- canonical_source_title: Cost centers -->
 
 # Cost centers

@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/offers -->
 <!-- app_label: Offers -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/Offers.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/Offers/ -->
 <!-- canonical_source_title: Offers -->
 
 # Offers

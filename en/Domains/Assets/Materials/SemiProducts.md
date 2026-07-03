@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/semi-products -->
 <!-- app_label: Semi products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/SemiProducts.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/SemiProducts/ -->
 <!-- canonical_source_title: Semi products -->
 
 # Semi products

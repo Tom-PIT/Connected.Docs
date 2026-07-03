@@ -1,7 +1,7 @@
 <!-- app_route: /management/configuration -->
 <!-- app_label: Configuration -->
 <!-- app_navigation_hint: Open **Configuration** in the main navigation, then open **Sales Retail SI Settings**. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Settings/SalesRetailsSISettings.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/System/Settings/SalesRetailsSISettings/ -->
 <!-- canonical_source_title: Sales Retail SI Settings -->
 
 # Sales Retail SI Settings

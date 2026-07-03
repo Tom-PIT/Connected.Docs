@@ -1,6 +1,6 @@
 <!-- app_route: /projects/my-calendar -->
 <!-- app_label: My calendar -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/Views/MyCalendar.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Projects/Views/MyCalendar/ -->
 <!-- canonical_source_title: My calendar -->
 
 # My calendar

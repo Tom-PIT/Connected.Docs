@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/availabilty-plans -->
 <!-- app_label: Availability plans -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/AvailabilityPlans.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Views/AvailabilityPlans/ -->
 <!-- canonical_source_title: Availability plans -->
 
 # Availability plans

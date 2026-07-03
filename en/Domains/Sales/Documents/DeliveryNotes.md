@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/delivery-notes -->
 <!-- app_label: Delivery notes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/DeliveryNotes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/DeliveryNotes/ -->
 <!-- canonical_source_title: Delivery notes -->
 
 # Delivery notes

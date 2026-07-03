@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/packaging -->
 <!-- app_label: Packaging -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Packaging.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/Packaging/ -->
 <!-- canonical_source_title: Packaging -->
 
 # Packaging

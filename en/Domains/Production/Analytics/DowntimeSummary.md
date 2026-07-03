@@ -1,6 +1,6 @@
 <!-- app_route: /analytics/downtime-summary -->
 <!-- app_label: Downtime summary -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/DowntimeSummary.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Analytics/DowntimeSummary/ -->
 <!-- canonical_source_title: Downtime summary -->
 
 # Downtime summary

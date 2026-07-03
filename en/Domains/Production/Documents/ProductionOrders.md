@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders -->
 <!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/ProductionOrders/ -->
 <!-- canonical_source_title: Production orders -->
 
 # Production orders

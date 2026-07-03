@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance/analytics/kpis -->
 <!-- app_label: Maintenance indicators -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Analytics/MaintenanceIndicators.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Maintenance/Analytics/MaintenanceIndicators/ -->
 <!-- canonical_source_title: Maintenance KPIs -->
 
 # Maintenance KPIs

@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/tax-rates -->
 <!-- app_label: Tax rates -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/TaxRates.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/TaxRates/ -->
 <!-- canonical_source_title: Tax rates -->
 
 # Tax rates

@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/inters --> 
 <!-- app_label: Inter warehouse --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/InterWarehouse.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/InterWarehouse/ --> 
 <!-- canonical_source_title: Inter warehouse -->
 
 # Inter warehouse

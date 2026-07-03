@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/inter-move --> 
 <!-- app_label: Premakni serijsko številko --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/PremakniSerijskoStevilko.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/PremakniSerijskoStevilko/ --> 
 <!-- canonical_source_title: Premakni serijsko številko -->
 
 # Premakni serijsko številko

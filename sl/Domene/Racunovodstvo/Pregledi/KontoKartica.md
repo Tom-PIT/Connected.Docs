@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/account-card -->
 <!-- app_label: Konto kartica -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/KontoKartica.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/KontoKartica/ -->
 <!-- canonical_source_title: Konto kartica -->
 
 # Konto kartica

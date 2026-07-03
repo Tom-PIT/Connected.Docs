@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/inventories --> 
 <!-- app_label: Inventories --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Inventories.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/Inventories/ --> 
 <!-- canonical_source_title: Inventories -->
 
 # Inventories

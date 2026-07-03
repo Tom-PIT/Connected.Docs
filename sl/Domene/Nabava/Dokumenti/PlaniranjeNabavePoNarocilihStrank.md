@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-planning-by-sales -->
 <!-- app_label: Planiranje nabave po naročilih strank -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/PlaniranjeNabavePoProdaji.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Dokumenti/PlaniranjeNabavePoProdaji/ -->
 <!-- canonical_source_title: Planiranje nabave po naročilih strank -->
 
 # Planiranje nabave po naročilih strank

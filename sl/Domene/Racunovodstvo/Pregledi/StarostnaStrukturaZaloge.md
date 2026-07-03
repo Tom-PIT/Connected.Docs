@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/stock-age-structure -->
 <!-- app_label: Starostna struktura zaloge -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/StarostnaStrukturaZaloge.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/StarostnaStrukturaZaloge/ -->
 <!-- canonical_source_title: Starostna struktura zaloge -->
 
 # Starostna struktura zaloge

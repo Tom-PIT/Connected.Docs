@@ -1,6 +1,6 @@
 <!-- app_route: /projects/projects -->
 <!-- app_label: Projekti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Dokumenti/Projekti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Projekti/Dokumenti/Projekti/ -->
 <!-- canonical_source_title: Projekti -->
 
 # Projekti

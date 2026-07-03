@@ -1,6 +1,6 @@
 <!-- app_route: /management/processes/protocol-operation-templates -->
 <!-- app_label: Protocol operation instance templates -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/ProtocolOperationsInstanceTemplates.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/ProtocolOperationsInstanceTemplates/ -->
 <!-- canonical_source_title: Protocol operation instance templates -->
 
 # Protocol operation instance templates

@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources -->
 <!-- app_label: Viri -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Viri.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/Viri/ -->
 <!-- canonical_source_title: Viri -->
 
 # Viri

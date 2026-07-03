@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/maintenance -->
 <!-- app_label: Maintenance -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Maintenance/ -->
 <!-- canonical_source_title: Maintenance -->
 
 # Maintenance

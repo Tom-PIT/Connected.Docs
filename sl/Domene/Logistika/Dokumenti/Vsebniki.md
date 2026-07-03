@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/containers --> 
 <!-- app_label: Vsebniki --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Vsebniki.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/Vsebniki/ --> 
 <!-- canonical_source_title: Vsebniki -->
 
 # Vsebniki

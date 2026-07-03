@@ -1,7 +1,7 @@
 <!-- app_route: /production-orders -->
 <!-- app_label: Production order -->
 <!-- app_navigation_hint: Open a production order, then open the **Expenses** section. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrderExpenses.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/ProductionOrderExpenses/ -->
 <!-- canonical_source_title: Production order - Expenses section -->
 
 # Production orders - Expenses

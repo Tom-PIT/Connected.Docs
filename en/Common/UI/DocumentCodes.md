@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/UI/DocumentCodes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/UI/DocumentCodes/ -->
 <!-- canonical_source_title: Document codes -->
 
 # Document codes

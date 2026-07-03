@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/simple-receive --> 
 <!-- app_label: Simple receive -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/PoenostavljenPrevzem.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/PoenostavljenPrevzem/ -->
 <!-- canonical_source_title: Poenostavljen prevzem -->
 
 # Poenostavljen prevzem

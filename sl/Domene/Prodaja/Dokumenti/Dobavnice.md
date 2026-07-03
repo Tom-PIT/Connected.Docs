@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/delivery-notes -->
 <!-- app_label: Dobavnice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Dobavnice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/Dobavnice/ -->
 <!-- canonical_source_title: Dobavnice -->
 
 # Dobavnice

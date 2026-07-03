@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/currencies -->
 <!-- app_label: Currencies -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Currencies.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/Currencies/ -->
 <!-- canonical_source_title: Currencies -->
 
 # Currencies

@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/configuration -->
 <!-- app_label: Logistics configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Management/LogisticsConfiguration.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Management/LogisticsConfiguration/ -->
 <!-- canonical_source_title: Logistics configuration -->
 
 # Logistics configuration

@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/prepayments -->
 <!-- app_label: Prepayments -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/Prepayments.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/Prepayments/ -->
 <!-- canonical_source_title: Prepayments -->
 
 # Prepayments

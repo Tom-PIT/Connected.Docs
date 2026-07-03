@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/material-price-lists -->
 <!-- app_label: Ceniki materialov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/CenikiMaterialov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/CenikiMaterialov/ -->
 <!-- canonical_source_title: Ceniki materialov -->
 
 # Ceniki materialov

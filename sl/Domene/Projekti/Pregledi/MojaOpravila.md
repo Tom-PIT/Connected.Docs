@@ -1,6 +1,6 @@
 <!-- app_route: /projects/my-tasks -->
 <!-- app_label: Moja opravila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Pregledi/MojaOpravila.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Projekti/Pregledi/MojaOpravila/ -->
 <!-- canonical_source_title: Moja opravila -->
 
 # Moja opravila

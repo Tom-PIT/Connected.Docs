@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/received-invoices-tax-book -->
 <!-- app_label: Received invoices tax book -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/ReceivedInvoicesTaxBook.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Views/ReceivedInvoicesTaxBook/ -->
 <!-- canonical_source_title: Received invoices tax book -->
 
 # Received invoices tax book

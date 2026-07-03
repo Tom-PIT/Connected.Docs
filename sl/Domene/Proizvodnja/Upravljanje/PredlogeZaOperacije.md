@@ -1,6 +1,6 @@
 <!-- app_route: /management/processes/protocol-operation-templates -->
 <!-- app_label: Predloge za operacije -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/PredlogeZaOperacije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/PredlogeZaOperacije/ -->
 <!-- canonical_source_title: Predloge za operacije -->
 
 # Predloge za operacije

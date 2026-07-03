@@ -1,6 +1,6 @@
 <!-- app_route: /management/knowledge/directories -->
 <!-- app_label: Directories -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/TableOfContents.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Knowledge/Management/TableOfContents/ -->
 <!-- canonical_source_title: Table of contents -->
 
 # Table of contents

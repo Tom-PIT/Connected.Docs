@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/inquiries -->
 <!-- app_label: Povpraševanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/Povprasevanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Dokumenti/Povprasevanja/ -->
 <!-- canonical_source_title: Povpraševanja -->
 
 # Povpraševanja

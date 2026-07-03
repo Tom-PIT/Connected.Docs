@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/account-summary-days -->
 <!-- app_label: Account summary -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/AccountSummary.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Views/AccountSummary/ -->
 <!-- canonical_source_title: Account summary -->
 
 # Account summary
