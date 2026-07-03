@@ -1,93 +1,93 @@
 <!-- app_route: /warehouse/documents/corrections --> 
 <!-- app_label: Corrections --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Corrections.md --> 
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/Corrections.md --> 
 <!-- canonical_source_title: Corrections -->
 
 # Corrections
 
-Corrections are logistics documents used to adjust inventory when physical stock does not match system records (e.g., counting differences, wrong material, or labeling errors). Publishing a correction updates warehouse balances to reflect the actual quantities and properties of materials.
+**Corrections** su logistički dokumenti koji se koriste za usklađivanje stanja zaliha kada fizičko stanje ne odgovara stanju evidentiranom u sustavu (npr. razlike utvrđene tijekom brojanja, pogrešan materijal ili pogrešno označavanje). Objavom korekcije ažuriraju se zalihe u skladištu kako bi odražavale stvarne količine i svojstva materijala.
 
-Use Corrections to:
-- Increase or decrease on-hand quantity for specific serials or items
-- Update attributes like best-before dates when mislabeled
-- Fix location discrepancies after physical counts
+Koristite **Corrections** za:
+
+- Povećanje ili smanjenje količine na zalihi za određene serijske brojeve ili artikle
+- Ažuriranje svojstava, poput roka upotrebe, ako je materijal pogrešno označen
+- Ispravljanje razlika u skladišnim lokacijama nakon fizičkog brojanja
 
 > [!NOTE]
-> Corrections affect inventory on publish: the system updates stock levels and attributes based on the entered differences.
+> **Corrections** utječu na stanje zaliha nakon objave. Sustav ažurira količine i svojstva materijala na temelju unesenih promjena.
 
-To access **Corrections**, go to **Logistics / Documents / Corrections** in the [navigation](../../../Common/UI/Navigation.md).
+Za pristup dokumentima **Corrections** idite na **Logistika / Dokumenti / Corrections** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-## Schema
+## Shema
 
 <details open markdown="1">
-<summary><strong>Document</strong></summary>
+<summary><strong>Dokument</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| [**Code**](../../../Common/UI/DocumentCodes.md) | Auto-generated document identifier. |
-| **[Warehouse](../Management/Warehouses.md)** | Warehouse where the correction applies (mandatory). |
-| **Document date** | Date of the correction document. |
+| Polje | Opis |
+|-------|------|
+| [**Oznaka**](../../../Zajednicko/UI/OznakeDokumenata.md) | Automatski generirana oznaka dokumenta. |
+| **[Skladište](../Upravljanje/Skladista.md)** | Skladište na koje se korekcija odnosi (obavezno). |
+| **Datum dokumenta** | Datum dokumenta korekcije. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Details</strong></summary>
+<summary><strong>Stavke</strong></summary>
 
-Each detail describes the material and the correction to apply.
+Svaka stavka definira materijal i korekciju koja će se primijeniti.
 
-| Field | Description |
-|-------|-------------|
-| **Material type** | Item category, e.g., [Products](../../Assets/Materials/Products.md), [Semi products](../../Assets/Materials/SemiProducts.md), [Raw materials](../../Assets/Materials/RawMaterials.md), [Repro materials](../../Assets/Materials/ReproMaterials.md). |
-| **Material** | Selected item (e.g., Pine table) from the [Assets](../../Assets/Assets/Assets.md) catalog. |
-| **Serial number** | Serial number to which the correction applies, if the material is serialized. |
-| **Best before** | Best-before date, if applicable for perishable materials. |
-| **Warehouse location** | Bin/shelf in the warehouse for precise placement. See [Locations](../Management/Locations.md). |
-| **Quantity** | Quantity to correct (enter the final quantity or a delta, depending on configuration). |
+| Polje | Opis |
+|-------|------|
+| **Tip materijala** | Kategorija materijala, npr. [Proizvodi](../../RobaIUsluge/Materijali/Proizvodi.md), [Poluproizvodi](../../RobaIUsluge/Materijali/Poluproizvodi.md), [Sirovine](../../RobaIUsluge/Materijali/Sirovine.md) ili [Repro materijali](../../RobaIUsluge/Materijali/ReproMaterijali.md). |
+| **Materijal** | Odabrani materijal (npr. Pine table) iz kataloga [Imovine](../../RobaIUsluge/Materijali/Imovina.md). |
+| **Serijski broj** | Serijski broj na koji se korekcija odnosi, ako materijal koristi serijske brojeve. |
+| **Upotrebljivo najmanje do** | Rok upotrebe, ako je primjenjivo za kvarljive materijale. |
+| **Skladišna lokacija** | Lokacija u skladištu (polica ili pozicija) na kojoj se materijal nalazi. Pogledajte [Lokacije](../Upravljanje/Lokacije.md). |
+| **Količina** | Količina koja se ispravlja (ovisno o konfiguraciji unosi se konačna količina ili razlika). |
 
 </details>
 
-## List of correction documents
+## Popis dokumenata Corrections
 
-The list shows existing Correction documents, with filters for date, warehouse, and status (Draft/Published). Use search to find by code or material.
+Popis prikazuje postojeće dokumente **Corrections** s mogućnošću filtriranja prema datumu, skladištu i statusu (Nacrt / Obrađeno). Dokumente možete pronaći pretraživanjem prema oznaci ili materijalu.
 
 ![Corrections List](../Images/CorrectionsList.png)
 
-## Actions
+## Radnje
 
-### Create a correction document
+### Stvoriti dokument Corrections
 
-Create a Correction when the counted stock differs from system stock.
+Stvorite dokument **Corrections** kada se stvarno stanje zaliha razlikuje od stanja evidentiranog u sustavu.
 
-1. Go to **Logistics / Documents / Corrections**.
-2. Use the [action button](../../../Common/UI/ActionButton.md) to create a draft Correction.
+1. Idite na **Logistika / Dokumenti / Corrections**.
+2. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za stvaranje novog dokumenta u statusu **Nacrt**.
 
     ![Corrections New](../Images/CorrectionsNew.png)
 
-3. Fill the **Document** section.
+3. Ispunite odjeljak **Dokument**.
 
-4. Add items into the details section. Type or scan a **serial number**, **EAN**, or **material name** into the Details bar.  
-   - The system displays **all matching materials and serial numbers**. If multiple matches exist, select the correct one from the list.
-   - Edit the details section, change the **Material**. **Serial number** or **Quantity** as required.
+4. Dodajte stavke u odjeljak **Stavke**. U polje za unos upišite ili skenirajte **serijski broj**, **EAN** ili **naziv materijala**.
+   - Sustav prikazuje **sve odgovarajuće materijale i serijske brojeve**. Ako postoji više rezultata, odaberite odgovarajući s popisa.
+   - Uredite podatke o stavci te prema potrebi promijenite **Materijal**, **Serijski broj** ili **Količinu**.
 
    ![Corrections New Details Edit](../Images/CorrectionsNewDetailsEdit.png)
- 
-5. Click **Save** the confirm added details. Repeat step 4 to add more items.
 
-6. Click **Publish** to apply the corrections.
+5. Kliknite **Spremi** kako biste spremili stavku. Ponovite korak 4 za dodavanje dodatnih stavki.
 
-Publishing the correction updates inventory to reflect the new quantities and attributes. The correction document moves to the Committed view.
+6. Kliknite **Objavi** kako biste primijenili korekcije.
+
+Objavom dokumenta ažurira se stanje zaliha kako bi odgovaralo stvarnim količinama i svojstvima materijala. Dokument se premješta u prikaz **Obrađeno**.
 
 > [!IMPORTANT]
-> On publish, inventory is adjusted: quantities increase/decrease to match the correction, and serial/location attributes are updated accordingly.
+> Nakon objave stanje zaliha se ažurira. Količine se povećavaju ili smanjuju kako bi odgovarale korekciji, a podaci o serijskim brojevima i lokacijama također se ažuriraju.
 
-## Edit a correction document
+## Urediti dokument Corrections
 
-1. Click the document **Code** to open it.
-2. In **Draft** status, modify header and details as needed.
-3. Use **Save** to confirm changes.
+1. Kliknite **Oznaku** dokumenta kako biste ga otvorili.
+2. Dok je dokument u statusu **Nacrt**, po potrebi izmijenite zaglavlje i stavke.
+3. Kliknite **Spremi** kako biste spremili promjene.
 
-## Delete a correction document
+## Izbrisati dokument Corrections
 
-- Draft correction documents can be deleted freely from the edit screen, using the **Delete** button. After confirmation, the document is removed from the system without affecting inventory.
-- Published corrections cannot be deleted.
-
+- Dokumente **Corrections** u statusu **Nacrt** možete izbrisati sa zaslona za uređivanje klikom na **Izbriši**. Nakon potvrde dokument se uklanja iz sustava bez utjecaja na stanje zaliha.
+- Dokumenti **Corrections** u statusu **Obrađeno** ne mogu se izbrisati.

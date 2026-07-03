@@ -7,7 +7,7 @@
 
 The **Account card** view provides a detailed overview of **debit and credit movements per account**, based on posted journal entries. It is a **read-only analytical view** and does not create or modify documents.
 
-To access this view, go to **Accounting / Ledger / Views / Account card** in the [navigation](../../../Common/UI/Navigation.md)).
+To access this view, go to **Accounting / Ledger / Views / Account card** in the [navigation](../../../Zajednicko/UI/Navigacija.md)).
 
 ![Account card view](../Images/AccountCard.png "Account card view")
 

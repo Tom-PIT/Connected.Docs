@@ -7,7 +7,7 @@
 
 Tariffs define **commodity classification codes** used for **Intrastat reporting** and other regulatory or statistical purposes. Each tariff represents a category of goods and may specify a supplementary unit and a functional section where it is applied.
 
-To access this screen, go to **Accounting / Management / Intrastat / Tariffs** in the [navigation](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Management / Intrastat / Tariffs** in the [navigation](../../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

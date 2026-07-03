@@ -10,7 +10,7 @@ It is used by both managers and workers to track progress, open individual tasks
 
 Tasks always belong to a **project** and cannot exist independently.
 
-To access the Tasks screen, navigate to **Projects / Tasks** in the [navigation](../../../Common/UI/Navigation.md).
+To access the Tasks screen, navigate to **Projects / Tasks** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

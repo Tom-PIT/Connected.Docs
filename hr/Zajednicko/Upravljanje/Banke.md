@@ -7,7 +7,7 @@
 
 Šifrarnik **Banke** sadrži financijske institucije koje se mogu koristiti u dokumentima kao što su izlazni računi, plaćanja i bankovni računi organizacije. Svaki zapis sadrži naziv banke, BIC oznaku i državu, što sustavu omogućuje povezivanje s [**Poslovnim imenikom**](BusinessDirectory.md) i ispravno korištenje bankovnih podataka u cijelom sustavu.
 
-Za pristup ovom šifrarniku idite na **Prodaja / Upravljanje / Banke** u [navigaciji](../../Common/UI/Navigation.md).
+Za pristup ovom šifrarniku idite na **Prodaja / Upravljanje / Banke** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > **Preduvjeti**

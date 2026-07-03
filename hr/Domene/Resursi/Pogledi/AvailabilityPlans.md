@@ -7,7 +7,7 @@
 
 Availability plans provide a calendar-based overview of when resources are available or unavailable for work. They are typically used to record planned absences, training, or other non-working periods that affect resource availability.
 
-To access this view, go to **Resources / Views / Availability plans** in the [navigation](../../../Common/UI/Navigation.md).
+To access this view, go to **Resources / Views / Availability plans** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

@@ -7,7 +7,7 @@
 
 **Double-entry accountancy** is where all journal entries are stored and managed. Journal entries represent the final accounting records that post financial movements to the ledger.
 
-To access this screen, go to **Accounting / Ledger / Double-entry accountancy** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Double-entry accountancy** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > Journal entries are usually created automatically from other documents (such as received invoices, sales documents, inventory movements, or stock adjustments). Manual creation and editing is also possible for adjustments and corrections.

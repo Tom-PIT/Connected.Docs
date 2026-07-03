@@ -15,7 +15,7 @@ A process may contain one or more **versions**, for example, different versions 
 
 ![Process structure diagram](../Images/ProcessDiagram.svg "Process structure diagram")
 
-To access this page, go to **Production / Management / Processes** in the [navigation](../../../Common/UI/Navigation.md). Processes are shared and can be tagged for Production or Maintenance usage.
+To access this page, go to **Production / Management / Processes** in the [navigation](../../../Zajednicko/UI/Navigacija.md). Processes are shared and can be tagged for Production or Maintenance usage.
 
 > [!TIP]
 > For a full demonstration, see the **[Processes and versions](https://www.youtube.com/watch?v=4svpFCm7rkk)** video tutorial.

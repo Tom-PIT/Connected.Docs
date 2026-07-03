@@ -13,7 +13,7 @@ Use this domain to:
 - Track operations, resources, inputs, and checklists during maintenance
 - Review indicators to assess reliability and responsiveness
 
-To access the Maintenance domain, navigate to **Maintenance** in the [navigation](../../Common/UI/Navigation.md).
+To access the Maintenance domain, navigate to **Maintenance** in the [navigation](../../Zajednicko/UI/Navigacija.md).
 
 ![Maintenance Domain Sitemap](Images/MaintenanceDomainSitemap.png)
 

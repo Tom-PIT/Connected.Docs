@@ -8,7 +8,7 @@
 The **Resolved tickets** screen provides an overview of tickets that have completed their lifecycle.  
 It is used to review completed work, inspect ticket history, and optionally reopen tickets if further action is required.
 
-To access this screen, go to **Customers / Tickets / Resolved tickets** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Customers / Tickets / Resolved tickets** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

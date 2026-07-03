@@ -7,7 +7,7 @@
 
 Travel order reasons define the possible purposes of a business trip. They are used when creating [travel orders](../Documents/TravelOrders.md), allowing users to select a predefined reason instead of entering free text.
 
-To access **Travel order reasons**, go to **Resources / Management / Travel order reasons** in the [navigation](../../../Common/UI/Navigation.md).
+To access **Travel order reasons**, go to **Resources / Management / Travel order reasons** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

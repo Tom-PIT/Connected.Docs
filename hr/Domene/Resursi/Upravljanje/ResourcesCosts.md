@@ -7,7 +7,7 @@
 
 Define **hourly cost rates for resources** (human and non-human). These costs are used to calculate production/operational costs and to evaluate the cost of performed work.
 
-To access this page, go to **Resources / Management / Resources costs** in the [navigation](../../../Common/UI/Navigation.md).
+To access this page, go to **Resources / Management / Resources costs** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

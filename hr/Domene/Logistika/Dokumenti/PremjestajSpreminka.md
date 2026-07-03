@@ -23,7 +23,7 @@ Za pristup dokumentu **Premještaj spreminka** idite na **Logistika / Dokumenti 
 
 Prije premještanja:
 
-- definirajte [**Lokacije**](../Management/Lokacije.md)
+- definirajte [**Lokacije**](../Upravljanje/Lokacije.md)
 - provjerite da spremnik postoji i ima barkod, EAN ili drugu oznaku koja se može skenirati
 
 ### Korak 1 — Odabir spremnika

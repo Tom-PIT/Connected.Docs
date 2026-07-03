@@ -8,7 +8,7 @@ The **Payment orders** screen is used to create and manage outgoing payment inst
 
 **Payment orders** include details about the payer, recipient, amount, and payment purpose. They help ensure that payments are properly documented and tracked within the accounting system.
 
-To access this screen, go to **Accounting / Bank / Payment orders** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Bank / Payment orders** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > * Payment orders are typically created after receiving supplier invoices.

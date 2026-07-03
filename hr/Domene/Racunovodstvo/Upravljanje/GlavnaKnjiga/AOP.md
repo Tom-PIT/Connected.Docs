@@ -9,7 +9,7 @@ The **AOP** screen displays a predefined list of statutory reporting positions u
 
 AOP positions represent standardized reporting items defined by national accounting regulations. They are used as reference data in financial statements and other statutory reports. The example shown here is specific to **Slovenia**, where AOP (*Analitični obračun poslovanja*) positions are prescribed by local legislation and used in official financial reporting.
 
-To access this screen, go to **Accounting / Ledger / Management / AOP** in the [navigation](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / AOP** in the [navigation](../../../../Zajednicko/UI/Navigacija.md).
 
 ![AOP list](../../Images/AOPList.png)
 

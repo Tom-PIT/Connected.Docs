@@ -9,7 +9,7 @@ The **Document types** code list defines the types of accounting documents used 
 
 Document types are a **mandatory configuration** for the ledger. They are referenced by journal entries and are used by the system to group postings, apply posting rules, and support reporting and auditing.
 
-To access this screen, go to **Accounting / Ledger / Management / Document types** in the [navigation](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Document types** in the [navigation](../../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

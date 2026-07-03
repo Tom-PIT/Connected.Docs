@@ -7,7 +7,7 @@
 
 Configure **Resources** settings that affect document numbering and behavior for resource-related documents.  Any changes are saved automatically.
 
-To access this page, go to **Resources / Management / Configuration** in the [navigation](../../../Common/UI/Navigation.md).
+To access this page, go to **Resources / Management / Configuration** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Resources Configuration](../Images/ResourcesConfiguration.png)
 

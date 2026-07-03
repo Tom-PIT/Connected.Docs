@@ -17,7 +17,7 @@ The Requirements page helps planners:
 > [!TIP]  
 > For a full demonstration, see the **[Requirements](https://www.youtube.com/watch?v=eK7ui-ak7J0)** video tutorial.
 
-To access this page, go to **Production / Requirements** in the [navigation](../../../Common/UI/Navigation.md).
+To access this page, go to **Production / Requirements** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

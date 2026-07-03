@@ -1,137 +1,140 @@
 <!-- app_route: /sitemap/logistics -->
-<!-- app_label: Logistics domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/README.md -->
-<!-- canonical_source_title: Logistics domain -->
+<!-- app_label: Logistika -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/README.md -->
+<!-- canonical_source_title: Logistika -->
 
-# Logistics
+# Logistika
 
-The **Logistics** domain covers all warehouse-related operations within your organization. It includes stock handling processes, warehouse structures, material movements, and all documentation needed to track the physical flow of goods.
+Domena **Logistika** obuhvaća sve procese povezane sa skladišnim poslovanjem unutar organizacije. Uključuje upravljanje zalihama, skladišnim strukturama, kretanjem materijala te dokumentima koji omogućuju praćenje fizičkog toka robe.
 
-Where the **[Materials](../Assets/Materials/README.md)** domain defines *what* exists in stock, the Logistics domain defines *where it is stored*, *how it moves*, and *how it is controlled*.
+Dok domena **[Materijali](../Sredstva/Materijali/README.md)** definira *što* postoji na zalihi, domena **Logistika** definira *gdje* se materijal nalazi, *kako* se kreće te *kako* se njime upravlja.
 
-To access this domain, navigate to **Logistics** in the [navigation](../../Common/UI/Navigation.md).
+Za pristup ovoj domeni odaberite **Logistika** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-![Logistics Domain](Images/LogisticsSitemap.png "Logistics Domain")
+![Logistics Domain](Images/LogisticsSitemap.png)
 
-> [!NOTE]  
-> The available domains depend on each company’s configuration and business model.
+> [!NOTE]
+> Dostupne domene ovise o konfiguraciji sustava i poslovnom modelu pojedine tvrtke.
 
-## What is included in the Logistics domain?
+## Što uključuje domena Logistika?
 
-The domain is organized into several functional areas:
+Domena je organizirana u nekoliko funkcionalnih cjelina:
 
-- [**Dashboard**](Views/Dashboard.md) – high-level overview of logistics activity and warehouse performance (read-only KPIs)  
-- [**Stock**](Views/Stock.md) – real-time warehouse visibility (read-only; filters by warehouse, location, material, batch/serial)  
-- [**Documents**](#documents) – all stock-affecting logistics transactions  
-- [**Views**](#views) – analytical screens for consumption, issuing, and stock distribution  
-- [**Management**](#management) – code lists and configuration for warehouses and locations
+- **[Nadzorna ploča](Pogledi/NadzornaPloca.md)** – pregled aktivnosti logistike i ključnih pokazatelja skladišnog poslovanja
+- **[Zaliha](Pogledi/Zaliha.md)** – pregled trenutnog stanja zaliha po skladištima i lokacijama
+- **[Dokumenti](#dokumenti)** – svi logistički dokumenti koji utječu na stanje zaliha
+- **[Pogledi](#pogledi)** – analitički pregledi potrošnje, izdatnica i rasporeda zaliha
+- **[Upravljanje](#upravljanje)** – šifrarnici i konfiguracija logistike
 
-![Logistics Domain Overview](Images/LogisticsDomainOverview.png "Logistics Domain Overview")
+![Logistics Domain Overview](Images/LogisticsDomainOverview.png)
 
-## Dashboard
+## Nadzorna ploča
 
-The [**Dashboard**](Views/Dashboard.md) provides a high-level overview of logistics performance and warehouse activity. It presents operational indicators (e.g., inbound/outbound counts, open inventories, discrepancies) that help users understand current workload, stock movements, and active warehouse processes.
-![Logistics Dashboard](Images/Dashboard.png "Logistics Dashboard")
+**[Nadzorna ploča](Pogledi/NadzornaPloca.md)** pruža pregled logističkih aktivnosti i skladišnog poslovanja. Prikazuje ključne operativne pokazatelje, poput broja ulaza i izlaza robe, otvorenih inventura te utvrđenih razlika u zalihama.
 
-The dashboard serves as the entry point for warehouse supervisors and operators who need immediate insight into the state of logistics operations.
+![Logistics Dashboard](Images/Dashboard.png)
 
-## Stock
+Nadzorna ploča predstavlja početnu točku za voditelje skladišta i skladišne operatere kojima je potreban brz pregled trenutnog stanja logističkih procesa.
 
-The **[Stock](Views/Stock.md)** section provides operational insight into warehouse materials and their current quantities. It offers a detailed overview of all materials stored across warehouses and locations. It displays available quantities, batches, serials, and physical positions. This view is read-only.
+## Zaliha
 
-![Stock Screen](Images/Stock.png "Stock Screen")
+Stranica **[Zaliha](Pogledi/Zaliha.md)** omogućuje pregled svih materijala pohranjenih u skladištima i na skladišnim lokacijama. Prikazuje raspoložive količine, serijske brojeve, lotove i fizičke lokacije materijala. Ovaj pregled služi isključivo za pregled podataka.
 
-## Documents
+![Stock Screen](Images/Stock.png)
 
-The **Documents** section contains all logistics-related transactions that **change stock quantities** or **track warehouse activity**.
+## Dokumenti
 
-![Logistics Documents](Images/LogisticsDomainDocuments.png "Logistics Documents")
+Odjeljak **Dokumenti** sadrži sve logističke dokumente koji **mijenjaju stanje zaliha** ili **evidentiraju skladišne aktivnosti**.
 
-Available logistics documents include:
+![Logistics Documents](Images/LogisticsDomainDocuments.png)
 
-- **[Receives](Documents/Receives.md)** – Register goods entering the warehouse (procurement, production outputs, customer returns). Increases stock.
-- **[Simple receive](Documents/SimpleReceive.md)** – A lightweight alternative for quick inbound registrations.
-- **[Issues](Documents/Issues.md)** – Register goods leaving the warehouse (consumption, delivery, production input). Decreases stock.
-- **[Inter warehouse](Documents/InterWarehouse.md)** – Transfer goods between distinct warehouses or sites.
-- **[Move serial](Documents/MoveSerial.md)** – Relocate serial-numbered or batch materials across locations (does not change quantity).
-- **[Inventories](Documents/Inventories.md)** – Perform stock counts and reconcile discrepancies.
-- **[Writeoffs](Documents/Writeoffs.md)** – Adjust stock for damaged, lost, or expired materials. Decreases stock.
-- **[Loans](Documents/Loans.md)** – Track materials temporarily issued to personnel or external partners.
-- **[Consumptions](Documents/Consumptions.md)** – Record material consumption events. Decreases stock.
-- **[Productions](Documents/Productions.md)** – Receive finished or semi-finished goods from production. Increases stock.
-- **[Reversals](Documents/Reversals.md)** – Reverse previous logistics documents and restore prior stock state.
-- **[Containers](Documents/Containers.md)** – Manage logistics containers, pallets, or grouped items.
-- **[Disassemblies](Documents/Disassemblies.md)** – Break down products into components returned to stock. Increases component stock.
-- **[Corrections](Documents/Corrections.md)** – Manual corrections of stock records (restricted permissions; audit trail).
-- **[Move container](Documents/MoveContainer.md)** – Relocate containerized goods as units.
-- **[Material analysis](Documents/MaterialAnalysis.md)** – Perform diagnostics or quality checks on materials.
+Dostupni dokumenti:
 
-Each of these documents contributes to the traceability and accuracy of warehouse operations.
+- **[Primke](Dokumenti/Primke.md)** – evidentiranje ulaza robe u skladište. Povećavaju stanje zaliha.
+- **[Simple receive](Dokumenti/SimpleReceive.md)** – pojednostavljeno evidentiranje ulaza robe.
+- **[Izdatnice](Dokumenti/Izdatnice.md)** – evidentiranje izlaza robe iz skladišta. Smanjuju stanje zaliha.
+- **[Međuskladišni promet](Dokumenti/MeduskladisniPromet.md)** – prijenos robe između skladišta.
+- **[Premještaj spremnika](Dokumenti/PremjestajSpremnika.md)** – premještanje serijskih ili lot materijala između lokacija bez promjene količine.
+- **[Inventure](Dokumenti/Inventure.md)** – provođenje inventure i usklađivanje stanja zaliha.
+- **[Otpisi](Dokumenti/Otpisi.md)** – otpis oštećenog, izgubljenog ili neupotrebljivog materijala.
+- **[Posudbe](Dokumenti/Posudbe.md)** – evidentiranje privremenih posudbi materijala.
+- **[Potrošnje](Dokumenti/Potrosnje.md)** – evidentiranje potrošnje materijala.
+- **[Proizvodnje](Dokumenti/Proizvodnje.md)** – evidentiranje proizvedenih proizvoda i poluproizvoda.
+- **[Storno](Dokumenti/Storno.md)** – poništavanje prethodno knjiženih logističkih dokumenata.
+- **[Spremnici](Dokumenti/Spremnici.md)** – upravljanje spremnicima i paletama.
+- **[Razdvajanja](Dokumenti/Razdvajanja.md)** – razdvajanje proizvoda na sastavne dijelove.
+- **[Corrections](Dokumenti/Corrections.md)** – ručne korekcije stanja zaliha uz revizijski trag.
+- **[Premještaj spremnika](Dokumenti/PremjestajSpremnika.md)** – premještanje spremnika između lokacija.
+- **[Analiza materijala](Dokumenti/AnalizaMaterijala.md)** – analiza i provjera materijala.
 
-## Views
+Svi ovi dokumenti osiguravaju potpunu sljedivost skladišnih procesa.
 
-The **Views** section provides analytical tools for understanding stock movements, consumption patterns, and location-based distribution.
+## Pogledi
 
-![Logistics Views](Images/LogisticsDomainViews.png "Logistics Views")
+Odjeljak **Pogledi** sadrži analitičke prikaze za praćenje kretanja materijala, potrošnje i raspodjele zaliha.
 
-Available views include:
+![Logistics Views](Images/LogisticsDomainViews.png)
 
-- **[Consumption details](Views/ConsumptionDetails.md)** – Insight into material consumption trends and usage patterns; filter by date, material, warehouse, user, cost center.
-- **[Issue details](Views/IssueDetails.md)** – Breakdown of issue transactions by material, document, warehouse, location, or user; shows quantities and totals.
-- **[Stock view by location](Views/StockViewByLocation.md)** – Hierarchical representation of stock quantities by warehouse, zone, location (and containers where applicable); includes available vs reserved quantities.
+Dostupni pogledi:
 
-These screens do **not** create transactions—they are analytical tools meant to support operational decisions.
+- **[Consumption details](Pogledi/ConsumptionDetails.md)** – pregled potrošnje materijala prema datumu, materijalu, skladištu, korisniku ili mjestu troška.
+- **[Issue details](Pogledi/IssueDetails.md)** – pregled izdatnica prema materijalu, dokumentu, skladištu, lokaciji ili korisniku.
+- **[Pogled na zalihe prema lokacijama](Pogledi/PogledNaZalihePremaLokacijama.md)** – hijerarhijski prikaz zaliha po skladištima i lokacijama.
 
-## Management
+Ovi pregledi služe isključivo za analizu podataka i ne stvaraju nove transakcije.
 
-The **Management** section contains configuration and master data required by all logistics processes.
+## Upravljanje
 
-![Logistics Management](Images/LogisticsDomainManagement.png "Logistics Management")
+Odjeljak **Upravljanje** sadrži šifrarnike i konfiguracijske postavke koje koriste svi logistički procesi.
 
-Available code lists and configuration screens:
+![Logistics Management](Images/LogisticsDomainManagement.png)
 
-- **[Configuration](Management/LogisticsConfiguration.md)** – Logistics-wide settings and process behavior.
-- **[Business directory](../../Common/Management/BusinessDirectory.md)** – Defines internal and external business entities related to logistics.
-- **[Warehouses](Management/Warehouses.md)** – Definitions of physical warehouses or distribution sites.
-- **[Countries](../../Common/Management/Countries.md)** – Geographic data supporting warehouse and partner records.
-- **[Locations](Management/Locations.md)** – Storage positions inside warehouses (aisles, racks, bins).
-- **[Stock boundaries](Management/StockBoundaries.md)** – Logical constraints and special handling rules (e.g., quarantine, temperature) for selected materials or locations.
-- **[Measure units](../../Common/Management/MeasureUnits.md)** – Unified measurement units used across logistics documents.
-- **[Material analysis setup](Management/MaterialAnalysisManagement.md)** – Configuration supporting material inspection or validation processes.
+Dostupni šifrarnici:
 
-These elements define how logistics operations behave and how data is structured.
+- **[Konfiguracija](Upravljanje/KonfiguracijaLogistike.md)**
+- **[Poslovni imenik](../../Zajednicko/Upravljanje/PoslovniImenik.md)**
+- **[Skladišta](Upravljanje/Skladista.md)**
+- **[Države](../../Zajednicko/Upravljanje/Drzave.md)**
+- **[Lokacije](Upravljanje/Lokacije.md)**
+- **[Granice zalihe](Upravljanje/GraniceZalihe.md)**
+- **[Mjerne jedinice](../../Zajednicko/Upravljanje/MjerneJedinice.md)**
+- **[Analiza materijala](Upravljanje/AnalizaMaterijala.md)**
+
+Ovi elementi određuju način rada logističkih procesa i organizaciju logističkih podataka.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> Pregled svih šifrarnika dostupan je u **[Popisu šifrarnika](../../ManagementIndex.md)**.
 
-## Logistics Processes
+## Logistički procesi
 
-Logistics operations follow a consistent lifecycle:
+Logistički procesi slijede uobičajeni tijek rada:
 
-### **1. Receiving goods**
-- Goods enter the warehouse through [receives](Documents/Receives.md) or [production outputs](Documents/Productions.md).
+### 1. Zaprimanje robe
 
-### **2. Moving and organizing**
-- Goods are stored, relocated, or distributed across warehouses using [inter warehouse](Documents/InterWarehouse.md), [move serial](Documents/MoveSerial.md), [move container](Documents/MoveContainer.md), and [locations](Management/Locations.md).
+- Roba ulazi u skladište putem **[Primki](Dokumenti/Primke.md)** ili **[Proizvodnje](Dokumenti/Proizvodnje.md)**.
 
-### **3. Issuing and consuming**
-- Stock leaves the warehouse for production, sales, or internal use via [issues](Documents/Issues.md) and [consumptions](Documents/Consumptions.md).
+### 2. Premještanje i organizacija
 
-### **4. Inventory and reconciliation**
-- Accuracy is maintained through [inventories](Documents/Inventories.md), [write-offs](Documents/Writeoffs.md), and [corrections](Documents/Corrections.md).
+- Roba se premješta između skladišta i lokacija pomoću **[Međuskladišnog prometa](Dokumenti/MeduskladisniPromet.md)**, **[Premještaja spremnika](Dokumenti/PremjestajSpremnika.md)** i **[Lokacija](Upravljanje/Lokacije.md)**.
 
-### **5. Reporting and analysis**
-- Views provide insight into stock usage, availability, and discrepancies (see [Views](#views)).
+### 3. Izdavanje i potrošnja
 
-## Logistics and Other Domains
+- Materijal napušta skladište putem **[Izdatnica](Dokumenti/Izdatnice.md)** i **[Potrošnji](Dokumenti/Potrosnje.md)**.
 
-Logistics integrates tightly with other operational areas:
+### 4. Inventura i usklađivanje
 
-| Area | Interaction |
-|--------|------------|
-| **[Materials](../Assets/Materials/README.md)** | Defines materials stored and moved in logistics. |
-| **[Assets](../Assets/README.md)** | Sales visibility and availability calculations rely on logistics stock. |
-| **[Production](../Production/README.md)** | Issues and receives connect logistics with production orders. |
-| **[Maintenance](../Maintenance/README.md)** | Spare parts and maintenance stock flow through logistics. |
-| **[Sales](../Sales/README.md)** / **[Supply](../Supply/README.md)** | Logistics ensures availability and correct warehouse fulfillment. |
+- Točnost zaliha održava se pomoću **[Inventura](Dokumenti/Inventure.md)**, **[Otpisa](Dokumenti/Otpisi.md)** i **[Corrections](Dokumenti/Corrections.md)**.
 
+### 5. Izvještavanje i analiza
+
+- Analitički pregledi omogućuju uvid u stanje, potrošnju i raspoloživost zaliha.
+
+## Povezanost s drugim domenama
+
+| Domena | Opis |
+|--------|------|
+| **[Materijali](../Sredstva/Materijali/README.md)** | Definira materijale kojima upravlja logistika. |
+| **[Sredstva](../Sredstva/README.md)** | Koristi podatke o zalihama za izračun raspoloživosti. |
+| **[Proizvodnja](../Proizvodnja/README.md)** | Povezana je s dokumentima proizvodnje i potrošnje. |
+| **[Održavanje](../Odrzavanje/README.md)** | Koristi skladišne zalihe rezervnih dijelova. |
+| **[Prodaja](../Prodaja/README.md)** / **[Nabava](../Nabava/README.md)** | Logistika osigurava raspoloživost robe i izvršenje skladišnih procesa. |

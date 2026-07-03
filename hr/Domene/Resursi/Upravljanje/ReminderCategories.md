@@ -7,7 +7,7 @@
 
 Reminder categories define **classification labels** that can be assigned to reminders in the [**Reminders**](../Views/Reminders.md) module.  They help organize reminders by purpose (for example *Budget review* or *Facility inspection*) and are reused across the system wherever reminders are created.
 
-To access **Reminder categories**, go to **Resources / Management / Reminder categories** in the [navigation](../../../Common/UI/Navigation.md).
+To access **Reminder categories**, go to **Resources / Management / Reminder categories** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

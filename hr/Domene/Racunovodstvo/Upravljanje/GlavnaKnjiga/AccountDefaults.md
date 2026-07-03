@@ -1,4 +1,4 @@
-﻿<!-- app_route: /management/ledger/account-defaults -->
+<!-- app_route: /management/ledger/account-defaults -->
 <!-- app_label: Account defaults -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/AccountDefaults.md -->
 <!-- canonical_source_title: Account defaults -->
@@ -12,7 +12,7 @@ Account defaults are used whenever accounting entries are created **automaticall
 > [!NOTE]
 > Defaults are usually created during initial system configuration. Changes to account defaults affect future automated postings, not historical entries.
 
-To access this screen, go to **Accounting / Ledger / Management / Account defaults** in the [navigation](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Account defaults** in the [navigation](../../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

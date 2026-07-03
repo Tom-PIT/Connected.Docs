@@ -7,7 +7,7 @@
 
 Materials represent the operational items your organization uses in logistics, production, stock management, or assembly processes. They include finished products, partially produced items, raw inputs, and reusable components. Additional code lists help define packaging, measurement units, and bulk import functions.
 
-To access Materials, go to **Assets / Materials** in the [navigation](../../../Common/UI/Navigation.md).
+To access Materials, go to **Assets / Materials** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Assets domain overview](../Images/MaterialsSitemap.png "Assets domain overview")
 

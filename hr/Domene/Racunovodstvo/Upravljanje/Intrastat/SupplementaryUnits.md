@@ -7,7 +7,7 @@
 
 Supplementary units are standardized measurement units used for Intrastat reporting and logistics-related documents. They are referenced by documents such as [sales orders](../../../Sales/Documents/SalesOrders.md), [delivery notes](../../../Sales/Documents/DeliveryNotes.md), and other transactions where an additional statistical unit is required alongside the primary quantity.
 
-To access this screen, go to **Accounting / Management / Intrastat / Supplementary units** in the [navigation](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Management / Intrastat / Supplementary units** in the [navigation](../../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

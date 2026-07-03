@@ -6,7 +6,7 @@
 # Downtime summary
 The **Downtime summary** page provides an overview of recorded production downtimes within a selected period. It helps identify the most common downtime reasons, evaluate their impact, and monitor performance across organization units and equipment.
 
-To access this page, go to **Production / Analytics / Downtime summary** in the [navigation](../../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Downtime summary** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Downtime summary](../Images/DowntimeSummaryView.png "Downtime summary")
 

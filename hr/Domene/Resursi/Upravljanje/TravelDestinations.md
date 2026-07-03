@@ -8,7 +8,7 @@
 Define **predefined travel destinations** used when creating travel orders.  
 Travel destinations store start and destination addresses together with distance information, allowing consistent and repeatable travel order creation.
 
-To access **Travel destinations**, go to **Resources / Management / Travel destinations** in the [navigation](../../../Common/UI/Navigation.md).
+To access **Travel destinations**, go to **Resources / Management / Travel destinations** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

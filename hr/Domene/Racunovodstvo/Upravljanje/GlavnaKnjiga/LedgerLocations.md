@@ -11,7 +11,7 @@ Ledger locations are configuration entries. They do not create accounting postin
 
 To avoid ambiguity with logistics-related locations, this documentation refers to this screen as **Ledger locations**.
 
-To access this screen, go to **Accounting / Ledger / Management / Locations** in the [navigation](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Management / Locations** in the [navigation](../../../../Zajednicko/UI/Navigacija.md).
 
 ### Overview
 

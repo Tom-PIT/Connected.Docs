@@ -9,7 +9,7 @@ The **Issued invoices supply of goods** view provides an overview of issued invo
 
 This is a **read-only analytical view** intended for monitoring and reconciliation purposes. Data cannot be edited from this screen.
 
-To access this view, go to **Accounting / Ledger / Views / Issued invoices supply of goods** in the [navigation](../../../Common/UI/Navigation.md).
+To access this view, go to **Accounting / Ledger / Views / Issued invoices supply of goods** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]  
 > This view is intended for reporting and verification. It does not replace official VAT declarations but supports internal control and reconciliation.

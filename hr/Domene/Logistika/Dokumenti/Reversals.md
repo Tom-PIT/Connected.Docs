@@ -17,7 +17,7 @@ Reversals can be **full** or **partial**, depending on the quantity you enter. R
 > [!TIP]
 > For a full demonstration, see the **[Reversal](https://www.youtube.com/watch?v=yfGNARBWm7Q)** video tutorial.
 
-To access Reversals, go to **Logistics / Documents / Reversals** in the [navigation](../../../Common/UI/Navigation.md).
+To access Reversals, go to **Logistics / Documents / Reversals** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## How reversals work
 
@@ -48,7 +48,7 @@ Examples:
 | Field | Description |
 |-------|-------------|
 | **Document type** | Type of document being reversed ([receive](Receives.md), [issue](Issues.md), [writeoff](Writeoffs.md), [inter warehouse](InterWarehouse.md)). |
-| [**Code**](../../../Common/UI/DocumentCodes.md) | Identifier of the reversed document (clickable). |
+| [**Code**](../../../Zajednicko/UI/OznakeDokumenata.md) | Identifier of the reversed document (clickable). |
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the original document was executed. |
 | **Document date** | Date of the original document. |
 
@@ -59,7 +59,7 @@ Examples:
 
 | Field | Description |
 |-------|-------------|
-| [**Code**](../../../Common/UI/DocumentCodes.md) | System-generated reversal document number. |
+| [**Code**](../../../Zajednicko/UI/OznakeDokumenata.md) | System-generated reversal document number. |
 | **Document date** | Date of the reversal (editable). |
 
 </details>

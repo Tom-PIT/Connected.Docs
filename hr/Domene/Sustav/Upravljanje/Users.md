@@ -7,7 +7,7 @@
 
 The **Users** code list contains all user accounts registered in the system. User accounts define login credentials, role-based access rights, personal profile details (name, email, time zone, language), and whether the user may access specific system areas (warehouse/domain rules still under review). These settings ensure that each user has appropriate permissions according to their responsibilities. 
 
-To access the Users page, go to **System / Users** in the [navigation](../../../Common/UI/Navigation.md).
+To access the Users page, go to **System / Users** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 
@@ -27,7 +27,7 @@ To access the Users page, go to **System / Users** in the [navigation](../../../
 
 ## Management
 
-You can access the **Users** code list from **System / Users** in the [navigation](../../../Common/UI/Navigation.md). The list displays all system users with their status indicators:
+You can access the **Users** code list from **System / Users** in the [navigation](../../../Zajednicko/UI/Navigacija.md). The list displays all system users with their status indicators:
 
 - **Green** — Active  
 - **Grey** — Inactive or Locked  

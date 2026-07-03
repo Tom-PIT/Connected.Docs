@@ -9,7 +9,7 @@ The **Stock** view provides a **financial snapshot of inventory value** at a spe
 
 This is a **read-only analytical view** intended for accounting and reporting purposes.
 
-To access this view, go to **Accounting / Ledger / Views / Stock** in the [navigation](../../../Common/UI/Navigation.md).
+To access this view, go to **Accounting / Ledger / Views / Stock** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Ledger stock view](../Images/StockViewLedger.png "Ledger stock view")
 

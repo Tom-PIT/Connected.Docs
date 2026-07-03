@@ -72,7 +72,7 @@ Zapakirani spremnici mogu se koristiti u različitim skladišnim procesima:
     - koristiti samo dio količine
 - tijekom [**Primki**](Primke.md) moguće je zaprimiti cijeli spremnik
 - tijekom [**Međuskladišnog prometa**](MedjuskladisniPromet.md) ili [**Premještaja spremnika**](PremjestajSpremnika.md) moguće je premjestiti cijeli spremnik jednim skeniranjem
-- stanje spremnika može se provjeriti u [**Pogledu zalihe**](../Views/Zaliha.md) ili [**Pogledu zalihe po lokacijama**](../Views/PogledZalihePoLokacijama.md)
+- stanje spremnika može se provjeriti u [**Pogledu zalihe**](../Pogledi/Zaliha.md) ili [**Pogledu zalihe po lokacijama**](../Pogledi/PogledZalihePoLokacijama.md)
 
 ## Pregled spremnika
 
@@ -89,8 +89,8 @@ Dokument spremnika prikazuje:
 ![Dokument spremnika](../Images/ContainersDocumentHR.png "Dokument spremnika")
 
 > [!TIP]
-> - Kliknite poveznicu **Lokacija** za otvaranje [**Pogleda zalihe po lokacijama**](../Views/PogledZalihePoLokacijama.md) s prikazom odabrane lokacije.
-> - Kliknite serijski broj stavke za otvaranje [**Pogleda zalihe prema serijskom broju**](../Views/Zaliha.md#pogled-na-zalihe-prema-serijskom-broju).
+> - Kliknite poveznicu **Lokacija** za otvaranje [**Pogleda zalihe po lokacijama**](../Pogledi/PogledZalihePoLokacijama.md) s prikazom odabrane lokacije.
+> - Kliknite serijski broj stavke za otvaranje [**Pogleda zalihe prema serijskom broju**](../Pogledi/Zaliha.md#pogled-na-zalihe-prema-serijskom-broju).
 
 ## Korištenje djelomične količine
 

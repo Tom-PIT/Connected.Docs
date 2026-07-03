@@ -7,7 +7,7 @@
 
 The **Manage paid leave** view is intended primarily for managers and responsible users to **review, approve, or reject paid leave requests** submitted by employees.
 
-To access **Manage paid leave**, go to **Resources / Time logs / Manage paid leave** in the [navigation](../../../Common/UI/Navigation.md).
+To access **Manage paid leave**, go to **Resources / Time logs / Manage paid leave** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Manage paid leave overview](../Images/TimeLogsManagePaidLeave.png "Manage paid leave")
 

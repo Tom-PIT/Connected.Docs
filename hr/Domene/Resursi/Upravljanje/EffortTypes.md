@@ -8,7 +8,7 @@
 Effort types define **categories of work** that can be selected when recording effort on tasks, production executions, or maintenance activities. They help standardize time reporting and improve later analysis of how time is spent.
 
 To access **Effort types**, go to **Resources / Management / Effort types** in the  
-[navigation](../../../Common/UI/Navigation.md).
+[navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Effort types list](../Images/EffortTypesList.png "Effort types list")
 

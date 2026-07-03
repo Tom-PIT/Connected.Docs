@@ -7,7 +7,7 @@
 
 The **Place of delivery** code list is used for Intrastat and accounting reporting to classify where the delivery of goods takes place. Each code represents a standardized delivery location category required for regulatory and statistical purposes.
 
-To access this screen, go to **Accounting / Management / Intrastat / Place of delivery** in the [navigation](../../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Management / Intrastat / Place of delivery** in the [navigation](../../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

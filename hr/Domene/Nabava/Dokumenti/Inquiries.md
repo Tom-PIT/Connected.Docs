@@ -7,7 +7,7 @@
 
 An **Inquiry** is a supply document used to request pricing, availability, and delivery information from a vendor before placing a formal order. Inquiries help your organization compare supplier responses, plan upcoming purchasing, and smoothly transition into follow-up documents such as [**Supply orders**](SupplyOrders.md).
 
-To access this page, go to **Supply / Documents / Inquiries** in the [navigation](../../../Common/UI/Navigation.md).
+To access this page, go to **Supply / Documents / Inquiries** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## How inquiries fit into the supply workflow
 

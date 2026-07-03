@@ -8,7 +8,7 @@ Tom PIT.Connected is a global digital transformation platform. Use this guide to
 This documentation is structured by platform domains (each with their documents, code lists, views, and analytics) and complemented by typical end‑to‑end workflows in the **Getting started** folder to help you follow common scenarios from setup to execution.
 
 > [!TIP]
-> Start with the **[Navigation](../Common/UI/Navigation.md)** topic to explore domains, documents, and views.
+> Start with the **[Navigation](../Zajednicko/UI/Navigacija.md)** topic to explore domains, documents, and views.
 
 ## Structure
 
@@ -20,7 +20,7 @@ The platform follows a consistent structure:
    - **Management** — code lists and master data (e.g., [**Business directory**](../Common/Management/BusinessDirectory.md), [**Measure units**](../Common/Management/MeasureUnits.md), [**Tax rates**](../Common/Management/TaxRates.md), [**Payment methods**](../Domains/Sales/Management/PaymentMethods.md), [**Organization bank accounts**](../Domains/Sales/Management/OrganizationBankAccounts.md))
 - **Common** — shared concepts and UI elements
 
-More information on the structure and navigation inside the platform can be found in the [navigation](../Common/UI/Navigation.md) guide.
+More information on the structure and navigation inside the platform can be found in the [navigation](../Zajednicko/UI/Navigacija.md) guide.
 
 ## Scenarios
 

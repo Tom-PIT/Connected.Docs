@@ -7,7 +7,7 @@
 
 Šifrarnik **Mjesta troška** sadrži organizacijske jedinice ili funkcije koje stvaraju troškove, ali ne ostvaruju prihod, primjerice ljudske resurse ili korisničku podršku. Iako ta mjesta troška ne ostvaruju dobit, imaju važnu ulogu u poslovanju tvrtke. Dodjeljivanjem troškova pojedinom mjestu troška sustav omogućuje preglednu raspodjelu troškova unutar organizacije.
 
-Ovaj šifrarnik dostupan je u domenama **Prodaja** i **Nabava**. Za pristup idite na **Upravljanje / Mjesta troška** u [navigaciji](../../Common/UI/Navigation.md).
+Ovaj šifrarnik dostupan je u domenama **Prodaja** i **Nabava**. Za pristup idite na **Upravljanje / Mjesta troška** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
 ## Shema
 

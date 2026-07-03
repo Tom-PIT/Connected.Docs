@@ -20,7 +20,7 @@ They move through the life cycle **Pending → Active → Closed**, and include 
 > - Assigned [**organization units**](../../Production/Management/OrganizationUnits.md)
 > - Optional supporting definitions such as [**resources**](../../Resources/Management/Resources.md), [**checklists**](../../Quality/Management/Checklists.md), and [**measure units**](../../../Common/Management/MeasureUnits.md), depending on your maintenance workflow
 
-To access maintenance orders, go to **Maintenance / Maintenance Orders** in the [navigation](../../../Common/UI/Navigation.md).
+To access maintenance orders, go to **Maintenance / Maintenance Orders** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## List of maintenance orders
 

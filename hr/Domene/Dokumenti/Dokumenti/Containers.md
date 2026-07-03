@@ -15,7 +15,7 @@ Containers are used to organize externally uploaded documents such as:
 
 Each container acts as a root structure where documents can be grouped into folders and managed.
 
-To access this screen, navigate to **Documents / Containers** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, navigate to **Documents / Containers** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

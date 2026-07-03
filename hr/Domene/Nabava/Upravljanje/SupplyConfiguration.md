@@ -7,7 +7,7 @@
 
 Configure **Supply** settings affecting document numbering. Any changes are saved automatically.
 
-To access this page, go to **Supply / Management / Configuration** in the [navigation](../../../Common/UI/Navigation.md).
+To access this page, go to **Supply / Management / Configuration** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Supply Configuration](../Images/SupplyConfiguration.png)
 

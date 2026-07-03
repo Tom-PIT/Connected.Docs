@@ -11,7 +11,7 @@ Uvjeti isporuke najčešće se koriste u **prodajnim** dokumentima za jasno odre
 
 Većina uvjeta isporuke temelji se na međunarodno priznatim pravilima **Incoterms®**, koje objavljuje Međunarodna trgovačka komora (ICC), uz mogućnost definiranja vlastitih uvjeta prema potrebi.
 
-Za pristup ovom zaslonu idite na **Računovodstvo / Upravljanje / Intrastat / Uvjeti isporuke** u [navigaciji](../../Common/UI/Navigation.md). Dostupan je i u domeni **Prodaja** pod **Upravljanje**.
+Za pristup ovom zaslonu idite na **Računovodstvo / Upravljanje / Intrastat / Uvjeti isporuke** u [navigaciji](../../Zajednicko/UI/Navigacija.md). Dostupan je i u domeni **Prodaja** pod **Upravljanje**.
 
 ## Shema
 

@@ -7,7 +7,7 @@
 
 The **Maintenance KPIs** screen provides an analytical overview of maintenance performance. It aggregates data from **completed [maintenance orders](../Documents/MaintenanceOrders.md)** and helps evaluate efficiency, responsiveness, and reliability of maintenance activities.
 
-To access this screen, go to **Maintenance / Analytics / Maintenance KPIs** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Maintenance / Analytics / Maintenance KPIs** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 ![Maintenance KPIs](../Images/MaintenanceIndicators.png "Maintenance KPIs overview")
 
 > [!NOTE]

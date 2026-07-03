@@ -12,7 +12,7 @@ Otpisi izravno utječu na stanje zalihe. Ako je otpisana pogrešna količina, to
 > [!TIP]
 > Za cjelovit prikaz pogledajte video vodič **[Writeoffs](https://www.youtube.com/watch?v=_0jEGSTorsY)**.
 
-Za pristup dokumentu **Otpisi** otvorite **Logistika / Dokumenti / Otpisi** u [navigaciji](../../../Common/UI/Navigation.md).
+Za pristup dokumentu **Otpisi** otvorite **Logistika / Dokumenti / Otpisi** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 ## Shema
 
@@ -21,7 +21,7 @@ Za pristup dokumentu **Otpisi** otvorite **Logistika / Dokumenti / Otpisi** u [n
 
 | Polje | Opis |
 |-------|------|
-| [**Oznaka**](../../../Common/UI/DocumentCodes.md) | Jedinstvena oznaka dokumenta otpisa koju automatski generira sustav. |
+| [**Oznaka**](../../../Zajednicko/UI/OznakeDokumenata.md) | Jedinstvena oznaka dokumenta otpisa koju automatski generira sustav. |
 | **Datum dokumenta** | Datum evidentiranja otpisa. |
 | [**Skladište**](../Management/Warehouses.md) | Skladište iz kojeg se materijal otpisuje (obavezno). |
 | **Razlog** | Razlog uklanjanja materijala sa zalihe (oštećenje, gubitak, istek roka trajanja i slično). |
@@ -33,10 +33,10 @@ Za pristup dokumentu **Otpisi** otvorite **Logistika / Dokumenti / Otpisi** u [n
 
 | Polje | Opis |
 |-------|------|
-| [**Materijal**](../../Assets/Materials/README.md) | Materijal koji se otpisuje ([proizvod](../../Assets/Materials/Products.md), [poluproizvod](../../Assets/Materials/SemiProducts.md), [sirovina](../../Assets/Materials/RawMaterials.md) ili [repromaterijal](../../Assets/Materials/ReproMaterials.md)). |
+| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Materijal koji se otpisuje ([proizvod](../../RobaIUsluge/Materijali/Proizvodi.md), [poluproizvod](../../RobaIUsluge/Materijali/Poluproizvodi.md), [sirovina](../../RobaIUsluge/Materijali/Sirovine.md) ili [pomoćni proizvodil](../../RobaIUsluge/Materijali/PomocniProizvodi.md)). |
 | **Serijski broj** | Serijski broj odabrane jedinice. |
 | **Upotrebljivo najmanje do** | Datum isteka roka trajanja, ako je primjenjivo. |
-| [**Skladišna lokacija**](../Management/Locations.md) | Lokacija na kojoj se materijal nalazi. |
+| [**Skladišna lokacija**](../Upravljanje/Lokacije.md) | Lokacija na kojoj se materijal nalazi. |
 | **Količina (kom)** | Broj komada koji se otpisuje. Zadana vrijednost je ukupna raspoloživa količina na odabranoj lokaciji, ali je treba prilagoditi stvarnom broju komada koji se uklanja sa zalihe. |
 
 </details>
@@ -65,7 +65,7 @@ Kliknite dokument kako biste otvorili njegove pojedinosti.
 
 ### Izrada dokumenta otpisa
 
-1. Kliknite [akcijski gumb](../../../Common/UI/ActionButton.md) za izradu novog dokumenta otpisa.
+1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za izradu novog dokumenta otpisa.
 
    ![Novi otpis](../Images/WriteoffsNewHR.png "Novi otpis")
 
@@ -83,7 +83,7 @@ Kliknite dokument kako biste otvorili njegove pojedinosti.
 
    ![Otpisi - detalji stavke](../Images/WriteoffsDetailsHR.png "Otpisi - detalji stavke")
 
-   Više informacija o radu sa stavkama dokumenta potražite u dokumentu [**Stavke dokumenta**](../../../Common/Concepts/DocumentDetails.md).
+   Više informacija o radu sa stavkama dokumenta potražite u dokumentu [**Stavke dokumenta**](../../../Zajednicko/Koncepcije/Stavke.md).
 
 6. Kliknite **Spremi** za spremanje stavke. Po potrebi dodajte nove stavke ponavljanjem koraka 3.
 
@@ -114,4 +114,4 @@ Dostupne radnje:
 
 - **Kreiraj novi storno** (samo za obrađene dokumente)
 
-Više informacija potražite u dokumentu [**Radnje izbornika**](../../../Common/Concepts/MenuActions.md).
+Više informacija potražite u dokumentu [**Radnje izbornika**](../../../Zajednicko/Koncepcije/RadnjeIzbornika.md).

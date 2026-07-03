@@ -16,7 +16,7 @@ KPIs help monitor:
 
 KPI calculations are based on [standard OEE methodology](https://www.oee.com/calculating-oee/).
 
-To access this page, go to **Production / Analytics / Production KPIs** in the [navigation](../../../Common/UI/Navigation.md).
+To access this page, go to **Production / Analytics / Production KPIs** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Production KPIs overview](../Images/ProductionKPIsViewV2.png "Production KPIs overview")
 

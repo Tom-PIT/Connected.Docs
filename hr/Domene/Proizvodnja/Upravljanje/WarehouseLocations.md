@@ -1,4 +1,4 @@
-﻿<!-- app_route: /management/organization-units/warehouse-locations -->
+<!-- app_route: /management/organization-units/warehouse-locations -->
 <!-- app_label: Warehouse locations -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/WarehouseLocations.md -->
 <!-- canonical_source_title: Warehouse locations -->
@@ -10,7 +10,7 @@ production workflows can source materials and store produced items. Use this pag
 locations Production may use for input and output and to enforce connection rules between
 organization units and warehouse locations.
 
-To access Warehouse locations, go to **Production / Management / Warehouse locations** in the [navigation](../../../Common/UI/Navigation.md).
+To access Warehouse locations, go to **Production / Management / Warehouse locations** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 > [!TIP]
 > For a full demonstration, see the **[Warehouse locations](https://www.youtube.com/watch?v=qR3o0CpIGpo)** video tutorial.

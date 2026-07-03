@@ -7,7 +7,7 @@
 
 Šifrarnik **Valute** definira sve novčane jedinice koje se mogu koristiti u sustavu. Svaka valuta sadrži međunarodnu oznaku, simbol i pravila oblikovanja, čime se osigurava dosljedan i ispravan prikaz cijena, iznosa i financijskih dokumenata. Ovaj šifrarnik predstavlja osnovu za prikaz novčanih vrijednosti u procesima prodaje, nabave i izvještavanja.
 
-Ova stranica dostupna je u domenama **Prodaja** i **Nabava**. Za pristup idite na **Upravljanje / Valute** u [navigaciji](../../Common/UI/Navigation.md).
+Ova stranica dostupna je u domenama **Prodaja** i **Nabava**. Za pristup idite na **Upravljanje / Valute** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > **Preduvjeti**

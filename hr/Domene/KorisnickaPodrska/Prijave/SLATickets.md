@@ -1,4 +1,4 @@
-﻿<!-- app_route: /customer-support/sla -->
+<!-- app_route: /customer-support/sla -->
 <!-- app_label: SLA tickets -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Tickets/SLATickets.md -->
 <!-- canonical_source_title: SLA tickets -->
@@ -10,7 +10,7 @@ The **SLA tickets** screen provides an overview of tickets that are subject to *
 - approaching its limit, or
 - already exceeded.
 
-To access this screen, go to **Customers / Tickets / SLA tickets** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Customers / Tickets / SLA tickets** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Availability
 

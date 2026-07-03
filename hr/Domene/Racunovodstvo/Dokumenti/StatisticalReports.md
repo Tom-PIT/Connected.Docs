@@ -7,7 +7,7 @@
 
 Statistical reports provide an overview of financial data aggregated by **AOP positions**, allowing comparison between the **current period** and a **previous period** (usually the previous year). These reports are typically used for balance sheets, income statements, and other statutory or internal financial reports.
 
-To access this screen, go to **Accounting / Ledger / Statistical reports** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Ledger / Statistical reports** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > - Statistical reports are **read-only** after generation.

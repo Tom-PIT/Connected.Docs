@@ -9,7 +9,7 @@ The **Supply** domain manages all processes related to procurement, supplier int
 
 Where the **[Sales](../Sales/README.md)** domain manages customer-facing activities, the Supply domain manages supplier-facing workflows that ensure materials are available when needed.
 
-To access Supply, navigate to **Supply** in the [navigation](../../Common/UI/Navigation.md).
+To access Supply, navigate to **Supply** in the [navigation](../../Zajednicko/UI/Navigacija.md).
 
 ![Supply Domain](Images/SupplyDomainSitemap.png "Supply Domain")
 

@@ -9,7 +9,7 @@ The **Maintenance schedule** defines how **planned maintenance orders** are gene
 
 Maintenance schedules are created as part of planned maintenance and ensure that preventive maintenance is executed regularly without manual intervention.
 
-To access maintenance schedules, go to **Maintenance / Maintenance schedule** in the [navigation](../../../Common/UI/Navigation.md).
+To access maintenance schedules, go to **Maintenance / Maintenance schedule** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Relation to maintenance orders
 

@@ -1,4 +1,4 @@
-﻿<!-- app_route: /customer-support -->
+<!-- app_route: /customer-support -->
 <!-- app_label: Tickets -->
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Tickets/Tickets.md -->
 <!-- canonical_source_title: Tickets -->
@@ -9,7 +9,7 @@ The **Tickets** screen is the core workspace of the Customer Support domain. It 
 
 Tickets are organized by **Desk** (for example Maintenance, Sales support, Technical support) and move through different states during their lifecycle.
 
-To access this screen, go to **Customers / Tickets** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Customers / Tickets** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ## Schema
 

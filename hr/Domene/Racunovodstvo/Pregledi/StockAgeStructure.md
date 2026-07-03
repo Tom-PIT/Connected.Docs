@@ -13,7 +13,7 @@ This view is typically used together with other ledger views (such as [**Stock**
 > - All values are calculated from **committed inventory and accounting postings**.
 > - The report is intended for **inventory aging analysis**, **valuation review**, and **financial reporting support**.
 
-To access this view, go to **Accounting / Ledger / Views / Stock age structure** in the [navigation](../../../Common/UI/Navigation.md).
+To access this view, go to **Accounting / Ledger / Views / Stock age structure** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Stock age structure view](../Images/StockAgeStructureList.png "Stock age structure view")
 

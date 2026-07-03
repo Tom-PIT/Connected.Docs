@@ -7,7 +7,7 @@
 
 The **Intrastat entries** view provides an overview of transactions that are subject to Intrastat reporting. It aggregates data from accounting and sales documents and presents it in a format suitable for review and reporting of goods movement between EU Member States.
 
-To access this screen, go to **Accounting / Views / Intrastat** in the [navigation](../../../Common/UI/Navigation.md).
+To access this screen, go to **Accounting / Views / Intrastat** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 
 ![Intrastat view](../Images/IntrastatView.png)
 

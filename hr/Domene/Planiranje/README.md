@@ -7,7 +7,7 @@
 
 The **Planning** domain is used for **scheduling and monitoring production orders**. It provides visual tools to manage production timelines and track planned work.
 
-To access this domain, navigate to **Planning** from the [navigation](../../Common/UI/Navigation.md).
+To access this domain, navigate to **Planning** from the [navigation](../../Zajednicko/UI/Navigacija.md).
 
 ![Planning Domain](Images/PlanningSitemap.png "Planning Domain")
 
