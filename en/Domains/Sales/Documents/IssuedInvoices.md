@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/issued-invoices -->
 <!-- app_label: Issued invoices -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/IssuedInvoices.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/IssuedInvoices/ -->
 <!-- canonical_source_title: Issued invoices -->
 
 # Issued invoices

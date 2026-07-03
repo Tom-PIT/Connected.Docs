@@ -1,6 +1,6 @@
 <!-- app_route: /supply/views/supply-order-details -->
 <!-- app_label: Postavke nabavnih nalogov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Pregledi/PostavkeNabavnihNalogov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Pregledi/PostavkeNabavnihNalogov/ -->
 <!-- canonical_source_title: Postavke nabavnih nalogov -->
 
 # Postavke nabavnih nalogov

@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /sales/documents/proforma-invoices -->
 <!-- app_label: Proforma invoices -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/ProformaInvoices.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/ProformaInvoices/ -->
 <!-- canonical_source_title: Proforma invoices -->
 
 # Proforma invoices

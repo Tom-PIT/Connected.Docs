@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Izvedba -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Izvedba.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/Izvedba/ -->
 <!-- canonical_source_title: Izvedba -->
 
 # Izvedba

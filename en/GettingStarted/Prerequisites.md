@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/Prerequisites.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/Prerequisites/ -->
 <!-- canonical_source_title: Prerequisites -->
 
 # Prerequisites

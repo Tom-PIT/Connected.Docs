@@ -1,6 +1,6 @@
 <!-- app_route: /sales/views/sales-order-details -->
 <!-- app_label: Postavke naročil strank -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/PostavkeNarocilStrank.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Pregledi/PostavkeNarocilStrank/ -->
 <!-- canonical_source_title: Postavke naročil strank -->
 
 # Postavke naročil strank

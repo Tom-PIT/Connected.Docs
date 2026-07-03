@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /customer-support/sla -->
 <!-- app_label: SLA tickets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Tickets/SLATickets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Customers/Tickets/SLATickets/ -->
 <!-- canonical_source_title: SLA tickets -->
 
 # SLA tickets

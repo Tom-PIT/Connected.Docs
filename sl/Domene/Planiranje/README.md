@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/planning -->
 <!-- app_label: Planiranje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Planiranje/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Planiranje/ -->
 <!-- canonical_source_title: Planiranje -->
 
 # Planiranje

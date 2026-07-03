@@ -1,6 +1,6 @@
 <!-- app_route: /projects/tasks -->
 <!-- app_label: Tasks -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/Documents/Tasks.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Projects/Documents/Tasks/ -->
 <!-- canonical_source_title: Tasks -->
 
 # Tasks

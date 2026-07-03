@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/predefined-texts -->
 <!-- app_label: Predefined texts -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/PredefinedTexts.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/PredefinedTexts/ -->
 <!-- canonical_source_title: Predefined texts -->
 
 # Predefined texts

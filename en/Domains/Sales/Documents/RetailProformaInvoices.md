@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /sales/documents/retail-prepayments -->
 <!-- app_label: Retail proforma invoices -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/RetailProformaInvoices.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/RetailProformaInvoices/ -->
 <!-- canonical_source_title: Retail proforma invoices -->
 
 # Retail proforma invoices

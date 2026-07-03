@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/asset-account-connections -->
 <!-- app_label: Povezave sredstev in kontov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Racuni/PovezaveSredstevInKontov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/Racuni/PovezaveSredstevInKontov/ -->
 <!-- canonical_source_title: Povezave sredstev in kontov -->
 
 # Povezave sredstev in kontov

@@ -1,6 +1,6 @@
 <!-- app_route: /quality/views/completed-checklists -->
 <!-- app_label: Zaključene kontrolne liste -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Kvaliteta/Pregledi/ZakljuceneKontrolneListe.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Kvaliteta/Pregledi/ZakljuceneKontrolneListe/ -->
 <!-- canonical_source_title: Zaključene kontrolne liste -->
 
 # Zaključene kontrolne liste

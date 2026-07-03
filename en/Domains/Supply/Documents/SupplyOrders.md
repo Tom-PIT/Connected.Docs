@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Supply orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Documents/SupplyOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Supply/Documents/SupplyOrders/ -->
 <!-- canonical_source_title: Supply orders -->
 
 # Supply orders

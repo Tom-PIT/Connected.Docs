@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/alternative-measure-units -->
 <!-- app_label: Alternativne merske enote -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/AlternativneMerskeEnote.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/AlternativneMerskeEnote/ -->
 <!-- canonical_source_title: Alternativne merske enote -->
 
 # Alternativne merske enote

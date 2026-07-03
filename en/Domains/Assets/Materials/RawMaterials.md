@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/raw-materials -->
 <!-- app_label: Raw materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/RawMaterials.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/RawMaterials/ -->
 <!-- canonical_source_title: Raw materials -->
 
 # Raw materials

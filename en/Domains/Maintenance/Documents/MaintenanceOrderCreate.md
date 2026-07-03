@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/create -->
 <!-- app_label: Create a new maintenance order -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceOrderCreate.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Maintenance/Documents/MaintenanceOrderCreate/ -->
 <!-- canonical_source_title: Create a new maintenance order -->
 
 # How to create a new maintenance order

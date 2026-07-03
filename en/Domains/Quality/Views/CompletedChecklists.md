@@ -1,6 +1,6 @@
 <!-- app_route: /quality/views/completed-checklists -->
 <!-- app_label: Completed checklists -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/Views/CompletedChecklists.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Quality/Views/CompletedChecklists/ -->
 <!-- canonical_source_title: Completed checklists -->
 
 # Completed checklists

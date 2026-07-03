@@ -1,6 +1,6 @@
 <!-- app_route: /projects/my-calendar -->
 <!-- app_label: Moj koledar -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Pregledi/MojKoledar.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Projekti/Pregledi/MojKoledar/ -->
 <!-- canonical_source_title: Moj koledar -->
 
 # Moj koledar

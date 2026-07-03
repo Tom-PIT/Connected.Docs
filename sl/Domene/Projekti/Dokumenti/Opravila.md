@@ -1,6 +1,6 @@
 <!-- app_route: /projects/tasks -->
 <!-- app_label: Opravila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Dokumenti/Opravila.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Projekti/Dokumenti/Opravila/ -->
 <!-- canonical_source_title: Opravila -->
 
 # Opravila

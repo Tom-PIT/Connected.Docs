@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/expenses -->
 <!-- app_label: Stroški -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Upravljanje/Stroski.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Upravljanje/Stroski/ -->
 <!-- canonical_source_title: Stroški -->
 
 # Stroški

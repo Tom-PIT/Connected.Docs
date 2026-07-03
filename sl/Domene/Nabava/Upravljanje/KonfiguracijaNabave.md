@@ -1,6 +1,6 @@
 <!-- app_route: /management/supply/configuration -->
 <!-- app_label: Konfiguracija nabave -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Upravljanje/KonfiguracijaNabave.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Upravljanje/KonfiguracijaNabave/ -->
 <!-- canonical_source_title: Konfiguracija nabave -->
 
 # Konfiguracija nabave

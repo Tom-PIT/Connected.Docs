@@ -1,6 +1,6 @@
 <!-- app_route: /time-logs/view -->
 <!-- app_label: Time log – View -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/TimeLogsView.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Views/TimeLogsView/ -->
 <!-- canonical_source_title: Time log – View -->
 
 # Time log – View

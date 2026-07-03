@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/create -->
 <!-- app_label: Ustvari nov vzdrževalni nalog -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogiUstvarjanje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogiUstvarjanje/ -->
 <!-- canonical_source_title: Dodati nov vzdrževalni nalog -->
 
 ## Kako dodati nov vzdrževalni nalog

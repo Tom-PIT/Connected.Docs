@@ -1,6 +1,6 @@
 <!-- app_route: /resources/documents/travel-orders -->
 <!-- app_label: Travel Orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Documents/TravelOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Documents/TravelOrders/ -->
 <!-- canonical_source_title: Travel Orders -->
 
 # Travel Orders

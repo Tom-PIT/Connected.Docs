@@ -1,7 +1,7 @@
 ﻿<!-- app_route: /sales/documents/issued-invoices -->
 <!-- app_label: Issued invoices -->
 <!-- app_navigation_hint: Open Issued invoices, then click the action button to create a new draft invoice. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/IssuedInvoicesCreate.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/IssuedInvoicesCreate/ -->
 <!-- canonical_source_title: How to create an issued invoice -->
 
 # How to create an issued invoice

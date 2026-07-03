@@ -1,6 +1,6 @@
 <!-- app_route: /assets/management/asset-price-lists -->
 <!-- app_label: Asset price lists -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Assets/AssetPriceLists.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Assets/AssetPriceLists/ -->
 <!-- canonical_source_title: Asset price lists -->
 
 # Asset price lists

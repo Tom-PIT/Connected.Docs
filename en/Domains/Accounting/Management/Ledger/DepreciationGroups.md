@@ -1,6 +1,6 @@
 <!-- app_route: /management/accounting/depreciation-groups -->
 <!-- app_label: Depreciation groups -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/DepreciationGroups.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Ledger/DepreciationGroups/ -->
 <!-- canonical_source_title: Depreciation groups -->
 
 # Depreciation groups

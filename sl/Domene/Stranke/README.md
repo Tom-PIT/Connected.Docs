@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/customers -->
 <!-- app_label: Domena Stranke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Stranke/ -->
 <!-- canonical_source_title: Stranke -->
 
 # Stranke

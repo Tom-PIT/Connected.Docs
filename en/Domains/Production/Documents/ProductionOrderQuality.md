@@ -1,7 +1,7 @@
 <!-- app_route: /production-orders -->
 <!-- app_label: Production order -->
 <!-- app_navigation_hint: Open a production order, then open the **Quality** section. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrderQuality.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/ProductionOrderQuality/ -->
 <!-- canonical_source_title: Production order - Quality section -->
 
 # Production orders - Quality

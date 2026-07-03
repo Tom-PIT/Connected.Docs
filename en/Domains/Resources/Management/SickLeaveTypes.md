@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/sick-leave-types -->
 <!-- app_label: Sick leave types -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/SickLeaveTypes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/SickLeaveTypes/ -->
 <!-- canonical_source_title: Sick leave types -->
 
 # Sick leave types

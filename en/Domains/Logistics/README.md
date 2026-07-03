@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/logistics -->
 <!-- app_label: Logistics domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/ -->
 <!-- canonical_source_title: Logistics domain -->
 
 # Logistics

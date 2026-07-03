@@ -1,6 +1,6 @@
 <!-- app_route: /management/common/mode-of-transport -->
 <!-- app_label: Mode of transport -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/ModeOfTransport.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/ModeOfTransport/ -->
 <!-- canonical_source_title: Mode of transport -->
 
 # Mode of transport

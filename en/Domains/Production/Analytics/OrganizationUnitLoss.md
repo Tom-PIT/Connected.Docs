@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/organization-unit-loss -->
 <!-- app_label: Organization unit loss -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/OrganizationUnitLoss.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Analytics/OrganizationUnitLoss/ -->
 <!-- canonical_source_title: Organization unit loss -->
 
 # Organization unit loss

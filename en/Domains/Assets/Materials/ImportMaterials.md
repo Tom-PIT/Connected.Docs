@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/import -->
 <!-- app_label: Import materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/ImportMaterials.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/ImportMaterials/ -->
 <!-- canonical_source_title: Import materials -->
 
 # Import materials

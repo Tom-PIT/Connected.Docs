@@ -1,7 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Procesi -->
 <!-- app_navigation_hint: Odpri proces, izberi verzijo, klikni Operacije, nato pri ustrezni operaciji odpri Stroški. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/StroskiOperacije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/StroskiOperacije/ -->
 <!-- canonical_source_title: Stroski operacije -->
 
 # Stroski operacije

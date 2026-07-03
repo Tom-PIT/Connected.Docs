@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/list -->
 <!-- app_label: Maintenance orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Maintenance/Documents/MaintenanceOrders/ -->
 <!-- canonical_source_title: Maintenance orders -->
 
 # Maintenance orders

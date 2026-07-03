@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/system -->
 <!-- app_label: System domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/System/ -->
 <!-- canonical_source_title: System domain -->
 
 # System

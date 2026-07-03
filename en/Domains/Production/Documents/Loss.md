@@ -1,7 +1,7 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Execution -->
 <!-- app_navigation_hint: In Execution, tap the action button and select Loss. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Loss.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/Loss/ -->
 <!-- canonical_source_title: Loss -->
 
 # Loss

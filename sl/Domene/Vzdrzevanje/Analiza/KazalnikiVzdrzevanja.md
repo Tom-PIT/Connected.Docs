@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance/analytics/kpis -->
 <!-- app_label: Kazalniki vzdrževanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Analiza/KazalnikiVzdrzevanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Vzdrzevanje/Analiza/KazalnikiVzdrzevanja/ -->
 <!-- canonical_source_title: Kazalniki vzdrževanja -->
 
 # Kazalniki vzdrževanja

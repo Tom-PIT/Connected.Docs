@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/sick-leave-types -->
 <!-- app_label: Tipi bolniških odsotnosti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/TipiBolniskihOdsotnosti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Upravljanje/TipiBolniskihOdsotnosti/ -->
 <!-- canonical_source_title: Tipi bolniških odsotnosti -->
 
 # Tipi bolniških odsotnosti

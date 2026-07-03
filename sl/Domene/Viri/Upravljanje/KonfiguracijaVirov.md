@@ -1,6 +1,6 @@
 <!-- app_route: /resources/travel/configuration -->
 <!-- app_label: Konfiguracija virov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/KonfiguracijaVirov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Upravljanje/KonfiguracijaVirov/ -->
 <!-- canonical_source_title: Konfiguracija virov -->
 
 # Konfiguracija virov

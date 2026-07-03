@@ -1,6 +1,6 @@
 <!-- app_route: /projects/management/projects -->
 <!-- app_label: Project Management -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/Management/ProjectsManagement.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Projects/Management/ProjectsManagement/ -->
 <!-- canonical_source_title: Project Management -->
 
 # Project Management

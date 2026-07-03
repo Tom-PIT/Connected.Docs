@@ -1,7 +1,7 @@
 <!-- app_route: /management/common-types/countries -->
 <!-- app_label: Countries -->
 <!-- app_navigation_hint: Open **Business directory**, then click on the **Postal codes** button for the desired entry. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/PostalCodes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/PostalCodes/ -->
 <!-- canonical_source_title: Postal codes -->
 
 # Postal codes

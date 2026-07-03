@@ -1,6 +1,6 @@
 <!-- app_route: /management/production/configuration -->
 <!-- app_label: Production configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/ProductionConfiguration.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/ProductionConfiguration/ -->
 <!-- canonical_source_title: Production configuration -->
 
 # Production configuration

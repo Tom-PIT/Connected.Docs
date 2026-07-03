@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /management/common-types/external-code-sets -->
 <!-- app_label: External code sets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/ExternalCodeSets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Management/ExternalCodeSets/ -->
 <!-- canonical_source_title: External code sets -->
 
 # External code sets

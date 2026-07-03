@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/receives --> 
 <!-- app_label: Receives --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Receives.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/Receives/ --> 
 <!-- canonical_source_title: Receives -->
 
 # Receives

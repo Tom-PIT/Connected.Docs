@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/debit-notes -->
 <!-- app_label: Debit notes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/DebitNotes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/DebitNotes/ -->
 <!-- canonical_source_title: Debit notes -->
 
 # Debit notes

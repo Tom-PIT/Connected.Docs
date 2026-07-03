@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/system -->
 <!-- app_label: Domena Sistem -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sistem/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sistem/ -->
 <!-- canonical_source_title: Domena Sistem -->
 
 # Sistem

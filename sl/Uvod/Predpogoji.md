@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/Predpogoji.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/Predpogoji/ -->
 <!-- canonical_source_title: Predpogoji -->
 
 # Predpogoji

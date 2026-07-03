@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/organization-units -->
 <!-- app_label: Organizacijske enote -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/OrganizacijskeEnote.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/OrganizacijskeEnote/ -->
 <!-- canonical_source_title: Organizacijske enote -->
 
 # Organizacijske enote
