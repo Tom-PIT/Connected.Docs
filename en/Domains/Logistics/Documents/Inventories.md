@@ -35,8 +35,8 @@ To access Inventories, go to **Logistics / Documents / Inventories** in the [nav
 |-------|-------------|
 | [**Material**](../../Assets/Materials/README.md) | The material stored at the selected location ([product](../../Assets/Materials/Products.md), [semi product](../../Assets/Materials/SemiProducts.md), [raw material](../../Assets/Materials/RawMaterials.md), or [repro material](../../Assets/Materials/ReproMaterials.md)). |
 | **Location** | Storage location where the inventory is being performed. |
-| **Theoretical** | Quantity currently recorded in the system. |
-| **Actual** | Physically verified quantity (editable). |
+| **Theoretical (quantity)** | Quantity currently recorded in the system. |
+| **Actual (quantity)** | Physically verified quantity (editable). |
 
 </details>
 
@@ -61,7 +61,7 @@ Click any document to open and review its contents.
 
 **List view example:**
 
-![Inventories](../Images/Inventories.png)
+![Inventories](../Images/Inventories.png "Inventories list")
 
 ## Actions
 
@@ -71,23 +71,26 @@ Click the action button to create a new inventory document.
 
 1. Click **Add new** to create a new inventory session. 
 
-   ![InventoryNew](../Images/InventoryNew.png)
+2. Select a warehouse and location. The system automatically loads all materials recorded at that location. 
 
-2. After selecting a warehouse and location, the system automatically loads all materials recorded at that location.
+   ![InventoryNew](../Images/InventoryNew.png "New inventory document")
 
-3. In the **Summary** section, you will see:  
-   - **Non allocated** — number of materials that still need to be verified  
-   - **Missing** — number of materials with lower actual than theoretical  
-   - **Excess** — number of materials with higher actual than theoretical
+
+3. The **Summary** section displays the current inventory status:
+
+   - **Non allocated** — materials that have not yet been counted
+   - **Missing** — materials where the actual quantity is lower than the theoretical quantity
+   - **Excess** — materials where the actual quantity is higher than the theoretical quantity
 
 4. In the **Details** section, the **Actual** column shows **0** by default. Edit the values in this column to reflect the real number found physically at the location. When an actual value is lower or higher than the theoretical value, it will be reflected in the **Missing** and **Excess** sections of the **Summary**.
 
    ![InventoryEdit](../Images/InventoryEdits.png)
 
-   For information about working with document details, see [**Document details**](../../../Common/Concepts/DocumentDetails.md).
+   The **Theoretical** quantity is read-only. Only the **Actual** quantity can be edited.
 
 5. Once all materials have been checked and actual values are entered, the **Non allocated** section of the **Summary** will turn green and show **0**.
-5. Click **Publish** to confirm the inventory. This action updates the system stock levels to match the actual physical quantities.
+
+6. Click **Publish** to confirm the inventory. This action adjusts the system stock levels to match the actual physical quantities.
 
 A newly created inventory document appears in **Drafts**. Once published, it moves to **Committed** and stock levels are corrected.
 
