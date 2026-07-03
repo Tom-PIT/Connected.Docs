@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/resources -->
 <!-- app_label: Resources -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/ -->
 <!-- canonical_source_title: Resources -->
 
 # Resources

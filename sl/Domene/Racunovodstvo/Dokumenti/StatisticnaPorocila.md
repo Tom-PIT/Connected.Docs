@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/statistical-reports -->
 <!-- app_label: Statistična poročila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/StatisticnaPorocila.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Dokumenti/StatisticnaPorocila/ -->
 <!-- canonical_source_title: Statistična poročila -->
 
 # Statistična poročila

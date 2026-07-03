@@ -1,7 +1,7 @@
 ﻿<!-- app_route: /sales/documents/sales-orders -->
 <!-- app_label: Sales orders -->
 <!-- app_navigation_hint: Open Sales orders, then click the action button to create a new draft order. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/SalesOrdersCreate.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/SalesOrdersCreate/ -->
 <!-- canonical_source_title: How to create a sales order -->
 
 # How to create a sales order

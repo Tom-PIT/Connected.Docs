@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/quality -->
 <!-- app_label: Quality -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Quality/ -->
 <!-- canonical_source_title: Quality -->
 
 # Quality

@@ -1,7 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Procesi -->
 <!-- app_navigation_hint: Odpri proces, klikni na vrednost stroška želene verzije. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/AnalizaStroskaVerzije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Analiza/AnalizaStroskaVerzije/ -->
 <!-- canonical_source_title: Analiza stroška verzije -->
 
 # Analiza stroška verzije
@@ -95,3 +95,14 @@ Vrednost **Skupaj** na dnu strani prikazuje končni **ocenjeni strošek proizvod
 Ta vrednost ustreza **strošku, prikazanemu v seznamu verzij**.
 
 Če se operacije, materiali ali viri v verziji procesa spremenijo, je treba strošek ponovno izračunati s klikom na **Izračunaj** na strani **[Verzije](../Upravljanje/Procesi.md#verzije)**.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v PDF**
+- **Ponovno izračunaj** – ponovno izračuna stroške izbranega opravila ali verzije procesa na podlagi trenutnih materialov, virov in stroškov.
+
+Za več informacij o dejanjih v meniju glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

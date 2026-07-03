@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/bank-statements -->
 <!-- app_label: Bank Statements -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/BankStatements.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Documents/BankStatements/ -->
 <!-- canonical_source_title: Bank Statements -->
 
 # Bank statements

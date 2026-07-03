@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/equipment -->
 <!-- app_label: Povzetek stroja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/PovzetekStroja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Analiza/PovzetekStroja/ -->
 <!-- canonical_source_title: Povzetek stroja -->
 
 # Povzetek stroja

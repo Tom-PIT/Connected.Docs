@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/open-items -->
 <!-- app_label: Open items -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/OpenItems.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Views/OpenItems/ -->
 <!-- canonical_source_title: Open items -->
 
 # Open items

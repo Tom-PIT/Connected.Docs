@@ -1,6 +1,6 @@
 <!-- app_route: /time-logs/management -->
 <!-- app_label: Time logs – Manage -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/TimeLogsManage.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Views/TimeLogsManage/ -->
 <!-- canonical_source_title: Time logs – Manage -->
 
 # Time logs – Manage

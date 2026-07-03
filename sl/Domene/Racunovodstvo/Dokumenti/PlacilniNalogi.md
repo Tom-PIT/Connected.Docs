@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/bank/payment-orders -->
 <!-- app_label: Plačilni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Dokumenti/PlacilniNalogi/ -->
 <!-- canonical_source_title: Plačilni nalogi -->
 
 # Plačilni nalogi

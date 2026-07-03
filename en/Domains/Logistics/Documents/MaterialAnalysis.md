@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/material-analysis --> 
 <!-- app_label: Material analysis --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/MaterialAnalysis.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/MaterialAnalysis/ --> 
 <!-- canonical_source_title: Material analysis -->
 
 # Material analysis

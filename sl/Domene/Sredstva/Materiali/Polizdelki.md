@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/semi-products -->
 <!-- app_label: Polizdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Polizdelki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/Polizdelki/ -->
 <!-- canonical_source_title: Polizdelki -->
 
 # Polizdelki

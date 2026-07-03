@@ -1,7 +1,7 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
 <!-- app_navigation_hint: Odprite Poslovni imenik in kliknite oznako Poslovne enote pod imenom podjetja. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PoslovneEnote.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Upravljanje/PoslovneEnote/ -->
 <!-- canonical_source_title: Poslovne enote -->
 
 # Poslovne enote

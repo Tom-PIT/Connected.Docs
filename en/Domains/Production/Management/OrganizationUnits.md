@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/organization-units -->
 <!-- app_label: Organization units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/OrganizationUnits.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/OrganizationUnits/ -->
 <!-- canonical_source_title: Organization units -->
 
 # Organization units

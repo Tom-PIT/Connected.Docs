@@ -1,6 +1,6 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Processes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/Processes/ -->
 <!-- canonical_source_title: Processes -->
 
 # Processes
@@ -12,6 +12,8 @@ Processes define the structured steps used across **Production** and **Maintenan
 This page allows you to create and manage processes, their versions, and their operational structure.
 
 A process may contain one or more **versions**, for example, different versions for different product sizes or maintenance variants. Each version contains a sequence of [**operations**](Operations.md), which define inputs, resources (human and non-human), outputs, and quality requirements.
+
+![Process structure diagram](../Images/ProcessDiagram.svg "Process structure diagram")
 
 To access this page, go to **Production / Management / Processes** in the [navigation](../../../Common/UI/Navigation.md). Processes are shared and can be tagged for Production or Maintenance usage.
 
@@ -146,6 +148,9 @@ Each operation includes:
 The **[Quality](QualityChecklists.md)** button opens the configuration page for the selected process version or operation. This page allows you to assign one or more [**Checklists**](../../Quality/Management/Checklists.md), which define the quality-control steps required during execution.
 
 ![Processes Versions Quality Button](../Images/ProcessesVersionsQualityButton.png "Processes Versions Quality Button")
+
+> [!NOTE]
+> Quality checklists can be assigned either to the **process version** (applies to the entire process) or to individual **operations** (performed during a specific operation).
 
 ## Delete a process
 

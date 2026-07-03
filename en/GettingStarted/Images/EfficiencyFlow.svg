@@ -22,9 +22,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.141656"
-     inkscape:cx="558.39936"
-     inkscape:cy="105.54843"
+     inkscape:zoom="0.8072727"
+     inkscape:cx="484.34686"
+     inkscape:cy="52.646398"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -90,32 +90,32 @@
        id="rect4" />
     <text
        class="text"
-       x="121.53516"
-       y="99.812508"
+       x="121.69011"
+       y="100.14975"
        text-anchor="middle"
        id="text4"
-       style="font-size:18.6667px">Define processes tags</text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:Roboto">Define processes tags</text>
     <text
        class="text"
-       x="391.89975"
-       y="101.79949"
+       x="391.89517"
+       y="101.90887"
        text-anchor="middle"
        id="text6"
-       style="font-size:18.6667px">Execute record</text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:Roboto">Execute record</text>
     <text
        class="text"
-       x="666.53516"
-       y="101.71291"
+       x="666.69012"
+       y="101.90887"
        text-anchor="middle"
        id="text8"
-       style="font-size:18.6667px">Review KPIs and Summaries</text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:Roboto">Review KPIs and Summaries</text>
     <text
        class="text"
-       x="942.29169"
-       y="99.812508"
+       x="942.32812"
+       y="100.14975"
        text-anchor="middle"
        id="text10"
-       style="font-size:18.6667px">Act on findings</text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:Roboto">Act on findings</text>
     <line
        class="arrow"
        x1="242"
@@ -143,5 +143,6 @@
      class="note"
      x="20"
      y="160"
-     id="text13" />
+     id="text13"
+     style="-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" />
 </svg>

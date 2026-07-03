@@ -1,6 +1,6 @@
 <!-- app_route: /production/documents/consumptions --> 
 <!-- app_label: Porabe -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Porabe.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/Porabe/ --> 
 <!-- canonical_source_title: Porabe -->
 
 # Porabe

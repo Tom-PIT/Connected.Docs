@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/equipment -->
 <!-- app_label: Equipment summary -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/EquipmentSummary.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Analytics/EquipmentSummary/ -->
 <!-- canonical_source_title: Equipment summary -->
 
 # Equipment summary

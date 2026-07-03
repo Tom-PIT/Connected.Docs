@@ -1,6 +1,6 @@
 <!-- app_route: /production/cooperators -->
 <!-- app_label: Kooperanti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Kooperanti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/Kooperanti/ -->
 <!-- canonical_source_title: Kooperanti -->
 
 # Kooperanti

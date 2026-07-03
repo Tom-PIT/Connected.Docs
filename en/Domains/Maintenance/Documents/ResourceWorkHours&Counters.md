@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance/resource-counters -->
 <!-- app_label: Resource work hours & counters -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/ResourceWorkHours&Counters.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Maintenance/Documents/ResourceWorkHours&Counters/ -->
 <!-- canonical_source_title: Resource work hours & counters -->
 
 # Resource work hours & counters

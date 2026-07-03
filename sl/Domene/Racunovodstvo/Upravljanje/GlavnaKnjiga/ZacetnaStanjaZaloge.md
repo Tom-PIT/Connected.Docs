@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/stock/initial-states -->
 <!-- app_label: Začetna stanja zaloge -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ZacetnaStanjaZaloge.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ZacetnaStanjaZaloge/ -->
 <!-- canonical_source_title: Začetna stanja zaloge -->
 
 # Začetna stanja zaloge

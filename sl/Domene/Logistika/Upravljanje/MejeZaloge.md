@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/stock-boundaries -->
 <!-- app_label: Meje zaloge -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Upravljanje/MejeZaloge.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Upravljanje/MejeZaloge/ -->
 <!-- canonical_source_title: Meje zaloge -->
 
 # Meje zaloge

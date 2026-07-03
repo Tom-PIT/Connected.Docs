@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/repro-materials -->
 <!-- app_label: Repro materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/ReproMaterials.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/ReproMaterials/ -->
 <!-- canonical_source_title: Repro materials -->
 
 # Repro materials

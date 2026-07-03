@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/Drzave.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Upravljanje/Drzave/ -->
 <!-- canonical_source_title: Države -->
 
 # Države

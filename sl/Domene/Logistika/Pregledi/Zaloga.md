@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/stock/index -->
 <!-- app_label: Zaloga -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/Zaloga.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Pregledi/Zaloga/ -->
 <!-- canonical_source_title: Zaloga -->
 
 # Zaloga

@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/account-card -->
 <!-- app_label: Account card -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/AccountCard.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Views/AccountCard/ -->
 <!-- canonical_source_title: Account card -->
 
 # Account card

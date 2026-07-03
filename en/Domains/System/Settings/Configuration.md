@@ -1,6 +1,6 @@
 <!-- app_route: /management/configuration -->
 <!-- app_label: Configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Settings/Configuration.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/System/Settings/Configuration/ -->
 <!-- canonical_source_title: Configuration -->
 
 # Configuration

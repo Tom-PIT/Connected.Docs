@@ -1,6 +1,6 @@
 <!-- app_route: /time-logs/attendance -->
 <!-- app_label: Dnevnik prisotnosti – Prisotnost na delu -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiPrisotnostNaDelu.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiPrisotnostNaDelu/ -->
 <!-- canonical_source_title: Dnevnik prisotnosti – Prisotnost na delu -->
 
 # Dnevnik prisotnosti – Prisotnost na delu

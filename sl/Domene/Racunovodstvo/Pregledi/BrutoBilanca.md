@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/account-summary-days -->
 <!-- app_label: Bruto bilanca -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/BrutoBilanca.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/BrutoBilanca/ -->
 <!-- canonical_source_title: Bruto bilanca -->
 
 # Bruto bilanca

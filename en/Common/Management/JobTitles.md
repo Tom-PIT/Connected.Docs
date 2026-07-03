@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/job-titles -->
 <!-- app_label: Job titles -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/JobTitles.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/JobTitles/ -->
 <!-- canonical_source_title: Job titles -->
 
 # Job titles

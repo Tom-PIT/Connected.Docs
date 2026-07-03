@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap -->
 <!-- app_label: Sitemap -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/UI/Navigation.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/UI/Navigation/ -->
 <!-- canonical_source_title: Navigation -->
 
 # Navigation

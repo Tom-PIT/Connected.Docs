@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /sitemap -->
 <!-- app_label: Zemljevid strani -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/UI/AkcijskiGumb.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/UI/AkcijskiGumb/ -->
 <!-- canonical_source_title: Akcijski gumb -->
 
 # Akcijski gumb
