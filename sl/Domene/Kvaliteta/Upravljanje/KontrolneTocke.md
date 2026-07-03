@@ -1,6 +1,6 @@
 <!-- app_route: /management/check-lists -->
 <!-- app_label: Kontrolne liste -->
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/KontrolneTocke/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Kvaliteta/Upravljanje/KontrolneTocke/ -->
 <!-- canonical_source_title: Kontrolne točke -->
 
 # Kontrolne točke
