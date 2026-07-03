@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /management/organization-units/warehouse-locations -->
 <!-- app_label: Warehouse locations -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/WarehouseLocations.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/WarehouseLocations/ -->
 <!-- canonical_source_title: Warehouse locations -->
 
 # Warehouse locations

@@ -1,6 +1,6 @@
 <!-- app_route: /management/accounting/locations -->
 <!-- app_label: Ledger locations -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/LedgerLocations.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Ledger/LedgerLocations/ -->
 <!-- canonical_source_title: Ledger locations -->
 
 # Ledger locations

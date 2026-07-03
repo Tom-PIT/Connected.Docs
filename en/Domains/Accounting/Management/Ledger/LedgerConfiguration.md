@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/configuration -->
 <!-- app_label: Configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/LedgerConfiguration.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Ledger/LedgerConfiguration/ -->
 <!-- canonical_source_title: Configuration -->
 
 # Configuration

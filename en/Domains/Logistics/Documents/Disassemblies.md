@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/disassemblies --> 
 <!-- app_label: Disassemblies --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Disassemblies.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/Disassemblies/ --> 
 <!-- canonical_source_title: Disassemblies -->
 
 # Disassemblies

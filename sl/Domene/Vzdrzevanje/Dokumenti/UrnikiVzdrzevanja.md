@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/schedule -->
 <!-- app_label: Urniki vzdrževanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/UrnikiVzdrzevanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Vzdrzevanje/Dokumenti/UrnikiVzdrzevanja/ -->
 <!-- canonical_source_title: Urniki vzdrževanja -->
 
 # Urniki vzdrževanja

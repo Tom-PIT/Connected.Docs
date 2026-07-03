@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/documents/received-invoices -->
 <!-- app_label: Prejeti računi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Dokumenti/PrejetiRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Dokumenti/PrejetiRacuni/ -->
 <!-- canonical_source_title: Prejeti računi -->
 
 # Prejeti računi

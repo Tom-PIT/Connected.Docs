@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/UI/SifreDokumentov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/UI/SifreDokumentov/ -->
 <!-- canonical_source_title: Šifre dokumentov -->
 
 # Šifre dokumentov

@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/competence-matrix -->
 <!-- app_label: Competence matrixes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/CompetenceMatrixes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/CompetenceMatrixes/ -->
 <!-- canonical_source_title: Competence matrixes -->
 
 # Competence matrixes

@@ -1,6 +1,6 @@
 <!-- app_route: /time-logs/view -->
 <!-- app_label: Dnevnik prisotnosti – Pregled -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiPregled.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiPregled/ -->
 <!-- canonical_source_title: Dnevnik prisotnosti – Pregled -->
 
 # Dnevnik prisotnosti – Pregled

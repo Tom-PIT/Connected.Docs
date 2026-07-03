@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/competence-matrix -->
 <!-- app_label: Matrike kompetenc -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/MatrikeKompetenc.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Upravljanje/MatrikeKompetenc/ -->
 <!-- canonical_source_title: Matrike kompetenc -->
 
 # Matrike kompetenc

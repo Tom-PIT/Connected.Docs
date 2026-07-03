@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/overdue-reminders -->
 <!-- app_label: Overdue reminders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/OverdueReminders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/OverdueReminders/ -->
 <!-- canonical_source_title: Overdue reminders -->
 
 # Overdue reminders

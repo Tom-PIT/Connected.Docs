@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-planning -->
 <!-- app_label: Planiranje nabave po mejah zaloge -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/PlaniranjeNabavePoMejahZaloge.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Dokumenti/PlaniranjeNabavePoMejahZaloge/ -->
 <!-- canonical_source_title: Planiranje nabave po mejah zaloge -->
 
 # Planiranje nabave po mejah zaloge

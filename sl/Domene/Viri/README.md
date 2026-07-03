@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/resources -->
 <!-- app_label: Viri -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/ -->
 <!-- canonical_source_title: Viri -->
 
 # Viri

@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/SalesProcessWithPrepayment.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/SalesProcessWithPrepayment/ -->
 <!-- canonical_source_title: Sales process (with prepayment) -->
 
 # Sales process (with prepayment)

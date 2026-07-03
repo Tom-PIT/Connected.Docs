@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /management/common-types/organization-bank-accounts -->
 <!-- app_label: Organization bank accounts -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/OrganizationBankAccounts.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Management/OrganizationBankAccounts/ -->
 <!-- canonical_source_title: Organization bank accounts -->
 
 # Organization bank accounts

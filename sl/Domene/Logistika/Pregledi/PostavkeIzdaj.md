@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/views/issue-details -->
 <!-- app_label: Postavke izdaj -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/PostavkeIzdaj.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Pregledi/PostavkeIzdaj/ -->
 <!-- canonical_source_title: Postavke izdaj -->
 
 # Postavke izdaj

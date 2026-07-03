@@ -1,7 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
 <!-- app_navigation_hint: Odpri proces in izberi verzijo. Klik na Operacije odpre seznam operacij za izbrano verzijo. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Operacije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/Operacije/ -->
 <!-- canonical_source_title: Operacije -->
 
 # Operacije

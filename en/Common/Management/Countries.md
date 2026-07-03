@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/countries -->
 <!-- app_label: Countries -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/Countries.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/Countries/ -->
 <!-- canonical_source_title: Countries -->
 
 # Countries

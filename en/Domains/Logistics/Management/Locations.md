@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/locations -->
 <!-- app_label: Locations -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Management/Locations.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Management/Locations/ -->
 <!-- canonical_source_title: Locations -->
 
 # Locations

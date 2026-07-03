@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/stock -->
 <!-- app_label: Stock (Ledger) -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/LedgerStock.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Views/LedgerStock/ -->
 <!-- canonical_source_title: Stock (Ledger) -->
 
 # Stock (Ledger)

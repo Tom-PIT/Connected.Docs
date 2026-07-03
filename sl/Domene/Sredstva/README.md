@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/assets -->
 <!-- app_label: Domena Sredstva -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/ -->
 <!-- canonical_source_title: Domena Sredstva -->
 
 # Sredstva

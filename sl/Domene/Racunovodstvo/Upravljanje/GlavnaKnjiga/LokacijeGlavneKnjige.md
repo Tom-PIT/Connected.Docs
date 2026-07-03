@@ -1,6 +1,6 @@
 <!-- app_route: /management/accounting/locations -->
 <!-- app_label: Lokacije glavne knjige -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/LokacijeGlavneKnjige.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/LokacijeGlavneKnjige/ -->
 <!-- canonical_source_title: Lokacije glavne knjige -->
 
 # Lokacije glavne knjige

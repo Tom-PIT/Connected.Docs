@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/customers -->
 <!-- app_label: Customers Domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Customers/ -->
 <!-- canonical_source_title: Customers Domain -->
 
 # Customers

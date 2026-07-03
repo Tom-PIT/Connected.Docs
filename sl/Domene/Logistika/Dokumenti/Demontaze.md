@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/disassemblies --> 
 <!-- app_label: Demontaže --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Demontaze.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/Demontaze/ --> 
 <!-- canonical_source_title: Demontaže -->
 
 # Demontaže

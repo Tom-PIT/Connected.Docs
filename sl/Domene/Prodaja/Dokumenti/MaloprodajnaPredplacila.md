@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/retail-prepayments -->
 <!-- app_label: Maloprodajna avansni računi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/MaloprodajnaAvansniRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/MaloprodajnaAvansniRacuni/ -->
 <!-- canonical_source_title: Maloprodajna avansni računi -->
 
 # Maloprodajna avansni računi

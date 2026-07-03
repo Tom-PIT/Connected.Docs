@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/document-types -->
 <!-- app_label: Document types -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/DocumentTypes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Ledger/DocumentTypes/ -->
 <!-- canonical_source_title: Document types -->
 
 # Document types

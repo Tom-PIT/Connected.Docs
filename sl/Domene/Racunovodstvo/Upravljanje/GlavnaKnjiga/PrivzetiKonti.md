@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/account-defaults -->
 <!-- app_label: Privzeti konti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PrivzetiKonti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PrivzetiKonti/ -->
 <!-- canonical_source_title: Privzeti konti -->
 
 # Privzeti konti

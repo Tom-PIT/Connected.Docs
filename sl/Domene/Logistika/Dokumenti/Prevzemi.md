@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/receives --> 
 <!-- app_label: Prevzemi --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Prevzemi.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/Prevzemi/ --> 
 <!-- canonical_source_title: Prevzemi -->
 
 # Prevzemi

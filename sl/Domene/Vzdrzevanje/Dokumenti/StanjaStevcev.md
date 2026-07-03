@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance/resource-counters -->
 <!-- app_label: Stanja števcev -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/StanjaStevcev.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Vzdrzevanje/Dokumenti/StanjaStevcev/ -->
 <!-- canonical_source_title: Stanja števcev -->
 
 # Stanja števcev

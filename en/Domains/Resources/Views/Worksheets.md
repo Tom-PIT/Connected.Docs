@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/worksheets -->
 <!-- app_label: Worksheets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/Worksheets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Views/Worksheets/ -->
 <!-- canonical_source_title: Worksheets -->
 
 # Worksheets

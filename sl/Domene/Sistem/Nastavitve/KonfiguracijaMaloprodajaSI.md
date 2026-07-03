@@ -1,7 +1,7 @@
 <!-- app_route: /management/configuration -->
 <!-- app_label: Nastavitve maloprodaje SI -->
 <!-- app_navigation_hint: Odprite **Nastavitve** v glavni navigaciji, nato odprite **Sales Retails SI Settings**. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sistem/Nastavitve/KonfiguracijaMaloprodajaSI.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sistem/Nastavitve/KonfiguracijaMaloprodajaSI/ -->
 <!-- canonical_source_title: Nastavitve maloprodaje SI -->
 
 # Nastavitve maloprodaje SI

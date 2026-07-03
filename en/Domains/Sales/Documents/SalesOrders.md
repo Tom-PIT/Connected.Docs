@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/sales-orders -->
 <!-- app_label: Sales orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/SalesOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/SalesOrders/ -->
 <!-- canonical_source_title: Sales orders -->
 
 # Sales orders

@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/configuration -->
 <!-- app_label: Konfiguracija logistike -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Upravljanje/KonfiguracijaLogistike.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Upravljanje/KonfiguracijaLogistike/ -->
 <!-- canonical_source_title: Konfiguracija logistike -->
 
 # Konfiguracija logistike

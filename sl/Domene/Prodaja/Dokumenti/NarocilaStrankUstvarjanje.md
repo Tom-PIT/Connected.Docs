@@ -1,7 +1,7 @@
 <!-- app_route: /sales/documents/sales-orders -->
 <!-- app_label: Naročila strank -->
 <!-- app_navigation_hint: Odprite Naročila strank, nato kliknite akcijski gumb za ustvarjanje novega osnutka naročila. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/NarocilaStrankUstvarjanje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/NarocilaStrankUstvarjanje/ -->
 <!-- canonical_source_title: Kako ustvariti naročilo stranke -->
 
 # Kako ustvariti naročilo stranke

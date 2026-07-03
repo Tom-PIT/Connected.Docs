@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/reminder-categories -->
 <!-- app_label: Reminder categories -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/ReminderCategories.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/ReminderCategories/ -->
 <!-- canonical_source_title: Reminder categories -->
 
 # Reminder categories
