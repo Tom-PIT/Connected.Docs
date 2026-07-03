@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/03.ProdajniProcesBrezPredplacila/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/ProdajniProcesBrezAvansnegaRacuna/ -->
 <!-- canonical_source_title: Prodajni proces (brez avansnega računa) -->
 
 # Prodajni proces (brez avansnega računa)

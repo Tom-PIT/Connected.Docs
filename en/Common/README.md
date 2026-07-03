@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Common/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/ -->
 <!-- canonical_source_title: Common module -->
 
 # Common

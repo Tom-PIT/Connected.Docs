@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/sales -->
 <!-- app_label: Prodaja -->
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Domena/Prodaja/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/ -->
 <!-- canonical_source_title: Prodaja -->
 
 # Prodaja

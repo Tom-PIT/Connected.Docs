@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Execution -->
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/ExecutionQuickUserGuide/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/ExecutionQuickUserGuide/ -->
 <!-- canonical_source_title: Execution – Quick User Guide -->
 
 # Execution – Quick User Guide

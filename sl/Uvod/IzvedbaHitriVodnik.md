@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Izvedba -->
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/IzvedbaHitriVodnik/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/IzvedbaHitriVodnik/ -->
 <!-- canonical_source_title: Izvedba -->
 
 # Izvedba – Hitri uporabniški vodnik

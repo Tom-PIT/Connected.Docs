@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/bank-statements -->
 <!-- app_label: Bančni izpiski -->
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Racunovodstvo/Dokumenti/BancniIzpiski/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Dokumenti/BancniIzpiski/ -->
 <!-- canonical_source_title: Bančni izpiski -->
 
 # Bančni izpiski
