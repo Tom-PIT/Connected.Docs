@@ -330,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../en/GettingStarted/00.GettingStarted/" class="md-nav__link">
+      <a href="../../../../../en/GettingStarted/GettingStarted/" class="md-nav__link">
         
   
   
@@ -3316,7 +3316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Uvod/00.Uvod/" class="md-nav__link">
+      <a href="../../../../Uvod/Uvod/" class="md-nav__link">
         
   
   
@@ -6325,10 +6325,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#postavke-o-uporabi" class="md-nav__link">
+  <a href="#dejanja" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Postavke o uporabi
+        Dejanja
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dejanja">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evidentiranje-placila" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evidentiranje plačila
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opombe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opombe
       
     </span>
   </a>
@@ -6360,65 +6388,85 @@
 
 <!-- app_route: /customers/company-cards -->
 <!-- app_label: Poslovne kartice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/PoslovneKartice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Pregledi/PoslovneKartice/ -->
 <!-- canonical_source_title: Poslovne kartice -->
 
 <h1 id="poslovne-kartice">Poslovne kartice<a class="headerlink" href="#poslovne-kartice" title="Permanent link">&para;</a></h1>
 <p>Pogled <strong>Poslovne kartice</strong> omogoča podroben pregled vseh <strong>bremenitev in dobroimetij</strong> po posameznih podjetjih. Namesto enotnega salda prikazuje <strong>posamezne finančne dokumente</strong> (npr. <a href="../../Dokumenti/IzdaniRacuni/">izdani računi</a>, <a href="../../Dokumenti/Dobropisi/">dobropisi</a> in <a href="../../Dokumenti/Bremepisi/">bremepisi</a>) ter njihov status plačila: <strong>neplačano</strong>, <strong>delno plačano</strong> ali <strong>v celoti plačano</strong>.</p>
-<p>Ta pogled je namenjen <strong>finančnemu nadzoru in usklajevanju</strong> ter ne omogoča ustvarjanja ali urejanja dokumentov.</p>
+<p>Ta pogled je namenjen <strong>finančnemu nadzoru</strong> ter omogoča pregled stanja plačil in <strong>evidentiranje plačil neposredno s seznama</strong>.</p>
 <p>Za dostop do tega pogleda pojdite na <strong>Prodaja / Pregledi / Poslovne kartice</strong> v <a href="../../../../Skupno/UI/Navigacija/">navigaciji</a>.</p>
-<p>Zaslon je dostopen tudi iz strani <a href="../../../../Skupno/Upravljanje/PoslovniImenik/"><strong>Poslovni imenik</strong></a>, s klikom na zavihek <strong>Poslovne kartice</strong> pri izbranem vnosu podjetja. V tem primeru bo seznam samodejno filtriran tako, da prikazuje samo zapise, povezane z izbranim podjetjem.</p>
+<p>Zaslon je dostopen tudi s strani <a href="../../../../Skupno/Upravljanje/PoslovniImenik/"><strong>Poslovni imenik</strong></a>, s klikom na zavihek <strong>Poslovne kartice</strong> pri izbranem vnosu podjetja. V tem primeru bo seznam samodejno filtriran tako, da prikazuje samo zapise, povezane z izbranim podjetjem.</p>
 <p><img alt="Oznaka poslovnih kartic" src="../../../../Skupno/Images/CompanyCardsButtonSL.png" title="Oznaka poslovnih kartic" /></p>
 <h2 id="seznam-poslovnih-kartic">Seznam poslovnih kartic<a class="headerlink" href="#seznam-poslovnih-kartic" title="Permanent link">&para;</a></h2>
 <p><img alt="Pregled poslovnih kartic" src="../../Images/CompanyCardsListSL.png" title="Pregled poslovnih kartic" /></p>
-<p>Vsaka vrstica predstavlja <strong>en sam finančni zapis</strong> za podjetje, ne povzetega salda.</p>
+<p>Vsaka vrstica predstavlja <strong>en posamezen finančni dokument</strong> za podjetje, ne povzetega salda.</p>
 <ul>
-<li><strong>Bremenitev</strong> → Stranka dolguje sredstva vašemu podjetju  </li>
-<li><strong>Dobroimetje</strong> → Vaše podjetje dolguje sredstva stranki (npr. preplačila, popravki)</li>
+<li><strong>Bremenitev</strong> → Stranka dolguje sredstva vašemu podjetju.</li>
+<li><strong>Dobroimetje</strong> → Vaše podjetje dolguje sredstva stranki (npr. zaradi preplačil ali dobropisov).</li>
 </ul>
-<p>S klikom na posamezno vrstico se odpre povezan dokument (npr. <strong>izdani račun</strong>), kjer je mogoče pregledati podrobnosti ali evidentirati plačila.</p>
+<p>S klikom na posamezno vrstico se odpre povezani dokument (npr. <strong>izdani račun</strong>).</p>
 <h3 id="filtri">Filtri<a class="headerlink" href="#filtri" title="Permanent link">&para;</a></h3>
 <p>Leva stranska vrstica omogoča natančno filtriranje prikazanih zapisov:</p>
 <ul>
-<li><strong>Datum zapisa</strong> – filtriranje po datumu nastanka dokumentov  </li>
-<li><strong>Datum zapadlosti</strong> – filtriranje po datumu zapadlosti  </li>
-<li><strong>Tip poslovne kartice</strong>  </li>
-<li><em>Vse</em>  </li>
-<li><em>Debet</em>  </li>
-<li><em>Kredit</em>  </li>
-<li><strong>Podjetje</strong> – izbor posamezne stranke</li>
+<li><strong>Datum zapisa</strong> – Filtrira dokumente po datumu nastanka.</li>
+<li><strong>Datum zapadlosti</strong> – Filtrira dokumente po datumu zapadlosti.</li>
+<li><strong>Tip poslovne kartice</strong><ul>
+<li><em>Vse</em></li>
+<li><em>Debet</em></li>
+<li><em>Kredit</em></li>
+</ul>
+</li>
+<li><strong>Podjetje</strong> – Prikaže zapise izbranega podjetja.</li>
 </ul>
 <h2 id="prikaz-statusa-placil">Prikaz statusa plačil<a class="headerlink" href="#prikaz-statusa-placil" title="Permanent link">&para;</a></h2>
-<p>Poslovne kartice vizualno prikazujejo status plačila vsakega zapisa z izpisom <strong>odprtega zneska</strong> in <strong>izvornega skupnega zneska</strong>.</p>
+<p>Poslovne kartice vizualno prikazujejo status plačila posameznega dokumenta z izpisom <strong>plačanega zneska</strong> in <strong>skupnega zneska dokumenta</strong>.</p>
 <h3 id="v-celoti-placani-zapisi">V celoti plačani zapisi<a class="headerlink" href="#v-celoti-placani-zapisi" title="Permanent link">&para;</a></h3>
-<p>Ko je dokument <strong>v celoti plačan</strong>, je prikazan le končni poravnani znesek, kar pomeni, da odprta obveznost ne obstaja.</p>
+<p>Ko je dokument <strong>v celoti plačan</strong>, je prikazan samo skupni znesek dokumenta.</p>
 <p><img alt="V celoti plačan zapis" src="../../Images/CompanyCardsFullyPaidSL.png" title="V celoti plačan zapis" /></p>
-<p>V tem primeru:
-- dokument je popolnoma poravnan,
-- ni več odprtega zneska,
-- prikazana vrednost predstavlja končni plačani znesek.</p>
-<h3 id="delno-placani-zapisi">Delno plačani zapisi<a class="headerlink" href="#delno-placani-zapisi" title="Permanent link">&para;</a></h3>
-<p>Pri <strong>delno plačanih</strong> dokumentih je prikazan ločen znesek za že plačani del in izvorni skupni znesek dokumenta.</p>
-<p><img alt="Delno plačan zapis" src="../../Images/CompanyCardsPartiallyPaidSL.png" title="Delno plačan zapis" /></p>
-<p>V tem primeru:
-- <strong>zgornji znesek</strong> predstavlja <strong>že plačani znesek</strong>,
-- <strong>spodnji znesek</strong> predstavlja <strong>skupni znesek dokumenta</strong>.</p>
-<h3 id="neplacani-zapisi">Neplačani zapisi<a class="headerlink" href="#neplacani-zapisi" title="Permanent link">&para;</a></h3>
-<p>Če dokument <strong>še ni bil plačan</strong>, je odprti znesek prikazan kot <strong>0,00</strong>, celotna vrednost dokumenta pa je izpisana spodaj.</p>
-<p><img alt="Neplačan zapis" src="../../Images/CompanyCardsUnpaidSL.png" title="Neplačan zapis" /></p>
-<p>To pomeni:
-- plačila še niso bila evidentirana,
-- celoten znesek dokumenta je še vedno odprt.</p>
-<p>Ti vizualni indikatorji omogočajo hiter pregled stanja brez odpiranja posameznih dokumentov.</p>
-<h2 id="postavke-o-uporabi">Postavke o uporabi<a class="headerlink" href="#postavke-o-uporabi" title="Permanent link">&para;</a></h2>
+<p>V tem primeru:</p>
 <ul>
-<li>Pogled združuje <strong>bremenitve in dobroimetja</strong> v enem seznamu, kar omogoča hiter pregled finančnega stanja po dokumentih.  </li>
-<li>Uporabite ga za spremljanje zapadlih terjatev, delnih plačil in kreditnih pozicij po strankah.</li>
+<li>dokument je v celoti poravnan,</li>
+<li>odprtih obveznosti ni več.</li>
 </ul>
-<p>Za evidentiranje plačil ali popravke uporabite ustrezne dokumente, kot so:
-- <a href="../../Dokumenti/IzdaniRacuni/"><strong>Izdani računi</strong></a>
-- <a href="../../Dokumenti/Dobropisi/"><strong>Dobropisi</strong></a>
-- <a href="../../Dokumenti/Bremepisi/"><strong>Bremepisi</strong></a></p>
+<h3 id="delno-placani-zapisi">Delno plačani zapisi<a class="headerlink" href="#delno-placani-zapisi" title="Permanent link">&para;</a></h3>
+<p>Pri <strong>delno plačanih</strong> dokumentih sta ločeno prikazana plačani znesek in skupni znesek dokumenta.</p>
+<p><img alt="Delno plačan zapis" src="../../Images/CompanyCardsPartiallyPaidSL.png" title="Delno plačan zapis" /></p>
+<p>V tem primeru:</p>
+<ul>
+<li><strong>zgornji znesek</strong> predstavlja <strong>plačani znesek</strong>,</li>
+<li><strong>spodnji znesek</strong> predstavlja <strong>skupni znesek dokumenta</strong>.</li>
+</ul>
+<h3 id="neplacani-zapisi">Neplačani zapisi<a class="headerlink" href="#neplacani-zapisi" title="Permanent link">&para;</a></h3>
+<p>Če dokument <strong>še ni plačan</strong>, je plačani znesek prikazan kot <strong>0,00</strong>, skupni znesek dokumenta pa je prikazan spodaj.</p>
+<p><img alt="Neplačan zapis" src="../../Images/CompanyCardsUnpaidSL.png" title="Neplačan zapis" /></p>
+<p>To pomeni:</p>
+<ul>
+<li>plačilo še ni bilo evidentirano,</li>
+<li>celoten znesek dokumenta je še vedno odprt.</li>
+</ul>
+<p>Ti vizualni prikazi omogočajo hiter pregled neplačanih, delno plačanih in v celoti plačanih dokumentov.</p>
+<h2 id="dejanja">Dejanja<a class="headerlink" href="#dejanja" title="Permanent link">&para;</a></h2>
+<h3 id="evidentiranje-placila">Evidentiranje plačila<a class="headerlink" href="#evidentiranje-placila" title="Permanent link">&para;</a></h3>
+<p>Plačilo lahko evidentirate neposredno na seznamu, ne da bi odprli povezani dokument.</p>
+<p>Kliknite na <strong>plačani znesek</strong>, vnesite novo vrednost in potrdite spremembo.</p>
+<p><img alt="Evidentiranje plačila" src="../../Images/CompanyCardsInputSL.png" title="Evidentiranje plačila" /></p>
+<p>Primer:</p>
+<ul>
+<li>če je plačani znesek <strong>0,00 €</strong>, lahko vnesete <strong>111,00 €</strong>,</li>
+<li>sistem bo evidentiral, da je za izbrani dokument plačanih <strong>111,00 €</strong>,</li>
+<li>status dokumenta se samodejno posodobi glede na evidentirani znesek.</li>
+</ul>
+<h2 id="opombe">Opombe<a class="headerlink" href="#opombe" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Ta pogled združuje <strong>bremenitve in dobroimetja</strong> v enem seznamu za lažje spremljanje stanja plačil.</li>
+<li>Sprememba plačanega zneska evidentira plačilo za izbrani dokument.</li>
+</ul>
+<p>Za podrobnejše informacije odprite povezani dokument:</p>
+<ul>
+<li><a href="../../Dokumenti/IzdaniRacuni/"><strong>Izdani računi</strong></a></li>
+<li><a href="../../Dokumenti/Dobropisi/"><strong>Dobropisi</strong></a></li>
+<li><a href="../../Dokumenti/Bremepisi/"><strong>Bremepisi</strong></a></li>
+</ul>
 
 
 

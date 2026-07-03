@@ -20,9 +20,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.37"
-     inkscape:cx="-94.594595"
-     inkscape:cy="-390.54054"
+     inkscape:zoom="1.046518"
+     inkscape:cx="494.0192"
+     inkscape:cy="76.921751"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -76,9 +76,10 @@
      id="rect1" />
   <text
      class="text"
-     x="90.231934"
-     y="43.175293"
-     id="text1">Osnutek</text>
+     x="90.366211"
+     y="43.331055"
+     id="text1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Osnutek</text>
   <rect
      class="box"
      x="281"
@@ -89,9 +90,10 @@
      id="rect2" />
   <text
      class="text"
-     x="370.88721"
-     y="40.85498"
-     id="text2">V pripravi</text>
+     x="371.58008"
+     y="40.881836"
+     id="text2"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">V pripravi</text>
   <rect
      class="box"
      x="561"
@@ -102,9 +104,10 @@
      id="rect3" />
   <text
      class="text"
-     x="651.47266"
-     y="43.041016"
-     id="text3">Aktiven</text>
+     x="651.59082"
+     y="43.331055"
+     id="text3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Aktiven</text>
   <rect
      class="box"
      x="841"
@@ -115,9 +118,10 @@
      id="rect4" />
   <text
      class="text"
-     x="931.24707"
-     y="43.169922"
-     id="text4">Zaključen</text>
+     x="931.2793"
+     y="41.091309"
+     id="text4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Zaključen</text>
   <rect
      class="activity"
      x="560.05444"
@@ -128,9 +132,10 @@
      id="rect6" />
   <text
      class="text"
-     x="650.88721"
-     y="180.61066"
-     id="text6">Izvedba</text>
+     x="650.61865"
+     y="180.9007"
+     id="text6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Izvedba</text>
   <line
      class="arrow"
      x1="181"

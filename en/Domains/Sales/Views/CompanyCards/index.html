@@ -330,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../GettingStarted/00.GettingStarted/" class="md-nav__link">
+      <a href="../../../../GettingStarted/GettingStarted/" class="md-nav__link">
         
   
   
@@ -3316,7 +3316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sl/Uvod/00.Uvod/" class="md-nav__link">
+      <a href="../../../../../sl/Uvod/Uvod/" class="md-nav__link">
         
   
   
@@ -6325,6 +6325,34 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#record-payment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Record payment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#usage-notes" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6360,62 +6388,80 @@
 
 <!-- app_route: /customers/company-cards -->
 <!-- app_label: Company cards -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Views/CompanyCards.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Views/CompanyCards/ -->
 <!-- canonical_source_title: Company cards -->
 
 <h1 id="company-cards">Company cards<a class="headerlink" href="#company-cards" title="Permanent link">&para;</a></h1>
-<p>The <strong>Company cards</strong> view provides a detailed overview of all <strong>debit and credit records</strong> related to each company. Instead of showing a single consolidated balance, this screen lists <strong>individual financial documents</strong> (such as <a href="../../Documents/IssuedInvoices/">issued invoices</a>, <a href="../../Documents/CreditNotes/">credit notes</a>, and <a href="../../Documents/DebitNotes/">debit notes</a>) and indicates whether each record is <strong>unpaid</strong>, <strong>partially paid</strong>, or <strong>fully paid</strong>.</p>
-<p>This view is intended for <strong>financial monitoring and reconciliation</strong> and does not allow creating or editing documents.</p>
+<p>The <strong>Company cards</strong> view provides a detailed overview of all <strong>debit and credit records</strong> related to each company. Instead of showing a single consolidated balance, this screen lists <strong>individual financial documents</strong> (such as <a href="../../Documents/IssuedInvoices/"><strong>Issued invoices</strong></a>, <a href="../../Documents/CreditNotes/"><strong>Credit notes</strong></a>, and <a href="../../Documents/DebitNotes/"><strong>Debit notes</strong></a>) and indicates whether each record is <strong>unpaid</strong>, <strong>partially paid</strong>, or <strong>fully paid</strong>.</p>
+<p>This view is intended for <strong>financial monitoring</strong>, allowing users to review payment status and <strong>record payments directly from the list</strong>.</p>
 <p>This view is available via <strong>Sales / Views / Company cards</strong> or <strong>Accounting / Ledger / Views / Company cards</strong> in the <a href="../../../../Common/UI/Navigation/">navigation</a>.</p>
-<p>The screen is also accessible from the <a href="../../../../Common/Management/BusinessDirectory/"><strong>Business directory</strong></a> page, by clicking on the <strong>Company cards</strong> tag of a specific company entry. In that case, the list will be pre-filtered to show only records related to the selected company.</p>
+<p>The screen is also accessible from the <a href="../../../../Common/Management/BusinessDirectory/"><strong>Business directory</strong></a> page by clicking on the <strong>Company cards</strong> tag of a specific company entry. In that case, the list will be pre-filtered to show only records related to the selected company.</p>
 <p><img alt="Company cards button" src="../../../../Common/Images/CompanyCardsButton.png" /></p>
 <h2 id="company-cards-list">Company cards list<a class="headerlink" href="#company-cards-list" title="Permanent link">&para;</a></h2>
 <p><img alt="Company cards overview" src="../../Images/CompanyCardsList.png" /></p>
 <p>Each entry represents a <strong>single financial record</strong> for a company, not a summarized balance.</p>
 <ul>
-<li><strong>Debit</strong> → The customer owes money to your company  </li>
-<li><strong>Credit</strong> → Your company owes money to the customer (e.g., over-payments, corrections)  </li>
+<li><strong>Debit</strong> → The customer owes money to your company</li>
+<li><strong>Credit</strong> → Your company owes money to the customer (for example, due to overpayments or credit adjustments)</li>
 </ul>
-<p>Clicking a row opens the related document (e.g., an <strong>issued invoice</strong>), allowing you to inspect or record payments.</p>
+<p>Clicking a row opens the related document (for example, an <strong>issued invoice</strong>).</p>
 <h3 id="filters">Filters<a class="headerlink" href="#filters" title="Permanent link">&para;</a></h3>
 <p>The left sidebar allows you to refine the results:</p>
 <ul>
-<li><strong>Created date</strong> – Filters invoices by creation date  </li>
-<li><strong>Due date</strong> – Filters invoices by due date  </li>
-<li><strong>Company card type</strong>  </li>
-<li><em>All</em>  </li>
-<li><em>Debit</em>  </li>
-<li><em>Credit</em>  </li>
-<li><strong>Company</strong> – Select a specific customer  </li>
+<li><strong>Created date</strong> – Filter documents by creation date.</li>
+<li><strong>Due date</strong> – Filter documents by due date.</li>
+<li><strong>Company card type</strong><ul>
+<li><em>All</em></li>
+<li><em>Debit</em></li>
+<li><em>Credit</em></li>
+</ul>
+</li>
+<li><strong>Company</strong> – Filter by a specific company.</li>
 </ul>
 <h2 id="payment-status-indicators">Payment status indicators<a class="headerlink" href="#payment-status-indicators" title="Permanent link">&para;</a></h2>
-<p>The Company cards view visually indicates the payment status of each debit or credit record by showing the <strong>outstanding amount</strong> and the <strong>original total amount</strong>.</p>
+<p>The Company cards view visually indicates the payment status of each debit or credit record by displaying both the <strong>paid amount</strong> and the <strong>original document total</strong>.</p>
 <h3 id="fully-paid-records">Fully paid records<a class="headerlink" href="#fully-paid-records" title="Permanent link">&para;</a></h3>
-<p>When a document has been <strong>fully paid</strong>, only the final settled amount is shown, indicating that no outstanding balance remains.</p>
+<p>When a document has been <strong>fully paid</strong>, only the total document amount is displayed.</p>
 <p><img alt="Fully paid record" src="../../Images/CompanyCardsFullyPaid.png" title="Fully paid record" /></p>
-<p>In this case:
-- The document is completely settled
-- There is no remaining open balance
-- The displayed amount represents the final paid value</p>
+<p>In this case:</p>
+<ul>
+<li>The document is completely settled.</li>
+<li>There is no remaining outstanding balance.</li>
+</ul>
 <h3 id="partially-paid-records">Partially paid records<a class="headerlink" href="#partially-paid-records" title="Permanent link">&para;</a></h3>
-<p>When a document has been <strong>partially paid</strong>, the outstanding amount is shown separately from the original total. This makes it easy to see how much is still open.</p>
+<p>When a document has been <strong>partially paid</strong>, the paid amount is displayed separately from the original document total.</p>
 <p><img alt="Partially paid record" src="../../Images/CompanyCardsPartiallyPaid.png" title="Partially paid record" /></p>
-<p>In this example:
-- The <strong>top amount</strong> represents the <strong>amount paid</strong>
-- The <strong>bottom amount</strong> represents the <strong>original document total</strong></p>
+<p>In this example:</p>
+<ul>
+<li>The <strong>top amount</strong> represents the <strong>paid amount</strong>.</li>
+<li>The <strong>bottom amount</strong> represents the <strong>original document total</strong>.</li>
+</ul>
 <h3 id="unpaid-records">Unpaid records<a class="headerlink" href="#unpaid-records" title="Permanent link">&para;</a></h3>
-<p>When a document has <strong>not been paid at all</strong>, the outstanding amount is shown as <strong>0.00</strong>, while the full document value is displayed below.</p>
+<p>When a document has <strong>not been paid</strong>, the paid amount is displayed as <strong>0.00</strong>, while the original document total is shown below.</p>
 <p><img alt="Unpaid record" src="../../Images/CompanyCardsUnpaid.png" title="Unpaid record" /></p>
-<p>This indicates that:
-- No payments have been applied yet
-- The full amount is still outstanding</p>
-<p>These visual cues allow you to quickly distinguish between unpaid, partially paid, and fully settled records without opening each document.</p>
+<p>This indicates that:</p>
+<ul>
+<li>No payment has been recorded.</li>
+<li>The full document amount remains outstanding.</li>
+</ul>
+<p>These visual indicators allow you to quickly distinguish between unpaid, partially paid, and fully settled documents.</p>
+<h2 id="actions">Actions<a class="headerlink" href="#actions" title="Permanent link">&para;</a></h2>
+<h3 id="record-payment">Record payment<a class="headerlink" href="#record-payment" title="Permanent link">&para;</a></h3>
+<p>Payments can be recorded directly from the Company cards list without opening the related document.</p>
+<p>Click the <strong>paid amount</strong>, enter the new value, and confirm the change.</p>
+<p><img alt="Record payment" src="../../Images/CompanyCardsInput.png" title="Record payment" /></p>
+<p>For example:</p>
+<ul>
+<li>If the paid amount is <strong>0.00</strong>, you can enter <strong>111.00</strong>.</li>
+<li>The system records <strong>111.00</strong> as the amount paid for the selected document.</li>
+<li>The payment status is updated automatically.</li>
+</ul>
 <h2 id="usage-notes">Usage notes<a class="headerlink" href="#usage-notes" title="Permanent link">&para;</a></h2>
 <ul>
-<li>This view aggregates <strong>debit and credit documents together</strong>, allowing quick inspection of payment status.  </li>
-<li>Use this view to track overdue payments, partial settlements, and credit positions at document level.</li>
+<li>This view aggregates <strong>debit and credit documents</strong> into a single list for easier payment monitoring.</li>
+<li>Recording a paid amount updates the payment status of the selected document.</li>
 </ul>
-<p>For applying payments or correcting balances, use the relevant document screens such as <a href="../../Documents/IssuedInvoices/"><strong>Issued invoices</strong></a>, <a href="../../Documents/CreditNotes/"><strong>Credit notes</strong></a>, or <a href="../../Documents/DebitNotes/"><strong>Debit notes</strong></a>.</p>
+<p>For detailed document information, open the related <a href="../../Documents/IssuedInvoices/"><strong>Issued invoices</strong></a>, <a href="../../Documents/CreditNotes/"><strong>Credit notes</strong></a>, or <a href="../../Documents/DebitNotes/"><strong>Debit notes</strong></a>.</p>
 
 
 

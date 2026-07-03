@@ -110,14 +110,14 @@
          id="rect5" />
       <g
          id="g20"
-         transform="translate(-299.87177,-10)">
+         transform="translate(-299.86835,-10.027344)">
         <text
            class="text"
            x="909.71796"
            y="85.208984"
            text-anchor="middle"
            id="text9-4"
-           style="font-size:14px;font-family:'Segoe UI', Arial, sans-serif;fill:#1a202c"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#1a202c"><tspan
              sodipodi:role="line"
              id="tspan14-9"
              x="909.71796"
@@ -133,10 +133,11 @@
       </g>
       <text
          class="text"
-         x="759.84619"
-         y="75.208984"
+         x="759.80518"
+         y="75.181641"
          text-anchor="middle"
-         id="text10">Plačila</text>
+         id="text10"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Plačila</text>
       <line
          class="arrow"
          x1="160"
@@ -168,36 +169,36 @@
          style="stroke:#2d3748;stroke-width:2;marker-end:url(#arrowhead-9)" />
       <g
          id="g19"
-         transform="translate(-310.15381,-15.46582)">
+         transform="translate(-309.7334,-15.243652)">
         <text
            class="text"
            x="750"
            y="80"
            text-anchor="middle"
            id="text11"
-           style="font-size:14px;font-family:'Segoe UI', Arial, sans-serif;fill:#1a202c">Dobavnica</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#1a202c">Dobavnica</text>
         <text
            class="text"
            x="749.84961"
            y="98"
            text-anchor="middle"
            id="text12"
-           style="font-size:14px;font-family:'Segoe UI', Arial, sans-serif;fill:#1a202c">+ Izdajnica</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#1a202c">+ Izdajnica</text>
       </g>
       <text
          class="text"
-         x="259.36426"
-         y="75.208984"
+         x="259.42578"
+         y="75.181641"
          text-anchor="middle"
          id="text10-5"
-         style="font-size:14px;font-family:'Segoe UI', Arial, sans-serif;fill:#1a202c">Naročilo strank</text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#1a202c">Naročilo strank</text>
       <text
          class="text"
-         x="89.846191"
-         y="75.099609"
+         x="89.805176"
+         y="75.181641"
          text-anchor="middle"
          id="text7"
-         style="font-size:14px;font-family:'Segoe UI', Arial, sans-serif;fill:#1a202c">Ponudba</text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#1a202c">Ponudba</text>
     </g>
   </g>
   <!-- Footer note -->
@@ -205,5 +206,6 @@
      class="text"
      x="20"
      y="150"
-     id="text13" />
+     id="text13"
+     style="-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" />
 </svg>

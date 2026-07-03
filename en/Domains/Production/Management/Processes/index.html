@@ -341,7 +341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../GettingStarted/00.GettingStarted/" class="md-nav__link">
+      <a href="../../../../GettingStarted/GettingStarted/" class="md-nav__link">
         
   
   
@@ -3514,7 +3514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sl/Uvod/00.Uvod/" class="md-nav__link">
+      <a href="../../../../../sl/Uvod/Uvod/" class="md-nav__link">
         
   
   
@@ -6663,7 +6663,7 @@
 
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Processes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/Processes/ -->
 <!-- canonical_source_title: Processes -->
 
 <h1 id="processes">Processes<a class="headerlink" href="#processes" title="Permanent link">&para;</a></h1>
@@ -6672,6 +6672,7 @@
 - <strong><a href="../../../Maintenance/Documents/MaintenanceOrders/">Maintenance orders</a></strong> for maintenance workflows</p>
 <p>This page allows you to create and manage processes, their versions, and their operational structure.</p>
 <p>A process may contain one or more <strong>versions</strong>, for example, different versions for different product sizes or maintenance variants. Each version contains a sequence of <a href="../Operations/"><strong>operations</strong></a>, which define inputs, resources (human and non-human), outputs, and quality requirements.</p>
+<p><img alt="Process structure diagram" src="../../Images/ProcessDiagram.svg" title="Process structure diagram" /></p>
 <p>To access this page, go to <strong>Production / Management / Processes</strong> in the <a href="../../../../Common/UI/Navigation/">navigation</a>. Processes are shared and can be tagged for Production or Maintenance usage.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -6825,6 +6826,10 @@
 <h2 id="quality-in-process-versions">Quality in process versions<a class="headerlink" href="#quality-in-process-versions" title="Permanent link">&para;</a></h2>
 <p>The <strong><a href="../QualityChecklists/">Quality</a></strong> button opens the configuration page for the selected process version or operation. This page allows you to assign one or more <a href="../../../Quality/Management/Checklists/"><strong>Checklists</strong></a>, which define the quality-control steps required during execution.</p>
 <p><img alt="Processes Versions Quality Button" src="../../Images/ProcessesVersionsQualityButton.png" title="Processes Versions Quality Button" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Quality checklists can be assigned either to the <strong>process version</strong> (applies to the entire process) or to individual <strong>operations</strong> (performed during a specific operation).</p>
+</div>
 <h2 id="delete-a-process">Delete a process<a class="headerlink" href="#delete-a-process" title="Permanent link">&para;</a></h2>
 <p>A process can be deleted only if it is <strong>not used by documents</strong> (e.g., production or maintenance orders) and <strong>not referenced by other processes</strong>.  </p>
 <p>To delete a process, select it from the list and click <strong>Delete</strong>. </p>
