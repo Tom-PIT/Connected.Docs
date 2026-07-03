@@ -1,6 +1,6 @@
 <!-- app_route: /planning -->
 <!-- app_label: Planiranje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Planiranje/Pregledi/Planiranje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Planiranje/Pregledi/Planiranje/ -->
 <!-- canonical_source_title: Planiranje -->
 
 # Planiranje

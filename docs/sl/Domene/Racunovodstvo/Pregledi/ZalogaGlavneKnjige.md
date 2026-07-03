@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/stock -->
 <!-- app_label: Zaloga glavne knjige -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/ZalogaGlavneKnjige.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/ZalogaGlavneKnjige/ -->
 <!-- canonical_source_title: Zaloga glavne knjige -->
 
 # Zaloga glavne knjige

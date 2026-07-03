@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/tickets -->
 <!-- app_label: Prijavljene napake -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/PrijavljeneNapake.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Vzdrzevanje/Dokumenti/PrijavljeneNapake/ -->
 <!-- canonical_source_title: Prijavljene napake -->
 
 # Prijavljene napake

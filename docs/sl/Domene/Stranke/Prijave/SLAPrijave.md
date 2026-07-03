@@ -1,6 +1,6 @@
 <!-- app_route: /customer-support/sla -->
 <!-- app_label: SLA prijave -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Prijave/SLAPrijave.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Stranke/Prijave/SLAPrijave/ -->
 <!-- canonical_source_title: SLA prijave -->
 
 # SLA prijave

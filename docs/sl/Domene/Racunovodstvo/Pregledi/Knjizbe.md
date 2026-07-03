@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/journal-entry-details -->
 <!-- app_label: Knjižbe -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/Knjizbe.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/Knjizbe/ -->
 <!-- canonical_source_title: Knjižbe -->
 
 # Knjižbe

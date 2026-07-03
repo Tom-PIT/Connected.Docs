@@ -1,6 +1,6 @@
 <!-- app_route: /management/sales/configuration -->
 <!-- app_label: Sales configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/SalesConfiguration.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Management/SalesConfiguration/ -->
 <!-- canonical_source_title: Sales configuration -->
 
 # Sales configuration

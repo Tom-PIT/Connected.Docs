@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/07.CreateAndMaintainKnowledgeBase.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/CreateAndMaintainKnowledgeBase/ -->
 <!-- canonical_source_title: Create and maintain a knowledge base -->
 
 # Create and maintain a knowledge base

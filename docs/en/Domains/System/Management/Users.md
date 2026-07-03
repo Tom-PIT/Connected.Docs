@@ -1,6 +1,6 @@
 <!-- app_route: /management/users -->
 <!-- app_label: Users -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Management/Users.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/System/Management/Users/ -->
 <!-- canonical_source_title: Users -->
 
 # Users

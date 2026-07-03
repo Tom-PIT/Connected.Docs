@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/00.GettingStarted.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/GettingStarted/ -->
 <!-- canonical_source_title: Getting started -->
 
 # Getting started
@@ -26,11 +26,14 @@ More information on the structure and navigation inside the platform can be foun
 
 The following scenarios demonstrate typical end-to-end business processes and are recommended for new users becoming familiar with the platform.
 
-1. **[Prerequisites](01.Prerequisites.md)**
-2. **[Sales process with prepayment](02.SalesProcessWithPrepayment.md)**
-3. **[Sales process without prepayment](03.SalesProcessWithoutPrepayment.md)**
-4. **[Improving production efficiency](04.Efficiency.md)**
-5. **[Restock or produce](05.RestockOrProduce.md)**
+1. [**Prerequisites**](Prerequisites.md)
+2. [**Sales process with prepayment**](SalesProcessWithPrepayment.md)
+3. [**Sales process without prepayment**](SalesProcessWithoutPrepayment.md)
+4. [**Improving production efficiency**](Efficiency.md)
+5. [**Restock or produce**](RestockOrProduce.md)
+6. [**Create and maintain a knowledge base**](CreateAndMaintainKnowledgeBase.md)
+7. [**Add two-factor authentication (2FA)**](TwoFactorAuthentication.md)
+ 
 
 ## Quick user guides
 

@@ -1,6 +1,6 @@
 <!-- app_route: /production/documents/consumptions --> 
 <!-- app_label: Consumptions --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Consumptions.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/Consumptions/ --> 
 <!-- canonical_source_title: Consumptions -->
 
 # Consumptions

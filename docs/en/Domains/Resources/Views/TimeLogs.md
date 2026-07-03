@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/resources.timeLogs -->
 <!-- app_label: Time logs -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/TimeLogs.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Views/TimeLogs/ -->
 <!-- canonical_source_title: Time logs -->
 
 # Time logs

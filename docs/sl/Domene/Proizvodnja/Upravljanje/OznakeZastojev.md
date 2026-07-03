@@ -1,6 +1,6 @@
 <!-- app_route: /management/downtime -->
 <!-- app_label: Oznake zastojev -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/OznakeZastojev.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/OznakeZastojev/ -->
 <!-- canonical_source_title: Oznake zastojev -->
 
 # Oznake zastojev

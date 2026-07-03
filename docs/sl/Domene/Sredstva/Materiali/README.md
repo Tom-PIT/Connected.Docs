@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/assets.materials -->
 <!-- app_label: Materiali -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/ -->
 <!-- canonical_source_title: Materiali -->
 
 # Materiali

@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/inters --> 
 <!-- app_label: Med-skladiščni promet --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/MedSkladiscniPromet.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/MedSkladiscniPromet/ --> 
 <!-- canonical_source_title: Med-skladiščni promet -->
 
 # Med-skladiščni promet

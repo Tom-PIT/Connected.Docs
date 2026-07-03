@@ -1,11 +1,11 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/05.ObnovaAliProizvodnja.md -->
-<!-- canonical_source_title: Obnova zaloge ali proizvodnja -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/NabavaAliProizvodnja/ -->
+<!-- canonical_source_title: Nabava ali proizvodnja -->
 
-# Obnova zaloge ali proizvodnja
+# Nabava ali proizvodnja
 
 Ta vodič v preprostih korakih pojasnjuje, kaj storiti, ko prejmete naročilo stranke in pred dobavo nimate dovolj zaloge.
 
-- **Lahko dokupite (obnova zaloge)** — naročite manjkajoče blago pri dobavitelju.  
+- **Lahko dokupite (nabava)** — naročite manjkajoče blago pri dobavitelju.  
   Primer: prodajate borove mize in imate na zalogi 2 kosa, potrebujete pa jih 10. Ustvarite **nabavni nalog** za 8 končnih miz (ali za les, noge, vijake, če jih sestavljate interno).
 - **Ali proizvedete (izdelava)** — manjkajoče izdelke izdelate z lastnim procesom.  
   Primer: izdelujete borove mize iz lesa in okovja. Ustvarite **proizvodni nalog** za 8 miz in porabite potrebne materiale.
@@ -30,12 +30,12 @@ Ta vodič v preprostih korakih pojasnjuje, kaj storiti, ko prejmete naročilo st
 - Pri ustvarjanju dokumenta **[Izdajnica](../Domene/Logistika/Dokumenti/Izdajnice.md)**, na primer preko **Povezani dokumenti → + Polna izdaja**, sistem ob nezadostni zalogi prikaže opozorilo in vam ne dovoli nadaljevanja ali objave, dokler količine niso na voljo.
 - V proizvodnji odprite **[Zahteve](../Domene/Proizvodnja/Dokumenti/Zahteve.md)**, kjer vidite, kateri materiali ali polizdelki manjkajo za planirane operacije.
 
-### 2. Odločitev: obnova zaloge ali proizvodnja
+### 2. Odločitev: nabava ali proizvodnja
 
-- Če kupujete/prodajate končne izdelke → nadaljujte z **obnovo zaloge**.
-- Če izdelke proizvajate → nadaljujte s **proizvodnjo** (in po potrebi obnovo zaloge surovin/polizdelkov).
+- Če kupujete/prodajate končne izdelke → nadaljujte z **nabavo**.
+- Če izdelke proizvajate → nadaljujte s **proizvodnjo** (in po potrebi nabavo surovin/polizdelkov).
 
-### 3. Obnova zaloge (dokup)
+### 3. Nabava (dokup)
 
 <!-- app_route: /supply/documents/inquiries -->
 <!-- app_label: Povpraševanja -->
@@ -49,7 +49,7 @@ Ta vodič v preprostih korakih pojasnjuje, kaj storiti, ko prejmete naročilo st
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Nabavni nalogi -->
 
-#### 3.2 Ustvarite nabavno naročilo
+#### 3.2 Ustvarite nabavni nalog
 
 - Iz povpraševanja (ali neposredno) izberite **Povezani dokumenti → [+ Nabavni nalog](../Domene/Nabava/Dokumenti/NabavniNalogiUstvarjanje.md)**
 
@@ -62,7 +62,7 @@ Ta vodič v preprostih korakih pojasnjuje, kaj storiti, ko prejmete naročilo st
 
 #### 3.3 Prevzem v zalogo
 
-1. V nabavnem naročilu odprite **Povezani dokumenti → [+ Prevzem](../Domene/Logistika/Dokumenti/Prevzemi.md)**.
+1. V nabavnem nalogu odprite **Povezani dokumenti → [+ Prevzem](../Domene/Logistika/Dokumenti/Prevzemi.md)**.
 2. Izberite skladišče in lokacije, potrdite prejete količine; kliknite **Objavi**.
 3. (Neobvezno) Preverite stanje v **[Zalogi](../Domene/Logistika/Pregledi/Zaloga.md)** ali **[Pogledu zaloge po lokacijah](../Domene/Logistika/Pregledi/PogledZalogePoLokacijah.md)**.
 
@@ -117,8 +117,8 @@ Uporabite modul **[Izvedba](../Domene/Proizvodnja/Dokumenti/Izvedba.md)** za spr
 ### 5. Nadaljujte prodajni proces
 
 - Vrnite se na **Naročilo stranke** in sledite vodičem za dobavo/obračun:
-  - **[Prodajni proces (s predplačilom)](02.ProdajniProcesSAvansnimRacunom.md)**
-  - **[Prodajni proces (brez predplačila)](03.ProdajniProcesBrezAvansnegaRacuna.md)**
+  - **[Prodajni proces (s predplačilom)](ProdajniProcesSAvansnimRacunom.md)**
+  - **[Prodajni proces (brez predplačila)](ProdajniProcesBrezAvansnegaRacuna.md)**
 
 > [!TIP]
 > Po zaključku lahko vse podrobnosti pregledate v seznamu zaključenih **[Proizvodnih nalogov](../Domene/Proizvodnja/Dokumenti/ProizvodniNalogi.md)**.

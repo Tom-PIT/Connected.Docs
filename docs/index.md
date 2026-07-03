@@ -10,13 +10,13 @@ Documentation is organized by language/country because regulations and processes
 
 - ### **English**
     - [**Home**](en/README.md) – Main entry point to the documentation portal in English.
-    - [**Getting started**](en/GettingStarted/00.GettingStarted.md) – Overview of the structure, first steps to configure the system, and typical workflow overviews.
+    - [**Getting started**](en/GettingStarted/GettingStarted.md) – Overview of the structure, first steps to configure the system, and typical workflow overviews.
     - [**Navigation**](en/Common/UI/Navigation.md) – How to find domains, documents, and settings using the sitemap and breadcrumbs.
 
 - ### **Slovenščina**
 
     - [**Domov**](sl/README.md) – Glavna vstopna točka v dokumentacijski portal v slovenščini.
-    - [**Uvod**](sl/Uvod/00.Uvod.md) – Pregled strukture, prvi koraki za nastavitev sistema in tipični poteki dela.
+    - [**Uvod**](sl/Uvod/Uvod.md) – Pregled strukture, prvi koraki za nastavitev sistema in tipični poteki dela.
     - [**Navigacija**](sl/Skupno/UI/Navigacija.md) – Kako najti domene, dokumente in nastavitve z uporabo zemljevida in navigacijskih poti.
 
 </div>

@@ -1,7 +1,7 @@
 <!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- app_navigation_hint: Odprite zaslon Države in kliknite oznako Poštne številke pod imenom države. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PostneStevilke.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Upravljanje/PostneStevilke/ -->
 <!-- canonical_source_title: Poštne številke -->
 
 # Poštne številke

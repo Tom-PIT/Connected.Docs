@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/documents/received-invoices -->
 <!-- app_label: Create a new received invoice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/ReceivedInvoicesCreate.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Documents/ReceivedInvoicesCreate/ -->
 <!-- canonical_source_title: How to create a new received invoice -->
 
 # How to create a new received invoice

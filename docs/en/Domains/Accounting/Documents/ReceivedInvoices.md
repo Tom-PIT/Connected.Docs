@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/documents/received-invoices -->
 <!-- app_label: Received invoices -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Documents/ReceivedInvoices.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Documents/ReceivedInvoices/ -->
 <!-- canonical_source_title: Received invoices -->
 
 # Received invoices

@@ -1,6 +1,6 @@
 <!-- app_route: /quality/views/active-checklists -->
 <!-- app_label: Active checklists -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/Views/ActiveChecklists.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Quality/Views/ActiveChecklists/ -->
 <!-- canonical_source_title: Active checklists -->
 
 # Active checklists

@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/material-price-lists -->
 <!-- app_label: Material price lists -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/MaterialPriceLists.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/MaterialPriceLists/ -->
 <!-- canonical_source_title: Material price lists -->
 
 # Material price lists

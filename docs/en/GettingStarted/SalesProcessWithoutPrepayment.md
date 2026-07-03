@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/03.SalesProcessWithoutPrepayment.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/SalesProcessWithoutPrepayment/ -->
 <!-- canonical_source_title: Sales process (without prepayment) -->
 
 # Sales process (without prepayment)
@@ -50,7 +50,7 @@ Create a sales order to reserve stock and plan fulfillment.
 
 ### 2a. Restock or produce (if needed)
 
-If items are unavailable, see **[Restock or produce](05.RestockOrProduce.md)** for options to procure or manufacture before delivery.
+If items are unavailable, see **[Restock or produce](RestockOrProduce.md)** for options to procure or manufacture before delivery.
 
 For production companies, a quick way to create a production order is from the published sales order: 
 - **Linked documents → [**+ Production order**](../Domains/Production/Documents/ProductionOrderCreate.md)**.

@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/sets -->
 <!-- app_label: Garniture -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Garniture.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/Garniture/ -->
 <!-- canonical_source_title: Garniture -->
 
 # Garniture

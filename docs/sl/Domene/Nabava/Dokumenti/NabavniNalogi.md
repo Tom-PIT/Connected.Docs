@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Nabavni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/NabavniNalogi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Dokumenti/NabavniNalogi/ -->
 <!-- canonical_source_title: Nabavni nalogi -->
 
 # Nabavni nalogi

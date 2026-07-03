@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/timesheets -->
 <!-- app_label: Časovni plani -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/CasovniPlani.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Upravljanje/CasovniPlani/ -->
 <!-- canonical_source_title: Časovni plani -->
 
 # Časovni plani

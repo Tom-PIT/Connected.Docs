@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/03.ProdajniProcesBrezPredplacila.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/03.ProdajniProcesBrezPredplacila/ -->
 <!-- canonical_source_title: Prodajni proces (brez avansnega računa) -->
 
 # Prodajni proces (brez avansnega računa)
@@ -47,7 +47,7 @@ Ustvarite naročilo stranke za rezervacijo zaloge in planiranje izvedbe.
 
 ### 2a. Obnovite zalogo ali proizvedite (po potrebi)
 
-Če izdelki niso na voljo, glejte **[Obnova zaloge ali proizvodnja](05.ObnovaAliProizvodnja.md)** za možnosti nabave ali proizvodnje pred dobavo.
+Če izdelki niso na voljo, glejte **[Obnova zaloge ali proizvodnja](NabavaAliProizvodnja.md)** za možnosti nabave ali proizvodnje pred dobavo.
 
 Za proizvodna podjetja je hiter način ustvarjanja proizvodnega naloga neposredno iz objavljenega naročila stranke:
 - **Povezani dokumenti → [**+ Proizvodni nalog**](../Domene/Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md)**

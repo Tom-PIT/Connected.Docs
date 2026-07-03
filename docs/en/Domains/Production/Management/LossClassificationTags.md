@@ -1,6 +1,6 @@
 <!-- app_route: /management/incompliant-production-tags -->
 <!-- app_label: Loss classification tags -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/LossClassificationTags.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/LossClassificationTags/ -->
 <!-- canonical_source_title: Loss classification tags -->
 
 # Loss classification tags

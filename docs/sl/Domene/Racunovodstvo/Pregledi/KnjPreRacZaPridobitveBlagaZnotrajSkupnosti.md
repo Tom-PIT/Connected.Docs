@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/received-invoices-supply-of-goods -->
 <!-- app_label: Prejeti računi za pridobitve blaga znotraj skupnosti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Pregledi/KnjPreRacZaPridobitveBlagaZnotrajSkupnosti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Pregledi/KnjPreRacZaPridobitveBlagaZnotrajSkupnosti/ -->
 <!-- canonical_source_title: Prejeti računi za pridobitve blaga znotraj skupnosti -->
 
 # Knjižnica prejetih računov za pridobitve blaga znotraj skupnosti

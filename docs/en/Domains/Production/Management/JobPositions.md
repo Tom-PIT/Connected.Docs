@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/job-positions -->
 <!-- app_label: Job positions -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/JobPositions.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/JobPositions/ -->
 <!-- canonical_source_title: Job positions -->
 
 # Job positions

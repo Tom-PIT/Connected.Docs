@@ -7,7 +7,7 @@
    aria-label="Production efficiency flow"
    version="1.1"
    id="svg13"
-   sodipodi:docname="EfficiencyFlow.svg"
+   sodipodi:docname="EfficiencyFlowSL.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,9 +22,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.141656"
-     inkscape:cx="592.12232"
-     inkscape:cy="105.54843"
+     inkscape:zoom="0.8072727"
+     inkscape:cx="480.63065"
+     inkscape:cy="58.840092"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -90,32 +90,32 @@
        id="rect4" />
     <text
        class="text"
-       x="121.1888"
-       y="99.812508"
+       x="121.39844"
+       y="100.10418"
        text-anchor="middle"
        id="text4"
-       style="font-size:18.6667px">Definirajte oznake procesov</text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:Roboto">Definirajte oznake procesov</text>
     <text
        class="text"
-       x="391.53516"
-       y="99.762375"
+       x="391.62631"
+       y="100.10418"
        text-anchor="middle"
        id="text6"
-       style="font-size:18.6667px">Izvedite zapis</text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:Roboto">Izvedite zapis</text>
     <text
        class="text"
-       x="666.51691"
-       y="99.71225"
+       x="666.57159"
+       y="100.05405"
        text-anchor="middle"
        id="text8"
-       style="font-size:18.6667px">Pregledate KPIs in Povzeteke</text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:Roboto">Pregledate KPIs in Povzeteke</text>
     <text
        class="text"
-       x="967.06183"
-       y="99.71225"
+       x="967.32159"
+       y="100.05405"
        text-anchor="middle"
        id="text10"
-       style="font-size:18.6667px">Ukrepi na podlagi ugotovitev</text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Roboto;-inkscape-font-specification:Roboto">Ukrepi na podlagi ugotovitev</text>
     <line
        class="arrow"
        x1="242"
@@ -143,5 +143,6 @@
      class="note"
      x="20"
      y="160"
-     id="text13" />
+     id="text13"
+     style="-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" />
 </svg>

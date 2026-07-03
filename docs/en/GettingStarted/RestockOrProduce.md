@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/05.RestockOrProduce.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/RestockOrProduce/ -->
 <!-- canonical_source_title: Restock or produce -->
 
 # Restock or produce
@@ -111,8 +111,8 @@ Use the **[Execution](../Domains/Production/Documents/Execution.md)** module to 
 ### 5. Continue the sales flow
 
 - Return to the **Sales Order** and follow the delivery/invoicing tutorials:
-  - **[Sales process (with prepayment)](02.SalesProcessWithPrepayment.md)**
-  - **[Sales process (without prepayment)](03.SalesProcessWithoutPrepayment.md)**
+  - **[Sales process (with prepayment)](SalesProcessWithPrepayment.md)**
+  - **[Sales process (without prepayment)](SalesProcessWithoutPrepayment.md)**
 
 > [!TIP]
 > After completion, you can review any details in the list of closed [**Production orders**](../Domains/Production/Documents/ProductionOrders.md).

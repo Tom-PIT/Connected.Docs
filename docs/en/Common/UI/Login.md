@@ -1,6 +1,6 @@
 <!-- app_route: /login -->
 <!-- app_label: Login -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/UI/Login.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/UI/Login/ -->
 <!-- canonical_source_title: Login -->
 
 # Login

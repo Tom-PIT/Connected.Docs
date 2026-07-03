@@ -1,6 +1,6 @@
 <!-- app_route: /work-items-costs -->
 <!-- app_label: Stroški opravil -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/StroskiOpravil.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Pregledi/StroskiOpravil/ -->
 <!-- canonical_source_title: Stroški opravil -->
 
 # Stroški opravil
@@ -85,4 +85,15 @@ V tem razdelku so prikazani vsi dodatni stroški, povezani z opravilom (na prime
   - cen materialov,
   - beleženja dela.
 - Ta pogled najpogosteje uporabljajo vodje proizvodnje in analitiki.
+
+## Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz v PDF**
+- **Ponovno izračunaj** – ponovno izračuna stroške izbranega opravila ali verzije procesa na podlagi trenutnih materialov, virov in stroškov.
+
+Za več informacij o dejanjih v meniju glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 

@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/requirements -->
 <!-- app_label: Requirements -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Requirements.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/Requirements/ -->
 <!-- canonical_source_title: Requirements -->
 
 # Requirements

@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/exchange-rates -->
 <!-- app_label: Exchange rates -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/ExchangeRates.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Management/ExchangeRates/ -->
 <!-- canonical_source_title: Exchange rates -->
 
 # Exchange rates

@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/institutional-sectors -->
 <!-- app_label: Institucionalni sektorji -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Upravljanje/InstitucionalniSektorji.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Stranke/Upravljanje/InstitucionalniSektorji/ -->
 <!-- canonical_source_title: Institucionalni sektorji -->
 
 # Institucionalni sektorji

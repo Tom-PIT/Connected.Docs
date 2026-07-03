@@ -8,7 +8,7 @@ Tom PIT.Connected je integrirana poslovna platforma, ki pokriva prodajo, nabavo,
 
 ### Prvič uporabljate sistem?
 
-- [**Uvod**](Uvod/00.Uvod.md) – Pregled platforme, osnovnih konceptov in prvih korakov.
+- [**Uvod**](Uvod/Uvod.md) – Pregled platforme, osnovnih konceptov in prvih korakov.
 - [**Navigacija**](Skupno/UI/Navigacija.md) – Kako uporabljati zemljevid sistema in navigacijske poti.
 
 ### Iščete nastavitve ali šifrante?

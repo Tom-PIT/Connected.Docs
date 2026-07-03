@@ -1,7 +1,7 @@
 <!-- app_route: /sales/documents/issued-invoices -->
 <!-- app_label: Izdani računi -->
 <!-- app_navigation_hint: Odprite Izdane račune, nato kliknite akcijski gumb za ustvarjanje novega osnutka računa. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/IzdaniRacuniUstvarjanje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/IzdaniRacuniUstvarjanje/ -->
 <!-- canonical_source_title: Kako ustvariti izdani račun -->
 
 # Kako ustvariti izdani račun

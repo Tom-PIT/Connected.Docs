@@ -1,6 +1,6 @@
 <!-- app_route: /sales/views/delivery-note-reports -->
 <!-- app_label: Poročila dobavnic -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/PorocilaDobavnic.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Pregledi/PorocilaDobavnic/ -->
 <!-- canonical_source_title: Poročila dobavnic -->
 
 # Poročila dobavnic

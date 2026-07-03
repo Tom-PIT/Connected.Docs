@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/supply -->
 <!-- app_label: Nabava -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/ -->
 <!-- canonical_source_title: Nabava -->
 
 # Nabava

@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/01.Prerequisites.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/Prerequisites/ -->
 <!-- canonical_source_title: Prerequisites -->
 
 # Prerequisites
@@ -131,5 +131,5 @@ You have now added the minimum required data to carry out a standard business pr
 
 ### Next steps
 Explore end-to-end scenarios to see how these prerequisites fit into workflows:
-- **[Sales process (with prepayment)](02.SalesProcessWithPrepayment.md)**
-- **[Sales process (without prepayment)](03.SalesProcessWithoutPrepayment.md)**
+- **[Sales process (with prepayment)](SalesProcessWithPrepayment.md)**
+- **[Sales process (without prepayment)](SalesProcessWithoutPrepayment.md)**

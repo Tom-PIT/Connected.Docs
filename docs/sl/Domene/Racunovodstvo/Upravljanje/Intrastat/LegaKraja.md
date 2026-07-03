@@ -1,6 +1,6 @@
 <!-- app_route: /management/intrastat/place-of-delivery -->
 <!-- app_label: Lega kraja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/LegaKraja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/LegaKraja/ -->
 <!-- canonical_source_title: Lega kraja -->
 
 # Lega kraja

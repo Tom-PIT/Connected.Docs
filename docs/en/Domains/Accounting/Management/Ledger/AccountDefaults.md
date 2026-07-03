@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /management/ledger/account-defaults -->
 <!-- app_label: Account defaults -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/AccountDefaults.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Ledger/AccountDefaults/ -->
 <!-- canonical_source_title: Account defaults -->
 
 # Account defaults

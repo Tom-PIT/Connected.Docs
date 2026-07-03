@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/worksheet-types -->
 <!-- app_label: Availability plan types -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/AvailabilityPlanTypes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/AvailabilityPlanTypes/ -->
 <!-- canonical_source_title: Availability plan types -->
 
 # Availability plan types
