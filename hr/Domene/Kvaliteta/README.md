@@ -1,50 +1,52 @@
 <!-- app_route: /sitemap/quality -->
-<!-- app_label: Quality -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/README.md -->
-<!-- canonical_source_title: Quality -->
+<!-- app_label: Kvaliteta -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Kvaliteta/README.md -->
+<!-- canonical_source_title: Kvaliteta -->
 
-# Quality
+# Kvaliteta
 
-The **Quality** domain provides a focused workspace to visualize and manage operational **checklists** used across production and maintenance. It centralizes how checklists are defined (via templates), executed by operators, and reviewed for compliance and traceability.
+Domena **Kvaliteta** pruža centralno mjesto za upravljanje i pregled **kontrolnih popisa** koji se koriste u proizvodnji i održavanju. Omogućuje definiranje kontrolnih popisa, njihovo izvršavanje tijekom rada te pregled rezultata radi osiguranja kvalitete i sljedivosti.
 
-Use this domain to:
-- Monitor active checklist executions on the shop floor or in maintenance
-- Review and analyze completed checklists for compliance and continuous improvement
-- Access and maintain the checklist definitions used in day-to-day operations
+Koristite ovu domenu za:
 
-To access the Quality domain, navigate to **Quality** in the [navigation](../../Zajednicko/UI/Navigacija.md).
+- Praćenje aktivnih izvršavanja kontrolnih popisa u proizvodnji i održavanju.
+- Pregled i analizu dovršenih kontrolnih popisa.
+- Upravljanje predlošcima kontrolnih popisa koji se koriste u svakodnevnom radu.
 
-![Quality Sitemap](Images/QualitySitemap.png)
+Za pristup domeni otvorite **Kvaliteta** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
+
+![Karta domene Kvaliteta](Images/QualitySitemapHR.png)
 
 > [!NOTE]
-> The available domains depend on each company’s configuration and business model.
+> Dostupne domene ovise o konfiguraciji i poslovnom modelu pojedine tvrtke.
 
-## What is included in the Quality domain?
+## Što sadrži domena Kvaliteta?
 
-![Quality Domain Overview](Images/QualityDomainOverview.png "Quality Domain overview")
+![Pregled domene Kvaliteta](Images/QualityDomainOverviewHR.png "Pregled domene Kvaliteta")
 
-The domain is structured into two functional areas:
-- **Management** - Configure and maintain checklist definitions used by production and maintenance.
-- **Views** - Operate and analyze real-time and historical checklist executions.
+Domena je organizirana u dva funkcionalna područja:
 
-> [!TIP]
-> See [**How to create a quality checklist**](Management/ChecklistCreate.md) for a step-by-step guide of the creation of these documents.
-
-### Management
-
-- The [**Checklists**](../Quality/Management/Checklists.md) code list lets you manage checklist templates (structure, steps, criteria, and thresholds).
-- The [**Measure units**](../../Common/Management/MeasureUnits.md) code list allows you to define units of measure used in checklist criteria (e.g., temperature in °C, pressure in bar). 
-
-![Projects Domain Management](Images/QualityDomainManagement.png)
+- **Upravljanje** – definiranje i održavanje kontrolnih popisa.
+- **Pregledi** – praćenje i analiza aktivnih i dovršenih izvršavanja kontrolnih popisa.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> Za detaljne upute pogledajte **[Izrada kontrolnog popisa](Upravljanje/KontrolniPopisiIzrada.md)**.
 
-### Views
+## Upravljanje
 
-The views section focuses on monitoring active and completed quality executions
+- [**Kontrolni popisi**](Upravljanje/KontrolniPopisi.md) – upravljanje predlošcima kontrolnih popisa, njihovim kontrolnim točkama i kriterijima provjere.
+- [**Mjerne jedinice**](../../Zajednicko/Upravljanje/MjerneJedinice.md) – definiranje mjernih jedinica koje se koriste u brojčanim kontrolnim točkama (npr. °C, kg ili bar).
 
-  - [**Active checklists**](Views/ActiveChecklists.md) — View all checklists currently in progress or awaiting completion. Typical columns include checklist name, process/asset, assignee, start time, due date, and status. Common actions: open the record, continue execution, or mark as completed (subject to permissions).
-  - [**Completed checklists**](Views/CompletedChecklists.md) — Review finished checklists with outcomes, timestamps, responsible users, and any recorded nonconformities. Supports filtering (date ranges, processes, business units, results) and exporting for audits.
+![Upravljanje kvalitetom](Images/QualityDomainManagementHR.png)
 
-![Quality Domain Views](Images/QualityDomainViews.png "Quality Domain views")
+> [!TIP]
+> Pregled svih šifrarnika dostupan je u **[Indeksu upravljanja](../../IndeksUpravljanja.md)**.
+
+## Pregledi
+
+Područje **Pregledi** omogućuje praćenje i analizu izvršavanja kontrolnih popisa.
+
+- [**Aktivni kontrolni popisi**](Pregledi/AktivniKontrolniPopisi.md) – pregled svih kontrolnih popisa koji su trenutno u tijeku ili čekaju dovršetak. Omogućuje nastavak izvršavanja i pregled detalja pojedinog kontrolnog popisa.
+- [**Gotovi kontrolni popisi**](Pregledi/GotoviKontrolniPopisi.md) – pregled dovršenih kontrolnih popisa s rezultatima, odgovornim korisnicima i detaljnim izvješćima. Omogućuje analizu uspješnosti te filtriranje rezultata za potrebe kontrole kvalitete i revizije.
+
+![Pregledi kvalitete](Images/QualityDomainViewsHR.png "Pregledi kvalitete")
