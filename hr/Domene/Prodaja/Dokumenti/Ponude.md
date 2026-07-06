@@ -71,7 +71,7 @@ Tipičan tijek rada:
 | [**Roba ili usluga**](../../RobaIUsluge/RobaIUsluge/RobaIUsluge.md) | Roba ili usluga koja se nudi. |
 | **Datum isporuke** | Planirani datum isporuke stavke. |
 | **Količina** | Količina robe ili usluge. |
-| **Cijena bez PDV-a (jedinična)** | Jedinična cijena preuzeta iz konfiguracije robe ili odgovarajućeg [cjenika](../../RobaIUsluge/RobaIUsluge/Cjenici.md). |
+| **Cijena bez PDV-a (jedinična)** | Jedinična cijena preuzeta iz konfiguracije robe ili odgovarajućeg [cjenika](../../RobaIUsluge/RobaIUsluge/CjeniciStavki.md). |
 | **Popust (%)** | Opcionalni popust primijenjen na pojedinu stavku. |
 | [**Porezne stope**](../../../Zajednicko/Upravljanje/PorezneStope.md) | Primijenjena porezna stopa. |
 | [**Intrastat – Tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Tarifni broj koji se koristi za Intrastat izvještavanje. |

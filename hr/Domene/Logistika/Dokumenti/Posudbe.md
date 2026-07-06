@@ -23,8 +23,8 @@ Za pristup dokumentu **Posudbe** otvorite **Logistika / Dokumenti / Posudbe** u 
 |-------|------|
 | [**Oznaka**](../../../Zajednicko/UI/OznakeDokumenata.md) | Jedinstvena oznaka dokumenta posudbe koju automatski generira sustav. |
 | **Datum dokumenta** | Datum izrade dokumenta posudbe. |
-| [**Skladište**](../Management/Warehouses.md) | Skladište iz kojeg se materijal posuđuje (obavezno). |
-| **Kontakt** | Kupac ili partner kojem se materijal posuđuje, odabran iz [Poslovnog imenika](../../../Common/Management/BusinessDirectory.md) (obavezno). |
+| [**Skladište**](../Upravljanje/Skladista.md) | Skladište iz kojeg se materijal posuđuje (obavezno). |
+| **Kontakt** | Kupac ili partner kojem se materijal posuđuje, odabran iz [Poslovnog imenika](../../../Zajednicko/Upravljanje/PoslovniImenik.md) (obavezno). |
 | **Napomene** | Dodatne napomene vezane uz posudbu. |
 
 </details>
@@ -34,10 +34,10 @@ Za pristup dokumentu **Posudbe** otvorite **Logistika / Dokumenti / Posudbe** u 
 
 | Polje | Opis |
 |-------|------|
-| [**Materijal**](../../Assets/Materials/README.md) | Materijal koji se posuđuje (proizvod, sirovina, poluproizvod, repromaterijal i slično). |
+| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Materijal koji se posuđuje (proizvod, sirovina, poluproizvod, repromaterijal i slično). |
 | **Serijski broj** | Odabrani serijski broj za serijalizirani materijal. |
 | **Upotrebljivo najmanje do** | Datum isteka roka trajanja, ako je primjenjivo. |
-| [**Skladišna lokacija**](../Management/Locations.md) | Lokacija s koje se materijal preuzima. |
+| [**Skladišna lokacija**](../Upravljanje/Lokacije.md) | Lokacija s koje se materijal preuzima. |
 | **Količina (kom)** | Količina koja se posuđuje. Prije spremanja potrebno je unijeti odgovarajuću vrijednost. |
 
 </details>
@@ -60,7 +60,7 @@ Boja oznake prikazuje status dokumenta:
 
 Kliknite dokument kako biste otvorili njegove pojedinosti.
 
-![Loans list](../Images/LoansList.png)
+![Loans list](../Images/LoansListHR.png)
 
 ## Radnje
 
@@ -68,7 +68,7 @@ Kliknite dokument kako biste otvorili njegove pojedinosti.
 
 1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za izradu novog dokumenta posudbe te odaberite **Skladište** i **Kontakt**.
 
-   ![New loan](../Images/LoansNew.png)
+   ![New loan](../Images/LoansNewHR.png)
 
 2. U odjeljku **Stavke** skenirajte ili upišite **serijski broj**, **EAN** ili **naziv materijala**.
 
@@ -78,7 +78,7 @@ Kliknite dokument kako biste otvorili njegove pojedinosti.
    - sve materijale koji odgovaraju unesenom pojmu
    - ako postoji više podudaranja, prikazuje se popis za odabir
 
-   ![Multiple matches](../Images/LoansNewDetailsSearch.png)
+   ![Multiple matches](../Images/LoansNewDetailsSearchHR.png)
 
 3. Odaberite odgovarajući materijal.
 
@@ -88,9 +88,9 @@ Kliknite dokument kako biste otvorili njegove pojedinosti.
 
    Količina se unosi u prozoru **Uredi stavku**.
 
-   ![Loan detail](../Images/LoansNewDetails.png)
+   ![Loan detail](../Images/LoansNewDetailsHR.png)
 
-   Više informacija o radu sa stavkama dokumenta potražite u dokumentu [**Stavke dokumenta**](../../../Common/Concepts/DocumentDetails.md).
+   Više informacija o radu sa stavkama dokumenta potražite u dokumentu [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 5. Kliknite **Spremi** za spremanje stavke.
 
@@ -108,11 +108,11 @@ Kada kupac vrati posuđeni materijal, potrebno je izraditi **storno** iz izborni
 
 Otvorite **izbornik** (ikona u gornjem desnom kutu) i odaberite **Kreiraj novi storno**.
 
-![Loan menu](../Images/LoansMenu.png)
+![Loan menu](../Images/LoansMenuHR.png)
 
-Otvara se dokument storna kojim se materijal vraća na zalihu. Više informacija potražite u dokumentu **[Storna](Reversals.md)**.
+Otvara se dokument storna kojim se materijal vraća na zalihu. Više informacija potražite u dokumentu **[Storna](Storno.md)**.
 
-Za više informacija o radnjama izbornika pogledajte dokument [**Radnje izbornika**](../../../Common/Concepts/MenuActions.md).
+Za više informacija o radnjama izbornika pogledajte dokument [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).
 
 ### Uređivanje dokumenta posudbe
 

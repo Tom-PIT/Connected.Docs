@@ -34,7 +34,7 @@ Za pristup dokumentu **Međuskladišni promet** idite na **Logistika / Dokumenti
 
 | Polje | Opis |
 |-------|------|
-| [**Materijal**](../../Sredstva/Materijali/README.md) | Materijal koji se premješta ([proizvod](../../Sredstva/Materijali/Proizvodi.md), [poluproizvod](../../Sredstva/Materijali/Poluproizvodi.md), [sirovina](../../Sredstva/Materijali/Sirovine.md) ili [repro materijal](../../Sredstva/Materijali/ReproMaterijali.md)). |
+| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Materijal koji se premješta ([proizvod](../../RobaIUsluge/Materijali/Proizvodi.md), [poluproizvod](../../RobaIUsluge/Materijali/Poluproizvodi.md), [sirovina](../../RobaIUsluge/Materijali/Sirovine.md) ili [repro materijal](../../RobaIUsluge/Materijali/PomocniProizvodi.md)). |
 | **Serijski broj** | Serijski broj odabranog materijala. |
 | **Upotrebljivo najmanje do** | Datum isteka roka trajanja, ako je definiran. |
 | [**Polazna lokacija**](../Upravljanje/Lokacije.md) | Lokacija na kojoj se materijal trenutno nalazi. |
@@ -123,4 +123,4 @@ Dostupne su sljedeće akcije:
 - **Ispis**
 - **Izvoz u PDF**
 
-Za više informacija pogledajte [**Akcije izbornika**](../../../Zajednicko/Koncepti/AkcijeIzbornika.md).
+Za više informacija pogledajte [**Akcije izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

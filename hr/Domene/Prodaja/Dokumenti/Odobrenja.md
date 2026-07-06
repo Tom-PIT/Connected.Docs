@@ -23,7 +23,7 @@ Odobrenja se koriste nakon što je izlazni račun već izdan:
 3. Izradite **Odobrenje** povezano s izlaznim računom ili kao samostalni dokument.
 4. Pregledajte i objavite odobrenje kako bi prešlo u status **Potvrđeno**.
 5. Iznos odobrenja umanjuje otvoreno stanje kupca ili se vraća kupcu prema ugovorenim uvjetima plaćanja.
-6. Ako je odobrenje izrađeno pogreškom, stornirajte ga (pogledajte **[Storna](../../Logistika/Dokumenti/Storna.md)**).
+6. Ako je odobrenje izrađeno pogreškom, stornirajte ga (pogledajte **[Storna](../../Logistika/Dokumenti/Storno.md)**).
 
 Odobrenja utječu samo na računovodstvo i ne utječu na stanje zaliha.
 

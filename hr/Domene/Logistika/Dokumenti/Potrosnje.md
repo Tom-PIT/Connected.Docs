@@ -29,7 +29,7 @@ Za pristup dokumentu **Potrošnje** otvorite **Logistika / Dokumenti / Potrošnj
 
 | Polje | Opis |
 |-------|------|
-| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Utrošeni materijal ([proizvod](../../RobaIUsluge/Materijali/Proizvodi.md), [poluproizvod](../../RobaIUsluge/Materijali/Poluproizvodi.md), [sirovina](../../RobaIUsluge/Materijali/Sirovine.md) ili [repromaterijal](../../RobaIUsluge/Materijali/ReproMaterijali.md)). |
+| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Utrošeni materijal ([proizvod](../../RobaIUsluge/Materijali/Proizvodi.md), [poluproizvod](../../RobaIUsluge/Materijali/Poluproizvodi.md), [sirovina](../../RobaIUsluge/Materijali/Sirovine.md) ili [repromaterijal](../../RobaIUsluge/Materijali/PomocniProizvodi.md)). |
 | **Izvor** | Identifikator izvora utrošenog materijala (primjerice serijski broj ili oznaka pakiranja, ovisno o načinu praćenja materijala). |
 | **Količina** | Evidentirana količina utrošenog materijala. |
 
@@ -46,7 +46,7 @@ Stranica **Potrošnje** prikazuje sve dokumente potrošnje nastale tijekom izvr�
 - **Autor**
 - **Skladište**
 
-![Consumptions list](../Images/ConsumptionsList.png)
+![Consumptions list](../Images/ConsumptionsListHR.png)
 
 ## Radnje
 
@@ -65,13 +65,13 @@ Dokument potrošnje sadrži:
 
 Ako je potrošnja evidentirana za proizvodni nalog, odjeljak **Povezani dokumenti** prikazuje poveznicu na odgovarajući [**Proizvodni nalog**](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md), ako je dostupan.
 
-![Linked production order](../Images/ConsumptionsLinkedDocuments.png)
+![Linked production order](../Images/ConsumptionsLinkedDocumentsHR.png)
 
 ### Dokument i stavke
 
 Odjeljak **Stavke** prikazuje sve utrošene materijale zajedno s njihovim izvorom i evidentiranim količinama.
 
-![Committed consumption document](../Images/ConsumptionsCommittedDocument.png)
+![Committed consumption document](../Images/ConsumptionsCommittedDocumentHR.png)
 
 ### Brisanje dokumenta potrošnje
 
@@ -85,4 +85,4 @@ Dostupne radnje:
 
 - **Kreiraj novi storno**
 
-Više informacija potražite u dokumentu [**Radnje izbornika**](../../../Zajednicko/Koncepcije/RadnjeIzbornika.md).
+Više informacija potražite u dokumentu [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

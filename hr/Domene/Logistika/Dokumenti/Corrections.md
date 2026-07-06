@@ -38,8 +38,8 @@ Svaka stavka definira materijal i korekciju koja će se primijeniti.
 
 | Polje | Opis |
 |-------|------|
-| **Tip materijala** | Kategorija materijala, npr. [Proizvodi](../../RobaIUsluge/Materijali/Proizvodi.md), [Poluproizvodi](../../RobaIUsluge/Materijali/Poluproizvodi.md), [Sirovine](../../RobaIUsluge/Materijali/Sirovine.md) ili [Repro materijali](../../RobaIUsluge/Materijali/ReproMaterijali.md). |
-| **Materijal** | Odabrani materijal (npr. Pine table) iz kataloga [Imovine](../../RobaIUsluge/Materijali/Imovina.md). |
+| **Tip materijala** | Kategorija materijala, npr. [**Proizvodi**](../../RobaIUsluge/Materijali/Proizvodi.md), [**Poluproizvodi**](../../RobaIUsluge/Materijali/Poluproizvodi.md), [**Sirovine**](../../RobaIUsluge/Materijali/Sirovine.md) ili [**Pomoćni proizvodi**](../../RobaIUsluge/Materijali/PomocniProizvodi.md). |
+| **Materijal** | Odabrani materijal (npr. Pine table) iz kataloga [**Roba i Usluge**](../../RobaIUsluge/RobaIUsluge/RobaIUsluge.md). |
 | **Serijski broj** | Serijski broj na koji se korekcija odnosi, ako materijal koristi serijske brojeve. |
 | **Upotrebljivo najmanje do** | Rok upotrebe, ako je primjenjivo za kvarljive materijale. |
 | **Skladišna lokacija** | Lokacija u skladištu (polica ili pozicija) na kojoj se materijal nalazi. Pogledajte [Lokacije](../Upravljanje/Lokacije.md). |
@@ -51,7 +51,7 @@ Svaka stavka definira materijal i korekciju koja će se primijeniti.
 
 Popis prikazuje postojeće dokumente **Corrections** s mogućnošću filtriranja prema datumu, skladištu i statusu (Nacrt / Obrađeno). Dokumente možete pronaći pretraživanjem prema oznaci ili materijalu.
 
-![Corrections List](../Images/CorrectionsList.png)
+![Corrections List](../Images/CorrectionsListHR.png)
 
 ## Radnje
 
@@ -62,7 +62,7 @@ Stvorite dokument **Corrections** kada se stvarno stanje zaliha razlikuje od sta
 1. Idite na **Logistika / Dokumenti / Corrections**.
 2. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za stvaranje novog dokumenta u statusu **Nacrt**.
 
-    ![Corrections New](../Images/CorrectionsNew.png)
+    ![Corrections New](../Images/CorrectionsNewHR.png)
 
 3. Ispunite odjeljak **Dokument**.
 
@@ -70,7 +70,7 @@ Stvorite dokument **Corrections** kada se stvarno stanje zaliha razlikuje od sta
    - Sustav prikazuje **sve odgovarajuće materijale i serijske brojeve**. Ako postoji više rezultata, odaberite odgovarajući s popisa.
    - Uredite podatke o stavci te prema potrebi promijenite **Materijal**, **Serijski broj** ili **Količinu**.
 
-   ![Corrections New Details Edit](../Images/CorrectionsNewDetailsEdit.png)
+   ![Corrections New Details Edit](../Images/CorrectionsNewDetailsEditHR.png)
 
 5. Kliknite **Spremi** kako biste spremili stavku. Ponovite korak 4 za dodavanje dodatnih stavki.
 

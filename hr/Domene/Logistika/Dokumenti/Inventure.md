@@ -33,7 +33,7 @@ Za pristup dokumentu **Inventure** idite na **Logistika / Dokumenti / Inventure*
 
 | Polje | Opis |
 |-------|------|
-| [**Materijal**](../../Sredstva/Materijali/README.md) | Materijal pohranjen na odabranoj lokaciji (proizvod, poluproizvod, sirovina ili repro materijal). |
+| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Materijal pohranjen na odabranoj lokaciji (proizvod, poluproizvod, sirovina ili repro materijal). |
 | **Lokacija** | Lokacija na kojoj se provodi inventura. |
 | **Knjigovodstveno** | Količina trenutno evidentirana u sustavu. |
 | **Stvarno** | Fizički utvrđena količina. Ovo polje moguće je uređivati. |
@@ -84,7 +84,7 @@ Kliknite dokument za pregled njegovih pojedinosti.
 
    ![Uređivanje inventure](../Images/InventoryEditsHR.png "Uređivanje inventure")
 
-   Za više informacija o radu sa stavkama pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+   Za više informacija o radu sa stavkama pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 5. Nakon što su svi materijali pregledani i unesene stvarne količine, kartica **Neraspoređeno** postaje zelena i prikazuje vrijednost **0**.
 

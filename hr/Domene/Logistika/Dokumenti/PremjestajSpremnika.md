@@ -7,9 +7,9 @@
 
 **Premještaj spremnika** omogućuje brzo premještanje pojedine stavke zalihe (identificirane serijskim brojem) s jedne skladišne lokacije na drugu. Namijenjen je svakodnevnim skladišnim operacijama, poput reorganizacije skladišta, pripreme robe ili ispravljanja pogrešno spremljenih artikala.
 
-Za razliku od dokumenta [**Međuskladišni promet**](MedjuskladisniPromet.md), ovaj postupak služi isključivo za premještanje pojedinačne stavke između skladišnih lokacija.
+Za razliku od dokumenta [**Međuskladišni promet**](MeduskladisniPromet.md), ovaj postupak služi isključivo za premještanje pojedinačne stavke između skladišnih lokacija.
 
-Za pregled trenutnog stanja zalihe ili povijesti premještanja možete otvoriti [**Pogled na zalihe prema materijalu**](../Views/Zaliha.md#pogled-na-zalihe-prema-materijalu) ili [**Pogled na zalihe prema serijskom broju**](../Views/Zaliha.md#pogled-na-zalihe-prema-serijskom-broju).
+Za pregled trenutnog stanja zalihe ili povijesti premještanja možete otvoriti [**Pogled na zalihe prema materijalu**](../Pogledi/Zaliha.md#pogled-na-zalihe-prema-materijalu) ili [**Pogled na zalihe prema serijskom broju**](../Pogledi/Zaliha.md#pogled-na-zalihe-prema-serijskom-broju).
 
 > [!TIP]
 > Za demonstraciju postupka pogledajte video **[Move serial number](https://www.youtube.com/watch?v=dy1u6sKmdMg)**.
@@ -60,6 +60,6 @@ Nakon završetka postupka:
 
 - količina se odmah premješta na odredišnu lokaciju
 - ponovno se otvara prvi korak kako biste mogli nastaviti s premještanjem drugih stavki
-- sustav automatski kreira dokument [**Međuskladišni promet**](MedjuskladisniPromet.md).
+- sustav automatski kreira dokument [**Međuskladišni promet**](MeduskladisniPromet.md).
 
 ![Evidentirani međuskladišni promet](../Images/MoveSerialInterWarehouseRecordHR.png "Evidentirani međuskladišni promet")

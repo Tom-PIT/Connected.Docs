@@ -20,7 +20,7 @@ Za pristup ovom dokumentu idite na **Logistika / Upravljanje / Analiza materijal
 | Polje | Opis |
 |-------|------|
 | **Tip** | Vrsta materijala na koju se analiza odnosi (proizvod, poluproizvod, sirovina ili repro materijal) (obavezno). |
-| **[Materijali](../../Sredstva/Materijali/README.md)** | Materijal za koji se definira analiza (obavezno). |
+| **[Materijali](../../RobaIUsluge/Materijali/README.md)** | Materijal za koji se definira analiza (obavezno). |
 | **Upute** | Opis postupka izvođenja analize i kriterija prihvatljivosti (obavezno). |
 | **Omogućeno** | Određuje je li analiza dostupna za odabir. Prema zadanim postavkama je uključeno. |
 

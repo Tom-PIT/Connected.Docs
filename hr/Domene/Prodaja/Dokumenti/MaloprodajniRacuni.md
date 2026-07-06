@@ -18,7 +18,7 @@ Maloprodajni računi namijenjeni su izravnoj prodaji u trgovini:
 3. Dokument se objavljuje i automatski prelazi u status **Neplaćeni računi**.
 4. Plaćanja se evidentiraju izravno na dokumentu (potpuna ili djelomična).
 5. Dokument automatski prelazi u status **Djelomično plaćeni** ili **Računi plaćeni u cijelosti**, ovisno o evidentiranim uplatama.
-6. Zaliha se ažurira zasebno pomoću dokumenta [**Izdatnica**](../../Logistika/Dokumenti/Izdatnice.md) (ili [**Otpremnica**](Otpremnice.md) + [**Izdatnica**](../../Logistika/Dokumenti/Izdatnice.md) ako se roba isporučuje).
+6. Zaliha se ažurira zasebno pomoću dokumenta [**Izdatnica**](../../Logistika/Dokumenti/Izdatnica.md) (ili [**Otpremnica**](Otpremnice.md) + [**Izdatnica**](../../Logistika/Dokumenti/Izdatnica.md) ako se roba isporučuje).
 
 ## Upravljanje zalihama
 
@@ -26,8 +26,8 @@ Maloprodajni računi **ne smanjuju stanje zaliha**, bez obzira na status plaćan
 
 Za ažuriranje zaliha:
 
-- Kreirajte dokument **[Izdatnica](../../Logistika/Dokumenti/Izdatnice.md)** ili
-- Kreirajte **[Otpremnicu](Otpremnice.md)** nakon koje slijedi **[Izdatnica](../../Logistika/Dokumenti/Izdatnice.md)**.
+- Kreirajte dokument **[Izdatnica](../../Logistika/Dokumenti/Izdatnica.md)** ili
+- Kreirajte **[Otpremnicu](Otpremnice.md)** nakon koje slijedi **[Izdatnica](../../Logistika/Dokumenti/Izdatnica.md)**.
 
 ## Uvjeti za fiskalizaciju maloprodajnog računa (ako je fiskalizacija omogućena)
 
@@ -261,7 +261,7 @@ Ako želite izbrisati samo jednu stavku:
 2. Kliknite **Izbriši**.
 
 > [!NOTE]
-> Obrađeni maloprodajni računi **ne mogu se izbrisati**, ali ih je moguće [**stornirati**](../../Logistika/Dokumenti/Storna.md) ili **vratiti u nacrt**.
+> Obrađeni maloprodajni računi **ne mogu se izbrisati**, ali ih je moguće [**stornirati**](../../Logistika/Dokumenti/Storno.md) ili **vratiti u nacrt**.
 
 ## Izbornik
 
@@ -289,7 +289,7 @@ Dostupne radnje:
 - **Izvoz u PDF**
 - **Pošalji kao e-mail**
 - **Izbriši sve stavke** (samo za nacrte)
-- **[Storniraj dokument](../../Logistika/Dokumenti/Storna.md)**
+- **[Storniraj dokument](../../Logistika/Dokumenti/Storno.md)**
 - **Vrati u nacrt**
 
 Za više informacija o radnjama izbornika pogledajte [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

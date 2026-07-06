@@ -22,7 +22,7 @@ Prodajni proces izgleda ovako:
 3. Pošaljite avansni račun kupcu kao službenu ponudu.
 4. (Opcionalno) Kreirajte jedan ili više **[Predujmova](Predujmovi.md)** iz potvrđenog avansnog računa.
 5. Pretvorite avansni račun u konačni **[Izlazni račun](IzlazniRacuni.md)** nakon isporuke robe ili usluga.
-6. Po potrebi stornirajte avansni račun pomoću funkcije [**Storna**](../../Logistika/Dokumenti/Storna.md).
+6. Po potrebi stornirajte avansni račun pomoću funkcije [**Storna**](../../Logistika/Dokumenti/Storno.md).
 
 Potvrđeni avansni račun služi isključivo u informativne svrhe i nema utjecaja na financijsko ni skladišno stanje.
 
@@ -297,4 +297,4 @@ Dostupne radnje:
 Za više informacija pogledajte [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).
 
 > [!NOTE]
-> Storno poništava financijski učinak potvrđenog avansnog računa. Za više informacija pogledajte **[Storna](../../Logistika/Dokumenti/Storna.md)**.
+> Storno poništava financijski učinak potvrđenog avansnog računa. Za više informacija pogledajte **[Storna](../../Logistika/Dokumenti/Storno.md)**.

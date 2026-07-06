@@ -41,7 +41,8 @@ Zaprimili ste blagovaonski set koji se sastoji od jednog stola i četiri stolice
 | **Količina** | Broj setova koji će se razdvojiti. |
 | **Serijski broj** | Serijski broj seta, ako je primjenjivo. |
 | **Upotrebljivo najmanje do** | Rok upotrebe, ako je primjenjivo. |
-| **Skladišna lokacija** | Lokacija na kojoj se nalazi set. Pogledajte [Lokacije](../Upravljanje/Lokacije.md). |
+| **Skladišna lokacija** | Lokacija na kojoj se nalazi set. Pogledajte [**Lokacije**](../Upravljanje/Lokacije.md). |
+
 </details>
 
 ## Popis dokumenata Razdvajanja

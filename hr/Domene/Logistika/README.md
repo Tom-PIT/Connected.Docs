@@ -7,11 +7,11 @@
 
 Domena **Logistika** obuhvaća sve procese povezane sa skladišnim poslovanjem unutar organizacije. Uključuje upravljanje zalihama, skladišnim strukturama, kretanjem materijala te dokumentima koji omogućuju praćenje fizičkog toka robe.
 
-Dok domena **[Materijali](../Sredstva/Materijali/README.md)** definira *što* postoji na zalihi, domena **Logistika** definira *gdje* se materijal nalazi, *kako* se kreće te *kako* se njime upravlja.
+Dok domena **[Materijali](../RobaIUsluge/Materijali/README.md)** definira *što* postoji na zalihi, domena **Logistika** definira *gdje* se materijal nalazi, *kako* se kreće te *kako* se njime upravlja.
 
 Za pristup ovoj domeni odaberite **Logistika** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-![Logistics Domain](Images/LogisticsSitemap.png)
+![Logistics Domain](Images/LogisticsSitemapHR.png)
 
 > [!NOTE]
 > Dostupne domene ovise o konfiguraciji sustava i poslovnom modelu pojedine tvrtke.
@@ -26,13 +26,13 @@ Domena je organizirana u nekoliko funkcionalnih cjelina:
 - **[Pogledi](#pogledi)** – analitički pregledi potrošnje, izdatnica i rasporeda zaliha
 - **[Upravljanje](#upravljanje)** – šifrarnici i konfiguracija logistike
 
-![Logistics Domain Overview](Images/LogisticsDomainOverview.png)
+![Logistics Domain Overview](Images/LogisticsDomainOverviewHR.png)
 
 ## Nadzorna ploča
 
 **[Nadzorna ploča](Pogledi/NadzornaPloca.md)** pruža pregled logističkih aktivnosti i skladišnog poslovanja. Prikazuje ključne operativne pokazatelje, poput broja ulaza i izlaza robe, otvorenih inventura te utvrđenih razlika u zalihama.
 
-![Logistics Dashboard](Images/Dashboard.png)
+![Logistics Dashboard](Images/DashboardHR.png)
 
 Nadzorna ploča predstavlja početnu točku za voditelje skladišta i skladišne operatere kojima je potreban brz pregled trenutnog stanja logističkih procesa.
 
@@ -40,19 +40,19 @@ Nadzorna ploča predstavlja početnu točku za voditelje skladišta i skladišne
 
 Stranica **[Zaliha](Pogledi/Zaliha.md)** omogućuje pregled svih materijala pohranjenih u skladištima i na skladišnim lokacijama. Prikazuje raspoložive količine, serijske brojeve, lotove i fizičke lokacije materijala. Ovaj pregled služi isključivo za pregled podataka.
 
-![Stock Screen](Images/Stock.png)
+![Stock Screen](Images/StockHR.png)
 
 ## Dokumenti
 
 Odjeljak **Dokumenti** sadrži sve logističke dokumente koji **mijenjaju stanje zaliha** ili **evidentiraju skladišne aktivnosti**.
 
-![Logistics Documents](Images/LogisticsDomainDocuments.png)
+![Logistics Documents](Images/LogisticsDomainDocumentsHR.png)
 
 Dostupni dokumenti:
 
 - **[Primke](Dokumenti/Primke.md)** – evidentiranje ulaza robe u skladište. Povećavaju stanje zaliha.
 - **[Simple receive](Dokumenti/SimpleReceive.md)** – pojednostavljeno evidentiranje ulaza robe.
-- **[Izdatnice](Dokumenti/Izdatnice.md)** – evidentiranje izlaza robe iz skladišta. Smanjuju stanje zaliha.
+- **[Izdatnice](Dokumenti/Izdatnica.md)** – evidentiranje izlaza robe iz skladišta. Smanjuju stanje zaliha.
 - **[Međuskladišni promet](Dokumenti/MeduskladisniPromet.md)** – prijenos robe između skladišta.
 - **[Premještaj spremnika](Dokumenti/PremjestajSpremnika.md)** – premještanje serijskih ili lot materijala između lokacija bez promjene količine.
 - **[Inventure](Dokumenti/Inventure.md)** – provođenje inventure i usklađivanje stanja zaliha.
@@ -73,7 +73,7 @@ Svi ovi dokumenti osiguravaju potpunu sljedivost skladišnih procesa.
 
 Odjeljak **Pogledi** sadrži analitičke prikaze za praćenje kretanja materijala, potrošnje i raspodjele zaliha.
 
-![Logistics Views](Images/LogisticsDomainViews.png)
+![Logistics Views](Images/LogisticsDomainViewsHR.png)
 
 Dostupni pogledi:
 
@@ -87,7 +87,7 @@ Ovi pregledi služe isključivo za analizu podataka i ne stvaraju nove transakci
 
 Odjeljak **Upravljanje** sadrži šifrarnike i konfiguracijske postavke koje koriste svi logistički procesi.
 
-![Logistics Management](Images/LogisticsDomainManagement.png)
+![Logistics Management](Images/LogisticsDomainManagementHR.png)
 
 Dostupni šifrarnici:
 
@@ -98,12 +98,12 @@ Dostupni šifrarnici:
 - **[Lokacije](Upravljanje/Lokacije.md)**
 - **[Granice zalihe](Upravljanje/GraniceZalihe.md)**
 - **[Mjerne jedinice](../../Zajednicko/Upravljanje/MjerneJedinice.md)**
-- **[Analiza materijala](Upravljanje/AnalizaMaterijala.md)**
+- **[Analiza materijala](Upravljanje/UpravljanjeAnalizamaMaterijala.md)**
 
 Ovi elementi određuju način rada logističkih procesa i organizaciju logističkih podataka.
 
 > [!TIP]
-> Pregled svih šifrarnika dostupan je u **[Popisu šifrarnika](../../ManagementIndex.md)**.
+> Pregled svih šifrarnika dostupan je u **[Popisu šifrarnika](../../IndeksUpravljanja.md)**.
 
 ## Logistički procesi
 
@@ -119,7 +119,7 @@ Logistički procesi slijede uobičajeni tijek rada:
 
 ### 3. Izdavanje i potrošnja
 
-- Materijal napušta skladište putem **[Izdatnica](Dokumenti/Izdatnice.md)** i **[Potrošnji](Dokumenti/Potrosnje.md)**.
+- Materijal napušta skladište putem **[Izdatnica](Dokumenti/Izdatnica.md)** i **[Potrošnji](Dokumenti/Potrosnje.md)**.
 
 ### 4. Inventura i usklađivanje
 
@@ -133,8 +133,8 @@ Logistički procesi slijede uobičajeni tijek rada:
 
 | Domena | Opis |
 |--------|------|
-| **[Materijali](../Sredstva/Materijali/README.md)** | Definira materijale kojima upravlja logistika. |
-| **[Sredstva](../Sredstva/README.md)** | Koristi podatke o zalihama za izračun raspoloživosti. |
+| **[Materijali](../RobaIUsluge/Materijali/README.md)** | Definira materijale kojima upravlja logistika. |
+| **[Sredstva](../RobaIUsluge/README.md)** | Koristi podatke o zalihama za izračun raspoloživosti. |
 | **[Proizvodnja](../Proizvodnja/README.md)** | Povezana je s dokumentima proizvodnje i potrošnje. |
 | **[Održavanje](../Odrzavanje/README.md)** | Koristi skladišne zalihe rezervnih dijelova. |
 | **[Prodaja](../Prodaja/README.md)** / **[Nabava](../Nabava/README.md)** | Logistika osigurava raspoloživost robe i izvršenje skladišnih procesa. |

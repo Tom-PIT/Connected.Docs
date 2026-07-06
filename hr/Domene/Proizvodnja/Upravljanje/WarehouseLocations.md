@@ -20,7 +20,7 @@ To access Warehouse locations, go to **Production / Management / Warehouse locat
 | Field | Description |
 |-------|-------------|
 | [**Organization unit**](OrganizationUnits.md) | Reference to the Production organization unit (mandatory). |
-| [**Warehouse**](../../Logistics/Management/Warehouses.md) | Warehouse where the physical location exists (mandatory). |
+| [**Warehouse**](../../Logistics/Upravljanje/Skladista.md) | Warehouse where the physical location exists (mandatory). |
 | [**Warehouse location**](../../Logistics/Management/Locations.md) | Physical location (aisle / rack / level / bin) (mandatory). |
 | **Connection type** | Type of connection: **Input** or **Output** (mandatory). Determines how Production uses the location. |
 
@@ -58,7 +58,7 @@ Click the action button and select **New** to create a new record.
 Fill in the fields shown on the form:
 
 - [**Organization unit**](OrganizationUnits.md)
-- [**Warehouse**](../../Logistics/Management/Warehouses.md)
+- [**Warehouse**](../../Logistics/Upravljanje/Skladista.md)
 - [**Warehouse location**](../../Logistics/Management/Locations.md)
 - **Connection type** — choose **Input** or **Output**
 
@@ -71,7 +71,7 @@ Click **Add** to save the record.
 >   [**Organization unit**](OrganizationUnits.md). The UI prevents selecting the same location for both roles.  
 > - Only one `**Output** connection is permitted per [**Organization unit**](OrganizationUnits.md). Adding a second
 >   **Output** for the same unit is blocked by validation.  
-> - [**Organization unit**](OrganizationUnits.md), [**Warehouse**](../../Logistics/Management/Warehouses.md), and [**Warehouse location**](../../Logistics/Management/Locations.md) are sourced from their respective
+> - [**Organization unit**](OrganizationUnits.md), [**Warehouse**](../../Logistics/Upravljanje/Skladista.md), and [**Warehouse location**](../../Logistics/Management/Locations.md) are sourced from their respective
 >   code lists; keep those lists in sync with Logistics and Common domains.
 
 
@@ -88,4 +88,4 @@ Validation prevents invalid combinations as described in the creation process.
 Click a warehouse location name in the list to open the edit page, then select **Delete**. After confirming the deletion, the record is removed from the Production Warehouse locations list.
 
 > [!NOTE]  
-> Deleting a record removes the mapping only from the Production configuration. The referenced [warehouse](../../Logistics/Management/Warehouses.md) and [warehouse location](../../Logistics/Management/Locations.md) remain intact in the Logistics domain and are not deleted.
+> Deleting a record removes the mapping only from the Production configuration. The referenced [warehouse](../../Logistics/Upravljanje/Skladista.md) and [warehouse location](../../Logistics/Management/Locations.md) remain intact in the Logistics domain and are not deleted.

@@ -29,7 +29,7 @@ Za pristup dokumentima **Proizvodnje** idite na **Logistika / Dokumenti / Proizv
 
 | Polje | Opis |
 |-------|------|
-| [**Materijal**](../../Sredstva/Materijali/README.md) | Proizvedeni materijal (najčešće [proizvod](../../Sredstva/Materijali/Proizvodi.md) ili [poluproizvod](../../Sredstva/Materijali/Poluproizvodi.md)). |
+| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Proizvedeni materijal (najčešće [proizvod](../../RobaIUsluge/Materijali/Proizvodi.md) ili [poluproizvod](../../RobaIUsluge/Materijali/Poluproizvodi.md)). |
 | **Količina** | Evidentirana proizvedena količina. |
 
 </details>
@@ -44,7 +44,7 @@ Stranica **Proizvodnje** prikazuje sve dokumente proizvodnje stvorene tijekom iz
   - **Obrađeno** — završeni dokument proizvodnje
 - **Skladištu**
 
-![Productions list](../Images/ProductionsList.png)
+![Productions list](../Images/ProductionsListHR.png)
 
 ## Radnje
 
@@ -63,13 +63,13 @@ Kliknite **Oznaku** dokumenta proizvodnje kako biste otvorili njegove pojedinost
 
 Ako je proizvodnja nastala iz proizvodnog naloga, odjeljak **Povezani dokumenti** prikazuje poveznicu na odgovarajući **[Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md)**.
 
-![Productions linked documents](../Images/ProductionsLinkedDocuments.png)
+![Productions linked documents](../Images/ProductionsLinkedDocumentsHR.png)
 
 #### Dokument i stavke
 
 Odjeljak **Stavke** prikazuje sve proizvedene materijale zajedno s evidentiranim količinama.
 
-![Committed production document](../Images/ProductionsCommittedDocument.png)
+![Committed production document](../Images/ProductionsCommittedDocumentHR.png)
 
 ### Izbrisati dokument proizvodnje
 

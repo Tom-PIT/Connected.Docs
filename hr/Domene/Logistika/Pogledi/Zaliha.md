@@ -7,7 +7,7 @@
 
 Stranica **Zaliha** pruža potpuni pregled količina materijala u sustavu. Prikazuje koliko je materijala dostupno, rezervirano ili blokirano te omogućuje brzo pronalaženje bilo kojeg materijala pomoću pretraživanja i sortiranja. Ovdje možete otvoriti detaljne prikaze zaliha kako biste vidjeli gdje se materijal nalazi, kako se koristi i kako se njegova zaliha mijenjala tijekom vremena.
 
-Možete otvoriti **[Pogled na zalihe prema materijalu](#pogled-na-zalihe-prema-materijalu)**, **[Pogled na zalihe prema lokacijama](#pogled-na-zalihe-prema-lokacijama)** ili **[Pogled na zalihe prema serijskom broju](#pogled-na-zalihe-prema-serijskom-broju)** za detaljniji pregled količina, lokacija, kretanja i povijesti skladištenja. Minimalne i maksimalne granice koje se prikazuju u povezanim pregledima mogu se konfigurirati u šifrarniku **[Granice zalihe](../Management/GraniceZalihe.md)**. **[Nadzorna ploča](NadzornaPloca.md)** također omogućuje brz pristup materijalima koji zahtijevaju pažnju.
+Možete otvoriti **[Pogled na zalihe prema materijalu](#pogled-na-zalihe-prema-materijalu)**, **[Pogled na zalihe prema lokacijama](#pogled-na-zalihe-prema-lokacijama)** ili **[Pogled na zalihe prema serijskom broju](#pogled-na-zalihe-prema-serijskom-broju)** za detaljniji pregled količina, lokacija, kretanja i povijesti skladištenja. Minimalne i maksimalne granice koje se prikazuju u povezanim pregledima mogu se konfigurirati u šifrarniku **[Granice zalihe](../Upravljanje/GraniceZalihe.md)**. **[Nadzorna ploča](NadzornaPloca.md)** također omogućuje brz pristup materijalima koji zahtijevaju pažnju.
 
 > [!TIP]
 > Za potpuni prikaz funkcionalnosti pogledajte video **[Pregled zalihe](https://www.youtube.com/watch?v=gjAKnavIWnY)**.
@@ -34,7 +34,7 @@ Možete filtrirati popis prema vrsti materijala:
 
 - [Proizvodi](../../RobaIUsluge/Materijali/Proizvodi.md)
 - [Poluproizvodi](../../RobaIUsluge/Materijali/Poluproizvodi.md)
-- [Repromaterijal](../../RobaIUsluge/Materijali/Repromaterijal.md)
+- [Repromaterijal](../../RobaIUsluge/Materijali/PomocniProizvodi.md)
 - [Sirovine](../../RobaIUsluge/Materijali/Sirovine.md)
 
 ### Filtar oznaka

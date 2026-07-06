@@ -7,7 +7,7 @@
 
 Dokument **Otpis** koristi se za evidentiranje materijala koji se mora ukloniti sa zalihe jer je oštećen, izgubljen, istekao mu je rok trajanja ili se iz nekog drugog razloga više ne može koristiti. Tipični primjeri uključuju **oštećene proizvode**, **pokvarenu robu** ili **materijal oštećen tijekom rukovanja**. Otpis omogućuje unos razloga, odabir materijala i količine koju je potrebno ukloniti sa zalihe.
 
-Otpisi izravno utječu na stanje zalihe. Ako je otpisana pogrešna količina, to se kasnije može ispraviti stvaranjem **djelomičnog ili potpunog storna** putem izbornika povezanih dokumenata. Također možete koristiti **[Pregled zalihe po materijalu](../Views/Stock.md#stock-view-by-material)** ili **[Pregled zalihe po serijskom broju](../Views/Stock.md#stock-view-by-serial-number)** kako biste provjerili kako je materijal došao do trenutnog stanja prije nego što izvršite otpis.
+Otpisi izravno utječu na stanje zalihe. Ako je otpisana pogrešna količina, to se kasnije može ispraviti stvaranjem **djelomičnog ili potpunog storna** putem izbornika povezanih dokumenata. Također možete koristiti **[Pregled zalihe po materijalu](../Pogledi/Zaliha.md#stock-view-by-material)** ili **[Pregled zalihe po serijskom broju](../Pogledi/Zaliha.md#stock-view-by-serial-number)** kako biste provjerili kako je materijal došao do trenutnog stanja prije nego što izvršite otpis.
 
 > [!TIP]
 > Za cjelovit prikaz pogledajte video vodič **[Writeoffs](https://www.youtube.com/watch?v=_0jEGSTorsY)**.
@@ -23,7 +23,7 @@ Za pristup dokumentu **Otpisi** otvorite **Logistika / Dokumenti / Otpisi** u [n
 |-------|------|
 | [**Oznaka**](../../../Zajednicko/UI/OznakeDokumenata.md) | Jedinstvena oznaka dokumenta otpisa koju automatski generira sustav. |
 | **Datum dokumenta** | Datum evidentiranja otpisa. |
-| [**Skladište**](../Management/Warehouses.md) | Skladište iz kojeg se materijal otpisuje (obavezno). |
+| [**Skladište**](../Upravljanje/Skladista.md) | Skladište iz kojeg se materijal otpisuje (obavezno). |
 | **Razlog** | Razlog uklanjanja materijala sa zalihe (oštećenje, gubitak, istek roka trajanja i slično). |
 
 </details>
@@ -83,7 +83,7 @@ Kliknite dokument kako biste otvorili njegove pojedinosti.
 
    ![Otpisi - detalji stavke](../Images/WriteoffsDetailsHR.png "Otpisi - detalji stavke")
 
-   Više informacija o radu sa stavkama dokumenta potražite u dokumentu [**Stavke dokumenta**](../../../Zajednicko/Koncepcije/Stavke.md).
+   Više informacija o radu sa stavkama dokumenta potražite u dokumentu [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 6. Kliknite **Spremi** za spremanje stavke. Po potrebi dodajte nove stavke ponavljanjem koraka 3.
 
@@ -104,7 +104,7 @@ Ako nacrt još uvijek sadrži stavke:
 Nakon što dokument više ne sadrži nijednu stavku, kliknite **Izbriši** za brisanje nacrta.
 
 > [!NOTE]
-> Obrađeni dokumenti **ne mogu se izbrisati**. Umjesto toga potrebno je izraditi [storno](Reversals.md).
+> Obrađeni dokumenti **ne mogu se izbrisati**. Umjesto toga potrebno je izraditi [storno](Storno.md).
 
 ## Izbornik
 
@@ -114,4 +114,4 @@ Dostupne radnje:
 
 - **Kreiraj novi storno** (samo za obrađene dokumente)
 
-Više informacija potražite u dokumentu [**Radnje izbornika**](../../../Zajednicko/Koncepcije/RadnjeIzbornika.md).
+Više informacija potražite u dokumentu [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

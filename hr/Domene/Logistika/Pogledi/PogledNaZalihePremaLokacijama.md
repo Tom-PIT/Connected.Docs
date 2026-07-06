@@ -5,9 +5,9 @@
 
 # Pogled na zalihe prema lokacijama
 
-Stranica **Pogled na zalihe prema lokacijama** prikazuje sav materijal pohranjen na određenoj [lokaciji](../Management/Lokacije.md). Omogućuje jasan pregled ukupne, rezervirane i dostupne količine na odabranoj lokaciji te olakšava provjeru rasporeda zaliha unutar skladišta.
+Stranica **Pogled na zalihe prema lokacijama** prikazuje sav materijal pohranjen na određenoj [lokaciji](../Upravljanje/Lokacije.md). Omogućuje jasan pregled ukupne, rezervirane i dostupne količine na odabranoj lokaciji te olakšava provjeru rasporeda zaliha unutar skladišta.
 
-Iz ovog pregleda možete otvoriti povezane prikaze, kao što su **[Pogled na zalihe prema materijalu](Zaliha.md#pogled-na-zalihe-prema-materijalu)** ili **[Pogled na zalihe prema serijskom broju](Zaliha.md#pogled-na-zalihe-prema-serijskom-broju)**, kako biste detaljnije pregledali pojedini materijal ili serijski broj. Minimalne i maksimalne granice zalihe definiraju se u šifrarniku **[Granice zalihe](../Management/GraniceZalihe.md)**, dok se ukupno stanje zaliha može pratiti na stranici **[Nadzorna ploča](NadzornaPloca.md)**.
+Iz ovog pregleda možete otvoriti povezane prikaze, kao što su **[Pogled na zalihe prema materijalu](Zaliha.md#pogled-na-zalihe-prema-materijalu)** ili **[Pogled na zalihe prema serijskom broju](Zaliha.md#pogled-na-zalihe-prema-serijskom-broju)**, kako biste detaljnije pregledali pojedini materijal ili serijski broj. Minimalne i maksimalne granice zalihe definiraju se u šifrarniku **[Granice zalihe](../Upravljanje/GraniceZalihe.md)**, dok se ukupno stanje zaliha može pratiti na stranici **[Nadzorna ploča](NadzornaPloca.md)**.
 
 > [!TIP]
 > Za potpuni prikaz funkcionalnosti pogledajte video **[Pogled na zalihe prema lokacijama](https://www.youtube.com/watch?v=_3bZBZ89hds)**.
@@ -55,7 +55,7 @@ Prikazuje **ukupnu količinu** svih materijala pohranjenih na odabranoj lokaciji
 
 ### Rezervirano
 
-Prikazuje **količinu rezerviranu** za otvorene [izdatnice](../../Documents/Izdatnica.md) ili [međuskladišne prijenose](../../Documents/MeduskladisniPrijenos.md).
+Prikazuje **količinu rezerviranu** za otvorene [izdatnice](../Dokumenti/Izdatnica.md) ili [međuskladišne prijenose](../Dokumenti/MeduskladisniPromet.md).
 
 ![Rezervirano](../Images/StockByLocationReserveHR.png "Rezervirano")
 

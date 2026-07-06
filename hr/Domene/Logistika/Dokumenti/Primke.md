@@ -9,10 +9,10 @@ Dokument **Primka** koristi se za evidentiranje dolaska materijala u skladište.
 
 - [**Proizvoda**](../../RobaIUsluge/Materijali/Proizvodi.md)
 - [**Poluproizvoda**](../../RobaIUsluge/Materijali/Poluproizvodi.md)
-- [**Repro materijala**](../../RobaIUsluge/Materijali/ReproMaterijali.md)
+- [**Repro materijala**](../../RobaIUsluge/Materijali/PomocniProizvodi.md)
 - [**Sirovina**](../../RobaIUsluge/Materijali/Sirovine.md)
 
-Postupak zaprimanja bilježi ključne informacije poput materijala, [pakiranja](../../RobaIUsluge/Materijali/Pakiranja.md), količine, serijskih brojeva, roka upotrebe i [skladišne lokacije](../Upravljanje/Lokacije.md). Time se osigurava točnost stanja zaliha i potpuna sljedivost materijala od trenutka ulaska u skladište.
+Postupak zaprimanja bilježi ključne informacije poput materijala, [pakiranja](../../RobaIUsluge/Materijali/Pakiranje.md), količine, serijskih brojeva, roka upotrebe i [skladišne lokacije](../Upravljanje/Lokacije.md). Time se osigurava točnost stanja zaliha i potpuna sljedivost materijala od trenutka ulaska u skladište.
 
 > [!TIP]
 > Za cjeloviti prikaz rada pogledajte video vodič [**Primka**](https://www.youtube.com/watch?v=oTOYD-nlCqE).
@@ -29,7 +29,7 @@ Za pristup primkama otvorite **Logistika / Dokumenti / Primke** u [navigaciji](.
 | [**Oznaka**](../../../Zajednicko/UI/OznakeDokumenata.md) | Jedinstvena oznaka dokumenta koju automatski dodjeljuje sustav. |
 | **Datum dokumenta** | Datum fizičkog zaprimanja robe. |
 | [**Skladište**](../Upravljanje/Skladista.md) | Skladište u koje se roba zaprima (obavezno). |
-| **Dobavljač** | Dobavljač od kojeg se roba zaprima, odabire se iz [Poslovnog adresara](../../../Zajednicko/Upravljanje/PoslovniAdresar.md) (obavezno). |
+| **Dobavljač** | Dobavljač od kojeg se roba zaprima, odabire se iz [Poslovnog adresara](../../../Zajednicko/Upravljanje/PoslovniImenik.md) (obavezno). |
 | [**Narudžbenica dobavljača**](../../Nabava/Dokumenti/NarudzbeniceDobavljaca.md) | (Neobavezno) Povezana narudžbenica dobavljača. |
 | **Napomene** | Dodatne napomene vezane uz dokument. |
 
@@ -41,7 +41,7 @@ Za pristup primkama otvorite **Logistika / Dokumenti / Primke** u [navigaciji](.
 | Polje | Opis |
 |------|------|
 | [**Uvjeti isporuke**](../../../Zajednicko/Upravljanje/UvjetiIsporuke.md) | Uvjeti isporuke dogovoreni s dobavljačem (primjerice Costs and freight). |
-| [**Način transporta**](../../../Zajednicko/Upravljanje/NaciniTransporta.md) | Način prijevoza kojim je roba dostavljena (primjerice cestovni prijevoz). |
+| [**Način transporta**](../../../Zajednicko/Upravljanje/VrstaTransporta.md) | Način prijevoza kojim je roba dostavljena (primjerice cestovni prijevoz). |
 | [**Država slanja**](../../../Zajednicko/Upravljanje/Drzave.md) | Država iz koje je roba otpremljena. Vrijednost se obično preuzima iz Intrastat konfiguracije materijala. |
 | [**Vrsta posla**](../../Racunovodstvo/Upravljanje/Intrastat/VrstePoslova.md) | Klasifikacija vrste transakcije za Intrastat izvještavanje. |
 | [**Mjesto isporuke**](../../Racunovodstvo/Upravljanje/Intrastat/MjestaIsporuke.md) | Mjesto isporuke prema Intrastat pravilima. |
@@ -53,7 +53,7 @@ Za pristup primkama otvorite **Logistika / Dokumenti / Primke** u [navigaciji](.
 
 | Polje | Opis |
 |-------|------|
-| [**Materijal**](../../Imovina/Materijali/README.md) | Materijal koji se zaprima (proizvod, poluproizvod, sirovina ili repro materijal). |
+| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Materijal koji se zaprima (proizvod, poluproizvod, sirovina ili repro materijal). |
 | **EAN** | Barkod pakiranja ili jedinice. |
 | **Neto masa / Bruto masa (kg)** | Masa materijala ili pakiranja. |
 | **Dimenzije (ŠVD, mm)** | Širina, visina i dubina pakiranja. |
@@ -120,7 +120,7 @@ Za kreiranje nove primke:
 
 4. Po potrebi prilagodite količine, skladišne lokacije ili druge podatke.
 
-    Za informacije o radu sa stavkama pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+    Za informacije o radu sa stavkama pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 5. Kliknite **Spremi** za spremanje stavke. Po potrebi dodajte nove stavke.
 
@@ -195,7 +195,7 @@ Za brisanje pojedine stavke:
 Nakon što dokument više ne sadrži nijednu stavku, kliknite **Izbriši**.
 
 > [!NOTE]
-> Dokumente u statusu **Obrađen** nije moguće izbrisati. Umjesto toga potrebno je kreirati [**Storno**](Storna.md).
+> Dokumente u statusu **Obrađen** nije moguće izbrisati. Umjesto toga potrebno je kreirati [**Storno**](Storno.md).
 
 ## Izbornik
 

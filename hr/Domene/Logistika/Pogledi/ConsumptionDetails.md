@@ -5,7 +5,7 @@
 
 # Consumption details
 
-Stranica **Consumption details** pruža analitički pregled svih **materijala utrošenih tijekom proizvodnje** u odabranom vremenskom razdoblju. Umjesto prikaza pojedinačnih dokumenata potrošnje, stranica grupira **utrošene materijale** te prikazuje **u kojim su [dokumentima potrošnje](../../Proizvodnja/Dokumenti/Potrosnja.md)** korišteni i **s kojih skladišnih lokacija** su preuzeti.
+Stranica **Consumption details** pruža analitički pregled svih **materijala utrošenih tijekom proizvodnje** u odabranom vremenskom razdoblju. Umjesto prikaza pojedinačnih dokumenata potrošnje, stranica grupira **utrošene materijale** te prikazuje **u kojim su [dokumentima potrošnje](../../Proizvodnja/Dokumenti/Potrosnje.md)** korišteni i **s kojih skladišnih lokacija** su preuzeti.
 
 Za pristup ovoj stranici otvorite **Logistika / Pogledi / Consumption details** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
@@ -85,6 +85,6 @@ Ova stranica služi isključivo za pregled podataka te nije moguće stvarati, ur
 ## Povezane stranice
 
 - **[Proizvodni nalozi](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md)** – pregled proizvodnih naloga koji generiraju potrošnju materijala
-- **[Potrošnja](../../Proizvodnja/Dokumenti/Potrosnja.md)** – unos i pregled dokumenata potrošnje
+- **[Potrošnja](../../Proizvodnja/Dokumenti/Potrosnje.md)** – unos i pregled dokumenata potrošnje
 - **[Pogled na zalihe prema lokacijama](PogledNaZalihePremaLokacijama.md)** – pregled zaliha na pojedinoj skladišnoj lokaciji
 - **[Pogled na zalihe prema materijalu](Zaliha.md#pogled-na-zalihe-prema-materijalu)** – pregled stanja i kretanja zaliha po materijalu

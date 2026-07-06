@@ -23,7 +23,7 @@ Terećenja se koriste nakon što je izlazni račun već izdan:
 3. Izradite **Terećenje** povezano s izlaznim računom ili kao samostalni dokument.
 4. Pregledajte i objavite terećenje kako bi prešlo u status **Potvrđeno**.
 5. Terećeni iznos povećava otvoreno stanje kupca te se uključuje u računovodstvene evidencije.
-6. Ako je terećenje izrađeno pogreškom, stornirajte ga (pogledajte **[Storna](../../Logistika/Dokumenti/Storna.md)**).
+6. Ako je terećenje izrađeno pogreškom, stornirajte ga (pogledajte **[Storna](../../Logistika/Dokumenti/Storno.md)**).
 
 Terećenja utječu samo na računovodstvo i ne utječu na stanje zaliha.
 
@@ -258,7 +258,7 @@ Dostupne radnje:
 - **Vrati u nacrt** (ako je omogućeno)
 
 > [!NOTE]
-> Storniranje terećenja poništava njegov financijski učinak. Za više informacija pogledajte **[Storna](../../Logistika/Dokumenti/Storna.md)**.
+> Storniranje terećenja poništava njegov financijski učinak. Za više informacija pogledajte **[Storna](../../Logistika/Dokumenti/Storno.md)**.
 
 Za više informacija o radnjama izbornika pogledajte **[Radnje izbornika](../../../Zajednicko/Koncepti/RadnjeIzbornika.md)**.
 

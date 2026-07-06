@@ -18,7 +18,7 @@ Predujmovi se koriste kada kupac unaprijed plati dio dogovorenog iznosa. U stand
 3. Kreirajte **Predujam** – ručno ili putem **Povezani dokumenti → + Predujam** na obrađenom avansnom računu.
 4. Evidentirajte primljeni iznos i objavite predujam (prelazi u stanje **Potvrđeno**).
 5. Iskoristite predujam prilikom izdavanja **[izlaznog računa](IzlazniRacuni.md)** kako biste u cijelosti ili djelomično umanjili iznos za plaćanje.
-6. Stornirajte predujam ako je potrebno otkazati ili vratiti avansno plaćanje (pogledajte **[Storna](../../Logistika/Dokumenti/Storna.md)**).
+6. Stornirajte predujam ako je potrebno otkazati ili vratiti avansno plaćanje (pogledajte **[Storna](../../Logistika/Dokumenti/Storno.md)**).
 
 Predujmovi evidentiraju primljena sredstva i ne utječu na stanje zaliha.
 
@@ -261,7 +261,7 @@ Ako želite obrisati samo jednu stavku:
 2. Kliknite **Izbriši**.
 
 > [!NOTE]
-> Potvrđeni predujmovi **ne mogu se obrisati**, ali ih je moguće [stornirati](../../Logistika/Dokumenti/Storna.md) ili **vratiti u nacrt**.
+> Potvrđeni predujmovi **ne mogu se obrisati**, ali ih je moguće [stornirati](../../Logistika/Dokumenti/Storno.md) ili **vratiti u nacrt**.
 
 ## Izbornik
 
@@ -273,10 +273,10 @@ Dostupne radnje:
 - **Izvoz u PDF**
 - **Pošalji kao email**
 - **Izbriši sve stavke** (samo za nacrte)
-- **[Storniraj dokument](../../Logistika/Dokumenti/Storna.md)**
+- **[Storniraj dokument](../../Logistika/Dokumenti/Storno.md)**
 - **Vrati u nacrt**
 
 Za više informacija pogledajte [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).
 
 > [!NOTE]
-> Storno poništava financijski učinak potvrđenog predujma. Više informacija potražite u dokumentu **[Storna](../../Logistika/Dokumenti/Storna.md)**.
+> Storno poništava financijski učinak potvrđenog predujma. Više informacija potražite u dokumentu **[Storna](../../Logistika/Dokumenti/Storno.md)**.

@@ -82,4 +82,4 @@ Dostupne su sljedeće akcije:
 
 - **Objavi**
 
-Za više informacija pogledajte [**Akcije izbornika**](../../../Zajednicko/Koncepti/AkcijeIzbornika.md).
+Za više informacija pogledajte [**Akcije izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

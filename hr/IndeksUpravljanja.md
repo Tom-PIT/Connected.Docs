@@ -95,7 +95,7 @@ This index lists all management and configuration documentation across domains. 
 - [**Locations**](Domains/Logistics/Management/Locations.md)
 - [**Material analysis management**](Domains/Logistics/Management/MaterialAnalysisManagement.md)
 - [**Stock boundaries**](Domains/Logistics/Management/StockBoundaries.md)
-- [**Warehouses**](Domains/Logistics/Management/Warehouses.md)
+- [**Warehouses**](Domains/Logistics/Upravljanje/Skladista.md)
 - [**Measure units**](Common/Management/MeasureUnits.md)
 
 ## Production and Maintenance

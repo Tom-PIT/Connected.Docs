@@ -57,4 +57,4 @@ Nakon potvrde:
 
 - spremink se premješta na novu lokaciju
 - sve stavke u spreminku premještaju se zajedno sa spreminkom
-- premještanje je evidentirano u sustavu i vidljivo u dokumentima **[Međuskladišni promet](MedjuskladisniPromet.md)**
+- premještanje je evidentirano u sustavu i vidljivo u dokumentima **[Međuskladišni promet](MeduskladisniPromet.md)**

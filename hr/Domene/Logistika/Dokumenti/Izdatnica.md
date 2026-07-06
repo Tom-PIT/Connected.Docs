@@ -34,7 +34,7 @@ Za pristup dokumentu **Izdatnica** idite na **Logistika / Dokumenti / Izdatnica*
 
 | Polje | Opis |
 |-------|------|
-| [**Materijal**](../../Sredstva/Materijali/README.md) | Materijal koji se izdaje ([proizvod](../../Sredstva/Materijali/Proizvodi.md), [poluproizvod](../../Sredstva/Materijali/Poluproizvodi.md), [sirovina](../../Sredstva/Materijali/Sirovine.md) ili [repro materijal](../../Sredstva/Materijali/ReproMaterijali.md)). |
+| [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Materijal koji se izdaje ([proizvod](../../RobaIUsluge/Materijali/Proizvodi.md), [poluproizvod](../../RobaIUsluge/Materijali/Poluproizvodi.md), [sirovina](../../RobaIUsluge/Materijali/Sirovine.md) ili [repro materijal](../../RobaIUsluge/Materijali/PomocniProizvodi.md)). |
 | **Serijski broj** | Odabrani serijski broj materijala koji se izdaje. |
 | **Upotrebljivo najmanje do** | Datum isteka roka trajanja, ako je definiran. |
 | [**Skladišna lokacija**](../Upravljanje/Lokacije.md) | Lokacija na kojoj se nalazi odabrani materijal. |
@@ -80,7 +80,7 @@ Kliknite dokument za pregled njegovih pojedinosti.
 
     ![Dodavanje stavke](../Images/IssueNewDetailsHR.png "Dodavanje stavke")
 
-    Za više informacija o radu sa stavkama pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/StavkeDokumenta.md).
+    Za više informacija o radu sa stavkama pogledajte [**Stavke dokumenta**](../../../Zajednicko/Koncepti/Stavke.md).
 
 7. Unesite **Količinu**.
 8. Kliknite **Spremi**.
@@ -137,4 +137,4 @@ Dostupne su sljedeće akcije:
 - **Izbriši sve stavke**
 - **Storniraj izdatnicu**
 
-Za više informacija pogledajte [**Akcije izbornika**](../../../Zajednicko/Koncepti/AkcijeIzbornika.md).
+Za više informacija pogledajte [**Akcije izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

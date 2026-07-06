@@ -24,7 +24,7 @@ Maloprodajni računi za predujam koriste se za izravnu maloprodaju:
     - Djelomična plaćanja premještaju dokument u status **Djelomično plaćeni**.
     - Potpuna uplata premješta dokument u status **Računi plaćeni u cijelosti**.
 5. Račun za predujam može se ispisati ili poslati kupcu.
-6. Zaliha se ažurira zasebno pomoću dokumenta [**Izdatnica**](../../Logistika/Dokumenti/Izdatnice.md) ili [**Otpremnice**](Otpremnice.md) nakon koje slijedi izdatnica.
+6. Zaliha se ažurira zasebno pomoću dokumenta [**Izdatnica**](../../Logistika/Dokumenti/Izdatnica.md) ili [**Otpremnice**](Otpremnice.md) nakon koje slijedi izdatnica.
 
 Maloprodajni računi za predujam **ne utječu na stanje zaliha**.
 
@@ -34,8 +34,8 @@ Maloprodajni računi za predujam **ne smanjuju stanje zaliha**, bez obzira na st
 
 Za ažuriranje zaliha:
 
-- Kreirajte [**Izdatnicu**](../../Logistika/Dokumenti/Izdatnice.md), ili
-- Kreirajte [**Otpremnicu**](Otpremnice.md), a zatim [**Izdatnicu**](../../Logistika/Dokumenti/Izdatnice.md).
+- Kreirajte [**Izdatnicu**](../../Logistika/Dokumenti/Izdatnica.md), ili
+- Kreirajte [**Otpremnicu**](Otpremnice.md), a zatim [**Izdatnicu**](../../Logistika/Dokumenti/Izdatnica.md).
 
 ## Shema
 
@@ -267,7 +267,7 @@ Ako želite obrisati samo jednu stavku:
 2. Kliknite **Izbriši**.
 
 > [!NOTE]
-> Objavljeni dokumenti **ne mogu se obrisati**, ali ih je moguće [stornirati](../../Logistika/Dokumenti/Storna.md) ili **vratiti u nacrt**.
+> Objavljeni dokumenti **ne mogu se obrisati**, ali ih je moguće [stornirati](../../Logistika/Dokumenti/Storno.md) ili **vratiti u nacrt**.
 
 ## Izbornik
 
@@ -278,10 +278,10 @@ Dostupne radnje:
 - **Ispis**
 - **Izvoz u PDF**
 - **Pošalji kao email**
-- **[Storniraj dokument](../../Logistika/Dokumenti/Storna.md)**
+- **[Storniraj dokument](../../Logistika/Dokumenti/Storno.md)**
 - **Vrati na nacrt**
 
 Za više informacija o radnjama izbornika pogledajte [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).
 
 > [!NOTE]
-> Storno poništava financijski učinak objavljenog maloprodajnog računa za predujam. Za više informacija pogledajte **[Storna](../../Logistika/Dokumenti/Storna.md)**.
+> Storno poništava financijski učinak objavljenog maloprodajnog računa za predujam. Za više informacija pogledajte **[Storna](../../Logistika/Dokumenti/Storno.md)**.

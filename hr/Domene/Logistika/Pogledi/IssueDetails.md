@@ -5,7 +5,7 @@
 
 # Issue details
 
-Stranica **Issue details** pruža analitički pregled svih **materijala i gotovih proizvoda izdanih sa zalihe** u odabranom vremenskom razdoblju. Umjesto prikaza pojedinih izdatnica, stranica grupira izdane stavke i prikazuje **iz kojih su [izdatnica](../Documents/Izdatnica.md)** izdane te **s kojih skladišnih lokacija**.
+Stranica **Issue details** pruža analitički pregled svih **materijala i gotovih proizvoda izdanih sa zalihe** u odabranom vremenskom razdoblju. Umjesto prikaza pojedinih izdatnica, stranica grupira izdane stavke i prikazuje **iz kojih su [izdatnica](../Dokumenti/Izdatnica.md)** izdane te **s kojih skladišnih lokacija**.
 
 Za pristup ovoj stranici otvorite **Logistika / Pogledi / Issue details** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
@@ -28,7 +28,7 @@ Popis je organiziran na sljedeći način:
 
 Za svaku izdatnicu prikazani su:
 
-- **Broj dokumenta** – otvara odgovarajuću [izdatnicu](../Documents/Izdatnica.md)
+- **Broj dokumenta** – otvara odgovarajuću [izdatnicu](../Dokumenti/Izdatnica.md)
 - **Datum i vrijeme izdavanja**
 - **Izvor** – skladište i lokacija
 - **Izdana količina**

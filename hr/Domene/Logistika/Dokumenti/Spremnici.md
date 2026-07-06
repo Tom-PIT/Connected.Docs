@@ -67,12 +67,12 @@ Spremnik prelazi u status **Zapakiran** te je spreman za daljnje skladišne oper
 
 Zapakirani spremnici mogu se koristiti u različitim skladišnim procesima:
 
-- tijekom [**Izdatnica**](Izdatnice.md) skeniranjem spremnika moguće je:
+- tijekom [**Izdatnica**](Izdatnica.md) skeniranjem spremnika moguće je:
     - dodati cijeli sadržaj spremnika
     - koristiti samo dio količine
 - tijekom [**Primki**](Primke.md) moguće je zaprimiti cijeli spremnik
-- tijekom [**Međuskladišnog prometa**](MedjuskladisniPromet.md) ili [**Premještaja spremnika**](PremjestajSpremnika.md) moguće je premjestiti cijeli spremnik jednim skeniranjem
-- stanje spremnika može se provjeriti u [**Pogledu zalihe**](../Pogledi/Zaliha.md) ili [**Pogledu zalihe po lokacijama**](../Pogledi/PogledZalihePoLokacijama.md)
+- tijekom [**Međuskladišnog prometa**](MeduskladisniPromet.md) ili [**Premještaja spremnika**](PremjestajSpremnika.md) moguće je premjestiti cijeli spremnik jednim skeniranjem
+- stanje spremnika može se provjeriti u [**Pogledu zalihe**](../Pogledi/Zaliha.md) ili [**Pogledu zalihe po lokacijama**](../Pogledi/PogledNaZalihePremaLokacijama.md)
 
 ## Pregled spremnika
 
@@ -89,7 +89,7 @@ Dokument spremnika prikazuje:
 ![Dokument spremnika](../Images/ContainersDocumentHR.png "Dokument spremnika")
 
 > [!TIP]
-> - Kliknite poveznicu **Lokacija** za otvaranje [**Pogleda zalihe po lokacijama**](../Pogledi/PogledZalihePoLokacijama.md) s prikazom odabrane lokacije.
+> - Kliknite poveznicu **Lokacija** za otvaranje [**Pogleda zalihe po lokacijama**](../Pogledi/PogledNaZalihePremaLokacijama.md) s prikazom odabrane lokacije.
 > - Kliknite serijski broj stavke za otvaranje [**Pogleda zalihe prema serijskom broju**](../Pogledi/Zaliha.md#pogled-na-zalihe-prema-serijskom-broju).
 
 ## Korištenje djelomične količine
@@ -106,9 +106,9 @@ Sustav evidentira spremnik, količinu, dokument, datum i korisnika.
 
 Djelomična količina podržana je u:
 
-- [**Izdatnicama**](Izdatnice.md)
-- [**Međuskladišnom prometu**](MedjuskladisniPromet.md)
-- [**Potrošnji**](Potrosnja.md)
+- [**Izdatnicama**](Izdatnica.md)
+- [**Međuskladišnom prometu**](MeduskladisniPromet.md)
+- [**Potrošnji**](Potrosnje.md)
 
 ## Brisanje spremnika
 

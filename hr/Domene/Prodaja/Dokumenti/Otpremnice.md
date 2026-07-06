@@ -17,7 +17,7 @@ Otpremnice predstavljaju poveznicu između komercijalnog i skladišnog procesa:
 
 1. Kupac potvrdi narudžbu → izrađuje se [**Narudžba kupca**](NarudzbeKupca.md).
 2. Iz narudžbe kupca korisnik izrađuje **Otpremnicu** putem *Povezani dokumenti → + Otpremnica*.
-3. Kada je otpremnica spremna, izrađuje se povezana [**Izdatnica**](../../Logistika/Dokumenti/Izdatnice.md) (potpuna ili djelomična isporuka).
+3. Kada je otpremnica spremna, izrađuje se povezana [**Izdatnica**](../../Logistika/Dokumenti/Izdatnica.md) (potpuna ili djelomična isporuka).
 4. Nakon isporuke proces se nastavlja izradom [**Izlaznog računa**](IzlazniRacuni.md).
 
 ![Otpremnice u prodajnom procesu](../Images/DeliveryNotesDiagramHR.svg "Otpremnice u prodajnom procesu")
@@ -69,9 +69,9 @@ Otpremnice se također mogu kopirati, povezati s postojećim izdatnicama ili pro
 
 Otpremnice koriste pojednostavljeni tijek rada:
 
-- **Dostupno** – Otpremnica je izrađena i spremna za obradu. Ovaj status odgovara statusu *nacrta* kod drugih dokumenata. Iz otpremnice još nije izrađena [**Izdatnica**](../../Logistika/Dokumenti/Izdatnice.md), a sve količine još se mogu uređivati.
+- **Dostupno** – Otpremnica je izrađena i spremna za obradu. Ovaj status odgovara statusu *nacrta* kod drugih dokumenata. Iz otpremnice još nije izrađena [**Izdatnica**](../../Logistika/Dokumenti/Izdatnica.md), a sve količine još se mogu uređivati.
 
-- **U tijeku je dovršavanje** – Otpremnica je djelomično obrađena. To se najčešće događa kada je izrađena [**Izdatnica**](../../Logistika/Dokumenti/Izdatnice.md) samo za dio robe ili kada isporuka još nije završena.
+- **U tijeku je dovršavanje** – Otpremnica je djelomično obrađena. To se najčešće događa kada je izrađena [**Izdatnica**](../../Logistika/Dokumenti/Izdatnica.md) samo za dio robe ili kada isporuka još nije završena.
 
 - **Dovršen** – Sve radnje povezane s otpremnicom su završene. Dokument se više ne može uređivati, ali ga je moguće ispisati, izvesti ili koristiti za izradu računa.
 
@@ -83,7 +83,7 @@ Popis otpremnica prikazuje dokumente razvrstane prema statusu:
 - **U tijeku je dovršavanje**
 - **Dovršen**
 - **Svi**
-- **[Storniran](../../Logistika/Dokumenti/Storna.md)** (Status storna)
+- **[Storniran](../../Logistika/Dokumenti/Storno.md)** (Status storna)
 
 **Pokazatelji prikazani na vrhu:**
 
@@ -158,9 +158,9 @@ Radnje dostupne za otpremnice u statusu **Dostupno** uključuju:
 - [**+ Proizvodni nalog**](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md)
 - [**+ Nalog za održavanje**](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md)
 - [**+ Izlazni račun**](IzlazniRacuni.md)
-- **[+ Prazna izdatnica](../../Logistika/Dokumenti/Izdatnice.md)**
-- **[+ Potpuna izdatnica](../../Logistika/Dokumenti/Izdatnice.md)**
-- **[Izdatnica](../../Logistika/Dokumenti/Izdatnice.md)** – Poveži postojeću izdatnicu
+- **[+ Prazna izdatnica](../../Logistika/Dokumenti/Izdatnica.md)**
+- **[+ Potpuna izdatnica](../../Logistika/Dokumenti/Izdatnica.md)**
+- **[Izdatnica](../../Logistika/Dokumenti/Izdatnica.md)** – Poveži postojeću izdatnicu
 
 #### Transport
 

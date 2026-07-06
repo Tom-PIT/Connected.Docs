@@ -24,7 +24,7 @@ This tutorial explains, in simple terms, what to do when you get a sales order a
 <!-- app_route: /warehouse/stock/index -->
 <!-- app_label: Stock -->
 
-- Go to the published **Sales Order** and review ordered items, then open **[Stock](../Domains/Logistics/Views/Stock.md)** to check current balances per warehouse/location.
+- Go to the published **Sales Order** and review ordered items, then open **[Stock](../Domains/Logistics/Pogledi/Zaliha.md)** to check current balances per warehouse/location.
 - When creating an [**Issue**](../Domains/Logistics/Documents/Issues.md) document, for example, via **Linked Documents → + Full Issue**. If stock is insufficient, the system shows a warning and prevents you from continuing or publishing until quantities are available.
 - In production, open **[Requirements](../Domains/Production/Documents/Requirements.md)** to see which materials or semi‑products are short for planned operations.
 
@@ -59,7 +59,7 @@ This tutorial explains, in simple terms, what to do when you get a sales order a
 #### 3.3 Receive into stock
 1. In the Supply Order, open **Linked Documents → [+ Receive](../Domains/Logistics/Documents/Receives.md)**.
 2. Select **Warehouse** and **Locations**, confirm received quantities; Click **Publish**.
-3. (Optional) Verify balances in **[Stock](../Domains/Logistics/Views/Stock.md)** or **[Stock View by Location](../Domains/Logistics/Views/StockViewByLocation.md)**.
+3. (Optional) Verify balances in **[Stock](../Domains/Logistics/Pogledi/Zaliha.md)** or **[Stock View by Location](../Domains/Logistics/Views/StockViewByLocation.md)**.
 
 > [!NOTE]
 > In a normal supply chain process, after goods are received, the supplier’s [**Received invoice**](../Domains/Accounting/Documents/ReceivedInvoices.md) must be recorded and settled through a [**Payment Order**](../Domains/Accounting/Documents/PaymentOrders.md) in the [**Accounting**](../Domains/Accounting/README.md) domain. These financial steps are documented separately.

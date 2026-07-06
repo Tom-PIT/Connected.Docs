@@ -136,4 +136,4 @@ Kliknite **Dodaj način plaćanja** kako biste računu dodijelili [**način pla�
 Kada je račun spreman, kliknite **Objavi** pri vrhu stranice. Objavom dokument prelazi iz statusa **Nacrt** u **Obrađen**, zaključuju se ukupni iznosi te postaju dostupni izvoz u računovodstvo i daljnja obrada.
 
 > [!NOTE]
-> Nakon objave izlazni račun više nije moguće uređivati niti obrisati. Ako je potrebno ispraviti dokument, koristite radnju **[Storniraj dokument](../../Logistika/Dokumenti/Storna.md)** iz izbornika.
+> Nakon objave izlazni račun više nije moguće uređivati niti obrisati. Ako je potrebno ispraviti dokument, koristite radnju **[Storniraj dokument](../../Logistika/Dokumenti/Storno.md)** iz izbornika.

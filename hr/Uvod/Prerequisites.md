@@ -17,7 +17,7 @@ The system may initially be empty of the basic data required for day‑to‑day 
 3. Configure payment settings: **[Payment methods](../Domains/Sales/Management/PaymentMethods.md)**, **[Organization bank accounts](../Domains/Sales/Management/OrganizationBankAccounts.md)**
 4. Add business partners: **[Business directory](../Common/Management/BusinessDirectory.md)**
 5. Add materials and assets: material types — **[Products](../Domains/Assets/Materials/Products.md)**, **[Semi products](../Domains/Assets/Materials/SemiProducts.md)**, **[Raw materials](../Domains/Assets/Materials/RawMaterials.md)**, **[Repro materials](../Domains/Assets/Materials/ReproMaterials.md)**; packaging — **[Packaging](../Domains/Assets/Materials/Packaging.md)**; assets — **[Assets](../Domains/Assets/Assets/Assets.md)**
-6. Set up warehouses and locations (if applicable): **[Warehouses](../Domains/Logistics/Management/Warehouses.md)**, **[Locations](../Domains/Logistics/Management/Locations.md)**, **[Organization units](../Domains/Production/Management/OrganizationUnits.md)**, **[Warehouse locations](../Domains/Production/Management/WarehouseLocations.md)**
+6. Set up warehouses and locations (if applicable): **[Warehouses](../Domains/Logistics/Upravljanje/Skladista.md)**, **[Locations](../Domains/Logistics/Management/Locations.md)**, **[Organization units](../Domains/Production/Management/OrganizationUnits.md)**, **[Warehouse locations](../Domains/Production/Management/WarehouseLocations.md)**
 
 > [!TIP]
 > A **code list** is shared master data used across documents and domains (e.g., countries, currencies, tax rates, measure units). Configure these first so forms, dropdowns, and calculations work correctly.
@@ -111,7 +111,7 @@ Add materials and assets that will be used in documents and stock operations acc
 ### 6. Set up warehouses and locations (if applicable)
 
 For logistics or production scenarios involving stock:
-- **[Warehouses](../Domains/Logistics/Management/Warehouses.md)** — storage sites where stock is held  
+- **[Warehouses](../Domains/Logistics/Upravljanje/Skladista.md)** — storage sites where stock is held  
   Go to: **Logistics / Management / Warehouses**
 - **[Locations](../Domains/Logistics/Management/Locations.md)** — bin/shelf locations inside warehouses for precise placement  
   Go to: **Logistics / Management / Locations**

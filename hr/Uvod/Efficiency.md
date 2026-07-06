@@ -58,7 +58,7 @@ This guide explains, in simple steps, how to track production work and improve r
 
 
 > [!TIP]
-> Use **Linked documents** in Production orders to trace consumption per order, then compare recorded use with **[Stock](../Domains/Logistics/Views/Stock.md)** and movement documents (**[Inter warehouse](../Domains/Logistics/Documents/InterWarehouse.md)**, **[Move serial](../Domains/Logistics/Documents/MoveSerial.md)**) to confirm differences and identify causes.
+> Use **Linked documents** in Production orders to trace consumption per order, then compare recorded use with **[Stock](../Domains/Logistics/Pogledi/Zaliha.md)** and movement documents (**[Inter warehouse](../Domains/Logistics/Documents/InterWarehouse.md)**, **[Move serial](../Domains/Logistics/Documents/MoveSerial.md)**) to confirm differences and identify causes.
 
 <!-- app_route: /sitemap/production.analytics -->
 <!-- app_label: Production analytics -->

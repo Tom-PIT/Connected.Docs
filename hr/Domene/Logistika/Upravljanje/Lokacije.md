@@ -5,7 +5,7 @@
 
 # Lokacije
 
-Ova šifrarnica sadrži lokacije unutar pojedinih [skladišta](Skladišta.md). Svaka lokacija predstavlja određeno područje ili podjelu skladišta, poput regala, police ili pretinca, te omogućuje preciznu organizaciju i praćenje robe unutar skladišta.
+Ova šifrarnica sadrži lokacije unutar pojedinih [skladišta](Skladista.md). Svaka lokacija predstavlja određeno područje ili podjelu skladišta, poput regala, police ili pretinca, te omogućuje preciznu organizaciju i praćenje robe unutar skladišta.
 
 Za pristup ovoj šifrarnici idite na **Logistika / Upravljanje / Lokacije** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
@@ -46,7 +46,7 @@ Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za prikaz dostu
 
 Kliknite akcijski gumb i odaberite **Uvoz** za otvaranje sučelja za uvoz. Lokacije možete uvesti iz **CSV** datoteke. Ova je mogućnost korisna prilikom postavljanja složenih skladišnih struktura s većim brojem regala, polica i pretinaca.
 
-![Uvoz lokacija](../Images/LocationsImport.png "Uvoz lokacija")
+![Uvoz lokacija](../Images/LocationsImportHR.png "Uvoz lokacija")
 
 Povucite CSV datoteku u područje za prijenos ili kliknite kako biste otvorili dijalog za odabir datoteke. Datoteka mora sadržavati sva potrebna polja u ispravnom formatu.
 
@@ -55,7 +55,7 @@ Nakon uvoza možete pregledati i po potrebi urediti uvezene lokacije na zaslonu 
 Kliknite **Poništi** za povratak bez uvoza.
 
 > [!NOTE]
-> Svaka lokacija mora biti povezana s postojećim **skladištem**, stoga prije uvoza provjerite jesu li sva potrebna [**skladišta**](Warehouses.md) već definirana.
+> Svaka lokacija mora biti povezana s postojećim **skladištem**, stoga prije uvoza provjerite jesu li sva potrebna [**skladišta**](Skladista.md) već definirana.
 
 #### Primjer CSV strukture
 
@@ -80,7 +80,7 @@ Obrazac sadrži sljedeća polja:
 - **Duguje**
 - **Na teret**
 
-![Nova lokacija](../Images/NewLocation.png "Nova lokacija")
+![Nova lokacija](../Images/NewLocationHR.png "Nova lokacija")
 
 Nakon unosa potrebnih podataka kliknite **Dodaj** za spremanje lokacije ili **Poništi** za povratak na popis.
 
@@ -109,4 +109,4 @@ Dostupne akcije:
 
 - **Ispis oznaka lokacija skladišta**
 
-Više informacija o akcijama izbornika potražite u dokumentu [**Akcije izbornika**](../../../Common/Concepts/MenuActions.md).
+Više informacija o akcijama izbornika potražite u dokumentu [**Akcije izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).
