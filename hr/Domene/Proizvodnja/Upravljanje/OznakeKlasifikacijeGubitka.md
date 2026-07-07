@@ -1,6 +1,6 @@
 <!-- app_route: /management/incompliant-production-tags -->
 <!-- app_label: Oznake klasifikacije gubitka (škarta) -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Proizvodnja/Upravljanje/OznakeKlasifikacijeGubitka.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeGubitka.md -->
 <!-- canonical_source_title: Oznake klasifikacije gubitka (škarta) -->
 
 # Oznake klasifikacije gubitka (škarta)
