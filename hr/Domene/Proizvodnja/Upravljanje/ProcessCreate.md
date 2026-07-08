@@ -39,7 +39,7 @@ The process is now created.
 ### Example
 
 * **Name**: *Oak Wood Chair*
-* **Description**: *Production process for manufacturing oak wood chairs*
+* **Description**: *Proizvodni proces za izradu stolica od hrastovine*
 * **Tags**: *Production*
 
 ![New process](../Images/ProcessExampleNew.png "New process")
@@ -73,7 +73,7 @@ The version is now ready to be configured.
 ### Example
 
 * **Name**: *Standard version*
-* **Description**: *Standard oak chair production process*
+* **Description**: *Standardni proizvodni proces za izradu stolica od hrastovine*
 
 ![New version](../Images/ProcessExampleVersionNew.png "New version")
 
