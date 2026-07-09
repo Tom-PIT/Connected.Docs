@@ -34,7 +34,7 @@ Za pristup operacijama:
 | **Utjecaj vremena** | Određuje utječe li trajanje operacije na ukupno trajanje procesa:<br>• Nedefinirano<br>• Uključi<br>• Isključi |
 | **Nadređen** | Omogućuje postavljanje operacije kao podređene drugoj operaciji. |
 | **Zadana organizacijska jedinica** | Organizacijska jedinica odgovorna za izvođenje operacije. |
-| **Članak** | Poveznica na članak iz [**Baze znanja**](../../Znanje/Znanje/BazaZnanja.md) s dodatnim uputama, opisima ili slikama (nije obavezno). |
+| **Članak** | Poveznica na članak iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md) s dodatnim uputama, opisima ili slikama (nije obavezno). |
 | **Oznake** | Oznake za grupiranje ili kategorizaciju operacija (nije obavezno). |
 | [**Trošak**](../../Nabava/Upravljanje/Troskovi.md) | Kategorija troška povezana s operacijom. |
 
@@ -63,7 +63,7 @@ Za pronalaženje operacija prema nazivu ili oznaci koristite **Pretraživanje**.
 
 1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite jednu od sljedećih opcija:
     - **Novi**
-    - **Iz predloška** – ako su dostupni predlošci u dokumentu [**Predlošci instanci operacija protokola**](ProtocolOperationsInstanceTemplates.md#using-templates-when-creating-operations).
+    - **Iz predloška** – ako su dostupni predlošci u dokumentu [**Predlošci instanci operacija protokola**](PravilniciZaOperacije.md#dodavanje-pravilnika-za-operaciju).
     - **Kopiraj postojeći**
 
     ![Akcijski gumb](../Images/OperationsActionButtonHR.png)

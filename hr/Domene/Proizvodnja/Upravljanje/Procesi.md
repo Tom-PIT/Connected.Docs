@@ -8,7 +8,7 @@
 Procesi definiraju strukturirane korake koji se koriste u **Proizvodnji** i **Održavanju** za pretvaranje ulaza u izlaze (gotove proizvode, poluproizvode ili servisiranu opremu). Oni predstavljaju osnovu operativnih tijekova rada te se koriste u **dokumentima** za izračun materijala, resursa, radnog opterećenja i koraka izvršavanja:
 
 - **[Proizvodni nalozi](../Dokumenti/ProductionOrders.md)** za proizvodne procese
-- **[Nalozi za održavanje](../../Održavanje/Dokumenti/MaintenanceOrders.md)** za procese održavanja
+- **[Nalozi za održavanje](../../Održavanje/Dokumenti/NaloziZaOdrzavanje.md)** za procese održavanja
 
 Ova stranica omogućuje stvaranje i upravljanje procesima, njihovim verzijama i operativnom strukturom.
 
@@ -43,7 +43,7 @@ Za pristup ovoj stranici otvorite **Proizvodnja / Upravljanje / Procesi** u [nav
 | [**Oznaka**](../../../Zajednicko/UI/OznakeDokumenata.md) | Automatski generirana oznaka verzije (nije moguće uređivati). |
 | **Naziv** | Naziv verzije (obavezno). |
 | **Opis** | Dodatni opis verzije (nije obavezno). |
-| **Članak** | Poveznica na članak iz [**Baze znanja**](../../Znanje/Znanje/BazaZnanja.md) koji opisuje verziju procesa. |
+| **Članak** | Poveznica na članak iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md) koji opisuje verziju procesa. |
 
 </details>
 
@@ -70,14 +70,14 @@ Na lijevoj strani dostupni su sljedeći filtri:
     - **Opis** – Nije obavezno.
     - **Oznake** – Nisu obavezne, ali su **potrebne** kako bi proces bio dostupan u određenom području.
         - Dodajte oznaku **Proizvodnja** kako bi proces bio dostupan prilikom izrade novog [**Proizvodnog naloga**](../Dokumenti/ProductionOrders.md).
-        - Dodajte oznaku **Održavanje** kako bi proces bio dostupan prilikom izrade novog [**Naloga za održavanje**](../../Održavanje/Dokumenti/MaintenanceOrders.md).
+        - Dodajte oznaku **Održavanje** kako bi proces bio dostupan prilikom izrade novog [**Naloga za održavanje**](../../Održavanje/Dokumenti/NaloziZaOdrzavanje.md).
 
     ![Novi proces](../Images/ProcessesNewHR.png "Novi proces")
 
 3. Kliknite **Dodaj**.
 
 > [!IMPORTANT]
-> Oznake određuju gdje se proces može koristiti. Ako procesu nije dodijeljena odgovarajuća oznaka (npr. **Proizvodnja** ili **Održavanje**), neće biti dostupan prilikom izrade dokumenata u tom području, primjerice [**Proizvodnog naloga**](../Dokumenti/ProductionOrders.md) ili [**Naloga za održavanje**](../../Održavanje/Dokumenti/MaintenanceOrders.md).
+> Oznake određuju gdje se proces može koristiti. Ako procesu nije dodijeljena odgovarajuća oznaka (npr. **Proizvodnja** ili **Održavanje**), neće biti dostupan prilikom izrade dokumenata u tom području, primjerice [**Proizvodnog naloga**](../Dokumenti/ProductionOrders.md) ili [**Naloga za održavanje**](../../Održavanje/Dokumenti/NaloziZaOdrzavanje.md).
 
 ## Uređivanje procesa
 

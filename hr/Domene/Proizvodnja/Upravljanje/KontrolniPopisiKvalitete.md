@@ -1,74 +1,77 @@
 <!-- app_route: /management/processes -->
-<!-- app_label: Processes -->
-<!-- app_navigation_hint: Process level: open a process, select the appropriate version, and open Quality.
-Operation level: open a process, select a version, click Operations, and then open Quality for the relevant operation. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/QualityChecklists.md -->
-<!-- canonical_source_title: Quality — Execution checklists -->
+<!-- app_label: Procesi -->
+<!-- app_navigation_hint: Razina procesa: otvorite proces, odaberite odgovarajuću verziju i otvorite **Kvaliteta**.
+Razina operacije: otvorite proces, odaberite verziju, kliknite **Operacije**, a zatim otvorite **Kvaliteta** za odgovarajuću operaciju. -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/KontrolniPopisiKvalitete.md -->
+<!-- canonical_source_title: Kvaliteta — Kontrolni popisi izvođenja -->
 
-# Quality — Execution checklists
+# Kvaliteta — Kontrolni popisi izvođenja
 
-The **Quality** page allows you to link **[checklists](../../Kvaliteta/Upravljanje/KontrolniPopisi.md)** to either a **process version** or an **operation**. These checklists are used to enforce quality-control steps during production.
+Stranica **Kvaliteta** omogućuje povezivanje **[kontrolnih popisa](../../Kvaliteta/Upravljanje/KontrolniPopisi.md)** s **verzijom procesa** ili **operacijom**. Ti se kontrolni popisi koriste za provođenje koraka kontrole kvalitete tijekom proizvodnje.
 
-To access this page, click the **Quality** button from:
+Za pristup ovoj stranici kliknite **Kvaliteta** na:
 
-- A **Process version**  
-  ![Quality button on version](../Images/ProcessesVersionsQualityButton.png)
+- **Verziji procesa**
 
-- An **Operation**  
-  ![Quality button on operation](../Images/OperationsQualityButton.png)
+  ![Gumb Kvaliteta na verziji](../Images/ProcessesVersionsQualityButtonHR.png)
+
+- **Operaciji**
+
+  ![Gumb Kvaliteta na operaciji](../Images/OperationsQualityButtonHR.png)
 
 > [!NOTE]
-> Prepare the checklist first in the **[Checklists](../../Quality/Management/Checklists.md)** code list. Only defined checklists can be linked here.
+> Najprije kreirajte kontrolni popis u šifrarniku **[Kontrolni popisi](../../Kvaliteta/Upravljanje/KontrolniPopisi.md)**. Ovdje se mogu povezati samo već definirani kontrolni popisi.
 
 > [!TIP]
-> For a full demonstration, see the **[Quality](https://www.youtube.com/watch?v=B2KX_UvDiCw)** video tutorial.
+> Za potpuni prikaz funkcionalnosti pogledajte video vodič **[Kvaliteta](https://www.youtube.com/watch?v=B2KX_UvDiCw)**.
 
-## Schema
+## Shema
 
-| Field | Description |
-|------|-------------|
-| **Checklist** | The quality checklist that will be executed during the operation. |
-| **Mode** | Defines when the checklist is executed: <br>• **Manual**<br>• **On complete**<br>• **On every N units**<br>• **On first produced unit**<br>• **On last produced unit**<br>• **On pause**<br>• **On run**<br>• **On start** |
-| **Order** | Determines the execution order of the checklist relative to other checklists in the same operation. |
-| **Material** | Optional material to which the checklist applies. Used when quality checks are material-specific. See **[Materials](../../Assets/Materials/README.md)**. |
-| **Period** | Defines the number of produced units after which the checklist is triggered. This field is available only when **Mode = On every N units**. |
+| Polje | Opis |
+|------|------|
+| **Kontrolni popis** | Kontrolni popis kvalitete koji će se izvršavati tijekom operacije ili verzije procesa. |
+| **Način** | Određuje kada se kontrolni popis izvršava:<br>• **Ručno**<br>• **Prije dovršetka**<br>• **Svakih n jedinica**<br>• **Pri prvoj proizvodnji**<br>• **Pri zadnjoj proizvodnji**<br>• **Za pauzu**<br>• **Pri pokretanju**<br>• **Na početku** |
+| **Redoslijed** | Određuje redoslijed izvršavanja kontrolnog popisa u odnosu na ostale kontrolne popise povezane s istom operacijom ili verzijom procesa. |
+| **Materijal** | Neobavezni materijal na koji se kontrolni popis odnosi. Koristi se kada se kontrola kvalitete provodi za određeni materijal. Pogledajte **[Materijali](../../RobaIUsluge/Materijali/README.md)**. |
+| **Period** | Određuje broj proizvedenih jedinica nakon kojeg se kontrolni popis pokreće. Ovo je polje dostupno samo kada je **Način = Svakih n jedinica**. |
 
-## List view
+## Prikaz popisa
 
-When opened, the **Quality** page displays all checklists already linked to the process version or operation.
+Prilikom otvaranja stranice **Kvaliteta** prikazuju se svi kontrolni popisi povezani s odabranom verzijom procesa ili operacijom.
 
-![Quality list](../Images/QualityList.png)
+![Popis kvalitete](../Images/QualityListHR.png)
 
-You may reorder entries by adjusting their **Ordinal** value.
+Redoslijed zapisa možete promijeniti izmjenom vrijednosti polja **Redoslijed**.
 
-## Add a new quality entry
+## Dodavanje novog kontrolnog popisa
 
-1. Click the action button and choose **New**.
+1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novi**.
 
-   ![Quality New](../Images/QualityNew.png "New quality record")
+   ![Novi kontrolni popis](../Images/QualityNewHR.png)
 
-2. Select **Checklist** and **Mode**:
-   - **Manual**: Operators open and complete the checklist manually from the Quality activity.
-   - **On complete**: The checklist must be completed before the operation can be finished.
-   - **On every N units**: The checklist is triggered periodically based on the number of produced units (requires defining **Period**).
-   - **On first produced unit**: The checklist is triggered when the first unit is produced.
-   - **On last produced unit**: The checklist is triggered when the last unit is produced.
-   - **On pause**: The checklist is triggered when the operation is paused.
-   - **On run**: The checklist is available while the operation is running.
-   - **On start**: The checklist is triggered when the operation starts.
+2. Odaberite **Kontrolni popis** i **Način**:
 
-    ![Quality New Modes](../Images/QualityNewModes.png "Checklist mode")
- 
-3. Click **Add**.
+   - **Ručno** – operater ručno otvara i izvršava kontrolni popis tijekom izvođenja operacije.
+   - **Prije dovršetka** – kontrolni popis mora biti dovršen prije završetka operacije.
+   - **Svakih n jedinica** – kontrolni popis pokreće se periodično nakon određenog broja proizvedenih jedinica (potrebno je definirati **Period**).
+   - **Pri prvoj proizvodnji** – kontrolni popis pokreće se nakon proizvodnje prve jedinice.
+   - **Pri zadnjoj proizvodnji** – kontrolni popis pokreće se nakon proizvodnje posljednje jedinice.
+   - **Za pauzu** – kontrolni popis pokreće se kada se operacija pauzira.
+   - **Pri pokretanju** – kontrolni popis pokreće se prilikom pokretanja operacije.
+   - **Na početku** – kontrolni popis pokreće se na početku operacije.
 
-## Edit a quality entry
+   ![Načini izvršavanja kontrolnog popisa](../Images/QualityNewModesHR.png)
 
-1. Click an existing entry in the list to open the Edit page.
-2. Update **Checklist**, **Mode**, or **Ordinal** as needed.
-3. Click **Save** to apply changes.
+3. Kliknite **Dodaj**.
 
-## Delete a quality entry
+## Uređivanje kontrolnog popisa
 
-Click an existing entry in the list to open the Edit page and select **Delete**.
+1. Na popisu kliknite postojeći zapis.
+2. Po potrebi izmijenite **Kontrolni popis**, **Način** ili **Redoslijed**.
+3. Kliknite **Spremi**.
 
-Confirm the deletion to remove the quality entry.
+## Brisanje kontrolnog popisa
+
+Otvorite željeni zapis i kliknite **Izbriši**.
+
+Potvrdite brisanje kako biste uklonili kontrolni popis.

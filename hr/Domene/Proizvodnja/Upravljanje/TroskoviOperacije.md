@@ -10,7 +10,7 @@ Troškovi operacije predstavljaju dodatne **troškove** povezane s pojedinom **o
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Upravljanje / [Procesi](Procesi.md)** u [navigaciji](../../../Zajednicko/UI/Navigacija.md), odaberite verziju procesa, kliknite [**Operacije**](Operacije.md), a zatim **Troškovi** za željenu operaciju.
 
-![Gumb Troškovi](../Images/OperationExpensesButton.png "Gumb Troškovi")
+![Gumb Troškovi](../Images/OperationExpensesButtonHR.png "Gumb Troškovi")
 
 ## Shema
 
@@ -30,7 +30,7 @@ Za svaki trošak prikazani su:
 - Tip kalkulacije
 - Iznos
 
-![Popis troškova operacije](../Images/OperationExpensesList.png "Popis troškova operacije")
+![Popis troškova operacije](../Images/OperationExpensesListHR.png "Popis troškova operacije")
 
 Za pronalaženje troškova koristite **Pretraživanje**.
 
@@ -39,7 +39,7 @@ Za pronalaženje troškova koristite **Pretraživanje**.
 1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) u donjem desnom kutu.
 2. Ispunite potrebna polja.
 
-    ![Dodavanje troška operaciji](../Images/OperationExpensesNew.png "Dodavanje troška operaciji")
+    ![Dodavanje troška operaciji](../Images/OperationExpensesNewHR.png "Dodavanje troška operaciji")
 
 3. Kliknite **Dodaj**.
 

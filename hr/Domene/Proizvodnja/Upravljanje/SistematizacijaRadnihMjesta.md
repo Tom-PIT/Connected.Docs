@@ -1,68 +1,73 @@
 <!-- app_route: /management/resources/job-positions -->
-<!-- app_label: Job positions -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/JobPositions.md -->
-<!-- canonical_source_title: Job positions -->
+<!-- app_label: Sistematizacija radnih mjesta -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta.md -->
+<!-- canonical_source_title: Sistematizacija radnih mjesta -->
 
-# Job positions
+# Sistematizacija radnih mjesta
 
-The **Job positions** code list defines the roles that employees can perform across operational workflows (production and maintenance). These positions are assigned to registered workers in the system, so they can be selected in workflows such as work reports, scheduling, resource assignment, and checklist execution permissions.
+Stranica **Sistematizacija radnih mjesta** služi za upravljanje radnim mjestima koja se koriste u proizvodnim i održavateljskim procesima. Radna mjesta dodjeljuju se korisnicima kako bi se mogla koristiti prilikom planiranja, evidentiranja rada i izvođenja proizvodnih operacija.
 
-To access Job positions, navigate to the **Production** or **Maintenance** domains, then go to **Management / Job positions** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Za pristup ovoj stranici otvorite **Proizvodnja / Upravljanje / Sistematizacija radnih mjesta** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-## Schema
+## Shema
 
-| Field | Description |
-|-------|-------------|
-| **Code** | Unique identifier of the job position (mandatory). |
-| **Name** | Human-readable name of the role (mandatory). |
-| **Description** | Optional explanation of the responsibilities associated with this position. |
-| **Active** | Indicates whether the position can be assigned to users. |
+| Polje | Opis |
+|-------|------|
+| **Oznaka** | Jedinstvena oznaka radnog mjesta. |
+| **Naziv** | Naziv radnog mjesta. |
+| **Opis** | Opis odgovornosti ili namjene radnog mjesta. |
+| **Aktivan** | Označava može li se radno mjesto dodjeljivati korisnicima. |
 
-## Management
+## Popis
 
-From this screen, you can view, add, and edit job positions used across Production and Maintenance.
+Popis prikazuje sva definirana radna mjesta.
 
-### Job positions list
+Za svaki zapis prikazani su:
 
-The list displays all recorded job positions, showing their **name** and **code**.
+- Naziv
+- Oznaka
 
-![Job positions list](../Images/JobPositionsList.png)
+Za pronalaženje zapisa koristite **Pretraživanje**.
 
-Each record includes a status indicator to the left of its name:
-- **Blue** indicates the position is active  
-- **Gray** indicates the position is inactive  
+![Popis radnih mjesta](../Images/JobPositionsListHR.png "Popis radnih mjesta")
 
-To view or assign workers to a position, first expand the record by clicking the arrow on the left side of the row. This reveals the **Add user resource** option.
+Svaki zapis sadrži indikator statusa:
 
-Clicking **Add user resource** opens a dialog where you can select one or more existing system users to assign to the job position.
+- **Plava** oznaka označava aktivno radno mjesto.
+- **Siva** oznaka označava neaktivno radno mjesto.
 
-![Add user resource](../Images/JobPositionsListAddUserResource.png)
+Kliknite strelicu lijevo od zapisa kako biste proširili njegove podatke.
 
-## Actions
+Unutar proširenog prikaza kliknite **Dodaj korisnički resurs** za dodjelu jednog ili više korisnika tom radnom mjestu.
 
-Click the [action button](../../../Common/UI/ActionButton.md) to add a new job position.
+![Dodavanje korisničkog resursa](../Images/JobPositionsListAddUserResourceHR.png "Dodavanje korisničkog resursa")
 
-### Create a new job position
+## Radnje
 
-Fill in the required information:
+Za dodavanje novog radnog mjesta kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md).
 
-- **Code**  
-- **Name**  
-- **Description** (optional)  
-- **Active**  
+### Dodavanje radnog mjesta
 
-![Job positions – New](../Images/JobPositionsNew.png)
+Unesite:
 
-Click **Add** to save the new position.
+- **Oznaku**
+- **Naziv**
+- **Opis** (nije obavezno)
+- **Aktivan**
 
-### Edit a job position
+![Dodavanje radnog mjesta](../Images/JobPositionsNewHR.png "Dodavanje radnog mjesta")
 
-To edit an existing job position, click on its name in the list. This opens the edit screen where you can modify the position's details.
+Kliknite **Dodaj**.
 
-## Delete a job position
+## Uređivanje radnog mjesta
 
-Click a job position on the list to open the edit screen, then click **Delete**. If confirmed, the record is permanently deleted.
+Kliknite naziv radnog mjesta u popisu.
+
+Po potrebi izmijenite podatke, a zatim kliknite **Spremi**.
+
+## Brisanje radnog mjesta
+
+Za brisanje otvorite željeno radno mjesto i kliknite **Izbriši**.
 
 > [!WARNING]
-> Job positions can be deleted freely, even if users are assigned to them.
-
+> Radno mjesto moguće je obrisati čak i ako su mu dodijeljeni korisnici.
