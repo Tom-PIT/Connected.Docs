@@ -98,7 +98,10 @@ This section lists all materials used to manufacture the item, including:
 - Total cost
 - Percentage of total cost
 
-Expanding a material row shows additional details when available.
+Click a material to view additional information about the material used, including its **serial number**.
+
+If a serial number is available, click it to open the corresponding [**stock view by serial number**](../../Logistics/Views/Stock.md#stock-view-by-serial-number), where you can review the stock record and trace the specific material used.
+
 
 ### Effort
 
