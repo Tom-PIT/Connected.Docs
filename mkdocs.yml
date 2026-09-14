@@ -51,11 +51,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
 
 nav:
-  - English:
-    - en/README.md
-    - Getting started: en/GettingStarted/GettingStarted.md
-    - Navigation: en/Common/UI/Navigation.md
-    - Management index: en/ManagementIndex.md
+    - English:
+        - en/README.md
+        - Getting started: en/GettingStarted/GettingStarted.md
+        - Common: en/Common/README.md
+        - Navigation: en/Common/UI/Navigation.md
+        - Management index: en/ManagementIndex.md
     - Domains:
       - en/Domains/README.md
 
@@ -156,11 +157,12 @@ nav:
         - Configuration: en/Domains/System/Settings/Configuration.md
         - Users: en/Domains/System/Management/Users.md
 
-  - Slovenščina:
-    - sl/README.md
-    - Uvod: sl/Uvod/Uvod.md
-    - Navigacija: sl/Skupno/UI/Navigacija.md
-    - Kazalo upravljanja: sl/KazaloUpravljanja.md
+    - Slovenščina:
+        - sl/README.md
+        - Uvod: sl/Uvod/Uvod.md
+        - Skupno: sl/Skupno/Skupno.md
+        - Navigacija: sl/Skupno/UI/Navigacija.md
+        - Kazalo upravljanja: sl/KazaloUpravljanja.md
 
     - Domene:
       - sl/Domene/README.md
