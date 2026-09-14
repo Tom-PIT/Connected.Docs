@@ -43,6 +43,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Document date** | Date when the sales order is created. |
 | **Delivery date** | Expected delivery date for the order (mandatory). |
 | **Rebate** | Optional discount applied to the entire sales order. |
+| [**Cost center**](../../../Common/Management/CostCenters.md) | Select the cost center associated with the sales order. |
 | **Purchase order** | Optional reference to a related [supply order](../../Supply/Documents/SupplyOrders.md). |
 | **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
 | **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method agreed upon with the customer. |

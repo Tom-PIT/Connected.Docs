@@ -42,6 +42,7 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | **Datum dokumenta** | Datum nastanka naročila stranke. |
 | **Datum prodaje** | Predviden datum dobave naročila (obvezno). |
 | **Rabat** | Neobvezen popust na celotno naročilo stranke. |
+| [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Izberite stroškovno mesto, povezano z naročilom stranke. |
 | **Številka naročilnice** | Neobvezna povezava na povezani [nabavni nalog](../../Nabava/Dokumenti/NabavniNalogi.md). |
 | [**Način plačila**](../Upravljanje/NacinPlacila.md) | Načini plačila, povezani z naročilom stranke. |
 
