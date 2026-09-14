@@ -8,7 +8,7 @@
 Dokumenti **Analiza materialov** prikazujejo materiale, ki so bili prevzeti in za katere je potrebno izvesti analizo ali testiranje na podlagi pravil, nastavljenih v **[Upravljanje analize materialov](../Upravljanje/AnalizaMaterialov.md)**. Ta zaslon uporabite za pregled zahtevanih preverjanj, označevanje uspešnosti analiz ter objavo rezultatov.
 
 > [!NOTE]
-> Dokumenti analize materialov se ustvarijo samodejno ob prevzemu materialov, za katere je v **Upravljanje analize materialov** nastavljena zahteva za analizo.
+> Dokumenti analize materiala se lahko ob prejemu materialov ustvarijo samodejno. Samodejno ustvarjanje je odvisno od analize, nastavljene za material v [**Upravljanju analiz materiala**](../Upravljanje/UpravljanjeAnalizMateriala.md), in sistemskih nastavitev za ustrezno vrsto materiala (izdelki, polizdelki, surovine ali repro materiali). Glejte [**Samodejno ustvarjanje analiz materiala**](../../Sistem/Nastavitve/KonfiguracijaSkladisca.md#samodejno-ustvarjanje-analiz-materiala).
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Analiza materialov](https://www.youtube.com/watch?v=aJhceUVcusw)**.
