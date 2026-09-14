@@ -8,7 +8,8 @@
 Material analysis documents list the materials that were received and require analysis or testing based on rules configured in **[Material analysis management](../Management/MaterialAnalysisManagement.md)**. Use this screen to review the required checks, mark materials as passed, and publish the results.
 
 > [!NOTE]
-> Material analysis documents are created automatically when receiving materials that have an analysis configured in the [**Material analysis management**](../Management/MaterialAnalysisManagement.md) screen.
+> Material analysis documents can be created automatically when receiving materials. Automatic creation depends on the analysis configured for the material in [**Material analysis management**](../Management/MaterialAnalysisManagement.md) and on the system settings for the relevant material type (products, semi-products, raw materials, or repro materials). See [**Automatic material analysis creation**](../../System/Settings/WarehouseConfiguration.md#automatic-material-analysis-creation).
+
 
 > [!TIP]
 > For a full demonstration, see the **[Material analysis](https://www.youtube.com/watch?v=aJhceUVcusw)** video
@@ -45,7 +46,7 @@ The list shows all material analysis documents created during receiving for mate
    
    ![Material Analysis Edit Material Check](../Images/MaterialAnalysisEditMaterialCheck.png)
 
-   - If the test is not passed, leave the check unmarked and click **Save**. The status changes to **Failed** and the material shows red color on the list. If the document is published it will be shown as failed in the committed list.
+   - If the test is not passed, leave the check unmarked and click **Save**. The status changes to **Failed** and the material shows red color on the list. If the document is published, it appears as Failed in the Committed list.
     
      ![Material Analysis Edit Failed](../Images/MaterialAnalysisEditFailed.png "Failed material analysis")
 

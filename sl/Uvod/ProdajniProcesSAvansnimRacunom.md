@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/02.ProdajniProcesSPredplacilom/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/ProdajniProcesSAvansnimRacunom/ -->
 <!-- canonical_source_title: Prodajni proces (s predplačilom) -->
 
 

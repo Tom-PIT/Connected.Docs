@@ -72,9 +72,9 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove
 
 1. Kliknite **Novo**, da ustvarite novo inventuro.
 
-   ![Nova inventura](../Images/InventoryNewSL.png)
+2. Izberite skladišče in lokacijo. Sistem samodejno naloži vse materiale, ki so trenutno evidentirani na izbrani lokaciji.
 
-2. Po izbiri **skladišča** in **lokacije** sistem samodejno naloži vse materiale, zabeležene na tej lokaciji.
+   ![Nova inventura](../Images/InventoryNewSL.png "Nova inventura")
 
 3. V razdelku **Povzetek** so prikazani:
    - **Nerazporejena** — število materialov, ki še niso preverjeni  
@@ -86,7 +86,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove
 
    ![Urejanje inventure](../Images/InventoryEditsSL.png "Urejanje inventure")
 
-   Za informacije o delu s postavkami dokumenta glejte [**Postavke dokumenta**](../../../Skupno/Koncepti/PostavkeDokumenta.md).
+   **Teoretična** količina je samo za branje. Urejati je mogoče samo **Dejansko** količino.
 
 5. Ko so vsi materiali preverjeni in so vnesene dejanske vrednosti, razdelek **Nerazporejena** postane zelen in prikaže **0**.
 

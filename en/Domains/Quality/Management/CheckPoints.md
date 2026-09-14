@@ -1,6 +1,6 @@
 <!-- app_route: /management/check-lists -->
 <!-- app_label: Checklists -->
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/CheckPoints/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Quality/Management/CheckPoints/ -->
 <!-- canonical_source_title: Check points -->
 
 # Check points
