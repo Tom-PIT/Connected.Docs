@@ -20,8 +20,8 @@ To access this domain, navigate to **Logistics** in the [navigation](../../Commo
 
 The domain is organized into several functional areas:
 
-- [**Dashboard**](Views/Dashboard.md) – high-level overview of logistics activity and warehouse performance (read-only KPIs)  
-- [**Stock**](Views/Stock.md) – real-time warehouse visibility (read-only; filters by warehouse, location, material, batch/serial)  
+- [**Dashboard**](Views/Dashboard.md) – high-level overview of warehouse activity (read-only KPIs)  
+- [**Stock**](Views/Stock.md) – provides a real-time overview of warehouse stock (read-only; filters by warehouse, location, material, batch/serial)  
 - [**Documents**](#documents) – all stock-affecting logistics transactions  
 - [**Views**](#views) – analytical screens for consumption, issuing, and stock distribution  
 - [**Management**](#management) – code lists and configuration for warehouses and locations
@@ -118,7 +118,7 @@ Logistics operations follow a consistent lifecycle:
 - Stock leaves the warehouse for production, sales, or internal use via [issues](Documents/Issues.md) and [consumptions](Documents/Consumptions.md).
 
 ### **4. Inventory and reconciliation**
-- Accuracy is maintained through [inventories](Documents/Inventories.md), [write-offs](Documents/Writeoffs.md), and [corrections](Documents/Corrections.md).
+- Accuracy is maintained through [inventories](Documents/Inventories.md), [writeoffs](Documents/Writeoffs.md), and [corrections](Documents/Corrections.md).
 
 ### **5. Reporting and analysis**
 - Views provide insight into stock usage, availability, and discrepancies (see [Views](#views)).

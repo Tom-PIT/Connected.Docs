@@ -5,32 +5,70 @@
 
 # Work items costs
 
-The **Work items costs** view provides insight into the **actual cost of producing a single work item**, based on recorded materials, effort, and expenses. It is primarily used to analyze processes, [production](../../Production/Documents/ProductionOrders.md), and [maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md) and understand cost distribution and performance.
+The **Work items costs** view provides cost analysis for production and maintenance work items, products, and process versions. It is primarily used to analyze processes, [production](../../Production/Documents/ProductionOrders.md), and [maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md) and understand cost distribution and performance.
 
 To access **Work items costs**, go to **Resources / Work items costs** in the [navigation](../../../Common/UI/Navigation.md).
 
-![Work items costs list](../Images/WorkItemsCostsV2.png)
+![Work items costs list](../Images/WorkItemsCostsV3.png)
 
 > [!NOTE]
 > When the **Processes** view is selected, the screen displays estimated [process version costs](../../Production/Analytics/VersionCostView.md) rather than actual work item costs.
 
 ## Work items costs list
 
-The list shows all work items within the selected date range.
+The list shows the cost records matching the selected filters.
 
-Each row represents a **single work item**, typically linked to a production or maintenance order, and displays:
+Depending on the selected **View**, each row represents a work item, product, or process version and displays:
 
-- Work item reference
-- Creation date
+- Reference or name
+- Date
 - Calculated cost per unit
-- Visual indicators showing cost changes compared to previous periods
+- Visual indicators showing cost changes compared to previous values, when available
 
-Filters allow narrowing results by:
+Use the **View** filter to select one or more types of cost analysis:
 
-- Date range
-- Work item type (production or maintenance orders)
+- **Maintenance orders** – shows actual costs of maintenance work items
+- **Production orders** – shows actual costs of production work items
+- **Products** – shows products and their calculated cost per unit
+- **Processes** – shows process versions and their estimated cost per unit
 
-Clicking on a work item opens its detailed cost breakdown.
+Multiple views can be selected at the same time.
+
+Use the **Date** filter to limit the records displayed in the list.
+
+Click an item to open the corresponding cost analysis.
+
+## Product costs
+
+When **Products** is selected in the **View** filter, the list displays products with their calculated **Cost per unit**.
+
+Click a product to open the **Product costs** view.
+
+The following key indicators are available:
+
+* **Average price per unit in the last order** – cost per unit from the most recent production order for the selected product.
+* **Average price per unit in the last month** – average cost per unit calculated from production orders in the last month.
+* **Average price per unit in the last year** – average cost per unit calculated from production orders in the last year.
+
+![Product costs](../Images/WorkItemsCostsProduct.png "Product costs")
+
+Below the indicators, the table lists production work items associated with the selected product and displays:
+
+* **Work item**
+* **Cost per unit**
+
+Use the **Date** filter to limit the records displayed in the table.
+
+> [!NOTE]
+> The **Date** filter affects only the table. The three average cost indicators are calculated using their predefined periods and are not affected by the selected date range.
+
+## Process costs
+
+When **Processes** is selected in the **View** filter, the list displays process versions and their calculated **Cost per unit**.
+
+Each row represents a process version and may include a trend indicator showing whether the calculated cost has increased or decreased compared to the previous value.
+
+Clicking a process version opens its detailed [**Version cost analysis**](../../Production/Analytics/VersionCostView.md).
 
 ## Work item cost details
 
@@ -60,7 +98,10 @@ This section lists all materials used to manufacture the item, including:
 - Total cost
 - Percentage of total cost
 
-Expanding a material row shows additional details when available.
+Click a material to view additional information about the material used, including its **serial number**.
+
+If a serial number is available, click it to open the corresponding [**stock view by serial number**](../../Logistics/Views/Stock.md#stock-view-by-serial-number), where you can review the stock record and trace the specific material used.
+
 
 ### Effort
 
