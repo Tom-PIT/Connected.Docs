@@ -14,8 +14,7 @@ Opredelite **analize ali preizkuse**, ki se lahko izvajajo na materialih (npr. k
 > Za celovit prikaz si oglejte video vodič  
 > **[Analiza materialov](https://www.youtube.com/watch?v=AgCVA8labrw)**.
 
-Za dostop do **Analize materialov** pojdite na  
-**Logistika / Upravljanje / Analiza materialov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Analize materialov** pojdite na **Logistika / Upravljanje / Analiza materialov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 
