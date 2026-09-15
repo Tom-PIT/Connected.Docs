@@ -50,8 +50,6 @@ Na voljo so naslednji ključni kazalniki:
 - **Povprečna cena na kos v zadnjem mesecu** – povprečni strošek na enoto, izračunan na podlagi proizvodnih nalogov v zadnjem mesecu.
 - **Povprečna cena na kos v zadnjem letu** – povprečni strošek na enoto, izračunan na podlagi proizvodnih nalogov v zadnjem letu.
 
-![Stroški izdelka](../Images/WorkItemsCostsProductSL.png "Stroški izdelka")
-
 Pod kazalniki je prikazana tabela proizvodnih opravil, povezanih z izbranim izdelkom, ki prikazuje:
 
 - **Opravilo**
@@ -74,7 +72,7 @@ Klik na verzijo procesa odpre podrobno [**Analizo stroška verzije**](../../Proi
 
 Izbira opravila odpre podroben pogled s celovito analizo stroškov.
 
-![Podrobnosti stroškov opravila](../Images/WorkItemsCostsDetailsV2SL.png)
+![Podrobnosti stroškov opravila](../Images/WorkItemsCostsDetailsSL.png)
 
 ### Pregled stroškov
 

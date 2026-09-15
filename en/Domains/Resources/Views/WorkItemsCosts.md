@@ -50,8 +50,6 @@ The following key indicators are available:
 * **Average price per unit in the last month** – average cost per unit calculated from production orders in the last month.
 * **Average price per unit in the last year** – average cost per unit calculated from production orders in the last year.
 
-![Product costs](../Images/WorkItemsCostsProduct.png "Product costs")
-
 Below the indicators, the table lists production work items associated with the selected product and displays:
 
 * **Work item**

@@ -11,6 +11,8 @@
 *.sln.docstates
 *.env
 
+/docs
+
 # Ignore site
 
 site/

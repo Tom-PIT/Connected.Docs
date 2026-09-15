@@ -44,7 +44,7 @@ Razpoložljivi prodajni dokumenti vključujejo:
 - **[Avansni računi](Dokumenti/AvansniRacuni.md)** – Upravljanje prejetih avansnih računov strank.  
 - **[Opomini](Dokumenti/Opomini.md)** – Obvestila o neplačanih ali zapadlih računih.  
 - **[Maloprodajni računi](Dokumenti/MaloprodajniRacuni.md)** – Računi, ustvarjeni v maloprodajnih procesih; zaloga se ureja prek logistike.  
-- **[Maloprodajna predplačila](Dokumenti/MaloprodajnaPredplacila.md)** – Maloprodajni predračuni in predplačila.
+- **[Maloprodajna avansi računi](Dokumenti/MaloprodajnaAvansniRacuni.md)** – Maloprodajni predračuni in predplačila.
 Vsaka vrsta dokumenta prispeva k prodajnemu toku in zagotavlja popolno sledljivost od začetne ponudbe do končnega obračuna.
 
 > [!TIP]
