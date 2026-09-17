@@ -210,7 +210,8 @@ Available actions:
 
 - **Print**
 - **Export to PDF**
-- **Revert to active**
+- **Revert to active** (only available for closed orders)
+- **Return to draft** (only for orders with status **Pending**)
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
