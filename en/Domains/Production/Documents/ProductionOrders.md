@@ -98,10 +98,11 @@ You may attach other documents that relate to the production order, such as:
 - [**Projects**](../../Projects/README.md)  
 - [**Supply orders**](../../Supply/Documents/SupplyOrders.md)
 - [**Inquiries**](../../Supply/Documents/Inquiries.md)
+- [**Inter warehouse**](../../Logistics/Documents/InterWarehouse.md)
 - Other production orders (linked or input-producing)  
 
 
-![Linked documents](../Images/ProductionOrdersLinkedDocuments.png "Linked documents")
+![Linked documents](../Images/ProductionOrdersLinkedDocumentsV2.png "Linked documents")
 
 Production orders also display any linked documents created during the order's lifecycle, such as cost and consumption reports.
 
