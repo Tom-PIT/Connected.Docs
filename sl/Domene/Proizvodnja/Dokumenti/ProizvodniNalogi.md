@@ -98,9 +98,10 @@ Na proizvodni nalog lahko pripnete druge povezane dokumente, kot so:
 - [**Projekti**](../../Projekti/README.md)  
 - [**Nabavni nalogi**](../../Nabava/Dokumenti/NabavniNalogi.md)
 - [**Povpraševanja**](../../Nabava/Dokumenti/Povprasevanja.md)
+- [**Med skladiscni promet**](../../Logistika/Dokumenti/MedSkladiscniPromet.md)
 - Drugi proizvodni nalogi (povezani ali kot vhodni)
 
-![Povezani dokumenti](../Images/ProductionOrdersLinkedDocumentsSL.png "Povezani dokumenti")
+![Povezani dokumenti](../Images/ProductionOrdersLinkedDocumentsV2SL.png "Povezani dokumenti")
 
 Proizvodni nalogi prikazujejo tudi vse dokumente, ustvarjene med življenjskim ciklom naloga, kot so stroškovna in porabna poročila.
 
