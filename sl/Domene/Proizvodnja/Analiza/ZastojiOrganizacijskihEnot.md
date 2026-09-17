@@ -15,8 +15,9 @@ Do strani dostopate prek **Proizvodnja / Analiza / Zastoji organizacijskih enot*
 
 Na levi strani so na voljo filtri za omejevanje prikazanih podatkov:
 
-- **Datum** — Izberite datum ali časovno obdobje, za katero želite prikaz zastojev.  
-- **Oznaka** — Filtriranje po oznaki zastoja (glej [Oznake zastojev](../Upravljanje/OznakeZastojev.md)).
+- **Datum** — Izberite datum ali časovno obdobje, za katero želite prikaz zastojev. 
+- **Vrsta zastoja** — Filtrirajte zastojev glede na to, ali so planirani ali neplanirani. (glejte [**Vrsta zastoja**](PovzetekZastojev.md#vrsta-zastoja).
+- **Oznaka** — Filtriranje po oznaki zastoja (glej [**Oznake zastojev**](../Upravljanje/OznakeZastojev.md)).
 
 ## Pregled zastojev
 

@@ -26,6 +26,16 @@ Determines how downtime data is aggregated:
 ### From / To
 Select the date range for which downtime records should be included.
 
+### Downtime Type
+
+The **Downtime Type** filter allows you to filter downtime based on whether it is planned or unplanned.
+
+- **All** – displays all downtime regardless of type.
+- **Planned** – displays only planned downtime.
+- **Unplanned** – displays only unplanned downtime.
+
+Whether downtime is considered planned or unplanned is defined in the [**Downtime tags]**(../Management/DowntimeTags.md) code list, where each tag can be configured as planned or unplanned.
+
 ### Organization units
 Filter results by one or more [organization units](../Management/OrganizationUnits.md).
 
