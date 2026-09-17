@@ -93,6 +93,13 @@ The user interface contains a list of raw materials.
 A filter for **Tags** is available on the left side. A search field is
 available in the upper-right corner.
 
+### Menu
+
+The menu provides additional actions available on the list screen.
+
+Available actions:
+
+- **Download CSV** – Download the material list as a CSV file. The file can be reviewed, edited, and later imported to update the material list.
 
 ## Actions
 

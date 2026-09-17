@@ -90,6 +90,14 @@ Uporabniški vmesnik vsebuje seznam surovin.
 
 Na levi strani je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje.
 
+### Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na zaslonu s seznamom.
+
+Razpoložljiva dejanja:
+
+- **Izvoz CSV** – Izvozite seznam materialov kot datoteko CSV. Datoteko lahko pregledate, uredite in jo pozneje ponovno uvozite za posodobitev seznama materialov.
+
 ## Dejanja
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
