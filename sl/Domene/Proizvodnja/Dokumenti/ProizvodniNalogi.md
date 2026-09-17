@@ -215,6 +215,7 @@ Na voljo so naslednja dejanja:
 
 - **Tiskanje**
 - **Izvoz v PDF**
-- **Povrni v aktiven** (samo za zaključen nalog) 
+- **Povrni v aktiven** (samo za zaključen nalog)
+- **Povrni v osnutek** (samo za naloge, ki imajo status **V obdelavi**)
 
 Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
