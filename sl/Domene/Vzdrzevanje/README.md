@@ -27,12 +27,13 @@ Do domene Vzdrževanje dostopate prek **Vzdrževanje** v
 
 ## Kaj vključuje domena Vzdrževanje?
 
-![Pregled domene vzdrževanja](Images/MaintenanceDomainOverviewSL.png "Pregled domene vzdrževanja")
+![Pregled domene vzdrževanja](Images/MaintenanceDomainOverviewV2SL.png "Pregled domene vzdrževanja")
 
 Domena je strukturirana v funkcionalna področja za dnevno delo in analizo:
 
 - **Dokumenti** – ustvarjanje in upravljanje vzdrževalnih aktivnosti ter njihovega življenjskega cikla
   - **[Vzdrževalni nalogi](Dokumenti/VzdrzevalniNalogi.md)** — definiranje in izvajanje planiranega ali kurativnega vzdrževanja na podlagi izbranega vzdrževalnega procesa in verzije. Podpira operacije, vire, vhode in preverjanja kakovosti.
+  - **[Izvedba](Dokumenti/IzvedbaVzdrzevanja.md)** — izvajanje aktivnih vzdrževalnih operacij, beleženje opravljenega dela in porabe materiala, izpolnjevanje kontrolnih listov kakovosti, beleženje dela ter ogled navodil.
   - **[Urniki vzdrževanja](Dokumenti/UrnikiVzdrzevanja.md)** — konfiguracija ponavljajočih se vzorcev izvajanja (časovno ali na podlagi števcev), ki samodejno ustvarjajo vzdrževalne naloge.
   - **[Prijavljene napake](Dokumenti/PrijavljeneNapake.md)** — zajem težav z opremo na terenu; iz prijavljenih napak se ustvarijo kurativni vzdrževalni nalogi.
   - **[Koledar vzdrževanja](Dokumenti/KoledarVzdrzevanja.md)** — koledarski pogled planiranega in aktivnega vzdrževanja z možnostjo filtriranja po organizacijski enoti, virih in statusu naloga.
