@@ -22,12 +22,13 @@ To access the Maintenance domain, navigate to **Maintenance** in the [navigation
 
 ## What is included in the Maintenance domain?
 
-![Maintenance Domain Overview](Images/MaintenanceDomainOverview.png "Maintenance Domain overview")
+![Maintenance Domain Overview](Images/MaintenanceDomainOverviewV2.png "Maintenance Domain overview")
 
 The domain is structured into functional areas for daily work and analysis:
 
 - **Documents** – Create and manage maintenance activities and their lifecycle
   - **[Maintenance orders](Documents/MaintenanceOrders.md)** — Define and execute planned or curative maintenance based on a selected maintenance process and version. Supports operations, resources, inputs, and quality checks.
+  - **[Maintenance execution](Documents/MaintenanceExecution.md)** — Perform active maintenance operations, record work performed and material consumption, complete quality checks, record effort, and view instructions.
   - **[Maintenance schedule](Documents/MaintenanceSchedule.md)** — Configure recurring execution patterns (time- or counter-based) that automatically generate maintenance orders.
   - **[Reported malfunctions](Documents/ReportedMalfunctions.md)** — Capture equipment issues from the field; curative maintenance orders are created from reported malfunctions.
   - **[Maintenance calendar](Documents/MaintenanceCalendar.md)** — Calendar view of planned and active maintenance, with filters by organization unit, resource, and order status.
