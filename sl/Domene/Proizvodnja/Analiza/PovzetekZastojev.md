@@ -27,6 +27,16 @@ Določa način združevanja podatkov o zastojih:
 ### Od / Do
 Izberite časovno obdobje, za katerega želite prikaz zastojev.
 
+### Vrsta zastoja
+
+Filter **Vrsta zastoja** omogoča filtriranje zastojev glede na to, ali so planirani ali neplanirani.
+
+- **Vsi** – prikaže vse zastoje ne glede na njihov tip.
+- **Planirani** – prikaže samo planirane zastoje.
+- **Neplanirani** – prikaže samo neplanirane zastoje.
+
+Podatek o tem, ali je zastoj planiran ali neplaniran, je določen v [**Oznake zastojev**](../Upravljanje/OznakeZastojev.md), kjer je za vsako oznako mogoče določiti, ali je planirana ali neplanirana.
+
 ### Organizacijske enote
 Filtriranje rezultatov po eni ali več [organizacijskih enotah](../Upravljanje/OrganizacijskeEnote.md).
 
