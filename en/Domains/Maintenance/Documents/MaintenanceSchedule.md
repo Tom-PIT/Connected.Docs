@@ -121,11 +121,13 @@ The available fields and options change dynamically depending on the selected ex
 
 ### Maintenance order generation
 
-When a maintenance order generated from the schedule is completed, the next maintenance order is created automatically.
+By default, maintenance orders are generated according to the interval defined in the schedule.
 
-The planned execution date of the new order is determined by the interval and execution pattern configured in the schedule. This allows upcoming maintenance orders to be available in advance for planning and resource assignment.
+If **Generate next Maintenance Order on completion** is enabled in the system configuration, the next scheduled maintenance order is created as soon as the previous maintenance order is completed. The planned execution date of the new order is still determined by the date and rules defined in the interval schedule.
 
-The current order is displayed under **Active maintenance orders**. Completed orders remain available under **Closed maintenance orders**.
+This makes the upcoming maintenance order available in advance for planning and resource assignment.
+
+To enable this behavior, go to **System / Configuration**, select **Maintenance Orders / Settings**, and enable **Generate next Maintenance Order on completion** under **Maintenance Order Generation**.
 
 ### Working hours
 
