@@ -44,7 +44,7 @@ povezana z:
 
 ![Seznam urnikov vzdrževanja](../Images/MaintenanceScheduleListSL.png)
 
-Klik na [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) začne postopek ustvarjanja novega urnika vzdrževanja, ki poteka enako kot [ustvarjanje vzdrževalnega naloga](VzdrzevalniNalogiUstvarjanje.md).
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da ustvarite **nov** urnik vzdrževanja ali **kopirate obstoječega**.
 
 Nato lahko določite podrobnosti naloga in izberete, ali se bo vzdrževanje
 izvedlo **enkratno** ali pa bo ustvarjen **ponavljajoč urnik vzdrževanja**.
@@ -72,24 +72,44 @@ Iskalno polje omogoča filtriranje po nazivu opreme ali procesu.
 
 ## Ustvarjanje urnika vzdrževanja
 
-Urnike vzdrževanja je mogoče ustvariti na dva načina:
+Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite eno od naslednjih možnosti:
 
-- Ročno na strani **Urnik vzdrževanja** z uporabo [akcijskega gumba](../../../Skupno/UI/AkcijskiGumb.md)
-- Samodejno, ko je vzdrževalni nalog konfiguriran s **ponavljajočim se vzorcem izvajanja**
+- **Nov** – ustvarite nov urnik vzdrževanja.
+- **Kopiraj obstoječi** – ustvarite novo verzijo na podlagi obstoječega urnika vzdrževanja.
 
-Pri ročnem ustvarjanju urnika vzdrževanja postopek poteka enako kot pri ustvarjanju vzdrževalnega naloga.
+![Dejanja urnika vzdrževanja](../Images/MaintenanceScheduleActionsSL.png "Dejanja urnika vzdrževanja")
+
+### Ustvariti nov urnik
+
+Izberite **Nov**, da ustvarite nov urnik vzdrževanja.
+
+Postopek ustvarjanja poteka enako kot pri ustvarjanju vzdrževalnega naloga.
 
 Za podrobna navodila glejte [**Kako ustvariti vzdrževalni nalog**](VzdrzevalniNalogiUstvarjanje.md).
 
+Urnik vzdrževanja se lahko ustvari tudi samodejno, ko je planirani vzdrževalni nalog konfiguriran s **ponavljajočim se vzorcem izvajanja**.
+
 Podprti ponavljajoči se vzorci izvajanja vključujejo:
 
-- Vzorce na podlagi **časa** (npr. mesečno, letno, vsakih X dni)
-- Vzorce na podlagi **števcev oziroma uporabe** (npr. vsakih X kosov, metrov, gramov ali ur) z uporabo ustreznih števcev in merskih enot opreme
+- vzorce na podlagi **časa** (npr. mesečno, letno, vsakih X dni)
+- vzorce na podlagi **števcev oziroma uporabe** (npr. vsakih X kosov, metrov, gramov ali ur) z uporabo ustreznih števcev in merskih enot opreme
 
 > [!NOTE]
 > Za konfiguracijo števcev uporabe na virih in opremi glejte [**Stanja števcev**](StanjaStevcev.md).
 
-Ko je urnik ustvarjen, samodejno generira prihodnje vzdrževalne naloge glede na določeni interval ali prag uporabe, kar omogoča neprekinjeno izvajanje preventivnega vzdrževanja brez ročnega ustvarjanja novih nalogov.
+### Kopirati obstoječi urnik
+
+Izberite **Kopiraj obstoječi**, da ustvarite novo verzijo obstoječega urnika vzdrževanja.
+
+Pri kopiranju urnika:
+
+- se konfiguracija obstoječega urnika prenese v novo verzijo,
+- se za novi urnik posodobijo **avtor**, **veljavnost** in **verzija**,
+- se prejšnji urnik samodejno deaktivira.
+
+Tako je mogoče spreminjati urnik vzdrževanja in hkrati ohraniti zgodovino njegovih prejšnjih verzij, na primer za pregled, kako je bilo vzdrževanje določene opreme planirano skozi čas.
+
+Ko je urnik ustvarjen, aktivna verzija samodejno generira prihodnje vzdrževalne naloge glede na določeni interval ali prag uporabe.
 
 ## Urediti urnik vzdrževanja
 

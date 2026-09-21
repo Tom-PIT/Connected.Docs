@@ -34,7 +34,7 @@ Each entry represents a **recurring maintenance definition** linked to:
 
 ![Maintenance Schedule List](../Images/MaintenanceScheduleList.png)
 
-Clicking the [action button](../../../Common/UI/ActionButton.md) starts the creation of a new maintenance schedule, which is the same process as [creating a maintenance order](MaintenanceOrderCreate.md).
+Click the [action button](../../../Common/UI/ActionButton.md) to create a **new** maintenance schedule or **copy an existing** schedule.
 
 From there, you can define the order details and choose whether the maintenance should be executed **once** or generate a **recurring maintenance schedule**.
 
@@ -61,14 +61,22 @@ The search bar allows filtering by equipment name or process.
 
 ## Create a maintenance schedule
 
-Maintenance schedules can be created in two ways:
+Click the [action button](../../../Common/UI/ActionButton.md) and choose one of the following:
 
-- Manually from the **Maintenance schedule** page using the [**action button**](../../../Common/UI/ActionButton.md)
-- Automatically when a planned maintenance order is configured with a **recurring execution pattern**
+- **New** – create a new maintenance schedule.
+- **Copy existing** – create a new version based on an existing maintenance schedule.
 
-When creating a maintenance schedule manually, the creation process follows the same workflow as creating a maintenance order.
+![Maintenance schedule actions](../Images/MaintenanceScheduleActions.png "Maintenance schedule actions")
+
+### Create a new schedule
+
+Select **New** to create a maintenance schedule from scratch.
+
+The creation process follows the same workflow as creating a maintenance order.
 
 For detailed instructions, see [**How to create a maintenance order**](MaintenanceOrderCreate.md).
+
+Maintenance schedules can also be created automatically when a planned maintenance order is configured with a **recurring execution pattern**.
 
 Supported recurring execution patterns include:
 
@@ -78,7 +86,19 @@ Supported recurring execution patterns include:
 > [!NOTE]
 > For configuring usage counters on resources and equipment, see **[Resource work hours & counters](ResourceWorkHours&Counters.md)**.
 
-Once created, the schedule is responsible for generating future maintenance orders according to the defined interval or usage threshold, so preventive maintenance can continue automatically.
+### Copy an existing schedule
+
+Select **Copy existing** to create a new version of an existing maintenance schedule.
+
+When a schedule is copied:
+
+- The configuration of the existing schedule is copied to the new version.
+- The **author**, **validity**, and **version** are updated for the new schedule.
+- The previous schedule is automatically deactivated.
+
+This allows changes to a maintenance schedule while preserving the history of previous versions, for example when reviewing how maintenance was scheduled for a specific piece of equipment over time.
+
+Once created, the active schedule generates future maintenance orders according to its defined interval or usage threshold.
 
 ## Edit a maintenance schedule
 
