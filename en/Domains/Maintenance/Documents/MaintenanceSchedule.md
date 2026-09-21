@@ -119,6 +119,14 @@ Here you can configure:
 
 The available fields and options change dynamically depending on the selected execution pattern.
 
+### Maintenance order generation
+
+When a maintenance order generated from the schedule is completed, the next maintenance order is created automatically.
+
+The planned execution date of the new order is determined by the interval and execution pattern configured in the schedule. This allows upcoming maintenance orders to be available in advance for planning and resource assignment.
+
+The current order is displayed under **Active maintenance orders**. Completed orders remain available under **Closed maintenance orders**.
+
 ### Working hours
 
 The **Working hours** section defines the time window in which generated maintenance orders are planned to start and end.

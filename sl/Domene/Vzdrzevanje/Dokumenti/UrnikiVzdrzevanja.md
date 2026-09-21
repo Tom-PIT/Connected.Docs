@@ -133,6 +133,14 @@ Tukaj lahko nastavite:
 Razpoložljiva polja in možnosti se dinamično spreminjajo glede na izbrani
 vzorec izvedbe.
 
+### Ustvarjanje vzdrževalnih nalogov
+
+Ko je vzdrževalni nalog, ustvarjen iz urnika, zaključen, se samodejno ustvari naslednji vzdrževalni nalog.
+
+Planirani datum izvedbe novega naloga je določen glede na interval in vzorec izvedbe, nastavljen v urniku. Tako je naslednji vzdrževalni nalog na voljo vnaprej za planiranje in dodeljevanje virov.
+
+Trenutni nalog je prikazan v razdelku **Aktivni vzdrževalni nalogi**. Zaključeni nalogi ostanejo na voljo v razdelku **Zaprti vzdrževalni nalogi**.
+
 ### Delovni čas
 
 Razdelek **Delovni čas** določa časovno okno, v katerem so ustvarjeni
