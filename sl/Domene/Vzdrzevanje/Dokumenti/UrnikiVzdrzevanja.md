@@ -135,11 +135,13 @@ vzorec izvedbe.
 
 ### Ustvarjanje vzdrževalnih nalogov
 
-Ko je vzdrževalni nalog, ustvarjen iz urnika, zaključen, se samodejno ustvari naslednji vzdrževalni nalog.
+Vzdrževalni nalogi se privzeto ustvarjajo glede na interval, določen v urniku.
 
-Planirani datum izvedbe novega naloga je določen glede na interval in vzorec izvedbe, nastavljen v urniku. Tako je naslednji vzdrževalni nalog na voljo vnaprej za planiranje in dodeljevanje virov.
+Če je v sistemski konfiguraciji omogočena nastavitev **Generate next Maintenance Order on completion**, se naslednji planirani vzdrževalni nalog ustvari takoj, ko je predhodni vzdrževalni nalog zaključen. Planirani datum izvedbe novega naloga je še vedno določen glede na datum in pravila, nastavljena v intervalu urnika.
 
-Trenutni nalog je prikazan v razdelku **Aktivni vzdrževalni nalogi**. Zaključeni nalogi ostanejo na voljo v razdelku **Zaprti vzdrževalni nalogi**.
+Tako je naslednji vzdrževalni nalog na voljo vnaprej za planiranje in dodeljevanje virov.
+
+Če želite omogočiti to funkcionalnost, pojdite na **Sistem / Konfiguracija**, izberite **Maintenance Orders / Settings** in v razdelku **Maintenance Order Generation** omogočite **Generate next Maintenance Order on completion**.
 
 ### Delovni čas
 
