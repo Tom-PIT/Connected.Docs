@@ -27,6 +27,7 @@ The following table lists all fields used across **Human**, **Non-human**, and *
 | **Tags** | Labels for classification or filtering (e.g., Production, Maintenance). | ✔️ | ✔️ | ✔️ |
 | **Teams** | Teams to which a human resource belongs. | ✔️ |  |  |
 | **Resource parent** | Parent resource for hierarchical grouping. |  | ✔️ |  |
+| **Description** | Free text field for additional information about the resource. |  | ✔️ |  |
 | **External Key** | External identifier for integration. |  | ✔️ |  |
 | **Members** | Human resources included in the team. |  |  | ✔️ |
 | **Article** | Article related to the specific non-human resource. |  | ✔️ |  |
@@ -85,7 +86,7 @@ Examples:
 
 Selecting an item shows its details and the Edit form.
 
-![Resources list](../Images/ResourcesListEditV3.png "Resources list")
+![Resources list](../Images/ResourcesListEditV4.png "Resources list")
 
 ## Create a new resource
 
