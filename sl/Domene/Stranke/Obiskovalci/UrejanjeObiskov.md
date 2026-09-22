@@ -25,7 +25,7 @@ Za dostop do **Urejanja obiskov** pojdite na **Stranke / Obiskovalci / Urejanje 
 | **Podjetje** | Podjetje, ki ga obiskovalec predstavlja |
 | **Lokacije** | Lokacije obiska, prevzete iz šifranta [**Organizacijske enote**](../../Proizvodnja/Upravljanje/OrganizacijskeEnote.md). |
 | **Spremljevalec** | Interna oseba, odgovorna za obiskovalca |
-| **Podpis** | Potrditev in podpis obiskovalca, na voljo v načinu urejanja |
+| **Podpis** | Izjava obiskovalca, potrditev in podpis, na voljo v načinu urejanja. Besedilo izjave je mogoče nastaviti v sistemski konfiguraciji. |
 
 ## Seznam in filtri
 
@@ -86,7 +86,7 @@ Ko obiskovalec prispe na lokacijo:
 1. Odprite zapis obiska.
 2. Spremenite **Status** v **Na lokaciji**.
 3. Zabeležite **Dejanski čas prihoda**.
-4. Obiskovalec lahko potrdi izjavo v razdelku **Podpis** (glejte spodaj).
+4. Izpolnite izjavo obiskovalca in podpis v razdelku **Podpis** (glejte spodaj).
 5. Kliknite **Shrani**.
 
 Obisk se prikaže v seznamu kot **Na lokaciji**. Začne se beleženje trajanja obiska.
@@ -94,11 +94,20 @@ Obisk se prikaže v seznamu kot **Na lokaciji**. Začne se beleženje trajanja o
 > [!NOTE]
 > Vnos **Dejanskega časa prihoda** in izpolnitev razdelka **Podpis**, nato pa shranjevanje dokumenta, samodejno spremeni status v **Na lokaciji**.
 
-#### Potrditi podpis
+#### Potrditev izjave in podpis
 
 Pri odpiranju zapisa v načinu urejanja se prikaže razdelek **Podpis**.
 
-Obiskovalec lahko izjavo potrdi in se podpiše neposredno v obrazcu.
+Razdelek prikazuje izjavo obiskovalca, ki jo mora obiskovalec pred podpisom prebrati in potrditi.
+
+Za potrditev:
+
+1. Preberite **Izjavo**.
+2. Označite **Potrjujem**.
+3. Podpišite se v polju za podpis.
+4. Kliknite **Potrdi**.
+
+Besedilo, prikazano pod **Izjava**, je mogoče nastaviti v **Sistem / Nastavitve / Customers.Visitors / Customers.Visitors Settings**. V razdelku **Izjave ob obiskih** po potrebi uredite besedilo **Izjava za obiskovalce**.
 
 ![Razdelek podpis](../Images/VisitorsManagementSignatureSectionSL.png "Razdelek podpis")
 

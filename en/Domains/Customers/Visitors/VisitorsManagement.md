@@ -25,7 +25,7 @@ To access Visitors management, navigate to **Customer Support / Visitors / Visit
 | **Company** | Company the visitor represents |
 | **Locations** | Target locations for the visit, taken from the [**Organization units**](../../Production/Management/OrganizationUnits.md) code list. |
 | **Guide**| Internal person responsible for the visitor |
-| **Signature** | Visitor confirmation and signature, available in edit mode |
+| **Signature** | Visitor declaration, confirmation, and signature, available in edit mode. The declaration text can be configured in the system settings. |
 
 ## List view and filters
 
@@ -86,7 +86,7 @@ When the visitor arrives on site:
 1. Open the visit record.
 2. Change the **Status** to **On location**.
 3. Record the **Actual arrival time**.
-4. The visitor can sign the confirmation statement in the **Signature** section (see below). 
+4. Complete the visitor declaration and signature in the **Signature** section (see below).
 5. Click **Save**.
 
 The visit now appears in the list as **On location**, and the visit duration tracking starts.
@@ -98,7 +98,16 @@ The visit now appears in the list as **On location**, and the visit duration tra
 
 When a visit record is opened in edit mode, a **Signature** section becomes available.
 
-The visitor can confirm and sign the statement directly on the form.
+The section displays a visitor declaration that the visitor must review and confirm before signing.
+
+To complete the confirmation:
+
+1. Review the **Statement**.
+2. Select **I confirm**.
+3. Sign in the signature field.
+4. Click **Confirm**.
+
+The text displayed under **Statement** can be configured in **System / Configuration / Customers.Visitors / Customers.Visitors Settings**. Under **Guided Visit Declarations**, edit the **Visitor Declaration** text as required.
 
 ![Signature section](../Images/VisitorsManagementSignatureSection.png "Signature section")
 
