@@ -5531,23 +5531,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Seznam izdanih računov">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#meni-seznama" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Meni seznama
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
         
       </ul>
@@ -5618,6 +5601,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#izdati-e-racun" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Izdati e-račun
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#evidentiranje-placil" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5657,7 +5651,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#meni-seznama_1" class="md-nav__link">
+  <a href="#meni-seznama" class="md-nav__link">
     <span class="md-ellipsis">
       
         Meni seznama
@@ -6631,23 +6625,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Seznam izdanih računov">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#meni-seznama" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Meni seznama
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
         
       </ul>
@@ -6718,6 +6695,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#izdati-e-racun" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Izdati e-račun
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#evidentiranje-placil" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6757,7 +6745,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#meni-seznama_1" class="md-nav__link">
+  <a href="#meni-seznama" class="md-nav__link">
     <span class="md-ellipsis">
       
         Meni seznama
@@ -6938,7 +6926,7 @@
 </tr>
 <tr>
 <td><strong>Koda namena</strong></td>
-<td>Neobvezna koda namena računa (če je konfigurirana).</td>
+<td>Neobvezna koda namena računa (če je konfigurirana). Obvezna za <a href="../../../../Skupno/Koncepti/E-Racuni/">e-račune</a>.</td>
 </tr>
 <tr>
 <td><strong>Rabat</strong></td>
@@ -7157,15 +7145,6 @@
 - <strong>Stranka</strong>
 - <strong>Način plačila</strong></p>
 <p>Za hitro iskanje uporabite polje <strong>Iskanje</strong>.</p>
-<h4 id="meni-seznama">Meni seznama<a class="headerlink" href="#meni-seznama" title="Permanent link">&para;</a></h4>
-<p>V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:</p>
-<ul>
-<li><strong>Izvoz</strong> – Izvozi v CSV. Na voljo sta dve možnosti poročila:<ul>
-<li><strong>Dokument</strong> – Izvozi celoten seznam računov na seznamu.</li>
-<li><strong>Postavke</strong> – Izvozi vse podrobnosti postavk za vse račune na seznamu.</li>
-</ul>
-</li>
-</ul>
 <h2 id="dejanja">Dejanja<a class="headerlink" href="#dejanja" title="Permanent link">&para;</a></h2>
 <h3 id="ustvariti-izdani-racun">Ustvariti izdani račun<a class="headerlink" href="#ustvariti-izdani-racun" title="Permanent link">&para;</a></h3>
 <p>Kliknite <a href="../../../../Skupno/UI/AkcijskiGumb/">akcijski gumb</a> da ustvarite nov račun.</p>
@@ -7203,6 +7182,9 @@
 </ul>
 <h3 id="objaviti-izdani-racun">Objaviti izdani račun<a class="headerlink" href="#objaviti-izdani-racun" title="Permanent link">&para;</a></h3>
 <p>Ko je račun pripravljen, kliknite <strong>Objavi</strong>, da ga potrdite in premaknete iz stanja <strong>Osnutek</strong> v <strong>Obdelan</strong>. Po objavi postanejo na voljo povezana dejanja in računovodski izvoz.</p>
+<h3 id="izdati-e-racun">Izdati e-račun<a class="headerlink" href="#izdati-e-racun" title="Permanent link">&para;</a></h3>
+<p>Če je za stranko omogočeno izdajanje e-računov, račun vsebuje dodaten razdelek <strong>E-račun</strong>, ki ga morate izpolniti pred objavo. Po objavi računa lahko e-račun iz <a href="#meni-dokumenta">menija dokumenta</a> izvozite v formatu XML ali kot celoten paket z ovojnico.</p>
+<p>Za predpogoje in podrobna navodila glejte <a href="../../../../Skupno/Koncepti/E-Racuni/"><strong>E-računi</strong></a>.</p>
 <h3 id="evidentiranje-placil">Evidentiranje plačil<a class="headerlink" href="#evidentiranje-placil" title="Permanent link">&para;</a></h3>
 <p>Po objavi računa kliknite <strong>Plačilo</strong>, da evidentirate prejeto plačilo.</p>
 <p><img alt="Evidentiranje plačila" src="../../Images/IssuedInvoicesPaymentSL.png" title="Evidentiranje plačila" /></p>
@@ -7242,7 +7224,7 @@
 </div>
 <h2 id="meni">Meni<a class="headerlink" href="#meni" title="Permanent link">&para;</a></h2>
 <p>Na tej strani so dejanja menija na voljo na dveh mestih.</p>
-<h3 id="meni-seznama_1">Meni seznama<a class="headerlink" href="#meni-seznama_1" title="Permanent link">&para;</a></h3>
+<h3 id="meni-seznama">Meni seznama<a class="headerlink" href="#meni-seznama" title="Permanent link">&para;</a></h3>
 <p>Meni seznama omogoča dejanja za trenutno prikazan seznam.</p>
 <p>Na voljo so naslednja dejanja:</p>
 <ul>
@@ -7257,12 +7239,20 @@
 <p>Na voljo so naslednja dejanja:</p>
 <ul>
 <li><strong>Tiskanje</strong></li>
-<li><strong>Izvoz v PDF</strong></li>
+<li><strong>Izvoz</strong></li>
 <li><strong>Pošlji preko e-pošte</strong></li>
-<li><a href="../../../Logistika/Dokumenti/Storno/"><strong>Storniranje dokument</strong></a>  </li>
-<li><strong>Vrnitev v osnutek</strong></li>
+<li><strong>Izbriši vse postavke</strong> (samo za osnutke)</li>
+<li><a href="../../../Logistika/Dokumenti/Storno/"><strong>Storniraj dokument</strong></a></li>
+<li><strong>Povrni v osnutek</strong></li>
+<li><strong>E-račun</strong> (samo za objavljene račune strank z omogočenimi e-računi):<ul>
+<li><strong>XML</strong> – Izvozi e-račun v formatu eSLOG XML.</li>
+<li><strong>Ovojnica</strong> – Izvozi datoteko ZIP z ovojnico, XML datoteko e-računa in PDF.</li>
 </ul>
+</li>
+</ul>
+<p>Za podrobnosti o e-računih glejte <a href="../../../../Skupno/Koncepti/E-Racuni/"><strong>E-računi</strong></a>.</p>
 <p>Za podrobnosti o dejanjih menija glejte <a href="../../../../Skupno/Koncepti/MeniDejanja/"><strong>Dejanja menija</strong></a>.</p>
+<p><img alt="Meni izdanega računa" src="../../Images/IssuedInvoicesMenuSL.png" title="Meni izdanega računa" /></p>
 
 
 

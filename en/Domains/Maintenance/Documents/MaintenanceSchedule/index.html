@@ -1725,6 +1725,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Create a maintenance schedule">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-new-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create a new schedule
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-an-existing-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copy an existing schedule
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1744,6 +1772,17 @@
     <span class="md-ellipsis">
       
         Schedule an interval
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maintenance-order-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maintenance order generation
       
     </span>
   </a>
@@ -6552,6 +6591,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Create a maintenance schedule">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-new-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create a new schedule
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-an-existing-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copy an existing schedule
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -6571,6 +6638,17 @@
     <span class="md-ellipsis">
       
         Schedule an interval
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maintenance-order-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maintenance order generation
       
     </span>
   </a>
@@ -6725,7 +6803,7 @@
 - A maintenance process and version
 - A recurring execution pattern (time-based or count/usage-based)</p>
 <p><img alt="Maintenance Schedule List" src="../../Images/MaintenanceScheduleList.png" /></p>
-<p>Clicking the <a href="../../../../Common/UI/ActionButton/">action button</a> starts the creation of a new maintenance schedule, which is the same process as <a href="../MaintenanceOrderCreate/">creating a maintenance order</a>.</p>
+<p>Click the <a href="../../../../Common/UI/ActionButton/">action button</a> to create a <strong>new</strong> maintenance schedule or <strong>copy an existing</strong> schedule.</p>
 <p>From there, you can define the order details and choose whether the maintenance should be executed <strong>once</strong> or generate a <strong>recurring maintenance schedule</strong>.</p>
 <h3 id="information-shown-in-the-list">Information shown in the list<a class="headerlink" href="#information-shown-in-the-list" title="Permanent link">&para;</a></h3>
 <p>For each schedule, the list displays:
@@ -6743,13 +6821,17 @@
 </ul>
 <p>The search bar allows filtering by equipment name or process.</p>
 <h2 id="create-a-maintenance-schedule">Create a maintenance schedule<a class="headerlink" href="#create-a-maintenance-schedule" title="Permanent link">&para;</a></h2>
-<p>Maintenance schedules can be created in two ways:</p>
+<p>Click the <a href="../../../../Common/UI/ActionButton/">action button</a> and choose one of the following:</p>
 <ul>
-<li>Manually from the <strong>Maintenance schedule</strong> page using the <a href="../../../../Common/UI/ActionButton/"><strong>action button</strong></a></li>
-<li>Automatically when a planned maintenance order is configured with a <strong>recurring execution pattern</strong></li>
+<li><strong>New</strong> – create a new maintenance schedule.</li>
+<li><strong>Copy existing</strong> – create a new version based on an existing maintenance schedule.</li>
 </ul>
-<p>When creating a maintenance schedule manually, the creation process follows the same workflow as creating a maintenance order.</p>
+<p><img alt="Maintenance schedule actions" src="../Images/MaintenanceScheduleActions.png" title="Maintenance schedule actions" /></p>
+<h3 id="create-a-new-schedule">Create a new schedule<a class="headerlink" href="#create-a-new-schedule" title="Permanent link">&para;</a></h3>
+<p>Select <strong>New</strong> to create a maintenance schedule from scratch.</p>
+<p>The creation process follows the same workflow as creating a maintenance order.</p>
 <p>For detailed instructions, see <a href="../MaintenanceOrderCreate/"><strong>How to create a maintenance order</strong></a>.</p>
+<p>Maintenance schedules can also be created automatically when a planned maintenance order is configured with a <strong>recurring execution pattern</strong>.</p>
 <p>Supported recurring execution patterns include:</p>
 <ul>
 <li><strong>Time-based</strong> patterns (e.g., monthly, yearly, every X days)</li>
@@ -6759,7 +6841,16 @@
 <p class="admonition-title">Note</p>
 <p>For configuring usage counters on resources and equipment, see <strong><a href="../ResourceWorkHours%26Counters/">Resource work hours &amp; counters</a></strong>.</p>
 </div>
-<p>Once created, the schedule is responsible for generating future maintenance orders according to the defined interval or usage threshold, so preventive maintenance can continue automatically.</p>
+<h3 id="copy-an-existing-schedule">Copy an existing schedule<a class="headerlink" href="#copy-an-existing-schedule" title="Permanent link">&para;</a></h3>
+<p>Select <strong>Copy existing</strong> to create a new version of an existing maintenance schedule.</p>
+<p>When a schedule is copied:</p>
+<ul>
+<li>The configuration of the existing schedule is copied to the new version.</li>
+<li>The <strong>author</strong>, <strong>validity</strong>, and <strong>version</strong> are updated for the new schedule.</li>
+<li>The previous schedule is automatically deactivated.</li>
+</ul>
+<p>This allows changes to a maintenance schedule while preserving the history of previous versions, for example when reviewing how maintenance was scheduled for a specific piece of equipment over time.</p>
+<p>Once created, the active schedule generates future maintenance orders according to its defined interval or usage threshold.</p>
 <h2 id="edit-a-maintenance-schedule">Edit a maintenance schedule<a class="headerlink" href="#edit-a-maintenance-schedule" title="Permanent link">&para;</a></h2>
 <p>To edit a maintenance schedule, click on <strong>Schedule</strong> under an entry in the Maintenance Schedule list.</p>
 <p>This opens the <strong>Maintenance schedule – Edit</strong> screen, where you can modify how and when maintenance orders are generated.</p>
@@ -6771,6 +6862,11 @@
 - The <strong>execution pattern</strong> (for example monthly, yearly, interval-based, or count/usage-based)
 - Whether the schedule is <strong>active</strong></p>
 <p>The available fields and options change dynamically depending on the selected execution pattern.</p>
+<h3 id="maintenance-order-generation">Maintenance order generation<a class="headerlink" href="#maintenance-order-generation" title="Permanent link">&para;</a></h3>
+<p>By default, maintenance orders are generated according to the interval defined in the schedule.</p>
+<p>If <strong>Generate next Maintenance Order on completion</strong> is enabled in the system configuration, the next scheduled maintenance order is created as soon as the previous maintenance order is completed. The planned execution date of the new order is still determined by the date and rules defined in the interval schedule.</p>
+<p>This makes the upcoming maintenance order available in advance for planning and resource assignment.</p>
+<p>To enable this behavior, go to <strong>System / Configuration</strong>, select <strong>Maintenance Orders / Settings</strong>, and enable <strong>Generate next Maintenance Order on completion</strong> under <strong>Maintenance Order Generation</strong>.</p>
 <h3 id="working-hours">Working hours<a class="headerlink" href="#working-hours" title="Permanent link">&para;</a></h3>
 <p>The <strong>Working hours</strong> section defines the time window in which generated maintenance orders are planned to start and end.</p>
 <p>This allows maintenance activities to align with operational or shift-based constraints.</p>

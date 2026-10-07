@@ -6433,7 +6433,18 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Edit a credit note">
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issue-an-e-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Issue an e-invoice
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Issue an e-invoice">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -6612,7 +6623,7 @@
 </tr>
 <tr>
 <td><strong>Purpose code</strong></td>
-<td>Optional reason or classification for the credit.</td>
+<td>Optional reason or classification for the credit. Mandatory for <a href="../../../../Common/Concepts/E-Invoices/">e-invoices</a>.</td>
 </tr>
 <tr>
 <td><strong>Rebate</strong></td>
@@ -6864,6 +6875,9 @@
 - Detail lines
 - Content texts (top and bottom)</p>
 <p>Committed credit notes are read-only.</p>
+<h3 id="issue-an-e-invoice">Issue an e-invoice<a class="headerlink" href="#issue-an-e-invoice" title="Permanent link">&para;</a></h3>
+<p>If issuing e-invoices is enabled for the customer, the credit note contains an additional <strong>E-invoice</strong> section that must be filled in before publishing. Once the credit note is published, the e-invoice can be exported in XML format or as a complete package with an envelope from the <a href="#menu">menu</a>.</p>
+<p>For prerequisites and detailed instructions, see <a href="../../../../Common/Concepts/E-Invoices/"><strong>E-invoices</strong></a>.</p>
 <h4 id="attachments">Attachments<a class="headerlink" href="#attachments" title="Permanent link">&para;</a></h4>
 <p>Use the <strong>Attachments</strong> section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.</p>
 <p>For detailed instructions, see <a href="../../../../Common/Concepts/Attachments/"><strong>Attachments</strong></a>.</p>
@@ -6914,6 +6928,11 @@
 <li><strong>Delete all details</strong> (only for drafts)</li>
 <li><strong>Reverse document</strong></li>
 <li><strong>Return to draft</strong> (only if allowed)</li>
+<li><strong>E-invoice</strong> (only for published credit notes of customers with e-invoices enabled):<ul>
+<li><strong>XML</strong> – Exports the e-invoice in eSLOG XML format.</li>
+<li><strong>Envelope</strong> – Exports a ZIP file with the envelope, the e-invoice XML and the PDF.</li>
+</ul>
+</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>

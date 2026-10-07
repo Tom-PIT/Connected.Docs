@@ -2585,6 +2585,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#issue-an-e-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Issue an e-invoice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#record-payments" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6684,6 +6695,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#issue-an-e-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Issue an e-invoice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#record-payments" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6904,7 +6926,7 @@
 </tr>
 <tr>
 <td><strong>Purpose code</strong></td>
-<td>Optional code describing the purpose of the invoice (if configured).</td>
+<td>Optional code describing the purpose of the invoice (if configured). Mandatory for <a href="../../../../Common/Concepts/E-Invoices/">e-invoices</a>.</td>
 </tr>
 <tr>
 <td><strong>Rebate</strong></td>
@@ -7162,6 +7184,9 @@
 </ul>
 <h3 id="publish-an-invoice">Publish an invoice<a class="headerlink" href="#publish-an-invoice" title="Permanent link">&para;</a></h3>
 <p>When you are ready, click <strong>Publish</strong> to confirm the invoice and move it out of the <strong>Draft</strong> state. Once published, all related invoice actions become available.</p>
+<h3 id="issue-an-e-invoice">Issue an e-invoice<a class="headerlink" href="#issue-an-e-invoice" title="Permanent link">&para;</a></h3>
+<p>If issuing e-invoices is enabled for the customer, the invoice contains an additional <strong>E-invoice</strong> section that must be filled in before publishing. Once the invoice is published, the e-invoice can be exported in XML format or as a complete package with an envelope from the <a href="#document-menu">document menu</a>.</p>
+<p>For prerequisites and detailed instructions, see <a href="../../../../Common/Concepts/E-Invoices/"><strong>E-invoices</strong></a>.</p>
 <h3 id="record-payments">Record payments<a class="headerlink" href="#record-payments" title="Permanent link">&para;</a></h3>
 <p>After an invoice is published, use the <strong>Payment</strong> button to record incoming payments.</p>
 <p><img alt="Payment dialog" src="../../Images/IssuedInvoicesPayment.png" title="Payment dialog" /></p>
@@ -7216,13 +7241,19 @@ Committed invoices <strong>cannot</strong> be deleted, but they can be <a href="
 <p>The document menu provides actions for the currently opened document.</p>
 <p>Available actions:</p>
 <ul>
-<li><strong>Print</strong></li>
-<li><strong>Export to PDF</strong></li>
+<li><strong>Printing</strong></li>
+<li><strong>Exporting</strong></li>
 <li><strong>Send as email</strong> </li>
 <li><strong>Delete all details</strong> (only for drafts)</li>
 <li><strong><a href="../../../Logistics/Documents/Reversals/">Reverse document</a></strong></li>
 <li><strong>Return to draft</strong></li>
+<li><strong>E-invoice</strong> (only for published invoices of customers with e-invoices enabled):<ul>
+<li><strong>XML</strong> – Exports the e-invoice in eSLOG XML format.</li>
+<li><strong>Envelope</strong> – Exports a ZIP file with the envelope, the e-invoice XML and the PDF.</li>
 </ul>
+</li>
+</ul>
+<p>For details about e-invoices, see <a href="../../../../Common/Concepts/E-Invoices/"><strong>E-invoices</strong></a>.</p>
 <p>For details about menu actions, see <a href="../../../../Common/Concepts/MenuActions/"><strong>Menu actions</strong></a>.</p>
 <p><img alt="Invoice menu" src="../../Images/IssuedInvoicesMenu.png" title="Issued invoice menu" /></p>
 
