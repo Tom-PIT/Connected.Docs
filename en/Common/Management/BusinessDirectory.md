@@ -122,8 +122,13 @@ To create a new entry:
 
 #### E-invoices
 
-This section allows enabling the issuing of e-invoices to the related company.
+This section allows enabling the issuing of e-invoices to the related company by selecting the **Issue e-invoices** checkbox.
 
+![E-invoices section](../Images/BusinessDirectoryEInvoices.png "E-invoices section")
+
+When e-invoices are enabled, issued invoices and credit notes for this customer contain an additional **E-invoice** section that must be filled in before publishing. To export e-invoices, the customer must also have a **VAT ID**, a **Company ID** and at least one [bank account](BankAccounts.md).
+
+For details, see [**E-invoices**](../Concepts/E-Invoices.md).
 #### Edit contact
 
 This section allows entering the primary contact information for the business partner. You can specify details such as contact name, phone number, and email address. These fields are optional and serve as reference information used across documents.

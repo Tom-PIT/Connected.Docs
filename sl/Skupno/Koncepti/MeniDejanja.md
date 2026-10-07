@@ -85,6 +85,15 @@ Kadar je na voljo, lahko izberete, katero datoteko želite priložiti e-poštnem
 
 Razpoložljive vrste datotek so odvisne od izbranega dokumenta ali pogleda.
 
+### E-račun
+
+Izvozi trenutni dokument kot e-račun:
+
+- **XML** – E-račun v formatu eSLOG XML.
+- **Ovojnica** – Datoteka ZIP z ovojnico, XML datoteko e-računa in PDF.
+
+Na voljo samo za objavljene izdane račune in dobropise strank, za katere so omogočeni e-računi. Za podrobnosti glejte [**E-računi**](E-Racuni.md).
+
 ### Odpri masovno procesiranje
 
 Omogoča izvajanje dejanj nad več izbranimi zapisi hkrati.

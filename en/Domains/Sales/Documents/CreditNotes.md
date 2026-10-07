@@ -44,7 +44,7 @@ Credit notes affect accounting only and do not impact inventory.
 | **Reference number** | Reference number based on the chosen reference type. |
 | **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account used for refunds or accounting (mandatory). |
 | **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
-| **Purpose code** | Optional reason or classification for the credit. |
+| **Purpose code** | Optional reason or classification for the credit. Mandatory for [e-invoices](../../../Common/Concepts/E-Invoices.md). |
 | **Rebate** | Overall rebate applied to the credit note. |
 | **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
@@ -205,6 +205,12 @@ You can modify:
 
 Committed credit notes are read-only.
 
+### Issue an e-invoice
+
+If issuing e-invoices is enabled for the customer, the credit note contains an additional **E-invoice** section that must be filled in before publishing. Once the credit note is published, the e-invoice can be exported in XML format or as a complete package with an envelope from the [menu](#menu).
+
+For prerequisites and detailed instructions, see [**E-invoices**](../../../Common/Concepts/E-Invoices.md).
+
 #### Attachments
 
 Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
@@ -271,6 +277,9 @@ Available actions:
 - **Delete all details** (only for drafts)
 - **Reverse document**
 - **Return to draft** (only if allowed)
+- **E-invoice** (only for published credit notes of customers with e-invoices enabled):
+    - **XML** – Exports the e-invoice in eSLOG XML format.
+    - **Envelope** – Exports a ZIP file with the envelope, the e-invoice XML and the PDF.
 
 > [!NOTE]
 > Reversing a credit note negates its financial effect. For details, see **[Reversals](../../Logistics/Documents/Reversals.md)**.

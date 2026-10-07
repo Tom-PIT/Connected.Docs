@@ -39,7 +39,7 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Reference number** | Reference number used on payment documents, based on the chosen reference type. |
 | **[Organization bank accounts](../Management/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
 | **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation of revenue to a cost center. |
-| **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
+| **Purpose code** | Optional code describing the purpose of the invoice (if configured). Mandatory for [e-invoices](../../../Common/Concepts/E-Invoices.md). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
 | **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
@@ -203,6 +203,12 @@ Available actions may include:
 
 When you are ready, click **Publish** to confirm the invoice and move it out of the **Draft** state. Once published, all related invoice actions become available.
 
+### Issue an e-invoice
+
+If issuing e-invoices is enabled for the customer, the invoice contains an additional **E-invoice** section that must be filled in before publishing. Once the invoice is published, the e-invoice can be exported in XML format or as a complete package with an envelope from the [document menu](#document-menu).
+
+For prerequisites and detailed instructions, see [**E-invoices**](../../../Common/Concepts/E-Invoices.md).
+
 ### Record payments
 
 After an invoice is published, use the **Payment** button to record incoming payments.
@@ -265,12 +271,17 @@ The document menu provides actions for the currently opened document.
 
 Available actions:
 
-- **Print**
-- **Export to PDF**
+- **Printing**
+- **Exporting**
 - **Send as email** 
 - **Delete all details** (only for drafts)
 - **[Reverse document](../../Logistics/Documents/Reversals.md)**
 - **Return to draft**
+- **E-invoice** (only for published invoices of customers with e-invoices enabled):
+    - **XML** – Exports the e-invoice in eSLOG XML format.
+    - **Envelope** – Exports a ZIP file with the envelope, the e-invoice XML and the PDF.
+
+For details about e-invoices, see [**E-invoices**](../../../Common/Concepts/E-Invoices.md).
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 

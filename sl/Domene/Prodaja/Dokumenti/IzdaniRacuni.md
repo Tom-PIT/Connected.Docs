@@ -39,7 +39,7 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 | **Sklic** | Sklicna številka za plačilne dokumente, glede na izbrano vrsto sklica. |
 | [**Bančni računi organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Račun za prejem plačila, izbran iz šifranta bančnih računov organizacije (obvezno). |
 | [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka na stroškovno mesto. |
-| **Koda namena** | Neobvezna koda namena računa (če je konfigurirana). |
+| **Koda namena** | Neobvezna koda namena računa (če je konfigurirana). Obvezna za [e-račune](../../../Skupno/Koncepti/E-Racuni.md). |
 | **Rabat** | Skupni rabat, uporabljen na celoten znesek računa. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
@@ -151,14 +151,6 @@ Kazalniki se posodabljajo glede na izbrane filtre:
 
 Za hitro iskanje uporabite polje **Iskanje**.
 
-#### Meni seznama
-
-V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
-
-- **Izvoz** – Izvozi v CSV. Na voljo sta dve možnosti poročila:
-    - **Dokument** – Izvozi celoten seznam računov na seznamu.
-    - **Postavke** – Izvozi vse podrobnosti postavk za vse račune na seznamu.
-
 ## Dejanja
 
 ### Ustvariti izdani račun
@@ -209,6 +201,12 @@ Razpoložljiva dejanja lahko vključujejo:
 ### Objaviti izdani račun
 
 Ko je račun pripravljen, kliknite **Objavi**, da ga potrdite in premaknete iz stanja **Osnutek** v **Obdelan**. Po objavi postanejo na voljo povezana dejanja in računovodski izvoz.
+
+### Izdati e-račun
+
+Če je za stranko omogočeno izdajanje e-računov, račun vsebuje dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Po objavi računa lahko e-račun iz [menija dokumenta](#meni-dokumenta) izvozite v formatu XML ali kot celoten paket z ovojnico.
+
+Za predpogoje in podrobna navodila glejte [**E-računi**](../../../Skupno/Koncepti/E-Racuni.md).
 
 ### Evidentiranje plačil
 
@@ -271,9 +269,17 @@ Meni dokumenta omogoča dejanja za trenutno odprt dokument.
 Na voljo so naslednja dejanja:
 
 - **Tiskanje**
-- **Izvoz v PDF**
+- **Izvoz**
 - **Pošlji preko e-pošte**
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrnitev v osnutek**
+- **Izbriši vse postavke** (samo za osnutke)
+- [**Storniraj dokument**](../../Logistika/Dokumenti/Storno.md)
+- **Povrni v osnutek**
+- **E-račun** (samo za objavljene račune strank z omogočenimi e-računi):
+    - **XML** – Izvozi e-račun v formatu eSLOG XML.
+    - **Ovojnica** – Izvozi datoteko ZIP z ovojnico, XML datoteko e-računa in PDF.
+
+Za podrobnosti o e-računih glejte [**E-računi**](../../../Skupno/Koncepti/E-Racuni.md).
 
 Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
+
+![Meni izdanega računa](../Images/IssuedInvoicesMenuSL.png "Meni izdanega računa")

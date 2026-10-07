@@ -108,8 +108,13 @@ Za ustvarjanje novega zapisa:
 
 #### E-računi
 
-Ta razdelek omogoča izdajanje e-računov povezanemu podjetju.
+Ta razdelek omogoča izdajanje e-računov povezanemu podjetju z označitvijo potrditvenega polja **Izdaja e-računov**.
 
+![Razdelek E-računi](../Images/BusinessDirectoryEInvoicesSL.png "Razdelek E-računi")
+
+Če so e-računi omogočeni, izdani računi in dobropisi za to stranko vsebujejo dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Za izvoz e-računov mora imeti stranka vnesen tudi **DDV ID**, **matično številko** in vsaj en [bančni račun](BancniRacuni.md).
+
+Za podrobnosti glejte [**E-računi**](../Koncepti/E-Racuni.md).
 #### Urediti kontakt
 
 Ta razdelek omogoča vnos podatkov o primarni kontaktni osebi poslovnega partnerja (ime, telefonska številka, e-pošta). Polja so neobvezna in služijo kot referenčni podatki, uporabljeni v dokumentih.

@@ -86,6 +86,15 @@ When available, you can select which file to attach to the email. Depending on t
 
 The available attachment formats depend on the selected document or view. Recipients and attachments can be selected on the menu.
 
+### E-invoice
+
+Export the current document as an e-invoice:
+
+- **XML** – The e-invoice in eSLOG XML format.
+- **Envelope** – A ZIP file with the envelope, the e-invoice XML and the PDF.
+
+Available only for published issued invoices and credit notes of customers with e-invoices enabled. For details, see [**E-invoices**](E-Invoices.md).
+
 ### Open mass processing
 
 Perform actions on multiple selected records at once.
