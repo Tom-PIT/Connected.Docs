@@ -44,7 +44,7 @@ Dobropisi vplivajo izključno na računovodstvo in ne vplivajo na zalogo.
 | **Sklic** | Sklicna številka glede na izbrano vrsto sklica. |
 | [**Bančni račun organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Bančni račun za vračila ali računovodsko obdelavo (obvezno). |
 | [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev na stroškovno mesto. |
-| **Koda namena** | Neobvezna oznaka ali razlog za dobropis. |
+| **Koda namena** | Neobvezna oznaka ali razlog za dobropis. Obvezna za [e-račune](../../../Skupno/Koncepti/E-Racuni.md). |
 | **Rabat** | Skupni rabat, uporabljen na dobropis. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
@@ -193,6 +193,12 @@ Uredite lahko:
 
 Potrjeni dobropisi so samo za branje.
 
+### Izdati e-račun
+
+Če je za stranko omogočeno izdajanje e-računov, dobropis vsebuje dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Po objavi dobropisa lahko e-račun iz [menija](#meni) izvozite v formatu XML ali kot celoten paket z ovojnico.
+
+Za predpogoje in podrobna navodila glejte [**E-računi**](../../../Skupno/Koncepti/E-Racuni.md).
+
 #### Priponke
 
 Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
@@ -259,6 +265,9 @@ Na voljo so naslednja dejanja:
 - **Izbriši vse postavke** (če je dokument v stanju Osnutek)
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek** (če je dovoljeno)
+- **E-račun** (samo za objavljene dobropise strank z omogočenimi e-računi):
+    - **XML** – Izvozi e-račun v formatu eSLOG XML.
+    - **Ovojnica** – Izvozi datoteko ZIP z ovojnico, XML datoteko e-računa in PDF.
 
 Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
