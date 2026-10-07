@@ -116,37 +116,35 @@ Operations are executed according to the process definition.
 
 Two execution flows are possible:
 
-- **Quick completion** – Click **Complete** directly on the maintenance order
-- **Detailed execution (recommended)** – Click an operation to open its execution screen
-   
-   ![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Maintenance order operations list")
+- **Quick completion** – Click **Complete** directly on the maintenance order.
+- **Detailed execution** – Perform the operation through the [**Maintenance execution**](MaintenanceExecution.md) screen.
 
+![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Maintenance order operations list")
 
-Clicking an operation opens the **operation execution screen**, where the worker can:
+The **Maintenance execution** screen provides the controls and activities required to perform the maintenance work, including:
 
-- Review [instructions](../../Knowledge/KnowledgeBase/KnowledgeBase.md)
-- Register [inputs](../../Production/Management/Inputs.md) and [non-human resources](../../Production/Management/NonHumanResources.md)
-- Complete quality [checklists](../../Quality/Management/Checklists.md)
-- Record effort (start/stop work, duration)
-- Add execution data
+- Starting, pausing, and completing an operation
+- Recording maintenance notes
+- Recording input material consumption, when inputs are required
+- Completing quality checklists
+- Recording effort
+- Viewing instructions
 
-![Maintenance Order Operation](../Images/MaintenanceOrdersOperationScreen.png "Maintenance order operation execution")
-
-Once the operation is finished, click **Complete** in the top-left corner of the operation screen.
+For detailed information about performing maintenance operations, see [**Maintenance execution**](MaintenanceExecution.md).
 
 Completed operations are displayed with a **green indicator**, providing a clear visual status.
 
-If a completed operation needs to be reopened, open the operation and click **Reactivate**.
+If a completed operation needs to be reopened, click **Reactivate** for the corresponding operation.
 
 ![Reactivate operation](../Images/MaintenanceOrdersOperationsReopen.png "Reactivate operation")
 
-After confirmation, the operation becomes active again and can be updated or completed again.
+After confirmation, the operation becomes active again and can be executed again through the **Maintenance execution** screen.
 
 > [!TIP]
-> You have the option of completing the entire maintenance order at once by clicking **Complete maintenance order** in the [menu](#menu), if desired.
+> You can complete the entire maintenance order at once by clicking **Complete maintenance order** in the [menu](#menu).
 
 > [!NOTE]
-> Material consumption of **inputs** can be recorded automatically when an operation is completed, if automatic consumption is enabled. Otherwise, input materials must be consumed manually during execution.
+> Material consumption of **inputs** can be recorded automatically when an operation is completed, if automatic consumption is enabled. Otherwise, input materials can be recorded manually during [**Maintenance execution**](MaintenanceExecution.md#inputs).
 
 ## Closed maintenance orders
 
