@@ -33,7 +33,7 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v nasl
 | **Matična številka** | Matična številka podjetja. |
 | [**Institucionalni sektor**](../../Domene/Stranke/Upravljanje/InstitucionalniSektorji.md) | Institucionalni sektor, v katerega spada entiteta. |
 | **Oznake** | Oznake za kategorizacijo entitet. |
-| **Valuta Plačilna** | Privzeta plačilna valuta, uporabljena v dokumentih. |
+| **Valuta plačila** | Privzeto število dni do zapadlosti plačila, ki se uporabi za izračun datuma zapadlosti na dokumentih. |
 | [**Valuta**](Valute.md) | Valuta, povezana z entiteto. |
 | **Rabat** | Privzeti odstotek popusta za entiteto. |
 | [**Primarni kontakt**](Kontakti.md) | Ime in priimek primarne kontaktne osebe. |

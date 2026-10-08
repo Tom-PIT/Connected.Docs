@@ -88,12 +88,12 @@ The available attachment formats depend on the selected document or view. Recipi
 
 ### E-invoice
 
-Export the current document as an e-invoice:
+For published issued invoices and credit notes of customers with e-invoices enabled, **Exporting** and **Send as email** offer two additional options in the **Report** field:
 
-- **XML** – The e-invoice in eSLOG XML format.
-- **Envelope** – A ZIP file with the envelope, the e-invoice XML and the PDF.
+- **E-invoice** – The e-invoice in eSLOG XML format.
+- **E-invoice (envelope)** – A ZIP file with the envelope, the e-invoice XML and the PDF.
 
-Available only for published issued invoices and credit notes of customers with e-invoices enabled. For details, see [**E-invoices**](E-Invoices.md).
+The e-invoice is exported or sent the same way as the document. For details, see [**E-invoices**](E-Invoices.md).
 
 ### Open mass processing
 

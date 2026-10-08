@@ -195,7 +195,7 @@ Potrjeni dobropisi so samo za branje.
 
 ### Izdati e-račun
 
-Če je za stranko omogočeno izdajanje e-računov, dobropis vsebuje dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Po objavi dobropisa lahko e-račun iz [menija](#meni) izvozite v formatu XML ali kot celoten paket z ovojnico.
+Če je za stranko omogočeno izdajanje e-računov, dobropis vsebuje dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Po objavi dobropisa lahko e-račun iz [menija](#meni) izvozite ali pošljete po e-pošti, v formatu XML ali kot celoten paket z ovojnico.
 
 Za predpogoje in podrobna navodila glejte [**E-računi**](../../../Skupno/Koncepti/E-Racuni.md).
 
@@ -260,14 +260,11 @@ Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
 Na voljo so naslednja dejanja:
 
 - **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
+- **Izvoz** – Za stranke z omogočenimi e-računi izvozi tudi e-račun (**E-račun** ali **E-račun (ovojnica)**).
+- **Pošlji preko e-pošte** – Za stranke z omogočenimi e-računi pošlje tudi e-račun.
 - **Izbriši vse postavke** (če je dokument v stanju Osnutek)
 - [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
 - **Vrni v osnutek** (če je dovoljeno)
-- **E-račun** (samo za objavljene dobropise strank z omogočenimi e-računi):
-    - **XML** – Izvozi e-račun v formatu eSLOG XML.
-    - **Ovojnica** – Izvozi datoteko ZIP z ovojnico, XML datoteko e-računa in PDF.
 
 Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
 
