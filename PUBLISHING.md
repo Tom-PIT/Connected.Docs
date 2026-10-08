@@ -57,6 +57,19 @@ python -m mkdocs gh-deploy
 
 This command builds the site and publishes it to the `gh-pages` branch used by GitHub Pages.
 
+## Navigation
+
+The `nav` in `mkdocs.yml` is curated and does not list every page.
+
+* The `nav` contains only the domain landing pages (`README.md`) and the main documents of each domain.
+* Every other page must be linked from its domain landing page, from the Common landing page, or from the Management index (`ManagementIndex.md` / `KazaloUpravljanja.md`).
+
+When you add a new page, add a link to it on the corresponding landing page. Add it to the `nav` only if it is one of the main pages of the domain.
+
+## Troubleshooting
+
+If the build lists only `index.md` and reports that the `nav` pages are not found, the `docs\en` and `docs\sl` junctions are missing. Recreate them as described in [One-time setup](#one-time-setup).
+
 ## Branches
 
 | Branch        | Purpose                                                       |
