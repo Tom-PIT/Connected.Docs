@@ -91,7 +91,10 @@ E-račun lahko iz [menija](MeniDejanja.md) objavljenega dokumenta prenesete ali 
 | **E-račun** | E-račun v formatu eSLOG 2.0 XML, na primer `IIN-2026-00000013.xml`. |
 | **E-račun (ovojnica)** | Datoteka ZIP s celotnim paketom e-računa (glejte spodaj). |
 
-<!-- TODO: confirm that the e-invoice options are hidden on drafts and for customers without e-invoices. -->
+![Možnosti poročila](../Images/EInvoiceReportSL.png "Možnosti poročila")
+
+> [!NOTE]
+> Možnosti **E-račun** in **E-račun (ovojnica)** sta na voljo samo za objavljene dokumente strank z omogočenimi e-računi.
 
 ### Izvoz e-računa
 
@@ -99,8 +102,6 @@ E-račun lahko iz [menija](MeniDejanja.md) objavljenega dokumenta prenesete ali 
 2. Odprite **meni** v zgornjem desnem kotu in razširite **Izvoz**.
 3. V polju **Poročilo** izberite **E-račun** ali **E-račun (ovojnica)**.
 4. Kliknite **Izvoz**.
-
-<!-- TODO: screenshot of the Izvoz dropdown (EInvoiceExportSL.png) -->
 
 ### Pošiljanje e-računa po e-pošti
 
@@ -110,10 +111,7 @@ E-račun lahko iz [menija](MeniDejanja.md) objavljenega dokumenta prenesete ali 
 4. V polju **Prejemniki** izberite enega ali več prejemnikov. Na voljo so kontakti stranke: primarni kontakt iz [poslovnega imenika](../Upravljanje/PoslovniImenik.md) in kontakti iz šifranta [Kontakti](../Upravljanje/Kontakti.md).
 5. Kliknite **Pošlji**.
 
-Izbrana datoteka je poslana kot priloga e-poštnega sporočila.
-
-<!-- TODO: confirm attachment names in the received email. -->
-<!-- TODO: screenshot of the Pošlji preko e-pošte form (EInvoiceEmailSL.png) -->
+Izbrana datoteka je poslana kot priloga e-poštnega sporočila in se imenuje po šifri dokumenta (na primer `IIN-2026-00000014`).
 
 ### Vsebina ovojnice
 

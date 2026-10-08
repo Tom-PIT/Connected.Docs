@@ -45,7 +45,10 @@ Razpoložljivi prodajni dokumenti vključujejo:
 - **[Opomini](Dokumenti/Opomini.md)** – Obvestila o neplačanih ali zapadlih računih.  
 - **[Maloprodajni računi](Dokumenti/MaloprodajniRacuni.md)** – Računi, ustvarjeni v maloprodajnih procesih; zaloga se ureja prek logistike.  
 - **[Maloprodajna avansi računi](Dokumenti/MaloprodajnaAvansniRacuni.md)** – Maloprodajni predračuni in predplačila.
+
 Vsaka vrsta dokumenta prispeva k prodajnemu toku in zagotavlja popolno sledljivost od začetne ponudbe do končnega obračuna.
+
+Izdane račune in dobropise lahko izdate tudi kot e-račune. Glejte [**E-računi**](../../Skupno/Koncepti/E-Racuni.md).
 
 > [!TIP]
 > Oglejte si [**Kako ustvariti izdani račun**](Dokumenti/IzdaniRacuniUstvarjanje.md) in [**Kako ustvariti prodajno naročilo**](Dokumenti/NarocilaStrankUstvarjanje.md) za vodnik po korakih za ustvarjanje teh dokumentov.
