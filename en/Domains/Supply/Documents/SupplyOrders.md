@@ -117,10 +117,10 @@ Expandable sections:
 
 - [Linked documents](#linked-documents)  
 - [Attachments](SupplyOrdersCreate.md#attachments)  
-- [Document](SupplyOrdersCreate.md#step-2--fill-in-header-information) 
+- [Document](SupplyOrdersCreate.md#step-2-fill-in-header-information) 
 - [Delivery](SupplyOrdersCreate.md#delivery-section)  
 - [Top content and bottom content](SupplyOrdersCreate.md#top-content-and-bottom-content)  
-- [Details](SupplyOrdersCreate.md#step-3--add-details)  
+- [Details](SupplyOrdersCreate.md#step-3-add-details)  
 
 #### Linked documents
 

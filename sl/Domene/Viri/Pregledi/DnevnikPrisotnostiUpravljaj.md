@@ -13,7 +13,7 @@ Tipični primeri uporabe vključujejo:
 - evidentiranje odmora (npr. malica),
 - beleženje službenih poti in zasebnega časa,
 - hiter pregled današnje prisotnosti,
-- hiter dostop do dejanj, povezanih z odsotnostmi ([dopust](#dopust), [bolniška odsotnost](#bolniška-odsotnost)) in [potnimi nalogi](#potni-nalogi).
+- hiter dostop do dejanj, povezanih z odsotnostmi ([dopust](#dopust), [bolniška odsotnost](#bolniska-odsotnost)) in [potnimi nalogi](#potni-nalogi).
 
 Za dostop do pogleda **Dnevnik prisotnosti – Upravljaj** pojdite na **Viri / Dnevnik prisotnosti / Upravljaj** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 

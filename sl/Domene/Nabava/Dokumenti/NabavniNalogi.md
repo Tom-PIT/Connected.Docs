@@ -124,10 +124,10 @@ Razširljivi razdelki vključujejo:
 
 - [**Povezani dokumenti**](#povezani-dokumenti) 
 - [**Priponke**](NabavniNalogiUstvarjanje.md#priponke)
-- [**Dokument**](NabavniNalogiUstvarjanje.md#korak-2--izpolnjevanje-glave-dokumenta)
+- [**Dokument**](NabavniNalogiUstvarjanje.md#korak-2-izpolnjevanje-glave-dokumenta)
 - [**Dostava**](NabavniNalogiUstvarjanje.md#razdelek-dostava)
 - [**Vsebina na vrhu in na dnu**](NabavniNalogiUstvarjanje.md#vsebina-na-vrhu-in-vsebina-na-dnu)
-- [**Postavke**](NabavniNalogiUstvarjanje.md#korak-3--dodajanje-postavk)
+- [**Postavke**](NabavniNalogiUstvarjanje.md#korak-3-dodajanje-postavk)
 
 #### Povezani dokumenti
 
