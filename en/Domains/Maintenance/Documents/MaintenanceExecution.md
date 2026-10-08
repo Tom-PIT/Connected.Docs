@@ -44,7 +44,7 @@ A dialog opens with the available active maintenance orders, including:
 
 Select the required maintenance order and click **Select**.
 
-![Select maintenance order](../Images/MaitenanceExecutionSelect.png "Select maintenance order")
+![Select maintenance order](../Images/MaintenanceExecutionSelect.png "Select maintenance order")
 
 ## Start maintenance
 
@@ -64,7 +64,7 @@ Use the [action button](../../../Common/UI/ActionButton.md) in the bottom-right 
 
 The available activities depend on the configuration of the current operation. If input materials are assigned to the operation, **Inputs** is also displayed.
 
-![Maintenance execution activities](../Images/MaitenanceExecutionDashboard.png "Maintenance execution activities")
+![Maintenance execution activities](../Images/MaintenanceExecutionDashboard.png "Maintenance execution activities")
 
 Available activities can include:
 
