@@ -27,7 +27,7 @@ Za dostop do kontrolnih točk pojdite na **Kakovost / Upravljanje / Kontrolne li
 | **Vrstni red** | Številka, ki določa zaporedje kontrolne točke znotraj kontrolnega seznama. |
 | **Kategorija** | Neobvezna razvrstitev za združevanje ali filtriranje kontrolnih točk. |
 | **Neobvezno** | Določa, ali je kontrolno točko dovoljeno preskočiti med izvajanjem. |
-| **Tip** | Določa vrsto vnosa izvajalca:<br>• **Besedilo** – prosti besedilni vnos<br>• **[Označi](#tip-označi)** – potrditveno polje (da / ne)<br>• **Priponka** – zahteva nalaganje datoteke (slika, PDF …)<br>• **[Seznam](#tip-seznam)** – izbor ene ali več vrednosti s seznama<br>• **[Številka](#tip-številka)** – številčni vnos |
+| **Tip** | Določa vrsto vnosa izvajalca:<br>• **Besedilo** – prosti besedilni vnos<br>• **[Označi](#tip-oznaci)** – potrditveno polje (da / ne)<br>• **Priponka** – zahteva nalaganje datoteke (slika, PDF …)<br>• **[Seznam](#tip-seznam)** – izbor ene ali več vrednosti s seznama<br>• **[Številka](#tip-stevilka)** – številčni vnos |
 | **Navodila** | Dodatna navodila, prikazana izvajalcu med izvajanjem kontrole. |
 
 ## Seznam kontrolnih točk

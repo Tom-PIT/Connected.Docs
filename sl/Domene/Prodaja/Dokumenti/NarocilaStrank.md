@@ -143,8 +143,8 @@ Naročilo stranke je razdeljeno v več razširljivih razdelkov. Razpoložljiva d
 - [**Alternativna valuta**](NarocilaStrankUstvarjanje.md#alternativna-valuta)
 - [**Dobava**](NarocilaStrankUstvarjanje.md#dobava)
 - [**Transport in Intrastat**](NarocilaStrankUstvarjanje.md#razdelka-transport-in-intrastat)
-- [**Podrobnosti**](NarocilaStrankUstvarjanje.md#korak-3--dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk računa
-- [**Načini plačila**](NarocilaStrankUstvarjanje.md#načini-plačila) – določanje načina plačila stranke
+- [**Podrobnosti**](NarocilaStrankUstvarjanje.md#korak-3-dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk računa
+- [**Načini plačila**](NarocilaStrankUstvarjanje.md#nacini-placila) – določanje načina plačila stranke
 
 #### Povezani dokumenti
 

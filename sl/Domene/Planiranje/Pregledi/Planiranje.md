@@ -56,7 +56,7 @@ Planirane naloge lahko **prestavite** neposredno v koledarju z metodo povleci in
 - Sistem samodejno posodobi planirane datume  
 
 > [!NOTE]
-> Proizvodnega naloga ni mogoče prestaviti preko njegovega **roka izdelave**, ki je določen v [proizvodnem nalogu](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md#datumi).
+> Proizvodnega naloga ni mogoče prestaviti preko njegovega **roka izdelave**, ki je določen v [proizvodnem nalogu](../../Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md#datumi).
 
 ### Pregledati informacijo o nalogu
 

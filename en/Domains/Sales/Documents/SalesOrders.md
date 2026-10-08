@@ -144,7 +144,7 @@ Click on a sales order on the list to open the edit view. The available actions 
 - [**Alternative currency**](SalesOrdersCreate.md#alternative-currency)
 - [**Transport and Intrastat**](SalesOrdersCreate.md#transport-and-intrastat-sections)
 - [**Delivery information**](SalesOrdersCreate.md#delivery)
-- [**Details**](SalesOrdersCreate.md#step-3--add-details) – add, remove, or change invoice lines
+- [**Details**](SalesOrdersCreate.md#step-3-add-details) – add, remove, or change invoice lines
 - [**Payment methods**](SalesOrdersCreate.md#payment-methods) – define how the customer is expected to pay
 
 #### Linked documents

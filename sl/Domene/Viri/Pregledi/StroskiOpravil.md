@@ -98,7 +98,7 @@ Ta razdelek prikazuje vse materiale, uporabljene pri izdelavi, vključno z:
 
 Kliknite material, da prikažete dodatne informacije o uporabljenem materialu, vključno z njegovo **serijsko številko**.
 
-Če je serijska številka na voljo, jo kliknite, da odprete ustrezen [**pregled zaloge po serijski številki**](../../Logistika/Pregledi/Zaloga.md#pogled-zaloge-po-serijski-številki), kjer si lahko ogledate zapis zaloge in sledite konkretnemu uporabljenemu materialu.
+Če je serijska številka na voljo, jo kliknite, da odprete ustrezen [**pregled zaloge po serijski številki**](../../Logistika/Pregledi/Zaloga.md#pogled-zaloge-po-serijski-stevilki), kjer si lahko ogledate zapis zaloge in sledite konkretnemu uporabljenemu materialu.
 
 
 ### Delo

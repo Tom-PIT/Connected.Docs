@@ -165,12 +165,12 @@ Kliknite kateri koli izdan račun na seznamu, da ga odprete. Osnutke je mogoče 
 
 Dokler je račun v statusu **Osnutek**, lahko urejate vse razdelke:
 
-- [Glavna polja](IzdaniRacuniUstvarjanje.md#korak-2--izpolnjevanje-glave-dokumenta) (datumi, sklici, stranka, bančni račun itd.)
+- [Glavna polja](IzdaniRacuniUstvarjanje.md#korak-2-izpolnjevanje-glave-dokumenta) (datumi, sklici, stranka, bančni račun itd.)
 - [**Alternativna valuta**](IzdaniRacuniUstvarjanje.md#alternativna-valuta)
 - [**Transport**](IzdaniRacuniUstvarjanje.md#transport-in-intrastat)
 - [**Dostava**](IzdaniRacuniUstvarjanje.md#dostava)
-- [**Postavke**](IzdaniRacuniUstvarjanje.md#korak-3--dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk
-- [**Načini plačila**](IzdaniRacuniUstvarjanje.md#načini-plačila) – določanje načina plačila
+- [**Postavke**](IzdaniRacuniUstvarjanje.md#korak-3-dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk
+- [**Načini plačila**](IzdaniRacuniUstvarjanje.md#nacini-placila) – določanje načina plačila
 - [**Vsebina zgoraj** in **Vsebina spodaj**](IzdaniRacuniUstvarjanje.md#vsebina-zgoraj-in-vsebina-spodaj) – izbor vnaprej določenih besedil
 
 ![Postavke in plačila](../Images/IssuedInvoicesNewBottomSL.png "Postavke in plačila")

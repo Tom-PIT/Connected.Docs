@@ -39,7 +39,7 @@ Odpre se pogovorno okno z razpoložljivimi aktivnimi vzdrževalnimi nalogi, ki p
 
 Izberite želeni vzdrževalni nalog in kliknite **Izberi**.
 
-![Izbira vzdrževalnega naloga](../Images/MaitenanceExecutionSelectSL.png "Izbira vzdrževalnega naloga")
+![Izbira vzdrževalnega naloga](../Images/MaintenanceExecutionSelectSL.png "Izbira vzdrževalnega naloga")
 
 ## Začetek vzdrževanja
 
@@ -103,7 +103,7 @@ Izberite **Kvaliteta** za ogled in izpolnjevanje kontrolnih listov kakovosti, do
 
 Glede na njihovo konfiguracijo se lahko kontrolni listi kakovosti samodejno odprejo tudi v določenih fazah izvedbe, na primer ob začetku, premoru ali zaključku operacije.
 
-Za več informacij o izpolnjevanju kontrolnih listov kakovosti med izvedbo glejte [**Kvaliteta pri izvedbi proizvodnje**](../../Proizvodnja/Dokumenti/Izvajanje.md#kvaliteta).
+Za več informacij o izpolnjevanju kontrolnih listov kakovosti med izvedbo glejte [**Kvaliteta pri izvedbi proizvodnje**](../../Proizvodnja/Dokumenti/Izvedba.md#kvaliteta).
 
 ### Delo
 
@@ -111,7 +111,7 @@ Izberite **Delo** za ogled in beleženje delovnega časa za trenutno vzdrževaln
 
 Beleženje dela deluje enako kot pri izvedbi proizvodnje.
 
-Za več informacij glejte [**Delo pri izvedbi proizvodnje**](../../Proizvodnja/Dokumenti/Izvajanje.md#delo).
+Za več informacij glejte [**Delo pri izvedbi proizvodnje**](../../Proizvodnja/Dokumenti/Izvedba.md#delo).
 
 ### Navodila
 
@@ -119,7 +119,7 @@ Izberite **Navodila** za ogled navodil, povezanih s trenutno vzdrževalno operac
 
 Navodila delujejo enako kot pri izvedbi proizvodnje.
 
-Za več informacij glejte [**Navodila pri izvedbi proizvodnje**](../../Proizvodnja/Dokumenti/Izvajanje.md#navodila).
+Za več informacij glejte [**Navodila pri izvedbi proizvodnje**](../../Proizvodnja/Dokumenti/Izvedba.md#navodila).
 
 ## Zaključek vzdrževanja
 

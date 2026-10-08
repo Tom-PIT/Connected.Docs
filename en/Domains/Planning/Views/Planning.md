@@ -17,7 +17,7 @@ Production orders are displayed on the calendar based on their **planned start**
 
 > [!IMPORTANT]
 > A production order will appear in Planning only if both **planned start** and **planned end** are defined.  
-> These values are set when creating or editing a production order. See [**Production orders**](../../Production/Documents/ProductionOrders.md#dates).
+> These values are set when creating or editing a production order. See [**Production orders**](../../Production/Documents/ProductionOrderCreate.md#dates).
 
 Each entry in the calendar represents a scheduled production order, showing its duration across the selected time range.
 

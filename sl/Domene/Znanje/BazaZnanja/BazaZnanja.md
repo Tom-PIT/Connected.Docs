@@ -73,7 +73,7 @@ Za pregled vseh člankov v imeniku odprite **kazalo** z uporabo **ikone menija**
 
 ![Hamburger meni imenika](../Images/KnowledgeBaseDirectoryHamburgerSL.png "Hamburger meni imenika")
 
-Kazalo prikazuje strukturo imenika in razpoložljive članke. Klik na članek ga odpre v [pogledu članka](#pogled-članka).
+Kazalo prikazuje strukturo imenika in razpoložljive članke. Klik na članek ga odpre v [pogledu članka](#pogled-clanka).
 
 ![Kazalo imenika](../Images/KnowledgeBaseDirectoryTOCSL.png "Kazalo imenika")
 

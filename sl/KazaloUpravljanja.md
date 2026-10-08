@@ -5,12 +5,12 @@
 
 To kazalo navaja vso dokumentacijo za upravljanje in konfiguracijo po domenah. Uporabite ga za hitrejši dostop do šifrantov, nastavitev in osnovnih podatkov.
 
-- [**Računovodstvo**](#računovodstvo)
+- [**Računovodstvo**](#racunovodstvo)
 - [**Sredstva**](#sredstva)
 - [**Stranke**](#stranke)
 - [**Znanje**](#znanje)
 - [**Logistika**](#logistika)
-- [**Proizvodnja in vzdrževanje**](#proizvodnja-in-vzdrževanje)
+- [**Proizvodnja in vzdrževanje**](#proizvodnja-in-vzdrzevanje)
 - [**Projekti**](#projekti)
 - [**Kvaliteta**](#kvaliteta)
 - [**Viri**](#viri)
