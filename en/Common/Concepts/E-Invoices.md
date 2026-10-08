@@ -76,6 +76,9 @@ Available referenced document types:
 > [!NOTE]
 > The document cannot be published until all fields in the **E-invoice** section are filled in.
 
+> [!TIP]
+> If the document is already published and you need to add or correct the e-invoice data, select **Return to draft** in the menu, fill in the fields in the **E-invoice** section and publish the document again.
+
 ## Export an e-invoice
 
 1. Open the published document.
