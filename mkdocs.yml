@@ -124,6 +124,7 @@ nav:
               - Offers: en/Domains/Sales/Documents/Offers.md
               - Sales orders: en/Domains/Sales/Documents/SalesOrders.md
               - Issued invoices: en/Domains/Sales/Documents/IssuedInvoices.md
+              - E-invoices: en/Common/Concepts/E-Invoices.md
               - Delivery notes: en/Domains/Sales/Documents/DeliveryNotes.md
               - Proforma invoices: en/Domains/Sales/Documents/ProformaInvoices.md
 
@@ -232,6 +233,7 @@ nav:
               - Ponudbe: sl/Domene/Prodaja/Dokumenti/Ponudbe.md
               - Naročila strank: sl/Domene/Prodaja/Dokumenti/NarocilaStrank.md
               - Izdani računi: sl/Domene/Prodaja/Dokumenti/IzdaniRacuni.md
+              - E-računi: sl/Skupno/Koncepti/E-Racuni.md
               - Dobavnice: sl/Domene/Prodaja/Dokumenti/Dobavnice.md
               - Predračuni: sl/Domene/Prodaja/Dokumenti/Predracuni.md
 
