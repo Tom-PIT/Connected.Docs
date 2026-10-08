@@ -37,6 +37,8 @@ Za stranko morajo biti v [**Poslovnem imeniku**](../Upravljanje/PoslovniImenik.m
 | **Matična številka** | Matična številka podjetja stranke. |
 | [**Bančni račun**](../Upravljanje/BancniRacuni.md) | Vsaj en bančni račun stranke. |
 
+![Podatki stranke za e-račune](../Images/EInvoiceCustomerDataSL.png "Podatki stranke za e-račune")
+
 ### Dokument
 
 | Zahteva | Opis |
@@ -76,15 +78,46 @@ Razpoložljive vrste referenčnih dokumentov:
 > [!NOTE]
 > Dokumenta ni mogoče objaviti, dokler niso izpolnjena vsa polja v razdelku **E-račun**.
 
-## Izvoz e-računa
+> [!TIP]
+> Če ste e-račune za stranko omogočili šele po objavi dokumenta ali če ste podatke za e-račun vnesli napačno, v meniju izberite **Povrni v osnutek**, izpolnite ali popravite polja v razdelku **E-račun** in dokument ponovno objavite.
+
+## Izvoz in pošiljanje e-računa
+
+E-račun lahko iz [menija](MeniDejanja.md) objavljenega dokumenta prenesete ali pošljete po e-pošti. Pri obeh dejanjih v polju **Poročilo** izberete, kaj želite izvoziti ali poslati:
+
+| Poročilo | Vsebina |
+|----------|---------|
+| **Dokument** | PDF različica dokumenta. |
+| **E-račun** | E-račun v formatu eSLOG 2.0 XML, na primer `IIN-2026-00000013.xml`. |
+| **E-račun (ovojnica)** | Datoteka ZIP s celotnim paketom e-računa (glejte spodaj). |
+
+<!-- TODO: confirm that the e-invoice options are hidden on drafts and for customers without e-invoices. -->
+
+### Izvoz e-računa
 
 1. Odprite objavljen dokument.
-2. Odprite **meni** v zgornjem desnem kotu.
-3. V skupini **E-račun** izberite eno od možnosti:
-   - **XML** – Prenese e-račun v formatu eSLOG 2.0 XML, na primer `IIN-2026-00000013.xml`.
-   - **Ovojnica** – Prenese datoteko ZIP s celotnim paketom e-računa.
+2. Odprite **meni** v zgornjem desnem kotu in razširite **Izvoz**.
+3. V polju **Poročilo** izberite **E-račun** ali **E-račun (ovojnica)**.
+4. Kliknite **Izvoz**.
 
-Datoteka ZIP, prenesena z možnostjo **Ovojnica**, vsebuje:
+<!-- TODO: screenshot of the Izvoz dropdown (EInvoiceExportSL.png) -->
+
+### Pošiljanje e-računa po e-pošti
+
+1. Odprite objavljen dokument.
+2. Odprite **meni** v zgornjem desnem kotu in razširite **Pošlji preko e-pošte**.
+3. V polju **Poročilo** izberite **E-račun** ali **E-račun (ovojnica)**.
+4. V polju **Prejemniki** izberite enega ali več prejemnikov. Na voljo so kontakti stranke: primarni kontakt iz [poslovnega imenika](../Upravljanje/PoslovniImenik.md) in kontakti iz šifranta [Kontakti](../Upravljanje/Kontakti.md).
+5. Kliknite **Pošlji**.
+
+Izbrana datoteka je poslana kot priloga e-poštnega sporočila.
+
+<!-- TODO: confirm attachment names in the received email. -->
+<!-- TODO: screenshot of the Pošlji preko e-pošte form (EInvoiceEmailSL.png) -->
+
+### Vsebina ovojnice
+
+Datoteka ZIP, ki jo izvozite ali pošljete z možnostjo **E-račun (ovojnica)**, vsebuje:
 
 | Datoteka | Opis |
 |----------|------|
@@ -95,15 +128,13 @@ Datoteka ZIP, prenesena z možnostjo **Ovojnica**, vsebuje:
 Datoteka ZIP se imenuje po šifri dokumenta, na primer `IIN-2026-00000013.zip`.
 
 > [!TIP]
-> Možnost **XML** uporabite, ko stranka potrebuje samo datoteko e-računa. Možnost **Ovojnica** uporabite, ko e-račun pošiljate prek bančne izmenjave e-računov, na primer prek spletne banke.
-
-> [!NOTE]
-> Skupina **E-račun** je v meniju na voljo samo za objavljene dokumente. **Pošlji preko e-pošte** priloži samo PDF različico dokumenta. Če želite poslati e-račun, ga izvozite in datoteke dostavite ločeno.
-![Meni E-račun](../Images/EInvoiceMenuSL.png "Meni E-račun")
+> Možnost **E-račun** uporabite, ko stranka potrebuje samo datoteko e-računa. Možnost **E-račun (ovojnica)** uporabite, ko e-račun pošiljate prek bančne izmenjave e-računov, na primer prek spletne banke.
 
 ## Odpravljanje težav
 
 Če manjka kateri od zahtevanih podatkov, se izvoz ustavi in sporočilo navede, kateri podatek manjka. Vnesite manjkajoči podatek (glejte [Predpogoji](#predpogoji)) in ponovite izvoz.
+
+Če je bil dokument objavljen, preden ste za stranko omogočili e-račune, ne vsebuje podatkov za e-račun in ga ni mogoče izvoziti kot e-račun. Izberite **Povrni v osnutek**, izpolnite razdelek **E-račun** in dokument ponovno objavite.
 
 Druga sporočila:
 
