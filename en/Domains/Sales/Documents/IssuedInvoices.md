@@ -205,7 +205,7 @@ When you are ready, click **Publish** to confirm the invoice and move it out of 
 
 ### Issue an e-invoice
 
-If issuing e-invoices is enabled for the customer, the invoice contains an additional **E-invoice** section that must be filled in before publishing. Once the invoice is published, the e-invoice can be exported or sent by email, in XML format or as a complete package with an envelope, from the [document menu](#document-menu).
+If issuing e-invoices is enabled for the customer, the invoice contains an additional **E-Invoice** section that must be filled in before publishing. Once the invoice is published, the e-invoice can be exported or sent by email, in XML format or as a complete package with an envelope, from the [document menu](#document-menu).
 
 For prerequisites and detailed instructions, see [**E-invoices**](../../../Common/Concepts/E-Invoices.md).
 
@@ -272,7 +272,7 @@ The document menu provides actions for the currently opened document.
 Available actions:
 
 - **Printing**
-- **Exporting** – For customers with e-invoices enabled, also exports the e-invoice (**E-invoice** or **E-invoice (envelope)**).
+- **Exporting** – For customers with e-invoices enabled, also exports the e-invoice (**E-Invoice** or **E-Invoice (envelope)**).
 - **Send as email** – For customers with e-invoices enabled, also sends the e-invoice.
 - **Delete all details** (only for drafts)
 - **[Reverse document](../../Logistics/Documents/Reversals.md)**

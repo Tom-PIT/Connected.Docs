@@ -43,13 +43,13 @@ The following data must be entered for the customer in the [**Business directory
 
 | Requirement | Description |
 |-------------|-------------|
-| **E-invoice section** | All fields in the **E-invoice** section must be filled in (see [Fill in e-invoice data](#fill-in-e-invoice-data)). |
+| **E-invoice section** | All fields in the **E-Invoice** section must be filled in (see [Fill in e-invoice data](#fill-in-e-invoice-data)). |
 | **Purpose code** | The document must have a purpose code, selected from [External code sets](../../Domains/Sales/Management/ExternalCodeSets.md). The code can have at most 4 characters, for example an ISO 20022 purpose code such as **SUPP** or **GDSV**. |
 | **Status** | The document must be published. |
 
 ## Fill in e-invoice data
 
-When e-invoices are enabled for the customer, the document contains an additional **E-invoice** section.
+When e-invoices are enabled for the customer, the document contains an additional **E-Invoice** section.
 
 ![E-invoice section](../Images/EInvoiceSection.png "E-invoice section")
 
@@ -76,50 +76,46 @@ Available referenced document types:
 - Tender
 
 > [!NOTE]
-> The document cannot be published until all fields in the **E-invoice** section are filled in.
+> The document cannot be published until all fields in the **E-Invoice** section are filled in.
 
 > [!TIP]
-> If e-invoices were enabled for the customer only after the document was published, or if the e-invoice data was entered incorrectly, select **Return to draft** in the menu, fill in or correct the fields in the **E-invoice** section and publish the document again.
+> If e-invoices were enabled for the customer only after the document was published, or if the e-invoice data was entered incorrectly, select **Return to draft** in the menu, fill in or correct the fields in the **E-Invoice** section and publish the document again.
 
 ## Export and send an e-invoice
-
-<!-- TODO: confirm EN labels (Exporting, Report, Document, E-invoice, E-invoice (envelope), Export, Send as email, Recipients, Send). -->
 
 An e-invoice can be downloaded or sent by email from the [menu](MenuActions.md) of a published document. For both actions, select what to export or send in the **Report** field:
 
 | Report | Content |
 |--------|---------|
 | **Document** | The PDF version of the document. |
-| **E-invoice** | The e-invoice in eSLOG 2.0 XML format, for example `IIN-2026-00000013.xml`. |
-| **E-invoice (envelope)** | A ZIP file with the complete e-invoice package (see below). |
+| **E-Invoice** | The e-invoice in eSLOG 2.0 XML format, for example `IIN-2026-00000013.xml`. |
+| **E-Invoice (envelope)** | A ZIP file with the complete e-invoice package (see below). |
 
-<!-- TODO: confirm that the e-invoice options are hidden on drafts and for customers without e-invoices. -->
+![Report options](../Images/EInvoiceReport.png "Report options")
+
+> [!NOTE]
+> The **E-Invoice** and **E-Invoice (envelope)** options are available only for published documents of customers with e-invoices enabled.
 
 ### Export an e-invoice
 
 1. Open the published document.
 2. Open the **Menu** in the top-right corner and expand **Exporting**.
-3. In the **Report** field, select **E-invoice** or **E-invoice (envelope)**.
+3. In the **Report** field, select **E-Invoice** or **E-Invoice (envelope)**.
 4. Click **Export**.
-
-<!-- TODO: screenshot of the Exporting dropdown (EInvoiceExport.png) -->
 
 ### Send an e-invoice by email
 
 1. Open the published document.
 2. Open the **Menu** in the top-right corner and expand **Send as email**.
-3. In the **Report** field, select **E-invoice** or **E-invoice (envelope)**.
+3. In the **Report** field, select **E-Invoice** or **E-Invoice (envelope)**.
 4. In the **Recipients** field, select one or more recipients. The list shows the customer's contacts: the primary contact from the [Business directory](../Management/BusinessDirectory.md) and contacts from the [Contacts](../Management/Contacts.md) code list.
 5. Click **Send**.
 
-The selected file is sent as an email attachment.
-
-<!-- TODO: confirm attachment names in the received email. -->
-<!-- TODO: screenshot of the Send as email form (EInvoiceEmail.png) -->
+The selected file is sent as an email attachment, named after the document code (for example `IIN-2026-00000014`).
 
 ### Envelope contents
 
-The ZIP file exported or sent with **E-invoice (envelope)** contains:
+The ZIP file exported or sent with **E-Invoice (envelope)** contains:
 
 | File | Description |
 |------|-------------|
@@ -130,17 +126,17 @@ The ZIP file exported or sent with **E-invoice (envelope)** contains:
 The ZIP file is named after the document code, for example `IIN-2026-00000013.zip`.
 
 > [!TIP]
-> Use **E-invoice** when the customer only needs the e-invoice file. Use **E-invoice (envelope)** when sending the e-invoice through the bank e-invoice exchange, for example via online banking.
+> Use **E-Invoice** when the customer only needs the e-invoice file. Use **E-Invoice (envelope)** when sending the e-invoice through the bank e-invoice exchange, for example via online banking.
 
 ## Troubleshooting
 
 If any required data is missing, the export stops and a message names the missing data, for example *Customer does not have a registration number set*. Enter the missing data (see [Prerequisites](#prerequisites)) and export again.
 
-If the document was published before e-invoices were enabled for the customer, it does not contain e-invoice data and cannot be exported as an e-invoice. Select **Return to draft**, fill in the **E-invoice** section and publish the document again.
+If the document was published before e-invoices were enabled for the customer, it does not contain e-invoice data and cannot be exported as an e-invoice. Select **Return to draft**, fill in the **E-Invoice** section and publish the document again.
 
 Other messages:
 
 | Message | Cause | Solution |
 |---------|-------|----------|
-| *E-invoice data must be filled in, because e-invoices are issued for this customer.* | The **E-invoice** section on the document is incomplete. | Fill in all fields in the **E-invoice** section and publish again. |
+| *E-invoice data must be filled in, because e-invoices are issued for this customer.* | The **E-Invoice** section on the document is incomplete. | Fill in all fields in the **E-Invoice** section and publish again. |
 | *An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.* | The e-invoice service is not set up for your organization. | Contact Tom PIT support. |
