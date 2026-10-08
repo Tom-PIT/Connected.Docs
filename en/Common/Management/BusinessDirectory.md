@@ -126,7 +126,7 @@ This section allows enabling the issuing of e-invoices to the related company by
 
 ![E-invoices section](../Images/BusinessDirectoryEInvoices.png "E-invoices section")
 
-When e-invoices are enabled, issued invoices and credit notes for this customer contain an additional **E-invoice** section that must be filled in before publishing. To export e-invoices, the customer must also have a **Tax number**, a **Registration number** and at least one [bank account](BankAccounts.md).
+When e-invoices are enabled, issued invoices and credit notes for this customer contain an additional **E-Invoice** section that must be filled in before publishing. To export e-invoices, the customer must also have a **Tax number**, a **Registration number** and at least one [bank account](BankAccounts.md).
 
 For details, see [**E-invoices**](../Concepts/E-Invoices.md).
 #### Edit contact
