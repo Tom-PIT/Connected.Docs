@@ -80,13 +80,23 @@ These values allow consistent formatting and behavior of documents.
 
 - **[Predefined texts](Management/PredefinedTexts.md)** – Reusable text blocks used in offers, invoices, delivery notes, and supply documents.  
 
+## Concepts
+
+Concept pages describe features that work the same way across many documents.
+
+- **[Attachments](Concepts/Attachments.md)** – Uploading and storing files related to a document or record.  
+- **[Document details](Concepts/DocumentDetails.md)** – The individual lines that make up a document.  
+- **[Linked documents](Concepts/LinkedDocuments.md)** – Documents related to the current document, and creating follow-up documents.  
+- **[Menu actions](Concepts/MenuActions.md)** – Printing, exporting, sending by email and other actions in the page menu.  
+- **[E-invoices](Concepts/E-Invoices.md)** – Issuing, exporting and sending e-invoices in eSLOG format.  
+
 ## Why Common code lists must be configured first
 
 Almost all platform workflows depend on Common settings:
 
 | Area | Dependency |
 |------|------------|
-| **System → Configuration** | Needs [Countries]**(Management**/Countries.md) + [Currencies](Management/Currencies.md) before setting organization details |
+| **System → Configuration** | Needs [Countries](Management/Countries.md) + [Currencies](Management/Currencies.md) before setting organization details |
 | **Sales** | Requires [Currencies](Management/Currencies.md), [Tax rates](Management/TaxRates.md), [Measure units](Management/MeasureUnits.md), [Payment methods](../Domains/Sales/Management/PaymentMethods.md) |
 | **Supply** | Requires [Business directory](Management/BusinessDirectory.md), [Countries](Management/Countries.md), [Currencies](Management/Currencies.md) |
 | **Logistics** | Requires [Measure units](Management/MeasureUnits.md), [Countries](Management/Countries.md), [Business directory](Management/BusinessDirectory.md) |
