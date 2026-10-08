@@ -33,9 +33,11 @@ The following data must be entered for the customer in the [**Business directory
 | Requirement | Description |
 |-------------|-------------|
 | **E-invoices** | The **Issue e-invoices** checkbox must be selected in the [**E-invoices**](../Management/BusinessDirectory.md#e-invoices) section. |
-| **VAT ID** | The customer's VAT identification number. |
-| **Company ID** | The customer's company registration number. |
+| **Tax number** | The customer's VAT identification number. |
+| **Registration number** | The customer's company registration number. |
 | [**Bank account**](../Management/BankAccounts.md) | At least one bank account of the customer. |
+
+![Customer data for e-invoices](../Images/EInvoiceCustomerData.png "Customer data for e-invoices")
 
 ### Document
 
@@ -77,17 +79,47 @@ Available referenced document types:
 > The document cannot be published until all fields in the **E-invoice** section are filled in.
 
 > [!TIP]
-> If the document is already published and you need to add or correct the e-invoice data, select **Return to draft** in the menu, fill in the fields in the **E-invoice** section and publish the document again.
+> If e-invoices were enabled for the customer only after the document was published, or if the e-invoice data was entered incorrectly, select **Return to draft** in the menu, fill in or correct the fields in the **E-invoice** section and publish the document again.
 
-## Export an e-invoice
+## Export and send an e-invoice
+
+<!-- TODO: confirm EN labels (Exporting, Report, Document, E-invoice, E-invoice (envelope), Export, Send as email, Recipients, Send). -->
+
+An e-invoice can be downloaded or sent by email from the [menu](MenuActions.md) of a published document. For both actions, select what to export or send in the **Report** field:
+
+| Report | Content |
+|--------|---------|
+| **Document** | The PDF version of the document. |
+| **E-invoice** | The e-invoice in eSLOG 2.0 XML format, for example `IIN-2026-00000013.xml`. |
+| **E-invoice (envelope)** | A ZIP file with the complete e-invoice package (see below). |
+
+<!-- TODO: confirm that the e-invoice options are hidden on drafts and for customers without e-invoices. -->
+
+### Export an e-invoice
 
 1. Open the published document.
-2. Open the **Menu** in the top-right corner.
-3. Under **E-invoice**, select one of the following:
-   - **XML** – Downloads the e-invoice in eSLOG 2.0 XML format, for example `IIN-2026-00000013.xml`.
-   - **Envelope** – Downloads a ZIP file with the complete e-invoice package.
+2. Open the **Menu** in the top-right corner and expand **Exporting**.
+3. In the **Report** field, select **E-invoice** or **E-invoice (envelope)**.
+4. Click **Export**.
 
-The ZIP file downloaded with **Envelope** contains:
+<!-- TODO: screenshot of the Exporting dropdown (EInvoiceExport.png) -->
+
+### Send an e-invoice by email
+
+1. Open the published document.
+2. Open the **Menu** in the top-right corner and expand **Send as email**.
+3. In the **Report** field, select **E-invoice** or **E-invoice (envelope)**.
+4. In the **Recipients** field, select one or more recipients. The list shows the customer's contacts: the primary contact from the [Business directory](../Management/BusinessDirectory.md) and contacts from the [Contacts](../Management/Contacts.md) code list.
+5. Click **Send**.
+
+The selected file is sent as an email attachment.
+
+<!-- TODO: confirm attachment names in the received email. -->
+<!-- TODO: screenshot of the Send as email form (EInvoiceEmail.png) -->
+
+### Envelope contents
+
+The ZIP file exported or sent with **E-invoice (envelope)** contains:
 
 | File | Description |
 |------|-------------|
@@ -98,15 +130,13 @@ The ZIP file downloaded with **Envelope** contains:
 The ZIP file is named after the document code, for example `IIN-2026-00000013.zip`.
 
 > [!TIP]
-> Use **XML** when the customer only needs the e-invoice file. Use **Envelope** when sending the e-invoice through the bank e-invoice exchange, for example via online banking.
-
-> [!NOTE]
-> The **E-invoice** menu group is available only for published documents. **Send as email** attaches the PDF version of the document only. To send an e-invoice, export it and deliver the files separately.
-![E-invoice menu](../Images/EInvoiceMenu.png "E-invoice menu")
+> Use **E-invoice** when the customer only needs the e-invoice file. Use **E-invoice (envelope)** when sending the e-invoice through the bank e-invoice exchange, for example via online banking.
 
 ## Troubleshooting
 
 If any required data is missing, the export stops and a message names the missing data, for example *Customer does not have a registration number set*. Enter the missing data (see [Prerequisites](#prerequisites)) and export again.
+
+If the document was published before e-invoices were enabled for the customer, it does not contain e-invoice data and cannot be exported as an e-invoice. Select **Return to draft**, fill in the **E-invoice** section and publish the document again.
 
 Other messages:
 

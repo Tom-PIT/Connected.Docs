@@ -204,7 +204,7 @@ Ko je račun pripravljen, kliknite **Objavi**, da ga potrdite in premaknete iz s
 
 ### Izdati e-račun
 
-Če je za stranko omogočeno izdajanje e-računov, račun vsebuje dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Po objavi računa lahko e-račun iz [menija dokumenta](#meni-dokumenta) izvozite v formatu XML ali kot celoten paket z ovojnico.
+Če je za stranko omogočeno izdajanje e-računov, račun vsebuje dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Po objavi računa lahko e-račun iz [menija dokumenta](#meni-dokumenta) izvozite ali pošljete po e-pošti, v formatu XML ali kot celoten paket z ovojnico.
 
 Za predpogoje in podrobna navodila glejte [**E-računi**](../../../Skupno/Koncepti/E-Racuni.md).
 
@@ -269,17 +269,12 @@ Meni dokumenta omogoča dejanja za trenutno odprt dokument.
 Na voljo so naslednja dejanja:
 
 - **Tiskanje**
-- **Izvoz**
-- **Pošlji preko e-pošte**
+- **Izvoz** – Za stranke z omogočenimi e-računi izvozi tudi e-račun (**E-račun** ali **E-račun (ovojnica)**).
+- **Pošlji preko e-pošte** – Za stranke z omogočenimi e-računi pošlje tudi e-račun.
 - **Izbriši vse postavke** (samo za osnutke)
 - [**Storniraj dokument**](../../Logistika/Dokumenti/Storno.md)
 - **Povrni v osnutek**
-- **E-račun** (samo za objavljene račune strank z omogočenimi e-računi):
-    - **XML** – Izvozi e-račun v formatu eSLOG XML.
-    - **Ovojnica** – Izvozi datoteko ZIP z ovojnico, XML datoteko e-računa in PDF.
 
 Za podrobnosti o e-računih glejte [**E-računi**](../../../Skupno/Koncepti/E-Racuni.md).
 
 Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).
-
-![Meni izdanega računa](../Images/IssuedInvoicesMenuSL.png "Meni izdanega računa")
