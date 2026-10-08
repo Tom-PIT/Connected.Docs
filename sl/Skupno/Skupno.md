@@ -76,6 +76,16 @@ Te nastavitve omogočajo enotno oblikovanje in vedenje dokumentov.
 
 - **[Vnaprej določena besedila](Upravljanje/VnaprejDolocenaBesedila.md)** – ponovno uporabljiva besedila za ponudbe, račune, dobavnice in nabavne dokumente.
 
+## Koncepti
+
+Strani s koncepti opisujejo funkcionalnosti, ki delujejo enako v številnih dokumentih.
+
+- **[Priponke](Koncepti/Priponke.md)** – nalaganje in shranjevanje datotek, povezanih z dokumentom ali zapisom.  
+- **[Postavke dokumenta](Koncepti/PostavkeDokumenta.md)** – posamezne vrstice, ki sestavljajo dokument.  
+- **[Povezani dokumenti](Koncepti/PovezaniDokumenti.md)** – dokumenti, povezani s trenutnim dokumentom, in ustvarjanje nadaljnjih dokumentov.  
+- **[Dejanja menija](Koncepti/MeniDejanja.md)** – tiskanje, izvoz, pošiljanje po e-pošti in druga dejanja v meniju strani.  
+- **[E-računi](Koncepti/E-Racuni.md)** – izdajanje, izvoz in pošiljanje e-računov v formatu eSLOG.
+
 ## Zakaj morajo biti šifranti Skupno konfigurirani najprej
 
 Skoraj vsi procesi v platformi so odvisni od nastavitev Skupno:
@@ -96,5 +106,5 @@ Skoraj vsi procesi v platformi so odvisni od nastavitev Skupno:
 - nepravilno oblikovanje računov in dobavnic  
 - napake v sistemski konfiguraciji  
 
-> [!POZOR]  
+> [!CAUTION]  
 > **Ne nadaljujte z uporabo domen [Prodaja](../Domene/Prodaja/README.md), [Nabava](../Domene/Nabava/README.md), [Logistika](../Domene/Logistika/README.md) ali [Sistemske nastavitve](../Domene/Sistem/Nastavitve/KonfiguracijaSistema.md), dokler niso ustvarjeni vsi zahtevani šifranti modula Skupno.**

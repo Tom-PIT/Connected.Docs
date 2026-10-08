@@ -48,6 +48,8 @@ Available sales documents include:
 
 Each document type contributes to the sales workflow, ensuring full traceability from initial offer to final invoice.
 
+Issued invoices and credit notes can also be issued as e-invoices. See [**E-invoices**](../../Common/Concepts/E-Invoices.md).
+
 > [!TIP]
 > See [**How to create an issued invoice**](Documents/IssuedInvoicesCreate.md) and [**How to create a sales order**](Documents/SalesOrdersCreate.md) for a step-by-step guide of the creation of these documents.
 
