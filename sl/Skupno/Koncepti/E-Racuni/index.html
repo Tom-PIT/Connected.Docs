@@ -6379,6 +6379,18 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#izvoz-in-posiljanje-e-racuna" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Izvoz in pošiljanje e-računa
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Izvoz in pošiljanje e-računa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#izvoz-e-racuna" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6386,6 +6398,33 @@
       
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#posiljanje-e-racuna-po-e-posti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pošiljanje e-računa po e-pošti
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vsebina-ovojnice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vsebina ovojnice
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -6489,6 +6528,7 @@
 </tr>
 </tbody>
 </table>
+<p><img alt="Podatki stranke za e-račune" src="../../Images/EInvoiceCustomerDataSL.png" title="Podatki stranke za e-račune" /></p>
 <h3 id="dokument">Dokument<a class="headerlink" href="#dokument" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -6556,15 +6596,59 @@
 <p class="admonition-title">Note</p>
 <p>Dokumenta ni mogoče objaviti, dokler niso izpolnjena vsa polja v razdelku <strong>E-račun</strong>.</p>
 </div>
-<h2 id="izvoz-e-racuna">Izvoz e-računa<a class="headerlink" href="#izvoz-e-racuna" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Če ste e-račune za stranko omogočili šele po objavi dokumenta ali če ste podatke za e-račun vnesli napačno, v meniju izberite <strong>Povrni v osnutek</strong>, izpolnite ali popravite polja v razdelku <strong>E-račun</strong> in dokument ponovno objavite.</p>
+</div>
+<h2 id="izvoz-in-posiljanje-e-racuna">Izvoz in pošiljanje e-računa<a class="headerlink" href="#izvoz-in-posiljanje-e-racuna" title="Permanent link">&para;</a></h2>
+<p>E-račun lahko iz <a href="../MeniDejanja/">menija</a> objavljenega dokumenta prenesete ali pošljete po e-pošti. Pri obeh dejanjih v polju <strong>Poročilo</strong> izberete, kaj želite izvoziti ali poslati:</p>
+<table>
+<thead>
+<tr>
+<th>Poročilo</th>
+<th>Vsebina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dokument</strong></td>
+<td>PDF različica dokumenta.</td>
+</tr>
+<tr>
+<td><strong>E-račun</strong></td>
+<td>E-račun v formatu eSLOG 2.0 XML, na primer <code>IIN-2026-00000013.xml</code>.</td>
+</tr>
+<tr>
+<td><strong>E-račun (ovojnica)</strong></td>
+<td>Datoteka ZIP s celotnim paketom e-računa (glejte spodaj).</td>
+</tr>
+</tbody>
+</table>
+<!-- TODO: confirm that the e-invoice options are hidden on drafts and for customers without e-invoices. -->
+
+<h3 id="izvoz-e-racuna">Izvoz e-računa<a class="headerlink" href="#izvoz-e-racuna" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Odprite objavljen dokument.</li>
-<li>Odprite <strong>meni</strong> v zgornjem desnem kotu.</li>
-<li>V skupini <strong>E-račun</strong> izberite eno od možnosti:</li>
-<li><strong>XML</strong> – Prenese e-račun v formatu eSLOG 2.0 XML, na primer <code>IIN-2026-00000013.xml</code>.</li>
-<li><strong>Ovojnica</strong> – Prenese datoteko ZIP s celotnim paketom e-računa.</li>
+<li>Odprite <strong>meni</strong> v zgornjem desnem kotu in razširite <strong>Izvoz</strong>.</li>
+<li>V polju <strong>Poročilo</strong> izberite <strong>E-račun</strong> ali <strong>E-račun (ovojnica)</strong>.</li>
+<li>Kliknite <strong>Izvoz</strong>.</li>
 </ol>
-<p>Datoteka ZIP, prenesena z možnostjo <strong>Ovojnica</strong>, vsebuje:</p>
+<!-- TODO: screenshot of the Izvoz dropdown (EInvoiceExportSL.png) -->
+
+<h3 id="posiljanje-e-racuna-po-e-posti">Pošiljanje e-računa po e-pošti<a class="headerlink" href="#posiljanje-e-racuna-po-e-posti" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Odprite objavljen dokument.</li>
+<li>Odprite <strong>meni</strong> v zgornjem desnem kotu in razširite <strong>Pošlji preko e-pošte</strong>.</li>
+<li>V polju <strong>Poročilo</strong> izberite <strong>E-račun</strong> ali <strong>E-račun (ovojnica)</strong>.</li>
+<li>V polju <strong>Prejemniki</strong> izberite enega ali več prejemnikov. Na voljo so kontakti stranke: primarni kontakt iz <a href="../../Upravljanje/PoslovniImenik/">poslovnega imenika</a> in kontakti iz šifranta <a href="../../Upravljanje/Kontakti/">Kontakti</a>.</li>
+<li>Kliknite <strong>Pošlji</strong>.</li>
+</ol>
+<p>Izbrana datoteka je poslana kot priloga e-poštnega sporočila.</p>
+<!-- TODO: confirm attachment names in the received email. -->
+<!-- TODO: screenshot of the Pošlji preko e-pošte form (EInvoiceEmailSL.png) -->
+
+<h3 id="vsebina-ovojnice">Vsebina ovojnice<a class="headerlink" href="#vsebina-ovojnice" title="Permanent link">&para;</a></h3>
+<p>Datoteka ZIP, ki jo izvozite ali pošljete z možnostjo <strong>E-račun (ovojnica)</strong>, vsebuje:</p>
 <table>
 <thead>
 <tr>
@@ -6590,15 +6674,11 @@
 <p>Datoteka ZIP se imenuje po šifri dokumenta, na primer <code>IIN-2026-00000013.zip</code>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Možnost <strong>XML</strong> uporabite, ko stranka potrebuje samo datoteko e-računa. Možnost <strong>Ovojnica</strong> uporabite, ko e-račun pošiljate prek bančne izmenjave e-računov, na primer prek spletne banke.</p>
+<p>Možnost <strong>E-račun</strong> uporabite, ko stranka potrebuje samo datoteko e-računa. Možnost <strong>E-račun (ovojnica)</strong> uporabite, ko e-račun pošiljate prek bančne izmenjave e-računov, na primer prek spletne banke.</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Skupina <strong>E-račun</strong> je v meniju na voljo samo za objavljene dokumente. <strong>Pošlji preko e-pošte</strong> priloži samo PDF različico dokumenta. Če želite poslati e-račun, ga izvozite in datoteke dostavite ločeno.</p>
-</div>
-<p><img alt="Meni E-račun" src="../../Images/EInvoiceMenuSL.png" title="Meni E-račun" /></p>
 <h2 id="odpravljanje-tezav">Odpravljanje težav<a class="headerlink" href="#odpravljanje-tezav" title="Permanent link">&para;</a></h2>
 <p>Če manjka kateri od zahtevanih podatkov, se izvoz ustavi in sporočilo navede, kateri podatek manjka. Vnesite manjkajoči podatek (glejte <a href="#predpogoji">Predpogoji</a>) in ponovite izvoz.</p>
+<p>Če je bil dokument objavljen, preden ste za stranko omogočili e-račune, ne vsebuje podatkov za e-račun in ga ni mogoče izvoziti kot e-račun. Izberite <strong>Povrni v osnutek</strong>, izpolnite razdelek <strong>E-račun</strong> in dokument ponovno objavite.</p>
 <p>Druga sporočila:</p>
 <table>
 <thead>

@@ -6379,6 +6379,18 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#export-and-send-an-e-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export and send an e-invoice
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Export and send an e-invoice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#export-an-e-invoice" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6386,6 +6398,33 @@
       
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#send-an-e-invoice-by-email" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Send an e-invoice by email
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#envelope-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Envelope contents
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -6476,11 +6515,11 @@
 <td>The <strong>Issue e-invoices</strong> checkbox must be selected in the <a href="../../Management/BusinessDirectory/#e-invoices"><strong>E-invoices</strong></a> section.</td>
 </tr>
 <tr>
-<td><strong>VAT ID</strong></td>
+<td><strong>Tax number</strong></td>
 <td>The customer's VAT identification number.</td>
 </tr>
 <tr>
-<td><strong>Company ID</strong></td>
+<td><strong>Registration number</strong></td>
 <td>The customer's company registration number.</td>
 </tr>
 <tr>
@@ -6489,6 +6528,7 @@
 </tr>
 </tbody>
 </table>
+<p><img alt="Customer data for e-invoices" src="../../Images/EInvoiceCustomerData.png" title="Customer data for e-invoices" /></p>
 <h3 id="document">Document<a class="headerlink" href="#document" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -6556,15 +6596,61 @@
 <p class="admonition-title">Note</p>
 <p>The document cannot be published until all fields in the <strong>E-invoice</strong> section are filled in.</p>
 </div>
-<h2 id="export-an-e-invoice">Export an e-invoice<a class="headerlink" href="#export-an-e-invoice" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If e-invoices were enabled for the customer only after the document was published, or if the e-invoice data was entered incorrectly, select <strong>Return to draft</strong> in the menu, fill in or correct the fields in the <strong>E-invoice</strong> section and publish the document again.</p>
+</div>
+<h2 id="export-and-send-an-e-invoice">Export and send an e-invoice<a class="headerlink" href="#export-and-send-an-e-invoice" title="Permanent link">&para;</a></h2>
+<!-- TODO: confirm EN labels (Exporting, Report, Document, E-invoice, E-invoice (envelope), Export, Send as email, Recipients, Send). -->
+
+<p>An e-invoice can be downloaded or sent by email from the <a href="../MenuActions/">menu</a> of a published document. For both actions, select what to export or send in the <strong>Report</strong> field:</p>
+<table>
+<thead>
+<tr>
+<th>Report</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Document</strong></td>
+<td>The PDF version of the document.</td>
+</tr>
+<tr>
+<td><strong>E-invoice</strong></td>
+<td>The e-invoice in eSLOG 2.0 XML format, for example <code>IIN-2026-00000013.xml</code>.</td>
+</tr>
+<tr>
+<td><strong>E-invoice (envelope)</strong></td>
+<td>A ZIP file with the complete e-invoice package (see below).</td>
+</tr>
+</tbody>
+</table>
+<!-- TODO: confirm that the e-invoice options are hidden on drafts and for customers without e-invoices. -->
+
+<h3 id="export-an-e-invoice">Export an e-invoice<a class="headerlink" href="#export-an-e-invoice" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Open the published document.</li>
-<li>Open the <strong>Menu</strong> in the top-right corner.</li>
-<li>Under <strong>E-invoice</strong>, select one of the following:</li>
-<li><strong>XML</strong> – Downloads the e-invoice in eSLOG 2.0 XML format, for example <code>IIN-2026-00000013.xml</code>.</li>
-<li><strong>Envelope</strong> – Downloads a ZIP file with the complete e-invoice package.</li>
+<li>Open the <strong>Menu</strong> in the top-right corner and expand <strong>Exporting</strong>.</li>
+<li>In the <strong>Report</strong> field, select <strong>E-invoice</strong> or <strong>E-invoice (envelope)</strong>.</li>
+<li>Click <strong>Export</strong>.</li>
 </ol>
-<p>The ZIP file downloaded with <strong>Envelope</strong> contains:</p>
+<!-- TODO: screenshot of the Exporting dropdown (EInvoiceExport.png) -->
+
+<h3 id="send-an-e-invoice-by-email">Send an e-invoice by email<a class="headerlink" href="#send-an-e-invoice-by-email" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Open the published document.</li>
+<li>Open the <strong>Menu</strong> in the top-right corner and expand <strong>Send as email</strong>.</li>
+<li>In the <strong>Report</strong> field, select <strong>E-invoice</strong> or <strong>E-invoice (envelope)</strong>.</li>
+<li>In the <strong>Recipients</strong> field, select one or more recipients. The list shows the customer's contacts: the primary contact from the <a href="../../Management/BusinessDirectory/">Business directory</a> and contacts from the <a href="../../Management/Contacts/">Contacts</a> code list.</li>
+<li>Click <strong>Send</strong>.</li>
+</ol>
+<p>The selected file is sent as an email attachment.</p>
+<!-- TODO: confirm attachment names in the received email. -->
+<!-- TODO: screenshot of the Send as email form (EInvoiceEmail.png) -->
+
+<h3 id="envelope-contents">Envelope contents<a class="headerlink" href="#envelope-contents" title="Permanent link">&para;</a></h3>
+<p>The ZIP file exported or sent with <strong>E-invoice (envelope)</strong> contains:</p>
 <table>
 <thead>
 <tr>
@@ -6590,15 +6676,11 @@
 <p>The ZIP file is named after the document code, for example <code>IIN-2026-00000013.zip</code>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Use <strong>XML</strong> when the customer only needs the e-invoice file. Use <strong>Envelope</strong> when sending the e-invoice through the bank e-invoice exchange, for example via online banking.</p>
+<p>Use <strong>E-invoice</strong> when the customer only needs the e-invoice file. Use <strong>E-invoice (envelope)</strong> when sending the e-invoice through the bank e-invoice exchange, for example via online banking.</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The <strong>E-invoice</strong> menu group is available only for published documents. <strong>Send as email</strong> attaches the PDF version of the document only. To send an e-invoice, export it and deliver the files separately.</p>
-</div>
-<p><img alt="E-invoice menu" src="../../Images/EInvoiceMenu.png" title="E-invoice menu" /></p>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
 <p>If any required data is missing, the export stops and a message names the missing data, for example <em>Customer does not have a registration number set</em>. Enter the missing data (see <a href="#prerequisites">Prerequisites</a>) and export again.</p>
+<p>If the document was published before e-invoices were enabled for the customer, it does not contain e-invoice data and cannot be exported as an e-invoice. Select <strong>Return to draft</strong>, fill in the <strong>E-invoice</strong> section and publish the document again.</p>
 <p>Other messages:</p>
 <table>
 <thead>
