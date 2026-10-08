@@ -76,6 +76,9 @@ Razpoložljive vrste referenčnih dokumentov:
 > [!NOTE]
 > Dokumenta ni mogoče objaviti, dokler niso izpolnjena vsa polja v razdelku **E-račun**.
 
+> [!TIP]
+> Če je dokument že objavljen in morate podatke za e-račun dodati ali popraviti, v meniju izberite **Povrni v osnutek**, izpolnite polja v razdelku **E-račun** in dokument ponovno objavite.
+
 ## Izvoz e-računa
 
 1. Odprite objavljen dokument.
