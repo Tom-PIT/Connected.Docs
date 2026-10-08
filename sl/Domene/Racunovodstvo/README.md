@@ -24,7 +24,7 @@ Domena je razdeljena na naslednja glavna področja:
 
 - **[Glavna knjiga](#glavna-knjiga)** – osnovni računovodski zapisi, knjižbe in zakonska poročila  
 - **[Banka](#banka)** – bančne računovodske operacije  
-- **[Računi](#računi-v-računovodstvu)** – računski dokumenti z računovodskega vidika  
+- **[Računi](#racuni-v-racunovodstvu)** – računski dokumenti z računovodskega vidika  
 - **[Pregledi](#pregledi)** – analitični, samo-za-branje pregledi  
 - **[Upravljanje](#upravljanje)** – globalne računovodske nastavitve in šifranti
 

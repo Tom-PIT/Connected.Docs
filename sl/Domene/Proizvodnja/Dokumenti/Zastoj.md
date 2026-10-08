@@ -14,7 +14,7 @@ Aktivnost **Zastoj** beleži prekinitve med izvajanjem operacije (npr. čakanje 
 
 ![Zastoj](../Images/ExecutionDowntimePageSL.png "Beleženje zastoja")
 
-1. Odprite stran **Zastoj** iz [**menija aktivnosti izvedbe**](Izvedba.md#meni-aktivnosti-in-dejavnosti).  
+1. Odprite stran **Zastoj** iz [**menija aktivnosti izvedbe**](Izvedba.md#akcijski-meni-in-aktivnosti).  
 2. Kliknite **Zaženi zastoj**, da začnete beleženje prekinitve.  
 3. Kliknite **Ustavi zastoj**, ko se prekinitev konča.  
 4. Kliknite zapis zastoja za:

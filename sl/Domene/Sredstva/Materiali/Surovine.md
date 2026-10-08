@@ -103,7 +103,7 @@ Razpoložljiva dejanja:
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-surovine)
-- [**Kopiraj obstoječi**](#kopirati-obstoječo-surovino)
+- [**Kopiraj obstoječi**](#kopirati-obstojeco-surovino)
 - **Nov**
 
 ### Ustvariti novo surovino

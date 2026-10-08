@@ -106,7 +106,7 @@ Razpoložljiva dejanja:
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-izdelke)
-- [**Kopiraj obstoječe**](#kopirati-obstoječi-izdelek)
+- [**Kopiraj obstoječe**](#kopirati-obstojeci-izdelek)
 - **Nov**
 
 ### Ustvariti nov izdelek

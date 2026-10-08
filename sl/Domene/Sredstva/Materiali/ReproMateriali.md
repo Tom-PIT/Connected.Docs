@@ -105,7 +105,7 @@ Razpoložljiva dejanja:
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-repro-materiale)
-- [**Kopiraj obstoječi**](#kopiraj-obstoječi-repro-material)
+- [**Kopiraj obstoječi**](#kopiraj-obstojeci-repro-material)
 - **Nov**
 
 ### Usvariti novo repro material
