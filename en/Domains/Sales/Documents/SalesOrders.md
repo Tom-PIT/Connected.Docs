@@ -25,7 +25,14 @@ Sales orders are one of the core steps in the sales chain:
 
 Once the sales order is fulfilled and invoiced, it moves toward completion.
 
-![Sales orders in the sales process](../Images/SalesOrderDiagram.svg "Sales orders in the sales process")
+```mermaid
+flowchart LR
+  OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
+  LD["Supply order<br>Maintenance order<br>Production order"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class SO current
+```
 
 > [!NOTE]
 >Your company may follow all steps or only some of them, depending on the type of business (for example, service companies may not use Delivery notes).
