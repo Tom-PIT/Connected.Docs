@@ -7,7 +7,7 @@
 
 Zaslon **Planiranje** omogoča vizualni pregled **planiranih proizvodnih nalogov** v obliki koledarja. Uporabnikom omogoča spremljanje razporeda in prilagajanje časovnic proizvodnje.
 
-Do tega zaslona dostopate preko **Proizvodnja / Planiranje / Planiranje**.
+Do tega zaslona dostopate preko **Planiranje / Planiranje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Planning view](../Images/PlanningDayView.png "Planning view")
 
@@ -63,6 +63,6 @@ Planirane naloge lahko **prestavite** neposredno v koledarju z metodo povleci in
 Ob premiku miške nad planiranim nalogom se prikažejo dodatne informacije:
 
 - Koda proizvodnega naloga  
-- Naziv izdelka  
-- Planiran začetek  
-- Planiran konec  
+- Rok izdelave  
+- Začetek  
+- Konec  

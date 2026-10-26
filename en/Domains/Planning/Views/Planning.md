@@ -7,7 +7,7 @@
 
 The **Planning** screen provides a visual overview of **planned production orders** in a calendar layout. It allows users to monitor scheduling and adjust production timelines.
 
-To access this page, navigate to **Production / Planning / Planning**.
+To access this page, navigate to **Planning / Planning** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Planning view](../Images/PlanningDayView.png "Planning view")
 
@@ -56,15 +56,15 @@ Planned orders can be **rescheduled** directly in the calendar using drag & drop
 - The system automatically updates the planned dates  
 
 > [!NOTE]
-> It is not possible to move a production order beyond its **due date** defined in the [production order](../../Production/Documents/ProductionOrderCreate.md#dates).
+> It is not possible to move a production order beyond its **Deadline date** defined in the [production order](../../Production/Documents/ProductionOrderCreate.md#dates).
 
 ### Display order information
 
-Hovering over a planned order displays additional details such as:
+Hovering over a planned order displays additional details:
 
 - Production order code  
-- Item name  
-- Planned start  
-- Planned end  
+- Deadline  
+- Start  
+- End  
 
 
