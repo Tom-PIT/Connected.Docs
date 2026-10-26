@@ -58,7 +58,7 @@ Prikazuje **količino, rezervirano** prek odprtih dokumentov **Izdaje** ali **Me
 ![StockByLocationReserve](../Images/StockByLocationReserveSL.png)
 
 ### Na voljo
-Prikazuje **količino, ki je na voljo** za uporabo (**Skupno â€“ Rezervirano**).
+Prikazuje **količino, ki je na voljo** za uporabo (**Skupno – Rezervirano**).
 
 ![StockByLocationAvailable](../Images/StockByLocationAvailableSL.png)
 

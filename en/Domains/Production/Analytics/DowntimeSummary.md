@@ -34,7 +34,7 @@ The **Downtime Type** filter allows you to filter downtime based on whether it i
 - **Planned** – displays only planned downtime.
 - **Unplanned** – displays only unplanned downtime.
 
-Whether downtime is considered planned or unplanned is defined in the [**Downtime tags]**(../Management/DowntimeTags.md) code list, where each tag can be configured as planned or unplanned.
+Whether downtime is considered planned or unplanned is defined in the [**Downtime tags**](../Management/DowntimeTags.md) code list, where each tag can be configured as planned or unplanned.
 
 ### Organization units
 Filter results by one or more [organization units](../Management/OrganizationUnits.md).

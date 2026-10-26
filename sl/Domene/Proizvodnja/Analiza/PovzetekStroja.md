@@ -9,7 +9,7 @@ Pogled **Povzetek stroja** nudi pregled delovanja posameznega stroja, vključno 
 
 Do tega pogleda dostopate preko **Proizvodnja / Analiza / Povzetek stroja** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-![Povzetek stroja](../Images/EquipmentSummaryView2.png)
+![Povzetek stroja](../Images/EquipmentSummaryViewSL.png "Povzetek stroja")
 
 > [!TIP]
 > Za celovit prikaz delovanja si lahko ogledate tudi **[Povzetek stroja – video vodič](https://www.youtube.com/watch?v=PXPXDL5yL4w)**.
@@ -27,7 +27,7 @@ Prikazuje ime izbranega stroja ter oceno (če je uporabljena).
 
 Prikazuje trenutno obratovalno stanje stroja:
 
-- **V delovanju** – prikazuje čas cikla (npr. `0 s/kos`)  
+- **V delovanju** – prikazuje čas cikla (npr. `45 s/kos`)  
 - **Zastoj** – prikazuje trajanje aktivnega zastoja  
 
 Oznaka stanja se lahko razlikuje glede na dejansko stanje stroja (npr. *Delo*, *Ustavljen*).

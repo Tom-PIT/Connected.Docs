@@ -6,7 +6,7 @@
 # Proizvodni nalogi
 
 Proizvodni nalogi določajo delo, potrebno za izdelavo izdelkov glede na izbrani proces in verzijo.  
-Premikajo se skozi življenjski cikel **Osnutek → V pripravi → Aktiven → Zaključen** in lahko vključujejo več operacij, virov, vhodov, izhodov in kontrol kakovosti glede na dodeljen proces.
+Premikajo se skozi življenjski cikel **Osnutek → V obdelavi → Aktiven → Zaključen** in lahko vključujejo več operacij, virov, vhodov, izhodov in kontrol kakovosti glede na dodeljen proces.
 
 ![Proizvodni nalogi v proizvodnem procesu](../Images/ProductionOrderLifecycleSL.svg "Proizvodni nalogi v proizvodnem procesu")
 
@@ -34,9 +34,10 @@ Stran Proizvodni nalogi prikazuje vse naloge, razvrščene po statusu. Za natan�
 - **Datumi proizvodnih nalogov** – Filtriranje nalogov po časovnem obdobju.  
 - **Pogled** – Prikaz nalogov glede na fazo življenjskega cikla:  
   - **Osnutek** — Urejevalni nalog, ustvarjen preko čarovnika
-  - **V pripravi** — Zaključen nalog, pripravljen za aktivacijo
+  - **V obdelavi** — Zaključen nalog, pripravljen za aktivacijo
   - **Aktiven** — V izvajanju; viden v **[Izvedbi](Izvedba.md)**
   - **Zaključen** — Zaključen; rezultati so zabeleženi
+- **Organizacijska enota** – Filtriranje nalogov po organizacijski enoti.
 - **Projekt** – Filtriranje proizvodnih nalogov, povezanih z določenim projektom
 
 Iskalno polje na vrhu omogoča filtriranje po šifri proizvodnega naloga ali nazivu materiala.
@@ -63,11 +64,7 @@ V osnutku je mogoče urejati:
 
 ### Objaviti osnutek
 
-Za prehod v stanje **V obdelavi** mora biti izbrana **Organizacijska enota**, če ni še definirala v [operacijo](../Upravljanje/Operacije.md).
-
-![Izbira organizacijske enote](../Images/ProductionOrdersOrganizationUnitsSL.png "Izbira organizacijske enote")
-
-Ko je pripravljeno, kliknite **Objavi**.
+Ko je pripravljeno, kliknite **Objavi**. Nalog preide v stanje **V obdelavi**.
 
 ## Urediti proizvodni nalog
 
@@ -88,6 +85,9 @@ V tem stanju lahko:
 - Dodajate opombe  
 - Upravljate povezane dokumente
 
+Pred aktivacijo v razdelku **Proces** na zavihku **Operacije** izberite **Organizacijsko enoto** za vsako operacijo, če ta ni že vnaprej določena v [operaciji](../Upravljanje/Operacije.md). Organizacijske enote ni mogoče izbrati, dokler je nalog v stanju **Osnutek**.
+
+![Izbira organizacijske enote](../Images/ProductionOrdersOrganizationUnitsSL.png "Izbira organizacijske enote")
 
 Ko je nalog pripravljen za proizvodnjo, kliknite **Aktiviraj**.
 
@@ -134,7 +134,7 @@ Klik na operacijo odpre podroben pogled, kjer lahko delavci beležijo podatke o 
 
 ![Urejanje operacije proizvodnega naloga](../Images/ProductionOrderOperationEditSL.png "Urejanje operacije proizvodnega naloga")
 
-Vsak razdelek ima gumb **Dodaj vnos** za beleženje podrobnosti izvedbe. Na primer, v razdelku **Proizvodnja** lahko zabeležite proizvedeni material, količino in čase proizvodnje.
+Vsak zavihek ima svoj gumb za beleženje podrobnosti izvedbe (npr. **Dodaj proizvedeno**, **Dodaj porabo**). Na primer, na zavihku **Proizvodnja** lahko zabeležite proizvedeni material, količino in čase proizvodnje.
 
 ### Stroški
 
@@ -178,17 +178,17 @@ Zaključeni proizvodni nalogi ponujajo dodatne možnosti v akcijskem meniju:
 
 1. Odprite zaključen proizvodni nalog
 2. V akcijskem meniju izberite **Povrni v aktivn**
-3. Kliknite **Ponovno Aktiviraj** pri želenem procesu
+3. Kliknite **Ponovno Aktiviraj** pri želeni operaciji
 
 ![Ponovna aktivacija naloga](../Images/ProductionOrdersReactivateSL.png)
 
 ## Izbrisati proizvodni nalog
 
-Proizvodni nalog je mogoče izbrisati samo v stanju **Osnutek** ali **V pripravi** in le, če nanj niso vezani drugi dokumenti.
+Proizvodni nalog je mogoče izbrisati samo v stanju **Osnutek** ali **V obdelavi** in le, če nanj niso vezani drugi dokumenti.
 
 Za izbris:
 
-1. Odprite proizvodni nalog v stanju **Osnutek** ali **V pripravi**.
+1. Odprite proizvodni nalog v stanju **Osnutek** ali **V obdelavi**.
 2. Kliknite **Izbriši**. Pojavi se potrditveno okno. Če potrdite, bo nalog trajno odstranjen iz sistema.
 
 > [!NOTE]
@@ -205,7 +205,7 @@ Meni seznama omogoča dejanja za trenutno prikazan seznam.
 
 Na voljo so naslednja dejanja:
 
-- **Masovno procesiranje statusov** – omogoča hkratno spreminjanje statusov več nalogov (npr. iz Osnutek v V pripravi)
+- **Masovno procesiranje statusov** – omogoča hkratno spreminjanje statusov več nalogov (npr. iz Osnutek v V obdelavi)
 
 ### Meni dokumenta
 

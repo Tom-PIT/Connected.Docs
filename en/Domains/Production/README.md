@@ -22,6 +22,7 @@ The domain is organized into the following functional areas:
 
 - **[Production orders](Documents/ProductionOrders.md)** – definition and execution of manufacturing work  
 - **[Execution](Documents/Execution.md)** – real-time shop-floor activity reporting  
+- **[Cooperators](Documents/Cooperators.md)** – issuing and receiving materials for operations performed by external cooperators  
 - **[Requirements](Documents/Requirements.md)** – aggregated material needs for planned production  
 - **[Analytics](#analytics)** – insights into downtime, performance, loss, OEE, and KPIs  
 - **[Management](#management)** – configuration, process design, and master data  
