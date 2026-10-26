@@ -34,7 +34,7 @@ Popis prikazuje sve oznake klasifikacije gubitka definirane u sustavu. Polje **P
 1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) u donjem desnom kutu.
 2. Unesite **Naziv** kategorije proizvodnog gubitka.
 
-    ![Dodavanje oznake klasifikacije gubitka](../Images/LossClassificationTagsNew.png "Dodavanje oznake klasifikacije gubitka")
+    ![Dodavanje oznake klasifikacije gubitka](../Images/LossClassificationTagsNewHR.png "Dodavanje oznake klasifikacije gubitka")
 
 3. Kliknite **Dodaj**.
 

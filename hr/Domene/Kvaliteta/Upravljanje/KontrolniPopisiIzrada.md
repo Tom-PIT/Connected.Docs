@@ -201,7 +201,7 @@ Otvorite željenu **Verziju procesa** i odaberite kontrolni popis u odjeljku **K
 
 Tijekom izvršavanja procesa operater ispunjava sve kontrolne točke i unosi tražene podatke.
 
-![Izvršavanje kontrolnog popisa](../Images/ChecklistExampleExecution.png "Izvršavanje kontrolnog popisa")
+![Izvršavanje kontrolnog popisa](../Images/ChecklistExampleExecutionHR.png "Izvršavanje kontrolnog popisa")
 
 Rezultati se pohranjuju u sustav te su kasnije dostupni za pregled, sljedivost i reviziju.
 

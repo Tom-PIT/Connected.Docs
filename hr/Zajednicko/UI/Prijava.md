@@ -7,30 +7,30 @@
 
 Zaslon **Prijava** služi za pristup aplikaciji pomoću korisničkih vjerodajnica.
 
-![Zaslon Prijava](../Images/LoginScreen.png "Prijava")
+![Zaslon Prijava](../Images/LoginScreenHR.png "Prijava")
 
 ## Vjerodajnice
 
 Za prijavu unesite:
 
-- **Adresu e-pošte ili korisničko ime**
-- **Lozinku**
+- **E-mail ili korisničko ime**
+- **Lozinka**
 
 Kliknite **Prijava** za pristup aplikaciji.
 
 ### Dodatne mogućnosti
 
 - **Zapamti me** – zadržava korisnika prijavljenim na trenutnom uređaju
-- **Zaboravili ste lozinku?** – otvara zaslon za poništavanje lozinke
+- **Zaboravljena lozinka** – otvara zaslon za poništavanje lozinke
 - **Registracija** – otvara zaslon za registraciju (ako je omogućena)
 
 ## Poništavanje lozinke
 
-Ako ste zaboravili lozinku, kliknite **Zaboravili ste lozinku?**
+Ako ste zaboravili lozinku, kliknite **Zaboravljena lozinka**.
 
-![Poništavanje lozinke](../Images/ResetPassword.png "Poništavanje lozinke")
+![Poništavanje lozinke](../Images/ResetPasswordHR.png "Poništavanje lozinke")
 
-Unesite svoju **adresu e-pošte** i kliknite **Poništi lozinku**.
+Unesite svoju adresu e-pošte u polje **E-mail** i kliknite **Poništi lozinku**.
 
 Na adresu e-pošte primit ćete upute za postavljanje nove lozinke.
 
@@ -38,14 +38,14 @@ Na adresu e-pošte primit ćete upute za postavljanje nove lozinke.
 
 Ako je registracija omogućena, korisnici mogu stvoriti novi korisnički račun.
 
-![Registracija](../Images/SignUpScreen.png "Registracija")
+![Registracija](../Images/SignUpScreenHR.png "Registracija")
 
 Za registraciju unesite:
 
 - **Ime**
 - **Prezime**
-- **Adresu e-pošte**
-- **Lozinku**
+- **E-mail**
+- **Lozinka**
 
 Kliknite **Registracija** kako biste stvorili korisnički račun.
 

@@ -160,7 +160,7 @@ Maloprodajni računi mogu se kreirati samo ručno.
 
 2. Odaberite **Kupca**. Dostupni su samo zapisi koji su u [**Poslovnom imeniku**](../../../Zajednicko/Upravljanje/PoslovniImenik.md) klasificirani kao **Kupac** i **Osoba**.
 
-   ![Klasifikacija kupca](../../../Zajednicko/Images/BusinessDirectoryCustomerPerson.png)
+   ![Klasifikacija kupca](../../../Zajednicko/Images/BusinessDirectoryCustomerPersonHR.png)
 
 3. Ispunite obavezna zaglavlja dokumenta, kao što su **Datum dospijeća**, **Tip poziva na broj** i **Bankovni račun organizacije**.
 
@@ -184,7 +184,7 @@ Maloprodajni računi mogu se kreirati samo ručno.
 
 Ako je u **Sustav / Konfiguracija / Intrastat** opcija **Intrastat** postavljena na **Obveznik**, na obrascu dokumenta prikazuju se dodatni odjeljci.
 
-![Transport i Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png)
+![Transport i Intrastat](../../Logistika/Images/ReceiveTransportInstrastatHR.png)
 
 - **Transport** – Koristi se za unos podataka o načinu prijevoza robe.
 - **Intrastat** – Koristi se za unos podataka potrebnih za Intrastat izvještavanje. Ovaj odjeljak prikazuje se samo ako je Intrastat omogućen u sustavu.
@@ -202,7 +202,7 @@ Ove vrijednosti utječu na ispis dokumenta i povezane logističke dokumente, ali
 
 Stavke definiraju proizvode, usluge ili sredstva koja se prodaju, zajedno s njihovim količinama, cijenama, porezima i popustima. Svaka stavka predstavlja jedan proizvod, uslugu ili sredstvo.
 
-![Uređivanje stavke](../Images/SalesOrdersNewDetailsSaved.png)
+![Uređivanje stavke](../Images/SalesOrdersNewDetailsSavedHR.png)
 
 #### Glavna knjiga
 

@@ -9,7 +9,7 @@ Stranica **Consumption details** pruža analitički pregled svih **materijala ut
 
 Za pristup ovoj stranici otvorite **Logistika / Pogledi / Consumption details** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![Consumption details](../Images/ConsumptionDetailsList.png "Consumption details")
+![Consumption details](../Images/ConsumptionDetailsListHR.png "Consumption details")
 
 ## Popis potrošnje
 
@@ -64,7 +64,7 @@ Pretraživanje obuhvaća:
 
 To omogućuje brzo pronalaženje potrošnje povezane s određenim materijalom, dokumentom ili skladišnom lokacijom.
 
-![Pretraživanje](../Images/ConsumptionDetailsListSearch.png "Pretraživanje")
+![Pretraživanje](../Images/ConsumptionDetailsListSearchHR.png "Pretraživanje")
 
 ## Namjena
 

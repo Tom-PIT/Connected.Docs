@@ -151,7 +151,7 @@ Maloprodajni računi za predujam mogu se kreirati samo ručno.
 
 2. Odaberite **Kupca**. Dostupni su samo zapisi koji su u [**Poslovnom imeniku**](../../../Zajednicko/Upravljanje/PoslovniImenik.md) klasificirani kao **Kupac** i **Osoba**.
 
-   ![Klasifikacija kupca](../../../Zajednicko/Images/BusinessDirectoryCustomerPerson.png "Klasifikacija Kupac i Osoba")
+   ![Klasifikacija kupca](../../../Zajednicko/Images/BusinessDirectoryCustomerPersonHR.png "Klasifikacija Kupac i Osoba")
 
 3. Ispunite obavezna polja zaglavlja: **Datum dospijeća**, **Tip poziva na broj**, **Poziv na broj** i **[Bankovni račun organizacije](../Upravljanje/BankovniRacuniOrganizacije.md)**.
 

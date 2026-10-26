@@ -114,14 +114,14 @@ Verzija sadrži:
 
 Na zaslonu **Verzije** moguće je procijeniti **trošak proizvodnje po komadu** za odabranu verziju procesa.
 
-![Stupac Trošak](../Images/ProcessesVersionsCalculateButtonV2.png "Stupac Trošak")
+![Stupac Cost](../Images/ProcessesVersionsCalculateButtonHR.png "Stupac Cost")
 
-Svaka verzija prikazuje stupac **Trošak** sa sljedećim opcijama:
+Svaka verzija prikazuje stupac **Cost** sa sljedećim opcijama:
 
-- **Izračunaj** – izračunava procijenjeni trošak proizvodnje za odabranu verziju.
+- **Calculate** – izračunava procijenjeni trošak proizvodnje za odabranu verziju.
 - **Vrijednost troška** – posljednji izračunati trošak proizvodnje po komadu.
 
-Klikom na **Izračunaj** sustav procjenjuje trošak proizvodnje jednog proizvoda koristeći odabranu verziju procesa. U izračun su uključeni:
+Klikom na **Calculate** sustav procjenjuje trošak proizvodnje jednog proizvoda koristeći odabranu verziju procesa. U izračun su uključeni:
 
 - **Cijene materijala** definirane u cjenicima [**Materijala dobavljača**](../../Supply/Management/SupplierMaterials.md)
 - **Ljudski resursi** prema cijenama definiranim u [**Troškovima resursa**](../../Resources/Management/ResourcesCosts.md)

@@ -199,7 +199,7 @@ Dostupne radnje mogu uključivati:
 
 Odjeljak **Alternativna valuta** omogućuje iskazivanje cijena u valuti različitoj od zadane valute sustava. Koristi se prvenstveno kod međunarodne prodaje. Tečajevi se preuzimaju iz šifrarnika [Devizni tečajevi](../Upravljanje/DevizniTecajevi.md).
 
-![Alternativna valuta](../Images/SalesAlternativeCurrency.png "Alternativna valuta")
+![Alternativna valuta](../Images/SalesAlternativeCurrencyHR.png "Alternativna valuta")
 
 Nakon odabira alternativne valute sve cijene na dokumentu automatski se preračunavaju prema odabranom tečaju.
 
@@ -207,7 +207,7 @@ Nakon odabira alternativne valute sve cijene na dokumentu automatski se preraču
 
 Ako je u **Sustav / Konfiguracija / Intrastat** omogućena opcija **Obveznik**, na dokumentu postaju dostupni dodatni odjeljci.
 
-![Transport i Intrastat](../../Logistika/Images/ReceiveTransportInstrastat.png "Transport i Intrastat")
+![Transport i Intrastat](../../Logistika/Images/ReceiveTransportInstrastatHR.png "Transport i Intrastat")
 
 - **Transport** – Koristi se za unos podataka o prijevozu robe.
 - **Intrastat** – Koristi se za unos podataka potrebnih za Intrastat izvještavanje. Ovaj je odjeljak dostupan samo kada je Intrastat omogućen.
@@ -225,7 +225,7 @@ Promjene vrijede samo za trenutni dokument i ne mijenjaju podatke kupca.
 
 Stavke predstavljaju robu ili usluge na dokumentu te definiraju njihove količine, cijene, poreze i popuste.
 
-![Uređivanje stavke](../Images/SalesOrdersNewDetailsSaved.png)
+![Uređivanje stavke](../Images/SalesOrdersNewDetailsSavedHR.png)
 
 ##### Glavna knjiga
 

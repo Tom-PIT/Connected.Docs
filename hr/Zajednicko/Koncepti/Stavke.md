@@ -79,7 +79,7 @@ Postojeće stavke obično se mogu urediti odabirom stavke na popisu.
 
 Dostupna polja ovise o vrsti dokumenta i trenutnom statusu dokumenta.
 
-![Uređivanje stavke](../Images/DocumentDetailsEdit.png "Uređivanje stavke")
+![Uređivanje stavke](../Images/DocumentDetailsEditHR.png "Uređivanje stavke")
 
 Dostupna polja mogu uključivati:
 

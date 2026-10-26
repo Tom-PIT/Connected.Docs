@@ -70,9 +70,9 @@ Za pronalaženje operacija prema nazivu ili oznaci koristite **Pretraživanje**.
 
 2. Ispunite potrebna polja.
 
-    ![Nova operacija - gornji dio](../Images/OperationsNewTop.png "Nova operacija - gornji dio")
+    ![Nova operacija - gornji dio](../Images/OperationsNewTopHR.png "Nova operacija - gornji dio")
 
-    ![Nova operacija - donji dio](../Images/OperationsNewBottom.png "Nova operacija - donji dio")
+    ![Nova operacija - donji dio](../Images/OperationsNewBottomHR.png "Nova operacija - donji dio")
 
 3. Kliknite **Dodaj**.
 
