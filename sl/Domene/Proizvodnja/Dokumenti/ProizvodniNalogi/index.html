@@ -6956,7 +6956,7 @@
 
 <h1 id="proizvodni-nalogi">Proizvodni nalogi<a class="headerlink" href="#proizvodni-nalogi" title="Permanent link">&para;</a></h1>
 <p>Proizvodni nalogi določajo delo, potrebno za izdelavo izdelkov glede na izbrani proces in verzijo.<br />
-Premikajo se skozi življenjski cikel <strong>Osnutek → V pripravi → Aktiven → Zaključen</strong> in lahko vključujejo več operacij, virov, vhodov, izhodov in kontrol kakovosti glede na dodeljen proces.</p>
+Premikajo se skozi življenjski cikel <strong>Osnutek → V obdelavi → Aktiven → Zaključen</strong> in lahko vključujejo več operacij, virov, vhodov, izhodov in kontrol kakovosti glede na dodeljen proces.</p>
 <p><img alt="Proizvodni nalogi v proizvodnem procesu" src="../../Images/ProductionOrderLifecycleSL.svg" title="Proizvodni nalogi v proizvodnem procesu" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -6981,9 +6981,10 @@ Premikajo se skozi življenjski cikel <strong>Osnutek → V pripravi → Aktiven
 <li><strong>Datumi proizvodnih nalogov</strong> – Filtriranje nalogov po časovnem obdobju.  </li>
 <li><strong>Pogled</strong> – Prikaz nalogov glede na fazo življenjskega cikla:  </li>
 <li><strong>Osnutek</strong> — Urejevalni nalog, ustvarjen preko čarovnika</li>
-<li><strong>V pripravi</strong> — Zaključen nalog, pripravljen za aktivacijo</li>
+<li><strong>V obdelavi</strong> — Zaključen nalog, pripravljen za aktivacijo</li>
 <li><strong>Aktiven</strong> — V izvajanju; viden v <strong><a href="../Izvedba/">Izvedbi</a></strong></li>
 <li><strong>Zaključen</strong> — Zaključen; rezultati so zabeleženi</li>
+<li><strong>Organizacijska enota</strong> – Filtriranje nalogov po organizacijski enoti.</li>
 <li><strong>Projekt</strong> – Filtriranje proizvodnih nalogov, povezanih z določenim projektom</li>
 </ul>
 <p>Iskalno polje na vrhu omogoča filtriranje po šifri proizvodnega naloga ali nazivu materiala.</p>
@@ -7003,9 +7004,7 @@ Premikajo se skozi življenjski cikel <strong>Osnutek → V pripravi → Aktiven
 </ul>
 <p><img alt="Osnutek proizvodnega naloga" src="../../Images/ProductionOrdersDraftSL.png" title="Osnutek proizvodnega naloga" /></p>
 <h3 id="objaviti-osnutek">Objaviti osnutek<a class="headerlink" href="#objaviti-osnutek" title="Permanent link">&para;</a></h3>
-<p>Za prehod v stanje <strong>V obdelavi</strong> mora biti izbrana <strong>Organizacijska enota</strong>, če ni še definirala v <a href="../../Upravljanje/Operacije/">operacijo</a>.</p>
-<p><img alt="Izbira organizacijske enote" src="../../Images/ProductionOrdersOrganizationUnitsSL.png" title="Izbira organizacijske enote" /></p>
-<p>Ko je pripravljeno, kliknite <strong>Objavi</strong>.</p>
+<p>Ko je pripravljeno, kliknite <strong>Objavi</strong>. Nalog preide v stanje <strong>V obdelavi</strong>.</p>
 <h2 id="urediti-proizvodni-nalog">Urediti proizvodni nalog<a class="headerlink" href="#urediti-proizvodni-nalog" title="Permanent link">&para;</a></h2>
 <p>Osnutke nalogov lahko prosto urejate, medtem ko je urejanje aktivnih in zaprtih nalogov omejeno. Če želite urediti nalog:</p>
 <ol>
@@ -7022,6 +7021,8 @@ Premikajo se skozi življenjski cikel <strong>Osnutek → V pripravi → Aktiven
 <li>Dodajate opombe  </li>
 <li>Upravljate povezane dokumente</li>
 </ul>
+<p>Pred aktivacijo v razdelku <strong>Proces</strong> na zavihku <strong>Operacije</strong> izberite <strong>Organizacijsko enoto</strong> za vsako operacijo, če ta ni že vnaprej določena v <a href="../../Upravljanje/Operacije/">operaciji</a>. Organizacijske enote ni mogoče izbrati, dokler je nalog v stanju <strong>Osnutek</strong>.</p>
+<p><img alt="Izbira organizacijske enote" src="../../Images/ProductionOrdersOrganizationUnitsSL.png" title="Izbira organizacijske enote" /></p>
 <p>Ko je nalog pripravljen za proizvodnjo, kliknite <strong>Aktiviraj</strong>.</p>
 <h2 id="povezani-dokumenti">Povezani dokumenti<a class="headerlink" href="#povezani-dokumenti" title="Permanent link">&para;</a></h2>
 <p>Na proizvodni nalog lahko pripnete druge povezane dokumente, kot so:</p>
@@ -7058,7 +7059,7 @@ Za več informacij glejte <strong><a href="../Izvedba/">Izvedba</a></strong>.</p
 <li><strong>Delo</strong></li>
 </ul>
 <p><img alt="Urejanje operacije proizvodnega naloga" src="../../Images/ProductionOrderOperationEditSL.png" title="Urejanje operacije proizvodnega naloga" /></p>
-<p>Vsak razdelek ima gumb <strong>Dodaj vnos</strong> za beleženje podrobnosti izvedbe. Na primer, v razdelku <strong>Proizvodnja</strong> lahko zabeležite proizvedeni material, količino in čase proizvodnje.</p>
+<p>Vsak zavihek ima svoj gumb za beleženje podrobnosti izvedbe (npr. <strong>Dodaj proizvedeno</strong>, <strong>Dodaj porabo</strong>). Na primer, na zavihku <strong>Proizvodnja</strong> lahko zabeležite proizvedeni material, količino in čase proizvodnje.</p>
 <h3 id="stroski">Stroški<a class="headerlink" href="#stroski" title="Permanent link">&para;</a></h3>
 <p><strong><a href="../ProizvodniNalogiStroski/">Stroški proizvodnega naloga</a></strong> omogočajo spremljanje planiranih in dejanskih operativnih stroškov. </p>
 <h3 id="kakovost">Kakovost<a class="headerlink" href="#kakovost" title="Permanent link">&para;</a></h3>
@@ -7088,14 +7089,14 @@ Za več informacij glejte <strong><a href="../Izvedba/">Izvedba</a></strong>.</p
 <ol>
 <li>Odprite zaključen proizvodni nalog</li>
 <li>V akcijskem meniju izberite <strong>Povrni v aktivn</strong></li>
-<li>Kliknite <strong>Ponovno Aktiviraj</strong> pri želenem procesu</li>
+<li>Kliknite <strong>Ponovno Aktiviraj</strong> pri želeni operaciji</li>
 </ol>
 <p><img alt="Ponovna aktivacija naloga" src="../../Images/ProductionOrdersReactivateSL.png" /></p>
 <h2 id="izbrisati-proizvodni-nalog">Izbrisati proizvodni nalog<a class="headerlink" href="#izbrisati-proizvodni-nalog" title="Permanent link">&para;</a></h2>
-<p>Proizvodni nalog je mogoče izbrisati samo v stanju <strong>Osnutek</strong> ali <strong>V pripravi</strong> in le, če nanj niso vezani drugi dokumenti.</p>
+<p>Proizvodni nalog je mogoče izbrisati samo v stanju <strong>Osnutek</strong> ali <strong>V obdelavi</strong> in le, če nanj niso vezani drugi dokumenti.</p>
 <p>Za izbris:</p>
 <ol>
-<li>Odprite proizvodni nalog v stanju <strong>Osnutek</strong> ali <strong>V pripravi</strong>.</li>
+<li>Odprite proizvodni nalog v stanju <strong>Osnutek</strong> ali <strong>V obdelavi</strong>.</li>
 <li>Kliknite <strong>Izbriši</strong>. Pojavi se potrditveno okno. Če potrdite, bo nalog trajno odstranjen iz sistema.</li>
 </ol>
 <div class="admonition note">
@@ -7108,7 +7109,7 @@ Za več informacij glejte <strong><a href="../Izvedba/">Izvedba</a></strong>.</p
 <p>Meni seznama omogoča dejanja za trenutno prikazan seznam.</p>
 <p>Na voljo so naslednja dejanja:</p>
 <ul>
-<li><strong>Masovno procesiranje statusov</strong> – omogoča hkratno spreminjanje statusov več nalogov (npr. iz Osnutek v V pripravi)</li>
+<li><strong>Masovno procesiranje statusov</strong> – omogoča hkratno spreminjanje statusov več nalogov (npr. iz Osnutek v V obdelavi)</li>
 </ul>
 <h3 id="meni-dokumenta">Meni dokumenta<a class="headerlink" href="#meni-dokumenta" title="Permanent link">&para;</a></h3>
 <p>Meni dokumenta omogoča dejanja za trenutno odprt dokument.</p>

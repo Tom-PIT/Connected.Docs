@@ -6984,6 +6984,7 @@ They move through the life cycle <strong>Draft → Pending → Active → Closed
 <li><strong>Pending</strong> — Finalized order, ready to activate</li>
 <li><strong>Active</strong> — Being executed; visible in <strong><a href="../Execution/">Execution</a></strong></li>
 <li><strong>Closed</strong> — Finished; results recorded </li>
+<li><strong>Organization unit</strong> – Filter orders by organization unit.</li>
 <li><strong>Project</strong> – Filter production orders linked to a specific project.</li>
 </ul>
 <p>The search bar at the top allows filtering by production order code or material name.</p>
@@ -7003,9 +7004,7 @@ They move through the life cycle <strong>Draft → Pending → Active → Closed
 </ul>
 <p><img alt="Draft" src="../../Images/ProductionOrdersDraft.png" title="Draft production order" /></p>
 <h3 id="publish-a-draft-production-order">Publish a draft production order<a class="headerlink" href="#publish-a-draft-production-order" title="Permanent link">&para;</a></h3>
-<p>To move the draft to <strong>Pending</strong>, the <strong>Organization unit</strong> must be selected, if not already predefined in the <a href="../../Management/Operations/">operation</a>.</p>
-<p><img alt="Organization Unit" src="../../Images/ProductionOrdersOrganizationUnits.png" title="Organization Unit Selection" /></p>
-<p>Click <strong>Publish</strong> when ready.</p>
+<p>Click <strong>Publish</strong> when ready. The order moves to <strong>Pending</strong>.</p>
 <h2 id="edit-a-production-order">Edit a production order<a class="headerlink" href="#edit-a-production-order" title="Permanent link">&para;</a></h2>
 <p>Draft orders can be edited freely, while Active and Closed orders have limited editability. To edit an order:</p>
 <ol>
@@ -7022,6 +7021,8 @@ They move through the life cycle <strong>Draft → Pending → Active → Closed
 <li>Add notes  </li>
 <li>Manage linked documents</li>
 </ul>
+<p>Before activating, select the <strong>Organization unit</strong> for each operation in the <strong>Process</strong> section, on the <strong>Operations</strong> tab, if it is not already predefined in the <a href="../../Management/Operations/">operation</a>. The organization unit cannot be selected while the order is in <strong>Draft</strong>.</p>
+<p><img alt="Organization Unit" src="../../Images/ProductionOrdersOrganizationUnits.png" title="Organization Unit Selection" /></p>
 <p>When the order is ready for production, click <strong>Activate</strong>.</p>
 <h2 id="linked-documents">Linked documents<a class="headerlink" href="#linked-documents" title="Permanent link">&para;</a></h2>
 <p>You may attach other documents that relate to the production order, such as:</p>
@@ -7057,7 +7058,7 @@ They move through the life cycle <strong>Draft → Pending → Active → Closed
 <li><strong>Effort</strong></li>
 </ul>
 <p><img alt="Production Order Operation Edit" src="../../Images/ProductionOrderOperationEdit.png" title="Production Order Operation Edit" /></p>
-<p>Each section has an <strong>Add entry</strong> button to record execution details. For example, in the <strong>Produced</strong> section, you can log the material produced, the quantity produced, and the production times.</p>
+<p>Each tab has its own button to record execution details (e.g. <strong>Add produced</strong>, <strong>Add consumption</strong>). For example, on the <strong>Produced</strong> tab you can log the material produced, the quantity produced, and the production times.</p>
 <h3 id="expenses">Expenses<a class="headerlink" href="#expenses" title="Permanent link">&para;</a></h3>
 <p><strong><a href="../ProductionOrderExpenses/">Production order expenses</a></strong> allow tracking planned and actual operational costs. </p>
 <h3 id="quality">Quality<a class="headerlink" href="#quality" title="Permanent link">&para;</a></h3>
@@ -7080,7 +7081,7 @@ They move through the life cycle <strong>Draft → Pending → Active → Closed
 <ol>
 <li>Open the closed production order</li>
 <li>Select <strong>Revert to active</strong> from the action menu</li>
-<li>Click <strong>Reactivate</strong> on the desired process</li>
+<li>Click <strong>Reactivate</strong> on the desired operation</li>
 </ol>
 <p><img alt="Production Orders Reactivate" src="../../Images/ProductionOrdersReactivate.png" /></p>
 <h2 id="delete-a-production-order">Delete a production order<a class="headerlink" href="#delete-a-production-order" title="Permanent link">&para;</a></h2>
