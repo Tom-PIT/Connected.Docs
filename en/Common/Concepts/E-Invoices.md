@@ -32,7 +32,7 @@ The following data must be entered for the customer in the [**Business directory
 
 | Requirement | Description |
 |-------------|-------------|
-| **E-invoices** | The **Issue e-invoices** checkbox must be selected in the [**E-invoices**](../Management/BusinessDirectory.md#e-invoices) section. |
+| **E-invoices** | The **Issue e-Invoices** checkbox must be selected in the [**E-invoices**](../Management/BusinessDirectory.md#e-invoices) section. |
 | **Tax number** | The customer's VAT identification number. |
 | **Registration number** | The customer's company registration number. |
 | [**Bank account**](../Management/BankAccounts.md) | At least one bank account of the customer. |

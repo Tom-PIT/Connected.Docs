@@ -122,7 +122,7 @@ To create a new entry:
 
 #### E-invoices
 
-This section allows enabling the issuing of e-invoices to the related company by selecting the **Issue e-invoices** checkbox.
+This section allows enabling the issuing of e-invoices to the related company by selecting the **Issue e-Invoices** checkbox.
 
 ![E-invoices section](../Images/BusinessDirectoryEInvoices.png "E-invoices section")
 

@@ -100,7 +100,7 @@ Za nalaganje dokumenta najprej izberite mapo v stranski vrstici, kliknite **Nalo
 
 Naloženi dokument bo dodan na seznam. Za vsak dokument so na voljo naslednja dejanja:
 - **Odjavi** – zaklene dokument za urejanje. Drugi uporabniki ga ne morejo spreminjati, dokler ni ponovno sproščen.
-- **Kopiraj** – ustvari kopijo dokumenta v isti mapi.
+- **Kopiraj** – kopira URL dokumenta v odložišče.
 - **Prenesi** – prenese dokument na vašo napravo.
 
 ### Urediti dokumente
