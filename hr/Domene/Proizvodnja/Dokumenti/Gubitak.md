@@ -14,7 +14,7 @@ Aktivnost **Loši komadi** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem i
 1. Otvorite stranicu **Loši komadi** iz [**izbornika aktivnosti**](Izvedba.md#izbornik-aktivnosti).  
 2. Unesite neispravnu količinu.  
 
-    ![Loši komadi](../Images/ExecutionLossPage.png "Evidentiranje loših komada")
+    ![Loši komadi](../Images/ExecutionLossPageHR.png "Evidentiranje loših komada")
 
 3. Odaberite oznaku **Klasifikacija gubitka (škarta)** (razlog) — pogledajte [Oznake klasifikacije gubitka (škarta)](../Upravljanje/OznakeKlasifikacijeGubitka.md).   
 4. Kliknite **Gubitak (Škart)** (žuti gumb) za spremanje.  

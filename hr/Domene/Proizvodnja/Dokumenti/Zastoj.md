@@ -11,10 +11,10 @@ Aktivnost **Zastoj** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izborni
 
 ## Evidentiranje zastoja
 
-![Zastoj](../Images/ExecutionDowntimePageV2.png "Evidentiranje zastoja")
+![Zastoj](../Images/ExecutionDowntimePageHR.png "Evidentiranje zastoja")
 
 1. Otvorite stranicu **Zastoj** iz [**izbornika aktivnosti**](Izvedba.md#izbornik-aktivnosti).  
-2. Kliknite **Početak** za početak praćenja prekida.  
+2. Kliknite **Pokreni** za početak praćenja prekida.  
 3. Kliknite **Zaustavi** kada prekid završi. 
 4. Kliknite zapis o zastoju kako biste: 
     1. odabrali razlog pomoću [**oznaka zastoja**](../Upravljanje/OznakeZastoja.md)  
@@ -30,7 +30,7 @@ Spremljeni zastoji povezuju se s proizvodnim nalogom i operacijom te se prikazuj
 
 Odaberite zapis o zastoju kako biste prilagodili vrijeme, promijenili oznaku, dodali opremu ili ga izbrisali ako je dodan greškom.
 
-![Uređivanje zastoja](../Images/ExecutionDowntimeEdit.png "Uređivanje zastoja")
+![Uređivanje zastoja](../Images/ExecutionDowntimeEditHR.png "Uređivanje zastoja")
 
 ## Analitika i izvještavanje
 

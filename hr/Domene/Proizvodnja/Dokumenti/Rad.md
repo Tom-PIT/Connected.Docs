@@ -11,7 +11,7 @@ Aktivnost **Rad** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izbornika 
 
 ## Evidentiranje rada
 
-![Unos rada](../Images/ExecutionEffortPage.png "Evidentiranje rada")
+![Unos rada](../Images/ExecutionEffortPageHR.png "Evidentiranje rada")
 
 1. Otvorite stranicu **Rad** iz [**izbornika aktivnosti**](Izvedba.md#izbornik-aktivnosti).  
 2. Odaberite jedan od načina u nastavku i evidentirajte vrijeme.  
@@ -41,7 +41,7 @@ Kliknite **Dodaj rad** za spremanje zapisa.
 
 Evidentirani zapisi rada prikazuju se na popisu ispod obrasca.
 
-![Popis rada](../Images/ExecutionEffortList.png "Popis rada")
+![Popis rada](../Images/ExecutionEffortListHR.png "Popis rada")
 
 - Odaberite zapis kako biste uredili vrijeme, trajanje, oznake ili opis.  
 - Izbrišite zapis ako je dodan greškom.  

@@ -17,9 +17,9 @@ Većina proizvodnih radnika nakon prijave automatski se preusmjerava na prikaz *
 Za ručni pristup ovoj stranici otvorite **Proizvodnja / Izvedba** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
-> - Pri otvaranju zaslon obično automatski prikazuje dodijeljene proizvodne naloge. Ako se ne prikaže nijedan, kliknite **Odaberi proizvodni nalog** kako biste ga odabrali.
+> - Pri otvaranju zaslon obično automatski prikazuje dodijeljene proizvodne naloge. Ako se ne prikaže nijedan, kliknite **Odaberi proizvodni nalog**, odaberite nalog s popisa i kliknite **Odaberi**.
 >   
->   ![Odabir proizvodnog naloga](../Images/ExecutionPageEmpty.png "Odabir proizvodnog naloga")
+>   ![Odabir proizvodnog naloga](../Images/ExecutionPageEmptyHR.png "Odabir proizvodnog naloga")
 > - Ako je popis proizvodnih naloga prazan, za odabranu jedinicu nema dostupnih naloga (još nisu izrađeni ili nemaju aktivnih operacija). Izradite naloge u modulu [**Proizvodni nalozi**](ProizvodniNalozi.md) i provjerite je li operacija dodijeljena odabranoj jedinici.
 > - Ako je popis organizacijskih jedinica prazan, šifrarnik još nije definiran. Definirajte jedinice u šifrarniku [**Organizacijske jedinice**](../Upravljanje/OrganizacijskeJedinice.md).
 
@@ -27,7 +27,7 @@ Za ručni pristup ovoj stranici otvorite **Proizvodnja / Izvedba** u [navigaciji
 
 Glavni zaslon za izvođenje prikazuje ključne podatke o trenutnom proizvodnom nalogu i operaciji.
 
-![Pregled izvođenja](../Images/ExecutionViewExplanation.png "Pregled izvođenja")
+![Pregled izvođenja](../Images/ExecutionViewExplanationHR.png "Pregled izvođenja")
 
 | Br. | Opis |
 |-----|------|
@@ -67,7 +67,7 @@ Ako kliknete **Proizvedi**, sustav:
 - ažurira preostalu količinu
 - ako zadani broj odgovara planiranoj količini i ne promijenite ga, sustav evidentira **sve preostale komade kao proizvedene**.
   
-  ![Proizvedi](../Images/ExecutionProductionFinished.png "Napredak izvođenja")
+  ![Proizvedi](../Images/ExecutionProductionFinishedHR.png "Napredak izvođenja")
 
 ### Pauziranje proizvodnje
 
@@ -102,7 +102,7 @@ Ovdje možete odabrati:
 - **[Rad](Rad.md)** – evidentiranje radnog vremena  
 - **[Upute](Upute.md)** – pregled uputa za operaciju  
 
-![Evidentiranje proizvodnje](../Images/ExecutionProductionScreen.png "Evidentiranje proizvodnje")
+![Evidentiranje proizvodnje](../Images/ExecutionProductionScreenHR.png "Evidentiranje proizvodnje")
 
 Svaka je mogućnost opisana u nastavku.
 

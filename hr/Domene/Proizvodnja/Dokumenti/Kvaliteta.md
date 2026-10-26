@@ -13,7 +13,7 @@ Aktivnost **Kvaliteta** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izbo
 
 ## Kontrolni popisi kvalitete
 
-![Kontrolni popis kvalitete](../Images/ExecutionQualityScreen.png "Pregled kontrole kvalitete")
+![Kontrolni popis kvalitete](../Images/ExecutionQualityScreenHR.png "Pregled kontrole kvalitete")
 
 Za svaki kontrolni popis prikazuje se boja statusa:
 

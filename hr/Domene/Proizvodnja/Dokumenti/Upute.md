@@ -13,7 +13,7 @@ Aktivnost **Upute** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izbornik
 
 1. Otvorite stranicu **Upute** iz [**izbornika aktivnosti**](Izvedba.md#izbornik-aktivnosti).  
 
-   ![Upute](../Images/ExecutionInstructionsV2.png "Upute za operaciju")
+   ![Upute](../Images/ExecutionInstructionsHR.png "Upute za operaciju")
 
 2. Pročitajte upute, po potrebi uvećajte slike i slijedite smjernice.  
 3. Kada završite, vratite se na zaslon [**Izvedba**](Izvedba.md) putem akcijskog gumba → **Proizvodnja**. 
@@ -22,13 +22,13 @@ Aktivnost **Upute** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izbornik
 
 Različite vrste uputa dostupne su na zasebnim karticama:
 
-- **Instructions operation** – upute specifične za trenutnu operaciju, kao što su radni koraci, postavke stroja ili zahtjevi specifični za operaciju.
-- **Instructions process** – upute koje se odnose na cijeli proizvodni proces.
+- **Upute operacija** – upute specifične za trenutnu operaciju, kao što su radni koraci, postavke stroja ili zahtjevi specifični za operaciju.
+- **Upute proces** – upute koje se odnose na cijeli proizvodni proces.
 - **Upute za organizacijsku jedinicu** – upute povezane s organizacijskom jedinicom u kojoj se operacija izvodi.
 
 Svakom vrstom uputa upravlja se zasebno i može sadržavati različite članke iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md).
 
-![Vrste uputa](../Images/ExecutionInstructionTypes.png "Vrste uputa")
+![Vrste uputa](../Images/ExecutionInstructionTypesHR.png "Vrste uputa")
 
 ## Tipičan sadržaj
 

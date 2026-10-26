@@ -11,14 +11,14 @@ Zaslon **Potrošeno** otvorite s glavne stranice [**Izvedba**](Izvedba.md) putem
 
 ## Evidentiranje potrošnje
 
-![Potrošeno](../Images/ExecutionConsumptionList.png "Evidentiranje utrošenih materijala")
+![Potrošeno](../Images/ExecutionConsumptionListHR.png "Evidentiranje utrošenih materijala")
 
 1. Otvorite stranicu **Potrošeno** iz [**izbornika aktivnosti**](Izvedba.md#izbornik-aktivnosti).  
 2. Pregledajte popis utrošenih materijala (s podacima o zalihi).  
 3. Odaberite materijal s popisa ili ga pretražite ili skenirajte prema nazivu, šifri, serijskom broju ili EAN-u.  
 4. Na zaslonu **Dodaj potrošnju** unesite količinu koja se troši. 
 
-   ![Detalji potrošnje](../Images/ExecutionConsumptionDetailScreen.png "Detalji potrošnje")
+   ![Detalji potrošnje](../Images/ExecutionConsumptionDetailScreenHR.png "Detalji potrošnje")
 
 5. Kliknite **Dodaj** za spremanje potrošnje.  
 6. Po potrebi ponovite za druge materijale.
