@@ -35,7 +35,7 @@ The panel on the left allows refining the data shown on the screen.
 
 Available filters include:
 
-- **Completion date** â€“ Time range used to calculate indicators
+- **Completion date** – Time range used to calculate indicators
 - **Order type**
   - **Planned**
   - **Curative**
@@ -76,7 +76,7 @@ Shows the average time between failures.
 
 MTBF is commonly used to evaluate equipment reliability.
 
-![Maintenance Indicators â€“ Time metrics](../Images/MaintenanceIndicatorsCardsExtra.png "Maintenance time-based indicators")
+![Maintenance Indicators – Time metrics](../Images/MaintenanceIndicatorsCardsExtra.png "Maintenance time-based indicators")
 
 ### Mean time to detection
 

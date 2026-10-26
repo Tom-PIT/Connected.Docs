@@ -16,7 +16,7 @@ To access this page, go to **Production / Analytics / Organization unit downtime
 Use the filters on the left to refine the results:
 
 - **Date** — Select a date or date range for which downtime events should be displayed.
-- **Dowtime type** - Filter downtime based on whether it is planned or unplanned (see [**Dowtime type**](DowntimeSummary.md#downtime-type)).
+- **Downtime type** - Filter downtime based on whether it is planned or unplanned (see [**Downtime type**](DowntimeSummary.md#downtime-type)).
 - **Tag** — Filter events by downtime classification tag (see [**Downtime tags**](../Management/DowntimeTags.md)).
 
 ## Downtime overview

@@ -38,6 +38,7 @@ The Production orders page displays all orders grouped by status. Use the filter
   -  **Pending** — Finalized order, ready to activate
   -  **Active** — Being executed; visible in **[Execution](Execution.md)**
   -  **Closed** — Finished; results recorded 
+- **Organization unit** – Filter orders by organization unit.
 - **Project** – Filter production orders linked to a specific project.
 
 The search bar at the top allows filtering by production order code or material name.
@@ -64,11 +65,7 @@ Drafts allow editing of:
 
 ### Publish a draft production order
 
-To move the draft to **Pending**, the **Organization unit** must be selected, if not already predefined in the [operation](../Management/Operations.md).
-
-![Organization Unit](../Images/ProductionOrdersOrganizationUnits.png "Organization Unit Selection")
-
-Click **Publish** when ready.
+Click **Publish** when ready. The order moves to **Pending**.
 
 ## Edit a production order
 
@@ -88,6 +85,10 @@ From the Pending state, you can:
 - Add attachments  
 - Add notes  
 - Manage linked documents
+
+Before activating, select the **Organization unit** for each operation in the **Process** section, on the **Operations** tab, if it is not already predefined in the [operation](../Management/Operations.md). The organization unit cannot be selected while the order is in **Draft**.
+
+![Organization Unit](../Images/ProductionOrdersOrganizationUnits.png "Organization Unit Selection")
 
 When the order is ready for production, click **Activate**.
 
@@ -134,7 +135,7 @@ Clicking on an operation opens the detailed view, where workers can record execu
 
 ![Production Order Operation Edit](../Images/ProductionOrderOperationEdit.png "Production Order Operation Edit")
 
-Each section has an **Add entry** button to record execution details. For example, in the **Produced** section, you can log the material produced, the quantity produced, and the production times.
+Each tab has its own button to record execution details (e.g. **Add produced**, **Add consumption**). For example, on the **Produced** tab you can log the material produced, the quantity produced, and the production times.
 
 ### Expenses
 
@@ -171,7 +172,7 @@ If modifications are necessary after closing, you can revert the order back to *
 
 1. Open the closed production order
 1. Select **Revert to active** from the action menu
-1. Click **Reactivate** on the desired process
+1. Click **Reactivate** on the desired operation
 
 ![Production Orders Reactivate](../Images/ProductionOrdersReactivate.png)
 
