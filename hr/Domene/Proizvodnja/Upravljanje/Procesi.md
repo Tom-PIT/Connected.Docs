@@ -7,12 +7,12 @@
 
 Procesi definiraju strukturirane korake koji se koriste u **Proizvodnji** i **Održavanju** za pretvaranje ulaza u izlaze (gotove proizvode, poluproizvode ili servisiranu opremu). Oni predstavljaju osnovu operativnih tijekova rada te se koriste u **dokumentima** za izračun materijala, resursa, radnog opterećenja i koraka izvršavanja:
 
-- **[Proizvodni nalozi](../Dokumenti/ProductionOrders.md)** za proizvodne procese
-- **[Nalozi za održavanje](../../Održavanje/Dokumenti/NaloziZaOdrzavanje.md)** za procese održavanja
+- **[Proizvodni nalozi](../Dokumenti/ProizvodniNalozi.md)** za proizvodne procese
+- **[Nalozi za održavanje](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md)** za procese održavanja
 
 Ova stranica omogućuje stvaranje i upravljanje procesima, njihovim verzijama i operativnom strukturom.
 
-Proces može sadržavati jednu ili više **verzija**, primjerice različite verzije za različite veličine proizvoda ili varijante održavanja. Svaka verzija sadrži niz [**operacija**](Operations.md) koje definiraju ulaze, resurse (ljudske i fizičke), izlaze i zahtjeve kvalitete.
+Proces može sadržavati jednu ili više **verzija**, primjerice različite verzije za različite veličine proizvoda ili varijante održavanja. Svaka verzija sadrži niz [**operacija**](Operacije.md) koje definiraju ulaze, resurse (ljudske i fizičke), izlaze i zahtjeve kvalitete.
 
 ![Dijagram procesa](../Images/ProcessDiagramHR.svg "Dijagram procesa")
 
@@ -69,15 +69,15 @@ Na lijevoj strani dostupni su sljedeći filtri:
     - **Naziv** – Obavezno.
     - **Opis** – Nije obavezno.
     - **Oznake** – Nisu obavezne, ali su **potrebne** kako bi proces bio dostupan u određenom području.
-        - Dodajte oznaku **Proizvodnja** kako bi proces bio dostupan prilikom izrade novog [**Proizvodnog naloga**](../Dokumenti/ProductionOrders.md).
-        - Dodajte oznaku **Održavanje** kako bi proces bio dostupan prilikom izrade novog [**Naloga za održavanje**](../../Održavanje/Dokumenti/NaloziZaOdrzavanje.md).
+        - Dodajte oznaku **Proizvodnja** kako bi proces bio dostupan prilikom izrade novog [**Proizvodnog naloga**](../Dokumenti/ProizvodniNalozi.md).
+        - Dodajte oznaku **Održavanje** kako bi proces bio dostupan prilikom izrade novog [**Naloga za održavanje**](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md).
 
     ![Novi proces](../Images/ProcessesNewHR.png "Novi proces")
 
 3. Kliknite **Dodaj**.
 
 > [!IMPORTANT]
-> Oznake određuju gdje se proces može koristiti. Ako procesu nije dodijeljena odgovarajuća oznaka (npr. **Proizvodnja** ili **Održavanje**), neće biti dostupan prilikom izrade dokumenata u tom području, primjerice [**Proizvodnog naloga**](../Dokumenti/ProductionOrders.md) ili [**Naloga za održavanje**](../../Održavanje/Dokumenti/NaloziZaOdrzavanje.md).
+> Oznake određuju gdje se proces može koristiti. Ako procesu nije dodijeljena odgovarajuća oznaka (npr. **Proizvodnja** ili **Održavanje**), neće biti dostupan prilikom izrade dokumenata u tom području, primjerice [**Proizvodnog naloga**](../Dokumenti/ProizvodniNalozi.md) ili [**Naloga za održavanje**](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md).
 
 ## Uređivanje procesa
 
@@ -123,14 +123,14 @@ Svaka verzija prikazuje stupac **Cost** sa sljedećim opcijama:
 
 Klikom na **Calculate** sustav procjenjuje trošak proizvodnje jednog proizvoda koristeći odabranu verziju procesa. U izračun su uključeni:
 
-- **Cijene materijala** definirane u cjenicima [**Materijala dobavljača**](../../Supply/Management/SupplierMaterials.md)
-- **Ljudski resursi** prema cijenama definiranim u [**Troškovima resursa**](../../Resources/Management/ResourcesCosts.md)
-- **Fizički resursi** (strojevi i radne stanice) prema [**Troškovima resursa**](../../Resources/Management/ResourcesCosts.md)
-- **Dodatni troškovi** definirani u šifrarniku [**Troškovi**](../../Supply/Management/Expenses.md)
+- **Cijene materijala** definirane u cjenicima [**Materijala dobavljača**](../../Nabava/Upravljanje/SupplierMaterials.md)
+- **Ljudski resursi** prema cijenama definiranim u [**Troškovima resursa**](../../Resursi/Upravljanje/ResourcesCosts.md)
+- **Fizički resursi** (strojevi i radne stanice) prema [**Troškovima resursa**](../../Resursi/Upravljanje/ResourcesCosts.md)
+- **Dodatni troškovi** definirani u šifrarniku [**Troškovi**](../../Nabava/Upravljanje/Expenses.md)
 
 Ako se verzija promijeni (primjerice operacije, materijali ili resursi), preporučuje se ponovno pokrenuti izračun.
 
-Klikom na **vrijednost troška** otvara se detaljna stranica [**Analize troška verzije**](../Analytics/VersionCostView.md), koja prikazuje kompletnu strukturu troška.
+Klikom na **vrijednost troška** otvara se detaljna stranica [**Analize troška verzije**](../Analiza/TrosakVerzije.md), koja prikazuje kompletnu strukturu troška.
 
 ### Operacije unutar verzije
 

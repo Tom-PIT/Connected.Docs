@@ -1,40 +1,40 @@
 <!-- app_route: /production/analytics/organization-unit-downtime -->
 <!-- app_label: Organization unit downtime -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/OrganizationUnitDowntime.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/OrganizationUnitDowntime.md -->
 <!-- canonical_source_title: Organization unit downtime -->
 
 # Organization unit downtime
 
-The **Organization unit downtime** page provides a detailed list of all downtime events recorded within selected organizational units. It allows supervisors and planners to review when downtime started and ended, which resource was affected, the downtime classification tag, and the total duration.
+Stranica **Organization unit downtime** pruža detaljan popis svih zastoja evidentiranih u odabranim organizacijskim jedinicama. Nadzornicima i planerima omogućuje pregled početka i završetka zastoja, zahvaćenog resursa, oznake klasifikacije zastoja i ukupnog trajanja.
 
-To access this page, go to **Production / Analytics / Organization unit downtime** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Organization unit downtime** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 ![Organization unit downtime](../Images/OrganizationUnitDowntimeView.png "Organization unit downtime")
 
-## Filters
+## Filtri
 
-Use the filters on the left to refine the results:
+Za sužavanje rezultata koristite filtre na lijevoj strani:
 
-- **Date** — Select a date or date range for which downtime events should be displayed.  
-- **Tag** — Filter events by downtime classification tag (see [Downtime tags](../Management/DowntimeTags.md)).
+- **Date** – odaberite datum ili raspon datuma za koji se prikazuju zastoji.
+- **Downtime type** – filtriranje zastoja prema tome jesu li planirani ili neplanirani (pogledajte [**Downtime type**](SazetakZastoja.md#downtime-type)).
+- **Tag** – filtriranje prema oznaci klasifikacije zastoja (pogledajte [**Oznake zastoja**](../Upravljanje/OznakeZastoja.md)).
 
-## Downtime overview
+## Pregled zastoja
 
-The main table displays downtime grouped by **Organization unit**.
+Glavna tablica prikazuje zastoje grupirane po **organizacijskoj jedinici**.
 
-For each downtime entry, the following information is shown:
+Za svaki zastoj prikazuju se sljedeći podaci:
 
-- **Start** — Timestamp when the downtime began  
-- **End** — Timestamp when the downtime ended  
-- **Resource** — The affected non human resource or workstation  
-- **Tag** — Downtime classification (e.g., electrical failure, machine failure, cleaning)  
-- **Duration** — Total downtime duration automatically calculated by the system  
+- **Start** – vrijeme početka zastoja
+- **End** – vrijeme završetka zastoja
+- **Resource** – zahvaćeni fizički resurs ili radno mjesto
+- **Tag** – klasifikacija zastoja (npr. električni kvar, kvar stroja, čišćenje)
+- **Duration** – ukupno trajanje zastoja koje sustav izračunava automatski
 
-Downtime entries within each organization unit can be expanded or collapsed for easier navigation.
+Zastoji unutar svake organizacijske jedinice mogu se proširiti ili sažeti radi lakšeg pregleda.
 
-## Usage notes
+## Napomene o korištenju
 
-- Only downtime events recorded through the *Execution* module are shown here.  
-- Use tags to quickly identify recurring issues and support root-cause analysis.  
-- Durations are automatically calculated based on start and end times.
-
+- Ovdje se prikazuju samo zastoji evidentirani putem modula [*Izvedba*](../Dokumenti/Izvedba.md).
+- Oznake koristite za brzo prepoznavanje ponavljajućih problema i analizu uzroka.
+- Trajanje se izračunava automatski na temelju vremena početka i završetka.

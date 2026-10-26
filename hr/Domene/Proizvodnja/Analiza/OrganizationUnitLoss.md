@@ -1,42 +1,41 @@
 <!-- app_route: /production/analytics/organization-unit-loss -->
 <!-- app_label: Organization unit loss -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/OrganizationUnitLoss.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/OrganizationUnitLoss.md -->
 <!-- canonical_source_title: Organization unit loss -->
 
 # Organization unit loss
 
-The **Organization unit loss** page provides an overview of all recorded production losses grouped by organizational unit. It allows supervisors and planners to quickly see how many defective or unusable items were produced in each organizational unit and from which production orders the losses originated.
+Stranica **Organization unit loss** pruža pregled svih evidentiranih proizvodnih gubitaka grupiranih po organizacijskim jedinicama. Nadzornicima i planerima omogućuje brz uvid u to koliko je neispravnih ili neupotrebljivih komada proizvedeno u pojedinoj organizacijskoj jedinici i iz kojih proizvodnih naloga gubici potječu.
 
-To access this page, go to **Production / Analytics / Organization unit loss** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Organization unit loss** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
 ![Organization unit loss](../Images/OrganizationUnitLossView.png "Organization unit loss")
 
-## Filters
+## Filtri
 
-Use the filters on the left to refine the results:
+Za sužavanje rezultata koristite filtre na lijevoj strani:
 
-- **Date** — Select a date or date range for which loss entries should be displayed.  
-- **Tag** — Filter losses by loss classification tag (see [Loss classification tags](../Management/LossClassificationTags.md)).
+- **Date** – odaberite datum ili raspon datuma za koji se prikazuju gubici.
+- **Tag** – filtriranje gubitaka prema oznaci klasifikacije gubitka (pogledajte [Oznake klasifikacije gubitka (škarta)](../Upravljanje/OznakeKlasifikacijeGubitka.md)).
 
-## Loss overview
+## Pregled gubitaka
 
-The main table displays loss entries grouped by **Organization unit**.
+Glavna tablica prikazuje gubitke grupirane po **organizacijskoj jedinici**.
 
-For each organizational unit, the following is shown:
+Za svaku organizacijsku jedinicu prikazuje se:
 
-- **Quantity** — Total number of defective items recorded
+- **Quantity** – ukupan broj evidentiranih neispravnih komada
 
-Expanding an organizational unit displays its related **Production orders**, along with:
+Proširivanjem organizacijske jedinice prikazuju se povezani **proizvodni nalozi**, zajedno s podacima:
 
-- **Material** — The material item involved  
-- **Production order** — Direct link to the order  
-- **Quantity** — Number of defective units recorded within that order  
+- **materijal** – materijal na koji se gubitak odnosi
+- **proizvodni nalog** – izravna poveznica na nalog
+- **Quantity** – broj neispravnih komada evidentiranih na tom nalogu
 
-Loss entries can be expanded or collapsed for easier navigation.
+Gubici se mogu proširiti ili sažeti radi lakšeg pregleda.
 
-## Usage notes
+## Napomene o korištenju
 
-- Only loss entries recorded through the *Execution* module are shown here.  
-- Use tags to analyze recurring defect types and improve quality control.  
-- This view helps identify which production orders or work areas contribute most to overall loss.
-
+- Ovdje se prikazuju samo gubici evidentirani putem modula [*Izvedba*](../Dokumenti/Izvedba.md).
+- Oznake koristite za analizu ponavljajućih vrsta nedostataka i poboljšanje kontrole kvalitete.
+- Ovaj pogled pomaže prepoznati koji proizvodni nalozi ili radna područja najviše pridonose ukupnim gubicima.

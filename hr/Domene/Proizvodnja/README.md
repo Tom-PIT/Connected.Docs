@@ -1,137 +1,137 @@
 <!-- app_route: /sitemap/production -->
-<!-- app_label: Production -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/README.md -->
-<!-- canonical_source_title: Production -->
+<!-- app_label: Proizvodnja -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/README.md -->
+<!-- canonical_source_title: Proizvodnja -->
 
-# Production
+# Proizvodnja
 
-The **Production** domain manages all processes related to manufacturing, shop-floor execution, and production analysis. It includes tools for planning and issuing production orders, executing operations, tracking consumption and production, and reviewing performance analytics.
+Domena **Proizvodnja** upravlja svim procesima povezanima s proizvodnjom, izvođenjem u pogonu i analizom proizvodnje. Sadrži alate za planiranje i izdavanje proizvodnih naloga, izvođenje operacija, praćenje potrošnje i proizvodnje te pregled analitike učinkovitosti.
 
-Where the **[Supply](../Supply/README.md)** domain ensures material availability, the Production domain ensures that these materials are transformed into finished or semi-finished goods through controlled and traceable workflows.
+Dok domena **[Nabava](../Nabava/README.md)** osigurava dostupnost materijala, domena Proizvodnja osigurava da se ti materijali pretvore u gotove proizvode ili poluproizvode kroz kontrolirane i sljedive tijekove rada.
 
-To access Production, navigate to **Production** in the [navigation](../../Zajednicko/UI/Navigacija.md).
+Za pristup domeni otvorite **Proizvodnja** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-![Production Domain](Images/ProductionDomainSitemap.png "Production Domain")
+![Karta domene Proizvodnja](Images/ProductionDomainSitemap.png "Karta domene Proizvodnja")
 
 > [!NOTE]  
-> The availability of production features depends on the company’s manufacturing configuration, processes, and resource setup.
+> Dostupnost proizvodnih funkcionalnosti ovisi o proizvodnoj konfiguraciji tvrtke, procesima i postavkama resursa.
 
-## What is included in the Production domain?
+## Što sadrži domena Proizvodnja?
 
-The domain is organized into the following functional areas:
+Domena je organizirana u sljedeća funkcionalna područja:
 
-- **[Production orders](Documents/ProductionOrders.md)** – definition and execution of manufacturing work  
-- **[Execution](Documents/Execution.md)** – real-time shop-floor activity reporting  
-- **[Requirements](Documents/Requirements.md)** – aggregated material needs for planned production  
-- **[Analytics](#analytics)** – insights into downtime, performance, loss, OEE, and KPIs  
-- **[Management](#management)** – configuration, process design, and master data  
+- **[Proizvodni nalozi](Dokumenti/ProizvodniNalozi.md)** – definiranje i izvođenje proizvodnog rada  
+- **[Izvedba](Dokumenti/Izvedba.md)** – evidentiranje aktivnosti u pogonu u stvarnom vremenu  
+- **[Zahtjevi](Dokumenti/Zahtjevi.md)** – zbirne potrebe za materijalom za planiranu proizvodnju  
+- **[Analiza](#analiza)** – uvid u zastoje, učinkovitost, gubitke, OEE i ključne pokazatelje  
+- **[Upravljanje](#upravljanje)** – konfiguracija, oblikovanje procesa i matični podaci  
 
-![Production Overview](Images/ProductionDomainOverview.png "Production Overview")
+![Pregled domene Proizvodnja](Images/ProductionDomainOverview.png "Pregled domene Proizvodnja")
 
-## Production orders
+## Proizvodni nalozi
 
-The **[Production orders](Documents/ProductionOrders.md)** section contains the core documents used to plan and execute manufacturing. It provides definition of what needs to be produced, based on which process version, in what quantity, and under which conditions.
+Odjeljak **[Proizvodni nalozi](Dokumenti/ProizvodniNalozi.md)** sadrži osnovne dokumente za planiranje i izvođenje proizvodnje. Definira što treba proizvesti, prema kojoj verziji procesa, u kojoj količini i pod kojim uvjetima.
 
-Production orders move through the life cycle **Draft → Pending → Active → Closed** and form the basis of all execution activity.
-
-> [!TIP]
-> For a step-by-step overview of the creation of a new production order, see the [**How to create a production order**](Documents/ProductionOrderCreate.md).
-
-## Execution
-
-The **[Execution](Documents/Execution.md)** module is used by production workers to perform real-time reporting: produced quantities, consumed materials, downtimes, losses, checklists, and effort.
-
-Execution ensures accurate data collection, enabling reliable analytics and traceability.
+Proizvodni nalozi prolaze kroz životni ciklus **Nacrt → U pripremi → Aktivan → Zatvoren** i čine osnovu svih aktivnosti izvođenja.
 
 > [!TIP]
-> Check the [**Execution – Quick User Guide**](../../GettingStarted/ExecutionQuickUserGuide.md) for a step-by-step overview of the execution workflow.
+> Za pregled izrade novog proizvodnog naloga korak po korak pogledajte [**Kako kreirati proizvodni nalog**](Dokumenti/ProizvodniNaloziIzrada.md).
 
-## Requirements
+## Izvedba
 
-The **[Requirements](Documents/Requirements.md)** page aggregates all planned material inputs across production orders within a selected period. It displays:
+Modul **[Izvedba](Dokumenti/Izvedba.md)** koriste proizvodni radnici za evidentiranje u stvarnom vremenu: proizvedenih količina, utrošenih materijala, zastoja, gubitaka, kontrolnih popisa i rada.
 
-- Required vs. available material quantities  
-- Requirements grouped by material  
-- Direct links to production orders and operations that consume those materials  
+Izvedba osigurava točno prikupljanje podataka, što omogućuje pouzdanu analitiku i sljedivost.
 
-## Analytics
+> [!TIP]
+> Za pregled tijeka izvođenja korak po korak pogledajte [**Execution – Quick User Guide**](../../Uvod/ExecutionQuickUserGuide.md).
 
-The **Analytics** section provides insight into production performance, downtime, quality, loss distribution, and OEE.
+## Zahtjevi
 
-![Analytics](Images/ProductionDomainAnalytics.png "Production Analytics")
+Stranica **[Zahtjevi](Dokumenti/Zahtjevi.md)** objedinjuje sve planirane ulazne materijale proizvodnih naloga u odabranom razdoblju. Prikazuje:
 
-Available analytical views include:
+- potrebne i dostupne količine materijala  
+- zahtjeve grupirane po materijalu  
+- izravne poveznice na proizvodne naloge i operacije koje troše te materijale  
 
-- **[Downtime summary](Analytics/DowntimeSummary.md)** – Overview of downtime causes, durations, and impact.
-- **[Equipment summary](Analytics/EquipmentSummary.md)** – Machine availability, uptime, and utilization metrics.
-- **[Production KPIs](Analytics/ProductionKPIs.md)** – Throughput, yield, cycle time, and efficiency indicators.
-- **[Loss summary](Analytics/LossSummary.md)** – Distribution of losses (scrap, rework, inefficiency) by category.
-- **[Organization unit downtime](Analytics/OrganizationUnitDowntime.md)** – Downtime analysis by organization unit.
-- **[Organization unit loss](Analytics/OrganizationUnitLoss.md)** – Loss analysis by organization unit.
-- **[Version cost view](Analytics/VersionCostView.md)** – Estimated production cost per item for a specific process version, including materials, effort, and expenses.
-These insights support production planning, continuous improvement, and operational decision-making.
+## Analiza
 
-## Management
+Odjeljak **Analiza** pruža uvid u učinkovitost proizvodnje, zastoje, kvalitetu, raspodjelu gubitaka i OEE.
 
-The **Management** section contains configuration, process definitions, and production-related code lists required for smooth operation.
+![Analiza](Images/ProductionDomainAnalytics.png "Analiza proizvodnje")
 
-![Production management](Images/ProductionDomainManagement.png "Production Management")
+Dostupni analitički prikazi:
 
-Available configuration and code lists include:
+- **[Sažetak zastoja](Analiza/SazetakZastoja.md)** – pregled uzroka, trajanja i utjecaja zastoja.
+- **[Sažetak stroja](Analiza/SazetakStroja.md)** – pokazatelji dostupnosti, vremena rada i iskorištenosti strojeva.
+- **[Ključni pokazatelji uspješnosti proizvodnje](Analiza/KljucniPokazateljiProizvodnje.md)** – pokazatelji protoka, iskoristivosti, vremena ciklusa i učinkovitosti.
+- **[Sažetak gubitka (škarta)](Analiza/SazetakGubitka.md)** – raspodjela gubitaka (škart, dorada, neučinkovitost) po kategorijama.
+- **[Organization unit downtime](Analiza/OrganizationUnitDowntime.md)** – analiza zastoja po organizacijskoj jedinici.
+- **[Organization unit loss](Analiza/OrganizationUnitLoss.md)** – analiza gubitaka po organizacijskoj jedinici.
+- **[Pregled troška verzije](Analiza/TrosakVerzije.md)** – procijenjeni trošak proizvodnje po komadu za određenu verziju procesa, uključujući materijale, rad i troškove.
 
-- **[Configuration](Management/ProductionConfiguration.md)** – Global production settings for numbering and behavior.
-- **[Checklists](../Quality/Management/Checklists.md)** – Quality and process checklists used during execution.
-- **[Downtime tags](Management/DowntimeTags.md)** – Classification of downtime reasons for analysis.
-- **[Loss classification tags](Management/LossClassificationTags.md)** – Standard categories for loss recording and reporting.
-- **[Job positions](Management/JobPositions.md)** – Roles and positions for shop-floor personnel.
-- **[Measure units](../../Common/Management/MeasureUnits.md)** – Unified measurement units across production.
-- **[Organization units](Management/OrganizationUnits.md)** – Hierarchical production units used for planning and analytics.
-- **[Processes](Management/Processes.md)** and **[Operations](Management/Operations.md)** – Definitions of production processes, versions, operations, inputs, and outputs.
-- **[Protocol operation instance templates](Management/ProtocolOperationsInstanceTemplates.md)** – Templates for step-by-step operation protocols.
-- **[Resources](../Resources/Management/Resources.md)** – Human and non-human resources used in production.
-- **[Human resources](Management/HumanResources.md)** – People and roles assigned to production operations.
-- **[Non-human resources](Management/NonHumanResources.md)** – Machines, tools and equipment used in production operations.
-- **[Inputs](Management/Inputs.md)** – Material inputs and consumption definitions for operations.
-- **[Outputs](Management/Outputs.md)** – Produced items and by-products configured per operation.
-- **[Operation expenses](Management/OperationExpenses.md)** – Costing and expense categories for operations.
-- **[Quality checklists](Management/QualityChecklists.md)** – Production-specific checklists and quality controls.
-- **[Warehouse locations](Management/WarehouseLocations.md)** – Logistics-backed staging and storage locations for production.
+Ti uvidi podržavaju planiranje proizvodnje, kontinuirano poboljšanje i donošenje operativnih odluka.
 
-These elements define how production behaves: resource availability, process structure, operation setup, quality checks, and analytics classification.
+## Upravljanje
+
+Odjeljak **Upravljanje** sadrži konfiguraciju, definicije procesa i šifrarnike povezane s proizvodnjom koji su potrebni za nesmetan rad.
+
+![Upravljanje proizvodnjom](Images/ProductionDomainManagement.png "Upravljanje proizvodnjom")
+
+Dostupne postavke i šifrarnici:
+
+- **[Konfiguracija proizvodnje](Upravljanje/KonfiguracijaProizvodnje.md)** – globalne postavke proizvodnje za numeriranje i ponašanje.
+- **[Kontrolni popisi](../Kvaliteta/Upravljanje/KontrolniPopisi.md)** – kontrolni popisi kvalitete i procesa koji se koriste tijekom izvođenja.
+- **[Oznake zastoja](Upravljanje/OznakeZastoja.md)** – klasifikacija razloga zastoja za analizu.
+- **[Oznake klasifikacije gubitka (škarta)](Upravljanje/OznakeKlasifikacijeGubitka.md)** – standardne kategorije za evidentiranje i izvještavanje o gubicima.
+- **[Sistematizacija radnih mjesta](Upravljanje/SistematizacijaRadnihMjesta.md)** – uloge i radna mjesta osoblja u pogonu.
+- **[Mjerne jedinice](../../Zajednicko/Upravljanje/MjerneJedinice.md)** – jedinstvene mjerne jedinice u proizvodnji.
+- **[Organizacijske jedinice](Upravljanje/OrganizacijskeJedinice.md)** – hijerarhijske proizvodne jedinice za planiranje i analitiku.
+- **[Procesi](Upravljanje/Procesi.md)** i **[Operacije](Upravljanje/Operacije.md)** – definicije proizvodnih procesa, verzija, operacija, unosa i izlaza.
+- **[Pravilnici za operacije](Upravljanje/PravilniciZaOperacije.md)** – predlošci za protokole operacija korak po korak.
+- **[Resursi](../Resursi/Upravljanje/Resources.md)** – ljudski i fizički resursi koji se koriste u proizvodnji.
+- **[Ljudski resursi](Upravljanje/LjudskiResursi.md)** – osobe i uloge dodijeljene proizvodnim operacijama.
+- **[Fizički resursi](Upravljanje/FizickiResursi.md)** – strojevi, alati i oprema koji se koriste u proizvodnim operacijama.
+- **[Unosi](Upravljanje/Unosi.md)** – ulazni materijali i definicije potrošnje za operacije.
+- **[Izlazi](Upravljanje/Izlazi.md)** – proizvedeni artikli i nusproizvodi definirani po operaciji.
+- **[Troškovi operacije](Upravljanje/TroskoviOperacije.md)** – kategorije troškova i obračun troškova za operacije.
+- **[Kontrolni popisi izvođenja](Upravljanje/KontrolniPopisiKvalitete.md)** – kontrolni popisi i kontrole kvalitete specifični za proizvodnju.
+- **[Skladišne lokacije](Upravljanje/SkladisneLokacije.md)** – logističke lokacije za pripremu i skladištenje u proizvodnji.
+
+Ti elementi određuju ponašanje proizvodnje: dostupnost resursa, strukturu procesa, postavke operacija, kontrole kvalitete i klasifikaciju za analitiku.
 
 > [!NOTE]
-> For a step-by-step overview of the configuration required to start production, see the [**How to create a production process**](Management/ProcessCreate.md) guide.
+> Za pregled konfiguracije potrebne za početak proizvodnje korak po korak pogledajte vodič [**Kako kreirati proces**](Upravljanje/ProcesiIzrada.md).
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> Pregled svih šifrarnika dostupan je u **[Indeksu upravljanja](../../IndeksUpravljanja.md)**.
 
-## Production process lifecycle
+## Životni ciklus proizvodnog procesa
 
-Production activities typically follow this sequence:
+Proizvodne aktivnosti obično slijede ovaj redoslijed:
 
-### **1. Process design**  
-Processes and versions are configured, including operations, inputs, outputs, resources, and checklists.
+### **1. Oblikovanje procesa**  
+Konfiguriraju se procesi i verzije, uključujući operacije, unose, izlaze, resurse i kontrolne popise.
 
-### **2. Production order creation**  
-A production order is created based on product demand or planning.
+### **2. Izrada proizvodnog naloga**  
+Proizvodni nalog izrađuje se na temelju potražnje za proizvodom ili planiranja.
 
-### **3. Execution**  
-Workers report real-time progress, downtimes, losses, and material consumption.
+### **3. Izvođenje**  
+Radnici u stvarnom vremenu evidentiraju napredak, zastoje, gubitke i potrošnju materijala.
 
-### **4. Completion**  
-Operations finish, results are recorded, and the production order closes.
+### **4. Dovršetak**  
+Operacije se dovršavaju, rezultati se evidentiraju i proizvodni nalog se zatvara.
 
-### **5. Analysis**  
-Analytics provide insight into efficiency, quality, downtime causes, and resource performance.
+### **5. Analiza**  
+Analitika pruža uvid u učinkovitost, kvalitetu, uzroke zastoja i učinak resursa.
 
-## Production and other domains
+## Proizvodnja i druge domene
 
-Production integrates with several other operational domains:
+Proizvodnja je povezana s nekoliko drugih operativnih domena:
 
-| Area | Interaction |
-|------|-------------|
-| **[Materials](../Assets/Materials/README.md)** | Defines what is being produced and consumed. |
-| **[Supply](../Supply/README.md)** | Provides materials needed for production. |
-| **[Logistics](../Logistics/README.md)** | Handles warehouse movements of consumed and produced items. |
-| **[Maintenance](../Maintenance/README.md)** | Shares processes, organization units, resources, and checklists; maintenance orders can use time/count-based schedules and link back to production resources and counters. |
-
+| Područje | Povezanost |
+|----------|------------|
+| **[Materijali](../RobaIUsluge/Materijali/README.md)** | Definira što se proizvodi i troši. |
+| **[Nabava](../Nabava/README.md)** | Osigurava materijale potrebne za proizvodnju. |
+| **[Logistika](../Logistika/README.md)** | Upravlja skladišnim kretanjima utrošenih i proizvedenih artikala. |
+| **[Održavanje](../Odrzavanje/README.md)** | Dijeli procese, organizacijske jedinice, resurse i kontrolne popise; nalozi za održavanje mogu koristiti rasporede temeljene na vremenu ili brojaču i povezivati se s proizvodnim resursima i brojačima. |

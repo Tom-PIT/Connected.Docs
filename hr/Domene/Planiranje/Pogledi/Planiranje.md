@@ -17,7 +17,7 @@ Proizvodni nalozi prikazuju se u kalendaru prema datumima **Planirani početak**
 
 > [!IMPORTANT]
 > Proizvodni nalog prikazuje se u Planiranju samo ako su definirani i **Planirani početak** i **Planirani kraj**.  
-> Te se vrijednosti postavljaju pri izradi ili uređivanju proizvodnog naloga. Pogledajte [**Proizvodni nalozi**](../../Proizvodnja/Dokumenti/ProductionOrderCreate.md#dates).
+> Te se vrijednosti postavljaju pri izradi ili uređivanju proizvodnog naloga. Pogledajte [**Proizvodni nalozi**](../../Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md#datumi).
 
 Svaki unos u kalendaru predstavlja planirani proizvodni nalog i prikazuje njegovo trajanje unutar odabranog vremenskog razdoblja.
 
@@ -56,7 +56,7 @@ Planirane naloge možete **preraspodijeliti** izravno u kalendaru povlačenjem i
 - Sustav automatski ažurira planirane datume  
 
 > [!NOTE]
-> Proizvodni nalog nije moguće premjestiti nakon datuma **Datum roka izrade** definiranog na [proizvodnom nalogu](../../Proizvodnja/Dokumenti/ProductionOrderCreate.md#dates).
+> Proizvodni nalog nije moguće premjestiti nakon datuma **Datum roka izrade** definiranog na [proizvodnom nalogu](../../Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md#datumi).
 
 ### Prikaz informacija o nalogu
 

@@ -36,7 +36,7 @@ Za pristup operacijama:
 | **Zadana organizacijska jedinica** | Organizacijska jedinica odgovorna za izvođenje operacije. |
 | **Članak** | Poveznica na članak iz [**Baze znanja**](../../Znanje/BazaZnanja/BazaZnanja.md) s dodatnim uputama, opisima ili slikama (nije obavezno). |
 | **Oznake** | Oznake za grupiranje ili kategorizaciju operacija (nije obavezno). |
-| [**Trošak**](../../Nabava/Upravljanje/Troskovi.md) | Kategorija troška povezana s operacijom. |
+| [**Trošak**](../../Nabava/Upravljanje/Expenses.md) | Kategorija troška povezana s operacijom. |
 
 ## Popis
 

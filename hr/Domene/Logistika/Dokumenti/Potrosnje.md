@@ -7,7 +7,7 @@
 
 Dokument **Potrošnja** evidentira materijal utrošen tijekom izvršavanja **Proizvodnog naloga**. Dokumenti potrošnje automatski se stvaraju iz modula [**Izvedba**](../../Proizvodnja/Dokumenti/Izvedba.md) kada proizvodni radnik evidentira utrošak materijala. Dokument smanjuje stanje zaliha utrošenog materijala i omogućuje praćenje njegove potrošnje.
 
-Za evidentiranje utroška materijala u proizvodnji pogledajte **[Potrošnja](../../Proizvodnja/Dokumenti/Potrosena.md)**. Ta su dva procesa usko povezana jer evidentiranje potrošnje u proizvodnji automatski stvara odgovarajući dokument potrošnje u logistici.
+Za evidentiranje utroška materijala u proizvodnji pogledajte **[Potrošnja](../../Proizvodnja/Dokumenti/Potroseno.md)**. Ta su dva procesa usko povezana jer evidentiranje potrošnje u proizvodnji automatski stvara odgovarajući dokument potrošnje u logistici.
 
 Za pristup dokumentu **Potrošnje** otvorite **Logistika / Dokumenti / Potrošnje** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 

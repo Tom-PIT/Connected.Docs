@@ -15,8 +15,8 @@ Primjer u ovom vodiču prikazuje **proizvodni proces** za izradu proizvoda **Oak
 
 > [!NOTE]
 > - Ovaj vodič pretpostavlja da su potrebni materijali, resursi i kontrolni popisi kvalitete već kreirani. Više informacija potražite u dokumentaciji:
->    * [**Materijali**](../../Imovina/Materijali/README.md)
->    * [**Resursi**](../../Resursi/Upravljanje/Resursi.md)
+>    * [**Materijali**](../../RobaIUsluge/Materijali/README.md)
+>    * [**Resursi**](../../Resursi/Upravljanje/Resources.md)
 >    * [**Kontrolni popisi kvalitete**](../../Kvaliteta/Upravljanje/KontrolniPopisi.md)
 > - Za detaljnije informacije o procesima i njihovim komponentama pogledajte dokumente navedene u odjeljku [**Sljedeći koraci**](#sljedeći-koraci).
 
