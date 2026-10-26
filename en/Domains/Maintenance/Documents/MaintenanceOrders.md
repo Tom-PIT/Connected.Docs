@@ -9,7 +9,18 @@ Maintenance orders define the work required to perform **planned or curative mai
 
 They move through the life cycle **Pending → Active → Closed**, and include operations, resources, inputs, and quality checks defined by the selected process.
 
-![Maintenance order lifecycle](../Images/MaintenanceOrderLifecycle.svg "Maintenance order lifecycle")
+```mermaid
+flowchart LR
+  subgraph SRC [Creation sources]
+    MS[Maintenance schedule]
+    RM[Reported malfunction]
+  end
+  MS -.-> P[Pending]
+  RM -.-> P
+  P --> A[Active] --> C[Closed]
+  classDef source stroke-dasharray:5 4
+  class MS,RM source
+```
 
 > [!NOTE]
 > **Prerequisites**

@@ -8,7 +8,18 @@
 Production orders define the work required to manufacture products according to a selected process and version.  
 They move through the life cycle **Draft → Pending → Active → Closed**, and can include multiple operations, resources, inputs, outputs, and quality checks based on the assigned process.
 
-![Production order lifecycle](../Images/ProductionOrderLifecycle.svg "Production order lifecycle")
+```mermaid
+flowchart LR
+    D[Draft] --> P[Pending] --> A[Active] --> C[Closed]
+    A -.-> E[Execution]
+```
+
+```mermaid
+flowchart LR
+    D[Draft] --> P[Pending] --> A[Active] --> C[Closed]
+    A -.-> E[Execution]
+```
+
 
 > [!NOTE]
 > **Prerequisites**  
