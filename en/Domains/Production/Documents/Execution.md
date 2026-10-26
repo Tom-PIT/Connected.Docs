@@ -146,7 +146,7 @@ Before completing the operation, ensure that:
 - All losses and downtimes are recorded
 - All quality checkpoints are completed
 
-Once the operation is completed, it is marked as **Finished**.
+Once the operation is completed, it is marked as **Completed**.
 
 If the operation is stopped before the planned quantity is produced, it is completed with partial production.
 

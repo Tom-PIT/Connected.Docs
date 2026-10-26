@@ -37,8 +37,11 @@ A **chart and legend** display how the cost is divided between:
 
 - **Materials** – cost of all input materials consumed by the operations
 - **Effort** – cost of human and machine work required to execute the operations
+- **Expenses** – additional costs of the process version
 
 This view helps quickly identify which components contribute most to the total cost.
+
+Below the panels, the **Materials**, **Effort** and **Expenses** tabs list the details. The number in brackets shows how many items each tab contains.
 
 ## Materials
 
@@ -86,7 +89,7 @@ If no expenses are configured in the Process, the section displays **No costs**.
 
 ## Total cost
 
-The **Total** value at the bottom of the page shows the final **estimated production cost per item**, calculated as the sum of:
+The amount on the **Cost** panel shows the final **estimated production cost per item**, calculated as the sum of:
 
 - Materials
 - Work effort
