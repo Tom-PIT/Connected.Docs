@@ -12,8 +12,8 @@ They move through the life cycle **Pending → Active → Closed**, and include 
 ```mermaid
 flowchart LR
   subgraph SRC [Creation sources]
-    MS[Maintenance schedule]
-    RM[Reported malfunction]
+    MS["Maintenance<br>schedule"]
+    RM["Reported<br>malfunction"]
   end
   MS -.-> P[Pending]
   RM -.-> P

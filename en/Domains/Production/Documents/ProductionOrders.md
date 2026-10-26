@@ -14,13 +14,6 @@ flowchart LR
     A -.-> E[Execution]
 ```
 
-```mermaid
-flowchart LR
-    D[Draft] --> P[Pending] --> A[Active] --> C[Closed]
-    A -.-> E[Execution]
-```
-
-
 > [!NOTE]
 > **Prerequisites**  
 > 
