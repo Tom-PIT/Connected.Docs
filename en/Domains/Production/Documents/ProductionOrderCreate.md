@@ -36,7 +36,7 @@ This step defines scheduling and order type.
 Determines how the production order will behave:
 
 - **Standard** — Creates a single production order for the total quantity.
-- **Parent** — Creates a parent (master) order that acts only as a container for subordinate orders. The parent order has **no operations** and is not executed. Child orders are created manually and can have different [process versions](../Management/Processes.md#versions) than the parent. To create a child order go to **Linked ducuments** →  **Create child production order**.
+- **Parent** — Creates a parent (master) order that acts only as a container for subordinate orders. The parent order has **no operations** and is not executed. Child orders are created manually and can have different [process versions](../Management/Processes.md#versions) than the parent. To create a child order go to **Linked documents** →  **Create child production order**.
 
    ![Production Order Create Child](../Images/ProductionOrderCreateChild.png "Parent Production Order Create Child")
 

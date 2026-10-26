@@ -25,16 +25,16 @@ Shows the selected machine name and rating (if used).
 
 ## Machine status
 
-Displays the machineâ€™s current operating condition:
+Displays the machine’s current operating condition:
 
-- **Running** â€“ shows the cycle time (e.g., `0 s/piece`)  
-- **Downtime** â€“ shows the duration of the active downtime  
+- **Running** – shows the cycle time (e.g., `45 s/kos`)  
+- **Downtime** – shows the duration of the active downtime  
 
 The status label may vary depending on machine state (e.g., *Working*, *Stopped*).
 
 ## OEE indicator
 
-A circular gauge representing the machineâ€™s **Overall Equipment Effectiveness** (%).  
+A circular gauge representing the machine’s **Overall Equipment Effectiveness** (%).  
 
 If insufficient data is available, OEE may show **0%**.
 
@@ -51,8 +51,8 @@ This includes:
 
 ### Incompliant  
 Shows defective pieces relative to total produced:
-- **Count** â€“ defective / produced  
-- **Percentage** â€“ defect rate
+- **Count** – defective / produced  
+- **Percentage** – defect rate
 
 ### Production  
 Shows production progress for the current operation:

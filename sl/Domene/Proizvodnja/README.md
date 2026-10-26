@@ -28,6 +28,7 @@ Domena je organizirana v naslednja funkcionalna področja:
 
 - **[Proizvodni nalogi](Dokumenti/ProizvodniNalogi.md)** – definicija in izvajanje proizvodnega dela
 - **[Izvedba](Dokumenti/Izvedba.md)** – sprotno poročanje o dejavnostih na proizvodnih linijah
+- **[Kooperanti](Dokumenti/Kooperanti.md)** – izdaja in prevzem materiala za operacije, ki jih izvajajo zunanji kooperanti
 - **[Zahteve](Dokumenti/Zahteve.md)** – agregirane materialne potrebe za planirano proizvodnjo
 - **[Analiza](#analiza)** – vpogled v zastoje, uspešnost, izgube, OEE in kazalnike
 - **[Upravljanje](#upravljanje)** – konfiguracija, zasnova procesov in šifranti
