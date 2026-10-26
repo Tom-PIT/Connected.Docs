@@ -14,7 +14,7 @@ Ovaj zaslon pruža poseban tijek rada za izdavanje materijala kooperantima i nje
 
 Za pristup ovom zaslonu otvorite **Proizvodnja / Kooperanti** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![Pregled kooperanata](../Images/CooperatorsIssue.png "Pregled kooperanata")
+![Pregled kooperanata](../Images/CooperatorsIssueHR.png "Pregled kooperanata")
 
 ## Preduvjeti
 
@@ -24,7 +24,7 @@ Kako bi operacija bila dostupna kooperantima:
 - u obrascu za izradu ili uređivanje operacije mora biti dodijeljena oznaka `cooperator`
 - vanjska tvrtka mora postojati u [**Poslovnom imeniku**](../../../Zajednicko/Upravljanje/PoslovniImenik.md) s omogućenom ulogom **Kooperant**
 
-![Oznaka operacije](../Images/CooperatorsOperationTag.png "Oznaka operacije")
+![Oznaka operacije](../Images/CooperatorsOperationTagHR.png "Oznaka operacije")
 
 Na zaslonu **Kooperanti** prikazuju se samo operacije s oznakom `cooperator`.
 
@@ -43,13 +43,13 @@ Klikom na pokazatelj prikazuje se odgovarajući popis. Za sužavanje popisa kori
 - operacija
 - kooperant (vanjska tvrtka)
 
-![Za izdavanje / Za zaprimanje](../Images/CooperatorsIssue.png "Za izdavanje / Za zaprimanje")
+![Za izdavanje / Za zaprimanje](../Images/CooperatorsIssueHR.png "Za izdavanje / Za zaprimanje")
 
 ### Prikaz za operatera (Izvedba)
 
 Kada operater otvori operaciju za koju je potreban vanjski kooperant, zaslon [**Izvedba**](Izvedba.md) jasno prikazuje da se taj korak izvodi izvana. 
 
-![Zaslon Izvedba](../Images/CooperatorsExecutionScreen.png "Zaslon Izvedba")
+![Zaslon Izvedba](../Images/CooperatorsExecutionScreenHR.png "Zaslon Izvedba")
 
 Operater sada može kliknuti **Početak** za pokretanje operacije. Nakon pokretanja operacija se prikazuje na popisu **Za izdavanje** na zaslonu **Kooperanti**.
 
@@ -84,7 +84,7 @@ Nakon izdavanja materijala operacija se uklanja s popisa Za izdavanje.
 
 Nakon izdavanja materijala operacija se prikazuje u prikazu **Za zaprimanje**.
 
-![Za zaprimanje](../Images/CooperatorsReceive.png "Za zaprimanje")
+![Za zaprimanje](../Images/CooperatorsReceiveHR.png "Za zaprimanje")
 
 Ovdje je tijek rada obrnut:
 

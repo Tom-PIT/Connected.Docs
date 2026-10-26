@@ -25,13 +25,13 @@ Za pristup ovoj stranici otvorite **Proizvodnja / Zahtjevi** u [navigaciji](../.
 |--------|------|
 | **Zahtjevi** | Naziv i šifra materijala. Svaki materijal možete proširiti kako biste vidjeli koje ga operacije troše. |
 | **Količina** | Prikazuje dvije vrijednosti:<br>• **Količina u intervalu** — potrebna količina u odabranom razdoblju (gornja vrijednost)<br>• **Ukupna količina** — ukupna planirana potrošnja svih operacija koje koriste taj materijal (donja vrijednost) |
-| **Zaliha** | Trenutno dostupna zaliha. <br>• Ako je zaliha manja od potrebne, prikazuje se **crveno**. <br>• Klikom na ikonu **+** otvara se prozor za izradu **nove narudžbenice**. |
+| **Zaliha** | Trenutno dostupna zaliha. <br>• Ako je zaliha manja od potrebne, prikazuje se **narančasto**, a ako je zaliha **0**, **crveno** (pogledajte [Oznaka bojom](#oznaka-bojom)). <br>• Klikom na ikonu **+** otvara se prozor za izradu **nove narudžbenice**. |
 
 ## Pregled popisa
 
 Svaki redak predstavlja **potrebu za materijalom** na temelju unosa definiranih u procesima i proizvodnim nalozima.
 
-![Zahtjevi](../Images/RequirementsList.png "Pregled zahtjeva")
+![Zahtjevi](../Images/RequirementsListHR.png "Pregled zahtjeva")
 
 ### Filtri
 
@@ -47,7 +47,7 @@ Uključuju se samo materijali potrebni za operacije koje su u odabranom vremensk
 
 Kliknite strelicu za proširenje pokraj materijala kako biste prikazali sve operacije koje ga koriste:
 
-![Prošireni zahtjevi](../Images/RequirementsExpandedLine.png "Prošireni zahtjevi za materijalom")
+![Prošireni zahtjevi](../Images/RequirementsExpandedLineHR.png "Prošireni zahtjevi za materijalom")
 
 Za svaku operaciju prikazuje se:
 
