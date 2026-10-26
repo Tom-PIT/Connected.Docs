@@ -9,7 +9,7 @@ Stranica **Organization unit loss** pruža pregled svih evidentiranih proizvodni
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Organization unit loss** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![Organization unit loss](../Images/OrganizationUnitLossView.png "Organization unit loss")
+![Organization unit loss](../Images/OrganizationUnitLossViewHR.png "Organization unit loss")
 
 ## Filtri
 

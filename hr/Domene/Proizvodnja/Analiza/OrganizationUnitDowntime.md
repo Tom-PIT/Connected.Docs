@@ -9,7 +9,7 @@ Stranica **Organization unit downtime** pruža detaljan popis svih zastoja evide
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Organization unit downtime** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![Organization unit downtime](../Images/OrganizationUnitDowntimeView.png "Organization unit downtime")
+![Organization unit downtime](../Images/OrganizationUnitDowntimeViewHR.png "Organization unit downtime")
 
 ## Filtri
 

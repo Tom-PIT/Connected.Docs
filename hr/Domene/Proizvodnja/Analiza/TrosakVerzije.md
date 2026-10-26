@@ -12,7 +12,7 @@ Zaslon se otvara klikom na **vrijednost troška** u stupcu **Cost** na zaslonu *
 
 Stranica pruža detaljnu raščlambu izračuna ukupnog troška proizvodnje, uključujući materijale, rad i dodatne troškove.
 
-![Analiza troška verzije](../Images/VersionCostView.png "Analiza troška verzije")
+![Analiza troška verzije](../Images/VersionCostViewHR.png "Analiza troška verzije")
 
 > [!NOTE]
 > Ista analiza troška dostupna je i iz pogleda [**Troškovi zadataka**](../../Resursi/Pogledi/WorkItemsCosts.md) odabirom **Procesi**.
@@ -37,8 +37,11 @@ Ploča **Raspodjela** prikazuje grafičku raščlambu ukupnog troška.
 
 - **Materijali** – trošak svih ulaznih materijala koje operacije troše
 - **Rad** – trošak ljudskog i strojnog rada potrebnog za izvođenje operacija
+- **Troškovi** – dodatni troškovi verzije procesa
 
 Ovaj prikaz pomaže brzo prepoznati koje komponente najviše pridonose ukupnom trošku.
+
+Ispod ploča nalaze se kartice **Materijali**, **Rad** i **Troškovi**. Broj u zagradi pokazuje koliko je stavki na kartici.
 
 ## Materijali
 
@@ -86,7 +89,7 @@ Ako u procesu nisu konfigurirani troškovi, odjeljak prikazuje **Nema troškova*
 
 ## Ukupni trošak
 
-Vrijednost **Ukupno** na dnu stranice prikazuje konačni **procijenjeni trošak proizvodnje po komadu**, izračunat kao zbroj:
+Iznos na ploči **Trošak** prikazuje konačni **procijenjeni trošak proizvodnje po komadu**, izračunat kao zbroj:
 
 - materijala
 - rada

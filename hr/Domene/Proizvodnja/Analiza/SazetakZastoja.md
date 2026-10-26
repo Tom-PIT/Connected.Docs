@@ -9,7 +9,7 @@ Stranica **Sažetak zastoja** pruža pregled evidentiranih proizvodnih zastoja u
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Sažetak zastoja** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![Sažetak zastoja](../Images/DowntimeSummaryView.png "Sažetak zastoja")
+![Sažetak zastoja](../Images/DowntimeSummaryViewHR.png "Sažetak zastoja")
 
 > [!TIP]
 > Za potpuni prikaz funkcionalnosti pogledajte video vodič **[Downtime summary](https://www.youtube.com/watch?v=IdEsZkN2Wv0)**.
@@ -24,7 +24,7 @@ Određuje način zbrajanja podataka o zastojima:
 - **Broj** – broj zastoja
 - **Trajanje** – ukupno trajanje zastoja
 
-![Filtar Tip](../Images/DowntimeSummaryType.png "Filtar Tip")
+![Filtar Tip](../Images/DowntimeSummaryTypeHR.png "Filtar Tip")
 
 ### Od / Iza
 
@@ -67,7 +67,7 @@ Na dnu stranice detaljan popis prikazuje:
 
 ## Primjer
 
-![Sažetak zastoja](../Images/DowntimeSummaryExample.png "Sažetak zastoja")
+![Sažetak zastoja](../Images/DowntimeSummaryExampleHR.png "Sažetak zastoja")
 
 U gornjem primjeru:
 - odabran je način **Trajanje**

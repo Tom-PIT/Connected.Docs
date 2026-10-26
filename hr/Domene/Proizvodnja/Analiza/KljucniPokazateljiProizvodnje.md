@@ -18,7 +18,7 @@ Izračun pokazatelja temelji se na [standardnoj metodologiji OEE](https://www.oe
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Ključni pokazatelji uspješnosti proizvodnje** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![Pregled ključnih pokazatelja proizvodnje](../Images/ProductionKPIsViewV2.png "Pregled ključnih pokazatelja proizvodnje")
+![Pregled ključnih pokazatelja proizvodnje](../Images/ProductionKPIsViewHR.png "Pregled ključnih pokazatelja proizvodnje")
 
 > [!TIP]
 > Za potpuni prikaz analitike proizvodnje pogledajte video vodič **[Key Performance Indicators](https://www.youtube.com/watch?v=zzs6wJh-tQY)**.
@@ -31,11 +31,11 @@ Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Ključni pokazatelji
 Za prikupljanje podataka o ključnim pokazateljima proizvodnje:
 - fizički resursi moraju imati oznaku ```equipment```
 
-  ![Oznaka equipment](../Images/ProductionKPIsEquipmentTag.png "Oznaka equipment")
+  ![Oznaka equipment](../Images/ProductionKPIsEquipmentTagHR.png "Oznaka equipment")
 
 - određeni stroj mora biti dodijeljen proizvodnim operacijama
 
-  ![Stroj na operaciji](../Images/ProductionKPIsOperationEquipment.png "Stroj na operaciji")
+  ![Stroj na operaciji](../Images/ProductionKPIsOperationEquipmentHR.png "Stroj na operaciji")
 
 ## Filtri
 
@@ -63,7 +63,7 @@ Odaberite pokazatelj proizvodnje koji želite analizirati.
 ### Ključ entiteta
 
 Određuje za koju se vrstu resursa mjeri pokazatelj:
-- **Stroj**
+- **Oprema**
 - **Organizacijska jedinica**
 
 ### Vrijednost entiteta

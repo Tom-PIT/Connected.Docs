@@ -11,7 +11,7 @@ Dok domena **[Nabava](../Nabava/README.md)** osigurava dostupnost materijala, do
 
 Za pristup domeni otvorite **Proizvodnja** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-![Karta domene Proizvodnja](Images/ProductionDomainSitemap.png "Karta domene Proizvodnja")
+![Karta domene Proizvodnja](Images/ProductionDomainSitemapHR.png "Karta domene Proizvodnja")
 
 > [!NOTE]  
 > Dostupnost proizvodnih funkcionalnosti ovisi o proizvodnoj konfiguraciji tvrtke, procesima i postavkama resursa.
@@ -22,11 +22,12 @@ Domena je organizirana u sljedeća funkcionalna područja:
 
 - **[Proizvodni nalozi](Dokumenti/ProizvodniNalozi.md)** – definiranje i izvođenje proizvodnog rada  
 - **[Izvedba](Dokumenti/Izvedba.md)** – evidentiranje aktivnosti u pogonu u stvarnom vremenu  
+- **[Kooperanti](Dokumenti/Kooperanti.md)** – izdavanje i zaprimanje materijala za operacije koje izvode vanjski kooperanti  
 - **[Zahtjevi](Dokumenti/Zahtjevi.md)** – zbirne potrebe za materijalom za planiranu proizvodnju  
 - **[Analiza](#analiza)** – uvid u zastoje, učinkovitost, gubitke, OEE i ključne pokazatelje  
 - **[Upravljanje](#upravljanje)** – konfiguracija, oblikovanje procesa i matični podaci  
 
-![Pregled domene Proizvodnja](Images/ProductionDomainOverview.png "Pregled domene Proizvodnja")
+![Pregled domene Proizvodnja](Images/ProductionDomainOverviewHR.png "Pregled domene Proizvodnja")
 
 ## Proizvodni nalozi
 
@@ -58,7 +59,7 @@ Stranica **[Zahtjevi](Dokumenti/Zahtjevi.md)** objedinjuje sve planirane ulazne 
 
 Odjeljak **Analiza** pruža uvid u učinkovitost proizvodnje, zastoje, kvalitetu, raspodjelu gubitaka i OEE.
 
-![Analiza](Images/ProductionDomainAnalytics.png "Analiza proizvodnje")
+![Analiza](Images/ProductionDomainAnalyticsHR.png "Analiza proizvodnje")
 
 Dostupni analitički prikazi:
 
@@ -76,7 +77,7 @@ Ti uvidi podržavaju planiranje proizvodnje, kontinuirano poboljšanje i donoše
 
 Odjeljak **Upravljanje** sadrži konfiguraciju, definicije procesa i šifrarnike povezane s proizvodnjom koji su potrebni za nesmetan rad.
 
-![Upravljanje proizvodnjom](Images/ProductionDomainManagement.png "Upravljanje proizvodnjom")
+![Upravljanje proizvodnjom](Images/ProductionDomainManagementHR.png "Upravljanje proizvodnjom")
 
 Dostupne postavke i šifrarnici:
 

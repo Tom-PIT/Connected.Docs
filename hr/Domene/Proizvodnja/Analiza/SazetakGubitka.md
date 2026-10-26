@@ -9,7 +9,7 @@ Stranica **Sažetak gubitka (škarta)** pruža pregled neispravnih ili neupotreb
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Sažetak gubitka (škarta)** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![Sažetak gubitka (škarta)](../Images/LossSummaryView.png "Sažetak gubitka (škarta)")
+![Sažetak gubitka (škarta)](../Images/LossSummaryViewHR.png "Sažetak gubitka (škarta)")
 
 > [!TIP]
 > Za potpuni prikaz analitike proizvodnje pogledajte video vodič **[Loss summary](https://www.youtube.com/watch?v=BnboA1WuUu0)**.

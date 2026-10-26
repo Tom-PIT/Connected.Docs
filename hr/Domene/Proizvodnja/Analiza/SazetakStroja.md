@@ -9,7 +9,7 @@ Stranica **Sažetak stroja** pruža pregled učinkovitosti stroja, uključujući
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Analiza / Sažetak stroja** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-![Sažetak stroja](../Images/EquipmentSummaryView2.png "Sažetak stroja")
+![Sažetak stroja](../Images/EquipmentSummaryViewHR.png "Sažetak stroja")
 
 > [!TIP]
 > Za potpuni prikaz funkcionalnosti pogledajte video vodič **[Equipment summary](https://www.youtube.com/watch?v=PXPXDL5yL4w)**.
@@ -28,8 +28,8 @@ Prikazuje naziv odabranog stroja i ocjenu (ako se koristi).
 
 Prikazuje trenutačno radno stanje stroja:
 
-- **Running** – prikazuje vrijeme ciklusa (npr. `0 s/piece`)
-- **Downtime** – prikazuje trajanje aktivnog zastoja
+- **U izvođenju** – prikazuje vrijeme ciklusa (npr. `45 s/kos`)
+- **Zaustavljen** – prikazuje trajanje aktivnog zastoja
 
 Oznaka statusa može se razlikovati ovisno o stanju stroja (npr. *Working*, *Stopped*).
 
