@@ -5,7 +5,7 @@
    viewBox="0 0 1022 219.57172"
    version="1.1"
    id="svg7"
-   sodipodi:docname="ProductionOrderLifecycle.svg"
+   sodipodi:docname="ProductionOrderLifecycleHR.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -79,7 +79,7 @@
      x="90.473633"
      y="43.443848"
      id="text1"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Draft</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Nacrt</text>
   <rect
      class="box"
      x="281"
@@ -93,7 +93,7 @@
      x="370.84424"
      y="41.14502"
      id="text2"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Pending</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">U pripremi</text>
   <rect
      class="box"
      x="561"
@@ -107,7 +107,7 @@
      x="651.24707"
      y="43.008789"
      id="text3"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Active</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Aktivan</text>
   <rect
      class="box"
      x="841"
@@ -121,7 +121,7 @@
      x="931.13965"
      y="43.331055"
      id="text4"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Closed</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Zatvoren</text>
   <rect
      class="activity"
      x="560.05444"
@@ -135,7 +135,7 @@
      x="650.83887"
      y="180.57843"
      id="text6"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Execution</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">Izvedba</text>
   <line
      class="arrow"
      x1="181"

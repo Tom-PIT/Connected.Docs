@@ -9,7 +9,7 @@ Odjeljak **Kvaliteta** prikazuje sve [**kontrolne popise**](../../Kvaliteta/Upra
 
 Ti se kontrolni popisi dodaju određenom **[procesu](../Upravljanje/Procesi.md) ili [operaciji](../Upravljanje/Operacije.md)** kako bi se osiguralo provođenje postupaka kontrole kvalitete tijekom izvođenja naloga.
 
-![Odjeljak Kvaliteta](../Images/ProductionOrderQualitySection.png "Odjeljak Kvaliteta")
+![Odjeljak Kvaliteta](../Images/ProductionOrderQualitySectionHR.png "Odjeljak Kvaliteta")
 
 ## Pregled
 
@@ -28,7 +28,7 @@ Dovršeni kontrolni popisi vizualno su označeni:
 
 Dostupne su sljedeće akcije:
 
-- **Započni** – ručno pokreće kontrolni popis. Kontrolni popisi obično su konfigurirani za automatsko pokretanje u određenom trenutku (npr. *Na početku*, *Za pauzo*), ali ih je moguće pokrenuti i ručno ovom akcijom.
+- **Pokreni** – ručno pokreće kontrolni popis. Kontrolni popisi obično su konfigurirani za automatsko pokretanje u određenom trenutku (npr. *Na početku*, *Za pauzo*), ali ih je moguće pokrenuti i ručno ovom akcijom.
 
 - **Ponovi** – ponovno izvršava kontrolni popis i izrađuje novi zapis izvršavanja. Korisno je kada kontrolni popis treba ponoviti (npr. nakon otklanjanja problema).
 

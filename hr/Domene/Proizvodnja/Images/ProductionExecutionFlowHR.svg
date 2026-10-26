@@ -5,9 +5,9 @@
    viewBox="0 0 1103.8959 480.1947"
    version="1.1"
    role="img"
-   aria-label="Production execution flow"
+   aria-label="Tijek izvođenja proizvodnje"
    id="svg31"
-   sodipodi:docname="ProductionExecutionFlow.svg"
+   sodipodi:docname="ProductionExecutionFlowHR.svg"
    xml:space="preserve"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -175,12 +175,12 @@
        id="tspan2"
        x="549.98468"
        y="26.331161"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:1">Production</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:1">Proizvodni</tspan><tspan
        sodipodi:role="line"
        x="549.98468"
        y="53.921909"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:1"
-       id="tspan3">order</tspan></text><line
+       id="tspan3">nalog</tspan></text><line
      class="line"
      x1="550.19849"
      y1="74.56842"
@@ -201,7 +201,7 @@
      y="159.36325"
      id="text3-5"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;dominant-baseline:middle;text-anchor:middle;fill:#000000;stroke-width:1"
-     transform="scale(1.0000948,0.99990521)">Execution</text><path
+     transform="scale(1.0000948,0.99990521)">Izvedba</text><path
      class="connector"
      d="m 550.19847,194.1171 v 45.98026 H 117.90209"
      id="path3-1"
@@ -281,7 +281,7 @@
      y="316.0343"
      id="text13-2"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;dominant-baseline:middle;text-anchor:middle;fill:#000000;stroke-width:1"
-     transform="scale(1.0000948,0.99990521)">Consumed</text><rect
+     transform="scale(1.0000948,0.99990521)">Potrošeno</text><rect
      class="box"
      x="209.88"
      y="276.88162"
@@ -295,7 +295,7 @@
      y="316.14749"
      id="text15-6"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;dominant-baseline:middle;text-anchor:middle;fill:#000000;stroke-width:1"
-     transform="scale(1.0000948,0.99990521)">Effort</text><rect
+     transform="scale(1.0000948,0.99990521)">Rad</text><rect
      class="box"
      x="384.63818"
      y="276.88162"
@@ -313,7 +313,7 @@
      xml:space="preserve"><tspan
        x="509"
        y="342"
-       id="tspan6">Quality</tspan></text><rect
+       id="tspan6">Kvaliteta</tspan></text><rect
      class="box"
      x="559.3963"
      y="276.88162"
@@ -327,7 +327,7 @@
      y="315.71097"
      id="text20-6"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;dominant-baseline:middle;text-anchor:middle;fill:#000000;stroke-width:1"
-     transform="scale(1.0000948,0.99990521)">Downtime</text><rect
+     transform="scale(1.0000948,0.99990521)">Zastoj</text><rect
      class="box"
      x="734.1543"
      y="276.88162"
@@ -345,7 +345,7 @@
      xml:space="preserve"><tspan
        x="889"
        y="342"
-       id="tspan7">Loss</tspan></text><rect
+       id="tspan7">Loši komadi</tspan></text><rect
      class="box"
      x="908.91248"
      y="276.88162"
@@ -359,7 +359,7 @@
      y="315.71097"
      id="text24-2"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;dominant-baseline:middle;text-anchor:middle;fill:#000000;stroke-width:1"
-     transform="scale(1.0000948,0.99990521)">Instructions</text><path
+     transform="scale(1.0000948,0.99990521)">Upute</text><path
      class="connector"
      d="m 117.90209,350.44998 v 41.38224 h 432.29638"
      id="path24-7"
@@ -404,7 +404,7 @@
      y="447.25565"
      id="text29-3"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;dominant-baseline:middle;text-anchor:middle;fill:#000000;stroke-width:1"
-     transform="scale(1.0000948,0.99990521)">Complete execution</text><line
+     transform="scale(1.0000948,0.99990521)">Dovršetak izvođenja</text><line
      class="line"
      x1="674.36865"
      y1="447.00854"
@@ -430,4 +430,4 @@
        id="tspan4"
        x="909.12653"
        y="449.38962"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:1">Production order closed</tspan></text></svg>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.0726px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:1">Proizvodni nalog zatvoren</tspan></text></svg>

@@ -8,7 +8,7 @@
 Proizvodni nalozi definiraju rad potreban za proizvodnju proizvoda prema odabranom procesu i verziji.  
 Prolaze kroz životni ciklus **Nacrt → U pripremi → Aktivan → Zatvoren** i mogu sadržavati više operacija, resursa, unosa, izlaza i kontrola kvalitete, ovisno o dodijeljenom procesu.
 
-![Životni ciklus proizvodnog naloga](../Images/ProductionOrderLifecycle.svg "Životni ciklus proizvodnog naloga")
+![Životni ciklus proizvodnog naloga](../Images/ProductionOrderLifecycleHR.svg "Životni ciklus proizvodnog naloga")
 
 > [!NOTE]
 > **Preduvjeti**  
@@ -28,7 +28,7 @@ Za pristup proizvodnim nalozima otvorite **Proizvodnja / Proizvodni nalozi** u [
 
 Stranica Proizvodni nalozi prikazuje sve naloge grupirane po statusu. Za sužavanje popisa koristite filtre na lijevoj strani.
 
-![Popis proizvodnih naloga](../Images/ProductionOrdersList.png "Popis proizvodnih naloga")
+![Popis proizvodnih naloga](../Images/ProductionOrdersListHR.png "Popis proizvodnih naloga")
 
 ### Filtri
 
@@ -38,6 +38,7 @@ Stranica Proizvodni nalozi prikazuje sve naloge grupirane po statusu. Za sužava
   -  **U pripremi** — dovršen nalog spreman za aktivaciju
   -  **Aktivan** — nalog u izvođenju; vidljiv u modulu **[Izvedba](Izvedba.md)**
   -  **Zatvoren** — dovršen nalog; rezultati su evidentirani 
+- **Organizacijska jedinica** – filtriranje naloga prema organizacijskoj jedinici.
 - **Projekt** – filtriranje proizvodnih naloga povezanih s određenim projektom.
 
 Traka za pretraživanje na vrhu omogućuje filtriranje prema oznaci proizvodnog naloga ili nazivu materijala.
@@ -60,15 +61,11 @@ U nacrtu je moguće uređivati:
 - **Proces** 
 - **Verziju**
 
-![Nacrt](../Images/ProductionOrdersDraft.png "Proizvodni nalog u statusu Nacrt")
+![Nacrt](../Images/ProductionOrdersDraftHR.png "Proizvodni nalog u statusu Nacrt")
 
 ### Objava proizvodnog naloga u nacrtu
 
-Za prijelaz nacrta u status **U pripremi** potrebno je odabrati **Organizacijsku jedinicu**, ako nije unaprijed definirana u [operaciji](../Upravljanje/Operacije.md).
-
-![Organizacijska jedinica](../Images/ProductionOrdersOrganizationUnits.png "Odabir organizacijske jedinice")
-
-Kada je nalog spreman, kliknite **Objavi**.
+Kada je nalog spreman, kliknite **Objavi**. Nalog prelazi u status **U pripremi**.
 
 ## Uređivanje proizvodnog naloga
 
@@ -89,6 +86,10 @@ U statusu U pripremi možete:
 - dodati napomene  
 - upravljati povezanim dokumentima
 
+Prije aktivacije u odjeljku **Proces**, na kartici **Operacije**, odaberite **Organizacijsku jedinicu** za svaku operaciju, ako nije unaprijed definirana u [operaciji](../Upravljanje/Operacije.md). Organizacijska jedinica ne može se odabrati dok je nalog u statusu **Nacrt**.
+
+![Organizacijska jedinica](../Images/ProductionOrdersOrganizationUnitsHR.png "Odabir organizacijske jedinice")
+
 Kada je nalog spreman za proizvodnju, kliknite **Aktiviraj**.
 
 ## Povezani dokumenti
@@ -102,17 +103,17 @@ Proizvodnom nalogu možete pridružiti druge povezane dokumente, kao što su:
 - drugi proizvodni nalozi (povezani ili nalozi koji proizvode ulazne materijale)  
 
 
-![Povezani dokumenti](../Images/ProductionOrdersLinkedDocuments.png "Povezani dokumenti")
+![Povezani dokumenti](../Images/ProductionOrdersLinkedDocumentsHR.png "Povezani dokumenti")
 
 Proizvodni nalozi prikazuju i sve povezane dokumente nastale tijekom životnog ciklusa naloga, kao što su izvješća o troškovima i potrošnji.
 
-![Povezani dokumenti proizvodnog naloga](../Images/ProductionOrdersLinkedDocumentsDocs.png "Povezani dokumenti proizvodnog naloga")
+![Povezani dokumenti proizvodnog naloga](../Images/ProductionOrdersLinkedDocumentsDocsHR.png "Povezani dokumenti proizvodnog naloga")
 
 ## Aktivni proizvodni nalozi
 
 Nakon aktivacije nalog prelazi u status **Aktivan** i spreman je za izvođenje u pogonu.
 
-![Aktivan](../Images/ProductionOrdersPendingV3.png "Aktivni proizvodni nalog")
+![Aktivan](../Images/ProductionOrdersActiveHR.png "Aktivni proizvodni nalog")
 
 Proizvodni radnici sada mogu izvoditi operacije u modulu **[Izvedba](Izvedba.md)**.
 
@@ -123,18 +124,18 @@ Odjeljak **Proces** prikazuje sve planirane [operacije](../Upravljanje/Operacije
 > - prikazuju **planirane** i **stvarne** količine. Planirana količina određena je odabranom verzijom procesa i količinom naloga, a stvarna količina odražava podatke izvođenja proizvodnje. 
 > - prikazuju **zalihu** materijala, tako da radnici mogu provjeriti dostupnost prije početka proizvodnje.
 
-![Prikaz procesa](../Images/ProductionOrdersProcessV3.png "Pregled procesa")
+![Prikaz procesa](../Images/ProductionOrdersProcessHR.png "Pregled procesa")
 
 Klikom na operaciju otvara se detaljan prikaz u kojem radnici mogu evidentirati podatke izvođenja, kao što su:
 
-- **Proizvedeno**
+- **Proizvodnja**
 - **Potrošeno**
 - **Loši komadi**
 - **Rad**
 
-![Uređivanje operacije proizvodnog naloga](../Images/ProductionOrderOperationEdit.png "Uređivanje operacije proizvodnog naloga")
+![Uređivanje operacije proizvodnog naloga](../Images/ProductionOrderOperationEditHR.png "Uređivanje operacije proizvodnog naloga")
 
-Svaki odjeljak ima gumb **Dodaj zapis** za evidentiranje podataka izvođenja. Na primjer, u odjeljku **Proizvedeno** možete evidentirati proizvedeni materijal, proizvedenu količinu i vrijeme proizvodnje.
+Svaka kartica ima gumb za dodavanje zapisa izvođenja (npr. **Dodaj proizvedeno**). Na primjer, na kartici **Proizvodnja** možete evidentirati proizvedeni materijal, proizvedenu količinu i vrijeme proizvodnje.
 
 ### Troškovi
 
@@ -148,7 +149,7 @@ Odjeljak [**Kvaliteta**](ProizvodniNaloziKvaliteta.md) prikazuje sve [**kontroln
 
 Kada je proizvodnja dovršena i sve operacije izvedene, nalog dobiva status **Zatvoren** i prikazuje se na popisu pod statusom **Zatvoren**.
 
-![Popis zatvorenih proizvodnih naloga](../Images/ProductionOrdersClosedList.png "Popis zatvorenih proizvodnih naloga")
+![Popis zatvorenih proizvodnih naloga](../Images/ProductionOrdersClosedListHR.png "Popis zatvorenih proizvodnih naloga")
 
 Popis prikazuje i trošak po proizvedenoj jedinici te strelicu koja pokazuje je li se trošak povećao ili smanjio u odnosu na prethodni zatvoreni nalog za isti materijal. Klikom na trošak po jedinici otvara se prikaz [**Troškovi zadataka**](../../Resursi/Pogledi/WorkItemsCosts.md) filtriran na odabrani nalog, u kojem možete analizirati raspodjelu troškova zadatka i detaljno pregledati troškove.
 
@@ -158,11 +159,11 @@ Zatvoreni nalozi:
 - pružaju potpunu povijest proizvodnje  
 - prikazuju proizvedene u odnosu na planirane količine, gubitke i izlaze 
 
-![Detalji zatvorenog proizvodnog naloga](../Images/ProductionOrderClosedDetail.png "Detalji zatvorenog proizvodnog naloga")
+![Detalji zatvorenog proizvodnog naloga](../Images/ProductionOrderClosedDetailHR.png "Detalji zatvorenog proizvodnog naloga")
 
 Odjeljak **Proces** prikazuje potpunu povijest izvođenja. Kliknite različite kartice za prikaz detalja, na primjer unosa korištenih tijekom proizvodnje:
 
-![Unosi zatvorenog proizvodnog naloga](../Images/ProductionOrdersClosedInputs.png "Unosi zatvorenog proizvodnog naloga")
+![Unosi zatvorenog proizvodnog naloga](../Images/ProductionOrdersClosedInputsHR.png "Unosi zatvorenog proizvodnog naloga")
 
 
 ### Vraćanje zatvorenog proizvodnog naloga u status Aktivan
@@ -171,9 +172,9 @@ Ako su nakon zatvaranja potrebne izmjene, nalog možete vratiti u status **Aktiv
 
 1. Otvorite zatvoreni proizvodni nalog.
 1. U izborniku odaberite **Vrati na aktivno**.
-1. Kliknite **Ponovno aktiviraj** na željenom procesu.
+1. Kliknite **Aktiviraj ponovno** na željenoj operaciji.
 
-![Ponovna aktivacija proizvodnog naloga](../Images/ProductionOrdersReactivate.png "Ponovna aktivacija proizvodnog naloga")
+![Ponovna aktivacija proizvodnog naloga](../Images/ProductionOrdersReactivateHR.png "Ponovna aktivacija proizvodnog naloga")
 
 ## Brisanje proizvodnog naloga
 
