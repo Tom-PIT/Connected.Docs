@@ -1,21 +1,21 @@
 <!-- app_route: /sitemap/planning -->
-<!-- app_label: Planning domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Planning/README.md -->
-<!-- canonical_source_title: Planning -->
+<!-- app_label: Planiranje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Planiranje/README.md -->
+<!-- canonical_source_title: Planiranje -->
 
-# Planning
+# Planiranje
 
-The **Planning** domain is used for **scheduling and monitoring production orders**. It provides visual tools to manage production timelines and track planned work.
+Domena **Planiranje** koristi se za **raspoređivanje i praćenje proizvodnih naloga**. Pruža vizualne alate za upravljanje vremenskim rasporedom proizvodnje i praćenje planiranog rada.
 
-To access this domain, navigate to **Planning** from the [navigation](../../Zajednicko/UI/Navigacija.md).
+Za pristup domeni otvorite **Planiranje** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-![Planning Domain](Images/PlanningSitemap.png "Planning Domain")
+![Karta domene Planiranje](Images/PlanningSitemapHR.png "Karta domene Planiranje")
 
-## Available views
+## Dostupni pogledi
 
-The domain includes the following views:
+Domena sadrži sljedeće poglede:
 
-- **[Planning](Views/Planning.md)** – calendar view of planned production orders, where you can schedule and adjust production timelines  
-- **Production order timeline** – timeline-based view showing the sequence and duration of production orders  
+- **[Planiranje](Pogledi/Planiranje.md)** – kalendarski prikaz planiranih proizvodnih naloga u kojem možete rasporediti i prilagoditi vremenski raspored proizvodnje  
+- **Production order timeline** – vremenska crta koja prikazuje redoslijed i trajanje proizvodnih naloga  
 
-![Planning Domain Overview](Images/PlanningOverview.png "Planning Domain Overview")
+![Pregled domene Planiranje](Images/PlanningOverviewHR.png "Pregled domene Planiranje")
