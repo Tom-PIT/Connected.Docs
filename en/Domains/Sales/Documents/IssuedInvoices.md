@@ -18,7 +18,14 @@ Issued invoices are typically created at the end of the sales chain:
 3. Goods are shipped using **[Delivery notes](DeliveryNotes.md)** and related issues.  
 4. Finally, an issued invoice is created (often from the delivery note or sales order) and sent to the customer for payment.
 
-![Sales flow](../Images/IssuedInvoicesDiagram.svg "Sales flow")
+```mermaid
+flowchart LR
+  OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
+  LD["Supply order<br>Maintenance order<br>Production order"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class II current
+```
 
 Invoices can also be created manually as stand-alone documents when required.
 
