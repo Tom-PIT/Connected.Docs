@@ -26,7 +26,6 @@ flowchart LR
     R1 ~~~ R2
   end
   ACT --> CE[Complete execution] --> PC[Production order closed]
-  style ACT fill:none,stroke:none
   style R1 fill:none,stroke:none
   style R2 fill:none,stroke:none
 ```
