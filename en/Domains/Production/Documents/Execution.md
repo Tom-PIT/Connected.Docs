@@ -9,7 +9,21 @@ The **Execution** module is used by production workers to perform and record wor
 
 Most production workers are automatically redirected to the **Execution** view upon login.
 
-![Production execution flow](../Images/ProductionExecutionFlow.svg "Production execution flow")
+```mermaid
+flowchart TB
+  PO[Production order] --> EX[Execution]
+  EX --> ACT
+  subgraph ACT [ ]
+    direction LR
+    CO[Consumed]
+    EF[Effort]
+    QU[Quality]
+    DT[Downtime]
+    LO[Loss]
+    IS[Instructions]
+  end
+  ACT --> CE[Complete execution] --> PC[Production order closed]
+```
 
 > [!TIP]
 > For a full demonstration, see the **[Executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.

@@ -5,7 +5,10 @@
 
 Ta vodič v preprostih korakih pojasnjuje, kako spremljati proizvodno delo in izboljševati rezultate. Beležili boste izvedbo (porabljene materiale, izhode, izmet, zastoje, vložen trud) ter nato z jasnimi poročili in kazalniki KPI prepoznali ozka grla in določili, kaj je treba najprej izboljšati.
 
-![Potek učinkovitosti](Images/EfficiencyFlowSL.svg "Potek učinkovitosti")
+```mermaid
+flowchart LR
+  A[Definirajte oznake procesov] --> B[Izvedite zapis] --> C[Pregled KPI in povzetkov] --> D[Ukrepi na podlagi ugotovitev]
+```
 
 **Cilj:** beleženje dejanske izvedbe (poraba, izmet, zastoji, vložen trud) ter pregled kazalnikov KPI in povzetkov za prepoznavanje ozkih grl.
 

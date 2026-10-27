@@ -19,7 +19,14 @@ A typical flow:
 3. From the sales order, continue the operational workflow—production, purchasing, delivery, etc.  
 4. Eventually, generate a [**Delivery note**](DeliveryNotes.md), and finally an [**Issued invoice**](IssuedInvoices.md).
 
-![Offers in the sales process](../Images/OfferDiagram.svg "Offers in the sales process")
+```mermaid
+flowchart LR
+  OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
+  LD["Supply order<br>Maintenance order<br>Production order"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class OF current
+```
 
 ## Schema
 
