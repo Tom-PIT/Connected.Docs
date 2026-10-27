@@ -6,7 +6,10 @@
 
 Ta vodič prikazuje tipičen prodajni proces, ki vključuje korak avansnega računa. Za podrobnosti uporabite povezave; nastavitev ne podvajajte na tej strani.
 
-![Prodajni proces z avansnim računom](Images/SalesFlowWithPrepaymentSL.svg "Prodajni proces z avansnim računom")
+```mermaid
+flowchart LR
+  OF[Ponudba] --> PI[Predračun] --> PR[Avansni račun] --> SO[Naročilo strank] --> DN["Dobavnica<br>+ Izdajnica"] --> II[Izdani račun] --> PA[Plačilo]
+```
 
 > [!TIP]
 > Sledite temu vodiču korak za korakom za konfiguracijo platforme. Po potrebi uporabite povezave za odpiranje posameznega šifranta ali nastavitve, nato pa se vrnite na to stran in nadaljujte z naslednjim korakom.
