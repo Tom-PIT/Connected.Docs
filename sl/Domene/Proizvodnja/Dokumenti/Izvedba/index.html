@@ -7029,11 +7029,11 @@
 <h1 id="izvedba">Izvedba<a class="headerlink" href="#izvedba" title="Permanent link">&para;</a></h1>
 <p>Modul <strong>Izvedba</strong> uporabljajo proizvodni delavci za izvajanje in beleženje dela na dodeljenih proizvodnih nalogih. Omogoča sprotno spremljanje napredka, proizvedenih količin, <a href="../Zastoj/">zastojev</a>, <a href="../SlabiKosi/">slabih kosov</a>, <a href="../Kvaliteta/">kvalitete</a> in drugih aktivnosti.</p>
 <p>Večina proizvodnih delavcev je ob prijavi samodejno preusmerjena na pogled Izvedba.</p>
-<pre class="mermaid"><code>flowchart TB
+<pre class="mermaid"><code>flowchart LR
   PO[Proizvodni nalog] --&gt; EX[Izvedba]
   EX --&gt; ACT
   subgraph ACT [ ]
-    direction LR
+    direction TB
     CO[Poraba]
     EF[Delo]
     QU[Kvaliteta]

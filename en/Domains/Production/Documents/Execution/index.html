@@ -7029,11 +7029,11 @@
 <h1 id="execution">Execution<a class="headerlink" href="#execution" title="Permanent link">&para;</a></h1>
 <p>The <strong>Execution</strong> module is used by production workers to perform and record work on assigned production orders. It provides real-time tracking of progress, produced quantities, <a href="../Downtime/">downtime</a>, <a href="../Loss/">losses</a>, <a href="../Quality/">quality checklists</a>, and other activities.</p>
 <p>Most production workers are automatically redirected to the <strong>Execution</strong> view upon login.</p>
-<pre class="mermaid"><code>flowchart TB
+<pre class="mermaid"><code>flowchart LR
   PO[Production order] --&gt; EX[Execution]
   EX --&gt; ACT
   subgraph ACT [ ]
-    direction LR
+    direction TB
     CO[Consumed]
     EF[Effort]
     QU[Quality]
