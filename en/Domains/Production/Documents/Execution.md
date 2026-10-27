@@ -10,11 +10,11 @@ The **Execution** module is used by production workers to perform and record wor
 Most production workers are automatically redirected to the **Execution** view upon login.
 
 ```mermaid
-flowchart TB
+flowchart LR
   PO[Production order] --> EX[Execution]
   EX --> ACT
   subgraph ACT [ ]
-    direction LR
+    direction TB
     CO[Consumed]
     EF[Effort]
     QU[Quality]
