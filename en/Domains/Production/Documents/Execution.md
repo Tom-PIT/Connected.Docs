@@ -15,15 +15,21 @@ flowchart LR
   EX --> ACT
   subgraph ACT [ ]
     direction TB
-    CO[Consumed]
-    EF[Effort]
-    QU[Quality]
-    DT[Downtime]
-    LO[Loss]
-    IS[Instructions]
+    subgraph R1 [ ]
+      direction LR
+      CO[Consumed] ~~~ EF[Effort] ~~~ QU[Quality]
+    end
+    subgraph R2 [ ]
+      direction LR
+      DT[Downtime] ~~~ LO[Loss] ~~~ IS[Instructions]
+    end
+    R1 ~~~ R2
   end
   ACT --> CE[Complete execution] --> PC[Production order closed]
+  style R1 fill:none,stroke:none
+  style R2 fill:none,stroke:none
 ```
+
 
 > [!TIP]
 > For a full demonstration, see the **[Executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.
