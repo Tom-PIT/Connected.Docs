@@ -11,7 +11,11 @@ They move through the life cycle **Draft → Pending → Active → Closed**, an
 ```mermaid
 flowchart LR
     D[Draft] --> P[Pending] --> A[Active] --> C[Closed]
-    A -.-> E[Execution]
+    subgraph X [Execution module]
+        E[Execution]
+    end
+    A -.-> E
+    E -.-> C
 ```
 
 > [!NOTE]
