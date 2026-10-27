@@ -80,6 +80,17 @@ flowchart TB
   end
 ```
 
+### Option 4: Horizontal flow with one box under Execution
+
+```mermaid
+flowchart TB
+  subgraph MAIN [ ]
+    direction LR
+    PO[Production order] --> EX[Execution] --> CE[Complete execution] --> PC[Production order closed]
+  end
+  EX --> ACT["Consumed, Effort, Quality<br>Downtime, Loss, Instructions"]
+```
+
 > [!TIP]
 > For a full demonstration, see the **[Executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.
 
