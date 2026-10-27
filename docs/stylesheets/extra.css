@@ -7,6 +7,25 @@
     height: auto;
 }
 
+/* Center Mermaid diagrams. Mermaid replaces the <pre> with a <div class="mermaid">, so target that */
+.md-typeset .mermaid {
+    text-align: center;
+    overflow-x: auto;
+}
+
+.md-typeset .mermaid svg {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Brighter diagram text on the dark scheme. Mermaid's own id-scoped rules need !important to be overridden */
+[data-md-color-scheme="slate"] .mermaid .nodeLabel,
+[data-md-color-scheme="slate"] .mermaid .edgeLabel,
+[data-md-color-scheme="slate"] .mermaid text {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+}
+
 /* Slightly improve normal section lists */
 .md-typeset h2 + ul {
     margin-top: 0.4rem;
