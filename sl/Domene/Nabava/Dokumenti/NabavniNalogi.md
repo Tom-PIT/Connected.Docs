@@ -22,7 +22,12 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 4. Ko so vsi materiali prevzeti, se nabavni nalog samodejno premakne v stanje **Zaključeno**.  
    - Če je prevzem le delni, dokument ostane v stanju **Na voljo**, dokler ni v celoti zaključen.
 
-![Nabavni nalogi v nabavnem procesu](../Images/SupplyOrderDiagramSL.svg "Nabavni nalogi v nabavnem procesu")
+```mermaid
+flowchart LR
+  IN[Povpraševanje] --> SU[Nabavni nalog] --> RE[Prevzem]
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class SU current
+```
 
 ## Shema
 

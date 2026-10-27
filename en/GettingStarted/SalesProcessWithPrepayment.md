@@ -5,7 +5,10 @@
 
 This guide walks through a typical sales process including a prepayment step. Use links for details; do not duplicate configuration here.
 
-![Sales flow with prepayment](Images/SalesFlowWithPrepayment.svg "Sales flow with prepayment")
+```mermaid
+flowchart LR
+  OF[Offer] --> PI[Proforma invoice] --> PR[Prepayment] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
+```
 
 > [!TIP]
 > Follow this guide step‑by‑step to configure the platform. Use the links to open each code list or setting if you need further details, then return to this page to continue with the next step.

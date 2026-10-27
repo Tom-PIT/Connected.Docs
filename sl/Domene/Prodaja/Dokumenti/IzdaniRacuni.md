@@ -18,7 +18,14 @@ Izdani računi se običajno ustvarijo na koncu prodajnega procesa:
 3. Blago se odpremi z uporabo **[Dobavnic](Dobavnice.md)** in povezanih izdaj.  
 4. Na koncu se ustvari **Izdani račun** (pogosto iz dobavnice ali naročila stranke) in se pošlje stranki v plačilo.
 
-![Prodajni proces z izdanimi računi](../Images/IssuedInvoiceDiagramSL.svg "Prodajni proces z izdanimi računi")
+```mermaid
+flowchart LR
+  OF[Ponudba] --> SO[Naročilo stranke] --> DN["Dobavnica<br>+ Izdajnica"] --> II[Izdani račun] --> PA[Plačilo]
+  LD["Nabavni nalog<br>Vzdrževalni nalog<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class II current
+```
 
 Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to potrebno.
 
