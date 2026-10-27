@@ -10,11 +10,11 @@ Modul **Izvedba** uporabljajo proizvodni delavci za izvajanje in beleženje dela
 Večina proizvodnih delavcev je ob prijavi samodejno preusmerjena na pogled Izvedba.
 
 ```mermaid
-flowchart TB
+flowchart LR
   PO[Proizvodni nalog] --> EX[Izvedba]
   EX --> ACT
   subgraph ACT [ ]
-    direction LR
+    direction TB
     CO[Poraba]
     EF[Delo]
     QU[Kvaliteta]
