@@ -12,22 +12,8 @@ Most production workers are automatically redirected to the **Execution** view u
 ```mermaid
 flowchart LR
   PO[Production order] --> EX[Execution]
-  EX --> ACT
-  subgraph ACT [ ]
-    direction TB
-    subgraph R1 [ ]
-      direction LR
-      CO[Consumed] ~~~ EF[Effort] ~~~ QU[Quality]
-    end
-    subgraph R2 [ ]
-      direction LR
-      DT[Downtime] ~~~ LO[Loss] ~~~ IS[Instructions]
-    end
-    R1 ~~~ R2
-  end
+  EX --> ACT["Consumed, Effort, Quality<br>Downtime, Loss, Instructions"]
   ACT --> CE[Complete execution] --> PC[Production order closed]
-  style R1 fill:none,stroke:none
-  style R2 fill:none,stroke:none
 ```
 
 > [!TIP]
