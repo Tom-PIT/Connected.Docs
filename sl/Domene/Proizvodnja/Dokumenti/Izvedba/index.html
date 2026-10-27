@@ -7031,16 +7031,7 @@
 <p>Večina proizvodnih delavcev je ob prijavi samodejno preusmerjena na pogled Izvedba.</p>
 <pre class="mermaid"><code>flowchart LR
   PO[Proizvodni nalog] --&gt; EX[Izvedba]
-  EX --&gt; ACT
-  subgraph ACT [ ]
-    direction TB
-    CO[Poraba]
-    EF[Delo]
-    QU[Kvaliteta]
-    DT[Zastoj]
-    LO[Slabi kosi]
-    IS[Navodila]
-  end
+  EX --&gt; ACT["Poraba, Delo, Kvaliteta&lt;br&gt;Zastoj, Slabi kosi, Navodila"]
   ACT --&gt; CE[Zaključiti izvedbo] --&gt; PC[Proizvodni nalog zaključen]</code></pre>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>

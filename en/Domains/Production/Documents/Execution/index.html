@@ -7031,16 +7031,7 @@
 <p>Most production workers are automatically redirected to the <strong>Execution</strong> view upon login.</p>
 <pre class="mermaid"><code>flowchart LR
   PO[Production order] --&gt; EX[Execution]
-  EX --&gt; ACT
-  subgraph ACT [ ]
-    direction TB
-    CO[Consumed]
-    EF[Effort]
-    QU[Quality]
-    DT[Downtime]
-    LO[Loss]
-    IS[Instructions]
-  end
+  EX --&gt; ACT["Consumed, Effort, Quality&lt;br&gt;Downtime, Loss, Instructions"]
   ACT --&gt; CE[Complete execution] --&gt; PC[Production order closed]</code></pre>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
