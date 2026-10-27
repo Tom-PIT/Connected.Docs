@@ -12,22 +12,8 @@ Večina proizvodnih delavcev je ob prijavi samodejno preusmerjena na pogled Izve
 ```mermaid
 flowchart LR
   PO[Proizvodni nalog] --> EX[Izvedba]
-  EX --> ACT
-  subgraph ACT [ ]
-    direction TB
-    subgraph R1 [ ]
-      direction LR
-      CO[Poraba] ~~~ EF[Delo] ~~~ QU[Kvaliteta]
-    end
-    subgraph R2 [ ]
-      direction LR
-      DT[Zastoj] ~~~ LO[Slabi kosi] ~~~ IS[Navodila]
-    end
-    R1 ~~~ R2
-  end
+  EX --> ACT["Poraba, Delo, Kvaliteta<br>Zastoj, Slabi kosi, Navodila"]
   ACT --> CE[Zaključiti izvedbo] --> PC[Proizvodni nalog zaključen]
-  style R1 fill:none,stroke:none
-  style R2 fill:none,stroke:none
 ```
 
 > [!TIP]
