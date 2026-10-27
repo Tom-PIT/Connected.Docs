@@ -15,26 +15,6 @@ flowchart LR
   EX --> ACT
   subgraph ACT [ ]
     direction TB
-    CO[Consumed]
-    EF[Effort]
-    QU[Quality]
-    DT[Downtime]
-    LO[Loss]
-    IS[Instructions]
-  end
-  ACT --> CE[Complete execution] --> PC[Production order closed]
-```
-
-## Diagram options (review only, remove before merge)
-
-### Option 1: Activities in two rows
-
-```mermaid
-flowchart LR
-  PO[Production order] --> EX[Execution]
-  EX --> ACT
-  subgraph ACT [ ]
-    direction TB
     subgraph R1 [ ]
       direction LR
       CO[Consumed] ~~~ EF[Effort] ~~~ QU[Quality]
@@ -46,49 +26,8 @@ flowchart LR
     R1 ~~~ R2
   end
   ACT --> CE[Complete execution] --> PC[Production order closed]
-```
-
-### Option 2: One box for all activities
-
-```mermaid
-flowchart LR
-  PO[Production order] --> EX[Execution]
-  EX --> ACT["Consumed, Effort, Quality<br>Downtime, Loss, Instructions"]
-  ACT --> CE[Complete execution] --> PC[Production order closed]
-```
-
-### Option 3: Activities below the main flow
-
-```mermaid
-flowchart TB
-  subgraph MAIN [ ]
-    direction LR
-    PO[Production order] --> EX[Execution] --> CE[Complete execution] --> PC[Production order closed]
-  end
-  EX --> ACT
-  subgraph ACT [ ]
-    direction TB
-    subgraph R1 [ ]
-      direction LR
-      CO[Consumed] ~~~ EF[Effort] ~~~ QU[Quality]
-    end
-    subgraph R2 [ ]
-      direction LR
-      DT[Downtime] ~~~ LO[Loss] ~~~ IS[Instructions]
-    end
-    R1 ~~~ R2
-  end
-```
-
-### Option 4: Horizontal flow with one box under Execution
-
-```mermaid
-flowchart TB
-  subgraph MAIN [ ]
-    direction LR
-    PO[Production order] --> EX[Execution] --> CE[Complete execution] --> PC[Production order closed]
-  end
-  EX --> ACT["Consumed, Effort, Quality<br>Downtime, Loss, Instructions"]
+  style R1 fill:none,stroke:none
+  style R2 fill:none,stroke:none
 ```
 
 > [!TIP]
