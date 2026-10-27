@@ -15,14 +15,19 @@ flowchart LR
   EX --> ACT
   subgraph ACT [ ]
     direction TB
-    CO[Poraba]
-    EF[Delo]
-    QU[Kvaliteta]
-    DT[Zastoj]
-    LO[Slabi kosi]
-    IS[Navodila]
+    subgraph R1 [ ]
+      direction LR
+      CO[Poraba] ~~~ EF[Delo] ~~~ QU[Kvaliteta]
+    end
+    subgraph R2 [ ]
+      direction LR
+      DT[Zastoj] ~~~ LO[Slabi kosi] ~~~ IS[Navodila]
+    end
+    R1 ~~~ R2
   end
   ACT --> CE[Zaključiti izvedbo] --> PC[Proizvodni nalog zaključen]
+  style R1 fill:none,stroke:none
+  style R2 fill:none,stroke:none
 ```
 
 > [!TIP]
