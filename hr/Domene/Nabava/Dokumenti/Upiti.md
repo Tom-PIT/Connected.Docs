@@ -5,7 +5,7 @@
 
 # Upiti
 
-**Upit** je nabavni dokument kojim se od dobavljača traže podaci o cijenama, dostupnosti i rokovima isporuke prije slanja službene narudžbe. Upiti vašoj organizaciji pomažu usporediti odgovore dobavljača, planirati nadolazeću nabavu i jednostavno prijeći na sljedeće dokumente, kao što su [**Narudžbenice**](SupplyOrders.md).
+**Upit** je nabavni dokument kojim se od dobavljača traže podaci o cijenama, dostupnosti i rokovima isporuke prije slanja službene narudžbe. Upiti vašoj organizaciji pomažu usporediti odgovore dobavljača, planirati nadolazeću nabavu i jednostavno prijeći na sljedeće dokumente, kao što su [**Narudžbenice**](Narudzbenice.md).
 
 Za pristup ovoj stranici otvorite **Nabava / Dokumenti / Upiti** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
@@ -15,7 +15,7 @@ Tipičan tijek:
 
 1. Izradite **Upit** i pošaljite ga dobavljaču.  
 2. Dobavljač odgovara s podacima o cijenama, dostupnosti i isporuci.  
-3. Nakon odobrenja upit pretvorite u [**Narudžbenicu**](SupplyOrders.md) u odjeljku **Povezani dokumenti**.  
+3. Nakon odobrenja upit pretvorite u [**Narudžbenicu**](Narudzbenice.md) u odjeljku **Povezani dokumenti**.  
 4. Kada materijal stigne, iz narudžbenice možete izraditi dokument [**Primka**](../../Logistika/Dokumenti/Primke.md) (djelomičnu ili potpunu).
 
 ```mermaid
@@ -137,7 +137,7 @@ Više informacija o odnosima među dokumentima, sljedivosti i izradi povezanih d
 Dostupne akcije uključuju:
 
 - **Dodaj projekt** – dodjeljivanje upita projektu  
-- **+ Narudžbenica** – izrada [narudžbenice](SupplyOrders.md) izravno iz upita  
+- **+ Narudžbenica** – izrada [narudžbenice](Narudzbenice.md) izravno iz upita  
 
 > [!TIP]
 > Kada se narudžbenica izradi iz upita, većina relevantnih polja popunjava se automatski.
@@ -149,7 +149,7 @@ Kada je upit u stanju **Dostupno** odobren, kliknite **Dovrši** na vrhu stranic
 ![Popis upita – Dovršen](../Images/InquiriesListCompletedHR.png "Popis upita – Dovršen")
 
 > [!NOTE]  
-> Upit automatski prelazi u status **Dovršen** kada se iz njega izradi nova [**Narudžbenica**](SupplyOrders.md) putem akcije u odjeljku **Povezani dokumenti**.
+> Upit automatski prelazi u status **Dovršen** kada se iz njega izradi nova [**Narudžbenica**](Narudzbenice.md) putem akcije u odjeljku **Povezani dokumenti**.
 
 ### Brisanje upita
 

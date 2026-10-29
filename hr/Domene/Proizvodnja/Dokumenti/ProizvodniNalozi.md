@@ -97,7 +97,7 @@ Kada je nalog spreman za proizvodnju, kliknite **Aktiviraj**.
 Proizvodnom nalogu možete pridružiti druge povezane dokumente, kao što su:
 
 - [**Projekti**](../../Projekti/README.md)  
-- [**Narudžbenice**](../../Nabava/Dokumenti/SupplyOrders.md)
+- [**Narudžbenice**](../../Nabava/Dokumenti/Narudzbenice.md)
 - [**Upiti**](../../Nabava/Dokumenti/Upiti.md)
 - [**Međuskladišni promet**](../../Logistika/Dokumenti/MeduskladisniPromet.md)
 - drugi proizvodni nalozi (povezani ili nalozi koji proizvode ulazne materijale)  

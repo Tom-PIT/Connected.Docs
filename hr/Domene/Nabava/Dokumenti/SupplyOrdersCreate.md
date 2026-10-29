@@ -6,7 +6,7 @@
 
 # How to create a new supply order
 
-New [supply orders](SupplyOrders.md) can be created:
+New [supply orders](Narudzbenice.md) can be created:
 
 - manually from the **Supply orders** screen using the [action button](../../../Common/UI/ActionButton.md)
 - from an [inquiry](Upiti.md) using **Linked documents → + Supply order**
@@ -70,7 +70,7 @@ The content is selected from [**Predefined texts**](../../../Common/Management/P
 
 ### Linked documents
 
-The [**Linked documents**](SupplyOrders.md#linked-documents) section allows you to create direct connections between related documents. For example, you can link a Supply order to an Inquiry, or to one or multiple Receive documents. This helps maintain traceability and easy navigation between documents in the supply workflow.
+The [**Linked documents**](Narudzbenice.md#linked-documents) section allows you to create direct connections between related documents. For example, you can link a Supply order to an Inquiry, or to one or multiple Receive documents. This helps maintain traceability and easy navigation between documents in the supply workflow.
 
 ## Step 5 — Publish the supply order
 

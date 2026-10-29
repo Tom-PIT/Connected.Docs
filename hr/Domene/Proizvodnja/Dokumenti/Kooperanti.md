@@ -90,9 +90,9 @@ Ovdje je tijek rada obrnut:
 
 1. Odaberite operaciju.
 2. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md).
-3. Izradite novu **[Narudžbenicu](../../Nabava/Dokumenti/SupplyOrders.md)** (za evidentiranje usluge dobavljača i povratne logistike). 
+3. Izradite novu **[Narudžbenicu](../../Nabava/Dokumenti/Narudzbenice.md)** (za evidentiranje usluge dobavljača i povratne logistike). 
 4. Slijedite standardni tijek:
-   **[Narudžbenica](../../Nabava/Dokumenti/SupplyOrders.md) → [Primka](../../Logistika/Dokumenti/Primke.md)**
+   **[Narudžbenica](../../Nabava/Dokumenti/Narudzbenice.md) → [Primka](../../Logistika/Dokumenti/Primke.md)**
 
 Nakon zaprimanja materijala operacija više ne čeka.
 
@@ -114,5 +114,5 @@ Nakon dovršetka:
 
 ## Praktični savjeti i sljedivost
 
-- Poveznice među dokumentima: koristite odjeljke povezanih dokumenata na **[Otpremnicama](../../Prodaja/Dokumenti/Otpremnice.md)**, **[Izdatnicama](../../Logistika/Dokumenti/Izdatnica.md)**, **[Narudžbenicama](../../Nabava/Dokumenti/SupplyOrders.md)** i **[Primkama](../../Logistika/Dokumenti/Primke.md)** za kretanje kroz cijeli lanac.
+- Poveznice među dokumentima: koristite odjeljke povezanih dokumenata na **[Otpremnicama](../../Prodaja/Dokumenti/Otpremnice.md)**, **[Izdatnicama](../../Logistika/Dokumenti/Izdatnica.md)**, **[Narudžbenicama](../../Nabava/Dokumenti/Narudzbenice.md)** i **[Primkama](../../Logistika/Dokumenti/Primke.md)** za kretanje kroz cijeli lanac.
 - Organizacijske jedinice: provjerite je li na nalogu odabrana ispravna **[Organizacijska jedinica](../Upravljanje/OrganizacijskeJedinice.md)** kako bi radnici nakon zaprimanja vidjeli operaciju u modulu **[Izvedba](Izvedba.md)**.
