@@ -1,132 +1,132 @@
 <!-- app_route: /production-orders/execution -->
-<!-- app_label: Execution -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Execution.md -->
-<!-- canonical_source_title: Execution -->
+<!-- app_label: Izvedba -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/ExecutionQuickUserGuide.md -->
+<!-- canonical_source_title: Izvedba – brzi vodič za korisnike -->
 
-# Execution – Quick User Guide
+# Izvedba – brzi vodič za korisnike
 
-This guide shows the **essential steps** to perform production using the Execution screen.
+Ovaj vodič prikazuje **osnovne korake** za izvođenje proizvodnje na zaslonu **Izvedba**.
 
 > [!NOTE]
 >
->For more information and details refer to the full **[Execution](../Domains/Production/Documents/Execution.md)** documentation.
+> Za više pojedinosti pogledajte potpunu dokumentaciju za **[Izvedbu](../Domene/Proizvodnja/Dokumenti/Izvedba.md)**.
 
-## 1. Select your production order
+## 1. Odaberite proizvodni nalog
 
-When you open **Execution**: 
-- Make sure the correct organizational unit is selected.
-- Select the production order and operation you will work on.  
+Kad otvorite **Izvedbu**:
+- provjerite je li odabrana ispravna organizacijska jedinica
+- odaberite proizvodni nalog i operaciju na kojoj ćete raditi
 
-If nothing is selected, or no production orders are available, the screen will prompt you to choose a **Production order**.
+Ako ništa nije odabrano ili nema dostupnih proizvodnih naloga, zaslon će vas zamoliti da odaberete **proizvodni nalog**.
 
-![Empty execution page](Images/ExecutionPageEmptyV2.png "Select a production order")
+![Prazna stranica izvedbe](../Domene/Proizvodnja/Images/ExecutionPageEmptyHR.png "Odaberite proizvodni nalog")
 
-## 2. Start the operation
+## 2. Pokrenite operaciju
 
-You can start work in two ways:
+Rad možete započeti na dva načina:
 
-### Option A — Press Start
+### Mogućnost A — pritisnite Pokreni
 
-Tap **Start** to begin timing and working on the operation.
+Dodirnite **Pokreni** da započnete mjerenje vremena i rad na operaciji.
 
-![Execution top controls](Images/ExecutionTop.png "Start / Pause / Stop buttons")
+![Gornje kontrole izvedbe](../Domene/Proizvodnja/Images/ExecutionTop.png "Gumbi Pokreni / Pauziraj / Zaustavi")
 
-### Option B — Press Produce
+### Mogućnost B — pritisnite Proizvedi
 
-Pressing **Produce** will **automatically start the operation**, even if you don’t change the quantity.
+Pritiskom na **Proizvedi** operacija se **automatski pokreće**, čak i ako ne mijenjate količinu.
 
-## 3. Produce items
+## 3. Proizvedite artikle
 
-1. Enter the number of items you produced (e.g., **1**).  
-2. Press **Produce**.  
-3. The system updates:  
-   - Produced quantity  
-   - Remaining quantity  
+1. Unesite broj proizvedenih artikala (npr. **1**).
+2. Pritisnite **Proizvedi**.
+3. Sustav ažurira:
+   - proizvedenu količinu
+   - preostalu količinu
 
-![Execution Step1](Images/ExecutionStep1V2.png)
+![Izvedba, korak 1](../Domene/Proizvodnja/Images/ExecutionStep1HR.png "Izvedba, korak 1")
 
-Repeat whenever more items are completed.
+Ponovite kad se završi još artikala.
 
-> **NOTE**  
-> Review **Instructions** if they appear or whenever needed:  
-> - Tap **Instructions** to view assembly steps, visuals, or operation-specific notes.
+> **NAPOMENA**
+> Pregledajte **Upute** ako se pojave ili kad je potrebno:
+> - dodirnite **Upute** za prikaz koraka sastavljanja, slika ili napomena specifičnih za operaciju.
 
-## 4. Complete quality checklists (if applicable)
+## 4. Dovršite kontrolne popise kvalitete (ako je primjenjivo)
 
-[Checklists and quality controls](../Domains/Production/Documents/Execution.md#checklists-and-quality-controls) are simple step-by-step checks that help keep work safe and products correct. A checklist can pop up at the start, during the job, or before you finish, based on how the operation is set up.
+[Kontrolni popisi i kontrole kvalitete](../Domene/Proizvodnja/Dokumenti/Izvedba.md#kontrolni-popisi-i-kontrole-kvalitete) jednostavne su provjere korak po korak koje pomažu da rad bude siguran, a proizvodi ispravni. Kontrolni popis može se pojaviti na početku, tijekom rada ili prije završetka, ovisno o postavkama operacije.
 
-1. Follow the steps shown on screen.  
-   
-   ![Quality checklist](Images/ExecutionStep1ChecklistV2.png "Quality checklist")
+1. Slijedite korake prikazane na zaslonu.
 
-2. Complete each step. When you’re done, tap **Finish**.  
-3. If you need to do a checklist again:
-    1. Open the action menu via the [action button](../Common/UI/ActionButton.md).
-    2. Enter the **[Quality](../Domains/Production/Documents/Quality.md)** section.
-    3. Tap **Repeat** for the checklist you want to redo.
+   ![Kontrolni popis kvalitete](../Domene/Kvaliteta/Images/ChecklistExampleExecutionHR.png "Kontrolni popis kvalitete")
+
+2. Dovršite svaki korak. Kad ste gotovi, dodirnite **Završi**.
+3. Ako kontrolni popis treba ponovno ispuniti:
+    1. Otvorite izbornik radnji preko [akcijskog gumba](../Zajednicko/UI/AkcijskiGumb.md).
+    2. Uđite u odjeljak **[Kvaliteta](../Domene/Proizvodnja/Dokumenti/ProizvodniNaloziKvaliteta.md)**.
+    3. Dodirnite **Ponovi** za kontrolni popis koji želite ponoviti.
 
 > [!NOTE]
-> You can’t stop the operation if a required checklist isn’t finished.
+> Operaciju ne možete zaustaviti dok nije dovršen obavezni kontrolni popis.
 
-## 5. Record losses (if applicable)
+## 5. Evidentirajte gubitke (ako je primjenjivo)
 
-1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
-2. Enter the **[Loss](../Domains/Production/Documents/Execution.md#loss)** section.  
-3. Enter the defective quantity.  
-4. Select the loss reason.  
-5. Confirm by clicking the yellow **Loss** button.
+1. Idite u izbornik radnji klikom na [akcijski gumb](../Zajednicko/UI/AkcijskiGumb.md).
+2. Uđite u odjeljak **[Gubitak](../Domene/Proizvodnja/Dokumenti/Izvedba.md#gubitak)**.
+3. Unesite količinu neispravnih artikala.
+4. Odaberite razlog gubitka.
+5. Potvrdite klikom na žuti gumb **Gubitak**.
 
-## 6. Record consumed materials
+## 6. Evidentirajte utrošene materijale
 
-Use this when materials are used during the operation:
+Koristite ovo kad se materijali troše tijekom operacije:
 
-1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
-2. Enter the **[Consumed](../Domains/Production/Documents/Execution.md#consumed)** section.  
-3. Scan, type, or select the material.  
-4. Enter the quantity consumed.  
-5. Confirm.
+1. Idite u izbornik radnji klikom na [akcijski gumb](../Zajednicko/UI/AkcijskiGumb.md).
+2. Uđite u odjeljak **[Potrošeno](../Domene/Proizvodnja/Dokumenti/Potroseno.md)**.
+3. Skenirajte, upišite ili odaberite materijal.
+4. Unesite utrošenu količinu.
+5. Potvrdite.
 
-## 7. Record downtime (if applicable)
+## 7. Evidentirajte zastoje (ako je primjenjivo)
 
-1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
-2. Enter the **[Downtime](../Domains/Production/Documents/Execution.md#downtime)** section.
-3. Click start and stop to record the interruption period.  
-4. Choose the reason for the interruption.  
-5. Adjust the times if necessary.  
-6. Save.
+1. Idite u izbornik radnji klikom na [akcijski gumb](../Zajednicko/UI/AkcijskiGumb.md).
+2. Uđite u odjeljak **[Zastoj](../Domene/Proizvodnja/Dokumenti/Zastoj.md)**.
+3. Kliknite pokreni i zaustavi kako biste zabilježili razdoblje prekida.
+4. Odaberite razlog prekida.
+5. Po potrebi prilagodite vremena.
+6. Spremite.
 
-Use this for any interruption, such as waiting for materials or machine issues.
+Ovo koristite za svaki prekid, na primjer čekanje materijala ili kvar stroja.
 
-## 8. Record effort (working time)
+## 8. Evidentirajte rad (radno vrijeme)
 
-1. Go to the action menu by clicking the [action button](../Common/UI/ActionButton.md).
-2. Enter the **[Effort](../Domains/Production/Documents/Execution.md#effort)** section if required by your workflow.
+1. Idite u izbornik radnji klikom na [akcijski gumb](../Zajednicko/UI/AkcijskiGumb.md).
+2. Uđite u odjeljak **[Rad](../Domene/Proizvodnja/Dokumenti/Rad.md)** ako to vaš tijek rada zahtijeva.
 
-![Effort entry](Images/ExecutionEffortPageV2.png "Record effort")
+![Unos rada](../Domene/Proizvodnja/Images/ExecutionEffortPageHR.png "Evidentiranje rada")
 
-### Automatic:
+### Automatski
 
-Tap **Start** → work → tap **Stop**.
+Dodirnite **Pokreni** → radite → dodirnite **Zaustavi**.
 
-### Manual:
-Open **Effort**, then enter:  
-- Date  
-- Start/end time or duration  
-- Notes (optional)  
+### Ručno
 
-Save the entry. The list of recorded efforts can be found below.
+Otvorite **Rad**, zatim unesite:
+- datum
+- početak i kraj ili trajanje
+- napomene (neobavezno)
 
-## 9. Finish the operation
+Spremite unos. Popis evidentiranog rada nalazi se ispod.
 
-When all production work is completed:
+## 9. Završite operaciju
 
-1. Verify produced quantity.  
-2. Record any losses, downtime, consumed materials, or checklists.  
-3. Tap **Stop** to finish the operation.
+Kad je sav proizvodni posao dovršen:
 
-![Execution controls](Images/ExecutionTopStop.png "Stop to finish the operation")
+1. Provjerite proizvedenu količinu.
+2. Evidentirajte gubitke, zastoje, utrošene materijale ili kontrolne popise ako ih ima.
+3. Dodirnite **Zaustavi** za završetak operacije.
 
-## Related guides
+![Kontrole izvedbe](../Domene/Proizvodnja/Images/ExecutionTopStop.png "Zaustavite za završetak operacije")
 
-- [**Maintenance Order – Quick User Guide**](MaintenanceOrderQuickUserGuide.md)
+## Povezani vodiči
 
+- [**Nalog za održavanje – brzi vodič za korisnike**](MaintenanceOrderQuickUserGuide.md)

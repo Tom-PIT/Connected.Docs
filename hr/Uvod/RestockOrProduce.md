@@ -1,118 +1,100 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/RestockOrProduce.md -->
-<!-- canonical_source_title: Restock or produce -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/RestockOrProduce.md -->
+<!-- canonical_source_title: Ponovna nabava ili proizvodnja -->
 
-# Restock or produce
+# Ponovna nabava ili proizvodnja
 
-This tutorial explains, in simple terms, what to do when you get a sales order and don’t have enough stock before delivery.
+Ovaj vodič jednostavnim riječima objašnjava što učiniti kad dobijete narudžbu kupca, a prije isporuke nemate dovoljno zaliha.
 
-- You can buy more (resupply) — Order the missing goods from a supplier. Example: You sell pine tables and have 2 in stock but need 10. Create a **Supply Order** for 8 finished tables (or for wood, legs, screws if you assemble in‑house).
-- Or you can produce more (make) — Build the missing goods with your own process. Example: You manufacture pine tables from wood and hardware. Create a **Production Order** for 8 tables and consume the needed materials.
+- Možete kupiti više (ponovna nabava) — naručite nedostajuću robu od dobavljača. Primjer: prodajete drvene stolove, na zalihi imate 2, a trebate 10. Izradite **Narudžbenicu** za 8 gotovih stolova (ili za drvo, noge i vijke ako sastavljate u vlastitoj proizvodnji).
+- Ili možete proizvesti više (izraditi) — izradite nedostajuću robu vlastitim postupkom. Primjer: izrađujete drvene stolove od drva i okova. Izradite **Proizvodni nalog** za 8 stolova i potrošite potrebne materijale.
 
 > [!NOTE]
-> Which option applies depends on your business model:
-> - Trading company (buy/sell finished goods) → usually Buy
-> - Manufacturer (you make the goods) → usually Produce (and buy raw materials if missing)
-> - Services/software → usually neither (no stock to move)
+> Koja opcija vrijedi ovisi o vašem poslovnom modelu:
+> - Trgovačko društvo (kupnja i prodaja gotove robe) → obično kupnja
+> - Proizvođač (sami izrađujete robu) → obično proizvodnja (i kupnja sirovina ako nedostaju)
+> - Usluge/softver → obično ništa od toga (nema zaliha za kretanje)
 
 > [!TIP]
-> Before you start: ensure **[Processes](../Domains/Production/Management/Processes.md)**, **[Inputs](../Domains/Production/Management/Inputs.md)**, and **[Outputs](../Domains/Production/Management/Outputs.md)** are defined.
+> Prije početka provjerite jesu li definirani **[Procesi](../Domene/Proizvodnja/Upravljanje/Procesi.md)**, **[Ulazi](../Domene/Proizvodnja/Upravljanje/Unosi.md)** i **[Izlazi](../Domene/Proizvodnja/Upravljanje/Izlazi.md)**.
 
-## Detailed steps
+## Detaljni koraci
 
-### 1. Detect shortage
+### 1. Otkrijte manjak
 
-<!-- app_route: /warehouse/stock/index -->
-<!-- app_label: Stock -->
+- Otvorite objavljenu **Narudžbu kupca**, pregledajte naručene artikle, zatim otvorite **[Zalihe](../Domene/Logistika/Pogledi/Zaliha.md)** kako biste provjerili trenutna stanja po skladištu i lokaciji.
+- Pri izradi dokumenta **[Izdatnica](../Domene/Logistika/Dokumenti/Izdatnica.md)**, primjerice putem **Povezani dokumenti → + Puna izdatnica**. Ako zaliha nije dovoljna, sustav prikazuje upozorenje i ne dopušta nastavak ili objavu dok količine nisu dostupne.
+- U proizvodnji otvorite **Potrebe** kako biste vidjeli koji su materijali ili poluproizvodi nedostatni za planirane operacije.
 
-- Go to the published **Sales Order** and review ordered items, then open **[Stock](../Domains/Logistics/Pogledi/Zaliha.md)** to check current balances per warehouse/location.
-- When creating an [**Issue**](../Domains/Logistics/Documents/Issues.md) document, for example, via **Linked Documents → + Full Issue**. If stock is insufficient, the system shows a warning and prevents you from continuing or publishing until quantities are available.
-- In production, open **[Requirements](../Domains/Production/Documents/Requirements.md)** to see which materials or semi‑products are short for planned operations.
+### 2. Odlučite: ponovna nabava ili proizvodnja
 
-### 2. Decide: Resupply or Produce
+- Ako kupujete/prodajete gotovu robu → nastavite s ponovnom nabavom.
+- Ako proizvodite robu → nastavite s proizvodnjom (i ponovnom nabavom sirovina/poluproizvoda prema potrebi).
 
-- If you buy/sell finished goods → proceed with Resupply.
-- If you manufacture goods → proceed with Produce (and Resupply raw materials/semi products as needed).
+### 3. Ponovna nabava (kupnja)
 
-### 3. Resupply (buy)
+#### 3.1 (Neobavezno) Pošaljite upit
 
-<!-- app_route: /supply/documents/inquiries -->
-<!-- app_label: Inquiries -->
+1. Idite na **Nabava / Dokumenti / Upiti**.
+2. Akcijskim gumbom stvorite skicu **[upita](../Domene/Nabava/Dokumenti/Upiti.md)**.
+3. Dodajte artikle, zatražite cijenu i rok isporuke; kliknite **Objavi** za potvrdu upita.
 
-#### 3.1 (Optional) Send an Inquiry
-1. Go to **Supply / Documents / Inquiries**.
-2. Use the [action button](../Common/UI/ActionButton.md) to create a draft [inquiry](../Domains/Supply/Documents/Inquiries.md).
-3. Add items, request price and lead time; Click **Publish** to confirm the inquiry.
+#### 3.2 Izradite narudžbenicu
 
-<!-- app_route: /supply/documents/supply-orders -->
-<!-- app_label: Supply Orders -->
+- Iz upita (ili izravno) otvorite **Povezani dokumenti → [+ Narudžbenica](../Domene/Nabava/Dokumenti/NarudzbeniceIzrada.md)**.
 
-#### 3.2 Create a Supply Order
-- From the Inquiry (or directly), open **Linked Documents → [+ Supply Order](../Domains/Supply/Documents/SupplyOrdersCreate.md)**.
+   ![Narudžbenica iz upita](Images/InquirySupplyOrderHR.png "Izrada narudžbenice iz upita")
 
-   ![Inquiry Supply Order](Images/InquirySupplyOrder.png "Create a supply order from an inquiry")
+- Potvrdite dobavljača, artikle i datum isporuke; kliknite **Objavi**.
 
-- Confirm supplier, items, and delivery date; Click **Publish**.
+#### 3.3 Primite na zalihu
 
-<!-- app_route: /warehouse/documents/receives -->
-<!-- app_label: Receives -->
-
-#### 3.3 Receive into stock
-1. In the Supply Order, open **Linked Documents → [+ Receive](../Domains/Logistics/Documents/Receives.md)**.
-2. Select **Warehouse** and **Locations**, confirm received quantities; Click **Publish**.
-3. (Optional) Verify balances in **[Stock](../Domains/Logistics/Pogledi/Zaliha.md)** or **[Stock View by Location](../Domains/Logistics/Views/StockViewByLocation.md)**.
+1. U narudžbenici otvorite **Povezani dokumenti → [+ Primka](../Domene/Logistika/Dokumenti/Primke.md)**.
+2. Odaberite **Skladište** i **Lokacije**, potvrdite primljene količine; kliknite **Objavi**.
+3. (Neobavezno) Provjerite stanja u **[Zalihama](../Domene/Logistika/Pogledi/Zaliha.md)** ili u **[Zalihama po lokacijama](../Domene/Logistika/Pogledi/PogledNaZalihePremaLokacijama.md)**.
 
 > [!NOTE]
-> In a normal supply chain process, after goods are received, the supplier’s [**Received invoice**](../Domains/Accounting/Documents/ReceivedInvoices.md) must be recorded and settled through a [**Payment Order**](../Domains/Accounting/Documents/PaymentOrders.md) in the [**Accounting**](../Domains/Accounting/README.md) domain. These financial steps are documented separately.
+> U uobičajenom lancu nabave, nakon primitka robe, primljeni račun dobavljača mora se evidentirati i podmiriti putem **[Naloga za plaćanje](../Domene/Racunovodstvo/Dokumenti/PaymentOrders.md)** u domeni **[Računovodstvo](../Domene/Racunovodstvo/README.md)**. Ti se financijski koraci dokumentiraju zasebno.
 
-### 4. Produce (make)
+### 4. Proizvodnja
 
 > [!IMPORTANT]
-> Ensure your process/operations exist in **[Processes](../Domains/Production/Management/Processes.md)** with defined **[Inputs](../Domains/Production/Management/Inputs.md)**/**[Outputs](../Domains/Production/Management/Outputs.md)**.
+> Provjerite da su vaš proces i operacije izrađeni u **[Procesima](../Domene/Proizvodnja/Upravljanje/Procesi.md)** s definiranim **[Ulazima](../Domene/Proizvodnja/Upravljanje/Unosi.md)** i **[Izlazima](../Domene/Proizvodnja/Upravljanje/Izlazi.md)**.
 
-<!-- app_route: /production-orders -->
-<!-- app_label: Production Orders -->
+#### 4.1 Izradite proizvodni nalog
 
-#### 4.1 Create a production order
-
-1. Go to **Production / Production Orders**
-2. Use the [action button](../Common/UI/ActionButton.md) to create a draft [production order](../Domains/Production/Documents/ProductionOrderCreate.md)
-3. Select **Product**, **Process**, **Quantity**, **Due date**, **Organization unit**; Click **Publish** to commit
-4. Set Status to **Active** to make the order available in **[Execution](../Domains/Production/Documents/Execution.md)**
+1. Idite na **Proizvodnja / Proizvodni nalozi**.
+2. Akcijskim gumbom stvorite skicu **[proizvodnog naloga](../Domene/Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md)**.
+3. Odaberite **Proizvod**, **Proces**, **Količinu**, **Rok** i **Organizacijsku jedinicu**; kliknite **Objavi** za potvrdu.
+4. Postavite status na **Aktivan** kako bi nalog bio dostupan u **[Izvedbi](../Domene/Proizvodnja/Dokumenti/Izvedba.md)**.
 
 > [!TIP]
-> For more information on creating production orders, see **[How to create a new production order](../Domains/Production/Documents/ProductionOrderCreate.md)**.
+> Pojedinosti o izradi proizvodnih naloga potražite u **[Kako izraditi novi proizvodni nalog](../Domene/Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md)**.
 
-<!-- app_route: /production-orders/requirements -->
-<!-- app_label: Requirements -->
+#### 4.2 Riješite manjak ulaza
 
-#### 4.2 Resolve any input shortages
+1. Otvorite **Potrebe**.
+2. Upotrijebite filtar **Prikaži planirane operacije** kako biste vidjeli materijale ili poluproizvode koji nedostaju za proizvodni nalog.
+3. Za nedostajuće ulaze upotrijebite znak **+** kako biste izradili novu **[narudžbenicu](../Domene/Nabava/Dokumenti/NarudzbeniceIzrada.md)** i dovršili korak **[Primka](../Domene/Logistika/Dokumenti/Primke.md)** (vidi [3.3](#33-primite-na-zalihu)).
 
-1. Open **[Requirements](../Domains/Production/Documents/Requirements.md)**.
-2. Use the filter **Show planned operations** to see missing materials/semi-products for the production order.
-3. For short inputs, use the **+** sign top create a new **[Supply order](../Domains/Supply/Documents/SupplyOrdersCreate.md)** and complete the [**Receive**](../Domains/Logistics/Documents/Receives.md) step (see [3.3](#33-receive-into-stock)).
+   ![Narudžbenica iz zahtjeva](Images/RequirementsSupplyOrderHR.png "Izrada narudžbenice sa stranice Potrebe")
 
-   ![Requirements Supply Order](Images/RequirementsSupplyOrder.png "Create a supply order from the Requirement page")
+#### 4.3 Evidentirajte izvođenje
 
-<!-- app_route: /production-orders/execution -->
-<!-- app_label: Execution -->
+Koristite modul **[Izvedba](../Domene/Proizvodnja/Dokumenti/Izvedba.md)** za praćenje proizvodnog napretka:
 
-#### 4.3 Record execution
+1. Unesite proizvedene artikle gumbom **Proizvedi**.
+2. Pristupite izborniku aktivnosti preko **[akcijskog gumba](../Zajednicko/UI/AkcijskiGumb.md)** kako biste evidentirali:
+    - **[Potrošeno](../Domene/Proizvodnja/Dokumenti/Potroseno.md)** — materijale utrošene u proizvodnji
+    - **[Rad](../Domene/Proizvodnja/Dokumenti/Rad.md)** — utrošeno radno vrijeme
+    - **[Gubitak](../Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeGubitka.md)** — količina otpada i razlog (ako postoji)
+    - **[Zastoj](../Domene/Proizvodnja/Dokumenti/Zastoj.md)** — zaustavljanja opreme i njihovo trajanje (ako postoje)
+3. Kad je nalog dovršen, kliknite gumb **Zaustavi** kako biste ga završili.
 
-Use the **[Execution](../Domains/Production/Documents/Execution.md)** module to track production progress:
+### 5. Nastavak prodajnog tijeka
 
-1. Enter produced items via the **Produce** button.
-2. Access the activity selection menu using the **[action button](../Common/UI/ActionButton.md)** to record:
-    - **[Consumed](../Domains/Production/Documents/Consumed.md)** — materials used during production
-    - **[Effort](../Domains/Production/Documents/Effort.md)** — labor time spent
-    - **[Loss](../Domains/Production/Management/LossClassificationTags.md)** — quantity scrapped and the reason (if any)
-    - **[Downtime](../Domains/Production/Documents/Downtime.md)** — equipment stops and duration (if any)
-3. When the order is complete, click on the **Stop** button to finalize it.
-
-### 5. Continue the sales flow
-
-- Return to the **Sales Order** and follow the delivery/invoicing tutorials:
-  - **[Sales process (with prepayment)](SalesProcessWithPrepayment.md)**
-  - **[Sales process (without prepayment)](SalesProcessWithoutPrepayment.md)**
+- Vratite se na **Narudžbu kupca** i slijedite vodiče za isporuku i fakturiranje:
+  - **[Proces prodaje (s predujmom)](SalesProcessWithPrepayment.md)**
+  - **[Proces prodaje (bez predujma)](SalesProcessWithoutPrepayment.md)**
 
 > [!TIP]
-> After completion, you can review any details in the list of closed [**Production orders**](../Domains/Production/Documents/ProductionOrders.md).
+> Nakon dovršetka pojedinosti možete pregledati na popisu zatvorenih **[Proizvodnih naloga](../Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md)**.

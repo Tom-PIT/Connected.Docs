@@ -1,135 +1,122 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/Prerequisites.md -->
-<!-- canonical_source_title: Prerequisites -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/Prerequisites.md -->
+<!-- canonical_source_title: Preduvjeti -->
 
-# Prerequisites
+# Preduvjeti
 
-Complete these steps to prepare the system for first use. This guide links to the right pages and avoids repeating details.
+Dovršite ove korake kako biste pripremili sustav za prvu upotrebu. Ovaj vodič povezuje na prave stranice i izbjegava ponavljanje pojedinosti.
 
-The system may initially be empty of the basic data required for day‑to‑day business (countries, currencies, tax rates, measure units, partners, items, warehouses, etc.). These values must be entered via the corresponding code lists before documents and workflows can be used.
-
-> [!TIP]
-> Follow this guide step‑by‑step to configure the platform. Use the links to open each code list or setting if you need further details, then return to this Prerequisites page to continue with the next step.
-
-### Overview of required steps:
-
-1. Create essential common code lists: **[Countries](../Common/Management/Countries.md)**, **[Currencies](../Common/Management/Currencies.md)**, **[Tax rates](../Common/Management/TaxRates.md)**, **[Measure units](../Common/Management/MeasureUnits.md)**, **[Banks](../Common/Management/Banks.md)**
-2. Configure system settings: **[System configuration](../Domains/System/Settings/Configuration.md)** (organization identity, default country and currency)
-3. Configure payment settings: **[Payment methods](../Domains/Sales/Management/PaymentMethods.md)**, **[Organization bank accounts](../Domains/Sales/Management/OrganizationBankAccounts.md)**
-4. Add business partners: **[Business directory](../Common/Management/BusinessDirectory.md)**
-5. Add materials and assets: material types — **[Products](../Domains/Assets/Materials/Products.md)**, **[Semi products](../Domains/Assets/Materials/SemiProducts.md)**, **[Raw materials](../Domains/Assets/Materials/RawMaterials.md)**, **[Repro materials](../Domains/Assets/Materials/ReproMaterials.md)**; packaging — **[Packaging](../Domains/Assets/Materials/Packaging.md)**; assets — **[Assets](../Domains/Assets/Assets/Assets.md)**
-6. Set up warehouses and locations (if applicable): **[Warehouses](../Domains/Logistics/Upravljanje/Skladista.md)**, **[Locations](../Domains/Logistics/Management/Locations.md)**, **[Organization units](../Domains/Production/Management/OrganizationUnits.md)**, **[Warehouse locations](../Domains/Production/Management/WarehouseLocations.md)**
+Sustav na početku može biti prazan od osnovnih podataka potrebnih za svakodnevno poslovanje (države, valute, porezne stope, mjerne jedinice, partneri, artikli, skladišta i sl.). Te vrijednosti moraju se unijeti preko odgovarajućih šifrarnika prije nego što se dokumenti i tijekovi rada mogu koristiti.
 
 > [!TIP]
-> A **code list** is shared master data used across documents and domains (e.g., countries, currencies, tax rates, measure units). Configure these first so forms, dropdowns, and calculations work correctly.
+> Slijedite ovaj vodič korak po korak kako biste konfigurirali platformu. Koristite poveznice za otvaranje svakog šifrarnika ili postavke ako trebate dodatne pojedinosti, a zatim se vratite na stranicu Preduvjeti i nastavite sa sljedećim korakom.
 
-## Prerequisites steps
+### Pregled potrebnih koraka:
 
-### 1. Create essential Common code lists
+1. Izradite osnovne zajedničke šifrarnike: **[Države](../Zajednicko/Upravljanje/Drzave.md)**, **[Valute](../Zajednicko/Upravljanje/Valute.md)**, **[Porezne stope](../Zajednicko/Upravljanje/PorezneStope.md)**, **[Mjerne jedinice](../Zajednicko/Upravljanje/MjerneJedinice.md)**, **[Banke](../Zajednicko/Upravljanje/Banke.md)**
+2. Konfigurirajte postavke sustava: **[Konfiguracija sustava](../Domene/Sustav/Postavke/Configuration.md)** (identitet organizacije, zadana država i valuta)
+3. Konfigurirajte postavke plaćanja: **[Načini plaćanja](../Domene/Prodaja/Upravljanje/NaciniPlacanja.md)**, **[Bankovni računi organizacije](../Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md)**
+4. Dodajte poslovne partnere: **[Poslovni imenik](../Zajednicko/Upravljanje/PoslovniImenik.md)**
+5. Dodajte materijale i imovinu: vrste materijala — **[Proizvodi](../Domene/RobaIUsluge/Materijali/Proizvodi.md)**, **[Poluproizvodi](../Domene/RobaIUsluge/Materijali/Poluproizvodi.md)**, **[Sirovine](../Domene/RobaIUsluge/Materijali/Sirovine.md)**, **[Reprodukcijski materijali](../Domene/RobaIUsluge/Materijali/PomocniProizvodi.md)**; ambalaža — **[Ambalaža](../Domene/RobaIUsluge/Materijali/Pakiranje.md)**; imovina — **[Imovina](../Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md)**
+6. Postavite skladišta i lokacije (ako je primjenjivo): **[Skladišta](../Domene/Logistika/Upravljanje/Skladista.md)**, **[Lokacije](../Domene/Logistika/Upravljanje/Lokacije.md)**, **[Organizacijske jedinice](../Domene/Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)**, **[Lokacije skladišta](../Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md)**
 
-These shared code lists are required by **[Sales](../Domains/Sales/README.md)**, **[Supply](../Domains/Supply/README.md)**, **[Logistics](../Domains/Logistics/README.md)**, **[Production](../Domains/Production/README.md)**, and **[System](../Domains/System/Settings/Configuration.md)**:
+> [!TIP]
+> **Šifrarnik** su zajednički glavni podaci koji se koriste u dokumentima i domenama (npr. države, valute, porezne stope, mjerne jedinice). Najprije ih konfigurirajte kako bi obrasci, padajući izbornici i izračuni ispravno radili.
 
-- **[Countries](../Common/Management/Countries.md)** — list of countries used for addresses, localization, and document formatting  
-  Go to: **Sales / Management / Countries**
-- **[Currencies](../Common/Management/Currencies.md)** — currencies available for pricing, documents, and financial reports  
-  Go to: **Sales / Management / Currencies**
-- **[Tax rates](../Common/Management/TaxRates.md)** — VAT and other tax definitions applied on sales and supply documents  
-  Go to: **Sales / Management / Tax rates**
-- **[Measure units](../Common/Management/MeasureUnits.md)** — base units (kilograms, meters, pieces, etc.) used for quantities and calculations  
-  Go to: **Sales / Management / Measure units**
-- **[Banks](../Common/Management/Banks.md)** — list of banks used to register organization and partner bank accounts  
-  Go to: **Sales / Management / Banks**
+## Koraci preduvjeta
+
+### 1. Izradite osnovne zajedničke šifrarnike
+
+Te zajedničke šifrarnike trebaju **[Prodaja](../Domene/Prodaja/README.md)**, **[Nabava](../Domene/Nabava/README.md)**, **[Logistika](../Domene/Logistika/README.md)**, **[Proizvodnja](../Domene/Proizvodnja/README.md)** i **[Sustav](../Domene/Sustav/Postavke/Configuration.md)**:
+
+- **[Države](../Zajednicko/Upravljanje/Drzave.md)** — popis država za adrese, lokalizaciju i oblikovanje dokumenata  
+  Idite na: **Prodaja / Upravljanje / Države**
+- **[Valute](../Zajednicko/Upravljanje/Valute.md)** — valute dostupne za cijene, dokumente i financijska izvješća  
+  Idite na: **Prodaja / Upravljanje / Valute**
+- **[Porezne stope](../Zajednicko/Upravljanje/PorezneStope.md)** — definicije PDV-a i drugih poreza primijenjene na dokumente prodaje i nabave  
+  Idite na: **Prodaja / Upravljanje / Porezne stope**
+- **[Mjerne jedinice](../Zajednicko/Upravljanje/MjerneJedinice.md)** — osnovne jedinice (kilogrami, metri, komadi i sl.) za količine i izračune  
+  Idite na: **Prodaja / Upravljanje / Mjerne jedinice**
+- **[Banke](../Zajednicko/Upravljanje/Banke.md)** — popis banaka za evidenciju bankovnih računa organizacije i partnera  
+  Idite na: **Prodaja / Upravljanje / Banke**
 
 > [!NOTE]
-> Domains and System settings depend on these values for correct behavior.
+> Domene i postavke sustava ovise o tim vrijednostima kako bi ispravno radile.
 
 > [!IMPORTANT]
 >
-> Common code lists must be created before selecting them in System configuration or domain documents. See **[Common domain](../Common/README.md)** for details.
+> Zajednički šifrarnici moraju biti izrađeni prije nego što ih odaberete u konfiguraciji sustava ili u dokumentima domena. Pojedinosti potražite na stranici **[Zajednička domena](../Zajednicko/README.md)**.
 
-<!-- app_route: /management/configuration -->
-<!-- app_label: Configuration -->
+### 2. Konfigurirajte postavke sustava
 
-### 2. Configure System settings
+Postavite organizaciju i globalne zadane vrijednosti koje koriste svi moduli:
+- **[Konfiguracija sustava](../Domene/Sustav/Postavke/Configuration.md)** — identitet organizacije, pravni podaci, podnožje; zadana država i valuta  
+  Idite na: **Sustav / Konfiguracija**
+  - konfigurirajte organizaciju (identitet, pravni podaci, podnožje)
+  - postavite zajedničke vrste (zadana država, zadana valuta)
 
-Set the organization and global defaults used across all modules:
-- **[System configuration](../Domains/System/Settings/Configuration.md)** — organization identity, legal data, footer; default country and currency  
-  Go to: **System / Configuration**
-  - Configure Organization (identity, legal details, footer)
-  - Set Common Types (default Country, default Currency)
+### 3. Konfigurirajte postavke plaćanja (Prodaja)
 
-<!-- app_route: /sitemap/sales.management -->
-<!-- app_label: Sales Management -->
-
-### 3. Configure payment settings (Sales)
-
-If your scenarios include Sales documents, configure payment data:
-- **[Payment methods](../Domains/Sales/Management/PaymentMethods.md)** — supported customer payment types (bank transfer, card, cash, etc.)  
-  Go to: **Sales / Management / Payment methods**
-- **[Organization bank accounts](../Domains/Sales/Management/OrganizationBankAccounts.md)** — company bank accounts shown on invoices and used for payments  
-  Go to: **Sales / Management / Organization bank accounts**
+Ako vaši scenariji uključuju dokumente prodaje, unesite podatke o plaćanju:
+- **[Načini plaćanja](../Domene/Prodaja/Upravljanje/NaciniPlacanja.md)** — vrste plaćanja kupaca koje podržavate (bankovni prijenos, kartica, gotovina i sl.)  
+  Idite na: **Prodaja / Upravljanje / Načini plaćanja**
+- **[Bankovni računi organizacije](../Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md)** — bankovni računi tvrtke prikazani na računima i korišteni za plaćanja  
+  Idite na: **Prodaja / Upravljanje / Bankovni računi organizacije**
 
 > [!NOTE]
-> Invoices and prepayments require valid payment definitions.
+> Izlazni računi i predujmovi zahtijevaju valjane definicije plaćanja.
 
-<!-- app_route: /management/contacts/companies -->
-<!-- app_label: Business directory -->
+### 4. Dodajte poslovne partnere (Poslovni imenik)
 
-### 4. Add business partners (Business directory)
-
-Add business partners (customers, vendors, cooperators) to use them across procurement, sales, and logistics:
-- **[Business directory](../Common/Management/BusinessDirectory.md)** — centralized list of customers, suppliers, and partner entities  
-  Go to: **Sales / Management / Business directory**
+Dodajte poslovne partnere (kupce, dobavljače, suradnike) kako biste ih koristili u nabavi, prodaji i logistici:
+- **[Poslovni imenik](../Zajednicko/Upravljanje/PoslovniImenik.md)** — centralizirani popis kupaca, dobavljača i partnerskih subjekata  
+  Idite na: **Prodaja / Upravljanje / Poslovni imenik**
 
 > [!NOTE]
-> Documents need partner data (customer, supplier) to be created.
+> Dokumenti trebaju podatke o partneru (kupac, dobavljač) kako bi se mogli izraditi.
 
-<!-- app_route: /sitemap/assets -->
-<!-- app_label: Assets -->
+### 5. Materijali i imovina
 
-### 5. Materials and Assets
+Dodajte materijale i imovinu koji će se koristiti u dokumentima i skladišnim operacijama prema vašem slučaju upotrebe:
+- Vrste materijala:
+  - **[Proizvodi](../Domene/RobaIUsluge/Materijali/Proizvodi.md)** — gotova roba koju prodajete ili skladištite
+  - **[Poluproizvodi](../Domene/RobaIUsluge/Materijali/Poluproizvodi.md)** — međuproizvodi koji se koriste u proizvodnji
+  - **[Sirovine](../Domene/RobaIUsluge/Materijali/Sirovine.md)** — osnovni materijali koji se troše u proizvodnji
+  - **[Reprodukcijski materijali](../Domene/RobaIUsluge/Materijali/PomocniProizvodi.md)** — potrošni i pomoćni materijali (vijci, ljepilo, lak)
 
-Add materials and assets that will be used in documents and stock operations according to your use-case:
-- Material types:
-  - **[Products](../Domains/Assets/Materials/Products.md)** — finished goods you sell or stock
-  - **[Semi products](../Domains/Assets/Materials/SemiProducts.md)** — intermediate goods used in production
-  - **[Raw materials](../Domains/Assets/Materials/RawMaterials.md)** — base materials consumed in production
-  - **[Repro materials](../Domains/Assets/Materials/ReproMaterials.md)** — consumables and auxiliary materials (screws, glue, varnish)
-  
-  Go to: **Assets / Materials**
-- Packaging:
-  - **[Packaging](../Domains/Assets/Materials/Packaging.md)** — defines how a material is packaged (quantity, weight, dimensions, optional alternative measure units)
-- Assets:
-  - **[Assets](../Domains/Assets/Assets/Assets.md)** — catalog of goods and services with pricing and tax info.  
-    Go to: **Assets / Assets**
+  Idite na: **Roba i usluge / Materijali**
+- Ambalaža:
+  - **[Ambalaža](../Domene/RobaIUsluge/Materijali/Pakiranje.md)** — određuje kako je materijal upakiran (količina, težina, dimenzije, po želji alternativne mjerne jedinice)
+- Imovina:
+  - **[Imovina](../Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md)** — katalog robe i usluga s cijenama i podacima o porezu  
+    Idite na: **Roba i usluge / Imovina**
 
 > [!NOTE]
-> Sales and production documents require defined items and resources.
+> Dokumenti prodaje i proizvodnje zahtijevaju definirane artikle i resurse.
 
-<!-- app_route: /sitemap/logistics.management -->
-<!-- app_label: Warehouse Management -->
+### 6. Postavite skladišta i lokacije (ako je primjenjivo)
 
-### 6. Set up warehouses and locations (if applicable)
-
-For logistics or production scenarios involving stock:
-- **[Warehouses](../Domains/Logistics/Upravljanje/Skladista.md)** — storage sites where stock is held  
-  Go to: **Logistics / Management / Warehouses**
-- **[Locations](../Domains/Logistics/Management/Locations.md)** — bin/shelf locations inside warehouses for precise placement  
-  Go to: **Logistics / Management / Locations**
-- **[Organization units](../Domains/Production/Management/OrganizationUnits.md)** — production areas, lines, or cells used for planning and execution  
-  Go to: **Production / Management / Organization units**
-- **[Warehouse locations](../Domains/Production/Management/WarehouseLocations.md)** —  links organization units to physical warehouse locations for staging inputs/outputs  
-  Go to: **Production / Management / Warehouse locations**
+Za logističke ili proizvodne scenarije koji uključuju zalihe:
+- **[Skladišta](../Domene/Logistika/Upravljanje/Skladista.md)** — mjesta skladištenja na kojima se čuvaju zalihe  
+  Idite na: **Logistika / Upravljanje / Skladišta**
+- **[Lokacije](../Domene/Logistika/Upravljanje/Lokacije.md)** — lokacije u skladištima (police, pregrade) za precizno smještanje  
+  Idite na: **Logistika / Upravljanje / Lokacije**
+- **[Organizacijske jedinice](../Domene/Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)** — proizvodna područja, linije ili ćelije za planiranje i izvršavanje  
+  Idite na: **Proizvodnja / Upravljanje / Organizacijske jedinice**
+- **[Lokacije skladišta](../Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md)** — povezuje organizacijske jedinice s fizičkim lokacijama skladišta za privremeno odlaganje ulaza i izlaza  
+  Idite na: **Proizvodnja / Upravljanje / Lokacije skladišta**
 
 > [!NOTE]
-> Stock operations require defined storage sites and locations.
+> Skladišne operacije zahtijevaju definirana skladišta i lokacije.
 
-## Conclusion
-You have now added the minimum required data to carry out a standard business process. With core code lists, system defaults, payment setup, partners, items, and storage locations in place:
-- Forms and dropdown menus resolve correctly across domains
-- Documents can be created without missing mandatory values
-- Stock movements and invoices can be executed end-to-end
+## Zaključak
 
-### Next steps
-Explore end-to-end scenarios to see how these prerequisites fit into workflows:
-- **[Sales process (with prepayment)](SalesProcessWithPrepayment.md)**
-- **[Sales process (without prepayment)](SalesProcessWithoutPrepayment.md)**
+Sada ste unijeli minimalne potrebne podatke za izvođenje standardnog poslovnog procesa. S osnovnim šifrarnicima, zadanim postavkama sustava, postavkama plaćanja, partnerima, artiklima i lokacijama skladištenja:
+- obrasci i padajući izbornici ispravno se povezuju među domenama
+- dokumenti se mogu izraditi bez nedostajućih obaveznih vrijednosti
+- kretanje zaliha i računi mogu se izvršiti od početka do kraja
+
+### Sljedeći koraci
+
+Istražite scenarije od početka do kraja kako biste vidjeli kako se ti preduvjeti uklapaju u tijekove rada:
+- **[Proces prodaje (s predujmom)](SalesProcessWithPrepayment.md)**
+- **[Proces prodaje (bez predujma)](SalesProcessWithoutPrepayment.md)**

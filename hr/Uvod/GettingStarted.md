@@ -1,47 +1,45 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/GettingStarted.md -->
-<!-- canonical_source_title: Getting started -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/GettingStarted.md -->
+<!-- canonical_source_title: Početak rada -->
 
-# Getting started
+# Početak rada
 
-Tom PIT.Connected is a global digital transformation platform. Use this guide to quickly orient yourself and navigate the materials.
+Tom PIT.Connected je globalna platforma za digitalnu transformaciju. Ovaj vodič služi za brzo snalaženje i kretanje kroz materijale.
 
-This documentation is structured by platform domains (each with their documents, code lists, views, and analytics) and complemented by typical end‑to‑end workflows in the **Getting started** folder to help you follow common scenarios from setup to execution.
-
-> [!TIP]
-> Start with the **[Navigation](../Zajednicko/UI/Navigacija.md)** topic to explore domains, documents, and views.
-
-## Structure
-
-The platform follows a consistent structure:
-
-- **Domain** — business areas (e.g., [**Production**](../Domains/Production/README.md), [**Logistics**](../Domains/Logistics/README.md), [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Assets**](../Domains/Assets/README.md), [**Projects**](../Domains/Projects/README.md)). Each domain divided into different sections:
-   - **Documents** — operational documents and workflows (e.g., [**Issues**](../Domains/Logistics/Documents/Issues.md), [**Receives**](../Domains/Logistics/Documents/Receives.md), [**Sales orders**](../Domains/Sales/Documents/SalesOrders.md))
-   - **Views** and **Analytics** — Performance views, KPIs, and reports
-   - **Management** — code lists and master data (e.g., [**Business directory**](../Common/Management/BusinessDirectory.md), [**Measure units**](../Common/Management/MeasureUnits.md), [**Tax rates**](../Common/Management/TaxRates.md), [**Payment methods**](../Domains/Sales/Management/PaymentMethods.md), [**Organization bank accounts**](../Domains/Sales/Management/OrganizationBankAccounts.md))
-- **Common** — shared concepts and UI elements
-
-More information on the structure and navigation inside the platform can be found in the [navigation](../Zajednicko/UI/Navigacija.md) guide.
-
-## Scenarios
-
-The following scenarios demonstrate typical end-to-end business processes and are recommended for new users becoming familiar with the platform.
-
-1. [**Prerequisites**](Prerequisites.md)
-2. [**Sales process with prepayment**](SalesProcessWithPrepayment.md)
-3. [**Sales process without prepayment**](SalesProcessWithoutPrepayment.md)
-4. [**Improving production efficiency**](Efficiency.md)
-5. [**Restock or produce**](RestockOrProduce.md)
-6. [**Create and maintain a knowledge base**](CreateAndMaintainKnowledgeBase.md)
-7. [**Add two-factor authentication (2FA)**](TwoFactorAuthentication.md)
- 
-
-## Quick user guides
-
-Find quick guides for common tasks in the following documents:
-
-- [**Execution – Quick User Guide**](ExecutionQuickUserGuide.md)
-- [**Maintenance Order – Quick User Guide**](MaintenanceOrderQuickUserGuide.md)
+Ova dokumentacija organizirana je prema domenama platforme (svaka sa svojim dokumentima, šifrarnicima, prikazima i analizama), a dopunjena je tipičnim tijekovima rada od početka do kraja u mapi **Početak rada** kako bi vam pomogla pratiti uobičajene scenarije od postavljanja do izvođenja.
 
 > [!TIP]
-> Looking for step-by-step instructions? Many document pages include a dedicated **How to create...** guide that walks you through the complete process of creating and publishing documents, such as [**How to create a sales order**](../Domains/Sales/Documents/SalesOrdersCreate.md), [**How to create a production order**](../Domains/Production/Documents/ProductionOrderCreate.md), or [**How to create an issued invoice**](../Domains/Sales/Documents/IssuedInvoicesCreate.md).
+> Počnite s temom **[Navigacija](../Zajednicko/UI/Navigacija.md)** kako biste istražili domene, dokumente i prikaze.
 
+## Struktura
+
+Platforma slijedi dosljednu strukturu:
+
+- **Domena** — poslovna područja (npr. [**Proizvodnja**](../Domene/Proizvodnja/README.md), [**Logistika**](../Domene/Logistika/README.md), [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Roba i usluge**](../Domene/RobaIUsluge/README.md), [**Projekti**](../Domene/Projekti/README.md)). Svaka je domena podijeljena na odjeljke:
+   - **Dokumenti** — operativni dokumenti i tijekovi rada (npr. [**Izdatnice**](../Domene/Logistika/Dokumenti/Izdatnica.md), [**Primke**](../Domene/Logistika/Dokumenti/Primke.md), [**Narudžbe kupaca**](../Domene/Prodaja/Dokumenti/NarudzbeKupca.md))
+   - **Pogledi** i **Analiza** — pregledi performansi, pokazatelji i izvješća
+   - **Upravljanje** — šifrarnici i glavni podaci (npr. [**Poslovni imenik**](../Zajednicko/Upravljanje/PoslovniImenik.md), [**Mjerne jedinice**](../Zajednicko/Upravljanje/MjerneJedinice.md), [**Porezne stope**](../Zajednicko/Upravljanje/PorezneStope.md), [**Načini plaćanja**](../Domene/Prodaja/Upravljanje/NaciniPlacanja.md), [**Bankovni računi organizacije**](../Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md))
+- **Zajedničko** — zajednički pojmovi i elementi sučelja
+
+Više o strukturi i kretanju kroz platformu potražite u vodiču [navigacija](../Zajednicko/UI/Navigacija.md).
+
+## Scenariji
+
+Sljedeći scenariji prikazuju tipične poslovne procese od početka do kraja i preporučeni su novim korisnicima za upoznavanje s platformom.
+
+1. [**Preduvjeti**](Prerequisites.md)
+2. [**Proces prodaje s predujmom**](SalesProcessWithPrepayment.md)
+3. [**Proces prodaje bez predujma**](SalesProcessWithoutPrepayment.md)
+4. [**Poboljšanje učinkovitosti proizvodnje**](Efficiency.md)
+5. [**Ponovna nabava ili proizvodnja**](RestockOrProduce.md)
+6. [**Izrada i održavanje baze znanja**](CreateAndMaintainKnowledgeBase.md)
+7. [**Dodavanje dvofaktorske autentifikacije (2FA)**](TwoFactorAuthentication.md)
+
+## Brzi vodiči za korisnike
+
+Brze vodiče za uobičajene zadatke potražite u sljedećim dokumentima:
+
+- [**Izvođenje – brzi vodič za korisnike**](ExecutionQuickUserGuide.md)
+- [**Nalog za održavanje – brzi vodič za korisnike**](MaintenanceOrderQuickUserGuide.md)
+
+> [!TIP]
+> Trebaju li vam upute korak po korak? Mnoge stranice dokumenata imaju zaseban vodič **Kako izraditi...** koji vas provodi kroz cijeli postupak izrade i objave dokumenata, kao što su [**Kako izraditi narudžbu kupca**](../Domene/Prodaja/Dokumenti/NarudzbeKupcaIzrada.md), [**Kako izraditi proizvodni nalog**](../Domene/Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md) ili [**Kako izraditi izlazni račun**](../Domene/Prodaja/Dokumenti/IzlazniRacuniIzrada.md).

@@ -1,111 +1,101 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/Efficiency.md -->
-<!-- canonical_source_title: Improving production efficiency -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/Efficiency.md -->
+<!-- canonical_source_title: Poboljšanje učinkovitosti proizvodnje -->
 
-# Improving production efficiency
+# Poboljšanje učinkovitosti proizvodnje
 
-This guide explains, in simple steps, how to track production work and improve results. You will record what was done (materials used, outputs, loss, downtime, effort) and then use clear reports and KPIs to find bottlenecks and decide what to fix first.
+Ovaj vodič u jednostavnim koracima objašnjava kako pratiti proizvodni rad i poboljšati rezultate. Zabilježit ćete što je obavljeno (utrošeni materijali, izlazi, gubici, zastoji, rad) pa ćete pomoću jasnih izvješća i pokazatelja otkriti uska grla i odlučiti što prvo popraviti.
 
-![Efficiency flow](Images/EfficiencyFlow.svg "Efficiency flow")
+```mermaid
+flowchart LR
+  A[Definirajte oznake procesa] --> B[Zabilježite izvođenje] --> C[Pregledajte pokazatelje i sažetke] --> D[Djelujte prema nalazima]
+```
 
-**Goal:** record actual work (consumed, loss, downtime, effort) and review KPIs and summaries to find bottlenecks.
+**Cilj:** zabilježiti stvarni rad (potrošnja, gubici, zastoji, rad) i pregledati pokazatelje i sažetke kako bi se otkrila uska grla.
 
-## Prerequisites
+## Preduvjeti
 
-- Processes and resources: **[Processes](../Domains/Production/Management/Processes.md)**, **[Inputs](../Domains/Production/Management/Inputs.md)**, **[Outputs](../Domains/Production/Management/Outputs.md)**
-- Classification tags: **[Loss classification tags](../Domains/Production/Management/LossClassificationTags.md)**, **[Downtime tags](../Domains/Production/Management/DowntimeTags.md)**
-- People and roles: **[Job positions](../Domains/Production/Management/JobPositions.md)**, **[Human resources](../Domains/Production/Management/HumanResources.md)**
-- (Optional) Warehouse locations for materials: **[Warehouse locations](../Domains/Production/Management/WarehouseLocations.md)**
+- Procesi i resursi: **[Procesi](../Domene/Proizvodnja/Upravljanje/Procesi.md)**, **[Ulazi](../Domene/Proizvodnja/Upravljanje/Unosi.md)**, **[Izlazi](../Domene/Proizvodnja/Upravljanje/Izlazi.md)**
+- Oznake klasifikacije: **[Oznake klasifikacije gubitka](../Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeGubitka.md)**, **[Oznake zastoja](../Domene/Proizvodnja/Upravljanje/OznakeZastoja.md)**
+- Ljudi i uloge: **[Sistematizacija radnih mjesta](../Domene/Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta.md)**, **[Ljudski resursi](../Domene/Proizvodnja/Upravljanje/LjudskiResursi.md)**
+- (Neobavezno) Lokacije skladišta za materijale: **[Lokacije skladišta](../Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md)**
 
-## Steps
+## Koraci
 
-<!-- app_route: /management/processes -->
-<!-- app_label: Processes -->
+### 1. Definirajte procese i standarde
+- Otvorite **[Procesi](../Domene/Proizvodnja/Upravljanje/Procesi.md)** i definirajte operacije, ulaze, izlaze i očekivana vremena ciklusa.
+- Provjerite postoje li **[Ulazi](../Domene/Proizvodnja/Upravljanje/Unosi.md)** i **[Izlazi](../Domene/Proizvodnja/Upravljanje/Izlazi.md)** za sve materijale i proizvode.
 
-### 1. Define processes and standards
-- Open **[Processes](../Domains/Production/Management/Processes.md)** and define operations, inputs, outputs, and expected cycle times.
-- Ensure **[Inputs](../Domains/Production/Management/Inputs.md)** and **[Outputs](../Domains/Production/Management/Outputs.md)** exist for all materials and products.
-
-![List of inputs](../Domains/Production/Images/InputsList.png "List of inputs")
+![Popis ulaza](../Domene/Proizvodnja/Images/InputsListHR.png "Popis ulaza")
 
 > [!NOTE]
-> Clear process definitions enable accurate consumption and performance calculations during execution.
+> Jasne definicije procesa omogućuju točne izračune potrošnje i učinkovitosti tijekom izvođenja.
 
-<!-- app_route: /production.management -->
-<!-- app_label: Production management -->
+### 2. Pripremite oznake i resurse
+- Dodajte **[Oznake klasifikacije gubitka](../Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeGubitka.md)** za otpad, doradu i kvalitetne probleme.
+- Dodajte **[Oznake zastoja](../Domene/Proizvodnja/Upravljanje/OznakeZastoja.md)** za zaustavljanja opreme i kašnjenja.
+- Provjerite **[Ljudske resurse](../Domene/Proizvodnja/Upravljanje/LjudskiResursi.md)** i **[Fizičke resurse](../Domene/Proizvodnja/Upravljanje/FizickiResursi.md)** prema potrebi.
 
-### 2. Prepare tags and resources
-- Add **[Loss classification tags](../Domains/Production/Management/LossClassificationTags.md)** for scrap, rework, quality issues.
-- Add **[Downtime tags](../Domains/Production/Management/DowntimeTags.md)** for equipment stops and delays.
-- Verify **[Human resources](../Domains/Production/Management/HumanResources.md)** and **[Non-human resources](../Domains/Production/Management/NonHumanResources.md)** as needed.
-
-![List of loss classification tags](../Domains/Production/Images/LossClassificationTags.png "List of loss classification tags")
+![Popis oznaka klasifikacije gubitka](../Domene/Proizvodnja/Images/LossClassificationTagsHR.png "Popis oznaka klasifikacije gubitka")
 
 > [!TIP]
-> Keep the tag list short and meaningful so operators can select correct reasons quickly.
+> Držite popis oznaka kratkim i smislenim kako bi operateri brzo odabrali ispravan razlog.
 
-<!-- app_route: /production-orders/execution -->
-<!-- app_label: Execution -->
+### 3. Zabilježite izvođenje
+- Koristite **[Izvedbu](../Domene/Proizvodnja/Dokumenti/Izvedba.md)** za evidentiranje:
+  - utrošenih materijala
+  - proizvedenih izlaza
+  - gubitka (otpad/dorada) s razlozima
+  - zastoja s razlozima
+  - rada (radno vrijeme)
 
-### 3. Record execution
-- Use **[Execution](../Domains/Production/Documents/Execution.md)** to record:
-  - Consumed materials
-  - Produced outputs
-  - Loss (scrap/rework) with reasons
-  - Downtime with reasons
-  - Effort (labor time)
-
-![Record execution events](../Domains/Production/Images/ExecutionProductionScreen.png "Record execution events")
-
+![Evidentiranje događaja izvođenja](../Domene/Proizvodnja/Images/ExecutionProductionScreenHR.png "Evidentiranje događaja izvođenja")
 
 > [!TIP]
-> Use **Linked documents** in Production orders to trace consumption per order, then compare recorded use with **[Stock](../Domains/Logistics/Pogledi/Zaliha.md)** and movement documents (**[Inter warehouse](../Domains/Logistics/Documents/InterWarehouse.md)**, **[Move serial](../Domains/Logistics/Documents/MoveSerial.md)**) to confirm differences and identify causes.
+> Koristite **Povezane dokumente** u proizvodnim nalozima kako biste pratili potrošnju po nalogu, a zatim usporedite zabilježenu potrošnju s **[Zalihama](../Domene/Logistika/Pogledi/Zaliha.md)** i dokumentima kretanja (**[Međuskladišni promet](../Domene/Logistika/Dokumenti/MeduskladisniPromet.md)**, **[Premještaj serijskog broja](../Domene/Logistika/Dokumenti/PremjestajSpremnika.md)**) kako biste potvrdili razlike i utvrdili uzroke.
 
-<!-- app_route: /sitemap/production.analytics -->
-<!-- app_label: Production analytics -->
+### 4. Pregledajte pokazatelje i sažetke
+- Otvorite analitiku za procjenu učinkovitosti:
+  - **[Pokazatelji proizvodnje](../Domene/Proizvodnja/Analiza/KljucniPokazateljiProizvodnje.md)** — pregled propusnosti, učinkovitosti i kvalitete
+  - **[Sažetak gubitaka](../Domene/Proizvodnja/Analiza/SazetakGubitka.md)** — otpad i dorada po razlogu i razdoblju
+  - **[Sažetak zastoja](../Domene/Proizvodnja/Analiza/SazetakZastoja.md)** — zaustavljanja opreme po razlogu i trajanju
+  - **[Sažetak opreme](../Domene/Proizvodnja/Analiza/SazetakStroja.md)** — učinkovitost po stroju ili liniji
+  - **[Gubitak organizacijske jedinice](../Domene/Proizvodnja/Analiza/OrganizationUnitLoss.md)** — gubitak po organizacijskoj jedinici
+  - **[Zastoj organizacijske jedinice](../Domene/Proizvodnja/Analiza/OrganizationUnitDowntime.md)** — zastoj po organizacijskoj jedinici
 
-### 4. Review KPIs and summaries
-- Open analytics to evaluate performance:
-  - **[Production KPIs](../Domains/Production/Analytics/ProductionKPIs.md)** — overview of throughput, efficiency, and quality
-  - **[Loss Summary](../Domains/Production/Analytics/LossSummary.md)** — scrap and rework by reason and period
-  - **[Downtime Summary](../Domains/Production/Analytics/DowntimeSummary.md)** — equipment stops by reason and duration
-  - **[Equipment Summary](../Domains/Production/Analytics/EquipmentSummary.md)** — performance per machine/line
-  - **[Organization Unit Loss](../Domains/Production/Analytics/OrganizationUnitLoss.md)** — loss by organizational unit
-  - **[Organization Unit Downtime](../Domains/Production/Analytics/OrganizationUnitDowntime.md)** — downtime by organizational unit
-
-![Loss summary](../Domains/Production/Images/LossSummaryView.png "Loss summary")
+![Sažetak gubitaka](../Domene/Proizvodnja/Images/LossSummaryViewHR.png "Sažetak gubitaka")
 
 > [!TIP]
-> - Filter by time range and unit, then compare top reasons to prioritize improvements.
+> - Filtrirajte po vremenskom rasponu i jedinici, zatim usporedite najčešće razloge kako biste odredili prioritete poboljšanja.
 >
-> - For cost insights: 
->   - In the list of closed **[Production orders](../Domains/Production/Documents/ProductionOrders.md)**, review unit cost with arrows indicating change vs. previous order. 
->   - Open **[Work items costs](../Domains/Resources/Views/WorkItemsCosts.md)** to compare unit cost trends per order and see the cost breakdown of Materials, Effort, and Expenses with charts (Cost, Distribution, Performance).
+> - Za uvid u troškove:
+>   - U popisu zatvorenih **[Proizvodnih naloga](../Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md)** pregledajte jediničnu cijenu sa strelicama koje pokazuju promjenu u odnosu na prethodni nalog.
+>   - Otvorite **[Troškove stavki rada](../Domene/Resursi/Pogledi/WorkItemsCosts.md)** kako biste usporedili trendove jedinične cijene po nalogu i vidjeli raspodjelu troškova materijala, rada i troškova s grafikonima (trošak, raspodjela, učinak).
 
-### 5. Act on findings
-- Update process standards or training if frequent loss reasons appear.
-- Schedule maintenance or adjust planning for recurring downtime.
-- Adjust material flow or stock locations if consumption variances are high.
+### 5. Djelujte prema nalazima
+- Ažurirajte standarde procesa ili obuku ako se često pojavljuju isti razlozi gubitka.
+- Zakažite održavanje ili prilagodite planiranje za ponavljajuće zastoje.
+- Prilagodite tijek materijala ili lokacije zaliha ako su odstupanja u potrošnji velika.
 
 > [!TIP]
 >
-> - Keep data entry simple (preset tags, defaults) to improve operator adoption.
-> - Review KPIs regularly (i.e., weekly); act on one improvement at a time.
-> - Revisit tags quarterly to merge duplicates and keep reasons actionable.
+> - Održavajte unos podataka jednostavnim (unaprijed postavljene oznake, zadane vrijednosti) kako bi ga operateri prihvatili.
+> - Pregledavajte pokazatelje redovito (npr. tjedno) i djelujte na jedno poboljšanje istodobno.
+> - Oznake preispitujte svaka tri mjeseca kako biste spojili duplikate i zadržali razloge koji se mogu djelotvorno koristiti.
 
-## Example: Improving efficiency in a packaging line
-A mid-size packaging branch noticed high scrap and frequent short stops.
+## Primjer: poboljšanje učinkovitosti na liniji za pakiranje
+Srednje velika podružnica za pakiranje primijetila je veliki otpad i česta kratka zaustavljanja.
 
-1. Define processes and tags
-   - Set expected time per unit/batch in Operations, defined on **[Human resources](../Domains/Production/Management/HumanResources.md)** and **[Non‑human resources](../Domains/Production/Management/NonHumanResources.md)**; ensured all **[Inputs](../Domains/Production/Management/Inputs.md)**/**[Outputs](../Domains/Production/Management/Outputs.md)** were set.
-   - Created concise tags: Loss = "Label misprint", "Seal defect"; Downtime = "Printer jam", "Film change".
-2. Record execution for one week
-   - Operators logged consumed film and labels, outputs, and selected loss/downtime reasons per batch in **[Execution](../Domains/Production/Documents/Execution.md)**.
-3. Review KPIs and summaries
-   - **[Loss Summary](../Domains/Production/Analytics/LossSummary.md)** showed 3.2% scrap driven by "Label misprint" on the afternoon shift.
-   - **[Downtime Summary](../Domains/Production/Analytics/DowntimeSummary.md)** highlighted frequent "Printer jam" totaling 2.4 hours/week.
-   - Checked unit cost trends in **[Work items costs](../Domains/Resources/Views/WorkItemsCosts.md)** and the closed list in **[Production orders](../Domains/Production/Documents/ProductionOrders.md)** to confirm material cost impact.
-4. Act on findings
-   - Trained operators on label alignment; replaced worn printer rollers.
-   - Adjusted replenishment to pre-stage film rolls to reduce changeover time.
-5. Validate results
-   - Next month: scrap dropped to 1.1%; downtime from jams fell by 60%. Throughput improved by 8%.
+1. Definiranje procesa i oznaka
+   - Očekivano vrijeme po komadu ili seriji postavljeno je u operacijama, definiranim na **[Ljudskim resursima](../Domene/Proizvodnja/Upravljanje/LjudskiResursi.md)** i **[Fizičkim resursima](../Domene/Proizvodnja/Upravljanje/FizickiResursi.md)**; osigurano je da su svi **[Ulazi](../Domene/Proizvodnja/Upravljanje/Unosi.md)** i **[Izlazi](../Domene/Proizvodnja/Upravljanje/Izlazi.md)** postavljeni.
+   - Izrađene su kratke oznake: gubitak = „Pogrešan tisak etikete”, „Neispravan zavar”; zastoj = „Zaglavljen pisač”, „Zamjena folije”.
+2. Zabilježeno izvođenje za jedan tjedan
+   - Operateri su u **[Izvedbi](../Domene/Proizvodnja/Dokumenti/Izvedba.md)** bilježili utrošenu foliju i etikete, izlaze te odabrane razloge gubitka i zastoja po seriji.
+3. Pregled pokazatelja i sažetaka
+   - **[Sažetak gubitaka](../Domene/Proizvodnja/Analiza/SazetakGubitka.md)** pokazao je 3,2 % otpada, uzrokovanog razlogom „Pogrešan tisak etikete” u popodnevnoj smjeni.
+   - **[Sažetak zastoja](../Domene/Proizvodnja/Analiza/SazetakZastoja.md)** istaknuo je česta zaglavljenja pisača, ukupno 2,4 sata tjedno.
+   - Provjereni su trendovi jedinične cijene u **[Troškovima stavki rada](../Domene/Resursi/Pogledi/WorkItemsCosts.md)** i zatvorenom popisu **[Proizvodnih naloga](../Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md)** kako bi se potvrdio utjecaj troška materijala.
+4. Djelovanje prema nalazima
+   - Operateri su obučeni za poravnanje etiketa; zamijenjeni su istrošeni valjci pisača.
+   - Prilagođena je opskrba kako bi se role folije pripremile unaprijed i skratilo vrijeme prebacivanja.
+5. Provjera rezultata
+   - Sljedećeg mjeseca otpad je pao na 1,1 %, a zastoji zbog zaglavljenja smanjili su se za 60 %. Propusnost je porasla za 8 %.
