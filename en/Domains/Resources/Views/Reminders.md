@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/reminders -->
 <!-- app_label: Reminders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/Reminders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Views/Reminders/ -->
 <!-- canonical_source_title: Reminders -->
 
 # Reminders

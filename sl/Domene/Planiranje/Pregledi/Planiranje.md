@@ -1,13 +1,13 @@
 <!-- app_route: /planning -->
 <!-- app_label: Planiranje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Planiranje/Pregledi/Planiranje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Planiranje/Pregledi/Planiranje/ -->
 <!-- canonical_source_title: Planiranje -->
 
 # Planiranje
 
 Zaslon **Planiranje** omogoča vizualni pregled **planiranih proizvodnih nalogov** v obliki koledarja. Uporabnikom omogoča spremljanje razporeda in prilagajanje časovnic proizvodnje.
 
-Do tega zaslona dostopate preko **Proizvodnja / Planiranje / Planiranje**.
+Do tega zaslona dostopate preko **Planiranje / Planiranje** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ![Planning view](../Images/PlanningDayView.png "Planning view")
 
@@ -56,13 +56,13 @@ Planirane naloge lahko **prestavite** neposredno v koledarju z metodo povleci in
 - Sistem samodejno posodobi planirane datume  
 
 > [!NOTE]
-> Proizvodnega naloga ni mogoče prestaviti preko njegovega **roka izdelave**, ki je določen v [proizvodnem nalogu](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md#datumi).
+> Proizvodnega naloga ni mogoče prestaviti preko njegovega **roka izdelave**, ki je določen v [proizvodnem nalogu](../../Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md#datumi).
 
 ### Pregledati informacijo o nalogu
 
 Ob premiku miške nad planiranim nalogom se prikažejo dodatne informacije:
 
 - Koda proizvodnega naloga  
-- Naziv izdelka  
-- Planiran začetek  
-- Planiran konec  
+- Rok izdelave  
+- Začetek  
+- Konec  

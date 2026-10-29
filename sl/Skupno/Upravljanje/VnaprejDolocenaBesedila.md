@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/predefined-texts -->
 <!-- app_label: Vnaprej določena besedila -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Upravljanje/VnaprejDolocenaBesedila/ -->
 <!-- canonical_source_title: Vnaprej določena besedila -->
 
 # Vnaprej določena besedila

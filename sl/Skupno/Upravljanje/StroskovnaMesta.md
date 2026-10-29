@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/cost-centers -->
 <!-- app_label: Stroškovna mesta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/StroskovnaMesta.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Upravljanje/StroskovnaMesta/ -->
 <!-- canonical_source_title: Stroškovna mesta -->
 
 # Stroškovna mesta

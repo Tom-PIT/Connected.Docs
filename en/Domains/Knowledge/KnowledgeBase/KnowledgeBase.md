@@ -1,6 +1,6 @@
 <!-- app_route: /knowledge/ -->
 <!-- app_label: Knowledge base -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/KnowledgeBase/KnowledgeBase.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Knowledge/KnowledgeBase/KnowledgeBase/ -->
 <!-- canonical_source_title: Knowledge base -->
 
 # Knowledge base

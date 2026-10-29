@@ -1,6 +1,6 @@
 <!-- app_route: /management/supply/configuration -->
 <!-- app_label: Supply configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Management/SupplyConfiguration.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Supply/Management/SupplyConfiguration/ -->
 <!-- canonical_source_title: Supply configuration -->
 
 # Supply configuration

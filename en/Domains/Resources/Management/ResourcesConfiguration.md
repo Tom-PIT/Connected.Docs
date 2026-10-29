@@ -1,6 +1,6 @@
 <!-- app_route: /resources/travel/configuration -->
 <!-- app_label: Resources configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/ResourcesConfiguration.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/ResourcesConfiguration/ -->
 <!-- canonical_source_title: Resources configuration -->
 
 # Resources configuration

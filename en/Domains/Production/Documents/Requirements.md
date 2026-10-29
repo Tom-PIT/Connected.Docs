@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/requirements -->
 <!-- app_label: Requirements -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Requirements.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/Requirements/ -->
 <!-- canonical_source_title: Requirements -->
 
 # Requirements
@@ -25,7 +25,7 @@ To access this page, go to **Production / Requirements** in the [navigation](../
 |--------|-------------|
 | **Requirement** | The material name and code. You can expand each material to see which operations consume it. |
 | **Quantity** | Shows two values:<br>• **Interval quantity** — required quantity within the selected date range (upper value)<br>• **Total quantity** — full planned consumption for all operations using that material (lower value) |
-| **Stock** | Current available stock. <br>• If stock is lower than required, it appears in **red**. <br>• Clicking the **+** icon opens a window to create a **new supply order**. |
+| **Stock** | Current available stock. <br>• If stock is lower than required, it appears in **orange**, and in **red** if stock is **0** (see [Color code](#color-code)). <br>• Clicking the **+** icon opens a window to create a **new supply order**. |
 
 ## Requirements list
 

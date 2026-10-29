@@ -1,6 +1,6 @@
 <!-- app_route: /resources/resource-costs -->
 <!-- app_label: Postavke virov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/PostavkeVirov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Upravljanje/PostavkeVirov/ -->
 <!-- canonical_source_title: Postavke virov -->
 
 # Postavke virov

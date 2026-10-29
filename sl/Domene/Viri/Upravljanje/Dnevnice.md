@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/subsistence-allowances -->
 <!-- app_label: Dnevnice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/Dnevnice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Upravljanje/Dnevnice/ -->
 <!-- canonical_source_title: Dnevnice -->
 
 # Dnevnice

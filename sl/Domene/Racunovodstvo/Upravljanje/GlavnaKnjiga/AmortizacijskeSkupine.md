@@ -1,6 +1,6 @@
 <!-- app_route: /management/accounting/depreciation-groups -->
 <!-- app_label: Amortizacijske skupine -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AmortizacijskeSkupine/ -->
 <!-- canonical_source_title: Amortizacijske skupine -->
 
 # Amortizacijske skupine

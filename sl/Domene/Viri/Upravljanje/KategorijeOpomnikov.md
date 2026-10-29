@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/reminder-categories -->
 <!-- app_label: Kategorije opomnikov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Upravljanje/KategorijeOpomnikov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Upravljanje/KategorijeOpomnikov/ -->
 <!-- canonical_source_title: Kategorije opomnikov -->
 
 # Kategorije opomnikov

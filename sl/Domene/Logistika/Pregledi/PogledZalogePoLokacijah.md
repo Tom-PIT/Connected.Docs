@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/stock/location -->
 <!-- app_label: Pogled zaloge po lokacijah -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/PogledZalogePoLokacijah.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Pregledi/PogledZalogePoLokacijah/ -->
 <!-- canonical_source_title: Pogled zaloge po lokacijah -->
 
 # Pogled zaloge po lokacijah
@@ -58,7 +58,7 @@ Prikazuje **količino, rezervirano** prek odprtih dokumentov **Izdaje** ali **Me
 ![StockByLocationReserve](../Images/StockByLocationReserveSL.png)
 
 ### Na voljo
-Prikazuje **količino, ki je na voljo** za uporabo (**Skupno â€“ Rezervirano**).
+Prikazuje **količino, ki je na voljo** za uporabo (**Skupno – Rezervirano**).
 
 ![StockByLocationAvailable](../Images/StockByLocationAvailableSL.png)
 

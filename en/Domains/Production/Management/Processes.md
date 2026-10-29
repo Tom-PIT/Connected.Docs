@@ -1,6 +1,6 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/Processes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/Processes/ -->
 <!-- canonical_source_title: Processes -->
 
 # Processes
@@ -13,7 +13,20 @@ This page allows you to create and manage processes, their versions, and their o
 
 A process may contain one or more **versions**, for example, different versions for different product sizes or maintenance variants. Each version contains a sequence of [**operations**](Operations.md), which define inputs, resources (human and non-human), outputs, and quality requirements.
 
-![Process structure diagram](../Images/ProcessDiagram.svg "Process structure diagram")
+```mermaid
+flowchart TB
+  P[Process] --> V1[Version 1]
+  P --> V2[Version 2]
+  P --> VN[Version N]
+  V2 --> OP[Operations]
+  V2 --> QV["Quality<br>(Version)"]
+  OP --> IN[Inputs]
+  OP --> HR[Human resources]
+  OP --> NH[Non-human resources]
+  OP --> OU[Outputs]
+  OP --> QO["Quality<br>(Operation)"]
+  OP --> EX[Expenses]
+```
 
 To access this page, go to **Production / Management / Processes** in the [navigation](../../../Common/UI/Navigation.md). Processes are shared and can be tagged for Production or Maintenance usage.
 

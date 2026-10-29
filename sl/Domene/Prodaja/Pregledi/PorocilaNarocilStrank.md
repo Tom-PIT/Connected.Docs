@@ -1,6 +1,6 @@
 <!-- app_route: /sales/views/sales-order-reports -->
 <!-- app_label: Poročila naročil strank -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Pregledi/PorocilaNarocilStrank.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Pregledi/PorocilaNarocilStrank/ -->
 <!-- canonical_source_title: Poročila naročil strank -->
 
 # Poročila naročil strank

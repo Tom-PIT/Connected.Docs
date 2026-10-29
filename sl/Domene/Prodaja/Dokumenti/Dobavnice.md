@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/delivery-notes -->
 <!-- app_label: Dobavnice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Dobavnice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/Dobavnice/ -->
 <!-- canonical_source_title: Dobavnice -->
 
 # Dobavnice
@@ -20,7 +20,14 @@ Dobavnice predstavljajo povezavo med prodajnimi in skladiščnimi procesi:
 3. Ko je dobavnica pripravljena, se ustvari in poveže dokument [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md) (delna ali celotna dobava).  
 4. Po dobavi se proces nadaljuje z ustvarjanjem [**Izdani račun**](IzdaniRacuni.md).
 
-![Dobavnica v prodajnem procesu](../Images/DeliveryNoteDiagramSL.svg "Dobavnica v prodajnem procesu")
+```mermaid
+flowchart LR
+  OF[Ponudba] --> SO[Naročilo stranke] --> DN["Dobavnica<br>+ Izdajnica"] --> II[Izdani račun] --> PA[Plačilo]
+  LD["Nabavni nalog<br>Vzdrževalni nalog<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class DN current
+```
 
 Dobavnice je mogoče tudi kopirati, povezati z obstoječimi izdajami ali projekti ter jih uporabiti za sprožanje proizvodnih ali vzdrževalnih nalogov.
 

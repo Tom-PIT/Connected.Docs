@@ -1,6 +1,6 @@
 <!-- app_route: /management/intrastat/place-of-delivery -->
 <!-- app_label: Place of delivery -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Intrastat/PlaceOfDelivery.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Intrastat/PlaceOfDelivery/ -->
 <!-- canonical_source_title: Place of delivery -->
 
 # Place of delivery

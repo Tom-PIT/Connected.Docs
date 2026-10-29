@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/issued-invoices -->
 <!-- app_label: Issued invoices -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/IssuedInvoices.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/IssuedInvoices/ -->
 <!-- canonical_source_title: Issued invoices -->
 
 # Issued invoices
@@ -18,7 +18,14 @@ Issued invoices are typically created at the end of the sales chain:
 3. Goods are shipped using **[Delivery notes](DeliveryNotes.md)** and related issues.  
 4. Finally, an issued invoice is created (often from the delivery note or sales order) and sent to the customer for payment.
 
-![Sales flow](../Images/IssuedInvoicesDiagram.svg "Sales flow")
+```mermaid
+flowchart LR
+  OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
+  LD["Supply order<br>Maintenance order<br>Production order"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class II current
+```
 
 Invoices can also be created manually as stand-alone documents when required.
 
@@ -39,7 +46,7 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Reference number** | Reference number used on payment documents, based on the chosen reference type. |
 | **[Organization bank accounts](../Management/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
 | **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation of revenue to a cost center. |
-| **Purpose code** | Optional code describing the purpose of the invoice (if configured). |
+| **Purpose code** | Optional code describing the purpose of the invoice (if configured). Mandatory for [e-invoices](../../../Common/Concepts/E-Invoices.md). |
 | **Rebate** | Overall rebate applied to the total invoice amount. |
 | **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
@@ -166,11 +173,11 @@ Click any issued invoice in the list to open it. Draft invoices can be edited fr
 
 While the invoice is in **Draft** status you can edit all sections:
 
-- [Header fields](IssuedInvoicesCreate.md#step-2--fill-in-header-information) (dates, references, customer, bank account, etc.)
+- [Header fields](IssuedInvoicesCreate.md#step-2-fill-in-header-information) (dates, references, customer, bank account, etc.)
 - [**Alternative currency**](IssuedInvoicesCreate.md#alternative-currency)
 - [**Transport and Intrastat**](IssuedInvoicesCreate.md#transport-and-intrastat-sections)
 - [**Delivery information**](IssuedInvoicesCreate.md#delivery)
-- [**Details**](IssuedInvoicesCreate.md#step-3--add-details) – add, remove, or change invoice lines
+- [**Details**](IssuedInvoicesCreate.md#step-3-add-details) – add, remove, or change invoice lines
 - [**Payment methods**](IssuedInvoicesCreate.md#payment-methods) – define how the customer is expected to pay
 - [**Content top** and **Content bottom**](IssuedInvoicesCreate.md#top-content-and-bottom-content) – choose predefined texts from [Clause templates for issued invoices](../Management/ClauseTemplatesIssuedInvoices.md).
 
@@ -202,6 +209,12 @@ Available actions may include:
 ### Publish an invoice
 
 When you are ready, click **Publish** to confirm the invoice and move it out of the **Draft** state. Once published, all related invoice actions become available.
+
+### Issue an e-invoice
+
+If issuing e-invoices is enabled for the customer, the invoice contains an additional **E-Invoice** section that must be filled in before publishing. Once the invoice is published, the e-invoice can be exported or sent by email, in XML format or as a complete package with an envelope, from the [document menu](#document-menu).
+
+For prerequisites and detailed instructions, see [**E-invoices**](../../../Common/Concepts/E-Invoices.md).
 
 ### Record payments
 
@@ -265,12 +278,14 @@ The document menu provides actions for the currently opened document.
 
 Available actions:
 
-- **Print**
-- **Export to PDF**
-- **Send as email** 
+- **Printing**
+- **Exporting** – For customers with e-invoices enabled, also exports the e-invoice (**E-Invoice** or **E-Invoice (envelope)**).
+- **Send as email** – For customers with e-invoices enabled, also sends the e-invoice.
 - **Delete all details** (only for drafts)
 - **[Reverse document](../../Logistics/Documents/Reversals.md)**
 - **Return to draft**
+
+For details about e-invoices, see [**E-invoices**](../../../Common/Concepts/E-Invoices.md).
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 

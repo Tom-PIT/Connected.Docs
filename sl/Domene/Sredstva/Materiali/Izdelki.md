@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/products -->
 <!-- app_label: Izdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Izdelki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/Izdelki/ -->
 <!-- canonical_source_title: Izdelki -->
 
 # Izdelki
@@ -93,12 +93,20 @@ Seznam prikazuje ime izdelka, šifro in način generiranja serijske številke.
 
 Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih izdelkov.
 
+### Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na zaslonu s seznamom.
+
+Razpoložljiva dejanja:
+
+- **Izvoz CSV** – Izvozite seznam materialov kot datoteko CSV. Datoteko lahko pregledate, uredite in jo pozneje ponovno uvozite za posodobitev seznama materialov.
+
 ## Dejanja
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-izdelke)
-- [**Kopiraj obstoječe**](#kopirati-obstoječi-izdelek)
+- [**Kopiraj obstoječe**](#kopirati-obstojeci-izdelek)
 - **Nov**
 
 ### Ustvariti nov izdelek

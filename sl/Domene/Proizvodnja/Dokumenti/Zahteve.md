@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/requirements -->
 <!-- app_label: Zahteve -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Zahteve.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/Zahteve/ -->
 <!-- canonical_source_title: Zahteve -->
 
 # Zahteve
@@ -25,7 +25,7 @@ Do strani dostopate prek **Proizvodnja / Zahteve** v [navigaciji](../../../Skupn
 |--------|------|
 | **Zahteva** | Naziv in šifra materiala. Posamezen material lahko razširite za ogled operacij, ki ga porabljajo. |
 | **Količina** | Prikazani sta dve vrednosti:<br>• **Količina v intervalu** — potrebna količina v izbranem časovnem obdobju (zgornja vrednost)<br>• **Skupna količina** — celotna planirana poraba za vse operacije, ki uporabljajo ta material (spodnja vrednost) |
-| **Zaloga** | Trenutna razpoložljiva zaloga.<br>• Če je zaloge manj, kot je zahtevano, je vrednost prikazana **rdeče**.<br>• Klik na ikono **+** odpre okno za ustvarjanje **novega nabavnega naloga**. |
+| **Zaloga** | Trenutna razpoložljiva zaloga.<br>• Če je zaloge manj, kot je zahtevano, je vrednost prikazana **oranžno**, če je zaloga **0**, pa **rdeče** (glejte [Barvna koda](#barvna-koda)).<br>• Klik na ikono **+** odpre okno za ustvarjanje **novega nabavnega naloga**. |
 
 ## Seznam zahtev
 

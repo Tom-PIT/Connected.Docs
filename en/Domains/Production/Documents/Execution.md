@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Execution -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/Execution.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/Execution/ -->
 <!-- canonical_source_title: Execution -->
 
 # Execution
@@ -9,7 +9,13 @@ The **Execution** module is used by production workers to perform and record wor
 
 Most production workers are automatically redirected to the **Execution** view upon login.
 
-![Production execution flow](../Images/ProductionExecutionFlow.svg "Production execution flow")
+```mermaid
+flowchart LR
+  PO[Production order] --> EX[Execution]
+  EX --> ACT["Consumed, Effort, Quality<br>Downtime, Loss, Instructions"]
+  ACT --> CE[Complete execution] --> PC[Production order closed]
+```
+
 
 > [!TIP]
 > For a full demonstration, see the **[Executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)** video tutorial.
@@ -146,7 +152,7 @@ Before completing the operation, ensure that:
 - All losses and downtimes are recorded
 - All quality checkpoints are completed
 
-Once the operation is completed, it is marked as **Finished**.
+Once the operation is completed, it is marked as **Completed**.
 
 If the operation is stopped before the planned quantity is produced, it is completed with partial production.
 

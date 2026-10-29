@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/quality -->
 <!-- app_label: Quality -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Quality/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Quality/ -->
 <!-- canonical_source_title: Quality -->
 
 # Quality
@@ -35,7 +35,7 @@ The domain is structured into two functional areas:
 - The [**Checklists**](../Quality/Management/Checklists.md) code list lets you manage checklist templates (structure, steps, criteria, and thresholds).
 - The [**Measure units**](../../Common/Management/MeasureUnits.md) code list allows you to define units of measure used in checklist criteria (e.g., temperature in °C, pressure in bar). 
 
-![Projects Domain Management](Images/QualityDomainManagement.png)
+![Projects Domain Management](Images/QualityDomainManagementV2.png)
 
 > [!TIP]
 > See all management entries in the **[Management Index](../../ManagementIndex.md)**.

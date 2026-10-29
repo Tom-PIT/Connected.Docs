@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/semi-products -->
 <!-- app_label: Semi products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/SemiProducts.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/SemiProducts/ -->
 <!-- canonical_source_title: Semi products -->
 
 # Semi products
@@ -93,6 +93,14 @@ The user interface contains a list of semi products. If no record exists yet, th
 The list displays each semi product’s name, code, and serial number generation method.
 
 A filter for **Tags** is available on the left side of the screen. A search field in the upper-right corner helps filter the list.
+
+### Menu
+
+The menu provides additional actions available on the list screen.
+
+Available actions:
+
+- **Download CSV** – Download the material list as a CSV file. The file can be reviewed, edited, and later imported to update the material list.
 
 ## Actions
 

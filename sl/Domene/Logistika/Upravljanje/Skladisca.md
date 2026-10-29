@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/warehouses -->
 <!-- app_label: Skladišča -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Upravljanje/Skladisca.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Upravljanje/Skladisca/ -->
 <!-- canonical_source_title: Skladišča -->
 
 # Skladišča

@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /management/common-types/organization-bank-accounts -->
 <!-- app_label: Bančni računi organizacije -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/BancniRacuniOrganizacije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Upravljanje/BancniRacuniOrganizacije/ -->
 <!-- canonical_source_title: Bančni računi organizacije -->
 
 # Bančni računi organizacije

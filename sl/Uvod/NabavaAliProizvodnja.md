@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/NabavaAliProizvodnja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/NabavaAliProizvodnja/ -->
 <!-- canonical_source_title: Nabava ali proizvodnja -->
 
 # Nabava ali proizvodnja

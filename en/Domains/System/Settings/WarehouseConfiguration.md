@@ -1,6 +1,6 @@
 <!-- app_route: /management/configuration -->
 <!-- app_label: Configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Settings/WarehouseConfiguration.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/System/Settings/WarehouseConfiguration/ -->
 <!-- canonical_source_title: Warehouse configuration -->
 
 # Warehouse configuration
@@ -50,4 +50,21 @@ This value is used when generating GS1-compliant codes such as:
 ### Warehouse location settings
 
 - **Disallow warehouse location from a different warehouse on inter move documents** – Prevents selecting locations that belong to a different warehouse when creating [inter-warehouse](../../Logistics/Documents/InterWarehouse.md) movement documents.
+
+## Automatic material analysis creation
+
+The **Auto create** settings control whether the system automatically creates a material analysis when materials are inserted.
+
+To access these settings, go to **System / Configuration**, then select **WarehouseExtSettings / Settings** in the left sidebar.
+
+![Automatic material analysis settings](../Images/ConfigurationAutoCreateAnalysis.png "Automatic material analysis settings")
+
+Available options:
+
+- **Auto create product analysis** – automatically creates a material analysis when a product is inserted.
+- **Auto create semi product analysis** – automatically creates a material analysis when a semi-product is inserted.
+- **Auto create raw material analysis** – automatically creates a material analysis when a raw material is inserted.
+- **Auto create repro material analysis** – automatically creates a material analysis when a repro material is inserted.
+
+Enable only the material types for which analyses should be created automatically.
 

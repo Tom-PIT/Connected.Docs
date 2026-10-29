@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/delivery-notes -->
 <!-- app_label: Delivery notes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/DeliveryNotes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/DeliveryNotes/ -->
 <!-- canonical_source_title: Delivery notes -->
 
 # Delivery notes
@@ -20,7 +20,14 @@ Delivery notes act as the bridge between the commercial and warehouse processes:
 3. Once the delivery note is ready, an [**Issue**](../../Logistics/Documents/Issues.md) is created and linked (full or partial delivery).  
 4. After delivery, the process continues toward [**Issued invoice**](IssuedInvoices.md) creation.
 
-![Delivery notes in the sales process](../Images/DeliveryNotesDiagram.svg "Delivery notes in the sales process")
+```mermaid
+flowchart LR
+  OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
+  LD["Supply order<br>Maintenance order<br>Production order"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class DN current
+```
 
 Delivery notes can also be copied, linked to existing issues or projects, or used to trigger production or maintenance tasks.
 

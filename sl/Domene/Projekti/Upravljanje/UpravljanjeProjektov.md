@@ -1,6 +1,6 @@
 <!-- app_route: /projects/management/projects -->
 <!-- app_label: Upravljanje projektov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Projekti/Upravljanje/UpravljanjeProjektov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Projekti/Upravljanje/UpravljanjeProjektov/ -->
 <!-- canonical_source_title: Upravljanje projektov -->
 
 # Upravljanje projektov

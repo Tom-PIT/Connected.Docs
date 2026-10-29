@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /sales/documents/issued-invoices -->
 <!-- app_label: Izdani računi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/IzdaniRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/IzdaniRacuni/ -->
 <!-- canonical_source_title: Izdani računi -->
 
 # Izdani računi
@@ -18,7 +18,14 @@ Izdani računi se običajno ustvarijo na koncu prodajnega procesa:
 3. Blago se odpremi z uporabo **[Dobavnic](Dobavnice.md)** in povezanih izdaj.  
 4. Na koncu se ustvari **Izdani račun** (pogosto iz dobavnice ali naročila stranke) in se pošlje stranki v plačilo.
 
-![Prodajni proces z izdanimi računi](../Images/IssuedInvoiceDiagramSL.svg "Prodajni proces z izdanimi računi")
+```mermaid
+flowchart LR
+  OF[Ponudba] --> SO[Naročilo stranke] --> DN["Dobavnica<br>+ Izdajnica"] --> II[Izdani račun] --> PA[Plačilo]
+  LD["Nabavni nalog<br>Vzdrževalni nalog<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class II current
+```
 
 Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to potrebno.
 
@@ -39,7 +46,7 @@ Račune je mogoče ustvariti tudi ročno kot samostojne dokumente, kadar je to p
 | **Sklic** | Sklicna številka za plačilne dokumente, glede na izbrano vrsto sklica. |
 | [**Bančni računi organizacije**](../Upravljanje/BancniRacuniOrganizacije.md) | Račun za prejem plačila, izbran iz šifranta bančnih računov organizacije (obvezno). |
 | [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Neobvezna razporeditev prihodka na stroškovno mesto. |
-| **Koda namena** | Neobvezna koda namena računa (če je konfigurirana). |
+| **Koda namena** | Neobvezna koda namena računa (če je konfigurirana). Obvezna za [e-račune](../../../Skupno/Koncepti/E-Racuni.md). |
 | **Rabat** | Skupni rabat, uporabljen na celoten znesek računa. |
 | **Vsebina zgoraj** | Uvodno besedilo iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
 | **Vsebina spodaj** | Zaključna ali pravna besedila iz [**Vnaprej določenih besedil**](../../../Skupno/Upravljanje/VnaprejDolocenaBesedila.md). |
@@ -151,14 +158,6 @@ Kazalniki se posodabljajo glede na izbrane filtre:
 
 Za hitro iskanje uporabite polje **Iskanje**.
 
-#### Meni seznama
-
-V pogledu seznama meni v zgornjem desnem kotu ponuja dodatne možnosti:
-
-- **Izvoz** – Izvozi v CSV. Na voljo sta dve možnosti poročila:
-    - **Dokument** – Izvozi celoten seznam računov na seznamu.
-    - **Postavke** – Izvozi vse podrobnosti postavk za vse račune na seznamu.
-
 ## Dejanja
 
 ### Ustvariti izdani račun
@@ -173,12 +172,12 @@ Kliknite kateri koli izdan račun na seznamu, da ga odprete. Osnutke je mogoče 
 
 Dokler je račun v statusu **Osnutek**, lahko urejate vse razdelke:
 
-- [Glavna polja](IzdaniRacuniUstvarjanje.md#korak-2--izpolnjevanje-glave-dokumenta) (datumi, sklici, stranka, bančni račun itd.)
+- [Glavna polja](IzdaniRacuniUstvarjanje.md#korak-2-izpolnjevanje-glave-dokumenta) (datumi, sklici, stranka, bančni račun itd.)
 - [**Alternativna valuta**](IzdaniRacuniUstvarjanje.md#alternativna-valuta)
 - [**Transport**](IzdaniRacuniUstvarjanje.md#transport-in-intrastat)
 - [**Dostava**](IzdaniRacuniUstvarjanje.md#dostava)
-- [**Postavke**](IzdaniRacuniUstvarjanje.md#korak-3--dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk
-- [**Načini plačila**](IzdaniRacuniUstvarjanje.md#načini-plačila) – določanje načina plačila
+- [**Postavke**](IzdaniRacuniUstvarjanje.md#korak-3-dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk
+- [**Načini plačila**](IzdaniRacuniUstvarjanje.md#nacini-placila) – določanje načina plačila
 - [**Vsebina zgoraj** in **Vsebina spodaj**](IzdaniRacuniUstvarjanje.md#vsebina-zgoraj-in-vsebina-spodaj) – izbor vnaprej določenih besedil
 
 ![Postavke in plačila](../Images/IssuedInvoicesNewBottomSL.png "Postavke in plačila")
@@ -209,6 +208,12 @@ Razpoložljiva dejanja lahko vključujejo:
 ### Objaviti izdani račun
 
 Ko je račun pripravljen, kliknite **Objavi**, da ga potrdite in premaknete iz stanja **Osnutek** v **Obdelan**. Po objavi postanejo na voljo povezana dejanja in računovodski izvoz.
+
+### Izdati e-račun
+
+Če je za stranko omogočeno izdajanje e-računov, račun vsebuje dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Po objavi računa lahko e-račun iz [menija dokumenta](#meni-dokumenta) izvozite ali pošljete po e-pošti, v formatu XML ali kot celoten paket z ovojnico.
+
+Za predpogoje in podrobna navodila glejte [**E-računi**](../../../Skupno/Koncepti/E-Racuni.md).
 
 ### Evidentiranje plačil
 
@@ -271,9 +276,12 @@ Meni dokumenta omogoča dejanja za trenutno odprt dokument.
 Na voljo so naslednja dejanja:
 
 - **Tiskanje**
-- **Izvoz v PDF**
-- **Pošlji preko e-pošte**
-- [**Storniranje dokument**](../../Logistika/Dokumenti/Storno.md)  
-- **Vrnitev v osnutek**
+- **Izvoz** – Za stranke z omogočenimi e-računi izvozi tudi e-račun (**E-račun** ali **E-račun (ovojnica)**).
+- **Pošlji preko e-pošte** – Za stranke z omogočenimi e-računi pošlje tudi e-račun.
+- **Izbriši vse postavke** (samo za osnutke)
+- [**Storniraj dokument**](../../Logistika/Dokumenti/Storno.md)
+- **Povrni v osnutek**
+
+Za podrobnosti o e-računih glejte [**E-računi**](../../../Skupno/Koncepti/E-Racuni.md).
 
 Za podrobnosti o dejanjih menija glejte [**Dejanja menija**](../../../Skupno/Koncepti/MeniDejanja.md).

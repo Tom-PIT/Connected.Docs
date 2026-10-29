@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Supply orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Documents/SupplyOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Supply/Documents/SupplyOrders/ -->
 <!-- canonical_source_title: Supply orders -->
 
 # Supply orders
@@ -22,7 +22,12 @@ Supply orders represent the formal confirmation stage in the purchasing process.
 4. Once all materials are received, the Supply order automatically moves to the **Completed** status.  
    - If only partially received, it remains **Available** until completed.
 
-![Supply orders in the supply process](../Images/SupplyOrderDiagram.svg "Supply orders in the supply process")
+```mermaid
+flowchart LR
+  IN[Inquiry] --> SU[Supply order] --> RE[Receive]
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class SU current
+```
 
 ## Schema
 
@@ -117,10 +122,10 @@ Expandable sections:
 
 - [Linked documents](#linked-documents)  
 - [Attachments](SupplyOrdersCreate.md#attachments)  
-- [Document](SupplyOrdersCreate.md#step-2--fill-in-header-information) 
+- [Document](SupplyOrdersCreate.md#step-2-fill-in-header-information) 
 - [Delivery](SupplyOrdersCreate.md#delivery-section)  
 - [Top content and bottom content](SupplyOrdersCreate.md#top-content-and-bottom-content)  
-- [Details](SupplyOrdersCreate.md#step-3--add-details)  
+- [Details](SupplyOrdersCreate.md#step-3-add-details)  
 
 #### Linked documents
 

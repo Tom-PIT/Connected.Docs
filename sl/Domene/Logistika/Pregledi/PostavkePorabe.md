@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/views/consumption-details -->
 <!-- app_label: Postavke porabe -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Pregledi/PostavkePorabe.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Pregledi/PostavkePorabe/ -->
 <!-- canonical_source_title: Postavke porabe -->
 
 # Postavke porabe

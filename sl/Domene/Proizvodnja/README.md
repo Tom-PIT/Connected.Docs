@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/production -->
 <!-- app_label: Proizvodnja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/ -->
 <!-- canonical_source_title: Proizvodnja -->
 
 # Proizvodnja
@@ -28,6 +28,7 @@ Domena je organizirana v naslednja funkcionalna področja:
 
 - **[Proizvodni nalogi](Dokumenti/ProizvodniNalogi.md)** – definicija in izvajanje proizvodnega dela
 - **[Izvedba](Dokumenti/Izvedba.md)** – sprotno poročanje o dejavnostih na proizvodnih linijah
+- **[Kooperanti](Dokumenti/Kooperanti.md)** – izdaja in prevzem materiala za operacije, ki jih izvajajo zunanji kooperanti
 - **[Zahteve](Dokumenti/Zahteve.md)** – agregirane materialne potrebe za planirano proizvodnjo
 - **[Analiza](#analiza)** – vpogled v zastoje, uspešnost, izgube, OEE in kazalnike
 - **[Upravljanje](#upravljanje)** – konfiguracija, zasnova procesov in šifranti

@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/list -->
 <!-- app_label: Maintenance orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Maintenance/Documents/MaintenanceOrders/ -->
 <!-- canonical_source_title: Maintenance orders -->
 
 # Maintenance orders
@@ -9,7 +9,18 @@ Maintenance orders define the work required to perform **planned or curative mai
 
 They move through the life cycle **Pending → Active → Closed**, and include operations, resources, inputs, and quality checks defined by the selected process.
 
-![Maintenance order lifecycle](../Images/MaintenanceOrderLifecycle.svg "Maintenance order lifecycle")
+```mermaid
+flowchart LR
+  subgraph SRC [Creation sources]
+    MS["Maintenance<br>schedule"]
+    RM["Reported<br>malfunction"]
+  end
+  MS -.-> P[Pending]
+  RM -.-> P
+  P --> A[Active] --> C[Closed]
+  classDef source stroke-dasharray:5 4
+  class MS,RM source
+```
 
 > [!NOTE]
 > **Prerequisites**
@@ -116,37 +127,35 @@ Operations are executed according to the process definition.
 
 Two execution flows are possible:
 
-- **Quick completion** – Click **Complete** directly on the maintenance order
-- **Detailed execution (recommended)** – Click an operation to open its execution screen
-   
-   ![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Maintenance order operations list")
+- **Quick completion** – Click **Complete** directly on the maintenance order.
+- **Detailed execution** – Perform the operation through the [**Maintenance execution**](MaintenanceExecution.md) screen.
 
+![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Maintenance order operations list")
 
-Clicking an operation opens the **operation execution screen**, where the worker can:
+The **Maintenance execution** screen provides the controls and activities required to perform the maintenance work, including:
 
-- Review [instructions](../../Knowledge/KnowledgeBase/KnowledgeBase.md)
-- Register [inputs](../../Production/Management/Inputs.md) and [non-human resources](../../Production/Management/NonHumanResources.md)
-- Complete quality [checklists](../../Quality/Management/Checklists.md)
-- Record effort (start/stop work, duration)
-- Add execution data
+- Starting, pausing, and completing an operation
+- Recording maintenance notes
+- Recording input material consumption, when inputs are required
+- Completing quality checklists
+- Recording effort
+- Viewing instructions
 
-![Maintenance Order Operation](../Images/MaintenanceOrdersOperationScreen.png "Maintenance order operation execution")
-
-Once the operation is finished, click **Complete** in the top-left corner of the operation screen.
+For detailed information about performing maintenance operations, see [**Maintenance execution**](MaintenanceExecution.md).
 
 Completed operations are displayed with a **green indicator**, providing a clear visual status.
 
-If a completed operation needs to be reopened, open the operation and click **Reactivate**.
+If a completed operation needs to be reopened, click **Reactivate** for the corresponding operation.
 
 ![Reactivate operation](../Images/MaintenanceOrdersOperationsReopen.png "Reactivate operation")
 
-After confirmation, the operation becomes active again and can be updated or completed again.
+After confirmation, the operation becomes active again and can be executed again through the **Maintenance execution** screen.
 
 > [!TIP]
-> You have the option of completing the entire maintenance order at once by clicking **Complete maintenance order** in the [menu](#menu), if desired.
+> You can complete the entire maintenance order at once by clicking **Complete maintenance order** in the [menu](#menu).
 
 > [!NOTE]
-> Material consumption of **inputs** can be recorded automatically when an operation is completed, if automatic consumption is enabled. Otherwise, input materials must be consumed manually during execution.
+> Material consumption of **inputs** can be recorded automatically when an operation is completed, if automatic consumption is enabled. Otherwise, input materials can be recorded manually during [**Maintenance execution**](MaintenanceExecution.md#inputs).
 
 ## Closed maintenance orders
 

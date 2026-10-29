@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/repro-materials -->
 <!-- app_label: Repro materiali -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/ReproMateriali.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/ReproMateriali/ -->
 <!-- canonical_source_title: Repro materiali -->
 
 # Repro materiali
@@ -92,12 +92,20 @@ Seznam prikazuje ime, šifro in način generiranja serijske številke za vsak re
 
 Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih materialov.
 
+### Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na zaslonu s seznamom.
+
+Razpoložljiva dejanja:
+
+- **Izvoz CSV** – Izvozite seznam materialov kot datoteko CSV. Datoteko lahko pregledate, uredite in jo pozneje ponovno uvozite za posodobitev seznama materialov.
+
 ## Dejanja
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-repro-materiale)
-- [**Kopiraj obstoječi**](#kopiraj-obstoječi-repro-material)
+- [**Kopiraj obstoječi**](#kopiraj-obstojeci-repro-material)
 - **Nov**
 
 ### Usvariti novo repro material

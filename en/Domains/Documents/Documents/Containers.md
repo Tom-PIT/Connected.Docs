@@ -1,6 +1,6 @@
 <!-- app_route: /documents/containers -->
 <!-- app_label: Containers -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Documents/Documents/Containers.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Documents/Documents/Containers/ -->
 <!-- canonical_source_title: Containers -->
 
 # Containers
@@ -99,9 +99,9 @@ The following actions are available:
 To upload a document, first select a folder in the sidebar, click **Upload document** and select the file from your device. The file will be uploaded to the selected folder and will be visible on the screen.
 
 The uploaded document will be added to the list. The following actions are available for each document:
-- **Checkout** – locks the document for editing. Other users cannot modify the document until it is checked in again.
-- **Copy** - creates a duplicate of the document in the same folder.
-- **Download** - downloads the document to your device.
+- **Check out** – locks the document for editing. Other users cannot modify the document until it is checked in again.
+- **Copy** – copies the document's URL to the clipboard.
+- **Download** – downloads the document to your device.
 
 ### Edit documents
 

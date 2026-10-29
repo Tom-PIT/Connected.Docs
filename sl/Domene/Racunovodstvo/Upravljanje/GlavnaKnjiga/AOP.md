@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/aop -->
 <!-- app_label: AOP -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP/ -->
 <!-- canonical_source_title: AOP -->
 
 # AOP

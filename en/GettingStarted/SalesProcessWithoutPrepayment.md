@@ -1,11 +1,14 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/SalesProcessWithoutPrepayment.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/SalesProcessWithoutPrepayment/ -->
 <!-- canonical_source_title: Sales process (without prepayment) -->
 
 # Sales process (without prepayment)
 
 This guide walks through a typical sales process without using prepayments. Use links for details; do not duplicate configuration here.
 
-![Sales flow without prepayment](Images/SalesFlowWithoutPrepayment.svg "Sales flow without prepayment")
+```mermaid
+flowchart LR
+  OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
+```
 
 > [!TIP]
 > Follow this guide step‑by‑step to configure the platform. Use the links to open each code list or setting if you need further details, then return to this page to continue with the next step.

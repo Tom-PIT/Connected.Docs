@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/loss-summary -->
 <!-- app_label: Loss summary -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/LossSummary.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Analytics/LossSummary/ -->
 <!-- canonical_source_title: Loss summary -->
 
 # Loss summary

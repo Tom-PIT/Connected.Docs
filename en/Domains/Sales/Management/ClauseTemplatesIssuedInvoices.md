@@ -1,6 +1,6 @@
 <!-- app_route: /management/sales/issued-invoice-clause-templates -->
 <!-- app_label: Clause templates for issued invoices -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/ClauseTemplatesIssuedInvoices.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Management/ClauseTemplatesIssuedInvoices/ -->
 <!-- canonical_source_title: Clause templates for issued invoices -->
 
 # Clause templates for issued invoices

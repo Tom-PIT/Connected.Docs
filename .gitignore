@@ -15,6 +15,8 @@ sl/
 *.sln.docstates
 *.env
 
+/docs
+
 # Ignore site
 
 site/
@@ -424,3 +426,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Local Claude memory copy (not for the repo)
+claude-memory/

@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/organization-unit-downtime -->
 <!-- app_label: Zastoji organizacijskih enot -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/ZastojiOrganizacijskihEnot.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Analiza/ZastojiOrganizacijskihEnot/ -->
 <!-- canonical_source_title: Zastoji organizacijskih enot -->
 
 # Zastoji organizacijskih enot
@@ -15,8 +15,9 @@ Do strani dostopate prek **Proizvodnja / Analiza / Zastoji organizacijskih enot*
 
 Na levi strani so na voljo filtri za omejevanje prikazanih podatkov:
 
-- **Datum** — Izberite datum ali časovno obdobje, za katero želite prikaz zastojev.  
-- **Oznaka** — Filtriranje po oznaki zastoja (glej [Oznake zastojev](../Upravljanje/OznakeZastojev.md)).
+- **Datum** — Izberite datum ali časovno obdobje, za katero želite prikaz zastojev. 
+- **Vrsta zastoja** — Filtrirajte zastojev glede na to, ali so planirani ali neplanirani. (glejte [**Vrsta zastoja**](PovzetekZastojev.md#vrsta-zastoja).
+- **Oznaka** — Filtriranje po oznaki zastoja (glej [**Oznake zastojev**](../Upravljanje/OznakeZastojev.md)).
 
 ## Pregled zastojev
 

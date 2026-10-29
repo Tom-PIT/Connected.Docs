@@ -2,7 +2,7 @@
 <!-- app_label: Processes -->
 <!-- app_navigation_hint: Process level: open a process, select the appropriate version, and open Quality.
 Operation level: open a process, select a version, click Operations, and then open Quality for the relevant operation. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/QualityChecklists.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/QualityChecklists/ -->
 <!-- canonical_source_title: Quality — Execution checklists -->
 
 # Quality — Execution checklists

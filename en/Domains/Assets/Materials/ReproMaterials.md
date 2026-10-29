@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/repro-materials -->
 <!-- app_label: Repro materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/ReproMaterials.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/ReproMaterials/ -->
 <!-- canonical_source_title: Repro materials -->
 
 # Repro materials
@@ -93,6 +93,14 @@ The user interface contains a list of repro materials.
 The list displays each repro material’s name, code, and serial number generation method.
 
 A filter for **Tags** is available on the left side. A search field is available on the right for quickly finding specific materials.
+
+### Menu
+
+The menu provides additional actions available on the list screen.
+
+Available actions:
+
+- **Download CSV** – Download the material list as a CSV file. The file can be reviewed, edited, and later imported to update the material list.
 
 ## Actions
 

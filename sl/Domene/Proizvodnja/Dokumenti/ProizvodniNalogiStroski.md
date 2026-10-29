@@ -1,7 +1,7 @@
 <!-- app_route: /production-orders -->
 <!-- app_label: Proizvodni nalog -->
 <!-- app_navigation_hint: Odprite proizvodni nalog, nato odprite zavihek **Stroški**. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogiStroski.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/ProizvodniNalogiStroski/ -->
 <!-- canonical_source_title: Proizvodni nalogi - Stroški -->
 
 # Proizvodni nalogi - Stroški

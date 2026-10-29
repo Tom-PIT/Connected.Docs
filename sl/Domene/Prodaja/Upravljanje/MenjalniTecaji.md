@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/exchange-rates -->
 <!-- app_label: Menjalni tečaji -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/MenjalniTecaji.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Upravljanje/MenjalniTecaji/ -->
 <!-- canonical_source_title: Menjalni tečaji -->
 
 # Menjalni tečaji

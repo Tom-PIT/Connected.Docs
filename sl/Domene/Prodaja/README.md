@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/sales -->
 <!-- app_label: Prodaja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Domena/Prodaja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/ -->
 <!-- canonical_source_title: Prodaja -->
 
 # Prodaja
@@ -44,8 +44,11 @@ Razpoložljivi prodajni dokumenti vključujejo:
 - **[Avansni računi](Dokumenti/AvansniRacuni.md)** – Upravljanje prejetih avansnih računov strank.  
 - **[Opomini](Dokumenti/Opomini.md)** – Obvestila o neplačanih ali zapadlih računih.  
 - **[Maloprodajni računi](Dokumenti/MaloprodajniRacuni.md)** – Računi, ustvarjeni v maloprodajnih procesih; zaloga se ureja prek logistike.  
-- **[Maloprodajna predplačila](Dokumenti/MaloprodajnaPredplacila.md)** – Maloprodajni predračuni in predplačila.
+- **[Maloprodajna avansi računi](Dokumenti/MaloprodajnaAvansniRacuni.md)** – Maloprodajni predračuni in predplačila.
+
 Vsaka vrsta dokumenta prispeva k prodajnemu toku in zagotavlja popolno sledljivost od začetne ponudbe do končnega obračuna.
+
+Izdane račune in dobropise lahko izdate tudi kot e-račune. Glejte [**E-računi**](../../Skupno/Koncepti/E-Racuni.md).
 
 > [!TIP]
 > Oglejte si [**Kako ustvariti izdani račun**](Dokumenti/IzdaniRacuniUstvarjanje.md) in [**Kako ustvariti prodajno naročilo**](Dokumenti/NarocilaStrankUstvarjanje.md) za vodnik po korakih za ustvarjanje teh dokumentov.

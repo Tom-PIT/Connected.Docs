@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/TwoFactorAuthentication.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/TwoFactorAuthentication/ -->
 <!-- canonical_source_title: Two-factor authentication -->
 
 # Two-factor authentication

@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders -->
 <!-- app_label: Production orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Documents/ProductionOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/ProductionOrders/ -->
 <!-- canonical_source_title: Production orders -->
 
 # Production orders
@@ -8,7 +8,15 @@
 Production orders define the work required to manufacture products according to a selected process and version.  
 They move through the life cycle **Draft → Pending → Active → Closed**, and can include multiple operations, resources, inputs, outputs, and quality checks based on the assigned process.
 
-![Production order lifecycle](../Images/ProductionOrderLifecycle.svg "Production order lifecycle")
+```mermaid
+flowchart LR
+    D[Draft] --> P[Pending] --> A[Active] --> C[Closed]
+    subgraph X [Execution module]
+        E[Execution]
+    end
+    A -.-> E
+    E -.-> C
+```
 
 > [!NOTE]
 > **Prerequisites**  
@@ -38,6 +46,7 @@ The Production orders page displays all orders grouped by status. Use the filter
   -  **Pending** — Finalized order, ready to activate
   -  **Active** — Being executed; visible in **[Execution](Execution.md)**
   -  **Closed** — Finished; results recorded 
+- **Organization unit** – Filter orders by organization unit.
 - **Project** – Filter production orders linked to a specific project.
 
 The search bar at the top allows filtering by production order code or material name.
@@ -64,11 +73,7 @@ Drafts allow editing of:
 
 ### Publish a draft production order
 
-To move the draft to **Pending**, the **Organization unit** must be selected, if not already predefined in the [operation](../Management/Operations.md).
-
-![Organization Unit](../Images/ProductionOrdersOrganizationUnits.png "Organization Unit Selection")
-
-Click **Publish** when ready.
+Click **Publish** when ready. The order moves to **Pending**.
 
 ## Edit a production order
 
@@ -89,6 +94,10 @@ From the Pending state, you can:
 - Add notes  
 - Manage linked documents
 
+Before activating, select the **Organization unit** for each operation in the **Process** section, on the **Operations** tab, if it is not already predefined in the [operation](../Management/Operations.md). The organization unit cannot be selected while the order is in **Draft**.
+
+![Organization Unit](../Images/ProductionOrdersOrganizationUnits.png "Organization Unit Selection")
+
 When the order is ready for production, click **Activate**.
 
 ## Linked documents
@@ -98,10 +107,11 @@ You may attach other documents that relate to the production order, such as:
 - [**Projects**](../../Projects/README.md)  
 - [**Supply orders**](../../Supply/Documents/SupplyOrders.md)
 - [**Inquiries**](../../Supply/Documents/Inquiries.md)
+- [**Inter warehouse**](../../Logistics/Documents/InterWarehouse.md)
 - Other production orders (linked or input-producing)  
 
 
-![Linked documents](../Images/ProductionOrdersLinkedDocuments.png "Linked documents")
+![Linked documents](../Images/ProductionOrdersLinkedDocumentsV2.png "Linked documents")
 
 Production orders also display any linked documents created during the order's lifecycle, such as cost and consumption reports.
 
@@ -133,7 +143,7 @@ Clicking on an operation opens the detailed view, where workers can record execu
 
 ![Production Order Operation Edit](../Images/ProductionOrderOperationEdit.png "Production Order Operation Edit")
 
-Each section has an **Add entry** button to record execution details. For example, in the **Produced** section, you can log the material produced, the quantity produced, and the production times.
+Each tab has its own button to record execution details (e.g. **Add produced**, **Add consumption**). For example, on the **Produced** tab you can log the material produced, the quantity produced, and the production times.
 
 ### Expenses
 
@@ -170,7 +180,7 @@ If modifications are necessary after closing, you can revert the order back to *
 
 1. Open the closed production order
 1. Select **Revert to active** from the action menu
-1. Click **Reactivate** on the desired process
+1. Click **Reactivate** on the desired operation
 
 ![Production Orders Reactivate](../Images/ProductionOrdersReactivate.png)
 
@@ -209,7 +219,8 @@ Available actions:
 
 - **Print**
 - **Export to PDF**
-- **Revert to active**
+- **Revert to active** (only available for closed orders)
+- **Return to draft** (only for orders with status **Pending**)
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 

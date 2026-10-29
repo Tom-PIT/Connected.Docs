@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/writeoffs --> 
 <!-- app_label: Writeoffs --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Writeoffs.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/Writeoffs/ --> 
 <!-- canonical_source_title: Writeoffs -->
 
 # Writeoffs
@@ -43,7 +43,7 @@ To access Writeoffs, go to **Logistics / Documents / Writeoffs** in the [navigat
 
 ## List of writeoff documents
 
-The **Writeoffs** page shows all writeoff documents. You can search for a specefic document using the search bar, or filter using the left sidebar:
+The **Writeoffs** page shows all writeoff documents. You can search for a specific document using the search bar, or filter using the left sidebar:
 
 - **Document dates**
 - **View**  

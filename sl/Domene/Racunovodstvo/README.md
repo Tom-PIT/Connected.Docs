@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/accounting -->
 <!-- app_label: Domena Računovodstvo -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/ -->
 <!-- canonical_source_title: Domena Računovodstvo -->
 
 # Računovodstvo
@@ -24,7 +24,7 @@ Domena je razdeljena na naslednja glavna področja:
 
 - **[Glavna knjiga](#glavna-knjiga)** – osnovni računovodski zapisi, knjižbe in zakonska poročila  
 - **[Banka](#banka)** – bančne računovodske operacije  
-- **[Računi](#računi-v-računovodstvu)** – računski dokumenti z računovodskega vidika  
+- **[Računi](#racuni-v-racunovodstvu)** – računski dokumenti z računovodskega vidika  
 - **[Pregledi](#pregledi)** – analitični, samo-za-branje pregledi  
 - **[Upravljanje](#upravljanje)** – globalne računovodske nastavitve in šifranti
 

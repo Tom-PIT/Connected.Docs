@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/credit-notes -->
 <!-- app_label: Credit notes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/CreditNotes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/CreditNotes/ -->
 <!-- canonical_source_title: Credit notes -->
 
 # Credit notes
@@ -44,7 +44,7 @@ Credit notes affect accounting only and do not impact inventory.
 | **Reference number** | Reference number based on the chosen reference type. |
 | **[Organization bank account](../Management/OrganizationBankAccounts.md)** | Bank account used for refunds or accounting (mandatory). |
 | **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation to a cost center. |
-| **Purpose code** | Optional reason or classification for the credit. |
+| **Purpose code** | Optional reason or classification for the credit. Mandatory for [e-invoices](../../../Common/Concepts/E-Invoices.md). |
 | **Rebate** | Overall rebate applied to the credit note. |
 | **Content top** | Introductory text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
 | **Content bottom** | Closing or legal text from [**Predefined texts**](../../../Common/Management/PredefinedTexts.md). |
@@ -205,6 +205,12 @@ You can modify:
 
 Committed credit notes are read-only.
 
+### Issue an e-invoice
+
+If issuing e-invoices is enabled for the customer, the credit note contains an additional **E-Invoice** section that must be filled in before publishing. Once the credit note is published, the e-invoice can be exported or sent by email, in XML format or as a complete package with an envelope, from the [menu](#menu).
+
+For prerequisites and detailed instructions, see [**E-invoices**](../../../Common/Concepts/E-Invoices.md).
+
 #### Attachments
 
 Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
@@ -266,8 +272,8 @@ The menu provides additional actions available on this page.
 Available actions:
 
 - **Printing**
-- **Exporting**
-- **Send as email**
+- **Exporting** – For customers with e-invoices enabled, also exports the e-invoice (**E-Invoice** or **E-Invoice (envelope)**).
+- **Send as email** – For customers with e-invoices enabled, also sends the e-invoice.
 - **Delete all details** (only for drafts)
 - **Reverse document**
 - **Return to draft** (only if allowed)

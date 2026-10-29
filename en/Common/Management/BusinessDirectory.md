@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Business directory -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Common/Management/BusinessDirectory.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Management/BusinessDirectory/ -->
 <!-- canonical_source_title: Business directory -->
 
 # Business directory
@@ -31,13 +31,13 @@ To open the list, go to **Management / Business directory** in one of the follow
 | [**Country**](Countries.md) | Country where the entity's headquarters are located. |
 | [**Postal code**](PostalCodes.md) | Postal code of the entity's headquarters. |
 | **Type** | Defines the tax status of the entity (see the list section below). |
-| **VAT ID** | VAT identification number, for example **SI12345678**. |
-| **Company ID** | Company registration number. |
+| **Tax number** | VAT identification number, for example **SI12345678**. |
+| **Registration number** | Company registration number. |
 | [**Institutional sector**](../../Domains/Customers/Management/InstitutionalSectors.md) | Institutional sector to which the entity belongs. |
 | **Tags** | Tags that allow categorization of entities. |
-| **Payment currency** | Default payment currency used in documents. |
+| **Expiration days** | Default number of days until payment is due, used to calculate the due date on documents. |
 | [**Currency**](Currencies.md) | Currency associated with the entity. |
-| **Discount** | Default discount percentage applied to the entity. |
+| **Rebate** | Default discount percentage applied to the entity. |
 | [**Primary contact**](Contacts.md) | Name and surname of the primary contact person. |
 | **Phone** | Phone number of the primary contact. |
 | **Email** | Email address of the primary contact. |
@@ -122,8 +122,13 @@ To create a new entry:
 
 #### E-invoices
 
-This section allows enabling the issuing of e-invoices to the related company.
+This section allows enabling the issuing of e-invoices to the related company by selecting the **Issue e-Invoices** checkbox.
 
+![E-invoices section](../Images/BusinessDirectoryEInvoices.png "E-invoices section")
+
+When e-invoices are enabled, issued invoices and credit notes for this customer contain an additional **E-Invoice** section that must be filled in before publishing. To export e-invoices, the customer must also have a **Tax number**, a **Registration number** and at least one [bank account](BankAccounts.md).
+
+For details, see [**E-invoices**](../Concepts/E-Invoices.md).
 #### Edit contact
 
 This section allows entering the primary contact information for the business partner. You can specify details such as contact name, phone number, and email address. These fields are optional and serve as reference information used across documents.

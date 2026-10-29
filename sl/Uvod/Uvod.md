@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/Uvod.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/Uvod/ -->
 <!-- canonical_source_title: Uvod -->
 
 # Uvod

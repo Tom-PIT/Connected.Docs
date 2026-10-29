@@ -1,7 +1,7 @@
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Supply orders -->
 <!-- app_navigation_hint: Open Supply orders, then click the action button to create a new draft supply order. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Documents/SupplyOrdersCreate.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Supply/Documents/SupplyOrdersCreate/ -->
 <!-- canonical_source_title: How to create a new supply order -->
 
 # How to create a new supply order

@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Nabavni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/Dokumenti/NabavniNalogi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/Dokumenti/NabavniNalogi/ -->
 <!-- canonical_source_title: Nabavni nalogi -->
 
 # Nabavni nalogi
@@ -22,7 +22,12 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 4. Ko so vsi materiali prevzeti, se nabavni nalog samodejno premakne v stanje **Zaključeno**.  
    - Če je prevzem le delni, dokument ostane v stanju **Na voljo**, dokler ni v celoti zaključen.
 
-![Nabavni nalogi v nabavnem procesu](../Images/SupplyOrderDiagramSL.svg "Nabavni nalogi v nabavnem procesu")
+```mermaid
+flowchart LR
+  IN[Povpraševanje] --> SU[Nabavni nalog] --> RE[Prevzem]
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class SU current
+```
 
 ## Shema
 
@@ -124,10 +129,10 @@ Razširljivi razdelki vključujejo:
 
 - [**Povezani dokumenti**](#povezani-dokumenti) 
 - [**Priponke**](NabavniNalogiUstvarjanje.md#priponke)
-- [**Dokument**](NabavniNalogiUstvarjanje.md#korak-2--izpolnjevanje-glave-dokumenta)
+- [**Dokument**](NabavniNalogiUstvarjanje.md#korak-2-izpolnjevanje-glave-dokumenta)
 - [**Dostava**](NabavniNalogiUstvarjanje.md#razdelek-dostava)
 - [**Vsebina na vrhu in na dnu**](NabavniNalogiUstvarjanje.md#vsebina-na-vrhu-in-vsebina-na-dnu)
-- [**Postavke**](NabavniNalogiUstvarjanje.md#korak-3--dodajanje-postavk)
+- [**Postavke**](NabavniNalogiUstvarjanje.md#korak-3-dodajanje-postavk)
 
 #### Povezani dokumenti
 

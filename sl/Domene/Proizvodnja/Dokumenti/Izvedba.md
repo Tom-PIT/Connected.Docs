@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Izvedba -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Izvedba.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/Izvedba/ -->
 <!-- canonical_source_title: Izvedba -->
 
 # Izvedba
@@ -9,7 +9,12 @@ Modul **Izvedba** uporabljajo proizvodni delavci za izvajanje in beleženje dela
 
 Večina proizvodnih delavcev je ob prijavi samodejno preusmerjena na pogled Izvedba.
 
-![Potek izvajanja proizvodnje](../Images/ProductionExecutionFlowSL.svg "Potek izvajanja proizvodnje")
+```mermaid
+flowchart LR
+  PO[Proizvodni nalog] --> EX[Izvedba]
+  EX --> ACT["Poraba, Delo, Kvaliteta<br>Zastoj, Slabi kosi, Navodila"]
+  ACT --> CE[Zaključiti izvedbo] --> PC[Proizvodni nalog zaključen]
+```
 
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Izvedba](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)**.

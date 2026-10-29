@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/list -->
 <!-- app_label: Vzdrževalni nalogi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogi/ -->
 <!-- canonical_source_title: Vzdrževalni nalogi -->
 
 # Vzdrževalni nalogi
@@ -9,7 +9,18 @@ Vzdrževalni nalogi določajo delo, ki je potrebno za izvajanje **planiranega al
 
 Prehajajo skozi življenjski cikel **V obdelavi → Aktiven → Zaprt** ter vključujejo operacije, vire, vhode in kontrolne sezname kakovosti, kot so definirani v izbranem procesu.
 
-![Življenjski cikel vzdrževalnega naloga](../Images/MaintenanceOrderLifecycleSL.svg "Življenjski cikel vzdrževalnega naloga")
+```mermaid
+flowchart LR
+  subgraph SRC [Viri ustvarjanja]
+    MS["Urniki<br>vzdrževanja"]
+    RM["Prijavljene<br>napake"]
+  end
+  MS -.-> P[V obdelavi]
+  RM -.-> P
+  P --> A[Aktiven] --> C[Zaprt]
+  classDef source stroke-dasharray:5 4
+  class MS,RM source
+```
 
 > [!NOTE]
 > **Predpogoji**
@@ -111,41 +122,41 @@ Nalog prikazuje:
 - proces in verzijo
 - vse operacije, določene z izbranim procesom
 
-### Izvajanje operacij
+### Izvedba operacij
 
 Operacije se izvajajo v skladu z definicijo procesa.
 
-Na voljo sta dva načina izvajanja:
+Na voljo sta dva načina izvedbe:
 
-- **Hitro zaključevanje** – Kliknite **Zaključi** neposredno na vzdrževalnem nalogu
-- **Podrobno izvajanje (priporočeno)** – Kliknite operacijo, da odprete zaslon izvajanja
+- **Hitro zaključevanje** – Kliknite **Zaključi** neposredno na vzdrževalnem nalogu.
+- **Podrobna izvedba** – Operacijo izvedite na zaslonu [**Izvedba**](IzvedbaVzdrzevanja.md).
 
-   ![Maintenance Order Operations](../Images/MaintenanceOrdersOperationSL.png "Seznam operacij vzdrževalnega naloga")
+![Maintenance Order Operations](../Images/MaintenanceOrdersOperationSL.png "Seznam operacij vzdrževalnega naloga")
 
-Klik na operacijo odpre **zaslon izvajanja operacije**, kjer lahko izvajalec:
-- pregleda [navodila](../../Znanje/BazaZnanja/BazaZnanja.md)
-- evidentira [vhode](../../Proizvodnja/Upravljanje/Vhodi.md) in [nečloveške vire](../../Proizvodnja/Upravljanje/StvarniViri.md)
-- izvede [kontrolne sezname](../../Kvaliteta/Upravljanje/KontrolneListe.md) kakovosti
-- beleži delo (začetek/konec, trajanje)
-- vnese podatke o izvedbi
+Zaslon **Izvedba** omogoča izvajanje in beleženje vzdrževalnega dela, vključno z:
 
-![Maintenance Order Operation](../Images/MaintenanceOrdersOperationScreenSL.png "Izvajanje operacije vzdrževalnega naloga")
+- začetkom, premorom in zaključkom operacije
+- beleženjem zapisnika o opravljenem vzdrževanju
+- beleženjem porabe vhodnih materialov, kadar so vhodi zahtevani
+- izpolnjevanjem kontrolnih listov kakovosti
+- beleženjem dela
+- ogledom navodil
 
-Ko je operacija zaključena, kliknite **Zaključi** v zgornjem levem kotu zaslona operacije.
+Za podrobne informacije o izvedbi vzdrževalnih operacij glejte [**Izvedba**](IzvedbaVzdrzevanja.md).
 
 Zaključene operacije so označene z **zelenim indikatorjem**, kar omogoča jasen vizualni pregled.
 
-Če je treba zaključeno operacijo ponovno odpreti, kliknite operacijo in izberite **Ponovno aktiviraj**.
+Če je treba zaključeno operacijo ponovno odpreti, pri ustrezni operaciji kliknite **Ponovno aktiviraj**.
 
 ![Ponovno aktiviranje operacije](../Images/MaintenanceOrdersOperationsReopenSL.png "Ponovno aktiviranje operacije")
 
-Po potrditvi se operacija ponovno aktivira in jo je mogoče dopolniti ali popraviti.
+Po potrditvi se operacija ponovno aktivira in jo je mogoče ponovno izvesti na zaslonu **Izvedba**.
 
 > [!TIP]
-> Po želji lahko celoten vzdrževalni nalog zaključite z enim dejanjem, tako da v [meniju](#meni) izberete **Zaključi vzdrževalni nalog**.
+> Celoten vzdrževalni nalog lahko zaključite z enim dejanjem, tako da v [meniju](#meni) izberete **Zaključi vzdrževalni nalog**.
 
 > [!NOTE]
-> Če je omogočena samodejna poraba, se poraba **vhodnih materialov** ob zaključku operacije evidentira samodejno. V nasprotnem primeru je treba vhodne materiale porabiti ročno med izvedbo.
+> Če je omogočena samodejna poraba, se poraba **vhodnih materialov** ob zaključku operacije evidentira samodejno. V nasprotnem primeru lahko vhodne materiale evidentirate ročno med [**izvedbo**](IzvedbaVzdrzevanja.md#vhodi).
 
 ## Zaprti vzdrževalni nalogi
 

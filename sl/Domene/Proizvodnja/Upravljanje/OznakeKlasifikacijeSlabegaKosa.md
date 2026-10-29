@@ -1,6 +1,6 @@
 <!-- app_route: /management/incompliant-production-tags -->
 <!-- app_label: Oznake klasifikacije slabega kosa -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeSlabegaKosa.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeSlabegaKosa/ -->
 <!-- canonical_source_title: Oznake klasifikacije slabega kosa -->
 
 # Oznake klasifikacije slabega kosa

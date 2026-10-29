@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/stock-age-structure -->
 <!-- app_label: Stock age structure -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/StockAgeStructure.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Views/StockAgeStructure/ -->
 <!-- canonical_source_title: Stock age structure -->
 
 # Stock age structure

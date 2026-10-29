@@ -1,6 +1,6 @@
 <!-- app_route: /configuration/customer-support/notifications -->
 <!-- app_label: Nastavitve obvestil -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Stranke/Upravljanje/NastavitveObvestil.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Stranke/Upravljanje/NastavitveObvestil/ -->
 <!-- canonical_source_title: Nastavitve obvestil -->
 
 # Nastavitve obvestil

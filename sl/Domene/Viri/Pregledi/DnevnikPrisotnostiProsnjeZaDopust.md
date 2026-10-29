@@ -1,6 +1,6 @@
 <!-- app_route: /time-logs/paid-leave-management -->
 <!-- app_label: Dnevnik prisotnosti – Prošnje za dopust -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiProsnjeZaDopust.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Pregledi/DnevnikPrisotnostiProsnjeZaDopust/ -->
 <!-- canonical_source_title: Dnevnik prisotnosti – Prošnje za dopust -->
 
 # Dnevnik prisotnosti – Prošnje za dopust

@@ -1,6 +1,6 @@
 <!-- app_route: /management/intrastat/supplementary-units -->
 <!-- app_label: Intrastat merske enote -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/IntrastatMerskeEnote.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/IntrastatMerskeEnote/ -->
 <!-- canonical_source_title: Intrastat merske enote -->
 
 # Intrastat merske enote

@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/effort-types -->
 <!-- app_label: Effort types -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/EffortTypes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/EffortTypes/ -->
 <!-- canonical_source_title: Effort types -->
 
 # Effort types

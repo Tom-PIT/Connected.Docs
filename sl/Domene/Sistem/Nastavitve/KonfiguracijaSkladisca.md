@@ -1,6 +1,6 @@
 <!-- app_route: /management/configuration -->
 <!-- app_label: Sistemske nastavitve -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sistem/Nastavitve/KonfiguracijaSkladisca.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sistem/Nastavitve/KonfiguracijaSkladisca/ -->
 <!-- canonical_source_title: Konfiguracija skladišča -->
 
 # Konfiguracija skladišča
@@ -50,4 +50,21 @@ Ta vrednost se uporablja pri generiranju GS1 skladnih kod, kot so:
 ### Warehouse location settings
 
 - **Disallow warehouse location from a different warehouse on inter move documents** – Prepreči izbiro lokacij, ki pripadajo drugemu skladišču pri kreiranju [inter-warehouse](../../Logistika/Dokumenti/MedSkladiscniPromet.md) premikov.
+
+## Samodejno ustvarjanje analiz materiala
+
+Nastavitve **Auto create** določajo, ali sistem ob dodajanju materialov samodejno ustvari analizo materiala.
+
+Za dostop do teh nastavitev pojdite na **Sistem / Nastavitve**, nato v levem stranskem meniju izberite **WarehouseExtSettings / Settings**.
+
+![Samodejno ustvarjanje analiz materiala](../Images/ConfigurationAutoCreateAnalysis.png "Samodejno ustvarjanje analiz materiala")
+
+Na voljo so naslednje možnosti:
+
+- **Auto create product analysis** – samodejno ustvari analizo materiala ob dodajanju izdelka.
+- **Auto create semi product analysis** – samodejno ustvari analizo materiala ob dodajanju polizdelka.
+- **Auto create raw material analysis** – samodejno ustvari analizo materiala ob dodajanju surovine.
+- **Auto create repro material analysis** – samodejno ustvari analizo materiala ob dodajanju repro materiala.
+
+Omogočite možnosti za tiste vrste materialov, za katere želite, da se analize ustvarijo samodejno.
 

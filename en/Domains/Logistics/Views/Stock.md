@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/stock/index -->
 <!-- app_label: Stock -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/Stock.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Views/Stock/ -->
 <!-- canonical_source_title: Stock -->
 
 # Stock

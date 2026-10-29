@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/reminders -->
 <!-- app_label: Opomniki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Viri/Pregledi/Opomniki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Pregledi/Opomniki/ -->
 <!-- canonical_source_title: Opomniki -->
 
 # Opomniki

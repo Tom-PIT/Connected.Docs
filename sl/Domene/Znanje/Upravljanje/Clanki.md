@@ -1,6 +1,6 @@
 <!-- app_route: /management/knowledge/directories -->
 <!-- app_label: Imeniki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Znanje/Upravljanje/Clanki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Znanje/Upravljanje/Clanki/ -->
 <!-- canonical_source_title: Članki -->
 
 # Članki

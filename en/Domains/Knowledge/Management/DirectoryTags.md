@@ -1,6 +1,6 @@
 <!-- app_route: /management/knowledge/directory-tags -->
 <!-- app_label: Directory tags -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/DirectoryTags.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Knowledge/Management/DirectoryTags/ -->
 <!-- canonical_source_title: Directory tags -->
 
 # Directory tags

@@ -1,13 +1,13 @@
 <!-- app_route: /planning -->
 <!-- app_label: Planning -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Planning/Views/Planning.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Planning/Views/Planning/ -->
 <!-- canonical_source_title: Planning -->
 
 # Planning
 
 The **Planning** screen provides a visual overview of **planned production orders** in a calendar layout. It allows users to monitor scheduling and adjust production timelines.
 
-To access this page, navigate to **Production / Planning / Planning**.
+To access this page, navigate to **Planning / Planning** in the [navigation](../../../Common/UI/Navigation.md).
 
 ![Planning view](../Images/PlanningDayView.png "Planning view")
 
@@ -17,7 +17,7 @@ Production orders are displayed on the calendar based on their **planned start**
 
 > [!IMPORTANT]
 > A production order will appear in Planning only if both **planned start** and **planned end** are defined.  
-> These values are set when creating or editing a production order. See [**Production orders**](../../Production/Documents/ProductionOrders.md#dates).
+> These values are set when creating or editing a production order. See [**Production orders**](../../Production/Documents/ProductionOrderCreate.md#dates).
 
 Each entry in the calendar represents a scheduled production order, showing its duration across the selected time range.
 
@@ -56,15 +56,15 @@ Planned orders can be **rescheduled** directly in the calendar using drag & drop
 - The system automatically updates the planned dates  
 
 > [!NOTE]
-> It is not possible to move a production order beyond its **due date** defined in the [production order](../../Production/Documents/ProductionOrderCreate.md#dates).
+> It is not possible to move a production order beyond its **Deadline date** defined in the [production order](../../Production/Documents/ProductionOrderCreate.md#dates).
 
 ### Display order information
 
-Hovering over a planned order displays additional details such as:
+Hovering over a planned order displays additional details:
 
 - Production order code  
-- Item name  
-- Planned start  
-- Planned end  
+- Deadline  
+- Start  
+- End  
 
 

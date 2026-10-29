@@ -1,7 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Procesi -->
 <!-- app_navigation_hint: Odpri proces, klikni na vrednost stroška želene verzije. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/AnalizaStroskaVerzije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Analiza/AnalizaStroskaVerzije/ -->
 <!-- canonical_source_title: Analiza stroška verzije -->
 
 # Analiza stroška verzije
@@ -37,8 +37,11 @@ Panel **Distribucija** prikazuje vizualno razčlenitev skupnega stroška.
 
 - **Material** – strošek vseh vhodnih materialov, porabljenih v operacijah
 - **Delo** – strošek človeškega in strojnega dela, potrebnega za izvedbo operacij
+- **Stroški** – dodatni stroški različice procesa
 
 Ta pogled omogoča hitro razumevanje, kateri elementi največ prispevajo k skupnemu strošku.
+
+Pod paneloma so zavihki **Materiali**, **Delo** in **Stroški**. Številka v oklepaju pove, koliko postavk je na zavihku.
 
 ## Materiali
 
@@ -86,7 +89,7 @@ Primeri:
 
 ## Skupni strošek
 
-Vrednost **Skupaj** na dnu strani prikazuje končni **ocenjeni strošek proizvodnje na kos**, ki je izračunan kot vsota:
+Znesek na panelu **Strošek** prikazuje končni **ocenjeni strošek proizvodnje na kos**, ki je izračunan kot vsota:
 
 - materialov
 - dela

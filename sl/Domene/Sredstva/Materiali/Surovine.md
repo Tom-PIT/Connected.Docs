@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/raw-materials -->
 <!-- app_label: Surovine -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Surovine.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/Surovine/ -->
 <!-- canonical_source_title: Surovine -->
 
 # Surovine
@@ -90,12 +90,20 @@ Uporabniški vmesnik vsebuje seznam surovin.
 
 Na levi strani je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje.
 
+### Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na zaslonu s seznamom.
+
+Razpoložljiva dejanja:
+
+- **Izvoz CSV** – Izvozite seznam materialov kot datoteko CSV. Datoteko lahko pregledate, uredite in jo pozneje ponovno uvozite za posodobitev seznama materialov.
+
 ## Dejanja
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da se prikažejo naslednja dejanja:
 
 - [**Uvoz**](#uvoziti-surovine)
-- [**Kopiraj obstoječi**](#kopirati-obstoječo-surovino)
+- [**Kopiraj obstoječi**](#kopirati-obstojeco-surovino)
 - **Nov**
 
 ### Ustvariti novo surovino

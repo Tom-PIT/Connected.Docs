@@ -1,6 +1,6 @@
 <!-- app_route: /assets/management/assets -->
 <!-- app_label: Assets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Assets/Assets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Assets/Assets/ -->
 <!-- canonical_source_title: Assets -->
 
 # Assets

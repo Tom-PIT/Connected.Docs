@@ -1,7 +1,7 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Izvedba -->
 <!-- app_navigation_hint: V Izvedbi, kliknite akcijski gumb in izberite Zastoj. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Dokumenti/Zastoj.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/Zastoj/ -->
 <!-- canonical_source_title: Zastoj -->
 
 # Zastoj
@@ -14,7 +14,7 @@ Aktivnost **Zastoj** beleži prekinitve med izvajanjem operacije (npr. čakanje 
 
 ![Zastoj](../Images/ExecutionDowntimePageSL.png "Beleženje zastoja")
 
-1. Odprite stran **Zastoj** iz [**menija aktivnosti izvedbe**](Izvedba.md#meni-aktivnosti-in-dejavnosti).  
+1. Odprite stran **Zastoj** iz [**menija aktivnosti izvedbe**](Izvedba.md#akcijski-meni-in-aktivnosti).  
 2. Kliknite **Zaženi zastoj**, da začnete beleženje prekinitve.  
 3. Kliknite **Ustavi zastoj**, ko se prekinitev konča.  
 4. Kliknite zapis zastoja za:

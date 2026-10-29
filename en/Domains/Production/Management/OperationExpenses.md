@@ -1,7 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
 <!-- app_navigation_hint: Open a process, select a version, click Operations, then open Expenses for the relevant operation. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Management/OperationExpenses.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/OperationExpenses/ -->
 <!-- canonical_source_title: Operation expenses -->
 
 # Operation expenses

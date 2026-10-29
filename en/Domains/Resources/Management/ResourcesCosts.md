@@ -1,6 +1,6 @@
 <!-- app_route: /resources/resource-costs -->
 <!-- app_label: Resources costs -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Management/ResourcesCosts.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Resources/Management/ResourcesCosts/ -->
 <!-- canonical_source_title: Resources costs -->
 
 # Resources costs

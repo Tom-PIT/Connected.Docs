@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/views/issue-details -->
 <!-- app_label: Issue details -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Views/IssueDetails.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Views/IssueDetails/ -->
 <!-- canonical_source_title: Issue details -->
 
 # Issue details

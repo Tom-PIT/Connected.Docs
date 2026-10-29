@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources -->
 <!-- app_label: Viri -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Upravljanje/Viri.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Viri/Upravljanje/Viri/ -->
 <!-- canonical_source_title: Viri -->
 
 # Viri
@@ -27,6 +27,7 @@ Spodnja tabela prikazuje vsa polja, ki se uporabljajo pri **človeških**, **ne�
 | **Oznake** | Oznake za razvrščanje ali filtriranje (npr. Proizvodnja, Vzdrževanje). | ✔️ | ✔️ | ✔️ |
 | **Ekipe** | Ekipe, katerim pripada človeški vir. | ✔️ |  |  |
 | **Nadrejeni stvarni vir** | Nadrejeni vir za hierarhično združevanje. |  | ✔️ |  |
+| **Opis** | Prosto besedilno polje za dodatne informacije o viru. |  | ✔️ |  |
 | **Zunanji ključ** | Zunanji identifikator za integracije. |  | ✔️ |  |
 | **Člani** | Človeški viri, vključeni v ekipo. |  |  | ✔️ |
 | **Članek** | Članek, povezan s specifičnim nečloveškim virom. |  | ✔️ |  |
@@ -83,7 +84,7 @@ Primeri:
 
 Z izbiro elementa v drevesu se prikažejo njegove podrobnosti in obrazec za urejanje.
 
-![Seznam virov](../Images/ResourcesListEditSL.png "Seznam virov")
+![Seznam virov](../Images/ResourcesListEditV2SL.png "Seznam virov")
 
 ## Ustvariti nov vir
 

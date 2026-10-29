@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/external-code-sets -->
 <!-- app_label: Kode namenov plačil -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Upravljanje/KodeNamenovPlacil.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Upravljanje/KodeNamenovPlacil/ -->
 <!-- canonical_source_title: Kode namenov plačil -->
 
 # Kode namenov plačil

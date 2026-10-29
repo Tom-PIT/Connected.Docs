@@ -1,6 +1,6 @@
 <!-- app_route: /analytics/downtime-summary -->
 <!-- app_label: Downtime summary -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Production/Analytics/DowntimeSummary.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Analytics/DowntimeSummary/ -->
 <!-- canonical_source_title: Downtime summary -->
 
 # Downtime summary
@@ -25,6 +25,16 @@ Determines how downtime data is aggregated:
 
 ### From / To
 Select the date range for which downtime records should be included.
+
+### Downtime Type
+
+The **Downtime Type** filter allows you to filter downtime based on whether it is planned or unplanned.
+
+- **All** – displays all downtime regardless of type.
+- **Planned** – displays only planned downtime.
+- **Unplanned** – displays only unplanned downtime.
+
+Whether downtime is considered planned or unplanned is defined in the [**Downtime tags**](../Management/DowntimeTags.md) code list, where each tag can be configured as planned or unplanned.
 
 ### Organization units
 Filter results by one or more [organization units](../Management/OrganizationUnits.md).

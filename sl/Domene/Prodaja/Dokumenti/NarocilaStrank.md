@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/sales-orders -->
 <!-- app_label: Naročila strank -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/NarocilaStrank.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/NarocilaStrank/ -->
 <!-- canonical_source_title: Naročila strank -->
 
 # Naročila strank
@@ -23,7 +23,14 @@ Naročila strank so eden ključnih korakov v prodajni verigi:
    - [**Nabavni nalogi**](../../Nabava/Dokumenti/NabavniNalogi.md)
    - [**Izdani računi**](IzdaniRacuni.md)
 
-![Prodajni proces](../Images/SalesOrderDiagramSL.svg "Prodajni proces")
+```mermaid
+flowchart LR
+  OF[Ponudba] --> SO[Naročilo stranke] --> DN["Dobavnica<br>+ Izdajnica"] --> II[Izdani račun] --> PA[Plačilo]
+  LD["Nabavni nalog<br>Vzdrževalni nalog<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class SO current
+```
 
 Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaključeno stanje.
 
@@ -42,6 +49,7 @@ Ko je naročilo stranke v celoti izpolnjeno in obračunano, se premakne v zaklju
 | **Datum dokumenta** | Datum nastanka naročila stranke. |
 | **Datum prodaje** | Predviden datum dobave naročila (obvezno). |
 | **Rabat** | Neobvezen popust na celotno naročilo stranke. |
+| [**Stroškovno mesto**](../../../Skupno/Upravljanje/StroskovnaMesta.md) | Izberite stroškovno mesto, povezano z naročilom stranke. |
 | **Številka naročilnice** | Neobvezna povezava na povezani [nabavni nalog](../../Nabava/Dokumenti/NabavniNalogi.md). |
 | [**Način plačila**](../Upravljanje/NacinPlacila.md) | Načini plačila, povezani z naročilom stranke. |
 
@@ -142,8 +150,8 @@ Naročilo stranke je razdeljeno v več razširljivih razdelkov. Razpoložljiva d
 - [**Alternativna valuta**](NarocilaStrankUstvarjanje.md#alternativna-valuta)
 - [**Dobava**](NarocilaStrankUstvarjanje.md#dobava)
 - [**Transport in Intrastat**](NarocilaStrankUstvarjanje.md#razdelka-transport-in-intrastat)
-- [**Podrobnosti**](NarocilaStrankUstvarjanje.md#korak-3--dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk računa
-- [**Načini plačila**](NarocilaStrankUstvarjanje.md#načini-plačila) – določanje načina plačila stranke
+- [**Podrobnosti**](NarocilaStrankUstvarjanje.md#korak-3-dodajanje-postavk) – dodajanje, odstranjevanje ali spreminjanje postavk računa
+- [**Načini plačila**](NarocilaStrankUstvarjanje.md#nacini-placila) – določanje načina plačila stranke
 
 #### Povezani dokumenti
 

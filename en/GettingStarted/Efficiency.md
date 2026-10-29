@@ -1,11 +1,14 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/Efficiency.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/GettingStarted/Efficiency/ -->
 <!-- canonical_source_title: Improving production efficiency -->
 
 # Improving production efficiency
 
 This guide explains, in simple steps, how to track production work and improve results. You will record what was done (materials used, outputs, loss, downtime, effort) and then use clear reports and KPIs to find bottlenecks and decide what to fix first.
 
-![Efficiency flow](Images/EfficiencyFlow.svg "Efficiency flow")
+```mermaid
+flowchart LR
+  A[Define processes tags] --> B[Execute record] --> C[Review KPIs and Summaries] --> D[Act on findings]
+```
 
 **Goal:** record actual work (consumed, loss, downtime, effort) and review KPIs and summaries to find bottlenecks.
 

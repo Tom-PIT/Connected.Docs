@@ -1,6 +1,6 @@
 ﻿<!-- app_route: /management/common-types/tax-rates -->
 <!-- app_label: Davčne stopnje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/DavcneStopnje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Upravljanje/DavcneStopnje/ -->
 <!-- canonical_source_title: Davčne stopnje -->
 
 # Davčne stopnje

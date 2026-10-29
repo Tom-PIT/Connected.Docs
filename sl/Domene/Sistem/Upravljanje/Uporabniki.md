@@ -1,6 +1,6 @@
 <!-- app_route: /management/users -->
 <!-- app_label: Uporabniki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sistem/Upravljanje/Uporabniki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sistem/Upravljanje/Uporabniki/ -->
 <!-- canonical_source_title: Uporabniki -->
 
 # Uporabniki

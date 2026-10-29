@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/alternative-measure-units -->
 <!-- app_label: Alternative measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/AlternativeMeasureUnits.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/AlternativeMeasureUnits/ -->
 <!-- canonical_source_title: Alternative measure units -->
 
 # Alternative measure units

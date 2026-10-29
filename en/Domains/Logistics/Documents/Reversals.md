@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/reversals --> 
 <!-- app_label: Reversals --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Logistics/Documents/Reversals.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/Reversals/ --> 
 <!-- canonical_source_title: Reversals -->
 
 # Reversals

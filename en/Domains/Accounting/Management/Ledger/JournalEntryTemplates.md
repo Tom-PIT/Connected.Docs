@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/journal-entry-templates -->
 <!-- app_label: Journal entry templates -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/JournalEntryTemplates.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Ledger/JournalEntryTemplates/ -->
 <!-- canonical_source_title: Journal entry templates -->
 
 # Journal entry templates

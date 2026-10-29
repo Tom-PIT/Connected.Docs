@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/material-analysis -->
 <!-- app_label: Analiza materialov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Upravljanje/AnalizaMaterialov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Upravljanje/AnalizaMaterialov/ -->
 <!-- canonical_source_title: Analiza materialov -->
 
 # Analiza materialov
@@ -14,8 +14,7 @@ Opredelite **analize ali preizkuse**, ki se lahko izvajajo na materialih (npr. k
 > Za celovit prikaz si oglejte video vodič  
 > **[Analiza materialov](https://www.youtube.com/watch?v=AgCVA8labrw)**.
 
-Za dostop do **Analize materialov** pojdite na  
-**Logistika / Upravljanje / Analiza materialov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
+Za dostop do **Analize materialov** pojdite na **Logistika / Upravljanje / Analiza materialov** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 ## Shema
 

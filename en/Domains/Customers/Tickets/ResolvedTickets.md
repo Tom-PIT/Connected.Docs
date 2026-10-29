@@ -1,6 +1,6 @@
 <!-- app_route: /customer-support/resolved-tickets -->
 <!-- app_label: Resolved tickets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/Tickets/ResolvedTickets.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Customers/Tickets/ResolvedTickets/ -->
 <!-- canonical_source_title: Resolved tickets -->
 
 # Resolved tickets

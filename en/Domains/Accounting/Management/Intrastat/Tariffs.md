@@ -1,6 +1,6 @@
 <!-- app_route: /management/intrastat/tariffs -->
 <!-- app_label: Tariffs -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Intrastat/Tariffs.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Intrastat/Tariffs/ -->
 <!-- canonical_source_title: Tariffs -->
 
 # Tariffs

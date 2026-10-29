@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/containers --> 
 <!-- app_label: Vsebniki --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Vsebniki.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/Vsebniki/ --> 
 <!-- canonical_source_title: Vsebniki -->
 
 # Vsebniki
@@ -79,7 +79,7 @@ Vsebniki se ustvarjajo ročno na tej strani.
 Zapakiran vsebnik je pripravljen za uporabo, stanje pa se spremeni v **Zapakirano**. V meniju lahko natisnete ali izvozite nalepke z **SSCC šifro vsebnika**.
 
 > [!NOTE]
-> Postavke v **zapakiranem** vsebniku so rezervirane in jih ni mogoče prosto posamezno obdelovati (izdaja / prevzem / premik). Sistem pa omogoča uporabo [**delne količine**](#delna-uporaba-količine) neposredno iz vsebnika brez razpakiranja.
+> Postavke v **zapakiranem** vsebniku so rezervirane in jih ni mogoče prosto posamezno obdelovati (izdaja / prevzem / premik). Sistem pa omogoča uporabo [**delne količine**](#delna-uporaba-kolicine) neposredno iz vsebnika brez razpakiranja.
 
 ### Uporaba vsebnikov
 

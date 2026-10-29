@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Skupno/Upravljanje/PoslovniImenik.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Upravljanje/PoslovniImenik/ -->
 <!-- canonical_source_title: Poslovni imenik -->
 
 # Poslovni imenik
@@ -33,7 +33,7 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v nasl
 | **Matična številka** | Matična številka podjetja. |
 | [**Institucionalni sektor**](../../Domene/Stranke/Upravljanje/InstitucionalniSektorji.md) | Institucionalni sektor, v katerega spada entiteta. |
 | **Oznake** | Oznake za kategorizacijo entitet. |
-| **Valuta Plačilna** | Privzeta plačilna valuta, uporabljena v dokumentih. |
+| **Valuta plačila** | Privzeto število dni do zapadlosti plačila, ki se uporabi za izračun datuma zapadlosti na dokumentih. |
 | [**Valuta**](Valute.md) | Valuta, povezana z entiteto. |
 | **Rabat** | Privzeti odstotek popusta za entiteto. |
 | [**Primarni kontakt**](Kontakti.md) | Ime in priimek primarne kontaktne osebe. |
@@ -108,8 +108,13 @@ Za ustvarjanje novega zapisa:
 
 #### E-računi
 
-Ta razdelek omogoča izdajanje e-računov povezanemu podjetju.
+Ta razdelek omogoča izdajanje e-računov povezanemu podjetju z označitvijo potrditvenega polja **Izdaja e-računov**.
 
+![Razdelek E-računi](../Images/BusinessDirectoryEInvoicesSL.png "Razdelek E-računi")
+
+Če so e-računi omogočeni, izdani računi in dobropisi za to stranko vsebujejo dodaten razdelek **E-račun**, ki ga morate izpolniti pred objavo. Za izvoz e-računov mora imeti stranka vnesen tudi **DDV ID**, **matično številko** in vsaj en [bančni račun](BancniRacuni.md).
+
+Za podrobnosti glejte [**E-računi**](../Koncepti/E-Racuni.md).
 #### Urediti kontakt
 
 Ta razdelek omogoča vnos podatkov o primarni kontaktni osebi poslovnega partnerja (ime, telefonska številka, e-pošta). Polja so neobvezna in služijo kot referenčni podatki, uporabljeni v dokumentih.

@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/reversals --> 
 <!-- app_label: Storno --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/Storno.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/Storno/ --> 
 <!-- canonical_source_title: Storno -->
 
 # Storno

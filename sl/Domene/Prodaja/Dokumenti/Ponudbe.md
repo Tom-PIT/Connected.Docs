@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/offers -->
 <!-- app_label: Ponudbe -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Prodaja/Dokumenti/Ponudbe.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Prodaja/Dokumenti/Ponudbe/ -->
 <!-- canonical_source_title: Ponudbe -->
 
 # Ponudbe
@@ -19,7 +19,14 @@ Tipičen potek:
 3. Iz prodajnega naloga se proces nadaljuje v operativne faze – proizvodnja, nabava, dostava ipd.  
 4. Na koncu se ustvari [**Dobavnica**](Dobavnice.md) in nato še [**Izdani račun**](IzdaniRacuni.md).
 
-![Ponudbe v prodajnem procesu](../Images/OfferDiagramSL.svg "Ponudbe v prodajnem procesu")
+```mermaid
+flowchart LR
+  OF[Ponudba] --> SO[Naročilo stranke] --> DN["Dobavnica<br>+ Izdajnica"] --> II[Izdani račun] --> PA[Plačilo]
+  LD["Nabavni nalog<br>Vzdrževalni nalog<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class OF current
+```
 
 ## Shema
 

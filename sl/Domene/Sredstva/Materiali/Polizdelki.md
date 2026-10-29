@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/semi-products -->
 <!-- app_label: Polizdelki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Sredstva/Materiali/Polizdelki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Sredstva/Materiali/Polizdelki/ -->
 <!-- canonical_source_title: Polizdelki -->
 
 # Polizdelki
@@ -90,6 +90,14 @@ Uporabniški vmesnik vsebuje seznam polizdelkov. Če zapisi še ne obstajajo, je
 
 Seznam prikazuje ime, šifro in način generiranja serijske številke za vsak polizdelek.
 Na levi strani zaslona je na voljo filter po **Oznakah**, v zgornjem desnem kotu pa **iskalno polje** za hitro iskanje določenih polizdelkov.
+
+### Meni
+
+Meni omogoča dodatna dejanja, ki so na voljo na zaslonu s seznamom.
+
+Razpoložljiva dejanja:
+
+- **Izvoz CSV** – Izvozite seznam materialov kot datoteko CSV. Datoteko lahko pregledate, uredite in jo pozneje ponovno uvozite za posodobitev seznama materialov.
 
 ## Dejanja
 

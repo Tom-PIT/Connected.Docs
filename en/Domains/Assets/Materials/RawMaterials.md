@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/raw-materials -->
 <!-- app_label: Raw materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/RawMaterials.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Assets/Materials/RawMaterials/ -->
 <!-- canonical_source_title: Raw materials -->
 
 # Raw materials
@@ -93,6 +93,13 @@ The user interface contains a list of raw materials.
 A filter for **Tags** is available on the left side. A search field is
 available in the upper-right corner.
 
+### Menu
+
+The menu provides additional actions available on the list screen.
+
+Available actions:
+
+- **Download CSV** – Download the material list as a CSV file. The file can be reviewed, edited, and later imported to update the material list.
 
 ## Actions
 

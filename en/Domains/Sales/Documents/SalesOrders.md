@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/sales-orders -->
 <!-- app_label: Sales orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/SalesOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Sales/Documents/SalesOrders/ -->
 <!-- canonical_source_title: Sales orders -->
 
 # Sales orders
@@ -25,7 +25,14 @@ Sales orders are one of the core steps in the sales chain:
 
 Once the sales order is fulfilled and invoiced, it moves toward completion.
 
-![Sales orders in the sales process](../Images/SalesOrderDiagram.svg "Sales orders in the sales process")
+```mermaid
+flowchart LR
+  OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
+  LD["Supply order<br>Maintenance order<br>Production order"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class SO current
+```
 
 > [!NOTE]
 >Your company may follow all steps or only some of them, depending on the type of business (for example, service companies may not use Delivery notes).
@@ -43,6 +50,7 @@ Once the sales order is fulfilled and invoiced, it moves toward completion.
 | **Document date** | Date when the sales order is created. |
 | **Delivery date** | Expected delivery date for the order (mandatory). |
 | **Rebate** | Optional discount applied to the entire sales order. |
+| [**Cost center**](../../../Common/Management/CostCenters.md) | Select the cost center associated with the sales order. |
 | **Purchase order** | Optional reference to a related [supply order](../../Supply/Documents/SupplyOrders.md). |
 | **[Delivery term](../../../Common/Management/DeliveryTerms.md)** | Delivery conditions as agreed upon with the customer. |
 | **[Mode of transport](../../../Common/Management/ModeOfTransport.md)** | Transport method agreed upon with the customer. |
@@ -143,7 +151,7 @@ Click on a sales order on the list to open the edit view. The available actions 
 - [**Alternative currency**](SalesOrdersCreate.md#alternative-currency)
 - [**Transport and Intrastat**](SalesOrdersCreate.md#transport-and-intrastat-sections)
 - [**Delivery information**](SalesOrdersCreate.md#delivery)
-- [**Details**](SalesOrdersCreate.md#step-3--add-details) – add, remove, or change invoice lines
+- [**Details**](SalesOrdersCreate.md#step-3-add-details) – add, remove, or change invoice lines
 - [**Payment methods**](SalesOrdersCreate.md#payment-methods) – define how the customer is expected to pay
 
 #### Linked documents

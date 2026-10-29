@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/accounts -->
 <!-- app_label: Chart of accounts -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/ChartOfAccounts.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Ledger/ChartOfAccounts/ -->
 <!-- canonical_source_title: Chart of accounts -->
 
 # Chart of accounts

@@ -1,6 +1,6 @@
 <!-- app_route: /documents/containers -->
 <!-- app_label: Vsebniki -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Dokumenti/Dokumenti/Vsebniki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Dokumenti/Dokumenti/Vsebniki/ -->
 <!-- canonical_source_title: Vsebniki -->
 
 # Vsebniki
@@ -100,7 +100,7 @@ Za nalaganje dokumenta najprej izberite mapo v stranski vrstici, kliknite **Nalo
 
 Naloženi dokument bo dodan na seznam. Za vsak dokument so na voljo naslednja dejanja:
 - **Odjavi** – zaklene dokument za urejanje. Drugi uporabniki ga ne morejo spreminjati, dokler ni ponovno sproščen.
-- **Kopiraj** – ustvari kopijo dokumenta v isti mapi.
+- **Kopiraj** – kopira URL dokumenta v odložišče.
 - **Prenesi** – prenese dokument na vašo napravo.
 
 ### Urediti dokumente

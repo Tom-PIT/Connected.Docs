@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/supply -->
 <!-- app_label: Nabava -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Nabava/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Nabava/ -->
 <!-- canonical_source_title: Nabava -->
 
 # Nabava
@@ -24,7 +24,7 @@ Področje je organizirano v več funkcionalnih sklopov:
 - **[Planiranje nabave po mejah zaloge](Dokumenti/PlaniranjeNabavePoMejahZaloge.md)** – planiranje na podlagi pravil mej zaloge
 - **[Planiranje nabave po naročilih strank](Dokumenti/PlaniranjeNabavePoNarocilihStrank.md)** – planiranje na podlagi prodajnega povpraševanja
 - **[Pregledi](#pregledi)** – analitični pregledi za spremljanje nabavnih trendov  
-- **[Šifranti](#sifranti)** – nastavitve in osnovni podatki za nabavne procese
+- **[Šifranti](#upravljanje)** – nastavitve in osnovni podatki za nabavne procese
 
 ![Pregled področja Nabava](Images/SupplyDomainOverviewSL.png "Pregled področja Nabava")
 

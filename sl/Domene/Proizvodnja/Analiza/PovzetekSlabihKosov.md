@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/loss-summary -->
 <!-- app_label: Povzetek slabih kosov -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Proizvodnja/Analiza/PovzetekSlabihKosov.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Analiza/PovzetekSlabihKosov/ -->
 <!-- canonical_source_title: Povzetek slabih kosov -->
 
 # Povzetek slabih kosov
