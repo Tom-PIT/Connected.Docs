@@ -1,116 +1,115 @@
 <!-- app_route: /sitemap/supply -->
-<!-- app_label: Supply domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/README.md -->
-<!-- canonical_source_title: Supply domain -->
+<!-- app_label: Nabava -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Nabava/README.md -->
+<!-- canonical_source_title: Nabava -->
 
-# Supply
+# Nabava
 
-The **Supply** domain manages all processes related to procurement, supplier interactions, and inbound material planning. It includes supplier inquiries, supply orders, planning tools, and analytical views that help maintain optimal stock levels and ensure timely replenishment.
+Domena **Nabava** upravlja svim procesima povezanima s nabavom, komunikacijom s dobavljačima i planiranjem ulaznih materijala. Sadrži upite dobavljačima, narudžbenice, alate za planiranje i analitičke prikaze koji pomažu održavati optimalne razine zaliha i pravovremenu nadopunu.
 
-Where the **[Sales](../Sales/README.md)** domain manages customer-facing activities, the Supply domain manages supplier-facing workflows that ensure materials are available when needed.
+Dok domena **[Prodaja](../Prodaja/README.md)** upravlja aktivnostima prema kupcima, domena Nabava upravlja tijekovima rada prema dobavljačima koji osiguravaju dostupnost materijala kada je potreban.
 
-To access Supply, navigate to **Supply** in the [navigation](../../Zajednicko/UI/Navigacija.md).
+Za pristup domeni Nabava otvorite **Nabava** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-![Supply Domain](Images/SupplyDomainSitemap.png "Supply Domain")
+![Karta domene Nabava](Images/SupplyDomainSitemapHR.png "Karta domene Nabava")
 
 > [!NOTE]  
-> The available domains depend on each company’s configuration and business model.
+> Dostupne domene ovise o konfiguraciji tvrtke i poslovnom modelu.
 
-## What is included in the Supply domain?
+## Što sadrži domena Nabava?
 
-The domain is organized into several functional areas:
+Domena je organizirana u nekoliko funkcionalnih područja:
 
-- **[Documents](#documents)** – procurement documents used to request or order materials  
-- **[Supply stock boundaries planning](Documents/SupplyStockBoundariesPlanning.md)** – planning tools based on stock boundary rules  
-- [**Supply planning by sales orders**](Documents/SupplyStockBoundariesPlanningBySales.md) – planning based on sales demand
-- **[Views](#views)** – analytical tools for understanding procurement trends  
-- **[Management](#management)** – code lists and configuration for supplier-related processes
+- **[Dokumenti](#dokumenti)** – nabavni dokumenti za traženje ili naručivanje materijala  
+- **[Planiranje nabavke](Dokumenti/PlaniranjeNabavke.md)** – alati za planiranje na temelju pravila granica zaliha  
+- [**Planiranje nabave nakon narudžbi kupaca**](Dokumenti/PlaniranjeNabavePoNarudzbamaKupaca.md) – planiranje na temelju potražnje iz prodaje  
+- **[Pogledi](#pogledi)** – analitički alati za razumijevanje trendova nabave  
+- **[Upravljanje](#upravljanje)** – šifrarnici i konfiguracija za procese vezane uz dobavljače  
 
-![Supply Domain Overview](Images/SupplyDomainOverviewV2.png "Supply Domain Overview")
+![Pregled domene Nabava](Images/SupplyDomainOverviewHR.png "Pregled domene Nabava")
 
 > [!TIP]
-> See [**How to create a supply order**](Documents/SupplyOrdersCreate.md) for a step-by-step guide of the creation of these documents.
+> Za pregled izrade narudžbenice korak po korak pogledajte [**Kako kreirati narudžbenicu**](Dokumenti/NarudzbeniceIzrada.md).
 
-## Documents
+## Dokumenti
 
-The **Documents** section contains procurement-related documents used to request quotations or issue supply orders to vendors.
+Odjeljak **Dokumenti** sadrži nabavne dokumente koji se koriste za traženje ponuda ili naručivanje materijala od dobavljača.
 
-![Supply Documents](Images/SupplyDomainDocuments.png "Supply Documents")
+![Dokumenti nabave](Images/SupplyDomainDocumentsHR.png "Dokumenti nabave")
 
-Available documents include:
+Dostupni dokumenti:
 
-- **[Inquiries](Documents/Inquiries.md)** – Requests sent to suppliers asking for quotations or availability. These do not affect stock and can typically be converted to supply orders via linked documents.
-- **[Supply orders](Documents/SupplyOrders.md)** – Confirmed orders issued to suppliers for goods or services. Receipts are registered in **Logistics** using [receives](../Logistics/Documents/Receives.md).
+- **[Upiti](Dokumenti/Upiti.md)** – zahtjevi poslani dobavljačima za cijene ili dostupnost. Ne utječu na zalihu i obično se mogu pretvoriti u narudžbenice putem povezanih dokumenata.
+- **[Narudžbenice dobavljača](Dokumenti/Narudzbenice.md)** – potvrđene narudžbe poslane dobavljačima za robu ili usluge. Primke se evidentiraju u **Logistici** pomoću [primki](../Logistika/Dokumenti/Primke.md).
 
-These documents initiate the procurement workflow and provide full traceability of supplier activity.
+Ti dokumenti pokreću tijek nabave i osiguravaju potpunu sljedivost aktivnosti dobavljača.
 
 > [!NOTE]
-> Supply documents follow standard states such as Draft and Committed. Availability of actions depends on the current state.
+> Nabavni dokumenti prolaze kroz standardna stanja poput Nacrt i Potvrđeno. Dostupnost radnji ovisi o trenutnom stanju.
 
-## Views
+## Pogledi
 
-The **Views** section provides analytical insight into supply orders and procurement patterns. These views are read-only.
+Odjeljak **Pogledi** pruža analitički uvid u narudžbenice i obrasce nabave. Ti su prikazi samo za čitanje.
 
-![Supply Views](Images/SupplyDomainsViews.png "Supply Views")
+![Pogledi nabave](Images/SupplyDomainsViewsHR.png "Pogledi nabave")
 
-Available views include:
+Dostupni prikazi:
 
-- **[Supply order details](Views/SupplyOrderDetails.md)** – Detailed information on supply orders, including items, deadlines, and supplier metrics.  
-- **[Supply orders report](Views/SupplyOrdersReport.md)** – Aggregated overview of supply order volume, trends, and statuses.
+- **[Stavke narudžbenica](Pregledi/StavkeNarudzbenica.md)** – pojedinosti o stavkama narudžbenica, uključujući rokove i isporuke.  
+- **[Izvješće o narudžbama](Pregledi/IzvjesceONarudzbama.md)** – zbirni pregled količina, vrijednosti i statusa narudžbi po dobavljaču.
 
-These screens support analysis and decision-making but do **not** create transactions.
+Ti zasloni podržavaju analizu i donošenje odluka, ali **ne** izrađuju transakcije.
 
-## Management
+## Upravljanje
 
-The **Management** section contains configuration and master data required by procurement processes.
+Odjeljak **Upravljanje** sadrži konfiguraciju i matične podatke potrebne procesima nabave.
 
-![Supply Management](Images/SupplyDomainManagement.png "Supply Management")
+![Upravljanje nabavom](Images/SupplyDomainManagementHR.png "Upravljanje nabavom")
 
-Available configuration and code lists include:
+Dostupna konfiguracija i šifrarnici:
 
-- **[Configuration](Management/SupplyConfiguration.md)** – Supply settings and procurement rules, including document numbering for supply orders.  
-- **[Supplier materials](Management/SupplierMaterials.md)** – Mapping of which suppliers can provide which materials; may include lead times, MOQs, and price sources.  
-- **[Expenses](Management/Expenses.md)** – Expense categories (e.g., freight, customs) used on supply orders; affect the total procurement cost.  
-- **[Business directory](../../Common/Management/BusinessDirectory.md)** – Supplier and partner records.  
-- **[Cost centers](../../Common/Management/CostCenters.md)** – Financial allocation of procurement expenses.  
-- **[Currencies](../../Common/Management/Currencies.md)** – Currency definitions used in quotations and supply orders.  
-- **[Predefined texts](../../Common/Management/PredefinedTexts.md)** – Standard text blocks used in procurement documents.  
-- **[Countries](../../Common/Management/Countries.md)** – Geographic information used in supplier profiles.  
-- **[Measure units](../../Common/Management/MeasureUnits.md)** – Measurement units used across supply documents.  
-- **[Tax rates](../../Common/Management/TaxRates.md)** – Tax definitions applied during procurement.
+- **[Konfiguracija](Upravljanje/KonfiguracijaNabave.md)** – postavke nabave i pravila, uključujući numeriranje narudžbenica.  
+- **[Materijali dobavljača](Upravljanje/SupplierMaterials.md)** – povezivanje dobavljača s materijalima koje mogu isporučiti; mogu uključivati rokove isporuke i cijene.  
+- **[Troškovi](Upravljanje/Troskovi.md)** – kategorije troškova (npr. prijevoz, carina) koje se koriste na narudžbenicama; utječu na ukupni trošak nabave.  
+- **[Poslovni imenik](../../Zajednicko/Upravljanje/PoslovniImenik.md)** – podaci o dobavljačima i partnerima.  
+- **[Mjesta troška](../../Zajednicko/Upravljanje/MjestaTroska.md)** – financijska raspodjela troškova nabave.  
+- **[Valute](../../Zajednicko/Upravljanje/Valute.md)** – definicije valuta koje se koriste u ponudama i narudžbenicama.  
+- **[Unaprijed pripremljeni tekstovi](../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md)** – standardni tekstualni blokovi u dokumentima nabave.  
+- **[Države](../../Zajednicko/Upravljanje/Drzave.md)** – geografski podaci koji se koriste u profilima dobavljača.  
+- **[Mjerne jedinice](../../Zajednicko/Upravljanje/MjerneJedinice.md)** – mjerne jedinice koje se koriste u dokumentima nabave.  
+- **[Porezne stope](../../Zajednicko/Upravljanje/PorezneStope.md)** – porezne definicije koje se primjenjuju pri nabavi.
 
-These elements determine how the procurement processes behave and how supply-related data is structured.
+Ti elementi određuju kako se procesi nabave ponašaju i kako su podaci o nabavi strukturirani.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> Pregled svih šifrarnika dostupan je u **[Indeksu upravljanja](../../IndeksUpravljanja.md)**.
 
-## Supply Processes
+## Tijek nabave
 
-Procurement operations typically follow a structured lifecycle:
+Postupci nabave obično slijede strukturirani životni ciklus:
 
-### **1. Inquiry**  
-An [inquiry](Documents/Inquiries.md) is requested from the supplier, providing pricing, availability, and expected delivery dates.
+### **1. Upit**  
+Od dobavljača se traži [upit](Dokumenti/Upiti.md) s cijenama, dostupnošću i očekivanim rokovima isporuke.
 
-### **2. Ordering**  
-A [supply order](Documents/SupplyOrders.md) is created and issued based on material needs or supplier agreements.
+### **2. Naručivanje**  
+[Narudžbenica](Dokumenti/Narudzbenice.md) se izrađuje i šalje na temelju potreba za materijalom ili dogovora s dobavljačem.
 
-### **3. Delivery & Receipt**  
-Goods are delivered by suppliers and processed through **Logistics** [**Receives**](../Logistics/Documents/Receives.md).
+### **3. Isporuka i primitak**  
+Dobavljači isporučuju robu, a ona se obrađuje u **Logistici** kroz [primke](../Logistika/Dokumenti/Primke.md).
 
-### **4. Planning & Replenishment**  
-[**Stock boundaries**](../Logistics/Management/StockBoundaries.md) and planning views (see [**Supply stock boundaries planning**](Documents/SupplyStockBoundariesPlanning.md)) help determine when new procurement cycles should begin.
+### **4. Planiranje i nadopuna**  
+[**Granice zalihe**](../Logistika/Upravljanje/GraniceZalihe.md) i prikazi planiranja (vidi [**Planiranje nabavke**](Dokumenti/PlaniranjeNabavke.md)) pomažu odrediti kada treba započeti novi ciklus nabave.
 
-### **5. Analysis**  
-Views provide insights into supplier performance, order timelines, and overall procurement efficiency.
+### **5. Analiza**  
+Prikazi pružaju uvid u učinkovitost dobavljača, rokove narudžbi i ukupnu učinkovitost nabave.
 
-## Supply and Other Domains
+## Nabava i ostale domene
 
-Supply integrates with other operational domains:
+Nabava je povezana s ostalim operativnim domenama:
 
-| Area | Interaction |
-|------|-------------|
-| **[Materials](../Assets/Materials/README.md)** | Defines the items being procured. |
-| **[Logistics](../Logistics/README.md)** | Receives incoming goods and updates stock. |
-| **[Production](../Production/README.md)** | Requires purchased materials for manufacturing processes. |
-| **[Sales](../Sales/README.md)** | Relies on procurement to ensure availability of sold items. |
-
+| Područje | Povezanost |
+|----------|------------|
+| **[Materijali](../RobaIUsluge/Materijali/README.md)** | Definira artikle koji se nabavljaju. |
+| **[Logistika](../Logistika/README.md)** | Zaprima dolaznu robu i ažurira zalihu. |
+| **[Proizvodnja](../Proizvodnja/README.md)** | Zahtijeva kupljene materijale za proizvodne procese. |
+| **[Prodaja](../Prodaja/README.md)** | Oslanja se na nabavu kako bi prodani artikli bili dostupni. |
