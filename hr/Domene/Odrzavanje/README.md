@@ -28,6 +28,7 @@ Domena je organizirana u funkcionalna područja za svakodnevni rad i analizu:
 
 - **Dokumenti** – izrada i upravljanje aktivnostima održavanja i njihovim životnim ciklusom
   - **[Nalozi za održavanje](Dokumenti/NaloziZaOdrzavanje.md)** — planiranje i izvršavanje planiranog ili kurativnog održavanja na temelju odabranog procesa održavanja i verzije. Podržava operacije, resurse, ulaze i kontrole kvalitete.
+  - **[Izvođenje održavanja](Dokumenti/IzvodenjeOdrzavanja.md)** — izvođenje aktivnih operacija održavanja, evidentiranje obavljenog rada i potrošnje materijala, dovršavanje kontrola kvalitete, evidentiranje rada i pregled uputa.
   - **[Raspored održavanja](Dokumenti/RasporedOdrzavanja.md)** — konfiguriranje ponavljajućih obrazaca izvršavanja (prema vremenu ili brojaču) koji automatski generiraju naloge za održavanje.
   - **[Prijavljeni kvarovi](Dokumenti/PrijavljeniKvarovi.md)** — evidentiranje kvarova opreme s terena; iz prijavljenih kvarova nastaju nalozi za kurativno održavanje.
   - **[Kalendar održavanja](Dokumenti/KalendarOdrzavanja.md)** — kalendarski prikaz planiranog i aktivnog održavanja s filtrima po organizacijskoj jedinici, resursu i statusu naloga.
@@ -46,6 +47,7 @@ Konfigurirajte zajedničke strukture koje koristi održavanje. Domena Održavanj
 - **[Organizacijske jedinice](../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)** — definiranje operativnih jedinica (npr. odjeli održavanja, servisne ekipe).
 - **[Resursi](../Resursi/Upravljanje/Resources.md)** — upravljanje ljudskim i neljudskim resursima (tehničari, alati, oprema).
 - **[Kontrolni popisi](../Kvaliteta/Upravljanje/KontrolniPopisi.md)** — izrada i kategoriziranje kontrolnih popisa koji se koriste tijekom operacija održavanja.
+- **[Konfiguracija održavanja](Upravljanje/KonfiguracijaOdrzavanja.md)** — postavke numeriranja dokumenata naloga za održavanje: model numeriranja (zasebno za svaku godinu ili jedan globalni niz) i oblik šifre dokumenta.
 
 Koristite ove šifrarnike za vođenje tijeka rada održavanja i izvršavanja kroz naloge i rasporede.
 

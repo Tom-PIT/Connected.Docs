@@ -1,173 +1,180 @@
 <!-- app_route: /maintenance-orders/list -->
-<!-- app_label: Maintenance orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/Documents/MaintenanceOrders.md -->
-<!-- canonical_source_title: Maintenance orders -->
+<!-- app_label: Nalozi za održavanje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md -->
+<!-- canonical_source_title: Nalozi za održavanje -->
 
-# Maintenance orders
+# Nalozi za održavanje
 
-Maintenance orders define the work required to perform **planned or curative maintenance** on equipment, based on a selected **maintenance process** and version.  
+Nalozi za održavanje definiraju posao potreban za izvođenje **planiranog ili kurativnog održavanja** opreme, na temelju odabranog **procesa održavanja** i verzije.
 
-They move through the life cycle **Pending → Active → Closed**, and include operations, resources, inputs, and quality checks defined by the selected process.
+Prolaze kroz životni ciklus **U redu čekanja → Aktivan → Zatvoren** i uključuju operacije, resurse, ulaze i kontrole kvalitete definirane odabranim procesom.
 
-![Maintenance order lifecycle](../Images/MaintenanceOrderLifecycle.svg "Maintenance order lifecycle")
+```mermaid
+flowchart LR
+  subgraph SRC [Izvori nastanka]
+    MS["Raspored<br>održavanja"]
+    RM["Prijavljeni<br>kvar"]
+  end
+  MS -.-> P[U redu čekanja]
+  RM -.-> P
+  P --> A[Aktivan] --> C[Zatvoren]
+  classDef source stroke-dasharray:5 4
+  class MS,RM source
+```
 
 > [!NOTE]
-> **Prerequisites**
+> **Preduvjeti**
 >
-> Before creating a maintenance order, ensure that the following are configured:
-> - At least one [**maintenance process**](../../Production/Management/Processes.md) with an active version
-> - Equipment definitions
-> - Assigned [**organization units**](../../Production/Management/OrganizationUnits.md)
-> - Optional supporting definitions such as [**resources**](../../Resources/Management/Resources.md), [**checklists**](../../Quality/Management/Checklists.md), and [**measure units**](../../../Common/Management/MeasureUnits.md), depending on your maintenance workflow
+> Prije izrade naloga za održavanje provjerite da su konfigurirani:
+> - barem jedan [**proces održavanja**](../../Proizvodnja/Upravljanje/Procesi.md) s aktivnom verzijom
+> - definicije opreme
+> - dodijeljene [**organizacijske jedinice**](../../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)
+> - dodatne definicije, kao što su [**resursi**](../../Resursi/Upravljanje/Resources.md), [**kontrolni popisi**](../../Kvaliteta/Upravljanje/KontrolniPopisi.md) i [**mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md), ovisno o vašem tijeku rada održavanja
 
-To access maintenance orders, go to **Maintenance / Maintenance Orders** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Za pristup nalozima za održavanje otvorite **Održavanje / Nalozi za održavanje** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-## List of maintenance orders
+## Popis naloga za održavanje
 
-The Maintenance Orders page displays all maintenance orders grouped by status.  
-Use the filters on the left to refine the list.
+Zaslon **Nalozi za održavanje** prikazuje sve naloge za održavanje grupirane prema statusu.
+Filtrima s lijeve strane sužavate popis.
 
-![Maintenance Orders List](../Images/MaintenanceOrdersList.png "Maintenance orders list")
+![Popis naloga za održavanje](../Images/MaintenanceOrdersListHR.png "Popis naloga za održavanje")
 
-### Status overview
+### Pregled statusa
 
-At the top of the page, summary cards show the number of orders:
+Pri vrhu stranice sažete kartice prikazuju broj naloga:
 
-- **My** – Orders assigned to the current user
-- **Unassigned** – Orders without an assigned resource
-- **All** – Total number of maintenance orders
+- **Moji** – nalozi dodijeljeni trenutnom korisniku
+- **Nedodijeljeni** – nalozi bez dodijeljenog resursa
+- **Svi** – ukupan broj naloga za održavanje
 
-Clicking a card updates the list accordingly.
+Klik na karticu ažurira popis.
 
-### Visual indicators in the list
+### Vizualni pokazatelji na popisu
 
-Maintenance orders may display visual indicators to provide quick status information:
+Nalozi za održavanje mogu prikazivati vizualne pokazatelje koji brzo daju informaciju o statusu:
 
-- **Red dot** – Curative maintenance order
-- **Late indicator** – Indicates that the maintenance order is overdue
-- **Priority arrows**
-  - **Red arrow** pointing up – High priority
-  - **No arrow** – Normal priority
-  - **Blue arrow** pointing down – Low priority
+- **Crvena točka** – kurativni nalog za održavanje
+- **Oznaka Kasni** – nalog je prekoračio rok
+- **Oznake prioriteta**
+  - **crvena strelica prema gore** – visoki prioritet
+  - **bez strelice** – normalni prioritet
+  - **plava strelica prema dolje** – niski prioritet
 
-![Maintenance Orders List Item](../Images/MaintenanceOrdersListItem.png "Maintenance order list indicators")
+![Nalog za održavanja s oznakom Kasni](../Images/MaintenanceOrdersPendingListHR.png "Nalog za održavanje s oznakom Kasni")
 
-### Available filters
+### Dostupni filtri
 
-- **Planned start** – Filter orders by planned start date range
-- **View** – Filter by life cycle status:
-  - **Pending** — Created and ready to activate
-  - **Active** — Currently being executed
-  - **Closed** — Completed maintenance orders
-- **Order type**
-  - **Planned** — Scheduled preventive maintenance
-  - **Curative** — Corrective maintenance
-- **Priority**
-- **Organization unit**
-- **Resource categories**
+- **Planirani početak** – filtriranje naloga po rasponu datuma planiranog početka
+- **Pogled** – filtriranje po statusu životnog ciklusa:
+  - **U redu čekanja** – izrađen i spreman za aktivaciju
+  - **Aktivan** – trenutno se izvodi
+  - **Zatvoren** – dovršeni nalozi za održavanje
+- **Vrsta naloga**
+  - **Zakazano** – planirano preventivno održavanje
+  - **Kurativa** – korektivno održavanje
+- **Prioritet**
+- **Organizacijska jedinica**
+- **Kategorije resursa**
 
-The search bar allows filtering by maintenance order code or equipment name.
+Polje za pretraživanje omogućuje traženje po šifri naloga za održavanje ili nazivu opreme.
 
-## Create a maintenance order
+## Izrada naloga za održavanje
 
-To create a maintenance order, use the [guided wizard](MaintenanceOrderCreate.md).
+Za izradu naloga za održavanje koristite [vodič korak po korak](NaloziZaOdrzavanjeIzrada.md).
 
-## Pending maintenance orders
+## Nalozi u statusu U redu čekanja
 
-A newly created maintenance order starts in **Pending** state.
+Novi nalog za održavanje počinje u statusu **U redu čekanja**.
 
-In this state, the order can be:
+U tom statusu nalog možete:
 
-- Reviewed
-- Edited (equipment, priority, planned dates, process and version)
-- Deleted
-- Prepared for execution
+- pregledati
+- uređivati (oprema, prioritet, planirani datumi, proces i verzija)
+- izbrisati
+- pripremiti za izvođenje
 
-From this state, you can:
+Iz tog statusa možete:
 
-- Review operations
-- Review required resources
-- Add attachments or notes
+- pregledati operacije
+- pregledati potrebne resurse
+- dodati privitke ili bilješke
 
-When ready to execute, click **Activate**.
+Kad je nalog spreman za izvođenje, kliknite **Aktiviraj**.
 
-![Pending Maintenance Order](../Images/MaintenanceOrdersNewDraft.png "Pending maintenance order")
+![Nalog za održavanje u statusu U redu čekanja](../Images/MaintenanceOrdersNewDraftHR.png "Nalog za održavanje u statusu U redu čekanja")
 
-### Deleting maintenance orders
+### Brisanje naloga za održavanje
 
-Only **Pending** maintenance orders can be deleted. Once an order is activated, deletion is no longer possible.
+Samo naloge u statusu **U redu čekanja** možete izbrisati. Nakon aktivacije naloga brisanje više nije moguće.
 
-## Active maintenance orders
+## Aktivni nalozi za održavanje
 
-Once activated, the maintenance order becomes **Active**.
+Nakon aktivacije nalog za održavanje postaje **Aktivan**.
 
-![Active Maintenance Order](../Images/MaintenanceOrdersNewActive.png "Active maintenance order")
+![Aktivni nalog za održavanje](../Images/MaintenanceOrdersNewActiveHR.png "Aktivni nalog za održavanje")
 
-The order displays:
+Nalog prikazuje:
 
-- Equipment and priority
-- Planned start and end
-- Process and version
-- All operations defined by the selected process
+- opremu i prioritet
+- planirani početak i završetak
+- proces i verziju
+- sve operacije definirane odabranim procesom
 
-### Operations execution
+### Izvođenje operacija
 
-Operations are executed according to the process definition.
+Operacije se izvode prema definiciji procesa.
 
-Two execution flows are possible:
+Moguća su dva tijeka izvođenja:
 
-- **Quick completion** – Click **Complete** directly on the maintenance order
-- **Detailed execution (recommended)** – Click an operation to open its execution screen
-   
-   ![Maintenance Order Operations](../Images/MaintenanceOrdersOperation.png "Maintenance order operations list")
+- **Brzo dovršavanje** – kliknite **Dovrši** izravno na nalogu za održavanje
+- **Detaljno izvođenje** – izvedite operaciju na zaslonu [**Izvođenje održavanja**](IzvodenjeOdrzavanja.md)
 
+Zaslon **Izvođenje održavanja** sadrži kontrole i aktivnosti potrebne za obavljanje posla održavanja, uključujući:
 
-Clicking an operation opens the **operation execution screen**, where the worker can:
+- pokretanje, pauziranje i dovršavanje operacije
+- evidentiranje bilješki o održavanju
+- evidentiranje potrošnje ulaznih materijala, ako su potrebni
+- dovršavanje kontrolnih popisa kvalitete
+- evidentiranje rada
+- pregled uputa
 
-- Review [instructions](../../Knowledge/KnowledgeBase/KnowledgeBase.md)
-- Register [inputs](../../Production/Management/Inputs.md) and [non-human resources](../../Production/Management/NonHumanResources.md)
-- Complete quality [checklists](../../Quality/Management/Checklists.md)
-- Record effort (start/stop work, duration)
-- Add execution data
+Pojedinosti o izvođenju održavanja potražite na stranici [**Izvođenje održavanja**](IzvodenjeOdrzavanja.md).
 
-![Maintenance Order Operation](../Images/MaintenanceOrdersOperationScreen.png "Maintenance order operation execution")
+Dovršene operacije prikazuju se **zelenom oznakom**, što daje jasan vizualni status.
 
-Once the operation is finished, click **Complete** in the top-left corner of the operation screen.
+Ako treba ponovno otvoriti dovršenu operaciju, kliknite **Ponovno aktiviraj** za tu operaciju.
 
-Completed operations are displayed with a **green indicator**, providing a clear visual status.
+![Ponovno aktiviranje operacije](../Images/MaintenanceOrdersOperationsReopenHR.png "Ponovno aktiviranje operacije")
 
-If a completed operation needs to be reopened, open the operation and click **Reactivate**.
-
-![Reactivate operation](../Images/MaintenanceOrdersOperationsReopen.png "Reactivate operation")
-
-After confirmation, the operation becomes active again and can be updated or completed again.
+Nakon potvrde operacija ponovno postaje aktivna i može se ponovno izvesti na zaslonu [**Izvođenje održavanja**](IzvodenjeOdrzavanja.md).
 
 > [!TIP]
-> You have the option of completing the entire maintenance order at once by clicking **Complete maintenance order** in the [menu](#menu), if desired.
+> Cijeli nalog za održavanje možete dovršiti odjednom klikom na **Dovrši nalog za održavanje** u [izborniku](#izbornik).
 
 > [!NOTE]
-> Material consumption of **inputs** can be recorded automatically when an operation is completed, if automatic consumption is enabled. Otherwise, input materials must be consumed manually during execution.
+> Potrošnju **ulaza** moguće je automatski evidentirati pri dovršetku operacije, ako je automatska potrošnja uključena. U suprotnom se ulazni materijali evidentiraju ručno tijekom izvođenja, na stranici [**Izvođenje održavanja**](IzvodenjeOdrzavanja.md#ulazi).
 
-## Closed maintenance orders
+## Zatvoreni nalozi za održavanje
 
-When all operations are completed, the maintenance order moves to **Closed** state.
+Kad su sve operacije dovršene, nalog za održavanje prelazi u status **Zatvoren**.
 
-Closed maintenance orders:
+Zatvoreni nalozi za održavanje:
 
-- Are read-only
-- Provide a full execution history
-- Serve as maintenance records for the equipment
+- su samo za čitanje
+- sadrže potpunu povijest izvođenja
+- služe kao zapisi o održavanju opreme
 
-They remain visible in the list under the **Closed** view.
+Ostaju vidljivi na popisu u prikazu **Zatvoren**.
 
-## Menu
+## Izbornik
 
-The menu provides additional actions available on this page for **active** maintenance orders.
+Izbornik nudi dodatne radnje dostupne na ovoj stranici za **aktivne** naloge za održavanje.
 
-Available actions:
+Dostupne radnje:
 
-- **Complete maintenance order**
+- **Dovrši nalog za održavanje**
 
-Click **Complete maintenance order** to complete all operations in the maintenance order. After confirmation, the order moves to the **Closed** status.
+Kliknite **Dovrši nalog za održavanje** da dovršite sve operacije u nalogu za održavanje. Nakon potvrde nalog prelazi u status **Zatvoren**.
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+Pojedinosti o radnjama izbornika potražite u općem opisu izbornika u aplikaciji.

@@ -22,7 +22,7 @@ Aktivnost **Zastoj** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izborni
     3. dodali opremu na koju je zastoj utjecao (nije obavezno).
 5. Kliknite **Spremi**.
 
-Kliknite gumb **Prijavi kvar** za izradu prijave kvara — pogledajte [**Prijavljeni kvarovi**](../../Odrzavanje/Dokumenti/ReportedMalfunctions.md).
+Kliknite gumb **Prijavi kvar** za izradu prijave kvara — pogledajte [**Prijavljeni kvarovi**](../../Odrzavanje/Dokumenti/PrijavljeniKvarovi.md).
 
 Spremljeni zastoji povezuju se s proizvodnim nalogom i operacijom te se prikazuju u pregledu izvođenja.
 
