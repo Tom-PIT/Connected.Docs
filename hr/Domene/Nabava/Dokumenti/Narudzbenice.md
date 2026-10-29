@@ -112,7 +112,7 @@ Na vrhu popisa narudžbenica sustav prikazuje dva ključna pokazatelja koji saž
 
 Nove narudžbenice izrađuju se klikom na [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md).
 
-Upute korak po korak potražite u vodiču [**Kako kreirati narudžbenicu**](SupplyOrdersCreate.md).
+Upute korak po korak potražite u vodiču [**Kako kreirati narudžbenicu**](NarudzbeniceIzrada.md).
 
 ### Uređivanje narudžbenice
 
@@ -121,11 +121,11 @@ Kliknite bilo koju narudžbenicu na popisu kako biste je otvorili. Narudžbenice
 Proširivi odjeljci:
 
 - [Povezani dokumenti](#povezani-dokumenti)  
-- [Prilozi](SupplyOrdersCreate.md)  
-- [Dokument](SupplyOrdersCreate.md) 
-- [Dostava](SupplyOrdersCreate.md)  
-- [Sadržaj gore i sadržaj dolje](SupplyOrdersCreate.md)  
-- [Stavke](SupplyOrdersCreate.md)  
+- [Prilozi](NarudzbeniceIzrada.md#prilozi)  
+- [Dokument](NarudzbeniceIzrada.md#korak-2-unos-podataka-zaglavlja) 
+- [Dostava](NarudzbeniceIzrada.md#dostava)  
+- [Sadržaj gore i sadržaj dolje](NarudzbeniceIzrada.md#sadržaj-gore-i-sadržaj-dolje)  
+- [Stavke](NarudzbeniceIzrada.md#korak-3-dodavanje-stavki)  
 
 #### Povezani dokumenti
 
