@@ -5,7 +5,7 @@
 
 # Supply stock boundaries planning by sales
 
-The **Supply stock boundaries planning by sales** view supports purchase planning based on **sales-driven demand**. It uses the same planning logic and workflow as [**Supply stock boundaries planning**](SupplyStockBoundariesPlanning.md), but adds **sold quantity analysis** to help prioritize replenishment based on recent sales activity (regardless of status).
+The **Supply stock boundaries planning by sales** view supports purchase planning based on **sales-driven demand**. It uses the same planning logic and workflow as [**Supply stock boundaries planning**](PlaniranjeNabavke.md), but adds **sold quantity analysis** to help prioritize replenishment based on recent sales activity (regardless of status).
 
 This view is **actionable** and allows you to create [**Supply orders**](Narudzbenice.md) and [**Inquiries**](Upiti.md) directly, while relying on sales data to provide additional context for planning decisions.
 
