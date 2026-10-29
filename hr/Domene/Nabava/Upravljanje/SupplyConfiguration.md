@@ -13,7 +13,7 @@ To access this page, go to **Supply / Management / Configuration** in the [navig
 
 ## Document numbering settings
 
-Choose the numbering model and format for [**Supply orders**](../Documents/SupplyOrders.md).
+Choose the numbering model and format for [**Supply orders**](../Dokumenti/Narudzbenice.md).
 
 | Field | Description |
 |-------|-------------|

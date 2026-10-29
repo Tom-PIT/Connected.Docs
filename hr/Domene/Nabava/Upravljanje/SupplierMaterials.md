@@ -1,135 +1,133 @@
 <!-- app_route: /management/supply/supplier-materials -->
-<!-- app_label: Supplier materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Supply/Management/SupplierMaterials.md -->
-<!-- canonical_source_title: Supplier materials -->
+<!-- app_label: Materijali dobavljača -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Nabava/Upravljanje/SupplierMaterials.md -->
+<!-- canonical_source_title: Materijali dobavljača -->
 
-# Supplier materials
+# Materijali dobavljača
 
-Supplier materials represent the list of materials that vendors provide to your organization. Each entry links an existing material from the [**Materials**](../../Assets/Materials/README.md) domain with a specific vendor and includes additional information such as the supplier’s material code, price, and delivery time.
+**Materijali dobavljača** predstavljaju popis materijala koje dobavljači isporučuju vašoj organizaciji. Svaki zapis povezuje postojeći materijal iz domene [**Materijali**](../../RobaIUsluge/Materijali/README.md) s određenim dobavljačem i sadrži dodatne podatke, kao što su šifra materijala kod dobavljača, cijena i rok isporuke.
 
-This code list ensures that procurement processes can correctly identify which materials are available from each vendor and at what cost.
+Ovaj šifrarnik osigurava da procesi nabave mogu ispravno utvrditi koje materijale pojedini dobavljač nudi i po kojoj cijeni.
 
-To access this code list, go to **Supply / Management / Supplier materials** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Za pristup ovom šifrarniku otvorite **Nabava / Upravljanje / Materijali dobavljača** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-## Schema
+## Shema
 
-| Field | Description |
-|-------|-------------|
-| **Vendor** | Vendor providing the material. Must exist in the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
-| **[Material type](../../Assets/Materials/README.md)** | Type of material ([**Raw material**](../../Assets/Materials/RawMaterials.md), [**Semi-product**](../../Assets/Materials/SemiProducts.md), [**Product**](../../Assets/Materials/Products.md), [**Repro material**](../../Assets/Materials/ReproMaterials.md)). Must match an existing material type (mandatory). |
-| **[Material](../../Assets/Materials/README.md)** | Material supplied by the vendor. Must already exist in the **Materials** domain (mandatory). |
-| **Supplier code** | The vendor’s internal code for this material. |
-| **Price** | Net price at which the vendor supplies the material. |
-| **Delivery date** | Delivery time expressed in days. |
+| Polje | Opis |
+|-------|------|
+| **Dobavljač** | Dobavljač koji isporučuje materijal. Mora postojati u [**Poslovnom imeniku**](../../../Zajednicko/Upravljanje/PoslovniImenik.md) (obavezno). |
+| **[Tip materijala](../../RobaIUsluge/Materijali/README.md)** | Vrsta materijala ([**Sirovina**](../../RobaIUsluge/Materijali/Sirovine.md), [**Poluproizvod**](../../RobaIUsluge/Materijali/Poluproizvodi.md), [**Proizvod**](../../RobaIUsluge/Materijali/Proizvodi.md), [**Repromaterijal**](../../RobaIUsluge/Materijali/PomocniProizvodi.md)). Mora odgovarati postojećem tipu materijala (obavezno). |
+| **[Materijal](../../RobaIUsluge/Materijali/README.md)** | Materijal koji isporučuje dobavljač. Mora već postojati u domeni **Materijali** (obavezno). |
+| **Oznaka dobavljača** | Interna oznaka dobavljača za ovaj materijal. |
+| **Cijena** | Neto cijena po kojoj dobavljač isporučuje materijal. |
+| **Datum isporuke** | Rok isporuke izražen u danima. |
 
-## Management
+## Upravljanje
 
-### List of supplier materials
+### Popis materijala dobavljača
 
-The user interface contains a list of all supplier materials, showing:
+Sučelje sadrži popis svih materijala dobavljača, koji prikazuje:
 
-- Vendor  
-- Material (with its code and name)  
-- Price  
+- Dobavljača
+- Materijal (sa šifrom i nazivom)
+- Cijenu
 
-A search field is available in the upper-right corner.
+Polje za pretraživanje nalazi se u gornjem desnom kutu.
 
-![Supplier materials list](../Images/SupplierMaterialsList.png "Supplier materials list")
+![Popis materijala dobavljača](../Images/SupplierMaterialsListHR.png "Popis materijala dobavljača")
 
-### Filters
+### Filtri
 
-The left sidebar contains the following filters:
+Bočna traka na lijevoj strani sadrži sljedeće filtre:
 
-- **Vendor**  
-- **Material type**  
-- **Entity**
+- **Dobavljač**
+- **Tip materijala**
+- **Entitet**
 
-These filters allow narrowing the results based on supplier and material category.
+Ti filtri omogućuju sužavanje rezultata prema dobavljaču i kategoriji materijala.
 
-## Actions
+## Akcije
 
-Click the [action button](../../../Common/UI/ActionButton.md) to display the available actions:
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) za prikaz dostupnih radnji:
 
-- **New**  
-- **Import**
+- **Novi**
+- **Uvoz**
 
-### Create a new supplier material
+### Izrada novog materijala dobavljača
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **New**. The input form includes fields:
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novi**. Obrazac za unos sadrži polja:
 
-- Vendor  
-- Material type  
-- Material  
-- Supplier code  
-- Price  
-- Delivery date  
+- Dobavljač
+- Tip materijala
+- Materijal
+- Oznaka dobavljača
+- Cijena
+- Datum isporuke
 
-![New supplier material](../Images/SupplierMaterialsNew.png "New supplier material")
+![Novi materijal dobavljača](../Images/SupplierMaterialsNewHR.png "Novi materijal dobavljača")
 
-After entering the required information, click **Add** to save the record or **Cancel** to return to the list view.
+Nakon unosa potrebnih podataka kliknite **Dodaj** za spremanje zapisa ili **Poništi** za povratak na popis.
 
-### Import supplier materials
+### Uvoz materijala dobavljača
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **Import**. This functionality allows bulk creation or updating of supplier materials using a spreadsheet file.
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Uvoz**. Ova funkcija omogućuje masovno stvaranje ili ažuriranje materijala dobavljača pomoću datoteke za proračunsku tablicu.
 
-This screen behaves similarly to the **[Import materials](../../Assets/Materials/ImportMaterials.md)** page. It provides:
+Zaslon funkcionira slično kao zaslon [**Uvoz materijala**](../../RobaIUsluge/Materijali/ImportMaterials.md). Nudi:
 
-- File type selection (CSV or XLSX)  
-- Downloadable example file  
-- Drag-and-drop upload area  
-- Preview of past imports  
+- odabir vrste datoteke (CSV ili XLSX)
+- preuzimanje primjera datoteke
+- područje za povlačenje i ispuštanje datoteke
+- pregled prethodnih uvoza
 
-![Supplier materials import](../Images/SupplierMaterialsImport.png "Supplier materials import")
+![Uvoz materijala dobavljača](../Images/SupplierMaterialsImportHR.png "Uvoz materijala dobavljača")
 
-#### Spreadsheet structure
+#### Struktura proračunske tablice
 
-A supplier materials import file must contain the following columns:
+Datoteka za uvoz materijala dobavljača mora sadržavati sljedeće stupce:
 
 ```
 SupplierName,MaterialCode,Price,SupplierCode,DeliveryDate
 ```
 
-Example row:
+Primjer retka:
 
 ```
 Rivermark Woodwork,CODE003,20,SupplierMaterial001,0
 ```
 
-### Edit a supplier material
+### Uređivanje materijala dobavljača
 
-To edit an existing supplier material, click its entry in the list. The system opens the edit view where all fields can be modified.
+Za uređivanje postojećeg materijala dobavljača kliknite njegov zapis na popisu. Sustav otvara prikaz za uređivanje u kojem se mogu mijenjati sva polja.
 
-When you are done editing, click **Save**. If you do not want to save the changes, click **Cancel**.
+Kada završite s uređivanjem, kliknite **Spremi**. Ako ne želite spremiti izmjene, kliknite **Poništi**.
 
-## Delete a supplier material
+## Brisanje materijala dobavljača
 
-Click on a supplier material and click **Delete** to remove it from the system. A confirmation pop-up will appear. After confirming the deletion, the record will be permanently removed from the system.
+Kliknite materijal dobavljača, a zatim **Izbriši** kako biste ga uklonili iz sustava. Pojavit će se skočni prozor za potvrdu. Nakon potvrde zapis se trajno uklanja iz sustava.
 
 > [!NOTE]  
-> A supplier material can be deleted only if it is not referenced by other records.
+> Materijal dobavljača može se izbrisati samo ako na njega ne pokazuju drugi zapisi.
 
-## Menu
+## Izbornik
 
-This page includes menu actions in two places.
+Ova stranica sadrži radnje izbornika na dva mjesta.
 
-Menu actions are available through the **Menu** button located in the top-right corner of the list or document page.
+Radnje izbornika dostupne su putem gumba **Izbornik** u gornjem desnom kutu popisa ili stranice dokumenta.
 
-### List menu
+### Izbornik popisa
 
-The list menu provides actions for the currently displayed list.
+Izbornik popisa sadrži radnje za trenutno prikazani popis.
 
-Available actions:
+Dostupne radnje:
 
-- **Export to CSV**
+- **Izvoz u CSV**
 
-### Document menu
+### Izbornik dokumenta
 
-The document menu provides actions for the currently opened document.
+Izbornik dokumenta sadrži radnje za trenutno otvoreni dokument.
 
-Available actions:
+Dostupne radnje:
 
-- **Export to CSV**
+- **Izvoz u CSV**
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
-
-
+Više informacija o radnjama izbornika potražite u odjeljku [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).
