@@ -5,7 +5,7 @@
 
 # Proizvodni nalozi – Troškovi
 
-[Troškovi](../../Nabava/Upravljanje/Expenses.md) povezani s [proizvodnim nalogom](ProizvodniNalozi.md) mogu se evidentirati u odjeljku **Troškovi** u detaljima naloga. Tako se mogu pratiti planirani i stvarni troškovi proizvodnog naloga, što daje bolji uvid u troškove proizvodnog procesa.
+[Troškovi](../../Nabava/Upravljanje/Troskovi.md) povezani s [proizvodnim nalogom](ProizvodniNalozi.md) mogu se evidentirati u odjeljku **Troškovi** u detaljima naloga. Tako se mogu pratiti planirani i stvarni troškovi proizvodnog naloga, što daje bolji uvid u troškove proizvodnog procesa.
 
 ![Troškovi proizvodnog naloga](../Images/ProductionOrdersProcessExpensesHR.png "Troškovi proizvodnog naloga")
 

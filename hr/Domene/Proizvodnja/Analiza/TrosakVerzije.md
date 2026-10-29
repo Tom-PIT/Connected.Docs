@@ -77,7 +77,7 @@ Troškovi rada izračunavaju se pomoću konfiguriranih **satnica resursa**.
 
 ## Troškovi
 
-Odjeljak **Troškovi** prikazuje sve **dodatne troškove** primijenjene na verziju procesa. Troškovi se definiraju u šifrarniku [**Troškovi**](../../Nabava/Upravljanje/Expenses.md) i mogu se povezati s verzijom procesa kako bi se obuhvatili troškovi koji nisu izravno vezani uz materijale ili resurse.
+Odjeljak **Troškovi** prikazuje sve **dodatne troškove** primijenjene na verziju procesa. Troškovi se definiraju u šifrarniku [**Troškovi**](../../Nabava/Upravljanje/Troskovi.md) i mogu se povezati s verzijom procesa kako bi se obuhvatili troškovi koji nisu izravno vezani uz materijale ili resurse.
 
 Primjeri mogu uključivati:
 

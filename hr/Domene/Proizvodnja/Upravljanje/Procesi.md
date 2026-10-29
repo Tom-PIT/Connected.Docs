@@ -126,7 +126,7 @@ Klikom na **Calculate** sustav procjenjuje trošak proizvodnje jednog proizvoda 
 - **Cijene materijala** definirane u cjenicima [**Materijala dobavljača**](../../Nabava/Upravljanje/SupplierMaterials.md)
 - **Ljudski resursi** prema cijenama definiranim u [**Troškovima resursa**](../../Resursi/Upravljanje/ResourcesCosts.md)
 - **Fizički resursi** (strojevi i radne stanice) prema [**Troškovima resursa**](../../Resursi/Upravljanje/ResourcesCosts.md)
-- **Dodatni troškovi** definirani u šifrarniku [**Troškovi**](../../Nabava/Upravljanje/Expenses.md)
+- **Dodatni troškovi** definirani u šifrarniku [**Troškovi**](../../Nabava/Upravljanje/Troskovi.md)
 
 Ako se verzija promijeni (primjerice operacije, materijali ili resursi), preporučuje se ponovno pokrenuti izračun.
 
