@@ -65,7 +65,7 @@ Supply orders and inquiries are created directly from this screen.
 
 2. Click the [action button](../../../Common/UI/ActionButton.md) and choose:
    - **Create new [supply order](SupplyOrders.md)**, or
-   - **[Inquiry](Inquiries.md)**
+   - **[Inquiry](Upiti.md)**
 
    ![Action button](../Images/SupplyStockBoundariesPlanningActionButton.png)
 

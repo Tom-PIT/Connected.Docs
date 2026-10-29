@@ -9,7 +9,7 @@
 New [supply orders](SupplyOrders.md) can be created:
 
 - manually from the **Supply orders** screen using the [action button](../../../Common/UI/ActionButton.md)
-- from an [inquiry](Inquiries.md) using **Linked documents → + Supply order**
+- from an [inquiry](Upiti.md) using **Linked documents → + Supply order**
 
 > [!NOTE]
 > - Supply orders created manually start with empty fields.
@@ -21,7 +21,7 @@ New [supply orders](SupplyOrders.md) can be created:
 Create a new draft supply order using one of the following methods:
 
 - Click the [action button](../../../Common/UI/ActionButton.md) on the **Supply orders** screen
-- Use **Linked documents → + Supply order** from a related document like an [inquiry](Inquiries.md)
+- Use **Linked documents → + Supply order** from a related document like an [inquiry](Upiti.md)
 
 A new draft supply order is created. If created directly from another document it will have most of its fields already pre-filled.
 

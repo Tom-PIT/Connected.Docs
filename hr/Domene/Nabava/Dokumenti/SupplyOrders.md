@@ -13,7 +13,7 @@ To access this page, navigate to **Supply / Documents / Supply orders** in the [
 
 Supply orders represent the formal confirmation stage in the purchasing process.
 
-1. A request is usually initiated using an [**Inquiry**](Inquiries.md).  
+1. A request is usually initiated using an [**Inquiry**](Upiti.md).  
 2. When accepted, a **Supply order** is created from the inquiry using the *Linked documents* section.  
    - Supply orders can also be created directly without an inquiry and later linked to one if needed.  
 3. From a Supply order, you can create one or multiple [**Receive**](../../Logistics/Documents/Receives.md) documents:  
