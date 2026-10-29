@@ -1,174 +1,183 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/ManagementIndex.md -->
-<!-- canonical_source_title: Management Index -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/IndeksUpravljanja.md -->
+<!-- canonical_source_title: Indeks upravljanja -->
 
-# Management Index
+# Indeks upravljanja
 
-This index lists all management and configuration documentation across domains. Use it to quickly find and open code lists, configurations, and master data screens.
+Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. Upotrijebite ga za brzo pronalaženje i otvaranje šifrarnika, konfiguracija i zaslona glavnih podataka.
 
-- [**Accounting**](#accounting)
-- [**Assets**](#assets)
-- [**Customers**](#customers)
-- [**Knowledge**](#knowledge)
-- [**Logistics**](#logistics)
-- [**Production and Maintenance**](#production-and-maintenance)
-- [**Projects**](#projects)
-- [**Quality**](#quality)
-- [**Resources**](#resources)
-- [**Sales**](#sales)
-- [**Supply**](#supply)
-- [**System**](#system)
+- [**Računovodstvo**](#racunovodstvo)
+- [**Imovina**](#imovina)
+- [**Korisnička podrška**](#korisnicka-podrska)
+- [**Znanje**](#znanje)
+- [**Logistika**](#logistika)
+- [**Proizvodnja i održavanje**](#proizvodnja-i-odrzavanje)
+- [**Projekti**](#projekti)
+- [**Kvaliteta**](#kvaliteta)
+- [**Resursi**](#resursi)
+- [**Prodaja**](#prodaja)
+- [**Nabava**](#nabava)
+- [**Sustav**](#sustav)
 
-## Accounting
-- [**Countries**](Common/Management/Countries.md)
-- [**Banks**](Common/Management/Banks.md)
-- [**Business directory**](Common/Management/BusinessDirectory.md)
-- [**Cost centers**](Common/Management/CostCenters.md)
-- [**Organization bank accounts**](Domains/Sales/Management/OrganizationBankAccounts.md)
-- [**Tax rates**](Common/Management/TaxRates.md)
-- [**Exchange rates**](Domains/Sales/Management/ExchangeRates.md)
+## Računovodstvo
 
-### Invoices
-- [**Configuration**](Domains/Accounting/Management/Invoices/InvoicesConfiguration.md)
-- [**Asset account connections**](Domains/Accounting/Management/Invoices/AssetAccountConnections.md)
-- [**Predefined texts**](Common/Management/PredefinedTexts.md)
-- [**Clause templates for issued invoices**](Domains/Sales/Management/ClauseTemplatesIssuedInvoices.md)
-- [**Currencies**](Common/Management/Currencies.md)
-- [**Expenses**](Domains/Supply/Management/Expenses.md)
-- [**External code sets**](Domains/Sales/Management/ExternalCodeSets.md)
-- [**Cost centers**](Common/Management/CostCenters.md)
+- [**Države**](Zajednicko/Upravljanje/Drzave.md)
+- [**Banke**](Zajednicko/Upravljanje/Banke.md)
+- [**Poslovni imenik**](Zajednicko/Upravljanje/PoslovniImenik.md)
+- [**Mjesta troška**](Zajednicko/Upravljanje/MjestaTroska.md)
+- [**Bankovni računi organizacije**](Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md)
+- [**Porezne stope**](Zajednicko/Upravljanje/PorezneStope.md)
+- [**Devizni tečajevi**](Domene/Prodaja/Upravljanje/DevizniTecajevi.md)
+
+### Računi
+- [**Konfiguracija**](Domene/Racunovodstvo/Upravljanje/Racuni/InvoicesConfiguration.md)
+- [**Veze imovinskih računa**](Domene/Racunovodstvo/Upravljanje/Racuni/AssetAccountConnections.md)
+- [**Unaprijed pripremljeni tekstovi**](Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md)
+- [**Predlošci klauzula za izdane račune**](Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaIzdaneRacune.md)
+- [**Valute**](Zajednicko/Upravljanje/Valute.md)
+- [**Troškovi**](Domene/Nabava/Upravljanje/Troskovi.md)
+- Vanjski skupovi šifrarnika (dokumentacija još nije prevedena)
+- [**Mjesta troška**](Zajednicko/Upravljanje/MjestaTroska.md)
 
 ### Intrastat
-- [**Nature of transactions**](Domains/Accounting/Management/Intrastat/NatureOfTransactions.md)
-- [**Delivery terms**](Common/Management/DeliveryTerms.md)
-- [**Mode of transport**](Common/Management/ModeOfTransport.md)
-- [**Place of delivery**](Domains/Accounting/Management/Intrastat/PlaceOfDelivery.md)
-- [**Supplementary units**](Domains/Accounting/Management/Intrastat/SupplementaryUnits.md)
-- [**Tariffs**](Domains/Accounting/Management/Intrastat/Tariffs.md)
+- [**Vrste transakcija**](Domene/Racunovodstvo/Upravljanje/Intrastat/NatureOfTransactions.md)
+- [**Uvjeti isporuke**](Zajednicko/Upravljanje/UvjetiIsporuke.md)
+- [**Vrsta transporta**](Zajednicko/Upravljanje/VrstaTransporta.md)
+- [**Mjesto isporuke**](Domene/Racunovodstvo/Upravljanje/Intrastat/PlaceOfDelivery.md)
+- [**Dopunske jedinice**](Domene/Racunovodstvo/Upravljanje/Intrastat/SupplementaryUnits.md)
+- [**Tarife**](Domene/Racunovodstvo/Upravljanje/Intrastat/Tariffs.md)
 
-### Ledger
-- [**Account defaults**](Domains/Accounting/Management/Ledger/AccountDefaults.md)
-- [**Allocation of profit (AOP)**](Domains/Accounting/Management/Ledger/AOP.md)
-- [**Chart of accounts**](Domains/Accounting/Management/Ledger/ChartOfAccounts.md)
-- [**Depreciation groups**](Domains/Accounting/Management/Ledger/DepreciationGroups.md)
-- [**Document types**](Domains/Accounting/Management/Ledger/DocumentTypes.md)
-- [**Journal entry templates**](Domains/Accounting/Management/Ledger/JournalEntryTemplates.md)
-- [**Ledger configuration**](Domains/Accounting/Management/Ledger/LedgerConfiguration.md)
-- [**Ledger locations**](Domains/Accounting/Management/Ledger/LedgerLocations.md)
-- [**Stock initial states**](Domains/Accounting/Management/Ledger/StockInitialStates.md)
+### Glavna knjiga
+- [**Zadane postavke računa**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AccountDefaults.md)
+- [**Raspodjela dobiti (AOP)**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md)
+- [**Kontni plan**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ChartOfAccounts.md)
+- [**Skupine amortizacije**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/DepreciationGroups.md)
+- [**Vrste dokumenata**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/DocumentTypes.md)
+- [**Predlošci temeljnica**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/JournalEntryTemplates.md)
+- [**Konfiguracija glavne knjige**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/LedgerConfiguration.md)
+- [**Lokacije glavne knjige**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/LedgerLocations.md)
+- [**Početna stanja zaliha**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/StockInitialStates.md)
 
-## Assets
-- [**Measure units**](Common/Management/MeasureUnits.md)
-- [**Tax rates**](Common/Management/TaxRates.md)
+## Imovina
 
-### Assets
-- [**Asset price lists**](Domains/Assets/Assets/AssetPriceLists.md)
-- [**Assets**](Domains/Assets/Assets/Assets.md)
+- [**Mjerne jedinice**](Zajednicko/Upravljanje/MjerneJedinice.md)
+- [**Porezne stope**](Zajednicko/Upravljanje/PorezneStope.md)
 
-### Materials
-- [**Alternative measure units**](Domains/Assets/Materials/AlternativeMeasureUnits.md)
-- [**Import materials**](Domains/Assets/Materials/ImportMaterials.md)
-- [**Material price lists**](Domains/Assets/Materials/MaterialPriceLists.md)
-- [**Packaging**](Domains/Assets/Materials/Packaging.md)
-- [**Products**](Domains/Assets/Materials/Products.md)
-- [**Raw materials**](Domains/Assets/Materials/RawMaterials.md)
-- [**Repro materials**](Domains/Assets/Materials/ReproMaterials.md)
-- [**Semi-products**](Domains/Assets/Materials/SemiProducts.md)
-- [**Sets**](Domains/Assets/Materials/Sets.md)
+### Imovina
+- [**Cjenici stavki**](Domene/RobaIUsluge/RobaIUsluge/CjeniciStavki.md)
+- [**Roba i usluge**](Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md)
 
-## Customers
+### Materijali
+- [**Alternativne mjerne jedinice**](Domene/RobaIUsluge/Materijali/AlternativeMeasureUnits.md)
+- [**Uvoz materijala**](Domene/RobaIUsluge/Materijali/ImportMaterials.md)
+- [**Cjenici materijala**](Domene/RobaIUsluge/Materijali/MaterialPriceLists.md)
+- [**Pakiranje**](Domene/RobaIUsluge/Materijali/Pakiranje.md)
+- [**Proizvodi**](Domene/RobaIUsluge/Materijali/Proizvodi.md)
+- [**Sirovine**](Domene/RobaIUsluge/Materijali/Sirovine.md)
+- [**Pomoćni proizvodi**](Domene/RobaIUsluge/Materijali/PomocniProizvodi.md)
+- [**Poluproizvodi**](Domene/RobaIUsluge/Materijali/Poluproizvodi.md)
+- [**Setovi**](Domene/RobaIUsluge/Materijali/Setovi.md)
 
-- [**Notifications settings**](Domains/Customers/Management/NotificationsSettings.md)
-- [**Desks**](Domains/Customers/Management/Desks.md)
-- [**Business directory**](Common/Management/BusinessDirectory.md)
-- [**Institutional sectors**](Domains/Customers/Management/InstitutionalSectors.md)
-- [**Job titles**](Common/Management/JobTitles.md)
+## Korisnička podrška
 
-## Knowledge
-- [**Directories**](Domains/Knowledge/Management/Directories.md)
-- [**Directory tags**](Domains/Knowledge/Management/DirectoryTags.md)
+- [**Postavke obavijesti**](Domene/KorisnickaPodrska/Upravljanje/NotificationsSettings.md)
+- [**Službe**](Domene/KorisnickaPodrska/Upravljanje/Desks.md)
+- [**Poslovni imenik**](Zajednicko/Upravljanje/PoslovniImenik.md)
+- [**Institucionalni sektori**](Domene/KorisnickaPodrska/Upravljanje/InstitutionalSectors.md)
+- [**Nazivi radnih mjesta**](Zajednicko/Upravljanje/NaziviRadnihMjesta.md)
 
-## Logistics
-- [**Logistics configuration**](Domains/Logistics/Management/LogisticsConfiguration.md)
-- [**Business directory**](Common/Management/BusinessDirectory.md)
-- [**Countries**](Common/Management/Countries.md)
-- [**Mode of transport**](Common/Management/ModeOfTransport.md)
-- [**Locations**](Domains/Logistics/Management/Locations.md)
-- [**Material analysis management**](Domains/Logistics/Management/MaterialAnalysisManagement.md)
-- [**Stock boundaries**](Domains/Logistics/Management/StockBoundaries.md)
-- [**Warehouses**](Domains/Logistics/Upravljanje/Skladista.md)
-- [**Measure units**](Common/Management/MeasureUnits.md)
+## Znanje
 
-## Production and Maintenance
+- [**Direktoriji**](Domene/Znanje/Upravljanje/Directories.md)
+- [**Oznake direktorija**](Domene/Znanje/Upravljanje/DirectoryTags.md)
 
-- [**Checklists**](Domains/Quality/Management/Checklists.md)
-- [**Downtime tags**](Domains/Production/Management/DowntimeTags.md)
-- [**Human resources**](Domains/Production/Management/HumanResources.md)
-- [**Inputs**](Domains/Production/Management/Inputs.md)
-- [**Job positions**](Domains/Production/Management/JobPositions.md)
-- [**Loss classification tags**](Domains/Production/Management/LossClassificationTags.md)
-- [**Non-human resources**](Domains/Production/Management/NonHumanResources.md)
-- [**Operations**](Domains/Production/Management/Operations.md)
-- [**Organization units**](Domains/Production/Management/OrganizationUnits.md)
-- [**Outputs**](Domains/Production/Management/Outputs.md)
-- [**Processes**](Domains/Production/Management/Processes.md)
-- [**Production configuration**](Domains/Production/Management/ProductionConfiguration.md)
-- [**Protocol operations instance templates**](Domains/Production/Management/ProtocolOperationsInstanceTemplates.md)
-- [**Quality checklists**](Domains/Production/Management/QualityChecklists.md)
-- [**Resources**](Domains/Resources/Management/Resources.md)
-- [**Warehouse locations**](Domains/Production/Management/WarehouseLocations.md)
+## Logistika
 
-## Projects
-- [**Projects**](Domains/Projects/Management/ProjectsManagement.md)
+- [**Konfiguracija logistike**](Domene/Logistika/Upravljanje/KonfiguracijaLogistike.md)
+- [**Poslovni imenik**](Zajednicko/Upravljanje/PoslovniImenik.md)
+- [**Države**](Zajednicko/Upravljanje/Drzave.md)
+- [**Vrsta transporta**](Zajednicko/Upravljanje/VrstaTransporta.md)
+- [**Lokacije**](Domene/Logistika/Upravljanje/Lokacije.md)
+- [**Upravljanje analizama materijala**](Domene/Logistika/Upravljanje/UpravljanjeAnalizamaMaterijala.md)
+- [**Granice zaliha**](Domene/Logistika/Upravljanje/GraniceZalihe.md)
+- [**Skladišta**](Domene/Logistika/Upravljanje/Skladista.md)
+- [**Mjerne jedinice**](Zajednicko/Upravljanje/MjerneJedinice.md)
 
-## Quality
-- [**Checklists**](Domains/Quality/Management/Checklists.md)
-- [**Check points**](Domains/Quality/Management/CheckPoints.md)
+## Proizvodnja i održavanje
 
-## Resources
-- [**Availability plan types**](Domains/Resources/Management/AvailabilityPlanTypes.md)
-- [**Competence matrices**](Domains/Resources/Management/CompetenceMatrixes.md)
-- [**Configuration**](Domains/Resources/Management/ResourcesConfiguration.md)
-- [**Currencies**](Common/Management/Currencies.md)
-- [**Job positions**](Domains/Production/Management/JobPositions.md) 
-- [**Organization units**](Domains/Production/Management/OrganizationUnits.md)
-- [**Effort types**](Domains/Resources/Management/EffortTypes.md)
-- [**Reminder categories**](Domains/Resources/Management/ReminderCategories.md)
-- [**Resources**](Domains/Resources/Management/Resources.md)
-- [**Resources costs**](Domains/Resources/Management/ResourcesCosts.md)
-- [**Sick leave types**](Domains/Resources/Management/SickLeaveTypes.md)
-- [**Subsistence allowances**](Domains/Resources/Management/SubsistenceAllowances.md)
-- [**Timesheets**](Domains/Resources/Management/Timesheets.md)
-- [**Travel destinations**](Domains/Resources/Management/TravelDestinations.md)
-- [**Travel order reasons**](Domains/Resources/Management/TravelOrderReasons.md)
+- [**Kontrolni popisi**](Domene/Kvaliteta/Upravljanje/KontrolniPopisi.md)
+- [**Oznake zastoja**](Domene/Proizvodnja/Upravljanje/OznakeZastoja.md)
+- [**Ljudski resursi**](Domene/Proizvodnja/Upravljanje/LjudskiResursi.md)
+- [**Ulazi**](Domene/Proizvodnja/Upravljanje/Unosi.md)
+- [**Sistematizacija radnih mjesta**](Domene/Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta.md)
+- [**Oznake klasifikacije gubitka**](Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeGubitka.md)
+- [**Neljudski resursi**](Domene/Proizvodnja/Upravljanje/FizickiResursi.md)
+- [**Operacije**](Domene/Proizvodnja/Upravljanje/Operacije.md)
+- [**Organizacijske jedinice**](Domene/Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)
+- [**Izlazi**](Domene/Proizvodnja/Upravljanje/Izlazi.md)
+- [**Procesi**](Domene/Proizvodnja/Upravljanje/Procesi.md)
+- [**Konfiguracija proizvodnje**](Domene/Proizvodnja/Upravljanje/KonfiguracijaProizvodnje.md)
+- [**Pravilnici za operacije**](Domene/Proizvodnja/Upravljanje/PravilniciZaOperacije.md)
+- [**Kontrolni popisi kvalitete**](Domene/Proizvodnja/Upravljanje/KontrolniPopisiKvalitete.md)
+- [**Resursi**](Domene/Resursi/Upravljanje/Resources.md)
+- [**Skladišne lokacije**](Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md)
 
-## Sales
-- [**Sales configuration**](Domains/Sales/Management/SalesConfiguration.md)
-- [**Payment methods**](Domains/Sales/Management/PaymentMethods.md)
-- [**Organization bank accounts**](Domains/Sales/Management/OrganizationBankAccounts.md)
-- [**Exchange rates**](Domains/Sales/Management/ExchangeRates.md)
-- [**External code sets**](Domains/Sales/Management/ExternalCodeSets.md)
-- [**Clause templates – issued invoices**](Domains/Sales/Management/ClauseTemplatesIssuedInvoices.md)
-- [**Clause templates – delivery notes**](Domains/Sales/Management/ClauseTemplatesDeliveryNotes.md)
-- [**Business directory**](Common/Management/BusinessDirectory.md)
-- [**Countries**](Common/Management/Countries.md)
-- [**Currencies**](Common/Management/Currencies.md)
-- [**Delivery terms**](Common/Management/DeliveryTerms.md)
-- [**Mode of transport**](Common/Management/ModeOfTransport.md)
-- [**Postal codes**](Common/Management/PostalCodes.md)
-- [**Tax rates**](Common/Management/TaxRates.md)
+## Projekti
 
-## Supply
-- [**Supply configuration**](Domains/Supply/Management/SupplyConfiguration.md)
-- **[Supplier materials](Domains/Supply//Management/SupplierMaterials.md)**
-- **[Expenses](Domains/Supply/Management/Expenses.md)**
-- **[Business directory](Common/Management/BusinessDirectory.md)**
-- **[Cost centers](Common/Management/CostCenters.md)**
-- **[Currencies](Common/Management/Currencies.md)**
-- **[Predefined texts](Common/Management/PredefinedTexts.md)**
-- **[Countries](Common/Management/Countries.md)**
-- **[Measure units](Common/Management/MeasureUnits.md)**
-- **[Tax rates](Common/Management/TaxRates.md)**
+- [**Projekti**](Domene/Projekti/Upravljanje/ProjectsManagement.md)
 
-## System
-- [**Configuration**](Domains/System/Settings/Configuration.md)
-- [**Users**](Domains/System/Management/Users.md)
+## Kvaliteta
+
+- [**Kontrolni popisi**](Domene/Kvaliteta/Upravljanje/KontrolniPopisi.md)
+- [**Kontrolne točke**](Domene/Kvaliteta/Upravljanje/KontrolneTocke.md)
+
+## Resursi
+
+- [**Vrste planova raspoloživosti**](Domene/Resursi/Upravljanje/AvailabilityPlanTypes.md)
+- [**Matrice kompetencija**](Domene/Resursi/Upravljanje/CompetenceMatrixes.md)
+- [**Konfiguracija**](Domene/Resursi/Upravljanje/ResourcesConfiguration.md)
+- [**Valute**](Zajednicko/Upravljanje/Valute.md)
+- [**Mjesta troška**](Zajednicko/Upravljanje/MjestaTroska.md)
+- [**Vrste rada**](Domene/Resursi/Upravljanje/EffortTypes.md)
+- [**Kategorije podsjetnika**](Domene/Resursi/Upravljanje/ReminderCategories.md)
+- [**Resursi**](Domene/Resursi/Upravljanje/Resources.md)
+- [**Troškovi resursa**](Domene/Resursi/Upravljanje/ResourcesCosts.md)
+- [**Vrste bolovanja**](Domene/Resursi/Upravljanje/SickLeaveTypes.md)
+- [**Dnevnice**](Domene/Resursi/Upravljanje/SubsistenceAllowances.md)
+- [**Evidencija radnog vremena**](Domene/Resursi/Upravljanje/Timesheets.md)
+- [**Odredišta putovanja**](Domene/Resursi/Upravljanje/TravelDestinations.md)
+- [**Razlozi putnih naloga**](Domene/Resursi/Upravljanje/TravelOrderReasons.md)
+
+## Prodaja
+
+- [**Konfiguracija prodaje**](Domene/Prodaja/Upravljanje/KonfiguracijaProdaje.md)
+- [**Načini plaćanja**](Domene/Prodaja/Upravljanje/NaciniPlacanja.md)
+- [**Bankovni računi organizacije**](Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md)
+- [**Devizni tečajevi**](Domene/Prodaja/Upravljanje/DevizniTecajevi.md)
+- Vanjski skupovi šifrarnika (dokumentacija još nije prevedena)
+- [**Predlošci klauzula za izdane račune**](Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaIzdaneRacune.md)
+- [**Predlošci klauzula za otpremnice**](Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaOtpremnice.md)
+- [**Poslovni imenik**](Zajednicko/Upravljanje/PoslovniImenik.md)
+- [**Države**](Zajednicko/Upravljanje/Drzave.md)
+- [**Valute**](Zajednicko/Upravljanje/Valute.md)
+- [**Uvjeti isporuke**](Zajednicko/Upravljanje/UvjetiIsporuke.md)
+- [**Vrsta transporta**](Zajednicko/Upravljanje/VrstaTransporta.md)
+- [**Poštanski brojevi**](Zajednicko/Upravljanje/PostanskiBrojevi.md)
+- [**Porezne stope**](Zajednicko/Upravljanje/PorezneStope.md)
+
+## Nabava
+
+- [**Konfiguracija nabave**](Domene/Nabava/Upravljanje/KonfiguracijaNabave.md)
+- [**Materijali dobavljača**](Domene/Nabava/Upravljanje/SupplierMaterials.md)
+- [**Troškovi**](Domene/Nabava/Upravljanje/Troskovi.md)
+- [**Poslovni imenik**](Zajednicko/Upravljanje/PoslovniImenik.md)
+- [**Mjesta troška**](Zajednicko/Upravljanje/MjestaTroska.md)
+- [**Valute**](Zajednicko/Upravljanje/Valute.md)
+- [**Unaprijed pripremljeni tekstovi**](Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md)
+- [**Države**](Zajednicko/Upravljanje/Drzave.md)
+- [**Mjerne jedinice**](Zajednicko/Upravljanje/MjerneJedinice.md)
+- [**Porezne stope**](Zajednicko/Upravljanje/PorezneStope.md)
+
+## Sustav
+
+- [**Konfiguracija**](Domene/Sustav/Postavke/Configuration.md)
+- [**Korisnici**](Domene/Sustav/Upravljanje/Users.md)

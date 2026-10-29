@@ -5,13 +5,13 @@
 
 Dobro došli u dokumentacijski portal za **Tom PIT.Connected**.
 
-**Tom PIT.Connected** integrirana je poslovna platforma koja obuhvaća prodaju, nabavu, logistiku, proizvodnju, imovinu, projekte, održavanje, kvalitetu i druge poslovne procese. :contentReference[oaicite:0]{index=0}
+**Tom PIT.Connected** integrirana je poslovna platforma koja obuhvaća prodaju, nabavu, logistiku, proizvodnju, imovinu, projekte, održavanje, kvalitetu i druge poslovne procese.
 
 ## Početak rada
 
 ### Prvi put koristite platformu?
 
-- [**Uvod**](Uvod/Uvod.md) – Upoznajte osnovne koncepte, strukturu sustava i prve korake konfiguracije.
+- [**Uvod**](Uvod/GettingStarted.md) – Upoznajte osnovne koncepte, strukturu sustava i prve korake konfiguracije.
 - [**Navigacija**](Zajednicko/UI/Navigacija.md) – Saznajte kako se kretati kroz platformu pomoću **Navigacije** i navigacijske putanje.
 
 ### Tražite mogućnosti konfiguracije?
@@ -27,11 +27,11 @@ Istražite dostupne domene:
 - [**Nabava**](Domene/Nabava/README.md)
 - [**Prodaja**](Domene/Prodaja/README.md)
 - [**Računovodstvo**](Domene/Racunovodstvo/README.md)
-- [**Imovina**](Domene/Imovina/README.md)
+- [**Imovina**](Domene/RobaIUsluge/README.md)
 - [**Projekti**](Domene/Projekti/README.md)
 - [**Kvaliteta**](Domene/Kvaliteta/README.md)
 - [**Korisnička podrška**](Domene/KorisnickaPodrska/README.md)
-- [**Ljudski resursi**](Domene/LjudskiResursi/README.md)
+- [**Ljudski resursi**](Domene/Resursi/README.md)
 - [**Održavanje**](Domene/Odrzavanje/README.md)
 - [**Dokumenti**](Domene/Dokumenti/README.md)
 - [**Sustav**](Domene/Sustav/README.md)
