@@ -1,72 +1,71 @@
 <!-- app_route: /sitemap/maintenance -->
-<!-- app_label: Maintenance -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Maintenance/README.md -->
-<!-- canonical_source_title: Maintenance -->
+<!-- app_label: Održavanje -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/README.md -->
+<!-- canonical_source_title: Održavanje -->
 
-# Maintenance
+# Održavanje
 
-The **Maintenance** domain provides a dedicated workspace to plan, execute, and analyze equipment maintenance. It centralizes how maintenance processes are defined, how orders are created and carried out, and how performance is measured for continuous improvement.
+Domena **Održavanje** pruža zasebni radni prostor za planiranje, izvršavanje i analizu održavanja opreme. Objedinjuje način na koji se definiraju procesi održavanja, kako se izrađuju i izvršavaju nalozi te kako se mjeri učinkovitost radi kontinuiranog poboljšanja.
 
-Use this domain to:
-- Plan preventive maintenance and schedule recurring work
-- Execute curative maintenance for reported malfunctions
-- Track operations, resources, inputs, and checklists during maintenance
-- Review indicators to assess reliability and responsiveness
+Ovu domenu koristite za:
+- planiranje preventivnog održavanja i zakazivanje ponavljajućih radova
+- izvršavanje kurativnog održavanja za prijavljene kvarove
+- praćenje operacija, resursa, ulaza i kontrolnih popisa tijekom održavanja
+- pregled pokazatelja radi procjene pouzdanosti i brzine reagiranja
 
-To access the Maintenance domain, navigate to **Maintenance** in the [navigation](../../Zajednicko/UI/Navigacija.md).
+Za pristup domeni Održavanje otvorite **Održavanje** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-![Maintenance Domain Sitemap](Images/MaintenanceDomainSitemap.png)
-
-> [!NOTE]
-> The available domains depend on each company’s configuration and business model.
-
-## What is included in the Maintenance domain?
-
-![Maintenance Domain Overview](Images/MaintenanceDomainOverview.png "Maintenance Domain overview")
-
-The domain is structured into functional areas for daily work and analysis:
-
-- **Documents** – Create and manage maintenance activities and their lifecycle
-  - **[Maintenance orders](Documents/MaintenanceOrders.md)** — Define and execute planned or curative maintenance based on a selected maintenance process and version. Supports operations, resources, inputs, and quality checks.
-  - **[Maintenance schedule](Documents/MaintenanceSchedule.md)** — Configure recurring execution patterns (time- or counter-based) that automatically generate maintenance orders.
-  - **[Reported malfunctions](Documents/ReportedMalfunctions.md)** — Capture equipment issues from the field; curative maintenance orders are created from reported malfunctions.
-  - **[Maintenance calendar](Documents/MaintenanceCalendar.md)** — Calendar view of planned and active maintenance, with filters by organization unit, resource, and order status.
-  - **[Resource work hours & counters](Documents/ResourceWorkHours&Counters.md)** — Configure working hours windows and usage counters (e.g., pieces, meters, grams, hours) used by schedules and count-based maintenance.
-
-> [!TIP]
-> See [**How to create a maintenance order**](Documents/MaintenanceOrderCreate.md) for a step-by-step guide of the creation of these documents.
-
-## Management
-
-Configure shared structures used by maintenance. The Maintenance domain leverages common code lists that are shared with [**Production**](../Production/README.md).
-
-![Maintenance Domain Management](Images/MaintenanceDomainManagement.png "Maintenance Domain management")
-
-- **[Processes](../Production/Management/Processes.md)** — Define process steps and versions used to execute maintenance operations.
-- **[Organization units](../Production/Management/OrganizationUnits.md)** — Define operational units (e.g., maintenance departments, service teams).
-- **[Resources](../Resources/Management/Resources.md)** — Manage human and non-human resources (technicians, tools, equipment).
-- **[Checklists](../Quality/Management/Checklists.md)** — Create and categorize checklists used during maintenance operations.
-
-Use these code lists to drive maintenance workflows and execution across orders and schedules.
-
-> [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
-
-
-## Analytics
-
-Monitor performance and reliability using built-in analytics.
-
-![Maintenance Domain Analytics](Images/MaintenanceDomainAnalytics.png "Maintenance Domain analytics")
-
-- **[Maintenance KPIs](Analytics/MaintenanceKPIs.md)** — KPI cards and detailed lists for MTBF, detection time, repair time, effort, and workload breakdown.
-
-## Lifecycle and execution
-
-- Status flow: **Pending → Active → Closed**
-- Execution: Operators execute operations per the selected process.
-- Traceability: Effort, inputs, non-human resources, and checklists are recorded.
-- Triggers: Reported malfunctions initiate curative work; schedules generate planned orders automatically.
+![Karta domene Održavanje](Images/MaintenanceDomainSitemapHR.png "Karta domene Održavanje")
 
 > [!NOTE]
-> Detailed chapters for each page (orders, schedule, malfunctions, calendar, indicators) are available and provide step-by-step guidance. This page serves as the domain overview.
+> Dostupne domene ovise o konfiguraciji tvrtke i poslovnom modelu.
+
+## Što sadrži domena Održavanje?
+
+![Pregled domene Održavanje](Images/MaintenanceDomainOverviewHR.png "Pregled domene Održavanje")
+
+Domena je organizirana u funkcionalna područja za svakodnevni rad i analizu:
+
+- **Dokumenti** – izrada i upravljanje aktivnostima održavanja i njihovim životnim ciklusom
+  - **[Nalozi za održavanje](Dokumenti/NaloziZaOdrzavanje.md)** — planiranje i izvršavanje planiranog ili kurativnog održavanja na temelju odabranog procesa održavanja i verzije. Podržava operacije, resurse, ulaze i kontrole kvalitete.
+  - **[Raspored održavanja](Dokumenti/RasporedOdrzavanja.md)** — konfiguriranje ponavljajućih obrazaca izvršavanja (prema vremenu ili brojaču) koji automatski generiraju naloge za održavanje.
+  - **[Prijavljeni kvarovi](Dokumenti/PrijavljeniKvarovi.md)** — evidentiranje kvarova opreme s terena; iz prijavljenih kvarova nastaju nalozi za kurativno održavanje.
+  - **[Kalendar održavanja](Dokumenti/KalendarOdrzavanja.md)** — kalendarski prikaz planiranog i aktivnog održavanja s filtrima po organizacijskoj jedinici, resursu i statusu naloga.
+  - **[Radno vrijeme resursa i brojači](Dokumenti/RadnoVrijemeIBrojaci.md)** — konfiguriranje radnih vremena i brojača korištenja (npr. komadi, metri, grami, sati) koji se koriste u rasporedima i održavanju temeljenom na brojaču.
+
+> [!TIP]
+> Pogledajte [**Kako izraditi nalog za održavanje**](Dokumenti/NaloziZaOdrzavanjeIzrada.md) za korak-po-korak vodič za izradu ovih dokumenata.
+
+## Upravljanje
+
+Konfigurirajte zajedničke strukture koje koristi održavanje. Domena Održavanje koristi zajedničke šifrarnike koji se dijele s [**Proizvodnjom**](../Proizvodnja/README.md).
+
+![Upravljanje domenom Održavanje](Images/MaintenanceDomainManagementHR.png "Upravljanje domenom Održavanje")
+
+- **[Procesi](../Proizvodnja/Upravljanje/Procesi.md)** — definiranje koraka procesa i verzija koje se koriste za izvršavanje operacija održavanja.
+- **[Organizacijske jedinice](../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)** — definiranje operativnih jedinica (npr. odjeli održavanja, servisne ekipe).
+- **[Resursi](../Resursi/Upravljanje/Resources.md)** — upravljanje ljudskim i neljudskim resursima (tehničari, alati, oprema).
+- **[Kontrolni popisi](../Kvaliteta/Upravljanje/KontrolniPopisi.md)** — izrada i kategoriziranje kontrolnih popisa koji se koriste tijekom operacija održavanja.
+
+Koristite ove šifrarnike za vođenje tijeka rada održavanja i izvršavanja kroz naloge i rasporede.
+
+> [!TIP]
+> Sve stavke upravljanja pogledajte u **[Indeksu upravljanja](../../IndeksUpravljanja.md)**.
+
+## Analiza
+
+Pratite učinkovitost i pouzdanost pomoću ugrađene analize.
+
+![Analiza domene Održavanje](Images/MaintenanceDomainAnalyticsHR.png "Analiza domene Održavanje")
+
+- **[Ključni pokazatelji održavanja](Analiza/KljucniPokazateljiOdrzavanja.md)** — kartice pokazatelja i detaljni popisi za MTBF, vrijeme detekcije, vrijeme popravka, rad i raspodjelu opterećenja.
+
+## Životni ciklus i izvršavanje
+
+- Tijek statusa: **U redu čekanja → Aktivan → Zatvoren**
+- Izvršavanje: operatori izvršavaju operacije prema odabranom procesu.
+- Sljedivost: evidentiraju se rad, ulazi, neljudski resursi i kontrolni popisi.
+- Okidači: prijavljeni kvarovi pokreću kurativne radove, a rasporedi automatski generiraju planirane naloge.
+
+> [!NOTE]
+> Detaljna poglavlja za svaku stranicu (nalozi, raspored, kvarovi, kalendar, pokazatelji) dostupna su i daju korak-po-korak upute. Ova stranica služi kao pregled domene.
