@@ -123,7 +123,7 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 
 ## Projekti
 
-- [**Projekti**](Domene/Projekti/Upravljanje/ProjectsManagement.md)
+- [**Projekti**](Domene/Projekti/Upravljanje/UpravljanjeProjektima.md)
 
 ## Kvaliteta
 

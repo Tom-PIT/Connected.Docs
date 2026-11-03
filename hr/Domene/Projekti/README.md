@@ -1,121 +1,121 @@
 <!-- app_route: /sitemap/projects -->
-<!-- app_label: Projects -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Projects/README.md -->
-<!-- canonical_source_title: Projects -->
+<!-- app_label: Projekti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Projekti/README.md -->
+<!-- canonical_source_title: Projekti -->
 
-# Projects
+# Projekti
 
-The **Projects** domain supports structured planning, execution, and tracking of project-based work within your organization.  
-It provides tools for organizing projects, managing tasks, monitoring progress, and offering personalized views for users involved in project execution.
+Domena **Projekti** podržava strukturirano planiranje, izvođenje i praćenje projektnog rada unutar vaše organizacije.
+Pruža alate za organizaciju projekata, upravljanje zadacima, praćenje napretka i personalizirane prikaze za korisnike koji sudjeluju u izvođenju projekata.
 
-The Projects domain is typically used for **internal initiatives**, **cross-department activities**, or **non-production work** that requires coordination, task tracking, and visibility over time.
+Domena Projekti obično se koristi za **interne inicijative**, **aktivnosti koje obuhvaćaju više odjela** ili **rad koji nije proizvodnja** a zahtijeva koordinaciju, praćenje zadataka i preglednost kroz vrijeme.
 
-To access this domain, navigate to **Projects** in the [navigation](../../Zajednicko/UI/Navigacija.md).
+Za pristup ovoj domeni u [navigaciji](../../Zajednicko/UI/Navigacija.md) odaberite **Projekti**.
 
-![Projects Domain](Images/ProjectsDomainSitemap.png "Projects Domain")
+![Domena Projekti](Images/ProjectsDomainSitemapHR.png "Domena Projekti")
 
-> [!NOTE]  
-> The available domains and features depend on each company’s configuration and enabled modules.
+> [!NOTE]
+> Dostupne domene i funkcionalnosti ovise o konfiguraciji tvrtke i uključenim modulima.
 
-## What is included in the Projects domain?
+## Što sadrži domena Projekti?
 
-The domain is organized into several functional areas:
+Domena je organizirana u nekoliko funkcionalnih područja:
 
-- **Projects** – Project definitions and high-level structure  
-- **Tasks** – Execution units within projects  
-- **Views** – Personalized and analytical views of project tasks  
-- **Management** – Configuration and supporting definitions for projects
+- **Projekti** – definicije projekata i struktura na visokoj razini
+- **Zadaci** – jedinice izvođenja unutar projekata
+- **Pregledi** – personalizirani i analitički prikazi zadataka projekata
+- **Upravljanje** – konfiguracija i prateće definicije za projekte
 
-![Projects Domain Overview](Images/ProjectsDomainOverview.png "Projects Domain Overview")
+![Pregled domene Projekti](Images/ProjectsDomainOverviewHR.png "Pregled domene Projekti")
 
-## Projects
+## Projekti
 
-The [**Projects**](Documents/Projects.md) screen is the central place where projects are reviewed and managed.
+Zaslon [**Projekti**](Dokumenti/Projekti.md) središnje je mjesto na kojem se projekti pregledavaju i upravljaju.
 
-Each project typically represents a **goal-oriented initiative** with:
-- a defined scope
-- a timeline
-- assigned participants
-- a set of related tasks
+Svaki projekt obično predstavlja **inicijativu usmjerenu na cilj** s:
+- definiranim opsegom
+- vremenskim okvirom
+- dodijeljenim sudionicima
+- skupom povezanih zadataka
 
-Projects provide the structural container for tasks and allow progress to be tracked at a higher level.
+Projekti pružaju strukturni okvir za zadatke i omogućuju praćenje napretka na široj razini.
 
-Projects act as an organizational layer that groups tasks, users, and deadlines into a single, manageable unit.
+Projekti djeluju kao organizacijski sloj koji grupira zadatke, korisnike i rokove u jednu cjelinu kojom se lako upravlja.
 
-## Tasks
+## Zadaci
 
-The [**Tasks**](Documents/Tasks.md) screen focuses on the **execution layer** of project work.
+Zaslon [**Zadaci**](Dokumenti/Zadaci.md) usredotočen je na **sloj izvođenja** projektnog rada.
 
-Tasks represent individual units of work that:
-- are assigned to users or teams
-- have statuses and priorities
-- can be tracked over time
-- contribute to the progress of a project
-- always belong to a specific project
+Zadaci predstavljaju pojedinačne jedinice rada koje:
+- su dodijeljene korisnicima ili ekipama
+- imaju statuse i prioritete
+- mogu se pratiti kroz vrijeme
+- doprinose napretku projekta
+- uvijek pripadaju određenom projektu
 
-This section is typically used by team members performing the actual work.
+Ovaj odjeljak obično koriste članovi tima koji obavljaju stvarni rad.
 
-## Views
+## Pregledi
 
-The **Views** section provides **user-oriented and analytical perspectives** on tasks and projects.
+Odjeljak **Pregledi** pruža perspektive za korisnike i analitičke perspektive o zadacima i projektima.
 
-![Projects Views](Images/ProjectsDomainViews.png "Projects Views")
+![Pregledi domene Projekti](Images/ProjectsDomainViewsHR.png "Pregledi domene Projekti")
 
-Available views include:
+Dostupni pregledi uključuju:
 
-- [**My tasks**](Views/MyTasks.md) – A personalized list of tasks assigned to the current user
-- [**My calendar**](Views/MyCalendar.md) – A calendar-based view of tasks and deadlines
+- [**Moji zadaci**](Pregledi/MojiZadaci.md) – personalizirani popis zadataka dodijeljenih trenutnom korisniku
+- [**Moj kalendar**](Pregledi/MojKalendar.md) – kalendarski prikaz zadataka i rokova
 
-These views are designed to help users:
-- prioritize work
-- understand deadlines
-- manage workload efficiently
+Ti su pregledi namijenjeni tome da korisnicima pomognu:
+- odrediti prioritete rada
+- razumjeti rokove
+- učinkovito upravljati opterećenjem
 
-Views are **read-only** and do not create or modify tasks or projects directly.
+Pregledi su **samo za čitanje** i ne stvaraju niti mijenjaju zadatke ili projekte izravno.
 
-## Management
+## Upravljanje
 
-The [**Project management**](Management/ProjectsManagement.md) section contains configuration and master data that define how the Projects domain behaves.
+Odjeljak [**Upravljanje projektima**](Upravljanje/UpravljanjeProjektima.md) sadrži konfiguraciju i glavne podatke koji definiraju način rada domene Projekti.
 
-![Projects Management](Images/ProjectsDomainManagement.png "Projects Management")
+![Upravljanje domenom Projekti](Images/ProjectsDomainManagementHR.png "Upravljanje domenom Projekti")
 
-This area is typically used by administrators or power users to:
-- define project-related settings
-- configure task behavior
-- manage supporting data used across projects
+Ovo područje obično koriste administratori ili napredni korisnici za:
+- definiranje postavki vezanih uz projekte
+- konfiguriranje ponašanja zadataka
+- upravljanje pomoćnim podacima koji se koriste u svim projektima
 
-Changes made here affect how projects and tasks are structured and displayed throughout the domain.
+Promjene napravljene ovdje utječu na to kako se projekti i zadaci strukturiraju i prikazuju u cijeloj domeni.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> Sve stavke upravljanja pogledajte u **[Indeksu upravljanja](../../IndeksUpravljanja.md)**.
 
-## Projects Workflow Overview
+## Pregled tijeka rada
 
-A typical workflow within the Projects domain follows these steps:
+Tipičan tijek rada u domeni Projekti sastoji se od sljedećih koraka:
 
-### **1. Project definition**
-- A project is created to represent a specific initiative or objective.
+### **1. Definiranje projekta**
+- Projekt se stvara kako bi predstavljao određenu inicijativu ili cilj.
 
-### **2. Task planning**
-- Tasks are defined and associated with a project (or managed independently).
-- Responsibilities and deadlines are assigned.
+### **2. Planiranje zadataka**
+- Zadaci se definiraju i povezuju s projektom (ili se upravljaju samostalno).
+- Dodjeljuju se odgovornosti i rokovi.
 
-### **3. Task execution**
-- Users work on tasks, update progress, and complete assigned work.
+### **3. Izvođenje zadataka**
+- Korisnici rade na zadacima, ažuriraju napredak i završavaju dodijeljeni posao.
 
-### **4. Monitoring and coordination**
-- Progress is monitored through task lists and calendar views.
-- Managers and participants gain visibility into workload and status.
+### **4. Praćenje i koordinacija**
+- Napredak se prati kroz popise zadataka i kalendarske prikaze.
+- Voditelji i sudionici dobivaju uvid u opterećenje i status.
 
-## Summary
+## Sažetak
 
-The Projects domain provides a structured environment for organizing and executing project-based work.  
-It enables:
+Domena Projekti pruža strukturirano okruženje za organizaciju i izvođenje projektnog rada.
+Omogućuje:
 
-- clear project organization  
-- task-based execution  
-- personal task visibility  
-- calendar-driven planning  
-- cross-team coordination  
+- jasnu organizaciju projekata
+- izvođenje temeljeno na zadacima
+- osobnu preglednost zadataka
+- planiranje vođeno kalendarom
+- koordinaciju među timovima
 
-It supports teams in managing work that does not fit into transactional or production-driven processes, while remaining fully integrated into the broader system.
+Podržava timove u upravljanju radom koji ne uklapa u transakcijske ili proizvodne procese, a istodobno je u potpunosti integrirana u širi sustav.
