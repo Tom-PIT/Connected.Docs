@@ -1,63 +1,61 @@
 <!-- app_route: /management/users -->
-<!-- app_label: Users -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Management/Users.md -->
-<!-- canonical_source_title: Users -->
+<!-- app_label: Korisnici -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Sustav/Upravljanje/Users.md -->
+<!-- canonical_source_title: Korisnici -->
 
-# Users
+# Korisnici
 
-The **Users** code list contains all user accounts registered in the system. User accounts define login credentials, role-based access rights, personal profile details (name, email, time zone, language), and whether the user may access specific system areas (warehouse/domain rules still under review). These settings ensure that each user has appropriate permissions according to their responsibilities. 
+Šifrarnik **Korisnici** sadrži sve korisničke račune registrirane u sustavu. Korisnički računi određuju podatke za prijavu, prava pristupa temeljena na ulogama, osobne podatke profila (ime, e-pošta, vremenska zona, jezik) i to smije li korisnik pristupiti određenim područjima sustava (pravila za skladišta i domene još se provjeravaju). Te postavke osiguravaju da svaki korisnik ima ovlasti primjerene svojim zaduženjima.
 
-To access the Users page, go to **System / Users** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Stranici Korisnici pristupate na način da idete na **Sustav / Korisnici** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-## Schema
+## Shema
 
-| Field | Description |
+| Polje | Opis |
 |-------|-------------|
-| **First name** | User’s given name. |
-| **Last name** | User’s family name. |
-| **Email** | Email address used for account identification and communication. |
-| **Username** | Login name used for signing into the system. |
-| **Roles** | One or more system roles determining access rights. |
-| **PIN** | Optional numeric code for simplified authentication scenarios. |
-| **Security code** | Optional additional authentication code (usage rules may vary by system). |
-| **Status** | User status: *Active*, *Inactive*, or *Locked*. |
-| **Time zone** | Defines the user’s default time zone for all date- and time-related operations. |
-| **Language** | User interface language (Default, Slovenian, English). |
+| **Ime** | Korisnikovo ime. |
+| **Prezime** | Korisnikovo prezime. |
+| **E-mail** | Adresa e-pošte koja se koristi za identifikaciju računa i komunikaciju. |
+| **Korisničko ime** | Naziv za prijavu koji se koristi pri ulasku u sustav. |
+| **Uloge** | Jedna ili više sustavskih uloga koje određuju prava pristupa. |
+| **PIN** | Neobavezna numerička šifra za pojednostavljenu autentifikaciju. |
+| **Sigurnosni kod** | Neobavezni dodatni kod za autentifikaciju (pravila korištenja mogu se razlikovati ovisno o sustavu). |
+| **Status** | Status korisnika: *Aktivan*, *Neaktivan* ili *Zaključan*. |
+| **Vremenska zona** | Određuje zadanu vremensku zonu korisnika za sve operacije vezane uz datum i vrijeme. |
+| **Jezik** | Jezik korisničkog sučelja (zadani, slovenski, engleski). |
 
+## Upravljanje
 
-## Management
+Šifrarniku **Korisnici** pristupate na način da idete na **Sustav / Korisnici** u [navigaciji](../../../Zajednicko/UI/Navigacija.md). Popis prikazuje sve korisnike sustava s pokazateljima statusa:
 
-You can access the **Users** code list from **System / Users** in the [navigation](../../../Zajednicko/UI/Navigacija.md). The list displays all system users with their status indicators:
+- **Zeleno** — Aktivan
+- **Sivo** — Neaktivan ili Zaključan
 
-- **Green** — Active  
-- **Grey** — Inactive or Locked  
+Možete **pretraživati**, **sortirati** ili otvoriti korisnika radi uređivanja pojedinosti.
 
-You may **search**, **sort**, or open a user to edit its details.
+![Popis korisnika](../Images/UserListHR.png "Popis korisnika")
 
-![Users List](../Images/UserList.png "Users List")
+## Radnje
 
+### Izrada novog korisnika
 
-## Actions
+Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) da stvorite novog korisnika.
 
-### Create a new user
+Obrazac uključuje osobne podatke, podatke za prijavu, dodijeljene uloge i postavke lokalizacije.
 
-Click the [action button](../../../Common/UI/ActionButton.md) to create a new user.
+![Novi korisnik](../Images/UsersNewHR.png "Novi korisnik")
 
-The form includes personal details, login credentials, assigned roles, and localization settings.
+Dostupne uloge možete odabrati iz padajućeg izbornika. Nazivi uloga su postavke svake instalacije, pa se prikazuju onako kako su uneseni (često na engleskom):
 
-![New User](../Images/UsersNew.png "New User")
+![Uloge korisnika](../Images/UserRolesHR.png "Uloge korisnika")
 
-Available **Membership** roles can be selected from the dropdown:
+Kliknite **Dodaj** da biste stvorili korisnika ili **Poništi** za povratak na popis.
 
-![User Roles](../Images/UserRoles.png "User Roles")
+> [!NOTE]
+> Uloge određuju prava pristupa korisnika u sustavu. Strukture uloga konfiguriraju se pojedinačno, prema vašem poslovnom modelu i operativnim potrebama. Zbog toga se točno značenje i opseg svake uloge mogu razlikovati među implementacijama.
 
-Click **Add** to create the user or **Cancel** to return to the list.
+## Uređivanje korisnika
 
-> **Note:** Roles define the user’s access rights within the system. Role structures are configured individually, according to your business model and operational needs. Because of this, the exact meaning and scope of each role may differ between implementations.
+Za izmjenu postojećeg korisnika kliknite njegovo **Ime** na popisu. Zaslon za uređivanje omogućuje ažuriranje svih polja, uključujući uloge i status.
 
-## Edit a user
-
-To modify an existing user, click the user’s **Name** in the list. The edit screen allows updating all fields, including roles and status.  
-
-Click **Save** to confirm changes or **Cancel** to discard them.
-
+Kliknite **Spremi** za potvrdu promjena ili **Poništi** za njihovo odbacivanje.

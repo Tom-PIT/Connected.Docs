@@ -1,111 +1,111 @@
 <!-- app_route: /sitemap/system -->
-<!-- app_label: System domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/README.md -->
-<!-- canonical_source_title: System domain -->
+<!-- app_label: Domena Sustav -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Sustav/README.md -->
+<!-- canonical_source_title: Domena Sustav -->
 
-# System
+# Sustav
 
-The **System** domain contains administrative tools used to configure, secure, and maintain the platform.
+Domena **Sustav** sadrži administrativne alate za konfiguriranje, zaštitu i održavanje platforme.
 
-Unlike operational domains such as **Sales**, **Supply**, or **Production**, the System domain is primarily intended for administrators and advanced users responsible for system setup, user management, integrations, and global configuration.
+Za razliku od operativnih domena, kao što su **Prodaja**, **Nabava** ili **Proizvodnja**, domena Sustav namijenjena je prvenstveno administratorima i naprednim korisnicima zaduženima za postavljanje sustava, upravljanje korisnicima, integracije i globalnu konfiguraciju.
 
-To access this domain, navigate to **System** from the sitemap.
+Za pristup ovoj domeni u karti sustava odaberite **Sustav**.
 
-![System Domain](Images/SystemDomainSitemap.png "System Domain")
+![Karta domene Sustav](Images/SystemDomainSitemapHR.png "Karta domene Sustav")
 
 > [!NOTE]
-> Available options depend on the enabled modules, installed extensions, and user permissions.
+> Dostupne mogućnosti ovise o uključenim modulima, instaliranim proširenjima i ovlastima korisnika.
 
-## What is included in the System domain?
+## Što sadrži domena Sustav?
 
-The System domain is organized into several administrative areas:
+Domena Sustav podijeljena je na nekoliko administrativnih područja:
 
-* **[Configuration](#configuration)** – global system and organizational settings
-* **[Users](#users)** – user accounts and access management
-* **[Security](#security)** – authentication and access control
-* **[Subscriptions](#subscriptions)** – licensing and subscription management
-* **[Client registration](#client-registration)** – registration and identification settings
-* **[Development](#development)** – technical and developer-focused tools
-* **[Workers](#workers)** – background processing and system services
+* **[Postavke](#postavke)** – globalne postavke sustava i organizacije
+* **[Korisnici](#korisnici)** – korisnički računi i upravljanje pristupom
+* **[Sigurnost](#sigurnost)** – autentifikacija i kontrola pristupa
+* **[Pretplate](#pretplate)** – upravljanje licencama i pretplatama
+* **[Registracija klijenta](#registracija-klijenta)** – postavke registracije i identifikacije
+* **[Development](#development)** – tehnički alati namijenjeni razvojnim inženjerima
+* **[Workers](#workers)** – obrada u pozadini i sustavne usluge
 
-![System Domain Overview](Images/SystemDomainOverview.png "System Domain Overview")
+![Pregled domene Sustav](Images/SystemDomainOverviewHR.png "Pregled domene Sustav")
 
-## Configuration
+## Postavke
 
-The **Configuration** area contains settings that affect the behavior of the entire platform.
+Odjeljak **Postavke** sadrži postavke koje utječu na ponašanje cijele platforme.
 
-Examples include:
+Primjeri uključuju:
 
-* Organizational information
-* Default country and currency
-* Warehouse settings
-* Fiscalization settings
-* Connectivity and integration settings
-* Localization options
+* podatke o organizaciji
+* zadanu državu i valutu
+* postavke skladišta
+* postavke fiskalizacije
+* postavke povezivosti i integracija
+* mogućnosti lokalizacije
 
-Available configuration entries may vary depending on installed modules and country-specific requirements.
+Dostupni unosi konfiguracije mogu se razlikovati ovisno o instaliranim modulima i zahtjevima specifičnim za pojedinu državu.
 
-See:
+Pogledajte:
 
-* [**Configuration**](Settings/Configuration.md)
-* [**Warehouse configuration**](Settings/WarehouseConfiguration.md)
-* [**Sales Retail SI Settings**](Settings/SalesRetailsSISettings.md)
+* [**Postavke sustava**](Postavke/Configuration.md)
+* [**Skladište**](Postavke/WarehouseConfiguration.md)
+* [**Postavke Sales Retail SI**](Postavke/SalesRetailsSISettings.md)
 
-## Users
+## Korisnici
 
-The [**Users**](Management/Users.md) section manages access to the platform.
+Odjeljak [**Korisnici**](Upravljanje/Users.md) upravlja pristupom platformi.
 
-Administrators can:
+Administratori mogu:
 
-* Create user accounts
-* Assign roles and permissions
-* Manage user status
-* Configure localization settings
+* stvarati korisničke račune
+* dodjeljivati uloge i ovlasti
+* upravljati statusom korisnika
+* konfigurirati postavke lokalizacije
 
-## Security
+## Sigurnost
 
-The **Security** section contains authentication and authorization settings used to protect access to the platform and its data.
+Odjeljak **Sigurnost** sadrži postavke autentifikacije i autorizacije kojima se štiti pristup platformi i njezinim podacima.
 
-Available options depend on the deployment model and enabled security features.
+Dostupne mogućnosti ovise o modelu implementacije i uključenim sigurnosnim značajkama.
 
-## Subscriptions
+## Pretplate
 
-The **Subscriptions** section contains licensing and subscription-related information used to manage access to platform features and services.
+Odjeljak **Pretplate** sadrži podatke o licencama i pretplatama koji se koriste za upravljanje pristupom značajkama i uslugama platforme.
 
-## Client registration
+## Registracija klijenta
 
-Client registration contains settings and information related to system registration and identification.
+Registracija klijenta sadrži postavke i podatke vezane uz registraciju i identifikaciju sustava.
 
-Available options may vary depending on deployment and licensing requirements.
+Dostupne mogućnosti mogu se razlikovati ovisno o implementaciji i zahtjevima licenciranja.
 
 ## Development
 
-The **Development** section contains technical tools intended for developers, consultants, and advanced administrators.
+Odjeljak **Development** sadrži tehničke alate namijenjene razvojnim inženjerima, konzultantima i naprednim administratorima.
 
-These tools are typically used during implementation, customization, troubleshooting, and integration activities.
+Ti se alati obično koriste tijekom implementacije, prilagodbe, rješavanja problema i integracijskih aktivnosti.
 
 ## Workers
 
-The **Workers** section provides information about background services and automated processes executed by the platform.
+Odjeljak **Workers** pruža podatke o uslugama i automatiziranim procesima koje platforma izvodi u pozadini.
 
-Depending on configuration, these services may be responsible for:
+Ovisno o konfiguraciji, te usluge mogu biti zadužene za:
 
-* Scheduled tasks
-* Notifications
-* Synchronization jobs
-* Integration processing
-* Other automated operations
+* planirane zadatke
+* obavijesti
+* sinkronizacijske poslove
+* obradu integracija
+* ostale automatizirane radnje
 
-## System and Other Domains
+## Sustav i ostale domene
 
-The System domain supports all other domains throughout the platform.
+Domena Sustav podržava sve ostale domene na platformi.
 
-| Area            | Interaction                                                          |
-| --------------- | -------------------------------------------------------------------- |
-| [**Sales** ](../Sales/README.md)      | Supplies fiscalization, organization, and user settings.             |
-| [**Supply** ](../Supply/README.md)     | Provides warehouse and integration settings.                         |
-| [**Production**](../Production/README.md)  | Supplies user, localization, and system-wide configuration.          |
-| [**Maintenance**](../Maintenance/README.md) | Provides access control and shared configuration.                    |
-| [**Resources**](../Resources/README.md)   | Uses users, roles, and localization settings.                        |
+| Područje | Interakcija |
+| --- | --- |
+| [**Prodaja**](../Prodaja/README.md) | Osigurava postavke fiskalizacije, organizacije i korisnika. |
+| [**Nabava**](../Nabava/README.md) | Pruža postavke skladišta i integracija. |
+| [**Proizvodnja**](../Proizvodnja/README.md) | Osigurava korisnike, lokalizaciju i konfiguraciju na razini sustava. |
+| [**Održavanje**](../Odrzavanje/README.md) | Pruža kontrolu pristupa i zajedničku konfiguraciju. |
+| [**Resursi**](../Resursi/README.md) | Koristi korisnike, uloge i postavke lokalizacije. |
 
-The System domain acts as the administrative foundation of the platform and supports the operation of all business processes.
+Domena Sustav služi kao administrativna osnova platforme i podržava rad svih poslovnih procesa.

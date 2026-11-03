@@ -1,53 +1,52 @@
 <!-- app_route: /management/configuration -->
-<!-- app_label: Configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Settings/WarehouseConfiguration.md -->
-<!-- canonical_source_title: Warehouse configuration -->
+<!-- app_label: Konfiguracija -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Sustav/Postavke/WarehouseConfiguration.md -->
+<!-- canonical_source_title: Konfiguracija skladišta -->
 
-# Warehouse configuration
+# Konfiguracija skladišta
 
-Warehouse configuration settings allow you to customize how the system handles various warehouse operations, such as inventory management and GS1 settings. These settings can be accessed and modified by navigating to **Warehouse** in the sidebar menu.
+Postavke konfiguracije skladišta omogućuju prilagodbu načina na koji sustav obrađuje različite skladišne radnje, kao što su upravljanje inventurom i GS1 postavke. Tim postavkama pristupate i mijenjate ih tako da idete na **Sustav / Postavke** i u popisu s lijeve strane odaberete **Skladište → Postavke**.
 
-![Warehouse Settings Nav](../Images/WarehouseSettingsNav.png "Warehouse Settings Navigation")
+![Navigacija do postavki skladišta](../Images/WarehouseSettingsNavHR.png "Navigacija do postavki skladišta")
 
-## GS1 settings
+## GS1 postavke
 
-The GS1 parser configuration defines how the system interprets GS1 barcodes when scanning items during processes such as receiving or production.
+Konfiguracija GS1 parsera određuje kako sustav tumači GS1 barkodove pri skeniranju artikala u procesima kao što su primanje ili proizvodnja.
 
-### GS1 parser separator character
+### Znak separatora GS1 parsera
 
-![Warehouse Settings G S1 Parser](../Images/WarehouseSettingsGS1Parser.png "Warehouse settings GS1 parser")
+![Postavke GS1 parsera skladišta](../Images/WarehouseSettingsGS1ParserHR.png "Postavke GS1 parsera skladišta")
 
-Specifies the separator character used to split GS1 data elements (Application Identifiers) within a scanned barcode. This character is used to detect the end of variable-length fields (such as batch/lot number).
+Određuje znak separatora koji se koristi za razdvajanje GS1 elemenata podataka (identifikatora primjene) u skeniranom barkodu. Taj se znak koristi za prepoznavanje kraja polja promjenjive duljine, kao što je broj serije ili lota.
 
 > [!IMPORTANT]
-> The value must be entered in Unicode (hexadecimal) format (e.g. **0x001D**).
+> Vrijednost se mora unijeti u Unicode (heksadecimalnom) obliku (npr. **0x001D**).
 
-To enter GS1 identification details go to **Warehouse / Settings / GS1 settings** in the sidebar menu (see below).
+Pojedinosti o GS1 identifikaciji unosite na način da idete na **Sustav / Postavke** i u popisu s lijeve strane odaberete **Warehouse → GS1 Settings**.
 
-## Settings
+## Postavke
 
-Warehouse settings allow you to configure key application parameters, including database connectivity, GS1 identification, inventory behavior, and warehouse rules.
+Postavke skladišta omogućuju konfiguriranje ključnih parametara aplikacije, uključujući povezivost s bazom podataka, GS1 identifikaciju, ponašanje inventure i pravila skladišta.
 
-![Warehouse Settings Settings](../Images/WarehouseSettings.png "Warehouse settings")
+![Postavke skladišta](../Images/WarehouseSettingsHR.png "Postavke skladišta")
 
 ### Email list
 
-Use this section to define email-related configurations (e.g. recipients for notifications or system messages).
+Ovaj odjeljak služi za definiranje konfiguracija povezanih s e-poštom (npr. primatelji obavijesti ili sustavnih poruka).
 
-### GS1 Settings
+### Postavke GS1
 
-Configures GS1 identification used for barcode generation and parsing.
+Konfigurira GS1 identifikaciju koja se koristi za izradu i tumačenje barkodova.
 
-- **GS1 Identity** – The company’s GS1 prefix assigned by a GS1 authority.
-This value is used when generating GS1-compliant codes such as:
-	- GTIN (product codes)
-	- SSCC (logistics units)
+- **GS1 identitet** – GS1 prefiks tvrtke koji dodjeljuje GS1 tijelo.
+  Ta se vrijednost koristi pri izradi GS1 usklađenih kodova, kao što su:
+	- GTIN (šifre proizvoda)
+	- SSCC (logističke jedinice)
 
-### Inventory
+### Inventura
 
-- **Show theoretical column** – When enabled, displays the theoretical quantity column while the document is in draft status.
+- **Prikaži stupac knjigovodstvenog stanja** – kad je uključeno, prikazuje stupac knjigovodstvenog stanja dok je dokument u statusu nacrta.
 
-### Warehouse location settings
+### Postavke skladišne lokacije
 
-- **Disallow warehouse location from a different warehouse on inter move documents** – Prevents selecting locations that belong to a different warehouse when creating [inter-warehouse](../../Logistics/Documents/InterWarehouse.md) movement documents.
-
+- **Zabrani lokaciju iz drugog skladišta u međuskladišnim dokumentima** – sprječava odabir lokacija koje pripadaju drugom skladištu pri izradi [međuskladišnih](../../Logistika/Dokumenti/MeduskladisniPromet.md) dokumenata kretanja.

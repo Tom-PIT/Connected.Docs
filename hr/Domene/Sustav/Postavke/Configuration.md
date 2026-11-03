@@ -1,75 +1,74 @@
 <!-- app_route: /management/configuration -->
-<!-- app_label: Configuration -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/System/Settings/Configuration.md -->
-<!-- canonical_source_title: Configuration -->
+<!-- app_label: Postavke sustava -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Sustav/Postavke/Configuration.md -->
+<!-- canonical_source_title: Postavke sustava -->
 
-# Configuration
+# Postavke sustava
 
-The **Configuration** section, found under **System / Configuration**, contains global system settings that define core organizational and localization behavior. 
+Stranica **Postavke sustava**, koja se otvara pod **Sustav / Postavke**, sadrži globalne postavke sustava koje određuju osnovno ponašanje organizacije i lokalizacije.
 
 > [!IMPORTANT]
 >
->These settings are referenced by nearly all modules ([Sales](../../Sales/README.md), [Supply](../../Supply/README.md), [Logistics](../../Logistics/README.md), [Projects](../../Projects/README.md), etc.) and must be configured before operational work begins.
+> Ove postavke koriste gotovo svi moduli ([Prodaja](../../Prodaja/README.md), [Nabava](../../Nabava/README.md), [Logistika](../../Logistika/README.md), [Projekti](../../Projekti/README.md) i drugi) i moraju biti konfigurirane prije početka operativnog rada.
 
-While the **System / Configuration** area contains numerous technical settings that affect the system's overall behavior, this document focuses on two key groups that must be configured for initial setup:
+Iako se na stranici **Sustav / Postavke** nalaze brojne tehničke postavke koje utječu na ukupno ponašanje sustava, ovaj dokument usredotočuje se na dvije ključne skupine koje je potrebno konfigurirati pri početnom postavljanju:
 
-- **Common Types → Common Types Settings**  
-- **System → Organization**
+- **CommonTypes → CommonTypes Settings** (zadana država i valuta)
+- **Sistem → Organizacija** (podaci o tvrtki)
 
-These two configuration groups must be set up during the initial system setup, as they influence all modules across the platform.
+Te dvije skupine konfiguracije moraju se postaviti pri početnom postavljanju sustava jer utječu na sve module na platformi.
 
-> [!WARNING]  
-> These settings affect every domain. Only system administrators should modify them.
+> [!WARNING]
+> Ove postavke utječu na sve domene. Mijenjati ih smiju samo administratori sustava.
 
-## Common Types Settings
+## CommonTypes Settings
 
-The **Common Types Settings** section defines the **default country** and **default currency** used throughout the platform. Many modules rely on these values for correct formatting, taxation, legal structure, and document output.
+Odjeljak **Organizacija** unutar **CommonTypes Settings** određuje **zadanu državu** i **zadanu valutu** koje se koriste na cijeloj platformi. Mnogi moduli oslanjaju se na te vrijednosti za ispravno oblikovanje, oporezivanje, pravnu strukturu i ispis dokumenata.
 
-![Common Types Settings](../Images/ConfigurationCommonTypes.png "Common Types Settings")
+![Postavke uobičajenih tipova](../Images/ConfigurationCommonTypesHR.png "Postavke uobičajenih tipova")
 
-To access these settings go to **CommonTypes / CommonTypes Settings** in the left sidebar and click on **Organization**.
+Ovim postavkama pristupate na način da idete na **Sustav / Postavke** i u popisu s lijeve strane odaberete **CommonTypes → CommonTypes Settings**. Odjeljak **Organizacija** prikazuje državu i valutu.
 
-![Configuration Common Types Detail](../Images/ConfigurationCommonTypesDetail.png)
+![Pojedinosti uobičajenih tipova](../Images/ConfigurationCommonTypesDetailHR.png)
 
-### Country
+### Država
 
-Select the country where the organization operates. This setting controls localization and regulatory defaults across documents and modules.
+Odaberite državu u kojoj organizacija posluje. Ova postavka određuje lokalizaciju i zakonske zadane vrijednosti u svim dokumentima i modulima.
 
-> [!IMPORTANT]  
-> The selected country **must already exist** in the **[Countries](../../../Common/Management/Countries.md)** code list. If not configured there first, it will not appear in the dropdown menu.
+> [!IMPORTANT]
+> Odabrana država **mora već postojati** u šifrarniku **[Države](../../../Zajednicko/Upravljanje/Drzave.md)**. Ako prethodno nije unesena tamo, neće se pojaviti u padajućem izborniku.
 
-### Currency
+### Valuta
 
-Select the default currency for the organization. This setting controls monetary formatting and default document currency across modules and reports.
+Odaberite zadanu valutu organizacije. Ova postavka određuje oblikovanje novčanih iznosa i zadanu valutu dokumenata u svim modulima i izvješćima.
 
-> [!IMPORTANT]  
-> The selected currency **must already exist** in the **[Currencies](../../../Common/Management/Currencies.md)** code list.
+> [!IMPORTANT]
+> Odabrana valuta **mora već postojati** u šifrarniku **[Valute](../../../Zajednicko/Upravljanje/Valute.md)**.
 
-These two settings form the foundation for all financial and commercial operations across the platform.
+Te dvije postavke čine temelj svih financijskih i komercijalnih operacija na platformi.
 
-## Organization
+## Organizacija
 
-The **Organization** section defines your company’s identity and legally required business information. These values appear on printed documents such as invoices, delivery notes, sales orders, and supply orders.
+Odjeljak **Organizacija** određuje identitet vaše tvrtke i poslovne podatke koje zakon zahtijeva. Ti se podaci pojavljuju na ispisanim dokumentima, kao što su računi, otpremnice, narudžbe kupaca i narudžbenice.
 
-To access these settings, go to **System / Organization**.
+Tim postavkama pristupate na način da idete na **Sustav / Postavke** i u popisu s lijeve strane odaberete **Sistem → Organizacija**.
 
-![Organization Details](../Images/ConfigurationSystemOrganization1.png "Organization Details")
+![Podaci o organizaciji](../Images/ConfigurationSystemOrganization1HR.png "Podaci o organizaciji")
 
-### Schema
+### Shema
 
-| Field | Description |
+| Polje | Opis |
 |---|---|
-| **Logotype** | Upload the company logotype used on official documents. Accepted formats: PNG, JPG. Upload via drag-and-drop or file dialog. |
-| **Name** | Full legal name of the company. |
-| **Address** | Street name and number, including city or municipality. |
-| **Post** | Postal code of the registered business address. |
-| **Website** | Displayed on various sales and supply documents. |
-| **Email** | Primary contact email for customer or supplier communication. |
-| **Phone number** | General contact number displayed on documents. |
-| **Registration number** | Official company registration number. |
-| **Tax number** | Tax identification number (e.g., VAT ID). |
-| **Document footer text** | Formatted footer appearing on documents across the system. Typical contents: company name, full address, website, email, phone number, legal statements or disclaimers. Supports multiline formatting. |
-| **Signature of the responsible person** | Upload the signature image used on selected official documents. Accepted formats: PNG, JPG. Displayed on invoices, confirmations, and similar outputs. |
+| **Logotip** | Učitajte logotip tvrtke koji se koristi na službenim dokumentima. Podržani formati: PNG, JPG. Učitavanje je moguće povlačenjem datoteke ili preko dijaloškog okvira. |
+| **Naziv** | Puni pravni naziv tvrtke. |
+| **Adresa** | Naziv ulice i broj, uključujući grad ili općinu. |
+| **Pošta** | Poštanski broj registrirane poslovne adrese. |
+| **Web-stranica** | Prikazuje se na raznim dokumentima prodaje i nabave. |
+| **E-mail** | Glavna kontakt adresa za komunikaciju s kupcima ili dobavljačima. |
+| **Telefonski broj** | Opći kontaktni broj koji se prikazuje na dokumentima. |
+| **Matični broj** | Službeni registracijski broj tvrtke. |
+| **Porezni broj** | Porezni identifikacijski broj (npr. OIB ili PDV ID). |
+| **Tekst podnožja dokumenta** | Oblikovano podnožje koje se pojavljuje na dokumentima u cijelom sustavu. Tipičan sadržaj: naziv tvrtke, puna adresa, web-stranica, e-mail, telefonski broj, pravne napomene ili odricanja od odgovornosti. Podržava višeredno oblikovanje. |
+| **Potpis odgovorne osobe** | Učitajte sliku potpisa koja se koristi na odabranim službenim dokumentima. Podržani formati: PNG, JPG. Prikazuje se na računima, potvrdama i sličnim ispisima. |
 
-
-![Organization Footer and Legal Data](../Images/ConfigurationSystemOrganization2.png "Organization Footer and Legal Data")
+![Podnožje organizacije i pravni podaci](../Images/ConfigurationSystemOrganization2HR.png "Podnožje organizacije i pravni podaci")

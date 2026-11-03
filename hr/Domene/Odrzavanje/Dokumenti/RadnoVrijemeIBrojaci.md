@@ -44,8 +44,7 @@ Unesite:
 
 Kliknite **Dodaj** da biste stvorili brojač.
 
-> **Napomena**
->
+> [!NOTE]
 > Za jednu opremu i jednu mjernu jedinicu može postojati samo jedan brojač.
 
 ## Uređivanje vrijednosti brojača
