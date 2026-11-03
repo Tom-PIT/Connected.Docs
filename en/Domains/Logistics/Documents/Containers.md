@@ -22,7 +22,7 @@ To access this page, go to **Logistics / Documents / Containers** in the [naviga
 | [**Code**](../../../Common/UI/DocumentCodes.md) | Unique SSCC container identifier (a system‑generated code with this structure: CTR‑YYYY‑NNNNNNNN). |
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the container resides. |
 | **Document date** | Date the container document was created. |
-| [**Location**](../Management/Locations.md) | Warehouse location (e.g., Rack/Shelf). |
+| [**Location**](../Management/Locations.md) | Warehouse location (for example, Rack/Shelf). |
 
 </details>
 

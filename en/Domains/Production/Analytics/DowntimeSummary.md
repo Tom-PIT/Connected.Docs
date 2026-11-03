@@ -50,7 +50,7 @@ The downtime summary displays two key indicators:
 | **Total** | Total downtime (sum of all selected downtime events) |
 | **Average** | Average downtime per event |
 
-Below the indicators, a graph displays downtime classifications (e.g., electrical failure, mechanical issue) with:
+Below the indicators, a graph displays downtime classifications (for example, electrical failure, mechanical issue) with:
 - **Values** — actual downtime per reason
 - **Cumulative percentage** — contribution to total downtime
 At the bottom, a detailed list shows:

@@ -52,7 +52,7 @@ For each tariff code, entries can be expanded to show partner countries and deta
 At the tariff and country level, the following values are shown:
 
 - **Quantity**  
-  Displayed using the relevant supplementary unit (e.g. piece).
+  Displayed using the relevant supplementary unit (for example piece).
 
 - **Mass in kilograms**  
   Total net mass of the goods.

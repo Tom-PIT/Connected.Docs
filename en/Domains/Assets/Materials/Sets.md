@@ -15,8 +15,8 @@ To access this page, go to **Assets / Materials / Sets** in the [navigation](../
 
 | Field | Description |
 |---|---|
-| **Material type** | Category of the parent set (e.g., Product, Semi product). |
-| **Entity** | The parent material that represents the set (e.g., Furniture set). |
+| **Material type** | Category of the parent set (for example, Product, Semi product). |
+| **Entity** | The parent material that represents the set (for example, Furniture set). |
 | **Quantity** | Quantity of each component in the set. |
 
 
@@ -24,11 +24,11 @@ To access this page, go to **Assets / Materials / Sets** in the [navigation](../
 ## Management
 
 ### Prerequisites
-- Create the parent material first in its category (e.g., **Products**, **Semi products**).
+- Create the parent material first in its category (for example, **Products**, **Semi products**).
 - Ensure each component you want to include is already defined in its respective code list.
 
 ## List of sets
-The left sidebar lists parent materials grouped by [**Material type**](../README.md) (e.g., [**Products**](Products.md), [**Semi products**](SemiProducts.md)). Select a parent to view its components in the main list. The main list shows the components of the selected set with their quantities.
+The left sidebar lists parent materials grouped by [**Material type**](../README.md) (for example, [**Products**](Products.md), [**Semi products**](SemiProducts.md)). Select a parent to view its components in the main list. The main list shows the components of the selected set with their quantities.
 
 ![Sets list](../Images/SetsList.png "Sets list")
 
@@ -37,7 +37,7 @@ The left sidebar lists parent materials grouped by [**Material type**](../README
 ### Create a set
 
 1. Create the parent material in its category:
-   - Go to **Assets / Materials / Products** and add a new product (e.g., **Pine Wood Furniture Set**).
+   - Go to **Assets / Materials / Products** and add a new product (for example, **Pine Wood Furniture Set**).
 2. Open **Assets / Materials / Sets** and select the parent on the left sidebar: **Products → Pine Wood Furniture Set**.
 3. Click the [action button](../../../Common/UI/ActionButton.md) to add components to the set (each component must exist already):
    - Example components: **Pine Wood Table** (1), **Pine Wood Chair** (4)

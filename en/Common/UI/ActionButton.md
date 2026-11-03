@@ -17,7 +17,7 @@ The most common action is:
 
 Depending on the module, the Action button may also include additional options, such as:
 
-- **Import** — upload or import data from external files (e.g., Excel templates).  
+- **Import** — upload or import data from external files (for example, Excel templates).  
 - **Copy existing** — create a new item based on an existing one.  
 - **Other module-specific actions** — shown only when applicable.
 

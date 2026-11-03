@@ -24,7 +24,7 @@ The following table lists all fields used across **Human**, **Non-human**, and *
 | **User** | Links the resource to a system user (mandatory for human resources). | ✔️ |  |  |
 | **Name** | Name of the resource or team (mandatory). | ✔️ | ✔️ | ✔️ |
 | **Folder** | Folder where the resource or team resides. | ✔️ | ✔️ | ✔️ |
-| **Tags** | Labels for classification or filtering (e.g., Production, Maintenance). | ✔️ | ✔️ | ✔️ |
+| **Tags** | Labels for classification or filtering (for example, Production, Maintenance). | ✔️ | ✔️ | ✔️ |
 | **Teams** | Teams to which a human resource belongs. | ✔️ |  |  |
 | **Resource parent** | Parent resource for hierarchical grouping. |  | ✔️ |  |
 | **Description** | Free text field for additional information about the resource. |  | ✔️ |  |
@@ -57,7 +57,7 @@ This table lists the fields used in the **Basic details** section of the resourc
 ![Resources toolbar](../Images/ResourcesListAddNewButtons.png "Resources toolbar")
 
 - **Add folder** – Creates a folder to organize resources.
-- **Add human resource** – Creates an individual human resource (e.g., operator, maintenance technician).
+- **Add human resource** – Creates an individual human resource (for example, operator, maintenance technician).
 - **Add non-human resource** – Creates a machine, workstation, equipment, or tool.
 - **Add team** – Creates a human resource group.
 
@@ -117,13 +117,13 @@ Selecting an item shows its details and the Edit form.
 ## Edit a resource
 
 1. Click any resource in the tree.
-2. Modify its fields (e.g., Name, Folder, Parent, Tags, Teams, or External Key).
+2. Modify its fields (for example, Name, Folder, Parent, Tags, Teams, or External Key).
 3. Click **Save**.
 
 ## Delete a resource
 
 Click any resource in the tree to open the Edit page and select **Delete**. After confirming the deletion, the resource is permanently removed from the system.
 
-A resource can be deleted from the edit page only if it is **not referenced** in operations, processes, or documents (e.g., production or maintenance orders).
+A resource can be deleted from the edit page only if it is **not referenced** in operations, processes, or documents (for example, production or maintenance orders).
 
 

@@ -34,9 +34,9 @@ The list shows completed checklist executions with their main contextual informa
 
 Displayed information typically includes:
 
-- **Checklist** — checklist code and name (e.g. `CHL-25-00000003` · Necessary materials)
-- **Document** — source document and code (e.g. Production order `PRO-25-000026`)
-- **Operation** — operation code and name (e.g. `OPR-25-000017, Assembly`)
+- **Checklist** — checklist code and name (for example `CHL-25-00000003` · Necessary materials)
+- **Document** — source document and code (for example Production order `PRO-25-000026`)
+- **Operation** — operation code and name (for example `OPR-25-000017, Assembly`)
 - **Product** — product name and code
 - **Organization unit** — responsible unit
 - **Checked by** — user who completed the checklist

@@ -20,7 +20,7 @@ The system may initially be empty of the basic data required for day‑to‑day 
 6. Set up warehouses and locations (if applicable): **[Warehouses](../Domains/Logistics/Management/Warehouses.md)**, **[Locations](../Domains/Logistics/Management/Locations.md)**, **[Organization units](../Domains/Production/Management/OrganizationUnits.md)**, **[Warehouse locations](../Domains/Production/Management/WarehouseLocations.md)**
 
 > [!TIP]
-> A **code list** is shared master data used across documents and domains (e.g., countries, currencies, tax rates, measure units). Configure these first so forms, dropdowns, and calculations work correctly.
+> A **code list** is shared master data used across documents and domains (for example, countries, currencies, tax rates, measure units). Configure these first so forms, dropdowns, and calculations work correctly.
 
 ## Prerequisites steps
 

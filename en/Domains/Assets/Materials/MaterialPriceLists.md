@@ -32,7 +32,7 @@ To access this screen, navigate to **Assets / Materials / Material price lists**
 
 | Field | Description |
 |------|-------------|
-| **Type** | Material classification (e.g. *Raw material*, *Semi products*, *Repro*). |
+| **Type** | Material classification (for example *Raw material*, *Semi products*, *Repro*). |
 | [**Material**](../README.md) | Specific material to which the price applies. |
 | **Item price net 100 %** | Base net price of the material without discounts. |
 | **Ranges** | Optional quantity-based pricing rules defining discounts or adjustments. |

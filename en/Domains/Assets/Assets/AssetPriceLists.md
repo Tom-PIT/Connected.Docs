@@ -13,7 +13,7 @@ To access this screen, go to **Assets / Asset price lists** in the [navigation](
 
 | Field | Description |
 |-------|-------------|
-| **Type** | Classification of the price list (e.g., *Company*). |
+| **Type** | Classification of the price list (for example, *Company*). |
 | [**Entity**](../../../Common/Management/BusinessDirectory.md) | Customer or other partner to whom the price list applies. |
 | **Name** | Display name of the price list (mandatory). |
 | **Valid from** | Start date when the price list becomes active. |
@@ -34,8 +34,8 @@ The list displays:
 - A **Details** button to open price list contents  
 
 The list can be filtered by:
-- **Type** (e.g., Company)
-- **Entity** (e.g., Customer)
+- **Type** (for example, Company)
+- **Entity** (for example, Customer)
 
 ![Asset price lists](../Images/AssetPriceListsV2.png "Asset price lists list")
 

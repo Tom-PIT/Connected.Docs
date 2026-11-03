@@ -25,7 +25,7 @@ Saved losses are linked to the production order and operation and appear in the 
 
 ## Classifications and tags
 
-Loss reasons are managed as tags (e.g., cosmetic defect, wrong dimension, machine fault). Choose the best matching tag to support downstream analysis. See [Loss classification tags](../Management/LossClassificationTags.md).
+Loss reasons are managed as tags (for example, cosmetic defect, wrong dimension, machine fault). Choose the best matching tag to support downstream analysis. See [Loss classification tags](../Management/LossClassificationTags.md).
 
 ## Analytics and reporting
 

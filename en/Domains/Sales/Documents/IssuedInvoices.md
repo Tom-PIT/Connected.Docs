@@ -42,7 +42,7 @@ Invoices can also be created manually as stand-alone documents when required.
 | **Issue date** | Date when the invoice is issued. |
 | **Delivery date** | Date when the goods or services were delivered. |
 | **Due date** | Payment deadline shown to the customer  (mandatory). |
-| **Reference type** | Type of payment reference (e.g., structured reference, model)  (mandatory). |
+| **Reference type** | Type of payment reference (for example, structured reference, model)  (mandatory). |
 | **Reference number** | Reference number used on payment documents, based on the chosen reference type. |
 | **[Organization bank accounts](../Management/OrganizationBankAccounts.md)** | Account where the payment should be received, selected from the Organization bank accounts code list (mandatory). |
 | **[Cost center](../../../Common/Management/CostCenters.md)** | Optional allocation of revenue to a cost center. |
@@ -102,7 +102,7 @@ Invoices can also be created manually as stand-alone documents when required.
 
 | Field | Description |
 |--------|-------------|
-| **Ledger - Account revenue / expense** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the line amount (e.g., sales revenue or purchase expense). |
+| **Ledger - Account revenue / expense** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the line amount (for example, sales revenue or purchase expense). |
 | **Ledger - Account tax** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the tax amount associated with the document line. |
 | **[Intrastat – Tariff](../../Accounting/Management/Intrastat/Tariffs.md)** | Commodity code used for Intrastat reporting. |
 | **Intrastat – Country of origin** | Country where the goods originate. |

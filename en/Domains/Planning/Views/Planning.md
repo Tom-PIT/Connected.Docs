@@ -26,7 +26,7 @@ Each entry in the calendar represents a scheduled production order, showing its 
 Use the filters on the left side to refine the view:
 
 - **Date** – select the desired time period  
-- **Type** – filter by planning type (e.g. production timeline)
+- **Type** – filter by planning type (for example production timeline)
 
 The **Today** button quickly navigates back to the current date.
 

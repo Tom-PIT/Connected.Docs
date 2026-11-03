@@ -39,8 +39,8 @@ The following actions are available via the [action button](../../../Common/UI/A
 
 1. Click the [action button](../../../Common/UI/ActionButton.md) and select **New**.
 2. Enter:
-   - **Code** – a short identifier (e.g. `NPO`)
-   - **Name** – the full sector name (e.g. *Non-profit organization*)
+   - **Code** – a short identifier (for example `NPO`)
+   - **Name** – the full sector name (for example *Non-profit organization*)
 3. Click **ADD** to save.
 
 ![Add institutional sector](../Images/InstitutionalSectorsNew.png)

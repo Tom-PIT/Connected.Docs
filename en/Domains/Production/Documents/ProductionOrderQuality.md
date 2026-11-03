@@ -18,20 +18,20 @@ The list shows all checklists linked to the order with its name and code. Each c
 
 - **Date and time** of completion  
 - **Operator** who executed the checklist  
-- **Trigger badge** – indicates when the checklist was planned to run (e.g. *On start*, *On run*, *On pause*)  
+- **Trigger badge** – indicates when the checklist was planned to run (for example *On start*, *On run*, *On pause*)  
 
 Completed checklists are visually marked:
 
 - **Green** – checklist completed successfully  
-- **Red** – checklist failed (e.g. values outside permitted limits)  
+- **Red** – checklist failed (for example values outside permitted limits)  
 
 ## Actions
 
 The following actions are available:
 
-- **Run** - Starts the checklist manually. Checklists are usually configured to run automatically at a specific time (e.g. *On start*, *On pause*), but they can also be triggered manually using this action.
+- **Run** - Starts the checklist manually. Checklists are usually configured to run automatically at a specific time (for example *On start*, *On pause*), but they can also be triggered manually using this action.
 
-- **Repeat** - Runs the checklist again, creating a new execution record. This is useful when a checklist needs to be repeated (e.g. after correcting an issue).
+- **Repeat** - Runs the checklist again, creating a new execution record. This is useful when a checklist needs to be repeated (for example after correcting an issue).
 
 - **Delete** - Deletes a **currently running checklist**.
 

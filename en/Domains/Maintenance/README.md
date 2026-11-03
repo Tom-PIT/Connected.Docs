@@ -32,7 +32,7 @@ The domain is structured into functional areas for daily work and analysis:
   - **[Maintenance schedule](Documents/MaintenanceSchedule.md)** — Configure recurring execution patterns (time- or counter-based) that automatically generate maintenance orders.
   - **[Reported malfunctions](Documents/ReportedMalfunctions.md)** — Capture equipment issues from the field; curative maintenance orders are created from reported malfunctions.
   - **[Maintenance calendar](Documents/MaintenanceCalendar.md)** — Calendar view of planned and active maintenance, with filters by organization unit, resource, and order status.
-  - **[Resource work hours & counters](Documents/ResourceWorkHours&Counters.md)** — Configure working hours windows and usage counters (e.g., pieces, meters, grams, hours) used by schedules and count-based maintenance.
+  - **[Resource work hours & counters](Documents/ResourceWorkHours&Counters.md)** — Configure working hours windows and usage counters (for example, pieces, meters, grams, hours) used by schedules and count-based maintenance.
 
 > [!TIP]
 > See [**How to create a maintenance order**](Documents/MaintenanceOrderCreate.md) for a step-by-step guide of the creation of these documents.
@@ -44,7 +44,7 @@ Configure shared structures used by maintenance. The Maintenance domain leverage
 ![Maintenance Domain Management](Images/MaintenanceDomainManagement.png "Maintenance Domain management")
 
 - **[Processes](../Production/Management/Processes.md)** — Define process steps and versions used to execute maintenance operations.
-- **[Organization units](../Production/Management/OrganizationUnits.md)** — Define operational units (e.g., maintenance departments, service teams).
+- **[Organization units](../Production/Management/OrganizationUnits.md)** — Define operational units (for example, maintenance departments, service teams).
 - **[Resources](../Resources/Management/Resources.md)** — Manage human and non-human resources (technicians, tools, equipment).
 - **[Checklists](../Quality/Management/Checklists.md)** — Create and categorize checklists used during maintenance operations.
 

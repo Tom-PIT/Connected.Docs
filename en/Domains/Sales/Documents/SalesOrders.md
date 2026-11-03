@@ -107,7 +107,7 @@ Documents move through several possible states during their lifecycle:
 - **Draft** – The document is not yet published. All fields can be edited freely.
 - **Committed** – The document has been published. It cannot be deleted or freely modified.
     - **Available** – The document is valid and ready for further processing.
-    - **In completion** – The document is partially processed (e.g., partially delivered or received).
+    - **In completion** – The document is partially processed (for example, partially delivered or received).
     - **Completed** – All actions related to the document have been fully executed.
 
 ### List view

@@ -83,7 +83,7 @@ At the top of the screen, key indicators provide a quick summary:
 - **Cost distribution** between materials and effort
 - **Performance indicators**, such as best and worst contributors
 
-Any linked documents (e.g., production or maintenance orders) are also shown for reference.
+Any linked documents (for example, production or maintenance orders) are also shown for reference.
 
 ![Work items linked documents](../Images/WorkItemsLinkedDocuments.png "Linked documents section")
 

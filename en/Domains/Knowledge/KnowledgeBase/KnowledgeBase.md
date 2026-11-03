@@ -36,7 +36,7 @@ Tags are defined in **[Directory tags](../Management/DirectoryTags.md)**.
 
 The **Popular topics** section groups frequently accessed or highlighted articles by tag.
 
-Each card represents a tag (e.g. *Assembly*, *Quality*, *Instructions*) and contains a list of related articles. Clicking an article opens it directly.
+Each card represents a tag (for example *Assembly*, *Quality*, *Instructions*) and contains a list of related articles. Clicking an article opens it directly.
 
 This section helps users quickly access commonly used instructions and guidelines without browsing the full directory structure.
 

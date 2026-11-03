@@ -22,7 +22,7 @@ To access this screen, go to **Accounting / Ledger / Double-entry accountancy** 
 | [**Code**](../../../Common/UI/DocumentCodes.md)            | System-generated identifier of the journal entry.                               |
 | **Accounting date** | Date on which the entry is posted to the ledger.                                |
 | **Description**     | Optional description of the journal entry.                                      |
-| [**Document type**](../Management/Ledger/DocumentTypes.md)   | Classification of the journal entry (e.g. General journal, Inventory movement). |
+| [**Document type**](../Management/Ledger/DocumentTypes.md)   | Classification of the journal entry (for example General journal, Inventory movement). |
 | [**Template**](../Management/Ledger/JournalEntryTemplates.md)        | Optional journal entry template used to prefill detail lines.                   |
 
 </details>
