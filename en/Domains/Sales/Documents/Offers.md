@@ -40,7 +40,7 @@ flowchart LR
 | **Customer** | The customer receiving the quotation, selected from the [Business directory](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the offer is created. |
 | **Expiration date** | Validity date of the offer (mandatory). |
-| **Rebate** | Optional overall discount applied to the entire offer (e.g., enter *2* for a 2% discount). |
+| **Rebate** | Optional overall discount applied to the entire offer (for example, enter *2* for a 2% discount). |
 | **Content top** | Predefined introductory text from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | **Content bottom** | Closing or legal statements from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity: *Offer*). |
 | [**Payment methods**](../Management/PaymentMethods.md) | Available payment methods shown to the customer. |
@@ -98,7 +98,7 @@ Documents move through several possible states during their lifecycle:
 - **Draft** – The document is not yet published. All fields can be edited freely.
 - **Committed** – The document has been published. It cannot be deleted or freely modified.
     - **Available** – The document is valid and ready for further processing.
-    - **In completion** – The document is partially processed (e.g., partially delivered or received).
+    - **In completion** – The document is partially processed (for example, partially delivered or received).
     - **Completed** – All actions related to the document have been fully executed.
 
 ### List view
@@ -243,7 +243,7 @@ If the draft still includes items in the **Details** section:
 Once the document contains no materials, you can click **Delete** to remove the draft.
 
 > [!NOTE]  
-> An offer can be deleted only if it is not linked to another dependent document (e.g., Sales orders).
+> An offer can be deleted only if it is not linked to another dependent document (for example, Sales orders).
 
 ## Menu
 

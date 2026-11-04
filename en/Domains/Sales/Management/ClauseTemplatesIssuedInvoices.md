@@ -26,7 +26,7 @@ To access this page, go to **Sales / Management / Clause templates for issued in
 | Field | Description |
 |--------|-------------|
 | **Location** | Where the clause appears on the invoice (top or bottom). |
-| **Ordinal** | Numeric order of appearance (e.g., 1, 2, 3…). |
+| **Ordinal** | Numeric order of appearance (for example, 1, 2, 3…). |
 | **Clause** | A predefined text selected from [Predefined texts](../../../Common/Management/PredefinedTexts.md) (entity = *Issued invoice*). |
 
 ## Management

@@ -50,7 +50,7 @@ The [**Materials**](../../Assets/Materials/README.md) section lists all material
 Each row displays:
 
 - **Material name**
-- **Material type** (e.g., semi-product, raw material)
+- **Material type** (for example, semi-product, raw material)
 - **Quantity required**
 - **Cost contribution**
 - **Cost percentage** relative to the total item cost

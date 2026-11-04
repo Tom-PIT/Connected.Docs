@@ -13,11 +13,11 @@ To access this view, go to **Resources / Views / Availability plans** in the [na
 
 | Field | Description |
 |------|-------------|
-| **Resources** | Resource(s) for which the availability plan is created (e.g., a user or team). |
+| **Resources** | Resource(s) for which the availability plan is created (for example, a user or team). |
 | **Execution pattern** | Defines whether the plan occurs **Once** or follows a repeating pattern. |
 | **Date** | Date of the availability plan (anchor date for execution pattern). |
 | **All day** | Marks the plan as covering the entire day. |
-| **Type** | Availability type (e.g., Training, Absence, Other). |
+| **Type** | Availability type (for example, Training, Absence, Other). |
 | **Start** | Start time of the availability period (if not all-day). |
 | **End** | End time of the availability period (if not all-day). |
 

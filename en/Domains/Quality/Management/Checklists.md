@@ -24,8 +24,8 @@ To access this page, navigate to the **Production** or **Maintenance** domains, 
 | [**Code**](../../../Common/UI/DocumentCodes.md) | Automatically generated checklist code (read-only). |
 | **Name** | The name of the checklist (mandatory). |
 | **Description** | A short explanation of the checklist’s purpose. |
-| **Tags** | Optional tags used to categorize or group checklists (e.g., Production, Maintenance). |
-| **Execution roles** | Optional roles defining which job positions may execute the checklist (e.g., operators, maintenance technicians). |
+| **Tags** | Optional tags used to categorize or group checklists (for example, Production, Maintenance). |
+| **Execution roles** | Optional roles defining which job positions may execute the checklist (for example, operators, maintenance technicians). |
 | **Attachments** | Optionally attach relevant documents or images related to the checklist (This section is only shown **after** creating the checklist). |
 
 ## List view
@@ -49,8 +49,8 @@ The list includes a **Tags** filter on the left, allowing you to show only check
 
     - **Name** – The name of the checklist  
     - **Description** – Optional description  
-    - **Tags** – Select one or more tags to categorize the checklist (e.g., Production, Maintenance)  
-    - **Execution roles** – Select which job positions can execute this checklist (e.g., operators, maintenance technicians)
+    - **Tags** – Select one or more tags to categorize the checklist (for example, Production, Maintenance)  
+    - **Execution roles** – Select which job positions can execute this checklist (for example, operators, maintenance technicians)
 
 3. Click **Add** to create the checklist.
 

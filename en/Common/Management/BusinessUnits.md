@@ -16,7 +16,7 @@
 
 | Field | Description |
 |-------|-------------|
-| **Name** | Name of the business unit (e.g., *Head Office*, *Slovenian Branch*). |
+| **Name** | Name of the business unit (for example, *Head Office*, *Slovenian Branch*). |
 | **Street** | Street and house number of the location. |
 | **Country** | Selected from the [**Countries**](../../Common/Management/Countries.md) code list. |
 | **Postal code** | Selected from the country’s [**Postal codes**](PostalCodes.md) list. |

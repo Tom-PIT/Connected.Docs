@@ -27,10 +27,10 @@ Shows the selected machine name and rating (if used).
 
 Displays the machine’s current operating condition:
 
-- **Running** – shows the cycle time (e.g., `45 s/kos`)  
+- **Running** – shows the cycle time (for example, `45 s/kos`)  
 - **Downtime** – shows the duration of the active downtime  
 
-The status label may vary depending on machine state (e.g., *Working*, *Stopped*).
+The status label may vary depending on machine state (for example, *Working*, *Stopped*).
 
 ## OEE indicator
 
@@ -45,9 +45,9 @@ Below the OEE indicator, the system shows the most recent or active production o
 This includes:
 
 ### Production order and operation  
-- Clickable [production order](../Documents/ProductionOrders.md) code (e.g., `PRO-24-000015`)  
+- Clickable [production order](../Documents/ProductionOrders.md) code (for example, `PRO-24-000015`)  
 - [Operation](../Management/Operations.md) description  
-- [Material](../../Assets/Materials/README.md) being produced (e.g., product or semi product)
+- [Material](../../Assets/Materials/README.md) being produced (for example, product or semi product)
 
 ### Incompliant  
 Shows defective pieces relative to total produced:

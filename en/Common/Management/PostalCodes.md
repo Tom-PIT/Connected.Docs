@@ -16,7 +16,7 @@ Postal codes appear as a tag under each **Country** entry. Click the tag to open
 
 | Field | Description |
 |-------|-------------|
-| **Number** | The postal code value (e.g., 1000). |
+| **Number** | The postal code value (for example, 1000). |
 | **Name** | The corresponding city, town, or postal area name. |
 | **Active** | Indicates whether the postal code is available for selection in addresses. |
 

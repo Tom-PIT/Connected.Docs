@@ -429,3 +429,6 @@ FodyWeavers.xsd
 
 # Local Claude memory copy (not for the repo)
 claude-memory/
+
+# Local writing style guide (not for the public repo)
+STYLE-GUIDE.md

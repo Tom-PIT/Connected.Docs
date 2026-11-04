@@ -151,7 +151,7 @@ Tags displayed on the original document:
 
 Click a reversal document to open in the list to review its details.
 
-Published reversals **cannot** be edited. Draft reversals can be edited, but keep in mind that they may affect the original document’s status (e.g., if you change the quantity, the original document may switch between *Reversal in progress*, *Partially reversed*, or *Fully reversed*).
+Published reversals **cannot** be edited. Draft reversals can be edited, but keep in mind that they may affect the original document’s status (for example, if you change the quantity, the original document may switch between *Reversal in progress*, *Partially reversed*, or *Fully reversed*).
 
 A reversed document contains:
 

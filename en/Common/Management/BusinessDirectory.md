@@ -63,7 +63,7 @@ Filters on the left side allow you to narrow results by **View**, **Relation**, 
 
 The **Type** field determines the tax status of the entity. The available values are:
 - **Liable for tax** – The entity is a VAT-registered business. VAT handling applies on sales/purchase documents according to configured tax rules.
-- **Not liable for tax** – The entity does not charge or reclaim VAT (e.g., small taxpayers or exempt entities). Documents typically use non-VAT tax rates or exemptions.
+- **Not liable for tax** – The entity does not charge or reclaim VAT (for example, small taxpayers or exempt entities). Documents typically use non-VAT tax rates or exemptions.
 - **Final customer** – A non-business end customer. VAT is typically included in prices and reported accordingly; business-to-consumer rules apply.
 
 ## Actions

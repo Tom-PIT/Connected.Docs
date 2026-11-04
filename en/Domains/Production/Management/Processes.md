@@ -42,7 +42,7 @@ To access this page, go to **Production / Management / Processes** in the [navig
 | [**Code**](../../../Common/UI/DocumentCodes.md) | Automatically generated process code (read-only). |
 | **Name** | The name of the process (mandatory). |
 | **Description** | A short explanation of what the process accomplishes. |
-| **Tags** | Tags used to group or categorize the process (e.g., **Production**, **Maintenance**). |
+| **Tags** | Tags used to group or categorize the process (for example, **Production**, **Maintenance**). |
 
 ### Version fields
 
@@ -62,7 +62,7 @@ The Processes list displays all configured processes. Each row includes the proc
 The left-side panel provides filters for:
 
 - **View**: Enabled / Disabled  
-- **Process tags** (e.g., Production, Maintenance)  
+- **Process tags** (for example, Production, Maintenance)  
 - **Input type**  
 - **Input**  
 - **Output type**  
@@ -83,7 +83,7 @@ The left-side panel provides filters for:
 3. Click **Add** to create the new process.
 
 > [!IMPORTANT]
-> Tags control where the process can be used. If you do not add a relevant tag (e.g., **Production** or **Maintenance**), the process will not be available when creating documents in that area (e.g., a [**Production order**](../Documents/ProductionOrders.md) or a [**Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md)).
+> Tags control where the process can be used. If you do not add a relevant tag (for example, **Production** or **Maintenance**), the process will not be available when creating documents in that area (for example, a [**Production order**](../Documents/ProductionOrders.md) or a [**Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md)).
 
 ## Edit a process
 
@@ -167,7 +167,7 @@ The **[Quality](QualityChecklists.md)** button opens the configuration page for 
 
 ## Delete a process
 
-A process can be deleted only if it is **not used by documents** (e.g., production or maintenance orders) and **not referenced by other processes**.  
+A process can be deleted only if it is **not used by documents** (for example, production or maintenance orders) and **not referenced by other processes**.  
 
 To delete a process, select it from the list and click **Delete**. 
 

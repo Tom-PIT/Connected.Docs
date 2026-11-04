@@ -16,7 +16,7 @@ To access this page, go to **Production / Management / Loss classification tags*
 
 | Field | Description |
 |-------|-------------|
-| **Name** | The name of the loss category (e.g., Cosmetic defect, Damage handling) (mandatory). |
+| **Name** | The name of the loss category (for example, Cosmetic defect, Damage handling) (mandatory). |
 
 ## List view
 

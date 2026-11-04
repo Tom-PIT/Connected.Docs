@@ -7,8 +7,8 @@
 
 The **Assets** domain contains all records related to the goods and services your company offers and prices, as well as the operational items used to build, deliver, or support them. It includes both **Assets** (commercial items you sell) and **Materials** (operational items used internally in production and logistics).
 
-- **Assets** are commercial items visible to customers (e.g., finished goods, service items, catalog entries). They define how offerings are priced, taxed, and presented in sales documents.
-- **Materials** are operational items used internally (e.g., raw materials, components, semi‑finished goods, packaging, repro materials). They define what exists in stock and how goods move through logistics and production.
+- **Assets** are commercial items visible to customers (for example, finished goods, service items, catalog entries). They define how offerings are priced, taxed, and presented in sales documents.
+- **Materials** are operational items used internally (for example, raw materials, components, semi‑finished goods, packaging, repro materials). They define what exists in stock and how goods move through logistics and production.
 
 For example, an **asset** might be a *Complete Laptop Set* sold as a packaged offering that includes a laptop, a carrying bag, and a mouse. The individual parts of that set—such as the **mouse**, the **laptop**, or even the internal **chips** inside the laptop—would be considered **materials**, because they are components used to build, assemble, or support the final commercial product. See the comparison [Assets vs. Materials](#assets-vs-materials) for more information.
 

@@ -31,7 +31,7 @@ Choose the numbering model and format for Logistics documents (Receives, Issues,
 | Field | Description |
 |-------|-------------|
 | **Document numbering model** | • **Incremental for each year:** sequence resets annually. <br> • **Incremental:** a global sequence that never resets.  |
-| **Document code format** | Pattern defining structure (e.g., PREFIX‑YEAR-NUMBER). |
+| **Document code format** | Pattern defining structure (for example, PREFIX‑YEAR-NUMBER). |
 
 
 

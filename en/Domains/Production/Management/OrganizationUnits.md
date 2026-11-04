@@ -22,7 +22,7 @@ To access Organization units, navigate to the **Production** or **Maintenance** 
 | **Name**  | Display name of the organization unit (mandatory). |
 | **Description** | Short description of the unit's responsibilities or scope. |
 | **Ordinal** | Integer to control ordering in lists. |
-| **Tags** | Optional tags for categorization (e.g., Production, Maintenance). |
+| **Tags** | Optional tags for categorization (for example, Production, Maintenance). |
 | **Parent** | Optional parent organization unit (hierarchy). |
 | **Article** | Optional link to a specific instruction article from the [**Knowledge base**](../../Knowledge/KnowledgeBase/KnowledgeBase.md). |
 | **Enabled** | Toggle to enable or disable the organization unit. Disabled units are not used in new workflows. |
@@ -58,7 +58,7 @@ Fill in the fields on the form:
 - **Name** (mandatory) — enter the unit name.
 - **Description** — optional description.
 - **Ordinal** — numeric order (default 0).
-- **Tags** — select zero or more tags (e.g., Production, Maintenance).
+- **Tags** — select zero or more tags (for example, Production, Maintenance).
 - **Parent** — optionally select a parent unit to build a hierarchy.
 - **Enabled** — check to enable the unit.
 

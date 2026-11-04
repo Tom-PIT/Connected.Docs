@@ -47,7 +47,7 @@ Use the **Search** bar to filter by resource name.
 
    - **Type** – Competence, Job position, or Resource  
    - **Resource** – The specific item for the chosen type  
-   - **Calculation type** – How time should be calculated (e.g., Dynamic)  
+   - **Calculation type** – How time should be calculated (for example, Dynamic)  
    - **Quantity** – Planned duration (d / h / min / s / ms)  
    - **Tags** – (Optional) classification tags  
    - **Optional** – Enable if the resource is not mandatory

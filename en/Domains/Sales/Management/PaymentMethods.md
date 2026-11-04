@@ -15,7 +15,7 @@ To access this page, go to **Sales / Management / Payment methods** in the [navi
 |-------|-------------|
 | **Code** | Short identifier for the payment method (mandatory). |
 | **Name** | Full display name of the payment method (mandatory). |
-| **Tags** | Optional categorization labels (e.g., *credit card*, *online payment*). |
+| **Tags** | Optional categorization labels (for example, *credit card*, *online payment*). |
 | **Image / Icon** | Optional logo uploaded to visually represent the method. |
 
 ## Management

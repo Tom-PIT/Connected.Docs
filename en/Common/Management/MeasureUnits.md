@@ -5,12 +5,12 @@
 
 # Measure units
 
-Measure units are how you count or measure items (for example: piece, kilogram, meter, liter). They make quantities consistent across documents, stock, and calculations and control rounding/formatting (e.g., 2 pcs, 1.75 kg, 3.000 m) across all domains.
+Measure units are how you count or measure items (for example: piece, kilogram, meter, liter). They make quantities consistent across documents, stock, and calculations and control rounding/formatting (for example, 2 pcs, 1.75 kg, 3.000 m) across all domains.
 
 Examples:
 - Finished products: Chairs in pieces (pcs), no decimals
-- Raw materials: Paint in liters with 2 decimals (e.g., 1.25 L)
-- Components: Cable in meters with 3 decimals (e.g., 12.375 m)
+- Raw materials: Paint in liters with 2 decimals (for example, 1.25 L)
+- Components: Cable in meters with 3 decimals (for example, 12.375 m)
 
 > [!TIP]
 > For a full demonstration, see the **[Measure units](https://www.youtube.com/watch?v=8swl8Vex6y4)** video tutorial.
