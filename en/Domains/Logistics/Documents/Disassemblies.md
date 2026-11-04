@@ -42,7 +42,7 @@ You receive furniture sets, for example a dining set (one table and four chairs)
 
 | Field | Description |
 |-------|-------------|
-| **[Set](../../Assets/Materials/Sets.md) (material)** | The combined material (e.g., a furniture set) you are disassembling (required). |
+| **[Set](../../Assets/Materials/Sets.md) (material)** | The combined material (for example, a furniture set) you are disassembling (required). |
 | **Quantity** | How many sets to disassemble (required). |
 | **Serial number** | Item serial number, if applicable. |
 | **Best before** | Best before date for perishable sets/components, if applicable. |

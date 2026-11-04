@@ -30,7 +30,7 @@ flowchart LR
   OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
   LD["Supply order<br>Maintenance order<br>Production order"]
   SO -.- LD -.- DN
-  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  classDef current fill:#cfe6f2,stroke:#0b5a80,stroke-width:3px,color:#0b1a33
   class SO current
 ```
 
@@ -107,7 +107,7 @@ Documents move through several possible states during their lifecycle:
 - **Draft** – The document is not yet published. All fields can be edited freely.
 - **Committed** – The document has been published. It cannot be deleted or freely modified.
     - **Available** – The document is valid and ready for further processing.
-    - **In completion** – The document is partially processed (e.g., partially delivered or received).
+    - **In completion** – The document is partially processed (for example, partially delivered or received).
     - **Completed** – All actions related to the document have been fully executed.
 
 ### List view

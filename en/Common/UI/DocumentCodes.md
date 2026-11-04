@@ -61,7 +61,7 @@ Example:
 - Codes are **assigned automatically** when a document is created.  
 - The sequence increases independently for each document type.  
 - Codes **cannot be edited** once created.  
-- Documents created from other documents (e.g., Offer → Sales order) always receive a **new code**.
+- Documents created from other documents (for example, Offer → Sales order) always receive a **new code**.
 
 ## Where the code appears
 

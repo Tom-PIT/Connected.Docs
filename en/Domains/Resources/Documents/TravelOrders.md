@@ -19,7 +19,7 @@ To access this page, go to **Resources / Documents / Travel Orders** in the [nav
 | **Departure** | Departure date and time. |
 | **Arrival** | Arrival date and time. |
 | **Reason** | Travel reason sourced from the from [**Travel order reasons**](../Management/TravelOrderReasons.md) code list. |
-| **Means of transport** | Transport used for the trip (e.g., own vehicle). |
+| **Means of transport** | Transport used for the trip (for example, own vehicle). |
 | **Vehicle** | Vehicle [resource](../../Resources/Management/Resources.md); only non-human resources tagged `vehicle` are available. |
 | **Company** | Company selected from the business directory. |
 | **Location** | Travel destination. |
@@ -33,7 +33,7 @@ To access this page, go to **Resources / Documents / Travel Orders** in the [nav
 |------|-------------|
 | **Destination** | Destination sourced from the [**Travel destinations**](../Management/TravelDestinations.md) code list. |
 | **Date** | Date of travel. |
-| **Price (per unit)** | Cost per distance unit (e.g., €/km). |
+| **Price (per unit)** | Cost per distance unit (for example, €/km). |
 | **Distance** | Travel distance. |
 | **Return trip** | Indicates a return trip. |
 | **Price total** | Automatically calculated mileage cost (read-only). |

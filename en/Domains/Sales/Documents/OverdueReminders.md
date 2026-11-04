@@ -26,7 +26,7 @@ A typical flow:
 | **Title** | The document title. Defaults to "Overdue reminder". |
 | **Customer** | The customer to whom the reminder is sent, selected from the [**Business directory**](../../../Common/Management/BusinessDirectory.md) (mandatory). |
 | **Document date** | Date when the reminder is created. |
-| **Reminder cost** | Fixed cost for sending the reminder (e.g., administrative fee). Can be applied per document or per detail. |
+| **Reminder cost** | Fixed cost for sending the reminder (for example, administrative fee). Can be applied per document or per detail. |
 | **Details** | List of overdue items linked to [**Issued invoices**](IssuedInvoices.md) with amounts and optional interest. |
 | [**Issued invoice**](IssuedInvoices.md) | The overdue invoice being reminded. Selecting it automatically loads the outstanding amount. |
 | **Interest** | Interest value to be charged for the overdue period. Needs to be entered manually. |

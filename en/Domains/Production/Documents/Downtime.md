@@ -6,7 +6,7 @@
 
 # Downtime
 
-The **Downtime** activity records interruptions during an operation (e.g., waiting for materials, machine issues, changeovers). It helps track time losses and improves visibility for analysis.
+The **Downtime** activity records interruptions during an operation (for example, waiting for materials, machine issues, changeovers). It helps track time losses and improves visibility for analysis.
 
 Open **Downtime** from the [**Execution**](Execution.md) screen via the activity selection menu (tap the [action button](../../../Common/UI/ActionButton.md), then choose **Downtime**).
 

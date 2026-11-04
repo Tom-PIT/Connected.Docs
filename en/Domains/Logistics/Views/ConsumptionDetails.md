@@ -77,9 +77,9 @@ The **Consumption details** view is useful for:
 This view is **analytical only**. It does not allow creating, editing, or deleting documents.
 
 > [!NOTE]
-> - Quantities are displayed in the material’s base unit of measure (e.g. pcs, meters).  
+> - Quantities are displayed in the material’s base unit of measure (for example pcs, meters).  
 > - Only materials that were actually consumed in production appear in the list.  
-> - Issued materials (e.g. sales deliveries) are **not** shown here; this view focuses exclusively on **production consumption**.
+> - Issued materials (for example sales deliveries) are **not** shown here; this view focuses exclusively on **production consumption**.
 
 ## Related views
 

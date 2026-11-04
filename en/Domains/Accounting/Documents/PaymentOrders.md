@@ -25,7 +25,7 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [navi
 | **Due date**        | Date by which the payment should be executed (mandatory). |
 | **Payment date**    | Date the payment was executed.                            |
 | **Amount**          | Payment amount.                                           |
-| [**Currency**](../../../Common/Management/Currencies.md) | Currency of the payment (e.g. Euro).                      |
+| [**Currency**](../../../Common/Management/Currencies.md) | Currency of the payment (for example Euro).                      |
 | **Purpose code**    | Code describing the payment purpose (mandatory).          |
 | **Payment purpose** | Textual description of the payment purpose (mandatory).   |
 
@@ -47,7 +47,7 @@ To access this screen, go to **Accounting / Bank / Payment orders** in the [navi
 
 | Field            | Description                                             |
 | ---------------- | ------------------------------------------------------- |
-| **Type**             | Recipient type (e.g. Company).                          |
+| **Type**             | Recipient type (for example Company).                          |
 | [**Recipient**](../../../Common/Management/BusinessDirectory.md) | Business receiving the payment (mandatory).             |
 | [**Bank account**](../../../Common/Management/BankAccounts.md) | Recipient bank account (mandatory).                     |
 | **Reference type**   | Reference type required by the recipient (mandatory).   |

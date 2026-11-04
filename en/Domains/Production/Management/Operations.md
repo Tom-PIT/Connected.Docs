@@ -28,7 +28,7 @@ To access operations:
 | **Ordinal** | Defines the order of execution within the process version. |
 | **Start condition** | Determines when the operation can start:<br>• Undefined<br>• Predecessor activated<br>• Predecessor completed<br>• Anytime |
 | **Activation sub-status** | Initial state of the operation: **Running** or **Stopped**. |
-| **Automatic completion condition** | Defines if the operation completes automatically (e.g., *After execution time*). |
+| **Automatic completion condition** | Defines if the operation completes automatically (for example, *After execution time*). |
 | **Time impact** | Indicates whether the operation’s duration affects the total process duration:<br>• Undefined<br>• Include<br>• Exclude |
 | **Parent** | Allows nesting an operation under another one. |
 | **Default organization unit** | Assigns the organizational unit responsible for the operation. |
@@ -105,7 +105,7 @@ You can access these from the operation entry:
 ## Delete an operation
 
 Operations **can be deleted** on the Edit page, but only if they are:
-- Not referenced by other operations (e.g., as a parent)  
+- Not referenced by other operations (for example, as a parent)  
 - Not used in active production orders  
 
 To delete an operation click an operation in the list and select **Delete**. If the operation is eligible for deletion, confirm the action to remove it from the process version.

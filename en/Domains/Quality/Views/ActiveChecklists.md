@@ -17,11 +17,11 @@ This view provides a real-time list of all checklists that are currently active 
 
 | Field | Description |
 |-------|-------------|
-| **Checklist** | Code and name of the checklist being executed; shows current phase via status chip (e.g., On start). |
+| **Checklist** | Code and name of the checklist being executed; shows current phase via status chip (for example, On start). |
 | **Document** | Source document type and code: [Production order](../../Production/Documents/ProductionOrders.md) or [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md). |
 | **Operation** | Operation code and name attached to the checklist execution. |
 | **Product** | Product name and code related to the operation (production contexts). |
-| [**Organization unit**](../../Production/Management/OrganizationUnits.md) | Unit responsible for execution (e.g., Assembly, Electrical maintenance). |
+| [**Organization unit**](../../Production/Management/OrganizationUnits.md) | Unit responsible for execution (for example, Assembly, Electrical maintenance). |
 | **Equipment** | Appears for maintenance-linked checklists; equipment being maintained/checked. |
 
 

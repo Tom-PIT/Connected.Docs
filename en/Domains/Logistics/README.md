@@ -30,7 +30,7 @@ The domain is organized into several functional areas:
 
 ## Dashboard
 
-The [**Dashboard**](Views/Dashboard.md) provides a high-level overview of logistics performance and warehouse activity. It presents operational indicators (e.g., inbound/outbound counts, open inventories, discrepancies) that help users understand current workload, stock movements, and active warehouse processes.
+The [**Dashboard**](Views/Dashboard.md) provides a high-level overview of logistics performance and warehouse activity. It presents operational indicators (for example, inbound/outbound counts, open inventories, discrepancies) that help users understand current workload, stock movements, and active warehouse processes.
 ![Logistics Dashboard](Images/Dashboard.png "Logistics Dashboard")
 
 The dashboard serves as the entry point for warehouse supervisors and operators who need immediate insight into the state of logistics operations.
@@ -95,7 +95,7 @@ Available code lists and configuration screens:
 - **[Warehouses](Management/Warehouses.md)** – Definitions of physical warehouses or distribution sites.
 - **[Countries](../../Common/Management/Countries.md)** – Geographic data supporting warehouse and partner records.
 - **[Locations](Management/Locations.md)** – Storage positions inside warehouses (aisles, racks, bins).
-- **[Stock boundaries](Management/StockBoundaries.md)** – Logical constraints and special handling rules (e.g., quarantine, temperature) for selected materials or locations.
+- **[Stock boundaries](Management/StockBoundaries.md)** – Logical constraints and special handling rules (for example, quarantine, temperature) for selected materials or locations.
 - **[Measure units](../../Common/Management/MeasureUnits.md)** – Unified measurement units used across logistics documents.
 - **[Material analysis setup](Management/MaterialAnalysisManagement.md)** – Configuration supporting material inspection or validation processes.
 

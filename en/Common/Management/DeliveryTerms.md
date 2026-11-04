@@ -68,4 +68,4 @@ To delete a delivery term, follow these steps:
 3. Confirm the deletion in the dialog.
 
 > [!NOTE]
-> A delivery term can be deleted only if it is not referenced in dependent records (e.g., sales or purchase orders).
+> A delivery term can be deleted only if it is not referenced in dependent records (for example, sales or purchase orders).

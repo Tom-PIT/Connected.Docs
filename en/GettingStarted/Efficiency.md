@@ -92,7 +92,7 @@ flowchart LR
 > [!TIP]
 >
 > - Keep data entry simple (preset tags, defaults) to improve operator adoption.
-> - Review KPIs regularly (i.e., weekly); act on one improvement at a time.
+> - Review KPIs regularly (that is, weekly); act on one improvement at a time.
 > - Revisit tags quarterly to merge duplicates and keep reasons actionable.
 
 ## Example: Improving efficiency in a packaging line

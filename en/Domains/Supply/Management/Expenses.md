@@ -46,8 +46,8 @@ To access this code list, go to **Supply / Management / Expenses** in the [navig
 | Field | Description |
 |-------|-------------|
 | [**Account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Ledger account used for postings generated from this expense. |
-| **Tax entry type** | Tax handling classification for the expense (e.g., Stock, Standard expense, Real estate). |
-| **Asset type** | Nature of the purchase used for reporting (e.g., Goods, Services). |
+| **Tax entry type** | Tax handling classification for the expense (for example, Stock, Standard expense, Real estate). |
+| **Asset type** | Nature of the purchase used for reporting (for example, Goods, Services). |
 | **Deduct tax** | Indicates whether input tax is deductible for this expense. |
 | **Self taxing** | Indicates whether reverse charge/self-taxing applies. |
 | **Ignore for financial stock** | The expense is recorded but not included in the financial value of stock when processing invoices. |

@@ -5,7 +5,7 @@
 
 # Material analysis management
 
-Define the analyses or tests that can be performed on materials (e.g., chemical, visual, dimensional checks). These entries are reused wherever a material analysis must be selected.
+Define the analyses or tests that can be performed on materials (for example, chemical, visual, dimensional checks). These entries are reused wherever a material analysis must be selected.
 
 > [!NOTE]
 > New records are enabled by default so they can be used immediately.

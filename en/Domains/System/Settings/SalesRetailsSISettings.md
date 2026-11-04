@@ -16,7 +16,7 @@ To access these settings, navigate to **System / Configuration/ Sales.Retail.SI 
 
 > [!NOTE]
 > The **SI** suffix indicates that these settings apply to **Slovenia**.  
-> If another country is selected (e.g. Croatia), the available settings may differ according to local fiscalization requirements.
+> If another country is selected (for example Croatia), the available settings may differ according to local fiscalization requirements.
 
 ## Overview
 

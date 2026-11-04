@@ -25,7 +25,7 @@ flowchart LR
   OF[Offer] --> SO[Sales order] --> DN["Delivery note<br>+ Issue"] --> II[Issued invoice] --> PA[Payments]
   LD["Supply order<br>Maintenance order<br>Production order"]
   SO -.- LD -.- DN
-  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  classDef current fill:#cfe6f2,stroke:#0b5a80,stroke-width:3px,color:#0b1a33
   class DN current
 ```
 
@@ -65,7 +65,7 @@ Delivery notes can also be copied, linked to existing issues or projects, or use
 |--------|-------------|
 | **[Asset](../../Assets/Assets/Assets.md)** | Item or service being delivered. |
 | **Delivery date** | Delivery date for this specific item. |
-| **Issued quantity** | Shows how many units have already been issued (e.g., *0/3* before issue, *3/3* after full issue). |
+| **Issued quantity** | Shows how many units have already been issued (for example, *0/3* before issue, *3/3* after full issue). |
 </details>
 
 ## Management

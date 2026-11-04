@@ -28,6 +28,6 @@ These code lists support the management and definition of the four primary mater
 
 - **[Packaging](Packaging.md)** – Defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units.
 - **[Import materials](ImportMaterials.md)** – Allows bulk importing of materials using a spreadsheet, useful when creating or updating multiple records at once.
-- **[Alternative measure units](AlternativeMeasureUnits.md)** – Additional measurement units that extend a material’s base unit (e.g., pieces, kilograms, square meters), including conversion settings.
+- **[Alternative measure units](AlternativeMeasureUnits.md)** – Additional measurement units that extend a material’s base unit (for example, pieces, kilograms, square meters), including conversion settings.
 - **[Material price lists](MaterialPriceLists.md)** – Defines procurement prices used for purchasing and internal valuation.
 - **[Sets](Sets.md)** – Predefined bundles of materials grouped together for easier selection in logistics or production tasks.

@@ -9,8 +9,8 @@ An **Asset** represents an item or service that can be *sold* or *invoiced* with
 
 Assets may represent:
 
-- **Goods** (e.g., a finished product offered to customers)  
-- **Services** (e.g., installation, transport, consulting)
+- **Goods** (for example, a finished product offered to customers)  
+- **Services** (for example, installation, transport, consulting)
 
 Assets do **not** participate in stock movements. Instead, they define sales-ready items with their own price, tax rate, and properties. An asset may optionally reference materials when the sold product is also tracked in stock.
 
@@ -42,7 +42,7 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 |-------|-------------|
 | [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
 | [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
-| **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
+| **Mass converter** | Factor used to convert the base measure unit to mass (for example, kg). Applied in Intrastat or analytics when weight is required. |
 | **Domestic revenue account** | Revenue account used for domestic sales. |
 | **Revenue account in Europe markets** | Revenue account used for sales within EU markets. |
 | **Revenue account in non-Europe markets** | Revenue account used for sales outside EU markets. |
@@ -56,9 +56,9 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Co
 | Field | Description |
 |-------|-------------|
 | **Description** | Additional text explaining the asset. |
-| **Details** | List of asset components (e.g., linked materials or quantities). |
+| **Details** | List of asset components (for example, linked materials or quantities). |
 | **Add new asset detail** | Action to add a new asset detail. |
-| **Type** | Type of [material](../README.md) of the detail (e.g., Products). |
+| **Type** | Type of [material](../README.md) of the detail (for example, Products). |
 | **Entity** | Selected material or item to link as part of the asset. |
 | **Quantity** | Quantity of the linked entity. |
 
@@ -97,7 +97,7 @@ Optional fields such as **Tax rate**, **Item price net**, **EAN**, **Tags**, and
 Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
 
 > [!WARNING]
-> Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
+> Enter correct accounts in the **Ledger** section (for example, stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
 #### Details section
 
@@ -105,7 +105,7 @@ After saving the asset, you may add **asset details**. These allow linking the a
 
 Click the **Add asset detail** button to open the form for adding a new asset detail. Each detail includes:
 
-- **Type** (e.g., Products)  
+- **Type** (for example, Products)  
 - **Entity** (selected material or item)  
 - **Quantity**
 

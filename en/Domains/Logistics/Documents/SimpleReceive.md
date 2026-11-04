@@ -33,7 +33,7 @@ Fields include:
 
 - **Warehouse** — Where the materials will be received  
 - **Vendor** — Automatically suggested if linked to the supply order  
-- **Supply order** — Enter or scan the supply order number (e.g. *SOR-2025-00000018*)  
+- **Supply order** — Enter or scan the supply order number (for example *SOR-2025-00000018*)  
 
 Click **Next** to continue.
 
@@ -45,7 +45,7 @@ In this step, the system displays all **expected materials and quantities** from
 
 The user must now **scan or manually enter the packaging code** (EAN / barcode) of the item being received.
 
-- If the scanned code matches **multiple supply order lines** (e.g., same material across different batches or orders), the system displays **all matching items**.
+- If the scanned code matches **multiple supply order lines** (for example, same material across different batches or orders), the system displays **all matching items**.
 - The user must **select the correct line** that corresponds to the received packaging.
 
 Once the correct item is selected, the workflow automatically advances to **Step 3 — Edit detail**.

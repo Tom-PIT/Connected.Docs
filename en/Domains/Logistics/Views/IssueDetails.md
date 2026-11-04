@@ -74,7 +74,7 @@ The **Issue details** view is useful for:
 This view is **analytical only**. It does not allow creating, editing, or deleting documents.
 
 > [!NOTE]
-> - Quantities are displayed in the item’s base unit of measure (e.g. pcs, meters).  
-> - This view focuses on **stock issues** (e.g. sales deliveries, internal issues).  
+> - Quantities are displayed in the item’s base unit of measure (for example pcs, meters).  
+> - This view focuses on **stock issues** (for example sales deliveries, internal issues).  
 > - Production-related material usage is shown in **[Consumption details](ConsumptionDetails.md)**, not here.
 

@@ -15,7 +15,7 @@ Typical examples include:
 - technical documentation  
 - compliance and regulatory files  
 
-Unlike operational documents (e.g. production orders, invoices), the Documents domain is intended for **uploaded files** that support business processes and ensure traceability and compliance.
+Unlike operational documents (for example production orders, invoices), the Documents domain is intended for **uploaded files** that support business processes and ensure traceability and compliance.
 
 To access this domain, navigate to **Documents** from the main sitemap.
 
@@ -30,6 +30,6 @@ To access this domain, navigate to **Documents** from the main sitemap.
 
 The domain is structured around **containers**, which act as top-level repositories for grouping documents.
 
-- **[Containers](Documents/Containers.md)** – define logical document groups (e.g. Certifications, Contracts, Technical documentation).
+- **[Containers](Documents/Containers.md)** – define logical document groups (for example Certifications, Contracts, Technical documentation).
 
 Each container contains folders and documents organized in a tree structure.
