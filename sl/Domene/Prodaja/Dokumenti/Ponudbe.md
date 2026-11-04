@@ -24,7 +24,7 @@ flowchart LR
   OF[Ponudba] --> SO[Naročilo stranke] --> DN["Dobavnica<br>+ Izdajnica"] --> II[Izdani račun] --> PA[Plačilo]
   LD["Nabavni nalog<br>Vzdrževalni nalog<br>Proizvodni nalog"]
   SO -.- LD -.- DN
-  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  classDef current fill:#cfe6f2,stroke:#0b5a80,stroke-width:3px,color:#0b1a33
   class OF current
 ```
 

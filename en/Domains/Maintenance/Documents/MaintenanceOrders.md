@@ -17,7 +17,12 @@ flowchart LR
   end
   MS -.-> P[Pending]
   RM -.-> P
-  P --> A[Active] --> C[Closed]
+  P --> ACT
+  subgraph ACT [Active]
+    EX[Execution]
+  end
+  EX -->|"All operations<br>completed"| C[Closed]
+  ACT -.->|"Complete maintenance order"| C
   classDef source stroke-dasharray:5 4
   class MS,RM source
 ```
