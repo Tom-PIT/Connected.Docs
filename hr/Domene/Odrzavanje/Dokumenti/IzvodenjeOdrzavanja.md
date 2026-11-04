@@ -18,6 +18,20 @@ Za pristup ovoj stranici otvorite **Održavanje / Izvođenje** u [navigaciji](..
 >
 > Za rad s nalozima za održavanje druge organizacijske jedinice promijenite odabranu organizacijsku jedinicu.
 
+Svaka operacija prolazi isti ciklus: pokrenete je, po potrebi pauzirate i zaustavite kad je posao gotov. Kad zaustavite zadnju operaciju, nalog za održavanje prelazi u status **Zatvoren**.
+
+```mermaid
+flowchart LR
+  A[Odaberite operaciju] --> B[Pokreni] --> C[Zaustavi] --> D{Ima li još operacija?}
+  D -->|Da| A
+  D -->|Ne| E[Zatvoren]
+  B -.- ACT
+  subgraph ACT [Aktivnosti]
+    direction TB
+    I[Ulazi] --- R[Zapisnik] --- Q[Kvaliteta] --- W[Rad] --- U[Upute]
+  end
+```
+
 ## Pregled sučelja za izvođenje
 
 Zaslon **Izvođenje održavanja** sadrži sve kontrole i podatke potrebne za izvođenje tekuće operacije održavanja.
