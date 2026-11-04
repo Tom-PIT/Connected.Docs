@@ -26,7 +26,14 @@ Narudžbe kupca predstavljaju jedan od glavnih koraka prodajnog procesa:
 
 Nakon što je narudžba u potpunosti izvršena i fakturirana, prelazi u završno stanje.
 
-![Narudžbe kupca u prodajnom procesu](../Images/SalesOrderDiagramHR.svg)
+```mermaid
+flowchart LR
+  OF[Ponuda] --> SO[Narudžba kupca] --> DN["Otpremnica<br>+ izdatnica"] --> II[Izlazni račun] --> PA[Plaćanja]
+  LD["Narudžbenica dobavljača<br>Nalog za održavanje<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class SO current
+```
 
 > [!NOTE]
 > Vaša tvrtka može koristiti sve ili samo pojedine korake ovog procesa, ovisno o vrsti poslovanja (primjerice, uslužne tvrtke možda neće koristiti otpremnice).

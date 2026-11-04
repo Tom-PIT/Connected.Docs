@@ -18,7 +18,14 @@ Izlazni računi obično predstavljaju završni korak prodajnog procesa:
 3. Roba se isporučuje putem **[Otpremnica](Otpremnice.md)** i povezanih izdatnica.
 4. Na kraju se kreira izlazni račun (najčešće iz otpremnice ili narudžbe kupca) i šalje kupcu na plaćanje.
 
-![Prodajni proces](../Images/IssuedInvoicesDiagramHR.svg "Prodajni proces")
+```mermaid
+flowchart LR
+  OF[Ponuda] --> SO[Narudžba kupca] --> DN["Otpremnica<br>+ izdatnica"] --> II[Izlazni račun] --> PA[Plaćanja]
+  LD["Narudžbenica dobavljača<br>Nalog za održavanje<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class II current
+```
 
 Izlazni računi mogu se po potrebi kreirati i ručno kao samostalni dokumenti.
 

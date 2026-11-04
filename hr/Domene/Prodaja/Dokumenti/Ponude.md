@@ -19,7 +19,14 @@ Tipičan tijek rada:
 3. Iz narudžbe kupca nastavite daljnji poslovni proces — proizvodnju, nabavu, isporuku itd.
 4. Na kraju izradite [**Otpremnicu**](Otpremnice.md), a zatim i [**Izdani račun**](IzlazniRacuni.md).
 
-![Ponude u prodajnom procesu](../Images/OfferDiagramHR.svg "Ponude u prodajnom procesu")
+```mermaid
+flowchart LR
+  OF[Ponuda] --> SO[Narudžba kupca] --> DN["Otpremnica<br>+ izdatnica"] --> II[Izlazni račun] --> PA[Plaćanja]
+  LD["Narudžbenica dobavljača<br>Nalog za održavanje<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class OF current
+```
 
 ## Shema
 

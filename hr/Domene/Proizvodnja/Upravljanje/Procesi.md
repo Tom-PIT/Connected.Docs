@@ -14,7 +14,20 @@ Ova stranica omogućuje stvaranje i upravljanje procesima, njihovim verzijama i 
 
 Proces može sadržavati jednu ili više **verzija**, primjerice različite verzije za različite veličine proizvoda ili varijante održavanja. Svaka verzija sadrži niz [**operacija**](Operacije.md) koje definiraju ulaze, resurse (ljudske i fizičke), izlaze i zahtjeve kvalitete.
 
-![Dijagram procesa](../Images/ProcessDiagramHR.svg "Dijagram procesa")
+```mermaid
+flowchart TB
+  P[Proces] --> V1[Verzija 1]
+  P --> V2[Verzija 2]
+  P --> VN[Verzija N]
+  V2 --> OP[Operacije]
+  V2 --> QV["Kvaliteta<br>(verzija)"]
+  OP --> IN[Unosi]
+  OP --> HR[Ljudski resursi]
+  OP --> NH[Neljudski resursi]
+  OP --> OU[Izlazi]
+  OP --> QO["Kvaliteta<br>(operacija)"]
+  OP --> EX[Troškovi]
+```
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Upravljanje / Procesi** u [navigaciji](../../../Zajednicko/UI/Navigacija.md). Procesi su zajednički te mogu biti označeni za korištenje u proizvodnji ili održavanju.
 

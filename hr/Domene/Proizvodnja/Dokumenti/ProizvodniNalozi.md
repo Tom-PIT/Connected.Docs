@@ -8,7 +8,15 @@
 Proizvodni nalozi definiraju rad potreban za proizvodnju proizvoda prema odabranom procesu i verziji.  
 Prolaze kroz životni ciklus **Nacrt → U pripremi → Aktivan → Zatvoren** i mogu sadržavati više operacija, resursa, unosa, izlaza i kontrola kvalitete, ovisno o dodijeljenom procesu.
 
-![Životni ciklus proizvodnog naloga](../Images/ProductionOrderLifecycleHR.svg "Životni ciklus proizvodnog naloga")
+```mermaid
+flowchart LR
+    D[Nacrt] --> P[U pripremi] --> A[Aktivan] --> C[Zatvoren]
+    subgraph X [Modul izvedbe]
+        E[Izvedba]
+    end
+    A -.-> E
+    E -.-> C
+```
 
 > [!NOTE]
 > **Preduvjeti**  

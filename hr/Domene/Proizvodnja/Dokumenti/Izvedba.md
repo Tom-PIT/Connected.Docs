@@ -9,7 +9,12 @@ Modul **Izvedba** koriste proizvodni radnici za izvođenje i evidentiranje rada 
 
 Većina proizvodnih radnika nakon prijave automatski se preusmjerava na prikaz **Izvedba**.
 
-![Tijek izvođenja proizvodnje](../Images/ProductionExecutionFlowHR.svg "Tijek izvođenja proizvodnje")
+```mermaid
+flowchart LR
+  PO[Proizvodni nalog] --> EX[Izvedba]
+  EX --> ACT["Potrošeno, Rad, Kvaliteta<br>Zastoj, Loši komadi, Upute"]
+  ACT --> CE[Dovršetak izvođenja] --> PC[Proizvodni nalog zatvoren]
+```
 
 > [!TIP]
 > Za potpuni prikaz funkcionalnosti pogledajte video vodič **[Executions](https://www.youtube.com/watch?v=qf0Ftar4hAg&list=PLH4LYaWds6h8kspUco0t_MaFPNbL0zj1D&index=28)**.

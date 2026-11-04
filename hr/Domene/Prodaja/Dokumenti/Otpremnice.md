@@ -20,7 +20,14 @@ Otpremnice predstavljaju poveznicu između komercijalnog i skladišnog procesa:
 3. Kada je otpremnica spremna, izrađuje se povezana [**Izdatnica**](../../Logistika/Dokumenti/Izdatnica.md) (potpuna ili djelomična isporuka).
 4. Nakon isporuke proces se nastavlja izradom [**Izlaznog računa**](IzlazniRacuni.md).
 
-![Otpremnice u prodajnom procesu](../Images/DeliveryNotesDiagramHR.svg "Otpremnice u prodajnom procesu")
+```mermaid
+flowchart LR
+  OF[Ponuda] --> SO[Narudžba kupca] --> DN["Otpremnica<br>+ izdatnica"] --> II[Izlazni račun] --> PA[Plaćanja]
+  LD["Narudžbenica dobavljača<br>Nalog za održavanje<br>Proizvodni nalog"]
+  SO -.- LD -.- DN
+  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  class DN current
+```
 
 Otpremnice se također mogu kopirati, povezati s postojećim izdatnicama ili projektima te koristiti za pokretanje proizvodnih ili naloga za održavanje.
 
