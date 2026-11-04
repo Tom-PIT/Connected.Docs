@@ -94,7 +94,7 @@ A committed proforma invoice is informational and does not affect financial or s
 
 | Field | Description |
 |--------|-------------|
-| **Ledger - Account revenue / expense** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the line amount (e.g., sales revenue or purchase expense). |
+| **Ledger - Account revenue / expense** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the line amount (for example, sales revenue or purchase expense). |
 | **Ledger - Account tax** | General [ledger account](../../Accounting/Management/Ledger/ChartOfAccounts.md) used to post the tax amount associated with the document line. |
 | **[Intrastat – Tariff](../../Accounting/Management/Intrastat/Tariffs.md)** | Commodity code used for Intrastat reporting. |
 | **Intrastat – Country of origin** | Country where the goods originate. |

@@ -64,7 +64,7 @@ For this example, create a version called **Standard version**.
 
    * **Name**
    * **Description**
-   * **Article (optional)**: Use this field to link the process to a specific [knowledge base article](../../Knowledge/KnowledgeBase/KnowledgeBase.md), e.g. assembly instructions.
+   * **Article (optional)**: Use this field to link the process to a specific [knowledge base article](../../Knowledge/KnowledgeBase/KnowledgeBase.md), for example assembly instructions.
 
 5. Click **Add**.
 

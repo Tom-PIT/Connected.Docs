@@ -41,7 +41,7 @@ The filters on the left allow you to narrow down the report:
 
 - **Supply date** — Filter orders within a specific date range.
 - **Vendor** — Show order data for one or more selected suppliers.
-- **Product** — Show order data for materials destined for specific products (e.g., **Pine wood board** for **Pine wood table**).
+- **Product** — Show order data for materials destined for specific products (for example, **Pine wood board** for **Pine wood table**).
 
 Filters can be combined to focus on very specific procurement scenarios.
 

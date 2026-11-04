@@ -13,7 +13,7 @@ To access this page, go to **Customer Support / Management / Job titles** in the
 
 | Field | Description |
 |-------|-------------|
-| **Name** | The job title or role (e.g., *Account Manager*, *Director*) (required). |
+| **Name** | The job title or role (for example, *Account Manager*, *Director*) (required). |
 | **Active** | Indicates whether the job title is available for selection when creating contacts. |
 
 ## List view

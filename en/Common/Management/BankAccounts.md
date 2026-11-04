@@ -64,5 +64,5 @@ To delete a bank account, follow these steps:
 3. Select an account by clicking its number on the list. 
 4. Click the **Delete** button. A confirmation dialog will appear, if confirmed the account will be deleted.
 
-A bank account can be deleted in the Edit page, but only if it is not referenced in other documents (e.g., issued invoices or payments).
+A bank account can be deleted in the Edit page, but only if it is not referenced in other documents (for example, issued invoices or payments).
 

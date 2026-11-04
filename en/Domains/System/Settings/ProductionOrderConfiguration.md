@@ -29,7 +29,7 @@ The **Production order** section defines how production orders behave when they 
 
 Defines the default status assigned to a production order when it is created.
 
-New production orders have a **Draft** status by default when first create. Select a different status when you require new production orders to have a different status, e.g. *Active*
+New production orders have a **Draft** status by default when first create. Select a different status when you require new production orders to have a different status, for example *Active*
 
 ### Parent threshold
 

@@ -13,6 +13,20 @@ Za dostop do strani pojdite na **Vzdrževanje / Izvedba** v [navigaciji](../../.
 >
 > Če želite delati z vzdrževalnimi nalogi druge organizacijske enote, spremenite izbrano organizacijsko enoto.
 
+Vsaka operacija poteka po istem ciklu: začnete jo, po potrebi premorete in jo ustavite, ko je delo opravljeno. Ko ustavite zadnjo operacijo, vzdrževalni nalog preide v stanje **Zaprt**.
+
+```mermaid
+flowchart LR
+  A[Izberite operacijo] --> B[Začni] --> C[Ustavi] --> D{Ali so še operacije?}
+  D -->|Da| A
+  D -->|Ne| E[Zaprt]
+  B -.- ACT
+  subgraph ACT [Aktivnosti]
+    direction TB
+    I[Vhodi] --- R[Zapisnik] --- Q[Kvaliteta] --- W[Delo] --- U[Navodila]
+  end
+```
+
 ## Pregled zaslona izvedbe
 
 Zaslon **Izvedba vzdrževanja** prikazuje vse kontrole in informacije, potrebne za izvajanje trenutne vzdrževalne operacije.

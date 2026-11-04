@@ -20,7 +20,7 @@ The GS1 parser configuration defines how the system interprets GS1 barcodes when
 Specifies the separator character used to split GS1 data elements (Application Identifiers) within a scanned barcode. This character is used to detect the end of variable-length fields (such as batch/lot number).
 
 > [!IMPORTANT]
-> The value must be entered in Unicode (hexadecimal) format (e.g. **0x001D**).
+> The value must be entered in Unicode (hexadecimal) format (for example **0x001D**).
 
 To enter GS1 identification details go to **Warehouse / Settings / GS1 settings** in the sidebar menu (see below).
 
@@ -32,7 +32,7 @@ Warehouse settings allow you to configure key application parameters, including 
 
 ### Email list
 
-Use this section to define email-related configurations (e.g. recipients for notifications or system messages).
+Use this section to define email-related configurations (for example recipients for notifications or system messages).
 
 ### GS1 Settings
 

@@ -22,7 +22,7 @@ A status color is shown for each checklist:
 - Red — something is missing or not confirmed
 
 > [!NOTE]
-> If a checklist point cannot be completed (e.g., missing material), complete the available steps, then use **Repeat** to run the checklist again when the condition is met.
+> If a checklist point cannot be completed (for example, missing material), complete the available steps, then use **Repeat** to run the checklist again when the condition is met.
 
 
 ## Repeat a checklist

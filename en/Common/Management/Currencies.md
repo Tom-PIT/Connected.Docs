@@ -17,9 +17,9 @@ This page is available in the **Sales** and **Supply** domains, to access it go 
 
 | Field | Description |
 |-------|-------------|
-| **Name** | Full name of the currency, e.g., *Euro*, *United States Dollar* (mandatory). |
-| **Code** | International three-letter currency code, e.g., *EUR*, *USD* (mandatory). |
-| **Symbol** | Currency symbol used in totals and price displays, e.g., *€*, *$* (mandatory). |
+| **Name** | Full name of the currency, for example, *Euro*, *United States Dollar* (mandatory). |
+| **Code** | International three-letter currency code, for example, *EUR*, *USD* (mandatory). |
+| **Symbol** | Currency symbol used in totals and price displays, for example, *€*, *$* (mandatory). |
 | **Symbol position** | Whether the symbol appears **before** or **after** the amount (mandatory). |
 | **LCID** | Locale identifier used to standardize number and currency formatting. |
 | **Active** | Indicates whether the currency is currently available for use in the system. |

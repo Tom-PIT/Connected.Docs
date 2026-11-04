@@ -29,7 +29,7 @@ The list can be searched using the search field in the top-right corner.
 Typical examples include:
 - Direct sales or purchases
 - Returns of goods
-- Replacement of goods (e.g. under warranty)
+- Replacement of goods (for example under warranty)
 - Financial leasing
 - Processing under contract
 

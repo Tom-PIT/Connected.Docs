@@ -50,4 +50,4 @@ Click **Save** to apply changes. Updated types are immediately reflected in all 
 Click on a sick leave type in the list to open the edit view, then click **Delete** and confirm the action.
 
 > [!NOTE]
->Deletion may be restricted if the type is referenced by existing records (e.g., time logs, attendance, or leave entries). In such cases, disable the type instead of deleting it to preserve historical consistency.
+>Deletion may be restricted if the type is referenced by existing records (for example, time logs, attendance, or leave entries). In such cases, disable the type instead of deleting it to preserve historical consistency.

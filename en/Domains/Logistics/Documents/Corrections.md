@@ -5,7 +5,7 @@
 
 # Corrections
 
-Corrections are logistics documents used to adjust inventory when physical stock does not match system records (e.g., counting differences, wrong material, or labeling errors). Publishing a correction updates warehouse balances to reflect the actual quantities and properties of materials.
+Corrections are logistics documents used to adjust inventory when physical stock does not match system records (for example, counting differences, wrong material, or labeling errors). Publishing a correction updates warehouse balances to reflect the actual quantities and properties of materials.
 
 Use Corrections to:
 - Increase or decrease on-hand quantity for specific serials or items
@@ -37,8 +37,8 @@ Each detail describes the material and the correction to apply.
 
 | Field | Description |
 |-------|-------------|
-| **Material type** | Item category, e.g., [Products](../../Assets/Materials/Products.md), [Semi products](../../Assets/Materials/SemiProducts.md), [Raw materials](../../Assets/Materials/RawMaterials.md), [Repro materials](../../Assets/Materials/ReproMaterials.md). |
-| **Material** | Selected item (e.g., Pine table) from the [Assets](../../Assets/Assets/Assets.md) catalog. |
+| **Material type** | Item category, for example, [Products](../../Assets/Materials/Products.md), [Semi products](../../Assets/Materials/SemiProducts.md), [Raw materials](../../Assets/Materials/RawMaterials.md), [Repro materials](../../Assets/Materials/ReproMaterials.md). |
+| **Material** | Selected item (for example, Pine table) from the [Assets](../../Assets/Assets/Assets.md) catalog. |
 | **Serial number** | Serial number to which the correction applies, if the material is serialized. |
 | **Best before** | Best-before date, if applicable for perishable materials. |
 | **Warehouse location** | Bin/shelf in the warehouse for precise placement. See [Locations](../Management/Locations.md). |

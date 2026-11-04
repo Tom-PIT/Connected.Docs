@@ -67,7 +67,7 @@ To access these settings, go to **System / Organization**.
 | **Email** | Primary contact email for customer or supplier communication. |
 | **Phone number** | General contact number displayed on documents. |
 | **Registration number** | Official company registration number. |
-| **Tax number** | Tax identification number (e.g., VAT ID). |
+| **Tax number** | Tax identification number (for example, VAT ID). |
 | **Document footer text** | Formatted footer appearing on documents across the system. Typical contents: company name, full address, website, email, phone number, legal statements or disclaimers. Supports multiline formatting. |
 | **Signature of the responsible person** | Upload the signature image used on selected official documents. Accepted formats: PNG, JPG. Displayed on invoices, confirmations, and similar outputs. |
 

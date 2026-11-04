@@ -14,10 +14,10 @@ This documentation is structured by platform domains (each with their documents,
 
 The platform follows a consistent structure:
 
-- **Domain** — business areas (e.g., [**Production**](../Domains/Production/README.md), [**Logistics**](../Domains/Logistics/README.md), [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Assets**](../Domains/Assets/README.md), [**Projects**](../Domains/Projects/README.md)). Each domain divided into different sections:
-   - **Documents** — operational documents and workflows (e.g., [**Issues**](../Domains/Logistics/Documents/Issues.md), [**Receives**](../Domains/Logistics/Documents/Receives.md), [**Sales orders**](../Domains/Sales/Documents/SalesOrders.md))
+- **Domain** — business areas (for example, [**Production**](../Domains/Production/README.md), [**Logistics**](../Domains/Logistics/README.md), [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Assets**](../Domains/Assets/README.md), [**Projects**](../Domains/Projects/README.md)). Each domain divided into different sections:
+   - **Documents** — operational documents and workflows (for example, [**Issues**](../Domains/Logistics/Documents/Issues.md), [**Receives**](../Domains/Logistics/Documents/Receives.md), [**Sales orders**](../Domains/Sales/Documents/SalesOrders.md))
    - **Views** and **Analytics** — Performance views, KPIs, and reports
-   - **Management** — code lists and master data (e.g., [**Business directory**](../Common/Management/BusinessDirectory.md), [**Measure units**](../Common/Management/MeasureUnits.md), [**Tax rates**](../Common/Management/TaxRates.md), [**Payment methods**](../Domains/Sales/Management/PaymentMethods.md), [**Organization bank accounts**](../Domains/Sales/Management/OrganizationBankAccounts.md))
+   - **Management** — code lists and master data (for example, [**Business directory**](../Common/Management/BusinessDirectory.md), [**Measure units**](../Common/Management/MeasureUnits.md), [**Tax rates**](../Common/Management/TaxRates.md), [**Payment methods**](../Domains/Sales/Management/PaymentMethods.md), [**Organization bank accounts**](../Domains/Sales/Management/OrganizationBankAccounts.md))
 - **Common** — shared concepts and UI elements
 
 More information on the structure and navigation inside the platform can be found in the [navigation](../Common/UI/Navigation.md) guide.

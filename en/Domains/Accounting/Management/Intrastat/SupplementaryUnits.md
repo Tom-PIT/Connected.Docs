@@ -14,7 +14,7 @@ To access this screen, go to **Accounting / Management / Intrastat / Supplementa
 | Field        | Description |
 |--------------|-------------|
 | Code         | Numeric code identifying the supplementary unit (Intrastat standard). |
-| Name         | Short unit name or abbreviation (e.g. `piece`, `m2`, `l`). |
+| Name         | Short unit name or abbreviation (for example `piece`, `m2`, `l`). |
 | Description  | Human-readable explanation of the unit. |
 
 ## List view

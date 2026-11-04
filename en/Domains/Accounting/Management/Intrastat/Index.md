@@ -22,7 +22,7 @@ The following code lists are used when preparing Intrastat declarations:
 
 ## Where these are used
 
-- Sales documents (e.g., [sales orders](../../../Sales/Documents/SalesOrders.md), [delivery notes](../../../Sales/Documents/DeliveryNotes.md), [issued invoices](../../../Sales/Documents/IssuedInvoices.md)) reference delivery terms and transport for correct classification.
+- Sales documents (for example, [sales orders](../../../Sales/Documents/SalesOrders.md), [delivery notes](../../../Sales/Documents/DeliveryNotes.md), [issued invoices](../../../Sales/Documents/IssuedInvoices.md)) reference delivery terms and transport for correct classification.
 - Accounting exports use the above classifications to generate Intrastat files per country-specific rules.
 
 ## Maintenance

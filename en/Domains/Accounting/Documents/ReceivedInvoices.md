@@ -45,7 +45,7 @@ When we receive an invoice from a vendor, it follows this flow:
 | **Amount**        | Total net amount of the invoice.                            |
 | [**Currency**](../../../Common/Management/Currencies.md)      | Currency of the invoice.                                    |
 | **Reference**     | Payment reference provided by the vendor (mandatory).                   |
-| **Payment type**  | Payment mechanism used for settlement (e.g. Payment order). |
+| **Payment type**  | Payment mechanism used for settlement (for example Payment order). |
 | [**Cost center**](../../../Common/Management/CostCenters.md)   | Optional cost center assignment.                            |
 | [**Account**](../Management/Ledger/ChartOfAccounts.md)       | Ledger account used for posting (mandatory).                            |
 | [**Template**](../Management/Ledger/JournalEntryTemplates.md)      | Posting template applied to the invoice.                    |

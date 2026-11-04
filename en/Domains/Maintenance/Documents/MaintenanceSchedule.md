@@ -80,8 +80,8 @@ Maintenance schedules can also be created automatically when a planned maintenan
 
 Supported recurring execution patterns include:
 
-- **Time-based** patterns (e.g., monthly, yearly, every X days)
-- **Count/usage-based** patterns (e.g., every X pieces, meters, grams, hours), using the relevant equipment counters and measure units
+- **Time-based** patterns (for example, monthly, yearly, every X days)
+- **Count/usage-based** patterns (for example, every X pieces, meters, grams, hours), using the relevant equipment counters and measure units
 
 > [!NOTE]
 > For configuring usage counters on resources and equipment, see **[Resource work hours & counters](ResourceWorkHours&Counters.md)**.

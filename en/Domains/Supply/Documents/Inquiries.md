@@ -21,7 +21,7 @@ A typical flow:
 ```mermaid
 flowchart LR
   IN[Inquiry] --> SU[Supply order] --> RE[Receive]
-  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  classDef current fill:#cfe6f2,stroke:#0b5a80,stroke-width:3px,color:#0b1a33
   class IN current
 ```
 
@@ -57,7 +57,7 @@ Documents move through several possible states during their lifecycle:
 - **Draft** – The inquiry is not yet published. All fields can be edited freely.
 - **Committed** – The inquiry has been published. It cannot be deleted or freely modified.
     - **Available** – The inquiry is valid and ready for further processing.
-    - **In completion** – The inquiry is partially processed (e.g., partially converted or referenced).
+    - **In completion** – The inquiry is partially processed (for example, partially converted or referenced).
     - **Completed** – All actions related to the inquiry have been fully executed.
 
 ### List view

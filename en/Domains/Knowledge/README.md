@@ -71,7 +71,7 @@ Management includes the following configuration areas:
 - [Table of contents](Management/TableOfContents.md) (structured groupings)
 - Attachments
 
-Directories allow organizations to group related content logically (e.g. HR guidelines, Production instructions, IT documentation).
+Directories allow organizations to group related content logically (for example HR guidelines, Production instructions, IT documentation).
 
 Typical configuration includes:
 

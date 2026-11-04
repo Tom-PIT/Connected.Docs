@@ -24,7 +24,7 @@ To access packaging configuration, go to: **Assets / Materials / Packaging** in 
 
 | Field | Description |
 |-------|-------------|
-| **Material type** | The material category this packaging is assigned to (e.g., Products, Semi products, Repro materials, Raw materials). |
+| **Material type** | The material category this packaging is assigned to (for example, Products, Semi products, Repro materials, Raw materials). |
 | **Entity** | The specific material record selected within the chosen material type. |
 | **EAN** | Unique packaging identifier. Also used for labeling. |
 | **Quantity (pc)** | Number of items included inside one package. |
@@ -37,7 +37,7 @@ To access packaging configuration, go to: **Assets / Materials / Packaging** in 
 
 ## Management
 
-To assign packaging to a material, you must first select the **Material type** (e.g., Products, Semi products) and then the specific **Entity** on the left side of the screen.
+To assign packaging to a material, you must first select the **Material type** (for example, Products, Semi products) and then the specific **Entity** on the left side of the screen.
 
 ![Material selection dropdown](../Images/DropdownPackaging.png)
 

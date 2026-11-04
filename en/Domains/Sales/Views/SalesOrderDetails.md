@@ -48,7 +48,7 @@ This view is useful for:
 
 - Planning upcoming deliveries  
 - Monitoring which order items are fully or partially delivered  
-- Identifying bottlenecks (e.g., items lacking stock)  
+- Identifying bottlenecks (for example, items lacking stock)  
 - Checking workload for logistics and warehouse teams  
 
 It complements the **Sales orders** document screen by focusing on **items**, not documents.

@@ -37,7 +37,7 @@ Pressing **Produce** will **automatically start the operation**, even if you don
 
 ## 3. Produce items
 
-1. Enter the number of items you produced (e.g., **1**).  
+1. Enter the number of items you produced (for example, **1**).  
 2. Press **Produce**.  
 3. The system updates:  
    - Produced quantity  

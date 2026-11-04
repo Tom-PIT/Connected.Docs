@@ -17,7 +17,7 @@ To access this page, go to **Production / Management / Downtime tags** in the [n
 
 | Field | Description |
 |-------|-------------|
-| **Name** | The name of the downtime reason (e.g., Machine failure, Cleaning) (mandatory).|
+| **Name** | The name of the downtime reason (for example, Machine failure, Cleaning) (mandatory).|
 | **Planned** | Indicates whether the downtime is scheduled (planned). Unchecked items appear in red to highlight unplanned downtime. |
 
 ## List view

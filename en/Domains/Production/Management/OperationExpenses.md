@@ -16,7 +16,7 @@ To access this page, open a process version from **Production / Management / [Pr
 
 | Field | Description |
 |-------|-------------|
-| **Expense** | The type of cost applied (e.g. electricity, transport, etc.). |
+| **Expense** | The type of cost applied (for example electricity, transport, etc.). |
 | **Calculation type** | Defines how the cost is calculated: **Dynamic** or **Static**. |
 | **Amount** | The monetary value of the expense. |
 

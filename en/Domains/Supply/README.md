@@ -70,7 +70,7 @@ Available configuration and code lists include:
 
 - **[Configuration](Management/SupplyConfiguration.md)** – Supply settings and procurement rules, including document numbering for supply orders.  
 - **[Supplier materials](Management/SupplierMaterials.md)** – Mapping of which suppliers can provide which materials; may include lead times, MOQs, and price sources.  
-- **[Expenses](Management/Expenses.md)** – Expense categories (e.g., freight, customs) used on supply orders; affect the total procurement cost.  
+- **[Expenses](Management/Expenses.md)** – Expense categories (for example, freight, customs) used on supply orders; affect the total procurement cost.  
 - **[Business directory](../../Common/Management/BusinessDirectory.md)** – Supplier and partner records.  
 - **[Cost centers](../../Common/Management/CostCenters.md)** – Financial allocation of procurement expenses.  
 - **[Currencies](../../Common/Management/Currencies.md)** – Currency definitions used in quotations and supply orders.  

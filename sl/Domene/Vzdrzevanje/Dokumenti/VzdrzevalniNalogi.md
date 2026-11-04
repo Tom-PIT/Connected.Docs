@@ -17,7 +17,12 @@ flowchart LR
   end
   MS -.-> P[V obdelavi]
   RM -.-> P
-  P --> A[Aktiven] --> C[Zaprt]
+  P --> ACT
+  subgraph ACT [Aktiven]
+    EX[Izvedba]
+  end
+  EX -->|"Vse operacije<br>zaključene"| C[Zaprt]
+  ACT -.->|"Zaključi vzdrževalni nalog"| C
   classDef source stroke-dasharray:5 4
   class MS,RM source
 ```

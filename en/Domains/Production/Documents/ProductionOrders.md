@@ -143,7 +143,7 @@ Clicking on an operation opens the detailed view, where workers can record execu
 
 ![Production Order Operation Edit](../Images/ProductionOrderOperationEdit.png "Production Order Operation Edit")
 
-Each tab has its own button to record execution details (e.g. **Add produced**, **Add consumption**). For example, on the **Produced** tab you can log the material produced, the quantity produced, and the production times.
+Each tab has its own button to record execution details (for example **Add produced**, **Add consumption**). For example, on the **Produced** tab you can log the material produced, the quantity produced, and the production times.
 
 ### Expenses
 
@@ -209,7 +209,7 @@ The list menu provides actions for the currently displayed list.
 
 Available actions:
  
-- **Status mass processing** – allows changing the status of multiple production orders at once (e.g., from Pending to Active).
+- **Status mass processing** – allows changing the status of multiple production orders at once (for example, from Pending to Active).
 
 ### Document menu
 

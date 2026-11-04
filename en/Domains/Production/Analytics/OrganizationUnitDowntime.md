@@ -28,7 +28,7 @@ For each downtime entry, the following information is shown:
 - **Start** — Timestamp when the downtime began  
 - **End** — Timestamp when the downtime ended  
 - **Resource** — The affected non human resource or workstation  
-- **Tag** — Downtime classification (e.g., electrical failure, machine failure, cleaning)  
+- **Tag** — Downtime classification (for example, electrical failure, machine failure, cleaning)  
 - **Duration** — Total downtime duration automatically calculated by the system  
 
 Downtime entries within each organization unit can be expanded or collapsed for easier navigation.

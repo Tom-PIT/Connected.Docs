@@ -16,7 +16,7 @@ To access this screen, go to **Accounting / Ledger / Management / Chart of accou
 In most EU countries, the chart of accounts follows a **structured and hierarchical model**, often defined or strongly influenced by national accounting regulations.
 
 This typically includes:
- - Account classes (e.g. 1–9) representing high-level financial categories
+ - Account classes (for example 1–9) representing high-level financial categories
  - Synthetic (grouping) accounts used for structure and reporting
  - Analytical accounts used for operational postings
 
@@ -35,10 +35,10 @@ The system does not enforce a single national chart of accounts but supports imp
 
 | Field          | Description                                                                                                                 |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Account**        | Unique numeric identifier of the account. The numbering usually follows a logical structure (e.g. assets, revenues, costs) (mandatory). |
+| **Account**        | Unique numeric identifier of the account. The numbering usually follows a logical structure (for example assets, revenues, costs) (mandatory). |
 | **Name**         | Descriptive name of the account, clearly indicating its purpose (mandatory).                                                            |
 | **Posting type**   | Defines whether and how transactions can be posted to the account.                                                          |
-| **Account type**   | Defines posting and analytical requirements for the account (e.g. cost center or client binding) (mandatory).                                     |
+| **Account type**   | Defines posting and analytical requirements for the account (for example cost center or client binding) (mandatory).                                     |
 | **Parent account** | Defines the hierarchical position of the account within the chart of accounts. In EU accounting structures, analytical accounts are typically created under predefined synthetic parent accounts.                                                     |
 | **Tags**           | Tags used for filtering, reporting, or integrations.                                                               |
 
@@ -121,7 +121,7 @@ Click **Save** to apply changes or **Cancel** to discard them.
 An account can be deleted on the edit screen by clicking the **Delete** button. It can be deleted only if it is **not referenced** by:
 
 * Journal entries
-* Documents (e.g. invoices, inventory movements)
+* Documents (for example invoices, inventory movements)
 * Reports or calculations
 
 If an account has already been used, deletion is blocked to preserve accounting integrity.
