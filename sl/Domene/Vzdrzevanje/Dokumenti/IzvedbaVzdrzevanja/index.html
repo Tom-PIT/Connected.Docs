@@ -6560,6 +6560,16 @@
 <p>Zaslon <strong>Izvedba</strong> samodejno prikaže aktivne vzdrževalne naloge, dodeljene <strong>organizacijski enoti</strong>, izbrani na vrhu zaslona.</p>
 <p>Če želite delati z vzdrževalnimi nalogi druge organizacijske enote, spremenite izbrano organizacijsko enoto.</p>
 </div>
+<p>Vsaka operacija poteka po istem ciklu: začnete jo, po potrebi premorete in jo ustavite, ko je delo opravljeno. Ko ustavite zadnjo operacijo, vzdrževalni nalog preide v stanje <strong>Zaprt</strong>.</p>
+<pre class="mermaid"><code>flowchart LR
+  A[Izberite operacijo] --&gt; B[Začni] --&gt; C[Ustavi] --&gt; D{Ali so še operacije?}
+  D --&gt;|Da| A
+  D --&gt;|Ne| E[Zaprt]
+  B -.- ACT
+  subgraph ACT [Aktivnosti]
+    direction TB
+    I[Vhodi] --- R[Zapisnik] --- Q[Kvaliteta] --- W[Delo] --- U[Navodila]
+  end</code></pre>
 <h2 id="pregled-zaslona-izvedbe">Pregled zaslona izvedbe<a class="headerlink" href="#pregled-zaslona-izvedbe" title="Permanent link">&para;</a></h2>
 <p>Zaslon <strong>Izvedba vzdrževanja</strong> prikazuje vse kontrole in informacije, potrebne za izvajanje trenutne vzdrževalne operacije.</p>
 <p><img alt="Pregled izvedbe vzdrževanja" src="../../Images/MaintenanceExecutionViewExplanation.png" title="Pregled izvedbe vzdrževanja" /></p>

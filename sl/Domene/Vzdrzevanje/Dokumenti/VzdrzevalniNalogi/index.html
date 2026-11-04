@@ -6836,7 +6836,12 @@
   end
   MS -.-&gt; P[V obdelavi]
   RM -.-&gt; P
-  P --&gt; A[Aktiven] --&gt; C[Zaprt]
+  P --&gt; ACT
+  subgraph ACT [Aktiven]
+    EX[Izvedba]
+  end
+  EX --&gt;|"Vse operacije&lt;br&gt;zaključene"| C[Zaprt]
+  ACT -.-&gt;|"Zaključi vzdrževalni nalog"| C
   classDef source stroke-dasharray:5 4
   class MS,RM source</code></pre>
 <div class="admonition note">

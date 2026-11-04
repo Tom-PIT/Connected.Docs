@@ -6891,7 +6891,7 @@ Sales orders define <em>what</em> the customer will receive, <em>when</em>, and 
   OF[Offer] --&gt; SO[Sales order] --&gt; DN["Delivery note&lt;br&gt;+ Issue"] --&gt; II[Issued invoice] --&gt; PA[Payments]
   LD["Supply order&lt;br&gt;Maintenance order&lt;br&gt;Production order"]
   SO -.- LD -.- DN
-  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  classDef current fill:#cfe6f2,stroke:#0b5a80,stroke-width:3px,color:#0b1a33
   class SO current</code></pre>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -7069,7 +7069,7 @@ Sales orders define <em>what</em> the customer will receive, <em>when</em>, and 
 <li><strong>Draft</strong> – The document is not yet published. All fields can be edited freely.</li>
 <li><strong>Committed</strong> – The document has been published. It cannot be deleted or freely modified.<ul>
 <li><strong>Available</strong> – The document is valid and ready for further processing.</li>
-<li><strong>In completion</strong> – The document is partially processed (e.g., partially delivered or received).</li>
+<li><strong>In completion</strong> – The document is partially processed (for example, partially delivered or received).</li>
 <li><strong>Completed</strong> – All actions related to the document have been fully executed.</li>
 </ul>
 </li>

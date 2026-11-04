@@ -6836,7 +6836,12 @@
   end
   MS -.-&gt; P[Pending]
   RM -.-&gt; P
-  P --&gt; A[Active] --&gt; C[Closed]
+  P --&gt; ACT
+  subgraph ACT [Active]
+    EX[Execution]
+  end
+  EX --&gt;|"All operations&lt;br&gt;completed"| C[Closed]
+  ACT -.-&gt;|"Complete maintenance order"| C
   classDef source stroke-dasharray:5 4
   class MS,RM source</code></pre>
 <div class="admonition note">

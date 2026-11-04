@@ -6565,6 +6565,16 @@
 <p>The <strong>Maintenance execution</strong> screen automatically displays active maintenance orders assigned to the <strong>organization unit</strong> selected at the top of the screen.</p>
 <p>To work with maintenance orders assigned to a different organization unit, change the selected organization unit.</p>
 </div>
+<p>Each operation follows the same cycle: start it, pause it if needed, and stop it when the work is done. When the last operation is stopped, the maintenance order closes.</p>
+<pre class="mermaid"><code>flowchart LR
+  A[Select operation] --&gt; B[Start] --&gt; C[Stop] --&gt; D{More operations?}
+  D --&gt;|Yes| A
+  D --&gt;|No| E[Closed]
+  B -.- ACT
+  subgraph ACT [Activities]
+    direction TB
+    I[Inputs] --- R[Record] --- Q[Quality] --- W[Effort] --- U[Instructions]
+  end</code></pre>
 <h2 id="execution-interface-overview">Execution interface overview<a class="headerlink" href="#execution-interface-overview" title="Permanent link">&para;</a></h2>
 <p>The <strong>Maintenance execution</strong> screen provides all controls and information required to perform the current maintenance operation.</p>
 <p><img alt="Maintenance execution overview" src="../../Images/MaintenanceExecutionViewExplanation.png" title="Maintenance execution overview" /></p>
