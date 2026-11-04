@@ -18,6 +18,20 @@ To access this page, go to **Maintenance / Execution** in the [navigation](../..
 >
 > To work with maintenance orders assigned to a different organization unit, change the selected organization unit.
 
+Each operation follows the same cycle: start it, pause it if needed, and stop it when the work is done. When the last operation is stopped, the maintenance order closes.
+
+```mermaid
+flowchart LR
+  A[Select operation] --> B[Start] --> C[Stop] --> D{More operations?}
+  D -->|Yes| A
+  D -->|No| E[Closed]
+  B -.- ACT
+  subgraph ACT [Activities]
+    direction TB
+    I[Inputs] --- R[Record] --- Q[Quality] --- W[Effort] --- U[Instructions]
+  end
+```
+
 ## Execution interface overview
 
 The **Maintenance execution** screen provides all controls and information required to perform the current maintenance operation.

@@ -25,7 +25,7 @@ Nabavni nalogi predstavljajo formalno potrditveno fazo v procesu nabave.
 ```mermaid
 flowchart LR
   IN[Povpraševanje] --> SU[Nabavni nalog] --> RE[Prevzem]
-  classDef current fill:#0b5a80,stroke:#0b1a33,color:#fff
+  classDef current fill:#cfe6f2,stroke:#0b5a80,stroke-width:3px,color:#0b1a33
   class SU current
 ```
 
