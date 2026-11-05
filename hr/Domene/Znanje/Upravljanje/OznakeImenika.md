@@ -1,6 +1,6 @@
 <!-- app_route: /management/knowledge/directory-tags -->
 <!-- app_label: Directory tags -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/DirectoryTags.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/OznakeImenika.md -->
 <!-- canonical_source_title: Oznake imenika -->
 
 # Oznake imenika
@@ -26,7 +26,7 @@ Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija
 Popis prikazuje sve konfigurirane oznake imenika.
 
 Svaki redak prikazuje:
-- **Oznake** – naziv oznake kojom se klasificiraju [članci](Articles.md) domene Znanje
+- **Oznake** – naziv oznake kojom se klasificiraju [članci](Clanci.md) domene Znanje
 
 Oznake možete brzo filtrirati po nazivu pomoću polja **Pretraživanje**.
 
@@ -44,7 +44,7 @@ Unesite potrebni naziv u polje **Oznaka**.
 
 Kliknite **Dodaj** da biste spremili novu oznaku.
 
-Oznaka odmah postaje dostupna za korištenje u [člancima](Articles.md).
+Oznaka odmah postaje dostupna za korištenje u [člancima](Clanci.md).
 
 ## Uređivanje oznake imenika
 

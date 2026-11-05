@@ -49,7 +49,7 @@ Think about:
 
 ### 2. Create directory tags
 
-**[Directory tags](../Domains/Knowledge/Management/DirectoryTags.md)** help users find content through search and filtering.
+**[Directory tags](../Domains/Knowledge/Management/OznakeImenika.md)** help users find content through search and filtering.
 
 Examples:
 
@@ -67,7 +67,7 @@ Examples:
 
 ### 3. Create directories
 
-**[Directories](../Domains/Knowledge/Management/Directories.md)** are the main containers used to organize knowledge content.
+**[Directories](../Domains/Knowledge/Management/Imenici.md)** are the main containers used to organize knowledge content.
 
 Examples:
 
@@ -109,7 +109,7 @@ Examples:
 5. Assign relevant tags.
 6. Save the article.
 
-For details, see **[Articles](../Domains/Knowledge/Management/Articles.md)**.
+For details, see **[Articles](../Domains/Knowledge/Management/Clanci.md)**.
 
 ### 5. Build the table of contents
 
@@ -121,7 +121,7 @@ The table of contents defines how users navigate the directory.
 4. Add articles to the folders.
 5. Arrange entries using ordinal values to define the order.
 
-For details, see **[Table of contents](../Domains/Knowledge/Management/TableOfContents.md)**.
+For details, see **[Table of contents](../Domains/Knowledge/Management/Kazalo.md)**.
 
 Example:
 

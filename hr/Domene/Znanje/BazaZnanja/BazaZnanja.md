@@ -29,7 +29,7 @@ Na vrhu stranice polje **Pretraži bazu znanja** omogućuje pretraživanje po:
 
 Ispod polja za pretraživanje prikazane su **oznake** koje se mogu koristiti kao brzi filtri. Klik na oznaku filtrira prikaz na članke povezane s tom oznakom.
 
-Oznake se definiraju u **[Oznakama imenika](../Upravljanje/DirectoryTags.md)**.
+Oznake se definiraju u **[Oznakama imenika](../Upravljanje/OznakeImenika.md)**.
 
 ## Omiljene teme
 
@@ -77,7 +77,7 @@ Kazalo prikazuje strukturu imenika i dostupne članke. Klik na članak otvara ga
 
 ![Kazalo imenika](../Images/KnowledgeBaseDirectoryTOCHR.png "Kazalo imenika")
 
-Strukturu imenika i kazalo konfigurirate u **[Imenicima](../Upravljanje/Directories.md)** i **[Kazalu](../Upravljanje/TableOfContents.md)**.
+Strukturu imenika i kazalo konfigurirate u **[Imenicima](../Upravljanje/Imenici.md)** i **[Kazalu](../Upravljanje/Kazalo.md)**.
 
 ## Prikaz članka
 

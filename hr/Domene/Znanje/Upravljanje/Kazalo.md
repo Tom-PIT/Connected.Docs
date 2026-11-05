@@ -1,6 +1,6 @@
 <!-- app_route: /management/knowledge/directories -->
 <!-- app_label: Directories -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/TableOfContents.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/Kazalo.md -->
 <!-- canonical_source_title: Kazalo -->
 
 # Kazalo
@@ -9,7 +9,7 @@
 
 Imenik može sadržavati **jedno ili više** kazala. Svako kazalo prikazuje se kao stablo i može sadržavati mape, poveznice na članke i URL-ove.
 
-Kazalo uređujete tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Znanje / Upravljanje / Imenici** i kliknete **Kazalo** kod željenog imenika (vidi [**Imenici**](Directories.md)).
+Kazalo uređujete tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Znanje / Upravljanje / Imenici** i kliknete **Kazalo** kod željenog imenika (vidi [**Imenici**](Imenici.md)).
 
 ![Popis kazala](../Images/TableOfContentsListHR.png)
 
@@ -18,7 +18,7 @@ Kazalo uređujete tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) o
 Kazalo se prikazuje kao **stablo** i može sadržavati:
 
 - **mape** – služe za grupiranje stavki
-- **članke** – poveznice na [članke](Articles.md) domene Znanje
+- **članke** – poveznice na [članke](Clanci.md) domene Znanje
 - **URL-ove** – poveznice na vanjske izvore
 
 Stavke se poredaju prema **rednom broju**.
@@ -33,11 +33,11 @@ Stavke se poredaju prema **rednom broju**.
 | **Tip** | Vrsta stavke: **Mapa**, **Članak** ili **Url**. Naziv vrste ostaje u obliku u kojem ga prikazuje aplikacija. |
 | **Naziv** | Prikazani naziv stavke kazala. |
 | **Omogućen** | Samo za glavno kazalo imenika: određuje je li kazalo vidljivo u [**bazi znanja**](../BazaZnanja/BazaZnanja.md). |
-| [**Članak**](Articles.md) | Članak povezan sa stavkom (dostupno kada je Tip = Članak). |
+| [**Članak**](Clanci.md) | Članak povezan sa stavkom (dostupno kada je Tip = Članak). |
 | **Hiperveza** | Prikazani tekst poveznice za stavke tipa URL. |
 | **Redoslijed** | Položaj stavke unutar njezine razine u kazalu. |
-| **Prikaži neupotrebljene** | Prikazuje članke koji još nisu upotrijebljeni u kazalu pri odabiru [članka](Articles.md). |
-| **Uskladi naziv** | Održava naziv stavke usklađenim s nazivom povezanog [članka](Articles.md). |
+| **Prikaži neupotrebljene** | Prikazuje članke koji još nisu upotrijebljeni u kazalu pri odabiru [članka](Clanci.md). |
+| **Uskladi naziv** | Održava naziv stavke usklađenim s nazivom povezanog [članka](Clanci.md). |
 
 ## Stvaranje kazala
 
@@ -77,7 +77,7 @@ Na ekranu za uređivanje možete:
 - promijeniti **naziv**
 - promijeniti **redoslijed**
 - promijeniti povezani **članak** ili **URL**, ovisno o tipu
-- za stavke tipa **Članak** naziv možete po želji uskladiti s nazivom [članka](Articles.md).
+- za stavke tipa **Članak** naziv možete po želji uskladiti s nazivom [članka](Clanci.md).
 
 Ako je u stablu odabrana **mapa**, nove stavke koje stvorite dodaju se **unutar te mape**, što omogućuje izradu ugniježdene strukture kazala.
 
@@ -92,7 +92,7 @@ Ako je u stablu odabrana **mapa**, nove stavke koje stvorite dodaju se **unutar 
 Promjene u kazalu odmah se odražavaju u odabranom imeniku.
 
 > [!NOTE]
-> Kazalo upravlja **samo navigacijom**. Sadržaj članaka upravlja se zasebno, u [člancima](Articles.md).
+> Kazalo upravlja **samo navigacijom**. Sadržaj članaka upravlja se zasebno, u [člancima](Clanci.md).
 
 ## Brisanje kazala ili stavke
 

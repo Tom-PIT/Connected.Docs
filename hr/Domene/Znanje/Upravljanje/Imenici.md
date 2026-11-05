@@ -1,6 +1,6 @@
 <!-- app_route: /management/knowledge/directories -->
 <!-- app_label: Directories -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/Directories.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/Imenici.md -->
 <!-- canonical_source_title: Imenici -->
 
 # Imenici
@@ -32,8 +32,8 @@ Popis prikazuje sve konfigurirane imenike.
 Svaki redak prikazuje:
 - **Imenik** – naziv imenika
 - **poveznice** za upravljanje:
-  - **[Kazalo](TableOfContents.md)**
-  - **[Članci](Articles.md)**
+  - **[Kazalo](Kazalo.md)**
+  - **[Članci](Clanci.md)**
 
 S lijeve strane naziva svakog imenika prikazuje se oznaka statusa:
 - **plava** – omogućen (aktivan) imenik
@@ -65,8 +65,8 @@ Nakon stvaranja imenik postaje dostupan u [**bazi znanja**](../BazaZnanja/BazaZn
 
 Nakon što se imenik stvori, u popisu su dostupne dodatne mogućnosti konfiguracije:
 
-- **[Članci](Articles.md)** – upravljanje člancima koji pripadaju imeniku
-- **[Kazalo](TableOfContents.md)** – definiranje strukture navigacije unutar imenika
+- **[Članci](Clanci.md)** – upravljanje člancima koji pripadaju imeniku
+- **[Kazalo](Kazalo.md)** – definiranje strukture navigacije unutar imenika
 
 Do tih mogućnosti dolazite preko poveznica prikazanih ispod svakog imenika u popisu.
 

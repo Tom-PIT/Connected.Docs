@@ -58,8 +58,8 @@ Odjeljak **Upravljanje** služi za konfiguraciju i održavanje strukture domene 
 ![Upravljanje u domeni Znanje](Images/KnowledgeDomainManagementHR.png "Upravljanje u domeni Znanje")
 
 Upravljanje obuhvaća sljedeća područja konfiguracije:
-- [**Imenici**](Upravljanje/Directories.md)
-- [**Oznake imenika**](Upravljanje/DirectoryTags.md)
+- [**Imenici**](Upravljanje/Imenici.md)
+- [**Oznake imenika**](Upravljanje/OznakeImenika.md)
 
 > [!TIP]
 > Sve stavke upravljanja pogledajte u **[kazalu upravljanja](../../IndeksUpravljanja.md)**.
@@ -68,8 +68,8 @@ Upravljanje obuhvaća sljedeća područja konfiguracije:
 
 **Imenici** određuju glavnu strukturu **baze znanja**. Svaki imenik predstavlja **temu ili kategoriju** i može sadržavati:
 
-- [Članke](Upravljanje/Articles.md)
-- [Kazalo](Upravljanje/TableOfContents.md) (strukturirane skupine)
+- [Članke](Upravljanje/Clanci.md)
+- [Kazalo](Upravljanje/Kazalo.md) (strukturirane skupine)
 - priloge
 
 Imenici omogućuju organizaciji da logički grupira povezani sadržaj (na primjer smjernice za ljudske resurse, upute za proizvodnju, IT dokumentaciju).
@@ -90,7 +90,7 @@ Oznake se obično koriste za:
 - filtriranje u **bazi znanja**
 - isticanje povezanog sadržaja u različitim imenicima
 
-Oznake imenika zajedničke su cijeloj domeni Znanje i koriste ih više imenika i članaka. Pogledajte [Oznake imenika](Upravljanje/DirectoryTags.md).
+Oznake imenika zajedničke su cijeloj domeni Znanje i koriste ih više imenika i članaka. Pogledajte [Oznake imenika](Upravljanje/OznakeImenika.md).
 
 ## Tijek rada u domeni Znanje
 
@@ -100,7 +100,7 @@ Domena Znanje obično slijedi ovaj životni ciklus:
 Imenici i oznake imenika definiraju se u **Upravljanju**.
 
 ### **2. Izrada sadržaja**
-[Članci](Upravljanje/Articles.md) se izrađuju i dodjeljuju imenicima, po potrebi se označavaju i obogaćuju prilozima.
+[Članci](Upravljanje/Clanci.md) se izrađuju i dodjeljuju imenicima, po potrebi se označavaju i obogaćuju prilozima.
 
 ### **3. Objavljivanje**
 Članci se objavljuju i postaju vidljivi u **bazi znanja** prema svom statusu i postavkama valjanosti.
@@ -126,7 +126,7 @@ Nadopunjuje operativne domene tako što ih podupire **jasnom i dostupnom dokumen
 ## Povezano
 
 - **[Baza znanja](BazaZnanja/BazaZnanja.md)** – pregled objavljene dokumentacije
-- **[Imenici](Upravljanje/Directories.md)** – upravljanje spremnicima i navigacijom
-- **[Članci](Upravljanje/Articles.md)** – izrada i održavanje sadržaja
-- **[Oznake imenika](Upravljanje/DirectoryTags.md)** – definiranje oznaka za filtriranje
-- **[Kazalo](Upravljanje/TableOfContents.md)** – konfiguracija navigacije imenika
+- **[Imenici](Upravljanje/Imenici.md)** – upravljanje spremnicima i navigacijom
+- **[Članci](Upravljanje/Clanci.md)** – izrada i održavanje sadržaja
+- **[Oznake imenika](Upravljanje/OznakeImenika.md)** – definiranje oznaka za filtriranje
+- **[Kazalo](Upravljanje/Kazalo.md)** – konfiguracija navigacije imenika

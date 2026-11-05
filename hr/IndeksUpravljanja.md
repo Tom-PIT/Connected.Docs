@@ -87,8 +87,8 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 
 ## Znanje
 
-- [**Direktoriji**](Domene/Znanje/Upravljanje/Directories.md)
-- [**Oznake direktorija**](Domene/Znanje/Upravljanje/DirectoryTags.md)
+- [**Direktoriji**](Domene/Znanje/Upravljanje/Imenici.md)
+- [**Oznake direktorija**](Domene/Znanje/Upravljanje/OznakeImenika.md)
 
 ## Logistika
 

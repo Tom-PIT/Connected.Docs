@@ -1,15 +1,15 @@
 <!-- app_route: /management/knowledge/directories -->
 <!-- app_label: Directories -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/Articles.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/Clanci.md -->
 <!-- canonical_source_title: Članci -->
 
 # Članci
 
 **Članci** su glavne jedinice sadržaja u [**bazi znanja**](../BazaZnanja/BazaZnanja.md). Sadrže pisanu dokumentaciju, kao što su upute, smjernice, postupci i referentne informacije.
 
-Članci pripadaju **imeniku** i mogu se organizirati i pregledavati pomoću [kazala](TableOfContents.md) imenika.
+Članci pripadaju **imeniku** i mogu se organizirati i pregledavati pomoću [kazala](Kazalo.md) imenika.
 
-Za upravljanje člancima idite na **Znanje / Upravljanje / Imenici** u [navigaciji](../../../Zajednicko/UI/Navigacija.md) i kliknite **Članci** kod željenog imenika (vidi [**Imenici**](Directories.md)).
+Za upravljanje člancima idite na **Znanje / Upravljanje / Imenici** u [navigaciji](../../../Zajednicko/UI/Navigacija.md) i kliknite **Članci** kod željenog imenika (vidi [**Imenici**](Imenici.md)).
 
 ## Shema
 
@@ -80,7 +80,7 @@ Prilozi se učitavaju pomoću područja **Prilog** na ekranu za uređivanje čla
 
 Oznake se koriste za kategorizaciju članaka i lakše pronalaženje u sustavu.
 
-Oznake se biraju iz [**Oznaka imenika**](DirectoryTags.md) i mogu se ponovno koristiti u više članaka.
+Oznake se biraju iz [**Oznaka imenika**](OznakeImenika.md) i mogu se ponovno koristiti u više članaka.
 
 ## Objava i zakazivanje članaka
 
