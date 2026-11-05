@@ -1,25 +1,27 @@
 <!-- app_route: /sitemap/resources.timeLogs -->
-<!-- app_label: Time logs -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/TimeLogs.md -->
-<!-- canonical_source_title: Time logs -->
+<!-- app_label: Dnevnik prisutnosti -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/TimeLogs.md -->
+<!-- canonical_source_title: Dnevnik prisutnosti -->
 
-# Time logs
+# Dnevnik prisutnosti
 
-The **Time logs** section provides access to all time-related views for resources.  
-It is used to review recorded working time, manage time entries and absences, and monitor attendance at work.
+Odjeljak **Dnevnik prisutnosti** pruža pristup svim pogledima vezanima uz vrijeme za resurse.
+Koristi se za pregled evidentiranog radnog vremena, upravljanje unosima vremena i odsutnostima te praćenje prisutnosti na poslu.
 
-![Time logs](../Images/ResourcesDomainTimeLogs.png "Time logs overview")
+Do ovog odjeljka dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Resursi / Dnevnik prisutnosti**.
 
-## Available views
+![Dnevnik prisutnosti](../Images/TimeLogsOverviewHR.png "Dnevnik prisutnosti")
 
-The Time logs area consists of several dedicated views, each covering a specific aspect of time tracking and attendance:
+## Dostupni pogledi
 
-- **[View](TimeLogsView.md)** - Overview of recorded time entries, allowing users to review logged work and time-related records.
+Odjeljak Dnevnik prisutnosti sastoji se od nekoliko zasebnih pogleda, od kojih svaki pokriva određeni aspekt praćenja vremena i prisutnosti:
 
-- **[Manage](TimeLogsManage.md)** - Management of time logs, including editing, correcting, or administrating recorded entries.
+- **[Pregled](TimeLogsView.md)** – pregled evidentiranih unosa vremena, za pregled zabilježenog rada i podataka o vremenu.
 
-- **[Manage paid leave](TimeLogsManagePaidLeave.md)** - Administration of paid leave entries, such as vacations or other approved absences.
+- **[Upravljanje](TimeLogsManage.md)** – upravljanje dnevnikom vremena, uključujući uređivanje, ispravljanje i administriranje evidentiranih unosa.
 
-- **[Attendance at work](TimeLogsAttendanceAtWork.md)** - Attendance overview, showing presence and working patterns for resources.
+- **[Upravljanje sa godišnjim odmorom](TimeLogsManagePaidLeave.md)** – administracija unosa plaćenog odsustva, kao što su godišnji odmor ili drugi odobreni izostanci.
 
-Each view focuses on a specific workflow, keeping time tracking, leave management, and attendance monitoring clearly separated.
+- **[Prisutnost na poslu](TimeLogsAttendanceAtWork.md)** – pregled prisutnosti, koji prikazuje dolaske i obrasce rada resursa.
+
+Svaki pogled usmjeren je na određeni tijek rada, pa su praćenje vremena, upravljanje odsustvima i praćenje prisutnosti jasno odvojeni.

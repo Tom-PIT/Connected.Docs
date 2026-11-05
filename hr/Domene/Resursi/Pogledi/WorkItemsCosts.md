@@ -1,98 +1,91 @@
 <!-- app_route: /work-items-costs -->
-<!-- app_label: Work items costs -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/WorkItemsCosts.md -->
-<!-- canonical_source_title: Work items costs -->
+<!-- app_label: Troškovi zadataka -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/WorkItemsCosts.md -->
+<!-- canonical_source_title: Troškovi zadataka -->
 
-# Work items costs
+# Troškovi zadataka
 
-The **Work items costs** view provides insight into the **actual cost of producing a single work item**, based on recorded materials, effort, and expenses. It is primarily used to analyze processes, [production](../../Production/Documents/ProductionOrders.md), and [maintenance orders](../../Maintenance/Documents/MaintenanceOrders.md) and understand cost distribution and performance.
+Pogled **Troškovi zadataka** pruža analizu troškova za zadatke proizvodnje i održavanja, proizvode i verzije procesa. Uglavnom se koristi za analizu procesa, [proizvodnih naloga](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md) i naloga za održavanje te za razumijevanje raspodjele troškova i učinkovitosti.
 
-To access **Work items costs**, go to **Resources / Work items costs** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog pogleda dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Resursi / Troškovi zadataka**.
 
-![Work items costs list](../Images/WorkItemsCostsV2.png)
+![Popis troškova zadataka](../Images/WorkItemsCostsHR.png "Popis troškova zadataka")
 
 > [!NOTE]
-> When the **Processes** view is selected, the screen displays estimated [process version costs](../../Production/Analytics/VersionCostView.md) rather than actual work item costs.
+> Kada je odabran pogled **Procesi**, ekran prikazuje procijenjene [troškove verzija procesa](../../Proizvodnja/Analiza/TrosakVerzije.md) umjesto stvarnih troškova zadataka.
 
-## Work items costs list
+## Popis troškova zadataka
 
-The list shows all work items within the selected date range.
+Popis prikazuje zapise troškova koji odgovaraju odabranim filtrima.
 
-Each row represents a **single work item**, typically linked to a production or maintenance order, and displays:
+Ovisno o odabranom **Pogledu**, svaki redak predstavlja zadatak, proizvod ili verziju procesa i prikazuje:
 
-- Work item reference
-- Creation date
-- Calculated cost per unit
-- Visual indicators showing cost changes compared to previous periods
+- oznaku ili naziv
+- datum
+- izračunati trošak po jedinici
+- vizualne oznake koje pokazuju promjene troška u odnosu na prethodne vrijednosti, kada su dostupne
 
-Filters allow narrowing results by:
+Filtrom **Pogled** odabirete jednu ili više vrsta analize troškova:
 
-- Date range
-- Work item type (production or maintenance orders)
+- **Nalozi za održavanje** – prikazuje stvarne troškove zadataka održavanja
+- **Procesi** – prikazuje verzije procesa i procijenjeni trošak po jedinici
+- **Proizvodni nalozi** – prikazuje stvarne troškove zadataka proizvodnje
+- **Proizvodi** – prikazuje proizvode i njihov izračunati trošak po jedinici
 
-Clicking on a work item opens its detailed cost breakdown.
+Više pogleda može biti odabrano istodobno.
 
-## Work item cost details
+Filtrom **Datum** ograničavate zapise prikazane na popisu.
 
-Selecting a work item opens a detailed view with a full cost analysis.
+Klik na stavku otvara odgovarajuću analizu troškova.
 
-![Work item cost details](../Images/WorkItemsCostsDetailsV2.png)
+### Pokazatelji
 
-### Cost overview
+Na vrhu popisa prikazuju se dvije kartice:
+- **Number of work items** – broj zadataka na popisu
+- **Sum of work items** – zbroj troškova zadataka na popisu
 
-At the top of the screen, key indicators provide a quick summary:
+> [!NOTE]
+> Naslovi kartica prikazani su na engleskom jeziku, kao u aplikaciji.
 
-- **Cost per unit**
-- **Cost trend** compared to previous values
-- **Cost distribution** between materials and effort
-- **Performance indicators**, such as best and worst contributors
+## Detalji troška zadatka
 
-Any linked documents (e.g., production or maintenance orders) are also shown for reference.
+Odabir zadatka otvara detaljan prikaz s potpunom analizom troška.
 
-![Work items linked documents](../Images/WorkItemsLinkedDocuments.png "Linked documents section")
+![Detalji troška zadatka](../Images/WorkItemsCostsDetailsHR.png "Detalji troška zadatka")
 
-### Materials
+### Pregled troška
 
-This section lists all materials used to manufacture the item, including:
+Na vrhu ekrana kartice daju brz sažetak:
 
-- Material name and type
-- Quantity used
-- Total cost
-- Percentage of total cost
+- **Trošak** – trenutačni trošak po jedinici i trend u odnosu na prethodne vrijednosti
+- **Raspodjela** – udio materijala, rada i troškova u ukupnom trošku
 
-Expanding a material row shows additional details when available.
+### Kartice pojedinosti
 
-### Effort
+Ispod pregleda nalaze se tri kartice:
 
-The effort section shows time spent by users on the work item, including:
+- **Materijali** – popis svih materijala upotrijebljenih za izradu stavke, s količinom, troškom i udjelom u ukupnom trošku.
+- **Rad** – vrijeme koje su korisnici utrošili na zadatak, s izračunatim troškom rada i udjelom u ukupnom trošku. Troškovi rada izračunavaju se prema definicijama troškova resursa.
+- **Troškovi** – dodatni [troškovi](../../Nabava/Upravljanje/Troskovi.md) povezani sa zadatkom. Ako nisu zabilježeni troškovi, odjeljak je prazan.
 
-- User
-- Recorded duration
-- Calculated effort cost
-- Percentage of total cost
+Klik na materijal otvara dodatne podatke o upotrijebljenom materijalu, uključujući **serijski broj**. Ako je serijski broj dostupan, klik na njega otvara odgovarajući [prikaz zaliha po serijskom broju](../../Logistika/Pogledi/Zaliha.md).
 
-Effort costs are calculated using resource cost definitions.
+## Napomene o upotrebi
 
-### Expenses
+- Troškovi zadataka su **samo za čitanje** i u potpunosti ih izračunava sustav.
+- Točnost ovisi o ispravno konfiguriranim:
+  - troškovima resursa
+  - cijenama materijala
+  - evidenciji vremena rada
+- Ovim pogledom obično se koriste voditelji proizvodnje i analitičari.
 
-Any additional [expenses](../../Supply/Management/Expenses.md) linked to the work item are listed here. If no expenses are recorded, the section is displayed as empty.
+## Izbornik
 
-## Usage notes
+Izbornik nudi dodatne radnje dostupne na ovom ekranu.
 
-- Work item costs are **read-only** and fully calculated by the system.
-- Accuracy depends on properly configured:
-  - Resource costs
-  - Material prices
-  - Effort tracking
-- This view is typically used by production managers and analysts.
-
-## Menu
-
-The menu provides additional actions available on this page.
-
-Available actions:
+Dostupne radnje:
 
 - **Export to PDF**
-- **Recalculate** – recalculates the costs of the selected work item or process version using the latest materials, resources, and expenses.
+- **Recalculate** – ponovno izračunava troškove odabranog zadatka ili verzije procesa, koristeći najnovije materijale, resurse i troškove.
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+Za pojedinosti o radnjama izbornika pogledajte [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

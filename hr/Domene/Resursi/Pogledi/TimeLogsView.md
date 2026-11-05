@@ -1,110 +1,112 @@
 <!-- app_route: /time-logs/view -->
-<!-- app_label: Time log – View -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/TimeLogsView.md -->
-<!-- canonical_source_title: Time log – View -->
+<!-- app_label: Dnevnik prisutnosti – Pregled -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/TimeLogsView.md -->
+<!-- canonical_source_title: Dnevnik prisutnosti – Pregled -->
 
-# Time log – View
+# Dnevnik prisutnosti – Pregled
 
-The **Time log – View** screen provides a detailed overview of recorded working time for a specific worker and period. It is used to review daily attendance, inspect individual time entries, and manually add or correct time logs when needed.
+Ekran **Dnevnik prisutnosti – Pregled** prikazuje detaljan pregled evidentiranog radnog vremena za određenog zaposlenika i razdoblje. Koristi se za pregled dnevne prisutnosti, pregled pojedinačnih unosa vremena te ručno dodavanje ili ispravljanje evidencije vremena kada je potrebno.
 
-To access the **Time log** view, go to **Resources / Time logs / View** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do pregleda **Dnevnik prisutnosti** dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Resursi / Dnevnik prisutnosti / Pregled**.
 
-![Time log view](../Images/TimeLogsView.png "Time log view")
+![Pregled dnevnika prisutnosti](../Images/TimeLogsViewHR.png "Pregled dnevnika prisutnosti")
 
-### Purpose
+### Namjena
 
-The Time log view is primarily used to:
+Pregled dnevnika prisutnosti prvenstveno se koristi za:
 
-- Review logged working hours for a selected period  
-- Inspect daily time breakdowns (work, lunch, private, etc.)  
-- Add or adjust time entries when required  
-- Compare logged hours with expected working hours  
+- pregled evidentiranih radnih sati za odabrano razdoblje
+- pregled dnevne raspodjele vremena (rad, ručak, privatno i drugo)
+- dodavanje ili prilagodbu unosa vremena kada je potrebno
+- usporedbu evidentiranih sati s očekivanim radnim satima
 
-Workers typically use this screen to **track their own time**, while approved users can **review and manage time logs** for other workers.
+Zaposlenici obično ovaj ekran koriste za **praćenje vlastitog vremena**, dok odobreni korisnici mogu **pregledavati i upravljati evidencijom vremena** drugih zaposlenika.
 
-## Filters and context
+## Filtri i kontekst
 
-On the left sidebar, the following filters and selectors are available:
+S lijeve strane nalaze se sljedeći filtri i izbornici:
 
-- **Date range** – Select the period to display (for example, a full month)
-- **Worker** – Select the worker whose time logs are shown  
-  - This selector is visible only to approved users  
-  - Workers see the same screen without the worker selector
+- **Datum** – odabir razdoblja za prikaz (na primjer cijeli mjesec)
+- **Zaposlenik** – odabir zaposlenika čija se evidencija prikazuje
+  - ovaj izbornik vide samo odobreni korisnici
+  - zaposlenici vide isti ekran bez izbornika za zaposlenika
 
-Changing any of these values refreshes the displayed time logs and summary indicators.
+Promjena bilo koje od ovih vrijednosti osvježava prikazane unose vremena i sažete pokazatelje.
 
-## Summary indicators
+## Sažeti pokazatelji
 
-At the top of the screen, summary cards provide a quick overview of the selected period:
+Na vrhu ekrana sažete kartice daju brz pregled odabranog razdoblja:
 
-- **Hours** – Logged hours compared to expected working hours  
-- **Paid leave** – Total approved paid leave days  
-- **Sick leave** – Total approved sick leave days  
+- **Sati** – evidentirani sati u odnosu na očekivane radne sate
+- **Plaćeni dopust** – ukupan broj odobrenih dana plaćenog dopusta
+- **Bolovanje** – ukupan broj odobrenih dana bolovanja
 
-These indicators help quickly assess attendance and deviations.
+Ovi pokazatelji pomažu brzo procijeniti prisutnost i odstupanja.
 
-## Daily time log list
+## Dnevna lista evidencije vremena
 
-Below the summary, time logs are grouped by **day**.
+Ispod sažetka unosi vremena grupirani su po **danu**.
 
-Each row shows:
+Svaki redak prikazuje:
 
-- **Date**
-- **Total logged time for the day**
+- **datum**
+- **ukupno evidentirano vrijeme za dan**
 
-![Daily time logs](../Images/TimeLogsViewListDetail.png "Daily time logs")
+Klik na dan proširuje redak i prikazuje pojedinačne unose vremena (na primjer **Rad** i **Ručak**), s početnim i završnim vremenom svakog unosa.
 
-### Expand a day record
+![Dnevna evidencija vremena](../Images/TimeLogsViewListDetailHR.png "Dnevna evidencija vremena")
 
-Clicking a day expands the row to reveal individual time entries, such as:
+### Proširivanje dnevnog zapisa
 
-- Work
-- Lunch
-- Private
-- Other configured time types
+Klik na dan proširuje redak i prikazuje pojedinačne unose vremena, na primjer:
 
-Each entry displays its start and end time.
+- **Rad**
+- **Ručak**
+- **Privatni**
+- **Službeno putovanje**
 
-## Edit time entries
+![Vrste vremena](../Images/TimeLogsViewTypeHR.png "Vrste vremena")
 
-Clicking on an individual entry (for example, **Work** or **Lunch**) opens the **Edit time log** dialog.
+Svaki unos prikazuje svoje početno i završno vrijeme.
 
-![Edit time log](../Images/TimeLogsViewAdd.png "Edit time log")
+## Uređivanje unosa vremena
 
-From this dialog, approved users can:
+Klik na pojedinačni unos (na primjer **Rad** ili **Ručak**) otvara dijalog **Uređivanje dnevnika**.
 
-- Adjust **start and end time**
-- Change the **time type**
-- Set whether the entry was **on location**
-- Add or update a **comment**
+![Uređivanje dnevnika](../Images/TimeLogsViewEditHR.png "Uređivanje dnevnika")
 
-Changes are saved immediately and reflected in the daily and total summaries.
+U ovom dijalogu odobreni korisnici mogu:
 
-When editing the **From** and **To** fields, a combined **calendar and clock picker** is used.
+- prilagoditi **početno i završno vrijeme** (polja **Od** i **Do**)
+- promijeniti **tip vremena** (polje **Tip**, s vrstama: Privatni, Rad, Ručak i Službeno putovanje)
+- odrediti je li unos bio **na lokaciji** (**On location**)
+- dodati ili izmijeniti **komentar**
 
-![Date and time picker](../Images/TimeLogsViewTimeManagement.png "Date and time picker")
+Kada uređujete polja **Od** i **Do**, koristi se kombinirani **izbornik za datum i sat**.
 
-This allows precise selection of both the date and the exact time for a time log entry. Changes are applied once confirmed and reflected immediately in the daily totals.
+![Izbornik datuma i vremena](../Images/TimeLogsViewTimeManagementHR.png "Izbornik datuma i vremena")
 
-## Add a new time log
+Tako se može precizno odabrati i datum i točno vrijeme unosa. Promjene se primjenjuju nakon potvrde i odmah se odražavaju u dnevnim zbrojevima.
 
-Using the action button (bottom-right), approved users can manually add a new time entry.
+## Dodavanje novog unosa vremena
 
-This is typically used when:
+Gumbom radnji (dolje desno) odobreni korisnici mogu ručno dodati novi unos vremena.
 
-- A worker was unable to log time themselves  
-- Corrections are required after the fact  
+To se obično radi kada:
 
-The same dialog is used as for editing existing entries, ensuring a consistent workflow.
+- zaposlenik nije mogao sam evidentirati vrijeme
+- su nakon toga potrebne ispravke
 
-## Totals and expected working hours
+Koristi se isti dijalog kao i za uređivanje postojećih unosa, pa je tijek rada dosljedan.
 
-At the bottom of the screen, totals for the selected period are displayed:
+## Zbrojevi i očekivani radni sati
 
-- Logged working hours  
-- Paid leave  
-- Sick leave  
-- Expected working hours  
-- Difference between logged and expected hours  
+Na dnu ekrana prikazuju se zbrojevi za odabrano razdoblje:
 
-These values provide a clear overview of compliance and discrepancies for the selected worker and timeframe.
+- evidentirani radni sati (**Dužina prijave (h)**)
+- plaćeni dopust
+- bolovanje
+- **Ukupno sati** u odnosu na očekivane sate
+- **Razlika u satima** između evidentiranih i očekivanih sati
+
+Ove vrijednosti daju jasan pregled usklađenosti i odstupanja za odabranog zaposlenika i razdoblje.

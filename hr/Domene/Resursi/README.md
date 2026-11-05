@@ -1,116 +1,116 @@
 <!-- app_route: /sitemap/resources -->
 <!-- app_label: Resources -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/README.md -->
-<!-- canonical_source_title: Resources -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/README.md -->
+<!-- canonical_source_title: Resursi -->
 
-# Resources
+# Resursi
 
-The **Resources** domain manages all human-related operational data within your organization. It provides tools for planning availability, tracking time and effort, managing resource master data, and analyzing workforce utilization.
+Domena **Resursi** upravlja svim podacima o ljudima potrebnima za operativni rad u vašoj organizaciji. Pruža alate za planiranje dostupnosti, praćenje vremena i truda, upravljanje glavnim podacima o resursima te analizu radne snage.
 
-Where other domains (such as **Production**, **Maintenance**, or **Projects**) define *what work needs to be done*, the Resources domain defines *who does the work*, *when*, and *under which conditions*.
+Dok druge domene (na primjer **Proizvodnja**, **Održavanje** ili **Projekti**) određuju *koji posao treba obaviti*, domena Resursi određuje *tko obavlja posao*, *kada* i *pod kojim uvjetima*.
 
-To access this domain, navigate to **Resources** in the main navigation.
+Do domene dolazite tako da u [navigaciji](../../Zajednicko/UI/Navigacija.md) odaberete **Resursi**.
 
-![Resources Domain](Images/ResourcesDomainSitemap.png "Resources Domain")
+![Domena Resursi](Images/ResourcesDomainSitemapHR.png "Domena Resursi")
 
 > [!NOTE]  
-> The available features in the Resources domain depend on company configuration, enabled modules, and internal policies.
+> Dostupne značajke domene Resursi ovise o konfiguraciji tvrtke, uključenim modulima i internim pravilima.
 
-## What is included in the Resources domain?
+## Što je uključeno u domenu Resursi?
 
-The domain is organized into several functional areas:
+Domena je podijeljena u nekoliko funkcionalnih područja:
 
-- [**Documents**](#documents) – resource-related operational documents  
-- [**Views**](#views) – day-to-day operational and personal views  
-- [**Management**](#management) – configuration and master data  
-- [**Analytics**](#analytics) – workforce reporting and analysis  
+- [**Dokumenti**](#dokumenti) – operativni dokumenti vezani uz resurse
+- [**Pogledi**](#pogledi) – svakodnevni operativni i osobni pogledi
+- [**Upravljanje**](#upravljanje) – konfiguracija i glavni podaci
+- [**Analiza**](#analiza) – izvještavanje i analiza radne snage
 
-![Resources Domain Overview](Images/ResourcesDomainOverview.png "Resources Domain Overview")
+![Pregled domene Resursi](Images/ResourcesDomainOverviewHR.png "Pregled domene Resursi")
 
-## Documents
+## Dokumenti
 
-The **Documents** section contains formal resource-related documents used for administrative, legal, or compliance purposes.
+Odjeljak **Dokumenti** sadrži službene dokumente vezane uz resurse, koji služe za administrativne, pravne ili usklađenost s propisima.
 
-![Resources Documents](Images/ResourcesDomainDocuments.png "Resources Documents")
+![Dokumenti domene Resursi](Images/ResourcesDomainDocumentsHR.png "Dokumenti domene Resursi")
 
-Available documents include:
+Dostupni dokumenti:
 
-- **[Travel orders](Documents/TravelOrders.md)** – Register, approve, and track employee travel related to work activities, including destinations, dates, and allowances.
+- **[Putni nalozi](Dokumenti/TravelOrders.md)** – evidentiranje, odobravanje i praćenje službenih putovanja zaposlenika, uključujući odredišta, datume i dnevnice.
 
-Documents typically represent *records* rather than execution workflows.
+Dokumenti su obično *zapisi*, a ne radni tijekovi izvršavanja.
 
-## Views
+## Pogledi
 
-The **Views** section contains operational screens used by employees, team leaders, and managers to track work, time, availability, and reminders.
+Odjeljak **Pogledi** sadrži operativne ekrane koje zaposlenici, voditelji timova i rukovoditelji koriste za praćenje rada, vremena, dostupnosti i podsjetnika.
 
-These screens focus on **execution, visibility, and daily tracking**, not configuration.
+Ovi ekrani usmjereni su na **izvršavanje, vidljivost i svakodnevno praćenje**, a ne na konfiguraciju.
 
-Available views include:
+Dostupni pogledi:
 
-- **[Work items costs](Views/WorkItemsCosts.md)** – Overview of cost-related data linked to work items and assigned resources.
+- **[Troškovi zadataka](Pogledi/WorkItemsCosts.md)** – pregled troškovnih podataka povezanih sa zadacima i dodijeljenim resursima.
 
-- **[Reminders](Views/Reminders.md)** – Personal and operational reminders related to tasks, deadlines, or administrative actions.
+- **[Podsjetnici](Pogledi/Reminders.md)** – osobni i operativni podsjetnici vezani uz zadatke, rokove ili administrativne radnje.
 
-- **[Resource view](Views/ResourceView.md)** – Overview of resources, their assignments, and availability across time.
+- **[Pogled na resurse](Pogledi/ResourceView.md)** – pregled resursa, njihovih zaduženja i dostupnosti kroz vrijeme.
 
-- **[Time logs](Views/TimeLogs.md)** – Review and manage time entries recorded by resources.
+- **[Dnevnik prisutnosti](Pogledi/TimeLogs.md)** – pregled i upravljanje unosima vremena koje su evidentirali resursi.
 
-- **[Worksheets](Views/Worksheets.md)** – Structured time and activity reporting, often used for approvals or payroll processes.
+- **[Radni listovi](Pogledi/Worksheets.md)** – strukturirano izvještavanje o vremenu i aktivnostima, često za odobravanje ili obračun plaća.
 
-- **[Availability plans](Views/AvailabilityPlans.md)** – Visual representation of planned availability, absences, and working schedules.
+- **[Planovi dostupnosti](Pogledi/AvailabilityPlans.md)** – vizualni prikaz planirane dostupnosti, odsutnosti i radnih rasporeda.
 
-![Resources Views Overview](Images/ResourcesDomainOverview.png "Resources Views Overview")
+![Pregled pogleda domene Resursi](Images/ResourcesDomainOverviewHR.png "Pregled pogleda domene Resursi")
 
-## Management
+## Upravljanje
 
-The **Management** section contains configuration screens and master data required for all resource-related processes.
+Odjeljak **Upravljanje** sadrži ekrane za konfiguraciju i glavne podatke potrebne za sve procese vezane uz resurse.
 
-![Resources Management](Images/ResourcesDomainManagement.png "Resources Management")
+![Upravljanje domenom Resursi](Images/ResourcesDomainManagementHR.png "Upravljanje domenom Resursi")
 
 > [!TIP]
-> See management entries for all domains in the **[Management Index](../../ManagementIndex.md)**.
+> Sve stavke upravljanja za sve domene pogledajte u **[kazalu upravljanja](../../IndeksUpravljanja.md)**.
 
-Available configuration and master data include:
+Dostupne konfiguracije i glavni podaci uključuju:
 
-- **[Availability plan types](Management/AvailabilityPlanTypes.md)**  
-- **[Availability plans](Views/AvailabilityPlans.md)**  
-- **[Competence matrices](Management/CompetenceMatrixes.md)**  
-- **[Configuration](Management/ResourcesConfiguration.md)**  
-- **[Resources costs](Management/ResourcesCosts.md)**  
-- **[Currencies](../../Common/Management/Currencies.md)**  
-- **[Travel destinations](Management/TravelDestinations.md)**  
-- **[Travel order reasons](Management/TravelOrderReasons.md)**  
-- **[Effort types](Management/EffortTypes.md)**  
-- **[Job positions](../Production/Management/JobPositions.md)**  
-- **[Organization units](../Production/Management/OrganizationUnits.md)**  
-- **[Reminder categories](Management/ReminderCategories.md)**  
-- **[Resources](../Resources/Management/Resources.md)**  
-- **[Sick leave types](Management/SickLeaveTypes.md)**  
-- **[Subsistence allowances](Management/SubsistenceAllowances.md)**  
-- **[Timesheets](Management/Timesheets.md)**  
+- **[Tipovi raspoloživosti](Upravljanje/AvailabilityPlanTypes.md)**
+- **[Planovi dostupnosti](Pogledi/AvailabilityPlans.md)**
+- **[Matrice kompetencija](Upravljanje/CompetenceMatrixes.md)**
+- **[Konfiguracija](Upravljanje/ResourcesConfiguration.md)**
+- **[Trošak resursa](Upravljanje/ResourcesCosts.md)**
+- **[Valute](../../Zajednicko/Upravljanje/Valute.md)**
+- **[Odredišta](Upravljanje/TravelDestinations.md)**
+- **[Razlozi putovanja](Upravljanje/TravelOrderReasons.md)**
+- **[Tipovi rada](Upravljanje/EffortTypes.md)**
+- **[Sistematizacija radnih mjesta](../Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta.md)**
+- **[Organizacijske jedinice](../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)**
+- **[Kategorije podsjetnika](Upravljanje/ReminderCategories.md)**
+- **[Resursi](Upravljanje/Resources.md)**
+- **[Vrsta bolovanja](Upravljanje/SickLeaveTypes.md)**
+- **[Dnevnice](Upravljanje/SubsistenceAllowances.md)**
+- **[Radni listovi](Upravljanje/Timesheets.md)**
 
-These elements define how resources are structured, categorized, costed, and reported across the system.
+Ti elementi određuju kako su resursi strukturirani, kategorizirani, troškovno vrednovani i izvještavani u sustavu.
 
-## Analytics
+## Analiza
 
-The **Analytics** section provides insight into workforce utilization and operational efficiency.
+Odjeljak **Analiza** pruža uvid u iskorištenost radne snage i operativnu učinkovitost.
 
-![Resources Analytics](Images/ResourcesDomainAnalyticsV2.png "Resources Analytics")
+![Analiza domene Resursi](Images/ResourcesDomainAnalyticsHR.png "Analiza domene Resursi")
 
-Available analytical views include:
+Dostupni analitički pogledi:
 
-- **[Work time analysis](Analytics/WorkTimeAnalysis.md)** – Analyze worked hours, absences, availability patterns, and utilization trends.
+- **[Analiza radnog vremena](Analiza/WorkTimeAnalysis.md)** – analiza odrađenih sati, odsutnosti, obrazaca dostupnosti i trendova iskorištenosti.
 
-Analytics screens are **read-only** and support planning, optimization, and decision-making.
+Ekrani analize su **samo za čitanje** i podržavaju planiranje, optimizaciju i donošenje odluka.
 
-## Resources and Other Domains
+## Resursi i ostale domene
 
-The Resources domain integrates closely with other operational areas:
+Domena Resursi usko je povezana s drugim operativnim područjima:
 
-| Domain | Integration |
+| Domena | Povezanost |
 |------|------------|
-| [**Projects**](../Projects/README.md) | Tasks are assigned to resources; effort and availability are tracked per project. |
-| [**Production**](../Production/README.md) | Resources execute production operations and report time and effort. |
-| [**Maintenance**](../Maintenance/README.md) | Maintenance activities consume resource time and availability. |
-| [**Logistics**](../Logistics/README.md) | Travel orders and availability impact logistics planning. |
-| [**Accounting**](../Accounting/README.md) | Time, cost, and allowance data feed financial processes and reporting. |
+| [**Projekti**](../Projekti/README.md) | Zadaci se dodjeljuju resursima; trud i dostupnost prate se po projektu. |
+| [**Proizvodnja**](../Proizvodnja/README.md) | Resursi izvode proizvodne operacije i prijavljuju vrijeme i trud. |
+| [**Održavanje**](../Odrzavanje/README.md) | Aktivnosti održavanja troše vrijeme i dostupnost resursa. |
+| [**Logistika**](../Logistika/README.md) | Putni nalozi i dostupnost utječu na planiranje logistike. |
+| [**Računovodstvo**](../Racunovodstvo/README.md) | Podaci o vremenu, trošku i dnevnicama ulaze u financijske procese i izvještavanje. |

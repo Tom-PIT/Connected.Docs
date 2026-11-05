@@ -1,142 +1,138 @@
 <!-- app_route: /resources/documents/travel-orders -->
-<!-- app_label: Travel Orders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Documents/TravelOrders.md -->
-<!-- canonical_source_title: Travel Orders -->
+<!-- app_label: Putni nalozi -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Dokumenti/TravelOrders.md -->
+<!-- canonical_source_title: Putni nalozi -->
 
-# Travel Orders
+# Putni nalozi
 
-Travel Orders are used to record and manage employee business trips. They consolidate mileage, subsistence allowances, and expenses, and calculate the total trip cost.
+**Putni nalozi** služe za evidentiranje i upravljanje službenim putovanjima zaposlenika. Objedinjuju kilometražu, dnevnice i troškove te izračunavaju ukupni trošak putovanja.
 
-To access this page, go to **Resources / Documents / Travel Orders** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Resursi / Dokumenti / Putni nalozi**.
 
-## Schema
+## Shema
 
-| Field | Description |
-|------|-------------|
-| **Code** | Automatically generated travel order code (read-only). |
-| **Employee** | Employee for whom the travel order is created. |
-| **Document date** | Date of the travel order document. |
-| **Departure** | Departure date and time. |
-| **Arrival** | Arrival date and time. |
-| **Reason** | Travel reason sourced from the from [**Travel order reasons**](../Management/TravelOrderReasons.md) code list. |
-| **Means of transport** | Transport used for the trip (e.g., own vehicle). |
-| **Vehicle** | Vehicle [resource](../../Resources/Management/Resources.md); only non-human resources tagged `vehicle` are available. |
-| **Company** | Company selected from the business directory. |
-| **Location** | Travel destination. |
-| **Cost center** | Cost center assigned to the travel order. |
-| **Advance payment** | Advance payment amount (optional). |
-| **Description** | Additional notes (optional). |
+| Polje | Opis |
+|------|------|
+| **Oznaka** | Automatski generirana oznaka putnog naloga (samo za čitanje). |
+| **Zaposlenik** | Zaposlenik za kojeg se putni nalog izrađuje. |
+| **Datum dokumenta** | Datum putnog naloga. |
+| **Odlazak** | Datum i vrijeme odlaska. |
+| **Dolazak** | Datum i vrijeme dolaska. |
+| **Razlog** | Razlog putovanja iz popisa [**Razlozi putovanja**](../Upravljanje/TravelOrderReasons.md). |
+| **Prijevozno sredstvo** | Prijevoz koji se koristi za putovanje (na primjer privatno vozilo). |
+| **Vozilo** | Vozilo kao [resurs](../Upravljanje/Resources.md); dostupni su samo neljudski resursi označeni oznakom `vehicle`. |
+| **Tvrtka** | Tvrtka odabrana iz poslovnog imenika. |
+| **Lokacija** | Odredište putovanja. |
+| **Mjesto troška** | [Mjesto troška](../../../Zajednicko/Upravljanje/MjestaTroska.md) dodijeljeno putnom nalogu. |
+| **Predujam** | Iznos predujma (neobavezno). |
+| **Opis** | Dodatne napomene (neobavezno). |
 
-### Mileage
+### Kilometraža
 
-| Field | Description |
-|------|-------------|
-| **Destination** | Destination sourced from the [**Travel destinations**](../Management/TravelDestinations.md) code list. |
-| **Date** | Date of travel. |
-| **Price (per unit)** | Cost per distance unit (e.g., €/km). |
-| **Distance** | Travel distance. |
-| **Return trip** | Indicates a return trip. |
-| **Price total** | Automatically calculated mileage cost (read-only). |
-| **Description** | Optional description. |
+| Polje | Opis |
+|------|------|
+| **Destination** | Odredište iz popisa [**Odredišta**](../Upravljanje/TravelDestinations.md). |
+| **Date** | Datum putovanja. |
+| **Price (per unit)** | Cijena po jedinici udaljenosti (na primjer €/km). |
+| **Distance** | Udaljenost putovanja. |
+| **Return trip** | Označava povratno putovanje. |
+| **Price total** | Automatski izračunat trošak kilometraže (samo za čitanje). |
+| **Description** | Neobavezni opis. |
 
-### Subsistence allowances
+### Dnevnice
 
-| Field | Description |
-|------|-------------|
-| **Start date** | Start date and time of the allowance period. |
-| **End date** | End date and time of the allowance period. |
-| [**Subsistence allowance**](../Management/SubsistenceAllowances.md) | Allowance sourced from the **Subsistence allowances** code list. |
-| **Include breakfast** | Include breakfast in calculation. |
-| **Include lunch** | Include lunch in calculation. |
-| **Include dinner** | Include dinner in calculation. |
+| Polje | Opis |
+|------|------|
+| **Start date** | Datum i vrijeme početka razdoblja dnevnice. |
+| **End date** | Datum i vrijeme završetka razdoblja dnevnice. |
+| [**Dnevnica**](../Upravljanje/SubsistenceAllowances.md) | Dnevnica iz popisa **Dnevnice**. |
+| **Include breakfast** | Uključuje doručak u izračun. |
+| **Include lunch** | Uključuje ručak u izračun. |
+| **Include dinner** | Uključuje večeru u izračun. |
 
-Allowance values (reduced, half, full) are calculated automatically based on duration and included meals.
+Iznosi dnevnica (smanjeni, polovični i puni) izračunavaju se automatski prema trajanju i uključenim obrocima.
 
-### Expenses
+### Troškovi
 
-| Field | Description |
-|------|-------------|
-| [**Expense**](../../Supply/Management/Expenses.md) | Expense type. |
-| **Date** | Expense date. |
-| **Price** | Expense amount. |
-| **Description** | Optional description. |
-| **Attachment** | Uploaded receipt or supporting document. |
+| Polje | Opis |
+|------|------|
+| [**Trošak**](../../Nabava/Upravljanje/Troskovi.md) | Vrsta troška. |
+| **Date** | Datum troška. |
+| **Price** | Iznos troška. |
+| **Description** | Neobavezni opis. |
+| **Attachment** | Učitani račun ili prateći dokument. |
 
-## List view
+## Upravljanje
 
-The list shows all travel orders and provides an overview of total travel expenses.
+### Popis putnih naloga
 
-![Travel orders list](../Images/TravelOrdersList.png "Travel orders list")
+Popis prikazuje sve putne naloge i pruža pregled ukupnih putnih troškova.
 
-### Filters
+![Popis putnih naloga](../Images/TravelOrdersListHR.png "Popis putnih naloga")
 
-- **Document dates**
-- **View** — Draft / Committed
-- **Company** — filter by company
-- **Employee** — filter by employee
+#### Filtri
 
-## Actions
+- **Datumi dokumenata**
+- **Pogled** – Nacrt / Potvrđen
+- **Tvrtka** – filtriranje po tvrtki
+- **Zaposlenik** – filtriranje po zaposleniku
 
-When creating or editing a travel order, the fields described in the [**Schema**](#schema) section above are available.
+## Radnje
 
-### Create a new travel order
+Pri stvaranju ili uređivanju putnog naloga dostupna su polja opisana u odjeljku [**Shema**](#shema) iznad.
 
-1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new travel order.
-2. Enter travel order data.
-3. Add mileage, subsistence allowances, and expenses as needed.
-4. Click **Publish**.
+### Stvaranje novog putnog naloga
 
-![New travel order](../Images/TravelOrdersNew.png "New travel order")
+1. Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste stvorili novi putni nalog.
+2. Unesite podatke o putnom nalogu.
+3. Po potrebi dodajte kilometražu, dnevnice i troškove.
+4. Kliknite **Objavi**.
 
-#### Add details to a travel order
+![Novi putni nalog](../Images/TravelOrdersNewHR.png "Novi putni nalog")
 
-Each travel order can include **mileages**, **subsistence allowances**, and **expenses**. These entries are managed from the **Details** section of the travel order and contribute to the total travel cost.
+#### Dodavanje stavki putnom nalogu
 
-##### Add mileage to a travel order
+Svaki putni nalog može sadržavati **kilometražu**, **dnevnice** i **troškove**. Te se stavke upravljaju iz odjeljka **Stavke** putnog naloga i pridonose ukupnom trošku putovanja.
 
-To add mileage:
+##### Dodavanje kilometraže
 
-1. Expand the **Details** section and select the **Mileage** tab.
-2. Click **Add mileage**.
-3. Select a route from the predefined [**Travel destionations**](../Management/TravelDestinations.md). The total amount is calculated automatically based on the distance, unit price, and return-trip flag.
+1. Proširite odjeljak **Stavke** i odaberite karticu **Kilometraže**.
+2. Kliknite **Dodaj kilometražu**.
+3. Odaberite odredište iz unaprijed definiranih [**Odredišta**](../Upravljanje/TravelDestinations.md). Ukupan iznos izračunava se automatski na temelju udaljenosti, cijene po jedinici i oznake povratnog putovanja.
 
-![Add mileage](../Images/TravelOrdersDetailsMileage.png)
+![Kilometraža putnog naloga](../Images/TravelOrdersDetailsMileageHR.png "Kilometraža putnog naloga")
 
-##### Add subsistence allowance to a travel order
+##### Dodavanje dnevnice
 
-To add a subsistence allowance:
+1. Proširite odjeljak **Stavke** i odaberite karticu **Dnevnice**.
+2. Kliknite **Dodaj dnevnicu**.
+3. Odaberite dnevnicu iz popisa [**Dnevnice**](../Upravljanje/SubsistenceAllowances.md). Sustav automatski izračunava smanjeni, polovični i puni iznos dnevnice prema odabranom razdoblju i uključenim obrocima.
 
-1. Expand the **Details** section and select the **Subsistence allowances** tab.
-2. Click **Add subsistence allowance**.
-3. Select a subsistence allowance from the [**Subsistence allowances**](../Management/SubsistenceAllowances.md) code list. The system automatically calculates reduced, half, and full allowance amounts based on the selected time period and included meals.
+![Dnevnice putnog naloga](../Images/TravelOrdersDetailsAllowancesHR.png "Dnevnice putnog naloga")
 
-![Add subsistence allowance](../Images/TravelOrdersDetailsAllowances.png)
+##### Dodavanje troška
 
-##### Add an expense to a travel order
+1. Proširite odjeljak **Stavke** i odaberite karticu **Troškovi**.
+2. Kliknite **Dodaj trošak**.
+3. Odaberite trošak iz popisa [**Troškovi**](../../Nabava/Upravljanje/Troskovi.md). Prateći dokumenti mogu se priložiti uz stavku.
+4. Unesite iznos troška, opis i prilog, zatim kliknite **Dodaj**. Ukupni troškovi izračunavaju se automatski.
 
-To add an expense:
+![Troškovi putnog naloga](../Images/TravelOrdersDetailsExpensesHR.png "Troškovi putnog naloga")
 
-1. Expand the **Details** section and select the **Expenses** tab.
-2. Click **Add new expense**.
-3. Select an expense from the [**Expenses**](../../Supply/Management/Expenses.md) code list. Supporting documents can be attached to the entry.
-4. Enter the expense amount, description, and attachment, then click **Add**. Total expenses are calculated automatically.
+#### Posebna ponašanja i provjere
 
-![Add expense](../Images/TravelOrdersDetailsExpenses.png)
+- Objavljivanjem putnog naloga postaje **samo za čitanje**.
+- Ukupni iznosi kilometraže, dnevnica i troškova izračunavaju se **automatski**.
+- Popis vozila sadrži samo **neljudske resurse** označene oznakom `vehicle`.
 
-#### Special behaviours / validation
+### Uređivanje putnog naloga
 
-- Publishing a travel order makes it **read-only**.
-- Mileage, allowance, and expense totals are **calculated automatically**.
-- Vehicles list includes only **non-human resources** tagged `vehicle`.
+Otvorite putni nalog s popisa da biste uredili njegove podatke dok je u statusu **Nacrt**. Objavite putni nalog da bi postao **samo za čitanje**. Nacrt možete izbrisati ako više nije potreban.
 
-### Edit a travel order
+### Brisanje putnog naloga
 
-Open a travel order from the list to edit its data while in **Draft** status. Publish the travel order to make it **read-only**. Delete a draft if it is no longer needed.
+Putni nalozi mogu se brisati samo dok su u statusu **Nacrt**.
 
-### Delete a travel order
+Kliknite putni nalog na popisu da biste otvorili njegove pojedinosti, zatim odaberite **Izbriši**. Nakon potvrde brisanja putni nalog se trajno uklanja iz sustava.
 
-Travel orders can be deleted only while in **Draft** status.
-
-Click on a travel order in the list to open its details, then select **Delete**. After confirming the deletion, the travel order is permanently removed from the system.
-
-Deleted travel orders are permanently removed and no longer appear in the list.
+Obrisani putni nalozi trajno se uklanjaju i više se ne pojavljuju na popisu.

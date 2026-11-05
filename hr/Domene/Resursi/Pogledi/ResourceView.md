@@ -1,37 +1,37 @@
 <!-- app_route: /resources/resource -->
-<!-- app_label: Resource view -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/ResourceView.md -->
-<!-- canonical_source_title: Resource view -->
+<!-- app_label: Pogled na resurse -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/ResourceView.md -->
+<!-- canonical_source_title: Pogled na resurse -->
 
-# Resource view
+# Pogled na resurse
 
-The **Resource view** provides a **chronological timeline of effort recorded in the system** for the **currently logged-in user**.
+**Pogled na resurse** prikazuje **kronološku vremensku crtu evidentiranog truda u sustavu** za **trenutno prijavljenog korisnika**.
 
-To access **Resource view**, go to **Resources / Resource view** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog pogleda dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Resursi / Pogled na resurse**.
 
-### Overview
+### Pregled
 
-This view shows **when and where effort was recorded** by the logged-in user, displayed on a vertical timeline.
+Ovaj pogled prikazuje **kada i gdje je trud evidentiran** od strane prijavljenog korisnika, na okomitoj vremenskoj crti.
 
-![Resource View](../Images/ResourceView.png "Resource View")
+![Pogled na resurse](../Images/ResourcesViewTimelineHR.png "Pogled na resurse")
 
 > [!NOTE]
-> This view is intended for **review and analysis only**, allowing users to see how their recorded effort is distributed over time. No data is entered or edited from this screen.
+> Ovaj pogled namijenjen je **samo za pregled i analizu**, kako bi korisnici mogli vidjeti kako je evidentirani trud raspoređen kroz vrijeme. S ovog ekrana ne unose se niti uređuju podaci.
 
-## Timeline
+## Vremenska crta
 
-The main area of the screen is a **time-based timeline**, ordered chronologically.
+Glavni dio ekrana je **vremenska crta** poredana po datumu.
 
-Each entry represents recorded effort and typically shows:
+Svaki unos predstavlja evidentirani trud i obično prikazuje:
 
-- The related task or operation
-- The amount of effort recorded
-- Whether the effort was planned or unplanned
+- povezani zadatak ili operaciju
+- količinu evidentiranog truda
+- je li trud bio planiran ili neplaniran
 
-Dates are displayed as timeline markers, making it easy to understand **when work was performed**.
+Datumi se prikazuju kao oznake na crti, pa je lako vidjeti **kada je rad obavljen**.
 
-## Realization
+## Realizacija
 
-The timeline displays **realized (actual) effort** only.
+Vremenska crta prikazuje samo **ostvareni (stvarni) trud**.
 
-It reflects effort already recorded in the system through tasks, operations, or time logging.
+Odražava trud koji je već evidentiran u sustavu kroz zadatke, operacije ili evidenciju vremena.

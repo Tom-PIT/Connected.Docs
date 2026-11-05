@@ -1,76 +1,76 @@
 <!-- app_route: /management/resources/reminders -->
-<!-- app_label: Reminders -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Resources/Views/Reminders.md -->
-<!-- canonical_source_title: Reminders -->
+<!-- app_label: Podsjetnici -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/Reminders.md -->
+<!-- canonical_source_title: Podsjetnici -->
 
-# Reminders
+# Podsjetnici
 
-The **Reminders** view provides a calendar-based overview of scheduled reminders and allows users to create notifications for important events, deadlines, and follow-ups.
+Pogled **Podsjetnici** prikazuje kalendar zakazanih podsjetnika i omogućuje stvaranje obavijesti za važne događaje, rokove i praćenje.
 
-To access **Reminders**, go to **Resources / Reminders** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog pogleda dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Resursi / Podsjetnici**.
 
-![Reminders calendar](../Images/RemindersCalendar.png)
+![Kalendar podsjetnika](../Images/RemindersHR.png "Kalendar podsjetnika")
 
-## Schema
+> [!NOTE]
+> Nazivi podsjetnika na slikama (na primjer *Customer follow-up*) i kategorija (na primjer *Delivery scheduling*) su podaci iz aplikacije i prikazani su onako kako ih aplikacija prikazuje.
 
-The following fields are used when creating or editing a reminder:
+## Shema
 
-| Field | Description |
-|------|------------|
-| **Reminder date** | The target date and time the reminder refers to (for example a deadline, expiration date, or planned event). |
-| **Category** | Classification of the reminder, selected from predefined [reminder categories](../Management/ReminderCategories.md). |
-| **Users** | Users who will receive the reminder notification. |
-| **Reminder offset (Months, Days, Hours, Minutes)** | Time offset that defines **how long before the reminder date** the notification should be triggered. |
+Sljedeća polja koriste se pri stvaranju ili uređivanju podsjetnika:
 
-## Reminders calendar view
+| Polje | Opis |
+|------|------|
+| **Datum podsjetnika** | Ciljni datum i vrijeme na koji se podsjetnik odnosi (na primjer rok, datum isteka ili planirani događaj). |
+| **Kategorija** | Vrsta podsjetnika, odabrana iz unaprijed definiranih [kategorija podsjetnika](../Upravljanje/ReminderCategories.md). |
+| **Korisnici** | Korisnici koji će primiti obavijest o podsjetniku. |
+| **Mjeseci, Dani, Sati, Minute** | Vremenski pomak koji određuje **koliko prije datuma podsjetnika** se obavijest šalje. |
 
-Reminders are displayed in a **monthly calendar view**.
+## Kalendar podsjetnika
 
-- Each reminder appears on its scheduled date
-- Multiple reminders can exist on the same day
-- Users can navigate between months
+Podsjetnici se prikazuju u **mjesečnom kalendaru**.
 
-### Hover preview
+- Svaki podsjetnik pojavljuje se na datumu na koji je zakazan
+- Na istom danu može biti više podsjetnika
+- Između mjeseci možete prelaziti strelicama iznad kalendara
 
-Hovering over a reminder opens an information tooltip showing:
+### Pregled pri zadržavanju miša
 
-- Reminder name
-- Reminder date and time
-- Offset configuration
+Kada zadržite miš iznad podsjetnika, pojavljuje se oblačić s nazivom podsjetnika.
 
-![Reminder hover details](../Images/RemindersCalendarHover.png)
+![Pregled podsjetnika pri zadržavanju miša](../Images/RemindersHoverHR.png "Pregled podsjetnika pri zadržavanju miša")
 
-## Actions
+## Radnje
 
-### Create a new reminder
-A new reminder is created using the reminder dialog.
+### Stvaranje novog podsjetnika
 
-![Create reminder](../Images/RemindersCalendarNew.png)
+Novi podsjetnik stvara se **dvostrukim klikom na dan** u kalendaru. Otvara se dijalog za podsjetnik s unaprijed upisanim datumom tog dana.
 
-The reminder dialog allows configuring the reminder date, category, users, and offset.
+![Novi podsjetnik](../Images/RemindersDialogHR.png "Novi podsjetnik")
 
-### Edit a reminder
+U dijalogu odredite datum podsjetnika, kategoriju, korisnike i vremenski pomak, zatim kliknite **Gotov**.
 
-**Double-click** on a reminder to open it in edit mode. Reminder details such as date, category, users, and offset can be modified.
+### Uređivanje podsjetnika
 
-### Reminder offset usage
+**Dvostrukim klikom** na podsjetnik otvara se u načinu uređivanja. <!-- TODO: provjeriti na ekranu --> Datum, kategorija, korisnici i vremenski pomak mogu se mijenjati.
 
-The reminder offset defines **when the reminder notification is triggered relative to the reminder date**.
+### Korištenje vremenskog pomaka
 
-The offset is calculated **backwards** from the reminder date.
+Vremenski pomak određuje **kada se obavijest o podsjetniku šalje u odnosu na datum podsjetnika**.
 
-Examples:
+Pomak se računa **unatrag** od datuma podsjetnika.
 
-- **Months: 0, Days: 0, Hours: 0, Minutes: 0**  
-  → The reminder triggers **exactly at the reminder date and time**
+Primjeri:
 
-- **Days: 1**  
-  → The reminder triggers **one day before** the reminder date
+- **Mjeseci: 0, Dani: 0, Sati: 0, Minute: 0**  
+  → podsjetnik se šalje **točno na datum i vrijeme podsjetnika**
 
-- **Hours: 2, Minutes: 30**  
-  → The reminder triggers **2 hours and 30 minutes before**
+- **Dani: 1**  
+  → podsjetnik se šalje **jedan dan prije** datuma podsjetnika
 
-- **Months: 1**  
-  → The reminder triggers **one month before**
+- **Sati: 2, Minute: 30**  
+  → podsjetnik se šalje **2 sata i 30 minuta prije**
 
-This mechanism allows reminders to be scheduled in advance for tasks such as offer expirations, inspections, meetings, or follow-ups.
+- **Mjeseci: 1**  
+  → podsjetnik se šalje **mjesec dana prije**
+
+Taj mehanizam omogućuje da se podsjetnici zakazuju unaprijed za zadatke kao što su isteci ponuda, inspekcije, sastanci ili praćenje.
