@@ -49,36 +49,40 @@ Kliknite **Prenesi**, da pridobite primer uvozne datoteke v izbrani obliki. Prim
 
 ## Struktura preglednice
 
-Uvozna datoteka mora vsebovati spodaj navedene stolpce. Vsaka vrstica predstavlja en material, ki bo uvožen.
+Uvozna datoteka mora v prvi vrstici imeti glavo s spodaj navedenimi nazivi stolpcev v tem vrstnem redu. Vsaka naslednja vrstica predstavlja en material, ki bo uvožen.
 
 > [!IMPORTANT]
-> - Ne spreminjajte vrstnega reda stolpcev. Kot referenco uporabite primerno datoteko.
-> - Materiali morajo imeti enolične vrednosti v stolpcu **Koda**, da se izognete konfliktom.
+> - Ne spreminjajte vrstnega reda stolpcev in nazivov stolpcev v glavi. Kot referenco uporabite primerno datoteko.
+> - Materiali morajo imeti enolične vrednosti v stolpcu **Code**, da se izognete konfliktom.
 > - Prazna neobvezna polja bodo uvožena kot prazne vrednosti.
-> - URL-ji (URL slike, URL informacij) morajo biti veljavni ali prazni.
+> - URL-ji (**ImageUrl**, **InfoUrl**) morajo biti veljavni ali prazni.
+> - V primerni datoteki so vrednosti ločene s podpičjem (`;`), decimalna števila pa so zapisana z vejico (na primer `0,56`).
 
 | Stolpec | Opis |
 |--------|------|
-| **Tip** | Tip materiala: **Izdelki**, **Polizdelki**, **Repro materiali**, **Surovine**. |
-| **Šifra** | Enolični identifikator materiala. Če material z isto šifro že obstaja, se zapis posodobi. |
-| **Naziv** | Polno ime materiala. |
-| **Merska enota** | Merska enota za količine. Mora ustrezati obstoječi **merski enoti**. |
-| **Oznake** | Neobvezne oznake za razvrščanje. Več oznak ločite z vejicami. |
-| **Opis** | Neobvezno besedilo z opisom materiala. |
-| **EAN** | Vrednost črtne šifre materiala. |
-| **Datum do (dni)** | Število dni do poteka materiala. |
-| **URL slike** | URL do slike materiala. |
-| **URL informacij** | URL do zunanje informacijske strani o materialu. |
-| **Natančnost** | Število decimalnih mest za prikaz vrednosti. |
-| **Ime davčne stopnje** | Ime davčne stopnje. Mora ustrezati obstoječi davčni stopnji. |
-| **Davčna stopnja** | Odstotek davka, ki se uporabi za material. |
-| **Toleranca** | Dovoljeno odstopanje količine materiala v odstotkih. Privzeta vrednost za nove materiale je 1. |
-| **Zunanji ključ** | Identifikator v zunanjem sistemu. |
+| **Type** | Tip materiala, na primer **Proizvod**, **Poluproizvodi** ali **Materijal**. Vrednosti vnesite tako, kot so zapisane v primerni datoteki. |
+| **Code** | Enolični identifikator materiala. Če material z isto šifro že obstaja, se zapis posodobi. |
+| **Name** | Polno ime materiala. |
+| **MeasureUnitAbbreviation** | Okrajšava merske enote za količine. Mora ustrezati obstoječi [merski enoti](../../../Skupno/Upravljanje/MerskeEnote.md). |
+| **Tags** | Neobvezne oznake za razvrščanje. Več oznak ločite z vejicami. |
+| **Description** | Neobvezno besedilo z opisom materiala. |
+| **Ean** | Vrednost črtne kode materiala. |
+| **DefaultExpirationInDays** | Število dni do poteka materiala. |
+| **ImageUrl** | URL do slike materiala. |
+| **InfoUrl** | URL do zunanje informacijske strani o materialu. |
+| **Precision** | Število decimalnih mest za prikaz vrednosti. |
+| **TaxRateName** | Ime davčne stopnje. Mora ustrezati obstoječi [davčni stopnji](../../../Skupno/Upravljanje/DavcneStopnje.md). |
+| **TaxRateValue** | Odstotek davka, ki se uporabi za material. |
+| **ExternalKey** | Identifikator v zunanjem sistemu. |
+| **Tolerance** | Dovoljeno odstopanje količine materiala v odstotkih. Privzeta vrednost za nove materiale je 1. |
 
 ## Primer vrstice
 
+Glava in prva vrstica primerne datoteke:
+
 ```
-Izdelki,C0000001,Acme izdelek 1,Kg,ACME,Acme izdelek 1,C000EAN1,0,https://google.com;https://google.com,0,DDV,22,EXT01
+Type;Code;Name;MeasureUnitAbbreviation;Tags;Description;Ean;DefaultExpirationInDays;ImageUrl;InfoUrl;Precision;TaxRateName;TaxRateValue;ExternalKey;Tolerance
+Proizvod;C0000001;Acme izdelek 1;Kg;ACME;Acme izdelek 1;C000EAN1;0;https://google.com;https://google.com;0;DDV;22;EXT01;0,56
 ```
 
 ## Urediti datoteke
