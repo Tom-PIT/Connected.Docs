@@ -1,109 +1,109 @@
 <!-- app_route: /management/knowledge/directories -->
 <!-- app_label: Directories -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/Articles.md -->
-<!-- canonical_source_title: Articles -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/Articles.md -->
+<!-- canonical_source_title: Članci -->
 
-# Articles
+# Članci
 
-**Articles** are the main content units of the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). They contain written documentation such as instructions, guidelines, procedures, and reference information.
+**Članci** su glavne jedinice sadržaja u [**bazi znanja**](../BazaZnanja/BazaZnanja.md). Sadrže pisanu dokumentaciju, kao što su upute, smjernice, postupci i referentne informacije.
 
-Articles belong to a **directory** and can be organized and navigated using the directory’s [table of contents](TableOfContents.md).
+Članci pripadaju **imeniku** i mogu se organizirati i pregledavati pomoću [kazala](TableOfContents.md) imenika.
 
-To manage articles, go to **Knowledge / Management / Directories** in the [navigation](../../../Zajednicko/UI/Navigacija.md) and click **Articles** under the desired directory (see [**Directories**](Directories.md)).
+Za upravljanje člancima idite na **Znanje / Upravljanje / Imenici** u [navigaciji](../../../Zajednicko/UI/Navigacija.md) i kliknite **Članci** kod željenog imenika (vidi [**Imenici**](Directories.md)).
 
-## Schema
+## Shema
 
-| Field | Description |
-|------|-------------|
-| **Title** | Display title of the article (mandatory). |
-| **Key** | Short unique identifier for the article (mandatory). |
-| **Content** | Main article text edited using the text editor. |
-| **Attachments** | Optional files attached to the article. |
-| **Tags** | Tags used to categorize and filter the article. |
-| **Publish date** | Date from which the article becomes visible. |
-| **Expiration date** | Date after which the article is no longer visible. |
-| **Collaboration** | Enables or disables comments on the article. |
-| **Auto save** | Automatically saves changes while editing. |
+| Polje | Opis |
+|------|------|
+| **Adresa** | Prikazani naslov članka (obavezno). |
+| **Ključ** | Kratki jedinstveni identifikator članka (obavezno). |
+| **Sadržaj** | Glavni tekst članka, uređuje se u uređivaču teksta. |
+| **Prilog** | Neobavezne datoteke priložene članku. |
+| **Oznake** | Oznake kojima se članak kategorizira i filtrira. |
+| **Datum objave** | Datum od kojeg je članak vidljiv. |
+| **Datum valjanosti** | Datum nakon kojeg članak više nije vidljiv. |
+| **Suradnja** | Omogućuje ili onemogućuje komentare na članku. |
+| **Automatsko spremanje** | Automatski sprema promjene dok uređujete. |
 
-## Management
+## Upravljanje
 
-### Articles list
+### Popis članaka
 
-The list view displays all articles belonging to the selected directory.
+![Popis članaka](../Images/ArticlesListHR.png "Popis članaka")
 
-Each row shows:
-- **Article title**
-- **Last modified date**
+Popis prikazuje sve članke koji pripadaju odabranom imeniku.
 
-![ArticlesList](../Images/ArticlesList.png "Articles list")
+Svaki redak prikazuje:
+- **naslov članka**
+- **datum zadnje izmjene**
 
-Articles can be searched using the **Search** field in the top-right corner.
+Članci se mogu pretraživati pomoću polja **Pretraživanje** u gornjem desnom kutu.
 
-Clicking an article opens it for editing.
+Klik na članak otvara ga za uređivanje.
 
-## Actions
+## Radnje
 
-Click the action button to create a new article.
+Kliknite gumb radnji da biste stvorili novi članak.
 
-### Add a new article
+### Dodavanje novog članka
 
-When creating or editing an article, the fields described in the [Schema](#schema) section above are available.
+Pri stvaranju ili uređivanju članka dostupna su polja opisana u odjeljku [Shema](#shema) iznad.
 
-![ArticlesEdit](../Images/ArticlesEdit.png "Edit article")
+![Uređivanje članka](../Images/ArticlesEditHR.png "Uređivanje članka")
 
-While editing an article, click **View** in the top-left corner to preview how the article will appear in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md).
+Dok uređujete članak, kliknite **Pogled** u gornjem lijevom kutu da biste pregledali kako će se članak prikazati u [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
 
-Changes are saved automatically when **Auto save** is enabled.
+Promjene se spremaju automatski ako je uključeno **Automatsko spremanje**.
 
-## Text editor
+## Uređivač teksta
 
-The article content is written using a built-in **text editor**.
+Sadržaj članka piše se u ugrađenom **uređivaču teksta**.
 
-![ArticlesTextEditor](../Images/ArticlesTextEditor.png "Text editor")
+![Uređivač teksta](../Images/ArticlesTextEditorHR.png "Uređivač teksta")
 
-The editor provides common formatting features found in most text editors, including:
+Uređivač nudi uobičajene mogućnosti oblikovanja kao i većina uređivača teksta, uključujući:
 
-- Text formatting (headings, bold, italics, lists)
-- Text alignment
-- Links and images
-- Fullscreen editing
+- oblikovanje teksta (naslove, podebljano, kurziv, popise)
+- poravnanje teksta
+- poveznice i slike
+- uređivanje preko cijelog zaslona (**Puni zaslon**)
 
-The editor is designed to support clear, structured documentation without requiring technical knowledge.
+Uređivač je osmišljen za jasnu i strukturiranu dokumentaciju bez potrebe za tehničkim znanjem.
 
-## Attachments
+## Prilozi
 
-Articles can include **file attachments** such as documents or images.
+Članci mogu sadržavati **priloge**, poput dokumenata ili slika.
 
-Attachments are uploaded using the **drop zone** in the article edit screen and are displayed with the article content in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md).
+Prilozi se učitavaju pomoću područja **Prilog** na ekranu za uređivanje članka i prikazuju se uz sadržaj članka u [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
 
-## Tags
+## Oznake
 
-Tags are used to categorize articles and make them easier to find in the system.
+Oznake se koriste za kategorizaciju članaka i lakše pronalaženje u sustavu.
 
-Tags are selected from **[Directory tags](DirectoryTags.md)** and can be reused across multiple articles.
+Oznake se biraju iz [**Oznaka imenika**](DirectoryTags.md) i mogu se ponovno koristiti u više članaka.
 
-## Publish and schedule articles
+## Objava i zakazivanje članaka
 
-Articles can be scheduled using:
+Članci se mogu zakazati pomoću:
 
-- **Publish date** – defines when the article becomes visible
-- **Expiration date** – defines when the article is no longer visible
+- **Datum objave** – određuje kada članak postaje vidljiv
+- **Datum valjanosti** – određuje kada članak više nije vidljiv
 
-If no dates are set, the article is visible immediately and indefinitely.
+Ako datumi nisu postavljeni, članak je vidljiv odmah i bez vremenskog ograničenja.
 
-## Collaboration
+## Suradnja
 
-When **Collaboration** is enabled, users can add comments to the article.
+Kada je **Suradnja** uključena, korisnici mogu dodavati komentare na članak.
 
-This allows feedback, clarification, and discussion directly on the documentation.
+Tako se povratne informacije, pojašnjenja i rasprave vode izravno uz dokumentaciju.
 
-## Delete an article
+## Brisanje članka
 
-Click **Delete** on the article edit screen to open a confirmation dialog:
+Kliknite **Izbriši** na ekranu za uređivanje članka da biste otvorili dijalog za potvrdu:
 
-**Are you sure you want to delete this record?**
+**Jeste li sigurni da želite izbrisati zapis?**
 
-If confirmed, the article is permanently removed.
+Ako potvrdite, članak se trajno uklanja.
 
 > [!NOTE]
-> Deleting an article also removes it from the directory’s table of contents.
+> Brisanje članka uklanja ga i iz kazala imenika.

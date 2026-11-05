@@ -1,71 +1,60 @@
 <!-- app_route: /management/knowledge/directory-tags -->
 <!-- app_label: Directory tags -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/DirectoryTags.md -->
-<!-- canonical_source_title: Directory tags -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/DirectoryTags.md -->
+<!-- canonical_source_title: Oznake imenika -->
 
-# Directory tags
+# Oznake imenika
 
-The **Directory tags** code list defines tags that can be assigned to **Knowledge articles**. Tags help categorize content and improve searching and filtering within the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md).
+Popis šifara **Oznake imenika** određuje oznake koje se mogu dodijeliti **člancima** domene Znanje. Oznake pomažu u kategorizaciji sadržaja i olakšavaju pretraživanje i filtriranje u [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
 
-Directory tags are shared across the **Knowledge** domain and can be reused by multiple directories and articles.
+Oznake imenika zajedničke su cijeloj domeni Znanje i mogu se ponovno koristiti u više imenika i članaka.
 
-To access this screen, go to **Knowledge / Management / Directory tags** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Znanje / Upravljanje / Oznake imenika**.
 
-## Schema
+## Shema
 
-| Field | Description |
-|------|-------------|
-| **Tag** | Name of the directory tag (mandatory). |
+| Polje | Opis |
+|------|------|
+| **Oznaka** | Naziv oznake imenika (obavezno). |
 
-## Management
+## Upravljanje
 
-### Directory tags list
+### Popis oznaka imenika
 
-The list view displays all configured directory tags.
+![Popis oznaka imenika](../Images/DirectoryTagsListHR.png)
 
-![DirectoryTagsList](../Images/DirectoryTagsList.png)
+Popis prikazuje sve konfigurirane oznake imenika.
 
-Each row shows:
-- **Tag** – tag name used to classify Knowledge [articles](Articles.md)
+Svaki redak prikazuje:
+- **Oznake** – naziv oznake kojom se klasificiraju [članci](Articles.md) domene Znanje
 
-You can use the **Search** bar to quickly filter tags by name.
+Oznake možete brzo filtrirati po nazivu pomoću polja **Pretraživanje**.
 
-Clicking a tag opens it for editing.
+Klik na oznaku otvara je za uređivanje.
 
-## Actions
+## Radnje
 
-Select a directory from the left panel, then click the action button to add a new directory tag.
+### Dodavanje nove oznake imenika
 
-### Add new directory tag
+U lijevom bočnom panelu odaberite **Imenik**, zatim kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste dodali novu oznaku imenika.
 
-Enter the required **Tag** name.
- 
-![DirectoryTagsNew](../Images/DirectoryTagsNew.png)
+Unesite potrebni naziv u polje **Oznaka**.
 
-Click **Add** to save the new tag.
+![Nova oznaka imenika](../Images/DirectoryTagsNewHR.png)
 
-The tag becomes immediately available for use in Knowledge [articles](Articles.md).
+Kliknite **Dodaj** da biste spremili novu oznaku.
 
-## Edit a directory tag
+Oznaka odmah postaje dostupna za korištenje u [člancima](Articles.md).
 
-Click a directory tag in the list to open its edit screen.
+## Uređivanje oznake imenika
 
-![DirectoryTagsEdit](../Images/DirectoryTagsEdit.png)
+Kliknite oznaku na popisu da biste otvorili ekran za uređivanje.
 
-From the edit screen you can:
+![Uređivanje oznake imenika](../Images/DirectoryTagsEditHR.png)
 
-- **Modify the tag name**
-- **Review articles** that currently use this tag (read-only list)
+Na ekranu za uređivanje možete:
 
-The **Articles** section helps you understand where the tag is used before making changes or deleting it.
+- **mijenjati naziv oznake**
+- **pregledati članke** koji trenutno koriste tu oznaku (popis samo za čitanje)
 
-Click **Save** to confirm changes, or **Cancel** to discard them and return to the list.
-
-## Delete a directory tag
-
-Click **Delete** on the edit screen to open a confirmation dialog:
-
-**Are you sure you want to delete this record?**
-
-If confirmed, the tag is permanently removed; otherwise, the system keeps it unchanged.
-
+Odjeljak **Članak** pomaže vam da prije izmjene ili brisanja oznake vidite gdje se koristi.

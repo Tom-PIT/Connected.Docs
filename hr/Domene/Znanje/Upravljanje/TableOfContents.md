@@ -1,104 +1,111 @@
 <!-- app_route: /management/knowledge/directories -->
 <!-- app_label: Directories -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/TableOfContents.md -->
-<!-- canonical_source_title: Table of contents -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/TableOfContents.md -->
+<!-- canonical_source_title: Kazalo -->
 
-# Table of contents
+# Kazalo
 
-The **Table of contents** defines the **navigation structure** inside a directory in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). It allows directories to organize articles hierarchically and provides users with a clear way to browse content.
+**Kazalo** određuje **strukturu navigacije** unutar imenika u [**bazi znanja**](../BazaZnanja/BazaZnanja.md). Omogućuje imeniku da članke organizira hijerarhijski i korisnicima daje jasan način pregledavanja sadržaja.
 
-A directory can contain **one or more** tables of contents. Each table of contents is displayed as a tree and can include folders, article links, and URLs.
+Imenik može sadržavati **jedno ili više** kazala. Svako kazalo prikazuje se kao stablo i može sadržavati mape, poveznice na članke i URL-ove.
 
-To manage the table of contents, go to **Knowledge / Management / Directories** in the [navigation](../../../Zajednicko/UI/Navigacija.md) and click **Table of contents** under the desired directory. See [Directories](Directories.md).
+Kazalo uređujete tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Znanje / Upravljanje / Imenici** i kliknete **Kazalo** kod željenog imenika (vidi [**Imenici**](Directories.md)).
 
-![TableOfContentsList](../Images/TableOfContentsList.png)
+![Popis kazala](../Images/TableOfContentsListHR.png)
 
-### Overview
+### Pregled
 
-The table of contents is displayed as a **tree structure** and can contain:
+Kazalo se prikazuje kao **stablo** i može sadržavati:
 
-- **Folders** – used to group entries
-- **Articles** – links to Knowledge [articles](Articles.md)
-- **URLs** – links to external resources
+- **mape** – služe za grupiranje stavki
+- **članke** – poveznice na [članke](Articles.md) domene Znanje
+- **URL-ove** – poveznice na vanjske izvore
 
-Entries are ordered using an **ordinal value** and can be enabled or disabled.
+Stavke se poredaju prema **rednom broju**.
 
 > [!TIP]
-> Reordering entries is done via the **Ordinal** field. Drag-and-drop is not supported.
+> Redoslijed stavki mijenja se u polju **Redoslijed**. Povlačenje i ispuštanje nije podržano.
 
-## Schema
+## Shema
 
-| Field | Description |
-|------|-------------|
-| **Type** | Defines the entry type: Folder, Article, or URL. |
-| **Title** | Display title of the table of contents entry. |
-| [**Article**](Articles.md) | Article linked to the entry (available when Type = Article). |
-| **Hyperlink** | Displayed hyperlink text for URL entries. |
-| **Ordinal** | Position of the entry within its level of the table of contents. |
-| **Enabled** | Controls whether the entry is visible in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). |
-| **Show unused** | Shows articles not yet used in the table of contents when selecting an [article](Articles.md). |
-| **Synchronize title** | Keeps the entry title synchronized with the linked [article](Articles.md) title. |
+| Polje | Opis |
+|------|------|
+| **Tip** | Vrsta stavke: **Mapa**, **Članak** ili **Url**. Naziv vrste ostaje u obliku u kojem ga prikazuje aplikacija. |
+| **Naziv** | Prikazani naziv stavke kazala. |
+| **Omogućen** | Samo za glavno kazalo imenika: određuje je li kazalo vidljivo u [**bazi znanja**](../BazaZnanja/BazaZnanja.md). |
+| [**Članak**](Articles.md) | Članak povezan sa stavkom (dostupno kada je Tip = Članak). |
+| **Hiperveza** | Prikazani tekst poveznice za stavke tipa URL. |
+| **Redoslijed** | Položaj stavke unutar njezine razine u kazalu. |
+| **Prikaži neupotrebljene** | Prikazuje članke koji još nisu upotrijebljeni u kazalu pri odabiru [članka](Articles.md). |
+| **Uskladi naziv** | Održava naziv stavke usklađenim s nazivom povezanog [članka](Articles.md). |
 
-## Create a table of contents
+## Stvaranje kazala
 
-If a directory does not yet have any table of contents, the screen appears empty.
+Ako imenik još nema kazalo, ekran je prazan.
 
-To create a new table of contents, click the **folder icon**.
+Za stvaranje novog kazala kliknite **ikonu mape** u alatnoj traci.
 
-![TableOfContentsAdd](../Images/TableOfContentsAdd.png)
+![Dodavanje kazala](../Images/TableOfContentsAddHR.png)
 
-A directory can contain multiple tables of contents.  
-To create a new table of contents (root), make sure you are **not focused on an existing table of contents** in the sidebar, then click the **folder icon**.
+Imenik može sadržavati više kazala.  
+Za stvaranje novog kazala (korijena) provjerite da u bočnom panelu **nije odabrano postojeće kazalo**, zatim kliknite **ikonu mape**.
 
-## Create a table of contents entry
+Na ekranu za uređivanje glavnog kazala možete omogućiti ili onemogućiti cijelo kazalo pomoću polja **Omogućen** i promijeniti njegov **Naziv**.
 
-To add entries, first select the target **table of contents** in the sidebar, then click the **file icon** to add a new entry.
+![Uređivanje glavnog kazala](../Images/TableOfContentsRootEditHR.png "Uređivanje glavnog kazala")
 
-When creating an entry, select the desired **Type** and fill in the relevant fields.
+## Stvaranje stavke kazala
 
-![TableOfContentsNewEntry](../Images/TableOfContentsNewEntry.png)
+Za dodavanje stavki prvo u bočnom panelu odaberite ciljno **kazalo**, zatim kliknite **ikonu dokumenta** da biste dodali novu stavku.
 
-Click **Add** to create the entry.
+Pri stvaranju stavke odaberite **Tip** i ispunite potrebna polja.
 
-## Edit entries
+![Nova stavka kazala](../Images/TableOfContentsNewEntryHR.png)
 
-Click an existing folder or entry in the tree to open its edit screen.
+Kliknite **Dodaj** da biste stvorili stavku.
 
-From the edit screen you can:
+Za stavku tipa **Url** prikazuju se polja **Hiperveza** (tekst poveznice) i **Naziv**.
 
-- Change the **title**
-- Update the **ordinal**
-- Enable or disable the entry
-- Change the linked **article** or **URL**, depending on the type
-- For **Article** entries, the title can optionally be synchronized with the [article](Articles.md) title.
+![Nova stavka kazala tipa Url](../Images/TableOfContentsNewUrlHR.png "Nova stavka kazala tipa Url")
 
-If a **folder** is selected in the tree, new entries created will be added **inside that folder**, allowing you to build a nested table of contents structure.
+## Uređivanje stavki
 
-![Table Of Contents Nested Folders](../Images/TableOfContentsNestedFolders.png "Table Of Contents Nested Folders")
+Kliknite postojeću mapu ili stavku u stablu da biste otvorili ekran za uređivanje.
 
-## Ordering and hierarchy
+Na ekranu za uređivanje možete:
 
-- Entries are displayed according to their **ordinal** value
-- Folders can contain other folders or entries
-- The hierarchy defines how users navigate content in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)
+- promijeniti **naziv**
+- promijeniti **redoslijed**
+- promijeniti povezani **članak** ili **URL**, ovisno o tipu
+- za stavke tipa **Članak** naziv možete po želji uskladiti s nazivom [članka](Articles.md).
 
-Changes to the table of contents are reflected immediately in the selected directory.
+Ako je u stablu odabrana **mapa**, nove stavke koje stvorite dodaju se **unutar te mape**, što omogućuje izradu ugniježdene strukture kazala.
+
+![Ugniježđene mape u kazalu](../Images/TableOfContentsNestedFoldersHR.png "Ugniježđene mape u kazalu")
+
+## Redoslijed i hijerarhija
+
+- stavke se prikazuju prema vrijednosti **Redoslijed**
+- mape mogu sadržavati druge mape ili stavke
+- hijerarhija određuje kako korisnici pregledavaju sadržaj u [**bazi znanja**](../BazaZnanja/BazaZnanja.md)
+
+Promjene u kazalu odmah se odražavaju u odabranom imeniku.
 
 > [!NOTE]
-> The table of contents controls **navigation only**. Article content is managed separately in **[Articles](Articles.md)**.
+> Kazalo upravlja **samo navigacijom**. Sadržaj članaka upravlja se zasebno, u [člancima](Articles.md).
 
-## Delete a table of contents or entry
+## Brisanje kazala ili stavke
 
-Click **Delete** on a table of contents or entry to open a confirmation dialog:
+Kliknite **Izbriši** kod kazala ili stavke da biste otvorili dijalog za potvrdu:
 
-**Are you sure you want to delete this record?**
+**Jeste li sigurni da želite izbrisati zapis?**
 
-If confirmed, the table of contents or entry is permanently removed.
+Ako potvrdite, kazalo ili stavka se trajno uklanja.
 
-## Using the table of contents in the Knowledge base
+## Korištenje kazala u bazi znanja
 
-Once configured, the table of contents is used when browsing a directory in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md).
+Nakon postavljanja kazalo se koristi pri pregledavanju imenika u [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
 
-Inside a directory, click the **hamburger icon** to open the table of contents panel. This panel allows users to navigate between folders and articles defined in the table of contents.
+Unutar imenika kliknite **ikonu hamburgera** da biste otvorili bočni panel kazala. Pomoću njega korisnici se kreću između mapa i članaka definiranih u kazalu.
 
-![Knowledge Base Directory T O C](../Images/KnowledgeBaseDirectoryTOC.png "Knowledge Base Directory T O C")
+![Kazalo imenika u bazi znanja](../Images/KnowledgeBaseDirectoryTOCHR.png "Kazalo imenika u bazi znanja")

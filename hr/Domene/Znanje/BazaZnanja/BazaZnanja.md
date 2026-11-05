@@ -1,125 +1,124 @@
 <!-- app_route: /knowledge/ -->
 <!-- app_label: Knowledge base -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/KnowledgeBase/KnowledgeBase.md -->
-<!-- canonical_source_title: Knowledge base -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/BazaZnanja/BazaZnanja.md -->
+<!-- canonical_source_title: Baza znanja -->
 
-# Knowledge base
+# Baza znanja
 
-The **Knowledge base** is the main screen where all **published Knowledge content** is presented. It provides users with a central place to browse, search, and read internal documentation such as instructions, guidelines, procedures, and reference articles.
+**Baza znanja** je glavni ekran na kojem se prikazuje sav **objavljeni sadržaj** domene Znanje. Korisnicima pruža središnje mjesto za pregledavanje, pretraživanje i čitanje interne dokumentacije, kao što su upute, smjernice, postupci i referentni članci.
 
-The **Knowledge base** is primarily used as an **internal documentation library** and supports day-to-day operational work across multiple domains.
+**Baza znanja** se prvenstveno koristi kao **biblioteka interne dokumentacije** i podržava svakodnevni operativni rad u više domena.
 
-To access this screen, go to **Knowledge / Knowledge base** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Znanje / Baza znanja**.
 
+## Pregled
 
-## Overview
+Početna stranica **Baze znanja** pomaže korisnicima da brzo pronađu relevantan sadržaj. Kombinira **pretraživanje**, **filtriranje po oznakama** i **vizualnu navigaciju** kako bi istaknula često korištene ili važne članke.
 
-The **Knowledge base** home page is designed to help users quickly find relevant content. It combines **search**, **tag-based filtering**, and **visual navigation** to surface commonly used or important articles.
+Ekran je samo za čitanje, osim **komentara** na člancima gdje je komentiranje omogućeno.
 
-The screen is read-only, except for **comments** on articles where commenting is enabled.
+![Baza znanja](../Images/KnowledgeBaseHR.png "Baza znanja")
 
-![KnowledgeBase](../Images/KnowledgeBase.png "Knowledge Base")
+## Pretraživanje i filtri
 
-## Search and filters
+Na vrhu stranice polje **Pretraži bazu znanja** omogućuje pretraživanje po:
 
-At the top of the page, a **search bar** allows users to search the **Knowledge base** by:
+- naslovu članka
+- sadržaju članka
+- oznakama
 
-- Article title
-- Article content
-- Tags
+Ispod polja za pretraživanje prikazane su **oznake** koje se mogu koristiti kao brzi filtri. Klik na oznaku filtrira prikaz na članke povezane s tom oznakom.
 
-Below the search bar, **tags** are displayed and can be used as quick filters. Clicking a tag filters the visible content to articles associated with that tag.
+Oznake se definiraju u **[Oznakama imenika](../Upravljanje/DirectoryTags.md)**.
 
-Tags are defined in **[Directory tags](../Management/DirectoryTags.md)**.
+## Omiljene teme
 
-## Popular topics
+Odjeljak **Omiljene teme** grupira često korištene ili istaknute članke po oznakama.
 
-The **Popular topics** section groups frequently accessed or highlighted articles by tag.
+Svaka kartica predstavlja jednu oznaku (na primjer *Assembly*, *Quality*, *Instructions*) i sadrži popis povezanih članaka. Klik na članak otvara ga izravno.
 
-Each card represents a tag (e.g. *Assembly*, *Quality*, *Instructions*) and contains a list of related articles. Clicking an article opens it directly.
+Ovaj odjeljak omogućuje brzi pristup često korištenim uputama i smjernicama bez pregledavanja cijele strukture imenika.
 
-This section helps users quickly access commonly used instructions and guidelines without browsing the full directory structure.
+## Pretraži sve teme
 
-## Browse all topics
+Odjeljak **Pretraži sve teme** pruža vizualni pregled sadržaja znanja, obično prikazan kroz imenike ili odabrane teme.
 
-The **Browse all topics** section provides a visual overview of Knowledge content, typically represented by directories or curated topics.
+Svaka pločica vodi do skupine povezanih članaka, pa korisnici mogu istraživati **bazu znanja** po temi, a ne po oznaci ili pretraživanju.
 
-Each tile leads to a group of related articles, allowing users to explore the **Knowledge base** by topic rather than by tag or search.
+Ovo je korisno pri uvođenju novih zaposlenika, obuci i općem upoznavanju s dostupnom dokumentacijom.
 
-This is useful for on-boarding, training, and general exploration of available documentation.
+Klik na pločicu imenika otvara **prikaz imenika**, u kojem korisnici pregledavaju članke i otvaraju kazalo.
 
-Clicking a directory tile opens the **directory view**, where users can navigate articles and open the table of contents.
+## Prikaz imenika
 
-## Directory view
+Klik na imenik u odjeljku **Pretraži sve teme** otvara **prikaz imenika** s člancima dostupnima unutar tog imenika.
 
-Clicking a directory from **Browse all topics** opens the **directory view**, which displays the articles available inside that directory.
+![Prikaz imenika](../Images/KnowledgeBaseDirectoryHR.png "Prikaz imenika")
 
-![KnowledgeBaseDirectory](../Images/KnowledgeBaseDirectory.png "Knowledge Base Directory")
+Prikaz imenika sadrži:
 
-The directory view includes:
+- **polje za pretraživanje** – pretražuje unutar **baze znanja**
+- **oznake** – filtriraju sadržaj po oznakama
+- **Omiljene teme** – brzi pristup člancima grupiranima po oznakama
 
-- **Search bar** – searches within the **Knowledge base**
-- **Tag chips** – filter content by tags
-- **Popular topics** – quick access to articles grouped by tag
+U prikazu imenika izbornik nudi sljedeće mogućnosti:
+- uređivanje oznaka (**Oznake**)
+- uređivanje imenika (**Uredi imenik**)
 
-In the directory view, the menu provides options to: 
-- Edit tags and 
-- Edit the directory.
+![Izbornik imenika](../Images/DirectoriesMenuHR.png "Izbornik imenika")
 
-![Directories Menu](../Images/DirectoriesMenu.png "Directory Menu")
+### Kazalo
 
-### Table of contents
+Za pregled svih članaka u imeniku otvorite **kazalo** klikom na **ikonu izbornika** u gornjem lijevom kutu.
 
-To browse all articles in the directory, open the **table of contents** using the **menu icon** in the top-left corner.
+![Ikona izbornika imenika](../Images/KnowledgeBaseDirectoryHamburgerHR.png "Ikona izbornika imenika")
 
-![KnowledgeBaseDirectoryHamburger](../Images/KnowledgeBaseDirectoryHamburger.png "Knowledge Base Directory Hamburger")
+Kazalo prikazuje strukturu imenika i dostupne članke. Klik na članak otvara ga u [prikazu članka](#prikaz-članka).
 
-The table of contents shows the directory structure and available articles. Clicking an article opens it in the [article view](#article-view).
+![Kazalo imenika](../Images/KnowledgeBaseDirectoryTOCHR.png "Kazalo imenika")
 
-![KnowledgeBaseDirectoryTOC](../Images/KnowledgeBaseDirectoryTOC.png "Knowledge Base Directory TOC")
+Strukturu imenika i kazalo konfigurirate u **[Imenicima](../Upravljanje/Directories.md)** i **[Kazalu](../Upravljanje/TableOfContents.md)**.
 
-The directory structure and table of contents are configured in **[Directories](../Management/Directories.md)** and **[Table of contents](../Management/TableOfContents.md)**.
+## Prikaz članka
 
+Klik na članak otvara **prikaz članka** s punim sadržajem.
 
-## Article view
+![Prikaz članka](../Images/KnowledgeBaseArticleHR.png "Prikaz članka")
 
-Clicking an article opens the **article view**, where the full content is displayed.
+Prikaz članka sadrži:
 
-![KnowledgeBaseArticle](../Images/KnowledgeBaseArticle.png "Knowledge Base Article")
+- **naslov članka**
+- **autora**
+- **datum objave**
+- **oznake** povezane s člankom
+- **glavni sadržaj** (oblikovani tekst, popise, upute)
+- **priloge** (ako su uključeni)
+- **odjeljak komentara** (ako je omogućen)
 
-The article view includes:
+### Komentari
 
-- **Article title**
-- **Author**
-- **Publication date**
-- **Tags** associated with the article
-- **Main content** (formatted text, lists, instructions)
-- **Attachments** (if included)
-- **Comments section** (if enabled)
+Ako je komentiranje omogućeno za članak, korisnici mogu:
 
-### Comments
+- dodavati komentare
+- učitavati datoteke kao dio komentara
+- pregledavati komentare drugih korisnika
 
-If commenting is enabled for an article, users can:
+Odjeljak za komentare, s poljem za unos i gumbom **Dodaj komentar**, prikazan je na slici prikaza članka.
 
-- Add comments
-- Upload files as part of a comment
-- Review comments from other users
+![Komentar u bazi znanja](../Images/KnowledgeBaseCommentHR.png "Komentar u bazi znanja")
 
-![Knowledge Base Comment](../Images/KnowledgeBaseComment.png "Knowledge Base Comment")
+Komentare se može ukloniti klikom na **Izbriši**.
 
-Comments can be removed by clicking **Delete**.
+## Upotreba
 
-## Usage
+**Baza znanja** se obično koristi za:
 
-The **Knowledge base** is typically used for:
-
-- Reading work instructions and procedures
-- Accessing internal guidelines and policies
-- Supporting production, logistics, quality, and maintenance activities
-- Onboarding new employees
-- Sharing internal know-how and best practices
+- čitanje radnih uputa i postupaka
+- pristup internim smjernicama i pravilima
+- podršku proizvodnji, logistici, kvaliteti i održavanju
+- uvođenje novih zaposlenika
+- dijeljenje internog znanja i najboljih praksi
 
 > [!NOTE]
-> - The **Knowledge base** displays only **published** and **enabled** content.  
-> - Visibility of articles depends on directory status and publication settings.  
-> - Commenting and attachments depend on how the article was configured.
+> - **Baza znanja** prikazuje samo **objavljen** i **omogućen** sadržaj.  
+> - Vidljivost članaka ovisi o statusu imenika i postavkama objave.

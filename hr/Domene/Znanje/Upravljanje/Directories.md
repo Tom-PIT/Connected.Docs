@@ -1,99 +1,96 @@
 <!-- app_route: /management/knowledge/directories -->
 <!-- app_label: Directories -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Knowledge/Management/Directories.md -->
-<!-- canonical_source_title: Directories -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/Directories.md -->
+<!-- canonical_source_title: Imenici -->
 
-# Directories
+# Imenici
 
-The **Directories** code list defines the main **content containers** used in the **Knowledge base**. Each directory represents a topic or category (for example *Table Assembly*, *Safety Guidelines*, *Quality Inspections*) and contains articles and a table of contents structure.
+Popis šifara **Imenici** određuje glavne **spremnike sadržaja** koji se koriste u **bazi znanja**. Svaki imenik predstavlja temu ili kategoriju (na primjer *Table Assembly*, *Safety Guidelines*, *Quality Inspections*) i sadrži članke i strukturu kazala.
 
-Directories are used to organize Knowledge content and determine how articles are grouped and navigated in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md).
+Imenici se koriste za organiziranje sadržaja znanja i određuju kako se članci grupiraju i kako se kroz njih navigira u [**bazi znanja**](../BazaZnanja/BazaZnanja.md).
 
-To access this screen, go to **Knowledge / Management / Directories** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Znanje / Upravljanje / Imenici**.
 
-## Schema
+## Shema
 
-| Field | Description |
-|------|-------------|
-| **Name** | Display name of the directory (mandatory). |
-| **Key** | Short unique identifier for the directory (mandatory). |
-| **Description** | Optional description explaining the directory’s purpose. |
-| **Image** | Optional image used to visually represent the directory (recommended ratio 1:1). |
-| **Enabled** | Indicates whether the directory is visible and available in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). |
+| Polje | Opis |
+|------|------|
+| **Naziv** | Prikazani naziv imenika (obavezno). |
+| **Ključ** | Kratki jedinstveni identifikator imenika (obavezno). |
+| **Opis** | Neobavezan opis koji objašnjava namjenu imenika. |
+| **Slika** | Neobavezna slika kojom se imenik vizualno predstavlja (preporučeni omjer 1:1). |
+| **Omogućen** | Pokazuje je li imenik vidljiv i dostupan u [**bazi znanja**](../BazaZnanja/BazaZnanja.md). |
 
-## Management
+## Upravljanje
 
-### Directories list
+### Popis imenika
 
-![DirectoriesList](../Images/DirectoriesList.png "Directories List")
+![Popis imenika](../Images/DirectoriesListHR.png "Popis imenika")
 
-The list view displays all configured directories.
+Popis prikazuje sve konfigurirane imenike.
 
-Each row shows:
-- **Directory** – directory name
-- **Links** to manage:
-  - **[Table of contents](TableOfContents.md)**
-  - **[Articles](Articles.md)**
+Svaki redak prikazuje:
+- **Imenik** – naziv imenika
+- **poveznice** za upravljanje:
+  - **[Kazalo](TableOfContents.md)**
+  - **[Članci](Articles.md)**
 
-A status indicator appears to the left of each directory name:
-- **Blue** – enabled/active directory
-- **Gray** – disabled/inactive directory
+S lijeve strane naziva svakog imenika prikazuje se oznaka statusa:
+- **plava** – omogućen (aktivan) imenik
+- **siva** – onemogućen (neaktivan) imenik
 
-Directories can be searched using the **Search** field in the top-right corner.
+Imenici se mogu pretraživati pomoću polja **Pretraživanje** u gornjem desnom kutu.
 
-Clicking a directory name opens it for editing.
+Klik na naziv imenika otvara ga za uređivanje.
 
-## Actions
+## Radnje
 
-### Add a new directory
+### Dodavanje novog imenika
 
-Click the [action button](../../../Common/UI/ActionButton.md) to add a new directory. Fill in the following fields:
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste dodali novi imenik. Ispunite sljedeća polja:
 
-- **Name**
-- **Key**
-- **Description** (optional)
-- **Image** (optional)
-- **Enabled** – controls whether the directory is visible in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md)
+- **Naziv**
+- **Ključ**
+- **Opis** (neobavezno)
+- **Slika** (neobavezno)
+- **Omogućen** – određuje je li imenik vidljiv u [**bazi znanja**](../BazaZnanja/BazaZnanja.md)
 
-![DirectoriesNew](../Images/DirectoriesNew.png "New directory")
+![Novi imenik](../Images/DirectoriesNewHR.png "Novi imenik")
 
-Click **Add** to save the new directory.
+Kliknite **Dodaj** da biste spremili novi imenik.
 
-Once created, the directory becomes available in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md) and can be populated with content.
+Nakon stvaranja imenik postaje dostupan u [**bazi znanja**](../BazaZnanja/BazaZnanja.md) i može se popuniti sadržajem.
 
-## Manage the directory content
+## Upravljanje sadržajem imenika
 
-After a directory is created, additional configuration options become available directly from the list:
+Nakon što se imenik stvori, u popisu su dostupne dodatne mogućnosti konfiguracije:
 
-- **[Articles](Articles.md)** – manage articles that belong to the directory  
-- **[Table of contents](TableOfContents.md)** – define the navigation structure inside the directory  
+- **[Članci](Articles.md)** – upravljanje člancima koji pripadaju imeniku
+- **[Kazalo](TableOfContents.md)** – definiranje strukture navigacije unutar imenika
 
-These options are accessed via the links shown below each directory in the list.
-
-![DirectoriesLinks](../Images/DirectoriesLinks.png "Directories Links")
+Do tih mogućnosti dolazite preko poveznica prikazanih ispod svakog imenika u popisu.
 
 > [!NOTE]
-> Directories define **structure only**. Articles and table of contents are managed separately.
+> Imenici određuju **samo strukturu**. Članci i kazalo upravljaju se zasebno.
 
-## Edit a directory
+## Uređivanje imenika
 
-Click a directory name to open its edit screen.
+Kliknite naziv imenika da biste otvorili ekran za uređivanje.
 
-From the edit screen you can:
-- Modify directory metadata (name, key, description)
-- Enable or disable the directory
-- Update the directory image
+Na ekranu za uređivanje možete:
+- mijenjati podatke imenika (naziv, ključ, opis)
+- omogućiti ili onemogućiti imenik
+- promijeniti sliku imenika
 
-Click **Save** to confirm changes.
+Kliknite **Spremi** da potvrdite promjene.
 
-## Delete a directory
+## Brisanje imenika
 
-Click **Delete** on the edit screen to open a confirmation dialog:
+Kliknite **Izbriši** na ekranu za uređivanje da biste otvorili dijalog za potvrdu:
 
-**Are you sure you want to delete this record?**
+**Jeste li sigurni da želite izbrisati zapis?**
 
-If confirmed, the directory is permanently removed.
+Ako potvrdite, imenik se trajno uklanja.
 
 > [!NOTE]
-> A directory can be deleted only if it does not contain articles or table of contents entries.
-
+> Imenik se može obrisati samo ako ne sadrži članke niti stavke kazala.
