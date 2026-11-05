@@ -45,7 +45,7 @@ Za pristup ovom šifrarniku otvorite **Nabava / Upravljanje / Troškovi** u [nav
 
 | Polje | Opis |
 |-------|------|
-| [**Konto**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/ChartOfAccounts.md) | Konto glavne knjige za knjiženja koja nastaju iz ovog troška. |
+| [**Konto**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto glavne knjige za knjiženja koja nastaju iz ovog troška. |
 | **Tip poreza** | Porezna klasifikacija troška (npr. zaliha, redovni trošak, nekretnine). |
 | **Tip sredstva** | Vrsta nabave za potrebe izvještavanja (npr. roba, usluge). |
 | **Odbij porez** | Označava može li se za ovaj trošak odbiti pretporez. |
@@ -109,7 +109,7 @@ U dijaloškom okviru odaberite **Proces**, **Verziju** i **Operaciju**, a zatim 
 
 #### Glavna knjiga
 
-U ovom odjeljku trošak se dodjeljuje odgovarajućem kontu glavne knjige. Pogledajte [**Kontni plan**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/ChartOfAccounts.md).
+U ovom odjeljku trošak se dodjeljuje odgovarajućem kontu glavne knjige. Pogledajte [**Kontni plan**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md).
 
 Mogućnosti u ovom odjeljku određuju kako se trošak obrađuje u financijskim knjiženjima i izvještavanju. To su:
 - **Odbij porez**

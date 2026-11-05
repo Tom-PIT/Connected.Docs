@@ -3,182 +3,185 @@
 <!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/README.md -->
 <!-- canonical_source_title: Accounting domain -->
 
-# Accounting
+# Računovodstvo
 
-The **Accounting** domain contains all records, reports, and configuration required to **record, control, and analyze financial transactions**.  
+Domena **Računovodstvo** sadrži sve zapise, izvještaje i konfiguraciju potrebnu za **evidentiranje, kontrolu i analizu financijskih transakcija**.  
 
-It transforms operational documents created in other domains (such as [**Sales**](../Sales/README.md), [**Supply**](../Supply/README.md), and [**Logistics**](../Logistics/README.md)) into **official accounting entries**, ensuring compliance, traceability, and accurate financial reporting.
+Domena preuzima operativne dokumente nastale u drugim domenama (kao što su [**Prodaja**](../Prodaja/README.md), [**Nabava**](../Nabava/README.md) i [**Logistika**](../Logistika/README.md)) i pretvara ih u **službena knjigovodstvena knjiženja**, čime se osiguravaju usklađenost, sljedivost i točno financijsko izvještavanje.
 
-To access this domain, navigate to **Accounting** in the [navigation](../../Zajednicko/UI/Navigacija.md).
+Za pristup ovoj domeni u [navigaciji](../../Zajednicko/UI/Navigacija.md) odaberite **Računovodstvo**.
 
-![Accounting Domain](Images/AccountingDomainSitemap.png "Accounting Domain")
+![Navigacija s odabranom domenom Računovodstvo](Images/AccountingDomainSitemapHR.png "Navigacija")
 
 > [!NOTE]  
-> The available sections and features depend on company configuration, enabled accounting modules, and local legislation.
+> Dostupni odjeljci i funkcionalnosti ovise o konfiguraciji tvrtke, uključenim knjigovodstvenim modulima i lokalnom zakonodavstvu.
 
-## What is included in the Accounting domain?
+## Što sadrži domena Računovodstvo?
 
-The Accounting domain is **structurally denser than most other domains**. Several of its main areas (notably **Ledger** and **Invoices**) contain their own **Documents**, **Views**, and **Management** sections.
+Domena Računovodstvo znatno je **složenija od većine drugih domena**. Nekoliko njezinih glavnih područja (osobito **Glavna knjiga** i **Računi**) sadrži vlastite odjeljke **Dokumenti**, **Pregledi** i **Upravljanje**.
 
-The domain is organized into the following major areas:
+Domena je organizirana u sljedeća glavna područja:
 
-- **[Ledger](#ledger)** – core accounting records, postings, and statutory reporting  
-- **[Bank](#bank)** – bank-related accounting operations  
-- **[Invoices](#invoices-accounting)** – invoice documents from an accounting perspective  
-- **[Views](#views)** – analytical, read-only accounting overviews  
-- **[Management](#management)** – global accounting configuration and master data
+- **[Glavna knjiga](#glavna-knjiga)** – temeljni knjigovodstveni zapisi, knjiženja i zakonsko izvještavanje  
+- **[Banka](#banka)** – knjigovodstvene operacije vezane uz banku  
+- **[Računi](#racuni-racunovodstvo)** – dokumenti računa iz knjigovodstvene perspektive  
+- **[Pregledi](#pregledi)** – analitički prikazi računovodstva samo za čitanje  
+- **[Upravljanje](#upravljanje)** – globalna konfiguracija računovodstva i matični podaci
 
-![Accounting Domain Overview](Images/AccountingDomainOverview.png "Accounting Domain Overview")
+![Pregled domene Računovodstvo](Images/AccountingDomainOverviewHR.png "Pregled domene Računovodstvo")
 
-## Ledger
+## Glavna knjiga
 
-The **Ledger** is the **core of the Accounting domain**.  
-It stores all journal entries, postings, balances, and accounting reports derived from financial documents and operational transactions.
+**Glavna knjiga** je **srž domene Računovodstvo**.  
+Sadrži sva knjiženja, stavke, salda i računovodstvena izvješća nastala iz financijskih dokumenata i poslovnih transakcija.
 
-![Ledger](Images/AccountingDomainLedger.png "Ledger")
+![Glavna knjiga](Images/AccountingLedgerHR.png "Glavna knjiga")
 
-Within the Ledger, functionality is further divided into **Documents**, **Views**, and **Management**.
+Unutar glavne knjige funkcionalnost je dodatno podijeljena na **Dokumente**, **Preglede** i **Upravljanje**.
 
-### Ledger – Documents
+### Glavna knjiga – Dokumenti
 
-Ledger documents represent **formal accounting records** and statutory data.
+Dokumenti glavne knjige predstavljaju **formalne knjigovodstvene zapise** i zakonske podatke.
 
-Available ledger documents include:
+Dostupni dokumenti glavne knjige uključuju:
 
-- **[Double-entry accountancy](Documents/DoubleEntryAccountancy.md)** – Journal entries generated from accounting documents or created manually.
-- **[Bank statements](Documents/BankStatements.md)** – Bank movements that generate journal entries when published.
-- **[Fixed assets](Documents/FixedAssets.md)** – Asset records used for depreciation and long-term value tracking.
-- **[Tax returns](Documents/TaxReturns.md)** – Periodic tax summaries used to prepare official tax submissions.
-- **[Statistical reports](Documents/StatisticalReports.md)** – Generated financial reports such as balance sheets and income statements.
-These documents **create or summarize accounting postings** and are the foundation of financial reporting.
+- **[Dvojno knjigovodstvo](Dokumenti/DvojnoKnjigovodstvo.md)** – Knjiženja nastala iz računovodstvenih dokumenata ili unesena ručno.
+- **[Bankovni izvodi](Dokumenti/BankovniIzvodi.md)** – Bankovna kretanja koja stvaraju knjiženja pri objavi.
+- **[Osnovna sredstva](Dokumenti/OsnovnaSredstva.md)** – Zapisi o imovini koji se koriste za amortizaciju i praćenje dugoročne vrijednosti.
+- **[Obračun PDV-a](Dokumenti/ObracunPdv.md)** – Periodični porezni sažeci koji se koriste za pripremu službenih poreznih prijava.
+- **[Statistička izvješća](Dokumenti/StatistickaIzvjesca.md)** – Generirani financijski izvještaji, poput bilance i računa dobiti i gubitka.
 
-### Ledger – Views
+Ovi dokumenti **stvaraju ili sažimaju knjiženja** i temelj su financijskog izvještavanja.
 
-Ledger views provide **analytical and control-oriented overviews** of accounting data.  
-They are **read-only** and do not create transactions.
+### Glavna knjiga – Pregledi
 
-![Ledger Views](Images/AccountingDomainLedgerViews.png "Ledger Views")
+Pregledi glavne knjige pružaju **analitičke prikaze i prikaze za kontrolu** podataka o računovodstvu.  
+Samo su za **čitanje** i ne stvaraju transakcije.
 
-Available views include:
+![Pregledi glavne knjige](Images/AccountingLedgerViewsHR.png "Pregledi glavne knjige")
 
-- **[Account card](Views/AccountCard.md)** – Detailed debit and credit movements per account.
-- **[Account summary](Views/AccountSummary.md)** – Aggregated balances showing initial state, turnover, and final state.
-- **[Open items](Views/OpenItems.md)** – Outstanding receivables and payables by company.
-- **[Postings](Views/Postings.md)** – Flat list of all accounting postings with filtering options.
-- **[Ledger stock](Views/LedgerStock.md)** – Financial stock valuation by date.
-- **[Stock age structure](Views/StockAgeStructure.md)** – Inventory aging analysis over time.
-- **[Company cards](../Sales/Views/CompanyCards.md)** – Financial overview per business partner.
+Dostupni pregledi uključuju:
 
-These views support **audit, reconciliation, and financial analysis**.
+- **[Kartica konta](Pregledi/KarticaKonta.md)** – Detaljna zaduženja i odobrenja po kontu.
+- **[Bruto bilanca](Pregledi/BrutoBilanca.md)** – Zbrojeni saldi s početnim stanjem, prometom i završnim stanjem.
+- **[Otvorene stavke](Pregledi/OtvoreneStavke.md)** – Nepodmirena potraživanja i obveze po tvrtki.
+- **[Knjiženja](Pregledi/Knjizenja.md)** – Popis svih knjiženja s mogućnostima filtriranja.
+- **[Zaliha](Pregledi/LedgerStock.md)** – Financijska vrijednost zaliha po datumu.
+- **[Starosna struktura zalihe](Pregledi/StockAgeStructure.md)** – Analiza starenja zaliha kroz vrijeme.
+- **[Intrastat stavke](Pregledi/IntrastatStavke.md)** – Transakcije koje podliježu Intrastat izvještavanju.
+- **[Kartice tvrtke](../Prodaja/Pogledi/KarticeTvrtke.md)** – Financijski pregled po poslovnom partneru.
 
-### Ledger – Management
+Ovi pregledi podržavaju **reviziju, usklađivanje i financijsku analizu**.
 
-Ledger management contains **technical and accounting configuration** that controls how postings are generated.
+### Glavna knjiga – Upravljanje
 
-![Ledger Management](Images/AccountingDomainLedgerManagement.png "Ledger Management")
+Upravljanje glavnom knjigom sadrži **tehničku i računovodstvenu konfiguraciju** koja određuje kako nastaju knjiženja.
 
-Available configuration includes:
+![Upravljanje glavnom knjigom](Images/AccountingLedgerManagementHR.png "Upravljanje glavnom knjigom")
 
-- **[Ledger configuration](Management/Ledger/LedgerConfiguration.md)** – Global settings for ledger behavior.
-- **[Chart of accounts](Management/Ledger/ChartOfAccounts.md)** – Definition of all general ledger accounts.
-- **[Stock initial states](Management/Ledger/StockInitialStates.md)** – Opening balances for stock valuation.
-- **[Account defaults](Management/Ledger/AccountDefaults.md)** – Default accounts used during posting.
-- **[Document types](Management/Ledger/DocumentTypes.md)** – Rules defining how documents generate journal entries.
-- **[Journal entry templates](Management/Ledger/JournalEntryTemplates.md)** – Posting templates for recurring entries.
-- **[Depreciation groups](Management/Ledger/DepreciationGroups.md)** – Rules for asset depreciation.
-- **[AOP](Management/Ledger/AOP.md)** – Accounting classification structure used by reports and summaries.
-- **[Locations](Management/Ledger/LedgerLocations.md)** – Physical or organizational locations linked to assets and postings.
+Dostupna konfiguracija uključuje:
 
-These elements define **how accounting logic behaves system-wide**.
+- **[Konfiguracija](Upravljanje/GlavnaKnjiga/Konfiguracija.md)** – Globalne postavke ponašanja glavne knjige.
+- **[Kontni plan](Upravljanje/GlavnaKnjiga/KontniPlan.md)** – Definicija svih konta glavne knjige.
+- **[Početna stanja zalihe](Upravljanje/GlavnaKnjiga/PocetnaStanjaZalihe.md)** – Početni saldi za vrednovanje zaliha.
+- **[Zadana konta](Upravljanje/GlavnaKnjiga/ZadaneKonta.md)** – Zadana konta koja se koriste pri knjiženju.
+- **[Tipovi dokumenata](Upravljanje/GlavnaKnjiga/TipoviDokumenata.md)** – Pravila koja određuju kako dokumenti stvaraju temeljnice.
+- **[Predlošci za temeljnice](Upravljanje/GlavnaKnjiga/PredlosciZaTemeljnice.md)** – Predlošci knjiženja za ponavljajuće stavke.
+- **[Grupe amortizacije](Upravljanje/GlavnaKnjiga/GrupeAmortizacije.md)** – Pravila za amortizaciju imovine.
+- **[AOP](Upravljanje/GlavnaKnjiga/AOP.md)** – Struktura računovodstvene klasifikacije koja se koristi u izvještajima i sažecima.
+- **[Lokacije](Upravljanje/GlavnaKnjiga/Lokacije.md)** – Fizičke ili organizacijske lokacije povezane s imovinom i knjiženjima.
 
-## Bank
+Ovi elementi određuju **kako računovodstvena logika funkcionira na razini cijelog sustava**.
 
-The **Bank** section covers accounting-related banking operations.
+## Banka
 
-![Bank](Images/AccountingDomainBanks.png "Bank")
+Odjeljak **Banka** obuhvaća knjigovodstvene operacije vezane uz bankarsko poslovanje.
 
-Available documents include:
+![Banka](Images/AccountingBankHR.png "Banka")
 
-- **[Payment orders](Documents/PaymentOrders.md)** – Instructions for outgoing and incoming payments processed through banks.
+Dostupni dokumenti uključuju:
 
-Bank documents often interact with **bank statements** and **journal entries** to ensure cash flow is fully reflected in the ledger.
+- **[Platni nalozi](Dokumenti/PlatniNalozi.md)** – Upute za odlazna i dolazna plaćanja koja se obrađuju preko banaka.
 
-## Invoices (Accounting)
+Bankovni dokumenti često su povezani s **bankovnim izvodima** i **knjiženjima** kako bi se novčani tok u potpunosti odrazio u glavnoj knjizi.
 
-The **Invoices** section in Accounting provides **invoice documents**, most of them shared with the Sales domain.
+## Računi (računovodstvo)
 
-![Accounting Invoices](Images/AccountingDomainInvoices.png "Accounting Invoices")
+Odjeljak **Računi** u računovodstvu pruža **dokumente računa**, od kojih se većina dijeli s domenom Prodaja.
 
-Available invoice documents include:
+![Računi računovodstva](Images/AccountingInvoicesHR.png "Računi računovodstva")
 
-- [**Received invoices**](Documents/ReceivedInvoices.md)
-- [**Issued invoices**](../Sales/Documents/IssuedInvoices.md)
-- [**Credit notes**](../Sales/Documents/CreditNotes.md)
-- [**Debit notes**](../Sales/Documents/DebitNotes.md)
-- [**Proforma invoices**](../Sales/Documents/ProformaInvoices.md)
-- [**Prepayments**](../Sales/Documents/Prepayments.md)
-- [**Overdue reminders**](../Sales/Documents/OverdueReminders.md)
+Dostupni dokumenti računa uključuju:
 
-To avoid duplication, **document structure is described in the Sales domain**, while **accounting-specific behavior** (posting, settlement, tax handling) is documented here.
+- [**Ulazni računi**](Dokumenti/UlazniRacuni.md)
+- [**Izlazni računi**](../Prodaja/Dokumenti/IzlazniRacuni.md)
+- [**Odobrenja**](../Prodaja/Dokumenti/Odobrenja.md)
+- [**Terećenja**](../Prodaja/Dokumenti/Terecenja.md)
+- [**Avansni računi**](../Prodaja/Dokumenti/AvansniRacuni.md)
+- [**Predujmovi**](../Prodaja/Dokumenti/Predujmovi.md)
+- [**Opomene**](../Prodaja/Dokumenti/Opomene.md)
 
-### Invoices – Management
+Kako bi se izbjeglo dupliciranje, **struktura dokumenata opisana je u domeni Prodaja**, dok su **ponašanja specifična za računovodstvo** (knjiženje, podmirenje, obrada poreza) opisana ovdje.
 
-Invoice-related configuration used by Accounting is grouped separately.
+### Računi – Upravljanje
 
-![Invoice Management](Images/AccountingDomainInvoicesManagement.png "Invoice Management")
+Konfiguracija računa koju koristi računovodstvo grupirana je zasebno.
 
-Available configuration includes:
+![Upravljanje računima](Images/AccountingInvoicesManagementHR.png "Upravljanje računima")
 
-- [**Configuration**](Management/Invoices/InvoicesConfiguration.md) – Invoice accounting behavior and defaults.
-- [**Asset account connections**](Management/Invoices/AssetAccountConnections.md) – Links between invoices and asset accounting.
-- [**Predefined texts**](../../Common/Management/PredefinedTexts.md) – Standard texts used on accounting documents.
-- [**Clause templates for issued invoices**](../Sales/Management/ClauseTemplatesIssuedInvoices.md)
-- [**Currencies**](../../Common/Management/Currencies.md)
-- [**Expenses**](../Supply/Management/Expenses.md)
-- [**External code sets**](../Sales/Management/ExternalCodeSets.md)
-- [**Cost centers**](../../Common/Management/CostCenters.md)
-These settings define **how invoice data integrates into accounting**.
+Dostupna konfiguracija uključuje:
 
-## Views
+- [**Konfiguracija**](Upravljanje/Racuni/KonfiguracijaRacuna.md) – Računovodstveno ponašanje računa i zadane vrijednosti.
+- [**Poveznice robe/usluge i konta**](Upravljanje/Racuni/PoveznicaRobeIKonta.md) – Veze između računa i računovodstva imovine.
+- [**Unaprijed pripremljeni tekstovi**](../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md) – Standardni tekstovi koji se koriste na računovodstvenim dokumentima.
+- [**Predlošci klauzula za izdane račune**](../Prodaja/Upravljanje/PredlosciKlauzulaZaIzdaneRacune.md)
+- [**Valute**](../../Zajednicko/Upravljanje/Valute.md)
+- [**Troškovi**](../Nabava/Upravljanje/Troskovi.md)
+- [**Oznake svrha plaćanja**](../Prodaja/Upravljanje/OznakeSvrhaPlacanja.md)
+- [**Mjesta troška**](../../Zajednicko/Upravljanje/MjestaTroska.md)
 
-The **Views** section at the Accounting domain level provides **direct access to analytical screens**, grouping together Ledger views and invoice-related reports.
+Ove postavke određuju **kako podaci o računima ulaze u računovodstvo**.
 
-![Accounting Views](Images/AccountingDomainViews.png "Accounting Views")
+## Pregledi
 
-These screens are **read-only** and intended for **financial monitoring and analysis**.
+Odjeljak **Pregledi** na razini domene Računovodstvo pruža **izravan pristup analitičkim ekranima** i objedinjuje preglede glavne knjige i izvještaje vezane uz račune.
 
-## Management
+![Pregledi računovodstva](Images/AccountingViewsHR.png "Pregledi računovodstva")
 
-The **Management** section contains **global accounting master data** shared across Ledger, Invoices, and Bank operations.
+Ovi ekrani su **samo za čitanje** i namijenjeni su **praćenju i analizi financija**.
 
-![Accounting Management](Images/AccountingDomainManagement.png "Accounting Management")
+## Upravljanje
 
-Available configuration includes:
+Odjeljak **Upravljanje** sadrži **zajedničke glavne podatke računovodstva** koji se koriste u glavnoj knjizi, računima i bankovnim operacijama.
 
-- [**Countries**](../../Common/Management/Countries.md)
-- [**Banks**](../../Common/Management/Banks.md)
-- [**Business directory**](../../Common/Management/BusinessDirectory.md)
-- [**Cost centers**](../../Common/Management/CostCenters.md)
-- [**Organization bank accounts**](../Sales/Management/OrganizationBankAccounts.md)
-- [**Tax rates**](../../Common/Management/TaxRates.md)
-- [**Exchange rates**](../Sales/Management/ExchangeRates.md)
-- **Intrastat** - related code lists for EU trade reporting:
-  - [**Nature of transactions**](Management/Intrastat/NatureOfTransactions.md)
-  - [**Delivery terms**](../../Common/Management/DeliveryTerms.md)
-  - [**Mode of transport**](../../Common/Management/ModeOfTransport.md)
-  - [**Place of delivery**](Management/Intrastat/PlaceOfDelivery.md)
-  - [**Supplementary units**](Management/Intrastat/SupplementaryUnits.md)
-  - [**Tariffs**](Management/Intrastat/Tariffs.md)
+![Upravljanje računovodstvom](Images/AccountingManagementHR.png "Upravljanje računovodstvom")
 
-These code lists ensure **consistent financial classification and reporting**.
+Dostupna konfiguracija uključuje:
 
-## Accounting and Other Domains
+- [**Države**](../../Zajednicko/Upravljanje/Drzave.md)
+- [**Banke**](../../Zajednicko/Upravljanje/Banke.md)
+- [**Poslovni imenik**](../../Zajednicko/Upravljanje/PoslovniImenik.md)
+- [**Mjesta troška**](../../Zajednicko/Upravljanje/MjestaTroska.md)
+- [**Bankovni računi**](../Prodaja/Upravljanje/BankovniRacuniOrganizacije.md)
+- [**Porezne stope**](../../Zajednicko/Upravljanje/PorezneStope.md)
+- [**Devizni tečajevi**](../Prodaja/Upravljanje/DevizniTecajevi.md)
+- **Intrastat** – šifrarnici za izvještavanje o trgovini unutar EU:
+  - [**Vrsta transakcije**](Upravljanje/Intrastat/VrstaTransakcije.md)
+  - [**Uvjeti isporuke**](../../Zajednicko/Upravljanje/UvjetiIsporuke.md)
+  - [**Vrsta transporta**](../../Zajednicko/Upravljanje/VrstaTransporta.md)
+  - [**Mjesto isporuke**](Upravljanje/Intrastat/MjestoIsporuke.md)
+  - [**Pomoćne jedinice**](Upravljanje/Intrastat/PomocneJedinice.md)
+  - [**Tarife**](Upravljanje/Intrastat/Tarife.md)
 
-Accounting integrates tightly with other operational domains:
+Ovi šifrarnici osiguravaju **dosljednu financijsku klasifikaciju i izvještavanje**.
 
-| Domain | Interaction |
+## Računovodstvo i ostale domene
+
+Računovodstvo je usko povezano s ostalim operativnim domenama:
+
+| Domena | Interakcija |
 |------|-------------|
-| **[Sales](../Sales/README.md)** | Issued invoices, revenue recognition, receivables. |
-| **[Supply](../Supply/README.md)** | Received invoices, procurement costs, liabilities. |
-| **[Logistics](../Logistics/README.md)** | Stock movements and valuation. |
-| **[Assets](../Assets/README.md)** | Fixed assets, depreciation, long-term value tracking. |
+| **[Prodaja](../Prodaja/README.md)** | Izdani računi, priznavanje prihoda, potraživanja. |
+| **[Nabava](../Nabava/README.md)** | Primljeni računi, troškovi nabave, obveze. |
+| **[Logistika](../Logistika/README.md)** | Kretanja zaliha i vrednovanje. |
+| **[Roba i usluge](../RobaIUsluge/README.md)** | Osnovna sredstva, amortizacija, praćenje dugoročne vrijednosti. |

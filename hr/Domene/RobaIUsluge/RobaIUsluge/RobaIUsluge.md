@@ -40,13 +40,13 @@ To access this screen, go to **Assets / Assets** in the [navigation](../../../Za
 
 | Field | Description |
 |-------|-------------|
-| [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
+| [**Tariff**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Customs tariff code used for statistical and customs reporting. |
 | [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
 | **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
 | **Domestic revenue account** | Revenue account used for domestic sales. |
 | **Revenue account in Europe markets** | Revenue account used for sales within EU markets. |
 | **Revenue account in non-Europe markets** | Revenue account used for sales outside EU markets. |
-| [**Stock account**](../../Accounting/Management/Ledger/ChartOfAccounts.md) | Balance-sheet account for stock value when linking assets to stock-tracked materials. |
+| [**Stock account**](../../Accounting/Management/Ledger/KontniPlan.md) | Balance-sheet account for stock value when linking assets to stock-tracked materials. |
 
 </details>
 

@@ -1,32 +1,32 @@
 # Intrastat
 
-**Intrastat** is the European Union’s system for collecting statistics on the trade in goods between EU Member States. Businesses that dispatch (send) or arrive (receive) goods across EU borders must submit monthly Intrastat declarations once they exceed national thresholds.
+**Intrastat** je sustav Europske unije za prikupljanje statistike o trgovini robom između država članica. Poduzeća koja otpremaju ili primaju robu preko granica EU-a moraju dostavljati mjesečne Intrastat prijave kada prijeđu nacionalne pragove.
 
-In the app, the Intrastat area centralizes code lists that classify movements of goods and support correct reporting. These lists are reused across domains (Sales, Logistics, Supply) when preparing and exporting Intrastat data.
+U aplikaciji područje Intrastat objedinjuje šifarnike koji razvrstavaju kretanja robe i podržavaju ispravno izvještavanje. Ti se šifarnici ponovno koriste u domenama Prodaja, Logistika i Nabava pri pripremi i izvozu Intrastat podataka.
 
-To access this area, go to **Accounting / Management / Intrastat**.
+Ovom području pristupate odabirom **Računovodstvo / Upravljanje / Intrastat**.
 
-## Code lists in Intrastat
+## Šifarnici u Intrastatu
 
-The following code lists are used when preparing Intrastat declarations:
+Pri pripremi Intrastat prijava koriste se sljedeći šifarnici:
 
-- [**Delivery terms**](../../../../Common/Management/DeliveryTerms.md)
-- [**Mode of transport**](../../../../Common/Management/ModeOfTransport.md)
-- [**Nature of transactions**](NatureOfTransactions.md)
-- [**Place of delivery**](PlaceOfDelivery.md)
-- [**Supplementary units**](SupplementaryUnits.md)
-- [**Tariffs**](Tariffs.md)
+- [**Uvjeti isporuke**](../../../../Zajednicko/Upravljanje/UvjetiIsporuke.md)
+- [**Vrsta transporta**](../../../../Zajednicko/Upravljanje/VrstaTransporta.md)
+- [**Vrsta transakcije**](VrstaTransakcije.md)
+- [**Mjesto isporuke**](MjestoIsporuke.md)
+- [**Pomoćne jedinice**](PomocneJedinice.md)
+- [**Tarife**](Tarife.md)
 
 > [!NOTE]
-> Delivery terms and Mode of transport are shared code lists located in the **Common** folder and are referenced from **Intrastat**. The remaining lists reside directly in the **Intrastat** section.
+> Uvjeti isporuke i Vrsta transporta zajednički su šifarnici u mapi **Zajednicko** i u Intrastatu se samo referenciraju. Ostali šifarnici nalaze se izravno u odjeljku **Intrastat**.
 
-## Where these are used
+## Gdje se koriste
 
-- Sales documents (e.g., [sales orders](../../../Sales/Documents/SalesOrders.md), [delivery notes](../../../Sales/Documents/DeliveryNotes.md), [issued invoices](../../../Sales/Documents/IssuedInvoices.md)) reference delivery terms and transport for correct classification.
-- Accounting exports use the above classifications to generate Intrastat files per country-specific rules.
+- Prodajni dokumenti (npr. [narudžbe kupca](../../../Prodaja/Dokumenti/NarudzbeKupca.md), [otpremnice](../../../Prodaja/Dokumenti/Otpremnice.md) i [izlazni računi](../../../Prodaja/Dokumenti/IzlazniRacuni.md)) upućuju na uvjete isporuke i način transporta radi ispravnog razvrstavanja.
+- Izvozi iz računovodstva koriste navedena razvrstavanja za generiranje Intrastat datoteka prema pravilima pojedine države.
 
-## Maintenance
+## Održavanje
 
-- Add, edit, or delete entries in each list from its respective screen.
-- Avoid deleting codes that are referenced by documents; prefer deactivating or replacing them according to local compliance rules.
-- Keep code values aligned with the latest national Intrastat guidance (thresholds, valid code sets, and update cycles).
+- Zapise u svakom šifarniku dodajte, uređujte ili brišite na njegovom zaslonu.
+- Izbjegavajte brisanje šifara na koje se pozivaju dokumenti; umjesto toga ih deaktivirajte ili zamijenite prema lokalnim propisima.
+- Šifarnike držite usklađenima s najnovijim nacionalnim smjernicama za Intrastat (pragovi, važeći skupovi šifara i ciklusi ažuriranja).

@@ -1,35 +1,38 @@
 <!-- app_route: /management/ledger/aop -->
 <!-- app_label: AOP -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Management/Ledger/AOP.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md -->
 <!-- canonical_source_title: AOP -->
 
 # AOP
 
-The **AOP** screen displays a predefined list of statutory reporting positions used for financial statements and regulatory reporting.
+Ekran **AOP** prikazuje unaprijed definirani popis zakonskih pozicija izvještavanja koje se koriste u financijskim izvještajima i regulatornom izvještavanju.
 
-AOP positions represent standardized reporting items defined by national accounting regulations. They are used as reference data in financial statements and other statutory reports. The example shown here is specific to **Slovenia**, where AOP (*Analitični obračun poslovanja*) positions are prescribed by local legislation and used in official financial reporting.
+AOP pozicije predstavljaju standardizirane stavke izvještavanja koje definiraju nacionalni propisi o računovodstvu. Koriste se kao referentni podaci u financijskim izvještajima i ostalim zakonskim izvještajima.
 
-To access this screen, go to **Accounting / Ledger / Management / AOP** in the [navigation](../../../../Zajednicko/UI/Navigacija.md).
+Ovom ekranu pristupate odabirom **Računovodstvo / Glavna knjiga / Upravljanje / AOP** u [navigaciji](../../../../Zajednicko/UI/Navigacija.md).
 
-![AOP list](../../Images/AOPList.png)
+> [!NOTE]
+> Primjer na slici prikazuje **slovenske** AOP pozicije, kako ih aplikacija trenutno prikazuje. Šifre i nazivi na slici nisu hrvatski.
+
+![AOP – popis (slovenski primjer)](../../Images/AOPListaHR.png "AOP – popis (slovenski primjer)")
 
 > [!IMPORTANT]
-> AOP positions are statutory reporting elements. They are provided for reference only and cannot be changed by users.
+> AOP pozicije su zakonski elementi izvještavanja. Služe samo kao referenca i korisnici ih ne mogu mijenjati.
 
-## Country-specific structure
+## Ovisnost o državi
 
-AOP is **country-specific**:
+AOP je **ovisan o državi**:
 
-- each country defines its own structure and codes,
-- naming and hierarchy depend on local accounting standards,
-- the list is provided by the system and maintained centrally.
+- svaka država definira vlastitu strukturu i šifre,
+- nazivi i hijerarhija ovise o lokalnim računovodstvenim standardima,
+- popis unosi sustav i održava se centralno.
 
-For other countries, a similar list is used, adapted to local legal and reporting requirements.
+Za ostale države koristi se sličan popis, prilagođen lokalnim zakonskim i izvještajnim zahtjevima.
 
-## Usage
+## Upotreba
 
-AOP entries are used as **reference values** in accounting and reporting views. Users can browse and search the list but cannot modify it.
+AOP pozicije koriste se kao **referentne vrijednosti** u računovodstvenim i izvještajnim pregledima. Korisnici mogu pregledavati i pretraživati popis, ali ga ne mogu mijenjati.
 
-## Editing and deletion of AOP positions
+## Uređivanje i brisanje AOP pozicija
 
-Editing and deletion are **not supported**.
+Uređivanje i brisanje **nisu podržani**.

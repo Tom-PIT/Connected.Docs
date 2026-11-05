@@ -137,7 +137,7 @@ Više informacija o odnosima među dokumentima, sljedivosti i izradi povezanih d
 
 Dostupne akcije uključuju:
 
-- [**+ Ulazni račun**](../../Racunovodstvo/Dokumenti/ReceivedInvoices.md) – izrada novog ulaznog računa
+- [**+ Ulazni račun**](../../Racunovodstvo/Dokumenti/UlazniRacuni.md) – izrada novog ulaznog računa
 - **Dodaj projekt** – dodavanje projekta narudžbenici  
 - [**+ Prazna primka**](../../Logistika/Dokumenti/Primke.md) – izrada prazne primke, spremne za ažuriranje kada stvarna isporuka stigne
 - [**+ Popunjena primka**](../../Logistika/Dokumenti/Primke.md) – izrada popunjene primke (sa **svim** ili **dijelom** materijala) i njezino povezivanje  

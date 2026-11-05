@@ -53,7 +53,7 @@ Ovaj vodič jednostavnim riječima objašnjava što učiniti kad dobijete narud�
 3. (Neobavezno) Provjerite stanja u **[Zalihama](../Domene/Logistika/Pogledi/Zaliha.md)** ili u **[Zalihama po lokacijama](../Domene/Logistika/Pogledi/PogledNaZalihePremaLokacijama.md)**.
 
 > [!NOTE]
-> U uobičajenom lancu nabave, nakon primitka robe, primljeni račun dobavljača mora se evidentirati i podmiriti putem **[Naloga za plaćanje](../Domene/Racunovodstvo/Dokumenti/PaymentOrders.md)** u domeni **[Računovodstvo](../Domene/Racunovodstvo/README.md)**. Ti se financijski koraci dokumentiraju zasebno.
+> U uobičajenom lancu nabave, nakon primitka robe, primljeni račun dobavljača mora se evidentirati i podmiriti putem **[Naloga za plaćanje](../Domene/Racunovodstvo/Dokumenti/PlatniNalozi.md)** u domeni **[Računovodstvo](../Domene/Racunovodstvo/README.md)**. Ti se financijski koraci dokumentiraju zasebno.
 
 ### 4. Proizvodnja
 

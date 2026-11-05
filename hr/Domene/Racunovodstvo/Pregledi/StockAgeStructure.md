@@ -7,7 +7,7 @@
 
 The **Stock age structure** view provides a time-based overview of the **financial value of inventory**, showing how stock values are distributed across past periods. It is a **read-only analytical view** based on posted inventory and accounting data and does not create or modify documents.
 
-This view is typically used together with other ledger views (such as [**Stock**](LedgerStock.md) or [**Postings**](Postings.md)) to investigate the reasons behind inventory value changes.
+This view is typically used together with other ledger views (such as [**Stock**](LedgerStock.md) or [**Postings**](Knjizenja.md)) to investigate the reasons behind inventory value changes.
 
 > [!NOTE]
 > - All values are calculated from **committed inventory and accounting postings**.

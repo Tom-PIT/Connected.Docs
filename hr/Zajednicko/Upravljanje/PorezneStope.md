@@ -22,7 +22,7 @@ Za pristup šifrarniku otvorite odjeljak **Upravljanje** u jednom od sljedećih 
 | **Naziv** | Opisni naziv porezne stope, npr. *Standardna porezna stopa 22%* ili *Snižena porezna stopa 9,5%*. |
 | **Stopa poreza (%)** | Postotak poreza koji se primjenjuje, npr. **22** ili **9,5**. |
 | **Aktivan** | Označava je li porezna stopa dostupna za korištenje. Neaktivne porezne stope nije moguće odabrati u novim dokumentima, ali ostaju vidljive u postojećim zapisima. |
-| **Glavna knjiga – Duguje / Na teret** | Konta glavne knjige odabrana iz šifrarnika [**Kontni plan**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) koja se koriste za knjiženje iznosa poreza. |
+| **Glavna knjiga – Duguje / Na teret** | Konta glavne knjige odabrana iz šifrarnika [**Kontni plan**](../../Domains/Accounting/Management/Ledger/KontniPlan.md) koja se koriste za knjiženje iznosa poreza. |
 
 ## Upravljanje
 
@@ -58,7 +58,7 @@ Za dodavanje nove porezne stope:
 
 Odjeljak **Glavna knjiga** određuje koja se konta koriste za knjiženje poreza kada se ova porezna stopa primjenjuje u poslovnim dokumentima.
 
-Polja **Duguje** i **Na teret** omogućuju odabir konta iz šifrarnika [**Kontni plan**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md).
+Polja **Duguje** i **Na teret** omogućuju odabir konta iz šifrarnika [**Kontni plan**](../../Domains/Accounting/Management/Ledger/KontniPlan.md).
 
 > [!NOTE]
 > Ispravna konfiguracija konta glavne knjige potrebna je za točno knjiženje poreza, izradu izvještaja i usklađenost s računovodstvenim propisima.

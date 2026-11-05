@@ -29,8 +29,8 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 - [**Devizni tečajevi**](Domene/Prodaja/Upravljanje/DevizniTecajevi.md)
 
 ### Računi
-- [**Konfiguracija**](Domene/Racunovodstvo/Upravljanje/Racuni/InvoicesConfiguration.md)
-- [**Veze imovinskih računa**](Domene/Racunovodstvo/Upravljanje/Racuni/AssetAccountConnections.md)
+- [**Konfiguracija**](Domene/Racunovodstvo/Upravljanje/Racuni/KonfiguracijaRacuna.md)
+- [**Veze imovinskih računa**](Domene/Racunovodstvo/Upravljanje/Racuni/PoveznicaRobeIKonta.md)
 - [**Unaprijed pripremljeni tekstovi**](Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md)
 - [**Predlošci klauzula za izdane račune**](Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaIzdaneRacune.md)
 - [**Valute**](Zajednicko/Upravljanje/Valute.md)
@@ -39,23 +39,23 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 - [**Mjesta troška**](Zajednicko/Upravljanje/MjestaTroska.md)
 
 ### Intrastat
-- [**Vrste transakcija**](Domene/Racunovodstvo/Upravljanje/Intrastat/NatureOfTransactions.md)
+- [**Vrste transakcija**](Domene/Racunovodstvo/Upravljanje/Intrastat/VrstaTransakcije.md)
 - [**Uvjeti isporuke**](Zajednicko/Upravljanje/UvjetiIsporuke.md)
 - [**Vrsta transporta**](Zajednicko/Upravljanje/VrstaTransporta.md)
-- [**Mjesto isporuke**](Domene/Racunovodstvo/Upravljanje/Intrastat/PlaceOfDelivery.md)
-- [**Dopunske jedinice**](Domene/Racunovodstvo/Upravljanje/Intrastat/SupplementaryUnits.md)
-- [**Tarife**](Domene/Racunovodstvo/Upravljanje/Intrastat/Tariffs.md)
+- [**Mjesto isporuke**](Domene/Racunovodstvo/Upravljanje/Intrastat/MjestoIsporuke.md)
+- [**Dopunske jedinice**](Domene/Racunovodstvo/Upravljanje/Intrastat/PomocneJedinice.md)
+- [**Tarife**](Domene/Racunovodstvo/Upravljanje/Intrastat/Tarife.md)
 
 ### Glavna knjiga
-- [**Zadane postavke računa**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AccountDefaults.md)
+- [**Zadane postavke računa**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ZadaneKonta.md)
 - [**Raspodjela dobiti (AOP)**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md)
-- [**Kontni plan**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ChartOfAccounts.md)
-- [**Skupine amortizacije**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/DepreciationGroups.md)
-- [**Vrste dokumenata**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/DocumentTypes.md)
-- [**Predlošci temeljnica**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/JournalEntryTemplates.md)
-- [**Konfiguracija glavne knjige**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/LedgerConfiguration.md)
-- [**Lokacije glavne knjige**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/LedgerLocations.md)
-- [**Početna stanja zaliha**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/StockInitialStates.md)
+- [**Kontni plan**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md)
+- [**Skupine amortizacije**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/GrupeAmortizacije.md)
+- [**Vrste dokumenata**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/TipoviDokumenata.md)
+- [**Predlošci temeljnica**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PredlosciZaTemeljnice.md)
+- [**Konfiguracija glavne knjige**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konfiguracija.md)
+- [**Lokacije glavne knjige**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Lokacije.md)
+- [**Početna stanja zaliha**](Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PocetnaStanjaZalihe.md)
 
 ## Imovina
 
