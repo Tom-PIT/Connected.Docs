@@ -67,6 +67,7 @@ The import file must include the columns listed below. Each row represents a sin
 | **Precision** | Number of decimal places used when displaying values. |
 | **Tax rate name** | Name of the tax rate. Must match an existing [tax rate](../../../Common/Management/TaxRates.md). |
 | **Tax rate** | Percentage of tax applied to the material. |
+| **Tolerance** | Permitted deviation of the material quantity, in percent. The default value for new materials is 1. |
 | **External key** | External system identifier. |
 
 ## Example row

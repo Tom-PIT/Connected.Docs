@@ -72,6 +72,7 @@ Uvozna datoteka mora vsebovati spodaj navedene stolpce. Vsaka vrstica predstavlj
 | **Natančnost** | Število decimalnih mest za prikaz vrednosti. |
 | **Ime davčne stopnje** | Ime davčne stopnje. Mora ustrezati obstoječi davčni stopnji. |
 | **Davčna stopnja** | Odstotek davka, ki se uporabi za material. |
+| **Toleranca** | Dovoljeno odstopanje količine materiala v odstotkih. Privzeta vrednost za nove materiale je 1. |
 | **Zunanji ključ** | Identifikator v zunanjem sistemu. |
 
 ## Primer vrstice
