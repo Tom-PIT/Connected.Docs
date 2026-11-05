@@ -36,6 +36,7 @@ Za dostop do šifranta **Repro materiali** pojdite na
 | **[Osnovna merska enota](../../../Skupno/Upravljanje/MerskeEnote.md)** | Merska enota za izražanje količin, kot sta **kos** ali **meter**. (obvezno) |
 | **Število decimalnih mest** | Privzeto število decimalnih mest za prikaz vrednosti. Na primer **3** za **1,255** ali **1** za **2,5**. |
 | **[Davek](../../../Skupno/Upravljanje/DavcneStopnje.md)** | Privzeta davčna stopnja, uporabljena v poslovnih dokumentih. Na primer **22** ali **9,5**. |
+| **Toleranca** | Dovoljeno odstopanje količine materiala v odstotkih. Privzeta vrednost za nove materiale je 1. |
 
 </details>
 
@@ -77,6 +78,7 @@ Za dostop do šifranta **Repro materiali** pojdite na
 | **[Tarifa](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md)** | Carinska tarifa za statistično in carinsko poročanje. |
 | **[Država porekla](../../../Skupno/Upravljanje/Drzave.md)** | Država porekla za trgovinske in carinske dokumente. |
 | **Pretvornik mase** | Faktor za pretvorbo osnovne merske enote v maso (npr. kg). Uporablja se v Intrastatu ali analitiki, ko je potreben podatek o teži. |
+| **Pretvornik merske enote** | Faktor za pretvorbo osnovne merske enote materiala v drugo mersko enoto, na primer iz kilogramov v funte, če se količina v dokumentih ali poročilih beleži v drugi enoti. |
 
 </details>
 
