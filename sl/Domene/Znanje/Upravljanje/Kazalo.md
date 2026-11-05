@@ -22,7 +22,7 @@ Kazalo je prikazano kot **drevesna struktura** in lahko vsebuje:
 - **Članke**
 - **URL povezave**
 
-Vnosi so razvrščeni po **ordinalni vrednosti** in jih je mogoče omogočiti ali onemogočiti.
+Vnosi so razvrščeni po **ordinalni vrednosti**.
 
 > [!TIP]
 > Razvrščanje poteka prek polja **Ordinal**. Povleci-in-spusti ni podprt.
@@ -36,7 +36,7 @@ Vnosi so razvrščeni po **ordinalni vrednosti** in jih je mogoče omogočiti al
 | [**Članek**](Clanki.md) | Povezan članek (na voljo, če je tip *članek*). |
 | **Hyperpovezava** | Prikazano besedilo URL povezave. |
 | **Vrstni red** | Položaj vnosa znotraj iste ravni. |
-| **Omogočno** | Določa vidnost vnosa v [**bazi znanja**](../BazaZnanja/BazaZnanja.md). |
+| **Omogočeno** | Samo za glavno kazalo imenika: določa, ali je kazalo vidno v [**bazi znanja**](../BazaZnanja/BazaZnanja.md). |
 | **Prikaži neuporabljene** | Prikaže članke, ki še niso uporabljeni v kazalu. |
 | **Uskladi naziv** | Sinhronizira naslov z naslovom povezanega članka. |
 
