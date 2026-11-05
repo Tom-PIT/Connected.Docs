@@ -1,165 +1,174 @@
 <!-- app_route: /management/materials/products -->
 <!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Products.md -->
-<!-- canonical_source_title: Products -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/Proizvodi.md -->
+<!-- canonical_source_title: Proizvodi -->
 
-# Products
+# Proizvodi
 
-**Products** are the final goods that your company manufactures or purchases. These items can be sold to customers, stored in the warehouse, or used in internal processes. Examples of products include Oak table, Office chair, LED lamp, or Garden bench.
+**Proizvodi** su gotova roba koju vaša tvrtka proizvodi ili kupuje. Te se stavke mogu prodavati kupcima, skladištiti u skladištu ili koristiti u internim procesima. Primjeri proizvoda su stol od hrasta, uredska stolica, LED svjetiljka ili vrtna klupa.
 
-Each product contains important information—such as [measure units](../../../Common/Management/MeasureUnits.md), [tax rate](../../../Common/Management/TaxRates.md), expiration period, or [packaging](Packaging.md)—that ensures it is managed consistently across stock, sales, and production documents. This code list represents all finished products available in your catalog.
+Svaki proizvod sadrži važne podatke, poput [mjernih jedinica](../../../Zajednicko/Upravljanje/MjerneJedinice.md), [porezne stope](../../../Zajednicko/Upravljanje/PorezneStope.md), roka trajanja ili [pakiranja](Pakiranje.md), koji osiguravaju dosljedno upravljanje u dokumentima zaliha, prodaje i proizvodnje. Ovaj popis šifara predstavlja sve gotove proizvode dostupne u vašem katalogu.
 
 > [!TIP]
-> For a full demonstration, see the **[Product materials](https://www.youtube.com/watch?v=FcrJ_IHQYeA)** video tutorial.
+> Za cjelovitu demonstraciju pogledajte video vodič **[Materijali: proizvodi](https://www.youtube.com/watch?v=FcrJ_IHQYeA)**.
 
 > [!NOTE]  
-> **Prerequisites**  
-> Before managing products, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
-> - [**Tax rates**](../../../Common/Management/TaxRates.md)
+> **Preduvjeti**  
+> Prije upravljanja proizvodima provjerite jesu li ispravno konfigurirani sljedeći popisi šifara:  
+> - [**Mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md)  
+> - [**Porezne stope**](../../../Zajednicko/Upravljanje/PorezneStope.md)
 
-To access the **Products** code list, go to **Assets / Materials / Products** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do popisa šifara **Proizvodi** dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Materijali / Proizvodi**.
 
-## Schema
+## Shema
 
 <details open markdown="1">
-<summary><strong>Product</strong></summary>
+<summary><strong>Proizvod</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Code** | Unique identifier of the product within the list of materials. For example **2625001** or **MIZ-ČLS**. The code must be unique across all materials. (required) |
-| **Name** | Name of the product shown in lists and documents. For example **Table – Oak**. (required) |
-| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
-| **Expiration (days)** | Number of days before expiration, used for perishable goods. For example **30** or **365**. |
-| **EAN** | Barcode value used for scanning. For example **3831234567890**. |
-| **[Base measure unit](../../../Common/Management/MeasureUnits.md)** | Measure unit used to express quantities, such as **piece** or **meter**. (required) |
-| **Precision**        | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
-| **[Tax rate](../../../Common/Management/TaxRates.md)** | Default tax rate used in business documents. For example **22** or **9.5**. |
-
-</details>
-
-<details markdown="1">
-<summary><strong>Packaging</strong></summary>
-
-A packaging definition describes the physical properties of a material and the alternative units used when handling it in the warehouse. This can also be set in [**Packaging**](Packaging.md).
-
-| Field | Description |
-|-------|-------------|
-| **Material type** | Classification of the material (e.g., product, semi-product) used for packaging context. |
-| **Products / Entity / Beech Table** | Example reference to the product/entity this packaging applies to. |
-| **EAN** | Packaging barcode. |
-| **Quantity (pc)** | Quantity represented by the packaging unit (e.g., 6 pcs per box). |
-| **Alternative measure unit** | Alternative unit for handling or reporting (e.g., pack). |
-| **Weight** | Enter both net and gross weight for the packaging unit. |
-| **Dimensions** | Enter width, height, and depth of the packaging unit. |
+| Polje | Opis |
+|-------|------|
+| **Oznaka** | Jedinstveni identifikator proizvoda unutar popisa materijala. Na primjer **2625001** ili **MIZ-ČLS**. Oznaka mora biti jedinstvena među svim materijalima. (obavezno) |
+| **Naziv** | Naziv proizvoda koji se prikazuje na popisima i u dokumentima. Na primjer **Stol – hrast**. (obavezno) |
+| **Generiranje serijskog broja** | Određuje kako se obrađuju serijski brojevi i zapisi materijala:<br>• **Automatski** – svaka stavka dobiva jedinstveni rastući serijski broj.<br>• **Isti** – sve stavke dijele isti serijski broj, ali ostaju zasebni zapisi.<br>• **Identični** – sve stavke dijele isti serijski broj i tretiraju se kao jedan identičan zapis. |
+| **Rok trajanja (u danima)** | Broj dana do isteka roka, koristi se za kvarljivu robu. Na primjer **30** ili **365**. |
+| **EAN** | Vrijednost barkoda koja se koristi za skeniranje. Na primjer **3831234567890**. |
+| [**Osnovna mjerna jedinica**](../../../Zajednicko/Upravljanje/MjerneJedinice.md) | Mjerna jedinica kojom se izražavaju količine, na primjer **komad** ili **metar**. (obavezno) |
+| **Broj decimalnih mjesta** | Zadani broj decimalnih mjesta za vrijednosti u ovoj mjernoj jedinici. Na primjer **3** za **1,255** ili **1** za **2,5**. |
+| [**Porezna stopa**](../../../Zajednicko/Upravljanje/PorezneStope.md) | Zadana porezna stopa koja se koristi u poslovnim dokumentima. Na primjer **22** ili **9,5**. |
+| **Toleranca** | Dopuštena tolerancija za količinu materijala, u postocima. Zadana vrijednost za nove materijale je 1. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Additional</strong></summary>
+<summary><strong>Pakiranje</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Description** | Short internal description explaining the use or specifications of the product. For example **Solid oak, oiled**. |
-| **Tags** | Tags used for categorization and filtering. For example **furniture**, **premium**. |
-| **Info link URL** | URL linking to external product information or documentation. For example *https://example.domain/info*. |
-| **Image URL** | Public URL pointing to the product image. For example *https://example.domain/images/product.jpg*. |
-| **External key** | Identifier in an external system used for cross-system record linking, for example **SAP-4711**. |
+Definicija pakiranja opisuje fizička svojstva materijala i zamjenske jedinice koje se koriste pri rukovanju u skladištu. Može se postaviti i u [**Pakiranju**](Pakiranje.md).
+
+| Polje | Opis |
+|-------|------|
+| **Tip materijala** | Klasifikacija materijala (na primjer proizvod, poluproizvod) koja se koristi u kontekstu pakiranja. |
+| **Proizvodi / Entitet / Stol od bukovine** | Primjer reference na proizvod ili entitet na koji se pakiranje odnosi. |
+| **EAN** | Barkod pakiranja. |
+| **Količina (kom)** | Količina koju predstavlja jedinica pakiranja (na primjer 6 komada po kutiji). |
+| **Zamjenska mjerna jedinica** | Zamjenska jedinica za rukovanje ili izvještavanje (na primjer paket). |
+| **Masa** | Unesite neto i bruto masu jedinice pakiranja. |
+| **Dimenzije** | Unesite širinu, visinu i dubinu jedinice pakiranja. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Ledger and Intrastat</strong></summary>
+<summary><strong>Dodatno</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| [**Stock account**](../../Accounting/Management/Ledger/KontniPlan.md) | Balance sheet account where the value of this material’s inventory is recorded. Use this to override the default stock account for this specific material. |
-| [**Account expense**](../../Accounting/Management/Ledger/KontniPlan.md) | Profit & loss account used when this material is consumed, issued from stock, or sold (e.g., Cost of Goods Sold). Use this to override the default expense account for this material. |
-| [**Tariff**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Customs tariff code used for statistical and customs reporting. |
-| [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
-| **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
+| Polje | Opis |
+|-------|------|
+| **Opis** | Kratki interni opis koji objašnjava namjenu ili specifikacije proizvoda. Na primjer **Puni hrast, impregniran**. |
+| **Oznake** | Oznake koje se koriste za kategorizaciju i filtriranje. Na primjer **namještaj**, **premium**. |
+| **Info URL poveznica** | URL koji vodi na vanjske informacije o proizvodu ili dokumentaciju. Na primjer *https://example.domain/info*. |
+| **URL poveznica slike proizvoda** | Javni URL koji pokazuje na sliku proizvoda. Na primjer *https://example.domain/images/product.jpg*. |
+| **Vanjski ključ** | Identifikator u vanjskom sustavu koji se koristi za povezivanje zapisa među sustavima, na primjer **SAP-4711**. |
 
 </details>
 
-## Management
+<details markdown="1">
+<summary><strong>Glavna knjiga i Intrastat</strong></summary>
 
-### List of products
+| Polje | Opis |
+|-------|------|
+| [**Konto zalihe**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto bilance na kojem se evidentira vrijednost zaliha ovog materijala. Koristite ga za promjenu zadanog konta zaliha za ovaj materijal. |
+| [**Račun troška**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto računa dobiti i gubitka koji se koristi kada se materijal potroši, izda iz zaliha ili proda (na primjer nabavna vrijednost prodane robe). Koristite ga za promjenu zadanog konta troška za ovaj materijal. |
+| [**Tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Carinska tarifna oznaka koja se koristi za statističko i carinsko izvještavanje. |
+| [**Država podrijetla**](../../../Zajednicko/Upravljanje/Drzave.md) | Država podrijetla koja se koristi na trgovinskim i carinskim dokumentima. |
+| **Konverter mase** | Faktor za pretvorbu osnovne mjerne jedinice u masu (na primjer u kg). Primjenjuje se u Intrastatu ili analitici kada je potrebna masa. |
+| **Konverter mjerne jedinice** | Faktor za pretvorbu osnovne mjerne jedinice materijala u drugu mjernu jedinicu, na primjer iz kilograma u funte, ako se količina u dokumentima ili izvještajima bilježi u drugoj jedinici. |
 
-The user interface contains a list of products. If no record exists yet, the list is empty.
+</details>
 
-![Products](../Images/ProductsList.png "Products")
+## Upravljanje
 
-The list displays each product’s name, code, and serial number generation method.
+### Popis proizvoda
 
-A filter for **Tags** is available on the left side of the screen. A search field is available in the upper-right corner to quickly locate specific products.
+Korisničko sučelje sadrži popis proizvoda. Ako još nema zapisa, popis je prazan.
 
-## Actions
+![Popis proizvoda](../Images/ProductsListHR.png "Popis proizvoda")
 
-Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
+Popis prikazuje naziv proizvoda (**Proizvod**) i njegovu **Oznaku**.
 
-- [**Import**](#import-products)
-- [**Copy existing**](#copy-an-existing-product)
-- **New**
+S lijeve strane ekrana dostupan je filtar **Oznaka**. U gornjem desnom kutu nalazi se polje za pretraživanje kojim brzo pronalazite određene proizvode.
 
-### Add a new product
+### Izbornik
 
-Click on the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for adding a new product. The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
+Izbornik nudi dodatne radnje dostupne na ekranu popisa.
 
-![New Product](../Images/NewProduct.png "New Product")
+Dostupne radnje:
 
-Additional collapsible sections are available:
+- **Preuzmi CSV** – Preuzmite popis materijala kao CSV datoteku. Datoteku možete pregledati, urediti i kasnije uvesti za ažuriranje popisa materijala.
 
-#### Packaging
+## Radnje
 
-This section allows you to review or add one or more [packaging](Packaging.md) definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste prikazali sljedeće radnje:
 
-These packaging records can later be used in warehouse operations such as [Receives](../../Logistics/Documents/Receives.md), [Issues](../../Logistics/Documents/Issues.md), and [Inter warehouse](../../Logistics/Documents/InterWarehouse.md) transfers.
+- [**Uvoz**](#uvoz-proizvoda)
+- [**Kopiraj postojeći**](#kopiranje-postojeceg-proizvoda)
+- **Novo**
 
-#### Intrastat and Ledger
+### Dodavanje novog proizvoda
 
-Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novo** da biste otvorili obrazac za unos novog proizvoda. Obrazac sadrži polja poput **Oznaka**, **Naziv**, **Generiranje serijskog broja**, **Osnovna mjerna jedinica**, **Porezna stopa** i druga, ovisno o konfiguraciji.
 
-![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
+![Novi proizvod](../Images/NewProductHR.png "Novi proizvod")
+
+Dostupni su dodatni sažimajući odjeljci:
+
+#### Pakiranje
+
+Ovaj odjeljak omogućuje pregled ili dodavanje jedne ili više definicija [pakiranja](Pakiranje.md) specifičnih za materijal. Svaki unos predstavlja jedinicu pakiranja s vlastitom količinom i identifikacijom.  
+
+Ti se zapisi pakiranja kasnije mogu koristiti u skladišnim operacijama, poput [primki](../../Logistika/Dokumenti/Primke.md), [izdatnica](../../Logistika/Dokumenti/Izdatnica.md) i [međuskladišnog prometa](../../Logistika/Dokumenti/MeduskladisniPromet.md).
+
+#### Intrastat i glavna knjiga
+
+Koristite ove odjeljke za unos Intrastat i carinskih podataka koji se koriste za izvještavanje o trgovini unutar EU te za ostale računovodstvene pojedinosti.
+
+![Intrastat i glavna knjiga materijala](../Images/MaterialsIntrastatLedgerHR.png "Pojedinosti materijala za Intrastat i glavnu knjigu")
 
 > [!WARNING]
-> Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
+> Unesite ispravne konte u odjeljku **Glavna knjiga** (na primjer konte zaliha i troškova). Pogrešne ili nedostajuće vrijednosti uzrokovat će kasnije greške pri knjiženju u računovodstvu.
 
-#### Additional
+#### Dodatno
 
-This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
+Ovaj odjeljak sadrži neobavezna opisna polja, poput opisa materijala, oznaka, slika, poveznica ili vanjskih identifikatora. Ta polja pružaju dodatni kontekst ili reference, ali ne utječu na izračune zaliha.
 
-![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
+![Sažimajući odjeljci](../Images/MaterialDodatnoHR.png "Sažimajući odjeljci")
 
-After entering the required information, click **Add** to save the product or **Cancel** to return to the list view.
+Nakon unosa potrebnih podataka kliknite **Dodaj** da biste spremili proizvod ili **Poništi** da biste se vratili na popis.
 
-### Import products
+### Uvoz proizvoda
 
-Click on the [action button](../../../Common/UI/ActionButton.md) and select **Import** to import multiple product materials at once by preparing and uploading a correctly structured spreadsheet.  
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Uvoz** da biste uvezli više materijala proizvoda odjednom pripremom i učitavanjem ispravno strukturirane tablice.  
 
-See the [**Import materials**](ImportMaterials.md) documentation for full details.
+Pogledajte dokumentaciju [**Uvoz materijala**](UvozMaterijala.md) za sve pojedinosti.
 
-### Copy an existing product
+### Kopiranje postojećeg proizvoda
 
-Click on the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing product** to create a new product based on an existing one. A selection list appears with the available base products.
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Kopiraj postojeći proizvod** da biste stvorili novi proizvod na temelju postojećeg. Pojavljuje se popis dostupnih osnovnih proizvoda.
 
-![Copy Product](../Images/CopyProduct.png "Copy Product")
+![Kopiranje proizvoda](../Images/CopyProductHR.png "Kopiranje proizvoda")
 
-After selecting the base product, all fields are pre-filled and can be edited before saving.
+Nakon odabira osnovnog proizvoda sva su polja unaprijed popunjena i mogu se urediti prije spremanja.
 
+## Uređivanje proizvoda
 
-## Edit a product
+Za uređivanje postojećeg proizvoda kliknite **Naziv** proizvoda na popisu. Sučelje prelazi u način uređivanja i prikazuje sva polja za izmjenu. Kliknite **Spremi** da biste primijenili promjene ili **Poništi** da biste ih odbacili.
 
-To edit an existing product, click the product’s **Name** in the list. The interface switches to edit mode, displaying all fields for modification. Click **Save** to apply changes or **Cancel** to discard them.
+![Uređivanje proizvoda](../Images/EditProductHR.png "Uređivanje proizvoda")
 
-![Edit Product](../Images/EditProduct.png "Edit Product")
+## Brisanje proizvoda
 
-## Delete a product
+Kliknite **Izbriši** na ekranu za uređivanje da biste otvorili dijalog za potvrdu:
 
-Click **Delete** on the edit screen to open a confirmation dialog: 
+**Jeste li sigurni da želite izbrisati zapis?**  
 
-**Are you sure you want to delete this record?**  
-
-If confirmed, the product is permanently removed; otherwise, the system keeps the record unchanged.
+Ako potvrdite, proizvod se trajno uklanja; u suprotnom sustav zadržava zapis nepromijenjen.
 
 > [!NOTE]
-> A product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, or material structures.  
+> Proizvod se može obrisati samo ako ga ne referenciraju ovisni zapisi, poput kretanja zaliha, dokumenata ili struktura materijala.

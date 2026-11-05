@@ -1,33 +1,33 @@
 <!-- app_route: /sitemap/assets.materials -->
 <!-- app_label: Materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/README.md -->
-<!-- canonical_source_title: Materials -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/README.md -->
+<!-- canonical_source_title: Materijali -->
 
-# Materials
+# Materijali
 
-Materials represent the operational items your organization uses in logistics, production, stock management, or assembly processes. They include finished products, partially produced items, raw inputs, and reusable components. Additional code lists help define packaging, measurement units, and bulk import functions.
+Materijali predstavljaju operativne stavke koje vaša organizacija koristi u logistici, proizvodnji, upravljanju zalihama ili procesima sastavljanja. Obuhvaćaju gotove proizvode, djelomično izrađene stavke, sirovi input i višekratne komponente. Dodatni popisi šifara pomažu u definiranju pakiranja, mjernih jedinica i funkcija masovnog uvoza.
 
-To access Materials, go to **Assets / Materials** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do materijala dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Materijali**.
 
-![Assets domain overview](../Images/MaterialsSitemap.png "Assets domain overview")
+![Pregled domene Roba i usluge](../Images/MaterialsSitemapHR.png "Pregled domene Roba i usluge")
 
-## Material categories
+## Kategorije materijala
 
-The Materials section contains four primary code lists, which represent the main types of materials managed in operational workflows:
+Odjeljak Materijali sadrži četiri glavna popisa šifara, koji predstavljaju glavne vrste materijala kojima se upravlja u operativnim procesima:
 
-- **[Products](Products.md)** – Finished goods produced internally or purchased as ready-to-use items. Products participate in stock and logistics flows.
-- **[Semi products](SemiProducts.md)** – Items that represent partially completed goods used as intermediate components in production.
-- **[Raw materials](RawMaterials.md)** – Basic input materials used at the earliest stages of production, such as wood, metal sheets, or other fundamental components.
-- **[Repro materials](ReproMaterials.md)** – Returnable or auxiliary components used to support production or internal activities.
+- **[Proizvodi](Proizvodi.md)** – Gotova roba proizvedena interno ili kupljena kao gotove stavke. Proizvodi sudjeluju u tokovima zaliha i logistike.
+- **[Poluproizvodi](Poluproizvodi.md)** – Stavke koje predstavljaju djelomično dovršenu robu koja se koristi kao međukomponente u proizvodnji.
+- **[Sirovine](Sirovine.md)** – Osnovni ulazni materijali koji se koriste u najranijim fazama proizvodnje, poput drva, metalnih limova ili drugih temeljnih komponenti.
+- **[Pomoćni proizvodi](PomocniProizvodi.md)** – Povratne ili pomoćne komponente koje služe za podršku proizvodnji ili internim aktivnostima.
 
-![Materials Subdomain](../Images/MaterialsSubdomain.png "Materials subdomain")
+![Potpodomena Materijali](../Images/MaterialsSubdomainHR.png "Potpodomena Materijali")
 
-## Additional material-related code lists
+## Dodatni popisi šifara vezani uz materijale
 
-These code lists support the management and definition of the four primary material types:
+Ovi popisi šifara podržavaju upravljanje i definiranje četiri glavne vrste materijala:
 
-- **[Packaging](Packaging.md)** – Defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units.
-- **[Import materials](ImportMaterials.md)** – Allows bulk importing of materials using a spreadsheet, useful when creating or updating multiple records at once.
-- **[Alternative measure units](AlternativeMeasureUnits.md)** – Additional measurement units that extend a material’s base unit (e.g., pieces, kilograms, square meters), including conversion settings.
-- **[Material price lists](MaterialPriceLists.md)** – Defines procurement prices used for purchasing and internal valuation.
-- **[Sets](Sets.md)** – Predefined bundles of materials grouped together for easier selection in logistics or production tasks.
+- **[Pakiranje](Pakiranje.md)** – Definira kako se materijal pakira, uključujući količinu, masu, dimenzije i neobavezne zamjenske mjerne jedinice.
+- **[Uvoz materijala](UvozMaterijala.md)** – Omogućuje masovni uvoz materijala iz tablice, korisno kada se istodobno stvara ili ažurira više zapisa.
+- **[Zamjenske mjerne jedinice](ZamjenskeMjerneJedinice.md)** – Dodatne mjerne jedinice koje proširuju osnovnu jedinicu materijala (na primjer komade, kilograme, kvadratne metre), uključujući postavke pretvorbe.
+- **[Cjenici materijala](CjeniciMaterijala.md)** – Definira nabavne cijene koje se koriste za nabavu i interno vrednovanje.
+- **[Setovi](Setovi.md)** – Unaprijed definirani skupovi materijala grupirani radi lakšeg odabira u logističkim ili proizvodnim zadacima.

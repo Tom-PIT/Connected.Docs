@@ -1,60 +1,59 @@
 <!-- app_route: /management/materials/sets -->
 <!-- app_label: Sets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Sets.md -->
-<!-- canonical_source_title: Sets -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/Setovi.md -->
+<!-- canonical_source_title: Setovi -->
 
-# Sets
+# Setovi
 
-Sets let you define composite items made of existing materials (products, semi products, raw or repro materials). A set groups multiple components with quantities under a single parent material, so you can sell or manage it as one.
+Setovi omogućuju definiranje složenih stavki sastavljenih od postojećih materijala (proizvoda, poluproizvoda, sirovina ili pomoćnih proizvoda). Set grupira više komponenti s količinama pod jednim nadređenim materijalom, pa ga možete prodavati ili njime upravljati kao jednom cjelinom.
 
-To access this page, go to **Assets / Materials / Sets** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ove stranice dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Materijali / Setovi (garniture)**.
 
-## Schema
+## Shema
 
-### Document section
+### Odjeljak dokumenta
 
-| Field | Description |
+| Polje | Opis |
 |---|---|
-| **Material type** | Category of the parent set (e.g., Product, Semi product). |
-| **Entity** | The parent material that represents the set (e.g., Furniture set). |
-| **Quantity** | Quantity of each component in the set. |
+| **Tip materijala** | Kategorija nadređenog seta (na primjer Proizvod, Poluproizvod). |
+| **Entitet** | Nadređeni materijal koji predstavlja set (na primjer Garnitura namještaja). |
+| **Količina** | Količina svake komponente u setu. |
 
+## Upravljanje
 
+### Preduvjeti
+- Najprije stvorite nadređeni materijal u njegovoj kategoriji (na primjer u **Proizvodima** ili **Poluproizvodima**).
+- Provjerite je li svaka komponenta koju želite uključiti već definirana u odgovarajućem popisu šifara.
 
-## Management
+## Popis setova
+Lijeva bočna traka prikazuje nadređene materijale grupirane prema [**Tipu materijala**](../README.md) (na primjer [**Proizvodi**](Proizvodi.md), [**Poluproizvodi**](Poluproizvodi.md)). Odaberite nadređeni materijal da biste u glavnom popisu vidjeli njegove komponente. Glavni popis prikazuje komponente odabranog seta s njihovim količinama.
 
-### Prerequisites
-- Create the parent material first in its category (e.g., **Products**, **Semi products**).
-- Ensure each component you want to include is already defined in its respective code list.
+![Popis setova](../Images/SetsListHR.png "Popis setova")
 
-## List of sets
-The left sidebar lists parent materials grouped by [**Material type**](../README.md) (e.g., [**Products**](Products.md), [**Semi products**](SemiProducts.md)). Select a parent to view its components in the main list. The main list shows the components of the selected set with their quantities.
+## Radnje
 
-![Sets list](../Images/SetsList.png "Sets list")
+### Stvaranje seta
 
-## Actions
+1. Stvorite nadređeni materijal u njegovoj kategoriji:
+   - Idite na **Roba i Usluge / Materijali / Proizvodi** i dodajte novi proizvod (na primjer **Garnitura namještaja od borovine**).
+2. Otvorite **Roba i Usluge / Materijali / Setovi (garniture)** i na lijevoj bočnoj traci odaberite nadređeni materijal: **Proizvodi → Garnitura namještaja od borovine**.
+3. Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste dodali komponente u set (svaka komponenta već mora postojati):
+   - Primjeri komponenti: **Stol od borovine** (1), **Stolica od borovine** (4)
 
-### Create a set
+   ![Novi set](../Images/SetsNewHR.png "Novi set")
 
-1. Create the parent material in its category:
-   - Go to **Assets / Materials / Products** and add a new product (e.g., **Pine Wood Furniture Set**).
-2. Open **Assets / Materials / Sets** and select the parent on the left sidebar: **Products → Pine Wood Furniture Set**.
-3. Click the [action button](../../../Common/UI/ActionButton.md) to add components to the set (each component must exist already):
-   - Example components: **Pine Wood Table** (1), **Pine Wood Chair** (4)
+4. Spremite. Garnitura namještaja od borovine sada referencira sve komponente s njihovim količinama.
 
-   ![New set](../Images/SetsNewV2.png "New set")
+   ![Popis setova](../Images/SetsListHR.png "Popis setova")
 
-4. Save. The **Pine Wood Furniture Set** now references all components with their quantities.
+### Uređivanje seta
 
-   ![Sets list](../Images/SetsList.png "Sets list")
+Kliknite komponentu na popisu seta da biste izmijenili njezinu količinu ili je zamijenili drugim materijalom.
 
-### Edit a set
+## Povezane radnje
 
-Click on a component in the set list to modify its quantity or replace it with another material.
+Setovi su povezani s **[Razdvajanjima](../../Logistika/Dokumenti/Razdvajanja.md)**. Set možete razdvojiti kada, na primjer, zaprimite set i želite pojedine dijelove koristiti ili prodavati zasebno. Razdvajanje stvara logističke dokumente koji izdaju set i unose njegove komponente u zalihe prema definiranim količinama.
 
-## Related operations
-Sets are connected to **[Disassemblies](../../Logistics/Documents/Disassemblies.md)**. You can disassemble a set when, for example, you receive it and want to use or sell the individual parts separately. Disassembly creates logistics documents that move the set out and post its components into stock per defined quantities.
+## Brisanje komponente iz seta
 
-## Delete a set
-
-Individual components can be removed from a set by selecting them and clicking **Delete**. If confirmed, the component is removed from the parent set.
+Pojedine komponente mogu se ukloniti iz seta tako da ih odaberete i kliknete **Izbriši**. Ako potvrdite, komponenta se uklanja iz nadređenog seta.

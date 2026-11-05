@@ -1,64 +1,64 @@
 <!-- app_route: /sitemap/assets -->
 <!-- app_label: Assets domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/README.md -->
-<!-- canonical_source_title: Assets domain -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/README.md -->
+<!-- canonical_source_title: Roba i usluge -->
 
-# Assets
+# Roba i usluge
 
-The **Assets** domain contains all records related to the goods and services your company offers and prices, as well as the operational items used to build, deliver, or support them. It includes both **Assets** (commercial items you sell) and **Materials** (operational items used internally in production and logistics).
+Domena **Roba i usluge** sadrži sve zapise o robi i uslugama koje vaša tvrtka nudi i cijenama za njih, kao i o operativnim stavkama koje se koriste za izradu, isporuku ili podršku. Obuhvaća i **robu ili usluge** (komercijalne stavke koje prodajete) i **materijale** (operativne stavke koje se interno koriste u proizvodnji i logistici).
 
-- **Assets** are commercial items visible to customers (e.g., finished goods, service items, catalog entries). They define how offerings are priced, taxed, and presented in sales documents.
-- **Materials** are operational items used internally (e.g., raw materials, components, semi‑finished goods, packaging, repro materials). They define what exists in stock and how goods move through logistics and production.
+- **Roba ili usluge** su komercijalne stavke vidljive kupcima (na primjer, gotovi proizvodi, stavke usluga, stavke kataloga). Određuju kako se ponude cijene, oporezuju i prikazuju u prodajnim dokumentima.
+- **Materijali** su operativne stavke koje se koriste interno (na primjer, sirovine, komponente, poluproizvodi, pakiranje, pomoćni materijali). Određuju što postoji na zalihama i kako se roba kreće kroz logistiku i proizvodnju.
 
-For example, an **asset** might be a *Complete Laptop Set* sold as a packaged offering that includes a laptop, a carrying bag, and a mouse. The individual parts of that set—such as the **mouse**, the **laptop**, or even the internal **chips** inside the laptop—would be considered **materials**, because they are components used to build, assemble, or support the final commercial product. See the comparison [Assets vs. Materials](#assets-vs-materials) for more information.
+Na primjer, **roba ili usluga** može biti *kompletni set prijenosnog računala* koji se prodaje kao paket i sadrži prijenosno računalo, torbu i miš. Pojedini dijelovi tog seta, poput **miša**, **prijenosnog računala** ili čak internih **čipova** unutar prijenosnog računala, smatrali bi se **materijalima**, jer su komponente koje se koriste za izradu, sastavljanje ili podršku konačnog komercijalnog proizvoda. Za usporedbu pogledajte [Roba i usluge naspram materijala](#roba-i-usluge-naspram-materijala).
 
-This domain groups together all elements needed to define, price, organize, and operate your catalog across sales and logistics.
+Ova domena objedinjuje sve elemente potrebne za definiranje, određivanje cijena, organiziranje i vođenje vašeg kataloga u prodaji i logistici.
 
 
-To access the Assets domain, navigate to **Assets** in the [navigation](../../Zajednicko/UI/Navigacija.md).
+Do domene Roba i usluge dolazite tako da u [navigaciji](../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge**.
 
-![Assets Domain](Images/AssetsSitemap.png)
+![Roba i usluge](Images/AssetsSitemapHR.png)
 
 > [!NOTE]  
-> The available domains depend on each company’s configuration and business model.
+> Dostupne domene ovise o konfiguraciji i poslovnom modelu svake tvrtke.
 
-## What is included in the Assets domain?
+## Što je uključeno u domenu Roba i usluge?
 
-![Assets Domain](Images/AssetsDomain.png "Assets Domain overview")
+![Domena Roba i usluge](Images/AssetsDomainHR.png "Pregled domene Roba i usluge")
 
-The domain is structured into several functional areas:
+Domena je podijeljena u nekoliko funkcionalnih područja:
 
-- **[Assets](Assets/Assets.md)** – Defines the goods and services offered to customers. Each asset includes prices, tax settings, descriptive fields, and optional component details.
+- **[Roba ili usluge](RobaIUsluge/RobaIUsluge.md)** – Definira robu i usluge koje nudite kupcima. Svaka stavka sadrži cijene, porezne postavke, opisna polja i neobavezne pojedinosti o komponentama.
 
-- **[Asset price lists](Assets/AssetPriceLists.md)** – Used to prepare customer-specific selling prices for selected assets. Price lists support validity periods, company-specific pricing, and quantity-based discount ranges.
+- **[Cjenici stavki](RobaIUsluge/CjeniciStavki.md)** – Koriste se za pripremu prodajnih cijena prilagođenih kupcima za odabrane stavke. Cjenici podržavaju razdoblja valjanosti, cijene specifične za tvrtku i popuste po količini.
 
-- **[Materials](README.md)** – Materials are used to *build* assets or represent items handled in logistics workflows (stock, receives, issues, etc.). Unlike assets, materials are operational internal units.
+- **[Materijali](Materijali/README.md)** – Materijali se koriste za *izradu* robe ili usluga ili predstavljaju stavke kojima se rukuje u logističkim procesima (zalihe, primke, izdatnice itd.). Za razliku od robe ili usluga, materijali su operativne interne jedinice.
 
-    - **[Products](Materials/Products.md)**
-    - **[Raw materials](Materials/RawMaterials.md)**
-    - **[Repro materials](Materials/ReproMaterials.md)**
-    - **[Semi products](Materials/SemiProducts.md)**
+    - **[Proizvodi](Materijali/Proizvodi.md)**
+    - **[Sirovine](Materijali/Sirovine.md)**
+    - **[Pomoćni proizvodi](Materijali/PomocniProizvodi.md)**
+    - **[Poluproizvodi](Materijali/Poluproizvodi.md)**
 
-- **Management** – Contains additional configurable elements such as [**Tax rates**](../../Common/Management/TaxRates.md) and [**Measure units**](../../Common/Management/MeasureUnits.md). These define the structure and behavior of assets and pricing.
+- **Upravljanje** – Sadrži dodatne konfigurabilne elemente, poput [**Poreznih stopa**](../../Zajednicko/Upravljanje/PorezneStope.md) i [**Mjernih jedinica**](../../Zajednicko/Upravljanje/MjerneJedinice.md). Oni određuju strukturu i ponašanje robe ili usluga te cijena.
 
-![Assets Domain Management](Images/AssetsDomainManagement.png)
+![Upravljanje u domeni Roba i usluge](Images/AssetsDomainManagementHR.png)
 
-## Assets vs. Materials
+## Roba i usluge naspram materijala
 
-Understanding the distinction between these two concepts is essential. Although both represent items managed within your organization, they serve very different purposes.
+Razumijevanje razlike između ova dva pojma je ključno. Iako oba predstavljaju stavke kojima se upravlja unutar vaše organizacije, služe vrlo različitim svrhama.
 
-- **[Assets](Assets/Assets.md)** define what you *sell* to customers.
-- **[Materials](README.md)** define what you *use* internally in production and logistics.
+- **[Roba ili usluge](RobaIUsluge/RobaIUsluge.md)** definiraju ono što *prodajete* kupcima.
+- **[Materijali](Materijali/README.md)** definiraju ono što *koristite* interno u proizvodnji i logistici.
 
-The table below summarizes the key differences and helps determine where each type of item belongs.
+Tablica u nastavku sažima ključne razlike i pomaže odrediti gdje pripada svaka vrsta stavke.
 
-| Aspect | [**Assets**](Assets/Assets.md) | [**Materials**](README.md) |
+| Aspekt | [**Roba ili usluge**](RobaIUsluge/RobaIUsluge.md) | [**Materijali**](Materijali/README.md) |
 |--------|--------------------------------------|-------------------------------------------|
-| **Purpose** | Commercial items offered or sold to customers. | Operational items used internally in production or logistics. |
-| **Role in the system** | Appear in price lists, catalogs, offers, invoices, etc. | Appear in stock, receives, issues, production, and warehouse operations. |
-| **Examples** | Finished goods, service items, catalog items. | Raw materials, components, semi-finished goods, packaging, repro materials. |
-| **Used in** | Sales processes (offers, invoices, contracts). | Logistics processes (stock handling, production, BOMs). |
-| **Pricing** | Uses *asset price lists* for customer-specific pricing. | Uses *material price lists* for procurement and costing. |
-| **Composition** | May contain material components via asset details. | May be included as parts of BOMs or asset structures. |
-| **External visibility** | Visible to customers. | Internal only; customers never see material records. |
-| **Lifecycle** | Market-oriented (driven by commercial strategy). | Production-oriented (driven by operational needs). |
+| **Svrha** | Komercijalne stavke koje se nude ili prodaju kupcima. | Operativne stavke koje se koriste interno u proizvodnji ili logistici. |
+| **Uloga u sustavu** | Pojavljuju se u cjenicima, katalozima, ponudama, računima itd. | Pojavljuju se u zalihama, primkama, izdatnicama, proizvodnji i skladišnim operacijama. |
+| **Primjeri** | Gotovi proizvodi, stavke usluga, stavke kataloga. | Sirovine, komponente, poluproizvodi, pakiranje, pomoćni materijali. |
+| **Koristi se u** | Prodajnim procesima (ponudama, računima, ugovorima). | Logističkim procesima (rukovanje zalihama, proizvodnja, sastavnice). |
+| **Cijene** | Koriste *cjenike stavki* za cijene specifične za kupca. | Koriste *cjenike materijala* za nabavu i kalkulaciju troškova. |
+| **Sastav** | Mogu sadržavati komponente materijala preko detalja stavke. | Mogu biti dio sastavnica ili struktura robe ili usluga. |
+| **Vidljivost izvana** | Vidljivo kupcima. | Samo interno; kupci nikada ne vide zapise o materijalima. |
+| **Životni ciklus** | Orijentiran na tržište (vođen komercijalnom strategijom). | Orijentiran na proizvodnju (vođen operativnim potrebama). |

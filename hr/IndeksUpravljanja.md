@@ -67,9 +67,9 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 - [**Roba i usluge**](Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md)
 
 ### Materijali
-- [**Alternativne mjerne jedinice**](Domene/RobaIUsluge/Materijali/AlternativeMeasureUnits.md)
-- [**Uvoz materijala**](Domene/RobaIUsluge/Materijali/ImportMaterials.md)
-- [**Cjenici materijala**](Domene/RobaIUsluge/Materijali/MaterialPriceLists.md)
+- [**Alternativne mjerne jedinice**](Domene/RobaIUsluge/Materijali/ZamjenskeMjerneJedinice.md)
+- [**Uvoz materijala**](Domene/RobaIUsluge/Materijali/UvozMaterijala.md)
+- [**Cjenici materijala**](Domene/RobaIUsluge/Materijali/CjeniciMaterijala.md)
 - [**Pakiranje**](Domene/RobaIUsluge/Materijali/Pakiranje.md)
 - [**Proizvodi**](Domene/RobaIUsluge/Materijali/Proizvodi.md)
 - [**Sirovine**](Domene/RobaIUsluge/Materijali/Sirovine.md)

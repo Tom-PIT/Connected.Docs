@@ -1,126 +1,118 @@
 <!-- app_route: /assets/management/asset-price-lists -->
 <!-- app_label: Asset price lists -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Assets/AssetPriceLists.md -->
-<!-- canonical_source_title: Asset price lists -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/RobaIUsluge/CjeniciStavki.md -->
+<!-- canonical_source_title: Cjenici stavki -->
 
-# Asset price lists
+# Cjenici stavki
 
-**Asset price lists** define how much a specific customer (or other business entity) pays for your [assets](Assets.md).  They allow you to set **customer-specific pricing**, valid for a defined date range, and optionally include **volume-based discounts** (price ranges).
+**Cjenici stavki** određuju koliko određeni kupac (ili drugi poslovni subjekt) plaća za vašu [robu ili usluge](RobaIUsluge.md). Omogućuju **cijene prilagođene kupcu**, vrijede za određeno razdoblje i mogu uključivati **popuste ovisno o količini** (rasponi cijena).
 
-To access this screen, go to **Assets / Asset price lists** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Cjenici stavki**.
 
-## Schema
+## Shema
 
-| Field | Description |
-|-------|-------------|
-| **Type** | Classification of the price list (e.g., *Company*). |
-| [**Entity**](../../../Common/Management/BusinessDirectory.md) | Customer or other partner to whom the price list applies. |
-| **Name** | Display name of the price list (mandatory). |
-| **Valid from** | Start date when the price list becomes active. |
-| **Valid to** | End date of the price list's validity period. |
-| [**Asset**](Assets.md) | Selected asset for which a price is defined in the list. |
-| **Item price net 100%** | Base net price of the asset before discounts. |
-| **Ranges** | Optional volume-based rules that adjust the net price based on quantity purchased. Includes **From**, **To**, **Percentage (%)**, and **Item price net**. |
+| Polje | Opis |
+|-------|------|
+| **Tip** | Klasifikacija cjenika (na primjer *Tvrtka*). |
+| [**Vrijednost**](../../../Zajednicko/Upravljanje/PoslovniImenik.md) | Kupac ili drugi partner na kojeg se cjenik odnosi. |
+| **Ime** | Ime cjenika koje se prikazuje (obavezno). |
+| **Valjano od** | Početni datum od kojeg cjenik postaje aktivan. |
+| **Valjano do** | Završni datum razdoblja valjanosti cjenika. |
+| [**Roba ili usluga**](RobaIUsluge.md) | Odabrana roba ili usluga za koju se u cjeniku definira cijena. |
+| **Neto cijena (jedinična) 100 %** | Osnovna neto cijena robe ili usluge prije popusta. |
+| **Rasponi** | Neobavezna pravila ovisna o količini koja prilagođavaju neto cijenu prema količini. Uključuju **Od**, **Do**, **Postotak (%)** i **Neto cijena (jedinična)**. |
 
-## Management
+## Upravljanje
 
-## List view
+## Pregled popisa
 
-To access the list of price lists, navigate to **Assets / Asset price lists**.
+Do popisa cjenika dolazite tako da u navigaciji odaberete **Roba i Usluge / Cjenici stavki**.
 
-The list displays:
-- All existing price lists  
-- Their valid periods  
-- A **Details** button to open price list contents  
+Popis prikazuje:
+- Sve postojeće cjenike  
+- Njihova razdoblja valjanosti  
+- Gumb **Detalji** za otvaranje sadržaja cjenika  
 
-The list can be filtered by:
-- **Type** (e.g., Company)
-- **Entity** (e.g., Customer)
+Popis možete filtrirati prema:
+- **Tip** (na primjer Tvrtka)
+- **Vrijednost**
 
-![Asset price lists](../Images/AssetPriceListsV2.png "Asset price lists list")
+![Popis cjenika stavki](../Images/AssetPriceListsHR.png "Popis cjenika stavki")
 
-Clicking the **Details** button opens the page where assets and discount ranges are managed.
+Klikom na gumb **Detalji** otvara se stranica na kojoj se upravlja robom ili uslugama i rasponima popusta.
 
-![Details list](../Images/AssetPriceListsDetailsListV2.png "Details list screen")
+## Radnje
 
-## Actions
+Ovisno o tome na kojoj ste stranici, [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) prikazuje različite radnje:
 
-Depending on which page you are, the [action button](../../../Common/UI/ActionButton.md) displays different actions:
+Na stranici **Cjenici stavki**:
+- **Novo**
+- [**Kopiraj**](#kopiranje-cjenika)
 
-On the **Asset price lists** page:
-- **New**
-- [**Copy**](#copy-a-price-list)
+Na stranici **Detalji**:
+- [**Uvoz**](#uvoz-cjenika)
+- **Novo**
 
-On the **Details** page:
-- [**Import**](#import-a-price-list)
-- **New**
+### Kreiranje novog cjenika
 
-### Create a new price list
+Slijedite ove korake za izradu funkcionalnog cjenika:
 
-Follow these steps to create a functional price list:
-
-1. Click the [action button](../../../Common/UI/ActionButton.md) and select **New**.
-2. Enter the fields as required: **Type**, **Entity**, **Name**, **Valid from**, **Valid to**.
-3. Click **Add** to save the price list header.
-4. Click the **Details** button to open the pricing page.
+1. Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novo**.
+2. Unesite polja prema potrebi: **Tip**, **Vrijednost**, **Ime**, **Valjano od**, **Valjano do**.
+3. Kliknite **Dodaj** da biste spremili zaglavlje cjenika.
+4. Kliknite gumb **Detalji** da biste otvorili stranicu s cijenama.
    
-   ![Details button](../Images/AssetPriceListsDetailsButtonV2.png "Open price list details")
+   ![Gumb Detalji](../Images/AssetPriceListsDetailsButtonHR.png "Otvaranje detalja cjenika")
 
-5. Click the action button and select **New** to add an asset to the price list. 
+5. Kliknite gumb radnji i odaberite **Novo** da biste dodali robu ili uslugu u cjenik.
   
-   ![Detail ranges](../Images/AssetPriceListsDetailsEditV2.png "Ranges and asset details")
+   ![Rasponi stavke](../Images/AssetPriceListsDetailsEditHR.png "Rasponi i pojedinosti stavke")
 
-6. Select the asset, the field **Item price net 100%** is automatically filled.
+6. Odaberite robu ili uslugu. Polje **Neto cijena (jedinična) 100 %** popunit će se automatski.
 
-7. (Optional) Add **Ranges** to define quantity-based discounts. In the example below, if the customer buys between 5 and 100 assets, the percentage of the price will be 90% (10% discount).
+7. (Neobavezno) Dodajte **Rasponi** za definiranje popusta ovisnih o količini. U primjeru u nastavku, ako kupac kupi između 11 i 25 komada robe ili usluga, postotak cijene bit će 90% (popust od 10%).
 
-   ![Add range example](../Images/AssetPriceListsDetailsRange.png "Example of range discount")
+   ![Primjer raspona popusta](../Images/AssetPriceListsDetailsRangeHR.png "Primjer popusta po rasponu")
 
-8. Save the details. Repeat from step 5 to add more assets to the price list.
- 
-The price list is now active for the selected customer during the specified period.
+8. Spremite pojedinosti. Ponovite od koraka 5 da biste u cjenik dodali još robe ili usluga.
 
-### Edit a price list
+Cjenik je sada aktivan za odabranog kupca u navedenom razdoblju.
 
-Clicking the **price list name** opens the **Edit** screen. Here you can modify the price list header information, but not the assets or ranges. To edit assets and ranges, click the **Details** button as described in the previous section.
+### Uređivanje cjenika
 
-![Edit price list](../Images/AssetPriceListsEditV2.png "Edit asset price list")
+Klikom na **naziv cjenika** otvara se ekran za **uređivanje**. Ovdje možete mijenjati zaglavlje cjenika, ali ne i robu ili usluge ni raspone. Za uređivanje robe ili usluga i raspona kliknite gumb **Detalji**, kako je opisano u prethodnom odjeljku.
 
-### Copy a price list
+![Uređivanje cjenika](../Images/AssetPriceListsEditHR.png "Uređivanje cjenika stavki")
 
-Creates a duplicate of an existing price list, including its validity range and contents.
+### Kopiranje cjenika
 
-### Import a price list
+Stvara kopiju postojećeg cjenika, uključujući njegovo razdoblje valjanosti i sadržaj.
 
-The **Import** screen allows you to import a CSV file with the list of details.
+### Uvoz cjenika
 
-![Import price list](../Images/AssetPriceListsImport.png "Import price list")
+Ekran **Uvoz** omogućuje uvoz CSV datoteke s popisom pojedinosti.
 
-### Delete a price list
+![Uvoz cjenika](../Images/AssetPriceListsImportHR.png "Uvoz cjenika")
 
-Asset price lists can be deleted on the edit screen, but only if they contain **no assets**.
+### Brisanje cjenika
 
-If the draft still includes assets in the **Details** section:
+Cjenici stavki mogu se obrisati na ekranu za uređivanje, ali samo ako ne sadrže **nijednu robu ili uslugu**.
 
-1. Click **Details** to open the section.
-2. Click on an asset to open its detail screen.  
-3. Click **Delete** inside detail screen to remove the asset.  
-4. Repeat this for all remaining assets.
+Ako nacrt i dalje sadrži robu ili usluge u odjeljku **Detalji**:
 
-Once the document contains no assets, you can click **Delete** to remove the price list.
+1. Kliknite **Detalji** da otvorite odjeljak.
+2. Kliknite na robu ili uslugu da otvorite njezin ekran s pojedinostima.  
+3. Kliknite **Izbriši** na ekranu pojedinosti da biste uklonili robu ili uslugu.  
+4. Ponovite za sve preostale stavke.
 
-## Menu
+Kada dokument više ne sadrži robu ili usluge, možete kliknuti **Izbriši** da biste uklonili cjenik.
 
-The menu provides additional actions available on this page.
+## Izbornik
 
-Available actions:
+Izbornik nudi dodatne radnje dostupne na ovoj stranici.
 
-- **Export to CSV**
+Dostupne radnje:
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+- **Izvoz u CSV**
 
-
-
-
-
-
+Za pojedinosti o radnjama izbornika pogledajte [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

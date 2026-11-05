@@ -1,170 +1,180 @@
 <!-- app_route: /management/materials/semi-products -->
 <!-- app_label: Semi products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/SemiProducts.md -->
-<!-- canonical_source_title: Semi products -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/Poluproizvodi.md -->
+<!-- canonical_source_title: Poluproizvodi -->
 
-# Semi products
+# Poluproizvodi
 
-**Semi products** are intermediate materials used in the production of finished goods. They are created from raw materials and then used as components in other items. Examples include Tabletop panel, Metal frame, Wooden leg, or Circuit module.
+**Poluproizvodi** su međumaterijali koji se koriste u proizvodnji gotove robe. Izrađuju se od sirovina, a zatim se koriste kao komponente drugih stavki. Primjeri su ploča za stolnu površinu, metalni okvir, drvena noga ili modul sklopa.
 
-Each semi product includes key information—like  [measure units](../../../Common/Management/MeasureUnits.md), [tax rate](../../../Common/Management/TaxRates.md), serial number behavior, or expiration period—to support consistent handling across production, inventory, and warehouse operations. This code list contains all semi-finished items used in your production process.
+Svaki poluproizvod sadrži ključne podatke, poput [mjernih jedinica](../../../Zajednicko/Upravljanje/MjerneJedinice.md), [porezne stope](../../../Zajednicko/Upravljanje/PorezneStope.md), ponašanja serijskog broja ili roka trajanja, kako bi se osiguralo dosljedno rukovanje u proizvodnji, zalihama i skladišnim operacijama. Ovaj popis šifara sadrži sve poluproizvode koji se koriste u vašem proizvodnom procesu.
 
 > [!TIP]
-> For a full demonstration, see the **[Semi product materials](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)** video tutorial.
+> Za cjelovitu demonstraciju pogledajte video vodič **[Poluproizvodi](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)**.
 
 > [!NOTE]  
-> **Prerequisites**  
-> Before managing semi products, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
-> - [**Tax rates**](../../../Common/Management/TaxRates.md)
+> **Preduvjeti**  
+> Prije upravljanja poluproizvodima provjerite jesu li ispravno konfigurirani sljedeći popisi šifara:  
+> - [**Mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md)  
+> - [**Porezne stope**](../../../Zajednicko/Upravljanje/PorezneStope.md)
 
-To access the **Semi products** code list, go to **Assets / Materials / Semi products** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do popisa šifara **Poluproizvodi** dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Materijali / Poluproizvodi**.
 
-## Schema
+## Shema
 
 <details open markdown="1">
-<summary><strong>Semi product</strong></summary>
+<summary><strong>Poluproizvod</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Code** | Unique identifier of the semi product within the list of materials. The code must be unique across all materials. (required) |
-| **Name** | Name of the semi product shown in lists and documents. (required) |
-| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
-| **Expiration (days)** | Number of days before expiration, used for perishable or time-sensitive materials. |
-| **EAN** | Barcode value used for scanning. |
-| **[Base measure unit](../../../Common/Management/MeasureUnits.md)** | Measure unit used to express quantities, such as **piece** or **meter**. (required) |
-| **Precision** | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
-| **[Tax rate](../../../Common/Management/TaxRates.md)** | Default tax rate used in business documents. |
-
-</details>
-
-<details markdown="1">
-<summary><strong>Packaging</strong></summary>
-
-A packaging definition describes the physical properties of a material and the alternative units used when handling it in the warehouse. This can also be set in [**Packaging**](Packaging.md).
-
-| Field | Description |
-|-------|-------------|
-| **Material type** | Classification of the material (e.g., product, semi-product) used for packaging context. |
-| **Products / Entity / Beech Table** | Example reference to the product/entity this packaging applies to. |
-| **EAN** | Packaging barcode. |
-| **Quantity (pc)** | Quantity represented by the packaging unit (e.g., 6 pcs per box). |
-| **Alternative measure unit** | Alternative unit for handling or reporting (e.g., pack). |
-| **Weight** | Enter both net and gross weight for the packaging unit. |
-| **Dimensions** | Enter width, height, and depth of the packaging unit. |
+| Polje | Opis |
+|-------|------|
+| **Oznaka** | Jedinstveni identifikator poluproizvoda unutar popisa materijala. Oznaka mora biti jedinstvena među svim materijalima. (obavezno) |
+| **Naziv** | Naziv poluproizvoda prikazan na popisima i u dokumentima. (obavezno) |
+| **Generiranje serijskog broja** | Određuje kako se obrađuju serijski brojevi i zapisi materijala:<br>• **Automatski** – svaka stavka dobiva jedinstveni rastući serijski broj.<br>• **Isti** – sve stavke dijele isti serijski broj, ali ostaju zasebni zapisi.<br>• **Identični** – sve stavke dijele isti serijski broj i tretiraju se kao jedan identičan zapis. |
+| **Rok trajanja (u danima)** | Broj dana prije isteka, za kvarljive ili vremenski osjetljive materijale. |
+| **EAN** | Vrijednost barkoda koja se koristi za skeniranje. |
+| [**Osnovna mjerna jedinica**](../../../Zajednicko/Upravljanje/MjerneJedinice.md) | Mjerna jedinica kojom se izražavaju količine, na primjer **komad** ili **metar**. (obavezno) |
+| **Broj decimalnih mjesta** | Zadani broj decimalnih mjesta za vrijednosti u ovoj mjernoj jedinici. Na primjer **3** za **1,255** ili **1** za **2,5**. |
+| [**Porezna stopa**](../../../Zajednicko/Upravljanje/PorezneStope.md) | Zadana porezna stopa koja se koristi u poslovnim dokumentima. |
+| **Toleranca** | Dopuštena tolerancija za količinu materijala, u postocima. Zadana vrijednost za nove materijale je 1. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Additional</strong></summary>
+<summary><strong>Pakiranje</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Description** | Short internal description explaining the use or specifications of the semi product. |
-| **Tags** | Tags used for categorization and filtering. |
-| **Info link URL** | URL linking to external material information or documentation. |
-| **Image URL** | Public URL pointing to the material image. |
-| **External key** | Identifier in an external system used for cross-system record linking. |
-| **Active** | Indicates whether the semi product is available for use in new documents. Inactive items cannot be used in new entries but remain visible in the history. |
+Definicija pakiranja opisuje fizička svojstva materijala i zamjenske jedinice koje se koriste pri rukovanju u skladištu. Može se postaviti i u [**Pakiranju**](Pakiranje.md).
+
+| Polje | Opis |
+|-------|------|
+| **Tip materijala** | Klasifikacija materijala (na primjer proizvod, poluproizvod) koja se koristi u kontekstu pakiranja. |
+| **Proizvodi / Entitet / Stol od bukovine** | Primjer reference na proizvod ili entitet na koji se pakiranje odnosi. |
+| **EAN** | Barkod pakiranja. |
+| **Količina (kom)** | Količina koju predstavlja jedinica pakiranja (na primjer 6 komada po kutiji). |
+| **Zamjenska mjerna jedinica** | Zamjenska jedinica za rukovanje ili izvještavanje (na primjer paket). |
+| **Masa** | Unesite neto i bruto masu jedinice pakiranja. |
+| **Dimenzije** | Unesite širinu, visinu i dubinu jedinice pakiranja. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Ledger and Intrastat</strong></summary>
+<summary><strong>Dodatno</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| [**Stock account**](../../Accounting/Management/Ledger/KontniPlan.md) | Balance sheet account where the value of this material’s inventory is recorded. Use this to override the default stock account for this specific material. |
-| [**Account expense**](../../Accounting/Management/Ledger/KontniPlan.md) | Profit & loss account used when this material is consumed, issued from stock, or sold (e.g., Cost of Goods Sold). Use this to override the default expense account for this material. |
-| [**Tariff**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Customs tariff code used for statistical and customs reporting. |
-| [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
-| **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
+| Polje | Opis |
+|-------|------|
+| **Opis** | Kratki interni opis koji objašnjava namjenu ili specifikacije poluproizvoda. |
+| **Oznake** | Oznake koje se koriste za kategorizaciju i filtriranje. |
+| **Info URL poveznica** | URL koji vodi na vanjske informacije ili dokumentaciju o materijalu. |
+| **URL poveznica slike materijala** | Javni URL koji pokazuje na sliku materijala. |
+| **Vanjski ključ** | Identifikator u vanjskom sustavu koji se koristi za povezivanje zapisa među sustavima. |
+| **Aktivan** | Pokazuje je li poluproizvod dostupan za korištenje u novim dokumentima. Neaktivne stavke ne mogu se koristiti u novim unosima, ali ostaju vidljive u povijesti. |
 
 </details>
 
-## Management
+<details markdown="1">
+<summary><strong>Glavna knjiga i Intrastat</strong></summary>
 
-### List of semi products
+| Polje | Opis |
+|-------|------|
+| [**Konto zalihe**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto bilance na kojem se evidentira vrijednost zaliha ovog materijala. Koristite ga za promjenu zadanog konta zaliha za ovaj određeni materijal. |
+| [**Račun troška**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto računa dobiti i gubitka koji se koristi kada se materijal potroši, izda iz zaliha ili proda (na primjer nabavna vrijednost prodane robe). Koristite ga za promjenu zadanog konta troška za ovaj materijal. |
+| [**Tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Carinska tarifna oznaka koja se koristi za statističko i carinsko izvještavanje. |
+| [**Država podrijetla**](../../../Zajednicko/Upravljanje/Drzave.md) | Država podrijetla koja se koristi na trgovinskim i carinskim dokumentima. |
+| **Konverter mase** | Faktor za pretvorbu osnovne mjerne jedinice u masu (na primjer u kg). Primjenjuje se u Intrastatu ili analitici kada je potrebna masa. |
+| **Konverter mjerne jedinice** | Faktor za pretvorbu osnovne mjerne jedinice materijala u drugu mjernu jedinicu, na primjer iz kilograma u funte, ako se količina u dokumentima ili izvještajima bilježi u drugoj jedinici. |
 
-The user interface contains a list of semi products. If no record exists yet, the list is empty.
+</details>
 
-![Semi products](../Images/SemiProductsList.png "Semi products")
+## Upravljanje
 
-The list displays each semi product’s name, code, and serial number generation method.
+### Popis poluproizvoda
 
-A filter for **Tags** is available on the left side of the screen. A search field in the upper-right corner helps filter the list.
+Korisničko sučelje sadrži popis poluproizvoda. Ako još nema zapisa, popis je prazan.
 
-## Actions
+![Popis poluproizvoda](../Images/SemiProductsListHR.png "Popis poluproizvoda")
 
-Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
+Popis prikazuje naziv poluproizvoda (**Poluproizvodi**) i njegovu **Oznaku**.
 
-- [**Import**](#import-semi-products)
-- [**Copy existing**](#copy-existing-semi-products)
-- **New**
+S lijeve strane ekrana dostupan je filtar **Oznaka**. Polje za pretraživanje u gornjem desnom kutu pomaže filtrirati popis.
 
-### Add a new semi product
+### Izbornik
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for creating a new semi product.
+Izbornik nudi dodatne radnje dostupne na ekranu popisa.
 
-The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
+Dostupne radnje:
 
-![New semi product](../Images/NewSemiproduct.png "New semi product")
+- **Preuzmi CSV** – Preuzmite popis materijala kao CSV datoteku. Datoteku možete pregledati, urediti i kasnije uvesti za ažuriranje popisa materijala.
 
-Additional collapsible sections are available:
+## Radnje
 
-#### Packaging
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste prikazali sljedeće radnje:
 
-This section allows you to review or add one or more [packaging](Packaging.md) definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
+- [**Uvoz**](#uvoz-poluproizvoda)
+- [**Kopiraj postojeći**](#kopiranje-postojeceg-poluproizvoda)
+- **Novo**
 
-These packaging records can later be used in warehouse operations such as [Receives](../../Logistics/Documents/Receives.md), [Issues](../../Logistics/Documents/Issues.md), and [Inter warehouse](../../Logistics/Documents/InterWarehouse.md) transfers.
+### Dodavanje novog poluproizvoda
 
-#### Additional
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novo** da biste otvorili obrazac za stvaranje novog poluproizvoda.
 
-This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
+Obrazac sadrži polja poput **Oznaka**, **Naziv**, **Generiranje serijskog broja**, **Osnovna mjerna jedinica**, **Porezna stopa** i druga, ovisno o konfiguraciji.
 
-![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
+![Novi poluproizvod](../Images/NewSemiproductHR.png "Novi poluproizvod")
 
-After entering the required information, click **Add** to save the semi product or **Cancel** to return to the list view.
+Dostupni su dodatni sažimajući odjeljci:
 
-#### Intrastat and Ledger
+#### Pakiranje
 
-Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
+Ovaj odjeljak omogućuje pregled ili dodavanje jedne ili više definicija [pakiranja](Pakiranje.md) specifičnih za materijal. Svaki unos predstavlja jedinicu pakiranja s vlastitom količinom i identifikacijom.  
 
-![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
+Ti se zapisi pakiranja kasnije mogu koristiti u skladišnim operacijama, poput [primki](../../Logistika/Dokumenti/Primke.md), [izdatnica](../../Logistika/Dokumenti/Izdatnica.md) i [međuskladišnog prometa](../../Logistika/Dokumenti/MeduskladisniPromet.md).
+
+#### Dodatno
+
+Ovaj odjeljak sadrži neobavezna opisna polja, poput opisa materijala, oznaka, slika, poveznica ili vanjskih identifikatora. Ta polja pružaju dodatni kontekst ili reference, ali ne utječu na izračune zaliha.
+
+![Sažimajući odjeljci](../Images/MaterialDodatnoHR.png "Sažimajući odjeljci")
+
+Nakon unosa potrebnih podataka kliknite **Dodaj** da biste spremili poluproizvod ili **Poništi** da biste se vratili na popis.
+
+#### Glavna knjiga i Intrastat
+
+Koristite ove odjeljke za unos Intrastat i carinskih podataka koji se koriste za izvještavanje o trgovini unutar EU te za ostale računovodstvene pojedinosti.
+
+![Intrastat i glavna knjiga materijala](../Images/MaterialsIntrastatLedgerHR.png "Pojedinosti materijala za Intrastat i glavnu knjigu")
 
 > [!WARNING]
-> Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
+> Unesite ispravne konte u odjeljku **Glavna knjiga** (na primjer konte zaliha i troškova). Pogrešne ili nedostajuće vrijednosti uzrokovat će kasnije greške pri knjiženju u računovodstvu.
 
-### Import semi products
+### Uvoz poluproizvoda
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **Import** to import multiple semi products at once by preparing and uploading a correctly structured spreadsheet.  
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Uvoz** da biste uvezli više poluproizvoda odjednom pripremom i učitavanjem ispravno strukturirane tablice.  
 
-See the [**Import materials**](ImportMaterials.md) documentation for full details.
+Pogledajte dokumentaciju [**Uvoz materijala**](UvozMaterijala.md) za sve pojedinosti.
 
-### Copy existing semi products
+### Kopiranje postojećeg poluproizvoda
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing semi product** to create a new semi product based on an existing one. A selection list appears with the available base semi products.
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Kopiraj postojeći poluproizvod** da biste stvorili novi poluproizvod na temelju postojećeg. Pojavljuje se popis dostupnih osnovnih poluproizvoda.
 
-![Copy semi product](../Images/CopySemiproduct.png "Copy semi product")
+![Kopiranje poluproizvoda](../Images/CopySemiproductHR.png "Kopiranje poluproizvoda")
 
-After selecting the base semi product, all fields are pre-filled and can be edited before saving.
+Nakon odabira osnovnog poluproizvoda sva su polja unaprijed popunjena i mogu se urediti prije spremanja.
 
-## Edit semi products
+## Uređivanje poluproizvoda
 
-To edit an existing semi product, click the semi product’s **Name** in the list.  
-The interface switches to edit mode, displaying all fields for modification.
+Za uređivanje postojećeg poluproizvoda kliknite njegov **Naziv** na popisu.  
+Sučelje prelazi u način uređivanja i prikazuje sva polja za izmjenu.
 
-![Edit semi product](../Images/EditSemiproduct.png "Edit semi product")
+![Uređivanje poluproizvoda](../Images/EditSemiproductHR.png "Uređivanje poluproizvoda")
 
-Click **Save** to apply changes or **Cancel** to discard them.
+Kliknite **Spremi** da biste primijenili promjene ili **Poništi** da ih odbacite.
 
-## Delete a semi product
+## Brisanje poluproizvoda
 
-Click **Delete** on the edit screen to open a confirmation dialog: 
+Kliknite **Izbriši** na ekranu za uređivanje da biste otvorili dijalog za potvrdu:
 
-**Are you sure you want to delete this record?**  
+**Jeste li sigurni da želite izbrisati zapis?**  
 
-If confirmed, the semiproduct is permanently removed; otherwise, the system keeps the record unchanged.
+Ako potvrdite, poluproizvod se trajno uklanja; u suprotnom sustav zadržava zapis nepromijenjen.
 
 > [!NOTE]
-> A semi product can be deleted only if it is not referenced by dependent entries, such as stock movements, documents, production structures, or other material relationships.
+> Poluproizvod se može obrisati samo ako ga ne referenciraju ovisni zapisi, poput kretanja zaliha, dokumenata, proizvodnih struktura ili drugih veza materijala.

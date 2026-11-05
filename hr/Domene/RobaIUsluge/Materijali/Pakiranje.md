@@ -1,115 +1,115 @@
 <!-- app_route: /management/materials/packaging -->
 <!-- app_label: Packaging -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/Packaging.md -->
-<!-- canonical_source_title: Packaging -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/Pakiranje.md -->
+<!-- canonical_source_title: Pakiranje -->
 
-# Packaging
+# Pakiranje
 
-Packaging defines how a material is packaged, including quantity, weight, dimensions, and optional alternative measure units. Packaging information is essential for logistics, shipping, and inventory management. It applies to:
+Pakiranje određuje kako se materijal pakira, uključujući količinu, masu, dimenzije i neobavezne zamjenske mjerne jedinice. Podaci o pakiranju ključni su za logistiku, otpremu i upravljanje zalihama. Primjenjuje se na:
 
-- [**Products**](Products.md)  
-- [**Semi products**](SemiProducts.md)  
-- [**Repro materials**](ReproMaterials.md)  
-- [**Raw materials**](RawMaterials.md)
+- [**Proizvode**](Proizvodi.md)  
+- [**Poluproizvode**](Poluproizvodi.md)  
+- [**Pomoćne proizvode**](PomocniProizvodi.md)  
+- [**Sirovine**](Sirovine.md)
 
 > [!NOTE]
-> Packaging details for each specific material type can also be defined in the material sections.
+> Pojedinosti o pakiranju za svaku vrstu materijala mogu se definirati i u odjeljcima pojedinih materijala.
 
 > [!TIP]
-> For a full demonstration, see the **[Packaging](https://www.youtube.com/watch?v=-0T_l14bg5s)** video tutorial.
+> Za cjelovitu demonstraciju pogledajte video vodič **[Pakiranje](https://www.youtube.com/watch?v=-0T_l14bg5s)**.
 
-To access packaging configuration, go to: **Assets / Materials / Packaging** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do konfiguracije pakiranja dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Materijali / Pakiranje**.
 
-## Schema
+## Shema
 
-| Field | Description |
-|-------|-------------|
-| **Material type** | The material category this packaging is assigned to (e.g., Products, Semi products, Repro materials, Raw materials). |
-| **Entity** | The specific material record selected within the chosen material type. |
-| **EAN** | Unique packaging identifier. Also used for labeling. |
-| **Quantity (pc)** | Number of items included inside one package. |
-| **Alternative measure unit** | (Optional) Alternative unit of measure for packaging content. |
-| **Net weight (kg)** | Weight excluding packaging. |
-| **Gross weight (kg)** | Weight including packaging. |
-| **Width (mm)** | Width dimension in millimeters. |
-| **Height (mm)** | Height dimension in millimeters. |
-| **Depth (mm)** | Depth dimension in millimeters. |
+| Polje | Opis |
+|-------|------|
+| **Tip materijala** | Kategorija materijala kojoj je pakiranje dodijeljeno (na primjer Proizvodi, Poluproizvodi, Pomoćni proizvodi, Sirovine). |
+| **Entitet** | Određeni zapis materijala odabran unutar odabrane vrste materijala. |
+| **EAN** | Jedinstveni identifikator pakiranja. Koristi se i za označavanje. |
+| **Količina (kom)** | Broj stavki sadržanih u jednom pakiranju. |
+| **Zamjenska mjerna jedinica** | (Neobavezno) Zamjenska mjerna jedinica za sadržaj pakiranja. |
+| **Neto masa (kg)** | Masa bez pakiranja. |
+| **Bruto masa (kg)** | Masa s pakiranjem. |
+| **Širina (mm)** | Dimenzija širine u milimetrima. |
+| **Visina (mm)** | Dimenzija visine u milimetrima. |
+| **Dubina (mm)** | Dimenzija dubine u milimetrima. |
 
-## Management
+## Upravljanje
 
-To assign packaging to a material, you must first select the **Material type** (e.g., Products, Semi products) and then the specific **Entity** on the left side of the screen.
+Da biste pakiranje dodijelili materijalu, najprije na lijevoj strani ekrana odaberite **Tip materijala** (na primjer Proizvodi, Poluproizvodi), a zatim određeni **Entitet**.
 
-![Material selection dropdown](../Images/DropdownPackaging.png)
+![Padajući izbornik za odabir materijala](../Images/DropdownPackagingHR.png)
 
-### List view
+### Pregled popisa
 
-The interface displays a list of packaging records for the selected **Material type** and **Entity**. 
+Sučelje prikazuje popis zapisa pakiranja za odabrani **Tip materijala** i **Entitet**.
 
-![Packaging list](../Images/Packaging.png)
+![Popis pakiranja](../Images/PackagingListHR.png "Popis pakiranja")
 
-The list shows:
-
-- **EAN**
-- **Dimensions** (width × height × depth)
-- **Weight** (net and gross)
-- A **Labels** tag
-
-A search field is available in the upper-right corner.
-
-## Actions
-
-### Add a packaging entry
-
-On the **Packaging** screen, click the [action button](../../../Common/UI/ActionButton.md) to add a new packaging item.
-
-The form includes fields such as:
+Popis prikazuje:
 
 - **EAN**
-- **Quantity (pc)**
-- **Alternative measure unit**
-- **Weight** (net and gross)
-- **Dimensions** (width, height, depth)
+- **Dimenzije (švd, mm)** (širina × visina × dubina)
+- **Masa (neto (bruto), kg)**
+- gumb **Etikete** za svako pakiranje
 
-![Add packaging](../Images/NewPackaging.png)
+U gornjem desnom kutu nalazi se polje za pretraživanje.
 
-After entering the required information, click **Add** to save or **Cancel** to return.
+## Radnje
 
-## Edit a packaging entry
+### Dodavanje pakiranja
 
-To edit an existing packaging entry, click the **EAN** value in the list.
+Na ekranu **Pakiranje** kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste dodali novu stavku pakiranja.
 
-![Edit packaging](../Images/EditPackaging.png)
+Obrazac sadrži polja poput:
 
-The edit screen allows you to modify all fields. After editing, click **Save** or **Cancel**.
+- **EAN**
+- **Količina (kom)**
+- **Zamjenska mjerna jedinica**
+- **Masa** (neto i bruto)
+- **Dimenzije** (širina, visina, dubina)
 
-### Labels
+![Dodavanje pakiranja](../Images/NewPackagingHR.png)
 
-Each packaging entry includes a **Labels** tag, used to define which label types can be generated for that packaging.
+Nakon unosa potrebnih podataka kliknite **Dodaj** da biste spremili ili **Poništi** da biste se vratili.
 
-In the list view, click the **Labels** button under a packaging item:
+## Uređivanje pakiranja
 
-![Labels tag](../Images//LabelPackaging.png)
+Za uređivanje postojećeg zapisa pakiranja kliknite vrijednost **EAN** na popisu.
 
-This opens the label selection dialog:
+![Uređivanje pakiranja](../Images/EditPackagingHR.png)
 
-![Label selection dialog](../Images/LabelSelectPackaging.png)
+Na ekranu za uređivanje možete izmijeniti sva polja. Nakon uređivanja kliknite **Spremi** ili **Poništi**.
 
-Available label types:
+### Etikete
 
-- **Serial number label**
-- **Production label**
-- **EAN label**
-- **Code label**
+Svaki zapis pakiranja sadrži oznaku **Etikete**, kojom se određuje koje se vrste etiketa mogu generirati za to pakiranje.
 
-Select the desired label types and click **Save**.
+Na popisu kliknite gumb **Etikete** ispod stavke pakiranja:
 
-## Delete a packaging entry
-  
-Click **Delete** on the edit screen to open a confirmation dialog: 
+![Oznaka Etikete](../Images/LabelPackagingHR.png)
 
-**Are you sure you want to delete this record?**  
+Otvara se dijalog za odabir etiketa:
 
-If confirmed, the packaging is permanently removed; otherwise, the system keeps the record unchanged.
+![Dijalog za odabir etiketa](../Images/PackagingLabelsHR.png)
+
+Dostupne vrste etiketa:
+
+- **Naljepnica sa serijskim brojem**
+- **Naljepnica proizvodnje**
+- **Etiketa s kodom**
+- **EAN etiketa**
+
+Odaberite željene vrste etiketa i kliknite **Spremi**.
+
+## Brisanje pakiranja
+
+Kliknite **Izbriši** na ekranu za uređivanje da biste otvorili dijalog za potvrdu:
+
+**Jeste li sigurni da želite izbrisati zapis?**  
+
+Ako potvrdite, pakiranje se trajno uklanja; u suprotnom sustav zadržava zapis nepromijenjen.
 
 > [!NOTE]
->A packaging record can be deleted only if it is not referenced by other system entities.
+> Zapis pakiranja može se obrisati samo ako ga ne referenciraju drugi entiteti sustava.

@@ -1,168 +1,180 @@
 <!-- app_route: /management/materials/repro-materials -->
 <!-- app_label: Repro materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/ReproMaterials.md -->
-<!-- canonical_source_title: Repro materials -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/PomocniProizvodi.md -->
+<!-- canonical_source_title: Pomoćni proizvodi -->
 
-# Repro materials
+# Pomoćni proizvodi
 
-**Repro materials** are reusable or auxiliary components used to support production or internal activities. They are not final products but are essential for maintaining or assembling other materials. Examples include screws, tape, pallets, or styrofoam.
+**Pomoćni proizvodi** su višekratne ili pomoćne komponente koje služe za podršku proizvodnji ili internim aktivnostima. Nisu konačni proizvodi, ali su bitni za održavanje ili sastavljanje drugih materijala. Primjeri su vijci, ljepljiva traka, palete ili stiropor.
 
-Each repro material includes important attributes—such as [measure units](../../../Common/Management/MeasureUnits.md), [tax rate](../../../Common/Management/TaxRates.md), serial number behavior, or [packaging](Packaging.md) options—to ensure consistent tracking and usage across all warehouse and production workflows. This code list contains all repro materials used by your organization.
+Svaki pomoćni proizvod sadrži važne atribute, poput [mjernih jedinica](../../../Zajednicko/Upravljanje/MjerneJedinice.md), [porezne stope](../../../Zajednicko/Upravljanje/PorezneStope.md), ponašanja serijskog broja ili mogućnosti [pakiranja](Pakiranje.md), kako bi se osiguralo dosljedno praćenje i korištenje u svim skladišnim i proizvodnim tokovima. Ovaj popis šifara sadrži sve pomoćne proizvode koje koristi vaša organizacija.
 
 > [!TIP]
-> For a full demonstration, see the **[Repro materials](https://www.youtube.com/watch?v=ZRUwbQrAolU)** video tutorial.
+> Za cjelovitu demonstraciju pogledajte video vodič **[Pomoćni proizvodi](https://www.youtube.com/watch?v=ZRUwbQrAolU)**.
 
 > [!NOTE]  
-> **Prerequisites**  
-> Before managing repro materials, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
-> - [**Tax rates**](../../../Common/Management/TaxRates.md)
+> **Preduvjeti**  
+> Prije upravljanja pomoćnim proizvodima provjerite jesu li ispravno konfigurirani sljedeći popisi šifara:  
+> - [**Mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md)  
+> - [**Porezne stope**](../../../Zajednicko/Upravljanje/PorezneStope.md)
 
-To access the **Repro materials** code list, go to: **Assets / Materials / Repro materials** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do popisa šifara **Pomoćni proizvodi** dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Materijali / Pomoćni proizvodi**.
 
-## Schema
+## Shema
 
 <details open markdown="1">
-<summary><strong>Repro materials</strong></summary>
+<summary><strong>Pomoćni proizvod</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Code** | Unique identifier of the repro material within the list of materials. For example **REP-VIJ-2**. The code must be unique across all materials. (required) |
-| **Name** | Name shown in lists and documents. For example **Screw 6mm**. (required) |
-| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
-| **Expiration (days)** | Number of days before expiration, used for perishable items. For example **30** or **365**. |
-| **EAN** | Barcode value used for scanning. For example **57884441241**. |
-| **[Measure unit](../../../Common/Management/MeasureUnits.md)** | Measure unit used to express quantities, such as **piece** or **meter**. (required) |
-| **Precision** | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
-| **[Tax rate](../../../Common/Management/TaxRates.md)** | Default tax rate used in business documents. For example **22** or **9.5**. |
-
-</details>
-
-<details markdown="1">
-<summary><strong>Packaging</strong></summary>
-
-A packaging definition describes the physical properties of a material and the alternative units used when handling it in the warehouse. This can also be set in [**Packaging**](Packaging.md).
-.
-| Field | Description |
-|-------|-------------|
-| **Material type** | Classification of the material (e.g., product, semi-product) used for packaging context. |
-| **Products / Entity / Beech Table** | Example reference to the product/entity this packaging applies to. |
-| **EAN** | Packaging barcode. |
-| **Quantity (pc)** | Quantity represented by the packaging unit (e.g., 6 pcs per box). |
-| **Alternative measure unit** | Alternative unit for handling or reporting (e.g., pack). |
-| **Weight** | Enter both net and gross weight for the packaging unit. |
-| **Dimensions** | Enter width, height, and depth of the packaging unit. |
+| Polje | Opis |
+|-------|------|
+| **Oznaka** | Jedinstveni identifikator pomoćnog proizvoda unutar popisa materijala. Na primjer **REP-VIJ-2**. Oznaka mora biti jedinstvena među svim materijalima. (obavezno) |
+| **Naziv** | Naziv prikazan na popisima i u dokumentima. Na primjer **Vijak 6 mm**. (obavezno) |
+| **Generiranje serijskog broja** | Određuje kako se obrađuju serijski brojevi i zapisi materijala:<br>• **Automatski** – svaka stavka dobiva jedinstveni rastući serijski broj.<br>• **Isti** – sve stavke dijele isti serijski broj, ali ostaju zasebni zapisi.<br>• **Identični** – sve stavke dijele isti serijski broj i tretiraju se kao jedan identičan zapis. |
+| **Rok trajanja (u danima)** | Broj dana prije isteka, za kvarljive stavke. Na primjer **30** ili **365**. |
+| **EAN** | Vrijednost barkoda koja se koristi za skeniranje. Na primjer **57884441241**. |
+| [**Mjerna jedinica**](../../../Zajednicko/Upravljanje/MjerneJedinice.md) | Mjerna jedinica kojom se izražavaju količine, na primjer **komad** ili **metar**. (obavezno) |
+| **Broj decimalnih mjesta** | Zadani broj decimalnih mjesta za vrijednosti u ovoj mjernoj jedinici. Na primjer **3** za **1,255** ili **1** za **2,5**. |
+| [**Porezna stopa**](../../../Zajednicko/Upravljanje/PorezneStope.md) | Zadana porezna stopa koja se koristi u poslovnim dokumentima. Na primjer **22** ili **9,5**. |
+| **Toleranca** | Dopuštena tolerancija za količinu materijala, u postocima. Zadana vrijednost za nove materijale je 1. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Additional</strong></summary>
+<summary><strong>Pakiranje</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Description** | Short internal description specifying the material’s purpose or characteristics. |
-| **Tags** | Tags used for categorization and filtering. |
-| **Info link URL** | URL linking to external material information or documentation. |
-| **Image URL** | Public URL pointing to the material image. |
-| **External key** | Identifier in an external system used for cross-system connections. |
-| **Active** | Indicates whether the material is available for use in new documents. Inactive materials cannot be added to new entries but remain visible in the history. |
+Definicija pakiranja opisuje fizička svojstva materijala i zamjenske jedinice koje se koriste pri rukovanju u skladištu. Može se postaviti i u [**Pakiranju**](Pakiranje.md).
+
+| Polje | Opis |
+|-------|------|
+| **Tip materijala** | Klasifikacija materijala (na primjer proizvod, poluproizvod) koja se koristi u kontekstu pakiranja. |
+| **Proizvodi / Entitet / Stol od bukovine** | Primjer reference na proizvod ili entitet na koji se pakiranje odnosi. |
+| **EAN** | Barkod pakiranja. |
+| **Količina (kom)** | Količina koju predstavlja jedinica pakiranja (na primjer 6 komada po kutiji). |
+| **Zamjenska mjerna jedinica** | Zamjenska jedinica za rukovanje ili izvještavanje (na primjer paket). |
+| **Masa** | Unesite neto i bruto masu jedinice pakiranja. |
+| **Dimenzije** | Unesite širinu, visinu i dubinu jedinice pakiranja. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Ledger and Intrastat</strong></summary>
+<summary><strong>Dodatno</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| [**Stock account**](../../Accounting/Management/Ledger/KontniPlan.md) | Balance sheet account where the value of this material’s inventory is recorded. Use this to override the default stock account for this specific material. |
-| [**Account expense**](../../Accounting/Management/Ledger/KontniPlan.md) | Profit & loss account used when this material is consumed, issued from stock, or sold (e.g., Cost of Goods Sold). Use this to override the default expense account for this material. |
-| [**Tariff**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Customs tariff code used for statistical and customs reporting. |
-| [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
-| **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
+| Polje | Opis |
+|-------|------|
+| **Opis** | Kratki opis koji navodi namjenu ili karakteristike materijala. |
+| **Oznake** | Oznake koje se koriste za kategorizaciju i filtriranje. |
+| **Info URL poveznica** | URL koji vodi na vanjske informacije ili dokumentaciju o materijalu. |
+| **URL poveznica slike materijala** | Javni URL koji pokazuje na sliku materijala. |
+| **Vanjski ključ** | Identifikator u vanjskom sustavu koji se koristi za povezivanje među sustavima. |
+| **Aktivan** | Pokazuje je li materijal dostupan za korištenje u novim dokumentima. Neaktivni materijali ne mogu se dodati u nove unose, ali ostaju vidljivi u povijesti. |
 
 </details>
 
-## Management
+<details markdown="1">
+<summary><strong>Glavna knjiga i Intrastat</strong></summary>
 
-### List of repro materials
+| Polje | Opis |
+|-------|------|
+| [**Konto zalihe**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto bilance na kojem se evidentira vrijednost zaliha ovog materijala. Koristite ga za promjenu zadanog konta zaliha za ovaj određeni materijal. |
+| [**Račun troška**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto računa dobiti i gubitka koji se koristi kada se materijal potroši, izda iz zaliha ili proda (na primjer nabavna vrijednost prodane robe). Koristite ga za promjenu zadanog konta troška za ovaj materijal. |
+| [**Tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Carinska tarifna oznaka koja se koristi za statističko i carinsko izvještavanje. |
+| [**Država podrijetla**](../../../Zajednicko/Upravljanje/Drzave.md) | Država podrijetla koja se koristi na trgovinskim i carinskim dokumentima. |
+| **Konverter mase** | Faktor za pretvorbu osnovne mjerne jedinice u masu (na primjer u kg). Primjenjuje se u Intrastatu ili analitici kada je potrebna masa. |
+| **Konverter mjerne jedinice** | Faktor za pretvorbu osnovne mjerne jedinice materijala u drugu mjernu jedinicu, na primjer iz kilograma u funte, ako se količina u dokumentima ili izvještajima bilježi u drugoj jedinici. |
 
-The user interface contains a list of repro materials.
+</details>
 
-![Repro Materials](../Images/ReproMaterialsList.png "Repro Materials")
+## Upravljanje
 
-The list displays each repro material’s name, code, and serial number generation method.
+### Popis pomoćnih proizvoda
 
-A filter for **Tags** is available on the left side. A search field is available on the right for quickly finding specific materials.
+Korisničko sučelje sadrži popis pomoćnih proizvoda.
 
-## Actions
+![Popis pomoćnih proizvoda](../Images/ReproMaterialsListHR.png "Popis pomoćnih proizvoda")
 
-Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
+Popis prikazuje naziv pomoćnog proizvoda (**Materijal**) i njegovu **Oznaku**.
 
-- [**Import**](#import-repro-materials)
-- [**Copy existing**](#copy-an-existing-repro-material)
-- **New**
+S lijeve strane ekrana dostupan je filtar **Oznaka**. U gornjem desnom kutu nalazi se polje za pretraživanje.
 
-### Add a new repro material
+### Izbornik
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for creating a new repro material.
+Izbornik nudi dodatne radnje dostupne na ekranu popisa.
 
-![New Repro Material](../Images/NewReproMaterial.png "New Repro Material")
+Dostupne radnje:
 
-The form includes fields such as **Code**, **Name**, **Generate serial number**, **Measure unit**, **Tax rate**, and others depending on configuration.
+- **Preuzmi CSV** – Preuzmite popis materijala kao CSV datoteku. Datoteku možete pregledati, urediti i kasnije uvesti za ažuriranje popisa materijala.
 
-Additional collapsible sections are available:
+## Radnje
 
-#### Packaging
-This section allows you to review or add one or more [packaging](Packaging.md) definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste prikazali sljedeće radnje:
 
-These packaging records can later be used in warehouse operations such as [Receives](../../Logistics/Documents/Receives.md), [Issues](../../Logistics/Documents/Issues.md), and [Inter warehouse](../../Logistics/Documents/InterWarehouse.md) transfers.
+- [**Uvoz**](#uvoz-pomocnih-proizvoda)
+- [**Kopiraj postojeći**](#kopiranje-postojeceg-pomocnog-proizvoda)
+- **Novo**
 
-#### Additional
-This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
+### Dodavanje novog pomoćnog proizvoda
 
-![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novo** da biste otvorili obrazac za stvaranje novog pomoćnog proizvoda.
 
-After entering the required information, click **Add** to save the material or **Cancel** to return to the list.
+Obrazac sadrži polja poput **Oznaka**, **Naziv**, **Generiranje serijskog broja**, **Mjerna jedinica**, **Porezna stopa** i druga, ovisno o konfiguraciji.
 
-#### Intrastat and Ledger
-Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
+![Novi pomoćni proizvod](../Images/NewReproMaterialHR.png "Novi pomoćni proizvod")
 
-![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
+Dostupni su dodatni sažimajući odjeljci:
+
+#### Pakiranje
+
+Ovaj odjeljak omogućuje pregled ili dodavanje jedne ili više definicija [pakiranja](Pakiranje.md) specifičnih za materijal. Svaki unos predstavlja jedinicu pakiranja s vlastitom količinom i identifikacijom.  
+
+Ti se zapisi pakiranja kasnije mogu koristiti u skladišnim operacijama, poput [primki](../../Logistika/Dokumenti/Primke.md), [izdatnica](../../Logistika/Dokumenti/Izdatnica.md) i [međuskladišnog prometa](../../Logistika/Dokumenti/MeduskladisniPromet.md).
+
+#### Dodatno
+
+Ovaj odjeljak sadrži neobavezna opisna polja, poput opisa materijala, oznaka, slika, poveznica ili vanjskih identifikatora. Ta polja pružaju dodatni kontekst ili reference, ali ne utječu na izračune zaliha.
+
+![Sažimajući odjeljci](../Images/MaterialDodatnoHR.png "Sažimajući odjeljci")
+
+Nakon unosa potrebnih podataka kliknite **Dodaj** da biste spremili materijal ili **Poništi** da biste se vratili na popis.
+
+#### Glavna knjiga i Intrastat
+
+Koristite ove odjeljke za unos Intrastat i carinskih podataka koji se koriste za izvještavanje o trgovini unutar EU te za ostale računovodstvene pojedinosti.
+
+![Intrastat i glavna knjiga materijala](../Images/MaterialsIntrastatLedgerHR.png "Pojedinosti materijala za Intrastat i glavnu knjigu")
 
 > [!WARNING]
-> Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
+> Unesite ispravne konte u odjeljku **Glavna knjiga** (na primjer konte zaliha i troškova). Pogrešne ili nedostajuće vrijednosti uzrokovat će kasnije greške pri knjiženju u računovodstvu.
 
+### Uvoz pomoćnih proizvoda
 
-### Import repro materials
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Uvoz** da biste uvezli više pomoćnih proizvoda odjednom učitavanjem ispravno strukturirane tablice.
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **Import** to import multiple repro materials at once by uploading a correctly structured spreadsheet.
+Pogledajte dokumentaciju [**Uvoz materijala**](UvozMaterijala.md) za sve pojedinosti.
 
-See the [**Import materials**](ImportMaterials.md) documentation for full details.
+### Kopiranje postojećeg pomoćnog proizvoda
 
-### Copy an existing repro material
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Kopiraj postojeći pomoćni materijal** da biste stvorili novi zapis na temelju postojećeg.
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing repro material** to create a new record based on an existing one.
+![Kopiranje pomoćnog proizvoda](../Images/CopyReproMaterialHR.png "Kopiranje pomoćnog proizvoda")
 
-![Copy Repro Material](../Images/CopyReproMaterial.png "Copy Repro Material")
+Nakon odabira osnovnog materijala sva su polja unaprijed popunjena i mogu se urediti prije spremanja.
 
-After selecting a base material, all fields are pre-filled and may be edited before saving.
+## Uređivanje pomoćnog proizvoda
 
-## Edit a repro material
+Za uređivanje postojećeg pomoćnog proizvoda kliknite njegov **Naziv** na popisu. Sučelje prelazi u način uređivanja.
 
-To edit an existing repro material, click its **Name** in the list. The interface switches to edit mode.
+![Uređivanje pomoćnog proizvoda](../Images/EditReproMaterialHR.png "Uređivanje pomoćnog proizvoda")
 
-![Edit Repro Material](../Images/EditReproMaterials.png "Edit Repro Material")
+Unesite potrebne izmjene i kliknite **Spremi**.  
+Kliknite **Poništi** da biste odbacili promjene.
 
-Make the necessary changes and click **Save**.  
-Click **Cancel** to discard changes.
+## Brisanje pomoćnog proizvoda
 
-## Delete a repro material
+Kliknite **Izbriši** na ekranu za uređivanje da biste otvorili dijalog za potvrdu:
 
-Click **Delete** on the edit screen to open a confirmation dialog: 
+**Jeste li sigurni da želite izbrisati zapis?**  
 
-**Are you sure you want to delete this record?**  
-
-If confirmed, the repro material is permanently removed; otherwise, the system keeps the record unchanged.
+Ako potvrdite, pomoćni proizvod se trajno uklanja; u suprotnom sustav zadržava zapis nepromijenjen.
 
 > [!NOTE]
-> A repro material can be deleted only if no dependent records reference it (e.g., stock movements, production processes, documents).
+> Pomoćni proizvod se može obrisati samo ako ga ne referenciraju ovisni zapisi (na primjer kretanja zaliha, proizvodni procesi ili dokumenti).

@@ -72,7 +72,7 @@ Nakon unosa potrebnih podataka kliknite **Dodaj** za spremanje zapisa ili **Poni
 
 Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Uvoz**. Ova funkcija omogućuje masovno stvaranje ili ažuriranje materijala dobavljača pomoću datoteke za proračunsku tablicu.
 
-Zaslon funkcionira slično kao zaslon [**Uvoz materijala**](../../RobaIUsluge/Materijali/ImportMaterials.md). Nudi:
+Zaslon funkcionira slično kao zaslon [**Uvoz materijala**](../../RobaIUsluge/Materijali/UvozMaterijala.md). Nudi:
 
 - odabir vrste datoteke (CSV ili XLSX)
 - preuzimanje primjera datoteke

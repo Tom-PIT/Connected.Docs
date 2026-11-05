@@ -1,138 +1,138 @@
 <!-- app_route: /assets/management/assets -->
 <!-- app_label: Assets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Assets/Assets.md -->
-<!-- canonical_source_title: Assets -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md -->
+<!-- canonical_source_title: Roba ili usluga -->
 
-# Assets
+# Roba ili usluga
 
-An **Asset** represents an item or service that can be *sold* or *invoiced* within the system. Unlike **materials**—which are used for stock tracking, logistics, or production—**assets are commercial items** intended for pricing, offering, and billing.
+**Roba ili usluga** predstavlja stavku ili uslugu koja se u sustavu može *prodati* ili *fakturirati*. Za razliku od **materijala**, koji se koriste za praćenje zaliha, logistiku ili proizvodnju, **roba ili usluge su komercijalne stavke** namijenjene određivanju cijena, ponudi i fakturiranju.
 
-Assets may represent:
+Roba ili usluga može predstavljati:
 
-- **Goods** (e.g., a finished product offered to customers)  
-- **Services** (e.g., installation, transport, consulting)
+- **Robu** (na primjer, gotov proizvod ponuđen kupcima)  
+- **Uslugu** (na primjer, instalaciju, prijevoz, savjetovanje)
 
-Assets do **not** participate in stock movements. Instead, they define sales-ready items with their own price, tax rate, and properties. An asset may optionally reference materials when the sold product is also tracked in stock.
+Roba ili usluge **ne** sudjeluju u kretanjima zaliha. Umjesto toga, one definiraju stavke spremne za prodaju s vlastitom cijenom, poreznom stopom i svojstvima. Roba ili usluga može neobavezno upućivati na materijale kada se prodani proizvod također prati na zalihama.
 
-To access this screen, go to **Assets / Assets** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Roba ili usluge**.
 
-## Schema
+## Shema
 
 <details open markdown="1">
-<summary><strong>Asset</strong></summary>
+<summary><strong>Roba ili usluga</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Code** | Unique identifier for the asset (mandatory). |
-| **Name** | Display name of the asset (mandatory). |
-| **Type** | Whether the asset is a *Good* or a *Service* (mandatory). |
-| [**Tax rate**](../../../Common/Management/TaxRates.md) | Applicable tax rate (optional). |
-| [**Measure unit**](../../../Common/Management/MeasureUnits.md) | Unit used to display and price the asset (mandatory). |
-| **Item price net** | Net unit price of the asset. |
-| **Net weight (kg)** | Weight of the item, if applicable (default = 0). |
-| **EAN** | Barcode number (optional). |
-| **Tags** | Optional classification labels. |
-
-</details>
-
-<details markdown="1">
-<summary><strong>Intrastat and Ledger</strong></summary>
-
-| Field | Description |
-|-------|-------------|
-| [**Tariff**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Customs tariff code used for statistical and customs reporting. |
-| [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
-| **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
-| **Domestic revenue account** | Revenue account used for domestic sales. |
-| **Revenue account in Europe markets** | Revenue account used for sales within EU markets. |
-| **Revenue account in non-Europe markets** | Revenue account used for sales outside EU markets. |
-| [**Stock account**](../../Accounting/Management/Ledger/KontniPlan.md) | Balance-sheet account for stock value when linking assets to stock-tracked materials. |
+| Polje | Opis |
+|-------|------|
+| **Oznaka** | Jedinstveni identifikator robe ili usluge (obavezno). |
+| **Ime** | Ime robe ili usluge koje se prikazuje (obavezno). |
+| **Tip** | Je li stavka *Roba* ili *Usluga* (obavezno). |
+| [**Porezna stopa**](../../../Zajednicko/Upravljanje/PorezneStope.md) | Primjenjiva porezna stopa (neobavezno). |
+| [**Mjerna jedinica**](../../../Zajednicko/Upravljanje/MjerneJedinice.md) | Jedinica kojom se stavka prikazuje i cijeni (obavezno). |
+| **Neto cijena (jedinična)** | Neto jedinična cijena robe ili usluge. |
+| **Neto masa (kg)** | Masa stavke, ako je primjenjivo (zadano = 0). |
+| **EAN** | Broj barkoda (neobavezno). |
+| **Oznaka** | Neobavezne oznake za klasifikaciju. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Additional and Details</strong></summary>
+<summary><strong>Intrastat i glavna knjiga</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Description** | Additional text explaining the asset. |
-| **Details** | List of asset components (e.g., linked materials or quantities). |
-| **Add new asset detail** | Action to add a new asset detail. |
-| **Type** | Type of [material](../README.md) of the detail (e.g., Products). |
-| **Entity** | Selected material or item to link as part of the asset. |
-| **Quantity** | Quantity of the linked entity. |
+| Polje | Opis |
+|-------|------|
+| [**Tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Carinska tarifna oznaka koja se koristi za statističko i carinsko izvještavanje. |
+| [**Država podrijetla**](../../../Zajednicko/Upravljanje/Drzave.md) | Država podrijetla koja se koristi na trgovinskim i carinskim dokumentima. |
+| **Konverter mase** | Faktor za pretvorbu osnovne mjerne jedinice u masu (na primjer u kg). Primjenjuje se u Intrastatu ili analitici kada je potrebna masa. |
+| **Konto prihoda na domaćem tržištu** | Konto prihoda koji se koristi za prodaju na domaćem tržištu. |
+| **Konto prihoda na tržištima Europe** | Konto prihoda koji se koristi za prodaju na tržištima EU. |
+| **Konto prihoda na tržištima izvan Europe** | Konto prihoda koji se koristi za prodaju izvan EU. |
+| [**Konto zalihe**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto bilance za vrijednost zaliha kada se roba ili usluge povezuju s materijalima kojima se prati stanje na zalihama. |
 
 </details>
 
-## Management
+<details markdown="1">
+<summary><strong>Dodatno i pojedinosti</strong></summary>
 
-### Assets list
+| Polje | Opis |
+|-------|------|
+| **Opis** | Dodatni tekst koji objašnjava robu ili uslugu. |
+| **Postavke** | Popis komponenti robe ili usluge (na primjer povezani materijali ili količine). |
+| **Dodaj postavku robe/usluge** | Radnja za dodavanje nove postavke robe ili usluge. |
+| **Tip** | Vrsta [materijala](../Materijali/README.md) za postavku (na primjer Proizvodi). |
+| **Entitet** | Odabrani materijal ili stavka koja se povezuje kao dio robe ili usluge. |
+| **Količina** | Količina povezanog entiteta. |
 
-The **Assets** list displays all existing assets, along withtheir type (service or goods), neto price, and measure unit.
+</details>
 
-![Assets list](../Images/AssetsListV2.png "Assets list")
+## Upravljanje
 
-You can filter the Assets list using:
+### Popis robe ili usluga
 
-- **View**: Enabled / Disabled  
-- **Type**: Goods / Service  
-- **Tags**  
+Popis **Roba ili usluge** prikazuje sve postojeće stavke, zajedno s njihovom vrstom (usluga ili roba), neto cijenom i mjernom jedinicom.
 
-These filters help locate specific assets and simplify management of large asset catalogs.
+![Popis robe ili usluga](../Images/AssetsListHR.png "Popis robe ili usluga")
 
-## Actions
+Popis robe ili usluga možete filtrirati pomoću:
 
-### Add a new asset
+- **Pogled**: Omogućeno / Onemogućeno  
+- **Tip**: Roba / Usluga  
+- **Oznaka**  
 
-Click the action button to create a new asset. The following fields must be entered before saving:
+Ovi filtri olakšavaju pronalaženje određenih stavki i pojednostavljuju upravljanje velikim katalozima robe i usluga.
 
-- **Code**  
-- **Name**  
-- **Type**  
-- **Measure unit**
+## Radnje
 
-Optional fields such as **Tax rate**, **Item price net**, **EAN**, **Tags**, and **Additional** information may also be filled in.
+### Dodavanje nove robe ili usluge
 
-#### Intrastat and Ledger
-Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) za stvaranje nove robe ili usluge. Prije spremanja morate unijeti sljedeća polja:
+
+- **Oznaka**  
+- **Ime**  
+- **Tip**  
+- **Mjerna jedinica**
+
+Neobavezna polja, poput **Porezna stopa**, **Neto cijena (jedinična)**, **EAN**, **Oznaka** i **Dodatno**, također možete ispuniti.
+
+#### Intrastat i glavna knjiga
+Koristite ove odjeljke za unos Intrastat i carinskih podataka koji se koriste za izvještavanje o trgovini unutar EU te za ostale računovodstvene pojedinosti.
 
 > [!WARNING]
-> Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
+> Unesite ispravne konte u odjeljku **Glavna knjiga** (na primjer konte zaliha i troškova). Pogrešne ili nedostajuće vrijednosti uzrokovat će kasnije greške pri knjiženju u računovodstvu.
 
-#### Details section
+#### Odjeljak Postavke
 
-After saving the asset, you may add **asset details**. These allow linking the asset to other entities such as materials (for example, when a sold product corresponds to a stock-tracked item).
+Nakon spremanja robe ili usluge možete dodati **postavke robe ili usluge**. Njima se roba ili usluga povezuje s drugim entitetima, poput materijala (na primjer kada prodani proizvod odgovara stavki kojom se prati stanje na zalihama).
 
-Click the **Add asset detail** button to open the form for adding a new asset detail. Each detail includes:
+Kliknite gumb **Dodaj postavku robe/usluge** da biste otvorili obrazac za dodavanje nove postavke. Svaka postavka sadrži:
 
-- **Type** (e.g., Products)  
-- **Entity** (selected material or item)  
-- **Quantity**
+- **Tip** (na primjer Proizvodi)  
+- **Entitet** (odabrani materijal ili stavka)  
+- **Količina**
 
-![Add asset detail](../Images/AssetsAddAssetDetail1.png "Add asset detail")  
+![Dodavanje postavke robe ili usluge](../Images/AssetsAddAssetDetail1HR.png "Dodavanje postavke robe ili usluge")  
 
-Click **Add** to save the detail or **Cancel** to exit without changes.
+Kliknite **Dodaj** da biste spremili postavku ili **Poništi** da biste izašli bez promjena.
 
-![Asset details list](../Images/AssetsAddAssetDetail2.png "Asset details list")
+![Popis postavki robe ili usluge](../Images/AssetsAddAssetDetail2HR.png "Popis postavki robe ili usluge")
 
-### Import assets from materials
+### Uvoz robe ili usluga iz materijala
 
-The **Import** action opens the **Import by material** form, allowing quick creation of assets based on existing materials.
+Radnja **Uvoz** otvara obrazac **Uvoz prema materijalu**, koji omogućuje brzo stvaranje robe ili usluga na temelju postojećih materijala.
 
-Users can select:
+Možete odabrati:
 
-- **Type**  
-- **Material code**  
-- **Item price net**  
-- **Quantity**
+- **Tip**  
+- **Oznaka** (materijala)  
+- **Neto cijena (jedinična)**  
+- **Količina**
 
-![Import assets](../Images/AssetsImport.png "Import assets")
+![Uvoz robe ili usluga](../Images/AssetsImportHR.png "Uvoz robe ili usluga")
 
-Click **Import** to create asset entries or **Cancel** to exit without changes.
+Kliknite **Uvoz** da biste stvorili stavke robe ili usluga ili **Poništi** da biste izašli bez promjena.
 
-## Delete an asset
+## Brisanje robe ili usluge
 
-Click an asset on the list to open the edit screen, then click **Delete** to remove the selected asset. If confirmed, the asset is permanently removed. 
+Kliknite stavku na popisu da biste otvorili ekran za uređivanje, zatim kliknite **Izbriši** da biste uklonili odabranu stavku. Ako potvrdite, stavka se trajno uklanja.
 
 > [!NOTE]
-> If the asset is referenced in other documents or records, deletion may be blocked until dependencies are resolved.
+> Ako se roba ili usluga spominje u drugim dokumentima ili zapisima, brisanje može biti blokirano dok se ne riješe ovisnosti.

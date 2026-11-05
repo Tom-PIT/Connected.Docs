@@ -1,163 +1,170 @@
 <!-- app_route: /management/materials/raw-materials -->
 <!-- app_label: Raw materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Assets/Materials/RawMaterials.md -->
-<!-- canonical_source_title: Raw materials -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/Sirovine.md -->
+<!-- canonical_source_title: Sirovine -->
 
-# Raw materials
+# Sirovine
 
-**Raw materials** are the basic items used in production processes or purchased for internal use. They can include wood, metal sheets, fabrics, chemicals, or any other input material needed to create finished products. Each raw material stores key information—such as[measure units](../../../Common/Management/MeasureUnits.md), [tax rate](../../../Common/Management/TaxRates.md), expiration period, or [packaging](Packaging.md)—to ensure that it can be managed consistently across the system.
+**Sirovine** su osnovne stavke koje se koriste u proizvodnim procesima ili kupuju za internu uporabu. Mogu uključivati drvo, metalne limove, tkanine, kemikalije ili bilo koji drugi ulazni materijal potreban za izradu gotovih proizvoda. Svaka sirovina pohranjuje ključne podatke, poput [mjernih jedinica](../../../Zajednicko/Upravljanje/MjerneJedinice.md), [porezne stope](../../../Zajednicko/Upravljanje/PorezneStope.md), roka trajanja ili [pakiranja](Pakiranje.md), kako bi se njome moglo dosljedno upravljati u cijelom sustavu.
 
-This code list serves as the register of all raw materials within the materials structure.
+Ovaj popis šifara služi kao registar svih sirovina unutar strukture materijala.
 
 > [!TIP]
-> For a full demonstration, see the **[Raw materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU)** video tutorial.
+> Za cjelovitu demonstraciju pogledajte video vodič **[Sirovine](https://www.youtube.com/watch?v=kb6I-eJ0tBU)**.
 
 > [!NOTE]  
-> **Prerequisites**  
-> Before managing semi products, ensure that the following code lists are properly configured:  
-> - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
-> - [**Tax rates**](../../../Common/Management/TaxRates.md)
+> **Preduvjeti**  
+> Prije upravljanja sirovinama provjerite jesu li ispravno konfigurirani sljedeći popisi šifara:  
+> - [**Mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md)  
+> - [**Porezne stope**](../../../Zajednicko/Upravljanje/PorezneStope.md)
 
-To access the **Raw materials** code list, go to **Assets / Materials / Raw materials** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
+Do popisa šifara **Sirovine** dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Roba i Usluge / Materijali / Sirovine**.
 
-## Schema
+## Shema
 
 <details open markdown="1">
-<summary><strong>Raw materials</strong></summary>
+<summary><strong>Sirovina</strong></summary>
 
-| Field                | Description |
-|----------------------|-------------|
-| **Code**             | Unique identifier of the raw material within the list of materials. The code must be unique across all materials. (required) |
-| **Name**             | Name of the raw material displayed in lists and documents. (required) |
-| **Generate serial number** | Determines how serial numbers and material records are handled:<br>• **Auto** – each item receives a unique ascending serial number.<br>• **Same** – all items share the same serial number but remain separate records.<br>• **Identical** – all items share the same serial number and are treated as one identical record. |
-| **Expiration (days)** | Number of days before the material expires (useful for perishable goods). |
-| **EAN**              | Barcode value used for scanning. |
-| **[Base measure unit](../../../Common/Management/MeasureUnits.md)**     | Measure unit used to express quantities (e.g., piece, kg, meter). (required) |
-| **Precision**        | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
-| **[Tax rate](../../../Common/Management/TaxRates.md)**         | Default tax rate used in business documents. |
-
-</details>
-
-<details markdown="1">
-<summary><strong>Packaging</strong></summary>
-
-A packaging definition describes the physical properties of a material and the alternative units used when handling it in the warehouse. This can also be set in [**Packaging**](Packaging.md).
-
-| Field | Description |
-|-------|-------------|
-| **Material type** | Classification of the material (e.g., product, semi-product) used for packaging context. |
-| **Products / Entity / Beech Table** | Example reference to the product/entity this packaging applies to. |
-| **EAN** | Packaging barcode. |
-| **Quantity (pc)** | Quantity represented by the packaging unit (e.g., 6 pcs per box). |
-| **Alternative measure unit** | Alternative unit for handling or reporting (e.g., pack). |
-| **Weight** | Enter both net and gross weight for the packaging unit. |
-| **Dimensions** | Enter width, height, and depth of the packaging unit. |
+| Polje | Opis |
+|-------|------|
+| **Oznaka** | Jedinstveni identifikator sirovine unutar popisa materijala. Oznaka mora biti jedinstvena među svim materijalima. (obavezno) |
+| **Naziv** | Naziv sirovine prikazan na popisima i u dokumentima. (obavezno) |
+| **Generiranje serijskog broja** | Određuje kako se obrađuju serijski brojevi i zapisi materijala:<br>• **Automatski** – svaka stavka dobiva jedinstveni rastući serijski broj.<br>• **Isti** – sve stavke dijele isti serijski broj, ali ostaju zasebni zapisi.<br>• **Identični** – sve stavke dijele isti serijski broj i tretiraju se kao jedan identičan zapis. |
+| **Rok trajanja (u danima)** | Broj dana prije isteka materijala (korisno za kvarljivu robu). |
+| **EAN** | Vrijednost barkoda koja se koristi za skeniranje. |
+| [**Osnovna mjerna jedinica**](../../../Zajednicko/Upravljanje/MjerneJedinice.md) | Mjerna jedinica kojom se izražavaju količine (na primjer komad, kg, metar). (obavezno) |
+| **Broj decimalnih mjesta** | Zadani broj decimalnih mjesta za vrijednosti u ovoj mjernoj jedinici. Na primjer **3** za **1,255** ili **1** za **2,5**. |
+| [**Porezna stopa**](../../../Zajednicko/Upravljanje/PorezneStope.md) | Zadana porezna stopa koja se koristi u poslovnim dokumentima. |
+| **Toleranca** | Dopuštena tolerancija za količinu materijala, u postocima. Zadana vrijednost za nove materijale je 1. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Additional</strong></summary>
+<summary><strong>Pakiranje</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| **Description**      | Short internal description of the raw material. |
-| **Tags**             | Tags used for categorization and filtering. |
-| **Info link URL**    | URL linking to external information or documentation. |
-| **Image URL**        | Public URL pointing to the material image. |
-| **External key**     | Identifier used to connect the raw material with external systems. |
-| **Active**           | Indicates whether the raw material is available for use in new documents. |
+Definicija pakiranja opisuje fizička svojstva materijala i zamjenske jedinice koje se koriste pri rukovanju u skladištu. Može se postaviti i u [**Pakiranju**](Pakiranje.md).
+
+| Polje | Opis |
+|-------|------|
+| **Tip materijala** | Klasifikacija materijala (na primjer proizvod, poluproizvod) koja se koristi u kontekstu pakiranja. |
+| **Proizvodi / Entitet / Stol od bukovine** | Primjer reference na proizvod ili entitet na koji se pakiranje odnosi. |
+| **EAN** | Barkod pakiranja. |
+| **Količina (kom)** | Količina koju predstavlja jedinica pakiranja (na primjer 6 komada po kutiji). |
+| **Zamjenska mjerna jedinica** | Zamjenska jedinica za rukovanje ili izvještavanje (na primjer paket). |
+| **Masa** | Unesite neto i bruto masu jedinice pakiranja. |
+| **Dimenzije** | Unesite širinu, visinu i dubinu jedinice pakiranja. |
 
 </details>
 
 <details markdown="1">
-<summary><strong>Ledger and Intrastat</strong></summary>
+<summary><strong>Dodatno</strong></summary>
 
-| Field | Description |
-|-------|-------------|
-| [**Stock account**](../../Accounting/Management/Ledger/KontniPlan.md) | Balance sheet account where the value of this material’s inventory is recorded. Use this to override the default stock account for this specific material. |
-| [**Account expense**](../../Accounting/Management/Ledger/KontniPlan.md) | Profit & loss account used when this material is consumed, issued from stock, or sold (e.g., Cost of Goods Sold). Use this to override the default expense account for this material. |
-| [**Tariff**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Customs tariff code used for statistical and customs reporting. |
-| [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
-| **Mass converter** | Factor used to convert the base measure unit to mass (e.g., kg). Applied in Intrastat or analytics when weight is required. |
+| Polje | Opis |
+|-------|------|
+| **Opis** | Kratki interni opis sirovine. |
+| **Oznake** | Oznake koje se koriste za kategorizaciju i filtriranje. |
+| **Info URL poveznica** | URL koji vodi na vanjske informacije ili dokumentaciju. |
+| **URL poveznica slike materijala** | Javni URL koji pokazuje na sliku materijala. |
+| **Vanjski ključ** | Identifikator koji povezuje sirovinu s vanjskim sustavima. |
+| **Aktivan** | Pokazuje je li sirovina dostupna za korištenje u novim dokumentima. |
 
 </details>
 
-## Management
+<details markdown="1">
+<summary><strong>Glavna knjiga i Intrastat</strong></summary>
 
-### List of raw materials
+| Polje | Opis |
+|-------|------|
+| [**Konto zalihe**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto bilance na kojem se evidentira vrijednost zaliha ovog materijala. Koristite ga za promjenu zadanog konta zaliha za ovaj određeni materijal. |
+| [**Račun troška**](../../Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md) | Konto računa dobiti i gubitka koji se koristi kada se materijal potroši, izda iz zaliha ili proda (na primjer nabavna vrijednost prodane robe). Koristite ga za promjenu zadanog konta troška za ovaj materijal. |
+| [**Tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Carinska tarifna oznaka koja se koristi za statističko i carinsko izvještavanje. |
+| [**Država podrijetla**](../../../Zajednicko/Upravljanje/Drzave.md) | Država podrijetla koja se koristi na trgovinskim i carinskim dokumentima. |
+| **Konverter mase** | Faktor za pretvorbu osnovne mjerne jedinice u masu (na primjer u kg). Primjenjuje se u Intrastatu ili analitici kada je potrebna masa. |
+| **Konverter mjerne jedinice** | Faktor za pretvorbu osnovne mjerne jedinice materijala u drugu mjernu jedinicu, na primjer iz kilograma u funte, ako se količina u dokumentima ili izvještajima bilježi u drugoj jedinici. |
 
-The user interface contains a list of raw materials.
+</details>
 
-![Raw Materials](../Images/RawMaterialsList.png "Raw Materials")
+## Upravljanje
 
-A filter for **Tags** is available on the left side. A search field is
-available in the upper-right corner.
+### Popis sirovina
 
+Korisničko sučelje sadrži popis sirovina.
 
-## Actions
+![Popis sirovina](../Images/RawMaterialsListHR.png "Popis sirovina")
 
-Click on the [action button](../../../Common/UI/ActionButton.md) to display the following actions:
+Popis prikazuje naziv sirovine (**Materijal**) i njezinu **Oznaku**.
 
--   [**Import**](#import-raw-materials)
--   [**Copy existing**](#copy-an-existing-raw-material)
--   **New**
+S lijeve strane ekrana dostupan je filtar **Oznaka**. U gornjem desnom kutu nalazi se polje za pretraživanje.
 
-## Add a new raw material
+### Izbornik
 
-Click the [action button](../../../Common/UI/ActionButton.md) and select **New** to open the input form for adding a new semi product.  
-The form includes fields such as **Code**, **Name**, **Generate serial number**, **Base measure unit**, **Tax rate**, and others depending on the configuration.
+Izbornik nudi dodatne radnje dostupne na ekranu popisa.
 
-![New Raw Material](../Images/NewRawMaterial.png "New Raw Material")
+Dostupne radnje:
 
-Additional collapsible sections are available:
+- **Preuzmi CSV** – Preuzmite popis materijala kao CSV datoteku. Datoteku možete pregledati, urediti i kasnije uvesti za ažuriranje popisa materijala.
 
-#### Packaging
-This section allows you to review or add one or more [packaging](Packaging.md) definitions specific to the material. Each entry represents a packaging unit with its own quantity and identification.  
+## Radnje
 
-These packaging records can later be used in warehouse operations such as [Receives](../../Logistics/Documents/Receives.md), [Issues](../../Logistics/Documents/Issues.md), and [Inter warehouse](../../Logistics/Documents/InterWarehouse.md) transfers.
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste prikazali sljedeće radnje:
 
-#### Additional
-This section contains optional descriptive fields, such as a material description, tags, images, links, or external identifiers. These fields help provide extra context or references but do not affect stock calculations.
+- [**Uvoz**](#uvoz-sirovina)
+- [**Kopiraj postojeću**](#kopiranje-postojece-sirovine)
+- **Novo**
 
-![Collapsible sections](../Images/MaterialPackagingAdditional.png "Collapsible sections")
+## Dodavanje nove sirovine
 
-After entering the required information, click Add to save the semi product or Cancel to return to the list view.
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novo** da biste otvorili obrazac za dodavanje nove sirovine. Obrazac sadrži polja poput **Oznaka**, **Naziv**, **Generiranje serijskog broja**, **Osnovna mjerna jedinica**, **Porezna stopa** i druga, ovisno o konfiguraciji.
 
-#### Intrastat and Ledger
+![Nova sirovina](../Images/NewRawMaterialHR.png "Nova sirovina")
 
-Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
+Dostupni su dodatni sažimajući odjeljci:
 
-![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
+#### Pakiranje
+Ovaj odjeljak omogućuje pregled ili dodavanje jedne ili više definicija [pakiranja](Pakiranje.md) specifičnih za materijal. Svaki unos predstavlja jedinicu pakiranja s vlastitom količinom i identifikacijom.  
+
+Ti se zapisi pakiranja kasnije mogu koristiti u skladišnim operacijama, poput [primki](../../Logistika/Dokumenti/Primke.md), [izdatnica](../../Logistika/Dokumenti/Izdatnica.md) i [međuskladišnog prometa](../../Logistika/Dokumenti/MeduskladisniPromet.md).
+
+#### Dodatno
+Ovaj odjeljak sadrži neobavezna opisna polja, poput opisa materijala, oznaka, slika, poveznica ili vanjskih identifikatora. Ta polja pružaju dodatni kontekst ili reference, ali ne utječu na izračune zaliha.
+
+![Sažimajući odjeljci](../Images/MaterialDodatnoHR.png "Sažimajući odjeljci")
+
+Nakon unosa potrebnih podataka kliknite **Dodaj** da biste spremili sirovinu ili **Poništi** da biste se vratili na popis.
+
+#### Glavna knjiga i Intrastat
+Koristite ove odjeljke za unos Intrastat i carinskih podataka koji se koriste za izvještavanje o trgovini unutar EU te za ostale računovodstvene pojedinosti.
+
+![Intrastat i glavna knjiga materijala](../Images/MaterialsIntrastatLedgerHR.png "Pojedinosti materijala za Intrastat i glavnu knjigu")
 
 > [!WARNING]
-> Enter correct accounts in the **Ledger** section (e.g., stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
+> Unesite ispravne konte u odjeljku **Glavna knjiga** (na primjer konte zaliha i troškova). Pogrešne ili nedostajuće vrijednosti uzrokovat će kasnije greške pri knjiženju u računovodstvu.
 
-### Import raw materials
+### Uvoz sirovina
 
-Click on the [action button](../../../Common/UI/ActionButton.md) and select	import functionality to upload multiple raw materials in bulk.
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite funkciju uvoza da biste učitali više sirovina odjednom.
 
-See the [**Import materials**](ImportMaterials.md) documentation for full details.
+Pogledajte dokumentaciju [**Uvoz materijala**](UvozMaterijala.md) za sve pojedinosti.
 
-### Copy an existing raw material
+### Kopiranje postojeće sirovine
 
-Click on the [action button](../../../Common/UI/ActionButton.md) and select **Copy existing** to create a new raw material based on an existing one.
+Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Kopiraj postojeću** da biste stvorili novu sirovinu na temelju postojeće.
 
-![Copy Raw Material](../Images/CopyRawMaterial.png "Copy Raw Material")
+![Kopiranje sirovine](../Images/CopyRawMaterialHR.png "Kopiranje sirovine")
 
-## Edit a raw material
+## Uređivanje sirovine
 
-Click the raw material name on the list to edit the entry.
+Kliknite naziv sirovine na popisu da biste uredili zapis.
 
-![Edit Raw Material](../Images/EditRawMaterial.png "Edit Raw Material")
+![Uređivanje sirovine](../Images/EditRawMaterialHR.png "Uređivanje sirovine")
 
-## Delete a raw material
+## Brisanje sirovine
 
- Click **Delete** on the edit screen to open a confirmation dialog: 
- 
- **Are you sure you want to delete this record?**  
+Kliknite **Izbriši** na ekranu za uređivanje da biste otvorili dijalog za potvrdu:
 
-If confirmed, the raw material is permanently removed; otherwise, the system keeps the record unchanged.
+**Jeste li sigurni da želite izbrisati zapis?**  
+
+Ako potvrdite, sirovina se trajno uklanja; u suprotnom sustav zadržava zapis nepromijenjen.
 
 > [!NOTE]
->A raw material can be deleted only if it is not referenced by other records.
-
+> Sirovina se može obrisati samo ako je ne referenciraju drugi zapisi.
