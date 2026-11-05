@@ -42,39 +42,40 @@ Sustav prihvaća uvoze u formatu **CSV** ili **XLSX**. Padajućim izbornikom oda
 
 ## Struktura tablice
 
-Datoteka za uvoz mora sadržavati stupce navedene u nastavku. Svaki redak predstavlja jedan materijal koji će se uvesti.
+Datoteka za uvoz mora u prvom retku imati zaglavlje s nazivima stupaca navedenima u nastavku, ovim redoslijedom. Svaki sljedeći redak predstavlja jedan materijal koji će se uvesti.
 
 > [!IMPORTANT]
-> - Nemojte mijenjati redoslijed stupaca. Primjer datoteke koristite kao referencu za točan slijed stupaca.
-> - Materijali moraju imati jedinstvene vrijednosti u stupcu Code kako ne bi nastali sukobi.
+> - Nemojte mijenjati redoslijed stupaca niti nazive stupaca u zaglavlju. Primjer datoteke koristite kao referencu.
+> - Materijali moraju imati jedinstvene vrijednosti u stupcu **Code** kako ne bi nastali sukobi.
 > - Prazna neobavezna polja uvoze se kao prazne vrijednosti.
-> - URL-ovi (Image link URL, Info link URL) moraju biti ispravni ili ostati prazni.
+> - URL-ovi (**ImageUrl**, **InfoUrl**) moraju biti ispravni ili ostati prazni.
+> - U datoteci primjera vrijednosti su odvojene točka-zarezom (`;`), a decimalni brojevi pišu se sa zarezom (na primjer `0,56`).
 
 | Stupac | Opis |
 |--------|------|
-| **Type** | Vrsta materijala: [**Products**](Proizvodi.md), [**Semi products**](Poluproizvodi.md), [**Repro materials**](PomocniProizvodi.md), [**Raw materials**](Sirovine.md). |
+| **Type** | Vrsta materijala, na primjer **Proizvod**, **Poluproizvodi** ili **Materijal**. Vrijednosti upisujte onako kako su u datoteci primjera. |
 | **Code** | Jedinstveni identifikator materijala. Ako materijal s istom oznakom već postoji, uvoz ga ažurira. |
 | **Name** | Puni naziv materijala. |
-| **Measure unit** | Mjerna jedinica za količine. Mora odgovarati postojećoj [mjernoj jedinici](../../../Zajednicko/Upravljanje/MjerneJedinice.md). |
+| **MeasureUnitAbbreviation** | Kratica mjerne jedinice za količine. Mora odgovarati postojećoj [mjernoj jedinici](../../../Zajednicko/Upravljanje/MjerneJedinice.md). |
 | **Tags** | Neobavezne oznake za kategorizaciju. Više oznaka odvojite zarezima. |
 | **Description** | Neobavezni tekst koji opisuje materijal. |
-| **EAN** | Vrijednost barkoda materijala. |
-| **Expiration (days)** | Broj dana do isteka materijala. |
-| **Image link URL** | URL koji pokazuje na sliku materijala. |
-| **Info link URL** | URL koji pokazuje na vanjsku informacijsku stranicu o materijalu. |
+| **Ean** | Vrijednost barkoda materijala. |
+| **DefaultExpirationInDays** | Broj dana do isteka materijala. |
+| **ImageUrl** | URL koji pokazuje na sliku materijala. |
+| **InfoUrl** | URL koji pokazuje na vanjsku informacijsku stranicu o materijalu. |
 | **Precision** | Broj decimalnih mjesta koji se koristi pri prikazu vrijednosti. |
-| **Tax rate name** | Naziv porezne stope. Mora odgovarati postojećoj [poreznoj stopi](../../../Zajednicko/Upravljanje/PorezneStope.md). |
-| **Tax rate** | Postotak poreza koji se primjenjuje na materijal. |
+| **TaxRateName** | Naziv porezne stope. Mora odgovarati postojećoj [poreznoj stopi](../../../Zajednicko/Upravljanje/PorezneStope.md). |
+| **TaxRateValue** | Postotak poreza koji se primjenjuje na materijal. |
+| **ExternalKey** | Identifikator vanjskog sustava. |
 | **Tolerance** | Dopuštena tolerancija za količinu materijala, u postocima. Zadana vrijednost za nove materijale je 1. |
-| **External key** | Identifikator vanjskog sustava. |
-
-> [!NOTE]
-> Nazivi stupaca i vrijednosti u stupcu **Type** moraju ostati u obliku u kojem se nalaze u primjeru datoteke.
 
 ## Primjer retka
 
+Zaglavlje i prvi redak primjera datoteke:
+
 ```
-Product,C0000001,Acme product 1,Kg,ACME,Acme product 1,C000EAN1,0,https://google.com;https://google.com,0,DDV,22,EXT01
+Type;Code;Name;MeasureUnitAbbreviation;Tags;Description;Ean;DefaultExpirationInDays;ImageUrl;InfoUrl;Precision;TaxRateName;TaxRateValue;ExternalKey;Tolerance
+Proizvod;C0000001;Acme product 1;Kg;ACME;Acme product 1;C000EAN1;0;https://google.com;https://google.com;0;DDV;22;EXT01;0,56
 ```
 
 ## Uređivanje datoteke
