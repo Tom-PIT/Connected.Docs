@@ -5,7 +5,7 @@
 
 # Availability plan types
 
-Availability plan types define the **categories of availability and absence** that can be assigned to resources. They are used as a foundation for [availability plans](../Views/AvailabilityPlans.md).
+Availability plan types define the **categories of availability and absence** that can be assigned to resources. They are used as a foundation for [availability plans](../Views/PlanoviDostupnosti.md).
 
 To access **Availability plan types**, go to **Resources / Management / Availability plan types** in the [navigation](../../../Zajednicko/UI/Navigacija.md).
 

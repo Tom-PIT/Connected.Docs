@@ -15,7 +15,7 @@ Stranica pruža detaljnu raščlambu izračuna ukupnog troška proizvodnje, uklj
 ![Analiza troška verzije](../Images/VersionCostViewHR.png "Analiza troška verzije")
 
 > [!NOTE]
-> Ista analiza troška dostupna je i iz pogleda [**Troškovi zadataka**](../../Resursi/Pogledi/WorkItemsCosts.md) odabirom **Procesi**.
+> Ista analiza troška dostupna je i iz pogleda [**Troškovi zadataka**](../../Resursi/Pogledi/TroskoviZadataka.md) odabirom **Procesi**.
 
 ## Sažetak troška
 

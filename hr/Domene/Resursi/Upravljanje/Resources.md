@@ -98,7 +98,7 @@ Selecting an item shows its details and the Edit form.
 3. Click **Add** or **Save** to confirm.
 
 > [!IMPORTANT]
-> To use vehicles in related documents (for example, [travel orders](../../Resources/Documents/TravelOrders.md)), add them as **non-human resources** and tag them with **`vehicle`**. Only non-human resources with this tag are recognized as vehicles by the system.
+> To use vehicles in related documents (for example, [travel orders](../../Resources/Documents/PutniNalozi.md)), add them as **non-human resources** and tag them with **`vehicle`**. Only non-human resources with this tag are recognized as vehicles by the system.
 >
 > ![Travel Orders Vehicles](../Images/ResourcesVehicles.png)
 

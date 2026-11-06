@@ -69,7 +69,7 @@ flowchart LR
 >
 > - Za uvid u troškove:
 >   - U popisu zatvorenih **[Proizvodnih naloga](../Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md)** pregledajte jediničnu cijenu sa strelicama koje pokazuju promjenu u odnosu na prethodni nalog.
->   - Otvorite **[Troškove stavki rada](../Domene/Resursi/Pogledi/WorkItemsCosts.md)** kako biste usporedili trendove jedinične cijene po nalogu i vidjeli raspodjelu troškova materijala, rada i troškova s grafikonima (trošak, raspodjela, učinak).
+>   - Otvorite **[Troškove stavki rada](../Domene/Resursi/Pogledi/TroskoviZadataka.md)** kako biste usporedili trendove jedinične cijene po nalogu i vidjeli raspodjelu troškova materijala, rada i troškova s grafikonima (trošak, raspodjela, učinak).
 
 ### 5. Djelujte prema nalazima
 - Ažurirajte standarde procesa ili obuku ako se često pojavljuju isti razlozi gubitka.
@@ -93,7 +93,7 @@ Srednje velika podružnica za pakiranje primijetila je veliki otpad i česta kra
 3. Pregled pokazatelja i sažetaka
    - **[Sažetak gubitaka](../Domene/Proizvodnja/Analiza/SazetakGubitka.md)** pokazao je 3,2 % otpada, uzrokovanog razlogom „Pogrešan tisak etikete” u popodnevnoj smjeni.
    - **[Sažetak zastoja](../Domene/Proizvodnja/Analiza/SazetakZastoja.md)** istaknuo je česta zaglavljenja pisača, ukupno 2,4 sata tjedno.
-   - Provjereni su trendovi jedinične cijene u **[Troškovima stavki rada](../Domene/Resursi/Pogledi/WorkItemsCosts.md)** i zatvorenom popisu **[Proizvodnih naloga](../Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md)** kako bi se potvrdio utjecaj troška materijala.
+   - Provjereni su trendovi jedinične cijene u **[Troškovima stavki rada](../Domene/Resursi/Pogledi/TroskoviZadataka.md)** i zatvorenom popisu **[Proizvodnih naloga](../Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md)** kako bi se potvrdio utjecaj troška materijala.
 4. Djelovanje prema nalazima
    - Operateri su obučeni za poravnanje etiketa; zamijenjeni su istrošeni valjci pisača.
    - Prilagođena je opskrba kako bi se role folije pripremile unaprijed i skratilo vrijeme prebacivanja.

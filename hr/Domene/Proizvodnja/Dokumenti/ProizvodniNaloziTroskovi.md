@@ -43,8 +43,8 @@ Stvarni troškovi mogu se po potrebi urediti ili izbrisati. Za uređivanje ili b
 
 ## Pregled troškova
 
-Evidentirani troškovi zbrajaju se i sažeto prikazuju u prikazu [**Troškovi zadataka**](../../Resursi/Pogledi/WorkItemsCosts.md), u kojem možete analizirati raspodjelu troškova zadatka. 
+Evidentirani troškovi zbrajaju se i sažeto prikazuju u prikazu [**Troškovi zadataka**](../../Resursi/Pogledi/TroskoviZadataka.md), u kojem možete analizirati raspodjelu troškova zadatka. 
 
 ![Troškovi zadataka](../Images/WorkItemsCostExpensesHR.png "Troškovi zadataka")
 
-Ovaj je prikaz dostupan i s popisa proizvodnih naloga, na kojem se za svaki nalog prikazuje trošak po jedinici. Klikom na trošak po jedinici otvara se prikaz [**Troškovi zadataka**](../../Resursi/Pogledi/WorkItemsCosts.md) filtriran na odabrani nalog, u kojem možete analizirati raspodjelu troškova zadatka i detaljno pregledati troškove.
+Ovaj je prikaz dostupan i s popisa proizvodnih naloga, na kojem se za svaki nalog prikazuje trošak po jedinici. Klikom na trošak po jedinici otvara se prikaz [**Troškovi zadataka**](../../Resursi/Pogledi/TroskoviZadataka.md) filtriran na odabrani nalog, u kojem možete analizirati raspodjelu troškova zadatka i detaljno pregledati troškove.

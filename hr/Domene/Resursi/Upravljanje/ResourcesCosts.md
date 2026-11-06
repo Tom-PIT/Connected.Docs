@@ -47,7 +47,7 @@ Use the [action button](../../../Common/UI/ActionButton.md) to add a new cost en
 
 - Validity periods for a given resource must **not overlap**.
 - If **Valid to** is not set, the entry is treated as open-ended.
-- Cost values are used by analytics and views such as [**Work items costs**](../Views/WorkItemsCosts.md).
+- Cost values are used by analytics and views such as [**Work items costs**](../Views/TroskoviZadataka.md).
 
 ### Add a new cost to an existing resource
 

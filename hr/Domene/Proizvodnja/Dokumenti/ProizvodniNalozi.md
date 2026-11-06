@@ -159,7 +159,7 @@ Kada je proizvodnja dovršena i sve operacije izvedene, nalog dobiva status **Za
 
 ![Popis zatvorenih proizvodnih naloga](../Images/ProductionOrdersClosedListHR.png "Popis zatvorenih proizvodnih naloga")
 
-Popis prikazuje i trošak po proizvedenoj jedinici te strelicu koja pokazuje je li se trošak povećao ili smanjio u odnosu na prethodni zatvoreni nalog za isti materijal. Klikom na trošak po jedinici otvara se prikaz [**Troškovi zadataka**](../../Resursi/Pogledi/WorkItemsCosts.md) filtriran na odabrani nalog, u kojem možete analizirati raspodjelu troškova zadatka i detaljno pregledati troškove.
+Popis prikazuje i trošak po proizvedenoj jedinici te strelicu koja pokazuje je li se trošak povećao ili smanjio u odnosu na prethodni zatvoreni nalog za isti materijal. Klikom na trošak po jedinici otvara se prikaz [**Troškovi zadataka**](../../Resursi/Pogledi/TroskoviZadataka.md) filtriran na odabrani nalog, u kojem možete analizirati raspodjelu troškova zadatka i detaljno pregledati troškove.
 
 Zatvoreni nalozi:
 

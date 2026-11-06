@@ -35,7 +35,7 @@ Odjeljak **Dokumenti** sadrži službene dokumente vezane uz resurse, koji služ
 
 Dostupni dokumenti:
 
-- **[Putni nalozi](Dokumenti/TravelOrders.md)** – evidentiranje, odobravanje i praćenje službenih putovanja zaposlenika, uključujući odredišta, datume i dnevnice.
+- **[Putni nalozi](Dokumenti/PutniNalozi.md)** – evidentiranje, odobravanje i praćenje službenih putovanja zaposlenika, uključujući odredišta, datume i dnevnice.
 
 Dokumenti su obično *zapisi*, a ne radni tijekovi izvršavanja.
 
@@ -47,17 +47,17 @@ Ovi ekrani usmjereni su na **izvršavanje, vidljivost i svakodnevno praćenje**,
 
 Dostupni pogledi:
 
-- **[Troškovi zadataka](Pogledi/WorkItemsCosts.md)** – pregled troškovnih podataka povezanih sa zadacima i dodijeljenim resursima.
+- **[Troškovi zadataka](Pogledi/TroskoviZadataka.md)** – pregled troškovnih podataka povezanih sa zadacima i dodijeljenim resursima.
 
-- **[Podsjetnici](Pogledi/Reminders.md)** – osobni i operativni podsjetnici vezani uz zadatke, rokove ili administrativne radnje.
+- **[Podsjetnici](Pogledi/Podsjetnici.md)** – osobni i operativni podsjetnici vezani uz zadatke, rokove ili administrativne radnje.
 
-- **[Pogled na resurse](Pogledi/ResourceView.md)** – pregled resursa, njihovih zaduženja i dostupnosti kroz vrijeme.
+- **[Pogled na resurse](Pogledi/PogledNaResurse.md)** – pregled resursa, njihovih zaduženja i dostupnosti kroz vrijeme.
 
-- **[Dnevnik prisutnosti](Pogledi/TimeLogs.md)** – pregled i upravljanje unosima vremena koje su evidentirali resursi.
+- **[Dnevnik prisutnosti](Pogledi/DnevnikPrisutnosti.md)** – pregled i upravljanje unosima vremena koje su evidentirali resursi.
 
-- **[Radni listovi](Pogledi/Worksheets.md)** – strukturirano izvještavanje o vremenu i aktivnostima, često za odobravanje ili obračun plaća.
+- **[Radni listovi](Pogledi/RadniListovi.md)** – strukturirano izvještavanje o vremenu i aktivnostima, često za odobravanje ili obračun plaća.
 
-- **[Planovi dostupnosti](Pogledi/AvailabilityPlans.md)** – vizualni prikaz planirane dostupnosti, odsutnosti i radnih rasporeda.
+- **[Planovi dostupnosti](Pogledi/PlanoviDostupnosti.md)** – vizualni prikaz planirane dostupnosti, odsutnosti i radnih rasporeda.
 
 ![Pregled pogleda domene Resursi](Images/ResourcesDomainOverviewHR.png "Pregled pogleda domene Resursi")
 
@@ -73,7 +73,7 @@ Odjeljak **Upravljanje** sadrži ekrane za konfiguraciju i glavne podatke potreb
 Dostupne konfiguracije i glavni podaci uključuju:
 
 - **[Tipovi raspoloživosti](Upravljanje/AvailabilityPlanTypes.md)**
-- **[Planovi dostupnosti](Pogledi/AvailabilityPlans.md)**
+- **[Planovi dostupnosti](Pogledi/PlanoviDostupnosti.md)**
 - **[Matrice kompetencija](Upravljanje/CompetenceMatrixes.md)**
 - **[Konfiguracija](Upravljanje/ResourcesConfiguration.md)**
 - **[Trošak resursa](Upravljanje/ResourcesCosts.md)**

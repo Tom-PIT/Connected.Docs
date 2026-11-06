@@ -16,12 +16,12 @@ Do ovog odjeljka dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigaci
 
 Odjeljak Dnevnik prisutnosti sastoji se od nekoliko zasebnih pogleda, od kojih svaki pokriva određeni aspekt praćenja vremena i prisutnosti:
 
-- **[Pregled](TimeLogsView.md)** – pregled evidentiranih unosa vremena, za pregled zabilježenog rada i podataka o vremenu.
+- **[Pregled](Pregled.md)** – pregled evidentiranih unosa vremena, za pregled zabilježenog rada i podataka o vremenu.
 
-- **[Upravljanje](TimeLogsManage.md)** – upravljanje dnevnikom vremena, uključujući uređivanje, ispravljanje i administriranje evidentiranih unosa.
+- **[Upravljanje](UpravljanjePrisutnoscu.md)** – upravljanje dnevnikom vremena, uključujući uređivanje, ispravljanje i administriranje evidentiranih unosa.
 
-- **[Upravljanje sa godišnjim odmorom](TimeLogsManagePaidLeave.md)** – administracija unosa plaćenog odsustva, kao što su godišnji odmor ili drugi odobreni izostanci.
+- **[Upravljanje sa godišnjim odmorom](UpravljanjeSaGodisnjimOdmorom.md)** – administracija unosa plaćenog odsustva, kao što su godišnji odmor ili drugi odobreni izostanci.
 
-- **[Prisutnost na poslu](TimeLogsAttendanceAtWork.md)** – pregled prisutnosti, koji prikazuje dolaske i obrasce rada resursa.
+- **[Prisutnost na poslu](PrisutnostNaPoslu.md)** – pregled prisutnosti, koji prikazuje dolaske i obrasce rada resursa.
 
 Svaki pogled usmjeren je na određeni tijek rada, pa su praćenje vremena, upravljanje odsustvima i praćenje prisutnosti jasno odvojeni.
