@@ -7,13 +7,13 @@
 
 Šifrarnik **Unaprijed pripremljeni tekstovi** sadrži unaprijed definirane tekstove koji se mogu umetnuti u različite poslovne dokumente, kao što su **Otpremnice**, **Izlazni računi**, **Ponude** i **Narudžbenice**. Ovi tekstovi omogućuju brzo i dosljedno dodavanje često korištenih napomena, uputa ili posebnih uvjeta.
 
-Za pristup ovom šifrarniku idite na **Nabava / Upravljanje / Unaprijed pripremljeni tekstovi** u [navigaciji](../UI/Navigation.md). Dostupan je i u domeni **Prodaja**. :contentReference[oaicite:0]{index=0}
+Za pristup ovom šifrarniku idite na **Nabava / Upravljanje / Unaprijed pripremljeni tekstovi** u [navigaciji](../UI/Navigacija.md). Dostupan je i u domeni **Prodaja**. :contentReference[oaicite:0]{index=0}
 
 ## Shema
 
 | Polje | Opis |
 |-------|------|
-| **Entitet** | Vrsta dokumenta na koju se unaprijed pripremljeni tekst odnosi (obavezno):<br>• [**Otpremnica**](../../Domains/Sales/Documents/DeliveryNotes.md)<br>• [**Izlazni račun**](../../Domains/Sales/Documents/IssuedInvoices.md)<br>• [**Ponuda**](../../Domains/Sales/Documents/Offers.md)<br>• [**Narudžbenica**](../../Domains/Supply/Documents/SupplyOrders.md) |
+| **Entitet** | Vrsta dokumenta na koju se unaprijed pripremljeni tekst odnosi (obavezno):<br>• [**Otpremnica**](../../Domene/Prodaja/Dokumenti/Otpremnice.md)<br>• [**Izlazni račun**](../../Domene/Prodaja/Dokumenti/IzlazniRacuni.md)<br>• [**Ponuda**](../../Domene/Prodaja/Dokumenti/Ponude.md)<br>• [**Narudžbenica**](../../Domene/Nabava/Dokumenti/Narudzbenice.md) |
 | **Oznaka** | Kratka oznaka unaprijed pripremljenog teksta (obavezno). |
 | **Tekst** | Sadržaj teksta koji će biti umetnut u odabranu vrstu dokumenta (obavezno). |
 | **Omogućeno** | Označava je li unaprijed pripremljeni tekst aktivan i dostupan za korištenje. |
@@ -41,7 +41,7 @@ Za brzo pronalaženje zapisa prema oznaci ili sadržaju teksta koristite polje *
 
 Za dodavanje novog unaprijed pripremljenog teksta:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja. Dodatna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje ili **Poništi** za odustajanje.
 

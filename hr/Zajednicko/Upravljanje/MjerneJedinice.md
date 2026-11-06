@@ -16,7 +16,7 @@ Primjeri:
 > [!TIP]
 > Za cjelovit prikaz pogledajte videouputu **[Mjerne jedinice](https://www.youtube.com/watch?v=8swl8Vex6y4)**.
 
-Šifrarniku **Mjerne jedinice** možete pristupiti iz različitih domena putem [navigacije](../UI/Navigation.md). U svim slučajevima radite s istim zajedničkim podacima.
+Šifrarniku **Mjerne jedinice** možete pristupiti iz različitih domena putem [navigacije](../UI/Navigacija.md). U svim slučajevima radite s istim zajedničkim podacima.
 
 Za otvaranje šifrarnika idite na **Upravljanje / Mjerne jedinice** u jednoj od sljedećih domena:
 
@@ -57,7 +57,7 @@ Popis prikazuje **naziv**, **skraćenicu** i **broj decimalnih mjesta** za svaku
 
 Za dodavanje nove mjerne jedinice:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje nove mjerne jedinice ili **Poništi** za povratak na popis bez spremanja.
 

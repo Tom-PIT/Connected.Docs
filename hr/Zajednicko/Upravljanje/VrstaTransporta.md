@@ -7,7 +7,7 @@
 
 Šifrarnik **Vrsta transporta** definira načine prijevoza koji se koriste u cijelom sustavu. Vrste transporta koriste se u logistici, prodaji, nabavi i drugim dokumentima za određivanje načina isporuke ili prijenosa robe.
 
-Šifrarniku **Vrsta transporta** možete pristupiti iz različitih domena putem [navigacije](../UI/Navigation.md). U svim slučajevima radite s istim zajedničkim podacima.
+Šifrarniku **Vrsta transporta** možete pristupiti iz različitih domena putem [navigacije](../UI/Navigacija.md). U svim slučajevima radite s istim zajedničkim podacima.
 
 Za otvaranje šifrarnika idite na **Upravljanje / Vrsta transporta** u jednoj od sljedećih domena:
 
@@ -44,7 +44,7 @@ Klikom na zapis otvara se zaslon za uređivanje.
 
 Za dodavanje nove vrste transporta:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje nove vrste transporta ili **Poništi** za povratak na popis bez spremanja.
 

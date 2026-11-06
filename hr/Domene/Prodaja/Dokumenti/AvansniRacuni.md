@@ -68,8 +68,8 @@ Potvrđeni avansni račun služi isključivo u informativne svrhe i nema utjecaj
 | Polje | Opis |
 |-------|------|
 | [**Država otpreme**](../../../Zajednicko/Upravljanje/Drzave.md) | Država iz koje se roba otprema. Vrijednost se obično preuzima iz Intrastat konfiguracije artikla. |
-| [**Vrsta transakcije**](../../Racunovodstvo/Upravljanje/Intrastat/VrsteTransakcija.md) | Klasifikacija vrste transakcije za Intrastat izvještavanje. |
-| [**Mjesto isporuke**](../../Racunovodstvo/Upravljanje/Intrastat/MjestaIsporuke.md) | Mjesto isporuke prema Intrastat pravilima. |
+| [**Vrsta transakcije**](../../Racunovodstvo/Upravljanje/Intrastat/VrstaTransakcije.md) | Klasifikacija vrste transakcije za Intrastat izvještavanje. |
+| [**Mjesto isporuke**](../../Racunovodstvo/Upravljanje/Intrastat/MjestoIsporuke.md) | Mjesto isporuke prema Intrastat pravilima. |
 
 </details>
 
@@ -100,7 +100,7 @@ Potvrđeni avansni račun služi isključivo u informativne svrhe i nema utjecaj
 |-------|------|
 | **Glavna knjiga - Konto prihoda/rashoda** | Konto glavne knjige na koji se knjiži iznos stavke. |
 | **Glavna knjiga - Konto poreza** | Konto glavne knjige za knjiženje poreza. |
-| [**Intrastat - Carinska tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/CarinskeTarife.md) | Tarifni broj robe za Intrastat izvještavanje. |
+| [**Intrastat - Carinska tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Tarifni broj robe za Intrastat izvještavanje. |
 | **Intrastat - Zemlja podrijetla** | Zemlja podrijetla robe. |
 | **Intrastat - Neto masa (kg)** | Neto masa za statističko izvještavanje. |
 | **Intrastat - Statistička vrijednost** | Statistička vrijednost robe za Intrastat. |

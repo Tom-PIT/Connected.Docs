@@ -29,7 +29,7 @@ Popis prikazuje sve dostupne uvjete isporuke zajedno s njihovim **oznakama** i *
 
 ![Uvjeti isporuke](../Images/DeliveryTermsListHR.png "Popis uvjeta isporuke")
 
-Uvjeti isporuke zajednički su svim domenama te se mogu koristiti u dokumentima kao što su [**Narudžbe kupca**](../../Domains/Sales/Documents/SalesOrders.md) ili [**Otpremnice**](../../Domains/Sales/Documents/DeliveryNotes.md).
+Uvjeti isporuke zajednički su svim domenama te se mogu koristiti u dokumentima kao što su [**Narudžbe kupca**](../../Domene/Prodaja/Dokumenti/NarudzbeKupca.md) ili [**Otpremnice**](../../Domene/Prodaja/Dokumenti/Otpremnice.md).
 
 Popis možete pretraživati pomoću polja **Pretraživanje** u gornjem desnom kutu.
 
@@ -39,7 +39,7 @@ Popis možete pretraživati pomoću polja **Pretraživanje** u gornjem desnom ku
 
 Za dodavanje novih uvjeta isporuke:
 
-1. Kliknite [akcijski gumb](../../Common/UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje novih uvjeta isporuke ili **Poništi** za povratak na popis bez spremanja.
 

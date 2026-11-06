@@ -18,7 +18,7 @@ Za pristup ovom dokumentu idite na **Logistika / Upravljanje / Konfiguracija** u
 | **Model numeriranja** | Pravilo koje određuje način izdavanja robe sa zalihe: <br> • **FIFO:** prvo se izdaje najstarija zaliha <br> • **LIFO:** prvo se izdaje najnovija zaliha <br> • **Najbolji rok trajanja:** prvo se izdaje roba s najranijim datumom isteka. |
 | **Format serijskog broja** | Format koji sustav koristi za automatsko generiranje serijskih brojeva. Na primjer, **{0:D10}** generira serijske brojeve s deset znamenki i vodećim nulama, kao što su **0000000001**, **0000000002** itd. |
 
-![Padajući izbornik modela numeriranjaHR](../Images/LogisticsConfigurationItemsTakeDropdownHR.png)
+![Padajući izbornik modela numeriranjaHR](../Images/LogisticsConfigurationItemsTakeDropdown.png)
 
 > [!TIP]
 >

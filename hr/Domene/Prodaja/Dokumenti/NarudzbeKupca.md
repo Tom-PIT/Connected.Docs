@@ -74,8 +74,8 @@ flowchart LR
 | Polje | Opis |
 |-------|------|
 | [**Država otpreme**](../../../Zajednicko/Upravljanje/Drzave.md) | Država iz koje je roba otpremljena. Ova se vrijednost obično preuzima iz Intrastat konfiguracije robe. |
-| [**Vrsta transakcije**](../../Racunovodstvo/Upravljanje/Intrastat/VrsteTransakcija.md) | Vrsta transakcije za Intrastat izvještavanje. |
-| [**Mjesto isporuke**](../../Racunovodstvo/Upravljanje/Intrastat/MjestaIsporuke.md) | Označava mjesto isporuke prema pravilima Intrastata. |
+| [**Vrsta transakcije**](../../Racunovodstvo/Upravljanje/Intrastat/VrstaTransakcije.md) | Vrsta transakcije za Intrastat izvještavanje. |
+| [**Mjesto isporuke**](../../Racunovodstvo/Upravljanje/Intrastat/MjestoIsporuke.md) | Označava mjesto isporuke prema pravilima Intrastata. |
 
 </details>
 

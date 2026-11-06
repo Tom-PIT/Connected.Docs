@@ -5,7 +5,7 @@
 
 # Simple receive
 
-**Simple receive** omogućuje brzo zaprimanje materijala na temelju postojeće [**Narudžbenice dobavljača**](../../Nabava/Dokumenti/NarudzbeniceDobavljaca.md). Korisnika vodi kroz tri jednostavna koraka: odabir podataka dokumenta, potvrdu stavki narudžbenice i uređivanje pojedine stavke prije završetka postupka.
+**Simple receive** omogućuje brzo zaprimanje materijala na temelju postojeće [**Narudžbenice dobavljača**](../../Nabava/Dokumenti/Narudzbenice.md). Korisnika vodi kroz tri jednostavna koraka: odabir podataka dokumenta, potvrdu stavki narudžbenice i uređivanje pojedine stavke prije završetka postupka.
 
 Simple receive namijenjen je brzom zaprimanju robe kada materijal stiže prema narudžbenici, bez potrebe za naprednim mogućnostima zaprimanja.
 

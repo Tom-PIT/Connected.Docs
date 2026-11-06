@@ -6,7 +6,7 @@
 
 # Poslovne jedinice
 
-**Poslovne jedinice** pripadaju određenom **kupcu** ili **dobavljaču** te se njima upravlja unutar [**Poslovnog imenika**](BusinessDirectory.md). Predstavljaju fizičke lokacije, podružnice ili organizacijske jedinice tvrtke, pri čemu svaka ima vlastite podatke o adresi.
+**Poslovne jedinice** pripadaju određenom **kupcu** ili **dobavljaču** te se njima upravlja unutar [**Poslovnog imenika**](PoslovniImenik.md). Predstavljaju fizičke lokacije, podružnice ili organizacijske jedinice tvrtke, pri čemu svaka ima vlastite podatke o adresi.
 
 **Poslovne jedinice** dostupne su kao kartica ispod svakog zapisa u **Poslovnom imeniku**. Kliknite karticu kako biste otvorili popis poslovnih jedinica povezanih s odabranom tvrtkom ili fizičkom osobom.
 
@@ -18,8 +18,8 @@
 |-------|------|
 | **Ime** | Naziv poslovne jedinice (npr. *Sjedište*, *Podružnica Zagreb*). |
 | **Ulica** | Ulica i kućni broj poslovne jedinice. |
-| [**Država**](../../Common/Management/Countries.md) | Odabire se iz šifrarnika **Države**. |
-| [**Pošta**](PostalCodes.md) | Odabire se iz šifrarnika **Pošte** za odabranu državu. |
+| [**Država**](Drzave.md) | Odabire se iz šifrarnika **Države**. |
+| [**Pošta**](PostanskiBrojevi.md) | Odabire se iz šifrarnika **Pošte** za odabranu državu. |
 | **Aktivan** | Označava može li se poslovna jedinica koristiti u dokumentima. |
 
 ## Popis
@@ -36,7 +36,7 @@ Pomoću filtara na lijevoj strani (**Omogućeno / Onemogućeno**) možete prikaz
 
 Za dodavanje nove poslovne jedinice:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje nove poslovne jedinice ili **Poništi** za povratak na popis bez spremanja.
 

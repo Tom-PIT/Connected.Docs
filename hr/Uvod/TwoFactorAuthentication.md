@@ -10,7 +10,7 @@ When enabled, the system sends a temporary authentication code to the user’s e
 > [!IMPORTANT]
 > Two-factor authentication works only if:
 > - the functionality is enabled on the platform
-> - the user has a valid email address configured in **System / [Users](../Domains/System/Management/Users.md)**
+> - the user has a valid email address configured in **System / [Users](../Domene/Sustav/Upravljanje/Users.md)**
 
 ## Configuration
 

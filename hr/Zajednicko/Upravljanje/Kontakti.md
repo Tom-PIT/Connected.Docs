@@ -6,7 +6,7 @@
 
 # Kontakti
 
-**Kontakti** pripadaju određenom **kupcu** ili **dobavljaču** te se njima upravlja unutar [**Poslovnog imenika**](BusinessDirectory.md). U njima se evidentiraju osobe povezane s tvrtkom, kao što su voditelji kupaca, osobe za nabavu, tehničke kontakt osobe ili osobe zadužene za obračun.
+**Kontakti** pripadaju određenom **kupcu** ili **dobavljaču** te se njima upravlja unutar [**Poslovnog imenika**](PoslovniImenik.md). U njima se evidentiraju osobe povezane s tvrtkom, kao što su voditelji kupaca, osobe za nabavu, tehničke kontakt osobe ili osobe zadužene za obračun.
 
 Svaki kontakt sadrži **Naziv radnog mjesta**, koji se odabire iz šifrarnika [**Nazivi radnih mjesta**](NaziviRadnihMjesta.md).
 
@@ -20,7 +20,7 @@ Svaki kontakt sadrži **Naziv radnog mjesta**, koji se odabire iz šifrarnika [*
 |-------|------|
 | **Ime** | Ime kontakt osobe (obavezno). |
 | **Prezime** | Prezime kontakt osobe (obavezno). |
-| **Naziv radnog mjesta** | Radno mjesto kontakt osobe, odabire se iz šifrarnika [**Nazivi radnih mjesta**](JobTitles.md). |
+| **Naziv radnog mjesta** | Radno mjesto kontakt osobe, odabire se iz šifrarnika [**Nazivi radnih mjesta**](NaziviRadnihMjesta.md). |
 | **E-mail** | Primarna adresa e-pošte. |
 | **Telefon** | Broj telefona. |
 | **Mobitel** | Broj mobilnog telefona. |
@@ -42,7 +42,7 @@ Pomoću filtara na lijevoj strani (**Aktivan / Neaktivan**) možete prikazati sa
 
 Za dodavanje novog kontakta:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) u donjem desnom kutu.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) u donjem desnom kutu.
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi. Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
 3. Kliknite **Dodaj** za spremanje novog kontakta ili **Poništi** za povratak na popis bez spremanja.
 

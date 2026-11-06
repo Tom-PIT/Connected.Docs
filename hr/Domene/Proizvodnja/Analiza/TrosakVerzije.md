@@ -59,7 +59,7 @@ Cijene materijala preuzimaju se iz **trenutačne konfiguracije cijena materijala
 
 ## Rad
 
-Odjeljak **Rad** prikazuje trošak koji stvaraju radni resursi korišteni u procesu. Troškovi se izračunavaju na temelju **trajanja rada** i **satnice** dodijeljenih resursa. Troškovi se preuzimaju iz šifrarnika [**Trošak resursa**](../../Resursi/Upravljanje/ResourcesCosts.md).
+Odjeljak **Rad** prikazuje trošak koji stvaraju radni resursi korišteni u procesu. Troškovi se izračunavaju na temelju **trajanja rada** i **satnice** dodijeljenih resursa. Troškovi se preuzimaju iz šifrarnika [**Trošak resursa**](../../Resursi/Upravljanje/TroskoviResursa.md).
 
 To može uključivati:
 

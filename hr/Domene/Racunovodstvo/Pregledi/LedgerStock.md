@@ -63,7 +63,7 @@ The list displays:
 - **Material** – Material code and name.
 - **Amount** – Ledger value of the material on the selected date.
 
-Clicking on a **material name** opens the related [**Stock view by material**](../../Logistics/Pogledi/Zaliha.md#stock-view-by-material) record.
+Clicking on a **material name** opens the related [**Stock view by material**](../../Logistika/Pogledi/Zaliha.md#stock-view-by-material) record.
 
 > [!NOTE]  
 > Because this view is ledger-based, values may differ from logistics stock if postings are missing, delayed, or not yet committed.
@@ -76,4 +76,4 @@ Available actions:
 
 - **Export stock state by average amount**
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+For details about menu actions, see [**Menu actions**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

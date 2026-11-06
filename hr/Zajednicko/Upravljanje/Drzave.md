@@ -7,7 +7,7 @@
 
 Šifrarnik **Države** sadrži države koje se koriste u cijelom sustavu. Svaka država određuje lokalizacijske parametre, kao što su **LCID** i **ISO oznaka**, koji osiguravaju ispravne jezične i regionalne postavke te usklađenost s međunarodnim standardima.
 
-Šifrarniku **Države** možete pristupiti iz različitih domena putem [navigacije](../UI/Navigation.md). U svim slučajevima radite s istim zajedničkim podacima.
+Šifrarniku **Države** možete pristupiti iz različitih domena putem [navigacije](../UI/Navigacija.md). U svim slučajevima radite s istim zajedničkim podacima.
 
 Za otvaranje šifrarnika idite na **Upravljanje / Države** u jednoj od sljedećih domena:
 
@@ -37,7 +37,7 @@ Svaki zapis sadrži indikator statusa lijevo od naziva:
 
 ![Popis država](../Images/CountriesListHR.png "Popis država")
 
-Svaki zapis također sadrži karticu koja predstavlja povezane podatke — [**Poštanski brojevi**](PostalCodes.md).
+Svaki zapis također sadrži karticu koja predstavlja povezane podatke — [**Poštanski brojevi**](PostanskiBrojevi.md).
 
 Klikom na karticu otvara se zaslon za upravljanje poštanskim brojevima odabrane države.
 
@@ -45,7 +45,7 @@ Klikom na karticu otvara se zaslon za upravljanje poštanskim brojevima odabrane
 
 ## Radnje
 
-Kliknite [akcijski gumb](../UI/ActionButton.md) za prikaz sljedećih radnji:
+Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) za prikaz sljedećih radnji:
 
 - **Uvoz**
 - **Dodaj**
@@ -56,7 +56,7 @@ Radnja **Uvoz** omogućuje skupno stvaranje ili ažuriranje zapisa država. Nami
 
 Za uvoz država:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) i odaberite **Uvoz**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) i odaberite **Uvoz**.
 2. Povucite CSV datoteku u područje za prijenos ili kliknite područje za odabir datoteke.
 
 ![Uvoz država](../Images/ImportCountriesHR.png "Uvoz država")
@@ -81,7 +81,7 @@ Italy,1040,IT,false
 
 Za dodavanje nove države:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) i odaberite **Dodaj**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) i odaberite **Dodaj**.
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje zapisa ili **Poništi** za povratak na popis bez spremanja.
 

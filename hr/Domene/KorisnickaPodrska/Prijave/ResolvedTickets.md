@@ -16,7 +16,7 @@ To access this screen, go to **Customers / Tickets / Resolved tickets** in the [
 |-----|------------|
 | **Subject** | Short title describing the resolved issue |
 | **Number** | Unique ticket identifier |
-| **[Desk](../Management/Desks.md)** | Desk the ticket belongs to |
+| **[Desk](../Upravljanje/Desks.md)** | Desk the ticket belongs to |
 | **Channel** | Origin of the ticket (**Web**, **Phone**, **Email**) |
 | **Author** | User who created the ticket |
 | **Assigned** | User who handled the ticket |
@@ -56,11 +56,11 @@ Opening a resolved ticket displays the same detailed view as active tickets, inc
 - Full comment history
 - Audit trail
 
-Most fields are read-only; you can still update selected options (such as **Subject**, **Description**, **Priority**, etc.), add comments, and use actions via the [action button](../../../Common/UI/ActionButton.md).
+Most fields are read-only; you can still update selected options (such as **Subject**, **Description**, **Priority**, etc.), add comments, and use actions via the [action button](../../../Zajednicko/UI/AkcijskiGumb.md).
 
 ## Reopen a ticket
 
-From the ticket detail view, reopen a resolved ticket via the [action button](../../../Common/UI/ActionButton.md).
+From the ticket detail view, reopen a resolved ticket via the [action button](../../../Zajednicko/UI/AkcijskiGumb.md).
 
 Available options include:
 - **Save as New**
@@ -87,6 +87,6 @@ Available actions:
 - **Record effort**
 
 > [!NOTE]
-> Manage your per‑desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+> Manage your per‑desk notification preferences in [**Notification settings**](../Upravljanje/NotificationsSettings.md).
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+For details about menu actions, see [**Menu actions**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

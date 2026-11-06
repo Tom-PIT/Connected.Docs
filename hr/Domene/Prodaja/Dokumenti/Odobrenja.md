@@ -71,8 +71,8 @@ Odobrenja utječu samo na računovodstvo i ne utječu na stanje zaliha.
 | Polje | Opis |
 |-------|------|
 | [**Država otpreme**](../../../Zajednicko/Upravljanje/Drzave.md) | Država iz koje je roba otpremljena. Ova se vrijednost obično preuzima iz Intrastat konfiguracije robe. |
-| [**Vrsta transakcije**](../../Racunovodstvo/Upravljanje/Intrastat/VrsteTransakcija.md) | Klasifikacija vrste transakcije za Intrastat izvještavanje. |
-| [**Mjesto isporuke**](../../Racunovodstvo/Upravljanje/Intrastat/MjestaIsporuke.md) | Označava mjesto isporuke robe prema pravilima Intrastata. |
+| [**Vrsta transakcije**](../../Racunovodstvo/Upravljanje/Intrastat/VrstaTransakcije.md) | Klasifikacija vrste transakcije za Intrastat izvještavanje. |
+| [**Mjesto isporuke**](../../Racunovodstvo/Upravljanje/Intrastat/MjestoIsporuke.md) | Označava mjesto isporuke robe prema pravilima Intrastata. |
 
 </details>
 

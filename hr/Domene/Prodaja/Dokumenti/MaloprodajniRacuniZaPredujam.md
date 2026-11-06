@@ -101,7 +101,7 @@ Za ažuriranje zaliha:
 |-------|------|
 | **Glavna knjiga - Konto prihoda/rashoda** | Konto glavne knjige na koji se knjiži neto iznos stavke. |
 | **Glavna knjiga - Konto poreza** | Konto glavne knjige na koji se knjiži iznos poreza. |
-| [**Intrastat – Carinska tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/CarinskeTarife.md) | Tarifna oznaka robe za Intrastat izvještavanje. |
+| [**Intrastat – Carinska tarifa**](../../Racunovodstvo/Upravljanje/Intrastat/Tarife.md) | Tarifna oznaka robe za Intrastat izvještavanje. |
 | **Intrastat – Zemlja podrijetla** | Zemlja podrijetla robe. |
 | **Intrastat – Neto masa (kg)** | Neto masa robe za statističko izvještavanje. |
 | **Intrastat – Statistička vrijednost** | Statistička vrijednost robe za Intrastat izvještavanje. |

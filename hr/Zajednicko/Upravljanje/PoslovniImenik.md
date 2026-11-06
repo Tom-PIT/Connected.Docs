@@ -7,7 +7,7 @@
 
 **Poslovni imenik** sadrži sve tvrtke i fizičke osobe s kojima vaša organizacija posluje. To mogu biti **kupci**, **dobavljači**, **kooperanti** ili **fizičke osobe**. Svaki zapis sadrži važne informacije kao što su adrese, porezni podaci, kontakt osobe i postavke plaćanja. Time se osigurava dosljedno korištenje podataka o poslovnim partnerima u prodajnim, nabavnim, logističkim i financijskim dokumentima.
 
-Šifrarniku **Poslovni imenik** možete pristupiti iz različitih domena putem [navigacije](../UI/Navigation.md). U svim slučajevima radite s istim zajedničkim podacima.
+Šifrarniku **Poslovni imenik** možete pristupiti iz različitih domena putem [navigacije](../UI/Navigacija.md). U svim slučajevima radite s istim zajedničkim podacima.
 
 Za otvaranje šifrarnika idite na **Upravljanje / Poslovni imenik** u jednoj od sljedećih domena:
 
@@ -28,17 +28,17 @@ Za otvaranje šifrarnika idite na **Upravljanje / Poslovni imenik** u jednoj od 
 | **Kooperant** | Označava da poslovni partner ima ulogu kooperanta. |
 | **Fizička osoba** | Označava da zapis predstavlja fizičku osobu. |
 | **Ulica** | Ulica i kućni broj poslovnog partnera. |
-| [**Država**](Countries.md) | Država u kojoj se nalazi sjedište poslovnog partnera. |
-| [**Pošta**](PostalCodes.md) | Poštanski broj i mjesto poslovnog partnera. |
+| [**Država**](Drzave.md) | Država u kojoj se nalazi sjedište poslovnog partnera. |
+| [**Pošta**](PostanskiBrojevi.md) | Poštanski broj i mjesto poslovnog partnera. |
 | **Vrsta** | Određuje porezni status poslovnog partnera (pogledajte opis u nastavku). |
 | **OIB/Porezni broj** | Porezni identifikacijski broj, primjerice **HR12345678901**. |
 | **Matični broj** | Matični broj poslovnog partnera. |
-| [**Institucionalni sektor**](../../Domains/Customers/Management/InstitutionalSectors.md) | Institucionalni sektor kojem poslovni partner pripada. |
+| [**Institucionalni sektor**](../../Domene/KorisnickaPodrska/Upravljanje/InstitutionalSectors.md) | Institucionalni sektor kojem poslovni partner pripada. |
 | **Oznake** | Oznake koje omogućuju kategorizaciju poslovnih partnera. |
 | **Valuta plaćanja** | Zadana valuta plaćanja koja se koristi u dokumentima. |
-| [**Valuta**](Currencies.md) | Valuta povezana s poslovnim partnerom. |
+| [**Valuta**](Valute.md) | Valuta povezana s poslovnim partnerom. |
 | **Rabat** | Zadani postotak rabata koji se primjenjuje za poslovnog partnera. |
-| [**Primarni kontakt**](Contacts.md) | Ime i prezime primarne kontakt osobe. |
+| [**Primarni kontakt**](Kontakti.md) | Ime i prezime primarne kontakt osobe. |
 | **Telefon** | Telefonski broj primarne kontakt osobe. |
 | **E-mail** | Adresa e-pošte primarne kontakt osobe. |
 | **Koristi valutu kupca na dokumentima** | Određuje koristi li se valuta poslovnog partnera na dokumentima. |
@@ -55,10 +55,10 @@ Kartica na vrhu prikazuje ukupan broj zapisa u poslovnom imeniku.
 
 Svaki zapis prikazuje oznake koje predstavljaju povezane podatke. Putem njih možete pristupiti sljedećim povezanim šifrarnicima:
 
-- [**Kontakti**](Contacts.md)
-- [**Bankovni računi**](BankAccounts.md)
-- [**Poslovne jedinice**](BusinessUnits.md)
-- [**Kartice tvrtke**](../../Domains/Sales/Views/CompanyCards.md)
+- [**Kontakti**](Kontakti.md)
+- [**Bankovni računi**](BankovniRacuni.md)
+- [**Poslovne jedinice**](PoslovneJedinice.md)
+- [**Kartice tvrtke**](../../Domene/Prodaja/Pogledi/KarticeTvrtke.md)
 
 Filtri na lijevoj strani omogućuju filtriranje prema **Pogledu**, **Odnosu**, **Vrsti** i **Državi**.
 
@@ -70,7 +70,7 @@ Polje **Vrsta** određuje porezni status poslovnog partnera. Dostupne vrijednost
 
 ## Radnje
 
-Kliknite [akcijski gumb](../../Common/UI/ActionButton.md) za prikaz dostupnih radnji:
+Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) za prikaz dostupnih radnji:
 
 - **VIES uvoz**
 - **Uvoz**
@@ -81,7 +81,7 @@ Za jednostavnije dodavanje tvrtki registriranih za PDV moguće je automatski pre
 
 Za uvoz putem VIES-a:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) i odaberite **VIES uvoz**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) i odaberite **VIES uvoz**.
 2. Unesite OIB/PDV broj poslovnog partnera.
 3. Kliknite **Uvoz**.
 
@@ -89,7 +89,7 @@ Za uvoz putem VIES-a:
 
 Za uvoz jednog ili više zapisa:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) i odaberite **Uvoz**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) i odaberite **Uvoz**.
 2. Odaberite CSV datoteku s podacima.
 3. Kliknite **Uvoz**.
 
@@ -109,7 +109,7 @@ CUST01,John Smith,false,false,true,false,true,Glavna ulica 5,SI,2000,Final custo
 
 Za dodavanje novog zapisa:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) i odaberite **Novi**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) i odaberite **Novi**.
 2. Ispunite sva obavezna polja.
    - Označite **Kupac** ako stvarate kupca.
    - Označite **Dobavljač** ako stvarate dobavljača.
@@ -174,4 +174,4 @@ Dostupne radnje:
 
 - **Izvoz u CSV**
 
-Više informacija potražite u dokumentu [**Radnje izbornika**](../../Common/Concepts/MenuActions.md).
+Više informacija potražite u dokumentu [**Radnje izbornika**](../Koncepti/RadnjeIzbornika.md).

@@ -7,7 +7,7 @@
 
 The **Customers** domain provides tools for managing customer interactions, support requests, and service-related communication. It enables organizations to track incoming requests, resolve issues, monitor service levels, and maintain structured customer-related data.
 
-Where the **[Sales](../Sales/README.md)** domain focuses on commercial transactions, the Customers domain focuses on **post-sale communication, issue resolution, and customer assistance**.
+Where the **[Sales](../Prodaja/README.md)** domain focuses on commercial transactions, the Customers domain focuses on **post-sale communication, issue resolution, and customer assistance**.
 
 To access this domain, navigate to **Customers** from the main sitemap.
 
@@ -31,7 +31,7 @@ The domain is organized into the following functional areas:
 
 The **Visitors** section focuses on customers and partners physical visits to company locations.
 
-The [**Visitors management**](Visitors/VisitorsManagement.md) screen records physical visits to company locations with visitor details, date/time, status (Announced, On location, Completed, Cancelled), and target location.
+The [**Visitors management**](Posjetitelji/VisitorsManagement.md) screen records physical visits to company locations with visitor details, date/time, status (Announced, On location, Completed, Cancelled), and target location.
 
 ![Customer Support Domain Visitors](Images/CustomerSupportDomainVisitors.png "Customer Support Domain Visitors")
 
@@ -41,9 +41,9 @@ The **Tickets** section contains all support-related records used to track custo
 
 It includes screens for:
 
-- **[Tickets](Tickets/Tickets.md)** – active and open support requests  
-- **[Resolved tickets](Tickets/ResolvedTickets.md)** – completed and closed support cases  
-- **[SLA tickets](Tickets/SLATickets.md)** – tickets monitored against defined service level agreements  
+- **[Tickets](Prijave/Tickets.md)** – active and open support requests  
+- **[Resolved tickets](Prijave/ResolvedTickets.md)** – completed and closed support cases  
+- **[SLA tickets](Prijave/SLATickets.md)** – tickets monitored against defined service level agreements  
 
 These screens represent the core operational area of the Customers domain, allowing support agents to follow tickets from creation through resolution while maintaining visibility of response and resolution times.
 
@@ -55,7 +55,7 @@ The **Views** section provides read-only screens that present customer-related i
 
 Available views include:
 
-- **[Company cards](../Sales/Views/CompanyCards.md)** – overview of customers and their related activity across the system, including support-related information
+- **[Company cards](../Prodaja/Pogledi/KarticeTvrtke.md)** – overview of customers and their related activity across the system, including support-related information
 
 Views do **not** create or modify data. They are intended for analysis, navigation, and decision support.
 
@@ -67,16 +67,16 @@ The **Management** section contains configuration screens and code lists require
 
 Available configuration screens include:
 
-- **[Notification settings](Management/NotificationsSettings.md)** – personalization of ticket-related notifications per desk  
-- **[Desks](Management/Desks.md)** – definition of support desks and service channels  
-- **[Business directory](../../Common/Management/BusinessDirectory.md)** – shared directory of companies and contacts used across domains  
-- **[Institutional sectors](Management/InstitutionalSectors.md)** – classification of customers by sector  
-- **[Job titles](../../Common/Management/JobTitles.md)** – role definitions associated with customer contacts and users  
+- **[Notification settings](Upravljanje/NotificationsSettings.md)** – personalization of ticket-related notifications per desk  
+- **[Desks](Upravljanje/Desks.md)** – definition of support desks and service channels  
+- **[Business directory](../../Zajednicko/Upravljanje/PoslovniImenik.md)** – shared directory of companies and contacts used across domains  
+- **[Institutional sectors](Upravljanje/InstitutionalSectors.md)** – classification of customers by sector  
+- **[Job titles](../../Zajednicko/Upravljanje/NaziviRadnihMjesta.md)** – role definitions associated with customer contacts and users  
 
 These elements define how customer support is structured and how users interact with tickets and notifications.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../ManagementIndex.md)**.
+> See all management entries in the **[Management Index](../../IndeksUpravljanja.md)**.
 
 ## Customers and other domains
 
@@ -84,8 +84,8 @@ The **Customers** domain integrates with several other domains:
 
 | Area | Interaction |
 |------|-------------|
-| [**Sales**](../Sales/README.md) | Customer and company data shared with commercial processes |
-| [**Projects**](../Projects/README.md) | Tickets may relate to ongoing customer projects |
-| [**Maintenance**](../Maintenance/README.md) | Support tickets can be linked to maintenance orders or issues |
-| [**Resources**](../Resources/README.md) | Support workload and responsibility distribution |
-| [**Knowledge**](../Knowledge/README.md) | Documentation and knowledge base entries supporting issue resolution |
+| [**Sales**](../Prodaja/README.md) | Customer and company data shared with commercial processes |
+| [**Projects**](../Projekti/README.md) | Tickets may relate to ongoing customer projects |
+| [**Maintenance**](../Odrzavanje/README.md) | Support tickets can be linked to maintenance orders or issues |
+| [**Resources**](../Resursi/README.md) | Support workload and responsibility distribution |
+| [**Knowledge**](../Znanje/README.md) | Documentation and knowledge base entries supporting issue resolution |

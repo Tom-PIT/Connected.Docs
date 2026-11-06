@@ -46,7 +46,7 @@ Polje **Pretraživanje** omogućuje brzo filtriranje valuta prema nazivu ili ozn
 
 Za dodavanje nove valute:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje nove valute ili **Poništi** za povratak na popis bez spremanja.
 

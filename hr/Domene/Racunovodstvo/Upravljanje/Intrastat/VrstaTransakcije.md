@@ -9,6 +9,8 @@
 
 Ovom ekranu pristupate odabirom **Računovodstvo / Upravljanje / Intrastat / Vrsta transakcije** u [navigaciji](../../../../Zajednicko/UI/Navigacija.md).
 
+U dokumentima, primjerice u [primkama](../../../Logistika/Dokumenti/Primke.md), ta se šifra bira u polju **Vrsta posla**.
+
 ## Shema
 
 | Polje | Opis |

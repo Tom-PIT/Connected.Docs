@@ -23,7 +23,7 @@ To access Visitors management, navigate to **Customer Support / Visitors / Visit
 | **Email** | Visitor email address |
 | **Phone** | Visitor phone number |
 | **Company** | Company the visitor represents |
-| **Locations** | Target locations for the visit, taken from the [**Organization units**](../../Production/Management/OrganizationUnits.md) code list. |
+| **Locations** | Target locations for the visit, taken from the [**Organization units**](../../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md) code list. |
 | **Guide**| Internal person responsible for the visitor |
 | **Signature** | Visitor confirmation and signature, available in edit mode |
 
@@ -68,7 +68,7 @@ A new visit is created when a physical visit is planned.
 
 Typical flow:
 
-1. Click the [action button](../../../Common/UI/ActionButton.md) to create a new visit.
+1. Click the [action button](../../../Zajednicko/UI/AkcijskiGumb.md) to create a new visit.
 2. The **Status** is set to **Announced** by default.
 3. Fill in the visit details (the **Visitor** field is mandatory).
 4. Click **Save**.

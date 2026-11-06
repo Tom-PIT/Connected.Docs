@@ -28,7 +28,7 @@ flowchart LR
 Create a commercial offer to confirm prices, quantities, and validity with the customer.
 
 1. Go to **Sales / Documents / Offers**.
-2. Use the **[action button](../Common/UI/ActionButton.md)** to create a draft [sales offer](../Domains/Sales/Documents/Offers.md).
+2. Use the **[action button](../Zajednicko/UI/AkcijskiGumb.md)** to create a draft [sales offer](../Domene/Prodaja/Dokumenti/Ponude.md).
 3. Fill **Customer**, **Expiration date**, and add items in the **Details** section.
 4. Click **Publish** to confirm the document.
 
@@ -42,7 +42,7 @@ Create a commercial offer to confirm prices, quantities, and validity with the c
 
 Create a sales order to reserve stock and plan fulfillment.
 
-1. From the committed offer, use **Linked documents → [+ Sales order](../Domains/Sales/Documents/SalesOrdersCreate.md)**.
+1. From the committed offer, use **Linked documents → [+ Sales order](../Domene/Prodaja/Dokumenti/NarudzbeKupcaIzrada.md)**.
 
    ![Offer Link Sales Order](Images/OfferSalesOrder.png "Create sales order from offer")
 
@@ -56,9 +56,9 @@ Create a sales order to reserve stock and plan fulfillment.
 If items are unavailable, see **[Restock or produce](RestockOrProduce.md)** for options to procure or manufacture before delivery.
 
 For production companies, a quick way to create a production order is from the published sales order: 
-- **Linked documents → [**+ Production order**](../Domains/Production/Documents/ProductionOrderCreate.md)**.
+- **Linked documents → [**+ Production order**](../Domene/Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md)**.
 
-This creates a Production order draft that can be committed later in the **[Production domain](../Domains/Production/README.md)**.
+This creates a Production order draft that can be committed later in the **[Production domain](../Domene/Proizvodnja/README.md)**.
 
 <!-- app_route: /sales/documents/delivery-notes -->
 <!-- app_label: Delivery notes -->
@@ -67,16 +67,16 @@ This creates a Production order draft that can be committed later in the **[Prod
 
 The sales order is ready; prepare the shipment and move stock out of the warehouse.
 
-1. From the sales order, open **Linked documents → [+ Delivery note](../Domains/Sales/Documents/DeliveryNotes.md)**.  
+1. From the sales order, open **Linked documents → [+ Delivery note](../Domene/Prodaja/Dokumenti/Otpremnice.md)**.  
    Verify **Customer**, **Delivery address**, and add the items to be shipped. You can adjust quantities if only part of the order is being delivered.
-2. In the delivery note, open **Linked documents → [+ Full issue](../Domains/Logistics/Documents/Issues.md)**.
+2. In the delivery note, open **Linked documents → [+ Full issue](../Domene/Logistika/Dokumenti/Izdatnica.md)**.
 
    ![Delivery Note Full Issue](Images/DeliveryNoteFullIssue.png "Create full issue from delivery note")
 
    Select the **Warehouse** and **Location(s)**, confirm quantities to pick.
 3. Click **Publish** to commit the issue.  
    This moves stock out and updates inventory balances.
-4. (Optional) Verify the change in **[Stock view by location](../Domains/Logistics/Views/StockViewByLocation.md)**.
+4. (Optional) Verify the change in **[Stock view by location](../Domene/Logistika/Pogledi/PogledNaZalihePremaLokacijama.md)**.
 
 <!-- app_route: /sales/documents/issued-invoices -->
 <!-- app_label: Issued invoices -->
@@ -85,7 +85,7 @@ The sales order is ready; prepare the shipment and move stock out of the warehou
 
 Invoice delivered goods and record payment(s).
 
-1. From the sales order or the delivery note, open **Linked documents → [+ Issued invoice](../Domains/Sales/Documents/IssuedInvoicesCreate.md)**.
+1. From the sales order or the delivery note, open **Linked documents → [+ Issued invoice](../Domene/Prodaja/Dokumenti/IzlazniRacuniIzrada.md)**.
 2. Review the final totals and add **Payment methods** if needed.
 3. Click **Publish**.
 4. Record incoming payments (partial or full) via the **Payment** button.
@@ -94,4 +94,4 @@ Invoice delivered goods and record payment(s).
 
 > [!TIP]
 > - Use **Linked documents** to step through each stage and confirm auto-filled data (customer, items).
-> - Open **[Company cards](../Domains/Sales/Views/CompanyCards.md)** to review customer history, orders, and balances.
+> - Open **[Company cards](../Domene/Prodaja/Pogledi/KarticeTvrtke.md)** to review customer history, orders, and balances.

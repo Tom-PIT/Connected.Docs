@@ -49,7 +49,7 @@ Think about:
 
 ### 2. Create directory tags
 
-**[Directory tags](../Domains/Knowledge/Management/OznakeImenika.md)** help users find content through search and filtering.
+**[Directory tags](../Domene/Znanje/Upravljanje/OznakeImenika.md)** help users find content through search and filtering.
 
 Examples:
 
@@ -59,7 +59,7 @@ Examples:
 * Packaging
 * Maintenance
 
-![Directory Tags List](../Domains/Knowledge/Images/DirectoryTagsList.png "Directory tags list")
+![Directory Tags List](../Domene/Znanje/Images/DirectoryTagsListHR.png "Directory tags list")
 
 1. Open **Knowledge / Management / Directory tags**.
 2. Create the tags required for your documentation.
@@ -67,7 +67,7 @@ Examples:
 
 ### 3. Create directories
 
-**[Directories](../Domains/Knowledge/Management/Imenici.md)** are the main containers used to organize knowledge content.
+**[Directories](../Domene/Znanje/Upravljanje/Imenici.md)** are the main containers used to organize knowledge content.
 
 Examples:
 
@@ -76,7 +76,7 @@ Examples:
 * Safety Procedures
 * Maintenance
 
-![Directories List](../Domains/Knowledge/Images/DirectoriesList.png "Directories list")
+![Directories List](../Domene/Znanje/Images/DirectoriesListHR.png "Directories list")
 
 1. Open **Knowledge / Management / Directories**.
 2. Create a new directory.
@@ -93,11 +93,11 @@ Examples:
 * Packaging procedure
 * Daily equipment inspection
 
-![Articles List](../Domains/Knowledge/Images/ArticlesList.png "Articles list")
+![Articles List](../Domene/Znanje/Images/ArticlesListHR.png "Articles list")
 
 1. Open **Knowledge / Management / Directories**.
 2. Select **Articles** from the desired directory.
-3. Click the [action button](../Common/UI/ActionButton.md) to create a new article.
+3. Click the [action button](../Zajednicko/UI/AkcijskiGumb.md) to create a new article.
 4. Enter:
    * Title
    * Key
@@ -109,7 +109,7 @@ Examples:
 5. Assign relevant tags.
 6. Save the article.
 
-For details, see **[Articles](../Domains/Knowledge/Management/Clanci.md)**.
+For details, see **[Articles](../Domene/Znanje/Upravljanje/Clanci.md)**.
 
 ### 5. Build the table of contents
 
@@ -121,7 +121,7 @@ The table of contents defines how users navigate the directory.
 4. Add articles to the folders.
 5. Arrange entries using ordinal values to define the order.
 
-For details, see **[Table of contents](../Domains/Knowledge/Management/Kazalo.md)**.
+For details, see **[Table of contents](../Domene/Znanje/Upravljanje/Kazalo.md)**.
 
 Example:
 
@@ -150,7 +150,7 @@ Once directories, articles, and navigation have been configured:
 5. Verify search and tag filtering.
 
 
-![Knowledge Base](../Domains/Knowledge/Images/KnowledgeBase.png "Knowledge base example")
+![Knowledge Base](../Domene/Znanje/Images/KnowledgeBase.png "Knowledge base example")
 
 Users can:
 
@@ -160,7 +160,7 @@ Users can:
 * Download attachments
 * Add comments (if enabled)
 
-For details, see **[Knowledge base](../Domains/Knowledge/KnowledgeBase/KnowledgeBase.md)**.
+For details, see **[Knowledge base](../Domene/Znanje/BazaZnanja/BazaZnanja.md)**.
 
 ### 7. Maintain content
 

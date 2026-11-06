@@ -17,7 +17,7 @@ To access this screen, go to **Customers / Tickets** in the [navigation](../../.
 |-----|------------|
 | **Subject** | Short title describing the issue |
 | **Description** | Detailed description of the ticket |
-| **[Desk](../Management/Desks.md)** | Support desk the ticket belongs to |
+| **[Desk](../Upravljanje/Desks.md)** | Support desk the ticket belongs to |
 | **Channel** | Origin of the ticket (**Web**, **Phone**, **Email**) |
 | **Author** | User who created the ticket |
 | **Assigned** | User responsible for resolving the ticket |
@@ -70,7 +70,7 @@ Tickets move through the following main statuses:
 
 ## Create a new ticket
 
-To create a new ticket, click the [action button](../../../Common/UI/ActionButton.md) in the bottom-right corner.
+To create a new ticket, click the [action button](../../../Zajednicko/UI/AkcijskiGumb.md) in the bottom-right corner.
 
 ### Step 1: Select desk
 
@@ -84,7 +84,7 @@ In the second step, ticket details are entered or edited.
 
 ![Create ticket – details](../Images/TicketsNewStep2.png)
 
-Click the [action button](../../../Common/UI/ActionButton.md) to:
+Click the [action button](../../../Zajednicko/UI/AkcijskiGumb.md) to:
 - Publish as **New**
 - Publish as **Active**
 - Publish as **New** or **Active**, and immediately **create a new ticket**
@@ -126,7 +126,7 @@ The audit trail tracks all changes made to the ticket on a timeline. To open it,
 
 ## Resolve a ticket
 
-Click on the [action button](../../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
+Click on the [action button](../../../Zajednicko/UI/AkcijskiGumb.md) to open the menu and select a resolution option: 
 
 - **By design** - the issue is intentional and expected
 - **Duplicate** - the ticket is a copy of another one
@@ -155,6 +155,6 @@ Available actions:
 - **Record effort**
 
 > [!NOTE]
->  Manage your perâ€‘desk notification preferences in [**Notification settings**](../Management/NotificationsSettings.md).
+>  Manage your perâ€‘desk notification preferences in [**Notification settings**](../Upravljanje/NotificationsSettings.md).
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+For details about menu actions, see [**Menu actions**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

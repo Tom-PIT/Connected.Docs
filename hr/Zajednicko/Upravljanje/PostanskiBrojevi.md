@@ -6,7 +6,7 @@
 
 # Poštanski brojevi
 
-**Poštanski brojevi** pripadaju određenoj **državi** i njima se upravlja unutar šifrarnika [**Države**](Countries.md). Definiraju dostupna poštanska područja koja se koriste prilikom unosa adresa u **Poslovni imenik** ili logističke dokumente. :contentReference[oaicite:0]{index=0}
+**Poštanski brojevi** pripadaju određenoj **državi** i njima se upravlja unutar šifrarnika [**Države**](Drzave.md). Definiraju dostupna poštanska područja koja se koriste prilikom unosa adresa u **Poslovni imenik** ili logističke dokumente. :contentReference[oaicite:0]{index=0}
 
 Poštanski brojevi prikazani su kao oznaka uz svaki zapis u šifrarniku **Države**. Kliknite oznaku **Poštanski brojevi** kako biste otvorili popis poštanskih brojeva za odabranu državu.
 
@@ -32,7 +32,7 @@ Za prikaz aktivnih ili neaktivnih poštanskih brojeva koristite filtre **Aktivan
 
 ## Radnje
 
-Kliknite [akcijski gumb](../UI/ActionButton.md) kako biste otvorili sljedeće radnje:
+Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) kako biste otvorili sljedeće radnje:
 
 - **Uvoz**
 - **Novi**
@@ -43,7 +43,7 @@ Kliknite [akcijski gumb](../UI/ActionButton.md) kako biste otvorili sljedeće ra
 
 Za dodavanje novog poštanskog broja:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) i odaberite **Novi**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) i odaberite **Novi**.
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje ili **Poništi** za odustajanje.
 
@@ -58,14 +58,14 @@ Akcijski gumb sadrži i mogućnost **Uvoz**, koja omogućuje skupni uvoz poštan
 
 Za uvoz poštanskih brojeva:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) i odaberite **Uvoz**.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) i odaberite **Uvoz**.
 2. Odaberite CSV datoteku koja sadrži poštanske brojeve za uvoz.
 
 ### Urediti poštanski broj
 
 Za uređivanje postojećeg poštanskog broja:
 
-1. Otvorite šifrarnik [**Države**](Countries.md).
+1. Otvorite šifrarnik [**Države**](Drzave.md).
 2. Kliknite oznaku **Poštanski brojevi** za željenu državu.
 3. Na popisu kliknite poštanski broj koji želite urediti.
 4. Po potrebi izmijenite **Broj**, **Ime** ili status **Aktivan**.
@@ -75,7 +75,7 @@ Za uređivanje postojećeg poštanskog broja:
 
 Za brisanje poštanskog broja:
 
-1. Otvorite šifrarnik [**Države**](Countries.md).
+1. Otvorite šifrarnik [**Države**](Drzave.md).
 2. Kliknite oznaku **Poštanski brojevi** za željenu državu.
 3. Na popisu odaberite poštanski broj.
 4. Kliknite **Izbriši** i potvrdite brisanje.

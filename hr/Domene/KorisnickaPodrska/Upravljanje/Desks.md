@@ -46,7 +46,7 @@ Each desk includes:
 ## Actions
 
 ### Add a new desk
-Click the [action button](../../../Common/UI/ActionButton.md) to add a new desk.
+Click the [action button](../../../Zajednicko/UI/AkcijskiGumb.md) to add a new desk.
 
 The desk form is divided into multiple sections that define how the desk behaves. When adding or editing, use the fields described in the [**Schema**](#schema).
 

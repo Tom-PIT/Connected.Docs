@@ -70,7 +70,7 @@ Dostupnost ove radnje ovisi o vrsti dokumenta i njegovom trenutnom statusu.
 
 ### Stornirati dokument
 
-Stvorite [storno dokument](../../Domains/Logistics/Documents/Reversals.md) kojim se poništavaju učinci izvornog dokumenta.
+Stvorite [storno dokument](../../Domene/Logistika/Dokumenti/Storno.md) kojim se poništavaju učinci izvornog dokumenta.
 
 Dostupnost ove radnje ovisi o vrsti dokumenta.
 
@@ -95,7 +95,7 @@ Izvršite radnje nad više odabranih zapisa odjednom.
 
 Dostupne radnje ovise o odabranoj vrsti dokumenta.
 
-Otvara način rada u kojem je moguće odabrati više zapisa za skupnu obradu. Nakon odabira zapisa, radnje se izvršavaju putem [akcijskog gumba](../UI/ActionButton.md).
+Otvara način rada u kojem je moguće odabrati više zapisa za skupnu obradu. Nakon odabira zapisa, radnje se izvršavaju putem [akcijskog gumba](../UI/AkcijskiGumb.md).
 
 ### Izvesti stanje zaliha po prosječnom iznosu
 

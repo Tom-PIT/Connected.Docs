@@ -6,9 +6,9 @@
 
 # Bankovni računi
 
-**Bankovni računi** pripadaju određenom **kupcu** ili **dobavljaču** te se njima upravlja unutar [**Poslovnog imenika**](BusinessDirectory.md). Sadrže podatke o bankovnim računima koji se kasnije koriste u dokumentima, kao što su izlazni računi ili plaćanja.
+**Bankovni računi** pripadaju određenom **kupcu** ili **dobavljaču** te se njima upravlja unutar [**Poslovnog imenika**](PoslovniImenik.md). Sadrže podatke o bankovnim računima koji se kasnije koriste u dokumentima, kao što su izlazni računi ili plaćanja.
 
-Svaki bankovni račun povezan je s **Bankom**, koja se odabire iz šifrarnika [**Banke**](Banks.md).
+Svaki bankovni račun povezan je s **Bankom**, koja se odabire iz šifrarnika [**Banke**](Banke.md).
 
 Za otvaranje **Bankovnih računa** kliknite karticu ispod odgovarajućeg zapisa u **Poslovnom imeniku**. Otvorit će se popis svih bankovnih računa povezanih s odabranom tvrtkom ili fizičkom osobom.
 
@@ -18,7 +18,7 @@ Za otvaranje **Bankovnih računa** kliknite karticu ispod odgovarajućeg zapisa 
 
 | Polje | Opis |
 |-------|------|
-| [**Banka**](Banks.md) | Banka u kojoj je otvoren račun. Odabire se iz šifrarnika **Banke** (obavezno). |
+| [**Banka**](Banke.md) | Banka u kojoj je otvoren račun. Odabire se iz šifrarnika **Banke** (obavezno). |
 | **IBAN** | Međunarodni broj bankovnog računa (obavezno). |
 | **Aktivan** | Označava može li se račun koristiti u dokumentima. |
 | **Upotrijebi masku** | Prikazuje IBAN u formatiranom obliku (s razmacima i grupiranjem) bez promjene njegove vrijednosti. |
@@ -37,7 +37,7 @@ Pomoću filtara na lijevoj strani (**Omogućeno / Onemogućeno**) možete prikaz
 
 Za dodavanje novog bankovnog računa:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md) kako biste otvorili obrazac za unos novog bankovnog računa.
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) kako biste otvorili obrazac za unos novog bankovnog računa.
 
    ![Dodavanje bankovnog računa](../Images/BankAccountsNewHR.png)
 

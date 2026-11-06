@@ -34,7 +34,7 @@ Za ažuriranje zaliha:
 Kako bi se maloprodajni račun mogao fiskalizirati, moraju biti ispunjeni sljedeći uvjeti:
 
 1. **Konfiguracija osobe:** Osoba koja kreira račun mora imati upisan **OIB** u svom zapisu [**Resurs**](../../Resursi/Upravljanje/Resursi.md).
-2. **Konfiguracija sustava:** Sustav mora biti konfiguriran za fiskalizaciju te moraju biti definirane potrebne [**postavke fiskalizacije**](../../Sustav/Postavke/ProdajaMaloprodajaSISettings.md).
+2. **Konfiguracija sustava:** Sustav mora biti konfiguriran za fiskalizaciju te moraju biti definirane potrebne [**postavke fiskalizacije**](../../Sustav/Postavke/SalesRetailsSISettings.md).
 3. **Konfiguracija blagajne:** Blagajna koja se koristi za transakciju mora biti konfigurirana. Ovu konfiguraciju tijekom implementacije postavlja **Tom PIT** i korisnik je ne može mijenjati. Blagajne se definiraju u dokumentu **[Mjesta troška](../../../Zajednicko/Upravljanje/MjestaTroska.md)**.
 
 Kada su svi uvjeti ispunjeni, maloprodajni račun može se fiskalizirati prilikom objave, čime se osigurava usklađenost s poreznim propisima za maloprodaju.

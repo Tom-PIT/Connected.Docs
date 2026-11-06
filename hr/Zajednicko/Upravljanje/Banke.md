@@ -5,14 +5,14 @@
 
 # Banke
 
-Šifrarnik **Banke** sadrži financijske institucije koje se mogu koristiti u dokumentima kao što su izlazni računi, plaćanja i bankovni računi organizacije. Svaki zapis sadrži naziv banke, BIC oznaku i državu, što sustavu omogućuje povezivanje s [**Poslovnim imenikom**](BusinessDirectory.md) i ispravno korištenje bankovnih podataka u cijelom sustavu.
+Šifrarnik **Banke** sadrži financijske institucije koje se mogu koristiti u dokumentima kao što su izlazni računi, plaćanja i bankovni računi organizacije. Svaki zapis sadrži naziv banke, BIC oznaku i državu, što sustavu omogućuje povezivanje s [**Poslovnim imenikom**](PoslovniImenik.md) i ispravno korištenje bankovnih podataka u cijelom sustavu.
 
 Za pristup ovom šifrarniku idite na **Prodaja / Upravljanje / Banke** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
 > [!NOTE]
 > **Preduvjeti**
 >
-> Prije upravljanja zapisima banaka provjerite je li šifrarnik [**Države**](../../Common/Management/Countries.md) pravilno konfiguriran.
+> Prije upravljanja zapisima banaka provjerite je li šifrarnik [**Države**](Drzave.md) pravilno konfiguriran.
 
 ## Shema
 
@@ -20,7 +20,7 @@ Za pristup ovom šifrarniku idite na **Prodaja / Upravljanje / Banke** u [naviga
 |-------|------|
 | **Ime** | Puni naziv banke (obavezno). |
 | **BIC** | Identifikacijska oznaka banke koja se koristi u međunarodnim transakcijama (obavezno). |
-| [**Država**](../../Common/Management/Countries.md) | Država u kojoj je banka registrirana (obavezno). |
+| [**Država**](Drzave.md) | Država u kojoj je banka registrirana (obavezno). |
 | **Aktivna** | Označava može li se banka koristiti u dokumentima (zadano odabrano). |
 
 ## Upravljanje
@@ -29,7 +29,7 @@ Na ovom zaslonu možete pregledavati, dodavati i uređivati banke koje se korist
 
 ### Popis banaka
 
-Popis prikazuje sve evidentirane banke zajedno s njihovim **nazivom**, **BIC** oznakom i [**državom**](../../Common/Management/Countries.md).
+Popis prikazuje sve evidentirane banke zajedno s njihovim **nazivom**, **BIC** oznakom i [**državom**](Drzave.md).
 
 ![Banke](../Images/BanksHR.png "Popis banaka")
 
@@ -46,7 +46,7 @@ Polje **Pretraživanje** omogućuje brzo pronalaženje banaka prema nazivu ili B
 
 Za dodavanje nove banke:
 
-1. Kliknite [akcijski gumb](../../Common/UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi. Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
 3. Kliknite **Dodaj** za spremanje nove banke ili **Poništi** za povratak na popis bez spremanja.
 

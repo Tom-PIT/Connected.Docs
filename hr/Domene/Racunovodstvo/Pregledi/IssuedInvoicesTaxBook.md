@@ -50,4 +50,4 @@ Available actions:
 
 - **Export to PDF**
 
-For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
+For details about menu actions, see [**Menu actions**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).

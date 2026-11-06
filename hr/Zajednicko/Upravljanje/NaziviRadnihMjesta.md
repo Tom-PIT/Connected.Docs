@@ -5,9 +5,9 @@
 
 # Nazivi radnih mjesta
 
-Šifrarnik **Nazivi radnih mjesta** dio je modula **Korisnička podrška** i definira radna mjesta koja se mogu dodijeliti [kontaktima](Contacts.md) u [**Poslovnom imeniku**](BusinessDirectory.md). Omogućuje kategorizaciju kontakata prema njihovoj ulozi, primjerice *Account Manager*, *Procurement Manager* ili *Director*.
+Šifrarnik **Nazivi radnih mjesta** dio je modula **Korisnička podrška** i definira radna mjesta koja se mogu dodijeliti [kontaktima](Kontakti.md) u [**Poslovnom imeniku**](PoslovniImenik.md). Omogućuje kategorizaciju kontakata prema njihovoj ulozi, primjerice *Account Manager*, *Procurement Manager* ili *Director*.
 
-Za pristup ovom šifrarniku idite na **Korisnička podrška / Upravljanje / Nazivi radnih mjesta** u [navigaciji](../UI/Navigation.md). :contentReference[oaicite:0]{index=0}
+Za pristup ovom šifrarniku idite na **Korisnička podrška / Upravljanje / Nazivi radnih mjesta** u [navigaciji](../UI/Navigacija.md). :contentReference[oaicite:0]{index=0}
 
 ## Shema
 
@@ -32,7 +32,7 @@ Za prikaz aktivnih ili neaktivnih naziva radnih mjesta koristite filtre **Aktiva
 
 Za dodavanje novog naziva radnog mjesta:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja.
 3. Kliknite **Dodaj** za spremanje novog naziva radnog mjesta ili **Poništi** za odustajanje.
 

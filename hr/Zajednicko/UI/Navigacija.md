@@ -23,7 +23,7 @@ Navigacijska putanja prikazuje vašu trenutnu lokaciju u sustavu i omogućuje po
 
 Na mnogim zaslonima u donjem desnom kutu prikazuje se i **gumb sa strelicom za povratak**, kojim se možete vratiti na prethodni zaslon.
 
-![Gumb za povratak](../Images/NavigationArrowButtonHR.png)
+![Gumb za povratak](../Images/NavigationArrowButton.png)
 
 ### Domene
 
@@ -58,7 +58,7 @@ Dokumenti predstavljaju osnovu svakodnevnog poslovanja. Koriste se za stvaranje,
 - **[Izdatnica](../../Domene/Logistika/Dokumenti/Izdatnica.md)**
 - **[Međuskladišni promet](../../Domene/Logistika/Dokumenti/MeduskladisniPromet.md)**
 - **[Inventure](../../Domene/Logistika/Dokumenti/Inventure.md)**
-- **[Narudžbenice dobavljača](../../Domene/Nabava/Dokumenti/NarudzbeniceDobavljaca.md)**
+- **[Narudžbenice dobavljača](../../Domene/Nabava/Dokumenti/Narudzbenice.md)**
 - **[Izvedba](../../Domene/Proizvodnja/Dokumenti/Izvedba.md)**
 - **[Proizvodni nalozi](../../Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md)**
 - **[Zahtjevi](../../Domene/Proizvodnja/Dokumenti/Zahtjevi.md)**
@@ -86,9 +86,9 @@ Pogledi obično uključuju:
 - **[Izvješća o otpremnicama](../../Domene/Prodaja/Pogledi/IzvjescaOOtpremnicama.md)**
 - **[Kartice tvrtke](../../Domene/Prodaja/Pogledi/KarticeTvrtke.md)**
 - **[Pogled na zalihe prema lokacijama](../../Domene/Logistika/Pogledi/PogledNaZalihePremaLokacijama.md)**
-- **[Ključni pokazatelji uspješnosti proizvodnje](../../Domene/Proizvodnja/Analitika/KlucniPokazateljiUspjesnostiProizvodnje.md)**
-- **[Sažetak gubitka (škarta)](../../Domene/Proizvodnja/Analitika/SazetakGubitkaSkarta.md)**
-- **[Sažetak zastoja](../../Domene/Proizvodnja/Analitika/SazetakZastoja.md)**
+- **[Ključni pokazatelji uspješnosti proizvodnje](../../Domene/Proizvodnja/Analiza/KljucniPokazateljiProizvodnje.md)**
+- **[Sažetak gubitka (škarta)](../../Domene/Proizvodnja/Analiza/SazetakGubitka.md)**
+- **[Sažetak zastoja](../../Domene/Proizvodnja/Analiza/SazetakZastoja.md)**
 
 Primjer – **Prodaja / Pogledi**:
 

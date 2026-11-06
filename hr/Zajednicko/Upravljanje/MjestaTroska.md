@@ -32,7 +32,7 @@ Polje **Pretraživanje** omogućuje filtriranje mjesta troška prema nazivu ili 
 
 Za dodavanje novog mjesta troška:
 
-1. Kliknite [akcijski gumb](../UI/ActionButton.md).
+1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
 2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi. Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
 3. Kliknite **Dodaj** za spremanje novog mjesta troška ili **Poništi** za povratak na popis bez spremanja.
 
