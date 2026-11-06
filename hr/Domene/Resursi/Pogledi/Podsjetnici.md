@@ -21,7 +21,7 @@ Sljedeća polja koriste se pri stvaranju ili uređivanju podsjetnika:
 | Polje | Opis |
 |------|------|
 | **Datum podsjetnika** | Ciljni datum i vrijeme na koji se podsjetnik odnosi (na primjer rok, datum isteka ili planirani događaj). |
-| **Kategorija** | Vrsta podsjetnika, odabrana iz unaprijed definiranih [kategorija podsjetnika](../Upravljanje/ReminderCategories.md). |
+| **Kategorija** | Vrsta podsjetnika, odabrana iz unaprijed definiranih [kategorija podsjetnika](../Upravljanje/KategorijePodsjetnika.md). |
 | **Korisnici** | Korisnici koji će primiti obavijest o podsjetniku. |
 | **Mjeseci, Dani, Sati, Minute** | Vremenski pomak koji određuje **koliko prije datuma podsjetnika** se obavijest šalje. |
 

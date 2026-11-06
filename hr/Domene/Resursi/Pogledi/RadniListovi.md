@@ -15,7 +15,7 @@ Do ovog pogleda dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacij
 
 | Polje | Opis |
 |------|------|
-| **[Radni list](../Upravljanje/Timesheets.md)** | Određuje vrstu rada koji se planira. |
+| **[Radni list](../Upravljanje/RadniListoviUpravljanje.md)** | Određuje vrstu rada koji se planira. |
 | **Uzorak izvršenja** | Određuje hoće li se radni list izvršiti **Jednom** ili **Više puta**. |
 | **Početak** | Početno vrijeme planiranog rada. |
 | **Kraj** | Završno vrijeme planiranog rada. |

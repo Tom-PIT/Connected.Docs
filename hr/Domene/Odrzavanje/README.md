@@ -45,7 +45,7 @@ Konfigurirajte zajedničke strukture koje koristi održavanje. Domena Održavanj
 
 - **[Procesi](../Proizvodnja/Upravljanje/Procesi.md)** — definiranje koraka procesa i verzija koje se koriste za izvršavanje operacija održavanja.
 - **[Organizacijske jedinice](../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)** — definiranje operativnih jedinica (npr. odjeli održavanja, servisne ekipe).
-- **[Resursi](../Resursi/Upravljanje/Resources.md)** — upravljanje ljudskim i neljudskim resursima (tehničari, alati, oprema).
+- **[Resursi](../Resursi/Upravljanje/Resursi.md)** — upravljanje ljudskim i neljudskim resursima (tehničari, alati, oprema).
 - **[Kontrolni popisi](../Kvaliteta/Upravljanje/KontrolniPopisi.md)** — izrada i kategoriziranje kontrolnih popisa koji se koriste tijekom operacija održavanja.
 - **[Konfiguracija održavanja](Upravljanje/KonfiguracijaOdrzavanja.md)** — postavke numeriranja dokumenata naloga za održavanje: model numeriranja (zasebno za svaku godinu ili jedan globalni niz) i oblik šifre dokumenta.
 

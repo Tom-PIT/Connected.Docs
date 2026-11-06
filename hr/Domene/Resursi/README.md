@@ -72,22 +72,22 @@ Odjeljak **Upravljanje** sadrži ekrane za konfiguraciju i glavne podatke potreb
 
 Dostupne konfiguracije i glavni podaci uključuju:
 
-- **[Tipovi raspoloživosti](Upravljanje/AvailabilityPlanTypes.md)**
+- **[Tipovi raspoloživosti](Upravljanje/TipoviRaspolozivosti.md)**
 - **[Planovi dostupnosti](Pogledi/PlanoviDostupnosti.md)**
-- **[Matrice kompetencija](Upravljanje/CompetenceMatrixes.md)**
-- **[Konfiguracija](Upravljanje/ResourcesConfiguration.md)**
-- **[Trošak resursa](Upravljanje/ResourcesCosts.md)**
+- **[Matrice kompetencija](Upravljanje/MatriceKompetencija.md)**
+- **[Konfiguracija](Upravljanje/Konfiguracija.md)**
+- **[Trošak resursa](Upravljanje/TroskoviResursa.md)**
 - **[Valute](../../Zajednicko/Upravljanje/Valute.md)**
-- **[Odredišta](Upravljanje/TravelDestinations.md)**
-- **[Razlozi putovanja](Upravljanje/TravelOrderReasons.md)**
-- **[Tipovi rada](Upravljanje/EffortTypes.md)**
+- **[Odredišta](Upravljanje/Odredista.md)**
+- **[Razlozi putovanja](Upravljanje/RazloziPutovanja.md)**
+- **[Tipovi rada](Upravljanje/TipoviRada.md)**
 - **[Sistematizacija radnih mjesta](../Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta.md)**
 - **[Organizacijske jedinice](../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)**
-- **[Kategorije podsjetnika](Upravljanje/ReminderCategories.md)**
-- **[Resursi](Upravljanje/Resources.md)**
-- **[Vrsta bolovanja](Upravljanje/SickLeaveTypes.md)**
-- **[Dnevnice](Upravljanje/SubsistenceAllowances.md)**
-- **[Radni listovi](Upravljanje/Timesheets.md)**
+- **[Kategorije podsjetnika](Upravljanje/KategorijePodsjetnika.md)**
+- **[Resursi](Upravljanje/Resursi.md)**
+- **[Vrsta bolovanja](Upravljanje/VrstaBolovanja.md)**
+- **[Dnevnice](Upravljanje/Dnevnice.md)**
+- **[Radni listovi](Pogledi/RadniListovi.md)**
 
 Ti elementi određuju kako su resursi strukturirani, kategorizirani, troškovno vrednovani i izvještavani u sustavu.
 
@@ -99,7 +99,7 @@ Odjeljak **Analiza** pruža uvid u iskorištenost radne snage i operativnu učin
 
 Dostupni analitički pogledi:
 
-- **[Analiza radnog vremena](Analiza/WorkTimeAnalysis.md)** – analiza odrađenih sati, odsutnosti, obrazaca dostupnosti i trendova iskorištenosti.
+- **[Analiza radnog vremena](Analiza/AnalizaRadnogZadatka.md)** – analiza odrađenih sati, odsutnosti, obrazaca dostupnosti i trendova iskorištenosti.
 
 Ekrani analize su **samo za čitanje** i podržavaju planiranje, optimizaciju i donošenje odluka.
 

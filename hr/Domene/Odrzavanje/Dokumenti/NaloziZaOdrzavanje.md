@@ -34,7 +34,7 @@ flowchart LR
 > - barem jedan [**proces održavanja**](../../Proizvodnja/Upravljanje/Procesi.md) s aktivnom verzijom
 > - definicije opreme
 > - dodijeljene [**organizacijske jedinice**](../../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md)
-> - dodatne definicije, kao što su [**resursi**](../../Resursi/Upravljanje/Resources.md), [**kontrolni popisi**](../../Kvaliteta/Upravljanje/KontrolniPopisi.md) i [**mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md), ovisno o vašem tijeku rada održavanja
+> - dodatne definicije, kao što su [**resursi**](../../Resursi/Upravljanje/Resursi.md), [**kontrolni popisi**](../../Kvaliteta/Upravljanje/KontrolniPopisi.md) i [**mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md), ovisno o vašem tijeku rada održavanja
 
 Za pristup nalozima za održavanje otvorite **Održavanje / Nalozi za održavanje** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 

@@ -18,9 +18,9 @@ Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija
 | **Datum dokumenta** | Datum putnog naloga. |
 | **Odlazak** | Datum i vrijeme odlaska. |
 | **Dolazak** | Datum i vrijeme dolaska. |
-| **Razlog** | Razlog putovanja iz popisa [**Razlozi putovanja**](../Upravljanje/TravelOrderReasons.md). |
+| **Razlog** | Razlog putovanja iz popisa [**Razlozi putovanja**](../Upravljanje/RazloziPutovanja.md). |
 | **Prijevozno sredstvo** | Prijevoz koji se koristi za putovanje (na primjer privatno vozilo). |
-| **Vozilo** | Vozilo kao [resurs](../Upravljanje/Resources.md); dostupni su samo neljudski resursi označeni oznakom `vehicle`. |
+| **Vozilo** | Vozilo kao [resurs](../Upravljanje/Resursi.md); dostupni su samo neljudski resursi označeni oznakom `vehicle`. |
 | **Tvrtka** | Tvrtka odabrana iz poslovnog imenika. |
 | **Lokacija** | Odredište putovanja. |
 | **Mjesto troška** | [Mjesto troška](../../../Zajednicko/Upravljanje/MjestaTroska.md) dodijeljeno putnom nalogu. |
@@ -31,7 +31,7 @@ Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija
 
 | Polje | Opis |
 |------|------|
-| **Destination** | Odredište iz popisa [**Odredišta**](../Upravljanje/TravelDestinations.md). |
+| **Destination** | Odredište iz popisa [**Odredišta**](../Upravljanje/Odredista.md). |
 | **Date** | Datum putovanja. |
 | **Price (per unit)** | Cijena po jedinici udaljenosti (na primjer €/km). |
 | **Distance** | Udaljenost putovanja. |
@@ -45,7 +45,7 @@ Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija
 |------|------|
 | **Start date** | Datum i vrijeme početka razdoblja dnevnice. |
 | **End date** | Datum i vrijeme završetka razdoblja dnevnice. |
-| [**Dnevnica**](../Upravljanje/SubsistenceAllowances.md) | Dnevnica iz popisa **Dnevnice**. |
+| [**Dnevnica**](../Upravljanje/Dnevnice.md) | Dnevnica iz popisa **Dnevnice**. |
 | **Include breakfast** | Uključuje doručak u izračun. |
 | **Include lunch** | Uključuje ručak u izračun. |
 | **Include dinner** | Uključuje večeru u izračun. |
@@ -98,7 +98,7 @@ Svaki putni nalog može sadržavati **kilometražu**, **dnevnice** i **troškove
 
 1. Proširite odjeljak **Stavke** i odaberite karticu **Kilometraže**.
 2. Kliknite **Dodaj kilometražu**.
-3. Odaberite odredište iz unaprijed definiranih [**Odredišta**](../Upravljanje/TravelDestinations.md). Ukupan iznos izračunava se automatski na temelju udaljenosti, cijene po jedinici i oznake povratnog putovanja.
+3. Odaberite odredište iz unaprijed definiranih [**Odredišta**](../Upravljanje/Odredista.md). Ukupan iznos izračunava se automatski na temelju udaljenosti, cijene po jedinici i oznake povratnog putovanja.
 
 ![Kilometraža putnog naloga](../Images/TravelOrdersDetailsMileageHR.png "Kilometraža putnog naloga")
 
@@ -106,7 +106,7 @@ Svaki putni nalog može sadržavati **kilometražu**, **dnevnice** i **troškove
 
 1. Proširite odjeljak **Stavke** i odaberite karticu **Dnevnice**.
 2. Kliknite **Dodaj dnevnicu**.
-3. Odaberite dnevnicu iz popisa [**Dnevnice**](../Upravljanje/SubsistenceAllowances.md). Sustav automatski izračunava smanjeni, polovični i puni iznos dnevnice prema odabranom razdoblju i uključenim obrocima.
+3. Odaberite dnevnicu iz popisa [**Dnevnice**](../Upravljanje/Dnevnice.md). Sustav automatski izračunava smanjeni, polovični i puni iznos dnevnice prema odabranom razdoblju i uključenim obrocima.
 
 ![Dnevnice putnog naloga](../Images/TravelOrdersDetailsAllowancesHR.png "Dnevnice putnog naloga")
 

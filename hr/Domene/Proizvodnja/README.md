@@ -90,7 +90,7 @@ Dostupne postavke i šifrarnici:
 - **[Organizacijske jedinice](Upravljanje/OrganizacijskeJedinice.md)** – hijerarhijske proizvodne jedinice za planiranje i analitiku.
 - **[Procesi](Upravljanje/Procesi.md)** i **[Operacije](Upravljanje/Operacije.md)** – definicije proizvodnih procesa, verzija, operacija, unosa i izlaza.
 - **[Pravilnici za operacije](Upravljanje/PravilniciZaOperacije.md)** – predlošci za protokole operacija korak po korak.
-- **[Resursi](../Resursi/Upravljanje/Resources.md)** – ljudski i fizički resursi koji se koriste u proizvodnji.
+- **[Resursi](../Resursi/Upravljanje/Resursi.md)** – ljudski i fizički resursi koji se koriste u proizvodnji.
 - **[Ljudski resursi](Upravljanje/LjudskiResursi.md)** – osobe i uloge dodijeljene proizvodnim operacijama.
 - **[Fizički resursi](Upravljanje/FizickiResursi.md)** – strojevi, alati i oprema koji se koriste u proizvodnim operacijama.
 - **[Unosi](Upravljanje/Unosi.md)** – ulazni materijali i definicije potrošnje za operacije.

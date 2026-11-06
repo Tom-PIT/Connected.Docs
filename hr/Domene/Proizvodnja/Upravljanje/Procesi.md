@@ -137,8 +137,8 @@ Svaka verzija prikazuje stupac **Cost** sa sljedećim opcijama:
 Klikom na **Calculate** sustav procjenjuje trošak proizvodnje jednog proizvoda koristeći odabranu verziju procesa. U izračun su uključeni:
 
 - **Cijene materijala** definirane u cjenicima [**Materijala dobavljača**](../../Nabava/Upravljanje/SupplierMaterials.md)
-- **Ljudski resursi** prema cijenama definiranim u [**Troškovima resursa**](../../Resursi/Upravljanje/ResourcesCosts.md)
-- **Fizički resursi** (strojevi i radne stanice) prema [**Troškovima resursa**](../../Resursi/Upravljanje/ResourcesCosts.md)
+- **Ljudski resursi** prema cijenama definiranim u [**Troškovima resursa**](../../Resursi/Upravljanje/TroskoviResursa.md)
+- **Fizički resursi** (strojevi i radne stanice) prema [**Troškovima resursa**](../../Resursi/Upravljanje/TroskoviResursa.md)
 - **Dodatni troškovi** definirani u šifrarniku [**Troškovi**](../../Nabava/Upravljanje/Troskovi.md)
 
 Ako se verzija promijeni (primjerice operacije, materijali ili resursi), preporučuje se ponovno pokrenuti izračun.

@@ -24,7 +24,7 @@ flowchart LR
 > Prije izrade novog proizvodnog naloga provjerite je li konfigurirano sljedeće:
 > - barem jedan **[Proces](../Upravljanje/Procesi.md)** s aktivnom **verzijom**
 > - dodijeljene **[Organizacijske jedinice](../Upravljanje/OrganizacijskeJedinice.md)** za proizvodnju  
-> - po potrebi dodatne definicije, kao što su **[resursi](../../Resursi/Upravljanje/Resources.md)**, **[oznake zastoja](../Upravljanje/OznakeZastoja.md)**, **[oznake klasifikacije gubitka](../Upravljanje/OznakeKlasifikacijeGubitka.md)** i **[kontrolni popisi](../../Kvaliteta/Upravljanje/KontrolniPopisi.md)**, ovisno o vašem tijeku rada (preporučeno)
+> - po potrebi dodatne definicije, kao što su **[resursi](../../Resursi/Upravljanje/Resursi.md)**, **[oznake zastoja](../Upravljanje/OznakeZastoja.md)**, **[oznake klasifikacije gubitka](../Upravljanje/OznakeKlasifikacijeGubitka.md)** i **[kontrolni popisi](../../Kvaliteta/Upravljanje/KontrolniPopisi.md)**, ovisno o vašem tijeku rada (preporučeno)
 
 
 > [!TIP]

@@ -118,7 +118,7 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 - [**Konfiguracija proizvodnje**](Domene/Proizvodnja/Upravljanje/KonfiguracijaProizvodnje.md)
 - [**Pravilnici za operacije**](Domene/Proizvodnja/Upravljanje/PravilniciZaOperacije.md)
 - [**Kontrolni popisi kvalitete**](Domene/Proizvodnja/Upravljanje/KontrolniPopisiKvalitete.md)
-- [**Resursi**](Domene/Resursi/Upravljanje/Resources.md)
+- [**Resursi**](Domene/Resursi/Upravljanje/Resursi.md)
 - [**Skladišne lokacije**](Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md)
 
 ## Projekti
@@ -132,20 +132,20 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 
 ## Resursi
 
-- [**Vrste planova raspoloživosti**](Domene/Resursi/Upravljanje/AvailabilityPlanTypes.md)
-- [**Matrice kompetencija**](Domene/Resursi/Upravljanje/CompetenceMatrixes.md)
-- [**Konfiguracija**](Domene/Resursi/Upravljanje/ResourcesConfiguration.md)
+- [**Vrste planova raspoloživosti**](Domene/Resursi/Upravljanje/TipoviRaspolozivosti.md)
+- [**Matrice kompetencija**](Domene/Resursi/Upravljanje/MatriceKompetencija.md)
+- [**Konfiguracija**](Domene/Resursi/Upravljanje/Konfiguracija.md)
 - [**Valute**](Zajednicko/Upravljanje/Valute.md)
 - [**Mjesta troška**](Zajednicko/Upravljanje/MjestaTroska.md)
-- [**Vrste rada**](Domene/Resursi/Upravljanje/EffortTypes.md)
-- [**Kategorije podsjetnika**](Domene/Resursi/Upravljanje/ReminderCategories.md)
-- [**Resursi**](Domene/Resursi/Upravljanje/Resources.md)
-- [**Troškovi resursa**](Domene/Resursi/Upravljanje/ResourcesCosts.md)
-- [**Vrste bolovanja**](Domene/Resursi/Upravljanje/SickLeaveTypes.md)
-- [**Dnevnice**](Domene/Resursi/Upravljanje/SubsistenceAllowances.md)
-- [**Evidencija radnog vremena**](Domene/Resursi/Upravljanje/Timesheets.md)
-- [**Odredišta putovanja**](Domene/Resursi/Upravljanje/TravelDestinations.md)
-- [**Razlozi putnih naloga**](Domene/Resursi/Upravljanje/TravelOrderReasons.md)
+- [**Vrste rada**](Domene/Resursi/Upravljanje/TipoviRada.md)
+- [**Kategorije podsjetnika**](Domene/Resursi/Upravljanje/KategorijePodsjetnika.md)
+- [**Resursi**](Domene/Resursi/Upravljanje/Resursi.md)
+- [**Troškovi resursa**](Domene/Resursi/Upravljanje/TroskoviResursa.md)
+- [**Vrste bolovanja**](Domene/Resursi/Upravljanje/VrstaBolovanja.md)
+- [**Dnevnice**](Domene/Resursi/Upravljanje/Dnevnice.md)
+- [**Evidencija radnog vremena**](Domene/Resursi/Pogledi/RadniListovi.md)
+- [**Odredišta putovanja**](Domene/Resursi/Upravljanje/Odredista.md)
+- [**Razlozi putnih naloga**](Domene/Resursi/Upravljanje/RazloziPutovanja.md)
 
 ## Prodaja
 
