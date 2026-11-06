@@ -1,91 +1,91 @@
 <!-- app_route: /sitemap/customers -->
-<!-- app_label: Customers Domain -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Customers/README.md -->
-<!-- canonical_source_title: Customers Domain -->
+<!-- app_label: Korisnička podrška -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/KorisnickaPodrska/README.md -->
+<!-- canonical_source_title: Korisnička podrška -->
 
-# Customers
+# Korisnička podrška
 
-The **Customers** domain provides tools for managing customer interactions, support requests, and service-related communication. It enables organizations to track incoming requests, resolve issues, monitor service levels, and maintain structured customer-related data.
+Domena **Korisnička podrška** pruža alate za upravljanje interakcijama s kupcima, zahtjevima za podršku i komunikacijom vezanom uz usluge. Omogućuje organizacijama praćenje dolaznih zahtjeva, rješavanje problema, praćenje razina usluge i održavanje strukturiranih podataka o kupcima.
 
-Where the **[Sales](../Prodaja/README.md)** domain focuses on commercial transactions, the Customers domain focuses on **post-sale communication, issue resolution, and customer assistance**.
+Dok se domena [**Prodaja**](../Prodaja/README.md) bavi komercijalnim transakcijama, domena Korisnička podrška bavi se **komunikacijom nakon prodaje, rješavanjem problema i pomoći kupcima**.
 
-To access this domain, navigate to **Customers** from the main sitemap.
+Do ove domene dolazite tako da u glavnoj navigaciji odaberete **Korisnička podrška**.
 
-![Customers Domain](Images/CustomerSupportDomainSitemap.png "Customers Domain")
+![Domena Korisnička podrška](Images/CustomerSupportDomainSitemapHR.png "Domena Korisnička podrška")
 
-> [!NOTE]  
-> The available domains and features depend on the company configuration and enabled modules.
+> [!NOTE]
+> Dostupne domene i funkcije ovise o konfiguraciji tvrtke i uključenim modulima.
 
-## What is included in the Customers domain?
+## Što je uključeno u domenu Korisnička podrška?
 
-The domain is organized into the following functional areas:
+Domena je organizirana u sljedeća funkcionalna područja:
 
-- **[Visitors](#visitors)** – management of external users and customer contacts  
-- **[Tickets](#tickets)** – handling of support requests and service issues  
-- **[Views](#views)** – analytical and summary views related to customer support  
-- **[Management](#management)** – configuration and master data for customer support processes  
+- **[Posjetitelji](#posjetitelji)** – upravljanje vanjskim korisnicima i kontaktima kupaca
+- **[Prijave](#prijave)** – obrada zahtjeva za podršku i problema s uslugom
+- **[Pregledi](#pregledi)** – analitički i sažeti pregledi vezani uz korisničku podršku
+- **[Upravljanje](#upravljanje)** – konfiguracija i matični podaci za procese korisničke podrške
 
-![CustomersDomain Overview](Images/CustomerSupportDomainOverview.png "CustomersDomain Overview")
+![Pregled domene Korisnička podrška](Images/CustomerSupportDomainOverviewHR.png "Pregled domene Korisnička podrška")
 
-## Visitors
+## Posjetitelji
 
-The **Visitors** section focuses on customers and partners physical visits to company locations.
+Odjeljak **Posjetitelji** odnosi se na fizičke posjete kupaca i partnera lokacijama tvrtke.
 
-The [**Visitors management**](Posjetitelji/VisitorsManagement.md) screen records physical visits to company locations with visitor details, date/time, status (Announced, On location, Completed, Cancelled), and target location.
+Na ekranu [**Upravljanje posjetiteljima**](Posjetitelji/UpravljanjePosjetiteljima.md) evidentiraju se fizičke posjete lokacijama tvrtke s podacima o posjetitelju, datumu i vremenu, statusu (**Najavljeno**, **Na lokaciji**, **Dovršeno**, **Otkazani**) i ciljnoj lokaciji.
 
-![Customer Support Domain Visitors](Images/CustomerSupportDomainVisitors.png "Customer Support Domain Visitors")
+![Posjetitelji](Images/CustomerSupportDomainVisitorsHR.png "Posjetitelji")
 
-## Tickets
+## Prijave
 
-The **Tickets** section contains all support-related records used to track customer requests and service issues.
+Odjeljak **Prijave** sadrži sve zapise vezane uz podršku koji se koriste za praćenje zahtjeva kupaca i problema s uslugom.
 
-It includes screens for:
+Obuhvaća sljedeće ekrane:
 
-- **[Tickets](Prijave/Tickets.md)** – active and open support requests  
-- **[Resolved tickets](Prijave/ResolvedTickets.md)** – completed and closed support cases  
-- **[SLA tickets](Prijave/SLATickets.md)** – tickets monitored against defined service level agreements  
+- **[Prijave](Prijave/Prijave.md)** – aktivni i otvoreni zahtjevi za podršku
+- **[Riješene prijave](Prijave/RijesenePrijave.md)** – dovršeni i zatvoreni slučajevi podrške
+- **[SLA prijave](Prijave/SLAPrijave.md)** – prijave praćene u odnosu na definirane ugovore o razini usluge (SLA)
 
-These screens represent the core operational area of the Customers domain, allowing support agents to follow tickets from creation through resolution while maintaining visibility of response and resolution times.
+Ti ekrani predstavljaju glavno operativno područje domene Korisnička podrška. Omogućuju agentima podrške praćenje prijava od nastanka do rješenja uz uvid u vremena odgovora i rješavanja.
 
-## Views
+## Pregledi
 
-The **Views** section provides read-only screens that present customer-related information in a structured and aggregated form.
+Odjeljak **Pregledi** sadrži ekrane samo za čitanje koji podatke o kupcima prikazuju u strukturiranom i sažetom obliku.
 
-![Customers Views](Images/CustomerSupportDomainCompanyCards.png "CustomersViews")
+![Pregledi korisničke podrške](Images/CustomerSupportDomainCompanyCardsHR.png "Pregledi korisničke podrške")
 
-Available views include:
+Dostupni pregledi uključuju:
 
-- **[Company cards](../Prodaja/Pogledi/KarticeTvrtke.md)** – overview of customers and their related activity across the system, including support-related information
+- **[Kartice tvrtke](../Prodaja/Pogledi/KarticeTvrtke.md)** – pregled kupaca i njihove povezane aktivnosti u cijelom sustavu, uključujući podatke vezane uz podršku
 
-Views do **not** create or modify data. They are intended for analysis, navigation, and decision support.
+Pregledi **ne** stvaraju niti mijenjaju podatke. Namijenjeni su analizi, navigaciji i podršci odlučivanju.
 
-## Management
+## Upravljanje
 
-The **Management** section contains configuration screens and code lists required to support customer service processes.
+Odjeljak **Upravljanje** sadrži ekrane za konfiguraciju i šifarnike potrebne za procese korisničke podrške.
 
-![Customers Management](Images/CustomerSupportDomainManagement.png "CustomersManagement")
+![Upravljanje korisničkom podrškom](Images/CustomerSupportDomainManagementHR.png "Upravljanje korisničkom podrškom")
 
-Available configuration screens include:
+Dostupni ekrani za konfiguraciju uključuju:
 
-- **[Notification settings](Upravljanje/NotificationsSettings.md)** – personalization of ticket-related notifications per desk  
-- **[Desks](Upravljanje/Desks.md)** – definition of support desks and service channels  
-- **[Business directory](../../Zajednicko/Upravljanje/PoslovniImenik.md)** – shared directory of companies and contacts used across domains  
-- **[Institutional sectors](Upravljanje/InstitutionalSectors.md)** – classification of customers by sector  
-- **[Job titles](../../Zajednicko/Upravljanje/NaziviRadnihMjesta.md)** – role definitions associated with customer contacts and users  
+- **[Postavke obavijesti](Upravljanje/PostavkeObavijesti.md)** – prilagodba obavijesti o prijavama po područjima
+- **[Područja](Upravljanje/Podrucja.md)** – definiranje područja podrške i kanala usluge
+- **[Poslovni imenik](../../Zajednicko/Upravljanje/PoslovniImenik.md)** – zajednički imenik tvrtki i kontakata koji se koristi u svim domenama
+- **[Institucionalni sektori](Upravljanje/InstitucionalniSektori.md)** – razvrstavanje kupaca po sektoru
+- **[Nazivi radnih mjesta](../../Zajednicko/Upravljanje/NaziviRadnihMjesta.md)** – definicije uloga povezane s kontaktima kupaca i korisnicima
 
-These elements define how customer support is structured and how users interact with tickets and notifications.
+Ti elementi određuju kako je korisnička podrška organizirana i kako korisnici komuniciraju s prijavama i obavijestima.
 
 > [!TIP]
-> See all management entries in the **[Management Index](../../IndeksUpravljanja.md)**.
+> Sve stavke upravljanja pogledajte u **[Indeksu upravljanja](../../IndeksUpravljanja.md)**.
 
-## Customers and other domains
+## Korisnička podrška i ostale domene
 
-The **Customers** domain integrates with several other domains:
+Domena **Korisnička podrška** povezana je s nekoliko drugih domena:
 
-| Area | Interaction |
+| Područje | Povezanost |
 |------|-------------|
-| [**Sales**](../Prodaja/README.md) | Customer and company data shared with commercial processes |
-| [**Projects**](../Projekti/README.md) | Tickets may relate to ongoing customer projects |
-| [**Maintenance**](../Odrzavanje/README.md) | Support tickets can be linked to maintenance orders or issues |
-| [**Resources**](../Resursi/README.md) | Support workload and responsibility distribution |
-| [**Knowledge**](../Znanje/README.md) | Documentation and knowledge base entries supporting issue resolution |
+| [**Prodaja**](../Prodaja/README.md) | Podaci o kupcima i tvrtkama zajednički se koriste u komercijalnim procesima |
+| [**Projekti**](../Projekti/README.md) | Prijave mogu biti povezane s tekućim projektima kupaca |
+| [**Održavanje**](../Odrzavanje/README.md) | Prijave podrške mogu biti povezane s nalozima za održavanje ili problemima |
+| [**Resursi**](../Resursi/README.md) | Opterećenje podrške i raspodjela odgovornosti |
+| [**Znanje**](../Znanje/README.md) | Dokumentacija i unosi baze znanja koji podupiru rješavanje problema |

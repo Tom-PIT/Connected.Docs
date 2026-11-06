@@ -79,10 +79,10 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 
 ## Korisnička podrška
 
-- [**Postavke obavijesti**](Domene/KorisnickaPodrska/Upravljanje/NotificationsSettings.md)
-- [**Službe**](Domene/KorisnickaPodrska/Upravljanje/Desks.md)
+- [**Postavke obavijesti**](Domene/KorisnickaPodrska/Upravljanje/PostavkeObavijesti.md)
+- [**Službe**](Domene/KorisnickaPodrska/Upravljanje/Podrucja.md)
 - [**Poslovni imenik**](Zajednicko/Upravljanje/PoslovniImenik.md)
-- [**Institucionalni sektori**](Domene/KorisnickaPodrska/Upravljanje/InstitutionalSectors.md)
+- [**Institucionalni sektori**](Domene/KorisnickaPodrska/Upravljanje/InstitucionalniSektori.md)
 - [**Nazivi radnih mjesta**](Zajednicko/Upravljanje/NaziviRadnihMjesta.md)
 
 ## Znanje

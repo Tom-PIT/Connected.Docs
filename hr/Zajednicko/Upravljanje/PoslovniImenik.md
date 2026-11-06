@@ -33,7 +33,7 @@ Za otvaranje šifrarnika idite na **Upravljanje / Poslovni imenik** u jednoj od 
 | **Vrsta** | Određuje porezni status poslovnog partnera (pogledajte opis u nastavku). |
 | **OIB/Porezni broj** | Porezni identifikacijski broj, primjerice **HR12345678901**. |
 | **Matični broj** | Matični broj poslovnog partnera. |
-| [**Institucionalni sektor**](../../Domene/KorisnickaPodrska/Upravljanje/InstitutionalSectors.md) | Institucionalni sektor kojem poslovni partner pripada. |
+| [**Institucionalni sektor**](../../Domene/KorisnickaPodrska/Upravljanje/InstitucionalniSektori.md) | Institucionalni sektor kojem poslovni partner pripada. |
 | **Oznake** | Oznake koje omogućuju kategorizaciju poslovnih partnera. |
 | **Valuta plaćanja** | Zadana valuta plaćanja koja se koristi u dokumentima. |
 | [**Valuta**](Valute.md) | Valuta povezana s poslovnim partnerom. |
