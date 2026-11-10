@@ -73,7 +73,7 @@ Za pregled svih članaka u imeniku otvorite **kazalo** klikom na **ikonu izborni
 
 ![Ikona izbornika imenika](../Images/KnowledgeBaseDirectoryHamburgerHR.png "Ikona izbornika imenika")
 
-Kazalo prikazuje strukturu imenika i dostupne članke. Klik na članak otvara ga u [prikazu članka](#prikaz-članka).
+Kazalo prikazuje strukturu imenika i dostupne članke. Klik na članak otvara ga u [prikazu članka](#prikaz-clanka).
 
 ![Kazalo imenika](../Images/KnowledgeBaseDirectoryTOCHR.png "Kazalo imenika")
 

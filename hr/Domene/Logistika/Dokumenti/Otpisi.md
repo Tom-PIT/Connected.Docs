@@ -7,7 +7,7 @@
 
 Dokument **Otpis** koristi se za evidentiranje materijala koji se mora ukloniti sa zalihe jer je oštećen, izgubljen, istekao mu je rok trajanja ili se iz nekog drugog razloga više ne može koristiti. Tipični primjeri uključuju **oštećene proizvode**, **pokvarenu robu** ili **materijal oštećen tijekom rukovanja**. Otpis omogućuje unos razloga, odabir materijala i količine koju je potrebno ukloniti sa zalihe.
 
-Otpisi izravno utječu na stanje zalihe. Ako je otpisana pogrešna količina, to se kasnije može ispraviti stvaranjem **djelomičnog ili potpunog storna** putem izbornika povezanih dokumenata. Također možete koristiti **[Pregled zalihe po materijalu](../Pogledi/Zaliha.md#stock-view-by-material)** ili **[Pregled zalihe po serijskom broju](../Pogledi/Zaliha.md#stock-view-by-serial-number)** kako biste provjerili kako je materijal došao do trenutnog stanja prije nego što izvršite otpis.
+Otpisi izravno utječu na stanje zalihe. Ako je otpisana pogrešna količina, to se kasnije može ispraviti stvaranjem **djelomičnog ili potpunog storna** putem izbornika povezanih dokumenata. Također možete koristiti **[Pregled zalihe po materijalu](../Pogledi/Zaliha.md#pogled-na-zalihe-prema-materijalu)** ili **[Pregled zalihe po serijskom broju](../Pogledi/Zaliha.md#pogled-na-zalihe-prema-serijskom-broju)** kako biste provjerili kako je materijal došao do trenutnog stanja prije nego što izvršite otpis.
 
 > [!TIP]
 > Za cjelovit prikaz pogledajte video vodič **[Writeoffs](https://www.youtube.com/watch?v=_0jEGSTorsY)**.

@@ -71,7 +71,7 @@ Ponovite kad se završi još artikala.
 ## 5. Evidentirajte gubitke (ako je primjenjivo)
 
 1. Idite u izbornik radnji klikom na [akcijski gumb](../Zajednicko/UI/AkcijskiGumb.md).
-2. Uđite u odjeljak **[Gubitak](../Domene/Proizvodnja/Dokumenti/Izvedba.md#gubitak)**.
+2. Uđite u odjeljak **[Gubitak](../Domene/Proizvodnja/Dokumenti/Izvedba.md#losi-komadi)**.
 3. Unesite količinu neispravnih artikala.
 4. Odaberite razlog gubitka.
 5. Potvrdite klikom na žuti gumb **Gubitak**.

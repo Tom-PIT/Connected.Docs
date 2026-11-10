@@ -174,11 +174,11 @@ Kliknite bilo koji izlazni račun na popisu kako biste otvorili njegove detalje.
 
 Dok je račun u statusu **Nacrt**, možete uređivati:
 
-- [Polja zaglavlja](IzlazniRacuniIzrada.md#korak-2--ispunite-zaglavlje-dokumenta)
+- [Polja zaglavlja](IzlazniRacuniIzrada.md#korak-2-ispunite-zaglavlje-dokumenta)
 - [**Alternativnu valutu**](IzlazniRacuniIzrada.md#alternativna-valuta)
 - [**Transport i Intrastat**](IzlazniRacuniIzrada.md#transport-i-intrastat)
 - [**Dostavu**](IzlazniRacuniIzrada.md#dostava)
-- [**Stavke**](IzlazniRacuniIzrada.md#korak-3--dodajte-stavke) – dodavanje, uređivanje ili uklanjanje stavki računa
+- [**Stavke**](IzlazniRacuniIzrada.md#korak-3-dodajte-stavke) – dodavanje, uređivanje ili uklanjanje stavki računa
 - [**Načine plaćanja**](IzlazniRacuniIzrada.md#nacini-placanja)
 - [**Sadržaj gore** i **Sadržaj dolje**](IzlazniRacuniIzrada.md#sadrzaj-gore-i-sadrzaj-dolje) – odabir unaprijed pripremljenih tekstova iz [Predložaka klauzula za izlazne račune](../Upravljanje/PredlosciKlauzulaZaIzdaneRacune.md).
 

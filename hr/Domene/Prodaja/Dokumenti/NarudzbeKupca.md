@@ -152,7 +152,7 @@ Kliknite narudžbu kupca na popisu kako biste otvorili njezin pregled za uređiv
 - [**Alternativna valuta**](NarudzbeKupcaIzrada.md#alternativna-valuta)
 - [**Transport i Intrastat**](NarudzbeKupcaIzrada.md#transport-i-intrastat)
 - [**Dostava**](NarudzbeKupcaIzrada.md#dostava)
-- [**Stavke**](NarudzbeKupcaIzrada.md#korak-3--dodavanje-stavki) – dodavanje, uređivanje ili uklanjanje stavki
+- [**Stavke**](NarudzbeKupcaIzrada.md#korak-3-dodavanje-stavki) – dodavanje, uređivanje ili uklanjanje stavki
 - [**Načini plaćanja**](NarudzbeKupcaIzrada.md#nacini-placanja) – definiranje načina plaćanja kupca
 
 #### Povezani dokumenti

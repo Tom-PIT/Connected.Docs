@@ -13,7 +13,7 @@ Tipični slučajevi korištenja:
 - evidentiranje pauze za ručak i drugih prekida
 - praćenje službenih putovanja i privatnog vremena
 - brz pregled prisutnosti za danas
-- brzi pristup radnjama vezanima uz odsutnosti ([plaćeni dopust](#plaćeni-dopust), [bolovanje](#bolovanje), [putni nalozi](#putni-nalozi))
+- brzi pristup radnjama vezanima uz odsutnosti ([plaćeni dopust](#placeni-dopust), [bolovanje](#bolovanje), [putni nalozi](#putni-nalozi))
 
 Do ovog pogleda dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberete **Resursi / Dnevnik prisutnosti / Upravljanje**.
 

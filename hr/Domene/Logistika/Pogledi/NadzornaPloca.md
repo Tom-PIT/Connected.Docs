@@ -74,4 +74,4 @@ Polje za pretraživanje na desnoj strani omogućuje dodatno filtriranje prikazan
 
 > [!NOTE]
 >
-> Kliknite materijal kako biste otvorili [**Zaliha**](Zaliha.md#pregled-zalihe-prema-materijalu).
+> Kliknite materijal kako biste otvorili [**Zaliha**](Zaliha.md#pogled-na-zalihe-prema-materijalu).

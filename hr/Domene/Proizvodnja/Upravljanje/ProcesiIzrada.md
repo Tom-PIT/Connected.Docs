@@ -18,7 +18,7 @@ Primjer u ovom vodiču prikazuje **proizvodni proces** za izradu proizvoda **Oak
 >    * [**Materijali**](../../RobaIUsluge/Materijali/README.md)
 >    * [**Resursi**](../../Resursi/Upravljanje/Resursi.md)
 >    * [**Kontrolni popisi kvalitete**](../../Kvaliteta/Upravljanje/KontrolniPopisi.md)
-> - Za detaljnije informacije o procesima i njihovim komponentama pogledajte dokumente navedene u odjeljku [**Sljedeći koraci**](#sljedeći-koraci).
+> - Za detaljnije informacije o procesima i njihovim komponentama pogledajte dokumente navedene u odjeljku [**Sljedeći koraci**](#sljedeci-koraci).
 
 ## Korak 1: Kreiranje novog procesa
 

@@ -124,7 +124,7 @@ Proširivi odjeljci:
 - [Prilozi](NarudzbeniceIzrada.md#prilozi)  
 - [Dokument](NarudzbeniceIzrada.md#korak-2-unos-podataka-zaglavlja) 
 - [Dostava](NarudzbeniceIzrada.md#dostava)  
-- [Sadržaj gore i sadržaj dolje](NarudzbeniceIzrada.md#sadržaj-gore-i-sadržaj-dolje)  
+- [Sadržaj gore i sadržaj dolje](NarudzbeniceIzrada.md#sadrzaj-gore-i-sadrzaj-dolje)  
 - [Stavke](NarudzbeniceIzrada.md#korak-3-dodavanje-stavki)  
 
 #### Povezani dokumenti
