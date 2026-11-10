@@ -45,7 +45,7 @@ Modul **[Izvedba](Dokumenti/Izvedba.md)** koriste proizvodni radnici za evidenti
 Izvedba osigurava točno prikupljanje podataka, što omogućuje pouzdanu analitiku i sljedivost.
 
 > [!TIP]
-> Za pregled tijeka izvođenja korak po korak pogledajte [**Execution – Quick User Guide**](../../Uvod/ExecutionQuickUserGuide.md).
+> Za pregled tijeka izvođenja korak po korak pogledajte [**Execution – Quick User Guide**](../../Uvod/IzvedbaBrziVodic.md).
 
 ## Zahtjevi
 

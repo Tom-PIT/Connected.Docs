@@ -14,7 +14,7 @@ Primjer zajedničkih šifrarnika u domeni **Prodaja**:
 > [!IMPORTANT]
 > Zajedničke šifrarnike potrebno je konfigurirati kao **prvi korak** prilikom postavljanja platforme.
 >
-> Bez tih podataka domene [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Logistika**](../Domene/Logistika/README.md) i [**Konfiguracija sustava**](../Domene/Sustav/Postavke/Configuration.md) ne mogu ispravno funkcionirati.
+> Bez tih podataka domene [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Logistika**](../Domene/Logistika/README.md) i [**Konfiguracija sustava**](../Domene/Sustav/Postavke/PostavkeSustava.md) ne mogu ispravno funkcionirati.
 
 ## Što uključuje modul Zajedničko?
 

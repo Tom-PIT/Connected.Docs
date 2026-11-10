@@ -69,7 +69,7 @@ Odjeljak **Upravljanje** sadrži konfiguraciju i matične podatke potrebne proce
 Dostupna konfiguracija i šifrarnici:
 
 - **[Konfiguracija](Upravljanje/KonfiguracijaNabave.md)** – postavke nabave i pravila, uključujući numeriranje narudžbenica.  
-- **[Materijali dobavljača](Upravljanje/SupplierMaterials.md)** – povezivanje dobavljača s materijalima koje mogu isporučiti; mogu uključivati rokove isporuke i cijene.  
+- **[Materijali dobavljača](Upravljanje/MaterijaliDobavljaca.md)** – povezivanje dobavljača s materijalima koje mogu isporučiti; mogu uključivati rokove isporuke i cijene.  
 - **[Troškovi](Upravljanje/Troskovi.md)** – kategorije troškova (npr. prijevoz, carina) koje se koriste na narudžbenicama; utječu na ukupni trošak nabave.  
 - **[Poslovni imenik](../../Zajednicko/Upravljanje/PoslovniImenik.md)** – podaci o dobavljačima i partnerima.  
 - **[Mjesta troška](../../Zajednicko/Upravljanje/MjestaTroska.md)** – financijska raspodjela troškova nabave.  

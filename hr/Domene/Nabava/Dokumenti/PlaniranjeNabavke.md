@@ -9,7 +9,7 @@ Prikaz **Planiranje nabavke** pomaže u proaktivnom planiranju nabave jer prepoz
 
 Ova je stranica usko povezana sa:
 - **[Granicama zalihe](../../Logistika/Upravljanje/GraniceZalihe.md)** – u kojima se definiraju minimalne i maksimalne količine
-- **[Materijalima dobavljača](../Upravljanje/SupplierMaterials.md)** – u kojima se materijali dodjeljuju dobavljačima
+- **[Materijalima dobavljača](../Upravljanje/MaterijaliDobavljaca.md)** – u kojima se materijali dodjeljuju dobavljačima
 
 Za pristup ovoj stranici otvorite **Nabava / Planiranje nabavke** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
@@ -18,7 +18,7 @@ Za pristup ovoj stranici otvorite **Nabava / Planiranje nabavke** u [navigaciji]
 Materijal se prikazuje u ovom prikazu samo ako su ispunjeni **svi** sljedeći uvjeti:
 
 1. U [**Granicama zalihe**](../../Logistika/Upravljanje/GraniceZalihe.md) definirane su **minimalna i maksimalna količina**.
-2. Materijal je u [**Materijalima dobavljača**](../Upravljanje/SupplierMaterials.md) dodijeljen barem jednom dobavljaču.  
+2. Materijal je u [**Materijalima dobavljača**](../Upravljanje/MaterijaliDobavljaca.md) dodijeljen barem jednom dobavljaču.  
 3. **Dostupna zaliha** je **ispod minimalne količine**.
 
 Kada su ti uvjeti ispunjeni, materijal se prikazuje na popisu za planiranje i s njim se mogu izvoditi radnje.
@@ -47,7 +47,7 @@ Prikazuju se samo materijali koji odgovaraju odabranim filtrima i uvjetima plani
 Svaki redak može se proširiti kako bi prikazao dobavljače kojima je materijal dodijeljen, sa sljedećim podacima:
 - **Dobavljač**
 - **Vrijeme isporuke** – broj dana do isporuke
-- **Cijena** – jedinična cijena iz [Materijala dobavljača](../Upravljanje/SupplierMaterials.md)
+- **Cijena** – jedinična cijena iz [Materijala dobavljača](../Upravljanje/MaterijaliDobavljaca.md)
 
 ![Detalji planiranja nabavke](../Images/SupplyStockBoundariesPlanningListDetailsHR.png "Detalji planiranja nabavke")
 

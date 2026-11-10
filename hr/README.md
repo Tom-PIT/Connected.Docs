@@ -11,7 +11,7 @@ Dobro došli u dokumentacijski portal za **Tom PIT.Connected**.
 
 ### Prvi put koristite platformu?
 
-- [**Uvod**](Uvod/GettingStarted.md) – Upoznajte osnovne koncepte, strukturu sustava i prve korake konfiguracije.
+- [**Uvod**](Uvod/PocetakRada.md) – Upoznajte osnovne koncepte, strukturu sustava i prve korake konfiguracije.
 - [**Navigacija**](Zajednicko/UI/Navigacija.md) – Saznajte kako se kretati kroz platformu pomoću **Navigacije** i navigacijske putanje.
 
 ### Tražite mogućnosti konfiguracije?

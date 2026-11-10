@@ -167,7 +167,7 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 ## Nabava
 
 - [**Konfiguracija nabave**](Domene/Nabava/Upravljanje/KonfiguracijaNabave.md)
-- [**Materijali dobavljača**](Domene/Nabava/Upravljanje/SupplierMaterials.md)
+- [**Materijali dobavljača**](Domene/Nabava/Upravljanje/MaterijaliDobavljaca.md)
 - [**Troškovi**](Domene/Nabava/Upravljanje/Troskovi.md)
 - [**Poslovni imenik**](Zajednicko/Upravljanje/PoslovniImenik.md)
 - [**Mjesta troška**](Zajednicko/Upravljanje/MjestaTroska.md)
@@ -179,5 +179,5 @@ Ovaj indeks navodi svu dokumentaciju o upravljanju i konfiguraciji po domenama. 
 
 ## Sustav
 
-- [**Konfiguracija**](Domene/Sustav/Postavke/Configuration.md)
-- [**Korisnici**](Domene/Sustav/Upravljanje/Users.md)
+- [**Konfiguracija**](Domene/Sustav/Postavke/PostavkeSustava.md)
+- [**Korisnici**](Domene/Sustav/Upravljanje/Korisnici.md)

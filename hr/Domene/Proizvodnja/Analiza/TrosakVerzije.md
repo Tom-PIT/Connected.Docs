@@ -45,7 +45,7 @@ Ispod ploča nalaze se kartice **Materijali**, **Rad** i **Troškovi**. Broj u z
 
 ## Materijali
 
-Odjeljak [**Materijali**](../../RobaIUsluge/Materijali/README.md) prikazuje sve materijale koje troše operacije procesa. Za izračun udjela troška pojedinog materijala koriste se [cijene materijala dobavljača](../../Nabava/Upravljanje/SupplierMaterials.md).
+Odjeljak [**Materijali**](../../RobaIUsluge/Materijali/README.md) prikazuje sve materijale koje troše operacije procesa. Za izračun udjela troška pojedinog materijala koriste se [cijene materijala dobavljača](../../Nabava/Upravljanje/MaterijaliDobavljaca.md).
 
 Svaki redak prikazuje:
 

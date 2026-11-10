@@ -47,13 +47,13 @@ Dostupni unosi konfiguracije mogu se razlikovati ovisno o instaliranim modulima 
 
 Pogledajte:
 
-* [**Postavke sustava**](Postavke/Configuration.md)
-* [**Skladište**](Postavke/WarehouseConfiguration.md)
+* [**Postavke sustava**](Postavke/PostavkeSustava.md)
+* [**Skladište**](Postavke/KonfiguracijaSkladista.md)
 * [**Postavke Sales Retail SI**](Postavke/SalesRetailsSISettings.md)
 
 ## Korisnici
 
-Odjeljak [**Korisnici**](Upravljanje/Users.md) upravlja pristupom platformi.
+Odjeljak [**Korisnici**](Upravljanje/Korisnici.md) upravlja pristupom platformi.
 
 Administratori mogu:
 
