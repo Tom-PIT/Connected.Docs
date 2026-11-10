@@ -124,32 +124,6 @@ To save a comment, the ticket must be updated by:
 
 The audit trail tracks all changes made to the ticket on a timeline. To open it, click the **Audit trail** tab in the ticket view, under the **Comment** section.
 
-## Document connections
-
-Use the **Document connections** section to link a ticket with an existing issue or receive. For example, when a customer complaint relates to goods that were already delivered, you can connect the ticket with the issue and the receive, so the complaint is traceable from one place.
-
-![Document connections section](../Images/TicketDocumentConnections.png "Document connections section")
-
-The section provides two actions:
-
-- **Issue** links the ticket with an existing issue.
-- **Receive** links the ticket with an existing receive.
-
-### Link an issue
-
-1. Open the ticket.
-2. In the **Document connections** section, select **Issue**.
-3. In the pop-up, select the issue to link.
-
-### Link a receive
-
-1. Open the ticket.
-2. In the **Document connections** section, select **Receive**.
-3. In the pop-up, select the receive to link.
-
-> [!NOTE]
-> You can link a ticket with an issue or receive in any status.
-
 ## Resolve a ticket
 
 Click on the [action button](../../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
