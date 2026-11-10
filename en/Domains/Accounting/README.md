@@ -163,6 +163,7 @@ Available configuration includes:
 - [**Tax rates**](../../Common/Management/TaxRates.md)
 - [**Exchange rates**](../Sales/Management/ExchangeRates.md)
 - **Intrastat** - related code lists for EU trade reporting:
+  - [**Overview**](Management/Intrastat/Index.md)
   - [**Nature of transactions**](Management/Intrastat/NatureOfTransactions.md)
   - [**Delivery terms**](../../Common/Management/DeliveryTerms.md)
   - [**Mode of transport**](../../Common/Management/ModeOfTransport.md)
