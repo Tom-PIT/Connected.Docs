@@ -123,4 +123,4 @@ Ko je proizvodnja zaključena:
 
 ## Povezani vodniki
 
-- [**Vzdrževalni nalog – hitri uporabniški vodnik**](VzdrzevalniNalogiHitriVodnik.md)
+- [**Izvedba vzdrževanja – hitri uporabniški vodnik**](IzvedbaVzdrzevanjaHitriVodnik.md)
