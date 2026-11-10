@@ -39,7 +39,7 @@ Naslednji scenariji prikazujejo tipične poslovne procese od začetka do konca i
 Za hiter začetek si oglejte video vodiče, ki zajemajo ključne funkcionalnosti in postopke:
 
 - [**Izvedba – Hitri uporabniški vodnik**](IzvedbaHitriVodnik.md)
-- [**Vzdrževalni nalog – hitri uporabniški vodnik**](VzdrzevalniNalogiHitriVodnik.md)
+- [**Izvedba vzdrževanja – hitri uporabniški vodnik**](IzvedbaVzdrzevanjaHitriVodnik.md)
 
 > [!TIP]
 > Iščete navodila po korakih? Številni dokumenti vsebujejo poseben vodič **Kako ustvariti...** , ki vas korak za korakom vodi skozi postopek ustvarjanja in objave dokumentov, na primer [**Kako ustvariti naročilo strank**](../Domene/Prodaja/Dokumenti/NarocilaStrankUstvarjanje.md), [**Kako ustvariti proizvodni nalog**](../Domene/Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md) ali [**Kako ustvariti izdani račun**](../Domene/Prodaja/Dokumenti/IzdaniRacuniUstvarjanje.md).

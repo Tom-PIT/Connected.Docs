@@ -32,6 +32,8 @@ Raziščite posamezne domene:
 - [**Vzdrževanje**](Domene/Vzdrzevanje/README.md)
 - [**Dokumenti**](Domene/Dokumenti/README.md)
 - [**Sistem**](Domene/Sistem/README.md)
+- [**Planiranje**](Domene/Planiranje/README.md)
+- [**Znanje**](Domene/Znanje/README.md)
 
 ## Organizacija dokumentacije
 

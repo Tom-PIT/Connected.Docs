@@ -21,7 +21,7 @@ The table of contents is displayed as a **tree structure** and can contain:
 - **Articles** – links to Knowledge [articles](Articles.md)
 - **URLs** – links to external resources
 
-Entries are ordered using an **ordinal value** and can be enabled or disabled.
+Entries are ordered using an **ordinal value**.
 
 > [!TIP]
 > Reordering entries is done via the **Ordinal** field. Drag-and-drop is not supported.
@@ -35,7 +35,7 @@ Entries are ordered using an **ordinal value** and can be enabled or disabled.
 | [**Article**](Articles.md) | Article linked to the entry (available when Type = Article). |
 | **Hyperlink** | Displayed hyperlink text for URL entries. |
 | **Ordinal** | Position of the entry within its level of the table of contents. |
-| **Enabled** | Controls whether the entry is visible in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). |
+| **Enabled** | For the main table of contents only: controls whether the table of contents is visible in the [**Knowledge base**](../KnowledgeBase/KnowledgeBase.md). |
 | **Show unused** | Shows articles not yet used in the table of contents when selecting an [article](Articles.md). |
 | **Synchronize title** | Keeps the entry title synchronized with the linked [article](Articles.md) title. |
 
@@ -68,7 +68,6 @@ From the edit screen you can:
 
 - Change the **title**
 - Update the **ordinal**
-- Enable or disable the entry
 - Change the linked **article** or **URL**, depending on the type
 - For **Article** entries, the title can optionally be synchronized with the [article](Articles.md) title.
 

@@ -1,5 +1,5 @@
 <!-- app_route: /warehouse/documents/container-move -->
-<!-- app_label: Premakni vsebnika -->
+<!-- app_label: Premik vsebnika -->
 <!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/PremikVsebnika/ -->
 <!-- canonical_source_title: Premik vsebnika -->
 
