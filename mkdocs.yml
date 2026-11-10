@@ -28,7 +28,6 @@ theme:
   features:
     - navigation.tabs
     # - navigation.expand
-    - navigation.sections
     - navigation.indexes
     - navigation.top
     - navigation.path
@@ -63,11 +62,24 @@ markdown_extensions:
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js
+  - javascripts/nav-open.js
 
 nav:
   - English:
       - en/README.md
-      - Getting started: en/GettingStarted/GettingStarted.md
+      - Getting started:
+          - Overview: en/GettingStarted/GettingStarted.md
+          - Scenarios:
+              - Prerequisites: en/GettingStarted/Prerequisites.md
+              - Sales process with prepayment: en/GettingStarted/SalesProcessWithPrepayment.md
+              - Sales process without prepayment: en/GettingStarted/SalesProcessWithoutPrepayment.md
+              - Improving production efficiency: en/GettingStarted/Efficiency.md
+              - Restock or produce: en/GettingStarted/RestockOrProduce.md
+              - Create and maintain a knowledge base: en/GettingStarted/CreateAndMaintainKnowledgeBase.md
+              - Two-factor authentication: en/GettingStarted/TwoFactorAuthentication.md
+          - Quick user guides:
+              - Execution: en/GettingStarted/ExecutionQuickUserGuide.md
+              - Maintenance execution: en/GettingStarted/MaintenanceExecutionQuickUserGuide.md
       - Common: en/Common/README.md
       - Navigation: en/Common/UI/Navigation.md
       - Management index: en/ManagementIndex.md
@@ -177,7 +189,19 @@ nav:
 
   - Slovenščina:
       - sl/README.md
-      - Uvod: sl/Uvod/Uvod.md
+      - Uvod:
+          - Pregled: sl/Uvod/Uvod.md
+          - Scenariji:
+              - Predpogoji: sl/Uvod/Predpogoji.md
+              - Prodajni proces s avansnim računom: sl/Uvod/ProdajniProcesSAvansnimRacunom.md
+              - Prodajni proces brez avansnega računa: sl/Uvod/ProdajniProcesBrezAvansnegaRacuna.md
+              - Izboljšanje učinkovitosti proizvodnje: sl/Uvod/Ucinkovitost.md
+              - Nabava ali proizvodnja: sl/Uvod/NabavaAliProizvodnja.md
+              - Ustvarjanje in vzdrževanje baze znanja: sl/Uvod/UstvarjanjeInVzdrzevanjeBazeZnanja.md
+              - Dvofaktorska avtentikacija (2FA): sl/Uvod/DvofaktorskaAvtentikacija.md
+          - Hitri vodniki:
+              - Izvedba: sl/Uvod/IzvedbaHitriVodnik.md
+              - Izvedba vzdrževanja: sl/Uvod/IzvedbaVzdrzevanjaHitriVodnik.md
       - Skupno: sl/Skupno/Skupno.md
       - Navigacija: sl/Skupno/UI/Navigacija.md
       - Kazalo upravljanja: sl/KazaloUpravljanja.md
