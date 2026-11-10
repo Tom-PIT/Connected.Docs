@@ -44,35 +44,40 @@ The system accepts imports in the **CSV** or **XLSX** format. The dropdown menu 
 
 ## Spreadsheet structure
 
-The import file must include the columns listed below. Each row represents a single material that will be imported.
+The first row of the import file must be a header with the column names listed below, in this order. Each following row represents a single material that will be imported.
 
 > [!IMPORTANT]
-> - Do not change the column order. Use the example file as a reference for the exact sequence of columns.
-> - Materials must have unique values in the Code column to avoid conflicts.
+> - Do not change the column order or the column names in the header. Use the example file as a reference.
+> - Materials must have unique values in the **Code** column to avoid conflicts.
 > - Empty optional fields will be imported as blank values.
-> - URLs (Image link URL, Info link URL) must be valid or left empty.
+> - URLs (**ImageUrl**, **InfoUrl**) must be valid or left empty.
+> - In the example file, values are separated by semicolons (`;`), and decimal numbers use a comma (for example `0,56`).
 
 | Column | Description |
 |--------|-------------|
-| **Type** | Type of material: [**Products**](Products.md), [**Semi products**](SemiProducts.md), [**Repro materials**](ReproMaterials.md), [**Raw materials**](RawMaterials.md).|
+| **Type** | Type of material, for example **Proizvod**, **Poluproizvodi** or **Materijal**. Enter the values as they appear in the example file. |
 | **Code** | Unique identifier of the material. If a material with the same code already exists, the import updates it. |
 | **Name** | Full name of the material. |
-| **Measure unit** | Measure unit used for quantities. Must match an existing [measure unit](../../../Common/Management/MeasureUnits.md). |
+| **MeasureUnitAbbreviation** | Abbreviation of the measure unit used for quantities. Must match an existing [measure unit](../../../Common/Management/MeasureUnits.md). |
 | **Tags** | Optional tags used for categorization. Multiple tags can be separated with commas. |
 | **Description** | Optional text describing the material. |
-| **EAN** | Barcode value of the material. |
-| **Expiration (days)** | Number of days until the material expires. |
-| **Image link URL** | URL pointing to an image for the material. |
-| **Info link URL** | URL pointing to an external information page about the material. |
+| **Ean** | Barcode value of the material. |
+| **DefaultExpirationInDays** | Number of days until the material expires. |
+| **ImageUrl** | URL pointing to an image for the material. |
+| **InfoUrl** | URL pointing to an external information page about the material. |
 | **Precision** | Number of decimal places used when displaying values. |
-| **Tax rate name** | Name of the tax rate. Must match an existing [tax rate](../../../Common/Management/TaxRates.md). |
-| **Tax rate** | Percentage of tax applied to the material. |
-| **External key** | External system identifier. |
+| **TaxRateName** | Name of the tax rate. Must match an existing [tax rate](../../../Common/Management/TaxRates.md). |
+| **TaxRateValue** | Percentage of tax applied to the material. |
+| **ExternalKey** | External system identifier. |
+| **Tolerance** | Permitted deviation of the material quantity, in percent. The default value for new materials is 1. |
 
 ## Example row
 
+The header and the first row of the example file:
+
 ```
-Product,C0000001,Acme product 1,Kg,ACME,Acme product 1,C000EAN1,0,https://google.com;https://google.com,0,DDV,22,EXT01
+Type;Code;Name;MeasureUnitAbbreviation;Tags;Description;Ean;DefaultExpirationInDays;ImageUrl;InfoUrl;Precision;TaxRateName;TaxRateValue;ExternalKey;Tolerance
+Proizvod;C0000001;Acme product 1;Kg;ACME;Acme product 1;C000EAN1;0;https://google.com;https://google.com;0;DDV;22;EXT01;0,56
 ```
 
 ## Edit the file
