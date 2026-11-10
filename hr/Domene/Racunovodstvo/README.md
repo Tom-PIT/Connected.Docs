@@ -166,6 +166,7 @@ Dostupna konfiguracija uključuje:
 - [**Porezne stope**](../../Zajednicko/Upravljanje/PorezneStope.md)
 - [**Devizni tečajevi**](../Prodaja/Upravljanje/DevizniTecajevi.md)
 - **Intrastat** – šifrarnici za izvještavanje o trgovini unutar EU:
+  - [**Pregled**](Upravljanje/Intrastat/Index.md)
   - [**Vrsta transakcije**](Upravljanje/Intrastat/VrstaTransakcije.md)
   - [**Uvjeti isporuke**](../../Zajednicko/Upravljanje/UvjetiIsporuke.md)
   - [**Vrsta transporta**](../../Zajednicko/Upravljanje/VrstaTransporta.md)

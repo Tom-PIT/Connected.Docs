@@ -64,7 +64,7 @@ Dostupni dokumenti:
 - **[Spremnici](Dokumenti/Spremnici.md)** – upravljanje spremnicima i paletama.
 - **[Razdvajanja](Dokumenti/Razdvajanja.md)** – razdvajanje proizvoda na sastavne dijelove.
 - **[Corrections](Dokumenti/Corrections.md)** – ručne korekcije stanja zaliha uz revizijski trag.
-- **[Premještaj spremnika](Dokumenti/PremjestajSpremnika.md)** – premještanje spremnika između lokacija.
+- **[Premještaj spreminka](Dokumenti/PremjestajSpreminka.md)** – premještanje spremnika između lokacija.
 - **[Analiza materijala](Dokumenti/AnalizaMaterijala.md)** – analiza i provjera materijala.
 
 Svi ovi dokumenti osiguravaju potpunu sljedivost skladišnih procesa.
@@ -115,7 +115,7 @@ Logistički procesi slijede uobičajeni tijek rada:
 
 ### 2. Premještanje i organizacija
 
-- Roba se premješta između skladišta i lokacija pomoću **[Međuskladišnog prometa](Dokumenti/MeduskladisniPromet.md)**, **[Premještaja spremnika](Dokumenti/PremjestajSpremnika.md)** i **[Lokacija](Upravljanje/Lokacije.md)**.
+- Roba se premješta između skladišta i lokacija pomoću **[Međuskladišnog prometa](Dokumenti/MeduskladisniPromet.md)**, **[Premještaja spremnika](Dokumenti/PremjestajSpremnika.md)**, **[Premještaja spreminka](Dokumenti/PremjestajSpreminka.md)** i **[Lokacija](Upravljanje/Lokacije.md)**.
 
 ### 3. Izdavanje i potrošnja
 
