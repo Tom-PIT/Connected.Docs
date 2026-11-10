@@ -47,7 +47,7 @@ Za otvaranje šifrarnika idite na **Upravljanje / Poslovni imenik** u jednoj od 
 
 ### Popis zapisa poslovnog imenika
 
-Korisničko sučelje prikazuje popis svih zapisa poslovnog imenika.
+Korisničko sučelje prikazuje popis svih zapisa poslovnog imenika. Svaki zapis prikazuje broj, naziv i adresu.
 
 ![Poslovni imenik](../Images/BusinessDirectoryHR.png)
 
