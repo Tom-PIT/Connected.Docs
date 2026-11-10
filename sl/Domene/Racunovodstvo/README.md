@@ -165,6 +165,7 @@ Vključuje:
 
 Poseben sklop predstavljajo **Intrastat** šifranti:
 
+- **[Pregled](Upravljanje/Intrastat/Index.md)**
 - **[Vrsta posla](Upravljanje/Intrastat/VrstaPosla.md)**
 - **[Pogoji dobave](../../Skupno/Upravljanje/PogojiDobave.md)**
 - **[Vrsta transporta](../../Skupno/Upravljanje/VrstaTransporta.md)**
