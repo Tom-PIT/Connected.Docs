@@ -79,9 +79,9 @@ nav:
               - Two-factor authentication: en/GettingStarted/TwoFactorAuthentication.md
           - Quick user guides:
               - Execution: en/GettingStarted/ExecutionQuickUserGuide.md
-              - Maintenance execution: en/GettingStarted/MaintenanceExecutionQuickUserGuide.md
-      - Common: en/Common/README.md
+              - Maintenance execution: en/GettingStarted/MaintenanceExecutionQuickUserGuide.md 
       - Navigation: en/Common/UI/Navigation.md
+      - Common: en/Common/README.md
       - Management index: en/ManagementIndex.md
 
       - Domains:
@@ -202,8 +202,8 @@ nav:
           - Hitri vodniki:
               - Izvedba: sl/Uvod/IzvedbaHitriVodnik.md
               - Izvedba vzdrževanja: sl/Uvod/IzvedbaVzdrzevanjaHitriVodnik.md
-      - Skupno: sl/Skupno/Skupno.md
       - Navigacija: sl/Skupno/UI/Navigacija.md
+      - Skupno: sl/Skupno/Skupno.md
       - Kazalo upravljanja: sl/KazaloUpravljanja.md
 
       - Domene:
