@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Izvedba -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Dokumenti/Gubitak.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Dokumenti/LosiKomadi.md -->
 <!-- canonical_source_title: Loši komadi -->
 
 # Loši komadi

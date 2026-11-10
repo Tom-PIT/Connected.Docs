@@ -71,10 +71,10 @@ Ponovite kad se završi još artikala.
 ## 5. Evidentirajte gubitke (ako je primjenjivo)
 
 1. Idite u izbornik radnji klikom na [akcijski gumb](../Zajednicko/UI/AkcijskiGumb.md).
-2. Uđite u odjeljak **[Gubitak](../Domene/Proizvodnja/Dokumenti/Izvedba.md#losi-komadi)**.
+2. Uđite u odjeljak **[Loši komadi](../Domene/Proizvodnja/Dokumenti/Izvedba.md#losi-komadi)**.
 3. Unesite količinu neispravnih artikala.
-4. Odaberite razlog gubitka.
-5. Potvrdite klikom na žuti gumb **Gubitak**.
+4. Odaberite klasifikaciju gubitka (škarta).
+5. Potvrdite klikom na žuti gumb **Gubitak (Škart)**.
 
 ## 6. Evidentirajte utrošene materijale
 

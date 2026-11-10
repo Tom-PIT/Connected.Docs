@@ -5,7 +5,7 @@
 
 # Izvedba
 
-Modul **Izvedba** koriste proizvodni radnici za izvođenje i evidentiranje rada na dodijeljenim proizvodnim nalozima. Omogućuje praćenje napretka, proizvedenih količina, [zastoja](Zastoj.md), [gubitaka](Gubitak.md), [kontrolnih popisa kvalitete](Kvaliteta.md) i drugih aktivnosti u stvarnom vremenu.
+Modul **Izvedba** koriste proizvodni radnici za izvođenje i evidentiranje rada na dodijeljenim proizvodnim nalozima. Omogućuje praćenje napretka, proizvedenih količina, [zastoja](Zastoj.md), [gubitaka](LosiKomadi.md), [kontrolnih popisa kvalitete](Kvaliteta.md) i drugih aktivnosti u stvarnom vremenu.
 
 Većina proizvodnih radnika nakon prijave automatski se preusmjerava na prikaz **Izvedba**.
 
@@ -101,7 +101,7 @@ Ovdje možete odabrati:
 
 - **Proizvodnja** – otvara glavni zaslon za izvođenje  
 - **[Potrošeno](Potroseno.md)** – evidentiranje potrošnje ulaznih materijala
-- **[Loši komadi](Gubitak.md)** – evidentiranje neispravnih ili neupotrebljivih komada  
+- **[Loši komadi](LosiKomadi.md)** – evidentiranje neispravnih ili neupotrebljivih komada  
 - **[Zastoj](Zastoj.md)** – evidentiranje gubitaka vremena i prekida  
 - **[Kvaliteta](Kvaliteta.md)** – pregled i dovršavanje kontrolnih popisa kvalitete  
 - **[Rad](Rad.md)** – evidentiranje radnog vremena  
@@ -121,7 +121,7 @@ Evidentiranje potrošnje ulaznih materijala za trenutnu operaciju. Potpune upute
 
 ### Loši komadi
 
-Evidentiranje neispravnih ili neupotrebljivih komada za trenutnu operaciju. Detaljne upute potražite na stranici [**Loši komadi**](Gubitak.md).
+Evidentiranje neispravnih ili neupotrebljivih komada za trenutnu operaciju. Detaljne upute potražite na stranici [**Loši komadi**](LosiKomadi.md).
 
 ### Zastoj
 
