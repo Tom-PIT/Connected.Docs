@@ -105,4 +105,4 @@ Dovršenu operaciju ne možete ponovno aktivirati na zaslonu Izvođenje održava
 
 ## Povezani vodiči
 
-- [**Izvođenje – brzi vodič**](ExecutionQuickUserGuide.md)
+- [**Izvođenje – brzi vodič**](IzvedbaBrziVodic.md)

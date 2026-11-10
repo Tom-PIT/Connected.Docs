@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/RestockOrProduce.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/PonovnaNabavaIliProizvodnja.md -->
 <!-- canonical_source_title: Ponovna nabava ili proizvodnja -->
 
 # Ponovna nabava ili proizvodnja
@@ -93,8 +93,8 @@ Koristite modul **[Izvedba](../Domene/Proizvodnja/Dokumenti/Izvedba.md)** za pra
 ### 5. Nastavak prodajnog tijeka
 
 - Vratite se na **Narudžbu kupca** i slijedite vodiče za isporuku i fakturiranje:
-  - **[Proces prodaje (s predujmom)](SalesProcessWithPrepayment.md)**
-  - **[Proces prodaje (bez predujma)](SalesProcessWithoutPrepayment.md)**
+  - **[Proces prodaje (s predujmom)](ProdajniProcesSPredujmom.md)**
+  - **[Proces prodaje (bez predujma)](ProdajniProcesBezPredujma.md)**
 
 > [!TIP]
 > Nakon dovršetka pojedinosti možete pregledati na popisu zatvorenih **[Proizvodnih naloga](../Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md)**.

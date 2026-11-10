@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/TwoFactorAuthentication.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/DvofaktorskaAutentifikacija.md -->
 <!-- canonical_source_title: Dvofaktorska autentifikacija -->
 
 # Dvofaktorska autentifikacija
@@ -10,7 +10,7 @@ Kada je omogućena, sustav korisniku šalje privremeni kod za autentifikaciju na
 > [!IMPORTANT]
 > Dvofaktorska autentifikacija radi samo ako:
 > - je funkcionalnost omogućena na platformi
-> - korisnik ima ispravnu adresu e-pošte postavljenu u **Sustav / [Korisnici](../Domene/Sustav/Upravljanje/Users.md)**
+> - korisnik ima ispravnu adresu e-pošte postavljenu u **Sustav / [Korisnici](../Domene/Sustav/Upravljanje/Korisnici.md)**
 
 ## Konfiguracija
 

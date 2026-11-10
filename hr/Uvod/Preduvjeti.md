@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/Prerequisites.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/Preduvjeti.md -->
 <!-- canonical_source_title: Preduvjeti -->
 
 # Preduvjeti
@@ -13,7 +13,7 @@ Sustav na početku može biti prazan od osnovnih podataka potrebnih za svakodnev
 ### Pregled potrebnih koraka:
 
 1. Izradite osnovne zajedničke šifrarnike: **[Države](../Zajednicko/Upravljanje/Drzave.md)**, **[Valute](../Zajednicko/Upravljanje/Valute.md)**, **[Porezne stope](../Zajednicko/Upravljanje/PorezneStope.md)**, **[Mjerne jedinice](../Zajednicko/Upravljanje/MjerneJedinice.md)**, **[Banke](../Zajednicko/Upravljanje/Banke.md)**
-2. Konfigurirajte postavke sustava: **[Konfiguracija sustava](../Domene/Sustav/Postavke/Configuration.md)** (identitet organizacije, zadana država i valuta)
+2. Konfigurirajte postavke sustava: **[Konfiguracija sustava](../Domene/Sustav/Postavke/PostavkeSustava.md)** (identitet organizacije, zadana država i valuta)
 3. Konfigurirajte postavke plaćanja: **[Načini plaćanja](../Domene/Prodaja/Upravljanje/NaciniPlacanja.md)**, **[Bankovni računi organizacije](../Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md)**
 4. Dodajte poslovne partnere: **[Poslovni imenik](../Zajednicko/Upravljanje/PoslovniImenik.md)**
 5. Dodajte materijale i imovinu: vrste materijala — **[Proizvodi](../Domene/RobaIUsluge/Materijali/Proizvodi.md)**, **[Poluproizvodi](../Domene/RobaIUsluge/Materijali/Poluproizvodi.md)**, **[Sirovine](../Domene/RobaIUsluge/Materijali/Sirovine.md)**, **[Reprodukcijski materijali](../Domene/RobaIUsluge/Materijali/PomocniProizvodi.md)**; ambalaža — **[Ambalaža](../Domene/RobaIUsluge/Materijali/Pakiranje.md)**; imovina — **[Imovina](../Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md)**
@@ -26,7 +26,7 @@ Sustav na početku može biti prazan od osnovnih podataka potrebnih za svakodnev
 
 ### 1. Izradite osnovne zajedničke šifrarnike
 
-Te zajedničke šifrarnike trebaju **[Prodaja](../Domene/Prodaja/README.md)**, **[Nabava](../Domene/Nabava/README.md)**, **[Logistika](../Domene/Logistika/README.md)**, **[Proizvodnja](../Domene/Proizvodnja/README.md)** i **[Sustav](../Domene/Sustav/Postavke/Configuration.md)**:
+Te zajedničke šifrarnike trebaju **[Prodaja](../Domene/Prodaja/README.md)**, **[Nabava](../Domene/Nabava/README.md)**, **[Logistika](../Domene/Logistika/README.md)**, **[Proizvodnja](../Domene/Proizvodnja/README.md)** i **[Sustav](../Domene/Sustav/Postavke/PostavkeSustava.md)**:
 
 - **[Države](../Zajednicko/Upravljanje/Drzave.md)** — popis država za adrese, lokalizaciju i oblikovanje dokumenata  
   Idite na: **Prodaja / Upravljanje / Države**
@@ -49,7 +49,7 @@ Te zajedničke šifrarnike trebaju **[Prodaja](../Domene/Prodaja/README.md)**, *
 ### 2. Konfigurirajte postavke sustava
 
 Postavite organizaciju i globalne zadane vrijednosti koje koriste svi moduli:
-- **[Konfiguracija sustava](../Domene/Sustav/Postavke/Configuration.md)** — identitet organizacije, pravni podaci, podnožje; zadana država i valuta  
+- **[Konfiguracija sustava](../Domene/Sustav/Postavke/PostavkeSustava.md)** — identitet organizacije, pravni podaci, podnožje; zadana država i valuta  
   Idite na: **Sustav / Konfiguracija**
   - konfigurirajte organizaciju (identitet, pravni podaci, podnožje)
   - postavite zajedničke vrste (zadana država, zadana valuta)
@@ -118,5 +118,5 @@ Sada ste unijeli minimalne potrebne podatke za izvođenje standardnog poslovnog 
 ### Sljedeći koraci
 
 Istražite scenarije od početka do kraja kako biste vidjeli kako se ti preduvjeti uklapaju u tijekove rada:
-- **[Proces prodaje (s predujmom)](SalesProcessWithPrepayment.md)**
-- **[Proces prodaje (bez predujma)](SalesProcessWithoutPrepayment.md)**
+- **[Proces prodaje (s predujmom)](ProdajniProcesSPredujmom.md)**
+- **[Proces prodaje (bez predujma)](ProdajniProcesBezPredujma.md)**

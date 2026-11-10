@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/execution -->
 <!-- app_label: Izvedba -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/ExecutionQuickUserGuide.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/IzvedbaBrziVodic.md -->
 <!-- canonical_source_title: Izvedba – brzi vodič za korisnike -->
 
 # Izvedba – brzi vodič za korisnike

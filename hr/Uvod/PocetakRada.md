@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/GettingStarted.md -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/PocetakRada.md -->
 <!-- canonical_source_title: Početak rada -->
 
 # Početak rada
@@ -26,19 +26,19 @@ Više o strukturi i kretanju kroz platformu potražite u vodiču [navigacija](..
 
 Sljedeći scenariji prikazuju tipične poslovne procese od početka do kraja i preporučeni su novim korisnicima za upoznavanje s platformom.
 
-1. [**Preduvjeti**](Prerequisites.md)
-2. [**Proces prodaje s predujmom**](SalesProcessWithPrepayment.md)
-3. [**Proces prodaje bez predujma**](SalesProcessWithoutPrepayment.md)
-4. [**Poboljšanje učinkovitosti proizvodnje**](Efficiency.md)
-5. [**Ponovna nabava ili proizvodnja**](RestockOrProduce.md)
-6. [**Izrada i održavanje baze znanja**](CreateAndMaintainKnowledgeBase.md)
-7. [**Dodavanje dvofaktorske autentifikacije (2FA)**](TwoFactorAuthentication.md)
+1. [**Preduvjeti**](Preduvjeti.md)
+2. [**Proces prodaje s predujmom**](ProdajniProcesSPredujmom.md)
+3. [**Proces prodaje bez predujma**](ProdajniProcesBezPredujma.md)
+4. [**Poboljšanje učinkovitosti proizvodnje**](PoboljsanjeUcinkovitostiProizvodnje.md)
+5. [**Ponovna nabava ili proizvodnja**](PonovnaNabavaIliProizvodnja.md)
+6. [**Izrada i održavanje baze znanja**](IzradaIOdrzavanjeBazeZnanja.md)
+7. [**Dodavanje dvofaktorske autentifikacije (2FA)**](DvofaktorskaAutentifikacija.md)
 
 ## Brzi vodiči za korisnike
 
 Brze vodiče za uobičajene zadatke potražite u sljedećim dokumentima:
 
-- [**Izvođenje – brzi vodič za korisnike**](ExecutionQuickUserGuide.md)
+- [**Izvođenje – brzi vodič za korisnike**](IzvedbaBrziVodic.md)
 - [**Izvođenje održavanja – brzi vodič**](IzvodenjeOdrzavanjaBrziVodic.md)
 
 > [!TIP]
