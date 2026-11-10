@@ -32,6 +32,8 @@ Explore the available domains:
 - [**Maintenance**](Domains/Maintenance/README.md)
 - [**Documents**](Domains/Documents/README.md)
 - [**System**](Domains/System/README.md)
+- [**Planning**](Domains/Planning/README.md)
+- [**Knowledge**](Domains/Knowledge/README.md)
 
 ## Documentation Structure
 
