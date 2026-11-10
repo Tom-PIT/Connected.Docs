@@ -124,6 +124,18 @@ Da biste spremili komentar, prijava se mora ažurirati:
 
 Praćenje promjena bilježi sve promjene prijave na vremenskoj crti. Da biste ga otvorili, kliknite karticu **Praćenje promjena** u prikazu prijave, u odjeljku **Komentar**.
 
+## Poveznice dokumenata
+
+Koristite odjeljak **Poveznice dokumenata** za povezivanje prijave s postojećom izdajnicom ili prevzemnicom.
+
+![Poveznice dokumenata](../Images/TicketDocumentConnectionsHR.png "Poveznice dokumenata")
+
+1. U odjeljku **Poveznice dokumenata** odaberite **Issue** ili **Receive**.
+2. U skočnom prozoru odaberite dokument za povezivanje.
+
+> [!NOTE]
+> Prijavu možete povezati u bilo kojem statusu.
+
 ## Rješavanje prijave
 
 Kliknite [gumb radnji](../../../Zajednicko/UI/AkcijskiGumb.md) da biste otvorili izbornik i odaberite opciju rješenja:
