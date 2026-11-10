@@ -124,6 +124,18 @@ To save a comment, the ticket must be updated by:
 
 The audit trail tracks all changes made to the ticket on a timeline. To open it, click the **Audit trail** tab in the ticket view, under the **Comment** section.
 
+## Document connections
+
+Use **Document connections** to link a ticket with an existing issue or receive.
+
+![Document connections section](../Images/TicketDocumentConnections.png "Document connections section")
+
+1. In the **Document connections** section, select **Issue** or **Receive**.
+2. In the pop-up, select the document to link.
+
+> [!NOTE]
+> You can link a ticket in any status.
+
 ## Resolve a ticket
 
 Click on the [action button](../../../Common/UI/ActionButton.md) to open the menu and select a resolution option: 
