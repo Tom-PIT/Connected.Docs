@@ -112,6 +112,7 @@ nav:
           - Maintenance:
               - en/Domains/Maintenance/README.md
               - Maintenance orders: en/Domains/Maintenance/Documents/MaintenanceOrders.md
+              - Maintenance execution: en/Domains/Maintenance/Documents/MaintenanceExecution.md
               - Maintenance schedule: en/Domains/Maintenance/Documents/MaintenanceSchedule.md
               - Maintenance calendar: en/Domains/Maintenance/Documents/MaintenanceCalendar.md
               - Reported malfunctions: en/Domains/Maintenance/Documents/ReportedMalfunctions.md
@@ -221,6 +222,7 @@ nav:
           - Vzdrževanje:
               - sl/Domene/Vzdrzevanje/README.md
               - Vzdrževalni nalogi: sl/Domene/Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md
+              - Izvedba vzdrževanja: sl/Domene/Vzdrzevanje/Dokumenti/IzvedbaVzdrzevanja.md
               - Urniki vzdrževanja: sl/Domene/Vzdrzevanje/Dokumenti/UrnikiVzdrzevanja.md
               - Koledar vzdrževanja: sl/Domene/Vzdrzevanje/Dokumenti/KoledarVzdrzevanja.md
               - Prijavljene napake: sl/Domene/Vzdrzevanje/Dokumenti/PrijavljeneNapake.md
