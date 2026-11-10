@@ -129,4 +129,4 @@ Kad je sav proizvodni posao dovršen:
 
 ## Povezani vodiči
 
-- [**Nalog za održavanje – brzi vodič za korisnike**](MaintenanceOrderQuickUserGuide.md)
+- [**Izvođenje održavanja – brzi vodič**](IzvodenjeOdrzavanjaBrziVodic.md)

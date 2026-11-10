@@ -39,7 +39,7 @@ Sljedeći scenariji prikazuju tipične poslovne procese od početka do kraja i p
 Brze vodiče za uobičajene zadatke potražite u sljedećim dokumentima:
 
 - [**Izvođenje – brzi vodič za korisnike**](ExecutionQuickUserGuide.md)
-- [**Nalog za održavanje – brzi vodič za korisnike**](MaintenanceOrderQuickUserGuide.md)
+- [**Izvođenje održavanja – brzi vodič**](IzvodenjeOdrzavanjaBrziVodic.md)
 
 > [!TIP]
 > Trebaju li vam upute korak po korak? Mnoge stranice dokumenata imaju zaseban vodič **Kako izraditi...** koji vas provodi kroz cijeli postupak izrade i objave dokumenata, kao što su [**Kako izraditi narudžbu kupca**](../Domene/Prodaja/Dokumenti/NarudzbeKupcaIzrada.md), [**Kako izraditi proizvodni nalog**](../Domene/Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md) ili [**Kako izraditi izlazni račun**](../Domene/Prodaja/Dokumenti/IzlazniRacuniIzrada.md).

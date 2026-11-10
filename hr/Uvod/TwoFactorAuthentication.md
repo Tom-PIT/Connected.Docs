@@ -1,29 +1,29 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/GettingStarted/TwoFactorAuthentication.md -->
-<!-- canonical_source_title: Two-factor authentication -->
+<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/TwoFactorAuthentication.md -->
+<!-- canonical_source_title: Dvofaktorska autentifikacija -->
 
-# Two-factor authentication
+# Dvofaktorska autentifikacija
 
-Two-factor authentication (2FA) provides an additional layer of security when signing in to the platform.
+Dvofaktorska autentifikacija (2FA) pruža dodatnu razinu sigurnosti pri prijavi na platformu.
 
-When enabled, the system sends a temporary authentication code to the user’s email address. The user must enter this code to complete the sign-in process.
+Kada je omogućena, sustav korisniku šalje privremeni kod za autentifikaciju na adresu e-pošte. Korisnik mora unijeti taj kod da bi dovršio prijavu.
 
 > [!IMPORTANT]
-> Two-factor authentication works only if:
-> - the functionality is enabled on the platform
-> - the user has a valid email address configured in **System / [Users](../Domene/Sustav/Upravljanje/Users.md)**
+> Dvofaktorska autentifikacija radi samo ako:
+> - je funkcionalnost omogućena na platformi
+> - korisnik ima ispravnu adresu e-pošte postavljenu u **Sustav / [Korisnici](../Domene/Sustav/Upravljanje/Users.md)**
 
-## Configuration
+## Konfiguracija
 
-The validity period of the authentication code can be configured in:
+Vrijeme valjanosti koda za autentifikaciju može se podesiti u:
 
-**System / Configuration / Identity / Email 2FA**
+**Sustav / Postavke / Identity / Email 2FA**
 
-The setting defines how long (in seconds) the authentication code remains valid before it expires.
+Postavka određuje koliko dugo (u sekundama) kod za autentifikaciju ostaje valjan prije isteka.
 
-## Authentication process
+## Postupak prijave
 
-1. Enter your username and password.
-2. The system sends an authentication code to your email address.
-3. Open the email and copy the received code.
-4. Paste the code into the authentication screen.
-5. After successful verification, access to the platform is granted.
+1. Unesite korisničko ime i lozinku.
+2. Sustav na vašu adresu e-pošte šalje kod za autentifikaciju.
+3. Otvorite e-poruku i kopirajte primljeni kod.
+4. Zalijepite kod na ekran za autentifikaciju.
+5. Nakon uspješne provjere dobivate pristup platformi.
