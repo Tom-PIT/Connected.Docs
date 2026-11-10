@@ -35,6 +35,8 @@ Istražite dostupne domene:
 - [**Održavanje**](Domene/Odrzavanje/README.md)
 - [**Dokumenti**](Domene/Dokumenti/README.md)
 - [**Sustav**](Domene/Sustav/README.md)
+- [**Planiranje**](Domene/Planiranje/README.md)
+- [**Znanje**](Domene/Znanje/README.md)
 
 ## Struktura dokumentacije
 
