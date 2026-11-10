@@ -35,6 +35,7 @@ To access the **Products** code list, go to **Assets / Materials / Products** in
 | **[Base measure unit](../../../Common/Management/MeasureUnits.md)** | Measure unit used to express quantities, such as **piece** or **meter**. (required) |
 | **Precision**        | Default number of decimal places used for values in this measure unit. For example **3** for **1.255**, or **1** for **2.5**. |
 | **[Tax rate](../../../Common/Management/TaxRates.md)** | Default tax rate used in business documents. For example **22** or **9.5**. |
+| **Tolerance** | Permitted deviation of the material quantity, in percent. The default value for new materials is 1. |
 
 </details>
 
@@ -78,6 +79,7 @@ A packaging definition describes the physical properties of a material and the a
 | [**Tariff**](../../Accounting/Management/Intrastat/Tariffs.md) | Customs tariff code used for statistical and customs reporting. |
 | [**Country origin**](../../../Common/Management/Countries.md) | Country of origin used on trade and customs documents. |
 | **Mass converter** | Factor used to convert the base measure unit to mass (for example, kg). Applied in Intrastat or analytics when weight is required. |
+| **Measure unit converter** | Factor for converting the base measure unit of the material to another unit, for example from kilograms to pounds, when quantities are recorded in another unit in documents or reports. |
 
 </details>
 
