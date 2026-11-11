@@ -19,6 +19,7 @@ Za dostop do tega šifranta pojdite na **Logistika / Upravljanje / Skladišča**
 | [**Šifra**](../../../Skupno/UI/SifreDokumentov.md) | Enolični identifikator skladišča. Koda mora biti enolična v celotnem seznamu. |
 | **Naziv** | Ime skladišča. |
 | **Opis** | Neobvezen kratek opis skladišča. |
+| **Zunanji ključ** | Identifikator skladišča v zunanjem sistemu, za povezavo z drugimi sistemi. Neobvezno polje. |
 | **Aktiven** | Določa, ali je skladišče aktivno. Neaktivnih skladišč ni mogoče uporabljati v novih vnosih, ostanejo pa vidna v zgodovini. |
 
 ## Upravljanje
