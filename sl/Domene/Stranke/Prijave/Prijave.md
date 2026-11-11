@@ -147,6 +147,18 @@ Razpoložljive možnosti vključujejo:
 > [!NOTE]
 > Nastavitve obvestil na ravni področja upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
 
+## Povezani dokumenti
+
+V razdelku **Povezani dokumenti** lahko prijavo povežete z obstoječo izdajnico ali prevzemom.
+
+![Povezani dokumenti](../Images/TicketDocumentConnectionsSL.png "Povezani dokumenti")
+
+1. V razdelku **Povezani dokumenti** izberite **Izdajnica** ali **Prevzem**.
+2. V pojavnem oknu izberite dokument za povezavo.
+
+> [!NOTE]
+> Prijavo lahko povežete v katerem koli stanju.
+
 ## Reševati prijave
 
 Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md), da odprete meni in izberete možnost rešitve:

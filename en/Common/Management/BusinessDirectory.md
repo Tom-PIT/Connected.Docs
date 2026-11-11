@@ -47,7 +47,7 @@ To open the list, go to **Management / Business directory** in one of the follow
 
 ### List of business directory entries
 
-The user interface contains a list of entries in the business directory.
+The user interface contains a list of entries in the business directory. Each entry shows its number, name, and address.
 
 ![Business Directory](../Images/BusinessDirectoryV2.png "Business Directory")
 
