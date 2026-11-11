@@ -53,9 +53,10 @@
     --md-accent-fg-color: #0D47A1;
 }
 
-/* Small flags before the language tabs (first tab = English, second = Slovenščina) */
+/* Small flags before the language tabs (first = English, second = Slovenščina, third = Hrvatski) */
 .md-tabs__item:nth-child(1) .md-tabs__link::before,
-.md-tabs__item:nth-child(2) .md-tabs__link::before {
+.md-tabs__item:nth-child(2) .md-tabs__link::before,
+.md-tabs__item:nth-child(3) .md-tabs__link::before {
     content: "";
     display: inline-block;
     width: 1.75em;
@@ -74,5 +75,9 @@
 
 .md-tabs__item:nth-child(2) .md-tabs__link::before {
     background-image: url("https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f1f8-1f1ee.svg");
+}
+
+.md-tabs__item:nth-child(3) .md-tabs__link::before {
+    background-image: url("https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f1ed-1f1f7.svg");
 }
 
