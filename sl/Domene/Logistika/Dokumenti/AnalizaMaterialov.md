@@ -54,6 +54,17 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
 
     ![Seznam potrjenih analiz materialov](../../../../sl/Domene/Logistika/Images/MaterialAnalysisListCommitedSL.png "Seznam potrjeni")
 
+## Analiza s kontrolno listo
+
+Če analiza uporablja kontrolno listo, kliknite ime materiala, da jo odprete, in odgovorite na vsako vprašanje. Kliknite **Konec**, da zaključite kontrolno listo.
+
+![Kontrolna lista analize materiala](../Images/MaterialAnalysisChecklistSL.png "Kontrolna lista analize materiala")
+
+Nato se prikaže **Status analize** z rezultatom. Za pregled kontrolne liste kliknite povezavo **Status analize**.
+
+> [!NOTE]
+> Klik na povezavo statusa samo prikaže kontrolno listo. Za odgovarjanje kliknite ime materiala.
+
 ## Izbrisati analize materialov
 
 Dokumentov analize materialov **ni mogoče izbrisati**.
