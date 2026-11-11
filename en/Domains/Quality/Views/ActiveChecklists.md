@@ -41,6 +41,8 @@ Use filters to narrow down the list:
 - **Document type** — limit results to a specific source document:
   - [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md)
   - [Production order](../../Production/Documents/ProductionOrders.md)
+  - [Material analysis](../../Logistics/Documents/MaterialAnalysis.md)
+  - [**Organization unit**](../../Production/Management/OrganizationUnits.md) — show only checklists assigned to a specific organization unit. For example, checklists that start when a worker from that unit logs in at a station.
 
 ## Row interactions
 

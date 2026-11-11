@@ -79,7 +79,19 @@ Ko je prijava ponovno odprta:
 
 ## Meni
 
-Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+Meni z dejanji odprete z gumbom **Meni** v zgornjem desnem kotu strani.
+
+### Meni seznama
+
+Meni seznama omogoča dejanja za trenutno prikazani seznam.
+
+Na voljo so naslednja dejanja:
+
+- **Izvoz** izvozi seznam rešenih prijav v datoteko **CSV**.
+
+### Meni dokumenta
+
+Meni dokumenta omogoča dejanja za trenutno odprto prijavo.
 
 Na voljo so naslednja dejanja:
 

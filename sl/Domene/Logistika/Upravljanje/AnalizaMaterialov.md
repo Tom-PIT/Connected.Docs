@@ -22,12 +22,14 @@ Za dostop do **Analize materialov** pojdite na **Logistika / Upravljanje / Anali
 |-------|------|
 | **Tip** | Tip materiala (izdelek, polizdelek, surovina ali repro material) (obvezno). |
 | **[Material](../../Sredstva/Materiali/README.md)** | Konkreten material, za katerega velja analiza (obvezno). |
-| **Navodila** | Postopek in kriteriji sprejemljivosti za izvedbo analize (obvezno). |
+| **Tip preverjanja** | Način izvedbe analize: **Privzeto preverjanje** ali **Kontrolna lista** (obvezno). |
+| **Navodila** | Postopek in kriteriji sprejemljivosti za izvedbo analize. Prikažejo se, ko je tip preverjanja **Privzeto preverjanje** (obvezno za ta tip). |
+| **Kontrolna lista** | Kontrolna lista, ki se uporabi za izvedbo analize. Prikaže se namesto polja **Navodila**, ko je tip preverjanja **Kontrolna lista** (obvezno za ta tip). |
 | **Omogočeno** | Določa, ali je analiza na voljo za izbor. Privzeto označeno. |
 
 ## Seznamski pogled
 
-Seznam prikazuje vse definirane analize skupaj z njihovim **Tipom**, **Materialom** in stanjem **Omogočeno**.  
+Seznam prikazuje vse definirane analize skupaj z njihovim **Tipom**, **Materialom** in stanjem **Omogočeno**. Pri analizah s tipom preverjanja **Kontrolna lista** seznam prikaže tudi uporabljeno kontrolno listo.  
 Za filtriranje po tipu ali materialu uporabite iskalno polje.
 
 ![Seznam analiz materialov](../Images/MaterialAnalysisManagementListSL.png "Seznam analiz materialov")
@@ -45,7 +47,9 @@ Vsak zapis vsebuje indikator stanja na levi strani imena:
 2. Izpolnite obrazec:
    - **Tip** – izberite kategorijo analize.
    - **Material** – izberite ciljni material.
-   - **Navodila** – opišite, kako se analiza izvede in ovrednoti.
+   - **Tip preverjanja** – izberite **Privzeto preverjanje** ali **Kontrolna lista**.
+   - **Navodila** – za **Privzeto preverjanje** opišite, kako se analiza izvede in ovrednoti.
+   - **Kontrolna lista** – za **Kontrolna lista** izberite kontrolno listo. Polje zamenja **Navodila**.
    - **Omogočeno** – pustite označeno, da bo analiza takoj na voljo.
 
 3. Kliknite **Dodaj** za shranjevanje ali **Prekliči** za vrnitev na seznam.

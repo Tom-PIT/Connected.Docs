@@ -39,6 +39,9 @@ Uporabite filtre za zoženje seznama:
 - **Tip dokumenta** — omejitev rezultatov na določen izvorni dokument:
   - [Vzdrževalni nalog](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)
   - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)
+  - [Analiza materialov](../../Logistika/Dokumenti/AnalizaMaterialov.md)
+<!-- TODO: confirm the Slovenian label of the Organization unit filter with a capture -->
+- [**Organizacijska enota**](../../Proizvodnja/Upravljanje/OrganizacijskeEnote.md) — omejitev na kontrolne liste, dodeljene določeni organizacijski enoti. Na primer kontrolne liste, ki se začnejo, ko se delavec iz te enote prijavi na postajo.
 
 ## Interakcije vrstic
 

@@ -55,6 +55,17 @@ Popis prikazuje sve dokumente analize materijala koji su automatski kreirani pri
 
    ![Popis obrađenih analiza materijala](../Images/MaterialAnalysisListCommitedHR.png)
 
+## Analiza s kontrolnom listom
+
+Ako analiza koristi kontrolnu listu, kliknite naziv materijala da je otvorite i odgovorite na svako pitanje. Kliknite **Kraj** za dovršetak kontrolne liste. Odgovore možete promijeniti dok ne objavite dokument.
+
+![Kontrolna lista analize materijala](../Images/MaterialAnalysisChecklistHR.png "Kontrolna lista analize materijala")
+
+Zatim se prikaže **Status analize** s rezultatom. Za pregled kontrolne liste kliknite vezu **Status analize**.
+
+> [!NOTE]
+> Klik na vezu statusa samo prikazuje kontrolnu listu. Za odgovaranje kliknite naziv materijala.
+
 ## Izbrisati analizu materijala
 
 Dokumente analize materijala nije moguće izbrisati.

@@ -50,3 +50,11 @@ Konfigurira GS1 identifikaciju koja se koristi za izradu i tumačenje barkodova.
 ### Postavke skladišne lokacije
 
 - **Zabrani lokaciju iz drugog skladišta u međuskladišnim dokumentima** – sprječava odabir lokacija koje pripadaju drugom skladištu pri izradi [međuskladišnih](../../Logistika/Dokumenti/MeduskladisniPromet.md) dokumenata kretanja.
+
+### Postavke analize materijala
+
+Opcija **Keep stock for failed analysis** određuje što se događa sa zalihom kada se dokument analize materijala objavi s neuspješnim stavkama. Postavka se nalazi u istom zaslonu kao i ostale postavke skladišta.
+
+![Postavke analize materijala](../Images/ConfigurationMaterialAnalysisHR.png "Postavke analize materijala")
+
+- **Keep stock for failed analysis** – When enabled, stock is kept (not removed) when a material analysis document is published, including items whose checklist failed. When disabled, the stock of failed items is removed.

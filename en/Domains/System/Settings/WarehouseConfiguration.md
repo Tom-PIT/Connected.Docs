@@ -68,3 +68,13 @@ Available options:
 
 Enable only the material types for which analyses should be created automatically.
 
+## Material analysis settings
+
+The **Keep stock for failed analysis** option controls what happens to stock when a material analysis document is published with failed items.
+
+To access this setting, go to **System / Configuration**, then select **WarehouseExtSettings / Settings** in the left sidebar.
+
+![Material analysis settings](../Images/ConfigurationMaterialAnalysis.png "Material analysis settings")
+
+- **Keep stock for failed analysis** – When enabled, stock is kept (not removed) when a material analysis document is published, including items whose checklist failed. When disabled, the stock of failed items is removed.
+

@@ -35,12 +35,13 @@ The list shows completed checklist executions with their main contextual informa
 Displayed information typically includes:
 
 - **Checklist** — checklist code and name (for example `CHL-25-00000003` · Necessary materials)
-- **Document** — source document and code (for example Production order `PRO-25-000026`)
+- **Document** — source document and code (for example Production order `PRO-25-000026`, or Material analysis `MAA-2026-00000004`)
 - **Operation** — operation code and name (for example `OPR-25-000017, Assembly`)
 - **Product** — product name and code
 - **Organization unit** — responsible unit
 - **Checked by** — user who completed the checklist
 - **Completion date and time**
+- **Material and analysis status** — for material analysis checklists, the material, its source, and the analysis status (for example **Passed**)
 
 Rows are **not expandable**. To see checklist details, open the checklist report.
 
@@ -57,6 +58,8 @@ Use the filters in the left sidebar to narrow down the list:
 - **Document type** — limit results to:
   - [Production order](../../Production/Documents/ProductionOrders.md)
   - [Maintenance order](../../Maintenance/Documents/MaintenanceOrders.md)
+  - [Material analysis](../../Logistics/Documents/MaterialAnalysis.md)
+- [**Organization unit**](../../Production/Management/OrganizationUnits.md) — show only checklists assigned to a specific organization unit. For example, checklists that start when a worker from that unit logs in at a station.
 - **Document** — filter by a specific document
 - **Human resources** — filter by the user who completed the checklist
 - **Checklist** — filter by checklist definition

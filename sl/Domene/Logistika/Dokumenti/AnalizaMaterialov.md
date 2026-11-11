@@ -41,7 +41,7 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
    
    ![Izbira materiala](../Images/MaterialAnalysisEditMaterialSL.png)
 
-3. Kliknite gumb **Preveri**, da označite uspešno opravljen test za izbrani material, nato kliknite **Shrani**.  
+3. Označite potrditveno polje **Potrdi**, da označite uspešno opravljen test za izbrani material, nato kliknite **Shrani**.  
    Stanje **Status** se spremeni v **Uspešno**, material pa je v seznamu označen z zeleno barvo.
    
    ![Uspešna analiza](../Images/MaterialAnalysisEditMaterialCheckSL.png)
@@ -53,6 +53,17 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
 4. Ko so vsa zahtevana preverjanja zaključena, kliknite **Objavi**, da dokončate dokument analize materialov. Dokument se premakne v pogled **Potrjeni**.
 
     ![Seznam potrjenih analiz materialov](../../../../sl/Domene/Logistika/Images/MaterialAnalysisListCommitedSL.png "Seznam potrjeni")
+
+## Analiza s kontrolno listo
+
+Če analiza uporablja kontrolno listo, kliknite ime materiala, da jo odprete, in odgovorite na vsako vprašanje. Kliknite **Konec**, da zaključite kontrolno listo. Odgovore lahko spremenite, dokler dokumenta ne objavite.
+
+![Kontrolna lista analize materiala](../Images/MaterialAnalysisChecklistSL.png "Kontrolna lista analize materiala")
+
+Nato se prikaže **Status analize** z rezultatom. Za pregled kontrolne liste kliknite povezavo **Status analize**.
+
+> [!NOTE]
+> Klik na povezavo statusa samo prikaže kontrolno listo. Za odgovarjanje kliknite ime materiala.
 
 ## Izbrisati analize materialov
 

@@ -23,6 +23,7 @@ To access this page, go to **Logistics / Documents / Containers** in the [naviga
 | [**Warehouse**](../Management/Warehouses.md) | Warehouse where the container resides. |
 | **Document date** | Date the container document was created. |
 | [**Location**](../Management/Locations.md) | Warehouse location (for example, Rack/Shelf). |
+| **Notes** | Optional free text notes about the container. |
 
 </details>
 
@@ -60,7 +61,7 @@ Containers are created manually from this page.
 
     ![Create container](../Images/ContainersNewCreate.png "Create container")
 
-3. The draft container is created. Edit the **Document date** if needed.
+3. The draft container is created. Edit the **Document date** if needed. You can also write a note in the **Notes** field at the bottom of the document.
 
     ![New container](../Images/ContainersNew.png "New container")
 
