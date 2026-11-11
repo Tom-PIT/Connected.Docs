@@ -40,6 +40,7 @@ Obrazec vključuje naslednja polja:
 - **Šifra**
 - **Naziv**
 - **Opis**
+- **Zunanji ključ**
 - **Aktiven**
 
 Po vnosu zahtevanih podatkov kliknite **Dodaj**, da shranite skladišče, ali **Prekliči**, da se vrnete na seznam.

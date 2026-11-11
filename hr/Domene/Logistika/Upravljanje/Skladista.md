@@ -40,6 +40,7 @@ Obrazac sadrži sljedeća polja:
 - **Šifra**
 - **Naziv**
 - **Opis**
+- **External key**
 
 Nakon unosa potrebnih podataka kliknite **Dodaj** za spremanje skladišta ili **Poništi** za povratak na popis.
 

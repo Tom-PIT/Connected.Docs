@@ -40,6 +40,7 @@ The form includes the following fields:
 - **Code**
 - **Name**
 - **Description**
+- **External key**
 - **Active**
 
 After entering the required information, click **Add** to save the warehouse or **Cancel** to return to the list view.
