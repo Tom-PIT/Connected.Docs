@@ -44,7 +44,7 @@ Za odpiranje seznama pojdite v razdelek **Upravljanje / Poslovni imenik** v nasl
 ## Upravljanje
 
 ### Seznam vnosov v poslovnem imeniku
-Uporabniški vmesnik vsebuje seznam vnosov v Poslovnem imeniku.
+Uporabniški vmesnik vsebuje seznam vnosov v Poslovnem imeniku. Vsak vnos prikazuje številko, ime in naslov.
 
 ![Poslovni imenik](../Images/BusinessDirectorySL.png "Poslovni imenik")
 
