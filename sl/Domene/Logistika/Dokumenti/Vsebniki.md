@@ -23,6 +23,7 @@ Za dostop do **Vsebnikov** pojdite na **Logistika / Dokumenti / Vsebniki** v [na
 | [**Skladišče**](../Upravljanje/Skladisca.md) | Skladišče, v katerem se vsebnik nahaja. |
 | **Datum dokumenta** | Datum, ko je bil dokument vsebnika ustvarjen. |
 | [**Lokacija**](../Upravljanje/Lokacije.md) | Skladiščna lokacija (npr. regal / polica). |
+| **Opombe** | Neobvezne prostobesedilne opombe o vsebniku. |
 
 </details>
 
@@ -60,7 +61,7 @@ Vsebniki se ustvarjajo ročno na tej strani.
 
    ![Ustvari vsebnik](../Images/ContainersNewCreateSL.png "Ustvari vsebnik")
 
-3. Ustvari se **osnutek** vsebnika. Po potrebi uredite **Datum dokumenta**.
+3. Ustvari se **osnutek** vsebnika. Po potrebi uredite **Datum dokumenta**. Opombo lahko vpišete v polje **Opombe** na dnu dokumenta.
 
    ![Nov vsebnik](../Images/ContainersNewSL.png "Nov vsebnik")
 
