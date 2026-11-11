@@ -68,3 +68,11 @@ Na voljo so naslednje možnosti:
 
 Omogočite možnosti za tiste vrste materialov, za katere želite, da se analize ustvarijo samodejno.
 
+## Nastavitve analize materiala
+
+Možnost **Zaloga tudi pri napačni analizi** določa, kaj se zgodi z zalogo, ko se dokument analize materiala objavi z napačnimi postavkami. Nastavitev je v istem zaslonu kot zgornje nastavitve.
+
+![Nastavitve analize materiala](../Images/ConfigurationMaterialAnalysisSL.png "Nastavitve analize materiala")
+
+- **Zaloga tudi pri napačni analizi** – Če je vklopljeno, zaloga ob objavi dokumenta analize materiala ostane (se ne odstrani) tudi za postavke z napačno izpolnjeno kontrolno listo. Če je izklopljeno, se zaloga takih postavk odstrani.
+
