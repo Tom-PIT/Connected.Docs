@@ -408,6 +408,10 @@ nav:
               - Management:
                   - Configuration: en/Domains/System/Settings/Configuration.md
                   - Users: en/Domains/System/Management/Users.md
+              - Settings:
+                  - Warehouse configuration: en/Domains/System/Settings/WarehouseConfiguration.md
+                  - Production order configuration: en/Domains/System/Settings/ProductionOrderConfiguration.md
+                  - Sales Retail SI Settings: en/Domains/System/Settings/SalesRetailsSISettings.md
 
   - Slovenščina:
       - sl/README.md
@@ -751,6 +755,10 @@ nav:
               - Upravljanje:
                   - Konfiguracija sistema: sl/Domene/Sistem/Nastavitve/KonfiguracijaSistema.md
                   - Uporabniki: sl/Domene/Sistem/Upravljanje/Uporabniki.md
+              - Nastavitve:
+                  - Konfiguracija skladišča: sl/Domene/Sistem/Nastavitve/KonfiguracijaSkladisca.md
+                  - Konfiguracija proizvodnih nalogov: sl/Domene/Sistem/Nastavitve/KonfiguracijaProizvodnihNalogov.md
+                  - Nastavitve maloprodaje SI: sl/Domene/Sistem/Nastavitve/KonfiguracijaMaloprodajaSI.md
 
   - Hrvatski:
       - hr/README.md
