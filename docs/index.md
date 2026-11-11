@@ -19,4 +19,10 @@ Documentation is organized by language/country because regulations and processes
     - [**Uvod**](sl/Uvod/Uvod.md) – Pregled strukture, prvi koraki za nastavitev sistema in tipični poteki dela.
     - [**Navigacija**](sl/Skupno/UI/Navigacija.md) – Kako najti domene, dokumente in nastavitve z uporabo zemljevida in navigacijskih poti.
 
+- ### **Hrvatski**
+
+    - [**Početna**](hr/README.md) – Glavna ulazna točka u dokumentacijski portal na hrvatskom jeziku.
+    - [**Početak rada**](hr/Uvod/PocetakRada.md) – Pregled strukture, prvi koraci za konfiguraciju sustava i tipični tijekovi rada.
+    - [**Navigacija**](hr/Zajednicko/UI/Navigacija.md) – Kako pronaći domene, dokumente i postavke pomoću karte stranica i navigacijskih putanja.
+
 </div>

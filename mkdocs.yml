@@ -221,8 +221,7 @@ nav:
 
           - Planning:
               - en/Domains/Planning/README.md
-              - Views:
-                  - Planning: en/Domains/Planning/Views/Planning.md
+              - Planning view: en/Domains/Planning/Views/Planning.md
 
 
 
@@ -574,8 +573,7 @@ nav:
 
           - Planiranje:
               - sl/Domene/Planiranje/README.md
-              - Pregledi:
-                  - Planiranje: sl/Domene/Planiranje/Pregledi/Planiranje.md
+              - Pogled planiranja: sl/Domene/Planiranje/Pregledi/Planiranje.md
 
 
 
@@ -753,3 +751,353 @@ nav:
               - Upravljanje:
                   - Konfiguracija sistema: sl/Domene/Sistem/Nastavitve/KonfiguracijaSistema.md
                   - Uporabniki: sl/Domene/Sistem/Upravljanje/Uporabniki.md
+
+  - Hrvatski:
+      - hr/README.md
+      - Uvod:
+          - Početak rada: hr/Uvod/PocetakRada.md
+          - Scenariji:
+              - Preduvjeti: hr/Uvod/Preduvjeti.md
+              - Prodajni proces (s predujmom): hr/Uvod/ProdajniProcesSPredujmom.md
+              - Prodajni proces (bez predujma): hr/Uvod/ProdajniProcesBezPredujma.md
+              - Poboljšanje učinkovitosti proizvodnje: hr/Uvod/PoboljsanjeUcinkovitostiProizvodnje.md
+              - Ponovna nabava ili proizvodnja: hr/Uvod/PonovnaNabavaIliProizvodnja.md
+              - Izrada i održavanje baze znanja: hr/Uvod/IzradaIOdrzavanjeBazeZnanja.md
+              - Dvofaktorska autentifikacija: hr/Uvod/DvofaktorskaAutentifikacija.md
+          - Brzi vodiči:
+              - Izvedba: hr/Uvod/IzvedbaBrziVodic.md
+              - Nalog za održavanje: hr/Uvod/IzvodenjeOdrzavanjaBrziVodic.md
+      - Navigacija: hr/Zajednicko/UI/Navigacija.md
+      - Zajedničko: hr/Zajednicko/README.md
+      - Kazalo upravljanja: hr/IndeksUpravljanja.md
+
+      - Domene:
+          - hr/Domene/README.md
+
+          - Proizvodnja:
+              - hr/Domene/Proizvodnja/README.md
+              - Dokumenti:
+                  - Proizvodni nalozi: hr/Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md
+                  - Kako kreirati proizvodni nalog: hr/Domene/Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md
+                  - Proizvodni nalozi – kvaliteta: hr/Domene/Proizvodnja/Dokumenti/ProizvodniNaloziKvaliteta.md
+                  - Proizvodni nalozi – troškovi: hr/Domene/Proizvodnja/Dokumenti/ProizvodniNaloziTroskovi.md
+                  - Izvedba: hr/Domene/Proizvodnja/Dokumenti/Izvedba.md
+                  - Upute: hr/Domene/Proizvodnja/Dokumenti/Upute.md
+                  - Kvaliteta: hr/Domene/Proizvodnja/Dokumenti/Kvaliteta.md
+                  - Zahtjevi: hr/Domene/Proizvodnja/Dokumenti/Zahtjevi.md
+                  - Loši komadi: hr/Domene/Proizvodnja/Dokumenti/LosiKomadi.md
+                  - Potrošeno: hr/Domene/Proizvodnja/Dokumenti/Potroseno.md
+                  - Zastoj: hr/Domene/Proizvodnja/Dokumenti/Zastoj.md
+                  - Rad: hr/Domene/Proizvodnja/Dokumenti/Rad.md
+                  - Kooperanti: hr/Domene/Proizvodnja/Dokumenti/Kooperanti.md
+
+              - Analiza:
+                  - Ključni pokazatelji proizvodnje: hr/Domene/Proizvodnja/Analiza/KljucniPokazateljiProizvodnje.md
+                  - Sažetak zastoja: hr/Domene/Proizvodnja/Analiza/SazetakZastoja.md
+                  - Sažetak gubitka (škarta): hr/Domene/Proizvodnja/Analiza/SazetakGubitka.md
+                  - Sažetak stroja: hr/Domene/Proizvodnja/Analiza/SazetakStroja.md
+                  - Zastoji organizacijskih jedinica: hr/Domene/Proizvodnja/Analiza/OrganizationUnitDowntime.md
+                  - Gubici organizacijskih jedinica: hr/Domene/Proizvodnja/Analiza/OrganizationUnitLoss.md
+                  - Analiza troška verzije: hr/Domene/Proizvodnja/Analiza/TrosakVerzije.md
+
+              - Upravljanje:
+                  - Ljudski resursi: hr/Domene/Proizvodnja/Upravljanje/LjudskiResursi.md
+                  - Fizički resursi: hr/Domene/Proizvodnja/Upravljanje/FizickiResursi.md
+                  - Izlazi: hr/Domene/Proizvodnja/Upravljanje/Izlazi.md
+                  - Unosi: hr/Domene/Proizvodnja/Upravljanje/Unosi.md
+                  - Konfiguracija proizvodnje: hr/Domene/Proizvodnja/Upravljanje/KonfiguracijaProizvodnje.md
+                  - Kontrolni popisi kvalitete: hr/Domene/Proizvodnja/Upravljanje/KontrolniPopisiKvalitete.md
+                  - Operacije: hr/Domene/Proizvodnja/Upravljanje/Operacije.md
+                  - Organizacijske jedinice: hr/Domene/Proizvodnja/Upravljanje/OrganizacijskeJedinice.md
+                  - Oznake klasifikacije gubitka: hr/Domene/Proizvodnja/Upravljanje/OznakeKlasifikacijeGubitka.md
+                  - Oznake zastoja: hr/Domene/Proizvodnja/Upravljanje/OznakeZastoja.md
+                  - Pravilnici za operacije: hr/Domene/Proizvodnja/Upravljanje/PravilniciZaOperacije.md
+                  - Procesi: hr/Domene/Proizvodnja/Upravljanje/Procesi.md
+                  - Kako kreirati proces: hr/Domene/Proizvodnja/Upravljanje/ProcesiIzrada.md
+                  - Sistematizacija radnih mjesta: hr/Domene/Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta.md
+                  - Skladišne lokacije: hr/Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md
+                  - Troškovi operacije: hr/Domene/Proizvodnja/Upravljanje/TroskoviOperacije.md
+
+          - Kvaliteta:
+              - hr/Domene/Kvaliteta/README.md
+              - Pregledi:
+                  - Aktivni kontrolni popisi: hr/Domene/Kvaliteta/Pregledi/AktivniKontrolniPopisi.md
+                  - Gotovi kontrolni popisi: hr/Domene/Kvaliteta/Pregledi/GotoviKontrolniPopisi.md
+              - Upravljanje:
+                  - Kontrolni popisi: hr/Domene/Kvaliteta/Upravljanje/KontrolniPopisi.md
+                  - Izrada kontrolnih popisa: hr/Domene/Kvaliteta/Upravljanje/KontrolniPopisiIzrada.md
+                  - Kontrolne točke: hr/Domene/Kvaliteta/Upravljanje/KontrolneTocke.md
+
+          - Nabava:
+              - hr/Domene/Nabava/README.md
+              - Dokumenti:
+                  - Upiti: hr/Domene/Nabava/Dokumenti/Upiti.md
+                  - Planiranje nabavke: hr/Domene/Nabava/Dokumenti/PlaniranjeNabavke.md
+                  - Planiranje nabave nakon narudžbi kupaca: hr/Domene/Nabava/Dokumenti/PlaniranjeNabavePoNarudzbamaKupaca.md
+                  - Narudžbenice dobavljača: hr/Domene/Nabava/Dokumenti/Narudzbenice.md
+                  - Kako kreirati narudžbenicu: hr/Domene/Nabava/Dokumenti/NarudzbeniceIzrada.md
+
+              - Pregledi:
+                  - Stavke narudžbenica: hr/Domene/Nabava/Pregledi/StavkeNarudzbenica.md
+                  - Izvješće o narudžbama: hr/Domene/Nabava/Pregledi/IzvjesceONarudzbama.md
+
+              - Upravljanje:
+                  - Konfiguracija nabave: hr/Domene/Nabava/Upravljanje/KonfiguracijaNabave.md
+                  - Materijali dobavljača: hr/Domene/Nabava/Upravljanje/MaterijaliDobavljaca.md
+                  - Troškovi: hr/Domene/Nabava/Upravljanje/Troskovi.md
+
+          - Logistika:
+              - hr/Domene/Logistika/README.md
+              - Dokumenti:
+                  - Primke: hr/Domene/Logistika/Dokumenti/Primke.md
+                  - Simple receive: hr/Domene/Logistika/Dokumenti/SimpleReceive.md
+                  - Proizvodnje: hr/Domene/Logistika/Dokumenti/Proizvodnje.md
+                  - Potrošnje: hr/Domene/Logistika/Dokumenti/Potrosnje.md
+                  - Izdatnice: hr/Domene/Logistika/Dokumenti/Izdatnica.md
+                  - Posudbe: hr/Domene/Logistika/Dokumenti/Posudbe.md
+                  - Međuskladišni promet: hr/Domene/Logistika/Dokumenti/MeduskladisniPromet.md
+                  - Storno: hr/Domene/Logistika/Dokumenti/Storno.md
+                  - Corrections: hr/Domene/Logistika/Dokumenti/Corrections.md
+                  - Razdvajanja: hr/Domene/Logistika/Dokumenti/Razdvajanja.md
+                  - Otpisi: hr/Domene/Logistika/Dokumenti/Otpisi.md
+                  - Inventure: hr/Domene/Logistika/Dokumenti/Inventure.md
+                  - Spremnici: hr/Domene/Logistika/Dokumenti/Spremnici.md
+                  - Premještaj spremnika: hr/Domene/Logistika/Dokumenti/PremjestajSpremnika.md
+                  - Premještaj spreminka: hr/Domene/Logistika/Dokumenti/PremjestajSpreminka.md
+                  - Analiza materijala: hr/Domene/Logistika/Dokumenti/AnalizaMaterijala.md
+
+              - Pregledi:
+                  - Nadzorna ploča: hr/Domene/Logistika/Pogledi/NadzornaPloca.md
+                  - Zaliha: hr/Domene/Logistika/Pogledi/Zaliha.md
+                  - Pogled na zalihe prema lokacijama: hr/Domene/Logistika/Pogledi/PogledNaZalihePremaLokacijama.md
+                  - Consumption details: hr/Domene/Logistika/Pogledi/ConsumptionDetails.md
+                  - Issue details: hr/Domene/Logistika/Pogledi/IssueDetails.md
+
+              - Upravljanje:
+                  - Konfiguracija logistike: hr/Domene/Logistika/Upravljanje/KonfiguracijaLogistike.md
+                  - Lokacije: hr/Domene/Logistika/Upravljanje/Lokacije.md
+                  - Skladišta: hr/Domene/Logistika/Upravljanje/Skladista.md
+                  - Granice zalihe: hr/Domene/Logistika/Upravljanje/GraniceZalihe.md
+                  - Upravljanje analizama materijala: hr/Domene/Logistika/Upravljanje/UpravljanjeAnalizamaMaterijala.md
+
+          - Održavanje:
+              - hr/Domene/Odrzavanje/README.md
+              - Dokumenti:
+                  - Nalozi za održavanje: hr/Domene/Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md
+                  - Kako izraditi novi nalog za održavanje: hr/Domene/Odrzavanje/Dokumenti/NaloziZaOdrzavanjeIzrada.md
+                  - Izvođenje održavanja: hr/Domene/Odrzavanje/Dokumenti/IzvodenjeOdrzavanja.md
+                  - Raspored održavanja: hr/Domene/Odrzavanje/Dokumenti/RasporedOdrzavanja.md
+                  - Kalendar održavanja: hr/Domene/Odrzavanje/Dokumenti/KalendarOdrzavanja.md
+                  - Prijavljeni kvarovi: hr/Domene/Odrzavanje/Dokumenti/PrijavljeniKvarovi.md
+                  - Radno vrijeme resursa i brojači: hr/Domene/Odrzavanje/Dokumenti/RadnoVrijemeIBrojaci.md
+              - Analiza:
+                  - Ključni pokazatelji održavanja: hr/Domene/Odrzavanje/Analiza/KljucniPokazateljiOdrzavanja.md
+              - Upravljanje:
+                  - Konfiguracija održavanja: hr/Domene/Odrzavanje/Upravljanje/KonfiguracijaOdrzavanja.md
+
+          - Planiranje:
+              - hr/Domene/Planiranje/README.md
+              - Pogled planiranja: hr/Domene/Planiranje/Pogledi/Planiranje.md
+
+          - Znanje:
+              - hr/Domene/Znanje/README.md
+              - Baza znanja: hr/Domene/Znanje/BazaZnanja/BazaZnanja.md
+              - Članci: hr/Domene/Znanje/Upravljanje/Clanci.md
+              - Upravljanje:
+                  - Imenici: hr/Domene/Znanje/Upravljanje/Imenici.md
+                  - Kazalo: hr/Domene/Znanje/Upravljanje/Kazalo.md
+                  - Oznake imenika: hr/Domene/Znanje/Upravljanje/OznakeImenika.md
+
+          - Korisnička podrška:
+              - hr/Domene/KorisnickaPodrska/README.md
+              - Prijave:
+                  - Prijave: hr/Domene/KorisnickaPodrska/Prijave/Prijave.md
+                  - Riješene prijave: hr/Domene/KorisnickaPodrska/Prijave/RijesenePrijave.md
+                  - SLA prijave: hr/Domene/KorisnickaPodrska/Prijave/SLAPrijave.md
+              - Posjetitelji: hr/Domene/KorisnickaPodrska/Posjetitelji/UpravljanjePosjetiteljima.md
+              - Upravljanje:
+                  - Institucionalni sektori: hr/Domene/KorisnickaPodrska/Upravljanje/InstitucionalniSektori.md
+                  - Područja: hr/Domene/KorisnickaPodrska/Upravljanje/Podrucja.md
+                  - Postavke obavijesti: hr/Domene/KorisnickaPodrska/Upravljanje/PostavkeObavijesti.md
+
+          - Dokumenti:
+              - hr/Domene/Dokumenti/README.md
+              - Dokumenti:
+                  - Spremnici: hr/Domene/Dokumenti/Dokumenti/Spremnici.md
+
+          - Prodaja:
+              - hr/Domene/Prodaja/README.md
+              - Dokumenti:
+                  - Narudžbe kupca: hr/Domene/Prodaja/Dokumenti/NarudzbeKupca.md
+                  - Kako izraditi narudžbu kupca: hr/Domene/Prodaja/Dokumenti/NarudzbeKupcaIzrada.md
+                  - Ponude: hr/Domene/Prodaja/Dokumenti/Ponude.md
+                  - Predujmovi: hr/Domene/Prodaja/Dokumenti/Predujmovi.md
+                  - Avansni računi: hr/Domene/Prodaja/Dokumenti/AvansniRacuni.md
+                  - Izlazni računi: hr/Domene/Prodaja/Dokumenti/IzlazniRacuni.md
+                  - Kako kreirati izlazni račun: hr/Domene/Prodaja/Dokumenti/IzlazniRacuniIzrada.md
+                  - Maloprodajni računi: hr/Domene/Prodaja/Dokumenti/MaloprodajniRacuni.md
+                  - Maloprodajni računi za predujam: hr/Domene/Prodaja/Dokumenti/MaloprodajniRacuniZaPredujam.md
+                  - Otpremnice: hr/Domene/Prodaja/Dokumenti/Otpremnice.md
+                  - Terećenja: hr/Domene/Prodaja/Dokumenti/Terecenja.md
+                  - Odobrenja: hr/Domene/Prodaja/Dokumenti/Odobrenja.md
+                  - Opomene: hr/Domene/Prodaja/Dokumenti/Opomene.md
+
+              - Pregledi:
+                  - Stavke narudžbi: hr/Domene/Prodaja/Pogledi/StavkeNarudzbi.md
+                  - Izvješće o narudžbama kupcu: hr/Domene/Prodaja/Pogledi/IzvjesceONarudzbamaKupcu.md
+                  - Izvješća o otpremnicama: hr/Domene/Prodaja/Pogledi/IzvjescaOOtpremnicama.md
+                  - Fiskalni računi: hr/Domene/Prodaja/Pogledi/FiskalniRacuni.md
+                  - Kartice tvrtke: hr/Domene/Prodaja/Pogledi/KarticeTvrtke.md
+
+              - Upravljanje:
+                  - Konfiguracija prodaje: hr/Domene/Prodaja/Upravljanje/KonfiguracijaProdaje.md
+                  - Načini plaćanja: hr/Domene/Prodaja/Upravljanje/NaciniPlacanja.md
+                  - Oznake svrha plaćanja: hr/Domene/Prodaja/Upravljanje/OznakeSvrhaPlacanja.md
+                  - Bankovni računi organizacije: hr/Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md
+                  - Devizni tečajevi: hr/Domene/Prodaja/Upravljanje/DevizniTecajevi.md
+                  - Predlošci klauzula za izdane račune: hr/Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaIzdaneRacune.md
+                  - Predlošci klauzula za otpremnice: hr/Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaOtpremnice.md
+
+          - Računovodstvo:
+              - hr/Domene/Racunovodstvo/README.md
+              - Dokumenti:
+                  - Ulazni računi: hr/Domene/Racunovodstvo/Dokumenti/UlazniRacuni.md
+                  - Kako stvoriti novi ulazni račun: hr/Domene/Racunovodstvo/Dokumenti/UlazniRacuniIzrada.md
+                  - Bankovni izvodi: hr/Domene/Racunovodstvo/Dokumenti/BankovniIzvodi.md
+                  - Platni nalozi: hr/Domene/Racunovodstvo/Dokumenti/PlatniNalozi.md
+                  - Osnovna sredstva: hr/Domene/Racunovodstvo/Dokumenti/OsnovnaSredstva.md
+                  - Obračun PDV-a: hr/Domene/Racunovodstvo/Dokumenti/ObracunPdv.md
+                  - Statistička izvješća: hr/Domene/Racunovodstvo/Dokumenti/StatistickaIzvjesca.md
+                  - Indeks računa: hr/Domene/Racunovodstvo/Dokumenti/IndeksRacuna.md
+                  - Dvojno knjigovodstvo: hr/Domene/Racunovodstvo/Dokumenti/DvojnoKnjigovodstvo.md
+
+              - Pregledi:
+                  - Kartica konta: hr/Domene/Racunovodstvo/Pregledi/KarticaKonta.md
+                  - Bruto bilanca: hr/Domene/Racunovodstvo/Pregledi/BrutoBilanca.md
+                  - Knjiženja: hr/Domene/Racunovodstvo/Pregledi/Knjizenja.md
+                  - Otvorene stavke: hr/Domene/Racunovodstvo/Pregledi/OtvoreneStavke.md
+                  - Stock (Ledger): hr/Domene/Racunovodstvo/Pregledi/LedgerStock.md
+                  - Stock age structure: hr/Domene/Racunovodstvo/Pregledi/StockAgeStructure.md
+                  - Intrastat stavke: hr/Domene/Racunovodstvo/Pregledi/IntrastatStavke.md
+                  - Issued invoices supply of goods: hr/Domene/Racunovodstvo/Pregledi/IssuedInvoicesSupplyOfGoods.md
+                  - Issued invoices tax book: hr/Domene/Racunovodstvo/Pregledi/IssuedInvoicesTaxBook.md
+                  - Received invoices supply of goods: hr/Domene/Racunovodstvo/Pregledi/ReceivedInvoicesSupplyOfGoods.md
+                  - Received invoices tax book: hr/Domene/Racunovodstvo/Pregledi/ReceivedInvoicesTaxBook.md
+
+              - Upravljanje:
+                  - Računi:
+                      - Konfiguracija računa: hr/Domene/Racunovodstvo/Upravljanje/Racuni/KonfiguracijaRacuna.md
+                      - Poveznice robe/usluge i konta: hr/Domene/Racunovodstvo/Upravljanje/Racuni/PoveznicaRobeIKonta.md
+                  - Intrastat:
+                      - Intrastat – pregled: hr/Domene/Racunovodstvo/Upravljanje/Intrastat/Index.md
+                      - Vrsta transakcije: hr/Domene/Racunovodstvo/Upravljanje/Intrastat/VrstaTransakcije.md
+                      - Mjesto isporuke: hr/Domene/Racunovodstvo/Upravljanje/Intrastat/MjestoIsporuke.md
+                      - Pomoćne jedinice: hr/Domene/Racunovodstvo/Upravljanje/Intrastat/PomocneJedinice.md
+                      - Tarife: hr/Domene/Racunovodstvo/Upravljanje/Intrastat/Tarife.md
+                  - Glavna knjiga:
+                      - Kontni plan: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md
+                      - Konfiguracija glavne knjige: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konfiguracija.md
+                      - Početna stanja zalihe: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PocetnaStanjaZalihe.md
+                      - Lokacije glavne knjige: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Lokacije.md
+                      - Zadana konta: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ZadaneKonta.md
+                      - Predlošci za temeljnice: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PredlosciZaTemeljnice.md
+                      - Tipovi dokumenata: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/TipoviDokumenata.md
+                      - AOP: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/AOP.md
+                      - Grupe amortizacije: hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/GrupeAmortizacije.md
+
+          - Resursi:
+              - hr/Domene/Resursi/README.md
+              - Dokumenti:
+                  - Putni nalozi: hr/Domene/Resursi/Dokumenti/PutniNalozi.md
+
+              - Pregledi:
+                  - Dnevnik prisutnosti: hr/Domene/Resursi/Pogledi/DnevnikPrisutnosti.md
+                  - Dnevnik prisutnosti – pregled: hr/Domene/Resursi/Pogledi/Pregled.md
+                  - Dnevnik prisutnosti – upravljanje: hr/Domene/Resursi/Pogledi/UpravljanjePrisutnoscu.md
+                  - Prisutnost na poslu: hr/Domene/Resursi/Pogledi/PrisutnostNaPoslu.md
+                  - Planovi dostupnosti: hr/Domene/Resursi/Pogledi/PlanoviDostupnosti.md
+                  - Podsjetnici: hr/Domene/Resursi/Pogledi/Podsjetnici.md
+                  - Pogled na resurse: hr/Domene/Resursi/Pogledi/PogledNaResurse.md
+                  - Radni listovi: hr/Domene/Resursi/Pogledi/RadniListovi.md
+                  - Troškovi zadataka: hr/Domene/Resursi/Pogledi/TroskoviZadataka.md
+                  - Upravljanje sa godišnjim odmorom: hr/Domene/Resursi/Pogledi/UpravljanjeSaGodisnjimOdmorom.md
+
+              - Analiza:
+                  - Analiza radnog zadatka: hr/Domene/Resursi/Analiza/AnalizaRadnogZadatka.md
+
+              - Upravljanje:
+                  - Konfiguracija resursa: hr/Domene/Resursi/Upravljanje/Konfiguracija.md
+                  - Resursi: hr/Domene/Resursi/Upravljanje/Resursi.md
+                  - Matrice kompetencija: hr/Domene/Resursi/Upravljanje/MatriceKompetencija.md
+                  - Dnevnice: hr/Domene/Resursi/Upravljanje/Dnevnice.md
+                  - Kategorije podsjetnika: hr/Domene/Resursi/Upravljanje/KategorijePodsjetnika.md
+                  - Odredišta: hr/Domene/Resursi/Upravljanje/Odredista.md
+                  - Radni listovi: hr/Domene/Resursi/Upravljanje/RadniListoviUpravljanje.md
+                  - Razlozi putovanja: hr/Domene/Resursi/Upravljanje/RazloziPutovanja.md
+                  - Tipovi rada: hr/Domene/Resursi/Upravljanje/TipoviRada.md
+                  - Tipovi raspoloživosti: hr/Domene/Resursi/Upravljanje/TipoviRaspolozivosti.md
+                  - Trošak resursa: hr/Domene/Resursi/Upravljanje/TroskoviResursa.md
+                  - Vrsta bolovanja: hr/Domene/Resursi/Upravljanje/VrstaBolovanja.md
+
+          - Roba i usluge:
+              - hr/Domene/RobaIUsluge/README.md
+              - Materijali:
+                  - hr/Domene/RobaIUsluge/Materijali/README.md
+                  - Proizvodi: hr/Domene/RobaIUsluge/Materijali/Proizvodi.md
+                  - Sirovine: hr/Domene/RobaIUsluge/Materijali/Sirovine.md
+                  - Poluproizvodi: hr/Domene/RobaIUsluge/Materijali/Poluproizvodi.md
+                  - Pomoćni proizvodi: hr/Domene/RobaIUsluge/Materijali/PomocniProizvodi.md
+                  - Pakiranje: hr/Domene/RobaIUsluge/Materijali/Pakiranje.md
+                  - Setovi: hr/Domene/RobaIUsluge/Materijali/Setovi.md
+                  - Cjenici materijala: hr/Domene/RobaIUsluge/Materijali/CjeniciMaterijala.md
+                  - Uvoz materijala: hr/Domene/RobaIUsluge/Materijali/UvozMaterijala.md
+                  - Zamjenske mjerne jedinice: hr/Domene/RobaIUsluge/Materijali/ZamjenskeMjerneJedinice.md
+              - Roba ili usluga: hr/Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md
+              - Cjenici stavki: hr/Domene/RobaIUsluge/RobaIUsluge/CjeniciStavki.md
+
+          - Sustav:
+              - hr/Domene/Sustav/README.md
+              - Postavke:
+                  - Postavke sustava: hr/Domene/Sustav/Postavke/PostavkeSustava.md
+                  - Konfiguracija skladišta: hr/Domene/Sustav/Postavke/KonfiguracijaSkladista.md
+                  - Postavke Sales Retail SI: hr/Domene/Sustav/Postavke/SalesRetailsSISettings.md
+              - Upravljanje:
+                  - Korisnici: hr/Domene/Sustav/Upravljanje/Korisnici.md
+
+          - Projekti:
+              - hr/Domene/Projekti/README.md
+              - Dokumenti:
+                  - Projekti: hr/Domene/Projekti/Dokumenti/Projekti.md
+                  - Zadaci: hr/Domene/Projekti/Dokumenti/Zadaci.md
+              - Pregledi:
+                  - Moji zadaci: hr/Domene/Projekti/Pregledi/MojiZadaci.md
+                  - Moj kalendar: hr/Domene/Projekti/Pregledi/MojKalendar.md
+              - Upravljanje:
+                  - Upravljanje projektima: hr/Domene/Projekti/Upravljanje/UpravljanjeProjektima.md
+
+      - Zajedničko:
+          - Koncepti:
+              - Povezani dokumenti: hr/Zajednicko/Koncepti/PovezaniDokumenti.md
+              - Privici: hr/Zajednicko/Koncepti/Privici.md
+              - Radnje izbornika: hr/Zajednicko/Koncepti/RadnjeIzbornika.md
+              - Stavke: hr/Zajednicko/Koncepti/Stavke.md
+          - UI:
+              - Akcijski gumb: hr/Zajednicko/UI/AkcijskiGumb.md
+              - Oznake dokumenata: hr/Zajednicko/UI/OznakeDokumenata.md
+              - Prijava: hr/Zajednicko/UI/Prijava.md
+          - Upravljanje:
+              - Banke: hr/Zajednicko/Upravljanje/Banke.md
+              - Bankovni računi: hr/Zajednicko/Upravljanje/BankovniRacuni.md
+              - Države: hr/Zajednicko/Upravljanje/Drzave.md
+              - Kontakti: hr/Zajednicko/Upravljanje/Kontakti.md
+              - Mjerne jedinice: hr/Zajednicko/Upravljanje/MjerneJedinice.md
+              - Mjesta troška: hr/Zajednicko/Upravljanje/MjestaTroska.md
+              - Nazivi radnih mjesta: hr/Zajednicko/Upravljanje/NaziviRadnihMjesta.md
+              - Porezne stope: hr/Zajednicko/Upravljanje/PorezneStope.md
+              - Poslovne jedinice: hr/Zajednicko/Upravljanje/PoslovneJedinice.md
+              - Poslovni imenik: hr/Zajednicko/Upravljanje/PoslovniImenik.md
+              - Poštanski brojevi: hr/Zajednicko/Upravljanje/PostanskiBrojevi.md
+              - Unaprijed pripremljeni tekstovi: hr/Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md
+              - Uvjeti isporuke: hr/Zajednicko/Upravljanje/UvjetiIsporuke.md
+              - Valute: hr/Zajednicko/Upravljanje/Valute.md
+              - Vrsta transporta: hr/Zajednicko/Upravljanje/VrstaTransporta.md
