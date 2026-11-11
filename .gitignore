@@ -11,7 +11,9 @@
 *.sln.docstates
 *.env
 
-/docs
+# Site files (only docs-mkdocs tracks them): ignore everything under docs/ except index.md
+/docs/*
+!/docs/index.md
 
 # Ignore site
 
