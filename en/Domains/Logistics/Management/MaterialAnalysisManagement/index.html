@@ -32685,8 +32685,16 @@
 <td>The specific material that the analysis applies to (mandatory).</td>
 </tr>
 <tr>
+<td><strong>Check type</strong></td>
+<td>How the analysis is performed: <strong>Default check</strong> or <strong>Checklist</strong> (mandatory).</td>
+</tr>
+<tr>
 <td><strong>Instructions</strong></td>
-<td>Procedure and acceptance criteria for performing the analysis (mandatory).</td>
+<td>Procedure and acceptance criteria for performing the analysis. Shown when the check type is <strong>Default check</strong> (mandatory for that check type).</td>
+</tr>
+<tr>
+<td><strong>Checklist</strong></td>
+<td>The checklist used to perform the analysis. Shown instead of <strong>Instructions</strong> when the check type is <strong>Checklist</strong> (mandatory for that check type).</td>
 </tr>
 <tr>
 <td><strong>Enabled</strong></td>
@@ -32695,7 +32703,7 @@
 </tbody>
 </table>
 <h2 id="list-view">List view<a class="headerlink" href="#list-view" title="Permanent link">&para;</a></h2>
-<p>The list shows all defined analyses with their Type, Material, and Enabled status. Use the search to filter by type or material.</p>
+<p>The list shows all defined analyses with their Type, Material, and Enabled status. For analyses with the <strong>Checklist</strong> check type, the list also shows the checklist that is used. Use the search to filter by type or material.</p>
 <p><img alt="Material Analysis Management List" src="../../Images/MaterialAnalysisManagementList.png" title="Material Analysis Management List" /></p>
 <p>Each record includes a status indicator to the left of its name:
 - <strong>Blue</strong> indicates the analysis is active
@@ -32709,7 +32717,9 @@
 <li>Fill in the form:</li>
 <li><strong>Type</strong> – choose the analysis category.</li>
 <li><strong>Material</strong> – select the target material.</li>
-<li><strong>Instructions</strong> – describe how to execute and evaluate the analysis.</li>
+<li><strong>Check type</strong> – select <strong>Default check</strong> or <strong>Checklist</strong>.</li>
+<li><strong>Instructions</strong> – for <strong>Default check</strong>, describe how to execute and evaluate the analysis.</li>
+<li><strong>Checklist</strong> – for <strong>Checklist</strong>, select the checklist to use. This field replaces <strong>Instructions</strong>.</li>
 <li>
 <p><strong>Enabled</strong> – leave checked to make it available immediately.</p>
 </li>

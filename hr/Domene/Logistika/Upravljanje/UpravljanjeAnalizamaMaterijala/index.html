@@ -32685,8 +32685,16 @@
 <td>Materijal za koji se definira analiza (obavezno).</td>
 </tr>
 <tr>
+<td><strong>Vrsta provjere</strong></td>
+<td>Način provođenja analize: <strong>Zadana provjera</strong> ili <strong>Kontrolna lista</strong> (obavezno).</td>
+</tr>
+<tr>
 <td><strong>Upute</strong></td>
-<td>Opis postupka izvođenja analize i kriterija prihvatljivosti (obavezno).</td>
+<td>Opis postupka izvođenja analize i kriterija prihvatljivosti. Prikazuje se kada je vrsta provjere <strong>Zadana provjera</strong> (obavezno za tu vrstu).</td>
+</tr>
+<tr>
+<td><strong>Kontrolna lista</strong></td>
+<td>Kontrolna lista koja se koristi za provođenje analize. Prikazuje se umjesto polja <strong>Upute</strong> kada je vrsta provjere <strong>Kontrolna lista</strong> (obavezno za tu vrstu).</td>
 </tr>
 <tr>
 <td><strong>Omogućeno</strong></td>
@@ -32695,7 +32703,7 @@
 </tbody>
 </table>
 <h2 id="popis-analiza">Popis analiza<a class="headerlink" href="#popis-analiza" title="Permanent link">&para;</a></h2>
-<p>Popis prikazuje sve definirane analize s pripadajućim tipom materijala.</p>
+<p>Popis prikazuje sve definirane analize s pripadajućim tipom materijala. Za analize s vrstom provjere <strong>Kontrolna lista</strong> popis prikazuje i kontrolnu listu koja se koristi.</p>
 <p><img alt="Upravljanje analizama materijala" src="../../Images/MaterialAnalysisManagementListHR.png" /></p>
 <p>Svaki zapis sadrži:</p>
 <ul>
@@ -32719,7 +32727,9 @@
 <ul>
 <li>Odaberite <strong>Tip</strong> materijala.</li>
 <li>Odaberite <strong>Materijal</strong>.</li>
-<li>Unesite <strong>Upute</strong> za izvođenje analize.</li>
+<li>Odaberite <strong>Vrsta provjere</strong>: <strong>Zadana provjera</strong> ili <strong>Kontrolna lista</strong>.</li>
+<li>Za <strong>Zadanu provjeru</strong> unesite <strong>Upute</strong> za izvođenje analize.</li>
+<li>Za <strong>Kontrolnu listu</strong> odaberite kontrolnu listu. Ovo polje zamjenjuje <strong>Upute</strong>.</li>
 <li>Po potrebi uključite ili isključite opciju <strong>Omogućeno</strong>.</li>
 </ul>
 </li>
