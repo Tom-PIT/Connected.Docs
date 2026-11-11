@@ -57,6 +57,8 @@ Pomoću filtara na lijevoj strani možete suziti prikaz:
 - **Tip dokumenta** – prikaz samo kontrolnih popisa povezanih s određenom vrstom dokumenta:
     - [Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md)
     - [Nalog za održavanje](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md)
+    - [Analiza materijala](../../Logistika/Dokumenti/AnalizaMaterijala.md)
+- [**Organizacijska jedinica**](../../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md) – prikaz samo kontrolnih popisa dodijeljenih određenoj organizacijskoj jedinici. Na primjer, kontrolni popisi koji se pokrenu kada se radnik iz te jedinice prijavi na stanicu.
 - **Dokument** – filtriranje prema određenom dokumentu.
 - **Ljudski resursi** – filtriranje prema korisniku koji je izvršio kontrolni popis.
 - **Kontrolni popis** – filtriranje prema definiciji kontrolnog popisa.

@@ -41,7 +41,7 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
    
    ![Izbira materiala](../Images/MaterialAnalysisEditMaterialSL.png)
 
-3. Kliknite gumb **Preveri**, da označite uspešno opravljen test za izbrani material, nato kliknite **Shrani**.  
+3. Označite potrditveno polje **Potrdi**, da označite uspešno opravljen test za izbrani material, nato kliknite **Shrani**.  
    Stanje **Status** se spremeni v **Uspešno**, material pa je v seznamu označen z zeleno barvo.
    
    ![Uspešna analiza](../Images/MaterialAnalysisEditMaterialCheckSL.png)
