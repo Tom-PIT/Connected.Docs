@@ -21,12 +21,14 @@ Za pristup ovom dokumentu idite na **Logistika / Upravljanje / Analiza materijal
 |-------|------|
 | **Tip** | Vrsta materijala na koju se analiza odnosi (proizvod, poluproizvod, sirovina ili repro materijal) (obavezno). |
 | **[Materijali](../../RobaIUsluge/Materijali/README.md)** | Materijal za koji se definira analiza (obavezno). |
-| **Upute** | Opis postupka izvođenja analize i kriterija prihvatljivosti (obavezno). |
+| **Vrsta provjere** | Način provođenja analize: **Zadana provjera** ili **Kontrolna lista** (obavezno). |
+| **Upute** | Opis postupka izvođenja analize i kriterija prihvatljivosti. Prikazuje se kada je vrsta provjere **Zadana provjera** (obavezno za tu vrstu). |
+| **Kontrolna lista** | Kontrolna lista koja se koristi za provođenje analize. Prikazuje se umjesto polja **Upute** kada je vrsta provjere **Kontrolna lista** (obavezno za tu vrstu). |
 | **Omogućeno** | Određuje je li analiza dostupna za odabir. Prema zadanim postavkama je uključeno. |
 
 ## Popis analiza
 
-Popis prikazuje sve definirane analize s pripadajućim tipom materijala.
+Popis prikazuje sve definirane analize s pripadajućim tipom materijala. Za analize s vrstom provjere **Kontrolna lista** popis prikazuje i kontrolnu listu koja se koristi.
 
 ![Upravljanje analizama materijala](../Images/MaterialAnalysisManagementListHR.png)
 
@@ -50,7 +52,9 @@ Status zapisa prikazan je bojom s lijeve strane:
 2. Ispunite podatke:
     - Odaberite **Tip** materijala.
     - Odaberite **Materijal**.
-    - Unesite **Upute** za izvođenje analize.
+    - Odaberite **Vrsta provjere**: **Zadana provjera** ili **Kontrolna lista**.
+    - Za **Zadanu provjeru** unesite **Upute** za izvođenje analize.
+    - Za **Kontrolnu listu** odaberite kontrolnu listu. Ovo polje zamjenjuje **Upute**.
     - Po potrebi uključite ili isključite opciju **Omogućeno**.
 
 3. Kliknite **Dodaj**.
