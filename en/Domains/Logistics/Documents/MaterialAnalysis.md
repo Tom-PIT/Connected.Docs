@@ -42,7 +42,7 @@ The list shows all material analysis documents created during receiving for mate
    
    ![Material Analysis Edit Material](../Images/MaterialAnalysisEditMaterial.png)
 
-3. Click the **Check** button to pass the test for the selected material and click **Save**. The **Status** changes to **Passed** and the material shows green color on the list.
+3. Select **Confirm** to pass the test for the selected material and click **Save**. The **Status** changes to **Passed** and the material shows green color on the list.
    
    ![Material Analysis Edit Material Check](../Images/MaterialAnalysisEditMaterialCheck.png)
 
@@ -54,6 +54,17 @@ The list shows all material analysis documents created during receiving for mate
 
     ![Material Analysis List Commited](../Images/MaterialAnalysisListCommited.png "List of committed lists")
  
+## Checklist analyses
+
+If the analysis uses a checklist, click the material name to open it and answer each question. Select **Finish** to complete the checklist. You can change the answers until you publish the document.
+
+![Material analysis checklist](../Images/MaterialAnalysisChecklist.png "Material analysis checklist")
+
+The **Status** then shows the result. To view the checklist, select the **Status** link.
+
+> [!NOTE]
+> Clicking the **Status** link only shows the checklist. To answer it, click the material name.
+
 ## Delete a material analysis
 
 Material analysis documents cannot be deleted.

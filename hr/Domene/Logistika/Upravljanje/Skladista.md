@@ -19,6 +19,7 @@ Za pristup ovoj šifrarnici idite na **Logistika / Upravljanje / Skladišta** u 
 | **Šifra** | Jedinstvena oznaka skladišta. Šifra mora biti jedinstvena unutar šifrarnice. |
 | **Naziv** | Naziv skladišta. |
 | **Opis** | Kratak opis skladišta. Ovo polje nije obavezno. |
+| **External key** | Identifikator skladišta u vanjskom sustavu, za povezivanje s drugim sustavima. Ovo polje nije obavezno. |
 
 ## Upravljanje
 
@@ -39,6 +40,7 @@ Obrazac sadrži sljedeća polja:
 - **Šifra**
 - **Naziv**
 - **Opis**
+- **External key**
 
 Nakon unosa potrebnih podataka kliknite **Dodaj** za spremanje skladišta ili **Poništi** za povratak na popis.
 

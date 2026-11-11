@@ -75,7 +75,19 @@ When reopened:
 
 ## Menu
 
-The menu provides additional actions available on this page.
+Menu actions are available through the **Menu** button in the top-right corner of the page.
+
+### List menu
+
+The list menu provides actions for the currently displayed list.
+
+Available actions:
+
+- **Export** exports the resolved tickets list to a **CSV** file.
+
+### Document menu
+
+The document menu provides actions for the currently opened ticket.
 
 ![Ticket menu](../Images/TicketsMenu.png)
 

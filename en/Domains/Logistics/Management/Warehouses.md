@@ -19,6 +19,7 @@ To access this code list, go to **Logistics / Management / Warehouses** in the [
 | **Code** | Unique identifier of the warehouse. The code must be unique within the entire list. |
 | **Name** | Name of the warehouse. |
 | **Description** | Optional short description of the warehouse. |
+| **External key** | Optional identifier of the warehouse in an external system, used to connect it with other systems. |
 | **Active** | Indicates whether the warehouse is active. Inactive warehouses cannot be used in new entries, but they remain visible in history. |
 
 ## Management
@@ -39,6 +40,7 @@ The form includes the following fields:
 - **Code**
 - **Name**
 - **Description**
+- **External key**
 - **Active**
 
 After entering the required information, click **Add** to save the warehouse or **Cancel** to return to the list view.

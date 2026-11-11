@@ -21,12 +21,14 @@ To access **Material analysis management**, go to **Logistics / Management / Mat
 |-------|-------------|
 | **Type** | Type of material (product, semi product, raw or repro material) (mandatory). |
 | **[Materials](../../Assets/Materials/README.md)** | The specific material that the analysis applies to (mandatory). |
-| **Instructions** | Procedure and acceptance criteria for performing the analysis (mandatory). |
+| **Check type** | How the analysis is performed: **Default check** or **Checklist** (mandatory). |
+| **Instructions** | Procedure and acceptance criteria for performing the analysis. Shown when the check type is **Default check** (mandatory for that check type). |
+| **Checklist** | The checklist used to perform the analysis. Shown instead of **Instructions** when the check type is **Checklist** (mandatory for that check type). |
 | **Enabled** | Whether the analysis is available for selection. Checked by default. |
 
 ## List view
 
-The list shows all defined analyses with their Type, Material, and Enabled status. Use the search to filter by type or material.
+The list shows all defined analyses with their Type, Material, and Enabled status. For analyses with the **Checklist** check type, the list also shows the checklist that is used. Use the search to filter by type or material.
 
 ![Material Analysis Management List](../Images/MaterialAnalysisManagementList.png "Material Analysis Management List")
 
@@ -43,7 +45,9 @@ Each record includes a status indicator to the left of its name:
 2. Fill in the form:
    - **Type** – choose the analysis category.
    - **Material** – select the target material.
-   - **Instructions** – describe how to execute and evaluate the analysis.
+   - **Check type** – select **Default check** or **Checklist**.
+   - **Instructions** – for **Default check**, describe how to execute and evaluate the analysis.
+   - **Checklist** – for **Checklist**, select the checklist to use. This field replaces **Instructions**.
    - **Enabled** – leave checked to make it available immediately.
 
 3. Click **Add** to save or **Cancel** to return to the list.

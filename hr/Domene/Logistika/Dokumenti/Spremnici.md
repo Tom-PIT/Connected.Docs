@@ -42,7 +42,7 @@ Za kreiranje novog spremnika:
 
     ![Novi spremnik](../Images/ContainersNewHR.png "Novi spremnik")
 
-5. Po potrebi promijenite **Datum dokumenta**.
+5. Po potrebi promijenite **Datum dokumenta** i upišite napomenu u polje **Napomene** na dnu dokumenta.
 
 6. U odjeljku **Stavke** unesite ili skenirajte **serijski broj**, **EAN** ili naziv materijala.
 
