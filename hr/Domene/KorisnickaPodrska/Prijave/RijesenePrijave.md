@@ -74,7 +74,19 @@ Kada se prijava ponovno otvori:
 
 ## Izbornik
 
-Izbornik nudi dodatne radnje dostupne na ovom ekranu.
+Izbornik radnji otvara se gumbom **Izbornik** u gornjem desnom kutu stranice.
+
+### Izbornik popisa
+
+Izbornik popisa nudi radnje za trenutno prikazani popis.
+
+Dostupne radnje:
+
+- **Izvoz** izvozi popis riješenih prijava u **CSV** datoteku.
+
+### Izbornik dokumenta
+
+Izbornik dokumenta nudi radnje za trenutno otvorenu prijavu.
 
 ![Izbornik prijave](../Images/TicketsMenuHR.png "Izbornik prijave")
 
