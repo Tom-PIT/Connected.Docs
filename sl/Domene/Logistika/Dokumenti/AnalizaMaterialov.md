@@ -56,7 +56,7 @@ Seznam prikazuje vse dokumente **Analize materialov**, ustvarjene ob prevzemu ma
 
 ## Analiza s kontrolno listo
 
-Če analiza uporablja kontrolno listo, kliknite ime materiala, da jo odprete, in odgovorite na vsako vprašanje. Kliknite **Konec**, da zaključite kontrolno listo.
+Če analiza uporablja kontrolno listo, kliknite ime materiala, da jo odprete, in odgovorite na vsako vprašanje. Kliknite **Konec**, da zaključite kontrolno listo. Odgovore lahko spremenite, dokler dokumenta ne objavite.
 
 ![Kontrolna lista analize materiala](../Images/MaterialAnalysisChecklistSL.png "Kontrolna lista analize materiala")
 

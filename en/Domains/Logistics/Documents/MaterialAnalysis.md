@@ -56,7 +56,7 @@ The list shows all material analysis documents created during receiving for mate
  
 ## Checklist analyses
 
-If the analysis uses a checklist, click the material name to open it and answer each question. Select **Finish** to complete the checklist.
+If the analysis uses a checklist, click the material name to open it and answer each question. Select **Finish** to complete the checklist. You can change the answers until you publish the document.
 
 ![Material analysis checklist](../Images/MaterialAnalysisChecklist.png "Material analysis checklist")
 

@@ -57,7 +57,7 @@ Popis prikazuje sve dokumente analize materijala koji su automatski kreirani pri
 
 ## Analiza s kontrolnom listom
 
-Ako analiza koristi kontrolnu listu, kliknite naziv materijala da je otvorite i odgovorite na svako pitanje. Kliknite **Kraj** za dovršetak kontrolne liste.
+Ako analiza koristi kontrolnu listu, kliknite naziv materijala da je otvorite i odgovorite na svako pitanje. Kliknite **Kraj** za dovršetak kontrolne liste. Odgovore možete promijeniti dok ne objavite dokument.
 
 ![Kontrolna lista analize materijala](../Images/MaterialAnalysisChecklistHR.png "Kontrolna lista analize materijala")
 
