@@ -77,7 +77,7 @@ The saved record is also shown on the maintenance order.
 
 1. Open the [action button](../Common/UI/ActionButton.md) and select [**Effort**](../Domains/Maintenance/Documents/MaintenanceExecution.md#effort) if required by your workflow.
 
-### Automatic:
+### Current activity:
 
 Press **Start** → carry out the work → press **Stop**.
 

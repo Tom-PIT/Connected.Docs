@@ -132,13 +132,13 @@ Postopek:
 
 ![Beleženje časa](../Images/TaskEffortScreenSL.png)
 
-#### Samodejno (Začni / Ustavi)
+#### Trenutna aktivnost (Začni / Ustavi)
 
 - Kliknite **Začni**
 - Opravite delo
 - Kliknite **Ustavi**
 
-Sistem samodejno zabeleži časovni interval.
+Časovni interval se zabeleži, ko kliknete **Ustavi**.
 
 #### Ročni vnos
 

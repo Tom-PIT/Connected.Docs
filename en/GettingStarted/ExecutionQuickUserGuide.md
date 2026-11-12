@@ -104,7 +104,7 @@ Use this for any interruption, such as waiting for materials or machine issues.
 
 ![Effort entry](Images/ExecutionEffortPageV2.png "Record effort")
 
-### Automatic:
+### Current activity:
 
 Tap **Start** → work → tap **Stop**.
 

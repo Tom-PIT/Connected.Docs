@@ -133,7 +133,7 @@ Pregled i ponavljanje kontrolnih popisa kvalitete prema potrebi. Detaljne upute 
 
 ### Rad
 
-Evidentiranje radnog vremena za operaciju. Načine evidentiranja (automatski putem Početak/Zaustavi ili ručni unos) i savjete za uređivanje potražite na stranici [**Rad**](Rad.md).
+Evidentiranje radnog vremena za operaciju. Načine evidentiranja (putem **Trenutačne aktivnosti** (Početak/Zaustavi) ili ručni unos) i savjete za uređivanje potražite na stranici [**Rad**](Rad.md).
 
 ### Upute
 

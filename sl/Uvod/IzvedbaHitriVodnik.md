@@ -100,7 +100,7 @@ To uporabite za vsako prekinitev, npr. čakanje na material ali okvaro stroja.
 
 ![Vnos dela](Images/ExecutionEffortPageSL.png "Vnos dela")
 
-### Samodejno:
+### Trenutna aktivnost:
 Pritisnite **Začni** → delajte → pritisnite **Ustavi**.
 
 ### Ročno:

@@ -104,7 +104,7 @@ Ovo koristite za svaki prekid, na primjer čekanje materijala ili kvar stroja.
 
 ![Unos rada](../Domene/Proizvodnja/Images/ExecutionEffortPageHR.png "Evidentiranje rada")
 
-### Automatski
+### Trenutačna aktivnost
 
 Dodirnite **Pokreni** → radite → dodirnite **Zaustavi**.
 

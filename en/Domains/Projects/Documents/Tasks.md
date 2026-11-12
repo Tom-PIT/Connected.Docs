@@ -129,13 +129,13 @@ To record effort:
 
 ![Effort entry](../Images/TaskEffortScreen.png "Record effort")
 
-#### Automatic (Start / Stop)
+#### Current activity (Start / Stop)
 
 - Click **Start** to begin tracking
 - Work on the task
 - Click **Stop** to finish
 
-The system records the time interval automatically.
+The time interval is recorded when you click **Stop**.
 
 #### Manual entry
 
