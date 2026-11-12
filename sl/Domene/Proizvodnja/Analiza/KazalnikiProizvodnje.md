@@ -95,12 +95,16 @@ Izberite začetni in končni datum ter čas obdobja, za katerega želite prikaz 
 
 Rezultati KPI so prikazani na vrhu strani in vključujejo:
 - **AVG** – povprečno vrednost izbranega KPI-ja za izbrano obdobje
+- **SKUPAJ** – skupno vrednost izbranega KPI-ja za izbrano obdobje
 - **Stolpčni ali linijski graf** trenda KPI skozi izbrano časovno obdobje
 
 > [!NOTE]
 > Vrednost **AVG** se izračuna iz izvornih proizvodnih podatkov in ne kot povprečje prikazanih vrednosti na grafu.
 >
 > Zato se lahko vrednost AVG razlikuje od vizualnega povprečja na grafu.
+
+> [!NOTE]
+> Vrednost **SKUPAJ** je seštevek vrednosti, prikazanih na grafu za izbrani KPI.
 
 Glede na izbran KPI se lahko pod grafom prikažejo tudi dodatni podatki:
 - za **KPI zastojev**: razlogi in trajanja zastojev,

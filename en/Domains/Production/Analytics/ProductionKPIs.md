@@ -95,12 +95,16 @@ Select the date and time range for which KPI data should be displayed.
 
 The KPI results are displayed at the top of the page and include:
 - **AVG** – The average value of the selected KPI over the chosen period  
+- **SUM** – The total value of the selected KPI over the chosen period  
 - A **bar or line chart** showing the KPI trend across the selected time frame  
 
 > [!NOTE]
 > The **AVG** value is calculated from the original production data, not as an average of the displayed chart values.
 >
 > Because of this, the AVG value may differ from the visual average shown in the graph.
+
+> [!NOTE]
+> The **SUM** value is the total of the values shown in the chart for the selected KPI.
 
 Depending on the selected KPI, additional details may appear below the graph:
 - For **downtime KPIs**, downtime reasons and durations  

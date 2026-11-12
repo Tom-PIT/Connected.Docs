@@ -101,12 +101,16 @@ Odaberite raspon datuma i vremena za koji se prikazuju podaci.
 
 Rezultati se prikazuju na vrhu stranice i uključuju:
 - **Prosjek** – prosječnu vrijednost odabranog pokazatelja u odabranom razdoblju
+- **SUM** – ukupnu vrijednost odabranog pokazatelja u odabranom razdoblju
 - **stupčasti ili linijski grafikon** koji prikazuje kretanje pokazatelja u odabranom vremenskom intervalu
 
 > [!NOTE]
 > Vrijednost **Prosjek** izračunava se iz izvornih proizvodnih podataka, a ne kao prosjek vrijednosti prikazanih na grafikonu.
 >
 > Zbog toga se vrijednost **Prosjek** može razlikovati od vizualnog prosjeka na grafikonu.
+
+> [!NOTE]
+> Vrijednost **SUM** zbroj je vrijednosti prikazanih na grafikonu za odabrani pokazatelj.
 
 Ovisno o odabranom pokazatelju, ispod grafikona mogu se prikazati dodatni detalji:
 - za **pokazatelje zastoja** – razlozi i trajanje zastoja
