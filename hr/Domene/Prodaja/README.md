@@ -48,6 +48,8 @@ Dostupni prodajni dokumenti:
 
 Svaka vrsta dokumenta doprinosi prodajnom procesu i omogućuje potpunu sljedivost od prve ponude do konačnog računa.
 
+Izlazni računi i odobrenja mogu se izdavati i kao e-računi. Pogledajte [**E-računi**](../../Zajednicko/Koncepti/ERacuni.md).
+
 > [!TIP]
 > Korak-po-korak upute dostupne su u dokumentima **[Izrada izlaznog računa](Dokumenti/IzlazniRacuniIzrada.md)** i **[Izrada narudžbe kupca](Dokumenti/NarudzbeKupcaIzrada.md)**.
 

@@ -44,7 +44,7 @@ Odobrenja utječu samo na računovodstvo i ne utječu na stanje zaliha.
 | **Poziv na broj** | Poziv na broj prema odabranom tipu poziva na broj. |
 | [**Bankovni račun**](../Upravljanje/BankovniRacuniOrganizacije.md) | Bankovni račun koji se koristi za povrat sredstava ili knjiženje (obavezno). |
 | [**Mjesto troška**](../../../Zajednicko/Upravljanje/MjestaTroska.md) | Opcionalno mjesto troška za knjiženje dokumenta. |
-| **Oznaka svrhe** | Opcionalna oznaka svrhe plaćanja. |
+| **Oznaka svrhe** | Opcionalna oznaka svrhe plaćanja. Obvezna za [e-račune](../../../Zajednicko/Koncepti/ERacuni.md). |
 | **Rabat** | Ukupni rabat primijenjen na cijelo odobrenje. |
 | **Oznake** | Oznake dodijeljene dokumentu radi lakše organizacije i pretraživanja. |
 | **Sadržaj gore** | Uvodni tekst iz [**Unaprijed pripremljenih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
@@ -249,6 +249,8 @@ Ako želite ukloniti samo pojedinu stavku:
 
 > [!NOTE]
 > Potvrđena odobrenja **nije moguće obrisati**, ali ih je moguće **stornirati** ili **vratiti u nacrt**.
+
+Za preduvjete i upute za e-račun pogledajte [**E-račune**](../../../Zajednicko/Koncepti/ERacuni.md).
 
 ## Izbornik
 

@@ -89,6 +89,8 @@ Kada je dostupno, možete odabrati datoteku koju želite priložiti poruci e-po�
 
 Dostupni formati privitaka ovise o odabranom dokumentu ili prikazu. Primatelji i privici odabiru se u izborniku.
 
+Za slanje e-računa e-poštom pogledajte [**E-računi**](ERacuni.md).
+
 ### Otvoriti skupnu obradu
 
 Izvršite radnje nad više odabranih zapisa odjednom.
