@@ -6,7 +6,7 @@
 
 # Effort
 
-The **Effort** activity records working time spent on an operation. Use it to track operator time either automatically (Start/Stop) or manually (entering times or duration).
+The **Effort** activity records working time spent on an operation. Use it to track operator time either with **Current activity** (Start/Stop) or manually (entering times or duration).
 
 Open **Effort** from the [**Execution**](Execution.md) screen via the activity selection menu (tap the [action button](../../../Common/UI/ActionButton.md), then choose **Effort**).
 
@@ -19,13 +19,13 @@ Open **Effort** from the [**Execution**](Execution.md) screen via the activity s
 3. Click **Add effort** to save.  
 4. Repeat as needed.
 
-### Automatic (Start/Stop)
+### Current activity (Start/Stop)
 
 - Tap **Start** to begin tracking.  
 - Work on the operation.  
 - Tap **Stop** to end tracking.  
 
-This records the time interval automatically.
+The time interval is recorded when you tap **Stop**.
 
 While tracking, the running work is listed under **Active work**.
 

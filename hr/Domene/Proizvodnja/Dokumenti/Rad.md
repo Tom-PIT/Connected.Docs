@@ -5,7 +5,7 @@
 
 # Rad
 
-Aktivnost **Rad** evidentira radno vrijeme utrošeno na operaciju. Koristite je za praćenje vremena operatera automatski (Početak/Zaustavi) ili ručno (unosom vremena ili trajanja).
+Aktivnost **Rad** evidentira radno vrijeme utrošeno na operaciju. Koristite je za praćenje vremena operatera s **Trenutačnom aktivnošću** (Početak/Zaustavi) ili ručno (unosom vremena ili trajanja).
 
 Aktivnost **Rad** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izbornika aktivnosti (dodirnite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md), a zatim odaberite **Rad**).
 
@@ -18,13 +18,13 @@ Aktivnost **Rad** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izbornika 
 3. Kliknite **Dodaj rad** za spremanje.  
 4. Po potrebi ponovite.
 
-### Automatski (Početak/Zaustavi)
+### Trenutačna aktivnost (Početak/Zaustavi)
 
 - Dodirnite **Početak** za početak praćenja.  
 - Radite na operaciji.  
 - Dodirnite **Zaustavi** za završetak praćenja.  
 
-Time se vremenski interval evidentira automatski.
+Vremenski interval evidentira se kad dodirnete **Zaustavi**.
 
 Dok je praćenje u tijeku, aktivni rad prikazuje se pod **Aktivan rad**.
 

@@ -6,7 +6,7 @@
 
 # Delo
 
-Aktivnost **Delo** se uporablja za beleženje porabljenega delovnega časa na operaciji. Omogoča sledenje času operaterja bodisi samodejno (Začetek/Ustavi) bodisi ročno (z vnosom časov ali trajanja).
+Aktivnost **Delo** se uporablja za beleženje porabljenega delovnega časa na operaciji. Omogoča sledenje času operaterja bodisi s **Trenutno aktivnostjo** (Začetek/Ustavi) bodisi ročno (z vnosom časov ali trajanja).
 
 Aktivnost **Delo** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire aktivnosti (tapnite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in nato izberite **Delo**).
 
@@ -19,13 +19,13 @@ Aktivnost **Delo** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire akti
 3. Kliknite **Dodaj delo**, da shranite.  
 4. Po potrebi ponovite.
 
-### Samodejno (Začetek/Ustavi)
+### Trenutna aktivnost (Začetek/Ustavi)
 
 - Tapnite **Začetek**, da pričnete beleženje.  
 - Opravljajte delo na operaciji.  
 - Tapnite **Ustavi**, da zaključite beleženje.  
 
-S tem se časovni interval zabeleži samodejno.
+Časovni interval se zabeleži, ko tapnete **Ustavi**.
 
 Med beleženjem je tekoče delo prikazano pod **Aktivno delo**.
 
