@@ -21,9 +21,9 @@ After this setup, changes made in `en/` or `sl/` are immediately visible to MkDo
 
 ## Publishing workflow
 
-1. Update the documentation on the **`en`** branch.
+1. Update the documentation on the **`docs/drafts`** branch.
 
-2. Merge **`en`** into **`main`**.
+2. Merge **`docs/drafts`** into **`main`**.
 
 3. Merge **`main`** into **`docs-mkdocs`**.
 
@@ -75,7 +75,7 @@ If the build lists only `index.md` and reports that the `nav` pages are not foun
 | Branch        | Purpose                                                       |
 | ------------- | ------------------------------------------------------------- |
 | `main`        | Stable source of truth for the documentation                  |
-| `en`          | Daily documentation work                                      |
+| `docs/drafts` | Daily documentation work                                      |
 | `docs-mkdocs` | MkDocs website source                                         |
 | `gh-pages`    | Generated website managed automatically by `mkdocs gh-deploy` |
 

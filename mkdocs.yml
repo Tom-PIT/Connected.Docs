@@ -32,7 +32,6 @@ theme:
     - navigation.top
     - navigation.path
     - search.suggest
-    - search.highlight
     - navigation.footer
 
 copyright: Copyright &copy; 2026 Tom PIT d.o.o. All rights reserved.
