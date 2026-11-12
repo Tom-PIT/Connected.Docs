@@ -44,7 +44,7 @@ flowchart LR
 | Polje | Opis |
 |------|------|
 | [**Materijal**](../../RobaIUsluge/Materijali/README.md) | Traženi materijal. |
-| **Code** | Šifra materijala. Unesite ili skenirajte šifru da biste dodali materijal. |
+| **Oznaka** | Šifra materijala. Unesite ili skenirajte šifru da biste dodali materijal. |
 | **Requested quantity** | Tražena količina u jedinici materijala (na primjer kom). |
 | **Moved quantity** | Količina koju su već premjestili dokumenti međuskladišnog prometa nastali iz zahtjeva. Popunjava se automatski. |
 | **Remaining quantity** | Količina koju još treba premjestiti. Popunjava se automatski. |

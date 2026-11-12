@@ -67,6 +67,10 @@ za proizvodne naloge v izbranem obdobju. Prikazuje:
 - neposredne povezave do proizvodnih nalogov in operacij,
   ki te materiale porabljajo
 
+## Zahtevki za material
+
+**[Zahtevek za material](Dokumenti/ZahteveZaMaterial.md)** skladišču zahteva materiale za proizvodni nalog. Ustvari se iz proizvodnega naloga in ne spremeni zaloge. Med-skladiščni promet, ustvarjen iz zahtevka, materiale premakne, en zahtevek pa lahko izpolnite v več prenosih.
+
 ## Analiza
 
 Razdelek **Analiza** omogoča vpogled v uspešnost proizvodnje, zastoje,

@@ -56,6 +56,10 @@ The **[Requirements](Documents/Requirements.md)** page aggregates all planned ma
 - Requirements grouped by material  
 - Direct links to production orders and operations that consume those materials  
 
+## Material requests
+
+A **[Material request](Documents/MaterialRequests.md)** asks the warehouse for the materials a production area needs. It is created from a production order, and it does not change stock. The [**Inter warehouse**](../Logistics/Documents/InterWarehouse.md) documents created from it move the materials, and a request can be filled in several transfers.
+
 ## Analytics
 
 The **Analytics** section provides insight into production performance, downtime, quality, loss distribution, and OEE.
