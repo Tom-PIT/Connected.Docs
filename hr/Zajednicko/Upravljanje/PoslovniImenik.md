@@ -124,7 +124,7 @@ Za dodavanje novog zapisa:
 
 #### E-računi
 
-Ovaj odjeljak omogućuje uključivanje izdavanja e-računa za poslovnog partnera.
+Ovaj odjeljak omogućuje uključivanje izdavanja e-računa za poslovnog partnera. Za detalje pogledajte [**E-računi**](../Koncepti/ERacuni.md).
 
 #### Uredi kontakt
 
