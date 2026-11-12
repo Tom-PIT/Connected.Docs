@@ -46,7 +46,7 @@ Izlazni računi mogu se po potrebi kreirati i ručno kao samostalni dokumenti.
 | **Poziv na broj** | Poziv na broj temeljen na odabranom tipu poziva na broj. |
 | [**Bankovni računi organizacije**](../Upravljanje/BankovniRacuniOrganizacije.md) | Bankovni račun na koji se očekuje uplata, odabire se iz šifrarnika bankovnih računa organizacije (obavezno). |
 | [**Mjesto troška**](../../../Zajednicko/Upravljanje/MjestaTroska.md) | Opcionalna dodjela prihoda mjestu troška. |
-| **Oznaka svrhe** | Opcionalna oznaka svrhe plaćanja, ako je konfigurirana. |
+| **Oznaka svrhe** | Opcionalna oznaka svrhe plaćanja, ako je konfigurirana. Obvezna za [e-račune](../../../Zajednicko/Koncepti/ERacuni.md). |
 | **Rabat** | Ukupni rabat primijenjen na cijeli račun. |
 | **Sadržaj gore** | Uvodni tekst iz [**Unaprijed pripremljenih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
 | **Sadržaj dolje** | Završni ili pravni tekst iz [**Unaprijed pripremljenih tekstova**](../../../Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md). |
@@ -209,7 +209,7 @@ Dostupne radnje mogu uključivati:
 
 ### Objava računa
 
-Kada je račun spreman, kliknite **Objavi** kako biste ga potvrdili i premjestili iz statusa **Nacrt**. Nakon objave postaju dostupne sve radnje vezane uz izlazni račun.
+Kada je račun spreman, kliknite **Objavi** kako biste ga potvrdili i premjestili iz statusa **Nacrt**. Nakon objave postaju dostupne sve radnje vezane uz izlazni račun. Za preduvjete i upute za e-račun pogledajte [**E-račune**](../../../Zajednicko/Koncepti/ERacuni.md).
 
 ### Evidentiranje plaćanja
 
