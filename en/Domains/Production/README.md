@@ -24,6 +24,7 @@ The domain is organized into the following functional areas:
 - **[Execution](Documents/Execution.md)** – real-time shop-floor activity reporting  
 - **[Cooperators](Documents/Cooperators.md)** – issuing and receiving materials for operations performed by external cooperators  
 - **[Requirements](Documents/Requirements.md)** – aggregated material needs for planned production  
+- **[Material request](Documents/MaterialRequest.md)** – ask the warehouse for materials. Does not change stock; inter warehouse documents created from it move the materials.  
 - **[Analytics](#analytics)** – insights into downtime, performance, loss, OEE, and KPIs  
 - **[Management](#management)** – configuration, process design, and master data  
 

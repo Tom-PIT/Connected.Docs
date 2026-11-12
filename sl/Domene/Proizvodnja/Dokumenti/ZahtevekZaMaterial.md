@@ -1,12 +1,12 @@
 <!-- app_route: /warehouse/documents/material-requests -->
 <!-- TODO: Confirm app_route against the live app. -->
 <!-- app_label: Zahtevek za material -->
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Logistika/Dokumenti/ZahtevekZaMaterial/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Dokumenti/ZahtevekZaMaterial/ -->
 <!-- canonical_source_title: Zahtevek za material -->
 
 # Zahtevek za material
 
-Dokument **Zahtevek za material** se uporablja za zahtevo za materiale iz skladišča. Je zahtevek, ki pride pred prenosom. Planer ali vodja izmene navede materiale in količine, ki jih potrebuje proizvodno območje. Skladišče nato zahtevek pregleda in materiale premakne z enim ali več dokumenti [**Med-skladiščni promet**](MedSkladiscniPromet.md).
+Dokument **Zahtevek za material** se uporablja za zahtevo za materiale iz skladišča. Je zahtevek, ki pride pred prenosom. Planer ali vodja izmene navede materiale in količine, ki jih potrebuje proizvodno območje. Skladišče nato zahtevek pregleda in materiale premakne z enim ali več dokumenti [**Med-skladiščni promet**](../../Logistika/Dokumenti/MedSkladiscniPromet.md).
 
 Zahtevek za material ne spremeni zaloge. Materiale premaknejo šele dokumenti med-skladiščnega prometa, ustvarjeni iz zahtevka.
 
@@ -45,7 +45,7 @@ Za dostop do dokumentov **Zahtevka za material** pojdite na **Logistika / Dokume
 
 ## Seznam dokumentov zahtevkov za material
 
-Stran **Zahtevek za material** prikazuje vse zahtevke. Dokument lahko poiščete z iskalno vrstico ali filtrirate seznam v levi stranski vrstici. Filtri delujejo enako kot na strani [**Prevzemi**](Prevzemi.md). Filtra po skladišču še ni.
+Stran **Zahtevek za material** prikazuje vse zahtevke. Dokument lahko poiščete z iskalno vrstico ali filtrirate seznam v levi stranski vrstici. Filtri delujejo enako kot na strani [**Prevzemi**](../../Logistika/Dokumenti/Prevzemi.md). Filtra po skladišču še ni.
 
 Dokument je lahko v enem od štirih stanj:
 
@@ -77,7 +77,7 @@ Z akcijo **Povrni v osnutek** lahko spremenite zahtevek, ki je že objavljen, na
 
 ### Ustvarjanje zahtevka za material iz proizvodnega naloga
 
-Zahtevek za material lahko ustvarite neposredno iz [**proizvodnega naloga**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md).
+Zahtevek za material lahko ustvarite neposredno iz [**proizvodnega naloga**](ProizvodniNalogi.md).
 
 1. Odprite proizvodni nalog.
 2. Izberite **Ustvari zahtevek za material**.
@@ -92,7 +92,7 @@ To je pomembno, ker lahko en zahtevek izpolnite v več prenosih.
 
 ## Ustvarjanje med-skladiščnega prometa iz zahtevka za material
 
-Ko skladišče obdela zahtevek, iz njega ustvari dokument [**Med-skladiščni promet**](MedSkladiscniPromet.md). Na zahtevku v razdelku **Povezani dokumenti** izberite **Ustvari med-skladiščni promet**.
+Ko skladišče obdela zahtevek, iz njega ustvari dokument [**Med-skladiščni promet**](../../Logistika/Dokumenti/MedSkladiscniPromet.md). Na zahtevku v razdelku **Povezani dokumenti** izberite **Ustvari med-skladiščni promet**.
 
 - Materiali in količine se prenesejo v dokument med-skladiščnega prometa.
 - Izberete **končno skladišče**. Če je organizacijska enota, ki izvaja nalog, v svojih podatkih povezana s skladiščem, se končno skladišče izbere samodejno.

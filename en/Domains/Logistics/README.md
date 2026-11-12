@@ -53,7 +53,6 @@ Available logistics documents include:
 - **[Simple receive](Documents/SimpleReceive.md)** – A lightweight alternative for quick inbound registrations.
 - **[Issues](Documents/Issues.md)** – Register goods leaving the warehouse (consumption, delivery, production input). Decreases stock.
 - **[Inter warehouse](Documents/InterWarehouse.md)** – Transfer goods between distinct warehouses or sites.
-- **[Material request](Documents/MaterialRequest.md)** – Ask the warehouse for materials. Does not change stock; inter warehouse documents created from it move the materials.
 - **[Move serial](Documents/MoveSerial.md)** – Relocate serial-numbered or batch materials across locations (does not change quantity).
 - **[Inventories](Documents/Inventories.md)** – Perform stock counts and reconcile discrepancies.
 - **[Writeoffs](Documents/Writeoffs.md)** – Adjust stock for damaged, lost, or expired materials. Decreases stock.

@@ -1,12 +1,12 @@
 <!-- app_route: /warehouse/documents/material-requests -->
 <!-- TODO: Confirm app_route against the live app. -->
 <!-- app_label: Material request -->
-<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Logistics/Documents/MaterialRequest/ -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Documents/MaterialRequest/ -->
 <!-- canonical_source_title: Material request -->
 
 # Material request
 
-A **Material request** document is used to ask the warehouse for materials. It is the request that comes before the transfer. A planner or shift supervisor lists the materials and quantities that a production area needs. The warehouse then reviews the request and moves the materials with one or more [**Inter warehouse**](InterWarehouse.md) documents.
+A **Material request** document is used to ask the warehouse for materials. It is the request that comes before the transfer. A planner or shift supervisor lists the materials and quantities that a production area needs. The warehouse then reviews the request and moves the materials with one or more [**Inter warehouse**](../../Logistics/Documents/InterWarehouse.md) documents.
 
 A material request does not change stock. Only the inter warehouse documents created from it move materials.
 
@@ -45,7 +45,7 @@ To access Material request documents, go to **Logistics / Documents / Material r
 
 ## List of material request documents
 
-The **Material request** page displays all requests. You can search for a document using the search bar, or filter the list using the left sidebar. The filters work the same way as on the [**Receives**](Receives.md) page. There is no warehouse filter yet.
+The **Material request** page displays all requests. You can search for a document using the search bar, or filter the list using the left sidebar. The filters work the same way as on the [**Receives**](../../Logistics/Documents/Receives.md) page. There is no warehouse filter yet.
 
 A document has one of four states:
 
@@ -77,7 +77,7 @@ Use **Return to draft** to change a request that has already been published, for
 
 ### Create a material request from a production order
 
-You can create a material request directly from a [**production order**](../../Production/Documents/ProductionOrders.md).
+You can create a material request directly from a [**production order**](ProductionOrders.md).
 
 1. Open the production order.
 2. Select **Create material request**.
@@ -92,7 +92,7 @@ This matters because one request can be filled in several transfers.
 
 ## Create an inter warehouse document from a material request
 
-When the warehouse processes a request, it creates an [**Inter warehouse**](InterWarehouse.md) document from it. Select **Create inter warehouse** in the **Linked documents** section of the request.
+When the warehouse processes a request, it creates an [**Inter warehouse**](../../Logistics/Documents/InterWarehouse.md) document from it. Select **Create inter warehouse** in the **Linked documents** section of the request.
 
 - The materials and quantities are copied to the inter warehouse document.
 - You select the **destination warehouse**. If the organization unit that runs the order is linked to a warehouse in its master data, the destination warehouse is selected automatically.

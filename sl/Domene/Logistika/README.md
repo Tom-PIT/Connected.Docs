@@ -54,7 +54,6 @@ Razpoložljivi logistični dokumenti vključujejo:
 - **[Poenostavljen prevzem](Dokumenti/PoenostavljenPrevzem.md)** – poenostavljena možnost za hitre vnose.
 - **[Izdajnice](Dokumenti/Izdajnice.md)** – beleženje iznosa blaga iz skladišča (poraba, dobava, proizvodni vhodi). Zmanjšuje zalogo.
 - **[Med-skladiščni promet](Dokumenti/MedSkladiscniPromet.md)** – premiki materiala med skladišči ali lokacijami.
-- **[Zahtevek za material](Dokumenti/ZahtevekZaMaterial.md)** – zahteva skladišču za materiale. Ne spremeni zaloge; iz njega ustvarjeni dokumenti med-skladiščnega prometa materiale premaknejo.
 - **[Premakni serijsko številko](Dokumenti/PremakniSerijskoStevilko.md)** – premik serijsko ali lotno vodenih materialov (brez spremembe količine).
 - **[Inventure](Dokumenti/Inventure.md)** – izvajanje inventur in usklajevanje razlik.
 - **[Odpisi](Dokumenti/Odpisi.md)** – odpis poškodovanih, izgubljenih ali pretečenih materialov. Zmanjšuje zalogo.
