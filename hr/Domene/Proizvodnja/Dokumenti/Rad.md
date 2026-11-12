@@ -26,6 +26,16 @@ Aktivnost **Rad** otvorite sa zaslona [**Izvedba**](Izvedba.md) putem izbornika 
 
 Time se vremenski interval evidentira automatski.
 
+Dok je praćenje u tijeku, aktivni rad prikazuje se pod **Aktivan rad**.
+
+![Aktivan rad](../Images/EffortActiveWorkHR.png "Aktivan rad")
+
+Za svaki aktivni rad možete:
+
+- **Uredi početno vrijeme** mijenja početak aktivnog rada.
+- **Zaustavi** zaustavlja aktivan rad i bilježi ga kao rad.
+- **Izbriši** odbacuje aktivan rad bez evidentiranja.
+
 ### Ručni unos
 
 Izravno unesite podatke:

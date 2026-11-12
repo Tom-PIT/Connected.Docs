@@ -27,6 +27,16 @@ Open **Effort** from the [**Execution**](Execution.md) screen via the activity s
 
 This records the time interval automatically.
 
+While tracking, the running work is listed under **Active work**.
+
+![Active work](../Images/EffortActiveWork.png "Active work")
+
+For each active work, you can:
+
+- **Edit start time** to change when the tracking started.
+- **Stop** to end the tracking and record it as effort.
+- **Delete** to discard the active work without recording it.
+
 ### Manual entry
 
 Enter the details directly:

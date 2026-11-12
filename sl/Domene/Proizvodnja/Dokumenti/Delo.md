@@ -27,6 +27,16 @@ Aktivnost **Delo** odprete na zaslonu [**Izvedba**](Izvedba.md) prek izbire akti
 
 S tem se časovni interval zabeleži samodejno.
 
+Med beleženjem je tekoče delo prikazano pod **Aktivno delo**.
+
+![Aktivno delo](../Images/EffortActiveWorkSL.png "Aktivno delo")
+
+Za vsako aktivno delo lahko:
+
+- **Uredi začetni čas** spremeni začetek aktivnega dela.
+- **Ustavi** ustavi aktivno delo in ga zabeleži kot delo.
+- **Izbriši** zavrže aktivno delo brez zapisa.
+
 ### Ročni vnos
 
 Čas lahko vnesete tudi ročno:
