@@ -71,7 +71,7 @@ Shranjeni zapisnik je prikazan tudi na vzdrževalnem nalogu.
 
 1. Odprite [akcijski gumb](../Skupno/UI/AkcijskiGumb.md) in izberite **Delo**, če to zahteva vaš potek dela. Glejte [**Delo**](../Domene/Vzdrzevanje/Dokumenti/IzvedbaVzdrzevanja.md#delo).
 
-### Samodejno:
+### Trenutna aktivnost:
 
 Pritisnite **Začni**, opravite delo, nato pritisnite **Ustavi**.
 

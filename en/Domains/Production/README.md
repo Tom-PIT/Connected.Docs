@@ -24,6 +24,7 @@ The domain is organized into the following functional areas:
 - **[Execution](Documents/Execution.md)** – real-time shop-floor activity reporting  
 - **[Cooperators](Documents/Cooperators.md)** – issuing and receiving materials for operations performed by external cooperators  
 - **[Requirements](Documents/Requirements.md)** – aggregated material needs for planned production  
+- **[Material request](Documents/MaterialRequests.md)** – ask the warehouse for materials. Does not change stock; inter warehouse documents created from it move the materials.  
 - **[Analytics](#analytics)** – insights into downtime, performance, loss, OEE, and KPIs  
 - **[Management](#management)** – configuration, process design, and master data  
 
@@ -54,6 +55,10 @@ The **[Requirements](Documents/Requirements.md)** page aggregates all planned ma
 - Required vs. available material quantities  
 - Requirements grouped by material  
 - Direct links to production orders and operations that consume those materials  
+
+## Material requests
+
+A **[Material request](Documents/MaterialRequests.md)** asks the warehouse for the materials a production area needs. It is created from a production order, and it does not change stock. The [**Inter warehouse**](../Logistics/Documents/InterWarehouse.md) documents created from it move the materials, and a request can be filled in several transfers.
 
 ## Analytics
 

@@ -95,6 +95,17 @@ A newly created inter warehouse document appears in **Drafts**. Once published, 
 
 Each document includes a **Notes** section where you can enter any comments or additional information related to the transaction. Notes are saved together with the document and remain visible both in draft and committed versions.
 
+### Move part of a material request
+
+An inter warehouse document can be created from a [**material request**](../../Production/Documents/MaterialRequests.md). Its lines are listed under **Material request lines not yet transferred**. You can move only some of the materials in one transfer. The rest stays on the request for a later transfer.
+
+1. Open the inter warehouse document.
+2. Click the material you want to move.
+3. Select the location to move the material from.
+4. Save.
+
+The moved material appears at the bottom of the document, under **No parent**. The materials that are not moved stay at the top, under **Material request lines not yet transferred**.
+
 ### Delete an inter warehouse document
 
 Draft documents can be deletedon the edit screen, but only if they contain **no material entries**.

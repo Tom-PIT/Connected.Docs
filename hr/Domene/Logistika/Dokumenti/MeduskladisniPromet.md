@@ -100,6 +100,17 @@ Nakon izrade dokument je dostupan u prikazu **Nacrti**. Nakon objave automatski 
 
 Odjeljak **Napomene** služi za unos dodatnih informacija vezanih uz dokument.
 
+### Premještanje dijela zahtjeva za materijal
+
+Međuskladišni prijenos možete stvoriti iz [**Material requests**](../../Proizvodnja/Dokumenti/MaterialRequests.md) zahtjeva. Njegove stavke navedene su pod skupinom **Material request lines not yet transferred**. U jednom dokumentu možete premjestiti samo neke materijale. Preostali dio ostaje na zahtjevu za kasniji prijenos.
+
+1. Otvorite dokument međuskladišnog prijenosa.
+2. Kliknite materijal koji želite premjestiti.
+3. Odaberite lokaciju s koje želite premjestiti materijal.
+4. Spremite.
+
+Premješteni materijal prikazuje se na dnu dokumenta pod skupinom **Bez nadređenog dokumenta**. Materijali koji nisu premješteni ostaju na vrhu pod skupinom **Material request lines not yet transferred**.
+
 ### Brisanje međuskladišnog prijenosa
 
 Dokument u statusu **Nacrt** moguće je izbrisati samo ako ne sadrži nijednu stavku.

@@ -30,6 +30,7 @@ Domena je organizirana v naslednja funkcionalna področja:
 - **[Izvedba](Dokumenti/Izvedba.md)** – sprotno poročanje o dejavnostih na proizvodnih linijah
 - **[Kooperanti](Dokumenti/Kooperanti.md)** – izdaja in prevzem materiala za operacije, ki jih izvajajo zunanji kooperanti
 - **[Zahteve](Dokumenti/Zahteve.md)** – agregirane materialne potrebe za planirano proizvodnjo
+- **[Zahtevek za material](Dokumenti/ZahteveZaMaterial.md)** – zahteva skladišču za materiale. Ne spremeni zaloge; iz njega ustvarjeni dokumenti med-skladiščnega prometa materiale premaknejo.
 - **[Analiza](#analiza)** – vpogled v zastoje, uspešnost, izgube, OEE in kazalnike
 - **[Upravljanje](#upravljanje)** – konfiguracija, zasnova procesov in šifranti
 
@@ -65,6 +66,10 @@ za proizvodne naloge v izbranem obdobju. Prikazuje:
 - zahteve, združene po materialih
 - neposredne povezave do proizvodnih nalogov in operacij,
   ki te materiale porabljajo
+
+## Zahtevki za material
+
+**[Zahtevek za material](Dokumenti/ZahteveZaMaterial.md)** skladišču zahteva materiale za proizvodni nalog. Ustvari se iz proizvodnega naloga in ne spremeni zaloge. Med-skladiščni promet, ustvarjen iz zahtevka, materiale premakne, en zahtevek pa lahko izpolnite v več prenosih.
 
 ## Analiza
 

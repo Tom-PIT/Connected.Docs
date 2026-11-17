@@ -134,7 +134,7 @@ Review and repeat quality checklists as needed. See [**Quality**](Quality.md) fo
 
 ### Effort
 
-Record working time for the operation. See [**Effort**](Effort.md) for detailed methods (automatic Start/Stop or manual entry) and editing tips.
+Record working time for the operation. See [**Effort**](Effort.md) for detailed methods (**Current activity** (Start/Stop) or manual entry) and editing tips.
 
 ### Instructions
 

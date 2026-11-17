@@ -65,6 +65,7 @@ Dostupni pogledi:
 - **[Kartice tvrtke](Pogledi/KarticeTvrtke.md)** – Pregled poslovnih partnera i njihove komercijalne aktivnosti.
 - **[Izvješća o otpremnicama](Pogledi/IzvjescaOOtpremnicama.md)** – Analiza isporučene robe prema kupcima.
 - **[Izvješće o narudžbama kupcu](Pogledi/IzvjesceONarudzbamaKupcu.md)** – Analiza potvrđenih narudžbi prema kupcima.
+- **[Stavke otpremnica](Pogledi/StavkeOtpremnica.md)** – Detaljan pregled pojedinačnih stavki otpremnica, s količinama i cijenama iz računa.
 - **[Stavke narudžbi](Pogledi/StavkeNarudzbi.md)** – Detaljan pregled pojedinačnih stavki narudžbi.
 
 Ovi zasloni služe isključivo za analizu podataka i ne stvaraju nove poslovne dokumente.

@@ -131,13 +131,13 @@ Za evidentiranje rada:
 
 ![Unos rada](../Images/TaskEffortScreenHR.png "Evidentiranje rada")
 
-#### Automatski (Početak / Zaustavi)
+#### Trenutačna aktivnost (Početak / Zaustavi)
 
 - kliknite **Početak** za početak praćenja
 - radite na zadatku
 - kliknite **Zaustavi** za završetak
 
-Sustav automatski evidentira vremenski interval.
+Vremenski interval evidentira se kad kliknete **Zaustavi**.
 
 #### Ručni unos
 

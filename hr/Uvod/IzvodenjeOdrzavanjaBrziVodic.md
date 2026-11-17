@@ -71,7 +71,7 @@ Spremljeni zapisnik prikazuje se i na nalogu za održavanje.
 
 1. Otvorite [gumb radnji](../Zajednicko/UI/AkcijskiGumb.md) i odaberite [**Rad**](../Domene/Odrzavanje/Dokumenti/IzvodenjeOdrzavanja.md#rad) ako to zahtijeva vaš tijek rada.
 
-### Automatski:
+### Trenutačna aktivnost:
 
 Pritisnite **Pokreni**, izvedite posao, zatim pritisnite **Zaustavi**.
 
