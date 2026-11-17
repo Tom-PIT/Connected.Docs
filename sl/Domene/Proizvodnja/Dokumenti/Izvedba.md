@@ -133,7 +133,7 @@ Pregled in ponavljanje kontrol kakovosti. Glejte **[Kvaliteta](Kvaliteta.md)**.
 
 ### Delo
 
-Beleženje delovnega časa. Glejte **[Delo](Delo.md)** za samodejne in ročne vnose.
+Beleženje delovnega časa. Glejte **[Delo](Delo.md)** za vnose s trenutno aktivnostjo in ročne vnose.
 
 ### Navodila
 

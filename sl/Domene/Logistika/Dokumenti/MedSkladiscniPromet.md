@@ -95,6 +95,17 @@ Novo ustvarjen dokument se prikaže med **Osnutki**. Po objavi se premakne med *
 
 Vsak dokument vsebuje razdelek **Postavke**, kamor lahko vnesete dodatne komentarje ali informacije o transakciji. Postavke se shranijo skupaj z dokumentom in so vidne tako v osnutku kot v objavljeni različici.
 
+### Premakniti del zahtevka za material
+
+Med-skladiščni promet lahko ustvarite iz [**zahtevka za material**](../../Proizvodnja/Dokumenti/ZahteveZaMaterial.md). Njegove vrstice so navedene pod skupino **Postavke zahtevka še niso prenesene**. V enem dokumentu lahko premaknete samo nekatere materiale. Preostanek ostane na zahtevku za poznejši prenos.
+
+1. Odprite dokument med-skladiščnega prometa.
+2. Kliknite material, ki ga želite premakniti.
+3. Izberite lokacijo, s katere želite material premakniti.
+4. Shranite.
+
+Premaknjeni material se prikaže na dnu dokumenta pod skupino **Brez nadrejenega dokumenta**. Materiali, ki niso premaknjeni, ostanejo na vrhu pod skupino **Postavke zahtevka še niso prenesene**.
+
 ### Izbrisati dokument med-skladiščnega prometa
 
 Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo nobenih postavk**.

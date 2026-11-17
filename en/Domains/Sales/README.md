@@ -61,9 +61,11 @@ The **Views** section provides analytical tools used to understand the performan
 
 Available views include:
 
+- **[Fiscal invoices](Views/FiscalInvoices.md)** – Fiscalized retail invoices issued to customers (B2C), reported to the tax authority.  
 - **[Company cards](Views/CompanyCards.md)** – High-level customer profiles summarizing commercial activity.  
 - **[Delivery note reports](Views/DeliveryNoteReports.md)** – Consolidated analysis of delivered assets grouped by customer; read-only; based on committed [delivery notes](Documents/DeliveryNotes.md).  
 - **[Sales order reports](Views/SalesOrderReport.md)** – Consolidated analysis of ordered assets grouped by customer; read-only; based on committed [sales orders](Documents/SalesOrders.md).  
+- **[Delivery note details](Views/DeliveryNoteDetails.md)** – Line-level view of delivery notes, with quantities and prices taken from invoices.  
 - **[Sales order details](Views/SalesOrderDetails.md)** – Detailed breakdown of individual sales orders.
 
 These screens do **not** create transactions—they support analysis and decision-making.

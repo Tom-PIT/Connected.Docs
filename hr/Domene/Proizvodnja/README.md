@@ -24,6 +24,7 @@ Domena je organizirana u sljedeća funkcionalna područja:
 - **[Izvedba](Dokumenti/Izvedba.md)** – evidentiranje aktivnosti u pogonu u stvarnom vremenu  
 - **[Kooperanti](Dokumenti/Kooperanti.md)** – izdavanje i zaprimanje materijala za operacije koje izvode vanjski kooperanti  
 - **[Zahtjevi](Dokumenti/Zahtjevi.md)** – zbirne potrebe za materijalom za planiranu proizvodnju  
+- **[Material requests](Dokumenti/MaterialRequests.md)** – zahtjev skladištu za materijale; ne mijenja zalihu, a međuskladišni prijenosi nastali iz njega premještaju materijale  
 - **[Analiza](#analiza)** – uvid u zastoje, učinkovitost, gubitke, OEE i ključne pokazatelje  
 - **[Upravljanje](#upravljanje)** – konfiguracija, oblikovanje procesa i matični podaci  
 
@@ -54,6 +55,10 @@ Stranica **[Zahtjevi](Dokumenti/Zahtjevi.md)** objedinjuje sve planirane ulazne 
 - potrebne i dostupne količine materijala  
 - zahtjeve grupirane po materijalu  
 - izravne poveznice na proizvodne naloge i operacije koje troše te materijale  
+
+## Material requests
+
+Stranica **[Material requests](Dokumenti/MaterialRequests.md)** služi za zahtjev skladištu za materijalima. Stvara se iz proizvodnog naloga i ne mijenja zalihu. Međuskladišni prijenosi nastali iz zahtjeva premještaju materijale, a jedan se zahtjev može ispuniti u više prijenosa.
 
 ## Analiza
 
