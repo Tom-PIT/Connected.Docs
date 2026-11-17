@@ -274,6 +274,7 @@ nav:
                   - Sales order details: en/Domains/Sales/Views/SalesOrderDetails.md
                   - Sales order report: en/Domains/Sales/Views/SalesOrderReport.md
                   - Delivery note reports: en/Domains/Sales/Views/DeliveryNoteReports.md
+                  - Delivery note details: en/Domains/Sales/Views/DeliveryNoteDetails.md
                   - Fiscal invoices: en/Domains/Sales/Views/FiscalInvoices.md
                   - Company cards: en/Domains/Sales/Views/CompanyCards.md
 
@@ -630,6 +631,7 @@ nav:
                   - Postavke naročil strank: sl/Domene/Prodaja/Pregledi/PostavkeNarocilStrank.md
                   - Poročila naročil strank: sl/Domene/Prodaja/Pregledi/PorocilaNarocilStrank.md
                   - Poročila dobavnic: sl/Domene/Prodaja/Pregledi/PorocilaDobavnic.md
+                  - Postavke dobavnic: sl/Domene/Prodaja/Pregledi/PostavkeDobavnic.md
                   - Davčno potrjeni računi: sl/Domene/Prodaja/Pregledi/DavcnoPotrjeniRacuni.md
                   - Poslovne kartice: sl/Domene/Prodaja/Pregledi/PoslovneKartice.md
 
@@ -953,6 +955,7 @@ nav:
                   - Stavke narudžbi: hr/Domene/Prodaja/Pogledi/StavkeNarudzbi.md
                   - Izvješće o narudžbama kupcu: hr/Domene/Prodaja/Pogledi/IzvjesceONarudzbamaKupcu.md
                   - Izvješća o otpremnicama: hr/Domene/Prodaja/Pogledi/IzvjescaOOtpremnicama.md
+                  - Stavke otpremnica: hr/Domene/Prodaja/Pogledi/StavkeOtpremnica.md
                   - Fiskalni računi: hr/Domene/Prodaja/Pogledi/FiskalniRacuni.md
                   - Kartice tvrtke: hr/Domene/Prodaja/Pogledi/KarticeTvrtke.md
 
