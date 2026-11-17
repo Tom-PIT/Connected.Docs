@@ -61,9 +61,11 @@ Razdelek **Pregledi** vsebuje analitična orodja za razumevanje uspešnosti in o
 
 Razpoložljivi pregledi vključujejo:
 
+- **[Davčno potrjeni računi](Pregledi/DavcnoPotrjeniRacuni.md)** – Fiskalizirani maloprodajni računi, izdani strankam (B2C), prijavljeni davčnemu organu.  
 - **[Poslovne kartice](Pregledi/PoslovneKartice.md)** – Finančni pregledi bremenitev in dobroimetij po strankah.  
 - **[Poročila dobavnic](Pregledi/PorocilaDobavnic.md)** – Konsolidirana analiza dobavljenih sredstev po strankah; samo za branje; temelji na potrjenih [dobavnicah](Dokumenti/Dobavnice.md).  
 - **[Poročila naročil strank](Pregledi/PorocilaNarocilStrank.md)** – Konsolidirana analiza naročenih sredstev po strankah; samo za branje; temelji na potrjenih [naročilih strank](Dokumenti/NarocilaStrank.md).  
+- **[Postavke dobavnic](Pregledi/PostavkeDobavnic.md)** – Podroben pregled postavk dobavnic, s količinami in cenami iz računov.  
 - **[Postavke naročil strank](Pregledi/PostavkeNarocilStrank.md)** – Podroben pregled posameznih postavk naročil strank.
 
 Ti pregledi **ne ustvarjajo** transakcij – namenjeni so analizi in podpori odločanju.
