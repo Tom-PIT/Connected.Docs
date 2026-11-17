@@ -103,6 +103,7 @@ nav:
                   - Equipment summary: en/Domains/Production/Analytics/EquipmentSummary.md
                   - Organization unit downtime: en/Domains/Production/Analytics/OrganizationUnitDowntime.md
                   - Organization unit loss: en/Domains/Production/Analytics/OrganizationUnitLoss.md
+                  - Organization unit running times: en/Domains/Production/Analytics/OrganizationUnitRunningTimes.md
                   - Version cost analysis: en/Domains/Production/Analytics/VersionCostView.md
 
               - Management:
@@ -452,6 +453,7 @@ nav:
                   - Povzetek stroja: sl/Domene/Proizvodnja/Analiza/PovzetekStroja.md
                   - Zastoji organizacijskih enot: sl/Domene/Proizvodnja/Analiza/ZastojiOrganizacijskihEnot.md
                   - Slabi kosi organizacijskih enot: sl/Domene/Proizvodnja/Analiza/SlabiKosiOrganizacijskihEnot.md
+                  - Izvajalni časi organizacijskih enot: sl/Domene/Proizvodnja/Analiza/IzvajalniCasiOrganizacijskihEnot.md
                   - Analiza stroška verzije: sl/Domene/Proizvodnja/Analiza/AnalizaStroskaVerzije.md
 
               - Upravljanje:
@@ -807,6 +809,7 @@ nav:
                   - Sažetak stroja: hr/Domene/Proizvodnja/Analiza/SazetakStroja.md
                   - Zastoji organizacijskih jedinica: hr/Domene/Proizvodnja/Analiza/OrganizationUnitDowntime.md
                   - Gubici organizacijskih jedinica: hr/Domene/Proizvodnja/Analiza/OrganizationUnitLoss.md
+                  - Organization unit running times: hr/Domene/Proizvodnja/Analiza/OrganizationUnitRunningTimes.md
                   - Analiza troška verzije: hr/Domene/Proizvodnja/Analiza/TrosakVerzije.md
 
               - Upravljanje:
