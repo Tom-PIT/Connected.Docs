@@ -74,6 +74,7 @@ Available analytical views include:
 - **[Loss summary](Analytics/LossSummary.md)** – Distribution of losses (scrap, rework, inefficiency) by category.
 - **[Organization unit downtime](Analytics/OrganizationUnitDowntime.md)** – Downtime analysis by organization unit.
 - **[Organization unit loss](Analytics/OrganizationUnitLoss.md)** – Loss analysis by organization unit.
+- **[Organization unit running times](Analytics/OrganizationUnitRunningTimes.md)** – Recorded running times and their total duration by organization unit.
 - **[Version cost view](Analytics/VersionCostView.md)** – Estimated production cost per item for a specific process version, including materials, effort, and expenses.
 These insights support production planning, continuous improvement, and operational decision-making.
 

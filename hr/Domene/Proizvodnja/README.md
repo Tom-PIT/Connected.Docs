@@ -74,6 +74,7 @@ Dostupni analitički prikazi:
 - **[Sažetak gubitka (škarta)](Analiza/SazetakGubitka.md)** – raspodjela gubitaka (škart, dorada, neučinkovitost) po kategorijama.
 - **[Organization unit downtime](Analiza/OrganizationUnitDowntime.md)** – analiza zastoja po organizacijskoj jedinici.
 - **[Organization unit loss](Analiza/OrganizationUnitLoss.md)** – analiza gubitaka po organizacijskoj jedinici.
+- **[Organization unit running times](Analiza/OrganizationUnitRunningTimes.md)** – zabilježena vremena izvođenja po organizacijskoj jedinici.
 - **[Pregled troška verzije](Analiza/TrosakVerzije.md)** – procijenjeni trošak proizvodnje po komadu za određenu verziju procesa, uključujući materijale, rad i troškove.
 
 Ti uvidi podržavaju planiranje proizvodnje, kontinuirano poboljšanje i donošenje operativnih odluka.

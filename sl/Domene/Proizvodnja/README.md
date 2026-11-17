@@ -86,6 +86,7 @@ Na voljo so naslednji analitični pregledi:
 - **[Povzetek slabih kosov](Analiza/PovzetekSlabihKosov.md)** – porazdelitev slabih kosov po kategorijah
 - **[Zastoji organizacijskih enot](Analiza/ZastojiOrganizacijskihEnot.md)** – analiza zastojev po organizacijskih enotah
 - **[Slabi kosi organizacijskih enot](Analiza/SlabiKosiOrganizacijskihEnot.md)** – analiza slabih kosov po organizacijskih enotah
+- **[Izvajalni časi organizacijskih enot](Analiza/IzvajalniCasiOrganizacijskihEnot.md)** – zabeleženi izvajalni časi po organizacijskih enotah.
 - **[Analiza stroškov verzije](Analiza/AnalizaStroskaVerzije.md)** – analiza stroškov po verzijah procesov
 
 Ti vpogledi podpirajo planiranje proizvodnje, stalne izboljšave
