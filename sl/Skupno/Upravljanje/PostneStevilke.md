@@ -75,3 +75,6 @@ Za brisanje poštne številke:
 4. Kliknite **Izbriši** in potrdite dejanje. 
 
 Poštno številko je mogoče izbrisati na strani za urejanje, vendar le, če ni uporabljena v drugih zapisih (npr. naslovih kupcev ali dobaviteljev).
+
+> [!NOTE]
+> Brisanje poštne številke **ne izbriše** pripadajočega vnosa države.

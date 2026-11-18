@@ -16,7 +16,7 @@ To access this screen, go to **Customers / Tickets / SLA tickets** in the [navig
 
 SLA features depend on your company configuration. If SLA settings are not enabled or desks have no SLA rules configured, this page may be empty. Only tickets belonging to desks with SLA configuration enabled appear on this screen.
 
-> [!IMPORTANT]
+> [!WARNING]
 > If a desk has no SLA rules defined, its tickets will not appear in this view. Contact your administrator to enable desk SLA settings if you do not see any data here.
 
 ## Schema

@@ -46,8 +46,11 @@ The list displays each tax rate's name and the applicable percentage. A search f
 To create a new tax rate, follow these steps:
 
 1. Click on the [action button](../UI/ActionButton.md) to open the form to add a new tax rate.
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to save the new tax rate or **Cancel** to return to the list view.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above.
 
 ![Add new tax rate](../Images/TaxRatesNew.png "Add new tax rate")
 
@@ -57,7 +60,7 @@ The **Ledger** section defines which general ledger accounts are used to post ta
 
 The **Debit** and **Credit** fields allow selection of accounts from the [**Chart of accounts**](../../Domains/Accounting/Management/Ledger/ChartOfAccounts.md) code list. These accounts determine where tax amounts are posted during accounting transactions.
 
-> [!NOTE]
+> [!IMPORTANT]
 > The ledger setup is required for accurate tax accounting, reporting, and regulatory compliance.
 
 ### Edit an existing tax rate

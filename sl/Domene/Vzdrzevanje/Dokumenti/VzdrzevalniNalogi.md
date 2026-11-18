@@ -27,7 +27,7 @@ flowchart LR
   class MS,RM source
 ```
 
-> [!NOTE]
+> [!WARNING]
 > **Predpogoji**
 >
 > Pred ustvarjanjem vzdrževalnega naloga se prepričajte, da so nastavljeni:

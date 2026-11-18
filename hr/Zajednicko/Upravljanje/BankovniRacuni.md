@@ -41,9 +41,12 @@ Za dodavanje novog bankovnog računa:
 
    ![Dodavanje bankovnog računa](../Images/BankAccountsNewHR.png)
 
-2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi. Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
+2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 
 3. Kliknite **Dodaj** za spremanje novog bankovnog računa ili **Poništi** za povratak na popis bez spremanja.
+
+> [!NOTE]
+> Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
 
 ### Urediti postojeći bankovni račun
 

@@ -10,7 +10,7 @@ Vsak zapis določa banko, IBAN številko ter ali je račun aktiven in ali se upo
 
 Za dostop do tega zaslona pojdite na **Prodaja / Šifranti / Bančni računi organizacije** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Pred upravljanjem bančnih računov zagotovite, da je šifrant [**Banke**](../../../Skupno/Upravljanje/BancniRacuni.md) pravilno nastavljen.
 
@@ -56,7 +56,7 @@ Razdelek **Glavna knjiga** določa, kateri [konto](../../Racunovodstvo/Upravljan
 
 Izbrani konto glavne knjige se uporablja pri knjiženju **plačil**, **prejemkov**, **bančnih izpiskov** in **uskladitev**. Vsi finančni premiki, povezani s tem bančnim računom, se knjižijo na izbrani konto.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
 ### Urejati bančni račun organizacije

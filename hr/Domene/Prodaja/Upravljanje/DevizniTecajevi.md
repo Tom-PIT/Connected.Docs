@@ -15,7 +15,7 @@ Devizni tečajevi omogućuju:
 
 Svaki tečaj definiran je za prijelaz **iz jedne valute u drugu** na određeni datum.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Prije definiranja deviznih tečajeva potrebno je definirati [**Valute**](../../../Zajednicko/Upravljanje/Valute.md).
 
 Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Devizni tečajevi** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).

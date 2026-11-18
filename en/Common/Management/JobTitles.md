@@ -57,3 +57,6 @@ To delete a job title, follow these steps:
 
 A job title can only be deleted if it is not referenced in existing contacts.
 
+> [!NOTE]
+> Deleting a job title does **not** remove entries in the Business directory.
+

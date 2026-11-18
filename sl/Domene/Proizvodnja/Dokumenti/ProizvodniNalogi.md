@@ -18,7 +18,7 @@ flowchart LR
     E -.-> C
 ```
 
-> [!NOTE]
+> [!WARNING]
 > **Predpogoji**  
 >
 > Pred ustvarjanjem novega proizvodnega naloga zagotovite, da je naslednje že nastavljeno:
@@ -128,7 +128,7 @@ Razdelek **Proces** prikazuje vse planirane [operacije](../Upravljanje/Operacije
 
 ![Pregled procesa](../Images/ProductionOrdersProcessV3SL.png "Pregled procesa")
 
-> [!OPOMBA]
+> [!NOTE]
 > Vhodni in izhodni razdelki:
 > - Prikazujejo **planiranje** in **dejanske** količine. Planirana količina je določena z izbrano različico procesa in količino naročila, medtem ko dejanska količina odraža podatke o izvedbi proizvodnje.
 > - Prikazujejo **zaloge** materialov, kar delavcem omogoča preverjanje razpoložljivosti pred začetkom proizvodnje.

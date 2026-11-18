@@ -22,5 +22,5 @@ Postavke su odvojene za **Ulazne račune** i **Osnovna sredstva**. Za svaku vrst
 
 Na primjer, oblik zapisa **RIN-{0:yyyy}-{1:D8}** određuje strukturu oznake za ulazne račune, a **FIA-{0:yyyy}-{1:D8}** za osnovna sredstva.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Model numeriranja i oblik zapisa primjenjuju se odmah nakon promjena. Postojeći dokumenti se ne numeriraju iznova.

@@ -19,7 +19,7 @@ Nastavitve konfiguracije skladišča omogočajo prilagoditev načina, kako siste
 
 Določa ločilni znak, ki se uporablja za razmejevanje GS1 podatkovnih elementov (Application Identifiers) znotraj skenirane črtne kode. Ta znak se uporablja za zaznavanje konca polj spremenljive dolžine (npr. serijska/lot številka).
 
-> [!IMPORTANT]
+> [!WARNING]
 > Vrednost mora biti vnesena v Unicode (šestnajstiški) obliki (npr. **0x001D**).
 
 Za vnos GS1 identifikacijskih podatkov pojdite na **Warehouse / Settings / GS1 settings** v stranskem meniju (glej spodaj).

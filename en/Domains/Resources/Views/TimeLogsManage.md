@@ -19,7 +19,7 @@ To access **Time logs – Manage**, go to **Resources / Time logs / Manage** in 
 
 ![Time logs manage](../Images/TimeLogsManage.png "Time logs – manage")
 
-> **Note**  
+> [!NOTE]  
 > Time logging actions may not be available to all users **from their work computers**. In many environments, workers record attendance primarily via a **physical card reader** (for example at the entrance).  
 >
 > In some setups (for example remote work), the same actions may also be available through the application.

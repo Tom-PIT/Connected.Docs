@@ -83,5 +83,5 @@ Lokacijo glavne knjige je mogoče izbrisati le, če **ni uporabljena** v drugih 
 
 Za brisanje lokacije jo odprite v načinu urejanja in izberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje lokacije glavne knjige, ki je v uporabi, lahko povzroči prekinjene povezave v računovodstvu ali poročilih.

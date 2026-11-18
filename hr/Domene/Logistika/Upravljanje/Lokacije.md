@@ -54,7 +54,7 @@ Nakon uvoza možete pregledati i po potrebi urediti uvezene lokacije na zaslonu 
 
 Kliknite **Poništi** za povratak bez uvoza.
 
-> [!NOTE]
+> [!WARNING]
 > Svaka lokacija mora biti povezana s postojećim **skladištem**, stoga prije uvoza provjerite jesu li sva potrebna [**skladišta**](Skladista.md) već definirana.
 
 #### Primjer CSV strukture

@@ -96,7 +96,7 @@ Neobavezna polja, poput **Porezna stopa**, **Neto cijena (jedinična)**, **EAN**
 #### Intrastat i glavna knjiga
 Koristite ove odjeljke za unos Intrastat i carinskih podataka koji se koriste za izvještavanje o trgovini unutar EU te za ostale računovodstvene pojedinosti.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Unesite ispravne konte u odjeljku **Glavna knjiga** (na primjer konte zaliha i troškova). Pogrešne ili nedostajuće vrijednosti uzrokovat će kasnije greške pri knjiženju u računovodstvu.
 
 #### Odjeljak Postavke

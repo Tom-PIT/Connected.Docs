@@ -11,7 +11,7 @@ Svaki zapis definira banku, njezin IBAN račun te označava je li račun aktivan
 
 Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Bankovni računi** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-> [!NOTE]
+> [!WARNING]
 > **Preduvjeti**
 >
 > Prije upravljanja bankovnim računima provjerite je li šifrarnik [**Banke**](../../../Zajednicko/Upravljanje/Banke.md) pravilno konfiguriran.
@@ -62,7 +62,7 @@ Odjeljak **Glavna knjiga** određuje konto glavne knjige koji predstavlja bankov
 
 Odabrani konto koristi se prilikom knjiženja uplata, isplata, bankovnih izvoda i usklađenja. Sve financijske transakcije povezane s ovim bankovnim računom evidentiraju se na odabranom kontu.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Ispravna konfiguracija glavne knjige potrebna je za točno upravljanje novčanim sredstvima, usklađenje i usklađenost sa zakonskim zahtjevima.
 
 </details>

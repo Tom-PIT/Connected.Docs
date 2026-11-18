@@ -39,6 +39,9 @@ Za ustvarjanje novega prednastavljenega besedila:
 2. Izpolnite vsa obvezna polja.
 3. Kliknite **Dodaj**, da shranite novo prednastavljeno besedilo.
 
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+
 ![Dodaj prednastavljeno besedilo](../Images/PredefinedTextsNewSL.png "Dodaj prednastavljeno besedilo")
 
 Izberite **entiteto**, vnesite **šifro** in napišite celotno **besedilo**. Po potrebi lahko zapis omogočite ali onemogočite.

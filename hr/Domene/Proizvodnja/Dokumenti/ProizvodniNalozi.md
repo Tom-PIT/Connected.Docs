@@ -18,7 +18,7 @@ flowchart LR
     E -.-> C
 ```
 
-> [!NOTE]
+> [!WARNING]
 > **Preduvjeti**  
 > 
 > Prije izrade novog proizvodnog naloga provjerite je li konfigurirano sljedeće:

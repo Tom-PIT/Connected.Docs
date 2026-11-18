@@ -14,7 +14,7 @@ To access this screen, go to **Accounting / Views / Intrastat** in the [navigati
 > [!NOTE]
 > This view is read-only. Corrections must be made in the source documents or relevant code lists, after which the Intrastat view is recalculated automatically.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Only transactions involving movement of goods between EU Member States are included. Domestic and non-EU transactions are excluded from Intrastat reporting.
 
 

@@ -288,6 +288,9 @@ Available actions:
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
+> [!NOTE]
+> A reversal negates the financial effect of a retail issued invoice. See **[Reversals](../../Logistics/Documents/Reversals.md)** for more details.
+
 
 
 

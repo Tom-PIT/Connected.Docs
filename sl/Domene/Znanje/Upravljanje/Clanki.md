@@ -105,5 +105,5 @@ Kliknite **Izbriši** na zaslonu za urejanje članka, da odprete potrditveno pog
 
 Če potrdite, se članek trajno odstrani.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Brisanje članka ga odstrani tudi iz imenikovega kazala.

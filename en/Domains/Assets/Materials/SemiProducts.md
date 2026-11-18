@@ -12,7 +12,7 @@ Each semi product includes key information—like  [measure units](../../../Comm
 > [!TIP]
 > For a full demonstration, see the **[Semi product materials](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)** video tutorial.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Prerequisites**  
 > Before managing semi products, ensure that the following code lists are properly configured:  
 > - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
@@ -142,7 +142,7 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 
 ![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
 
-> [!WARNING]
+> [!IMPORTANT]
 > Enter correct accounts in the **Ledger** section (for example, stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
 ### Import semi products

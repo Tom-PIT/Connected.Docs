@@ -14,7 +14,7 @@ Za dostop do tega zaslona pojdite na **Računovodstvo / Pregledi / Intrastat** v
 > [!NOTE]
 > Ta pogled je samo za branje. Popravke je treba opraviti v izvornih dokumentih ali ustreznih šifrantih, nato pa se pogled Intrastat samodejno ponovno izračuna.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Vključene so samo transakcije, ki zajemajo premik blaga med državami članicami EU. Domače transakcije in transakcije z državami zunaj EU niso vključene v poročanje Intrastat.
 
 ## Namen pogleda

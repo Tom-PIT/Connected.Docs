@@ -31,7 +31,7 @@ Domena je strukturirana v dve funkcionalni področji:
 
 ![Upravljanje domene Kvaliteta](Images/QualityDomainManagementSL.png "Upravljanje domene Kvaliteta")
 
-> [!NOTE]
+> [!TIP]
 > Urejanje predlog kontrolnih listov se izvaja v proizvodnem šifrantu: [Kontrolni listi](../Kvaliteta/Upravljanje/KontrolneListe.md). Domena **Kvaliteta** se osredotoča na spremljanje aktivnih in zaključenih izvajanj.
 
 > [!TIP]

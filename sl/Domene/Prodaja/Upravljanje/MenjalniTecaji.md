@@ -14,7 +14,7 @@ Menjalni tečaji sistemu omogočajo:
 
 Vsak menjalni tečaj je definiran **iz ene valute v drugo** (Osnovna → Ciljna) za določen datum.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Šifrant [**Valute**](../../../Skupno/Upravljanje/Valute.md) mora biti nastavljen pred ustvarjanjem menjalnih tečajev.
 
 Za dostop do te strani pojdite na **Prodaja / Šifranti / Menjalni tečaji** v [navigaciji](../../../Skupno/UI/Navigacija.md).

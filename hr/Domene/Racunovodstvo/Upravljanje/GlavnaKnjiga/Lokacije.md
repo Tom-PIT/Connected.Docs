@@ -86,5 +86,5 @@ Lokacija se može izbrisati samo ako je ne koriste drugi objekti.
 
 Za brisanje otvorite lokaciju u načinu uređivanja i odaberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje lokacije koja je u upotrebi može prekinuti veze u računovodstvu ili izvješćima.

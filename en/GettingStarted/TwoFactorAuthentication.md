@@ -7,7 +7,7 @@ Two-factor authentication (2FA) provides an additional layer of security when si
 
 When enabled, the system sends a temporary authentication code to the user’s email address. The user must enter this code to complete the sign-in process.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Two-factor authentication works only if:
 > - the functionality is enabled on the platform
 > - the user has a valid email address configured in **System / [Users](../Domains/System/Management/Users.md)**

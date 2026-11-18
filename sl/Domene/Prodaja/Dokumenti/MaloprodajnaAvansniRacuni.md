@@ -24,7 +24,7 @@ Maloprodajni avansni računi se uporabljajo pri neposredni prodaji končnim kupc
 6. Zaloga se prilagodi **ločeno** z dokumentom [**Izdaja**](../../Logistika/Dokumenti/Izdajnice.md)  
    (ali z uporabo [**Dobavnice**](Dobavnice.md) in nato **Izdaje**).
 
-> [!IMPORTANT]  
+> [!NOTE]  
 > Maloprodajna predplačila **ne vplivajo na zalogo**.
 
 ## Ravnanje z zalogo

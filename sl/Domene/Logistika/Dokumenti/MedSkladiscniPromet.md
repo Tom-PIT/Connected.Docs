@@ -118,7 +118,8 @@ Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebuje
 
 Ko dokument ne vsebuje več nobene postavke, lahko kliknete **Izbriši**, da odstranite osnutek.
 
-Objavljenih dokumentov **ni mogoče izbrisati**.
+> [!NOTE]
+> Objavljenih dokumentov **ni mogoče izbrisati**.
 
 ## Meni
 

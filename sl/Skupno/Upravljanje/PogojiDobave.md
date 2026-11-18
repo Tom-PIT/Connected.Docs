@@ -43,7 +43,7 @@ Za ustvarjanje novega pogoja dobave:
 > [!NOTE]
 > Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
-> [!NOTE]
+> [!TIP]
 > Kadar je to mogoče, uporabljajte standardne **Incoterms®** šifre in opise, da zagotovite jasnost in doslednost v mednarodnem poslovanju.
 
 ![Dodaj pogoj dobave](../Images/DeliveryTermsNewSL.png "Dodaj pogoj dobave")

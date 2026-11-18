@@ -61,5 +61,5 @@ A document type can be deleted only if it is **not referenced** by existing jour
 
 To delete it, click on an entry in the list to enter edit mode and select **Delete**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Deleting a document type that is required by journal entry workflows may prevent posting or reporting of accounting data.

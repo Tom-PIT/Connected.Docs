@@ -42,7 +42,7 @@ Seznam prikazuje vse oznake zastojev, definirane v sistemu.
 2. Posodobite **Naziv** in/ali nastavitev **Planiran**.
 3. Kliknite **Shrani**.
 
-> [!NOTE]
+> [!TIP]
 > Gumb **Dodaj** se uporablja tudi pri urejanju obstoječih oznak, skladno z uporabniškim vmesnikom.
 
 ## Izbrisati oznako zastoja

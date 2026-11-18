@@ -12,7 +12,7 @@ Vsak repro material vsebuje pomembne lastnosti – kot so [merske enote](../../.
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Repro materiali](https://www.youtube.com/watch?v=ZRUwbQrAolU)**.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Pred upravljanjem repro materialov zagotovite, da so naslednji šifranti pravilno nastavljeni:  
 > - [**Merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md)  
@@ -135,7 +135,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 ![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedgerSL.png "Materiali Intrastat in Glavna knjiga")
 
-> [!WARNING]
+> [!IMPORTANT]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
 #### Dodatno

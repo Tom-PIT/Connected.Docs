@@ -85,5 +85,5 @@ Privzeti konto je mogoče izbrisati le, če **ni uporabljen** v aktivnih sistems
 
 Za brisanje odprite vnos v načinu urejanja in izberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje privzetega konta, ki ga zahteva določen proces, lahko povzroči napake pri knjiženju ali nepopolne računovodske zapise.

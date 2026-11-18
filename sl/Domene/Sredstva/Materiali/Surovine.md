@@ -12,7 +12,7 @@ Ta šifrant predstavlja register vseh surovin znotraj strukture materialov.
 > [!TIP]
 > Za celovit prikaz si oglejte video vodič **[Surovine](https://www.youtube.com/watch?v=kb6I-eJ0tBU)**.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Pred upravljanjem surovin zagotovite, da so naslednji šifranti pravilno nastavljeni:  
 > - [**Merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md)  
@@ -133,7 +133,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 ![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedgerSL.png "Materiali Intrastat in Glavna knjiga")
 
-> [!WARNING]
+> [!IMPORTANT]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
 ### Uvoziti surovine

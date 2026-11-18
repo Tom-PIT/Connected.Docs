@@ -166,7 +166,7 @@ Kada se kartica skenira:
 * ako radnik trenutno nije prijavljen na operaciju, sustav započinje novi zapis rada.
 * ako radnik već ima aktivan zapis rada na operaciji, sustav zaustavlja zapis rada.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Utječe se samo na radno vrijeme radnika. Skeniranje kartice **ne**:
 >
 > * pokreće niti zaustavlja operaciju

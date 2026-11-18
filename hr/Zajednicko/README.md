@@ -11,7 +11,7 @@ Primjer zajedničkih šifrarnika u domeni **Prodaja**:
 
 ![Primjer zajedničkih šifrarnika](Images/CommonCodeListsExamplesHR.png "Primjer zajedničkih šifrarnika")
 
-> [!IMPORTANT]
+> [!WARNING]
 > Zajedničke šifrarnike potrebno je konfigurirati kao **prvi korak** prilikom postavljanja platforme.
 >
 > Bez tih podataka domene [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Logistika**](../Domene/Logistika/README.md) i [**Konfiguracija sustava**](../Domene/Sustav/Postavke/PostavkeSustava.md) ne mogu ispravno funkcionirati.
@@ -38,7 +38,7 @@ Ovi šifrarnici definiraju geografski i organizacijski kontekst tvrtke i njezini
 - **[Države](Upravljanje/Drzave.md)** – Definiraju države koje se koriste za adrese, dokumente, zakonske zahtjeve i lokalizaciju.
 - **[Poslovni imenik](Upravljanje/PoslovniImenik.md)** – Središnji popis kupaca, dobavljača i drugih poslovnih subjekata.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Države moraju biti konfigurirane prije postavljanja države organizacije u **Sustav → Konfiguracija → Organizacija** ili u **Postavkama zajedničkih šifrarnika**.
 
 ## Financijske i porezne postavke
@@ -49,7 +49,7 @@ Ove postavke utječu na sva financijska i novčana poslovanja u sustavu.
 - **[Porezne stope](Upravljanje/PorezneStope.md)** – Definiraju PDV i ostale porezne stope koje se koriste u prodaji i nabavi.
 - **[Načini plaćanja](../Domene/Prodaja/Upravljanje/NaciniPlacanja.md)** – Definiraju načine plaćanja koji se koriste u prodaji i financijama.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Valute moraju biti definirane prije nego što se mogu koristiti u:
 >
 > - **Sustav → Konfiguracija → Postavke zajedničkih šifrarnika**
@@ -100,5 +100,5 @@ Ako modul **Zajedničko** nije konfiguriran prije početka rada, korisnici mogu 
 - pogrešan prikaz podataka na računima i otpremnicama
 - pogreške prilikom konfiguracije sustava
 
-> [!CAUTION]
+> [!WARNING]
 > Nemojte započeti rad u domenama [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Logistika**](../Domene/Logistika/README.md) ili **Konfiguracija sustava** dok nisu konfigurirani svi potrebni zajednički šifrarnici.

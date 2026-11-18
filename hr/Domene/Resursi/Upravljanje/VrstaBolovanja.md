@@ -51,5 +51,5 @@ Kliknite **Spremi** da primijenite promjene. Izmijenjene vrste odmah se prikazuj
 
 Kliknite vrstu bolovanja na popisu da biste otvorili prikaz za uređivanje, zatim kliknite **Izbriši** i potvrdite radnju.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Brisanje može biti ograničeno ako je vrsta bolovanja povezana s postojećim zapisima (na primjer evidencijom vremena, prisutnosti ili odsustava). U tom slučaju umjesto brisanja onemogućite vrstu kako biste sačuvali povijesnu dosljednost.

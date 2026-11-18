@@ -14,7 +14,7 @@ Ovaj vodič jednostavnim riječima objašnjava što učiniti kad dobijete narud�
 > - Proizvođač (sami izrađujete robu) → obično proizvodnja (i kupnja sirovina ako nedostaju)
 > - Usluge/softver → obično ništa od toga (nema zaliha za kretanje)
 
-> [!TIP]
+> [!WARNING]
 > Prije početka provjerite jesu li definirani **[Procesi](../Domene/Proizvodnja/Upravljanje/Procesi.md)**, **[Ulazi](../Domene/Proizvodnja/Upravljanje/Unosi.md)** i **[Izlazi](../Domene/Proizvodnja/Upravljanje/Izlazi.md)**.
 
 ## Detaljni koraci
@@ -57,7 +57,7 @@ Ovaj vodič jednostavnim riječima objašnjava što učiniti kad dobijete narud�
 
 ### 4. Proizvodnja
 
-> [!IMPORTANT]
+> [!WARNING]
 > Provjerite da su vaš proces i operacije izrađeni u **[Procesima](../Domene/Proizvodnja/Upravljanje/Procesi.md)** s definiranim **[Ulazima](../Domene/Proizvodnja/Upravljanje/Unosi.md)** i **[Izlazima](../Domene/Proizvodnja/Upravljanje/Izlazi.md)**.
 
 #### 4.1 Izradite proizvodni nalog

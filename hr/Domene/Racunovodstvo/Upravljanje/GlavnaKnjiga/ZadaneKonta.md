@@ -88,5 +88,5 @@ Zadana vrijednost može se izbrisati samo ako je ne koriste aktivni sustavni pro
 
 Za brisanje kliknite zadanu vrijednost na popisu da uđete u način uređivanja i odaberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje zadane vrijednosti koja je potrebna nekom tijeku rada može uzrokovati greške pri knjiženju ili nepotpune računovodstvene zapise.

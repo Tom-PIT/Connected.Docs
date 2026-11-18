@@ -43,8 +43,11 @@ Pomoću filtara na lijevoj strani (**Aktivan / Neaktivan**) možete prikazati sa
 Za dodavanje novog kontakta:
 
 1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md) u donjem desnom kutu.
-2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi. Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
+2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje novog kontakta ili **Poništi** za povratak na popis bez spremanja.
+
+> [!NOTE]
+> Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
 
 ![Novi kontakt](../Images/ContactsNewHR.png "Novi kontakt")
 

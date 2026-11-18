@@ -98,5 +98,5 @@ An asset account connection can be deleted only if it is not required by existin
 
 To delete a connection, open it in edit mode and select **Delete**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Removing asset account connections may prevent invoices involving the asset from being posted correctly.

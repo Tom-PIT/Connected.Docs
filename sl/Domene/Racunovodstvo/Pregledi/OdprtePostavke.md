@@ -14,7 +14,7 @@ Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Pregledi
 > [!NOTE]
 > Pogled je samo za branje. Odprtih postavk ni mogoče urejati neposredno, temveč se zapirajo preko plačil, pobotov ali knjižb.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Prikazani podatki temeljijo izključno na pravilno knjiženih in poravnanih dokumentih.
 
 ## Namen pogleda

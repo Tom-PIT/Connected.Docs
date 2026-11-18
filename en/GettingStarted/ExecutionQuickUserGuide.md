@@ -47,7 +47,7 @@ Pressing **Produce** will **automatically start the operation**, even if you don
 
 Repeat whenever more items are completed.
 
-> **NOTE**  
+> [!TIP]  
 > Review **Instructions** if they appear or whenever needed:  
 > - Tap **Instructions** to view assembly steps, visuals, or operation-specific notes.
 

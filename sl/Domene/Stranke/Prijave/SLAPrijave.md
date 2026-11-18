@@ -21,7 +21,7 @@ Funkcionalnost SLA je odvisna od konfiguracije podjetja.
 
 Prikazane so samo prijave, ki pripadajo področjem z omogočeno SLA konfiguracijo.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Če področje nima definiranih SLA pravil, se njegove prijave ne bodo prikazale v tem pogledu. Če ne vidite nobenih podatkov, se obrnite na skrbnika sistema.
 
 ## Shema

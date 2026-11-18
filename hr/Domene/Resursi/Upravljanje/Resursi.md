@@ -100,7 +100,7 @@ Odabirom stavke u stablu prikazuju se njezini podaci i obrazac za uređivanje.
 2. Ispunite polja opisana u odgovarajućem odjeljku sheme.
 3. Kliknite **Dodaj** ili **Spremi** da potvrdite.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Da biste vozila koristili u povezanim dokumentima (na primjer [putnim nalozima](../Dokumenti/PutniNalozi.md)), dodajte ih kao **neljudske resurse** i označite ih oznakom **`vehicle`**. Sustav kao vozila prepoznaje samo neljudske resurse s tom oznakom.
 >
 > ![Vozila u putnim nalozima](../Images/ResourcesVehiclesHR.png "Vozila u putnim nalozima")

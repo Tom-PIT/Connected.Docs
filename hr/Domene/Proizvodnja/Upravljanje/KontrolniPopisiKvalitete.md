@@ -19,7 +19,7 @@ Za pristup ovoj stranici kliknite **Kvaliteta** na:
 
   ![Gumb Kvaliteta na operaciji](../Images/OperationsQualityButtonHR.png)
 
-> [!NOTE]
+> [!WARNING]
 > Najprije kreirajte kontrolni popis u šifrarniku **[Kontrolni popisi](../../Kvaliteta/Upravljanje/KontrolniPopisi.md)**. Ovdje se mogu povezati samo već definirani kontrolni popisi.
 
 > [!TIP]

@@ -49,5 +49,5 @@ Kliknite **Shrani**, da uveljavite spremembe. Posodobitve se takoj odražajo na 
 
 Kliknite tip bolniške odsotnosti na seznamu, da odprete zaslon za urejanje, nato kliknite **Izbriši** in potrdite dejanje.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Brisanje je lahko omejeno, če je tip uporabljen v obstoječih zapisih (npr. časovnih evidencah, evidencah prisotnosti ali odsotnosti). V takšnih primerih tip raje onemogočite namesto brisanja, da ohranite skladnost zgodovinskih podatkov.

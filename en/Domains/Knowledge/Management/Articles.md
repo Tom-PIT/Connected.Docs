@@ -105,5 +105,5 @@ Click **Delete** on the article edit screen to open a confirmation dialog:
 
 If confirmed, the article is permanently removed.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Deleting an article also removes it from the directory’s table of contents.

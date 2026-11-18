@@ -13,7 +13,7 @@ Vsak izdelek vsebuje pomembne podatke – kot so [merske enote](../../../Skupno/
 > Za celoten prikaz si oglejte video vodič  
 > **[Materiali izdelkov](https://www.youtube.com/watch?v=FcrJ_IHQYeA)**.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Pred upravljanjem izdelkov preverite, ali so pravilno nastavljeni naslednji šifranti:  
 > - [**Merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md)  
@@ -134,7 +134,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 ![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedgerSL.png "Materiali Intrastat in Glavna knjiga")
 
-> [!WARNING]
+> [!IMPORTANT]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
 #### Dodatno

@@ -86,5 +86,5 @@ A ledger location can be deleted only if it is **not referenced** by other objec
 
 To delete a ledger location, open it in edit mode and select **Delete**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Deleting a ledger location that is in use may break references in accounting or reporting.

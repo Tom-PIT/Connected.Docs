@@ -39,10 +39,10 @@ Ti skupni šifranti so potrebni za **[Prodajo](../Domene/Prodaja/README.md)**, *
 - **[Banke](../Skupno/Upravljanje/Banke.md)** — seznam bank za registracijo bančnih računov organizacije in partnerjev  
   Pojdite na: **Prodaja / Šifranti / Banke**
 
-> [!NOTE]
+> [!WARNING]
 > Domene in sistemske nastavitve so odvisne od teh vrednosti za pravilno delovanje.
 
-> [!IMPORTANT]
+> [!WARNING]
 >
 > Skupni šifranti morajo biti ustvarjeni pred njihovo izbiro v sistemski konfiguraciji ali domenskih dokumentih. Za podrobnosti glejte **[Skupno](../Skupno/Skupno.md)**.
 
@@ -68,7 +68,7 @@ Nastavite organizacijo in globalne privzete vrednosti, ki se uporabljajo v vseh 
 - **[Bančni računi organizacije](../Domene/Prodaja/Upravljanje/BancniRacuniOrganizacije.md)** — bančni računi podjetja, prikazani na računih in uporabljeni za plačila  
   Pojdite na: **Prodaja / Šifranti / Bančni računi organizacije**
 
-> [!NOTE]
+> [!WARNING]
 > Računi in avansni računi zahtevajo veljavne plačilne nastavitve.
 
 <!-- app_route: /management/contacts/companies -->
@@ -80,7 +80,7 @@ Dodajte poslovne partnerje (kupce, dobavitelje, sodelavce) za uporabo v nabavi, 
 - **[Poslovni imenik](../Skupno/Upravljanje/PoslovniImenik.md)** — centraliziran seznam kupcev, dobaviteljev in partnerjev  
   Pojdite na: **Prodaja / Šifranti / Poslovni imenik**
 
-> [!NOTE]
+> [!WARNING]
 > Dokumenti za ustvarjanje potrebujejo podatke o partnerjih (kupec, dobavitelj).
 
 <!-- app_route: /sitemap/assets -->
@@ -102,7 +102,7 @@ Dodajte materiale in sredstva, ki bodo uporabljeni v dokumentih in skladiščnih
   - **[Sredstva](../Domene/Sredstva/Sredstva/Sredstva.md)** — katalog sredstev in storitev s cenami in davčnimi podatki  
     Pojdite na: **Sredstva / Sredstva**
 
-> [!NOTE]
+> [!WARNING]
 > Prodajni in proizvodni dokumenti zahtevajo definirane artikle in vire.
 
 <!-- app_route: /sitemap/logistics.management -->
@@ -120,7 +120,7 @@ Za logistične ali proizvodne scenarije, ki vključujejo zalogo:
 - **[Skladiščne lokacije](../Domene/Proizvodnja/Upravljanje/SkladiscneLokacije.md)** — povezuje organizacijske enote s fizičnimi skladiščnimi lokacijami za vhodne in izhodne tokove  
   Pojdite na: **Proizvodnja / Šifranti / Skladiščne lokacije**
 
-> [!NOTE]
+> [!WARNING]
 > Skladiščne operacije zahtevajo definirana skladišča in lokacije.
 
 ## Zaključek

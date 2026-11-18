@@ -53,7 +53,8 @@ Available **Membership** roles can be selected from the dropdown:
 
 Click **Add** to create the user or **Cancel** to return to the list.
 
-> **Note:** Roles define the user’s access rights within the system. Role structures are configured individually, according to your business model and operational needs. Because of this, the exact meaning and scope of each role may differ between implementations.
+> [!NOTE]
+> Roles define the user’s access rights within the system. Role structures are configured individually, according to your business model and operational needs. Because of this, the exact meaning and scope of each role may differ between implementations.
 
 ## Edit a user
 

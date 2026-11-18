@@ -20,5 +20,5 @@ Določite način številčenja in obliko zapisa šifre dokumentov za temeljnice 
 | **Način številčenja dokumenta** | • **Povečevanje vsako leto** – številčenje se vsako leto ponastavi. <br> • **Neprekinjeno povečevanje** – enotno zaporedje brez letne ponastavitve. |
 | **Oblika zapisa šifre dokumenta** | Vzorec, ki določa strukturo šifre dokumenta. |
 
-> [!NOTE]
+> [!IMPORTANT]
 > Spremembe načina številčenja in oblike zapisa začnejo veljati takoj. Obstoječi dokumenti se ne preštevilčijo.

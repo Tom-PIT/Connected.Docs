@@ -293,3 +293,6 @@ Dostupne radnje:
 - **Vrati u nacrt**
 
 Za više informacija o radnjama izbornika pogledajte [**Radnje izbornika**](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).
+
+> [!NOTE]
+> Storniranje maloprodajnog računa poništava njegov financijski učinak. Pojedinosti potražite u dokumentu **[Storno](../../Logistika/Dokumenti/Storno.md)**.
