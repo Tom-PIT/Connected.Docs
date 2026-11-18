@@ -66,6 +66,12 @@ Zatim se prikaže **Status analize** s rezultatom. Za pregled kontrolne liste kl
 > [!NOTE]
 > Klik na vezu statusa samo prikazuje kontrolnu listu. Za odgovaranje kliknite naziv materijala.
 
+## Privici
+
+Odjeljak **Privici** služi za dodavanje i upravljanje datotekama povezanim s dokumentom, poput fotografija, PDF-ova, certifikata ili drugih priloga.
+
+Za više informacija pogledajte [**Privici**](../../../Zajednicko/Koncepti/Privici.md).
+
 ## Izbrisati analizu materijala
 
 Dokumente analize materijala nije moguće izbrisati.

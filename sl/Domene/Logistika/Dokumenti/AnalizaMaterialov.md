@@ -65,6 +65,12 @@ Nato se prikaže **Status analize** z rezultatom. Za pregled kontrolne liste kli
 > [!NOTE]
 > Klik na povezavo statusa samo prikaže kontrolno listo. Za odgovarjanje kliknite ime materiala.
 
+## Priponke
+
+Razdelek **Priponke** uporabite za nalaganje in upravljanje datotek, povezanih z dokumentom, kot so fotografije, PDF datoteke, certifikati ali podporni dokumenti.
+
+Za podrobna navodila glejte [**Priponke**](../../../Skupno/Koncepti/Priponke.md).
+
 ## Izbrisati analize materialov
 
 Dokumentov analize materialov **ni mogoče izbrisati**.
