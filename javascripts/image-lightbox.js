@@ -21,8 +21,11 @@
     close.setAttribute("aria-label", "Close");
     close.textContent = "×";
 
-    overlay.appendChild(big);
-    overlay.appendChild(close);
+    var frame = document.createElement("div");
+    frame.className = "img-lightbox__frame";
+    frame.appendChild(big);
+    frame.appendChild(close);
+    overlay.appendChild(frame);
     document.body.appendChild(overlay);
 
     overlay.addEventListener("click", hide);
