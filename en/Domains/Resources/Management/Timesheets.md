@@ -55,7 +55,7 @@ The new timesheet becomes immediately available for selection in time and effort
 2. Update the **Name** as needed.
 3. Save the changes.
 
-> [!NOTE]  
+> [!IMPORTANT]  
 > Timesheets are configuration data. Changes should be made carefully, especially if the timesheet is already widely used in historical records.
 
 ### Delete a timesheet

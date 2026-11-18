@@ -39,10 +39,10 @@ These shared code lists are required by **[Sales](../Domains/Sales/README.md)**,
 - **[Banks](../Common/Management/Banks.md)** — list of banks used to register organization and partner bank accounts  
   Go to: **Sales / Management / Banks**
 
-> [!NOTE]
+> [!WARNING]
 > Domains and System settings depend on these values for correct behavior.
 
-> [!IMPORTANT]
+> [!WARNING]
 >
 > Common code lists must be created before selecting them in System configuration or domain documents. See **[Common domain](../Common/README.md)** for details.
 
@@ -68,7 +68,7 @@ If your scenarios include Sales documents, configure payment data:
 - **[Organization bank accounts](../Domains/Sales/Management/OrganizationBankAccounts.md)** — company bank accounts shown on invoices and used for payments  
   Go to: **Sales / Management / Organization bank accounts**
 
-> [!NOTE]
+> [!WARNING]
 > Invoices and prepayments require valid payment definitions.
 
 <!-- app_route: /management/contacts/companies -->
@@ -80,7 +80,7 @@ Add business partners (customers, vendors, cooperators) to use them across procu
 - **[Business directory](../Common/Management/BusinessDirectory.md)** — centralized list of customers, suppliers, and partner entities  
   Go to: **Sales / Management / Business directory**
 
-> [!NOTE]
+> [!WARNING]
 > Documents need partner data (customer, supplier) to be created.
 
 <!-- app_route: /sitemap/assets -->
@@ -102,7 +102,7 @@ Add materials and assets that will be used in documents and stock operations acc
   - **[Assets](../Domains/Assets/Assets/Assets.md)** — catalog of goods and services with pricing and tax info.  
     Go to: **Assets / Assets**
 
-> [!NOTE]
+> [!WARNING]
 > Sales and production documents require defined items and resources.
 
 <!-- app_route: /sitemap/logistics.management -->
@@ -120,7 +120,7 @@ For logistics or production scenarios involving stock:
 - **[Warehouse locations](../Domains/Production/Management/WarehouseLocations.md)** —  links organization units to physical warehouse locations for staging inputs/outputs  
   Go to: **Production / Management / Warehouse locations**
 
-> [!NOTE]
+> [!WARNING]
 > Stock operations require defined storage sites and locations.
 
 ## Conclusion

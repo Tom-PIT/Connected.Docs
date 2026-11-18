@@ -11,6 +11,9 @@ Do pogleda dostopate prek **Proizvodnja / Analiza / Povzetek slabih kosov** v [n
 
 ![Povzetek slabih kosov](../Images/LossSummaryViewSL.png)
 
+> [!TIP]
+> Za celovit prikaz analitike proizvodnje si oglejte video vodič **[Povzetek slabih kosov](https://www.youtube.com/watch?v=BnboA1WuUu0)**.
+
 ## Filtri
 
 ### Datum  

@@ -20,4 +20,7 @@ Choose the numbering model and format for Production documents (Production order
 | **Document numbering model** | • **Incremental for each year:** sequence resets annually. <br> • **Incremental:** a global sequence that never resets.  |
 | **Document code format** | Pattern defining structure (for example, PREFIX?YEAR-NUMBER). |
 
+> [!IMPORTANT]
+> The numbering model and format apply immediately after changes are made. Existing documents are not renumbered.
+
 

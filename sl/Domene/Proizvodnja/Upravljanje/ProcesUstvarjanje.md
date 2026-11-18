@@ -8,7 +8,7 @@ Ta vodič prikazuje, kako ustvariti celovit proces, konfigurirati njegove verzij
 
 Primer v tem vodiču prikazuje **proizvodni proces** za izdelavo **hrastovega stola**, vendar enaka načela veljajo tudi za vzdrževalne procese.
 
-> [!NOTE]
+> [!WARNING]
 >
 > * Ta vodič predpostavlja, da so potrebni materiali, viri in kontrolne liste kakovosti že ustvarjeni. Za več informacij glejte:
 >
@@ -35,7 +35,7 @@ Odprite **Proizvodnja / Upravljanje / Procesi**.
 
 Proces je zdaj ustvarjen.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Prepričajte se, da je dodeljena oznaka **Proizvodnja**, sicer proces ne bo na voljo pri ustvarjanju proizvodnih nalogov.
 
 ### Primer

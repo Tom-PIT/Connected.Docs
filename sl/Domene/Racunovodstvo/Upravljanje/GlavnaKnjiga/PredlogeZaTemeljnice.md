@@ -120,5 +120,5 @@ Predlogo temeljnice je mogoče izbrisati samo, če **ni uporabljena** v obstoje�
 
 Za brisanje odprite predlogo v načinu urejanja in izberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje predloge temeljnice, ki je v uporabi, lahko onemogoči ustvarjanje ali ponovno ustvarjanje temeljnic.

@@ -11,7 +11,7 @@ Amortizacijske skupine se uporabljajo pri osnovnih sredstvih in jih sistem upora
 
 Za dostop do tega zaslona pojdite na **Računovodstvo / Glavna knjiga / Upravljanje / Amortizacijske skupine** v [navigaciji](../../../../Skupno/UI/Navigacija.md).
 
-> [!NOTE]
+> [!WARNING]
 > **Predpogoji**
 >
 > **[Konti](Konti.md)** morajo biti nastavljeni ustrezni konti za **nabavno vrednost**, **popravek vrednosti** in **strošek amortizacije**.
@@ -97,5 +97,5 @@ Amortizacijsko skupino je mogoče izbrisati le, če **ni uporabljena** pri noben
 
 Za brisanje odprite amortizacijsko skupino v načinu urejanja in izberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje amortizacijske skupine, ki je v uporabi, lahko onemogoči pravilno izvajanje amortizacije za povezana sredstva.

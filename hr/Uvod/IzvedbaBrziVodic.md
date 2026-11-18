@@ -47,7 +47,7 @@ Pritiskom na **Proizvedi** operacija se **automatski pokreće**, čak i ako ne m
 
 Ponovite kad se završi još artikala.
 
-> **NAPOMENA**
+> [!TIP]
 > Pregledajte **Upute** ako se pojave ili kad je potrebno:
 > - dodirnite **Upute** za prikaz koraka sastavljanja, slika ili napomena specifičnih za operaciju.
 

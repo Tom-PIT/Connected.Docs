@@ -16,7 +16,7 @@ Do ovog ekrana dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacija
 
 Funkcije SLA ovise o konfiguraciji tvrtke. Ako postavke SLA nisu uključene ili područja nemaju definirana SLA pravila, ovaj ekran može biti prazan. Na ekranu se prikazuju samo prijave područja s uključenom SLA konfiguracijom.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Ako područje nema definirana SLA pravila, njegove prijave neće se prikazati u ovom prikazu. Ako ne vidite nikakve podatke, obratite se administratoru da omogući postavke SLA za područja.
 
 ## Shema

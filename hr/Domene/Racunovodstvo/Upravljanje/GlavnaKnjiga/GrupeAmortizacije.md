@@ -11,7 +11,7 @@ Grupe amortizacije navode se uz osnovna sredstva, a sustav ih koristi pri izrač
 
 Ovom ekranu pristupate odabirom **Računovodstvo / Glavna knjiga / Upravljanje / Grupe amortizacije** u [navigaciji](../../../../Zajednicko/UI/Navigacija.md).
 
-> [!NOTE]
+> [!WARNING]
 > **Preduvjeti**
 >
 > [**Kontni plan**](KontniPlan.md) mora imati potrebne konte za **nabavnu vrijednost**, **ispravak vrijednosti** i **trošak amortizacije**.
@@ -102,5 +102,5 @@ Grupa amortizacije može se izbrisati samo ako je ne koristi nijedno osnovno sre
 
 Za brisanje otvorite grupu u načinu uređivanja i odaberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje grupe amortizacije koja je u upotrebi može onemogućiti obradu amortizacije za pogođena osnovna sredstva.

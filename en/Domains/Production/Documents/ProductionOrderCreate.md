@@ -22,7 +22,7 @@ Choose the **[Process](../Management/Processes.md)** and **Process version** tha
 
 ![Step 2](../Images/ProductionOrdersNewStep2.1.png "Step 2 - Select process")
 
-> [!NOTE]
+> [!WARNING]
 > If no processes are listed in this step, verify configuration in the **[Processes](../Management/Processes.md)** code list. Ensure the process includes the “Production” tag and has an active version. Missing the tag is a common reason the process does not appear here.
 
 ### **Step 3 — Provide additional information**

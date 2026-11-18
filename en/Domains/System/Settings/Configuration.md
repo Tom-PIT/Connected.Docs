@@ -7,7 +7,7 @@
 
 The **Configuration** section, found under **System / Configuration**, contains global system settings that define core organizational and localization behavior. 
 
-> [!IMPORTANT]
+> [!WARNING]
 >
 >These settings are referenced by nearly all modules ([Sales](../../Sales/README.md), [Supply](../../Supply/README.md), [Logistics](../../Logistics/README.md), [Projects](../../Projects/README.md), etc.) and must be configured before operational work begins.
 
@@ -35,14 +35,14 @@ To access these settings go to **CommonTypes / CommonTypes Settings** in the lef
 
 Select the country where the organization operates. This setting controls localization and regulatory defaults across documents and modules.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > The selected country **must already exist** in the **[Countries](../../../Common/Management/Countries.md)** code list. If not configured there first, it will not appear in the dropdown menu.
 
 ### Currency
 
 Select the default currency for the organization. This setting controls monetary formatting and default document currency across modules and reports.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > The selected currency **must already exist** in the **[Currencies](../../../Common/Management/Currencies.md)** code list.
 
 These two settings form the foundation for all financial and commercial operations across the platform.

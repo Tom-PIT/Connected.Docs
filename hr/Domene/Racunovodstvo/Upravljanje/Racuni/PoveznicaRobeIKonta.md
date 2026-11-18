@@ -98,5 +98,5 @@ Poveznica se može izbrisati samo ako je ne zahtijevaju postojeća knjiženja ra
 
 Za brisanje otvorite poveznicu u načinu uređivanja i odaberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Uklanjanje poveznica može onemogućiti ispravno knjiženje računa koji se odnose na robu ili uslugu.

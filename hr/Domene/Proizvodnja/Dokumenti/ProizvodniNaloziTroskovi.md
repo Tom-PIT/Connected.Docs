@@ -21,7 +21,7 @@ Kako bi se točnije izračunali stvarni troškovi proizvedenog artikla, planiran
     2. Odaberite trošak operacije i iznos.
     3. Kliknite **Dodaj** za spremanje novog troška.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Planirani trošak izračunava se **po nalogu**. Na primjer, ako trošak iznosi **2 €** po komadu, a planirana količina proizvodnje je 10, trošak iznosi **20 €**.
 
 ## Evidentiranje stvarnog troška

@@ -90,7 +90,7 @@ Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) za ustvarjanje nove
 
 V polje **Neto cena (na enoto)** vnesite zahtevane podatke in stroške, če so znani. Kliknite **Shrani**, da ustvarite stroške. Nov zapis se bo nato prikazal na seznamu.
 
-> [!OPOMBA]
+> [!NOTE]
 > Stroški stroškov bodo samodejno izpolnjeni v nabavnem nalogu, če je strošek dodan kot postavka in je **Neto cena (na enoto)** znana.
 
 #### Strošek podizvajalca

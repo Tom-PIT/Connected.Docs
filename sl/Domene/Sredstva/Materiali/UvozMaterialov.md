@@ -18,7 +18,7 @@ Uvoz podpira naslednje vrste materialov:
 Zaslon omogoča tudi prenos **primerne datoteke**, ki prikazuje zahtevano strukturo preglednice.  
 Pred dejanskim uvozom lahko izvedete **Testni uvoz**, ki preveri podatke in poroča o napakah, ne da bi uveljavil spremembe.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Pred uvozom materialov preverite naslednje šifrante:  
 > - **[Merske enote](../../../Skupno/Upravljanje/MerskeEnote.md)**  
@@ -51,7 +51,7 @@ Kliknite **Prenesi**, da pridobite primer uvozne datoteke v izbrani obliki. Prim
 
 Uvozna datoteka mora v prvi vrstici imeti glavo s spodaj navedenimi nazivi stolpcev v tem vrstnem redu. Vsaka naslednja vrstica predstavlja en material, ki bo uvožen.
 
-> [!IMPORTANT]
+> [!WARNING]
 > - Ne spreminjajte vrstnega reda stolpcev in nazivov stolpcev v glavi. Kot referenco uporabite primerno datoteko.
 > - Materiali morajo imeti enolične vrednosti v stolpcu **Code**, da se izognete konfliktom.
 > - Prazna neobvezna polja bodo uvožena kot prazne vrednosti.

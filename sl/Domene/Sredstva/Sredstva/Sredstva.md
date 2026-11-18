@@ -118,7 +118,7 @@ Kliknite **Dodaj**, da dodate podrobnost sredstva, ali **Prekliči**, da zaprete
 
 Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri poročanju.
 
-> [!WARNING]
+> [!IMPORTANT]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
 

@@ -39,8 +39,11 @@ A **Search** bar is available to quickly find records by code or text content.
 To create a new predefined text, follow these steps:
 
 1. Click the [action button](../UI/ActionButton.md) to open the form to create a new predefined text.
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to save the new predefined text or **Cancel** to return to the list view.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above.
 
 ![Add predefined text](../Images/PredefinedTextsNew.png "Add predefined text")
 

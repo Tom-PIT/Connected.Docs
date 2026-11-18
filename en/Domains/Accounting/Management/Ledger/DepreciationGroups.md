@@ -11,7 +11,7 @@ Depreciation groups are referenced by assets and are used by the system when dep
 
 To access this screen, go to **Accounting / Ledger / Management / Depreciation groups** in the [navigation](../../../../Common/UI/Navigation.md).
 
-> [!NOTE]
+> [!WARNING]
 > **Prerequisites**
 >
 > The [**Chart of accounts**](ChartOfAccounts.md) must be configured with the necessary accounts for **purchase value**, **value corrections**, and **depreciation costs**.
@@ -102,5 +102,5 @@ A depreciation group can be deleted only if it is **not referenced** by any exis
 
 To delete a depreciation group, open it in edit mode and select **Delete**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Deleting a depreciation group that is in use may prevent depreciation processing for affected assets.

@@ -63,5 +63,5 @@ Na strani za urejanje lahko posodobite katero koli od polj delovnega mesta. Spre
 
 Kliknite delovno mesto na seznamu, da odprete stran za urejanje, nato kliknite **Izbriši**. Po potrditvi je zapis trajno izbrisan.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Delovna mesta je mogoče izbrisati tudi, če so nanje dodeljeni uporabniki.

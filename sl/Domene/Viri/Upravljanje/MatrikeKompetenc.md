@@ -113,5 +113,5 @@ Izbrisane kompetence:
 - Niso več na voljo za dodeljevanje uporabnikom
 - Ne vplivajo na zgodovinske zapise
 
-> [!WARNING]
+> [!IMPORTANT]
 > Pri brisanju bodite previdni, zlasti če so kompetence že dodeljene uporabnikom.

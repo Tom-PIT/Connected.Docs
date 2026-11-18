@@ -11,7 +11,7 @@ Za dostop do tega pogleda pojdite na **Računovodstvo / Glavna knjiga / Upravlja
 
 ![Seznam AOP](../../Images/AOPListSL.png)
 
-> [!IMPORTANT]
+> [!NOTE]
 > AOP postavke so zakonsko predpisani elementi poročanja. Na voljo so zgolj za vpogled in jih uporabniki ne morejo spreminjati.
 
 ## Namen

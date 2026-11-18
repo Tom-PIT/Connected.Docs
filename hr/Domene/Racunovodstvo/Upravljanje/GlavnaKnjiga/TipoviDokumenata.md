@@ -62,5 +62,5 @@ Tip dokumenta može se izbrisati samo ako ga ne koriste postojeće temeljnice ni
 
 Za brisanje otvorite tip u načinu uređivanja i odaberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje tipa dokumenta koji je potreban tijekovima temeljnica može onemogućiti knjiženje ili izvještavanje.

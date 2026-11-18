@@ -96,7 +96,7 @@ Optional fields such as **Tax rate**, **Item price net**, **EAN**, **Tags**, and
 #### Intrastat and Ledger
 Use these sections to enter Intrastat and customs details used for EU trade reporting, and other accounting details.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Enter correct accounts in the **Ledger** section (for example, stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
 #### Details section

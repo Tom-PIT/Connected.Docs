@@ -43,7 +43,7 @@ S pritiskom na **Proizvedi** se operacija **samodejno zažene**, tudi če ne spr
 
 Postopek ponovite vsakič, ko dokončate nove kose.
 
-> [!NOTE]  
+> [!TIP]  
 > Po potrebi preverite **Navodila**:  
 > - tapnite **Navodila**, da si ogledate korake sestave, slike ali opombe, specifične za operacijo.
 

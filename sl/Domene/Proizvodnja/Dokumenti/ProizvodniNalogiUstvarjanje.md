@@ -21,7 +21,7 @@ Izberite **[Proces](../Upravljanje/Procesi.md)** in **verzijo procesa**, ki dolo
 
 ![2. korak](../Images/ProductionOrdersNewStep2SL.png "2. korak – Izbira procesa")
 
-> [!NOTE]
+> [!WARNING]
 > Če v tem koraku ni prikazan noben proces, preverite nastavitve v šifrantu **[Procesi](../Upravljanje/Procesi.md)**.  
 > Prepričajte se, da ima proces oznako »Proizvodnja« in aktivno verzijo. Manjkajoča oznaka je pogost razlog, da se proces tukaj ne prikaže.
 

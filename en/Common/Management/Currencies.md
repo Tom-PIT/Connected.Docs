@@ -9,7 +9,7 @@ The **Currencies** code list defines all monetary units that can be used across 
 
 This page is available in the **Sales** and **Supply** domains, to access it go to **Management / Currencies** in the [navigation](../../Common/UI/Navigation.md).
 
-> [!NOTE]  
+> [!WARNING]  
 > **Prerequisites**  
 > A currency must be configured before it can be used in price lists, documents, or financial calculations.
 

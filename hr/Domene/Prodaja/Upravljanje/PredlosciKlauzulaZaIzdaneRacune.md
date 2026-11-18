@@ -9,7 +9,7 @@
 
 Za pristup ovom dokumentu idite na **Prodaja / Upravljanje / Predlošci klauzula za izdane račune** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
-> [!NOTE]
+> [!WARNING]
 > **Preduvjeti**
 >
 > Prije izrade predložaka klauzula provjerite sljedeće:

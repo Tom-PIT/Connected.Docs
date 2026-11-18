@@ -56,7 +56,7 @@ Novi radni list odmah je dostupan za odabir na ekranima za evidentiranje vremena
 2. Izmijenite **Naziv** prema potrebi.
 3. Kliknite **Spremi**.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Radni listovi su konfiguracijski podaci. Mijenjajte ih pažljivo, osobito ako se već koriste u povijesnim zapisima.
 
 ### Brisanje radnog lista

@@ -14,7 +14,7 @@ Exchange rates allow the system to:
 
 Each exchange rate is defined **from one currency to another** (Base → Target) for a specific date.
 
-> [!IMPORTANT]
+> [!WARNING]
 > [**Currencies**](../../../Common/Management/Currencies.md) must be defined before creating exchange rates.
 
 To access this page, go to **Sales / Management / Exchange rates** in the [navigation](../../../Common/UI/Navigation.md).

@@ -11,7 +11,7 @@ Example of Common code lists in the **Sales** domain:
 
 ![Common Code Lists Examples](Images/CommonCodeListsExamples.png "Common Code Lists Examples")
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > The Common Code Lists should be the **first configuration step** when setting up the platform.  
 >  
 >Without these values, [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Logistics**](../Domains/Logistics/README.md), and [**System Configuration**](../Domains/System/Settings/Configuration.md) cannot function correctly.
@@ -39,7 +39,7 @@ These settings define the geographic and organizational context of the company a
 - **[Countries](Management/Countries.md)** – Defines allowed countries used for addresses, documents, legal formatting, and localization.  
 - **[Business directory](Management/BusinessDirectory.md)** – Central database of companies, suppliers, and other legal entities.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Countries must be configured before setting the organization’s country in **System → Configuration → Organization** or in **Common Types Settings**.
 
 ### Financial & Currency Settings
@@ -50,7 +50,7 @@ These settings influence all monetary and financial behavior across domains.
 - **[Tax rates](Management/TaxRates.md)** – VAT or other tax definitions used in sales and procurement.  
 - **[Payment methods](../Domains/Sales/Management/PaymentMethods.md)** – Payment definitions used in Sales and Finance.  
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Currencies must be created here **before** selecting them in:  
 > - System → [Configuration](../Domains/System/Settings/Configuration.md) → Common Types Settings  
 > - [Sales documents](../Domains/Sales/README.md)  
@@ -110,6 +110,6 @@ If the Common module is not configured first, users will encounter:
 - incorrect formatting on invoices and delivery notes  
 - errors in system configuration  
 
-> [!CAUTION]  
+> [!WARNING]  
 > Do not proceed with [**Sales**](../Domains/Sales/README.md), [**Supply**](../Domains/Supply/README.md), [**Logistics**](../Domains/Logistics/README.md), or [**System Configuration**](../Domains/System/Settings/Configuration.md) until all required Common Code Lists have been created.
 

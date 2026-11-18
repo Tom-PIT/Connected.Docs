@@ -10,7 +10,7 @@ The **Organization bank accounts** code list stores the IBAN accounts used by yo
 
 To access Organization bank accounts, go to **Sales / Management / Organization bank accounts** in the [navigation](../../../Common/UI/Navigation.md).
 
-> [!NOTE]  
+> [!WARNING]  
 > **Prerequisites**  
 > Before managing bank records, ensure that the [Banks](../../../Common/Management/Banks.md) code list is properly configured.
 
@@ -57,7 +57,7 @@ The Ledger section defines which general ledger account represents the organizat
 
 The selected ledger account is used when posting payments, receipts, bank statements, and reconciliations. All financial movements related to this bank account are recorded against the selected account.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Correct ledger configuration is required for accurate cash management, reconciliation, and regulatory compliance.
 
 ### Edit an organization bank account

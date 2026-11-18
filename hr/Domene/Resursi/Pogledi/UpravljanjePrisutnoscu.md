@@ -19,7 +19,7 @@ Do ovog pogleda dolazite tako da u [navigaciji](../../../Zajednicko/UI/Navigacij
 
 ![Dnevnik prisutnosti – Upravljanje](../Images/TimeLogsManageHR.png "Dnevnik prisutnosti – Upravljanje")
 
-> **Napomena**  
+> [!NOTE]  
 > Radnje evidentiranja vremena možda nisu dostupne svim korisnicima **s radnih računala**. U mnogim okruženjima zaposlenici prisutnost evidentiraju prvenstveno pomoću **čitača kartica** (na primjer na ulazu).
 >
 > U nekim postavkama (na primjer rad od kuće) iste radnje mogu biti dostupne i kroz aplikaciju.

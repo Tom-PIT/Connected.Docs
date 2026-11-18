@@ -114,5 +114,5 @@ Obrisane kompetencije:
 - više nisu dostupne za dodjelu korisnicima
 - ne utječu na povijesne zapise
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje koristite oprezno, osobito kada su kompetencije već dodijeljene korisnicima.

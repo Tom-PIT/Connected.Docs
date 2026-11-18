@@ -9,7 +9,7 @@
 
 Za pristup ovom šifrarniku idite na **Prodaja / Upravljanje / Banke** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-> [!NOTE]
+> [!WARNING]
 > **Preduvjeti**
 >
 > Prije upravljanja zapisima banaka provjerite je li šifrarnik [**Države**](Drzave.md) pravilno konfiguriran.
@@ -47,8 +47,11 @@ Polje **Pretraživanje** omogućuje brzo pronalaženje banaka prema nazivu ili B
 Za dodavanje nove banke:
 
 1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md).
-2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi. Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
+2. Ispunite sva obavezna polja. Neobavezna polja ispunite prema potrebi.
 3. Kliknite **Dodaj** za spremanje nove banke ili **Poništi** za povratak na popis bez spremanja.
+
+> [!NOTE]
+> Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
 
 ![Nova banka](../Images/BanksNewHR.png "Dodavanje nove banke")
 

@@ -20,5 +20,5 @@ Izberite model in obliko oštevilčevanja dokumentov, povezanih z računi.
 | **Način številčenja dokumenta** | • **Povečevanje vsako leto:** oštevilčevanje se ob začetku vsakega leta ponastavi. <br> • **Povečevanje:** ena neprekinjena zaporedna številka brez letne ponastavitve. |
 | **Oblika zapisa šifre dokumenta** | Vzorec, ki določa strukturo šifre dokumenta. |
 
-> [!NOTE]
+> [!IMPORTANT]
 > Izbrani model in oblika oštevilčevanja začneta veljati takoj po spremembi. Obstoječi dokumenti se ne preštevilčijo.

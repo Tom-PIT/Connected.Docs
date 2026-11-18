@@ -65,3 +65,6 @@ To delete a business unit, follow these steps:
 4. Click the **Delete** button.  
 
 A business unit can only be deleted if it is not referenced in other records (such as delivery addresses or documents).
+
+> [!NOTE]
+> Deleting a business unit does **not** delete the associated Business directory entry.

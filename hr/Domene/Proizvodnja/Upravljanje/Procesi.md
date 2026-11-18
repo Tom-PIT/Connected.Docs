@@ -89,7 +89,7 @@ Na lijevoj strani dostupni su sljedeći filtri:
 
 3. Kliknite **Dodaj**.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Oznake određuju gdje se proces može koristiti. Ako procesu nije dodijeljena odgovarajuća oznaka (npr. **Proizvodnja** ili **Održavanje**), neće biti dostupan prilikom izrade dokumenata u tom području, primjerice [**Proizvodnog naloga**](../Dokumenti/ProizvodniNalozi.md) ili [**Naloga za održavanje**](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md).
 
 ## Uređivanje procesa

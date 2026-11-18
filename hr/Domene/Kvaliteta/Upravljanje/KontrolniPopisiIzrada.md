@@ -199,6 +199,9 @@ Otvorite željenu **Verziju procesa** i odaberite kontrolni popis u odjeljku **K
 
 ![Dodavanje kontrolnog popisa u proces](../Images/ChecklistExampleAddToProcessHR.png "Dodavanje kontrolnog popisa u proces")
 
+> [!NOTE]
+> Kontrolni popisi mogu se priložiti i [organizacijskim jedinicama](../../Proizvodnja/Upravljanje/OrganizacijskeJedinice.md), čime se automatski uključuju u svaki proces koji ta jedinica izvršava.
+
 Tijekom izvršavanja procesa operater ispunjava sve kontrolne točke i unosi tražene podatke.
 
 ![Izvršavanje kontrolnog popisa](../Images/ChecklistExampleExecutionHR.png "Izvršavanje kontrolnog popisa")

@@ -17,7 +17,7 @@ Do te strani dostopate s klikom na gumb **Kakovost** iz:
 - **Operacije**  
   ![Gumb Kakovost na operaciji](../Images/OperationsQualityButtonSL.png)
 
-> [!NOTE]
+> [!WARNING]
 > Kontrolno listo je treba najprej pripraviti v šifrantu **[Kontrolne liste](../../Kvaliteta/Upravljanje/KontrolneListe.md)**. Tukaj je mogoče povezati samo že definirane kontrolne liste.
 
 > [!TIP]

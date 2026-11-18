@@ -16,7 +16,7 @@ Ovom ekranu pristupate odabirom **Računovodstvo / Glavna knjiga / Upravljanje /
 
 ![AOP – popis (slovenski primjer)](../../Images/AOPListaHR.png "AOP – popis (slovenski primjer)")
 
-> [!IMPORTANT]
+> [!NOTE]
 > AOP pozicije su zakonski elementi izvještavanja. Služe samo kao referenca i korisnici ih ne mogu mijenjati.
 
 ## Ovisnost o državi

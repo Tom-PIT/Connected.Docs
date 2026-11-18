@@ -14,7 +14,7 @@ Ovom pregledu pristupate odabirom **Računovodstvo / Glavna knjiga / Pregledi / 
 > [!NOTE]
 > Ovaj pregled je samo za čitanje. Otvorene stavke ne mogu se uređivati izravno, nego se moraju riješiti plaćanjima, podmirenjima ili ispravnim knjiženjima.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Točnost ovog pregleda ovisi o ispravnom knjiženju, podmirenju i usklađivanju računa i plaćanja.
 
 ## Svrha pregleda

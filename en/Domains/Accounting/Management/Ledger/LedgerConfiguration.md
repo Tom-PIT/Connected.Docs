@@ -20,5 +20,5 @@ Choose the numbering model and format for journal entries and bank statements.
 | **Document numbering model** | • **Incremental for each year:** numbering restarts at the beginning of each year. <br> • **Incremental:** a single continuous sequence without yearly reset. |
 | **Document code format** | Pattern defining the document code structure. |
 
-> [!NOTE]
+> [!IMPORTANT]
 > The numbering model and format apply immediately after changes are made. Existing documents are not renumbered.

@@ -54,7 +54,7 @@ Datoteko povlecite v območje za nalaganje ali kliknite območje, da odprete pog
 Po uvozu lahko lokacije pregledate in po potrebi prilagodite na zaslonu za upravljanje lokacij.
 
 Kliknite **Prekliči**, da se vrnete na seznam brez uvoza.
-> [!NOTE]
+> [!WARNING]
 > Vsaka lokacija je vezana na **skladišče**, zato se prepričajte, da vsa referencirana [**skladišča**](Skladisca.md) že obstajajo v sistemu.
 
 #### Primer strukture CSV

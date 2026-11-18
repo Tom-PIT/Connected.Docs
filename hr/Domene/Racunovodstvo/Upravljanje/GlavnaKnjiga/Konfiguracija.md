@@ -22,5 +22,5 @@ Postavke su odvojene za **Temeljnice** i **Bankovni izvodi**. Za svaku vrstu dok
 
 Na primjer, oblik zapisa **JRL-{0:yyyy}-{1:D8}** daje oznake poput JRL-2026-00000108 za temeljnice.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Model numeriranja i oblik zapisa primjenjuju se odmah nakon promjena. Postojeći dokumenti se ne numeriraju iznova.

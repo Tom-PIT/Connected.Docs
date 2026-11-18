@@ -34,5 +34,5 @@ Nastavitve številčenja za dokumente **Serije**.
 - **Način številčenja dokumenta**: določa logiko številčenja serij.
 - **Oblika zapisa šifre dokumenta**: določa format šifre serije (npr. `BCH-{0:yy}-{1:D6}`).
 
-> [!NOTE]
+> [!IMPORTANT]
 > Spremembe konfiguracije se uporabijo za nove dokumente. Obstoječi dokumenti se ne preštevilčijo.

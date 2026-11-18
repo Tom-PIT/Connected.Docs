@@ -27,7 +27,7 @@ flowchart LR
   class MS,RM source
 ```
 
-> [!NOTE]
+> [!WARNING]
 > **Preduvjeti**
 >
 > Prije izrade naloga za održavanje provjerite da su konfigurirani:

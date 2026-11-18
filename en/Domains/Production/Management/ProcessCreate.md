@@ -8,7 +8,7 @@ This tutorial explains how to create a complete process, configure its version a
 
 The example in this tutorial focuses on a **production process** for manufacturing an **Oak Wood Chair**, but the same principles apply when creating maintenance processes.
 
-> [!NOTE]
+> [!WARNING]
 > - This tutorial assumes that the required materials, resources, and quality checklists have already been created. For more information, see:
 >    * [**Materials**](../../Assets/Materials/README.md)
 >    * [**Resources**](../../Resources/Management/Resources.md)
@@ -33,7 +33,7 @@ Open **Production / Management / Processes**.
 
 The process is now created.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Make sure the **Production** tag is assigned, otherwise the process will not be available when creating production orders.
 
 ### Example

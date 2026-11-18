@@ -121,5 +121,5 @@ A journal entry template can be deleted only if it is **not referenced** by exis
 
 To delete a template, open it in edit mode and select **Delete**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Deleting a journal entry template that is in use may prevent the creation or reproduction of journal entries.

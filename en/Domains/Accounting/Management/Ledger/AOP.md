@@ -13,7 +13,7 @@ To access this screen, go to **Accounting / Ledger / Management / AOP** in the [
 
 ![AOP list](../../Images/AOPList.png)
 
-> [!IMPORTANT]
+> [!NOTE]
 > AOP positions are statutory reporting elements. They are provided for reference only and cannot be changed by users.
 
 ## Country-specific structure

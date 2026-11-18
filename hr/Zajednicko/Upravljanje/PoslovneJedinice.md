@@ -65,3 +65,6 @@ Za brisanje poslovne jedinice:
 4. Kliknite **Izbriši**.
 
 Poslovna jedinica može se izbrisati samo ako nije povezana s drugim zapisima, primjerice adresama isporuke ili dokumentima.
+
+> [!NOTE]
+> Brisanjem poslovne jedinice **ne briše** se pripadajući zapis u Poslovnom imeniku.

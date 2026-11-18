@@ -15,7 +15,7 @@ Do tega zaslona dostopate preko **Planiranje / Planiranje** v [navigaciji](../..
 
 Proizvodni nalogi so prikazani na koledarju glede na njihov **planiran začetek** in **planiran konec**.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Proizvodni nalog bo viden v Planiranju samo, če sta določena tako **planiran začetek** kot **planiran konec**.  
 > Ti vrednosti se nastavita ob ustvarjanju ali urejanju proizvodnega naloga. Glej [**Proizvodni nalogi**](../../Proizvodnja/Dokumenti/ProizvodniNalogiUstvarjanje.md#datumi).
 

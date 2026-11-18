@@ -44,7 +44,7 @@ To create a new delivery term, follow these steps:
 > [!NOTE]
 > For more details on the fields, see the [**Schema**](#schema) section above. 
 
-> [!IMPORTANT]
+> [!TIP]
 > Make sure to use standard Incoterms® codes and descriptions when applicable, to ensure clarity and consistency in international trade.
 
 ![Add delivery term](../Images/DeliveryTermsNew.png "Add delivery term")

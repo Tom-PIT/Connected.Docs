@@ -27,7 +27,7 @@ flowchart LR
   class MS,RM source
 ```
 
-> [!NOTE]
+> [!WARNING]
 > **Prerequisites**
 >
 > Before creating a maintenance order, ensure that the following are configured:

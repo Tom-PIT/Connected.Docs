@@ -16,7 +16,7 @@ Ta vodič v preprostih korakih pojasnjuje, kaj storiti, ko prejmete naročilo st
 > - Proizvodno podjetje (izdelujete izdelke) → običajno **proizvodnja** (in dokup surovin, če manjkajo)
 > - Storitve/programska oprema → običajno nobeno (ni zaloge)
 
-> [!TIP]
+> [!WARNING]
 > Preden začnete, preverite, da so definirani **[Procesi](../Domene/Proizvodnja/Upravljanje/Procesi.md)**, **[Vhodi](../Domene/Proizvodnja/Upravljanje/Vhodi.md)** in **[Izhodi](../Domene/Proizvodnja/Upravljanje/Izhodi.md)**.
 
 ## Podrobni koraki
@@ -72,7 +72,7 @@ Ta vodič v preprostih korakih pojasnjuje, kaj storiti, ko prejmete naročilo st
 
 ### 4. Proizvodnja (izdelava)
 
-> [!IMPORTANT]
+> [!WARNING]
 > Preverite, da so vaši procesi/operacije definirani v **[Procesih](../Domene/Proizvodnja/Upravljanje/Procesi.md)** z določenimi **[Vhodi](../Domene/Proizvodnja/Upravljanje/Vhodi.md)**/**[Izhodi](../Domene/Proizvodnja/Upravljanje/Izhodi.md)**.
 
 <!-- app_route: /production-orders -->

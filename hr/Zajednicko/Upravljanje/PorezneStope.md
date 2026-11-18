@@ -60,7 +60,7 @@ Odjeljak **Glavna knjiga** određuje koja se konta koriste za knjiženje poreza 
 
 Polja **Duguje** i **Na teret** omogućuju odabir konta iz šifrarnika [**Kontni plan**](../../Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md).
 
-> [!NOTE]
+> [!IMPORTANT]
 > Ispravna konfiguracija konta glavne knjige potrebna je za točno knjiženje poreza, izradu izvještaja i usklađenost s računovodstvenim propisima.
 
 ### Urediti poreznu stopu

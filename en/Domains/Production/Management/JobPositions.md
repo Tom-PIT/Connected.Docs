@@ -63,6 +63,6 @@ To edit an existing job position, click on its name in the list. This opens the 
 
 Click a job position on the list to open the edit screen, then click **Delete**. If confirmed, the record is permanently deleted.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Job positions can be deleted freely, even if users are assigned to them.
 

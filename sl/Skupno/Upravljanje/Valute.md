@@ -8,7 +8,7 @@
 
 Ta stran je na voljo v domenah **Prodaja** in **Nabava**. Za dostop pojdite na **Upravljanje / Valute** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Valuta mora biti konfigurirana, preden se lahko uporablja v cenikih, dokumentih ali finančnih izračunih.
 
@@ -44,6 +44,9 @@ Za ustvarjanje nove valute:
 1. Kliknite [akcijski gumb](../UI/AkcijskiGumb.md), da odprete zaslon za dodajanje nove valute.
 2. Izpolnite vsa obvezna polja.
 3. Kliknite **Dodaj**, da shranite novo valuto.
+
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
 
 ![Dodaj novo valuto](../Images/CurrenciesNewSL.png)
 

@@ -41,8 +41,7 @@ Provide:
 
 Click **Add** to create the counter.
 
-> **Note**
->  
+> [!NOTE]
 > Only one counter per equipment and measure unit can exist.
 
 ## Edit counter values

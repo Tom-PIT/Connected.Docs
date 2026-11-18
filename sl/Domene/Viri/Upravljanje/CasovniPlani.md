@@ -55,7 +55,7 @@ Novi časovni plan je takoj na voljo za izbiro na zaslonih za evidentiranje čas
 2. Po potrebi posodobite **Naziv**.
 3. Shranite spremembe.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Časovni plani predstavljajo konfiguracijske podatke. Spremembe izvajajte previdno, zlasti če je časovni plan že pogosto uporabljen v zgodovinskih zapisih.
 
 ### Izbrisati časovni plan

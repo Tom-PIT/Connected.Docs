@@ -123,7 +123,7 @@ Platni nalozi mogu se izbrisati dok su u statusu **Nacrt**.
 
 Nakon objave brisanje može biti ograničeno radi očuvanja integriteta knjigovodstva.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje platnih naloga koji su već neplaćeni ili plaćeni može utjecati na praćenje plaćanja i mogućnost revizije.
 
 ## Izbornik

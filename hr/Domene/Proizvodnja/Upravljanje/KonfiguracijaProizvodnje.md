@@ -20,4 +20,7 @@ Odaberite model numeriranja i format oznaka za dokumente proizvodnje (proizvodni
 | **Model numeriranja dokumenta** | • **Inkrementalni za svaku godinu** – numeriranje se ponovno pokreće na početku svake godine.<br>• **Inkrementalni** – jedinstveni slijed numeriranja koji se nikada ne resetira. |
 | **Model označavanja dokumenta** | Predložak koji definira strukturu oznake dokumenta (npr. PREFIX-GODINA-BROJ). |
 
+> [!IMPORTANT]
+> Model numeriranja i oblik zapisa primjenjuju se odmah nakon promjena. Postojeći dokumenti se ne numeriraju iznova.
+
 

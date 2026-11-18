@@ -17,7 +17,7 @@ To access this page, click the **Quality** button from:
 - An **Operation**  
   ![Quality button on operation](../Images/OperationsQualityButton.png)
 
-> [!NOTE]
+> [!WARNING]
 > Prepare the checklist first in the **[Checklists](../../Quality/Management/Checklists.md)** code list. Only defined checklists can be linked here.
 
 > [!TIP]

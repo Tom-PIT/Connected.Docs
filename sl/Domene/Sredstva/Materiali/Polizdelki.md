@@ -13,7 +13,7 @@ Vsak polizdelek vsebuje ključne podatke – kot so [merske enote](../../../Skup
 > Za celovit prikaz si oglejte video vodič
 > **[Materiali polizdelkov](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)**.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Pred upravljanjem polizdelkov zagotovite, da so naslednji šifranti pravilno nastavljeni:  
 > - [**Merske enote**](../../../Skupno/Upravljanje/MerskeEnote.md)  
@@ -133,7 +133,7 @@ Vnesite podrobnosti za Intrastat in druge računovodske podatke, uporabljene pri
 
 ![Materiali Intrastat Glavna knjiga](../Images/MaterialsIntrastatLedgerSL.png "Materiali Intrastat in Glavna knjiga")
 
-> [!WARNING]
+> [!IMPORTANT]
 > V razdelku **Glavna knjiga** vnesite pravilne konte (npr. konto zaloge in stroška). Napačne ali manjkajoče vrednosti lahko povzročijo napake pri knjiženju.
 
 
