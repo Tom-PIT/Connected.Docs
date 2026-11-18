@@ -8,7 +8,7 @@
 
 Za dostop do šifranta Banke se pomaknite na **Prodaja / Upravljanje / Banke** v [navigaciji](../../Skupno/UI/Navigacija.md).
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Pred upravljanjem zapisov bank zagotovite, da je šifrant [**Države**](../../Skupno/Upravljanje/Drzave.md) pravilno konfiguriran.
 

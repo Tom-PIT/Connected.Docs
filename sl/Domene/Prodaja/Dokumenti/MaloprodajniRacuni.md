@@ -248,6 +248,9 @@ Možno je evidentirati več plačil. Sistem samodejno posodablja stanje dokument
 - **Delno plačani**
 - **V celoti plačani**
 
+> [!NOTE]
+> Ko je račun v celoti pokrit z evidentiranimi plačili, se prikaže v pogledu **Plačani**. Delno plačani dokumenti se prikažejo pod **Delno plačani**, neplačani pa pod **Neplačani**.
+
 ### Izbrisati maloprodajni račun
 
 Maloprodajni računi v stanju **Osnutek** se lahko izbrišejo le, če **ne vsebujejo postavk**.
@@ -257,7 +260,8 @@ Maloprodajni računi v stanju **Osnutek** se lahko izbrišejo le, če **ne vsebu
 2. Kliknite **Izbriši** v oknu urejanja.  
 3. Postopek ponovite za vse postavke.
 
-Objavljenih računov (ne glede na stanje plačila) **ni mogoče izbrisati**, mogoče pa jih je **stornirati** ali **vrniti v osnutek**, če je to dovoljeno s konfiguracijo.
+> [!NOTE]
+> Objavljenih računov (ne glede na stanje plačila) **ni mogoče izbrisati**, mogoče pa jih je **stornirati** ali **vrniti v osnutek**, če je to dovoljeno s konfiguracijo.
 
 ## Meni
 

@@ -13,7 +13,7 @@ Ovaj vodič objašnjava kako kreirati potpuni proces, konfigurirati njegovu verz
 
 Primjer u ovom vodiču prikazuje **proizvodni proces** za izradu proizvoda **Oak Wood Chair**, no isti postupak vrijedi i za procese održavanja.
 
-> [!NOTE]
+> [!WARNING]
 > - Ovaj vodič pretpostavlja da su potrebni materijali, resursi i kontrolni popisi kvalitete već kreirani. Više informacija potražite u dokumentaciji:
 >    * [**Materijali**](../../RobaIUsluge/Materijali/README.md)
 >    * [**Resursi**](../../Resursi/Upravljanje/Resursi.md)
@@ -34,7 +34,7 @@ Otvorite **Proizvodnja / Upravljanje / Procesi**.
 
 Proces je sada kreiran.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Provjerite je li dodijeljena oznaka **Production**, inače proces neće biti dostupan prilikom kreiranja proizvodnih naloga.
 
 ### Primjer

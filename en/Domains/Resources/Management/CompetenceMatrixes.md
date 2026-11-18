@@ -114,5 +114,5 @@ Deleted competences:
 - Are no longer available for user assignment
 - Do not affect historical records
 
-> [!WARNING]
+> [!IMPORTANT]
 > Use deletion carefully, especially when competences are already assigned to users.

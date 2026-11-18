@@ -166,7 +166,7 @@ Ob skeniranju kartice:
 * Če delavec še ni prijavljen na operacijo, sistem zažene nov zapis dela.
 * Če ima delavec na operaciji že aktiven zapis dela, sistem zapis dela zaključi.
 
-> [!IMPORTANT]
+> [!NOTE]
 >Skeniranje kartice vpliva samo na evidentiranje delovnega časa. Pri tem sistem ne:
 >
 > * Zažene ali ustavi operacije

@@ -7,7 +7,7 @@
 
 Stranica **Postavke sustava**, koja se otvara pod **Sustav / Postavke**, sadrži globalne postavke sustava koje određuju osnovno ponašanje organizacije i lokalizacije.
 
-> [!IMPORTANT]
+> [!WARNING]
 >
 > Ove postavke koriste gotovo svi moduli ([Prodaja](../../Prodaja/README.md), [Nabava](../../Nabava/README.md), [Logistika](../../Logistika/README.md), [Projekti](../../Projekti/README.md) i drugi) i moraju biti konfigurirane prije početka operativnog rada.
 
@@ -35,14 +35,14 @@ Ovim postavkama pristupate na način da idete na **Sustav / Postavke** i u popis
 
 Odaberite državu u kojoj organizacija posluje. Ova postavka određuje lokalizaciju i zakonske zadane vrijednosti u svim dokumentima i modulima.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Odabrana država **mora već postojati** u šifrarniku **[Države](../../../Zajednicko/Upravljanje/Drzave.md)**. Ako prethodno nije unesena tamo, neće se pojaviti u padajućem izborniku.
 
 ### Valuta
 
 Odaberite zadanu valutu organizacije. Ova postavka određuje oblikovanje novčanih iznosa i zadanu valutu dokumenata u svim modulima i izvješćima.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Odabrana valuta **mora već postojati** u šifrarniku **[Valute](../../../Zajednicko/Upravljanje/Valute.md)**.
 
 Te dvije postavke čine temelj svih financijskih i komercijalnih operacija na platformi.

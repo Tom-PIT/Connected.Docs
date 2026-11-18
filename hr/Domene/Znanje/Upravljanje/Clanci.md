@@ -105,5 +105,5 @@ Kliknite **Izbriši** na ekranu za uređivanje članka da biste otvorili dijalog
 
 Ako potvrdite, članak se trajno uklanja.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Brisanje članka uklanja ga i iz kazala imenika.

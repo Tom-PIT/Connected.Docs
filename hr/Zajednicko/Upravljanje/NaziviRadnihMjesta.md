@@ -57,3 +57,6 @@ Za brisanje naziva radnog mjesta:
 2. Kliknite **Izbriši** i potvrdite brisanje.
 
 Naziv radnog mjesta moguće je izbrisati samo ako nije povezan s postojećim kontaktima.
+
+> [!NOTE]
+> Brisanjem naziva radnog mjesta **ne uklanjaju se** zapisi u Poslovnom imeniku.

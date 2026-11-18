@@ -12,7 +12,7 @@ This code list serves as the register of all raw materials within the materials 
 > [!TIP]
 > For a full demonstration, see the **[Raw materials](https://www.youtube.com/watch?v=kb6I-eJ0tBU)** video tutorial.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Prerequisites**  
 > Before managing semi products, ensure that the following code lists are properly configured:  
 > - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
@@ -138,7 +138,7 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 
 ![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
 
-> [!WARNING]
+> [!IMPORTANT]
 > Enter correct accounts in the **Ledger** section (for example, stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
 ### Import raw materials

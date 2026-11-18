@@ -116,5 +116,5 @@ Predložak se može izbrisati samo ako ga ne koriste postojeće temeljnice.
 
 Za brisanje otvorite predložak u načinu uređivanja i odaberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje predloška koji je u upotrebi može onemogućiti stvaranje ili ponovno korištenje temeljnica.

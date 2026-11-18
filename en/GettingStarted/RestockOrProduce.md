@@ -14,7 +14,7 @@ This tutorial explains, in simple terms, what to do when you get a sales order a
 > - Manufacturer (you make the goods) → usually Produce (and buy raw materials if missing)
 > - Services/software → usually neither (no stock to move)
 
-> [!TIP]
+> [!WARNING]
 > Before you start: ensure **[Processes](../Domains/Production/Management/Processes.md)**, **[Inputs](../Domains/Production/Management/Inputs.md)**, and **[Outputs](../Domains/Production/Management/Outputs.md)** are defined.
 
 ## Detailed steps
@@ -66,7 +66,7 @@ This tutorial explains, in simple terms, what to do when you get a sales order a
 
 ### 4. Produce (make)
 
-> [!IMPORTANT]
+> [!WARNING]
 > Ensure your process/operations exist in **[Processes](../Domains/Production/Management/Processes.md)** with defined **[Inputs](../Domains/Production/Management/Inputs.md)**/**[Outputs](../Domains/Production/Management/Outputs.md)**.
 
 <!-- app_route: /production-orders -->

@@ -56,5 +56,5 @@ Tip dokumenta je mogoče izbrisati samo, če **ni uporabljen** v obstoječih tem
 
 Za brisanje odprite vnos v načinu urejanja in izberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje tipa dokumenta, ki je potreben za delovanje temeljnic, lahko onemogoči pravilno knjiženje ali poročanje računovodskih podatkov.

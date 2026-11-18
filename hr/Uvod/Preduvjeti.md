@@ -39,10 +39,10 @@ Te zajedničke šifrarnike trebaju **[Prodaja](../Domene/Prodaja/README.md)**, *
 - **[Banke](../Zajednicko/Upravljanje/Banke.md)** — popis banaka za evidenciju bankovnih računa organizacije i partnera  
   Idite na: **Prodaja / Upravljanje / Banke**
 
-> [!NOTE]
+> [!WARNING]
 > Domene i postavke sustava ovise o tim vrijednostima kako bi ispravno radile.
 
-> [!IMPORTANT]
+> [!WARNING]
 >
 > Zajednički šifrarnici moraju biti izrađeni prije nego što ih odaberete u konfiguraciji sustava ili u dokumentima domena. Pojedinosti potražite na stranici **[Zajednička domena](../Zajednicko/README.md)**.
 
@@ -62,7 +62,7 @@ Ako vaši scenariji uključuju dokumente prodaje, unesite podatke o plaćanju:
 - **[Bankovni računi organizacije](../Domene/Prodaja/Upravljanje/BankovniRacuniOrganizacije.md)** — bankovni računi tvrtke prikazani na računima i korišteni za plaćanja  
   Idite na: **Prodaja / Upravljanje / Bankovni računi organizacije**
 
-> [!NOTE]
+> [!WARNING]
 > Izlazni računi i predujmovi zahtijevaju valjane definicije plaćanja.
 
 ### 4. Dodajte poslovne partnere (Poslovni imenik)
@@ -71,7 +71,7 @@ Dodajte poslovne partnere (kupce, dobavljače, suradnike) kako biste ih koristil
 - **[Poslovni imenik](../Zajednicko/Upravljanje/PoslovniImenik.md)** — centralizirani popis kupaca, dobavljača i partnerskih subjekata  
   Idite na: **Prodaja / Upravljanje / Poslovni imenik**
 
-> [!NOTE]
+> [!WARNING]
 > Dokumenti trebaju podatke o partneru (kupac, dobavljač) kako bi se mogli izraditi.
 
 ### 5. Materijali i imovina
@@ -90,7 +90,7 @@ Dodajte materijale i imovinu koji će se koristiti u dokumentima i skladišnim o
   - **[Imovina](../Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md)** — katalog robe i usluga s cijenama i podacima o porezu  
     Idite na: **Roba i usluge / Imovina**
 
-> [!NOTE]
+> [!WARNING]
 > Dokumenti prodaje i proizvodnje zahtijevaju definirane artikle i resurse.
 
 ### 6. Postavite skladišta i lokacije (ako je primjenjivo)
@@ -105,7 +105,7 @@ Za logističke ili proizvodne scenarije koji uključuju zalihe:
 - **[Lokacije skladišta](../Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md)** — povezuje organizacijske jedinice s fizičkim lokacijama skladišta za privremeno odlaganje ulaza i izlaza  
   Idite na: **Proizvodnja / Upravljanje / Lokacije skladišta**
 
-> [!NOTE]
+> [!WARNING]
 > Skladišne operacije zahtijevaju definirana skladišta i lokacije.
 
 ## Zaključak

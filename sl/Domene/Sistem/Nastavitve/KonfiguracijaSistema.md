@@ -8,7 +8,7 @@
 Razdelek **Sistemske nastavitve**, dostopen prek **Sistem / Nastavitve**, vsebuje
 osnovne konfiguracije, ki določajo delovanje celotnega sistema na ravni organizacije.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Te nastavitve uporabljajo skoraj vsa področja sistema
 > (npr. [Prodaja](../../Prodaja/README.md),
 > [Nabava](../../Nabava/README.md),
@@ -45,7 +45,7 @@ Izberite državo organizacije.
 
 **Država organizacije, ki se uporablja v sklopu različnih vsebin.**
 
-> [!IMPORTANT]
+> [!WARNING]
 > Država mora biti predhodno definirana v šifrantu [**Države**](../../../Skupno/Upravljanje/Drzave.md), sicer je ne bo mogoče izbrati.
 
 ### Valuta
@@ -54,7 +54,7 @@ Izberite privzeto valuto organizacije.
 
 **Valuta organizacije, ki se uporablja v sklopu različnih vsebin.**
 
-> [!IMPORTANT]
+> [!WARNING]
 > Valuta mora biti predhodno definirana v šifrantu [**Valute**](../../../Skupno/Upravljanje/Valute.md).
 
 Ti dve nastavitvi predstavljata osnovo za vse finančne in poslovne procese.

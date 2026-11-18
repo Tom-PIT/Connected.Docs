@@ -7,7 +7,7 @@ Dvofaktorska autentifikacija (2FA) pruža dodatnu razinu sigurnosti pri prijavi 
 
 Kada je omogućena, sustav korisniku šalje privremeni kod za autentifikaciju na adresu e-pošte. Korisnik mora unijeti taj kod da bi dovršio prijavu.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Dvofaktorska autentifikacija radi samo ako:
 > - je funkcionalnost omogućena na platformi
 > - korisnik ima ispravnu adresu e-pošte postavljenu u **Sustav / [Korisnici](../Domene/Sustav/Upravljanje/Korisnici.md)**

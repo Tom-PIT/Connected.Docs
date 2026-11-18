@@ -275,5 +275,6 @@ Meni dokumenta omogoča naslednja dejanja:
 
 ![Meni predračuna](../Images/PrepaymentsMenuSL.png)
 
-Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
+> [!NOTE]
+> Storniranje predračuna razveljavi njegov potrjeni učinek in ustvari storno dokument. Za več informacij glejte **[Storno](../../Logistika/Dokumenti/Storno.md)**.
 

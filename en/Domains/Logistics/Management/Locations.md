@@ -52,7 +52,7 @@ After importing, you can review and adjust locations in the Locations management
 
 Click **Cancel** to return to the list without importing.
 
->[!NOTE]
+>[!WARNING]
 >Each location is tied to a **warehouse**, so make sure that all referenced [**warehouses**](Warehouses.md) already exist in the system.
 
 

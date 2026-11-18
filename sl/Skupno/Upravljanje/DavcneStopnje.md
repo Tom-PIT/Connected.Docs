@@ -53,7 +53,7 @@ Razdelek **Glavna knjiga** določa, kateri konti glavne knjige se uporabijo za k
 
 Polji **Debet** in **Kredit** omogočata izbor kontov iz šifranta **[Konti](../../Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konti.md)**. Ti konti določajo, kam se davčni zneski knjižijo med računovodskimi transakcijami.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Nastavitev glavne knjige je potrebna za natančno davčno računovodstvo, poročanje in skladnost s predpisi.
 
 ### Urediti davčno stopnjo

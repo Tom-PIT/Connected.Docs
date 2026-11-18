@@ -69,5 +69,5 @@ Po potrebi izmijenite podatke, a zatim kliknite **Spremi**.
 
 Za brisanje otvorite željeno radno mjesto i kliknite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Radno mjesto moguće je obrisati čak i ako su mu dodijeljeni korisnici.

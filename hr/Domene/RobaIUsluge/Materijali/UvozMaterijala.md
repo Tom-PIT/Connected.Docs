@@ -16,7 +16,7 @@ Uvoz podržava sljedeće vrste materijala:
 
 Na ekranu je dostupna i datoteka s primjerom koju možete preuzeti; ona prikazuje potrebnu strukturu tablice. Prije uvoza možete pokrenuti **Test import**, koji provjerava podatke i prijavljuje greške bez primjene promjena.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Preduvjeti**  
 > Prije uvoza materijala provjerite sljedeće popise šifara:  
 > - [**Mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md)  
@@ -44,7 +44,7 @@ Sustav prihvaća uvoze u formatu **CSV** ili **XLSX**. Padajućim izbornikom oda
 
 Datoteka za uvoz mora u prvom retku imati zaglavlje s nazivima stupaca navedenima u nastavku, ovim redoslijedom. Svaki sljedeći redak predstavlja jedan materijal koji će se uvesti.
 
-> [!IMPORTANT]
+> [!WARNING]
 > - Nemojte mijenjati redoslijed stupaca niti nazive stupaca u zaglavlju. Primjer datoteke koristite kao referencu.
 > - Materijali moraju imati jedinstvene vrijednosti u stupcu **Code** kako ne bi nastali sukobi.
 > - Prazna neobavezna polja uvoze se kao prazne vrijednosti.

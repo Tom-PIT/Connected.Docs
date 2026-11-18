@@ -12,7 +12,7 @@ Each product contains important information—such as [measure units](../../../C
 > [!TIP]
 > For a full demonstration, see the **[Product materials](https://www.youtube.com/watch?v=FcrJ_IHQYeA)** video tutorial.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Prerequisites**  
 > Before managing products, ensure that the following code lists are properly configured:  
 > - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
@@ -131,7 +131,7 @@ Use these sections to enter Intrastat and customs details used for EU trade repo
 
 ![Materials Intrastat Ledger](../Images/MaterialsIntrastatLedger.png "Materials Intrastat and Ledger details")
 
-> [!WARNING]
+> [!IMPORTANT]
 > Enter correct accounts in the **Ledger** section (for example, stock and expense accounts). Wrong or missing values will cause posting errors later in accounting.
 
 #### Additional

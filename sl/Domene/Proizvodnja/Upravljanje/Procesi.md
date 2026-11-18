@@ -81,7 +81,7 @@ Levi stranski panel omogoča filtriranje po:
 
 3. Kliknite **Dodaj**, da ustvarite nov proces.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Oznake določajo, kje je proces mogoče uporabiti. Če ne dodate ustrezne oznake (npr. **Proizvodnja** ali **Vzdrževanje**), proces ne bo na voljo pri ustvarjanju dokumentov na tem področju (npr. [**proizvodnega naloga**](../Dokumenti/ProizvodniNalogi.md) ali [**vzdrževalnega naloga**](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)).
 
 ## Urediti proces

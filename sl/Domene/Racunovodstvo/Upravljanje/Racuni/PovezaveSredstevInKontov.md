@@ -99,5 +99,5 @@ Povezavo sredstva in konta je mogoče izbrisati samo, če ni uporabljena v obsto
 
 Za brisanje povezave jo odprite v načinu urejanja in izberite **Izbriši**.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Odstranitev povezav sredstev in kontov lahko prepreči pravilno knjiženje računov, ki vključujejo to sredstvo.

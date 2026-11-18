@@ -131,22 +131,6 @@ Za shranjevanje komentarja je potrebno prijavo posodobiti tako, da se:
 
 Revizijska sled beleži vse spremembe, opravljene na prijavi, v obliki časovnice. Do nje dostopate prek zavihka **Revizijska sled** v pogledu prijave, pod razdelkom **Komentar**.
 
-### Dejanja v meniju
-
-Dodatna dejanja so na voljo v meniju prijave, ki se nahaja v zgornjem desnem delu pogleda prijave.
-
-![Meni prijave](../Images/TicketsMenuSL.png)
-
-Razpoložljive možnosti vključujejo:
-
-- **Odjavi s prijave**
-- **Naročniki**
-- **Deli**
-- **Delo**
-
-> [!NOTE]
-> Nastavitve obvestil na ravni področja upravljate v [**Nastavitve obvestil**](../Upravljanje/NastavitveObvestil.md).
-
 ## Povezani dokumenti
 
 V razdelku **Povezani dokumenti** lahko prijavo povežete z obstoječo izdajnico ali prevzemom.
@@ -180,6 +164,8 @@ Ko je prijava rešena:
 ## Meni
 
 Meni omogoča dodatna dejanja, ki so na voljo na tej strani.
+
+![Meni prijave](../Images/TicketsMenuSL.png)
 
 Na voljo so naslednja dejanja:
 

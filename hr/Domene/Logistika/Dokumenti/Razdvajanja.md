@@ -9,6 +9,9 @@
 
 Koristite **Razdvajanja** kada zaprimite ili skladištite setove (pakirane materijale), ali njihove komponente želite koristiti ili prodavati zasebno. Objavom dokumenta **Razdvajanje** smanjuje se količina seta na zalihi, a povećavaju se količine njegovih komponenti prema strukturi definiranoj na setu.
 
+> [!TIP]
+> Za potpuni prikaz rada pogledajte video **[Razdvajanja](https://www.youtube.com/watch?v=0BWXVj_RUlY)**.
+
 > [!NOTE]
 > - Objavom dokumenta stanje zaliha se ažurira: količina seta se smanjuje, a njegove komponente postaju dostupne na zalihi.
 > - Prije izrade dokumenta **Razdvajanje** potrebno je definirati strukturu seta u šifrarniku **[Setovi](../../RobaIUsluge/Materijali/Setovi.md)**.

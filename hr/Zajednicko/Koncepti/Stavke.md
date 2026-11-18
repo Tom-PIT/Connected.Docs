@@ -91,9 +91,6 @@ Dostupna polja mogu uključivati:
 - **Popust (%)**
 - **Koristite alternativnu valutu**
 
-> [!NOTE]
-> Dostupna polja ovise o vrsti dokumenta i konfiguraciji sustava.
-
 ## Izbrisati stavku
 
 Stavke se u pravilu mogu izbrisati dok je dokument u statusu **Nacrt**.

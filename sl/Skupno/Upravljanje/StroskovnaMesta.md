@@ -33,6 +33,9 @@ Za ustvarjanje novega stroškovnega mesta:
 2. Izpolnite vsa obvezna polja.
 3. Kliknite **Dodaj**, da shranite novo stroškovno mesto.
 
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+
 ![Dodaj novo stroškovno mesto](../Images/CostCentersNewSL.png "Dodaj stroškovno mesto")
 
 ### Urediti stroškovno mesto

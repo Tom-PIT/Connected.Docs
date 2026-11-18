@@ -125,7 +125,7 @@ Plačilne naloge je mogoče izbrisati, dokler so v stanju **Osnutek**.
 
 Po objavi je brisanje lahko omejeno, da se ohrani sledljivost in računovodska pravilnost.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Brisanje plačilnih nalogov v stanju *Neplačani* ali *Plačani* lahko vpliva na sledljivost plačil in revizijsko sled.
 
 ## Meni

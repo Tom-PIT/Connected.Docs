@@ -19,7 +19,7 @@ Konfiguracija GS1 parsera određuje kako sustav tumači GS1 barkodove pri skenir
 
 Određuje znak separatora koji se koristi za razdvajanje GS1 elemenata podataka (identifikatora primjene) u skeniranom barkodu. Taj se znak koristi za prepoznavanje kraja polja promjenjive duljine, kao što je broj serije ili lota.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Vrijednost se mora unijeti u Unicode (heksadecimalnom) obliku (npr. **0x001D**).
 
 Pojedinosti o GS1 identifikaciji unosite na način da idete na **Sustav / Postavke** i u popisu s lijeve strane odaberete **Warehouse → GS1 Settings**.

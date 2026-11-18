@@ -9,7 +9,7 @@
 
 Za dostop do te strani pojdite na **Prodaja / Šifranti / Predloge klavzul za dobavnice** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
-> [!NOTE]  
+> [!WARNING]  
 > **Predpogoji**  
 > Pred ustvarjanjem predlog klavzul zagotovite, da je izpolnjeno naslednje:  
 > • Partnersko podjetje obstaja v šifrantu [**Poslovni imenik**](../../../Skupno/Upravljanje/PoslovniImenik.md).  

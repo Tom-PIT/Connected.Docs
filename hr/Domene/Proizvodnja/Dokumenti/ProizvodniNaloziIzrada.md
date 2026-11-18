@@ -22,7 +22,7 @@ Odaberite **[Proces](../Upravljanje/Procesi.md)** i **Verziju procesa** koja def
 
 ![Korak 2](../Images/ProductionOrdersNewStep2HR.png "Korak 2 – Odabir procesa")
 
-> [!NOTE]
+> [!WARNING]
 > Ako u ovom koraku nije prikazan nijedan proces, provjerite konfiguraciju u šifrarniku **[Procesi](../Upravljanje/Procesi.md)**. Proces mora imati oznaku **Proizvodnja** i aktivnu verziju. Nedostatak oznake čest je razlog zbog kojeg se proces ovdje ne prikazuje.
 
 ### **Korak 3 — Unos dodatnih podataka**

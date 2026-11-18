@@ -12,7 +12,7 @@ Svaki poluproizvod sadrži ključne podatke, poput [mjernih jedinica](../../../Z
 > [!TIP]
 > Za cjelovitu demonstraciju pogledajte video vodič **[Poluproizvodi](https://www.youtube.com/watch?v=Ox2OF8_IwOQ)**.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Preduvjeti**  
 > Prije upravljanja poluproizvodima provjerite jesu li ispravno konfigurirani sljedeći popisi šifara:  
 > - [**Mjerne jedinice**](../../../Zajednicko/Upravljanje/MjerneJedinice.md)  
@@ -142,7 +142,7 @@ Koristite ove odjeljke za unos Intrastat i carinskih podataka koji se koriste za
 
 ![Intrastat i glavna knjiga materijala](../Images/MaterialsIntrastatLedgerHR.png "Pojedinosti materijala za Intrastat i glavnu knjigu")
 
-> [!WARNING]
+> [!IMPORTANT]
 > Unesite ispravne konte u odjeljku **Glavna knjiga** (na primjer konte zaliha i troškova). Pogrešne ili nedostajuće vrijednosti uzrokovat će kasnije greške pri knjiženju u računovodstvu.
 
 ### Uvoz poluproizvoda

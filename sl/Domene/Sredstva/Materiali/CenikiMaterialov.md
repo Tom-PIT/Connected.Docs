@@ -108,7 +108,7 @@ Glede na trenutni zaslon [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) pon
 
 Kliknite **ime cenika** na seznamu, da odprete zaslon za urejanje. Tukaj lahko spremenite informacije o glavi cenika, vendar ne materialov ali razponov. Za urejanje materialov in razponov kliknite gumb **Postavke**, kot je opisano v prejšnjem razdelku.
 
-> [!OPOMBA]
+> [!NOTE]
 > Če želite urediti cene in razpone materialov, kliknite gumb **Postavke**, da odprete stran s podrobnostmi, kjer lahko po potrebi spremenite materiale in razpone.
 
 ### Kopirati cenik materialov

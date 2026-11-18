@@ -122,7 +122,7 @@ Payment orders can be deleted while in **Draft** status.
 
 Once published, deletion may be restricted to preserve accounting integrity.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Deleting payment orders that are already unpaid or paid may affect payment tracking and auditability.
 
 ## Menu

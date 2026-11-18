@@ -46,7 +46,7 @@ Za dodavanje novih uvjeta isporuke:
 > [!NOTE]
 > Više informacija o pojedinim poljima nalazi se u odjeljku [**Shema**](#shema).
 
-> [!IMPORTANT]
+> [!TIP]
 > Preporučuje se koristiti standardne **Incoterms®** oznake i opise kako bi se osigurala jasnoća i dosljednost u međunarodnoj trgovini.
 
 ![Novi uvjeti isporuke](../Images/DeliveryTermsNewHR.png "Novi uvjeti isporuke")

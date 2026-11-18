@@ -56,11 +56,10 @@ Filtre je mogoče kombinirati za natančno analizo določenih dobavnih scenarije
 
 Vsi zneski temeljijo na podatkih iz [**Dobavnic**](../Dokumenti/Dobavnice.md), vključenih glede na izbrane filtre.
 
-## Postavke
-
-- V poročilo so vključene samo **potrjene dobavnice**  
-- Osnutki ali stornirane dobavnice niso prikazane  
-- Pregled je namenjen **izključno analizi** in ne omogoča dejanj, kot so urejanje, storniranje ali ustvarjanje dokumentov  
+> [!NOTE]
+> - V poročilo so vključene samo **potrjene dobavnice**  
+> - Osnutki ali stornirane dobavnice niso prikazane  
+> - Pregled je namenjen **izključno analizi** in ne omogoča dejanj, kot so urejanje, storniranje ali ustvarjanje dokumentov  
 
 Za podrobnejše informacije na ravni dokumentov odprite ustrezne [**Dobavnice**](../Dokumenti/Dobavnice.md) neposredno v razdelku **Prodaja / Dokumenti / Dobavnice**.
 

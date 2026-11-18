@@ -9,6 +9,9 @@ Pravilnici za operacije definiraju predloške operacija koji se mogu ponovno kor
 
 Za pristup ovoj stranici otvorite **Proizvodnja / Upravljanje / Pravilnici za operacije** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).
 
+> [!TIP]
+> Za potpuni prikaz rada pogledajte video **[Pravilnici za operacije](https://www.youtube.com/watch?v=Cm8RYdO0f6E)**.
+
 ## Polja
 
 | Polje | Opis |

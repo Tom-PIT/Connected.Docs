@@ -9,7 +9,7 @@ The **Clause templates for delivery notes** code list allows you to define claus
 
 To access this page, go to **Sales / Management / Clause templates for delivery notes** in the [navigation](../../../Common/UI/Navigation.md).
 
-> [!NOTE]  
+> [!WARNING]  
 > **Prerequisites**  
 > Before creating clause templates, make sure the following are set up:  
 > • The partner company exists in the [Business directory](../../../Common/Management/BusinessDirectory.md).  

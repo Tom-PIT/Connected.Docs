@@ -44,6 +44,9 @@ Za ustvarjanje nove vrste transporta:
 2. Izpolnite vsa obvezna polja. Neobvezna polja izpolnite, če so relevantna. 
 3. Kliknite **Dodaj**, da ustvarite zapis, ali **Prekliči**, da se vrnete na seznam brez shranjevanja.
 
+> [!NOTE]
+> Za več podrobnosti o poljih si oglejte zgoraj omenjeno razdelitev [**Shema**](#shema).
+
 ![Dodaj vrsto transporta](../Images/TransportModesNewSL.png "Dodaj vrsto transporta")
 
 ### Urediti vrsto transporta

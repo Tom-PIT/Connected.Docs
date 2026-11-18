@@ -96,7 +96,7 @@ Z izbiro elementa v drevesu se prikažejo njegove podrobnosti in obrazec za urej
 2. Izpolnite polja, opisana v ustrezni shemi.
 3. Kliknite **Dodaj** ali **Shrani** za potrditev.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Za uporabo vozil v povezanih dokumentih (na primer [potnih nalogih](../../Viri/Dokumenti/PotniNalogi.md)) jih dodajte kot **nečloveške vire** in jim dodelite oznako **`vehicle`**. Sistem kot vozila prepozna samo nečloveške vire, ki imajo dodeljeno to oznako.
 >
 > ![Vozila v potnih nalogih](../Images/ResourcesVehiclesSL.png)

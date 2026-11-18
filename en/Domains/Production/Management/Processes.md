@@ -82,7 +82,7 @@ The left-side panel provides filters for:
 
 3. Click **Add** to create the new process.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Tags control where the process can be used. If you do not add a relevant tag (for example, **Production** or **Maintenance**), the process will not be available when creating documents in that area (for example, a [**Production order**](../Documents/ProductionOrders.md) or a [**Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md)).
 
 ## Edit a process

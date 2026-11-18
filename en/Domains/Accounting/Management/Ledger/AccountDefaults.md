@@ -86,5 +86,5 @@ An account default can be deleted only if it is **not referenced** by active sys
 
 To delete it, click on an entry on the list to enter the edit mode and select **Delete**
 
-> [!WARNING]
+> [!IMPORTANT]
 > Deleting a default that is required by a workflow may cause posting errors or incomplete accounting entries.

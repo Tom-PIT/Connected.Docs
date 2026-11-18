@@ -15,7 +15,7 @@ Za pristup ovom zaslonu otvorite **Planiranje / Planiranje** u [navigaciji](../.
 
 Proizvodni nalozi prikazuju se u kalendaru prema datumima **Planirani početak** i **Planirani kraj**.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Proizvodni nalog prikazuje se u Planiranju samo ako su definirani i **Planirani početak** i **Planirani kraj**.  
 > Te se vrijednosti postavljaju pri izradi ili uređivanju proizvodnog naloga. Pogledajte [**Proizvodni nalozi**](../../Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md#datumi).
 

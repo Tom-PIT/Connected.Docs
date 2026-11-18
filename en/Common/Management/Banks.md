@@ -9,7 +9,7 @@ The **Banks** code list contains financial institutions that can be used across 
 
 To access this screen, go to **Sales / Management / Banks** in the [navigation](../../Common/UI/Navigation.md).
 
-> [!NOTE]  
+> [!WARNING]  
 > **Prerequisites**  
 > Before managing bank records, ensure that the [**Countries**](../../Common/Management/Countries.md) code list is properly configured.  
 
@@ -46,9 +46,12 @@ You can use the **Search** bar to quickly filter payment methods by their code o
 To create a new bank entry, follow these steps:
 1. Click the [Action Button](../../Common/UI/ActionButton.md) to open the form to add a new bank entry.
 
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above.
+2. Fill in all required fields. Optional fields can be completed if relevant.
 
 3. Click **Add** to save the bank or **Cancel** to return to the list view.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above.
 
 ![Banks – New](../Images/BanksNew.png "Add new bank")
 

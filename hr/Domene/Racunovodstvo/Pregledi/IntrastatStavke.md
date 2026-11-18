@@ -14,7 +14,7 @@ Ovom pregledu pristupate odabirom **Računovodstvo / Pregledi / Intrastat** u [n
 > [!NOTE]
 > Ovaj pregled je samo za čitanje. Ispravke se moraju napraviti u izvornim dokumentima ili relevantnim šifarnicima, nakon čega se Intrastat pregled automatski ponovno izračunava.
 
-> [!IMPORTANT]
+> [!NOTE]
 > U pregled su uključene samo transakcije koje uključuju kretanje robe između država članica EU-a. Domaće transakcije i transakcije izvan EU-a isključene su iz Intrastat izvještavanja.
 
 Vrijednosti na slici uključuju i stavke bez iznosa (0), što znači da dokumenti za te retke još nemaju unesene vrijednosti.

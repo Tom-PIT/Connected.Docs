@@ -22,8 +22,8 @@ Za natančnejši izračun dejanskih stroškov proizvedenega izdelka je mogoče n
     2. Izberite strošek operacije in določite strošek.
     3. Kliknite **Dodaj**, da shranite nov strošek.
 
-> [!IMPORTANT]
-> Planirani stroški se izračunajo **na nalog**. Če so na primer stroški **2$** na izdelek in je načrtovana količina za proizvodnjo 10, bodo stroški znašali **20$**.
+> [!NOTE]
+> Planirani stroški se izračunajo **na nalog**. Če so na primer stroški **2 €** na izdelek in je načrtovana količina za proizvodnjo 10, bodo stroški znašali **20 €**.
 
 ## Evidentirati dejanski strošek
 

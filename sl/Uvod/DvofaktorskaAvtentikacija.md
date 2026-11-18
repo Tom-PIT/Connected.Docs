@@ -7,7 +7,7 @@ Dvofaktorska avtentikacija (2FA) zagotavlja dodatno raven varnosti pri prijavi v
 
 Ko je omogočena, sistem uporabniku pošlje začasno avtentikacijsko kodo na njegov e-poštni naslov. Uporabnik mora vnesti to kodo za dokončanje prijave.
 
-> [!IMPORTANT]
+> [!WARNING]
 > Dvofaktorska avtentikacija deluje samo, če:
 > - je funkcionalnost omogočena na platformi
 > - ima uporabnik nastavljen veljaven e-poštni naslov v **Sistem / [Uporabniki](../Domene/Sistem/Upravljanje/Uporabniki.md)**

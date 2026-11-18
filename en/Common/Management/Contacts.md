@@ -44,8 +44,11 @@ To create a new contact, follow these steps:
 
 1. Click on the [action button](../UI/ActionButton.md) in the bottom-right corner.
 
-2. Fill in all required fields. Optional fields can be completed if relevant. For more details on the fields, see the [**Schema**](#schema) section above. 
+2. Fill in all required fields. Optional fields can be completed if relevant.
 3. Click **Add** to create the new contact or **Cancel** to return to the list view.
+
+> [!NOTE]
+> For more details on the fields, see the [**Schema**](#schema) section above.
 
 ![New contact](../Images/ContactsNew.png "New contact")
 

@@ -167,7 +167,7 @@ When a card is scanned:
 * If the worker is not currently registered on the operation, the system starts a new effort record.
 * If the worker already has an active effort record on the operation, the system stops the effort record.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Only the worker's effort time is affected. Scanning a card does **not**:
 >
 > * Start or stop the operation

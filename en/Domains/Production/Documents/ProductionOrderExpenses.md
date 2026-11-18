@@ -22,8 +22,8 @@ In order to calculate more accurately the actual costs of a produced item, plann
     2. Select the operation expense and the cost.
     3. Click **Add** to save the new expense.
 
-> [!IMPORTANT]
-> The planned expense cost is calculated **per order**. For example, if the cost is **$2** per item and the quantity planned to produce is 10, the expense cost will be **$20**.
+> [!NOTE]
+> The planned expense cost is calculated **per order**. For example, if the cost is **&#36;2** per item and the quantity planned to produce is 10, the expense cost will be **&#36;20**.
 
 ## Record the actual expense cost
 

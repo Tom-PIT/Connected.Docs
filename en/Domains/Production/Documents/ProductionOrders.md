@@ -18,7 +18,7 @@ flowchart LR
     E -.-> C
 ```
 
-> [!NOTE]
+> [!WARNING]
 > **Prerequisites**  
 > 
 >Before creating a new production order, ensure that the following are configured:

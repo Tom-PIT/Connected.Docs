@@ -8,7 +8,7 @@ Primer šifrantov modula Skupno v domeni **Prodaja**:
 
 ![Primeri šifrantov Skupno](Images/CommonCodeListsExamples.png "Primeri šifrantov Skupno")
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Šifranti modula Skupno morajo biti **prvi korak konfiguracije** pri vzpostavitvi platforme.  
 >
 > Brez teh vrednosti domene [**Prodaja**](../Domene/Prodaja/README.md), [**Nabava**](../Domene/Nabava/README.md), [**Logistika**](../Domene/Logistika/README.md) in [**Sistemske nastavitve**](../Domene/Sistem/Nastavitve/KonfiguracijaSistema.md) ne morejo pravilno delovati.
@@ -25,7 +25,7 @@ Modul Skupno vsebuje več kategorij skupnih šifrantov, ki se uporabljajo v celo
 
 Ti šifranti predstavljajo osnovne gradnike, na katerih temeljijo druge domene.
 
-> [!NOTE]
+> [!TIP]
 > Oglejte si celoten seznam upravljanja: **[Kazalo upravljanja](../KazaloUpravljanja.md)**.
 
 
@@ -36,7 +36,7 @@ Te nastavitve določajo geografski in organizacijski kontekst podjetja in njegov
 - **[Države](Upravljanje/Drzave.md)** – določajo dovoljene države za naslove, dokumente, pravno oblikovanje in lokalizacijo.  
 - **[Poslovni imenik](Upravljanje/PoslovniImenik.md)** – osrednja baza podjetij, dobaviteljev in drugih pravnih subjektov.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Države morajo biti konfigurirane pred nastavitvijo države organizacije v **Sistem → Konfiguracija → Organizacija** ali v **Nastavitvah skupnih tipov**.
 
 ### Finančne in valutne nastavitve
@@ -47,7 +47,7 @@ Te nastavitve vplivajo na vse denarne in finančne procese v domenah.
 - **[Davčne stopnje](Upravljanje/DavcneStopnje.md)** – definicije DDV ali drugih davkov, uporabljenih v prodaji in nabavi.  
 - **[Načini plačila](../Domene/Prodaja/Upravljanje/NacinPlacila.md)** – plačilne metode, uporabljene v prodaji in financah.
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Valute morajo biti ustvarjene tukaj **pred** izbiro v:  
 > - Sistem → [Konfiguracija](../Domene/Sistem/Nastavitve/KonfiguracijaSistema.md) → Nastavitve skupnih tipov  
 > - dokumentih v domenah [Prodaja](../Domene/Prodaja/README.md) in [Nabava](../Domene/Nabava/README.md)
@@ -106,5 +106,5 @@ Skoraj vsi procesi v platformi so odvisni od nastavitev Skupno:
 - nepravilno oblikovanje računov in dobavnic  
 - napake v sistemski konfiguraciji  
 
-> [!CAUTION]  
+> [!WARNING]  
 > **Ne nadaljujte z uporabo domen [Prodaja](../Domene/Prodaja/README.md), [Nabava](../Domene/Nabava/README.md), [Logistika](../Domene/Logistika/README.md) ali [Sistemske nastavitve](../Domene/Sistem/Nastavitve/KonfiguracijaSistema.md), dokler niso ustvarjeni vsi zahtevani šifranti modula Skupno.**

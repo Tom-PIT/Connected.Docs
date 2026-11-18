@@ -219,6 +219,6 @@ Available actions:
 
 For details about menu actions, see [**Menu actions**](../../../Common/Concepts/MenuActions.md).
 
-> [!NOTE]] 
+> [!NOTE] 
 > A reversed delivery note appears under *Reversal state → Reversed* in the sidebar.
 

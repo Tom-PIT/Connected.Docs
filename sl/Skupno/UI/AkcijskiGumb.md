@@ -23,5 +23,8 @@ Glede na modul lahko akcijski gumb vključuje tudi dodatne možnosti, kot so:
 
 ![Meni akcijskega gumba](../Images/ActionButtonOptionsSL.png "Meni akcijskega gumba")
 
-> [!NOTE]
-> Razpoložljiva dejanja so odvisna od modula in uporabniških pravic.  
+### Opombe
+
+- Razpoložljiva dejanja so odvisna od modula in uporabniških pravic.
+- Akcijski gumb je prikazan samo na **seznamskih straneh**, ne pa na obrazcih za urejanje dokumentov.
+- Vsako dejanje odpre ali ustvari **nov osnutek zapisa**, ki ga je nato mogoče dopolniti in objaviti.

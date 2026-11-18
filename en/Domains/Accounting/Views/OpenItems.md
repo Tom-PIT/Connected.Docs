@@ -14,7 +14,7 @@ To access this view, go to **Accounting / Ledger / Views / Open items** in the [
 > [!NOTE]
 > This view is read-only. Open items cannot be edited directly and must be resolved through payments, settlements, or corrective accounting entries.
 
-> [!IMPORTANT]
+> [!NOTE]
 > The accuracy of this view depends on correct posting, settlement, and reconciliation of invoices and payments.
 
 ## Purpose of this view

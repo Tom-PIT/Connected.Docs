@@ -17,7 +17,7 @@ The import supports the following material types:
 
 The screen also provides a downloadable example file, which shows the required structure of the spreadsheet. Before importing, you can run a **Test import**, which validates the data and reports errors without applying changes.
 
-> [!NOTE]  
+> [!WARNING]  
 > **Prerequisites**  
 > Before importing materials, review the following code lists:  
 > - [**Measure units**](../../../Common/Management/MeasureUnits.md)  
@@ -46,7 +46,7 @@ The system accepts imports in the **CSV** or **XLSX** format. The dropdown menu 
 
 The first row of the import file must be a header with the column names listed below, in this order. Each following row represents a single material that will be imported.
 
-> [!IMPORTANT]
+> [!WARNING]
 > - Do not change the column order or the column names in the header. Use the example file as a reference.
 > - Materials must have unique values in the **Code** column to avoid conflicts.
 > - Empty optional fields will be imported as blank values.

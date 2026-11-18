@@ -9,7 +9,7 @@
 
 Ova stranica dostupna je u domenama **Prodaja** i **Nabava**. Za pristup idite na **Upravljanje / Valute** u [navigaciji](../../Zajednicko/UI/Navigacija.md).
 
-> [!NOTE]
+> [!WARNING]
 > **Preduvjeti**
 >
 > Valuta mora biti konfigurirana prije nego što se može koristiti u cjenicima, dokumentima ili financijskim izračunima.
