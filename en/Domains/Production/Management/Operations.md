@@ -54,6 +54,15 @@ The list displays all operations defined inside the selected process version. Ea
 
 Use the **Search** field to filter operations by name or code.
 
+### Menu
+
+The menu in the top-right corner of the list provides actions for all operations in the version at once:
+
+- **Delete all inputs** – Deletes the inputs of all operations in the version.
+- **Delete all outputs** – Deletes the outputs of all operations in the version.
+
+![Operations menu](../Images/OperationsMenuDeleteAll.png "Operations menu")
+
 ## Create a new operation
 
 1. Click the [action button](../../../Common/UI/ActionButton.md) and choose:  

@@ -59,6 +59,15 @@ Svaki red sadrži:
 
 Za pronalaženje operacija prema nazivu ili oznaci koristite **Pretraživanje**.
 
+### Izbornik
+
+Izbornik u gornjem desnom kutu popisa pruža radnje za sve operacije u verziji odjednom:
+
+- **Izbriši sve ulaze** – Briše ulaze svih operacija u verziji.
+- **Izbriši sve izlaze** – Briše izlaze svih operacija u verziji.
+
+![Izbornik operacija](../Images/OperacijeMenuBrisanjeSvih.png "Izbornik operacija")
+
 ## Dodavanje operacije
 
 1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite jednu od sljedećih opcija:
