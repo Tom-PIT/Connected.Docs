@@ -106,6 +106,27 @@ An inter warehouse document can be created from a [**material request**](../../P
 
 The moved material appears at the bottom of the document, under **No parent**. The materials that are not moved stay at the top, under **Material request lines not yet transferred**.
 
+### Create an inter warehouse document from a production order
+
+You can bring the materials needed for a [**production order**](../../Production/Documents/ProductionOrders.md#linked-documents) to the production area by creating an inter warehouse document from the order.
+
+1. Open the production order and go to the **Linked documents** section.
+2. Select **+ Empty inter warehouse**.
+3. Select all or some of the materials, and enter the location and quantity for each one.
+4. Click **Publish**.
+5. Repeat steps 2 to 4 for the other materials, if necessary.
+
+The inputs of the production order are shown in the document under **Not Yet Transferred**.
+
+For example, a production order for one table needs 1 table top, 4 legs and 10 screws:
+
+1. Create the first inter warehouse document, and move 10 screws and 2 legs.
+2. Create a second inter warehouse document from the same production order. It lists the remaining materials under **Not Yet Transferred**: 1 table top and 2 legs.
+
+The moved materials appear at the bottom of the document, under **No parent**. The materials that have not been moved stay at the top, under **Not Yet Transferred**.
+
+![Inter warehouse document created from a production order](../Images/InterWarehouseProductionOrderLines.png "Inter warehouse document created from a production order")
+
 ### Delete an inter warehouse document
 
 Draft documents can be deletedon the edit screen, but only if they contain **no material entries**.
