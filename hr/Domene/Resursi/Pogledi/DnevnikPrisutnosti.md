@@ -25,3 +25,5 @@ Odjeljak Dnevnik prisutnosti sastoji se od nekoliko zasebnih pogleda, od kojih s
 - **[Prisutnost na poslu](PrisutnostNaPoslu.md)** – pregled prisutnosti, koji prikazuje dolaske i obrasce rada resursa.
 
 Svaki pogled usmjeren je na određeni tijek rada, pa su praćenje vremena, upravljanje odsustvima i praćenje prisutnosti jasno odvojeni.
+
+Neka ponašanja u ovim pogledima postavljaju se u postavkama resursa, primjerice automatsko zatvaranje otvorenog radnog vremena i plaćeno vrijeme za ručak. Pogledajte [**Postavke resursa**](../../Sustav/Postavke/PostavkeResursa.md).

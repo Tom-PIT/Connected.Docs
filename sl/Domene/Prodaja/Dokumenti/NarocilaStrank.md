@@ -169,6 +169,7 @@ Razpoložljiva dejanja vključujejo:
 - [**+ Dobavnica**](Dobavnice.md)
 - **+ Prazna dobavnica**
 - **Poveži obstoječo dobavnico**
+- **Proizvodni nalog** – Poveži obstoječi [proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md) z izbranim naročilom stranke.
 - [**+ Proizvodni nalog**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md)
 - [**+ Vzdrževalni nalog**](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)
 - [**+ Izdani račun**](IzdaniRacuni.md)

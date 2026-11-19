@@ -76,6 +76,7 @@ Available configuration and master data include:
 - **[Availability plans](Views/AvailabilityPlans.md)**  
 - **[Competence matrices](Management/CompetenceMatrixes.md)**  
 - **[Configuration](Management/ResourcesConfiguration.md)**  
+- **[Resources settings](../System/Settings/ResourcesSettings.md)** – Automatic closing of time logs, folder limits, paid lunch time, and paid leave recipients. Configured under **System / Configuration**.  
 - **[Resources costs](Management/ResourcesCosts.md)**  
 - **[Currencies](../../Common/Management/Currencies.md)**  
 - **[Travel destinations](Management/TravelDestinations.md)**  

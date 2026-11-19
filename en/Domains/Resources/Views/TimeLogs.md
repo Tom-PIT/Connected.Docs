@@ -23,3 +23,5 @@ The Time logs area consists of several dedicated views, each covering a specific
 - **[Attendance at work](TimeLogsAttendanceAtWork.md)** - Attendance overview, showing presence and working patterns for resources.
 
 Each view focuses on a specific workflow, keeping time tracking, leave management, and attendance monitoring clearly separated.
+
+Some behavior in these views is set in the Resources settings, such as the automatic closing of open work time and the paid lunch time. See [**Resources settings**](../../System/Settings/ResourcesSettings.md).

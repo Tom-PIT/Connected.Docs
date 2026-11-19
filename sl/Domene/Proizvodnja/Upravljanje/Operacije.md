@@ -54,6 +54,15 @@ Seznam prikazuje vse operacije, definirane znotraj izbrane verzije procesa. Vsak
 
 Uporabite polje **Iskanje** za filtriranje operacij po nazivu ali šifri.
 
+### Meni
+
+Meni v zgornjem desnem kotu seznama omogoča dejanja za vse operacije v različici naenkrat:
+
+- **Izbriši vse vhode** – Izbriše vhode vseh operacij v različici.
+- **Izbriši vse izhode** – Izbriše izhode vseh operacij v različici.
+
+![Meni operacij](../Images/OperacijeMenuBrisanjeSvihSL.png "Meni operacij")
+
 ## Ustvariti novo operacijo
 
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite:

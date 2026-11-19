@@ -111,6 +111,29 @@ Međuskladišni prijenos možete stvoriti iz [**Material requests**](../../Proiz
 
 Premješteni materijal prikazuje se na dnu dokumenta pod skupinom **Bez nadređenog dokumenta**. Materijali koji nisu premješteni ostaju na vrhu pod skupinom **Material request lines not yet transferred**.
 
+### Izrada međuskladišnog prijenosa iz proizvodnog naloga
+
+Međuskladišni prijenos možete izraditi iz [**proizvodnog naloga**](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md#povezani-dokumenti) kako biste materijale potrebne za proizvodnju prenijeli na proizvodno područje.
+
+1. Otvorite proizvodni nalog i idite na odjeljak **Povezani dokumenti**.
+2. Odaberite **+ Prazan međuskladišni prijenos**.
+3. Odaberite sve ili neke materijale te unesite lokaciju i količinu za svaki.
+4. Kliknite **Objavi**.
+5. Po potrebi ponovite korake od 2 do 4 za ostale materijale.
+
+<!-- TODO: Potvrdite hrvatske oznake gumbova »+ Prazan međuskladišni prijenos« i »Objavi« na zaslonu. -->
+
+Ulazi proizvodnog naloga prikazani su u dokumentu pod skupinom **Not Yet Transferred**.
+
+Na primjer: proizvodni nalog za jedan stol potrebuje 1 ploču stola, 4 noge i 10 vijaka:
+
+1. Izradite prvi međuskladišni prijenos i premjestite 10 vijaka i 2 noge.
+2. Izradite drugi međuskladišni prijenos iz istog proizvodnog naloga. Pod skupinom **Not Yet Transferred** prikazani su preostali materijali: 1 ploča stola i 2 noge.
+
+Premješteni materijal prikazuje se na dnu dokumenta pod skupinom **Bez nadređenog dokumenta**. Materijali koji još nisu premješteni ostaju na vrhu pod skupinom **Not Yet Transferred**.
+
+![Međuskladišni prijenos izrađen iz proizvodnog naloga](../Images/MeduskladisniPrometProizvodniNalogHR.png "Međuskladišni prijenos izrađen iz proizvodnog naloga")
+
 ### Brisanje međuskladišnog prijenosa
 
 Dokument u statusu **Nacrt** moguće je izbrisati samo ako ne sadrži nijednu stavku.
