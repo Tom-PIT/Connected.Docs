@@ -49,6 +49,7 @@ Glejte:
 
 * [**Nastavitve**](Nastavitve/KonfiguracijaSistema.md)
 * [**Nastavitve skladišča**](Nastavitve/KonfiguracijaSkladisca.md)
+* [**Nastavitve virov**](Nastavitve/NastavitveVirov.md)
 * [**Nastavitve maloprodaje SI**](Nastavitve/KonfiguracijaMaloprodajaSI.md)
 
 ## Uporabniki

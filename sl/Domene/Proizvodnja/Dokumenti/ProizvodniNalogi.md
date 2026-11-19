@@ -107,6 +107,7 @@ Na proizvodni nalog lahko pripnete druge povezane dokumente, kot so:
 - [**Nabavni nalogi**](../../Nabava/Dokumenti/NabavniNalogi.md)
 - [**Povpraševanja**](../../Nabava/Dokumenti/Povprasevanja.md)
 - [**Med skladiscni promet**](../../Logistika/Dokumenti/MedSkladiscniPromet.md)
+- [**Naročila strank**](../../Prodaja/Dokumenti/NarocilaStrank.md)
 - Drugi proizvodni nalogi (povezani ali kot vhodni)
 
 ![Povezani dokumenti](../Images/ProductionOrdersLinkedDocumentsV2SL.png "Povezani dokumenti")

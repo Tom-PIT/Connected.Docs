@@ -108,6 +108,7 @@ Proizvodnom nalogu možete pridružiti druge povezane dokumente, kao što su:
 - [**Narudžbenice**](../../Nabava/Dokumenti/Narudzbenice.md)
 - [**Upiti**](../../Nabava/Dokumenti/Upiti.md)
 - [**Međuskladišni promet**](../../Logistika/Dokumenti/MeduskladisniPromet.md)
+- [**Narudžbe kupca**](../../Prodaja/Dokumenti/NarudzbeKupca.md)
 - drugi proizvodni nalozi (povezani ili nalozi koji proizvode ulazne materijale)  
 
 

@@ -106,6 +106,29 @@ Med-skladiščni promet lahko ustvarite iz [**zahtevka za material**](../../Proi
 
 Premaknjeni material se prikaže na dnu dokumenta pod skupino **Brez nadrejenega dokumenta**. Materiali, ki niso premaknjeni, ostanejo na vrhu pod skupino **Postavke zahtevka še niso prenesene**.
 
+### Ustvariti med-skladiščni promet iz proizvodnega naloga
+
+Med-skladiščni promet lahko ustvarite iz [**proizvodnega naloga**](../../Proizvodnja/Dokumenti/ProizvodniNalogi.md#povezani-dokumenti), da materiale, potrebne za proizvodnjo, prenesete na proizvodno območje.
+
+1. Odprite proizvodni nalog in pojdite na razdelek **Povezani dokumenti**.
+2. Izberite **+ Prazen med-skladiščni promet**.
+3. Izberite vse ali nekatere materiale ter vnesite lokacijo in količino za vsakega.
+4. Kliknite **Objavi**.
+5. Po potrebi ponovite korake od 2 do 4 za druge materiale.
+
+<!-- TODO: Potrdite slovenske oznake gumbov »+ Prazen med-skladiščni promet« in »Objavi« na zaslonu. -->
+
+Vhodi proizvodnega naloga so v dokumentu prikazani pod skupino **Še ni prenešeno**.
+
+Na primer: proizvodni nalog za eno mizo potrebuje 1 mizno ploščo, 4 noge in 10 vijakov:
+
+1. Ustvarite prvi dokument med-skladiščnega prometa in premaknite 10 vijakov in 2 nogi.
+2. Ustvarite drugi dokument med-skladiščnega prometa iz istega proizvodnega naloga. Pod skupino **Še ni prenešeno** so prikazani preostali materiali: 1 mizna plošča in 2 nogi.
+
+Premaknjeni materiali se prikažejo na dnu dokumenta pod skupino **Brez nadrejenega dokumenta**. Materiali, ki še niso premaknjeni, ostanejo na vrhu pod skupino **Še ni prenešeno**.
+
+![Med-skladiščni promet, ustvarjen iz proizvodnega naloga](../Images/MedSkladiscniPrometProizvodniNalogSL.png "Med-skladiščni promet, ustvarjen iz proizvodnega naloga")
+
 ### Izbrisati dokument med-skladiščnega prometa
 
 Osnutke je mogoče izbrisati na zaslonu za urejanje, vendar le, če **ne vsebujejo nobenih postavk**.

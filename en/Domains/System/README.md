@@ -49,6 +49,7 @@ See:
 
 * [**Configuration**](Settings/Configuration.md)
 * [**Warehouse configuration**](Settings/WarehouseConfiguration.md)
+* [**Resources settings**](Settings/ResourcesSettings.md)
 * [**Sales Retail SI Settings**](Settings/SalesRetailsSISettings.md)
 
 ## Users

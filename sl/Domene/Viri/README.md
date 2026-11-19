@@ -74,6 +74,7 @@ Razpoložljive nastavitve in osnovni podatki vključujejo:
 - **[Matrike kompetenc](Upravljanje/MatrikeKompetenc.md)**  
 - **[Konfiguracija](Upravljanje/KonfiguracijaVirov.md)**  
 - **[Postavke virov](Upravljanje/PostavkeVirov.md)**  
+- **[Nastavitve virov](../Sistem/Nastavitve/NastavitveVirov.md)** – Samodejno zapiranje dnevnikov časa, omejitev virov v mapah, plačana malica in prejemniki prošenj za dopust. Nastavitve so v **Sistem / Konfiguracija**.  
 - **[Valute](../../Skupno/Upravljanje/Valute.md)**  
 - **[Relacije](Upravljanje/Relacije.md)**  
 - **[Razlogi za potovanje](Upravljanje/RazlogiZaPotovanje.md)**  

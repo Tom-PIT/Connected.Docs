@@ -65,6 +65,12 @@ The **Status** then shows the result. To view the checklist, select the **Status
 > [!NOTE]
 > Clicking the **Status** link only shows the checklist. To answer it, click the material name.
 
+## Attachments
+
+Use the **Attachments** section to upload and manage files related to the document, such as photos, PDFs, certificates, or supporting records.
+
+For detailed instructions, see [**Attachments**](../../../Common/Concepts/Attachments.md).
+
 ## Delete a material analysis
 
 Material analysis documents cannot be deleted.

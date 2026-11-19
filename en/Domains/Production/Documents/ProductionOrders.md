@@ -108,6 +108,7 @@ You may attach other documents that relate to the production order, such as:
 - [**Supply orders**](../../Supply/Documents/SupplyOrders.md)
 - [**Inquiries**](../../Supply/Documents/Inquiries.md)
 - [**Inter warehouse**](../../Logistics/Documents/InterWarehouse.md)
+- [**Sales orders**](../../Sales/Documents/SalesOrders.md)
 - Other production orders (linked or input-producing)  
 
 

@@ -172,6 +172,7 @@ Dostupne radnje uključuju:
 - **+ Prazna [otpremnica](Otpremnice.md)**
 - **+ Potpuna [otpremnica](Otpremnice.md)**
 - **Poveži postojeću [otpremnicu](Otpremnice.md)**
+- **[Proizvodni nalog](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md)** – Poveži postojeći proizvodni nalog koji proizvodi materijal jednog od artikala narudžbe kupca.
 - [**+ Proizvodni nalog**](../../Proizvodnja/Dokumenti/ProizvodniNalozi.md)
 - [**+ Nalog za održavanje**](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md)
 - [**+ Izlazni račun**](IzlazniRacuni.md)
