@@ -75,7 +75,8 @@ Dostupne konfiguracije i glavni podaci uključuju:
 - **[Tipovi raspoloživosti](Upravljanje/TipoviRaspolozivosti.md)**
 - **[Planovi dostupnosti](Pogledi/PlanoviDostupnosti.md)**
 - **[Matrice kompetencija](Upravljanje/MatriceKompetencija.md)**
-- **[Konfiguracija](Upravljanje/Konfiguracija.md)**
+- **[Konfiguracija](Upravljanje/Konfiguracija.md)**  
+- **[Postavke resursa](../Sustav/Postavke/PostavkeResursa.md)** – Automatsko zatvaranje dnevnika vremena, ograničenje mape resursa, plaćeno vrijeme za ručak i primatelji zahtjeva za godišnji. Postavke se nalaze pod **Sustav / Konfiguracija**.
 - **[Trošak resursa](Upravljanje/TroskoviResursa.md)**
 - **[Valute](../../Zajednicko/Upravljanje/Valute.md)**
 - **[Odredišta](Upravljanje/Odredista.md)**

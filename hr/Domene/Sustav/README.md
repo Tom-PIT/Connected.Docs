@@ -49,6 +49,7 @@ Pogledajte:
 
 * [**Postavke sustava**](Postavke/PostavkeSustava.md)
 * [**Skladište**](Postavke/KonfiguracijaSkladista.md)
+* [**Postavke resursa**](Postavke/PostavkeResursa.md)
 * [**Postavke Sales Retail SI**](Postavke/SalesRetailsSISettings.md)
 
 ## Korisnici

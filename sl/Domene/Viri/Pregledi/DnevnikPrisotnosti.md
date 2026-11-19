@@ -23,3 +23,5 @@ Področje Dnevnik prisotnosti je sestavljeno iz več namenskih pogledov, od kate
 - **[Prisotnost na delu](DnevnikPrisotnostiPrisotnostNaDelu.md)** - Pregled prisotnosti, ki prikazuje prisotnost in vzorce dela za vire.
 
 Vsak pogled je osredotočen na specifičen delovni tok, kar zagotavlja jasno ločitev med beleženjem časa, upravljanjem odsotnosti in spremljanjem prisotnosti na delu.
+
+Nekatera obnašanja v teh pogledih nastavite v nastavitvah virov, na primer samodejno zapiranje odprtega delovnega časa in plačano malico. Glejte [**Nastavitve virov**](../../Sistem/Nastavitve/NastavitveVirov.md).
