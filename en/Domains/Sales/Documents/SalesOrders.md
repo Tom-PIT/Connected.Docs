@@ -171,6 +171,7 @@ Available actions include:
 - **+ Empty [delivery note](DeliveryNotes.md)****
 - **Link existing [delivery note](DeliveryNotes.md)**
 - [**+ Production order**](../../Production/Documents/ProductionOrders.md)
+- **[Production order](../../Production/Documents/ProductionOrders.md)** – Link an existing production order producing a material of one of the sales order assets.
 - [**+ Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md)
 - [**+ Issued invoice**](IssuedInvoices.md)
 - **Link to project**
