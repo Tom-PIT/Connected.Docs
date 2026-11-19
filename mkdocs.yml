@@ -92,6 +92,7 @@ nav:
               - Documents:
                   - Production orders: en/Domains/Production/Documents/ProductionOrders.md
                   - How to create a new production order: en/Domains/Production/Documents/ProductionOrderCreate.md
+                  - Material requests: en/Domains/Production/Documents/MaterialRequests.md
                   - Execution: en/Domains/Production/Documents/Execution.md
                   - Instructions: en/Domains/Production/Documents/Instructions.md
                   - Quality: en/Domains/Production/Documents/Quality.md
@@ -414,6 +415,7 @@ nav:
                   - Warehouse configuration: en/Domains/System/Settings/WarehouseConfiguration.md
                   - Production order configuration: en/Domains/System/Settings/ProductionOrderConfiguration.md
                   - Sales Retail SI Settings: en/Domains/System/Settings/SalesRetailsSISettings.md
+                  - Resources settings: en/Domains/System/Settings/ResourcesSettings.md
 
   - Slovenščina:
       - sl/README.md
@@ -446,6 +448,7 @@ nav:
                   - Navodila: sl/Domene/Proizvodnja/Dokumenti/Navodila.md
                   - Kvaliteta: sl/Domene/Proizvodnja/Dokumenti/Kvaliteta.md
                   - Zahteve: sl/Domene/Proizvodnja/Dokumenti/Zahteve.md
+                  - Zahteve za material: sl/Domene/Proizvodnja/Dokumenti/ZahteveZaMaterial.md
 
               - Analiza:
                   - Kazalniki proizvodnje: sl/Domene/Proizvodnja/Analiza/KazalnikiProizvodnje.md
@@ -763,6 +766,7 @@ nav:
                   - Konfiguracija skladišča: sl/Domene/Sistem/Nastavitve/KonfiguracijaSkladisca.md
                   - Konfiguracija proizvodnih nalogov: sl/Domene/Sistem/Nastavitve/KonfiguracijaProizvodnihNalogov.md
                   - Nastavitve maloprodaje SI: sl/Domene/Sistem/Nastavitve/KonfiguracijaMaloprodajaSI.md
+                  - Nastavitve virov: sl/Domene/Sistem/Nastavitve/NastavitveVirov.md
 
   - Hrvatski:
       - hr/README.md
@@ -797,6 +801,7 @@ nav:
                   - Upute: hr/Domene/Proizvodnja/Dokumenti/Upute.md
                   - Kvaliteta: hr/Domene/Proizvodnja/Dokumenti/Kvaliteta.md
                   - Zahtjevi: hr/Domene/Proizvodnja/Dokumenti/Zahtjevi.md
+                  - Material requests: hr/Domene/Proizvodnja/Dokumenti/MaterialRequests.md
                   - Loši komadi: hr/Domene/Proizvodnja/Dokumenti/LosiKomadi.md
                   - Potrošeno: hr/Domene/Proizvodnja/Dokumenti/Potroseno.md
                   - Zastoj: hr/Domene/Proizvodnja/Dokumenti/Zastoj.md
@@ -1073,6 +1078,7 @@ nav:
               - hr/Domene/Sustav/README.md
               - Postavke:
                   - Postavke sustava: hr/Domene/Sustav/Postavke/PostavkeSustava.md
+                  - Postavke resursa: hr/Domene/Sustav/Postavke/PostavkeResursa.md
                   - Konfiguracija skladišta: hr/Domene/Sustav/Postavke/KonfiguracijaSkladista.md
                   - Postavke Sales Retail SI: hr/Domene/Sustav/Postavke/SalesRetailsSISettings.md
               - Upravljanje:
