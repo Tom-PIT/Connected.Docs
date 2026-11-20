@@ -145,14 +145,41 @@ To delete a visit:
 
 In addition to the administrative view, the system provides a simplified operational view intended for use on a tablet device at the entrance.
 
+To open the view, enter the address `/customers/visitors/public-facing` after your system's web address.
+
+<!-- TODO: Add the navigation path to the entrance view once it is available in the menu. -->
+
 This view:
 
 - Displays only today’s visits in status **Announced** and **On location**
 - Has no filters
-- Refreshes automatically every 15 minutes
+
+The list updates when a visit is added or completed. A visit that is added appears in the list, and a completed visit disappears from it.
+
+<!-- TODO: Confirm how often the entrance view refreshes on its own. -->
 
 Interaction differs slightly from the administrative view:
 
-- Selecting an **Announced** visit automatically changes the status to **On location** and sets the actual arrival time.
-- Selecting an **On location** visit automatically changes the status to **Completed** and sets the actual departure time.
-- Using the **+** button creates a new visit directly in **On location** status.
+- An **Announced** visit is shown in blue. Open it, sign and confirm the statement, and save. The status changes to **On location**, and the actual arrival time is set.
+- An **On location** visit cannot be completed in the entrance view. Change its status to **Completed** in **Visitors management**.
+- Using the **+** button lets an unannounced visitor register themselves. See [**Self-registration of visitors**](#self-registration-of-visitors).
+
+### Self-registration of visitors
+
+Unannounced visitors, such as service technicians, inspectors or customers, can register themselves on the entrance tablet, without help from the reception.
+
+Self-registration is off by default. To turn it on, go to **System / Configuration**, open **Customers.Visitors Settings**, and select **Self-registration of visitors** in the **Guided Visit Declarations** section.
+
+![Self-registration of visitors setting](../Images/VisitorsSelfRegistrationSetting.png "Self-registration of visitors setting")
+
+When self-registration is on, the entrance view shows a **+** button. To register:
+
+1. Select **+**.
+2. Enter the **Name and surname**. **Company**, **Phone** and **Email** are optional.
+3. Read the **Statement**, select **I confirm**, and sign in the signature field.
+4. Select **Confirm**.
+5. Select **Register**.
+
+![Visitor registration form](../Images/VisitorsSelfRegistration.png "Visitor registration form")
+
+The visit is created directly in **On location** status, with the actual arrival time. No further confirmation is needed. Announced visits are still selected from the list.
