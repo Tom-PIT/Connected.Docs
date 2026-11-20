@@ -143,11 +143,10 @@ To delete a visit:
 
 ## Operational entrance view (Tablet mode)
 
-In addition to the administrative view, the system provides a simplified operational view intended for use on a tablet device at the entrance.
+In addition to the administrative view, the system provides a simplified operational view intended for use on a tablet device at the entrance. Open it at `/customers/visitors/public-facing`.
 
-To open the view, enter the address `/customers/visitors/public-facing` after your system's web address.
-
-<!-- TODO: Add the navigation path to the entrance view once it is available in the menu. -->
+> [!TIP]
+> The entrance view is not listed in the navigation or the sitemap. Save the address as a bookmark in the tablet's browser, so that you can open the view quickly.
 
 This view:
 
