@@ -63,7 +63,7 @@ Za upravljanje kontrolnih točk:
 1. Odprite stran **Kontrolne liste**.
 2. Poiščite kontrolno listo in kliknite gumb **Kontrolne točke**.
 
-    ![Navigacija do kontrolnih točk](../Images/CheckpointButton.png)
+    ![Navigacija do kontrolnih točk](../Images/CheckpointButtonSL.png)
 
 Odpre se stran **Kontrolne točke**, kjer lahko kontrolne točke dodajate, urejate, brišete in spreminjate njihov vrstni red.
 

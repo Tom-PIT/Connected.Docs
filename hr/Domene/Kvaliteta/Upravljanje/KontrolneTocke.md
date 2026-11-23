@@ -77,9 +77,11 @@ Kontrolnu točku možete obrisati na njezinoj stranici za uređivanje klikom na 
 
 ## Posebnosti prema tipu
 
-Ovisno o odabranom **Tipu**, prikazuju se dodatna polja ili postavke.
+Ovisno o odabranom **Tipu**, prikazuju se dodatna polja ili postavke. Za sve tipove potvrdni okvir **Neobvezno** određuje mora li operater ispuniti kontrolnu točku.
 
 ### Tip: Označi
+
+Tip **Označi** koristite za korak koji operater potvrđuje oznakom, na primjer „Zaštitna ograda je postavljena“ ili „Naljepnica je pričvršćena“. Operater označi potvrdni okvir uz **Tekst za potvrđivanje**, a kontrolna točka je time ispunjena. Tekst za potvrđivanje treba jasno reći što operater potvrđuje.
 
 Kod tipa **Označi** prikazuje se dodatno polje:
 
@@ -88,6 +90,8 @@ Kod tipa **Označi** prikazuje se dodatno polje:
 | **Tekst za potvrđivanje** | Tekst | Tekst prikazan uz potvrdni okvir. |
 
 ### Tip: Popis
+
+Tip **Popis** koristite kada operater bira između unaprijed definiranih opcija, na primjer „Izgled: dobar / ogrebano / oštećeno“. Postavite **Broj valjanih vrijednosti** na **Jedna** ako se može odabrati samo jedna opcija, ili na **Više** ako može vrijediti više opcija. Opcija označena kao **Valjano** predstavlja prihvatljiv rezultat. U kontroli kvalitete opcija koja nije valjana ukazuje na problem, na primjer ogrebanu površinu.
 
 Kod tipa **Popis** prikazuju se dodatne postavke:
 
@@ -108,16 +112,30 @@ Dodane vrijednosti prikazuju se u tablici.
 
 ### Tip: Broj
 
+Tip **Broj** koristite kada operater mora unijeti brojčanu vrijednost, na primjer očitanje ili mjerenje. Primjer: kontrolna točka „Unesite temperaturu“ s mjernom jedinicom °C, zadanom vrijednosti 23, **Donja granica** >= 5 i **Gornja granica** <= 35. Operater upisuje izmjerenu temperaturu, a kontrolni popis prihvaća je samo ako je unutar granica.
+
 Kod tipa **Broj** prikazuju se dodatna polja:
 
 | Atribut | Vrsta | Opis |
 |---------|------|------|
 | [**Mjerna jedinica**](../../../Zajednicko/Upravljanje/MjerneJedinice.md) | Padajući popis | Mjerna jedinica za unesenu vrijednost. |
-| **Najmanja vrijednost** | Broj | Najmanja dopuštena vrijednost. |
+| **Donja granica** | Padajući popis i broj | Donja granica dopuštenih vrijednosti. Odaberite **>=** (vrijednost na granici je dopuštena) ili **>** (dopuštene su samo vrijednosti iznad granice), zatim unesite vrijednost granice. |
+| **Gornja granica** | Padajući popis i broj | Gornja granica dopuštenih vrijednosti. Odaberite **<=** (vrijednost na granici je dopuštena) ili **<** (dopuštene su samo vrijednosti ispod granice), zatim unesite vrijednost granice. |
 | **Zadana vrijednost** | Broj | Zadana vrijednost kontrolne točke. |
-| **Najveća vrijednost** | Broj | Najveća dopuštena vrijednost. |
+
+Na primjer, uz **Donju granicu** postavljenu na **>= 5**, vrijednost 5 je dopuštena. Uz **> 5** vrijednost 5 nije dopuštena, a najmanja dopuštena vrijednost je iznad 5.
+
+![Kontrolna točka tipa Broj](../Images/CheckpointNumberHR.png "Kontrolna točka tipa Broj")
 
 > [!NOTE]
 > Za lakše upravljanje mjernim jedinicama dostupna je poveznica na stranicu **[Mjerne jedinice](../../../Zajednicko/Upravljanje/MjerneJedinice.md)**.
 >
 > ![Mjerne jedinice](../Images/CheckpointMeasureUnitsHR.png)
+
+### Tip: Privitak
+
+Tip **Privitak** koristite kada operater mora priložiti dokaz, na primjer fotografiju gotovog proizvoda ili PDF certifikata o ispitivanju. Operater prilaže datoteku tijekom popunjavanja kontrolnog popisa. Ako nije označeno **Neobvezno**, kontrolnu točku nije moguće dovršiti dok se ne priloži datoteka.
+
+### Tip: Tekst
+
+Tip **Tekst** koristite kada operater mora upisati slobodnu bilješku, na primjer opis nedostatka ili ime inspektora serije. Operater upisuje odgovor u polje, a on se sprema uz kontrolni popis.
