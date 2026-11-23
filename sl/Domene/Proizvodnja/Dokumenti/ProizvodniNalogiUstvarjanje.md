@@ -40,6 +40,10 @@ Določa obnašanje proizvodnega naloga:
 
     ![Production Order Create Child](../Images/ProductionOrderCreateChildSL.png "Ustvari podrejeni proizvodni nalog")
 
+    Razdelek **Proces** nadrejenega naloga prikazuje planirane **Vhode**, **Človeške vire** in **Stvarne vire**.
+
+    ![Proces nadrejenega naloga](../Images/ProductionOrderParentProcessSL.png "Proces nadrejenega naloga")
+
 - **Krovni z delnimi izdelavami** — Ustvari nadrejeni nalog in samodejno generira več podrejenih proizvodnih nalogov, kjer vsak izdela del celotne količine.  
   Prikažeta se dve polji:
   - **Število delnih proizvodnj** — koliko podrejenih nalogov se ustvari  
