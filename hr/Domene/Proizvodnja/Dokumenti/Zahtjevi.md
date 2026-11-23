@@ -25,7 +25,7 @@ Za pristup ovoj stranici otvorite **Proizvodnja / Zahtjevi** u [navigaciji](../.
 |--------|------|
 | **Zahtjevi** | Naziv i šifra materijala. Svaki materijal možete proširiti kako biste vidjeli koje ga operacije troše. |
 | **Količina** | Prikazuje dvije vrijednosti:<br>• **Količina u intervalu** — potrebna količina u odabranom razdoblju (gornja vrijednost)<br>• **Ukupna količina** — ukupna planirana potrošnja svih operacija koje koriste taj materijal (donja vrijednost) |
-| **Zaliha** | Trenutno dostupna zaliha. <br>• Ako je zaliha manja od potrebne, prikazuje se **narančasto**, a ako je zaliha **0**, **crveno** (pogledajte [Oznaka bojom](#oznaka-bojom)). <br>• Klikom na ikonu **+** otvara se prozor za izradu **nove narudžbenice**. |
+| **Zaliha** | Trenutno dostupna zaliha. Ako su u filtrima odabrani skladište ili skladišna lokacija, prikazuje se samo zaliha u tom skladištu odnosno na toj lokaciji (uključujući podređene lokacije). <br>• Ako je zaliha manja od potrebne, prikazuje se **narančasto**, a ako je zaliha **0**, **crveno** (pogledajte [Oznaka bojom](#oznaka-bojom)). <br>• Klikom na ikonu **+** otvara se prozor za izradu **nove narudžbenice**. |
 
 ## Pregled popisa
 
@@ -39,9 +39,11 @@ Filtri se nalaze na lijevoj strani zaslona i omogućuju određivanje planiranih 
 
 - **Prikaz planiranih operacija** – kada je uključeno, zahtjevi se izračunavaju samo na temelju planiranih (još neizvedenih) operacija.  
 - **Početak / Kraj** – definira vremenski interval za izračun potrebnih količina.  
-- **Organizacijska jedinica** – filtriranje zahtjeva prema organizacijskoj jedinici.
+- **Organizacijska jedinica** – filtriranje zahtjeva prema organizacijskoj jedinici. Odabir jedinice uključuje i zahtjeve svih njezinih podređenih organizacijskih jedinica.
+- **Skladište** – ograničava zalihu u stupcu **Zaliha** na odabrano skladište.
+- **Skladišna lokacija** – ograničava zalihu u stupcu **Zaliha** na odabranu lokaciju i njezine podređene lokacije.
 
-Uključuju se samo materijali potrebni za operacije koje su u odabranom vremenskom razdoblju i organizacijskoj jedinici.
+Uključuju se samo materijali potrebni za operacije koje su u odabranom vremenskom razdoblju i organizacijskoj jedinici. Filtri skladišta i lokacije mijenjaju samo stupac **Zaliha**, a ne popis materijala.
 
 ### Pregled detalja potrošnje
 
@@ -77,4 +79,4 @@ Tako je moguća brza nadopuna zaliha izravno sa zaslona Zahtjevi.
 
 ## Izbornik
 
-Izbornik u gornjem desnom kutu stranice omogućuje izvoz popisa zahtjeva u CSV datoteku za daljnju analizu ili dijeljenje s drugim dionicima.
+Izbornik u gornjem desnom kutu stranice omogućuje izvoz popisa zahtjeva u CSV datoteku za daljnju analizu ili dijeljenje s drugim dionicima. Izvoz sadrži jednake zahtjeve kao filtrirani popis, uključujući one podređenih organizacijskih jedinica. Ostale radnje izbornika potražite u odjeljku [Radnje izbornika](../../../Zajednicko/Koncepti/RadnjeIzbornika.md).
