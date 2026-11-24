@@ -1722,6 +1722,8 @@
       
         
       
+        
+      
     
     
     
@@ -2032,6 +2034,34 @@
     
   
     Outputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../en/Domains/Production/Management/ProcessImport/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process import
   
 
     
@@ -12437,6 +12467,8 @@
       
         
       
+        
+      
     
     
     
@@ -12887,6 +12919,34 @@
     
   
     Stvarni viri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proizvodnja/Upravljanje/UvozProcesov/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvoz procesov
   
 
     
@@ -16686,6 +16746,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Operativni pogled vhoda (način za tablico)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#samostojen-vpis-obiskovalcev" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Samostojen vpis obiskovalcev
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -23507,6 +23584,8 @@
       
         
       
+        
+      
     
     
     
@@ -23985,6 +24064,34 @@
     
   
     Troškovi operacije
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../hr/Domene/Proizvodnja/Upravljanje/UvozProcesa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvoz procesa
   
 
     
@@ -33395,6 +33502,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Operativni pogled vhoda (način za tablico)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#samostojen-vpis-obiskovalcev" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Samostojen vpis obiskovalcev
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -33636,19 +33760,41 @@ Obisk se premakne med <strong>Zaključene</strong> in prikaže tako čas prihoda
 1. Odprite zapis obiska.
 2. Kliknite <strong>Izbriši</strong> in potrdite dejanje.</p>
 <h2 id="operativni-pogled-vhoda-nacin-za-tablico">Operativni pogled vhoda (način za tablico)<a class="headerlink" href="#operativni-pogled-vhoda-nacin-za-tablico" title="Permanent link">&para;</a></h2>
-<p>Poleg administrativnega pogleda sistem omogoča poenostavljen operativni pogled, namenjen uporabi na tablični napravi na vhodu.</p>
+<p>Poleg administrativnega pogleda sistem omogoča poenostavljen operativni pogled, namenjen uporabi na tablični napravi na vhodu. Odprete ga na naslovu <code>/customers/visitors/public-facing</code>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Pogled ni vključen v navigacijo ali zemljevid strani. Naslov si na tablici shranite kot zaznamek, da lahko pogled hitro odprete.</p>
+</div>
 <p>Ta pogled:</p>
 <ul>
 <li>Prikazuje samo današnje obiske v statusu <strong>Najavljen</strong> in <strong>Na lokaciji</strong></li>
 <li>Ne vsebuje filtrov</li>
-<li>Se samodejno osveži vsakih 15 minut</li>
 </ul>
+<p>Seznam se osveži, ko se obisk doda ali zaključi. Dodani obisk se prikaže na seznamu, zaključen obisk pa z njega izgine.</p>
+<!-- TODO: Potrdite, kako pogosto se pogled samodejno osvežuje. -->
+
 <p>Interakcija se nekoliko razlikuje od administrativnega pogleda:</p>
 <ul>
-<li>Izbira obiska v statusu <strong>Najavljen</strong> samodejno spremeni status v <strong>Na lokaciji</strong> in nastavi dejanski čas prihoda.</li>
-<li>Izbira obiska v statusu <strong>Na lokaciji</strong> samodejno spremeni status v <strong>Zaključen</strong> in nastavi dejanski čas odhoda.</li>
-<li>Uporaba gumba <strong>+</strong> ustvari nov obisk neposredno v statusu <strong>Na lokaciji</strong>.</li>
+<li>Obisk v statusu <strong>Najavljen</strong> je prikazan modro. Odprite ga, potrdite izjavo s podpisom in shranite. Status se spremeni v <strong>Na lokaciji</strong>, nastavi pa se dejanski čas prihoda.</li>
+<li>Obiska v statusu <strong>Na lokaciji</strong> v tem pogledu ni mogoče zaključiti. Status spremenite v <strong>Zaključen</strong> v pogledu za urejanje obiskov.</li>
+<li>Z gumbom <strong>+</strong> se lahko nenajavljen obiskovalec vpiše sam. Glejte <a href="#samostojen-vpis-obiskovalcev"><strong>Samostojen vpis obiskovalcev</strong></a>.</li>
 </ul>
+<h3 id="samostojen-vpis-obiskovalcev">Samostojen vpis obiskovalcev<a class="headerlink" href="#samostojen-vpis-obiskovalcev" title="Permanent link">&para;</a></h3>
+<p>Obiskovalci, ki niso bili najavljeni, na primer serviserji, inšpekcija ali kupci, se lahko na vhodu vpišejo sami, brez pomoči recepcije.</p>
+<p>Samostojen vpis je privzeto izklopljen. Vklopite ga v <strong>Sistem / Konfiguracija</strong>, v nastavitvah <strong>Customers.Visitors Settings</strong>, z možnostjo <strong>Samostojen vpis obiskovalcev</strong>.</p>
+<p><img alt="Nastavitev samostojnega vpisa obiskovalcev" src="../../Images/UrejanjeObiskovNastavitevSL.png" title="Nastavitev samostojnega vpisa obiskovalcev" /></p>
+<!-- TODO: Potrdite nazive skupine nastavitev in nastavitev Customers.Visitors Settings v slovenskem vmesniku. -->
+
+<p>Ko je vpis vklopljen, se na pogledu vhoda prikaže gumb <strong>+</strong>. Za vpis:</p>
+<ol>
+<li>Izberite <strong>+</strong>.</li>
+<li>Vnesite <strong>Ime in priimek</strong>. <strong>Podjetje</strong>, <strong>Telefon</strong> in <strong>E-pošta</strong> so neobvezni.</li>
+<li>Preberite <strong>Izjavo</strong>, izberite <strong>Potrjujem</strong> in se podpišite v polje za podpis.</li>
+<li>Izberite <strong>Potrdi</strong>.</li>
+<li>Izberite <strong>Vpis</strong>.</li>
+</ol>
+<p><img alt="Vpis obiskovalca" src="../../Images/UrejanjeObiskovVpisSL.png" title="Vpis obiskovalca" /></p>
+<p>Obisk se ustvari neposredno v statusu <strong>Na lokaciji</strong> z dejanskim časom prihoda. Dodatna potrditev ni potrebna. Najavljeni obiski se še vedno izbirajo s seznama.</p>
 
 
 

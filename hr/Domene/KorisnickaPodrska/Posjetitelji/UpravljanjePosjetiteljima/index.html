@@ -1722,6 +1722,8 @@
       
         
       
+        
+      
     
     
     
@@ -2032,6 +2034,34 @@
     
   
     Outputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../en/Domains/Production/Management/ProcessImport/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process import
   
 
     
@@ -12430,6 +12460,8 @@
       
         
       
+        
+      
     
     
     
@@ -12880,6 +12912,34 @@
     
   
     Stvarni viri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../sl/Domene/Proizvodnja/Upravljanje/UvozProcesov/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvoz procesov
   
 
     
@@ -23325,6 +23385,8 @@
       
         
       
+        
+      
     
     
     
@@ -23803,6 +23865,34 @@
     
   
     Troškovi operacije
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proizvodnja/Upravljanje/UvozProcesa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvoz procesa
   
 
     
@@ -27113,6 +27203,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Ulazni prikaz za operativni rad (način rada na tabletu)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#samostalna-prijava-posjetitelja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Samostalna prijava posjetitelja
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -33395,6 +33502,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Ulazni prikaz za operativni rad (način rada na tabletu)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#samostalna-prijava-posjetitelja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Samostalna prijava posjetitelja
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -33635,19 +33759,39 @@
 1. Otvorite zapis o posjeti.
 2. Kliknite <strong>Izbriši</strong> i potvrdite radnju.</p>
 <h2 id="ulazni-prikaz-za-operativni-rad-nacin-rada-na-tabletu">Ulazni prikaz za operativni rad (način rada na tabletu)<a class="headerlink" href="#ulazni-prikaz-za-operativni-rad-nacin-rada-na-tabletu" title="Permanent link">&para;</a></h2>
-<p>Uz administrativni prikaz, sustav nudi pojednostavljeni operativni prikaz namijenjen korištenju na tabletu na ulazu.</p>
+<p>Uz administrativni prikaz, sustav nudi pojednostavljeni operativni prikaz namijenjen korištenju na tabletu na ulazu. Otvorite ga na adresi <code>/customers/visitors/public-facing</code>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Prikaz nije uključen u navigaciju ni u mapu stranice. Adresu spremite kao oznaku (bookmark) u pregledniku tableta, kako biste prikaz mogli brzo otvoriti.</p>
+</div>
 <p>Ovaj prikaz:</p>
 <ul>
 <li>prikazuje samo današnje posjete sa statusom <strong>Najavljeni</strong> i <strong>Na lokaciji</strong></li>
 <li>nema filtere</li>
-<li>automatski se osvježava svakih 15 minuta</li>
 </ul>
+<p>Popis se osvježava kada se posjeta doda ili dovrši. Dodana posjeta pojavi se na popisu, a dovršena posjeta s njega nestane.</p>
+<!-- TODO: Potvrdite koliko često se ovaj prikaz automatski osvježava. -->
+
 <p>Interakcija se malo razlikuje od administrativnog prikaza:</p>
 <ul>
-<li>Odabirom <strong>Najavljene</strong> posjete status se automatski mijenja u <strong>Na lokaciji</strong> i postavlja se stvarno vrijeme dolaska.</li>
-<li>Odabirom posjete <strong>Na lokaciji</strong> status se automatski mijenja u <strong>Dovršeni</strong> i postavlja se stvarno vrijeme odlaska.</li>
-<li>Gumbom <strong>+</strong> nova posjeta izravno se stvara u statusu <strong>Na lokaciji</strong>.</li>
+<li>Najavljena posjeta prikazana je plavom bojom. Otvorite je, potvrdite izjavu potpisom i spremite. Status se mijenja u <strong>Na lokaciji</strong>, a postavlja se stvarno vrijeme dolaska.</li>
+<li>Posjeta u statusu <strong>Na lokaciji</strong> ne može se dovršiti u ovom prikazu. Status promijenite u <strong>Dovršeni</strong> u prikazu za uređivanje posjeta.</li>
+<li>Gumbom <strong>+</strong> posjetitelj se može sam upisati. Pogledajte <a href="#samostalna-prijava-posjetitelja"><strong>Samostalna prijava posjetitelja</strong></a>.</li>
 </ul>
+<h3 id="samostalna-prijava-posjetitelja">Samostalna prijava posjetitelja<a class="headerlink" href="#samostalna-prijava-posjetitelja" title="Permanent link">&para;</a></h3>
+<p>Posjetitelji koji nisu bili najavljeni, na primjer serviseri, inspekcija ili kupci, mogu se na ulazu sami upisati, bez pomoći recepcije.</p>
+<p>Samostalna prijava je prema zadanim postavkama isključena. Uključite je u <strong>Sustav / Postavke</strong>, u postavkama <strong>Customers.Visitors Settings</strong>, u odjeljku <strong>Izjave za vođene posjete</strong>, opcijom <strong>Samostalna prijava posjetitelja</strong>.</p>
+<p><img alt="Postavka samostalne prijave posjetitelja" src="../../Images/UpravljanjePosjetiteljimaNastavitevHR.png" title="Postavka samostalne prijave posjetitelja" /></p>
+<p>Kada je prijava uključena, na prikazu za ulaz pojavljuje se gumb <strong>+</strong>. Za upis:</p>
+<ol>
+<li>Odaberite <strong>+</strong>.</li>
+<li>Upišite <strong>Ime i prezime</strong>. <strong>Poduzeće</strong>, <strong>Telefon</strong> i <strong>Email</strong> su neobvezni.</li>
+<li>Pročitajte <strong>Izjavu</strong>, odaberite <strong>Potvrđujem</strong> i potpišite se u polje za potpis.</li>
+<li>Odaberite <strong>Potvrdi</strong>.</li>
+<li>Odaberite <strong>Upis</strong>.</li>
+</ol>
+<p><img alt="Upis posjetitelja" src="../../Images/UpravljanjePosjetiteljimaUpisHR.png" title="Upis posjetitelja" /></p>
+<p>Posjeta se stvara izravno u statusu <strong>Na lokaciji</strong> s stvarnim vremenom dolaska. Dodatna potvrda nije potrebna. Najavljene posjete i dalje se biraju s popisa.</p>
 
 
 

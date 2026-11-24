@@ -1729,6 +1729,8 @@
       
         
       
+        
+      
     
     
     
@@ -2039,6 +2041,34 @@
     
   
     Outputs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Production/Management/ProcessImport/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process import
   
 
     
@@ -10751,6 +10781,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#type-file-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type: File upload
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type: Text
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -12593,6 +12645,8 @@
       
         
       
+        
+      
     
     
     
@@ -13043,6 +13097,34 @@
     
   
     Stvarni viri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../sl/Domene/Proizvodnja/Upravljanje/UvozProcesov/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvoz procesov
   
 
     
@@ -23481,6 +23563,8 @@
       
         
       
+        
+      
     
     
     
@@ -23959,6 +24043,34 @@
     
   
     Troškovi operacije
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../hr/Domene/Proizvodnja/Upravljanje/UvozProcesa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uvoz procesa
   
 
     
@@ -33338,6 +33450,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#type-file-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type: File upload
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type: Text
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -33542,8 +33676,9 @@
 <h2 id="delete-a-check-point">Delete a check point<a class="headerlink" href="#delete-a-check-point" title="Permanent link">&para;</a></h2>
 <p>Check points can be deleted freely unless restricted by a workflow configuration. To remove one, open the check point and click <strong>Delete</strong>.</p>
 <h2 id="specifics-by-type">Specifics by Type<a class="headerlink" href="#specifics-by-type" title="Permanent link">&para;</a></h2>
-<p>Certain fields are displayed or become required depending on the selected <strong>Type</strong>.</p>
+<p>Certain fields are displayed or become required depending on the selected <strong>Type</strong>. For every type, the <strong>Optional</strong> checkbox controls whether the operator must fill in the check point.</p>
 <h3 id="type-check">Type: Check<a class="headerlink" href="#type-check" title="Permanent link">&para;</a></h3>
+<p>Use the <strong>Check</strong> type for a step the operator confirms with a tick, such as "Safety guard is in place" or "Label is attached". The operator ticks the box next to the <strong>Confirm text</strong>, and the check point is complete. Use <strong>Confirm text</strong> to say exactly what the operator is confirming.</p>
 <p>When selecting the <strong>Check</strong> type, an additional field appears:</p>
 <table>
 <thead>
@@ -33562,6 +33697,7 @@
 </tbody>
 </table>
 <h3 id="type-list">Type: List<a class="headerlink" href="#type-list" title="Permanent link">&para;</a></h3>
+<p>Use the <strong>List</strong> type when the operator chooses from predefined options, such as "Appearance: good / scratched / damaged". Set <strong>Selection type</strong> to <strong>single</strong> if only one option can be chosen, or <strong>multiple</strong> if several can apply. Mark an option as <strong>Valid</strong> when it is acceptable. In a quality check, an option that is not valid signals a problem, such as a scratched surface.</p>
 <p>When selecting the <strong>List</strong> type, additional settings appear:</p>
 <table>
 <thead>
@@ -33595,6 +33731,7 @@
 - <strong>Valid</strong></p>
 <p><img alt="Add list value" src="../../Images/CheckpointListTable.png" title="Add list value" /></p>
 <h3 id="type-number">Type: Number<a class="headerlink" href="#type-number" title="Permanent link">&para;</a></h3>
+<p>Use the <strong>Number</strong> type when the operator must enter a numeric value, such as a reading or a measurement. For example, a checkpoint "Enter the temperature" with a measure unit of °C, a default value of 23, a lower bound of <strong>&gt;= 5</strong> and an upper bound of <strong>&lt;= 35</strong>. The operator types the measured temperature, and the checklist accepts it only if the value is within the bounds.</p>
 <p>When selecting the <strong>Number</strong> type, additional fields appear:</p>
 <table>
 <thead>
@@ -33611,27 +33748,33 @@
 <td>Selection of the measurement unit.</td>
 </tr>
 <tr>
-<td><strong>Min value</strong></td>
-<td>Number</td>
-<td>Minimum allowed value.</td>
+<td><strong>Lower bound</strong></td>
+<td>Dropdown and number</td>
+<td>Lower limit of the allowed values. Select <strong>&gt;=</strong> (the limit itself is accepted) or <strong>&gt;</strong> (only values above the limit are accepted), then enter the limit value.</td>
+</tr>
+<tr>
+<td><strong>Upper bound</strong></td>
+<td>Dropdown and number</td>
+<td>Upper limit of the allowed values. Select <strong>&lt;=</strong> (the limit itself is accepted) or <strong>&lt;</strong> (only values below the limit are accepted), then enter the limit value.</td>
 </tr>
 <tr>
 <td><strong>Default value</strong></td>
 <td>Number</td>
 <td>Default value for the check point.</td>
 </tr>
-<tr>
-<td><strong>Max value</strong></td>
-<td>Number</td>
-<td>Maximum allowed value.</td>
-</tr>
 </tbody>
 </table>
+<p>For example, with <strong>Lower bound</strong> set to <strong>&gt;= 5</strong>, the value 5 is allowed. With <strong>&gt; 5</strong>, the value 5 is not allowed, and the lowest allowed value is above 5.</p>
+<p><img alt="Number check point" src="../../Images/CheckpointNumber.png" title="Number check point" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For your convenience there is a link to the <a href="../../../../Common/Management/MeasureUnits/"><strong>Measure units</strong></a>  management screen, where you can add or edit measure units.</p>
 <p><img alt="Measure units link" src="../../Images/CheckpointMeasureUnits.png" /></p>
 </div>
+<h3 id="type-file-upload">Type: File upload<a class="headerlink" href="#type-file-upload" title="Permanent link">&para;</a></h3>
+<p>Use the <strong>File upload</strong> type when the operator must attach evidence, such as a photo of the finished product or a PDF of a test certificate. The operator attaches the file while filling in the checklist. If <strong>Optional</strong> is not checked, the check point cannot be completed until a file is attached.</p>
+<h3 id="type-text">Type: Text<a class="headerlink" href="#type-text" title="Permanent link">&para;</a></h3>
+<p>Use the <strong>Text</strong> type when the operator must write a free-text note, such as a description of a defect or the name of the batch inspector. The operator types the answer in the field, and it is stored with the checklist.</p>
 
 
 
