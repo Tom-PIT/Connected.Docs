@@ -40,6 +40,10 @@ Određuje kako će se proizvodni nalog ponašati:
 
    ![Izrada podređenog proizvodnog naloga](../Images/ProductionOrderCreateChildHR.png "Izrada podređenog proizvodnog naloga")
 
+   Odjeljak **Proces** nadređenog naloga prikazuje planirane **Unosi**, **Ljudski resursi** i **Fizički resursi**.
+
+   ![Proces nadređenog naloga](../Images/ProductionOrderParentProcessHR.png "Proces nadređenog naloga")
+
 - **Nadređeni sa djelomičom izradom** — izrađuje nadređeni nalog i automatski generira nekoliko podređenih proizvodnih naloga, od kojih svaki proizvodi dio ukupne količine.  
   Prikazuju se dva polja:
   - **Broj djelomičnih izrada** — koliko podređenih naloga treba izraditi  

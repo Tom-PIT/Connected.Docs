@@ -142,16 +142,44 @@ Postopek:
 
 ## Operativni pogled vhoda (način za tablico)
 
-Poleg administrativnega pogleda sistem omogoča poenostavljen operativni pogled, namenjen uporabi na tablični napravi na vhodu.
+Poleg administrativnega pogleda sistem omogoča poenostavljen operativni pogled, namenjen uporabi na tablični napravi na vhodu. Odprete ga na naslovu `/customers/visitors/public-facing`.
+
+> [!TIP]
+> Pogled ni vključen v navigacijo ali zemljevid strani. Naslov si na tablici shranite kot zaznamek, da lahko pogled hitro odprete.
 
 Ta pogled:
 
 - Prikazuje samo današnje obiske v statusu **Najavljen** in **Na lokaciji**
 - Ne vsebuje filtrov
-- Se samodejno osveži vsakih 15 minut
+
+Seznam se osveži, ko se obisk doda ali zaključi. Dodani obisk se prikaže na seznamu, zaključen obisk pa z njega izgine.
+
+<!-- TODO: Potrdite, kako pogosto se pogled samodejno osvežuje. -->
 
 Interakcija se nekoliko razlikuje od administrativnega pogleda:
 
-- Izbira obiska v statusu **Najavljen** samodejno spremeni status v **Na lokaciji** in nastavi dejanski čas prihoda.
-- Izbira obiska v statusu **Na lokaciji** samodejno spremeni status v **Zaključen** in nastavi dejanski čas odhoda.
-- Uporaba gumba **+** ustvari nov obisk neposredno v statusu **Na lokaciji**.
+- Obisk v statusu **Najavljen** je prikazan modro. Odprite ga, potrdite izjavo s podpisom in shranite. Status se spremeni v **Na lokaciji**, nastavi pa se dejanski čas prihoda.
+- Obiska v statusu **Na lokaciji** v tem pogledu ni mogoče zaključiti. Status spremenite v **Zaključen** v pogledu za urejanje obiskov.
+- Z gumbom **+** se lahko nenajavljen obiskovalec vpiše sam. Glejte [**Samostojen vpis obiskovalcev**](#samostojen-vpis-obiskovalcev).
+
+### Samostojen vpis obiskovalcev
+
+Obiskovalci, ki niso bili najavljeni, na primer serviserji, inšpekcija ali kupci, se lahko na vhodu vpišejo sami, brez pomoči recepcije.
+
+Samostojen vpis je privzeto izklopljen. Vklopite ga v **Sistem / Konfiguracija**, v nastavitvah **Customers.Visitors Settings**, z možnostjo **Samostojen vpis obiskovalcev**.
+
+![Nastavitev samostojnega vpisa obiskovalcev](../Images/UrejanjeObiskovNastavitevSL.png "Nastavitev samostojnega vpisa obiskovalcev")
+
+<!-- TODO: Potrdite nazive skupine nastavitev in nastavitev Customers.Visitors Settings v slovenskem vmesniku. -->
+
+Ko je vpis vklopljen, se na pogledu vhoda prikaže gumb **+**. Za vpis:
+
+1. Izberite **+**.
+2. Vnesite **Ime in priimek**. **Podjetje**, **Telefon** in **E-pošta** so neobvezni.
+3. Preberite **Izjavo**, izberite **Potrjujem** in se podpišite v polje za podpis.
+4. Izberite **Potrdi**.
+5. Izberite **Vpis**.
+
+![Vpis obiskovalca](../Images/UrejanjeObiskovVpisSL.png "Vpis obiskovalca")
+
+Obisk se ustvari neposredno v statusu **Na lokaciji** z dejanskim časom prihoda. Dodatna potrditev ni potrebna. Najavljeni obiski se še vedno izbirajo s seznama.

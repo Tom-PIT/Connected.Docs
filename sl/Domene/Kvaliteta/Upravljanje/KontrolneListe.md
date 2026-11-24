@@ -12,10 +12,8 @@ Posamezni koraki znotraj kontrolne liste — imenovani **[Kontrolne točke](Kont
 Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, nato izberite **Upravljanje / Kontrolne liste** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič **[Kontrolne liste kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
-
-> [!TIP]
-> Za praktičen primer ustvarjanja kontrolne liste in različnih tipov kontrolnih točk si oglejte [**Kako ustvariti kontrolno listo kakovosti**](KontrolniListUstvarjanje.md).
+> - Za celovit prikaz si oglejte video vodič **[Kontrolne liste kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
+> - Za praktičen primer ustvarjanja kontrolne liste in različnih tipov kontrolnih točk si oglejte [**Kako ustvariti kontrolno listo kakovosti**](KontrolniListUstvarjanje.md).
 
 ## Shema
 
@@ -54,6 +52,9 @@ Na levi strani je na voljo filter **Oznake**, ki omogoča prikaz samo tistih kon
 
 3. Kliknite **Dodaj**, da ustvarite kontrolno listo.
 
+> [!TIP]
+> Več kontrolnih listov skupaj s kontrolnimi točkami lahko ustvarite ali posodobite tudi iz datoteke Excel. Glejte [Kontrolni listi pri uvozu procesov](../../Proizvodnja/Upravljanje/UvozProcesov.md#kontrolni-listi).
+
 ## Upravljati kontrolne točke
 
 Vsaka kontrolna lista lahko vsebuje eno ali več **kontrolnih točk**, ki določajo konkretne korake ali preverjanja med izvajanjem.
@@ -63,7 +64,7 @@ Za upravljanje kontrolnih točk:
 1. Odprite stran **Kontrolne liste**.
 2. Poiščite kontrolno listo in kliknite gumb **Kontrolne točke**.
 
-    ![Navigacija do kontrolnih točk](../Images/CheckpointButton.png)
+    ![Navigacija do kontrolnih točk](../Images/CheckpointButtonSL.png)
 
 Odpre se stran **Kontrolne točke**, kjer lahko kontrolne točke dodajate, urejate, brišete in spreminjate njihov vrstni red.
 

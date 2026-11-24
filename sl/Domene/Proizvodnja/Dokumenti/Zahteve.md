@@ -25,7 +25,7 @@ Do strani dostopate prek **Proizvodnja / Zahteve** v [navigaciji](../../../Skupn
 |--------|------|
 | **Zahteva** | Naziv in šifra materiala. Posamezen material lahko razširite za ogled operacij, ki ga porabljajo. |
 | **Količina** | Prikazani sta dve vrednosti:<br>• **Količina v intervalu** — potrebna količina v izbranem časovnem obdobju (zgornja vrednost)<br>• **Skupna količina** — celotna planirana poraba za vse operacije, ki uporabljajo ta material (spodnja vrednost) |
-| **Zaloga** | Trenutna razpoložljiva zaloga.<br>• Če je zaloge manj, kot je zahtevano, je vrednost prikazana **oranžno**, če je zaloga **0**, pa **rdeče** (glejte [Barvna koda](#barvna-koda)).<br>• Klik na ikono **+** odpre okno za ustvarjanje **novega nabavnega naloga**. |
+| **Zaloga** | Trenutna razpoložljiva zaloga. Če sta v filtrih izbrana skladišče ali skladiščna lokacija, je prikazana samo zaloga v tem skladišču oziroma na tej lokaciji (vključno s podrejenimi lokacijami).<br>• Če je zaloge manj, kot je zahtevano, je vrednost prikazana **oranžno**, če je zaloga **0**, pa **rdeče** (glejte [Barvna koda](#barvna-koda)).<br>• Klik na ikono **+** odpre okno za ustvarjanje **novega nabavnega naloga**. |
 
 ## Seznam zahtev
 
@@ -39,9 +39,11 @@ Filtri se nahajajo na levi strani zaslona in omogočajo prilagoditev, katere pla
 
 - **Prikaz planiranih operacij** – Če je omogočeno, se zahteve izračunajo samo na podlagi planiranih (še ne izvedenih) operacij.  
 - **Začetek / Konec** – Določa časovni interval za izračun potrebnih količin.  
-- **Organizacijska enota** – Filtrira zahteve po organizacijski enoti.
+- **Organizacijska enota** – Filtrira zahteve po organizacijski enoti. Izbira enote vključi tudi zahteve vseh njenih podrejenih organizacijskih enot.
+- **Skladišče** – Omeji zalogo v stolpcu **Zaloga** na izbrano skladišče.
+- **Skladiščna lokacija** – Omeji zalogo v stolpcu **Zaloga** na izbrano lokacijo in njene podrejene lokacije.
 
-V izračun so vključeni samo materiali, ki jih zahtevajo operacije znotraj izbranega časovnega intervala in organizacijske enote.
+V izračun so vključeni samo materiali, ki jih zahtevajo operacije znotraj izbranega časovnega intervala in organizacijske enote. Filtra skladišča in lokacije spremenita samo stolpec **Zaloga**, ne pa seznama materialov.
 
 ### Ogledati podrobnosti porabe
 
@@ -77,4 +79,4 @@ To omogoča hitro dopolnjevanje zaloge neposredno s strani **Zahteve**.
 
 ## Meni
 
-Meni v zgornjem desnem kotu strani ponuja možnost izvoza seznama zahtev v datoteko CSV za nadaljnjo analizo ali skupno rabo z drugimi deležniki.
+Meni v zgornjem desnem kotu strani ponuja možnost izvoza seznama zahtev v datoteko CSV za nadaljnjo analizo ali skupno rabo z drugimi deležniki. Izvoz vsebuje enake zahteve kot filtrirani seznam, tudi tiste podrejenih organizacijskih enot. Za druga dejanja v meniju glejte [Dejanja menija](../../../Skupno/Koncepti/MeniDejanja.md).

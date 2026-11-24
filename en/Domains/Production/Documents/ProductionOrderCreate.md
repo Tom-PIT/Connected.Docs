@@ -40,6 +40,10 @@ Determines how the production order will behave:
 
    ![Production Order Create Child](../Images/ProductionOrderCreateChild.png "Parent Production Order Create Child")
 
+   The **Process** section of a parent order lists its planned **Inputs**, **Human resources**, and **Non-human resources**.
+
+   ![Parent order process](../Images/ProductionOrderParentProcess.png "Parent order process")
+
 - **Parent with partial productions** — Creates a parent order and automatically generates several subordinate production orders that each produce part of the total quantity.  
   Two fields appear:
   - **Number of partial productions** — how many subordinate orders should be created  

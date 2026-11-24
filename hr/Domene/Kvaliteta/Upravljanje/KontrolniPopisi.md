@@ -12,10 +12,8 @@ Pojedinačni koraci unutar kontrolnog popisa, odnosno **[Kontrolne točke](Kontr
 Za pristup ovoj stranici otvorite domenu **Proizvodnja** ili **Održavanje**, a zatim u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberite **Upravljanje / Kontrolni popisi**.
 
 > [!TIP]
-> Za potpuni prikaz funkcionalnosti pogledajte video vodič **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
-
-> [!TIP]
-> Za upute o izradi potpunog kontrolnog popisa s različitim vrstama kontrolnih točaka pogledajte **[Izrada kontrolnih popisa](KontrolniPopisiIzrada.md)**.
+> - Za potpuni prikaz funkcionalnosti pogledajte video vodič **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
+> - Za upute o izradi potpunog kontrolnog popisa s različitim vrstama kontrolnih točaka pogledajte **[Izrada kontrolnih popisa](KontrolniPopisiIzrada.md)**.
 
 ## Shema
 
@@ -58,6 +56,9 @@ Na lijevoj strani nalazi se filtar **Oznake** koji omogućuje prikaz samo kontro
     - **Izvršne uloge** – Odaberite radna mjesta koja mogu izvršavati ovaj kontrolni popis (npr. operateri, tehničari održavanja).
 
 3. Kliknite **Dodaj**.
+
+> [!TIP]
+> Više kontrolnih popisa zajedno s kontrolnim točkama možete stvoriti ili ažurirati i iz datoteke Excel. Vidi [Kontrolni popisi u uvozu procesa](../../Proizvodnja/Upravljanje/UvozProcesa.md#kontrolni-popisi).
 
 ## Upravljanje kontrolnim točkama
 

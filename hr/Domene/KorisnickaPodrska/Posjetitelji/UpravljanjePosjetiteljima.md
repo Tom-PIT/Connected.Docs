@@ -141,16 +141,42 @@ Za brisanje posjete:
 
 ## Ulazni prikaz za operativni rad (način rada na tabletu)
 
-Uz administrativni prikaz, sustav nudi pojednostavljeni operativni prikaz namijenjen korištenju na tabletu na ulazu.
+Uz administrativni prikaz, sustav nudi pojednostavljeni operativni prikaz namijenjen korištenju na tabletu na ulazu. Otvorite ga na adresi `/customers/visitors/public-facing`.
+
+> [!TIP]
+> Prikaz nije uključen u navigaciju ni u mapu stranice. Adresu spremite kao oznaku (bookmark) u pregledniku tableta, kako biste prikaz mogli brzo otvoriti.
 
 Ovaj prikaz:
 
 - prikazuje samo današnje posjete sa statusom **Najavljeni** i **Na lokaciji**
 - nema filtere
-- automatski se osvježava svakih 15 minuta
+
+Popis se osvježava kada se posjeta doda ili dovrši. Dodana posjeta pojavi se na popisu, a dovršena posjeta s njega nestane.
+
+<!-- TODO: Potvrdite koliko često se ovaj prikaz automatski osvježava. -->
 
 Interakcija se malo razlikuje od administrativnog prikaza:
 
-- Odabirom **Najavljene** posjete status se automatski mijenja u **Na lokaciji** i postavlja se stvarno vrijeme dolaska.
-- Odabirom posjete **Na lokaciji** status se automatski mijenja u **Dovršeni** i postavlja se stvarno vrijeme odlaska.
-- Gumbom **+** nova posjeta izravno se stvara u statusu **Na lokaciji**.
+- Najavljena posjeta prikazana je plavom bojom. Otvorite je, potvrdite izjavu potpisom i spremite. Status se mijenja u **Na lokaciji**, a postavlja se stvarno vrijeme dolaska.
+- Posjeta u statusu **Na lokaciji** ne može se dovršiti u ovom prikazu. Status promijenite u **Dovršeni** u prikazu za uređivanje posjeta.
+- Gumbom **+** posjetitelj se može sam upisati. Pogledajte [**Samostalna prijava posjetitelja**](#samostalna-prijava-posjetitelja).
+
+### Samostalna prijava posjetitelja
+
+Posjetitelji koji nisu bili najavljeni, na primjer serviseri, inspekcija ili kupci, mogu se na ulazu sami upisati, bez pomoći recepcije.
+
+Samostalna prijava je prema zadanim postavkama isključena. Uključite je u **Sustav / Postavke**, u postavkama **Customers.Visitors Settings**, u odjeljku **Izjave za vođene posjete**, opcijom **Samostalna prijava posjetitelja**.
+
+![Postavka samostalne prijave posjetitelja](../Images/UpravljanjePosjetiteljimaNastavitevHR.png "Postavka samostalne prijave posjetitelja")
+
+Kada je prijava uključena, na prikazu za ulaz pojavljuje se gumb **+**. Za upis:
+
+1. Odaberite **+**.
+2. Upišite **Ime i prezime**. **Poduzeće**, **Telefon** i **Email** su neobvezni.
+3. Pročitajte **Izjavu**, odaberite **Potvrđujem** i potpišite se u polje za potpis.
+4. Odaberite **Potvrdi**.
+5. Odaberite **Upis**.
+
+![Upis posjetitelja](../Images/UpravljanjePosjetiteljimaUpisHR.png "Upis posjetitelja")
+
+Posjeta se stvara izravno u statusu **Na lokaciji** s stvarnim vremenom dolaska. Dodatna potvrda nije potrebna. Najavljene posjete i dalje se biraju s popisa.
