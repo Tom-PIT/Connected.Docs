@@ -54,6 +54,9 @@ Na levi strani je na voljo filter **Oznake**, ki omogoča prikaz samo tistih kon
 
 3. Kliknite **Dodaj**, da ustvarite kontrolno listo.
 
+> [!TIP]
+> Več kontrolnih listov skupaj s kontrolnimi točkami lahko ustvarite ali posodobite tudi iz datoteke Excel. Glejte [Kontrolni listi pri uvozu procesov](../../Proizvodnja/Upravljanje/UvozProcesov.md#kontrolni-listi).
+
 ## Upravljati kontrolne točke
 
 Vsaka kontrolna lista lahko vsebuje eno ali več **kontrolnih točk**, ki določajo konkretne korake ali preverjanja med izvajanjem.

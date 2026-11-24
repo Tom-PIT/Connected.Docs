@@ -84,6 +84,10 @@ Levi stranski panel omogoča filtriranje po:
 > [!WARNING]
 > Oznake določajo, kje je proces mogoče uporabiti. Če ne dodate ustrezne oznake (npr. **Proizvodnja** ali **Vzdrževanje**), proces ne bo na voljo pri ustvarjanju dokumentov na tem področju (npr. [**proizvodnega naloga**](../Dokumenti/ProizvodniNalogi.md) ali [**vzdrževalnega naloga**](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md)).
 
+## Uvoz procesov
+
+Procese lahko dodate tudi naenkrat iz datoteke Excel, skupaj z različicami, operacijami, viri, materiali in kontrolnimi listi. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) na seznamu **Procesi** in izberite **Uvoz**. Predlogo in korake najdete na strani [Uvoz procesov](UvozProcesov.md).
+
 ## Urediti proces
 
 Za urejanje obstoječega procesa:

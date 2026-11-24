@@ -59,6 +59,9 @@ Na lijevoj strani nalazi se filtar **Oznake** koji omogućuje prikaz samo kontro
 
 3. Kliknite **Dodaj**.
 
+> [!TIP]
+> Više kontrolnih popisa zajedno s kontrolnim točkama možete stvoriti ili ažurirati i iz datoteke Excel. Vidi [Kontrolni popisi u uvozu procesa](../../Proizvodnja/Upravljanje/UvozProcesa.md#kontrolni-popisi).
+
 ## Upravljanje kontrolnim točkama
 
 Svaki kontrolni popis može sadržavati jednu ili više **kontrolnih točaka** koje definiraju pojedinačne korake ili provjere tijekom izvršavanja kontrolnog popisa.
