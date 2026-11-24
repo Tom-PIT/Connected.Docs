@@ -12,10 +12,8 @@ Pojedinačni koraci unutar kontrolnog popisa, odnosno **[Kontrolne točke](Kontr
 Za pristup ovoj stranici otvorite domenu **Proizvodnja** ili **Održavanje**, a zatim u [navigaciji](../../../Zajednicko/UI/Navigacija.md) odaberite **Upravljanje / Kontrolni popisi**.
 
 > [!TIP]
-> Za potpuni prikaz funkcionalnosti pogledajte video vodič **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
-
-> [!TIP]
-> Za upute o izradi potpunog kontrolnog popisa s različitim vrstama kontrolnih točaka pogledajte **[Izrada kontrolnih popisa](KontrolniPopisiIzrada.md)**.
+> - Za potpuni prikaz funkcionalnosti pogledajte video vodič **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
+> - Za upute o izradi potpunog kontrolnog popisa s različitim vrstama kontrolnih točaka pogledajte **[Izrada kontrolnih popisa](KontrolniPopisiIzrada.md)**.
 
 ## Shema
 

@@ -12,10 +12,8 @@ Posamezni koraki znotraj kontrolne liste — imenovani **[Kontrolne točke](Kont
 Za dostop do tega zaslona pojdite v modul **Proizvodnja** ali **Vzdrževanje**, nato izberite **Upravljanje / Kontrolne liste** v [navigaciji](../../../Skupno/UI/Navigacija.md).
 
 > [!TIP]
-> Za celovit prikaz si oglejte video vodič **[Kontrolne liste kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
-
-> [!TIP]
-> Za praktičen primer ustvarjanja kontrolne liste in različnih tipov kontrolnih točk si oglejte [**Kako ustvariti kontrolno listo kakovosti**](KontrolniListUstvarjanje.md).
+> - Za celovit prikaz si oglejte video vodič **[Kontrolne liste kakovosti](https://www.youtube.com/watch?v=EB7WktBCFC4)**.
+> - Za praktičen primer ustvarjanja kontrolne liste in različnih tipov kontrolnih točk si oglejte [**Kako ustvariti kontrolno listo kakovosti**](KontrolniListUstvarjanje.md).
 
 ## Shema
 

@@ -12,10 +12,8 @@ The individual steps inside a checklist — called **[Check points](CheckPoints.
 To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Checklists** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!TIP]
-> For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
-
-> [!TIP]
-> To learn how to create a complete checklist with different types of check points, see [**How to create a quality checklist**](ChecklistCreate.md).
+> - For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
+> - To learn how to create a complete checklist with different types of check points, see [**How to create a quality checklist**](ChecklistCreate.md).
 
 ## Schema
 
