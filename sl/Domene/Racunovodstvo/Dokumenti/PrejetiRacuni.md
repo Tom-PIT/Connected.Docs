@@ -67,6 +67,7 @@ Ko od dobavitelja prejmemo račun, ta sledi naslednjemu poteku:
 | **Predplačilo** | Označuje, ali gre za predplačilo. |
 | **Samoobdavčitev** | Označuje uporabo samoobdavčitve. |
 | **Odbitek DDV** | Označuje, ali je DDV odbiten. |
+| **Opis** | Prosto besedilo za opis postavke. |
 
 </details>
 
