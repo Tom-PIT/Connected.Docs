@@ -70,9 +70,11 @@ Check points can be deleted freely unless restricted by a workflow configuration
 
 ## Specifics by Type
 
-Certain fields are displayed or become required depending on the selected **Type**.
+Certain fields are displayed or become required depending on the selected **Type**. For every type, the **Optional** checkbox controls whether the operator must fill in the check point.
 
 ### Type: Check
+
+Use the **Check** type for a step the operator confirms with a tick, such as "Safety guard is in place" or "Label is attached". The operator ticks the box next to the **Confirm text**, and the check point is complete. Use **Confirm text** to say exactly what the operator is confirming.
 
 When selecting the **Check** type, an additional field appears:
 
@@ -81,6 +83,8 @@ When selecting the **Check** type, an additional field appears:
 | **Confirm text** | Text | Text displayed next to the checkbox. |
 
 ### Type: List
+
+Use the **List** type when the operator chooses from predefined options, such as "Appearance: good / scratched / damaged". Set **Selection type** to **single** if only one option can be chosen, or **multiple** if several can apply. Mark an option as **Valid** when it is acceptable. In a quality check, an option that is not valid signals a problem, such as a scratched surface.
 
 When selecting the **List** type, additional settings appear:
 
@@ -104,16 +108,30 @@ Added values are displayed in a table:
 
 ### Type: Number
 
+Use the **Number** type when the operator must enter a numeric value, such as a reading or a measurement. For example, a checkpoint "Enter the temperature" with a measure unit of °C, a default value of 23, a lower bound of **>= 5** and an upper bound of **<= 35**. The operator types the measured temperature, and the checklist accepts it only if the value is within the bounds.
+
 When selecting the **Number** type, additional fields appear:
 
 | Attribute | Type | Description |
 |----------|------|-------------|
 | **Measure unit** | Dropdown | Selection of the measurement unit. |
-| **Min value** | Number | Minimum allowed value. |
+| **Lower bound** | Dropdown and number | Lower limit of the allowed values. Select **>=** (the limit itself is accepted) or **>** (only values above the limit are accepted), then enter the limit value. |
+| **Upper bound** | Dropdown and number | Upper limit of the allowed values. Select **<=** (the limit itself is accepted) or **<** (only values below the limit are accepted), then enter the limit value. |
 | **Default value** | Number | Default value for the check point. |
-| **Max value** | Number | Maximum allowed value. |
+
+For example, with **Lower bound** set to **>= 5**, the value 5 is allowed. With **> 5**, the value 5 is not allowed, and the lowest allowed value is above 5.
+
+![Number check point](../Images/CheckpointNumber.png "Number check point")
 
 > [!NOTE]
 > For your convenience there is a link to the [**Measure units**](../../../Common/Management/MeasureUnits.md)  management screen, where you can add or edit measure units.
 >
 > ![Measure units link](../Images/CheckpointMeasureUnits.png)
+
+### Type: File upload
+
+Use the **File upload** type when the operator must attach evidence, such as a photo of the finished product or a PDF of a test certificate. The operator attaches the file while filling in the checklist. If **Optional** is not checked, the check point cannot be completed until a file is attached.
+
+### Type: Text
+
+Use the **Text** type when the operator must write a free-text note, such as a description of a defect or the name of the batch inspector. The operator types the answer in the field, and it is stored with the checklist.

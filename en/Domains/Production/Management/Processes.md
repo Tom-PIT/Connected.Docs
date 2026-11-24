@@ -85,6 +85,10 @@ The left-side panel provides filters for:
 > [!WARNING]
 > Tags control where the process can be used. If you do not add a relevant tag (for example, **Production** or **Maintenance**), the process will not be available when creating documents in that area (for example, a [**Production order**](../Documents/ProductionOrders.md) or a [**Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md)).
 
+## Import processes
+
+You can import processes from an Excel file, with their versions, operations, resources, materials and checklists. Click the [action button](../../../Common/UI/ActionButton.md) on the **Processes** list and select **Import**. See [Process import](ProcessImport.md) for the template and the steps.
+
 ## Edit a process
 
 To edit an existing process:

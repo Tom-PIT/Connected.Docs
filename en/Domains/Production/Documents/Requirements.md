@@ -25,7 +25,7 @@ To access this page, go to **Production / Requirements** in the [navigation](../
 |--------|-------------|
 | **Requirement** | The material name and code. You can expand each material to see which operations consume it. |
 | **Quantity** | Shows two values:<br>• **Interval quantity** — required quantity within the selected date range (upper value)<br>• **Total quantity** — full planned consumption for all operations using that material (lower value) |
-| **Stock** | Current available stock. <br>• If stock is lower than required, it appears in **orange**, and in **red** if stock is **0** (see [Color code](#color-code)). <br>• Clicking the **+** icon opens a window to create a **new supply order**. |
+| **Stock** | Current available stock. If a warehouse or warehouse location is selected in the filters, only the stock in that warehouse or location (including its child locations) is shown. <br>• If stock is lower than required, it appears in **orange**, and in **red** if stock is **0** (see [Color code](#color-code)). <br>• Clicking the **+** icon opens a window to create a **new supply order**. |
 
 ## Requirements list
 
@@ -39,9 +39,11 @@ Filters appear on the left side of the screen and allow you to adjust which plan
 
 - **Show planned operations** – When enabled, requirements are calculated based only on planned (not yet executed) operations.  
 - **Start / End** – Defines the date interval used to calculate required quantities.  
-- **Organization unit** – Filters requirements by organizational unit.
+- **Organization unit** – Filters requirements by organizational unit. Selecting a unit also includes the requirements of all its child organization units.
+- **Warehouse** – Limits the stock shown in the **Stock** column to the selected warehouse.
+- **Warehouse location** – Limits the stock shown in the **Stock** column to the selected location and its child locations.
 
-Only materials required by operations that fall within the selected time and organizational unit range are included.
+Only materials required by operations that fall within the selected time and organizational unit range are included. The warehouse and location filters change only the **Stock** column, not which materials are listed.
 
 ### View consumption details
 
@@ -77,5 +79,5 @@ This provides quick replenishment directly from the Requirements screen.
 
 ## Menu
 
-The menu in the top right corner of the page gives the option to export the list of requirements to a CSV file for further analysis or sharing with other stakeholders.
+The menu in the top right corner of the page gives the option to export the list of requirements to a CSV file for further analysis or sharing with other stakeholders. The export contains the same requirements as the filtered list, including those of child organization units. For other menu actions, see [Menu actions](../../../Common/Concepts/MenuActions.md).
 

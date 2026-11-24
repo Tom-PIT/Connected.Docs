@@ -92,6 +92,10 @@ Na lijevoj strani dostupni su sljedeći filtri:
 > [!WARNING]
 > Oznake određuju gdje se proces može koristiti. Ako procesu nije dodijeljena odgovarajuća oznaka (npr. **Proizvodnja** ili **Održavanje**), neće biti dostupan prilikom izrade dokumenata u tom području, primjerice [**Proizvodnog naloga**](../Dokumenti/ProizvodniNalozi.md) ili [**Naloga za održavanje**](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md).
 
+## Uvoz procesa
+
+Procese možete dodati i odjednom iz datoteke Excel, zajedno s verzijama, operacijama, resursima, materijalima i kontrolnim popisima. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) na popisu **Procesi** i odaberite **Uvoz**. Predložak i korake pronađite na stranici [Uvoz procesa](UvozProcesa.md).
+
 ## Uređivanje procesa
 
 Za uređivanje postojećeg procesa:

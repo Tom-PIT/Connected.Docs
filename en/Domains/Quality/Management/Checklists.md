@@ -12,10 +12,8 @@ The individual steps inside a checklist — called **[Check points](CheckPoints.
 To access this page, navigate to the **Production** or **Maintenance** domains, then go to **Management / Checklists** in the [navigation](../../../Common/UI/Navigation.md).
 
 > [!TIP]
-> For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
-
-> [!TIP]
-> To learn how to create a complete checklist with different types of check points, see [**How to create a quality checklist**](ChecklistCreate.md).
+> - For a full demonstration, see the **[Quality checklists](https://www.youtube.com/watch?v=EB7WktBCFC4)** video tutorial.
+> - To learn how to create a complete checklist with different types of check points, see [**How to create a quality checklist**](ChecklistCreate.md).
 
 ## Schema
 
@@ -53,6 +51,9 @@ The list includes a **Tags** filter on the left, allowing you to show only check
     - **Execution roles** – Select which job positions can execute this checklist (for example, operators, maintenance technicians)
 
 3. Click **Add** to create the checklist.
+
+> [!TIP]
+> You can also create or update several checklists at once, with their check points, from an Excel file. See [Checklists in process import](../../Production/Management/ProcessImport.md#checklists).
 
 ## Manage check points
 
