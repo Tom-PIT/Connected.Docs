@@ -54,6 +54,9 @@ The list includes a **Tags** filter on the left, allowing you to show only check
 
 3. Click **Add** to create the checklist.
 
+> [!TIP]
+> You can also create or update several checklists at once, with their check points, from an Excel file. See [Checklists in process import](../../Production/Management/ProcessImport.md#checklists).
+
 ## Manage check points
 
 Each checklist may contain one or more **check points**, which define the specific steps or validations required during its execution.
