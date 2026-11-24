@@ -119,6 +119,7 @@ nav:
                   - Operations: en/Domains/Production/Management/Operations.md
                   - Organization units: en/Domains/Production/Management/OrganizationUnits.md
                   - Outputs: en/Domains/Production/Management/Outputs.md
+                  - Process import: en/Domains/Production/Management/ProcessImport.md
                   - Processes: en/Domains/Production/Management/Processes.md
                   - Production configuration: en/Domains/Production/Management/ProductionConfiguration.md
                   - Protocol operations instance templates: en/Domains/Production/Management/ProtocolOperationsInstanceTemplates.md
@@ -476,6 +477,7 @@ nav:
                   - Sistematizacija delovnih mest: sl/Domene/Proizvodnja/Upravljanje/SistematizacijaDelovnihMest.md
                   - Skladiščne lokacije: sl/Domene/Proizvodnja/Upravljanje/SkladiscneLokacije.md
                   - Stvarni viri: sl/Domene/Proizvodnja/Upravljanje/StvarniViri.md
+                  - Uvoz procesov: sl/Domene/Proizvodnja/Upravljanje/UvozProcesov.md
                   - Vhodi: sl/Domene/Proizvodnja/Upravljanje/Vhodi.md
                   - Viri: sl/Domene/Viri/Upravljanje/Viri.md
 
@@ -835,6 +837,7 @@ nav:
                   - Sistematizacija radnih mjesta: hr/Domene/Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta.md
                   - Skladišne lokacije: hr/Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md
                   - Troškovi operacije: hr/Domene/Proizvodnja/Upravljanje/TroskoviOperacije.md
+                  - Uvoz procesa: hr/Domene/Proizvodnja/Upravljanje/UvozProcesa.md
 
           - Kvaliteta:
               - hr/Domene/Kvaliteta/README.md
