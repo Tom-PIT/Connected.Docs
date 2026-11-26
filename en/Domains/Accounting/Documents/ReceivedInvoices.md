@@ -65,6 +65,8 @@ When we receive an invoice from a vendor, it follows this flow:
 | **Prepayment**  | Indicates whether the line represents a prepayment. |
 | **Self taxing** | Indicates self-taxing logic for the line.           |
 | **Deduct tax**  | Indicates whether tax is deductible.                |
+| **Description** | Free-text description of the line.                  |
+| **Ignore for financial stock** | Indicates whether the line is ignored for financial stock. |
 
 </details>
 

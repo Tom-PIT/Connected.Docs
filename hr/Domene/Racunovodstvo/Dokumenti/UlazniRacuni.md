@@ -66,6 +66,7 @@ Kad od dobavljača primimo račun, on prolazi sljedeći tijek:
 | **Samooporezivanje** | Pokazuje primjenjuje li se za stavku samooporezivanje. |
 | **Odbij porez** | Pokazuje je li porez odbitan. |
 | **Dodaj za financijsko zalihu** | Pokazuje treba li stavka ući u financijsku zalihu. |
+| **Opis** | Slobodni tekst za opis stavke. |
 
 </details>
 

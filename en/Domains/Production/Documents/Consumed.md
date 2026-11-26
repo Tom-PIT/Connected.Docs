@@ -16,7 +16,10 @@ Open the **Consumed** screen from the main [**Execution**](Execution.md) page vi
 
 1. Open the **Consumed** page from the [**Execution action menu**](Execution.md#action-menu-and-activities).  
 2. Review the list of consumed materials (with stock info).  
-3. Select a material from the list, or search/scan by name, code, serial, or EAN.  
+3. Select a material from the list, or search/scan by name, code, serial, EAN, or container number.  
+   - If a container number matches, the [**Container**](#consume-from-a-container) dialog opens.  
+   - If a material, serial or EAN matches only one item, that item opens.  
+   - If several items match, they are listed for you to choose from.  
 4. On the **Add consumption** screen, enter the quantity to consume. 
 
    ![Execution Consumption Detail Screen](../Images/ExecutionConsumptionDetailScreen.png "Consumption Detail Screen")
@@ -25,6 +28,22 @@ Open the **Consumed** screen from the main [**Execution**](Execution.md) page vi
 6. Repeat for other materials as needed.
 
 The consumed quantity is linked to the operation and reflected in stock in real time.
+
+### Consume from a container
+
+When you select a container, the **Container** dialog opens with one row for each serial number in the container.
+
+![Container dialog](../Images/ExecutionConsumptionContainer.png "Container dialog")
+
+The columns are:
+
+- **Material**: the material in the container.
+- **Serial number**: the serial number of this row.
+- **Container quantity**: the quantity of this serial number in the container.
+- **Consumption**: the quantity consumed so far, out of the quantity required for the operation.
+- **Input**: the quantity to consume now. It is filled in with the full quantity of the row.
+
+To consume the whole container, leave the **Input** values as they are and click **Save**. To consume part of it, change the **Input** value for one or more rows before you save.
 
 ### Validations
 
