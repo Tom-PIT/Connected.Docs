@@ -177,6 +177,33 @@ Available actions include:
 - **Link to project**
 - **Copy sales order**
 
+### Create production orders from a sales order
+
+You can create production orders for the products of a sales order. Each product gets its own production order, with the process and dates you choose for it.
+
+1. Open the sales order and click **+ Production order** in the Linked documents section. The dialog lists the products of the sales order with their quantities.
+
+   ![Production order dialog](../Images/SalesOrderProductionOrderList.png "Production order dialog")
+
+2. Tick a product, or click its name. Step 1, **Select process**, opens. Each card shows the process code and name, the version and its creation date. Select the version and click **Next**.
+
+   ![Select process](../Images/SalesOrderProductionOrderProcess.png "Select process")
+
+3. Step 2, **Provide additional information**, sets the **Production order mode** (for example **Standard**), the **Deadline date** and the **Planned start date**. The **Planned end** is calculated from them. Click **Finish**.
+
+   ![Provide additional information](../Images/SalesOrderProductionOrderDetails.png "Provide additional information")
+
+4. The list opens again, with the product you configured ticked.
+5. Click **Create production orders**. You can create production orders for all products, or only for the ticked products.
+
+The **Quantity** column in the list can be edited before you create the production orders.
+
+![Product ticked in the list](../Images/SalesOrderProductionOrderSelected.png "Product ticked in the list")
+
+The production orders you create appear in the **Linked documents** section of the sales order.
+
+![Linked production orders](../Images/SalesOrderProductionOrdersLinked.png "Linked production orders")
+
 ### Publish a sales order
 
 When the draft is ready, click **Publish** located at the top of the page to commit the order. A Committed sales order moves to the **Available** state and enables additional document actions.

@@ -176,6 +176,34 @@ Razpoložljiva dejanja vključujejo:
 - **Poveži s projektom**
 - **Kopiraj naročilo stranke**
 
+### Razpisati proizvodne naloge iz naročila stranke
+
+Proizvodne naloge lahko razpišete za izdelke naročila stranke. Za vsak izdelek nastane ločen proizvodni nalog z izbranim procesom in datumi.
+
+1. Odprite naročilo stranke in kliknite **+ Proizvodni nalog** v razdelku **Povezani dokumenti**. Prikaže se seznam izdelkov naročila s količinami.
+
+   ![Seznam izdelkov za proizvodne naloge](../Images/NarociloProizvodniNalogSeznam.png "Seznam izdelkov za proizvodne naloge")
+
+2. Označite izdelek ali kliknite njegov naziv. Odpre se korak 1, **Izberi proces**. Vsaka kartica prikazuje šifro in naziv procesa, različico ter datum ustvaritve. Izberite različico in kliknite **Naslednji**.
+
+   ![Izbira procesa](../Images/NarociloProizvodniNalogProces.png "Izbira procesa")
+
+3. Korak 2, **Podaj dodatne informacije**, nastavi **Način** (na primer **Standardni**), **Datum roka izdelave** in **Planiran datum začetka**. **Planiran konec** se izračuna iz teh datumov. Kliknite **Konec**.
+
+   ![Dodatne informacije](../Images/NarociloProizvodniNalogPodrobnosti.png "Dodatne informacije")
+
+4. Seznam se znova odpre, izdelek pa je označen.
+
+   ![Označen izdelek](../Images/NarociloProizvodniNalogIzbrano.png "Označen izdelek")
+
+5. Kliknite **Razpiši proizvodne naloge**. Proizvodne naloge lahko razpišete za vse izdelke ali samo za označene.
+
+Količino v seznamu lahko spremenite, preden razpišete proizvodne naloge.
+
+Ustvarjeni proizvodni nalogi se prikažejo v razdelku **Povezani dokumenti** naročila stranke.
+
+![Povezani proizvodni nalogi](../Images/NarociloPovezaniProizvodniNalogi.png "Povezani proizvodni nalogi")
+
 ### Objavljati naročilo stranke
 
 Ko je osnutek pripravljen, kliknite **Objavi** na vrhu strani, da potrdite naročilo. Potrjeno naročilo stranke se premakne v stanje **Na voljo** in omogoči dodatna dejanja dokumenta.

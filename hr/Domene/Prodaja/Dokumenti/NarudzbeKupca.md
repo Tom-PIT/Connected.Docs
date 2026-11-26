@@ -182,6 +182,34 @@ Dostupne radnje uključuju:
 - **Narudžbenica**
 - **Kopiraj narudžbu kupca**
 
+### Izraditi proizvodne naloge iz narudžbe kupca
+
+Proizvodne naloge možete izraditi za artikle narudžbe kupca. Za svaki artikl nastaje zaseban proizvodni nalog s odabranim procesom i datumima.
+
+1. Otvorite narudžbu kupca i kliknite **+ Proizvodni nalog** u odjeljku **Povezani dokumenti**. Prikazuje se popis artikala narudžbe s količinama.
+
+   ![Popis artikala za proizvodne naloge](../Images/NarudzbaProizvodniNalogSeznam.png "Popis artikala za proizvodne naloge")
+
+2. Označite artikl ili kliknite njegov naziv. Otvara se korak 1, **Odaberi proces**. Svaka kartica prikazuje šifru i naziv procesa, verziju te datum izrade. Odaberite verziju i kliknite **Sljedeći**.
+
+   ![Odabir procesa](../Images/NarudzbaProizvodniNalogProces.png "Odabir procesa")
+
+3. Korak 2, **Pruži dodatne informacije**, postavlja **Način izvršenja proizvodnog naloga** (na primjer **Standardni**), **Datum roka izrade** i **Planirani datum početka**. **Planirani kraj** izračunava se iz tih datuma. Kliknite **Kraj**.
+
+   ![Dodatne informacije](../Images/NarudzbaProizvodniNalogPodrobnosti.png "Dodatne informacije")
+
+4. Popis se ponovno otvara, a artikl je označen.
+
+   ![Označeni artikl](../Images/NarudzbaProizvodniNalogIzabrano.png "Označeni artikl")
+
+5. Kliknite **Kreiraj proizvodne naloge**. Proizvodne naloge možete izraditi za sve artikle ili samo za označene.
+
+Količinu na popisu možete promijeniti prije nego izradite proizvodne naloge.
+
+Nakon izrade proizvodni nalozi se prikazuju u odjeljku **Povezani dokumenti** narudžbe kupca.
+
+![Povezani proizvodni nalozi](../Images/NarudzbaPovezaniProizvodniNalogi.png "Povezani proizvodni nalozi")
+
 ### Objava narudžbe kupca
 
 Kada je nacrt dovršen, kliknite **Objavi** na vrhu stranice kako biste objavili narudžbu. Objavljena narudžba kupca prelazi u stanje **Dostupno**, čime postaju dostupne dodatne radnje nad dokumentom.
