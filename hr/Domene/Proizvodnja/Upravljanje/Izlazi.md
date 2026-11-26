@@ -54,7 +54,7 @@ Izbornik u gornjem desnom kutu omogućuje sljedeću radnju:
 
 1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) u donjem desnom kutu i odaberite jednu od sljedećih mogućnosti:
 
-    - **Kopiraj iz postojećeg izlaza**
+    - **Kopiraj iz postojećeg izlaza** – Odaberite postojeći izlaz iz druge operacije i upotrijebite ga za ovu operaciju.
     - **Novi**
 
     ![Akcijski gumb Izlazi](../Images/OutputsActionButtonHR.png "Akcijski gumb Izlazi")

@@ -44,8 +44,8 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
 1. Click the action button in the bottom-right corner and choose one of the following:
 
-    - **Copy existing outputs**
-    - **New**
+    - **Copy existing inputs** – Select an existing input from another operation and use it for this operation.
+    - **New** – Create a new input from scratch.
 
     ![Inputs action button](../Images/InputsActionButton.png "Inputs action button")
 

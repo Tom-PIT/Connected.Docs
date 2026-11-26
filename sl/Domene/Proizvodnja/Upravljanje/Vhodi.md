@@ -44,8 +44,8 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
 1. Kliknite akcijski gumb v spodnjem desnem kotu in izberite eno od možnosti:
 
-   - **Kopiraj iz obstoječega vhoda**
-   - **Nov**
+   - **Kopiraj iz obstoječega vhoda** – Izberite obstoječi vhod iz druge operacije in ga uporabite za to operacijo.
+   - **Nov** – Ustvarite nov vhod od začetka.
 
    ![Akcijski gumb Vhodi](../Images/InputsActionButtonSL.png "Akcijski gumb Vhodi")
 

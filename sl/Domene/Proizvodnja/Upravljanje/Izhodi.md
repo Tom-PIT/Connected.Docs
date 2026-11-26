@@ -46,7 +46,7 @@ Meni v zgornjem desnem kotu zaslona omogoča hiter dostop do naslednjih dejanj:
 
     ![Akcijski gumb izhodov](../Images/OutputsActionButtonSL.png "Akcijski gumb izhodov")
 
-    - **Kopiraj iz obstoječega izhoda**
+    - **Kopiraj iz obstoječega izhoda** – Izberite obstoječi izhod iz druge operacije in ga uporabite za to operacijo.
     - **Nov**
 
 2. Izpolnite zahtevana polja.

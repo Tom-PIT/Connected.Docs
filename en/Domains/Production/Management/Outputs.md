@@ -46,7 +46,7 @@ The menu in the top-right corner of the screen provides quick access to the foll
 
     ![Outputs action button](../Images/OutputsActionButton.png "Outputs action button")
 
-    - **Copy existing outputs**
+    - **Copy existing outputs** – Select an existing output from another operation and use it for this operation.
     - **New**
 
 2. Fill in the required fields.
