@@ -33172,6 +33172,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#consume-from-a-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consume from a container
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#validations" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -33224,7 +33235,10 @@
 <ol>
 <li>Open the <strong>Consumed</strong> page from the <a href="../Execution/#action-menu-and-activities"><strong>Execution action menu</strong></a>.  </li>
 <li>Review the list of consumed materials (with stock info).  </li>
-<li>Select a material from the list, or search/scan by name, code, serial, or EAN.  </li>
+<li>Select a material from the list, or search/scan by name, code, serial, EAN, or container number.  </li>
+<li>If a container number matches, the <a href="#consume-from-a-container"><strong>Container</strong></a> dialog opens.  </li>
+<li>If a material, serial or EAN matches only one item, that item opens.  </li>
+<li>If several items match, they are listed for you to choose from.  </li>
 <li>On the <strong>Add consumption</strong> screen, enter the quantity to consume. </li>
 </ol>
 <p><img alt="Execution Consumption Detail Screen" src="../../Images/ExecutionConsumptionDetailScreen.png" title="Consumption Detail Screen" /></p>
@@ -33233,6 +33247,18 @@
 <li>Repeat for other materials as needed.</li>
 </ol>
 <p>The consumed quantity is linked to the operation and reflected in stock in real time.</p>
+<h3 id="consume-from-a-container">Consume from a container<a class="headerlink" href="#consume-from-a-container" title="Permanent link">&para;</a></h3>
+<p>When you select a container, the <strong>Container</strong> dialog opens with one row for each serial number in the container.</p>
+<p><img alt="Container dialog" src="../../Images/ExecutionConsumptionContainer.png" title="Container dialog" /></p>
+<p>The columns are:</p>
+<ul>
+<li><strong>Material</strong>: the material in the container.</li>
+<li><strong>Serial number</strong>: the serial number of this row.</li>
+<li><strong>Container quantity</strong>: the quantity of this serial number in the container.</li>
+<li><strong>Consumption</strong>: the quantity consumed so far, out of the quantity required for the operation.</li>
+<li><strong>Input</strong>: the quantity to consume now. It is filled in with the full quantity of the row.</li>
+</ul>
+<p>To consume the whole container, leave the <strong>Input</strong> values as they are and click <strong>Save</strong>. To consume part of it, change the <strong>Input</strong> value for one or more rows before you save.</p>
 <h3 id="validations">Validations<a class="headerlink" href="#validations" title="Permanent link">&para;</a></h3>
 <p>The system validates:</p>
 <ul>
@@ -33281,6 +33307,10 @@
       Copyright &copy; 2026 Tom PIT d.o.o. All rights reserved.
     </div>
   
+  <div class="md-copyright__highlight">
+    This site uses anonymous page-view statistics and sets no cookies.
+    <a class="md-copyright__link" href="../../../../../WebsiteAnalytics/">Click here</a> for more information.
+  </div>
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
@@ -33305,6 +33335,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.path", "search.suggest", "navigation.footer"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+  
       <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js"></script>
@@ -33314,5 +33345,7 @@
         <script src="../../../../../javascripts/image-lightbox.js"></script>
       
     
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="bf86a7e2-63e6-4a9f-a947-56861b9004ff"></script>
+
   </body>
 </html>

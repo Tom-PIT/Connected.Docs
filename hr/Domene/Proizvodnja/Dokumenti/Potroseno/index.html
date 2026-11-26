@@ -23007,6 +23007,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#potrosnja-iz-spremnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Potrošnja iz spremnika
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#provjere" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -33264,6 +33275,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#potrosnja-iz-spremnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Potrošnja iz spremnika
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#provjere" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -33394,7 +33416,10 @@
 <ol>
 <li>Otvorite stranicu <strong>Potrošeno</strong> iz <a href="../Izvedba/#izbornik-aktivnosti"><strong>izbornika aktivnosti</strong></a>.  </li>
 <li>Pregledajte popis utrošenih materijala (s podacima o zalihi).  </li>
-<li>Odaberite materijal s popisa ili ga pretražite ili skenirajte prema nazivu, šifri, serijskom broju ili EAN-u.  </li>
+<li>Odaberite materijal s popisa ili ga pretražite ili skenirajte prema nazivu, šifri, serijskom broju, EAN-u ili broju spremnika.  </li>
+<li>Ako se broj spremnika podudara, otvara se prozor <a href="#potrosnja-iz-spremnika"><strong>Vsebnik</strong></a>.  </li>
+<li>Ako materijal, serijski broj ili EAN odgovara samo jednoj stavci, ona se otvara.  </li>
+<li>Ako odgovara više stavki, prikazuju se za odabir.  </li>
 <li>Na zaslonu <strong>Dodaj potrošnju</strong> unesite količinu koja se troši. </li>
 </ol>
 <p><img alt="Detalji potrošnje" src="../../Images/ExecutionConsumptionDetailScreenHR.png" title="Detalji potrošnje" /></p>
@@ -33403,6 +33428,18 @@
 <li>Po potrebi ponovite za druge materijale.</li>
 </ol>
 <p>Utrošena količina povezuje se s operacijom i odmah se odražava na zalihama.</p>
+<h3 id="potrosnja-iz-spremnika">Potrošnja iz spremnika<a class="headerlink" href="#potrosnja-iz-spremnika" title="Permanent link">&para;</a></h3>
+<p>Kad odaberete spremnik, otvara se prozor <strong>Vsebnik</strong> s jednim retkom za svaki serijski broj u spremniku.</p>
+<p><img alt="Prozor Vsebnik" src="../../Images/PotrosnjaSpremnikHR.png" title="Prozor Vsebnik" /></p>
+<p>Stupci su:</p>
+<ul>
+<li><strong>Materijal</strong>: materijal u spremniku.</li>
+<li><strong>Serijski broj</strong>: serijski broj ovog retka.</li>
+<li><strong>Količina u spremniku</strong>: količina tog serijskog broja u spremniku.</li>
+<li><strong>Potrošnja</strong>: dosad utrošena količina u odnosu na količinu potrebnu za operaciju.</li>
+<li><strong>Ulaz</strong>: količina koju trošite sada. Polje je unaprijed popunjeno cijelom količinom retka.</li>
+</ul>
+<p>Za potrošnju cijelog spremnika ostavite vrijednosti u polju <strong>Ulaz</strong> kakve jesu i kliknite <strong>Spremi</strong>. Za potrošnju samo dijela spremnika prije spremanja promijenite vrijednost <strong>Ulaz</strong> za jedan ili više redaka.</p>
 <h3 id="provjere">Provjere<a class="headerlink" href="#provjere" title="Permanent link">&para;</a></h3>
 <p>Sustav provjerava:</p>
 <ul>
@@ -33489,6 +33526,10 @@
       Copyright &copy; 2026 Tom PIT d.o.o. All rights reserved.
     </div>
   
+  <div class="md-copyright__highlight">
+    This site uses anonymous page-view statistics and sets no cookies.
+    <a class="md-copyright__link" href="../../../../../WebsiteAnalytics/">Click here</a> for more information.
+  </div>
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
@@ -33513,6 +33554,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.path", "search.suggest", "navigation.footer"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+  
       <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js"></script>
@@ -33522,5 +33564,7 @@
         <script src="../../../../../javascripts/image-lightbox.js"></script>
       
     
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="bf86a7e2-63e6-4a9f-a947-56861b9004ff"></script>
+
   </body>
 </html>

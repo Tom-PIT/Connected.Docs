@@ -6317,6 +6317,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#create-production-orders-from-a-sales-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create production orders from a sales order
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#publish-a-sales-order" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -33497,6 +33508,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#create-production-orders-from-a-sales-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create production orders from a sales order
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#publish-a-sales-order" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -33909,6 +33931,28 @@ Sales orders define <em>what</em> the customer will receive, <em>when</em>, and 
 <li><strong>Link to project</strong></li>
 <li><strong>Copy sales order</strong></li>
 </ul>
+<h3 id="create-production-orders-from-a-sales-order">Create production orders from a sales order<a class="headerlink" href="#create-production-orders-from-a-sales-order" title="Permanent link">&para;</a></h3>
+<p>You can create production orders for the products of a sales order. Each product gets its own production order, with the process and dates you choose for it.</p>
+<ol>
+<li>Open the sales order and click <strong>+ Production order</strong> in the Linked documents section. The dialog lists the products of the sales order with their quantities.</li>
+</ol>
+<p><img alt="Production order dialog" src="../../Images/SalesOrderProductionOrderList.png" title="Production order dialog" /></p>
+<ol>
+<li>Tick a product, or click its name. Step 1, <strong>Select process</strong>, opens. Each card shows the process code and name, the version and its creation date. Select the version and click <strong>Next</strong>.</li>
+</ol>
+<p><img alt="Select process" src="../../Images/SalesOrderProductionOrderProcess.png" title="Select process" /></p>
+<ol>
+<li>Step 2, <strong>Provide additional information</strong>, sets the <strong>Production order mode</strong> (for example <strong>Standard</strong>), the <strong>Deadline date</strong> and the <strong>Planned start date</strong>. The <strong>Planned end</strong> is calculated from them. Click <strong>Finish</strong>.</li>
+</ol>
+<p><img alt="Provide additional information" src="../../Images/SalesOrderProductionOrderDetails.png" title="Provide additional information" /></p>
+<ol>
+<li>The list opens again, with the product you configured ticked.</li>
+<li>Click <strong>Create production orders</strong>. You can create production orders for all products, or only for the ticked products.</li>
+</ol>
+<p>The <strong>Quantity</strong> column in the list can be edited before you create the production orders.</p>
+<p><img alt="Product ticked in the list" src="../../Images/SalesOrderProductionOrderSelected.png" title="Product ticked in the list" /></p>
+<p>The production orders you create appear in the <strong>Linked documents</strong> section of the sales order.</p>
+<p><img alt="Linked production orders" src="../../Images/SalesOrderProductionOrdersLinked.png" title="Linked production orders" /></p>
 <h3 id="publish-a-sales-order">Publish a sales order<a class="headerlink" href="#publish-a-sales-order" title="Permanent link">&para;</a></h3>
 <p>When the draft is ready, click <strong>Publish</strong> located at the top of the page to commit the order. A Committed sales order moves to the <strong>Available</strong> state and enables additional document actions.</p>
 <div class="admonition note">
@@ -34046,6 +34090,10 @@ Sales orders define <em>what</em> the customer will receive, <em>when</em>, and 
       Copyright &copy; 2026 Tom PIT d.o.o. All rights reserved.
     </div>
   
+  <div class="md-copyright__highlight">
+    This site uses anonymous page-view statistics and sets no cookies.
+    <a class="md-copyright__link" href="../../../../../WebsiteAnalytics/">Click here</a> for more information.
+  </div>
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
@@ -34070,6 +34118,7 @@ Sales orders define <em>what</em> the customer will receive, <em>when</em>, and 
       <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.path", "search.suggest", "navigation.footer"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+  
       <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js"></script>
@@ -34079,5 +34128,7 @@ Sales orders define <em>what</em> the customer will receive, <em>when</em>, and 
         <script src="../../../../../javascripts/image-lightbox.js"></script>
       
     
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="bf86a7e2-63e6-4a9f-a947-56861b9004ff"></script>
+
   </body>
 </html>

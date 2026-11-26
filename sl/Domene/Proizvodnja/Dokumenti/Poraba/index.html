@@ -33172,6 +33172,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#poraba-iz-vsebnika" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Poraba iz vsebnika
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#validacije" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -33224,7 +33235,10 @@
 <ol>
 <li>Odprite stran <strong>Poraba</strong> iz <a href="../Izvedba/#akcijski-meni-in-aktivnosti"><strong>menija aktivnosti izvedbe</strong></a>.  </li>
 <li>Preglejte seznam materialov za porabo (s prikazom stanja zaloge).  </li>
-<li>Izberite material s seznama ali poiščite/skenirajte po nazivu, šifri, serijski številki ali EAN kodi.  </li>
+<li>Izberite material s seznama ali poiščite/skenirajte po nazivu, šifri, serijski številki, EAN kodi ali številki vsebnika.  </li>
+<li>Če se številka vsebnika ujema, se odpre okno <a href="#poraba-iz-vsebnika"><strong>Vsebnik</strong></a>.  </li>
+<li>Če material, serijska številka ali EAN ustreza samo enemu zadetku, se ta odpre.  </li>
+<li>Če ustreza več zadetkom, so ti prikazani za izbiro.  </li>
 <li>Na zaslonu <strong>Dodaj porabo</strong> vnesite količino za porabo.  </li>
 </ol>
 <p><img alt="Podrobnosti porabe materiala" src="../../Images/ExecutionConsumptionDetailScreenSL.png" title="Zaslon podrobnosti porabe" /></p>
@@ -33233,6 +33247,18 @@
 <li>Po potrebi ponovite postopek za druge materiale.</li>
 </ol>
 <p>Porabljena količina je povezana z operacijo in se v realnem času odrazi v stanju zaloge.</p>
+<h3 id="poraba-iz-vsebnika">Poraba iz vsebnika<a class="headerlink" href="#poraba-iz-vsebnika" title="Permanent link">&para;</a></h3>
+<p>Ko izberete vsebnik, se odpre okno <strong>Vsebnik</strong> z eno vrstico za vsako serijsko številko v vsebniku.</p>
+<p><img alt="Vsebnik" src="../../Images/PorabaVsebnikSL.png" title="Okno Vsebnik" /></p>
+<p>Stolpci so:</p>
+<ul>
+<li><strong>Material</strong>: material v vsebniku.</li>
+<li><strong>Serijska številka</strong>: serijska številka te vrstice.</li>
+<li><strong>Količina v vsebniku</strong>: količina te serijske številke v vsebniku.</li>
+<li><strong>Poraba</strong>: doslej porabljena količina v primerjavi z količino, potrebno za operacijo.</li>
+<li><strong>Vnos</strong>: količina, ki jo porabite zdaj. Polje je predizpolnjeno s celotno količino vrstice.</li>
+</ul>
+<p>Če želite porabiti celoten vsebnik, pustite vrednosti v polju <strong>Vnos</strong> nespremenjene in kliknite <strong>Shrani</strong>. Če želite porabiti le del vsebnika, pred shranjevanjem spremenite vrednost <strong>Vnos</strong> za eno ali več vrstic.</p>
 <h3 id="validacije">Validacije<a class="headerlink" href="#validacije" title="Permanent link">&para;</a></h3>
 <p>Sistem preverja:</p>
 <ul>
@@ -33281,6 +33307,10 @@
       Copyright &copy; 2026 Tom PIT d.o.o. All rights reserved.
     </div>
   
+  <div class="md-copyright__highlight">
+    This site uses anonymous page-view statistics and sets no cookies.
+    <a class="md-copyright__link" href="../../../../../WebsiteAnalytics/">Click here</a> for more information.
+  </div>
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
@@ -33305,6 +33335,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.path", "search.suggest", "navigation.footer"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+  
       <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js"></script>
@@ -33314,5 +33345,7 @@
         <script src="../../../../../javascripts/image-lightbox.js"></script>
       
     
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="bf86a7e2-63e6-4a9f-a947-56861b9004ff"></script>
+
   </body>
 </html>
