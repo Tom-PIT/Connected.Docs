@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/semi-products -->
 <!-- app_label: Semi products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/Poluproizvodi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/RobaIUsluge/Materijali/Poluproizvodi/ -->
 <!-- canonical_source_title: Poluproizvodi -->
 
 # Poluproizvodi

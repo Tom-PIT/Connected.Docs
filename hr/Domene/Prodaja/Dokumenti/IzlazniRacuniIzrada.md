@@ -1,7 +1,7 @@
 <!-- app_route: /prodaja/dokumenti/izlazni-racuni -->
 <!-- app_label: Izlazni računi -->
 <!-- app_navigation_hint: Otvorite Izlazne račune, zatim kliknite akcijski gumb za izradu novog računa u statusu nacrta. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/IzlaniRacuniIzrada.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Dokumenti/IzlazniRacuniIzrada/ -->
 <!-- canonical_source_title: Kako kreirati izlazni račun -->
 
 # Kako kreirati izlazni račun

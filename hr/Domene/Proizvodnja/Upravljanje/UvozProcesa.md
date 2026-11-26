@@ -1,6 +1,6 @@
 <!-- app_route: /management/processes/import -->
 <!-- app_label: Import processes -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/UvozProcesa.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/UvozProcesa/ -->
 <!-- canonical_source_title: Import processes -->
 
 # Uvoz procesa

@@ -1,6 +1,6 @@
 <!-- app_route: /time-logs/paid-leave-management -->
 <!-- app_label: Upravljanje sa godišnjim odmorom -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/TimeLogsManagePaidLeave.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Pogledi/UpravljanjeSaGodisnjimOdmorom/ -->
 <!-- canonical_source_title: Upravljanje sa godišnjim odmorom -->
 
 # Upravljanje sa godišnjim odmorom

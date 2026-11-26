@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-planning -->
 <!-- app_label: Planiranje nabavke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Nabava/Dokumenti/PlaniranjeNabavke.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Nabava/Dokumenti/PlaniranjeNabavke/ -->
 <!-- canonical_source_title: Planiranje nabavke -->
 
 # Planiranje nabavke

@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/ -->
 <!-- canonical_source_title: Dokumentacija Tom PIT.Connected -->
 
 # Dokumentacija Tom PIT.Connected

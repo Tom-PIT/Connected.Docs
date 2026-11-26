@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/account-defaults -->
 <!-- app_label: Zadana konta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ZadaneKonta.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/ZadaneKonta/ -->
 <!-- canonical_source_title: Zadana konta -->
 
 # Zadana konta

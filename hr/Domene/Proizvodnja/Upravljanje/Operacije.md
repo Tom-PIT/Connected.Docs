@@ -1,7 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Processes -->
 <!-- app_navigation_hint: Open a process, select a version, click Operations, then open the relevant operation. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/Operacije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/Operacije/ -->
 <!-- canonical_source_title: Operacije -->
 
 # Operacije

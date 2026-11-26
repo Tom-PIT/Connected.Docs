@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/external-code-sets -->
 <!-- app_label: Oznake svrha plaćanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Upravljanje/OznakeSvrhaPlacanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Upravljanje/OznakeSvrhaPlacanja/ -->
 <!-- canonical_source_title: Oznake svrha plaćanja -->
 
 # Oznake svrha plaćanja

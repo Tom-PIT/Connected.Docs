@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/Intrastat/Index/ -->
+<!-- canonical_source_title: Intrastat -->
+
 # Intrastat
 
 **Intrastat** je sustav Europske unije za prikupljanje statistike o trgovini robom između država članica. Poduzeća koja otpremaju ili primaju robu preko granica EU-a moraju dostavljati mjesečne Intrastat prijave kada prijeđu nacionalne pragove.

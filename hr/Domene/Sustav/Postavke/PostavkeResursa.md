@@ -1,6 +1,6 @@
 <!-- app_route: /management/configuration -->
 <!-- app_label: Konfiguracija -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Sustav/Postavke/PostavkeResursa.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Sustav/Postavke/PostavkeResursa/ -->
 <!-- canonical_source_title: Postavke resursa -->
 
 # Postavke resursa

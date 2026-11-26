@@ -1,6 +1,6 @@
 <!-- app_route: /management/knowledge/directory-tags -->
 <!-- app_label: Directory tags -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Znanje/Upravljanje/OznakeImenika.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Znanje/Upravljanje/OznakeImenika/ -->
 <!-- canonical_source_title: Oznake imenika -->
 
 # Oznake imenika

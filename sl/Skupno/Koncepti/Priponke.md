@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Koncepti/Priponke/ -->
+<!-- canonical_source_title: Priponke -->
+
 # Priponke
 
 Razdelek **Priponke** je na voljo na vrhu večine dokumentov in zapisov v sistemu.

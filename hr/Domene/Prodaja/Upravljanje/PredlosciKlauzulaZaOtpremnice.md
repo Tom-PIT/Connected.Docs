@@ -1,6 +1,6 @@
 <!-- app_route: /management/sales/delivery-note-clause-templates -->
 <!-- app_label: Predlošci klauzula za otpremnice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaOtpremnice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaOtpremnice/ -->
 <!-- canonical_source_title: Predlošci klauzula za otpremnice -->
 
 # Predlošci klauzula za otpremnice

@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/journal-entry-templates -->
 <!-- app_label: Predlošci za temeljnice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PredlosciZaTemeljnice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/PredlosciZaTemeljnice/ -->
 <!-- canonical_source_title: Predlošci za temeljnice -->
 
 # Predlošci za temeljnice

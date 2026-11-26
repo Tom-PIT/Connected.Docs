@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/products -->
 <!-- app_label: Products -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/Proizvodi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/RobaIUsluge/Materijali/Proizvodi/ -->
 <!-- canonical_source_title: Proizvodi -->
 
 # Proizvodi

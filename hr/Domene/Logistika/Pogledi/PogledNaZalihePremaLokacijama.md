@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/stock/location -->
 <!-- app_label: Pogled na zalihe prema lokacijama -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Upravljanje/PogledNaZalihePremaLokacijama.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Pogledi/PogledNaZalihePremaLokacijama/ -->
 <!-- canonical_source_title: Pogled na zalihe prema lokacijama -->
 
 # Pogled na zalihe prema lokacijama

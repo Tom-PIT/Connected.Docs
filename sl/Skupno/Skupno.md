@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Skupno/ -->
+<!-- canonical_source_title: Skupno -->
+
 # Skupno
 
 Modul **Skupno** ni domena, temveč nabor **skupnih šifrantov in osnov uporabniškega vmesnika**, ki se uporabljajo v celotni platformi. Ti elementi definirajo globalne strukture, kot so države, valute, davčne stopnje, merske enote in poslovni partnerji. Vsaka funkcionalna domena — [Prodaja](../Domene/Prodaja/README.md), [Nabava](../Domene/Nabava/README.md), [Logistika](../Domene/Logistika/README.md), [Proizvodnja](../Domene/Proizvodnja/README.md) — se za pravilno delovanje zanaša na modul Skupno.

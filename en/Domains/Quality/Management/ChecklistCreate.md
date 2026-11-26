@@ -1,3 +1,8 @@
+<!-- app_route: /management/check-lists -->
+<!-- app_label: Create a new checklist -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Quality/Management/ChecklistCreate/ -->
+<!-- canonical_source_title: How to create a quality checklist -->
+
 # How to create a quality checklist
 
 Quality checklists help ensure that production and maintenance activities are performed consistently and according to defined procedures.

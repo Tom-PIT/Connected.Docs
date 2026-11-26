@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Documents/InvoicesIndex/ -->
+<!-- canonical_source_title: Invoices index -->
+
 # Invoices index
 
 To access these screens, go to **Accounting / Invoices**  in the [navigation](../../../Common/UI/Navigation.md).

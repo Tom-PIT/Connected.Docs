@@ -1,6 +1,6 @@
 <!-- app_route: /management/check-lists -->
 <!-- app_label: Kontrolni popisi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Kvaliteta/Upravljanje/KontrolniPopisi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Kvaliteta/Upravljanje/KontrolniPopisi/ -->
 <!-- canonical_source_title: Kontrolni popisi -->
 
 # Kontrolni popisi

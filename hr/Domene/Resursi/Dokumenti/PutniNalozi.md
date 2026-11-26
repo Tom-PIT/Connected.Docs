@@ -1,6 +1,6 @@
 <!-- app_route: /resources/documents/travel-orders -->
 <!-- app_label: Putni nalozi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Dokumenti/TravelOrders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Dokumenti/PutniNalozi/ -->
 <!-- canonical_source_title: Putni nalozi -->
 
 # Putni nalozi

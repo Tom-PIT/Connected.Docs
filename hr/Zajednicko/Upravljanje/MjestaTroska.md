@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/cost-centers -->
 <!-- app_label: Mjesta troška -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/MjestaTroska.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/MjestaTroska/ -->
 <!-- canonical_source_title: Mjesta troška -->
 
 # Mjesta troška

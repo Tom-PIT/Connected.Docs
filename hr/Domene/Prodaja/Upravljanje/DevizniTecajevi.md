@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/exchange-rates -->
 <!-- app_label: Devizni tečajevi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Upravljanje/DevizniTecajevi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Upravljanje/DevizniTecajevi/ -->
 <!-- canonical_source_title: Devizni tečajevi -->
 
 # Devizni tečajevi

@@ -1,6 +1,6 @@
 <!-- app_route: /customers/company-cards -->
 <!-- app_label: Kartice tvrtke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Pogledi/KarticeTvrtke.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Pogledi/KarticeTvrtke/ -->
 <!-- canonical_source_title: Kartice tvrtke -->
 
 # Kartice tvrtke

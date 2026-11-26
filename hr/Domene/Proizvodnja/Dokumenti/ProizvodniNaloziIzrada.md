@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/create -->
 <!-- app_label: Novi proizvodni nalog -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Dokumenti/ProizvodniNaloziIzrada.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Dokumenti/ProizvodniNaloziIzrada/ -->
 <!-- canonical_source_title: Kako kreirati proizvodni nalog -->
 
 # Kako kreirati proizvodni nalog

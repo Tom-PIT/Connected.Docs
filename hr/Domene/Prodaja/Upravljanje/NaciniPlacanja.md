@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/payment-methods -->
 <!-- app_label: Načini plaćanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Management/NaciniPlacanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Upravljanje/NaciniPlacanja/ -->
 <!-- canonical_source_title: Načini plaćanja -->
 
 # Načini plaćanja

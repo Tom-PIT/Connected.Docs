@@ -1,7 +1,7 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Kontakti -->
 <!-- app_navigation_hint: Otvorite **Poslovni imenik**, zatim otvorite **Kontakti** za odgovarajući zapis. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/Kontakti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/Kontakti/ -->
 <!-- canonical_source_title: Kontakti -->
 
 # Kontakti

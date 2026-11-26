@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/resources.timeLogs -->
 <!-- app_label: Dnevnik prisutnosti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/TimeLogs.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Pogledi/DnevnikPrisutnosti/ -->
 <!-- canonical_source_title: Dnevnik prisutnosti -->
 
 # Dnevnik prisutnosti

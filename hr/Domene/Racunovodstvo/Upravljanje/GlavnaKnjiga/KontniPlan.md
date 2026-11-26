@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/accounts -->
 <!-- app_label: Kontni plan -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/KontniPlan/ -->
 <!-- canonical_source_title: Kontni plan -->
 
 # Kontni plan

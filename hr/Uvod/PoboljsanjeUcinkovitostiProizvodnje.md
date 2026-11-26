@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/PoboljsanjeUcinkovitostiProizvodnje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Uvod/PoboljsanjeUcinkovitostiProizvodnje/ -->
 <!-- canonical_source_title: Poboljšanje učinkovitosti proizvodnje -->
 
 # Poboljšanje učinkovitosti proizvodnje

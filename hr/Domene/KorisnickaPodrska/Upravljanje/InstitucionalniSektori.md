@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/institutional-sectors -->
 <!-- app_label: Institucionalni sektori -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/KorisnickaPodrska/Upravljanje/InstitucionalniSektori.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/KorisnickaPodrska/Upravljanje/InstitucionalniSektori/ -->
 <!-- canonical_source_title: Institucionalni sektori -->
 
 # Institucionalni sektori

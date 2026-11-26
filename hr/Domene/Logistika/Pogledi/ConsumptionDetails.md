@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/views/consumption-details -->
 <!-- app_label: Consumption details -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Pogledi/ConsumptionDetails.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Pogledi/ConsumptionDetails/ -->
 <!-- canonical_source_title: Consumption details -->
 
 # Consumption details

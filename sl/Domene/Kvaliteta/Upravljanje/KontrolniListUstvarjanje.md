@@ -1,3 +1,8 @@
+<!-- app_route: /management/check-lists -->
+<!-- app_label: Ustvari novo kontrolno listo -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Kvaliteta/Upravljanje/KontrolniListUstvarjanje/ -->
+<!-- canonical_source_title: Kako ustvariti kontrolno listo kakovosti -->
+
 # Kako ustvariti kontrolno listo kakovosti
 
 Kontrolne liste pomagajo zagotavljati dosledno izvajanje proizvodnih in vzdrževalnih postopkov ter podpirajo aktivnosti zagotavljanja kakovosti.

@@ -1,6 +1,6 @@
 <!-- app_route: /sales/views/delivery-note-details -->
 <!-- app_label: Stavke otpremnica -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Pogledi/StavkeOtpremnica.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Pogledi/StavkeOtpremnica/ -->
 <!-- canonical_source_title: Stavke otpremnica -->
 
 # Stavke otpremnica

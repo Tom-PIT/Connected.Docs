@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/material-price-lists -->
 <!-- app_label: Material price lists -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/CjeniciMaterijala.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/RobaIUsluge/Materijali/CjeniciMaterijala/ -->
 <!-- canonical_source_title: Cjenici materijala -->
 
 # Cjenici materijala

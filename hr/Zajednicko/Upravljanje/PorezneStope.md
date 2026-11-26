@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/tax-rates -->
 <!-- app_label: Porezne stope -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/PorezneStope.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/PorezneStope/ -->
 <!-- canonical_source_title: Porezne stope -->
 
 # Porezne stope

@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/effort-types -->
 <!-- app_label: Tipovi rada -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Upravljanje/TipoviRada.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Upravljanje/TipoviRada/ -->
 <!-- canonical_source_title: Tipovi rada -->
 
 # Tipovi rada

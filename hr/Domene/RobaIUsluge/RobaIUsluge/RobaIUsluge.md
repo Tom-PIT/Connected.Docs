@@ -1,6 +1,6 @@
 <!-- app_route: /assets/management/assets -->
 <!-- app_label: Assets -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/RobaIUsluge/RobaIUsluge/RobaIUsluge/ -->
 <!-- canonical_source_title: Roba ili usluga -->
 
 # Roba ili usluga

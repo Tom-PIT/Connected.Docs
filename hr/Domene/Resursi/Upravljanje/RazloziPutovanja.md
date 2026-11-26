@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/travel-order-reasons -->
 <!-- app_label: Razlozi putovanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Upravljanje/RazloziPutovanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Upravljanje/RazloziPutovanja/ -->
 <!-- canonical_source_title: Razlozi putovanja -->
 
 # Razlozi putovanja

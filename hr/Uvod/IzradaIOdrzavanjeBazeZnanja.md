@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/IzradaIOdrzavanjeBazeZnanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Uvod/IzradaIOdrzavanjeBazeZnanja/ -->
 <!-- canonical_source_title: Izrada i održavanje baze znanja -->
 
 # Izrada i održavanje baze znanja

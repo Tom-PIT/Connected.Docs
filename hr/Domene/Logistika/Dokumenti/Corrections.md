@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/corrections --> 
 <!-- app_label: Corrections --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/Corrections.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/Corrections/ --> 
 <!-- canonical_source_title: Corrections -->
 
 # Corrections

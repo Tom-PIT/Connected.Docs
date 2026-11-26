@@ -1,6 +1,6 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Procesi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/ProcesiIzrada.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/ProcesiIzrada/ -->
 <!-- canonical_source_title: Kako kreirati proces -->
 
 # Kako kreirati proces

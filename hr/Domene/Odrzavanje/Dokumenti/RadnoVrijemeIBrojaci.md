@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance/resource-counters -->
 <!-- app_label: Radno vrijeme resursa i brojači -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/Dokumenti/RadnoVrijemeIBrojaci.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Odrzavanje/Dokumenti/RadnoVrijemeIBrojaci/ -->
 <!-- canonical_source_title: Radno vrijeme resursa i brojači -->
 
 # Radno vrijeme resursa i brojači

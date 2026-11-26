@@ -1,6 +1,6 @@
 <!-- app_route: /customer-support/resolved-tickets -->
 <!-- app_label: Riješene prijave -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/KorisnickaPodrska/Prijave/RijesenePrijave.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/KorisnickaPodrska/Prijave/RijesenePrijave/ -->
 <!-- canonical_source_title: Riješene prijave -->
 
 # Riješene prijave

@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/job-positions -->
 <!-- app_label: Sistematizacija radnih mjesta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/SistematizacijaRadnihMjesta/ -->
 <!-- canonical_source_title: Sistematizacija radnih mjesta -->
 
 # Sistematizacija radnih mjesta

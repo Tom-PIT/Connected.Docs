@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/tax-returns -->
 <!-- app_label: Obračun PDV-a -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Dokumenti/ObracunPdv.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Dokumenti/ObracunPdv/ -->
 <!-- canonical_source_title: Obračun PDV-a -->
 
 # Obračun PDV-a

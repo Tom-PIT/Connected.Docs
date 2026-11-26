@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/received-invoices-supply-of-goods -->
 <!-- app_label: Received invoices supply of goods -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Accounting/Views/ReceivedInvoicesSupplyOfGoods.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Pregledi/ReceivedInvoicesSupplyOfGoods/ -->
 <!-- canonical_source_title: Received invoices supply of goods -->
 
 # Received invoices supply of goods

@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/issues --> 
 <!-- app_label: Izdatnica --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/Izdatnica.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/Izdatnica/ --> 
 <!-- canonical_source_title: Izdatnica -->
 
 # Izdatnica

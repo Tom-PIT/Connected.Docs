@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/list -->
 <!-- app_label: Nalozi za održavanje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Odrzavanje/Dokumenti/NaloziZaOdrzavanje/ -->
 <!-- canonical_source_title: Nalozi za održavanje -->
 
 # Nalozi za održavanje

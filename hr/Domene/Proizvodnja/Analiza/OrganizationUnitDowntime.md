@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/organization-unit-downtime -->
 <!-- app_label: Organization unit downtime -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/OrganizationUnitDowntime.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Analiza/OrganizationUnitDowntime/ -->
 <!-- canonical_source_title: Organization unit downtime -->
 
 # Organization unit downtime

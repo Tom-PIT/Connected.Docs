@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Dokumenti/IndeksRacuna/ -->
+<!-- canonical_source_title: Indeks računa -->
+
 # Indeks računa
 
 Ovim ekranima pristupate odabirom **Računovodstvo / Računi** u [navigaciji](../../../Zajednicko/UI/Navigacija.md).

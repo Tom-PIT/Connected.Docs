@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/worksheet-types -->
 <!-- app_label: Tipovi raspoloživosti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Upravljanje/TipoviRaspolozivosti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Upravljanje/TipoviRaspolozivosti/ -->
 <!-- canonical_source_title: Tipovi raspoloživosti -->
 
 # Tipovi raspoloživosti

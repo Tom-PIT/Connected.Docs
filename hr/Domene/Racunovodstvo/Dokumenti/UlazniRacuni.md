@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/documents/received-invoices -->
 <!-- app_label: Ulazni računi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Dokumenti/UlazniRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Dokumenti/UlazniRacuni/ -->
 <!-- canonical_source_title: Ulazni računi -->
 
 # Ulazni računi

@@ -1,6 +1,6 @@
 <!-- app_route: /management/organization-units/warehouse-locations -->
 <!-- app_label: Skladišne lokacije -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/SkladisneLokacije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/SkladisneLokacije/ -->
 <!-- canonical_source_title: Skladišne lokacije -->
 
 # Skladišne lokacije

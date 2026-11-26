@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/inquiries -->
 <!-- app_label: Upiti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Nabava/Dokumenti/Upiti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Nabava/Dokumenti/Upiti/ -->
 <!-- canonical_source_title: Upiti -->
 
 # Upiti

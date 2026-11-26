@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/organization-unit-running-times -->
 <!-- app_label: Organization unit running times -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/OrganizationUnitRunningTimes.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Analiza/OrganizationUnitRunningTimes/ -->
 <!-- canonical_source_title: Organization unit running times -->
 
 # Organization unit running times

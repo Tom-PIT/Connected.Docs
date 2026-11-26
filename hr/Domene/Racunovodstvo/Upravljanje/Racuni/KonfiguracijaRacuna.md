@@ -1,6 +1,6 @@
 <!-- app_route: /management/accounting/configuration -->
 <!-- app_label: Konfiguracija -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/Racuni/KonfiguracijaRacuna.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/Racuni/KonfiguracijaRacuna/ -->
 <!-- canonical_source_title: Konfiguracija -->
 
 # Konfiguracija

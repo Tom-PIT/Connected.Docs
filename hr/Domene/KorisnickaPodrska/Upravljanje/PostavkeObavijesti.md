@@ -1,6 +1,6 @@
 <!-- app_route: /configuration/customer-support/notifications -->
 <!-- app_label: Postavke obavijesti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/KorisnickaPodrska/Upravljanje/PostavkeObavijesti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/KorisnickaPodrska/Upravljanje/PostavkeObavijesti/ -->
 <!-- canonical_source_title: Postavke obavijesti -->
 
 # Postavke obavijesti

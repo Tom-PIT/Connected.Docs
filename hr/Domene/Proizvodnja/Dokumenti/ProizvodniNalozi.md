@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders -->
 <!-- app_label: Proizvodni nalozi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Dokumenti/ProizvodniNalozi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Dokumenti/ProizvodniNalozi/ -->
 <!-- canonical_source_title: Proizvodni nalozi -->
 
 # Proizvodni nalozi

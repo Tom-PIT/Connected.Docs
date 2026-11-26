@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Dokumenti/KazaloRacunov/ -->
+<!-- canonical_source_title: Kazalo računov -->
+
 # Kazalo računov
 
 Za dostop do teh zaslonov pojdite na **Računovodstvo / Računi** v [navigaciji](../../../Skupno/UI/Navigacija.md).

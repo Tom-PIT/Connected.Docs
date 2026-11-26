@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/organization-units -->
 <!-- app_label: Organizacijske jedinice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/OrganizacijskeJedinice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/OrganizacijskeJedinice/ -->
 <!-- canonical_source_title: Organizacijske jedinice -->
 
 # Organizacijske jedinice

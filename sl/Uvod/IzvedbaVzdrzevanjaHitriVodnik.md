@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/execution -->
 <!-- app_label: Vzdrževalni nalog – hitri uporabniški vodnik -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Uvod/IzvedbaVzdrzevanjaHitriVodnik.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Uvod/IzvedbaVzdrzevanjaHitriVodnik/ -->
 <!-- canonical_source_title: Vzdrževalni nalog – hitri uporabniški vodnik -->
 
 # Vzdrževalni nalog – hitri uporabniški vodnik

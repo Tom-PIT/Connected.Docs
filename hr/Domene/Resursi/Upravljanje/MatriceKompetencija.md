@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/competence-matrix -->
 <!-- app_label: Matrice kompetencija -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Upravljanje/MatriceKompetencija.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Upravljanje/MatriceKompetencija/ -->
 <!-- canonical_source_title: Matrice kompetencija -->
 
 # Matrice kompetencija

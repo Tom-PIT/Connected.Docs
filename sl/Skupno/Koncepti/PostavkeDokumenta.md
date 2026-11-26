@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Koncepti/PostavkeDokumenta/ -->
+<!-- canonical_source_title: Postavke dokumenta -->
+
 # Postavke dokumenta
 
 Razdelek **Postavke dokumenta** vsebuje posamezne vrstice, ki sestavljajo dokument.

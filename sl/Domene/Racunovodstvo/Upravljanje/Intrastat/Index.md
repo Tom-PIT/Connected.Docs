@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Racunovodstvo/Upravljanje/Intrastat/Index/ -->
+<!-- canonical_source_title: Intrastat -->
+
 # Intrastat
 
 Intrastat je sistem Evropske unije za zbiranje statističnih podatkov o blagovni menjavi med državami članicami EU. Podjetja, ki odpošiljajo (odpreme) ali prejemajo (prihode) blago čez meje EU, morajo po preseganju nacionalnih pragov mesečno oddajati Intrastat poročila.

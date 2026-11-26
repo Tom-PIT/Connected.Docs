@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/availabilty-plans -->
 <!-- app_label: Planovi dostupnosti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/PlanoviDostupnosti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Pogledi/PlanoviDostupnosti/ -->
 <!-- canonical_source_title: Planovi dostupnosti -->
 
 # Planovi dostupnosti

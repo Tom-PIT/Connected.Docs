@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Concepts/LinkedDocuments/ -->
+<!-- canonical_source_title: Linked documents -->
+
 # Linked documents
 
 The **Linked documents** section displays documents related to the current document and allows creating new documents as part of the same business process.

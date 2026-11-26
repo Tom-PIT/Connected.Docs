@@ -1,6 +1,6 @@
 <!-- app_route: /quality/views/completed-checklists -->
 <!-- app_label: Gotovi kontrolni popisi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Kvaliteta/Pregledi/GotoviKontrolniPopisi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Kvaliteta/Pregledi/GotoviKontrolniPopisi/ -->
 <!-- canonical_source_title: Gotovi kontrolni popisi -->
 
 # Gotovi kontrolni popisi

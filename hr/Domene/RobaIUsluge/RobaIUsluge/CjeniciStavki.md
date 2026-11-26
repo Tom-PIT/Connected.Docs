@@ -1,6 +1,6 @@
 <!-- app_route: /assets/management/asset-price-lists -->
 <!-- app_label: Asset price lists -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/RobaIUsluge/CjeniciStavki.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/RobaIUsluge/RobaIUsluge/CjeniciStavki/ -->
 <!-- canonical_source_title: Cjenici stavki -->
 
 # Cjenici stavki

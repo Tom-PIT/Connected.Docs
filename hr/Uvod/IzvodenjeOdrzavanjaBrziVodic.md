@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/execution -->
 <!-- app_label: Nalog za održavanje – brzi vodič -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/IzvodenjeOdrzavanjaBrziVodic.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Uvod/IzvodenjeOdrzavanjaBrziVodic/ -->
 <!-- canonical_source_title: Nalog za održavanje – brzi vodič -->
 
 # Nalog za održavanje – brzi vodič

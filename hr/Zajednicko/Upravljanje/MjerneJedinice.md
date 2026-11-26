@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/measure-units -->
 <!-- app_label: Mjerne jedinice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/MjerneJedinice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/MjerneJedinice/ -->
 <!-- canonical_source_title: Mjerne jedinice -->
 
 # Mjerne jedinice

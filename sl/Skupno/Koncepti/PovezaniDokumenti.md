@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Koncepti/PovezaniDokumenti/ -->
+<!-- canonical_source_title: Povezani dokumenti -->
+
 # Povezani dokumenti
 
 Razdelek **Povezani dokumenti** prikazuje dokumente, povezane s trenutnim dokumentom, in omogoča ustvarjanje novih dokumentov kot del istega poslovnega procesa.

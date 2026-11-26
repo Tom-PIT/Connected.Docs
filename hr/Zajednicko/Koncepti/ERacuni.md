@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Poslovni imenik -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Koncepti/ERacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Koncepti/ERacuni/ -->
 <!-- canonical_source_title: E-računi -->
 
 # E-računi

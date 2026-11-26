@@ -1,6 +1,6 @@
 <!-- app_route: /management/common/mode-of-transport -->
 <!-- app_label: Vrsta transporta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/VrstaTransporta.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/VrstaTransporta/ -->
 <!-- canonical_source_title: Vrsta transporta -->
 
 # Vrsta transporta

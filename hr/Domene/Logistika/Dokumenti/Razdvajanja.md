@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/disassemblies --> 
 <!-- app_label: Razdvajanja --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/Razdvajanja.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/Razdvajanja/ --> 
 <!-- canonical_source_title: Razdvajanja -->
 
 # Razdvajanja

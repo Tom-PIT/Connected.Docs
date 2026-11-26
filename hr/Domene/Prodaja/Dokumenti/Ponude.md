@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/offers -->
 <!-- app_label: Ponude -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/Ponude.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Dokumenti/Ponude/ -->
 <!-- canonical_source_title: Ponude -->
 
 # Ponude

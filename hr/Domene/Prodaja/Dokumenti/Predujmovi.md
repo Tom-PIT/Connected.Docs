@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/prepayments -->
 <!-- app_label: Predujmovi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/Predujmovi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Dokumenti/Predujmovi/ -->
 <!-- canonical_source_title: Predujmovi -->
 
 # Predujmovi

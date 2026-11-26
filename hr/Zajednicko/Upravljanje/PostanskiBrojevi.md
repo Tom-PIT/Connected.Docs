@@ -1,7 +1,7 @@
 <!-- app_route: /management/common-types/countries -->
 <!-- app_label: Države -->
 <!-- app_navigation_hint: Otvorite **Poslovni imenik**, zatim kliknite na gumb **Poštanski brojevi** za željeni zapis. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/PostanskiBrojevi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/PostanskiBrojevi/ -->
 <!-- canonical_source_title: Poštanski brojevi -->
 
 # Poštanski brojevi

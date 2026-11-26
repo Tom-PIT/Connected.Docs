@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/inters --> 
 <!-- app_label: Međuskladišni promet --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/MeduskladisniPromet.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/MeduskladisniPromet/ --> 
 <!-- canonical_source_title: Međuskladišni promet -->
 
 # Međuskladišni promet

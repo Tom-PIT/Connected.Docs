@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap -->
 <!-- app_label: Navigacija -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/UI/Navigacija.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/UI/Navigacija/ -->
 <!-- canonical_source_title: Navigacija -->
 
 # Navigacija

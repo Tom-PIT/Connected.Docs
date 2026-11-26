@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/writeoffs --> 
 <!-- app_label: Otpisi --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/Otpisi.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/Otpisi/ --> 
 <!-- canonical_source_title: Otpisi -->
 
 # Otpisi

@@ -1,6 +1,6 @@
 <!-- app_route: /management/contacts/job-titles -->
 <!-- app_label: Nazivi radnih mjesta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/NaziviRadnihMjesta.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/NaziviRadnihMjesta/ -->
 <!-- canonical_source_title: Nazivi radnih mjesta -->
 
 # Nazivi radnih mjesta

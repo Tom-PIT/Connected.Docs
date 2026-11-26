@@ -1,7 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Unosi -->
 <!-- app_navigation_hint: Otvorite proces, odaberite verziju, kliknite Operacije, a zatim otvorite Unose za odgovarajuću operaciju. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/Unosi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/Unosi/ -->
 <!-- canonical_source_title: Unosi -->
 
 # Unosi

@@ -1,7 +1,7 @@
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Narudžbenice dobavljača -->
 <!-- app_navigation_hint: Otvorite Narudžbenice dobavljača, a zatim kliknite akcijski gumb za izradu nove narudžbenice u nacrtu. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Nabava/Dokumenti/NarudzbeniceIzrada.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Nabava/Dokumenti/NarudzbeniceIzrada/ -->
 <!-- canonical_source_title: Kako kreirati narudžbenicu -->
 
 # Kako kreirati narudžbenicu

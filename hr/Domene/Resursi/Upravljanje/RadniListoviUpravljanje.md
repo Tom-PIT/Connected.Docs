@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/timesheets -->
 <!-- app_label: Radni listovi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Upravljanje/RadniListoviUpravljanje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Upravljanje/RadniListoviUpravljanje/ -->
 <!-- canonical_source_title: Radni listovi -->
 
 # Radni listovi

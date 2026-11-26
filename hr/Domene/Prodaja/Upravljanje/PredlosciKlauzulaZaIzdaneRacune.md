@@ -1,6 +1,6 @@
 <!-- app_route: /management/sales/issued-invoice-clause-templates -->
 <!-- app_label: Predlošci klauzula za izdane račune -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaIzdaneRacune.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Upravljanje/PredlosciKlauzulaZaIzdaneRacune/ -->
 <!-- canonical_source_title: Predlošci klauzula za izdane račune -->
 
 # Predlošci klauzula za izdane račune

@@ -1,6 +1,6 @@
 <!-- app_route: /management/intrastat/supplementary-units -->
 <!-- app_label: Pomoćne jedinice -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/Intrastat/PomocneJedinice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/Intrastat/PomocneJedinice/ -->
 <!-- canonical_source_title: Pomoćne jedinice -->
 
 # Pomoćne jedinice

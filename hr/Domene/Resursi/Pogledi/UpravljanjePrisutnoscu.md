@@ -1,6 +1,6 @@
 <!-- app_route: /time-logs/management -->
 <!-- app_label: Dnevnik prisutnosti – Upravljanje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/TimeLogsManage.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Pogledi/UpravljanjePrisutnoscu/ -->
 <!-- canonical_source_title: Dnevnik prisutnosti – Upravljanje -->
 
 # Dnevnik prisutnosti – Upravljanje

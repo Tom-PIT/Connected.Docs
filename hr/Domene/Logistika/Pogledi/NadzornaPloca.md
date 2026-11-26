@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/index -->
 <!-- app_label: Nadzorna ploča -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Upravljanje/NadzornaPloca.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Pogledi/NadzornaPloca/ -->
 <!-- canonical_source_title: Nadzorna ploča -->
 
 # Nadzorna ploča

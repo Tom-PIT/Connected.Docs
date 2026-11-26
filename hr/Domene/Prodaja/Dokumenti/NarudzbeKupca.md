@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/sales-orders -->
 <!-- app_label: Narudžbe kupca -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/NarudzbeKupca.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Dokumenti/NarudzbeKupca/ -->
 <!-- canonical_source_title: Narudžbe kupca -->
 
 # Narudžbe kupca

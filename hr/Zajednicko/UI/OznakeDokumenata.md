@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/UI/OznakeDokumenata.md-->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/UI/OznakeDokumenata/ -->
 <!-- canonical_source_title: Oznake dokumenata -->
 
 # Oznake dokumenata

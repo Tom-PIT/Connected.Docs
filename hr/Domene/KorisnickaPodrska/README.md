@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/customers -->
 <!-- app_label: Korisnička podrška -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/KorisnickaPodrska/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/KorisnickaPodrska/ -->
 <!-- canonical_source_title: Korisnička podrška -->
 
 # Korisnička podrška

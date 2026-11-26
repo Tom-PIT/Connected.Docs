@@ -1,6 +1,6 @@
 <!-- app_route: /production-orders/requirements -->
 <!-- app_label: Zahtjevi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Dokumenti/Zahtjevi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Dokumenti/Zahtjevi/ -->
 <!-- canonical_source_title: Zahtjevi -->
 
 # Zahtjevi

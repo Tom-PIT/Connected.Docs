@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/views/issue-details -->
 <!-- app_label: Issue details -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Pogledi/IssueDetails.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Pogledi/IssueDetails/ -->
 <!-- canonical_source_title: Issue details -->
 
 # Issue details

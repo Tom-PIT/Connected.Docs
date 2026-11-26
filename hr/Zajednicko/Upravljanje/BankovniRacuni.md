@@ -1,7 +1,7 @@
 <!-- app_route: /management/contacts/companies -->
 <!-- app_label: Bankovni računi -->
 <!-- app_navigation_hint: Otvorite Poslovni imenik, zatim otvorite Bankovne račune za odgovarajući zapis. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/BankovniRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/BankovniRacuni/ -->
 <!-- canonical_source_title: Bankovni računi -->
 
 # Bankovni računi

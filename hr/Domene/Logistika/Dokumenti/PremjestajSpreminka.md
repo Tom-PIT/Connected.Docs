@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/container-move --> 
 <!-- app_label: Premještaj spreminka --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/sl/Domene/Logistika/Dokumenti/PremjestajSpreminka.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/PremjestajSpreminka/ --> 
 <!-- canonical_source_title: Premještaj spreminka -->
 
 # Premještaj spreminka

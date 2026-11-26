@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/alternative-measure-units -->
 <!-- app_label: Alternative measure units -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/ZamjenskeMjerneJedinice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/RobaIUsluge/Materijali/ZamjenskeMjerneJedinice/ -->
 <!-- canonical_source_title: Zamjenske mjerne jedinice -->
 
 # Zamjenske mjerne jedinice

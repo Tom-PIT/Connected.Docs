@@ -1,6 +1,6 @@
 <!-- app_route: /resources/resource-costs -->
 <!-- app_label: Trošak resursa -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Upravljanje/TroskoviResursa.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Upravljanje/TroskoviResursa/ -->
 <!-- canonical_source_title: Trošak resursa -->
 
 # Trošak resursa

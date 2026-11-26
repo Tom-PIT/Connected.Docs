@@ -1,6 +1,6 @@
 <!-- app_route: /management/processes/protocol-operation-templates -->
 <!-- app_label: Pravilnici za operacije -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/PravilniciZaOperacije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/PravilniciZaOperacije/ -->
 <!-- canonical_source_title: Pravilnici za operacije -->
 
 # Pravilnici za operacije

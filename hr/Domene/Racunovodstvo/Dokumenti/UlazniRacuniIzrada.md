@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/documents/received-invoices -->
+<!-- app_label: Kreiraj novi ulazni račun -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Dokumenti/UlazniRacuniIzrada/ -->
+<!-- canonical_source_title: Kako stvoriti novi ulazni račun -->
+
 # Kako stvoriti novi ulazni račun
 
 [Ulazni računi](UlazniRacuni.md) stvaraju se radi evidencije računa primljenih od dobavljača. Mogu se povezati s jednom ili više [narudžbenica](../../Nabava/Dokumenti/Narudzbenice.md), što sustavu omogućuje da predloži knjiženja na temelju primljene robe ili usluga i njihovih troškova.

@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Concepts/MenuActions/ -->
+<!-- canonical_source_title: Menu actions -->
+
 # Menu actions
 
 Many screens provide additional actions through the **Menu** located in the top-right corner of the page.

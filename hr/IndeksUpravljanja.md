@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/IndeksUpravljanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/IndeksUpravljanja/ -->
 <!-- canonical_source_title: Indeks upravljanja -->
 
 # Indeks upravljanja

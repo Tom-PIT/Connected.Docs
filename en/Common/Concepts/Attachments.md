@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Concepts/Attachments/ -->
+<!-- canonical_source_title: Attachments -->
+
 # Attachments
 
 The **Attachments** section is available at the top of most documents and records throughout the system.

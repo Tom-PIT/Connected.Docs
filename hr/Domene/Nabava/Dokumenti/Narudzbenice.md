@@ -1,6 +1,6 @@
 <!-- app_route: /supply/documents/supply-orders -->
 <!-- app_label: Narudžbenice dobavljača -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Nabava/Dokumenti/Narudzbenice.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Nabava/Dokumenti/Narudzbenice/ -->
 <!-- canonical_source_title: Narudžbenice dobavljača -->
 
 # Narudžbenice dobavljača

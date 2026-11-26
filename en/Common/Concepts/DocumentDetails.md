@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Common/Concepts/DocumentDetails/ -->
+<!-- canonical_source_title: Document details -->
+
 # Document details
 
 The **Document details** section contains the individual lines that make up a document.

@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/schedule -->
 <!-- app_label: Raspored održavanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/Dokumenti/RasporedOdrzavanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Odrzavanje/Dokumenti/RasporedOdrzavanja/ -->
 <!-- canonical_source_title: Raspored održavanja -->
 
 # Raspored održavanja

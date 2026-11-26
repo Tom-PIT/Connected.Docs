@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/ -->
+<!-- canonical_source_title: Tom PIT.Connected documentation -->
+
 # Tom PIT.Connected documentation
 
 Welcome to the documentation portal for **Tom PIT.Connected**.

@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/reminders -->
 <!-- app_label: Podsjetnici -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/Reminders.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Pogledi/Podsjetnici/ -->
 <!-- canonical_source_title: Podsjetnici -->
 
 # Podsjetnici

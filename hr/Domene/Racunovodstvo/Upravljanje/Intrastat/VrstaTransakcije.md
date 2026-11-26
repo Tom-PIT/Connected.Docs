@@ -1,6 +1,6 @@
 <!-- app_route: /management/intrastat/nature-of-transactions -->
 <!-- app_label: Vrsta transakcije -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/Intrastat/VrstaTransakcije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/Intrastat/VrstaTransakcije/ -->
 <!-- canonical_source_title: Vrsta transakcije -->
 
 # Vrsta transakcije

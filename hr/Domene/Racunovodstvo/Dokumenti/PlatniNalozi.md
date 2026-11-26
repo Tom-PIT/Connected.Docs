@@ -1,3 +1,8 @@
+<!-- app_route: /accounting/bank/payment-orders -->
+<!-- app_label: Platni nalozi -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Dokumenti/PlatniNalozi/ -->
+<!-- canonical_source_title: Platni nalozi -->
+
 # Platni nalozi
 
 Ekran **Platni nalozi** služi za stvaranje i upravljanje odlaznim nalozima za plaćanje vanjskim primateljima, kao što su dobavljači ili pružatelji usluga. Platni nalozi predstavljaju namjeru plaćanja i prate životni ciklus plaćanja od nacrta do plaćenog statusa.

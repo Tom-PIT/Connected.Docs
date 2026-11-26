@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/receives -->
 <!-- app_label: Primke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/Primke.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/Primke/ --> 
 <!-- canonical_source_title: Primke -->
 
 # Primke

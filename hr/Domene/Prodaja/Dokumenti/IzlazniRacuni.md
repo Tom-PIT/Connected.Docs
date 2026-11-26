@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/issued-invoices -->
 <!-- app_label: Izlazni računi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/IzlaniRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Dokumenti/IzlazniRacuni/ -->
 <!-- canonical_source_title: Izlazni računi -->
 
 # Izlazni računi

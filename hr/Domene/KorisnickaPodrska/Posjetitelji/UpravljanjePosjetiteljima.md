@@ -1,6 +1,6 @@
 <!-- app_route: /customers/visitors/management -->
 <!-- app_label: Upravljanje posjetiteljima -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/KorisnickaPodrska/Posjetitelji/UpravljanjePosjetiteljima.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/KorisnickaPodrska/Posjetitelji/UpravljanjePosjetiteljima/ -->
 <!-- canonical_source_title: Upravljanje posjetiteljima -->
 
 # Upravljanje posjetiteljima

@@ -1,6 +1,6 @@
 <!-- app_route: /management/materials/raw-materials -->
 <!-- app_label: Raw materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/Sirovine.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/RobaIUsluge/Materijali/Sirovine/ -->
 <!-- canonical_source_title: Sirovine -->
 
 # Sirovine

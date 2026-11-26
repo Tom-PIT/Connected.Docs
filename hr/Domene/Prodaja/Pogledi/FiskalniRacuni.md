@@ -1,6 +1,6 @@
 <!-- app_route: /sales/views/fiscal-invoices -->
 <!-- app_label: Fiskalni računi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Pogledi/FiskalniRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Pogledi/FiskalniRacuni/ -->
 <!-- canonical_source_title: Fiskalni računi -->
 
 # Fiskalni računi

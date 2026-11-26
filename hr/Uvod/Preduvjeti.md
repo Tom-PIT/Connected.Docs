@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/Preduvjeti.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Uvod/Preduvjeti/ -->
 <!-- canonical_source_title: Preduvjeti -->
 
 # Preduvjeti

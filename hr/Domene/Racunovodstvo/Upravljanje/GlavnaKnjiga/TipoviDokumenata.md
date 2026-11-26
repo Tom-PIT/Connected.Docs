@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/document-types -->
 <!-- app_label: Tipovi dokumenata -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/TipoviDokumenata.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/TipoviDokumenata/ -->
 <!-- canonical_source_title: Tipovi dokumenata -->
 
 # Tipovi dokumenata

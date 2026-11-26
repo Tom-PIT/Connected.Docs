@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/stock/index -->
 <!-- app_label: Zaliha -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Upravljanje/Zaliha.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Pogledi/Zaliha/ -->
 <!-- canonical_source_title: Zaliha -->
 
 # Zaliha

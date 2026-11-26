@@ -1,6 +1,6 @@
 <!-- app_route: /production/documents/consumptions --> 
 <!-- app_label: Potrošnje --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/Potrosnje.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/Potrosnje/ --> 
 <!-- canonical_source_title: Potrošnje -->
 
 # Potrošnje

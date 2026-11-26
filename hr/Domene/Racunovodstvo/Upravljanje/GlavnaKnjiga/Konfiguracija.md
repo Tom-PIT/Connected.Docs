@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/configuration -->
 <!-- app_label: Konfiguracija -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konfiguracija.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/GlavnaKnjiga/Konfiguracija/ -->
 <!-- canonical_source_title: Konfiguracija -->
 
 # Konfiguracija

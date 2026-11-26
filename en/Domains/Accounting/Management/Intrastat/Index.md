@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Accounting/Management/Intrastat/Index/ -->
+<!-- canonical_source_title: Intrastat -->
+
 # Intrastat
 
 **Intrastat** is the European Union’s system for collecting statistics on the trade in goods between EU Member States. Businesses that dispatch (send) or arrive (receive) goods across EU borders must submit monthly Intrastat declarations once they exceed national thresholds.

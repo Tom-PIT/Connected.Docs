@@ -1,6 +1,6 @@
 <!-- app_route: /supply/views/supply-orders-reports -->
 <!-- app_label: Izvješće o narudžbama -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Nabava/Pregledi/IzvjesceONarudzbama.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Nabava/Pregledi/IzvjesceONarudzbama/ -->
 <!-- canonical_source_title: Izvješće o narudžbama -->
 
 # Izvješće o narudžbama

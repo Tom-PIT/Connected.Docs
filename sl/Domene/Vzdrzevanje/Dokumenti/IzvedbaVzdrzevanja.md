@@ -1,3 +1,8 @@
+<!-- app_route: /maintenance-orders/execution -->
+<!-- app_label: Izvedba vzdrževanja -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Vzdrzevanje/Dokumenti/IzvedbaVzdrzevanja/ -->
+<!-- canonical_source_title: Izvedba vzdrževanja -->
+
 # Izvedba vzdrževanja
 
 Zaslon **Izvedba vzdrževanja** je namenjen izvajanju in beleženju dela na vzdrževalnih nalogih.

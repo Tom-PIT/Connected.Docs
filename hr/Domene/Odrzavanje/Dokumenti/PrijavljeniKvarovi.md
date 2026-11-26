@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/tickets -->
 <!-- app_label: Prijavljeni kvarovi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/Dokumenti/PrijavljeniKvarovi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Odrzavanje/Dokumenti/PrijavljeniKvarovi/ -->
 <!-- canonical_source_title: Prijavljeni kvarovi -->
 
 # Prijavljeni kvarovi

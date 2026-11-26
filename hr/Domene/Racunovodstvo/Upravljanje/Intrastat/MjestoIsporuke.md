@@ -1,6 +1,6 @@
 <!-- app_route: /management/intrastat/place-of-delivery -->
 <!-- app_label: Mjesto isporuke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/Intrastat/MjestoIsporuke.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/Intrastat/MjestoIsporuke/ -->
 <!-- canonical_source_title: Mjesto isporuke -->
 
 # Mjesto isporuke

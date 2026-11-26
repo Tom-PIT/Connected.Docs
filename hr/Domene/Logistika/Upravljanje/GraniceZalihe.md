@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/stock-boundaries -->
 <!-- app_label: Granice zalihe -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Upravljanje/GraniceZalihe.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Upravljanje/GraniceZalihe/ -->
 <!-- canonical_source_title: Granice zalihe -->
 
 # Granice zalihe

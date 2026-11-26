@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Skupno/Koncepti/MeniDejanja/ -->
+<!-- canonical_source_title: Dejanja menija -->
+
 # Dejanja menija
 
 Številni zasloni omogočajo dodatna dejanja prek **menija**, ki se nahaja v zgornjem desnem kotu strani.

@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/proforma-invoices -->
 <!-- app_label: Avansni računi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/AvansniRacuni.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Dokumenti/AvansniRacuni/ -->
 <!-- canonical_source_title: Avansni računi -->
 
 # Avansni računi

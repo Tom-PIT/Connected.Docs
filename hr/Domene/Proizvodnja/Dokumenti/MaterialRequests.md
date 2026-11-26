@@ -1,6 +1,6 @@
 <!-- app_route: /logistics/documents/material-requests -->
 <!-- app_label: Material requests -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Dokumenti/MaterialRequests.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Dokumenti/MaterialRequests/ -->
 <!-- canonical_source_title: Material requests -->
 
 # Material requests

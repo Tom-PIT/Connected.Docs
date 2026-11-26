@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/loss-summary -->
 <!-- app_label: Sažetak gubitka (škarta) -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/SazetakGubitka.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Analiza/SazetakGubitka/ -->
 <!-- canonical_source_title: Sažetak gubitka (škarta) -->
 
 # Sažetak gubitka (škarta)

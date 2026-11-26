@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance/analytics/kpis -->
 <!-- app_label: Ključni pokazatelji održavanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/Analiza/KljucniPokazateljiOdrzavanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Odrzavanje/Analiza/KljucniPokazateljiOdrzavanja/ -->
 <!-- canonical_source_title: Ključni pokazatelji održavanja -->
 
 # Ključni pokazatelji održavanja

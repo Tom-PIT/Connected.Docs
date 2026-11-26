@@ -1,6 +1,6 @@
 <!-- app_route: /warehouse/documents/inter-move --> 
 <!-- app_label: Move serialPremještaj spremnika --> 
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Dokumenti/PremjestajSpremnika.md --> 
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Dokumenti/PremjestajSpremnika/ --> 
 <!-- canonical_source_title: Premještaj spremnika -->
 
 # Premještaj spremnika

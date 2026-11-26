@@ -1,6 +1,6 @@
 <!-- app_route: /management/check-lists/create -->
 <!-- app_label: Izrada kontrolnih popisa -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Kvaliteta/Upravljanje/KontrolniPopisiIzrada.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Kvaliteta/Upravljanje/KontrolniPopisiIzrada/ -->
 <!-- canonical_source_title: Izrada kontrolnih popisa -->
 
 # Izrada kontrolnih popisa

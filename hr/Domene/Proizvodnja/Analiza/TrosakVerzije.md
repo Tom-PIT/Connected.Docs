@@ -1,7 +1,7 @@
 <!-- app_route: /management/processes -->
 <!-- app_label: Procesi -->
 <!-- app_navigation_hint: Otvorite proces i kliknite vrijednost troška željene verzije. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/TrosakVerzije.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Analiza/TrosakVerzije/ -->
 <!-- canonical_source_title: Analiza troška verzije -->
 
 # Analiza troška verzije

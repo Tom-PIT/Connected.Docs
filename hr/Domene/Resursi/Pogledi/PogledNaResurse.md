@@ -1,6 +1,6 @@
 <!-- app_route: /resources/resource -->
 <!-- app_label: Pogled na resurse -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/ResourceView.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Pogledi/PogledNaResurse/ -->
 <!-- canonical_source_title: Pogled na resurse -->
 
 # Pogled na resurse

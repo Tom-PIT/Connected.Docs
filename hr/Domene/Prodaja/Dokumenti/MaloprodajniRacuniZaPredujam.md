@@ -1,6 +1,6 @@
 <!-- app_route: /sales/documents/retail-prepayments -->
 <!-- app_label: Maloprodajni računi za predujam -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/en/Domains/Sales/Documents/MaloprodajniRacuniZaPredujam.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Dokumenti/MaloprodajniRacuniZaPredujam/ -->
 <!-- canonical_source_title: Maloprodajni računi za predujam -->
 
 # Maloprodajni računi za predujam

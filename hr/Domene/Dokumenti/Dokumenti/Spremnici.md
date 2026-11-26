@@ -1,6 +1,6 @@
 <!-- app_route: /documents/containers -->
 <!-- app_label: Spremnici -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Dokumenti/Dokumenti/Spremnici.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Dokumenti/Dokumenti/Spremnici/ -->
 <!-- canonical_source_title: Spremnici -->
 
 # Spremnici

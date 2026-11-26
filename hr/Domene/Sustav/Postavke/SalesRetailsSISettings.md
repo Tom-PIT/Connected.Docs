@@ -1,7 +1,7 @@
 <!-- app_route: /management/configuration -->
 <!-- app_label: Konfiguracija -->
 <!-- app_navigation_hint: Otvorite **Konfiguracija** u glavnoj navigaciji, zatim **Postavke Sales Retail SI**. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Sustav/Postavke/SalesRetailsSISettings.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Sustav/Postavke/SalesRetailsSISettings/ -->
 <!-- canonical_source_title: Postavke Sales Retail SI -->
 
 # Postavke Sales Retail SI

@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap -->
 <!-- app_label: Sitemap -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/UI/AkcijskiGumb.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/UI/AkcijskiGumb/ -->
 <!-- canonical_source_title: Akcijski gumb -->
 
 # Akcijski gumb

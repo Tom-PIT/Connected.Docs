@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/predefined-texts -->
 <!-- app_label: Unaprijed pripremljeni tekstovi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/UnaprijedPripremljeniTekstovi/ -->
 <!-- canonical_source_title: Unaprijed pripremljeni tekstovi -->
 
 # Unaprijed pripremljeni tekstovi

@@ -1,6 +1,6 @@
 <!-- app_route: /management/common/delivery-terms -->
 <!-- app_label: Uvjeti isporuke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/UvjetiIsporuke.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/UvjetiIsporuke/ -->
 <!-- canonical_source_title: Uvjeti isporuke -->
 
 # Uvjeti isporuke

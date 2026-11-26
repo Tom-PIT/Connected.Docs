@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/views/open-items -->
 <!-- app_label: Otvorene stavke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Pregledi/OtvoreneStavke.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Pregledi/OtvoreneStavke/ -->
 <!-- canonical_source_title: Otvorene stavke -->
 
 # Otvorene stavke

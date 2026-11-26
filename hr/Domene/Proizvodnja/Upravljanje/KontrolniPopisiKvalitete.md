@@ -2,7 +2,7 @@
 <!-- app_label: Procesi -->
 <!-- app_navigation_hint: Razina procesa: otvorite proces, odaberite odgovarajuću verziju i otvorite **Kvaliteta**.
 Razina operacije: otvorite proces, odaberite verziju, kliknite **Operacije**, a zatim otvorite **Kvaliteta** za odgovarajuću operaciju. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Upravljanje/KontrolniPopisiKvalitete.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Upravljanje/KontrolniPopisiKvalitete/ -->
 <!-- canonical_source_title: Kvaliteta — Kontrolni popisi izvođenja -->
 
 # Kvaliteta — Kontrolni popisi izvođenja

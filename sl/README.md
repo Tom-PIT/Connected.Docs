@@ -1,3 +1,6 @@
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/ -->
+<!-- canonical_source_title: Tom PIT.Connected dokumentacija -->
+
 # Tom PIT.Connected dokumentacija
 
 Dobrodošli v dokumentacijskem portalu platforme **Tom PIT.Connected**.

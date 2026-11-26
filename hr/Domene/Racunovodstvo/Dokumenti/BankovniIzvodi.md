@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/bank-statements -->
 <!-- app_label: Bankovni izvodi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Dokumenti/BankovniIzvodi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Dokumenti/BankovniIzvodi/ -->
 <!-- canonical_source_title: Bankovni izvodi -->
 
 # Bankovni izvodi

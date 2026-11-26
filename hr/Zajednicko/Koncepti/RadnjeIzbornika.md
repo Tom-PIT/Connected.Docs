@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Koncepti/RadnjeIzbornika.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Koncepti/RadnjeIzbornika/ -->
 <!-- canonical_source_title: Radnje izbornika -->
 
 # Radnje izbornika

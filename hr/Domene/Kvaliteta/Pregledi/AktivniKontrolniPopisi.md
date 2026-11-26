@@ -1,6 +1,6 @@
 <!-- app_route: /quality/views/active-checklists -->
 <!-- app_label: Aktivni kontrolni popisi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Kvaliteta/Pregledi/AktivniKontrolniPopisi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Kvaliteta/Pregledi/AktivniKontrolniPopisi/ -->
 <!-- canonical_source_title: Aktivni kontrolni popisi -->
 
 # Aktivni kontrolni popisi

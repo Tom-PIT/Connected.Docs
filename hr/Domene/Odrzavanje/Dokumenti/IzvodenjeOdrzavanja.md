@@ -1,6 +1,6 @@
 <!-- app_route: maintenance-orders/execution -->
 <!-- app_label: Izvođenje održavanja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/Dokumenti/IzvodenjeOdrzavanja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Odrzavanje/Dokumenti/IzvodenjeOdrzavanja/ -->
 <!-- canonical_source_title: Izvođenje održavanja -->
 
 # Izvođenje održavanja

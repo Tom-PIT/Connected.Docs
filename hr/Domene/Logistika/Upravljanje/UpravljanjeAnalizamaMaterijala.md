@@ -1,6 +1,6 @@
 <!-- app_route: /management/warehouse/material-analysis -->
 <!-- app_label: Upravljanje analizama materijala -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Logistika/Upravljanje/UpravljanjeAnalizamaMaterijala.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Logistika/Upravljanje/UpravljanjeAnalizamaMaterijala/ -->
 <!-- canonical_source_title: Upravljanje analizama materijala -->
 
 # Upravljanje analizama materijala

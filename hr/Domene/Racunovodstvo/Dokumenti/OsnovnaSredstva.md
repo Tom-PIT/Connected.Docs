@@ -1,6 +1,6 @@
 <!-- app_route: /accounting/ledger/fixed-assets -->
 <!-- app_label: Osnovna sredstva -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Dokumenti/OsnovnaSredstva.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Dokumenti/OsnovnaSredstva/ -->
 <!-- canonical_source_title: Osnovna sredstva -->
 
 # Osnovna sredstva

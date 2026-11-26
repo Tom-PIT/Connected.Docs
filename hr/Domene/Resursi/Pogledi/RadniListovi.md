@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/worksheets -->
 <!-- app_label: Radni listovi -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/RadniListovi.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Pogledi/RadniListovi/ -->
 <!-- canonical_source_title: Radni listovi -->
 
 # Radni listovi

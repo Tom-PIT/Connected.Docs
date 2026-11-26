@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/kpis -->
 <!-- app_label: Ključni pokazatelji uspješnosti proizvodnje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/KljucniPokazateljiProizvodnje.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Analiza/KljucniPokazateljiProizvodnje/ -->
 <!-- canonical_source_title: Ključni pokazatelji uspješnosti proizvodnje -->
 
 # Ključni pokazatelji uspješnosti proizvodnje

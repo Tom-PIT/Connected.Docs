@@ -1,6 +1,6 @@
 <!-- app_route: /maintenance-orders/create -->
 <!-- app_label: Kreiraj nalog za održavanje -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Odrzavanje/Dokumenti/NaloziZaOdrzavanjeIzrada.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Odrzavanje/Dokumenti/NaloziZaOdrzavanjeIzrada/ -->
 <!-- canonical_source_title: Kreiraj nalog za održavanje -->
 
 # Kako izraditi novi nalog za održavanje

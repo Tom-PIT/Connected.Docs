@@ -1,7 +1,7 @@
 <!-- app_route: /sales/documents/sales-orders -->
 <!-- app_label: Narudžbe kupca -->
 <!-- app_navigation_hint: Otvorite Narudžbe kupca, zatim kliknite akcijski gumb za izradu nove narudžbe u nacrtu. -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Dokumenti/NarudzbeKupca.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Dokumenti/NarudzbeKupcaIzrada/ -->
 <!-- canonical_source_title: Kako izraditi narudžbu kupca -->
 
 # Kako izraditi narudžbu kupca

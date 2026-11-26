@@ -1,6 +1,6 @@
 <!-- app_route: /production/analytics/equipment -->
 <!-- app_label: Sažetak stroja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/SazetakStroja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Analiza/SazetakStroja/ -->
 <!-- canonical_source_title: Sažetak stroja -->
 
 # Sažetak stroja

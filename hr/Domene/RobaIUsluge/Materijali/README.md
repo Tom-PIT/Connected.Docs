@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/assets.materials -->
 <!-- app_label: Materials -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/RobaIUsluge/Materijali/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/RobaIUsluge/Materijali/ -->
 <!-- canonical_source_title: Materijali -->
 
 # Materijali

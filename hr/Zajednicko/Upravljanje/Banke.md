@@ -1,6 +1,6 @@
 <!-- app_route: /management/common-types/banks -->
 <!-- app_label: Banke -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Zajednicko/Upravljanje/Banke.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Zajednicko/Upravljanje/Banke/ -->
 <!-- canonical_source_title: Banke -->
 
 # Banke

@@ -1,6 +1,6 @@
 <!-- app_route: /sales/views/sales-order-reports -->
 <!-- app_label: Izvješće o narudžbama kupcu -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Prodaja/Pogledi/IzvjesceONarudzbamaKupcu.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Prodaja/Pogledi/IzvjesceONarudzbamaKupcu/ -->
 <!-- canonical_source_title: Izvješće o narudžbama kupcu -->
 
 # Izvješće o narudžbama kupcu

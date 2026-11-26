@@ -1,4 +1,4 @@
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Uvod/PonovnaNabavaIliProizvodnja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Uvod/PonovnaNabavaIliProizvodnja/ -->
 <!-- canonical_source_title: Ponovna nabava ili proizvodnja -->
 
 # Ponovna nabava ili proizvodnja

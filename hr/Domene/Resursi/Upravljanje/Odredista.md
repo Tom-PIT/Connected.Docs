@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/destinations -->
 <!-- app_label: Odredišta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Upravljanje/Odredista.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Upravljanje/Odredista/ -->
 <!-- canonical_source_title: Odredišta -->
 
 # Odredišta

@@ -1,6 +1,6 @@
 <!-- app_route: /time-logs/attendance -->
 <!-- app_label: Prisutnost na poslu -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Pogledi/TimeLogsAttendanceAtWork.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Pogledi/PrisutnostNaPoslu/ -->
 <!-- canonical_source_title: Prisutnost na poslu -->
 
 # Prisutnost na poslu

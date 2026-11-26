@@ -1,6 +1,6 @@
 <!-- app_route: /sitemap/documents -->
 <!-- app_label: Dokumenti -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Dokumenti/README.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Dokumenti/ -->
 <!-- canonical_source_title: Domena Dokumenti -->
 
 # Domena Dokumenti

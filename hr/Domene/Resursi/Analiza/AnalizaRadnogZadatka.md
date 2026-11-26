@@ -1,6 +1,6 @@
 <!-- app_route: /resources/views/work-item-analysis -->
 <!-- app_label: Analiza radnog zadataka -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Analiza/AnalizaRadnogZadatka.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Analiza/AnalizaRadnogZadatka/ -->
 <!-- canonical_source_title: Analiza radnog zadataka -->
 
 # Analiza radnog zadataka

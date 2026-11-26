@@ -1,6 +1,6 @@
 <!-- app_route: /management/ledger/asset-account-connections -->
 <!-- app_label: Poveznice robe/usluge i konta -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Racunovodstvo/Upravljanje/Racuni/PoveznicaRobeIKonta.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Racunovodstvo/Upravljanje/Racuni/PoveznicaRobeIKonta/ -->
 <!-- canonical_source_title: Poveznice robe/usluge i konta -->
 
 # Poveznice robe/usluge i konta

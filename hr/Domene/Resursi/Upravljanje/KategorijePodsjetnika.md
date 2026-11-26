@@ -1,6 +1,6 @@
 <!-- app_route: /management/resources/reminder-categories -->
 <!-- app_label: Kategorije podsjetnika -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Resursi/Upravljanje/KategorijePodsjetnika.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Resursi/Upravljanje/KategorijePodsjetnika/ -->
 <!-- canonical_source_title: Kategorije podsjetnika -->
 
 # Kategorije podsjetnika

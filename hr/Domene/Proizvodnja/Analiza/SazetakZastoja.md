@@ -1,6 +1,6 @@
 <!-- app_route: /analytics/downtime-summary -->
 <!-- app_label: Sažetak zastoja -->
-<!-- canonical_source_url: https://github.com/Tom-PIT/Connected.Docs/blob/main/hr/Domene/Proizvodnja/Analiza/SazetakZastoja.md -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/hr/Domene/Proizvodnja/Analiza/SazetakZastoja/ -->
 <!-- canonical_source_title: Sažetak zastoja -->
 
 # Sažetak zastoja
