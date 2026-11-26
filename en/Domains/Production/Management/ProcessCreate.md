@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Processes -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/en/Domains/Production/Management/ProcessCreate/ -->
+<!-- canonical_source_title: How to create a process -->
+
 # How to create a process
 
 Processes define how materials, resources, operations, and quality controls are combined to perform a specific activity.
@@ -32,6 +37,8 @@ Open **Production / Management / Processes**.
 4. Click **Add**.
 
 The process is now created.
+
+To base the new process on an existing one, select **Copy existing** instead of **New**.
 
 > [!WARNING]
 > Make sure the **Production** tag is assigned, otherwise the process will not be available when creating production orders.
@@ -93,15 +100,7 @@ To add operations:
 
 3. Click the [action button](../../../Common/UI/ActionButton.md) and select **New**.
 
-4. Enter the operation information:
-
-   * **Name**
-   * **Description** (optional)
-   * **Ordinal**
-   * **Start condition**
-   * **Activation sub-status**
-   * **Default organization unit**
-   * **Article** (optional)
+4. Enter the operation information, starting with the **Name**. For a description of every field, see [Operations](Operations.md).
 
 5. Click **Add**.
 

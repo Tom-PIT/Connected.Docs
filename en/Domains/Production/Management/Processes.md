@@ -70,16 +70,13 @@ The left-side panel provides filters for:
 
 ## Create a new process
 
+For a step-by-step guide, see [How to create a process](ProcessCreate.md).
+
 1. Click the [action button](../../../Common/UI/ActionButton.md) and select **New** or **Copy existing**.
-2. Fill in the following fields:  
-   - **Name** – Required  
-   - **Description** – Optional  
-   - **Tags** – Optional, but **required** to link the process to specific areas. For example:  
-     - Add the **Production** tag to make the process available when creating a new [**Production order**](../Documents/ProductionOrders.md).  
-     - Add the **Maintenance** tag to make the process available when creating a new [**Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md).
-
-    ![New process](../Images/ProcessesNew1.png "New process")
-
+2. Fill in the following fields:
+   - **Name** – Required
+   - **Description** – Optional
+   - **Tags** – Optional, but **required** to link the process to specific areas. Add the **Production** tag to make the process available when creating a new [**Production order**](../Documents/ProductionOrders.md), or the **Maintenance** tag to make it available when creating a new [**Maintenance order**](../../Maintenance/Documents/MaintenanceOrders.md).
 3. Click **Add** to create the new process.
 
 > [!WARNING]

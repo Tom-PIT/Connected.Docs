@@ -77,16 +77,13 @@ Na lijevoj strani dostupni su sljedeći filtri:
 
 ## Dodavanje procesa
 
+Korak po korak upute za kreiranje procesa potražite u [**Kako kreirati proces**](ProcesiIzrada.md).
+
 1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novi** ili **Kopiraj postojeći**.
 2. Unesite sljedeće podatke:
     - **Naziv** – Obavezno.
     - **Opis** – Nije obavezno.
-    - **Oznake** – Nisu obavezne, ali su **potrebne** kako bi proces bio dostupan u određenom području.
-        - Dodajte oznaku **Proizvodnja** kako bi proces bio dostupan prilikom izrade novog [**Proizvodnog naloga**](../Dokumenti/ProizvodniNalozi.md).
-        - Dodajte oznaku **Održavanje** kako bi proces bio dostupan prilikom izrade novog [**Naloga za održavanje**](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md).
-
-    ![Novi proces](../Images/ProcessesNewHR.png "Novi proces")
-
+    - **Oznake** – Nisu obavezne, ali su **potrebne** kako bi proces bio dostupan u određenom području. Dodajte oznaku **Proizvodnja** za [**Proizvodni nalog**](../Dokumenti/ProizvodniNalozi.md), odnosno oznaku **Održavanje** za [**Nalog za održavanje**](../../Odrzavanje/Dokumenti/NaloziZaOdrzavanje.md).
 3. Kliknite **Dodaj**.
 
 > [!WARNING]

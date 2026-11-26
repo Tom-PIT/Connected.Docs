@@ -65,6 +65,8 @@ Meni v zgornjem desnem kotu seznama omogoča dejanja za vse operacije v različi
 
 ## Ustvariti novo operacijo
 
+Korak za korakom primer ustvarjanja celotnega procesa, vključno z operacijami, najdete v vodiču [Kako ustvariti proces](ProcesUstvarjanje.md).
+
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite:
    - **Novo**
    - **Po predlogi** – če so predloge na voljo v [**Predlogah za operacije**](PredlogeZaOperacije.md#uporaba-predlog-pri-ustvarjanju-operacij)

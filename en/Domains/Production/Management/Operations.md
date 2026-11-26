@@ -65,6 +65,8 @@ The menu in the top-right corner of the list provides actions for all operations
 
 ## Create a new operation
 
+For a step-by-step example that creates a complete process, including its operations, see [How to create a process](ProcessCreate.md).
+
 1. Click the [action button](../../../Common/UI/ActionButton.md) and choose:  
    - **New**  
    - **By template** - if templates are available in [**Protocol operations instance templates**](ProtocolOperationsInstanceTemplates.md#using-templates-when-creating-operations).

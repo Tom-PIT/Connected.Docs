@@ -1,3 +1,8 @@
+<!-- app_route: /management/processes -->
+<!-- app_label: Procesi -->
+<!-- canonical_source_url: https://tom-pit.github.io/Connected.Docs/sl/Domene/Proizvodnja/Upravljanje/ProcesUstvarjanje/ -->
+<!-- canonical_source_title: Kako ustvariti proces -->
+
 # Kako ustvariti proces
 
 Procesi določajo, kako so materiali, viri, operacije in kontrole kakovosti združeni za izvajanje določene aktivnosti.
@@ -34,6 +39,8 @@ Odprite **Proizvodnja / Upravljanje / Procesi**.
 4. Kliknite **Dodaj**.
 
 Proces je zdaj ustvarjen.
+
+Če želite nov proces ustvariti na podlagi obstoječega, izberite **Kopiraj obstoječega** namesto **Nov**.
 
 > [!WARNING]
 > Prepričajte se, da je dodeljena oznaka **Proizvodnja**, sicer proces ne bo na voljo pri ustvarjanju proizvodnih nalogov.
@@ -95,15 +102,7 @@ Za dodajanje operacij:
 
 3. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Novo**.
 
-4. Vnesite podatke operacije:
-
-   * **Naziv**
-   * **Opis** (neobvezno)
-   * **Vrstni red**
-   * **Pogoj za začetek**
-   * **Pod-status ob aktivaciji**
-   * **Privzeta organizacijska enota**
-   * **Članek** (neobvezno)
+4. Vnesite podatke operacije, začenši z **Nazivom**. Za opis vseh polj glejte [Operacije](Operacije.md).
 
 5. Kliknite **Dodaj**.
 

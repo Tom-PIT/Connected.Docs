@@ -70,6 +70,8 @@ Izbornik u gornjem desnom kutu popisa pruža radnje za sve operacije u verziji o
 
 ## Dodavanje operacije
 
+Korak po korak primjer s kreiranjem cijelog procesa, uključujući operacije, potražite u [Kako kreirati proces](ProcesiIzrada.md).
+
 1. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite jednu od sljedećih opcija:
     - **Novi**
     - **Iz predloška** – ako su dostupni predlošci u dokumentu [**Predlošci instanci operacija protokola**](PravilniciZaOperacije.md#dodavanje-pravilnika-za-operaciju).

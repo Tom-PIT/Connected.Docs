@@ -34,6 +34,8 @@ Otvorite **Proizvodnja / Upravljanje / Procesi**.
 
 Proces je sada kreiran.
 
+Da biste novi proces temeljili na postojećem, umjesto **Novi** odaberite **Kopiraj postojeći**.
+
 > [!WARNING]
 > Provjerite je li dodijeljena oznaka **Production**, inače proces neće biti dostupan prilikom kreiranja proizvodnih naloga.
 
@@ -88,16 +90,7 @@ Za dodavanje operacija:
    Prikazuje se popis operacija. Budući da je riječ o novoj verziji, popis je u početku prazan.
 
 3. Kliknite [akcijski gumb](../../../Zajednicko/UI/AkcijskiGumb.md) i odaberite **Novi**.
-4. Unesite:
-   * **Naziv**
-   * **Opis** (nije obavezno)
-   * **Redoslijed**
-   * **Uvjet za početak**
-   * **Podstatus aktivacije**
-   * **Utjecaj vremena**
-   * **Zadana organizacijska jedinica**
-   * **Članak** (nije obavezno)
-   * **Oznake** (nije obavezno)
+4. Unesite podatke operacije, počevši od **Naziva**. Za opis svih polja pogledajte [Operacije](Operacije.md).
 
 5. Kliknite **Dodaj**.
 6. Ponovite postupak dok ne dodate sve potrebne operacije.

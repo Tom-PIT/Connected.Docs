@@ -69,16 +69,13 @@ Levi stranski panel omogoča filtriranje po:
 
 ## Ustvariti nov proces
 
+Korak za korakom navodila za ustvarjanje procesa najdete v vodiču [**Kako ustvariti proces**](ProcesUstvarjanje.md).
+
 1. Kliknite [akcijski gumb](../../../Skupno/UI/AkcijskiGumb.md) in izberite **Nov** ali **Kopiraj obstoječega**.
 2. Izpolnite naslednja polja:
-   - **Naziv** – obvezno  
-   - **Opis** – neobvezno  
-   - **Oznake** – neobvezno, vendar **obvezne** za povezavo procesa z določenim področjem. Na primer:
-     - Dodajte oznako **Proizvodnja**, da bo proces na voljo pri ustvarjanju novega [**proizvodnega naloga**](../Dokumenti/ProizvodniNalogi.md).
-     - Dodajte oznako **Vzdrževanje**, da bo proces na voljo pri ustvarjanju novega [**vzdrževalnega naloga**](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md).
-
-   ![Nov proces](../Images/ProcessesNewSL.png "Nov proces")
-
+   - **Naziv** – obvezno
+   - **Opis** – neobvezno
+   - **Oznake** – neobvezno, vendar **obvezne** za povezavo procesa z določenim področjem. Dodajte oznako **Proizvodnja**, da bo proces na voljo pri ustvarjanju novega [**proizvodnega naloga**](../Dokumenti/ProizvodniNalogi.md), ali oznako **Vzdrževanje**, da bo na voljo pri ustvarjanju novega [**vzdrževalnega naloga**](../../Vzdrzevanje/Dokumenti/VzdrzevalniNalogi.md).
 3. Kliknite **Dodaj**, da ustvarite nov proces.
 
 > [!WARNING]
