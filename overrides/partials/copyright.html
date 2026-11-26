@@ -1,0 +1,17 @@
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  <div class="md-copyright__highlight">
+    This site uses anonymous page-view statistics and sets no cookies.
+    <a class="md-copyright__link" href="{{ base_url }}/WebsiteAnalytics/">Click here</a> for more information.
+  </div>
+  {% if not config.extra.generator == false %}
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  {% endif %}
+</div>

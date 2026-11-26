@@ -35,9 +35,7 @@ theme:
     - search.suggest
     - navigation.footer
 
-copyright: >
-  Copyright &copy; 2026 Tom PIT d.o.o. All rights reserved.<br>
-  This site uses anonymous page-view statistics and sets no cookies.
+copyright: Copyright &copy; 2026 Tom PIT d.o.o. All rights reserved.
 
 plugins:
   - search

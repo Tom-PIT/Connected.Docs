@@ -14,6 +14,7 @@
 # Site files (only docs-mkdocs tracks them): ignore everything under docs/ except index.md
 /docs/*
 !/docs/index.md
+!/docs/WebsiteAnalytics.md
 !/docs/javascripts/
 
 # Ignore site
